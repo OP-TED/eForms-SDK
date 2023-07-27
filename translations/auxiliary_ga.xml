@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Galician. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>auxiliary in Irish. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Bunús dlí</entry>
 <entry key="auxiliary|text|BT-08">Ról na heagraíochta</entry>
 <entry key="auxiliary|text|BT-36">Fad</entry>
@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Údarás inniúil</entry>
 <entry key="auxiliary|text|change">Athraigh</entry>
 <entry key="auxiliary|text|company">Ainm agus seoladh na cuideachta/an chumainn</entry>
-<entry key="auxiliary|text|concession-value">Lamháltas</entry>
+<entry key="auxiliary|text|concession-value">Luach lamháltais</entry>
 <entry key="auxiliary|text|conditions-contract">Coinníollacha a bhaineann leis an gconradh</entry>
 <entry key="auxiliary|text|conditions-participation">Coinníollacha maidir le rannpháirtíocht</entry>
 <entry key="auxiliary|text|contract-information">Eolas faoin gconradh</entry>
@@ -31,7 +31,7 @@
 <entry key="auxiliary|text|envisaged-start-duration-contract">Dáta tosaithe agus fad beartaithe an chonartha</entry>
 <entry key="auxiliary|text|essential-assets">Sócmhainní riachtanacha</entry>
 <entry key="auxiliary|text|estimated-duration">Fad measta</entry>
-<entry key="auxiliary|text|eu-funds-used">Eolas faoi chistí an Aontais Eorpaigh a úsáidtear chun an conradh a mhaoiniú</entry>
+<entry key="auxiliary|text|eu-funds-used">Faisnéis faoi Chistí an Aontais Eorpaigh</entry>
 <entry key="auxiliary|text|exclusion-grounds">Forais eisiaimh</entry>
 <entry key="auxiliary|text|framework-agreement">Creat-chomhaontú</entry>
 <entry key="auxiliary|text|further-info">Tuilleadh eolais, idirghabháil agus athbhreithniú</entry>
@@ -79,7 +79,8 @@
 <entry key="auxiliary|text|place-performance">An áit feidhmíochta</entry>
 <entry key="auxiliary|text|place-registration">An áit chlárúcháin</entry>
 <entry key="auxiliary|text|previous-planning">Eolas faoi fhógraí a bhí ann roimhe seo</entry>
-<entry key="auxiliary|text|procedure">Nós Imeachta</entry>
+<entry key="auxiliary|text|prize-information">Duais</entry>
+<entry key="auxiliary|text|procedure">Nós imeachta</entry>
 <entry key="auxiliary|text|procedure-terms">Téarmaí an nóis imeachta</entry>
 <entry key="auxiliary|text|procurement-documents">Doiciméid soláthair</entry>
 <entry key="auxiliary|text|procurement-terms">Téarmaí soláthair</entry>
@@ -106,9 +107,10 @@
 <entry key="auxiliary|text|submission-terms">Téarmaí na haighneachta</entry>
 <entry key="auxiliary|text|techniques">Teicnící</entry>
 <entry key="auxiliary|text|tender">Tairiscint</entry>
+<entry key="auxiliary|text|unpublished">neamhfhoilsithe</entry>
 <entry key="auxiliary|text|value">Luach</entry>
 <entry key="auxiliary|text|winner">Buaiteoir12</entry>
 <entry key="auxiliary|text|winner-info">Eolas faoi bhuaiteoirí</entry>
-<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
+<entry key="auxiliary|text|winner-lots">Buaiteoir na mbeart seo</entry>
 <entry key="auxiliary|text|winner-subcontractor">Fochonraitheoirí an bhuaiteora</entry>
 </properties>

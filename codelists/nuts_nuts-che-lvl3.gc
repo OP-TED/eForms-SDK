@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsCheLvl3</ShortName>
       <LongName>nuts-che-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -137,10 +137,10 @@
             <SimpleValue>CH012</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Valais/Wallis</SimpleValue>
+            <SimpleValue>Valais / Wallis</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Valais/Wallis</SimpleValue>
+            <SimpleValue>Valais / Wallis</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,10 +159,10 @@
             <SimpleValue>CH021</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bern/Berne</SimpleValue>
+            <SimpleValue>Bern / Berne</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bern/Berne</SimpleValue>
+            <SimpleValue>Bern / Berne</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,10 +170,10 @@
             <SimpleValue>CH022</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Fribourg/Freiburg</SimpleValue>
+            <SimpleValue>Fribourg / Freiburg</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Fribourg/Freiburg</SimpleValue>
+            <SimpleValue>Fribourg / Freiburg</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -313,10 +313,10 @@
             <SimpleValue>CH056</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Graubünden/Grigioni/Grischun</SimpleValue>
+            <SimpleValue>Graubünden / Grigioni / Grischun</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Graubünden/Grigioni/Grischun</SimpleValue>
+            <SimpleValue>Graubünden / Grigioni / Grischun</SimpleValue>
          </Value>
       </Row>
       <Row>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Applicability</ShortName>
@@ -306,7 +306,7 @@
             <SimpleValue>Yes</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>﻿﻿Sí</SimpleValue>
+            <SimpleValue>Sí</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
             <SimpleValue>Jah</SimpleValue>

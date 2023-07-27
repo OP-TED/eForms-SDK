@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.6.0",
+  "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.6.0",
-    "createdOn" : "2023-02-17T12:00:00"
+    "version" : "1.8.161",
+    "createdOn" : "2023-07-07T15:30:49"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -96,12 +96,6 @@
     "description" : "List of allowed Notice Subtype codes for a notice of CAN Public Transport Service Notice Type .",
     "_label" : "codelist|name|can-tran"
   }, {
-    "id" : "change",
-    "parentId" : "notice-type",
-    "filename" : "notice-type_change.gc",
-    "description" : "List of allowed Notice Subtype codes for a notice of Change Notice Type .",
-    "_label" : "codelist|name|change"
-  }, {
     "id" : "change-corrig-justification",
     "filename" : "change-corrig-justification.gc",
     "description" : "This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.",
@@ -162,11 +156,10 @@
     "description" : "List of codes used to specify the main and additional natures of a purchase",
     "_label" : "codelist|name|contract-nature"
   }, {
-    "id" : "corr",
-    "parentId" : "notice-subtype",
-    "filename" : "notice-subtype_corr.gc",
-    "description" : "List of allowed Notice Subtype codes for a notice of CN Design Notice Type.",
-    "_label" : "codelist|name|corr"
+    "id" : "corporate-body",
+    "filename" : "corporate-body.gc",
+    "description" : "The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.",
+    "_label" : "codelist|name|corporate-body"
   }, {
     "id" : "country",
     "filename" : "country.gc",
@@ -395,7 +388,7 @@
   }, {
     "id" : "legal-basis",
     "filename" : "legal-basis.gc",
-    "description" : "This table provides the legal basis  based on the legal acts  used for a given public procurement procedure. The table is provided by the Publications Office.",
+    "description" : "This table provides the legal basis based on the legal acts used for a given public procurement procedure. The table is provided by the Publications Office.",
     "_label" : "codelist|name|legal-basis"
   }, {
     "id" : "legal-basis-1",
@@ -756,6 +749,11 @@
     "description" : "List of codes to specify the purpose of the Business Register Information Notice",
     "_label" : "codelist|name|notice-purpose"
   }, {
+    "id" : "notice-reference",
+    "filename" : "notice-reference.gc",
+    "description" : "Notice reference type",
+    "_label" : "codelist|name|notice-reference"
+  }, {
     "id" : "notice-subtype",
     "filename" : "notice-subtype.gc",
     "description" : "List of possible Notice Subtype codes for a Notice of type Business Registration Information Notice.",
@@ -763,7 +761,7 @@
   }, {
     "id" : "notice-type",
     "filename" : "notice-type.gc",
-    "description" : "This table provides a list of public procurement notices  according to procurement legislation  published once a project is approved.",
+    "description" : "This table provides a list of public procurement notices according to procurement legislation published once a project is approved.",
     "_label" : "codelist|name|notice-type"
   }, {
     "id" : "number-fixed",
@@ -1022,7 +1020,7 @@
   }, {
     "id" : "organisation-role",
     "filename" : "organisation-role.gc",
-    "description" : "This table provides the list of the different  functions of the organisations in a procurement procedure.",
+    "description" : "This table provides the list of the different functions of the organisations in a procurement procedure.",
     "_label" : "codelist|name|organisation-role"
   }, {
     "id" : "organisation-role-service",
@@ -1082,6 +1080,11 @@
     "filename" : "notice-type_planning.gc",
     "description" : "List of allowed Notice Type codes for a Planning Form Type",
     "_label" : "codelist|name|planning"
+  }, {
+    "id" : "player-type",
+    "filename" : "player-type.gc",
+    "description" : "Type of role/subrole player",
+    "_label" : "codelist|name|player-type"
   }, {
     "id" : "postcode-country",
     "parentId" : "country",
@@ -1404,7 +1407,7 @@
   }, {
     "id" : "social-objective",
     "filename" : "social-objective.gc",
-    "description" : "List of codes for values  linked to any social objective promoted by the specifications, award / selection criteria or contract performance conditions included in a procurement.",
+    "description" : "List of codes for values linked to any social objective promoted by the specifications, award / selection criteria or contract performance conditions included in a procurement.",
     "_label" : "codelist|name|social-objective"
   }, {
     "id" : "social-service-cpv",
@@ -1415,7 +1418,7 @@
   }, {
     "id" : "strategic-procurement",
     "filename" : "strategic-procurement.gc",
-    "description" : "This table provides the values  linked to any social objective  promoted by the technical specifications, award criteria, selection criteria or contract performance conditions included in a procurement.",
+    "description" : "This table provides the values linked to any social objective promoted by the technical specifications, award criteria, selection criteria or contract performance conditions included in a procurement.",
     "_label" : "codelist|name|strategic-procurement"
   }, {
     "id" : "subco",
@@ -1445,6 +1448,11 @@
     "filename" : "indicator_tender-guarantee-required.gc",
     "description" : "List of codes to specify whether a Tender Guarantee is required or not.",
     "_label" : "codelist|name|tender-guarantee-required"
+  }, {
+    "id" : "tendered-object",
+    "filename" : "tendered-object.gc",
+    "description" : "Object type covered by the tender (lot, group of lots)",
+    "_label" : "codelist|name|tendered-object"
   }, {
     "id" : "tenderlot-presentation",
     "filename" : "tenderlot-presentation.gc",

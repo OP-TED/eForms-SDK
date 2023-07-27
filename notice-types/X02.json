@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.6.0",
+  "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.6.0",
-    "createdOn" : "2023-02-17T12:00:00"
+    "version" : "1.8.196",
+    "createdOn" : "2023-07-19T09:56:41"
   },
   "noticeId" : "X02",
   "metadata" : [ {
@@ -195,12 +195,20 @@
         "description" : "Date of registration",
         "_label" : "field|name|OPP-113-Business-European"
       }, {
-        "id" : "OPP-105-Business",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Sector of activity",
-        "_label" : "field|name|OPP-105-Business",
-        "_repeatable" : true
+        "id" : "GR-Business-Sector",
+        "contentType" : "group",
+        "nodeId" : "ND-BusinessCapability",
+        "displayType" : "GROUP",
+        "description" : "Business capability",
+        "_label" : "group|name|ND-BusinessCapability",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPP-105-Business",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Sector of activity",
+          "_label" : "field|name|OPP-105-Business"
+        } ]
       }, {
         "id" : "BT-505-Business",
         "contentType" : "field",

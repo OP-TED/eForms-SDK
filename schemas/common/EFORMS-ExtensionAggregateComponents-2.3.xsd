@@ -33,6 +33,7 @@
 	<xsd:element name="Change" type="ChangeType"/>
 	<xsd:element name="Changes" type="ChangesType"/>
 	<xsd:element name="ChangeReason" type="ReasonType"/>
+	<xsd:element name="ChangedSection" type="ChangedSectionType"/>
 	<xsd:element name="Company" type="CompanyType"/>
 	<xsd:element name="ConcessionRevenue" type="ConcessionRevenueType"/>
 	<xsd:element name="ContractAggregatedAmounts" type="ContractAggregatedAmountsType"/>
@@ -51,9 +52,11 @@
 	<xsd:element name="LotTender" type="LotTenderType"/>
 	<xsd:element name="MainContractor" type="MainContractorType"/>
 	<xsd:element name="Nationality" type="NationalityType"/>
+	<xsd:element name="NonOfficialLanguages" type="NonOfficialLanguagesType"/>
 	<xsd:element name="NoticePurpose" type="NoticePurposeType"/>
 	<xsd:element name="NoticeResult" type="NoticeResultType"/>
 	<xsd:element name="NoticeSubType" type="NoticeSubTypeType"/>
+	<xsd:element name="OfficialLanguages" type="OfficialLanguagesType"/>
 	<xsd:element name="Organization" type="OrganizationType"/>
 	<xsd:element name="Organizations" type="OrganizationsType"/>
 	<xsd:element name="Origin" type="OriginType"/>
@@ -188,10 +191,10 @@
 	</xsd:complexType>
 	<xsd:complexType name="ChangeType">
 		<xsd:sequence>
-			<xsd:element ref="efbc:ChangedSectionIdentifier" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:ChangeDescription" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:ProcurementDocumentsChangeDate" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:ProcurementDocumentsChangeIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:ChangedSection" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="ChangesType">
@@ -199,6 +202,11 @@
 			<xsd:element ref="efbc:ChangedNoticeIdentifier" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:Change" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:ChangeReason" minOccurs="0" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="ChangedSectionType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:ChangedSectionIdentifier" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="CompanyType">
@@ -279,7 +287,7 @@
 			<xsd:element ref="efbc:FieldIdentifierCode" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:ReasonCode" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:ReasonDescription" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efbc:PublicationDate" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:PublicationDate" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="FrameworkAgreementValuesType">
@@ -353,6 +361,11 @@
 			<xsd:element ref="cbc:NationalityID" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
+	<xsd:complexType name="NonOfficialLanguagesType">
+		<xsd:sequence>
+			<xsd:element ref="cac:Language" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
 	<xsd:complexType name="NoticeSubTypeType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:SubTypeCode" minOccurs="0" maxOccurs="1"/>
@@ -378,20 +391,19 @@
 			<xsd:element ref="efac:TenderingParty" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
+	<xsd:complexType name="OfficialLanguagesType">
+		<xsd:sequence>
+			<xsd:element ref="cac:Language" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
 	<xsd:complexType name="OrganizationType">
 		<xsd:sequence>
-			<xsd:choice minOccurs="0" maxOccurs="1">
-				<xsd:sequence>
-					<xsd:element ref="efbc:GroupLeadIndicator" minOccurs="0" maxOccurs="1"/>
-					<xsd:element ref="efbc:AcquiringCPBIndicator" minOccurs="0" maxOccurs="1"/>
-					<xsd:element ref="efbc:AwardingCPBIndicator" minOccurs="0" maxOccurs="1"/>
-				</xsd:sequence>
-				<xsd:sequence>
-					<xsd:element ref="efbc:ListedOnRegulatedMarketIndicator" minOccurs="0" maxOccurs="1"/>
-					<xsd:element ref="efbc:NaturalPersonIndicator" minOccurs="0" maxOccurs="1"/>
-					<xsd:element ref="efac:UltimateBeneficialOwner" minOccurs="0" maxOccurs="unbounded"/>
-				</xsd:sequence>
-			</xsd:choice>
+			<xsd:element ref="efbc:GroupLeadIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:AcquiringCPBIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:AwardingCPBIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:ListedOnRegulatedMarketIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:NaturalPersonIndicator" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:UltimateBeneficialOwner" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:Company" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:TouchPoint" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
@@ -511,6 +523,7 @@
 	<xsd:complexType name="TenderingPartyType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="cbc:Name" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:Tenderer" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:SubContractor" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>ContractNature</ShortName>
@@ -120,86 +120,6 @@
       </Column>
    </ColumnSet>
    <SimpleCodeList>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>combined</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Combined</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Комбинирани договори</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Kombinované smlouvy</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Kombinerede kontrakter</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Kombiniert Verträge</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Σε συνδυασμό συμβάσεις</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Combined</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Contratos combinados</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Kombineeritud lepingud</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Yhdistetyt sopimukset</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Contrats combinés</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Conarthaí Chomhcheangailte</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Kombinirani ugovori</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Kombinált szerződések</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Appalti misti</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Kombinuoti sutartys</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Kombinētie līgumi</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Kuntratti magħquda</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Gecombineerd contracten</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Połączone kontrakty</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Contratos combinados</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Contracte combinate</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Kombinované zmluvy</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Kombinirane pogodbe</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Kombinerade kontrakt</SimpleValue>
-         </Value>
-      </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>services</SimpleValue>

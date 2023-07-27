@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>LinguisticStatus</ShortName>
       <LongName>linguistic-status</LongName>
       <LongName Identifier="eFormsParentId">document-status</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.196</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Non-official linguistic version</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Неофициална езикова версия</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Neúřední jazyková verze</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Uofficiel sprogudgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nicht amtliche Sprachfassung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ανεπίσημη γλωσσική έκδοση</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Non-official linguistic version</SimpleValue>
+            <SimpleValue>Unofficial language version</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Versión lingüística no oficial</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Mitteametlik keeleversioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Epävirallinen kieliversio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Version linguistique non officielle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Leagan teanga neamhoifigiúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Neslužbena jezična verzija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nem hivatalos nyelvi változat</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Versione linguistica non ufficiale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Neoficialus vertimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Neoficiāla valodas versija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Verżjoni lingwistika mhux uffiċjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet-officiële taalversie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wersja w języku nieurzędowym</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Versão linguística não oficial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Versiune lingvistică neoficială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verzia v inom ako úradnom jazyku</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neuradna jezikovna različica</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Inofficiell språkversion</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Official linguistic version</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Официална езикова версия</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Úřední jazyková verze</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Officiel sprogudgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Amtliche Sprachfassung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Επίσημη γλωσσική έκδοση</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Official linguistic version</SimpleValue>
+            <SimpleValue>Official language version</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Versión lingüística oficial</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ametlik keeleversioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Virallinen kieliversio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Version linguistique officielle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Leagan teanga oifigiúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Službena jezična verzija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Hivatalos nyelvi változat</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Versione nella lingua ufficiale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Versija oficialiąja kalba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Oficiāla valodas versija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Verżjoni lingwistika uffiċjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Officiële taalversie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wersja w języku urzędowym</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Versão linguística oficial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Versiune lingvistică oficială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Verzia v úradnom jazyku</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Uradna jezikovna različica</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Officiell språkversion</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

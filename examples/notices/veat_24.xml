@@ -284,7 +284,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.6</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">6ea164b2-228c-4ae8-b3b5-26f3946b8300</cbc:ID>
 	<cbc:ContractFolderID>da39bc05-2d42-4d37-aa4f-2dc9937911a0</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-23+01:00</cbc:IssueDate>
@@ -383,6 +383,7 @@
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
+			<cbc:ID>1</cbc:ID>
 			<cbc:Name languageID="ENG">DN140070</cbc:Name>
 			<cbc:Description languageID="ENG">Beds are to be used in a community setting and must be electrically powered with a range of bed rails, bed rail bumpers and grab handles. Beds size to range from single to bariatric mattresses must be supplied in a range of sizes up to and including king size. Mattresses are to be supplied in the range listed below:
 			Foam Visco/Gel Hybrid (Foam/Air) Alternating Air.</cbc:Description>	

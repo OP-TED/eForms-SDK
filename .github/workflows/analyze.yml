@@ -23,6 +23,6 @@ jobs:
           distribution: 'adopt'
 
       - name: Build and analyze SDK
-        run: mvn clean install -Panalyze
+        run: mvn clean install -Panalyze --no-transfer-progress -s .github/workflows/settings.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Maltese. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>auxiliary in Maltese. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Bażi legali</entry>
 <entry key="auxiliary|text|BT-08">Ir-rwol tal-organizzazzjoni</entry>
 <entry key="auxiliary|text|BT-36">Tul ta’ żmien</entry>
@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Awtorità kompetenti</entry>
 <entry key="auxiliary|text|change">Bidla</entry>
 <entry key="auxiliary|text|company">Isem u indirizz tal-kumpanija/soċjetà</entry>
-<entry key="auxiliary|text|concession-value">Konċessjoni</entry>
+<entry key="auxiliary|text|concession-value">Valur tal-konċessjoni</entry>
 <entry key="auxiliary|text|conditions-contract">Kundizzjonijiet relatati mal-kuntratt</entry>
 <entry key="auxiliary|text|conditions-participation">Kundizzjonijiet għall-parteċipazzjoni</entry>
 <entry key="auxiliary|text|contract-information">Informazzjoni dwar il-kuntratt</entry>
@@ -31,10 +31,10 @@
 <entry key="auxiliary|text|envisaged-start-duration-contract">Data tal-bidu u tul ta’ żmien tal-kuntratt previsti</entry>
 <entry key="auxiliary|text|essential-assets">Assi essenzjali</entry>
 <entry key="auxiliary|text|estimated-duration">Tul ta’ żmien stmat</entry>
-<entry key="auxiliary|text|eu-funds-used">Informazzjoni dwar il-fondi tal-Unjoni Ewropea użati għall-finanzjament tal-kuntratt</entry>
+<entry key="auxiliary|text|eu-funds-used">Informazzjoni dwar Fondi tal-Unjoni Ewropea</entry>
 <entry key="auxiliary|text|exclusion-grounds">Raġunijiet għall-esklużjoni</entry>
 <entry key="auxiliary|text|framework-agreement">Ftehim qafas</entry>
-<entry key="auxiliary|text|further-info">Aktar informazzjoni, medjazzjoni u reviżjoni</entry>
+<entry key="auxiliary|text|further-info">Aktar informazzjoni, medjazzjoni u rieżami</entry>
 <entry key="auxiliary|text|general-information">Informazzjoni ġenerali</entry>
 <entry key="auxiliary|text|group-framework-value">Valur stmat tal-ftehimiet qafas fi ħdan il-grupp ta’ lottijiet</entry>
 <entry key="auxiliary|text|group-of-lots">Grupp ta’ lottijiet</entry>
@@ -79,6 +79,7 @@
 <entry key="auxiliary|text|place-performance">Post tal-prestazzjoni</entry>
 <entry key="auxiliary|text|place-registration">Post tar-reġistrazzjoni</entry>
 <entry key="auxiliary|text|previous-planning">Informazzjoni dwar avviżi preċedenti</entry>
+<entry key="auxiliary|text|prize-information">Premju</entry>
 <entry key="auxiliary|text|procedure">Proċedura</entry>
 <entry key="auxiliary|text|procedure-terms">Termini tal-proċedura</entry>
 <entry key="auxiliary|text|procurement-documents">Dokumenti tal-akkwist</entry>
@@ -106,9 +107,10 @@
 <entry key="auxiliary|text|submission-terms">Termini tas-sottomissjoni</entry>
 <entry key="auxiliary|text|techniques">Tekniki</entry>
 <entry key="auxiliary|text|tender">Offerta</entry>
+<entry key="auxiliary|text|unpublished">imneħħi mill-pubblikazzjoni</entry>
 <entry key="auxiliary|text|value">Valur</entry>
 <entry key="auxiliary|text|winner">Rebbieħ</entry>
 <entry key="auxiliary|text|winner-info">Informazzjoni dwar ir-rebbieħa</entry>
-<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
+<entry key="auxiliary|text|winner-lots">Rebbieħ ta’ dawn il-lottijiet</entry>
 <entry key="auxiliary|text|winner-subcontractor">Sottokuntratturi tar-rebbieħ</entry>
 </properties>

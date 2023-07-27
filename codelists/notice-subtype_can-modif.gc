@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>CanModif</ShortName>
       <LongName>can-modif</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>38</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за изменение на договор – Общата директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o změně smlouvy – obecná směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om kontraktændring – det generelle direktiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung über Auftragsänderung – allgemeine Richtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση τροποποίησης σύμβασης – γενική οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>38</SimpleValue>
+            <SimpleValue>Contract modification notice – general directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de modificación de contrato. Directiva general.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lepingu muutmise teade – kontsessioonidirektiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintasopimuksen muuttamista koskeva ilmoitus – yleisdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de modification de marché – directive générale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le modhnú conartha — treoir ghinearálta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o izmjeni ugovora – opća direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szerződésmódosításról szóló hirdetmény – általános irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di modifica di un appalto – direttiva generale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie sutarties keitimą; bendroji direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līguma grozījumiem – Vispārīgā iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ modifika ta’ kuntratt – Direttiva ġenerali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van wijziging van een opdracht – algemene richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o modyfikacji umowy – dyrektywa ogólna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de modificação do contrato – diretiva geral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de modificare a contractului – directivă generală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o zmene zmluvy – všeobecná smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o spremembi naročila – splošna direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om ändring av kontrakt – klassiska direktivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>39</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за изменение на договор – Секторната директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o změně smlouvy – odvětvová směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om kontraktændring – sektordirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung über Auftragsänderung – Sektorenrichtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση τροποποίησης σύμβασης – τομεακή οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>39</SimpleValue>
+            <SimpleValue>Contract modification notice – sectoral directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de modificación de contrato. Directiva sectorial.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Paranduse teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintasopimuksen muuttamista koskeva ilmoitus – toimialakohtainen direktiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de modification de marché – directive sectorielle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le modhnú conartha — treoir earnála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o izmjeni ugovora – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szerződésmódosításról szóló hirdetmény – ágazati irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di modifica di un appalto – direttiva settoriale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie sutarties keitimą; sektoriaus direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līguma grozījumiem – Komunālo pakalpojumu direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ modifika ta’ kuntratt – Direttiva settorjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van wijziging van een opdracht – sectorale richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o modyfikacji umowy – dyrektywa sektorowa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de modificação do contrato – diretiva setorial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de modificare a contractului – directivă sectorială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o zmene zmluvy – sektorová smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o spremembi naročila – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om ändring av kontrakt – försörjningsdirektivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,8 +287,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>40</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за изменение на договор – Директивата за концесиите</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o změně koncese – směrnice o udělování koncesí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om kontraktændring – koncessionsdirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung über Auftragsänderung – Konzessionsrichtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση τροποποίησης σύμβασης – οδηγία για τις συμβάσεις παραχώρησης</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>40</SimpleValue>
+            <SimpleValue>Contract modification notice – concessions directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de modificación de contrato. Directiva de concesiones.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Contract modification notice – concessions directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankintasopimuksen muuttamista koskeva ilmoitus – käyttöoikeussopimusdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de modification de marché – directive «concessions»</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra maidir le modhnú conartha — an treoir maidir le lamháltais</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o izmjeni ugovora – koncesijska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szerződésmódosításról szóló hirdetmény – koncessziós irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di modifica di un appalto – direttiva sulle concessioni</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie sutarties keitimą; koncesijų direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par līguma grozījumiem – Koncesiju direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ modifika ta’ kuntratt – Direttiva dwar il-konċessjonijiet</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van wijziging van een opdracht – concessierichtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o modyfikacji umowy – dyrektywa w sprawie koncesji</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de modificação do contrato – Diretiva Concessões</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de modificare a contractului – directivă privind concesiunile</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o zmene zmluvy – smernica o koncesiách</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o spremembi naročila – direktiva o koncesijah</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om ändring av kontrakt – koncessionsdirektivet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

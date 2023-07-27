@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsGrcLvl3</ShortName>
       <LongName>nuts-grc-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -126,10 +126,10 @@
             <SimpleValue>EL301</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Βόρειος Τομέας Αθηνών (Voreios Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Βόρειος Τομέας Αθηνών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Βόρειος Τομέας Αθηνών (Voreios Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Βόρειος Τομέας Αθηνών</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,10 +137,10 @@
             <SimpleValue>EL302</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Δυτικός Τομέας Αθηνών (Dytikos Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Δυτικός Τομέας Αθηνών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Δυτικός Τομέας Αθηνών (Dytikos Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Δυτικός Τομέας Αθηνών</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,10 +148,10 @@
             <SimpleValue>EL303</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κεντρικός Τομέας Αθηνών (Kentrikos Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Κεντρικός Τομέας Αθηνών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κεντρικός Τομέας Αθηνών (Kentrikos Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Κεντρικός Τομέας Αθηνών</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,10 +159,10 @@
             <SimpleValue>EL304</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Νότιος Τομέας Αθηνών (Notios Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Νότιος Τομέας Αθηνών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Νότιος Τομέας Αθηνών (Notios Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Νότιος Τομέας Αθηνών</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,10 +170,10 @@
             <SimpleValue>EL305</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ανατολική Αττική (Anatoliki Attiki)</SimpleValue>
+            <SimpleValue>Ανατολική Αττική</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ανατολική Αττική (Anatoliki Attiki)</SimpleValue>
+            <SimpleValue>Ανατολική Αττική</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,10 +181,10 @@
             <SimpleValue>EL306</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Δυτική Αττική (Dytiki Attiki)</SimpleValue>
+            <SimpleValue>Δυτική Αττική</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Δυτική Αττική (Dytiki Attiki)</SimpleValue>
+            <SimpleValue>Δυτική Αττική</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -192,10 +192,10 @@
             <SimpleValue>EL307</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Πειραιάς, Νήσοι (Peiraias, Nisoi)</SimpleValue>
+            <SimpleValue>Πειραιάς, Νήσοι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Πειραιάς, Νήσοι (Peiraias, Nisoi)</SimpleValue>
+            <SimpleValue>Πειραιάς, Νήσοι</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -203,10 +203,10 @@
             <SimpleValue>EL411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λέσβος, Λήμνος (Lesvos, Limnos)</SimpleValue>
+            <SimpleValue>Λέσβος, Λήμνος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λέσβος, Λήμνος (Lesvos, Limnos)</SimpleValue>
+            <SimpleValue>Λέσβος, Λήμνος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -214,10 +214,10 @@
             <SimpleValue>EL412</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ικαρία, Σάμος (Ikaria, Samos)</SimpleValue>
+            <SimpleValue>Ικαρία, Σάμος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ικαρία, Σάμος (Ikaria, Samos)</SimpleValue>
+            <SimpleValue>Ικαρία, Σάμος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -225,10 +225,10 @@
             <SimpleValue>EL413</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Χίος (Chios)</SimpleValue>
+            <SimpleValue>Χίος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Χίος (Chios)</SimpleValue>
+            <SimpleValue>Χίος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -236,10 +236,10 @@
             <SimpleValue>EL421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κάλυμνος, Κάρπαθος - Ηρωική Νήσος Κάσος, Κως, Ρόδος (Kalymnos, Karpathos, Kasos, Kos, Rodos)</SimpleValue>
+            <SimpleValue>Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κάλυμνος, Κάρπαθος - Ηρωική Νήσος Κάσος, Κως, Ρόδος (Kalymnos, Karpathos, Kasos, Kos, Rodos)</SimpleValue>
+            <SimpleValue>Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -247,10 +247,10 @@
             <SimpleValue>EL422</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)</SimpleValue>
+            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)</SimpleValue>
+            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -258,10 +258,10 @@
             <SimpleValue>EL431</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ηράκλειο (Irakleio)</SimpleValue>
+            <SimpleValue>Ηράκλειο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ηράκλειο (Irakleio)</SimpleValue>
+            <SimpleValue>Ηράκλειο</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -269,10 +269,10 @@
             <SimpleValue>EL432</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λασίθι (Lasithi)</SimpleValue>
+            <SimpleValue>Λασίθι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λασίθι (Lasithi)</SimpleValue>
+            <SimpleValue>Λασίθι</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -280,10 +280,10 @@
             <SimpleValue>EL433</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ρεθύμνη (Rethymni)</SimpleValue>
+            <SimpleValue>Ρέθυμνο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ρεθύμνη (Rethymni)</SimpleValue>
+            <SimpleValue>Ρέθυμνο</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -291,10 +291,10 @@
             <SimpleValue>EL434</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Χανιά (Chania)</SimpleValue>
+            <SimpleValue>Χανιά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Χανιά (Chania)</SimpleValue>
+            <SimpleValue>Χανιά</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -302,10 +302,10 @@
             <SimpleValue>EL511</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Έβρος (Evros)</SimpleValue>
+            <SimpleValue>Έβρος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Έβρος (Evros)</SimpleValue>
+            <SimpleValue>Έβρος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -313,10 +313,10 @@
             <SimpleValue>EL512</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ξάνθη (Xanthi)</SimpleValue>
+            <SimpleValue>Ξάνθη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ξάνθη (Xanthi)</SimpleValue>
+            <SimpleValue>Ξάνθη</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -324,10 +324,10 @@
             <SimpleValue>EL513</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ροδόπη (Rodopi)</SimpleValue>
+            <SimpleValue>Ροδόπη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ροδόπη (Rodopi)</SimpleValue>
+            <SimpleValue>Ροδόπη</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -335,10 +335,10 @@
             <SimpleValue>EL514</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Δράμα (Drama)</SimpleValue>
+            <SimpleValue>Δράμα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Δράμα (Drama)</SimpleValue>
+            <SimpleValue>Δράμα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -346,10 +346,10 @@
             <SimpleValue>EL515</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Θάσος, Καβάλα (Thasos, Kavala)</SimpleValue>
+            <SimpleValue>Θάσος, Καβάλα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Θάσος, Καβάλα (Thasos, Kavala)</SimpleValue>
+            <SimpleValue>Θάσος, Καβάλα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -357,10 +357,10 @@
             <SimpleValue>EL521</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ημαθία (Imathia)</SimpleValue>
+            <SimpleValue>Ημαθία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ημαθία (Imathia)</SimpleValue>
+            <SimpleValue>Ημαθία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -368,10 +368,10 @@
             <SimpleValue>EL522</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Θεσσαλονίκη (Thessaloniki)</SimpleValue>
+            <SimpleValue>Θεσσαλονίκη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Θεσσαλονίκη (Thessaloniki)</SimpleValue>
+            <SimpleValue>Θεσσαλονίκη</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -379,10 +379,10 @@
             <SimpleValue>EL523</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κιλκίς (Kilkis)</SimpleValue>
+            <SimpleValue>Κιλκίς</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κιλκίς (Kilkis)</SimpleValue>
+            <SimpleValue>Κιλκίς</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -390,10 +390,10 @@
             <SimpleValue>EL524</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Πέλλα (Pella)</SimpleValue>
+            <SimpleValue>Πέλλα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Πέλλα (Pella)</SimpleValue>
+            <SimpleValue>Πέλλα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -401,10 +401,10 @@
             <SimpleValue>EL525</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Πιερία (Pieria)</SimpleValue>
+            <SimpleValue>Πιερία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Πιερία (Pieria)</SimpleValue>
+            <SimpleValue>Πιερία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -412,10 +412,10 @@
             <SimpleValue>EL526</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Σέρρες (Serres)</SimpleValue>
+            <SimpleValue>Σέρρες</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Σέρρες (Serres)</SimpleValue>
+            <SimpleValue>Σέρρες</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -423,10 +423,10 @@
             <SimpleValue>EL527</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Χαλκιδική (Chalkidiki)</SimpleValue>
+            <SimpleValue>Χαλκιδική</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Χαλκιδική (Chalkidiki)</SimpleValue>
+            <SimpleValue>Χαλκιδική</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -434,10 +434,10 @@
             <SimpleValue>EL531</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Γρεβενά, Κοζάνη (Grevena, Kozani)</SimpleValue>
+            <SimpleValue>Γρεβενά, Κοζάνη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Γρεβενά, Κοζάνη (Grevena, Kozani)</SimpleValue>
+            <SimpleValue>Γρεβενά, Κοζάνη</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -445,10 +445,10 @@
             <SimpleValue>EL532</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Καστοριά (Kastoria)</SimpleValue>
+            <SimpleValue>Καστοριά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Καστοριά (Kastoria)</SimpleValue>
+            <SimpleValue>Καστοριά</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -456,10 +456,10 @@
             <SimpleValue>EL533</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Φλώρινα (Florina)</SimpleValue>
+            <SimpleValue>Φλώρινα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Φλώρινα (Florina)</SimpleValue>
+            <SimpleValue>Φλώρινα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -467,10 +467,10 @@
             <SimpleValue>EL541</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Άρτα, Πρέβεζα (Arta, Preveza)</SimpleValue>
+            <SimpleValue>Άρτα, Πρέβεζα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Άρτα, Πρέβεζα (Arta, Preveza)</SimpleValue>
+            <SimpleValue>Άρτα, Πρέβεζα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -478,10 +478,10 @@
             <SimpleValue>EL542</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Θεσπρωτία (Thesprotia)</SimpleValue>
+            <SimpleValue>Θεσπρωτία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Θεσπρωτία (Thesprotia)</SimpleValue>
+            <SimpleValue>Θεσπρωτία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -489,10 +489,10 @@
             <SimpleValue>EL543</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ιωάννινα (Ioannina)</SimpleValue>
+            <SimpleValue>Ιωάννινα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ιωάννινα (Ioannina)</SimpleValue>
+            <SimpleValue>Ιωάννινα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -500,10 +500,10 @@
             <SimpleValue>EL611</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Καρδίτσα, Τρίκαλα (Karditsa, Trikala)</SimpleValue>
+            <SimpleValue>Καρδίτσα, Τρίκαλα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Καρδίτσα, Τρίκαλα (Karditsa, Trikala)</SimpleValue>
+            <SimpleValue>Καρδίτσα, Τρίκαλα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -511,10 +511,10 @@
             <SimpleValue>EL612</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λάρισα (Larisa)</SimpleValue>
+            <SimpleValue>Λάρισα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λάρισα (Larisa)</SimpleValue>
+            <SimpleValue>Λάρισα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -522,10 +522,10 @@
             <SimpleValue>EL613</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Μαγνησία, Σποράδες (Magnisia, Sporades)</SimpleValue>
+            <SimpleValue>Μαγνησία, Σποράδες</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Μαγνησία, Σποράδες (Magnisia, Sporades)</SimpleValue>
+            <SimpleValue>Μαγνησία, Σποράδες</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -533,10 +533,10 @@
             <SimpleValue>EL621</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ζάκυνθος (Zakynthos)</SimpleValue>
+            <SimpleValue>Ζάκυνθος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ζάκυνθος (Zakynthos)</SimpleValue>
+            <SimpleValue>Ζάκυνθος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -544,10 +544,10 @@
             <SimpleValue>EL622</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κέρκυρα (Kerkyra)</SimpleValue>
+            <SimpleValue>Κέρκυρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κέρκυρα (Kerkyra)</SimpleValue>
+            <SimpleValue>Κέρκυρα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -555,10 +555,10 @@
             <SimpleValue>EL623</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ιθάκη, Κεφαλληνία (Ithaki, Kefallinia)</SimpleValue>
+            <SimpleValue>Ιθάκη, Κεφαλληνία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ιθάκη, Κεφαλληνία (Ithaki, Kefallinia)</SimpleValue>
+            <SimpleValue>Ιθάκη, Κεφαλληνία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -566,10 +566,10 @@
             <SimpleValue>EL624</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λευκάδα (Lefkada)</SimpleValue>
+            <SimpleValue>Λευκάδα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λευκάδα (Lefkada)</SimpleValue>
+            <SimpleValue>Λευκάδα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -577,10 +577,10 @@
             <SimpleValue>EL631</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Αιτωλοακαρνανία (Aitoloakarnania)</SimpleValue>
+            <SimpleValue>Αιτωλοακαρνανία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Αιτωλοακαρνανία (Aitoloakarnania)</SimpleValue>
+            <SimpleValue>Αιτωλοακαρνανία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -588,10 +588,10 @@
             <SimpleValue>EL632</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Αχαΐα (Achaia)</SimpleValue>
+            <SimpleValue>Αχαΐα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Αχαΐα (Achaia)</SimpleValue>
+            <SimpleValue>Αχαΐα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -599,10 +599,10 @@
             <SimpleValue>EL633</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ηλεία (Ileia)</SimpleValue>
+            <SimpleValue>Ηλεία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ηλεία (Ileia)</SimpleValue>
+            <SimpleValue>Ηλεία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -610,10 +610,10 @@
             <SimpleValue>EL641</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Βοιωτία (Voiotia)</SimpleValue>
+            <SimpleValue>Βοιωτία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Βοιωτία (Voiotia)</SimpleValue>
+            <SimpleValue>Βοιωτία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -621,10 +621,10 @@
             <SimpleValue>EL642</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Εύβοια (Evvoia)</SimpleValue>
+            <SimpleValue>Εύβοια</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Εύβοια (Evvoia)</SimpleValue>
+            <SimpleValue>Εύβοια</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -632,10 +632,10 @@
             <SimpleValue>EL643</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ευρυτανία (Evrytania)</SimpleValue>
+            <SimpleValue>Ευρυτανία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ευρυτανία (Evrytania)</SimpleValue>
+            <SimpleValue>Ευρυτανία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -643,10 +643,10 @@
             <SimpleValue>EL644</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Φθιώτιδα (Fthiotida)</SimpleValue>
+            <SimpleValue>Φθιώτιδα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Φθιώτιδα (Fthiotida)</SimpleValue>
+            <SimpleValue>Φθιώτιδα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -654,10 +654,10 @@
             <SimpleValue>EL645</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Φωκίδα (Fokida)</SimpleValue>
+            <SimpleValue>Φωκίδα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Φωκίδα (Fokida)</SimpleValue>
+            <SimpleValue>Φωκίδα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -665,10 +665,10 @@
             <SimpleValue>EL651</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Αργολίδα, Αρκαδία (Argolida, Arkadia)</SimpleValue>
+            <SimpleValue>Αργολίδα, Αρκαδία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Αργολίδα, Αρκαδία (Argolida, Arkadia)</SimpleValue>
+            <SimpleValue>Αργολίδα, Αρκαδία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -676,10 +676,10 @@
             <SimpleValue>EL652</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κορινθία (Korinthia)</SimpleValue>
+            <SimpleValue>Κορινθία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κορινθία (Korinthia)</SimpleValue>
+            <SimpleValue>Κορινθία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -687,10 +687,10 @@
             <SimpleValue>EL653</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λακωνία, Μεσσηνία (Lakonia, Messinia)</SimpleValue>
+            <SimpleValue>Λακωνία, Μεσσηνία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λακωνία, Μεσσηνία (Lakonia, Messinia)</SimpleValue>
+            <SimpleValue>Λακωνία, Μεσσηνία</SimpleValue>
          </Value>
       </Row>
       <Row>

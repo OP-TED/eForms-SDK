@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Result</ShortName>
       <LongName>result</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
       <LongName Identifier="eFormsParentId">notice-type</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -147,7 +147,7 @@
             <SimpleValue>Design contest result notice</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de concurso de proyectos</SimpleValue>
+            <SimpleValue>Anuncio del resultado de un concurso de proyectos</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
             <SimpleValue>Ideekonkursi tulemuse teade</SimpleValue>
@@ -177,7 +177,7 @@
             <SimpleValue>Paziņojums par metu konkursa rezultātiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż tal-konkors tad-disinn</SimpleValue>
+            <SimpleValue>Avviż dwar ir-riżultat ta’ konkors ta’ disinn</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Aankondiging van de uitslag van een prijsvraag voor ontwerpen</SimpleValue>

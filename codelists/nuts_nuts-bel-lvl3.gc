@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsBelLvl3</ShortName>
       <LongName>nuts-bel-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -500,10 +500,10 @@
             <SimpleValue>BE335</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Arr. Verviers - communes francophones</SimpleValue>
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Arr. Verviers - communes francophones</SimpleValue>
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -511,10 +511,10 @@
             <SimpleValue>BE336</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bezirk Verviers - Deutschsprachige Gemeinschaft</SimpleValue>
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bezirk Verviers - Deutschsprachige Gemeinschaft</SimpleValue>
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
          </Value>
       </Row>
       <Row>

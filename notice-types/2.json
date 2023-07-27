@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.6.0",
+  "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.6.0",
-    "createdOn" : "2023-02-17T12:00:00"
+    "version" : "1.8.196",
+    "createdOn" : "2023-07-19T09:56:41"
   },
   "noticeId" : "2",
   "metadata" : [ {
@@ -251,7 +251,8 @@
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (NoID)",
           "_label" : "field|name|BT-01(e)-Procedure",
-          "_presetValue" : "LocalLegalBasis"
+          "_presetValue" : "LocalLegalBasis",
+          "hidden" : true
         }, {
           "id" : "BT-01(f)-Procedure",
           "contentType" : "field",
@@ -290,12 +291,20 @@
           "description" : "Main Nature",
           "_label" : "field|name|BT-23-Procedure"
         }, {
-          "id" : "BT-531-Procedure",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Additional Nature (different from Main)",
-          "_label" : "field|name|BT-531-Procedure",
-          "_repeatable" : true
+          "id" : "GR-Procedure-Additional-Nature",
+          "contentType" : "group",
+          "nodeId" : "ND-ProcedureContractAdditionalNature",
+          "displayType" : "GROUP",
+          "description" : "Additional contract nature for the Procedure",
+          "_label" : "group|name|ND-ProcedureContractAdditionalNature",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-531-Procedure",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Additional Nature (different from Main)",
+            "_label" : "field|name|BT-531-Procedure"
+          } ]
         } ]
       }, {
         "id" : "GR-Procedure-Scope",
@@ -306,9 +315,10 @@
         "content" : [ {
           "id" : "GR-Procedure-Scope-MainClassification",
           "contentType" : "group",
+          "nodeId" : "ND-ProcedureMainClassification",
           "displayType" : "GROUP",
-          "description" : "Main Classification",
-          "_label" : "group|name|GR-Procedure-Scope-MainClassification",
+          "description" : "Classification for the Main Commodity of the Procedure",
+          "_label" : "group|name|ND-ProcedureMainClassification",
           "content" : [ {
             "id" : "BT-26(m)-Procedure",
             "contentType" : "field",
@@ -464,12 +474,20 @@
       "_label" : "group|name|ND-Change",
       "_repeatable" : true,
       "content" : [ {
-        "id" : "BT-13716-notice",
-        "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Change Previous Section Identifier",
-        "_label" : "field|name|BT-13716-notice",
-        "_repeatable" : true
+        "id" : "GR-ChangedSectionIdentifiers",
+        "contentType" : "group",
+        "nodeId" : "ND-ChangedSection",
+        "displayType" : "GROUP",
+        "description" : "Section subject to change",
+        "_label" : "group|name|ND-ChangedSection",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-13716-notice",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Change Previous Section Identifier",
+          "_label" : "field|name|BT-13716-notice"
+        } ]
       }, {
         "id" : "BT-141(a)-notice",
         "contentType" : "field",
@@ -497,284 +515,279 @@
     "description" : "Organisations",
     "_label" : "group|name|GR-Organisations-Section",
     "content" : [ {
-      "id" : "GR-Organisations-Subsection",
+      "id" : "GR-Organisations",
       "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Organisations",
-      "_label" : "group|name|GR-Organisations-Subsection",
+      "nodeId" : "ND-Organization",
+      "displayType" : "GROUP",
+      "description" : "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
+      "_label" : "group|name|ND-Organization",
+      "_idScheme" : "ORG",
+      "_schemeName" : "organization",
+      "_identifierFieldId" : "OPT-200-Organization-Company",
+      "_repeatable" : true,
       "content" : [ {
-        "id" : "GR-Organisations",
-        "contentType" : "group",
-        "nodeId" : "ND-Organization",
-        "displayType" : "GROUP",
-        "description" : "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
-        "_label" : "group|name|ND-Organization",
+        "id" : "OPT-200-Organization-Company",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Organisation Technical Identifier",
+        "_label" : "field|name|OPT-200-Organization-Company",
         "_idScheme" : "ORG",
         "_schemeName" : "organization",
-        "_identifierFieldId" : "OPT-200-Organization-Company",
-        "_captionFieldId" : "BT-500-Organization-Company",
-        "_repeatable" : true,
+        "hidden" : true
+      }, {
+        "id" : "GR-Company",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Organisation",
+        "_label" : "group|name|GR-Company",
         "content" : [ {
-          "id" : "OPT-200-Organization-Company",
+          "id" : "BT-500-Organization-Company",
           "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Organisation Technical Identifier",
-          "_label" : "field|name|OPT-200-Organization-Company",
-          "_idScheme" : "ORG",
-          "_schemeName" : "organization",
-          "hidden" : true
+          "displayType" : "TEXTAREA",
+          "description" : "Organisation Name",
+          "_label" : "field|name|BT-500-Organization-Company"
         }, {
-          "id" : "BT-633-Organization",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Organisation Natural Person",
-          "_label" : "field|name|BT-633-Organization"
-        }, {
-          "id" : "GR-Company",
+          "id" : "GR-Organisation-Identifier",
           "contentType" : "group",
+          "nodeId" : "ND-CompanyLegalEntity",
           "displayType" : "GROUP",
-          "description" : "Organisation",
-          "_label" : "group|name|GR-Company",
+          "description" : "Company legal identifier",
+          "_label" : "group|name|ND-CompanyLegalEntity",
+          "_repeatable" : true,
           "content" : [ {
-            "id" : "BT-500-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Organisation Name",
-            "_label" : "field|name|BT-500-Organization-Company"
-          }, {
             "id" : "BT-501-Organization-Company",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
             "description" : "Organisation Identifier",
-            "_label" : "field|name|BT-501-Organization-Company",
-            "_repeatable" : true
-          }, {
-            "id" : "BT-16-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Organisation Part Name",
-            "_label" : "field|name|BT-16-Organization-Company"
-          }, {
-            "id" : "BT-505-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Organisation Internet Address",
-            "_label" : "field|name|BT-505-Organization-Company"
-          }, {
-            "id" : "BT-509-Organization-Company",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Organisation eDelivery Gateway",
-            "_label" : "field|name|BT-509-Organization-Company"
+            "_label" : "field|name|BT-501-Organization-Company"
           } ]
         }, {
-          "id" : "GR-Company-Address",
+          "id" : "BT-16-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Organisation Part Name",
+          "_label" : "field|name|BT-16-Organization-Company"
+        }, {
+          "id" : "BT-505-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Organisation Internet Address",
+          "_label" : "field|name|BT-505-Organization-Company"
+        }, {
+          "id" : "BT-509-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Organisation eDelivery Gateway",
+          "_label" : "field|name|BT-509-Organization-Company"
+        } ]
+      }, {
+        "id" : "GR-Company-Address",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Organisation Address",
+        "_label" : "group|name|GR-Company-Address",
+        "content" : [ {
+          "id" : "BT-510(a)-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Street",
+          "_label" : "field|name|BT-510(a)-Organization-Company"
+        }, {
+          "id" : "BT-510(b)-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Streetline 1",
+          "_label" : "field|name|BT-510(b)-Organization-Company"
+        }, {
+          "id" : "BT-510(c)-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Streetline 2",
+          "_label" : "field|name|BT-510(c)-Organization-Company"
+        }, {
+          "id" : "BT-513-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Organisation City",
+          "_label" : "field|name|BT-513-Organization-Company"
+        }, {
+          "id" : "BT-512-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Organisation Post Code",
+          "_label" : "field|name|BT-512-Organization-Company"
+        }, {
+          "id" : "BT-507-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Organisation Country Subdivision",
+          "_label" : "field|name|BT-507-Organization-Company"
+        }, {
+          "id" : "BT-514-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Organisation Country Code",
+          "_label" : "field|name|BT-514-Organization-Company"
+        } ]
+      }, {
+        "id" : "GR-Company-Contact",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Organisation Contact",
+        "_label" : "group|name|GR-Company-Contact",
+        "content" : [ {
+          "id" : "BT-502-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Organisation Contact Point",
+          "_label" : "field|name|BT-502-Organization-Company"
+        }, {
+          "id" : "BT-506-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Organisation Contact Email Address",
+          "_label" : "field|name|BT-506-Organization-Company"
+        }, {
+          "id" : "BT-503-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Organisation Contact Telephone Number",
+          "_label" : "field|name|BT-503-Organization-Company"
+        }, {
+          "id" : "BT-739-Organization-Company",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Organisation Contact Fax",
+          "_label" : "field|name|BT-739-Organization-Company"
+        } ]
+      }, {
+        "id" : "GR-Touch-Point",
+        "contentType" : "group",
+        "nodeId" : "ND-Touchpoint",
+        "displayType" : "GROUP",
+        "description" : "Contact details associated to a given role",
+        "_label" : "group|name|ND-Touchpoint",
+        "_idScheme" : "TPO",
+        "_schemeName" : "touchpoint",
+        "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPT-201-Organization-TouchPoint",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "TouchPoint Technical Identifier",
+          "_label" : "field|name|OPT-201-Organization-TouchPoint",
+          "_idScheme" : "TPO",
+          "_schemeName" : "touchpoint",
+          "hidden" : true
+        }, {
+          "id" : "BT-500-Organization-TouchPoint",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Name",
+          "_label" : "field|name|BT-500-Organization-TouchPoint"
+        }, {
+          "id" : "BT-16-Organization-TouchPoint",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Part Name",
+          "_label" : "field|name|BT-16-Organization-TouchPoint"
+        }, {
+          "id" : "BT-505-Organization-TouchPoint",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Internet Address",
+          "_label" : "field|name|BT-505-Organization-TouchPoint"
+        }, {
+          "id" : "BT-509-Organization-TouchPoint",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "eDelivery Gateway",
+          "_label" : "field|name|BT-509-Organization-TouchPoint"
+        }, {
+          "id" : "GR-TouchPoint-Address",
           "contentType" : "group",
           "displayType" : "GROUP",
-          "description" : "Organisation Address",
-          "_label" : "group|name|GR-Company-Address",
+          "description" : "TouchPoint Address",
+          "_label" : "group|name|GR-TouchPoint-Address",
           "content" : [ {
-            "id" : "BT-510(a)-Organization-Company",
+            "id" : "BT-510(a)-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Street",
-            "_label" : "field|name|BT-510(a)-Organization-Company"
+            "_label" : "field|name|BT-510(a)-Organization-TouchPoint"
           }, {
-            "id" : "BT-510(b)-Organization-Company",
+            "id" : "BT-510(b)-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Streetline 1",
-            "_label" : "field|name|BT-510(b)-Organization-Company"
+            "_label" : "field|name|BT-510(b)-Organization-TouchPoint"
           }, {
-            "id" : "BT-510(c)-Organization-Company",
+            "id" : "BT-510(c)-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
             "description" : "Streetline 2",
-            "_label" : "field|name|BT-510(c)-Organization-Company"
+            "_label" : "field|name|BT-510(c)-Organization-TouchPoint"
           }, {
-            "id" : "BT-513-Organization-Company",
+            "id" : "BT-513-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
-            "description" : "Organisation City",
-            "_label" : "field|name|BT-513-Organization-Company"
+            "description" : "City",
+            "_label" : "field|name|BT-513-Organization-TouchPoint"
           }, {
-            "id" : "BT-512-Organization-Company",
+            "id" : "BT-512-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
-            "description" : "Organisation Post Code",
-            "_label" : "field|name|BT-512-Organization-Company"
+            "description" : "Post Code",
+            "_label" : "field|name|BT-512-Organization-TouchPoint"
           }, {
-            "id" : "BT-507-Organization-Company",
+            "id" : "BT-507-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
-            "description" : "Organisation Country Subdivision",
-            "_label" : "field|name|BT-507-Organization-Company"
+            "description" : "Country Subdivision",
+            "_label" : "field|name|BT-507-Organization-TouchPoint"
           }, {
-            "id" : "BT-514-Organization-Company",
+            "id" : "BT-514-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "COMBOBOX",
-            "description" : "Organisation Country Code",
-            "_label" : "field|name|BT-514-Organization-Company"
+            "description" : "Country Code",
+            "_label" : "field|name|BT-514-Organization-TouchPoint"
           } ]
         }, {
-          "id" : "GR-Company-Contact",
+          "id" : "GR-TouchPoint-Contact",
           "contentType" : "group",
           "displayType" : "GROUP",
-          "description" : "Organisation Contact",
-          "_label" : "group|name|GR-Company-Contact",
+          "description" : "TouchPoint Contact",
+          "_label" : "group|name|GR-TouchPoint-Contact",
           "content" : [ {
-            "id" : "BT-502-Organization-Company",
+            "id" : "BT-502-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTAREA",
-            "description" : "Organisation Contact Point",
-            "_label" : "field|name|BT-502-Organization-Company"
+            "description" : "Contact Point",
+            "_label" : "field|name|BT-502-Organization-TouchPoint"
           }, {
-            "id" : "BT-506-Organization-Company",
+            "id" : "BT-506-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Organisation Contact Email Address",
-            "_label" : "field|name|BT-506-Organization-Company"
+            "description" : "Contact Email Address",
+            "_label" : "field|name|BT-506-Organization-TouchPoint"
           }, {
-            "id" : "BT-503-Organization-Company",
+            "id" : "BT-503-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Organisation Contact Telephone Number",
-            "_label" : "field|name|BT-503-Organization-Company"
+            "description" : "Contact Telephone Number",
+            "_label" : "field|name|BT-503-Organization-TouchPoint"
           }, {
-            "id" : "BT-739-Organization-Company",
+            "id" : "BT-739-Organization-TouchPoint",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Organisation Contact Fax",
-            "_label" : "field|name|BT-739-Organization-Company"
+            "description" : "Contact Fax",
+            "_label" : "field|name|BT-739-Organization-TouchPoint"
           } ]
-        }, {
-          "id" : "GR-Touch-Point",
-          "contentType" : "group",
-          "nodeId" : "ND-Touchpoint",
-          "displayType" : "GROUP",
-          "description" : "Contact details associated to a given role",
-          "_label" : "group|name|ND-Touchpoint",
-          "_idScheme" : "TPO",
-          "_schemeName" : "touchpoint",
-          "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
-          "_captionFieldId" : "BT-500-Organization-TouchPoint",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "OPT-201-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "TouchPoint Technical Identifier",
-            "_label" : "field|name|OPT-201-Organization-TouchPoint",
-            "_idScheme" : "TPO",
-            "_schemeName" : "touchpoint",
-            "hidden" : true
-          }, {
-            "id" : "BT-500-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Name",
-            "_label" : "field|name|BT-500-Organization-TouchPoint"
-          }, {
-            "id" : "BT-16-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Part Name",
-            "_label" : "field|name|BT-16-Organization-TouchPoint"
-          }, {
-            "id" : "BT-505-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Internet Address",
-            "_label" : "field|name|BT-505-Organization-TouchPoint"
-          }, {
-            "id" : "BT-509-Organization-TouchPoint",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "eDelivery Gateway",
-            "_label" : "field|name|BT-509-Organization-TouchPoint"
-          }, {
-            "id" : "GR-TouchPoint-Address",
-            "contentType" : "group",
-            "displayType" : "GROUP",
-            "description" : "TouchPoint Address",
-            "_label" : "group|name|GR-TouchPoint-Address",
-            "content" : [ {
-              "id" : "BT-510(a)-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Street",
-              "_label" : "field|name|BT-510(a)-Organization-TouchPoint"
-            }, {
-              "id" : "BT-510(b)-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Streetline 1",
-              "_label" : "field|name|BT-510(b)-Organization-TouchPoint"
-            }, {
-              "id" : "BT-510(c)-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Streetline 2",
-              "_label" : "field|name|BT-510(c)-Organization-TouchPoint"
-            }, {
-              "id" : "BT-513-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "City",
-              "_label" : "field|name|BT-513-Organization-TouchPoint"
-            }, {
-              "id" : "BT-512-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Post Code",
-              "_label" : "field|name|BT-512-Organization-TouchPoint"
-            }, {
-              "id" : "BT-507-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Country Subdivision",
-              "_label" : "field|name|BT-507-Organization-TouchPoint"
-            }, {
-              "id" : "BT-514-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Country Code",
-              "_label" : "field|name|BT-514-Organization-TouchPoint"
-            } ]
-          }, {
-            "id" : "GR-TouchPoint-Contact",
-            "contentType" : "group",
-            "displayType" : "GROUP",
-            "description" : "TouchPoint Contact",
-            "_label" : "group|name|GR-TouchPoint-Contact",
-            "content" : [ {
-              "id" : "BT-502-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Contact Point",
-              "_label" : "field|name|BT-502-Organization-TouchPoint"
-            }, {
-              "id" : "BT-506-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Contact Email Address",
-              "_label" : "field|name|BT-506-Organization-TouchPoint"
-            }, {
-              "id" : "BT-503-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Contact Telephone Number",
-              "_label" : "field|name|BT-503-Organization-TouchPoint"
-            }, {
-              "id" : "BT-739-Organization-TouchPoint",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Contact Fax",
-              "_label" : "field|name|BT-739-Organization-TouchPoint"
-            } ]
-          } ]
-        } ]
-      } ]
+        } ],
+        "_captionFieldId" : "BT-500-Organization-TouchPoint"
+      } ],
+      "_captionFieldId" : "BT-500-Organization-Company"
     } ]
   } ]
 }

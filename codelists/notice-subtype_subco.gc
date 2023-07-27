@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Subco</ShortName>
       <LongName>subco</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>22</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за поръчка за подизпълнение – Директивата за отбраната</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o subdodávkách – směrnice o zadávání zakázek v oblasti obrany</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om underentreprise – forsvarsdirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung über Unteraufträge – Richtlinie für Beschaffung im Bereich Verteidigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη υπεργολαβίας – οδηγία για την άμυνα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>22</SimpleValue>
+            <SimpleValue>Subcontract notice – defence directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de subcontrato. Directiva de defensa.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ideekonkursi teade – valdkondlik direktiiv, idee</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoitus alihankintasopimuksesta – puolustusdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de sous-traitance – directive «défense»</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra fochonraitheoireachta — treoir maidir le cosaint</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Poziv na podugovaranje – direktiva u području obrane</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Alvállalkozói hirdetmény – védelmi irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di subappalto – direttiva per il settore della difesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie subrangos sutartį; gynybos direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojums par apakšuzņēmuma līgumu – Aizsardzības iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ sottokuntratt – Direttiva dwar id-difiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van een opdracht in onderaanneming – defensierichtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o podwykonawstwie – dyrektywa obronna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de subcontratação - Diretiva Defesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de subcontractare - directivă privind apărarea</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie o zadaní subdodávky – smernica o zákazkách v oblasti obrany a bezpečnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>obvestilo o oddaji naročila podizvajalcem – direktiva na področju obrambe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om underentreprenad – försvars- och säkerhetsdirektivet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

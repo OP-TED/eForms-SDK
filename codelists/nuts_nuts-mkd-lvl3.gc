@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsMkdLvl3</ShortName>
       <LongName>nuts-mkd-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -126,10 +126,10 @@
             <SimpleValue>MK001</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Вардарски (Vardarski)</SimpleValue>
+            <SimpleValue>Вардарски</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Вардарски (Vardarski)</SimpleValue>
+            <SimpleValue>Вардарски</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,10 +137,10 @@
             <SimpleValue>MK002</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Источен (Istočen)</SimpleValue>
+            <SimpleValue>Источен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Источен (Istočen)</SimpleValue>
+            <SimpleValue>Источен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,10 +148,10 @@
             <SimpleValue>MK003</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Југозападен (Jugozapaden)</SimpleValue>
+            <SimpleValue>Југозападен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Југозападен (Jugozapaden)</SimpleValue>
+            <SimpleValue>Југозападен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,10 +159,10 @@
             <SimpleValue>MK004</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Југоисточен (Jugoistočen)</SimpleValue>
+            <SimpleValue>Југоисточен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Југоисточен (Jugoistočen)</SimpleValue>
+            <SimpleValue>Југоисточен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,10 +170,10 @@
             <SimpleValue>MK005</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пелагониски (Pelagoniski)</SimpleValue>
+            <SimpleValue>Пелагониски</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пелагониски (Pelagoniski)</SimpleValue>
+            <SimpleValue>Пелагониски</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,10 +181,10 @@
             <SimpleValue>MK006</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Полошки (Pološki)</SimpleValue>
+            <SimpleValue>Полошки</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Полошки (Pološki)</SimpleValue>
+            <SimpleValue>Полошки</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -192,10 +192,10 @@
             <SimpleValue>MK007</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Североисточен (Severoistočen)</SimpleValue>
+            <SimpleValue>Североисточен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Североисточен (Severoistočen)</SimpleValue>
+            <SimpleValue>Североисточен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -203,10 +203,10 @@
             <SimpleValue>MK008</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Скопски (Skopski)</SimpleValue>
+            <SimpleValue>Скопски</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Скопски (Skopski)</SimpleValue>
+            <SimpleValue>Скопски</SimpleValue>
          </Value>
       </Row>
       <Row>

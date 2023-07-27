@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Slovene. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>auxiliary in Slovenian. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Pravna podlaga</entry>
 <entry key="auxiliary|text|BT-08">Vloga organizacije</entry>
 <entry key="auxiliary|text|BT-36">Trajanje</entry>
@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Pristojni organ</entry>
 <entry key="auxiliary|text|change">Sprememba</entry>
 <entry key="auxiliary|text|company">Ime in naslov podjetja/družbe</entry>
-<entry key="auxiliary|text|concession-value">Koncesija</entry>
+<entry key="auxiliary|text|concession-value">Vrednost koncesije</entry>
 <entry key="auxiliary|text|conditions-contract">Pogoji v zvezi z javnim naročilom</entry>
 <entry key="auxiliary|text|conditions-participation">Pogoji za sodelovanje</entry>
 <entry key="auxiliary|text|contract-information">Informacije o javnem naročilu</entry>
@@ -31,10 +31,10 @@
 <entry key="auxiliary|text|envisaged-start-duration-contract">Predvidena datum začetka in trajanje javnega naročila</entry>
 <entry key="auxiliary|text|essential-assets">Osnovna sredstva</entry>
 <entry key="auxiliary|text|estimated-duration">Predvideno trajanje</entry>
-<entry key="auxiliary|text|eu-funds-used">Informacije o skladih Evropske unije, uporabljenih za financiranje javnega naročila</entry>
+<entry key="auxiliary|text|eu-funds-used">Informacije o sredstvih EU</entry>
 <entry key="auxiliary|text|exclusion-grounds">Razlogi za izključitev</entry>
 <entry key="auxiliary|text|framework-agreement">Okvirni sporazum</entry>
-<entry key="auxiliary|text|further-info">Dodatne informacije, mediacija in pregled</entry>
+<entry key="auxiliary|text|further-info">Dodatne informacije, mediacija in revizija</entry>
 <entry key="auxiliary|text|general-information">Splošne informacije</entry>
 <entry key="auxiliary|text|group-framework-value">Predvidena vrednost okvirnih sporazumov v skupini sklopov</entry>
 <entry key="auxiliary|text|group-of-lots">Skupina sklopov</entry>
@@ -79,6 +79,7 @@
 <entry key="auxiliary|text|place-performance">Kraj izvajanja</entry>
 <entry key="auxiliary|text|place-registration">Kraj registracije</entry>
 <entry key="auxiliary|text|previous-planning">Informacije o prejšnjih obvestilih</entry>
+<entry key="auxiliary|text|prize-information">Nagrada</entry>
 <entry key="auxiliary|text|procedure">Postopek</entry>
 <entry key="auxiliary|text|procedure-terms">Pogoji postopka</entry>
 <entry key="auxiliary|text|procurement-documents">Dokumenti v zvezi z oddajo javnega naročila</entry>
@@ -106,9 +107,10 @@
 <entry key="auxiliary|text|submission-terms">Pogoji za predložitev</entry>
 <entry key="auxiliary|text|techniques">Tehnike</entry>
 <entry key="auxiliary|text|tender">Ponudba</entry>
+<entry key="auxiliary|text|unpublished">neobjavljeno</entry>
 <entry key="auxiliary|text|value">Vrednost</entry>
 <entry key="auxiliary|text|winner">Zmagovalec</entry>
 <entry key="auxiliary|text|winner-info">Informacije o zmagovalcih</entry>
-<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
+<entry key="auxiliary|text|winner-lots">Izbrani ponudnik za te sklope</entry>
 <entry key="auxiliary|text|winner-subcontractor">Podizvajalci zmagovalca</entry>
 </properties>

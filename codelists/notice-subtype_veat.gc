@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Veat</ShortName>
       <LongName>veat</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>25</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за доброволна прозрачност ex-ante – Общата директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o dobrovolné průhlednosti ex ante – obecná směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse med henblik på frivillig forudgående gennemsigtighed – det generelle direktiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung für die Zwecke der freiwilligen Ex-Ante-Transparenz – allgemeine Richtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη για εκούσια εκ των προτέρων διαφάνεια – γενική οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>25</SimpleValue>
+            <SimpleValue>Voluntary ex-ante transparency notice – general directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de transparencia previa voluntaria. Directiva general.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik eelnev avalikustamisteade – kaitsealane direktiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoista ex ante -avoimuutta koskeva ilmoitus – yleisdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis en cas de transparence ex ante volontaire – directive générale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra trédhearcachta ex ante deonach — treoir ghinearálta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest za dobrovoljnu ex ante transparentnost – opća direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény – általános irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario per la trasparenza ex ante – direttiva generale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas ex-ante skelbimas skaidrumo sumetimais; bendroji direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgas ex-ante pārskatāmības paziņojums – Vispārīgā iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ trasparenza ex ante volontarja – Direttiva ġenerali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging in geval van vrijwillige transparantie vooraf – algemene richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o dobrowolnej przejrzystości ex ante – dyrektywa ogólna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de transparência ex ante – diretiva geral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de transparență ex ante voluntară - directivă generală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie pre dobrovoľnú transparentnosť ex-ante – všeobecná smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>prostovoljno obvestilo za predhodno transparentnost – splošna direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om frivillig förhandsinsyn – klassiska direktivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -138,8 +207,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>26</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за доброволна прозрачност ex-ante – Секторната директива</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o dobrovolné průhlednosti ex ante – odvětvová směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse med henblik på frivillig forudgående gennemsigtighed – sektordirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung für die Zwecke der freiwilligen Ex-Ante-Transparenz – Sektorenrichtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη για εκούσια εκ των προτέρων διαφάνεια – τομεακή οδηγία</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>26</SimpleValue>
+            <SimpleValue>Voluntary ex-ante transparency notice – sectoral directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de transparencia previa voluntaria. Directiva sectorial.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik eelnev avalikustamisteade – kontsessioonidirektiiv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoista ex ante -avoimuutta koskeva ilmoitus – toimialakohtainen direktiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis en cas de transparence ex ante volontaire – directive sectorielle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra trédhearcachta ex ante deonach — treoir earnála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest za dobrovoljnu ex ante transparentnost – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény – ágazati irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario per la trasparenza ex ante – direttiva settoriale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas ex-ante skelbimas skaidrumo sumetimais; sektoriaus direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgas ex-ante pārskatāmības paziņojums – Komunālo pakalpojumu direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ trasparenza ex ante volontarja – Direttiva settorjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging in geval van vrijwillige transparantie vooraf – sectorale richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o dobrowolnej przejrzystości ex ante – dyrektywa sektorowa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de transparência ex ante – diretiva setorial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de transparență ex ante voluntară - directivă sectorială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie pre dobrovoľnú transparentnosť ex-ante – sektorová smernica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>prostovoljno obvestilo za predhodno transparentnost – sektorska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om frivillig förhandsinsyn – försörjningsdirektivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -149,8 +287,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>27</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за доброволна прозрачност ex-ante – Директивата за отбраната</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o dobrovolné průhlednosti ex ante – směrnice o zadávání zakázek v oblasti obrany</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse med henblik på frivillig forudgående gennemsigtighed – forsvarsdirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung für die Zwecke der freiwilligen Ex-Ante-Transparenz – Richtlinie für Beschaffung im Bereich Verteidigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη για εκούσια εκ των προτέρων διαφάνεια – οδηγία για την άμυνα</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>27</SimpleValue>
+            <SimpleValue>Voluntary ex-ante transparency notice – defence directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de transparencia previa voluntaria. Directiva de defensa.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankelepingu sõlmimise teade – ülddirektiiv, üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoista ex ante -avoimuutta koskeva ilmoitus – puolustusdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis en cas de transparence ex ante volontaire – directive «défense»</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra trédhearcachta ex ante deonach — treoir maidir le cosaint</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest za dobrovoljnu ex ante transparentnost – direktiva u području obrane</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény – védelmi irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario per la trasparenza ex ante – direttiva per il settore della difesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas ex-ante skelbimas skaidrumo sumetimais; gynybos direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgas ex-ante pārskatāmības paziņojums – Aizsardzības iepirkuma direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ trasparenza ex ante volontarja – Direttiva dwar id-difiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging in geval van vrijwillige transparantie vooraf – defensierichtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o dobrowolnej przejrzystości ex ante – dyrektywa obronna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de transparência ex ante – Diretiva Defesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de transparență ex ante voluntară - directivă privind apărarea</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie pre dobrovoľnú transparentnosť ex-ante – smernica o zákazkách v oblasti obrany a bezpečnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>prostovoljno obvestilo za predhodno transparentnost – direktiva na področju obrambe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om frivillig förhandsinsyn – försvars- och säkerhetsdirektivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -160,8 +367,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>28</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за доброволна прозрачност ex-ante – Директивата за концесиите</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o dobrovolné průhlednosti ex ante – směrnice o udělování koncesí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse med henblik på frivillig forudgående gennemsigtighed – koncessionsdirektivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung für die Zwecke der freiwilligen Ex-Ante-Transparenz – Konzessionsrichtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Προκήρυξη για εκούσια εκ των προτέρων διαφάνεια – οδηγία για τις συμβάσεις παραχώρησης</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>28</SimpleValue>
+            <SimpleValue>Voluntary ex-ante transparency notice – concession directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de transparencia previa voluntaria. Directiva de concesiones.</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankelepingu sõlmimise teade – valdkondlik direktiiv, üldkord</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoista ex ante -avoimuutta koskeva ilmoitus – käyttöoikeussopimusdirektiivi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis en cas de transparence ex ante volontaire – directive «concessions»</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra trédhearcachta ex ante deonach — treoir lamháltais</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest za dobrovoljnu ex ante transparentnost – koncesijska direktiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény – koncessziós irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario per la trasparenza ex ante – direttiva sulle concessioni</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas ex-ante skelbimas skaidrumo sumetimais; koncesijų direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgas ex-ante pārskatāmības paziņojums – Koncesiju direktīva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż ta’ trasparenza ex ante volontarja – Direttiva dwar il-konċessjonijiet</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging in geval van vrijwillige transparantie vooraf – concessierichtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o dobrowolnej przejrzystości ex ante – dyrektywa w sprawie koncesji</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de transparência ex ante – Diretiva Concessões</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de transparență ex ante voluntară - directivă privind concesiunile</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>oznámenie pre dobrovoľnú transparentnosť ex-ante – smernica o koncesiách</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>prostovoljno obvestilo za predhodno transparentnost – direktiva o koncesijah</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om frivillig förhandsinsyn – koncessionsdirektivet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

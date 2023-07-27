@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsLvl3</ShortName>
       <LongName>nuts-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -1039,10 +1039,10 @@
             <SimpleValue>BE335</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Arr. Verviers - communes francophones</SimpleValue>
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Arr. Verviers - communes francophones</SimpleValue>
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1050,10 +1050,10 @@
             <SimpleValue>BE336</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bezirk Verviers - Deutschsprachige Gemeinschaft</SimpleValue>
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bezirk Verviers - Deutschsprachige Gemeinschaft</SimpleValue>
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1160,10 +1160,10 @@
             <SimpleValue>BG311</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Видин (Vidin)</SimpleValue>
+            <SimpleValue>Видин</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Видин (Vidin)</SimpleValue>
+            <SimpleValue>Видин</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1171,10 +1171,10 @@
             <SimpleValue>BG312</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Монтана (Montana)</SimpleValue>
+            <SimpleValue>Монтана</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Монтана (Montana)</SimpleValue>
+            <SimpleValue>Монтана</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1182,10 +1182,10 @@
             <SimpleValue>BG313</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Враца (Vratsa)</SimpleValue>
+            <SimpleValue>Враца</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Враца (Vratsa)</SimpleValue>
+            <SimpleValue>Враца</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1193,10 +1193,10 @@
             <SimpleValue>BG314</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Плевен (Pleven)</SimpleValue>
+            <SimpleValue>Плевен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Плевен (Pleven)</SimpleValue>
+            <SimpleValue>Плевен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1204,10 +1204,10 @@
             <SimpleValue>BG315</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ловеч (Lovech)</SimpleValue>
+            <SimpleValue>Ловеч</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ловеч (Lovech)</SimpleValue>
+            <SimpleValue>Ловеч</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1215,10 +1215,10 @@
             <SimpleValue>BG321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Велико Търново (Veliko Tarnovo)</SimpleValue>
+            <SimpleValue>Велико Търново</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Велико Търново (Veliko Tarnovo)</SimpleValue>
+            <SimpleValue>Велико Търново</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1226,10 +1226,10 @@
             <SimpleValue>BG322</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Габрово (Gabrovo)</SimpleValue>
+            <SimpleValue>Габрово</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Габрово (Gabrovo)</SimpleValue>
+            <SimpleValue>Габрово</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1237,10 +1237,10 @@
             <SimpleValue>BG323</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Русе (Ruse)</SimpleValue>
+            <SimpleValue>Русе</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Русе (Ruse)</SimpleValue>
+            <SimpleValue>Русе</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1248,10 +1248,10 @@
             <SimpleValue>BG324</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Разград (Razgrad)</SimpleValue>
+            <SimpleValue>Разград</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Разград (Razgrad)</SimpleValue>
+            <SimpleValue>Разград</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1259,10 +1259,10 @@
             <SimpleValue>BG325</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Силистра (Silistra)</SimpleValue>
+            <SimpleValue>Силистра</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Силистра (Silistra)</SimpleValue>
+            <SimpleValue>Силистра</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1270,10 +1270,10 @@
             <SimpleValue>BG331</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Варна (Varna)</SimpleValue>
+            <SimpleValue>Варна</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Варна (Varna)</SimpleValue>
+            <SimpleValue>Варна</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1281,10 +1281,10 @@
             <SimpleValue>BG332</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Добрич (Dobrich)</SimpleValue>
+            <SimpleValue>Добрич</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Добрич (Dobrich)</SimpleValue>
+            <SimpleValue>Добрич</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1292,10 +1292,10 @@
             <SimpleValue>BG333</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Шумен (Shumen)</SimpleValue>
+            <SimpleValue>Шумен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Шумен (Shumen)</SimpleValue>
+            <SimpleValue>Шумен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1303,10 +1303,10 @@
             <SimpleValue>BG334</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Търговище (Targovishte)</SimpleValue>
+            <SimpleValue>Търговище</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Търговище (Targovishte)</SimpleValue>
+            <SimpleValue>Търговище</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1314,10 +1314,10 @@
             <SimpleValue>BG341</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Бургас (Burgas)</SimpleValue>
+            <SimpleValue>Бургас</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Бургас (Burgas)</SimpleValue>
+            <SimpleValue>Бургас</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1325,10 +1325,10 @@
             <SimpleValue>BG342</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Сливен (Sliven)</SimpleValue>
+            <SimpleValue>Сливен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Сливен (Sliven)</SimpleValue>
+            <SimpleValue>Сливен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1336,10 +1336,10 @@
             <SimpleValue>BG343</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ямбол (Yambol)</SimpleValue>
+            <SimpleValue>Ямбол</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ямбол (Yambol)</SimpleValue>
+            <SimpleValue>Ямбол</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1347,10 +1347,10 @@
             <SimpleValue>BG344</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Стара Загора (Stara Zagora)</SimpleValue>
+            <SimpleValue>Стара Загора</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Стара Загора (Stara Zagora)</SimpleValue>
+            <SimpleValue>Стара Загора</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1358,10 +1358,10 @@
             <SimpleValue>BG411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>София (столица) (Sofia (stolitsa))</SimpleValue>
+            <SimpleValue>София (столица)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>София (столица) (Sofia (stolitsa))</SimpleValue>
+            <SimpleValue>София (столица)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1369,10 +1369,10 @@
             <SimpleValue>BG412</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>София (Sofia)</SimpleValue>
+            <SimpleValue>София</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>София (Sofia)</SimpleValue>
+            <SimpleValue>София</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1380,10 +1380,10 @@
             <SimpleValue>BG413</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Благоевград (Blagoevgrad)</SimpleValue>
+            <SimpleValue>Благоевград</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Благоевград (Blagoevgrad)</SimpleValue>
+            <SimpleValue>Благоевград</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1391,10 +1391,10 @@
             <SimpleValue>BG414</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Перник (Pernik)</SimpleValue>
+            <SimpleValue>Перник</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Перник (Pernik)</SimpleValue>
+            <SimpleValue>Перник</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1402,10 +1402,10 @@
             <SimpleValue>BG415</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Кюстендил (Kyustendil)</SimpleValue>
+            <SimpleValue>Кюстендил</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Кюстендил (Kyustendil)</SimpleValue>
+            <SimpleValue>Кюстендил</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1413,10 +1413,10 @@
             <SimpleValue>BG421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пловдив (Plovdiv)</SimpleValue>
+            <SimpleValue>Пловдив</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пловдив (Plovdiv)</SimpleValue>
+            <SimpleValue>Пловдив</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1424,10 +1424,10 @@
             <SimpleValue>BG422</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Хасково (Haskovo)</SimpleValue>
+            <SimpleValue>Хасково</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Хасково (Haskovo)</SimpleValue>
+            <SimpleValue>Хасково</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1435,10 +1435,10 @@
             <SimpleValue>BG423</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пазарджик (Pazardzhik)</SimpleValue>
+            <SimpleValue>Пазарджик</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пазарджик (Pazardzhik)</SimpleValue>
+            <SimpleValue>Пазарджик</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1446,10 +1446,10 @@
             <SimpleValue>BG424</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Смолян (Smolyan)</SimpleValue>
+            <SimpleValue>Смолян</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Смолян (Smolyan)</SimpleValue>
+            <SimpleValue>Смолян</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1457,10 +1457,10 @@
             <SimpleValue>BG425</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Кърджали (Kardzhali)</SimpleValue>
+            <SimpleValue>Кърджали</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Кърджали (Kardzhali)</SimpleValue>
+            <SimpleValue>Кърджали</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1490,10 +1490,10 @@
             <SimpleValue>CH012</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Valais/Wallis</SimpleValue>
+            <SimpleValue>Valais / Wallis</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Valais/Wallis</SimpleValue>
+            <SimpleValue>Valais / Wallis</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1512,10 +1512,10 @@
             <SimpleValue>CH021</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bern/Berne</SimpleValue>
+            <SimpleValue>Bern / Berne</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bern/Berne</SimpleValue>
+            <SimpleValue>Bern / Berne</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1523,10 +1523,10 @@
             <SimpleValue>CH022</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Fribourg/Freiburg</SimpleValue>
+            <SimpleValue>Fribourg / Freiburg</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Fribourg/Freiburg</SimpleValue>
+            <SimpleValue>Fribourg / Freiburg</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1666,10 +1666,10 @@
             <SimpleValue>CH056</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Graubünden/Grigioni/Grischun</SimpleValue>
+            <SimpleValue>Graubünden / Grigioni / Grischun</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Graubünden/Grigioni/Grischun</SimpleValue>
+            <SimpleValue>Graubünden / Grigioni / Grischun</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1776,10 +1776,10 @@
             <SimpleValue>CY000</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κύπρος (Kypros)</SimpleValue>
+            <SimpleValue>Κύπρος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κύπρος (Kypros)</SimpleValue>
+            <SimpleValue>Κύπρος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6583,10 +6583,10 @@
             <SimpleValue>EL301</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Βόρειος Τομέας Αθηνών (Voreios Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Βόρειος Τομέας Αθηνών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Βόρειος Τομέας Αθηνών (Voreios Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Βόρειος Τομέας Αθηνών</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6594,10 +6594,10 @@
             <SimpleValue>EL302</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Δυτικός Τομέας Αθηνών (Dytikos Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Δυτικός Τομέας Αθηνών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Δυτικός Τομέας Αθηνών (Dytikos Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Δυτικός Τομέας Αθηνών</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6605,10 +6605,10 @@
             <SimpleValue>EL303</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κεντρικός Τομέας Αθηνών (Kentrikos Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Κεντρικός Τομέας Αθηνών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κεντρικός Τομέας Αθηνών (Kentrikos Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Κεντρικός Τομέας Αθηνών</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6616,10 +6616,10 @@
             <SimpleValue>EL304</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Νότιος Τομέας Αθηνών (Notios Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Νότιος Τομέας Αθηνών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Νότιος Τομέας Αθηνών (Notios Tomeas Athinon)</SimpleValue>
+            <SimpleValue>Νότιος Τομέας Αθηνών</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6627,10 +6627,10 @@
             <SimpleValue>EL305</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ανατολική Αττική (Anatoliki Attiki)</SimpleValue>
+            <SimpleValue>Ανατολική Αττική</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ανατολική Αττική (Anatoliki Attiki)</SimpleValue>
+            <SimpleValue>Ανατολική Αττική</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6638,10 +6638,10 @@
             <SimpleValue>EL306</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Δυτική Αττική (Dytiki Attiki)</SimpleValue>
+            <SimpleValue>Δυτική Αττική</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Δυτική Αττική (Dytiki Attiki)</SimpleValue>
+            <SimpleValue>Δυτική Αττική</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6649,10 +6649,10 @@
             <SimpleValue>EL307</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Πειραιάς, Νήσοι (Peiraias, Nisoi)</SimpleValue>
+            <SimpleValue>Πειραιάς, Νήσοι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Πειραιάς, Νήσοι (Peiraias, Nisoi)</SimpleValue>
+            <SimpleValue>Πειραιάς, Νήσοι</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6660,10 +6660,10 @@
             <SimpleValue>EL411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λέσβος, Λήμνος (Lesvos, Limnos)</SimpleValue>
+            <SimpleValue>Λέσβος, Λήμνος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λέσβος, Λήμνος (Lesvos, Limnos)</SimpleValue>
+            <SimpleValue>Λέσβος, Λήμνος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6671,10 +6671,10 @@
             <SimpleValue>EL412</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ικαρία, Σάμος (Ikaria, Samos)</SimpleValue>
+            <SimpleValue>Ικαρία, Σάμος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ικαρία, Σάμος (Ikaria, Samos)</SimpleValue>
+            <SimpleValue>Ικαρία, Σάμος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6682,10 +6682,10 @@
             <SimpleValue>EL413</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Χίος (Chios)</SimpleValue>
+            <SimpleValue>Χίος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Χίος (Chios)</SimpleValue>
+            <SimpleValue>Χίος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6693,10 +6693,10 @@
             <SimpleValue>EL421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κάλυμνος, Κάρπαθος - Ηρωική Νήσος Κάσος, Κως, Ρόδος (Kalymnos, Karpathos, Kasos, Kos, Rodos)</SimpleValue>
+            <SimpleValue>Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κάλυμνος, Κάρπαθος - Ηρωική Νήσος Κάσος, Κως, Ρόδος (Kalymnos, Karpathos, Kasos, Kos, Rodos)</SimpleValue>
+            <SimpleValue>Κάλυμνος, Κάρπαθος – Ηρωική Νήσος Κάσος, Κως, Ρόδος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6704,10 +6704,10 @@
             <SimpleValue>EL422</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)</SimpleValue>
+            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος (Andros, Thira, Kea, Milos, Mykonos, Naxos, Paros, Syros, Tinos)</SimpleValue>
+            <SimpleValue>Άνδρος, Θήρα, Κέα, Μήλος, Μύκονος, Νάξος, Πάρος, Σύρος, Τήνος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6715,10 +6715,10 @@
             <SimpleValue>EL431</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ηράκλειο (Irakleio)</SimpleValue>
+            <SimpleValue>Ηράκλειο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ηράκλειο (Irakleio)</SimpleValue>
+            <SimpleValue>Ηράκλειο</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6726,10 +6726,10 @@
             <SimpleValue>EL432</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λασίθι (Lasithi)</SimpleValue>
+            <SimpleValue>Λασίθι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λασίθι (Lasithi)</SimpleValue>
+            <SimpleValue>Λασίθι</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6737,10 +6737,10 @@
             <SimpleValue>EL433</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ρεθύμνη (Rethymni)</SimpleValue>
+            <SimpleValue>Ρέθυμνο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ρεθύμνη (Rethymni)</SimpleValue>
+            <SimpleValue>Ρέθυμνο</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6748,10 +6748,10 @@
             <SimpleValue>EL434</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Χανιά (Chania)</SimpleValue>
+            <SimpleValue>Χανιά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Χανιά (Chania)</SimpleValue>
+            <SimpleValue>Χανιά</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6759,10 +6759,10 @@
             <SimpleValue>EL511</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Έβρος (Evros)</SimpleValue>
+            <SimpleValue>Έβρος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Έβρος (Evros)</SimpleValue>
+            <SimpleValue>Έβρος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6770,10 +6770,10 @@
             <SimpleValue>EL512</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ξάνθη (Xanthi)</SimpleValue>
+            <SimpleValue>Ξάνθη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ξάνθη (Xanthi)</SimpleValue>
+            <SimpleValue>Ξάνθη</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6781,10 +6781,10 @@
             <SimpleValue>EL513</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ροδόπη (Rodopi)</SimpleValue>
+            <SimpleValue>Ροδόπη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ροδόπη (Rodopi)</SimpleValue>
+            <SimpleValue>Ροδόπη</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6792,10 +6792,10 @@
             <SimpleValue>EL514</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Δράμα (Drama)</SimpleValue>
+            <SimpleValue>Δράμα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Δράμα (Drama)</SimpleValue>
+            <SimpleValue>Δράμα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6803,10 +6803,10 @@
             <SimpleValue>EL515</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Θάσος, Καβάλα (Thasos, Kavala)</SimpleValue>
+            <SimpleValue>Θάσος, Καβάλα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Θάσος, Καβάλα (Thasos, Kavala)</SimpleValue>
+            <SimpleValue>Θάσος, Καβάλα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6814,10 +6814,10 @@
             <SimpleValue>EL521</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ημαθία (Imathia)</SimpleValue>
+            <SimpleValue>Ημαθία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ημαθία (Imathia)</SimpleValue>
+            <SimpleValue>Ημαθία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6825,10 +6825,10 @@
             <SimpleValue>EL522</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Θεσσαλονίκη (Thessaloniki)</SimpleValue>
+            <SimpleValue>Θεσσαλονίκη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Θεσσαλονίκη (Thessaloniki)</SimpleValue>
+            <SimpleValue>Θεσσαλονίκη</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6836,10 +6836,10 @@
             <SimpleValue>EL523</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κιλκίς (Kilkis)</SimpleValue>
+            <SimpleValue>Κιλκίς</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κιλκίς (Kilkis)</SimpleValue>
+            <SimpleValue>Κιλκίς</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6847,10 +6847,10 @@
             <SimpleValue>EL524</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Πέλλα (Pella)</SimpleValue>
+            <SimpleValue>Πέλλα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Πέλλα (Pella)</SimpleValue>
+            <SimpleValue>Πέλλα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6858,10 +6858,10 @@
             <SimpleValue>EL525</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Πιερία (Pieria)</SimpleValue>
+            <SimpleValue>Πιερία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Πιερία (Pieria)</SimpleValue>
+            <SimpleValue>Πιερία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6869,10 +6869,10 @@
             <SimpleValue>EL526</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Σέρρες (Serres)</SimpleValue>
+            <SimpleValue>Σέρρες</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Σέρρες (Serres)</SimpleValue>
+            <SimpleValue>Σέρρες</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6880,10 +6880,10 @@
             <SimpleValue>EL527</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Χαλκιδική (Chalkidiki)</SimpleValue>
+            <SimpleValue>Χαλκιδική</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Χαλκιδική (Chalkidiki)</SimpleValue>
+            <SimpleValue>Χαλκιδική</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6891,10 +6891,10 @@
             <SimpleValue>EL531</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Γρεβενά, Κοζάνη (Grevena, Kozani)</SimpleValue>
+            <SimpleValue>Γρεβενά, Κοζάνη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Γρεβενά, Κοζάνη (Grevena, Kozani)</SimpleValue>
+            <SimpleValue>Γρεβενά, Κοζάνη</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6902,10 +6902,10 @@
             <SimpleValue>EL532</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Καστοριά (Kastoria)</SimpleValue>
+            <SimpleValue>Καστοριά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Καστοριά (Kastoria)</SimpleValue>
+            <SimpleValue>Καστοριά</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6913,10 +6913,10 @@
             <SimpleValue>EL533</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Φλώρινα (Florina)</SimpleValue>
+            <SimpleValue>Φλώρινα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Φλώρινα (Florina)</SimpleValue>
+            <SimpleValue>Φλώρινα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6924,10 +6924,10 @@
             <SimpleValue>EL541</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Άρτα, Πρέβεζα (Arta, Preveza)</SimpleValue>
+            <SimpleValue>Άρτα, Πρέβεζα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Άρτα, Πρέβεζα (Arta, Preveza)</SimpleValue>
+            <SimpleValue>Άρτα, Πρέβεζα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6935,10 +6935,10 @@
             <SimpleValue>EL542</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Θεσπρωτία (Thesprotia)</SimpleValue>
+            <SimpleValue>Θεσπρωτία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Θεσπρωτία (Thesprotia)</SimpleValue>
+            <SimpleValue>Θεσπρωτία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6946,10 +6946,10 @@
             <SimpleValue>EL543</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ιωάννινα (Ioannina)</SimpleValue>
+            <SimpleValue>Ιωάννινα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ιωάννινα (Ioannina)</SimpleValue>
+            <SimpleValue>Ιωάννινα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6957,10 +6957,10 @@
             <SimpleValue>EL611</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Καρδίτσα, Τρίκαλα (Karditsa, Trikala)</SimpleValue>
+            <SimpleValue>Καρδίτσα, Τρίκαλα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Καρδίτσα, Τρίκαλα (Karditsa, Trikala)</SimpleValue>
+            <SimpleValue>Καρδίτσα, Τρίκαλα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6968,10 +6968,10 @@
             <SimpleValue>EL612</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λάρισα (Larisa)</SimpleValue>
+            <SimpleValue>Λάρισα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λάρισα (Larisa)</SimpleValue>
+            <SimpleValue>Λάρισα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6979,10 +6979,10 @@
             <SimpleValue>EL613</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Μαγνησία, Σποράδες (Magnisia, Sporades)</SimpleValue>
+            <SimpleValue>Μαγνησία, Σποράδες</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Μαγνησία, Σποράδες (Magnisia, Sporades)</SimpleValue>
+            <SimpleValue>Μαγνησία, Σποράδες</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6990,10 +6990,10 @@
             <SimpleValue>EL621</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ζάκυνθος (Zakynthos)</SimpleValue>
+            <SimpleValue>Ζάκυνθος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ζάκυνθος (Zakynthos)</SimpleValue>
+            <SimpleValue>Ζάκυνθος</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7001,10 +7001,10 @@
             <SimpleValue>EL622</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κέρκυρα (Kerkyra)</SimpleValue>
+            <SimpleValue>Κέρκυρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κέρκυρα (Kerkyra)</SimpleValue>
+            <SimpleValue>Κέρκυρα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7012,10 +7012,10 @@
             <SimpleValue>EL623</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ιθάκη, Κεφαλληνία (Ithaki, Kefallinia)</SimpleValue>
+            <SimpleValue>Ιθάκη, Κεφαλληνία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ιθάκη, Κεφαλληνία (Ithaki, Kefallinia)</SimpleValue>
+            <SimpleValue>Ιθάκη, Κεφαλληνία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7023,10 +7023,10 @@
             <SimpleValue>EL624</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λευκάδα (Lefkada)</SimpleValue>
+            <SimpleValue>Λευκάδα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λευκάδα (Lefkada)</SimpleValue>
+            <SimpleValue>Λευκάδα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7034,10 +7034,10 @@
             <SimpleValue>EL631</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Αιτωλοακαρνανία (Aitoloakarnania)</SimpleValue>
+            <SimpleValue>Αιτωλοακαρνανία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Αιτωλοακαρνανία (Aitoloakarnania)</SimpleValue>
+            <SimpleValue>Αιτωλοακαρνανία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7045,10 +7045,10 @@
             <SimpleValue>EL632</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Αχαΐα (Achaia)</SimpleValue>
+            <SimpleValue>Αχαΐα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Αχαΐα (Achaia)</SimpleValue>
+            <SimpleValue>Αχαΐα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7056,10 +7056,10 @@
             <SimpleValue>EL633</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ηλεία (Ileia)</SimpleValue>
+            <SimpleValue>Ηλεία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ηλεία (Ileia)</SimpleValue>
+            <SimpleValue>Ηλεία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7067,10 +7067,10 @@
             <SimpleValue>EL641</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Βοιωτία (Voiotia)</SimpleValue>
+            <SimpleValue>Βοιωτία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Βοιωτία (Voiotia)</SimpleValue>
+            <SimpleValue>Βοιωτία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7078,10 +7078,10 @@
             <SimpleValue>EL642</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Εύβοια (Evvoia)</SimpleValue>
+            <SimpleValue>Εύβοια</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Εύβοια (Evvoia)</SimpleValue>
+            <SimpleValue>Εύβοια</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7089,10 +7089,10 @@
             <SimpleValue>EL643</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ευρυτανία (Evrytania)</SimpleValue>
+            <SimpleValue>Ευρυτανία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ευρυτανία (Evrytania)</SimpleValue>
+            <SimpleValue>Ευρυτανία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7100,10 +7100,10 @@
             <SimpleValue>EL644</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Φθιώτιδα (Fthiotida)</SimpleValue>
+            <SimpleValue>Φθιώτιδα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Φθιώτιδα (Fthiotida)</SimpleValue>
+            <SimpleValue>Φθιώτιδα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7111,10 +7111,10 @@
             <SimpleValue>EL645</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Φωκίδα (Fokida)</SimpleValue>
+            <SimpleValue>Φωκίδα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Φωκίδα (Fokida)</SimpleValue>
+            <SimpleValue>Φωκίδα</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7122,10 +7122,10 @@
             <SimpleValue>EL651</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Αργολίδα, Αρκαδία (Argolida, Arkadia)</SimpleValue>
+            <SimpleValue>Αργολίδα, Αρκαδία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Αργολίδα, Αρκαδία (Argolida, Arkadia)</SimpleValue>
+            <SimpleValue>Αργολίδα, Αρκαδία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7133,10 +7133,10 @@
             <SimpleValue>EL652</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Κορινθία (Korinthia)</SimpleValue>
+            <SimpleValue>Κορινθία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Κορινθία (Korinthia)</SimpleValue>
+            <SimpleValue>Κορινθία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7144,10 +7144,10 @@
             <SimpleValue>EL653</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Λακωνία, Μεσσηνία (Lakonia, Messinia)</SimpleValue>
+            <SimpleValue>Λακωνία, Μεσσηνία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Λακωνία, Μεσσηνία (Lakonia, Messinia)</SimpleValue>
+            <SimpleValue>Λακωνία, Μεσσηνία</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7551,10 +7551,10 @@
             <SimpleValue>ES521</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Alicante/Alacant</SimpleValue>
+            <SimpleValue>Alicante / Alacant</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Alicante/Alacant</SimpleValue>
+            <SimpleValue>Alicante / Alacant</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7562,10 +7562,10 @@
             <SimpleValue>ES522</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Castellón/Castelló</SimpleValue>
+            <SimpleValue>Castellón / Castelló</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Castellón/Castelló</SimpleValue>
+            <SimpleValue>Castellón / Castelló</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7573,10 +7573,10 @@
             <SimpleValue>ES523</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Valencia/València</SimpleValue>
+            <SimpleValue>Valencia / València</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Valencia/València</SimpleValue>
+            <SimpleValue>Valencia / València</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11203,10 +11203,10 @@
             <SimpleValue>ME000</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Црна Гора (Crna Gora)</SimpleValue>
+            <SimpleValue>Црна Гора</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Црна Гора (Crna Gora)</SimpleValue>
+            <SimpleValue>Црна Гора</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11225,10 +11225,10 @@
             <SimpleValue>MK001</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Вардарски (Vardarski)</SimpleValue>
+            <SimpleValue>Вардарски</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Вардарски (Vardarski)</SimpleValue>
+            <SimpleValue>Вардарски</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11236,10 +11236,10 @@
             <SimpleValue>MK002</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Источен (Istočen)</SimpleValue>
+            <SimpleValue>Источен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Источен (Istočen)</SimpleValue>
+            <SimpleValue>Источен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11247,10 +11247,10 @@
             <SimpleValue>MK003</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Југозападен (Jugozapaden)</SimpleValue>
+            <SimpleValue>Југозападен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Југозападен (Jugozapaden)</SimpleValue>
+            <SimpleValue>Југозападен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11258,10 +11258,10 @@
             <SimpleValue>MK004</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Југоисточен (Jugoistočen)</SimpleValue>
+            <SimpleValue>Југоисточен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Југоисточен (Jugoistočen)</SimpleValue>
+            <SimpleValue>Југоисточен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11269,10 +11269,10 @@
             <SimpleValue>MK005</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пелагониски (Pelagoniski)</SimpleValue>
+            <SimpleValue>Пелагониски</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пелагониски (Pelagoniski)</SimpleValue>
+            <SimpleValue>Пелагониски</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11280,10 +11280,10 @@
             <SimpleValue>MK006</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Полошки (Pološki)</SimpleValue>
+            <SimpleValue>Полошки</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Полошки (Pološki)</SimpleValue>
+            <SimpleValue>Полошки</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11291,10 +11291,10 @@
             <SimpleValue>MK007</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Североисточен (Severoistočen)</SimpleValue>
+            <SimpleValue>Североисточен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Североисточен (Severoistočen)</SimpleValue>
+            <SimpleValue>Североисточен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11302,10 +11302,10 @@
             <SimpleValue>MK008</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Скопски (Skopski)</SimpleValue>
+            <SimpleValue>Скопски</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Скопски (Skopski)</SimpleValue>
+            <SimpleValue>Скопски</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11335,10 +11335,10 @@
             <SimpleValue>MT002</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Gozo and Comino/Għawdex u Kemmuna</SimpleValue>
+            <SimpleValue>Gozo and Comino / Għawdex u Kemmuna</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Gozo and Comino/Għawdex u Kemmuna</SimpleValue>
+            <SimpleValue>Gozo and Comino / Għawdex u Kemmuna</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12270,10 +12270,10 @@
             <SimpleValue>PL516</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Legnicko-głogowski</SimpleValue>
+            <SimpleValue>Legnicko-Głogowski</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Legnicko-głogowski</SimpleValue>
+            <SimpleValue>Legnicko-Głogowski</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -12325,10 +12325,10 @@
             <SimpleValue>PL613</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Bydgosko-toruński</SimpleValue>
+            <SimpleValue>Bydgosko-Toruński</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Bydgosko-toruński</SimpleValue>
+            <SimpleValue>Bydgosko-Toruński</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13535,10 +13535,10 @@
             <SimpleValue>RS110</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Београдска област (Beogradska oblast)</SimpleValue>
+            <SimpleValue>Београдска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Београдска област (Beogradska oblast)</SimpleValue>
+            <SimpleValue>Београдска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13546,10 +13546,10 @@
             <SimpleValue>RS121</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Западнобачка област (Zapadnobačka oblast)</SimpleValue>
+            <SimpleValue>Западнобачка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Западнобачка област (Zapadnobačka oblast)</SimpleValue>
+            <SimpleValue>Западнобачка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13557,10 +13557,10 @@
             <SimpleValue>RS122</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Јужнобанатска област (Južnobanatska oblast)</SimpleValue>
+            <SimpleValue>Јужнобанатска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Јужнобанатска област (Južnobanatska oblast)</SimpleValue>
+            <SimpleValue>Јужнобанатска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13568,10 +13568,10 @@
             <SimpleValue>RS123</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Јужнобачка област (Južnobačka oblast)</SimpleValue>
+            <SimpleValue>Јужнобачка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Јужнобачка област (Južnobačka oblast)</SimpleValue>
+            <SimpleValue>Јужнобачка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13579,10 +13579,10 @@
             <SimpleValue>RS124</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Севернобанатска област (Severnobanatska oblast)</SimpleValue>
+            <SimpleValue>Севернобанатска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Севернобанатска област (Severnobanatska oblast)</SimpleValue>
+            <SimpleValue>Севернобанатска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13590,10 +13590,10 @@
             <SimpleValue>RS125</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Севернобачка област (Severnobačka oblast)</SimpleValue>
+            <SimpleValue>Севернобачка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Севернобачка област (Severnobačka oblast)</SimpleValue>
+            <SimpleValue>Севернобачка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13601,10 +13601,10 @@
             <SimpleValue>RS126</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Средњобанатска област (Srednjobanatska oblast)</SimpleValue>
+            <SimpleValue>Средњобанатска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Средњобанатска област (Srednjobanatska oblast)</SimpleValue>
+            <SimpleValue>Средњобанатска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13612,10 +13612,10 @@
             <SimpleValue>RS127</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Сремска област (Sremska oblast)</SimpleValue>
+            <SimpleValue>Сремска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Сремска област (Sremska oblast)</SimpleValue>
+            <SimpleValue>Сремска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13623,10 +13623,10 @@
             <SimpleValue>RS211</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Златиборска област (Zlatiborska oblast)</SimpleValue>
+            <SimpleValue>Златиборска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Златиборска област (Zlatiborska oblast)</SimpleValue>
+            <SimpleValue>Златиборска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13634,10 +13634,10 @@
             <SimpleValue>RS212</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Колубарска област (Kolubarska oblast)</SimpleValue>
+            <SimpleValue>Колубарска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Колубарска област (Kolubarska oblast)</SimpleValue>
+            <SimpleValue>Колубарска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13645,10 +13645,10 @@
             <SimpleValue>RS213</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Мачванска област (Mačvanska oblast)</SimpleValue>
+            <SimpleValue>Мачванска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Мачванска област (Mačvanska oblast)</SimpleValue>
+            <SimpleValue>Мачванска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13656,10 +13656,10 @@
             <SimpleValue>RS214</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Моравичка област (Moravička oblast)</SimpleValue>
+            <SimpleValue>Моравичка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Моравичка област (Moravička oblast)</SimpleValue>
+            <SimpleValue>Моравичка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13667,10 +13667,10 @@
             <SimpleValue>RS215</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Поморавска област (Pomoravska oblast)</SimpleValue>
+            <SimpleValue>Поморавска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Поморавска област (Pomoravska oblast)</SimpleValue>
+            <SimpleValue>Поморавска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13678,10 +13678,10 @@
             <SimpleValue>RS216</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Расинска област (Rasinska oblast)</SimpleValue>
+            <SimpleValue>Расинска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Расинска област (Rasinska oblast)</SimpleValue>
+            <SimpleValue>Расинска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13689,10 +13689,10 @@
             <SimpleValue>RS217</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Рашка област (Raška oblast)</SimpleValue>
+            <SimpleValue>Рашка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Рашка област (Raška oblast)</SimpleValue>
+            <SimpleValue>Рашка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13700,10 +13700,10 @@
             <SimpleValue>RS218</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Шумадијска област (Šumadijska oblast)</SimpleValue>
+            <SimpleValue>Шумадијска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Шумадијска област (Šumadijska oblast)</SimpleValue>
+            <SimpleValue>Шумадијска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13711,10 +13711,10 @@
             <SimpleValue>RS221</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Борска област (Borska oblast)</SimpleValue>
+            <SimpleValue>Борска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Борска област (Borska oblast)</SimpleValue>
+            <SimpleValue>Борска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13722,10 +13722,10 @@
             <SimpleValue>RS222</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Браничевска област (Braničevska oblast)</SimpleValue>
+            <SimpleValue>Браничевска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Браничевска област (Braničevska oblast)</SimpleValue>
+            <SimpleValue>Браничевска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13733,10 +13733,10 @@
             <SimpleValue>RS223</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Зајечарска област (Zaječarska oblast)</SimpleValue>
+            <SimpleValue>Зајечарска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Зајечарска област (Zaječarska oblast)</SimpleValue>
+            <SimpleValue>Зајечарска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13744,10 +13744,10 @@
             <SimpleValue>RS224</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Јабланичка област (Jablanička oblast)</SimpleValue>
+            <SimpleValue>Јабланичка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Јабланичка област (Jablanička oblast)</SimpleValue>
+            <SimpleValue>Јабланичка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13755,10 +13755,10 @@
             <SimpleValue>RS225</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Нишавска област (Nišavska oblast)</SimpleValue>
+            <SimpleValue>Нишавска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Нишавска област (Nišavska oblast)</SimpleValue>
+            <SimpleValue>Нишавска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13766,10 +13766,10 @@
             <SimpleValue>RS226</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пиротска област (Pirotska oblast)</SimpleValue>
+            <SimpleValue>Пиротска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пиротска област (Pirotska oblast)</SimpleValue>
+            <SimpleValue>Пиротска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13777,10 +13777,10 @@
             <SimpleValue>RS227</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Подунавска област (Podunavska oblast)</SimpleValue>
+            <SimpleValue>Подунавска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Подунавска област (Podunavska oblast)</SimpleValue>
+            <SimpleValue>Подунавска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13788,10 +13788,10 @@
             <SimpleValue>RS228</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пчињска област (Pčinjska oblast)</SimpleValue>
+            <SimpleValue>Пчињска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пчињска област (Pčinjska oblast)</SimpleValue>
+            <SimpleValue>Пчињска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -13799,10 +13799,10 @@
             <SimpleValue>RS229</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Топличка област (Toplička oblast)</SimpleValue>
+            <SimpleValue>Топличка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Топличка област (Toplička oblast)</SimpleValue>
+            <SimpleValue>Топличка област</SimpleValue>
          </Value>
       </Row>
       <Row>

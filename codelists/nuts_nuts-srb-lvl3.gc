@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsSrbLvl3</ShortName>
       <LongName>nuts-srb-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>1.8.104</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -126,10 +126,10 @@
             <SimpleValue>RS110</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Београдска област (Beogradska oblast)</SimpleValue>
+            <SimpleValue>Београдска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Београдска област (Beogradska oblast)</SimpleValue>
+            <SimpleValue>Београдска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,10 +137,10 @@
             <SimpleValue>RS121</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Западнобачка област (Zapadnobačka oblast)</SimpleValue>
+            <SimpleValue>Западнобачка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Западнобачка област (Zapadnobačka oblast)</SimpleValue>
+            <SimpleValue>Западнобачка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,10 +148,10 @@
             <SimpleValue>RS122</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Јужнобанатска област (Južnobanatska oblast)</SimpleValue>
+            <SimpleValue>Јужнобанатска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Јужнобанатска област (Južnobanatska oblast)</SimpleValue>
+            <SimpleValue>Јужнобанатска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,10 +159,10 @@
             <SimpleValue>RS123</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Јужнобачка област (Južnobačka oblast)</SimpleValue>
+            <SimpleValue>Јужнобачка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Јужнобачка област (Južnobačka oblast)</SimpleValue>
+            <SimpleValue>Јужнобачка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,10 +170,10 @@
             <SimpleValue>RS124</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Севернобанатска област (Severnobanatska oblast)</SimpleValue>
+            <SimpleValue>Севернобанатска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Севернобанатска област (Severnobanatska oblast)</SimpleValue>
+            <SimpleValue>Севернобанатска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,10 +181,10 @@
             <SimpleValue>RS125</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Севернобачка област (Severnobačka oblast)</SimpleValue>
+            <SimpleValue>Севернобачка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Севернобачка област (Severnobačka oblast)</SimpleValue>
+            <SimpleValue>Севернобачка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -192,10 +192,10 @@
             <SimpleValue>RS126</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Средњобанатска област (Srednjobanatska oblast)</SimpleValue>
+            <SimpleValue>Средњобанатска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Средњобанатска област (Srednjobanatska oblast)</SimpleValue>
+            <SimpleValue>Средњобанатска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -203,10 +203,10 @@
             <SimpleValue>RS127</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Сремска област (Sremska oblast)</SimpleValue>
+            <SimpleValue>Сремска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Сремска област (Sremska oblast)</SimpleValue>
+            <SimpleValue>Сремска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -214,10 +214,10 @@
             <SimpleValue>RS211</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Златиборска област (Zlatiborska oblast)</SimpleValue>
+            <SimpleValue>Златиборска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Златиборска област (Zlatiborska oblast)</SimpleValue>
+            <SimpleValue>Златиборска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -225,10 +225,10 @@
             <SimpleValue>RS212</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Колубарска област (Kolubarska oblast)</SimpleValue>
+            <SimpleValue>Колубарска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Колубарска област (Kolubarska oblast)</SimpleValue>
+            <SimpleValue>Колубарска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -236,10 +236,10 @@
             <SimpleValue>RS213</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Мачванска област (Mačvanska oblast)</SimpleValue>
+            <SimpleValue>Мачванска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Мачванска област (Mačvanska oblast)</SimpleValue>
+            <SimpleValue>Мачванска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -247,10 +247,10 @@
             <SimpleValue>RS214</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Моравичка област (Moravička oblast)</SimpleValue>
+            <SimpleValue>Моравичка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Моравичка област (Moravička oblast)</SimpleValue>
+            <SimpleValue>Моравичка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -258,10 +258,10 @@
             <SimpleValue>RS215</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Поморавска област (Pomoravska oblast)</SimpleValue>
+            <SimpleValue>Поморавска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Поморавска област (Pomoravska oblast)</SimpleValue>
+            <SimpleValue>Поморавска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -269,10 +269,10 @@
             <SimpleValue>RS216</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Расинска област (Rasinska oblast)</SimpleValue>
+            <SimpleValue>Расинска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Расинска област (Rasinska oblast)</SimpleValue>
+            <SimpleValue>Расинска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -280,10 +280,10 @@
             <SimpleValue>RS217</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Рашка област (Raška oblast)</SimpleValue>
+            <SimpleValue>Рашка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Рашка област (Raška oblast)</SimpleValue>
+            <SimpleValue>Рашка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -291,10 +291,10 @@
             <SimpleValue>RS218</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Шумадијска област (Šumadijska oblast)</SimpleValue>
+            <SimpleValue>Шумадијска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Шумадијска област (Šumadijska oblast)</SimpleValue>
+            <SimpleValue>Шумадијска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -302,10 +302,10 @@
             <SimpleValue>RS221</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Борска област (Borska oblast)</SimpleValue>
+            <SimpleValue>Борска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Борска област (Borska oblast)</SimpleValue>
+            <SimpleValue>Борска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -313,10 +313,10 @@
             <SimpleValue>RS222</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Браничевска област (Braničevska oblast)</SimpleValue>
+            <SimpleValue>Браничевска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Браничевска област (Braničevska oblast)</SimpleValue>
+            <SimpleValue>Браничевска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -324,10 +324,10 @@
             <SimpleValue>RS223</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Зајечарска област (Zaječarska oblast)</SimpleValue>
+            <SimpleValue>Зајечарска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Зајечарска област (Zaječarska oblast)</SimpleValue>
+            <SimpleValue>Зајечарска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -335,10 +335,10 @@
             <SimpleValue>RS224</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Јабланичка област (Jablanička oblast)</SimpleValue>
+            <SimpleValue>Јабланичка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Јабланичка област (Jablanička oblast)</SimpleValue>
+            <SimpleValue>Јабланичка област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -346,10 +346,10 @@
             <SimpleValue>RS225</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Нишавска област (Nišavska oblast)</SimpleValue>
+            <SimpleValue>Нишавска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Нишавска област (Nišavska oblast)</SimpleValue>
+            <SimpleValue>Нишавска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -357,10 +357,10 @@
             <SimpleValue>RS226</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пиротска област (Pirotska oblast)</SimpleValue>
+            <SimpleValue>Пиротска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пиротска област (Pirotska oblast)</SimpleValue>
+            <SimpleValue>Пиротска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -368,10 +368,10 @@
             <SimpleValue>RS227</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Подунавска област (Podunavska oblast)</SimpleValue>
+            <SimpleValue>Подунавска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Подунавска област (Podunavska oblast)</SimpleValue>
+            <SimpleValue>Подунавска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -379,10 +379,10 @@
             <SimpleValue>RS228</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пчињска област (Pčinjska oblast)</SimpleValue>
+            <SimpleValue>Пчињска област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пчињска област (Pčinjska oblast)</SimpleValue>
+            <SimpleValue>Пчињска област</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -390,10 +390,10 @@
             <SimpleValue>RS229</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Топличка област (Toplička oblast)</SimpleValue>
+            <SimpleValue>Топличка област</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Топличка област (Toplička oblast)</SimpleValue>
+            <SimpleValue>Топличка област</SimpleValue>
          </Value>
       </Row>
       <Row>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Finnish. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>auxiliary in Finnish. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Oikeusperusta</entry>
 <entry key="auxiliary|text|BT-08">Organisaation rooli</entry>
 <entry key="auxiliary|text|BT-36">Kesto</entry>
@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Toimivaltainen viranomainen</entry>
 <entry key="auxiliary|text|change">Muutos</entry>
 <entry key="auxiliary|text|company">Yrityksen/yhteisön nimi ja osoite</entry>
-<entry key="auxiliary|text|concession-value">Käyttöoikeus</entry>
+<entry key="auxiliary|text|concession-value">Käyttöoikeuden arvo</entry>
 <entry key="auxiliary|text|conditions-contract">Sopimukseen liittyvät ehdot</entry>
 <entry key="auxiliary|text|conditions-participation">Osallistumisedellytykset</entry>
 <entry key="auxiliary|text|contract-information">Sopimuksen tiedot</entry>
@@ -31,10 +31,10 @@
 <entry key="auxiliary|text|envisaged-start-duration-contract">Hankintasopimuksen kaavailtu aloituspäivä ja kesto</entry>
 <entry key="auxiliary|text|essential-assets">Keskeinen omaisuus</entry>
 <entry key="auxiliary|text|estimated-duration">Arvioitu kesto</entry>
-<entry key="auxiliary|text|eu-funds-used">Tiedot hankintasopimuksen rahoitukseen käytetyistä Euroopan unionin varoista</entry>
+<entry key="auxiliary|text|eu-funds-used">Tietoa Euroopan unionin rahastoista</entry>
 <entry key="auxiliary|text|exclusion-grounds">Poissulkemisperusteet</entry>
 <entry key="auxiliary|text|framework-agreement">Puitejärjestely</entry>
-<entry key="auxiliary|text|further-info">Lisätietoja, sovittelu ja uudelleentarkastelu</entry>
+<entry key="auxiliary|text|further-info">Lisätietoja, sovittelu ja muutoksenhaku</entry>
 <entry key="auxiliary|text|general-information">Yleistä tietoa</entry>
 <entry key="auxiliary|text|group-framework-value">Puitejärjestelyjen arvioitu arvo erien ryhmässä</entry>
 <entry key="auxiliary|text|group-of-lots">Erien ryhmä</entry>
@@ -79,6 +79,7 @@
 <entry key="auxiliary|text|place-performance">Suorituspaikka</entry>
 <entry key="auxiliary|text|place-registration">Rekisteröintipaikka</entry>
 <entry key="auxiliary|text|previous-planning">Tietoa edellisistä ilmoituksista</entry>
+<entry key="auxiliary|text|prize-information">Palkinto</entry>
 <entry key="auxiliary|text|procedure">Menettely</entry>
 <entry key="auxiliary|text|procedure-terms">Menettelyn ehdot</entry>
 <entry key="auxiliary|text|procurement-documents">Hankinta-asiakirjat</entry>
@@ -94,8 +95,8 @@
 <entry key="auxiliary|text|results">Tulokset</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Hankintamenettelyn tulos</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Väitetyn sääntöjenvastaisuuden tyyppi</entry>
-<entry key="auxiliary|text|review-requests-summary">Ostajan vastaanottamien muutoksenhakupyyntöjen lukumäärä.</entry>
-<entry key="auxiliary|text|roles">Tämän organisaation roolit</entry>
+<entry key="auxiliary|text|review-requests-summary">Ostajan vastaanottamien muutoksenhakupyyntöjen lukumäärä</entry>
+<entry key="auxiliary|text|roles">Tämän organisaation rooli</entry>
 <entry key="auxiliary|text|second-stage">Tiedot kaksivaiheisen menettelyn jälkimmäisestä vaiheesta</entry>
 <entry key="auxiliary|text|selection-criteria">Valintaperusteet</entry>
 <entry key="auxiliary|text|start-duration-contract">Hankintasopimuksen aloituspäivä ja kesto</entry>
@@ -106,9 +107,10 @@
 <entry key="auxiliary|text|submission-terms">Tarjouksen/hakemuksen jättämisen ehdot</entry>
 <entry key="auxiliary|text|techniques">Menetelmät</entry>
 <entry key="auxiliary|text|tender">Tarjous</entry>
+<entry key="auxiliary|text|unpublished">jätetty julkaisematta</entry>
 <entry key="auxiliary|text|value">Arvo</entry>
 <entry key="auxiliary|text|winner">Voittaja</entry>
 <entry key="auxiliary|text|winner-info">Tiedot voittajista</entry>
-<entry key="auxiliary|text|winner-lots">Lottojen voittaja</entry>
+<entry key="auxiliary|text|winner-lots">Näiden erien voittaja</entry>
 <entry key="auxiliary|text|winner-subcontractor">Voittajan alihankkijat</entry>
 </properties>
