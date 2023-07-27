@@ -35,10 +35,10 @@
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure} // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
 			0 {BT-09(a)-Procedure} #{auxiliary|text|cross-border-law}: // Applicable cross-border law
-			0 {ND-Root} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Cross-border Law Description
-				{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
-				{BT-196(BT-09)-Procedure} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
-				{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
+				0 {ND-Root} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Cross-border Law Description
+					{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
+					{BT-196(BT-09)-Procedure} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
+					{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
 5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5. Lots
 	1 {ND-Lot} #{name|BT-137}: ${BT-137-Lot} // 5.1 Lot
 		{ND-Lot} #{name|BT-21}: ${BT-21-Lot} // Title

@@ -39,10 +39,10 @@
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure} // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
 			0 {BT-09(a)-Procedure} #{auxiliary|text|cross-border-law}: // Applicable cross-border law
-			0 {ND-Root} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Cross-border Law Description
-				{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
-				{BT-196(BT-09)-Procedure} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
-				{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
+				0 {ND-Root} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Cross-border Law Description
+					{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
+					{BT-196(BT-09)-Procedure} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
+					{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
 		5 {ND-Root[BT-31-Procedure is present or BT-763-Procedure is present or BT-33-Procedure is present]} #{auxiliary|text|procurement-terms} // 2.1.5 Procurement terms
 			0 {ND-Root[BT-31-Procedure is present or BT-763-Procedure is present]} #{auxiliary|text|submission-terms}: // Terms of submission
 				{BT-31-Procedure} #{name|BT-31}: ${format-number(BT-31-Procedure, '###,##0')} // Maximum number of lots for which one tenderer can submit tenders
@@ -75,7 +75,6 @@
 			0 {BT-137-Lot[(BT-125(i)-Lot is present) or (BT-1251-Lot is present)]} #{auxiliary|text|previous-planning}: // Information about previous notices - Previous planning
 			{BT-137-Lot[BT-300-Lot is present]} #{name|BT-300}: ${BT-300-Lot} // Additional information
 		9 {ND-LotTenderingTerms[BT-747-Lot is present]} #{auxiliary|text|selection-criteria} // 5.1.9 Selection criteria
-			9 {BT-137-Lot[(BT-747-Lot is present)]} #{auxiliary|text|conditions-participation}: // 5.1.9 Conditions for participation (CEI)
 			0 {ND-SelectionCriteria} #{auxiliary|text|criterion}: // Criterion
 				{BT-747-Lot} #{name|BT-747}: #{BT-747-Lot} // Selection Criterion Type
 				{BT-747-Lot[BT-749-Lot is present]} #{name|BT-749}: ${BT-749-Lot} // Selection Criterion Name
@@ -92,14 +91,11 @@
 			0 {BT-137-Lot[(BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot == 'allowed') or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present)]} #{auxiliary|text|submission-terms}: // Terms of submission
 				{BT-17-Lot} #{name|BT-17}: #{BT-17-Lot} // Electronic submission
 				{BT-18-Lot} #{name|BT-18}: ${BT-18-Lot} // Address for submission (URL)
-				{BT-97-Lot} TODO for CEI // TODO: Languages in which the expressions of interest may be submitted
 				{BT-630(d)-Lot} #{name|BT-630}: ${BT-630(d)-Lot} ${BT-630(t)-Lot} // Deadline for receipt of expressions of interest
 			0 {BT-137-Lot[(BT-736-Lot == 'yes') or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot == TRUE) or (BT-93-Lot == TRUE) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present)]} #{auxiliary|text|contract-terms}: // Terms of contract
 				{BT-736-Lot[BT-736-Lot != 'no']} #{name|BT-736}: #{BT-736-Lot} // The execution of the contract must be performed in the framework of sheltered employment programmes (yes / no / not-known)
 				{ND-ExecutionRequirements[BT-70-Lot is present]} #{name|BT-70}: ${BT-70-Lot} // Terms Performance
-				{OPT-070-Lot} TODO for CEI // TODO Execution of the service is reserved to a particular profession. Reference to the relevant law, regulation, or administrative procedure (Lot)
 				0 {BT-137-Lot[(BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present)]} #{auxiliary|text|subcontracting-terms}: // Terms of subcontracting
-					{OPT-150-Lot} TODO for CEI // TODO Subcontracting is allowed. (Lot)
 			{BT-137-Lot[BT-99-Lot is present]} #{name|BT-99}: ${BT-99-Lot} // Information about review deadlines
 		16 {BT-137-Lot[(OPT-301-Lot-Mediator is present) or (OPT-301-Lot-ReviewOrg is present) or (OPT-301-Lot-FiscalLegis is present) or (OPT-301-Lot-EnvironLegis is present) or (OPT-301-Lot-EmployLegis is present) or (OPT-301-Lot-AddInfo is present) or (OPT-301-Lot-DocProvider is present) or (OPT-301-Lot-ReviewInfo is present) or (OPT-301-Lot-TenderReceipt is present) or (OPT-301-Lot-TenderEval is present) or (some text:$orgida in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Financing[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgida != '') or (some text:$orgidb in (for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2] return $orgid2) satisfies $orgidb != '') or (some text:$orgidc in (for text:$lotid3 in BT-137-Lot, text:$conid3 in OPT-315-LotResult[BT-13713-LotResult == $lotid3], text:$orgid3 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid3] return $orgid3) satisfies $orgidc != '')]} #{auxiliary|text|further-info} // 5.1.16 Further information, mediation and review
 			{BT-137-Lot[OPT-301-Lot-ReviewOrg is present]} #{auxiliary|text|organisation-review}: ${for text:$refid in OPT-301-Lot-ReviewOrg, text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid) or (OPT-201-Organization-TouchPoint == $refid)] return $orgname} // Review organisation (Lot)

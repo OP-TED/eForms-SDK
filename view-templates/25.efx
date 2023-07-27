@@ -39,10 +39,10 @@
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure} // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
 			0 {BT-09(a)-Procedure} #{auxiliary|text|cross-border-law}: // Applicable cross-border law
-			0 {ND-Root} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Cross-border Law Description
-				{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
-				{BT-196(BT-09)-Procedure} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
-				{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
+				0 {ND-Root} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Cross-border Law Description
+					{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
+					{BT-196(BT-09)-Procedure} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
+					{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
 4 {ND-Root[BT-137-LotsGroup is present]} #{auxiliary|text|group-of-lots} // 4. Group of lots
 	1 {ND-LotsGroup} #{name|BT-330}: ${BT-137-LotsGroup} // 4.1 Group of lots
 		{BT-137-LotsGroup} #{name|BT-1375}: ${for text:$gloid in BT-137-LotsGroup return BT-1375-Procedure[BT-330-Procedure == $gloid]} // Lots included / Group Lot Identifier 
@@ -165,13 +165,13 @@
 					{BT-197(BT-5421)-Lot} #{name|BT-197(BT-5421)-Lot}: #{BT-197(BT-5421)-Lot} // Unpublished Justification Code
 					{ND-LotAwardCriterionNumberWeightUnpublish[BT-196(BT-5421)-Lot is present]} #{name|BT-196(BT-5421)-Lot}: ${BT-196(BT-5421)-Lot} // Unpublished Justification Description
 					{ND-LotAwardCriterionNumberWeightUnpublish[BT-198(BT-5421)-Lot is present]} #{name|BT-198(BT-5421)-Lot}: ${BT-198(BT-5421)-Lot} // Unpublished Access Date
-				0 {ND-LotAwardWeightCriterionParameter[BT-5422-Lot != 'unpublished']} #{BT-5422-Lot}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
-				0 {ND-LotAwardWeightCriterionParameter[BT-5422-Lot != 'unpublished']} #{BT-5422-Lot}: #{auxiliary|text|unpublished} // Award Criterion Number Fixed / Award Criterion Number (unpublished)
+				0 {ND-LotAwardFixedCriterionParameter[BT-5422-Lot != 'unpublished']} #{BT-5422-Lot}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {ND-LotAwardFixedCriterionParameter[BT-5422-Lot == 'unpublished']} #{BT-5422-Lot}: #{auxiliary|text|unpublished} // Award Criterion Number Fixed / Award Criterion Number (unpublished)
 					{BT-197(BT-5422)-Lot} #{name|BT-197(BT-5422)-Lot}: #{BT-197(BT-5422)-Lot} // Unpublished Justification Code
 					{ND-LotAwardCriterionNumberFixUnpublish[BT-196(BT-5422)-Lot is present]} #{name|BT-196(BT-5422)-Lot}: ${BT-196(BT-5422)-Lot} // Unpublished Justification Description
 					{ND-LotAwardCriterionNumberFixUnpublish[BT-198(BT-5422)-Lot is present]} #{name|BT-198(BT-5422)-Lot}: ${BT-198(BT-5422)-Lot} // Unpublished Access Date
-				0 {ND-LotAwardWeightCriterionParameter[BT-5423-Lot != 'unpublished']} #{BT-5423-Lot} - ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
-				0 {BT-5423-Lot[BT-5423-Lot == 'unpublished']} #{BT-5423-Lot} - #{auxiliary|text|unpublished} // Award Criterion Number Threshold / Award Criterion Number (unpublished)
+				0 {ND-LotAwardThresholdCriterionParameter[BT-5423-Lot != 'unpublished']} #{BT-5423-Lot}: ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
+				0 {ND-LotAwardThresholdCriterionParameter[BT-5423-Lot == 'unpublished']} #{BT-5423-Lot} - #{auxiliary|text|unpublished} // Award Criterion Number Threshold / Award Criterion Number (unpublished)
 					{BT-197(BT-5423)-Lot} #{name|BT-197(BT-5423)-Lot}: #{BT-197(BT-5423)-Lot} // Unpublished Justification Code
 					{ND-LotAwardCriterionNumberThresholdUnpublish[BT-196(BT-5423)-Lot is present]} #{name|BT-196(BT-5423)-Lot}: ${BT-196(BT-5423)-Lot} // Unpublished Justification Description
 					{ND-LotAwardCriterionNumberThresholdUnpublish[BT-198(BT-5423)-Lot is present]} #{name|BT-198(BT-5423)-Lot}: ${BT-198(BT-5423)-Lot} // Unpublished Access Date
@@ -225,18 +225,6 @@
 		{ND-NoticeApproximateValueUnpublish} #{name|BT-197(BT-1118)-NoticeResult}: #{BT-197(BT-1118)-NoticeResult} // Unpublished Justification Code
 		{ND-NoticeApproximateValueUnpublish[BT-196(BT-1118)-NoticeResult is present]} #{name|BT-196(BT-1118)-NoticeResult}: ${BT-196(BT-1118)-NoticeResult} // Unpublished Justification Description
 		{ND-NoticeApproximateValueUnpublish[BT-198(BT-1118)-NoticeResult is present]} #{name|BT-198(BT-1118)-NoticeResult}: ${BT-198(BT-1118)-NoticeResult} // Unpublished Access Date
-	0 {ND-NoticeResultGroupFA[BT-556-NoticeResult != 'unpublished']} #{auxiliary|text|group-framework-value}: ${BT-556-NoticeResult} // Value of the framework agreements in this group of lots
-		0 {ND-NoticeResultGroupFA} #{name|BT-1375}: ${for text:$gloid in BT-556-NoticeResult return BT-1375-Procedure[BT-330-Procedure == $gloid] } // Lots included: LOT-0001, LOT-0003
-		0 {ND-NoticeResultGroupFA[BT-156-NoticeResult != -1]} #{business-term|name|BT-156}: ${if (contains(string(BT-156-NoticeResult), ',')) then format-number(BT-156-NoticeResult, '###,##0.00') else format-number(BT-156-NoticeResult, '###,##0')} ${BT-156-NoticeResult/@currencyID} // Maximum value of the framework agreements in this group of lots
-		0 {ND-NoticeResultGroupFA[BT-156-NoticeResult == -1]} #{business-term|name|BT-156}:#{auxiliary|text|unpublished} // Maximum value of the framework agreements in this group of lots (unpublished)
-			{ND-GroupMaximumValueUnpublish} #{name|BT-197(BT-156)-NoticeResult}: #{BT-197(BT-156)-NoticeResult} // Unpublished Justification Code
-			{ND-GroupMaximumValueUnpublish[BT-196(BT-156)-NoticeResult is present]} #{name|BT-196(BT-156)-NoticeResult}: ${BT-196(BT-156)-NoticeResult} // Unpublished Justification Description
-			{ND-GroupMaximumValueUnpublish[BT-198(BT-156)-NoticeResult is present]} #{name|BT-198(BT-156)-NoticeResult}: ${BT-198(BT-156)-NoticeResult} // Unpublished Access Date
-		0 {ND-NoticeResultGroupFA[BT-1561-NoticeResult != -1]} #{business-term|name|BT-1561}: ${if (contains(string(BT-1561-NoticeResult), ',')) then format-number(BT-1561-NoticeResult, '###,##0.00') else format-number(BT-1561-NoticeResult, '###,##0')} ${BT-1561-NoticeResult[BT-1561-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Re-estimated value of the framework agreements within a group of lots
-		0 {ND-NoticeResultGroupFA[BT-1561-NoticeResult == -1]} #{business-term|name|BT-1561}: #{auxiliary|text|unpublished} // Re-estimated value of the framework agreements within a group of lots (unpublished)
-			{ND-GroupReestimatedValueUnpublish} #{name|BT-197(BT-1561)-NoticeResult}: #{BT-197(BT-1561)-NoticeResult} // Unpublished Justification Code
-			{ND-GroupReestimatedValueUnpublish[BT-196(BT-1561)-NoticeResult is present]} #{name|BT-196(BT-1561)-NoticeResult}: ${BT-196(BT-1561)-NoticeResult} // Unpublished Justification Description
-			{ND-GroupReestimatedValueUnpublish[BT-198(BT-1561)-NoticeResult is present]} #{name|BT-198(BT-1561)-NoticeResult}: ${BT-198(BT-1561)-NoticeResult} // Unpublished Access Date
 	0 {ND-NoticeResultGroupFA[BT-556-NoticeResult == 'unpublished']} #{auxiliary|text|group-framework-value}: #{auxiliary|text|unpublished} // Value of the framework agreements in this group of lots (unpublished)
 		{ND-GroupMaximalValueIdentifierUnpublish} #{name|BT-197(BT-556)-NoticeResult}: #{BT-197(BT-556)-NoticeResult} // Unpublished Justification Code
 		{ND-GroupMaximalValueIdentifierUnpublish[BT-196(BT-556)-NoticeResult is present]} #{name|BT-196(BT-556)-NoticeResult}: ${BT-196(BT-556)-NoticeResult} // Unpublished Justification Description
@@ -280,7 +268,7 @@
 				{ND-ReestimatedValueUnpublish} #{name|BT-197(BT-660)-LotResult}: #{BT-197(BT-660)-LotResult} // Unpublished Justification Code
 				{ND-ReestimatedValueUnpublish[BT-196(BT-660)-LotResult is present]} #{name|BT-196(BT-660)-LotResult}: ${BT-196(BT-660)-LotResult} // Unpublished Justification Description
 				{ND-ReestimatedValueUnpublish[BT-198(BT-660)-LotResult is present]} #{name|BT-198(BT-660)-LotResult}: ${BT-198(BT-660)-LotResult} // Unpublished Access Date
-		2 {OPT-322-LotResult[BT-02-notice == 'veat' or ((BT-142-LotResult == 'selec-w' or BT-142-LotResult == 'unpublished') and OPT-320-LotResult is present and OPT-315-LotResult is present)]} #{auxiliary|text|winner-info} // 6.1.2. Winning tenders
+		2 {OPT-322-LotResult[BT-02-notice == 'veat' or BT-02-notice == 'can-modif' or ((BT-142-LotResult == 'selec-w' or BT-142-LotResult == 'unpublished') and OPT-320-LotResult is present and OPT-315-LotResult is present)]} #{auxiliary|text|winner-info} // 6.1.2. Winning tenders
 			0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]])>0]} #{auxiliary|text|winner}: // Winner
 				{OPT-320-LotResult} #{field|name|BT-500-Organization-Company}: ${for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$tpa in OPT-310-Tender[OPT-321-Tender == $tender1], text:$orgid in (OPT-300-Tenderer[OPT-210-Tenderer[OPT-170-Tenderer is not present] == $tpa or OPT-170-Tenderer[OPT-210-Tenderer == $tpa] == TRUE]), text:$org in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return concat($org, '&#10;')} // Name of this winner
 				0 {OPT-320-LotResult[some text:$name in (for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1], text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company == OPT-301-Tenderer-SubCont[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]] return BT-500-Organization-Company[OPT-200-Organization-Company == $orgid1]) satisfies $name != '']} #{auxiliary|text|winner-subcontractor}: // Subcontractors of the winner
