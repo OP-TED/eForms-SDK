@@ -20,10 +20,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Import GPG Key
-        uses: crazy-max/ghaction-import-gpg@v1
-        env:
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-          PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.GPG_PASSPHRASE }}
       - name: Set up Java for publishing to Maven Central Repository
         uses: actions/setup-java@v3
         with:

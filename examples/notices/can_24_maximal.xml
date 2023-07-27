@@ -395,6 +395,8 @@
 						<efac:TenderingParty>
 							<!--"id" : "OPT-210-Tenderer", "name" : "Tendering Party ID -->
 							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+							<!--"id" : "OPT-211-Tenderer", "name" : "Tendering Party Name -->
+							<cbc:Name languageID="ENG">Gyro and Others Consortium</cbc:Name>
 							<efac:Tenderer>
 								<!--"id" : "OPT-300-Tenderer", "name" : "Tenderer ID Reference "-->
 								<cbc:ID schemeName="organization">ORG-0008</cbc:ID>
@@ -426,6 +428,8 @@
 						<efac:TenderingParty>
 							<!--"id" : "OPT-210-Tenderer", "name" : "Tendering Party ID -->
 							<cbc:ID schemeName="tendering-party">TPA-0002</cbc:ID>
+							<!--"id" : "OPT-211-Tenderer", "name" : "Tendering Party Name -->
+							<cbc:Name languageID="ENG">Competitor</cbc:Name>
 							<efac:Tenderer>
 								<!--"id" : "OPT-300-Tenderer", "name" : "Tenderer ID Reference "-->
 								<cbc:ID schemeName="organization">ORG-0011</cbc:ID>
@@ -1126,7 +1130,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<!--   "id" : "OPT-002-notice","name" : "Customization ID (UBL)" -->
-	<cbc:CustomizationID>eforms-sdk-1.8</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-2.0</cbc:CustomizationID>
 	<!--     "id" : "BT-701-notice","name" : "Notice Identifier" -->
 	<cbc:ID schemeName="notice-id">15377ca1-6cf7-4060-90f0-9290128957a3</cbc:ID>
 	<!--"id" : "BT-04-notice", "name" : "Procedure Identifier"-->

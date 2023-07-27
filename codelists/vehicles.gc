@@ -127,76 +127,76 @@
             <SimpleValue>Vehicles</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Брой на всички превозни средства, попадащи в обхвата на Директивата за изравнителните мита</SimpleValue>
+            <SimpleValue>Броят на всички превозни средства от обхвата на Директивата за чистите превозни средства</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Počet všech vozidel spadajících do oblasti působnosti směrnice o vyrovnávacích poplatcích</SimpleValue>
+            <SimpleValue>Počet všech vozidel spadajících do oblasti působnosti směrnice o čistých vozidlech</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Antallet af alle køretøjer, der er omfattet af anvendelsesområdet for direktivet om udligningstold</SimpleValue>
+            <SimpleValue>Antallet af alle køretøjer, der er omfattet af anvendelsesområdet for direktivet om renere køretøjer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Anzahl aller Fahrzeuge, die in den Anwendungsbereich der Richtlinie über Ausgleichszölle fallen</SimpleValue>
+            <SimpleValue>Zahl aller Fahrzeuge, die in den Anwendungsbereich CVD fallen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ο αριθμός όλων των οχημάτων που εμπίπτουν στο πεδίο εφαρμογής της οδηγίας για τους αντισταθμιστικούς δασμούς</SimpleValue>
+            <SimpleValue>Ο αριθμός όλων των οχημάτων που εμπίπτουν στο πεδίο εφαρμογής της οδηγίας για τα καθαρά οχήματα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>The number of all vehicles falling within the scope of the CVD directive</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Número de vehículos que entran en el ámbito de aplicación de la Directiva sobre derechos compensatorios</SimpleValue>
+            <SimpleValue>Número de vehículos que entran en el ámbito de aplicación de la Directiva sobre vehículos limpios</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Kõigi CVD direktiivi kohaldamisalasse kuuluvate sõidukite arv</SimpleValue>
+            <SimpleValue>Kõigi keskkonnasõbralike sõidukite direktiivi kohaldamisalasse kuuluvate sõidukite arv</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kaikkien tasoitustullidirektiivin soveltamisalaan kuuluvien ajoneuvojen lukumäärä</SimpleValue>
+            <SimpleValue>Kaikkien puhtaita ajoneuvoja koskevan direktiivin soveltamisalaan kuuluvien ajoneuvojen määrä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Le nombre de véhicules relevant du champ d’application de la directive CVD</SimpleValue>
+            <SimpleValue>Le nombre total de véhicules relevant du champ d’application de la directive sur les véhicules propres</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Líon na bhfeithiclí uile a thagann faoi raon feidhme na treorach CVD</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Broj svih vozila koja su obuhvaćena područjem primjene Direktive o CVD-u</SimpleValue>
+            <SimpleValue>Broj svih vozila koja su obuhvaćena područjem primjene Direktive o čistim vozilima</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A CVD-irányelv hatálya alá tartozó valamennyi jármű száma</SimpleValue>
+            <SimpleValue>A tiszta járművekről szóló irányelv hatálya alá tartozó valamennyi jármű száma</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Il numero di tutti i veicoli che rientrano nel campo di applicazione della direttiva sui dazi compensativi</SimpleValue>
+            <SimpleValue>Numero di tutti i veicoli che rientrano nel campo di applicazione della direttiva sui veicoli puliti</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Visų transporto priemonių, kurioms taikoma ŠKD direktyva, skaičius</SimpleValue>
+            <SimpleValue>Visų transporto priemonių, kurioms taikoma NTPD, skaičius</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Visu to transportlīdzekļu skaits, uz kuriem attiecas Direktīva par kompensācijas maksājumiem</SimpleValue>
+            <SimpleValue>Visu to transportlīdzekļu skaits, kas ietilpst Tīro transportlīdzekļu direktīvas darbības jomā</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>In-numru tal-vetturi kollha li jaqgħu fil-kamp ta’ applikazzjoni tad-Direttiva CVD</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Het aantal voertuigen dat onder het toepassingsgebied van de CVD-richtlijn valt</SimpleValue>
+            <SimpleValue>Het aantal voertuigen dat binnen de werkingssfeer van de richtlijn schone voertuigen valt</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>Liczba wszystkich pojazdów objętych zakresem dyrektywy CVD</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Número de todos os veículos abrangidos pelo âmbito de aplicação da diretiva relativa às medidas de compensação</SimpleValue>
+            <SimpleValue>O número de todos os veículos abrangidos pelo âmbito da Diretiva Veículos Não Poluentes</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Numărul total al vehiculelor care intră în domeniul de aplicare al Directivei CVD</SimpleValue>
+            <SimpleValue>Numărul vehiculelor care intră în domeniul de aplicare al directivei privind vehiculele nepoluante - CVD</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Počet všetkých vozidiel, ktoré patria do rozsahu pôsobnosti smernice o CVD</SimpleValue>
+            <SimpleValue>Počet všetkých vozidiel v rozsahu pôsobnosti smernice o ekologických vozidlách</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Število vseh vozil, ki spadajo na področje uporabe direktive o izravnalnih dajatvah</SimpleValue>
+            <SimpleValue>Število vseh vozil, ki spadajo na področje uporabe direktive o čistih vozilih</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Antalet fordon som omfattas av direktivet om utjämningstullar</SimpleValue>
+            <SimpleValue>Totalt antal fordon som omfattas av direktivet om rena fordon</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -207,7 +207,7 @@
             <SimpleValue>Vehicles clean</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Брой на чистите превозни средства</SimpleValue>
+            <SimpleValue>Броят на чистите (екологосъобразните) превозни средства</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Počet čistých vozidel</SimpleValue>
@@ -216,10 +216,10 @@
             <SimpleValue>Antallet af renere køretøjer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Zahl der sauberen Fahrzeuge</SimpleValue>
+            <SimpleValue>Zahl sauberer Fahrzeuge</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Αριθμός καθαρών οχημάτων</SimpleValue>
+            <SimpleValue>Ο αριθμός καθαρών οχημάτων</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>The number of clean vehicles</SimpleValue>
@@ -231,7 +231,7 @@
             <SimpleValue>Keskkonnasõbralike sõidukite arv</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Puhtaiden ajoneuvojen lukumäärä</SimpleValue>
+            <SimpleValue>Puhtaiden ajoneuvojen määrä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Le nombre de véhicules propres</SimpleValue>
@@ -255,16 +255,16 @@
             <SimpleValue>Tīro transportlīdzekļu skaits</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-għadd ta’ vetturi nodfa</SimpleValue>
+            <SimpleValue>In-numru ta’ vetturi nodfa</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Aantal schone voertuigen</SimpleValue>
+            <SimpleValue>Het aantal schone voertuigen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Liczba ekologicznie czystych pojazdów</SimpleValue>
+            <SimpleValue>Liczba czystych ekologicznie pojazdów</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Número de veículos não poluentes</SimpleValue>
+            <SimpleValue>O número de veículos não poluentes</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Numărul de vehicule nepoluante</SimpleValue>
@@ -276,7 +276,7 @@
             <SimpleValue>Število čistih vozil</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Antalet rena fordon</SimpleValue>
+            <SimpleValue>Antal rena fordon</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -287,7 +287,7 @@
             <SimpleValue>Vehicles zero emission</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Брой на тежкотоварните превозни средства с нулеви емисии</SimpleValue>
+            <SimpleValue>Броят на тежкотоварните превозни средства с нулеви емисии</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Počet těžkých vozidel s nulovými emisemi</SimpleValue>
@@ -296,7 +296,7 @@
             <SimpleValue>Antallet af tunge nulemissionskøretøjer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Anzahl emissionsfreier schwerer Nutzfahrzeuge</SimpleValue>
+            <SimpleValue>Zahl emissionsfreier schwerer Nutzfahrzeuge</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ο αριθμός βαρέων επαγγελματικών οχημάτων μηδενικών εκπομπών</SimpleValue>
@@ -311,10 +311,10 @@
             <SimpleValue>Heiteta raskeveokite arv</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Päästöttömien raskaiden hyötyajoneuvojen lukumäärä</SimpleValue>
+            <SimpleValue>Päästöttömien raskaiden hyötyajoneuvojen määrä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Nombre de véhicules utilitaires lourds à émission nulle</SimpleValue>
+            <SimpleValue>Le nombre de véhicules lourds à émissions nulles</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Líon na bhfeithiclí tromshaothair astaíochtaí nialasacha</SimpleValue>
@@ -323,19 +323,19 @@
             <SimpleValue>Broj teških vozila s nultim emisijama</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A kibocsátásmentes nehézgépjárművek száma</SimpleValue>
+            <SimpleValue>A nulla kibocsátású nehézgépjárművek száma</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Il numero di veicoli pesanti a emissioni zero</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Netaršių sunkiųjų transporto priemonių skaičius</SimpleValue>
+            <SimpleValue>Visai netaršių sunkiųjų transporto priemonių skaičius</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Bezemisiju lielas noslodzes transportlīdzekļu skaits</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-għadd ta’ vetturi tqal mingħajr emissjonijiet</SimpleValue>
+            <SimpleValue>In-numru ta’ vetturi heavy-duty b’emissjonijiet żero</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Het aantal emissievrije zware bedrijfsvoertuigen</SimpleValue>
@@ -344,13 +344,13 @@
             <SimpleValue>Liczba bezemisyjnych pojazdów ciężkich</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Número de veículos pesados sem emissões</SimpleValue>
+            <SimpleValue>O número de veículos pesados sem emissões</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Numărul de vehicule grele cu emisii zero</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Počet ťažkých úžitkových vozidiel s nulovými emisiami</SimpleValue>
+            <SimpleValue>Počet ťažkých úžitkových vozidiel s nulovými emisiami</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Število brezemisijskih težkih vozil</SimpleValue>

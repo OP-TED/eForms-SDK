@@ -123,7 +123,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.8</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-2.0</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">39d68def-a6aa-4e85-aa8d-97f0600ea41e</cbc:ID>
 	<cbc:ContractFolderID>027f7db6-596d-4395-87b9-d8a7b0e4b269</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-15+01:00</cbc:IssueDate>
@@ -220,9 +220,21 @@
 				<cbc:Description languageID="ENG">Scottish Water reserves the right to require deposits, guarantees, bonds or other forms of appropriate security.</cbc:Description>
 			</cac:RequiredFinancialGuarantee>
 			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>ENG</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>SomeTenderDocID1</cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
-				<cbc:LanguageID>ENG</cbc:LanguageID>
 				<cac:Attachment>
 					<cac:ExternalReference>
 						<cbc:URI>https://www.delta-esourcing.com/tenders/UK-UK-Glasgow:-Repair-and-maintenance-services./Z9Q7MGAEA8</cbc:URI>

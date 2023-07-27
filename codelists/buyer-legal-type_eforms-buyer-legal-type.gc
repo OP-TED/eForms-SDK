@@ -6,7 +6,7 @@
       <LongName>eforms-buyer-legal-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/buyer-legal-type</LongName>
       <LongName Identifier="eFormsParentId">buyer-legal-type</LongName>
-      <Version>1.8.37</Version>
+      <Version>1.8.198</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -198,7 +198,7 @@
             <SimpleValue>Oseba javnega prava</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Offentligrättsligt organ</SimpleValue>
+            <SimpleValue>Offentligt styrt organ</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -278,7 +278,7 @@
             <SimpleValue>Oseba javnega prava, ki jo obvladuje osrednji državni organ</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Offentligrättsligt organ som kontrolleras av en statlig myndighet</SimpleValue>
+            <SimpleValue>Offentligt styrt organ som kontrolleras av en statlig myndighet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -358,7 +358,7 @@
             <SimpleValue>Oseba javnega prava, ki jo obvladuje lokalni organ</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Offentligrättsligt organ som kontrolleras av en lokal myndighet</SimpleValue>
+            <SimpleValue>Offentligt styrt organ som kontrolleras av en lokal myndighet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -438,7 +438,7 @@
             <SimpleValue>Oseba javnega prava, ki jo obvladuje regionalni organ</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Offentligrättsligt organ som kontrolleras av en regional myndighet</SimpleValue>
+            <SimpleValue>Offentligt styrt organ som kontrolleras av en regional myndighet</SimpleValue>
          </Value>
       </Row>
       <Row>

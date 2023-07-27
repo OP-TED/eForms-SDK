@@ -127,7 +127,7 @@
             <SimpleValue>Buyer Categories</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Категории на купувача</SimpleValue>
+            <SimpleValue>Категории купувачи</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Kategorie kupujících</SimpleValue>
@@ -136,10 +136,10 @@
             <SimpleValue>Køberkategorier</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Käuferkategorien</SimpleValue>
+            <SimpleValue>Beschaffer – Kategorien</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κατηγορίες αγοραστών</SimpleValue>
+            <SimpleValue>Κατηγορίες αγοραστή</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Buyer categories</SimpleValue>
@@ -148,10 +148,10 @@
             <SimpleValue>Categorías de compradores</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Ostjate kategooriad</SimpleValue>
+            <SimpleValue>Hankijate kategooriad</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Ostajaluokat</SimpleValue>
+            <SimpleValue>Ostajakategoriat</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Catégories d’acheteurs</SimpleValue>
@@ -166,7 +166,7 @@
             <SimpleValue>Vevői kategóriák</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Categorie di acquirenti</SimpleValue>
+            <SimpleValue>Committente: categorie</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Pirkėjų kategorijos</SimpleValue>
@@ -178,13 +178,13 @@
             <SimpleValue>Kategoriji ta’ xerrejja</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Afnemerscategorieën</SimpleValue>
+            <SimpleValue>Koperscategorieën</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>Kategorie nabywców</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Categorias de compradores</SimpleValue>
+            <SimpleValue>Categorias de adquirentes</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Categorii de cumpărători</SimpleValue>

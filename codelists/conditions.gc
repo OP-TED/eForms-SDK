@@ -127,13 +127,13 @@
             <SimpleValue>Performance</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Ефективност</SimpleValue>
+            <SimpleValue>Изпълнение</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Výkonnost</SimpleValue>
+            <SimpleValue>Plnění</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Præstationer</SimpleValue>
+            <SimpleValue>Resultater</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Leistung</SimpleValue>
@@ -145,34 +145,34 @@
             <SimpleValue>Performance</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Rendimiento</SimpleValue>
+            <SimpleValue>Prestaciones</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Täitmine</SimpleValue>
+            <SimpleValue>Lepingu täitmine</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Suorituskyky</SimpleValue>
+            <SimpleValue>Täytäntöönpano</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Prestations</SimpleValue>
+            <SimpleValue>Performance</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Feidhmíocht</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Uspješnost</SimpleValue>
+            <SimpleValue>Rezultat</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Teljesítmény</SimpleValue>
+            <SimpleValue>Teljesítés</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Prestazioni</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Veiksmingumas</SimpleValue>
+            <SimpleValue>Vykdymas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Rādītāji</SimpleValue>
+            <SimpleValue>Izpilde</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Prestazzjoni</SimpleValue>
@@ -181,7 +181,7 @@
             <SimpleValue>Prestaties</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Wydajność</SimpleValue>
+            <SimpleValue>Realizacja</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Desempenho</SimpleValue>
@@ -190,13 +190,13 @@
             <SimpleValue>Performanță</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Výkonnosť</SimpleValue>
+            <SimpleValue>Plnenie</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Delovanje</SimpleValue>
+            <SimpleValue>Izvedba</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Resultat</SimpleValue>
+            <SimpleValue>Genomförande</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

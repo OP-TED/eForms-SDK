@@ -5,7 +5,7 @@
       <ShortName>LinguisticStatus</ShortName>
       <LongName>linguistic-status</LongName>
       <LongName Identifier="eFormsParentId">document-status</LongName>
-      <Version>1.8.37</Version>
+      <Version>1.8.196</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -131,13 +131,13 @@
             <SimpleValue>Неофициална езикова версия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Neoficiální jazyková verze</SimpleValue>
+            <SimpleValue>Neúřední jazyková verze</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Uofficiel sprogudgave</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Inoffizielle Sprachfassung</SimpleValue>
+            <SimpleValue>Nicht amtliche Sprachfassung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ανεπίσημη γλωσσική έκδοση</SimpleValue>
@@ -158,10 +158,10 @@
             <SimpleValue>Version linguistique non officielle</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Leagan neamhoifigiúil sa teanga</SimpleValue>
+            <SimpleValue>Leagan teanga neamhoifigiúil</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Neslužbeni jezik</SimpleValue>
+            <SimpleValue>Neslužbena jezična verzija</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Nem hivatalos nyelvi változat</SimpleValue>
@@ -173,7 +173,7 @@
             <SimpleValue>Neoficialus vertimas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Neoficiāls teksts valodā</SimpleValue>
+            <SimpleValue>Neoficiāla valodas versija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Verżjoni lingwistika mhux uffiċjali</SimpleValue>
@@ -182,7 +182,7 @@
             <SimpleValue>Niet-officiële taalversie</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Nieurzędowa wersja językowa</SimpleValue>
+            <SimpleValue>Wersja w języku nieurzędowym</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Versão linguística não oficial</SimpleValue>
@@ -191,10 +191,10 @@
             <SimpleValue>Versiune lingvistică neoficială</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Neúradná jazyková verzia</SimpleValue>
+            <SimpleValue>Verzia v inom ako úradnom jazyku</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Različica v neuradnem jeziku</SimpleValue>
+            <SimpleValue>Neuradna jezikovna različica</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Inofficiell språkversion</SimpleValue>
@@ -208,13 +208,13 @@
             <SimpleValue>Official linguistic version</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Версия на официалния език</SimpleValue>
+            <SimpleValue>Официална езикова версия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Úřední jazyková verze</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Den officielle sprogudgave</SimpleValue>
+            <SimpleValue>Officiel sprogudgave</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Amtliche Sprachfassung</SimpleValue>
@@ -238,7 +238,7 @@
             <SimpleValue>Version linguistique officielle</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Leagan sa teanga oifigiúil</SimpleValue>
+            <SimpleValue>Leagan teanga oifigiúil</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Službena jezična verzija</SimpleValue>
@@ -253,13 +253,13 @@
             <SimpleValue>Versija oficialiąja kalba</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Oficiālās valodas versija</SimpleValue>
+            <SimpleValue>Oficiāla valodas versija</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Verżjoni bil-lingwa uffiċjali</SimpleValue>
+            <SimpleValue>Verżjoni lingwistika uffiċjali</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Versie in de officiële taal</SimpleValue>
+            <SimpleValue>Officiële taalversie</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>Wersja w języku urzędowym</SimpleValue>
@@ -268,13 +268,13 @@
             <SimpleValue>Versão linguística oficial</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Versiunea lingvistică oficială</SimpleValue>
+            <SimpleValue>Versiune lingvistică oficială</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Oficiálna jazyková verzia</SimpleValue>
+            <SimpleValue>Verzia v úradnom jazyku</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Različica v uradnem jeziku</SimpleValue>
+            <SimpleValue>Uradna jezikovna različica</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Officiell språkversion</SimpleValue>

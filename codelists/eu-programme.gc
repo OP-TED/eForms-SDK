@@ -5,7 +5,7 @@
       <ShortName>EuProgramme</ShortName>
       <LongName>eu-programme</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/eu-programme</LongName>
-      <Version>20230315-0</Version>
+      <Version>20230614-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/eu-programme</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -272,83 +272,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Europeiska garantifonden för jordbruket (efter överföringar mellan EGFJ och EJFLU)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>AGRNET</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Net transfer between EAGF and EAFRD</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Нетен трансфер между ЕФГЗ и ЕЗФРСР</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Čistý převod mezi EZZF a EZFRV</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Nettooverførsel mellem EGFL og ELFUL</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Mittelübertragungen zwischen dem EGFL und dem ELER (netto)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Καθαρή μεταφορά μεταξύ ΕΓΤE και ΕΓΤΑΑ</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Net transfer between EAGF and EAFRD</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Transferencia neta entre FEAGA y Feader</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>EAGF ja EAFRD vahelise ümberpaigutuse netosumma</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Maataloustukirahaston ja maaseuturahaston välillä siirretty nettomäärä</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Transfert net entre le FEAGA et le Feader</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Neto prijenos između EFJP-a i EPFRR-a</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Nettó átcsoportosítás az EMGA és az EMVA között</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Trasferimento netto tra FEAGA e FEASR</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Grynasis EŽŪGF ir EŽŪFKP lėšų tarpusavio perkėlimas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Neto pārvietojums starp ELGF un ELFLA</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Trasferiment nett bejn il-FAEG u l-FAEŻR</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Netto-overdracht tussen ELGF en Elfpo</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Przesunięcia netto między EFRG i EFRROW</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Transferência líquida entre o FEAGA e o FEADER</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Transfer net între FEGA și FEADR</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Čistý presun medzi EPZF a EPFRV</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Neto prerazporeditve med EKJS in EKSRP</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Nettoöverföring mellan EGFJ och EJFLU</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3204,83 +3127,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Europeiskt försvarsindustriellt utvecklingsprogram</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>EERP</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Energy projects to aid economic recovery (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийни проекти за подпомагане на икономическото възстановяване (ЕППИВ)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Projekty v oblasti energetiky na podporu hospodářského oživení</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Energiprojekter til støtte for den økonomiske genopretning</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Energievorhaben zur Konjunkturbelebung (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Ενεργειακά έργα για την ενίσχυση της οικονομικής ανάκαμψης (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Energy projects to aid economic recovery (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Proyectos en el ámbito de la energía destinados a contribuir a la recuperación económica</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Majanduse elavdamist toetavad energeetikaprojektid (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Talouden elpymistä edistävät energiahankkeet</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Projets énergétiques en vue d’aider à la relance économique (plan de relance)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetski projekti za pomoć gospodarskom oporavku (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Energiaágazatbeli projektek a gazdasági fellendülés támogatására</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Progetti energetici per sostenere la ripresa economica</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Energetikos projektai ekonomikos gaivinimui remti (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Enerģētikas jomas projekti ekonomikas atveseļošanas atbalstam (Eiropas ekonomikas atveseļošanas plāns)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Proġetti enerġetiċi li jgħinu l-irkupru ekonomiku (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Energieprojecten ter ondersteuning van het economisch herstel (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Projekty w dziedzinie energetyki wspomagające naprawę gospodarczą</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Projetos no domínio da energia para o relançamento da economia (PREE)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Proiecte energetice pentru sprijinirea redresării economice (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Projekty v oblasti energetiky na podporu oživenia hospodárstva (EERP)</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Energetski projekti za podporo oživitvi gospodarstva</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Energiprojekt till stöd för ekonomisk återhämtning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9249,86 +9095,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Utomeuropeiska länder och territorier (inkl. Grönland)</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>OP_DATPRO</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Provisional data</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Неокончателни данни</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Předběžné údaje</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Midlertidige data</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Vorläufige Daten</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Προσωρινά δεδομένα</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Provisional data</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Datos provisionales</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Esialgsed andmed</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Alustavat tiedot</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Données provisoires</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Sonraí sealadacha</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Privremeni podaci</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Ideiglenes adatok</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Dati provvisori</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Laikinieji duomenys</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Provizoriski dati</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Dejta provviżorja</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Voorlopige gegevens</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Dane tymczasowe</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Dados provisórios</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Date provizorii</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Predbežné údaje</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Začasni podatki</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Tillfälliga uppgifter</SimpleValue>
          </Value>
       </Row>
       <Row>
