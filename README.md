@@ -6,6 +6,12 @@
 
 This project, managed by the Publications Office of the European Union, aims to facilitate the implementation of the European legislation for the publication of public procurement notices on the [TED website](https://ted.europa.eu). For more information on the legislation, see the [DG GROW eForms page](https://ec.europa.eu/growth/single-market/public-procurement/digital/eforms_en). 
 
+# SDK 2 PRE-RELEASE
+**Caution:** This is a **pre-release** version of SDK 2 which is still under development. The purpose of this release is to allow the developer community to preview and follow the development of SDK 2 and provide feedback. Further pre-release versions will follow. 
+
+For further info on this pre-release version see the [changelog](CHANGELOG.md).
+
+# Contents
 The eforms SDK provides the necessary resources for building eForms applications that create, edit, visualise, validate and submit for publication, valid eForms notices.
 It contains several different metadata assets, organised in folders as follows:
 - `codelists`: The controlled vocabularies (codelists) used in eForms notices, as [Genericode files](https://docs.oasis-open.org/codelist/genericode/doc/oasis-code-list-representation-genericode.html).
