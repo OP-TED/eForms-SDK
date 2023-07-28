@@ -2415,6 +2415,9 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID">
 		<assert id="BR-OPT-00300-0203" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00300-0203</assert>
 	</rule>
+	<rule context="/*/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID">
+		<assert id="BR-OPT-00300-0289" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00300-0289</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1209" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1209</assert>
 	</rule>

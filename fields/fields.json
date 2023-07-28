@@ -36008,6 +36008,10 @@
         "severity" : "ERROR"
       } ]
     },
+    "pattern" : {
+      "value" : "^ORG-\\d{4}$",
+      "severity" : "ERROR"
+    },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
