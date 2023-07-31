@@ -1283,6 +1283,9 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription/@languageID">
 		<assert id="BR-OPT-00092-0102" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-OPT-00092-0102</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/efbc:AppealingPartyTypeDescription/@languageID">
+		<assert id="BR-OPT-00092-0103" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-OPT-00092-0103</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:NoticeDocumentReference/cbc:ID/@schemeName">
 		<assert id="BR-OPT-00100-0062" role="ERROR" test="normalize-space(.) = ('notice-id-ref', 'ojs-notice-id')">rule|text|BR-OPT-00100-0062</assert>
 	</rule>

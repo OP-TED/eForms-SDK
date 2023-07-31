@@ -35056,6 +35056,13 @@
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "eu-official-language",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "OPT-100-Contract",
