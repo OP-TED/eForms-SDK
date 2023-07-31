@@ -14,9 +14,7 @@
 		{OPP-090-Procedure} #{name|OPP-090}: ${OPP-090-Procedure} // Previous Notice
 		{BT-22-Procedure} #{name|BT-22}: $value // Internal identifier
 		0 {BT-105-Procedure[BT-105-Procedure != 'unpublished']} #{name|BT-105}: #{BT-105-Procedure} // Type of the procedure
-		0 {BT-105-Procedure[BT-105-Procedure == 'unpublished']} #{name|BT-105}: #{auxiliary|text|unpublished} // Type of the procedure (unpublished)
 		0 {ND-ProcedureProcurementScope[BT-88-Procedure != 'unpublished']} #{name|BT-88}: ${BT-88-Procedure} // Procedure Features / Description of the procedure
-		0 {ND-ProcedureProcurementScope[BT-88-Procedure == 'unpublished']} #{name|BT-88}: #{auxiliary|text|unpublished} // Procedure Features / Description of the procedure (unpublished)
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
 			{BT-23-Procedure} #{name|BT-23}: #value // Nature of the contract
 			{BT-531-Procedure} #{name|BT-531}: #value // Additional nature of the contract
@@ -43,7 +41,7 @@
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure} // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
 			0 {BT-09(a)-Procedure} #{auxiliary|text|cross-border-law}: // Applicable cross-border law
-			0 {ND-Root} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Cross-border Law Description
+				0 {ND-Root} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Cross-border Law Description
 		5 {ND-Root[BT-31-Procedure is present or BT-763-Procedure is present or BT-33-Procedure is present]} #{auxiliary|text|procurement-terms} // 2.1.5 Procurement terms
 			0 {ND-Root[BT-31-Procedure is present or BT-763-Procedure is present]} #{auxiliary|text|submission-terms}: // Terms of submission
 				{BT-31-Procedure} #{name|BT-31}: ${format-number(BT-31-Procedure, '###,##0')} // Maximum number of lots for which one tenderer can submit tenders
@@ -67,21 +65,13 @@
 		3 {ND-LotsGroupAwardCriteria} #{auxiliary|text|award-criteria} // 4.1.3 Award criteria
 			0 {ND-LotsGroupAwardCriterion} #{auxiliary|text|criterion}: // Criterion
 				0 {ND-LotsGroupAwardCriterion[BT-539-LotsGroup != 'unpublished' ]} #{name|BT-539}: #{BT-539-LotsGroup} // Criterion Type
-				0 {ND-LotsGroupAwardCriterion[BT-539-LotsGroup == 'unpublished' ]} #{name|BT-539}: #{auxiliary|text|unpublished} // Criterion Type (unpublished)
 				0 {ND-LotsGroupAwardCriterion[BT-734-LotsGroup != 'unpublished']} #{name|BT-734}: ${BT-734-LotsGroup} // Criterion Name
-				0 {ND-LotsGroupAwardCriterion[BT-734-LotsGroup == 'unpublished']} #{name|BT-734}: #{auxiliary|text|unpublished} // Criterion Name (unpublished)
 				0 {ND-LotsGroupAwardCriterion[BT-540-LotsGroup != 'unpublished']} #{name|BT-540}: ${BT-540-LotsGroup} // Award Criterion Description
-				0 {ND-LotsGroupAwardCriterion[BT-540-LotsGroup == 'unpublished']} #{name|BT-540}: #{auxiliary|text|unpublished} // Award Criterion Description (unpublished)
 				0 {ND-LotsGroupAwardCriterion[BT-5421-LotsGroup != 'unpublished']} #{BT-5421-LotsGroup}: ${format-number(BT-541-LotsGroup-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
-				0 {ND-LotsGroupAwardCriterion[BT-5421-LotsGroup == 'unpublished']} ${BT-5421-LotsGroup}: #{auxiliary|text|unpublished} // Award Criterion Number Weight (unpublished) / Award Criterion Number
 				0 {ND-LotsGroupAwardCriterion[BT-5422-LotsGroup != 'unpublished']} #{BT-5422-LotsGroup}: ${format-number(BT-541-LotsGroup-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
-				0 {ND-LotsGroupAwardCriterion[BT-5422-LotsGroup == 'unpublished']} ${BT-5422-LotsGroup}: #{auxiliary|text|unpublished} // Award Criterion Number Fixed / Award Criterion Number (unpublished)
 				0 {ND-LotsGroupAwardCriterion[BT-5423-LotsGroup != 'unpublished']} #{BT-5423-LotsGroup}: ${format-number(BT-541-LotsGroup-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
-				0 {ND-LotsGroupAwardCriterion[BT-5423-LotsGroup == 'unpublished']} ${BT-5423-LotsGroup}: #{auxiliary|text|unpublished} // Award Criterion Number Threshold / Award Criterion Number (unpublished)
 			0 {ND-LotsGroupAwardCriteria[BT-543-LotsGroup != 'unpublished']} #{name|BT-543}: ${BT-543-LotsGroup} // Award Criteria Complicated
-			0 {ND-LotsGroupAwardCriteria[BT-543-LotsGroup == 'unpublished']} #{name|BT-543}: #{auxiliary|text|unpublished} // Award Criteria Complicated (unpublished)
 			0 {ND-LotsGroupAwardCriteria[BT-733-LotsGroup != 'unpublished']} #{name|BT-733}: ${BT-733-LotsGroup} // Award Criteria Order Justification
-			0 {ND-LotsGroupAwardCriteria[BT-733-LotsGroup == 'unpublished']} #{name|BT-733}: #{auxiliary|text|unpublished} // Award Criteria Order Justification (unpublished)
 5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5. Lots
 	1 {ND-Lot} #{name|BT-137}: ${BT-137-Lot} // 5.1 Lot
 		{ND-Lot} #{name|BT-21}: ${BT-21-Lot} // Title
@@ -159,21 +149,13 @@
 		10 {ND-LotAwardCriteria} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria
 			0 {ND-LotAwardCriterion} #{auxiliary|text|criterion}: // Award Criterion
 				0 {ND-LotAwardCriterion[BT-539-Lot != 'unpublished']} #{name|BT-539}: #{BT-539-Lot} // Type
-				0 {ND-LotAwardCriterion[BT-539-Lot == 'unpublished']} #{name|BT-539}: #{auxiliary|text|unpublished} // Type (unpublished)
 				0 {ND-LotAwardCriterion[BT-734-Lot != 'unpublished']} #{name|BT-734}: ${BT-734-Lot} // Criterion Name
-				0 {ND-LotAwardCriterion[BT-734-Lot == 'unpublished']} #{name|BT-734}: #{auxiliary|text|unpublished} // Criterion Name (unpublished)
 				0 {ND-LotAwardCriterion[BT-540-Lot != 'unpublished']} #{name|BT-540}: ${BT-540-Lot} // Award Criterion Description
-				0 {ND-LotAwardCriterion[BT-540-Lot == 'unpublished']} #{name|BT-540}: #{auxiliary|text|unpublished} // Award Criterion Description (unpublished)
 				0 {ND-LotAwardWeightCriterionParameter[BT-5421-Lot != 'unpublished']} #{BT-5421-Lot}: ${format-number(BT-541-Lot-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
-				0 {ND-LotAwardWeightCriterionParameter[BT-5421-Lot == 'unpublished']} ${BT-5421-Lot}: #{auxiliary|text|unpublished} // Award Criterion Number Weight / Award Criterion Number (unpublished)
-				0 {ND-LotAwardWeightCriterionParameter[BT-5422-Lot != 'unpublished']} #{BT-5422-Lot}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
-				0 {ND-LotAwardWeightCriterionParameter[BT-5422-Lot != 'unpublished']} #{BT-5422-Lot}: #{auxiliary|text|unpublished} // Award Criterion Number Fixed / Award Criterion Number (unpublished)
-				0 {ND-LotAwardWeightCriterionParameter[BT-5423-Lot != 'unpublished']} #{BT-5423-Lot} - ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
-				0 {BT-5423-Lot[BT-5423-Lot == 'unpublished']} #{BT-5423-Lot} - #{auxiliary|text|unpublished} // Award Criterion Number Threshold / Award Criterion Number (unpublished)
+				0 {ND-LotAwardFixedCriterionParameter[BT-5422-Lot != 'unpublished']} #{BT-5422-Lot}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+				0 {ND-LotAwardThresholdCriterionParameter[BT-5423-Lot != 'unpublished']} #{BT-5423-Lot}: ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
 			0 {ND-LotAwardCriteria[BT-543-Lot != 'unpublished']} #{name|BT-543}: ${BT-543-Lot} // Award Criteria Complicated
-			0 {ND-LotAwardCriteria[BT-543-Lot == 'unpublished']} #{name|BT-543}: #{auxiliary|text|unpublished} // Award Criteria Complicated (unpublished)
 			0 {ND-LotAwardCriteria[BT-733-Lot != 'unpublished']} #{name|BT-733}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
-			0 {ND-LotAwardCriteria[BT-733-Lot == 'unpublished']} #{name|BT-733}: #{auxiliary|text|unpublished} // Justification for not indicating the weighing of the award criteria (unpublished)
 		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
 			{BT-137-Lot[some text:$restricted in (for text:$somerestricted in BT-14-Lot return $somerestricted) satisfies $restricted == 'restricted-document']} #{business-term|name|BT-14} // The access to certain procurement documents is restricted. (Lot)
 			{BT-707-Lot} #{name|BT-707}: #{BT-707-Lot} // Justification for restricting access to certain procurement documents (Lot)
@@ -208,6 +190,7 @@
 				{BT-63-Lot} #{name|BT-63}: #{BT-63-Lot} // Variants
 				{BT-769-Lot[BT-769-Lot == 'allowed']} #{name|BT-769} // Tenderers may submit more than one tender.
 				{BT-751-Lot[BT-75-Lot is present]} #{name|BT-75}: ${for text:$fgdesc in BT-75-Lot return $fgdesc} // Financial Guarantee Description
+				{BT-630(d)-Lot} #{name|BT-630}: ${BT-630(d)-Lot} ${BT-630(t)-Lot} // Deadline for receipt of expressions of interest
 				{BT-98-Lot} #{name|BT-98}: ${OPA-98-Lot-Number} ${BT-98-Lot/@unitCode} // Deadline until which the tender must remain valid
 			0 {BT-137-Lot[(BT-771-Lot is present) and (BT-772-Lot is present)]} #{auxiliary|text|late-tenderer-info}: // Information that can be supplemented after the submission deadline
 				{BT-771-Lot} #{BT-771-Lot} // Late Tenderer Information

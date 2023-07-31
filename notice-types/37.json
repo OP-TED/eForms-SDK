@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.196",
-    "createdOn" : "2023-07-19T09:56:41"
+    "version" : "1.8.212",
+    "createdOn" : "2023-07-21T14:07:13"
   },
   "noticeId" : "37",
   "metadata" : [ {
@@ -458,9 +458,10 @@
       "content" : [ {
         "id" : "GR-Procedure-CrossBorderLaw",
         "contentType" : "group",
+        "nodeId" : "ND-CrossBorderLaw",
         "displayType" : "GROUP",
         "description" : "Cross Border Law",
-        "_label" : "group|name|GR-Procedure-CrossBorderLaw",
+        "_label" : "group|name|ND-CrossBorderLaw",
         "content" : [ {
           "id" : "BT-09(a)-Procedure",
           "contentType" : "field",
@@ -948,37 +949,17 @@
           "_label" : "field|name|BT-728-Lot"
         } ]
       }, {
-        "id" : "GR-Lot-EUFunds",
+        "id" : "GR-Lot-EUFunds-Indicator",
         "contentType" : "group",
-        "nodeId" : "ND-Funding",
         "displayType" : "GROUP",
-        "description" : "Funding for a given Lot",
-        "_label" : "group|name|ND-Funding",
-        "_repeatable" : true,
+        "description" : "EU Funds Indicator",
+        "_label" : "group|name|GR-Lot-EUFunds-Indicator",
         "content" : [ {
           "id" : "BT-60-Lot",
           "contentType" : "field",
-          "displayType" : "COMBOBOX",
+          "displayType" : "TEXTBOX",
           "description" : "EU Funds",
           "_label" : "field|name|BT-60-Lot"
-        }, {
-          "id" : "BT-7220-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "EU Funds Programme",
-          "_label" : "field|name|BT-7220-Lot"
-        }, {
-          "id" : "BT-5010-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "EU Funds Financing Identifier",
-          "_label" : "field|name|BT-5010-Lot"
-        }, {
-          "id" : "BT-6140-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "EU Funds Details",
-          "_label" : "field|name|BT-6140-Lot"
         } ]
       }, {
         "id" : "GR-Lot-FiscalLegis",
@@ -1342,9 +1323,10 @@
               }, {
                 "id" : "GR-Unpublish-BT-5422-Lot",
                 "contentType" : "group",
+                "nodeId" : "ND-LotAwardCriterionNumberFixUnpublish",
                 "displayType" : "GROUP",
-                "description" : "Unpublish BT-5422-Lot",
-                "_label" : "group|name|GR-Unpublish-BT-5422-Lot",
+                "description" : "Not Immediately Published (LotAwardCriterionNumberFix)",
+                "_label" : "group|name|ND-LotAwardCriterionNumberFixUnpublish",
                 "collapsed" : true,
                 "content" : [ {
                   "id" : "BT-195(BT-5422)-Lot",
@@ -2048,9 +2030,10 @@
               }, {
                 "id" : "GR-Unpublish-BT-5422-LotsGroup",
                 "contentType" : "group",
+                "nodeId" : "ND-LotsGroupAwardCriterionNumberFixUnpublish",
                 "displayType" : "GROUP",
-                "description" : "Unpublish BT-5422-LotsGroup",
-                "_label" : "group|name|GR-Unpublish-BT-5422-LotsGroup",
+                "description" : "Not Immediately Published (LotsGroupAwardCriterionNumberFix)",
+                "_label" : "group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish",
                 "collapsed" : true,
                 "content" : [ {
                   "id" : "BT-195(BT-5422)-LotsGroup",

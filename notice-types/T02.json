@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.196",
-    "createdOn" : "2023-07-19T09:56:41"
+    "version" : "1.8.212",
+    "createdOn" : "2023-07-21T14:07:13"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -403,9 +403,10 @@
       "content" : [ {
         "id" : "GR-Procedure-CrossBorderLaw",
         "contentType" : "group",
+        "nodeId" : "ND-CrossBorderLaw",
         "displayType" : "GROUP",
         "description" : "Cross Border Law",
-        "_label" : "group|name|GR-Procedure-CrossBorderLaw",
+        "_label" : "group|name|ND-CrossBorderLaw",
         "content" : [ {
           "id" : "BT-09(a)-Procedure",
           "contentType" : "field",
@@ -1077,11 +1078,19 @@
             "description" : "Kilometers Public Transport",
             "_label" : "field|name|OPP-080-Tender"
           }, {
-            "id" : "OPP-032-Tender",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Revenues Allocation",
-            "_label" : "field|name|OPP-032-Tender"
+            "id" : "GR-LotTender-RevenueAllocation",
+            "contentType" : "group",
+            "nodeId" : "ND-RevenueAllocation",
+            "displayType" : "GROUP",
+            "description" : "Revenue allocation in percentage",
+            "_label" : "group|name|ND-RevenueAllocation",
+            "content" : [ {
+              "id" : "OPP-032-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Revenues Allocation",
+              "_label" : "field|name|OPP-032-Tender"
+            } ]
           } ]
         }, {
           "id" : "GR-LotTender-3",
