@@ -565,6 +565,8 @@
                        test="normalize-space(.) = ('none', 'res-pub-ser', 'res-ws')">
       <svrl:text>rule|text|BR-BT-00071-0102</svrl:text>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess/cbc:ElectronicOrderUsageIndicator"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess/cbc:ElectronicPaymentUsageIndicator"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:Language/cbc:ID"/>
    <svrl:failed-assert id="BR-BT-00097-0051"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:Language/cbc:ID"
@@ -580,6 +582,7 @@
                        test="normalize-space(.) = ('comp-dial', 'comp-tend', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">
       <svrl:text>rule|text|BR-BT-00105-0052</svrl:text>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"/>
    <svrl:failed-assert id="BR-BT-00262-0153"
                        location="/cn:ContractNotice/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"
@@ -652,6 +655,7 @@
                        test="normalize-space(.) = ('dps-list', 'dps-nlist', 'none')">
       <svrl:text>rule|text|BR-BT-00766-0052</svrl:text>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms/cbc:AuctionConstraintIndicator"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Name"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Name"/>
@@ -713,6 +717,13 @@
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00200-0051</svrl:text>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID"/>
+   <svrl:failed-assert id="BR-OPT-00300-0289"
+                       location="/cn:ContractNotice/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID"
+                       role="ERROR"
+                       test="matches(normalize-space(.),'^ORG-\d{4}$')">
+      <svrl:text>rule|text|BR-OPT-00300-0289</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00301-1216"
