@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.220",
-    "createdOn" : "2023-07-27T14:05:13"
+    "version" : "1.8.226",
+    "createdOn" : "2023-07-28T15:56:57"
   },
   "noticeId" : "28",
   "metadata" : [ {
@@ -2803,11 +2803,9 @@
         }, {
           "id" : "GR-LotTender-2",
           "contentType" : "group",
-          "nodeId" : "ND-LotTenderOriginCountry",
           "displayType" : "GROUP",
-          "description" : "Origin country of the product or service",
-          "_label" : "group|name|ND-LotTenderOriginCountry",
-          "_repeatable" : true,
+          "description" : "LotTender 2",
+          "_label" : "group|name|GR-LotTender-2",
           "content" : [ {
             "id" : "BT-160-Tender",
             "contentType" : "field",
