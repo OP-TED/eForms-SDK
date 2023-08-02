@@ -224,22 +224,6 @@
 					{BT-197(BT-712)-LotResult} #{name|BT-197(BT-712)-LotResult}: #{BT-197(BT-712)-LotResult} // Unpublished Justification Code
 					{BT-196(BT-712)-LotResult} #{name|BT-196(BT-712)-LotResult}: ${BT-196(BT-712)-LotResult} // Unpublished Justification Description
 					{BT-198(BT-712)-LotResult} #{name|BT-198(BT-712)-LotResult}: ${BT-198(BT-712)-LotResult} // Unpublished Access Date
-			0 {OPT-322-LotResult} #{auxiliary|text|review-requests-irregularity-type}: // TODELETE Type of alleged irregularity
-				0 {BT-636-LotResult} #{BT-636-LotResult} ${BT-635-LotResult} // TODELETE Buyer Review Requests Irregularity Type and Buyer Review Requests Count
-					{BT-197(BT-636)-LotResult} #{name|BT-197(BT-636)-LotResult}: #{BT-197(BT-636)-LotResult} // TODELETE Unpublished Justification Code
-					{BT-196(BT-636)-LotResult} #{name|BT-196(BT-636)-LotResult}: ${BT-196(BT-636)-LotResult} // TODELETE Unpublished Justification Description
-					{BT-198(BT-636)-LotResult} #{name|BT-198(BT-636)-LotResult}: ${BT-198(BT-636)-LotResult} // TODELETE Unpublished Access Date
-					{BT-196(BT-635)-LotResult} #{name|BT-196(BT-635)-LotResult}: ${BT-196(BT-635)-LotResult} // TODELETE Unpublished Justification Description
-					{BT-198(BT-635)-LotResult} #{name|BT-198(BT-635)-LotResult}: ${BT-198(BT-635)-LotResult} // TODELETE Unpublished Access Date
-					{BT-197(BT-635)-LotResult} #{name|BT-197(BT-635)-LotResult}: #{BT-197(BT-635)-LotResult} // TODELETE Unpublished Justification Code
-			0 {OPT-322-LotResult[BT-760-LotResult is present]} #{auxiliary|text|received-submissions}: // TODELETE Received tenders or requests to participate
-				0 {BT-760-LotResult} #{BT-760-LotResult}: ${BT-759-LotResult} // TODELETE Received Submissions Type and Received Submissions Count
-					{BT-197(BT-760)-LotResult} #{name|BT-197(BT-760)-LotResult}: #{BT-197(BT-760)-LotResult} // TODELETE Unpublished Justification Code
-					{BT-196(BT-760)-LotResult} #{name|BT-196(BT-760)-LotResult}: ${BT-196(BT-760)-LotResult} // TODELETE Unpublished Justification Description
-					{BT-198(BT-760)-LotResult} #{name|BT-198(BT-760)-LotResult}: ${BT-198(BT-760)-LotResult} // TODELETE Unpublished Access Date
-					{BT-197(BT-759)-LotResult} #{name|BT-197(BT-759)-LotResult}: #{BT-197(BT-759)-LotResult} // TODELETE Unpublished Justification Code
-					{BT-196(BT-759)-LotResult} #{name|BT-196(BT-759)-LotResult}: ${BT-196(BT-759)-LotResult} // TODELETE Unpublished Justification Description
-					{BT-198(BT-759)-LotResult} #{name|BT-198(BT-759)-LotResult}: ${BT-198(BT-759)-LotResult} // TODELETE Unpublished Access Date
 7 {ND-Root[BT-1501(n)-Contract is present]} #{auxiliary|text|modification} // 7. Modifications
 	{BT-1501(n)-Contract} #{field|name|BT-1501(n)-Contract}: ${BT-1501(n)-Contract} // Modification Previous Notice Identifier
 	{BT-200-Contract} #{name|BT-200}: #{BT-200-Contract} // Modification Reason Code
