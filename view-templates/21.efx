@@ -1,7 +1,7 @@
 // View 21
-// sdkVersion='1.7.0'
-// File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30
-1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
+// sdkVersion='1.7.1'
+// File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00
+1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
 		{BT-11-Procedure-Buyer} #{name|BT-11}: #value // Legal type of the buyer
@@ -13,7 +13,7 @@
 		{BT-24-Procedure} #{name|BT-24}: $value // Procedure Description
 		{BT-04-notice} #{name|BT-04}: $value // Procedure identifier
 		{BT-22-Procedure} #{name|BT-22}: $value // Internal identifier
-		0 {BT-105-Procedure} #{name|BT-105}: #value // Type of the procedure
+		0 {BT-105-Procedure} #{name|BT-105}: #{BT-105-Procedure} // Type of the procedure
 		0 {BT-88-Procedure} #{name|BT-88}: ${BT-88-Procedure} // Procedure Features / Description of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
 			{BT-23-Procedure} #{name|BT-23}: #value // Nature of the contract
@@ -31,8 +31,8 @@
 			{BT-727-Procedure}  #value  // Restrictions on the place of performance
 			{BT-728-Procedure}  #{name|BT-728}:  $value  // Additional information
 		3 {ND-ProcedureProcurementScope[(BT-27-Procedure is present) or (BT-271-Procedure is present)]} #{auxiliary|text|value}  // 2.1.3 Value
-			{BT-27-Procedure} #{name|BT-27}: ${if (contains(string(BT-27-Procedure), '.')) then format-number(BT-27-Procedure, '0.00') else format-number(BT-27-Procedure, '0')} ${BT-27-Procedure/@currencyID} // Estimated value
-			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${string(BT-271-Procedure)} ${BT-271-Procedure/@currencyID} // Framework Maximum Value
+			{BT-27-Procedure} #{name|BT-27}: ${if (contains(string(BT-27-Procedure), '.')) then format-number(BT-27-Procedure,  '###,##0.00') else format-number(BT-27-Procedure, '###,##0')} ${BT-27-Procedure/@currencyID} // Estimated value
+			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${if (contains(string(BT-271-Procedure), '.')) then format-number(BT-271-Procedure,  '###,##0.00') else format-number(BT-271-Procedure, '###,##0')} ${BT-271-Procedure/@currencyID} // Estimated value Framework Maximum Value
 		4 {ND-ProcedureProcurementScope[BT-01-notice is present]} #{auxiliary|text|general-information} // 2.1.4 General information
 			{BT-634-Procedure} #{name|BT-634} // Procurement Relaunch 
 			{BT-300-Procedure} #{name|BT-300}: ${BT-300-Procedure} // Additional information
@@ -43,10 +43,10 @@
 			0 {BT-09(b)-Procedure} #{field|name|BT-09(b)-Procedure}: ${BT-09(b)-Procedure} // Description
 		5 {ND-LotDistribution} #{auxiliary|text|procurement-terms} // 2.1.5  Procurement terms  ND-LotDistribution   ND-ProcedureProcurementScope
 			0 {ND-LotDistribution} #{auxiliary|text|submission-terms}: // Terms of submission
-				{BT-31-Procedure} #{name|BT-31}: ${BT-31-Procedure} // Maximum number of lots for which one tenderer can submit tenders
+				{BT-31-Procedure} #{name|BT-31}: ${format-number(BT-31-Procedure, '###,##0')} // Maximum number of lots for which one tenderer can submit tenders
 				{BT-763-Procedure [BT-763-Procedure == 'all']} #{name|BT-763} // The tenderer must submit tenders for all lots. (indicator all)
 			0 {ND-LotDistribution} #{auxiliary|text|contract-terms}: // Terms of contract
-				{BT-33-Procedure} #{name|BT-33}: ${BT-33-Procedure} // Maximum number of lots for which contracts can be awarded to one tenderer
+				{BT-33-Procedure} #{name|BT-33}: ${format-number(BT-33-Procedure, '###,##0')} // Maximum number of lots for which contracts can be awarded to one tenderer
 		6 {ND-ProcedureProcurementScope[(BT-67(a)-Procedure is present)]} #{auxiliary|text|exclusion-grounds} // 2.1.6 Exclusion grounds
 			{BT-67(a)-Procedure} #{name|BT-67}: ${for text:$egdesc in BT-67(b)-Procedure return concat('[ ', $egdesc, ' ] --- ')} // Description
 4 {ND-Root[BT-137-LotsGroup is present]} #{auxiliary|text|group-of-lots} // 4. Group of lots
@@ -56,9 +56,9 @@
 		{BT-24-LotsGroup} #{name|BT-24}: ${BT-24-LotsGroup} // Description of LotsGroup
 		{BT-22-LotsGroup} #{name|BT-22}: ${BT-22-LotsGroup} // Internal identifier of LotsGroup
 		1 {BT-137-LotsGroup[(BT-27-LotsGroup is present) or (BT-271-LotsGroup is present) or (BT-157-LotsGroup is present)]} #{auxiliary|text|value} // 4.1.1 Value
-			{BT-27-LotsGroup} #{name|BT-27}: ${string(BT-27-LotsGroup)} ${BT-27-LotsGroup/@currencyID} // Estimated value
-			{BT-271-LotsGroup} #{field|name|BT-271-LotsGroup}: ${string(BT-271-LotsGroup)} ${BT-271-LotsGroup/@currencyID} // Framework Maximum Value
-			{BT-157-LotsGroup} #{name|BT-157}: ${string(BT-157-LotsGroup)} ${BT-157-LotsGroup/@currencyID} // Maximum value of the framework agreement within the group of lots
+			{BT-27-LotsGroup} #{name|BT-27}: ${if (contains(string(BT-27-LotsGroup), '.')) then format-number(BT-27-LotsGroup,  '###,##0.00') else format-number(BT-27-LotsGroup, '###,##0')} ${BT-27-LotsGroup/@currencyID} // Estimated value
+			{BT-271-LotsGroup} #{field|name|BT-271-LotsGroup}: ${if (contains(string(BT-271-LotsGroup), '.')) then format-number(BT-271-LotsGroup,  '###,##0.00') else format-number(BT-271-LotsGroup, '###,##0')} ${BT-271-LotsGroup/@currencyID} // Framework Maximum Value
+			{BT-157-LotsGroup} #{name|BT-157}: ${if (contains(string(BT-157-LotsGroup), '.')) then format-number(BT-157-LotsGroup,  '###,##0.00') else format-number(BT-157-LotsGroup, '###,##0')} ${BT-157-LotsGroup/@currencyID} // Maximum value of the framework agreement within the group of lots
 		2 {BT-137-LotsGroup[BT-300-LotsGroup is present]} #{auxiliary|text|general-information} // 4.1.2 General information
 			{BT-300-LotsGroup} #{name|BT-300}: ${BT-300-LotsGroup} // Additional information
 		3 {BT-137-LotsGroup[(BT-539-LotsGroup is present or BT-543-LotsGroup is present)]} #{auxiliary|text|award-criteria} // 4.1.3 Award criteria
@@ -82,7 +82,8 @@
 			{BT-262-Lot[BT-26(m)-Lot == 'cpv']} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} #{BT-262-Lot} // Main classification (CPV)
 			{BT-262-Lot[BT-26(m)-Lot != 'cpv']} #{name|BT-262} (${BT-26(m)-Lot}): ${BT-262-Lot} // Main classification (non-CPV)
 			{BT-263-Lot[BT-26(a)-Lot == 'cpv']} #{name|BT-263} (${BT-26(a)-Lot}): ${BT-263-Lot} #{BT-263-Lot} // Additional classification (CPV)
-			{BT-25-Lot} #{name|BT-25}: ${BT-25-Lot} #{BT-625-Lot} // Quantity
+			{BT-263-Lot[BT-26(a)-Lot != 'cpv']} #{name|BT-263} (${BT-26(a)-Lot}): ${BT-263-Lot} // Additional classification (Non-CPV)
+			{BT-25-Lot} #{name|BT-25}: ${format-number(BT-25-Lot,  '###,##0.###,###,###')} #{BT-625-Lot} // Quantity
 			0 {BT-54-Lot} #{auxiliary|text|options}: // Options
 				{BT-54-Lot} #{name|BT-54}: ${BT-54-Lot} // The buyer reserves the right for additional purchases, described here, from the contractor
 		2 {ND-LotPlacePerformance} #{auxiliary|text|place-performance} // 5.1.2 Place of performance
@@ -96,14 +97,15 @@
 		3 {ND-LotDuration} #{auxiliary|text|estimated-duration} // 5.1.3 Estimated duration
 			{BT-536-Lot} #{name|BT-536}: ${BT-536-Lot} // Start date
 			{BT-537-Lot} #{name|BT-537}: ${BT-537-Lot} // End date
-			{BT-36-Lot} #{name|BT-36}: ${OPA-36-Lot-Number} ${BT-36-Lot/@unitCode} // Duration
+			{BT-36-Lot} #{name|BT-36}: ${format-number(OPA-36-Lot-Number,  '###,##0.###,###,###')} ${BT-36-Lot/@unitCode} // Duration
 			{BT-538-Lot} #{name|BT-538-Lot}: #{BT-538-Lot} // Planned Period (Unlimited)
 		4 {ND-OptionsAndRenewals[(BT-57-Lot is present) or (BT-58-Lot is present)]} #{auxiliary|text|renewal} // 5.1.4 Renewal
 			{BT-58-Lot} #{name|BT-58}: ${BT-58-Lot} // Maximum renewals
 			{BT-57-Lot} #{name|BT-57}: ${BT-57-Lot} // Description
 		5 {BT-137-Lot[(BT-27-Lot is present) or (BT-271-Lot is present) or (some text:$glo in (for text:$lotid in BT-137-Lot, text:$ldgloid in BT-330-Procedure[BT-1375-Procedure == $lotid], text:$gloid in BT-137-LotsGroup[BT-137-LotsGroup[BT-157-LotsGroup is present] == $ldgloid] return $gloid) satisfies $glo != '')]} #{auxiliary|text|value} // 5.1.5 Value
-			{BT-27-Lot} #{name|BT-27}: ${string(BT-27-Lot)} ${BT-27-Lot/@currencyID} // Estimated value
-			{BT-271-Lot} #{field|name|BT-271-Lot}: ${string(BT-271-Lot)} ${BT-271-Lot/@currencyID} // Framework Maximum Value
+			{BT-27-Lot} #{name|BT-27}: ${if (contains(string(BT-27-Lot), '.')) then format-number(BT-27-Lot,  '###,##0.00') else format-number(BT-27-Lot, '###,##0')} ${BT-27-Lot/@currencyID} // Estimated value
+			{BT-271-Lot} #{field|name|BT-271-Lot}: ${if (contains(string(BT-271-Lot), '.')) then format-number(BT-271-Lot,  '###,##0.00') else format-number(BT-271-Lot, '###,##0')} ${BT-271-Lot/@currencyID} // Framework Maximum Value
+			{BT-137-Lot[some text:$glo in (for text:$lotid in BT-137-Lot, text:$ldgloid in BT-330-Procedure[BT-1375-Procedure == $lotid], text:$gloid in BT-137-LotsGroup[BT-137-LotsGroup[BT-157-LotsGroup is present] == $ldgloid] return $gloid) satisfies $glo != '']} #{name|BT-157}: ${for text:$lotid1 in BT-137-Lot, text:$ldgloid1 in BT-330-Procedure[BT-1375-Procedure == $lotid1], number:$gfemv in BT-157-LotsGroup[BT-137-LotsGroup == $ldgloid1] return if (contains(string($gfemv), '.')) then format-number($gfemv,  '###,##0.00') else format-number($gfemv, '###,##0')} ${for text:$lotid2 in BT-137-Lot, text:$ldgloid2 in BT-330-Procedure[BT-1375-Procedure == $lotid2] return BT-157-LotsGroup[BT-137-LotsGroup == $ldgloid2]/@currencyID} // TODELETE Maximum value of the framework agreement within the group of lots
 		6 {BT-137-Lot[(BT-634-Lot == TRUE) or (BT-94-Lot == TRUE) or (BT-95-Lot is present) or (BT-71-Lot is present) or (BT-79-Lot is present) or (BT-60-Lot == 'eu-funds') or (BT-7220-Lot is present) or (BT-5010-Lot is present) or (BT-6140-Lot is present) or (BT-115-Lot == TRUE) or (BT-726-Lot == TRUE) or (BT-125(i)-Lot is present) or (BT-1251-Lot is present) or (BT-300-Lot is present)]} #{auxiliary|text|general-information} // 5.1.6 General information
 			{BT-634-Lot[BT-634-Lot == TRUE]} #{name|BT-634} // This cancelled or unsuccessful procedure or lot will be relaunched (only true allowed).
 			{BT-94-Lot[BT-94-Lot == TRUE]} #{name} // This is a recurrent procurement (true / false).
@@ -139,8 +141,8 @@
 				{BT-750-Lot} #{name|BT-750}: ${BT-750-Lot} // Description
 				{BT-748-Lot} #{name|BT-748}: #{BT-748-Lot} // Use of this criterion
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{name|BT-40} // Selection Criteria Second Stage Invite
-				{BT-7531-Lot} #{BT-7531-Lot}: ${BT-752-Lot} // Number Weight
-				{BT-7532-Lot} #{BT-7532-Lot}: ${BT-752-Lot} // Number Threshold
+				{BT-7531-Lot} #{BT-7531-Lot}: ${format-number(BT-752-Lot, '###,##0.###,###,###')} // Number Weight
+				{BT-7532-Lot} #{BT-7532-Lot}: ${format-number(BT-752-Lot, '###,##0.###,###,###')} // Number Threshold
 			0 {ND-SecondStage[(BT-50-Lot is present) or (BT-51-Lot is present) or (BT-52-Lot == TRUE) or (BT-120-Lot == TRUE)]} #{auxiliary|text|second-stage}: // Information about the second stage of a two-stage procedure
 				{BT-50-Lot[BT-50-Lot is present]} #{name|BT-50}: ${BT-50-Lot} // Minimum Candidates
 				{BT-661-Lot[BT-51-Lot is present]} #{name|BT-51}: ${BT-51-Lot} // Maximum Candidates
@@ -173,6 +175,13 @@
 				{BT-578-Lot[BT-578-Lot == 'true']} #{name|BT-578} // A security clearance is required. (true/false)
 				{BT-732-Lot} #{name|BT-732}: ${BT-732-Lot} // Description
 				{BT-78-Lot} #{name|BT-78}: ${BT-78-Lot} // Security Clearance Deadline
+			0 {BT-137-Lot[(BT-42-Lot == TRUE) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present)]} #{auxiliary|text|design-contest-terms}: // Terms of the design contest regime
+				0 {BT-644-Lot} Prize information // Prize information
+					{BT-644-Lot} #{name|BT-644}: ${if (contains(string(BT-644-Lot), '.')) then format-number(BT-644-Lot,  '###,##0.00') else format-number(BT-644-Lot, '###,##0')} ${BT-644-Lot/@currencyID} // Value of the prize
+					{BT-44-Lot} #{name|BT-44}: ${BT-44-Lot} // Place receiving the prize
+				{BT-644-Lot} #{name|BT-644}: ${if (contains(string(BT-644-Lot), '.')) then format-number(BT-644-Lot,  '###,##0.00') else format-number(BT-644-Lot, '###,##0')} ${BT-644-Lot/@currencyID} // Value of the prize
+				{BT-44-Lot} #{name|BT-44}: ${BT-44-Lot} // Place receiving the prize
+				{BT-45-Lot} #{name|BT-45}: ${BT-45-Lot} // Additional information
 			0 {BT-137-Lot[(BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot == 'allowed') or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present)]} #{auxiliary|text|submission-terms}: // Terms of submission
 				{BT-17-Lot} #{name|BT-17}: #{BT-17-Lot} // Electronic submission
 				{BT-18-Lot} #{name|BT-18}: ${BT-18-Lot} // Address for submission (URL)

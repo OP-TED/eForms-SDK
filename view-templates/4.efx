@@ -1,7 +1,7 @@
 // View 4
-// sdkVersion='1.7.0'
-// File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30
-1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1. Buyer
+// sdkVersion='1.7.1'
+// File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00
+1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{name|BT-500}:  ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return  concat('[', $orgname, '] --- ')} // Official name
 		{BT-11-Procedure-Buyer} #{name|BT-11}: #value // Legal type of the buyer
@@ -27,15 +27,15 @@
 			{BT-727-Procedure}  #value  // Restrictions on the place of performance
 			{BT-728-Procedure}  #{name|BT-728}:  $value  // Additional information
 		3 {ND-ProcedureProcurementScope[(BT-27-Procedure is present) or (BT-271-Procedure is present)]} #{auxiliary|text|value}  // 2.1.3 Value
-			{BT-27-Procedure} #{name|BT-27}: ${if (contains(string(BT-27-Procedure), '.')) then format-number(BT-27-Procedure, '0.00') else format-number(BT-27-Procedure, '0')} ${BT-27-Procedure/@currencyID} // Estimated value
-			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${string(BT-271-Procedure)} ${BT-271-Procedure/@currencyID} // Framework Maximum Value
+			{BT-27-Procedure} #{name|BT-27}: ${if (contains(string(BT-27-Procedure), '.')) then format-number(BT-27-Procedure,  '###,##0.00') else format-number(BT-27-Procedure, '###,##0')} ${BT-27-Procedure/@currencyID} // Estimated value
+			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${if (contains(string(BT-271-Procedure), '.')) then format-number(BT-271-Procedure,  '###,##0.00') else format-number(BT-271-Procedure, '###,##0')} ${BT-271-Procedure/@currencyID} // Estimated value Framework Maximum Value
 		4 {ND-ProcedureProcurementScope[BT-01-notice is present]} #{auxiliary|text|general-information} // 2.1.4 General information
 			{BT-300-Procedure} #{name|BT-300}: ${BT-300-Procedure} // Additional information
 			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}: // Legal basis
 			{BT-01-notice} #{BT-01-notice} // Procedure Legal Basis
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure}// Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 3 {ND-Root[(BT-21-Part is present)]} #{auxiliary|text|part} // 3. Parts
-	1 {ND-Part} #{name|BT-137}: ${BT-137-Part} // 3.1 Part
+	1 {ND-Part} #{field|name|BT-137-Part}: ${BT-137-Part} // 3.1 Part
 		{BT-21-Part} #{name|BT-21}: ${BT-21-Part} // Title
 		{BT-24-Part} #{name|BT-24}: ${BT-24-Part} // Description
 		{BT-22-Part} #{name|BT-22}: ${BT-22-Part} // Internal identifier
@@ -55,9 +55,9 @@
 		3 {BT-137-Part[(BT-536-Part is present) or (BT-537-Part is present) or (BT-36-Part is present)]} #{auxiliary|text|duration} // 3.1.3 Duration
 			{BT-536-Part} #{name|BT-536}: ${BT-536-Part} // Start date
 			{BT-537-Part} #{name|BT-537}: ${BT-537-Part} // End date
-			{BT-36-Part} #{name|BT-36}: ${OPA-36-Part-Number} ${BT-36-Part/@unitCode} // Period
+			{BT-36-Part} #{name|BT-36}: ${format-number(OPA-36-Part-Number, '###,##0.###,###,###')} ${BT-36-Part/@unitCode} // Period
 		4 {BT-137-Part[(BT-27-Part is present)]} #{auxiliary|text|value} // 3.1.4 Value
-			{BT-27-Part} #{name|BT-27}: ${if (contains(format-number(BT-27-Part, '0.##'), '.')) then format-number(BT-27-Part, '0.00') else format-number(BT-27-Part, '0')} ${BT-27-Part/@currencyID} // Estimated value excluding VAT
+			{BT-27-Part} #{name|BT-27}: ${if (contains(string(BT-27-Part), '.')) then format-number(BT-27-Part,  '###,##0.00') else format-number(BT-27-Part, '###,##0')} ${BT-27-Part/@currencyID} // Estimated value excluding VAT
 		5 {BT-137-Part[(BT-71-Part is present) or (BT-115-Part == TRUE) or (BT-726-Part == TRUE) or (BT-125(i)-Part is present) or (BT-1251-Part is present) or (BT-300-Part is present)]} #{auxiliary|text|general-information} // 3.1.5 General information
 			{BT-137-Part[BT-71-Part == 'none']} #{field|name|BT-71-Part}: #{BT-71-Part} // Reserved Participation: none (PART)
 			{BT-71-Part[BT-71-Part != 'none']} #{field|name|BT-71-Part}: #{BT-71-Part} // Reserved Participation (PART)
