@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Az ebben a hirdetményben odaítélt valamennyi szerződés értéke, beleértve az opciókat és a megújításokat.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">A közbeszerzési eljárás vagy rész becsült értéke annak teljes ideje alatt, beleértve az opciókat és a megújításokat.</entry>
 <entry key="field|description|OPA-36-Lot-Number">A (becsült) időtartam a szerződés, keretmegállapodás, dinamikus beszerzési rendszer vagy minősítési rendszer kezdetétől a végéig. Ennek magában kell foglalnia az opciókat és a megújításokat.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">A (becsült) időtartam a szerződés, keretmegállapodás, dinamikus beszerzési rendszer vagy minősítési rendszer kezdetétől a végéig. Ennek magában kell foglalnia az opciókat és a megújításokat.</entry>
 <entry key="field|description|OPA-36-Part-Number">A (becsült) időtartam a szerződés, keretmegállapodás, dinamikus beszerzési rendszer vagy minősítési rendszer kezdetétől a végéig. Ennek magában kell foglalnia az opciókat és a megújításokat.</entry>
+<entry key="field|description|OPA-36-Part-Unit">A (becsült) időtartam a szerződés, keretmegállapodás, dinamikus beszerzési rendszer vagy minősítési rendszer kezdetétől a végéig. Ennek magában kell foglalnia az opciókat és a megújításokat.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Az ajánlat benyújtási határidejétől számított időszak, amely során az ajánlatnak érvényesnek kell maradnia.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Az ajánlat benyújtási határidejétől számított időszak, amely során az ajánlatnak érvényesnek kell maradnia.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Az alkalmazandó jog, ha a közbeszerzés különböző országokból származó vevőket érint</entry>
 <entry key="field|hint|BT-1375-Procedure">Adjon meg annyi tételt, amennyit fel kíván venni a tételcsoportba.</entry>
 <entry key="field|hint|BT-22-Lot">Ha az eljárásához és a tételekhez belső azonosítót használ, kérjük, töltse ki. Kérjük, minden egyes tételhez használjon különböző azonosítókat.</entry>
@@ -627,7 +630,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Ez a mező utalhat az ajánlattételhez szükséges dokumentációra.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Válasszon ki egy vagy több kizárási okot</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Adja meg az időtartamot VAGY az időtartamot</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Adja meg az időtartamot VAGY az időtartamot</entry>
 <entry key="field|hint|OPA-36-Part-Number">Adja meg az időtartamot VAGY az időtartamot</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Adja meg az időtartamot VAGY az időtartamot</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Először hozza létre a szervezetet a „Szervezetek” szakaszban, majd válassza ki a legördülő listából.</entry>
 <entry key="field|hint|OPT-300-Procedure-Buyer">Először hozza létre a szervezetet a „Szervezetek” szakaszban, majd válassza ki a legördülő listából.</entry>
 <entry key="field|hint|OPT-300-Procedure-SProvider">Először hozza létre a szervezetet a „Szervezetek” szakaszban, majd válassza ki a legördülő listából.</entry>
@@ -1272,8 +1277,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Az ebben az eljárásban odaítélt valamennyi szerződés értéke</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">A becsült érték héa (áfa) nélkül</entry>
 <entry key="field|name|OPA-36-Lot-Number">Időtartam</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Időtartam</entry>
 <entry key="field|name|OPA-36-Part-Number">Időtartam</entry>
+<entry key="field|name|OPA-36-Part-Unit">Időtartam</entry>
 <entry key="field|name|OPA-98-Lot-Number">Az ajánlatnak eddig az időpontig kell érvényesnek lennie</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Az ajánlatnak eddig az időpontig kell érvényesnek lennie</entry>
 <entry key="field|name|OPP-010-notice">A hirdetmény közzétételi száma</entry>
 <entry key="field|name|OPP-011-notice">HL S kiadás száma</entry>
 <entry key="field|name|OPP-012-notice">A közzététel dátuma</entry>

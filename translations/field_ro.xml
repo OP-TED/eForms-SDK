@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Valoarea tuturor contractelor atribuite în anunțul respectiv, inclusiv a opțiunilor și reînnoirilor.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Valoarea estimată a procedurii de achiziții sau a lotului, pe întreaga sa durată, inclusiv pe opțiuni și reînnoiri.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Perioada (estimată) de la începutul până la sfârșitul contractului, al acordului-cadru, al sistemului dinamic de achiziții sau al sistemului de calificare. Aceasta trebuie să includă orice opțiuni și reînnoiri.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Perioada (estimată) de la începutul până la sfârșitul contractului, al acordului-cadru, al sistemului dinamic de achiziții sau al sistemului de calificare. Aceasta trebuie să includă orice opțiuni și reînnoiri.</entry>
 <entry key="field|description|OPA-36-Part-Number">Perioada (estimată) de la începutul până la sfârșitul contractului, al acordului-cadru, al sistemului dinamic de achiziții sau al sistemului de calificare. Aceasta trebuie să includă orice opțiuni și reînnoiri.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Perioada (estimată) de la începutul până la sfârșitul contractului, al acordului-cadru, al sistemului dinamic de achiziții sau al sistemului de calificare. Aceasta trebuie să includă orice opțiuni și reînnoiri.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Perioada, începând cu termenul de depunere a ofertelor, pentru care ofertele trebuie să rămână valabile.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Perioada, începând cu termenul de depunere a ofertelor, pentru care ofertele trebuie să rămână valabile.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Legea aplicabilă în cazul în care achiziția implică cumpărători din țări diferite</entry>
 <entry key="field|hint|BT-1375-Procedure">Adăugați atâtea loturi câte doriți să includeți în grupul de loturi.</entry>
 <entry key="field|hint|BT-22-Lot">Dacă utilizați un identificator intern pentru procedura și loturile dumneavoastră, vă rugăm să îl completați. Vă rugăm să utilizați identificatori diferiți pentru fiecare lot.</entry>
@@ -627,7 +630,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Acest câmp poate indica caietul de sarcini</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Selectați unul sau mai multe motive de excludere</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Completați fie datele duratei SAU perioada</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Completați fie datele duratei SAU perioada</entry>
 <entry key="field|hint|OPA-36-Part-Number">Completați fie datele duratei SAU perioada</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Completați fie datele duratei SAU perioada</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Mai întâi creați organizația în secțiunea „Organizații”, apoi selectați-o în listă verticală.</entry>
 <entry key="field|hint|OPT-300-Procedure-Buyer">Mai întâi creați organizația în secțiunea „Organizații”, apoi selectați-o în listă verticală.</entry>
 <entry key="field|hint|OPT-300-Procedure-SProvider">Mai întâi creați organizația în secțiunea „Organizații”, apoi selectați-o în listă verticală.</entry>
@@ -1272,8 +1277,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Valoarea tuturor contractelor atribuite în cadrul acestei proceduri</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Valoarea estimată fără TVA</entry>
 <entry key="field|name|OPA-36-Lot-Number">Durata</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Durata</entry>
 <entry key="field|name|OPA-36-Part-Number">Durata</entry>
+<entry key="field|name|OPA-36-Part-Unit">Durata</entry>
 <entry key="field|name|OPA-98-Lot-Number">Termenul până la care oferta trebuie să rămână valabilă</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Termenul până la care oferta trebuie să rămână valabilă</entry>
 <entry key="field|name|OPP-010-notice">Numărul de publicare al anunțului</entry>
 <entry key="field|name|OPP-011-notice">Numărul ediției JO S</entry>
 <entry key="field|name|OPP-012-notice">Data publicării</entry>

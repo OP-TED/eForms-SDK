@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">The value of all contracts awarded in this notice, including options and renewals.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">The estimated value of the procurement procedure or lot, over its whole duration, including options and renewals.</entry>
 <entry key="field|description|OPA-36-Lot-Number">The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.</entry>
 <entry key="field|description|OPA-36-Part-Number">The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.</entry>
+<entry key="field|description|OPA-36-Part-Unit">The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.</entry>
 <entry key="field|description|OPA-98-Lot-Number">The period, from the tender submission deadline, for which tenders must remain valid.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">The period, from the tender submission deadline, for which tenders must remain valid.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">The law applicable if the procurement involves buyers from different countries</entry>
 <entry key="field|hint|BT-1375-Procedure">Add as many lots as you wish to include in the group of lots.</entry>
 <entry key="field|hint|BT-22-Lot">If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.</entry>
@@ -627,7 +630,9 @@
 <entry key="field|hint|BT-543-LotsGroup">This field can point to the tender specifications</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Select one or several exclusion grounds</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Fill in either the duration dates OR the duration period</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Fill in either the duration dates OR the duration period</entry>
 <entry key="field|hint|OPA-36-Part-Number">Fill in either the duration dates OR the duration period</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Fill in either the duration dates OR the duration period</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">First create the organisation in the section 'Organisations', then select it in drop-down list.</entry>
 <entry key="field|hint|OPT-300-Procedure-Buyer">First create the organisation in the section 'Organisations', then select it in drop-down list.</entry>
 <entry key="field|hint|OPT-300-Procedure-SProvider">First create the organisation in the section 'Organisations', then select it in drop-down list.</entry>
@@ -1272,8 +1277,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Value of all contracts awarded in this procedure</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Estimated value excluding VAT</entry>
 <entry key="field|name|OPA-36-Lot-Number">Duration</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Duration</entry>
 <entry key="field|name|OPA-36-Part-Number">Duration</entry>
+<entry key="field|name|OPA-36-Part-Unit">Duration</entry>
 <entry key="field|name|OPA-98-Lot-Number">Deadline until which the tender must remain valid</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Deadline until which the tender must remain valid</entry>
 <entry key="field|name|OPP-010-notice">Notice publication number</entry>
 <entry key="field|name|OPP-011-notice">OJ S issue number</entry>
 <entry key="field|name|OPP-012-notice">Publication date</entry>
