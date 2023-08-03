@@ -140,7 +140,7 @@
 				{BT-197(BT-660)-LotResult} #{name|BT-197(BT-660)-LotResult}: #{BT-197(BT-660)-LotResult} // Unpublished Justification Code
 				{BT-196(BT-660)-LotResult} #{name|BT-196(BT-660)-LotResult}: ${BT-196(BT-660)-LotResult} // Unpublished Justification Description
 				{BT-198(BT-660)-LotResult} #{name|BT-198(BT-660)-LotResult}: ${BT-198(BT-660)-LotResult} // Unpublished Access Date
-		2 {BT-142-LotResult[(BT-142-LotResult == 'selec-w' or BT-142-LotResult == 'unpublished') and OPT-320-LotResult is present and OPT-315-LotResult is present]} #{auxiliary|text|winner-info}  // 6.1.2. Winning tenders
+		2 {OPT-322-LotResult[BT-02-notice == 'veat' or ((BT-142-LotResult == 'selec-w' or BT-142-LotResult == 'unpublished') and OPT-320-LotResult is present and OPT-315-LotResult is present)]} #{auxiliary|text|winner-info} // 6.1.2. Winning tenders
 			0 {OPT-320-LotResult[count(for text:$tender in OPT-320-LotResult, text:$contractid in OPT-316-Contract[BT-3202-Contract == $tender] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender]]])>0]}  #{auxiliary|text|winner}: // Winner
 				{OPT-320-LotResult[count(for text:$tender1 in OPT-320-LotResult, text:$contractid1 in OPT-316-Contract[BT-3202-Contract == $tender1] return BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == OPT-310-Tender[OPT-321-Tender == $tender1]]])>0]} #{auxiliary|text|organisation-tenderer}: // Tender
 				{OPT-320-LotResult} #{business-term|name|BT-3201}: ${for text:$tender in OPT-320-LotResult return BT-3201-Tender[OPT-321-Tender == $tender]} // Tender identifier
