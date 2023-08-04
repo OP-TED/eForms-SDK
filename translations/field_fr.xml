@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Valeur de tous les marchés attribués dans le cadre du présent avis, y compris les options et les renouvellements.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Valeur estimée pendant toute la durée de la procédure de passation de marchés ou du lot, y compris les options et les renouvellements.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Période (estimée) qui s’étend du début à la fin du marché, de l’accord-cadre, du système d’acquisition dynamique ou du système de qualification. Sont inclus les options et renouvellements éventuels.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Période (estimée) qui s’étend du début à la fin du marché, de l’accord-cadre, du système d’acquisition dynamique ou du système de qualification. Sont inclus les options et renouvellements éventuels.</entry>
 <entry key="field|description|OPA-36-Part-Number">Période (estimée) qui s’étend du début à la fin du marché, de l’accord-cadre, du système d’acquisition dynamique ou du système de qualification. Sont inclus les options et renouvellements éventuels.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Période (estimée) qui s’étend du début à la fin du marché, de l’accord-cadre, du système d’acquisition dynamique ou du système de qualification. Sont inclus les options et renouvellements éventuels.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Période, à compter de la date limite de présentation des offres, durant laquelle les offres doivent rester valables.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Période, à compter de la date limite de présentation des offres, durant laquelle les offres doivent rester valables.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Le droit applicable si le marché fait intervenir des acheteurs de différents pays</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Ce champ peut renvoyer au cahier des charges.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Sélectionner un ou plusieurs motifs d’exclusion</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Indiquez soit les dates de durée OU la période de durée</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Indiquez soit les dates de durée OU la période de durée</entry>
 <entry key="field|hint|OPA-36-Part-Number">Indiquez soit les dates de durée OU la période de durée</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Indiquez soit les dates de durée OU la période de durée</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Créer d’abord l’organisation dans la section «Organisations», puis la sélectionner dans la liste déroulante.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Valeur de tous les marchés attribués dans le cadre de la procédure en question</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Valeur estimée hors TVA</entry>
 <entry key="field|name|OPA-36-Lot-Number">Durée</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Durée</entry>
 <entry key="field|name|OPA-36-Part-Number">Durée</entry>
+<entry key="field|name|OPA-36-Part-Unit">Durée</entry>
 <entry key="field|name|OPA-98-Lot-Number">Date limite de validité de l’offre</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Date limite de validité de l’offre</entry>
 <entry key="field|name|OPP-010-notice">Numéro de publication de l’avis</entry>
 <entry key="field|name|OPP-011-notice">Numéro de publication au JO S</entry>
 <entry key="field|name|OPP-012-notice">Date de publication</entry>
