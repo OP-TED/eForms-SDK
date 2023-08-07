@@ -1,3 +1,9 @@
+# SDK 1.3.5 Release Notes
+
+This release corrects a constraint on BT-02-notice to allow "can-modif" notices when the legal basis is Directive 2014/23, and includes updated translations and updated notice visualisation templates.
+
+A comprehensive list of changes between SDK 1.3.4 and SDK 1.3.5 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.3.4...1.3.5>
+
 # SDK 1.3.4 Release Notes
 
 This release includes only updated translations and updated notice visualisation templates.
@@ -11,8 +17,6 @@ This release includes only updated translations and updated notice visualisation
 A comprehensive list of changes between SDK 1.3.2 and SDK 1.3.3 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.3.2...1.3.3>
 
 # SDK 1.3.2 Release Notes
-
-[![Maven Central](https://img.shields.io/maven-central/v/eu.europa.ted.eforms/eforms-sdk?label=Download%20from%20Maven%20Central&versionPrefix=1.3.2)](https://search.maven.org/search?q=g:%22eu.europa.ted.eforms%22%20AND%20a:%22eforms-sdk%22)
 
 This release includes several corrections and small updates:
 
