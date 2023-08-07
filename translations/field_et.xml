@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Kõigi käesoleva teate raames sõlmitud lepingute maksumus, sealhulgas täiendavad hankevõimalused ja lepingu uuendamised.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Riigihanke või hanke osa eeldatav maksumus hankelepingu kogu kehtivusaja jooksul, sealhulgas täiendavad hankevõimalused ja lepingu uuendamised.</entry>
 <entry key="field|description|OPA-36-Lot-Number">(Eeldatav) ajavahemik alates lepingu, raamlepingu, dünaamilise hankesüsteemi või kvalifitseerimissüsteemi algusest kuni selle lõpuni. See peab hõlmama kõiki täiendavaid hankevõimalusi ja lepingu uuendamisi.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">(Eeldatav) ajavahemik alates lepingu, raamlepingu, dünaamilise hankesüsteemi või kvalifitseerimissüsteemi algusest kuni selle lõpuni. See peab hõlmama kõiki täiendavaid hankevõimalusi ja lepingu uuendamisi.</entry>
 <entry key="field|description|OPA-36-Part-Number">(Eeldatav) ajavahemik alates lepingu, raamlepingu, dünaamilise hankesüsteemi või kvalifitseerimissüsteemi algusest kuni selle lõpuni. See peab hõlmama kõiki täiendavaid hankevõimalusi ja lepingu uuendamisi.</entry>
+<entry key="field|description|OPA-36-Part-Unit">(Eeldatav) ajavahemik alates lepingu, raamlepingu, dünaamilise hankesüsteemi või kvalifitseerimissüsteemi algusest kuni selle lõpuni. See peab hõlmama kõiki täiendavaid hankevõimalusi ja lepingu uuendamisi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Ajavahemik, mille jooksul pakkumused peavad jääma jõusse pärast pakkumuse esitamise tähtpäeva möödumist.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Ajavahemik, mille jooksul pakkumused peavad jääma jõusse pärast pakkumuse esitamise tähtpäeva möödumist.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Õigus, mida kohaldatakse juhul, kui hankes osalevad eri riikidest pärit ostjad</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Sellel väljal võib viidata hanke tehnilisele kirjeldusele.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Valige üks või mitu kõrvaldamise alust</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Märkige kas kestuse kuupäevad VÕI kestuse periood</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Märkige kas kestuse kuupäevad VÕI kestuse periood</entry>
 <entry key="field|hint|OPA-36-Part-Number">Märkige kas kestuse kuupäevad VÕI kestuse periood</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Märkige kas kestuse kuupäevad VÕI kestuse periood</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Kõigepealt looge organisatsioon jaotises „Organisatsioonid“, seejärel valige see rippmenüüst.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Kõigi selle menetluse käigus sõlmitud lepingute maksumus</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Eeldatav maksumus käibemaksuta</entry>
 <entry key="field|name|OPA-36-Lot-Number">Kestus</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Kestus</entry>
 <entry key="field|name|OPA-36-Part-Number">Kestus</entry>
+<entry key="field|name|OPA-36-Part-Unit">Kestus</entry>
 <entry key="field|name|OPA-98-Lot-Number">Tähtaeg, mille jooksul pakkumus peab kehtima</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Tähtaeg, mille jooksul pakkumus peab kehtima</entry>
 <entry key="field|name|OPP-010-notice">Teate avaldamise number</entry>
 <entry key="field|name|OPP-011-notice">ELT S väljaande number</entry>
 <entry key="field|name|OPP-012-notice">Avaldamise kuupäev</entry>
