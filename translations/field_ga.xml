@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Luach na gconarthaí uile arna ndámhachtain faoin bhfógra seo, lena n‑áirítear roghanna agus athnuachan.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Luach measta an nós imeachta soláthair nó an bhirt, thar a thréimhse iomlán, lena n‑áirítear roghanna agus athnuachan.</entry>
 <entry key="field|description|OPA-36-Lot-Number">An tréimhse (mheasta) ó thús go deireadh an chonartha, an chreat‑chomhaontaithe, an chórais ceannaigh dhinimiciúil nó an chórais cáiliúcháin. Beidh aon roghanna nó athnuachan i gceist leis sin.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">An tréimhse (mheasta) ó thús go deireadh an chonartha, an chreat‑chomhaontaithe, an chórais ceannaigh dhinimiciúil nó an chórais cáiliúcháin. Beidh aon roghanna nó athnuachan i gceist leis sin.</entry>
 <entry key="field|description|OPA-36-Part-Number">An tréimhse (mheasta) ó thús go deireadh an chonartha, an chreat‑chomhaontaithe, an chórais ceannaigh dhinimiciúil nó an chórais cáiliúcháin. Beidh aon roghanna nó athnuachan i gceist leis sin.</entry>
+<entry key="field|description|OPA-36-Part-Unit">An tréimhse (mheasta) ó thús go deireadh an chonartha, an chreat‑chomhaontaithe, an chórais ceannaigh dhinimiciúil nó an chórais cáiliúcháin. Beidh aon roghanna nó athnuachan i gceist leis sin.</entry>
 <entry key="field|description|OPA-98-Lot-Number">An tréimhse, ón spriocdháta le tairiscintí a chur isteach ar aghaidh, nach mór do thairiscintí a bheith bailí.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">An tréimhse, ón spriocdháta le tairiscintí a chur isteach ar aghaidh, nach mór do thairiscintí a bheith bailí.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">An dlí is infheidhme má bhaineann an soláthar le ceannaitheoirí ó thíortha éagsúla</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Is féidir leis an réimse seo sonraíochtaí na tairisceana a chur in iúl</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Roghnaigh foras eisiaimh amháin nó níos mó</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Líon isteach na dátaí faid NÓ an tréimhse faid</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Líon isteach na dátaí faid NÓ an tréimhse faid</entry>
 <entry key="field|hint|OPA-36-Part-Number">Líon isteach na dátaí faid NÓ an tréimhse faid</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Líon isteach na dátaí faid NÓ an tréimhse faid</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Ar dtús, cruthaigh an eagraíocht sa roinn ‘Eagraíochtaí’, agus ansin roghnaigh sa liosta anuas í.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Luach na gconarthaí go léir a dámhadh sa nós imeachta seo</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Luach measta gan CBL a áireamh</entry>
 <entry key="field|name|OPA-36-Lot-Number">Fad</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Fad</entry>
 <entry key="field|name|OPA-36-Part-Number">Fad</entry>
+<entry key="field|name|OPA-36-Part-Unit">Fad</entry>
 <entry key="field|name|OPA-98-Lot-Number">An spriocdháta ar ar gá don tairiscint a bheith fós bailí</entry>
+<entry key="field|name|OPA-98-Lot-Unit">An spriocdháta ar ar gá don tairiscint a bheith fós bailí</entry>
 <entry key="field|name|OPP-010-notice">Uimhir foilseacháin an fhógra</entry>
 <entry key="field|name|OPP-011-notice">Uimhir eagráin IO S</entry>
 <entry key="field|name|OPP-012-notice">Dáta foilsithe</entry>
