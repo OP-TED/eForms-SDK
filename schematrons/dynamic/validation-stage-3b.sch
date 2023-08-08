@@ -1379,9 +1379,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:NoticeDocumentReference/cbc:ID/@schemeName">
 		<assert id="BR-OPT-00100-0062" role="ERROR" test="normalize-space(.) = ('notice-id-ref', 'ojs-notice-id')">rule|text|BR-OPT-00100-0062</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-allowed']/cbc:SubcontractingConditionsCode">
-		<assert id="BR-OPT-00150-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-OPT-00150-0052</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics/efbc:StatisticsCode">
 		<assert id="BR-OPT-00155-0052" role="ERROR" test="normalize-space(.) = ('vehicles', 'vehicles-clean', 'vehicles-zero-emission')">rule|text|BR-OPT-00155-0052</assert>
 	</rule>

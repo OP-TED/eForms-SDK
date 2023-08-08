@@ -310,9 +310,6 @@
 		<assert id="OPT-301-Lot-TenderEval_R" role="ERROR" diagnostics="OPT-301-Lot-TenderEval" test="count(cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-Lot-TenderEval_R</assert>
 		<assert id="OPT-301-Lot-TenderReceipt_R" role="ERROR" diagnostics="ND-LotTenderingTerms_OPT-301-Lot-TenderReceipt" test="count(cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-Lot-TenderReceipt_R</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-allowed']">
-		<assert id="OPT-150-Lot_R" role="ERROR" diagnostics="OPT-150-Lot" test="count(cbc:SubcontractingConditionsCode) &lt; 2">rule|text|OPT-150-Lot_R</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-obligation']">
 		<assert id="BT-64-Lot_R" role="ERROR" diagnostics="BT-64-Lot" test="count(cbc:MinimumPercent) &lt; 2">rule|text|BT-64-Lot_R</assert>
 		<assert id="BT-65-Lot_R" role="ERROR" diagnostics="BT-65-Lot" test="count(cbc:SubcontractingConditionsCode) &lt; 2">rule|text|BT-65-Lot_R</assert>

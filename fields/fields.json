@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.226",
-    "createdOn" : "2023-07-28T15:56:57"
+    "version" : "1.8.233",
+    "createdOn" : "2023-08-08T11:17:52"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -410,13 +410,6 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms",
     "xpathRelative" : "cac:TenderingTerms",
     "xsdSequenceOrder" : [ { "cac:TenderingTerms" : 8 } ],
-    "repeatable" : false
-  }, {
-    "id" : "ND-AllowedSubcontracting",
-    "parentId" : "ND-LotTenderingTerms",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-allowed']",
-    "xpathRelative" : "cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-allowed']",
-    "xsdSequenceOrder" : [ { "cac:AllowedSubcontractTerms" : 36 } ],
     "repeatable" : false
   }, {
     "id" : "ND-SubcontractingObligation",
@@ -35679,61 +35672,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    }
-  }, {
-    "id" : "OPT-150-Lot",
-    "parentNodeId" : "ND-AllowedSubcontracting",
-    "name" : "Subcontracting Allowed",
-    "btId" : "OPT-150",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-allowed']/cbc:SubcontractingConditionsCode",
-    "xpathRelative" : "cbc:SubcontractingConditionsCode",
-    "xsdSequenceOrder" : [ { "cbc:SubcontractingConditionsCode" : 6 } ],
-    "type" : "code",
-    "attributes" : [ "OPT-150-Lot-List" ],
-    "repeatable" : {
-      "value" : false,
-      "severity" : "ERROR"
-    },
-    "forbidden" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "CEI" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "codeList" : {
-      "value" : {
-        "id" : "indicator",
-        "type" : "flat"
-      },
-      "severity" : "ERROR"
-    }
-  }, {
-    "id" : "OPT-150-Lot-List",
-    "parentNodeId" : "ND-AllowedSubcontracting",
-    "name" : "Subcontracting Allowed Listname",
-    "btId" : "OPT-150",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-allowed']/cbc:SubcontractingConditionsCode/@listName",
-    "xpathRelative" : "cbc:SubcontractingConditionsCode/@listName",
-    "xsdSequenceOrder" : [ { "cbc:SubcontractingConditionsCode" : 6 } ],
-    "type" : "text",
-    "attributeName" : "listName",
-    "attributeOf" : "OPT-150-Lot",
-    "presetValue" : "indicator",
-    "repeatable" : {
-      "value" : false,
-      "severity" : "ERROR"
     }
   }, {
     "id" : "OPT-155-LotResult",

@@ -958,7 +958,6 @@
 		<diagnostic id="OPT-130-Part-EmployLegis" see="field:OPT-130-Part-EmployLegis">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="OPT-140-Lot" see="field:OPT-140-Lot">cbc:ID</diagnostic>
 		<diagnostic id="OPT-140-Part" see="field:OPT-140-Part">cbc:ID</diagnostic>
-		<diagnostic id="OPT-150-Lot" see="field:OPT-150-Lot">cbc:SubcontractingConditionsCode</diagnostic>
 		<diagnostic id="OPT-155-LotResult" see="field:OPT-155-LotResult">efbc:StatisticsCode</diagnostic>
 		<diagnostic id="OPT-156-LotResult" see="field:OPT-156-LotResult">efbc:StatisticsNumeric</diagnostic>
 		<diagnostic id="OPT-160-UBO" see="field:OPT-160-UBO">cbc:FirstName</diagnostic>

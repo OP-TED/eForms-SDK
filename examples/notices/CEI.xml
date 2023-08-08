@@ -272,10 +272,6 @@ Applicants must provide evidence of their ability, skills, experience and compet
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>-->
-			<cac:AllowedSubcontractTerms>
-				<!-- New codelist, always false for CEI? -->
-				<cbc:SubcontractingConditionsCode listName="subcontracting-allowed">false</cbc:SubcontractingConditionsCode>
-			</cac:AllowedSubcontractTerms>
 			<cac:ContractExecutionRequirement>
 				<cbc:ExecutionRequirementCode listName="reserved-execution">not-known</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
