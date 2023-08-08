@@ -713,7 +713,7 @@
     "xsdSequenceOrder" : [ { "cac:PaymentTerms" : 34 } ],
     "repeatable" : false
   }, {
-    "id" : "ND-PostAwarProcess",
+    "id" : "ND-PostAwardProcess",
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess",
     "xpathRelative" : "cac:PostAwardProcess",
@@ -33068,7 +33068,7 @@
     }
   }, {
     "id" : "BT-92-Lot",
-    "parentNodeId" : "ND-PostAwarProcess",
+    "parentNodeId" : "ND-PostAwardProcess",
     "name" : "Electronic Ordering",
     "btId" : "BT-92",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess/cbc:ElectronicOrderUsageIndicator",
@@ -33107,7 +33107,7 @@
     }
   }, {
     "id" : "BT-93-Lot",
-    "parentNodeId" : "ND-PostAwarProcess",
+    "parentNodeId" : "ND-PostAwardProcess",
     "name" : "Electronic Payment",
     "btId" : "BT-93",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:PostAwardProcess/cbc:ElectronicPaymentUsageIndicator",

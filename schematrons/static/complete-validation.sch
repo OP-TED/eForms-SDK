@@ -819,7 +819,7 @@
 		<diagnostic id="ND-Participants" see="node:ND-Participants">cac:EconomicOperatorShortList</diagnostic>
 		<diagnostic id="ND-Participants_BT-47-Lot" see="field:BT-47-Lot">cac:PreSelectedParty/cac:PartyName/cbc:Name</diagnostic>
 		<diagnostic id="ND-PaymentTerms" see="node:ND-PaymentTerms">cac:PaymentTerms</diagnostic>
-		<diagnostic id="ND-PostAwarProcess" see="node:ND-PostAwarProcess">cac:PostAwardProcess</diagnostic>
+		<diagnostic id="ND-PostAwardProcess" see="node:ND-PostAwardProcess">cac:PostAwardProcess</diagnostic>
 		<diagnostic id="ND-Prize" see="node:ND-Prize">cac:Prize</diagnostic>
 		<diagnostic id="ND-ProcedureAcceleratedUnpublish" see="node:ND-ProcedureAcceleratedUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-ProcedurePlacePerformanceAdditionalInformation" see="node:ND-ProcedurePlacePerformanceAdditionalInformation">cac:RealizedLocation</diagnostic>
