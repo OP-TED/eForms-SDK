@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Hodnota všetkých zákaziek zadaných v tomto oznámení vrátane opcií a obnovení.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Predpokladaná hodnota postupu verejného obstarávania alebo jeho časti počas celej dĺžky jeho trvania, vrátane opcií a obnovení.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Dĺžka trvania (predpokladaná) od začiatku do konca platnosti zmluvy, rámcovej dohody, dynamického nákupného systému alebo kvalifikačného systému vrátane všetkých opcií a obnovení.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Dĺžka trvania (predpokladaná) od začiatku do konca platnosti zmluvy, rámcovej dohody, dynamického nákupného systému alebo kvalifikačného systému vrátane všetkých opcií a obnovení.</entry>
 <entry key="field|description|OPA-36-Part-Number">Dĺžka trvania (predpokladaná) od začiatku do konca platnosti zmluvy, rámcovej dohody, dynamického nákupného systému alebo kvalifikačného systému vrátane všetkých opcií a obnovení.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Dĺžka trvania (predpokladaná) od začiatku do konca platnosti zmluvy, rámcovej dohody, dynamického nákupného systému alebo kvalifikačného systému vrátane všetkých opcií a obnovení.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Obdobie plynúce od lehoty na predkladanie ponúk, počas ktorého musia zostať ponuky platné.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Obdobie plynúce od lehoty na predkladanie ponúk, počas ktorého musia zostať ponuky platné.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Rozhodné právo, ak obstarávanie zahŕňa kupujúcich z rôznych krajín</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Toto pole môže poukazovať na špecifikácie ponuky.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Vyberte jeden alebo viacero dôvodov na vylúčenie</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Vyplňte buď dátumy trvania ALEBO obdobie trvania</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Vyplňte buď dátumy trvania ALEBO obdobie trvania</entry>
 <entry key="field|hint|OPA-36-Part-Number">Vyplňte buď dátumy trvania ALEBO obdobie trvania</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Vyplňte buď dátumy trvania ALEBO obdobie trvania</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Najprv vytvorte organizáciu v časti „Organizácie“, potom ju vyberte v rozbaľovacom zozname.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Hodnota všetkých zákaziek zadaných v tomto postupe</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Predpokladaná hodnota bez DPH</entry>
 <entry key="field|name|OPA-36-Lot-Number">Trvanie</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Trvanie</entry>
 <entry key="field|name|OPA-36-Part-Number">Trvanie</entry>
+<entry key="field|name|OPA-36-Part-Unit">Trvanie</entry>
 <entry key="field|name|OPA-98-Lot-Number">Lehota, dokedy ponuka musí zostať platná</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Lehota, dokedy ponuka musí zostať platná</entry>
 <entry key="field|name|OPP-010-notice">Číslo uverejnenia oznámenia</entry>
 <entry key="field|name|OPP-011-notice">Číslo vydania série S úradného vestníka</entry>
 <entry key="field|name|OPP-012-notice">Dátum uverejnenia</entry>

@@ -1,6 +1,6 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.3.4",
+  "sdkVersion" : "eforms-sdk-1.3.5",
   "metadataDatabase" : {
     "version" : "1.3.16",
     "createdOn" : "2022-11-17T14:17:30"
@@ -1583,7 +1583,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${((BT-01-notice == '32014L0023') and (BT-02-notice in ('pin-cfc-social','cn-standard','veat','can-standard','can-social'))) or not(BT-01-notice == '32014L0023')}",
+        "value" : "{ND-Root} ${((BT-01-notice == '32014L0023') and (BT-02-notice in ('pin-cfc-social','cn-standard','veat','can-standard','can-social','can-modif'))) or not(BT-01-notice == '32014L0023')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00002-0100"
       }, {

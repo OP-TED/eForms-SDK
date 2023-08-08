@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Der Wert aller im Rahmen dieser Bekanntmachung vergebenen Aufträge, einschließlich der Optionen und Verlängerungen.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Der geschätzte Wert des Vergabeverfahrens oder Loses während der gesamten Laufzeit, einschließlich der Optionen und Verlängerungen, als Auftrag vergeben werden kann.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Angaben zur (voraussichtlichen) Laufzeitdauer des Vertrags, der Rahmenvereinbarung, des dynamischen Beschaffungssystems oder des Qualifizierungssystems vom Beginn bis zum Ende. Dies umfasst etwaige Optionen und Verlängerungen.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Angaben zur (voraussichtlichen) Laufzeitdauer des Vertrags, der Rahmenvereinbarung, des dynamischen Beschaffungssystems oder des Qualifizierungssystems vom Beginn bis zum Ende. Dies umfasst etwaige Optionen und Verlängerungen.</entry>
 <entry key="field|description|OPA-36-Part-Number">Angaben zur (voraussichtlichen) Laufzeitdauer des Vertrags, der Rahmenvereinbarung, des dynamischen Beschaffungssystems oder des Qualifizierungssystems vom Beginn bis zum Ende. Dies umfasst etwaige Optionen und Verlängerungen.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Angaben zur (voraussichtlichen) Laufzeitdauer des Vertrags, der Rahmenvereinbarung, des dynamischen Beschaffungssystems oder des Qualifizierungssystems vom Beginn bis zum Ende. Dies umfasst etwaige Optionen und Verlängerungen.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Der vorgeschriebene Zeitraum der Gültigkeit der Angebote, gerechnet ab der Frist für die Einreichung von Angeboten.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Der vorgeschriebene Zeitraum der Gültigkeit der Angebote, gerechnet ab der Frist für die Einreichung von Angeboten.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Anwendbares Recht, wenn an der Beschaffung Beschaffer aus verschiedenen Ländern beteiligt sind</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">In diesem Feld kann auf die Leistungsbeschreibung verwiesen werden.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Wählen Sie einen oder mehrere Ausschlussgründe aus</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Geben Sie entweder die Laufzeitdaten ODER die Dauer an.</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Geben Sie entweder die Laufzeitdaten ODER die Dauer an.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Geben Sie entweder die Laufzeitdaten ODER die Dauer an.</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Geben Sie entweder die Laufzeitdaten ODER die Dauer an.</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Erstellen Sie zunächst die Organisation im Abschnitt „Organisationen“ und wählen Sie sie dann in der Dropdown-Liste aus.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Wert aller im Rahmen dieses Verfahrens vergebenen Aufträge</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Geschätzter Wert ohne MwSt.</entry>
 <entry key="field|name|OPA-36-Lot-Number">Dauer</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Dauer</entry>
 <entry key="field|name|OPA-36-Part-Number">Dauer</entry>
+<entry key="field|name|OPA-36-Part-Unit">Dauer</entry>
 <entry key="field|name|OPA-98-Lot-Number">Frist, bis zu der das Angebot gültig sein muss</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Frist, bis zu der das Angebot gültig sein muss</entry>
 <entry key="field|name|OPP-010-notice">Veröffentlichungsnummer der Bekanntmachung</entry>
 <entry key="field|name|OPP-011-notice">ABl. S – Nummer der Ausgabe</entry>
 <entry key="field|name|OPP-012-notice">Datum der Veröffentlichung</entry>
