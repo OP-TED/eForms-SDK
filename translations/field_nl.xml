@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">De waarde van alle in deze aankondiging gegunde opdrachten, met inbegrip van opties en verlengingen.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">De geraamde waarde van de aanbestedingsprocedure of het perceel gedurende de gehele looptijd ervan, met inbegrip van opties en verlengingen.</entry>
 <entry key="field|description|OPA-36-Lot-Number">De (geraamde) tijdsduur vanaf het begin tot het einde van het contract, de raamovereenkomst, het dynamisch aankoopsysteem of de erkenningsregeling. Hierbij moeten alle eventuele opties en verlengingen worden meegeteld.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">De (geraamde) tijdsduur vanaf het begin tot het einde van het contract, de raamovereenkomst, het dynamisch aankoopsysteem of de erkenningsregeling. Hierbij moeten alle eventuele opties en verlengingen worden meegeteld.</entry>
 <entry key="field|description|OPA-36-Part-Number">De (geraamde) tijdsduur vanaf het begin tot het einde van het contract, de raamovereenkomst, het dynamisch aankoopsysteem of de erkenningsregeling. Hierbij moeten alle eventuele opties en verlengingen worden meegeteld.</entry>
+<entry key="field|description|OPA-36-Part-Unit">De (geraamde) tijdsduur vanaf het begin tot het einde van het contract, de raamovereenkomst, het dynamisch aankoopsysteem of de erkenningsregeling. Hierbij moeten alle eventuele opties en verlengingen worden meegeteld.</entry>
 <entry key="field|description|OPA-98-Lot-Number">De termijn, gerekend vanaf de uiterste datum voor de indiening van inschrijvingen, gedurende welke de inschrijvingen geldig moeten blijven.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">De termijn, gerekend vanaf de uiterste datum voor de indiening van inschrijvingen, gedurende welke de inschrijvingen geldig moeten blijven.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Het toepasselijke recht indien bij de aanbesteding kopers uit verschillende landen betrokken zijn</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Dit veld kan verwijzen naar het bestek.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Selecteer een of meer uitsluitingsgronden</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Vul de data van de looptijd of de looptijd in</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Vul de data van de looptijd of de looptijd in</entry>
 <entry key="field|hint|OPA-36-Part-Number">Vul de data van de looptijd of de looptijd in</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Vul de data van de looptijd of de looptijd in</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Maak eerst de organisatie aan in de rubriek „Organisaties” en selecteer deze in de vervolgkeuzelijst.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Waarde van alle in het kader van deze procedure gegunde opdrachten</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Geraamde waarde exclusief btw</entry>
 <entry key="field|name|OPA-36-Lot-Number">Duur</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Duur</entry>
 <entry key="field|name|OPA-36-Part-Number">Duur</entry>
+<entry key="field|name|OPA-36-Part-Unit">Duur</entry>
 <entry key="field|name|OPA-98-Lot-Number">Uiterste datum tot wanneer de inschrijving geldig moet blijven</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Uiterste datum tot wanneer de inschrijving geldig moet blijven</entry>
 <entry key="field|name|OPP-010-notice">Publicatienummer aankondiging</entry>
 <entry key="field|name|OPP-011-notice">Nummer uitgave PB S</entry>
 <entry key="field|name|OPP-012-notice">Datum van bekendmaking</entry>

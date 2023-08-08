@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Visų šiuo skelbimu skiriamų sutarčių, įskaitant pasirinkimo galimybes ir atnaujinimus, vertė.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Numatoma pirkimo procedūros ar pirkimo dalies vertė per visą jos galiojimo trukmę, įskaitant pasirinkimo galimybes ir atnaujinimus.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Laikotarpis (numatomas) nuo sutarties, preliminariosios sutarties, dinaminės pirkimo sistemos arba kvalifikacijos vertinimo sistemos galiojimo pradžios iki pabaigos. Galiojimo trukmė turi apimti visas pasirinkimo galimybes ir atnaujinimus.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Laikotarpis (numatomas) nuo sutarties, preliminariosios sutarties, dinaminės pirkimo sistemos arba kvalifikacijos vertinimo sistemos galiojimo pradžios iki pabaigos. Galiojimo trukmė turi apimti visas pasirinkimo galimybes ir atnaujinimus.</entry>
 <entry key="field|description|OPA-36-Part-Number">Laikotarpis (numatomas) nuo sutarties, preliminariosios sutarties, dinaminės pirkimo sistemos arba kvalifikacijos vertinimo sistemos galiojimo pradžios iki pabaigos. Galiojimo trukmė turi apimti visas pasirinkimo galimybes ir atnaujinimus.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Laikotarpis (numatomas) nuo sutarties, preliminariosios sutarties, dinaminės pirkimo sistemos arba kvalifikacijos vertinimo sistemos galiojimo pradžios iki pabaigos. Galiojimo trukmė turi apimti visas pasirinkimo galimybes ir atnaujinimus.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Laikotarpis skaičiuojamas nuo pasiūlymo pateikimo termino, kurį pasiūlymas turi likti galioti.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Laikotarpis skaičiuojamas nuo pasiūlymo pateikimo termino, kurį pasiūlymas turi likti galioti.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Taikytina teisė, jei viešuosiuose pirkimuose dalyvauja pirkėjai iš skirtingų šalių</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Šiame laukelyje galima nurodyti konkurso specifikacijas</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Pasirinkite vieną ar kelis pašalinimo pagrindus</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Įrašykite arba trukmės datas ARBA trukmės laikotarpį</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Įrašykite arba trukmės datas ARBA trukmės laikotarpį</entry>
 <entry key="field|hint|OPA-36-Part-Number">Įrašykite arba trukmės datas ARBA trukmės laikotarpį</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Įrašykite arba trukmės datas ARBA trukmės laikotarpį</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Pirmiausia sukurkite organizaciją skyriuje „Organizacijos“, tada pasirinkite ją išskleidžiamajame sąraše.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Visų pagal šią procedūrą skiriamų sutarčių vertė</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Numatoma vertė be PVM</entry>
 <entry key="field|name|OPA-36-Lot-Number">Galiojimas</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Galiojimas</entry>
 <entry key="field|name|OPA-36-Part-Number">Galiojimas</entry>
+<entry key="field|name|OPA-36-Part-Unit">Galiojimas</entry>
 <entry key="field|name|OPA-98-Lot-Number">Terminas, iki kurio pasiūlymas turi galioti</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Terminas, iki kurio pasiūlymas turi galioti</entry>
 <entry key="field|name|OPP-010-notice">Skelbimo paskelbimo numeris</entry>
 <entry key="field|name|OPP-011-notice">OL S numeris</entry>
 <entry key="field|name|OPP-012-notice">Paskelbimo data</entry>

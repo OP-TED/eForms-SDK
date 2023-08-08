@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Il-valur tal-kuntratti kollha mogħtija f’dan l-avviż, inkluż l-opzjonijiet u t-tiġdid.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Il-valur stmat tal-proċedura ta’ akkwist jew tal-lott, tul id-durata kollha tiegħu, inkluż l-opzjonijiet u t-tiġdid.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Il-perjodu (stmat) mill-bidu sat-tmiem tal-kuntratt, tal-ftehim qafas, tas-sistema dinamika ta’ xiri jew tas-sistema ta’ kwalifika. Għandu jinkludi kwalunkwe opzjoni u tiġdid.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Il-perjodu (stmat) mill-bidu sat-tmiem tal-kuntratt, tal-ftehim qafas, tas-sistema dinamika ta’ xiri jew tas-sistema ta’ kwalifika. Għandu jinkludi kwalunkwe opzjoni u tiġdid.</entry>
 <entry key="field|description|OPA-36-Part-Number">Il-perjodu (stmat) mill-bidu sat-tmiem tal-kuntratt, tal-ftehim qafas, tas-sistema dinamika ta’ xiri jew tas-sistema ta’ kwalifika. Għandu jinkludi kwalunkwe opzjoni u tiġdid.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Il-perjodu (stmat) mill-bidu sat-tmiem tal-kuntratt, tal-ftehim qafas, tas-sistema dinamika ta’ xiri jew tas-sistema ta’ kwalifika. Għandu jinkludi kwalunkwe opzjoni u tiġdid.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Il-perjodu, mill-iskadenza għat-tressiq tal-offerti, li fih l-offerti jridu jibqgħu validi.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Il-perjodu, mill-iskadenza għat-tressiq tal-offerti, li fih l-offerti jridu jibqgħu validi.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Il-liġi applikabbli jekk l-akkwist jinvolvi xerrejja minn pajjiżi differenti</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Dan il-qasam jista’ jindika l-ispeċifikazzjonijiet tal-offerta</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Agħżel raġuni waħda jew aktar għall-esklużjoni</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Imla jew id-dati tad-durata JEW il-perjodu ta’ durata</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Imla jew id-dati tad-durata JEW il-perjodu ta’ durata</entry>
 <entry key="field|hint|OPA-36-Part-Number">Imla jew id-dati tad-durata JEW il-perjodu ta’ durata</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Imla jew id-dati tad-durata JEW il-perjodu ta’ durata</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">L-ewwel Oħloq l-organizzazzjoni fit-taqsima “Organizzazzjonijiet”, imbagħad għażilha fil-lista li tinżel.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Valur tal-kuntratti kollha mogħtija f’din il-proċedura</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Valur stmat mingħajr VAT</entry>
 <entry key="field|name|OPA-36-Lot-Number">Tul ta’ żmien</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Tul ta’ żmien</entry>
 <entry key="field|name|OPA-36-Part-Number">Tul ta’ żmien</entry>
+<entry key="field|name|OPA-36-Part-Unit">Tul ta’ żmien</entry>
 <entry key="field|name|OPA-98-Lot-Number">Skadenza sa meta l-offerta trid tibqa’ valida</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Skadenza sa meta l-offerta trid tibqa’ valida</entry>
 <entry key="field|name|OPP-010-notice">Numru tal-pubblikazzjoni tal-avviż</entry>
 <entry key="field|name|OPP-011-notice">Numru tal-ħarġa tal-ĠU S</entry>
 <entry key="field|name|OPP-012-notice">Data tal-pubblikazzjoni</entry>

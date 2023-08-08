@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Kaikkien tämän ilmoituksen puitteissa tehtyjen hankintasopimusten arvo, mukaan lukien optiot ja uusimiset.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Hankintamenettelyn tai erän arvioitu arvo sen koko keston aikana, mukaan lukien optiot ja uusimiset.</entry>
 <entry key="field|description|OPA-36-Lot-Number">(Arvioitu) jakso hankintasopimuksen, puitejärjestelyn, dynaamisen hankintajärjestelmän tai kelpuuttamisjärjestelmän alusta sen päättymiseen. Tähän on sisällyttävä mahdolliset optiot ja uusimiset.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">(Arvioitu) jakso hankintasopimuksen, puitejärjestelyn, dynaamisen hankintajärjestelmän tai kelpuuttamisjärjestelmän alusta sen päättymiseen. Tähän on sisällyttävä mahdolliset optiot ja uusimiset.</entry>
 <entry key="field|description|OPA-36-Part-Number">(Arvioitu) jakso hankintasopimuksen, puitejärjestelyn, dynaamisen hankintajärjestelmän tai kelpuuttamisjärjestelmän alusta sen päättymiseen. Tähän on sisällyttävä mahdolliset optiot ja uusimiset.</entry>
+<entry key="field|description|OPA-36-Part-Unit">(Arvioitu) jakso hankintasopimuksen, puitejärjestelyn, dynaamisen hankintajärjestelmän tai kelpuuttamisjärjestelmän alusta sen päättymiseen. Tähän on sisällyttävä mahdolliset optiot ja uusimiset.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Aika, joka tarjousten on oltava voimassa niiden jättämiselle asetetusta määräajasta alkaen.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Aika, joka tarjousten on oltava voimassa niiden jättämiselle asetetusta määräajasta alkaen.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Sovellettava lainsäädäntö, jos hankintaan osallistuu ostajia eri maista</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Tässä kentässä voidaan viitata tarjouseritelmään</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Valitse yksi tai useampi poissulkemisperuste</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Täytä joko kestopäivämäärät TAI kestoaika</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Täytä joko kestopäivämäärät TAI kestoaika</entry>
 <entry key="field|hint|OPA-36-Part-Number">Täytä joko kestopäivämäärät TAI kestoaika</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Täytä joko kestopäivämäärät TAI kestoaika</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Luo organisaatio ensin osioon ”Organisaatiot” ja valitse se pudotusvalikosta.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Kaikkien tässä menettelyssä tehtyjen hankintasopimusten arvo</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Arvioitu arvo ilman arvonlisäveroa</entry>
 <entry key="field|name|OPA-36-Lot-Number">Kesto</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Kesto</entry>
 <entry key="field|name|OPA-36-Part-Number">Kesto</entry>
+<entry key="field|name|OPA-36-Part-Unit">Kesto</entry>
 <entry key="field|name|OPA-98-Lot-Number">Määräaika, johon asti tarjouksen on oltava voimassa</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Määräaika, johon asti tarjouksen on oltava voimassa</entry>
 <entry key="field|name|OPP-010-notice">Ilmoituksen julkaisunumero</entry>
 <entry key="field|name|OPP-011-notice">EUVL S -lehden numero</entry>
 <entry key="field|name|OPP-012-notice">Julkaisupäivä</entry>

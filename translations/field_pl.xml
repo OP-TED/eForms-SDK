@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Wartość wszystkich zamówień udzielonych w ramach danego ogłoszenia, w tym opcji i wznowień.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Wartość szacunkowa postępowania o udzielenie zamówienia lub części zamówienia przez cały okres obowiązywania, z uwzględnieniem opcji i wznowień.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Długość (przewidywana) okresu obowiązywania, od początku do końca umowy, umowy ramowej, dynamicznego systemu zakupów lub systemu kwalifikowania. Obejmuje to wszelkie opcje i wznowienia.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Długość (przewidywana) okresu obowiązywania, od początku do końca umowy, umowy ramowej, dynamicznego systemu zakupów lub systemu kwalifikowania. Obejmuje to wszelkie opcje i wznowienia.</entry>
 <entry key="field|description|OPA-36-Part-Number">Długość (przewidywana) okresu obowiązywania, od początku do końca umowy, umowy ramowej, dynamicznego systemu zakupów lub systemu kwalifikowania. Obejmuje to wszelkie opcje i wznowienia.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Długość (przewidywana) okresu obowiązywania, od początku do końca umowy, umowy ramowej, dynamicznego systemu zakupów lub systemu kwalifikowania. Obejmuje to wszelkie opcje i wznowienia.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Okres, począwszy od terminu składania ofert, przez który oferty muszą pozostać ważne.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Okres, począwszy od terminu składania ofert, przez który oferty muszą pozostać ważne.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Prawo właściwe, jeżeli zamówienie dotyczy nabywców z różnych krajów</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">W tym polu można wskazać specyfikację istotnych warunków zamówienia.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Wybierz jedną lub kilka podstaw wykluczenia</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Proszę podać daty trwania LUB okres trwania</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Proszę podać daty trwania LUB okres trwania</entry>
 <entry key="field|hint|OPA-36-Part-Number">Proszę podać daty trwania LUB okres trwania</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Proszę podać daty trwania LUB okres trwania</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Najpierw należy utworzyć organizację w sekcji „Organizacje”, a następnie wybrać ją z rozwijanej listy.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Wartość wszystkich zamówień udzielonych w ramach tego postępowania</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Szacunkowa wartość bez VAT</entry>
 <entry key="field|name|OPA-36-Lot-Number">Okres obowiązywania</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Okres obowiązywania</entry>
 <entry key="field|name|OPA-36-Part-Number">Okres obowiązywania</entry>
+<entry key="field|name|OPA-36-Part-Unit">Okres obowiązywania</entry>
 <entry key="field|name|OPA-98-Lot-Number">Termin, do którego oferta musi pozostać ważna</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Termin, do którego oferta musi pozostać ważna</entry>
 <entry key="field|name|OPP-010-notice">Numer publikacji ogłoszenia</entry>
 <entry key="field|name|OPP-011-notice">Numer wydania Dz.U. S</entry>
 <entry key="field|name|OPP-012-notice">Data publikacji</entry>
