@@ -424,7 +424,7 @@
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-obligation']",
     "xpathRelative" : "cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-obligation']",
     "xsdSequenceOrder" : [ { "cac:AllowedSubcontractTerms" : 36 } ],
-    "repeatable" : false
+    "repeatable" : true
   }, {
     "id" : "ND-LotReviewTerms",
     "parentId" : "ND-LotTenderingTerms",
