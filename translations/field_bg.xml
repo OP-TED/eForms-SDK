@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Стойността на всички поръчки, възложени съгласно това обявление, в т.ч. опциите и подновяванията.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Прогнозната стойност на средствата по процедурата за възлагане или обособената позиция, за целия ѝ срок на действие, в т.ч. опциите и подновяванията.</entry>
 <entry key="field|description|OPA-36-Lot-Number">(Прогнозният) размер на срока от началото до края на действието на договора, рамковото споразумение, динамичната система за покупки или квалификационната система. Тук се включват опциите и подновяванията.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">(Прогнозният) размер на срока от началото до края на действието на договора, рамковото споразумение, динамичната система за покупки или квалификационната система. Тук се включват опциите и подновяванията.</entry>
 <entry key="field|description|OPA-36-Part-Number">(Прогнозният) размер на срока от началото до края на действието на договора, рамковото споразумение, динамичната система за покупки или квалификационната система. Тук се включват опциите и подновяванията.</entry>
+<entry key="field|description|OPA-36-Part-Unit">(Прогнозният) размер на срока от началото до края на действието на договора, рамковото споразумение, динамичната система за покупки или квалификационната система. Тук се включват опциите и подновяванията.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Срокът на действие на офертите, който започва да тече от крайния срок за подаване на офертите.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Срокът на действие на офертите, който започва да тече от крайния срок за подаване на офертите.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Приложимото право, ако обществената поръчка включва купувачи от различни държави</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">В това поле може да се посочи тръжните спецификации.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Изберете едно или няколко основания за изключване</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Попълнете или датите на продължителността, ИЛИ периода на продължителност</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Попълнете или датите на продължителността, ИЛИ периода на продължителност</entry>
 <entry key="field|hint|OPA-36-Part-Number">Попълнете или датите на продължителността, ИЛИ периода на продължителност</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Попълнете или датите на продължителността, ИЛИ периода на продължителност</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Първо създайте организацията в раздел „Организации“, след което я изберете в падащ списък.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Стойност на всички поръчки, възложени в рамките на тази процедура</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Прогнозна стойност, без да се включва ДДС</entry>
 <entry key="field|name|OPA-36-Lot-Number">Продължителност</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Продължителност</entry>
 <entry key="field|name|OPA-36-Part-Number">Продължителност</entry>
+<entry key="field|name|OPA-36-Part-Unit">Продължителност</entry>
 <entry key="field|name|OPA-98-Lot-Number">Краен срок, до който търгът трябва да остане валиден</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Краен срок, до който търгът трябва да остане валиден</entry>
 <entry key="field|name|OPP-010-notice">Номер на публикуване на обявлението</entry>
 <entry key="field|name|OPP-011-notice">Номер на броя на ОВ S</entry>
 <entry key="field|name|OPP-012-notice">Дата на публикуване</entry>

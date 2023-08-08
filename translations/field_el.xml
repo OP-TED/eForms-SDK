@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Η αξία όλων των συμβάσεων που ανατίθενται με την παρούσα προκήρυξη/γνωστοποίηση, συμπεριλαμβανομένων των δικαιωμάτων προαίρεσης και των παρατάσεων.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Η εκτιμώμενη αξία της διαδικασίας σύναψης σύμβασης ή τμήματος για όλη τη διάρκειά της/του, συμπεριλαμβανομένων των δικαιωμάτων προαίρεσης και των παρατάσεων.</entry>
 <entry key="field|description|OPA-36-Lot-Number">Η (εκτιμώμενη) περίοδος από την έναρξη έως τη λήξη της σύμβασης, της συμφωνίας-πλαίσιο, του δυναμικού συστήματος αγορών ή του συστήματος προεπιλογής. Αυτό περιλαμβάνει τυχόν δικαιώματα προαίρεσης και παρατάσεις.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">Η (εκτιμώμενη) περίοδος από την έναρξη έως τη λήξη της σύμβασης, της συμφωνίας-πλαίσιο, του δυναμικού συστήματος αγορών ή του συστήματος προεπιλογής. Αυτό περιλαμβάνει τυχόν δικαιώματα προαίρεσης και παρατάσεις.</entry>
 <entry key="field|description|OPA-36-Part-Number">Η (εκτιμώμενη) περίοδος από την έναρξη έως τη λήξη της σύμβασης, της συμφωνίας-πλαίσιο, του δυναμικού συστήματος αγορών ή του συστήματος προεπιλογής. Αυτό περιλαμβάνει τυχόν δικαιώματα προαίρεσης και παρατάσεις.</entry>
+<entry key="field|description|OPA-36-Part-Unit">Η (εκτιμώμενη) περίοδος από την έναρξη έως τη λήξη της σύμβασης, της συμφωνίας-πλαίσιο, του δυναμικού συστήματος αγορών ή του συστήματος προεπιλογής. Αυτό περιλαμβάνει τυχόν δικαιώματα προαίρεσης και παρατάσεις.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Η περίοδος από την προθεσμία υποβολής προσφορών κατά την οποία οι προσφορές πρέπει να παραμείνουν σε ισχύ.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Η περίοδος από την προθεσμία υποβολής προσφορών κατά την οποία οι προσφορές πρέπει να παραμείνουν σε ισχύ.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Το εφαρμοστέο δίκαιο σε περίπτωση που στη σύμβαση συμμετέχουν αγοραστές από διαφορετικές χώρες</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Το πεδίο αυτό μπορεί να παραπέμπει στη συγγραφή υποχρεώσεων</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Επιλέξτε έναν ή περισσότερους λόγους αποκλεισμού</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Συμπληρώστε είτε τις ημερομηνίες διάρκειας είτε τη διάρκεια</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Συμπληρώστε είτε τις ημερομηνίες διάρκειας είτε τη διάρκεια</entry>
 <entry key="field|hint|OPA-36-Part-Number">Συμπληρώστε είτε τις ημερομηνίες διάρκειας είτε τη διάρκεια</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Συμπληρώστε είτε τις ημερομηνίες διάρκειας είτε τη διάρκεια</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Πρώτα δημιουργήστε τον οργανισμό στην ενότητα «Οργανισμοί» και στη συνέχεια επιλέξτε τον σε πτυσσόμενο κατάλογο.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Αξία όλων των συμβάσεων που ανατέθηκαν στο πλαίσιο της παρούσας διαδικασίας</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Εκτιμώμενη αξία χωρίς ΦΠΑ</entry>
 <entry key="field|name|OPA-36-Lot-Number">Διάρκεια</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Διάρκεια</entry>
 <entry key="field|name|OPA-36-Part-Number">Διάρκεια</entry>
+<entry key="field|name|OPA-36-Part-Unit">Διάρκεια</entry>
 <entry key="field|name|OPA-98-Lot-Number">Προθεσμία μέχρι την οποία η προσφορά πρέπει να παραμείνει σε ισχύ</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Προθεσμία μέχρι την οποία η προσφορά πρέπει να παραμείνει σε ισχύ</entry>
 <entry key="field|name|OPP-010-notice">Αριθμός δημοσίευσης της προκήρυξης</entry>
 <entry key="field|name|OPP-011-notice">Αριθμός τεύχους ΕΕ S</entry>
 <entry key="field|name|OPP-012-notice">Ημερομηνία δημοσίευσης</entry>
