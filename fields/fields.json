@@ -23015,15 +23015,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{ND-SecondStage} ${(BT-40-Lot == TRUE) or not(BT-51-Lot is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00051-0100"
-      } ]
     }
   }, {
     "id" : "BT-510(a)-Business",
