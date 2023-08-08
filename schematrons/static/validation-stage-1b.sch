@@ -535,18 +535,6 @@
 		<assert id="ND-ProcedurePlacePerformanceAdditionalInformation-T02" role="ERROR" diagnostics="ND-ProcedurePlacePerformanceAdditionalInformation" test="count(cac:RealizedLocation) = 0">rule|text|ND-ProcedurePlacePerformanceAdditionalInformation-T02</assert>
 		<assert id="ND-ProcedureValueEstimate-T02" role="ERROR" diagnostics="ND-ProcedureValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-ProcedureValueEstimate-T02</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '1']">
-		<assert id="ND-LotTenderingProcess-1" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-1</assert>
-		<assert id="ND-LotTenderingTerms-1" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) = 0">rule|text|ND-LotTenderingTerms-1</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '2']">
-		<assert id="ND-LotTenderingProcess-2" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-2</assert>
-		<assert id="ND-LotTenderingTerms-2" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) = 0">rule|text|ND-LotTenderingTerms-2</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '3']">
-		<assert id="ND-LotTenderingProcess-3" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-3</assert>
-		<assert id="ND-LotTenderingTerms-3" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) = 0">rule|text|ND-LotTenderingTerms-3</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '7']">
 		<assert id="ND-LotProcurementScope-7" role="ERROR" diagnostics="ND-LotProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-LotProcurementScope-7</assert>
 		<assert id="ND-LotTenderingProcess-7" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-LotTenderingProcess-7</assert>
@@ -716,24 +704,6 @@
 		<assert id="ND-LotProcurementScope-T02" role="ERROR" diagnostics="ND-LotProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-LotProcurementScope-T02</assert>
 		<assert id="ND-LotTenderingProcess-T02" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-T02</assert>
 		<assert id="ND-LotTenderingTerms-T02" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-LotTenderingTerms-T02</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '1']">
-		<assert id="ND-OptionsAndRenewals-1" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-1</assert>
-		<assert id="ND-LotDuration-1" role="ERROR" diagnostics="ND-LotDuration" test="count(cac:PlannedPeriod) = 0">rule|text|ND-LotDuration-1</assert>
-		<assert id="ND-LotPlacePerformance-1" role="ERROR" diagnostics="ND-LotPlacePerformance" test="count(cac:RealizedLocation) = 0">rule|text|ND-LotPlacePerformance-1</assert>
-		<assert id="ND-LotValueEstimate-1" role="ERROR" diagnostics="ND-LotValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-1</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '2']">
-		<assert id="ND-OptionsAndRenewals-2" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-2</assert>
-		<assert id="ND-LotDuration-2" role="ERROR" diagnostics="ND-LotDuration" test="count(cac:PlannedPeriod) = 0">rule|text|ND-LotDuration-2</assert>
-		<assert id="ND-LotPlacePerformance-2" role="ERROR" diagnostics="ND-LotPlacePerformance" test="count(cac:RealizedLocation) = 0">rule|text|ND-LotPlacePerformance-2</assert>
-		<assert id="ND-LotValueEstimate-2" role="ERROR" diagnostics="ND-LotValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-2</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '3']">
-		<assert id="ND-OptionsAndRenewals-3" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-3</assert>
-		<assert id="ND-LotDuration-3" role="ERROR" diagnostics="ND-LotDuration" test="count(cac:PlannedPeriod) = 0">rule|text|ND-LotDuration-3</assert>
-		<assert id="ND-LotPlacePerformance-3" role="ERROR" diagnostics="ND-LotPlacePerformance" test="count(cac:RealizedLocation) = 0">rule|text|ND-LotPlacePerformance-3</assert>
-		<assert id="ND-LotValueEstimate-3" role="ERROR" diagnostics="ND-LotValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-3</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '15']">
 		<assert id="ND-OptionsAndRenewals-15" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) &gt; 0">rule|text|ND-OptionsAndRenewals-15</assert>

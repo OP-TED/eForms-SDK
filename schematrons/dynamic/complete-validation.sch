@@ -684,7 +684,6 @@
 		<diagnostic id="ND-LotEmploymentLegislation" see="node:ND-LotEmploymentLegislation">cac:EmploymentLegislationDocumentReference</diagnostic>
 		<diagnostic id="ND-LotEnvironmentalLegislation" see="node:ND-LotEnvironmentalLegislation">cac:EnvironmentalLegislationDocumentReference</diagnostic>
 		<diagnostic id="ND-LotFiscalLegislation" see="node:ND-LotFiscalLegislation">cac:FiscalLegislationDocumentReference</diagnostic>
-		<diagnostic id="ND-LotPlacePerformance" see="node:ND-LotPlacePerformance">cac:RealizedLocation</diagnostic>
 		<diagnostic id="ND-LotPlacePerformance_BT-5071-Lot" see="field:BT-5071-Lot">cac:Address/cbc:CountrySubentityCode</diagnostic>
 		<diagnostic id="ND-LotPlacePerformance_BT-5101_a_-Lot" see="field:BT-5101(a)-Lot">cac:Address/cbc:StreetName</diagnostic>
 		<diagnostic id="ND-LotPlacePerformance_BT-5101_b_-Lot" see="field:BT-5101(b)-Lot">cac:Address/cbc:AdditionalStreetName</diagnostic>
