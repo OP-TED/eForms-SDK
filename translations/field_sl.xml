@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">Vrednost vseh naročil, oddanih v tem obvestilu, vključno z opcijami in podaljšanji.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">Ocenjena vrednost postopka za oddajo javnega naročila ali sklopa skozi celotno trajanje, vključno z opcijami in podaljšanji.</entry>
 <entry key="field|description|OPA-36-Lot-Number">(Predvideno) obdobje od začetka do konca naročila, okvirnega sporazuma, dinamičnega nabavnega sistema ali kvalifikacijskega sistema. Zajete so tudi opcije in podaljšanja.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">(Predvideno) obdobje od začetka do konca naročila, okvirnega sporazuma, dinamičnega nabavnega sistema ali kvalifikacijskega sistema. Zajete so tudi opcije in podaljšanja.</entry>
 <entry key="field|description|OPA-36-Part-Number">(Predvideno) obdobje od začetka do konca naročila, okvirnega sporazuma, dinamičnega nabavnega sistema ali kvalifikacijskega sistema. Zajete so tudi opcije in podaljšanja.</entry>
+<entry key="field|description|OPA-36-Part-Unit">(Predvideno) obdobje od začetka do konca naročila, okvirnega sporazuma, dinamičnega nabavnega sistema ali kvalifikacijskega sistema. Zajete so tudi opcije in podaljšanja.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Obdobje po poteku roka za predložitev, v katerem morajo ponudbe ostati veljavne.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">Obdobje po poteku roka za predložitev, v katerem morajo ponudbe ostati veljavne.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo, ki se uporablja, če javno naročilo vključuje kupce iz različnih držav</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">To polje je lahko v skladu z razpisnimi pogoji.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Izberite enega ali več razlogov za izključitev</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Vnesite datume trajanja ALI obdobje trajanja</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Vnesite datume trajanja ALI obdobje trajanja</entry>
 <entry key="field|hint|OPA-36-Part-Number">Vnesite datume trajanja ALI obdobje trajanja</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Vnesite datume trajanja ALI obdobje trajanja</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Najprej ustvarite organizacijo v razdelku „Organizacije“, nato jo izberite na spustnem seznamu.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Vrednost vseh javnih naročil, oddanih v tem postopku</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Ocenjena vrednost brez DDV</entry>
 <entry key="field|name|OPA-36-Lot-Number">Trajanje</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Trajanje</entry>
 <entry key="field|name|OPA-36-Part-Number">Trajanje</entry>
+<entry key="field|name|OPA-36-Part-Unit">Trajanje</entry>
 <entry key="field|name|OPA-98-Lot-Number">Rok, do katerega mora biti ponudba veljavna</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Rok, do katerega mora biti ponudba veljavna</entry>
 <entry key="field|name|OPP-010-notice">Številka objave obvestila</entry>
 <entry key="field|name|OPP-011-notice">Številka izdaje UL S</entry>
 <entry key="field|name|OPP-012-notice">Datum objave</entry>

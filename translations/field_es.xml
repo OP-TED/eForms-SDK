@@ -611,8 +611,11 @@
 <entry key="field|description|OPA-161-NoticeResult-Currency">El valor de todos los contratos adjudicados en el anuncio, incluidas las opciones y renovaciones.</entry>
 <entry key="field|description|OPA-27-Procedure-Currency">El valor estimado del procedimiento de contratación pública o del lote durante toda su duración, incluidas las opciones y las renovaciones.</entry>
 <entry key="field|description|OPA-36-Lot-Number">El período (estimado) desde el inicio hasta el final del contrato, acuerdo marco, sistema dinámico de adquisición o sistema de calificación. Incluirá todas las opciones y renovaciones.</entry>
+<entry key="field|description|OPA-36-Lot-Unit">El período (estimado) desde el inicio hasta el final del contrato, acuerdo marco, sistema dinámico de adquisición o sistema de calificación. Incluirá todas las opciones y renovaciones.</entry>
 <entry key="field|description|OPA-36-Part-Number">El período (estimado) desde el inicio hasta el final del contrato, acuerdo marco, sistema dinámico de adquisición o sistema de calificación. Incluirá todas las opciones y renovaciones.</entry>
+<entry key="field|description|OPA-36-Part-Unit">El período (estimado) desde el inicio hasta el final del contrato, acuerdo marco, sistema dinámico de adquisición o sistema de calificación. Incluirá todas las opciones y renovaciones.</entry>
 <entry key="field|description|OPA-98-Lot-Number">El período, a partir de la fecha límite de presentación de las ofertas, durante el cual las ofertas deben seguir siendo válidas.</entry>
+<entry key="field|description|OPA-98-Lot-Unit">El período, a partir de la fecha límite de presentación de las ofertas, durante el cual las ofertas deben seguir siendo válidas.</entry>
 <entry key="field|description|OPP-034-Tender">This field is about penalties and rewards</entry>
 <entry key="field|description|OPT-310-Tender">This field is for the ID of the tenderer organisation</entry>
 <entry key="field|hint|BT-09(a)-Procedure">La legislación aplicable si la contratación afecta a compradores de distintos países</entry>
@@ -629,7 +632,9 @@
 <entry key="field|hint|BT-543-LotsGroup">Este campo puede indicar el pliego de condiciones.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Seleccionar uno o varios motivos de exclusión</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Rellene las fechas de duración O el período de duración</entry>
+<entry key="field|hint|OPA-36-Lot-Unit">Rellene las fechas de duración O el período de duración</entry>
 <entry key="field|hint|OPA-36-Part-Number">Rellene las fechas de duración O el período de duración</entry>
+<entry key="field|hint|OPA-36-Part-Unit">Rellene las fechas de duración O el período de duración</entry>
 <entry key="field|hint|OPP-031-Tender">Please describe the contract conditions here</entry>
 <entry key="field|hint|OPP-034-Tender">Please describe the penalties and rewards here</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">En primer lugar, cree la organización en la sección «Organizaciones» y, a continuación, la seleccione en la lista desplegable.</entry>
@@ -1276,8 +1281,11 @@
 <entry key="field|name|OPA-161-NoticeResult-Currency">Valor de todos los contratos adjudicados en el presente procedimiento</entry>
 <entry key="field|name|OPA-27-Procedure-Currency">Valor estimado, IVA excluido</entry>
 <entry key="field|name|OPA-36-Lot-Number">Duración</entry>
+<entry key="field|name|OPA-36-Lot-Unit">Duración</entry>
 <entry key="field|name|OPA-36-Part-Number">Duración</entry>
+<entry key="field|name|OPA-36-Part-Unit">Duración</entry>
 <entry key="field|name|OPA-98-Lot-Number">Plazo en el que la oferta debe seguir siendo válida</entry>
+<entry key="field|name|OPA-98-Lot-Unit">Plazo en el que la oferta debe seguir siendo válida</entry>
 <entry key="field|name|OPP-010-notice">Número de publicación del anuncio</entry>
 <entry key="field|name|OPP-011-notice">Número de la edición del DO S</entry>
 <entry key="field|name|OPP-012-notice">Fecha de publicación</entry>
