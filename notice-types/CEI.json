@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.212",
-    "createdOn" : "2023-07-21T14:07:13"
+    "version" : "1.8.233",
+    "createdOn" : "2023-08-08T11:17:52"
   },
   "noticeId" : "CEI",
   "metadata" : [ {
@@ -904,39 +904,6 @@
           "displayType" : "COMBOBOX",
           "description" : "Performing Staff Qualification",
           "_label" : "field|name|BT-79-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-SubcontractTerms",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Subcontract Terms",
-        "_label" : "group|name|GR-Lot-SubcontractTerms",
-        "content" : [ {
-          "id" : "GR-Lot-Subcontract-Allowed",
-          "contentType" : "group",
-          "nodeId" : "ND-AllowedSubcontracting",
-          "displayType" : "GROUP",
-          "description" : "Condition on subcontractinng",
-          "_label" : "group|name|ND-AllowedSubcontracting",
-          "content" : [ {
-            "id" : "OPT-150-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Subcontracting Allowed",
-            "_label" : "field|name|OPT-150-Lot"
-          } ]
-        }, {
-          "id" : "BT-729-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Subcontracting Obligation Maximum",
-          "_label" : "field|name|BT-729-Lot"
-        }, {
-          "id" : "BT-64-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Subcontracting Obligation Minimum",
-          "_label" : "field|name|BT-64-Lot"
         } ]
       } ]
     }, {
