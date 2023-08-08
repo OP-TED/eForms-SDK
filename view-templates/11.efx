@@ -23,13 +23,13 @@
 			{BT-263-Procedure[BT-26(a)-Procedure == 'cpv']} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure} // Additional classification (CPV)
 			{BT-263-Procedure[BT-26(a)-Procedure != 'cpv']} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} // Additional classification (non-CPV)
 		2 {ND-ProcedurePlacePerformance} #{auxiliary|text|place-performance} // 2.1.2 Place of performance
-			{BT-5101(a)-Procedure} #{name|BT-510}: ${BT-5101(a)-Procedure} ${BT-5101(b)-Procedure} ${BT-5101(c)-Procedure} // Postal address
-			{BT-5131-Procedure} #{name|BT-5131}: $value // Town
-			{BT-5121-Procedure} #{name|BT-5121}: $value // Post Code
-			{BT-5071-Procedure} #{name|BT-5071}: #value ($value) // Country Subdivision
-			{BT-5141-Procedure} #{name|BT-5141}: #value // Country
-			{BT-727-Procedure} #value // Restrictions on the place of performance
-			{ND-ProcedurePlacePerformance[BT-728-Procedure is present]} #{name|BT-728}: ${BT-728-Procedure} // Additional information
+			{BT-5101(a)-Procedure} #{name|BT-510}: ${BT-5101(a)-Procedure} ${BT-5101(b)-Procedure} ${BT-5101(c)-Procedure} // Place Performance Postal address
+			{BT-5131-Procedure} #{name|BT-5131}: $value // Place Performance Town
+			{BT-5121-Procedure} #{name|BT-5121}: $value // Place Performance Post Code
+			{BT-5071-Procedure} #{name|BT-5071}: #value ($value) // Place Performance Country Subdivision
+			{BT-5141-Procedure} #{name|BT-5141}: #value // Place Performance Country
+			{BT-727-Procedure} #value // Place Performance Services Other
+			{ND-ProcedurePlacePerformance[BT-728-Procedure is present]} #{name|BT-728}: ${BT-728-Procedure} // Place Performance Additional information
 		3 {ND-ProcedureProcurementScope[(BT-27-Procedure is present) or (BT-271-Procedure is present)]} #{auxiliary|text|value} // 2.1.3 Value
 			{BT-27-Procedure} #{name|BT-27}: ${if (contains(string(BT-27-Procedure), ',')) then format-number(BT-27-Procedure, '###,##0.00') else format-number(BT-27-Procedure, '###,##0')} ${BT-27-Procedure/@currencyID} // Estimated value
 			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${if (contains(string(BT-271-Procedure), ',')) then format-number(BT-271-Procedure, '###,##0.00') else format-number(BT-271-Procedure, '###,##0')} ${BT-271-Procedure/@currencyID} // Estimated Framework Maximum Value
@@ -231,7 +231,6 @@
 8 {ND-Root} #{auxiliary|text|organisations} // 8. Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
 		{ND-Organization} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
-		{BT-165-Organization-Company} #{business-term|name|BT-165}: ${BT-165-Organization-Company} // Size of the economic operator
 		{BT-633-Organization[BT-633-Organization == TRUE]} #{business-term|name|BT-633} // The organisation is a natural person.
 		{BT-501-Organization-Company} #{name|BT-501}: $value // Organization Identifier
 		{BT-16-Organization-Company} #{name|BT-16}: $value // Organization Part Name

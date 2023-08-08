@@ -26,13 +26,13 @@
 			{BT-263-Procedure[BT-26(a)-Procedure == 'cpv']} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure} // Additional classification (CPV)
 			{BT-263-Procedure[BT-26(a)-Procedure != 'cpv']} #{name|BT-263} (${BT-26(a)-Procedure}): ${BT-263-Procedure} // Additional classification (non-CPV)
 		2 {ND-ProcedurePlacePerformance} #{auxiliary|text|place-performance} // 2.1.2 Place of performance
-			{BT-5101(a)-Procedure} #{name|BT-510}: ${BT-5101(a)-Procedure} ${BT-5101(b)-Procedure} ${BT-5101(c)-Procedure} // Postal address
-			{BT-5131-Procedure} #{name|BT-5131}: $value // Town
-			{BT-5121-Procedure} #{name|BT-5121}: $value // Post Code
-			{BT-5071-Procedure} #{name|BT-5071}: #value ($value) // Country Subdivision
-			{BT-5141-Procedure} #{name|BT-5141}: #value // Country
-			{BT-727-Procedure} #value // Restrictions on the place of performance
-			{ND-ProcedurePlacePerformance[BT-728-Procedure is present]} #{name|BT-728}: ${BT-728-Procedure} // Additional information
+			{BT-5101(a)-Procedure} #{name|BT-510}: ${BT-5101(a)-Procedure} ${BT-5101(b)-Procedure} ${BT-5101(c)-Procedure} // Place Performance Postal address
+			{BT-5131-Procedure} #{name|BT-5131}: $value // Place Performance Town
+			{BT-5121-Procedure} #{name|BT-5121}: $value // Place Performance Post Code
+			{BT-5071-Procedure} #{name|BT-5071}: #value ($value) // Place Performance Country Subdivision
+			{BT-5141-Procedure} #{name|BT-5141}: #value // Place Performance Country
+			{BT-727-Procedure} #value // Place Performance Services Other
+			{ND-ProcedurePlacePerformance[BT-728-Procedure is present]} #{name|BT-728}: ${BT-728-Procedure} // Place Performance Additional information
 		4 {ND-ProcedureProcurementScope[BT-01-notice is present]} #{auxiliary|text|general-information} // 2.1.4 General information
 			{ND-ProcedureProcurementScope[BT-300-Procedure is present]} #{name|BT-300}: ${BT-300-Procedure} // Additional information
 			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}: // Legal basis
