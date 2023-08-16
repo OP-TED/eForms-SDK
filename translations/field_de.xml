@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Titel der Bekanntmachung</entry>
 <entry key="field|name|OPP-122-Business">URL der Bekanntmachung</entry>
 <entry key="field|name|OPP-123-Business">Datum der Veröffentlichung der Bekanntmachung</entry>
+<entry key="field|name|OPP-124-Business">Ausgabe der Publikation</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Ausgabe der Publikation</entry>
 <entry key="field|name|OPP-130-Business">Zusätzliche Informationen</entry>
 <entry key="field|name|OPP-130-Business-Language">Zusätzliche Informationen</entry>
 <entry key="field|name|OPP-131-Business">E-Mail-Adresse des Absenders</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL zum Arbeitsrecht</entry>
 <entry key="field|name|OPT-140-Lot">Kennung – Auftragsunterlagen</entry>
 <entry key="field|name|OPT-140-Part">Kennung – Auftragsunterlagen</entry>
-<entry key="field|name|OPT-150-Lot">Die Vergabe von Unteraufträgen ist zulässig</entry>
-<entry key="field|name|OPT-150-Lot-List">Die Vergabe von Unteraufträgen ist zulässig</entry>
 <entry key="field|name|OPT-155-LotResult">Fahrzeugtyp</entry>
 <entry key="field|name|OPT-155-LotResult-List">Fahrzeugtyp</entry>
 <entry key="field|name|OPT-156-LotResult">Fahrzeug – numerisch</entry>

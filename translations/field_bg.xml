@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Заглавие на съобщението</entry>
 <entry key="field|name|OPP-122-Business">URL адрес на съобщението</entry>
 <entry key="field|name|OPP-123-Business">Дата на публикуване на обявлението</entry>
+<entry key="field|name|OPP-124-Business">Издание на публикацията</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Издание на публикацията</entry>
 <entry key="field|name|OPP-130-Business">Допълнителна информация</entry>
 <entry key="field|name|OPP-130-Business-Language">Допълнителна информация</entry>
 <entry key="field|name|OPP-131-Business">Електронен адрес на подателя</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL адрес на трудовото законодателство</entry>
 <entry key="field|name|OPT-140-Lot">Идентификатор — документация за поръчката</entry>
 <entry key="field|name|OPT-140-Part">Идентификатор — документация за поръчката</entry>
-<entry key="field|name|OPT-150-Lot">Допуска се възлагане на подизпълнители</entry>
-<entry key="field|name|OPT-150-Lot-List">Допуска се възлагане на подизпълнители</entry>
 <entry key="field|name|OPT-155-LotResult">Тип превозно средство</entry>
 <entry key="field|name|OPT-155-LotResult-List">Тип превозно средство</entry>
 <entry key="field|name|OPT-156-LotResult">Брой на превозните средства</entry>

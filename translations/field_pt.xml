@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Título do anúncio</entry>
 <entry key="field|name|OPP-122-Business">URL do anúncio</entry>
 <entry key="field|name|OPP-123-Business">Data de publicação do anúncio</entry>
+<entry key="field|name|OPP-124-Business">Edição da publicação</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Edição da publicação</entry>
 <entry key="field|name|OPP-130-Business">Informações adicionais</entry>
 <entry key="field|name|OPP-130-Business-Language">Informações adicionais</entry>
 <entry key="field|name|OPP-131-Business">Endereço eletrónico do remetente</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL para a legislação laboral</entry>
 <entry key="field|name|OPT-140-Lot">Identificador — Documentos do concurso</entry>
 <entry key="field|name|OPT-140-Part">Identificador — Documentos do concurso</entry>
-<entry key="field|name|OPT-150-Lot">É permitida a subcontratação</entry>
-<entry key="field|name|OPT-150-Lot-List">É permitida a subcontratação</entry>
 <entry key="field|name|OPT-155-LotResult">Modelo de veículo</entry>
 <entry key="field|name|OPT-155-LotResult-List">Modelo de veículo</entry>
 <entry key="field|name|OPT-156-LotResult">Número do veículo</entry>

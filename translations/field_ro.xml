@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Titlul anunțului</entry>
 <entry key="field|name|OPP-122-Business">Adresa URL a anunțului</entry>
 <entry key="field|name|OPP-123-Business">Data publicării anunțului</entry>
+<entry key="field|name|OPP-124-Business">Ediția publicației</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Ediția publicației</entry>
 <entry key="field|name|OPP-130-Business">Informații suplimentare</entry>
 <entry key="field|name|OPP-130-Business-Language">Informații suplimentare</entry>
 <entry key="field|name|OPP-131-Business">Adresa de e-mail a expeditorului</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL pentru legislația muncii</entry>
 <entry key="field|name|OPT-140-Lot">Identificator - documente privind achiziția</entry>
 <entry key="field|name|OPT-140-Part">Identificator - documente privind achiziția</entry>
-<entry key="field|name|OPT-150-Lot">Subcontractarea este permisă</entry>
-<entry key="field|name|OPT-150-Lot-List">Subcontractarea este permisă</entry>
 <entry key="field|name|OPT-155-LotResult">Tip de vehicul</entry>
 <entry key="field|name|OPT-155-LotResult-List">Tip de vehicul</entry>
 <entry key="field|name|OPT-156-LotResult">Număr vehicul</entry>

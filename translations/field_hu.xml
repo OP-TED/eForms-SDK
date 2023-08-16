@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">A hirdetmény címe</entry>
 <entry key="field|name|OPP-122-Business">A hirdetmény webcíme</entry>
 <entry key="field|name|OPP-123-Business">A közzététel időpontja</entry>
+<entry key="field|name|OPP-124-Business">A kiadvány száma</entry>
+<entry key="field|name|OPP-124-Business-Scheme">A kiadvány száma</entry>
 <entry key="field|name|OPP-130-Business">További információk</entry>
 <entry key="field|name|OPP-130-Business-Language">További információk</entry>
 <entry key="field|name|OPP-131-Business">A feladó e-mail-címe</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">A foglalkoztatási szabályozás webcíme (URL)</entry>
 <entry key="field|name|OPT-140-Lot">Azonosító – Közbeszerzési dokumentumok</entry>
 <entry key="field|name|OPT-140-Part">Azonosító – Közbeszerzési dokumentumok</entry>
-<entry key="field|name|OPT-150-Lot">Az alvállalkozásba adás megengedett</entry>
-<entry key="field|name|OPT-150-Lot-List">Az alvállalkozásba adás megengedett</entry>
 <entry key="field|name|OPT-155-LotResult">Jármű típusa</entry>
 <entry key="field|name|OPT-155-LotResult-List">Jármű típusa</entry>
 <entry key="field|name|OPT-156-LotResult">Jármű – numerikus érték</entry>

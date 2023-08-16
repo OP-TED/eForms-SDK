@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.212",
-    "createdOn" : "2023-07-21T14:07:13"
+    "version" : "1.8.233",
+    "createdOn" : "2023-08-08T11:17:52"
   },
   "noticeId" : "13",
   "metadata" : [ {
@@ -1502,21 +1502,21 @@
             "description" : "Late Tenderer Information Description",
             "_label" : "field|name|BT-772-Lot"
           } ]
-        }, {
-          "id" : "GR-ReservedParticipation",
-          "contentType" : "group",
-          "nodeId" : "ND-LotReservedProcurement",
-          "displayType" : "GROUP",
-          "description" : "Reserved Procurement",
-          "_label" : "group|name|ND-LotReservedProcurement",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-71-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Reserved Participation",
-            "_label" : "field|name|BT-71-Lot"
-          } ]
+        } ]
+      }, {
+        "id" : "GR-ReservedParticipation",
+        "contentType" : "group",
+        "nodeId" : "ND-LotReservedProcurement",
+        "displayType" : "GROUP",
+        "description" : "Reserved Procurement",
+        "_label" : "group|name|ND-LotReservedProcurement",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-71-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Reserved Participation",
+          "_label" : "field|name|BT-71-Lot"
         } ]
       }, {
         "id" : "GR-Lot-Variants",

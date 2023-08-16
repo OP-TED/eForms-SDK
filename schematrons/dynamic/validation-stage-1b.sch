@@ -535,18 +535,6 @@
 		<assert id="ND-ProcedurePlacePerformanceAdditionalInformation-T02" role="ERROR" diagnostics="ND-ProcedurePlacePerformanceAdditionalInformation" test="count(cac:RealizedLocation) = 0">rule|text|ND-ProcedurePlacePerformanceAdditionalInformation-T02</assert>
 		<assert id="ND-ProcedureValueEstimate-T02" role="ERROR" diagnostics="ND-ProcedureValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-ProcedureValueEstimate-T02</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '1']">
-		<assert id="ND-LotTenderingProcess-1" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-1</assert>
-		<assert id="ND-LotTenderingTerms-1" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) = 0">rule|text|ND-LotTenderingTerms-1</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '2']">
-		<assert id="ND-LotTenderingProcess-2" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-2</assert>
-		<assert id="ND-LotTenderingTerms-2" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) = 0">rule|text|ND-LotTenderingTerms-2</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '3']">
-		<assert id="ND-LotTenderingProcess-3" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-3</assert>
-		<assert id="ND-LotTenderingTerms-3" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) = 0">rule|text|ND-LotTenderingTerms-3</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '7']">
 		<assert id="ND-LotProcurementScope-7" role="ERROR" diagnostics="ND-LotProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-LotProcurementScope-7</assert>
 		<assert id="ND-LotTenderingProcess-7" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-LotTenderingProcess-7</assert>
@@ -716,24 +704,6 @@
 		<assert id="ND-LotProcurementScope-T02" role="ERROR" diagnostics="ND-LotProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-LotProcurementScope-T02</assert>
 		<assert id="ND-LotTenderingProcess-T02" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-T02</assert>
 		<assert id="ND-LotTenderingTerms-T02" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-LotTenderingTerms-T02</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '1']">
-		<assert id="ND-OptionsAndRenewals-1" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-1</assert>
-		<assert id="ND-LotDuration-1" role="ERROR" diagnostics="ND-LotDuration" test="count(cac:PlannedPeriod) = 0">rule|text|ND-LotDuration-1</assert>
-		<assert id="ND-LotPlacePerformance-1" role="ERROR" diagnostics="ND-LotPlacePerformance" test="count(cac:RealizedLocation) = 0">rule|text|ND-LotPlacePerformance-1</assert>
-		<assert id="ND-LotValueEstimate-1" role="ERROR" diagnostics="ND-LotValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-1</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '2']">
-		<assert id="ND-OptionsAndRenewals-2" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-2</assert>
-		<assert id="ND-LotDuration-2" role="ERROR" diagnostics="ND-LotDuration" test="count(cac:PlannedPeriod) = 0">rule|text|ND-LotDuration-2</assert>
-		<assert id="ND-LotPlacePerformance-2" role="ERROR" diagnostics="ND-LotPlacePerformance" test="count(cac:RealizedLocation) = 0">rule|text|ND-LotPlacePerformance-2</assert>
-		<assert id="ND-LotValueEstimate-2" role="ERROR" diagnostics="ND-LotValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-2</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '3']">
-		<assert id="ND-OptionsAndRenewals-3" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-3</assert>
-		<assert id="ND-LotDuration-3" role="ERROR" diagnostics="ND-LotDuration" test="count(cac:PlannedPeriod) = 0">rule|text|ND-LotDuration-3</assert>
-		<assert id="ND-LotPlacePerformance-3" role="ERROR" diagnostics="ND-LotPlacePerformance" test="count(cac:RealizedLocation) = 0">rule|text|ND-LotPlacePerformance-3</assert>
-		<assert id="ND-LotValueEstimate-3" role="ERROR" diagnostics="ND-LotValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-3</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '15']">
 		<assert id="ND-OptionsAndRenewals-15" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) &gt; 0">rule|text|ND-OptionsAndRenewals-15</assert>
@@ -1158,7 +1128,7 @@
 		<assert id="ND-LotReviewTerms-16" role="ERROR" diagnostics="ND-LotReviewTerms" test="count(cac:AppealTerms) &gt; 0">rule|text|ND-LotReviewTerms-16</assert>
 		<assert id="ND-LotProcurementDocument-16" role="ERROR" diagnostics="ND-LotProcurementDocument" test="count(cac:CallForTendersDocumentReference) &gt; 0">rule|text|ND-LotProcurementDocument-16</assert>
 		<assert id="ND-Participants-16" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-16</assert>
-		<assert id="ND-PostAwarProcess-16" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) &gt; 0">rule|text|ND-PostAwarProcess-16</assert>
+		<assert id="ND-PostAwardProcess-16" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) &gt; 0">rule|text|ND-PostAwardProcess-16</assert>
 		<assert id="ND-LotReservedParticipation-16" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) &gt; 0">rule|text|ND-LotReservedParticipation-16</assert>
 		<assert id="ND-NonUBLTenderingTerms-16" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-NonUBLTenderingTerms-16</assert>
 	</rule>
@@ -1210,7 +1180,7 @@
 		<assert id="ND-AwardingTerms-23" role="ERROR" diagnostics="ND-AwardingTerms" test="count(cac:AwardingTerms) &gt; 0">rule|text|ND-AwardingTerms-23</assert>
 		<assert id="ND-LotProcurementDocument-23" role="ERROR" diagnostics="ND-LotProcurementDocument" test="count(cac:CallForTendersDocumentReference) &gt; 0">rule|text|ND-LotProcurementDocument-23</assert>
 		<assert id="ND-PaymentTerms-23" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-23</assert>
-		<assert id="ND-PostAwarProcess-23" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-23</assert>
+		<assert id="ND-PostAwardProcess-23" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-23</assert>
 		<assert id="ND-SecurityClearanceTerms-23" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-23</assert>
 		<assert id="ND-NonUBLTenderingTerms-23" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-NonUBLTenderingTerms-23</assert>
 	</rule>
@@ -1219,7 +1189,7 @@
 		<assert id="ND-AwardingTerms-24" role="ERROR" diagnostics="ND-AwardingTerms" test="count(cac:AwardingTerms) &gt; 0">rule|text|ND-AwardingTerms-24</assert>
 		<assert id="ND-LotProcurementDocument-24" role="ERROR" diagnostics="ND-LotProcurementDocument" test="count(cac:CallForTendersDocumentReference) &gt; 0">rule|text|ND-LotProcurementDocument-24</assert>
 		<assert id="ND-PaymentTerms-24" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-24</assert>
-		<assert id="ND-PostAwarProcess-24" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-24</assert>
+		<assert id="ND-PostAwardProcess-24" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-24</assert>
 		<assert id="ND-SecurityClearanceTerms-24" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-24</assert>
 		<assert id="ND-NonUBLTenderingTerms-24" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-NonUBLTenderingTerms-24</assert>
 	</rule>
@@ -1230,7 +1200,7 @@
 		<assert id="ND-ExecutionRequirements-25" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-25</assert>
 		<assert id="ND-Participants-25" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-25</assert>
 		<assert id="ND-PaymentTerms-25" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-25</assert>
-		<assert id="ND-PostAwarProcess-25" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-25</assert>
+		<assert id="ND-PostAwardProcess-25" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-25</assert>
 		<assert id="ND-SecurityClearanceTerms-25" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-25</assert>
 		<assert id="ND-LotReservedParticipation-25" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-25</assert>
 		<assert id="ND-NonUBLTenderingTerms-25" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-25</assert>
@@ -1241,7 +1211,7 @@
 		<assert id="ND-ExecutionRequirements-26" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-26</assert>
 		<assert id="ND-Participants-26" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-26</assert>
 		<assert id="ND-PaymentTerms-26" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-26</assert>
-		<assert id="ND-PostAwarProcess-26" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-26</assert>
+		<assert id="ND-PostAwardProcess-26" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-26</assert>
 		<assert id="ND-SecurityClearanceTerms-26" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-26</assert>
 		<assert id="ND-LotReservedParticipation-26" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-26</assert>
 		<assert id="ND-NonUBLTenderingTerms-26" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-26</assert>
@@ -1253,7 +1223,7 @@
 		<assert id="ND-ExecutionRequirements-27" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-27</assert>
 		<assert id="ND-Participants-27" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-27</assert>
 		<assert id="ND-PaymentTerms-27" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-27</assert>
-		<assert id="ND-PostAwarProcess-27" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-27</assert>
+		<assert id="ND-PostAwardProcess-27" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-27</assert>
 		<assert id="ND-SecurityClearanceTerms-27" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-27</assert>
 		<assert id="ND-LotReservedParticipation-27" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-27</assert>
 		<assert id="ND-NonUBLTenderingTerms-27" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-27</assert>
@@ -1265,7 +1235,7 @@
 		<assert id="ND-ExecutionRequirements-28" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-28</assert>
 		<assert id="ND-Participants-28" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-28</assert>
 		<assert id="ND-PaymentTerms-28" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-28</assert>
-		<assert id="ND-PostAwarProcess-28" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-28</assert>
+		<assert id="ND-PostAwardProcess-28" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-28</assert>
 		<assert id="ND-SecurityClearanceTerms-28" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-28</assert>
 		<assert id="ND-LotReservedParticipation-28" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-28</assert>
 		<assert id="ND-NonUBLTenderingTerms-28" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-28</assert>
@@ -1278,7 +1248,7 @@
 		<assert id="ND-ExecutionRequirements-29" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-29</assert>
 		<assert id="ND-Participants-29" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-29</assert>
 		<assert id="ND-PaymentTerms-29" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-29</assert>
-		<assert id="ND-PostAwarProcess-29" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-29</assert>
+		<assert id="ND-PostAwardProcess-29" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-29</assert>
 		<assert id="ND-SecurityClearanceTerms-29" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-29</assert>
 		<assert id="ND-LotReservedParticipation-29" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-29</assert>
 	</rule>
@@ -1289,7 +1259,7 @@
 		<assert id="ND-ExecutionRequirements-30" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-30</assert>
 		<assert id="ND-Participants-30" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-30</assert>
 		<assert id="ND-PaymentTerms-30" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-30</assert>
-		<assert id="ND-PostAwarProcess-30" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-30</assert>
+		<assert id="ND-PostAwardProcess-30" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-30</assert>
 		<assert id="ND-SecurityClearanceTerms-30" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-30</assert>
 		<assert id="ND-LotReservedParticipation-30" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-30</assert>
 	</rule>
@@ -1300,7 +1270,7 @@
 		<assert id="ND-ExecutionRequirements-31" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-31</assert>
 		<assert id="ND-Participants-31" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-31</assert>
 		<assert id="ND-PaymentTerms-31" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-31</assert>
-		<assert id="ND-PostAwarProcess-31" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-31</assert>
+		<assert id="ND-PostAwardProcess-31" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-31</assert>
 		<assert id="ND-SecurityClearanceTerms-31" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-31</assert>
 		<assert id="ND-LotReservedParticipation-31" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-31</assert>
 	</rule>
@@ -1312,7 +1282,7 @@
 		<assert id="ND-ExecutionRequirements-32" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-32</assert>
 		<assert id="ND-Participants-32" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-32</assert>
 		<assert id="ND-PaymentTerms-32" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-32</assert>
-		<assert id="ND-PostAwarProcess-32" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-32</assert>
+		<assert id="ND-PostAwardProcess-32" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-32</assert>
 		<assert id="ND-SecurityClearanceTerms-32" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-32</assert>
 		<assert id="ND-LotReservedParticipation-32" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-32</assert>
 		<assert id="ND-NonUBLTenderingTerms-32" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-32</assert>
@@ -1323,7 +1293,7 @@
 		<assert id="ND-ExecutionRequirements-33" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-33</assert>
 		<assert id="ND-Participants-33" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-33</assert>
 		<assert id="ND-PaymentTerms-33" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-33</assert>
-		<assert id="ND-PostAwarProcess-33" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-33</assert>
+		<assert id="ND-PostAwardProcess-33" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-33</assert>
 		<assert id="ND-SecurityClearanceTerms-33" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-33</assert>
 		<assert id="ND-LotReservedParticipation-33" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-33</assert>
 		<assert id="ND-NonUBLTenderingTerms-33" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-33</assert>
@@ -1335,7 +1305,7 @@
 		<assert id="ND-ExecutionRequirements-34" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-34</assert>
 		<assert id="ND-Participants-34" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-34</assert>
 		<assert id="ND-PaymentTerms-34" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-34</assert>
-		<assert id="ND-PostAwarProcess-34" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-34</assert>
+		<assert id="ND-PostAwardProcess-34" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-34</assert>
 		<assert id="ND-SecurityClearanceTerms-34" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-34</assert>
 		<assert id="ND-LotReservedParticipation-34" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-34</assert>
 		<assert id="ND-NonUBLTenderingTerms-34" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-34</assert>
@@ -1347,7 +1317,7 @@
 		<assert id="ND-ExecutionRequirements-35" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-35</assert>
 		<assert id="ND-Participants-35" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-35</assert>
 		<assert id="ND-PaymentTerms-35" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-35</assert>
-		<assert id="ND-PostAwarProcess-35" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-35</assert>
+		<assert id="ND-PostAwardProcess-35" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-35</assert>
 		<assert id="ND-SecurityClearanceTerms-35" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-35</assert>
 		<assert id="ND-LotReservedParticipation-35" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-35</assert>
 		<assert id="ND-NonUBLTenderingTerms-35" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-35</assert>
@@ -1359,7 +1329,7 @@
 		<assert id="ND-ExecutionRequirements-36" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-36</assert>
 		<assert id="ND-Participants-36" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-36</assert>
 		<assert id="ND-PaymentTerms-36" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-36</assert>
-		<assert id="ND-PostAwarProcess-36" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-36</assert>
+		<assert id="ND-PostAwardProcess-36" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-36</assert>
 		<assert id="ND-SecurityClearanceTerms-36" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-36</assert>
 		<assert id="ND-LotReservedParticipation-36" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-36</assert>
 		<assert id="ND-NonUBLTenderingTerms-36" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-36</assert>
@@ -1371,7 +1341,7 @@
 		<assert id="ND-ExecutionRequirements-37" role="ERROR" diagnostics="ND-ExecutionRequirements" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-ExecutionRequirements-37</assert>
 		<assert id="ND-Participants-37" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-37</assert>
 		<assert id="ND-PaymentTerms-37" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-37</assert>
-		<assert id="ND-PostAwarProcess-37" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-37</assert>
+		<assert id="ND-PostAwardProcess-37" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-37</assert>
 		<assert id="ND-SecurityClearanceTerms-37" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-37</assert>
 		<assert id="ND-LotReservedParticipation-37" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-37</assert>
 		<assert id="ND-NonUBLTenderingTerms-37" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-37</assert>
@@ -1401,7 +1371,7 @@
 		<assert id="ND-SecurityClearanceTerms-40" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-40</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'CEI']">
-		<assert id="ND-SubcontractingObligation-CEI" role="ERROR" diagnostics="ND-SubcontractingObligation" test="count(cac:AllowedSubcontractTerms) &gt; 0">rule|text|ND-SubcontractingObligation-CEI</assert>
+		<assert id="ND-SubcontractingObligation-CEI" role="ERROR" diagnostics="ND-SubcontractingObligation" test="count(cac:AllowedSubcontractTerms) = 0">rule|text|ND-SubcontractingObligation-CEI</assert>
 		<assert id="ND-LotReviewTerms-CEI" role="ERROR" diagnostics="ND-LotReviewTerms" test="count(cac:AppealTerms) &gt; 0">rule|text|ND-LotReviewTerms-CEI</assert>
 		<assert id="ND-AwardingTerms-CEI" role="ERROR" diagnostics="ND-AwardingTerms" test="count(cac:AwardingTerms) = 0">rule|text|ND-AwardingTerms-CEI</assert>
 		<assert id="ND-LotProcurementDocument-CEI" role="ERROR" diagnostics="ND-LotProcurementDocument" test="count(cac:CallForTendersDocumentReference) &gt; 0">rule|text|ND-LotProcurementDocument-CEI</assert>
@@ -1410,7 +1380,7 @@
 		<assert id="ND-LotEnvironmentalLegislation-CEI" role="ERROR" diagnostics="ND-LotEnvironmentalLegislation" test="count(cac:EnvironmentalLegislationDocumentReference) = 0">rule|text|ND-LotEnvironmentalLegislation-CEI</assert>
 		<assert id="ND-LotFiscalLegislation-CEI" role="ERROR" diagnostics="ND-LotFiscalLegislation" test="count(cac:FiscalLegislationDocumentReference) = 0">rule|text|ND-LotFiscalLegislation-CEI</assert>
 		<assert id="ND-PaymentTerms-CEI" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-CEI</assert>
-		<assert id="ND-PostAwarProcess-CEI" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-CEI</assert>
+		<assert id="ND-PostAwardProcess-CEI" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-CEI</assert>
 		<assert id="ND-SecurityClearanceTerms-CEI" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-CEI</assert>
 		<assert id="ND-LotReservedParticipation-CEI" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-CEI</assert>
 		<assert id="ND-NonUBLTenderingTerms-CEI" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-NonUBLTenderingTerms-CEI</assert>
@@ -1426,7 +1396,7 @@
 		<assert id="ND-LotEnvironmentalLegislation-T01" role="ERROR" diagnostics="ND-LotEnvironmentalLegislation" test="count(cac:EnvironmentalLegislationDocumentReference) = 0">rule|text|ND-LotEnvironmentalLegislation-T01</assert>
 		<assert id="ND-LotFiscalLegislation-T01" role="ERROR" diagnostics="ND-LotFiscalLegislation" test="count(cac:FiscalLegislationDocumentReference) = 0">rule|text|ND-LotFiscalLegislation-T01</assert>
 		<assert id="ND-PaymentTerms-T01" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-T01</assert>
-		<assert id="ND-PostAwarProcess-T01" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-T01</assert>
+		<assert id="ND-PostAwardProcess-T01" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-T01</assert>
 		<assert id="ND-SecurityClearanceTerms-T01" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-T01</assert>
 		<assert id="ND-LotReservedParticipation-T01" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-T01</assert>
 		<assert id="ND-NonUBLTenderingTerms-T01" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-T01</assert>
@@ -1442,7 +1412,7 @@
 		<assert id="ND-LotEnvironmentalLegislation-T02" role="ERROR" diagnostics="ND-LotEnvironmentalLegislation" test="count(cac:EnvironmentalLegislationDocumentReference) = 0">rule|text|ND-LotEnvironmentalLegislation-T02</assert>
 		<assert id="ND-LotFiscalLegislation-T02" role="ERROR" diagnostics="ND-LotFiscalLegislation" test="count(cac:FiscalLegislationDocumentReference) = 0">rule|text|ND-LotFiscalLegislation-T02</assert>
 		<assert id="ND-PaymentTerms-T02" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-T02</assert>
-		<assert id="ND-PostAwarProcess-T02" role="ERROR" diagnostics="ND-PostAwarProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwarProcess-T02</assert>
+		<assert id="ND-PostAwardProcess-T02" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-T02</assert>
 		<assert id="ND-SecurityClearanceTerms-T02" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-T02</assert>
 		<assert id="ND-LotReservedParticipation-T02" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-T02</assert>
 		<assert id="ND-NonUBLTenderingTerms-T02" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-T02</assert>

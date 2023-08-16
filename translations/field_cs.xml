@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Název oznámení</entry>
 <entry key="field|name|OPP-122-Business">URL adresa oznámení</entry>
 <entry key="field|name|OPP-123-Business">Datum zveřejnění oznámení</entry>
+<entry key="field|name|OPP-124-Business">Vydání publikace</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Vydání publikace</entry>
 <entry key="field|name|OPP-130-Business">Další informace</entry>
 <entry key="field|name|OPP-130-Business-Language">Další informace</entry>
 <entry key="field|name|OPP-131-Business">E-mailová adresa odesílatele</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL právních předpisů z oblasti zaměstnanosti</entry>
 <entry key="field|name|OPT-140-Lot">Identifikátor – zadávací dokumentace</entry>
 <entry key="field|name|OPT-140-Part">Identifikátor – zadávací dokumentace</entry>
-<entry key="field|name|OPT-150-Lot">Subdodávky jsou povoleny</entry>
-<entry key="field|name|OPT-150-Lot-List">Subdodávky jsou povoleny</entry>
 <entry key="field|name|OPT-155-LotResult">Typ vozidla</entry>
 <entry key="field|name|OPT-155-LotResult-List">Typ vozidla</entry>
 <entry key="field|name|OPT-156-LotResult">Číslo vozidla</entry>

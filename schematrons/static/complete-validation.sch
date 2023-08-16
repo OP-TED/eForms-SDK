@@ -681,7 +681,6 @@
 		<diagnostic id="ND-LotEmploymentLegislation" see="node:ND-LotEmploymentLegislation">cac:EmploymentLegislationDocumentReference</diagnostic>
 		<diagnostic id="ND-LotEnvironmentalLegislation" see="node:ND-LotEnvironmentalLegislation">cac:EnvironmentalLegislationDocumentReference</diagnostic>
 		<diagnostic id="ND-LotFiscalLegislation" see="node:ND-LotFiscalLegislation">cac:FiscalLegislationDocumentReference</diagnostic>
-		<diagnostic id="ND-LotPlacePerformance" see="node:ND-LotPlacePerformance">cac:RealizedLocation</diagnostic>
 		<diagnostic id="ND-LotPlacePerformance_BT-5071-Lot" see="field:BT-5071-Lot">cac:Address/cbc:CountrySubentityCode</diagnostic>
 		<diagnostic id="ND-LotPlacePerformance_BT-5101_a_-Lot" see="field:BT-5101(a)-Lot">cac:Address/cbc:StreetName</diagnostic>
 		<diagnostic id="ND-LotPlacePerformance_BT-5101_b_-Lot" see="field:BT-5101(b)-Lot">cac:Address/cbc:AdditionalStreetName</diagnostic>
@@ -819,7 +818,7 @@
 		<diagnostic id="ND-Participants" see="node:ND-Participants">cac:EconomicOperatorShortList</diagnostic>
 		<diagnostic id="ND-Participants_BT-47-Lot" see="field:BT-47-Lot">cac:PreSelectedParty/cac:PartyName/cbc:Name</diagnostic>
 		<diagnostic id="ND-PaymentTerms" see="node:ND-PaymentTerms">cac:PaymentTerms</diagnostic>
-		<diagnostic id="ND-PostAwarProcess" see="node:ND-PostAwarProcess">cac:PostAwardProcess</diagnostic>
+		<diagnostic id="ND-PostAwardProcess" see="node:ND-PostAwardProcess">cac:PostAwardProcess</diagnostic>
 		<diagnostic id="ND-Prize" see="node:ND-Prize">cac:Prize</diagnostic>
 		<diagnostic id="ND-ProcedureAcceleratedUnpublish" see="node:ND-ProcedureAcceleratedUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-ProcedurePlacePerformanceAdditionalInformation" see="node:ND-ProcedurePlacePerformanceAdditionalInformation">cac:RealizedLocation</diagnostic>
@@ -959,7 +958,6 @@
 		<diagnostic id="OPT-130-Part-EmployLegis" see="field:OPT-130-Part-EmployLegis">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="OPT-140-Lot" see="field:OPT-140-Lot">cbc:ID</diagnostic>
 		<diagnostic id="OPT-140-Part" see="field:OPT-140-Part">cbc:ID</diagnostic>
-		<diagnostic id="OPT-150-Lot" see="field:OPT-150-Lot">cbc:SubcontractingConditionsCode</diagnostic>
 		<diagnostic id="OPT-155-LotResult" see="field:OPT-155-LotResult">efbc:StatisticsCode</diagnostic>
 		<diagnostic id="OPT-156-LotResult" see="field:OPT-156-LotResult">efbc:StatisticsNumeric</diagnostic>
 		<diagnostic id="OPT-160-UBO" see="field:OPT-160-UBO">cbc:FirstName</diagnostic>

@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Naslov obavijesti</entry>
 <entry key="field|name|OPP-122-Business">URL obavijesti</entry>
 <entry key="field|name|OPP-123-Business">Datum objave</entry>
+<entry key="field|name|OPP-124-Business">Izdanje publikacije</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Izdanje publikacije</entry>
 <entry key="field|name|OPP-130-Business">Dodatne informacije</entry>
 <entry key="field|name|OPP-130-Business-Language">Dodatne informacije</entry>
 <entry key="field|name|OPP-131-Business">E-adresa pošiljatelja</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL radnog zakonodavstva</entry>
 <entry key="field|name|OPT-140-Lot">Identifikator – Dokumentacija javne nabave</entry>
 <entry key="field|name|OPT-140-Part">Identifikator – Dokumentacija javne nabave</entry>
-<entry key="field|name|OPT-150-Lot">Podugovaranje je dopušteno</entry>
-<entry key="field|name|OPT-150-Lot-List">Podugovaranje je dopušteno</entry>
 <entry key="field|name|OPT-155-LotResult">Tip vozila:</entry>
 <entry key="field|name|OPT-155-LotResult-List">Tip vozila:</entry>
 <entry key="field|name|OPT-156-LotResult">Broj vozila</entry>

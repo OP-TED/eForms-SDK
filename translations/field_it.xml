@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Titolo dell'annuncio</entry>
 <entry key="field|name|OPP-122-Business">URL dell'annuncio</entry>
 <entry key="field|name|OPP-123-Business">Data di pubblicazione dell'annuncio</entry>
+<entry key="field|name|OPP-124-Business">Edizione della pubblicazione</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Edizione della pubblicazione</entry>
 <entry key="field|name|OPP-130-Business">Informazioni supplementari</entry>
 <entry key="field|name|OPP-130-Business-Language">Informazioni supplementari</entry>
 <entry key="field|name|OPP-131-Business">E-mail del mittente</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL della legislazione sul lavoro</entry>
 <entry key="field|name|OPT-140-Lot">Identificativo - documenti di gara</entry>
 <entry key="field|name|OPT-140-Part">Identificativo - documenti di gara</entry>
-<entry key="field|name|OPT-150-Lot">È consentito il subappalto</entry>
-<entry key="field|name|OPT-150-Lot-List">È consentito il subappalto</entry>
 <entry key="field|name|OPT-155-LotResult">Tipo di veicolo</entry>
 <entry key="field|name|OPT-155-LotResult-List">Tipo di veicolo</entry>
 <entry key="field|name|OPT-156-LotResult">Numero veicolo</entry>

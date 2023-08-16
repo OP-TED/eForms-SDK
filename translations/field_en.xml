@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Title of the announcement</entry>
 <entry key="field|name|OPP-122-Business">URL of the announcement</entry>
 <entry key="field|name|OPP-123-Business">Date of publication of the announcement</entry>
+<entry key="field|name|OPP-124-Business">Issue of the publication</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Issue of the publication</entry>
 <entry key="field|name|OPP-130-Business">Additional information</entry>
 <entry key="field|name|OPP-130-Business-Language">Additional information</entry>
 <entry key="field|name|OPP-131-Business">Sender's email address</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL to employment legislation</entry>
 <entry key="field|name|OPT-140-Lot">ID – Procurement documents</entry>
 <entry key="field|name|OPT-140-Part">ID – Procurement documents</entry>
-<entry key="field|name|OPT-150-Lot">Subcontracting is allowed</entry>
-<entry key="field|name|OPT-150-Lot-List">Subcontracting is allowed</entry>
 <entry key="field|name|OPT-155-LotResult">Vehicle type</entry>
 <entry key="field|name|OPT-155-LotResult-List">Vehicle type</entry>
 <entry key="field|name|OPT-156-LotResult">Vehicle numeric</entry>

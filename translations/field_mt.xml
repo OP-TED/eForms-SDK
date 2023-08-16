@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Titlu tal-avviż</entry>
 <entry key="field|name|OPP-122-Business">URL tat-tħabbira</entry>
 <entry key="field|name|OPP-123-Business">Data tal-pubblikazzjoni tat-tħabbira</entry>
+<entry key="field|name|OPP-124-Business">Il-ħruġ tal-pubblikazzjoni</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Il-ħruġ tal-pubblikazzjoni</entry>
 <entry key="field|name|OPP-130-Business">Informazzjoni addizzjonali</entry>
 <entry key="field|name|OPP-130-Business-Language">Informazzjoni addizzjonali</entry>
 <entry key="field|name|OPP-131-Business">Indirizz tal-email tal-mittent</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL għal-leġiżlazzjoni dwar l-impjiegi</entry>
 <entry key="field|name|OPT-140-Lot">ID – Dokumenti tal-akkwist</entry>
 <entry key="field|name|OPT-140-Part">ID – Dokumenti tal-akkwist</entry>
-<entry key="field|name|OPT-150-Lot">Is-sottokuntrattar huwa permess</entry>
-<entry key="field|name|OPT-150-Lot-List">Is-sottokuntrattar huwa permess</entry>
 <entry key="field|name|OPT-155-LotResult">Tip ta' vettura</entry>
 <entry key="field|name|OPT-155-LotResult-List">Tip ta' vettura</entry>
 <entry key="field|name|OPT-156-LotResult">Numeriku tal-vettura</entry>

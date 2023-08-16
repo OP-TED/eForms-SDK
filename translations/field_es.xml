@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Título del anuncio</entry>
 <entry key="field|name|OPP-122-Business">Dirección web del anuncio</entry>
 <entry key="field|name|OPP-123-Business">Fecha de publicación del anuncio</entry>
+<entry key="field|name|OPP-124-Business">Έκδοση της παρουσίασης</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Έκδοση της παρουσίασης</entry>
 <entry key="field|name|OPP-130-Business">Información complementaria</entry>
 <entry key="field|name|OPP-130-Business-Language">Información complementaria</entry>
 <entry key="field|name|OPP-131-Business">Dirección de correo electrónico del remitente</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">URL de la legislación en materia de empleo</entry>
 <entry key="field|name|OPT-140-Lot">Identificador: documentos de contratación</entry>
 <entry key="field|name|OPT-140-Part">Identificador: documentos de contratación</entry>
-<entry key="field|name|OPT-150-Lot">Se autoriza la subcontratación</entry>
-<entry key="field|name|OPT-150-Lot-List">Se autoriza la subcontratación</entry>
 <entry key="field|name|OPT-155-LotResult">Tipo de vehículo</entry>
 <entry key="field|name|OPT-155-LotResult-List">Tipo de vehículo</entry>
 <entry key="field|name|OPT-156-LotResult">Número del vehículo</entry>

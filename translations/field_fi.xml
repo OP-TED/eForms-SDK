@@ -2131,6 +2131,8 @@
 <entry key="field|name|OPP-121-Business">Ilmoituksen otsikko</entry>
 <entry key="field|name|OPP-122-Business">Ilmoituksen URL</entry>
 <entry key="field|name|OPP-123-Business">Ilmoituksen julkaisupäivä</entry>
+<entry key="field|name|OPP-124-Business">Julkaisun numero</entry>
+<entry key="field|name|OPP-124-Business-Scheme">Julkaisun numero</entry>
 <entry key="field|name|OPP-130-Business">Lisätiedot</entry>
 <entry key="field|name|OPP-130-Business-Language">Lisätiedot</entry>
 <entry key="field|name|OPP-131-Business">Lähettäjän sähköpostiosoite</entry>
@@ -2169,8 +2171,6 @@
 <entry key="field|name|OPT-130-Part-EmployLegis">Työlainsäädännön URL</entry>
 <entry key="field|name|OPT-140-Lot">Tunniste – Hankinta-asiakirjat</entry>
 <entry key="field|name|OPT-140-Part">Tunniste – Hankinta-asiakirjat</entry>
-<entry key="field|name|OPT-150-Lot">Alihankinta on sallittu</entry>
-<entry key="field|name|OPT-150-Lot-List">Alihankinta on sallittu</entry>
 <entry key="field|name|OPT-155-LotResult">Ajoneuvotyyppi</entry>
 <entry key="field|name|OPT-155-LotResult-List">Ajoneuvotyyppi</entry>
 <entry key="field|name|OPT-156-LotResult">Ajoneuvojen määrä</entry>
