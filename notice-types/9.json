@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.233",
-    "createdOn" : "2023-08-08T11:17:52"
+    "version" : "1.8.235",
+    "createdOn" : "2023-08-18T15:25:50"
   },
   "noticeId" : "9",
   "metadata" : [ {
@@ -1854,6 +1854,19 @@
           "displayType" : "TEXTBOX",
           "description" : "Additional Information Deadline",
           "_label" : "field|name|BT-13(t)-Lot"
+        } ]
+      }, {
+        "id" : "GR-Lot-TenderValidity",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Tender Validity",
+        "_label" : "group|name|GR-Lot-TenderValidity",
+        "content" : [ {
+          "id" : "BT-98-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Tender Validity Deadline",
+          "_label" : "field|name|BT-98-Lot"
         } ]
       }, {
         "id" : "GR-Lot-Submission Language",
