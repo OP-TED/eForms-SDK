@@ -780,6 +780,21 @@
             "_label" : "field|name|BT-774-Lot"
           } ]
         }, {
+          "id" : "GR-Lot-Green-Procurement",
+          "contentType" : "group",
+          "nodeId" : "ND-LotGreenCriteria",
+          "displayType" : "GROUP",
+          "description" : "Details about the use of Green Procurement Criteria",
+          "_label" : "group|name|ND-LotGreenCriteria",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-805-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Green Procurement Criteria",
+            "_label" : "field|name|BT-805-Lot"
+          } ]
+        }, {
           "id" : "GR-Lot-Social-Objective",
           "contentType" : "group",
           "nodeId" : "ND-LotSocialObjectiveType",
