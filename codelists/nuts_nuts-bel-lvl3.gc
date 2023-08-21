@@ -6,7 +6,7 @@
       <LongName>nuts-bel-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.8.104</Version>
+      <Version>1.8.237</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,7 +128,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad</SimpleValue>
          </Value>
       </Row>
@@ -139,7 +208,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Antwerpen</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Antwerpen</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Antwerpen</SimpleValue>
          </Value>
       </Row>
@@ -150,7 +288,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Mechelen</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Mechelen</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Mechelen</SimpleValue>
          </Value>
       </Row>
@@ -161,7 +368,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Turnhout</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Turnhout</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Turnhout</SimpleValue>
          </Value>
       </Row>
@@ -172,7 +448,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Tongeren</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Tongeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Tongeren</SimpleValue>
          </Value>
       </Row>
@@ -183,7 +528,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Hasselt</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Hasselt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Hasselt</SimpleValue>
          </Value>
       </Row>
@@ -194,7 +608,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Maaseik</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Maaseik</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Maaseik</SimpleValue>
          </Value>
       </Row>
@@ -205,7 +688,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Aalst</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Aalst</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Aalst</SimpleValue>
          </Value>
       </Row>
@@ -216,7 +768,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Dendermonde</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Dendermonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Dendermonde</SimpleValue>
          </Value>
       </Row>
@@ -227,7 +848,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Eeklo</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Eeklo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Eeklo</SimpleValue>
          </Value>
       </Row>
@@ -238,7 +928,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Gent</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Gent</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Gent</SimpleValue>
          </Value>
       </Row>
@@ -249,7 +1008,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Oudenaarde</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Oudenaarde</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Oudenaarde</SimpleValue>
          </Value>
       </Row>
@@ -260,7 +1088,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Sint-Niklaas</SimpleValue>
          </Value>
       </Row>
@@ -271,7 +1168,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Halle-Vilvoorde</SimpleValue>
          </Value>
       </Row>
@@ -282,7 +1248,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Leuven</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Leuven</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Leuven</SimpleValue>
          </Value>
       </Row>
@@ -293,7 +1328,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Brugge</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Brugge</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Brugge</SimpleValue>
          </Value>
       </Row>
@@ -304,7 +1408,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Diksmuide</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Diksmuide</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Diksmuide</SimpleValue>
          </Value>
       </Row>
@@ -315,7 +1488,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Ieper</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Ieper</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Ieper</SimpleValue>
          </Value>
       </Row>
@@ -326,7 +1568,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Kortrijk</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Kortrijk</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Kortrijk</SimpleValue>
          </Value>
       </Row>
@@ -337,7 +1648,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Oostende</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Oostende</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Oostende</SimpleValue>
          </Value>
       </Row>
@@ -348,7 +1728,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Roeselare</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Roeselare</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Roeselare</SimpleValue>
          </Value>
       </Row>
@@ -359,7 +1808,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Tielt</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Tielt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Tielt</SimpleValue>
          </Value>
       </Row>
@@ -370,7 +1888,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Veurne</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Veurne</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Veurne</SimpleValue>
          </Value>
       </Row>
@@ -381,7 +1968,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Nivelles</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Nivelles</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Nivelles</SimpleValue>
          </Value>
       </Row>
@@ -392,7 +2048,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Mons</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Mons</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Mons</SimpleValue>
          </Value>
       </Row>
@@ -403,7 +2128,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Tournai-Mouscron</SimpleValue>
          </Value>
       </Row>
@@ -414,7 +2208,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. La Louvière</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. La Louvière</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. La Louvière</SimpleValue>
          </Value>
       </Row>
@@ -425,7 +2288,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Ath</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Ath</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Ath</SimpleValue>
          </Value>
       </Row>
@@ -436,7 +2368,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Charleroi</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Charleroi</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Charleroi</SimpleValue>
          </Value>
       </Row>
@@ -447,7 +2448,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Soignies</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Soignies</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Soignies</SimpleValue>
          </Value>
       </Row>
@@ -458,7 +2528,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Thuin</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Thuin</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Thuin</SimpleValue>
          </Value>
       </Row>
@@ -469,7 +2608,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Huy</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Huy</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Huy</SimpleValue>
          </Value>
       </Row>
@@ -480,7 +2688,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Liège</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Liège</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Liège</SimpleValue>
          </Value>
       </Row>
@@ -491,7 +2768,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Waremme</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Waremme</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Waremme</SimpleValue>
          </Value>
       </Row>
@@ -502,7 +2848,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Verviers — communes francophones</SimpleValue>
          </Value>
       </Row>
@@ -513,7 +2928,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Bezirk Verviers — Deutschsprachige Gemeinschaft</SimpleValue>
          </Value>
       </Row>
@@ -524,7 +3008,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Arlon</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Arlon</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Arlon</SimpleValue>
          </Value>
       </Row>
@@ -535,7 +3088,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Bastogne</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Bastogne</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Bastogne</SimpleValue>
          </Value>
       </Row>
@@ -546,7 +3168,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Marche-en-Famenne</SimpleValue>
          </Value>
       </Row>
@@ -557,7 +3248,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Neufchâteau</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Neufchâteau</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Neufchâteau</SimpleValue>
          </Value>
       </Row>
@@ -568,7 +3328,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Virton</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Virton</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Virton</SimpleValue>
          </Value>
       </Row>
@@ -579,7 +3408,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Dinant</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Dinant</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Dinant</SimpleValue>
          </Value>
       </Row>
@@ -590,7 +3488,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Namur</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Namur</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Namur</SimpleValue>
          </Value>
       </Row>
@@ -601,7 +3568,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arr. Philippeville</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arr. Philippeville</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arr. Philippeville</SimpleValue>
          </Value>
       </Row>
@@ -612,7 +3648,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>
