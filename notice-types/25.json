@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.235",
-    "createdOn" : "2023-08-18T15:25:50"
+    "version" : "1.8.240",
+    "createdOn" : "2023-08-23T11:47:55"
   },
   "noticeId" : "25",
   "metadata" : [ {
@@ -2982,6 +2982,12 @@
             "displayType" : "COMBOBOX",
             "description" : "Contract EU Funds Programme",
             "_label" : "field|name|BT-722-Contract"
+          }, {
+            "id" : "BT-6110-Contract",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Contract EU Funds Details",
+            "_label" : "field|name|BT-6110-Contract"
           } ]
         } ],
         "_captionFieldId" : "BT-150-Contract"
