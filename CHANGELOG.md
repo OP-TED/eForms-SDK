@@ -2,6 +2,11 @@
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.8.0 should also be able to use this version.
 
+## Additional information
+
+New properties have been added in fields.json, named "attributeOf", "attributeName" and "attributes", that give information on fields that represent XML attributes, and their relationship with the field representing the corresponding element.
+For more details, see the description of these properties in [the documentation on field metadata](https://docs.ted.europa.eu/eforms/1.9/fields/index.html#_static_properties)
+
 ## Updated metadata content
 
 This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency.
