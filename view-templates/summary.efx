@@ -23,17 +23,17 @@
 3 {ND-Root[(BT-21-Part is present)]} #{auxiliary|text|part} // 3. Parts
 	1 {ND-Part} #{field|name|BT-137-Part}: ${BT-137-Part} // 3.1 Part
 		{ND-Part} #{field|name|BT-21-Part}: ${BT-21-Part} // Title
-		1 {BT-137-Part[(BT-23-Part is present) or (BT-531-Part is present) or (BT-262-Part is present) or (BT-263-Part is present)]} #{auxiliary|text|purpose} // 3.1.1 Purpose
+		1 {ND-PartProcurementScope[(BT-23-Part is present) or (BT-531-Part is present) or (BT-262-Part is present) or (BT-263-Part is present)]} #{auxiliary|text|purpose} // 3.1.1 Purpose
 			{BT-262-Part} #{field|name|BT-262-Part} (${BT-26(m)-Part}): ${BT-262-Part} #{BT-262-Part} // Main classification
 		2 {ND-PartPlacePerformance} #{auxiliary|text|place-performance} // 3.1.2 Place of performance
 			{BT-5071-Part} #{field|name|BT-5071-Part}: #{BT-5071-Part} (${BT-5071-Part}) // Country subentity
 			{BT-5141-Part} #{field|name|BT-5141-Part}: #{BT-5141-Part} // Country
 			{BT-727-Part} #{BT-727-Part} // Restrictions on the place of performance
-		3 {BT-137-Part[(BT-536-Part is present) or (BT-537-Part is present) or (BT-36-Part is present)]} #{auxiliary|text|duration} // 3.1.3 Duration
+		3 {ND-PartDuration[(BT-536-Part is present) or (BT-537-Part is present) or (BT-36-Part is present)]} #{auxiliary|text|duration} // 3.1.3 Duration
 			{BT-536-Part} #{field|name|BT-536-Part}: ${BT-536-Part} // Start date
 			{BT-537-Part} #{field|name|BT-537-Part}: ${BT-537-Part} // End date
 			{BT-36-Part} #{field|name|BT-36-Part}: ${format-number(OPA-36-Part-Number, '###,##0.###,###,###')} ${BT-36-Part/@unitCode} // Period
-		4 {BT-137-Part[(BT-27-Part is present)]} #{auxiliary|text|value} // 3.1.4 Value
+		4 {ND-PartValueEstimate[(BT-27-Part is present)]} #{auxiliary|text|value} // 3.1.4 Value
 			{BT-27-Part} #{field|name|BT-27-Part}: ${if (contains(string(BT-27-Part), ',')) then format-number(BT-27-Part, '###,##0.00') else format-number(BT-27-Part, '###,##0')} ${BT-27-Part/@currencyID} // Estimated value excluding VAT
 4 {ND-Root[BT-137-LotsGroup is present]} #{auxiliary|text|group-of-lots} // 4. Group of lots
 	1 {ND-LotsGroup} #{field|name|BT-330-Procedure}: ${BT-137-LotsGroup} // 4.1 Group of lots
@@ -43,7 +43,7 @@
 5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5. Lots
 	1 {ND-Lot} #{field|name|BT-137-Lot}: ${BT-137-Lot} // 5.1 Lot
 		{ND-Lot} #{field|name|BT-21-Lot}: ${BT-21-Lot} // Title
-		1 {BT-137-Lot[(BT-23-Lot is present) or (BT-26(m)-Lot is present) or (BT-26(a)-Lot is present) or (BT-25-Lot is present) or (BT-54-Lot is present)]} #{auxiliary|text|purpose} // 5.1.1 Purpose
+		1 {ND-LotProcurementScope[(BT-23-Lot is present) or (BT-26(m)-Lot is present) or (BT-26(a)-Lot is present) or (BT-25-Lot is present) or (BT-54-Lot is present)]} #{auxiliary|text|purpose} // 5.1.1 Purpose
 			{BT-262-Lot[BT-26(m)-Lot == 'cpv']} #{field|name|BT-262-Lot} (${BT-26(m)-Lot}): ${BT-262-Lot} #{BT-262-Lot} // Main classification (CPV)
 			{BT-262-Lot[BT-26(m)-Lot != 'cpv']} #{field|name|BT-262-Lot} (${BT-26(m)-Lot}): ${BT-262-Lot} // Main classification (non-CPV)
 		2 {ND-LotPlacePerformance} #{auxiliary|text|place-performance} // 5.1.2 Place of performance
@@ -55,9 +55,9 @@
 			{BT-537-Lot} #{field|name|BT-537-Lot}: ${BT-537-Lot} // End date
 			{BT-36-Lot} #{field|name|BT-36-Lot}: ${format-number(OPA-36-Lot-Number, '###,##0.###,###,###')} ${BT-36-Lot/@unitCode} // Duration
 			{BT-538-Lot} #{field|name|BT-538-Lot}: #{BT-538-Lot} // Planned Period (Unlimited)
-		5 {BT-137-Lot[(BT-27-Lot is present) or (BT-271-Lot is present) or (some text:$glo in (for text:$lotid in BT-137-Lot, text:$ldgloid in BT-330-Procedure[BT-1375-Procedure == $lotid], text:$gloid in BT-137-LotsGroup[BT-137-LotsGroup[BT-157-LotsGroup is present] == $ldgloid] return $gloid) satisfies $glo != '')]} #{auxiliary|text|value} // 5.1.5 Value
+		5 {ND-LotValueEstimate[(BT-27-Lot is present) or (BT-271-Lot is present) or (some text:$glo in (for text:$lotid in BT-137-Lot, text:$ldgloid in BT-330-Procedure[BT-1375-Procedure == $lotid], text:$gloid in BT-137-LotsGroup[BT-137-LotsGroup[BT-157-LotsGroup is present] == $ldgloid] return $gloid) satisfies $glo != '')]} #{auxiliary|text|value} // 5.1.5 Value
 			{BT-27-Lot} #{field|name|BT-27-Lot}: ${if (contains(string(BT-27-Lot), ',')) then format-number(BT-27-Lot, '###,##0.00') else format-number(BT-27-Lot, '###,##0')} ${BT-27-Lot/@currencyID} // Estimated value
-		12 {BT-137-Lot[(BT-631-Lot is present) or (BT-130-Lot is present) or (BT-578-Lot == 'true') or (BT-732-Lot is present) or (BT-78-Lot is present) or (BT-42-Lot == TRUE) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present) or (BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot == 'allowed') or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present) or ((BT-771-Lot is present) and (BT-772-Lot is present)) or (BT-132(d)-Lot is present) or (BT-133-Lot is present) or (BT-134-Lot is present) or (BT-736-Lot == 'yes') or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot == TRUE) or (BT-93-Lot == TRUE) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-99-Lot is present)]} #{auxiliary|text|procurement-terms} // 5.1.12 Procurement terms
+		12 {BT-137-Lot[(BT-631-Lot is present) or (BT-130-Lot is present) or (BT-578-Lot == 'true') or (BT-732-Lot is present) or (BT-78-Lot is present) or (BT-42-Lot == TRUE) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present) or (BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot == 'allowed') or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present) or ((BT-771-Lot is present) and (BT-772-Lot is present)) or (BT-132(d)-Lot is present) or (BT-133-Lot is present) or (BT-134-Lot is present) or (BT-736-Lot == 'yes') or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot == TRUE) or (BT-93-Lot == TRUE) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-99-Lot is present) or (OPP-020-Contract is present)]} #{auxiliary|text|procurement-terms} // 5.1.12 Procurement terms
 			0 {ND-LotTenderingTerms[(BT-42-Lot == TRUE) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present)]} #{auxiliary|text|design-contest-terms}: // Terms of the design contest regime
 			0 {BT-137-Lot[(BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot == 'allowed') or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present)]} #{auxiliary|text|submission-terms}: // Terms of submission
 				{BT-630(d)-Lot} #{field|name|BT-630(d)-Lot}: ${BT-630(d)-Lot} ${BT-630(t)-Lot} // Deadline for receipt of expressions of interest

@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.220",
-    "createdOn" : "2023-07-27T14:05:13"
+    "version" : "1.8.235",
+    "createdOn" : "2023-08-18T15:25:50"
   },
   "noticeId" : "27",
   "metadata" : [ {
@@ -905,6 +905,21 @@
             "displayType" : "COMBOBOX",
             "description" : "Green Procurement",
             "_label" : "field|name|BT-774-Lot"
+          } ]
+        }, {
+          "id" : "GR-Lot-Green-Procurement",
+          "contentType" : "group",
+          "nodeId" : "ND-LotGreenCriteria",
+          "displayType" : "GROUP",
+          "description" : "Details about the use of Green Procurement Criteria",
+          "_label" : "group|name|ND-LotGreenCriteria",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-805-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Green Procurement Criteria",
+            "_label" : "field|name|BT-805-Lot"
           } ]
         }, {
           "id" : "GR-Lot-Social-Objective",
