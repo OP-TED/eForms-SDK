@@ -81,7 +81,6 @@
 	<xsd:element name="TermAmount" type="TermAmountType"/>
 	<xsd:element name="TermCode" type="TermCodeType"/>
 	<xsd:element name="TermDescription" type="TermDescriptionType"/>
-	<xsd:element name="TermIndicator" type="TermIndicatorType"/>
 	<xsd:element name="TermPercent" type="TermPercentType"/>
 	<xsd:element name="TransmissionDate" type="TransmissionDateType"/>
 	<xsd:element name="TransmissionTime" type="TransmissionTimeType"/>
@@ -445,11 +444,6 @@
 	<xsd:complexType name="TermDescriptionType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:TextType"/>
-		</xsd:simpleContent>
-	</xsd:complexType>
-	<xsd:complexType name="TermIndicatorType">
-		<xsd:simpleContent>
-			<xsd:restriction base="udt:IndicatorType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="TermPercentType">
