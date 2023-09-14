@@ -5539,6 +5539,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-identifier",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-195(BT-636)-LotResult",
@@ -5561,6 +5568,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-identifier",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-195(BT-709)-LotResult",
@@ -8385,6 +8399,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-197(BT-636)-LotResult",
@@ -8407,6 +8428,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-197(BT-709)-LotResult",
