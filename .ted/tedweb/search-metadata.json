@@ -132,7 +132,7 @@
 		"comment": "Languages in which tenders may be submitted"
 	},
 	"TI-Title": {
-		"efx": "{ND-Root} ${/BT-21-Procedure}",
+		"efx": "{ND-Root} ${/BT-21-Procedure[BT-21-Procedure/@languageID is not empty]}",
 		"comment": "(TI) Title (Title of the document)"
 	},
 	"TI-CPV": {
