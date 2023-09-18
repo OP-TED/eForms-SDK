@@ -114,15 +114,6 @@ vol3
 </cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
 		<cac:RequestedTenderTotal>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efbc:FrameworkMaximumAmount currencyID="BSD">247547</efbc:FrameworkMaximumAmount>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cbc:EstimatedOverallContractAmount currencyID="BWP">1231</cbc:EstimatedOverallContractAmount>
 		</cac:RequestedTenderTotal>
 		<cac:MainCommodityClassification>
