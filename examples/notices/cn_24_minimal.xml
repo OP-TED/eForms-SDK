@@ -198,6 +198,13 @@ But with the minimal amount of information while still valid
 				<cbc:EndDate>2020-02-04+02:00</cbc:EndDate>
 				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
 			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2020-02-04+01:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:00:00+01:00</cbc:OccurrenceTime>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="ENG">Premises of the Publications Office in LUXEMBOURG.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>
