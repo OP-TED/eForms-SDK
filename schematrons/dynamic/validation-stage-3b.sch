@@ -2482,7 +2482,7 @@
 		<assert id="BR-OPT-00001-0052" role="ERROR" test="matches(normalize-space(.),'^2\.3$')">rule|text|BR-OPT-00001-0052</assert>
 	</rule>
 	<rule context="/*/cbc:CustomizationID">
-		<assert id="BR-OPT-00002-0052" role="ERROR" test="matches(normalize-space(.),'^eforms-sdk-\d\.\d$')">rule|text|BR-OPT-00002-0052</assert>
+		<assert id="BR-OPT-00002-0052" role="ERROR" test="matches(normalize-space(.),'^eforms-sdk-\d+\.\d+$')">rule|text|BR-OPT-00002-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-OPT-00100-0052" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-OPT-00100-0052</assert>

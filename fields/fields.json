@@ -34808,7 +34808,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^eforms-sdk-\\d\\.\\d$",
+      "value" : "^eforms-sdk-\\d+\\.\\d+$",
       "severity" : "ERROR"
     }
   }, {
