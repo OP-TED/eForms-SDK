@@ -132,6 +132,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Town</cbc:CityName>
+									<cbc:PostalZone>95123</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
 									</cac:Country>

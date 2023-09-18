@@ -139,6 +139,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Town</cbc:CityName>
+									<cbc:PostalZone>90210</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">EL303</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
 									</cac:Country>
