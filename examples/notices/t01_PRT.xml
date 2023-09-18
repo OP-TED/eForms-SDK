@@ -105,7 +105,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
-		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:ProcedureCode listName="procurement-procedure-type">comp-tend</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>RA/DAF/SERV-96/18</cbc:ID>

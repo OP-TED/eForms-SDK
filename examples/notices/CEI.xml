@@ -188,10 +188,6 @@
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
-	<cac:TenderingProcess>
-		<!-- Only acceptable code for Procedure Type: "restricted" -->
-		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
-	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>xyz</cbc:ID>
 		<cbc:Name languageID="ENG">Call for Expressions of Interest</cbc:Name>
