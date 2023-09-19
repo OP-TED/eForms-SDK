@@ -111,11 +111,12 @@
          "displayType":"TEXTAREA"
       },
       {
-         "groupId":"GR-Part",
+         "id":"GR-Part",
          "contentType":"group",
          "_label":"group|name|ND-Part",
          "description":"Part",
-         "fields":[
+         "displayType":"GROUP",
+         "content":[
             {
                "id":"BT-708-Part",
                "contentType":"field",
@@ -127,11 +128,12 @@
          ]
       },
       {
-         "groupId":"GR-Lot",
+         "id":"GR-Lot",
          "contentType":"group",
          "_label":"group|name|ND-Lot",
          "description":"Lot",
-         "fields":[
+         "displayType":"GROUP",
+         "content":[
             {
                "id":"BT-708-Lot",
                "contentType":"field",
