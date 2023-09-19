@@ -28613,6 +28613,11 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29", "30", "31", "38", "39", "40" ],
+        "condition" : "{ND-ProcurementDetailsLotResult} ${BT-735-LotResult is not present}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "codeList" : {
@@ -29410,6 +29415,11 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "29", "30", "31", "38", "39", "40" ],
+        "condition" : "{ND-StrategicProcurementInformationLot} ${not(BT-717-Lot == 'true')}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "codeList" : {
@@ -29456,6 +29466,16 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29", "30", "31" ],
+        "condition" : "{ND-StrategicProcurementInformationLotResult} ${(BT-13713-LotResult in BT-137-Lot[not(BT-717-Lot == 'true')]) or not(BT-142-LotResult == 'selec-w')}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "38", "39", "40" ],
+        "condition" : "{ND-StrategicProcurementInformationLotResult} ${BT-13713-LotResult == BT-137-Lot[not(BT-717-Lot == 'true')]}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -35725,6 +35745,11 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29", "30", "31", "38", "39", "40" ],
+        "condition" : "{ND-ProcurementStatistics} ${BT-723-LotResult is not present}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "codeList" : {
@@ -35768,6 +35793,11 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "32", "33", "34", "35", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29", "30", "31", "38", "39", "40" ],
+        "condition" : "{ND-ProcurementStatistics} ${OPT-155-LotResult is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
