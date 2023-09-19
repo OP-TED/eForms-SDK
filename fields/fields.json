@@ -33756,7 +33756,7 @@
     "btId" : "OPP-032",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/text()='all-rev-tic']/efbc:TermPercent",
     "xpathRelative" : "efbc:TermPercent",
-    "xsdSequenceOrder" : [ { "efbc:TermPercent" : 4 } ],
+    "xsdSequenceOrder" : [ { "efbc:TermPercent" : 3 } ],
     "type" : "number",
     "repeatable" : {
       "value" : false,
@@ -33888,6 +33888,55 @@
         "id" : "eu-official-language",
         "type" : "flat"
       },
+      "severity" : "ERROR"
+    }
+  }, {
+    "id" : "OPP-035-Tender",
+    "parentNodeId" : "ND-RevenueAllocation",
+    "name" : "Revenues Allocation of tickets sales code",
+    "btId" : "OPP-035",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/text()='all-rev-tic']/efbc:TermCode",
+    "xpathRelative" : "efbc:TermCode",
+    "xsdSequenceOrder" : [ { "efbc:TermCode" : 1 } ],
+    "type" : "code",
+    "attributes" : [ "OPP-035-Tender-List" ],
+    "presetValue" : "all-rev-tic",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "T02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "OPP-035-Tender-List",
+    "parentNodeId" : "ND-RevenueAllocation",
+    "name" : "Revenues Allocation of tickets sales code Listname",
+    "btId" : "OPP-035",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/text()='all-rev-tic']/efbc:TermCode/@listName",
+    "xpathRelative" : "efbc:TermCode/@listName",
+    "xsdSequenceOrder" : [ { "efbc:TermCode" : 1 } ],
+    "type" : "text",
+    "attributeName" : "listName",
+    "attributeOf" : "OPP-035-Tender",
+    "presetValue" : "contract-detail",
+    "repeatable" : {
+      "value" : false,
       "severity" : "ERROR"
     }
   }, {

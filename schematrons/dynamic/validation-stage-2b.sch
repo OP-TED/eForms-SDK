@@ -1315,6 +1315,7 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/text()='all-rev-tic']">
 		<assert id="OPP-032-Tender_R" role="ERROR" diagnostics="OPP-032-Tender" test="count(efbc:TermPercent) &lt; 2">rule|text|OPP-032-Tender_R</assert>
+		<assert id="OPP-035-Tender_R" role="ERROR" diagnostics="OPP-035-Tender" test="count(efbc:TermCode) &lt; 2">rule|text|OPP-035-Tender_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[not(efbc:TermCode/text()='all-rev-tic')][efbc:TermCode/@listName='contract-detail']">
 		<assert id="OPP-030-Tender_R" role="ERROR" diagnostics="OPP-030-Tender" test="count(efbc:TermCode) &lt; 2">rule|text|OPP-030-Tender_R</assert>

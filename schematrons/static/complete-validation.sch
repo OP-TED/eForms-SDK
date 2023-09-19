@@ -912,6 +912,7 @@
 		<diagnostic id="OPP-031-Tender" see="field:OPP-031-Tender">efbc:TermDescription</diagnostic>
 		<diagnostic id="OPP-032-Tender" see="field:OPP-032-Tender">efbc:TermPercent</diagnostic>
 		<diagnostic id="OPP-034-Tender" see="field:OPP-034-Tender">efbc:TermDescription</diagnostic>
+		<diagnostic id="OPP-035-Tender" see="field:OPP-035-Tender">efbc:TermCode</diagnostic>
 		<diagnostic id="OPP-040-Procedure" see="field:OPP-040-Procedure">cbc:ProcurementTypeCode</diagnostic>
 		<diagnostic id="OPP-050-Organization" see="field:OPP-050-Organization">efbc:GroupLeadIndicator</diagnostic>
 		<diagnostic id="OPP-051-Organization" see="field:OPP-051-Organization">efbc:AwardingCPBIndicator</diagnostic>
