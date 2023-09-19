@@ -736,6 +736,7 @@
 		<diagnostic id="ND-LotTenderingProcess_BT-1311_t_-Lot" see="field:BT-1311(t)-Lot">cac:ParticipationRequestReceptionPeriod/cbc:EndTime</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-131_d_-Lot" see="field:BT-131(d)-Lot">cac:TenderSubmissionDeadlinePeriod/cbc:EndDate</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-131_t_-Lot" see="field:BT-131(t)-Lot">cac:TenderSubmissionDeadlinePeriod/cbc:EndTime</diagnostic>
+		<diagnostic id="ND-LotTenderingProcess_BT-132_d_-Lot" see="field:BT-132(d)-Lot">cac:OpenTenderEvent/cbc:OccurrenceDate</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-13_d_-Lot" see="field:BT-13(d)-Lot">cac:AdditionalInformationRequestPeriod/cbc:EndDate</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-13_t_-Lot" see="field:BT-13(t)-Lot">cac:AdditionalInformationRequestPeriod/cbc:EndTime</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-765-Lot" see="field:BT-765-Lot">cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode</diagnostic>
