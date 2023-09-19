@@ -33672,8 +33672,9 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "contract-detail",
-        "type" : "flat"
+        "id" : "contract-term",
+        "type" : "flat",
+        "parentId" : "contract-detail"
       },
       "severity" : "ERROR"
     }
@@ -33688,7 +33689,7 @@
     "type" : "text",
     "attributeName" : "listName",
     "attributeOf" : "OPP-030-Tender",
-    "presetValue" : "contract-term",
+    "presetValue" : "contract-detail",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"

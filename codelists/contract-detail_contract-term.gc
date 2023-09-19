@@ -2,11 +2,12 @@
 <!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>ContractDetail</ShortName>
-      <LongName>contract-detail</LongName>
+      <ShortName>ContractTerm</ShortName>
+      <LongName>contract-term</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/contract-detail</LongName>
-      <Version>20220316-0</Version>
-      <CanonicalUri>http://publications.europa.eu/resource/dataset/contract-detail</CanonicalUri>
+      <LongName Identifier="eFormsParentId">contract-detail</LongName>
+      <Version>1.9.52</Version>
+      <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -120,86 +121,6 @@
       </Column>
    </ColumnSet>
    <SimpleCodeList>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>all-rev-tic</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Allocation of revenues of sales from tickets</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Разпределяне на приходи от продажби на билети</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Rozdělení výnosů z prodeje jízdenek</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Fordeling af indtægter fra billetsalg</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Zuteilung der Erträge aus dem Verkauf von Fahrscheinen</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Κατανομή των εσόδων από την πώληση εισιτηρίων</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Allocation of revenues of sales from tickets</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Distribución de los ingresos derivados de la venta de los títulos de transporte</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Piletimüügist saadava tulu jaotamine</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Matkalippujen myynnistä saatavien tulojen jakaminen</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Affectation des recettes provenant de la vente des titres de transport</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Leithdháileadh an ioncaim ó dhíolachán ticéad</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Dodjela prihoda od prodaje karata</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>A jegyértékesítésből származó bevételek megosztása</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Ripartizione dei ricavi dalla vendita di biglietti</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Pajamų, gautų pardavus bilietus, paskirstymas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Biļešu pārdošanā iegūto ieņēmumu sadale</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>L-allokazzjoni tad-dħul mill-bejgħ tal-biljetti</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Verdeelsleutel voor de ontvangsten uit de verkoop van vervoerbewijzen</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Podział przychodów ze sprzedaży biletów</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Repartição das receitas ligadas à venda de títulos de transporte</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Alocarea veniturilor încasate din vânzarea de bilete</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Vyčlenenie výnosov z predaja lístkov</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Razporeditev prihodkov iz prodaje vozovnic</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Tilldelning av inkomster från biljettförsäljning</SimpleValue>
-         </Value>
-      </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>cost-comp</SimpleValue>
