@@ -191,6 +191,87 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description/@languageID">
 		<assert id="BR-BT-00099-0052" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00099-0052</assert>
 	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '7']">
+		<assert id="BR-BT-00105-0125" role="ERROR" test="normalize-space(.) = ('neg-w-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0125</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '8']">
+		<assert id="BR-BT-00105-0126" role="ERROR" test="normalize-space(.) = ('neg-w-call', 'open', 'oth-mult', 'oth-single')">rule|text|BR-BT-00105-0126</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '9']">
+		<assert id="BR-BT-00105-0127" role="ERROR" test="normalize-space(.) = ('neg-w-call', 'restricted')">rule|text|BR-BT-00105-0127</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '10']">
+		<assert id="BR-BT-00105-0128" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0128</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '11']">
+		<assert id="BR-BT-00105-0129" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0129</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '12']">
+		<assert id="BR-BT-00105-0131" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0131</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '13']">
+		<assert id="BR-BT-00105-0132" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0132</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '16']">
+		<assert id="BR-BT-00105-0135" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0135</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '17']">
+		<assert id="BR-BT-00105-0136" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0136</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '18']">
+		<assert id="BR-BT-00105-0137" role="ERROR" test="normalize-space(.) = ('comp-dial', 'neg-w-call', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0137</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '20']">
+		<assert id="BR-BT-00105-0140" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0140</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '21']">
+		<assert id="BR-BT-00105-0141" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0141</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '23']">
+		<assert id="BR-BT-00105-0143" role="ERROR" test="normalize-space(.) = ('open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0143</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '24']">
+		<assert id="BR-BT-00105-0144" role="ERROR" test="normalize-space(.) = ('open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0144</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '25']">
+		<assert id="BR-BT-00105-0145" role="ERROR" test="normalize-space(.) = ('neg-wo-call', 'oth-mult', 'oth-single')">rule|text|BR-BT-00105-0145</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '26']">
+		<assert id="BR-BT-00105-0146" role="ERROR" test="normalize-space(.) = ('neg-wo-call', 'oth-mult', 'oth-single')">rule|text|BR-BT-00105-0146</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '27']">
+		<assert id="BR-BT-00105-0147" role="ERROR" test="normalize-space(.) = ('neg-wo-call', 'oth-mult', 'oth-single')">rule|text|BR-BT-00105-0147</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '28']">
+		<assert id="BR-BT-00105-0148" role="ERROR" test="normalize-space(.) = ('neg-wo-call', 'oth-mult', 'oth-single')">rule|text|BR-BT-00105-0148</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '29']">
+		<assert id="BR-BT-00105-0149" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0149</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '30']">
+		<assert id="BR-BT-00105-0150" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0150</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '31']">
+		<assert id="BR-BT-00105-0151" role="ERROR" test="normalize-space(.) = ('comp-dial', 'neg-w-call', 'neg-wo-call', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0151</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '33']">
+		<assert id="BR-BT-00105-0155" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0155</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '34']">
+		<assert id="BR-BT-00105-0156" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0156</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '36']">
+		<assert id="BR-BT-00105-0158" role="ERROR" test="normalize-space(.) = ('open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0158</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '37']">
+		<assert id="BR-BT-00105-0159" role="ERROR" test="normalize-space(.) = ('open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0159</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00105-0124" role="ERROR" test="normalize-space(.) = ('comp-tend')">rule|text|BR-BT-00105-0124</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00105-0154" role="ERROR" test="normalize-space(.) = ('comp-tend')">rule|text|BR-BT-00105-0154</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode">
 		<assert id="BR-BT-00105-0052" role="ERROR" test="normalize-space(.) = ('comp-dial', 'comp-tend', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0052</assert>
 	</rule>

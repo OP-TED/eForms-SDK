@@ -2667,7 +2667,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "15", "38", "39", "40", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "14", "15", "19", "22", "32", "35", "38", "39", "40", "CEI", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -2676,7 +2676,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "10", "11", "16", "17", "18", "23", "24", "25", "26", "27", "28", "29", "30", "31", "36", "37", "CEI", "T01", "T02" ],
+        "noticeTypes" : [ "10", "11", "16", "17", "18", "23", "24", "25", "26", "27", "28", "29", "30", "31", "36", "37", "T01", "T02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -2686,7 +2686,224 @@
         "id" : "procurement-procedure-type",
         "type" : "flat"
       },
-      "severity" : "ERROR"
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "10" ],
+        "value" : {
+          "id" : "procedure-type-10",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "11" ],
+        "value" : {
+          "id" : "procedure-type-11",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "12" ],
+        "value" : {
+          "id" : "procedure-type-12",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "13" ],
+        "value" : {
+          "id" : "procedure-type-13",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "16" ],
+        "value" : {
+          "id" : "procedure-type-16",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "17" ],
+        "value" : {
+          "id" : "procedure-type-17",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "18" ],
+        "value" : {
+          "id" : "procedure-type-18",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "20" ],
+        "value" : {
+          "id" : "procedure-type-20",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "21" ],
+        "value" : {
+          "id" : "procedure-type-21",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "23" ],
+        "value" : {
+          "id" : "procedure-type-23",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "24" ],
+        "value" : {
+          "id" : "procedure-type-24",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "25" ],
+        "value" : {
+          "id" : "procedure-type-25",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "26" ],
+        "value" : {
+          "id" : "procedure-type-26",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "27" ],
+        "value" : {
+          "id" : "procedure-type-27",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "28" ],
+        "value" : {
+          "id" : "procedure-type-28",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29" ],
+        "value" : {
+          "id" : "procedure-type-29",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "30" ],
+        "value" : {
+          "id" : "procedure-type-30",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "31" ],
+        "value" : {
+          "id" : "procedure-type-31",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "33" ],
+        "value" : {
+          "id" : "procedure-type-33",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "34" ],
+        "value" : {
+          "id" : "procedure-type-34",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "36" ],
+        "value" : {
+          "id" : "procedure-type-36",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "37" ],
+        "value" : {
+          "id" : "procedure-type-37",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7" ],
+        "value" : {
+          "id" : "procedure-type-7",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "8" ],
+        "value" : {
+          "id" : "procedure-type-8",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "9" ],
+        "value" : {
+          "id" : "procedure-type-9",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "T01" ],
+        "value" : {
+          "id" : "procedure-type-t01",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "T02" ],
+        "value" : {
+          "id" : "procedure-type-t02",
+          "type" : "flat",
+          "parentId" : "procurement-procedure-type"
+        },
+        "severity" : "ERROR"
+      } ]
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
