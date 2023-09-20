@@ -17343,7 +17343,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot ei ole teate liigi '23' puhul lubatud järgmisel tingimusel: 'Juurdepääs teatavatele hankedokumentidele on piiratud' (BT-14-Lot) ei ole täidetud</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot ei ole teate liigi '24' puhul lubatud järgmisel tingimusel: 'Juurdepääs teatavatele hankedokumentidele on piiratud' (BT-14-Lot) ei ole täidetud</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice peab vastama järgmisele skeemile: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Eelistatud avaldamiskuupäev' (BT-738-notice) peab olema 2 kuni 60 päeva pärast 'Teate saatmise kuupäev'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Avaldamise eeliskuupäev' (BT-738-notice) peab olema 0 kuni 60 päeva pärast 'Teate saatmise kuupäev'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company ei ole teate liigi 'X01' puhul lubatud</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company ei ole teate liigi 'X02' puhul lubatud</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company peab vastama järgmisele skeemile: PhoneNumber</entry>
