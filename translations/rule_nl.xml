@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot is niet toegestaan in het type aankondiging '23' onder de volgende voorwaarde:'De toegang tot bepaalde aanbestedingsdocumenten is beperkt' (BT-14-Lot) is niet ingevuld</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot is niet toegestaan in het type aankondiging '24' onder de volgende voorwaarde:'De toegang tot bepaalde aanbestedingsdocumenten is beperkt' (BT-14-Lot) is niet ingevuld</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice moet overeenkomen met het volgende patroon: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Voorkeursdatum van publicatie' (BT-738-notice) moet tussen twee en zestig dagen na 'Verzenddatum van de aankondiging' zijn</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Voorkeursdatum voor publicatie' (BT-738-notice) moet tussen 0 en zestig dagen na 'Verzenddatum van de aankondiging' zijn</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company is niet toegestaan in het type aankondiging 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company is niet toegestaan in het type aankondiging 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company moet overeenkomen met het volgende patroon: PhoneNumber</entry>
