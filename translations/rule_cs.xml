@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot není povolen u typu oznámení '23' za této podmínky: 'Přístup k některým zadávacím dokumentům je omezen' (BT-14-Lot) není vyplněn</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot není povolen u typu oznámení '24' za této podmínky: 'Přístup k některým zadávacím dokumentům je omezen' (BT-14-Lot) není vyplněn</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice musí odpovídat tomuto vzoru: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Preferované datum zveřejnění' (BT-738-notice) musí být v rozmezí od 2 do 60 dnů po 'Datum odeslání oznámení'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Preferované datum zveřejnění' (BT-738-notice) musí být v rozmezí od 0 do 60 dnů po 'Datum odeslání oznámení'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company není povolen u typu oznámení 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company není povolen u typu oznámení 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company musí odpovídat tomuto vzoru: PhoneNumber</entry>
