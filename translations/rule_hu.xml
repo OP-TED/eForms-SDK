@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot nem engedélyezett a '23' hirdetménytípusban a következő feltételek mellett:'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Lot) nincs kitöltve</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot nem engedélyezett a '24' hirdetménytípusban a következő feltételek mellett:'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Lot) nincs kitöltve</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice mindenképpen feleljen meg következő mintának: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Előnyben részesített közzétételi dátum' (BT-738-notice) 2–60 nappal 'A hirdetmény megküldésének dátuma' után kell, hogy legyen</entry>
+<entry key="rule|text|BR-BT-00738-0053">'A hirdetmény közzétételének preferált dátuma' (BT-738-notice) 0–60 nappal 'A hirdetmény megküldésének dátuma' után kell, hogy legyen</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company nem engedélyezett a 'X01' hirdetménytípusban</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company nem engedélyezett a 'X02' hirdetménytípusban</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company mindenképpen feleljen meg következő mintának: PhoneNumber</entry>

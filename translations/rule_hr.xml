@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot nije dopušteno u vrsti obavijesti '23' pod sljedećim uvjetom: 'Pristup određenim dokumentima o nabavi ograničen je' (BT-14-Lot) nije popunjeno</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot nije dopušteno u vrsti obavijesti '24' pod sljedećim uvjetom: 'Pristup određenim dokumentima o nabavi ograničen je' (BT-14-Lot) nije popunjeno</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice mora biti u skladu sa sljedećim uzorkom: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Željeni datum objave' (BT-738-notice) mora biti između dva i 60 dana nakon 'Datum slanja obavijesti'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Željeni datum objave' (BT-738-notice) mora biti između 0 i 60 dana nakon 'Datum slanja obavijesti'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company nije dopušteno u vrsti obavijesti 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company nije dopušteno u vrsti obavijesti 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company mora biti u skladu sa sljedećim uzorkom: PhoneNumber</entry>

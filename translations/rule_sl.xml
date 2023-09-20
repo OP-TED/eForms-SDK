@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot ni dovoljeno v obvestilu vrste '23' pod naslednjimi pogoji: 'Dostop do nekaterih dokumentov v zvezi z oddajo javnega naročila je omejen' (BT-14-Lot) ni izpolnjeno</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot ni dovoljeno v obvestilu vrste '24' pod naslednjimi pogoji: 'Dostop do nekaterih dokumentov v zvezi z oddajo javnega naročila je omejen' (BT-14-Lot) ni izpolnjeno</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice se mora ujemati z naslednjim vzorcem: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Prednostni datum objave' (BT-738-notice) mora biti od 2 dni do 60 dni po 'Datum pošiljanja obvestila'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Zaželeni datum objave' (BT-738-notice) mora biti od 0 dni do 60 dni po 'Datum pošiljanja obvestila'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company ni dovoljeno v obvestilu vrste 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company ni dovoljeno v obvestilu vrste 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company se mora ujemati z naslednjim vzorcem: PhoneNumber</entry>
