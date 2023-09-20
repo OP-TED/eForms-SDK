@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0-SNAPSHOT",
+  "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.235",
-    "createdOn" : "2023-08-18T15:25:50"
+    "version" : "1.9.59",
+    "createdOn" : "2023-09-20T09:23:55"
   },
   "noticeId" : "30",
   "metadata" : [ {
@@ -625,21 +625,30 @@
             "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-105)-Procedure"
           } ]
-        }, {
+        } ]
+      }, {
+        "id" : "GR-Procedure-Accelerated",
+        "contentType" : "group",
+        "nodeId" : "ND-AcceleratedProcedure",
+        "displayType" : "GROUP",
+        "description" : "Accelerated Procedure (or not) and Justification",
+        "_label" : "group|name|ND-AcceleratedProcedure",
+        "content" : [ {
           "id" : "BT-106-Procedure",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
           "description" : "Procedure Accelerated",
           "_label" : "field|name|BT-106-Procedure",
-          "unpublishGroupId" : "GR-Unpublish-BT-106",
+          "unpublishGroupId" : "GR-Unpublish-BT-106-Procedure",
           "unpublishFieldId" : "BT-195(BT-106)-Procedure",
           "unpublishCode" : "pro-acc"
         }, {
-          "id" : "GR-Unpublish-BT-106",
+          "id" : "GR-Unpublish-BT-106-Procedure",
           "contentType" : "group",
+          "nodeId" : "ND-ProcedureAcceleratedUnpublish",
           "displayType" : "GROUP",
-          "description" : "Unpublish - BT-106",
-          "_label" : "group|name|GR-Unpublish-BT-106",
+          "description" : "Not Immediately Published (Procedure Accelerated)",
+          "_label" : "group|name|ND-ProcedureAcceleratedUnpublish",
           "collapsed" : true,
           "content" : [ {
             "id" : "BT-195(BT-106)-Procedure",
@@ -673,15 +682,16 @@
           "displayType" : "TEXTAREA",
           "description" : "Procedure Accelerated Justification",
           "_label" : "field|name|BT-1351-Procedure",
-          "unpublishGroupId" : "GR-Unpublish-BT-1351",
+          "unpublishGroupId" : "GR-Unpublish-BT-1351-Procedure",
           "unpublishFieldId" : "BT-195(BT-1351)-Procedure",
           "unpublishCode" : "pro-acc-jus"
         }, {
-          "id" : "GR-Unpublish-BT-1351",
+          "id" : "GR-Unpublish-BT-1351-Procedure",
           "contentType" : "group",
+          "nodeId" : "ND-ProcedureAcceleratedJustificationUnpublish",
           "displayType" : "GROUP",
-          "description" : "Unpublish - BT-1351",
-          "_label" : "group|name|GR-Unpublish-BT-1351",
+          "description" : "Not Immediately Published (ProcedureAcceleratedJustification)",
+          "_label" : "group|name|ND-ProcedureAcceleratedJustificationUnpublish",
           "collapsed" : true,
           "content" : [ {
             "id" : "BT-195(BT-1351)-Procedure",
@@ -1337,7 +1347,7 @@
         "content" : [ {
           "id" : "BT-60-Lot",
           "contentType" : "field",
-          "displayType" : "TEXTBOX",
+          "displayType" : "COMBOBOX",
           "description" : "EU Funds",
           "_label" : "field|name|BT-60-Lot"
         } ]
