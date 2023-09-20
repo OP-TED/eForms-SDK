@@ -2387,10 +2387,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${(BT-05(a)-notice < BT-738-notice) or not(BT-738-notice is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00005-0150"
-      }, {
         "value" : "{ND-Root} ${((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice in ('cancel','cancel-intent'))) or not((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00005-0151"
@@ -29686,7 +29682,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-Root} ${BT-738-notice is present}",
-        "value" : "{ND-Root} ${((BT-738-notice - BT-05(a)-notice) < P60D) and ((BT-738-notice - BT-05(a)-notice) >= P2D)}",
+        "value" : "{ND-Root} ${((BT-738-notice - BT-05(a)-notice) < P60D) and ((BT-738-notice - BT-05(a)-notice) >= P0D)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00738-0053"
       } ]
