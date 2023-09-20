@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot nu este permis în tipul de anunț '23' în următoarele condiții: 'Accesul la anumite documente de achiziție este restricționat' (BT-14-Lot) nu este completat</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot nu este permis în tipul de anunț '24' în următoarele condiții: 'Accesul la anumite documente de achiziție este restricționat' (BT-14-Lot) nu este completat</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice trebuie să corespundă următorului model: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Data de publicare preferată' (BT-738-notice) trebuie să fie între 2 și 60 de zile după 'Data notificării expedierii'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Data preferată pentru publicare' (BT-738-notice) trebuie să fie între 0 și 60 de zile după 'Data notificării expedierii'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company nu este permis în tipul de anunț 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company nu este permis în tipul de anunț 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company trebuie să corespundă următorului model: PhoneNumber</entry>

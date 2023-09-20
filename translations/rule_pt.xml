@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot não é autorizada no tipo de anúncio '23', nas seguintes condições: 'O acesso a determinados documentos do concurso é limitado' (BT-14-Lot) não está preenchido</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot não é autorizada no tipo de anúncio '24', nas seguintes condições: 'O acesso a determinados documentos do concurso é limitado' (BT-14-Lot) não está preenchido</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice deve corresponder ao seguinte padrão: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Data de publicação preferida' (BT-738-notice) deve estar entre 2 e 60 dias após 'Data de envio do anúncio'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Data de publicação preferida' (BT-738-notice) deve estar entre 0 e 60 dias após 'Data de envio do anúncio'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company não é autorizada no tipo de anúncio 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company não é autorizada no tipo de anúncio 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company deve corresponder ao seguinte padrão: PhoneNumber</entry>
