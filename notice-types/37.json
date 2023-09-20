@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.9.0",
   "metadataDatabase" : {
-    "version" : "1.9.0",
-    "createdOn" : "2023-08-24T14:00:00"
+    "version" : "1.9.1",
+    "createdOn" : "2023-09-20T11:33:23"
   },
   "noticeId" : "37",
   "metadata" : [ {
@@ -972,7 +972,7 @@
         "content" : [ {
           "id" : "BT-60-Lot",
           "contentType" : "field",
-          "displayType" : "TEXTBOX",
+          "displayType" : "COMBOBOX",
           "description" : "EU Funds",
           "_label" : "field|name|BT-60-Lot"
         } ]
