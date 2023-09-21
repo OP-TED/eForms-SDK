@@ -2529,6 +2529,9 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier">
 		<assert id="BR-BT-01501-0102" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-BT-01501-0102</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier">
+		<assert id="BR-BT-01501-0109" role="ERROR" test="matches(normalize-space(.),'^(RESULT|((CON|RES|TEN|TPA|TPO|ORG)-\d{4}))$')">rule|text|BR-BT-01501-0109</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID">
 		<assert id="BR-BT-03202-0051" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-BT-03202-0051</assert>
 	</rule>

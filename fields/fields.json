@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.58",
-    "createdOn" : "2023-09-19T16:34:47"
+    "version" : "1.9.60",
+    "createdOn" : "2023-09-21T11:22:09"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -5887,6 +5887,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(RESULT|((CON|RES|TEN|TPA|TPO|ORG)-\\d{4}))$",
+      "severity" : "ERROR"
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
