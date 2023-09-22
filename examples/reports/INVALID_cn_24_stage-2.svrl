@@ -673,7 +673,7 @@
    <svrl:failed-assert id="BR-BT-00506-0052"
                        location="/cn:ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$')">
+                       test="matches(normalize-space(.),'^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\.)+([A-Za-z]{2,})$')">
       <svrl:text>rule|text|BR-BT-00506-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:CityName"/>

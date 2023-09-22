@@ -3998,7 +3998,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "16", "17", "20", "21" ],
-        "condition" : "{ND-PublicOpening} ${not(BT-105-Procedure == 'open')}",
+        "condition" : "{ND-LotTenderingProcess} ${not(BT-105-Procedure == 'open')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
