@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.60",
-    "createdOn" : "2023-09-21T11:22:09"
+    "version" : "1.9.67",
+    "createdOn" : "2023-09-28T15:33:08"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3821,6 +3821,11 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
+        "condition" : "{ND-LotTenderingProcess} ${BT-125(i)-Lot is not present}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     }
   }, {
@@ -3843,6 +3848,11 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "4", "5", "6" ],
+        "condition" : "{ND-PartPreviousPlanning} ${BT-125(i)-Part is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
