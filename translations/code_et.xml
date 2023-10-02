@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">Euroopa Teadusuuringute Rakendusamet</entry>
 <entry key="code|name|corporate-body.SESAR">Euroopa lennuliikluse uue põlvkonna juhtimissüsteemi arendav kolmas ühisettevõte</entry>
 <entry key="code|name|corporate-body.SRB">Ühtne kriisilahendusnõukogu</entry>
-<entry key="code|name|country.1A0">Kosovo</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">Afganistan</entry>
 <entry key="code|name|country.AGO">Angola</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">Armeenia</entry>
 <entry key="code|name|country.ASM">Ameerika Samoa</entry>
 <entry key="code|name|country.ATA">Antarktika</entry>
+<entry key="code|name|country.ATF">Prantsuse Antarktilised ja Lõunaalad</entry>
 <entry key="code|name|country.ATG">Antigua ja Barbuda</entry>
 <entry key="code|name|country.AUS">Austraalia</entry>
 <entry key="code|name|country.AUT">Austria</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">Hispaania</entry>
 <entry key="code|name|country.EST">Eesti</entry>
 <entry key="code|name|country.ETH">Etioopia</entry>
+<entry key="code|name|country.EUR">Euroopa Liit</entry>
 <entry key="code|name|country.FIN">Soome</entry>
 <entry key="code|name|country.FJI">Fidži</entry>
 <entry key="code|name|country.FLK">Falklandi saared</entry>
-<entry key="code|name|country.FQ0">Prantsuse Antarktilised ja Lõunaalad</entry>
 <entry key="code|name|country.FRA">Prantsusmaa</entry>
 <entry key="code|name|country.FRO">Fääri saared</entry>
 <entry key="code|name|country.FSM">Mikroneesia</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Ghana</entry>
 <entry key="code|name|country.GIB">Gibraltar</entry>
 <entry key="code|name|country.GIN">Guinea</entry>
-<entry key="code|name|country.GLP">Guadeloupe</entry>
 <entry key="code|name|country.GMB">Gambia</entry>
 <entry key="code|name|country.GNB">Guinea-Bissau</entry>
 <entry key="code|name|country.GNQ">Ekvatoriaal-Guinea</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Grenada</entry>
 <entry key="code|name|country.GRL">Gröönimaa</entry>
 <entry key="code|name|country.GTM">Guatemala</entry>
-<entry key="code|name|country.GUF">Prantsuse Guajaana</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">Guyana</entry>
 <entry key="code|name|country.HKG">Hongkong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Mosambiik</entry>
 <entry key="code|name|country.MRT">Mauritaania</entry>
 <entry key="code|name|country.MSR">Montserrat</entry>
-<entry key="code|name|country.MTQ">Martinique</entry>
 <entry key="code|name|country.MUS">Mauritius</entry>
 <entry key="code|name|country.MWI">Malawi</entry>
 <entry key="code|name|country.MYS">Malaisia</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">Namiibia</entry>
 <entry key="code|name|country.NCL">Uus-Kaledoonia</entry>
 <entry key="code|name|country.NER">Niger</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">Põhja-Korea</entry>
 <entry key="code|name|country.PRT">Portugal</entry>
 <entry key="code|name|country.PRY">Paraguay</entry>
-<entry key="code|name|country.PSE">Palestiina</entry>
+<entry key="code|name|country.PSE">Palestiina*</entry>
 <entry key="code|name|country.PYF">Prantsuse Polüneesi</entry>
 <entry key="code|name|country.QAT">Katar</entry>
-<entry key="code|name|country.REU">Réunion</entry>
 <entry key="code|name|country.ROU">Rumeenia</entry>
 <entry key="code|name|country.RUS">Venemaa</entry>
 <entry key="code|name|country.RWA">Rwanda</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">Uruguay</entry>
 <entry key="code|name|country.USA">Ameerika Ühendriigid</entry>
 <entry key="code|name|country.UZB">Usbekistan</entry>
-<entry key="code|name|country.VAT">Vatikani Linnriik</entry>
+<entry key="code|name|country.VAT">Püha Tool</entry>
 <entry key="code|name|country.VCT">Saint Vincent</entry>
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Briti Neitsisaared</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WLF">Wallis ja Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
+<entry key="code|name|country.XKX">Kosovo*</entry>
 <entry key="code|name|country.YEM">Jeemen</entry>
 <entry key="code|name|country.ZAF">Lõuna-Aafrika</entry>
 <entry key="code|name|country.ZMB">Sambia</entry>
@@ -10101,7 +10097,6 @@
 <entry key="code|name|direct-award-justification.artistic">Lepingu saab sõlmida ainult ühe konkreetse ettevõtjaga, sest eesmärk on unikaalse kunstiteose või kunstilise esituse loomine või omandamine</entry>
 <entry key="code|name|direct-award-justification.bargain">Allahindlusega riigihanked, kasutades väga lühikeseks ajaks avanenud eriti soodsat võimalust hankida materjale hinnaga, mis on tunduvalt allpool tavapärast turuhinda</entry>
 <entry key="code|name|direct-award-justification.below-thres">Lepingud, mille hinnanguline maksumus on allpool hangete piirmäärasid</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Väikesemahuline leping väikese ja keskmise suurusega ettevõtjaga</entry>
 <entry key="code|name|direct-award-justification.closure">Ostmine erakordselt soodsatel tingimustel oma äritegevust lõpetavalt ettevõtjalt</entry>
 <entry key="code|name|direct-award-justification.commodity">Tooraineturul noteeritud ja sealt ostetavate asjade hankimine</entry>
 <entry key="code|name|direct-award-justification.contest">Ideekonkursi võitjale või ühele võitjale antav teenusleping ideekonkursi eeskirjade alusel</entry>
@@ -10115,7 +10110,6 @@
 <entry key="code|name|direct-award-justification.exclusive">Lepingu saab sõlmida ainult ühe konkreetse ettevõtjaga ainuõiguste, sealhulgas intellektuaalomandi õiguste tõttu</entry>
 <entry key="code|name|direct-award-justification.existing">Olemasolevate asjade või seadmete osaline asendamine või täiendamine esialgse tarnija poolt direktiivis sätestatud rangetel tingimustel</entry>
 <entry key="code|name|direct-award-justification.in-house">Avaliku sektori organisatsioonide vahelised riigihankelepingud, sidusettevõtjatega sõlmitavad lepingud või ühisettevõttega või ühisettevõtte raames sõlmitavad lepingud</entry>
-<entry key="code|name|direct-award-justification.int-oper">Sõltuv teenuseosutaja</entry>
 <entry key="code|name|direct-award-justification.int-rules">Rahvusvaheliste eeskirjade kohane hange</entry>
 <entry key="code|name|direct-award-justification.irregular">Vastusena eelmisele teatele on saadud ainult ebakorrektseid või vastuvõetamatuid pakkumusi. Läbirääkimistesse kaasati ainult need eelmises menetluses osalenud pakkujad, kes vastasid valikukriteeriumidele ja ametlikele nõuetele ning ei täitnud kõrvalejätmise tingimusi</entry>
 <entry key="code|name|direct-award-justification.liquidator">Ostmine erakordselt soodsatel tingimustel likvideerijalt, kes teostab maksejõuetusmenetlust, võlausaldajatega sõlmitud kokkulepet või muud riigisisestele õigusnormidele vastavat samalaadset menetlust</entry>
@@ -10125,7 +10119,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Lepingud, mille esemeks ei ole ehitustööd, toodete tarnimine või teenuste osutamine;</entry>
 <entry key="code|name|direct-award-justification.other-activity">Muul eesmärgil kui hõlmatud tegevuse teostamiseks või sellise tegevuse teostamiseks kolmandas riigis sõlmitavad hankelepingud</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">Lepingu saab sõlmida ainult ühe konkreetse ettevõtjaga muude kui direktiivi 2014/23/EL artikli 5 lõikes 10 määratletud ainuõiguste, sealhulgas intellektuaalomandi õiguste tõttu</entry>
-<entry key="code|name|direct-award-justification.rail">Raudteetransport</entry>
 <entry key="code|name|direct-award-justification.rd">Leping hõlmab muid uurimis- ja arendusteenuseid kui need, millele on osutatud direktiivi 2009/81/EÜ artiklis 13</entry>
 <entry key="code|name|direct-award-justification.repetition">Uued ehitustööd või teenused, mis seisnevad samalaadsete ehitustööde või teenuste kordamises ja tellitakse kooskõlas direktiivis kehtestatud rangete tingimustega</entry>
 <entry key="code|name|direct-award-justification.resd">Lepingu eesmärk on üksnes teadus-, katse-, õppe- või arendustegevus direktiivis sätestatud tingimustel</entry>
@@ -10212,7 +10205,6 @@
 <entry key="code|name|eforms-contract-nature.services">Teenused</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Tarned</entry>
 <entry key="code|name|eforms-contract-nature.works">Ehitustööde hankelepingud</entry>
-<entry key="code|name|eforms-country.1A0">Kosovo</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">Afganistan</entry>
 <entry key="code|name|eforms-country.AGO">Angola</entry>
@@ -10225,6 +10217,7 @@
 <entry key="code|name|eforms-country.ARM">Armeenia</entry>
 <entry key="code|name|eforms-country.ASM">Ameerika Samoa</entry>
 <entry key="code|name|eforms-country.ATA">Antarktika</entry>
+<entry key="code|name|eforms-country.ATF">Prantsuse Antarktilised ja Lõunaalad</entry>
 <entry key="code|name|eforms-country.ATG">Antigua ja Barbuda</entry>
 <entry key="code|name|eforms-country.AUS">Austraalia</entry>
 <entry key="code|name|eforms-country.AUT">Austria</entry>
@@ -10393,7 +10386,7 @@
 <entry key="code|name|eforms-country.PRK">Põhja-Korea</entry>
 <entry key="code|name|eforms-country.PRT">Portugal</entry>
 <entry key="code|name|eforms-country.PRY">Paraguay</entry>
-<entry key="code|name|eforms-country.PSE">Palestiina</entry>
+<entry key="code|name|eforms-country.PSE">Palestiina*</entry>
 <entry key="code|name|eforms-country.PYF">Prantsuse Polüneesi</entry>
 <entry key="code|name|eforms-country.QAT">Katar</entry>
 <entry key="code|name|eforms-country.ROU">Rumeenia</entry>
@@ -10444,7 +10437,7 @@
 <entry key="code|name|eforms-country.URY">Uruguay</entry>
 <entry key="code|name|eforms-country.USA">Ameerika Ühendriigid</entry>
 <entry key="code|name|eforms-country.UZB">Usbekistan</entry>
-<entry key="code|name|eforms-country.VAT">Vatikani Linnriik</entry>
+<entry key="code|name|eforms-country.VAT">Püha Tool</entry>
 <entry key="code|name|eforms-country.VCT">Saint Vincent</entry>
 <entry key="code|name|eforms-country.VEN">Venezuela</entry>
 <entry key="code|name|eforms-country.VGB">Briti Neitsisaared</entry>
@@ -10453,6 +10446,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatu</entry>
 <entry key="code|name|eforms-country.WLF">Wallis ja Futuna</entry>
 <entry key="code|name|eforms-country.WSM">Samoa</entry>
+<entry key="code|name|eforms-country.XKX">Kosovo*</entry>
 <entry key="code|name|eforms-country.YEM">Jeemen</entry>
 <entry key="code|name|eforms-country.ZAF">Lõuna-Aafrika</entry>
 <entry key="code|name|eforms-country.ZMB">Sambia</entry>
@@ -11212,10 +11206,13 @@
 <entry key="code|name|language.ZHO">hiina keel</entry>
 <entry key="code|name|language.ZUL">suulu keel</entry>
 <entry key="code|name|lawful-country.ALB">Albaania</entry>
+<entry key="code|name|lawful-country.ATF">Prantsuse Antarktilised ja Lõunaalad</entry>
 <entry key="code|name|lawful-country.AUT">Austria</entry>
 <entry key="code|name|lawful-country.BEL">Belgia</entry>
 <entry key="code|name|lawful-country.BGR">Bulgaaria</entry>
+<entry key="code|name|lawful-country.BLM">Saint-Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">Šveits</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">Küpros</entry>
 <entry key="code|name|lawful-country.CZE">Tšehhi</entry>
 <entry key="code|name|lawful-country.DEU">Saksamaa</entry>
@@ -11238,17 +11235,21 @@
 <entry key="code|name|lawful-country.MKD">Põhja-Makedoonia</entry>
 <entry key="code|name|lawful-country.MLT">Malta</entry>
 <entry key="code|name|lawful-country.MNE">Montenegro</entry>
+<entry key="code|name|lawful-country.NCL">Uus-Kaledoonia</entry>
 <entry key="code|name|lawful-country.NLD">Madalmaad</entry>
 <entry key="code|name|lawful-country.NOR">Norra</entry>
 <entry key="code|name|lawful-country.POL">Poola</entry>
 <entry key="code|name|lawful-country.PRT">Portugal</entry>
+<entry key="code|name|lawful-country.PYF">Prantsuse Polüneesi</entry>
 <entry key="code|name|lawful-country.ROU">Rumeenia</entry>
+<entry key="code|name|lawful-country.SPM">Saint-Pierre ja Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">Serbia</entry>
 <entry key="code|name|lawful-country.SVK">Slovakkia</entry>
 <entry key="code|name|lawful-country.SVN">Sloveenia</entry>
 <entry key="code|name|lawful-country.SWE">Rootsi</entry>
 <entry key="code|name|lawful-country.TUR">Türgi</entry>
 <entry key="code|name|lawful-country.UKR">Ukraina</entry>
+<entry key="code|name|lawful-country.WLF">Wallis ja Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Direktiiv 2014/24/EL</entry>
 <entry key="code|name|legal-basis-1.32018R1046">Määrus (EL, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Direktiiv 2014/24/EL</entry>
@@ -16873,7 +16874,6 @@
 <entry key="code|name|planning.pin-only">Ainult teavitamise eesmärgil kasutatav eelteade või perioodiline eelteade</entry>
 <entry key="code|name|planning.pin-rtl">Eelteade või perioodiline eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks</entry>
 <entry key="code|name|planning.pin-tran">Eelteade avaliku reisijateveoteenuse kohta</entry>
-<entry key="code|name|postcode-country.1A0">Kosovo</entry>
 <entry key="code|name|postcode-country.AFG">Afganistan</entry>
 <entry key="code|name|postcode-country.ALA">Ahvenamaa</entry>
 <entry key="code|name|postcode-country.ALB">Albaania</entry>
@@ -16996,7 +16996,7 @@
 <entry key="code|name|postcode-country.PRI">Puerto Rico</entry>
 <entry key="code|name|postcode-country.PRT">Portugal</entry>
 <entry key="code|name|postcode-country.PRY">Paraguay</entry>
-<entry key="code|name|postcode-country.PSE">Palestiina</entry>
+<entry key="code|name|postcode-country.PSE">Palestiina*</entry>
 <entry key="code|name|postcode-country.PYF">Prantsuse Polüneesi</entry>
 <entry key="code|name|postcode-country.ROU">Rumeenia</entry>
 <entry key="code|name|postcode-country.RUS">Venemaa</entry>

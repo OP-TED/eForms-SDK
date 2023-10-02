@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">Európai Kutatási Végrehajtó Ügynökség</entry>
 <entry key="code|name|corporate-body.SESAR">3. „Egységes Európai Égbolt” Légiforgalmi Szolgáltatási Kutatás Közös Vállalkozás</entry>
 <entry key="code|name|corporate-body.SRB">Egységes Szanálási Testület</entry>
-<entry key="code|name|country.1A0">Koszovó</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">Afganisztán</entry>
 <entry key="code|name|country.AGO">Angola</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">Örményország</entry>
 <entry key="code|name|country.ASM">Amerikai Szamoa</entry>
 <entry key="code|name|country.ATA">Antarktisz</entry>
+<entry key="code|name|country.ATF">Francia Déli és Antarktiszi Területek</entry>
 <entry key="code|name|country.ATG">Antigua és Barbuda</entry>
 <entry key="code|name|country.AUS">Ausztrália</entry>
 <entry key="code|name|country.AUT">Ausztria</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">Spanyolország</entry>
 <entry key="code|name|country.EST">Észtország</entry>
 <entry key="code|name|country.ETH">Etiópia</entry>
+<entry key="code|name|country.EUR">Európai Unió</entry>
 <entry key="code|name|country.FIN">Finnország</entry>
 <entry key="code|name|country.FJI">Fidzsi</entry>
 <entry key="code|name|country.FLK">Falkland-szigetek</entry>
-<entry key="code|name|country.FQ0">Francia Déli és Antarktiszi Területek</entry>
 <entry key="code|name|country.FRA">Franciaország</entry>
 <entry key="code|name|country.FRO">Feröer</entry>
 <entry key="code|name|country.FSM">Mikronézia</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Ghána</entry>
 <entry key="code|name|country.GIB">Gibraltár</entry>
 <entry key="code|name|country.GIN">Guinea</entry>
-<entry key="code|name|country.GLP">Guadeloupe</entry>
 <entry key="code|name|country.GMB">Gambia</entry>
 <entry key="code|name|country.GNB">Bissau-Guinea</entry>
 <entry key="code|name|country.GNQ">Egyenlítői-Guinea</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Grenada</entry>
 <entry key="code|name|country.GRL">Grönland</entry>
 <entry key="code|name|country.GTM">Guatemala</entry>
-<entry key="code|name|country.GUF">Francia Guyana</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">Guyana</entry>
 <entry key="code|name|country.HKG">Hongkong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Mozambik</entry>
 <entry key="code|name|country.MRT">Mauritánia</entry>
 <entry key="code|name|country.MSR">Montserrat</entry>
-<entry key="code|name|country.MTQ">Martinique</entry>
 <entry key="code|name|country.MUS">Mauritius</entry>
 <entry key="code|name|country.MWI">Malawi</entry>
 <entry key="code|name|country.MYS">Malajzia</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">Namíbia</entry>
 <entry key="code|name|country.NCL">Új-Kaledónia</entry>
 <entry key="code|name|country.NER">Niger</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">Észak-Korea</entry>
 <entry key="code|name|country.PRT">Portugália</entry>
 <entry key="code|name|country.PRY">Paraguay</entry>
-<entry key="code|name|country.PSE">Palesztina</entry>
+<entry key="code|name|country.PSE">Palesztina*</entry>
 <entry key="code|name|country.PYF">Francia Polinézia</entry>
 <entry key="code|name|country.QAT">Katar</entry>
-<entry key="code|name|country.REU">Réunion</entry>
 <entry key="code|name|country.ROU">Románia</entry>
 <entry key="code|name|country.RUS">Oroszország</entry>
 <entry key="code|name|country.RWA">Ruanda</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">Uruguay</entry>
 <entry key="code|name|country.USA">Egyesült Államok</entry>
 <entry key="code|name|country.UZB">Üzbegisztán</entry>
-<entry key="code|name|country.VAT">Vatikánváros Állam</entry>
+<entry key="code|name|country.VAT">Apostoli Szentszék</entry>
 <entry key="code|name|country.VCT">Saint Vincent és Grenadine-szigetek</entry>
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Brit Virgin-szigetek</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WLF">Wallis és Futuna</entry>
 <entry key="code|name|country.WSM">Szamoa</entry>
+<entry key="code|name|country.XKX">Koszovó*</entry>
 <entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.ZAF">Dél-Afrika</entry>
 <entry key="code|name|country.ZMB">Zambia</entry>
@@ -10101,7 +10097,6 @@
 <entry key="code|name|direct-award-justification.artistic">A szerződést csak bizonyos gazdasági szereplő teljesítheti, mivel egyedi műalkotás vagy művészeti előadás létrehozásáról vagy megszerzéséről van szó</entry>
 <entry key="code|name|direct-award-justification.bargain">Előnyös vásárlások a nagyon rövid ideig fennálló, különösen előnyös lehetőség kihasználásával, amelynél az ár a piaci áraknál lényegesen alacsonyabb</entry>
 <entry key="code|name|direct-award-justification.below-thres">Olyan szerződések, melyek becsült értéke nem éri el a közbeszerzési értékhatárt</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Kis volumenű szerződés egy kis és közepes vállalkozás részére</entry>
 <entry key="code|name|direct-award-justification.closure">Beszerzés különösen előnyös feltételekkel olyan gazdasági szereplőtől, amely véglegesen megszünteti üzleti tevékenységeit</entry>
 <entry key="code|name|direct-award-justification.commodity">Árutőzsdén jegyzett és vásárolt áruk beszerzése</entry>
 <entry key="code|name|direct-award-justification.contest">A tervpályázat szabályai szerint a nyertesnek vagy az egyik nyertesnek odaítélendő szolgáltatási szerződés</entry>
@@ -10115,7 +10110,6 @@
 <entry key="code|name|direct-award-justification.exclusive">A szerződést csak bizonyos gazdasági szereplő teljesítheti a kizárólagos jogok miatt, beleértve a szellemitulajdon-jogokat</entry>
 <entry key="code|name|direct-award-justification.existing">Az eredeti szállítótól az irányelvben foglalt szigorú feltételek szerint megrendelt, meglévő áruk vagy felszerelések részleges pótlása vagy kibővítése</entry>
 <entry key="code|name|direct-award-justification.in-house">A közszférán belüli szervek között létrejött közszolgáltatási szerződések („házon belüli beszerzés”), kapcsolt vállalkozásoknak odaítélt szerződések, illetve közös vállalkozásnak vagy közös vállalkozáson belül odaítélt szerződések</entry>
-<entry key="code|name|direct-award-justification.int-oper">Belső szolgáltató</entry>
 <entry key="code|name|direct-award-justification.int-rules">Nemzetközi szabályoknak megfelelő eljárás</entry>
 <entry key="code|name|direct-award-justification.irregular">Az előző hirdetményre csak szabálytalan vagy érvénytelen ajánlatok érkeztek. A tárgyalások az előző hirdetményre jelentkező összes olyan ajánlattevő – és csakis azon ajánlattevők – bevonásával zajlottak, amelyek megfeleltek a kiválasztási kritériumoknak, amelyekre nem vonatkoztak kizárási okok, és amelyek teljesítették az alaki követelményeket</entry>
 <entry key="code|name|direct-award-justification.liquidator">Beszerzés különösen előnyös feltételekkel fizetésképtelenné vált vállalkozás felszámolójától, csődeljárás, felszámolási eljárás vagy csődegyezség keretében, vagy a nemzeti törvények vagy rendeletek szerinti más, hasonló eljárás keretében</entry>
@@ -10125,7 +10119,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Nem építési beruházás kivitelezésére, áru szállítására vagy szolgáltatás nyújtására irányuló szerződések</entry>
 <entry key="code|name|direct-award-justification.other-activity">Az irányelv hatálya alá tartozó tevékenység folytatásától eltérő célra vagy ilyen tevékenység harmadik országban történő folytatására odaítélt szerződések</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">A szerződést csak bizonyos gazdasági szereplő teljesítheti a 2014/23/EU irányelv 5. cikkének (10) bekezdésében foglaltaktól eltérő kizárólagos jogok védelme miatt, beleértve a szellemitulajdon-jogokat</entry>
-<entry key="code|name|direct-award-justification.rail">Vasúti szállítás</entry>
 <entry key="code|name|direct-award-justification.rd">A szerződés a 2009/81/EK irányelv 13. cikkében foglaltaktól eltérő kutatási és fejlesztési szolgáltatásokat érint</entry>
 <entry key="code|name|direct-award-justification.repetition">A korábbi építési beruházás vagy szolgáltatás megismétlését jelentő új építési beruházás vagy szolgáltatás megrendelésére került sor, az irányelvben megállapított szigorú feltételeknek megfelelően</entry>
 <entry key="code|name|direct-award-justification.resd">A szerződés célja kizárólag az irányelvben meghatározott feltételeknek megfelelően kutatás, kísérlet, tanulmány vagy fejlesztés</entry>
@@ -10212,7 +10205,6 @@
 <entry key="code|name|eforms-contract-nature.services">Szolgáltatások</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Árubeszerzések</entry>
 <entry key="code|name|eforms-contract-nature.works">Építési beruházás</entry>
-<entry key="code|name|eforms-country.1A0">Koszovó</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">Afganisztán</entry>
 <entry key="code|name|eforms-country.AGO">Angola</entry>
@@ -10225,6 +10217,7 @@
 <entry key="code|name|eforms-country.ARM">Örményország</entry>
 <entry key="code|name|eforms-country.ASM">Amerikai Szamoa</entry>
 <entry key="code|name|eforms-country.ATA">Antarktisz</entry>
+<entry key="code|name|eforms-country.ATF">Francia Déli és Antarktiszi Területek</entry>
 <entry key="code|name|eforms-country.ATG">Antigua és Barbuda</entry>
 <entry key="code|name|eforms-country.AUS">Ausztrália</entry>
 <entry key="code|name|eforms-country.AUT">Ausztria</entry>
@@ -10393,7 +10386,7 @@
 <entry key="code|name|eforms-country.PRK">Észak-Korea</entry>
 <entry key="code|name|eforms-country.PRT">Portugália</entry>
 <entry key="code|name|eforms-country.PRY">Paraguay</entry>
-<entry key="code|name|eforms-country.PSE">Palesztina</entry>
+<entry key="code|name|eforms-country.PSE">Palesztina*</entry>
 <entry key="code|name|eforms-country.PYF">Francia Polinézia</entry>
 <entry key="code|name|eforms-country.QAT">Katar</entry>
 <entry key="code|name|eforms-country.ROU">Románia</entry>
@@ -10444,7 +10437,7 @@
 <entry key="code|name|eforms-country.URY">Uruguay</entry>
 <entry key="code|name|eforms-country.USA">Egyesült Államok</entry>
 <entry key="code|name|eforms-country.UZB">Üzbegisztán</entry>
-<entry key="code|name|eforms-country.VAT">Vatikánváros Állam</entry>
+<entry key="code|name|eforms-country.VAT">Apostoli Szentszék</entry>
 <entry key="code|name|eforms-country.VCT">Saint Vincent és Grenadine-szigetek</entry>
 <entry key="code|name|eforms-country.VEN">Venezuela</entry>
 <entry key="code|name|eforms-country.VGB">Brit Virgin-szigetek</entry>
@@ -10453,6 +10446,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatu</entry>
 <entry key="code|name|eforms-country.WLF">Wallis és Futuna</entry>
 <entry key="code|name|eforms-country.WSM">Szamoa</entry>
+<entry key="code|name|eforms-country.XKX">Koszovó*</entry>
 <entry key="code|name|eforms-country.YEM">Jemen</entry>
 <entry key="code|name|eforms-country.ZAF">Dél-Afrika</entry>
 <entry key="code|name|eforms-country.ZMB">Zambia</entry>
@@ -11212,10 +11206,13 @@
 <entry key="code|name|language.ZHO">kínai</entry>
 <entry key="code|name|language.ZUL">zulu</entry>
 <entry key="code|name|lawful-country.ALB">Albánia</entry>
+<entry key="code|name|lawful-country.ATF">Francia Déli és Antarktiszi Területek</entry>
 <entry key="code|name|lawful-country.AUT">Ausztria</entry>
 <entry key="code|name|lawful-country.BEL">Belgium</entry>
 <entry key="code|name|lawful-country.BGR">Bulgária</entry>
+<entry key="code|name|lawful-country.BLM">Saint-Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">Svájc</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">Ciprus</entry>
 <entry key="code|name|lawful-country.CZE">Csehország</entry>
 <entry key="code|name|lawful-country.DEU">Németország</entry>
@@ -11238,17 +11235,21 @@
 <entry key="code|name|lawful-country.MKD">Észak-Macedónia</entry>
 <entry key="code|name|lawful-country.MLT">Málta</entry>
 <entry key="code|name|lawful-country.MNE">Montenegró</entry>
+<entry key="code|name|lawful-country.NCL">Új-Kaledónia</entry>
 <entry key="code|name|lawful-country.NLD">Hollandia</entry>
 <entry key="code|name|lawful-country.NOR">Norvégia</entry>
 <entry key="code|name|lawful-country.POL">Lengyelország</entry>
 <entry key="code|name|lawful-country.PRT">Portugália</entry>
+<entry key="code|name|lawful-country.PYF">Francia Polinézia</entry>
 <entry key="code|name|lawful-country.ROU">Románia</entry>
+<entry key="code|name|lawful-country.SPM">Saint-Pierre és Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">Szerbia</entry>
 <entry key="code|name|lawful-country.SVK">Szlovákia</entry>
 <entry key="code|name|lawful-country.SVN">Szlovénia</entry>
 <entry key="code|name|lawful-country.SWE">Svédország</entry>
 <entry key="code|name|lawful-country.TUR">Törökország</entry>
 <entry key="code|name|lawful-country.UKR">Ukrajna</entry>
+<entry key="code|name|lawful-country.WLF">Wallis és Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">2014/24/EU irányelv</entry>
 <entry key="code|name|legal-basis-1.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-10.32014L0024">2014/24/EU irányelv</entry>
@@ -16873,7 +16874,6 @@
 <entry key="code|name|planning.pin-only">Kizárólag tájékoztatás céljából használt előzetes tájékoztató vagy időszakos előzetes tájékoztató</entry>
 <entry key="code|name|planning.pin-rtl">Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló előzetes tájékoztató vagy időszakos előzetes tájékoztató</entry>
 <entry key="code|name|planning.pin-tran">Személyszállítási közszolgáltatásra vonatkozó előzetes tájékoztató</entry>
-<entry key="code|name|postcode-country.1A0">Koszovó</entry>
 <entry key="code|name|postcode-country.AFG">Afganisztán</entry>
 <entry key="code|name|postcode-country.ALA">Åland-szigetek</entry>
 <entry key="code|name|postcode-country.ALB">Albánia</entry>
@@ -16996,7 +16996,7 @@
 <entry key="code|name|postcode-country.PRI">Puerto Rico</entry>
 <entry key="code|name|postcode-country.PRT">Portugália</entry>
 <entry key="code|name|postcode-country.PRY">Paraguay</entry>
-<entry key="code|name|postcode-country.PSE">Palesztina</entry>
+<entry key="code|name|postcode-country.PSE">Palesztina*</entry>
 <entry key="code|name|postcode-country.PYF">Francia Polinézia</entry>
 <entry key="code|name|postcode-country.ROU">Románia</entry>
 <entry key="code|name|postcode-country.RUS">Oroszország</entry>

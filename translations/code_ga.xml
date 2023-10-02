@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">An Ghníomhaireacht Feidhmiúcháin Eorpach um Thaighde</entry>
 <entry key="code|name|corporate-body.SESAR">Comhghnóthas Taighde BAT 3 an Aerspáis Eorpaigh Aonair</entry>
 <entry key="code|name|corporate-body.SRB">An Bord Réitigh Aonair</entry>
-<entry key="code|name|country.1A0">An Chosaiv</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">An Afganastáin</entry>
 <entry key="code|name|country.AGO">Angóla</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">An Airméin</entry>
 <entry key="code|name|country.ASM">Samó Meiriceánach</entry>
 <entry key="code|name|country.ATA">Antartaice</entry>
+<entry key="code|name|country.ATF">Críocha an Deiscirt agus an Antartaigh de chuid na Fraince</entry>
 <entry key="code|name|country.ATG">Antigua agus Barbúda</entry>
 <entry key="code|name|country.AUS">An Astráil</entry>
 <entry key="code|name|country.AUT">An Ostair</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">An Spáinn</entry>
 <entry key="code|name|country.EST">An Eastóin</entry>
 <entry key="code|name|country.ETH">An Aetóip</entry>
+<entry key="code|name|country.EUR">An tAontas Eorpach</entry>
 <entry key="code|name|country.FIN">An Fhionlainn</entry>
 <entry key="code|name|country.FJI">Fidsí</entry>
 <entry key="code|name|country.FLK">Oileáin Fháclainne</entry>
-<entry key="code|name|country.FQ0">Críocha an Deiscirt agus an Antartaigh de chuid na Fraince</entry>
 <entry key="code|name|country.FRA">An Fhrainc</entry>
 <entry key="code|name|country.FRO">Oileáin Fharó</entry>
 <entry key="code|name|country.FSM">An Mhicrinéis</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Gána</entry>
 <entry key="code|name|country.GIB">Giobráltar</entry>
 <entry key="code|name|country.GIN">An Ghuine</entry>
-<entry key="code|name|country.GLP">Guadalúip</entry>
 <entry key="code|name|country.GMB">An Ghaimbia</entry>
 <entry key="code|name|country.GNB">Guine-Bissau</entry>
 <entry key="code|name|country.GNQ">An Ghuine Mheánchiorclach</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Greanáda</entry>
 <entry key="code|name|country.GRL">An Ghraonlainn</entry>
 <entry key="code|name|country.GTM">Guatamala</entry>
-<entry key="code|name|country.GUF">Guáin na Fraince</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">An Ghuáin</entry>
 <entry key="code|name|country.HKG">Hong Cong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Mósaimbíc</entry>
 <entry key="code|name|country.MRT">An Mháratáin</entry>
 <entry key="code|name|country.MSR">Montsarat</entry>
-<entry key="code|name|country.MTQ">Martinique</entry>
 <entry key="code|name|country.MUS">Oileán Mhuirís</entry>
 <entry key="code|name|country.MWI">An Mhaláiv</entry>
 <entry key="code|name|country.MYS">An Mhalaeisia</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">An Namaib</entry>
 <entry key="code|name|country.NCL">An Nua-Chaladóin</entry>
 <entry key="code|name|country.NER">An Nígir</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">An Chóiré Thuaidh</entry>
 <entry key="code|name|country.PRT">An Phortaingéil</entry>
 <entry key="code|name|country.PRY">Paragua</entry>
-<entry key="code|name|country.PSE">An Phalaistín</entry>
+<entry key="code|name|country.PSE">An Phalaistín*</entry>
 <entry key="code|name|country.PYF">Polainéis na Fraince</entry>
 <entry key="code|name|country.QAT">Catar</entry>
-<entry key="code|name|country.REU">La Réunion</entry>
 <entry key="code|name|country.ROU">An Rómáin</entry>
 <entry key="code|name|country.RUS">An Rúis</entry>
 <entry key="code|name|country.RWA">Ruanda</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">Uragua</entry>
 <entry key="code|name|country.USA">Na Stáit Aontaithe</entry>
 <entry key="code|name|country.UZB">An Úisbéiceastáin</entry>
-<entry key="code|name|country.VAT">Stát Chathair na Vatacáine</entry>
+<entry key="code|name|country.VAT">An Suí Naofa</entry>
 <entry key="code|name|country.VCT">San Uinseann agus na Greanáidíní</entry>
 <entry key="code|name|country.VEN">Veiniséala</entry>
 <entry key="code|name|country.VGB">Oileáin Bhriotanacha na Maighdean</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatú</entry>
 <entry key="code|name|country.WLF">Vailís agus Futúna</entry>
 <entry key="code|name|country.WSM">Samó</entry>
+<entry key="code|name|country.XKX">An Chosaiv*</entry>
 <entry key="code|name|country.YEM">Éimin</entry>
 <entry key="code|name|country.ZAF">An Afraic Theas</entry>
 <entry key="code|name|country.ZMB">An tSaimbia</entry>
@@ -10101,7 +10097,6 @@
 <entry key="code|name|direct-award-justification.artistic">Ní féidir ach le hoibreoir eacnamaíoch áirithe an conradh a chur ar fáil toisc gur gá saothar uathúil ealaíne nó taibhléiriú ealaíonta a chruthú nó a fháil</entry>
 <entry key="code|name|direct-award-justification.bargain">Ceannachán sladmhargaidh ag baint leas as deis an-mhaith atá ar fáil ar feadh tréimhse an-ghearr agus lena mbaineann buntáiste faoi leith ar phraghas atá i bhfad níos ísle ná praghsanna an mhargaidh</entry>
 <entry key="code|name|direct-award-justification.below-thres">Conarthaí a bhfuil a luach measta faoi bhun na dtairseach soláthair</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Conradh ar mhionscála le fiontar beag agus meánmhéide</entry>
 <entry key="code|name|direct-award-justification.closure">Ceannachán ar théarmaí fíorbhuntáisteacha ó oibreoir eacnamaíoch atá ag foirceannadh a chuid gníomhaíochtaí gnó go cinnte</entry>
 <entry key="code|name|direct-award-justification.commodity">Soláthar soláthairtí luaite agus ceannaithe ar mhargadh tráchtearraí</entry>
 <entry key="code|name|direct-award-justification.contest">Conradh seirbhíse le dámhachtain don iarrthóir rathúil nó do cheann acu de réir rialacha comórtais dearaidh</entry>
@@ -10115,7 +10110,6 @@
 <entry key="code|name|direct-award-justification.exclusive">Ní féidir ach le hoibreoir eacnamaíoch áirithe an conradh a chur ar fáil de thoradh cearta eisiacha, lena n-áirítear cearta maoine intleachtúla</entry>
 <entry key="code|name|direct-award-justification.existing">An soláthróir bunaidh soláthairtí nó suiteálacha atá ann cheana a pháirt-athsholáthar nó a shíneadh agus é sin ordaithe de réir na gcoinníollacha diana atá luaite sa Treoir</entry>
 <entry key="code|name|direct-award-justification.in-house">Conradh poiblí idir eagraíochtaí atá laistigh den earnáil phoiblí (“intí”), conarthaí arna ndámhachtain do ghnóthais chleamhnaithe, nó conarthaí arna ndámhachtain do chomhfhiontar nó laistigh de chomhfhiontar</entry>
-<entry key="code|name|direct-award-justification.int-oper">Oibreoir inmheánach</entry>
 <entry key="code|name|direct-award-justification.int-rules">Nós imeachta de réir rialacha idirnáisiúnta</entry>
 <entry key="code|name|direct-award-justification.irregular">Ní bhfuarthas ach tairiscintí neamhrialta agus do-ghlactha mar fhreagairt ar fhógra roimhe seo. Níor cuireadh san áireamh leis an gcaibidlíocht ach amháin na tairgeoirí úd go léir ón nós imeachta roimhe seo a chomhlíon na critéir roghnúcháin, nár chomhlíon na forais eisiaimh agus a chomhlíon na ceanglais fhoirmiúla, agus na tairgeoirí úd amháin</entry>
 <entry key="code|name|direct-award-justification.liquidator">Ceannachán ar théarmaí fíorbhuntáisteacha ón leachtaitheoir i nós imeachta dócmhainneachta, socrú le creidiúnaithe nó nós imeachta comhchosúil faoi réir dlíthe agus rialacháin náisiúnta</entry>
@@ -10125,7 +10119,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Conarthaí nach é a gcuspóir oibreacha a dhéanamh, táirgí a sholáthar agus seirbhísí a chur ar fáil</entry>
 <entry key="code|name|direct-award-justification.other-activity">Conarthaí arna ndámhachtain chun críoch seachas saothrú gníomhaíochta atá cumhdaithe nó chun gníomhaíocht den sórt sin a shaothrú i dtríú tír</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">Ní féidir ach le hoibreoir eacnamaíoch áirithe an conradh a chur ar fáil mar gheall ar an gcosaint do chearta eisiacha eile, lena n-áirítear cearta maoine intleachtúla, seachas na cearta sin a shainítear in Airteagal 5(10) de Threoir 2014/23/AE</entry>
-<entry key="code|name|direct-award-justification.rail">Iompar d’iarnród</entry>
 <entry key="code|name|direct-award-justification.rd">Baineann an conradh le seirbhísí taighde agus forbartha seachas iad siúd dá dtagraítear in Airteagal 13 de Threoir 2009/81/CE</entry>
 <entry key="code|name|direct-award-justification.repetition">Oibreacha nó seirbhísí nua, is athdhéanamh oibreacha nó seirbhísí atá ar bun cheana agus iad ordaithe i gcomhréir de réir na gcoinníollacha diana atá luaite sa Treoir</entry>
 <entry key="code|name|direct-award-justification.resd">Is chun críocha taighde, turgnaimh, staidéir nó forbartha amháin an conradh, de réir na gcoinníollacha a luaitear sa Treoir</entry>
@@ -10212,7 +10205,6 @@
 <entry key="code|name|eforms-contract-nature.services">Seirbhísí</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Soláthairtí</entry>
 <entry key="code|name|eforms-contract-nature.works">Oibreacha</entry>
-<entry key="code|name|eforms-country.1A0">An Chosaiv</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">An Afganastáin</entry>
 <entry key="code|name|eforms-country.AGO">Angóla</entry>
@@ -10225,6 +10217,7 @@
 <entry key="code|name|eforms-country.ARM">An Airméin</entry>
 <entry key="code|name|eforms-country.ASM">Samó Meiriceánach</entry>
 <entry key="code|name|eforms-country.ATA">Antartaice</entry>
+<entry key="code|name|eforms-country.ATF">Críocha an Deiscirt agus an Antartaigh de chuid na Fraince</entry>
 <entry key="code|name|eforms-country.ATG">Antigua agus Barbúda</entry>
 <entry key="code|name|eforms-country.AUS">An Astráil</entry>
 <entry key="code|name|eforms-country.AUT">An Ostair</entry>
@@ -10393,7 +10386,7 @@
 <entry key="code|name|eforms-country.PRK">An Chóiré Thuaidh</entry>
 <entry key="code|name|eforms-country.PRT">An Phortaingéil</entry>
 <entry key="code|name|eforms-country.PRY">Paragua</entry>
-<entry key="code|name|eforms-country.PSE">An Phalaistín</entry>
+<entry key="code|name|eforms-country.PSE">An Phalaistín*</entry>
 <entry key="code|name|eforms-country.PYF">Polainéis na Fraince</entry>
 <entry key="code|name|eforms-country.QAT">Catar</entry>
 <entry key="code|name|eforms-country.ROU">An Rómáin</entry>
@@ -10444,7 +10437,7 @@
 <entry key="code|name|eforms-country.URY">Uragua</entry>
 <entry key="code|name|eforms-country.USA">Na Stáit Aontaithe</entry>
 <entry key="code|name|eforms-country.UZB">An Úisbéiceastáin</entry>
-<entry key="code|name|eforms-country.VAT">Stát Chathair na Vatacáine</entry>
+<entry key="code|name|eforms-country.VAT">An Suí Naofa</entry>
 <entry key="code|name|eforms-country.VCT">San Uinseann agus na Greanáidíní</entry>
 <entry key="code|name|eforms-country.VEN">Veiniséala</entry>
 <entry key="code|name|eforms-country.VGB">Oileáin Bhriotanacha na Maighdean</entry>
@@ -10453,6 +10446,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatú</entry>
 <entry key="code|name|eforms-country.WLF">Vailís agus Futúna</entry>
 <entry key="code|name|eforms-country.WSM">Samó</entry>
+<entry key="code|name|eforms-country.XKX">An Chosaiv*</entry>
 <entry key="code|name|eforms-country.YEM">Éimin</entry>
 <entry key="code|name|eforms-country.ZAF">An Afraic Theas</entry>
 <entry key="code|name|eforms-country.ZMB">An tSaimbia</entry>
@@ -11077,10 +11071,13 @@
 <entry key="code|name|language.ZHO">Sínis</entry>
 <entry key="code|name|language.ZUL">Súlúis</entry>
 <entry key="code|name|lawful-country.ALB">An Albáin</entry>
+<entry key="code|name|lawful-country.ATF">Críocha an Deiscirt agus an Antartaigh de chuid na Fraince</entry>
 <entry key="code|name|lawful-country.AUT">An Ostair</entry>
 <entry key="code|name|lawful-country.BEL">An Bheilg</entry>
 <entry key="code|name|lawful-country.BGR">An Bhulgáir</entry>
+<entry key="code|name|lawful-country.BLM">Saint-Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">An Eilvéis</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">An Chipir</entry>
 <entry key="code|name|lawful-country.CZE">An tSeicia</entry>
 <entry key="code|name|lawful-country.DEU">An Ghearmáin</entry>
@@ -11103,17 +11100,21 @@
 <entry key="code|name|lawful-country.MKD">An Mhacadóin Thuaidh</entry>
 <entry key="code|name|lawful-country.MLT">Málta</entry>
 <entry key="code|name|lawful-country.MNE">Montainéagró</entry>
+<entry key="code|name|lawful-country.NCL">An Nua-Chaladóin</entry>
 <entry key="code|name|lawful-country.NLD">An Ísiltír</entry>
 <entry key="code|name|lawful-country.NOR">An Iorua</entry>
 <entry key="code|name|lawful-country.POL">An Pholainn</entry>
 <entry key="code|name|lawful-country.PRT">An Phortaingéil</entry>
+<entry key="code|name|lawful-country.PYF">Polainéis na Fraince</entry>
 <entry key="code|name|lawful-country.ROU">An Rómáin</entry>
+<entry key="code|name|lawful-country.SPM">San Pierre agus Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">An tSeirbia</entry>
 <entry key="code|name|lawful-country.SVK">An tSlóvaic</entry>
 <entry key="code|name|lawful-country.SVN">An tSlóivéin</entry>
 <entry key="code|name|lawful-country.SWE">An tSualainn</entry>
 <entry key="code|name|lawful-country.TUR">An Tuirc</entry>
 <entry key="code|name|lawful-country.UKR">An Úcráin</entry>
+<entry key="code|name|lawful-country.WLF">Vailís agus Futúna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Treoir 2014/24/AE</entry>
 <entry key="code|name|legal-basis-1.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Treoir 2014/24/AE</entry>
@@ -16738,7 +16739,6 @@
 <entry key="code|name|planning.pin-only">Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil ar mhaithe le faisnéis amháin</entry>
 <entry key="code|name|planning.pin-rtl">Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil lena ngearrtar na teorainneacha ama le tairiscintí a fháil</entry>
 <entry key="code|name|planning.pin-tran">Fógra réamhfhaisnéise le haghaidh seirbhísí poiblí iompair do phaisinéirí</entry>
-<entry key="code|name|postcode-country.1A0">An Chosaiv</entry>
 <entry key="code|name|postcode-country.AFG">An Afganastáin</entry>
 <entry key="code|name|postcode-country.ALA">Na hOileáin Åland</entry>
 <entry key="code|name|postcode-country.ALB">An Albáin</entry>
@@ -16861,7 +16861,7 @@
 <entry key="code|name|postcode-country.PRI">Pórtó Ríce</entry>
 <entry key="code|name|postcode-country.PRT">An Phortaingéil</entry>
 <entry key="code|name|postcode-country.PRY">Paragua</entry>
-<entry key="code|name|postcode-country.PSE">An Phalaistín</entry>
+<entry key="code|name|postcode-country.PSE">An Phalaistín*</entry>
 <entry key="code|name|postcode-country.PYF">Polainéis na Fraince</entry>
 <entry key="code|name|postcode-country.ROU">An Rómáin</entry>
 <entry key="code|name|postcode-country.RUS">An Rúis</entry>

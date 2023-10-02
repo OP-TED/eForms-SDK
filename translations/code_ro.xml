@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">Agenția Executivă Europeană pentru Cercetare</entry>
 <entry key="code|name|corporate-body.SESAR">Întreprinderea comună „Proiectul de cercetare privind ATM în contextul Cerului unic european” 3</entry>
 <entry key="code|name|corporate-body.SRB">Comitetul unic de rezoluție</entry>
-<entry key="code|name|country.1A0">Kosovo</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">Afganistan</entry>
 <entry key="code|name|country.AGO">Angola</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">Armenia</entry>
 <entry key="code|name|country.ASM">Samoa Americană</entry>
 <entry key="code|name|country.ATA">Antarctica</entry>
+<entry key="code|name|country.ATF">Teritoriile Australe și Antarctice Franceze</entry>
 <entry key="code|name|country.ATG">Antigua şi Barbuda</entry>
 <entry key="code|name|country.AUS">Australia</entry>
 <entry key="code|name|country.AUT">Austria</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">Spania</entry>
 <entry key="code|name|country.EST">Estonia</entry>
 <entry key="code|name|country.ETH">Etiopia</entry>
+<entry key="code|name|country.EUR">Uniunea Europeană</entry>
 <entry key="code|name|country.FIN">Finlanda</entry>
 <entry key="code|name|country.FJI">Fiji</entry>
 <entry key="code|name|country.FLK">Insulele Falkland</entry>
-<entry key="code|name|country.FQ0">Teritoriile Australe și Antarctice Franceze</entry>
 <entry key="code|name|country.FRA">Franţa</entry>
 <entry key="code|name|country.FRO">Insulele Feroe</entry>
 <entry key="code|name|country.FSM">Micronezia</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Ghana</entry>
 <entry key="code|name|country.GIB">Gibraltar</entry>
 <entry key="code|name|country.GIN">Guineea</entry>
-<entry key="code|name|country.GLP">Guadelupa</entry>
 <entry key="code|name|country.GMB">Gambia</entry>
 <entry key="code|name|country.GNB">Guineea-Bissau</entry>
 <entry key="code|name|country.GNQ">Guineea Ecuatorială</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Grenada</entry>
 <entry key="code|name|country.GRL">Groenlanda</entry>
 <entry key="code|name|country.GTM">Guatemala</entry>
-<entry key="code|name|country.GUF">Guyana Franceză</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">Guyana</entry>
 <entry key="code|name|country.HKG">Hong Kong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Mozambic</entry>
 <entry key="code|name|country.MRT">Mauritania</entry>
 <entry key="code|name|country.MSR">Montserrat</entry>
-<entry key="code|name|country.MTQ">Martinica</entry>
 <entry key="code|name|country.MUS">Mauritius</entry>
 <entry key="code|name|country.MWI">Malawi</entry>
 <entry key="code|name|country.MYS">Malaysia</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">Namibia</entry>
 <entry key="code|name|country.NCL">Noua Caledonie</entry>
 <entry key="code|name|country.NER">Niger</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">Coreea de Nord</entry>
 <entry key="code|name|country.PRT">Portugalia</entry>
 <entry key="code|name|country.PRY">Paraguay</entry>
-<entry key="code|name|country.PSE">Palestina</entry>
+<entry key="code|name|country.PSE">Palestina*</entry>
 <entry key="code|name|country.PYF">Polinezia Franceză</entry>
 <entry key="code|name|country.QAT">Qatar</entry>
-<entry key="code|name|country.REU">Réunion</entry>
 <entry key="code|name|country.ROU">România</entry>
 <entry key="code|name|country.RUS">Rusia</entry>
 <entry key="code|name|country.RWA">Rwanda</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">Uruguay</entry>
 <entry key="code|name|country.USA">Statele Unite</entry>
 <entry key="code|name|country.UZB">Uzbekistan</entry>
-<entry key="code|name|country.VAT">Statul Cetății Vaticanului</entry>
+<entry key="code|name|country.VAT">Sfântul Scaun</entry>
 <entry key="code|name|country.VCT">Saint Vincent și Grenadinele</entry>
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Insulele Virgine Britanice</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WLF">Wallis şi Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
+<entry key="code|name|country.XKX">Kosovo*</entry>
 <entry key="code|name|country.YEM">Yemen</entry>
 <entry key="code|name|country.ZAF">Africa de Sud</entry>
 <entry key="code|name|country.ZMB">Zambia</entry>
@@ -10101,7 +10097,6 @@
 <entry key="code|name|direct-award-justification.artistic">Contractul poate fi furnizat numai de un anumit operator economic, din cauza creării sau a achiziționării unei opere de artă unice sau a unei reprezentații artistice unice</entry>
 <entry key="code|name|direct-award-justification.bargain">Cumpărare în condiții avantajoase care profită de o oportunitate deosebit de favorabilă, disponibilă pentru o perioadă foarte scurtă de timp, la un preț considerabil mai mic decât prețurile de piață</entry>
 <entry key="code|name|direct-award-justification.below-thres">Contracte cu o valoare estimată sub pragul de achiziții</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Contract de mică anvergură atribuit unei întreprinderi mici și mijlocii</entry>
 <entry key="code|name|direct-award-justification.closure">Achiziționarea în condiții deosebit de avantajoase de la un operator economic care își încetează definitiv activitățile comerciale</entry>
 <entry key="code|name|direct-award-justification.commodity">Achiziția de bunuri cotate și achiziționate pe o piață de materii prime</entry>
 <entry key="code|name|direct-award-justification.contest">Contractul de servicii urmează să fie atribuit câștigătorului sau unuia dintre câștigători în conformitate cu regulile unui concurs de proiecte</entry>
@@ -10115,7 +10110,6 @@
 <entry key="code|name|direct-award-justification.exclusive">Contractul poate fi furnizat numai de un anumit operator economic, din cauza unor drepturi exclusive, inclusiv a unor drepturi de proprietate individuală</entry>
 <entry key="code|name|direct-award-justification.existing">Înlocuirea parțială sau extinderea de către furnizorul inițial a bunurilor sau a instalațiilor existente, comandate în conformitate cu condițiile stricte stabilite de directivă</entry>
 <entry key="code|name|direct-award-justification.in-house">Contract de achiziții publice între organizații din sectorul public (la nivel intern), contracte atribuite unor întreprinderi afiliate sau contracte atribuite unei societăți mixte sau în cadrul unei societăți mixte</entry>
-<entry key="code|name|direct-award-justification.int-oper">Operator intern</entry>
 <entry key="code|name|direct-award-justification.int-rules">Procedură în conformitate cu normele internaționale</entry>
 <entry key="code|name|direct-award-justification.irregular">Drept răspuns la o notificare prealabilă au fost primite numai oferte neregulamentare sau inacceptabile. Au fost incluși în negocieri exclusiv toți ofertanții din procedura anterioară care au îndeplinit criteriile de selecție, nu au făcut obiectul criteriilor de excludere și au îndeplinit cerințele formale</entry>
 <entry key="code|name|direct-award-justification.liquidator">Achiziționarea în condiții deosebit de avantajoase de la lichidator, în cadrul unei proceduri de insolvență, al unui acord cu creditorii sau al unei proceduri similare în temeiul legilor și reglementărilor naționale</entry>
@@ -10125,7 +10119,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Contracte al căror scop nu este executarea unor lucrări, furnizarea unor bunuri și prestarea unor servicii</entry>
 <entry key="code|name|direct-award-justification.other-activity">Contracte atribuite în alte scopuri decât pentru desfășurarea unei activități prevăzute sau pentru desfășurarea unei astfel de activități într-o țară terță</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">Contractul poate fi furnizat numai de un anumit operator economic, din cauza protecției altor drepturi exclusive, inclusiv a unor drepturi de proprietate intelectuală, altele decât cele definite la articolul 5 alineatul (10) din Directiva 2014/23/UE</entry>
-<entry key="code|name|direct-award-justification.rail">Transport feroviar</entry>
 <entry key="code|name|direct-award-justification.rd">Contractul se referă la alte servicii de cercetare și dezvoltare decât cele menționate la articolul 13 din Directiva 2009/81/CE</entry>
 <entry key="code|name|direct-award-justification.repetition">Lucrări/servicii noi, constituind o repetare a lucrărilor sau a serviciilor existente și comandate în conformitate cu condițiile stricte prevăzute de directivă</entry>
 <entry key="code|name|direct-award-justification.resd">Obiectul contractului este exclusiv cercetarea, experimentarea, studiul sau dezvoltarea, în condițiile prevăzute de directivă</entry>
@@ -10212,7 +10205,6 @@
 <entry key="code|name|eforms-contract-nature.services">Servicii</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Bunuri</entry>
 <entry key="code|name|eforms-contract-nature.works">Lucrări</entry>
-<entry key="code|name|eforms-country.1A0">Kosovo</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">Afganistan</entry>
 <entry key="code|name|eforms-country.AGO">Angola</entry>
@@ -10225,6 +10217,7 @@
 <entry key="code|name|eforms-country.ARM">Armenia</entry>
 <entry key="code|name|eforms-country.ASM">Samoa Americană</entry>
 <entry key="code|name|eforms-country.ATA">Antarctica</entry>
+<entry key="code|name|eforms-country.ATF">Teritoriile Australe și Antarctice Franceze</entry>
 <entry key="code|name|eforms-country.ATG">Antigua şi Barbuda</entry>
 <entry key="code|name|eforms-country.AUS">Australia</entry>
 <entry key="code|name|eforms-country.AUT">Austria</entry>
@@ -10393,7 +10386,7 @@
 <entry key="code|name|eforms-country.PRK">Coreea de Nord</entry>
 <entry key="code|name|eforms-country.PRT">Portugalia</entry>
 <entry key="code|name|eforms-country.PRY">Paraguay</entry>
-<entry key="code|name|eforms-country.PSE">Palestina</entry>
+<entry key="code|name|eforms-country.PSE">Palestina*</entry>
 <entry key="code|name|eforms-country.PYF">Polinezia Franceză</entry>
 <entry key="code|name|eforms-country.QAT">Qatar</entry>
 <entry key="code|name|eforms-country.ROU">România</entry>
@@ -10444,7 +10437,7 @@
 <entry key="code|name|eforms-country.URY">Uruguay</entry>
 <entry key="code|name|eforms-country.USA">Statele Unite</entry>
 <entry key="code|name|eforms-country.UZB">Uzbekistan</entry>
-<entry key="code|name|eforms-country.VAT">Statul Cetății Vaticanului</entry>
+<entry key="code|name|eforms-country.VAT">Sfântul Scaun</entry>
 <entry key="code|name|eforms-country.VCT">Saint Vincent și Grenadinele</entry>
 <entry key="code|name|eforms-country.VEN">Venezuela</entry>
 <entry key="code|name|eforms-country.VGB">Insulele Virgine Britanice</entry>
@@ -10453,6 +10446,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatu</entry>
 <entry key="code|name|eforms-country.WLF">Wallis şi Futuna</entry>
 <entry key="code|name|eforms-country.WSM">Samoa</entry>
+<entry key="code|name|eforms-country.XKX">Kosovo*</entry>
 <entry key="code|name|eforms-country.YEM">Yemen</entry>
 <entry key="code|name|eforms-country.ZAF">Africa de Sud</entry>
 <entry key="code|name|eforms-country.ZMB">Zambia</entry>
@@ -11212,10 +11206,13 @@
 <entry key="code|name|language.ZHO">chineză</entry>
 <entry key="code|name|language.ZUL">zulu</entry>
 <entry key="code|name|lawful-country.ALB">Albania</entry>
+<entry key="code|name|lawful-country.ATF">Teritoriile Australe și Antarctice Franceze</entry>
 <entry key="code|name|lawful-country.AUT">Austria</entry>
 <entry key="code|name|lawful-country.BEL">Belgia</entry>
 <entry key="code|name|lawful-country.BGR">Bulgaria</entry>
+<entry key="code|name|lawful-country.BLM">Saint Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">Elveţia</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">Cipru</entry>
 <entry key="code|name|lawful-country.CZE">Cehia</entry>
 <entry key="code|name|lawful-country.DEU">Germania</entry>
@@ -11238,17 +11235,21 @@
 <entry key="code|name|lawful-country.MKD">Macedonia de Nord</entry>
 <entry key="code|name|lawful-country.MLT">Malta</entry>
 <entry key="code|name|lawful-country.MNE">Muntenegru</entry>
+<entry key="code|name|lawful-country.NCL">Noua Caledonie</entry>
 <entry key="code|name|lawful-country.NLD">Ţările de Jos</entry>
 <entry key="code|name|lawful-country.NOR">Norvegia</entry>
 <entry key="code|name|lawful-country.POL">Polonia</entry>
 <entry key="code|name|lawful-country.PRT">Portugalia</entry>
+<entry key="code|name|lawful-country.PYF">Polinezia Franceză</entry>
 <entry key="code|name|lawful-country.ROU">România</entry>
+<entry key="code|name|lawful-country.SPM">Saint Pierre şi Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">Serbia</entry>
 <entry key="code|name|lawful-country.SVK">Slovacia</entry>
 <entry key="code|name|lawful-country.SVN">Slovenia</entry>
 <entry key="code|name|lawful-country.SWE">Suedia</entry>
 <entry key="code|name|lawful-country.TUR">Turcia</entry>
 <entry key="code|name|lawful-country.UKR">Ucraina</entry>
+<entry key="code|name|lawful-country.WLF">Wallis şi Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Directiva 2014/24/UE</entry>
 <entry key="code|name|legal-basis-1.32018R1046">Regulamentul (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Directiva 2014/24/UE</entry>
@@ -16873,7 +16874,6 @@
 <entry key="code|name|planning.pin-only">Anunț de intenție sau anunț orientativ periodic utilizat numai pentru informare</entry>
 <entry key="code|name|planning.pin-rtl">Anunț de intenție sau anunț orientativ periodic utilizat pentru scurtarea termenelor de primire a ofertelor</entry>
 <entry key="code|name|planning.pin-tran">Anunț de intenție pentru servicii publice de transport de călători</entry>
-<entry key="code|name|postcode-country.1A0">Kosovo</entry>
 <entry key="code|name|postcode-country.AFG">Afganistan</entry>
 <entry key="code|name|postcode-country.ALA">Insulele Åland</entry>
 <entry key="code|name|postcode-country.ALB">Albania</entry>
@@ -16996,7 +16996,7 @@
 <entry key="code|name|postcode-country.PRI">Puerto Rico</entry>
 <entry key="code|name|postcode-country.PRT">Portugalia</entry>
 <entry key="code|name|postcode-country.PRY">Paraguay</entry>
-<entry key="code|name|postcode-country.PSE">Palestina</entry>
+<entry key="code|name|postcode-country.PSE">Palestina*</entry>
 <entry key="code|name|postcode-country.PYF">Polinezia Franceză</entry>
 <entry key="code|name|postcode-country.ROU">România</entry>
 <entry key="code|name|postcode-country.RUS">Rusia</entry>

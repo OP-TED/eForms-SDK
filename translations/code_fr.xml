@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">Agence exécutive européenne pour la recherche</entry>
 <entry key="code|name|corporate-body.SESAR">Entreprise commune «Recherche sur la gestion du trafic aérien dans le ciel unique européen 3»</entry>
 <entry key="code|name|corporate-body.SRB">Conseil de résolution unique</entry>
-<entry key="code|name|country.1A0">Kosovo</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">Afghanistan</entry>
 <entry key="code|name|country.AGO">Angola</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">Arménie</entry>
 <entry key="code|name|country.ASM">Samoa américaines</entry>
 <entry key="code|name|country.ATA">Antarctique</entry>
+<entry key="code|name|country.ATF">Terres australes et antarctiques françaises</entry>
 <entry key="code|name|country.ATG">Antigua-et-Barbuda</entry>
 <entry key="code|name|country.AUS">Australie</entry>
 <entry key="code|name|country.AUT">Autriche</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">Espagne</entry>
 <entry key="code|name|country.EST">Estonie</entry>
 <entry key="code|name|country.ETH">Éthiopie</entry>
+<entry key="code|name|country.EUR">Union européenne</entry>
 <entry key="code|name|country.FIN">Finlande</entry>
 <entry key="code|name|country.FJI">Fidji</entry>
 <entry key="code|name|country.FLK">Îles Falkland</entry>
-<entry key="code|name|country.FQ0">Terres australes et antarctiques françaises</entry>
 <entry key="code|name|country.FRA">France</entry>
 <entry key="code|name|country.FRO">Îles Féroé</entry>
 <entry key="code|name|country.FSM">Micronésie</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Ghana</entry>
 <entry key="code|name|country.GIB">Gibraltar</entry>
 <entry key="code|name|country.GIN">Guinée</entry>
-<entry key="code|name|country.GLP">Guadeloupe</entry>
 <entry key="code|name|country.GMB">Gambie</entry>
 <entry key="code|name|country.GNB">Guinée-Bissau</entry>
 <entry key="code|name|country.GNQ">Guinée équatoriale</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Grenade</entry>
 <entry key="code|name|country.GRL">Groenland</entry>
 <entry key="code|name|country.GTM">Guatemala</entry>
-<entry key="code|name|country.GUF">Guyane</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">Guyana</entry>
 <entry key="code|name|country.HKG">Hong Kong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Mozambique</entry>
 <entry key="code|name|country.MRT">Mauritanie</entry>
 <entry key="code|name|country.MSR">Montserrat</entry>
-<entry key="code|name|country.MTQ">Martinique</entry>
 <entry key="code|name|country.MUS">Maurice</entry>
 <entry key="code|name|country.MWI">Malawi</entry>
 <entry key="code|name|country.MYS">Malaisie</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">Namibie</entry>
 <entry key="code|name|country.NCL">Nouvelle-Calédonie</entry>
 <entry key="code|name|country.NER">Niger</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">Corée du Nord</entry>
 <entry key="code|name|country.PRT">Portugal</entry>
 <entry key="code|name|country.PRY">Paraguay</entry>
-<entry key="code|name|country.PSE">Palestine</entry>
+<entry key="code|name|country.PSE">Palestine*</entry>
 <entry key="code|name|country.PYF">Polynésie française</entry>
 <entry key="code|name|country.QAT">Qatar</entry>
-<entry key="code|name|country.REU">Réunion</entry>
 <entry key="code|name|country.ROU">Roumanie</entry>
 <entry key="code|name|country.RUS">Russie</entry>
 <entry key="code|name|country.RWA">Rwanda</entry>
@@ -423,7 +418,7 @@
 <entry key="code|name|country.TKM">Turkménistan</entry>
 <entry key="code|name|country.TLS">Timor-Oriental</entry>
 <entry key="code|name|country.TON">Tonga</entry>
-<entry key="code|name|country.TTO">Trinidad-et-Tobago</entry>
+<entry key="code|name|country.TTO">Trinité-et-Tobago</entry>
 <entry key="code|name|country.TUN">Tunisie</entry>
 <entry key="code|name|country.TUR">Turquie</entry>
 <entry key="code|name|country.TUV">Tuvalu</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">Uruguay</entry>
 <entry key="code|name|country.USA">États-Unis</entry>
 <entry key="code|name|country.UZB">Ouzbékistan</entry>
-<entry key="code|name|country.VAT">État de la Cité du Vatican</entry>
+<entry key="code|name|country.VAT">Saint-Siège</entry>
 <entry key="code|name|country.VCT">Saint-Vincent-et-les-Grenadines</entry>
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Îles Vierges britanniques</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WLF">Wallis-et-Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
+<entry key="code|name|country.XKX">Kosovo*</entry>
 <entry key="code|name|country.YEM">Yémen</entry>
 <entry key="code|name|country.ZAF">Afrique du Sud</entry>
 <entry key="code|name|country.ZMB">Zambie</entry>
@@ -10101,7 +10097,6 @@
 <entry key="code|name|direct-award-justification.artistic">Le marché ne peut être exécuté que par un opérateur économique particulier en raison de la création ou de l’acquisition d’une œuvre d’art ou d’une performance artistique unique</entry>
 <entry key="code|name|direct-award-justification.bargain">Achat d’opportunité en profitant d’une occasion particulièrement avantageuse qui s’est présentée dans une période de temps très courte et pour lequel le prix à payer est considérablement plus bas que les prix normalement pratiqués sur le marché</entry>
 <entry key="code|name|direct-award-justification.below-thres">Marchés dont la valeur estimée est inférieure aux seuils applicables aux marchés publics</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Contrat à petite échelle avec une petite ou moyenne entreprise</entry>
 <entry key="code|name|direct-award-justification.closure">Achat à des conditions particulièrement avantageuses auprès d’un opérateur économique cessant définitivement ses activités commerciales</entry>
 <entry key="code|name|direct-award-justification.commodity">Marché de fournitures cotées et achetées à une bourse des matières premières</entry>
 <entry key="code|name|direct-award-justification.contest">Marché de services à attribuer au lauréat ou à l’un des lauréats selon le règlement d’un concours</entry>
@@ -10115,7 +10110,6 @@
 <entry key="code|name|direct-award-justification.exclusive">Le marché ne peut être exécuté que par un opérateur économique particulier en raison de la protection de droits exclusifs, notamment de droits de propriété intellectuelle</entry>
 <entry key="code|name|direct-award-justification.existing">Renouvellement partiel ou extension de fournitures ou d’installations existantes par le fournisseur initial commandées dans les conditions strictes énoncées dans la directive</entry>
 <entry key="code|name|direct-award-justification.in-house">Marché public entre organisations du secteur public, marchés attribués à des entreprises liées ou marchés attribués à une coentreprise ou au sein d’une coentreprise</entry>
-<entry key="code|name|direct-award-justification.int-oper">Opérateur interne</entry>
 <entry key="code|name|direct-award-justification.int-rules">Procédure suivant des règles internationales</entry>
 <entry key="code|name|direct-award-justification.irregular">Seules des offres irrégulières ou inacceptables ont été reçues en réponse à un avis antérieur. Tous les soumissionnaires et uniquement les soumissionnaires de la procédure antérieure qui ont satisfait aux critères de sélection, n'ont pas été pas concernés par les motifs d'exclusion et ont satisfait aux exigences formelles ont été inclus dans les négociations</entry>
 <entry key="code|name|direct-award-justification.liquidator">Achat à des conditions particulièrement avantageuses auprès du liquidateur dans le cadre d’une faillite, d’un concordat judiciaire ou d’une procédure de même nature prévue par les législations ou réglementations nationales</entry>
@@ -10125,7 +10119,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Marchés dont la finalité n'est pas l’exécution de travaux, la fourniture de produits ou la fourniture de services</entry>
 <entry key="code|name|direct-award-justification.other-activity">Marchés passés à des fins autres que la poursuite d’une activité visée ou pour la poursuite d’une telle activité dans un pays tiers</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">Le marché ne peut être exécuté que par un opérateur économique particulier en raison de la protection de droits exclusifs, notamment de droits de propriété intellectuelle, autres que ceux définis à l’article 5, point 10, de la directive 2014/23/UE</entry>
-<entry key="code|name|direct-award-justification.rail">Transport par chemin de fer</entry>
 <entry key="code|name|direct-award-justification.rd">Le marché concerne des services de recherche et de développement autres que ceux visés à l’article 13 de la directive 2009/81/CE</entry>
 <entry key="code|name|direct-award-justification.repetition">Nouveaux travaux ou services constituant une répétition de travaux ou de services existants et commandés dans les conditions strictes énoncées dans la directive</entry>
 <entry key="code|name|direct-award-justification.resd">Le marché est mené uniquement à des fins de recherche, d’expérimentation, d’étude ou de développement dans les conditions prévues par la directive</entry>
@@ -10212,7 +10205,6 @@
 <entry key="code|name|eforms-contract-nature.services">Services</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Fournitures</entry>
 <entry key="code|name|eforms-contract-nature.works">Marché de travaux</entry>
-<entry key="code|name|eforms-country.1A0">Kosovo</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">Afghanistan</entry>
 <entry key="code|name|eforms-country.AGO">Angola</entry>
@@ -10225,6 +10217,7 @@
 <entry key="code|name|eforms-country.ARM">Arménie</entry>
 <entry key="code|name|eforms-country.ASM">Samoa américaines</entry>
 <entry key="code|name|eforms-country.ATA">Antarctique</entry>
+<entry key="code|name|eforms-country.ATF">Terres australes et antarctiques françaises</entry>
 <entry key="code|name|eforms-country.ATG">Antigua-et-Barbuda</entry>
 <entry key="code|name|eforms-country.AUS">Australie</entry>
 <entry key="code|name|eforms-country.AUT">Autriche</entry>
@@ -10393,7 +10386,7 @@
 <entry key="code|name|eforms-country.PRK">Corée du Nord</entry>
 <entry key="code|name|eforms-country.PRT">Portugal</entry>
 <entry key="code|name|eforms-country.PRY">Paraguay</entry>
-<entry key="code|name|eforms-country.PSE">Palestine</entry>
+<entry key="code|name|eforms-country.PSE">Palestine*</entry>
 <entry key="code|name|eforms-country.PYF">Polynésie française</entry>
 <entry key="code|name|eforms-country.QAT">Qatar</entry>
 <entry key="code|name|eforms-country.ROU">Roumanie</entry>
@@ -10432,7 +10425,7 @@
 <entry key="code|name|eforms-country.TKM">Turkménistan</entry>
 <entry key="code|name|eforms-country.TLS">Timor-Oriental</entry>
 <entry key="code|name|eforms-country.TON">Tonga</entry>
-<entry key="code|name|eforms-country.TTO">Trinidad-et-Tobago</entry>
+<entry key="code|name|eforms-country.TTO">Trinité-et-Tobago</entry>
 <entry key="code|name|eforms-country.TUN">Tunisie</entry>
 <entry key="code|name|eforms-country.TUR">Turquie</entry>
 <entry key="code|name|eforms-country.TUV">Tuvalu</entry>
@@ -10444,7 +10437,7 @@
 <entry key="code|name|eforms-country.URY">Uruguay</entry>
 <entry key="code|name|eforms-country.USA">États-Unis</entry>
 <entry key="code|name|eforms-country.UZB">Ouzbékistan</entry>
-<entry key="code|name|eforms-country.VAT">État de la Cité du Vatican</entry>
+<entry key="code|name|eforms-country.VAT">Saint-Siège</entry>
 <entry key="code|name|eforms-country.VCT">Saint-Vincent-et-les-Grenadines</entry>
 <entry key="code|name|eforms-country.VEN">Venezuela</entry>
 <entry key="code|name|eforms-country.VGB">Îles Vierges britanniques</entry>
@@ -10453,6 +10446,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatu</entry>
 <entry key="code|name|eforms-country.WLF">Wallis-et-Futuna</entry>
 <entry key="code|name|eforms-country.WSM">Samoa</entry>
+<entry key="code|name|eforms-country.XKX">Kosovo*</entry>
 <entry key="code|name|eforms-country.YEM">Yémen</entry>
 <entry key="code|name|eforms-country.ZAF">Afrique du Sud</entry>
 <entry key="code|name|eforms-country.ZMB">Zambie</entry>
@@ -11212,10 +11206,13 @@
 <entry key="code|name|language.ZHO">chinois</entry>
 <entry key="code|name|language.ZUL">zoulou</entry>
 <entry key="code|name|lawful-country.ALB">Albanie</entry>
+<entry key="code|name|lawful-country.ATF">Terres australes et antarctiques françaises</entry>
 <entry key="code|name|lawful-country.AUT">Autriche</entry>
 <entry key="code|name|lawful-country.BEL">Belgique</entry>
 <entry key="code|name|lawful-country.BGR">Bulgarie</entry>
+<entry key="code|name|lawful-country.BLM">Saint-Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">Suisse</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">Chypre</entry>
 <entry key="code|name|lawful-country.CZE">Tchéquie</entry>
 <entry key="code|name|lawful-country.DEU">Allemagne</entry>
@@ -11238,17 +11235,21 @@
 <entry key="code|name|lawful-country.MKD">Macédoine du Nord</entry>
 <entry key="code|name|lawful-country.MLT">Malte</entry>
 <entry key="code|name|lawful-country.MNE">Monténégro</entry>
+<entry key="code|name|lawful-country.NCL">Nouvelle-Calédonie</entry>
 <entry key="code|name|lawful-country.NLD">Pays-Bas</entry>
 <entry key="code|name|lawful-country.NOR">Norvège</entry>
 <entry key="code|name|lawful-country.POL">Pologne</entry>
 <entry key="code|name|lawful-country.PRT">Portugal</entry>
+<entry key="code|name|lawful-country.PYF">Polynésie française</entry>
 <entry key="code|name|lawful-country.ROU">Roumanie</entry>
+<entry key="code|name|lawful-country.SPM">Saint-Pierre-et-Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">Serbie</entry>
 <entry key="code|name|lawful-country.SVK">Slovaquie</entry>
 <entry key="code|name|lawful-country.SVN">Slovénie</entry>
 <entry key="code|name|lawful-country.SWE">Suède</entry>
 <entry key="code|name|lawful-country.TUR">Turquie</entry>
 <entry key="code|name|lawful-country.UKR">Ukraine</entry>
+<entry key="code|name|lawful-country.WLF">Wallis-et-Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Directive 2014/24/UE</entry>
 <entry key="code|name|legal-basis-1.32018R1046">Règlement (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Directive 2014/24/UE</entry>
@@ -16873,7 +16874,6 @@
 <entry key="code|name|planning.pin-only">Avis de préinformation ou avis périodique indicatif utilisé uniquement à titre d’information</entry>
 <entry key="code|name|planning.pin-rtl">Avis de préinformation ou avis périodique indicatif utilisé pour raccourcir les délais de réception des offres</entry>
 <entry key="code|name|planning.pin-tran">Avis de préinformation relatif à des services publics de transport de voyageurs</entry>
-<entry key="code|name|postcode-country.1A0">Kosovo</entry>
 <entry key="code|name|postcode-country.AFG">Afghanistan</entry>
 <entry key="code|name|postcode-country.ALA">Îles Åland</entry>
 <entry key="code|name|postcode-country.ALB">Albanie</entry>
@@ -16996,7 +16996,7 @@
 <entry key="code|name|postcode-country.PRI">Porto Rico</entry>
 <entry key="code|name|postcode-country.PRT">Portugal</entry>
 <entry key="code|name|postcode-country.PRY">Paraguay</entry>
-<entry key="code|name|postcode-country.PSE">Palestine</entry>
+<entry key="code|name|postcode-country.PSE">Palestine*</entry>
 <entry key="code|name|postcode-country.PYF">Polynésie française</entry>
 <entry key="code|name|postcode-country.ROU">Roumanie</entry>
 <entry key="code|name|postcode-country.RUS">Russie</entry>
@@ -17017,7 +17017,7 @@
 <entry key="code|name|postcode-country.TJK">Tadjikistan</entry>
 <entry key="code|name|postcode-country.TKM">Turkménistan</entry>
 <entry key="code|name|postcode-country.TLS">Timor-Oriental</entry>
-<entry key="code|name|postcode-country.TTO">Trinidad-et-Tobago</entry>
+<entry key="code|name|postcode-country.TTO">Trinité-et-Tobago</entry>
 <entry key="code|name|postcode-country.TUN">Tunisie</entry>
 <entry key="code|name|postcode-country.TUR">Turquie</entry>
 <entry key="code|name|postcode-country.UKR">Ukraine</entry>

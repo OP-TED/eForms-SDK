@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">L-Aġenzija Eżekuttiva Ewropea għar-Riċerka</entry>
 <entry key="code|name|corporate-body.SESAR">L-Impriża Konġunta Riċerka dwar il-Ġestjoni tat-Traffiku tal-Ajru Uniku Ewropew 3</entry>
 <entry key="code|name|corporate-body.SRB">Il-Bord Uniku ta’ Riżoluzzjoni</entry>
-<entry key="code|name|country.1A0">Il-Kosovo</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">L-Afganistan</entry>
 <entry key="code|name|country.AGO">L-Angola</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">L-Armenja</entry>
 <entry key="code|name|country.ASM">Is-Samoa Amerikana</entry>
 <entry key="code|name|country.ATA">L-Antartika</entry>
+<entry key="code|name|country.ATF">It-Territorji Franċiżi tan-Nofsinhar u tal-Antartika</entry>
 <entry key="code|name|country.ATG">Antigua u Barbuda</entry>
 <entry key="code|name|country.AUS">L-Awstralja</entry>
 <entry key="code|name|country.AUT">L-Awstrija</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">Spanja</entry>
 <entry key="code|name|country.EST">L-Estonja</entry>
 <entry key="code|name|country.ETH">L-Etjopja</entry>
+<entry key="code|name|country.EUR">Unjoni Ewropea</entry>
 <entry key="code|name|country.FIN">Il-Finlandja</entry>
 <entry key="code|name|country.FJI">Fiġi</entry>
 <entry key="code|name|country.FLK">Il-Gżejjer Falkland</entry>
-<entry key="code|name|country.FQ0">It-Territorji Franċiżi tan-Nofsinhar u tal-Antartika</entry>
 <entry key="code|name|country.FRA">Franza</entry>
 <entry key="code|name|country.FRO">Il-Gżejjer Faeroe</entry>
 <entry key="code|name|country.FSM">Il-Mikroneżja</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Il-Ghana</entry>
 <entry key="code|name|country.GIB">Ġibiltà</entry>
 <entry key="code|name|country.GIN">Il-Guinea</entry>
-<entry key="code|name|country.GLP">Guadeloupe</entry>
 <entry key="code|name|country.GMB">Il-Gambja</entry>
 <entry key="code|name|country.GNB">Il-Guinea-Bissau</entry>
 <entry key="code|name|country.GNQ">Il-Guinea Ekwatorjali</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Grenada</entry>
 <entry key="code|name|country.GRL">Greenland</entry>
 <entry key="code|name|country.GTM">Il-Gwatemala</entry>
-<entry key="code|name|country.GUF">Il-Guyana Franċiża</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">Il-Guyana</entry>
 <entry key="code|name|country.HKG">Hong Kong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Il-Mozambique</entry>
 <entry key="code|name|country.MRT">Il-Mauritania</entry>
 <entry key="code|name|country.MSR">Montserrat</entry>
-<entry key="code|name|country.MTQ">Martinique</entry>
 <entry key="code|name|country.MUS">Mauritius</entry>
 <entry key="code|name|country.MWI">Il-Malawi</entry>
 <entry key="code|name|country.MYS">Il-Malażja</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">In-Namibja</entry>
 <entry key="code|name|country.NCL">New Caledonia</entry>
 <entry key="code|name|country.NER">In-Niġer</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">Il-Korea ta’ Fuq</entry>
 <entry key="code|name|country.PRT">Il-Portugall</entry>
 <entry key="code|name|country.PRY">Il-Paragwaj</entry>
-<entry key="code|name|country.PSE">Il-Palestina</entry>
+<entry key="code|name|country.PSE">Il-Palestina*</entry>
 <entry key="code|name|country.PYF">Il-Polineżja Franċiża</entry>
 <entry key="code|name|country.QAT">Il-Qatar</entry>
-<entry key="code|name|country.REU">Réunion</entry>
 <entry key="code|name|country.ROU">Ir-Rumanija</entry>
 <entry key="code|name|country.RUS">Ir-Russja</entry>
 <entry key="code|name|country.RWA">Ir-Rwanda</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">L-Urugwaj</entry>
 <entry key="code|name|country.USA">L-Istati Uniti</entry>
 <entry key="code|name|country.UZB">L-Użbekistan</entry>
-<entry key="code|name|country.VAT">L-Istat tal-Belt tal-Vatikan</entry>
+<entry key="code|name|country.VAT">Is-Santa Sede</entry>
 <entry key="code|name|country.VCT">Saint Vincent u l-Grenadini</entry>
 <entry key="code|name|country.VEN">Il-Venezwela</entry>
 <entry key="code|name|country.VGB">Il-Gżejjer Verġni Brittaniċi</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WLF">Wallis u Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
+<entry key="code|name|country.XKX">Il-Kosovo*</entry>
 <entry key="code|name|country.YEM">Il-Jemen</entry>
 <entry key="code|name|country.ZAF">L-Afrika t’Isfel</entry>
 <entry key="code|name|country.ZMB">Iż-Żambja</entry>
@@ -10101,7 +10097,6 @@
 <entry key="code|name|direct-award-justification.artistic">Il-kuntratt jista’ jiġi pprovdut biss minn operatur ekonomiku partikolari minħabba il-ħolqien jew l-akkwiżizzjoni ta’ opra tal-arti unika jew ta’ spettaklu artistiku uniku</entry>
 <entry key="code|name|direct-award-justification.bargain">Xiri bi prezz innegozjat li jieħu vantaġġ minn opportunità partikolarment vantaġġuża li tkun disponibbli għal żmien qasir ħafna bi prezz konsiderevolment iktar baxx mill-prezzijiet tas-suq</entry>
 <entry key="code|name|direct-award-justification.below-thres">Kuntratti b’valur stmat taħt il-livelli limitu tal-akkwist</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Kuntratt fuq skala żgħira lil intrapriża żgħira u ta’ daqs medju</entry>
 <entry key="code|name|direct-award-justification.closure">Xiri b’termini partikolarment vantaġġużi minn operatur ekonomiku li qiegħed jillikwida definittivament l-attivitajiet tan-negozju tiegħu</entry>
 <entry key="code|name|direct-award-justification.commodity">Akkwist ta’ provvisti kkwotati u mixtrija minn suq tal-prodotti bażiċi</entry>
 <entry key="code|name|direct-award-justification.contest">Kuntratt għas-servizzi li jrid jingħata lir-rebbieħ jew lil wieħed mir-rebbieħa skont ir-regoli ta’ konkors ta’ disinn</entry>
@@ -10115,7 +10110,6 @@
 <entry key="code|name|direct-award-justification.exclusive">Il-kuntratt jista’ jiġi pprovdut biss minn operatur ekonomiku partikolari minħabba d-drittijiet esklużivi, inkluż id-drittijiet tal-proprjetà intellettwali</entry>
 <entry key="code|name|direct-award-justification.existing">Sostituzzjoni parzjali jew estensjoni tal-provvisti jew tal-installazzjonijiet eżistenti mill-fornitur oriġinali ordnati skont il-kundizzjonijiet stretti ddikjarati fid-Direttiva</entry>
 <entry key="code|name|direct-award-justification.in-house">Kuntratt pubbliku bejn organizzazzjonijiet fis-settur pubbliku (“interni”), kuntratti mogħtija lil impriżi affiljati, jew kuntratti mogħtija li impriża konġunta jew fi ħdan impriża konġunta</entry>
-<entry key="code|name|direct-award-justification.int-oper">Operatur intern</entry>
 <entry key="code|name|direct-award-justification.int-rules">Proċedura skont ir-regoli internazzjonali</entry>
 <entry key="code|name|direct-award-justification.irregular">Ġew riċevuti offerti irregolari jew mhux aċċettabbli biss b'rispons għal avviż preċedenti. Ġew inklużi fin-negozjati l-offerenti kollha tal-proċedura preċedenti, u dawk biss, li ssodisfaw il-kriterji tal-għażla, li ma ssodisfawx ir-raġunijiet għall-esklużjoni, u li ssodisfaw ir-rekwiżiti formali</entry>
 <entry key="code|name|direct-award-justification.liquidator">Xiri b’termini partikolarment vantaġġużi mil-likwidatur fi proċedura ta’ insolvenza, arranġament mal-kredituri jew proċedura simili skont il-liġijiet u r-regolamenti nazzjonali</entry>
@@ -10125,7 +10119,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Kuntratti li l-fini tagħhom mhuwiex it-twettiq ta’ xogħlijiet, il-provvista ta’ prodotti u l-provvista ta’ servizzi;</entry>
 <entry key="code|name|direct-award-justification.other-activity">Kuntratti mogħtija għal finijiet għajr it-twettiq ta’ attività koperta jew għat-twettiq ta’ tali attività f’pajjiż terz</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">Il-kuntratt jista’ jiġi pprovdut biss minn operatur ekonomiku partikolari minħabba l-protezzjoni ta’ drittijiet esklużivi oħra, inkluż id-drittijiet tal-proprjetà intellettwali, għajr dawk definiti fl-Artikolu 5(10) tad-Direttiva 2014/23/UE Art. 5 (10)</entry>
-<entry key="code|name|direct-award-justification.rail">Trasport bil-ferrovija</entry>
 <entry key="code|name|direct-award-justification.rd">Il-kuntratt jikkonċerna s-servizzi tar-riċerka u tal-iżvilupp għajr dawk imsemmija fl-Artikolu 13 tad-Direttiva 2009/81/KE</entry>
 <entry key="code|name|direct-award-justification.repetition">Xogħlijiet jew servizzi ġodda, li jikkostitwixxu repetizzjoni ta’ xogħlijiet jew ta’ servizzi eżistenti u ordnati skont il-kundizzjonijiet stretti ddikjarati fid-Direttiva</entry>
 <entry key="code|name|direct-award-justification.resd">L-iskop tal-kuntratt huwa purament riċerka, esperiment, studju jew żvilupp skont il-kundizzjonijiet iddikjarati fid-Direttiva</entry>
@@ -10212,7 +10205,6 @@
 <entry key="code|name|eforms-contract-nature.services">Servizzi</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Fornituri</entry>
 <entry key="code|name|eforms-contract-nature.works">Xogħlijiet</entry>
-<entry key="code|name|eforms-country.1A0">Il-Kosovo</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">L-Afganistan</entry>
 <entry key="code|name|eforms-country.AGO">L-Angola</entry>
@@ -10225,6 +10217,7 @@
 <entry key="code|name|eforms-country.ARM">L-Armenja</entry>
 <entry key="code|name|eforms-country.ASM">Is-Samoa Amerikana</entry>
 <entry key="code|name|eforms-country.ATA">L-Antartika</entry>
+<entry key="code|name|eforms-country.ATF">It-Territorji Franċiżi tan-Nofsinhar u tal-Antartika</entry>
 <entry key="code|name|eforms-country.ATG">Antigua u Barbuda</entry>
 <entry key="code|name|eforms-country.AUS">L-Awstralja</entry>
 <entry key="code|name|eforms-country.AUT">L-Awstrija</entry>
@@ -10393,7 +10386,7 @@
 <entry key="code|name|eforms-country.PRK">Il-Korea ta’ Fuq</entry>
 <entry key="code|name|eforms-country.PRT">Il-Portugall</entry>
 <entry key="code|name|eforms-country.PRY">Il-Paragwaj</entry>
-<entry key="code|name|eforms-country.PSE">Il-Palestina</entry>
+<entry key="code|name|eforms-country.PSE">Il-Palestina*</entry>
 <entry key="code|name|eforms-country.PYF">Il-Polineżja Franċiża</entry>
 <entry key="code|name|eforms-country.QAT">Il-Qatar</entry>
 <entry key="code|name|eforms-country.ROU">Ir-Rumanija</entry>
@@ -10444,7 +10437,7 @@
 <entry key="code|name|eforms-country.URY">L-Urugwaj</entry>
 <entry key="code|name|eforms-country.USA">L-Istati Uniti</entry>
 <entry key="code|name|eforms-country.UZB">L-Użbekistan</entry>
-<entry key="code|name|eforms-country.VAT">L-Istat tal-Belt tal-Vatikan</entry>
+<entry key="code|name|eforms-country.VAT">Is-Santa Sede</entry>
 <entry key="code|name|eforms-country.VCT">Saint Vincent u l-Grenadini</entry>
 <entry key="code|name|eforms-country.VEN">Il-Venezwela</entry>
 <entry key="code|name|eforms-country.VGB">Il-Gżejjer Verġni Brittaniċi</entry>
@@ -10453,6 +10446,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatu</entry>
 <entry key="code|name|eforms-country.WLF">Wallis u Futuna</entry>
 <entry key="code|name|eforms-country.WSM">Samoa</entry>
+<entry key="code|name|eforms-country.XKX">Il-Kosovo*</entry>
 <entry key="code|name|eforms-country.YEM">Il-Jemen</entry>
 <entry key="code|name|eforms-country.ZAF">L-Afrika t’Isfel</entry>
 <entry key="code|name|eforms-country.ZMB">Iż-Żambja</entry>
@@ -11212,10 +11206,13 @@
 <entry key="code|name|language.ZHO">Ċiniż</entry>
 <entry key="code|name|language.ZUL">Zulu</entry>
 <entry key="code|name|lawful-country.ALB">L-Albanija</entry>
+<entry key="code|name|lawful-country.ATF">It-Territorji Franċiżi tan-Nofsinhar u tal-Antartika</entry>
 <entry key="code|name|lawful-country.AUT">L-Awstrija</entry>
 <entry key="code|name|lawful-country.BEL">Il-Belġju</entry>
 <entry key="code|name|lawful-country.BGR">Il-Bulgarija</entry>
+<entry key="code|name|lawful-country.BLM">Saint Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">L-Iżvizzera</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">Ċipru</entry>
 <entry key="code|name|lawful-country.CZE">Iċ-Ċekja</entry>
 <entry key="code|name|lawful-country.DEU">Il-Ġermanja</entry>
@@ -11238,17 +11235,21 @@
 <entry key="code|name|lawful-country.MKD">Il-Maċedonja ta’ Fuq</entry>
 <entry key="code|name|lawful-country.MLT">Malta</entry>
 <entry key="code|name|lawful-country.MNE">Il-Montenegro</entry>
+<entry key="code|name|lawful-country.NCL">New Caledonia</entry>
 <entry key="code|name|lawful-country.NLD">In-Netherlands</entry>
 <entry key="code|name|lawful-country.NOR">In-Norveġja</entry>
 <entry key="code|name|lawful-country.POL">Il-Polonja</entry>
 <entry key="code|name|lawful-country.PRT">Il-Portugall</entry>
+<entry key="code|name|lawful-country.PYF">Il-Polineżja Franċiża</entry>
 <entry key="code|name|lawful-country.ROU">Ir-Rumanija</entry>
+<entry key="code|name|lawful-country.SPM">Saint Pierre u Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">Is-Serbja</entry>
 <entry key="code|name|lawful-country.SVK">Is-Slovakkja</entry>
 <entry key="code|name|lawful-country.SVN">Is-Slovenja</entry>
 <entry key="code|name|lawful-country.SWE">L-Iżvezja</entry>
 <entry key="code|name|lawful-country.TUR">It-Turkija</entry>
 <entry key="code|name|lawful-country.UKR">L-Ukrajna</entry>
+<entry key="code|name|lawful-country.WLF">Wallis u Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Direttiva 2014/24/UE</entry>
 <entry key="code|name|legal-basis-1.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Direttiva 2014/24/UE</entry>
@@ -16873,7 +16874,6 @@
 <entry key="code|name|planning.pin-only">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biss għall-informazzjoni</entry>
 <entry key="code|name|planning.pin-rtl">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biex jitqassru l-limiti ta’ żmien għall-wasla tal-offerti</entry>
 <entry key="code|name|planning.pin-tran">Avviż informattiv minn qabel għas-servizzi pubbliċi tat-trasport tal-passiġġieri</entry>
-<entry key="code|name|postcode-country.1A0">Il-Kosovo</entry>
 <entry key="code|name|postcode-country.AFG">L-Afganistan</entry>
 <entry key="code|name|postcode-country.ALA">Il-Gżejjer Åland</entry>
 <entry key="code|name|postcode-country.ALB">L-Albanija</entry>
@@ -16996,7 +16996,7 @@
 <entry key="code|name|postcode-country.PRI">Puerto Rico</entry>
 <entry key="code|name|postcode-country.PRT">Il-Portugall</entry>
 <entry key="code|name|postcode-country.PRY">Il-Paragwaj</entry>
-<entry key="code|name|postcode-country.PSE">Il-Palestina</entry>
+<entry key="code|name|postcode-country.PSE">Il-Palestina*</entry>
 <entry key="code|name|postcode-country.PYF">Il-Polineżja Franċiża</entry>
 <entry key="code|name|postcode-country.ROU">Ir-Rumanija</entry>
 <entry key="code|name|postcode-country.RUS">Ir-Russja</entry>

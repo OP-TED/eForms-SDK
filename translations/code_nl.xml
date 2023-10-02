@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">Europees Uitvoerend Agentschap onderzoek</entry>
 <entry key="code|name|corporate-body.SESAR">Gemeenschappelijke Onderneming “Derde ATM-onderzoek in het kader van het gemeenschappelijk Europees luchtruim”</entry>
 <entry key="code|name|corporate-body.SRB">Gemeenschappelijke Afwikkelingsraad</entry>
-<entry key="code|name|country.1A0">Kosovo</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">Afghanistan</entry>
 <entry key="code|name|country.AGO">Angola</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">Armenië</entry>
 <entry key="code|name|country.ASM">Amerikaans-Samoa</entry>
 <entry key="code|name|country.ATA">Antarctica</entry>
+<entry key="code|name|country.ATF">Franse Zuidelijke en Zuidpoolgebieden</entry>
 <entry key="code|name|country.ATG">Antigua en Barbuda</entry>
 <entry key="code|name|country.AUS">Australië</entry>
 <entry key="code|name|country.AUT">Oostenrijk</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">Spanje</entry>
 <entry key="code|name|country.EST">Estland</entry>
 <entry key="code|name|country.ETH">Ethiopië</entry>
+<entry key="code|name|country.EUR">Europese Unie</entry>
 <entry key="code|name|country.FIN">Finland</entry>
 <entry key="code|name|country.FJI">Fiji</entry>
 <entry key="code|name|country.FLK">Falklandeilanden</entry>
-<entry key="code|name|country.FQ0">Franse Zuidelijke en Zuidpoolgebieden</entry>
 <entry key="code|name|country.FRA">Frankrijk</entry>
 <entry key="code|name|country.FRO">Faeröer</entry>
 <entry key="code|name|country.FSM">Micronesia</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Ghana</entry>
 <entry key="code|name|country.GIB">Gibraltar</entry>
 <entry key="code|name|country.GIN">Guinee</entry>
-<entry key="code|name|country.GLP">Guadeloupe</entry>
 <entry key="code|name|country.GMB">Gambia</entry>
 <entry key="code|name|country.GNB">Guinee-Bissau</entry>
 <entry key="code|name|country.GNQ">Equatoriaal-Guinea</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Grenada</entry>
 <entry key="code|name|country.GRL">Groenland</entry>
 <entry key="code|name|country.GTM">Guatemala</entry>
-<entry key="code|name|country.GUF">Frans-Guyana</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">Guyana</entry>
 <entry key="code|name|country.HKG">Hongkong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Mozambique</entry>
 <entry key="code|name|country.MRT">Mauritanië</entry>
 <entry key="code|name|country.MSR">Montserrat</entry>
-<entry key="code|name|country.MTQ">Martinique</entry>
 <entry key="code|name|country.MUS">Mauritius</entry>
 <entry key="code|name|country.MWI">Malawi</entry>
 <entry key="code|name|country.MYS">Maleisië</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">Namibië</entry>
 <entry key="code|name|country.NCL">Nieuw-Caledonië</entry>
 <entry key="code|name|country.NER">Niger</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">Noord-Korea</entry>
 <entry key="code|name|country.PRT">Portugal</entry>
 <entry key="code|name|country.PRY">Paraguay</entry>
-<entry key="code|name|country.PSE">Palestina</entry>
+<entry key="code|name|country.PSE">Palestina*</entry>
 <entry key="code|name|country.PYF">Frans-Polynesië</entry>
 <entry key="code|name|country.QAT">Qatar</entry>
-<entry key="code|name|country.REU">Réunion</entry>
 <entry key="code|name|country.ROU">Roemenië</entry>
 <entry key="code|name|country.RUS">Rusland</entry>
 <entry key="code|name|country.RWA">Rwanda</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">Uruguay</entry>
 <entry key="code|name|country.USA">Verenigde Staten</entry>
 <entry key="code|name|country.UZB">Oezbekistan</entry>
-<entry key="code|name|country.VAT">Staat Vaticaanstad</entry>
+<entry key="code|name|country.VAT">Heilige Stoel</entry>
 <entry key="code|name|country.VCT">Saint Vincent en de Grenadines</entry>
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Britse Maagdeneilanden</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WLF">Wallis en Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
+<entry key="code|name|country.XKX">Kosovo*</entry>
 <entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.ZAF">Zuid-Afrika</entry>
 <entry key="code|name|country.ZMB">Zambia</entry>
@@ -10101,7 +10097,6 @@
 <entry key="code|name|direct-award-justification.artistic">De opdracht kan alleen door een bepaalde ondernemer worden uitgevoerd omdat hij het vervaardigen of verwerven van een uniek kunstwerk of het leveren van een artistieke prestatie behelst</entry>
 <entry key="code|name|direct-award-justification.bargain">Gelegenheidsaankoop, wanneer zich gedurende zeer korte tijd een bijzonder voordelige gelegenheid voordoet tegen een prijs die ver onder de normale marktprijzen ligt</entry>
 <entry key="code|name|direct-award-justification.below-thres">Opdrachten met een geraamde waarde onder de aanbestedingsdrempels</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Contract op kleine schaal aan een kleine of middelgrote onderneming</entry>
 <entry key="code|name|direct-award-justification.closure">Aankoop tegen bijzonder gunstige voorwaarden bij een ondernemer die definitief zijn handelsactiviteiten stopzet</entry>
 <entry key="code|name|direct-award-justification.commodity">Opdracht voor de levering van op een grondstoffenmarkt genoteerde en aangekochte goederen</entry>
 <entry key="code|name|direct-award-justification.contest">Opdracht voor diensten die volgens de voorschriften van een prijsvraag voor ontwerpen aan de winnaar of aan een van de winnaars moet worden gegund</entry>
@@ -10115,7 +10110,6 @@
 <entry key="code|name|direct-award-justification.exclusive">De opdracht kan alleen door een bepaalde ondernemer worden uitgevoerd wegens uitsluitende rechten, met inbegrip van intellectuele-eigendomsrechten</entry>
 <entry key="code|name|direct-award-justification.existing">Gedeeltelijke vernieuwing of uitbreiding van bestaande leveringen of installaties door de oorspronkelijke leverancier, besteld onder de in de richtlijn vermelde strikte voorwaarden</entry>
 <entry key="code|name|direct-award-justification.in-house">Overheidsopdracht tussen organisaties binnen de publieke sector (“in-house”), opdrachten gegund aan verbonden ondernemingen of opdrachten gegund aan of binnen een gezamenlijke onderneming (“joint venture”)</entry>
-<entry key="code|name|direct-award-justification.int-oper">Interne exploitant</entry>
 <entry key="code|name|direct-award-justification.int-rules">Procedure op grond van internationale voorschriften</entry>
 <entry key="code|name|direct-award-justification.irregular">Er zijn naar aanleiding van een eerdere aankondiging alleen onregelmatige of onaanvaardbare inschrijvingen ontvangen. Aan de onderhandelingen mochten alleen inschrijvers deelnemen die in de eerdere procedure aan de selectiecriteria voldeden, op wie geen uitsluitingsgronden van toepassing waren en die aan de formele vereisten voldeden</entry>
 <entry key="code|name|direct-award-justification.liquidator">Aankoop tegen bijzonder gunstige voorwaarden bij de curator in geval van een faillissement, een regeling met schuldeisers, of een in de nationale wet- of regelgeving bestaande procedure van dezelfde aard</entry>
@@ -10125,7 +10119,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Opdrachten die geen betrekking hebben op de uitvoering van werken, de levering van producten of de verlening van diensten</entry>
 <entry key="code|name|direct-award-justification.other-activity">Opdrachten voor andere doeleinden dan de uitoefening van een onder de richtlijn vallende activiteit of voor de uitoefening van een dergelijke activiteit in een derde land</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">De opdracht kan alleen door een bepaalde ondernemer worden uitgevoerd wegens de bescherming van andere uitsluitende rechten, met inbegrip van intellectuele-eigendomsrechten, dan die welke zijn omschreven in artikel 5, lid 10, van Richtlijn 2014/23/EU</entry>
-<entry key="code|name|direct-award-justification.rail">Spoorvervoer</entry>
 <entry key="code|name|direct-award-justification.rd">Het contract betreft andere diensten voor onderzoek en ontwikkeling dan die bedoeld in artikel 13 van Richtlijn 2009/81/EG</entry>
 <entry key="code|name|direct-award-justification.repetition">Nieuwe werken of diensten die een herhaling zijn van bestaande werken of diensten en die zijn besteld onder de in de richtlijn vermelde strikte voorwaarden</entry>
 <entry key="code|name|direct-award-justification.resd">De opdracht is zuiver bedoeld voor onderzoek, proefneming, studie of ontwikkeling onder de in de richtlijn gestelde voorwaarden</entry>
@@ -10212,7 +10205,6 @@
 <entry key="code|name|eforms-contract-nature.services">Diensten</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Leveringen</entry>
 <entry key="code|name|eforms-contract-nature.works">Werken</entry>
-<entry key="code|name|eforms-country.1A0">Kosovo</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">Afghanistan</entry>
 <entry key="code|name|eforms-country.AGO">Angola</entry>
@@ -10225,6 +10217,7 @@
 <entry key="code|name|eforms-country.ARM">Armenië</entry>
 <entry key="code|name|eforms-country.ASM">Amerikaans-Samoa</entry>
 <entry key="code|name|eforms-country.ATA">Antarctica</entry>
+<entry key="code|name|eforms-country.ATF">Franse Zuidelijke en Zuidpoolgebieden</entry>
 <entry key="code|name|eforms-country.ATG">Antigua en Barbuda</entry>
 <entry key="code|name|eforms-country.AUS">Australië</entry>
 <entry key="code|name|eforms-country.AUT">Oostenrijk</entry>
@@ -10393,7 +10386,7 @@
 <entry key="code|name|eforms-country.PRK">Noord-Korea</entry>
 <entry key="code|name|eforms-country.PRT">Portugal</entry>
 <entry key="code|name|eforms-country.PRY">Paraguay</entry>
-<entry key="code|name|eforms-country.PSE">Palestina</entry>
+<entry key="code|name|eforms-country.PSE">Palestina*</entry>
 <entry key="code|name|eforms-country.PYF">Frans-Polynesië</entry>
 <entry key="code|name|eforms-country.QAT">Qatar</entry>
 <entry key="code|name|eforms-country.ROU">Roemenië</entry>
@@ -10444,7 +10437,7 @@
 <entry key="code|name|eforms-country.URY">Uruguay</entry>
 <entry key="code|name|eforms-country.USA">Verenigde Staten</entry>
 <entry key="code|name|eforms-country.UZB">Oezbekistan</entry>
-<entry key="code|name|eforms-country.VAT">Staat Vaticaanstad</entry>
+<entry key="code|name|eforms-country.VAT">Heilige Stoel</entry>
 <entry key="code|name|eforms-country.VCT">Saint Vincent en de Grenadines</entry>
 <entry key="code|name|eforms-country.VEN">Venezuela</entry>
 <entry key="code|name|eforms-country.VGB">Britse Maagdeneilanden</entry>
@@ -10453,6 +10446,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatu</entry>
 <entry key="code|name|eforms-country.WLF">Wallis en Futuna</entry>
 <entry key="code|name|eforms-country.WSM">Samoa</entry>
+<entry key="code|name|eforms-country.XKX">Kosovo*</entry>
 <entry key="code|name|eforms-country.YEM">Jemen</entry>
 <entry key="code|name|eforms-country.ZAF">Zuid-Afrika</entry>
 <entry key="code|name|eforms-country.ZMB">Zambia</entry>
@@ -11212,10 +11206,13 @@
 <entry key="code|name|language.ZHO">Chinees</entry>
 <entry key="code|name|language.ZUL">Zoeloe</entry>
 <entry key="code|name|lawful-country.ALB">Albanië</entry>
+<entry key="code|name|lawful-country.ATF">Franse Zuidelijke en Zuidpoolgebieden</entry>
 <entry key="code|name|lawful-country.AUT">Oostenrijk</entry>
 <entry key="code|name|lawful-country.BEL">België</entry>
 <entry key="code|name|lawful-country.BGR">Bulgarije</entry>
+<entry key="code|name|lawful-country.BLM">Saint-Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">Zwitserland</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">Cyprus</entry>
 <entry key="code|name|lawful-country.CZE">Tsjechië</entry>
 <entry key="code|name|lawful-country.DEU">Duitsland</entry>
@@ -11238,17 +11235,21 @@
 <entry key="code|name|lawful-country.MKD">Noord-Macedonië</entry>
 <entry key="code|name|lawful-country.MLT">Malta</entry>
 <entry key="code|name|lawful-country.MNE">Montenegro</entry>
+<entry key="code|name|lawful-country.NCL">Nieuw-Caledonië</entry>
 <entry key="code|name|lawful-country.NLD">Nederland</entry>
 <entry key="code|name|lawful-country.NOR">Noorwegen</entry>
 <entry key="code|name|lawful-country.POL">Polen</entry>
 <entry key="code|name|lawful-country.PRT">Portugal</entry>
+<entry key="code|name|lawful-country.PYF">Frans-Polynesië</entry>
 <entry key="code|name|lawful-country.ROU">Roemenië</entry>
+<entry key="code|name|lawful-country.SPM">Saint-Pierre en Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">Servië</entry>
 <entry key="code|name|lawful-country.SVK">Slowakije</entry>
 <entry key="code|name|lawful-country.SVN">Slovenië</entry>
 <entry key="code|name|lawful-country.SWE">Zweden</entry>
 <entry key="code|name|lawful-country.TUR">Turkije</entry>
 <entry key="code|name|lawful-country.UKR">Oekraïne</entry>
+<entry key="code|name|lawful-country.WLF">Wallis en Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Richtlijn 2014/24/EU</entry>
 <entry key="code|name|legal-basis-1.32018R1046">Verordening (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Richtlijn 2014/24/EU</entry>
@@ -16873,7 +16874,6 @@
 <entry key="code|name|planning.pin-only">Vooraankondiging of periodieke indicatieve aankondiging die alleen ter informatie wordt gebruikt</entry>
 <entry key="code|name|planning.pin-rtl">Vooraankondiging of periodieke indicatieve aankondiging gebruikt om termijnen voor de ontvangst van inschrijvingen in te korten</entry>
 <entry key="code|name|planning.pin-tran">Vooraankondiging voor openbaar personenvervoer</entry>
-<entry key="code|name|postcode-country.1A0">Kosovo</entry>
 <entry key="code|name|postcode-country.AFG">Afghanistan</entry>
 <entry key="code|name|postcode-country.ALA">Åland</entry>
 <entry key="code|name|postcode-country.ALB">Albanië</entry>
@@ -16996,7 +16996,7 @@
 <entry key="code|name|postcode-country.PRI">Porto Rico</entry>
 <entry key="code|name|postcode-country.PRT">Portugal</entry>
 <entry key="code|name|postcode-country.PRY">Paraguay</entry>
-<entry key="code|name|postcode-country.PSE">Palestina</entry>
+<entry key="code|name|postcode-country.PSE">Palestina*</entry>
 <entry key="code|name|postcode-country.PYF">Frans-Polynesië</entry>
 <entry key="code|name|postcode-country.ROU">Roemenië</entry>
 <entry key="code|name|postcode-country.RUS">Rusland</entry>

@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">Europska izvršna agencija za istraživanje</entry>
 <entry key="code|name|corporate-body.SESAR">Zajedničko poduzeće za istraživanja o upravljanju zračnim prometom na jedinstvenom europskom nebu 3</entry>
 <entry key="code|name|corporate-body.SRB">Jedinstveni sanacijski odbor</entry>
-<entry key="code|name|country.1A0">Kosovo</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">Afganistan</entry>
 <entry key="code|name|country.AGO">Angola</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">Armenija</entry>
 <entry key="code|name|country.ASM">Američka Samoa</entry>
 <entry key="code|name|country.ATA">Antarktika</entry>
+<entry key="code|name|country.ATF">Francuska Južna i Antarktička Područja</entry>
 <entry key="code|name|country.ATG">Antigva i Barbuda</entry>
 <entry key="code|name|country.AUS">Australija</entry>
 <entry key="code|name|country.AUT">Austrija</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">Španjolska</entry>
 <entry key="code|name|country.EST">Estonija</entry>
 <entry key="code|name|country.ETH">Etiopija</entry>
+<entry key="code|name|country.EUR">Europska unija</entry>
 <entry key="code|name|country.FIN">Finska</entry>
 <entry key="code|name|country.FJI">Fidži</entry>
 <entry key="code|name|country.FLK">Falklandski Otoci</entry>
-<entry key="code|name|country.FQ0">Francuska Južna i Antarktička Područja</entry>
 <entry key="code|name|country.FRA">Francuska</entry>
 <entry key="code|name|country.FRO">Farski Otoci</entry>
 <entry key="code|name|country.FSM">Mikronezija</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Gana</entry>
 <entry key="code|name|country.GIB">Gibraltar</entry>
 <entry key="code|name|country.GIN">Gvineja</entry>
-<entry key="code|name|country.GLP">Guadeloupe</entry>
 <entry key="code|name|country.GMB">Gambija</entry>
 <entry key="code|name|country.GNB">Gvineja Bisau</entry>
 <entry key="code|name|country.GNQ">Ekvatorska Gvineja</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Grenada</entry>
 <entry key="code|name|country.GRL">Grenland</entry>
 <entry key="code|name|country.GTM">Gvatemala</entry>
-<entry key="code|name|country.GUF">Francuska Gijana</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">Gvajana</entry>
 <entry key="code|name|country.HKG">Hong Kong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Mozambik</entry>
 <entry key="code|name|country.MRT">Mauretanija</entry>
 <entry key="code|name|country.MSR">Montserrat</entry>
-<entry key="code|name|country.MTQ">Martinique</entry>
 <entry key="code|name|country.MUS">Mauricijus</entry>
 <entry key="code|name|country.MWI">Malavi</entry>
 <entry key="code|name|country.MYS">Malezija</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">Namibija</entry>
 <entry key="code|name|country.NCL">Nova Kaledonija</entry>
 <entry key="code|name|country.NER">Niger</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">Sjeverna Koreja</entry>
 <entry key="code|name|country.PRT">Portugal</entry>
 <entry key="code|name|country.PRY">Paragvaj</entry>
-<entry key="code|name|country.PSE">Palestina</entry>
+<entry key="code|name|country.PSE">Palestina*</entry>
 <entry key="code|name|country.PYF">Francuska Polinezija</entry>
 <entry key="code|name|country.QAT">Katar</entry>
-<entry key="code|name|country.REU">Réunion</entry>
 <entry key="code|name|country.ROU">Rumunjska</entry>
 <entry key="code|name|country.RUS">Rusija</entry>
 <entry key="code|name|country.RWA">Ruanda</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">Urugvaj</entry>
 <entry key="code|name|country.USA">Sjedinjene Države</entry>
 <entry key="code|name|country.UZB">Uzbekistan</entry>
-<entry key="code|name|country.VAT">Država Vatikanskoga Grada</entry>
+<entry key="code|name|country.VAT">Sveta Stolica</entry>
 <entry key="code|name|country.VCT">Sveti Vincent i Grenadini</entry>
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Britanski Djevičanski Otoci</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WLF">Wallis i Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
+<entry key="code|name|country.XKX">Kosovo*</entry>
 <entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.ZAF">Južnoafrička Republika</entry>
 <entry key="code|name|country.ZMB">Zambia</entry>
@@ -647,7 +643,6 @@
 <entry key="code|name|direct-award-justification.artistic">Ugovor može pružiti samo određeni gospodarski subjekt jer je riječ o ostvarenju jedinstvene umjetničke izvedbe ili stjecanju jedinstvenog umjetničkog djela</entry>
 <entry key="code|name|direct-award-justification.bargain">Povoljna kupnja, odnosno iskorištavanje posebno povoljne prilike koja je dostupna izuzetno kratko vrijeme po cijeni koja je znatno niža od tržišnih cijena</entry>
 <entry key="code|name|direct-award-justification.below-thres">Ugovori s procijenjenom vrijednosti ispod pragova EU-a za javnu nabavu</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Ugovor male vrijednosti malom ili srednjem poduzeću</entry>
 <entry key="code|name|direct-award-justification.closure">Kupnja po posebno povoljnim uvjetima od gospodarskog subjekta koji trajno obustavlja poslovne djelatnosti</entry>
 <entry key="code|name|direct-award-justification.commodity">Nabava robe koja kotira i kupuje se na tržištu robe</entry>
 <entry key="code|name|direct-award-justification.contest">Ugovor o uslugama koji se dodjeljuje pobjedniku ili jednom od pobjednika na temelju pravila o projektnom natječaju</entry>
@@ -661,7 +656,6 @@
 <entry key="code|name|direct-award-justification.exclusive">Ugovor može pružiti samo određeni gospodarski subjekt jer je riječ o isključivim pravima, uključujući prava intelektualnog vlasništva</entry>
 <entry key="code|name|direct-award-justification.existing">Djelomična zamjena ili proširenje postojeće robe ili instalacija koje je isporučio izvorni dobavljač, pod strogim uvjetima navedenima u Direktivi</entry>
 <entry key="code|name|direct-award-justification.in-house">Ugovor o javnoj nabavi između organizacija u javnom sektoru („interni”), ugovori dodijeljeni povezanim poduzećima ili ugovori dodijeljeni zajedničkom pothvatu ili u zajedničkom pothvatu</entry>
-<entry key="code|name|direct-award-justification.int-oper">Unutarnji operater</entry>
 <entry key="code|name|direct-award-justification.int-rules">Postupak u skladu s međunarodnim pravilima</entry>
 <entry key="code|name|direct-award-justification.irregular">Kao odaziv na prethodnu obavijest zaprimljene su samo nepravilne ili neprihvatljive ponude. U pregovore su uključeni samo oni ponuditelji iz prethodnog postupka koji su zadovoljili kriterije za odabir, za koje ne postoji osnova za isključenje i koji ispunjavaju formalne zahtjeve</entry>
 <entry key="code|name|direct-award-justification.liquidator">Kupnja po posebno povoljnim uvjetima od likvidatora u okviru postupka nesolventnosti, nagodbe s vjerovnicima ili sličnog postupka prema nacionalnim zakonima i propisima</entry>
@@ -671,7 +665,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Ugovori čija svrha nije izvođenje radova, nabava robe i pružanje usluga</entry>
 <entry key="code|name|direct-award-justification.other-activity">Ugovori koji se sklapaju u svrhe koje ne uključuju obavljanje obuhvaćene djelatnosti ili u svrhe obavljanja takve djelatnosti u trećoj zemlji</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">Ugovor može pružiti samo određeni gospodarski subjekt jer je riječ o zaštiti drugih isključivih prava, uključujući prava intelektualnog vlasništva, koja nisu prava definirana u članku 5. stavku 10. Direktive 2014/23/EU</entry>
-<entry key="code|name|direct-award-justification.rail">Željeznički prijevoz</entry>
 <entry key="code|name|direct-award-justification.rd">Ugovor se odnosi na one usluge istraživanja i razvoja koje nisu navedene u članku 13. Direktive 2009/81/EZ</entry>
 <entry key="code|name|direct-award-justification.repetition">Novi radovi ili usluge, koji se sastoje od ponavljanja postojećih radova ili usluga te su naručeni u skladu sa strogim uvjetima navedenima u Direktivi</entry>
 <entry key="code|name|direct-award-justification.resd">Ugovor je namijenjen isključivo za istraživanje, pokuse, studiju ili razvoj prema uvjetima navedenima u Direktivi</entry>
@@ -758,7 +751,6 @@
 <entry key="code|name|eforms-contract-nature.services">Usluge</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Roba</entry>
 <entry key="code|name|eforms-contract-nature.works">Radovi</entry>
-<entry key="code|name|eforms-country.1A0">Kosovo</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">Afganistan</entry>
 <entry key="code|name|eforms-country.AGO">Angola</entry>
@@ -771,6 +763,7 @@
 <entry key="code|name|eforms-country.ARM">Armenija</entry>
 <entry key="code|name|eforms-country.ASM">Američka Samoa</entry>
 <entry key="code|name|eforms-country.ATA">Antarktika</entry>
+<entry key="code|name|eforms-country.ATF">Francuska Južna i Antarktička Područja</entry>
 <entry key="code|name|eforms-country.ATG">Antigva i Barbuda</entry>
 <entry key="code|name|eforms-country.AUS">Australija</entry>
 <entry key="code|name|eforms-country.AUT">Austrija</entry>
@@ -939,7 +932,7 @@
 <entry key="code|name|eforms-country.PRK">Sjeverna Koreja</entry>
 <entry key="code|name|eforms-country.PRT">Portugal</entry>
 <entry key="code|name|eforms-country.PRY">Paragvaj</entry>
-<entry key="code|name|eforms-country.PSE">Palestina</entry>
+<entry key="code|name|eforms-country.PSE">Palestina*</entry>
 <entry key="code|name|eforms-country.PYF">Francuska Polinezija</entry>
 <entry key="code|name|eforms-country.QAT">Katar</entry>
 <entry key="code|name|eforms-country.ROU">Rumunjska</entry>
@@ -990,7 +983,7 @@
 <entry key="code|name|eforms-country.URY">Urugvaj</entry>
 <entry key="code|name|eforms-country.USA">Sjedinjene Države</entry>
 <entry key="code|name|eforms-country.UZB">Uzbekistan</entry>
-<entry key="code|name|eforms-country.VAT">Država Vatikanskoga Grada</entry>
+<entry key="code|name|eforms-country.VAT">Sveta Stolica</entry>
 <entry key="code|name|eforms-country.VCT">Sveti Vincent i Grenadini</entry>
 <entry key="code|name|eforms-country.VEN">Venezuela</entry>
 <entry key="code|name|eforms-country.VGB">Britanski Djevičanski Otoci</entry>
@@ -999,6 +992,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatu</entry>
 <entry key="code|name|eforms-country.WLF">Wallis i Futuna</entry>
 <entry key="code|name|eforms-country.WSM">Samoa</entry>
+<entry key="code|name|eforms-country.XKX">Kosovo*</entry>
 <entry key="code|name|eforms-country.YEM">Jemen</entry>
 <entry key="code|name|eforms-country.ZAF">Južnoafrička Republika</entry>
 <entry key="code|name|eforms-country.ZMB">Zambia</entry>
@@ -1758,10 +1752,13 @@
 <entry key="code|name|language.ZHO">kineski</entry>
 <entry key="code|name|language.ZUL">zulu</entry>
 <entry key="code|name|lawful-country.ALB">Albanija</entry>
+<entry key="code|name|lawful-country.ATF">Francuska Južna i Antarktička Područja</entry>
 <entry key="code|name|lawful-country.AUT">Austrija</entry>
 <entry key="code|name|lawful-country.BEL">Belgija</entry>
 <entry key="code|name|lawful-country.BGR">Bugarska</entry>
+<entry key="code|name|lawful-country.BLM">Saint Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">Švicarska</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">Cipar</entry>
 <entry key="code|name|lawful-country.CZE">Češka</entry>
 <entry key="code|name|lawful-country.DEU">Njemačka</entry>
@@ -1784,17 +1781,21 @@
 <entry key="code|name|lawful-country.MKD">Sjeverna Makedonija</entry>
 <entry key="code|name|lawful-country.MLT">Malta</entry>
 <entry key="code|name|lawful-country.MNE">Crna Gora</entry>
+<entry key="code|name|lawful-country.NCL">Nova Kaledonija</entry>
 <entry key="code|name|lawful-country.NLD">Nizozemska</entry>
 <entry key="code|name|lawful-country.NOR">Norveška</entry>
 <entry key="code|name|lawful-country.POL">Poljska</entry>
 <entry key="code|name|lawful-country.PRT">Portugal</entry>
+<entry key="code|name|lawful-country.PYF">Francuska Polinezija</entry>
 <entry key="code|name|lawful-country.ROU">Rumunjska</entry>
+<entry key="code|name|lawful-country.SPM">Saint-Pierre-et-Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">Srbija</entry>
 <entry key="code|name|lawful-country.SVK">Slovačka</entry>
 <entry key="code|name|lawful-country.SVN">Slovenija</entry>
 <entry key="code|name|lawful-country.SWE">Švedska</entry>
 <entry key="code|name|lawful-country.TUR">Turska</entry>
 <entry key="code|name|lawful-country.UKR">Ukrajina</entry>
+<entry key="code|name|lawful-country.WLF">Wallis i Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Direktiva 2014/24/EU</entry>
 <entry key="code|name|legal-basis-1.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Direktiva 2014/24/EU</entry>
@@ -7419,7 +7420,6 @@
 <entry key="code|name|planning.pin-only">Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena samo u informativne svrhe</entry>
 <entry key="code|name|planning.pin-rtl">Prethodna informacijska obavijest ili periodična indikativna obavijest upotrijebljena za skraćivanje rokova za zaprimanje ponuda</entry>
 <entry key="code|name|planning.pin-tran">Prethodna informacijska obavijest za usluge javnog prijevoza putnika</entry>
-<entry key="code|name|postcode-country.1A0">Kosovo</entry>
 <entry key="code|name|postcode-country.AFG">Afganistan</entry>
 <entry key="code|name|postcode-country.ALA">Ålandski Otoci</entry>
 <entry key="code|name|postcode-country.ALB">Albanija</entry>
@@ -7542,7 +7542,7 @@
 <entry key="code|name|postcode-country.PRI">Portoriko</entry>
 <entry key="code|name|postcode-country.PRT">Portugal</entry>
 <entry key="code|name|postcode-country.PRY">Paragvaj</entry>
-<entry key="code|name|postcode-country.PSE">Palestina</entry>
+<entry key="code|name|postcode-country.PSE">Palestina*</entry>
 <entry key="code|name|postcode-country.PYF">Francuska Polinezija</entry>
 <entry key="code|name|postcode-country.ROU">Rumunjska</entry>
 <entry key="code|name|postcode-country.RUS">Rusija</entry>

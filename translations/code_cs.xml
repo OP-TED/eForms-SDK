@@ -197,7 +197,6 @@
 <entry key="code|name|corporate-body.REA">Evropská výkonná agentura pro výzkum</entry>
 <entry key="code|name|corporate-body.SESAR">Společný podnik pro výzkum ATM jednotného evropského nebe 3</entry>
 <entry key="code|name|corporate-body.SRB">Jednotný výbor pro řešení krizí</entry>
-<entry key="code|name|country.1A0">Kosovo</entry>
 <entry key="code|name|country.ABW">Aruba</entry>
 <entry key="code|name|country.AFG">Afghánistán</entry>
 <entry key="code|name|country.AGO">Angola</entry>
@@ -210,6 +209,7 @@
 <entry key="code|name|country.ARM">Arménie</entry>
 <entry key="code|name|country.ASM">Americká Samoa</entry>
 <entry key="code|name|country.ATA">Antarktida</entry>
+<entry key="code|name|country.ATF">Francouzská jižní a antarktická území</entry>
 <entry key="code|name|country.ATG">Antigua a Barbuda</entry>
 <entry key="code|name|country.AUS">Austrálie</entry>
 <entry key="code|name|country.AUT">Rakousko</entry>
@@ -270,10 +270,10 @@
 <entry key="code|name|country.ESP">Španělsko</entry>
 <entry key="code|name|country.EST">Estonsko</entry>
 <entry key="code|name|country.ETH">Etiopie</entry>
+<entry key="code|name|country.EUR">Evropská unie</entry>
 <entry key="code|name|country.FIN">Finsko</entry>
 <entry key="code|name|country.FJI">Fidži</entry>
 <entry key="code|name|country.FLK">Falklandské ostrovy</entry>
-<entry key="code|name|country.FQ0">Francouzská jižní a antarktická území</entry>
 <entry key="code|name|country.FRA">Francie</entry>
 <entry key="code|name|country.FRO">Faerské ostrovy</entry>
 <entry key="code|name|country.FSM">Mikronésie</entry>
@@ -284,7 +284,6 @@
 <entry key="code|name|country.GHA">Ghana</entry>
 <entry key="code|name|country.GIB">Gibraltar</entry>
 <entry key="code|name|country.GIN">Guinea</entry>
-<entry key="code|name|country.GLP">Guadeloupe</entry>
 <entry key="code|name|country.GMB">Gambie</entry>
 <entry key="code|name|country.GNB">Guinea-Bissau</entry>
 <entry key="code|name|country.GNQ">Rovníková Guinea</entry>
@@ -292,7 +291,6 @@
 <entry key="code|name|country.GRD">Grenada</entry>
 <entry key="code|name|country.GRL">Grónsko</entry>
 <entry key="code|name|country.GTM">Guatemala</entry>
-<entry key="code|name|country.GUF">Francouzská Guyana</entry>
 <entry key="code|name|country.GUM">Guam</entry>
 <entry key="code|name|country.GUY">Guyana</entry>
 <entry key="code|name|country.HKG">Hongkong</entry>
@@ -353,11 +351,9 @@
 <entry key="code|name|country.MOZ">Mosambik</entry>
 <entry key="code|name|country.MRT">Mauritánie</entry>
 <entry key="code|name|country.MSR">Montserrat</entry>
-<entry key="code|name|country.MTQ">Martinik</entry>
 <entry key="code|name|country.MUS">Mauricius</entry>
 <entry key="code|name|country.MWI">Malawi</entry>
 <entry key="code|name|country.MYS">Malajsie</entry>
-<entry key="code|name|country.MYT">Mayotte</entry>
 <entry key="code|name|country.NAM">Namibie</entry>
 <entry key="code|name|country.NCL">Nová Kaledonie</entry>
 <entry key="code|name|country.NER">Niger</entry>
@@ -383,10 +379,9 @@
 <entry key="code|name|country.PRK">Severní Korea</entry>
 <entry key="code|name|country.PRT">Portugalsko</entry>
 <entry key="code|name|country.PRY">Paraguay</entry>
-<entry key="code|name|country.PSE">Palestina</entry>
+<entry key="code|name|country.PSE">Palestina*</entry>
 <entry key="code|name|country.PYF">Francouzská Polynésie</entry>
 <entry key="code|name|country.QAT">Katar</entry>
-<entry key="code|name|country.REU">Réunion</entry>
 <entry key="code|name|country.ROU">Rumunsko</entry>
 <entry key="code|name|country.RUS">Rusko</entry>
 <entry key="code|name|country.RWA">Rwanda</entry>
@@ -435,7 +430,7 @@
 <entry key="code|name|country.URY">Uruguay</entry>
 <entry key="code|name|country.USA">Spojené státy</entry>
 <entry key="code|name|country.UZB">Uzbekistán</entry>
-<entry key="code|name|country.VAT">Vatikánský městský stát</entry>
+<entry key="code|name|country.VAT">Svatý stolec</entry>
 <entry key="code|name|country.VCT">Svatý Vincenc a Grenadiny</entry>
 <entry key="code|name|country.VEN">Venezuela</entry>
 <entry key="code|name|country.VGB">Britské Panenské ostrovy</entry>
@@ -444,6 +439,7 @@
 <entry key="code|name|country.VUT">Vanuatu</entry>
 <entry key="code|name|country.WLF">Wallis a Futuna</entry>
 <entry key="code|name|country.WSM">Samoa</entry>
+<entry key="code|name|country.XKX">Kosovo*</entry>
 <entry key="code|name|country.YEM">Jemen</entry>
 <entry key="code|name|country.ZAF">Jižní Afrika</entry>
 <entry key="code|name|country.ZMB">Zambie</entry>
@@ -10101,7 +10097,6 @@
 <entry key="code|name|direct-award-justification.artistic">Zakázku může plnit jen konkrétní hospodářský subjekt, protože cílem je vytvoření nebo získání jedinečného uměleckého díla nebo uměleckého výkonu</entry>
 <entry key="code|name|direct-award-justification.bargain">Výhodná koupě díky využití zvláště příznivé příležitosti dostupné po velmi krátkou dobu za ceny podstatně nižší, nežli jsou tržní ceny</entry>
 <entry key="code|name|direct-award-justification.below-thres">Zakázky s odhadovanou hodnotou pod limity pro veřejné zakázky</entry>
-<entry key="code|name|direct-award-justification.below-thres-sme">Smlouva malého rozsahu s malým či středním podnikem</entry>
 <entry key="code|name|direct-award-justification.closure">Nákup za zvláště výhodných podmínek od hospodářského subjektu, který s konečnou platností ukončuje svou obchodní činnost</entry>
 <entry key="code|name|direct-award-justification.commodity">Zakázka na dodávky nabízené a nakupované na komoditních burzách</entry>
 <entry key="code|name|direct-award-justification.contest">Zakázka na služby, jež má být v souladu s pravidly pro soutěž o návrh zadána vítězi nebo jednomu z vítězů</entry>
@@ -10115,7 +10110,6 @@
 <entry key="code|name|direct-award-justification.exclusive">Zakázku může z důvodu výhradních práv včetně práv duševního vlastnictví plnit jen konkrétní hospodářský subjekt</entry>
 <entry key="code|name|direct-award-justification.existing">Částečné nahrazení nebo rozšíření stávajících dodávek nebo zařízení původním dodavatelem objednané za přísných podmínek stanovených ve směrnici</entry>
 <entry key="code|name|direct-award-justification.in-house">Veřejné zakázky mezi subjekty ve veřejném sektoru („in-house“), zakázky zadávané přidruženým podnikům nebo zakázky zadávané společnému podniku nebo zadavateli, který je součástí společného podniku</entry>
-<entry key="code|name|direct-award-justification.int-oper">Interní provozovatel</entry>
 <entry key="code|name|direct-award-justification.int-rules">Postup podle mezinárodních pravidel</entry>
 <entry key="code|name|direct-award-justification.irregular">V reakci na předchozí oznámení byly podány pouze nabídky, které jsou v rozporu s pravidly nebo nepřijatelné. Do jednacího řízení byli zahrnuti pouze ti uchazeči z předchozího řízení, kteří splňují kritéria pro výběr, netýkají se jich důvody pro vyloučení a splňují formální požadavky</entry>
 <entry key="code|name|direct-award-justification.liquidator">Nákup za zvláště výhodných podmínek od likvidátora v případě insolvenčního řízení, vyrovnání s věřiteli nebo podobného řízení podle vnitrostátních právních a správních předpisů</entry>
@@ -10125,7 +10119,6 @@
 <entry key="code|name|direct-award-justification.not-wss">Zakázky, jejichž účelem není provedení stavebních prací, dodání výrobků nebo poskytnutí služeb</entry>
 <entry key="code|name|direct-award-justification.other-activity">Zakázky zadávané za jiným účelem, než je vykonávání činnosti uvedené ve směrnici, nebo za účelem vykonávání takové činnosti ve třetí zemi</entry>
 <entry key="code|name|direct-award-justification.other-exclusive">Zakázku může z důvodu výhradních práv včetně práv duševního vlastnictví, jiných než která jsou definována v čl. 5 odst. 10 směrnice 2014/23/EU, plnit jen konkrétní hospodářský subjekt</entry>
-<entry key="code|name|direct-award-justification.rail">Železniční doprava</entry>
 <entry key="code|name|direct-award-justification.rd">Jedná se o zakázku na služby v oblasti výzkumu a vývoje, jež nejsou uvedeny v článku 13 směrnice 2009/81/ES</entry>
 <entry key="code|name|direct-award-justification.repetition">Nové stavební práce nebo služby, které spočívají v opakování stávajících stavebních prací nebo služeb, objednané za přísných podmínek stanovených ve směrnici</entry>
 <entry key="code|name|direct-award-justification.resd">Účelem zakázky je výlučně výzkum, pokus, studium či vývoj za podmínek stanovených směrnicí</entry>
@@ -10212,7 +10205,6 @@
 <entry key="code|name|eforms-contract-nature.services">Služby</entry>
 <entry key="code|name|eforms-contract-nature.supplies">Dodávky</entry>
 <entry key="code|name|eforms-contract-nature.works">Stavební práce</entry>
-<entry key="code|name|eforms-country.1A0">Kosovo</entry>
 <entry key="code|name|eforms-country.ABW">Aruba</entry>
 <entry key="code|name|eforms-country.AFG">Afghánistán</entry>
 <entry key="code|name|eforms-country.AGO">Angola</entry>
@@ -10225,6 +10217,7 @@
 <entry key="code|name|eforms-country.ARM">Arménie</entry>
 <entry key="code|name|eforms-country.ASM">Americká Samoa</entry>
 <entry key="code|name|eforms-country.ATA">Antarktida</entry>
+<entry key="code|name|eforms-country.ATF">Francouzská jižní a antarktická území</entry>
 <entry key="code|name|eforms-country.ATG">Antigua a Barbuda</entry>
 <entry key="code|name|eforms-country.AUS">Austrálie</entry>
 <entry key="code|name|eforms-country.AUT">Rakousko</entry>
@@ -10393,7 +10386,7 @@
 <entry key="code|name|eforms-country.PRK">Severní Korea</entry>
 <entry key="code|name|eforms-country.PRT">Portugalsko</entry>
 <entry key="code|name|eforms-country.PRY">Paraguay</entry>
-<entry key="code|name|eforms-country.PSE">Palestina</entry>
+<entry key="code|name|eforms-country.PSE">Palestina*</entry>
 <entry key="code|name|eforms-country.PYF">Francouzská Polynésie</entry>
 <entry key="code|name|eforms-country.QAT">Katar</entry>
 <entry key="code|name|eforms-country.ROU">Rumunsko</entry>
@@ -10444,7 +10437,7 @@
 <entry key="code|name|eforms-country.URY">Uruguay</entry>
 <entry key="code|name|eforms-country.USA">Spojené státy</entry>
 <entry key="code|name|eforms-country.UZB">Uzbekistán</entry>
-<entry key="code|name|eforms-country.VAT">Vatikánský městský stát</entry>
+<entry key="code|name|eforms-country.VAT">Svatý stolec</entry>
 <entry key="code|name|eforms-country.VCT">Svatý Vincenc a Grenadiny</entry>
 <entry key="code|name|eforms-country.VEN">Venezuela</entry>
 <entry key="code|name|eforms-country.VGB">Britské Panenské ostrovy</entry>
@@ -10453,6 +10446,7 @@
 <entry key="code|name|eforms-country.VUT">Vanuatu</entry>
 <entry key="code|name|eforms-country.WLF">Wallis a Futuna</entry>
 <entry key="code|name|eforms-country.WSM">Samoa</entry>
+<entry key="code|name|eforms-country.XKX">Kosovo*</entry>
 <entry key="code|name|eforms-country.YEM">Jemen</entry>
 <entry key="code|name|eforms-country.ZAF">Jižní Afrika</entry>
 <entry key="code|name|eforms-country.ZMB">Zambie</entry>
@@ -11212,10 +11206,13 @@
 <entry key="code|name|language.ZHO">čínština</entry>
 <entry key="code|name|language.ZUL">zulština</entry>
 <entry key="code|name|lawful-country.ALB">Albánie</entry>
+<entry key="code|name|lawful-country.ATF">Francouzská jižní a antarktická území</entry>
 <entry key="code|name|lawful-country.AUT">Rakousko</entry>
 <entry key="code|name|lawful-country.BEL">Belgie</entry>
 <entry key="code|name|lawful-country.BGR">Bulharsko</entry>
+<entry key="code|name|lawful-country.BLM">Saint-Barthélemy</entry>
 <entry key="code|name|lawful-country.CHE">Švýcarsko</entry>
+<entry key="code|name|lawful-country.CPT">Clipperton</entry>
 <entry key="code|name|lawful-country.CYP">Kypr</entry>
 <entry key="code|name|lawful-country.CZE">Česko</entry>
 <entry key="code|name|lawful-country.DEU">Německo</entry>
@@ -11238,17 +11235,21 @@
 <entry key="code|name|lawful-country.MKD">Severní Makedonie</entry>
 <entry key="code|name|lawful-country.MLT">Malta</entry>
 <entry key="code|name|lawful-country.MNE">Černá Hora</entry>
+<entry key="code|name|lawful-country.NCL">Nová Kaledonie</entry>
 <entry key="code|name|lawful-country.NLD">Nizozemsko</entry>
 <entry key="code|name|lawful-country.NOR">Norsko</entry>
 <entry key="code|name|lawful-country.POL">Polsko</entry>
 <entry key="code|name|lawful-country.PRT">Portugalsko</entry>
+<entry key="code|name|lawful-country.PYF">Francouzská Polynésie</entry>
 <entry key="code|name|lawful-country.ROU">Rumunsko</entry>
+<entry key="code|name|lawful-country.SPM">Saint-Pierre a Miquelon</entry>
 <entry key="code|name|lawful-country.SRB">Srbsko</entry>
 <entry key="code|name|lawful-country.SVK">Slovensko</entry>
 <entry key="code|name|lawful-country.SVN">Slovinsko</entry>
 <entry key="code|name|lawful-country.SWE">Švédsko</entry>
 <entry key="code|name|lawful-country.TUR">Turecko</entry>
 <entry key="code|name|lawful-country.UKR">Ukrajina</entry>
+<entry key="code|name|lawful-country.WLF">Wallis a Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Směrnice 2014/24/EU</entry>
 <entry key="code|name|legal-basis-1.32018R1046">Nařízení (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Směrnice 2014/24/EU</entry>
@@ -16873,7 +16874,6 @@
 <entry key="code|name|planning.pin-only">Předběžné oznámení nebo pravidelné předběžné oznámení použité pouze pro informační účely</entry>
 <entry key="code|name|planning.pin-rtl">Předběžné oznámení nebo pravidelné předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek</entry>
 <entry key="code|name|planning.pin-tran">Předběžné oznámení pro veřejné služby v přepravě cestujících</entry>
-<entry key="code|name|postcode-country.1A0">Kosovo</entry>
 <entry key="code|name|postcode-country.AFG">Afghánistán</entry>
 <entry key="code|name|postcode-country.ALA">Alandy</entry>
 <entry key="code|name|postcode-country.ALB">Albánie</entry>
@@ -16996,7 +16996,7 @@
 <entry key="code|name|postcode-country.PRI">Portoriko</entry>
 <entry key="code|name|postcode-country.PRT">Portugalsko</entry>
 <entry key="code|name|postcode-country.PRY">Paraguay</entry>
-<entry key="code|name|postcode-country.PSE">Palestina</entry>
+<entry key="code|name|postcode-country.PSE">Palestina*</entry>
 <entry key="code|name|postcode-country.PYF">Francouzská Polynésie</entry>
 <entry key="code|name|postcode-country.ROU">Rumunsko</entry>
 <entry key="code|name|postcode-country.RUS">Rusko</entry>
