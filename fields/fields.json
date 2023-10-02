@@ -1226,7 +1226,7 @@
     "xpathAbsolute" : "/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']",
     "xpathRelative" : "cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']",
     "xsdSequenceOrder" : [ { "cac:ProcessJustification" : 24 } ],
-    "repeatable" : false
+    "repeatable" : true
   }, {
     "id" : "ND-DirectAwardJustificationCodeUnpublish",
     "parentId" : "ND-DirectAward",
