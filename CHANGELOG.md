@@ -9,8 +9,8 @@ For more details, see the description of these properties in [the documentation 
 
 New fields were created, to represent information in attributes (like "listName", "schemeName", etc.) that was only implicit. These fields make use of the new properties indicated above. This should make it easier to generate a correct XML, without having to rely on predicates in the XPath of the fields.
 
-The addition of those fields made the following "OPA-*" fields redundant, so they were removed: OPA-27-Procedure-Currency, OPA-36-Lot-Unit, OPA-36-Part-Unit, OPA-98-Lot-Unit, OPA-118-NoticeResult-Currency, OPA-161-NoticeResult-Currency.
-The remaining OPA-* fields refer to the numerical value of a regular field that also has a unit (duration, monetary amount, etc.), so they can be ignored during the XML generation. This has been [indicated in the documentation on field metadata](https://docs.ted.europa.eu/eforms/1.9/fields/index.html#_fields_other_than_bt).
+The addition of those fields made the following "OPA-..." fields redundant, so they were removed: OPA-27-Procedure-Currency, OPA-36-Lot-Unit, OPA-36-Part-Unit, OPA-98-Lot-Unit, OPA-118-NoticeResult-Currency, OPA-161-NoticeResult-Currency.
+The remaining "OPA-..." fields refer to the numerical value of a regular field that also has a unit (duration, monetary amount, etc.), so they can be ignored during the XML generation. This has been [indicated in the documentation on field metadata](https://docs.ted.europa.eu/eforms/1.9/fields/index.html#_fields_other_than_bt).
 
 ## Updated metadata content
 
@@ -71,7 +71,7 @@ This version brings various changes in the metadata content that were needed for
 ## View templates
 
 * For multilingual texts, show only one language at a time and remove square brackets separator
-* Improvements and corrections for unpublished fields, winning tender on VEAT notices, electronic auction, OPP-090 linked notice, comma instead of period as decimal separator, pluralised multilingual texts, UBO names, Group Leader for Tenderer and other revisions
+* Improvements and corrections for unpublished fields, winning tender on VEAT notices, electronic auction, OPP-090 linked notice, comma instead of period as decimal separator, UBO names, Group Leader for Tenderer and other revisions
 
 ## Labels and translations
 
