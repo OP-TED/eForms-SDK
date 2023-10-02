@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.59",
-    "createdOn" : "2023-09-20T09:23:55"
+    "version" : "1.9.67",
+    "createdOn" : "2023-09-28T15:33:08"
   },
   "noticeId" : "29",
   "metadata" : [ {
@@ -690,6 +690,7 @@
         "displayType" : "GROUP",
         "description" : "Direct Award (or not) and Justification",
         "_label" : "group|name|ND-DirectAward",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-136-Procedure",
           "contentType" : "field",
