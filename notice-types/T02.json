@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0-SNAPSHOT",
+  "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.212",
-    "createdOn" : "2023-07-21T14:07:13"
+    "version" : "1.9.67",
+    "createdOn" : "2023-09-28T15:33:08"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -936,11 +936,12 @@
             } ]
           } ]
         }, {
-          "id" : "GR-SettledContract-3",
+          "id" : "GR-Assets-Extended-Duration",
           "contentType" : "group",
+          "nodeId" : "ND-ExtendedDurationJustification",
           "displayType" : "GROUP",
-          "description" : "SettledContract 3",
-          "_label" : "group|name|GR-SettledContract-3",
+          "description" : "Elements about the Extension of the Contract Duration (Indicator, Assets)",
+          "_label" : "group|name|ND-ExtendedDurationJustification",
           "content" : [ {
             "id" : "OPP-020-Contract",
             "contentType" : "field",
@@ -948,23 +949,32 @@
             "description" : "Assets related contract extension indicator",
             "_label" : "field|name|OPP-020-Contract"
           }, {
-            "id" : "OPP-021-Contract",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Used asset",
-            "_label" : "field|name|OPP-021-Contract"
-          }, {
-            "id" : "OPP-022-Contract",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Significance (%)",
-            "_label" : "field|name|OPP-022-Contract"
-          }, {
-            "id" : "OPP-023-Contract",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Predominance (%)",
-            "_label" : "field|name|OPP-023-Contract"
+            "id" : "GR-SettledContract-3",
+            "contentType" : "group",
+            "nodeId" : "ND-Asset",
+            "displayType" : "GROUP",
+            "description" : "Individual Asset characteristics (description, significance, predominance) justifying the Contract extension",
+            "_label" : "group|name|ND-Asset",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "OPP-021-Contract",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Used asset",
+              "_label" : "field|name|OPP-021-Contract"
+            }, {
+              "id" : "OPP-022-Contract",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Significance (%)",
+              "_label" : "field|name|OPP-022-Contract"
+            }, {
+              "id" : "OPP-023-Contract",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Predominance (%)",
+              "_label" : "field|name|OPP-023-Contract"
+            } ]
           } ]
         } ],
         "_captionFieldId" : "BT-150-Contract"
@@ -1085,6 +1095,13 @@
             "description" : "Revenue allocation in percentage",
             "_label" : "group|name|ND-RevenueAllocation",
             "content" : [ {
+              "id" : "OPP-035-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Revenues Allocation of tickets sales code",
+              "_label" : "field|name|OPP-035-Tender",
+              "_presetValue" : "all-rev-tic"
+            }, {
               "id" : "OPP-032-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",

@@ -6,7 +6,7 @@
       <LongName>eforms-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.8.161</Version>
+      <Version>1.9.68</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -121,86 +121,6 @@
       </Column>
    </ColumnSet>
    <SimpleCodeList>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>1A0</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Косово</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Κόσοβο</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>An Chosaiv</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Koszovó</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Kosovas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Kosova</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Il-Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Kosowo</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Kosovo</SimpleValue>
-         </Value>
-      </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>ABW</SimpleValue>
@@ -574,7 +494,7 @@
             <SimpleValue>Alandai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Olandes salas</SimpleValue>
+            <SimpleValue>Ālandu Salas</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Il-Gżejjer Åland</SimpleValue>
@@ -595,7 +515,7 @@
             <SimpleValue>Alandy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ålandski otoki</SimpleValue>
+            <SimpleValue>Alandski otoki</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Åland</SimpleValue>
@@ -778,7 +698,7 @@
             <SimpleValue>Forenede Arabiske Emirater</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Vereinigten Arabischen Emirate</SimpleValue>
+            <SimpleValue>Vereinigte Arabische Emirate</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ηνωμένα Αραβικά Εμιράτα</SimpleValue>
@@ -1159,6 +1079,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Antarktis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ATF</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>French Southern and Antarctic Lands</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Френски южни и антарктически територии</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Francouzská jižní a antarktická území</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De Franske Besiddelser i Det Sydlige Indiske Ocean og Antarktis</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Französische Süd- und Antarktisgebiete</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γαλλικές περιοχές του νότιου ημισφαιρίου και της Ανταρκτικής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>French Southern and Antarctic Lands</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Territorios Australes y Antárticas Franceses</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Prantsuse Antarktilised ja Lõunaalad</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ranskan eteläiset ja antarktiset alueet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Terres australes et antarctiques françaises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Críocha an Deiscirt agus an Antartaigh de chuid na Fraince</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Francuska Južna i Antarktička Područja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Francia Déli és Antarktiszi Területek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Terre australi e antartiche francesi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prancūzijos Pietų ir Antarkties Sritys</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Francijas Dienvidjūru un Antarktikas Zemes</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>It-Territorji Franċiżi tan-Nofsinhar u tal-Antartika</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Franse Zuidelijke en Zuidpoolgebieden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Francuskie Terytoria Południowe i Antarktyczne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Terras Austrais e Antárticas Francesas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Teritoriile Australe și Antarctice Franceze</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Francúzske južné a antarktické územia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Francoska južna in antarktična ozemlja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De franska territorierna i södra Indiska oceanen och Antarktis</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1729,7 +1729,7 @@
             <SimpleValue>Bonaire, Sint Eustatius and Saba</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Бонер, Свети Евстатиус и Саба</SimpleValue>
+            <SimpleValue>Бонер, Синт Еустациус и Саба</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Bonaire, Svatý Eustach a Saba</SimpleValue>
@@ -4755,7 +4755,7 @@
             <SimpleValue>Kajmanie ostrovy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Kajmanski otoki</SimpleValue>
+            <SimpleValue>Kajmanji otoki</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Caymanöarna</SimpleValue>
@@ -7635,7 +7635,7 @@
             <SimpleValue>Guam</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Guam</SimpleValue>
+            <SimpleValue>Gvam</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Guam</SimpleValue>
@@ -10846,7 +10846,7 @@
             <SimpleValue>MAC</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Macau</SimpleValue>
+            <SimpleValue>Macao</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Макао</SimpleValue>
@@ -10864,7 +10864,7 @@
             <SimpleValue>Μακάο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Macau</SimpleValue>
+            <SimpleValue>Macao</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Macao</SimpleValue>
@@ -10915,7 +10915,7 @@
             <SimpleValue>Macao</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Macao</SimpleValue>
+            <SimpleValue>Makav</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Macao</SimpleValue>
@@ -10995,7 +10995,7 @@
             <SimpleValue>Saint Martin</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Saint-Martin</SimpleValue>
+            <SimpleValue>Francoski Sveti Martin</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Saint-Martin</SimpleValue>
@@ -12058,7 +12058,7 @@
             <SimpleValue>Nordmarianerne</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Nördlichen Marianen</SimpleValue>
+            <SimpleValue>Nördliche Marianen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Βόρειες Μαριάνες Νήσοι</SimpleValue>
@@ -12115,7 +12115,7 @@
             <SimpleValue>Ostrovy Severné Mariány</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Severni Marianski otoki</SimpleValue>
+            <SimpleValue>Severni Marijanski otoki</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Nordmarianerna</SimpleValue>
@@ -12355,7 +12355,7 @@
             <SimpleValue>Montserrat</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Montserrat</SimpleValue>
+            <SimpleValue>Monserat</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Montserrat</SimpleValue>
@@ -12915,7 +12915,7 @@
             <SimpleValue>Norfolk</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Norfolški otok</SimpleValue>
+            <SimpleValue>Otok Norfolk</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Norfolkön</SimpleValue>
@@ -14115,7 +14115,7 @@
             <SimpleValue>Palau</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Palau</SimpleValue>
+            <SimpleValue>Palav</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Palau</SimpleValue>
@@ -14606,79 +14606,79 @@
             <SimpleValue>PSE</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Palestine</SimpleValue>
+            <SimpleValue>Palestine*</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Палестина</SimpleValue>
+            <SimpleValue>Палестина*</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Palæstina</SimpleValue>
+            <SimpleValue>Palæstina*</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Palästina</SimpleValue>
+            <SimpleValue>Palästina*</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Παλαιστίνη</SimpleValue>
+            <SimpleValue>Παλαιστίνη*</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Palestine</SimpleValue>
+            <SimpleValue>Palestine*</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Palestiina</SimpleValue>
+            <SimpleValue>Palestiina*</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Palestiina</SimpleValue>
+            <SimpleValue>Palestiina*</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Palestine</SimpleValue>
+            <SimpleValue>Palestine*</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>An Phalaistín</SimpleValue>
+            <SimpleValue>An Phalaistín*</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Palesztina</SimpleValue>
+            <SimpleValue>Palesztina*</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Palestīna</SimpleValue>
+            <SimpleValue>Palestīna*</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Il-Palestina</SimpleValue>
+            <SimpleValue>Il-Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Palestyna</SimpleValue>
+            <SimpleValue>Palestyna*</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Palestína</SimpleValue>
+            <SimpleValue>Palestína*</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Palestina</SimpleValue>
+            <SimpleValue>Palestina*</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -15475,7 +15475,7 @@
             <SimpleValue>Južná Georgia a Južné Sandwichove ostrovy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Južna Georgia in Južni Sandwichevi otoki</SimpleValue>
+            <SimpleValue>Južna Georgija in Južni Sandwichevi otoki</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Sydgeorgien och Sydsandwichöarna</SimpleValue>
@@ -16835,7 +16835,7 @@
             <SimpleValue>Svätý Martin</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Sint Maarten</SimpleValue>
+            <SimpleValue>Nizozemski Sveti Martin</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Sint-Maarten</SimpleValue>
@@ -17475,7 +17475,7 @@
             <SimpleValue>Tokelau</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Tokelau</SimpleValue>
+            <SimpleValue>Tokelav</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Tokelauöarna</SimpleValue>
@@ -17756,7 +17756,7 @@
             <SimpleValue>Trinidad ja Tobago</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Trinidad-et-Tobago</SimpleValue>
+            <SimpleValue>Trinité-et-Tobago</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Oileán na Tríonóide agus Tobága</SimpleValue>
@@ -18378,7 +18378,7 @@
             <SimpleValue>USA’s mindre øbesiddelser</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Kleineren Amerikanischen Überseeinseln</SimpleValue>
+            <SimpleValue>Kleinere Amerikanischen Überseeinseln</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Απομακρυσμένες Νησίδες των Ηνωμένων Πολιτειών</SimpleValue>
@@ -18435,7 +18435,7 @@
             <SimpleValue>Menšie odľahlé ostrovy Spojených štátov</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Stranski zunanji otoki Združenih držav</SimpleValue>
+            <SimpleValue>Ameriški manjši zunanji otoki</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Förenta staternas mindre öar</SimpleValue>
@@ -18538,7 +18538,7 @@
             <SimpleValue>Forenede Stater</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Vereinigten Staaten</SimpleValue>
+            <SimpleValue>Vereinigte Staaten</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Ηνωμένες Πολιτείες</SimpleValue>
@@ -18686,79 +18686,79 @@
             <SimpleValue>VAT</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Vatican City State</SimpleValue>
+            <SimpleValue>Holy See</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Град-държава Ватикан</SimpleValue>
+            <SimpleValue>Светия престол</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Vatikánský městský stát</SimpleValue>
+            <SimpleValue>Svatý stolec</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Vatikanstaten</SimpleValue>
+            <SimpleValue>Den Hellige Stol</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Vatikanstadt</SimpleValue>
+            <SimpleValue>Heiliger Stuhl</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κράτος της Πόλης του Βατικανού</SimpleValue>
+            <SimpleValue>Αγία Έδρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Vatican City State</SimpleValue>
+            <SimpleValue>Holy See</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Estado de la Ciudad del Vaticano</SimpleValue>
+            <SimpleValue>Santa Sede</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Vatikani Linnriik</SimpleValue>
+            <SimpleValue>Püha Tool</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Vatikaanivaltio</SimpleValue>
+            <SimpleValue>Pyhä istuin</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>État de la Cité du Vatican</SimpleValue>
+            <SimpleValue>Saint-Siège</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Stát Chathair na Vatacáine</SimpleValue>
+            <SimpleValue>An Suí Naofa</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Država Vatikanskoga Grada</SimpleValue>
+            <SimpleValue>Sveta Stolica</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Vatikánváros Állam</SimpleValue>
+            <SimpleValue>Apostoli Szentszék</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Stato della Città del Vaticano</SimpleValue>
+            <SimpleValue>Santa Sede</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Vatikano Miesto Valstybė</SimpleValue>
+            <SimpleValue>Šventasis Sostas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Vatikāna Pilsētvalsts</SimpleValue>
+            <SimpleValue>Svētais Krēsls</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-Istat tal-Belt tal-Vatikan</SimpleValue>
+            <SimpleValue>Is-Santa Sede</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Staat Vaticaanstad</SimpleValue>
+            <SimpleValue>Heilige Stoel</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Państwo Watykańskie</SimpleValue>
+            <SimpleValue>Stolicą Apostolską</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Estado da Cidade do Vaticano</SimpleValue>
+            <SimpleValue>Santa Sé</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Statul Cetății Vaticanului</SimpleValue>
+            <SimpleValue>Sfântul Scaun</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Vatikánsky mestský štát</SimpleValue>
+            <SimpleValue>Svätá stolica</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Vatikanska mestna država</SimpleValue>
+            <SimpleValue>Sveti sedež</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Vatikanstaten</SimpleValue>
+            <SimpleValue>Heliga stolen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -18938,7 +18938,7 @@
             <SimpleValue>Britiske Jomfruøer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Britischen Jungferninseln</SimpleValue>
+            <SimpleValue>Britische Jungferninseln</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Βρετανικές Παρθένες Νήσοι</SimpleValue>
@@ -19018,7 +19018,7 @@
             <SimpleValue>Amerikanske Jomfruøer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Amerikanischen Jungferninseln</SimpleValue>
+            <SimpleValue>Amerikanische Jungferninseln</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Αμερικανικές Παρθένες Νήσοι</SimpleValue>
@@ -19075,7 +19075,7 @@
             <SimpleValue>Americké Panenské ostrovy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Deviški otoki</SimpleValue>
+            <SimpleValue>Ameriški Deviški otoki</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Amerikanska Jungfruöarna</SimpleValue>
@@ -19399,6 +19399,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Samoa</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>XKX</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Косово*</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κόσοβο*</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Chosaiv*</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Koszovó*</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kosovas*</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kosova*</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kosowo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kosovo*</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Kosovo*</SimpleValue>
          </Value>
       </Row>
       <Row>

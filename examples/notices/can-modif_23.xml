@@ -118,6 +118,8 @@
                         </cac:PartyName>
                         <cac:PostalAddress>
                            <cbc:CityName>Patras</cbc:CityName>
+                           <cbc:PostalZone>117 43</cbc:PostalZone>
+                           <cbc:CountrySubentityCode listName="nuts">EL303</cbc:CountrySubentityCode>
                            <cac:Country>
                               <cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
                            </cac:Country>

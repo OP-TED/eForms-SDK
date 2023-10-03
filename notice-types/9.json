@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0-SNAPSHOT",
+  "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.235",
-    "createdOn" : "2023-08-18T15:25:50"
+    "version" : "1.9.67",
+    "createdOn" : "2023-09-28T15:33:08"
   },
   "noticeId" : "9",
   "metadata" : [ {
@@ -1025,7 +1025,7 @@
         "content" : [ {
           "id" : "BT-60-Lot",
           "contentType" : "field",
-          "displayType" : "TEXTBOX",
+          "displayType" : "COMBOBOX",
           "description" : "EU Funds",
           "_label" : "field|name|BT-60-Lot"
         } ]
@@ -1751,9 +1751,11 @@
       }, {
         "id" : "GR-Lot-SubcontractTerms",
         "contentType" : "group",
+        "nodeId" : "ND-SubcontractingObligation",
         "displayType" : "GROUP",
-        "description" : "Subcontract Terms",
-        "_label" : "group|name|GR-Lot-SubcontractTerms",
+        "description" : "Obligation associated to Subcontracting",
+        "_label" : "group|name|ND-SubcontractingObligation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-65-Lot",
           "contentType" : "field",

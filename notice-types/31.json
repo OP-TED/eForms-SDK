@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0-SNAPSHOT",
+  "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.8.235",
-    "createdOn" : "2023-08-18T15:25:50"
+    "version" : "1.9.67",
+    "createdOn" : "2023-09-28T15:33:08"
   },
   "noticeId" : "31",
   "metadata" : [ {
@@ -600,7 +600,15 @@
             "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-105)-Procedure"
           } ]
-        }, {
+        } ]
+      }, {
+        "id" : "GR-Procedure-Accelerated",
+        "contentType" : "group",
+        "nodeId" : "ND-AcceleratedProcedure",
+        "displayType" : "GROUP",
+        "description" : "Accelerated Procedure (or not) and Justification",
+        "_label" : "group|name|ND-AcceleratedProcedure",
+        "content" : [ {
           "id" : "BT-106-Procedure",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
@@ -694,6 +702,7 @@
         "displayType" : "GROUP",
         "description" : "Direct Award (or not) and Justification",
         "_label" : "group|name|ND-DirectAward",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-136-Procedure",
           "contentType" : "field",
@@ -1288,7 +1297,7 @@
         "content" : [ {
           "id" : "BT-60-Lot",
           "contentType" : "field",
-          "displayType" : "TEXTBOX",
+          "displayType" : "COMBOBOX",
           "description" : "EU Funds",
           "_label" : "field|name|BT-60-Lot"
         } ]
