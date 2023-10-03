@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl" title="eForms schematron rules">
+<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        phase="4"
+                        title="eForms schematron rules">
    <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
    <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
    <svrl:ns-prefix-in-attribute-values prefix="cbc"
@@ -33,8 +35,17 @@
    <svrl:fired-rule context="//cbc:ActivityTypeCode"/>
    <svrl:fired-rule context="//cbc:NoticeTypeCode"/>
    <svrl:fired-rule context="//cbc:PartyTypeCode"/>
-   <svrl:active-pattern id="EFORMS-validation-stage-1b"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-1b-4"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
+   <svrl:failed-assert id="ND-Part-4"
+                       location="/pin:PriorInformationNotice"
+                       role="ERROR"
+                       test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">
+      <svrl:text>rule|text|ND-Part-4</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-Part" see="node:ND-Part">
+         <svrl:text>cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:failed-assert id="ND-ProcedureProcurementScope-4"
                        location="/pin:PriorInformationNotice"
                        role="ERROR"
@@ -43,15 +54,6 @@
       <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope"
                                  see="node:ND-ProcedureProcurementScope">
          <svrl:text>cac:ProcurementProject</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="ND-Part-4"
-                       location="/pin:PriorInformationNotice"
-                       role="ERROR"
-                       test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">
-      <svrl:text>rule|text|ND-Part-4</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Part" see="node:ND-Part">
-         <svrl:text>cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
@@ -64,7 +66,7 @@
          <svrl:text>efac:Organizations</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-validation-stage-2a"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-2a-4"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
    <svrl:failed-assert id="BR-BT-00005-0059"
                        location="/pin:PriorInformationNotice"
@@ -148,16 +150,16 @@
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-3b"/>
-   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']"/>
-   <svrl:fired-rule context="/*/cbc:NoticeLanguageCode"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
+   <svrl:fired-rule context="/*/cbc:NoticeLanguageCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
    <svrl:fired-rule context="/*/cbc:VersionID"/>
-   <svrl:active-pattern id="EFORMS-validation-stage-4"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4-4"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
