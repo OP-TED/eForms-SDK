@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.9.0-rc.2",
   "metadataDatabase" : {
-    "version" : "1.9.3",
-    "createdOn" : "2023-09-22T15:10:02"
+    "version" : "1.9.4",
+    "createdOn" : "2023-10-05T13:31:51"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -4506,11 +4506,6 @@
         "value" : "{ND-LotsGroup} ${BT-137-LotsGroup is unique in /BT-137-LotsGroup}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0203"
-      }, {
-        "condition" : "{ND-LotsGroup} ${BT-137-LotsGroup is present}",
-        "value" : "{ND-LotsGroup} ${number:BT-157-LotsGroup <= sum(for text:$groupID in BT-137-LotsGroup, number:$lotValue in BT-27-Lot[BT-137-Lot in BT-1375-Procedure[(BT-330-Procedure == $groupID) and (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))]] return $lotValue)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00137-0204"
       }, {
         "value" : "{ND-LotsGroup} ${(BT-137-LotsGroup in BT-330-Procedure)}",
         "severity" : "ERROR",
