@@ -30,8 +30,8 @@
 			{BT-727-Procedure} #{BT-727-Procedure} // Place Performance Services Other
 			{ND-ProcedurePlacePerformance[BT-728-Procedure is present]} #{field|name|BT-728-Procedure}: ${BT-728-Procedure} // Place Performance Additional information
 		3 {ND-ProcedureProcurementScope[(BT-27-Procedure is present) or (BT-271-Procedure is present)]} #{auxiliary|text|value} // 2.1.3 Value
-			{BT-27-Procedure} #{field|name|BT-27-Procedure}: ${if (contains(string(BT-27-Procedure), ',')) then format-number(BT-27-Procedure, '###,##0.00') else format-number(BT-27-Procedure, '###,##0')} ${BT-27-Procedure/@currencyID} // Estimated value
-			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${if (contains(string(BT-271-Procedure), ',')) then format-number(BT-271-Procedure, '###,##0.00') else format-number(BT-271-Procedure, '###,##0')} ${BT-271-Procedure/@currencyID} // Estimated Framework Maximum Value
+			{BT-27-Procedure} #{field|name|BT-27-Procedure}: ${format-number(BT-27-Procedure, '###,##0.##')} ${BT-27-Procedure/@currencyID} // Estimated value
+			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${format-number(BT-271-Procedure, '###,##0.##')} ${BT-271-Procedure/@currencyID} // Estimated Framework Maximum Value
 		4 {ND-ProcedureProcurementScope[BT-01-notice is present]} #{auxiliary|text|general-information} // 2.1.4 General information
 			{ND-ProcedureProcurementScope[BT-300-Procedure is present]} #{field|name|BT-300-Procedure}: ${BT-300-Procedure} // Additional information
 			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}: // Legal basis
@@ -55,9 +55,9 @@
 		{BT-137-LotsGroup[BT-24-LotsGroup is present]} #{field|name|BT-24-LotsGroup}: ${BT-24-LotsGroup} // Description of LotsGroup
 		{BT-22-LotsGroup} #{field|name|BT-22-LotsGroup}: ${BT-22-LotsGroup} // Internal identifier of LotsGroup
 		1 {BT-137-LotsGroup[(BT-27-LotsGroup is present) or (BT-271-LotsGroup is present) or (BT-157-LotsGroup is present)]} #{auxiliary|text|value} // 4.1.1 Value
-			{BT-27-LotsGroup} #{field|name|BT-27-LotsGroup}: ${if (contains(string(BT-27-LotsGroup), ',')) then format-number(BT-27-LotsGroup, '###,##0.00') else format-number(BT-27-LotsGroup, '###,##0')} ${BT-27-LotsGroup/@currencyID} // Estimated value
-			{BT-271-LotsGroup} #{field|name|BT-271-LotsGroup}: ${if (contains(string(BT-271-LotsGroup), ',')) then format-number(BT-271-LotsGroup, '###,##0.00') else format-number(BT-271-LotsGroup, '###,##0')} ${BT-271-LotsGroup/@currencyID} // Framework Maximum Value
-			{BT-157-LotsGroup} #{field|name|BT-157-LotsGroup}: ${if (contains(string(BT-157-LotsGroup), ',')) then format-number(BT-157-LotsGroup, '###,##0.00') else format-number(BT-157-LotsGroup, '###,##0')} ${BT-157-LotsGroup/@currencyID} // Maximum value of the framework agreement within the group of lots
+			{BT-27-LotsGroup} #{field|name|BT-27-LotsGroup}: ${format-number(BT-27-LotsGroup, '###,##0.##')} ${BT-27-LotsGroup/@currencyID} // Estimated value
+			{BT-271-LotsGroup} #{field|name|BT-271-LotsGroup}: ${format-number(BT-271-LotsGroup, '###,##0.##')} ${BT-271-LotsGroup/@currencyID} // Framework Maximum Value
+			{BT-157-LotsGroup} #{field|name|BT-157-LotsGroup}: ${format-number(BT-157-LotsGroup, '###,##0.##')} ${BT-157-LotsGroup/@currencyID} // Maximum value of the framework agreement within the group of lots
 		2 {ND-LotsGroupProcurementScope[BT-300-LotsGroup is present]} #{auxiliary|text|general-information} // 4.1.2 General information
 			{BT-137-LotsGroup[BT-300-LotsGroup is present]} #{field|name|BT-300-LotsGroup}: ${BT-300-LotsGroup} // Additional information
 		3 {ND-LotsGroupAwardCriteria} #{auxiliary|text|award-criteria} // 4.1.3 Award criteria
@@ -101,8 +101,8 @@
 			{BT-58-Lot} #{field|name|BT-58-Lot}: ${BT-58-Lot} // Maximum renewals
 			{ND-OptionsAndRenewals[BT-57-Lot is present]} #{field|name|BT-57-Lot}: ${BT-57-Lot} // Description
 		5 {ND-LotValueEstimate[(BT-27-Lot is present) or (BT-271-Lot is present) or (some text:$glo in (for text:$lotid in BT-137-Lot, text:$ldgloid in BT-330-Procedure[BT-1375-Procedure == $lotid], text:$gloid in BT-137-LotsGroup[BT-137-LotsGroup[BT-157-LotsGroup is present] == $ldgloid] return $gloid) satisfies $glo != '')]} #{auxiliary|text|value} // 5.1.5 Value
-			{BT-27-Lot} #{field|name|BT-27-Lot}: ${if (contains(string(BT-27-Lot), ',')) then format-number(BT-27-Lot, '###,##0.00') else format-number(BT-27-Lot, '###,##0')} ${BT-27-Lot/@currencyID} // Estimated value
-			{BT-271-Lot} #{field|name|BT-271-Lot}: ${if (contains(string(BT-271-Lot), ',')) then format-number(BT-271-Lot, '###,##0.00') else format-number(BT-271-Lot, '###,##0')} ${BT-271-Lot/@currencyID} // Framework Maximum Value
+			{BT-27-Lot} #{field|name|BT-27-Lot}: ${format-number(BT-27-Lot, '###,##0.##')} ${BT-27-Lot/@currencyID} // Estimated value
+			{BT-271-Lot} #{field|name|BT-271-Lot}: ${format-number(BT-271-Lot, '###,##0.##')} ${BT-271-Lot/@currencyID} // Framework Maximum Value
 		6 {BT-137-Lot[(BT-634-Lot == TRUE) or (BT-94-Lot == TRUE) or (BT-95-Lot is present) or (BT-71-Lot is present) or (BT-79-Lot is present) or (BT-60-Lot == 'eu-funds') or (BT-7220-Lot is present) or (BT-5010-Lot is present) or (BT-6140-Lot is present) or (BT-115-Lot == TRUE) or (BT-726-Lot == TRUE) or (BT-125(i)-Lot is present) or (BT-1251-Lot is present) or (BT-300-Lot is present)]} #{auxiliary|text|general-information} // 5.1.6 General information
 			{BT-71-Lot} #{field|name|BT-71-Lot}: #{BT-71-Lot} // Reserved Participation
 			{BT-79-Lot} #{field|name|BT-79-Lot}: #{BT-79-Lot} // Performing Staff Qualification
@@ -171,7 +171,7 @@
 				{BT-78-Lot} #{field|name|BT-78-Lot}: ${BT-78-Lot} // Security Clearance Deadline
 			0 {ND-LotTenderingTerms[(BT-42-Lot == TRUE) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present)]} #{auxiliary|text|design-contest-terms}: // Terms of the design contest regime
 				0 {ND-Prize} #{auxiliary|text|prize-information} // Prize information
-					{BT-644-Lot} #{field|name|BT-644-Lot}: ${if (contains(string(BT-644-Lot), ',')) then format-number(BT-644-Lot, '###,##0.00') else format-number(BT-644-Lot, '###,##0')} ${BT-644-Lot/@currencyID} // Value of the prize
+					{BT-644-Lot} #{field|name|BT-644-Lot}: ${format-number(BT-644-Lot, '###,##0.##')} ${BT-644-Lot/@currencyID} // Value of the prize
 					{BT-44-Lot} #{field|name|BT-44-Lot}: ${BT-44-Lot} // Place receiving the prize
 					{ND-Prize[BT-45-Lot is present]} #{field|name|BT-45-Lot}: ${BT-45-Lot} // Additional information
 			0 {BT-137-Lot[(BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot == 'allowed') or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present)]} #{auxiliary|text|submission-terms}: // Terms of submission
