@@ -3178,10 +3178,6 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0203"
       }, {
-        "value" : "{ND-LotsGroup} ${number:BT-157-LotsGroup <= sum(for text:$groupID in BT-137-LotsGroup, number:$lotValue in BT-27-Lot[BT-137-Lot in BT-1375-Procedure[(BT-330-Procedure == $groupID) and (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))]] return $lotValue)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00137-0204"
-      }, {
         "value" : "{ND-LotsGroup} ${(BT-137-LotsGroup in BT-330-Procedure)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0210"
