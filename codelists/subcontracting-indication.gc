@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>SubcontractingIndication</ShortName>
       <LongName>subcontracting-indication</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/subcontracting-indication</LongName>
-      <Version>20220928-0</Version>
+      <Version>20230614-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/subcontracting-indication</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -125,79 +125,79 @@
             <SimpleValue>none</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>None</SimpleValue>
+            <SimpleValue>No subcontracting indication</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Няма</SimpleValue>
+            <SimpleValue>Няма указание за използването на подизпълнители</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Žádná z možností</SimpleValue>
+            <SimpleValue>Zadání zakázky třetí osobě není uvedeno</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Ingen</SimpleValue>
+            <SimpleValue>Ingen angivelse med hensyn til underentreprise</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Entfällt</SimpleValue>
+            <SimpleValue>Keine Angabe der Vergabe von Unteraufträgen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κανένα</SimpleValue>
+            <SimpleValue>Καμία υπόδειξη υπεργολαβίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>None</SimpleValue>
+            <SimpleValue>No subcontracting indication</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Ninguno</SimpleValue>
+            <SimpleValue>Ninguna indicación de subcontratación</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Ei kohaldata</SimpleValue>
+            <SimpleValue>Alltöövõtuga seotud märge puudub</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Ei sovelleta</SimpleValue>
+            <SimpleValue>Alihankinnasta ei ole ilmoitettu</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Sans objet</SimpleValue>
+            <SimpleValue>Pas d’indication sur la sous-traitance</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Ceann ar bith</SimpleValue>
+            <SimpleValue>Níl feidhm ag tuairisc maidir le ligean ar fochonradh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ne primjenjuje se</SimpleValue>
+            <SimpleValue>Nema navoda o davanju u podugovor</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Nincs</SimpleValue>
+            <SimpleValue>Nincs utalás alvállalkozásba adásra</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Nulla</SimpleValue>
+            <SimpleValue>Nessuna indicazione relativa a subappalti</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Netaikoma</SimpleValue>
+            <SimpleValue>Subranga nenurodoma</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Nav</SimpleValue>
+            <SimpleValue>Nav norādes par apakšuzņēmuma līgumu slēgšanu</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-ebda</SimpleValue>
+            <SimpleValue>Ebda indikazzjoni ta’ sottokuntrattar</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Geen</SimpleValue>
+            <SimpleValue>Geen vermelding van onderaanneming</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Brak</SimpleValue>
+            <SimpleValue>Brak informacji o podwykonawstwie</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Nenhum</SimpleValue>
+            <SimpleValue>Inexistência de indicação de subcontratação</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Niciunul</SimpleValue>
+            <SimpleValue>Nu există nicio indicație privind subcontractarea</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Žiadne</SimpleValue>
+            <SimpleValue>Žiadne informácie o subdodávkach</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ne obstaja</SimpleValue>
+            <SimpleValue>Ni navedbe oddaje naročil podizvajalcem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Ingen</SimpleValue>
+            <SimpleValue>Ingen indikation på att en del av kontraktet kommer att läggas ut på underentreprenad</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -277,7 +277,7 @@
             <SimpleValue>Delež naročila, ki ga ponudnik namerava oddati podizvajalcem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Den del av kontraktet som anbudsgivaren har för avsikt att lägga ut på underentreprenad</SimpleValue>
+            <SimpleValue>Den del av kontraktet som leverantören har för avsikt att lägga ut på underentreprenad.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -357,7 +357,7 @@
             <SimpleValue>Predlagani podizvajalci, ki presegajo obveznost oddaje najmanjšega odstotka naročil podizvajalcem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Den eller de föreslagna underentreprenörer som ligger över skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad</SimpleValue>
+            <SimpleValue>Den eller de föreslagna underleverantörer som ligger över skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -437,7 +437,7 @@
             <SimpleValue>Predlagani podizvajalci, ki so potrebni za izpolnitev obveznosti oddaje najmanjšega odstotka naročil podizvajalcem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Den eller de föreslagna underentreprenörer som krävs för att fullgöra skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad</SimpleValue>
+            <SimpleValue>Den eller de föreslagna underleverantörer som krävs för att fullgöra skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -517,7 +517,7 @@
             <SimpleValue>Predmet naročil, oddanih podizvajalcem, ki presegajo obveznost oddaje najmanjšega odstotka naročil podizvajalcem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Syftet för den eller de underentreprenörer som ligger över skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad</SimpleValue>
+            <SimpleValue>Syftet för den eller de underleverantörer som ligger över skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad.</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -597,7 +597,7 @@
             <SimpleValue>Predmet naročil, oddanih podizvajalcem, ki so potrebna za izpolnitev obveznosti oddaje najmanjšega odstotka naročil podizvajalcem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Syftet för den eller de underentreprenörer som krävs för att fullgöra skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad</SimpleValue>
+            <SimpleValue>Syftet för den eller de underleverantörer som krävs för att fullgöra skyldigheten att lägga ut en lägsta procentandel av kontraktet på underentreprenad.</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

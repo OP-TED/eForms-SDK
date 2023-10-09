@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.8.0",
+  "sdkVersion" : "1.9.0",
   "metadataDatabase" : {
-    "version" : "1.8.0",
-    "createdOn" : "2023-06-02T14:00:00"
+    "version" : "1.9.0",
+    "createdOn" : "2023-08-24T14:00:00"
   },
   "noticeId" : "3",
   "metadata" : [ {
@@ -257,7 +257,8 @@
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (NoID)",
           "_label" : "field|name|BT-01(e)-Procedure",
-          "_presetValue" : "LocalLegalBasis"
+          "_presetValue" : "LocalLegalBasis",
+          "hidden" : true
         }, {
           "id" : "BT-01(f)-Procedure",
           "contentType" : "field",
@@ -320,9 +321,10 @@
         "content" : [ {
           "id" : "GR-Procedure-Scope-MainClassification",
           "contentType" : "group",
+          "nodeId" : "ND-ProcedureMainClassification",
           "displayType" : "GROUP",
-          "description" : "Main Classification",
-          "_label" : "group|name|GR-Procedure-Scope-MainClassification",
+          "description" : "Classification for the Main Commodity of the Procedure",
+          "_label" : "group|name|ND-ProcedureMainClassification",
           "content" : [ {
             "id" : "BT-26(m)-Procedure",
             "contentType" : "field",

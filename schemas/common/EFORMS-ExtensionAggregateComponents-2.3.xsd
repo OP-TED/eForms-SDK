@@ -52,9 +52,11 @@
 	<xsd:element name="LotTender" type="LotTenderType"/>
 	<xsd:element name="MainContractor" type="MainContractorType"/>
 	<xsd:element name="Nationality" type="NationalityType"/>
+	<xsd:element name="NonOfficialLanguages" type="NonOfficialLanguagesType"/>
 	<xsd:element name="NoticePurpose" type="NoticePurposeType"/>
 	<xsd:element name="NoticeResult" type="NoticeResultType"/>
 	<xsd:element name="NoticeSubType" type="NoticeSubTypeType"/>
+	<xsd:element name="OfficialLanguages" type="OfficialLanguagesType"/>
 	<xsd:element name="Organization" type="OrganizationType"/>
 	<xsd:element name="Organizations" type="OrganizationsType"/>
 	<xsd:element name="Origin" type="OriginType"/>
@@ -285,7 +287,7 @@
 			<xsd:element ref="efbc:FieldIdentifierCode" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:ReasonCode" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:ReasonDescription" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efbc:PublicationDate" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efbc:PublicationDate" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="FrameworkAgreementValuesType">
@@ -359,6 +361,11 @@
 			<xsd:element ref="cbc:NationalityID" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
+	<xsd:complexType name="NonOfficialLanguagesType">
+		<xsd:sequence>
+			<xsd:element ref="cac:Language" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
 	<xsd:complexType name="NoticeSubTypeType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:SubTypeCode" minOccurs="0" maxOccurs="1"/>
@@ -382,6 +389,11 @@
 			<xsd:element ref="efac:LotTender" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:SettledContract" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:TenderingParty" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="OfficialLanguagesType">
+		<xsd:sequence>
+			<xsd:element ref="cac:Language" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="OrganizationType">
@@ -511,6 +523,7 @@
 	<xsd:complexType name="TenderingPartyType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="cbc:Name" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:Tenderer" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:SubContractor" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>

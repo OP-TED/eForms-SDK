@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsIrlLvl3</ShortName>
       <LongName>nuts-irl-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.8.0</Version>
+      <Version>1.9.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,7 +128,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Border</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Border</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Border</SimpleValue>
          </Value>
       </Row>
@@ -139,7 +208,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>West</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>West</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>West</SimpleValue>
          </Value>
       </Row>
@@ -150,7 +288,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mid-West</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Mid-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Mid-West</SimpleValue>
          </Value>
       </Row>
@@ -161,7 +368,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>South-East</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>South-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>South-East</SimpleValue>
          </Value>
       </Row>
@@ -172,7 +448,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>South-West</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>South-West</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>South-West</SimpleValue>
          </Value>
       </Row>
@@ -183,7 +528,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Dublin</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dublin</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Dublin</SimpleValue>
          </Value>
       </Row>
@@ -194,7 +608,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mid-East</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Mid-East</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Mid-East</SimpleValue>
          </Value>
       </Row>
@@ -205,7 +688,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Midland</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Midland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Midland</SimpleValue>
          </Value>
       </Row>
@@ -216,7 +768,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

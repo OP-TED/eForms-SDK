@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.8.0",
+  "sdkVersion" : "1.9.0",
   "metadataDatabase" : {
-    "version" : "1.8.0",
-    "createdOn" : "2023-06-02T14:00:00"
+    "version" : "1.9.0",
+    "createdOn" : "2023-08-24T14:00:00"
   },
   "noticeId" : "X01",
   "metadata" : [ {
@@ -147,11 +147,11 @@
       "description" : "Business Party",
       "_label" : "group|name|GR-Business-Party",
       "content" : [ {
-        "id" : "BT-500-Business",
+        "id" : "BT-500-Business-European",
         "contentType" : "field",
         "displayType" : "TEXTAREA",
-        "description" : "Official name",
-        "_label" : "field|name|BT-500-Business"
+        "description" : "EEIG Official name",
+        "_label" : "field|name|BT-500-Business-European"
       }, {
         "id" : "OPP-131-Business",
         "contentType" : "field",
@@ -192,9 +192,10 @@
     }, {
       "id" : "GR-Business-Publication",
       "contentType" : "group",
+      "nodeId" : "ND-GazetteReference",
       "displayType" : "GROUP",
-      "description" : "Publication",
-      "_label" : "group|name|GR-Business-Publication",
+      "description" : "Reference to the Gazette where Publication took place (Date, Name, URL …)",
+      "_label" : "group|name|ND-GazetteReference",
       "content" : [ {
         "id" : "OPP-120-Business",
         "contentType" : "field",
@@ -219,6 +220,12 @@
         "displayType" : "TEXTBOX",
         "description" : "Date of publication",
         "_label" : "field|name|OPP-123-Business"
+      }, {
+        "id" : "OPP-124-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Gazette Issue Identifier",
+        "_label" : "field|name|OPP-124-Business"
       } ]
     }, {
       "id" : "OPP-130-Business",

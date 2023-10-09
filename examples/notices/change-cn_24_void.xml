@@ -73,14 +73,14 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.8</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">1d192942-a4a3-4833-8775-ca38f7ec09ca</cbc:ID>
 	<cbc:ContractFolderID>4805c409-5939-4be9-8abd-837f7a5fee23</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-12-21+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
 	<cbc:VersionID>01</cbc:VersionID>
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
-	<cbc:NoticeTypeCode listName="change">corr</cbc:NoticeTypeCode>
+	<cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
 	<cbc:NoticeLanguageCode>ENG</cbc:NoticeLanguageCode>
 	<cac:ContractingParty>
 		<cac:ContractingPartyType>
@@ -205,6 +205,13 @@
 				<cbc:EndDate>2020-02-04+02:00</cbc:EndDate>
 				<cbc:EndTime>10:00:00+02:00</cbc:EndTime>
 			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2020-02-04+02:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="ENG">Premises of the Publications Office in LUXEMBOURG.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>

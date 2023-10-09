@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>PostcodeCountry</ShortName>
       <LongName>postcode-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.8.0</Version>
+      <Version>1.9.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -1395,7 +1395,7 @@
             <SimpleValue>Svätý Bartolomej</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Saint-Barthélemy</SimpleValue>
+            <SimpleValue>Sveti Bartolomej</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Saint-Barthélemy</SimpleValue>
@@ -10915,7 +10915,7 @@
             <SimpleValue>Saint Pierre a Miquelon</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Saint Pierre in Miquelon</SimpleValue>
+            <SimpleValue>Sveta Peter in Mihael</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Saint-Pierre och Miquelon</SimpleValue>

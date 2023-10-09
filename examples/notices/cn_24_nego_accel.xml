@@ -126,7 +126,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.8</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">d1a2e651-b32f-4606-a5dd-d180bab20be1</cbc:ID>
 	<cbc:ContractFolderID>e3cdabf1-e057-47a5-9210-b1f6fc757228</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-03-30+01:00</cbc:IssueDate>
@@ -274,10 +274,22 @@
 			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
+				<ext:UBLExtensions>
+					<ext:UBLExtension>
+						<ext:ExtensionContent>
+							<efext:EformsExtension>
+								<efac:OfficialLanguages>
+									<cac:Language>
+										<cbc:ID>ENG</cbc:ID>
+									</cac:Language>
+								</efac:OfficialLanguages>
+							</efext:EformsExtension>
+						</ext:ExtensionContent>
+					</ext:UBLExtension>
+				</ext:UBLExtensions>
 				<cbc:ID>TenderDocID1</cbc:ID>
 				<cbc:DocumentTypeCode listName="communication-justification">tdf-non-av</cbc:DocumentTypeCode>
 				<cbc:DocumentType>restricted-document</cbc:DocumentType>
-				<cbc:LanguageID>ENG</cbc:LanguageID>
 				<cac:Attachment>
 					<cac:ExternalReference>
 						<cbc:URI>https://hmlandregistry.force.com</cbc:URI>

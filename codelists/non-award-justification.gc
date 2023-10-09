@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NonAwardJustification</ShortName>
       <LongName>non-award-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/non-award-justification</LongName>
-      <Version>20221214-0</Version>
+      <Version>20230614-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/non-award-justification</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -277,7 +277,7 @@
             <SimpleValue>Kupčeva odločitev zaradi spremembe potreb</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Upphandlarens beslut på grund av ändrade behov</SimpleValue>
+            <SimpleValue>Köparens beslut på grund av ändrade behov</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -357,7 +357,7 @@
             <SimpleValue>Kupčeva odločitev zaradi pomanjkanja sredstev</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Upphandlarens beslut på grund av otillräckliga medel</SimpleValue>
+            <SimpleValue>Köparens beslut på grund av otillräckliga medel</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -437,7 +437,7 @@
             <SimpleValue>Ni bilo ponudb, prijav za sodelovanje ali projektov</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Inga anbud, anbudsansökningar eller projekt mottogs</SimpleValue>
+            <SimpleValue>Skäl för utebliven tilldelning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -757,7 +757,7 @@
             <SimpleValue>Odločitev revizijskega organa ali drugega sodnega organa</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Beslut fattat av ett prövningsorgan eller en annan rättslig myndighet</SimpleValue>
+            <SimpleValue>Beslut fattat av ett prövningsorgan eller annat rättsligt organ</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -837,7 +837,7 @@
             <SimpleValue>Kupčeva odločitev, da ugodi ponudnikovi zahtevi za pregled oddaje</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Upphandlarens beslut att tillmötesgå en anbudsgivares begäran om omprövning av tilldelning</SimpleValue>
+            <SimpleValue>Köparens beslut att tillmötesgå en anbudsgivares begäran om omprövning av tilldelning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -917,7 +917,7 @@
             <SimpleValue>Kupčeva odločitev, ki ni posledica ponudnikove zahteve za pregled oddaje, zaradi tehničnih ali postopkovnih napak</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Upphandlarens beslut att inte tillmötesgå en anbudsgivares begäran om omprövning av tilldelning på grund av tekniska fel eller fel i förfarandet</SimpleValue>
+            <SimpleValue>Köparens beslut att inte tillmötesgå en anbudsgivares begäran om omprövning av tilldelning på grund av tekniska fel eller fel i förfarandet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

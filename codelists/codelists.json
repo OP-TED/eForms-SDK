@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.8.0",
+  "sdkVersion" : "1.9.0",
   "metadataDatabase" : {
-    "version" : "1.8.0",
-    "createdOn" : "2023-06-02T14:00:00"
+    "version" : "1.9.0",
+    "createdOn" : "2023-08-24T14:00:00"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -96,12 +96,6 @@
     "description" : "List of allowed Notice Subtype codes for a notice of CAN Public Transport Service Notice Type .",
     "_label" : "codelist|name|can-tran"
   }, {
-    "id" : "change",
-    "parentId" : "notice-type",
-    "filename" : "notice-type_change.gc",
-    "description" : "List of allowed Notice Subtype codes for a notice of Change Notice Type .",
-    "_label" : "codelist|name|change"
-  }, {
     "id" : "change-corrig-justification",
     "filename" : "change-corrig-justification.gc",
     "description" : "This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.",
@@ -166,12 +160,6 @@
     "filename" : "corporate-body.gc",
     "description" : "The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.",
     "_label" : "codelist|name|corporate-body"
-  }, {
-    "id" : "corr",
-    "parentId" : "notice-subtype",
-    "filename" : "notice-subtype_corr.gc",
-    "description" : "List of allowed Notice Subtype codes for a notice of CN Design Notice Type.",
-    "_label" : "codelist|name|corr"
   }, {
     "id" : "country",
     "filename" : "country.gc",
@@ -761,6 +749,11 @@
     "description" : "List of codes to specify the purpose of the Business Register Information Notice",
     "_label" : "codelist|name|notice-purpose"
   }, {
+    "id" : "notice-reference",
+    "filename" : "notice-reference.gc",
+    "description" : "Notice reference type",
+    "_label" : "codelist|name|notice-reference"
+  }, {
     "id" : "notice-subtype",
     "filename" : "notice-subtype.gc",
     "description" : "List of possible Notice Subtype codes for a Notice of type Business Registration Information Notice.",
@@ -1087,6 +1080,11 @@
     "filename" : "notice-type_planning.gc",
     "description" : "List of allowed Notice Type codes for a Planning Form Type",
     "_label" : "codelist|name|planning"
+  }, {
+    "id" : "player-type",
+    "filename" : "player-type.gc",
+    "description" : "Type of role/subrole player",
+    "_label" : "codelist|name|player-type"
   }, {
     "id" : "postcode-country",
     "parentId" : "country",
@@ -1450,6 +1448,11 @@
     "filename" : "indicator_tender-guarantee-required.gc",
     "description" : "List of codes to specify whether a Tender Guarantee is required or not.",
     "_label" : "codelist|name|tender-guarantee-required"
+  }, {
+    "id" : "tendered-object",
+    "filename" : "tendered-object.gc",
+    "description" : "Object type covered by the tender (lot, group of lots)",
+    "_label" : "codelist|name|tendered-object"
   }, {
     "id" : "tenderlot-presentation",
     "filename" : "tenderlot-presentation.gc",

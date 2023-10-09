@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>OrganisationRoleService</ShortName>
       <LongName>organisation-role-service</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/organisation-role</LongName>
       <LongName Identifier="eFormsParentId">organisation-role</LongName>
-      <Version>1.8.0</Version>
+      <Version>1.9.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -198,7 +198,7 @@
             <SimpleValue>Izvajalec storitev javnega naročanja</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Upphandlingstjänsteleverantör</SimpleValue>
+            <SimpleValue>Leverantör av upphandlingstjänster</SimpleValue>
          </Value>
       </Row>
       <Row>

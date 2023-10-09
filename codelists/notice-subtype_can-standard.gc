@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>CanStandard</ShortName>
       <LongName>can-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.8.0</Version>
+      <Version>1.9.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -448,76 +448,76 @@
             <SimpleValue>E4</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Общо обявление за възлагане на поръчка под прага (CAN)</SimpleValue>
+            <SimpleValue>Общо обявление за възложена поръчка под прага</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Oznámení o výsledku zadávacího řízení pod prahovou hodnotou (CAN) obecně</SimpleValue>
+            <SimpleValue>Obecné oznámení o výsledku zadávacího řízení pro podlimitní zakázky</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Bekendtgørelse om indgåede kontrakter under tærskelværdien (CAN) generelt</SimpleValue>
+            <SimpleValue>Generelt under tærskel for bekendtgørelse om indgåede kontrakter</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Allgemeine Vergabebekanntmachung (CAN) unterhalb des Schwellenwerts</SimpleValue>
+            <SimpleValue>Unterhalb des Schwellenwerts – Vergabebekanntmachung (CAN) allgemein</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κάτω από το κατώτατο όριο γνωστοποίησης ανάθεσης σύμβασης (CAN) γενικά</SimpleValue>
+            <SimpleValue>Γενική γνωστοποίηση ανάθεσης σύμβασης (CAN) κάτω από το κατώτατο όριο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Below threshold contract award notice (CAN) general</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de adjudicación de contrato (CAN) general por debajo del umbral</SimpleValue>
+            <SimpleValue>Anuncio de adjudicación del contrato general por debajo del umbral</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Piirmäärast allapoole jääv lepingu sõlmimise teade (CAN) üldine</SimpleValue>
+            <SimpleValue>Piirmäärast allapoole jääv lepingu sõlmimise teade – üldine</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kynnysarvon alittava jälki-ilmoitus (CAN) yleinen</SimpleValue>
+            <SimpleValue>Kynnysarvon alittava jälki-ilmoitus – yleisdirektiivi</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Avis d’attribution de marché inférieur au seuil général (CAN)</SimpleValue>
+            <SimpleValue>Seuil non atteint avis d’attribution de marché général</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Fógra ginearálta maidir le dámhachtain conartha (CAN) atá faoi bhun na tairsí</SimpleValue>
+            <SimpleValue>Faoi bhun thairseach an fhógra ghinearálta faoi dhámhachtain conartha (CAN)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o dodjeli ugovora (CAN) ispod praga općenito</SimpleValue>
+            <SimpleValue>Obavijest o dodjeli ugovora ispod granične vrijednosti – općenito</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti szerződés odaítéléséről szóló tájékoztató (CAN) általános</SimpleValue>
+            <SimpleValue>Küszöbérték alatti szerződés odaítéléséről szóló tájékoztató – általános</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso di aggiudicazione di appalti al di sotto della soglia (CAN) generale</SimpleValue>
+            <SimpleValue>Avviso di aggiudicazione generale di importo sottosoglia</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Mažesnės nei ribinės vertės skelbimas apie sutarties skyrimą (CAN)</SimpleValue>
+            <SimpleValue>Finansinės vertės ribos nesiekiantys viešieji pirkimai: bendras skelbimas apie sutarties skyrimą</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Paziņojums par līguma slēgšanas tiesību piešķiršanu zem robežvērtības (CAN) vispārīgi</SimpleValue>
+            <SimpleValue>Zem sliekšņa paziņojums par līguma slēgšanas tiesību piešķiršanu, vispārīgs (publicēts vēlāk)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Avviż ta’ għoti ta’ kuntratt taħt il-limitu minimu (CAN) ġenerali</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Aankondiging van gegunde opdracht onder de drempelwaarde (CAN) algemeen</SimpleValue>
+            <SimpleValue>Algemene aankondiging van gegunde opdracht onder de drempelwaarde</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>Ogólne ogłoszenie o udzieleniu zamówienia poniżej progu</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Anúncio geral de adjudicação de contrato abaixo do limiar (CAN)</SimpleValue>
+            <SimpleValue>Abaixo do limiar para anúncio de adjudicação de contrato (AAC) geral</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Anunț de atribuire a contractului sub prag (CAN) general</SimpleValue>
+            <SimpleValue>Anunț general de atribuire a contractului sub prag</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Podlimitné oznámenie o výsledku verejného obstarávania (CAN) všeobecne</SimpleValue>
+            <SimpleValue>Všeobecné oznámenie o výsledku obstarávania (CAN) pod prahovou hodnotou</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o oddaji javnega naročila pod pragom (CAN) splošno</SimpleValue>
+            <SimpleValue>Obvestilo o oddaji naročila pod pragom – splošno</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Meddelande om tilldelning av kontrakt under tröskelvärdet (CAN) allmänt</SimpleValue>
+            <SimpleValue>Under tröskelvärdet – allmänt meddelande om tilldelning av kontrakt (CAN)</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

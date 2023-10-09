@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsHunLvl3</ShortName>
       <LongName>nuts-hun-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.8.0</Version>
+      <Version>1.9.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,7 +128,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Budapest</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Budapest</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Budapest</SimpleValue>
          </Value>
       </Row>
@@ -139,7 +208,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pest</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Pest</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Pest</SimpleValue>
          </Value>
       </Row>
@@ -150,7 +288,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Fejér</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Fejér</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Fejér</SimpleValue>
          </Value>
       </Row>
@@ -161,7 +368,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Komárom-Esztergom</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Komárom-Esztergom</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Komárom-Esztergom</SimpleValue>
          </Value>
       </Row>
@@ -172,7 +448,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Veszprém</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Veszprém</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Veszprém</SimpleValue>
          </Value>
       </Row>
@@ -183,7 +528,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Győr-Moson-Sopron</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Győr-Moson-Sopron</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Győr-Moson-Sopron</SimpleValue>
          </Value>
       </Row>
@@ -194,7 +608,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Vas</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vas</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Vas</SimpleValue>
          </Value>
       </Row>
@@ -205,7 +688,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zala</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zala</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zala</SimpleValue>
          </Value>
       </Row>
@@ -216,7 +768,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Baranya</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Baranya</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Baranya</SimpleValue>
          </Value>
       </Row>
@@ -227,7 +848,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Somogy</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Somogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Somogy</SimpleValue>
          </Value>
       </Row>
@@ -238,7 +928,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tolna</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tolna</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Tolna</SimpleValue>
          </Value>
       </Row>
@@ -249,7 +1008,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Borsod-Abaúj-Zemplén</SimpleValue>
          </Value>
       </Row>
@@ -260,7 +1088,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Heves</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Heves</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Heves</SimpleValue>
          </Value>
       </Row>
@@ -271,7 +1168,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Nógrád</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nógrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Nógrád</SimpleValue>
          </Value>
       </Row>
@@ -282,7 +1248,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Hajdú-Bihar</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Hajdú-Bihar</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Hajdú-Bihar</SimpleValue>
          </Value>
       </Row>
@@ -293,7 +1328,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Jász-Nagykun-Szolnok</SimpleValue>
          </Value>
       </Row>
@@ -304,7 +1408,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Szabolcs-Szatmár-Bereg</SimpleValue>
          </Value>
       </Row>
@@ -315,7 +1488,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bács-Kiskun</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Bács-Kiskun</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Bács-Kiskun</SimpleValue>
          </Value>
       </Row>
@@ -326,7 +1568,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Békés</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Békés</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Békés</SimpleValue>
          </Value>
       </Row>
@@ -337,7 +1648,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Csongrád</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Csongrád</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Csongrád</SimpleValue>
          </Value>
       </Row>
@@ -348,7 +1728,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

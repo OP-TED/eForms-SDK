@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.8.0",
+  "sdkVersion" : "1.9.0",
   "metadataDatabase" : {
-    "version" : "1.8.0",
-    "createdOn" : "2023-06-02T14:00:00"
+    "version" : "1.9.0",
+    "createdOn" : "2023-08-24T14:00:00"
   },
   "noticeId" : "T01",
   "metadata" : [ {
@@ -251,7 +251,8 @@
           "displayType" : "TEXTBOX",
           "description" : "Procedure Legal Basis (NoID)",
           "_label" : "field|name|BT-01(e)-Procedure",
-          "_presetValue" : "LocalLegalBasis"
+          "_presetValue" : "LocalLegalBasis",
+          "hidden" : true
         }, {
           "id" : "BT-01(f)-Procedure",
           "contentType" : "field",
@@ -323,9 +324,10 @@
         "content" : [ {
           "id" : "GR-Procedure-Scope-MainClassification",
           "contentType" : "group",
+          "nodeId" : "ND-ProcedureMainClassification",
           "displayType" : "GROUP",
-          "description" : "Main Classification",
-          "_label" : "group|name|GR-Procedure-Scope-MainClassification",
+          "description" : "Classification for the Main Commodity of the Procedure",
+          "_label" : "group|name|ND-ProcedureMainClassification",
           "content" : [ {
             "id" : "BT-26(m)-Procedure",
             "contentType" : "field",
@@ -371,16 +373,18 @@
       "content" : [ {
         "id" : "GR-Procedure-CrossBorderLaw",
         "contentType" : "group",
+        "nodeId" : "ND-CrossBorderLaw",
         "displayType" : "GROUP",
         "description" : "Cross Border Law",
-        "_label" : "group|name|GR-Procedure-CrossBorderLaw",
+        "_label" : "group|name|ND-CrossBorderLaw",
         "content" : [ {
           "id" : "BT-09(a)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Cross Border Law",
           "_label" : "field|name|BT-09(a)-Procedure",
-          "_presetValue" : "CrossBorderLaw"
+          "_presetValue" : "CrossBorderLaw",
+          "hidden" : true
         }, {
           "id" : "BT-09(b)-Procedure",
           "contentType" : "field",
@@ -448,6 +452,15 @@
     "_identifierFieldId" : "BT-137-Lot",
     "_repeatable" : true,
     "content" : [ {
+      "id" : "BT-137-Lot",
+      "contentType" : "field",
+      "displayType" : "TEXTBOX",
+      "description" : "Purpose Lot Identifier",
+      "_label" : "field|name|BT-137-Lot",
+      "_idScheme" : "LOT",
+      "_schemeName" : "Lot",
+      "hidden" : true
+    }, {
       "id" : "GR-Lot-Purpose",
       "contentType" : "group",
       "nodeId" : "ND-LotTenderingProcess",
@@ -455,15 +468,6 @@
       "description" : "Tendering Procedure information (GPA, Atypical Tool, Deadlines, techniques) for a Lot",
       "_label" : "group|name|ND-LotTenderingProcess",
       "content" : [ {
-        "id" : "BT-137-Lot",
-        "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "Purpose Lot Identifier",
-        "_label" : "field|name|BT-137-Lot",
-        "_idScheme" : "LOT",
-        "_schemeName" : "Lot",
-        "hidden" : true
-      }, {
         "id" : "GR-Lot-Description",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -530,9 +534,10 @@
         }, {
           "id" : "GR-Lot-Scope-MainClassification",
           "contentType" : "group",
+          "nodeId" : "ND-LotMainClassification",
           "displayType" : "GROUP",
-          "description" : "Main Classification",
-          "_label" : "group|name|GR-Lot-Scope-MainClassification",
+          "description" : "Classification for the Main Commodity of a Lot",
+          "_label" : "group|name|ND-LotMainClassification",
           "content" : [ {
             "id" : "BT-26(m)-Lot",
             "contentType" : "field",

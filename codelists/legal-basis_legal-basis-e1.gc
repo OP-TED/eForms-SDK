@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>LegalBasisE1</ShortName>
       <LongName>legal-basis-e1</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/legal-basis</LongName>
       <LongName Identifier="eFormsParentId">legal-basis</LongName>
-      <Version>1.8.0</Version>
+      <Version>1.9.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>

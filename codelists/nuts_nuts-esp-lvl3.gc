@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.8.0 created on the 2023-06-02T14:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsEspLvl3</ShortName>
       <LongName>nuts-esp-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.8.0</Version>
+      <Version>1.9.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -128,7 +128,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>A Coruña</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>A Coruña</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>A Coruña</SimpleValue>
          </Value>
       </Row>
@@ -139,7 +208,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lugo</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Lugo</SimpleValue>
          </Value>
       </Row>
@@ -150,7 +288,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ourense</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ourense</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Ourense</SimpleValue>
          </Value>
       </Row>
@@ -161,7 +368,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Pontevedra</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Pontevedra</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Pontevedra</SimpleValue>
          </Value>
       </Row>
@@ -172,7 +448,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Asturias</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Asturias</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Asturias</SimpleValue>
          </Value>
       </Row>
@@ -183,7 +528,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cantabria</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Cantabria</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cantabria</SimpleValue>
          </Value>
       </Row>
@@ -194,7 +608,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Araba/Álava</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Araba/Álava</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Araba/Álava</SimpleValue>
          </Value>
       </Row>
@@ -205,7 +688,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gipuzkoa</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Gipuzkoa</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Gipuzkoa</SimpleValue>
          </Value>
       </Row>
@@ -216,7 +768,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Bizkaia</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Bizkaia</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Bizkaia</SimpleValue>
          </Value>
       </Row>
@@ -227,7 +848,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Navarra</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Navarra</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Navarra</SimpleValue>
          </Value>
       </Row>
@@ -238,7 +928,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>La Rioja</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>La Rioja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>La Rioja</SimpleValue>
          </Value>
       </Row>
@@ -249,7 +1008,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Huesca</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Huesca</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Huesca</SimpleValue>
          </Value>
       </Row>
@@ -260,7 +1088,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Teruel</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Teruel</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Teruel</SimpleValue>
          </Value>
       </Row>
@@ -271,7 +1168,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zaragoza</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zaragoza</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zaragoza</SimpleValue>
          </Value>
       </Row>
@@ -282,7 +1248,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Madrid</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Madrid</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Madrid</SimpleValue>
          </Value>
       </Row>
@@ -293,7 +1328,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ávila</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ávila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Ávila</SimpleValue>
          </Value>
       </Row>
@@ -304,7 +1408,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Burgos</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Burgos</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Burgos</SimpleValue>
          </Value>
       </Row>
@@ -315,7 +1488,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>León</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>León</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>León</SimpleValue>
          </Value>
       </Row>
@@ -326,7 +1568,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Palencia</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Palencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Palencia</SimpleValue>
          </Value>
       </Row>
@@ -337,7 +1648,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Salamanca</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Salamanca</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Salamanca</SimpleValue>
          </Value>
       </Row>
@@ -348,7 +1728,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Segovia</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Segovia</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Segovia</SimpleValue>
          </Value>
       </Row>
@@ -359,7 +1808,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Soria</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Soria</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Soria</SimpleValue>
          </Value>
       </Row>
@@ -370,7 +1888,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Valladolid</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Valladolid</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Valladolid</SimpleValue>
          </Value>
       </Row>
@@ -381,7 +1968,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zamora</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zamora</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zamora</SimpleValue>
          </Value>
       </Row>
@@ -392,7 +2048,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Albacete</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Albacete</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Albacete</SimpleValue>
          </Value>
       </Row>
@@ -403,7 +2128,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ciudad Real</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ciudad Real</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Ciudad Real</SimpleValue>
          </Value>
       </Row>
@@ -414,7 +2208,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cuenca</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Cuenca</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cuenca</SimpleValue>
          </Value>
       </Row>
@@ -425,7 +2288,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Guadalajara</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Guadalajara</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Guadalajara</SimpleValue>
          </Value>
       </Row>
@@ -436,7 +2368,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Toledo</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Toledo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Toledo</SimpleValue>
          </Value>
       </Row>
@@ -447,7 +2448,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Badajoz</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Badajoz</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Badajoz</SimpleValue>
          </Value>
       </Row>
@@ -458,7 +2528,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cáceres</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Cáceres</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cáceres</SimpleValue>
          </Value>
       </Row>
@@ -469,7 +2608,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Barcelona</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Barcelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Barcelona</SimpleValue>
          </Value>
       </Row>
@@ -480,7 +2688,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Girona</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Girona</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Girona</SimpleValue>
          </Value>
       </Row>
@@ -491,7 +2768,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lleida</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lleida</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Lleida</SimpleValue>
          </Value>
       </Row>
@@ -502,7 +2848,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tarragona</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tarragona</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Tarragona</SimpleValue>
          </Value>
       </Row>
@@ -513,7 +2928,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alicante / Alacant</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Alicante / Alacant</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Alicante / Alacant</SimpleValue>
          </Value>
       </Row>
@@ -524,7 +3008,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Castellón / Castelló</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Castellón / Castelló</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Castellón / Castelló</SimpleValue>
          </Value>
       </Row>
@@ -535,7 +3088,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Valencia / València</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Valencia / València</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Valencia / València</SimpleValue>
          </Value>
       </Row>
@@ -546,7 +3168,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Eivissa y Formentera</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Eivissa y Formentera</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Eivissa y Formentera</SimpleValue>
          </Value>
       </Row>
@@ -557,7 +3248,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Mallorca</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Mallorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Mallorca</SimpleValue>
          </Value>
       </Row>
@@ -568,7 +3328,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Menorca</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Menorca</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Menorca</SimpleValue>
          </Value>
       </Row>
@@ -579,7 +3408,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Almería</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Almería</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Almería</SimpleValue>
          </Value>
       </Row>
@@ -590,7 +3488,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Cádiz</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Cádiz</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Cádiz</SimpleValue>
          </Value>
       </Row>
@@ -601,7 +3568,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Córdoba</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Córdoba</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Córdoba</SimpleValue>
          </Value>
       </Row>
@@ -612,7 +3648,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Granada</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Granada</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Granada</SimpleValue>
          </Value>
       </Row>
@@ -623,7 +3728,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Huelva</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Huelva</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Huelva</SimpleValue>
          </Value>
       </Row>
@@ -634,7 +3808,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Jaén</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Jaén</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Jaén</SimpleValue>
          </Value>
       </Row>
@@ -645,7 +3888,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Málaga</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Málaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Málaga</SimpleValue>
          </Value>
       </Row>
@@ -656,7 +3968,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Sevilla</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sevilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Sevilla</SimpleValue>
          </Value>
       </Row>
@@ -667,7 +4048,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Murcia</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Murcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Murcia</SimpleValue>
          </Value>
       </Row>
@@ -678,7 +4128,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Ceuta</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ceuta</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Ceuta</SimpleValue>
          </Value>
       </Row>
@@ -689,7 +4208,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Melilla</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Melilla</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Melilla</SimpleValue>
          </Value>
       </Row>
@@ -700,7 +4288,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>El Hierro</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>El Hierro</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>El Hierro</SimpleValue>
          </Value>
       </Row>
@@ -711,7 +4368,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Fuerteventura</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Fuerteventura</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Fuerteventura</SimpleValue>
          </Value>
       </Row>
@@ -722,7 +4448,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Gran Canaria</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Gran Canaria</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Gran Canaria</SimpleValue>
          </Value>
       </Row>
@@ -733,7 +4528,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>La Gomera</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>La Gomera</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>La Gomera</SimpleValue>
          </Value>
       </Row>
@@ -744,7 +4608,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>La Palma</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>La Palma</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>La Palma</SimpleValue>
          </Value>
       </Row>
@@ -755,7 +4688,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Lanzarote</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lanzarote</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Lanzarote</SimpleValue>
          </Value>
       </Row>
@@ -766,7 +4768,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Tenerife</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tenerife</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Tenerife</SimpleValue>
          </Value>
       </Row>
@@ -777,7 +4848,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>
