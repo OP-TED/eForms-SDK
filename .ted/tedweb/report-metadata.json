@@ -1,6 +1,6 @@
 {
 	"CA": {
-		"efx": "{ND-Root} ${/BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}",
+		"efx": "{ND-Root} ${/BT-500-Organization-Company[(BT-500-Organization-Company/@languageID is not empty) and (OPT-200-Organization-Company == OPT-300-Procedure-Buyer)]}",
 		"comment": "Buyer name"
 	},
 	"CN": {
@@ -8,7 +8,7 @@
 		"comment": "List of 'Contract Identifier' of the result of a specific Result"
 	},
 	"CT": {
-		"efx": "{ND-Root, text:$vRES} ${/BT-721-Contract[OPT-316-Contract == OPT-315-LotResult [BT-13713-LotResult == '$vRES']]}",
+		"efx": "{ND-Root, text:$vRES} ${/BT-721-Contract[(BT-721-Contract/@languageID is not empty) and (OPT-316-Contract == OPT-315-LotResult [BT-13713-LotResult == '$vRES'])]}",
 		"comment": "List of 'name of Contract' of the result of a specific result"
 	},
 	"Con_award_list": {
@@ -16,7 +16,7 @@
 		"comment": "Tendering Party ID Reference of a specific result"
 	},
 	"Con_award_names": {
-		"efx": "{ND-Root, text:$vTPA} ${/BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == '$vTPA']]}",
+		"efx": "{ND-Root, text:$vTPA} ${/BT-500-Organization-Company[(BT-500-Organization-Company/@languageID is not empty) and (OPT-200-Organization-Company == OPT-300-Tenderer[OPT-210-Tenderer == '$vTPA'])]}",
 		"comment": "Contractor awarded (winning tenderer)"
 	},
 	"Currency": {
@@ -60,7 +60,7 @@
 		"comment": "Procedure Type"
 	},
 	"TN": {
-		"efx": "{ND-Root}  ${/BT-21-Procedure}",
+		"efx": "{ND-Root}  ${/BT-21-Procedure[BT-21-Procedure/@languageID is not empty]}",
 		"comment": "Procurement title"
 	},
 	"NoticePublicationID": {

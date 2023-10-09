@@ -2880,14 +2880,12 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent[$noticeSubType = '16']">
 		<assert id="BR-BT-00132-0074" role="ERROR" diagnostics="BT-132_t_-Lot" test="count(cbc:OccurrenceTime) &gt; 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00132-0074</assert>
 		<assert id="BR-BT-00132-0107" role="ERROR" diagnostics="BT-132_t_-Lot" test="count(cbc:OccurrenceTime) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00132-0107</assert>
-		<assert id="BR-BT-00133-0022" role="ERROR" diagnostics="ND-PublicOpening_BT-133-Lot" test="count(cac:OccurenceLocation/cbc:Description) &gt; 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00133-0022</assert>
 		<assert id="BR-BT-00133-0054" role="ERROR" diagnostics="ND-PublicOpening_BT-133-Lot" test="count(cac:OccurenceLocation/cbc:Description) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00133-0054</assert>
 		<assert id="BR-BT-00134-0022" role="ERROR" diagnostics="BT-134-Lot" test="count(cbc:Description) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00134-0022</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent[$noticeSubType = '17']">
 		<assert id="BR-BT-00132-0075" role="ERROR" diagnostics="BT-132_t_-Lot" test="count(cbc:OccurrenceTime) &gt; 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00132-0075</assert>
 		<assert id="BR-BT-00132-0108" role="ERROR" diagnostics="BT-132_t_-Lot" test="count(cbc:OccurrenceTime) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00132-0108</assert>
-		<assert id="BR-BT-00133-0023" role="ERROR" diagnostics="ND-PublicOpening_BT-133-Lot" test="count(cac:OccurenceLocation/cbc:Description) &gt; 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00133-0023</assert>
 		<assert id="BR-BT-00133-0055" role="ERROR" diagnostics="ND-PublicOpening_BT-133-Lot" test="count(cac:OccurenceLocation/cbc:Description) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00133-0055</assert>
 		<assert id="BR-BT-00134-0023" role="ERROR" diagnostics="BT-134-Lot" test="count(cbc:Description) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00134-0023</assert>
 	</rule>

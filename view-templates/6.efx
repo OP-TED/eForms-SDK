@@ -28,8 +28,8 @@
 			{BT-727-Procedure} #{BT-727-Procedure} // Place Performance Services Other
 			{ND-ProcedurePlacePerformance[BT-728-Procedure is present]} #{field|name|BT-728-Procedure}: ${BT-728-Procedure} // Place Performance Additional information
 		3 {ND-ProcedureProcurementScope[(BT-27-Procedure is present) or (BT-271-Procedure is present)]} #{auxiliary|text|value} // 2.1.3 Value
-			{BT-27-Procedure} #{field|name|BT-27-Procedure}: ${if (contains(string(BT-27-Procedure), ',')) then format-number(BT-27-Procedure, '###,##0.00') else format-number(BT-27-Procedure, '###,##0')} ${BT-27-Procedure/@currencyID} // Estimated value
-			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${if (contains(string(BT-271-Procedure), ',')) then format-number(BT-271-Procedure, '###,##0.00') else format-number(BT-271-Procedure, '###,##0')} ${BT-271-Procedure/@currencyID} // Estimated Framework Maximum Value
+			{BT-27-Procedure} #{field|name|BT-27-Procedure}: ${format-number(BT-27-Procedure, '###,##0.##')} ${BT-27-Procedure/@currencyID} // Estimated value
+			{BT-271-Procedure} #{field|name|BT-271-Procedure}: ${format-number(BT-271-Procedure, '###,##0.##')} ${BT-271-Procedure/@currencyID} // Estimated Framework Maximum Value
 		4 {ND-ProcedureProcurementScope[BT-01-notice is present]} #{auxiliary|text|general-information} // 2.1.4 General information
 			{ND-ProcedureProcurementScope[BT-300-Procedure is present]} #{field|name|BT-300-Procedure}: ${BT-300-Procedure} // Additional information
 			{ND-ProcedureProcurementScope} #{auxiliary|text|legal-basis}: // Legal basis
@@ -59,7 +59,7 @@
 			{BT-537-Part} #{field|name|BT-537-Part}: ${BT-537-Part} // End date
 			{BT-36-Part} #{field|name|BT-36-Part}: ${format-number(OPA-36-Part-Number, '###,##0.###,###,###')} ${BT-36-Part/@unitCode} // Period
 		4 {ND-PartValueEstimate[(BT-27-Part is present)]} #{auxiliary|text|value} // 3.1.4 Value
-			{BT-27-Part} #{field|name|BT-27-Part}: ${if (contains(string(BT-27-Part), ',')) then format-number(BT-27-Part, '###,##0.00') else format-number(BT-27-Part, '###,##0')} ${BT-27-Part/@currencyID} // Estimated value excluding VAT
+			{BT-27-Part} #{field|name|BT-27-Part}: ${format-number(BT-27-Part, '###,##0.##')} ${BT-27-Part/@currencyID} // Estimated value excluding VAT
 		5 {BT-137-Part[(BT-71-Part is present) or (BT-115-Part == TRUE) or (BT-726-Part == TRUE) or (BT-125(i)-Part is present) or (BT-1251-Part is present) or (BT-300-Part is present)]} #{auxiliary|text|general-information} // 3.1.5 General information
 			{BT-137-Part[BT-71-Part == 'none']} #{field|name|BT-71-Part}: #{BT-71-Part} // Reserved Participation: none (PART)
 			{BT-71-Part[BT-71-Part != 'none']} #{field|name|BT-71-Part}: #{BT-71-Part} // Reserved Participation (PART)
