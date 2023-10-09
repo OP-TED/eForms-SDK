@@ -1805,19 +1805,19 @@
 		<assert id="BT-505-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-505-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0208" role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$')">rule|text|BR-BT-00506-0208</assert>
+		<assert id="BR-BT-00506-0208" role="ERROR" test="matches(normalize-space(.),'^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\.)+([A-Za-z]{2,})$')">rule|text|BR-BT-00506-0208</assert>
 		<assert id="BT-506-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-Business_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0052" role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$')">rule|text|BR-BT-00506-0052</assert>
+		<assert id="BR-BT-00506-0052" role="ERROR" test="matches(normalize-space(.),'^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\.)+([A-Za-z]{2,})$')">rule|text|BR-BT-00506-0052</assert>
 		<assert id="BT-506-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-Organization-Company_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0104" role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$')">rule|text|BR-BT-00506-0104</assert>
+		<assert id="BR-BT-00506-0104" role="ERROR" test="matches(normalize-space(.),'^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\.)+([A-Za-z]{2,})$')">rule|text|BR-BT-00506-0104</assert>
 		<assert id="BT-506-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0156" role="ERROR" test="matches(normalize-space(.),'^[a-zA-Z0-9][a-zA-Z0-9._%+-]*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,63}$')">rule|text|BR-BT-00506-0156</assert>
+		<assert id="BR-BT-00506-0156" role="ERROR" test="matches(normalize-space(.),'^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\.)+([A-Za-z]{2,})$')">rule|text|BR-BT-00506-0156</assert>
 		<assert id="BT-506-UBO_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-UBO_length</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cbc:BuyerProfileURI">

@@ -398,6 +398,13 @@
 				<cbc:EndDate>2020-05-11+01:00</cbc:EndDate>
 				<cbc:EndTime>10:00:00+01:00</cbc:EndTime>
 			</cac:TenderSubmissionDeadlinePeriod>
+			<cac:OpenTenderEvent>
+				<cbc:OccurrenceDate>2020-05-11+01:00</cbc:OccurrenceDate>
+				<cbc:OccurrenceTime>10:00:00+01:00</cbc:OccurrenceTime>
+				<cac:OccurenceLocation>
+					<cbc:Description languageID="ENG">Location of the opening.</cbc:Description>
+				</cac:OccurenceLocation>
+			</cac:OpenTenderEvent>
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>

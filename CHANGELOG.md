@@ -1,74 +1,89 @@
-# SDK 1.8.0 Release Notes
+# SDK 1.9.0 Release Notes
 
-This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.7.0 should also be able to use this version.
+This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.8.0 should also be able to use this version.
+
+## Additional information
+
+New properties have been added in fields.json, named "attributeOf", "attributeName" and "attributes", that give information on fields that represent XML attributes, and their relationship with the field representing the corresponding element.
+For more details, see the description of these properties in [the documentation on field metadata](https://docs.ted.europa.eu/eforms/1.9/fields/index.html#_static_properties).
+
+New fields were created, to represent information in attributes (like "listName", "schemeName", etc.) that was only implicit. These fields make use of the new properties indicated above. This should make it easier to generate a correct XML, without having to rely on predicates in the XPath of the fields.
+
+The addition of those fields made the following "OPA-..." fields redundant, so they were removed: OPA-27-Procedure-Currency, OPA-36-Lot-Unit, OPA-36-Part-Unit, OPA-98-Lot-Unit, OPA-118-NoticeResult-Currency, OPA-161-NoticeResult-Currency.
+The remaining "OPA-..." fields refer to the numerical value of a regular field that also has a unit (duration, monetary amount, etc.), so they can be ignored during the XML generation. This has been [indicated in the documentation on field metadata](https://docs.ted.europa.eu/eforms/1.9/fields/index.html#_fields_other_than_bt).
 
 ## Updated metadata content
 
 This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency. The following sections contain an overview of the main changes.
 
-## Schema, nodes, fields and notice type definitions (NTDs)
+## Schema, nodes, fields and notice type definitions
 
-* Schema: removed xsd:choice that was making some organisation elements mutually exclusive for buyers and tenderers. This makes the schema more permissive, so it does not affect the validity of XML notices. The corresponding checks are now done as validation rules.
-* Schema: changed order of cbc:Note and cbc:BriefDescription in EFORMS-BusinessRegistrationInformationNotice.xsd (forms X01, X02) to align with other document types.
-* Added new fields OPA-36-Lot-Unit, OPA-36-Part-Unit, OPA-98-Lot-Unit for time duration fields that were @unitCode attributes for BT-36-Part, BT-36-Lot, and BT-98-Lot.
-* For nodes and fields, missing "xsdSequenceOrder" properties were added, and some values were corrected.
-* Simplified predicates in XPaths for several fields.
-* Added "unpublish" properties for fields in notice type definitions.
-* Added BT-13714 (Tender Lot Identifier) to form T02.
-* For repeatable fields, many associated nodes were created for the repeatable ancestor element.
-* Added nodes for award criteria and created six different fields for BT-541 instead of two fields; also leading to updates for related rules, unpublished fields and GR-Lot-AwardCriteria-Criterion-Parameter.
-* Nodes ND-ProcedureMainClassification, ND-LotMainClassification and ND-PartMainClassification and BT-262 (Main Classification Code) no longer repeatable (as CPV is currently the only available classification type).
-* Node ND-SecondStageCriterionParameter (containing BT-752-Lot, BT-7531-Lot, BT-7532-Lot) made repeatable.
-* Node ND-AccessibilityJustification (containing BT-754-Lot and BT-755-Lot) no longer repeatable.
-* Removed nodes ND-NoESubmission, ND-LostTenderPaidAmount, ND-PartAdditionalNature.
-* Removed predicate from the parent node for BT-1375-Procedure.
-* Reworked group GR-Lot-PlannedDuration.
-* Removed group GR-OptionsDescription and renamed GR-Lot-ContractExtension to "Renewals and Options".
-* Removed group GR-Organisation-Subsection.
-* Corrected display type to combobox for BT-722-Contract.
+* Added remaining 2022 regulation amendment fields to notice types (Clean Vehicle Directive, EU Funds, etc).
+* Updated schema and rules to make BT-198 Unpublished Access Date optional (an empty date means the field will never be published)
+* Added new field OPT-211 (cbc:Name in TenderingParty in schema) to provide a caption field for TPA id in OPT-210-Tenderer
+* Updated schema, fields and nodes for Procurement documents languages (cac:CallForTendersDocumentReference)
+* Removed options to unpublish BT-09(a)-Procedure CrossBorderLaw
+* Made ND-SubcontractingObligation repeatable
+* Many changes to notice type definitions to provide consistency and completeness; also changed the sequence of the sections in Results
 
-## Rules
+## Rules and codelists
 
-* Added back many conditional mandatory/forbidden rules (which had been removed in SDK 1.3) related to:
-  * Duration BT-36 Period, BT-536 Start date, BT-537 End date, BT-538 Other
-  * Place of performance BT-5071 Country subdivision (NUTS), BT-5101 Street, BT-5121 Post code, BT-5131 City, BT-5141 Country, BT-727 Services other, BT-728 Additional information
-  * Accelerated procedure BT-106, BT-1351
-  * Buyer activity BT-10, BT-610
-  * Deadline Receipt Expressions BT-630
-  * Main Contractor ID Reference OPT-301
-  * Notice Framework Maximum Value BT-118
-  * Procurement documents BT-708 Official language, BT-737 Unofficial language, OPT-140 ID
-  * Lot result fields BT-144 Not awarded reason, BT-13713 Result lot ID, OPT-315 Contract ID reference, OPT-320 Tender ID reference
-  * Tender BT-160 Concession Revenue Buyer, BT-162 Concession Revenue User, BT-163 Concession Value Description, BT-3201 Tender ID, OPT-310 Tendering party ID reference and BT-773 Subcontracting, OPT-321 Tender technical ID, BT-13714 Tender lot ID
-  * Contract fields BT-145 Contract conclusion date, BT-151 Contract URL and BT-721 Contract title, BT-1451 Winner decision date, BT-150 Contract ID and OPP-020 Assets related contract extension indicator,  OPT-316 Contract technical ID
-  * eSender dispatch BT-803 time mandatory if BT-803 date is present
+* Added back further conditional mandatory/forbidden rules (which had been removed in SDK 1.3) related to:
+  * Award Criterion BT-539, BT-540, BT-541, BT-5421, BT-5422, BT-5423, BT-543
+  * Exclusion Grounds BT-67
+  * Change Reason Code BT-140
+  * Public Opening BT-133, BT-134
+  * Notice Value BT-161
+  * Submission URL BT-18, Submission Nonelectronic Justification BT-19, Submission Nonelectronic Description BT-745
+  * Contract Tender ID Reference BT-3202
+
 * Other rule changes:
-  * Removed rules that made BT-70 Contract Terms Performance mandatory for notice subtype 16 and most other competition forms; BT-70 is now only mandatory for subtypes 17, 18 and 22.
-  * BT-754 Accessibility is made non-repeatable (as the codelist values are mutually exclusive).
+  * Added dynamic rule to check that a notice ID does not match a notice ID that has already been published on TED
+  * Corrected rules BR-BT-00262-0211, BR-BT-00262-0212 and BR-BT-00262-0213 to also allow CPV codes for services (in addition to works)
+  * Allow BT-738 Preferred Publication Date to be 0 days after BT-05 dispatch date (instead of at least 2 days later)
+  * Forbid use of cancel or cancel-intention reasons for Change notice after deadlines have passed for competition notices
+  * Enforce value_check on indicator fields to be "true" or "false"
+  * Removed rules BR-BT-13713-0106 and BR-BT-13713-0108 about values being 100x lower than estimations
+  * Loosened rule BR-BT-00145-0100 to allow BT-145 Contract conclusion date to be the same day as BT-05 Dispatch Date
+  * Deactivated rule enforcing BT-743 Electronic Invoicing
+  * Deactivated rule BR-BT-00051-0100 on second stage max candidates
+  * Deactivated rules BR-BT-00105-011x on procedure types
+  * Loosened URL pattern to allow more than just ASCII characters (aligned with eSentool pattern)
+  * Loosened email pattern to allow more symbols and longer TLDs
+  * Removed CM rules for BT-67(b) Exclusion Grounds Description
+  * Set pattern "id-ref" for OPT-300-Procedure-Buyer
+  * Corrected rules for CEI for fields BT-708-Lot, BT-737-Lot, BT-64 and BT-729
+  * Changed context for rules for BT-132(d)-Lot
+  * Remove non-capturing groups from regular expressions in Schematron
+  * Corrected error message label for rule BR-BT-01311-0152
+  
+* Updated codelists, aligned with June release of EU Vocabularies (use-context EFORMS):
+  * Several parent codelists now match the tailored eforms- codelists, which will be removed in the next SDK version:
+    * language: removed thousands of unused languages, parent language codelist now the same as eforms-language
+    * buyer-legal-type: removed eu-int-org and rl-aut; parent buyer-legal-type codelist now the same as eforms-buyer-legal-type
+    * currency: removed SQS, TVD, SLL, OP_DATPRO; parent currency codelist now the same as eforms-currency
+    * country: removed EUR, added GUY; parent country codelist almost the same as eforms-country except for the French DROM/COM
+    * contract-nature: removed combined; parent contract-nature codelist now the same as eforms-contract-nature
+  * Removed "change" form-type and "corr" notice-type (Change notices must use the same form-type and notice-type as the original notices, possible since SDK 1.6.0)
+  * Removed "other" modification-justification
+  * Removed AGRNET, EERP, OP_DATPRO from eu-programme
 
 ## View templates
 
-* Applied uniform format-number function to all numbers.
-* Grouped pairs of values and rank for multiple prizes.
-* Fixed display of BT-170-Tenderer for Group lead indicator.
-* Removed BT-541-LotsGroup field.
+* For multilingual texts, show only one language at a time and remove square brackets separator
+* Improvements and corrections for unpublished fields, winning tender on VEAT notices, electronic auction, OPP-090 linked notice, comma instead of period as decimal separator, UBO names, Group Leader for Tenderer and other revisions
 
 ## Labels and translations
 
-* Rule and expression labels reviewed and harmonised in English, and translated into all languages.
-* Added the labels and translations for tailored codelists, with the same values as their parent codelists.
+* Various updates and corrections, including translations for criterion and exclusion-ground codelists
+* Updated group labels needed by NTDs
+* Copied texts for NUTS codes into all languages. Those texts are not translated, they are the local name of the region. This aligns those codes with all others, removing the need for a special handling to get a text in any language.
+* Renamed GR-Lot-ContractExtension, BT-54-Lot and BT-57-Lot
 
-## Examples
-
-* 18 new example notices were added, for notice subtypes that were not represented in existing examples.
-* Validation reports were updated using the same Schematron implementation as CVS. This changes the formatting of the files, not the information they contain.
-
-## Documentation
-
-* Improved metadata downloads as CSV files for rules, fields and nodes are available for download at <https://docs.ted.europa.eu/eforms/latest/reference/index.html#_downloads>
-
-As new rules were added, a notice that was valid with SDK 1.7.x might not be valid with this version.
+As new rules were added, a notice that was valid with SDK 1.8.x might not be valid with this version.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
-A comprehensive list of changes between SDK 1.7.0 and SDK 1.8.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.7.0...1.8.0>
+This release note does not cover the details of all changes.
+
+A comprehensive list of changes between SDK 1.8.0 and SDK 1.9.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.8.0...1.9.0>

@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0-SNAPSHOT",
+  "sdkVersion" : "1.9.0",
   "metadataDatabase" : {
-    "version" : "1.8.161",
-    "createdOn" : "2023-07-07T15:30:49"
+    "version" : "1.9.0",
+    "createdOn" : "2023-08-24T14:00:00"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
