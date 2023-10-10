@@ -119,6 +119,18 @@
 		{ND-NoticeApproximateValueUnpublish} #{field|name|BT-197(BT-1118)-NoticeResult}: #{BT-197(BT-1118)-NoticeResult} // Unpublished Justification Code
 		{ND-NoticeApproximateValueUnpublish[BT-196(BT-1118)-NoticeResult is present]} #{field|name|BT-196(BT-1118)-NoticeResult}: ${BT-196(BT-1118)-NoticeResult} // Unpublished Justification Description
 		{ND-NoticeApproximateValueUnpublish[BT-198(BT-1118)-NoticeResult is present]} #{field|name|BT-198(BT-1118)-NoticeResult}: ${BT-198(BT-1118)-NoticeResult} // Unpublished Access Date
+	0 {ND-NoticeResultGroupFA[BT-556-NoticeResult != 'unpublished']} #{auxiliary|text|group-framework-value}: ${BT-556-NoticeResult} // Value of the framework agreements in this group of lots
+		0 {ND-NoticeResultGroupFA} #{field|name|BT-1375-Procedure}: ${for text:$gloid in BT-556-NoticeResult return BT-1375-Procedure[BT-330-Procedure == $gloid] } // Lots included: LOT-0001, LOT-0003
+		0 {BT-156-NoticeResult[BT-156-NoticeResult != -1]} #{field|name|BT-156-NoticeResult}: ${format-number(BT-156-NoticeResult, '###,##0.##')} ${BT-156-NoticeResult/@currencyID} // Maximum value of the framework agreements in this group of lots
+		0 {BT-156-NoticeResult[BT-156-NoticeResult == -1]} #{field|name|BT-156-NoticeResult}:#{auxiliary|text|unpublished} // Maximum value of the framework agreements in this group of lots (unpublished)
+			{ND-GroupMaximumValueUnpublish} #{field|name|BT-197(BT-156)-NoticeResult}: #{BT-197(BT-156)-NoticeResult} // Unpublished Justification Code
+			{ND-GroupMaximumValueUnpublish[BT-196(BT-156)-NoticeResult is present]} #{field|name|BT-196(BT-156)-NoticeResult}: ${BT-196(BT-156)-NoticeResult} // Unpublished Justification Description
+			{ND-GroupMaximumValueUnpublish[BT-198(BT-156)-NoticeResult is present]} #{field|name|BT-198(BT-156)-NoticeResult}: ${BT-198(BT-156)-NoticeResult} // Unpublished Access Date
+		0 {BT-1561-NoticeResult[BT-1561-NoticeResult != -1]} #{field|name|BT-1561-NoticeResult}: ${format-number(BT-1561-NoticeResult, '###,##0.##')} ${BT-1561-NoticeResult[BT-1561-NoticeResult/@currencyID != 'unpublished']/@currencyID} // Re-estimated value of the framework agreements within a group of lots
+		0 {BT-1561-NoticeResult[BT-1561-NoticeResult == -1]} #{field|name|BT-1561-NoticeResult}: #{auxiliary|text|unpublished} // Re-estimated value of the framework agreements within a group of lots (unpublished)
+			{ND-GroupReestimatedValueUnpublish} #{field|name|BT-197(BT-1561)-NoticeResult}: #{BT-197(BT-1561)-NoticeResult} // Unpublished Justification Code
+			{ND-GroupReestimatedValueUnpublish[BT-196(BT-1561)-NoticeResult is present]} #{field|name|BT-196(BT-1561)-NoticeResult}: ${BT-196(BT-1561)-NoticeResult} // Unpublished Justification Description
+			{ND-GroupReestimatedValueUnpublish[BT-198(BT-1561)-NoticeResult is present]} #{field|name|BT-198(BT-1561)-NoticeResult}: ${BT-198(BT-1561)-NoticeResult} // Unpublished Access Date
 	0 {ND-NoticeResultGroupFA[BT-556-NoticeResult == 'unpublished']} #{auxiliary|text|group-framework-value}: #{auxiliary|text|unpublished} // Value of the framework agreements in this group of lots (unpublished)
 		{ND-GroupMaximalValueIdentifierUnpublish} #{field|name|BT-197(BT-556)-NoticeResult}: #{BT-197(BT-556)-NoticeResult} // Unpublished Justification Code
 		{ND-GroupMaximalValueIdentifierUnpublish[BT-196(BT-556)-NoticeResult is present]} #{field|name|BT-196(BT-556)-NoticeResult}: ${BT-196(BT-556)-NoticeResult} // Unpublished Justification Description
