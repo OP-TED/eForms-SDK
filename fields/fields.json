@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.69",
-    "createdOn" : "2023-10-03T16:04:32"
+    "version" : "1.9.85",
+    "createdOn" : "2023-10-09T13:18:12"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -38578,6 +38578,7 @@
     "xsdSequenceOrder" : [ { "cac:Party" : 3 }, { "cac:PartyIdentification" : 8 }, { "cbc:ID" : 2 } ],
     "type" : "id-ref",
     "attributes" : [ "OPT-301-ReviewBody-Scheme" ],
+    "idSchemes" : [ "ORG" ],
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -38621,6 +38622,7 @@
     "xsdSequenceOrder" : [ { "cac:Party" : 3 }, { "cac:PartyIdentification" : 8 }, { "cbc:ID" : 2 } ],
     "type" : "id-ref",
     "attributes" : [ "OPT-301-ReviewReq-Scheme" ],
+    "idSchemes" : [ "ORG" ],
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
