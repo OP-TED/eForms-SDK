@@ -5,7 +5,7 @@
       <ShortName>Usage</ShortName>
       <LongName>usage</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/usage</LongName>
-      <Version>20220316-0</Version>
+      <Version>20230927-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/usage</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -134,7 +134,7 @@
             <SimpleValue>Nejsou použita</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Ikke anvendte</SimpleValue>
+            <SimpleValue>Ikke anvendt</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Nicht verwendet</SimpleValue>
@@ -155,7 +155,7 @@
             <SimpleValue>Ei käytössä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Non utilisés</SimpleValue>
+            <SimpleValue>Non utilisé</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Níor úsáideadh</SimpleValue>
@@ -214,7 +214,7 @@
             <SimpleValue>Použití není známo</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Endnu ikke kendte</SimpleValue>
+            <SimpleValue>Endnu ikke kendt</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Verwendung nicht bekannt</SimpleValue>
@@ -235,7 +235,7 @@
             <SimpleValue>Ei vielä tiedossa</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Pas encore connus</SimpleValue>
+            <SimpleValue>Pas encore connu</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Ní fios go fóill</SimpleValue>
@@ -294,7 +294,7 @@
             <SimpleValue>Použita</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Anvendte</SimpleValue>
+            <SimpleValue>Anvendt</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Verwendet</SimpleValue>
@@ -315,7 +315,7 @@
             <SimpleValue>Käytössä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Utilisés</SimpleValue>
+            <SimpleValue>Utilisé</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Úsáideadh</SimpleValue>

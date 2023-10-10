@@ -6,7 +6,7 @@
       <LongName>postcode-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.9.68</Version>
+      <Version>1.9.85</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -9886,79 +9886,79 @@
             <SimpleValue>PSE</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Palestine*</SimpleValue>
+            <SimpleValue>Palestine</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Палестина*</SimpleValue>
+            <SimpleValue>Палестина</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Palæstina*</SimpleValue>
+            <SimpleValue>Palæstina</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Palästina*</SimpleValue>
+            <SimpleValue>Palästina</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Παλαιστίνη*</SimpleValue>
+            <SimpleValue>Παλαιστίνη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Palestine*</SimpleValue>
+            <SimpleValue>Palestine</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Palestiina*</SimpleValue>
+            <SimpleValue>Palestiina</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Palestiina*</SimpleValue>
+            <SimpleValue>Palestiina</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Palestine*</SimpleValue>
+            <SimpleValue>Palestine</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>An Phalaistín*</SimpleValue>
+            <SimpleValue>An Phalaistín</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Palesztina*</SimpleValue>
+            <SimpleValue>Palesztina</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Palestīna*</SimpleValue>
+            <SimpleValue>Palestīna</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Il-Palestina*</SimpleValue>
+            <SimpleValue>Il-Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Palestyna*</SimpleValue>
+            <SimpleValue>Palestyna</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Palestína*</SimpleValue>
+            <SimpleValue>Palestína</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
       </Row>
       <Row>

@@ -6,7 +6,7 @@
       <LongName>contract-term</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/contract-detail</LongName>
       <LongName Identifier="eFormsParentId">contract-detail</LongName>
-      <Version>1.9.52</Version>
+      <Version>1.9.85</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -198,7 +198,7 @@
             <SimpleValue>Stroškovni parametri za nadomestila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kostnadsparametrar för betalningar av kompensation</SimpleValue>
+            <SimpleValue>Kriterier för beräkning av ersättningen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -438,7 +438,7 @@
             <SimpleValue>Obveznosti javne službe</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Skyldigheter avseende offentliga tjänster</SimpleValue>
+            <SimpleValue>Skyldigheter avseende allmännyttiga tjänster</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -518,7 +518,7 @@
             <SimpleValue>Socialni standardi</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Sociala normer</SimpleValue>
+            <SimpleValue>Sociala villkor</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -5962,86 +5962,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EUR</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>European Union</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Европейски съюз</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Evropská unie</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Den Europæiske Union</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Europäische Union</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Ευρωπαϊκή Ένωση</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>European Union</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Unión Europea</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Euroopa Liit</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Euroopan unioni</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Union européenne</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>An tAontas Eorpach</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Europska unija</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Európai Unió</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Unione europea</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Europos Sąjunga</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Eiropas Savienība</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Unjoni Ewropea</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Europese Unie</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Unia Europejska</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>União Europeia</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Uniunea Europeană</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Európska únia</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Evropska unija</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Europeiska unionen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>FIN</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -14685,79 +14605,79 @@
             <SimpleValue>PSE</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Palestine*</SimpleValue>
+            <SimpleValue>Palestine</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Палестина*</SimpleValue>
+            <SimpleValue>Палестина</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Palæstina*</SimpleValue>
+            <SimpleValue>Palæstina</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Palästina*</SimpleValue>
+            <SimpleValue>Palästina</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Παλαιστίνη*</SimpleValue>
+            <SimpleValue>Παλαιστίνη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Palestine*</SimpleValue>
+            <SimpleValue>Palestine</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Palestiina*</SimpleValue>
+            <SimpleValue>Palestiina</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Palestiina*</SimpleValue>
+            <SimpleValue>Palestiina</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Palestine*</SimpleValue>
+            <SimpleValue>Palestine</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>An Phalaistín*</SimpleValue>
+            <SimpleValue>An Phalaistín</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Palesztina*</SimpleValue>
+            <SimpleValue>Palesztina</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Palestīna*</SimpleValue>
+            <SimpleValue>Palestīna</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Il-Palestina*</SimpleValue>
+            <SimpleValue>Il-Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Palestyna*</SimpleValue>
+            <SimpleValue>Palestyna</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Palestína*</SimpleValue>
+            <SimpleValue>Palestína</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Palestina*</SimpleValue>
+            <SimpleValue>Palestina</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -19485,79 +19405,79 @@
             <SimpleValue>XKX</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Косово*</SimpleValue>
+            <SimpleValue>Косово</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κόσοβο*</SimpleValue>
+            <SimpleValue>Κόσοβο</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>An Chosaiv*</SimpleValue>
+            <SimpleValue>An Chosaiv</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Koszovó*</SimpleValue>
+            <SimpleValue>Koszovó</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Kosovas*</SimpleValue>
+            <SimpleValue>Kosovas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Kosova*</SimpleValue>
+            <SimpleValue>Kosova</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Il-Kosovo*</SimpleValue>
+            <SimpleValue>Il-Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Kosowo*</SimpleValue>
+            <SimpleValue>Kosowo</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kosovo*</SimpleValue>
+            <SimpleValue>Kosovo</SimpleValue>
          </Value>
       </Row>
       <Row>
