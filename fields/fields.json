@@ -4374,15 +4374,6 @@
         "severity" : "ERROR"
       } ]
     },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "16", "17" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
     "pattern" : {
       "value" : "^(([01]\\d|2[0-3])((:[0-5]\\d){1,2}(\\.\\d+)?)?)(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$",
       "severity" : "ERROR"
@@ -4413,15 +4404,6 @@
       }, {
         "noticeTypes" : [ "16", "17" ],
         "condition" : "{ND-PublicOpening} ${not(BT-105-Procedure == 'open')}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "16", "17" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4821,11 +4803,6 @@
         "value" : "{ND-LotsGroup} ${BT-137-LotsGroup is unique in /BT-137-LotsGroup}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0203"
-      }, {
-        "condition" : "{ND-LotsGroup} ${BT-137-LotsGroup is present}",
-        "value" : "{ND-LotsGroup} ${number:BT-157-LotsGroup <= sum(for text:$groupID in BT-137-LotsGroup, number:$lotValue in BT-27-Lot[BT-137-Lot in BT-1375-Procedure[(BT-330-Procedure == $groupID) and (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))]] return $lotValue)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00137-0204"
       }, {
         "value" : "{ND-LotsGroup} ${(BT-137-LotsGroup in BT-330-Procedure)}",
         "severity" : "ERROR",

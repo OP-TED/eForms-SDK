@@ -148,7 +148,7 @@
 				{BT-46-Lot} #{field|name|BT-46-Lot}: ${BT-46-Lot} // Members of the jury
 				{BT-47-Lot} #{field|name|BT-47-Lot}: ${BT-47-Lot} // Participants already selected
 				0 {ND-Prize} #{auxiliary|text|prize-information} // Prize information
-					{BT-644-Lot} #{field|name|BT-644-Lot}: ${if (contains(string(BT-644-Lot), ',')) then format-number(BT-644-Lot, '###,##0.00') else format-number(BT-644-Lot, '###,##0')} ${BT-644-Lot/@currencyID} // Value of the prize
+					{BT-644-Lot} #{field|name|BT-644-Lot}: ${format-number(BT-644-Lot, '###,##0.##')} ${BT-644-Lot/@currencyID} // Value of the prize
 					{BT-44-Lot} #{field|name|BT-44-Lot}: ${BT-44-Lot} // Place receiving the prize
 					{ND-Prize[BT-45-Lot is present]} #{field|name|BT-45-Lot}: ${BT-45-Lot} // Additional information
 				{BT-41-Lot[BT-41-Lot == TRUE]} #{field|name|BT-41-Lot} // Any service contract following the contest will be awarded to one of the winners of the contest. (true/false)
