@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.85",
-    "createdOn" : "2023-10-09T13:18:12"
+    "version" : "1.9.90",
+    "createdOn" : "2023-10-11T17:27:17"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -34641,6 +34641,14 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "revenue-allocation",
+        "type" : "flat",
+        "parentId" : "contract-detail"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "OPP-035-Tender-List",
