@@ -95,19 +95,14 @@
 			</cac:ExternalReference>
 		</cac:Attachment>
 	</cac:AdditionalDocumentReference>
-	<!-- 
-		Sector of activity
-		==================
-		Codelst to be established, see for Main Activity if extended
-	-->
 	<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">education</cbc:CapabilityTypeCode>
+		<cbc:CapabilityTypeCode listName="main-activity">education</cbc:CapabilityTypeCode>
 	</cac:BusinessCapability>
 	<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">health</cbc:CapabilityTypeCode>
+		<cbc:CapabilityTypeCode listName="main-activity">health</cbc:CapabilityTypeCode>
 	</cac:BusinessCapability>
 	<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">soc-pro</cbc:CapabilityTypeCode>
+		<cbc:CapabilityTypeCode listName="main-activity">soc-pro</cbc:CapabilityTypeCode>
 	</cac:BusinessCapability>
 	<efac:NoticePurpose>
 		<cbc:PurposeCode listName="notice-purpose">reg</cbc:PurposeCode>

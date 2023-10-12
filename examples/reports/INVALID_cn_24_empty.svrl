@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl" title="eForms schematron rules">
+<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        phase="16"
+                        title="eForms schematron rules">
    <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
    <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
    <svrl:ns-prefix-in-attribute-values prefix="cbc"
@@ -31,7 +33,7 @@
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//cbc:NoticeTypeCode"/>
-   <svrl:active-pattern id="EFORMS-validation-stage-1b"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-1b-16"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:failed-assert id="ND-ProcedureTenderingProcess-16"
                        location="/cn:ContractNotice"
@@ -62,7 +64,7 @@
          <svrl:text>efac:Organizations</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-validation-stage-2a"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-2a-16"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:failed-assert id="BR-BT-00005-0022"
                        location="/cn:ContractNotice"
@@ -230,10 +232,6 @@
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-3b"/>
-   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:failed-assert id="BR-BT-00004-0052"
                        location="/cn:ContractNotice/cbc:ContractFolderID"
@@ -241,7 +239,12 @@
                        test="matches(normalize-space(.),'^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$')">
       <svrl:text>rule|text|BR-BT-00004-0052</svrl:text>
    </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-validation-stage-4"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-16"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4-16"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>

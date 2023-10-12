@@ -5,7 +5,7 @@
       <ShortName>ReviewDecisionType</ShortName>
       <LongName>review-decision-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/review-decision-type</LongName>
-      <Version>20220316-0</Version>
+      <Version>20230927-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/review-decision-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -357,7 +357,7 @@
             <SimpleValue>Zavrnjeno, ker pritožnik nima procesne upravičenosti, saj se je rok za vložitev zahtevka za revizijo že iztekel</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Bifalles inte, eftersom klaganden inte har talerätt då klagofristen redan har löpt ut</SimpleValue>
+            <SimpleValue>Avvisas eftersom tidsfristen för ansökan om överprövning hade löpt ut</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -517,7 +517,7 @@
             <SimpleValue>Zavrnjeno, ker ni bilo nepravilnosti</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Bifalles inte, eftersom ingen oriktighet konstaterats</SimpleValue>
+            <SimpleValue>Bifalles inte eftersom ingen överträdelse har kunnat konstateras</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -677,7 +677,7 @@
             <SimpleValue>Zavrnjeno, ker pritožnik nima procesne upravičenosti, iz drugih razlogov kot je iztek roka za vložitev zahtevka za revizijo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Bifalles inte, eftersom klaganden inte har talerätt av annan anledning än att klagofristen löpt ut</SimpleValue>
+            <SimpleValue>Avvisas eftersom sökanden inte har talerätt av annan anledning än att tidsfristen för att ansöka om överprövning hade löpt ut</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -757,7 +757,7 @@
             <SimpleValue>Zavrnjeno, ker je bila težava že rešena</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Bifalles inte, eftersom problemet redan har lösts</SimpleValue>
+            <SimpleValue>Avskrivs, eftersom problemet redan har lösts</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -837,7 +837,7 @@
             <SimpleValue>Zavrnjeno, ker je bila pogodba že podpisana</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Bifalles inte, eftersom avtalet redan har undertecknats</SimpleValue>
+            <SimpleValue>Bifalles inte, eftersom avtalet redan har ingåtts</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

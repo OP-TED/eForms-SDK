@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.52",
-    "createdOn" : "2023-09-18T15:45:15"
+    "version" : "1.9.90",
+    "createdOn" : "2023-10-11T17:27:17"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -1338,6 +1338,12 @@
     "filename" : "notice-type_result.gc",
     "description" : "List of allowed Notice Type codes for a Result Form Type",
     "_label" : "codelist|name|result"
+  }, {
+    "id" : "revenue-allocation",
+    "parentId" : "contract-detail",
+    "filename" : "contract-detail_revenue-allocation.gc",
+    "description" : "Revenue allocation",
+    "_label" : "codelist|name|revenue-allocation"
   }, {
     "id" : "review-body-type",
     "filename" : "review-body-type.gc",

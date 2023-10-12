@@ -5,7 +5,7 @@
       <ShortName>ContractDetail</ShortName>
       <LongName>contract-detail</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/contract-detail</LongName>
-      <Version>20220316-0</Version>
+      <Version>20230927-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/contract-detail</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -197,7 +197,7 @@
             <SimpleValue>Razporeditev prihodkov iz prodaje vozovnic</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Tilldelning av inkomster från biljettförsäljning</SimpleValue>
+            <SimpleValue>Fördelning av inkomster från biljettförsäljning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -277,7 +277,7 @@
             <SimpleValue>Stroškovni parametri za nadomestila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kostnadsparametrar för betalningar av kompensation</SimpleValue>
+            <SimpleValue>Kriterier för beräkning av ersättningen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -517,7 +517,7 @@
             <SimpleValue>Obveznosti javne službe</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Skyldigheter avseende offentliga tjänster</SimpleValue>
+            <SimpleValue>Skyldigheter avseende allmännyttiga tjänster</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -597,7 +597,7 @@
             <SimpleValue>Socialni standardi</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Sociala normer</SimpleValue>
+            <SimpleValue>Sociala villkor</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
