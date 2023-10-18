@@ -1,3 +1,14 @@
+# SDK 1.3.6 Release Notes
+
+This release adds missing "codeList" references in the `fields/fields.json` for the fields:
+
+* `BT-195(BT-635)-LotResult`
+* `BT-195(BT-636)-LotResult`
+* `BT-197(BT-635)-LotResult`
+* `BT-197(BT-636)-LotResult`
+
+A comprehensive list of changes between SDK 1.3.5 and SDK 1.3.6 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.3.5...1.3.6>
+
 # SDK 1.3.5 Release Notes
 
 This release corrects a constraint on BT-02-notice to allow "can-modif" notices when the legal basis is Directive 2014/23, and includes updated translations and updated notice visualisation templates.
