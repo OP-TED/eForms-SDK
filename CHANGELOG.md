@@ -1,6 +1,6 @@
 # SDK 1.9.1 Release Notes
 
-This release removes 3 incorrect rules (BR-BT-00262-0211, BR-BT-00262-0212, and BR-BT-00262-0213) to allow any contract nature (works, services, and supplies) for subsidized contracts.
+This release removes 3 rules (BR-BT-00262-0211, BR-BT-00262-0212, and BR-BT-00262-0213) so there is no constraint on the nature (works, services or supplies) of subsidised contracts.
 
 A comprehensive list of changes between SDK 1.9.0 and SDK 1.9.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.9.0...1.9.1>
 
