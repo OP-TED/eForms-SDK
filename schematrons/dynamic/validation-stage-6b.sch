@@ -5,8 +5,8 @@
 
 <!-- Notice dispatch date -->
 <rule context="/*">
-	<!-- BT-05(a)-notice Dispatch date is with one day of current date -->
-	<assert id="D-0001" role="ERROR" test="((ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) ge xs:dayTimeDuration('-P1D'))) or ((current-date() - xs:date(cbc:IssueDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(cbc:IssueDate/text())) ge xs:dayTimeDuration('-P1D'))">
+	<!-- BT-803(d)-notice Notice Dispatch Date eSender or BT-05(a)-notice Notice Dispatch Date is with one day of current date -->
+	<assert id="D-0001" role="ERROR" test="((ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) ge xs:dayTimeDuration('-P1D'))) or (((current-date() - xs:date(cbc:IssueDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(cbc:IssueDate/text())) ge xs:dayTimeDuration('-P1D')))">
 		Notice Dispatch Date eSender (BT-803), or by default Notice Dispatch Date (BT-05), must be between 0 and 24 hours before the current date.
 	</assert>
 </rule>
