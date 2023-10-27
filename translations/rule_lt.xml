@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot negali būti naudojama kaip skelbimo rūšis '23', jei laikomasi šios sąlygos: 'Galimybė susipažinti su tam tikrais pirkimo dokumentais yra ribojama' (BT-14-Lot) neužpildyta</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot negali būti naudojama kaip skelbimo rūšis '24', jei laikomasi šios sąlygos: 'Galimybė susipažinti su tam tikrais pirkimo dokumentais yra ribojama' (BT-14-Lot) neužpildyta</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice turi atitikti šį modelį: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Pageidaujama paskelbimo data' (BT-738-notice) turi būti 2–60 dienų po 'Skelbimo išsiuntimo data'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Pageidaujama paskelbimo data' (BT-738-notice) turi būti 0–60 dienų po 'Skelbimo išsiuntimo data'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company negali būti naudojama kaip skelbimo rūšis 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company negali būti naudojama kaip skelbimo rūšis 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company turi atitikti šį modelį: PhoneNumber</entry>
