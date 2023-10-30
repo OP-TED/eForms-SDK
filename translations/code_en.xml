@@ -10238,7 +10238,7 @@
 <entry key="code|name|document-status.official">Official language version</entry>
 <entry key="code|name|dps-usage.dps-list">Dynamic purchasing system, only usable by buyers listed in this notice</entry>
 <entry key="code|name|dps-usage.dps-nlist">Dynamic purchasing system, also usable by buyers not listed in this notice</entry>
-<entry key="code|name|dps-usage.none">None</entry>
+<entry key="code|name|dps-usage.none">No dynamic purchase system</entry>
 <entry key="code|name|duration-unit.DAY">Day</entry>
 <entry key="code|name|duration-unit.MONTH">Month</entry>
 <entry key="code|name|duration-unit.WEEK">Week</entry>
@@ -10400,6 +10400,7 @@
 <entry key="code|name|eforms-country.GRL">Greenland</entry>
 <entry key="code|name|eforms-country.GTM">Guatemala</entry>
 <entry key="code|name|eforms-country.GUM">Guam</entry>
+<entry key="code|name|eforms-country.GUY">Guyana</entry>
 <entry key="code|name|eforms-country.HKG">Hong Kong</entry>
 <entry key="code|name|eforms-country.HMD">Heard Island and McDonald Islands</entry>
 <entry key="code|name|eforms-country.HND">Honduras</entry>
@@ -10711,6 +10712,7 @@
 <entry key="code|name|eforms-currency.ZAR">Rand</entry>
 <entry key="code|name|eforms-currency.ZMW">Zambian kwacha</entry>
 <entry key="code|name|eforms-language.AFR">Afrikaans</entry>
+<entry key="code|name|eforms-language.AKA">Akan</entry>
 <entry key="code|name|eforms-language.AMH">Amharic</entry>
 <entry key="code|name|eforms-language.ARA">Arabic</entry>
 <entry key="code|name|eforms-language.ARO">Araona</entry>
@@ -10761,6 +10763,7 @@
 <entry key="code|name|eforms-language.FIN">Finnish</entry>
 <entry key="code|name|eforms-language.FRA">French</entry>
 <entry key="code|name|eforms-language.FRY">Frisian</entry>
+<entry key="code|name|eforms-language.FUL">Fula</entry>
 <entry key="code|name|eforms-language.GLA">Scottish Gaelic</entry>
 <entry key="code|name|eforms-language.GLE">Irish</entry>
 <entry key="code|name|eforms-language.GLG">Galician</entry>
@@ -10769,6 +10772,7 @@
 <entry key="code|name|eforms-language.GUG">Paraguayan Guaraní</entry>
 <entry key="code|name|eforms-language.GYR">Guarayu</entry>
 <entry key="code|name|eforms-language.HAT">Haitian</entry>
+<entry key="code|name|eforms-language.HAU">Hausa</entry>
 <entry key="code|name|eforms-language.HBS">Serbo-Croatian</entry>
 <entry key="code|name|eforms-language.HCA">Andaman Creole Hindi</entry>
 <entry key="code|name|eforms-language.HEB">Hebrew</entry>
@@ -10904,6 +10908,7 @@
 <entry key="code|name|eforms-language.XHO">Xhosa</entry>
 <entry key="code|name|eforms-language.YAA">Yaminava</entry>
 <entry key="code|name|eforms-language.YID">Yiddish</entry>
+<entry key="code|name|eforms-language.YOR">Yoruba</entry>
 <entry key="code|name|eforms-language.YUE">Yue Chinese</entry>
 <entry key="code|name|eforms-language.YUQ">Yuqui</entry>
 <entry key="code|name|eforms-language.YUZ">Yuracare</entry>
@@ -11178,7 +11183,7 @@
 <entry key="code|name|framework-agreement.fa-mix">Framework agreement, partly without reopening and partly with reopening of competition</entry>
 <entry key="code|name|framework-agreement.fa-w-rc">Framework agreement, with reopening of competition</entry>
 <entry key="code|name|framework-agreement.fa-wo-rc">Framework agreement, without reopening of competition</entry>
-<entry key="code|name|framework-agreement.none">None</entry>
+<entry key="code|name|framework-agreement.none">No framework agreement</entry>
 <entry key="code|name|gpp-criteria.eu">EU Green Public Procurement criteria</entry>
 <entry key="code|name|gpp-criteria.national">National Green Public Procurement criteria</entry>
 <entry key="code|name|gpp-criteria.none">No Green Public Procurement criteria</entry>
@@ -19686,6 +19691,8 @@
 <entry key="code|name|notice-purpose.reg">Registration</entry>
 <entry key="code|name|notice-purpose.tra-del">Transfer-deletion</entry>
 <entry key="code|name|notice-purpose.tra-reg">Transfer-registration</entry>
+<entry key="code|name|notice-reference.notice-id-ref">The reference to the notice is in the format "UUID-XX".</entry>
+<entry key="code|name|notice-reference.ojs-notice-id">The reference to the notice is in the format "XXXXXXXXXX-YYYY".</entry>
 <entry key="code|name|notice-subtype.1">Notice of the publication of a prior information notice on a buyer profile – general directive</entry>
 <entry key="code|name|notice-subtype.10">Prior information notice used as a call for competition – general directive, standard regime</entry>
 <entry key="code|name|notice-subtype.11">Periodic indicative notice used as a call for competition – sectoral directive, standard regime</entry>
@@ -25071,6 +25078,8 @@
 <entry key="code|name|planning.pin-only">Prior information notice or a periodic indicative notice used only for information</entry>
 <entry key="code|name|planning.pin-rtl">Prior information notice or a periodic indicative notice used to shorten time limits for receipt of tenders</entry>
 <entry key="code|name|planning.pin-tran">Prior information notice for public passenger transport services</entry>
+<entry key="code|name|player-type.organization">The player for the role/subrole is of type "Organisation".</entry>
+<entry key="code|name|player-type.touchpoint">The player for the role/subrole is of type "Touchpoint".</entry>
 <entry key="code|name|postcode-country.1A0">Kosovo</entry>
 <entry key="code|name|postcode-country.AFG">Afghanistan</entry>
 <entry key="code|name|postcode-country.ALA">Åland Islands</entry>
@@ -25571,7 +25580,7 @@
 <entry key="code|name|reserved-execution.no">No</entry>
 <entry key="code|name|reserved-execution.not-known">Not yet known</entry>
 <entry key="code|name|reserved-execution.yes">Yes</entry>
-<entry key="code|name|reserved-procurement.none">None</entry>
+<entry key="code|name|reserved-procurement.none">Participation is not reserved.</entry>
 <entry key="code|name|reserved-procurement.res-pub-ser">Participation is reserved to organisations pursuing a public service mission and fulfilling other relevant conditions in the legislation.</entry>
 <entry key="code|name|reserved-procurement.res-ws">Participation is reserved to sheltered workshops and economic operators aiming at the social and professional integration of disabled or disadvantaged persons.</entry>
 <entry key="code|name|result.can-desg">Design contest result notice</entry>
@@ -25727,23 +25736,25 @@
 <entry key="code|name|social-service-cpv.98133110">Services provided by youth associations</entry>
 <entry key="code|name|strategic-procurement.env-imp">Reduction of environmental impacts</entry>
 <entry key="code|name|strategic-procurement.inn-pur">Innovative purchase</entry>
-<entry key="code|name|strategic-procurement.none">None</entry>
+<entry key="code|name|strategic-procurement.none">No strategic procurement</entry>
 <entry key="code|name|strategic-procurement.soc-obj">Fulfilment of social objectives</entry>
 <entry key="code|name|subco.22">Subcontract notice – defence directive</entry>
 <entry key="code|name|subcontracting-allowed.false">no</entry>
 <entry key="code|name|subcontracting-allowed.true">yes</entry>
-<entry key="code|name|subcontracting-indication.none">None</entry>
+<entry key="code|name|subcontracting-indication.none">No subcontracting indication</entry>
 <entry key="code|name|subcontracting-indication.shar-subc">The share of the contract that the tenderer intends to subcontract</entry>
 <entry key="code|name|subcontracting-indication.subc-noblig">The proposed subcontractor(s) above any obligation to subcontract a minimum percentage of the contract</entry>
 <entry key="code|name|subcontracting-indication.subc-oblig">The proposed subcontractor(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract</entry>
 <entry key="code|name|subcontracting-indication.subj-noblig">The subject-matter of the subcontract(s) above any obligation to subcontract a minimum percentage of the contract</entry>
 <entry key="code|name|subcontracting-indication.subj-oblig">The subject-matter of the subcontract(s) necessary to fulfill the obligation to subcontract a minimum percentage of the contract</entry>
-<entry key="code|name|subcontracting-obligation.none">None</entry>
+<entry key="code|name|subcontracting-obligation.none">No subcontracting obligation applies.</entry>
 <entry key="code|name|subcontracting-obligation.subc-chng">The contractor must indicate any change of subcontractors during the execution of the contract.</entry>
 <entry key="code|name|subcontracting-obligation.subc-min">The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.</entry>
 <entry key="code|name|subcontracting-obligation.subc-oblig-2009-81">The buyer may oblige the contractor to award all or certain subcontracts through the procedure set out in Title III of Directive 2009/81/EC.</entry>
 <entry key="code|name|tender-guarantee-required.false">no</entry>
 <entry key="code|name|tender-guarantee-required.true">yes</entry>
+<entry key="code|name|tendered-object.Lot">The Object Technical ID or its reference is of type "Lot".</entry>
+<entry key="code|name|tendered-object.LotsGroup">The Object Technical ID or its reference is of type "Group of lots".</entry>
 <entry key="code|name|tenderlot-presentation.all">The tenderer must submit tenders for all lots</entry>
 <entry key="code|name|timeperiod.APR">April</entry>
 <entry key="code|name|timeperiod.AUG">August</entry>

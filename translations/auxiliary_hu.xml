@@ -13,7 +13,7 @@
 <entry key="auxiliary|text|buyer-competent">Illetékes hatóság</entry>
 <entry key="auxiliary|text|change">Változtatás</entry>
 <entry key="auxiliary|text|company">A társaság/társulás neve és címe</entry>
-<entry key="auxiliary|text|concession-value">Koncessziós érték</entry>
+<entry key="auxiliary|text|concession-value">Koncesszió értéke</entry>
 <entry key="auxiliary|text|conditions-contract">A szerződéssel kapcsolatos feltételek</entry>
 <entry key="auxiliary|text|conditions-participation">Részvételi feltételek</entry>
 <entry key="auxiliary|text|contract-information">A szerződésre vonatkozó információk</entry>
@@ -79,6 +79,7 @@
 <entry key="auxiliary|text|place-performance">A teljesítés helye</entry>
 <entry key="auxiliary|text|place-registration">A regisztráció helye</entry>
 <entry key="auxiliary|text|previous-planning">A korábbi hirdetményekre vonatkozó információk</entry>
+<entry key="auxiliary|text|prize-information">Díj</entry>
 <entry key="auxiliary|text|procedure">Eljárás</entry>
 <entry key="auxiliary|text|procedure-terms">Eljárási feltételek</entry>
 <entry key="auxiliary|text|procurement-documents">Közbeszerzési dokumentumok</entry>
@@ -95,7 +96,7 @@
 <entry key="auxiliary|text|results-procurement-procedure">A közbeszerzési eljárás eredménye</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Az állítólagos szabálytalanság típusa</entry>
 <entry key="auxiliary|text|review-requests-summary">Az ajánlatkérő szervezethez beérkezett felülvizsgálati kérelmek összefoglalása</entry>
-<entry key="auxiliary|text|roles">Ennek a szervezetnek a szerepei</entry>
+<entry key="auxiliary|text|roles">E szervezet szerepei</entry>
 <entry key="auxiliary|text|second-stage">A kétszakaszos eljárás második szakaszára vonatkozó információk</entry>
 <entry key="auxiliary|text|selection-criteria">Alkalmassági követelmények</entry>
 <entry key="auxiliary|text|start-duration-contract">A szerződés tervezett kezdőnapja és időtartama</entry>
@@ -106,10 +107,10 @@
 <entry key="auxiliary|text|submission-terms">A benyújtás feltételei</entry>
 <entry key="auxiliary|text|techniques">Sajátos beszerzési módszerek</entry>
 <entry key="auxiliary|text|tender">Ajánlat</entry>
-<entry key="auxiliary|text|unpublished">publikálatlan</entry>
+<entry key="auxiliary|text|unpublished">nincs közzétéve</entry>
 <entry key="auxiliary|text|value">Érték</entry>
 <entry key="auxiliary|text|winner">Nyertes</entry>
 <entry key="auxiliary|text|winner-info">Információk a nyertesekről</entry>
-<entry key="auxiliary|text|winner-lots">Winner of these lots</entry>
+<entry key="auxiliary|text|winner-lots">E tételek nyertese</entry>
 <entry key="auxiliary|text|winner-subcontractor">A nyertes alvállalkozói</entry>
 </properties>
