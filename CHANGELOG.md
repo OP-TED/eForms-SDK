@@ -1,3 +1,17 @@
+# SDK 1.7.2 Release Notes
+
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* Remove 3 rules (BR-BT-00262-0211, BR-BT-00262-0212, and BR-BT-00262-0213) so there is no constraint on the nature (works, services or supplies) of subsidised contracts.
+* Remove incorrect rule on BT-137-LotsGroup and framework agreements.
+* Remove mandatory constraints on BT-132 for notice subtype 16 and 17 were incorrect.
+* Remove redundant rule checking that preferred publication date is after the dispatch date.
+* Correct rule BR-BT-00738-0053 to allow the preferred publication date (BT-738) to be equal to the dispatch date (BT-05).
+
+This release also includes updated translations and updated notice visualisation templates.
+
+A comprehensive list of changes between SDK 1.7.1 and SDK 1.7.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.7.1...1.7.2>
+
 # SDK 1.7.1 Release Notes
 
 This release includes only updated translations and updated notice visualisation templates.
