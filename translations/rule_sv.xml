@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot inte tillåts i meddelandetypen '23' på följande villkor: 'Tillgången till vissa upphandlingsdokument är begränsad' (BT-14-Lot) fylls inte i</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot inte tillåts i meddelandetypen '24' på följande villkor: 'Tillgången till vissa upphandlingsdokument är begränsad' (BT-14-Lot) fylls inte i</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice skall motsvara följande mönster: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Föredraget publiceringsdatum' (BT-738-notice) måste vara mellan 2 och 60 dagar efter 'Avsändningsdatum för meddelandet'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Önskat offentliggörandedatum' (BT-738-notice) måste vara mellan 0 och 60 dagar efter 'Avsändningsdatum för meddelandet'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company inte tillåts i meddelandetypen 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company inte tillåts i meddelandetypen 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company skall motsvara följande mönster: PhoneNumber</entry>

@@ -1,6 +1,6 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.7.1",
+  "sdkVersion" : "eforms-sdk-1.7.2",
   "metadataDatabase" : {
     "version" : "1.7.1",
     "createdOn" : "2023-04-24T12:34:54"
@@ -2008,15 +2008,6 @@
     "pattern" : {
       "value" : "^(?:(?:(?:(?:1[6-9]|[2-9]\\d)\\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\\d)\\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$",
       "severity" : "ERROR"
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{ND-Root} ${(BT-05(a)-notice < BT-738-notice) or not(BT-738-notice is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00005-0150"
-      } ]
     }
   }, {
     "id" : "BT-05(b)-notice",
@@ -3288,15 +3279,6 @@
         "severity" : "ERROR"
       } ]
     },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "16", "17" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
     "pattern" : {
       "value" : "^(?:(?:(?:(?:1[6-9]|[2-9]\\d)\\d{2})-(?:(?:(?:0[13578]|1[02]))-31|(?:(?:0[13-9]|1[0-2])-(?:29|30))))|(?:(?:(?:(?:(?:1[6-9]|[2-9]\\d)(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00)))-02-29))|(?:(?:(?:1[6-9]|[2-9]\\d)\\d{2})-(?:(?:0[1-9])|(?:1[0-2]))-(?:0[1-9]|1\\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$",
       "severity" : "ERROR"
@@ -3340,15 +3322,6 @@
       }, {
         "noticeTypes" : [ "16", "17", "20", "21" ],
         "condition" : "{ND-PublicOpening} ${not(BT-105-Procedure == 'open')}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "16", "17" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3597,10 +3570,6 @@
         "value" : "{ND-LotsGroup} ${BT-137-LotsGroup is unique in /BT-137-LotsGroup}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0203"
-      }, {
-        "value" : "{ND-LotsGroup} ${number:BT-157-LotsGroup <= sum(for text:$groupID in BT-137-LotsGroup, number:$lotValue in BT-27-Lot[BT-137-Lot in BT-1375-Procedure[(BT-330-Procedure == $groupID) and (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))]] return $lotValue)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00137-0204"
       }, {
         "value" : "{ND-LotsGroup} ${(BT-137-LotsGroup in BT-330-Procedure)}",
         "severity" : "ERROR",
@@ -12560,11 +12529,6 @@
         "value" : "{ND-LotProcurementScope} ${starts-with(BT-262-Lot,'49') or starts-with(BT-262-Lot,'5') or starts-with(BT-262-Lot,'6') or starts-with(BT-262-Lot,'7') or starts-with(BT-262-Lot,'8') or starts-with(BT-262-Lot,'9')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00262-0209"
-      }, {
-        "condition" : "{ND-LotProcurementScope} ${(OPP-070-notice in ('1','4','7','8','9','10','12','16','17','18','19','20','23','25','29','33','36','38')) and (BT-11-Procedure-Buyer in ('org-sub', 'org-sub-cga', 'org-sub-ra', 'org-sub-la')) and (BT-262-Lot is present)}",
-        "value" : "{ND-LotProcurementScope} ${starts-with(BT-262-Lot,'45')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00262-0212"
       } ]
     }
   }, {
@@ -12629,11 +12593,6 @@
         "value" : "{ND-PartProcurementScope} ${starts-with(BT-262-Part,'49') or starts-with(BT-262-Part,'5') or starts-with(BT-262-Part,'6') or starts-with(BT-262-Part,'7') or starts-with(BT-262-Part,'8') or starts-with(BT-262-Part,'9')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00262-0210"
-      }, {
-        "condition" : "{ND-PartProcurementScope} ${(OPP-070-notice in ('1','4','7','8','9','10','12','16','17','18','19','20','23','25','29','33','36','38')) and (BT-11-Procedure-Buyer in ('org-sub', 'org-sub-cga', 'org-sub-ra', 'org-sub-la')) and (BT-262-Part is present)}",
-        "value" : "{ND-PartProcurementScope} ${starts-with(BT-262-Part,'45')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00262-0213"
       } ]
     }
   }, {
@@ -12708,11 +12667,6 @@
         "value" : "{ND-ProcedureProcurementScope} ${starts-with(BT-262-Procedure,'49') or starts-with(BT-262-Procedure,'5') or starts-with(BT-262-Procedure,'6') or starts-with(BT-262-Procedure,'7') or starts-with(BT-262-Procedure,'8') or starts-with(BT-262-Procedure,'9')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00262-0208"
-      }, {
-        "condition" : "{ND-ProcedureProcurementScope} ${(OPP-070-notice in ('1','4','7','8','9','10','12','16','17','18','19','20','23','25','29','33','36','38')) and (BT-11-Procedure-Buyer in ('org-sub', 'org-sub-cga', 'org-sub-ra', 'org-sub-la')) and (BT-262-Procedure is present)}",
-        "value" : "{ND-ProcedureProcurementScope} ${starts-with(BT-262-Procedure,'45')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00262-0211"
       } ]
     }
   }, {
@@ -19076,7 +19030,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-Root} ${BT-738-notice is present}",
-        "value" : "{ND-Root} ${((BT-738-notice - BT-05(a)-notice) < P60D) and ((BT-738-notice - BT-05(a)-notice) >= P2D)}",
+        "value" : "{ND-Root} ${((BT-738-notice - BT-05(a)-notice) < P60D) and ((BT-738-notice - BT-05(a)-notice) >= P0D)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00738-0053"
       } ]
