@@ -1,11 +1,14 @@
 # SDK 1.3.6 Release Notes
 
-This release adds missing "codeList" references in the `fields/fields.json` for the fields:
+This release brings the following corrections in the validation rules, making them more permissive:
 
-* `BT-195(BT-635)-LotResult`
-* `BT-195(BT-636)-LotResult`
-* `BT-197(BT-635)-LotResult`
-* `BT-197(BT-636)-LotResult`
+* Remove 3 rules (BR-BT-00262-0211, BR-BT-00262-0212, and BR-BT-00262-0213) so there is no constraint on the nature (works, services or supplies) of subsidised contracts.
+* Remove incorrect rule on BT-137-LotsGroup and framework agreements.
+* Remove redundant rule checking that preferred publication date is after the dispatch date.
+* Correct rule BR-BT-00738-0053 to allow the preferred publication date (BT-738) to be equal to the dispatch date (BT-05).
+* Add missing "codeList" references in `fields.json` for the fields BT-195(BT-635)-LotResult, BT-195(BT-636)-LotResult, BT-197(BT-635)-LotResult, and BT-197(BT-636)-LotResult.
+
+This release also includes updated translations and updated notice visualisation templates.
 
 A comprehensive list of changes between SDK 1.3.5 and SDK 1.3.6 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.3.5...1.3.6>
 
