@@ -29,11 +29,10 @@
 		<assert id="BR-BT-00026-0498" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0498</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '39']">
-		<assert id="BR-BT-00036-0099" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or not((cbc:EndDate) or (cbc:DescriptionCode))">rule|text|BR-BT-00036-0099</assert>
-		<assert id="BR-BT-00536-0101" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or not(not(cbc:DurationMeasure) and not(cbc:EndDate))">rule|text|BR-BT-00536-0101</assert>
-		<assert id="BR-BT-00536-0140" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or (not(cbc:DurationMeasure) and not(cbc:EndDate))">rule|text|BR-BT-00536-0140</assert>
-		<assert id="BR-BT-00537-0100" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or not((cbc:DurationMeasure) or (cbc:DescriptionCode))">rule|text|BR-BT-00537-0100</assert>
-		<assert id="BR-BT-00538-0099" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or not((cbc:DurationMeasure) or (cbc:EndDate))">rule|text|BR-BT-00538-0099</assert>
+		<assert id="BR-BT-00036-0178" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or not((cbc:EndDate and cbc:StartDate) or (cbc:DescriptionCode))">rule|text|BR-BT-00036-0178</assert>
+		<assert id="BR-BT-00536-0178" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or not((cbc:DurationMeasure and cbc:EndDate) or (cbc:DescriptionCode and cbc:EndDate))">rule|text|BR-BT-00536-0178</assert>
+		<assert id="BR-BT-00537-0143" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or not((cbc:StartDate and cbc:DescriptionCode) or (cbc:StartDate and cbc:DurationMeasure) or (cbc:DescriptionCode and cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'))">rule|text|BR-BT-00537-0143</assert>
+		<assert id="BR-BT-00538-0155" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or not(cbc:DurationMeasure or (cbc:EndDate and cbc:StartDate))">rule|text|BR-BT-00538-0155</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '39']">
 		<assert id="BR-BT-00728-0152" role="ERROR" diagnostics="BT-728-Lot" test="count(cbc:Description) = 0 or not(not(cac:Address/cbc:Region) and not(cac:Address/cac:Country/cbc:IdentificationCode))">rule|text|BR-BT-00728-0152</assert>

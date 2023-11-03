@@ -103,7 +103,7 @@
 		<assert id="BR-BT-00026-0667" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0">rule|text|BR-BT-00026-0667</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'CEI']">
-		<assert id="BR-BT-00036-0068" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) &gt; 0">rule|text|BR-BT-00036-0068</assert>
+		<assert id="BR-BT-00536-0186" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0">rule|text|BR-BT-00536-0186</assert>
 		<assert id="BR-BT-00537-0111" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0">rule|text|BR-BT-00537-0111</assert>
 		<assert id="BR-BT-00538-0111" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0">rule|text|BR-BT-00538-0111</assert>
 		<assert id="BR-BT-00781-0017" role="ERROR" diagnostics="BT-781-Lot" test="count(cbc:Description) = 0">rule|text|BR-BT-00781-0017</assert>
