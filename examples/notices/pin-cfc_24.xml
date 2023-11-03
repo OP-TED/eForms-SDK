@@ -193,6 +193,9 @@
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">18000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 </urn:PriorInformationNotice>
