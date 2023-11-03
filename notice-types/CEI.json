@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.85",
-    "createdOn" : "2023-10-09T13:18:12"
+    "version" : "1.9.143",
+    "createdOn" : "2023-11-03T16:04:03"
   },
   "noticeId" : "CEI",
   "metadata" : [ {
@@ -732,12 +732,6 @@
         "description" : "Planned Duration",
         "_label" : "group|name|GR-Lot-PlannedDuration",
         "content" : [ {
-          "id" : "BT-536-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Duration Start Date",
-          "_label" : "field|name|BT-536-Lot"
-        }, {
           "id" : "BT-36-Lot",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
