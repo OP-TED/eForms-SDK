@@ -555,9 +555,11 @@
       }, {
         "id" : "GR-Procedure-DirectAward",
         "contentType" : "group",
+        "nodeId" : "ND-DirectAward",
         "displayType" : "GROUP",
-        "description" : "Direct Award",
-        "_label" : "group|name|GR-Procedure-DirectAward",
+        "description" : "Direct Award (or not) and Justification",
+        "_label" : "group|name|ND-DirectAward",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-136-Procedure",
           "contentType" : "field",
