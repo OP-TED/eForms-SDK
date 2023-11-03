@@ -1891,6 +1891,35 @@
             "_label" : "field|name|BT-198(BT-733)-Lot"
           } ]
         } ]
+      }, {
+        "id" : "GR-Lot-TenderingTerms-CVD",
+        "contentType" : "group",
+        "nodeId" : "ND-StrategicProcurementLot",
+        "displayType" : "GROUP",
+        "description" : "Information about the foreseen strategic procurement and associated assets: categories (Procurement, assets ...)",
+        "_label" : "group|name|ND-StrategicProcurementLot",
+        "content" : [ {
+          "id" : "BT-717-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Clean Vehicles Directive",
+          "_label" : "field|name|BT-717-Lot"
+        }, {
+          "id" : "GR-Lot-TenderingTerms-CVD-type",
+          "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementInformationLot",
+          "displayType" : "GROUP",
+          "description" : "Information about the foreseen strategic procurement and associated assets: categories (Procurement, assets ...) in the context of an applicable Legal Basis",
+          "_label" : "group|name|ND-StrategicProcurementInformationLot",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-735-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "CVD Contract Type",
+            "_label" : "field|name|BT-735-Lot"
+          } ]
+        } ]
       } ]
     }, {
       "id" : "GR-Lot-SubmissionInfo",
@@ -3851,6 +3880,57 @@
               "displayType" : "TEXTBOX",
               "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-709)-LotResult"
+            } ]
+          } ]
+        }, {
+          "id" : "GR-LotResult-CVD",
+          "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementInformationLotResult",
+          "displayType" : "GROUP",
+          "description" : "Information about the strategic procurement and associated assets: categories (Procurement, assets ...) and quantity (number) in the context of an applicable Legal Basis",
+          "_label" : "group|name|ND-StrategicProcurementInformationLotResult",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-735-LotResult",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "CVD Contract Type",
+            "_label" : "field|name|BT-735-LotResult"
+          }, {
+            "id" : "GR-LotResult-CVD-Vehicles",
+            "contentType" : "group",
+            "nodeId" : "ND-ProcurementDetailsLotResult",
+            "displayType" : "GROUP",
+            "description" : "Information about the assets: category and quantity (number) in the context of an applicable Legal Basis",
+            "_label" : "group|name|ND-ProcurementDetailsLotResult",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "GR-LotResult-CVD-Vehicles-Statistics",
+              "contentType" : "group",
+              "nodeId" : "ND-ProcurementStatistics",
+              "displayType" : "GROUP",
+              "description" : "Numbers about the procurement: category (code) and quantity (number)",
+              "_label" : "group|name|ND-ProcurementStatistics",
+              "_repeatable" : true,
+              "content" : [ {
+                "id" : "OPT-156-LotResult",
+                "contentType" : "field",
+                "displayType" : "TEXTBOX",
+                "description" : "Vehicle Numeric",
+                "_label" : "field|name|OPT-156-LotResult"
+              }, {
+                "id" : "OPT-155-LotResult",
+                "contentType" : "field",
+                "displayType" : "COMBOBOX",
+                "description" : "Vehicle Type",
+                "_label" : "field|name|OPT-155-LotResult"
+              } ]
+            }, {
+              "id" : "BT-723-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Vehicle Category",
+              "_label" : "field|name|BT-723-LotResult"
             } ]
           } ]
         }, {
