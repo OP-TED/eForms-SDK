@@ -1891,7 +1891,8 @@
     "xpathRelative" : "efac:TenderingParty",
     "xsdSequenceOrder" : [ { "efac:TenderingParty" : 9 } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-210-Tenderer"
+    "identifierFieldId" : "OPT-210-Tenderer",
+    "captionFieldId" : "OPT-211-Tenderer"
   }, {
     "id" : "ND-SubContractor",
     "parentId" : "ND-TenderingParty",
