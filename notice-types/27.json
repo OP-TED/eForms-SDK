@@ -3446,6 +3446,22 @@
             "_label" : "field|name|BT-13713-LotResult",
             "_idSchemes" : [ "LOT" ]
           }, {
+            "id" : "GR-LotResult-Tender-Id-Ref",
+            "contentType" : "group",
+            "nodeId" : "ND-LotResultTenderReference",
+            "displayType" : "GROUP",
+            "description" : "Tender considered for the award decision",
+            "_label" : "group|name|ND-LotResultTenderReference",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "OPT-320-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Tender Identifier Reference",
+              "_label" : "field|name|OPT-320-LotResult",
+              "_idSchemes" : [ "TEN" ]
+            } ]
+          }, {
             "id" : "GR-LotResult-Contract-Id-Ref",
             "contentType" : "group",
             "nodeId" : "ND-LotResultContractReference",
