@@ -1,6 +1,6 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.3.5",
+  "sdkVersion" : "eforms-sdk-1.3.6",
   "metadataDatabase" : {
     "version" : "1.3.16",
     "createdOn" : "2022-11-17T14:17:30"
@@ -1718,10 +1718,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${(BT-05(a)-notice < BT-738-notice) or not(BT-738-notice is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00005-0150"
-      }, {
         "value" : "{ND-Root} ${((BT-03-notice == 'change') and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice in ('cancel','cancel-intent'))) or not((BT-03-notice == 'change') and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00005-0151"
@@ -3181,10 +3177,6 @@
         "value" : "{ND-LotsGroup} ${BT-137-LotsGroup is unique in /BT-137-LotsGroup}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0203"
-      }, {
-        "value" : "{ND-LotsGroup} ${number:BT-157-LotsGroup <= sum(for text:$groupID in BT-137-LotsGroup, number:$lotValue in BT-27-Lot[BT-137-Lot in BT-1375-Procedure[(BT-330-Procedure == $groupID) and (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))]] return $lotValue)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00137-0204"
       }, {
         "value" : "{ND-LotsGroup} ${(BT-137-LotsGroup in BT-330-Procedure)}",
         "severity" : "ERROR",
@@ -5539,6 +5531,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-identifier",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-195(BT-636)-LotResult",
@@ -5561,6 +5560,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-identifier",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-195(BT-709)-LotResult",
@@ -8385,6 +8391,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-197(BT-636)-LotResult",
@@ -8407,6 +8420,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "non-publication-justification",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-197(BT-709)-LotResult",
@@ -11819,11 +11839,6 @@
         "value" : "{ND-LotProcurementScope} ${starts-with(BT-262-Lot,'49') or starts-with(BT-262-Lot,'5') or starts-with(BT-262-Lot,'6') or starts-with(BT-262-Lot,'7') or starts-with(BT-262-Lot,'8') or starts-with(BT-262-Lot,'9')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00262-0209"
-      }, {
-        "condition" : "{ND-LotProcurementScope} ${(OPP-070-notice in ('1','4','7','8','9','10','12','16','17','18','19','20','23','25','29','33','36','38')) and (BT-11-Procedure-Buyer in ('org-sub', 'org-sub-cga', 'org-sub-ra', 'org-sub-la')) and (BT-262-Lot is present)}",
-        "value" : "{ND-LotProcurementScope} ${starts-with(BT-262-Lot,'45')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00262-0212"
       } ]
     }
   }, {
@@ -11887,11 +11902,6 @@
         "value" : "{ND-PartProcurementScope} ${starts-with(BT-262-Part,'49') or starts-with(BT-262-Part,'5') or starts-with(BT-262-Part,'6') or starts-with(BT-262-Part,'7') or starts-with(BT-262-Part,'8') or starts-with(BT-262-Part,'9')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00262-0210"
-      }, {
-        "condition" : "{ND-PartProcurementScope} ${(OPP-070-notice in ('1','4','7','8','9','10','12','16','17','18','19','20','23','25','29','33','36','38')) and (BT-11-Procedure-Buyer in ('org-sub', 'org-sub-cga', 'org-sub-ra', 'org-sub-la')) and (BT-262-Part is present)}",
-        "value" : "{ND-PartProcurementScope} ${starts-with(BT-262-Part,'45')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00262-0213"
       } ]
     }
   }, {
@@ -11965,11 +11975,6 @@
         "value" : "{ND-ProcedureProcurementScope} ${starts-with(BT-262-Procedure,'49') or starts-with(BT-262-Procedure,'5') or starts-with(BT-262-Procedure,'6') or starts-with(BT-262-Procedure,'7') or starts-with(BT-262-Procedure,'8') or starts-with(BT-262-Procedure,'9')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00262-0208"
-      }, {
-        "condition" : "{ND-ProcedureProcurementScope} ${(OPP-070-notice in ('1','4','7','8','9','10','12','16','17','18','19','20','23','25','29','33','36','38')) and (BT-11-Procedure-Buyer in ('org-sub', 'org-sub-cga', 'org-sub-ra', 'org-sub-la')) and (BT-262-Procedure is present)}",
-        "value" : "{ND-ProcedureProcurementScope} ${starts-with(BT-262-Procedure,'45')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00262-0211"
       } ]
     }
   }, {
@@ -18081,7 +18086,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-Root} ${BT-738-notice is present}",
-        "value" : "{ND-Root} ${((BT-738-notice - BT-05(a)-notice) < P92D) and (BT-738-notice > BT-05(a)-notice)}",
+        "value" : "{ND-Root} ${((BT-738-notice - BT-05(a)-notice) < P92D) and ((BT-738-notice - BT-05(a)-notice) >= P0D)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00738-0053"
       } ]
