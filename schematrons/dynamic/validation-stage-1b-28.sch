@@ -60,16 +60,9 @@
 		<assert id="ND-ReviewRequests-28" role="ERROR" diagnostics="ND-ReviewRequests" test="count(efac:AppealsInformation) = 0">rule|text|ND-ReviewRequests-28</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '28']">
+		<assert id="ND-LotResult-28" role="ERROR" diagnostics="ND-LotResult" test="count(efac:LotResult) = 0">rule|text|ND-LotResult-28</assert>
 		<assert id="ND-NoticeResultGroupFA-28" role="ERROR" diagnostics="ND-NoticeResultGroupFA" test="count(efac:GroupFramework) = 0">rule|text|ND-NoticeResultGroupFA-28</assert>
 		<assert id="ND-SettledContract-28" role="ERROR" diagnostics="ND-SettledContract" test="count(efac:SettledContract) &gt; 0">rule|text|ND-SettledContract-28</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '28']">
-		<assert id="ND-LotResultFAValues-28" role="ERROR" diagnostics="ND-LotResultFAValues" test="count(efac:FrameworkAgreementValues) = 0">rule|text|ND-LotResultFAValues-28</assert>
-		<assert id="ND-NotAwardedReasonUnpublish-28" role="ERROR" diagnostics="ND-NotAwardedReasonUnpublish" test="count(efac:DecisionReason/efac:FieldsPrivacy) = 0">rule|text|ND-NotAwardedReasonUnpublish-28</assert>
-		<assert id="ND-ReceivedSubmissions-28" role="ERROR" diagnostics="ND-ReceivedSubmissions" test="count(efac:ReceivedSubmissionsStatistics) = 0">rule|text|ND-ReceivedSubmissions-28</assert>
-		<assert id="ND-ReviewRequestsStatistics-28" role="ERROR" diagnostics="ND-ReviewRequestsStatistics" test="count(efac:AppealRequestsStatistics) = 0">rule|text|ND-ReviewRequestsStatistics-28</assert>
-		<assert id="ND-StrategicProcurementLotResult-28" role="ERROR" diagnostics="ND-StrategicProcurementLotResult" test="count(efac:StrategicProcurement) = 0">rule|text|ND-StrategicProcurementLotResult-28</assert>
-		<assert id="ND-WinnerChosenUnpublish-28" role="ERROR" diagnostics="ND-WinnerChosenUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-WinnerChosenUnpublish-28</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '28']">
 		<assert id="ND-LotTenderOriginCountry-28" role="ERROR" diagnostics="ND-LotTenderOriginCountry" test="count(efac:Origin) = 0">rule|text|ND-LotTenderOriginCountry-28</assert>

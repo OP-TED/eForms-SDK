@@ -37,14 +37,10 @@
 		<assert id="BR-BT-00026-0471" role="ERROR" diagnostics="BT-26_a_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0471</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '15']">
-		<assert id="BR-BT-00036-0072" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) &gt; 0 or ((cbc:EndDate) or (cbc:DescriptionCode))">rule|text|BR-BT-00036-0072</assert>
-		<assert id="BR-BT-00036-0110" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or not((cbc:EndDate) or (cbc:DescriptionCode))">rule|text|BR-BT-00036-0110</assert>
-		<assert id="BR-BT-00536-0074" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) &gt; 0 or (not(cbc:DurationMeasure) and not(cbc:EndDate))">rule|text|BR-BT-00536-0074</assert>
-		<assert id="BR-BT-00536-0112" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or not(not(cbc:DurationMeasure) and not(cbc:EndDate))">rule|text|BR-BT-00536-0112</assert>
-		<assert id="BR-BT-00537-0073" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) &gt; 0 or ((cbc:DurationMeasure) or (cbc:DescriptionCode))">rule|text|BR-BT-00537-0073</assert>
-		<assert id="BR-BT-00537-0112" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or not((cbc:DurationMeasure) or (cbc:DescriptionCode))">rule|text|BR-BT-00537-0112</assert>
-		<assert id="BR-BT-00538-0072" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) &gt; 0 or ((cbc:DurationMeasure) or (cbc:EndDate))">rule|text|BR-BT-00538-0072</assert>
-		<assert id="BR-BT-00538-0112" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or not((cbc:DurationMeasure) or (cbc:EndDate))">rule|text|BR-BT-00538-0112</assert>
+		<assert id="BR-BT-00036-0186" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or not((cbc:EndDate and cbc:StartDate) or (cbc:DescriptionCode))">rule|text|BR-BT-00036-0186</assert>
+		<assert id="BR-BT-00536-0187" role="ERROR" diagnostics="BT-536-Lot" test="count(cbc:StartDate) = 0 or not((cbc:DurationMeasure and cbc:EndDate) or (cbc:DescriptionCode and cbc:EndDate))">rule|text|BR-BT-00536-0187</assert>
+		<assert id="BR-BT-00537-0151" role="ERROR" diagnostics="BT-537-Lot" test="count(cbc:EndDate) = 0 or not((cbc:StartDate and cbc:DescriptionCode) or (cbc:StartDate and cbc:DurationMeasure) or (cbc:DescriptionCode and cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'))">rule|text|BR-BT-00537-0151</assert>
+		<assert id="BR-BT-00538-0163" role="ERROR" diagnostics="BT-538-Lot" test="count(cbc:DescriptionCode) = 0 or not(cbc:DurationMeasure or (cbc:EndDate and cbc:StartDate))">rule|text|BR-BT-00538-0163</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '15']">
 		<assert id="BR-BT-00727-0167" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-727-Lot" test="count(cac:Address/cbc:Region) = 0 or not(cac:Address/cbc:CountrySubentityCode)">rule|text|BR-BT-00727-0167</assert>
@@ -115,36 +111,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '15']">
 		<assert id="BR-BT-00735-0021" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0021</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject[$noticeSubType = '15']">
-		<assert id="BR-BT-00021-0270" role="ERROR" diagnostics="BT-21-LotsGroup" test="count(cbc:Name) = 0 or (../cbc:ID)">rule|text|BR-BT-00021-0270</assert>
-		<assert id="BR-BT-00022-0123" role="ERROR" diagnostics="BT-22-LotsGroup" test="count(cbc:ID) &gt; 0 or not(../cbc:ID)">rule|text|BR-BT-00022-0123</assert>
-		<assert id="BR-BT-00022-0212" role="ERROR" diagnostics="BT-22-LotsGroup" test="count(cbc:ID) = 0 or (../cbc:ID)">rule|text|BR-BT-00022-0212</assert>
-		<assert id="BR-BT-00024-0270" role="ERROR" diagnostics="BT-24-LotsGroup" test="count(cbc:Description) = 0 or (../cbc:ID)">rule|text|BR-BT-00024-0270</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '15']">
-		<assert id="BR-BT-00539-0021" role="ERROR" diagnostics="ND-LotsGroupAwardCriteria_BT-539-LotsGroup" test="count(cac:SubordinateAwardingCriterion/cbc:AwardingCriterionTypeCode[@listName='award-criterion-type']) = 0 or (../../../cbc:ID)">rule|text|BR-BT-00539-0021</assert>
-		<assert id="BR-BT-00543-0021" role="ERROR" diagnostics="BT-543-LotsGroup" test="count(cbc:CalculationExpression) = 0 or not((cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric) or (cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efbc:ParameterNumeric) or (cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efbc:ParameterNumeric))">rule|text|BR-BT-00543-0021</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion[$noticeSubType = '15']">
-		<assert id="BR-BT-00540-0162" role="ERROR" diagnostics="BT-540-LotsGroup" test="count(cbc:Description) = 0 or (cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|text|BR-BT-00540-0162</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '15']">
-		<assert id="BR-BT-00541-0220" role="ERROR" diagnostics="ND-LotsGroupAwardCriterionParameters_BT-541-LotsGroup-WeightNumber" test="count(efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric) = 0 or (../../../../cbc:Description)">rule|text|BR-BT-00541-0220</assert>
-		<assert id="BR-BT-00541-0420" role="ERROR" diagnostics="ND-LotsGroupAwardCriterionParameters_BT-541-LotsGroup-FixedNumber" test="count(efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efbc:ParameterNumeric) = 0 or (../../../../cbc:Description)">rule|text|BR-BT-00541-0420</assert>
-		<assert id="BR-BT-00541-0620" role="ERROR" diagnostics="ND-LotsGroupAwardCriterionParameters_BT-541-LotsGroup-ThresholdNumber" test="count(efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efbc:ParameterNumeric) = 0 or (../../../../cbc:Description)">rule|text|BR-BT-00541-0620</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed'][$noticeSubType = '15']">
-		<assert id="BR-BT-05422-0021" role="ERROR" diagnostics="BT-5422-LotsGroup" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05422-0021</assert>
-		<assert id="BR-BT-05422-0125" role="ERROR" diagnostics="BT-5422-LotsGroup" test="count(efbc:ParameterCode) &gt; 0 or not(efbc:ParameterNumeric)">rule|text|BR-BT-05422-0125</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold'][$noticeSubType = '15']">
-		<assert id="BR-BT-05423-0021" role="ERROR" diagnostics="BT-5423-LotsGroup" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05423-0021</assert>
-		<assert id="BR-BT-05423-0125" role="ERROR" diagnostics="BT-5423-LotsGroup" test="count(efbc:ParameterCode) &gt; 0 or not(efbc:ParameterNumeric)">rule|text|BR-BT-05423-0125</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight'][$noticeSubType = '15']">
-		<assert id="BR-BT-05421-0021" role="ERROR" diagnostics="BT-5421-LotsGroup" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05421-0021</assert>
-		<assert id="BR-BT-05421-0125" role="ERROR" diagnostics="BT-5421-LotsGroup" test="count(efbc:ParameterCode) &gt; 0 or not(efbc:ParameterNumeric)">rule|text|BR-BT-05421-0125</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '15']">
 		<assert id="BR-BT-00001-0125" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-00001-0125</assert>

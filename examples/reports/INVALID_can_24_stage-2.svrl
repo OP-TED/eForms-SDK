@@ -759,15 +759,6 @@
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
-   <svrl:failed-assert id="BR-BT-00746-0055"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization"
-                       role="ERROR"
-                       test="count(efbc:ListedOnRegulatedMarketIndicator) &gt; 0 or not((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())) or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID/normalize-space(text()) = ../../../efac:SettledContract/efac:LotTender/cbc:ID/normalize-space(text())]/normalize-space(text())]/normalize-space(text())))">
-      <svrl:text>rule|text|BR-BT-00746-0055</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-746-Organization" see="field:BT-746-Organization">
-         <svrl:text>efbc:ListedOnRegulatedMarketIndicator</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>

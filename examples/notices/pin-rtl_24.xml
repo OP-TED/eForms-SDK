@@ -219,6 +219,9 @@
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 </urn:PriorInformationNotice>

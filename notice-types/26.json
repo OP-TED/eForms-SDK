@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.85",
-    "createdOn" : "2023-10-09T13:18:12"
+    "version" : "1.9.142",
+    "createdOn" : "2023-11-03T09:59:22"
   },
   "noticeId" : "26",
   "metadata" : [ {
@@ -2904,7 +2904,8 @@
               "_idSchemes" : [ "ORG" ]
             } ]
           } ]
-        } ]
+        } ],
+        "_captionFieldId" : "OPT-211-Tenderer"
       } ]
     }, {
       "id" : "GR-SettledContract-Section",
@@ -3470,6 +3471,22 @@
             "description" : "Result Lot Identifier",
             "_label" : "field|name|BT-13713-LotResult",
             "_idSchemes" : [ "LOT" ]
+          }, {
+            "id" : "GR-LotResult-Tender-Id-Ref",
+            "contentType" : "group",
+            "nodeId" : "ND-LotResultTenderReference",
+            "displayType" : "GROUP",
+            "description" : "Tender considered for the award decision",
+            "_label" : "group|name|ND-LotResultTenderReference",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "OPT-320-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Tender Identifier Reference",
+              "_label" : "field|name|OPT-320-LotResult",
+              "_idSchemes" : [ "TEN" ]
+            } ]
           }, {
             "id" : "GR-LotResult-Contract-Id-Ref",
             "contentType" : "group",

@@ -218,6 +218,9 @@ vol3</cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">45520000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 </urn:PriorInformationNotice>
