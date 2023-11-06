@@ -3,10 +3,10 @@
 <properties>
 <comment>expression in Hungarian. File generated from metadata database.</comment>
 <entry key="expression|name|1">'Az ajánlatkérő szervezet közszolgáltató ajánlatkérő' (BT-740) értéke 'Nem'</entry>
-<entry key="expression|name|100">'Az odaítélési kritérium száma' (BT-541-Lot) kitöltve, míg 'A szám a súly típusa' (BT-5421-Lot) és 'A szám a küszöb típusa' (BT-5423-Lot) nincs kitöltve</entry>
-<entry key="expression|name|101">'Az odaítélési kritérium száma' (BT-541-Lot) kitöltve, míg 'A szám a súly típusa' (BT-5421-Lot) és 'A szám a küszöb típusa' (BT-5422-Lot) nincs kitöltve</entry>
-<entry key="expression|name|102">'Az odaítélési kritérium száma' (BT-541-LotsGroup) kitöltve, míg 'A szám a súly típusa' (BT-5421-LotsGroup) és 'A szám a küszöb típusa' (BT-5423-LotsGroup) nincs kitöltve</entry>
-<entry key="expression|name|103">'Az odaítélési kritérium száma' (BT-541-LotsGroup) kitöltve, míg 'A szám a súly típusa' (BT-5421-LotsGroup) és 'A szám a küszöb típusa' (BT-5422-LotsGroup) nincs kitöltve</entry>
+<entry key="expression|name|100">'Értékelési szempont száma' (BT-541-Lot) kitöltve, míg 'A szám valamilyen súlyozás' (BT-5421-Lot) és 'A szám valamilyen küszöbérték' (BT-5423-Lot) nincs kitöltve</entry>
+<entry key="expression|name|101">'Értékelési szempont száma' (BT-541-Lot) kitöltve, míg 'A szám valamilyen súlyozás' (BT-5421-Lot) és 'A szám valamilyen küszöbérték' (BT-5422-Lot) nincs kitöltve</entry>
+<entry key="expression|name|102">'Értékelési szempont száma' (BT-541-LotsGroup) kitöltve, míg 'A szám valamilyen súlyozás' (BT-5421-LotsGroup) és 'A szám valamilyen küszöbérték' (BT-5423-LotsGroup) nincs kitöltve</entry>
+<entry key="expression|name|103">'Értékelési szempont száma' (BT-541-LotsGroup) kitöltve, míg 'A szám valamilyen súlyozás' (BT-5421-LotsGroup) és 'A szám valamilyen küszöbérték' (BT-5422-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|104">'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-Lots) nincs kitöltve</entry>
 <entry key="expression|name|105">'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|106">'Időtartam' (BT-36-Lot) vagy 'Záró időpont' (BT-537-Lot) ki van töltve</entry>
@@ -29,43 +29,43 @@
 <entry key="expression|name|121">'Postacím' (BT-5101(b)-Lot) nincs kitöltve</entry>
 <entry key="expression|name|122">'Postacím' (BT-5101(b)-Part) nincs kitöltve</entry>
 <entry key="expression|name|123">'Postacím' (BT-5101(b)-Procedure) nincs kitöltve</entry>
-<entry key="expression|name|127">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) ki van töltve, vagy 'Ország' (BT-5141) nincs kitöltve</entry>
-<entry key="expression|name|128">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) ki van töltve, vagy 'Ország' (BT-5141) nincs kitöltve</entry>
-<entry key="expression|name|129">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) ki van töltve, vagy 'Ország' (BT-5141) nincs kitöltve</entry>
-<entry key="expression|name|13">'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Part) korlátozott</entry>
+<entry key="expression|name|127">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) ki van töltve, vagy 'Ország' (BT-5141) nincs kitöltve</entry>
+<entry key="expression|name|128">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) ki van töltve, vagy 'Ország' (BT-5141) nincs kitöltve</entry>
+<entry key="expression|name|129">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) ki van töltve, vagy 'Ország' (BT-5141) nincs kitöltve</entry>
+<entry key="expression|name|13">'Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van' (BT-14-Part) korlátozott</entry>
 <entry key="expression|name|130">'Város' (BT-5131) nincs kitöltve</entry>
 <entry key="expression|name|131">'Város' (BT-5131) nincs kitöltve</entry>
 <entry key="expression|name|132">'Város' (BT-5131) nincs kitöltve</entry>
-<entry key="expression|name|133">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) nincs kitöltve, és 'Ország' (BT-5141-UBO) rendelkezik NUTS-kódokkal</entry>
-<entry key="expression|name|134">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) nincs kitöltve, és 'Ország' (BT-5141-UBO) rendelkezik NUTS-kódokkal</entry>
-<entry key="expression|name|135">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) nincs kitöltve, és 'Ország' (BT-5141-UBO) rendelkezik NUTS-kódokkal</entry>
+<entry key="expression|name|133">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) nincs kitöltve, és 'Ország' (BT-5141-UBO) rendelkezik NUTS-kódokkal</entry>
+<entry key="expression|name|134">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) nincs kitöltve, és 'Ország' (BT-5141-UBO) rendelkezik NUTS-kódokkal</entry>
+<entry key="expression|name|135">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) nincs kitöltve, és 'Ország' (BT-5141-UBO) rendelkezik NUTS-kódokkal</entry>
 <entry key="expression|name|136">Kötelező irányítószám ehhez: 'Ország' (BT-5141-UBO), 'Postacím' (BT-5101(a)) pedig ki van töltve</entry>
 <entry key="expression|name|137">Kötelező irányítószám ehhez: 'Ország' (BT-5141-UBO), 'Postacím' (BT-5101(a)) pedig ki van töltve</entry>
 <entry key="expression|name|138">Kötelező irányítószám ehhez: 'Ország' (BT-5141-UBO), 'Postacím' (BT-5101(a)) pedig ki van töltve</entry>
-<entry key="expression|name|139">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) és 'Ország' (BT-5141) nincs kitöltve</entry>
-<entry key="expression|name|14">'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Part) nincs kitöltve</entry>
+<entry key="expression|name|139">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) és 'Ország' (BT-5141) nincs kitöltve</entry>
+<entry key="expression|name|14">'Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van' (BT-14-Part) nincs kitöltve</entry>
 <entry key="expression|name|140">'További információk' (BT-728) és BT-5142 (BT-5142) nincs kitöltve</entry>
-<entry key="expression|name|141">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727) és 'Ország' (BT-5141) nincs kitöltve</entry>
+<entry key="expression|name|141">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) és 'Ország' (BT-5141) nincs kitöltve</entry>
 <entry key="expression|name|142">'A tulajdonos állampolgársága' (BT-706) nincs kitöltve</entry>
 <entry key="expression|name|143">'Hivatalos név' (BT-500-UBO) nincs kitöltve</entry>
 <entry key="expression|name|144">'Ország' (BT-514-UBO) nem rendelkezik NUTS-kódokkal</entry>
 <entry key="expression|name|145">'Ország' (BT-514-UBO) nem rendelkezik irányítószámokkal</entry>
 <entry key="expression|name|146">'Postacím' (BT-510(a)-UBO) nincs kitöltve</entry>
 <entry key="expression|name|147">'Postacím' (BT-510(b)-UBO) nincs kitöltve</entry>
-<entry key="expression|name|148">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) nem 'igen', vagy 'A szám a küszöb típusa' (BT-7532) ki van töltve</entry>
-<entry key="expression|name|149">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) nem 'igen', vagy 'A szám a súly típusa' (BT-7531) ki van töltve</entry>
-<entry key="expression|name|15">'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Part) nincs korlátozva</entry>
+<entry key="expression|name|148">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) nem 'igen', vagy 'A szám valamilyen küszöbérték' (BT-7532) ki van töltve</entry>
+<entry key="expression|name|149">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) nem 'igen', vagy 'A szám valamilyen súlyozás' (BT-7531) ki van töltve</entry>
+<entry key="expression|name|15">'Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van' (BT-14-Part) nincs korlátozva</entry>
 <entry key="expression|name|150">'Leírás' (BT-540-Lot) nincs kitöltve</entry>
 <entry key="expression|name|151">'Leírás' (BT-540-LotsGroup) nincs kitöltve</entry>
-<entry key="expression|name|152">'Az odaítélési kritérium száma' (BT-541) nincs kitöltve, vagy 'A szám egy fix érték' (BT-5422) ki van töltve, 'A szám a küszöb típusa' (BT-5423) ki van töltve</entry>
-<entry key="expression|name|153">'Az odaítélési kritérium száma' (BT-541) nincs kitöltve, vagy 'A szám egy fix érték' (BT-5422) ki van töltve, 'A szám a küszöb típusa' (BT-5423) ki van töltve</entry>
-<entry key="expression|name|154">'Az odaítélési kritérium száma' (BT-541) nincs kitöltve, vagy 'A szám a súly típusa' (BT-5421) ki van töltve, vagy 'A szám a küszöb típusa' (BT-5423) ki van töltve, vagy 'Típus' (BT-539) = 'Minőség'</entry>
-<entry key="expression|name|155">'Az odaítélési kritérium száma' (BT-541) nincs kitöltve, vagy 'A szám a súly típusa' (BT-5421) ki van töltve, vagy 'A szám a küszöb típusa' (BT-5423) ki van töltve, vagy 'Típus' (BT-539) = 'Minőség'</entry>
-<entry key="expression|name|156">'Az odaítélési kritérium száma' (BT-541) nincs kitöltve, vagy 'A szám egy fix érték' (BT-5422) ki van töltve, vagy 'A szám a küszöb típusa' (BT-5423) ki van töltve</entry>
-<entry key="expression|name|157">'Az odaítélési kritérium száma' (BT-541) nincs kitöltve, vagy 'A szám egy fix érték' (BT-5422) ki van töltve, vagy 'A szám a küszöb típusa' (BT-5423) ki van töltve</entry>
+<entry key="expression|name|152">'Értékelési szempont száma' (BT-541) nincs kitöltve, vagy 'A szám rögzített érték' (BT-5422) ki van töltve, 'A szám valamilyen küszöbérték' (BT-5423) ki van töltve</entry>
+<entry key="expression|name|153">'Értékelési szempont száma' (BT-541) nincs kitöltve, vagy 'A szám rögzített érték' (BT-5422) ki van töltve, 'A szám valamilyen küszöbérték' (BT-5423) ki van töltve</entry>
+<entry key="expression|name|154">'Értékelési szempont száma' (BT-541) nincs kitöltve, vagy 'A szám valamilyen súlyozás' (BT-5421) ki van töltve, vagy 'A szám valamilyen küszöbérték' (BT-5423) ki van töltve, vagy 'Típus' (BT-539) = 'Minőség'</entry>
+<entry key="expression|name|155">'Értékelési szempont száma' (BT-541) nincs kitöltve, vagy 'A szám valamilyen súlyozás' (BT-5421) ki van töltve, vagy 'A szám valamilyen küszöbérték' (BT-5423) ki van töltve, vagy 'Típus' (BT-539) = 'Minőség'</entry>
+<entry key="expression|name|156">'Értékelési szempont száma' (BT-541) nincs kitöltve, vagy 'A szám rögzített érték' (BT-5422) ki van töltve, vagy 'A szám valamilyen küszöbérték' (BT-5423) ki van töltve</entry>
+<entry key="expression|name|157">'Értékelési szempont száma' (BT-541) nincs kitöltve, vagy 'A szám rögzített érték' (BT-5422) ki van töltve, vagy 'A szám valamilyen küszöbérték' (BT-5423) ki van töltve</entry>
 <entry key="expression|name|158">'Az ajánlattevőnek valamennyi részre be kell nyújtania ajánlatot' ((BT-763)) igaz</entry>
 <entry key="expression|name|159">'Az ajánlattevőnek valamennyi részre be kell nyújtania ajánlatot' ((BT-763)) igaz, vagy egynél több tétel szerepel a hirdetményben</entry>
-<entry key="expression|name|16">'Az odaítélési kritérium száma' (BT-541-Lot) nem üres</entry>
+<entry key="expression|name|16">'Értékelési szempont száma' (BT-541-Lot) nem üres</entry>
 <entry key="expression|name|160">Nincs több tétel</entry>
 <entry key="expression|name|161">'Fő osztályozás' (BT-262-Lot) nincs kitöltve</entry>
 <entry key="expression|name|162">'Fő osztályozás' (BT-262-Part) nincs kitöltve</entry>
@@ -76,7 +76,7 @@
 <entry key="expression|name|167">'Postacím' (BT-510(a)-Organization-Company) nincs kitöltve</entry>
 <entry key="expression|name|168">'Postacím' (BT-510(b)-Organization-Company) nincs kitöltve</entry>
 <entry key="expression|name|169">'Postacím' (BT-510(a)-Organization-TouchPoint) nincs kitöltve</entry>
-<entry key="expression|name|17">'Az odaítélési kritérium száma' (BT-541-Lot) ki van töltve</entry>
+<entry key="expression|name|17">'Értékelési szempont száma' (BT-541-Lot) ki van töltve</entry>
 <entry key="expression|name|170">'Postacím' (BT-510(b)-Organization-TouchPoint) nincs kitöltve</entry>
 <entry key="expression|name|171">'Város' (BT-513-Organization-Company) nincs kitöltve</entry>
 <entry key="expression|name|172">'Város' (BT-513-Organization-TouchPoint) nincs kitöltve</entry>
@@ -86,26 +86,26 @@
 <entry key="expression|name|176">'Az ajánlatok beérkezésének határideje' (BT-131(d)-Lot) vagy 'A részvételi jelentkezések beérkezésének határideje' (BT-1311(d)-Lot) ki van töltve</entry>
 <entry key="expression|name|177">'Azonosító – Ajánlat' (OPT-321-Tender) nem létezik</entry>
 <entry key="expression|name|178">'Azonosító – Szervezet' (OPT-300-Tenderer) nem létezik</entry>
-<entry key="expression|name|179">'ID – Szervezeti kapcsolattartó pont' (OPT-301-Tenderer-MainCont) nincs kitöltve</entry>
-<entry key="expression|name|18">'Az odaítélési kritérium száma' (BT-541-LotsGroup) nem üres</entry>
+<entry key="expression|name|179">'Azonosító – Szervezet kapcsolattartója' (OPT-301-Tenderer-MainCont) nincs kitöltve</entry>
+<entry key="expression|name|18">'Értékelési szempont száma' (BT-541-LotsGroup) nem üres</entry>
 <entry key="expression|name|180">'Hivatalos név' (BT-500-Organization-Company) nincs kitöltve</entry>
 <entry key="expression|name|181">'Hivatalos név' (BT-500-Organization-TouchPoint) nincs kitöltve</entry>
 <entry key="expression|name|182">'Ország' (BT-514-Organization-Company) nem rendelkezik NUTS-kódokkal</entry>
 <entry key="expression|name|183">'Ország' (BT-514-Organization-TouchPoint) nem rendelkezik NUTS-kódokkal</entry>
 <entry key="expression|name|184">'Ország' (BT-514-Organization-Company) nem rendelkezik irányítószámokkal</entry>
 <entry key="expression|name|185">'Ország' (BT-514-Organization-TouchPoint) nem rendelkezik irányítószámokkal</entry>
-<entry key="expression|name|186">'Azonosító – Társaság' (OPT-200-Organization-Company) egy 'Vevő' (OPT-300-Procedure-Buyer)</entry>
-<entry key="expression|name|187">'Azonosító – hirdetmény közzététele' (OPT-110-Lot-FiscalLegis) ki van töltve</entry>
-<entry key="expression|name|188">'Azonosító – hirdetmény közzététele' (OPT-110-Part-FiscalLegis) ki van töltve</entry>
-<entry key="expression|name|189">'A környezetvédelmi jogszabályok URL-címe' (OPT-120-Lot-EnvironLegis) ki van töltve</entry>
-<entry key="expression|name|19">'Az odaítélési kritérium száma' (BT-541-LotsGroup) nem üres</entry>
-<entry key="expression|name|190">'A környezetvédelmi jogszabályok URL-címe' (OPT-120-Part-EnvironLegis) ki van töltve</entry>
-<entry key="expression|name|191">'A foglalkoztatási jogszabályok URL-címe' (OPT-130-Lot-EmployLegis) ki van töltve</entry>
-<entry key="expression|name|192">'A foglalkoztatási jogszabályok URL-címe' (OPT-130-Part-EmployLegis) ki van töltve</entry>
-<entry key="expression|name|193">'Felülvizsgálat Remedy Típus' (BT-792-Review) nem 'Alternatív szankciók' vagy 'Kártérítés'</entry>
-<entry key="expression|name|194">'Felülvizsgálat Remedy Típus' (BT-792-Review) = 'Kártérítés'</entry>
-<entry key="expression|name|195">'Felülvizsgálati kérelem visszavonása' (BT-796-Review) nem igaz</entry>
-<entry key="expression|name|196">'Felülvizsgálat Identifier' (BT-784-Review) nincs kitöltve</entry>
+<entry key="expression|name|186">'Azonosító – Cég' (OPT-200-Organization-Company) egy 'Vevő' (OPT-300-Procedure-Buyer)</entry>
+<entry key="expression|name|187">'Azonosító – Hirdetmény közzététele' (OPT-110-Lot-FiscalLegis) ki van töltve</entry>
+<entry key="expression|name|188">'Azonosító – Hirdetmény közzététele' (OPT-110-Part-FiscalLegis) ki van töltve</entry>
+<entry key="expression|name|189">'A környezetvédelmi szabályozás webcíme (URL)' (OPT-120-Lot-EnvironLegis) ki van töltve</entry>
+<entry key="expression|name|19">'Értékelési szempont száma' (BT-541-LotsGroup) nem üres</entry>
+<entry key="expression|name|190">'A környezetvédelmi szabályozás webcíme (URL)' (OPT-120-Part-EnvironLegis) ki van töltve</entry>
+<entry key="expression|name|191">'A foglalkoztatási szabályozás webcíme (URL)' (OPT-130-Lot-EmployLegis) ki van töltve</entry>
+<entry key="expression|name|192">'A foglalkoztatási szabályozás webcíme (URL)' (OPT-130-Part-EmployLegis) ki van töltve</entry>
+<entry key="expression|name|193">'Felülvizsgálat – korrekciós intézkedés típusa' (BT-792-Review) nem 'Alternatív szankciók' vagy 'Kártérítés'</entry>
+<entry key="expression|name|194">'Felülvizsgálat – korrekciós intézkedés típusa' (BT-792-Review) = 'Kártérítés'</entry>
+<entry key="expression|name|195">'Felülvizsgálati kérelem visszavonva' (BT-796-Review) nem igaz</entry>
+<entry key="expression|name|196">'Felülvizsgálat azonosítója' (BT-784-Review) nincs kitöltve</entry>
 <entry key="expression|name|197">'A korábbi hirdetmény azonosítója' (BT-125i-Lot) nincs kitöltve</entry>
 <entry key="expression|name|198">'A korábbi hirdetmény azonosítója' (BT-125(i)-Part) nincs kitöltve</entry>
 <entry key="expression|name|199">'Időtartam' (BT-36-Lot) és 'Záró időpont' (BT-537-Lot) nincs kitöltve</entry>
@@ -115,13 +115,13 @@
 <entry key="expression|name|201">'A pályázatot követően a szolgáltatásnyújtásra irányuló szerződést a pályázat egyik nyertesének ítélik oda' ((BT-41-Lot)) nem igaz</entry>
 <entry key="expression|name|202">'A felülvizsgálati határidőkre vonatkozó információk' (BT-99-Lot) ki van töltve</entry>
 <entry key="expression|name|203">Egy tételt sem ítéltek oda</entry>
-<entry key="expression|name|204">'Szerződési ajánlat azonosítója' (BT-3202-Contract) nincs kitöltve</entry>
-<entry key="expression|name|205">'Az eljárás típusa' (BT-105) nem 'Felhívás nélküli tárgyalásos eljárás'; 'Jogalap' (BT-01) nem '(EU, Euratom) 2018/1046 rendelet'; legalább egy 'Szerződési ajánlat azonosítója' (BT-3202-Contract) ki van töltve</entry>
+<entry key="expression|name|204">'Szerződés ajánlati azonosítója' (BT-3202-Contract) nincs kitöltve</entry>
+<entry key="expression|name|205">'Az eljárás típusa' (BT-105) nem 'Felhívás nélküli tárgyalásos eljárás'; 'Jogalap' (BT-01) nem '(EU, Euratom) 2018/1046 rendelet'; legalább egy 'Szerződés ajánlati azonosítója' (BT-3202-Contract) ki van töltve</entry>
 <entry key="expression|name|206">'A szerződés odaítélésére keretmegállapodáson belül kerül sor' (BT-768-Contract) nem igaz</entry>
 <entry key="expression|name|207">'Ajánlat azonosítója' (BT-3201-Tender) ki van töltve</entry>
 <entry key="expression|name|209">'Az előző hirdetmény módosítandó változata' (BT-758-notice) nincs kitöltve</entry>
-<entry key="expression|name|21">'Az ország alegysége' B373(BT-5071-Lot) ki van töltve</entry>
-<entry key="expression|name|210">'A szakasz azonosítója' (BT-13716-notice) nincs kitöltve</entry>
+<entry key="expression|name|21">'Ország alegysége (NUTS)' B373(BT-5071-Lot) ki van töltve</entry>
+<entry key="expression|name|210">'Szakaszazonosító' (BT-13716-notice) nincs kitöltve</entry>
 <entry key="expression|name|211">A „Módosultak a közbeszerzési dokumentumok“ indikátor (BT-718-notice) nem igaz</entry>
 <entry key="expression|name|212">'A változtatás fő oka' (BT-140-notice) nincs kitöltve</entry>
 <entry key="expression|name|213">Az uniós cégbejegyzésre vonatkozik</entry>
@@ -134,9 +134,9 @@
 <entry key="expression|name|22">'Kezdő időpont' (BT-536-Lot) nem üres</entry>
 <entry key="expression|name|220">'A gyorsított eljárás indoklása' (BT-1351-Procedure) nincs kitöltve</entry>
 <entry key="expression|name|221">'A közvetlen odaítélés indoklása' (BT-136-Procedure) nincs kitöltve</entry>
-<entry key="expression|name|222">'A nyertes kiválasztásának státusza' (BT-142-LotResult) nincs kitöltve</entry>
+<entry key="expression|name|222">'Van-e nyertes kiválasztva?' (BT-142-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|223">'Annak oka, hogy miért nem választották ki a nyertest' (BT-144-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|224">'Az ebbe a tételcsoportba tartozó keretmegállapodások maximális értéke' (BT-156-NoticeResult) nincs kitöltve</entry>
+<entry key="expression|name|224">'Az e részcsoporton belüli keretmegállapodások maximális értéke' (BT-156-NoticeResult) nincs kitöltve</entry>
 <entry key="expression|name|225">'A koncessziót megadó ajánlatkérő szervezettől származó becsült bevétel' (BT-160-Tender) nincs kitöltve</entry>
 <entry key="expression|name|226">'Az ebben az eljárásban odaítélt valamennyi szerződés értéke' (BT-161-NoticeResult) nincs kitöltve</entry>
 <entry key="expression|name|227">'A koncesszió felhasználóitól származó becsült bevétel' (BT-162-Tender) nincs kitöltve</entry>
@@ -149,38 +149,38 @@
 <entry key="expression|name|233">'Típus' (BT-539-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|234">'Leírás' (BT-540-Lot) nincs kitöltve</entry>
 <entry key="expression|name|235">'Leírás' (BT-540-LotsGroup) nincs kitöltve</entry>
-<entry key="expression|name|236">'Az odaítélési kritérium száma' (BT-541-Lot) nincs kitöltve</entry>
-<entry key="expression|name|237">'Az odaítélési kritérium száma' (BT-541-LotsGroup) nincs kitöltve</entry>
-<entry key="expression|name|238">'A szám a súly típusa' (BT-5421-Lot) nincs kitöltve</entry>
-<entry key="expression|name|239">'A szám a súly típusa' (BT-5421-LotsGroup) nincs kitöltve</entry>
+<entry key="expression|name|236">'Értékelési szempont száma' (BT-541-Lot) nincs kitöltve</entry>
+<entry key="expression|name|237">'Értékelési szempont száma' (BT-541-LotsGroup) nincs kitöltve</entry>
+<entry key="expression|name|238">'A szám valamilyen súlyozás' (BT-5421-Lot) nincs kitöltve</entry>
+<entry key="expression|name|239">'A szám valamilyen súlyozás' (BT-5421-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|24">'Kezdő időpont' (BT-536-Lot) nincs kitöltve</entry>
-<entry key="expression|name|240">'A szám egy fix érték' (BT-5422-Lot) nincs kitöltve</entry>
-<entry key="expression|name|241">'A szám egy fix érték' (BT-5422-LotsGroup) nincs kitöltve</entry>
-<entry key="expression|name|242">'A szám a küszöb típusa' (BT-5423-Lot) nincs kitöltve</entry>
-<entry key="expression|name|243">'A szám a küszöb típusa' (BT-5423-LotsGroup) nincs kitöltve</entry>
+<entry key="expression|name|240">'A szám rögzített érték' (BT-5422-Lot) nincs kitöltve</entry>
+<entry key="expression|name|241">'A szám rögzített érték' (BT-5422-LotsGroup) nincs kitöltve</entry>
+<entry key="expression|name|242">'A szám valamilyen küszöbérték' (BT-5423-Lot) nincs kitöltve</entry>
+<entry key="expression|name|243">'A szám valamilyen küszöbérték' (BT-5423-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|244">'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-Lot) nincs kitöltve</entry>
 <entry key="expression|name|245">'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-LotsGroup) nincs kitöltve</entry>
-<entry key="expression|name|246">'Az alvállalkozói szerződések értéke' (BT-553-Tender) nincs kitöltve</entry>
+<entry key="expression|name|246">'Az alvállalkozás értéke' (BT-553-Tender) nincs kitöltve</entry>
 <entry key="expression|name|247">'Leírás' (BT-554-Tender) nincs kitöltve</entry>
-<entry key="expression|name|248">'Az alvállalkozók százalékos aránya' (BT-555-Tender) nincs kitöltve</entry>
-<entry key="expression|name|249">'Csoport-keretérték tételazonosító' (BT-556-NoticeResult) nincs kitöltve</entry>
+<entry key="expression|name|248">'Az alvállalkozás százalékos aránya' (BT-555-Tender) nincs kitöltve</entry>
+<entry key="expression|name|249">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556-NoticeResult) nincs kitöltve</entry>
 <entry key="expression|name|25">'A megújítások maximális száma' (BT-58-Lot) nem nagyobb, mint 0</entry>
 <entry key="expression|name|250">'A keretmegállapodás maximális értéke' (BT-709-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|251">'A legalacsonyabb érvényes ajánlat értéke' (BT-710-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|252">'A legmagasabb érvényes ajánlat értéke' (BT-711-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|253">'A panaszosok száma' (BT-712(a)-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|254">'Az eredmény értéke' (BT-720-Tender) nincs kitöltve</entry>
-<entry key="expression|name|255">'Az alvállalkozás értéke ismert' (BT-730-Tender) nincs kitöltve</entry>
-<entry key="expression|name|256">'Ismert az alvállalkozói szerződések százalékos aránya' (BT-731-Tender) nincs kitöltve</entry>
+<entry key="expression|name|255">'Az alvállalkozásba adott szerződésrész értéke ismert' (BT-730-Tender) nincs kitöltve</entry>
+<entry key="expression|name|256">'Az alvállalkozásba adott szerződésrész százalékos aránya ismert' (BT-731-Tender) nincs kitöltve</entry>
 <entry key="expression|name|257">'Annak indoklása, hogy az odaítélési szempontok súlyozását miért nem tüntették fel' (BT-733-Lot) nincs kitöltve</entry>
 <entry key="expression|name|258">'Annak indoklása, hogy az odaítélési szempontok súlyozását miért nem tüntették fel' (BT-733-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|259">'Megnevezés' (BT-734-Lot) nincs kitöltve</entry>
 <entry key="expression|name|26">'A szerződés jellege' (BT-23-Lot) nem 'Szolgáltatások'</entry>
 <entry key="expression|name|260">'Megnevezés' (BT-734-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|261">'A beérkezett ajánlatok vagy részvételi jelentkezések száma' (BT-759-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|262">'A beérkezett beadványok típusa' (BT-760-LotResult) nincs kitöltve</entry>
+<entry key="expression|name|262">'A benyújtott beadványok típusa' (BT-760-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|263">'Alvállalkozás' (BT-773-Tender) nincs kitöltve</entry>
-<entry key="expression|name|264">'Az eljárás fő jellemzői' (BT-88-Procedure) nincs kitöltve</entry>
+<entry key="expression|name|264">'Az eljárás legfontosabb jellemzői' (BT-88-Procedure) nincs kitöltve</entry>
 <entry key="expression|name|265">'Később közzéteendő mező' (BT-195(BT-09)-Procedure) nincs kitöltve</entry>
 <entry key="expression|name|266">'Később közzéteendő mező' (BT-195(BT-105)-Procedure) nincs kitöltve</entry>
 <entry key="expression|name|267">'Később közzéteendő mező' (BT-195(BT-106)-Procedure) nincs kitöltve</entry>
@@ -231,7 +231,7 @@
 <entry key="expression|name|307">'Később közzéteendő mező' (BT-195(BT-731)-Tender) nincs kitöltve</entry>
 <entry key="expression|name|308">'Később közzéteendő mező' (BT-195(BT-733)-Lot) nincs kitöltve</entry>
 <entry key="expression|name|309">'Később közzéteendő mező' (BT-195(BT-733)-LotsGroup) nincs kitöltve</entry>
-<entry key="expression|name|31">'A kiválasztási kritériumok második szakaszának meghívási száma' (BT-752-Lot) nem üres</entry>
+<entry key="expression|name|31">'Alkalmassági követelmények második szakaszhoz – meghívási szám' (BT-752-Lot) nem üres</entry>
 <entry key="expression|name|310">'Később közzéteendő mező' (BT-195(BT-734)-Lot) nincs kitöltve</entry>
 <entry key="expression|name|311">'Később közzéteendő mező' (BT-195(BT-734)-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|312">'Később közzéteendő mező' (BT-195(BT-759)-LotResult) nincs kitöltve</entry>
@@ -241,43 +241,43 @@
 <entry key="expression|name|316">Egynél több tétel van</entry>
 <entry key="expression|name|317">'Ez egy ismétlődő közbeszerzés' ((BT-94-Lot)) nem 'igen'</entry>
 <entry key="expression|name|318">'Az eljárás típusa' (BT-105-Lot) = 'Nyitott'</entry>
-<entry key="expression|name|319">'ID – Szervezeti kapcsolattartó pont' (OPT-301-Lot-ReviewInfo) nincs kitöltve</entry>
-<entry key="expression|name|32">'A kiválasztási kritériumok második szakaszának meghívási száma' (BT-752-Lot) nem üres</entry>
-<entry key="expression|name|320">'Elektronikus árverést alkalmaznak' ((BT-767-Lot)) nem 'igen'</entry>
+<entry key="expression|name|319">'Azonosító – Szervezet kapcsolattartója' (OPT-301-Lot-ReviewInfo) nincs kitöltve</entry>
+<entry key="expression|name|32">'Alkalmassági követelmények második szakaszhoz – meghívási szám' (BT-752-Lot) nem üres</entry>
+<entry key="expression|name|320">'Elektronikus árlejtés alkalmazására kerül sor' ((BT-767-Lot)) nem 'igen'</entry>
 <entry key="expression|name|321">'Az eljárás típusa' (BT-105) nem 'Zárt'</entry>
-<entry key="expression|name|322">'A jármű típusa' (OPT-155-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|323">'A nyertes kiválasztásának státusza' (BT-142-LotResult) = 'A nyertes kiválasztására még nem került sor, azonban a verseny még tart.'</entry>
-<entry key="expression|name|324">'A nyertes kiválasztásának státusza' (BT-142-LotResult) = 'A nyertes kiválasztására még nem került sor, azonban a verseny még tart.', vagy nem érkezett be ajánlat, vagy a(z) (BT-709, BT-660) keretmegállapodás értéke ki van töltve</entry>
-<entry key="expression|name|325">'A nyertes kiválasztásának státusza' (BT-142-LotResult) = 'A nyertes kiválasztására sor került, és a verseny lezárult.', érkezett be ajánlat, vagy a(z) (BT-709, BT-660) keretmegállapodásnak nincs értéke kitöltve</entry>
+<entry key="expression|name|322">'Jármű típusa' (OPT-155-LotResult) nincs kitöltve</entry>
+<entry key="expression|name|323">'Van-e nyertes kiválasztva?' (BT-142-LotResult) = 'A nyertes kiválasztására még nem került sor, azonban a verseny még tart.'</entry>
+<entry key="expression|name|324">'Van-e nyertes kiválasztva?' (BT-142-LotResult) = 'A nyertes kiválasztására még nem került sor, azonban a verseny még tart.', vagy nem érkezett be ajánlat, vagy a(z) (BT-709, BT-660) keretmegállapodás értéke ki van töltve</entry>
+<entry key="expression|name|325">'Van-e nyertes kiválasztva?' (BT-142-LotResult) = 'A nyertes kiválasztására sor került, és a verseny lezárult.', érkezett be ajánlat, vagy a(z) (BT-709, BT-660) keretmegállapodásnak nincs értéke kitöltve</entry>
 <entry key="expression|name|326">'A legmagasabb érvényes ajánlat értéke' (BT-711-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|327">'A közvetlen odaítélés indoklása' (BT-136-Procedure) a következők egyike: 'A korábbi építési beruházás vagy szolgáltatás megismétlését jelentő új építési beruházás vagy szolgáltatás megrendelésére került sor, az irányelvben megállapított szigorú feltételeknek megfelelően'; 'Az előzetes hirdetményre nem érkezett megfelelő ajánlat, részvételi jelentkezés vagy kérelem'; 'Az eredeti szállítótól az irányelvben foglalt szigorú feltételek szerint megrendelt, meglévő áruk vagy felszerelések részleges pótlása vagy kibővítése'; 'A tervpályázat szabályai szerint a nyertesnek vagy az egyik nyertesnek odaítélendő szolgáltatási szerződés'</entry>
 <entry key="expression|name|328">'Elektronikus benyújtás' (BT-17-Lot) = 'Nem megengedett'</entry>
 <entry key="expression|name|329">'Elektronikus benyújtás' (BT-17-Lot) = 'Nem megengedett'</entry>
-<entry key="expression|name|33">'Az eljárás második szakaszába behívható pályázók maximális száma van' (BT-661-Lot) nem 'igen'</entry>
+<entry key="expression|name|33">'Meg van határozva az eljárás második szakaszára meghívandó jelentkezők maximális száma.' (BT-661-Lot) nem 'igen'</entry>
 <entry key="expression|name|330">'Az ajánlatkérő szervezet jogi típusa' (BT-11-Procedure-Buyer) nem a következők egyike: 'Közvállalkozás'; 'Központi kormányzati szerv által ellenőrzött közvállalkozás'; 'Helyi szerv által ellenőrzött közvállalkozás'; 'Regionális szerv által ellenőrzött közvállalkozás' vagy 'Különleges vagy kizárólagos jogokkal rendelkező jogi személy'</entry>
 <entry key="expression|name|331">'Az ajánlatkérő szervezet jogi típusa' (BT-11-Procedure-Buyer) nem a következők egyike: 'Közjogi intézmény'; 'Központi kormányzati szerv által ellenőrzött közjogi intézmény'; 'Helyi szerv által ellenőrzött közjogi intézmény'; 'Regionális szerv által ellenőrzött közjogi intézmény'; 'Központi kormányzati szerv'; 'Védelmi vállalkozó'; 'EU-intézmény, -szerv vagy -ügynökség'; 'Hatóságok csoportja'; 'Nemzetközi szervezet'; 'Helyi hatóság'; 'Ajánlatkérő szerv által támogatott szerződést odaítélő szervezet'; 'Központi kormányzati szerv által támogatott szerződést odaítélő szervezet'; 'Helyi kormányzati szerv által támogatott szerződést odaítélő szervezet'; 'Regionális kormányzati szerv által támogatott szerződést odaítélő szervezet'; 'Regionális hatóság'</entry>
 <entry key="expression|name|332">A tételre vonatkozó eljárás befejeződött, és nem került odaítélésre</entry>
 <entry key="expression|name|333">A legalacsonyabb/legmagasabb ajánlati érték és a keretmegállapodás maximális/becsült értéke nincs kitöltve</entry>
 <entry key="expression|name|334">Ez nem keretszerződés; Nem választottak ki nyertest</entry>
-<entry key="expression|name|335">'Keretmegállapodásról van szó' (BT-765-Lot) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül', és 'A nyertes kiválasztásának státusza' (BT-142-LotResult) = 'Legalább egy nyertes kiválasztására sor került.', és (BT-709-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|336">'Keretmegállapodásról van szó' (BT-765-Lot) nem a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül', és 'A nyertes kiválasztásának státusza' (BT-142-LotResult) = 'Legalább egy nyertes kiválasztására sor került.', és (BT-660-LotResult) nincs kitöltve</entry>
+<entry key="expression|name|335">'Keretmegállapodás' (BT-765-Lot) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül', és 'Van-e nyertes kiválasztva?' (BT-142-LotResult) = 'Legalább egy nyertes kiválasztására sor került.', és (BT-709-LotResult) nincs kitöltve</entry>
+<entry key="expression|name|336">'Keretmegállapodás' (BT-765-Lot) nem a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül', és 'Van-e nyertes kiválasztva?' (BT-142-LotResult) = 'Legalább egy nyertes kiválasztására sor került.', és (BT-660-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|337">Ez nem keretszerződés; 'A keretmegállapodás maximális értéke' (BT-709-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|338">Nem választottak nyertest; Ez nem keretszerződés; 'A keretmegállapodás maximális értéke' (BT-709-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|339">Nem választották ki a nyertest; Ez nem keretszerződés</entry>
 <entry key="expression|name|34">'Az eljárás típusa' (BT-105) nem lehet 'Versenypárbeszéd', 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
 <entry key="expression|name|340">Nem használnak dinamikus beszerzési rendszert</entry>
 <entry key="expression|name|341">A szervezet nem járhat el mint 'Azonosító – Szervezet' (OPT-300-Tenderer) vagy alvállalkozó (OPT-301-Tenderer-SubCont)</entry>
-<entry key="expression|name|342">Ha a szervezet benyújtott 'Azonosító – Ajánlattevő fél' (OPT-310-Tender), melynek eredménye 'Szerződési ajánlat azonosítója' (BT-3202-Contract) volt, akkor ez a szervezet nyertes</entry>
-<entry key="expression|name|343">'Személyi igazolvány – tényleges tulajdonos' (OPT-202-UBO) nincs kitöltve</entry>
+<entry key="expression|name|342">Ha a szervezet benyújtott 'Azonosító – Ajánlattevő fél' (OPT-310-Tender), melynek eredménye 'Szerződés ajánlati azonosítója' (BT-3202-Contract) volt, akkor ez a szervezet nyertes</entry>
+<entry key="expression|name|343">'Azonosító – Tényleges tulajdonos' (OPT-202-UBO) nincs kitöltve</entry>
 <entry key="expression|name|345">A szervezet nem egy 'Vevő'</entry>
 <entry key="expression|name|346">A szervezet vevő, és a dinamikus beszerzési rendszert a jelen hirdetményben nem szereplő vevők is használhatják, és a jogalap eltér ettől: 'Egyéb', 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) pedig nincs kitöltve</entry>
 <entry key="expression|name|347">A szervezet vevő, és a dinamikus beszerzési rendszert a jelen hirdetményben nem szereplő vevők is használhatják, és a jogalap eltér ettől: 'Egyéb', 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) pedig nincs kitöltve</entry>
 <entry key="expression|name|348">'Ez az eljárás több szakaszból áll. Minden szakaszban kiesik néhány résztvevő' ((BT-52-Lot)) nem 'igen'; 'Az eljárás típusa' (BT-105) nem a következők egyike: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'; 'Egyéb többszakaszos eljárás'; 'Zárt'</entry>
 <entry key="expression|name|349">Ez egy keretszerződés</entry>
 <entry key="expression|name|35">'Az eljárás típusa' (BT-105) nem tartozik a következők közé: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
-<entry key="expression|name|350">A szervezet nem része pályázó félnek; 'A szervezet természetes személy' (BT-633-Organization); 'A nyertes szabályozott piacon jegyzett' (BT-746-Organization)</entry>
-<entry key="expression|name|351">A(z) (OPT-200-Organization-Company) szervezet úgy vesz részt a nyertes pályázatban mint fő (OPT-300-Tenderer) vagy (OPT-301-Tenderer-SubCont) alpályázó; 'A szervezet természetes személy' (BT-633-Organization) = 'nem', és 'A nyertes szabályozott piacon jegyzett' (BT-746-Organization) = 'nem'</entry>
-<entry key="expression|name|352">Legalább egy szervezet kapcsolatban áll ezzel: 'A tényleges tulajdonosra vonatkozó hivatkozás' (OPT-302-Organization)</entry>
+<entry key="expression|name|350">A szervezet nem része pályázó félnek; 'A szervezet természetes személy.' (BT-633-Organization); 'A nyertes szabályozott piacon jegyzett' (BT-746-Organization)</entry>
+<entry key="expression|name|351">A(z) (OPT-200-Organization-Company) szervezet úgy vesz részt a nyertes pályázatban mint fő (OPT-300-Tenderer) vagy (OPT-301-Tenderer-SubCont) alpályázó; 'A szervezet természetes személy.' (BT-633-Organization) = 'nem', és 'A nyertes szabályozott piacon jegyzett' (BT-746-Organization) = 'nem'</entry>
+<entry key="expression|name|352">Legalább egy szervezet kapcsolatban áll ezzel: 'Tényleges tulajdonos – hivatkozás' (OPT-302-Organization)</entry>
 <entry key="expression|name|353">'Az eljárás típusa' (BT-105) = 'Nyitott' vagy 'Zárt'</entry>
 <entry key="expression|name|354">'Az eljárás típusa' (BT-105) = 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
 <entry key="expression|name|355">A szervezet nem vevő, vagy csak egy vevő van</entry>
@@ -299,7 +299,7 @@
 <entry key="expression|name|371">A tételcsoport egy vagy kevesebb tételt tartalmaz</entry>
 <entry key="expression|name|372">'Típus' (BT-747-Lot) nincs kitöltve</entry>
 <entry key="expression|name|373">Keretmegállapodás nélküli tételekből álló tételcsoport</entry>
-<entry key="expression|name|374">'Az ajánlattevő által az alvállalkozói szerződéssel kapcsolatban teljesítendő kötelezettség' (BT-66) nincs kitöltve</entry>
+<entry key="expression|name|374">'Az ajánlattevő által az alvállalkozásba adás tekintetében betartandó kötelezettség' (BT-66) nincs kitöltve</entry>
 <entry key="expression|name|375">'Záró időpont' (BT-537-Part) ki van töltve; 'Egyéb időtartam' (BT-538-Part) ki van töltve</entry>
 <entry key="expression|name|376">'Időtartam' (BT-36-Part) és 'Záró időpont' (BT-537-Part) nincs kitöltve</entry>
 <entry key="expression|name|377">'Időtartam' (BT-36-Part) ki van töltve; 'Egyéb időtartam' (BT-538-Part) ki van töltve</entry>
@@ -307,13 +307,13 @@
 <entry key="expression|name|379">A szervezet nem szolgáltató, és nem olyan ajánlattevő vagy alvállalkozó, amely nincs jelen valamely szabályozott piacon</entry>
 <entry key="expression|name|380">A szervezet nem szolgáltató</entry>
 <entry key="expression|name|381">'Leírás' (BT-67(a)-Procedure) nincs kitöltve</entry>
-<entry key="expression|name|382">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Telefonszám' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'ID – Egyedi kapcsolattartó pont' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
-<entry key="expression|name|383">'Telefonszám' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'ID – Egyedi kapcsolattartó pont' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
-<entry key="expression|name|384">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'ID – Egyedi kapcsolattartó pont' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
-<entry key="expression|name|385">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Telefonszám' (BT-503-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'ID – Egyedi kapcsolattartó pont' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
-<entry key="expression|name|386">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Telefonszám' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'ID – Egyedi kapcsolattartó pont' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
+<entry key="expression|name|382">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Telefonszám' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'Azonosító – Kijelölt kapcsolattartó' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
+<entry key="expression|name|383">'Telefonszám' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'Azonosító – Kijelölt kapcsolattartó' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
+<entry key="expression|name|384">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'Azonosító – Kijelölt kapcsolattartó' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
+<entry key="expression|name|385">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Telefonszám' (BT-503-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'Azonosító – Kijelölt kapcsolattartó' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
+<entry key="expression|name|386">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Telefonszám' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint), 'Információcsere végpontja (URL)' (BT-509-Organization-TouchPoint) nincs kitöltve; 'Azonosító – Kijelölt kapcsolattartó' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
 <entry key="expression|name|387">'Ország' (BT-514-Organization-TouchPoint) nincs kitöltve</entry>
-<entry key="expression|name|388">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Telefonszám' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint) nincs kitöltve; 'ID – Egyedi kapcsolattartó pont' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
+<entry key="expression|name|388">'E-mail-cím' (BT-506-Organization-TouchPoint), 'Telefonszám' (BT-503-Organization-TouchPoint), 'Fax' (BT-739-Organization-TouchPoint), 'Hivatalos név' (BT-500-Organization-TouchPoint), 'Internetcím' (BT-505-Organization-TouchPoint) nincs kitöltve; 'Azonosító – Kijelölt kapcsolattartó' (OPT-201-Organization-TouchPoint) ki van töltve</entry>
 <entry key="expression|name|389">'Ország' (BT-514-Business) nem rendelkezik NUTS-kódokkal</entry>
 <entry key="expression|name|390">'Város' (BT-513-Business) nincs kitöltve</entry>
 <entry key="expression|name|391">'Postacím' (BT-510(a)-Business) nincs kitöltve</entry>
@@ -322,12 +322,12 @@
 <entry key="expression|name|394">'Ország' (BT-514-Business) nincs kitöltve</entry>
 <entry key="expression|name|395">'A határokon átnyúlóan alkalmazandó jog' (BT-09(a)-Procedure) nincs kitöltve</entry>
 <entry key="expression|name|4">'Az eljárás gyorsított' (BT-106-Procedure) nem 'igen'</entry>
-<entry key="expression|name|40">'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Lot) nincs korlátozva</entry>
+<entry key="expression|name|40">'Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van' (BT-14-Lot) nincs korlátozva</entry>
 <entry key="expression|name|405">Nem minden, a tételcsoporthoz tartozó tétel került odaítélésre, vagy csak egy tétel van abban a tételcsoportban, amelyben keretmegállapodásról van szó</entry>
-<entry key="expression|name|406">'Csoport-keretérték tételazonosító' (BT-557) nincs kitöltve</entry>
-<entry key="expression|name|41">'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Lot) nincs kitöltve</entry>
-<entry key="expression|name|42">'Bizonyos közbeszerzési dokumentumokhoz való hozzáférés korlátozott' (BT-14-Lot) korlátozott</entry>
-<entry key="expression|name|43">'Garanciára van szükség' (BT-751-Lot) nem 'igen'</entry>
+<entry key="expression|name|406">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-557) nincs kitöltve</entry>
+<entry key="expression|name|41">'Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van' (BT-14-Lot) nincs kitöltve</entry>
+<entry key="expression|name|42">'Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van' (BT-14-Lot) korlátozott</entry>
+<entry key="expression|name|43">'Biztosítéknyújtási kötelezettség áll fenn' (BT-751-Lot) nem 'igen'</entry>
 <entry key="expression|name|44">'Az eljárás típusa' (BT-105) a következők egyike: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'; 'Felhívás nélküli tárgyalásos eljárás'; 'Egyéb többszakaszos eljárás'; 'Egyéb egyszakaszos eljárás'; 'Zárt'</entry>
 <entry key="expression|name|45">'Az eljárás típusa' (BT-105-Lot) = 'Nyitott'</entry>
 <entry key="expression|name|46">'Az eljárás típusa' (BT-105-Lot) = 'Nyitott'</entry>
@@ -346,91 +346,91 @@
 <entry key="expression|name|507">'Az eljárás típusa' (BT-105) nem 'Innovációs partnerség' vagy 'Versenypárbeszéd'</entry>
 <entry key="expression|name|509">'Az eljárás típusa' (BT-105) nem 'Innovációs partnerség' vagy 'Versenypárbeszéd'; 'A díj értéke' (BT-644) nincs kitöltve</entry>
 <entry key="expression|name|51">'Az eljárás típusa' (BT-105-Lot) nem 'Nyitott'</entry>
-<entry key="expression|name|510">'Értesítés feladásának időpontja (eSender)' (BT-803(d)-notice) nincs kitöltve</entry>
-<entry key="expression|name|511">'Titoktartási megállapodás szükséges' (BT-801) = 'nem'</entry>
+<entry key="expression|name|510">'Hirdetmény megküldésének dátuma (az eSender rendszerben)' (BT-803(d)-notice) nincs kitöltve</entry>
+<entry key="expression|name|511">'Titoktartási megállapodásra van szükség' (BT-801) = 'nem'</entry>
 <entry key="expression|name|512">'Az uniós alapok azonosítója' (BT-5011) és 'Az uniós finanszírozású projekt vagy program neve' (BT-722) nincs kitöltve</entry>
-<entry key="expression|name|513">'Az uniós alapok azonosítója' (BT-5010) és 'Az uniós alapok programja' (BT-7220) nincs kitöltve</entry>
-<entry key="expression|name|514">'A közbeszerzés az Európai Parlament és a Tanács 2009/33/EK (tiszta járművekről szóló irányelv) hatálya alá tartozik' ((BT-717)) nem 'igen'</entry>
-<entry key="expression|name|515">'A közbeszerzés az Európai Parlament és a Tanács 2009/33/EK (tiszta járművekről szóló irányelv) hatálya alá tartozik' ((BT-717)) nem 'igen' e tétel esetében, vagy a tételt nem ítélték oda</entry>
-<entry key="expression|name|516">'A CVD jogalapja annak megállapításához, hogy a közbeszerzési eljárás mely kategóriáját kell alkalmazni ' (BT-735-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|517">'A 2009/33/EK irányelv hatálya alá tartozó járművek kategóriája, beleértve a következőket: Könnyű haszongépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|518">'A közbeszerzés az Európai Parlament és a Tanács 2009/33/EK (tiszta járművekről szóló irányelv) hatálya alá tartozik' ((BT-717)) nem 'igen' e tétel esetében</entry>
-<entry key="expression|name|52">'Bizonyos jogi formát a szerződést elnyert ajánlattevők csoportjának kell kialakítania' (BT-761-Lot) nem 'igen'</entry>
-<entry key="expression|name|520">'A szám a súly típusa' (BT-5421) nem 'Fontossági sorrend'</entry>
-<entry key="expression|name|523">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727), 'Az ország alegysége' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
-<entry key="expression|name|524">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727), 'Az ország alegysége' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
-<entry key="expression|name|525">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727), 'Az ország alegysége' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
+<entry key="expression|name|513">'Az uniós alapok azonosítója' (BT-5010) és 'Uniós alapok programja' (BT-7220) nincs kitöltve</entry>
+<entry key="expression|name|514">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' ((BT-717)) nem 'igen'</entry>
+<entry key="expression|name|515">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' ((BT-717)) nem 'igen' e tétel esetében, vagy a tételt nem ítélték oda</entry>
+<entry key="expression|name|516">'A tiszta járművekről szóló irányelv szerinti jogalap annak megállapítására, hogy a szerződéstípusok mely kategóriái alkalmazandók ' (BT-735-LotResult) nincs kitöltve</entry>
+<entry key="expression|name|517">'A 2009/33/EK irányelv hatálya alá tartozó járműkategória, beleértve a következőket: Könnyűgépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) nincs kitöltve</entry>
+<entry key="expression|name|518">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' ((BT-717)) nem 'igen' e tétel esetében</entry>
+<entry key="expression|name|52">'A szerződést elnyerő ajánlattevők csoportjának valamilyen jogi formát kell öltenie' (BT-761-Lot) nem 'igen'</entry>
+<entry key="expression|name|520">'A szám valamilyen súlyozás' (BT-5421) nem 'Fontossági sorrend'</entry>
+<entry key="expression|name|523">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727), 'Ország alegysége (NUTS)' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
+<entry key="expression|name|524">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727), 'Ország alegysége (NUTS)' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
+<entry key="expression|name|525">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727), 'Ország alegysége (NUTS)' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
 <entry key="expression|name|528">'Ország' (BT-514-Organization-Touchpoint) nem rendelkezik irányítószámokkal</entry>
 <entry key="expression|name|529">'A felülvizsgálati határidőkre vonatkozó információk' (BT-99-Lot) nincs kitöltve</entry>
-<entry key="expression|name|53">'Az ajánlattevő által az alvállalkozói szerződéssel kapcsolatban teljesítendő kötelezettség' (BT-65_Lot) nem 'A vállalkozónak a szerződés bizonyos százalékát a 2009/81/EK irányelv III. címében foglalt eljáráson keresztül kell alvállalkozásba adnia.'</entry>
-<entry key="expression|name|530">'A tényleges tulajdonosra vonatkozó hivatkozás' (OPT-302-Organization) nincs kapcsolatban egyetlen szervezettel sem</entry>
-<entry key="expression|name|531">'Azonosító – Társaság' (OPT-200-Organization-Company) nincs kitöltve</entry>
-<entry key="expression|name|532">'ID – Egyedi kapcsolattartó pont' (OPT-201-Organization-TouchPoint) nincs kitöltve</entry>
-<entry key="expression|name|534">'A pályázatot rangsorolták' (BT-1711) nincs kitöltve; 'A pályázatot rangsorolták' (BT-1711) = 'nem'</entry>
+<entry key="expression|name|53">'Az ajánlattevő által az alvállalkozásba adás tekintetében betartandó kötelezettség' (BT-65_Lot) nem 'A vállalkozónak a szerződés bizonyos százalékát a 2009/81/EK irányelv III. címében foglalt eljáráson keresztül kell alvállalkozásba adnia.'</entry>
+<entry key="expression|name|530">'Tényleges tulajdonos – hivatkozás' (OPT-302-Organization) nincs kapcsolatban egyetlen szervezettel sem</entry>
+<entry key="expression|name|531">'Azonosító – Cég' (OPT-200-Organization-Company) nincs kitöltve</entry>
+<entry key="expression|name|532">'Azonosító – Kijelölt kapcsolattartó' (OPT-201-Organization-TouchPoint) nincs kitöltve</entry>
+<entry key="expression|name|534">'Az ajánlatot rangsorolták' (BT-1711) nincs kitöltve; 'Az ajánlatot rangsorolták' (BT-1711) = 'nem'</entry>
 <entry key="expression|name|535">A tételben nincs keretmegállapodás</entry>
 <entry key="expression|name|537">A tételek egyikében sincs keretmegállapodás</entry>
 <entry key="expression|name|538">A tételcsoportok egyik tételében sincs keretmegállapodás</entry>
 <entry key="expression|name|539">Ez nem keretszerződés; 'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|54">'Az ajánlattevő által az alvállalkozói szerződéssel kapcsolatban teljesítendő kötelezettség' (BT-65_Lot) nem 'A vállalkozónak a szerződés bizonyos százalékát a 2009/81/EK irányelv III. címében foglalt eljáráson keresztül kell alvállalkozásba adnia.'</entry>
+<entry key="expression|name|54">'Az ajánlattevő által az alvállalkozásba adás tekintetében betartandó kötelezettség' (BT-65_Lot) nem 'A vállalkozónak a szerződés bizonyos százalékát a 2009/81/EK irányelv III. címében foglalt eljáráson keresztül kell alvállalkozásba adnia.'</entry>
 <entry key="expression|name|540">Nem volt nyertes; Ez nem keretszerződés; 'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|542">'Csoport-keretérték tételazonosító' (BT-556) ki van töltve, és '' nincs kitöltve</entry>
-<entry key="expression|name|543">'Csoport-keretérték tételazonosító' (BT-556) ki van töltve, és 'A részcsoporton belüli keretmegállapodás becsült értéke' nincs kitöltve</entry>
-<entry key="expression|name|544">'A keretmegállapodások hozzávetőleges értéke' (BT-1118-NoticeResult) nincs kitöltve</entry>
+<entry key="expression|name|542">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556) ki van töltve, és 'Group Framework Re-estimated Value (BT-1561)' nincs kitöltve</entry>
+<entry key="expression|name|543">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556) ki van töltve, és 'A részcsoporton belüli keretmegállapodás becsült értéke' nincs kitöltve</entry>
+<entry key="expression|name|544">'A keretmegállapodások megközelítő értéke' (BT-1118-NoticeResult) nincs kitöltve</entry>
 <entry key="expression|name|545">'Később közzéteendő mező' (BT-195(BT-1118)-NoticeResult) nincs kitöltve</entry>
-<entry key="expression|name|546">'A keretmegállapodások újrabecsült értéke egy tételcsoporton belül' (BT-1561-NoticeResult) nincs kitöltve</entry>
+<entry key="expression|name|546">'Részcsoporton belüli keretmegállapodások újrabecsült értéke' (BT-1561-NoticeResult) nincs kitöltve</entry>
 <entry key="expression|name|547">'Később közzéteendő mező' (BT-195(BT-1561)-NoticeResult) nincs kitöltve</entry>
 <entry key="expression|name|548">Egy tételt sem ítéltek oda, és az egyetlen nem odaítélési ok: 'Nem érkeztek be ajánlatok, részvételi jelentkezések vagy projektek'</entry>
 <entry key="expression|name|549">Legalább egy tételt odaítéltek</entry>
-<entry key="expression|name|55">'Keretmegállapodásról van szó' (BT-765-Lot) nem tartozik a következők közé: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'</entry>
+<entry key="expression|name|55">'Keretmegállapodás' (BT-765-Lot) nem tartozik a következők közé: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'</entry>
 <entry key="expression|name|550">'Azonosító – Ajánlat' (OPT-321-Tender) nincs kitöltve</entry>
 <entry key="expression|name|551">'Azonosító – Ajánlat' (OPT-321-Tender) nincs kitöltve</entry>
-<entry key="expression|name|552">'ID – Lot eredmény' (OPT-322) nincs kitöltve</entry>
-<entry key="expression|name|553">'A tételek eredményei' nincs kitöltve; A tételre vonatkozó, 'Az eljárás sorsának eredménye' által lefedett pályázat nincs kitöltve; Nincs kitöltve pályázat, és nem adtak meg tételt ehhez: 'Az eljárás sorsának eredménye'; A verseny még folyamatban van</entry>
+<entry key="expression|name|552">'Azonosító – Rész eredménye' (OPT-322) nincs kitöltve</entry>
+<entry key="expression|name|553">'A részek eredményei' nincs kitöltve; A tételre vonatkozó, 'Eljárás részére vonatkozó eredmény' által lefedett pályázat nincs kitöltve; Nincs kitöltve pályázat, és nem adtak meg tételt ehhez: 'Eljárás részére vonatkozó eredmény'; A verseny még folyamatban van</entry>
 <entry key="expression|name|554">Egy tételt sem ítéltek oda</entry>
 <entry key="expression|name|555">'Azonosító – Szerződés' (OPT-316-Contract) nincs kitöltve; 'Azonosító – Ajánlat' (OPT-321-Tender) nincs kitöltve</entry>
 <entry key="expression|name|556">'Azonosító – Szerződés' (OPT-316-Contract) nincs kitöltve</entry>
 <entry key="expression|name|557">A tétel azonosítója nincs kitöltve</entry>
 <entry key="expression|name|558">A szolgáltatót nem azonosították</entry>
-<entry key="expression|name|56">'Dinamikus beszerzési rendszerről van szó' (BT-766) = 'Dinamikus beszerzési rendszer, amely az e hirdetményben nem felsorolt vevők által is használható' vagy 'Dinamikus beszerzési rendszer, amely csak az e hirdetményben felsorolt vevők által használható'</entry>
+<entry key="expression|name|56">'Dinamikus beszerzési rendszer' (BT-766) = 'Dinamikus beszerzési rendszer, amely az e hirdetményben nem felsorolt vevők által is használható' vagy 'Dinamikus beszerzési rendszer, amely csak az e hirdetményben felsorolt vevők által használható'</entry>
 <entry key="expression|name|560">'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|561">'Később közzéteendő mező' (BT-195(BT-660)-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|568">'A végrehajtási követelmény kódja' (OPT-060-Lot) nincs kitöltve</entry>
-<entry key="expression|name|57">'Keretmegállapodásról van szó' (BT-765-Lot) = 'Nincs'</entry>
-<entry key="expression|name|58">'Keretmegállapodásról van szó' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'</entry>
+<entry key="expression|name|568">'Teljesítési követelmény – kód' (OPT-060-Lot) nincs kitöltve</entry>
+<entry key="expression|name|57">'Keretmegállapodás' (BT-765-Lot) = 'Nincs'</entry>
+<entry key="expression|name|58">'Keretmegállapodás' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'</entry>
 <entry key="expression|name|59">'Az eljárás típusa' (BT-105) nem 'Felhívás nélküli tárgyalásos eljárás'</entry>
-<entry key="expression|name|6">'Az ország alegysége' (BT-5071-Procedure) ki van töltve</entry>
+<entry key="expression|name|6">'Ország alegysége (NUTS)' (BT-5071-Procedure) ki van töltve</entry>
 <entry key="expression|name|60">'A közvetlen odaítélés indoklása' (BT-136-Result) ki van töltve</entry>
 <entry key="expression|name|61">'A közvetlen odaítélés indoklása' (BT-136-Procedure) nem tartozik a következők közé: 'Az előző hirdetményre csak szabálytalan vagy érvénytelen ajánlatok érkeztek. A tárgyalások az előző hirdetményre jelentkező összes olyan ajánlattevő – és csakis azon ajánlattevők – bevonásával zajlottak, amelyek megfeleltek a kiválasztási kritériumoknak, amelyekre nem vonatkoztak kizárási okok, és amelyek teljesítették az alaki követelményeket'; 'Az eredeti vállalkozó által nyújtott további építési beruházásra vagy szolgáltatásokra van szükség'; 'A korábbi építési beruházás vagy szolgáltatás megismétlését jelentő új építési beruházás vagy szolgáltatás megrendelésére került sor, az irányelvben megállapított szigorú feltételeknek megfelelően'; 'Az előzetes hirdetményre nem érkezett megfelelő ajánlat, részvételi jelentkezés vagy kérelem'; 'Az eredeti szállítótól az irányelvben foglalt szigorú feltételek szerint megrendelt, meglévő áruk vagy felszerelések részleges pótlása vagy kibővítése'; 'A tervpályázat szabályai szerint a nyertesnek vagy az egyik nyertesnek odaítélendő szolgáltatási szerződés'</entry>
-<entry key="expression|name|62">'A nyertes kiválasztásának státusza' (BT-142-LotResult) nem 'A nyertes kiválasztására sor került, és a verseny lezárult.'</entry>
-<entry key="expression|name|63">'Keretmegállapodásról van szó' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'; és 'A nyertes kiválasztásának státusza' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
-<entry key="expression|name|64">'Keretmegállapodásról van szó' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'; és 'A nyertes kiválasztásának státusza' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
-<entry key="expression|name|65">'A nyertes kiválasztásának státusza' (BT-142-LotResult) = 'Legalább egy nyertes kiválasztására sor került.'</entry>
-<entry key="expression|name|66">'A nyertes kiválasztásának státusza' (BT-142-LotResult) nem 'Legalább egy nyertes kiválasztására sor került.'; 'ID – Lot eredmény' (OPT-322) nincs kitöltve</entry>
+<entry key="expression|name|62">'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem 'A nyertes kiválasztására sor került, és a verseny lezárult.'</entry>
+<entry key="expression|name|63">'Keretmegállapodás' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'; és 'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
+<entry key="expression|name|64">'Keretmegállapodás' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'; és 'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
+<entry key="expression|name|65">'Van-e nyertes kiválasztva?' (BT-142-LotResult) = 'Legalább egy nyertes kiválasztására sor került.'</entry>
+<entry key="expression|name|66">'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem 'Legalább egy nyertes kiválasztására sor került.'; 'Azonosító – Rész eredménye' (OPT-322) nincs kitöltve</entry>
 <entry key="expression|name|67">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
-<entry key="expression|name|68">'Az alvállalkozás értéke ismert' (BT-730-Tender) nem 'igen'</entry>
+<entry key="expression|name|68">'Az alvállalkozásba adott szerződésrész értéke ismert' (BT-730-Tender) nem 'igen'</entry>
 <entry key="expression|name|69">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
 <entry key="expression|name|7">'Ország' (BT-5141-Part) ki van töltve</entry>
-<entry key="expression|name|70">'Ismert az alvállalkozói szerződések százalékos aránya' ((BT-731-Tender)) nem 'igen'</entry>
+<entry key="expression|name|70">'Az alvállalkozásba adott szerződésrész százalékos aránya ismert' ((BT-731-Tender)) nem 'igen'</entry>
 <entry key="expression|name|71">'Alvállalkozás' (BT-773-Tender) = 'Igen'</entry>
-<entry key="expression|name|72">Nem választottak nyertest, vagy 'Keretmegállapodásról van szó' (BT-765-Lot) nem felel meg az eljárás keretmegállapodásának</entry>
+<entry key="expression|name|72">Nem választottak nyertest, vagy 'Keretmegállapodás' (BT-765-Lot) nem felel meg az eljárás keretmegállapodásának</entry>
 <entry key="expression|name|74">'Az előző hirdetmény módosítandó változata' (BT-758-notice) nincs kitöltve</entry>
 <entry key="expression|name|76">'A díj értéke' (BT-644-Lot) nincs kitöltve</entry>
 <entry key="expression|name|77">'Az eljárás típusa' (BT-105) a következők egyike: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'; 'Egyéb többszakaszos eljárás'; 'Zárt'</entry>
 <entry key="expression|name|78">'Az eljárás típusa' (BT-105) nem tartozik a következők közé: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'; 'Egyéb többszakaszos eljárás'; 'Zárt'</entry>
 <entry key="expression|name|79">'A szándéknyilatkozatok beérkezésének határideje' (BT-630(d)-Lot) nincs kitöltve</entry>
-<entry key="expression|name|8">'Az ország alegysége' (BT-5071-Part) ki van töltve</entry>
+<entry key="expression|name|8">'Ország alegysége (NUTS)' (BT-5071-Part) ki van töltve</entry>
 <entry key="expression|name|80">'Az eljárás típusa' (BT-105) a következők egyike: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'; 'Egyéb többszakaszos eljárás'; 'Zárt'</entry>
-<entry key="expression|name|83">'Tender Fizetési érték' (BT-779-Tender) nincs kitöltve</entry>
+<entry key="expression|name|83">'Ajánlat kifizetési értéke' (BT-779-Tender) nincs kitöltve</entry>
 <entry key="expression|name|84">'A szerződés időtartama meghosszabbodik, mert a szolgáltatás nyújtásához alapvető eszközök szükségesek' (OPP-020-Contract) nem 'igen'</entry>
 <entry key="expression|name|85">'A közszolgáltatások nyújtására használt eszközök jegyzéke' (OPP-020-Contract) nem 'igen'</entry>
 <entry key="expression|name|86">'A rendelkezésre bocsátott alapvető eszközök jelentősége a közszolgáltatások nyújtásához szükséges összes eszközhöz viszonyítva' (OPP-020-Contract) nem 'igen'</entry>
 <entry key="expression|name|87">'A szerződést védett foglalkoztatási programok keretében kell teljesíteni' (BT-736-Lot) nem 'igen'</entry>
 <entry key="expression|name|89">'Azonosító – Szerződés' (OPT-315-LotResult) nem üres</entry>
-<entry key="expression|name|90">'A nyertes kiválasztásának státusza' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
+<entry key="expression|name|90">'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
 <entry key="expression|name|91">'Ajánlat azonosítója' (BT-3201-Tender) nincs kitöltve</entry>
-<entry key="expression|name|93">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727-Lot) = 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
-<entry key="expression|name|94">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727-Part) nem lehet 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
-<entry key="expression|name|95">'A teljesítés helyére vonatkozó egyéb korlátozások' (BT-727-Procedure) = 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
-<entry key="expression|name|96">'Az odaítélési kritérium száma' (BT-541-Lot) ki van töltve, 'A szám egy fix érték' (BT-5422-Lot) és 'A szám a küszöb típusa' (BT-5423-Lot) nincs kitöltve</entry>
-<entry key="expression|name|97">'Az odaítélési kritérium száma' (BT-541-LotsGroup) ki van töltve, 'A szám egy fix érték' (BT-5422-LotsGroup) és 'A szám a küszöb típusa' (BT-5423-LotsGroup) nincs kitöltve</entry>
+<entry key="expression|name|93">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727-Lot) = 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
+<entry key="expression|name|94">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727-Part) nem lehet 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
+<entry key="expression|name|95">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727-Procedure) = 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
+<entry key="expression|name|96">'Értékelési szempont száma' (BT-541-Lot) ki van töltve, 'A szám rögzített érték' (BT-5422-Lot) és 'A szám valamilyen küszöbérték' (BT-5423-Lot) nincs kitöltve</entry>
+<entry key="expression|name|97">'Értékelési szempont száma' (BT-541-LotsGroup) ki van töltve, 'A szám rögzített érték' (BT-5422-LotsGroup) és 'A szám valamilyen küszöbérték' (BT-5423-LotsGroup) nincs kitöltve</entry>
 </properties>

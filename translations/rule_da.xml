@@ -17778,7 +17778,7 @@
 <entry key="rule|text|BR-BT-00737-0125">BT-737-Lot er ikke tilladt i bekendtgørelsestype '23' under følgende betingelse: 'Adgangen til visse udbudsdokumenter er begrænset' (BT-14-Lot) er ikke udfyldt</entry>
 <entry key="rule|text|BR-BT-00737-0126">BT-737-Lot er ikke tilladt i bekendtgørelsestype '24' under følgende betingelse: 'Adgangen til visse udbudsdokumenter er begrænset' (BT-14-Lot) er ikke udfyldt</entry>
 <entry key="rule|text|BR-BT-00738-0052">BT-738-notice skal svare til følgende mønster: Date</entry>
-<entry key="rule|text|BR-BT-00738-0053">'Foretrukne udgivelsesdato' (BT-738-notice) skal være mellem 2 og 60 dage efter 'Afsendelsesdato for bekendtgørelsen'</entry>
+<entry key="rule|text|BR-BT-00738-0053">'Foretrukken offentliggørelsesdato' (BT-738-notice) skal være mellem 0 og 60 dage efter 'Afsendelsesdato for bekendtgørelsen'</entry>
 <entry key="rule|text|BR-BT-00739-0001">BT-739-Organization-Company er ikke tilladt i bekendtgørelsestype 'X01'</entry>
 <entry key="rule|text|BR-BT-00739-0002">BT-739-Organization-Company er ikke tilladt i bekendtgørelsestype 'X02'</entry>
 <entry key="rule|text|BR-BT-00739-0052">BT-739-Organization-Company skal svare til følgende mønster: PhoneNumber</entry>
