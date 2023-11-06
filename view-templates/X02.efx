@@ -1,6 +1,5 @@
 // View X02
-// sdkVersion='1.5.3'
-// File generated from metadata database version 1.7.0 created on the 2023-03-31T15:30
+// File generated from metadata database
 9 {ND-Root} #{auxiliary|text|object} // 9. Object
 	0 {ND-Root} #{auxiliary|text|legal-basis}: // Legal basis
 		{BT-01-notice} #{BT-01-notice} // Regulation reference
@@ -18,7 +17,7 @@
 		{BT-503-Business} #{name|BT-503}: ${BT-503-Business} // Telephone
 		{BT-739-Business} #{name|BT-739}: ${BT-739-Business} // Fax
 		{BT-505-Business} #{name|BT-505}: ${BT-505-Business} // Internet address
-	2 {OPP-105-Business} #{name|OPP-105-Business}: #{OPP-105-Business}  // 9.2 Sector of activity
+	2 {OPP-105-Business} #{name|OPP-105-Business}: #{OPP-105-Business} // 9.2 Sector of activity
 	3 {ND-Root} #{auxiliary|text|place-registration} // 9.3 Place of registration
 		{OPP-110-Business} #{name|OPP-110}: ${OPP-110-Business} // Town
 		{OPP-111-Business} #{name|OPP-111}: ${OPP-111-Business} // Post code
@@ -33,17 +32,14 @@
 	5 {OPP-130-Business} #{name|OPP-130}: ${OPP-130-Business} // 9.5 Additional information
 11 {ND-Root} #{auxiliary|text|notice-information} // 11. Notice information
 	1 {ND-Root} #{auxiliary|text|notice-information} // 11.1 Notice information
-		{BT-701-notice} #{name|BT-701}:  ${BT-701-notice} - ${BT-757-notice}  // Notice identifier / version
-		{BT-03-notice} #{name|BT-03}: #{BT-03-notice}  // Form type
-		{BT-02-notice} #{name|BT-02}: #{BT-02-notice} // Notice type
-		{OPP-070-notice} #{name|OPP-070}: ${OPP-070-notice} // Notice subtype
+		{BT-701-notice} #{field|name|BT-701-notice}: ${BT-701-notice} - ${BT-757-notice} // Notice identifier / version
+		{BT-03-notice} #{field|name|BT-03-notice}: #{BT-03-notice} // Form type
+		{BT-02-notice} #{field|name|BT-02-notice}: #{BT-02-notice} // Notice type
+		{OPP-070-notice} #{field|name|OPP-070-notice}: ${OPP-070-notice} // Notice subtype
 		{OPP-131-Business} #{name|OPP-131}: ${OPP-131-Business} // Sender's email address
-		{BT-05(a)-notice} #{name|BT-05}: ${BT-05(a)-notice} ${BT-05(b)-notice} // Notice dispatch date and time
-			// {BT-197(BT-05)-Notice} #{name|BT-197(BT-05)-Notice}: #{BT-197(BT-05)-Notice} // Unpublished Justification Code
-			// {BT-196(BT-05)-Notice} #{name|BT-196(BT-05)-Notice}: ${BT-196(BT-05)-Notice} // Unpublished Justification Description
-			// {BT-198(BT-05)-Notice} #{name|BT-198(BT-05)-Notice}: ${BT-198(BT-05)-Notice} // Unpublished Access Date
-		{BT-702(a)-notice} #{name|BT-702}: #{BT-702(a)-notice} #{BT-702(b)-notice} // Languages in which this notice is officially available
+		{BT-05(a)-notice} #{field|name|BT-05(a)-notice}: ${BT-05(a)-notice} ${BT-05(b)-notice} // Notice dispatch date and time
+		{BT-702(a)-notice} #{field|name|BT-702(a)-notice}: #{BT-702(a)-notice} #{BT-702(b)-notice} // Languages in which this notice is officially available
 	2 {ND-Root} #{auxiliary|text|publication-information} // 11.2 Publication information
-		{OPP-010-notice} #{name|OPP-010}: ${OPP-010-notice} // Notice publication number
-		{OPP-011-notice} #{name|OPP-011}: ${OPP-011-notice} // OJ S issue number
-		{OPP-012-notice} #{name|OPP-012}: ${OPP-012-notice} // Publication date
+		{OPP-010-notice} #{field|name|OPP-010-notice}: ${OPP-010-notice} // Notice publication number
+		{OPP-011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
+		{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date
