@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.139",
-    "createdOn" : "2023-10-30T18:13:53"
+    "version" : "1.9.145",
+    "createdOn" : "2023-11-07T14:29:34"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -4327,11 +4327,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-PublicOpening} ${(BT-132(d)-Lot is present) and (BT-1311(d)-Lot is present)}",
-        "value" : "{ND-PublicOpening} ${BT-132(d)-Lot > BT-1311(d)-Lot}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00132-0150"
-      }, {
         "condition" : "{ND-PublicOpening} ${(BT-132(d)-Lot is present) and (BT-131(d)-Lot is present)}",
         "value" : "{ND-PublicOpening} ${BT-132(d)-Lot >= BT-131(d)-Lot}",
         "severity" : "ERROR",
