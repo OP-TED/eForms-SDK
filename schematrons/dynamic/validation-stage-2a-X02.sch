@@ -729,9 +729,6 @@
 		<assert id="BR-OPP-00100-0002" role="ERROR" diagnostics="OPP-100-Business" test="count(cbc:PurposeCode) &gt; 0">rule|text|BR-OPP-00100-0002</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X02']">
-		<assert id="BR-OPP-00010-0002" role="ERROR" diagnostics="ND-RootExtension_OPP-010-notice" test="count(efac:Publication/efbc:NoticePublicationID[@schemeName='ojs-notice-id']) = 0">rule|text|BR-OPP-00010-0002</assert>
-		<assert id="BR-OPP-00011-0002" role="ERROR" diagnostics="ND-RootExtension_OPP-011-notice" test="count(efac:Publication/efbc:GazetteID[@schemeName='ojs-id']) = 0">rule|text|BR-OPP-00011-0002</assert>
-		<assert id="BR-OPP-00012-0002" role="ERROR" diagnostics="ND-RootExtension_OPP-012-notice" test="count(efac:Publication/efbc:PublicationDate) = 0">rule|text|BR-OPP-00012-0002</assert>
 		<assert id="BR-OPP-00070-0002" role="ERROR" diagnostics="OPP-070-notice" test="count(efac:NoticeSubType/cbc:SubTypeCode) &gt; 0">rule|text|BR-OPP-00070-0002</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus[$noticeSubType = 'X02']">
