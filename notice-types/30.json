@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.142",
-    "createdOn" : "2023-11-03T09:59:22"
+    "version" : "1.9.149",
+    "createdOn" : "2023-11-07T18:17:34"
   },
   "noticeId" : "30",
   "metadata" : [ {
@@ -4800,6 +4800,7 @@
           "_schemeName" : "touchpoint",
           "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
           "_repeatable" : true,
+          "collapsed" : true,
           "content" : [ {
             "id" : "OPT-201-Organization-TouchPoint",
             "contentType" : "field",
