@@ -104,5 +104,8 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = 'X02']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
+   <svrl:fired-rule context="/*/cac:BusinessCapability/cbc:CapabilityTypeCode"/>
+   <svrl:fired-rule context="/*/cac:BusinessCapability/cbc:CapabilityTypeCode"/>
+   <svrl:fired-rule context="/*/cac:BusinessCapability/cbc:CapabilityTypeCode"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
 </svrl:schematron-output>
