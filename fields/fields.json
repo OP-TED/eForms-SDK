@@ -2556,16 +2556,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "condition" : "{ND-NoticeResult} ${BT-118-NoticeResult is present}",
-        "value" : "{ND-NoticeResult} ${(not(BT-156-NoticeResult is present) and ((every text:$faMaxCurr in (BT-709-LotResult/@currencyID) satisfies $faMaxCurr == BT-118-NoticeResult/@currencyID) and (BT-118-NoticeResult == sum(BT-709-LotResult)))) or (BT-156-NoticeResult is present) or not(every text:$faMax in (BT-709-LotResult/@currencyID) satisfies $faMax == BT-118-NoticeResult/@currencyID)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00118-0100"
-      } ]
     }
   }, {
     "id" : "BT-119-LotResult",
