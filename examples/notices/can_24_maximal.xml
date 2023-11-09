@@ -1578,7 +1578,7 @@
 		<!-- LOT-0001 - Procurement project -->
 		<cac:ProcurementProject>
 			<!-- "id": "BT-22-Procedure","name": "Internal Identifier" -->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Lot Reference A</cbc:ID>
 			<!-- "id": "BT-21-Procedure","name": "Title" -->
 			<cbc:Name languageID="ENG">Title ---</cbc:Name>
 			<!-- "id": "BT-24-Procedure","name": "Description" -->
@@ -1865,7 +1865,7 @@
 		<!-- LOT-0002 - Procurement project -->
 		<cac:ProcurementProject>
 			<!-- "id": "BT-22-Lot","name": "Internal Identifier" -->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Lot Reference B</cbc:ID>
 			<!-- "id": "BT-21-Lot","name": "Title" -->
 			<cbc:Name languageID="ENG">Title lot 2---</cbc:Name>
 			<!-- "id": "BT-24-Lot","name": "Description" -->

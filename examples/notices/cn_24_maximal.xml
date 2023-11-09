@@ -679,7 +679,7 @@
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<!--BT-22-->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Group A</cbc:ID>
 			<!--BT-21-->
 			<cbc:Name languageID="ENG">Title ---</cbc:Name>
 			<!--BT-24-->
@@ -1151,7 +1151,7 @@
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<!--BT-22-->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Lot A</cbc:ID>
 			<!--BT-21-->
 			<cbc:Name languageID="ENG">Title ---</cbc:Name>
 			<!--BT-24-->
@@ -1715,7 +1715,7 @@
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<!--BT-22-->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Lot B</cbc:ID>
 			<!--BT-21-->
 			<cbc:Name languageID="ENG">Title Lot 2---</cbc:Name>
 			<!--BT-24-->
