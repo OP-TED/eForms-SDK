@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.152",
-    "createdOn" : "2023-11-09T11:46:57"
+    "version" : "1.9.153",
+    "createdOn" : "2023-11-09T13:55:41"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3471,16 +3471,6 @@
         "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34", "38", "39" ],
         "value" : true,
         "severity" : "ERROR"
-      } ]
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "condition" : "{ND-NoticeResult} ${BT-118-NoticeResult is present}",
-        "value" : "{ND-NoticeResult} ${(not(BT-156-NoticeResult is present) and ((every text:$faMaxCurr in (BT-709-LotResult/@currencyID) satisfies $faMaxCurr == BT-118-NoticeResult/@currencyID) and (BT-118-NoticeResult == sum(BT-709-LotResult)))) or (BT-156-NoticeResult is present) or not(every text:$faMax in (BT-709-LotResult/@currencyID) satisfies $faMax == BT-118-NoticeResult/@currencyID)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00118-0100"
       } ]
     }
   }, {
