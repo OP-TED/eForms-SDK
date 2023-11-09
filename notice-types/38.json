@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.149",
-    "createdOn" : "2023-11-07T18:17:34"
+    "version" : "1.9.153",
+    "createdOn" : "2023-11-09T13:55:41"
   },
   "noticeId" : "38",
   "metadata" : [ {
@@ -1285,7 +1285,8 @@
           "displayType" : "COMBOBOX",
           "description" : "Unpublished Identifier",
           "_label" : "field|name|BT-195(BT-161)-NoticeResult",
-          "_presetValue" : "not-val"
+          "_presetValue" : "not-val",
+          "hidden" : true
         }, {
           "id" : "BT-196(BT-161)-NoticeResult",
           "contentType" : "field",
@@ -1328,7 +1329,8 @@
           "displayType" : "COMBOBOX",
           "description" : "Unpublished Identifier",
           "_label" : "field|name|BT-195(BT-118)-NoticeResult",
-          "_presetValue" : "not-max-val"
+          "_presetValue" : "not-max-val",
+          "hidden" : true
         }, {
           "id" : "BT-196(BT-118)-NoticeResult",
           "contentType" : "field",
@@ -1380,7 +1382,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-556)-NoticeResult",
-            "_presetValue" : "gro-max-ide"
+            "_presetValue" : "gro-max-ide",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-556)-NoticeResult",
             "contentType" : "field",
@@ -1423,7 +1426,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-156)-NoticeResult",
-            "_presetValue" : "gro-max-val"
+            "_presetValue" : "gro-max-val",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-156)-NoticeResult",
             "contentType" : "field",
@@ -1466,7 +1470,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-1561)-NoticeResult",
-            "_presetValue" : "gro-ree-val"
+            "_presetValue" : "gro-ree-val",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-1561)-NoticeResult",
             "contentType" : "field",
@@ -1510,7 +1515,8 @@
           "displayType" : "COMBOBOX",
           "description" : "Unpublished Identifier",
           "_label" : "field|name|BT-195(BT-1118)-NoticeResult",
-          "_presetValue" : "not-app-val"
+          "_presetValue" : "not-app-val",
+          "hidden" : true
         }, {
           "id" : "BT-196(BT-1118)-NoticeResult",
           "contentType" : "field",
@@ -1812,7 +1818,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-171)-Tender",
-              "_presetValue" : "ten-ran"
+              "_presetValue" : "ten-ran",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-171)-Tender",
               "contentType" : "field",
@@ -1855,7 +1862,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-720)-Tender",
-              "_presetValue" : "win-ten-val"
+              "_presetValue" : "win-ten-val",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-720)-Tender",
               "contentType" : "field",
@@ -1926,7 +1934,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-553)-Tender",
-              "_presetValue" : "sub-val"
+              "_presetValue" : "sub-val",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-553)-Tender",
               "contentType" : "field",
@@ -1969,7 +1978,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-554)-Tender",
-              "_presetValue" : "sub-des"
+              "_presetValue" : "sub-des",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-554)-Tender",
               "contentType" : "field",
@@ -2012,7 +2022,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-555)-Tender",
-              "_presetValue" : "sub-per"
+              "_presetValue" : "sub-per",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-555)-Tender",
               "contentType" : "field",
@@ -2055,7 +2066,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-773)-Tender",
-              "_presetValue" : "sub-con"
+              "_presetValue" : "sub-con",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-773)-Tender",
               "contentType" : "field",
@@ -2098,7 +2110,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-730)-Tender",
-              "_presetValue" : "sub-val-kno"
+              "_presetValue" : "sub-val-kno",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-730)-Tender",
               "contentType" : "field",
@@ -2141,7 +2154,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-731)-Tender",
-              "_presetValue" : "sub-per-kno"
+              "_presetValue" : "sub-per-kno",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-731)-Tender",
               "contentType" : "field",
@@ -2266,7 +2280,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-660)-LotResult",
-              "_presetValue" : "ree-val"
+              "_presetValue" : "ree-val",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-660)-LotResult",
               "contentType" : "field",
@@ -2309,7 +2324,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-709)-LotResult",
-              "_presetValue" : "max-val"
+              "_presetValue" : "max-val",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-709)-LotResult",
               "contentType" : "field",
@@ -2451,7 +2467,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-636)-LotResult",
-              "_presetValue" : "buy-rev-typ"
+              "_presetValue" : "buy-rev-typ",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-636)-LotResult",
               "contentType" : "field",
@@ -2494,7 +2511,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-635)-LotResult",
-              "_presetValue" : "buy-rev-cou"
+              "_presetValue" : "buy-rev-cou",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-635)-LotResult",
               "contentType" : "field",

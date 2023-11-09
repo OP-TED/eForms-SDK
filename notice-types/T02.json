@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.149",
-    "createdOn" : "2023-11-07T18:17:34"
+    "version" : "1.9.153",
+    "createdOn" : "2023-11-09T13:55:41"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -458,7 +458,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-105)-Procedure",
-            "_presetValue" : "pro-typ"
+            "_presetValue" : "pro-typ",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-105)-Procedure",
             "contentType" : "field",
@@ -1041,7 +1042,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-720)-Tender",
-              "_presetValue" : "win-ten-val"
+              "_presetValue" : "win-ten-val",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-720)-Tender",
               "contentType" : "field",
@@ -1209,7 +1211,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-142)-LotResult",
-              "_presetValue" : "win-cho"
+              "_presetValue" : "win-cho",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-142)-LotResult",
               "contentType" : "field",
@@ -1252,7 +1255,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-144)-LotResult",
-              "_presetValue" : "no-awa-rea"
+              "_presetValue" : "no-awa-rea",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-144)-LotResult",
               "contentType" : "field",
