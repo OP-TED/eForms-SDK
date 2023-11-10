@@ -12,6 +12,9 @@
 		<assert id="ND-RootExtension-10" role="ERROR" diagnostics="ND-RootExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-10</assert>
 		<assert id="ND-SenderContact-10" role="ERROR" diagnostics="ND-SenderContact" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-10</assert>
 	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '10']">
+		<assert id="ND-Buyer-10" role="ERROR" diagnostics="ND-Buyer" test="count(cac:Party) &gt; 0">rule|text|ND-Buyer-10</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '10']">
 		<assert id="ND-LotProcurementScope-10" role="ERROR" diagnostics="ND-LotProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-LotProcurementScope-10</assert>
 		<assert id="ND-LotTenderingProcess-10" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-LotTenderingProcess-10</assert>

@@ -3,6 +3,7 @@
 <pattern id="EFORMS-validation-stage-1b-25" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '25']">
 		<assert id="ND-BusinessParty-25" role="ERROR" diagnostics="ND-BusinessParty" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-25</assert>
+		<assert id="ND-ContractingParty-25" role="ERROR" diagnostics="ND-ContractingParty" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-25</assert>
 		<assert id="ND-GazetteReference-25" role="ERROR" diagnostics="ND-GazetteReference" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-25</assert>
 		<assert id="ND-OperationType-25" role="ERROR" diagnostics="ND-OperationType" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-25</assert>
 		<assert id="ND-Part-25" role="ERROR" diagnostics="ND-Part" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-25</assert>
@@ -10,6 +11,9 @@
 		<assert id="ND-ProcedureTenderingProcess-25" role="ERROR" diagnostics="ND-ProcedureTenderingProcess" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-25</assert>
 		<assert id="ND-RootExtension-25" role="ERROR" diagnostics="ND-RootExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-25</assert>
 		<assert id="ND-SenderContact-25" role="ERROR" diagnostics="ND-SenderContact" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-25</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '25']">
+		<assert id="ND-Buyer-25" role="ERROR" diagnostics="ND-Buyer" test="count(cac:Party) &gt; 0">rule|text|ND-Buyer-25</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '25']">
 		<assert id="ND-ProcedureValueEstimate-25" role="ERROR" diagnostics="ND-ProcedureValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-ProcedureValueEstimate-25</assert>

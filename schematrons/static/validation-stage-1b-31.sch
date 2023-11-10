@@ -3,6 +3,7 @@
 <pattern id="EFORMS-validation-stage-1b-31" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*[$noticeSubType = '31']">
 		<assert id="ND-BusinessParty-31" role="ERROR" diagnostics="ND-BusinessParty" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-31</assert>
+		<assert id="ND-ContractingParty-31" role="ERROR" diagnostics="ND-ContractingParty" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-31</assert>
 		<assert id="ND-GazetteReference-31" role="ERROR" diagnostics="ND-GazetteReference" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-31</assert>
 		<assert id="ND-OperationType-31" role="ERROR" diagnostics="ND-OperationType" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-31</assert>
 		<assert id="ND-Part-31" role="ERROR" diagnostics="ND-Part" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-31</assert>
@@ -10,6 +11,9 @@
 		<assert id="ND-ProcedureTenderingProcess-31" role="ERROR" diagnostics="ND-ProcedureTenderingProcess" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-31</assert>
 		<assert id="ND-RootExtension-31" role="ERROR" diagnostics="ND-RootExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-31</assert>
 		<assert id="ND-SenderContact-31" role="ERROR" diagnostics="ND-SenderContact" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-31</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = '31']">
+		<assert id="ND-Buyer-31" role="ERROR" diagnostics="ND-Buyer" test="count(cac:Party) &gt; 0">rule|text|ND-Buyer-31</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '31']">
 		<assert id="ND-LotProcurementScope-31" role="ERROR" diagnostics="ND-LotProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-LotProcurementScope-31</assert>

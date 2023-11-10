@@ -16,7 +16,6 @@
 		<assert id="BR-OPP-00130-0033" role="ERROR" diagnostics="OPP-130-Business" test="count(cbc:Note) = 0">rule|text|BR-OPP-00130-0033</assert>
 		<assert id="BR-OPT-00001-0033" role="ERROR" diagnostics="OPT-001-notice" test="count(cbc:UBLVersionID) &gt; 0">rule|text|BR-OPT-00001-0033</assert>
 		<assert id="BR-OPT-00002-0033" role="ERROR" diagnostics="OPT-002-notice" test="count(cbc:CustomizationID) &gt; 0">rule|text|BR-OPT-00002-0033</assert>
-		<assert id="BR-OPT-00300-0133" role="ERROR" diagnostics="ND-Root_OPT-300-Procedure-Buyer" test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00300-0133</assert>
 		<assert id="BR-OPT-00999-0033" role="ERROR" diagnostics="OPT-999" test="count(cac:TenderResult/cbc:AwardDate) &gt; 0">rule|text|BR-OPT-00999-0033</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference[$noticeSubType = '26']">
@@ -60,6 +59,9 @@
 	</rule>
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '26']">
 		<assert id="BR-BT-00740-0033" role="ERROR" diagnostics="BT-740-Procedure-Buyer" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']) = 0">rule|text|BR-BT-00740-0033</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '26']">
+		<assert id="BR-OPT-00300-0133" role="ERROR" diagnostics="OPT-300-Procedure-Buyer" test="count(cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00300-0133</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '26']">
 		<assert id="BR-BT-00021-0033" role="ERROR" diagnostics="BT-21-Procedure" test="count(cbc:Name) &gt; 0">rule|text|BR-BT-00021-0033</assert>

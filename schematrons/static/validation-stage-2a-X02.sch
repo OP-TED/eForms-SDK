@@ -15,7 +15,6 @@
 		<assert id="BR-OPP-00105-0002" role="ERROR" diagnostics="ND-Root_OPP-105-Business" test="count(cac:BusinessCapability/cbc:CapabilityTypeCode) &gt; 0">rule|text|BR-OPP-00105-0002</assert>
 		<assert id="BR-OPT-00001-0002" role="ERROR" diagnostics="OPT-001-notice" test="count(cbc:UBLVersionID) &gt; 0">rule|text|BR-OPT-00001-0002</assert>
 		<assert id="BR-OPT-00002-0002" role="ERROR" diagnostics="OPT-002-notice" test="count(cbc:CustomizationID) &gt; 0">rule|text|BR-OPT-00002-0002</assert>
-		<assert id="BR-OPT-00300-0102" role="ERROR" diagnostics="ND-Root_OPT-300-Procedure-Buyer" test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) = 0">rule|text|BR-OPT-00300-0102</assert>
 		<assert id="BR-OPT-00999-0002" role="ERROR" diagnostics="OPT-999" test="count(cac:TenderResult/cbc:AwardDate) = 0">rule|text|BR-OPT-00999-0002</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference[$noticeSubType = 'X02']">
@@ -44,7 +43,8 @@
 		<assert id="BR-BT-00740-0002" role="ERROR" diagnostics="BT-740-Procedure-Buyer" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']) = 0">rule|text|BR-BT-00740-0002</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = 'X02']">
-		<assert id="BR-OPT-00300-0152" role="ERROR" diagnostics="ND-ServiceProvider_OPT-300-Procedure-SProvider" test="count(cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID) = 0">rule|text|BR-OPT-00300-0152</assert>
+		<assert id="BR-OPT-00300-0102" role="ERROR" diagnostics="OPT-300-Procedure-Buyer" test="count(cac:PartyIdentification/cbc:ID) = 0">rule|text|BR-OPT-00300-0102</assert>
+		<assert id="BR-OPT-00300-0152" role="ERROR" diagnostics="ND-Buyer_OPT-300-Procedure-SProvider" test="count(cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID) = 0">rule|text|BR-OPT-00300-0152</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = 'X02']">
 		<assert id="BR-OPT-00030-0002" role="ERROR" diagnostics="OPT-030-Procedure-SProvider" test="count(cbc:ServiceTypeCode) = 0">rule|text|BR-OPT-00030-0002</assert>

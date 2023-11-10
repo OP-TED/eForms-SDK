@@ -16,7 +16,6 @@
 		<assert id="BR-OPP-00130-0035" role="ERROR" diagnostics="OPP-130-Business" test="count(cbc:Note) = 0">rule|text|BR-OPP-00130-0035</assert>
 		<assert id="BR-OPT-00001-0035" role="ERROR" diagnostics="OPT-001-notice" test="count(cbc:UBLVersionID) &gt; 0">rule|text|BR-OPT-00001-0035</assert>
 		<assert id="BR-OPT-00002-0035" role="ERROR" diagnostics="OPT-002-notice" test="count(cbc:CustomizationID) &gt; 0">rule|text|BR-OPT-00002-0035</assert>
-		<assert id="BR-OPT-00300-0135" role="ERROR" diagnostics="ND-Root_OPT-300-Procedure-Buyer" test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00300-0135</assert>
 		<assert id="BR-OPT-00999-0035" role="ERROR" diagnostics="OPT-999" test="count(cac:TenderResult/cbc:AwardDate) &gt; 0">rule|text|BR-OPT-00999-0035</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference[$noticeSubType = '28']">
@@ -57,6 +56,9 @@
 		<assert id="BR-BT-00512-0188" role="ERROR" diagnostics="BT-512-Business" test="count(cbc:PostalZone) = 0">rule|text|BR-BT-00512-0188</assert>
 		<assert id="BR-BT-00513-0188" role="ERROR" diagnostics="BT-513-Business" test="count(cbc:CityName) = 0">rule|text|BR-BT-00513-0188</assert>
 		<assert id="BR-BT-00514-0188" role="ERROR" diagnostics="BT-514-Business" test="count(cac:Country/cbc:IdentificationCode) = 0">rule|text|BR-BT-00514-0188</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '28']">
+		<assert id="BR-OPT-00300-0135" role="ERROR" diagnostics="OPT-300-Procedure-Buyer" test="count(cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00300-0135</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '28']">
 		<assert id="BR-BT-00021-0035" role="ERROR" diagnostics="BT-21-Procedure" test="count(cbc:Name) &gt; 0">rule|text|BR-BT-00021-0035</assert>

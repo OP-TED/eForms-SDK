@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.158",
-    "createdOn" : "2023-11-09T19:49:49"
+    "version" : "1.9.161",
+    "createdOn" : "2023-11-10T16:32:03"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -74,7 +74,7 @@
     "xsdSequenceOrder" : [ { "cac:ContractingParty" : 29 } ],
     "repeatable" : true
   }, {
-    "id" : "ND-ServiceProvider",
+    "id" : "ND-Buyer",
     "parentId" : "ND-ContractingParty",
     "xpathAbsolute" : "/*/cac:ContractingParty/cac:Party",
     "xpathRelative" : "cac:Party",
@@ -82,7 +82,7 @@
     "repeatable" : false
   }, {
     "id" : "ND-ServiceProviderParty",
-    "parentId" : "ND-ServiceProvider",
+    "parentId" : "ND-Buyer",
     "xpathAbsolute" : "/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty",
     "xpathRelative" : "cac:ServiceProviderParty",
     "xsdSequenceOrder" : [ { "cac:ServiceProviderParty" : 18 } ],
@@ -36932,7 +36932,7 @@
     }
   }, {
     "id" : "OPT-300-Procedure-Buyer",
-    "parentNodeId" : "ND-ServiceProvider",
+    "parentNodeId" : "ND-Buyer",
     "name" : "Buyer Technical Identifier Reference",
     "btId" : "OPT-300",
     "xpathAbsolute" : "/*/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID",
@@ -36991,7 +36991,7 @@
     }
   }, {
     "id" : "OPT-300-Procedure-Buyer-Scheme",
-    "parentNodeId" : "ND-ServiceProvider",
+    "parentNodeId" : "ND-Buyer",
     "name" : "Buyer Technical Identifier Reference Schemename",
     "btId" : "OPT-300",
     "xpathAbsolute" : "/*/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",
@@ -37037,8 +37037,8 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-ServiceProvider} ${OPT-300-Procedure-SProvider is present}",
-        "value" : "{ND-ServiceProvider} ${every text:$provider in OPT-300-Procedure-SProvider satisfies ($provider in /OPT-200-Organization-Company)}",
+        "condition" : "{ND-Buyer} ${OPT-300-Procedure-SProvider is present}",
+        "value" : "{ND-Buyer} ${every text:$provider in OPT-300-Procedure-SProvider satisfies ($provider in /OPT-200-Organization-Company)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0251"
       } ]
