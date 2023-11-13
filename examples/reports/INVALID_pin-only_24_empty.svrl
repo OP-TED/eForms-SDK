@@ -54,6 +54,7 @@
          <svrl:text>cac:ProcurementProject</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
    <svrl:failed-assert id="ND-Organizations-4"
                        location="/pin:PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
@@ -129,16 +130,6 @@
          <svrl:text>cbc:CustomizationID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:failed-assert id="BR-OPT-00300-0107"
-                       location="/pin:PriorInformationNotice"
-                       role="ERROR"
-                       test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00300-0107</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer"
-                                 see="field:OPT-300-Procedure-Buyer">
-         <svrl:text>cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
    <svrl:failed-assert id="BR-BT-00010-0007"
                        location="/pin:PriorInformationNotice/cac:ContractingParty"
@@ -156,6 +147,17 @@
       <svrl:text>rule|text|BR-BT-00011-0007</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-11-Procedure-Buyer" see="field:BT-11-Procedure-Buyer">
          <svrl:text>cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
+   <svrl:failed-assert id="BR-OPT-00300-0107"
+                       location="/pin:PriorInformationNotice/cac:ContractingParty/cac:Party"
+                       role="ERROR"
+                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>rule|text|BR-OPT-00300-0107</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-300-Procedure-Buyer"
+                                 see="field:OPT-300-Procedure-Buyer">
+         <svrl:text>cac:PartyIdentification/cbc:ID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>

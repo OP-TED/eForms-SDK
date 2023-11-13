@@ -16,7 +16,6 @@
 		<assert id="BR-OPP-00130-0044" role="ERROR" diagnostics="OPP-130-Business" test="count(cbc:Note) = 0">rule|text|BR-OPP-00130-0044</assert>
 		<assert id="BR-OPT-00001-0044" role="ERROR" diagnostics="OPT-001-notice" test="count(cbc:UBLVersionID) &gt; 0">rule|text|BR-OPT-00001-0044</assert>
 		<assert id="BR-OPT-00002-0044" role="ERROR" diagnostics="OPT-002-notice" test="count(cbc:CustomizationID) &gt; 0">rule|text|BR-OPT-00002-0044</assert>
-		<assert id="BR-OPT-00300-0144" role="ERROR" diagnostics="ND-Root_OPT-300-Procedure-Buyer" test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00300-0144</assert>
 		<assert id="BR-OPT-00999-0044" role="ERROR" diagnostics="OPT-999" test="count(cac:TenderResult/cbc:AwardDate) &gt; 0">rule|text|BR-OPT-00999-0044</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference[$noticeSubType = '35']">
@@ -61,6 +60,9 @@
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '35']">
 		<assert id="BR-BT-00011-0044" role="ERROR" diagnostics="BT-11-Procedure-Buyer" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']) &gt; 0">rule|text|BR-BT-00011-0044</assert>
 		<assert id="BR-BT-00740-0044" role="ERROR" diagnostics="BT-740-Procedure-Buyer" test="count(cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-contracting-type']) &gt; 0">rule|text|BR-BT-00740-0044</assert>
+	</rule>
+	<rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '35']">
+		<assert id="BR-OPT-00300-0144" role="ERROR" diagnostics="OPT-300-Procedure-Buyer" test="count(cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00300-0144</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '35']">
 		<assert id="BR-BT-00021-0044" role="ERROR" diagnostics="BT-21-Procedure" test="count(cbc:Name) &gt; 0">rule|text|BR-BT-00021-0044</assert>
@@ -379,6 +381,12 @@
 		<assert id="BR-BT-00196-1708" role="ERROR" diagnostics="BT-196_BT-1351_-Procedure" test="count(efbc:ReasonDescription) = 0">rule|text|BR-BT-00196-1708</assert>
 		<assert id="BR-BT-00197-1676" role="ERROR" diagnostics="BT-197_BT-1351_-Procedure" test="count(cbc:ReasonCode) = 0">rule|text|BR-BT-00197-1676</assert>
 		<assert id="BR-BT-00198-1708" role="ERROR" diagnostics="BT-198_BT-1351_-Procedure" test="count(efbc:PublicationDate) = 0">rule|text|BR-BT-00198-1708</assert>
+	</rule>
+	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ'][$noticeSubType = '35']">
+		<assert id="BR-BT-00195-1520" role="ERROR" diagnostics="BT-195_BT-105_-Procedure" test="count(efbc:FieldIdentifierCode) = 0">rule|text|BR-BT-00195-1520</assert>
+		<assert id="BR-BT-00196-1552" role="ERROR" diagnostics="BT-196_BT-105_-Procedure" test="count(efbc:ReasonDescription) = 0">rule|text|BR-BT-00196-1552</assert>
+		<assert id="BR-BT-00197-1523" role="ERROR" diagnostics="BT-197_BT-105_-Procedure" test="count(cbc:ReasonCode) = 0">rule|text|BR-BT-00197-1523</assert>
+		<assert id="BR-BT-00198-1552" role="ERROR" diagnostics="BT-198_BT-105_-Procedure" test="count(efbc:PublicationDate) = 0">rule|text|BR-BT-00198-1552</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = '35']">
 		<assert id="BR-BT-00031-0044" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) = 0">rule|text|BR-BT-00031-0044</assert>

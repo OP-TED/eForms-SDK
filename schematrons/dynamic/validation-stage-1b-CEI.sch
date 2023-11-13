@@ -11,6 +11,9 @@
 		<assert id="ND-RootExtension-CEI" role="ERROR" diagnostics="ND-RootExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-CEI</assert>
 		<assert id="ND-SenderContact-CEI" role="ERROR" diagnostics="ND-SenderContact" test="count(cac:SenderParty/cac:Contact) = 0">rule|text|ND-SenderContact-CEI</assert>
 	</rule>
+	<rule context="/*/cac:ContractingParty[$noticeSubType = 'CEI']">
+		<assert id="ND-Buyer-CEI" role="ERROR" diagnostics="ND-Buyer" test="count(cac:Party) &gt; 0">rule|text|ND-Buyer-CEI</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'CEI']">
 		<assert id="ND-ProcedureValueEstimate-CEI" role="ERROR" diagnostics="ND-ProcedureValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-ProcedureValueEstimate-CEI</assert>
 	</rule>
