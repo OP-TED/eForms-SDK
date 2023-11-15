@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.9.161",
-    "createdOn" : "2023-11-10T16:32:03"
+    "version" : "1.9.164",
+    "createdOn" : "2023-11-14T10:57:24"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -4715,11 +4715,6 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0201"
       }, {
-        "condition" : "{ND-Lot} ${(OPP-070-notice in ('E1','T01','7','8','9','10','11','CEI','12','13','14','15','16','17','18','19','E3','20','21','22','23','24','25','26','27','28')) and (count(/BT-137-Lot) > 1)}",
-        "value" : "{ND-Lot} ${BT-137-Lot != 'LOT-0000'}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00137-0207"
-      }, {
         "condition" : "{ND-Lot} ${(OPP-070-notice in ('25','26','27','28','29','30','31','32','E4','T02','33','34','35','36','37','38','39','40','E5')) and BT-13713-LotResult is present}",
         "value" : "{ND-Lot} ${(BT-137-Lot in BT-13713-LotResult)}",
         "severity" : "ERROR",
@@ -4854,11 +4849,6 @@
         "value" : "{ND-Part} ${BT-137-Part is unique in /BT-137-Part}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0202"
-      }, {
-        "condition" : "{ND-Part} ${(OPP-070-notice in ('4','5','6','E2')) and (count(/BT-137-Part) > 1)}",
-        "value" : "{ND-Part} ${BT-137-Part != 'PAR-0000'}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00137-0208"
       } ]
     }
   }, {
