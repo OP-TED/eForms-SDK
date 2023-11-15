@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.10.0-SNAPSHOT",
+  "sdkVersion" : "eforms-sdk-1.10.0",
   "metadataDatabase" : {
-    "version" : "1.9.164",
-    "createdOn" : "2023-11-14T10:57:24"
+    "version" : "1.10.0",
+    "createdOn" : "2023-11-15T14:00:00"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
