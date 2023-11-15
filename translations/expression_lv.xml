@@ -267,7 +267,7 @@
 <entry key="expression|name|34">'Procedūras veids' (BT-105) nedrīkst būt 'Konkursa dialogs', 'Inovācijas partnerība'; 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'</entry>
 <entry key="expression|name|340">Dinamiskā iepirkuma sistēma netiek izmantota</entry>
 <entry key="expression|name|341">Organizācija nevar darboties kā 'Organizācija, kas pilda šo lomu'(OPT-300-Tenderer) vai apakšuzņēmējs (OPT-301-Tenderer-SubCont)</entry>
-<entry key="expression|name|342">Ja organizācija iesniedza 'ID – konkursa dalībnieks' (OPT-310-Tender), kā rezultātā notika 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract), organizācija ir uzvarētājs</entry>
+<entry key="expression|name|342">Ja organizācija iesniedza 'Piedāvājuma iesniedzēja tehniskās ID atsauce' (OPT-310-Tender), kā rezultātā notika 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract), organizācija ir uzvarētājs</entry>
 <entry key="expression|name|343">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) nav aizpildīta</entry>
 <entry key="expression|name|345">Organizācija nav 'Pircējs'</entry>
 <entry key="expression|name|346">Organizācija ir pircējs, un dinamisko iepirkumu sistēmu var izmantot arī pircēji, kas nav minēti šajā paziņojumā, un juridiskais pamats ir atšķirīgs no 'Cits', un 'Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus' (OPP-052) nav aizpildīta</entry>

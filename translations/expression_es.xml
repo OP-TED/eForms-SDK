@@ -109,7 +109,7 @@
 <entry key="expression|name|197">'Identificador del anuncio anterior' (BT-125i-Lot) no está cumplimentado</entry>
 <entry key="expression|name|198">'Identificador del anuncio anterior' (BT-125(i)-Part) no está cumplimentado</entry>
 <entry key="expression|name|199">'Duración' (BT-36-Lot) y 'Fecha de finalización de la duración' (BT-537-Lot) no están cumplimentados</entry>
-<entry key="expression|name|2">'El comprador es una entidad adjudicadora' (BT-740) es '﻿﻿Sí'</entry>
+<entry key="expression|name|2">'El comprador es una entidad adjudicadora' (BT-740) es 'Sí'</entry>
 <entry key="expression|name|20">'País' (BT-5141-Lot) no está vacío</entry>
 <entry key="expression|name|200">'Fecha de finalización de la duración' (BT-537-Lot) está cumplimentado</entry>
 <entry key="expression|name|201">'Cualquier contrato de servicios posterior al concurso se adjudicará a uno de los ganadores del concurso' ((BT-41-Lot)) no es cierto</entry>
@@ -220,7 +220,7 @@
 <entry key="expression|name|298">'Campo para publicar más tarde' (BT-195(BT-554)-Tender) no está cumplimentado</entry>
 <entry key="expression|name|299">'Campo para publicar más tarde' (BT-195(BT-555)-Tender) no está cumplimentado</entry>
 <entry key="expression|name|3">'Tipo de procedimiento' (BT-105) deben ser: 'Abierto'; 'Restringido'; 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
-<entry key="expression|name|30">'Los criterios se utilizarán para seleccionar a los candidatos que serán invitados a la segunda fase del procedimiento' (BT-40) no es '﻿﻿Sí'</entry>
+<entry key="expression|name|30">'Los criterios se utilizarán para seleccionar a los candidatos que serán invitados a la segunda fase del procedimiento' (BT-40) no es 'Sí'</entry>
 <entry key="expression|name|300">'Campo para publicar más tarde' (BT-195(BT-556)-NoticeResult) no está cumplimentado</entry>
 <entry key="expression|name|301">'Campo para publicar más tarde' (BT-195(BT-709)-LotResult) no está cumplimentado</entry>
 <entry key="expression|name|302">'Campo para publicar más tarde' (BT-195(BT-710)-LotResult) no está cumplimentado</entry>
@@ -267,7 +267,7 @@
 <entry key="expression|name|34">'Tipo de procedimiento' (BT-105) no debe ser 'Diálogo competitivo' ni 'Asociación para la innovación'; 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
 <entry key="expression|name|340">No se utiliza el sistema dinámico de adquisición</entry>
 <entry key="expression|name|341">La organización no puede actuar como 'Organización que desempeña este papel' (OPT-300-Tenderer) ni como subcontratista (OPT-301-Tenderer-SubCont)</entry>
-<entry key="expression|name|342">Si la organización presentó 'Identificador: parte licitadora' (OPT-310-Tender) llevando a 'Contrato: identificador de oferta' (BT-3202-Contract), entonces la organización ha ganado</entry>
+<entry key="expression|name|342">Si la organización presentó 'Referencia del ID técnico de la parte licitante' (OPT-310-Tender) llevando a 'Contrato: identificador de oferta' (BT-3202-Contract), entonces la organización ha ganado</entry>
 <entry key="expression|name|343">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) no está cumplimentado</entry>
 <entry key="expression|name|345">La organización no es un 'Comprador'</entry>
 <entry key="expression|name|346">La organización es un comprador, y el sistema dinámico de adquisición también pueden usarlo compradores que no aparezcan en este anuncio, y el fundamento jurídico no es 'Otros', y 'Organismo comprador central que adquiere suministros o servicios destinados a otros compradores' (OPP-052) no está cumplimentado</entry>
@@ -406,12 +406,12 @@
 <entry key="expression|name|64">'Se aplica un acuerdo marco' (BT-765) es uno de los siguientes: 'Acuerdo marco, en parte con y en parte sin convocatoria de nueva licitación'; 'Acuerdo marco con convocatoria de nueva licitación'; 'Acuerdo marco sin convocatoria de nueva licitación'; y 'Estado de selección del ganador' (BT-142-LotResult) no debe ser 'Se ha escogido al menos un ganador.'</entry>
 <entry key="expression|name|65">'Estado de selección del ganador' (BT-142-LotResult) es 'Se ha escogido al menos un ganador.'</entry>
 <entry key="expression|name|66">'Estado de selección del ganador' (BT-142-LotResult) no es 'Se ha escogido al menos un ganador.'; 'ID técnico del resultado del lote (RES-XXX)' (OPT-322) no está cumplimentado</entry>
-<entry key="expression|name|67">'Subcontratación' (BT-773-Tender) no es '﻿﻿Sí'</entry>
+<entry key="expression|name|67">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>
 <entry key="expression|name|68">'Se conoce el valor de la subcontratación' (BT-730-Tender) no es 'sí'</entry>
-<entry key="expression|name|69">'Subcontratación' (BT-773-Tender) no es '﻿﻿Sí'</entry>
+<entry key="expression|name|69">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>
 <entry key="expression|name|7">'País' (BT-5141-Part) está cumplimentado</entry>
 <entry key="expression|name|70">'Se conoce el porcentaje de subcontratación' ((BT-731-Tender)) no es 'sí'</entry>
-<entry key="expression|name|71">'Subcontratación' (BT-773-Tender) es '﻿﻿Sí'</entry>
+<entry key="expression|name|71">'Subcontratación' (BT-773-Tender) es 'Sí'</entry>
 <entry key="expression|name|72">No se ha elegido ningún ganador o 'Se aplica un acuerdo marco' (BT-765-Lot) no se corresponde con el acuerdo marco del procedimiento</entry>
 <entry key="expression|name|74">'Versión del anuncio anterior que debe modificarse' (BT-758-notice) no está cumplimentado</entry>
 <entry key="expression|name|76">'Valor del premio' (BT-644-Lot) no está cumplimentado</entry>

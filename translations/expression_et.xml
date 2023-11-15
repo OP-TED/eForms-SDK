@@ -267,7 +267,7 @@
 <entry key="expression|name|34">'Menetluse liik' (BT-105) ei tohi olla 'Võistlev dialoog' ega 'Innovatsioonipartnerlus'; 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'</entry>
 <entry key="expression|name|340">Dünaamilist hankesüsteemi ei kasutata</entry>
 <entry key="expression|name|341">Organisatsioon ei saa tegutseda kui 'Organisatsioon, mis täidab seda rolli' (OPT-300-Tenderer) ega alltöövõtjana (OPT-301-Tenderer-SubCont)</entry>
-<entry key="expression|name|342">Kui organisatsioon esitas 'Tunnus – hankemenetluses osaleja' (OPT-310-Tender), mis andis tulemuseks 'Leping – pakkumus – tunnus' (BT-3202-Contract), siis on see organisatsioon võitja</entry>
+<entry key="expression|name|342">Kui organisatsioon esitas 'Pakkumise esitaja tehnilise ID viide' (OPT-310-Tender), mis andis tulemuseks 'Leping – pakkumus – tunnus' (BT-3202-Contract), siis on see organisatsioon võitja</entry>
 <entry key="expression|name|343">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) ei ole täidetud</entry>
 <entry key="expression|name|345">Organisatsioon ei ole 'Hankija'</entry>
 <entry key="expression|name|346">Organisatsioon on ostja ja dünaamilist hankesüsteemi saavad kasutada ka käesolevas hanketeates loetlemata ostjad ning õiguslik alus erineb 'Muu'st ning 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>

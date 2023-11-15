@@ -267,7 +267,7 @@
 <entry key="expression|name|34">'Type of procedure' (BT-105) must not be either 'Competitive dialogue', 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|340">Dynamic purchasing system is not used</entry>
 <entry key="expression|name|341">The organisation cannot act as 'Organisation filling this role' (OPT-300-Tenderer) or a subcontractor (OPT-301-Tenderer-SubCont)</entry>
-<entry key="expression|name|342">If the organisation submitted 'ID – Tendering party' (OPT-310-Tender) which lead to 'Contract Tender Identifier' (BT-3202-Contract), then the organisation is a winner</entry>
+<entry key="expression|name|342">If the organisation submitted 'Tendering party technical ID reference' (OPT-310-Tender) which lead to 'Contract tender identifier' (BT-3202-Contract), then the organisation is a winner</entry>
 <entry key="expression|name|343">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not filled in</entry>
 <entry key="expression|name|345">The organisation is not a 'Buyer'</entry>
 <entry key="expression|name|346">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>

@@ -267,7 +267,7 @@
 <entry key="expression|name|34">'Typ av förfarande' (BT-105) får inte heller vara 'Konkurrenspräglad dialog', 'Innovationspartnerskap'; 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'</entry>
 <entry key="expression|name|340">Dynamiska inköpssystem används inte</entry>
 <entry key="expression|name|341">Organisationen kan inte agera som 'Organisation som fyller denna roll' (OPT-300-Tenderer) eller en underleverantör (OPT-301-Tenderer-SubCont)</entry>
-<entry key="expression|name|342">Om organisationen har lämnat in 'Id – Anbudsgivare' (OPT-310-Tender) som leder till 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract), är organisationen vinnare</entry>
+<entry key="expression|name|342">Om organisationen har lämnat in 'Teknisk ID-referens för anbudsgivande part' (OPT-310-Tender) som leder till 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract), är organisationen vinnare</entry>
 <entry key="expression|name|343">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) fylls inte i</entry>
 <entry key="expression|name|345">Organisationen är inte en 'Upphandlare'</entry>
 <entry key="expression|name|346">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och den rättsliga grunden skiljer sig från 'Annat', och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) fylls inte i</entry>
