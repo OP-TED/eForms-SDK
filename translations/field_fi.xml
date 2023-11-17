@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">(Arvioitu) jakso hankintasopimuksen, puitejärjestelyn, dynaamisen hankintajärjestelmän tai kelpuuttamisjärjestelmän alusta sen päättymiseen. Tähän on sisällyttävä mahdolliset optiot ja uusimiset.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Aika, joka tarjousten on oltava voimassa niiden jättämiselle asetetusta määräajasta alkaen.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Sovellettava lainsäädäntö, jos hankintaan osallistuu ostajia eri maista.</entry>
-<entry key="field|hint|BT-13716-Notice">Yksi seuraavista on täytettävä: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Yksi seuraavista on täytettävä: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
 <entry key="field|hint|BT-22-Lot">Jos käytät menettelyä ja eriä varten sisäistä tunnistetta, lisää se tähän. Käytä kullekin erälle omaa tunnistetta.</entry>

@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Perioada (estimată) de la începutul până la sfârșitul contractului, al acordului-cadru, al sistemului dinamic de achiziții sau al sistemului de calificare. Aceasta trebuie să includă orice opțiuni și reînnoiri.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Perioada, începând cu termenul de depunere a ofertelor, pentru care ofertele trebuie să rămână valabile.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Legea aplicabilă în cazul în care achiziția implică cumpărători din țări diferite.</entry>
-<entry key="field|hint|BT-13716-Notice">Unul dintre următoarele trebuie completat: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Unul dintre următoarele trebuie completat: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
 <entry key="field|hint|BT-22-Lot">Dacă utilizați un identificator intern pentru procedura și loturile dumneavoastră, vă rugăm să îl completați. Vă rugăm să utilizați un identificator diferit pentru fiecare lot.</entry>

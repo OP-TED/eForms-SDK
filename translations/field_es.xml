@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">El período (estimado) desde el inicio hasta el final del contrato, acuerdo marco, sistema dinámico de adquisición o sistema de calificación. Incluirá todas las opciones y renovaciones.</entry>
 <entry key="field|description|OPA-98-Lot-Number">El período, a partir de la fecha límite de presentación de las ofertas, durante el cual las ofertas deben seguir siendo válidas.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">La legislación aplicable si la contratación afecta a compradores de distintos países.</entry>
-<entry key="field|hint|BT-13716-Notice">Uno de los siguientes campos debe ser completado: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Uno de los siguientes campos debe ser completado: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Añada tantos lotes como desee en el grupo de lotes.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Añada tantos lotes como desee en el grupo de lotes.</entry>
 <entry key="field|hint|BT-22-Lot">Si utiliza un identificador interno para su procedimiento y sus lotes, cumpliméntelo. Utilice diferentes identificadores para cada lote.</entry>

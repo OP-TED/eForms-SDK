@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Il periodo (stimato) che intercorre tra l'inizio e la fine dell'appalto, dell'accordo quadro, del sistema dinamico di acquisizione o del sistema di qualificazione. Sono compresi tutte le opzioni e tutti i rinnovi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Il periodo successivo al termine di presentazione dell'offerta nel quale le offerte devono rimanere valide.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">La legge applicabile se l'appalto coinvolge committenti di paesi diversi.</entry>
-<entry key="field|hint|BT-13716-Notice">Uno dei seguenti campi deve essere compilato: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Uno dei seguenti campi deve essere compilato: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-22-Lot">Se si utilizza un identificativo interno per la procedura e i lotti, si prega di inserirlo. Si prega di utilizzare identificativi diversi per ciascun lotto.</entry>

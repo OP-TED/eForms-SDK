@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Période (estimée) qui s’étend du début à la fin du marché, de l’accord-cadre, du système d’acquisition dynamique ou du système de qualification. Sont inclus les options et renouvellements éventuels.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Période, à compter de la date limite de présentation des offres, durant laquelle les offres doivent rester valables.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Le droit applicable si le marché fait intervenir des acheteurs de différents pays.</entry>
-<entry key="field|hint|BT-13716-Notice">L'un des champs suivants doit être rempli: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">L'un des champs suivants doit être rempli: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Ajoutez autant de lots que vous souhaitez inclure dans le groupe de lots.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Ajoutez autant de lots que vous souhaitez inclure dans le groupe de lots.</entry>
 <entry key="field|hint|BT-22-Lot">Si vous utilisez un identifiant interne pour votre procédure et vos lots, veuillez l’indiquer. Veuillez utiliser des identifiants différents pour chaque lot.</entry>

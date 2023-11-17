@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">(Paredzamais) ilgums no līguma, pamatnolīguma, dinamiskās iepirkumu sistēmas vai kvalifikācijas sistēmas sākuma līdz beigām. Tam ir jāietver visas iespējas un pārjaunojumi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Laikposms no piedāvājumu iesniegšanas termiņa, kurā piedāvājumiem jābūt derīgiem.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Piemērojamie tiesību akti, ja iepirkumā ir iesaistīti pircēji no dažādām valstīm.</entry>
-<entry key="field|hint|BT-13716-Notice">Vienam no sekojošiem jābūt aizpildītam: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Vienam no sekojošiem jābūt aizpildītam: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="field|hint|BT-22-Lot">Ja procedūrai un daļām izmantojat iekšējo identifikatoru, norādiet to. Katrai daļai norādiet atšķirīgus identifikatorus.</entry>

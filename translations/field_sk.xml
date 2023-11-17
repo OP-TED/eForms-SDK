@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Dĺžka trvania (predpokladaná) od začiatku do konca platnosti zmluvy, rámcovej dohody, dynamického nákupného systému alebo kvalifikačného systému vrátane všetkých opcií a obnovení.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Obdobie plynúce od lehoty na predkladanie ponúk, počas ktorého musia zostať ponuky platné.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Uplatniteľné právne predpisy, ak verejné obstarávanie zahŕňa kupujúcich z rôznych krajín.</entry>
-<entry key="field|hint|BT-13716-Notice">Jeden z nasledujúcich musí byť vyplnený: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Jeden z nasledujúcich musí byť vyplnený: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Pridajte želaný počet častí, ktoré sa majú zahrnúť do skupiny častí.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pridajte želaný počet častí, ktoré sa majú zahrnúť do skupiny častí.</entry>
 <entry key="field|hint|BT-22-Lot">Ak pre svoj postup a časť používate interný identifikátor, uveďte ich. Pre každú časť použite jednotlivý identifikátor.</entry>

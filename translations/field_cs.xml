@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">(Odhadovaná) délka trvání od zahájení do ukončení zakázky, rámcové dohody, dynamického nákupního systému nebo systému kvalifikace. Zahrnou se různá opční práva a prodloužení.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Doba počínající lhůtou pro podání nabídky, po kterou musí nabídky zůstat v platnosti.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Rozhodné právo, pokud se zakázka týká kupujících z různých zemí.</entry>
-<entry key="field|hint|BT-13716-Notice">Jeden z následujících musí být vyplněn: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Jeden z následujících musí být vyplněn: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Přidejte tolik částí, kolik si přejete zahrnout do skupiny částí.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Přidejte tolik částí, kolik si přejete zahrnout do skupiny částí.</entry>
 <entry key="field|hint|BT-22-Lot">Pokud pro vaše řízení a jeho části používáte interní identifikátor, vyplňte jej prosím. Pro každou část použijte různé identifikátory.</entry>
