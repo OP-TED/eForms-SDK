@@ -211,8 +211,10 @@ Update co-constraint on BT-198 to not show error when BT-198 not specified
 Schematron: ContractingParty without a Buyer
 
 ---TEDEFO-2601
-Define a pattern and repeatability for BT-1501(s)
-"While we have decided that a contract modification can only refer to 1 contract, we have not redefined the repeatability of BT-1501(s).
+Review and activate the rules for CrossBorderLaw (BT-09)
+
+---TEDEFO-1964
+Define a pattern for BT-1501(s)
 
 ---TEDEFO-2621
 Activate the conditional rules for the FA for Lot, Procedure, LotResult and NoticeResult
