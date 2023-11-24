@@ -331,7 +331,7 @@
 		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>DN140070</cbc:ID>
+		<cbc:ID schemeName="InternalID">DN140070</cbc:ID>
 		<cbc:Name languageID="ENG">Supply of Profiling Beds with Accessories, Pressure Relieving Mattresses and Cushions</cbc:Name>
 		<cbc:Description languageID="ENG">Beds are to be used in a community setting and must be electrically powered with a range of bed rails, bed rail bumpers and grab handles. Beds size to range from single to bariatric mattresses must be supplied in a range of sizes up to and including king size. Mattresses are to be supplied in the range listed below:
 		Foam Visco/Gel Hybrid (Foam/Air) Alternating Air.</cbc:Description>
@@ -383,7 +383,7 @@
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="ENG">DN140070</cbc:Name>
 			<cbc:Description languageID="ENG">Beds are to be used in a community setting and must be electrically powered with a range of bed rails, bed rail bumpers and grab handles. Beds size to range from single to bariatric mattresses must be supplied in a range of sizes up to and including king size. Mattresses are to be supplied in the range listed below:
 			Foam Visco/Gel Hybrid (Foam/Air) Alternating Air.</cbc:Description>	

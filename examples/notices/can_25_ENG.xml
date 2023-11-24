@@ -261,7 +261,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>C1032</cbc:ID>
+		<cbc:ID schemeName="InternalID">C1032</cbc:ID>
 		<cbc:Name languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Name>
 		<cbc:Description languageID="ENG">NI Water is required to comply with UK tax legislation and views tax compliance as an integral part of the Finance function. NI Water's key tax objectives are published within our Group Tax Strategy. Making Tax Digital is a key part of the government's plans to make it easier for businesses to get their tax right and keep on top of their tax affairs.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -353,7 +353,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>C1032</cbc:ID>
+			<cbc:ID schemeName="InternalID">C1032</cbc:ID>
 			<cbc:Name languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Name>
 			<cbc:Description languageID="ENG">NI Water is required to comply with UK tax legislation and views tax compliance as an integral part of the Finance function. NI Water's key tax objectives are published within our Group Tax Strategy. Making Tax Digital is a key part of the government's plans to make it easier for businesses to get their tax right and keep on top of their tax affairs.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

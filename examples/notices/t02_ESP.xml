@@ -261,7 +261,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">comp-tend</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>77635</cbc:ID>
+		<cbc:ID schemeName="InternalID">77635</cbc:ID>
 		<cbc:Name languageID="SPA">Public transport services by railways</cbc:Name>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="SPA">Any additional information blabla ...</cbc:Note>

@@ -21,7 +21,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">ZenithNova Innovations </cbc:Name>
@@ -54,7 +54,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com/contact-us/katerina-lisa</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange/katerina-lisa</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Katerina Lisa</cbc:Name>
@@ -91,7 +91,7 @@
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>ORG-0001</cbc:ID>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
@@ -143,7 +143,7 @@ vol3</cbc:Description>
 				<cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
-						<cbc:ID>ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:FiscalLegislationDocumentReference>
@@ -151,7 +151,7 @@ vol3</cbc:Description>
 				<cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:EnvironmentalLegislationDocumentReference>
@@ -159,7 +159,7 @@ vol3</cbc:Description>
 				<cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:EmploymentLegislationDocumentReference>
@@ -173,18 +173,18 @@ vol3</cbc:Description>
 			</cac:ContractExecutionRequirement>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:AppealTerms>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID>ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 			</cac:AppealTerms>
@@ -205,7 +205,7 @@ vol3</cbc:Description>
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>ABE</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABE</cbc:ID>
 			<cbc:Name languageID="ENG">Title (BT-21-Lot)
 *
 vol3</cbc:Name>

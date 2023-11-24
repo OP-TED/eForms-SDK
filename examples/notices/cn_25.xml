@@ -157,7 +157,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>SW19/ENY/1192</cbc:ID>
+		<cbc:ID schemeName="InternalID">SW19/ENY/1192</cbc:ID>
 		<cbc:Name languageID="ENG">PV Servicing and Maintenance</cbc:Name>
 		<cbc:Description languageID="ENG">Scottish Water has a requirement to procure services for the operation, servicing, reactive maintenance and capital maintenance of Scottish Water Energy Team’s suite of PV power assets. • The scope of the proposed PV contract is: — the contractor shall be capable of providing cleaning services of the PV panels and provide evidence; — the contractor must be able to operate the assets and provide evidence; — the contractor shall be capable of providing servicing of the assets and provide evidence; — the contractor shall be capable of delivering planned (ie capital) and reactive MEICA maintenance of the assets and component parts; — the contractor shall be able to produce inspection and servicing reports and asset condition reports; — the contractor shall be able to do root cause analysis and investigation of any failures; — the contractor shall be capable of maximising generation and asset availability.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -334,7 +334,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>SW19/ENY/1192</cbc:ID>
+			<cbc:ID schemeName="InternalID">SW19/ENY/1192</cbc:ID>
 			<cbc:Name languageID="ENG">PV Servicing and Maintenance</cbc:Name>
 			<cbc:Description languageID="ENG">• Scottish Water has a requirement to procure services for the operation, servicing, reactive maintenance and capital maintenance of Scottish Water Energy Team’s suite of PV power assets. — the contractor shall be capable of providing cleaning services of the PV panels and provide evidence; — The contractor must be able to operate the assets and provide evidence; — the contractor shall be capable of providing servicing of the assets and provide evidence; — the contractor shall be capable of delivering planned (ie capital) and reactive MEICA maintenance of the assets and component parts; — the contractor shall be able to produce inspection and servicing reports and asset condition reports; — the contractor shall be able to do root cause analysis and investigation of any failures; — the contractor shall be capable of maximising generation and asset availability.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

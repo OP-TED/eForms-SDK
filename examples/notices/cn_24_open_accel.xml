@@ -264,7 +264,7 @@
 		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>not available</cbc:ID>
+		<cbc:ID schemeName="InternalID">not available</cbc:ID>
 		<cbc:Name languageID="ITA">Procedura aperta accelerata per la fornitura di n. 212 posti letto, ognuno composto da arredi e complementi di arredo, per le esigenze della Scuola marescialli e brigadieri di Firenze</cbc:Name>
 		<cbc:Description languageID="ITA">Fornitura di n. 212 posti letto ognuno composto da: — arredi (n. 1 armadio a due ante, n. 1 comodino a un cassetto, n, 1 scarpiera, n. 1 mobile basso a due ante, n. 1 scrivania singola con alzata e n. 1 struttura per letto con cassettone contenitore), — complementi d’arredo (n. 1 cassetta porta pistola, n. 1 scala in alluminio, n. 1 rete a doghe di legno, n. 1 materasso, n. 1 sopraffodera, n. 1 guanciale e n. 1 sedia).</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
@@ -414,7 +414,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>not available</cbc:ID>
+			<cbc:ID schemeName="InternalID">not available</cbc:ID>
 			<cbc:Name languageID="ITA">Procedura aperta accelerata per la fornitura di n. 212 posti letto, ognuno composto da arredi e complementi di arredo, per le esigenze della Scuola marescialli e brigadieri di Firenze</cbc:Name>
 			<cbc:Description languageID="ITA">Fornitura di n. 212 posti letto ognuno composto da: — arredi (n. 1 armadio a due ante, n. 1 comodino a un cassetto, n, 1 scarpiera, n. 1 mobile basso a due ante, n. 1 scrivania singola con alzata e n. 1 struttura per letto con cassettone contenitore), — complementi d’arredo (n. 1 cassetta porta pistola, n. 1 scala in alluminio, n. 1 rete a doghe di legno, n. 1 materasso, n. 1 sopraffodera, n. 1 guanciale e n. 1 sedia).</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>

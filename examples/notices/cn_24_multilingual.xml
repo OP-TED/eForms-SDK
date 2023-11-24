@@ -540,7 +540,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>AO 10786</cbc:ID>
+		<cbc:ID schemeName="InternalID">AO 10786</cbc:ID>
 		<cbc:Name languageID="BUL">Предоставяне на ИТ услуги, свързани с ИТ системите на Службата за публикации (EUR-Lex, N-Lex, Search Layer и други)</cbc:Name>
 		<cbc:Name languageID="CES">Poskytování IT služeb souvisejících s IT systémy Úřadu pro publikace (EUR-Lex, N-Lex, Search Layer a další)</cbc:Name>
 		<cbc:Name languageID="DAN">Levering af IT-tjenester relateret til operationelle (OP) IT-systemer (EUR-Lex, N-Lex, søgelag m.fl.)</cbc:Name>

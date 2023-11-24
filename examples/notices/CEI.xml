@@ -189,7 +189,7 @@
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
 	<cac:ProcurementProject>
-		<cbc:ID>xyz</cbc:ID>
+		<cbc:ID schemeName="InternalID">xyz</cbc:ID>
 		<cbc:Name languageID="ENG">Call for Expressions of Interest</cbc:Name>
 		<cbc:Description languageID="ENG">Call for Expression of Interest to compile a list of experts.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -322,7 +322,7 @@ Applicants must provide evidence of their ability, skills, experience and compet
 			<cbc:AccessToolsURI>https://my-atypical-tool.com/</cbc:AccessToolsURI>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>EPRS/ESMH/SER/19/001CEI</cbc:ID>
+			<cbc:ID schemeName="InternalID">EPRS/ESMH/SER/19/001CEI</cbc:ID>
 			<cbc:Name languageID="ENG">Call for Expression of Interest EPRS/ESMH/SER/19/001CEI to compile a list of experts in the field of science communication and other relevant domains for the provision of draft articles and other science communication outputs.</cbc:Name>
 			<cbc:Description languageID="ENG">The science communication outputs requested by this CEI will be related to various policy areas such as (nonexclusive list):
 — eco-mobility and modern energy solutions,

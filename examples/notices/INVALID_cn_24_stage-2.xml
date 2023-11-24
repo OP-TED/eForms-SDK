@@ -151,7 +151,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID></cbc:ID>
+			<cbc:ID schemeName="InternalID"></cbc:ID>
 			<cbc:Name languageID="ENG"></cbc:Name>
 			<cbc:Description languageID="ENG"></cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature"></cbc:ProcurementTypeCode>

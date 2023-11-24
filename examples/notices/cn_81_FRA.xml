@@ -107,7 +107,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>700029324</cbc:ID>
+		<cbc:ID schemeName="InternalID">700029324</cbc:ID>
 		<cbc:Name languageID="FRA">
 			Assistance à maîtrise d’œuvre en suivi de réalisation dans le cadre du projet de construction d’un poste de garde et d’un parking sur plusieurs niveaux sur le site CEA de Cadarache pour le compte du CEA DAM
 		</cbc:Name>
@@ -323,7 +323,7 @@ En tout état de cause, le mandataire doit être solidaire de tous les membres d
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>700029324</cbc:ID>
+			<cbc:ID schemeName="InternalID">700029324</cbc:ID>
 			<cbc:Name languageID="FRA">Procurement of Military Working Dogs</cbc:Name>
 			<cbc:Description languageID="FRA">Prestation composée de trois missions principales:
 Mission 1 – supervision des études: assurer le suivi des études, d’en vérifier la conformité vis-à-vis des spécifications de chaque marché du projet, d’établir les fiches d’analyse documentaire et d’assurer le pilotage et le suivi des interfaces.

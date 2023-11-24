@@ -232,7 +232,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>RC-CPU-19-065</cbc:ID>
+		<cbc:ID schemeName="InternalID">RC-CPU-19-065</cbc:ID>
 		<cbc:Name languageID="ENG">Term Contract for a Planned Programme of In-service Inspection and Testing of Electrical Equipment</cbc:Name>
 		<cbc:Description languageID="ENG">The purpose of this contract is to formalise the Councils requirement to employ a contractor to carry out a planned programme of in-service inspection and testing of electrical equipment within the Councils public buildings.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -477,7 +477,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="ENG">Term Contract for a Planned Programme of In-service Inspection and Testing of Electrical Equipment</cbc:Name>
 			<cbc:Description languageID="ENG">The purpose of this contract is to formalise the Councils requirement to employ a contractor to carry out a planned programme of in-service inspection and testing of electrical equipment within the Councils public buildings.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

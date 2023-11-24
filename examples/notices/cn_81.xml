@@ -103,7 +103,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>700029324</cbc:ID>
+		<cbc:ID schemeName="InternalID">700029324</cbc:ID>
 		<cbc:Name languageID="ENG">Procurement of Military Working Dogs</cbc:Name>
 		<cbc:Description languageID="ENG">Livestock. PQQ Access Code: NTV9J9643N
 		Dog training services — military working dogs delivery team are looking for interested parties to supply military working dogs with a requirement for canine protection and detection and also military working dogs to provide a specialist search capability.
@@ -237,7 +237,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>700029324</cbc:ID>
+			<cbc:ID schemeName="InternalID">700029324</cbc:ID>
 			<cbc:Name languageID="ENG">Procurement of Military Working Dogs</cbc:Name>
 			<cbc:Description languageID="ENG">Livestock. PQQ Access Code: NTV9J9643N
 			Dog training services — military working dogs delivery team are looking for interested parties to supply military working dogs with a requirement for canine protection and detection and also military working dogs to provide a specialist search capability.

@@ -214,7 +214,7 @@
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="DEU">Wasser-Konzessionsvertrag und Löschwasservereinbarung</cbc:Name>
 			<cbc:Description languageID="DEU">Konzessionsvertrag: Der Wasser-Konzessionsvertrag enthält neben den Regelungen zur Wegenutzung auch eine Lieferverpflichtung zur Trinkwasserversorgung. Ziel des Vertrages ist es, durch Planung, Bau, Betrieb und Instandhaltung von Wasserversorgungsanlagen unter Nutzung der öffentlichen Verkehrswege der Stadt eine möglichst sichere, preisgünstige, umweltverträgliche und verbraucherfreundliche Versorgung der Einwohner und Gewerbetreibenden im Stadtgebiet von Neckargemünd mit Wasser in guter Qualität zu
 			gewährleisten. Als Entgelt für die eingeräumten Nutzungsrechte sind Konzessionsabgaben im jeweils höchstzulässigen Umfang vereinbart.

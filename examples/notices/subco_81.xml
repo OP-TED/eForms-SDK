@@ -18,7 +18,7 @@
                      <efac:Company>
                         <cbc:WebsiteURI>http://pomb.com</cbc:WebsiteURI>
                         <cac:PartyIdentification>
-                           <cbc:ID>ORG-0001</cbc:ID>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
                         </cac:PartyIdentification>
                         <cac:PartyName>
                            <cbc:Name languageID="ENG">Private Org main buyer</cbc:Name>
@@ -49,7 +49,7 @@
                         <cbc:WebsiteURI>http://review.body.com</cbc:WebsiteURI>
                         <cbc:EndpointID>FTP://review.body.com</cbc:EndpointID>
                         <cac:PartyIdentification>
-                           <cbc:ID>ORG-0002</cbc:ID>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
                         </cac:PartyIdentification>
                         <cac:PartyName>
                            <cbc:Name languageID="ENG">Review Body name EN</cbc:Name>
@@ -94,7 +94,7 @@
       </cac:ContractingPartyType>
       <cac:Party>
          <cac:PartyIdentification>
-            <cbc:ID>ORG-0001</cbc:ID>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
          </cac:PartyIdentification>
       </cac:Party>
    </cac:ContractingParty>
@@ -210,7 +210,7 @@
          <cac:AppealTerms>
             <cac:AppealReceiverParty>
                <cac:PartyIdentification>
-                  <cbc:ID>ORG-0002</cbc:ID>
+                  <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
                </cac:PartyIdentification>
             </cac:AppealReceiverParty>
          </cac:AppealTerms>

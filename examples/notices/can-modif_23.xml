@@ -25,34 +25,34 @@
                </efac:ContractModification>
                <efac:NoticeResult>
                   <efac:LotTender>
-                     <cbc:ID>TEN-0001</cbc:ID>
+                     <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
                      <cac:LegalMonetaryTotal>
                         <cbc:PayableAmount currencyID="IDR">1000000</cbc:PayableAmount>
                      </cac:LegalMonetaryTotal>
                      <efac:TenderingParty>
-                        <cbc:ID>TPA-0001</cbc:ID>
+                        <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
                      </efac:TenderingParty>
                      <efac:TenderLot>
-                        <cbc:ID>LOT-0001</cbc:ID>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
                      </efac:TenderLot>
                      <efac:TenderReference>
                         <cbc:ID>a4325009-121f-46a5-977e-7118a9631ad3</cbc:ID>
                      </efac:TenderReference>
                   </efac:LotTender>
                   <efac:SettledContract>
-                     <cbc:ID>CON-0001</cbc:ID>
+                     <cbc:ID schemeName="contract">CON-0001</cbc:ID>
                      <cbc:IssueDate>2023-08-07+03:00</cbc:IssueDate>
                      <efac:ContractReference>
-                        <cbc:ID>CON-0001</cbc:ID>
+                        <cbc:ID schemeName="contract">CON-0001</cbc:ID>
                      </efac:ContractReference>
                      <efac:LotTender>
-                        <cbc:ID>TEN-0001</cbc:ID>
+                        <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
                      </efac:LotTender>
                   </efac:SettledContract>
                   <efac:TenderingParty>
-                     <cbc:ID>TPA-0001</cbc:ID>
+                     <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
                      <efac:Tenderer>
-                        <cbc:ID>ORG-0002</cbc:ID>
+                        <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
                      </efac:Tenderer>
                   </efac:TenderingParty>
                </efac:NoticeResult>
@@ -65,7 +65,7 @@
                         <cbc:WebsiteURI>https://www.zenithnovainnovations.com</cbc:WebsiteURI>
                         <cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange</cbc:EndpointID>
                         <cac:PartyIdentification>
-                           <cbc:ID>ORG-0001</cbc:ID>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
                         </cac:PartyIdentification>
                         <cac:PartyName>
                            <cbc:Name languageID="ENG">ZenithNova Innovations </cbc:Name>
@@ -98,7 +98,7 @@
                         <cbc:WebsiteURI>https://www.zenithnovainnovations.com/contact-us/katerina-lisa</cbc:WebsiteURI>
                         <cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange/katerina-lisa</cbc:EndpointID>
                         <cac:PartyIdentification>
-                           <cbc:ID>TPO-0001</cbc:ID>
+                           <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
                         </cac:PartyIdentification>
                         <cac:PartyName>
                            <cbc:Name languageID="ENG">Katerina Lisa</cbc:Name>
@@ -111,7 +111,7 @@
                   <efac:Organization>
                      <efac:Company>
                         <cac:PartyIdentification>
-                           <cbc:ID>ORG-0002</cbc:ID>
+                           <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
                         </cac:PartyIdentification>
                         <cac:PartyName>
                            <cbc:Name languageID="ENG">jka mmmm </cbc:Name>
@@ -151,7 +151,7 @@
    <cac:ContractingParty>
       <cac:Party>
          <cac:PartyIdentification>
-            <cbc:ID>ORG-0001</cbc:ID>
+            <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
          </cac:PartyIdentification>
       </cac:Party>
    </cac:ContractingParty>
@@ -167,13 +167,13 @@
       <cac:TenderingTerms>
          <cac:AdditionalInformationParty>
             <cac:PartyIdentification>
-               <cbc:ID>TPO-0001</cbc:ID>
+               <cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
             </cac:PartyIdentification>
          </cac:AdditionalInformationParty>
          <cac:AppealTerms>
             <cac:AppealReceiverParty>
                <cac:PartyIdentification>
-                  <cbc:ID>ORG-0001</cbc:ID>
+                  <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
                </cac:PartyIdentification>
             </cac:AppealReceiverParty>
          </cac:AppealTerms>

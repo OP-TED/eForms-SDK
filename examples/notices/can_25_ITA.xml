@@ -286,7 +286,7 @@
 		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>DAC.0006.2020</cbc:ID>
+		<cbc:ID schemeName="InternalID">DAC.0006.2020</cbc:ID>
 		<cbc:Name languageID="ITA">Servizio di prove funzionali finalizzate all’attivazione / riconfigurazione di tratte su linee AV/AC e/o tradizionali oggetto di upgrade tecnologico tramite l’utilizzo di treni idonei</cbc:Name>
 		<cbc:Description languageID="ITA">Servizio di prove funzionali finalizzate all’attivazione / riconfigurazione di tratte su linee AV/AC e/o tradizionali oggetto di upgrade tecnologico tramite l’utilizzo di treni idonei a circolare a velocità massima non inferiore a 250 km/h e attrezzati con sottosistemi di bordo Alstom ed Hitachi, con relativo personale di condotta</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -363,7 +363,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>DAC.0006.2020</cbc:ID>
+			<cbc:ID schemeName="InternalID">DAC.0006.2020</cbc:ID>
 			<cbc:Name languageID="ITA">Servizio di prove funzionali finalizzate all’attivazione / riconfigurazione di tratte su linee AV/AC e/o tradizionali oggetto di upgrade tecnologico tramite l’utilizzo di treni idonei</cbc:Name>
 			<cbc:Description languageID="ITA">Servizio di prove funzionali finalizzate all’attivazione / riconfigurazione di tratte su linee AV/AC e/o tradizionali oggetto di upgrade tecnologico tramite l’utilizzo di treni idonei a circolare a velocità massima non inferiore a 250 km/h e attrezzati con sottosistemi di bordo Alstom ed Hitachi, con relativo personale di condotta</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

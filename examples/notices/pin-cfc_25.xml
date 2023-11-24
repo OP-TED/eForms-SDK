@@ -169,7 +169,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>xyz</cbc:ID>
+		<cbc:ID schemeName="InternalID">xyz</cbc:ID>
 		<cbc:Name languageID="DEU">Instandhaltung Brandschutztüren</cbc:Name>
 		<cbc:Description languageID="DEU">Wartung, Funktionsprüfung und Instandsetzung von ca. 3 700 Brandschutztüren – inkl. ca. 100 integrierter Feststelleinrichtungen – am Flughafen Stuttgart. Die Wartungsplanung wird vom AG vorgegeben und vom AN mittels gestelltem Ipad dokumentiert. Der Auftraggeber führt vorliegend ein Vergabeverfahren mit Interessenbekundung, Interessenbestätigung und Aufforderung zur Abgabe eines Angebots im Wege eines Verhandlungsverfahrens ohne gesonderte Auftragsbekanntmachung durch. In Ziffer VI.3 b) der vorliegenden Bekanntmachung ist der Ablauf konkretisiert.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -288,7 +288,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>lot 1</cbc:ID>
+			<cbc:ID schemeName="InternalID">lot 1</cbc:ID>
 			<cbc:Name languageID="DEU">Instandhaltung Brandschutztüren Terminals</cbc:Name>
 			<cbc:Description languageID="DEU">Instandhaltung der Brandschutztüren in folgenden Gebäuden: — Terminal 1; — Terminal 2; — Terminal 3; — Terminal 4; — VL-Gebäude; — OPS-Gebäude; — LVT-Gebäude. Massen: — BS-Tür 1-Flügel mit Türschließer: 346; — BS-Tür 1-Flügel ohne Türschließer: 18; — BS-Tür 2-Flügel mit Türschließer: 153; — Tür 1-Flügel mit Türschließer: 311; — Tür 1-Flügel ohne Türschließer:35; — Tür 2-Flügel mit Türschließer: 87; — Tür 2-Flügel ohne Türschließer: 10. Der AG gibt die grobe Wartungs- und Prüfplanung vor. Der AN macht die Detailplanung, führt Wartungen und Funktionsprüfungen durch. Die Dokumentation der Wartung erfolgt in vom AG gestellten Ipads, eine separate Dokumentation seitens des AN ist nicht gewünscht. Die Dokumentation der Funktionsprüfungen erfolgt in Papierform.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -425,7 +425,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>lot 2</cbc:ID>
+			<cbc:ID schemeName="InternalID">lot 2</cbc:ID>
 			<cbc:Name languageID="DEU">Lot No: 2</cbc:Name>
 			<cbc:Description languageID="DEU">Instandhaltung der Brandschutztüren in folgenden Gebäuden: — CCS; — Feuerwache; — SkyLoop. Massen: — BS-Tür 1-Flügel mit Türschließer: 400; — BS-Tür 1-Flügel ohne Türschließer: 31; — BS-Tür 2-Flügel mit Türschließer: 121; — Drehflügeltür 1-Flügel mit FSA: 25; — Drehflügeltür 2-Flügel mit FSA: 58; — Tür 1-Flügel mit Türschließer: 295; — Tür 1-Flügel ohne Türschließer: 90; — Tür 2-Flügel mit Türschließer: 136; — Tür 2-Flügel ohne Türschließer: 24. Der AG gibt die grobe Wartungs- und Prüfplanung vor. Der AN macht die Detailplanung, führt Wartungen und Funktionsprüfungen durch. Die Dokumentation der Wartung erfolgt in vom AG gestellten Ipads, eine separate Dokumentation seitens des AN ist nicht gewünscht. Die Dokumentation der Funktionsprüfungen erfolgt in Papierform.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

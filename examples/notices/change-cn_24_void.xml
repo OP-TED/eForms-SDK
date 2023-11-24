@@ -223,7 +223,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="ENG">Provision of IT Services Related to OP IT Systems (EUR-Lex, N-Lex, Search Layer, and Others)</cbc:Name>
 			<cbc:Description languageID="ENG">Provision of IT services related to the information systems of the publications office (namely EUR-Lex, N-Lex, and Search Layer),
 			with the possibility to extend the provision to other information systems.</cbc:Description>

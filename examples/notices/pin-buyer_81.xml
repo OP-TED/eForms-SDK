@@ -19,7 +19,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">ZenithNova Innovations</cbc:Name>
@@ -76,7 +76,7 @@
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>ORG-0001</cbc:ID>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>

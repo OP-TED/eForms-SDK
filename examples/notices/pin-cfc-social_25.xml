@@ -21,7 +21,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">ZenithNova Innovations Ltd.</cbc:Name>
@@ -54,7 +54,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com/contact-us/katerina-lisa</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange/katerina-lisa</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Katerina Lisa</cbc:Name>
@@ -89,7 +89,7 @@
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>ORG-0001</cbc:ID>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
@@ -148,18 +148,18 @@ vol3</cbc:Description>
 			</cac:ContractExecutionRequirement>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:AppealTerms>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID>ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 				<cac:MediationParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:MediationParty>
 			</cac:AppealTerms>
@@ -182,7 +182,7 @@ vol3</cbc:Description>
 			</ext:UBLExtensions>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>ABE</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABE</cbc:ID>
 			<cbc:Name languageID="ENG">Title vol 3</cbc:Name>
 			<cbc:Description languageID="ENG">Sinopsis vol 3 LOT1 
 A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.
@@ -227,18 +227,18 @@ A rainy day finds you in a hair salon. Now you have to decide whether to cut you
 			</cac:ContractExecutionRequirement>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:AppealTerms>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID>ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 			</cac:AppealTerms>
@@ -264,7 +264,7 @@ A rainy day finds you in a hair salon. Now you have to decide whether to cut you
 			</cac:AuctionTerms>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>ABD</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABD</cbc:ID>
 			<cbc:Name languageID="ENG">Title vol3 </cbc:Name>
 			<cbc:Description languageID="ENG">Sinopsis vol3 LOT2
 A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.
@@ -318,18 +318,18 @@ A rainy day finds you in a hair salon. Now you have to decide whether to cut you
 			</cac:ContractExecutionRequirement>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:AppealTerms>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
-						<cbc:ID>ORG-0001</cbc:ID>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealInformationParty>
 			</cac:AppealTerms>
@@ -359,7 +359,7 @@ A rainy day finds you in a hair salon. Now you have to decide whether to cut you
 			</cac:AuctionTerms>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>ABF</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABF</cbc:ID>
 			<cbc:Name languageID="ENG">Title vol3 </cbc:Name>
 			<cbc:Description languageID="ENG">Sinopsis vol3 *LOT3*
 A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.A rainy day finds you in a hair salon. Now you have to decide whether to cut your hair or not.

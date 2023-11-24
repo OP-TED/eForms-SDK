@@ -93,7 +93,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
-		<cbc:ID>700032337</cbc:ID>
+		<cbc:ID schemeName="InternalID">700032337</cbc:ID>
 		<cbc:Name languageID="ENG">Provision of Worldwide Linguistic Services in Support of UK MoD Operations</cbc:Name>
 		<cbc:Description languageID="ENG">The authority has identified a requirement for a single supplier framework agreement for linguistic services in support of Permanent Joint Headquarters (PJHQ) and other user worldwide operations. This requirement shall include linguists at a variety of skill and security clearance levels to meet pre-defined roles but will also necessitate short notice deployments in to emerging operational locations when required by the authority. The authority will be looking to place a contract for four (4) years, with the potential to extend for a further twenty-four (24) months. The authority will be looking to place a contract notice for this requirement, with further details of the requirement, in the next 1-4 months. Interested suppliers will be expected to complete a Dynamic Pre-Qualification Questionnaire (DPQQ) with a minimum of three suppliers taken through to the invitation to tender (ITT) stage</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

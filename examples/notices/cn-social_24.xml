@@ -162,7 +162,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">oth-single</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>0219</cbc:ID>
+		<cbc:ID schemeName="InternalID">0219</cbc:ID>
 		<cbc:Name languageID="ENG">Secure Care Services</cbc:Name>
 		<cbc:Description languageID="ENG">See II.2.4) (below) for a description of the procurement. In response to ESPD (Scotland) question 4A.2 where it is required, within a bidder’s country of establishment they must confirm which authorisation or memberships of the relevant organisation(s) are required in order to perform this service. Bidders must confirm if they hold the following particular authorisation or memberships: — approval by Scottish Ministers under the Social Care and Social Work Improvement Scotland (Requirements for Care Services) Regulations 2011 for accommodations to be provided for the sole purpose of restricting the liberty of children in residential premises where care services are provided, — registration in accordance with the Education (Scotland) Act 1980, as amended, with the Registrar of Independent Schools, — registration with the Social Care and Social Work Improvement Scotland (‘Care Inspectorate’) as the provider of a secure accommodation service under the Public Services Reform (Scotland) Act 2010.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -276,7 +276,7 @@
 			</cac:ParticipationRequestReceptionPeriod>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>0219</cbc:ID>
+			<cbc:ID schemeName="InternalID">0219</cbc:ID>
 			<cbc:Name languageID="ENG">Secure Care Services</cbc:Name>
 			<cbc:Description languageID="ENG">Provision of secure care (secure accommodation) services. The scope of services to be provided under the advertised arrangement falls within the definition of social and other specific services in Schedule 3 to the Public Contracts (Scotland) Regulations 2015 (‘the Regulations’) and therefore the procurement process shall be subject to the requirements of section 7 of the Regulations. Any application of or reference to other Regulations unless clearly identified is not to be implied and should not be construed as applying any of them to the exercise or bringing any of them into force. Tenderers are asked to note that Regulation 75(2) of the Regulations applies to this exercise. Notwithstanding that, Scotland Excel has elected, voluntarily, to place this notice for reasons of transparency. Accordingly, this secure care service will be awarded to parties already identified using a form of the negotiated procedure developed in accordance with Regulation 76(8) of the Regulations.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
