@@ -11,7 +11,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:ContractModification>
-						<efbc:ChangedNoticeIdentifier>cb988d3a-79e9-4792-8739-da87831a20ef-01</efbc:ChangedNoticeIdentifier>
+						<efbc:ChangedNoticeIdentifier schemeName="notice-id-ref">cb988d3a-79e9-4792-8739-da87831a20ef-01</efbc:ChangedNoticeIdentifier>
 						<efac:Change>
 							<efbc:ChangeDescription languageID="ENG">Description of modifications (BT-202-Contract)</efbc:ChangeDescription>
 							<efac:ChangedSection>
@@ -179,7 +179,7 @@
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>817af783-14aa-461b-bf96-650ab394f881</cbc:ID>
+			<cbc:ID schemeName="InternalID">817af783-14aa-461b-bf96-650ab394f881</cbc:ID>
 			<cbc:Description languageID="ENG">817af783-14aa-461b-bf96-650ab394f881817af783-14aa-461b-bf96-650ab394f881817af783-14aa-461b-bf96-650ab394f881817af783-14aa-461b-bf96-650ab394f881</cbc:Description>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>

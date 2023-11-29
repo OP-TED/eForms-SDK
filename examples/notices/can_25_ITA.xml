@@ -72,7 +72,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID>SCN ABC:2021-02/01</cbc:ID>
+								<cbc:ID schemeName="contract">SCN ABC:2021-02/01</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

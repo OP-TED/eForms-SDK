@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:ContractModification>
-						<efbc:ChangedNoticeIdentifier>268231-2010</efbc:ChangedNoticeIdentifier>
+						<efbc:ChangedNoticeIdentifier schemeName="ojs-notice-id">268231-2010</efbc:ChangedNoticeIdentifier>
 						<efac:Change>
 							<efbc:ChangeDescription languageID="ENG">Extension of six (6) months and increased contract value from GBP 95 000 000 to GBP 105 000 000.</efbc:ChangeDescription>
 							<efac:ChangedSection>
@@ -64,7 +64,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID>BSO/2010/REV-01</cbc:ID>
+								<cbc:ID schemeName="contract">BSO/2010/REV-01</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

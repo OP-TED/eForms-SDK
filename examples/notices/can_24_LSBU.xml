@@ -58,7 +58,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID>CRN ABC-123/2020</cbc:ID>
+								<cbc:ID schemeName="contract">CRN ABC-123/2020</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

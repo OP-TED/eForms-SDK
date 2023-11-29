@@ -56,7 +56,7 @@
 							<cbc:IssueDate>2020-02-12+01:00</cbc:IssueDate>
 							<cbc:Title languageID="ENG">Making Tax Digital for VAT (MTDfV)</cbc:Title>
 							<efac:ContractReference>
-								<cbc:ID>SCR/ABC-2020/003-01</cbc:ID>
+								<cbc:ID schemeName="contract">SCR/ABC-2020/003-01</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

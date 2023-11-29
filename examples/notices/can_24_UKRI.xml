@@ -56,7 +56,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID>SCRN ABC EFG:2020-001</cbc:ID>
+								<cbc:ID schemeName="contract">SCRN ABC EFG:2020-001</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

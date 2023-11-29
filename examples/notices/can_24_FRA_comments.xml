@@ -216,7 +216,7 @@
 							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<!--BT-150 Contract Identifier-->
-								<cbc:ID>SC/ABC/234/01</cbc:ID>
+								<cbc:ID schemeName="contract">SC/ABC/234/01</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<!--BT-3202 Tender Identifier Reference-->
@@ -239,7 +239,7 @@
 							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<!--BT-150 Contract Identifier-->
-								<cbc:ID>SC/DEF/124/01</cbc:ID>
+								<cbc:ID schemeName="contract">SC/DEF/124/01</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<!--BT-3202 Tender Identifier Reference-->

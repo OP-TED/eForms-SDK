@@ -74,7 +74,7 @@
 							</cac:SignatoryParty>
 							<!--BT-150-->
 							<efac:ContractReference>
-								<cbc:ID>CRN - 2010/02</cbc:ID>
+								<cbc:ID schemeName="contract">CRN - 2010/02</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<!--BT-3202-->
@@ -489,7 +489,7 @@
 		<cac:TenderingProcess>
 			<cac:NoticeDocumentReference>
 				<!--BT-125-->
-				<cbc:ID>362098-2020</cbc:ID>
+				<cbc:ID schemeName="ojs-notice-id">362098-2020</cbc:ID>
 				<cbc:ReferencedDocumentInternalAddress>B20-05327</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
 			<cac:AuctionTerms>

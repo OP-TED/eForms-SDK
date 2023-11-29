@@ -110,7 +110,7 @@
 		<cbc:Description languageID="ENG">Main features of the procedure (BT-88-Procedure)</cbc:Description>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>Internal identifier (BT-22-Procedure)</cbc:ID>
+		<cbc:ID schemeName="InternalID">Internal identifier (BT-22-Procedure)</cbc:ID>
 		<cbc:Name languageID="ENG">Title (BT-21-Procedure)</cbc:Name>
 		<cbc:Description languageID="ENG">Description (BT-24-Procedure)</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
@@ -254,7 +254,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>Internal identifier (BT-22-Lot) *</cbc:ID>
+			<cbc:ID schemeName="InternalID">Internal identifier (BT-22-Lot) *</cbc:ID>
 			<cbc:Name languageID="ENG">Title (BT-21-Lot)</cbc:Name>
 			<cbc:Description languageID="ENG">Description (BT-24-Lot)</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>

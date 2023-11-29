@@ -555,9 +555,9 @@
 	<cbc:IssueDate>2023-05-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>20:59:32+01:00</cbc:IssueTime>
 	<!--BT-757-->
-    <cbc:VersionID>03</cbc:VersionID>
-    <!--BT-127-->
-    <cbc:PlannedDate>2023-09-01+02:00</cbc:PlannedDate>
+	<cbc:VersionID>03</cbc:VersionID>
+	<!--BT-127-->
+	<cbc:PlannedDate>2023-09-01+02:00</cbc:PlannedDate>
 	<!--BT-01-->
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<!--BT-03--> <!--BT-02-->
@@ -748,8 +748,8 @@
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
 				</cac:PartyIdentification>
-            </cac:TenderEvaluationParty>
-            <cac:AppealTerms>
+			</cac:TenderEvaluationParty>
+			<cac:AppealTerms>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0006</cbc:ID>
@@ -781,7 +781,7 @@
 			<!--BT-115-->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
 			<!--BT-124-->
-            <cbc:AccessToolsURI>https://test-tool.com</cbc:AccessToolsURI>
+			<cbc:AccessToolsURI>https://test-tool.com</cbc:AccessToolsURI>
 			<cac:AdditionalInformationRequestPeriod>
 				<!--BT-13-->
 				<cbc:EndDate>2023-05-23+01:00</cbc:EndDate>
@@ -789,7 +789,7 @@
 			</cac:AdditionalInformationRequestPeriod>
 			<cac:NoticeDocumentReference>
 				<!--BT-125-->
-				<cbc:ID>12345678-2020</cbc:ID>
+				<cbc:ID schemeName="ojs-notice-id">12345678-2020</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>PAR-010</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>

@@ -7,7 +7,7 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:ContractModification>
-						<efbc:ChangedNoticeIdentifier>342558-2018</efbc:ChangedNoticeIdentifier>
+						<efbc:ChangedNoticeIdentifier schemeName="ojs-notice-id">342558-2018</efbc:ChangedNoticeIdentifier>
 						<efac:Change>
 							<efbc:ChangeDescription languageID="ENG">Increase in framework value</efbc:ChangeDescription>
 							<efac:ChangedSection>
@@ -60,7 +60,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID>MOD/CON/02-CHG/2021/PWC</cbc:ID>
+								<cbc:ID schemeName="contract">MOD/CON/02-CHG/2021/PWC</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

@@ -40,7 +40,7 @@
 							<cbc:AwardDate>2020-04-15+02:00</cbc:AwardDate>
 							<cbc:Title languageID="ENG">Supply of Profiling Beds with Accessories, Pressure Relieving Mattresses and Cushions</cbc:Title>
 							<efac:ContractReference>
-								<cbc:ID>RN AAT-345/02/SC</cbc:ID>
+								<cbc:ID schemeName="contract">RN AAT-345/02/SC</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

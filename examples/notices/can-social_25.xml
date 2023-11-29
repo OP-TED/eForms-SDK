@@ -54,7 +54,7 @@
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<efac:ContractReference>
-								<cbc:ID>2020/001</cbc:ID>
+								<cbc:ID schemeName="contract">2020/001</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

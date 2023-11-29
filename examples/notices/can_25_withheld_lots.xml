@@ -177,7 +177,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID>CRN 2021/02/ABC</cbc:ID>
+								<cbc:ID schemeName="contract">CRN 2021/02/ABC</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -427,7 +427,7 @@
 			</cac:Address>
 		</cac:RealizedLocation>
 	</cac:ProcurementProject>
-    <cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 		<cac:TenderingTerms>
 			<cac:AwardingTerms>
@@ -520,7 +520,7 @@
 			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
-    <cac:ProcurementProjectLot>
+	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 		<cac:TenderingTerms>
 			<cac:AwardingTerms>
