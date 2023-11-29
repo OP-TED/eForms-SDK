@@ -1390,6 +1390,7 @@
 		<assert id="BR-BT-00137-0154" role="ERROR" test="matches(normalize-space(.),'^PAR-\d{4}$')">rule|text|BR-BT-00137-0154</assert>
 	</rule>
 	<rule context="/*/cac:SenderParty/cac:Contact/cbc:ElectronicMail">
+		<assert id="BR-OPP-00131-0051" role="ERROR" test="matches(normalize-space(.),'^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\.)+([A-Za-z]{2,})$')">rule|text|BR-OPP-00131-0051</assert>
 		<assert id="OPP-131-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPP-131-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">

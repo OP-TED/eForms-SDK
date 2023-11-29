@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.1",
-    "createdOn" : "2023-11-16T17:47:51"
+    "version" : "1.10.40",
+    "createdOn" : "2023-11-28T10:17:06"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -35328,6 +35328,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "OPT-001-notice",
