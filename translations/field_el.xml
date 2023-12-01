@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Η (εκτιμώμενη) περίοδος από την έναρξη έως τη λήξη της σύμβασης, της συμφωνίας-πλαίσιο, του δυναμικού συστήματος αγορών ή του συστήματος προεπιλογής. Αυτό περιλαμβάνει τυχόν δικαιώματα προαίρεσης και παρατάσεις.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Η περίοδος από την προθεσμία υποβολής προσφορών κατά την οποία οι προσφορές πρέπει να παραμείνουν σε ισχύ.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Το εφαρμοστέο δίκαιο σε περίπτωση που στη σύμβαση συμμετέχουν αγοραστές από διαφορετικές χώρες.</entry>
-<entry key="field|hint|BT-13716-Notice">Ένα από τα παρακάτω πρέπει να συμπληρωθεί: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Ένα από τα παρακάτω πρέπει να συμπληρωθεί: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Προσθέστε όσες παρτίδες επιθυμείτε να συμπεριλάβετε στην ομάδα των παρτίδων.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Προσθέστε όσες παρτίδες επιθυμείτε να συμπεριλάβετε στην ομάδα των παρτίδων.</entry>
 <entry key="field|hint|BT-22-Lot">Εάν χρησιμοποιείτε εσωτερικό αναγνωριστικό για τη διαδικασία και τις παρτίδες σας, πρέπει να το συμπληρώσετε. Χρησιμοποιήστε διαφορετικό αναγνωριστικό για κάθε παρτίδα.</entry>

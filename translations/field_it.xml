@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Il periodo (stimato) che intercorre tra l'inizio e la fine dell'appalto, dell'accordo quadro, del sistema dinamico di acquisizione o del sistema di qualificazione. Sono compresi tutte le opzioni e tutti i rinnovi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Il periodo successivo al termine di presentazione dell'offerta nel quale le offerte devono rimanere valide.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">La legge applicabile se l'appalto coinvolge committenti di paesi diversi.</entry>
-<entry key="field|hint|BT-13716-Notice">Uno dei seguenti campi deve essere compilato: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Uno dei seguenti campi deve essere compilato: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-22-Lot">Se si utilizza un identificativo interno per la procedura e i lotti, si prega di inserirlo. Si prega di utilizzare identificativi diversi per ciascun lotto.</entry>
@@ -1159,8 +1158,8 @@
 <entry key="field|name|BT-16-Organization-TouchPoint">Servizio</entry>
 <entry key="field|name|BT-160-Tender">Ricavo previsto proveniente dal committente che ha aggiudicato la concessione</entry>
 <entry key="field|name|BT-160-Tender-Currency">Ricavo previsto proveniente dal committente che ha aggiudicato la concessione</entry>
-<entry key="field|name|BT-161-NoticeResult">Visu šajā paziņojumā piešķirto līgumu vērtība</entry>
-<entry key="field|name|BT-161-NoticeResult-Currency">Visu šajā paziņojumā piešķirto līgumu vērtība</entry>
+<entry key="field|name|BT-161-NoticeResult">Valore di tutti i contratti assegnati in questo avviso</entry>
+<entry key="field|name|BT-161-NoticeResult-Currency">Valore di tutti i contratti assegnati in questo avviso</entry>
 <entry key="field|name|BT-162-Tender">Ricavo previsto proveniente dagli utenti della concessione</entry>
 <entry key="field|name|BT-162-Tender-Currency">Ricavo previsto proveniente dagli utenti della concessione</entry>
 <entry key="field|name|BT-163-Tender">Metodo utilizzato per calcolare il valore stimato della concessione</entry>

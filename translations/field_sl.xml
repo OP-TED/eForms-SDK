@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">(Predvideno) obdobje od začetka do konca naročila, okvirnega sporazuma, dinamičnega nabavnega sistema ali kvalifikacijskega sistema. Zajete so tudi opcije in podaljšanja.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Obdobje po poteku roka za predložitev, v katerem morajo ponudbe ostati veljavne.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo, ki se uporablja, če javno naročilo vključuje kupce iz različnih držav.</entry>
-<entry key="field|hint|BT-13716-Notice">Eden od naslednjega mora biti izpolnjen: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Eden od naslednjega mora biti izpolnjen: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
 <entry key="field|hint|BT-22-Lot">Če za svoj postopek in sklope uporabljate notranji identifikator, ga vpišite. Za posamezne sklope uporabite različne identifikatorje.</entry>
@@ -1159,8 +1158,8 @@
 <entry key="field|name|BT-16-Organization-TouchPoint">Služba</entry>
 <entry key="field|name|BT-160-Tender">Načrtovani prihodki, ki prihajajo od kupca, ki je podelil koncesijo</entry>
 <entry key="field|name|BT-160-Tender-Currency">Načrtovani prihodki, ki prihajajo od kupca, ki je podelil koncesijo</entry>
-<entry key="field|name|BT-161-NoticeResult">Värdet av alla kontrakt som tilldelats i detta meddelande</entry>
-<entry key="field|name|BT-161-NoticeResult-Currency">Värdet av alla kontrakt som tilldelats i detta meddelande</entry>
+<entry key="field|name|BT-161-NoticeResult">Vrednost vseh pogodb, dodeljenih v tem obvestilu</entry>
+<entry key="field|name|BT-161-NoticeResult-Currency">Vrednost vseh pogodb, dodeljenih v tem obvestilu</entry>
 <entry key="field|name|BT-162-Tender">Načrtovani prihodki, ki prihajajo od uporabnikov koncesije</entry>
 <entry key="field|name|BT-162-Tender-Currency">Načrtovani prihodki, ki prihajajo od uporabnikov koncesije</entry>
 <entry key="field|name|BT-163-Tender">Metoda, ki se uporablja za izračun načrtovane vrednosti koncesije</entry>

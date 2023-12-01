@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Laikotarpis (numatomas) nuo sutarties, preliminariosios sutarties, dinaminės pirkimo sistemos arba kvalifikacijos vertinimo sistemos galiojimo pradžios iki pabaigos. Galiojimo trukmė turi apimti visas pasirinkimo galimybes ir atnaujinimus.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Laikotarpis skaičiuojamas nuo pasiūlymo pateikimo termino, kurį pasiūlymas turi likti galioti.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Taikytina teisė, jei pirkime dalyvauja skirtingų šalių pirkėjai.</entry>
-<entry key="field|hint|BT-13716-Notice">Vienas iš šių turi būti užpildytas: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Vienas iš šių turi būti užpildytas: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Pridėkite tiek pirkimo dalių, kiek norite įtraukti į pirkimo dalių grupę.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pridėkite tiek pirkimo dalių, kiek norite įtraukti į pirkimo dalių grupę.</entry>
 <entry key="field|hint|BT-22-Lot">Jei savo procedūrai ir pirkimo dalims naudojate vidaus identifikatorių, įrašykite jį. Kiekvienai pirkimo daliai naudokite skirtingus identifikatorius.</entry>
@@ -1159,8 +1158,8 @@
 <entry key="field|name|BT-16-Organization-TouchPoint">Padalinys</entry>
 <entry key="field|name|BT-160-Tender">Numatomos pajamos iš koncesiją suteikusio pirkėjo</entry>
 <entry key="field|name|BT-160-Tender-Currency">Numatomos pajamos iš koncesiją suteikusio pirkėjo</entry>
-<entry key="field|name|BT-161-NoticeResult">Valur ta' kull kuntratt mogħti f'dan l-avviż</entry>
-<entry key="field|name|BT-161-NoticeResult-Currency">Valur ta' kull kuntratt mogħti f'dan l-avviż</entry>
+<entry key="field|name|BT-161-NoticeResult">Visų šiame pranešime suteiktų sutarčių vertė</entry>
+<entry key="field|name|BT-161-NoticeResult-Currency">Visų šiame pranešime suteiktų sutarčių vertė</entry>
 <entry key="field|name|BT-162-Tender">Numatomos pajamos iš koncesijos vartotojų</entry>
 <entry key="field|name|BT-162-Tender-Currency">Numatomos pajamos iš koncesijos vartotojų</entry>
 <entry key="field|name|BT-163-Tender">Koncesijos metodas, kuriuo apskaičiuojama numatoma vertė</entry>
