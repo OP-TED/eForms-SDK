@@ -12,8 +12,8 @@
 		"comment": "corporate body (type of buyer)"
 	},
 	"CY": {
-		"efx": "{ND-Root} ${value-union(/BT-514-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer], /OPP-112-Business)}",
-		"comment": "Buyer country or Place of registration(Country)"
+		"efx": "{ND-Root} ${value-union(value-union(/BT-514-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer], /OPP-112-Business), /BT-514-Business)}",
+		"comment": "Buyer country or Place of registration(Country) or Country"
 	},
 	"TW": {
 		"efx": "{ND-Root} ${/BT-513-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-Buyer]}",

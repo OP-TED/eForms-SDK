@@ -70,7 +70,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">af25aa4e-6ced-438b-bf19-4458c2cd2c10</cbc:ID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
 	<cbc:IssueTime>09:42:26Z</cbc:IssueTime>
@@ -219,6 +219,9 @@
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 </urn:PriorInformationNotice>

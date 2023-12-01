@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl" title="eForms schematron rules">
+<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        phase="29"
+                        title="eForms schematron rules">
    <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
    <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
    <svrl:ns-prefix-in-attribute-values prefix="cbc"
@@ -31,7 +33,7 @@
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="//cbc:NoticeTypeCode"/>
-   <svrl:active-pattern id="EFORMS-validation-stage-1b"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-1b-29"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:failed-assert id="ND-ProcedureProcurementScope-29"
                        location="/can:ContractAwardNotice"
@@ -53,6 +55,7 @@
          <svrl:text>cac:TenderingProcess</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:failed-assert id="ND-NoticeResult-29"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
@@ -72,7 +75,7 @@
          <svrl:text>efac:Organizations</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-validation-stage-2a"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-2a-29"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:failed-assert id="BR-BT-00005-0088"
                        location="/can:ContractAwardNotice"
@@ -128,16 +131,6 @@
          <svrl:text>cbc:CustomizationID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:failed-assert id="BR-OPT-00300-0136"
-                       location="/can:ContractAwardNotice"
-                       role="ERROR"
-                       test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00300-0136</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer"
-                                 see="field:OPT-300-Procedure-Buyer">
-         <svrl:text>cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:failed-assert id="BR-BT-00010-0036"
                        location="/can:ContractAwardNotice/cac:ContractingParty"
@@ -155,6 +148,17 @@
       <svrl:text>rule|text|BR-BT-00011-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-11-Procedure-Buyer" see="field:BT-11-Procedure-Buyer">
          <svrl:text>cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
+   <svrl:failed-assert id="BR-OPT-00300-0136"
+                       location="/can:ContractAwardNotice/cac:ContractingParty/cac:Party"
+                       role="ERROR"
+                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>rule|text|BR-OPT-00300-0136</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-300-Procedure-Buyer"
+                                 see="field:OPT-300-Procedure-Buyer">
+         <svrl:text>cac:PartyIdentification/cbc:ID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
@@ -183,10 +187,6 @@
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-3b"/>
-   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:failed-assert id="BR-BT-00004-0052"
                        location="/can:ContractAwardNotice/cbc:ContractFolderID"
@@ -195,7 +195,12 @@
       <svrl:text>rule|text|BR-BT-00004-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:IssueDate"/>
-   <svrl:active-pattern id="EFORMS-validation-stage-4"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-29"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4-29"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>

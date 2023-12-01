@@ -1,95 +1,92 @@
-# SDK 1.9.1 Release Notes
+# SDK 1.10.0 Release Notes
 
-This release removes 3 rules (BR-BT-00262-0211, BR-BT-00262-0212, and BR-BT-00262-0213) so there is no constraint on the nature (works, services or supplies) of subsidised contracts.
-
-A comprehensive list of changes between SDK 1.9.0 and SDK 1.9.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.9.0...1.9.1>
-
-# SDK 1.9.0 Release Notes
-
-This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.8.0 should also be able to use this version.
+This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.9.0 should also be able to use this version.
 
 ## Additional information
 
-New properties have been added in fields.json, named "attributeOf", "attributeName" and "attributes", that give information on fields that represent XML attributes, and their relationship with the field representing the corresponding element.
-For more details, see the description of these properties in [the documentation on field metadata](https://docs.ted.europa.eu/eforms/1.9/fields/index.html#_static_properties).
+Two new files were added in the `translations` folder:
 
-New fields were created, to represent information in attributes (like "listName", "schemeName", etc.) that was only implicit. These fields make use of the new properties indicated above. This should make it easier to generate a correct XML, without having to rely on predicates in the XPath of the fields.
-
-The addition of those fields made the following "OPA-..." fields redundant, so they were removed: OPA-27-Procedure-Currency, OPA-36-Lot-Unit, OPA-36-Part-Unit, OPA-98-Lot-Unit, OPA-118-NoticeResult-Currency, OPA-161-NoticeResult-Currency.
-The remaining "OPA-..." fields refer to the numerical value of a regular field that also has a unit (duration, monetary amount, etc.), so they can be ignored during the XML generation. This has been [indicated in the documentation on field metadata](https://docs.ted.europa.eu/eforms/1.9/fields/index.html#_fields_other_than_bt).
+* An index file named `translations.json`, with information on each translation file available in the folder.
+* A list of the EU official languages, named `language-codes.xml`, with the 2 and 3 letter codes for each language. This file is in XML to make it easier to use in XPath or XSLT.
 
 ## Updated metadata content
 
 This version brings various changes in the metadata content that were needed for corrections, enhancements and consistency. The following sections contain an overview of the main changes.
 
-## Schema, nodes, fields and notice type definitions
+### Schema, nodes, fields and notice type definitions
 
-* Added remaining 2022 regulation amendment fields to notice types (Clean Vehicle Directive, EU Funds, etc).
-* Updated schema and rules to make BT-198 Unpublished Access Date optional (an empty date means the field will never be published)
-* Added new field OPT-211 (cbc:Name in TenderingParty in schema) to provide a caption field for TPA id in OPT-210-Tenderer
-* Updated schema, fields and nodes for Procurement documents languages (cac:CallForTendersDocumentReference)
-* Removed options to unpublish BT-09(a)-Procedure CrossBorderLaw
-* Made ND-SubcontractingObligation repeatable
-* Many changes to notice type definitions to provide consistency and completeness; also changed the sequence of the sections in Results
+* Removed the definition of the element `efbc:TermIndicator` from the schema, as this element was not used any more.
+* The node structure was improved, and the notice type definitions were adjusted accordingly.
+* Added references to the identifier scheme for fields OPT-301-ReviewBody and OPT-301-ReviewReq.
+* Updated fields and nodes properties to allow for multiple direct award justifications.
+* Added fields OPP-035-Tender and OPP-035-Tender-List for T02 notices.
+* Corrected codelist used for OPP-030-Tender.
+* The Clean Vehicles Directive (CVD) fields and groups have been added to the notice type definition for subtypes 32 to 35, both in the lot (GR-Lot-TenderingTerms-CVD) and the lot result (GR-LotResult-CVD) sections. The positioning reflects what was already in place in other subtypes.
+* Many other changes to notice type definitions to provide consistency and completeness.
 
-## Rules and codelists
+### Rules
 
-* Added back further conditional mandatory/forbidden rules (which had been removed in SDK 1.3) related to:
-  * Award Criterion BT-539, BT-540, BT-541, BT-5421, BT-5422, BT-5423, BT-543
-  * Exclusion Grounds BT-67
-  * Change Reason Code BT-140
-  * Public Opening BT-133, BT-134
-  * Notice Value BT-161
-  * Submission URL BT-18, Submission Nonelectronic Justification BT-19, Submission Nonelectronic Description BT-745
-  * Contract Tender ID Reference BT-3202
+The Schematron rules are now split in phases, with one phase for each notice subtype. This allows us to significantly reduce the execution time of the validation, in particular for large notices. The Schematron rules can be executed as before, but some adaptations are needed to take advantage of the improved performance. [More information is available in the documentation](https://docs.ted.europa.eu/eforms/1.10/schematrons/index.html). The Central Validation Service will be updated soon to take advantage of this improvement.
 
-* Other rule changes:
-  * Added dynamic rule to check that a notice ID does not match a notice ID that has already been published on TED
-  * Corrected rules BR-BT-00262-0211, BR-BT-00262-0212 and BR-BT-00262-0213 to also allow CPV codes for services (in addition to works)
-  * Allow BT-738 Preferred Publication Date to be 0 days after BT-05 dispatch date (instead of at least 2 days later)
-  * Forbid use of cancel or cancel-intention reasons for Change notice after deadlines have passed for competition notices
-  * Enforce value_check on indicator fields to be "true" or "false"
-  * Removed rules BR-BT-13713-0106 and BR-BT-13713-0108 about values being 100x lower than estimations
-  * Loosened rule BR-BT-00145-0100 to allow BT-145 Contract conclusion date to be the same day as BT-05 Dispatch Date
-  * Deactivated rule enforcing BT-743 Electronic Invoicing
-  * Deactivated rule BR-BT-00051-0100 on second stage max candidates
-  * Deactivated rules BR-BT-00105-011x on procedure types
-  * Loosened URL pattern to allow more than just ASCII characters (aligned with eSentool pattern)
-  * Loosened email pattern to allow more symbols and longer TLDs
-  * Removed CM rules for BT-67(b) Exclusion Grounds Description
-  * Set pattern "id-ref" for OPT-300-Procedure-Buyer
-  * Corrected rules for CEI for fields BT-708-Lot, BT-737-Lot, BT-64 and BT-729
-  * Changed context for rules for BT-132(d)-Lot
-  * Remove non-capturing groups from regular expressions in Schematron
-  * Corrected error message label for rule BR-BT-01311-0152
-  
-* Updated codelists, aligned with June release of EU Vocabularies (use-context EFORMS):
-  * Several parent codelists now match the tailored eforms- codelists, which will be removed in the next SDK version:
-    * language: removed thousands of unused languages, parent language codelist now the same as eforms-language
-    * buyer-legal-type: removed eu-int-org and rl-aut; parent buyer-legal-type codelist now the same as eforms-buyer-legal-type
-    * currency: removed SQS, TVD, SLL, OP_DATPRO; parent currency codelist now the same as eforms-currency
-    * country: removed EUR, added GUY; parent country codelist almost the same as eforms-country except for the French DROM/COM
-    * contract-nature: removed combined; parent contract-nature codelist now the same as eforms-contract-nature
-  * Removed "change" form-type and "corr" notice-type (Change notices must use the same form-type and notice-type as the original notices, possible since SDK 1.6.0)
-  * Removed "other" modification-justification
-  * Removed AGRNET, EERP, OP_DATPRO from eu-programme
+Other changes in the rules include:
 
-## View templates
+* Reactivated various conditional rules related to: Framework agreements, GPA coverage, change-related fields, business registration, title and description of groups of lots, classification type, additional nature, address components, group framework values, EU Funds, and vehicles.
+* Added rules to check that the procedure type (BT-105-Procedure) is consistent with the notice subtype.
+* Added rules on various fields to check that their value is unique in the notice, in particular for identifiers.
+* Updated rules on accelerated procedure (BT-106-Procedure and BT-105-Procedure).
+* Corrected the rule on CPV codes for subsidized contracts.
+* Reduced the minimum period between Notice Dispatch Date (BT-05-notice) and Preferred Publication Date (BT-738-notice) from 2 to 0 days.
+* Modified the rule on dispatch date to use "Notice Dispatch Date eSender" (BT-803) when it exists, and Dispatch Date (BT-05) otherwise.
+* Modified rules on Duration fields (BT-36-Lot, BT-536-Lot, BT-537-Lot, BT-538-Lot) to be less restrictive and allow for various combinations without absolutely requiring the Duration Start Date (BT-536-Lot).
+* Made OPT-320-LotResult forbidden for Notice Subtype 28.
+* Corrected rules on "unpublished" fields related to BT-105-Procedure for subtypes 32 and 35.
+* Corrected rules on BT-198* fields to only apply when a value is present.
+* Improved rules on buyers to check that each and every buyer corresponds to an organisation.
+* Improved rules for "Cross Border Law" (BT-09).
+* Added a pattern rule for BT-1501(s)-Contract.
+* Corrected the regular expression used to check e-mail addresses to not reject valid addresses.
+* Corrected rules on opening event information to properly check when it is mandatory.
+* Updated rules to allow OJ publication fields in X01 and X02 notices: "Notice Publication Number" (OPP-010-notice), "OJEU Identifier" (OPP-011-notice), "OJEU Publication Date" (OPP-012-notice).
+* Added rules to forbid any "Group of Lots" field for notice subtype 15.
+* Removed rules on Lot and Part Technical ID when a single Lot or Part exists (BR-BT-00137-0207 and BR-BT-00137-0208).
+* Removed unnecessary rule comparing Opening Tender Event Date with the Deadline Receipt Request to Participate.
+* Removed the rule on Notice Framework Maximum Value as the sum of individual framework values (BR-BT-00118-0100).
+* Removed the mandatory rule on "Listed on a Regulated Market" (BT-746-Organization).
+* Added specific lawfulness warning for notice subtypes 1 to 6, only on the buyer country. The current lawfulness warning now applies on the other notice subtypes.
+* Added systematic lawfulness warning for CEI notices (reserved to EU institutions).
+* Added missing assert identifiers in file `validation-stage-6b.sch`.
 
-* For multilingual texts, show only one language at a time and remove square brackets separator
-* Improvements and corrections for unpublished fields, winning tender on VEAT notices, electronic auction, OPP-090 linked notice, comma instead of period as decimal separator, UBO names, Group Leader for Tenderer and other revisions
+### Codelists
 
-## Labels and translations
+* Added new tailored codelist "contract-term" based on "contract-detail".
+* Updated the list of lawful countries with the 7 French territories.
 
-* Various updates and corrections, including translations for criterion and exclusion-ground codelists
-* Updated group labels needed by NTDs
-* Copied texts for NUTS codes into all languages. Those texts are not translated, they are the local name of the region. This aligns those codes with all others, removing the need for a special handling to get a text in any language.
-* Renamed GR-Lot-ContractExtension, BT-54-Lot and BT-57-Lot
+### View templates
 
-As new rules were added, a notice that was valid with SDK 1.8.x might not be valid with this version.
+* Extended new Result CVD fields introduced in the Regulation amendment to eForms subtypes 32 to 35.
+* Removed EFX templates for Views where their Fields are forbidden.
+* Improved EFX templates for X01, X02, T01 and T02.
+* Where a Tendering Party is comprised of more than one organisation, we now display the name of the group leader, followed by the names of the other organisations.
+* Removed the section for group of lots from notice subtype 15, as they are not allowed.
+* Improved the display of lists of codes.
+* Added "Notice Dispatch Date eSender" to the display for all notice subtypes.
+
+### Labels and translations
+
+* The messages for rules are now easier to understand. When they mention a field, the field name is indicated in addition to the identifier.
+* Corrected the message for rules on BT-634.
+* Corrected the message for rule "BR-BT-13713-0102".
+
+### Examples
+
+* Added XML notice examples for notices subtypes that were not covered yet.
+* Corrected the example for X02 to reference the correct codelist.
+
+
+As new rules were added, a notice that was valid with SDK 1.9.x might not be valid with this version.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
 This release note does not cover the details of all changes.
 
-A comprehensive list of changes between SDK 1.8.0 and SDK 1.9.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.8.0...1.9.0>
+A comprehensive list of changes between SDK 1.9.0 and SDK 1.10.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.9.0...1.10.0>

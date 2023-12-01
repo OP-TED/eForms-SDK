@@ -72,7 +72,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">468ad654-621e-43f2-bc58-e774eb03926b</cbc:ID>
 	<cbc:IssueDate>2018-06-20+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
@@ -105,7 +105,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
-		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:ProcedureCode listName="procurement-procedure-type">comp-tend</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>RA/DAF/SERV-96/18</cbc:ID>

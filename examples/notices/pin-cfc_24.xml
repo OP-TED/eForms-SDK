@@ -37,7 +37,7 @@
 										<cbc:Line>ZenithNova Innovations 45 Future Boulevard New Horizons, CA 90210 United States of America</cbc:Line>
 									</cac:AddressLine>
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">USA</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -70,7 +70,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">fc972075-4e70-4491-b97a-7e3cb3665826</cbc:ID>
 	<cbc:ContractFolderID>cab6f088-c4b5-463a-b57b-39cb1130755d</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -193,6 +193,9 @@
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">18000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:PlannedPeriod>
+				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 </urn:PriorInformationNotice>

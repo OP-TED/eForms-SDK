@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0",
+  "sdkVersion" : "1.10.0",
   "metadataDatabase" : {
-    "version" : "1.9.1",
-    "createdOn" : "2023-09-20T11:33:23"
+    "version" : "1.10.0",
+    "createdOn" : "2023-11-15T14:00:00"
   },
   "noticeId" : "CEI",
   "metadata" : [ {
@@ -502,12 +502,6 @@
         "description" : "Properties (Type, Relaunch, Termination, tendering for all lots) of the Tendering Process of the Procurement Procedure as a whole",
         "_label" : "group|name|ND-ProcedureTenderingProcess",
         "content" : [ {
-          "id" : "BT-105-Procedure",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Procedure Type",
-          "_label" : "field|name|BT-105-Procedure"
-        }, {
           "id" : "BT-763-Procedure",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
@@ -738,12 +732,6 @@
         "description" : "Planned Duration",
         "_label" : "group|name|GR-Lot-PlannedDuration",
         "content" : [ {
-          "id" : "BT-536-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Duration Start Date",
-          "_label" : "field|name|BT-536-Lot"
-        }, {
           "id" : "BT-36-Lot",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
@@ -1426,6 +1414,7 @@
         "_schemeName" : "touchpoint",
         "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
         "_repeatable" : true,
+        "collapsed" : true,
         "content" : [ {
           "id" : "OPT-201-Organization-TouchPoint",
           "contentType" : "field",

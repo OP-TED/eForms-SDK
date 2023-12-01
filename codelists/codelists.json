@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0",
+  "sdkVersion" : "1.10.0",
   "metadataDatabase" : {
-    "version" : "1.9.0",
-    "createdOn" : "2023-08-24T14:00:00"
+    "version" : "1.10.0",
+    "createdOn" : "2023-11-15T14:00:00"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -155,6 +155,12 @@
     "filename" : "contract-nature.gc",
     "description" : "List of codes used to specify the main and additional natures of a purchase",
     "_label" : "codelist|name|contract-nature"
+  }, {
+    "id" : "contract-term",
+    "parentId" : "contract-detail",
+    "filename" : "contract-detail_contract-term.gc",
+    "description" : "TODO",
+    "_label" : "codelist|name|contract-term"
   }, {
     "id" : "corporate-body",
     "filename" : "corporate-body.gc",
@@ -1116,12 +1122,6 @@
     "description" : "Allowed procedure type for notice subtype 13",
     "_label" : "codelist|name|procedure-type-13"
   }, {
-    "id" : "procedure-type-14",
-    "parentId" : "procurement-procedure-type",
-    "filename" : "procurement-procedure-type_procedure-type-14.gc",
-    "description" : "Allowed procedure type for notice subtype 14",
-    "_label" : "codelist|name|procedure-type-14"
-  }, {
     "id" : "procedure-type-16",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-16.gc",
@@ -1140,12 +1140,6 @@
     "description" : "Allowed procedure type for notice subtype 18",
     "_label" : "codelist|name|procedure-type-18"
   }, {
-    "id" : "procedure-type-19",
-    "parentId" : "procurement-procedure-type",
-    "filename" : "procurement-procedure-type_procedure-type-19.gc",
-    "description" : "Allowed procedure type for notice subtype 19",
-    "_label" : "codelist|name|procedure-type-19"
-  }, {
     "id" : "procedure-type-20",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-20.gc",
@@ -1157,12 +1151,6 @@
     "filename" : "procurement-procedure-type_procedure-type-21.gc",
     "description" : "Allowed procedure type for notice subtype 21",
     "_label" : "codelist|name|procedure-type-21"
-  }, {
-    "id" : "procedure-type-22",
-    "parentId" : "procurement-procedure-type",
-    "filename" : "procurement-procedure-type_procedure-type-22.gc",
-    "description" : "Allowed procedure type for notice subtype 22",
-    "_label" : "codelist|name|procedure-type-22"
   }, {
     "id" : "procedure-type-23",
     "parentId" : "procurement-procedure-type",
@@ -1218,12 +1206,6 @@
     "description" : "Allowed procedure type for notice subtype 31",
     "_label" : "codelist|name|procedure-type-31"
   }, {
-    "id" : "procedure-type-32",
-    "parentId" : "procurement-procedure-type",
-    "filename" : "procurement-procedure-type_procedure-type-32.gc",
-    "description" : "Allowed procedure type for notice subtype 32",
-    "_label" : "codelist|name|procedure-type-32"
-  }, {
     "id" : "procedure-type-33",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-33.gc",
@@ -1235,12 +1217,6 @@
     "filename" : "procurement-procedure-type_procedure-type-34.gc",
     "description" : "Allowed procedure type for notice subtype 34",
     "_label" : "codelist|name|procedure-type-34"
-  }, {
-    "id" : "procedure-type-35",
-    "parentId" : "procurement-procedure-type",
-    "filename" : "procurement-procedure-type_procedure-type-35.gc",
-    "description" : "Allowed procedure type for notice subtype 35",
-    "_label" : "codelist|name|procedure-type-35"
   }, {
     "id" : "procedure-type-36",
     "parentId" : "procurement-procedure-type",
@@ -1271,12 +1247,6 @@
     "filename" : "procurement-procedure-type_procedure-type-9.gc",
     "description" : "Allowed procedure type for notice subtype 9",
     "_label" : "codelist|name|procedure-type-9"
-  }, {
-    "id" : "procedure-type-cei",
-    "parentId" : "procurement-procedure-type",
-    "filename" : "procurement-procedure-type_procedure-type-cei.gc",
-    "description" : "Allowed procedure type for notice subtype CEI",
-    "_label" : "codelist|name|procedure-type-cei"
   }, {
     "id" : "procedure-type-e1",
     "parentId" : "procurement-procedure-type",
@@ -1368,6 +1338,12 @@
     "filename" : "notice-type_result.gc",
     "description" : "List of allowed Notice Type codes for a Result Form Type",
     "_label" : "codelist|name|result"
+  }, {
+    "id" : "revenue-allocation",
+    "parentId" : "contract-detail",
+    "filename" : "contract-detail_revenue-allocation.gc",
+    "description" : "Revenue allocation",
+    "_label" : "codelist|name|revenue-allocation"
   }, {
     "id" : "review-body-type",
     "filename" : "review-body-type.gc",

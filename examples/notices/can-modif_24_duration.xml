@@ -14,7 +14,7 @@
 								<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
 							</efac:ChangedSection>
 							<efac:ChangedSection>
-								<efbc:ChangedSectionIdentifier>LOT-0000</efbc:ChangedSectionIdentifier>
+								<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
 							</efac:ChangedSection>
 						</efac:Change>
 						<efac:ChangeReason>
@@ -156,7 +156,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>321 654 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>(+12)34567890</cbc:Telephone>
@@ -227,7 +227,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">1f8687c9-8cca-493a-b0ee-553ed23d8402</cbc:ID>
 	<cbc:ContractFolderID>b492c659-4893-4796-b7db-4e511d85e0c8</cbc:ContractFolderID>
 	<cbc:IssueDate>2010-10-07+01:00</cbc:IssueDate>

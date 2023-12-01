@@ -6,7 +6,7 @@
       <LongName>lawful-country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
       <LongName Identifier="eFormsParentId">country</LongName>
-      <Version>1.9.0</Version>
+      <Version>1.10.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -199,6 +199,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Albanien</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ATF</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>French Southern and Antarctic Lands</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Френски южни и антарктически територии</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Francouzská jižní a antarktická území</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>De Franske Besiddelser i Det Sydlige Indiske Ocean og Antarktis</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Französische Süd- und Antarktisgebiete</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γαλλικές περιοχές του νότιου ημισφαιρίου και της Ανταρκτικής</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>French Southern and Antarctic Lands</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Territorios Australes y Antárticas Franceses</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Prantsuse Antarktilised ja Lõunaalad</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ranskan eteläiset ja antarktiset alueet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Terres australes et antarctiques françaises</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Críocha an Deiscirt agus an Antartaigh de chuid na Fraince</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Francuska Južna i Antarktička Područja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Francia Déli és Antarktiszi Területek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Terre australi e antartiche francesi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prancūzijos Pietų ir Antarkties Sritys</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Francijas Dienvidjūru un Antarktikas Zemes</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>It-Territorji Franċiżi tan-Nofsinhar u tal-Antartika</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Franse Zuidelijke en Zuidpoolgebieden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Francuskie Terytoria Południowe i Antarktyczne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Terras Austrais e Antárticas Francesas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Teritoriile Australe și Antarctice Franceze</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Francúzske južné a antarktické územia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Francoska južna in antarktična ozemlja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>De franska territorierna i södra Indiska oceanen och Antarktis</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -443,6 +523,86 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>BLM</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saint Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сен Бартелеми</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Saint-Barthélémy</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>St. Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άγιος Βαρθολομαίος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Saint Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>San Bartolomé</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Saint Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sen Bartelemi</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Senbartelmī</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Saint Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>São Bartolomeu</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Saint Barthélemy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Svätý Bartolomej</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sveti Bartolomej</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Saint-Barthélemy</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>CHE</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -519,6 +679,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Schweiz</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CPT</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Клипертон</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κλίπερτον</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Klipertonas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Klipertona</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Clipperton</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Clipperton</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2283,6 +2523,86 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>NCL</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>New Caledonia</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нова Каледония</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nová Kaledonie</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ny Kaledonien</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Neukaledonien</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Νέα Καληδονία</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>New Caledonia</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Nueva Caledonia</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Uus-Kaledoonia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Uusi-Kaledonia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Nouvelle-Calédonie</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Nua-Chaladóin</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nova Kaledonija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Új-Kaledónia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Nuova Caledonia</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Naujoji Kaledonija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Jaunkaledonija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>New Caledonia</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Nieuw-Caledonië</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nowa Kaledonia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Nova Caledónia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Noua Caledonie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nová Kaledónia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nova Kaledonija</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Nya Kaledonien</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>NLD</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2603,6 +2923,86 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>PYF</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>French Polynesia</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Френска Полинезия</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Francouzská Polynésie</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Fransk Polynesien</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Französisch-Polynesien</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γαλλική Πολυνησία</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>French Polynesia</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Polinesia Francesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Prantsuse Polüneesi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ranskan Polynesia</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Polynésie française</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Polainéis na Fraince</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Francuska Polinezija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Francia Polinézia</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Polinesia francese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prancūzijos Polinezija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Francijas Polinēzija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-Polineżja Franċiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Frans-Polynesië</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Polinezja Francuska</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Polinésia Francesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Polinezia Franceză</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Francúzska Polynézia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Francoska Polinezija</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Franska Polynesien</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>ROU</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -2679,6 +3079,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Rumänien</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>SPM</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saint Pierre and Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сен Пиер и Микелон</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Saint-Pierre a Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Saint-Pierre og Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>St. Pierre und Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σεν Πιέρ και Μικελόν</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Saint Pierre and Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>San Pedro y Miquelón</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Saint-Pierre ja Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Saint-Pierre ja Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Saint-Pierre-et-Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>San Pierre agus Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Saint-Pierre-et-Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Saint-Pierre és Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Saint Pierre e Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sen Pjeras ir Mikelonas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Senpjēra un Mikelona</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Saint Pierre u Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Saint-Pierre en Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Saint-Pierre i Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>São Pedro e Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Saint Pierre şi Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Saint Pierre a Miquelon</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sveta Peter in Mihael</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Saint-Pierre och Miquelon</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3159,6 +3639,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Ukraina</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>WLF</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Wallis and Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Уолис и Футуна</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Wallis a Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Wallis og Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Wallis und Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ουάλις και Φουτούνα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Wallis and Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Wallis y Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Wallis ja Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Wallis ja Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Wallis-et-Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Vailís agus Futúna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Wallis i Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Wallis és Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Wallis e Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Volisas ir Futūna</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Volisa un Futunas salas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Wallis u Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Wallis en Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wallis i Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Wallis e Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Wallis şi Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Wallis a Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Wallis in Futuna</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Wallis och Futuna</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

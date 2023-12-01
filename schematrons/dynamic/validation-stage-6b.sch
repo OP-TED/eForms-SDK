@@ -4,10 +4,10 @@
 <!-- This file contains schematron rules that use information outside of the notice being validated -->
 
 <!-- Notice dispatch date -->
-<rule context="/*/cbc:IssueDate">
-	<!-- BT-05(a)-notice Dispatch date is with one day of current date -->
-	<assert role="ERROR" test="((current-date() - xs:date(text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(text())) ge xs:dayTimeDuration('-P1D'))">
-		Notice Dispatch Date must be between 0 and 24 hours before the current date.
+<rule context="/*">
+	<!-- BT-803(d)-notice Notice Dispatch Date eSender or BT-05(a)-notice Notice Dispatch Date is with one day of current date -->
+	<assert id="D-0001" role="ERROR" test="((ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) ge xs:dayTimeDuration('-P1D'))) or (((current-date() - xs:date(cbc:IssueDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(cbc:IssueDate/text())) ge xs:dayTimeDuration('-P1D')))">
+		Notice Dispatch Date eSender (BT-803), or by default Notice Dispatch Date (BT-05), must be between 0 and 24 hours before the current date.
 	</assert>
 </rule>
 
@@ -29,7 +29,7 @@
 <let name="searchNotice" value="function($id) { fn:unparsed-text(replace($tedSearchUrlPattern, '##NOTICE_ID##', $id)) }"/>
 
 <rule context="/*/cbc:ID">
-	<assert role="ERROR" test="matches($searchNotice(normalize-space(.)), '&quot;total&quot;\s*:\s*0')">
+	<assert id="D-0002" role="ERROR" test="matches($searchNotice(normalize-space(.)), '&quot;total&quot;\s*:\s*0')">
 		There is already a published notice with this identifier.
 	</assert>
 </rule>
@@ -41,22 +41,22 @@
 <!-- Rules applying at root or Procedure level -->
 <rule context="/*[$isChangeNotice = true()]">
 	<!-- OPP-070-notice Notice subtype -->
-	<assert role="ERROR" test="$noticeSubType eq $parentNotice/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/fn:normalize-space(text())">
+	<assert id="D-0003" role="ERROR" test="$noticeSubType eq $parentNotice/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/fn:normalize-space(text())">
 		The notice subtype must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-105-Procedure Procedure Type -->
-	<assert role="ERROR" test="deep-equal( cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()), $parentNotice/*/cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()) )">
+	<assert id="D-0004" role="ERROR" test="deep-equal( cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()), $parentNotice/*/cac:TenderingProcess/cbc:ProcedureCode/fn:normalize-space(text()) )">
 		The value of "Procedure Type" (BT-105-Procedure) value must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-04-notice Procedure Identifier -->
-	<assert role="ERROR" test="cbc:ContractFolderID/fn:normalize-space(text()) = $parentNotice/*/cbc:ContractFolderID/fn:normalize-space(text())">
+	<assert id="D-0005" role="ERROR" test="cbc:ContractFolderID/fn:normalize-space(text()) = $parentNotice/*/cbc:ContractFolderID/fn:normalize-space(text())">
 		The value of "Procedure Identifier" (BT-04-notice) must be the same as for the parent notice.
 	</assert>
 
 	<!-- BT-23-Procedure Main Nature  -->
-	<assert role="ERROR" test="( cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) )">
+	<assert id="D-0006" role="ERROR" test="( cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) = $parentNotice/*/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/fn:normalize-space(text()) )">
 		The value of "Main Nature" (BT-23-Procedure) must be the same as for the parent notice.
 	</assert>
 </rule>

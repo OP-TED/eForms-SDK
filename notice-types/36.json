@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0",
+  "sdkVersion" : "1.10.0",
   "metadataDatabase" : {
-    "version" : "1.9.1",
-    "createdOn" : "2023-09-20T11:33:23"
+    "version" : "1.10.0",
+    "createdOn" : "2023-11-15T14:00:00"
   },
   "noticeId" : "36",
   "metadata" : [ {
@@ -513,7 +513,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-88)-Procedure",
-            "_presetValue" : "pro-fea"
+            "_presetValue" : "pro-fea",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-88)-Procedure",
             "contentType" : "field",
@@ -556,7 +557,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-105)-Procedure",
-            "_presetValue" : "pro-typ"
+            "_presetValue" : "pro-typ",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-105)-Procedure",
             "contentType" : "field",
@@ -1106,7 +1108,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-539)-Lot",
-              "_presetValue" : "awa-cri-typ"
+              "_presetValue" : "awa-cri-typ",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-539)-Lot",
               "contentType" : "field",
@@ -1149,7 +1152,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-540)-Lot",
-              "_presetValue" : "awa-cri-des"
+              "_presetValue" : "awa-cri-des",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-540)-Lot",
               "contentType" : "field",
@@ -1206,7 +1210,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-541)-Lot-Weight",
-                  "_presetValue" : "awa-cri-num"
+                  "_presetValue" : "awa-cri-num",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-541)-Lot-Weight",
                   "contentType" : "field",
@@ -1249,7 +1254,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-5421)-Lot",
-                  "_presetValue" : "awa-cri-wei"
+                  "_presetValue" : "awa-cri-wei",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-5421)-Lot",
                   "contentType" : "field",
@@ -1300,7 +1306,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-541)-Lot-Fixed",
-                  "_presetValue" : "awa-cri-num"
+                  "_presetValue" : "awa-cri-num",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-541)-Lot-Fixed",
                   "contentType" : "field",
@@ -1343,7 +1350,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-5422)-Lot",
-                  "_presetValue" : "awa-cri-fix"
+                  "_presetValue" : "awa-cri-fix",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-5422)-Lot",
                   "contentType" : "field",
@@ -1395,7 +1403,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-541)-Lot-Threshold",
-                  "_presetValue" : "awa-cri-num"
+                  "_presetValue" : "awa-cri-num",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-541)-Lot-Threshold",
                   "contentType" : "field",
@@ -1438,7 +1447,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-5423)-Lot",
-                  "_presetValue" : "awa-cri-thr"
+                  "_presetValue" : "awa-cri-thr",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-5423)-Lot",
                   "contentType" : "field",
@@ -1483,7 +1493,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-734)-Lot",
-              "_presetValue" : "awa-cri-nam"
+              "_presetValue" : "awa-cri-nam",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-734)-Lot",
               "contentType" : "field",
@@ -1527,7 +1538,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-543)-Lot",
-            "_presetValue" : "awa-cri-com"
+            "_presetValue" : "awa-cri-com",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-543)-Lot",
             "contentType" : "field",
@@ -1570,7 +1582,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-733)-Lot",
-            "_presetValue" : "awa-cri-ord"
+            "_presetValue" : "awa-cri-ord",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-733)-Lot",
             "contentType" : "field",
@@ -1813,7 +1826,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-539)-LotsGroup",
-              "_presetValue" : "awa-cri-typ"
+              "_presetValue" : "awa-cri-typ",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-539)-LotsGroup",
               "contentType" : "field",
@@ -1856,7 +1870,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-540)-LotsGroup",
-              "_presetValue" : "awa-cri-des"
+              "_presetValue" : "awa-cri-des",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-540)-LotsGroup",
               "contentType" : "field",
@@ -1913,7 +1928,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-541)-LotsGroup-Weight",
-                  "_presetValue" : "awa-cri-num"
+                  "_presetValue" : "awa-cri-num",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-541)-LotsGroup-Weight",
                   "contentType" : "field",
@@ -1956,7 +1972,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-5421)-LotsGroup",
-                  "_presetValue" : "awa-cri-wei"
+                  "_presetValue" : "awa-cri-wei",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-5421)-LotsGroup",
                   "contentType" : "field",
@@ -2007,7 +2024,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-541)-LotsGroup-Fixed",
-                  "_presetValue" : "awa-cri-num"
+                  "_presetValue" : "awa-cri-num",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-541)-LotsGroup-Fixed",
                   "contentType" : "field",
@@ -2050,7 +2068,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-5422)-LotsGroup",
-                  "_presetValue" : "awa-cri-fix"
+                  "_presetValue" : "awa-cri-fix",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-5422)-LotsGroup",
                   "contentType" : "field",
@@ -2102,7 +2121,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-541)-LotsGroup-Threshold",
-                  "_presetValue" : "awa-cri-num"
+                  "_presetValue" : "awa-cri-num",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-541)-LotsGroup-Threshold",
                   "contentType" : "field",
@@ -2145,7 +2165,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Unpublished Identifier",
                   "_label" : "field|name|BT-195(BT-5423)-LotsGroup",
-                  "_presetValue" : "awa-cri-thr"
+                  "_presetValue" : "awa-cri-thr",
+                  "hidden" : true
                 }, {
                   "id" : "BT-196(BT-5423)-LotsGroup",
                   "contentType" : "field",
@@ -2190,7 +2211,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-734)-LotsGroup",
-              "_presetValue" : "awa-cri-nam"
+              "_presetValue" : "awa-cri-nam",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-734)-LotsGroup",
               "contentType" : "field",
@@ -2234,7 +2256,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-543)-LotsGroup",
-            "_presetValue" : "awa-cri-com"
+            "_presetValue" : "awa-cri-com",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-543)-LotsGroup",
             "contentType" : "field",
@@ -2277,7 +2300,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-733)-LotsGroup",
-            "_presetValue" : "awa-cri-ord"
+            "_presetValue" : "awa-cri-ord",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-733)-LotsGroup",
             "contentType" : "field",
@@ -2394,7 +2418,8 @@
               "_idSchemes" : [ "ORG" ]
             } ]
           } ]
-        } ]
+        } ],
+        "_captionFieldId" : "OPT-211-Tenderer"
       } ]
     }, {
       "id" : "GR-SettledContract-Section",
@@ -2582,7 +2607,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-171)-Tender",
-              "_presetValue" : "ten-ran"
+              "_presetValue" : "ten-ran",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-171)-Tender",
               "contentType" : "field",
@@ -2625,7 +2651,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-193)-Tender",
-              "_presetValue" : "win-ten-var"
+              "_presetValue" : "win-ten-var",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-193)-Tender",
               "contentType" : "field",
@@ -2725,7 +2752,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-142)-LotResult",
-              "_presetValue" : "win-cho"
+              "_presetValue" : "win-cho",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-142)-LotResult",
               "contentType" : "field",
@@ -2768,7 +2796,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-144)-LotResult",
-              "_presetValue" : "no-awa-rea"
+              "_presetValue" : "no-awa-rea",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-144)-LotResult",
               "contentType" : "field",
@@ -2905,7 +2934,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-636)-LotResult",
-              "_presetValue" : "buy-rev-typ"
+              "_presetValue" : "buy-rev-typ",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-636)-LotResult",
               "contentType" : "field",
@@ -2948,7 +2978,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-635)-LotResult",
-              "_presetValue" : "buy-rev-cou"
+              "_presetValue" : "buy-rev-cou",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-635)-LotResult",
               "contentType" : "field",
@@ -3020,7 +3051,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-760)-LotResult",
-              "_presetValue" : "rec-sub-typ"
+              "_presetValue" : "rec-sub-typ",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-760)-LotResult",
               "contentType" : "field",
@@ -3063,7 +3095,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-759)-LotResult",
-              "_presetValue" : "rec-sub-cou"
+              "_presetValue" : "rec-sub-cou",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-759)-LotResult",
               "contentType" : "field",
@@ -3392,6 +3425,7 @@
           "_schemeName" : "touchpoint",
           "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
           "_repeatable" : true,
+          "collapsed" : true,
           "content" : [ {
             "id" : "OPT-201-Organization-TouchPoint",
             "contentType" : "field",

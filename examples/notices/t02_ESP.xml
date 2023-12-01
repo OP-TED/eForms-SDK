@@ -223,7 +223,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">17f00f55-7178-4597-822a-545d2f55a150</cbc:ID>
 	<cbc:ContractFolderID>b11f65a8-81df-4936-838e-01cb93d59111</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-05-08+01:00</cbc:IssueDate>
@@ -258,7 +258,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
-		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:ProcedureCode listName="procurement-procedure-type">comp-tend</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID>77635</cbc:ID>

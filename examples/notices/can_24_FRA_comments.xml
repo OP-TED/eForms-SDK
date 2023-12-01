@@ -335,7 +335,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>321 555 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
@@ -465,7 +465,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
 	<cbc:ID schemeName="notice-id">df45f4d1-2208-47cb-bc7a-9c7edcf8d2b8</cbc:ID>
 	<!--BT-04 Procedure Identifier-->

@@ -63,7 +63,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>321 654 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 232081270</cbc:Telephone>
@@ -105,7 +105,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">e887ac08-8b2a-47ee-8ba2-b3564418d241</cbc:ID>
 	<cbc:ContractFolderID>9999abf1-e057-47a5-9210-b1f6fc759999</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-05-10+01:00</cbc:IssueDate>
@@ -530,7 +530,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID schemeName="InternalID">1</cbc:ID>
+			<cbc:ID schemeName="InternalID">2</cbc:ID>
 			<cbc:Name languageID="FRA">Agence Hauts de Rouen</cbc:Name>
 			<cbc:Description languageID="FRA">Service d'entretien de remise en état et de nettoyage des espaces verts.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>

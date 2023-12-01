@@ -1130,7 +1130,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<!--   "id" : "OPT-002-notice","name" : "Customization ID (UBL)" -->
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<!--     "id" : "BT-701-notice","name" : "Notice Identifier" -->
 	<cbc:ID schemeName="notice-id">15377ca1-6cf7-4060-90f0-9290128957a3</cbc:ID>
 	<!--"id" : "BT-04-notice", "name" : "Procedure Identifier"-->
@@ -1578,7 +1578,7 @@
 		<!-- LOT-0001 - Procurement project -->
 		<cac:ProcurementProject>
 			<!-- "id": "BT-22-Procedure","name": "Internal Identifier" -->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Lot Reference A</cbc:ID>
 			<!-- "id": "BT-21-Procedure","name": "Title" -->
 			<cbc:Name languageID="ENG">Title ---</cbc:Name>
 			<!-- "id": "BT-24-Procedure","name": "Description" -->
@@ -1865,7 +1865,7 @@
 		<!-- LOT-0002 - Procurement project -->
 		<cac:ProcurementProject>
 			<!-- "id": "BT-22-Lot","name": "Internal Identifier" -->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Lot Reference B</cbc:ID>
 			<!-- "id": "BT-21-Lot","name": "Title" -->
 			<cbc:Name languageID="ENG">Title lot 2---</cbc:Name>
 			<!-- "id": "BT-24-Lot","name": "Description" -->

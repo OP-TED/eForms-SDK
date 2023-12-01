@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0",
+  "sdkVersion" : "1.10.0",
   "metadataDatabase" : {
-    "version" : "1.9.0",
-    "createdOn" : "2023-08-24T14:00:00"
+    "version" : "1.10.0",
+    "createdOn" : "2023-11-15T14:00:00"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -458,7 +458,8 @@
             "displayType" : "COMBOBOX",
             "description" : "Unpublished Identifier",
             "_label" : "field|name|BT-195(BT-105)-Procedure",
-            "_presetValue" : "pro-typ"
+            "_presetValue" : "pro-typ",
+            "hidden" : true
           }, {
             "id" : "BT-196(BT-105)-Procedure",
             "contentType" : "field",
@@ -872,7 +873,8 @@
               "_idSchemes" : [ "ORG" ]
             } ]
           } ]
-        } ]
+        } ],
+        "_captionFieldId" : "OPT-211-Tenderer"
       } ]
     }, {
       "id" : "GR-SettledContract-Section",
@@ -936,11 +938,12 @@
             } ]
           } ]
         }, {
-          "id" : "GR-SettledContract-3",
+          "id" : "GR-Assets-Extended-Duration",
           "contentType" : "group",
+          "nodeId" : "ND-ExtendedDurationJustification",
           "displayType" : "GROUP",
-          "description" : "SettledContract 3",
-          "_label" : "group|name|GR-SettledContract-3",
+          "description" : "Elements about the Extension of the Contract Duration (Indicator, Assets)",
+          "_label" : "group|name|ND-ExtendedDurationJustification",
           "content" : [ {
             "id" : "OPP-020-Contract",
             "contentType" : "field",
@@ -948,23 +951,32 @@
             "description" : "Assets related contract extension indicator",
             "_label" : "field|name|OPP-020-Contract"
           }, {
-            "id" : "OPP-021-Contract",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Used asset",
-            "_label" : "field|name|OPP-021-Contract"
-          }, {
-            "id" : "OPP-022-Contract",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Significance (%)",
-            "_label" : "field|name|OPP-022-Contract"
-          }, {
-            "id" : "OPP-023-Contract",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Predominance (%)",
-            "_label" : "field|name|OPP-023-Contract"
+            "id" : "GR-SettledContract-3",
+            "contentType" : "group",
+            "nodeId" : "ND-Asset",
+            "displayType" : "GROUP",
+            "description" : "Individual Asset characteristics (description, significance, predominance) justifying the Contract extension",
+            "_label" : "group|name|ND-Asset",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "OPP-021-Contract",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Used asset",
+              "_label" : "field|name|OPP-021-Contract"
+            }, {
+              "id" : "OPP-022-Contract",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Significance (%)",
+              "_label" : "field|name|OPP-022-Contract"
+            }, {
+              "id" : "OPP-023-Contract",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Predominance (%)",
+              "_label" : "field|name|OPP-023-Contract"
+            } ]
           } ]
         } ],
         "_captionFieldId" : "BT-150-Contract"
@@ -1030,7 +1042,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-720)-Tender",
-              "_presetValue" : "win-ten-val"
+              "_presetValue" : "win-ten-val",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-720)-Tender",
               "contentType" : "field",
@@ -1085,6 +1098,13 @@
             "description" : "Revenue allocation in percentage",
             "_label" : "group|name|ND-RevenueAllocation",
             "content" : [ {
+              "id" : "OPP-035-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Revenues Allocation of tickets sales code",
+              "_label" : "field|name|OPP-035-Tender",
+              "_presetValue" : "all-rev-tic"
+            }, {
               "id" : "OPP-032-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
@@ -1191,7 +1211,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-142)-LotResult",
-              "_presetValue" : "win-cho"
+              "_presetValue" : "win-cho",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-142)-LotResult",
               "contentType" : "field",
@@ -1234,7 +1255,8 @@
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
               "_label" : "field|name|BT-195(BT-144)-LotResult",
-              "_presetValue" : "no-awa-rea"
+              "_presetValue" : "no-awa-rea",
+              "hidden" : true
             }, {
               "id" : "BT-196(BT-144)-LotResult",
               "contentType" : "field",
@@ -1591,6 +1613,7 @@
           "_schemeName" : "touchpoint",
           "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
           "_repeatable" : true,
+          "collapsed" : true,
           "content" : [ {
             "id" : "OPT-201-Organization-TouchPoint",
             "contentType" : "field",

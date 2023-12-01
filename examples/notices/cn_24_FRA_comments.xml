@@ -78,7 +78,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>321 654 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502 Organization COntact Point (Role or Department preferred, Individual name only when strictly necessary)-->
@@ -125,7 +125,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<!--BT-701 Notice Identifier-->
 	<cbc:ID schemeName="notice-id">da4d46e9-490b-41ff-a2ae-8166d356a619</cbc:ID>
 	<!--BT-04 Procedure Identifier-->
@@ -661,7 +661,7 @@
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<!--BT-22 Internal Identifier-->
-			<cbc:ID schemeName="InternalID">1</cbc:ID>
+			<cbc:ID schemeName="InternalID">2</cbc:ID>
 			<!--BT-21 Lot Title-->
 			<cbc:Name languageID="FRA">Agence Hauts de Rouen</cbc:Name>
 			<!--BT-24 Lot Description-->

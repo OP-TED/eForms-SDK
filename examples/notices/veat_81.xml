@@ -122,6 +122,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Patra </cbc:CityName>
+									<cbc:PostalZone>117 43</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">EL303</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
 									</cac:Country>
@@ -138,7 +140,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">cbe9e7b7-6860-4bb1-a200-b3ada0ff6fbe</cbc:ID>
 	<cbc:ContractFolderID>75db4bef-aae6-41f1-a593-d5dc62abd907</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -229,7 +231,7 @@ vol2 LOT1 </cbc:Description>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>ABE</cbc:ID>
+			<cbc:ID>ABF</cbc:ID>
 			<cbc:Name languageID="ENG">Ante nte vol2 LOT2</cbc:Name>
 			<cbc:Description languageID="ENG">Sinopsis vol2 LOT2
 The 18-year-old freshman Mitsos. The 25-year-old, attached to her parents Sofia. And the 30-year-old just-fine-all-by-myself, Dimitra. A Saturday night when none of them knows if they are ready for the next step. The 18-year-old freshman Mitsos. The 25-year-old, attached to her parents Sofia. And the 30-year-old just-fine-all-by-myself, Dimitra. A Saturday night when none of them knows if they are ready for the next step.

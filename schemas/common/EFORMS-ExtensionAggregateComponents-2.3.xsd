@@ -246,7 +246,6 @@
 		<xsd:sequence>
 			<xsd:element ref="efbc:TermCode" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:TermDescription" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efbc:TermIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:TermPercent" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>

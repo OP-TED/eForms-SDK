@@ -152,6 +152,8 @@
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>2143</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
@@ -171,7 +173,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.9</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">eb13621b-cb76-46ee-b6c1-3d33ac707d94</cbc:ID>
 	<cbc:ContractFolderID>23da790b-60bc-4897-8a6b-5b8eda654d89</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -213,7 +215,7 @@ vol3 </cbc:Description>
 			</cac:DocumentProviderParty>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>EBA</cbc:ID>
+			<cbc:ID>EBA1</cbc:ID>
 			<cbc:Name languageID="ENG">March of the Penguins vol3 </cbc:Name>
 			<cbc:Description languageID="ENG">Every winter emperor penguins embark on an incredible journey from the ocean to the Antarctic hinterland to breed, during which they struggle for survival under extremely adverse conditions. vol3 </cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -232,7 +234,7 @@ vol3 </cbc:Description>
 			</cac:DocumentProviderParty>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>EBA</cbc:ID>
+			<cbc:ID>EBA2</cbc:ID>
 			<cbc:Name languageID="ENG">March of the Penguins vol3 LOT2 </cbc:Name>
 			<cbc:Description languageID="ENG">Every winter emperor penguins embark on an incredible journey from the ocean to the Antarctic hinterland to breed, during which they struggle for survival under extremely adverse conditions. vol3 LOT2 </cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -251,7 +253,7 @@ vol3 </cbc:Description>
 			</cac:DocumentProviderParty>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>EBA</cbc:ID>
+			<cbc:ID>EBA3</cbc:ID>
 			<cbc:Name languageID="ENG">March of the Penguins vol3 LOT3</cbc:Name>
 			<cbc:Description languageID="ENG">Every winter emperor penguins embark on an incredible journey from the ocean to the Antarctic hinterland to breed, during which they struggle for survival under extremely adverse conditions. vol32 LOT3</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
