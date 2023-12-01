@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">De (geraamde) tijdsduur vanaf het begin tot het einde van het contract, de raamovereenkomst, het dynamisch aankoopsysteem of de erkenningsregeling. Hierbij moeten alle eventuele opties en verlengingen worden meegeteld.</entry>
 <entry key="field|description|OPA-98-Lot-Number">De termijn, gerekend vanaf de uiterste datum voor de indiening van inschrijvingen, gedurende welke de inschrijvingen geldig moeten blijven.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Het toepasselijke recht indien bij de aanbesteding kopers uit verschillende landen betrokken zijn.</entry>
-<entry key="field|hint|BT-13716-Notice">Een van de volgende moet worden ingevuld: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Een van de volgende moet worden ingevuld: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Voeg zoveel percelen als u wilt aan de groep percelen toe.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Voeg zoveel percelen als u wilt aan de groep percelen toe.</entry>
 <entry key="field|hint|BT-22-Lot">Gebruikt u voor uw procedure en voor uw percelen een interne identificatiecode, vul deze dan in. Gebruik voor elk perceel een andere identificatiecode.</entry>
@@ -1159,8 +1158,8 @@
 <entry key="field|name|BT-16-Organization-TouchPoint">Afdeling</entry>
 <entry key="field|name|BT-160-Tender">Geraamde inkomsten afkomstig van de koper die de concessie verleende</entry>
 <entry key="field|name|BT-160-Tender-Currency">Geraamde inkomsten afkomstig van de koper die de concessie verleende</entry>
-<entry key="field|name|BT-161-NoticeResult">Valor de todos os contratos adjudicados neste aviso</entry>
-<entry key="field|name|BT-161-NoticeResult-Currency">Valor de todos os contratos adjudicados neste aviso</entry>
+<entry key="field|name|BT-161-NoticeResult">Waarde van alle contracten toegekend in deze kennisgeving</entry>
+<entry key="field|name|BT-161-NoticeResult-Currency">Waarde van alle contracten toegekend in deze kennisgeving</entry>
 <entry key="field|name|BT-162-Tender">Geraamde inkomsten afkomstig van de gebruikers van de concessie</entry>
 <entry key="field|name|BT-162-Tender-Currency">Geraamde inkomsten afkomstig van de gebruikers van de concessie</entry>
 <entry key="field|name|BT-163-Tender">Voor de berekening van de geraamde waarde van de concessie gebruikte methode</entry>

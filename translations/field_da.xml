@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Den (anslåede) tidsramme fra start- til slutdatoen for kontrakten, rammeaftalen, det dynamiske indkøbssystem eller kvalificeringsordningen. Dette skal omfatte eventuelle valgmuligheder og fornyelser.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Den periode fra tidsfristen for indgivelse af tilbud, i hvilken tilbud skal være gyldige.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Den lovgivning, der finder anvendelse, hvis udbuddet involverer købere fra forskellige lande.</entry>
-<entry key="field|hint|BT-13716-Notice">En af følgende skal udfyldes: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">En af følgende skal udfyldes: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Tilføj så mange delkontrakter, som du ønsker at medtage i gruppen af delkontrakter.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Tilføj så mange delkontrakter, som du ønsker at medtage i gruppen af delkontrakter.</entry>
 <entry key="field|hint|BT-22-Lot">Hvis du anvender en intern identifikator til din procedure og dine delkontrakter, bedes du udfylde den. Anvend forskellige identifikatorer for hver delkontrakt.</entry>

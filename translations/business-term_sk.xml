@@ -304,7 +304,7 @@
 <entry key="business-term|description|BT-97">Jazyk, v ktorom možno predložiť ponuky, žiadosti o účasť alebo vyjadrenia záujmu.</entry>
 <entry key="business-term|description|BT-98">Obdobie plynúce od lehoty na predkladanie ponúk, počas ktorého musia zostať ponuky platné.</entry>
 <entry key="business-term|description|BT-99">Opis lehôt pre postupy preskúmania.</entry>
-<entry key="business-term|hint|BT-13716">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Jeden z nasledujúcich musí byť vyplnený: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Pridajte želaný počet častí, ktoré sa majú zahrnúť do skupiny častí.</entry>
 <entry key="business-term|hint|BT-22">Ak pre svoj postup a časť používate interný identifikátor, uveďte ich. Pre každú časť použite jednotlivý identifikátor.</entry>
 <entry key="business-term|hint|BT-36">Uveďte lehoty trvania ALEBO obdobie trvania.</entry>
@@ -435,7 +435,7 @@
 <entry key="business-term|name|BT-157">Maximálna hodnota rámcovej dohody v rámci skupiny častí</entry>
 <entry key="business-term|name|BT-16">Oddelenie</entry>
 <entry key="business-term|name|BT-160">Predpokladané príjmy plynúce od kupujúceho, ktorý udelil koncesiu</entry>
-<entry key="business-term|name|BT-161">Valor de todos los contratos adjudicados en este aviso</entry>
+<entry key="business-term|name|BT-161">Hodnota všetkých zmlúv udelených v tomto oznámení</entry>
 <entry key="business-term|name|BT-162">Predpokladané príjmy plynúce od používateľov koncesie</entry>
 <entry key="business-term|name|BT-163">Metóda použitá na výpočet predpokladanej hodnoty koncesie</entry>
 <entry key="business-term|name|BT-165">Veľkosť hospodárskeho subjektu</entry>

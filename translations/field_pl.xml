@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Długość (przewidywana) okresu obowiązywania, od początku do końca umowy, umowy ramowej, dynamicznego systemu zakupów lub systemu kwalifikowania. Obejmuje to wszelkie opcje i wznowienia.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Okres, począwszy od terminu składania ofert, przez który oferty muszą pozostać ważne.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Prawo mające zastosowanie w przypadku, gdy zamówienie obejmuje nabywców z różnych krajów.</entry>
-<entry key="field|hint|BT-13716-Notice">Jedno z poniższych musi zostać wypełnione: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Jedno z poniższych musi zostać wypełnione: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
 <entry key="field|hint|BT-22-Lot">Jeśli używasz wewnętrznego identyfikatora dla swojej procedury i części zamówienia, podaj go. Użyj różnych identyfikatorów dla każdej części zamówienia.</entry>
@@ -1159,8 +1158,8 @@
 <entry key="field|name|BT-16-Organization-TouchPoint">Departament</entry>
 <entry key="field|name|BT-160-Tender">Szacowane przychody od nabywcy, który udzielił koncesji</entry>
 <entry key="field|name|BT-160-Tender-Currency">Szacowane przychody od nabywcy, który udzielił koncesji</entry>
-<entry key="field|name|BT-161-NoticeResult">Valoarea tuturor contractelor atribuite în această notificare</entry>
-<entry key="field|name|BT-161-NoticeResult-Currency">Valoarea tuturor contractelor atribuite în această notificare</entry>
+<entry key="field|name|BT-161-NoticeResult">Wartość wszystkich umów przyznanych w tym zawiadomieniu</entry>
+<entry key="field|name|BT-161-NoticeResult-Currency">Wartość wszystkich umów przyznanych w tym zawiadomieniu</entry>
 <entry key="field|name|BT-162-Tender">Szacowane przychody od użytkowników koncesji</entry>
 <entry key="field|name|BT-162-Tender-Currency">Szacowane przychody od użytkowników koncesji</entry>
 <entry key="field|name|BT-163-Tender">Metoda stosowana do obliczenia szacunkowej wartości koncesji</entry>

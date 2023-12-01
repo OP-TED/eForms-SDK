@@ -304,7 +304,7 @@
 <entry key="business-term|description|BT-97">A língua em que as propostas, os pedidos de participação ou as manifestações de interesse podem ser apresentados.</entry>
 <entry key="business-term|description|BT-98">O período, a contar da data-limite para a apresentação das propostas, durante o qual as propostas têm de permanecer válidas.</entry>
 <entry key="business-term|description|BT-99">A descrição dos prazos de introdução dos procedimentos de recurso.</entry>
-<entry key="business-term|hint|BT-13716">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Um dos seguintes campos deve ser preenchido: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Adicione o número de lotes que pretende incluir no grupo de lotes.</entry>
 <entry key="business-term|hint|BT-22">Se utilizar um identificador interno para o seu procedimento e para os seus lotes, introduza-o. Utilize identificadores diferentes para cada lote.</entry>
 <entry key="business-term|hint|BT-36">Preencha as datas de duração OU o período de duração.</entry>
@@ -435,7 +435,7 @@
 <entry key="business-term|name|BT-157">Valor máximo do acordo-quadro dentro do grupo de lotes</entry>
 <entry key="business-term|name|BT-16">Departamento</entry>
 <entry key="business-term|name|BT-160">Estimativa das receitas provenientes do adquirente que concedeu a concessão</entry>
-<entry key="business-term|name|BT-161">Hodnota všetkých zmlúv udelených v tomto oznámení</entry>
+<entry key="business-term|name|BT-161">Valor de todos os contratos adjudicados neste aviso</entry>
 <entry key="business-term|name|BT-162">Estimativa das receitas provenientes dos utilizadores da concessão</entry>
 <entry key="business-term|name|BT-163">Método utilizado para calcular o valor estimado da concessão</entry>
 <entry key="business-term|name|BT-165">Dimensão do operador económico</entry>

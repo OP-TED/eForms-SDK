@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">(Прогнозният) размер на срока от началото до края на действието на договора, рамковото споразумение, динамичната система за покупки или квалификационната система. Тук се включват опциите и подновяванията.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Срокът на действие на офертите, който започва да тече от крайния срок за подаване на офертите.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Приложимото право, ако в обществената поръчка участват купувачи от различни държави.</entry>
-<entry key="field|hint|BT-13716-Notice">Един от следните трябва да бъде попълнен: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Един от следните трябва да бъде попълнен: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Добавете толкова обособени позиции, колкото желаете да включите в групата обособени позиции.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Добавете толкова обособени позиции, колкото желаете да включите в групата обособени позиции.</entry>
 <entry key="field|hint|BT-22-Lot">Ако използвате вътрешен идентификатор за вашата процедура и обособени позиции, моля, посочете го. Използвайте различен идентификатор за всяка обособена позиция.</entry>

@@ -304,7 +304,7 @@
 <entry key="business-term|description|BT-97">Kalba, kuria galima pateikti pasiūlymus, dalyvavimo prašymus ar susidomėjimo pareiškimus.</entry>
 <entry key="business-term|description|BT-98">Laikotarpis skaičiuojamas nuo pasiūlymo pateikimo termino, kurį pasiūlymas turi likti galioti.</entry>
 <entry key="business-term|description|BT-99">Peržiūros procedūrų terminų aprašymas.</entry>
-<entry key="business-term|hint|BT-13716">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Vienas iš šių turi būti užpildytas: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Pridėkite tiek pirkimo dalių, kiek norite įtraukti į pirkimo dalių grupę.</entry>
 <entry key="business-term|hint|BT-22">Jei savo procedūrai ir pirkimo dalims naudojate vidaus identifikatorių, įrašykite jį. Kiekvienai pirkimo daliai naudokite skirtingus identifikatorius.</entry>
 <entry key="business-term|hint|BT-36">Įrašykite galiojimo datas ARBA galiojimo laikotarpį.</entry>
@@ -435,7 +435,7 @@
 <entry key="business-term|name|BT-157">Pirkimo dalių grupės didžiausia vertė pagal preliminariąją sutartį</entry>
 <entry key="business-term|name|BT-16">Padalinys</entry>
 <entry key="business-term|name|BT-160">Numatomos pajamos iš koncesiją suteikusio pirkėjo</entry>
-<entry key="business-term|name|BT-161">Valur ta' kull kuntratt mogħti f'dan l-avviż</entry>
+<entry key="business-term|name|BT-161">Visų šiame pranešime suteiktų sutarčių vertė</entry>
 <entry key="business-term|name|BT-162">Numatomos pajamos iš koncesijos vartotojų</entry>
 <entry key="business-term|name|BT-163">Koncesijos metodas, kuriuo apskaičiuojama numatoma vertė</entry>
 <entry key="business-term|name|BT-165">Ekonominės veiklos vykdytojo dydis</entry>

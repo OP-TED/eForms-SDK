@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">(Beräknad) tidsperiod från start- till slutdatum för kontraktet, ramavtalet, det dynamiska inköpssystemet eller kvalificeringssystemet. Detta ska omfatta alla optioner och förlängningar.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Den period från sista anbudsdag, under vilken anbud ska fortsätta att vara giltiga.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Lagstiftningen gäller om upphandlingen involverar köpare från olika länder.</entry>
-<entry key="field|hint|BT-13716-Notice">En av följande måste fyllas i: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">En av följande måste fyllas i: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Lägga till så många delkontrakt som du vill inkludera i gruppen av delkontrakt.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lägga till så många delkontrakt som du vill inkludera i gruppen av delkontrakt.</entry>
 <entry key="field|hint|BT-22-Lot">Om du använder en intern identifierare för dina förfaranden och delkontrakt ska du använda dem. Du måste ha olika identifierare för varje delkontrakt.</entry>

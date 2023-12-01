@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">Angaben zur (voraussichtlichen) Laufzeitdauer des Vertrags, der Rahmenvereinbarung, des dynamischen Beschaffungssystems oder des Qualifizierungssystems vom Beginn bis zum Ende. Dies umfasst etwaige Optionen und Verlängerungen.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Der vorgeschriebene Zeitraum der Gültigkeit der Angebote, gerechnet ab der Frist für die Einreichung von Angeboten.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Anzuwendendes Recht bei Beteiligung von Beschaffern aus verschiedenen Ländern an der Auftragsvergabe.</entry>
-<entry key="field|hint|BT-13716-Notice">Eines der folgenden Felder muss ausgefüllt werden: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Eines der folgenden Felder muss ausgefüllt werden: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Fügen Sie so viele Lose hinzu, wie Sie in die Gruppe der Lose aufnehmen möchten.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Fügen Sie so viele Lose hinzu, wie Sie in die Gruppe der Lose aufnehmen möchten.</entry>
 <entry key="field|hint|BT-22-Lot">Wenn Sie für Ihr Verfahren und Ihre Lose eine interne Kennung verwenden, bitte angeben. Bitte verwenden Sie für jedes Los unterschiedliche Kennungen.</entry>

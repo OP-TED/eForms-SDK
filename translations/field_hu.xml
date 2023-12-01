@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">A (becsült) időtartam a szerződés, keretmegállapodás, dinamikus beszerzési rendszer vagy minősítési rendszer kezdetétől a végéig. Ennek magában kell foglalnia az opciókat és a megújításokat.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Az ajánlat benyújtási határidejétől számított időszak, amely során az ajánlatnak érvényesnek kell maradnia.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Az alkalmazandó jog abban az esetben, ha a közbeszerzés különböző országokból származó vevőket érint.</entry>
-<entry key="field|hint|BT-13716-Notice">Az alábbiak közül egyet ki kell tölteni: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Az alábbiak közül egyet ki kell tölteni: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Adjon hozzá annyi részt, ahányat fel kíván venni a részek csoportjába.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Adjon hozzá annyi részt, ahányat fel kíván venni a részek csoportjába.</entry>
 <entry key="field|hint|BT-22-Lot">Ha Önök belső azonosítót használnak eljárásukhoz és az ahhoz tartozó részekhez, kérjük töltse ki ezt a mezőt. Kérjük, minden részhez adjon meg külön azonosítót.</entry>
@@ -1159,8 +1158,8 @@
 <entry key="field|name|BT-16-Organization-TouchPoint">Szervezeti egység</entry>
 <entry key="field|name|BT-160-Tender">A koncessziót megadó ajánlatkérő szervezettől származó becsült bevétel</entry>
 <entry key="field|name|BT-160-Tender-Currency">A koncessziót megadó ajánlatkérő szervezettől származó becsült bevétel</entry>
-<entry key="field|name|BT-161-NoticeResult">Visų šiame pranešime suteiktų sutarčių vertė</entry>
-<entry key="field|name|BT-161-NoticeResult-Currency">Visų šiame pranešime suteiktų sutarčių vertė</entry>
+<entry key="field|name|BT-161-NoticeResult">Az értesítésben odaítélt összes szerződés értéke</entry>
+<entry key="field|name|BT-161-NoticeResult-Currency">Az értesítésben odaítélt összes szerződés értéke</entry>
 <entry key="field|name|BT-162-Tender">A koncesszió felhasználóitól származó becsült bevétel</entry>
 <entry key="field|name|BT-162-Tender-Currency">A koncesszió felhasználóitól származó becsült bevétel</entry>
 <entry key="field|name|BT-163-Tender">A koncesszió becsült értékének kiszámításához használt módszer</entry>

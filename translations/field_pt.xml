@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">O período (estimado) que vai desde o início até ao final do contrato, acordo-quadro, sistema de aquisição dinâmico ou sistema de qualificação. Estas informações devem incluir eventuais opções e renovações.</entry>
 <entry key="field|description|OPA-98-Lot-Number">O período, a contar da data-limite para a apresentação das propostas, durante o qual as propostas têm de permanecer válidas.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">A legislação aplicável se o contrato envolver adquirentes de diferentes países.</entry>
-<entry key="field|hint|BT-13716-Notice">Um dos seguintes campos deve ser preenchido: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Um dos seguintes campos deve ser preenchido: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Adicione o número de lotes que pretende incluir no grupo de lotes.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Adicione o número de lotes que pretende incluir no grupo de lotes.</entry>
 <entry key="field|hint|BT-22-Lot">Se utilizar um identificador interno para o seu procedimento e para os seus lotes, introduza-o. Utilize identificadores diferentes para cada lote.</entry>
@@ -1159,8 +1158,8 @@
 <entry key="field|name|BT-16-Organization-TouchPoint">Departamento</entry>
 <entry key="field|name|BT-160-Tender">Estimativa das receitas provenientes do adquirente que concedeu a concessão</entry>
 <entry key="field|name|BT-160-Tender-Currency">Estimativa das receitas provenientes do adquirente que concedeu a concessão</entry>
-<entry key="field|name|BT-161-NoticeResult">Hodnota všetkých zmlúv udelených v tomto oznámení</entry>
-<entry key="field|name|BT-161-NoticeResult-Currency">Hodnota všetkých zmlúv udelených v tomto oznámení</entry>
+<entry key="field|name|BT-161-NoticeResult">Valor de todos os contratos adjudicados neste aviso</entry>
+<entry key="field|name|BT-161-NoticeResult-Currency">Valor de todos os contratos adjudicados neste aviso</entry>
 <entry key="field|name|BT-162-Tender">Estimativa das receitas provenientes dos utilizadores da concessão</entry>
 <entry key="field|name|BT-162-Tender-Currency">Estimativa das receitas provenientes dos utilizadores da concessão</entry>
 <entry key="field|name|BT-163-Tender">Método utilizado para calcular o valor estimado da concessão</entry>

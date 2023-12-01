@@ -1008,8 +1008,7 @@
 <entry key="field|description|OPA-36-Part-Number">(Eeldatav) ajavahemik alates lepingu, raamlepingu, dünaamilise hankesüsteemi või kvalifitseerimissüsteemi algusest kuni selle lõpuni. See peab hõlmama kõiki täiendavaid hankevõimalusi ja lepingu uuendamisi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Ajavahemik, mille jooksul pakkumused peavad jääma jõusse pärast pakkumuse esitamise tähtpäeva möödumist.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Õigus, mida kohaldatakse juhul, kui hankes osalevad eri riikidest pärit hankijad.</entry>
-<entry key="field|hint|BT-13716-Notice">Üks järgmistest tuleb täita: PROCEDURE, BUYER, RESULT, PAR-nnnn, LOT-nnnn GLO-nnnn, RES-nnnn ORG-nnnn</entry>
-<entry key="field|hint|BT-13716-notice">BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Üks järgmistest tuleb täita: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
 <entry key="field|hint|BT-22-Lot">Kui kasutate oma menetluse ja osade puhul sisemist tunnust, siis palun sisestage see. Palun kasutage iga osa puhul erinevat tunnust.</entry>
