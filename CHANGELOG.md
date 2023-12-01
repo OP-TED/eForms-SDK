@@ -33,7 +33,7 @@ Other changes in the rules include:
 * Reactivated various conditional rules related to: Framework agreements, GPA coverage, change-related fields, business registration, title and description of groups of lots, classification type, additional nature, address components, group framework values, EU Funds, and vehicles.
 * Added rules to check that the procedure type (BT-105-Procedure) is consistent with the notice subtype.
 * Added rules on various fields to check that their value is unique in the notice, in particular for identifiers.
-* Updated rules on accelerated procedure (BT-106-Procedure and BT-105-Procedure)
+* Updated rules on accelerated procedure (BT-106-Procedure and BT-105-Procedure).
 * Corrected the rule on CPV codes for subsidized contracts.
 * Reduced the minimum period between Notice Dispatch Date (BT-05-notice) and Preferred Publication Date (BT-738-notice) from 2 to 0 days.
 * Modified the rule on dispatch date to use "Notice Dispatch Date eSender" (BT-803) when it exists, and Dispatch Date (BT-05) otherwise.
@@ -64,8 +64,8 @@ Other changes in the rules include:
 ### View templates
 
 * Extended new Result CVD fields introduced in the Regulation amendment to eForms subtypes 32 to 35.
-* Removed EFX templates for Views where their Fields are forbidden
-* Improved EFX templates for X01, X02, T01 and T02
+* Removed EFX templates for Views where their Fields are forbidden.
+* Improved EFX templates for X01, X02, T01 and T02.
 * Where a Tendering Party is comprised of more than one organisation, we now display the name of the group leader, followed by the names of the other organisations.
 * Removed the section for group of lots from notice subtype 15, as they are not allowed.
 * Improved the display of lists of codes.
