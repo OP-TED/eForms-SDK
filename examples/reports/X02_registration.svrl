@@ -24,8 +24,6 @@
    <svrl:ns-prefix-in-attribute-values prefix="fn" uri="http://www.w3.org/2005/xpath-functions"/>
    <svrl:active-pattern id="EFORMS-validation-stage-1a"/>
    <svrl:fired-rule context="/*"/>
-   <svrl:fired-rule context="//cbc:CountrySubentityCode"/>
-   <svrl:fired-rule context="//cbc:NoticeTypeCode"/>
    <svrl:active-pattern id="EFORMS-validation-stage-1b-X02"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = 'X02']"/>
    <svrl:fired-rule context="/*/cac:BusinessParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = 'X02']"/>

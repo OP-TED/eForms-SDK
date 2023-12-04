@@ -32,7 +32,6 @@
 			rule|text|P-0002
 		</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="//cbc:NoticeTypeCode"/>
    <svrl:active-pattern id="EFORMS-validation-stage-1b-4"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
    <svrl:failed-assert id="ND-Part-4"
