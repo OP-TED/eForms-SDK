@@ -42,7 +42,7 @@
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:AwardDate>2020-03-20+02:00</cbc:AwardDate>
 							<efac:ContractReference>
-								<cbc:ID schemeName="contract">CRN ABC/2020-07</cbc:ID>
+								<cbc:ID>CRN ABC/2020-07</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

@@ -329,7 +329,7 @@
 							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<!--"id": "BT-150-Contract", "name": "Contract Identifier",-->
-								<cbc:ID schemeName="contract">REF RST-678</cbc:ID>
+								<cbc:ID>REF RST-678</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<!--id": "BT-3202-Contract","name": "Contract Tender ID (Reference) -->
@@ -371,7 +371,7 @@
 							</cac:SignatoryParty>
 							<efac:ContractReference>
 								<!--"id": "BT-150-Contract", "name": "Contract Identifier",-->
-								<cbc:ID schemeName="contract">KLM FGH/912</cbc:ID>
+								<cbc:ID>KLM FGH/912</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<!--id": "BT-3202-Contract","name": "Contract Tender ID (Reference) -->

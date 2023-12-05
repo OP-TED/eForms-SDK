@@ -74,7 +74,7 @@
 						<efac:SettledContract>
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<efac:ContractReference>
-								<cbc:ID schemeName="contract">125b291e-576f-4855-b685-df8e9231475b-01</cbc:ID>
+								<cbc:ID>125b291e-576f-4855-b685-df8e9231475b-01</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

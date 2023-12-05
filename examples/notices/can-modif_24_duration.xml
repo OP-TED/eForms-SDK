@@ -64,7 +64,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID schemeName="contract">BSO/2010/REV-01</cbc:ID>
+								<cbc:ID>BSO/2010/REV-01</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

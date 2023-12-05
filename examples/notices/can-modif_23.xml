@@ -43,7 +43,7 @@
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:IssueDate>2023-08-07+03:00</cbc:IssueDate>
 							<efac:ContractReference>
-								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
+								<cbc:ID>CON-0001</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

@@ -68,7 +68,7 @@
 							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:IssueDate>2020-04-09+02:00</cbc:IssueDate>
 							<efac:ContractReference>
-								<cbc:ID schemeName="contract">RN CON:2020-02/SC</cbc:ID>
+								<cbc:ID>RN CON:2020-02/SC</cbc:ID>
 							</efac:ContractReference>
 							<efac:DurationJustification>
 								<efbc:ExtendedDurationIndicator>true</efbc:ExtendedDurationIndicator>

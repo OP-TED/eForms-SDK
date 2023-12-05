@@ -126,7 +126,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID schemeName="contract">CRN 2021/02/ABC</cbc:ID>
+								<cbc:ID>CRN 2021/02/ABC</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>

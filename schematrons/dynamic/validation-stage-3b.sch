@@ -2754,9 +2754,6 @@
 		<assert id="BR-BT-00151-0053" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\d)?\.))[\w\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00151-0053</assert>
 		<assert id="BT-151-Contract_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-151-Contract_length</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID">
-		<assert id="BT-150-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-150-Contract-Scheme_MA</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset/efbc:AssetDescription">
 		<assert id="OPP-021-Contract_length" role="ERROR" test="string-length(normalize-space(.)) le 4000">rule|text|OPP-021-Contract_length</assert>
 	</rule>

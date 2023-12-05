@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.47",
-    "createdOn" : "2023-12-01T13:43:34"
+    "version" : "1.10.52",
+    "createdOn" : "2023-12-05T14:21:33"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -5526,7 +5526,6 @@
     "xpathRelative" : "efac:ContractReference/cbc:ID",
     "xsdSequenceOrder" : [ { "efac:ContractReference" : 9 }, { "cbc:ID" : 1 } ],
     "type" : "id",
-    "attributes" : [ "BT-150-Contract-Scheme" ],
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -5563,23 +5562,6 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00150-0101"
       } ]
-    }
-  }, {
-    "id" : "BT-150-Contract-Scheme",
-    "parentNodeId" : "ND-SettledContract",
-    "name" : "Contract Identifier Schemename",
-    "btId" : "BT-150",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID/@schemeName",
-    "xpathRelative" : "efac:ContractReference/cbc:ID/@schemeName",
-    "xsdSequenceOrder" : [ { "efac:ContractReference" : 9 }, { "cbc:ID" : 1 } ],
-    "type" : "text",
-    "attributeName" : "schemeName",
-    "attributeOf" : "BT-150-Contract",
-    "presetValue" : "contract",
-    "legalType" : "IDENTIFIER",
-    "repeatable" : {
-      "value" : false,
-      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-1501(n)-Contract",

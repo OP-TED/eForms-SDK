@@ -99,7 +99,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID schemeName="contract">DF JDHF/2020-05</cbc:ID>
+								<cbc:ID>DF JDHF/2020-05</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
@@ -115,7 +115,7 @@
 								</cac:PartyIdentification>
 							</cac:SignatoryParty>
 							<efac:ContractReference>
-								<cbc:ID schemeName="contract">DF DFGH/2020-07</cbc:ID>
+								<cbc:ID>DF DFGH/2020-07</cbc:ID>
 							</efac:ContractReference>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
