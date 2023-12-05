@@ -404,7 +404,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">55aae64f-88a8-44a5-b2fb-8228e97fe6ee</cbc:ID>
 	<cbc:ContractFolderID>46c9ce89-5986-40d9-992f-e1a2469a48f8</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
@@ -540,7 +540,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>AO 10786</cbc:ID>
+		<cbc:ID schemeName="InternalID">AO 10786</cbc:ID>
 		<cbc:Name languageID="BUL">Предоставяне на ИТ услуги, свързани с ИТ системите на Службата за публикации (EUR-Lex, N-Lex, Search Layer и други)</cbc:Name>
 		<cbc:Name languageID="CES">Poskytování IT služeb souvisejících s IT systémy Úřadu pro publikace (EUR-Lex, N-Lex, Search Layer a další)</cbc:Name>
 		<cbc:Name languageID="DAN">Levering af IT-tjenester relateret til operationelle (OP) IT-systemer (EUR-Lex, N-Lex, søgelag m.fl.)</cbc:Name>

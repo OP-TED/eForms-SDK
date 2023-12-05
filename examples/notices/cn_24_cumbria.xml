@@ -128,7 +128,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">6bc75979-ce6c-46eb-81a6-eee543697dec</cbc:ID>
 	<cbc:ContractFolderID>9af3b735-9d6c-45c8-8c39-d58fb9fa824b</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-09+01:00</cbc:IssueDate>
@@ -214,7 +214,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>DN474002</cbc:ID>
+		<cbc:ID schemeName="InternalID">DN474002</cbc:ID>
 		<cbc:Name languageID="ENG">School Payroll and HR Admin Services</cbc:Name>
 		<cbc:Description languageID="ENG">The Council plans to establish a framework of suppliers who can offer an effective, timely and cost effective payroll and HR administration service to Non-Cheque Book Maintained Schools in Cumbria.
 			Currently there are 180 schools who plan to initially use this framework which are predominantly primary schools and range in size of staffing numbers however numbers may change subject to individual school needs.
@@ -409,7 +409,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="ENG">School Payroll and HR Admin Services</cbc:Name>
 			<cbc:Description languageID="ENG">The Council plans to establish a framework of suppliers who can offer an effective, timely and cost effective payroll and HR administration service to Non-Cheque Book Maintained Schools in Cumbria.
 				Currently there are 180 schools who plan to initially use this framework which are predominantly primary schools and range in size of staffing numbers however numbers may change subject to individual school needs.

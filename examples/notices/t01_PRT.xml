@@ -72,7 +72,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">468ad654-621e-43f2-bc58-e774eb03926b</cbc:ID>
 	<cbc:IssueDate>2018-06-20+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
@@ -108,7 +108,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">comp-tend</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>RA/DAF/SERV-96/18</cbc:ID>
+		<cbc:ID schemeName="InternalID">RA/DAF/SERV-96/18</cbc:ID>
 		<cbc:Name languageID="POR">Public road transport services</cbc:Name>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="POR">Some additional information on the procurement ... blablabla</cbc:Note>
@@ -130,7 +130,7 @@
 			</cac:AdditionalInformationParty>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>RA/DAF/SERV-96/18</cbc:ID>
+			<cbc:ID schemeName="InternalID">RA/DAF/SERV-96/18</cbc:ID>
 			<cbc:Name languageID="POR">Serviço público de transportes de passageiros de Águeda</cbc:Name>
 			<cbc:Description languageID="POR">Serviço público de transportes de passageiros de Águeda.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

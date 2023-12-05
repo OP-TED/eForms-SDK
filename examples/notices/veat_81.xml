@@ -12,37 +12,37 @@
 				<efext:EformsExtension>
 					<efac:NoticeResult>
 						<efac:LotResult>
-							<cbc:ID>RES-0001</cbc:ID>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<efac:SettledContract>
-								<cbc:ID>CON-0001</cbc:ID>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0001</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotResult>
-							<cbc:ID>RES-0002</cbc:ID>
+							<cbc:ID schemeName="result">RES-0002</cbc:ID>
 							<efac:SettledContract>
-								<cbc:ID>CON-0001</cbc:ID>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0002</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotTender>
-							<cbc:ID>TEN-0001</cbc:ID>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<efac:TenderingParty>
-								<cbc:ID>TPA-0001</cbc:ID>
+								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0001</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>BID 123</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
-							<cbc:ID>CON-0001</cbc:ID>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<efac:ContractReference>
 								<cbc:ID>d1cc5b48-fefc-405f-b888-b0727cd632a0-01</cbc:ID>
 							</efac:ContractReference>
@@ -51,9 +51,9 @@
 							</efac:LotTender>
 						</efac:SettledContract>
 						<efac:TenderingParty>
-							<cbc:ID>TPA-0001</cbc:ID>
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							<efac:Tenderer>
-								<cbc:ID>ORG-0002</cbc:ID>
+								<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>
@@ -68,7 +68,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">ZenithNova Innovations Ltd.</cbc:Name>
@@ -101,7 +101,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com/contact-us/katerina-lisa</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange/katerina-lisa</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Katerina Lisa</cbc:Name>
@@ -115,7 +115,7 @@
 							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0002</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">New Org </cbc:Name>
@@ -140,7 +140,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">cbe9e7b7-6860-4bb1-a200-b3ada0ff6fbe</cbc:ID>
 	<cbc:ContractFolderID>75db4bef-aae6-41f1-a593-d5dc62abd907</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -162,7 +162,7 @@
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>ORG-0001</cbc:ID>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
@@ -189,24 +189,24 @@ vol2 </cbc:Description>
 		<cac:TenderingTerms>
 			<cac:AdditionalInformationParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:AdditionalInformationParty>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>ABE</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABE</cbc:ID>
 			<cbc:Name languageID="ENG">Ante nte vol2 LOT1 </cbc:Name>
 			<cbc:Description languageID="ENG">Sinopsis vol2 LOT1 
 The 18-year-old freshman Mitsos. The 25-year-old, attached to her parents Sofia. And the 30-year-old just-fine-all-by-myself, Dimitra. A Saturday night when none of them knows if they are ready for the next step. The 18-year-old freshman Mitsos. The 25-year-old, attached to her parents Sofia. And the 30-year-old just-fine-all-by-myself, Dimitra. A Saturday night when none of them knows if they are ready for the next step.
@@ -225,13 +225,13 @@ vol2 LOT1 </cbc:Description>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>ABF</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABF</cbc:ID>
 			<cbc:Name languageID="ENG">Ante nte vol2 LOT2</cbc:Name>
 			<cbc:Description languageID="ENG">Sinopsis vol2 LOT2
 The 18-year-old freshman Mitsos. The 25-year-old, attached to her parents Sofia. And the 30-year-old just-fine-all-by-myself, Dimitra. A Saturday night when none of them knows if they are ready for the next step. The 18-year-old freshman Mitsos. The 25-year-old, attached to her parents Sofia. And the 30-year-old just-fine-all-by-myself, Dimitra. A Saturday night when none of them knows if they are ready for the next step.

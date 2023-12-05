@@ -159,7 +159,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">f37b9a55-0684-4d4b-a98f-0ba819d6d6f2</cbc:ID>
 	<cbc:ContractFolderID>8655f8a5-b5e9-4d6e-9dee-a360f820ecbe</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-11+01:00</cbc:IssueDate>
@@ -193,7 +193,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>xyz</cbc:ID>
+		<cbc:ID schemeName="InternalID">xyz</cbc:ID>
 		<cbc:Name languageID="FRA">Concours restreint de maîtrise d'œuvre en vue de la construction d'un accueil périscolaire à Burnhaupt-le-Bas</cbc:Name>
 		<cbc:Description languageID="FRA">Concours restreint de maîtrise d'œuvre en vue de la construction d'un nouvel accueil périscolaire à Burnhaupt-Le-Bas (68520). — Le présent marché a pour objet de confier au maître d'œuvre une mission de base, constituée des éléments suivants: — les études d'Esquisse (ESQ); — les études d'Avant-projet (AVP): Avant-projet sommaire (APS), Avant-projet définitif (APD); — les études de Projet (PRO-DCE); — l'Assistance à la passation des contrats de travaux (ACT); — la Direction de l'exécution des contrats de travaux (DET); — l'assistance lors des opérations de réception et pendant la période de garantie de parfait achèvement (AOR). La mission comprend également les missions complémentaires suivantes: — les études d'exécution (EXE); — Ordonnancement, pilotage et coordination (OPC). Le contenu de chaque élément de mission est celui qui figure à l'annexe I de l'arrêté du 22.3.2019 détaillant les modalités techniques d'exécution des éléments de mission de maîtrise d'œuvre; — la mission de coordination en matière de Système sécurité incendie (SSI), telle que définie par les textes réglementaires et normes en vigueur, est intégrée dans la mission du maître d'œuvre (mission de base).</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -333,7 +333,7 @@
 			</cac:ParticipationRequestReceptionPeriod>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>dbl</cbc:ID>
+			<cbc:ID schemeName="InternalID">dbl</cbc:ID>
 			<cbc:Name languageID="FRA">Concours restreint de maîtrise d'œuvre en vue de la construction d'un accueil périscolaire à Burnhaupt-le-Bas</cbc:Name>
 			<cbc:Description languageID="FRA">Concours restreint de maîtrise d'œuvre en vue de la construction d'un nouvel accueil périscolaire à Burnhaupt-Le-Bas (68520). — Le présent marché a pour objet de confier au maître d'œuvre une mission de base, constituée des éléments suivants: — les études d'Esquisse (ESQ); — les études d'Avant-projet (AVP): Avant-projet sommaire (APS), Avant-projet définitif (APD); — les études de Projet (PRO-DCE); — l'Assistance à la passation des contrats de travaux (ACT); — la Direction de l'exécution des contrats de travaux (DET); — l'assistance lors des opérations de réception et pendant la période de garantie de parfait achèvement (AOR). La mission comprend également les missions complémentaires suivantes: — les études d'exécution (EXE); — Ordonnancement, pilotage et coordination (OPC). Le contenu de chaque élément de mission est celui qui figure à l'annexe I de l'arrêté du 22.3.2019 détaillant les modalités techniques d'exécution des éléments de mission de maîtrise d'œuvre; — la mission de coordination en matière de Système sécurité incendie (SSI), telle que définie par les textes réglementaires et normes en vigueur, est intégrée dans la mission du maître d'œuvre (mission de base).</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
