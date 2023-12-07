@@ -41,6 +41,9 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="EUR">100000</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
 							<efac:TenderingParty>
 								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
