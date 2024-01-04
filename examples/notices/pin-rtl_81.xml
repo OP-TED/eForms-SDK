@@ -124,7 +124,6 @@ vol3</cbc:Description>
 								<cbc:Name languageID="ENG">Economic and financial standing</cbc:Name>
 								<cbc:Description languageID="ENG">Economic and financial standing</cbc:Description>
 								<cbc:CalculationExpressionCode listName="usage">nyk</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
