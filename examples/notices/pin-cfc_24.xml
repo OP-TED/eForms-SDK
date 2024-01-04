@@ -156,6 +156,11 @@
 				<cac:PresentationPeriod>
 					<cbc:Description languageID="ENG">Within 2 months of the notification to the plaintiff.</cbc:Description>
 				</cac:PresentationPeriod>
+				<cac:AppealInformationParty>
+					<cac:PartyIdentification>
+						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+					</cac:PartyIdentification>
+				</cac:AppealInformationParty>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
