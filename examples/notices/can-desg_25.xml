@@ -31,6 +31,10 @@
 							<efac:DecisionReason>
 								<efbc:DecisionReasonCode listName="non-award-justification">ins-fund</efbc:DecisionReasonCode>
 							</efac:DecisionReason>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
 							</efac:TenderLot>

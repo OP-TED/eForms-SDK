@@ -32,6 +32,10 @@
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
