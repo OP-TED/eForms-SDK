@@ -5267,12 +5267,12 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-SettledContract} ${(BT-1451-Contract is present) and (BT-145-Contract is present)}",
-        "value" : "{ND-SettledContract} ${BT-1451-Contract < BT-145-Contract}",
+        "value" : "{ND-SettledContract} ${BT-1451-Contract <= BT-145-Contract}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01451-0100"
       }, {
         "condition" : "{ND-SettledContract} ${(BT-1451-Contract is present) and (BT-05(a)-notice is present)}",
-        "value" : "{ND-SettledContract} ${BT-1451-Contract < BT-05(a)-notice}",
+        "value" : "{ND-SettledContract} ${BT-1451-Contract <= BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01451-0101"
       } ]
