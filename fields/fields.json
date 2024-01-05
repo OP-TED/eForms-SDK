@@ -37902,6 +37902,21 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "CEI" ],
+        "condition" : "{ND-LotReviewTerms} ${BT-99-Lot is not present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "10", "14", "16", "17", "19" ],
+        "condition" : "{ND-LotReviewTerms} ${BT-99-Lot is present}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
