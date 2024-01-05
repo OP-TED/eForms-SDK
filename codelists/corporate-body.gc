@@ -5,7 +5,7 @@
       <ShortName>CorporateBody</ShortName>
       <LongName>corporate-body</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/corporate-body</LongName>
-      <Version>20230927-0</Version>
+      <Version>20231213-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/corporate-body</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -1158,6 +1158,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Europeiska genomförandeorganet för klimat, infrastruktur och miljö</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>CJU</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Chips Joint Undertaking</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Съвместно предприятие „Интегрални схеми“</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Společný podnik pro čipy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Fællesforetagendet for mikrochips</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gemeinsames Unternehmen für Chips</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κοινή επιχείρηση «Μικροκυκλώματα»</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Chips Joint Undertaking</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Empresa Común para los Chips</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kiipide Ühisettevõte</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Siruyhteisyritys</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Entreprise commune «Semi-conducteurs»</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Comhghnóthas um Shliseanna</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zajedničko poduzeće za čipove</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csipekkel foglalkozó közös vállalkozás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Impresa comune «Chip»</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Lustų bendroji įmonė</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kopuzņēmums “Mikroshēmas”</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Impriża Konġunta taċ-Ċipep</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gemeenschappelijke Onderneming “Chips”</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wspólne Przedsięwzięcie na rzecz Czipów</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Empresa Comum dos Circuitos Integrados</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Întreprinderea comună pentru cipuri</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Spoločný podnik pre čipy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Skupno podjetje za čipe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Gemensamma företaget för halvledare</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -6278,86 +6358,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Interpol</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>KDTJU</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Key Digital Technologies Joint Undertaking</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Съвместно предприятие „Ключови цифрови технологии“</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Společný podnik pro klíčové digitální technologie</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Fællesforetagendet for centrale digitale teknologier</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Gemeinsames Unternehmen für digitale Schlüsseltechnologien</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Κοινή επιχείρηση «Βασικές ψηφιακές τεχνολογίες»</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Key Digital Technologies Joint Undertaking</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Empresa Común para las Tecnologías Digitales Clave</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Peamiste digitehnoloogiate ühisettevõte</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Keskeiset digitaaliteknologiat ‑yhteisyritys</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Entreprise commune «Technologies numériques clés»</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>An Comhghnóthas Eochairtheicneolaíochtaí Digiteacha</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Zajedničko poduzeće za ključne digitalne tehnologije</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Kulcsfontosságú Digitális Technológiák Közös Vállalkozás</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Impresa comune «Tecnologie digitali fondamentali»</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Bazinių skaitmeninių technologijų bendroji įmonė</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Kopuzņēmums “Svarīgas digitālās tehnoloģijas”</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>L-Impriża Konġunta Teknoloġiji Diġitali Ewlenin</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Gemeenschappelijke Onderneming “Digitale sleuteltechnologieën”</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Wspólne Przedsięwzięcie na rzecz Kluczowych Technologii Cyfrowych</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Empresa Comum das Tecnologias Digitais Essenciais</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Întreprinderea comună „Tehnologii digitale esențiale”</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Spoločný podnik pre kľúčové digitálne technológie</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Skupno podjetje za ključne digitalne tehnologije</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Det gemensamma företaget för viktig digital teknik</SimpleValue>
          </Value>
       </Row>
       <Row>
