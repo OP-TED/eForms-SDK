@@ -68,7 +68,7 @@
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T01']">
 		<assert id="BR-BT-00021-0011" role="ERROR" diagnostics="BT-21-Procedure" test="count(cbc:Name) &gt; 0">rule|text|BR-BT-00021-0011</assert>
 		<assert id="BR-BT-00023-0011" role="ERROR" diagnostics="BT-23-Procedure" test="count(cbc:ProcurementTypeCode) &gt; 0">rule|text|BR-BT-00023-0011</assert>
-		<assert id="BR-BT-00024-0011" role="ERROR" diagnostics="BT-24-Procedure" test="count(cbc:Description) = 0">rule|text|BR-BT-00024-0011</assert>
+		<assert id="BR-BT-00024-0011" role="ERROR" diagnostics="BT-24-Procedure" test="count(cbc:Description) &gt; 0">rule|text|BR-BT-00024-0011</assert>
 		<assert id="BR-BT-00262-0011" role="ERROR" diagnostics="ND-ProcedureProcurementScope_BT-262-Procedure" test="count(cac:MainCommodityClassification/cbc:ItemClassificationCode) &gt; 0">rule|text|BR-BT-00262-0011</assert>
 		<assert id="BR-BT-00271-0011" role="ERROR" diagnostics="ND-ProcedureProcurementScope_BT-271-Procedure" test="count(cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount) = 0">rule|text|BR-BT-00271-0011</assert>
 	</rule>
