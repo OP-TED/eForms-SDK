@@ -2756,8 +2756,18 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "16", "17", "18", "29", "30", "31" ],
+        "noticeTypes" : [ "16", "29" ],
         "condition" : "{ND-AcceleratedProcedure} ${BT-105-Procedure not in ('open','restricted','neg-w-call')}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "17", "30" ],
+        "condition" : "{ND-AcceleratedProcedure} ${BT-105-Procedure not in ('open','restricted','neg-w-call','comp-dial','innovation')}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "18", "31" ],
+        "condition" : "{ND-AcceleratedProcedure} ${BT-105-Procedure not in ('neg-w-call','restricted')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -2766,17 +2776,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "17" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "16" ],
-        "condition" : "{ND-AcceleratedProcedure} ${BT-105-Procedure in ('open','restricted')}",
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "18" ],
-        "condition" : "{ND-AcceleratedProcedure} ${BT-105-Procedure in ('neg-w-call','restricted')}",
+        "noticeTypes" : [ "16", "17", "18" ],
         "value" : true,
         "severity" : "ERROR"
       } ]

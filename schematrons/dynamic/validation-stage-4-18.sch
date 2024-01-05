@@ -219,7 +219,7 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure'][$noticeSubType = '18']">
 		<assert id="BR-BT-00106-0024" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text()) = ('neg-w-call','restricted'))">rule|text|BR-BT-00106-0024</assert>
-		<assert id="BR-BT-00106-0055" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call'))">rule|text|BR-BT-00106-0055</assert>
+		<assert id="BR-BT-00106-0055" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = ('neg-w-call','restricted'))">rule|text|BR-BT-00106-0055</assert>
 		<assert id="BR-BT-01351-0024" role="ERROR" diagnostics="BT-1351-Procedure" test="count(cbc:ProcessReason) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text()) = 'true')">rule|text|BR-BT-01351-0024</assert>
 		<assert id="BR-BT-01351-0055" role="ERROR" diagnostics="BT-1351-Procedure" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode/normalize-space(text()) = 'true')">rule|text|BR-BT-01351-0055</assert>
 	</rule>
