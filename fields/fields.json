@@ -4533,7 +4533,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Lot} ${BT-137-Lot is unique in /BT-137-Lot}",
+        "value" : "{BT-137-Lot} ${BT-137-Lot is unique in /BT-137-Lot}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0201"
       }, {
@@ -4604,7 +4604,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroup} ${BT-137-LotsGroup is unique in /BT-137-LotsGroup}",
+        "value" : "{BT-137-LotsGroup} ${BT-137-LotsGroup is unique in /BT-137-LotsGroup}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0203"
       }, {
@@ -4673,7 +4673,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Part} ${BT-137-Part is unique in /BT-137-Part}",
+        "value" : "{BT-137-Part} ${BT-137-Part is unique in /BT-137-Part}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00137-0202"
       } ]
@@ -36948,7 +36948,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Company} ${OPT-200-Organization-Company is unique in /OPT-200-Organization-Company}",
+        "value" : "{OPT-200-Organization-Company} ${OPT-200-Organization-Company is unique in /OPT-200-Organization-Company}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00200-0100"
       }, {
@@ -37016,7 +37016,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{OPT-201-Organization-TouchPoint} ${OPT-201-Organization-TouchPoint is present}",
         "value" : "{OPT-201-Organization-TouchPoint} ${OPT-201-Organization-TouchPoint is unique in /OPT-201-Organization-TouchPoint}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00201-0100"
@@ -37076,7 +37075,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{OPT-202-UBO} ${OPT-202-UBO is present}",
         "value" : "{OPT-202-UBO} ${OPT-202-UBO is unique in /OPT-202-UBO}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00202-0100"
@@ -37150,7 +37148,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-TenderingParty} ${OPT-210-Tenderer is unique in /OPT-210-Tenderer}",
+        "value" : "{OPT-210-Tenderer} ${OPT-210-Tenderer is unique in /OPT-210-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00210-0100"
       }, {
@@ -39448,7 +39446,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SettledContract} ${OPT-316-Contract is unique in /OPT-316-Contract}",
+        "value" : "{OPT-316-Contract} ${OPT-316-Contract is unique in /OPT-316-Contract}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00316-0100"
       }, {
@@ -39594,7 +39592,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotTender} ${OPT-321-Tender is unique in /OPT-321-Tender}",
+        "value" : "{OPT-321-Tender} ${OPT-321-Tender is unique in /OPT-321-Tender}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00321-0100"
       }, {
@@ -39662,7 +39660,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{OPT-322-LotResult} ${OPT-322-LotResult is present}",
         "value" : "{OPT-322-LotResult} ${OPT-322-LotResult is unique in /OPT-322-LotResult}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00322-0051"
