@@ -25520,11 +25520,6 @@
         "value" : "{ND-LotsGroupAwardCriteria} ${every number:$ordImp in BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] satisfies($ordImp <= count(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp']))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0205"
-      }, {
-        "condition" : "{BT-539-LotsGroup} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is present}",
-        "value" : "{BT-539-LotsGroup} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is unique in /BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp']}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00539-0206"
       } ]
     }
   }, {
