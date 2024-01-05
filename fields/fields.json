@@ -3930,7 +3930,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
-        "condition" : "{ND-LotTenderingProcess} ${BT-105-Procedure == 'open' or (BT-105-Procedure == 'oth-mult' and (BT-1311(d)-Lot is not present)) or (BT-105-Procedure == 'oth-single' and (BT-1311(d)-Lot is not present))}",
+        "condition" : "{ND-LotTenderingProcess} ${BT-105-Procedure == 'open' or (BT-105-Procedure == 'oth-single')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4028,7 +4028,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
-        "condition" : "{ND-LotTenderingProcess} ${(BT-105-Procedure == 'oth-mult' and (BT-131(d)-Lot is not present)) or (BT-105-Procedure == 'oth-single' and (BT-131(d)-Lot is not present))}",
+        "condition" : "{ND-LotTenderingProcess} ${(BT-105-Procedure == 'oth-mult')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
