@@ -13,6 +13,10 @@
 		<assert id="BR-BT-00026-0322" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0322</assert>
 		<assert id="BR-BT-00026-0372" role="ERROR" diagnostics="BT-26_a_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0372</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '16']">
+		<assert id="BR-BT-00026-0022" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0022</assert>
+		<assert id="BR-BT-00026-0072" role="ERROR" diagnostics="BT-26_m_-Procedure" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0072</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '16']">
 		<assert id="BR-BT-00728-0022" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description) = 0 or not(not(cac:Address/cbc:Region) and not(cac:Address/cac:Country/cbc:IdentificationCode))">rule|text|BR-BT-00728-0022</assert>
 		<assert id="BR-BT-00728-0170" role="ERROR" diagnostics="BT-728-Procedure" test="count(cbc:Description) &gt; 0 or not((not(cac:Address/cbc:Region)) and (not(cac:Address/cbc:CountrySubentityCode)) and (not(cac:Address/cbc:CityName)))">rule|text|BR-BT-00728-0170</assert>
@@ -40,6 +44,10 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension[$noticeSubType = '16']">
 		<assert id="BR-BT-00057-0022" role="ERROR" diagnostics="ND-OptionsAndRenewals_BT-57-Lot" test="count(cac:Renewal/cac:Period/cbc:Description) = 0 or (cbc:MaximumNumberNumeric/number() > 0)">rule|text|BR-BT-00057-0022</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '16']">
+		<assert id="BR-BT-00026-0122" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(cbc:ItemClassificationCode/@listName) &gt; 0 or not(cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0122</assert>
+		<assert id="BR-BT-00026-0172" role="ERROR" diagnostics="BT-26_m_-Lot" test="count(cbc:ItemClassificationCode/@listName) = 0 or (cbc:ItemClassificationCode)">rule|text|BR-BT-00026-0172</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = '16']">
 		<assert id="BR-BT-00036-0187" role="ERROR" diagnostics="BT-36-Lot" test="count(cbc:DurationMeasure) = 0 or not((cbc:EndDate and cbc:StartDate) or (cbc:DescriptionCode))">rule|text|BR-BT-00036-0187</assert>
@@ -74,13 +82,13 @@
 		<assert id="BR-BT-00052-0022" role="ERROR" diagnostics="BT-52-Lot" test="count(cbc:CandidateReductionConstraintIndicator) &gt; 0 or not(../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('comp-dial','innovation','neg-w-call'))">rule|text|BR-BT-00052-0022</assert>
 		<assert id="BR-BT-00052-0052" role="ERROR" diagnostics="BT-52-Lot" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or not(../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or ../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' or ../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00052-0052</assert>
 		<assert id="BR-BT-00130-0022" role="ERROR" diagnostics="BT-130-Lot" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or not(../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00130-0022</assert>
-		<assert id="BR-BT-00131-0022" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-131_d_-Lot" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or (../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-mult' and (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate))) or (../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' and (not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate))))">rule|text|BR-BT-00131-0022</assert>
+		<assert id="BR-BT-00131-0022" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-131_d_-Lot" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) &gt; 0 or not(../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or (../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single'))">rule|text|BR-BT-00131-0022</assert>
 		<assert id="BR-BT-00131-0074" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-131_t_-Lot" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) &gt; 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate)">rule|text|BR-BT-00131-0074</assert>
 		<assert id="BR-BT-00131-0105" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-131_d_-Lot" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate) = 0 or not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate)">rule|text|BR-BT-00131-0105</assert>
 		<assert id="BR-BT-00131-0115" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-131_t_-Lot" test="count(cac:TenderSubmissionDeadlinePeriod/cbc:EndTime) = 0 or (cac:TenderSubmissionDeadlinePeriod/cbc:EndDate)">rule|text|BR-BT-00131-0115</assert>
 		<assert id="BR-BT-00132-0105" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-132_d_-Lot" test="count(cac:OpenTenderEvent/cbc:OccurrenceDate) = 0 or (../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00132-0105</assert>
 		<assert id="BR-BT-01251-0103" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1251-Lot" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID)">rule|text|BR-BT-01251-0103</assert>
-		<assert id="BR-BT-01311-0022" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_d_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndDate) &gt; 0 or not((../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-mult' and (not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate))) or (../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' and (not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate))))">rule|text|BR-BT-01311-0022</assert>
+		<assert id="BR-BT-01311-0022" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_d_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndDate) &gt; 0 or not((../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-mult'))">rule|text|BR-BT-01311-0022</assert>
 		<assert id="BR-BT-01311-0074" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_t_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndTime) &gt; 0 or not(cac:ParticipationRequestReceptionPeriod/cbc:EndDate)">rule|text|BR-BT-01311-0074</assert>
 		<assert id="BR-BT-01311-0105" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_d_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndDate) = 0 or not(cac:TenderSubmissionDeadlinePeriod/cbc:EndDate)">rule|text|BR-BT-01311-0105</assert>
 		<assert id="BR-BT-01311-0115" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1311_t_-Lot" test="count(cac:ParticipationRequestReceptionPeriod/cbc:EndTime) = 0 or (cac:ParticipationRequestReceptionPeriod/cbc:EndDate)">rule|text|BR-BT-01311-0115</assert>
@@ -124,11 +132,13 @@
 		<assert id="BR-BT-00076-0022" role="ERROR" diagnostics="ND-LotTenderingTerms_BT-76-Lot" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) = 0 or (cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text()) = 'true')">rule|text|BR-BT-00076-0022</assert>
 		<assert id="BR-BT-00076-0065" role="ERROR" diagnostics="ND-LotTenderingTerms_BT-76-Lot" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalForm) &gt; 0 or not(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode/normalize-space(text()) = 'true')">rule|text|BR-BT-00076-0065</assert>
 		<assert id="BR-BT-00078-0022" role="ERROR" diagnostics="BT-78-Lot" test="count(cbc:LatestSecurityClearanceDate) = 0 or (cac:SecurityClearanceTerm/cbc:Code/normalize-space(text()) = 'true')">rule|text|BR-BT-00078-0022</assert>
+		<assert id="BR-BT-00095-0022" role="ERROR" diagnostics="BT-95-Lot" test="count(cbc:RecurringProcurementDescription) = 0 or (cbc:RecurringProcurementIndicator = true())">rule|text|BR-BT-00095-0022</assert>
 		<assert id="BR-BT-00098-0022" role="ERROR" diagnostics="BT-98-Lot" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) &gt; 0 or not(../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00098-0022</assert>
 		<assert id="BR-BT-00098-0052" role="ERROR" diagnostics="BT-98-Lot" test="count(cac:TenderValidityPeriod/cbc:DurationMeasure) = 0 or (../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00098-0052</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms[$noticeSubType = '16']">
 		<assert id="BR-BT-00099-0022" role="ERROR" diagnostics="ND-LotReviewTerms_BT-99-Lot" test="count(cac:PresentationPeriod/cbc:Description) &gt; 0 or not(not(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID))">rule|text|BR-BT-00099-0022</assert>
+		<assert id="BR-OPT-00301-1130" role="ERROR" diagnostics="OPT-301-Lot-ReviewInfo" test="count(cac:AppealInformationParty/cac:PartyIdentification/cbc:ID) &gt; 0 or not(cac:PresentationPeriod/cbc:Description)">rule|text|BR-OPT-00301-1130</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '16']">
 		<assert id="BR-BT-00120-0022" role="ERROR" diagnostics="BT-120-Lot" test="count(cbc:NoFurtherNegotiationIndicator) &gt; 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-w-call')">rule|text|BR-BT-00120-0022</assert>
@@ -178,8 +188,26 @@
 		<assert id="BR-BT-00732-0022" role="ERROR" diagnostics="BT-732-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:Code/normalize-space(text()) = 'true')">rule|text|BR-BT-00732-0022</assert>
 		<assert id="BR-BT-00732-0060" role="ERROR" diagnostics="BT-732-Lot" test="count(cbc:Description) = 0 or (cbc:Code/normalize-space(text()) = 'true')">rule|text|BR-BT-00732-0060</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='missing-info-submission'][$noticeSubType = '16']">
+		<assert id="BR-BT-00772-0022" role="ERROR" diagnostics="BT-772-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:TendererRequirementTypeCode/normalize-space(text()) = 'late-some')">rule|text|BR-BT-00772-0022</assert>
+		<assert id="BR-BT-00772-0060" role="ERROR" diagnostics="BT-772-Lot" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode/normalize-space(text()) = ('late-all','late-some'))">rule|text|BR-BT-00772-0060</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding[$noticeSubType = '16']">
 		<assert id="BR-BT-06140-0022" role="ERROR" diagnostics="BT-6140-Lot" test="count(cbc:Description) = 0 or not(not(cbc:FundingProgramCode) and not(efbc:FinancingIdentifier))">rule|text|BR-BT-06140-0022</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '16']">
+		<assert id="BR-BT-00040-0022" role="ERROR" diagnostics="BT-40-Lot" test="count(efbc:SecondStageIndicator) &gt; 0 or (not(../../../../../../cac:TenderingProcess/cbc:CandidateReductionConstraintIndicator = true()) or not(../../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('comp-dial','innovation','neg-w-call','oth-mult','restricted')))">rule|text|BR-BT-00040-0022</assert>
+		<assert id="BR-BT-00040-0052" role="ERROR" diagnostics="BT-40-Lot" test="count(efbc:SecondStageIndicator) = 0 or not(not(../../../../../../cac:TenderingProcess/cbc:CandidateReductionConstraintIndicator = true()) or not(../../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = ('comp-dial','innovation','neg-w-call','oth-mult','restricted')))">rule|text|BR-BT-00040-0052</assert>
+		<assert id="BR-BT-00752-0022" role="ERROR" diagnostics="ND-SelectionCriteria_BT-752-Lot-WeightNumber" test="count(efac:CriterionParameter[efbc:ParameterCode/@listName='number-weight']/efbc:ParameterNumeric) = 0 or (efbc:SecondStageIndicator = true())">rule|text|BR-BT-00752-0022</assert>
+		<assert id="BR-BT-00752-0072" role="ERROR" diagnostics="ND-SelectionCriteria_BT-752-Lot-ThresholdNumber" test="count(efac:CriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efbc:ParameterNumeric) = 0 or (efbc:SecondStageIndicator = true())">rule|text|BR-BT-00752-0072</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter[efbc:ParameterCode/@listName='number-threshold'][$noticeSubType = '16']">
+		<assert id="BR-BT-07532-0022" role="ERROR" diagnostics="BT-7532-Lot" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-07532-0022</assert>
+		<assert id="BR-BT-07532-0074" role="ERROR" diagnostics="BT-7532-Lot" test="count(efbc:ParameterCode) &gt; 0 or not(efbc:ParameterNumeric)">rule|text|BR-BT-07532-0074</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter[efbc:ParameterCode/@listName='number-weight'][$noticeSubType = '16']">
+		<assert id="BR-BT-07531-0022" role="ERROR" diagnostics="BT-7531-Lot" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-07531-0022</assert>
+		<assert id="BR-BT-07531-0074" role="ERROR" diagnostics="BT-7531-Lot" test="count(efbc:ParameterCode) &gt; 0 or not(efbc:ParameterNumeric)">rule|text|BR-BT-07531-0074</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '16']">
 		<assert id="BR-BT-00735-0022" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0022</assert>
@@ -189,7 +217,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject[$noticeSubType = '16']">
 		<assert id="BR-BT-00021-0271" role="ERROR" diagnostics="BT-21-LotsGroup" test="count(cbc:Name) = 0 or (../cbc:ID)">rule|text|BR-BT-00021-0271</assert>
-		<assert id="BR-BT-00022-0124" role="ERROR" diagnostics="BT-22-LotsGroup" test="count(cbc:ID) &gt; 0 or not(../cbc:ID)">rule|text|BR-BT-00022-0124</assert>
 		<assert id="BR-BT-00022-0213" role="ERROR" diagnostics="BT-22-LotsGroup" test="count(cbc:ID) = 0 or (../cbc:ID)">rule|text|BR-BT-00022-0213</assert>
 		<assert id="BR-BT-00024-0271" role="ERROR" diagnostics="BT-24-LotsGroup" test="count(cbc:Description) = 0 or (../cbc:ID)">rule|text|BR-BT-00024-0271</assert>
 		<assert id="BR-BT-00271-0124" role="ERROR" diagnostics="ND-LotsGroupProcurementScope_BT-271-LotsGroup" test="count(cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount) = 0 or (../cbc:ID/normalize-space(text()) = ../../cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cbc:LotsGroupID[../cac:ProcurementProjectLotReference/cbc:ID[@schemeName='Lot']/normalize-space(text()) = ../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc')]/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00271-0124</assert>
@@ -218,11 +245,20 @@
 		<assert id="BR-BT-05421-0022" role="ERROR" diagnostics="BT-5421-LotsGroup" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05421-0022</assert>
 		<assert id="BR-BT-05421-0126" role="ERROR" diagnostics="BT-5421-LotsGroup" test="count(efbc:ParameterCode) &gt; 0 or not(efbc:ParameterNumeric)">rule|text|BR-BT-05421-0126</assert>
 	</rule>
+	<rule context="/*/cac:TenderingProcess[$noticeSubType = '16']">
+		<assert id="BR-BT-00763-0022" role="ERROR" diagnostics="BT-763-Procedure" test="count(cbc:PartPresentationCode) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00763-0022</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure'][$noticeSubType = '16']">
 		<assert id="BR-BT-00106-0022" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call'))">rule|text|BR-BT-00106-0022</assert>
 		<assert id="BR-BT-00106-0053" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call'))">rule|text|BR-BT-00106-0053</assert>
 		<assert id="BR-BT-01351-0022" role="ERROR" diagnostics="BT-1351-Procedure" test="count(cbc:ProcessReason) &gt; 0 or not(cbc:ProcessReasonCode/normalize-space(text()) = 'true')">rule|text|BR-BT-01351-0022</assert>
 		<assert id="BR-BT-01351-0054" role="ERROR" diagnostics="BT-1351-Procedure" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode/normalize-space(text()) = 'true')">rule|text|BR-BT-01351-0054</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = '16']">
+		<assert id="BR-BT-00031-0022" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00031-0022</assert>
+		<assert id="BR-BT-00031-0073" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(not(../../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All') and count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) > 1)">rule|text|BR-BT-00031-0073</assert>
+		<assert id="BR-BT-00033-0022" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) &gt; 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00033-0022</assert>
+		<assert id="BR-BT-00033-0053" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00033-0053</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '16']">
 		<assert id="BR-BT-00009-0073" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-00009-0073</assert>
