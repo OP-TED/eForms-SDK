@@ -237,7 +237,7 @@
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
-				<cbc:ID>Whatever identifier </cbc:ID>
+				<cbc:ID>Whatever identifier</cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
 				<cac:Attachment>
 					<cac:ExternalReference>
@@ -411,7 +411,7 @@
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
-				<cbc:ID>Whatever identifier </cbc:ID>
+				<cbc:ID>Whatever identifier</cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
 				<cac:Attachment>
 					<cac:ExternalReference>

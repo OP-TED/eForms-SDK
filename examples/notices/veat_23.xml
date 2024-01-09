@@ -117,7 +117,7 @@
 									<cbc:StreetName>Bahnhofstraße 54</cbc:StreetName>
 									<cbc:CityName>Neckargemünd</cbc:CityName>
 									<cbc:PostalZone>69151</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">DE128 </cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">DE128</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
 									</cac:Country>
@@ -183,7 +183,7 @@
 		<cbc:Description languageID="DEU">Abschluss eines Wasser-Konzessionsvertrags sowie einer Löschwasservereinbarung</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cac:MainCommodityClassification>
-			<cbc:ItemClassificationCode listName="cpv">65110000 </cbc:ItemClassificationCode>
+			<cbc:ItemClassificationCode listName="cpv">65110000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
