@@ -630,6 +630,7 @@
                        test="normalize-space(.) = ('cpv')">
       <svrl:text>rule|text|BR-BT-00026-0609</svrl:text>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:ID"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID"/>
    <svrl:failed-assert id="BR-BT-00137-0155"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cbc:ID"

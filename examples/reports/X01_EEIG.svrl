@@ -50,6 +50,7 @@
    <svrl:active-pattern id="EFORMS-validation-stage-3b"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:DocumentDescription"/>
+   <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:ID"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:IssueDate"/>
    <svrl:fired-rule context="/*/cac:AdditionalDocumentReference/cbc:ReferencedDocumentInternalAddress"/>
    <svrl:fired-rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress/cac:Country/cbc:IdentificationCode"/>
