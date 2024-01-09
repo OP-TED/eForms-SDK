@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.0",
-    "createdOn" : "2023-11-15T14:00:00"
+    "version" : "1.10.120",
+    "createdOn" : "2024-01-09T15:01:55"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -269,12 +269,6 @@
     "filename" : "contract-nature_eforms-contract-nature.gc",
     "description" : "List of eforms allowed codes to specify the main and additional natures of a purchase",
     "_label" : "codelist|name|eforms-contract-nature"
-  }, {
-    "id" : "eforms-country",
-    "parentId" : "country",
-    "filename" : "country_eforms-country.gc",
-    "description" : "List of country codes allowed in eforms",
-    "_label" : "codelist|name|eforms-country"
   }, {
     "id" : "eforms-currency",
     "parentId" : "currency",
