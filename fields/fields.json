@@ -30020,16 +30020,6 @@
         "severity" : "ERROR"
       } ]
     },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "T02" ],
-        "condition" : "{ND-Organization} ${(OPT-200-Organization-Company in OPT-300-Tenderer[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]]) or (OPT-200-Organization-Company in OPT-301-Tenderer-SubCont[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]])}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
     "codeList" : {
       "value" : {
         "id" : "indicator",
