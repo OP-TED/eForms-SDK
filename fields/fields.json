@@ -3362,7 +3362,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00131-0150"
       }, {
-        "condition" : "{ND-LotTenderingProcess} ${(BT-131(d)-Lot is present) and (BT-05(a)-notice is present)}",
+        "condition" : "{ND-LotTenderingProcess} ${(BT-131(d)-Lot is present) and (BT-05(a)-notice is present) and not(BT-758-notice is present)}",
         "value" : "{ND-LotTenderingProcess} ${BT-131(d)-Lot > BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00131-0151"
