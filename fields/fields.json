@@ -3043,7 +3043,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "condition" : "{ND-NoticeResult} ${BT-1118-NoticeResult is present}",
-        "value" : "{ND-NoticeResult} ${(not(BT-1561-NoticeResult is present) and ((every text:$faEstCurr in (BT-660-LotResult/@currencyID) satisfies $faEstCurr == BT-1118-NoticeResult/@currencyID) and (BT-1118-NoticeResult == sum(BT-660-LotResult)))) or (BT-1561-NoticeResult is present) or not(every text:$faEst in (BT-660-LotResult/@currencyID) satisfies $faEst == BT-1118-NoticeResult/@currencyID)}",
+        "value" : "{ND-NoticeResult} ${(not(BT-1561-NoticeResult is present) and (every text:$faEstCurr in (BT-660-LotResult/@currencyID) satisfies $faEstCurr == BT-1118-NoticeResult/@currencyID) and (((BT-1118-NoticeResult >= sum(BT-660-LotResult)) and ((BT-1118-NoticeResult - sum(BT-660-LotResult)) <= (1.00 * count(BT-660-LotResult)))) or ((BT-1118-NoticeResult <= sum(BT-660-LotResult)) and ((sum(BT-660-LotResult) - BT-1118-NoticeResult) <= (1.00 * count(BT-660-LotResult)))))) or (BT-1561-NoticeResult is present) or not(every text:$faEst in (BT-660-LotResult/@currencyID) satisfies $faEst == BT-1118-NoticeResult/@currencyID)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01118-0100"
       } ]
@@ -26462,11 +26462,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotAwardCriteria} ${sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa']) == 100 or not(BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa'] is present)}",
+        "value" : "{ND-LotAwardCriteria} ${((((100 >= sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa']))) and ((100 - sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa'])) <= (1.00 * count(BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa'])))) or (((100 <= sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa']))) and ((sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa']) - 100) <= (1.00 * count(BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa']))))) or not(BT-541-Lot-WeightNumber[BT-5421-Lot == 'per-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0200"
       }, {
-        "value" : "{ND-LotAwardCriteria} ${sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa']) == 1 or not(BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa'] is present)}",
+        "value" : "{ND-LotAwardCriteria} ${((((1.00 >= sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa']))) and ((1.00 - sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa'])) <= (0.01 * count(BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa'])))) or (((1.00 <= sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa']))) and ((sum(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa']) - 1.00) <= (0.01 * count(number:BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa']))))) or not(BT-541-Lot-WeightNumber[BT-5421-Lot == 'dec-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0201"
       } ]
@@ -26544,11 +26544,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotsGroupAwardCriteria} ${sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa']) == 100 or not(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa'] is present)}",
+        "value" : "{ND-LotsGroupAwardCriteria} ${((((100 >= sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa']))) and ((100 - sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa'])) <= (1.00 * count(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa'])))) or (((100 <= sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa']))) and ((sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa']) - 100) <= (1.00 * count(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa']))))) or not(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'per-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0202"
       }, {
-        "value" : "{ND-LotsGroupAwardCriteria} ${sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa']) == 1 or not(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa'] is present)}",
+        "value" : "{ND-LotsGroupAwardCriteria} ${((((1.00 >= sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa']))) and ((1.00 - sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa'])) <= (0.01 * count(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa'])))) or (((1.00 <= sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa']))) and ((sum(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa']) - 1.00) <= (0.01 * count(number:BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa']))))) or not(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'dec-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0203"
       } ]
@@ -30905,11 +30905,11 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-NonUBLTenderingTerms} ${sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa']) == 100 or not(BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa'] is present)}",
+        "value" : "{ND-NonUBLTenderingTerms} ${((((100 >= sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa']))) and ((100 - sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa'])) <= (1.00 * count(BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa'])))) or (((100 <= sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa']))) and ((sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa']) - 100) <= (1.00 * count(BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa']))))) or not(BT-752-Lot-WeightNumber[BT-7531-Lot == 'per-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00747-0100"
       }, {
-        "value" : "{ND-NonUBLTenderingTerms} ${sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']) == 1 or not(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa'] is present)}",
+        "value" : "{ND-NonUBLTenderingTerms} ${((((1.00 >= sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']))) and ((1.00 - sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa'])) <= (0.01 * count(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa'])))) or (((1.00 <= sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']))) and ((sum(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']) - 1.00) <= (0.01 * count(number:BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa']))))) or not(BT-752-Lot-WeightNumber[BT-7531-Lot == 'dec-exa'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00747-0101"
       } ]
