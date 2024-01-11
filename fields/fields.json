@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.120",
-    "createdOn" : "2024-01-09T15:01:55"
+    "version" : "1.10.122",
+    "createdOn" : "2024-01-11T13:54:02"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -2402,7 +2402,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice in ('cancel','cancel-intent'))) or not((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
+        "value" : "{ND-Root} ${((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice == 'cancel')) or not((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00005-0151"
       } ]
@@ -3948,7 +3948,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00131-0150"
       }, {
-        "condition" : "{ND-LotTenderingProcess} ${(BT-131(d)-Lot is present) and (BT-05(a)-notice is present)}",
+        "condition" : "{ND-LotTenderingProcess} ${(BT-131(d)-Lot is present) and (BT-05(a)-notice is present) and not(BT-758-notice is present)}",
         "value" : "{ND-LotTenderingProcess} ${BT-131(d)-Lot > BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00131-0151"
