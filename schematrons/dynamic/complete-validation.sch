@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--File generated from metadata database-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
+
+	<title>eForms schematron rules</title>
+	
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
 	<ns prefix="sch" uri="http://purl.oclc.org/dsdl/schematron" />
 	<ns prefix="cbc" uri='urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2' />
@@ -14,13 +17,13 @@
 	<ns prefix="pin" uri="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2" />
 	<ns prefix="fn" uri="http://www.w3.org/2005/xpath-functions" />
 	
-	<title>eForms schematron rules</title>
-	
 	<let name="noticeSubType" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text()"/>
 
 	<!-- True if the current notice is a change notice. -->
 	<let name="isChangeNotice" value="boolean(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efbc:ChangedNoticeIdentifier)"/>
 
+	<include href="config.sch"/>
+	
 	<phase id="eforms-1">
 		<active pattern="EFORMS-validation-stage-1a" />
 		<active pattern="EFORMS-validation-stage-1b-1" />
@@ -589,7 +592,6 @@
 		<active pattern="EFORMS-validation-stage-6b" />
 	</phase>
 
-	<include href="config.sch"/>
 	<include href="validation-stage-1a.sch"/>
 	<include href="validation-stage-1b-1.sch"/>
 	<include href="validation-stage-1b-10.sch"/>
