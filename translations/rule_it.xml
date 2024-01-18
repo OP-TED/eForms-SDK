@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice è obbligatorio nel tipo di avviso '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice deve contenere un valore dell'elenco di codici notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Se 'Base giuridica' (BT-01) è 'Direttiva 2014/24/UE', allora 'Tipo di avviso' (BT-02) deve essere 'Avviso di preinformazione o avviso periodico indicativo utilizzato come avviso di indizione di gara – regime alleggerito' o 'Bando di gara o di concessione – regime ordinario' o 'Avviso volontario per la trasparenza ex ante' o 'Avviso di aggiudicazione di un appalto o di una concessione – regime ordinario' o 'Avviso di aggiudicazione di un appalto o di una concessione – regime alleggerito'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Se 'Base giuridica' (BT-01) è 'Direttiva 2014/24/UE', allora 'Natura aggiuntiva dell'appalto' (BT-531) deve essere diverso da 'Forniture'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Se 'Base giuridica' (BT-01) è 'Direttiva 2014/23/UE', allora 'Natura aggiuntiva dell'appalto' (BT-531) deve essere diverso da 'Forniture'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Se 'Base giuridica' (BT-01) è 'Direttiva 2014/24/UE', allora 'Natura aggiuntiva dell'appalto' (BT-531) deve essere diverso da 'Avviso di subappalto'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Se 'Tipo di formulario' (BT-03) è 'Informazioni sulla registrazione delle imprese', allora 'Tipo di avviso' (BT-02) deve essere 'Avviso società europea/società cooperativa europea' o 'Avviso gruppo europeo di interesse economico'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Se 'Tipo di formulario' (BT-03) è 'Gara', allora 'Tipo di avviso' (BT-02) deve essere 'Avviso di preinformazione o avviso periodico indicativo utilizzato come avviso di indizione di gara – regime alleggerito', 'Avviso di preinformazione o avviso periodico indicativo utilizzato come avviso di indizione di gara – regime ordinario', 'Avviso sull'esistenza di un sistema di qualificazione', 'Bando di gara – regime alleggerito', 'Bando di gara o di concessione – regime ordinario', 'Avviso di subappalto' o 'Avviso o bando di concorso di progettazione'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO non è consentito nel tipo di avviso '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO deve corrispondere al seguente schema: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">Il valore di 'ID — Proprietario beneficiario' (OPT-202-UBO) deve essere un valore unico</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Qualsiasi 'ID — Proprietario beneficiario' (OPT-202-UBO) esistente deve essere associato ad almeno un 'Riferimento del titolare effettivo'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Qualsiasi 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) esistente deve essere associato ad almeno un 'Organizzazione che svolge questo ruolo'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer non è consentito nel tipo di avviso 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer non è consentito nel tipo di avviso 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer non è consentito nel tipo di avviso '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer deve corrispondere al seguente schema: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">Il valore di 'ID — Gara d'appalto' (OPT-210-Tenderer) deve essere un valore unico</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Per ciascun 'ID — Gara d'appalto' (OPT-210), se vi è più di un offerente (OPT-300-Tenderer), deve esserci esattamente un 'Capofila' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Qualsiasi 'ID — Gara d'appalto' (OPT-210-Tenderer) esistente deve essere associato ad almeno un 'Riferimento del titolare effettivo'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Qualsiasi 'ID tecnico della parte offerente (TPA-XXX)' (OPT-210-Tenderer) esistente deve essere associato ad almeno un 'Organizzazione che svolge questo ruolo'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory non è consentito nel tipo di avviso 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory non è consentito nel tipo di avviso 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory non è consentito nel tipo di avviso '1'</entry>

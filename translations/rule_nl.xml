@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice is verplicht in type aankondiging '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice moet een waarde uit de codelijst notice-type bevatten</entry>
 <entry key="rule|text|BR-BT-00002-0100">Als 'Rechtsgrondslag' (BT-01) 'Richtlijn 2014/24/EU' is, dan moet 'Type aankondiging' (BT-02) 'Vooraankondiging of periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – lichte regeling' of 'Aankondiging van een opdracht of concessie – standaardregeling' of 'Aankondiging in geval van vrijwillige transparantie vooraf' of 'Aankondiging van een gegunde opdracht of concessie – standaardregeling' of 'Aankondiging van een gegunde opdracht of concessie – lichte regeling' zijn</entry>
-<entry key="rule|text|BR-BT-00002-0101">Als 'Rechtsgrondslag' (BT-01) 'Richtlijn 2014/24/EU' is, dan moet 'Aanvullende aard van het contract' (BT-531) anders zijn dan 'Leveringen'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Als 'Rechtsgrondslag' (BT-01) 'Richtlijn 2014/23/EU' is, dan moet 'Aanvullende aard van het contract' (BT-531) anders zijn dan 'Leveringen'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Als 'Rechtsgrondslag' (BT-01) 'Richtlijn 2014/24/EU' is, dan moet 'Aanvullende aard van het contract' (BT-531) anders zijn dan 'Aankondiging van een opdracht in onderaanneming'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Als 'Type formulier' (BT-03) 'Informatie over bedrijfsregistratie' is, dan moet 'Type aankondiging' (BT-02) 'Aankondiging inzake een Europese vennootschap / Europese coöperatieve vennootschap' of 'Aankondiging inzake een Europees economisch samenwerkingsverband' zijn</entry>
 <entry key="rule|text|BR-BT-00002-0105">Als 'Type formulier' (BT-03) 'Mededinging' is, dan moet 'Type aankondiging' (BT-02) 'Vooraankondiging of periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – lichte regeling', 'Vooraankondiging of periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – standaardregeling', 'Aankondiging inzake het bestaan van een erkenningsregeling', 'Aankondiging van een opdracht – lichte regeling', 'Aankondiging van een opdracht of concessie – standaardregeling', 'Aankondiging van een opdracht in onderaanneming' of 'Aankondiging van een prijsvraag voor ontwerpen' zijn</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO is niet toegestaan in het type aankondiging '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO moet overeenkomen met het volgende patroon: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">'ID — Begunstigde eigenaar' (OPT-202-UBO) waarde moet een unieke waarde zijn</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Alle bestaande 'ID — Begunstigde eigenaar' (OPT-202-UBO) moeten worden gekoppeld met ten minste één 'Referentie uiteindelijke begunstigde'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Alle bestaande 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) moeten worden gekoppeld met ten minste één 'Organisatie die deze rol vervult'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer is niet toegestaan in het type aankondiging 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer is niet toegestaan in het type aankondiging 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer is niet toegestaan in het type aankondiging '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer moet overeenkomen met het volgende patroon: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">'ID — Aanbestedende partij' (OPT-210-Tenderer) waarde moet een unieke waarde zijn</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Voor elke 'ID — Aanbestedende partij' (OPT-210), als er meer dan één inschrijver (OPT-300-Tenderer) is, moet er precies één 'Groepsleider'(OPT-170) zijn</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Alle bestaande 'ID — Aanbestedende partij' (OPT-210-Tenderer) moeten worden gekoppeld met ten minste één 'Referentie uiteindelijke begunstigde'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Alle bestaande 'Technische ID van de aanbestedende partij (TPA-XXX)' (OPT-210-Tenderer) moeten worden gekoppeld met ten minste één 'Organisatie die deze rol vervult'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory is niet toegestaan in het type aankondiging 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory is niet toegestaan in het type aankondiging 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory is niet toegestaan in het type aankondiging '1'</entry>

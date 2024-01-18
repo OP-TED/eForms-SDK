@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice privalomas kaip skelbimo rūšis '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice turi būti nurodyta vertė iš notice-type kodų sąrašo</entry>
 <entry key="rule|text|BR-BT-00002-0100">Jeigu 'Teisinis pagrindas' (BT-01) yra 'Direktyva 2014/24/ES', tada 'Skelbimo rūšis' (BT-02) turi būti 'Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas kaip kvietimas dalyvauti konkurse. Paprastesnis režimas' arba 'Skelbimas apie pirkimą arba koncesiją. Įprasta tvarka', arba 'Savanoriškas ex-ante skelbimas skaidrumo sumetimais', arba 'Skelbimas apie sutarties arba koncesijos skyrimą. Įprasta tvarka', arba 'Skelbimas apie sutarties arba koncesijos skyrimą. Paprastesnis režimas'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Jeigu 'Teisinis pagrindas' (BT-01) yra 'Direktyva 2014/24/ES', tada 'Kiti sutarties objektai' (BT-531) turi skirtis nuo 'Prekės'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Jeigu 'Teisinis pagrindas' (BT-01) yra 'Direktyva 2014/23/ES', tada 'Kiti sutarties objektai' (BT-531) turi skirtis nuo 'Prekės'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Jeigu 'Teisinis pagrindas' (BT-01) yra 'Direktyva 2014/24/ES', tada 'Kiti sutarties objektai' (BT-531) turi skirtis nuo 'Skelbimas apie subrangą'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Jeigu 'Formos tipas' (BT-03) yra 'Įmonės registravimo informacija', tada 'Skelbimo rūšis' (BT-02) turi būti 'Europos bendrovės / Europos kooperatinės bendrovės skelbimas' arba 'Europos ekonominių interesų grupės skelbimas'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Jeigu 'Formos tipas' (BT-03) yra 'Konkursas', tada 'Skelbimo rūšis' (BT-02) turi būti 'Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas kaip kvietimas dalyvauti konkurse. Paprastesnis režimas', 'Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas kaip kvietimas dalyvauti konkurse. Įprasta tvarka', 'Skelbimas apie kvalifikacijos vertinimo sistemą', 'Skelbimas apie pirkimą. Paprastesnis režimas', 'Skelbimas apie pirkimą arba koncesiją. Įprasta tvarka', 'Skelbimas apie subrangą' arba 'Skelbimas apie projekto konkursą'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO negali būti naudojama kaip skelbimo rūšis '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO turi atitikti šį modelį: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">'ID – tikrasis savininkas' (OPT-202-UBO) reikšmė turi būti unikali</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Visi esami 'ID – tikrasis savininkas' (OPT-202-UBO) turi būti susiję su bent viena 'Tikrojo savininko nuoroda'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Visi esami 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) turi būti susiję su bent viena 'Organizacija, užimanti šį vaidmenį'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer negali būti naudojama kaip skelbimo rūšis 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer negali būti naudojama kaip skelbimo rūšis 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer negali būti naudojama kaip skelbimo rūšis '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer turi atitikti šį modelį: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">'ID – Konkurso šalis' (OPT-210-Tenderer) reikšmė turi būti unikali</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Kiekvienam 'ID – Konkurso šalis' (OPT-210), jei yra daugiau nei vienas (OPT-300-Tenderer) konkurso dalyvis, jis turi turėti tik vieną 'Grupės vadovas' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Visi esami 'ID – Konkurso šalis' (OPT-210-Tenderer) turi būti susiję su bent viena 'Tikrojo savininko nuoroda'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Visi esami 'Pasiūlymą teikiančios šalies techninis ID (TPA-XXX)' (OPT-210-Tenderer) turi būti susiję su bent viena 'Organizacija, užimanti šį vaidmenį'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory negali būti naudojama kaip skelbimo rūšis 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory negali būti naudojama kaip skelbimo rūšis 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory negali būti naudojama kaip skelbimo rūšis '1'</entry>
