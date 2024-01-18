@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice er obligatorisk i bekendtgørelsestype '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice skal indeholde en værdi fra kodelisten notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Hvis 'Retsgrundlag' (BT-01) er 'Direktiv 2014/24/EU', så skal 'Bekendtgørelsestype' (BT-02) være 'Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt som indkaldelser af tilbud – den lempelige ordning' eller 'Udbuds- eller koncessionsbekendtgørelse – standardordningen' eller 'Bekendtgørelse med henblik på frivillig forudgående gennemsigtighed' eller 'Bekendtgørelse om indgåede kontrakter eller koncessionstildeling – standardordningen' eller 'Bekendtgørelse om indgåede kontrakter eller koncessionstildeling – den lempelige ordning'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Hvis 'Retsgrundlag' (BT-01) er 'Direktiv 2014/24/EU', så må 'Yderligere om kontraktens art' (BT-531) ikke være lig med 'Varer'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Hvis 'Retsgrundlag' (BT-01) er 'Direktiv 2014/23/EU', så må 'Yderligere om kontraktens art' (BT-531) ikke være lig med 'Varer'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Hvis 'Retsgrundlag' (BT-01) er 'Direktiv 2014/24/EU', så må 'Yderligere om kontraktens art' (BT-531) ikke være lig med 'Bekendtgørelse om underentreprise'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Hvis 'Formulartype' (BT-03) er 'Information om virksomhedsregistrering', så skal 'Bekendtgørelsestype' (BT-02) være 'Meddelelse om et europæisk selskab/et europæisk andelsselskab' eller 'Meddelelse om en europæisk økonomisk firmagruppe'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Hvis 'Formulartype' (BT-03) er 'Konkurrencevilkår', så skal 'Bekendtgørelsestype' (BT-02) være 'Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt som indkaldelser af tilbud – den lempelige ordning', 'Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt som indkaldelser af tilbud – standardordningen', 'Bekendtgørelse om anvendelse af en kvalifikationsordning', 'Udbudsbekendtgørelse – den lempelige ordning', 'Udbuds- eller koncessionsbekendtgørelse – standardordningen', 'Bekendtgørelse om underentreprise' eller 'Bekendtgørelse om projektkonkurrence'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO er ikke tilladt i bekendtgørelsestype '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO skal svare til følgende mønster: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">Værdien af 'ID — Retlig ejer' (OPT-202-UBO) skal være en enhedsværdi</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Enhver eksisterende 'ID — Retlig ejer' (OPT-202-UBO) skal være forbundet med mindst 1 'Henvisning til den reelle ejer' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Enhver eksisterende 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) skal være forbundet med mindst 1 'Organisation, der udfylder denne rolle' (OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer er ikke tilladt i bekendtgørelsestype 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer er ikke tilladt i bekendtgørelsestype 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer er ikke tilladt i bekendtgørelsestype '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer skal svare til følgende mønster: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">Værdien for 'ID — Tilbudsgiver' (OPT-210-Tenderer) skal være en enhedsværdi</entry>
 <entry key="rule|text|BR-OPT-00210-0101">For hver 'ID — Tilbudsgiver' (OPT-210), hvis der er mere end 1 tilbudsgiver (OPT-300-Tenderer), så skal der være præcis 1 'Gruppeleder' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Enhver eksisterende 'ID — Tilbudsgiver' (OPT-210-Tenderer) skal være forbundet med mindst 1 'Henvisning til den reelle ejer' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Enhver eksisterende 'Teknisk ID for udbudspart (TPA-XXX)' (OPT-210-Tenderer) skal være forbundet med mindst 1 'Organisation, der udfylder denne rolle' (OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory er ikke tilladt i bekendtgørelsestype 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory er ikke tilladt i bekendtgørelsestype 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory er ikke tilladt i bekendtgørelsestype '1'</entry>

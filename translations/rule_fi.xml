@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice on pakollinen ilmoitustyypissä '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice on sisällettävä arvo koodiluettelosta notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Jos 'Oikeusperusta' (BT-01) on 'Direktiivi 2014/24/EU', 'Ilmoituksen tyyppi' (BT-02) on oltava 'Tarjouskilpailukutsuna käytettävä ennakkoilmoitus tai ohjeellinen kausi-ilmoitus – kevennetty järjestely' tai 'Hankintailmoitus tai käyttöoikeussopimusta koskeva ilmoitus – vakiojärjestelmä' tai 'Vapaaehtoista ex ante -avoimuutta koskeva ilmoitus' tai 'Jälki-ilmoitus tai käyttöoikeussopimusta koskeva jälki-ilmoitus – vakiojärjestelmä' tai 'Hankintailmoitus tai käyttöoikeussopimusta koskeva ilmoitus – kevennetty järjestely'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Jos 'Oikeusperusta' (BT-01) on 'Direktiivi 2014/24/EU', 'Sopimuksen lisäkategoria' (BT-531) on oltava muu kuin 'Tavarat'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Jos 'Oikeusperusta' (BT-01) on 'Direktiivi 2014/23/EU', 'Sopimuksen lisäkategoria' (BT-531) on oltava muu kuin 'Tavarat'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Jos 'Oikeusperusta' (BT-01) on 'Direktiivi 2014/24/EU', 'Sopimuksen lisäkategoria' (BT-531) on oltava muu kuin 'Alihankintaa koskeva ilmoitus'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Jos 'Lomakkeen tyyppi' (BT-03) on 'Yritysrekisteritiedot', 'Ilmoituksen tyyppi' (BT-02) on oltava 'Ilmoitus eurooppayhtiöstä / eurooppaosuuskunnasta' tai 'Ilmoitus eurooppalaisesta taloudellisesta etuyhtymästä'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Jos 'Lomakkeen tyyppi' (BT-03) on 'Kilpailu', 'Ilmoituksen tyyppi' (BT-02) on oltava 'Tarjouskilpailukutsuna käytettävä ennakkoilmoitus tai ohjeellinen kausi-ilmoitus – kevennetty järjestely', 'Tarjouskilpailukutsuna käytettävä ennakkoilmoitus tai ohjeellinen kausi-ilmoitus – vakiojärjestelmä', 'Kelpuuttamisjärjestelmää koskeva ilmoitus', 'Hankintailmoitus – kevennetty järjestely', 'Hankintailmoitus tai käyttöoikeussopimusta koskeva ilmoitus – vakiojärjestelmä', 'Alihankintaa koskeva ilmoitus' tai 'Suunnittelukilpailua koskeva ilmoitus'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO ei ole sallittu ilmoitustyypissä '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO on vastattava seuraavaa mallia: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">'Henkilötunnus – tosiasiallinen omistaja ja edunsaaja' (OPT-202-UBO) arvon on oltava yksilöivä arvo</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Jokaisen olemassa olevan kohteen 'Henkilötunnus – tosiasiallinen omistaja ja edunsaaja' (OPT-202-UBO) on liityttävä vähintään yhteen kohteeseen 'Tosiasiallisen omistajan ja edunsaajan viite' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Jokaisen olemassa olevan kohteen 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) on liityttävä vähintään yhteen kohteeseen 'Tämän roolin täyttävä organisaatio' (OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer ei ole sallittu ilmoitustyypissä 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer ei ole sallittu ilmoitustyypissä 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer ei ole sallittu ilmoitustyypissä '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer on vastattava seuraavaa mallia: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">'ID – Tarjouksen tehnyt osapuoli' (OPT-210-Tenderer) arvon on oltava yksilöivä arvo</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Kullekin kohteelle 'ID – Tarjouksen tehnyt osapuoli' (OPT-210), jos tarjoajia on useampi kuin yksi (OPT-300-Tenderer), on oltava tasan yksi 'Ryhmänvetäjä' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Jokaisen olemassa olevan kohteen 'ID – Tarjouksen tehnyt osapuoli' (OPT-210-Tenderer) on liityttävä vähintään yhteen kohteeseen 'Tosiasiallisen omistajan ja edunsaajan viite' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Jokaisen olemassa olevan kohteen 'Tarjoavan osapuolen tekninen tunnus (TPA-XXX)' (OPT-210-Tenderer) on liityttävä vähintään yhteen kohteeseen 'Tämän roolin täyttävä organisaatio' (OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory ei ole sallittu ilmoitustyypissä 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory ei ole sallittu ilmoitustyypissä 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory ei ole sallittu ilmoitustyypissä '1'</entry>
