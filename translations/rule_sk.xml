@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice je povinný v type oznámenia '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice musí obsahovať hodnotu zo zoznamu kódov notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Ak 'Právny základ' (BT-01) je 'Smernica 2014/24/EÚ', potom 'Typ oznámenia' (BT-02) musí byť 'Predbežné oznámenie alebo pravidelné informatívne oznámenie použité ako výzva na súťaž – zjednodušený režim' alebo 'Oznámenie o vyhlásení verejného obstarávania alebo oznámenie o koncesii – štandardný režim' alebo 'Oznámenie pre dobrovoľnú transparentnosť ex-ante' alebo 'Oznámenie o výsledku verejného obstarávania alebo oznámenie o udelení koncesie – štandardný režim' alebo 'Oznámenie o výsledku verejného obstarávania alebo oznámenie o udelení koncesie – zjednodušený režim'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Ak 'Právny základ' (BT-01) je 'Smernica 2014/24/EÚ', potom 'Doplňujúci druh zmluvy' (BT-531) musí byť iný ako 'Dodávky'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Ak 'Právny základ' (BT-01) je 'Smernica 2014/23/EÚ', potom 'Doplňujúci druh zmluvy' (BT-531) musí byť iný ako 'Dodávky'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Ak 'Právny základ' (BT-01) je 'Smernica 2014/24/EÚ', potom 'Doplňujúci druh zmluvy' (BT-531) musí byť iný ako 'Oznámenie o zadaní subdodávok'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Ak 'Typ formulára' (BT-03) je 'Informácie o registrácii podniku', potom 'Typ oznámenia' (BT-02) musí byť 'Európska spoločnosť/európske družstvo – oznámenie' alebo 'Európske zoskupenie hospodárskych záujmov – oznámenie'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Ak 'Typ formulára' (BT-03) je 'Súťaž', potom 'Typ oznámenia' (BT-02) musí byť 'Predbežné oznámenie alebo pravidelné informatívne oznámenie použité ako výzva na súťaž – zjednodušený režim', 'Predbežné oznámenie a pravidelné informatívne oznámenie použité ako výzva na súťaž – štandardný režim', 'Oznámenie o existencii kvalifikačného systému', 'Oznámenie o vyhlásení verejného obstarávania – zjednodušený režim', 'Oznámenie o vyhlásení verejného obstarávania alebo oznámenie o koncesii – štandardný režim', 'Oznámenie o zadaní subdodávok' alebo 'Oznámenie o vyhlásení súťaže návrhov'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO nie je povolený v type oznámenia '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO musí zodpovedať tomuto vzoru: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">Hodnota 'ID – vlastník požitkov' (OPT-202-UBO) musí byť jedinečná hodnota</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Akýkoľvek existujúci 'ID – vlastník požitkov' (OPT-202-UBO) musí byť spojený aspoň s jedným 'Referenčné číslo konečného užívateľa výhod'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Akýkoľvek existujúci 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) musí byť spojený aspoň s jedným 'Organizácia, ktorá zastáva túto úlohu'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer nie je povolený v type oznámenia 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer nie je povolený v type oznámenia 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer nie je povolený v type oznámenia '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer musí zodpovedať tomuto vzoru: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">Hodnota 'ID – Uchádzač' (OPT-210-Tenderer) musí byť jedinečná hodnota</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Pre každý 'ID – Uchádzač' (OPT-210), ak existuje viac ako jeden uchádzač (OPT-300-Tenderer), potom musí byť presne jeden 'Vedúci subjekt skupiny' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Akýkoľvek existujúci 'ID – Uchádzač' (OPT-210-Tenderer) musí byť spojený aspoň s jedným 'Referenčné číslo konečného užívateľa výhod'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Akýkoľvek existujúci 'Technické ID súťažnej strany (TPA-XXX)' (OPT-210-Tenderer) musí byť spojený aspoň s jedným 'Organizácia, ktorá zastáva túto úlohu'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory nie je povolený v type oznámenia 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory nie je povolený v type oznámenia 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory nie je povolený v type oznámenia '1'</entry>
