@@ -30,6 +30,7 @@
 <entry key="codelist|name|cont-modif">List of allowed Notice Type codes for a notice of Contract Modification Form Type</entry>
 <entry key="codelist|name|contract-detail">This table provides a framework to represent data relating to procurement.</entry>
 <entry key="codelist|name|contract-nature">List of codes used to specify the main and additional natures of a purchase</entry>
+<entry key="codelist|name|contract-term">TODO</entry>
 <entry key="codelist|name|corporate-body">The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.</entry>
 <entry key="codelist|name|corr">List of allowed Notice Subtype codes for a notice of CN Design Notice Type.</entry>
 <entry key="codelist|name|country">List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.</entry>
@@ -242,6 +243,7 @@
 <entry key="codelist|name|reserved-execution">List of codes to express whether a contract execution is reserved or not.</entry>
 <entry key="codelist|name|reserved-procurement">List of codes to specify whether participation is reserved or not.</entry>
 <entry key="codelist|name|result">List of allowed Notice Type codes for a Result Form Type</entry>
+<entry key="codelist|name|revenue-allocation">Revenue allocation</entry>
 <entry key="codelist|name|review-body-type">This table covers the list of organisations providing the review of a given procedure.</entry>
 <entry key="codelist|name|review-decision-type">This table describes the decision made a review body.</entry>
 <entry key="codelist|name|review-requester-type">Category of Stakeholders that requested a review</entry>
