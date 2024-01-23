@@ -4,7 +4,7 @@
 	0 {ND-Root} #{auxiliary|text|legal-basis}: // Legal basis
 		{BT-01-notice} #{BT-01-notice} // Regulation reference
 		{OPP-100-Business} #{name|OPP-100}: #{OPP-100-Business} // This notice contains information relevant to
-	1 {BT-500-Business-European} #{auxiliary|text|grouping} ${BT-500-Business-European} // 9.1 Name of the grouping: European Group of Lobbyists
+	1 {BT-500-Business} #{name|BT-500-grouping} // 9.1 Name of the grouping: European Group of Lobbyists
 	3 {ND-Root} #{auxiliary|text|place-registration} // 9.3 Place of registration
 		{OPP-110-Business} #{name|OPP-110}: ${OPP-110-Business} // Town
 		{OPP-111-Business} #{name|OPP-111}: ${OPP-111-Business} // Post code
