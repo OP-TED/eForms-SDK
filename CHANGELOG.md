@@ -1,3 +1,16 @@
+# SDK 1.7.3 Release Notes
+
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* Remove rule BR-BT-00743-0100 that required "Electronic invoicing" (BT-743-Lot) to be set to "required".
+* Remove ineffective rules for change notices to improve performance when validating notices with a large number of lots.
+
+This release also includes updated translations and updated notice visualisation templates.
+
+A comprehensive list of changes between SDK 1.7.2 and SDK 1.7.3 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.7.2...1.7.3>
+
+You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?base=1.7.2&version=1.7.3>
+
 # SDK 1.7.2 Release Notes
 
 This release brings the following corrections in the validation rules, making them more permissive:
