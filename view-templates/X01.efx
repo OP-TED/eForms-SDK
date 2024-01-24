@@ -13,10 +13,14 @@
 		{OPP-113-Business-European} #{name|OPP-113}: ${OPP-113-Business-European} // Date of registration
 	4 {ND-Root} #{auxiliary|text|publication-gazette} // 9.4 Publication in the official gazette
 		{OPP-120-Business} #{name|OPP-120}: ${OPP-120-Business} // Name of publication
-		{OPP-121-Business} #{name|OPP-121}: ${OPP-121-Business} // Title of the announcement: A company is born
+		{OPP-121-Business} #{name|OPP-121}: ${OPP-121-Business} // Title of the announcement
 		{OPP-122-Business} #{name|OPP-122}: ${OPP-122-Business} // URL of the announcement
 		{OPP-123-Business} #{name|OPP-123}: ${OPP-123-Business} // Date of publication of the announcement
-	5 {OPP-130-Business} #{name|OPP-130}: ${OPP-130-Business} // 9.5 Additional information
+	5 {ND-Root[OPP-130-Business is present]} #{name|OPP-130}: ${OPP-130-Business} // 9.5 Additional information
+10 {ND-Root[BT-758-notice is present]} #{auxiliary|text|change} // 10. Change
+	{BT-758-notice} #{field|name|BT-758-notice}: ${BT-758-notice} // Change Notice Version Identifier
+	{BT-140-notice} #{field|name|BT-140-notice}: #{BT-140-notice} // Change Reason Code
+	{BT-762-notice} #{field|name|BT-762-notice}: ${BT-762-notice} // Change Reason Description
 11 {ND-Root} #{auxiliary|text|notice-information} // 11. Notice information
 	1 {ND-Root} #{auxiliary|text|notice-information} // 11.1 Notice information
 		{BT-701-notice} #{field|name|BT-701-notice}: ${BT-701-notice} - ${BT-757-notice} // Notice identifier / version
@@ -25,6 +29,7 @@
 		{OPP-070-notice} #{field|name|OPP-070-notice}: ${OPP-070-notice} // Notice subtype
 		{OPP-131-Business} #{name|OPP-131}: ${OPP-131-Business} // Sender's email address
 		{BT-05(a)-notice} #{field|name|BT-05(a)-notice}: ${BT-05(a)-notice} ${BT-05(b)-notice} // Notice dispatch date and time
+		{BT-803(d)-notice} #{field|name|BT-803(d)-notice}: ${BT-803(d)-notice} ${BT-803(t)-notice} // Notice dispatch date (eSender)
 		{BT-702(a)-notice} #{field|name|BT-702(a)-notice}: #{BT-702(a)-notice} #{BT-702(b)-notice} // Languages in which this notice is officially available
 	2 {ND-Root} #{auxiliary|text|publication-information} // 11.2 Publication information
 		{OPP-010-notice} #{field|name|OPP-010-notice}: ${OPP-010-notice} // Notice publication number
