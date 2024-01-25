@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">A rész ismertetése</entry>
 <entry key="group|name|GR-Lot-DocProvider">Dokumentumokat szolgáltató szervezet</entry>
 <entry key="group|name|GR-Lot-EUFunds">Uniós finanszírozás igénybevétele</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">EU-finanszírozás használata</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Már kiválasztott résztvevők</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Elektronikus katalógus</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Elektronikus aláírás</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Eljárás ismertetése (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Eljárás ismertetése (később közzétéve)</entry>
 <entry key="group|name|GR-Winner">Nyertes</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Gyorsított eljárás</entry>
 <entry key="group|name|ND-AccessibilityJustification">Az akadálymentesítési kritériumok hiányának indoklása</entry>
+<entry key="group|name|ND-Asset">Szerződéshosszabbítást indokló eszközök</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Bírósági tag</entry>
 <entry key="group|name|ND-BusinessCapability">Üzleti tevékenység</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Felülvizsgálati kérelem</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Vevő</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Származási ország (később közzétéve)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Határokon átívelő jog</entry>
+<entry key="group|name|ND-DirectAward">Közvetlen odaítélés</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">A közvetlen odaítélés indoklásának kódja (később közzétéve)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">A közvetlen odaítélést indokló korábbi eljárás azonosítója (később közzétéve)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Közvetlen odaítélés indoklása (később közzétéve)</entry>
+<entry key="group|name|ND-EuEntity">EU-regisztrációs szám</entry>
 <entry key="group|name|ND-ExclusionGrounds">Kizáró okok</entry>
 <entry key="group|name|ND-ExecutionRequirements">Teljesítési feltételek</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Szerződéshosszabbítás</entry>
 <entry key="group|name|ND-FinancingParty">Pénzügyi szervezet</entry>
 <entry key="group|name|ND-Funding">EU alapok</entry>
+<entry key="group|name|ND-GazetteReference">Hivatkozás a közzétételre</entry>
 <entry key="group|name|ND-GroupComposition">A részek csoportjának összetétele</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Csoportba tartozó tétel</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Csoport maximális értékének azonosítója (később közzétéve)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Beszerzési dokumentumok nem hivatalos nyelven</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Beszerzési dokumentumok hivatalos nyelven</entry>
 <entry key="group|name|ND-LotECatalog">eKatalógus</entry>
+<entry key="group|name|ND-LotEInvoicing">eSzámlázás</entry>
 <entry key="group|name|ND-LotESignature">eAláírás</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">A beszerzés környezeti hatása</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Keretmegállapodás</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Beérkezett beadványok száma (később közzétéve)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Beérkezett beadvány típusa (később közzétéve)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Beérkezett beadványok – statisztikák</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Újrabecsült érték (később közzétéve)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Felülvizsgálati kérelmek – statisztikák</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Felülvizsgálati kérelemben jelzett szabálytalanságok száma (később közzétéve)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Felülvizsgálati kérelemben jelzett szabálytalanságok típusa (később közzétéve)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Alvállalkozásba adott szerződésrész értéke ismert (később közzétéve)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Alvállalkozásba adott szerződésrész értéke (később közzétéve)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Ajánlat helyezése (később közzétéve)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">A legmagasabb ajánlat értéke (később közzétéve)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">A legalacsonyabb ajánlat értéke (később közzétéve)</entry>
 <entry key="group|name|ND-Tenderer">Ajánlattevő felek</entry>
 <entry key="group|name|ND-TenderingParty">Ajánlattevő fél</entry>
 <entry key="group|name|ND-Touchpoint">Kijelölt kapcsolattartó pontok</entry>

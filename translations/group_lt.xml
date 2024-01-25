@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Pirkimo dalies aprašymas</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organizacija, teikianti dokumentus</entry>
 <entry key="group|name|GR-Lot-EUFunds">ES fondų naudojimas</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">ES finansavimo naudojimas</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Jau atrinkti dalyviai</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Elektroninis katalogas</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Elektroninis parašas</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Procedūros aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Procedūros aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Winner">Laimėtojas</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Pagreitinta procedūra</entry>
 <entry key="group|name|ND-AccessibilityJustification">Prieinamumo kriterijų nebuvimo pagrindimas</entry>
+<entry key="group|name|ND-Asset">Turtas, pateisinantis sutarties pratęsimą</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Teisės narys</entry>
 <entry key="group|name|ND-BusinessCapability">Verslo veikla</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Peržiūros prašymai</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Pirkėjas</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Kilmės šalis (paskelbta vėliau)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Tarpvalstybiniu atveju taikytina teisė</entry>
+<entry key="group|name|ND-DirectAward">Tiesioginis sutarties skyrimas</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Tiesioginis skyrimas: pagrindimas: kodas (skelbiama vėliau)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Ankstesnės procedūros, kuria grindžiamas tiesioginis skyrimas, ID (skelbiama vėliau)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Tiesioginio skyrimo pagrindimas (skelbiama vėliau)</entry>
+<entry key="group|name|ND-EuEntity">ES registracijos numeris</entry>
 <entry key="group|name|ND-ExclusionGrounds">Pašalinimo pagrindai</entry>
 <entry key="group|name|ND-ExecutionRequirements">Vykdymo sąlygos</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Sutarties pratęsimas</entry>
 <entry key="group|name|ND-FinancingParty">Finansavimo organizacija</entry>
 <entry key="group|name|ND-Funding">ES fondai</entry>
+<entry key="group|name|ND-GazetteReference">Nuoroda į publikaciją</entry>
 <entry key="group|name|ND-GroupComposition">Pirkimo dalių grupės sudėtis</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Grupės priklausančio dalis</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Pirkimo dalių grupės didžiausiosios vertės identifikatorius (skelbiama vėliau)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Pirkimo dokumentai neoficialia kalba</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Pirkimo dokumentai oficialia kalba</entry>
 <entry key="group|name|ND-LotECatalog">eKatalogas</entry>
+<entry key="group|name|ND-LotEInvoicing">eSąskaitų išrašymas</entry>
 <entry key="group|name|ND-LotESignature">eParašas</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Pirkimo ekologinis poveikis</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Rėmų susitarimas</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Pateikimas: gautas skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Pateikimas: rūšys (skelbiama vėliau)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Pateikimas: statistika</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Pakartotinai įvertinta vertė (paskelbta vėliau)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Peržiūros prašymų statistika</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Peržiūros prašyme nurodytų pažeidimų skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Peržiūros prašyme nurodytų pažeidimų rūšis (skelbiama vėliau)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Subrangos vertė žinoma (skelbiama vėliau)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Subranga: vertė (skelbiama vėliau)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Pasiūlymo vieta vertinimo skalėje (skelbiama vėliau)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Aukščiausio pasiūlymo vertė (paskelbta vėliau)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Žemiausio pasiūlymo vertė (paskelbta vėliau)</entry>
 <entry key="group|name|ND-Tenderer">Pirkimų procedūros dalyviai</entry>
 <entry key="group|name|ND-TenderingParty">Pirkimų procedūros dalyvis</entry>
 <entry key="group|name|ND-Touchpoint">Konkretūs ryšių centrai</entry>

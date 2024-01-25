@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Osa kirjeldus</entry>
 <entry key="group|name|GR-Lot-DocProvider">Dokumente esitav organisatsioon</entry>
 <entry key="group|name|GR-Lot-EUFunds">ELi rahaliste vahendite kasutamine</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">Euroopa Liidu rahastuse kasutamine</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Juba valitud osalejad</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Elektrooniline kataloog</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">E-allkiri</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Menetluskorra kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Menetluskorra kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Winner">Edukas pakkuja</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Kiirendatud menetlus</entry>
 <entry key="group|name|ND-AccessibilityJustification">Juurdepääsukriteeriumide puudumise põhjendus</entry>
+<entry key="group|name|ND-Asset">Varad, mis põhjendavad lepingu pikendamist</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Žürii liige</entry>
 <entry key="group|name|ND-BusinessCapability">Äritegevus</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Läbivaatamistaotlused</entry>
@@ -260,15 +263,19 @@
 <entry key="group|name|ND-ContractingParty">Hankija</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Päritoluriik (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Piiriülene õigus</entry>
+<entry key="group|name|ND-DirectAward">Otselepingu sõlmimine</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Otselepingu sõlmimise põhjenduse kood (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Otselepingu sõlmimist põhjendava eelmise menetluse tunnus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Otselepingu sõlmimise põhjendus (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-EuEntity">ELi registreerimisnumber</entry>
 <entry key="group|name|ND-ExclusionGrounds">Kõrvaldamise alused</entry>
 <entry key="group|name|ND-ExecutionRequirements">Täitmistingimused</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Lepingu pikendamine</entry>
 <entry key="group|name|ND-FinancingParty">Rahastamisorganisatsioon</entry>
 <entry key="group|name|ND-Funding">ELi vahendid</entry>
+<entry key="group|name|ND-GazetteReference">Viide avaldamisele</entry>
 <entry key="group|name|ND-GroupComposition">Osade rühma ülesehitus</entry>
-<entry key="group|name|ND-GroupCompositionLotReference">Gruppi kuuluv lõik</entry>
+<entry key="group|name|ND-GroupCompositionLotReference">Gruppi kuuluvad lõigud</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Rühma maksimaalse maksumuse tunnus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Rühma maksimaalne maksumus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Rühma uuesti arvutatud maksumus (avaldatakse hiljem)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Hankemenetluse dokumendid mitteametlikus keeles</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Hankemenetluse dokumendid ametlikus keeles</entry>
 <entry key="group|name|ND-LotECatalog">eKataloog</entry>
+<entry key="group|name|ND-LotEInvoicing">eArveldamine</entry>
 <entry key="group|name|ND-LotESignature">e-allkiri</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Hankemenetluse keskkonnamõju</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Raamleping</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Laekunud taotluste ja pakkumuste arv (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Laekunud taotluste ja pakkumuste liik (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Laekunud taotluste ja pakkumuste statistika</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Ümberhinnatud väärtus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Läbivaatamistaotluste statistika</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Läbivaatamistaotlustes väidetud rikkumiste arv (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Läbivaatamistaotlustes väidetud rikkumiste liik (avaldatakse hiljem)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Allhanke maksumus on teada (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Allhanke maksumus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Pakkumuse koht paremusjärjestuses (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Kõrgeima pakkumise väärtus (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Madalaima pakkumise väärtus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-Tenderer">Hankemenetluses osalejad</entry>
 <entry key="group|name|ND-TenderingParty">Hankemenetluses osaleja</entry>
 <entry key="group|name|ND-Touchpoint">Konkreetsed kontaktpunktid</entry>

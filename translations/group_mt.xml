@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Deskrizzjoni tal-lott</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organizzazzjoni li tipprovdi dokumenti</entry>
 <entry key="group|name|GR-Lot-EUFunds">Użu tal-fondi tal-UE</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">Użu tal-finanzjament tal-UE</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Parteċipanti diġà magħżulin</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Katalogu elettroniku</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Firma elettronika</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Deskrizzjoni tal-proċedura (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Deskrizzjoni tal-proċedura (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Winner">Rebbieħ</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Proċedura aċċellerata</entry>
 <entry key="group|name|ND-AccessibilityJustification">Ġustifikazzjoni għan-nuqqas ta’ kriterji ta’ aċċessibbiltà</entry>
+<entry key="group|name|ND-Asset">Assi li jgħajjtu estensjoni tal-kuntratt</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membru tal-ġurija</entry>
 <entry key="group|name|ND-BusinessCapability">Attività tal-biżness</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Talbiet għal reviżjoni</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Xerrej</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Pajjiż ta' oriġini (ippubblikat aktar tard)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Liġi transfruntiera</entry>
+<entry key="group|name|ND-DirectAward">Għotja diretta</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Kodiċi tal-ġustifikazzjoni tal-għoti dirett (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID tal-proċedura preċedenti li tiġġustifika l-għoti dirett (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Ġustifikazzjoni għall-għoti dirett (pubblikazzjoni aktar tard)</entry>
+<entry key="group|name|ND-EuEntity">Numru ta' reġistrazzjoni tal-UE</entry>
 <entry key="group|name|ND-ExclusionGrounds">Raġunijiet għall-esklużjoni</entry>
 <entry key="group|name|ND-ExecutionRequirements">Termini tal-prestazzjoni</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Estensjoni tal-kuntratt</entry>
 <entry key="group|name|ND-FinancingParty">Organizzazzjoni ta' finanzjament</entry>
 <entry key="group|name|ND-Funding">Fondi tal-UE</entry>
+<entry key="group|name|ND-GazetteReference">Referenza għall-pubblikazzjoni</entry>
 <entry key="group|name|ND-GroupComposition">Kompożizzjoni ta’ grupp ta’ lottijiet</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Lott li japparteni għall-grupp</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identifikatur tal-valur massimu tal-grupp (pubblikazzjoni aktar tard)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Dokumenti ta' proċedura f'lingwa mhux uffiċjali</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Dokumenti ta' proċedura f'lingwa uffiċjali</entry>
 <entry key="group|name|ND-LotECatalog">eKatalogu</entry>
+<entry key="group|name|ND-LotEInvoicing">eFatturazzjoni</entry>
 <entry key="group|name|ND-LotESignature">Firma elettronika</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Impatt ambjentali tal-provvista</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Ftehim ta' struttura</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Għadd ta’ sottomissjonijiet riċevuti (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Tip ta’ sottomissjoni riċevuta(pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistika dwar is-sottomissjonijiet riċevuti</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Valur ri-stimat (ippubblikat aktar tard)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistika dwar it-talbiet għal rieżami</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Għadd ta’ irregolaritajiet fit-talba għal rieżami (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Tip ta’ irregolarità tat-talba għal rieżami (pubblikazzjoni aktar tard)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Il-valur tas-sottokuntrattar hu magħruf (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Valur tas-sottokuntrattar (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Klassifikazzjoni tal-offerta (pubblikazzjoni aktar tard)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Valur tal-offerta l-għolja (ippubblikat aktar tard)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Valur tal-offerta l-inqas (ippubblikat aktar tard)</entry>
 <entry key="group|name|ND-Tenderer">Partijiet li jagħmlu l-offerti</entry>
 <entry key="group|name|ND-TenderingParty">Parti li tagħmel l-offerti</entry>
 <entry key="group|name|ND-Touchpoint">Punt ta’ kuntatt speċifiku</entry>

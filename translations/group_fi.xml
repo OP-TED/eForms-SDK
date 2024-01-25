@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Erän kuvaus</entry>
 <entry key="group|name|GR-Lot-DocProvider">Asiakirjat toimittava organisaatio</entry>
 <entry key="group|name|GR-Lot-EUFunds">EU:n varojen käyttö</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">EU-rahoituksen käyttö</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Jo valitut osallistujat</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Sähköinen luettelo</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Sähköinen allekirjoitus</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Menettelyn kuvaus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Menettelyn kuvaus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Winner">Voittaja</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Nopeutettu menettely</entry>
 <entry key="group|name|ND-AccessibilityJustification">Perustelut esteettömyysvaatimusten puuttumiselle</entry>
+<entry key="group|name|ND-Asset">Omaisuus, joka oikeuttaa sopimuksen jatkamiseen</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Tuomariston jäsen</entry>
 <entry key="group|name|ND-BusinessCapability">Liiketoiminnan toimiala</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Muutoksenhakupyynnöt</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Ostaja</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Alkuperämaa (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Rajatylittävä lainsäädäntö</entry>
+<entry key="group|name|ND-DirectAward">Suoraan tehtävä sopimus</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Suoraan tehtävien sopimusten perustelut – Koodi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Tunniste edelliselle menettelylle, jolla perustellaan sopimuksen tekeminen suorahankintana (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Suorahankinnan perustelu (julkaistaan myöhemmin)</entry>
+<entry key="group|name|ND-EuEntity">EU-rekisteröintinumero</entry>
 <entry key="group|name|ND-ExclusionGrounds">Poissulkemisperusteet</entry>
 <entry key="group|name|ND-ExecutionRequirements">Suoritusajat</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Sopimuksen jatkaminen</entry>
 <entry key="group|name|ND-FinancingParty">Rahoitusjärjestö</entry>
 <entry key="group|name|ND-Funding">EU:n rahastot</entry>
+<entry key="group|name|ND-GazetteReference">Viittaus julkaisuun</entry>
 <entry key="group|name|ND-GroupComposition">Erien ryhmän kokoonpano</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Ryhmään kuuluva erä</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Ryhmän enimmäisarvon tunniste (julkaistaan myöhemmin)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Tarjousasiakirjat epävirallisella kielellä</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Tarjousasiakirjat virallisella kielellä</entry>
 <entry key="group|name|ND-LotECatalog">eKatalogi</entry>
+<entry key="group|name|ND-LotEInvoicing">eLaskutus</entry>
 <entry key="group|name|ND-LotESignature">eAllekirjoitus</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Hankintojen ympäristövaikutus</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Puitesopimus</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Saatujen tarjousten/osallistumishakemusten määrä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Saatujen tarjousten/osallistumishakemusten tyyppi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Saatujen tarjousten/osallistumishakemusten tilastot</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Uudelleen arvioitu arvo (julkaistu myöhemmin)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Muutoksenhakupyyntöjen tilastot</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Muutoksenhaussa väitettyjen sääntöjenvastaisuuksien määrä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Muutoksenhaussa väitettyjen sääntöjenvastaisuuksien tyyppi (julkaistaan myöhemmin)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Alihankinnan arvo tiedossa (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Alihankinnan arvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Tarjouksen sijoitus (julkaistaan myöhemmin)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Korkeimman tarjouksen arvo (julkaistaan myöhemmin)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Alimman tarjouksen arvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-Tenderer">Tarjoajaosapuolet</entry>
 <entry key="group|name|ND-TenderingParty">Tarjoajaosapuoli</entry>
 <entry key="group|name|ND-Touchpoint">Erityiset yhteyspisteet</entry>

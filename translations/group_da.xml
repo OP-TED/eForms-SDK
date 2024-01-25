@@ -23,7 +23,7 @@
 <entry key="group|name|GR-Lot-AdditionalInformation">Yderligere oplysninger</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Auktionsbetingelser</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Konsekvenser ved tildeling</entry>
-<entry key="group|name|GR-Lot-Candidates">Kandidatlande</entry>
+<entry key="group|name|GR-Lot-Candidates">Ansøgere</entry>
 <entry key="group|name|GR-Lot-ContractExecutionRequirements">Krav til kontraktens gennemførelse</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Fornyelser og muligheder</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Kontraktindgåelsessystem</entry>
@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Beskrivelse af delkontrakten</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organisation, der leverer dokumenter</entry>
 <entry key="group|name|GR-Lot-EUFunds">Brug af EU-midler</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">Brug af EU-finansiering</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Deltagere, der allerede er udvalgt</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Elektronisk katalog</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Elektronisk signatur</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Beskrivelse af proceduren (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Beskrivelse af proceduren (offentliggøres senere)</entry>
 <entry key="group|name|GR-Winner">Vinder</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Accelereret procedure</entry>
 <entry key="group|name|ND-AccessibilityJustification">Begrundelse for manglende tilgængelighedskriterier</entry>
+<entry key="group|name|ND-Asset">Aktiver, der berettiger til kontraktforlængelse</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Medlem af juryen</entry>
 <entry key="group|name|ND-BusinessCapability">Forretningsaktivitet</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Anmodninger om gennemgang</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Køber</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Oprindelsesland (offentliggøres senere)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Grænseoverskridende lovgivning</entry>
+<entry key="group|name|ND-DirectAward">Direkte tildeling</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Kode for begrundelse for direkte tildeling (offentliggøres senere)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID for den tidligere procedure, der begrunder direkte tildeling (offentliggøres senere)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Begrundelse for direkte tildeling (offentliggøres senere)</entry>
+<entry key="group|name|ND-EuEntity">Registreringsnummer i EU</entry>
 <entry key="group|name|ND-ExclusionGrounds">Udelukkelsesgrunde</entry>
 <entry key="group|name|ND-ExecutionRequirements">Ydelsesbetingelser</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Forlængelse af kontrakt</entry>
 <entry key="group|name|ND-FinancingParty">Finansieringsorganisation</entry>
 <entry key="group|name|ND-Funding">EU-midler</entry>
+<entry key="group|name|ND-GazetteReference">Reference til publikationen</entry>
 <entry key="group|name|ND-GroupComposition">Sammensætning af en gruppe af delkontrakter</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Del tilhørende gruppen</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identifikator for maksimal værdi for gruppe (offentliggøres senere)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Indkøbsdokumenter på uofficielt sprog</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Indkøbsdokumenter på officielt sprog</entry>
 <entry key="group|name|ND-LotECatalog">eKatalog</entry>
+<entry key="group|name|ND-LotEInvoicing">eFakturering</entry>
 <entry key="group|name|ND-LotESignature">eSignatur</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Miljøpåvirkning af indkøbet</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Rammeaftale</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Antal modtagne indsendelser (offentliggøres senere)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Type modtaget indsendelse (offentliggøres senere)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistik over modtagne indsendelser</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Genestimeret værdi (offentliggjort senere)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistik over anmodninger om gennemgang</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Antal uregelmæssigheder angivet i anmodningen om gennemgang (offentliggøres senere)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Anmodning om gennemgang, type uregelmæssighed (offentliggøres senere)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Underentrepriseværdi er kendt (offentliggøres senere)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Værdi af underentreprise (offentliggøres senere)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Rangorden for udbud (offentliggøres senere)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Værdien af det højeste bud (offentliggjort senere)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Værdien af det laveste bud (offentliggjort senere)</entry>
 <entry key="group|name|ND-Tenderer">Tilbudsgivere</entry>
 <entry key="group|name|ND-TenderingParty">Tilbudsgiver</entry>
 <entry key="group|name|ND-Touchpoint">Specifikke kontaktpunkter</entry>
