@@ -93,7 +93,6 @@
 <entry key="field|description|BT-15-Lot">A közbeszerzési dokumentumok (nem korlátozott részének) eléréséhez használt internetcím. Valamennyi hirdetmény esetén (az előzetes tájékoztatók kivételével) a címnek olyan hozzáférést kell adnia, amely közvetlen (azaz a dokumentumokat tartalmazó weboldal, nem egy általános weboldal), korlátlan (például nem regisztrációhoz kötött), teljes körű (a közbeszerzési dokumentumoknak teljes körűeknek kell lenniük), és ingyenes, és a dokumentumokat már a hirdetmény közzétételének idején elérhetővé kell tenni.</entry>
 <entry key="field|description|BT-15-Part">A közbeszerzési dokumentumok (nem korlátozott részének) eléréséhez használt internetcím. Valamennyi hirdetmény esetén (az előzetes tájékoztatók kivételével) a címnek olyan hozzáférést kell adnia, amely közvetlen (azaz a dokumentumokat tartalmazó weboldal, nem egy általános weboldal), korlátlan (például nem regisztrációhoz kötött), teljes körű (a közbeszerzési dokumentumoknak teljes körűeknek kell lenniük), és ingyenes, és a dokumentumokat már a hirdetmény közzétételének idején elérhetővé kell tenni.</entry>
 <entry key="field|description|BT-150-Contract">A szerződés vagy önkéntes előzetes átláthatósági hirdetmények és tervpályázatok eredményéről szóló hirdetmények esetén a döntés azonosítója. A szerződésről szóló szakaszban szereplő információ erre a szerződésre vagy döntésre vonatkozik.</entry>
-<entry key="field|description|BT-150-Contract-Scheme">A szerződés vagy önkéntes előzetes átláthatósági hirdetmények és tervpályázatok eredményéről szóló hirdetmények esetén a döntés azonosítója. A szerződésről szóló szakaszban szereplő információ erre a szerződésre vagy döntésre vonatkozik.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
 <entry key="field|description|BT-1501(s)-Contract">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
@@ -1143,7 +1142,6 @@
 <entry key="field|name|BT-15-Lot">A közbeszerzési dokumentumok címe</entry>
 <entry key="field|name|BT-15-Part">A közbeszerzési dokumentumok címe</entry>
 <entry key="field|name|BT-150-Contract">A szerződés azonosítója</entry>
-<entry key="field|name|BT-150-Contract-Scheme">A szerződés azonosítója</entry>
 <entry key="field|name|BT-1501(n)-Contract">Szakaszazonosító</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Szakaszazonosító</entry>
 <entry key="field|name|BT-1501(s)-Contract">Szakaszazonosító</entry>
@@ -1902,8 +1900,8 @@
 <entry key="field|name|BT-712(a)-LotResult">A panaszosok száma</entry>
 <entry key="field|name|BT-712(a)-LotResult-List">A panaszosok száma</entry>
 <entry key="field|name|BT-712(b)-LotResult">A panaszosok száma</entry>
-<entry key="field|name|BT-717-Lot">A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.</entry>
-<entry key="field|name|BT-717-Lot-List">A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.</entry>
+<entry key="field|name|BT-717-Lot">A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.</entry>
+<entry key="field|name|BT-717-Lot-List">A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.</entry>
 <entry key="field|name|BT-718-notice">A közbeszerzési dokumentumokat ebben az időpontban módosították</entry>
 <entry key="field|name|BT-719-notice">A közbeszerzési dokumentumok megváltoztatásának dátuma</entry>
 <entry key="field|name|BT-720-Tender">Az eredmény értéke</entry>
@@ -1914,8 +1912,8 @@
 <entry key="field|name|BT-722-Contract-List">Az uniós finanszírozású projekt vagy program neve</entry>
 <entry key="field|name|BT-7220-Lot">Uniós alapok programja</entry>
 <entry key="field|name|BT-7220-Lot-List">Uniós alapok programja</entry>
-<entry key="field|name|BT-723-LotResult">A 2009/33/EK irányelv hatálya alá tartozó járműkategória, beleértve a következőket: Könnyűgépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3</entry>
-<entry key="field|name|BT-723-LotResult-List">A 2009/33/EK irányelv hatálya alá tartozó járműkategória, beleértve a következőket: Könnyűgépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3</entry>
+<entry key="field|name|BT-723-LotResult">A 2009/33/EK irányelv hatálya alá tartozó járműkategória, beleértve a következőket: Könnyűgépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3</entry>
+<entry key="field|name|BT-723-LotResult-List">A 2009/33/EK irányelv hatálya alá tartozó járműkategória, beleértve a következőket: Könnyűgépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3</entry>
 <entry key="field|name|BT-726-Lot">Ebben a közbeszerzésben kis- és középvállalkozások (kkv-k) is részt vehetnek</entry>
 <entry key="field|name|BT-726-LotsGroup">Ebben a közbeszerzésben kis- és középvállalkozások (kkv-k) is részt vehetnek</entry>
 <entry key="field|name|BT-726-Part">Ebben a közbeszerzésben kis- és középvállalkozások (kkv-k) is részt vehetnek</entry>

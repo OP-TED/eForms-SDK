@@ -93,7 +93,6 @@
 <entry key="field|description|BT-15-Lot">Den internetadresse, der giver adgang til (den ikke-begrænsede del af) udbudsdokumenterne. For alle bekendtgørelser med undtagelse af forhåndsmeddelelser skal der via internetadressen gives direkte (dvs. selve den webside, hvor dokumenterne findes; ikke en generelt websted), ubegrænset (f.eks. uden registrering), fuld adgang (dvs. at udbudsdokumenterne er fuldstændige) og gratis, og dokumenterne skal være tilgængelige allerede på tidspunktet for offentliggørelsen af bekendtgørelsen.</entry>
 <entry key="field|description|BT-15-Part">Den internetadresse, der giver adgang til (den ikke-begrænsede del af) udbudsdokumenterne. For alle bekendtgørelser med undtagelse af forhåndsmeddelelser skal der via internetadressen gives direkte (dvs. selve den webside, hvor dokumenterne findes; ikke en generelt websted), ubegrænset (f.eks. uden registrering), fuld adgang (dvs. at udbudsdokumenterne er fuldstændige) og gratis, og dokumenterne skal være tilgængelige allerede på tidspunktet for offentliggørelsen af bekendtgørelsen.</entry>
 <entry key="field|description|BT-150-Contract">En identifikator for kontrakten eller, hvis der er tale om bekendtgørelser med henblik på frivillig forudgående gennemsigtighed og bekendtgørelser om resultater af projektkonkurrencer, for afgørelsen. Oplysningerne i afsnittet om kontrakten vedrører denne kontrakt eller afgørelse.</entry>
-<entry key="field|description|BT-150-Contract-Scheme">En identifikator for kontrakten eller, hvis der er tale om bekendtgørelser med henblik på frivillig forudgående gennemsigtighed og bekendtgørelser om resultater af projektkonkurrencer, for afgørelsen. Oplysningerne i afsnittet om kontrakten vedrører denne kontrakt eller afgørelse.</entry>
 <entry key="field|description|BT-1501(n)-Contract">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
 <entry key="field|description|BT-1501(s)-Contract">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
@@ -1062,8 +1061,8 @@
 <entry key="field|name|BT-09(b)-Procedure-Language">Gældende grænseoverskridende lovgivning</entry>
 <entry key="field|name|BT-10-Procedure-Buyer">Den ordregivende myndigheds aktiviteter</entry>
 <entry key="field|name|BT-10-Procedure-Buyer-List">Den ordregivende myndigheds aktiviteter</entry>
-<entry key="field|name|BT-105-Procedure">Type af procedure</entry>
-<entry key="field|name|BT-105-Procedure-List">Type af procedure</entry>
+<entry key="field|name|BT-105-Procedure">Udbudsprocedure</entry>
+<entry key="field|name|BT-105-Procedure-List">Udbudsprocedure</entry>
 <entry key="field|name|BT-106-Procedure">Proceduren er en hasteprocedure</entry>
 <entry key="field|name|BT-106-Procedure-List">Proceduren er en hasteprocedure</entry>
 <entry key="field|name|BT-109-Lot">Begrundelse for rammeaftalens varighed</entry>
@@ -1143,7 +1142,6 @@
 <entry key="field|name|BT-15-Lot">Adresse på udbudsdokumenterne</entry>
 <entry key="field|name|BT-15-Part">Adresse på udbudsdokumenterne</entry>
 <entry key="field|name|BT-150-Contract">Identifikator for kontrakten</entry>
-<entry key="field|name|BT-150-Contract-Scheme">Identifikator for kontrakten</entry>
 <entry key="field|name|BT-1501(n)-Contract">Afsnitsidentifikator</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Afsnitsidentifikator</entry>
 <entry key="field|name|BT-1501(s)-Contract">Afsnitsidentifikator</entry>
@@ -1800,8 +1798,8 @@
 <entry key="field|name|BT-539-Lot-List">Type</entry>
 <entry key="field|name|BT-539-LotsGroup">Type</entry>
 <entry key="field|name|BT-539-LotsGroup-List">Type</entry>
-<entry key="field|name|BT-54-Lot">Beskrivelse af mulighederne</entry>
-<entry key="field|name|BT-54-Lot-Language">Beskrivelse af mulighederne</entry>
+<entry key="field|name|BT-54-Lot">Beskrivelse af optioner</entry>
+<entry key="field|name|BT-54-Lot-Language">Beskrivelse af optioner</entry>
 <entry key="field|name|BT-540-Lot">Beskrivelse</entry>
 <entry key="field|name|BT-540-Lot-Language">Beskrivelse</entry>
 <entry key="field|name|BT-540-LotsGroup">Beskrivelse</entry>
