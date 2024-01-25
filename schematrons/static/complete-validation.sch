@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--File generated from metadata database-->
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2">
-	
+
 	<title>eForms schematron rules</title>
 
 	<ns prefix="xs" uri="http://www.w3.org/2001/XMLSchema" />
