@@ -200,6 +200,7 @@
 	<xsd:complexType name="ChangesType">
 		<xsd:sequence>
 			<xsd:element ref="efbc:ChangedNoticeIdentifier" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:ModifiedContractIdentifier" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:Change" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:ChangeReason" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
