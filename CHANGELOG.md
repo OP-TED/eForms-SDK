@@ -1,3 +1,16 @@
+# SDK 1.9.2 Release Notes
+
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* The field "The winner is listed on a regulated market" (BT-746-Organization) is now optional.
+* Correct rules to avoid errors when "Unpublished Access Date" (BT-198) is not present.
+
+This release also includes updated translations and updated notice visualisation templates.
+
+A comprehensive list of changes between SDK 1.9.1 and SDK 1.9.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.9.1...1.9.2>
+
+You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?version=1.9.2&base=1.9.1>
+
 # SDK 1.9.1 Release Notes
 
 This release removes 3 rules (BR-BT-00262-0211, BR-BT-00262-0212, and BR-BT-00262-0213) so there is no constraint on the nature (works, services or supplies) of subsidised contracts.
