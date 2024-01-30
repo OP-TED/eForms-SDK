@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice kötelező a(z) '40' típusú hirdetményben</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice mindenképpen tartalmazzon egy értéket a(z) notice-type kódlistából</entry>
 <entry key="rule|text|BR-BT-00002-0100">Ha 'Jogalap' (BT-01) = '2014/24/EU irányelv', akkor 'A hirdetmény típusa' (BT-02) mindenképp 'Ajánlati/részvételi felhívásként használt előzetes tájékoztató vagy időszakos előzetes tájékoztató – enyhébb szabályozás' vagy 'Eljárást megindító vagy koncessziós hirdetmény – klasszikus ajánlatkérőkre vonatkozó szabályok' vagy 'Önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény' vagy 'Tájékoztató az eljárás eredményéről vagy koncesszió odaítéléséről – klasszikus ajánlatkérőkre vonatkozó szabályok' vagy 'Tájékoztató az eljárás eredményéről vagy koncesszió odaítéléséről – enyhébb szabályozás'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Ha 'Jogalap' (BT-01) = '2014/24/EU irányelv', akkor 'A szerződés kiegészítő jellege' (BT-531) nem lehet 'Árubeszerzések'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Ha 'Jogalap' (BT-01) = '2014/23/EU irányelv', akkor 'A szerződés kiegészítő jellege' (BT-531) nem lehet 'Árubeszerzések'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Ha 'Jogalap' (BT-01) = '2014/24/EU irányelv', akkor 'A szerződés kiegészítő jellege' (BT-531) nem lehet 'Alvállalkozói hirdetmény'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Ha 'Hirdetményminta típusa' (BT-03) = 'Cégadatok', akkor 'A hirdetmény típusa' (BT-02) mindenképp 'Európai részvénytársasággal/európai szövetkezettel kapcsolatos értesítés' vagy 'Európai gazdasági egyesüléssel kapcsolatos értesítés'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Ha 'Hirdetményminta típusa' (BT-03) = 'Verseny', akkor 'A hirdetmény típusa' (BT-02) mindenképp 'Ajánlati/részvételi felhívásként használt előzetes tájékoztató vagy időszakos előzetes tájékoztató – enyhébb szabályozás' 'Ajánlati/részvételi felhívásként használt előzetes tájékoztató vagy időszakos előzetes tájékoztató – klasszikus ajánlatkérőkre vonatkozó szabályok', 'Előminősítési rendszer meglétéről szóló hirdetmény', 'Eljárást megindító hirdetmény – enyhébb szabályozás', 'Eljárást megindító vagy koncessziós hirdetmény – klasszikus ajánlatkérőkre vonatkozó szabályok', 'Alvállalkozói hirdetmény' vagy 'Tervpályázati hirdetmény'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO nem engedélyezett a '40' hirdetménytípusban</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO mindenképpen feleljen meg következő mintának: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">'Személyi igazolvány – tényleges tulajdonos' (OPT-202-UBO) értékének egyedi értéknek kell lennie</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Minden létező 'Személyi igazolvány – tényleges tulajdonos' (OPT-202-UBO) társítva kell, hogy legyen legalább egy 'A tényleges tulajdonosra vonatkozó hivatkozás'(OPT-302-Organization) elemmel</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Minden létező 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) társítva kell, hogy legyen legalább egy 'Szervezet, amely betölti ezt a szerepet'(OPT-302-Organization) elemmel</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer nem engedélyezett a 'X01' hirdetménytípusban</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer nem engedélyezett a 'X02' hirdetménytípusban</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer nem engedélyezett a '1' hirdetménytípusban</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer mindenképpen feleljen meg következő mintának: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">'Azonosító – Ajánlattevő fél' (OPT-210-Tenderer) értékének egyedi értéknek kell lennie</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Minden egyes 'Azonosító – Ajánlattevő fél' (OPT-210) esetében, ha több mint egy pályázó van(OPT-300-Tenderer), akkor pontosan egy 'Csoportvezető' (OPT-170) kell, hogy legyen</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Minden létező 'Azonosító – Ajánlattevő fél' (OPT-210-Tenderer) társítva kell, hogy legyen legalább egy 'A tényleges tulajdonosra vonatkozó hivatkozás'(OPT-302-Organization) elemmel</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Minden létező 'Ajánlattevő technikai azonosítója (TPA-XXX)' (OPT-210-Tenderer) társítva kell, hogy legyen legalább egy 'Szervezet, amely betölti ezt a szerepet'(OPT-302-Organization) elemmel</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory nem engedélyezett a 'X01' hirdetménytípusban</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory nem engedélyezett a 'X02' hirdetménytípusban</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory nem engedélyezett a '1' hirdetménytípusban</entry>

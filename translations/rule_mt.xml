@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice huwa obbligatorju fit-tip ta’ avviż '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice għandu jkun fih valur mil-lista ta’ kodiċijiet notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Jekk 'Bażi legali' (BT-01) huwa 'Direttiva 2014/24/UE', allura 'Tip ta’ avviż' (BT-02) għandu jkun 'Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat għal sejħa għall-kompetizzjoni – reġim ħafif' jew 'Avviż tal-kuntratt jew tal-konċessjoni – reġim standard' jew 'Avviż tat-trasparenza ex ante volontarju' jew 'Avviż tal-għoti tal-kuntratt jew tal-konċessjoni – reġim standard' jew 'Avviż tal-għoti tal-kuntratt jew tal-konċessjoni – reġim ħafif'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Jekk 'Bażi legali' (BT-01) huwa 'Direttiva 2014/24/UE', allura 'Natura addizzjonali tal-kuntratt' (BT-531) għandu jkun differenti minn 'Fornituri'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Jekk 'Bażi legali' (BT-01) huwa 'Direttiva 2014/23/UE', allura 'Natura addizzjonali tal-kuntratt' (BT-531) għandu jkun differenti minn 'Fornituri'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Jekk 'Bażi legali' (BT-01) huwa 'Direttiva 2014/24/UE', allura 'Natura addizzjonali tal-kuntratt' (BT-531) għandu jkun differenti minn 'Avviż tas-sottokuntrattar'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Jekk 'Tip ta’ formola' (BT-03) huwa 'Informazzjoni dwar ir-reġistrazzjoni tan-negozju', allura 'Tip ta’ avviż' (BT-02) għandu jkun 'Avviż tal-Kumpanija Ewropea / Soċjetà Kooperattiva Ewropea' jew 'Avviż tal-Grupp Ewropew ta' Interess Ekonomiku'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Jekk 'Tip ta’ formola' (BT-03) huwa 'Kompetizzjoni', allura 'Tip ta’ avviż' (BT-02) għandu jkun 'Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat għal sejħa għall-kompetizzjoni – reġim ħafif', 'Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat għal sejħa għall-kompetizzjoni – reġim standard', 'Avviż dwar l-eżistenza ta’ sistema ta’ kwalifika', 'Avviż tal-kuntratt – reġim ħafif', 'Avviż tal-kuntratt jew tal-konċessjoni – reġim standard', 'Avviż tas-sottokuntrattar' jew 'Avviż dwar konkors ta’ disinn'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO mhuwiex permess fit-tip ta’ avviż '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO għandu jaqbel mal-mudell li ġej: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">'Id — Is-sid benefiċjarju' (OPT-202-UBO) il-valur għandu jkun valur uniku</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Kwalunkwe 'Id — Is-sid benefiċjarju' (OPT-202-UBO)eżistenti jrid ikun assoċjat ma’ tal-inqas 'Referenza tas-sid benefiċjarju'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Kwalunkwe 'UBO technical ID (UBO-XXX)' (OPT-202-UBO)eżistenti jrid ikun assoċjat ma’ tal-inqas 'Organizzazzjoni li timpla din ir-rwol'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer mhuwiex permess fit-tip ta’ avviż 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer mhuwiex permess fit-tip ta’ avviż 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer mhuwiex permess fit-tip ta’ avviż '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer għandu jaqbel mal-mudell li ġej: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">'Id — Parti tas-sejħa għall-offerti' (OPT-210-Tenderer) il-valur għandu jkun valur uniku</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Għal kull 'Id — Parti tas-sejħa għall-offerti' (OPT-210), jekk hemm aktar minn offerent wieħed (OPT-300-Tenderer), allura jrid ikun hemm eżattament wieħed 'Mexxej ta' grupp' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Kwalunkwe 'Id — Parti tas-sejħa għall-offerti' (OPT-210-Tenderer) eżistenti jrid ikun assoċjat ma’ tal-inqas 'Referenza tas-sid benefiċjarju'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Kwalunkwe 'ID tekniku tal-parti li toffri (TPA-XXX)' (OPT-210-Tenderer) eżistenti jrid ikun assoċjat ma’ tal-inqas 'Organizzazzjoni li timpla din ir-rwol'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory mhuwiex permess fit-tip ta’ avviż 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory mhuwiex permess fit-tip ta’ avviż 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory mhuwiex permess fit-tip ta’ avviż '1'</entry>

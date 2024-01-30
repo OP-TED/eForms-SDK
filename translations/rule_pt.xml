@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice é obrigatório no tipo de anúncio '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice deve conter um valor da lista de códigos notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Se 'Base jurídica' (BT-01) é 'Diretiva 2014/24/UE', então 'Tipo de anúncio' (BT-02) deve ser 'Anúncio de pré-informação ou anúncio periódico indicativo utilizado como anúncio de concurso — regime simplificado' ou 'Anúncio de concurso ou de concessão – regime normal' ou 'Anúncio voluntário de transparência ex ante' ou 'Anúncio de adjudicação de contrato ou de concessão — regime normal' ou 'Anúncio de adjudicação de contrato ou de concessão — regime simplificado'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Se 'Base jurídica' (BT-01) for 'Diretiva 2014/24/UE', então 'Natureza adicional do contrato' (BT-531) deve ser diferente de 'Fornecimentos'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Se 'Base jurídica' (BT-01) for 'Diretiva 2014/23/UE', então 'Natureza adicional do contrato' (BT-531) deve ser diferente de 'Fornecimentos'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Se 'Base jurídica' (BT-01) for 'Diretiva 2014/24/UE', então 'Natureza adicional do contrato' (BT-531) deve ser diferente de 'Anúncio de subcontratação'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Se 'Tipo de formulário' (BT-03) é 'Informações do registo comercial', então 'Tipo de anúncio' (BT-02) deve ser 'Anúncio — Sociedade Europeia / Sociedade Cooperativa Europeia' ou 'Anúncio — Agrupamento Europeu de Interesse Económico'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Se 'Tipo de formulário' (BT-03) é 'Concurso', então 'Tipo de anúncio' (BT-02) deve ser 'Anúncio de pré-informação ou anúncio periódico indicativo utilizado como anúncio de concurso — regime simplificado', 'Anúncio de pré-informação ou anúncio periódico indicativo utilizado como anúncio de concurso — regime normal', 'Anúncio relativo à existência de um sistema de qualificação', 'Anúncio de concurso — regime simplificado', 'Anúncio de concurso ou de concessão – regime normal', 'Anúncio de subcontratação' ou 'Anúncio de concurso para trabalhos de conceção'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO não é autorizada no tipo de anúncio '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO deve corresponder ao seguinte padrão: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">O valor 'ID — Beneficiário efetivo' (OPT-202-UBO) deve ser um valor único</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Qualquer 'ID — Beneficiário efetivo' (OPT-202-UBO) existente deve estar associado a, pelo menos, um 'Referência do beneficiário efetivo'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Qualquer 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) existente deve estar associado a, pelo menos, um 'Organização que desempenha este papel'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer não é autorizada no tipo de anúncio 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer não é autorizada no tipo de anúncio 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer não é autorizada no tipo de anúncio '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer deve corresponder ao seguinte padrão: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">O valor 'ID — Parte concorrente' (OPT-210-Tenderer) deve ser um valor único</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Para cada 'ID — Parte concorrente' (OPT-210), caso exista mais do que um proponente (OPT-300-Tenderer), então deve existir exatamente um 'Líder do grupo' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Qualquer 'ID — Parte concorrente' (OPT-210-Tenderer) existente deve estar associado a, pelo menos, um 'Referência do beneficiário efetivo'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Qualquer 'ID técnico da parte que lança o concurso (TPA-XXX)' (OPT-210-Tenderer) existente deve estar associado a, pelo menos, um 'Organização que desempenha este papel'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory não é autorizada no tipo de anúncio 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory não é autorizada no tipo de anúncio 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory não é autorizada no tipo de anúncio '1'</entry>

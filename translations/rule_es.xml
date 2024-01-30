@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice es obligatorio en el tipo de anuncio '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice debe contener un valor de la lista de códigos notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Si 'Base jurídica' (BT-01) es 'Directiva 2014/24/UE', entonces 'Tipo de anuncio' (BT-02) debe ser 'Anuncio de información previa o anuncio periódico indicativo usado como convocatoria de licitación. Régimen simplificado', 'Anuncio de contrato o de concesión. Régimen normal', 'Anuncio de transparencia previa voluntaria', 'Anuncio de adjudicación de contrato o concesión. Régimen normal' o 'Anuncio de adjudicación de contrato o concesión. Régimen simplificado'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Si 'Base jurídica' (BT-01) es 'Directiva 2014/24/UE', entonces 'Naturaleza complementaria del contrato' (BT-531) debe ser distinto de 'Suministros'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Si 'Base jurídica' (BT-01) es 'Directiva 2014/23/UE', entonces 'Naturaleza complementaria del contrato' (BT-531) debe ser distinto de 'Suministros'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Si 'Base jurídica' (BT-01) es 'Directiva 2014/24/UE', entonces 'Naturaleza complementaria del contrato' (BT-531) debe ser distinto de 'Anuncio de subcontratación'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Si 'Tipo de formulario' (BT-03) es 'Información sobre el registro de empresas', entonces 'Tipo de anuncio' (BT-02) debe ser 'Anuncio de una Sociedad Anónima Europea / Sociedad Cooperativa Europea' o 'Anuncio de una Agrupación Europea de Interés Económico'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Si 'Tipo de formulario' (BT-03) es 'Licitación', entonces 'Tipo de anuncio' (BT-02) debe ser 'Anuncio de información previa o anuncio periódico indicativo usado como convocatoria de licitación. Régimen simplificado', 'Anuncio de información previa o anuncio periódico indicativo usado como convocatoria de licitación. Régimen normal', 'Anuncio de la existencia de un sistema de calificación', 'Anuncio de contrato. Régimen simplificado', 'Anuncio de contrato o de concesión. Régimen normal', 'Anuncio de subcontratación' o 'Anuncio de concurso de proyectos'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO no está permitido en el tipo de anuncio '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO deberán ajustarse al siguiente patrón: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">El valor de 'ID — Beneficiario' (OPT-202-UBO) debe ser único</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Todo 'ID — Beneficiario' (OPT-202-UBO) existente debe estar asociado con al menos un 'Referencia del titular real'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Todo 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) existente debe estar asociado con al menos un 'Organización que desempeña este papel'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer no está permitido en el tipo de anuncio 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer no está permitido en el tipo de anuncio 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer no está permitido en el tipo de anuncio '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer deberán ajustarse al siguiente patrón: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">El valor de 'ID — Parte contratante' (OPT-210-Tenderer) debe ser único</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Para cada 'ID — Parte contratante' (OPT-210), si hay más de un licitador (OPT-300-Tenderer), entonces debe haber exactamente un 'Jefe de grupo' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Todo 'ID — Parte contratante' (OPT-210-Tenderer) existente debe estar asociado con al menos un 'Referencia del titular real'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Todo 'ID técnico de la parte licitadora (TPA-XXX)' (OPT-210-Tenderer) existente debe estar asociado con al menos un 'Organización que desempeña este papel'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory no está permitido en el tipo de anuncio 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory no está permitido en el tipo de anuncio 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory no está permitido en el tipo de anuncio '1'</entry>
