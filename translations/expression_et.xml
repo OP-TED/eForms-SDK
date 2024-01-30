@@ -397,7 +397,16 @@
 <entry key="expression|name|568">'Täitmise nõude kood' (OPT-060-Lot) ei ole täidetud</entry>
 <entry key="expression|name|57">'Tegemist on raamlepinguga' (BT-765-Lot) on 'Ei kohaldata'</entry>
 <entry key="expression|name|58">'Tegemist on raamlepinguga' (BT-765) on üks järgmistest: 'Raamleping, mille puhul kasutatakse osaliselt minikonkurssi'; 'Raamleping koos minikonkursiga'; 'Raamleping ilmaminikonkursita'</entry>
+<entry key="expression|name|589">'Alguskuupäev' (BT-536-Part) ja 'Kestuse lõppkuupäev' (BT-537-Part) on olemas, või 'Muu kestus' (BT-538-Part) on olemas</entry>
 <entry key="expression|name|59">'Menetluse liik' (BT-105) ei ole 'Väljakuulutamiseta läbirääkimistega hankemenetlus'</entry>
+<entry key="expression|name|590">'Kestus' (BT-36-Part) ja 'Kestuse lõppkuupäev' (BT-537-Part) on olemas, või 'Muu kestus' (BT-538-Part) ja 'Kestuse lõppkuupäev' (BT-537-Part) on olemas</entry>
+<entry key="expression|name|591">'Alguskuupäev' (BT-536-Part) ja 'Muu kestus' (BT-538-Part) on olemas, või 'Alguskuupäev' (BT-536-Part) ja 'Kestus' (BT-36-Part) on olemas, või 'Muu kestus' (BT-538-Part) on olemas ja võrdub 'Piiramatu'</entry>
+<entry key="expression|name|592">'Kestus' (BT-36-Part) on olemas, või 'Alguskuupäev' ja 'Kestuse lõppkuupäev' (BT-536-Part, BT-537-Part) on olemas</entry>
+<entry key="expression|name|593">'Alguskuupäev' ja 'Kestuse lõppkuupäev' (BT-536-Lot, BT-537-Lot) on olemas, või 'Muu kestus' (BT-538-Lot) on olemas</entry>
+<entry key="expression|name|594">'Kestus' (BT-36-Lot) ja 'Kestuse lõppkuupäev' (BT-537-Lot) on olemas, või 'Muu kestus' (BT-538-Lot) ja 'Kestuse lõppkuupäev' (BT-537-Lot) on olemas</entry>
+<entry key="expression|name|595">'Alguskuupäev' (BT-536-Lot) ja 'Muu kestus' (BT-538-Lot) on olemas, või 'Alguskuupäev' (BT-536-Lot) ja 'Kestus' (BT-36-Lot) on olemas, või 'Muu kestus' (BT-538-Lot) on olemas ja võrdne 'Piiramatu'</entry>
+<entry key="expression|name|596">'Kestus' (BT-36-Lot) on olemas, või 'Alguskuupäev' ja 'Kestuse lõppkuupäev' (BT-536-Lot, BT-537-Lot) on olemas</entry>
+<entry key="expression|name|597">'Teate alaliik' (OPP-070-notice) on 7–11, 15–19 või 22</entry>
 <entry key="expression|name|6">'Riik – jaotus (NUTS)' (BT-5071-Procedure) on täidetud</entry>
 <entry key="expression|name|60">'Otselepingu sõlmimise põhjendus' (BT-136-Result) on täidetud</entry>
 <entry key="expression|name|61">'Otselepingu sõlmimise põhjendus' (BT-136-Procedure) ei ole üks järgmistest: 'Vastusena eelmisele teatele on saadud ainult ebakorrektseid või vastuvõetamatuid pakkumusi. Läbirääkimistesse kaasati ainult need eelmises menetluses osalenud pakkujad, kes vastasid valikukriteeriumidele ja ametlikele nõuetele ning ei täitnud kõrvalejätmise tingimusi'; 'Vajadus täiendavate ehitustööde või teenuste järele esialgselt töövõtjalt'; 'Uued ehitustööd või teenused, mis seisnevad samalaadsete ehitustööde või teenuste kordamises ja tellitakse kooskõlas direktiivis kehtestatud rangete tingimustega'; 'Eelmise teate peale ei esitatud ühtegi sobivat pakkumust, osalemistaotlust ega taotlust'; 'Olemasolevate asjade või seadmete osaline asendamine või täiendamine esialgse tarnija poolt direktiivis sätestatud rangetel tingimustel'; 'Ideekonkursi võitjale või ühele võitjale antav teenusleping ideekonkursi eeskirjade alusel'</entry>
