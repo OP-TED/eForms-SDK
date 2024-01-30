@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice je obvezno v obvestilu vrste '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice mora vsebovati vrednost iz šifranta notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Če je 'Pravna podlaga' (BT-01) enako 'Direktiva 2014/24/EU', potem mora 'Vrsta obvestila' (BT-02) biti 'Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja kot javni razpis – enostavnejša ureditev' ali 'Obvestilo o koncesiji ali naročilu – standardna ureditev' ali 'Prostovoljno obvestilo za predhodno transparentnost' ali 'Obvestilo o podelitvi koncesije ali oddaji naročila – standardna ureditev' ali 'Obvestilo o podelitvi koncesije ali oddaji naročila – enostavnejša ureditev'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Če je 'Pravna podlaga' (BT-01) enako 'Direktiva 2014/24/EU', potem se mora 'Dodatna vrsta javnega naročila' (BT-531) razlikovati od 'Blago'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Če je 'Pravna podlaga' (BT-01) enako 'Direktiva 2014/23/EU', potem se mora 'Dodatna vrsta javnega naročila' (BT-531) razlikovati od 'Blago'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Če je 'Pravna podlaga' (BT-01) enako 'Direktiva 2014/24/EU', potem se mora 'Dodatna vrsta javnega naročila' (BT-531) razlikovati od 'Obvestilo o oddaji naročil podizvajalcem'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Če je 'Vrsta obrazca' (BT-03) enako 'Podatki o registraciji podjetja', potem mora 'Vrsta obvestila' (BT-02) biti 'Obvestilo evropske družbe/evropske zadruge' ali 'Obvestilo evropskega gospodarskega interesnega združenja'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Če je 'Vrsta obrazca' (BT-03) enako 'Javni razpis', potem mora 'Vrsta obvestila' (BT-02) biti 'Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja kot javni razpis – enostavnejša ureditev', 'Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja kot javni razpis – standardna ureditev', 'Obvestilo o vzpostavitvi kvalifikacijskega sistema', 'Obvestilo o naročilu – enostavnejša ureditev', 'Obvestilo o koncesiji ali naročilu – standardna ureditev', 'Obvestilo o oddaji naročil podizvajalcem' ali 'Obvestilo o projektnem natečaju'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO ni dovoljeno v obvestilu vrste '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO se mora ujemati z naslednjim vzorcem: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">Vrednost 'ID – Dejanski lastnik' (OPT-202-UBO) mora biti edinstvena vrednost</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Vsaka obstoječa 'ID – Dejanski lastnik' (OPT-202-UBO) mora biti povezana z vsaj eno 'Sklic na upravičenega lastnika' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Vsaka obstoječa 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) mora biti povezana z vsaj eno 'Organizacija, ki opravlja to vlogo' (OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer ni dovoljeno v obvestilu vrste 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer ni dovoljeno v obvestilu vrste 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer ni dovoljeno v obvestilu vrste '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer se mora ujemati z naslednjim vzorcem: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">Vrednost 'ID – Ponudnik' (OPT-210-Tenderer) mora biti edinstvena vrednost</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Za vsako 'ID – Ponudnik' (OPT-210): če je več kot en ponudnik (OPT-300-Tenderer), mora biti točno ena 'Vodja skupine' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Vsaka obstoječa 'ID – Ponudnik' (OPT-210-Tenderer) mora biti povezana z vsaj eno 'Sklic na upravičenega lastnika' (OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Vsaka obstoječa 'Tehnična ID ponudbene strani (TPA-XXX)' (OPT-210-Tenderer) mora biti povezana z vsaj eno 'Organizacija, ki opravlja to vlogo' (OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory ni dovoljeno v obvestilu vrste 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory ni dovoljeno v obvestilu vrste 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory ni dovoljeno v obvestilu vrste '1'</entry>

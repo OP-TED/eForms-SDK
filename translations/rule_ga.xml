@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">Tá BT-02-notice éigeantach i bhfógra de chineál '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">Ní mór luach ó liosta cóid notice-type a bheith in BT-02-notice</entry>
 <entry key="rule|text|BR-BT-00002-0100">Más ionann 'Bunús dlí' (BT-01) agus 'Treoir 2014/24/AE', ansin ní mór 'Cineál an fhógra' (BT-02) a bheith ina 'Fógra réamhfhaisnéise nó fógra táscach tréimhsiúil lena ndéantar glao ar iomaíocht – an córas éadrom' nó 'Fógra maidir le conradh nó lamháltas — an gnáthchóras' nó 'Fógra trédhearcachta ex ante deonach' nó 'Fógra maidir le dámhachtain conartha nó lamháltais — an gnáthchóras' nó 'Fógra maidir le dámhachtain conartha nó lamháltais — an córas éadrom'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Más ionann 'Bunús dlí' (BT-01) agus 'Treoir 2014/24/AE', ansin ní mór 'Cineál breise an chonartha' (BT-531) a bheith difriúil le 'Soláthairtí'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Más ionann 'Bunús dlí' (BT-01) agus 'Treoir 2014/23/AE', ansin ní mór 'Cineál breise an chonartha' (BT-531) a bheith difriúil le 'Soláthairtí'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Más ionann 'Bunús dlí' (BT-01) agus 'Treoir 2014/24/AE', ansin ní mór 'Cineál breise an chonartha' (BT-531) a bheith difriúil le 'Fógra maidir le fochonrú'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Más ionann 'Cineál na foirme' (BT-03) agus 'Eolas faoi chlárú gnó', ansin ní mór 'Cineál an fhógra' (BT-02) a bheith ina 'Fógra maidir le Cuideachta Eorpach / Comharchumann Eorpach' nó ina 'Fógra maidir le Grúpáil Eorpach um Leas Eacnamaíoch'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Más ionann 'Cineál na foirme' (BT-03) agus 'Iomaíocht', ansin ní mór 'Cineál an fhógra' (BT-02) a bheith ina 'Fógra réamhfhaisnéise nó fógra táscach tréimhsiúil lena ndéantar glao ar iomaíocht – an córas éadrom', 'Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil lena ndéantar glao ar iomaíocht – an gnáthchóras', 'Fógra maidir le córas cáiliúcháin a bheith ann', 'Fógra conartha – an córas éadrom', 'Fógra maidir le conradh nó lamháltas — an gnáthchóras', 'Fógra maidir le fochonrú' nó 'Fógra faoi chomórtas dearaidh'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">Níl OPT-202-UBO ceadaithe i bhfógra de chineál '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">Ní mór OPT-202-UBO a bheith i gcomhréir leis an bpatrún seo a leanas: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">Ní mór luach 'Aitheantas — Úinéir tairbhiúil' (OPT-202-UBO) a bheith in a luach uathúil</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Ní mór aon 'Aitheantas — Úinéir tairbhiúil' (OPT-202-UBO) a bheith bainteach le 'Tagairt an úinéara thairbhiúil' (OPT-302-Organization) amháin ar a laghad</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Ní mór aon 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) a bheith bainteach le 'Eagraíocht a bhfuil an ról seo aici' (OPT-302-Organization) amháin ar a laghad</entry>
 <entry key="rule|text|BR-OPT-00210-0001">Níl OPT-210-Tenderer ceadaithe i bhfógra de chineál 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">Níl OPT-210-Tenderer ceadaithe i bhfógra de chineál 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">Níl OPT-210-Tenderer ceadaithe i bhfógra de chineál '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">Ní mór OPT-210-Tenderer a bheith i gcomhréir leis an bpatrún seo a leanas: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">Ní mór luach 'ID — Páirtí tairisceana' (OPT-210-Tenderer) a bheith in a luach uathúil</entry>
 <entry key="rule|text|BR-OPT-00210-0101">I gcás gach 'ID — Páirtí tairisceana' (OPT-210), má tá níos mó ná tairgeoir amháin ann (OPT-300-Tenderer), ní mór díreach aon 'Ceannaire grúpa' (OPT-170) amháin a bheith ann</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Ní mór aon 'ID — Páirtí tairisceana' (OPT-210-Tenderer) a bheith bainteach le 'Tagairt an úinéara thairbhiúil' (OPT-302-Organization) amháin ar a laghad</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Ní mór aon 'ID teicniúil an pháirtí atá ag tairiscint (TPA-XXX)' (OPT-210-Tenderer) a bheith bainteach le 'Eagraíocht a bhfuil an ról seo aici' (OPT-302-Organization) amháin ar a laghad</entry>
 <entry key="rule|text|BR-OPT-00300-0001">Níl OPT-300-Contract-Signatory ceadaithe i bhfógra de chineál 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">Níl OPT-300-Contract-Signatory ceadaithe i bhfógra de chineál 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">Níl OPT-300-Contract-Signatory ceadaithe i bhfógra de chineál '1'</entry>

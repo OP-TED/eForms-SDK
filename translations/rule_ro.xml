@@ -119,7 +119,7 @@
 <entry key="rule|text|BR-BT-00002-0049">BT-02-notice este obligatoriu în tipul de anunț '40'</entry>
 <entry key="rule|text|BR-BT-00002-0052">BT-02-notice trebuie să conțină o valoare din lista de coduri notice-type</entry>
 <entry key="rule|text|BR-BT-00002-0100">Dacă 'Temei juridic' (BT-01) este 'Directiva 2014/24/UE', atunci 'Tip de anunț' (BT-02) trebuie să fie 'Anunț de intenție sau anunț orientativ periodic utilizat ca procedură concurențială de ofertare - regim simplificat'sau 'Anunț de participare sau de concesionare - regim standard' sau 'Anunț de transparență ex ante voluntară' sau 'Anunț de atribuire a contractului sau a concesiunii - regim standard' sau 'Anunț de atribuire a contractului sau a concesiunii - regim simplificat'</entry>
-<entry key="rule|text|BR-BT-00002-0101">Dacă 'Temei juridic' (BT-01) este 'Directiva 2014/24/UE', atunci 'Natura suplimentară a contractului' (BT-531) trebuie să fie diferit de 'Bunuri'</entry>
+<entry key="rule|text|BR-BT-00002-0101">Dacă 'Temei juridic' (BT-01) este 'Directiva 2014/23/UE', atunci 'Natura suplimentară a contractului' (BT-531) trebuie să fie diferit de 'Bunuri'</entry>
 <entry key="rule|text|BR-BT-00002-0102">Dacă 'Temei juridic' (BT-01) este 'Directiva 2014/24/UE', atunci 'Natura suplimentară a contractului' (BT-531) trebuie să fie diferit de 'Anunț de subcontractare'</entry>
 <entry key="rule|text|BR-BT-00002-0103">Dacă 'Tip de formular' (BT-03) este 'Informații privind statutul în Registrul Comerțului', atunci 'Tip de anunț' (BT-02) trebuie să fie 'Anunț privind o societate europeană/societate cooperativă europeană'sau 'Anunț privind un Grup european de interes economic'</entry>
 <entry key="rule|text|BR-BT-00002-0105">Dacă 'Tip de formular' (BT-03) este 'Procedură concurențială', atunci 'Tip de anunț' (BT-02) trebuie să fie 'Anunț de intenție sau anunț orientativ periodic utilizat ca procedură concurențială de ofertare - regim simplificat', 'Anunț de intenție sau anunț orientativ periodic utilizat ca procedură concurențială de ofertare - regim standard', 'Anunț privind existența unui sistem de calificare', 'Anunț de participare - regim simplificat', 'Anunț de participare sau de concesionare - regim standard', 'Anunț de subcontractare' sau 'Anunț de concurs de proiecte'</entry>
@@ -25501,7 +25501,7 @@
 <entry key="rule|text|BR-OPT-00202-0049">OPT-202-UBO nu este permis în tipul de anunț '40'</entry>
 <entry key="rule|text|BR-OPT-00202-0052">OPT-202-UBO trebuie să corespundă următorului model: BeneficialOwnerID</entry>
 <entry key="rule|text|BR-OPT-00202-0100">Valoarea 'ID – Beneficiar' (OPT-202-UBO) trebuie să fie o valoare unică</entry>
-<entry key="rule|text|BR-OPT-00202-0101">Orice 'ID – Beneficiar' (OPT-202-UBO) existent trebuie să fie asociat cu cel puțin un 'Referința beneficiarului real'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00202-0101">Orice 'UBO technical ID (UBO-XXX)' (OPT-202-UBO) existent trebuie să fie asociat cu cel puțin un 'Organizația care îndeplinește acest rol'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00210-0001">OPT-210-Tenderer nu este permis în tipul de anunț 'X01'</entry>
 <entry key="rule|text|BR-OPT-00210-0002">OPT-210-Tenderer nu este permis în tipul de anunț 'X02'</entry>
 <entry key="rule|text|BR-OPT-00210-0004">OPT-210-Tenderer nu este permis în tipul de anunț '1'</entry>
@@ -25533,7 +25533,7 @@
 <entry key="rule|text|BR-OPT-00210-0052">OPT-210-Tenderer trebuie să corespundă următorului model: TenderPartyID</entry>
 <entry key="rule|text|BR-OPT-00210-0100">Valoarea 'ID – Parte care participă la licitație' (OPT-210-Tenderer) trebuie să fie o valoare unică</entry>
 <entry key="rule|text|BR-OPT-00210-0101">Pentru fiecare 'ID – Parte care participă la licitație' (OPT-210), dacă există mai mulți ofertanți (OPT-300-Tenderer), atunci trebuie să existe exact un 'Lider de grup' (OPT-170)</entry>
-<entry key="rule|text|BR-OPT-00210-0102">Orice 'ID – Parte care participă la licitație' (OPT-210-Tenderer) existent trebuie să fie asociat cu cel puțin un 'Referința beneficiarului real'(OPT-302-Organization)</entry>
+<entry key="rule|text|BR-OPT-00210-0102">Orice 'ID tehnic al părții care licitează (TPA-XXX)' (OPT-210-Tenderer) existent trebuie să fie asociat cu cel puțin un 'Organizația care îndeplinește acest rol'(OPT-302-Organization)</entry>
 <entry key="rule|text|BR-OPT-00300-0001">OPT-300-Contract-Signatory nu este permis în tipul de anunț 'X01'</entry>
 <entry key="rule|text|BR-OPT-00300-0002">OPT-300-Contract-Signatory nu este permis în tipul de anunț 'X02'</entry>
 <entry key="rule|text|BR-OPT-00300-0004">OPT-300-Contract-Signatory nu este permis în tipul de anunț '1'</entry>
