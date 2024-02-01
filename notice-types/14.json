@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.138",
-    "createdOn" : "2024-01-26T13:07:02"
+    "version" : "1.10.146",
+    "createdOn" : "2024-02-01T13:49:14"
   },
   "noticeId" : "14",
   "metadata" : [ {
@@ -1186,13 +1186,13 @@
           "description" : "Selection Criteria Second Stage Invite",
           "_label" : "field|name|BT-40-Lot"
         }, {
-          "id" : "GR-Lot-SelectionCriteria-SecondStageInvite ",
+          "id" : "GR-Lot-SelectionCriteria-SecondStageInvite",
           "contentType" : "group",
           "displayType" : "GROUP",
           "description" : "Parameter (Number & Code) for a Second Stage Criterion",
-          "_label" : "group|name|GR-Lot-SelectionCriteria-SecondStageInvite ",
+          "_label" : "group|name|GR-Lot-SelectionCriteria-SecondStageInvite",
           "content" : [ {
-            "id" : "GR-Lot-SelectionCriteria-SecondStageInvite-Weight ",
+            "id" : "GR-Lot-SelectionCriteria-SecondStageInvite-Weight",
             "contentType" : "group",
             "nodeId" : "ND-SecondStageWeightCriterionParameter",
             "displayType" : "GROUP",
@@ -1212,7 +1212,7 @@
               "_label" : "field|name|BT-752-Lot-WeightNumber"
             } ]
           }, {
-            "id" : "GR-Lot-SelectionCriteria-SecondStageInvite-Threshold ",
+            "id" : "GR-Lot-SelectionCriteria-SecondStageInvite-Threshold",
             "contentType" : "group",
             "nodeId" : "ND-SecondStageThresholdCriterionParameter",
             "displayType" : "GROUP",

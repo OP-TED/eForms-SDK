@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.138",
-    "createdOn" : "2024-01-26T13:07:02"
+    "version" : "1.10.146",
+    "createdOn" : "2024-02-01T13:49:14"
   },
   "noticeId" : "1",
   "metadata" : [ {
@@ -232,7 +232,7 @@
           "_label" : "field|name|BT-01(d)-Procedure"
         } ]
       }, {
-        "id" : "GR-Procedure-LocalLegalBasisNoID ",
+        "id" : "GR-Procedure-LocalLegalBasisNoID",
         "contentType" : "group",
         "nodeId" : "ND-LocalLegalBasisNoID",
         "displayType" : "GROUP",
