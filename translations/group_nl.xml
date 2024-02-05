@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Beschrijving van het perceel</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organisatie die documenten verstrekt</entry>
 <entry key="group|name|GR-Lot-EUFunds">Gebruik van EU-middelen</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">Gebruik van EU-financiering</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Deelnemers reeds geselecteerd</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Elektronische catalogus</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Elektronische handtekening</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Beschrijving van de procedure (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Beschrijving van de procedure (later gepubliceerd)</entry>
 <entry key="group|name|GR-Winner">Winnaar</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Versnelde procedure</entry>
 <entry key="group|name|ND-AccessibilityJustification">Rechtvaardiging voor de afwezigheid van toegankelijkheidscriteria</entry>
+<entry key="group|name|ND-Asset">Activa die contractverlenging rechtvaardigen</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jurylid</entry>
 <entry key="group|name|ND-BusinessCapability">Bedrijfsactiviteit</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Aanvragen voor beroep</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Koper</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Land van herkomst (later gepubliceerd)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Grensoverschrijdend recht</entry>
+<entry key="group|name|ND-DirectAward">Onderhandse gunning</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Code rechtvaardiging onderhandse gunning (later gepubliceerd)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID van de eerdere procedure die onderhandse gunning rechtvaardigt (later gepubliceerd)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Rechtvaardiging voor onderhandse gunning (later gepubliceerd)</entry>
+<entry key="group|name|ND-EuEntity">EU-registratienummer</entry>
 <entry key="group|name|ND-ExclusionGrounds">Uitsluitingsgronden</entry>
 <entry key="group|name|ND-ExecutionRequirements">Voorwaarden van uitvoering</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Contractverlenging</entry>
 <entry key="group|name|ND-FinancingParty">Financieringsorganisatie</entry>
 <entry key="group|name|ND-Funding">EU-fondsen</entry>
+<entry key="group|name|ND-GazetteReference">Verwijzing naar de publicatie</entry>
 <entry key="group|name|ND-GroupComposition">Samenstelling van een groep percelen</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Lot behorend tot de groep</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identificatiecode maximumwaarde groep (later gepubliceerd)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Aanbestedingsdocumenten in niet-officiële taal</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Aanbestedingsdocumenten in officiële taal</entry>
 <entry key="group|name|ND-LotECatalog">eCatalogus</entry>
+<entry key="group|name|ND-LotEInvoicing">eFacturatie</entry>
 <entry key="group|name|ND-LotESignature">eHandtekening</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Milieueffect van de aanbesteding</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Raamovereenkomst</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Aantal ontvangen inschrijvingen (later gepubliceerd)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Type ontvangen inschrijvingen (later gepubliceerd)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistieken over de ontvangen inschrijvingen</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Herziene waarde (later gepubliceerd)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistieken over aanvragen voor beroep</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Aantal onregelmatigheden aangevraagd beroep (later gepubliceerd)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Type onregelmatigheid aangevraagd beroep (later gepubliceerd)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Waarde onderaanneming is bekend (later gepubliceerd)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Waarde onderaanneming (later gepubliceerd)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Volgorde inschrijving (later gepubliceerd)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Waarde van de hoogste inschrijving (later gepubliceerd)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Waarde van de laagste inschrijving (later gepubliceerd)</entry>
 <entry key="group|name|ND-Tenderer">Inschrijvers</entry>
 <entry key="group|name|ND-TenderingParty">Inschrijver</entry>
 <entry key="group|name|ND-Touchpoint">Specifieke contactpunten</entry>

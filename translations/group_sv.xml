@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Beskrivning av delkontraktet</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organisation som tillhandahåller dokument</entry>
 <entry key="group|name|GR-Lot-EUFunds">Användning av EU-medel</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">Användning av EU-finansiering</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Redan utvalda deltagare</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Elektronisk katalog</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Elektronisk signatur</entry>
@@ -87,9 +88,9 @@
 <entry key="group|name|GR-LotResult-Section">Delkontraktens resultat</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Anbudsvärde</entry>
 <entry key="group|name|GR-LotTender">Inlämnat anbud</entry>
-<entry key="group|name|GR-LotTender-1">Anbud 1</entry>
-<entry key="group|name|GR-LotTender-2">Anbud 2</entry>
-<entry key="group|name|GR-LotTender-3">Anbud 3</entry>
+<entry key="group|name|GR-LotTender-1">Anbud 1</entry>
+<entry key="group|name|GR-LotTender-2">Anbud 2</entry>
+<entry key="group|name|GR-LotTender-3">Anbud 3</entry>
 <entry key="group|name|GR-LotTender-Penalties">Priser och sanktioner</entry>
 <entry key="group|name|GR-LotTender-Section">Anbud</entry>
 <entry key="group|name|GR-LotTender-Subcontracting">Underentreprenad</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Beskrivning av förfarandet (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Beskrivning av förfarandet (publiceras senare)</entry>
 <entry key="group|name|GR-Winner">Vinnare</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Förenklat förfarande</entry>
 <entry key="group|name|ND-AccessibilityJustification">Motivering till varför inte tillgänglighet beaktas</entry>
+<entry key="group|name|ND-Asset">Tillgångar som motiverar kontraktsförlängning</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jurymedlem</entry>
 <entry key="group|name|ND-BusinessCapability">Affärsverksamhet</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Ansökningar om prövning</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Köpare</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Ursprungsland (publiceras senare)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Gränsöverskridande lagstiftning</entry>
+<entry key="group|name|ND-DirectAward">Direkttilldelning</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Kod för motivering av direkttilldelning (publiceras senare)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID för tidigare upphandling som motiverar direkttilldelning (publiceras senare)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Motivering av direkttilldelning (publiceras senare)</entry>
+<entry key="group|name|ND-EuEntity">EU-registreringsnummer</entry>
 <entry key="group|name|ND-ExclusionGrounds">Uteslutningsgrunder</entry>
 <entry key="group|name|ND-ExecutionRequirements">Utförandevillkor</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Förlängning av kontrakt</entry>
 <entry key="group|name|ND-FinancingParty">Finansieringsorganisation</entry>
 <entry key="group|name|ND-Funding">EU-medel</entry>
+<entry key="group|name|ND-GazetteReference">Referens till publikationen</entry>
 <entry key="group|name|ND-GroupComposition">Sammansättning av grupp av delkontrakt</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Del som tillhör gruppen</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identifierare för högsta värde inom en grupp (publiceras senare)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Upphandlingdokument på inofficiellt språk</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Upphandlingdokument på officiellt språk</entry>
 <entry key="group|name|ND-LotECatalog">eKatalog</entry>
+<entry key="group|name|ND-LotEInvoicing">eFakturering</entry>
 <entry key="group|name|ND-LotESignature">eSignatur</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Miljöpåverkan av upphandlingen</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Ramavtal</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Antal inkomna anbud m.m. (publiceras senare)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Typ av inkomna anbud (publiceras senare)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistik över inkomna anbud</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Omberäknat värde (publicerat senare)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistik över prövningsansökningar</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Antal prövningsansökningar som gäller oriktigheter (publiceras senare)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Typ av oriktigheter i prövningsansökningar (publiceras senare)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Underentreprenadens värde är känt (publiceras senare)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Underentreprenadens värde (publiceras senare)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Anbudets placering (publiceras senare)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Värdet på det högsta anbudet (publicerat senare)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Värdet på det lägsta anbudet (publicerat senare)</entry>
 <entry key="group|name|ND-Tenderer">Anbudsgivare</entry>
 <entry key="group|name|ND-TenderingParty">Anbudsgivare</entry>
 <entry key="group|name|ND-Touchpoint">Särskilda kontaktpunkter</entry>

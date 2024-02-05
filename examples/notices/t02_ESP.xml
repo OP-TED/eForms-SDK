@@ -263,6 +263,7 @@
 	<cac:ProcurementProject>
 		<cbc:ID schemeName="InternalID">77635</cbc:ID>
 		<cbc:Name languageID="SPA">Public transport services by railways</cbc:Name>
+		<cbc:Description languageID="SPA">Description of public transport services by railways</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="SPA">Any additional information blabla ...</cbc:Note>
 		<cac:ProcurementAdditionalType>

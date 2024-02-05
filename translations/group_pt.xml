@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Descrição do lote</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organização que fornece documentos</entry>
 <entry key="group|name|GR-Lot-EUFunds">Utilização de fundos da UE</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">Uso do financiamento da UE</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Participantes já selecionados</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Catálogo eletrónico</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Assinatura eletrónica</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Descrição do processo (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Descrição do processo (publicação mais tarde)</entry>
 <entry key="group|name|GR-Winner">Vencedor</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Procedimento acelerado</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justificação da falta de critérios de acessibilidade</entry>
+<entry key="group|name|ND-Asset">Ativos que justificam a prorrogação do contrato</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membro do júri</entry>
 <entry key="group|name|ND-BusinessCapability">Atividade empresarial</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Pedidos de recurso</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Adquirente</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">País de origem (publicado posteriormente)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Legislação transfronteiras</entry>
+<entry key="group|name|ND-DirectAward">Adjudicação direta</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Código da justificação da adjudicação direta (publicação mais tarde)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Identificador do procedimento anterior que justifica a adjudicação direta (publicação mais tarde)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justificação para adjudicação direta (publicação mais tarde)</entry>
+<entry key="group|name|ND-EuEntity">Número de registo da UE</entry>
 <entry key="group|name|ND-ExclusionGrounds">Motivos de exclusão</entry>
 <entry key="group|name|ND-ExecutionRequirements">Termos de execução</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Prorrogação do contrato</entry>
 <entry key="group|name|ND-FinancingParty">Organização financiadora</entry>
 <entry key="group|name|ND-Funding">Fundos da UE</entry>
+<entry key="group|name|ND-GazetteReference">Referência à publicação</entry>
 <entry key="group|name|ND-GroupComposition">Composição do grupo de lotes</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Lote pertencente ao grupo</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identificador do valor máximo do grupo (publicação mais tarde)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Documento de contratação em idioma não oficial</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Documento de contratação em idioma oficial</entry>
 <entry key="group|name|ND-LotECatalog">eCatálogo</entry>
+<entry key="group|name|ND-LotEInvoicing">eFaturação</entry>
 <entry key="group|name|ND-LotESignature">eAssinatura</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Impacto ambiental da contratação</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Acordo-quadro</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Número de apresentações recebidas (publicação mais tarde)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Tipo de apresentação recebida (publicação mais tarde)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Estatísticas das apresentações recebidas</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Valor reestimado (publicado mais tarde)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Estatísticas sobre pedidos de recurso</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Número de irregularidades de pedidos de recurso (publicação mais tarde)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Tipo de irregularidade de pedidos de recurso (publicação mais tarde)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">O valor da subcontratação é conhecido (publicação mais tarde)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Valor da subcontratação (publicação mais tarde)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Classificação da proposta (publicação mais tarde)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Valor da proposta mais alta (publicado mais tarde)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Valor da proposta mais baixa (publicado mais tarde)</entry>
 <entry key="group|name|ND-Tenderer">Entidades proponentes</entry>
 <entry key="group|name|ND-TenderingParty">Entidade proponente</entry>
 <entry key="group|name|ND-Touchpoint">Pontos de contacto específicos</entry>

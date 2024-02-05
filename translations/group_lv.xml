@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Daļas apraksts</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organizācija, kas sniedz dokumentus</entry>
 <entry key="group|name|GR-Lot-EUFunds">ES fondu līdzekļu izmantojums</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">ES finansējuma izmantošana</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Jau atlasītie dalībnieki</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Elektroniskais katalogs</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Elektroniskais paraksts</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Procedūras apraksts (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Procedūras apraksts (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Winner">Uzvarētājs</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Ātrināta procedūra</entry>
 <entry key="group|name|ND-AccessibilityJustification">Pamatojums piekļūstamības kritēriju neesamībai</entry>
+<entry key="group|name|ND-Asset">Īpašums, kas attaisno līguma pagarināšanu</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Žūrijas loceklis</entry>
 <entry key="group|name|ND-BusinessCapability">Biznesa aktivitāte</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Pārskatāmie pieprasījumi</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Pircējs</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Valsts izcelsme (publicēts vēlāk)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Tiesību akti pārrobežu situācijās</entry>
+<entry key="group|name|ND-DirectAward">Tieša piešķiršana</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Tiešas piešķiršanas pamatojuma kods (publicēts vēlāk)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Tiešo piešķiršanu pamatojošās iepriekšējās procedūras ID (publicēts vēlāk)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Tiešas piešķiršanas pamatojums (publicēts vēlāk)</entry>
+<entry key="group|name|ND-EuEntity">ES reģistrācijas numurs</entry>
 <entry key="group|name|ND-ExclusionGrounds">Izslēgšanas iemesli</entry>
 <entry key="group|name|ND-ExecutionRequirements">Izpildes nosacījumi</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Līguma pagarināšana</entry>
 <entry key="group|name|ND-FinancingParty">Finansēšanas organizācija</entry>
 <entry key="group|name|ND-Funding">ES fondi</entry>
+<entry key="group|name|ND-GazetteReference">Atsauce uz publikāciju</entry>
 <entry key="group|name|ND-GroupComposition">Daļu grupas sastāvs</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Grupai piederošā daļa</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Grupas maksimālās vērtības identifikators (publicēts vēlāk)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Iepirkuma dokumenti neoficiālā valodā</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Iepirkuma dokumenti oficiālā valodā</entry>
 <entry key="group|name|ND-LotECatalog">eKatalogs</entry>
+<entry key="group|name|ND-LotEInvoicing">eRēķinu izrakstīšana</entry>
 <entry key="group|name|ND-LotESignature">eParaksts</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Iepirkuma ietekme uz vidi</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Ietvarlīgums</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Saņemto piedāvājumu un pieteikumu skaits (publicēts vēlāk)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Saņemto piedāvājumu un pieteikumu veids (publicēts vēlāk)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Saņemto piedāvājumu un pieteikumu statistika</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Pārskatītā vērtība (publicēta vēlāk)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistika par pārskatīšanas pieprasījumiem</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Pārskatīšanas pieprasījumos norādīto pārkāpumu skaits (publicēts vēlāk)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Pārskatīšanas pieprasījumos norādīto pārkāpumu raksturs (publicēts vēlāk)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Apakšuzņēmuma līguma vērtība ir zināma (publicēta vēlāk)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Apakšuzņēmuma līguma vērtība (publicēta vēlāk)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Piedāvājumu vieta (publicēts vēlāk)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Augstākā piedāvājuma vērtība (publicēts vēlāk)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Zemākā piedāvājuma vērtība (publicēts vēlāk)</entry>
 <entry key="group|name|ND-Tenderer">Konkursa dalībnieki</entry>
 <entry key="group|name|ND-TenderingParty">Konkursa dalībnieks</entry>
 <entry key="group|name|ND-Touchpoint">Īpaši kontaktpunkti</entry>

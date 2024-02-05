@@ -97,7 +97,6 @@
 		<cbc:Description languageID="ENG">Main features of the procedure (BT-88-Procedure)
 </cbc:Description>
 		<cbc:ProcedureCode listName="procurement-procedure-type">oth-mult</cbc:ProcedureCode>
-		<cbc:PartPresentationCode listName="tenderlot-presentation">all</cbc:PartPresentationCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Procurement title vol3</cbc:Name>

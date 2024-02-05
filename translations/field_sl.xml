@@ -93,7 +93,6 @@
 <entry key="field|description|BT-15-Lot">Internetni naslov za dostop do dokumentov (tistega dela dokumentov, za katerega ne veljajo omejitve) v zvezi z oddajo javnega naročila. Pri vseh obvestilih, razen predhodnih informativnih obvestil, je v naslovu naveden naslov za dostop, ki je neposreden (tj. točen naslov spletne strani z dokumenti, ne naslov splošnega spletišča), neomejen (brez registracije), popoln (tj. dokumentacija v zvezi z oddajo javnega naročila je popolna) in brezplačen, dokumenti so v času objave obvestila že na voljo.</entry>
 <entry key="field|description|BT-15-Part">Internetni naslov za dostop do dokumentov (tistega dela dokumentov, za katerega ne veljajo omejitve) v zvezi z oddajo javnega naročila. Pri vseh obvestilih, razen predhodnih informativnih obvestil, je v naslovu naveden naslov za dostop, ki je neposreden (tj. točen naslov spletne strani z dokumenti, ne naslov splošnega spletišča), neomejen (brez registracije), popoln (tj. dokumentacija v zvezi z oddajo javnega naročila je popolna) in brezplačen, dokumenti so v času objave obvestila že na voljo.</entry>
 <entry key="field|description|BT-150-Contract">Identifikator pogodbe oziroma sklepa v primeru prostovoljnih obvestil za predhodno transparentnost in obvestil o rezultatih projektnega natečaja. Podatki v oddelku o pogodbi se nanašajo na to pogodbo ali sklep.</entry>
-<entry key="field|description|BT-150-Contract-Scheme">Identifikator pogodbe oziroma sklepa v primeru prostovoljnih obvestil za predhodno transparentnost in obvestil o rezultatih projektnega natečaja. Podatki v oddelku o pogodbi se nanašajo na to pogodbo ali sklep.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
 <entry key="field|description|BT-1501(s)-Contract">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
@@ -1143,7 +1142,6 @@
 <entry key="field|name|BT-15-Lot">Naslov dokumentov v zvezi z oddajo javnega naročila</entry>
 <entry key="field|name|BT-15-Part">Naslov dokumentov v zvezi z oddajo javnega naročila</entry>
 <entry key="field|name|BT-150-Contract">Identifikator javnega naročila</entry>
-<entry key="field|name|BT-150-Contract-Scheme">Identifikator javnega naročila</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identifikator oddelka</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identifikator oddelka</entry>
 <entry key="field|name|BT-1501(s)-Contract">Identifikator oddelka</entry>
@@ -1698,8 +1696,8 @@
 <entry key="field|name|BT-501-Business-National">Registrska številka</entry>
 <entry key="field|name|BT-501-Business-National-Scheme">Registrska številka</entry>
 <entry key="field|name|BT-501-Organization-Company">Registrska številka</entry>
-<entry key="field|name|BT-5010-Lot">Identifikator sredstev EU</entry>
-<entry key="field|name|BT-5011-Contract">Identifikator sredstev EU</entry>
+<entry key="field|name|BT-5010-Lot">Identifikator sredstev EU</entry>
+<entry key="field|name|BT-5011-Contract">Identifikator sredstev EU</entry>
 <entry key="field|name|BT-502-Business">Kontaktna točka</entry>
 <entry key="field|name|BT-502-Organization-Company">Kontaktna točka</entry>
 <entry key="field|name|BT-502-Organization-TouchPoint">Kontaktna točka</entry>
@@ -1910,8 +1908,8 @@
 <entry key="field|name|BT-720-Tender-Currency">Vrednost rezultata</entry>
 <entry key="field|name|BT-721-Contract">Naslov</entry>
 <entry key="field|name|BT-721-Contract-Language">Naslov</entry>
-<entry key="field|name|BT-722-Contract">Ime projekta ali programa, ki ga financira EU</entry>
-<entry key="field|name|BT-722-Contract-List">Ime projekta ali programa, ki ga financira EU</entry>
+<entry key="field|name|BT-722-Contract">Ime projekta ali programa, ki ga financira EU</entry>
+<entry key="field|name|BT-722-Contract-List">Ime projekta ali programa, ki ga financira EU</entry>
 <entry key="field|name|BT-7220-Lot">Program sredstev EU</entry>
 <entry key="field|name|BT-7220-Lot-List">Program sredstev EU</entry>
 <entry key="field|name|BT-723-LotResult">Kategorija vozila, ki spada na področje uporabe Direktive 2009/33/ES, vključno z: lahkimi vozili (M1, M2, N1); avtobusi (M3); tovornjaki (N2, N3); M1; M2; N1; N2; N3</entry>
@@ -1960,8 +1958,8 @@
 <entry key="field|name|BT-740-Procedure-Buyer-List">Kupec je naročnik</entry>
 <entry key="field|name|BT-743-Lot">Elektronsko izdajanje računov</entry>
 <entry key="field|name|BT-743-Lot-List">Elektronsko izdajanje računov</entry>
-<entry key="field|name|BT-744-Lot">Potreben je napredni ali kvalificirani elektronski podpis ali žig (v skladu z Uredbo (EU) št. 910/2014)</entry>
-<entry key="field|name|BT-744-Lot-List">Potreben je napredni ali kvalificirani elektronski podpis ali žig (v skladu z Uredbo (EU) št. 910/2014)</entry>
+<entry key="field|name|BT-744-Lot">Potreben je napredni ali kvalificirani elektronski podpis ali žig (v skladu z Uredbo (EU) št. 910/2014)</entry>
+<entry key="field|name|BT-744-Lot-List">Potreben je napredni ali kvalificirani elektronski podpis ali žig (v skladu z Uredbo (EU) št. 910/2014)</entry>
 <entry key="field|name|BT-745-Lot">Opis</entry>
 <entry key="field|name|BT-745-Lot-Language">Opis</entry>
 <entry key="field|name|BT-746-Organization">Zmagovalec kotira na reguliranem trgu</entry>

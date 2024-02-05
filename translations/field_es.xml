@@ -93,7 +93,6 @@
 <entry key="field|description|BT-15-Lot">La dirección de internet para acceder a (la parte no restringida de) los documentos de contratación. Para todos los anuncios, salvo los anuncios de información previa, la dirección dará acceso directo (la página web exacta con los documentos, no un sitio web general), no restringido (sin registro), completo (los documentos de contratación deben estar completos) y gratuito, y los documentos estarán disponibles desde el momento de la publicación del anuncio.</entry>
 <entry key="field|description|BT-15-Part">La dirección de internet para acceder a (la parte no restringida de) los documentos de contratación. Para todos los anuncios, salvo los anuncios de información previa, la dirección dará acceso directo (la página web exacta con los documentos, no un sitio web general), no restringido (sin registro), completo (los documentos de contratación deben estar completos) y gratuito, y los documentos estarán disponibles desde el momento de la publicación del anuncio.</entry>
 <entry key="field|description|BT-150-Contract">Un identificador del contrato o, en caso de anuncios de transparencia previa voluntaria o anuncios de resultados de concursos de proyectos, de la decisión. La información de la sección del contrato se refiere a este contrato o esta decisión.</entry>
-<entry key="field|description|BT-150-Contract-Scheme">Un identificador del contrato o, en caso de anuncios de transparencia previa voluntaria o anuncios de resultados de concursos de proyectos, de la decisión. La información de la sección del contrato se refiere a este contrato o esta decisión.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
 <entry key="field|description|BT-1501(s)-Contract">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
@@ -1143,7 +1142,6 @@
 <entry key="field|name|BT-15-Lot">Dirección de los pliegos de contratación</entry>
 <entry key="field|name|BT-15-Part">Dirección de los pliegos de contratación</entry>
 <entry key="field|name|BT-150-Contract">Identificador del contrato</entry>
-<entry key="field|name|BT-150-Contract-Scheme">Identificador del contrato</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identificador de sección</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identificador de sección</entry>
 <entry key="field|name|BT-1501(s)-Contract">Identificador de sección</entry>
@@ -1960,8 +1958,8 @@
 <entry key="field|name|BT-740-Procedure-Buyer-List">El comprador es una entidad adjudicadora</entry>
 <entry key="field|name|BT-743-Lot">Facturación electrónica</entry>
 <entry key="field|name|BT-743-Lot-List">Facturación electrónica</entry>
-<entry key="field|name|BT-744-Lot">Son necesarios el sello o la firma electrónicos avanzados o cualificados [como se definen en el Reglamento (UE) nº 910/2014]</entry>
-<entry key="field|name|BT-744-Lot-List">Son necesarios el sello o la firma electrónicos avanzados o cualificados [como se definen en el Reglamento (UE) nº 910/2014]</entry>
+<entry key="field|name|BT-744-Lot">Son necesarios el sello o la firma electrónicos avanzados o cualificados [como se definen en el Reglamento (UE) nº 910/2014]</entry>
+<entry key="field|name|BT-744-Lot-List">Son necesarios el sello o la firma electrónicos avanzados o cualificados [como se definen en el Reglamento (UE) nº 910/2014]</entry>
 <entry key="field|name|BT-745-Lot">Descripción</entry>
 <entry key="field|name|BT-745-Lot-Language">Descripción</entry>
 <entry key="field|name|BT-746-Organization">El ganador cotiza en un mercado regulado</entry>
@@ -2096,8 +2094,8 @@
 <entry key="field|name|OPA-98-Lot-Number">Plazo en el que la oferta debe seguir siendo válida</entry>
 <entry key="field|name|OPP-010-notice">Número de publicación del anuncio</entry>
 <entry key="field|name|OPP-010-notice-Scheme">Número de publicación del anuncio</entry>
-<entry key="field|name|OPP-011-notice">Número de la edición del DO S</entry>
-<entry key="field|name|OPP-011-notice-Scheme">Número de la edición del DO S</entry>
+<entry key="field|name|OPP-011-notice">Número de la edición del DO S</entry>
+<entry key="field|name|OPP-011-notice-Scheme">Número de la edición del DO S</entry>
 <entry key="field|name|OPP-012-notice">Fecha de publicación</entry>
 <entry key="field|name|OPP-020-Contract">La duración del contrato se amplía debido a los activos esenciales necesarios para la prestación del servicio</entry>
 <entry key="field|name|OPP-021-Contract">Lista de activos utilizados para la prestación de servicios públicos</entry>

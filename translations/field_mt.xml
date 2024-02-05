@@ -93,7 +93,6 @@
 <entry key="field|description|BT-15-Lot">L-indirizz web għall-aċċess għad-dokumenti tal-akkwist (il-parti mhux ristretta tagħhom). Għall-avviżi kollha għajr l-avviżi informattivi minn qabel, l-indirizz għandu jagħti aċċess li jkun dirett (jiġifieri l-paġna web eżatta bid-dokumenti, mhux sit web ġenerali), mhux ristrett (eż. l-ebda reġistrazzjoni), sħiħ (jiġifieri d-dokumenti tal-akkwist huma kompluti), mingħajr ħlas, u d-dokumenti għandhom ikunu disponibbli diġà fil-mument tal-pubblikazzjoni tal-avviż.</entry>
 <entry key="field|description|BT-15-Part">L-indirizz web għall-aċċess għad-dokumenti tal-akkwist (il-parti mhux ristretta tagħhom). Għall-avviżi kollha għajr l-avviżi informattivi minn qabel, l-indirizz għandu jagħti aċċess li jkun dirett (jiġifieri l-paġna web eżatta bid-dokumenti, mhux sit web ġenerali), mhux ristrett (eż. l-ebda reġistrazzjoni), sħiħ (jiġifieri d-dokumenti tal-akkwist huma kompluti), mingħajr ħlas, u d-dokumenti għandhom ikunu disponibbli diġà fil-mument tal-pubblikazzjoni tal-avviż.</entry>
 <entry key="field|description|BT-150-Contract">Identifikatur tal-kuntratt jew, f’każ ta’ avviżi ta’ trasparenza ex ante volontarja u avviżi dwar ir-riżultat ta’ konkors ta’ disinn, tad-deċiżjoni. L-informazzjoni fit-taqsima tal-kuntratt tirreferi għal dan il-kuntratt jew għal din id-deċiżjoni.</entry>
-<entry key="field|description|BT-150-Contract-Scheme">Identifikatur tal-kuntratt jew, f’każ ta’ avviżi ta’ trasparenza ex ante volontarja u avviżi dwar ir-riżultat ta’ konkors ta’ disinn, tad-deċiżjoni. L-informazzjoni fit-taqsima tal-kuntratt tirreferi għal dan il-kuntratt jew għal din id-deċiżjoni.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
 <entry key="field|description|BT-1501(s)-Contract">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
@@ -1143,7 +1142,6 @@
 <entry key="field|name|BT-15-Lot">Indirizz tad-dokumenti tal-akkwist</entry>
 <entry key="field|name|BT-15-Part">Indirizz tad-dokumenti tal-akkwist</entry>
 <entry key="field|name|BT-150-Contract">Identifikatur tal-kuntratt</entry>
-<entry key="field|name|BT-150-Contract-Scheme">Identifikatur tal-kuntratt</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identifikatur tas-sezzjoni</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identifikatur tas-sezzjoni</entry>
 <entry key="field|name|BT-1501(s)-Contract">Identifikatur tas-sezzjoni</entry>
@@ -1960,8 +1958,8 @@
 <entry key="field|name|BT-740-Procedure-Buyer-List">Ix-xerrej huwa entità kontraenti</entry>
 <entry key="field|name|BT-743-Lot">Fatturazzjoni elettronika</entry>
 <entry key="field|name|BT-743-Lot-List">Fatturazzjoni elettronika</entry>
-<entry key="field|name|BT-744-Lot">Huma meħtieġa firma jew siġill elettroniku avvanzat jew kwalifikat (kif definit fir-Regolament (UE) Nru 910/2014)</entry>
-<entry key="field|name|BT-744-Lot-List">Huma meħtieġa firma jew siġill elettroniku avvanzat jew kwalifikat (kif definit fir-Regolament (UE) Nru 910/2014)</entry>
+<entry key="field|name|BT-744-Lot">Huma meħtieġa firma jew siġill elettroniku avvanzat jew kwalifikat (kif definit fir-Regolament (UE) Nru 910/2014)</entry>
+<entry key="field|name|BT-744-Lot-List">Huma meħtieġa firma jew siġill elettroniku avvanzat jew kwalifikat (kif definit fir-Regolament (UE) Nru 910/2014)</entry>
 <entry key="field|name|BT-745-Lot">Deskrizzjoni</entry>
 <entry key="field|name|BT-745-Lot-Language">Deskrizzjoni</entry>
 <entry key="field|name|BT-746-Organization">Ir-rebbieħ huwa elenkat f’suq regolat</entry>

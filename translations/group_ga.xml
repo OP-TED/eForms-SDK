@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Cur síos ar an luchtóg</entry>
 <entry key="group|name|GR-Lot-DocProvider">An eagraíocht a chuireann doiciméid ar fáil</entry>
 <entry key="group|name|GR-Lot-EUFunds">Úsáid chistí an Aontais</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">Úsáid airgeadais ón AE</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Rannpháirtithe atá roghnaithe cheana féin</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Catalóg leictreonach</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Síniú leictreonach</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Cur síos ar an nós imeachta (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Cur síos ar an nós imeachta (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Winner">Buaiteoir</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Próiseas gasta</entry>
 <entry key="group|name|ND-AccessibilityJustification">An bonn cirt atá le gan critéir inrochtaineachta a bheith ann</entry>
+<entry key="group|name|ND-Asset">Sócmhainní a chuireann síneadh conartha i gceart</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Ball de bhreithimh</entry>
 <entry key="group|name|ND-BusinessCapability">Gníomhaíocht ghnó</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Iarratais ar athbhreithniú</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Ceannaitheoir</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Tír tháirgthe (fhoilsithe níos déanaí)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Dlí trasteorann</entry>
+<entry key="group|name|ND-DirectAward">Dámhachtain dhíreach</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Cód an bhoinn cirt atá le dámhachtain dhíreach (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Aitheantas an nós imeachta roimhe sin lena dtugtar bonn cirt maith le dámhachtain dhíreach (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">An bonn cirt le dámhachtain dhíreach (le foilsiú níos déanaí)</entry>
+<entry key="group|name|ND-EuEntity">Uimhir clárúcháin an AE</entry>
 <entry key="group|name|ND-ExclusionGrounds">Forais eisiaimh</entry>
 <entry key="group|name|ND-ExecutionRequirements">Téarmaí feidhme</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Síneadh conartha</entry>
 <entry key="group|name|ND-FinancingParty">Eagraíocht maoinithe</entry>
 <entry key="group|name|ND-Funding">Maoiniú AE</entry>
+<entry key="group|name|ND-GazetteReference">Tagairt don fhoilsiú</entry>
 <entry key="group|name|ND-GroupComposition">Comhdhéanamh grúpa beart</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Sraith a bhaineann leis an ngrúpa</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Aitheantóir uasluach an ghrúpa (le foilsiú níos déanaí)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Doiciméid earcaíochta i dteanga neamhoifigiúil</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Doiciméid earcaíochta i dteanga oifigiúil</entry>
 <entry key="group|name|ND-LotECatalog">eCatagóir</entry>
+<entry key="group|name|ND-LotEInvoicing">Ríomh-Invoicing</entry>
 <entry key="group|name|ND-LotESignature">eSínithe</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Tionchar comhshaoil na gconarthaí</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Comhaontú creatlach</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Líon na n-aighneachtaí a fuarthas (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">An cineál aighneachta a fuarthas (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Staitisticí na n-aighneachtaí a fuarthas</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Luach ath-mheasúnaithe (foilsithe níos déanaí)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Staitisticí maidir le hiarratais ar athbhreithniú</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Comhaireamh neamhrialtachta na n-iarratas ar athbhreithniú (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Cineál neamhrialtachta na n-iarratas ar athbhreithniú (le foilsiú níos déanaí)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Is eol luach na fochonraitheoireachta (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Luach na fochonraitheoireachta (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Aicmiú na tairisceana (le foilsiú níos déanaí)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Luach an tairiscint is airde (foilsithe níos déanaí)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Luach an tairiscint is ísle (foilsithe níos déanaí)</entry>
 <entry key="group|name|ND-Tenderer">Na páirtithe sa phróiseas tairisceana</entry>
 <entry key="group|name|ND-TenderingParty">An páirtí sa phróiseas tairisceana</entry>
 <entry key="group|name|ND-Touchpoint">Pointí teagmhála sonracha</entry>

@@ -18,6 +18,10 @@
 							<efac:DecisionReason>
 								<efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
 							</efac:DecisionReason>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
@@ -28,6 +32,10 @@
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
@@ -44,8 +52,11 @@
 						</efac:LotResult>
 						<efac:LotTender>
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="EUR">100000</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
 							<efac:SubcontractingTerm>
-								<efbc:TermCode>_DEFAULT_VALUE_CHANGE_ME_</efbc:TermCode>
+								<efbc:TermCode>not-known</efbc:TermCode>
 								<efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
 							</efac:SubcontractingTerm>
 							<efac:TenderingParty>

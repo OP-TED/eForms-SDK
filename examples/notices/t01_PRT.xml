@@ -110,6 +110,7 @@
 	<cac:ProcurementProject>
 		<cbc:ID schemeName="InternalID">RA/DAF/SERV-96/18</cbc:ID>
 		<cbc:Name languageID="POR">Public road transport services</cbc:Name>
+		<cbc:Description languageID="POR">Description of public road transport services</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="POR">Some additional information on the procurement ... blablabla</cbc:Note>
 		<cac:ProcurementAdditionalType>

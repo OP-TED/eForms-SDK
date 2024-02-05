@@ -33,6 +33,7 @@
 <entry key="group|name|GR-Lot-Description">Opis grupe</entry>
 <entry key="group|name|GR-Lot-DocProvider">Organizacija koja dostavlja dokumente</entry>
 <entry key="group|name|GR-Lot-EUFunds">Upotreba fondova EU-a</entry>
+<entry key="group|name|GR-Lot-EUFunds-Indicator">Korištenje financiranja iz EU-a</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Već odabrani sudionici</entry>
 <entry key="group|name|GR-Lot-ElectronicCatalog">Elektronički katalog</entry>
 <entry key="group|name|GR-Lot-ElectronicSignatureRequired">Elektronički potpis</entry>
@@ -245,7 +246,9 @@
 <entry key="group|name|GR-Unpublish-BT-88">Opis postupka (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Opis postupka (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Winner">Pobjednik</entry>
+<entry key="group|name|ND-AcceleratedProcedure">Ubrazan postupak</entry>
 <entry key="group|name|ND-AccessibilityJustification">Obrazloženje nepostojanja kriterija za pristupačnost</entry>
+<entry key="group|name|ND-Asset">Imovina koja opravdava produženje ugovora</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Član žirija</entry>
 <entry key="group|name|ND-BusinessCapability">Poslovna aktivnost</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Zahtjevi za pravnu zaštitu (preispitivanje)</entry>
@@ -260,13 +263,17 @@
 <entry key="group|name|ND-ContractingParty">Kupac</entry>
 <entry key="group|name|ND-CountryOriginUnpublish">Zemlja podrijetla (objavljena kasnije)</entry>
 <entry key="group|name|ND-CrossBorderLaw">Prekogranično pravo</entry>
+<entry key="group|name|ND-DirectAward">Izravna dodjela</entry>
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Oznaka obrazloženja izravne dodjele (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID prethodnog postupka kojim se obrazlaže izravna dodjela (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Obrazloženje izravne dodjele (objavljuje se kasnije)</entry>
+<entry key="group|name|ND-EuEntity">Broj registracije EU</entry>
 <entry key="group|name|ND-ExclusionGrounds">Osnove za isključenje</entry>
 <entry key="group|name|ND-ExecutionRequirements">Uvjeti izvedbe</entry>
+<entry key="group|name|ND-ExtendedDurationJustification">Produženje ugovora</entry>
 <entry key="group|name|ND-FinancingParty">Organizacija financiranja</entry>
 <entry key="group|name|ND-Funding">EU fondovi</entry>
+<entry key="group|name|ND-GazetteReference">Referenca na publikaciju</entry>
 <entry key="group|name|ND-GroupComposition">Sastav skupine grupa</entry>
 <entry key="group|name|ND-GroupCompositionLotReference">Grupa kojoj pripada lot</entry>
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identifikator maksimalne vrijednosti skupine (objavljuje se kasnije)</entry>
@@ -304,6 +311,7 @@
 <entry key="group|name|ND-LotDocNonOfficialLanguage">Dokumenti nabave na neoficijalnom jeziku</entry>
 <entry key="group|name|ND-LotDocOfficialLanguage">Dokumenti nabave na službenom jeziku</entry>
 <entry key="group|name|ND-LotECatalog">eKatalog</entry>
+<entry key="group|name|ND-LotEInvoicing">eRačuni</entry>
 <entry key="group|name|ND-LotESignature">ePotpis</entry>
 <entry key="group|name|ND-LotEnvironmentalImpactType">Okolišni utjecaj nabave</entry>
 <entry key="group|name|ND-LotFAContractingSystem">Okvirni sporazum</entry>
@@ -392,6 +400,7 @@
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Broj zaprimljenih podnesaka (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Vrsta zaprimljenih podnesaka (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistički podaci o zaprimljenim ponudama ili zahtjevima</entry>
+<entry key="group|name|ND-ReestimatedValueUnpublish">Preprocijenjena vrijednost (objavljeno kasnije)</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistički podaci o zahtjevima za pravnu zaštitu (preispitivanje)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Broj nepravilnosti u zahtjevu za pravnu zaštitu (preispitivanje) (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Vrsta nepravilnosti u zahtjevu za pravnu zaštitu (preispitivanje) (objavljuje se kasnije)</entry>
@@ -416,6 +425,8 @@
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Vrijednost podugovaranja je poznata (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Vrijednost podugovaranja (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Položaj ponude na rang-ljestvici (objavljuje se kasnije)</entry>
+<entry key="group|name|ND-TenderValueHighestUnpublish">Vrijednost najviše ponude (objavljeno kasnije)</entry>
+<entry key="group|name|ND-TenderValueLowestUnpublish">Vrijednost najniže ponude (objavljeno kasnije)</entry>
 <entry key="group|name|ND-Tenderer">Ponuditelji</entry>
 <entry key="group|name|ND-TenderingParty">Ponuditelj</entry>
 <entry key="group|name|ND-Touchpoint">Posebne kontaktne točke</entry>

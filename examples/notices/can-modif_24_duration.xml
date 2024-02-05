@@ -252,7 +252,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
-		<cbc:ID schemeName="InternalID"> 103420</cbc:ID>
+		<cbc:ID schemeName="InternalID">103420</cbc:ID>
 		<cbc:Name languageID="ENG">Automated Laboratory Medicine Systems</cbc:Name>
 		<cbc:Description languageID="ENG">Automated laboratory medicine systems incorporating clinical chemistry, haematology, immunology and blood bank.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>

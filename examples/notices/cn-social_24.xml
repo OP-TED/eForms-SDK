@@ -270,10 +270,10 @@
 			</cac:Language>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
-			<cac:ParticipationRequestReceptionPeriod>
+			<cac:TenderSubmissionDeadlinePeriod>
 				<cbc:EndDate>2020-01-06+01:00</cbc:EndDate>
 				<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
-			</cac:ParticipationRequestReceptionPeriod>
+			</cac:TenderSubmissionDeadlinePeriod>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<cbc:ID schemeName="InternalID">0219</cbc:ID>

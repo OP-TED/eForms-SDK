@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.0",
-    "createdOn" : "2023-11-15T14:00:00"
+    "version" : "1.10.146",
+    "createdOn" : "2024-02-01T13:49:14"
   },
   "noticeId" : "1",
   "metadata" : [ {
@@ -230,6 +230,29 @@
           "displayType" : "TEXTAREA",
           "description" : "Procedure Legal Basis (Description)",
           "_label" : "field|name|BT-01(d)-Procedure"
+        } ]
+      }, {
+        "id" : "GR-Procedure-LocalLegalBasisNoID",
+        "contentType" : "group",
+        "nodeId" : "ND-LocalLegalBasisNoID",
+        "displayType" : "GROUP",
+        "description" : "Legislation impacting the procurement and for which no ID is known",
+        "_label" : "group|name|ND-LocalLegalBasisNoID",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-01(e)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Procedure Legal Basis (NoID)",
+          "_label" : "field|name|BT-01(e)-Procedure",
+          "_presetValue" : "LocalLegalBasis",
+          "hidden" : true
+        }, {
+          "id" : "BT-01(f)-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Procedure Legal Basis (NoID Description)",
+          "_label" : "field|name|BT-01(f)-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-Description",
