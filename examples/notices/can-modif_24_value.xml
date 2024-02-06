@@ -8,11 +8,9 @@
 				<efext:EformsExtension>
 					<efac:ContractModification>
 						<efbc:ChangedNoticeIdentifier schemeName="ojs-notice-id">342558-2018</efbc:ChangedNoticeIdentifier>
+						<efbc:ModifiedContractIdentifier schemeName="contract">CON-0001</efbc:ModifiedContractIdentifier>
 						<efac:Change>
 							<efbc:ChangeDescription languageID="ENG">Increase in framework value</efbc:ChangeDescription>
-							<efac:ChangedSection>
-								<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
-							</efac:ChangedSection>
 						</efac:Change>
 						<efac:ChangeReason>
 							<cbc:ReasonCode listName="modification-justification">add-wss</cbc:ReasonCode>
