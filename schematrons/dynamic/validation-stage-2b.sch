@@ -1331,6 +1331,7 @@
 		<assert id="BT-762-notice_D" role="ERROR" test="@languageID">rule|text|BT-762-notice_D</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification">
+		<assert id="BT-1501_c_-Contract_R" role="ERROR" diagnostics="BT-1501_c_-Contract" test="count(efbc:ModifiedContractIdentifier) &lt; 2">rule|text|BT-1501_c_-Contract_R</assert>
 		<assert id="BT-1501_n_-Contract_R" role="ERROR" diagnostics="BT-1501_n_-Contract" test="count(efbc:ChangedNoticeIdentifier) &lt; 2">rule|text|BT-1501_n_-Contract_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change">
@@ -1339,7 +1340,7 @@
 		<assert id="BT-202-Contract_C" role="ERROR" diagnostics="BT-202-Contract" test="(every $lg in (efbc:ChangeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ChangeDescription) = 0">rule|text|BT-202-Contract_C</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection">
-		<assert id="BT-1501_s_-Contract_R" role="ERROR" diagnostics="BT-1501_s_-Contract" test="count(efbc:ChangedSectionIdentifier) &lt; 2">rule|text|BT-1501_s_-Contract_R</assert>
+		<assert id="BT-1501_p_-Contract_R" role="ERROR" diagnostics="BT-1501_p_-Contract" test="count(efbc:ChangedSectionIdentifier) &lt; 2">rule|text|BT-1501_p_-Contract_R</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangeDescription">
 		<assert id="BT-202-Contract_D" role="ERROR" test="@languageID">rule|text|BT-202-Contract_D</assert>

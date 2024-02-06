@@ -731,8 +731,9 @@
 		<diagnostic id="BT-15-Lot" see="field:BT-15-Lot">cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="BT-15-Part" see="field:BT-15-Part">cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="BT-150-Contract" see="field:BT-150-Contract">efac:ContractReference/cbc:ID</diagnostic>
+		<diagnostic id="BT-1501_c_-Contract" see="field:BT-1501(c)-Contract">efbc:ModifiedContractIdentifier</diagnostic>
 		<diagnostic id="BT-1501_n_-Contract" see="field:BT-1501(n)-Contract">efbc:ChangedNoticeIdentifier</diagnostic>
-		<diagnostic id="BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efbc:ChangedSectionIdentifier</diagnostic>
+		<diagnostic id="BT-1501_p_-Contract" see="field:BT-1501(p)-Contract">efbc:ChangedSectionIdentifier</diagnostic>
 		<diagnostic id="BT-151-Contract" see="field:BT-151-Contract">cbc:URI</diagnostic>
 		<diagnostic id="BT-156-NoticeResult" see="field:BT-156-NoticeResult">efbc:GroupFrameworkMaximumValueAmount</diagnostic>
 		<diagnostic id="BT-1561-NoticeResult" see="field:BT-1561-NoticeResult">efbc:GroupFrameworkReestimatedValueAmount</diagnostic>
@@ -1294,7 +1295,6 @@
 		<diagnostic id="ND-ConcessionRevenue" see="node:ND-ConcessionRevenue">efac:ConcessionRevenue</diagnostic>
 		<diagnostic id="ND-ContractEUFunds" see="node:ND-ContractEUFunds">efac:Funding</diagnostic>
 		<diagnostic id="ND-ContractModification" see="node:ND-ContractModification">efac:ContractModification</diagnostic>
-		<diagnostic id="ND-ContractModification_BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier</diagnostic>
 		<diagnostic id="ND-ContractingParty" see="node:ND-ContractingParty">cac:ContractingParty</diagnostic>
 		<diagnostic id="ND-CrossBorderLawUnpublish" see="node:ND-CrossBorderLawUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-ExclusionGrounds" see="node:ND-ExclusionGrounds">cac:SpecificTendererRequirement</diagnostic>
@@ -1408,7 +1408,6 @@
 		<diagnostic id="ND-LotsGroupValueEstimate" see="node:ND-LotsGroupValueEstimate">cac:RequestedTenderTotal</diagnostic>
 		<diagnostic id="ND-Modification" see="node:ND-Modification">efac:Change</diagnostic>
 		<diagnostic id="ND-ModificationReason" see="node:ND-ModificationReason">efac:ChangeReason</diagnostic>
-		<diagnostic id="ND-ModifiedSection" see="node:ND-ModifiedSection">efac:ChangedSection</diagnostic>
 		<diagnostic id="ND-NonEsubmission" see="node:ND-NonEsubmission">cac:ProcessJustification</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms" see="node:ND-NonUBLTenderingTerms">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms_BT-5010-Lot" see="field:BT-5010-Lot">efac:Funding/efbc:FinancingIdentifier</diagnostic>

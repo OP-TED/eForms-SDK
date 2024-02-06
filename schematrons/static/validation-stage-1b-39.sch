@@ -69,9 +69,6 @@
 		<assert id="ND-Modification-39" role="ERROR" diagnostics="ND-Modification" test="count(efac:Change) &gt; 0">rule|text|ND-Modification-39</assert>
 		<assert id="ND-ModificationReason-39" role="ERROR" diagnostics="ND-ModificationReason" test="count(efac:ChangeReason) &gt; 0">rule|text|ND-ModificationReason-39</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change[$noticeSubType = '39']">
-		<assert id="ND-ModifiedSection-39" role="ERROR" diagnostics="ND-ModifiedSection" test="count(efac:ChangedSection) &gt; 0">rule|text|ND-ModifiedSection-39</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '39']">
 		<assert id="ND-LotTender-39" role="ERROR" diagnostics="ND-LotTender" test="count(efac:LotTender) &gt; 0">rule|text|ND-LotTender-39</assert>
 		<assert id="ND-SettledContract-39" role="ERROR" diagnostics="ND-SettledContract" test="count(efac:SettledContract) &gt; 0">rule|text|ND-SettledContract-39</assert>

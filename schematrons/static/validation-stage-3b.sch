@@ -2229,8 +2229,8 @@
 		<assert id="BT-758-notice_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-758-notice_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier">
-		<assert id="BR-BT-01501-0109" role="ERROR" test="matches(normalize-space(.),'^(RESULT|((CON|RES|TEN|TPA|TPO|ORG)-\d{4}))$')">rule|text|BR-BT-01501-0109</assert>
-		<assert id="BT-1501_s_-Contract_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-1501_s_-Contract_WS</assert>
+		<assert id="BR-BT-01501-0251" role="ERROR" test="matches(normalize-space(.),'^(RESULT|((RES|TEN|TPA|TPO|ORG)-\d{4}))$')">rule|text|BR-BT-01501-0251</assert>
+		<assert id="BT-1501_p_-Contract_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-1501_p_-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efbc:ChangeDescription">
 		<assert id="BT-202-Contract_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|text|BT-202-Contract_length</assert>
@@ -2256,6 +2256,11 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier/@schemeName">
 		<assert id="BR-BT-01501-0108" role="ERROR" test="normalize-space(.) = ('notice-id-ref', 'ojs-notice-id')">rule|text|BR-BT-01501-0108</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ModifiedContractIdentifier">
+		<assert id="BR-BT-01501-0200" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|BR-BT-01501-0200</assert>
+		<assert id="BT-1501_c_-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-1501_c_-Contract-Scheme_MA</assert>
+		<assert id="BT-1501_c_-Contract_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-1501_c_-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:TotalAmount">
 		<assert id="BT-161-NoticeResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-161-NoticeResult-Currency_MA</assert>
