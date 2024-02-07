@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.171",
-    "createdOn" : "2024-02-05T18:15:43"
+    "version" : "1.10.186",
+    "createdOn" : "2024-02-07T16:51:14"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -6321,16 +6321,6 @@
       }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
         "condition" : "{ND-Company} ${not(OPT-200-Organization-Company in OPT-300-Tenderer) and not(OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "32", "33", "34", "35", "36", "37" ],
-        "condition" : "{ND-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]]) or (OPT-200-Organization-Company in OPT-301-Tenderer-SubCont[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]])}",
         "value" : true,
         "severity" : "ERROR"
       } ]
