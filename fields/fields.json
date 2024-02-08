@@ -1443,7 +1443,7 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change",
     "xpathRelative" : "efac:Change",
     "xsdSequenceOrder" : [ { "efac:Change" : 3 } ],
-    "repeatable" : true
+    "repeatable" : false
   }, {
     "id" : "ND-ModifiedSection",
     "parentId" : "ND-Modification",
