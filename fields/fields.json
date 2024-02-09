@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.186",
-    "createdOn" : "2024-02-07T16:51:14"
+    "version" : "1.10.224",
+    "createdOn" : "2024-02-08T17:43:39"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3129,18 +3129,13 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "9", "12", "13", "14", "18", "20", "21", "22", "23", "24", "27", "31", "33", "34", "35", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "19", "28", "32", "38", "39", "40" ],
-        "condition" : "{ND-LotTenderingProcess} ${BT-11-Procedure-Buyer not in ('cga','ra','la','body-pl','body-pl-cga','body-pl-ra','body-pl-la','pub-undert','pub-undert-cga','pub-undert-ra','pub-undert-la','org-sub-cga','org-sub-ra','org-sub-la','def-cont','int-org','eu-ins-bod-ag')}",
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "mandatory" : {
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "7", "8", "10", "11", "15", "16", "17", "19", "25", "26", "28", "29", "30", "32" ],
+        "noticeTypes" : [ "7", "8", "10", "11", "15", "16", "17", "25", "26", "29", "30" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3181,20 +3176,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "4", "5" ],
-        "condition" : "{ND-PartTenderingProcess} ${BT-11-Procedure-Buyer not in ('cga','ra','la','body-pl','body-pl-cga','body-pl-ra','body-pl-la','pub-undert','pub-undert-cga','pub-undert-ra','pub-undert-la','org-sub-cga','org-sub-ra','org-sub-la','def-cont','int-org','eu-ins-bod-ag')}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "4", "5" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
