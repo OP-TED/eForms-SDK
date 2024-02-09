@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Internetiaadress, kus hankedokumendid (nende piiranguteta juurdepääsetavad osad) on kättesaadavad. Kõikide teadete puhul, välja arvatud eelteated, peab aadress andma otsejuurdepääsu (st täpne veebileht dokumentidega, mitte üldine veebisait), olema piiranguteta (nt registreerimiseta), täielik (st hankedokumendid peavad olema täielikud) ja tasuta ning dokumendid peavad olema kättesaadavad juba teate avaldamise ajal.</entry>
 <entry key="field|description|BT-15-Part">Internetiaadress, kus hankedokumendid (nende piiranguteta juurdepääsetavad osad) on kättesaadavad. Kõikide teadete puhul, välja arvatud eelteated, peab aadress andma otsejuurdepääsu (st täpne veebileht dokumentidega, mitte üldine veebisait), olema piiranguteta (nt registreerimiseta), täielik (st hankedokumendid peavad olema täielikud) ja tasuta ning dokumendid peavad olema kättesaadavad juba teate avaldamise ajal.</entry>
 <entry key="field|description|BT-150-Contract">Lepingu tunnus või vabatahtlike eelnevate avalikustamisteadete ja ideekonkursi tulemuste teadete korral otsuse tunnus. Lepingu punktis esitatud teave viitab sellele lepingule või otsusele.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Menetluse varasema teate ühe või mitme punkti tunnus. Muutmise punktis esitatud teave viitab sellele punktile või nendele punktidele.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Menetluse varasema teate ühe või mitme punkti tunnus. Muutmise punktis esitatud teave viitab sellele punktile või nendele punktidele.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Menetluse varasema teate ühe või mitme punkti tunnus. Muutmise punktis esitatud teave viitab sellele punktile või nendele punktidele.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Menetluse varasema teate ühe või mitme punkti tunnus. Muutmise punktis esitatud teave viitab sellele punktile või nendele punktidele.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Menetluse varasema teate ühe või mitme punkti tunnus. Muutmise punktis esitatud teave viitab sellele punktile või nendele punktidele.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Menetluse varasema teate ühe või mitme punkti tunnus. Muutmise punktis esitatud teave viitab sellele punktile või nendele punktidele.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Menetluse varasema teate ühe või mitme punkti tunnus. Muutmise punktis esitatud teave viitab sellele punktile või nendele punktidele.</entry>
 <entry key="field|description|BT-151-Contract">Lepingu ühtne ressursilokaator (nt veebiaadress).</entry>
 <entry key="field|description|BT-156-NoticeResult">See on uuesti arvutatud maksimaalne summa, mida saab hankemenetluses osade rühma jaoks kasutada. Selle teabe võib esitada juhul, kui osade rühma maksimaalne maksumus on väiksem kui üksikute osade maksumuste summa (nt kui sama eelarve on jagatud mitme osa vahel). Maksumus hõlmab kõiki raamlepingu raames sõlmitavaid lepinguid kogu lepingu kehtivusaja jooksul, sealhulgas täiendavad hankevõimalused ja lepingu uuendamised. Maksumus on eduka pakkumuse või edukate pakkumuste põhjal uuesti arvutatud.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">See on uuesti arvutatud maksimaalne summa, mida saab hankemenetluses osade rühma jaoks kasutada. Selle teabe võib esitada juhul, kui osade rühma maksimaalne maksumus on väiksem kui üksikute osade maksumuste summa (nt kui sama eelarve on jagatud mitme osa vahel). Maksumus hõlmab kõiki raamlepingu raames sõlmitavaid lepinguid kogu lepingu kehtivusaja jooksul, sealhulgas täiendavad hankevõimalused ja lepingu uuendamised. Maksumus on eduka pakkumuse või edukate pakkumuste põhjal uuesti arvutatud.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">(Eeldatav) ajavahemik alates lepingu, raamlepingu, dünaamilise hankesüsteemi või kvalifitseerimissüsteemi algusest kuni selle lõpuni. See peab hõlmama kõiki täiendavaid hankevõimalusi ja lepingu uuendamisi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Ajavahemik, mille jooksul pakkumused peavad jääma jõusse pärast pakkumuse esitamise tähtpäeva möödumist.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Õigus, mida kohaldatakse juhul, kui hankes osalevad eri riikidest pärit hankijad.</entry>
-<entry key="field|hint|BT-13716-notice">Üks järgmistest tuleb täita: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Üks järgmistest tuleb täita: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Üks järgmistest tuleb täita: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Kui kasutate oma menetluse ja osade puhul sisemist tunnust, siis palun sisestage see. Palun kasutage iga osa puhul erinevat tunnust.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Kui kasutate oma menetluse ja osade puhul sisemist tunnust, siis palun sisestage see. Palun kasutage iga osa puhul erinevat tunnust.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Kui kasutate oma menetluse ja osade puhul sisemist tunnust, siis palun sisestage see. Palun kasutage iga osa puhul erinevat tunnust.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">See väli võib viidata hankemenetluse üksikasjadele.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">See väli võib viidata hankemenetluse üksikasjadele.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Valige üks või mitu kõrvaldamise alust.</entry>
+<entry key="field|hint|BT-786-Review">Üks järgmistest tuleb täita: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Märkige kas kestuse kuupäevad VÕI kestuse ajavahemik.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Märkige kas kestuse kuupäevad VÕI kestuse ajavahemik.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Kõigepealt looge organisatsioon punktis „Organisatsioonid“, seejärel valige see rippmenüüst.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Hankedokumentide aadress</entry>
 <entry key="field|name|BT-15-Part">Hankedokumentide aadress</entry>
 <entry key="field|name|BT-150-Contract">Lepingu tunnus</entry>
+<entry key="field|name|BT-1501(c)-Contract">Punkti tunnus</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Punkti tunnus</entry>
 <entry key="field|name|BT-1501(n)-Contract">Punkti tunnus</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Punkti tunnus</entry>
-<entry key="field|name|BT-1501(s)-Contract">Punkti tunnus</entry>
+<entry key="field|name|BT-1501(p)-Contract">Punkti tunnus</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Punkti tunnus</entry>
 <entry key="field|name|BT-151-Contract">Lepingu aadress</entry>
 <entry key="field|name|BT-156-NoticeResult">Raamlepingute maksimaalne maksumus osade rühma lõikes</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Raamlepingute maksimaalne maksumus osade rühma lõikes</entry>

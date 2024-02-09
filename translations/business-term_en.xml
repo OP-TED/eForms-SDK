@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">A language in which tenders, requests to participate, or expressions of interest may be submitted.</entry>
 <entry key="business-term|description|BT-98">The period, from the tender submission deadline, for which tenders must remain valid.</entry>
 <entry key="business-term|description|BT-99">The description of the time limits for review procedures.</entry>
-<entry key="business-term|hint|BT-13716">One of the following must be filled in: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Add as many lots as you wish to include in the group of lots.</entry>
 <entry key="business-term|hint|BT-22">If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.</entry>
 <entry key="business-term|hint|BT-36">Fill in either the duration dates OR the duration period</entry>
 <entry key="business-term|hint|BT-540">A number must be linked to a method and sum up to the total for the current criterion</entry>
 <entry key="business-term|hint|BT-543">This field can point to the tender specifications</entry>
+<entry key="business-term|hint|BT-786">One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">First create the organisation in the section 'Organisations', then select it in drop-down list.</entry>
 <entry key="business-term|name|BG-1">Notice</entry>
 <entry key="business-term|name|BG-100">Communication</entry>

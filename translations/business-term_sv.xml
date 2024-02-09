@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">Det språk som får användas i intresseanmälan, anbudsansökan eller anbud.</entry>
 <entry key="business-term|description|BT-98">Den period från sista anbudsdag, under vilken anbud ska fortsätta att vara giltiga.</entry>
 <entry key="business-term|description|BT-99">Beskrivningen av tidsfristerna för prövningsförfaranden.</entry>
-<entry key="business-term|hint|BT-13716">En av följande måste fyllas i: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">En av följande måste fyllas i: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Lägga till så många delkontrakt som du vill inkludera i gruppen av delkontrakt.</entry>
 <entry key="business-term|hint|BT-22">Om du använder en intern identifierare för dina förfaranden och delkontrakt ska du använda dem. Du måste ha olika identifierare för varje delkontrakt.</entry>
 <entry key="business-term|hint|BT-36">Fyll i antingen datum eller en period för varaktigheten.</entry>
 <entry key="business-term|hint|BT-540">Ett antal måste kopplas till en metod och vara detsamma som totalsumman för det aktuella kriteriet.</entry>
 <entry key="business-term|hint|BT-543">Fältet kan länka till upphandlingsspecifikationerna.</entry>
+<entry key="business-term|hint|BT-786">En av följande måste fyllas i: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Skapa först organisationen i avsnittet "Organisationer” och väj den sedan i listan.</entry>
 <entry key="business-term|name|BG-1">Meddelande</entry>
 <entry key="business-term|name|BG-100">Kommunikation</entry>

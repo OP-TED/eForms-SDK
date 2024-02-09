@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">A közbeszerzési dokumentumok (nem korlátozott részének) eléréséhez használt internetcím. Valamennyi hirdetmény esetén (az előzetes tájékoztatók kivételével) a címnek olyan hozzáférést kell adnia, amely közvetlen (azaz a dokumentumokat tartalmazó weboldal, nem egy általános weboldal), korlátlan (például nem regisztrációhoz kötött), teljes körű (a közbeszerzési dokumentumoknak teljes körűeknek kell lenniük), és ingyenes, és a dokumentumokat már a hirdetmény közzétételének idején elérhetővé kell tenni.</entry>
 <entry key="field|description|BT-15-Part">A közbeszerzési dokumentumok (nem korlátozott részének) eléréséhez használt internetcím. Valamennyi hirdetmény esetén (az előzetes tájékoztatók kivételével) a címnek olyan hozzáférést kell adnia, amely közvetlen (azaz a dokumentumokat tartalmazó weboldal, nem egy általános weboldal), korlátlan (például nem regisztrációhoz kötött), teljes körű (a közbeszerzési dokumentumoknak teljes körűeknek kell lenniük), és ingyenes, és a dokumentumokat már a hirdetmény közzétételének idején elérhetővé kell tenni.</entry>
 <entry key="field|description|BT-150-Contract">A szerződés vagy önkéntes előzetes átláthatósági hirdetmények és tervpályázatok eredményéről szóló hirdetmények esetén a döntés azonosítója. A szerződésről szóló szakaszban szereplő információ erre a szerződésre vagy döntésre vonatkozik.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Az eljáráson belüli előző hirdetmény egy vagy több szakaszának azonosítója. A módosításról szóló szakaszban szereplő információ e szakaszra vagy e szakaszokra vonatkozik.</entry>
 <entry key="field|description|BT-151-Contract">A szerződés egységes forráshely-azonosítója (pl. internetcíme).</entry>
 <entry key="field|description|BT-156-NoticeResult">Ez az újraszámított maximális érték, amelyet valószínűleg az eljáráson belül részek egy csoportjára költenek. Ezt az információt akkor lehet megadni, ha a részek csoportjának maximális értéke alacsonyabb, mint az egyes részek értékének összege (pl. ha ugyanazt a költségvetést több résznek kell megosztania). Az érték a keretmegállapodás keretében a teljes időtartam alatt odaítélendő valamennyi szerződés értéke, beleértve az opciókat és a megújításokat. Az értéket a nyertes ajánlata vagy a nyertesek ajánlatai alapján újraszámítják.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Ez az újraszámított maximális érték, amelyet valószínűleg az eljáráson belül részek egy csoportjára költenek. Ezt az információt akkor lehet megadni, ha a részek csoportjának maximális értéke alacsonyabb, mint az egyes részek értékének összege (pl. ha ugyanazt a költségvetést több résznek kell megosztania). Az érték a keretmegállapodás keretében a teljes időtartam alatt odaítélendő valamennyi szerződés értéke, beleértve az opciókat és a megújításokat. Az értéket a nyertes ajánlata vagy a nyertesek ajánlatai alapján újraszámítják.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">A (becsült) időtartam a szerződés, keretmegállapodás, dinamikus beszerzési rendszer vagy minősítési rendszer kezdetétől a végéig. Ennek magában kell foglalnia az opciókat és a megújításokat.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Az ajánlat benyújtási határidejétől számított időszak, amely során az ajánlatnak érvényesnek kell maradnia.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Az alkalmazandó jog abban az esetben, ha a közbeszerzés különböző országokból származó vevőket érint.</entry>
-<entry key="field|hint|BT-13716-notice">Az alábbiak közül egyet ki kell tölteni: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Az alábbiak közül egyet ki kell tölteni: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Adjon hozzá annyi részt, ahányat fel kíván venni a részek csoportjába.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Adjon hozzá annyi részt, ahányat fel kíván venni a részek csoportjába.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Az alábbiak közül egyet ki kell tölteni: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Ha Önök belső azonosítót használnak eljárásukhoz és az ahhoz tartozó részekhez, kérjük töltse ki ezt a mezőt. Kérjük, minden részhez adjon meg külön azonosítót.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Ha Önök belső azonosítót használnak eljárásukhoz és az ahhoz tartozó részekhez, kérjük töltse ki ezt a mezőt. Kérjük, minden részhez adjon meg külön azonosítót.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Ha Önök belső azonosítót használnak eljárásukhoz és az ahhoz tartozó részekhez, kérjük töltse ki ezt a mezőt. Kérjük, minden részhez adjon meg külön azonosítót.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Ebben a mezőben hivatkozni lehet a kiírási feltételekre.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Ebben a mezőben hivatkozni lehet a kiírási feltételekre.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Válasszon ki egy vagy több kizárási okot.</entry>
+<entry key="field|hint|BT-786-Review">Az alábbiak közül egyet ki kell tölteni: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Adja meg az időtartam kezdő és záró dátumát VAGY az időtartam hosszát.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Adja meg az időtartam kezdő és záró dátumát VAGY az időtartam hosszát.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Először hozza létre a szervezetet a „Szervezetek” szakaszban, majd válassza ki a legördülő listából.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">A közbeszerzési dokumentumok címe</entry>
 <entry key="field|name|BT-15-Part">A közbeszerzési dokumentumok címe</entry>
 <entry key="field|name|BT-150-Contract">A szerződés azonosítója</entry>
+<entry key="field|name|BT-1501(c)-Contract">Szakaszazonosító</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Szakaszazonosító</entry>
 <entry key="field|name|BT-1501(n)-Contract">Szakaszazonosító</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Szakaszazonosító</entry>
-<entry key="field|name|BT-1501(s)-Contract">Szakaszazonosító</entry>
+<entry key="field|name|BT-1501(p)-Contract">Szakaszazonosító</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Szakaszazonosító</entry>
 <entry key="field|name|BT-151-Contract">A szerződés címe</entry>
 <entry key="field|name|BT-156-NoticeResult">Az e részcsoporton belüli keretmegállapodások maximális értéke</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Az e részcsoporton belüli keretmegállapodások maximális értéke</entry>

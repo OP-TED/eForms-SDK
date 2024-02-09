@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">O endereço Internet para acesso aos documentos do concurso (à parte não sujeita a restrições). Para todos os anúncios, exceto os anúncios de pré-informação, o endereço Internet deve permitir um acesso direto (a página Web exata em que se encontram os documentos e não um sítio geral), sem restrições (p. ex., sem registo), completo (os documentos do concurso devem estar completos) e gratuito, e os documentos devem já estar disponíveis no momento da publicação do anúncio.</entry>
 <entry key="field|description|BT-15-Part">O endereço Internet para acesso aos documentos do concurso (à parte não sujeita a restrições). Para todos os anúncios, exceto os anúncios de pré-informação, o endereço Internet deve permitir um acesso direto (a página Web exata em que se encontram os documentos e não um sítio geral), sem restrições (p. ex., sem registo), completo (os documentos do concurso devem estar completos) e gratuito, e os documentos devem já estar disponíveis no momento da publicação do anúncio.</entry>
 <entry key="field|description|BT-150-Contract">Um identificador do contrato ou, no caso dos anúncios voluntários de transparência ex ante e dos anúncios dos resultados de concursos de conceção, da decisão. As informações constantes da secção «Contrato» referem-se a este contrato ou decisão.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Um identificador de uma ou mais secções modificadas do anúncio anterior no âmbito do processo em questão. As informações constantes da secção «Modificação do Contrato» referem-se à(s) secção(ões) em questão.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Um identificador de uma ou mais secções modificadas do anúncio anterior no âmbito do processo em questão. As informações constantes da secção «Modificação do Contrato» referem-se à(s) secção(ões) em questão.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Um identificador de uma ou mais secções modificadas do anúncio anterior no âmbito do processo em questão. As informações constantes da secção «Modificação do Contrato» referem-se à(s) secção(ões) em questão.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Um identificador de uma ou mais secções modificadas do anúncio anterior no âmbito do processo em questão. As informações constantes da secção «Modificação do Contrato» referem-se à(s) secção(ões) em questão.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Um identificador de uma ou mais secções modificadas do anúncio anterior no âmbito do processo em questão. As informações constantes da secção «Modificação do Contrato» referem-se à(s) secção(ões) em questão.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Um identificador de uma ou mais secções modificadas do anúncio anterior no âmbito do processo em questão. As informações constantes da secção «Modificação do Contrato» referem-se à(s) secção(ões) em questão.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Um identificador de uma ou mais secções modificadas do anúncio anterior no âmbito do processo em questão. As informações constantes da secção «Modificação do Contrato» referem-se à(s) secção(ões) em questão.</entry>
 <entry key="field|description|BT-151-Contract">O localizador uniforme de recursos (p. ex., o endereço Web) do contrato.</entry>
 <entry key="field|description|BT-156-NoticeResult">O valor máximo recalculado da despesa provável com um grupo de lotes no processo. Estas informações podem ser fornecidas nos casos em que o valor máximo de um grupo de lotes é inferior à soma dos valores dos lotes individuais (p. ex., quando o mesmo orçamento é repartido entre vários lotes). O valor abrange todos os contratos a adjudicar no caso de um acordo-quadro, durante toda a sua duração, incluindo opções e renovações. O valor é recalculado com base na proposta do vencedor ou nas propostas dos vencedores.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">O valor máximo recalculado da despesa provável com um grupo de lotes no processo. Estas informações podem ser fornecidas nos casos em que o valor máximo de um grupo de lotes é inferior à soma dos valores dos lotes individuais (p. ex., quando o mesmo orçamento é repartido entre vários lotes). O valor abrange todos os contratos a adjudicar no caso de um acordo-quadro, durante toda a sua duração, incluindo opções e renovações. O valor é recalculado com base na proposta do vencedor ou nas propostas dos vencedores.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">O período (estimado) que vai desde o início até ao final do contrato, acordo-quadro, sistema de aquisição dinâmico ou sistema de qualificação. Estas informações devem incluir eventuais opções e renovações.</entry>
 <entry key="field|description|OPA-98-Lot-Number">O período, a contar da data-limite para a apresentação das propostas, durante o qual as propostas têm de permanecer válidas.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">A legislação aplicável se o contrato envolver adquirentes de diferentes países.</entry>
-<entry key="field|hint|BT-13716-notice">Um dos seguintes campos deve ser preenchido: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Um dos seguintes campos deve ser preenchido: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Adicione o número de lotes que pretende incluir no grupo de lotes.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Adicione o número de lotes que pretende incluir no grupo de lotes.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Um dos seguintes campos deve ser preenchido: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Se utilizar um identificador interno para o seu procedimento e para os seus lotes, introduza-o. Utilize identificadores diferentes para cada lote.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Se utilizar um identificador interno para o seu procedimento e para os seus lotes, introduza-o. Utilize identificadores diferentes para cada lote.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Se utilizar um identificador interno para o seu procedimento e para os seus lotes, introduza-o. Utilize identificadores diferentes para cada lote.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Este campo pode remeter para o caderno de encargos.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Este campo pode remeter para o caderno de encargos.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Selecione um ou vários motivos de exclusão.</entry>
+<entry key="field|hint|BT-786-Review">Um dos seguintes campos deve ser preenchido: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Preencha as datas de duração OU o período de duração.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Preencha as datas de duração OU o período de duração.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Crie primeiro a organização na secção «Organizações» e, em seguida, selecione-a na lista pendente.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Endereço dos documentos do concurso</entry>
 <entry key="field|name|BT-15-Part">Endereço dos documentos do concurso</entry>
 <entry key="field|name|BT-150-Contract">Identificador do contrato</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identificador da secção</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identificador da secção</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identificador da secção</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identificador da secção</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identificador da secção</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identificador da secção</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identificador da secção</entry>
 <entry key="field|name|BT-151-Contract">Endereço do contrato</entry>
 <entry key="field|name|BT-156-NoticeResult">Valor máximo dos acordos-quadro neste grupo de lotes</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Valor máximo dos acordos-quadro neste grupo de lotes</entry>

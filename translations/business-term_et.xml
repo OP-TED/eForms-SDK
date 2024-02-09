@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">Keel, milles võib esitada pakkumusi, osalemistaotlusi või osalemishuvi teateid.</entry>
 <entry key="business-term|description|BT-98">Ajavahemik, mille jooksul pakkumused peavad jääma jõusse pärast pakkumuse esitamise tähtpäeva möödumist.</entry>
 <entry key="business-term|description|BT-99">Läbivaatamismenetluste tähtaegade kirjeldus.</entry>
-<entry key="business-term|hint|BT-13716">Üks järgmistest tuleb täita: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Üks järgmistest tuleb täita: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
 <entry key="business-term|hint|BT-22">Kui kasutate oma menetluse ja osade puhul sisemist tunnust, siis palun sisestage see. Palun kasutage iga osa puhul erinevat tunnust.</entry>
 <entry key="business-term|hint|BT-36">Märkige kas kestuse kuupäevad VÕI kestuse ajavahemik.</entry>
 <entry key="business-term|hint|BT-540">Arv peab olema seotud meetodiga ja ulatuma praeguse kriteeriumi kogusummani.</entry>
 <entry key="business-term|hint|BT-543">See väli võib viidata hankemenetluse üksikasjadele.</entry>
+<entry key="business-term|hint|BT-786">Üks järgmistest tuleb täita: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Kõigepealt looge organisatsioon punktis „Organisatsioonid“, seejärel valige see rippmenüüst.</entry>
 <entry key="business-term|name|BG-1">Teade</entry>
 <entry key="business-term|name|BG-100">Teabevahetus</entry>

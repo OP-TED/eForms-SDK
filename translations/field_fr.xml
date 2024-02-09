@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Adresse internet donnant accès aux (parties non restreintes des) documents de marché. Pour tous les avis, à l’exception des avis de préinformation, l’adresse doit donner un accès direct (c’est-à-dire un accès à la page web exacte contenant les documents et non à un site web général), libre (ne nécessitant pas d’inscription, par exemple), complet (les documents de marché sont complets) et gratuit, et les documents doivent être disponibles dès la date de publication de l’avis.</entry>
 <entry key="field|description|BT-15-Part">Adresse internet donnant accès aux (parties non restreintes des) documents de marché. Pour tous les avis, à l’exception des avis de préinformation, l’adresse doit donner un accès direct (c’est-à-dire un accès à la page web exacte contenant les documents et non à un site web général), libre (ne nécessitant pas d’inscription, par exemple), complet (les documents de marché sont complets) et gratuit, et les documents doivent être disponibles dès la date de publication de l’avis.</entry>
 <entry key="field|description|BT-150-Contract">Identifiant du marché ou, pour les avis en cas de transparence ex ante volontaire et les avis de résultats de concours, de la décision. Les informations contenues dans la section «Marché» portent sur le marché ou la décision en question.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Identifiant d’une ou de plusieurs sections modifiées de l’avis antérieur. Les informations contenues dans la section «Modification du marché» portent sur la (les) section(s) en question.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Identifiant d’une ou de plusieurs sections modifiées de l’avis antérieur. Les informations contenues dans la section «Modification du marché» portent sur la (les) section(s) en question.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identifiant d’une ou de plusieurs sections modifiées de l’avis antérieur. Les informations contenues dans la section «Modification du marché» portent sur la (les) section(s) en question.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identifiant d’une ou de plusieurs sections modifiées de l’avis antérieur. Les informations contenues dans la section «Modification du marché» portent sur la (les) section(s) en question.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Identifiant d’une ou de plusieurs sections modifiées de l’avis antérieur. Les informations contenues dans la section «Modification du marché» portent sur la (les) section(s) en question.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Identifiant d’une ou de plusieurs sections modifiées de l’avis antérieur. Les informations contenues dans la section «Modification du marché» portent sur la (les) section(s) en question.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Identifiant d’une ou de plusieurs sections modifiées de l’avis antérieur. Les informations contenues dans la section «Modification du marché» portent sur la (les) section(s) en question.</entry>
 <entry key="field|description|BT-151-Contract">Adresse URL (adresse internet, par exemple) du marché.</entry>
 <entry key="field|description|BT-156-NoticeResult">Il s’agit de la valeur maximale recalculée susceptible d’être dépensée pour un groupe de lots au sein de la procédure. Ces informations peuvent être fournies lorsque la valeur maximale d’un groupe de lots est inférieure à la somme des valeurs des lots individuels (lorsque le même budget est partagé pour plusieurs lots, par exemple). La valeur se rapporte à tous les marchés à attribuer pendant toute la durée d’un accord-cadre, y compris les options et les renouvellements. La valeur est recalculée sur la base de l’offre du lauréat ou des offres des lauréats.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Il s’agit de la valeur maximale recalculée susceptible d’être dépensée pour un groupe de lots au sein de la procédure. Ces informations peuvent être fournies lorsque la valeur maximale d’un groupe de lots est inférieure à la somme des valeurs des lots individuels (lorsque le même budget est partagé pour plusieurs lots, par exemple). La valeur se rapporte à tous les marchés à attribuer pendant toute la durée d’un accord-cadre, y compris les options et les renouvellements. La valeur est recalculée sur la base de l’offre du lauréat ou des offres des lauréats.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">Période (estimée) qui s’étend du début à la fin du marché, de l’accord-cadre, du système d’acquisition dynamique ou du système de qualification. Sont inclus les options et renouvellements éventuels.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Période, à compter de la date limite de présentation des offres, durant laquelle les offres doivent rester valables.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Le droit applicable si le marché fait intervenir des acheteurs de différents pays.</entry>
-<entry key="field|hint|BT-13716-notice">L'un des champs suivants doit être rempli: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">L'un des champs suivants doit être rempli: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Ajoutez autant de lots que vous souhaitez inclure dans le groupe de lots.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Ajoutez autant de lots que vous souhaitez inclure dans le groupe de lots.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">L'un des champs suivants doit être rempli: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Si vous utilisez un identifiant interne pour votre procédure et vos lots, veuillez l’indiquer. Veuillez utiliser des identifiants différents pour chaque lot.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Si vous utilisez un identifiant interne pour votre procédure et vos lots, veuillez l’indiquer. Veuillez utiliser des identifiants différents pour chaque lot.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Si vous utilisez un identifiant interne pour votre procédure et vos lots, veuillez l’indiquer. Veuillez utiliser des identifiants différents pour chaque lot.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Ce champ peut renvoyer au cahier des charges.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Ce champ peut renvoyer au cahier des charges.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Sélectionnez un ou plusieurs motifs d’exclusion.</entry>
+<entry key="field|hint|BT-786-Review">L'un des champs suivants doit être rempli: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Indiquez SOIT les dates de la durée, SOIT la période de la durée.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Indiquez SOIT les dates de la durée, SOIT la période de la durée.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Créez d’abord l’organisation dans la section «Organisations», puis sélectionnez-là dans la liste déroulante.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Adresse des documents de marché</entry>
 <entry key="field|name|BT-15-Part">Adresse des documents de marché</entry>
 <entry key="field|name|BT-150-Contract">Identifiant du marché</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identifiant de la section</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identifiant de la section</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identifiant de la section</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identifiant de la section</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifiant de la section</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identifiant de la section</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identifiant de la section</entry>
 <entry key="field|name|BT-151-Contract">Adresse du marché</entry>
 <entry key="field|name|BT-156-NoticeResult">Valeur maximale des accords-cadres dans ce groupe de lots</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Valeur maximale des accords-cadres dans ce groupe de lots</entry>

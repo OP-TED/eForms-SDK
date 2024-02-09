@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">A língua em que as propostas, os pedidos de participação ou as manifestações de interesse podem ser apresentados.</entry>
 <entry key="business-term|description|BT-98">O período, a contar da data-limite para a apresentação das propostas, durante o qual as propostas têm de permanecer válidas.</entry>
 <entry key="business-term|description|BT-99">A descrição dos prazos de introdução dos procedimentos de recurso.</entry>
-<entry key="business-term|hint|BT-13716">Um dos seguintes campos deve ser preenchido: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Um dos seguintes campos deve ser preenchido: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Adicione o número de lotes que pretende incluir no grupo de lotes.</entry>
 <entry key="business-term|hint|BT-22">Se utilizar um identificador interno para o seu procedimento e para os seus lotes, introduza-o. Utilize identificadores diferentes para cada lote.</entry>
 <entry key="business-term|hint|BT-36">Preencha as datas de duração OU o período de duração.</entry>
 <entry key="business-term|hint|BT-540">Os números devem estar associados a um método e a soma destes deve corresponder ao total do critério atual.</entry>
 <entry key="business-term|hint|BT-543">Este campo pode remeter para o caderno de encargos.</entry>
+<entry key="business-term|hint|BT-786">Um dos seguintes campos deve ser preenchido: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Crie primeiro a organização na secção «Organizações» e, em seguida, selecione-a na lista pendente.</entry>
 <entry key="business-term|name|BG-1">Anúncio</entry>
 <entry key="business-term|name|BG-100">Comunicação</entry>

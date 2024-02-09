@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">Język, w którym można dokonać złożenia oferty, wniosku o dopuszczenie do udziału lub zgłoszenia zainteresowania.</entry>
 <entry key="business-term|description|BT-98">Okres, począwszy od terminu składania ofert, przez który oferty muszą pozostać ważne.</entry>
 <entry key="business-term|description|BT-99">Opis terminów dotyczących procedur odwoławczych.</entry>
-<entry key="business-term|hint|BT-13716">Jedno z poniższych musi zostać wypełnione: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Jedno z poniższych musi zostać wypełnione: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
 <entry key="business-term|hint|BT-22">Jeśli używasz wewnętrznego identyfikatora dla swojej procedury i części zamówienia, podaj go. Użyj różnych identyfikatorów dla każdej części zamówienia.</entry>
 <entry key="business-term|hint|BT-36">Wypełnij daty obowiązywania LUB okres obowiązywania.</entry>
 <entry key="business-term|hint|BT-540">Liczba musi być powiązana z metodą i sumować się do sumy dla bieżącego kryterium.</entry>
 <entry key="business-term|hint|BT-543">Pole to może wskazywać na specyfikację istotnych warunków zamówienia.</entry>
+<entry key="business-term|hint|BT-786">Jedno z poniższych musi zostać wypełnione: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Najpierw utwórz organizację w sekcji „Organizacje”, a następnie wybierz ją z rozwijanej listy.</entry>
 <entry key="business-term|name|BG-1">Ogłoszenie</entry>
 <entry key="business-term|name|BG-100">Komunikacja</entry>

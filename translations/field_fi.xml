@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Internetosoite, jossa hankinta-asiakirjat ovat (rajoittamattomasti) saatavilla. Kaikissa ilmoituksissa lukuun ottamatta ennakkoilmoituksia osoitteen on oltava suora (eli johdettava suoraan verkkosivulle, jolta asiakirjat löytyvät, ei yleiselle verkkosivustolle), rajoittamaton (esim. ei rekisteröintiä), kattava (eli hankinta-asiakirjojen on oltava täydelliset) ja maksuttomasti käytettävissä, ja asiakirjojen on oltava saatavilla jo ilmoituksen julkaisemishetkellä.</entry>
 <entry key="field|description|BT-15-Part">Internetosoite, jossa hankinta-asiakirjat ovat (rajoittamattomasti) saatavilla. Kaikissa ilmoituksissa lukuun ottamatta ennakkoilmoituksia osoitteen on oltava suora (eli johdettava suoraan verkkosivulle, jolta asiakirjat löytyvät, ei yleiselle verkkosivustolle), rajoittamaton (esim. ei rekisteröintiä), kattava (eli hankinta-asiakirjojen on oltava täydelliset) ja maksuttomasti käytettävissä, ja asiakirjojen on oltava saatavilla jo ilmoituksen julkaisemishetkellä.</entry>
 <entry key="field|description|BT-150-Contract">Sopimuksen tunniste tai, jos kyseessä on vapaaehtoista ex ante -avoimuutta koskeva ilmoitus tai suunnittelukilpailun tuloksia koskeva ilmoitus, päätöksen tunniste. Kohdassa ”Hankintasopimus” olevat tiedot viittaavat tähän sopimukseen tai päätökseen.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Edellisen ilmoituksen yhden tai useamman kohdan tunniste menettelyn yhteydessä. Kohdassa ”Sopimusmuutokset” olevat tiedot viittaavat tähän kohtaan tai näihin kohtiin.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Edellisen ilmoituksen yhden tai useamman kohdan tunniste menettelyn yhteydessä. Kohdassa ”Sopimusmuutokset” olevat tiedot viittaavat tähän kohtaan tai näihin kohtiin.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Edellisen ilmoituksen yhden tai useamman kohdan tunniste menettelyn yhteydessä. Kohdassa ”Sopimusmuutokset” olevat tiedot viittaavat tähän kohtaan tai näihin kohtiin.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Edellisen ilmoituksen yhden tai useamman kohdan tunniste menettelyn yhteydessä. Kohdassa ”Sopimusmuutokset” olevat tiedot viittaavat tähän kohtaan tai näihin kohtiin.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Edellisen ilmoituksen yhden tai useamman kohdan tunniste menettelyn yhteydessä. Kohdassa ”Sopimusmuutokset” olevat tiedot viittaavat tähän kohtaan tai näihin kohtiin.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Edellisen ilmoituksen yhden tai useamman kohdan tunniste menettelyn yhteydessä. Kohdassa ”Sopimusmuutokset” olevat tiedot viittaavat tähän kohtaan tai näihin kohtiin.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Edellisen ilmoituksen yhden tai useamman kohdan tunniste menettelyn yhteydessä. Kohdassa ”Sopimusmuutokset” olevat tiedot viittaavat tähän kohtaan tai näihin kohtiin.</entry>
 <entry key="field|description|BT-151-Contract">Sopimuksen URL-osoite (esim. verkko-osoite).</entry>
 <entry key="field|description|BT-156-NoticeResult">Uudelleenlaskettu enimmäisarvo, joka erien ryhmään todennäköisesti käytetään hankintamenettelyssä. Nämä tiedot voidaan antaa, jos erien ryhmän enimmäisarvo on pienempi kuin yksittäisten erien arvojen summa (esim. kun sama talousarvio on jaettu useille erille). Arvo kattaa kaikki puitejärjestelyssä tehtävät hankintasopimukset sen koko keston ajalta, mukaan lukien optiot ja uusimiset. Arvo lasketaan uudelleen voittavan tarjouksen/tarjouksien perusteella.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Uudelleenlaskettu enimmäisarvo, joka erien ryhmään todennäköisesti käytetään hankintamenettelyssä. Nämä tiedot voidaan antaa, jos erien ryhmän enimmäisarvo on pienempi kuin yksittäisten erien arvojen summa (esim. kun sama talousarvio on jaettu useille erille). Arvo kattaa kaikki puitejärjestelyssä tehtävät hankintasopimukset sen koko keston ajalta, mukaan lukien optiot ja uusimiset. Arvo lasketaan uudelleen voittavan tarjouksen/tarjouksien perusteella.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">(Arvioitu) jakso hankintasopimuksen, puitejärjestelyn, dynaamisen hankintajärjestelmän tai kelpuuttamisjärjestelmän alusta sen päättymiseen. Tähän on sisällyttävä mahdolliset optiot ja uusimiset.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Aika, joka tarjousten on oltava voimassa niiden jättämiselle asetetusta määräajasta alkaen.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Sovellettava lainsäädäntö, jos hankintaan osallistuu ostajia eri maista.</entry>
-<entry key="field|hint|BT-13716-notice">Yksi seuraavista on täytettävä: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Yksi seuraavista on täytettävä: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Yksi seuraavista on täytettävä: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Jos käytät menettelyä ja eriä varten sisäistä tunnistetta, lisää se tähän. Käytä kullekin erälle omaa tunnistetta.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Jos käytät menettelyä ja eriä varten sisäistä tunnistetta, lisää se tähän. Käytä kullekin erälle omaa tunnistetta.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Jos käytät menettelyä ja eriä varten sisäistä tunnistetta, lisää se tähän. Käytä kullekin erälle omaa tunnistetta.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Tämä kenttä voi viitata tarjouseritelmään.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Tämä kenttä voi viitata tarjouseritelmään.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Valitse yksi tai useampi poissulkemisperuste</entry>
+<entry key="field|hint|BT-786-Review">Yksi seuraavista on täytettävä: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Täytä joko keston päivämäärät TAI kestojakso.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Täytä joko keston päivämäärät TAI kestojakso.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Luo ensin organisaatio ”Organisaatiot”-kohdassa ja valitse se sitten pudotusvalikosta.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Hankinta-asiakirjojen osoite</entry>
 <entry key="field|name|BT-15-Part">Hankinta-asiakirjojen osoite</entry>
 <entry key="field|name|BT-150-Contract">Sopimuksen tunniste</entry>
+<entry key="field|name|BT-1501(c)-Contract">Kohdan tunniste</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Kohdan tunniste</entry>
 <entry key="field|name|BT-1501(n)-Contract">Kohdan tunniste</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Kohdan tunniste</entry>
-<entry key="field|name|BT-1501(s)-Contract">Kohdan tunniste</entry>
+<entry key="field|name|BT-1501(p)-Contract">Kohdan tunniste</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Kohdan tunniste</entry>
 <entry key="field|name|BT-151-Contract">Sopimuksen osoite</entry>
 <entry key="field|name|BT-156-NoticeResult">Puitejärjestelyjen enimmäisarvo tässä erien ryhmässä</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Puitejärjestelyjen enimmäisarvo tässä erien ryhmässä</entry>

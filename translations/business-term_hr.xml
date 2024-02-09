@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">Jezik na kojem se mogu podnijeti ponude, zahtjevi za sudjelovanje ili iskazi interesa.</entry>
 <entry key="business-term|description|BT-98">Razdoblje, od roka za podnošenje ponuda, tijekom kojeg ponude moraju biti valjane.</entry>
 <entry key="business-term|description|BT-99">Opis rokova za postupke pravne zaštite (preispitivanja).</entry>
-<entry key="business-term|hint|BT-13716">Jedno od sljedećeg mora biti ispunjeno: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Jedno od sljedećeg mora biti ispunjeno: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
 <entry key="business-term|hint|BT-22">Ako imate interni identifikator za svoj postupak i grupe, navedite ga. Svaka grupa mora imati jedinstveni dentifikator.</entry>
 <entry key="business-term|hint|BT-36">Ispunite datume ILI razdoblja trajanja.</entry>
 <entry key="business-term|hint|BT-540">Broj se mora povezati s metodom i zbrojiti, pri čemu ukupan zbroj mora biti jednak ukupnom zbroju za trenutačni kriterij.</entry>
 <entry key="business-term|hint|BT-543">Ovo polje može upućivati na natječajne specifikacije.</entry>
+<entry key="business-term|hint|BT-786">Jedno od sljedećeg mora biti ispunjeno: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Prvo kreirajte organizaciju u odjeljku „Organizacije”, a zatim je odaberite na popisu.</entry>
 <entry key="business-term|name|BG-1">Obavijest</entry>
 <entry key="business-term|name|BG-100">Komunikacija</entry>

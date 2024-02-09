@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">The internet address for accessing (the non-restricted part of) the procurement documents. For all notices except prior information notices, the address shall give access that is direct (i.e. the exact webpage with the documents, not a general website), unrestricted (e.g. no registration), full (i.e. the procurement documents are complete) and free of charge and the documents shall be available already at the time of the publication of the notice.</entry>
 <entry key="field|description|BT-15-Part">The internet address for accessing (the non-restricted part of) the procurement documents. For all notices except prior information notices, the address shall give access that is direct (i.e. the exact webpage with the documents, not a general website), unrestricted (e.g. no registration), full (i.e. the procurement documents are complete) and free of charge and the documents shall be available already at the time of the publication of the notice.</entry>
 <entry key="field|description|BT-150-Contract">An identifier of the contract or, in case of voluntary-ex ante transparency notices and design contest result notices, of the decision. The information in the contract section refers to this contract or decision.</entry>
+<entry key="field|description|BT-1501(c)-Contract">An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.</entry>
 <entry key="field|description|BT-1501(n)-Contract">An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.</entry>
-<entry key="field|description|BT-1501(s)-Contract">An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.</entry>
+<entry key="field|description|BT-1501(p)-Contract">An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">An identifier of one or more sections within a previous notice within the procedure. The information in the modification section refers to this section or these sections.</entry>
 <entry key="field|description|BT-151-Contract">The uniform resource locator (e.g. the web address) of the contract.</entry>
 <entry key="field|description|BT-156-NoticeResult">It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">It is the re-calculated maximum value likely to be spent for a group of lots within the procedure. This information can be provided when the maximum value of a group of lots is lower than the sum of values of individual lots (e.g. when the same budget is shared for several lots). The value covers all contracts to be awarded within a framework agreement over its whole duration, including options and renewals. The value is re-calculated on the basis of the winner’s tender or winners’ tenders.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">The (estimated) period from the start to the end of the contract, framework agreement, dynamic purchasing system or qualification system. This shall include any options and renewals.</entry>
 <entry key="field|description|OPA-98-Lot-Number">The period, from the tender submission deadline, for which tenders must remain valid.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">The law applicable if the procurement involves buyers from different countries</entry>
-<entry key="field|hint|BT-13716-notice">One of the following must be filled in: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Add as many lots as you wish to include in the group of lots.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Add as many lots as you wish to include in the group of lots.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">One of the following must be filled in: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.</entry>
 <entry key="field|hint|BT-22-LotsGroup">If you use an internal identifier for your procedure and your lots, please fill it in. Please use different identifiers for each lot.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">This field can point to the tender specifications</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">This field can point to the tender specifications</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Select one or several exclusion grounds</entry>
+<entry key="field|hint|BT-786-Review">One of the following must be filled in: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Fill in either the duration dates OR the duration period</entry>
 <entry key="field|hint|OPA-36-Part-Number">Fill in either the duration dates OR the duration period</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">First create the organisation in the section 'Organisations', then select it in drop-down list.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Address of the procurement documents</entry>
 <entry key="field|name|BT-15-Part">Address of the procurement documents</entry>
 <entry key="field|name|BT-150-Contract">Identifier of the contract</entry>
+<entry key="field|name|BT-1501(c)-Contract">Modified Contract Reference</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Section identifier</entry>
 <entry key="field|name|BT-1501(n)-Contract">Section identifier</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Section identifier</entry>
-<entry key="field|name|BT-1501(s)-Contract">Section identifier</entry>
+<entry key="field|name|BT-1501(p)-Contract">Modified Notice Part Reference</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Section identifier</entry>
 <entry key="field|name|BT-151-Contract">Address of the contract</entry>
 <entry key="field|name|BT-156-NoticeResult">Maximum value of the framework agreements in this group of lots</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Maximum value of the framework agreements in this group of lots</entry>

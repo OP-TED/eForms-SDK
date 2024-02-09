@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">L'indirizzo Internet per l'accesso ai documenti di gara (o alla parte dei documenti ad accesso non limitato). Per tutti gli avvisi, ad eccezione degli avvisi di preinformazione, è necessario che l'indirizzo fornisca un accesso diretto (vale a dire all'esatta pagina web contenente i documenti, non a un sito web generale), illimitato (vale a dire non previa registrazione), completo (vale a dire che i documenti di gara devono essere completi) e gratuito e i documenti devono essere già disponibili al momento della pubblicazione dell'avviso.</entry>
 <entry key="field|description|BT-15-Part">L'indirizzo Internet per l'accesso ai documenti di gara (o alla parte dei documenti ad accesso non limitato). Per tutti gli avvisi, ad eccezione degli avvisi di preinformazione, è necessario che l'indirizzo fornisca un accesso diretto (vale a dire all'esatta pagina web contenente i documenti, non a un sito web generale), illimitato (vale a dire non previa registrazione), completo (vale a dire che i documenti di gara devono essere completi) e gratuito e i documenti devono essere già disponibili al momento della pubblicazione dell'avviso.</entry>
 <entry key="field|description|BT-150-Contract">Identificativo dell'appalto o, nel caso di avvisi volontari per la trasparenza ex ante e avvisi sui risultati di concorsi di progettazione, della decisione. Le informazioni nella sezione sull'appalto si riferiscono all'appalto o alla decisione in questione.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Identificativo di una o più sezioni di un avviso o bando precedente nell'ambito della procedura. Le informazioni della sezione "modifica" si riferiscono a tale sezione o sezioni.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Identificativo di una o più sezioni di un avviso o bando precedente nell'ambito della procedura. Le informazioni della sezione "modifica" si riferiscono a tale sezione o sezioni.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identificativo di una o più sezioni di un avviso o bando precedente nell'ambito della procedura. Le informazioni della sezione "modifica" si riferiscono a tale sezione o sezioni.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identificativo di una o più sezioni di un avviso o bando precedente nell'ambito della procedura. Le informazioni della sezione "modifica" si riferiscono a tale sezione o sezioni.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Identificativo di una o più sezioni di un avviso o bando precedente nell'ambito della procedura. Le informazioni della sezione "modifica" si riferiscono a tale sezione o sezioni.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Identificativo di una o più sezioni di un avviso o bando precedente nell'ambito della procedura. Le informazioni della sezione "modifica" si riferiscono a tale sezione o sezioni.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Identificativo di una o più sezioni di un avviso o bando precedente nell'ambito della procedura. Le informazioni della sezione "modifica" si riferiscono a tale sezione o sezioni.</entry>
 <entry key="field|description|BT-151-Contract">Localizzatore uniforme di risorse (ad es. l'indirizzo web) dell'appalto.</entry>
 <entry key="field|description|BT-156-NoticeResult">Si tratta del valore massimo ricalcolato della spesa probabile per un gruppo di lotti nell'ambito della procedura. Tali informazioni possono essere fornite se il valore massimo di un gruppo di lotti è inferiore al totale dei valori dei singoli lotti (ad es. quando un importo di previsione indica una spesa comune a diversi lotti). Il valore comprende tutti gli appalti che saranno aggiudicati nell'ambito di un accordo quadro nel corso della sua durata complessiva, comprese le opzioni e i rinnovi. Il valore è ricalcolato in base all'offerta del vincitore o alle offerte dei vincitori.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Si tratta del valore massimo ricalcolato della spesa probabile per un gruppo di lotti nell'ambito della procedura. Tali informazioni possono essere fornite se il valore massimo di un gruppo di lotti è inferiore al totale dei valori dei singoli lotti (ad es. quando un importo di previsione indica una spesa comune a diversi lotti). Il valore comprende tutti gli appalti che saranno aggiudicati nell'ambito di un accordo quadro nel corso della sua durata complessiva, comprese le opzioni e i rinnovi. Il valore è ricalcolato in base all'offerta del vincitore o alle offerte dei vincitori.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">Il periodo (stimato) che intercorre tra l'inizio e la fine dell'appalto, dell'accordo quadro, del sistema dinamico di acquisizione o del sistema di qualificazione. Sono compresi tutte le opzioni e tutti i rinnovi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Il periodo successivo al termine di presentazione dell'offerta nel quale le offerte devono rimanere valide.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">La legge applicabile se l'appalto coinvolge committenti di paesi diversi.</entry>
-<entry key="field|hint|BT-13716-notice">Uno dei seguenti campi deve essere compilato: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Uno dei seguenti campi deve essere compilato: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Uno dei seguenti campi deve essere compilato: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Se si utilizza un identificativo interno per la procedura e i lotti, si prega di inserirlo. Si prega di utilizzare identificativi diversi per ciascun lotto.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Se si utilizza un identificativo interno per la procedura e i lotti, si prega di inserirlo. Si prega di utilizzare identificativi diversi per ciascun lotto.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Se si utilizza un identificativo interno per la procedura e i lotti, si prega di inserirlo. Si prega di utilizzare identificativi diversi per ciascun lotto.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Questo campo può fare riferimento al capitolato d'oneri.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Questo campo può fare riferimento al capitolato d'oneri.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Selezionare uno o più motivi di esclusione.</entry>
+<entry key="field|hint|BT-786-Review">Uno dei seguenti campi deve essere compilato: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Inserire le date di durata OPPURE il periodo di durata.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Inserire le date di durata OPPURE il periodo di durata.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Prima è necessario creare l'organizzazione nella sezione "Organizzazioni" e poi selezionarla dall'elenco a discesa.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Indirizzo dei documenti di gara</entry>
 <entry key="field|name|BT-15-Part">Indirizzo dei documenti di gara</entry>
 <entry key="field|name|BT-150-Contract">Identificativo dell'appalto</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identificativo della sezione</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identificativo della sezione</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identificativo della sezione</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identificativo della sezione</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identificativo della sezione</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identificativo della sezione</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identificativo della sezione</entry>
 <entry key="field|name|BT-151-Contract">Indirizzo dell'appalto</entry>
 <entry key="field|name|BT-156-NoticeResult">Valore massimo degli accordi quadro per il gruppo di lotti</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Valore massimo degli accordi quadro per il gruppo di lotti</entry>

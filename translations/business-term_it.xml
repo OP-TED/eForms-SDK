@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">La lingua in cui possono essere presentate le offerte, domande di partecipazione o espressioni di interesse.</entry>
 <entry key="business-term|description|BT-98">Il periodo successivo al termine di presentazione dell'offerta nel quale le offerte devono rimanere valide.</entry>
 <entry key="business-term|description|BT-99">Descrizione dei termini per le procedure di ricorso.</entry>
-<entry key="business-term|hint|BT-13716">Uno dei seguenti campi deve essere compilato: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Uno dei seguenti campi deve essere compilato: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="business-term|hint|BT-22">Se si utilizza un identificativo interno per la procedura e i lotti, si prega di inserirlo. Si prega di utilizzare identificativi diversi per ciascun lotto.</entry>
 <entry key="business-term|hint|BT-36">Inserire le date di durata OPPURE il periodo di durata.</entry>
 <entry key="business-term|hint|BT-540">Un numero deve essere collegato a un metodo e deve essere sommato al valore totale del criterio attuale.</entry>
 <entry key="business-term|hint|BT-543">Questo campo può fare riferimento al capitolato d'oneri.</entry>
+<entry key="business-term|hint|BT-786">Uno dei seguenti campi deve essere compilato: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Prima è necessario creare l'organizzazione nella sezione "Organizzazioni" e poi selezionarla dall'elenco a discesa.</entry>
 <entry key="business-term|name|BG-1">Avviso o bando</entry>
 <entry key="business-term|name|BG-100">Comunicazioni</entry>

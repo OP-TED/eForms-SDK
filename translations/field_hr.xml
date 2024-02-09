@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Internetska adresa za pristup dokumentaciji o nabavi (dijelu s neograničenim pristupom). Za sve obavijesti osim prethodnih informacijskih obavijesti, adresa mora omogućiti izravan (tj. točnu internetsku stranicu s dokumentacijom, a ne opću internetsku stranicu), neograničen (npr. bez registracije), potpun (tj. dokumentacija o nabavi mora biti potpuna) i besplatan pristup te dokumentacija u trenutku objave obavijesti već mora biti dostupna.</entry>
 <entry key="field|description|BT-15-Part">Internetska adresa za pristup dokumentaciji o nabavi (dijelu s neograničenim pristupom). Za sve obavijesti osim prethodnih informacijskih obavijesti, adresa mora omogućiti izravan (tj. točnu internetsku stranicu s dokumentacijom, a ne opću internetsku stranicu), neograničen (npr. bez registracije), potpun (tj. dokumentacija o nabavi mora biti potpuna) i besplatan pristup te dokumentacija u trenutku objave obavijesti već mora biti dostupna.</entry>
 <entry key="field|description|BT-150-Contract">Identifikator ugovora ili, u slučaju obavijesti za dobrovoljnu ex ante transparentnost i obavijesti o rezultatima projektnog natječaja, identifikator odluke. Informacije u odjeljku o ugovoru odnose se na taj ugovor ili odluku.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Identifikator jednog ili više odjeljaka prethodne obavijesti u okviru postupka. Informacije u odjeljku o izmjeni odnose se na taj odjeljak ili odjeljke.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Identifikator jednog ili više odjeljaka prethodne obavijesti u okviru postupka. Informacije u odjeljku o izmjeni odnose se na taj odjeljak ili odjeljke.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identifikator jednog ili više odjeljaka prethodne obavijesti u okviru postupka. Informacije u odjeljku o izmjeni odnose se na taj odjeljak ili odjeljke.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identifikator jednog ili više odjeljaka prethodne obavijesti u okviru postupka. Informacije u odjeljku o izmjeni odnose se na taj odjeljak ili odjeljke.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Identifikator jednog ili više odjeljaka prethodne obavijesti u okviru postupka. Informacije u odjeljku o izmjeni odnose se na taj odjeljak ili odjeljke.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Identifikator jednog ili više odjeljaka prethodne obavijesti u okviru postupka. Informacije u odjeljku o izmjeni odnose se na taj odjeljak ili odjeljke.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Identifikator jednog ili više odjeljaka prethodne obavijesti u okviru postupka. Informacije u odjeljku o izmjeni odnose se na taj odjeljak ili odjeljke.</entry>
 <entry key="field|description|BT-151-Contract">Jedinstveni lokator resursa (npr. internetska adresa) ugovora.</entry>
 <entry key="field|description|BT-156-NoticeResult">Ponovno izračunana maksimalna vrijednost koja će se vjerojatno potrošiti na skupinu grupa unutar postupka. Te se informacije mogu navesti ako je maksimalna vrijednost skupine grupa manja od zbroja vrijednosti pojedinačnih grupa (npr. kad nekoliko grupa dijeli ista proračunska sredstva). Vrijednost obuhvaća sve ugovore koji će se dodijeliti u okviru okvirnog sporazuma tijekom cijelog njegova trajanja, uključujući opcije i produljenja. Vrijednost je ponovno izračunana na temelju ponuda pobjednika.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Ponovno izračunana maksimalna vrijednost koja će se vjerojatno potrošiti na skupinu grupa unutar postupka. Te se informacije mogu navesti ako je maksimalna vrijednost skupine grupa manja od zbroja vrijednosti pojedinačnih grupa (npr. kad nekoliko grupa dijeli ista proračunska sredstva). Vrijednost obuhvaća sve ugovore koji će se dodijeliti u okviru okvirnog sporazuma tijekom cijelog njegova trajanja, uključujući opcije i produljenja. Vrijednost je ponovno izračunana na temelju ponuda pobjednika.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">(Predviđeno) razdoblje od početka do kraja ugovora, okvirnog sporazuma, dinamičkog sustava nabave ili kvalifikacijskog sustava. Moraju biti obuhvaćene sve opcije i produljenja.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Razdoblje, od roka za podnošenje ponuda, tijekom kojeg ponude moraju biti valjane.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo koje se primjenjuje ako javna nabava uključuje kupce iz više zemalja.</entry>
-<entry key="field|hint|BT-13716-notice">Jedno od sljedećeg mora biti ispunjeno: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Jedno od sljedećeg mora biti ispunjeno: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Jedno od sljedećeg mora biti ispunjeno: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Ako imate interni identifikator za svoj postupak i grupe, navedite ga. Svaka grupa mora imati jedinstveni dentifikator.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Ako imate interni identifikator za svoj postupak i grupe, navedite ga. Svaka grupa mora imati jedinstveni dentifikator.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Ako imate interni identifikator za svoj postupak i grupe, navedite ga. Svaka grupa mora imati jedinstveni dentifikator.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Ovo polje može upućivati na natječajne specifikacije.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Ovo polje može upućivati na natječajne specifikacije.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Odaberite najmanje jednu osnovu za isključenje.</entry>
+<entry key="field|hint|BT-786-Review">Jedno od sljedećeg mora biti ispunjeno: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Ispunite datume ILI razdoblja trajanja.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Ispunite datume ILI razdoblja trajanja.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Prvo kreirajte organizaciju u odjeljku „Organizacije”, a zatim je odaberite na popisu.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Adresa dokumentacije o nabavi</entry>
 <entry key="field|name|BT-15-Part">Adresa dokumentacije o nabavi</entry>
 <entry key="field|name|BT-150-Contract">Identifikacijska oznaka ugovora</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identifikator odjeljka</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identifikator odjeljka</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identifikator odjeljka</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identifikator odjeljka</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifikator odjeljka</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identifikator odjeljka</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identifikator odjeljka</entry>
 <entry key="field|name|BT-151-Contract">Adresa ugovora</entry>
 <entry key="field|name|BT-156-NoticeResult">Maksimalna vrijednost okvirnih sporazuma unutar te skupine grupa</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Maksimalna vrijednost okvirnih sporazuma unutar te skupine grupa</entry>

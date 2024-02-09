@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Adresa de internet pentru a accesa (partea nerestricționată din) documentele achiziției. Pentru toate anunțurile, cu excepția anunțurilor de intenție, adresa trebuie să ofere un acces direct (și anume pagina web exactă unde se află documentele, nu un site web general), nerestricționat (de exemplu, fără înregistrare), complet (adică documentele de achiziție trebuie să fie complete) și gratuit, iar documentele trebuie să fie deja disponibile la momentul publicării anunțului.</entry>
 <entry key="field|description|BT-15-Part">Adresa de internet pentru a accesa (partea nerestricționată din) documentele achiziției. Pentru toate anunțurile, cu excepția anunțurilor de intenție, adresa trebuie să ofere un acces direct (și anume pagina web exactă unde se află documentele, nu un site web general), nerestricționat (de exemplu, fără înregistrare), complet (adică documentele de achiziție trebuie să fie complete) și gratuit, iar documentele trebuie să fie deja disponibile la momentul publicării anunțului.</entry>
 <entry key="field|description|BT-150-Contract">Un identificator al contractului sau, în cazul anunțurilor de transparență ex ante voluntare și al anunțurilor privind rezultatul concursurilor de proiecte, un identificator al deciziei. Informațiile din secțiunea contractului se referă la contractul sau la decizia în cauză.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Un identificator al uneia sau mai multor secțiuni dintr-un anunț anterior din cadrul procedurii. Informațiile din secțiunea cu modificări se referă la secțiunea sau secțiunile în cauză.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Un identificator al uneia sau mai multor secțiuni dintr-un anunț anterior din cadrul procedurii. Informațiile din secțiunea cu modificări se referă la secțiunea sau secțiunile în cauză.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Un identificator al uneia sau mai multor secțiuni dintr-un anunț anterior din cadrul procedurii. Informațiile din secțiunea cu modificări se referă la secțiunea sau secțiunile în cauză.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Un identificator al uneia sau mai multor secțiuni dintr-un anunț anterior din cadrul procedurii. Informațiile din secțiunea cu modificări se referă la secțiunea sau secțiunile în cauză.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Un identificator al uneia sau mai multor secțiuni dintr-un anunț anterior din cadrul procedurii. Informațiile din secțiunea cu modificări se referă la secțiunea sau secțiunile în cauză.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Un identificator al uneia sau mai multor secțiuni dintr-un anunț anterior din cadrul procedurii. Informațiile din secțiunea cu modificări se referă la secțiunea sau secțiunile în cauză.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Un identificator al uneia sau mai multor secțiuni dintr-un anunț anterior din cadrul procedurii. Informațiile din secțiunea cu modificări se referă la secțiunea sau secțiunile în cauză.</entry>
 <entry key="field|description|BT-151-Contract">Localizatorul uniform de resurse (de exemplu, adresa de internet) al contractului.</entry>
 <entry key="field|description|BT-156-NoticeResult">Aceasta este valoarea maximă recalculată care ar putea fi cheltuită pentru un grup de loturi în cadrul procedurii. Aceste informații pot fi furnizate atunci când valoarea maximă sau estimată a unui grup de loturi este mai mică decât suma valorilor loturilor individuale (de exemplu, atunci când același buget este împărțit pentru mai multe loturi). Valoarea acoperă toate contractele care urmează să fie atribuite într-un acord-cadru pe întreaga sa durată, inclusiv opțiunile și reînnoirile. Valoarea este recalculată pe baza ofertei/ofertelor câștigătorului/câștigătorilor.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Aceasta este valoarea maximă recalculată care ar putea fi cheltuită pentru un grup de loturi în cadrul procedurii. Aceste informații pot fi furnizate atunci când valoarea maximă sau estimată a unui grup de loturi este mai mică decât suma valorilor loturilor individuale (de exemplu, atunci când același buget este împărțit pentru mai multe loturi). Valoarea acoperă toate contractele care urmează să fie atribuite într-un acord-cadru pe întreaga sa durată, inclusiv opțiunile și reînnoirile. Valoarea este recalculată pe baza ofertei/ofertelor câștigătorului/câștigătorilor.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">Perioada (estimată) de la începutul până la sfârșitul contractului, al acordului-cadru, al sistemului dinamic de achiziții sau al sistemului de calificare. Aceasta trebuie să includă orice opțiuni și reînnoiri.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Perioada, începând cu termenul de depunere a ofertelor, pentru care ofertele trebuie să rămână valabile.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Legea aplicabilă în cazul în care achiziția implică cumpărători din țări diferite.</entry>
-<entry key="field|hint|BT-13716-notice">Unul dintre următoarele trebuie completat: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Unul dintre următoarele trebuie completat: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Unul dintre următoarele trebuie completat: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Dacă utilizați un identificator intern pentru procedura și loturile dumneavoastră, vă rugăm să îl completați. Vă rugăm să utilizați un identificator diferit pentru fiecare lot.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Dacă utilizați un identificator intern pentru procedura și loturile dumneavoastră, vă rugăm să îl completați. Vă rugăm să utilizați un identificator diferit pentru fiecare lot.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Dacă utilizați un identificator intern pentru procedura și loturile dumneavoastră, vă rugăm să îl completați. Vă rugăm să utilizați un identificator diferit pentru fiecare lot.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Acest câmp poate indica caietul de sarcini.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Acest câmp poate indica caietul de sarcini.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Selectați unul sau mai multe motive de excludere.</entry>
+<entry key="field|hint|BT-786-Review">Unul dintre următoarele trebuie completat: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Completați datele SAU perioada de timp.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Completați datele SAU perioada de timp.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Mai întâi creați organizația în secțiunea „Organizații”, iar apoi selectați-o în lista verticală.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Unde se găsesc documentele achiziției</entry>
 <entry key="field|name|BT-15-Part">Unde se găsesc documentele achiziției</entry>
 <entry key="field|name|BT-150-Contract">Identificatorul contractului</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identificator secțiune</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identificator secțiune</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identificator secțiune</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identificator secțiune</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identificator secțiune</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identificator secțiune</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identificator secțiune</entry>
 <entry key="field|name|BT-151-Contract">Adresa contractului</entry>
 <entry key="field|name|BT-156-NoticeResult">Valoarea maximă a acordurilor-cadru pentru acest grup de loturi</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Valoarea maximă a acordurilor-cadru pentru acest grup de loturi</entry>
