@@ -9,6 +9,7 @@
 2 {ND-Root} #{auxiliary|text|procedure} // 2. Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{ND-ProcedureProcurementScope} #{field|name|BT-21-Procedure}: ${BT-21-Procedure} // Procedure Title
+		{ND-ProcedureProcurementScope} #{field|name|BT-24-Procedure}: ${BT-24-Procedure} // Procedure Description
 		{BT-22-Procedure} #{field|name|BT-22-Procedure}: ${BT-22-Procedure} // Internal identifier
 		0 {BT-105-Procedure[BT-105-Procedure != 'unpublished']} #{field|name|BT-105-Procedure}: #{BT-105-Procedure} // Type of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
@@ -49,7 +50,7 @@
 		3 {ND-LotDuration} #{auxiliary|text|envisaged-start-duration-contract} // 5.1.3 Envisaged start date and the duration of the contract (T01)
 			{BT-536-Lot} #{field|name|BT-536-Lot}: ${BT-536-Lot} // Start date
 			{BT-537-Lot} #{field|name|BT-537-Lot}: ${BT-537-Lot} // End date
-			{BT-36-Lot} #{field|name|BT-36-Lot}: ${format-number(OPA-36-Lot-Number, '###,##0.###,###,###')} ${BT-36-Lot/@unitCode} // Duration
+			{BT-36-Lot} #{field|name|BT-36-Lot}: ${format-number(OPA-36-Lot-Number, '###,##0.###,###,###')} #{code|name|${concat('duration-unit.', BT-36-Lot/@unitCode)}} // Duration
 			{BT-538-Lot} #{field|name|BT-538-Lot}: #{BT-538-Lot} // Planned Period (Unlimited)
 		16 {BT-137-Lot[(OPT-301-Lot-Mediator is present) or (OPT-301-Lot-ReviewOrg is present) or (OPT-301-Lot-FiscalLegis is present) or (OPT-301-Lot-EnvironLegis is present) or (OPT-301-Lot-EmployLegis is present) or (OPT-301-Lot-AddInfo is present) or (OPT-301-Lot-DocProvider is present) or (OPT-301-Lot-ReviewInfo is present) or (OPT-301-Lot-TenderReceipt is present) or (OPT-301-Lot-TenderEval is present) or (some text:$orgida in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Financing[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgida != '') or (some text:$orgidb in (for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2] return $orgid2) satisfies $orgidb != '') or (some text:$orgidc in (for text:$lotid3 in BT-137-Lot, text:$conid3 in OPT-315-LotResult[BT-13713-LotResult == $lotid3], text:$orgid3 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid3] return $orgid3) satisfies $orgidc != '')]} #{auxiliary|text|further-info} // 5.1.16 Further information, mediation and review
 			{BT-137-Lot[OPT-301-Lot-AddInfo is present]} #{auxiliary|text|organisation-providing-info-procedure}: ${for text:$refid in OPT-301-Lot-AddInfo, text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid) or (OPT-201-Organization-TouchPoint == $refid)] return $orgname} // Organisation providing additional information about the procurement procedure (Lot)
