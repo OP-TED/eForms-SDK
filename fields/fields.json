@@ -4892,7 +4892,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG)-\\d{4}))$",
+      "value" : "^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG|TPA|TPO|TEN|CON|UBO)-\\d{4}))$",
       "severity" : "ERROR"
     }
   }, {
@@ -5728,7 +5728,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^(RESULT|((RES|TEN|TPA|TPO|ORG)-\\d{4}))$",
+      "value" : "^( BUYER|RESULT|((RES|TEN|TPA|TPO|ORG|UBO)-\\d{4}))$",
       "severity" : "ERROR"
     }
   }, {
@@ -33141,7 +33141,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG)-\\d{4}))$",
+      "value" : "^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG|TPA|TPO|TEN|CON|UBO)-\\d{4}))$",
       "severity" : "ERROR"
     }
   }, {
