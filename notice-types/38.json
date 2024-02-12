@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.0",
-    "createdOn" : "2023-11-15T14:00:00"
+    "version" : "1.10.225",
+    "createdOn" : "2024-02-09T14:31:54"
   },
   "noticeId" : "38",
   "metadata" : [ {
@@ -2578,6 +2578,13 @@
         "description" : "Modification Previous Notice Identifier",
         "_label" : "field|name|BT-1501(n)-Contract"
       }, {
+        "id" : "BT-1501(c)-Contract",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Modified Contract Reference",
+        "_label" : "field|name|BT-1501(c)-Contract",
+        "_idSchemes" : [ "CON" ]
+      }, {
         "id" : "GR-ContractModification-ModificationReason",
         "contentType" : "group",
         "nodeId" : "ND-ModificationReason",
@@ -2602,9 +2609,8 @@
         "contentType" : "group",
         "nodeId" : "ND-Modification",
         "displayType" : "GROUP",
-        "description" : "Contract Modification (Section and Description)",
+        "description" : "Contract Modification (Sections and Description)",
         "_label" : "group|name|ND-Modification",
-        "_repeatable" : true,
         "content" : [ {
           "id" : "GR-ModificationSectionsIdentifers",
           "contentType" : "group",
@@ -2614,11 +2620,11 @@
           "_label" : "group|name|ND-ModifiedSection",
           "_repeatable" : true,
           "content" : [ {
-            "id" : "BT-1501(s)-Contract",
+            "id" : "BT-1501(p)-Contract",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
-            "description" : "Modification Previous Notice Section Identifier",
-            "_label" : "field|name|BT-1501(s)-Contract"
+            "description" : "Modified Notice Part Reference",
+            "_label" : "field|name|BT-1501(p)-Contract"
           } ]
         }, {
           "id" : "BT-202-Contract",
