@@ -12,11 +12,9 @@
 				<efext:EformsExtension>
 					<efac:ContractModification>
 						<efbc:ChangedNoticeIdentifier schemeName="notice-id-ref">cb988d3a-79e9-4792-8739-da87831a20ef-01</efbc:ChangedNoticeIdentifier>
+						<efbc:ModifiedContractIdentifier schemeName="contract">CON-0001</efbc:ModifiedContractIdentifier>
 						<efac:Change>
 							<efbc:ChangeDescription languageID="ENG">Description of modifications</efbc:ChangeDescription>
-							<efac:ChangedSection>
-								<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
-							</efac:ChangedSection>
 						</efac:Change>
 						<efac:ChangeReason>
 							<cbc:ReasonCode listName="modification-justification">add-wss</cbc:ReasonCode>

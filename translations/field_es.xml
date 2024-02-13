@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">La dirección de internet para acceder a (la parte no restringida de) los documentos de contratación. Para todos los anuncios, salvo los anuncios de información previa, la dirección dará acceso directo (la página web exacta con los documentos, no un sitio web general), no restringido (sin registro), completo (los documentos de contratación deben estar completos) y gratuito, y los documentos estarán disponibles desde el momento de la publicación del anuncio.</entry>
 <entry key="field|description|BT-15-Part">La dirección de internet para acceder a (la parte no restringida de) los documentos de contratación. Para todos los anuncios, salvo los anuncios de información previa, la dirección dará acceso directo (la página web exacta con los documentos, no un sitio web general), no restringido (sin registro), completo (los documentos de contratación deben estar completos) y gratuito, y los documentos estarán disponibles desde el momento de la publicación del anuncio.</entry>
 <entry key="field|description|BT-150-Contract">Un identificador del contrato o, en caso de anuncios de transparencia previa voluntaria o anuncios de resultados de concursos de proyectos, de la decisión. La información de la sección del contrato se refiere a este contrato o esta decisión.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Un identificador de una o varias secciones de un anuncio anterior dentro del procedimiento. La información de la sección sobre modificación se refiere a esta sección o a estas secciones.</entry>
 <entry key="field|description|BT-151-Contract">El localizador uniforme de recursos (por ejemplo, dirección web) del contrato.</entry>
 <entry key="field|description|BT-156-NoticeResult">Se trata del valor máximo recalculado que probablemente se gaste en un grupo de lotes durante el procedimiento. Esta información puede facilitarse cuando el valor máximo de un grupo de lotes es inferior a la suma de los valores de los lotes individuales (por ejemplo, cuando se comparte el mismo presupuesto para varios lotes). El valor cubre todos los contratos que se van a adjudicar con arreglo a un acuerdo marco durante toda su duración, incluidas las opciones y las renovaciones. El valor se recalcula sobre la base de la oferta del ganador o de las ofertas de los ganadores.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Se trata del valor máximo recalculado que probablemente se gaste en un grupo de lotes durante el procedimiento. Esta información puede facilitarse cuando el valor máximo de un grupo de lotes es inferior a la suma de los valores de los lotes individuales (por ejemplo, cuando se comparte el mismo presupuesto para varios lotes). El valor cubre todos los contratos que se van a adjudicar con arreglo a un acuerdo marco durante toda su duración, incluidas las opciones y las renovaciones. El valor se recalcula sobre la base de la oferta del ganador o de las ofertas de los ganadores.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">El período (estimado) desde el inicio hasta el final del contrato, acuerdo marco, sistema dinámico de adquisición o sistema de calificación. Incluirá todas las opciones y renovaciones.</entry>
 <entry key="field|description|OPA-98-Lot-Number">El período, a partir de la fecha límite de presentación de las ofertas, durante el cual las ofertas deben seguir siendo válidas.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">La legislación aplicable si la contratación afecta a compradores de distintos países.</entry>
-<entry key="field|hint|BT-13716-notice">Uno de los siguientes campos debe ser completado: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Uno de los siguientes campos debe ser completado: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Añada tantos lotes como desee en el grupo de lotes.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Añada tantos lotes como desee en el grupo de lotes.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Uno de los siguientes campos debe ser completado: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Si utiliza un identificador interno para su procedimiento y sus lotes, cumpliméntelo. Utilice diferentes identificadores para cada lote.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Si utiliza un identificador interno para su procedimiento y sus lotes, cumpliméntelo. Utilice diferentes identificadores para cada lote.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Si utiliza un identificador interno para su procedimiento y sus lotes, cumpliméntelo. Utilice diferentes identificadores para cada lote.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Este campo puede hacer referencia al pliego de condiciones.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Este campo puede hacer referencia al pliego de condiciones.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Seleccione uno o varios motivos de exclusión.</entry>
+<entry key="field|hint|BT-786-Review">Uno de los siguientes campos debe ser completado: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Indique las fechas de duración O el período de duración.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Indique las fechas de duración O el período de duración.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">En primer lugar, cree la organización en la sección «Organizaciones» y, a continuación, selecciónela en la lista desplegable.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Dirección de los pliegos de contratación</entry>
 <entry key="field|name|BT-15-Part">Dirección de los pliegos de contratación</entry>
 <entry key="field|name|BT-150-Contract">Identificador del contrato</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identificador de sección</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identificador de sección</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identificador de sección</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identificador de sección</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identificador de sección</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identificador de sección</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identificador de sección</entry>
 <entry key="field|name|BT-151-Contract">Dirección del contrato</entry>
 <entry key="field|name|BT-156-NoticeResult">Valor máximo de los acuerdos marco de este grupo de lotes</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Valor máximo de los acuerdos marco de este grupo de lotes</entry>

@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.126",
-    "createdOn" : "2024-01-17T11:44:34"
+    "version" : "1.10.224",
+    "createdOn" : "2024-02-08T17:43:39"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -1365,42 +1365,42 @@
     "parentId" : "ND-ReviewStatus",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealDecision",
     "xpathRelative" : "efac:AppealDecision",
-    "xsdSequenceOrder" : [ { "efac:AppealDecision" : 13 } ],
+    "xsdSequenceOrder" : [ { "efac:AppealDecision" : 14 } ],
     "repeatable" : true
   }, {
     "id" : "ND-AppealedItemReference",
     "parentId" : "ND-ReviewStatus",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealedItem",
     "xpathRelative" : "efac:AppealedItem",
-    "xsdSequenceOrder" : [ { "efac:AppealedItem" : 17 } ],
+    "xsdSequenceOrder" : [ { "efac:AppealedItem" : 18 } ],
     "repeatable" : true
   }, {
     "id" : "ND-AppealingParty",
     "parentId" : "ND-ReviewStatus",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty",
     "xpathRelative" : "efac:AppealingParty",
-    "xsdSequenceOrder" : [ { "efac:AppealingParty" : 18 } ],
+    "xsdSequenceOrder" : [ { "efac:AppealingParty" : 19 } ],
     "repeatable" : true
   }, {
     "id" : "ND-AppealIrregularity",
     "parentId" : "ND-ReviewStatus",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealIrregularity",
     "xpathRelative" : "efac:AppealIrregularity",
-    "xsdSequenceOrder" : [ { "efac:AppealIrregularity" : 14 } ],
+    "xsdSequenceOrder" : [ { "efac:AppealIrregularity" : 15 } ],
     "repeatable" : true
   }, {
     "id" : "ND-AppealProcessingParty",
     "parentId" : "ND-ReviewStatus",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty",
     "xpathRelative" : "efac:AppealProcessingParty",
-    "xsdSequenceOrder" : [ { "efac:AppealProcessingParty" : 15 } ],
+    "xsdSequenceOrder" : [ { "efac:AppealProcessingParty" : 16 } ],
     "repeatable" : false
   }, {
     "id" : "ND-AppealRemedy",
     "parentId" : "ND-ReviewStatus",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealRemedy",
     "xpathRelative" : "efac:AppealRemedy",
-    "xsdSequenceOrder" : [ { "efac:AppealRemedy" : 16 } ],
+    "xsdSequenceOrder" : [ { "efac:AppealRemedy" : 17 } ],
     "repeatable" : true
   }, {
     "id" : "ND-Changes",
@@ -1414,7 +1414,7 @@
     "parentId" : "ND-Changes",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change",
     "xpathRelative" : "efac:Change",
-    "xsdSequenceOrder" : [ { "efac:Change" : 2 } ],
+    "xsdSequenceOrder" : [ { "efac:Change" : 3 } ],
     "repeatable" : true
   }, {
     "id" : "ND-ChangedSection",
@@ -1428,7 +1428,7 @@
     "parentId" : "ND-Changes",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason",
     "xpathRelative" : "efac:ChangeReason",
-    "xsdSequenceOrder" : [ { "efac:ChangeReason" : 3 } ],
+    "xsdSequenceOrder" : [ { "efac:ChangeReason" : 4 } ],
     "repeatable" : false
   }, {
     "id" : "ND-ContractModification",
@@ -1442,8 +1442,8 @@
     "parentId" : "ND-ContractModification",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change",
     "xpathRelative" : "efac:Change",
-    "xsdSequenceOrder" : [ { "efac:Change" : 2 } ],
-    "repeatable" : true
+    "xsdSequenceOrder" : [ { "efac:Change" : 3 } ],
+    "repeatable" : false
   }, {
     "id" : "ND-ModifiedSection",
     "parentId" : "ND-Modification",
@@ -1456,7 +1456,7 @@
     "parentId" : "ND-ContractModification",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:ChangeReason",
     "xpathRelative" : "efac:ChangeReason",
-    "xsdSequenceOrder" : [ { "efac:ChangeReason" : 3 } ],
+    "xsdSequenceOrder" : [ { "efac:ChangeReason" : 4 } ],
     "repeatable" : false
   }, {
     "id" : "ND-NoticeResult",
@@ -3129,18 +3129,13 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "9", "12", "13", "14", "18", "20", "21", "22", "23", "24", "27", "31", "33", "34", "35", "36", "37", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "19", "28", "32", "38", "39", "40" ],
-        "condition" : "{ND-LotTenderingProcess} ${BT-11-Procedure-Buyer not in ('cga','ra','la','body-pl','body-pl-cga','body-pl-ra','body-pl-la','pub-undert','pub-undert-cga','pub-undert-ra','pub-undert-la','org-sub-cga','org-sub-ra','org-sub-la','def-cont','int-org','eu-ins-bod-ag')}",
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "mandatory" : {
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "7", "8", "10", "11", "15", "16", "17", "19", "25", "26", "28", "29", "30", "32" ],
+        "noticeTypes" : [ "7", "8", "10", "11", "15", "16", "17", "25", "26", "29", "30" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3181,20 +3176,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "4", "5" ],
-        "condition" : "{ND-PartTenderingProcess} ${BT-11-Procedure-Buyer not in ('cga','ra','la','body-pl','body-pl-cga','body-pl-ra','body-pl-la','pub-undert','pub-undert-cga','pub-undert-ra','pub-undert-la','org-sub-cga','org-sub-ra','org-sub-la','def-cont','int-org','eu-ins-bod-ag')}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "4", "5" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4892,7 +4873,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG)-\\d{4}))$",
+      "value" : "^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG|TPA|TPO|TEN|CON|UBO)-\\d{4}))$",
       "severity" : "ERROR"
     }
   }, {
@@ -5575,6 +5556,70 @@
       } ]
     }
   }, {
+    "id" : "BT-1501(c)-Contract",
+    "parentNodeId" : "ND-ContractModification",
+    "name" : "Modified Contract Reference",
+    "btId" : "BT-1501",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ModifiedContractIdentifier",
+    "xpathRelative" : "efbc:ModifiedContractIdentifier",
+    "xsdSequenceOrder" : [ { "efbc:ModifiedContractIdentifier" : 2 } ],
+    "type" : "id-ref",
+    "attributes" : [ "BT-1501(c)-Contract-Scheme" ],
+    "idSchemes" : [ "CON" ],
+    "legalType" : "IDENTIFIER",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "CEI", "T01", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "38", "39", "40" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "pattern" : {
+      "value" : "^CON-\\d{4}$",
+      "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{ND-ContractModification} ${BT-1501(c)-Contract is unique in /BT-1501(c)-Contract}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-01501-0252"
+      } ]
+    }
+  }, {
+    "id" : "BT-1501(c)-Contract-Scheme",
+    "parentNodeId" : "ND-ContractModification",
+    "name" : "Modified Contract Reference Schemename",
+    "btId" : "BT-1501",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ModifiedContractIdentifier/@schemeName",
+    "xpathRelative" : "efbc:ModifiedContractIdentifier/@schemeName",
+    "xsdSequenceOrder" : [ { "efbc:ModifiedContractIdentifier" : 2 } ],
+    "type" : "code",
+    "attributeName" : "schemeName",
+    "attributeOf" : "BT-1501(c)-Contract",
+    "presetValue" : "contract",
+    "legalType" : "IDENTIFIER",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    }
+  }, {
     "id" : "BT-1501(n)-Contract",
     "parentNodeId" : "ND-ContractModification",
     "name" : "Modification Previous Notice Identifier",
@@ -5635,14 +5680,15 @@
       "severity" : "ERROR"
     }
   }, {
-    "id" : "BT-1501(s)-Contract",
+    "id" : "BT-1501(p)-Contract",
     "parentNodeId" : "ND-ModifiedSection",
-    "name" : "Modification Previous Notice Section Identifier",
+    "name" : "Modified Notice Part Reference",
     "btId" : "BT-1501",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier",
     "xpathRelative" : "efbc:ChangedSectionIdentifier",
     "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
     "type" : "id",
+    "attributes" : [ "BT-1501(p)-Contract-Scheme" ],
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -5655,33 +5701,32 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "CEI", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
+      }, {
         "noticeTypes" : [ "38", "39", "40" ],
+        "condition" : "{ND-ModifiedSection} ${BT-1501(c)-Contract is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
     },
     "pattern" : {
-      "value" : "^(RESULT|((CON|RES|TEN|TPA|TPO|ORG)-\\d{4}))$",
+      "value" : "^( BUYER|RESULT|((RES|TEN|TPA|TPO|ORG|UBO)-\\d{4}))$",
       "severity" : "ERROR"
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{ND-ContractModification} ${count(BT-1501(s)-Contract[BT-1501(s)-Contract == OPT-316-Contract]) == 1}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-01501-0106"
-      }, {
-        "value" : "{ND-ContractModification} ${BT-1501(s)-Contract[BT-1501(s)-Contract like '^CON-\\d{4}$'] is unique in /BT-1501(s)-Contract}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-01501-0107"
-      } ]
+    }
+  }, {
+    "id" : "BT-1501(p)-Contract-Scheme",
+    "parentNodeId" : "ND-ModifiedSection",
+    "name" : "Modified Notice Part Reference Schemename",
+    "btId" : "BT-1501",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier/@schemeName",
+    "xpathRelative" : "efbc:ChangedSectionIdentifier/@schemeName",
+    "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
+    "type" : "code",
+    "attributeName" : "schemeName",
+    "attributeOf" : "BT-1501(p)-Contract",
+    "legalType" : "IDENTIFIER",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-151-Contract",
@@ -6257,16 +6302,6 @@
       }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
         "condition" : "{ND-Company} ${not(OPT-200-Organization-Company in OPT-300-Tenderer) and not(OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "32", "33", "34", "35", "36", "37" ],
-        "condition" : "{ND-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]]) or (OPT-200-Organization-Company in OPT-301-Tenderer-SubCont[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]])}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -32976,7 +33011,7 @@
     "btId" : "BT-783",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageCode",
     "xpathRelative" : "efbc:AppealStageCode",
-    "xsdSequenceOrder" : [ { "efbc:AppealStageCode" : 6 } ],
+    "xsdSequenceOrder" : [ { "efbc:AppealStageCode" : 7 } ],
     "type" : "code",
     "attributes" : [ "BT-783-Review-List" ],
     "legalType" : "CODE",
@@ -33007,7 +33042,7 @@
     "btId" : "BT-783",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageCode/@listName",
     "xpathRelative" : "efbc:AppealStageCode/@listName",
-    "xsdSequenceOrder" : [ { "efbc:AppealStageCode" : 6 } ],
+    "xsdSequenceOrder" : [ { "efbc:AppealStageCode" : 7 } ],
     "type" : "text",
     "attributeName" : "listName",
     "attributeOf" : "BT-783-Review",
@@ -33024,7 +33059,7 @@
     "btId" : "BT-784",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageID",
     "xpathRelative" : "efbc:AppealStageID",
-    "xsdSequenceOrder" : [ { "efbc:AppealStageID" : 7 } ],
+    "xsdSequenceOrder" : [ { "efbc:AppealStageID" : 8 } ],
     "type" : "id",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
@@ -33047,7 +33082,7 @@
     "btId" : "BT-785",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealPreviousStageID",
     "xpathRelative" : "efbc:AppealPreviousStageID",
-    "xsdSequenceOrder" : [ { "efbc:AppealPreviousStageID" : 8 } ],
+    "xsdSequenceOrder" : [ { "efbc:AppealPreviousStageID" : 9 } ],
     "type" : "id",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
@@ -33087,7 +33122,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG)-\\d{4}))$",
+      "value" : "^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG|TPA|TPO|TEN|CON|UBO)-\\d{4}))$",
       "severity" : "ERROR"
     }
   }, {
@@ -33097,7 +33132,7 @@
     "btId" : "BT-787",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Date",
     "xpathRelative" : "cbc:Date",
-    "xsdSequenceOrder" : [ { "cbc:Date" : 1 } ],
+    "xsdSequenceOrder" : [ { "cbc:Date" : 2 } ],
     "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
@@ -33124,7 +33159,7 @@
     "btId" : "BT-788",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Title",
     "xpathRelative" : "cbc:Title",
-    "xsdSequenceOrder" : [ { "cbc:Title" : 2 } ],
+    "xsdSequenceOrder" : [ { "cbc:Title" : 3 } ],
     "type" : "text-multilingual",
     "attributes" : [ "BT-788-Review-Language" ],
     "legalType" : "TEXT",
@@ -33148,7 +33183,7 @@
     "btId" : "BT-788",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Title/@languageID",
     "xpathRelative" : "cbc:Title/@languageID",
-    "xsdSequenceOrder" : [ { "cbc:Title" : 2 } ],
+    "xsdSequenceOrder" : [ { "cbc:Title" : 3 } ],
     "type" : "code",
     "attributeName" : "languageID",
     "attributeOf" : "BT-788-Review",
@@ -33171,7 +33206,7 @@
     "btId" : "BT-789",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Description",
     "xpathRelative" : "cbc:Description",
-    "xsdSequenceOrder" : [ { "cbc:Description" : 3 } ],
+    "xsdSequenceOrder" : [ { "cbc:Description" : 4 } ],
     "type" : "text-multilingual",
     "attributes" : [ "BT-789-Review-Language" ],
     "legalType" : "TEXT",
@@ -33195,7 +33230,7 @@
     "btId" : "BT-789",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Description/@languageID",
     "xpathRelative" : "cbc:Description/@languageID",
-    "xsdSequenceOrder" : [ { "cbc:Description" : 3 } ],
+    "xsdSequenceOrder" : [ { "cbc:Description" : 4 } ],
     "type" : "code",
     "attributeName" : "languageID",
     "attributeOf" : "BT-789-Review",
@@ -33410,7 +33445,7 @@
     "btId" : "BT-793",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:RemedyAmount",
     "xpathRelative" : "efbc:RemedyAmount",
-    "xsdSequenceOrder" : [ { "efbc:RemedyAmount" : 9 } ],
+    "xsdSequenceOrder" : [ { "efbc:RemedyAmount" : 10 } ],
     "type" : "amount",
     "attributes" : [ "BT-793-Review-Currency" ],
     "legalType" : "VALUE",
@@ -33434,7 +33469,7 @@
     "btId" : "BT-793",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:RemedyAmount/@currencyID",
     "xpathRelative" : "efbc:RemedyAmount/@currencyID",
-    "xsdSequenceOrder" : [ { "efbc:RemedyAmount" : 9 } ],
+    "xsdSequenceOrder" : [ { "efbc:RemedyAmount" : 10 } ],
     "type" : "code",
     "attributeName" : "currencyID",
     "attributeOf" : "BT-793-Review",
@@ -33457,7 +33492,7 @@
     "btId" : "BT-794",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:URI",
     "xpathRelative" : "cbc:URI",
-    "xsdSequenceOrder" : [ { "cbc:URI" : 4 } ],
+    "xsdSequenceOrder" : [ { "cbc:URI" : 5 } ],
     "type" : "url",
     "legalType" : "URL",
     "repeatable" : {
@@ -33484,7 +33519,7 @@
     "btId" : "BT-795",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:FeeAmount",
     "xpathRelative" : "cbc:FeeAmount",
-    "xsdSequenceOrder" : [ { "cbc:FeeAmount" : 5 } ],
+    "xsdSequenceOrder" : [ { "cbc:FeeAmount" : 6 } ],
     "type" : "amount",
     "attributes" : [ "BT-795-Review-Currency" ],
     "legalType" : "VALUE",
@@ -33508,7 +33543,7 @@
     "btId" : "BT-795",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:FeeAmount/@currencyID",
     "xpathRelative" : "cbc:FeeAmount/@currencyID",
-    "xsdSequenceOrder" : [ { "cbc:FeeAmount" : 5 } ],
+    "xsdSequenceOrder" : [ { "cbc:FeeAmount" : 6 } ],
     "type" : "code",
     "attributeName" : "currencyID",
     "attributeOf" : "BT-795-Review",
@@ -33531,7 +33566,7 @@
     "btId" : "BT-796",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealIndicator",
     "xpathRelative" : "efbc:WithdrawnAppealIndicator",
-    "xsdSequenceOrder" : [ { "efbc:WithdrawnAppealIndicator" : 10 } ],
+    "xsdSequenceOrder" : [ { "efbc:WithdrawnAppealIndicator" : 11 } ],
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "repeatable" : {
@@ -33561,7 +33596,7 @@
     "btId" : "BT-797",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealDate",
     "xpathRelative" : "efbc:WithdrawnAppealDate",
-    "xsdSequenceOrder" : [ { "efbc:WithdrawnAppealDate" : 11 } ],
+    "xsdSequenceOrder" : [ { "efbc:WithdrawnAppealDate" : 12 } ],
     "type" : "date",
     "legalType" : "DATE",
     "repeatable" : {
@@ -33588,7 +33623,7 @@
     "btId" : "BT-798",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealReasons",
     "xpathRelative" : "efbc:WithdrawnAppealReasons",
-    "xsdSequenceOrder" : [ { "efbc:WithdrawnAppealReasons" : 12 } ],
+    "xsdSequenceOrder" : [ { "efbc:WithdrawnAppealReasons" : 13 } ],
     "type" : "text-multilingual",
     "attributes" : [ "BT-798-Review-Language" ],
     "legalType" : "TEXT",
@@ -33612,7 +33647,7 @@
     "btId" : "BT-798",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealReasons/@languageID",
     "xpathRelative" : "efbc:WithdrawnAppealReasons/@languageID",
-    "xsdSequenceOrder" : [ { "efbc:WithdrawnAppealReasons" : 12 } ],
+    "xsdSequenceOrder" : [ { "efbc:WithdrawnAppealReasons" : 13 } ],
     "type" : "code",
     "attributeName" : "languageID",
     "attributeOf" : "BT-798-Review",
@@ -36355,6 +36390,39 @@
         "id" : "eu-official-language",
         "type" : "flat"
       },
+      "severity" : "ERROR"
+    }
+  }, {
+    "id" : "OPT-093-Review",
+    "parentNodeId" : "ND-ReviewStatus",
+    "name" : "Review Technical Identifier",
+    "btId" : "OPT-093",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:ID",
+    "xpathRelative" : "cbc:ID",
+    "xsdSequenceOrder" : [ { "cbc:ID" : 1 } ],
+    "type" : "id",
+    "attributes" : [ "OPT-093-Review-Scheme" ],
+    "idScheme" : "REV",
+    "schemeName" : "review",
+    "legalType" : "IDENTIFIER",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    }
+  }, {
+    "id" : "OPT-093-Review-Scheme",
+    "parentNodeId" : "ND-ReviewStatus",
+    "name" : "Review Technical Identifier Schemename",
+    "btId" : "OPT-093",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:ID/@schemeName",
+    "xpathRelative" : "cbc:ID/@schemeName",
+    "xsdSequenceOrder" : [ { "cbc:ID" : 1 } ],
+    "type" : "code",
+    "attributeName" : "schemeName",
+    "attributeOf" : "OPT-093-Review",
+    "legalType" : "IDENTIFIER",
+    "repeatable" : {
+      "value" : false,
       "severity" : "ERROR"
     }
   }, {

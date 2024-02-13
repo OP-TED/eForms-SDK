@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">L-indirizz web għall-aċċess għad-dokumenti tal-akkwist (il-parti mhux ristretta tagħhom). Għall-avviżi kollha għajr l-avviżi informattivi minn qabel, l-indirizz għandu jagħti aċċess li jkun dirett (jiġifieri l-paġna web eżatta bid-dokumenti, mhux sit web ġenerali), mhux ristrett (eż. l-ebda reġistrazzjoni), sħiħ (jiġifieri d-dokumenti tal-akkwist huma kompluti), mingħajr ħlas, u d-dokumenti għandhom ikunu disponibbli diġà fil-mument tal-pubblikazzjoni tal-avviż.</entry>
 <entry key="field|description|BT-15-Part">L-indirizz web għall-aċċess għad-dokumenti tal-akkwist (il-parti mhux ristretta tagħhom). Għall-avviżi kollha għajr l-avviżi informattivi minn qabel, l-indirizz għandu jagħti aċċess li jkun dirett (jiġifieri l-paġna web eżatta bid-dokumenti, mhux sit web ġenerali), mhux ristrett (eż. l-ebda reġistrazzjoni), sħiħ (jiġifieri d-dokumenti tal-akkwist huma kompluti), mingħajr ħlas, u d-dokumenti għandhom ikunu disponibbli diġà fil-mument tal-pubblikazzjoni tal-avviż.</entry>
 <entry key="field|description|BT-150-Contract">Identifikatur tal-kuntratt jew, f’każ ta’ avviżi ta’ trasparenza ex ante volontarja u avviżi dwar ir-riżultat ta’ konkors ta’ disinn, tad-deċiżjoni. L-informazzjoni fit-taqsima tal-kuntratt tirreferi għal dan il-kuntratt jew għal din id-deċiżjoni.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Identifikatur ta’ taqsima waħda jew iktar f’avviż preċedenti fil-proċedura. L-informazzjoni fit-taqsima tal-modifika tirreferi għal din it-taqsima jew għal dawn it-taqsimiet.</entry>
 <entry key="field|description|BT-151-Contract">Il-lokalizzatur uniformi tar-riżorsi (eż. l-indirizz web) tal-kuntratt.</entry>
 <entry key="field|description|BT-156-NoticeResult">Huwa il-valur massimu kkalkulat mill-ġdid li x’aktarx jintnefaq għal grupp ta’ lottijiet fil-proċedura. Din l-informazzjoni tista’ tiġi pprovduta meta l-valur massimu ta’ grupp ta’ lottijiet ikun inqas mis-somma tal-valuri ta’ lottijiet individwali (eż. meta l-istess baġit ikun kondiviż għal diversi lottijiet). Il-valur ikopri l-kuntratti kollha li jridu jingħataw fi ftehim qafas tul id-durata kollha tiegħu, inkluż l-opzjonijiet u t-tiġdid. Il-valur huwa kkalkulat mill-ġdid abbażi tal-offerta tar-rebbieħ jew tal-offerti tar-rebbieħa.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Huwa il-valur massimu kkalkulat mill-ġdid li x’aktarx jintnefaq għal grupp ta’ lottijiet fil-proċedura. Din l-informazzjoni tista’ tiġi pprovduta meta l-valur massimu ta’ grupp ta’ lottijiet ikun inqas mis-somma tal-valuri ta’ lottijiet individwali (eż. meta l-istess baġit ikun kondiviż għal diversi lottijiet). Il-valur ikopri l-kuntratti kollha li jridu jingħataw fi ftehim qafas tul id-durata kollha tiegħu, inkluż l-opzjonijiet u t-tiġdid. Il-valur huwa kkalkulat mill-ġdid abbażi tal-offerta tar-rebbieħ jew tal-offerti tar-rebbieħa.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">Il-perjodu (stmat) mill-bidu sat-tmiem tal-kuntratt, tal-ftehim qafas, tas-sistema dinamika ta’ xiri jew tas-sistema ta’ kwalifika. Għandu jinkludi kwalunkwe opzjoni u tiġdid.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Il-perjodu, mill-iskadenza għat-tressiq tal-offerti, li fih l-offerti jridu jibqgħu validi.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Il-liġi applikabbli jekk l-akkwist jinvolvi xerrejja minn pajjiżi differenti.</entry>
-<entry key="field|hint|BT-13716-notice">Wieħed mill-ġodda li ġejjin irid jiġi mkabbad: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Wieħed mill-ġodda li ġejjin irid jiġi mkabbad: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Żid lottijiet kemm tixtieq tinkludi fil-grupp tal-lottijiet.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Żid lottijiet kemm tixtieq tinkludi fil-grupp tal-lottijiet.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Wieħed mill-ġodda li ġejjin irid jiġi mkabbad: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Jekk tuża identifikatur intern għall-proċedura tiegħek u għal-lottijiet tiegħek, jekk jogħġbok imlih. Jekk jogħġbok uża identifikaturi differenti għal kull lott.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Jekk tuża identifikatur intern għall-proċedura tiegħek u għal-lottijiet tiegħek, jekk jogħġbok imlih. Jekk jogħġbok uża identifikaturi differenti għal kull lott.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Jekk tuża identifikatur intern għall-proċedura tiegħek u għal-lottijiet tiegħek, jekk jogħġbok imlih. Jekk jogħġbok uża identifikaturi differenti għal kull lott.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Dan il-qasam jista’ jindika l-ispeċifikazzjonijiet tal-offerta.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Dan il-qasam jista’ jindika l-ispeċifikazzjonijiet tal-offerta.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Agħżel raġuni waħda jew aktar għall-esklużjoni.</entry>
+<entry key="field|hint|BT-786-Review">Wieħed mill-ġodda li ġejjin irid jiġi mkabbad: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Imla jew id-dati tat-tul ta’ żmien JEW il-perjodu tat-tul ta’ żmien</entry>
 <entry key="field|hint|OPA-36-Part-Number">Imla jew id-dati tat-tul ta’ żmien JEW il-perjodu tat-tul ta’ żmien</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">L-ewwel oħloq l-organizzazzjoni fit-taqsima “Organizzazzjonijiet”, imbagħad għażilha fil-lista li tinżel.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Indirizz tad-dokumenti tal-akkwist</entry>
 <entry key="field|name|BT-15-Part">Indirizz tad-dokumenti tal-akkwist</entry>
 <entry key="field|name|BT-150-Contract">Identifikatur tal-kuntratt</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identifikatur tas-sezzjoni</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identifikatur tas-sezzjoni</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identifikatur tas-sezzjoni</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identifikatur tas-sezzjoni</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifikatur tas-sezzjoni</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identifikatur tas-sezzjoni</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identifikatur tas-sezzjoni</entry>
 <entry key="field|name|BT-151-Contract">Indirizz tal-kuntratt</entry>
 <entry key="field|name|BT-156-NoticeResult">Valur massimu tal-ftehimiet qafas fi ħdan dan il-grupp ta’ lottijiet</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Valur massimu tal-ftehimiet qafas fi ħdan dan il-grupp ta’ lottijiet</entry>

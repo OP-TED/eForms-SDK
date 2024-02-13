@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.0",
-    "createdOn" : "2023-11-15T14:00:00"
+    "version" : "1.10.224",
+    "createdOn" : "2024-02-08T17:43:39"
   },
   "viewTemplates" : [ {
     "id" : "1",

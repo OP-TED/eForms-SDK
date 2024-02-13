@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Internetni naslov za dostop do dokumentov (tistega dela dokumentov, za katerega ne veljajo omejitve) v zvezi z oddajo javnega naročila. Pri vseh obvestilih, razen predhodnih informativnih obvestil, je v naslovu naveden naslov za dostop, ki je neposreden (tj. točen naslov spletne strani z dokumenti, ne naslov splošnega spletišča), neomejen (brez registracije), popoln (tj. dokumentacija v zvezi z oddajo javnega naročila je popolna) in brezplačen, dokumenti so v času objave obvestila že na voljo.</entry>
 <entry key="field|description|BT-15-Part">Internetni naslov za dostop do dokumentov (tistega dela dokumentov, za katerega ne veljajo omejitve) v zvezi z oddajo javnega naročila. Pri vseh obvestilih, razen predhodnih informativnih obvestil, je v naslovu naveden naslov za dostop, ki je neposreden (tj. točen naslov spletne strani z dokumenti, ne naslov splošnega spletišča), neomejen (brez registracije), popoln (tj. dokumentacija v zvezi z oddajo javnega naročila je popolna) in brezplačen, dokumenti so v času objave obvestila že na voljo.</entry>
 <entry key="field|description|BT-150-Contract">Identifikator pogodbe oziroma sklepa v primeru prostovoljnih obvestil za predhodno transparentnost in obvestil o rezultatih projektnega natečaja. Podatki v oddelku o pogodbi se nanašajo na to pogodbo ali sklep.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Identifikator enega ali več oddelkov v predhodnem obvestilu v zadevnem postopku. Podatki v oddelku o spremembi se nanašajo na ta oddelek ali te oddelke.</entry>
 <entry key="field|description|BT-151-Contract">Naslov vira v enotni obliki (npr. spletni naslov) naročila.</entry>
 <entry key="field|description|BT-156-NoticeResult">Ponovno izračunana najvišja vrednost, ki se bo verjetno porabila za skupino sklopov v postopku. Ta podatek se lahko navede, če je najvišja vrednost skupine sklopov nižja od vsote vrednosti posameznih sklopov (npr. če ima več sklopov skupen proračun). Vrednost zajema vsa naročila, ki bodo oddana v okvirnem sporazumu skozi celotno trajanje, vključno z opcijami in podaljšanji. Ta vrednost je ponovno izračunana na podlagi ponudbe zmagovalca ali ponudb zmagovalcev.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Ponovno izračunana najvišja vrednost, ki se bo verjetno porabila za skupino sklopov v postopku. Ta podatek se lahko navede, če je najvišja vrednost skupine sklopov nižja od vsote vrednosti posameznih sklopov (npr. če ima več sklopov skupen proračun). Vrednost zajema vsa naročila, ki bodo oddana v okvirnem sporazumu skozi celotno trajanje, vključno z opcijami in podaljšanji. Ta vrednost je ponovno izračunana na podlagi ponudbe zmagovalca ali ponudb zmagovalcev.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">(Predvideno) obdobje od začetka do konca naročila, okvirnega sporazuma, dinamičnega nabavnega sistema ali kvalifikacijskega sistema. Zajete so tudi opcije in podaljšanja.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Obdobje po poteku roka za predložitev, v katerem morajo ponudbe ostati veljavne.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo, ki se uporablja, če javno naročilo vključuje kupce iz različnih držav.</entry>
-<entry key="field|hint|BT-13716-notice">Eden od naslednjega mora biti izpolnjen: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Eden od naslednjega mora biti izpolnjen: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Eden od naslednjega mora biti izpolnjen: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Če za svoj postopek in sklope uporabljate notranji identifikator, ga vpišite. Za posamezne sklope uporabite različne identifikatorje.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Če za svoj postopek in sklope uporabljate notranji identifikator, ga vpišite. Za posamezne sklope uporabite različne identifikatorje.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Če za svoj postopek in sklope uporabljate notranji identifikator, ga vpišite. Za posamezne sklope uporabite različne identifikatorje.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">To polje lahko kaže na razpisne zahteve.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">To polje lahko kaže na razpisne zahteve.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Izberite enega ali več razlogov za izključitev.</entry>
+<entry key="field|hint|BT-786-Review">Eden od naslednjega mora biti izpolnjen: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Vnesite datume trajanja ALI obdobje trajanja.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Vnesite datume trajanja ALI obdobje trajanja.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Najprej ustvarite organizacijo v oddelku „Organizacije“, nato pa jo izberite v spustnem seznamu.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Naslov dokumentov v zvezi z oddajo javnega naročila</entry>
 <entry key="field|name|BT-15-Part">Naslov dokumentov v zvezi z oddajo javnega naročila</entry>
 <entry key="field|name|BT-150-Contract">Identifikator javnega naročila</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identifikator oddelka</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identifikator oddelka</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identifikator oddelka</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identifikator oddelka</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifikator oddelka</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identifikator oddelka</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identifikator oddelka</entry>
 <entry key="field|name|BT-151-Contract">Naslov javnega naročila</entry>
 <entry key="field|name|BT-156-NoticeResult">Najvišja vrednost okvirnih sporazumov v tej skupini sklopov</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Najvišja vrednost okvirnih sporazumov v tej skupini sklopov</entry>

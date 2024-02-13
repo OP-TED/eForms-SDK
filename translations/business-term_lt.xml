@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">Kalba, kuria galima pateikti pasiūlymus, dalyvavimo prašymus ar susidomėjimo pareiškimus.</entry>
 <entry key="business-term|description|BT-98">Laikotarpis skaičiuojamas nuo pasiūlymo pateikimo termino, kurį pasiūlymas turi likti galioti.</entry>
 <entry key="business-term|description|BT-99">Peržiūros procedūrų terminų aprašymas.</entry>
-<entry key="business-term|hint|BT-13716">Vienas iš šių turi būti užpildytas: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Vienas iš šių turi būti užpildytas: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Pridėkite tiek pirkimo dalių, kiek norite įtraukti į pirkimo dalių grupę.</entry>
 <entry key="business-term|hint|BT-22">Jei savo procedūrai ir pirkimo dalims naudojate vidaus identifikatorių, įrašykite jį. Kiekvienai pirkimo daliai naudokite skirtingus identifikatorius.</entry>
 <entry key="business-term|hint|BT-36">Įrašykite galiojimo datas ARBA galiojimo laikotarpį.</entry>
 <entry key="business-term|hint|BT-540">Skaičius turi būti susietas su metodu ir susumuotas sudaryti bendrą dabartinio kriterijaus sumą.</entry>
 <entry key="business-term|hint|BT-543">Šiame lauke galima pateikti nuorodą į pirkimo specifikacijas.</entry>
+<entry key="business-term|hint|BT-786">Vienas iš šių turi būti užpildytas: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Pirmiausia sukurkite organizaciją skirsnyje „Organizacijos“, tada pasirinkite ją išskleidžiamajame sąraše.</entry>
 <entry key="business-term|name|BG-1">Skelbimas</entry>
 <entry key="business-term|name|BG-100">Bendravimas</entry>

@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">Jezik, v katerem se lahko predložijo ponudbe, prijave za sodelovanje ali prijave interesa.</entry>
 <entry key="business-term|description|BT-98">Obdobje po poteku roka za predložitev, v katerem morajo ponudbe ostati veljavne.</entry>
 <entry key="business-term|description|BT-99">Opis rokov za revizijske postopke.</entry>
-<entry key="business-term|hint|BT-13716">Eden od naslednjega mora biti izpolnjen: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Eden od naslednjega mora biti izpolnjen: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
 <entry key="business-term|hint|BT-22">Če za svoj postopek in sklope uporabljate notranji identifikator, ga vpišite. Za posamezne sklope uporabite različne identifikatorje.</entry>
 <entry key="business-term|hint|BT-36">Vnesite datume trajanja ALI obdobje trajanja.</entry>
 <entry key="business-term|hint|BT-540">Številka mora biti povezana z metodo in predstavljati vsoto za trenutno merilo.</entry>
 <entry key="business-term|hint|BT-543">To polje lahko kaže na razpisne zahteve.</entry>
+<entry key="business-term|hint|BT-786">Eden od naslednjega mora biti izpolnjen: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Najprej ustvarite organizacijo v oddelku „Organizacije“, nato pa jo izberite v spustnem seznamu.</entry>
 <entry key="business-term|name|BG-1">Obvestilo</entry>
 <entry key="business-term|name|BG-100">Sporočilo</entry>

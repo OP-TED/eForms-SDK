@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.0",
-    "createdOn" : "2023-11-15T14:00:00"
+    "version" : "1.10.225",
+    "createdOn" : "2024-02-09T14:31:54"
   },
   "noticeId" : "5",
   "metadata" : [ {
@@ -749,7 +749,7 @@
           "id" : "GR-Part-DPS",
           "contentType" : "group",
           "nodeId" : "ND-PartDPSContractingSystem",
-          "displayType" : "SECTION",
+          "displayType" : "GROUP",
           "description" : "DPS contracting System involvement for the Part",
           "_label" : "group|name|ND-PartDPSContractingSystem",
           "content" : [ {

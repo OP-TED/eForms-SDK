@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Internetová adresa pro přístup k zadávací dokumentaci (její neomezené části). U všech oznámení s výjimkou předběžných oznámení musí adresa zajišťovat přístup, který je přímý (tj. přesná internetová stránka obsahující zadávací dokumentaci, nikoli obecná internetová stránka), neomezený (tj. bez nutnosti registrace) a plný (tj. zadávací dokumentace musí být úplná) a zdarma a zadávací dokumentace musí být k dispozici již v době uveřejnění oznámení.</entry>
 <entry key="field|description|BT-15-Part">Internetová adresa pro přístup k zadávací dokumentaci (její neomezené části). U všech oznámení s výjimkou předběžných oznámení musí adresa zajišťovat přístup, který je přímý (tj. přesná internetová stránka obsahující zadávací dokumentaci, nikoli obecná internetová stránka), neomezený (tj. bez nutnosti registrace) a plný (tj. zadávací dokumentace musí být úplná) a zdarma a zadávací dokumentace musí být k dispozici již v době uveřejnění oznámení.</entry>
 <entry key="field|description|BT-150-Contract">Identifikátor smlouvy nebo rozhodnutí v případě oznámení o dobrovolné průhlednosti ex ante a oznámení o výsledku soutěže o návrh. Informace uvedené v oddíle „Smlouva“ se týkají dané smlouvy nebo rozhodnutí.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Identifikátor jedné nebo více částí v předchozím oznámení týkajícím se dané zakázky. Informace uvedené v oddíle „Změna smlouvy“ se týkají daného oddílu nebo oddílů.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Identifikátor jedné nebo více částí v předchozím oznámení týkajícím se dané zakázky. Informace uvedené v oddíle „Změna smlouvy“ se týkají daného oddílu nebo oddílů.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identifikátor jedné nebo více částí v předchozím oznámení týkajícím se dané zakázky. Informace uvedené v oddíle „Změna smlouvy“ se týkají daného oddílu nebo oddílů.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identifikátor jedné nebo více částí v předchozím oznámení týkajícím se dané zakázky. Informace uvedené v oddíle „Změna smlouvy“ se týkají daného oddílu nebo oddílů.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Identifikátor jedné nebo více částí v předchozím oznámení týkajícím se dané zakázky. Informace uvedené v oddíle „Změna smlouvy“ se týkají daného oddílu nebo oddílů.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Identifikátor jedné nebo více částí v předchozím oznámení týkajícím se dané zakázky. Informace uvedené v oddíle „Změna smlouvy“ se týkají daného oddílu nebo oddílů.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Identifikátor jedné nebo více částí v předchozím oznámení týkajícím se dané zakázky. Informace uvedené v oddíle „Změna smlouvy“ se týkají daného oddílu nebo oddílů.</entry>
 <entry key="field|description|BT-151-Contract">Jednotný lokátor zdroje (např. internetová adresa) zakázky.</entry>
 <entry key="field|description|BT-156-NoticeResult">Jde o přepočítanou maximální hodnotu, která bude pravděpodobně vynaložena na skupinu částí v rámci řízení. Tato informace může být poskytnuta, když je maximální hodnota skupiny částí nižší než celkový součet hodnot jednotlivých částí (např. když má více částí společný rozpočet). Hodnota zahrnuje všechny zakázky, které mají být zadány na základě rámcové dohody po celou dobu jejího trvání, včetně opčních práv a prodloužení. Tato hodnota se přepočítá na základě vítězné nabídky nebo vítězných nabídek.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Jde o přepočítanou maximální hodnotu, která bude pravděpodobně vynaložena na skupinu částí v rámci řízení. Tato informace může být poskytnuta, když je maximální hodnota skupiny částí nižší než celkový součet hodnot jednotlivých částí (např. když má více částí společný rozpočet). Hodnota zahrnuje všechny zakázky, které mají být zadány na základě rámcové dohody po celou dobu jejího trvání, včetně opčních práv a prodloužení. Tato hodnota se přepočítá na základě vítězné nabídky nebo vítězných nabídek.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">(Odhadovaná) délka trvání od zahájení do ukončení zakázky, rámcové dohody, dynamického nákupního systému nebo systému kvalifikace. Zahrnou se různá opční práva a prodloužení.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Doba počínající lhůtou pro podání nabídky, po kterou musí nabídky zůstat v platnosti.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Rozhodné právo, pokud se zakázka týká kupujících z různých zemí.</entry>
-<entry key="field|hint|BT-13716-notice">Jeden z následujících musí být vyplněn: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Jeden z následujících musí být vyplněn: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Přidejte tolik částí, kolik si přejete zahrnout do skupiny částí.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Přidejte tolik částí, kolik si přejete zahrnout do skupiny částí.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Jeden z následujících musí být vyplněn: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Pokud pro vaše řízení a jeho části používáte interní identifikátor, vyplňte jej prosím. Pro každou část použijte různé identifikátory.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Pokud pro vaše řízení a jeho části používáte interní identifikátor, vyplňte jej prosím. Pro každou část použijte různé identifikátory.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Pokud pro vaše řízení a jeho části používáte interní identifikátor, vyplňte jej prosím. Pro každou část použijte různé identifikátory.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Toto pole může odkazovat na specifikace pro nabídky.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Toto pole může odkazovat na specifikace pro nabídky.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Vyberte jeden nebo více důvodů pro vyloučení.</entry>
+<entry key="field|hint|BT-786-Review">Jeden z následujících musí být vyplněn: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Uveďte dobu trvání buď pomocí dat, ANEBO pomocí období.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Uveďte dobu trvání buď pomocí dat, ANEBO pomocí období.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Nejprve vytvořte organizaci v oddíle „Organizace“ a poté ji vyberte v rozbalovací nabídce.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Adresa zadávací dokumentace</entry>
 <entry key="field|name|BT-15-Part">Adresa zadávací dokumentace</entry>
 <entry key="field|name|BT-150-Contract">Identifikační kód smlouvy</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identifikátor sekce</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identifikátor sekce</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identifikátor sekce</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identifikátor sekce</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifikátor sekce</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identifikátor sekce</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identifikátor sekce</entry>
 <entry key="field|name|BT-151-Contract">Adresa smlouvy</entry>
 <entry key="field|name|BT-156-NoticeResult">Maximální hodnota rámcových dohod v této skupině částí</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Maximální hodnota rámcových dohod v této skupině částí</entry>

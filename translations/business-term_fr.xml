@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">Langue dans laquelle les offres, les demandes de participation ou les manifestations d’intérêt peuvent être présentées.</entry>
 <entry key="business-term|description|BT-98">Période, à compter de la date limite de présentation des offres, durant laquelle les offres doivent rester valables.</entry>
 <entry key="business-term|description|BT-99">Description des délais d’introduction des procédures de recours.</entry>
-<entry key="business-term|hint|BT-13716">L'un des champs suivants doit être rempli: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">L'un des champs suivants doit être rempli: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Ajoutez autant de lots que vous souhaitez inclure dans le groupe de lots.</entry>
 <entry key="business-term|hint|BT-22">Si vous utilisez un identifiant interne pour votre procédure et vos lots, veuillez l’indiquer. Veuillez utiliser des identifiants différents pour chaque lot.</entry>
 <entry key="business-term|hint|BT-36">Indiquez SOIT les dates de la durée, SOIT la période de la durée.</entry>
 <entry key="business-term|hint|BT-540">Un nombre doit être lié à une méthode et être égal au total pour le critère actuel.</entry>
 <entry key="business-term|hint|BT-543">Ce champ peut renvoyer au cahier des charges.</entry>
+<entry key="business-term|hint|BT-786">L'un des champs suivants doit être rempli: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Créez d’abord l’organisation dans la section «Organisations», puis sélectionnez-là dans la liste déroulante.</entry>
 <entry key="business-term|name|BG-1">Avis</entry>
 <entry key="business-term|name|BG-100">Communication</entry>

@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Adres strony internetowej, na której można uzyskać dostęp do (niezastrzeżonej części) dokumentów zamówienia. We wszystkich ogłoszeniach, z wyjątkiem wstępnych ogłoszeń informacyjnych, adres umożliwia dostęp, który jest bezpośredni (tzn. musi być dokładnym adresem strony internetowej z dokumentami, a nie ogólnej strony internetowej), nieograniczony (np. brak konieczności rejestracji), pełny (tzn. dokumenty zamówienia są kompletne) i nieodpłatny, a dokumenty są dostępne już w momencie publikacji ogłoszenia.</entry>
 <entry key="field|description|BT-15-Part">Adres strony internetowej, na której można uzyskać dostęp do (niezastrzeżonej części) dokumentów zamówienia. We wszystkich ogłoszeniach, z wyjątkiem wstępnych ogłoszeń informacyjnych, adres umożliwia dostęp, który jest bezpośredni (tzn. musi być dokładnym adresem strony internetowej z dokumentami, a nie ogólnej strony internetowej), nieograniczony (np. brak konieczności rejestracji), pełny (tzn. dokumenty zamówienia są kompletne) i nieodpłatny, a dokumenty są dostępne już w momencie publikacji ogłoszenia.</entry>
 <entry key="field|description|BT-150-Contract">Identyfikator umowy lub – w przypadku ogłoszeń o dobrowolnej przejrzystości ex ante i ogłoszeń o wynikach konkursu – decyzji. Informacje zawarte w sekcji „Umowa” odnoszą się do umowy lub decyzji opatrzonej tym identyfikatorem.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Identyfikator jednej lub większej liczby sekcji w obrębie wcześniejszego ogłoszenia w ramach procedury. Informacje zawarte w sekcji „Modyfikacja umowy” odnoszą się do sekcji opatrzonej(-ych) tym identyfikatorem.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Identyfikator jednej lub większej liczby sekcji w obrębie wcześniejszego ogłoszenia w ramach procedury. Informacje zawarte w sekcji „Modyfikacja umowy” odnoszą się do sekcji opatrzonej(-ych) tym identyfikatorem.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Identyfikator jednej lub większej liczby sekcji w obrębie wcześniejszego ogłoszenia w ramach procedury. Informacje zawarte w sekcji „Modyfikacja umowy” odnoszą się do sekcji opatrzonej(-ych) tym identyfikatorem.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Identyfikator jednej lub większej liczby sekcji w obrębie wcześniejszego ogłoszenia w ramach procedury. Informacje zawarte w sekcji „Modyfikacja umowy” odnoszą się do sekcji opatrzonej(-ych) tym identyfikatorem.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Identyfikator jednej lub większej liczby sekcji w obrębie wcześniejszego ogłoszenia w ramach procedury. Informacje zawarte w sekcji „Modyfikacja umowy” odnoszą się do sekcji opatrzonej(-ych) tym identyfikatorem.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Identyfikator jednej lub większej liczby sekcji w obrębie wcześniejszego ogłoszenia w ramach procedury. Informacje zawarte w sekcji „Modyfikacja umowy” odnoszą się do sekcji opatrzonej(-ych) tym identyfikatorem.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Identyfikator jednej lub większej liczby sekcji w obrębie wcześniejszego ogłoszenia w ramach procedury. Informacje zawarte w sekcji „Modyfikacja umowy” odnoszą się do sekcji opatrzonej(-ych) tym identyfikatorem.</entry>
 <entry key="field|description|BT-151-Contract">Adres URL (np. adres strony internetowej) dotyczący umowy.</entry>
 <entry key="field|description|BT-156-NoticeResult">Jest to ponownie obliczona wartość maksymalna jaka prawdopodobnie będzie wydana w ramach grupy części zamówienia. Informacje te można podać, jeżeli wartość maksymalna grupy części jest niższa niż suma wartości poszczególnych części (np. gdy ten sam budżet jest dzielony na kilka części zamówienia). Wartość ta obejmuje wszystkie zamówienia, które mają zostać udzielone w ramach umowy ramowej przez cały okres jej obowiązywania, w tym opcje i wznowienia. Wartość jest ponownie obliczona na podstawie zwycięskiej oferty lub zwycięskich ofert.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Jest to ponownie obliczona wartość maksymalna jaka prawdopodobnie będzie wydana w ramach grupy części zamówienia. Informacje te można podać, jeżeli wartość maksymalna grupy części jest niższa niż suma wartości poszczególnych części (np. gdy ten sam budżet jest dzielony na kilka części zamówienia). Wartość ta obejmuje wszystkie zamówienia, które mają zostać udzielone w ramach umowy ramowej przez cały okres jej obowiązywania, w tym opcje i wznowienia. Wartość jest ponownie obliczona na podstawie zwycięskiej oferty lub zwycięskich ofert.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">Długość (przewidywana) okresu obowiązywania, od początku do końca umowy, umowy ramowej, dynamicznego systemu zakupów lub systemu kwalifikowania. Obejmuje to wszelkie opcje i wznowienia.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Okres, począwszy od terminu składania ofert, przez który oferty muszą pozostać ważne.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Prawo mające zastosowanie w przypadku, gdy zamówienie obejmuje nabywców z różnych krajów.</entry>
-<entry key="field|hint|BT-13716-notice">Jedno z poniższych musi zostać wypełnione: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Jedno z poniższych musi zostać wypełnione: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Jedno z poniższych musi zostać wypełnione: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Jeśli używasz wewnętrznego identyfikatora dla swojej procedury i części zamówienia, podaj go. Użyj różnych identyfikatorów dla każdej części zamówienia.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Jeśli używasz wewnętrznego identyfikatora dla swojej procedury i części zamówienia, podaj go. Użyj różnych identyfikatorów dla każdej części zamówienia.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Jeśli używasz wewnętrznego identyfikatora dla swojej procedury i części zamówienia, podaj go. Użyj różnych identyfikatorów dla każdej części zamówienia.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Pole to może wskazywać na specyfikację istotnych warunków zamówienia.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Pole to może wskazywać na specyfikację istotnych warunków zamówienia.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Wybierz jedną lub kilka podstaw wykluczenia.</entry>
+<entry key="field|hint|BT-786-Review">Jedno z poniższych musi zostać wypełnione: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Wypełnij daty obowiązywania LUB okres obowiązywania.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Wypełnij daty obowiązywania LUB okres obowiązywania.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Najpierw utwórz organizację w sekcji „Organizacje”, a następnie wybierz ją z rozwijanej listy.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Adres dokumentów zamówienia</entry>
 <entry key="field|name|BT-15-Part">Adres dokumentów zamówienia</entry>
 <entry key="field|name|BT-150-Contract">Identyfikator zamówienia</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identyfikator sekcji</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identyfikator sekcji</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identyfikator sekcji</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identyfikator sekcji</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identyfikator sekcji</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identyfikator sekcji</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identyfikator sekcji</entry>
 <entry key="field|name|BT-151-Contract">Adres zamówienia</entry>
 <entry key="field|name|BT-156-NoticeResult">Maksymalna wartość umów ramowych w tej grupie części zamówienia</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Maksymalna wartość umów ramowych w tej grupie części zamówienia</entry>

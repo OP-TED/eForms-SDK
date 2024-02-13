@@ -731,8 +731,9 @@
 		<diagnostic id="BT-15-Lot" see="field:BT-15-Lot">cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="BT-15-Part" see="field:BT-15-Part">cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="BT-150-Contract" see="field:BT-150-Contract">efac:ContractReference/cbc:ID</diagnostic>
+		<diagnostic id="BT-1501_c_-Contract" see="field:BT-1501(c)-Contract">efbc:ModifiedContractIdentifier</diagnostic>
 		<diagnostic id="BT-1501_n_-Contract" see="field:BT-1501(n)-Contract">efbc:ChangedNoticeIdentifier</diagnostic>
-		<diagnostic id="BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efbc:ChangedSectionIdentifier</diagnostic>
+		<diagnostic id="BT-1501_p_-Contract" see="field:BT-1501(p)-Contract">efbc:ChangedSectionIdentifier</diagnostic>
 		<diagnostic id="BT-151-Contract" see="field:BT-151-Contract">cbc:URI</diagnostic>
 		<diagnostic id="BT-156-NoticeResult" see="field:BT-156-NoticeResult">efbc:GroupFrameworkMaximumValueAmount</diagnostic>
 		<diagnostic id="BT-1561-NoticeResult" see="field:BT-1561-NoticeResult">efbc:GroupFrameworkReestimatedValueAmount</diagnostic>
@@ -1266,6 +1267,7 @@
 		<diagnostic id="BT-98-Lot" see="field:BT-98-Lot">cac:TenderValidityPeriod/cbc:DurationMeasure</diagnostic>
 		<diagnostic id="BT-99-Lot" see="field:BT-99-Lot">cbc:Description</diagnostic>
 		<diagnostic id="ND-AcceleratedProcedure" see="node:ND-AcceleratedProcedure">cac:ProcessJustification</diagnostic>
+		<diagnostic id="ND-AppealingParty" see="node:ND-AppealingParty">efac:AppealingParty</diagnostic>
 		<diagnostic id="ND-AuctionTerms" see="node:ND-AuctionTerms">cac:AuctionTerms</diagnostic>
 		<diagnostic id="ND-AwardingTerms" see="node:ND-AwardingTerms">cac:AwardingTerms</diagnostic>
 		<diagnostic id="ND-AwardingTerms_BT-46-Lot" see="field:BT-46-Lot">cac:TechnicalCommitteePerson/cbc:FamilyName</diagnostic>
@@ -1294,7 +1296,6 @@
 		<diagnostic id="ND-ConcessionRevenue" see="node:ND-ConcessionRevenue">efac:ConcessionRevenue</diagnostic>
 		<diagnostic id="ND-ContractEUFunds" see="node:ND-ContractEUFunds">efac:Funding</diagnostic>
 		<diagnostic id="ND-ContractModification" see="node:ND-ContractModification">efac:ContractModification</diagnostic>
-		<diagnostic id="ND-ContractModification_BT-1501_s_-Contract" see="field:BT-1501(s)-Contract">efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier</diagnostic>
 		<diagnostic id="ND-ContractingParty" see="node:ND-ContractingParty">cac:ContractingParty</diagnostic>
 		<diagnostic id="ND-CrossBorderLawUnpublish" see="node:ND-CrossBorderLawUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-ExclusionGrounds" see="node:ND-ExclusionGrounds">cac:SpecificTendererRequirement</diagnostic>
@@ -1408,7 +1409,6 @@
 		<diagnostic id="ND-LotsGroupValueEstimate" see="node:ND-LotsGroupValueEstimate">cac:RequestedTenderTotal</diagnostic>
 		<diagnostic id="ND-Modification" see="node:ND-Modification">efac:Change</diagnostic>
 		<diagnostic id="ND-ModificationReason" see="node:ND-ModificationReason">efac:ChangeReason</diagnostic>
-		<diagnostic id="ND-ModifiedSection" see="node:ND-ModifiedSection">efac:ChangedSection</diagnostic>
 		<diagnostic id="ND-NonEsubmission" see="node:ND-NonEsubmission">cac:ProcessJustification</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms" see="node:ND-NonUBLTenderingTerms">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms_BT-5010-Lot" see="field:BT-5010-Lot">efac:Funding/efbc:FinancingIdentifier</diagnostic>
@@ -1480,7 +1480,6 @@
 		<diagnostic id="ND-PublicOpening" see="node:ND-PublicOpening">cac:OpenTenderEvent</diagnostic>
 		<diagnostic id="ND-PublicOpening_BT-133-Lot" see="field:BT-133-Lot">cac:OccurenceLocation/cbc:Description</diagnostic>
 		<diagnostic id="ND-ReceivedSubmissions" see="node:ND-ReceivedSubmissions">efac:ReceivedSubmissionsStatistics</diagnostic>
-		<diagnostic id="ND-ReviewRequests" see="node:ND-ReviewRequests">efac:AppealsInformation</diagnostic>
 		<diagnostic id="ND-ReviewRequestsStatistics" see="node:ND-ReviewRequestsStatistics">efac:AppealRequestsStatistics</diagnostic>
 		<diagnostic id="ND-ReviewStatus_BT-786-Review" see="field:BT-786-Review">efac:AppealedItem/cbc:ID</diagnostic>
 		<diagnostic id="ND-ReviewStatus_BT-790-Review" see="field:BT-790-Review">efac:AppealDecision/efbc:DecisionTypeCode</diagnostic>
@@ -1584,6 +1583,7 @@
 		<diagnostic id="OPT-091-ReviewReq" see="field:OPT-091-ReviewReq">efbc:AppealingPartyTypeCode</diagnostic>
 		<diagnostic id="OPT-092-ReviewBody" see="field:OPT-092-ReviewBody">efbc:AppealProcessingPartyTypeDescription</diagnostic>
 		<diagnostic id="OPT-092-ReviewReq" see="field:OPT-092-ReviewReq">efbc:AppealingPartyTypeDescription</diagnostic>
+		<diagnostic id="OPT-093-Review" see="field:OPT-093-Review">cbc:ID</diagnostic>
 		<diagnostic id="OPT-100-Contract" see="field:OPT-100-Contract">cac:NoticeDocumentReference/cbc:ID</diagnostic>
 		<diagnostic id="OPT-110-Lot-FiscalLegis" see="field:OPT-110-Lot-FiscalLegis">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="OPT-110-Part-FiscalLegis" see="field:OPT-110-Part-FiscalLegis">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>

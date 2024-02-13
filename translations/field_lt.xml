@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Interneto adresas, kuriuo suteikiama prieiga prie pirkimo dokumentų (neribotos prieigos dalių). Visuose skelbimuose, išskyrus išankstinius informacinius skelbimus, nurodytu adresu suteikiama tiesioginė (t. y. tikslus tinklalapis su dokumentais, o ne bendra svetainė), neribota (pvz., be registracijos), visiška (t. y. pirkimo dokumentai turi būti išsamūs) ir nemokama prieiga, o dokumentai turi būti prieinami jau skelbimo paskelbimo dieną.</entry>
 <entry key="field|description|BT-15-Part">Interneto adresas, kuriuo suteikiama prieiga prie pirkimo dokumentų (neribotos prieigos dalių). Visuose skelbimuose, išskyrus išankstinius informacinius skelbimus, nurodytu adresu suteikiama tiesioginė (t. y. tikslus tinklalapis su dokumentais, o ne bendra svetainė), neribota (pvz., be registracijos), visiška (t. y. pirkimo dokumentai turi būti išsamūs) ir nemokama prieiga, o dokumentai turi būti prieinami jau skelbimo paskelbimo dieną.</entry>
 <entry key="field|description|BT-150-Contract">Sutarties arba, savanoriškų ex-ante skelbimų skaidrumo sumetimais ir skelbimų apie projekto konkurso rezultatus atveju sprendimo identifikatorius. Sutarties skirsnyje pateikiama informacija apie šią sutartį arba sprendimą.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Vieno ar kelių tos pačios procedūros ankstesnio skelbimo skirsnių identifikatorius. Keitimo skirsnyje pateikiama informacija apie šį arba šiuos skirsnius.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Vieno ar kelių tos pačios procedūros ankstesnio skelbimo skirsnių identifikatorius. Keitimo skirsnyje pateikiama informacija apie šį arba šiuos skirsnius.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Vieno ar kelių tos pačios procedūros ankstesnio skelbimo skirsnių identifikatorius. Keitimo skirsnyje pateikiama informacija apie šį arba šiuos skirsnius.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Vieno ar kelių tos pačios procedūros ankstesnio skelbimo skirsnių identifikatorius. Keitimo skirsnyje pateikiama informacija apie šį arba šiuos skirsnius.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Vieno ar kelių tos pačios procedūros ankstesnio skelbimo skirsnių identifikatorius. Keitimo skirsnyje pateikiama informacija apie šį arba šiuos skirsnius.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Vieno ar kelių tos pačios procedūros ankstesnio skelbimo skirsnių identifikatorius. Keitimo skirsnyje pateikiama informacija apie šį arba šiuos skirsnius.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Vieno ar kelių tos pačios procedūros ankstesnio skelbimo skirsnių identifikatorius. Keitimo skirsnyje pateikiama informacija apie šį arba šiuos skirsnius.</entry>
 <entry key="field|description|BT-151-Contract">Sutarties universalusis ištekliaus adresas (pvz., interneto svetainės adresas).</entry>
 <entry key="field|description|BT-156-NoticeResult">Tai perskaičiuota didžiausioji vertė, kuri, tikėtina, bus išleista pirkimo dalių grupei pagal procedūrą. Ši informacija gali būti pateikta, kai pirkimo dalių grupės didžiausioji vertė yra mažesnė už atskirų šio pirkimo dalių verčių sumą (pvz., kai tas pats biudžetas naudojamas kelioms dalims). Vertė – tai bendra visų sutarčių, kurios bus skiriamos pagal preliminariąją sutartį per visą jos galiojimo laikotarpį, įskaitant pasirinkimo galimybes ir atnaujinimus, vertė. Vertė perskaičiuojama remiantis laimėtojo pasiūlymu arba laimėtojų pasiūlymais.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Tai perskaičiuota didžiausioji vertė, kuri, tikėtina, bus išleista pirkimo dalių grupei pagal procedūrą. Ši informacija gali būti pateikta, kai pirkimo dalių grupės didžiausioji vertė yra mažesnė už atskirų šio pirkimo dalių verčių sumą (pvz., kai tas pats biudžetas naudojamas kelioms dalims). Vertė – tai bendra visų sutarčių, kurios bus skiriamos pagal preliminariąją sutartį per visą jos galiojimo laikotarpį, įskaitant pasirinkimo galimybes ir atnaujinimus, vertė. Vertė perskaičiuojama remiantis laimėtojo pasiūlymu arba laimėtojų pasiūlymais.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">Laikotarpis (numatomas) nuo sutarties, preliminariosios sutarties, dinaminės pirkimo sistemos arba kvalifikacijos vertinimo sistemos galiojimo pradžios iki pabaigos. Galiojimo trukmė turi apimti visas pasirinkimo galimybes ir atnaujinimus.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Laikotarpis skaičiuojamas nuo pasiūlymo pateikimo termino, kurį pasiūlymas turi likti galioti.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Taikytina teisė, jei pirkime dalyvauja skirtingų šalių pirkėjai.</entry>
-<entry key="field|hint|BT-13716-notice">Vienas iš šių turi būti užpildytas: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Vienas iš šių turi būti užpildytas: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Pridėkite tiek pirkimo dalių, kiek norite įtraukti į pirkimo dalių grupę.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pridėkite tiek pirkimo dalių, kiek norite įtraukti į pirkimo dalių grupę.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Vienas iš šių turi būti užpildytas: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Jei savo procedūrai ir pirkimo dalims naudojate vidaus identifikatorių, įrašykite jį. Kiekvienai pirkimo daliai naudokite skirtingus identifikatorius.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Jei savo procedūrai ir pirkimo dalims naudojate vidaus identifikatorių, įrašykite jį. Kiekvienai pirkimo daliai naudokite skirtingus identifikatorius.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Jei savo procedūrai ir pirkimo dalims naudojate vidaus identifikatorių, įrašykite jį. Kiekvienai pirkimo daliai naudokite skirtingus identifikatorius.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Šiame lauke galima pateikti nuorodą į pirkimo specifikacijas.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Šiame lauke galima pateikti nuorodą į pirkimo specifikacijas.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Pasirinkite vieną ar kelis pašalinimo pagrindus.</entry>
+<entry key="field|hint|BT-786-Review">Vienas iš šių turi būti užpildytas: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Įrašykite galiojimo datas ARBA galiojimo laikotarpį.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Įrašykite galiojimo datas ARBA galiojimo laikotarpį.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Pirmiausia sukurkite organizaciją skirsnyje „Organizacijos“, tada pasirinkite ją išskleidžiamajame sąraše.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Pirkimo dokumentų adresas</entry>
 <entry key="field|name|BT-15-Part">Pirkimo dokumentų adresas</entry>
 <entry key="field|name|BT-150-Contract">Sutarties identifikatorius</entry>
+<entry key="field|name|BT-1501(c)-Contract">Skirsnio identifikatorius</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Skirsnio identifikatorius</entry>
 <entry key="field|name|BT-1501(n)-Contract">Skirsnio identifikatorius</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Skirsnio identifikatorius</entry>
-<entry key="field|name|BT-1501(s)-Contract">Skirsnio identifikatorius</entry>
+<entry key="field|name|BT-1501(p)-Contract">Skirsnio identifikatorius</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Skirsnio identifikatorius</entry>
 <entry key="field|name|BT-151-Contract">Sutarties adresas</entry>
 <entry key="field|name|BT-156-NoticeResult">Šios pirkimo dalių grupės didžiausioji vertė pagal preliminariąsias sutartis</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Šios pirkimo dalių grupės didžiausioji vertė pagal preliminariąsias sutartis</entry>

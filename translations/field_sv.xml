@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Den webbadress som ger åtkomst till (den icke-begränsade delen av) upphandlingsdokumenten. För alla meddelanden med undantag för förhandsmeddelanden ska webbadressen ge direkt åtkomst (dvs. den webbsida där dokumenten finns, inte en allmän webbplats), utan begränsningar (t.ex. ingen registrering) och fullständig (dvs. upphandlingsdokumenten ska vara fullständiga) och kostnadsfri åtkomst, och dokumenten ska finnas tillgängliga redan vid den tidpunkt då meddelandet offentliggörs.</entry>
 <entry key="field|description|BT-15-Part">Den webbadress som ger åtkomst till (den icke-begränsade delen av) upphandlingsdokumenten. För alla meddelanden med undantag för förhandsmeddelanden ska webbadressen ge direkt åtkomst (dvs. den webbsida där dokumenten finns, inte en allmän webbplats), utan begränsningar (t.ex. ingen registrering) och fullständig (dvs. upphandlingsdokumenten ska vara fullständiga) och kostnadsfri åtkomst, och dokumenten ska finnas tillgängliga redan vid den tidpunkt då meddelandet offentliggörs.</entry>
 <entry key="field|description|BT-150-Contract">En identifierare för kontraktet eller, om det rör sig om meddelanden om frivillig förhandsinsyn och meddelanden om resultat av projekttävlingen, för beslutet. Informationen i avsnittet om kontrakt avser detta kontrakt eller detta beslut.</entry>
+<entry key="field|description|BT-1501(c)-Contract">En identifierare för ett eller flera avsnitt i ett tidigare meddelande i upphandlingen. Informationen i avsnittet om kontraktsändring avser detta eller dessa avsnitt.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">En identifierare för ett eller flera avsnitt i ett tidigare meddelande i upphandlingen. Informationen i avsnittet om kontraktsändring avser detta eller dessa avsnitt.</entry>
 <entry key="field|description|BT-1501(n)-Contract">En identifierare för ett eller flera avsnitt i ett tidigare meddelande i upphandlingen. Informationen i avsnittet om kontraktsändring avser detta eller dessa avsnitt.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">En identifierare för ett eller flera avsnitt i ett tidigare meddelande i upphandlingen. Informationen i avsnittet om kontraktsändring avser detta eller dessa avsnitt.</entry>
-<entry key="field|description|BT-1501(s)-Contract">En identifierare för ett eller flera avsnitt i ett tidigare meddelande i upphandlingen. Informationen i avsnittet om kontraktsändring avser detta eller dessa avsnitt.</entry>
+<entry key="field|description|BT-1501(p)-Contract">En identifierare för ett eller flera avsnitt i ett tidigare meddelande i upphandlingen. Informationen i avsnittet om kontraktsändring avser detta eller dessa avsnitt.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">En identifierare för ett eller flera avsnitt i ett tidigare meddelande i upphandlingen. Informationen i avsnittet om kontraktsändring avser detta eller dessa avsnitt.</entry>
 <entry key="field|description|BT-151-Contract">Kontraktets webbadress (URL).</entry>
 <entry key="field|description|BT-156-NoticeResult">Detta är det nya beräknade högsta värde som troligen kommer att användas för en grupp av delkontrakt inom förfarandet. Denna information kan lämnas när det högsta värdet för en grupp av delkontrakt är lägre än summan av värdena för de enskilda delkontrakten (t.ex. när samma budget används för flera delkontrakt). Värdet täcker alla de kontrakt som ska tilldelas inom ett ramavtal under hela dess varaktighet, inklusive optioner och förlängningar. Värdet beräknas på nytt på grundval av vinnarens eller vinnarnas anbud.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Detta är det nya beräknade högsta värde som troligen kommer att användas för en grupp av delkontrakt inom förfarandet. Denna information kan lämnas när det högsta värdet för en grupp av delkontrakt är lägre än summan av värdena för de enskilda delkontrakten (t.ex. när samma budget används för flera delkontrakt). Värdet täcker alla de kontrakt som ska tilldelas inom ett ramavtal under hela dess varaktighet, inklusive optioner och förlängningar. Värdet beräknas på nytt på grundval av vinnarens eller vinnarnas anbud.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">(Beräknad) tidsperiod från start- till slutdatum för kontraktet, ramavtalet, det dynamiska inköpssystemet eller kvalificeringssystemet. Detta ska omfatta alla optioner och förlängningar.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Den period från sista anbudsdag, under vilken anbud ska fortsätta att vara giltiga.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Lagstiftningen gäller om upphandlingen involverar köpare från olika länder.</entry>
-<entry key="field|hint|BT-13716-notice">En av följande måste fyllas i: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">En av följande måste fyllas i: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Lägga till så många delkontrakt som du vill inkludera i gruppen av delkontrakt.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lägga till så många delkontrakt som du vill inkludera i gruppen av delkontrakt.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">En av följande måste fyllas i: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Om du använder en intern identifierare för dina förfaranden och delkontrakt ska du använda dem. Du måste ha olika identifierare för varje delkontrakt.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Om du använder en intern identifierare för dina förfaranden och delkontrakt ska du använda dem. Du måste ha olika identifierare för varje delkontrakt.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Om du använder en intern identifierare för dina förfaranden och delkontrakt ska du använda dem. Du måste ha olika identifierare för varje delkontrakt.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Fältet kan länka till upphandlingsspecifikationerna.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Fältet kan länka till upphandlingsspecifikationerna.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Välj en eller flera uteslutningsgrunder.</entry>
+<entry key="field|hint|BT-786-Review">En av följande måste fyllas i: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Fyll i antingen datum eller en period för varaktigheten.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Fyll i antingen datum eller en period för varaktigheten.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Skapa först organisationen i avsnittet "Organisationer” och väj den sedan i listan.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Adress till upphandlingsdokumenten</entry>
 <entry key="field|name|BT-15-Part">Adress till upphandlingsdokumenten</entry>
 <entry key="field|name|BT-150-Contract">Identifierare för kontraktet</entry>
+<entry key="field|name|BT-1501(c)-Contract">Identifierare för avsnitt</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Identifierare för avsnitt</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identifierare för avsnitt</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Identifierare för avsnitt</entry>
-<entry key="field|name|BT-1501(s)-Contract">Identifierare för avsnitt</entry>
+<entry key="field|name|BT-1501(p)-Contract">Identifierare för avsnitt</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Identifierare för avsnitt</entry>
 <entry key="field|name|BT-151-Contract">Kontraktets adress</entry>
 <entry key="field|name|BT-156-NoticeResult">Högsta värdet på ramavtalen inom den här gruppen av delkontrakt</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Högsta värdet på ramavtalen inom den här gruppen av delkontrakt</entry>

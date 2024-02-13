@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Interneta adrese, kurā piekļūt iepirkuma procedūras dokumentiem (to neierobežotai daļai). Attiecībā uz visiem paziņojumiem, izņemot iepriekšējus informatīvus paziņojumus, adrese nodrošina tiešu (t. i., precīzu tīmekļvietni, kurā ir dokumenti, nevis vispārēju tīmekļvietni), neierobežotu (piemēram, bez reģistrācijas), pilnīgu (t. i., iepirkuma procedūras dokumenti ir pilnīgi) un bezmaksas piekļuvi, un dokumenti pieejami jau paziņojuma publicēšanas brīdī.</entry>
 <entry key="field|description|BT-15-Part">Interneta adrese, kurā piekļūt iepirkuma procedūras dokumentiem (to neierobežotai daļai). Attiecībā uz visiem paziņojumiem, izņemot iepriekšējus informatīvus paziņojumus, adrese nodrošina tiešu (t. i., precīzu tīmekļvietni, kurā ir dokumenti, nevis vispārēju tīmekļvietni), neierobežotu (piemēram, bez reģistrācijas), pilnīgu (t. i., iepirkuma procedūras dokumenti ir pilnīgi) un bezmaksas piekļuvi, un dokumenti pieejami jau paziņojuma publicēšanas brīdī.</entry>
 <entry key="field|description|BT-150-Contract">Līguma identifikators vai – attiecībā uz brīvprātīgas ex ante pārskatāmības paziņojumiem un metu konkursa rezultātu paziņojumiem – lēmuma identifikators. Informācija, kas iekļauta līguma iedaļā, attiecas uz šo līgumu vai lēmumu.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Procedūras iepriekšēja paziņojuma vienas vai vairāku iedaļu identifikators. Informācija grozījumu iedaļā attiecas uz šo iedaļu vai šīm iedaļām.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Procedūras iepriekšēja paziņojuma vienas vai vairāku iedaļu identifikators. Informācija grozījumu iedaļā attiecas uz šo iedaļu vai šīm iedaļām.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Procedūras iepriekšēja paziņojuma vienas vai vairāku iedaļu identifikators. Informācija grozījumu iedaļā attiecas uz šo iedaļu vai šīm iedaļām.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Procedūras iepriekšēja paziņojuma vienas vai vairāku iedaļu identifikators. Informācija grozījumu iedaļā attiecas uz šo iedaļu vai šīm iedaļām.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Procedūras iepriekšēja paziņojuma vienas vai vairāku iedaļu identifikators. Informācija grozījumu iedaļā attiecas uz šo iedaļu vai šīm iedaļām.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Procedūras iepriekšēja paziņojuma vienas vai vairāku iedaļu identifikators. Informācija grozījumu iedaļā attiecas uz šo iedaļu vai šīm iedaļām.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Procedūras iepriekšēja paziņojuma vienas vai vairāku iedaļu identifikators. Informācija grozījumu iedaļā attiecas uz šo iedaļu vai šīm iedaļām.</entry>
 <entry key="field|description|BT-151-Contract">Līguma vienotais resursu vietrādis (piemēram, tīmekļa adrese).</entry>
 <entry key="field|description|BT-156-NoticeResult">Tā ir pārrēķinātā maksimālā summa, kas procedūras ietvaros, visticamāk, tiks iztērēta par daļu grupu. Šo informāciju var sniegt, ja daļu grupas maksimālā vērtība ir zemāka par šīs grupas atsevišķo daļu vērtību summu (piemēram, ja viens un tas pats budžets tiek sadalīts pa vairākām daļām). Vērtība aptver visus līgumus, kuru slēgšanas tiesības paredzēts piešķirt saskaņā ar pamatnolīgumu visā tā darbības laikā, ieskaitot fakultatīvās iespējas un pārjaunojumus. Vērtību pārrēķina, pamatojoties uz uzvarētāja piedāvājumu vai uzvarētāju piedāvājumiem.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Tā ir pārrēķinātā maksimālā summa, kas procedūras ietvaros, visticamāk, tiks iztērēta par daļu grupu. Šo informāciju var sniegt, ja daļu grupas maksimālā vērtība ir zemāka par šīs grupas atsevišķo daļu vērtību summu (piemēram, ja viens un tas pats budžets tiek sadalīts pa vairākām daļām). Vērtība aptver visus līgumus, kuru slēgšanas tiesības paredzēts piešķirt saskaņā ar pamatnolīgumu visā tā darbības laikā, ieskaitot fakultatīvās iespējas un pārjaunojumus. Vērtību pārrēķina, pamatojoties uz uzvarētāja piedāvājumu vai uzvarētāju piedāvājumiem.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">(Paredzamais) ilgums no līguma, pamatnolīguma, dinamiskās iepirkumu sistēmas vai kvalifikācijas sistēmas sākuma līdz beigām. Tam ir jāietver visas iespējas un pārjaunojumi.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Laikposms no piedāvājumu iesniegšanas termiņa, kurā piedāvājumiem jābūt derīgiem.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Piemērojamie tiesību akti, ja iepirkumā ir iesaistīti pircēji no dažādām valstīm.</entry>
-<entry key="field|hint|BT-13716-notice">Vienam no sekojošiem jābūt aizpildītam: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Vienam no sekojošiem jābūt aizpildītam: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Vienam no sekojošiem jābūt aizpildītam: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Ja procedūrai un daļām izmantojat iekšējo identifikatoru, norādiet to. Katrai daļai norādiet atšķirīgus identifikatorus.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Ja procedūrai un daļām izmantojat iekšējo identifikatoru, norādiet to. Katrai daļai norādiet atšķirīgus identifikatorus.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Ja procedūrai un daļām izmantojat iekšējo identifikatoru, norādiet to. Katrai daļai norādiet atšķirīgus identifikatorus.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Šajā laukā var atsaukties uz iepirkuma procedūras specifikācijām.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Šajā laukā var atsaukties uz iepirkuma procedūras specifikācijām.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Izvēlieties vienu vai vairākus izslēgšanas iemeslus.</entry>
+<entry key="field|hint|BT-786-Review">Vienam no sekojošiem jābūt aizpildītam: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Norādiet vai nu darbības termiņa datumus, VAI darbības termiņa ilgumu.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Norādiet vai nu darbības termiņa datumus, VAI darbības termiņa ilgumu.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Vispirms sadaļā “Organizācijas” izveidojiet organizāciju, pēc tam atlasiet to nolaižamajā izvēlnē.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Adrese, kur pieejami iepirkuma dokumenti</entry>
 <entry key="field|name|BT-15-Part">Adrese, kur pieejami iepirkuma dokumenti</entry>
 <entry key="field|name|BT-150-Contract">Līguma identifikators</entry>
+<entry key="field|name|BT-1501(c)-Contract">Iedaļas identifikators</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Iedaļas identifikators</entry>
 <entry key="field|name|BT-1501(n)-Contract">Iedaļas identifikators</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Iedaļas identifikators</entry>
-<entry key="field|name|BT-1501(s)-Contract">Iedaļas identifikators</entry>
+<entry key="field|name|BT-1501(p)-Contract">Iedaļas identifikators</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Iedaļas identifikators</entry>
 <entry key="field|name|BT-151-Contract">Līguma adrese</entry>
 <entry key="field|name|BT-156-NoticeResult">Pamatnolīgumu maksimālā vērtība šajā daļu grupā</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Pamatnolīgumu maksimālā vērtība šajā daļu grupā</entry>

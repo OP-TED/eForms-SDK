@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.0",
-    "createdOn" : "2023-11-15T14:00:00"
+    "version" : "1.10.225",
+    "createdOn" : "2024-02-09T14:31:54"
   },
   "noticeId" : "13",
   "metadata" : [ {
@@ -2402,7 +2402,7 @@
         "id" : "GR-ChangedSectionIdentifiers",
         "contentType" : "group",
         "nodeId" : "ND-ChangedSection",
-        "displayType" : "SECTION",
+        "displayType" : "GROUP",
         "description" : "Section subject to change",
         "_label" : "group|name|ND-ChangedSection",
         "_repeatable" : true,

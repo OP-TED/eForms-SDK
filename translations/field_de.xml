@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Die Internetadresse für den Zugang zu den (dem nicht zugangsbeschränkten Teil der) Auftragsunterlagen. Bei allen Bekanntmachungen mit Ausnahme von Vorinformationen muss die Adresse einen direkten (d. h. die genaue Website mit den Unterlagen, keine allgemeine Website), uneingeschränkten (z. B. keine Registrierung) und vollständigen (d. h. die Auftragsunterlagen müssen vollständig sein) und kostenlosen Zugang ermöglichen, und die Unterlagen müssen bereits zum Zeitpunkt der Veröffentlichung der Bekanntmachung verfügbar sein.</entry>
 <entry key="field|description|BT-15-Part">Die Internetadresse für den Zugang zu den (dem nicht zugangsbeschränkten Teil der) Auftragsunterlagen. Bei allen Bekanntmachungen mit Ausnahme von Vorinformationen muss die Adresse einen direkten (d. h. die genaue Website mit den Unterlagen, keine allgemeine Website), uneingeschränkten (z. B. keine Registrierung) und vollständigen (d. h. die Auftragsunterlagen müssen vollständig sein) und kostenlosen Zugang ermöglichen, und die Unterlagen müssen bereits zum Zeitpunkt der Veröffentlichung der Bekanntmachung verfügbar sein.</entry>
 <entry key="field|description|BT-150-Contract">Eine Kennung des Auftrags oder, bei Bekanntmachungen für die Zwecke der freiwilligen Ex-Ante-Transparenz und Bekanntmachungen über das Ergebnis des Wettbewerbs, der Entscheidung. Die Angaben im Abschnitt „Auftrag“ beziehen sich auf diesen Auftrag bzw. diese Entscheidung.</entry>
+<entry key="field|description|BT-1501(c)-Contract">Eine Kennung eines oder mehrerer Abschnitte einer früheren Bekanntmachung im Rahmen des Verfahrens. Die Angaben im Abschnitt „Änderung“ beziehen sich auf diesen Abschnitt bzw. diese Abschnitte.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">Eine Kennung eines oder mehrerer Abschnitte einer früheren Bekanntmachung im Rahmen des Verfahrens. Die Angaben im Abschnitt „Änderung“ beziehen sich auf diesen Abschnitt bzw. diese Abschnitte.</entry>
 <entry key="field|description|BT-1501(n)-Contract">Eine Kennung eines oder mehrerer Abschnitte einer früheren Bekanntmachung im Rahmen des Verfahrens. Die Angaben im Abschnitt „Änderung“ beziehen sich auf diesen Abschnitt bzw. diese Abschnitte.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">Eine Kennung eines oder mehrerer Abschnitte einer früheren Bekanntmachung im Rahmen des Verfahrens. Die Angaben im Abschnitt „Änderung“ beziehen sich auf diesen Abschnitt bzw. diese Abschnitte.</entry>
-<entry key="field|description|BT-1501(s)-Contract">Eine Kennung eines oder mehrerer Abschnitte einer früheren Bekanntmachung im Rahmen des Verfahrens. Die Angaben im Abschnitt „Änderung“ beziehen sich auf diesen Abschnitt bzw. diese Abschnitte.</entry>
+<entry key="field|description|BT-1501(p)-Contract">Eine Kennung eines oder mehrerer Abschnitte einer früheren Bekanntmachung im Rahmen des Verfahrens. Die Angaben im Abschnitt „Änderung“ beziehen sich auf diesen Abschnitt bzw. diese Abschnitte.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">Eine Kennung eines oder mehrerer Abschnitte einer früheren Bekanntmachung im Rahmen des Verfahrens. Die Angaben im Abschnitt „Änderung“ beziehen sich auf diesen Abschnitt bzw. diese Abschnitte.</entry>
 <entry key="field|description|BT-151-Contract">Die URL-Adresse (z. B. die Internetadresse), unter der der Auftrag abgerufen werden kann.</entry>
 <entry key="field|description|BT-156-NoticeResult">Es handelt sich um den neu berechneten wahrscheinlichen Höchstwert für eine Gruppe von Losen im Rahmen des Verfahrens. Diese Angabe kann gemacht werden, wenn der Höchstwert einer Gruppe von Losen geringer ist als die Summe der Werte einzelner Lose in dieser Gruppe (z. B. wenn derselbe Betrag auf mehrere Lose aufgeteilt wird). Dieser Wert gilt für alle im Rahmen einer Rahmenvereinbarung zu vergebenden Aufträge über ihre gesamte Laufzeit einschließlich der Optionen und Verlängerungen. Der Wert wird auf der Grundlage der Angebote des bzw. der Gewinner(s) berechnet.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Es handelt sich um den neu berechneten wahrscheinlichen Höchstwert für eine Gruppe von Losen im Rahmen des Verfahrens. Diese Angabe kann gemacht werden, wenn der Höchstwert einer Gruppe von Losen geringer ist als die Summe der Werte einzelner Lose in dieser Gruppe (z. B. wenn derselbe Betrag auf mehrere Lose aufgeteilt wird). Dieser Wert gilt für alle im Rahmen einer Rahmenvereinbarung zu vergebenden Aufträge über ihre gesamte Laufzeit einschließlich der Optionen und Verlängerungen. Der Wert wird auf der Grundlage der Angebote des bzw. der Gewinner(s) berechnet.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">Angaben zur (voraussichtlichen) Laufzeitdauer des Vertrags, der Rahmenvereinbarung, des dynamischen Beschaffungssystems oder des Qualifizierungssystems vom Beginn bis zum Ende. Dies umfasst etwaige Optionen und Verlängerungen.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Der vorgeschriebene Zeitraum der Gültigkeit der Angebote, gerechnet ab der Frist für die Einreichung von Angeboten.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Anzuwendendes Recht bei Beteiligung von Beschaffern aus verschiedenen Ländern an der Auftragsvergabe.</entry>
-<entry key="field|hint|BT-13716-notice">Eines der folgenden Felder muss ausgefüllt werden: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">Eines der folgenden Felder muss ausgefüllt werden: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Fügen Sie so viele Lose hinzu, wie Sie in die Gruppe der Lose aufnehmen möchten.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Fügen Sie so viele Lose hinzu, wie Sie in die Gruppe der Lose aufnehmen möchten.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">Eines der folgenden Felder muss ausgefüllt werden: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Wenn Sie für Ihr Verfahren und Ihre Lose eine interne Kennung verwenden, bitte angeben. Bitte verwenden Sie für jedes Los unterschiedliche Kennungen.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Wenn Sie für Ihr Verfahren und Ihre Lose eine interne Kennung verwenden, bitte angeben. Bitte verwenden Sie für jedes Los unterschiedliche Kennungen.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Wenn Sie für Ihr Verfahren und Ihre Lose eine interne Kennung verwenden, bitte angeben. Bitte verwenden Sie für jedes Los unterschiedliche Kennungen.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">In diesem Feld kann auf die Spezifikationen der Ausschreibung verwiesen werden.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">In diesem Feld kann auf die Spezifikationen der Ausschreibung verwiesen werden.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Wählen Sie einen oder mehrere Ausschlussgründe aus.</entry>
+<entry key="field|hint|BT-786-Review">Eines der folgenden Felder muss ausgefüllt werden: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Geben Sie entweder die Daten für die Laufzeit ODER den Zeitraum für die Laufzeit an.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Geben Sie entweder die Daten für die Laufzeit ODER den Zeitraum für die Laufzeit an.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Erstellen Sie zunächst die Organisation im Abschnitt „Organisationen“ und wählen Sie sie dann in der Dropdown-Liste aus.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Internetadresse der Auftragsunterlagen</entry>
 <entry key="field|name|BT-15-Part">Internetadresse der Auftragsunterlagen</entry>
 <entry key="field|name|BT-150-Contract">Kennung des Auftrags</entry>
+<entry key="field|name|BT-1501(c)-Contract">Abschnittskennung</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Abschnittskennung</entry>
 <entry key="field|name|BT-1501(n)-Contract">Abschnittskennung</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Abschnittskennung</entry>
-<entry key="field|name|BT-1501(s)-Contract">Abschnittskennung</entry>
+<entry key="field|name|BT-1501(p)-Contract">Abschnittskennung</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Abschnittskennung</entry>
 <entry key="field|name|BT-151-Contract">Internetadresse des Auftrags</entry>
 <entry key="field|name|BT-156-NoticeResult">Höchstwert der Rahmenvereinbarung innerhalb dieser Gruppe von Losen</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Höchstwert der Rahmenvereinbarung innerhalb dieser Gruppe von Losen</entry>

@@ -304,12 +304,13 @@
 <entry key="business-term|description|BT-97">Valoda, kādā var iesniegt piedāvājumus, dalības pieteikumus vai intereses apstiprinājumus.</entry>
 <entry key="business-term|description|BT-98">Laikposms no piedāvājumu iesniegšanas termiņa, kurā piedāvājumiem jābūt derīgiem.</entry>
 <entry key="business-term|description|BT-99">Pārskatīšanas procedūru termiņu apraksts.</entry>
-<entry key="business-term|hint|BT-13716">Vienam no sekojošiem jābūt aizpildītam: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="business-term|hint|BT-13716">Vienam no sekojošiem jābūt aizpildītam: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="business-term|hint|BT-22">Ja procedūrai un daļām izmantojat iekšējo identifikatoru, norādiet to. Katrai daļai norādiet atšķirīgus identifikatorus.</entry>
 <entry key="business-term|hint|BT-36">Norādiet vai nu darbības termiņa datumus, VAI darbības termiņa ilgumu.</entry>
 <entry key="business-term|hint|BT-540">Skaitlim jābūt piesaistītam metodei un pieskaitītam pie pašreizējā kritērija kopsummas.</entry>
 <entry key="business-term|hint|BT-543">Šajā laukā var atsaukties uz iepirkuma procedūras specifikācijām.</entry>
+<entry key="business-term|hint|BT-786">Vienam no sekojošiem jābūt aizpildītam: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Vispirms sadaļā “Organizācijas” izveidojiet organizāciju, pēc tam atlasiet to nolaižamajā izvēlnē.</entry>
 <entry key="business-term|name|BG-1">Paziņojums</entry>
 <entry key="business-term|name|BG-100">Saziņa</entry>

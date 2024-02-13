@@ -93,9 +93,12 @@
 <entry key="field|description|BT-15-Lot">Den internetadresse, der giver adgang til (den ikke-begrænsede del af) udbudsdokumenterne. For alle bekendtgørelser med undtagelse af forhåndsmeddelelser skal der via internetadressen gives direkte (dvs. selve den webside, hvor dokumenterne findes; ikke en generelt websted), ubegrænset (f.eks. uden registrering), fuld adgang (dvs. at udbudsdokumenterne er fuldstændige) og gratis, og dokumenterne skal være tilgængelige allerede på tidspunktet for offentliggørelsen af bekendtgørelsen.</entry>
 <entry key="field|description|BT-15-Part">Den internetadresse, der giver adgang til (den ikke-begrænsede del af) udbudsdokumenterne. For alle bekendtgørelser med undtagelse af forhåndsmeddelelser skal der via internetadressen gives direkte (dvs. selve den webside, hvor dokumenterne findes; ikke en generelt websted), ubegrænset (f.eks. uden registrering), fuld adgang (dvs. at udbudsdokumenterne er fuldstændige) og gratis, og dokumenterne skal være tilgængelige allerede på tidspunktet for offentliggørelsen af bekendtgørelsen.</entry>
 <entry key="field|description|BT-150-Contract">En identifikator for kontrakten eller, hvis der er tale om bekendtgørelser med henblik på frivillig forudgående gennemsigtighed og bekendtgørelser om resultater af projektkonkurrencer, for afgørelsen. Oplysningerne i afsnittet om kontrakten vedrører denne kontrakt eller afgørelse.</entry>
+<entry key="field|description|BT-1501(c)-Contract">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
+<entry key="field|description|BT-1501(c)-Contract-Scheme">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
 <entry key="field|description|BT-1501(n)-Contract">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
 <entry key="field|description|BT-1501(n)-Contract-Scheme">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
-<entry key="field|description|BT-1501(s)-Contract">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
+<entry key="field|description|BT-1501(p)-Contract">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
+<entry key="field|description|BT-1501(p)-Contract-Scheme">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
 <entry key="field|description|BT-151-Contract">URL-adressen (f.eks. internetadressen) for kontrakten.</entry>
 <entry key="field|description|BT-156-NoticeResult">Det er den genberegnede højeste værdi, der forventes at blive brugt for en gruppe delkontrakter i proceduren. Disse oplysninger kan forelægges, når den højeste værdi af en gruppe af delkontrakter er lavere end summen af værdier for de enkelte delkontrakter (f.eks. når det samme budget anvendes for flere delkontrakter). Værdien omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser. Værdien er genberegnet på grundlag af vinderens tilbud.</entry>
 <entry key="field|description|BT-156-NoticeResult-Currency">Det er den genberegnede højeste værdi, der forventes at blive brugt for en gruppe delkontrakter i proceduren. Disse oplysninger kan forelægges, når den højeste værdi af en gruppe af delkontrakter er lavere end summen af værdier for de enkelte delkontrakter (f.eks. når det samme budget anvendes for flere delkontrakter). Værdien omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser. Værdien er genberegnet på grundlag af vinderens tilbud.</entry>
@@ -1007,9 +1010,10 @@
 <entry key="field|description|OPA-36-Part-Number">Den (anslåede) tidsramme fra start- til slutdatoen for kontrakten, rammeaftalen, det dynamiske indkøbssystem eller kvalificeringsordningen. Dette skal omfatte eventuelle valgmuligheder og fornyelser.</entry>
 <entry key="field|description|OPA-98-Lot-Number">Den periode fra tidsfristen for indgivelse af tilbud, i hvilken tilbud skal være gyldige.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Den lovgivning, der finder anvendelse, hvis udbuddet involverer købere fra forskellige lande.</entry>
-<entry key="field|hint|BT-13716-notice">En af følgende skal udfyldes: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
+<entry key="field|hint|BT-13716-notice">En af følgende skal udfyldes: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-1375-Procedure">Tilføj så mange delkontrakter, som du ønsker at medtage i gruppen af delkontrakter.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Tilføj så mange delkontrakter, som du ønsker at medtage i gruppen af delkontrakter.</entry>
+<entry key="field|hint|BT-1501(p)-Contract">En af følgende skal udfyldes: BUYER, RESULT, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|BT-22-Lot">Hvis du anvender en intern identifikator til din procedure og dine delkontrakter, bedes du udfylde den. Anvend forskellige identifikatorer for hver delkontrakt.</entry>
 <entry key="field|hint|BT-22-Lot-Scheme">Hvis du anvender en intern identifikator til din procedure og dine delkontrakter, bedes du udfylde den. Anvend forskellige identifikatorer for hver delkontrakt.</entry>
 <entry key="field|hint|BT-22-LotsGroup">Hvis du anvender en intern identifikator til din procedure og dine delkontrakter, bedes du udfylde den. Anvend forskellige identifikatorer for hver delkontrakt.</entry>
@@ -1031,6 +1035,7 @@
 <entry key="field|hint|BT-543-LotsGroup">Dette felt kan henvise til udbudsbetingelserne.</entry>
 <entry key="field|hint|BT-543-LotsGroup-Language">Dette felt kan henvise til udbudsbetingelserne.</entry>
 <entry key="field|hint|BT-67(a)-Procedure">Vælg en eller flere udelukkelsesgrunde.</entry>
+<entry key="field|hint|BT-786-Review">En af følgende skal udfyldes: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="field|hint|OPA-36-Lot-Number">Angiv enten varighedsdatoer ELLER varighedsperioden.</entry>
 <entry key="field|hint|OPA-36-Part-Number">Angiv enten varighedsdatoer ELLER varighedsperioden.</entry>
 <entry key="field|hint|OPT-300-Contract-Signatory">Opret først organisationen i afsnittet "Organisationer", og vælg den derefter i rullemenuen.</entry>
@@ -1142,9 +1147,12 @@
 <entry key="field|name|BT-15-Lot">Adresse på udbudsdokumenterne</entry>
 <entry key="field|name|BT-15-Part">Adresse på udbudsdokumenterne</entry>
 <entry key="field|name|BT-150-Contract">Identifikator for kontrakten</entry>
+<entry key="field|name|BT-1501(c)-Contract">Afsnitsidentifikator</entry>
+<entry key="field|name|BT-1501(c)-Contract-Scheme">Afsnitsidentifikator</entry>
 <entry key="field|name|BT-1501(n)-Contract">Afsnitsidentifikator</entry>
 <entry key="field|name|BT-1501(n)-Contract-Scheme">Afsnitsidentifikator</entry>
-<entry key="field|name|BT-1501(s)-Contract">Afsnitsidentifikator</entry>
+<entry key="field|name|BT-1501(p)-Contract">Afsnitsidentifikator</entry>
+<entry key="field|name|BT-1501(p)-Contract-Scheme">Afsnitsidentifikator</entry>
 <entry key="field|name|BT-151-Contract">Kontraktens adresse</entry>
 <entry key="field|name|BT-156-NoticeResult">Maksimumsværdi af rammeaftalerne i denne gruppe af delkontrakter</entry>
 <entry key="field|name|BT-156-NoticeResult-Currency">Maksimumsværdi af rammeaftalerne i denne gruppe af delkontrakter</entry>
