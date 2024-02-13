@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.224",
-    "createdOn" : "2024-02-08T17:43:39"
+    "version" : "1.10.233",
+    "createdOn" : "2024-02-12T18:39:36"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -5610,7 +5610,7 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ModifiedContractIdentifier/@schemeName",
     "xpathRelative" : "efbc:ModifiedContractIdentifier/@schemeName",
     "xsdSequenceOrder" : [ { "efbc:ModifiedContractIdentifier" : 2 } ],
-    "type" : "code",
+    "type" : "text",
     "attributeName" : "schemeName",
     "attributeOf" : "BT-1501(c)-Contract",
     "presetValue" : "contract",
@@ -5688,7 +5688,6 @@
     "xpathRelative" : "efbc:ChangedSectionIdentifier",
     "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
     "type" : "id",
-    "attributes" : [ "BT-1501(p)-Contract-Scheme" ],
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -5710,22 +5709,6 @@
     },
     "pattern" : {
       "value" : "^( BUYER|RESULT|((RES|TEN|TPA|TPO|ORG|UBO)-\\d{4}))$",
-      "severity" : "ERROR"
-    }
-  }, {
-    "id" : "BT-1501(p)-Contract-Scheme",
-    "parentNodeId" : "ND-ModifiedSection",
-    "name" : "Modified Notice Part Reference Schemename",
-    "btId" : "BT-1501",
-    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier/@schemeName",
-    "xpathRelative" : "efbc:ChangedSectionIdentifier/@schemeName",
-    "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
-    "type" : "code",
-    "attributeName" : "schemeName",
-    "attributeOf" : "BT-1501(p)-Contract",
-    "legalType" : "IDENTIFIER",
-    "repeatable" : {
-      "value" : false,
       "severity" : "ERROR"
     }
   }, {
