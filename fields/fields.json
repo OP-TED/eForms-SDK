@@ -3918,11 +3918,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotTenderingProcess} ${(BT-766-Lot in ('dps-list', 'dps-nlist')) and (BT-537-Lot is present) and (BT-1311(d)-Lot is present) }",
-        "value" : "{ND-LotTenderingProcess} ${BT-1311(d)-Lot == BT-537-Lot}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-01311-0150"
-      }, {
         "condition" : "{ND-LotTenderingProcess} ${(BT-1311(d)-Lot is present) and (BT-130-Lot is present)}",
         "value" : "{ND-LotTenderingProcess} ${(BT-1311(d)-Lot < BT-130-Lot)}",
         "severity" : "ERROR",
