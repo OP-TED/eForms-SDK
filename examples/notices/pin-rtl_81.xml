@@ -139,7 +139,12 @@ vol3</cbc:Description>
 				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
 			</cac:RequiredFinancialGuarantee>
 			<cac:FiscalLegislationDocumentReference>
-				<cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+				<cbc:ID>1</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://example.com/fiscal-legislation</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
@@ -147,7 +152,12 @@ vol3</cbc:Description>
 				</cac:IssuerParty>
 			</cac:FiscalLegislationDocumentReference>
 			<cac:EnvironmentalLegislationDocumentReference>
-				<cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+				<cbc:ID>2</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://example.com/environmental-legislation</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
@@ -155,7 +165,12 @@ vol3</cbc:Description>
 				</cac:IssuerParty>
 			</cac:EnvironmentalLegislationDocumentReference>
 			<cac:EmploymentLegislationDocumentReference>
-				<cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+				<cbc:ID>3</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://example.com/employment-legislation</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
