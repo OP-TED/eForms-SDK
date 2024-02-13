@@ -166,26 +166,6 @@
          <svrl:text>cac:PartyLegalEntity/cbc:CompanyID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:failed-assert id="BR-BT-00503-0007"
-                       location="/pin:PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
-                       role="ERROR"
-                       test="count(cac:Contact/cbc:Telephone) &gt; 0">
-      <svrl:text>rule|text|BR-BT-00503-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Company_BT-503-Organization-Company"
-                                 see="field:BT-503-Organization-Company">
-         <svrl:text>cac:Contact/cbc:Telephone</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="BR-BT-00506-0007"
-                       location="/pin:PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
-                       role="ERROR"
-                       test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">
-      <svrl:text>rule|text|BR-BT-00506-0007</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Company_BT-506-Organization-Company"
-                                 see="field:BT-506-Organization-Company">
-         <svrl:text>cac:Contact/cbc:ElectronicMail</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-00513-0007"
                        location="/pin:PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="ERROR"
