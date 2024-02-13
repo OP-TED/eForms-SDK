@@ -36400,9 +36400,10 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:ID/@schemeName",
     "xpathRelative" : "cbc:ID/@schemeName",
     "xsdSequenceOrder" : [ { "cbc:ID" : 1 } ],
-    "type" : "code",
+    "type" : "text",
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-093-Review",
+    "presetValue" : "review",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
