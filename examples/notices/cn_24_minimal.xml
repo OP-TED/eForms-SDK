@@ -55,10 +55,6 @@ But with the minimal amount of information while still valid
 								<cac:PartyLegalEntity>
 									<cbc:CompanyID schemeName="eu">GCEU</cbc:CompanyID>
 								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+352 4303-1</cbc:Telephone>
-									<cbc:ElectronicMail>GeneralCourt.Registry@curia.europa.eu</cbc:ElectronicMail>
-								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 					</efac:Organizations>

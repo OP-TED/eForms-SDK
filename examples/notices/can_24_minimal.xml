@@ -118,10 +118,6 @@ But with the minimal amount of information while still valid
 								<cac:PartyLegalEntity>
 									<cbc:CompanyID>321 654 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+33 232081270</cbc:Telephone>
-									<cbc:ElectronicMail>greffe.ta-rouen@juradm.fr</cbc:ElectronicMail>
-								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
