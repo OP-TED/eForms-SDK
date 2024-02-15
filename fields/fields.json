@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.233",
-    "createdOn" : "2024-02-12T18:39:36"
+    "version" : "1.10.245",
+    "createdOn" : "2024-02-15T15:19:09"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -72,7 +72,9 @@
     "xpathAbsolute" : "/*/cac:ContractingParty",
     "xpathRelative" : "cac:ContractingParty",
     "xsdSequenceOrder" : [ { "cac:ContractingParty" : 29 } ],
-    "repeatable" : true
+    "repeatable" : true,
+    "identifierFieldId" : "OPT-300-Procedure-Buyer",
+    "captionFieldId" : "BT-500-Organization-Company"
   }, {
     "id" : "ND-Buyer",
     "parentId" : "ND-ContractingParty",
@@ -1359,7 +1361,9 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus",
     "xpathRelative" : "efac:AppealStatus",
     "xsdSequenceOrder" : [ { "efac:AppealStatus" : 1 } ],
-    "repeatable" : true
+    "repeatable" : true,
+    "identifierFieldId" : "OPT-093-Review",
+    "captionFieldId" : "BT-784-Review"
   }, {
     "id" : "ND-AppealDecision",
     "parentId" : "ND-ReviewStatus",
@@ -1436,7 +1440,9 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification",
     "xpathRelative" : "efac:ContractModification",
     "xsdSequenceOrder" : [ { "efac:ContractModification" : 12 } ],
-    "repeatable" : true
+    "repeatable" : true,
+    "identifierFieldId" : "BT-1501(c)-Contract",
+    "captionFieldId" : "BT-150-Contract"
   }, {
     "id" : "ND-Modification",
     "parentId" : "ND-ContractModification",
