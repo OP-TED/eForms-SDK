@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.245",
-    "createdOn" : "2024-02-15T15:19:09"
+    "version" : "1.10.251",
+    "createdOn" : "2024-02-16T12:23:53"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -4428,7 +4428,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "33", "34", "T01" ],
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "33", "34" ],
         "condition" : "{ND-DirectAward} ${not(BT-105-Procedure == 'neg-wo-call')}",
         "value" : true,
         "severity" : "ERROR"
@@ -4438,7 +4438,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "T01" ],
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
