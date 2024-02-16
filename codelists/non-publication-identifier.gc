@@ -2218,73 +2218,73 @@
             <SimpleValue>Notice Value (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Стойност на всички поръчки, възложени в рамките на тази процедура (BT-161)</SimpleValue>
+            <SimpleValue>Стойност на всички договори, възложени с това съобщение (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Hodnota všech zakázek zadaných v tomto řízení (BT-161)</SimpleValue>
+            <SimpleValue>Hodnota všech smluv udělených v tomto oznámení (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Værdien af alle de kontrakter, der tildeles i denne bekendtgørelse (BT-161)</SimpleValue>
+            <SimpleValue>Værdien af alle kontrakter tildelt i denne meddelelse (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Wert aller im Rahmen dieses Verfahrens vergebenen Aufträge (BT-161)</SimpleValue>
+            <SimpleValue>Wert aller in dieser Bekanntmachung vergebenen Verträge (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Αξία όλων των συμβάσεων που ανατέθηκαν στο πλαίσιο της παρούσας διαδικασίας (BT-161)</SimpleValue>
+            <SimpleValue>Αξία όλων των συμβάσεων που ανατέθηκαν με αυτήν την ειδοποίηση (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Value of all contracts awarded in this procedure (BT-161)</SimpleValue>
+            <SimpleValue>Value of all contracts awarded in this notice (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Valor de todos los contratos adjudicados en el presente procedimiento (BT-161)</SimpleValue>
+            <SimpleValue>Valor de todos los contratos adjudicados en este aviso (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Kõigi selle menetluse käigus sõlmitud lepingute maksumus (BT-161)</SimpleValue>
+            <SimpleValue>Kõigi selle teate alusel sõlmitud lepingute väärtus (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kaikkien tässä menettelyssä tehtyjen hankintasopimusten arvo (BT-161)</SimpleValue>
+            <SimpleValue>Kaikkien tässä ilmoituksessa myönnettyjen sopimusten arvo (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Valeur de tous les marchés attribués dans le cadre de la procédure en question (BT-161)</SimpleValue>
+            <SimpleValue>Valeur de tous les contrats attribués dans cet avis (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Luach na gconarthaí go léir a dámhadh sa nós imeachta seo (BT-161)</SimpleValue>
+            <SimpleValue>Luach gach conradh a bronnadh sa fógra seo (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Vrijednost svih ugovora dodijeljenih u ovom postupku (BT-161)</SimpleValue>
+            <SimpleValue>Vrijednost svih ugovora dodijeljenih u ovoj obavijesti (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Az ebben az eljárásban odaítélt valamennyi szerződés értéke (BT-161)</SimpleValue>
+            <SimpleValue>Az értesítésben odaítélt összes szerződés értéke (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Valore di tutti gli appalti aggiudicati nell'ambito della presente procedura (BT-161)</SimpleValue>
+            <SimpleValue>Valore di tutti i contratti assegnati in questo avviso (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Visų pagal šią procedūrą skiriamų sutarčių vertė (BT-161)</SimpleValue>
+            <SimpleValue>Visų šiame pranešime suteiktų sutarčių vertė (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Visu šajā procedūrā piešķirto līgumu vērtība (BT-161)</SimpleValue>
+            <SimpleValue>Visu šajā paziņojumā piešķirto līgumu vērtība (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Valur tal-kuntratti kollha mogħtija f’din il-proċedura (BT-161)</SimpleValue>
+            <SimpleValue>Valur ta' kull kuntratt mogħti f'dan l-avviż (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Waarde van alle in het kader van deze procedure gegunde opdrachten (BT-161)</SimpleValue>
+            <SimpleValue>Waarde van alle contracten toegekend in deze kennisgeving (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Wartość wszystkich zamówień udzielonych w ramach tego postępowania (BT-161)</SimpleValue>
+            <SimpleValue>Wartość wszystkich umów przyznanych w tym zawiadomieniu (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Valor de todos os contratos adjudicados no âmbito deste procedimento (BT-161)</SimpleValue>
+            <SimpleValue>Valor de todos os contratos adjudicados neste aviso (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Valoarea tuturor contractelor atribuite în cadrul acestei proceduri (BT-161)</SimpleValue>
+            <SimpleValue>Valoarea tuturor contractelor atribuite în această notificare (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Hodnota všetkých zákaziek zadaných v tomto postupe (BT-161)</SimpleValue>
+            <SimpleValue>Hodnota všetkých zmlúv udelených v tomto oznámení (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Vrednost vseh javnih naročil, oddanih v tem postopku (BT-161)</SimpleValue>
+            <SimpleValue>Vrednost vseh pogodb, dodeljenih v tem obvestilu (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Värdet av alla de kontrakt som tilldelas i det här förfarandet (BT-161)</SimpleValue>
