@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.251",
-    "createdOn" : "2024-02-16T12:23:53"
+    "version" : "1.10.262",
+    "createdOn" : "2024-02-19T15:39:32"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -3730,6 +3730,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
+        "condition" : "{ND-Root} ${BT-758-notice is not present}",
         "value" : "{ND-Root} ${(BT-127-notice > BT-05(a)-notice) or not(BT-127-notice is present) or not(BT-05(a)-notice is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00127-0100"
