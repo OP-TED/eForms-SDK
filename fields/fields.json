@@ -17025,7 +17025,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-InterestExpressionReceptionPeriod} ${(BT-630(d)-Lot is present) and (BT-05(a)-notice is present)}",
+        "condition" : "{ND-InterestExpressionReceptionPeriod} ${(BT-630(d)-Lot is present) and (BT-05(a)-notice is present) and (BT-758-notice is not present)}",
         "value" : "{ND-InterestExpressionReceptionPeriod} ${BT-630(d)-Lot > BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00630-0150"
