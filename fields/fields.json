@@ -3616,6 +3616,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
+        "condition" : "{ND-Root} ${BT-758-notice is not present}",
         "value" : "{ND-Root} ${(BT-127-notice > BT-05(a)-notice) or not(BT-127-notice is present) or not(BT-05(a)-notice is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00127-0100"
