@@ -3023,8 +3023,13 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "26", "27", "38", "39" ],
+        "noticeTypes" : [ "26", "27" ],
         "condition" : "{ND-NoticeResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-660-LotResult is not present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "38", "39" ],
+        "condition" : "{ND-NoticeResult} ${BT-660-LotResult is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3217,7 +3222,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "38", "39" ],
+        "noticeTypes" : [ "25", "26", "27" ],
         "condition" : "{ND-NoticeResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
@@ -3232,7 +3237,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34", "38", "39" ],
+        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -27736,7 +27741,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34", "38", "39" ],
+        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34" ],
         "condition" : "{ND-LotResultFAValues} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or not(BT-142-LotResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
@@ -28315,7 +28320,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34", "38", "39" ],
+        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34" ],
         "condition" : "{ND-LotResultFAValues} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or not(BT-142-LotResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
