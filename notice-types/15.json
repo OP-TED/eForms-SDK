@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.138",
-    "createdOn" : "2024-01-26T13:07:02"
+    "version" : "1.10.276",
+    "createdOn" : "2024-02-22T15:37:01"
   },
   "noticeId" : "15",
   "metadata" : [ {
@@ -512,6 +512,7 @@
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
     "_identifierFieldId" : "BT-137-Lot",
+    "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
     "content" : [ {
       "id" : "BT-137-Lot",
@@ -1766,8 +1767,7 @@
           "_idSchemes" : [ "ORG", "TPO" ]
         } ]
       } ]
-    } ],
-    "_captionFieldId" : "BT-21-Lot"
+    } ]
   }, {
     "id" : "GR-Change",
     "contentType" : "group",
@@ -1853,6 +1853,7 @@
       "_idScheme" : "ORG",
       "_schemeName" : "organization",
       "_identifierFieldId" : "OPT-200-Organization-Company",
+      "_captionFieldId" : "BT-500-Organization-Company",
       "_repeatable" : true,
       "content" : [ {
         "id" : "OPT-200-Organization-Company",
@@ -2024,6 +2025,7 @@
         "_idScheme" : "TPO",
         "_schemeName" : "touchpoint",
         "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
+        "_captionFieldId" : "BT-500-Organization-TouchPoint",
         "_repeatable" : true,
         "collapsed" : true,
         "content" : [ {
@@ -2139,10 +2141,8 @@
             "description" : "Contact Fax",
             "_label" : "field|name|BT-739-Organization-TouchPoint"
           } ]
-        } ],
-        "_captionFieldId" : "BT-500-Organization-TouchPoint"
-      } ],
-      "_captionFieldId" : "BT-500-Organization-Company"
+        } ]
+      } ]
     } ]
   } ]
 }
