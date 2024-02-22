@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
 <entry key="expression|name|157">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
 <entry key="expression|name|158">'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' ((BT-763)) est vrai</entry>
-<entry key="expression|name|159">'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' ((BT-763)) est vrai ou il y a plus d’un lot dans l’avis</entry>
+<entry key="expression|name|159">'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' (BT-763) est vrai ou il y a plus d’un lot dans l’avis</entry>
 <entry key="expression|name|16">'Nombre critère d’attribution' (BT-541-Lot) n’est pas vide</entry>
 <entry key="expression|name|160">Il n’y a pas de lots multiples</entry>
 <entry key="expression|name|161">'Nomenclature principale' (BT-262-Lot) n’est pas rempli</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'L’acheteur est une entité adjudicatrice' (BT-740) est 'Oui'</entry>
 <entry key="expression|name|20">'Pays' (BT-5141-Lot) n’est pas vide</entry>
 <entry key="expression|name|200">'Date de fin de durée' (BT-537-Lot) est rempli</entry>
-<entry key="expression|name|201">'Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours' ((BT-41-Lot)) n’est pas vrai</entry>
+<entry key="expression|name|201">'Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours' (BT-41-Lot) n’est pas vrai</entry>
 <entry key="expression|name|202">'Informations relatives aux délais de recours' (BT-99-Lot) est rempli</entry>
 <entry key="expression|name|203">Aucun lot n’a été attribué</entry>
 <entry key="expression|name|204">'ID offre marché' (BT-3202-Contract) n’est pas rempli</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Valeur de l’offre recevable la plus basse' (BT-710-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|252">'Valeur de l’offre recevable la plus élevée' (BT-711-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|253">'Nombre de plaignants' (BT-712(a)-LotResult) n’est pas rempli</entry>
-<entry key="expression|name|254">'Valeur du résultat' (BT-720-Tender) n’est pas rempli</entry>
+<entry key="expression|name|254">'Valeur de l'offre' (BT-720-Tender) n’est pas rempli</entry>
 <entry key="expression|name|255">'La valeur de la sous-traitance est connue' (BT-730-Tender) n’est pas rempli</entry>
 <entry key="expression|name|256">'Le pourcentage de la sous-traitance est connu' (BT-731-Tender) n’est pas rempli</entry>
 <entry key="expression|name|257">'Justification de l’absence d’indication de la pondération des critères d’attribution' (BT-733-Lot) n’est pas rempli</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Champ à publier ultérieurement' (BT-195(BT-773)-Tender) n’est pas rempli</entry>
 <entry key="expression|name|315">'Champ à publier ultérieurement' (BT-195(BT-88)-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|316">Il y a plus d’un lot</entry>
-<entry key="expression|name|317">'Il s’agit d’un marché récurrent' ((BT-94-Lot)) n’est pas 'oui'</entry>
+<entry key="expression|name|317">'Il s’agit d’un marché récurrent' (BT-94-Lot) n’est pas 'oui'</entry>
 <entry key="expression|name|318">'Type de procédure' (BT-105-Procedure) est 'Ouverte'</entry>
 <entry key="expression|name|319">'Organisation ou point de contact spécifique' (OPT-301-Lot-ReviewInfo) n’est pas rempli</entry>
 <entry key="expression|name|32">'Nombre critères sélection seconde étape' (BT-752-Lot) n’est pas vide</entry>
-<entry key="expression|name|320">'Une enchère électronique est utilisée' ((BT-767-Lot)) n’est pas 'oui'</entry>
+<entry key="expression|name|320">'Une enchère électronique est utilisée' (BT-767-Lot) n’est pas 'oui'</entry>
 <entry key="expression|name|321">'Type de procédure' (BT-105) n’est pas 'Restreinte'</entry>
 <entry key="expression|name|322">'Type de véhicule' (OPT-155-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|323">'Statut sélection lauréat' (BT-142-LotResult) est 'Le lauréat n’a pas encore été choisi, mais le concours est toujours en cours.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">L’organisation n’est pas 'Acheteur'</entry>
 <entry key="expression|name|346">L’organisation est un acheteur et le système d’acquisition dynamique est également utilisable par les acheteurs non repris dans le présent avis, et la base juridique est différente de 'Autre' et 'Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs' (OPP-052) n’est pas rempli</entry>
 <entry key="expression|name|347">L’organisation est un acheteur et le système d’acquisition dynamique est également utilisable par les acheteurs non repris dans le présent avis, et la base juridique est différente de 'Autre' et 'Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs' (OPP-052) n’est pas rempli</entry>
-<entry key="expression|name|348">'La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés' ((BT-52-Lot)) n’est pas 'oui': 'Type de procédure' (BT-105) ne fait pas partie des éléments suivants: 'Dialogue compétitif'; 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'; 'Autre procédure en plusieurs étapes'; 'Restreinte'</entry>
+<entry key="expression|name|348">'La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés' (BT-52-Lot) n’est pas 'oui': 'Type de procédure' (BT-105) ne fait pas partie des éléments suivants: 'Dialogue compétitif'; 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'; 'Autre procédure en plusieurs étapes'; 'Restreinte'</entry>
 <entry key="expression|name|349">Il s’agit d’un contrat-cadre</entry>
 <entry key="expression|name|35">'Type de procédure' (BT-105) ne fait pas partie des éléments suivants: 'Dialogue compétitif'; 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|350">L’organisation ne fait pas partie de la partie soumissionnaire; 'L’organisation est une personne physique' (BT-633-Organization); 'Le lauréat est coté sur un marché réglementé' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Un accord de confidentialité est requis' (BT-801) est 'non'</entry>
 <entry key="expression|name|512">'Identifiant des fonds de l’UE' (BT-5011) et 'Nom du projet ou programme financé par l’UE' (BT-722) ne sont pas remplis</entry>
 <entry key="expression|name|513">'Identifiant des fonds de l’UE' (BT-5010) et 'Programme de fonds de l’Union' (BT-7220) ne sont pas remplis</entry>
-<entry key="expression|name|514">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' ((BT-717)) n’est pas 'oui'</entry>
-<entry key="expression|name|515">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' ((BT-717)) n’est pas 'oui' pour ce lot ou le lot n’a pas été attribué</entry>
+<entry key="expression|name|514">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717) n’est pas 'oui'</entry>
+<entry key="expression|name|515">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717) n’est pas 'oui' pour ce lot ou le lot n’a pas été attribué</entry>
 <entry key="expression|name|516">'La base juridique de la directive sur les véhicules propres pour établir la catégorie de procédure de passation de marché qui s’applique' (BT-735-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|517">'Les catégories de véhicules relevant du champ d’application de la directive 2009/33/CE, y compris: Véhicules utilitaires légers (M1, M2, N1); Bus (M3); Camions (N2, N3); M1; M2; N1; N2; N3.' (BT-723-LotResult) n’est pas rempli</entry>
-<entry key="expression|name|518">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' ((BT-717)) n’est pas 'oui' pour ce lot</entry>
+<entry key="expression|name|518">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717) n’est pas 'oui' pour ce lot</entry>
 <entry key="expression|name|52">'Un groupe de soumissionnaires auquel un marché est attribué doit revêtir une forme juridique donnée' (BT-761-Lot) n’est pas 'oui'</entry>
 <entry key="expression|name|520">'Le nombre est une pondération' (BT-5421) n’est pas 'Ordre d’importance'</entry>
 <entry key="expression|name|523">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727), 'Subdivision pays (NUTS)' BT-5071 et 'Ville' (BT-5131) n’est pas rempli</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'La valeur de la sous-traitance est connue' (BT-730-Tender) n’est pas 'oui'</entry>
 <entry key="expression|name|69">'Sous-traitance' (BT-773-Tender) n’est pas 'Oui'</entry>
 <entry key="expression|name|7">'Pays' (BT-5141-Part) est rempli</entry>
-<entry key="expression|name|70">'Le pourcentage de la sous-traitance est connu' ((BT-731-Tender)) n’est pas 'oui'</entry>
+<entry key="expression|name|70">'Le pourcentage de la sous-traitance est connu' (BT-731-Tender) n’est pas 'oui'</entry>
 <entry key="expression|name|71">'Sous-traitance' (BT-773-Tender) est 'Oui'</entry>
 <entry key="expression|name|72">Aucun adjudicataire n’a été retenu ou 'Il s’agit d’un accord-cadre' (BT-765-Lot) ne correspond pas à l’accord-cadre de la procédure</entry>
 <entry key="expression|name|74">'Version de l’avis antérieur à modifier' (BT-758-notice) n’est pas rempli</entry>

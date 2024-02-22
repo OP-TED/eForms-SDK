@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är ett fast värde' (BT-5422) fylls i eller 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i</entry>
 <entry key="expression|name|157">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är ett fast värde' (BT-5422) fylls i eller 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i</entry>
 <entry key="expression|name|158">'Anbudsgivaren ska lämna in anbud för alla delar (anbudsområden)' ((BT-763)) är sant</entry>
-<entry key="expression|name|159">'Anbudsgivaren ska lämna in anbud för alla delar (anbudsområden)' ((BT-763)) är sant eller det finns mer än en del i meddelandet</entry>
+<entry key="expression|name|159">'Anbudsgivaren ska lämna in anbud för alla delar (anbudsområden)' (BT-763) är sant eller det finns mer än en del i meddelandet</entry>
 <entry key="expression|name|16">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot) är inte tomt</entry>
 <entry key="expression|name|160">Det finns inte multipla delar</entry>
 <entry key="expression|name|161">'Huvudklassificering' (BT-262-Lot) fylls inte i</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'Köparen är en upphandlande enhet' (BT-740) är 'Ja'</entry>
 <entry key="expression|name|20">'Land' (BT-5141-Lot) är inte tomt</entry>
 <entry key="expression|name|200">'Slutdatum för varaktighet' (BT-537-Lot) fylls i</entry>
-<entry key="expression|name|201">'Ett eventuellt tjänstekontrakt efter projekttävlingen kommer att tilldelas en av vinnarna i projekttävlingen' ((BT-41-Lot)) är inte sant</entry>
+<entry key="expression|name|201">'Ett eventuellt tjänstekontrakt efter projekttävlingen kommer att tilldelas en av vinnarna i projekttävlingen' (BT-41-Lot) är inte sant</entry>
 <entry key="expression|name|202">'Information om tidsfrist för prövning' (BT-99-Lot) fylls i</entry>
 <entry key="expression|name|203">Inga delar har tilldelats</entry>
 <entry key="expression|name|204">'Id: Vinnande anbud för kontraktet' (BT-3202-Contract) fylls inte i</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Värdet för anbudet med det lägsta värdet som också var godtagbart' (BT-710-LotResult) fylls inte i</entry>
 <entry key="expression|name|252">'Värdet för anbudet med det högsta värdet som också var godtagbart' (BT-711-LotResult) fylls inte i</entry>
 <entry key="expression|name|253">'Antal klagomål' (BT-712(a)-LotResult) fylls inte i</entry>
-<entry key="expression|name|254">'Anbudsvärde' (BT-720-Tender) fylls inte i</entry>
+<entry key="expression|name|254">'Värde på upphandlingen' (BT-720-Tender) fylls inte i</entry>
 <entry key="expression|name|255">'Värdet på underentreprenaden är känt' (BT-730-Tender) fylls inte i</entry>
 <entry key="expression|name|256">'Andelen som ska läggas ut på underentreprenad är känd' (BT-731-Tender) fylls inte i</entry>
 <entry key="expression|name|257">'Motivering varför viktningen av tilldelningskriterierna inte har uppgetts' (BT-733-Lot) fylls inte i</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Fält som ska publiceras senare' (BT-195(BT-773)-Tender) fylls inte i</entry>
 <entry key="expression|name|315">'Fält som ska publiceras senare' (BT-195(BT-88)-Procedure) fylls inte i</entry>
 <entry key="expression|name|316">Det finns fler än en del</entry>
-<entry key="expression|name|317">'Det här är en återkommande upphandling' ((BT-94-Lot)) är inte 'ja'</entry>
+<entry key="expression|name|317">'Det här är en återkommande upphandling' (BT-94-Lot) är inte 'ja'</entry>
 <entry key="expression|name|318">'Typ av förfarande' (BT-105-Procedure) är 'Öppet'</entry>
 <entry key="expression|name|319">'Organisation eller specifik kontakt' (OPT-301-Lot-ReviewInfo) fylls inte i</entry>
 <entry key="expression|name|32">'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot) är inte tomt</entry>
-<entry key="expression|name|320">'En elektronisk auktion används' ((BT-767-Lot)) är inte 'ja'</entry>
+<entry key="expression|name|320">'En elektronisk auktion används' (BT-767-Lot) är inte 'ja'</entry>
 <entry key="expression|name|321">'Typ av förfarande' (BT-105) är inte 'Selektivt'</entry>
 <entry key="expression|name|322">'Fordonstyp' (OPT-155-LotResult) fylls inte i</entry>
 <entry key="expression|name|323">'Status på val av vinnare' (BT-142-LotResult) är 'Vinnaren har ännu inte valts ut, men tävlingen pågår fortfarande.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">Organisationen är inte en 'Upphandlare'</entry>
 <entry key="expression|name|346">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och den rättsliga grunden skiljer sig från 'Annat', och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) fylls inte i</entry>
 <entry key="expression|name|347">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och den rättsliga grunden skiljer sig från 'Annat', och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) fylls inte i</entry>
-<entry key="expression|name|348">'Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas' ((BT-52-Lot)) är inte 'ja'; 'Typ av förfarande' (BT-105) är inte något av följande: 'Konkurrenspräglad dialog'; 'Innovationspartnerskap'; 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'; 'Annat förfarande i flera steg'; 'Selektivt'</entry>
+<entry key="expression|name|348">'Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas' (BT-52-Lot) är inte 'ja'; 'Typ av förfarande' (BT-105) är inte något av följande: 'Konkurrenspräglad dialog'; 'Innovationspartnerskap'; 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'; 'Annat förfarande i flera steg'; 'Selektivt'</entry>
 <entry key="expression|name|349">Det är ett ramavtal</entry>
 <entry key="expression|name|35">'Typ av förfarande' (BT-105) är inte ett av följande: 'Konkurrenspräglad dialog'; 'Innovationspartnerskap'; 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'</entry>
 <entry key="expression|name|350">Organisationen deltar inte i anbudsförfarandet; 'Organisationen är en fysisk person' (BT-633-Organization); 'Vinnaren är noterad på en reglerad marknad' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Sekretessavtal krävs' (BT-801) är 'nej'</entry>
 <entry key="expression|name|512">'Identifierare för EU-medel' (BT-5011) och 'Namnet på det EU-finansierade projektet eller programmet' (BT-722) fylls inte i</entry>
 <entry key="expression|name|513">'Identifierare: EU-medel' (BT-5010) och 'Program för EU-medel' (BT-7220) fylls inte i</entry>
-<entry key="expression|name|514">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' ((BT-717)) är inte 'ja'</entry>
-<entry key="expression|name|515">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' ((BT-717)) inte är 'ja' för denna del eller att delen inte har tilldelats</entry>
+<entry key="expression|name|514">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' (BT-717) är inte 'ja'</entry>
+<entry key="expression|name|515">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' (BT-717) inte är 'ja' för denna del eller att delen inte har tilldelats</entry>
 <entry key="expression|name|516">'Rättslig grund enligt direktivet om rena fordon för att fastställa vilken kategori av avtalstyp som är tillämplig' (BT-735-LotResult) fylls inte i</entry>
 <entry key="expression|name|517">'Kategori av fordon som omfattas av tillämpningsområdet för direktiv 2009/33/EG, däribland lätta fordon (M1, M2, N1), bussar (M3), lastbilar (N2, N3), M1, M2, N1, N2, N3' (BT-723-LotResult) fylls inte i</entry>
-<entry key="expression|name|518">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' ((BT-717)) är inte 'ja' för denna del</entry>
+<entry key="expression|name|518">'Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)' (BT-717) är inte 'ja' för denna del</entry>
 <entry key="expression|name|52">'En grupp av anbudsgivare som tilldelas ett kontrakt ska anta en viss juridisk form' (BT-761-Lot) är inte 'ja'</entry>
 <entry key="expression|name|520">'Sifferangivelsen är en typ av viktning' (BT-5421) är inte 'Prioritetsordning'</entry>
 <entry key="expression|name|523">'Andra begränsningar för leveransplatsen' (BT-727), 'Del av land (NUTS)' BT-5071 och 'Ort' (BT-5131) fylls inte i</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Värdet på underentreprenaden är känt' (BT-730-Tender) är inte 'ja'</entry>
 <entry key="expression|name|69">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) fylls i</entry>
-<entry key="expression|name|70">'Andelen som ska läggas ut på underentreprenad är känd' ((BT-731-Tender)) är inte 'ja'</entry>
+<entry key="expression|name|70">'Andelen som ska läggas ut på underentreprenad är känd' (BT-731-Tender) är inte 'ja'</entry>
 <entry key="expression|name|71">'Anlitande av underleverantör' (BT-773-Tender) är 'Ja'</entry>
 <entry key="expression|name|72">Ingen vinnare valdes ut eller 'Det gäller ett ramavtal' (BT-765-Lot) motsvarar inte ramavtalet för förfarandet</entry>
 <entry key="expression|name|74">'Version av det föregående meddelandet som ska ändras' (BT-758-notice) fylls inte i</entry>

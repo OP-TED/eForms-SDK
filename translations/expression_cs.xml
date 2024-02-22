@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je pevná hodnota' (BT-5422) je vyplněn nebo 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn</entry>
 <entry key="expression|name|157">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je pevná hodnota' (BT-5422) je vyplněn nebo 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn</entry>
 <entry key="expression|name|158">'Uchazeč musí podat nabídky pro všechny části' ((BT-763)) je pravda</entry>
-<entry key="expression|name|159">'Uchazeč musí podat nabídky pro všechny části' ((BT-763)) je pravda nebo je v oznámení uvedena více než jedna položka</entry>
+<entry key="expression|name|159">'Uchazeč musí podat nabídky pro všechny části' (BT-763) je pravda nebo je v oznámení uvedena více než jedna položka</entry>
 <entry key="expression|name|16">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot) není prázdný</entry>
 <entry key="expression|name|160">Neexistují vícenásobné položky</entry>
 <entry key="expression|name|161">'Hlavní klasifikace' (BT-262-Lot) není vyplněn</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'Kupující je zadavatelem' (BT-740) je 'Ano'</entry>
 <entry key="expression|name|20">'Země' (BT-5141-Lot) není prázdný</entry>
 <entry key="expression|name|200">'Datum konce trvání' (BT-537-Lot) je vyplněn</entry>
-<entry key="expression|name|201">'Veškeré smlouvy na poskytování služeb následně po soutěži budou zadány jednomu z vítězů soutěže' ((BT-41-Lot)) není pravda</entry>
+<entry key="expression|name|201">'Veškeré smlouvy na poskytování služeb následně po soutěži budou zadány jednomu z vítězů soutěže' (BT-41-Lot) není pravda</entry>
 <entry key="expression|name|202">'Informace o lhůtách pro přezkum' (BT-99-Lot) je vyplněn</entry>
 <entry key="expression|name|203">Žádné položky nebyly zadány</entry>
 <entry key="expression|name|204">'Identifikátor nabídky zakázky' (BT-3202-Contract) není vyplněn</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Hodnota nejnižší přípustné nabídky' (BT-710-LotResult) není vyplněn</entry>
 <entry key="expression|name|252">'Hodnota nejvyšší přípustné nabídky' (BT-711-LotResult) není vyplněn</entry>
 <entry key="expression|name|253">'Počet žadatelů/stěžovatelů' (BT-712(a)-LotResult) není vyplněn</entry>
-<entry key="expression|name|254">'Hodnota výsledku' (BT-720-Tender) není vyplněn</entry>
+<entry key="expression|name|254">'Hodnota nabídky' (BT-720-Tender) není vyplněn</entry>
 <entry key="expression|name|255">'Hodnota subdodávky je známa' (BT-730-Tender) není vyplněn</entry>
 <entry key="expression|name|256">'Procentní podíl subdodávky je znám' (BT-731-Tender) není vyplněn</entry>
 <entry key="expression|name|257">'Odůvodnění neuvedení váhy kritérií pro zadání' (BT-733-Lot) není vyplněn</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Pole bude zveřejněno později' (BT-195(BT-773)-Tender) není vyplněn</entry>
 <entry key="expression|name|315">'Pole bude zveřejněno později' (BT-195(BT-88)-Procedure) není vyplněn</entry>
 <entry key="expression|name|316">Existuje více než jedna položka</entry>
-<entry key="expression|name|317">'Jedná se o opakující se zadávací řízení' ((BT-94-Lot)) není 'ano'</entry>
+<entry key="expression|name|317">'Jedná se o opakující se zadávací řízení' (BT-94-Lot) není 'ano'</entry>
 <entry key="expression|name|318">'Typ řízení' (BT-105-Procedure) je 'Otevřené'</entry>
 <entry key="expression|name|319">'Organizace nebo konkrétní kontaktní bod' (OPT-301-Lot-ReviewInfo) není vyplněn</entry>
 <entry key="expression|name|32">'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752-Lot) není prázdný</entry>
-<entry key="expression|name|320">'Bude použita elektronická aukce' ((BT-767-Lot)) není 'ano'</entry>
+<entry key="expression|name|320">'Bude použita elektronická aukce' (BT-767-Lot) není 'ano'</entry>
 <entry key="expression|name|321">'Typ řízení' (BT-105) není 'Užší'</entry>
 <entry key="expression|name|322">'Typ vozidla' (OPT-155-LotResult) není vyplněn</entry>
 <entry key="expression|name|323">'Stav výběru vítěze' (BT-142-LotResult) je 'Vítěz nebyl dosud vybrán, ale soutěž stále probíhá.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">Organizace není 'Kupující'</entry>
 <entry key="expression|name|346">Organizace je kupujícím a dynamický nákupní systém je rovněž použitelný kupujícími, kteří nejsou uvedeni v tomto oznámení, a právní základ se liší od 'Jiné' a 'Centrální zadavatel pořizující dodávky a/nebo služby určené pro jiné kupující' (OPP-052) není vyplněn</entry>
 <entry key="expression|name|347">Organizace je kupujícím a dynamický nákupní systém je rovněž použitelný kupujícími, kteří nejsou uvedeni v tomto oznámení, a právní základ se liší od 'Jiné' a 'Centrální zadavatel pořizující dodávky a/nebo služby určené pro jiné kupující' (OPP-052) není vyplněn</entry>
-<entry key="expression|name|348">'Řízení proběhne v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni' ((BT-52-Lot)) není 'ano'; 'Typ řízení' (BT-105) není jedním z následujících: 'Soutěžní dialog'; 'Inovační partnerství'; 'Jednací řízení s uveřejněním / jednací řízení'; 'Jiné vícefázové řízení'; 'Užší'</entry>
+<entry key="expression|name|348">'Řízení proběhne v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni' (BT-52-Lot) není 'ano'; 'Typ řízení' (BT-105) není jedním z následujících: 'Soutěžní dialog'; 'Inovační partnerství'; 'Jednací řízení s uveřejněním / jednací řízení'; 'Jiné vícefázové řízení'; 'Užší'</entry>
 <entry key="expression|name|349">Jedná se o rámcovou smlouvu</entry>
 <entry key="expression|name|35">'Typ řízení' (BT-105) není jedním z následujících: 'Soutěžní dialog'; 'Inovační partnerství'; 'Jednací řízení s uveřejněním / jednací řízení'</entry>
 <entry key="expression|name|350">Organizace se není součástí účastníka podávajícího nabídku; 'Organizace je fyzická osoba' (BT-633-Organization); 'Vítěz je kotován na regulovaném trhu' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Požaduje se dohoda o zachování mlčenlivosti' (BT-801) je 'ne'</entry>
 <entry key="expression|name|512">'Identifikátor finančních prostředků EU' (BT-5011) a 'Název projektu nebo programu financovaného EU' (BT-722) nejsou vyplněny</entry>
 <entry key="expression|name|513">'Identifikátor finančních prostředků EU' (BT-5010) a 'Programy financování z EU' (BT-7220) nejsou vyplněny</entry>
-<entry key="expression|name|514">'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' ((BT-717)) není 'ano'</entry>
-<entry key="expression|name|515">'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' ((BT-717)) není 'ano' v případě této položky nebo položka nebyla zadána</entry>
+<entry key="expression|name|514">'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' (BT-717) není 'ano'</entry>
+<entry key="expression|name|515">'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' (BT-717) není 'ano' v případě této položky nebo položka nebyla zadána</entry>
 <entry key="expression|name|516">'Právní základ CVD určující, která kategorie zadávacího řízení se použije' (BT-735-LotResult) není vyplněn</entry>
 <entry key="expression|name|517">'Kategorie vozidel spadajících do působnosti směrnice 2009/33/ES, včetně: lehkých vozidel (M1, M2, N1), autobusů (M3), nákladních vozidel (N2, N3), M1, M2, N1, N2, N3' (BT-723-LotResult) není vyplněn</entry>
-<entry key="expression|name|518">'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' ((BT-717)) není 'ano' pro tuto položku</entry>
+<entry key="expression|name|518">'Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)' (BT-717) není 'ano' pro tuto položku</entry>
 <entry key="expression|name|52">'Skupina uchazečů, které má být zakázka zadána, musí mít určitou právní formu' (BT-761-Lot) není 'ano'</entry>
 <entry key="expression|name|520">'Číslo je typem váhy' (BT-5421) není 'Pořadí důležitosti'</entry>
 <entry key="expression|name|523">'Další omezení týkající se místa plnění' (BT-727), 'Nižší územní jednotka země (NUTS)' BT-5071 a 'Obec' (BT-5131) není vyplněn</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Hodnota subdodávky je známa' (BT-730-Tender) není 'ano'</entry>
 <entry key="expression|name|69">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
 <entry key="expression|name|7">'Země' (BT-5141-Part) je vyplněn</entry>
-<entry key="expression|name|70">'Procentní podíl subdodávky je znám' ((BT-731-Tender)) není 'ano'</entry>
+<entry key="expression|name|70">'Procentní podíl subdodávky je znám' (BT-731-Tender) není 'ano'</entry>
 <entry key="expression|name|71">'Subdodávky' (BT-773-Tender) je 'Ano'</entry>
 <entry key="expression|name|72">Žádný vítěz nebyl vybrán nebo 'Je použita rámcová dohoda' (BT-765-Lot) neodpovídá rámcové smlouvě v rámci řízení</entry>
 <entry key="expression|name|74">'Znění předchozího oznámení, které má být změněno' (BT-758-notice) není vyplněn</entry>

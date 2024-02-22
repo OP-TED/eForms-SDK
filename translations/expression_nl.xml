@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Gunningscriterium numerieke waarde' (BT-541) is niet ingevuld of 'Numerieke waarde is van het type vaste waarde' (BT-5422) is ingevuld of 'Numerieke waarde is van het type drempel' (BT-5423) is ingevuld</entry>
 <entry key="expression|name|157">'Gunningscriterium numerieke waarde' (BT-541) is niet ingevuld of 'Numerieke waarde is van het type vaste waarde' (BT-5422) is ingevuld of 'Numerieke waarde is van het type drempel' (BT-5423) is ingevuld</entry>
 <entry key="expression|name|158">'De inschrijver moet op alle percelen inschrijven' ((BT-763)) is juist</entry>
-<entry key="expression|name|159">'De inschrijver moet op alle percelen inschrijven' ((BT-763)) is juist of er is meer dan één perceel in de aankondiging</entry>
+<entry key="expression|name|159">'De inschrijver moet op alle percelen inschrijven' (BT-763) is juist of er is meer dan één perceel in de aankondiging</entry>
 <entry key="expression|name|16">'Gunningscriterium numerieke waarde' (BT-541-Lot) is niet leeg</entry>
 <entry key="expression|name|160">Er zijn geen meerdere percelen</entry>
 <entry key="expression|name|161">'Belangrijkste classificatie' (BT-262-Lot) is niet ingevuld</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'De koper is een aanbestedende instantie' (BT-740) is 'Ja'</entry>
 <entry key="expression|name|20">'Land' (BT-5141-Lot) is niet leeg</entry>
 <entry key="expression|name|200">'Einddatum van de duur' (BT-537-Lot) is ingevuld</entry>
-<entry key="expression|name|201">'Alle eventuele opdrachten voor diensten na de prijsvraag worden aan een van de winnaars gegund' ((BT-41-Lot)) is onjuist</entry>
+<entry key="expression|name|201">'Alle eventuele opdrachten voor diensten na de prijsvraag worden aan een van de winnaars gegund' (BT-41-Lot) is onjuist</entry>
 <entry key="expression|name|202">'Informatie over de termijnen voor beroep' (BT-99-Lot) is ingevuld</entry>
 <entry key="expression|name|203">Er zijn geen percelen gegund</entry>
 <entry key="expression|name|204">'ID opdracht inschrijving' (BT-3202-Contract) is niet ingevuld</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Waarde van de laagste ontvankelijke inschrijving' (BT-710-LotResult) is niet ingevuld</entry>
 <entry key="expression|name|252">'Waarde van de hoogste ontvankelijke inschrijving' (BT-711-LotResult) is niet ingevuld</entry>
 <entry key="expression|name|253">'Aantal klagers' (BT-712(a)-LotResult) is niet ingevuld</entry>
-<entry key="expression|name|254">'Waarde van het resultaat' (BT-720-Tender) is niet ingevuld</entry>
+<entry key="expression|name|254">'Waarde van de aanbesteding' (BT-720-Tender) is niet ingevuld</entry>
 <entry key="expression|name|255">'Waarde onderaanneming is bekend' (BT-730-Tender) is niet ingevuld</entry>
 <entry key="expression|name|256">'Percentage onderaanneming is bekend' (BT-731-Tender) is niet ingevuld</entry>
 <entry key="expression|name|257">'Rechtvaardiging voor het niet vermelden van de weging van de gunningscriteria' (BT-733-Lot) is niet ingevuld</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Veld om later te publiceren' (BT-195(BT-773)-Tender) is niet ingevuld</entry>
 <entry key="expression|name|315">'Veld om later te publiceren' (BT-195(BT-88)-Procedure) is niet ingevuld</entry>
 <entry key="expression|name|316">Er is meer dan één perceel</entry>
-<entry key="expression|name|317">'Dit is een periodiek terugkerende aanbesteding' ((BT-94-Lot)) is niet 'ja'</entry>
+<entry key="expression|name|317">'Dit is een periodiek terugkerende aanbesteding' (BT-94-Lot) is niet 'ja'</entry>
 <entry key="expression|name|318">'Type procedure' (BT-105-Procedure) is 'Openbaar'</entry>
 <entry key="expression|name|319">'Organisatie of specifiek contactpunt' (OPT-301-Lot-ReviewInfo) is niet ingevuld</entry>
 <entry key="expression|name|32">'Selectiecriteria tweede fase uitnodiging numerieke waarde' (BT-752-Lot) is niet leeg</entry>
-<entry key="expression|name|320">'Er wordt gebruikgemaakt van een elektronische veiling' ((BT-767-Lot)) is niet 'ja'</entry>
+<entry key="expression|name|320">'Er wordt gebruikgemaakt van een elektronische veiling' (BT-767-Lot) is niet 'ja'</entry>
 <entry key="expression|name|321">'Type procedure' (BT-105) is niet 'Niet-openbaar'</entry>
 <entry key="expression|name|322">'Voertuigtype' (OPT-155-LotResult) is niet ingevuld</entry>
 <entry key="expression|name|323">'Selectiestatus winnaar' (BT-142-LotResult) is 'Er is nog geen winnaar gekozen, maar de mededinging loopt nog.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">De organisatie is geen 'Koper'</entry>
 <entry key="expression|name|346">De organisatie is een koper en het dynamisch aankoopsysteem is ook bruikbaar voor niet in deze aankondiging genoemde kopers en de rechtsgrondslag is anders dan 'Andere', en 'Aankoopcentrale die voor andere kopers bestemde goederen en/of diensten koopt' (OPP-052) is niet ingevuld</entry>
 <entry key="expression|name|347">De organisatie is een koper en het dynamisch aankoopsysteem is ook bruikbaar voor niet in deze aankondiging genoemde kopers en de rechtsgrondslag is anders dan 'Andere', en 'Aankoopcentrale die voor andere kopers bestemde goederen en/of diensten koopt' (OPP-052) is niet ingevuld</entry>
-<entry key="expression|name|348">'De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen' ((BT-52-Lot)) is niet 'ja'; 'Type procedure' (BT-105) is niet een van de volgende: 'Concurrentiegerichte dialoog'; 'Innovatiepartnerschap'; 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'; 'Andere procedure in meerdere fasen'; 'Niet-openbaar'</entry>
+<entry key="expression|name|348">'De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen' (BT-52-Lot) is niet 'ja'; 'Type procedure' (BT-105) is niet een van de volgende: 'Concurrentiegerichte dialoog'; 'Innovatiepartnerschap'; 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'; 'Andere procedure in meerdere fasen'; 'Niet-openbaar'</entry>
 <entry key="expression|name|349">Het is een raamovereenkomst</entry>
 <entry key="expression|name|35">'Type procedure' (BT-105) is niet een van de volgende: 'Concurrentiegerichte dialoog'; 'Innovatiepartnerschap'; 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
 <entry key="expression|name|350">De organisatie neemt niet deel aan een inschrijvende partij; 'De organisatie is een natuurlijk persoon' (BT-633-Organization); 'De winnaar is genoteerd op een gereglementeerde markt' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Een geheimhoudingsovereenkomst is vereist' (BT-801) is 'neen'</entry>
 <entry key="expression|name|512">'Identificatiecode van EU-middelen' (BT-5011) en 'Naam van door de EU gefinancierd project of programma' (BT-722) zijn niet ingevuld</entry>
 <entry key="expression|name|513">'Identificatiecode van EU-fondsen' (BT-5010) en 'Programma EU-fondsen' (BT-7220) zijn niet ingevuld</entry>
-<entry key="expression|name|514">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' ((BT-717)) is niet 'ja'</entry>
-<entry key="expression|name|515">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' ((BT-717)) is niet 'ja' voor dit perceel of het perceel is niet gegund</entry>
+<entry key="expression|name|514">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' (BT-717) is niet 'ja'</entry>
+<entry key="expression|name|515">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' (BT-717) is niet 'ja' voor dit perceel of het perceel is niet gegund</entry>
 <entry key="expression|name|516">'De rechtsgrondslag uit hoofde van de richtlijn schone voertuigen om vast te stellen welke categorie aanbestedingsprocedures van toepassing is' (BT-735-LotResult) is niet ingevuld</entry>
 <entry key="expression|name|517">'De categorieën voertuigen die binnen de werkingssfeer van Richtlijn 2009/33/EG vallen, waaronder: Lichte bedrijfsvoertuigen (M1, M2, N1); Bus (M3); Vrachtwagen (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) is niet ingevuld</entry>
-<entry key="expression|name|518">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' ((BT-717)) is niet 'ja' voor dit perceel</entry>
+<entry key="expression|name|518">'De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)' (BT-717) is niet 'ja' voor dit perceel</entry>
 <entry key="expression|name|52">'Een combinatie van inschrijvers aan wie een opdracht wordt gegund, moet een bepaalde rechtsvorm aannemen' (BT-761-Lot) is niet 'ja'</entry>
 <entry key="expression|name|520">'Numerieke waarde is van het type gewicht' (BT-5421) is niet 'Volgorde van belang'</entry>
 <entry key="expression|name|523">'Andere beperkingen op de plaats van uitvoering' (BT-727), 'Onderverdeling land (NUTS)' BT-5071 en 'Stad' (BT-5131) is niet ingevuld</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Waarde onderaanneming is bekend' (BT-730-Tender) is niet 'ja'</entry>
 <entry key="expression|name|69">'Onderaanneming' (BT-773-Tender) is niet 'Ja'</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) is ingevuld</entry>
-<entry key="expression|name|70">'Percentage onderaanneming is bekend' ((BT-731-Tender)) is niet 'ja'</entry>
+<entry key="expression|name|70">'Percentage onderaanneming is bekend' (BT-731-Tender) is niet 'ja'</entry>
 <entry key="expression|name|71">'Onderaanneming' (BT-773-Tender) is 'Ja'</entry>
 <entry key="expression|name|72">Er is geen winnaar gekozen of 'Het gaat om een raamovereenkomst' (BT-765-Lot) komt niet overeen met de raamovereenkomst van de procedure</entry>
 <entry key="expression|name|74">'Versie van de eerdere aankondiging die moet worden gewijzigd' (BT-758-notice) is niet ingevuld</entry>

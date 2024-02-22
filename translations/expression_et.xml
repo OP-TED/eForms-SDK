@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Hindamiskriteerium – arv' (BT-541) ei ole täidetud või 'Arv on fikseeritud väärtus' (BT-5422) on täidetud või 'Arv on teatavat liiki piirmäär' (BT-5423) on täidetud</entry>
 <entry key="expression|name|157">'Hindamiskriteerium – arv' (BT-541) ei ole täidetud või 'Arv on fikseeritud väärtus' (BT-5422) on täidetud või 'Arv on teatavat liiki piirmäär' (BT-5423) on täidetud</entry>
 <entry key="expression|name|158">'Pakkuja peab esitama pakkumused kõikide osade kohta' ((BT-763)) on tõene</entry>
-<entry key="expression|name|159">'Pakkuja peab esitama pakkumused kõikide osade kohta' ((BT-763)) on tõene või on hanketeates rohkem kui üks osa</entry>
+<entry key="expression|name|159">'Pakkuja peab esitama pakkumused kõikide osade kohta' (BT-763) on tõene või on hanketeates rohkem kui üks osa</entry>
 <entry key="expression|name|16">'Hindamiskriteerium – arv' (BT-541-Lot) ei ole tühi</entry>
 <entry key="expression|name|160">Mitut osa ei ole</entry>
 <entry key="expression|name|161">'Peamine liigitus' (BT-262-Lot) ei ole täidetud</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'Hankija on võrgustiku sektori hankija' (BT-740) on 'Jah'</entry>
 <entry key="expression|name|20">'Riik' (BT-5141-Lot) ei ole tühi</entry>
 <entry key="expression|name|200">'Kestuse lõppkuupäev' (BT-537-Lot) on täidetud</entry>
-<entry key="expression|name|201">'Konkursile järgnev teenusleping sõlmitakse ühega konkursi võitjatest' ((BT-41-Lot)) pole tõene</entry>
+<entry key="expression|name|201">'Konkursile järgnev teenusleping sõlmitakse ühega konkursi võitjatest' (BT-41-Lot) pole tõene</entry>
 <entry key="expression|name|202">'Teave läbivaatamise tähtaegade kohta' (BT-99-Lot) on täidetud</entry>
 <entry key="expression|name|203">Ühegi osa kohta lepingut ei sõlmitud</entry>
 <entry key="expression|name|204">'Leping – pakkumus – tunnus' (BT-3202-Contract) ei ole täidetud</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Madalaima vastuvõetava pakkumuse väärtus' (BT-710-LotResult) ei ole täidetud</entry>
 <entry key="expression|name|252">'Kalleima vastuvõetava pakkumuse maksumus' (BT-711-LotResult) ei ole täidetud</entry>
 <entry key="expression|name|253">'Kaebuse esitajate arv' (BT-712(a)-LotResult) ei ole täidetud</entry>
-<entry key="expression|name|254">'Tulemuse väärtus' (BT-720-Tender) ei ole täidetud</entry>
+<entry key="expression|name|254">'Hankepakkumise väärtus' (BT-720-Tender) ei ole täidetud</entry>
 <entry key="expression|name|255">'Allhanke maksumus on teada' (BT-730-Tender) ei ole täidetud</entry>
 <entry key="expression|name|256">'Allhanke protsendimäär on teada' (BT-731-Tender) ei ole täidetud</entry>
 <entry key="expression|name|257">'Pakkumuste hindamise kriteeriumide osakaalu märkimata jätmise põhjendus' (BT-733-Lot) ei ole täidetud</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-773)-Tender) ei ole täidetud</entry>
 <entry key="expression|name|315">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-88)-Procedure) ei ole täidetud</entry>
 <entry key="expression|name|316">Osi on rohkem kui üks</entry>
-<entry key="expression|name|317">'Tegemist on korduva hankega' ((BT-94-Lot)) ei ole 'jah'</entry>
+<entry key="expression|name|317">'Tegemist on korduva hankega' (BT-94-Lot) ei ole 'jah'</entry>
 <entry key="expression|name|318">'Menetluse liik' (BT-105-Procedure) on 'Avatud'</entry>
 <entry key="expression|name|319">'Organisatsioon või konkreetne kontaktipunkt' (OPT-301-Lot-ReviewInfo) ei ole täidetud</entry>
 <entry key="expression|name|32">'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot) ei ole tühi</entry>
-<entry key="expression|name|320">'Tegemist on elektroonilise oksjoniga' ((BT-767-Lot)) ei ole 'jah'</entry>
+<entry key="expression|name|320">'Tegemist on elektroonilise oksjoniga' (BT-767-Lot) ei ole 'jah'</entry>
 <entry key="expression|name|321">'Menetluse liik' (BT-105) ei ole 'Piiratud'</entry>
 <entry key="expression|name|322">'Sõiduki tüüp' (OPT-155-LotResult) ei ole täidetud</entry>
 <entry key="expression|name|323">'Eduka pakkuja valiku staatus' (BT-142-LotResult) on 'Edukat pakkujat ei ole veel valitud, kuid hange on veel pooleli.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">Organisatsioon ei ole 'Hankija'</entry>
 <entry key="expression|name|346">Organisatsioon on ostja ja dünaamilist hankesüsteemi saavad kasutada ka käesolevas hanketeates loetlemata ostjad ning õiguslik alus erineb 'Muu'st ning 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>
 <entry key="expression|name|347">Organisatsioon on ostja ja dünaamilist hankesüsteemi saavad kasutada ka käesolevas hanketeates loetlemata ostjad ning õiguslik alus erineb 'Muu'st ning 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>
-<entry key="expression|name|348">'Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada' ((BT-52-Lot)) ei ole 'jah'; 'Menetluse liik' (BT-105) ei ole üks järgmistest: 'Võistlev dialoog'; 'Innovatsioonipartnerlus'; 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'; 'Muu mitmeetapiline menetlus'; 'Piiratud'</entry>
+<entry key="expression|name|348">'Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada' (BT-52-Lot) ei ole 'jah'; 'Menetluse liik' (BT-105) ei ole üks järgmistest: 'Võistlev dialoog'; 'Innovatsioonipartnerlus'; 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'; 'Muu mitmeetapiline menetlus'; 'Piiratud'</entry>
 <entry key="expression|name|349">See on raamleping</entry>
 <entry key="expression|name|35">'Menetluse liik' (BT-105) ei ole üks järgmistest: 'Võistlev dialoog'; 'Innovatsioonipartnerlus'; 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'</entry>
 <entry key="expression|name|350">Organisatsioon ei osale pakkumismenetluses osapoolena; 'Organisatsioon on füüsiline isik' (BT-633-Organization); 'Pakkuja on noteeritud reguleeritud turul' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Vajalik on konfidentsiaalsuskokkulepe' (BT-801) on 'ei'</entry>
 <entry key="expression|name|512">'ELi vahendite tunnus' (BT-5011) ja 'ELi rahastatud projekti või programmi nimi' (BT-722) ei ole täidetud</entry>
 <entry key="expression|name|513">'ELi vahendite tunnus' (BT-5010) ja 'ELi vahendid – programm' (BT-7220) ei ole täidetud</entry>
-<entry key="expression|name|514">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' ((BT-717)) ei ole 'jah'</entry>
-<entry key="expression|name|515">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' ((BT-717)) ei ole 'jah' selle osa jaoks või selle osa kohta lepingut ei sõlmitud</entry>
+<entry key="expression|name|514">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' (BT-717) ei ole 'jah'</entry>
+<entry key="expression|name|515">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' (BT-717) ei ole 'jah' selle osa jaoks või selle osa kohta lepingut ei sõlmitud</entry>
 <entry key="expression|name|516">'Keskkonnasõbralike sõidukite direktiivi kohane õiguslik alus, et määrata kindlaks, millist hankemenetluse kategooriat kohaldatakse' (BT-735-LotResult) ei ole täidetud</entry>
-<entry key="expression|name|517">'Direktiivi 2009/33/EÜ kohaldamisalasse kuuluvate sõidukite kategooria: kergsõidukid (M1, M2, N1); bussid (M3); veokid ((N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) ei ole täidetud</entry>
-<entry key="expression|name|518">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' ((BT-717)) ei ole 'jah' selle osa jaoks</entry>
+<entry key="expression|name|517">'Direktiivi 2009/33/EÜ kohaldamisalasse kuuluvate sõidukite kategooria: kergsõidukid (M1, M2, N1); bussid (M3); veokid (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) ei ole täidetud</entry>
+<entry key="expression|name|518">'Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse' (BT-717) ei ole 'jah' selle osa jaoks</entry>
 <entry key="expression|name|52">'Pakkujate rühmalt, kellega sõlmitakse leping, eeldatakse teatavat õiguslikku vormi' (BT-761-Lot) ei ole 'jah'</entry>
 <entry key="expression|name|520">'Arv on teatavat liiki osakaal' (BT-5421) ei ole 'Tähtsuse järjekord'</entry>
 <entry key="expression|name|523">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727), 'Riik – jaotus (NUTS)' BT-5071 ja 'Linn' (BT-5131) ei ole täidetud</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Allhanke maksumus on teada' (BT-730-Tender) ei ole 'jah'</entry>
 <entry key="expression|name|69">'Alltöövõtt' (BT-773-Tender) ei ole 'Jah'</entry>
 <entry key="expression|name|7">'Riik' (BT-5141-Part) on täidetud</entry>
-<entry key="expression|name|70">'Allhanke protsendimäär on teada' ((BT-731-Tender)) ei ole 'jah'</entry>
+<entry key="expression|name|70">'Allhanke protsendimäär on teada' (BT-731-Tender) ei ole 'jah'</entry>
 <entry key="expression|name|71">'Alltöövõtt' (BT-773-Tender) on 'Jah'</entry>
 <entry key="expression|name|72">Ühtegi võitjat ei valitud või 'Tegemist on raamlepinguga' (BT-765-Lot) ei ole vastavuses menetluse raamlepinguga</entry>
 <entry key="expression|name|74">'Eelmise teate versioon, mida muudetakse' (BT-758-notice) ei ole täidetud</entry>

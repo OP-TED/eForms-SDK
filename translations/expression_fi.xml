@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Myöntämisperusteeseen liittyvä luku' (BT-541) ei ole täytetty tai 'Luku on kiinteä arvo' (BT-5422) on täytetty tai 'Luku on tyypiltään kynnysarvo' (BT-5423) on täytetty</entry>
 <entry key="expression|name|157">'Myöntämisperusteeseen liittyvä luku' (BT-541) ei ole täytetty tai 'Luku on kiinteä arvo' (BT-5422) on täytetty tai 'Luku on tyypiltään kynnysarvo' (BT-5423) on täytetty</entry>
 <entry key="expression|name|158">'Tarjouksen tekijän on esitettävä tarjoukset kaikista eristä' ((BT-763)) on tosi</entry>
-<entry key="expression|name|159">'Tarjouksen tekijän on esitettävä tarjoukset kaikista eristä' ((BT-763)) on tosi tai ilmoituksessa on useampi kuin yksi erä</entry>
+<entry key="expression|name|159">'Tarjouksen tekijän on esitettävä tarjoukset kaikista eristä' (BT-763) on tosi tai ilmoituksessa on useampi kuin yksi erä</entry>
 <entry key="expression|name|16">'Myöntämisperusteeseen liittyvä luku' (BT-541-Lot) ei ole tyhjä</entry>
 <entry key="expression|name|160">Ei ole useita eriä</entry>
 <entry key="expression|name|161">'Pääasiallinen luokitus' (BT-262-Lot) ei ole täytetty</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'Ostaja on hankintayksikkö' (BT-740) on 'Kyllä'</entry>
 <entry key="expression|name|20">'Maa' (BT-5141-Lot) ei ole tyhjä</entry>
 <entry key="expression|name|200">'Keston päättymispäivä' (BT-537-Lot) on täytetty</entry>
-<entry key="expression|name|201">'Kilpailun perusteella tehtävä palvelusopimus tehdään yhden voittajista kanssa' ((BT-41-Lot)) ei ole tosi</entry>
+<entry key="expression|name|201">'Kilpailun perusteella tehtävä palvelusopimus tehdään yhden voittajista kanssa' (BT-41-Lot) ei ole tosi</entry>
 <entry key="expression|name|202">'Tietoa muutoksenhaun määräajoista' (BT-99-Lot) on täytetty</entry>
 <entry key="expression|name|203">Yhdenkään erän osalta ei ole tehty sopimusta</entry>
 <entry key="expression|name|204">'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract) ei ole täytetty</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Alhaisin hyväksyttävän tarjouksen arvo' (BT-710-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|252">'Korkein hyväksyttävän tarjouksen arvo' (BT-711-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|253">'Valituksen tekijöiden lukumäärä' (BT-712(a)-LotResult) ei ole täytetty</entry>
-<entry key="expression|name|254">'Tuloksen arvo' (BT-720-Tender) ei ole täytetty</entry>
+<entry key="expression|name|254">'Tarjouksen arvo' (BT-720-Tender) ei ole täytetty</entry>
 <entry key="expression|name|255">'Alihankinnan arvo tiedossa' (BT-730-Tender) ei ole täytetty</entry>
 <entry key="expression|name|256">'Alihankinnan prosenttiosuus tiedossa' (BT-731-Tender) ei ole täytetty</entry>
 <entry key="expression|name|257">'Perustelu myöntämisperusteiden painotuksen ilmoittamatta jättämiselle' (BT-733-Lot) ei ole täytetty</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-773)-Tender) ei ole täytetty</entry>
 <entry key="expression|name|315">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-88)-Procedure) ei ole täytetty</entry>
 <entry key="expression|name|316">Eriä on enemmän kuin yksi</entry>
-<entry key="expression|name|317">'Tämä on toistuva hankinta' ((BT-94-Lot)) ei ole 'kyllä'</entry>
+<entry key="expression|name|317">'Tämä on toistuva hankinta' (BT-94-Lot) ei ole 'kyllä'</entry>
 <entry key="expression|name|318">'Menettelyn tyyppi' (BT-105-Procedure) on 'Avoin'</entry>
 <entry key="expression|name|319">'Organisaatio tai tietty yhteyshenkilö' (OPT-301-Lot-ReviewInfo) ei ole täytetty</entry>
 <entry key="expression|name|32">'Valintaperusteet – Kutsu jälkimmäiseen vaiheeseen – Luku' (BT-752-Lot) ei ole tyhjä</entry>
-<entry key="expression|name|320">'Käytetään sähköistä huutokauppaa' ((BT-767-Lot)) ei ole 'kyllä'</entry>
+<entry key="expression|name|320">'Käytetään sähköistä huutokauppaa' (BT-767-Lot) ei ole 'kyllä'</entry>
 <entry key="expression|name|321">'Menettelyn tyyppi' (BT-105) ei ole 'Rajoitettu'</entry>
 <entry key="expression|name|322">'Ajoneuvotyyppi' (OPT-155-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|323">'Voittajan valinnan tila' (BT-142-LotResult) on 'Voittajaa ei ole vielä valittu, ja kilpailu on edelleen kesken.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">Organisaatio ei ole 'Ostaja'</entry>
 <entry key="expression|name|346">Organisaatio on ostaja, ja dynaamista hankintajärjestelmää voivat käyttää myös ostajat, joita ei ole mainittu tässä ilmoituksessa, ja oikeusperusta on eri kuin 'Muu', ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ole täytetty</entry>
 <entry key="expression|name|347">Organisaatio on ostaja, ja dynaamista hankintajärjestelmää voivat käyttää myös ostajat, joita ei ole mainittu tässä ilmoituksessa, ja oikeusperusta on eri kuin 'Muu', ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ole täytetty</entry>
-<entry key="expression|name|348">'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' ((BT-52-Lot)) ei ole 'kyllä'; 'Menettelyn tyyppi' (BT-105) ei ole yksi seuraavista: 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely', 'Rajoitettu'</entry>
+<entry key="expression|name|348">'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä'; 'Menettelyn tyyppi' (BT-105) ei ole yksi seuraavista: 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely', 'Rajoitettu'</entry>
 <entry key="expression|name|349">Kyseessä on puitesopimus</entry>
 <entry key="expression|name|35">'Menettelyn tyyppi' (BT-105) ei ole yksi seuraavista: 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
 <entry key="expression|name|350">Organisaatio ei kuulu tarjouksen tekevään tahoon; 'Organisaatio on luonnollinen henkilö' (BT-633-Organization); 'Voittaja on noteerattu säännellyillä markkinoilla' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Salassapitosopimus vaaditaan' (BT-801) on 'ei'</entry>
 <entry key="expression|name|512">'EU:n varojen tunniste' (BT-5011) ja 'EU:n rahoittaman hankkeen tai ohjelman nimi' (BT-722) ei ole täytetty</entry>
 <entry key="expression|name|513">'EU:n varojen tunniste' (BT-5010) ja 'EU:n rahoitusohjelma' (BT-7220) ei ole täytetty</entry>
-<entry key="expression|name|514">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' ((BT-717)) ei ole 'kyllä'</entry>
-<entry key="expression|name|515">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' ((BT-717)) ei ole 'kyllä' tämän erän osalta tai erästä ei ole tehty sopimusta</entry>
+<entry key="expression|name|514">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717) ei ole 'kyllä'</entry>
+<entry key="expression|name|515">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717) ei ole 'kyllä' tämän erän osalta tai erästä ei ole tehty sopimusta</entry>
 <entry key="expression|name|516">'Puhtaita ajoneuvoja koskeva direktiivi muodostaa oikeusperustan, jonka perusteella eri hankintamenettelyluokkia sovelletaan' (BT-735-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|517">'Direktiivin 2009/33/EY soveltamisalaan kuuluva ajoneuvoluokka, esim. kevyet hyötyajoneuvot (M1, M2, N1), linja-autot (M3), kuorma-autot (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) ei ole täytetty</entry>
-<entry key="expression|name|518">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' ((BT-717)) ei ole 'kyllä' tämän erän osalta</entry>
+<entry key="expression|name|518">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717) ei ole 'kyllä' tämän erän osalta</entry>
 <entry key="expression|name|52">'Hankintasopimuksen saaneelta tarjoajien ryhmältä vaaditaan tietty oikeudellinen muoto' (BT-761-Lot) ei ole 'kyllä'</entry>
 <entry key="expression|name|520">'Luku on tyypiltään painotus' (BT-5421) ei ole 'Ensisijaisuusjärjestys'</entry>
 <entry key="expression|name|523">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727), 'Maaryhmittely (NUTS)' BT-5071 ja 'Postitoimipaikka' (BT-5131) ei ole täytetty</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Alihankinnan arvo tiedossa' (BT-730-Tender) ei ole 'kyllä'</entry>
 <entry key="expression|name|69">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>
 <entry key="expression|name|7">'Maa' (BT-5141-Part) on täytetty</entry>
-<entry key="expression|name|70">'Alihankinnan prosenttiosuus tiedossa' ((BT-731-Tender)) ei ole 'kyllä'</entry>
+<entry key="expression|name|70">'Alihankinnan prosenttiosuus tiedossa' (BT-731-Tender) ei ole 'kyllä'</entry>
 <entry key="expression|name|71">'Alihankinta' (BT-773-Tender) on 'Kyllä'</entry>
 <entry key="expression|name|72">Voittajaa ei valittu tai 'Käytetään puitejärjestelyä' (BT-765-Lot) ei vastaa menettelyn puitesopimusta</entry>
 <entry key="expression|name|74">'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole täytetty</entry>

@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este o valoare fixă' (BT-5422) este completat sau 'Numărul este un tip de prag' (BT-5423) este completat</entry>
 <entry key="expression|name|157">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este o valoare fixă' (BT-5422) este completat sau 'Numărul este un tip de prag' (BT-5423) este completat</entry>
 <entry key="expression|name|158">'Ofertantul trebuie să prezinte oferte pentru toate loturile' ((BT-763)) este adevărat</entry>
-<entry key="expression|name|159">'Ofertantul trebuie să prezinte oferte pentru toate loturile' ((BT-763)) este adevărat sau există mai mult de un lot în anunț</entry>
+<entry key="expression|name|159">'Ofertantul trebuie să prezinte oferte pentru toate loturile' (BT-763) este adevărat sau există mai mult de un lot în anunț</entry>
 <entry key="expression|name|16">'Număr legat de criteriul de atribuire' (BT-541-Lot) nu este gol</entry>
 <entry key="expression|name|160">Nu există mai multe loturi</entry>
 <entry key="expression|name|161">'Clasificarea principală' (BT-262-Lot) nu este completat</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'Achizitorul este o entitate contractantă' (BT-740) este 'Da'</entry>
 <entry key="expression|name|20">'Țara' (BT-5141-Lot) nu este gol</entry>
 <entry key="expression|name|200">'Data de sfârșit a duratei' (BT-537-Lot) este completat</entry>
-<entry key="expression|name|201">'Orice contract de servicii care rezultă din concurs va fi atribuit unuia dintre câștigătorii concursului' ((BT-41-Lot)) nu este adevărat</entry>
+<entry key="expression|name|201">'Orice contract de servicii care rezultă din concurs va fi atribuit unuia dintre câștigătorii concursului' (BT-41-Lot) nu este adevărat</entry>
 <entry key="expression|name|202">'Informații privind termenele-limită pentru reexaminare' (BT-99-Lot) este completat</entry>
 <entry key="expression|name|203">Nu a fost atribuit niciun lot</entry>
 <entry key="expression|name|204">'Contract: identificator lot' (BT-3202-Contract) nu este completat</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Valoarea celei mai mici oferte admisibile' (BT-710-LotResult) nu este completat</entry>
 <entry key="expression|name|252">'Valoarea celei mai mari oferte admisibile' (BT-711-LotResult) nu este completat</entry>
 <entry key="expression|name|253">'Număr de reclamanți' (BT-712(a)-LotResult) nu este completat</entry>
-<entry key="expression|name|254">'Valoarea rezultatului' (BT-720-Tender) nu este completat</entry>
+<entry key="expression|name|254">'Valoarea licitației' (BT-720-Tender) nu este completat</entry>
 <entry key="expression|name|255">'Valoarea subcontractării este cunoscută' (BT-730-Tender) nu este completat</entry>
 <entry key="expression|name|256">'Valoarea procentuală a subcontractării este cunoscută' (BT-731-Tender) nu este completat</entry>
 <entry key="expression|name|257">'Justificare pentru neindicarea ponderii criteriilor de atribuire' (BT-733-Lot) nu este completat</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Câmp de publicat ulterior' (BT-195(BT-773)-Tender) nu este completat</entry>
 <entry key="expression|name|315">'Câmp de publicat ulterior' (BT-195(BT-88)-Procedure) nu este completat</entry>
 <entry key="expression|name|316">Există mai mult de un lot</entry>
-<entry key="expression|name|317">'Aceasta este o achiziție recurentă' ((BT-94-Lot)) nu este 'da'</entry>
+<entry key="expression|name|317">'Aceasta este o achiziție recurentă' (BT-94-Lot) nu este 'da'</entry>
 <entry key="expression|name|318">'Tip de procedură' (BT-105-Procedure) este 'Deschisă'</entry>
 <entry key="expression|name|319">'Organizația sau punctul de contact specific' (OPT-301-Lot-ReviewInfo) nu este completat</entry>
 <entry key="expression|name|32">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot) nu este gol</entry>
-<entry key="expression|name|320">'Se utilizează o licitație electronică' ((BT-767-Lot)) nu este 'da'</entry>
+<entry key="expression|name|320">'Se utilizează o licitație electronică' (BT-767-Lot) nu este 'da'</entry>
 <entry key="expression|name|321">'Tip de procedură' (BT-105) nu este 'Restrânsă'</entry>
 <entry key="expression|name|322">'Tip de vehicul' (OPT-155-LotResult) nu este completat</entry>
 <entry key="expression|name|323">'Statutul selecției câștigătorului' (BT-142-LotResult) este 'Câștigătorul nu a fost selecționat până în prezent, dar procedura concurențială se află încă în curs de desfășurare.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">Organizația nu este 'Cumpărător'</entry>
 <entry key="expression|name|346">Organizația este un cumpărător, iar sistemul dinamic de achiziții poate fi utilizat și de cumpărătorii care nu sunt enumerați în prezentul anunț, iar temeiul juridic este diferit de 'Altele' și 'Organism central de achiziție care achiziționează bunuri și/sau servicii destinate altor cumpărători' (OPP-052) nu este completat</entry>
 <entry key="expression|name|347">Organizația este un cumpărător, iar sistemul dinamic de achiziții poate fi utilizat și de cumpărătorii care nu sunt enumerați în prezentul anunț, iar temeiul juridic este diferit de 'Altele' și 'Organism central de achiziție care achiziționează bunuri și/sau servicii destinate altor cumpărători' (OPP-052) nu este completat</entry>
-<entry key="expression|name|348">'Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați' ((BT-52-Lot)) nu este 'da'; 'Tip de procedură' (BT-105) nu este una dintre următoarele: 'Dialog competitiv'; 'Parteneriat pentru inovare'; 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'; 'Altă procedură cu mai multe etape'; 'Restrânsă'</entry>
+<entry key="expression|name|348">'Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați' (BT-52-Lot) nu este 'da'; 'Tip de procedură' (BT-105) nu este una dintre următoarele: 'Dialog competitiv'; 'Parteneriat pentru inovare'; 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'; 'Altă procedură cu mai multe etape'; 'Restrânsă'</entry>
 <entry key="expression|name|349">Acesta este un contract-cadru</entry>
 <entry key="expression|name|35">'Tip de procedură' (BT-105) nu este una dintre următoarele: 'Dialog competitiv'; 'Parteneriat pentru inovare'; 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'</entry>
 <entry key="expression|name|350">Organizația nu participă la partea care depune ofertă; 'Organizația este o persoană fizică' (BT-633-Organization); 'Câștigătorul este cotat pe o piață reglementată' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Este necesar un acord de confidențialitate' (BT-801) este 'nu'</entry>
 <entry key="expression|name|512">'Identificatorul fondurilor UE' (BT-5011) și 'Denumirea proiectului sau a programului finanțat de UE' (BT-722) nu sunt completate</entry>
 <entry key="expression|name|513">'Identificator fonduri UE' (BT-5010) și 'Program fonduri UE' (BT-7220) nu sunt completate</entry>
-<entry key="expression|name|514">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' ((BT-717)) nu este 'da'</entry>
-<entry key="expression|name|515">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' ((BT-717)) nu este 'da' pentru acest lot sau lotul nu a fost atribuit</entry>
+<entry key="expression|name|514">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717) nu este 'da'</entry>
+<entry key="expression|name|515">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717) nu este 'da' pentru acest lot sau lotul nu a fost atribuit</entry>
 <entry key="expression|name|516">'Temeiul juridic al CVD pentru a stabili ce categorie de proceduri de achiziții se aplică' (BT-735-LotResult) nu este completat</entry>
 <entry key="expression|name|517">'Categoria de vehicule care intră sub incidența Directivei 2009/33/CE, inclusiv: vehicule ușoare (M1, M2, N1); autobuze (M3); camioane (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) nu este completat</entry>
-<entry key="expression|name|518">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' ((BT-717)) nu este 'da' pentru acest lot</entry>
+<entry key="expression|name|518">'Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).' (BT-717) nu este 'da' pentru acest lot</entry>
 <entry key="expression|name|52">'Un grup de ofertanți căruia i se atribuie un contract trebuie să adopte o anumită formă juridică' (BT-761-Lot) nu este 'da'</entry>
 <entry key="expression|name|520">'Numărul este un tip de pondere' (BT-5421) nu este 'Ordinea importanței'</entry>
 <entry key="expression|name|523">'Alte restricții privind locul de executare' (BT-727), 'Subdiviziunea țării (NUTS)' BT-5071 și 'Localitate' (BT-5131) nu este completat</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Valoarea subcontractării este cunoscută' (BT-730-Tender) nu este 'da'</entry>
 <entry key="expression|name|69">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
 <entry key="expression|name|7">'Țara' (BT-5141-Part) este completat</entry>
-<entry key="expression|name|70">'Valoarea procentuală a subcontractării este cunoscută' ((BT-731-Tender)) nu este 'da'</entry>
+<entry key="expression|name|70">'Valoarea procentuală a subcontractării este cunoscută' (BT-731-Tender) nu este 'da'</entry>
 <entry key="expression|name|71">'Subcontractare' (BT-773-Tender) este 'Da'</entry>
 <entry key="expression|name|72">Nu a fost ales niciun câștigător sau 'Se aplică un acord-cadru' (BT-765-Lot) nu corespunde cu acordul-cadru al procedurii</entry>
 <entry key="expression|name|74">'Versiunea anunțului anterior care urmează să fie modificată' (BT-758-notice) nu este completat</entry>

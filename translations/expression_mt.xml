@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew 'In-numru hu valur fiss' (BT-5422) huwa mimli jew 'In-numru hu tip ta’ limitu' (BT-5423)</entry>
 <entry key="expression|name|157">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew 'In-numru hu valur fiss' (BT-5422) huwa mimli jew 'In-numru hu tip ta’ limitu' (BT-5423)</entry>
 <entry key="expression|name|158">'L-offerent irid iressaq offerti għal-lottijiet kollha' ((BT-763)) huwa veru</entry>
-<entry key="expression|name|159">'L-offerent irid iressaq offerti għal-lottijiet kollha' ((BT-763)) huwa veru jew hemm aktar minn lott wieħed fl-avviż</entry>
+<entry key="expression|name|159">'L-offerent irid iressaq offerti għal-lottijiet kollha' (BT-763) huwa veru jew hemm aktar minn lott wieħed fl-avviż</entry>
 <entry key="expression|name|16">'Numru tal-kriterju għall-għoti' (BT-541-Lot) mhuwiex vojt</entry>
 <entry key="expression|name|160">M’hemm l-ebda lottijiet multipli</entry>
 <entry key="expression|name|161">'Klassifikazzjoni prinċipali' (BT-262-Lot) mhuwiex mimli</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'Ix-xerrej huwa entità kontraenti' (BT-740) huwa 'Iva'</entry>
 <entry key="expression|name|20">'Pajjiż' (BT-5141-Lot) mhuwiex vojt</entry>
 <entry key="expression|name|200">'Data tat-tmiem tad-durata' (BT-537-Lot) huwa mimli</entry>
-<entry key="expression|name|201">'Kwalunkwe kuntratt ta’ servizz wara l-konkors se jingħata lil wieħed mir-rebbieħa tal-konkors' ((BT-41-Lot)) mhuwiex veru</entry>
+<entry key="expression|name|201">'Kwalunkwe kuntratt ta’ servizz wara l-konkors se jingħata lil wieħed mir-rebbieħa tal-konkors' (BT-41-Lot) mhuwiex veru</entry>
 <entry key="expression|name|202">'Informazzjoni dwar l-iskadenzi tar-rieżami' (BT-99-Lot) huwa mimli</entry>
 <entry key="expression|name|203">L-ebda lottijiet ma ngħataw</entry>
 <entry key="expression|name|204">'ID tal-offerta tal-kuntratt' (BT-3202-Contract) mhuwiex mimli</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Valur tal-inqas offerta ammissibbli' (BT-710-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|252">'Valur tal-ogħla offerta ammissibbli' (BT-711-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|253">'Numru ta’ lmentaturi' (BT-712(a)-LotResult) mhuwiex mimli</entry>
-<entry key="expression|name|254">'Valur tar-riżultat' (BT-720-Tender) mhuwiex mimli</entry>
+<entry key="expression|name|254">'Valur tal-offerta' (BT-720-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|255">'Il-valur tas-sottokuntrattar hu magħruf' (BT-730-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|256">'Perċentwal magħruf tas-sottokuntrattar' (BT-731-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|257">'Ġustifikazzjoni għan-nuqqas ta’ indikazzjoni tal-koeffiċjent tal-korrezzjoni tal-kriterji tal-għoti' (BT-733-Lot) mhuwiex mimli</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-773)-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|315">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-88)-Procedure) mhuwiex mimli</entry>
 <entry key="expression|name|316">Hemm aktar minn lott wieħed</entry>
-<entry key="expression|name|317">'Dan huwa akkwist rikorrenti' ((BT-94-Lot)) mhuwiex 'iva'</entry>
+<entry key="expression|name|317">'Dan huwa akkwist rikorrenti' (BT-94-Lot) mhuwiex 'iva'</entry>
 <entry key="expression|name|318">'Tip ta’ proċedura' (BT-105-Procedure) huwa 'Miftuħa'</entry>
 <entry key="expression|name|319">'Organizzazzjoni jew punt ta' kuntatt speċifiku' (OPT-301-Lot-ReviewInfo) mhuwiex mimli</entry>
 <entry key="expression|name|32">'Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju' (BT-752-Lot) mhuwiex vojt</entry>
-<entry key="expression|name|320">'Użat irkant elettroniku' ((BT-767-Lot)) mhuwiex 'iva'</entry>
+<entry key="expression|name|320">'Użat irkant elettroniku' (BT-767-Lot) mhuwiex 'iva'</entry>
 <entry key="expression|name|321">'Tip ta’ proċedura' (BT-105) mhuwiex 'Ristretta'</entry>
 <entry key="expression|name|322">'Tip ta' vettura' (OPT-155-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|323">'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) huwa 'Ir-rebbieħ għadu ma ntgħażilx, iżda l-kompetizzjoni għadha għaddejja.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">L-organizzazzjoni mhijiex 'Xerrej'</entry>
 <entry key="expression|name|346">L-organizzazzjoni hija xerrejja u s-sistema dinamika ta’ xiri tista’ tintuża wkoll mix-xerrejja mhux elenkati f’dan l-avviż u l-bażi legali hija differenti minn 'Oħrajn', u'Korp ċentrali għall-akkwisti li jakkwista provvisti u/jew servizzi maħsuba għal xerrejja oħra' (OPP-052) mhuwiex mimli</entry>
 <entry key="expression|name|347">L-organizzazzjoni hija xerrejja u s-sistema dinamika ta’ xiri tista’ tintuża wkoll mix-xerrejja mhux elenkati f’dan l-avviż u l-bażi legali hija differenti minn 'Oħrajn', u'Korp ċentrali għall-akkwisti li jakkwista provvisti u/jew servizzi maħsuba għal xerrejja oħra' (OPP-052) mhuwiex mimli</entry>
-<entry key="expression|name|348">'Il-proċedura se ssir fi stadji suċċessivi. F’kull stadju, xi parteċipanti jistgħu jiġu eliminati' ((BT-52-Lot)) mhuwiex 'iva'; 'Tip ta’ proċedura' (BT-105) mhuwiex wieħed minn dawn li ġejjin: 'Djalogu kompetittiv'; 'Sħubija għall-innovazzjoni'; 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'; 'Proċedura oħra b’diversi stadji'; 'Ristretta'</entry>
+<entry key="expression|name|348">'Il-proċedura se ssir fi stadji suċċessivi. F’kull stadju, xi parteċipanti jistgħu jiġu eliminati' (BT-52-Lot) mhuwiex 'iva'; 'Tip ta’ proċedura' (BT-105) mhuwiex wieħed minn dawn li ġejjin: 'Djalogu kompetittiv'; 'Sħubija għall-innovazzjoni'; 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'; 'Proċedura oħra b’diversi stadji'; 'Ristretta'</entry>
 <entry key="expression|name|349">Huwa qafas ta’ kuntratt</entry>
 <entry key="expression|name|35">'Tip ta’ proċedura' (BT-105) mhuwiex wieħed minn dawn li ġejjin: 'Djalogu kompetittiv'; 'Sħubija għall-innovazzjoni'; 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'</entry>
 <entry key="expression|name|350">L-organizzazzjoni ma tieħux sehem fil-parti tas-sejħa għall-offerti; 'L-organizzazzjoni hi persuna fiżika' (BT-633-Organization); 'Ir-rebbieħ huwa elenkat f’suq regolat' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Hu meħtieġ ftehim ta’ kunfidenzjalità' (BT-801) huwa 'le'</entry>
 <entry key="expression|name|512">'Identifikatur tal-fondi tal-UE' (BT-5011) u 'Isem il-proġett jew il-programm iffinanzjat mill-UE' (BT-722) mhumiex mimlijin</entry>
 <entry key="expression|name|513">'Identifikatur tal-fondi tal-UE' (BT-5010) u 'Programm tal-fondi mill-UE' (BT-7220) mhumiex mimlijin</entry>
-<entry key="expression|name|514">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' ((BT-717)) mhuwiex 'iva'</entry>
-<entry key="expression|name|515">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' ((BT-717)) mhuwiex 'iva' għal dan il-lott jew il-lott ma ngħatax</entry>
+<entry key="expression|name|514">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717) mhuwiex 'iva'</entry>
+<entry key="expression|name|515">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717) mhuwiex 'iva' għal dan il-lott jew il-lott ma ngħatax</entry>
 <entry key="expression|name|516">'Il-bażi ġuridika tas-CVD biex jiġi stabbilit liema kategorija ta’ proċedura ta’ akkwist tapplika' (BT-735-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|517">'Il-kategorija tal-vettura li taqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE, inkluż: Vetturi light-duty (M1, M2, N1); Xarabank (M3); Trakk (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) mhuwiex mimli</entry>
-<entry key="expression|name|518">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' ((BT-717)) mhuwiex 'iva' għal dan il-lott</entry>
+<entry key="expression|name|518">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717) mhuwiex 'iva' għal dan il-lott</entry>
 <entry key="expression|name|52">'Grupp ta’ offerenti li jingħata kuntratt irid ikollu ċerta forma legali' (BT-761-Lot) mhuwiex 'iva'</entry>
 <entry key="expression|name|520">'In-numru hu tip ta’ ponderazzjoni' (BT-5421) mhuwiex 'Ordni ta’ importanza'</entry>
 <entry key="expression|name|523">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727), 'Sottodiviżjoni tal-pajjiż (NUTS)' BT-5071 u 'Belt' (BT-5131) mhuwiex mimli</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Il-valur tas-sottokuntrattar hu magħruf' (BT-730-Tender) mhuwiex 'iva'</entry>
 <entry key="expression|name|69">'Sottokuntrattar' (BT-773-Tender) mhuwiex 'Iva'</entry>
 <entry key="expression|name|7">'Pajjiż' (BT-5141-Part) huwa mimli</entry>
-<entry key="expression|name|70">'Perċentwal magħruf tas-sottokuntrattar' ((BT-731-Tender)) mhuwiex 'iva'</entry>
+<entry key="expression|name|70">'Perċentwal magħruf tas-sottokuntrattar' (BT-731-Tender) mhuwiex 'iva'</entry>
 <entry key="expression|name|71">'Sottokuntrattar' (BT-773-Tender) huwa 'Iva'</entry>
 <entry key="expression|name|72">Ma ntgħażel l-ebda rebbieħ 'Involut ftehim qafas' (BT-765-Lot) ma jikkorrispondix għall-qafas ta’ ftehim tal-proċedura</entry>
 <entry key="expression|name|74">'Verżjoni tal-avviż preċedenti li għandu jinbidel' (BT-758-notice) mhuwiex mimli</entry>

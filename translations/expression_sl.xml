@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Številka v merilu za oddajo' (BT-541) ni izpolnjeno ali 'Številka je nespremenljiva vrednost' (BT-5422) je izpolnjeno ali 'Številka je vrsta praga' (BT-5423) je izpolnjeno</entry>
 <entry key="expression|name|157">'Številka v merilu za oddajo' (BT-541) ni izpolnjeno ali 'Številka je nespremenljiva vrednost' (BT-5422) je izpolnjeno ali 'Številka je vrsta praga' (BT-5423) je izpolnjeno</entry>
 <entry key="expression|name|158">'Ponudnik mora predložiti ponudbe za vse sklope' ((BT-763)) drži</entry>
-<entry key="expression|name|159">'Ponudnik mora predložiti ponudbe za vse sklope' ((BT-763)) drži ali pa je v obvestilu več kot en sklop</entry>
+<entry key="expression|name|159">'Ponudnik mora predložiti ponudbe za vse sklope' (BT-763) drži ali pa je v obvestilu več kot en sklop</entry>
 <entry key="expression|name|16">'Številka v merilu za oddajo' (BT-541-Lot) ni prazno</entry>
 <entry key="expression|name|160">Ni delitve na več sklopov</entry>
 <entry key="expression|name|161">'Glavna klasifikacijska oznaka' (BT-262-Lot) ni izpolnjeno</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'Kupec je naročnik' (BT-740) je 'Da'</entry>
 <entry key="expression|name|20">'Država' (BT-5141-Lot) ni prazno</entry>
 <entry key="expression|name|200">'Datum zaključka trajanja' (BT-537-Lot) je izpolnjeno</entry>
-<entry key="expression|name|201">'Vsako naročilo storitev se bo po natečaju oddalo enemu od zmagovalcev natečaja' ((BT-41-Lot)) ne drži</entry>
+<entry key="expression|name|201">'Vsako naročilo storitev se bo po natečaju oddalo enemu od zmagovalcev natečaja' (BT-41-Lot) ne drži</entry>
 <entry key="expression|name|202">'Informacije o rokih za revizijo' (BT-99-Lot) je izpolnjeno</entry>
 <entry key="expression|name|203">Oddan ni bil noben sklop</entry>
 <entry key="expression|name|204">'ID izbrane ponudbe' (BT-3202-Contract) ni izpolnjeno</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Vrednost najnižje dopustne ponudbe' (BT-710-LotResult) ni izpolnjeno</entry>
 <entry key="expression|name|252">'Vrednost najvišje dopustne ponudbe' (BT-711-LotResult) ni izpolnjeno</entry>
 <entry key="expression|name|253">'Število pritožnikov' (BT-712(a)-LotResult) ni izpolnjeno</entry>
-<entry key="expression|name|254">'Vrednost rezultata' (BT-720-Tender) ni izpolnjeno</entry>
+<entry key="expression|name|254">'Vrednost razpisa' (BT-720-Tender) ni izpolnjeno</entry>
 <entry key="expression|name|255">'Vrednost oddaje naročil podizvajalcem je znana' (BT-730-Tender) ni izpolnjeno</entry>
 <entry key="expression|name|256">'Delež oddaje naročil podizvajalcem je znan' (BT-731-Tender) ni izpolnjeno</entry>
 <entry key="expression|name|257">'Utemeljitev, zakaj ponderiranje merila za oddajo ni navedeno' (BT-733-Lot) ni izpolnjeno</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Polje, ki naj se objavi pozneje' (BT-195(BT-773)-Tender) ni izpolnjeno</entry>
 <entry key="expression|name|315">'Polje, ki naj se objavi pozneje' (BT-195(BT-88)-Procedure) ni izpolnjeno</entry>
 <entry key="expression|name|316">Obstaja več kot en sklop</entry>
-<entry key="expression|name|317">'Gre za ponovljeno javno naročilo' ((BT-94-Lot)) ni 'da'</entry>
+<entry key="expression|name|317">'Gre za ponovljeno javno naročilo' (BT-94-Lot) ni 'da'</entry>
 <entry key="expression|name|318">'Vrsta postopka' (BT-105-Procedure) je 'Odprti postopek'</entry>
 <entry key="expression|name|319">'Organizacija ali določena kontaktna točka' (OPT-301-Lot-ReviewInfo) ni izpolnjeno</entry>
 <entry key="expression|name|32">'Številka pogojev za vabilo k sodelovanju na drugi stopnji' (BT-752-Lot) ni prazno</entry>
-<entry key="expression|name|320">'Uporablja se elektronska dražba' ((BT-767-Lot)) ni 'da'</entry>
+<entry key="expression|name|320">'Uporablja se elektronska dražba' (BT-767-Lot) ni 'da'</entry>
 <entry key="expression|name|321">'Vrsta postopka' (BT-105) ni 'Omejeni postopek'</entry>
 <entry key="expression|name|322">'Tip vozila' (OPT-155-LotResult) ni izpolnjeno</entry>
 <entry key="expression|name|323">'Status izbire ponudnika' (BT-142-LotResult) je 'Zmagovalec še ni izbran, toda javni razpis še poteka.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">Organizacija ni 'Kupec'</entry>
 <entry key="expression|name|346">Organizacija je kupec in dinamični nabavni sistem lahko uporabljajo tudi kupci, ki niso navedeni v tem obvestilu, in pravna podlaga je drugačna od 'Drugo' in 'Osrednji nabavni organ, ki nabavlja blago in/ali storitve za druge kupce' (OPP-052) ni izpolnjeno</entry>
 <entry key="expression|name|347">Organizacija je kupec in dinamični nabavni sistem lahko uporabljajo tudi kupci, ki niso navedeni v tem obvestilu, in pravna podlaga je drugačna od 'Drugo' in 'Osrednji nabavni organ, ki nabavlja blago in/ali storitve za druge kupce' (OPP-052) ni izpolnjeno</entry>
-<entry key="expression|name|348">'Postopek se bo odvijal v zaporednih stopnjah. Na vsaki stopnji se lahko izločijo nekateri sodelujoči' ((BT-52-Lot)) ni 'da'; 'Vrsta postopka' (BT-105) ni eno od naslednjega: 'Konkurenčni dialog'; 'Partnerstvo za inovacije'; 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'; 'Drugi večstopenjski postopek'; 'Omejeni postopek'</entry>
+<entry key="expression|name|348">'Postopek se bo odvijal v zaporednih stopnjah. Na vsaki stopnji se lahko izločijo nekateri sodelujoči' (BT-52-Lot) ni 'da'; 'Vrsta postopka' (BT-105) ni eno od naslednjega: 'Konkurenčni dialog'; 'Partnerstvo za inovacije'; 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'; 'Drugi večstopenjski postopek'; 'Omejeni postopek'</entry>
 <entry key="expression|name|349">To je okvirno naročilo</entry>
 <entry key="expression|name|35">'Vrsta postopka' (BT-105) ni eno od naslednjega: 'Konkurenčni dialog'; 'Partnerstvo za inovacije'; 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'</entry>
 <entry key="expression|name|350">Organizacija ni član ponudnika; 'Organizacija je fizična oseba' (BT-633-Organization); 'Zmagovalec kotira na reguliranem trgu' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Zahteva se sporazum o nerazkrivanju podatkov' (BT-801) je 'ne'</entry>
 <entry key="expression|name|512">'Identifikator sredstev EU' (BT-5011) in 'Ime projekta ali programa, ki ga financira EU' (BT-722) nista izpolnjeni</entry>
 <entry key="expression|name|513">'Identifikator sredstev EU' (BT-5010) in 'Program sredstev EU' (BT-7220) nista izpolnjeni</entry>
-<entry key="expression|name|514">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' ((BT-717)) ni 'da'</entry>
-<entry key="expression|name|515">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' ((BT-717)) ni 'da' za ta sklop oziroma sklop ni bil oddan</entry>
+<entry key="expression|name|514">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' (BT-717) ni 'da'</entry>
+<entry key="expression|name|515">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' (BT-717) ni 'da' za ta sklop oziroma sklop ni bil oddan</entry>
 <entry key="expression|name|516">'Pravna podlaga DČV za določitev, katera kategorija postopka oddaje javnega naročila se uporablja' (BT-735-LotResult) ni izpolnjeno</entry>
 <entry key="expression|name|517">'Kategorija vozila, ki spada na področje uporabe Direktive 2009/33/ES, vključno z: lahkimi vozili (M1, M2, N1); avtobusi (M3); tovornjaki (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) ni izpolnjeno</entry>
-<entry key="expression|name|518">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' ((BT-717)) ni 'da' za ta sklop</entry>
+<entry key="expression|name|518">'Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)' (BT-717) ni 'da' za ta sklop</entry>
 <entry key="expression|name|52">'Skupina ponudnikov, ki se ji odda naročilo, mora imeti določeno pravno obliko' (BT-761-Lot) ni 'da'</entry>
 <entry key="expression|name|520">'Številka je vrsta ponderja' (BT-5421) ni 'Vrstni red glede na pomembnost'</entry>
 <entry key="expression|name|523">'Druge omejitve glede kraja izvedbe' (BT-727), 'Podregija države (NUTS)' BT-5071 in 'Mesto' (BT-5131) ni izpolnjeno</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Vrednost oddaje naročil podizvajalcem je znana' (BT-730-Tender) ni 'da'</entry>
 <entry key="expression|name|69">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>
 <entry key="expression|name|7">'Država' (BT-5141-Part) je izpolnjeno</entry>
-<entry key="expression|name|70">'Delež oddaje naročil podizvajalcem je znan' ((BT-731-Tender)) ni 'da'</entry>
+<entry key="expression|name|70">'Delež oddaje naročil podizvajalcem je znan' (BT-731-Tender) ni 'da'</entry>
 <entry key="expression|name|71">'Oddaja naročil podizvajalcem' (BT-773-Tender) je 'Da'</entry>
 <entry key="expression|name|72">Zmagovalec ni bil izbran oziroma 'Gre za okvirni sporazum' (BT-765-Lot) ne ustreza okvirnemu sporazumu postopka</entry>
 <entry key="expression|name|74">'Različica prejšnjega obvestila, ki se spreminja' (BT-758-notice) ni izpolnjeno</entry>

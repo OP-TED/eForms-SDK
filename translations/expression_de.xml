@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422) ist ausgefüllt oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt</entry>
 <entry key="expression|name|157">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422) ist ausgefüllt oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt</entry>
 <entry key="expression|name|158">'Der Bieter muss Angebote für alle Lose einreichen' ((BT-763)) ist wahr</entry>
-<entry key="expression|name|159">'Der Bieter muss Angebote für alle Lose einreichen' ((BT-763)) ist wahr oder es gibt mehr als ein Los in der Bekanntmachung</entry>
+<entry key="expression|name|159">'Der Bieter muss Angebote für alle Lose einreichen' (BT-763) ist wahr oder es gibt mehr als ein Los in der Bekanntmachung</entry>
 <entry key="expression|name|16">'Zuschlagskriterium — Zahl' (BT-541-Lot) ist nicht leer</entry>
 <entry key="expression|name|160">Es gibt keine mehreren Lose</entry>
 <entry key="expression|name|161">'Haupteinstufung' (BT-262-Lot) ist nicht ausgefüllt</entry>
@@ -112,7 +112,7 @@
 <entry key="expression|name|2">'Der Erwerber ist ein Auftraggeber' (BT-740) ist 'Ja'</entry>
 <entry key="expression|name|20">'Land' (BT-5141-Lot) ist nicht leer</entry>
 <entry key="expression|name|200">'Enddatum der Laufzeit' (BT-537-Lot) ist ausgefüllt</entry>
-<entry key="expression|name|201">'Jeder Dienstleistungsauftrag im Anschluss an den Wettbewerb wird an einen der Gewinner des Wettbewerbs vergeben' ((BT-41-Lot)) ist nicht wahr</entry>
+<entry key="expression|name|201">'Jeder Dienstleistungsauftrag im Anschluss an den Wettbewerb wird an einen der Gewinner des Wettbewerbs vergeben' (BT-41-Lot) ist nicht wahr</entry>
 <entry key="expression|name|202">'Informationen über die Überprüfungsfristen' (BT-99-Lot) ist ausgefüllt</entry>
 <entry key="expression|name|203">Es wurden keine Lose vergeben</entry>
 <entry key="expression|name|204">'Auftrag, Ausschreibung – Kennung' (BT-3202-Contract) ist nicht ausgefüllt</entry>
@@ -169,7 +169,7 @@
 <entry key="expression|name|251">'Wert des niedrigsten zulässigen Angebots' (BT-710-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|252">'Wert des höchsten zulässigen Angebots' (BT-711-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|253">'Anzahl der Beschwerdeführer' (BT-712(a)-LotResult) ist nicht ausgefüllt</entry>
-<entry key="expression|name|254">'Wert des Ergebnisses' (BT-720-Tender) ist nicht ausgefüllt</entry>
+<entry key="expression|name|254">'Wert der Ausschreibung' (BT-720-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|255">'Wert der Vergabe von Unteraufträgen ist bekannt' (BT-730-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|256">'Prozentanteil der Vergabe von Unteraufträgen ist bekannt' (BT-731-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|257">'Begründung, warum die Gewichtung der Zuschlagskriterien nicht angegeben wurde' (BT-733-Lot) ist nicht ausgefüllt</entry>
@@ -239,11 +239,11 @@
 <entry key="expression|name|314">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-773)-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|315">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-88)-Procedure) ist nicht ausgefüllt</entry>
 <entry key="expression|name|316">Es gibt mehr als ein Los</entry>
-<entry key="expression|name|317">'Es handelt sich um die Vergabe wiederkehrender Aufträge' ((BT-94-Lot)) ist nicht 'ja'</entry>
+<entry key="expression|name|317">'Es handelt sich um die Vergabe wiederkehrender Aufträge' (BT-94-Lot) ist nicht 'ja'</entry>
 <entry key="expression|name|318">'Verfahrensart' (BT-105-Procedure) ist 'Offenes Verfahren'</entry>
 <entry key="expression|name|319">'Organisation oder spezifischer Kontaktpunkt' (OPT-301-Lot-ReviewInfo) ist nicht ausgefüllt</entry>
 <entry key="expression|name|32">'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot) ist nicht leer</entry>
-<entry key="expression|name|320">'elektronische Auktion' ((BT-767-Lot)) ist nicht 'ja'</entry>
+<entry key="expression|name|320">'elektronische Auktion' (BT-767-Lot) ist nicht 'ja'</entry>
 <entry key="expression|name|321">'Verfahrensart' (BT-105) ist nicht 'Nichtoffenes Verfahren'</entry>
 <entry key="expression|name|322">'Fahrzeugtyp' (OPT-155-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|323">'Status der Preisträgerauswahl' (BT-142-LotResult) ist 'Ein Wettbewerbsgewinner wurde noch nicht ermittelt, der Wettbewerb ist noch nicht abgeschlossen.'</entry>
@@ -272,7 +272,7 @@
 <entry key="expression|name|345">Die Organisation ist kein 'Beschaffer'</entry>
 <entry key="expression|name|346">Die Organisation ist ein Käufer, und das dynamische Einkaufssystem kann auch durch Käufer, die nicht in dieser Bekanntmachung aufgeführt sind, verwendet werden und die Rechtsgrundlage ist anders als 'Sonstiges', und 'Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt' (OPP-052) ist nicht ausgefüllt</entry>
 <entry key="expression|name|347">Die Organisation ist ein Käufer, und das dynamische Einkaufssystem kann auch durch Käufer, die nicht in dieser Bekanntmachung aufgeführt sind, verwendet werden und die Rechtsgrundlage ist anders als 'Sonstiges', und 'Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt' (OPP-052) ist nicht ausgefüllt</entry>
-<entry key="expression|name|348">'Das Verfahren wird in mehreren aufeinanderfolgenden Phasen durchgeführt. In jeder Phase können einige Teilnehmer ausgeschlossen werden' ((BT-52-Lot)) ist nicht 'ja'; 'Verfahrensart' (BT-105) ist nicht eine der folgenden: 'Wettbewerblicher Dialog'; 'Innovationspartnerschaften'; 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'; 'Sonstiges zweistufiges Verfahren'; 'Nichtoffenes Verfahren'</entry>
+<entry key="expression|name|348">'Das Verfahren wird in mehreren aufeinanderfolgenden Phasen durchgeführt. In jeder Phase können einige Teilnehmer ausgeschlossen werden' (BT-52-Lot) ist nicht 'ja'; 'Verfahrensart' (BT-105) ist nicht eine der folgenden: 'Wettbewerblicher Dialog'; 'Innovationspartnerschaften'; 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'; 'Sonstiges zweistufiges Verfahren'; 'Nichtoffenes Verfahren'</entry>
 <entry key="expression|name|349">Es handelt sich um einen Rahmenvertrag</entry>
 <entry key="expression|name|35">'Verfahrensart' (BT-105) ist nicht eine der folgenden: 'Wettbewerblicher Dialog'; 'Innovationspartnerschaften'; 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'</entry>
 <entry key="expression|name|350">Die Organisation nimmt nicht an der Ausschreibung teil; 'Die Organisation ist eine natürliche Person.' (BT-633-Organization); 'Der Gewinner ist auf einem geregelten Markt notiert' (BT-746-Organization)</entry>
@@ -350,11 +350,11 @@
 <entry key="expression|name|511">'Es ist eine Geheimhaltungsvereinbarung erforderlich' (BT-801) ist 'nein'</entry>
 <entry key="expression|name|512">'Kennung der EU-Mittel' (BT-5011) und 'Bezeichnung des von der EU finanzierten Projekts oder Programms' (BT-722) sind nicht ausgefüllt</entry>
 <entry key="expression|name|513">'Kennung der EU-Mittel' (BT-5010) und 'EU-Mittel — Programm' (BT-7220) sind nicht ausgefüllt</entry>
-<entry key="expression|name|514">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' ((BT-717)) ist nicht 'ja'</entry>
-<entry key="expression|name|515">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' ((BT-717)) ist nicht 'ja' für dieses Los oder das Los wurde nicht vergeben</entry>
+<entry key="expression|name|514">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' (BT-717) ist nicht 'ja'</entry>
+<entry key="expression|name|515">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' (BT-717) ist nicht 'ja' für dieses Los oder das Los wurde nicht vergeben</entry>
 <entry key="expression|name|516">'Die Rechtsgrundlage für CVD, um den anzuwendenden Typ von Vergabeverfahren festzulegen' (BT-735-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|517">'Die Fahrzeugklassen im Anwendungsbereich der Definition in der Richtlinie 2009/33/EG einschließlich: Leichte Nutzfahrzeuge (M1, M2, N1); Busse (M3); LKW (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) ist nicht ausgefüllt</entry>
-<entry key="expression|name|518">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' ((BT-717)) ist nicht 'ja' für dieses Los</entry>
+<entry key="expression|name|518">'Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))' (BT-717) ist nicht 'ja' für dieses Los</entry>
 <entry key="expression|name|52">'Die Bietergemeinschaft, die den Zuschlag erhält, muss eine bestimmte Rechtsform aufweisen' (BT-761-Lot) ist nicht 'ja'</entry>
 <entry key="expression|name|520">'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421) ist nicht 'Rangfolge'</entry>
 <entry key="expression|name|523">'Sonstige Beschränkungen am Erfüllungsort' (BT-727), 'Land, Gliederung (NUTS)' BT-5071 und 'Stadt' (BT-5131) ist nicht ausgefüllt</entry>
@@ -443,7 +443,7 @@
 <entry key="expression|name|68">'Wert der Vergabe von Unteraufträgen ist bekannt' (BT-730-Tender) ist nicht 'ja'</entry>
 <entry key="expression|name|69">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht 'Ja'</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) ist ausgefüllt</entry>
-<entry key="expression|name|70">'Prozentanteil der Vergabe von Unteraufträgen ist bekannt' ((BT-731-Tender)) ist nicht 'ja'</entry>
+<entry key="expression|name|70">'Prozentanteil der Vergabe von Unteraufträgen ist bekannt' (BT-731-Tender) ist nicht 'ja'</entry>
 <entry key="expression|name|71">'Vergabe von Unteraufträgen' (BT-773-Tender) ist 'Ja'</entry>
 <entry key="expression|name|72">Kein Gewinner wurde gewählt oder 'Rahmenvereinbarung geschlossen' (BT-765-Lot) entspricht nicht der Rahmenvereinbarung des Verfahrens</entry>
 <entry key="expression|name|74">'Fassung der zu ändernden vorigen Bekanntmachung' (BT-758-notice) ist nicht ausgefüllt</entry>
