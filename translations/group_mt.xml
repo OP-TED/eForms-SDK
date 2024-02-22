@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Kontenut</entry>
 <entry key="group|name|GR-ContractingAuthority">Awtorità kontraenti</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Xerrej</entry>
+<entry key="group|name|GR-EU-Registration">Numru ta' reġistrazzjoni tal-UE</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizzazzjoni li tipprovdi informazzjoni addizzjonali</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Informazzjoni addizzjonali</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Termini tal-irkant</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Seksjoni li għandha titqiegħed</entry>
 <entry key="group|name|ND-NDA">Deskrizzjoni tal-NDA</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Ir-raġuni għaliex ma ntgħażilx rebbieħ (pubblikazzjoni aktar tard)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Valur approssimattiv tal-avviż (ippubblikat aktar tard)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Avviż valur massimu (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-NoticeResult">Riżultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Valur massimu tal-grupp tal-lottijiet</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Klassifikazzjoni għall-komodità ewlenija ta’ parti</entry>
 <entry key="group|name|ND-PartPlacePerformance">Post tal-prestazzjoni</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Referenza tal-ippjanar preċedenti</entry>
+<entry key="group|name|ND-PartProcurementDocument">Dokumenti ta' akkwist għall-parti</entry>
 <entry key="group|name|ND-PartReservedExecution">Eżekuzzjoni riservata tal-kuntratt</entry>
 <entry key="group|name|ND-PartReservedProcurement">Akkwist riżervat</entry>
 <entry key="group|name|ND-PayerParty">Organizzazzjoni paganti</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Tip ta’ sottomissjoni riċevuta(pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistika dwar is-sottomissjonijiet riċevuti</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Valur ri-stimat (ippubblikat aktar tard)</entry>
+<entry key="group|name|ND-RevenueAllocation">Perċentwali ta' allokkazzjoni tad-dħul</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistika dwar it-talbiet għal rieżami</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Għadd ta’ irregolaritajiet fit-talba għal rieżami (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Tip ta’ irregolarità tat-talba għal rieżami (pubblikazzjoni aktar tard)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Kontraent ewlieni prinċipali</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Sottokuntrattar deskrizzjoni (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Sottokuntrattazzjoni</entry>
+<entry key="group|name|ND-SubcontractingObligation">Obbligi relatati mas-subkontratt</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Il-perċentwal tas-sottokuntrattar hu magħruf (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Sottokuntrattar perċentwal (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Sottokuntrattar (pubblikazzjoni aktar tard)</entry>

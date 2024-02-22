@@ -19,7 +19,7 @@
 <entry key="group|name|GR-Content">Content</entry>
 <entry key="group|name|GR-ContractingAuthority">Contracting authority</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Buyer</entry>
-<entry key="group|name|GR-EU-Registration">Eu Registration Number</entry>
+<entry key="group|name|GR-EU-Registration">EU registration number</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation providing additional information</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Additional information</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Terms of the auction</entry>
@@ -271,7 +271,7 @@
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justification for direct award (published later)</entry>
 <entry key="group|name|ND-EuEntity">EU registration number</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
-<entry key="group|name|ND-ExecutionRequirements">Terms of performance)</entry>
+<entry key="group|name|ND-ExecutionRequirements">Terms of performance</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Contract extension</entry>
 <entry key="group|name|ND-FinancingParty">Financing organisation</entry>
 <entry key="group|name|ND-Funding">EU funds</entry>
@@ -359,7 +359,7 @@
 <entry key="group|name|ND-ModifiedSection">Section to be modified</entry>
 <entry key="group|name|ND-NDA">Description of the NDA</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">The reason why a winner was not chosen (published later)</entry>
-<entry key="group|name|ND-NoticeApproximateValueUnpublish">Not Immediately Published (NoticeApproximateValue)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Notice approximate value (published later)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Notice maximum value (published later)</entry>
 <entry key="group|name|ND-NoticeResult">Result</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximum value of group of lots</entry>
@@ -380,7 +380,7 @@
 <entry key="group|name|ND-PartMainClassification">Classification for the main commodity of a part</entry>
 <entry key="group|name|ND-PartPlacePerformance">Place of performance</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Previous planning reference</entry>
-<entry key="group|name|ND-PartProcurementDocument">Procurement Document information for a Part, independent from the restricted aspect</entry>
+<entry key="group|name|ND-PartProcurementDocument">Procurement documents for part</entry>
 <entry key="group|name|ND-PartReservedExecution">Reserved contract execution</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserved procurement</entry>
 <entry key="group|name|ND-PayerParty">Paying organisation</entry>
@@ -405,7 +405,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Received submission type (published later)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Received submissions statististics</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Re-estimated value (published later)</entry>
-<entry key="group|name|ND-RevenueAllocation">Revenue allocation in percentage</entry>
+<entry key="group|name|ND-RevenueAllocation">Revenue allocation percentage</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistics about review requests</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Review request irregularity count (published later)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Review request irregularity type (published later)</entry>
@@ -424,7 +424,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Main contractor</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Subcontracting description (published later)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Subcontracting</entry>
-<entry key="group|name|ND-SubcontractingObligation">Obligation associated to Subcontracting</entry>
+<entry key="group|name|ND-SubcontractingObligation">Obligations related to subcontracting</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Subcontracting percentage is known (published later)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Subcontracting percentage (published later)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Subcontracting (published later)</entry>

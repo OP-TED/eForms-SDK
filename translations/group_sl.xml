@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Vsebina</entry>
 <entry key="group|name|GR-ContractingAuthority">Javni naročnik</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Kupec</entry>
+<entry key="group|name|GR-EU-Registration">Registrska številka EU</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizacija, ki zagotavlja dodatne informacije</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Dodatne informacije</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Pogoji dražbe</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Odsek, ki ga je treba spremeniti</entry>
 <entry key="group|name|ND-NDA">Opis sporazuma o nerazkrivanju podatkov</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Razlog, zaradi katerega ni bil izbran noben ponudnik (objavljeno pozneje)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Približna vrednost obvestila (objavljeno kasneje)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Obvestilo o najvišji vrednosti (objavljeno pozneje)</entry>
 <entry key="group|name|ND-NoticeResult">Rezultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Najvišja vrednost skupine sklopov</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Razvrstitev za glavno blago dela</entry>
 <entry key="group|name|ND-PartPlacePerformance">Kraj izvedbe</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Sklic na predhodno načrtovanje</entry>
+<entry key="group|name|ND-PartProcurementDocument">Dokumenti za nabavo za del</entry>
 <entry key="group|name|ND-PartReservedExecution">Rezervirano izvajanje pogodbe</entry>
 <entry key="group|name|ND-PartReservedProcurement">Pridržano javno naročilo</entry>
 <entry key="group|name|ND-PayerParty">Plačilna organizacija</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Vrsta prejete vloge (objavljeno pozneje)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistika prejetih vlog (objavljeno pozneje)</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Prevrednotena vrednost (objavljena kasneje)</entry>
+<entry key="group|name|ND-RevenueAllocation">Odstotek razporeditve prihodkov</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistika o zahtevkih za revizijo</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Število nepravilnosti v zahtevku za revizijo (objavljeno pozneje)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Vrsta nepravilnosti v zahtevku za revizijo (objavljeno pozneje)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Glavni izvajale</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Opis oddaje naročil podizvajalcem (objavljeno pozneje)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Podizvajanje</entry>
+<entry key="group|name|ND-SubcontractingObligation">Obveznosti v zvezi s podizvajanjem</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Delež oddaje naročil podizvajalcem je znan (objavljeno pozneje)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Delež oddaje naročil podizvajalcem (objavljeno pozneje)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Oddaja naročil podizvajalcem (objavljeno pozneje)</entry>

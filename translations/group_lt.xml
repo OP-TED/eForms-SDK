@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Turinys</entry>
 <entry key="group|name|GR-ContractingAuthority">Perkančioji organizacija</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Pirkėjas</entry>
+<entry key="group|name|GR-EU-Registration">ES registracijos numeris</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizacija, teikianti papildomą informaciją</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Papildoma informacija</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Aukciono sąlygos</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Skyrius, kurį reikia modifikuoti</entry>
 <entry key="group|name|ND-NDA">Konfidencialumo susitarimo aprašymas</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Priežastis, dėl kurios nebuvo išrinktas laimėtojas (skelbiama vėliau)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Pranešimo apytikrė vertė (vėliau skelbiama)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Didžiausioji skelbimo vertė (skelbiama vėliau)</entry>
 <entry key="group|name|ND-NoticeResult">Rezultatai</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Didžiausioji pirkimo dalių grupės vertė</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Dalies pagrindinės prekės klasifikatoriaus kodas</entry>
 <entry key="group|name|ND-PartPlacePerformance">Sutarties vykdymo vieta</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Anksčiau planuoto pirkimo nuoroda</entry>
+<entry key="group|name|ND-PartProcurementDocument">Pirkimo dokumentai daliai</entry>
 <entry key="group|name|ND-PartReservedExecution">Rezervuota sutarties vykdymas</entry>
 <entry key="group|name|ND-PartReservedProcurement">Rezervuotasis pirkimas</entry>
 <entry key="group|name|ND-PayerParty">Mokantis organizacija</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Pateikimas: rūšys (skelbiama vėliau)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Pateikimas: statistika</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Pakartotinai įvertinta vertė (paskelbta vėliau)</entry>
+<entry key="group|name|ND-RevenueAllocation">Pajamų paskirstymo procentas</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Peržiūros prašymų statistika</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Peržiūros prašyme nurodytų pažeidimų skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Peržiūros prašyme nurodytų pažeidimų rūšis (skelbiama vėliau)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Pagrindinis rangovas</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Subranga: aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Subrangovavimas</entry>
+<entry key="group|name|ND-SubcontractingObligation">Įsipareigojimai, susiję su subrangos</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Subrangos procentinė dalis žinoma (skelbiama vėliau)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Subranga: procentinė dalis (skelbiama vėliau)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Subranga (skelbiama vėliau)</entry>

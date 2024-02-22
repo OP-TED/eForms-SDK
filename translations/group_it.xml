@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Contenuto</entry>
 <entry key="group|name|GR-ContractingAuthority">Amministrazione aggiudicatrice</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Committente</entry>
+<entry key="group|name|GR-EU-Registration">Numero di registrazione UE</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizzazione che fornisce informazioni supplementari</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Informazioni supplementari</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Condizioni d'asta</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Sezione da modificare</entry>
 <entry key="group|name|ND-NDA">Descrizione dell'accordo di non divulgazione (AND)</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Motivo per cui non è stato scelto un vincitore (pubblicato successivamente)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Valore approssimativo dell'avviso (pubblicato in seguito)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Avviso o bando: valore massimo (pubblicato successivamente)</entry>
 <entry key="group|name|ND-NoticeResult">Risultati</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Valore massimo del gruppo di lotti</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Classificazione della merce principale di una parte</entry>
 <entry key="group|name|ND-PartPlacePerformance">Luogo di esecuzione</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Riferimento della pianificazione precedente</entry>
+<entry key="group|name|ND-PartProcurementDocument">Documenti di approvvigionamento per parte</entry>
 <entry key="group|name|ND-PartReservedExecution">Esecuzione riservata del contratto</entry>
 <entry key="group|name|ND-PartReservedProcurement">Appalto riservato</entry>
 <entry key="group|name|ND-PayerParty">Organizzazione pagante</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Offerte e domande ricevute: tipo (pubblicato successivamente)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Offerte e domande ricevute: statistiche</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Valore rivalutato (pubblicato successivamente)</entry>
+<entry key="group|name|ND-RevenueAllocation">Percentuale di ripartizione del reddito</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistiche sulle richieste di ricorso</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Richieste di ricorso per irregolarità: numero (pubblicato successivamente)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Richieste di ricorso per irregolarità: tipo (pubblicato successivamente)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Appaltatore principale</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Subappalto (pubblicato successivamente)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Subappalto</entry>
+<entry key="group|name|ND-SubcontractingObligation">Obblighi relativi alla subappalto</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">La percentuale del subappalto è nota (pubblicato successivamente)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Subappalto: percentuale (pubblicato successivamente)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Subappalto (pubblicato successivamente)</entry>

@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Conținut</entry>
 <entry key="group|name|GR-ContractingAuthority">Autoritate contractantă</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Cumpărător</entry>
+<entry key="group|name|GR-EU-Registration">Număr de înregistrare UE</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizația care furnizează informații suplimentare</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Informații suplimentare</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Condițiile licitației</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Secțiunea care trebuie modificată</entry>
 <entry key="group|name|ND-NDA">Descrierea acordului de confidențialitate</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Motivul pentru care nu a fost ales un câștigător (publicare ulterioară)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Valoare aproximativă a anunțului (publicată ulterior)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Valoarea maximă a anunțului (publicare ulterioară)</entry>
 <entry key="group|name|ND-NoticeResult">Rezultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Valoarea maximă a grupului de loturi</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Clasificarea mărfii principale a unei părți</entry>
 <entry key="group|name|ND-PartPlacePerformance">Locul de efectuare</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Referința planificării anterioare</entry>
+<entry key="group|name|ND-PartProcurementDocument">Documente de achiziție pentru parte</entry>
 <entry key="group|name|ND-PartReservedExecution">Execuție rezervată a contractului</entry>
 <entry key="group|name|ND-PartReservedProcurement">Achiziție rezervată</entry>
 <entry key="group|name|ND-PayerParty">Organizație plătitoare</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Tipul de oferte primite (publicare ulterioară)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistici privind ofertele primite</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Valoare reestimată (publicată mai târziu)</entry>
+<entry key="group|name|ND-RevenueAllocation">Procent de alocare a veniturilor</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistici privind cererile de soluționare a căilor de atac</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Numărul de nereguli din cererile de soluționare a căilor de atac (publicare ulterioară)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Tipul de nereguli din cererile de soluționare a căilor de atac (publicare ulterioară)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Contractant principal</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Descrierea subcontractării (publicare ulterioară)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Subcontractare</entry>
+<entry key="group|name|ND-SubcontractingObligation">Obligații legate de subcontractare</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Procentajul subcontractării este cunoscut (publicare ulterioară)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Procentajul subcontractării (publicare ulterioară)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Subcontractare (publicare ulterioară)</entry>

@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Saturs</entry>
 <entry key="group|name|GR-ContractingAuthority">Līgumslēdzēja iestāde</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Pircējs</entry>
+<entry key="group|name|GR-EU-Registration">ES reģistrācijas numurs</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizācija, kas sniedz papildu informāciju</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Papildu informācija</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Izsoles noteikumi</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Sadaļa, kas jāmodificē</entry>
 <entry key="group|name|ND-NDA">Konfidencialitātes līguma apraksts</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Iemesls, kāpēc netika izraudzīts uzvarētājs (publicēts vēlāk)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Paziņojuma aptuvenā vērtība (publicēts vēlāk)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Paziņojuma maksimālā vērtība (publicēta vēlāk)</entry>
 <entry key="group|name|ND-NoticeResult">Rezultāts</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Daļu grupas maksimālā vērtība</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Iedaļā iekļauto galveno preču klasifikācija</entry>
 <entry key="group|name|ND-PartPlacePerformance">Izpildes vieta</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Iepriekšējās plānošanas atsauce</entry>
+<entry key="group|name|ND-PartProcurementDocument">Iepirkuma dokumenti daļai</entry>
 <entry key="group|name|ND-PartReservedExecution">Rezervēta līguma izpilde</entry>
 <entry key="group|name|ND-PartReservedProcurement">Rezervēts iepirkums</entry>
 <entry key="group|name|ND-PayerParty">Maksājoša organizācija</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Saņemto piedāvājumu un pieteikumu veids (publicēts vēlāk)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Saņemto piedāvājumu un pieteikumu statistika</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Pārskatītā vērtība (publicēta vēlāk)</entry>
+<entry key="group|name|ND-RevenueAllocation">Ieņēmumu sadalījuma procentuālā daļa</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistika par pārskatīšanas pieprasījumiem</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Pārskatīšanas pieprasījumos norādīto pārkāpumu skaits (publicēts vēlāk)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Pārskatīšanas pieprasījumos norādīto pārkāpumu raksturs (publicēts vēlāk)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Galvenais uzņēmējs</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Apakšuzņēmējiem nododamās daļas apraksts (publicēts vēlāk)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Apakšuzņēmējdarbība</entry>
+<entry key="group|name|ND-SubcontractingObligation">Saistības, kas saistītas ar apakšlīgumu</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Apakšuzņēmuma līgumu procentuālā daļa ir zināma (publicēta vēlāk)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Apakšuzņēmuma līgumu procentuālā daļa (publicēta vēlāk)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Apakšuzņēmēju piesaiste (publicēts vēlāk)</entry>
