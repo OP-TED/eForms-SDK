@@ -1859,7 +1859,7 @@
 		<assert id="BR-BT-00135-0061" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00135-0061</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/cbc:ProcessReasonCode">
-		<assert id="BR-BT-00136-0052" role="ERROR" test="normalize-space(.) = ('additional', 'artistic', 'bargain', 'below-thres', 'below-thres-sme', 'closure', 'commodity', 'contest', 'crisis', 'defse-excl', 'dir24-list', 'dir81-annexii', 'dir81-transport', 'ecom-excl', 'energy-supply', 'exclusive', 'existing', 'in-house', 'int-oper', 'int-rules', 'irregular', 'liquidator', 'non-buyer-aw', 'non-contr', 'non-p-int', 'not-wss', 'other-activity', 'other-exclusive', 'rail', 'rd', 'repetition', 'resd', 'rl-third', 'sc-right', 'serv-excl', 'spe-arrang', 'technical', 'tra-ser', 'unsuitable', 'urgency', 'water-purch')">rule|text|BR-BT-00136-0052</assert>
+		<assert id="BR-BT-00136-0052" role="ERROR" test="normalize-space(.) = ('additional', 'artistic', 'bargain', 'below-thres', 'below-thres-sme', 'char-imp', 'closure', 'commodity', 'contest', 'crisis', 'defse-excl', 'dir24-list', 'dir81-annexii', 'dir81-transport', 'ecom-excl', 'energy-supply', 'exc-circ-rail', 'exclusive', 'existing', 'in-house', 'int-oper', 'int-rules', 'irregular', 'liquidator', 'non-buyer-aw', 'non-contr', 'non-p-int', 'not-wss', 'other-activity', 'other-exclusive', 'rd', 'repetition', 'resd', 'rl-third', 'sc-right', 'serv-excl', 'sim-infra', 'spe-arrang', 'technical', 'tra-ser', 'unsuitable', 'urgency', 'water-purch')">rule|text|BR-BT-00136-0052</assert>
 		<assert id="BT-136-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-136-Procedure-List_MA</assert>
 		<assert id="BT-136-Procedure_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-136-Procedure_WS</assert>
 	</rule>
@@ -1932,7 +1932,7 @@
 		<assert id="BT-763-Procedure_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-763-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode">
-		<assert id="BR-BT-00105-0052" role="ERROR" test="normalize-space(.) = ('comp-dial', 'comp-tend', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0052</assert>
+		<assert id="BR-BT-00105-0052" role="ERROR" test="normalize-space(.) = ('comp-dial', 'comp-tend', 'exp-int-rail', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0052</assert>
 		<assert id="BT-105-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-105-Procedure-List_MA</assert>
 		<assert id="BT-105-Procedure_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-105-Procedure_WS</assert>
 	</rule>
