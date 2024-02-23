@@ -2,1465 +2,1721 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.120",
-    "createdOn" : "2024-01-09T15:01:55"
+    "version" : "1.10.277",
+    "createdOn" : "2024-02-23T10:00:27"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
+    "version" : "1.10.277",
     "parentId" : "indicator",
     "filename" : "indicator_accelerated-procedure.gc",
     "description" : "List of codes to specify whether a procedure is accelerated or not.",
     "_label" : "codelist|name|accelerated-procedure"
   }, {
     "id" : "accessibility",
+    "version" : "20230614-0",
     "filename" : "accessibility.gc",
     "description" : "This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.",
     "_label" : "codelist|name|accessibility"
   }, {
     "id" : "applicability",
+    "version" : "20230927-0",
     "filename" : "applicability.gc",
     "description" : "This table provides a list of the options pertinent to be chosen for a matter concerning the applicability of predefined fields. It is designed for but not restricted to the context of public procurement.",
     "_label" : "codelist|name|applicability"
   }, {
     "id" : "authority-activity",
+    "version" : "1.10.277",
     "parentId" : "main-activity",
     "filename" : "main-activity_authority-activity.gc",
     "description" : "List of Main Activity codes allowed for a Contracting Authority",
     "_label" : "codelist|name|authority-activity"
   }, {
     "id" : "award-criterion-type",
+    "version" : "20220928-0",
     "filename" : "award-criterion-type.gc",
     "description" : "List of award criterion codes for award decisions within public procurement procedures.",
     "_label" : "codelist|name|award-criterion-type"
   }, {
     "id" : "bri",
+    "version" : "1.10.277",
     "parentId" : "notice-type",
     "filename" : "notice-type_bri.gc",
     "description" : "List of allowed Notice Type codes for a Business Register Information document",
     "_label" : "codelist|name|bri"
   }, {
     "id" : "brin-ecs",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_brin-ecs.gc",
     "description" : "List of allowed Notice Subtype codes for a notice concerning a European Company or a European Cooperative Society registration processing.",
     "_label" : "codelist|name|brin-ecs"
   }, {
     "id" : "brin-eeig",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_brin-eeig.gc",
     "description" : "List of allowed Notice Subtype codes for a notice concerning a European Economic Interest Grouping registration processing.",
     "_label" : "codelist|name|brin-eeig"
   }, {
     "id" : "buyer-categories",
+    "version" : "1.0",
     "filename" : "buyer-categories.gc",
     "description" : "List of codes used to characterize the buyers for the subsequent contracts of a given Framework Agreement. ",
     "_label" : "codelist|name|buyer-categories"
   }, {
     "id" : "buyer-contracting-type",
+    "version" : "1.0",
     "filename" : "buyer-contracting-type.gc",
     "description" : "List of codes to specify whether a Buyer is a Contracting Entity or not.",
     "_label" : "codelist|name|buyer-contracting-type"
   }, {
     "id" : "buyer-legal-type",
+    "version" : "20230927-0",
     "filename" : "buyer-legal-type.gc",
     "description" : "This table provides a list of the the type of procuring authorities within the domain of public procurement according to legislation.",
     "_label" : "codelist|name|buyer-legal-type"
   }, {
     "id" : "can-desg",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_can-desg.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of CAN Design Notice Type.",
     "_label" : "codelist|name|can-desg"
   }, {
     "id" : "can-modif",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_can-modif.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of Contract Modification Notice Type .",
     "_label" : "codelist|name|can-modif"
   }, {
     "id" : "can-social",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_can-social.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of CAN Social Notice Type .",
     "_label" : "codelist|name|can-social"
   }, {
     "id" : "can-standard",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_can-standard.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of CAN Standard Notice Type .",
     "_label" : "codelist|name|can-standard"
   }, {
     "id" : "can-tran",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_can-tran.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of CAN Public Transport Service Notice Type .",
     "_label" : "codelist|name|can-tran"
   }, {
     "id" : "change-corrig-justification",
+    "version" : "20230614-0",
     "filename" : "change-corrig-justification.gc",
     "description" : "This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.",
     "_label" : "codelist|name|change-corrig-justification"
   }, {
     "id" : "classification-type",
+    "version" : "1.0",
     "filename" : "classification-type.gc",
     "description" : "List of commodity classifications",
     "_label" : "codelist|name|classification-type"
   }, {
     "id" : "cn-desg",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_cn-desg.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of CN Design Notice Type.",
     "_label" : "codelist|name|cn-desg"
   }, {
     "id" : "cn-social",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_cn-social.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of CN Social Notice Type.",
     "_label" : "codelist|name|cn-social"
   }, {
     "id" : "cn-standard",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_cn-standard.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of CN Standard Design Notice Type.",
     "_label" : "codelist|name|cn-standard"
   }, {
     "id" : "communication-justification",
+    "version" : "20230614-0",
     "filename" : "communication-justification.gc",
     "description" : "This table provides the justification for restricting access rights to resources within the context of public procurement.",
     "_label" : "codelist|name|communication-justification"
   }, {
     "id" : "competition",
+    "version" : "1.10.277",
     "parentId" : "notice-type",
     "filename" : "notice-type_competition.gc",
     "description" : "List of allowed Notice Type codes for a notice of Competition Form Type",
     "_label" : "codelist|name|competition"
   }, {
     "id" : "conditions",
+    "version" : "1.0",
     "filename" : "conditions.gc",
     "description" : "Codes for conditions",
     "_label" : "codelist|name|conditions"
   }, {
     "id" : "cont-modif",
+    "version" : "1.10.277",
     "parentId" : "notice-type",
     "filename" : "notice-type_cont-modif.gc",
     "description" : "List of allowed Notice Type codes for a notice of Contract Modification Form Type",
     "_label" : "codelist|name|cont-modif"
   }, {
     "id" : "contract-detail",
+    "version" : "20230927-0",
     "filename" : "contract-detail.gc",
     "description" : "This table provides a framework to represent data relating to procurement.",
     "_label" : "codelist|name|contract-detail"
   }, {
     "id" : "contract-nature",
+    "version" : "20220928-0",
     "filename" : "contract-nature.gc",
     "description" : "List of codes used to specify the main and additional natures of a purchase",
     "_label" : "codelist|name|contract-nature"
   }, {
     "id" : "contract-term",
+    "version" : "1.10.277",
     "parentId" : "contract-detail",
     "filename" : "contract-detail_contract-term.gc",
     "description" : "TODO",
     "_label" : "codelist|name|contract-term"
   }, {
     "id" : "corporate-body",
+    "version" : "20240111-0",
     "filename" : "corporate-body.gc",
     "description" : "The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.",
     "_label" : "codelist|name|corporate-body"
   }, {
     "id" : "country",
+    "version" : "20230915-0",
     "filename" : "country.gc",
     "description" : "List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.",
     "_label" : "codelist|name|country"
   }, {
     "id" : "cpv",
+    "version" : "2008",
     "filename" : "cpv.gc",
     "description" : "List of codes for an improved description, based on the Common Procurement Vocabulary (CPV), of what is actually being purchased.",
     "_label" : "codelist|name|cpv"
   }, {
     "id" : "criterion",
+    "version" : "20230927-0",
     "filename" : "criterion.gc",
     "description" : "This table provides criteria used for public procurement procedures.",
     "_label" : "codelist|name|criterion"
   }, {
     "id" : "currency",
+    "version" : "20230927-0",
     "filename" : "currency.gc",
     "description" : "List of currency codes",
     "_label" : "codelist|name|currency"
   }, {
     "id" : "customer-service",
+    "version" : "1.0",
     "filename" : "customer-service.gc",
     "description" : "This table provides a list of customer services.",
     "_label" : "codelist|name|customer-service"
   }, {
     "id" : "cvd-contract-type",
+    "version" : "20221214-0",
     "filename" : "cvd-contract-type.gc",
     "description" : "The type of contract of the procurement procedure within the scope of Clean Vehicles Directive 2009/33/EC.",
     "_label" : "codelist|name|cvd-contract-type"
   }, {
     "id" : "cvd-scope",
+    "version" : "1.10.277",
     "parentId" : "indicator",
     "filename" : "indicator_cvd-scope.gc",
     "description" : "List of codes to specify whether the procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD).",
     "_label" : "codelist|name|cvd-scope"
   }, {
     "id" : "dir-awa-pre",
+    "version" : "1.10.277",
     "parentId" : "notice-type",
     "filename" : "notice-type_dir-awa-pre.gc",
     "description" : "List of allowed Notice Type codes for a Direct Award Preannouncement Form Type",
     "_label" : "codelist|name|dir-awa-pre"
   }, {
     "id" : "direct-award-justification",
+    "version" : "20220928-0",
     "filename" : "direct-award-justification.gc",
     "description" : "This table provides the list of reasons for using a procedure which allows awarding contracts directly without the requirement of publishing a call for competition in the Official Journal of the European Union.",
     "_label" : "codelist|name|direct-award-justification"
   }, {
     "id" : "document-distribution",
+    "version" : "1.0",
     "filename" : "document-distribution.gc",
     "description" : "List of codes to specify whether the document distribution is restricted or not.",
     "_label" : "codelist|name|document-distribution"
   }, {
     "id" : "document-status",
+    "version" : "1.0",
     "filename" : "document-status.gc",
     "description" : "List of codes to specify whether a document has or not a legal status.",
     "_label" : "codelist|name|document-status"
   }, {
     "id" : "dps-usage",
+    "version" : "20230614-0",
     "filename" : "dps-usage.gc",
     "description" : "This table provides a list whether a dynamic purchasing system is involved in a procurement and, in case of central purchasing bodies, whether it can be used by buyers not listed in the notice of the Official Journal of the European Union.",
     "_label" : "codelist|name|dps-usage"
   }, {
     "id" : "duration",
+    "version" : "1.10.277",
     "parentId" : "timeperiod",
     "filename" : "timeperiod_duration.gc",
     "description" : "List of codes for undefined duration",
     "_label" : "codelist|name|duration"
   }, {
     "id" : "duration-unit",
+    "version" : "1.10.277",
     "parentId" : "timeperiod",
     "filename" : "timeperiod_duration-unit.gc",
     "description" : "List of codes for eforms allowed duration unit of measure",
     "_label" : "codelist|name|duration-unit"
   }, {
     "id" : "ecatalog-submission",
+    "version" : "1.10.277",
     "parentId" : "permission",
     "filename" : "permission_ecatalog-submission.gc",
     "description" : "List of codes to specify whether the submission of electronic catalogues is allowed or not.",
     "_label" : "codelist|name|ecatalog-submission"
   }, {
     "id" : "economic-operator-size",
+    "version" : "20220316-0",
     "filename" : "economic-operator-size.gc",
     "description" : "This table provides the different categories in which the tenderers to whom a contract can be awarded are classified, according to their size (using as criteria the number of employees).",
     "_label" : "codelist|name|economic-operator-size"
   }, {
     "id" : "eea-country",
+    "version" : "1.10.277",
     "parentId" : "country",
     "filename" : "country_eea-country.gc",
     "description" : "List of codes of the European Economic Area countries",
     "_label" : "codelist|name|eea-country"
   }, {
     "id" : "eforms-buyer-legal-type",
+    "version" : "1.10.277",
     "parentId" : "buyer-legal-type",
     "filename" : "buyer-legal-type_eforms-buyer-legal-type.gc",
     "description" : "List of buyer-legal-type codes allowed in eforms",
     "_label" : "codelist|name|eforms-buyer-legal-type"
   }, {
     "id" : "eforms-contract-nature",
+    "version" : "1.10.277",
     "parentId" : "contract-nature",
     "filename" : "contract-nature_eforms-contract-nature.gc",
     "description" : "List of eforms allowed codes to specify the main and additional natures of a purchase",
     "_label" : "codelist|name|eforms-contract-nature"
   }, {
     "id" : "eforms-currency",
+    "version" : "1.10.277",
     "parentId" : "currency",
     "filename" : "currency_eforms-currency.gc",
     "description" : "List of currency codes allowed in eforms",
     "_label" : "codelist|name|eforms-currency"
   }, {
     "id" : "eforms-language",
+    "version" : "1.10.277",
     "parentId" : "language",
     "filename" : "language_eforms-language.gc",
     "description" : "List of language codes allowed in eforms",
     "_label" : "codelist|name|eforms-language"
   }, {
     "id" : "eforms-legal-basis",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_eforms-legal-basis.gc",
     "description" : "List of Legal Basis codes allowed in eForms",
     "_label" : "codelist|name|eforms-legal-basis"
   }, {
     "id" : "einvoicing",
+    "version" : "1.10.277",
     "parentId" : "permission",
     "filename" : "permission_einvoicing.gc",
     "description" : "List of codes to specify whether the use of electronic invoicing is allowed or not.",
     "_label" : "codelist|name|einvoicing"
   }, {
     "id" : "entity-activity",
+    "version" : "1.10.277",
     "parentId" : "main-activity",
     "filename" : "main-activity_entity-activity.gc",
     "description" : "List of Main Activity codes allowed for a Contracting Entity",
     "_label" : "codelist|name|entity-activity"
   }, {
     "id" : "environmental-impact",
+    "version" : "20230614-0",
     "filename" : "environmental-impact.gc",
     "description" : "This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor",
     "_label" : "codelist|name|environmental-impact"
   }, {
     "id" : "esignature-submission",
+    "version" : "1.10.277",
     "parentId" : "indicator",
     "filename" : "indicator_esignature-submission.gc",
     "description" : "List of codes to dpecify whether electronic signature may be used or not.",
     "_label" : "codelist|name|esignature-submission"
   }, {
     "id" : "esubmission",
+    "version" : "1.10.277",
     "parentId" : "permission",
     "filename" : "permission_esubmission.gc",
     "description" : "List of codes to specify whether the electronic submission is allowed or not.",
     "_label" : "codelist|name|esubmission"
   }, {
     "id" : "eu-country",
+    "version" : "1.10.277",
     "parentId" : "country",
     "filename" : "country_eu-country.gc",
     "description" : "List of codes of the EU countries",
     "_label" : "codelist|name|eu-country"
   }, {
     "id" : "eu-funded",
+    "version" : "1.0",
     "filename" : "eu-funded.gc",
     "description" : "List of codes to specify whether a procurement would be financed using EU funds.",
     "_label" : "codelist|name|eu-funded"
   }, {
     "id" : "eu-official-language",
+    "version" : "1.10.277",
     "parentId" : "language",
     "filename" : "language_eu-official-language.gc",
     "description" : "List of codes of the EU official languages",
     "_label" : "codelist|name|eu-official-language"
   }, {
     "id" : "eu-programme",
+    "version" : "20231213-0",
     "filename" : "eu-programme.gc",
     "description" : "List of codes for programmes created and coordinated by the European Union and financially supported by the European Union or, in a few cases, by the contributions from the Member States.",
     "_label" : "codelist|name|eu-programme"
   }, {
     "id" : "exclusion-ground",
+    "version" : "1.10.277",
     "parentId" : "criterion",
     "filename" : "criterion_exclusion-ground.gc",
     "description" : "List of codes for Exclusion Ground identification",
     "_label" : "codelist|name|exclusion-ground"
   }, {
     "id" : "form-type",
+    "version" : "20230614-0",
     "filename" : "form-type.gc",
     "description" : "This table provides the codes and values used for the type of forms published on TED.",
     "_label" : "codelist|name|form-type"
   }, {
     "id" : "framework-agreement",
+    "version" : "20230614-0",
     "filename" : "framework-agreement.gc",
     "description" : "This table provides the list of codes to distinguish the different type framework agreement involved in a tender.",
     "_label" : "codelist|name|framework-agreement"
   }, {
     "id" : "gpp-criteria",
+    "version" : "1.0",
     "filename" : "gpp-criteria.gc",
     "description" : "Green Public Procurement Criteria",
     "_label" : "codelist|name|gpp-criteria"
   }, {
     "id" : "indicator",
+    "version" : "1.0",
     "filename" : "indicator.gc",
     "description" : "List of eforms allowed indicator values",
     "_label" : "codelist|name|indicator"
   }, {
     "id" : "innovative-acquisition",
+    "version" : "20230614-0",
     "filename" : "innovative-acquisition.gc",
     "description" : "This table provides the codes and values used for the type of innovative works, supplies or services being procured within the context of public procurement.",
     "_label" : "codelist|name|innovative-acquisition"
   }, {
     "id" : "irregularity-type",
+    "version" : "20230927-0",
     "filename" : "irregularity-type.gc",
     "description" : "This code list refers generally to the types of irregularities described in Section 2 of the Annex to the Commission Decision C(2019) 3452.",
     "_label" : "codelist|name|irregularity-type"
   }, {
     "id" : "language",
+    "version" : "20231213-0",
     "filename" : "language.gc",
     "description" : "List of three characters language codes correlated with the ISO 639 international standard with additional codes for some languages without assigned ISO code.",
     "_label" : "codelist|name|language"
   }, {
     "id" : "lawful-country",
+    "version" : "1.10.277",
     "parentId" : "country",
     "filename" : "country_lawful-country.gc",
     "description" : "List of countries for which there is a legal basis for publication in the Supplement to the Official Journal of the European Union",
     "_label" : "codelist|name|lawful-country"
   }, {
     "id" : "legal-basis",
+    "version" : "20221214-0",
     "filename" : "legal-basis.gc",
     "description" : "This table provides the legal basis based on the legal acts used for a given public procurement procedure. The table is provided by the Publications Office.",
     "_label" : "codelist|name|legal-basis"
   }, {
     "id" : "legal-basis-1",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-1.gc",
     "description" : "Allowed Legal Basis values for notice subtype 1",
     "_label" : "codelist|name|legal-basis-1"
   }, {
     "id" : "legal-basis-10",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-10.gc",
     "description" : "Allowed Legal Basis values for notice subtype 10",
     "_label" : "codelist|name|legal-basis-10"
   }, {
     "id" : "legal-basis-11",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-11.gc",
     "description" : "Allowed Legal Basis values for notice subtype 11",
     "_label" : "codelist|name|legal-basis-11"
   }, {
     "id" : "legal-basis-12",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-12.gc",
     "description" : "Allowed Legal Basis values for notice subtype 12",
     "_label" : "codelist|name|legal-basis-12"
   }, {
     "id" : "legal-basis-13",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-13.gc",
     "description" : "Allowed Legal Basis values for notice subtype 13",
     "_label" : "codelist|name|legal-basis-13"
   }, {
     "id" : "legal-basis-14",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-14.gc",
     "description" : "Allowed Legal Basis values for notice subtype 14",
     "_label" : "codelist|name|legal-basis-14"
   }, {
     "id" : "legal-basis-15",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-15.gc",
     "description" : "Allowed Legal Basis values for notice subtype 15",
     "_label" : "codelist|name|legal-basis-15"
   }, {
     "id" : "legal-basis-16",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-16.gc",
     "description" : "Allowed Legal Basis values for notice subtype 16",
     "_label" : "codelist|name|legal-basis-16"
   }, {
     "id" : "legal-basis-17",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-17.gc",
     "description" : "Allowed Legal Basis values for notice subtype 17",
     "_label" : "codelist|name|legal-basis-17"
   }, {
     "id" : "legal-basis-18",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-18.gc",
     "description" : "Allowed Legal Basis values for notice subtype 18",
     "_label" : "codelist|name|legal-basis-18"
   }, {
     "id" : "legal-basis-19",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-19.gc",
     "description" : "Allowed Legal Basis values for notice subtype 19",
     "_label" : "codelist|name|legal-basis-19"
   }, {
     "id" : "legal-basis-2",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-2.gc",
     "description" : "Allowed Legal Basis values for notice subtype 2",
     "_label" : "codelist|name|legal-basis-2"
   }, {
     "id" : "legal-basis-20",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-20.gc",
     "description" : "Allowed Legal Basis values for notice subtype 20",
     "_label" : "codelist|name|legal-basis-20"
   }, {
     "id" : "legal-basis-21",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-21.gc",
     "description" : "Allowed Legal Basis values for notice subtype 21",
     "_label" : "codelist|name|legal-basis-21"
   }, {
     "id" : "legal-basis-22",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-22.gc",
     "description" : "Allowed Legal Basis values for notice subtype 22",
     "_label" : "codelist|name|legal-basis-22"
   }, {
     "id" : "legal-basis-23",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-23.gc",
     "description" : "Allowed Legal Basis values for notice subtype 23",
     "_label" : "codelist|name|legal-basis-23"
   }, {
     "id" : "legal-basis-24",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-24.gc",
     "description" : "Allowed Legal Basis values for notice subtype 24",
     "_label" : "codelist|name|legal-basis-24"
   }, {
     "id" : "legal-basis-25",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-25.gc",
     "description" : "Allowed Legal Basis values for notice subtype 25",
     "_label" : "codelist|name|legal-basis-25"
   }, {
     "id" : "legal-basis-26",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-26.gc",
     "description" : "Allowed Legal Basis values for notice subtype 26",
     "_label" : "codelist|name|legal-basis-26"
   }, {
     "id" : "legal-basis-27",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-27.gc",
     "description" : "Allowed Legal Basis values for notice subtype 27",
     "_label" : "codelist|name|legal-basis-27"
   }, {
     "id" : "legal-basis-28",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-28.gc",
     "description" : "Allowed Legal Basis values for notice subtype 28",
     "_label" : "codelist|name|legal-basis-28"
   }, {
     "id" : "legal-basis-29",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-29.gc",
     "description" : "Allowed Legal Basis values for notice subtype 29",
     "_label" : "codelist|name|legal-basis-29"
   }, {
     "id" : "legal-basis-3",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-3.gc",
     "description" : "Allowed Legal Basis values for notice subtype 3",
     "_label" : "codelist|name|legal-basis-3"
   }, {
     "id" : "legal-basis-30",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-30.gc",
     "description" : "Allowed Legal Basis values for notice subtype 30",
     "_label" : "codelist|name|legal-basis-30"
   }, {
     "id" : "legal-basis-31",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-31.gc",
     "description" : "Allowed Legal Basis values for notice subtype 31",
     "_label" : "codelist|name|legal-basis-31"
   }, {
     "id" : "legal-basis-32",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-32.gc",
     "description" : "Allowed Legal Basis values for notice subtype 32",
     "_label" : "codelist|name|legal-basis-32"
   }, {
     "id" : "legal-basis-33",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-33.gc",
     "description" : "Allowed Legal Basis values for notice subtype 33",
     "_label" : "codelist|name|legal-basis-33"
   }, {
     "id" : "legal-basis-34",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-34.gc",
     "description" : "Allowed Legal Basis values for notice subtype 34",
     "_label" : "codelist|name|legal-basis-34"
   }, {
     "id" : "legal-basis-35",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-35.gc",
     "description" : "Allowed Legal Basis values for notice subtype 35",
     "_label" : "codelist|name|legal-basis-35"
   }, {
     "id" : "legal-basis-36",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-36.gc",
     "description" : "Allowed Legal Basis values for notice subtype 36",
     "_label" : "codelist|name|legal-basis-36"
   }, {
     "id" : "legal-basis-37",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-37.gc",
     "description" : "Allowed Legal Basis values for notice subtype 37",
     "_label" : "codelist|name|legal-basis-37"
   }, {
     "id" : "legal-basis-38",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-38.gc",
     "description" : "Allowed Legal Basis values for notice subtype 38",
     "_label" : "codelist|name|legal-basis-38"
   }, {
     "id" : "legal-basis-39",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-39.gc",
     "description" : "Allowed Legal Basis values for notice subtype 39",
     "_label" : "codelist|name|legal-basis-39"
   }, {
     "id" : "legal-basis-4",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-4.gc",
     "description" : "Allowed Legal Basis values for notice subtype 4",
     "_label" : "codelist|name|legal-basis-4"
   }, {
     "id" : "legal-basis-40",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-40.gc",
     "description" : "Allowed Legal Basis values for notice subtype 40",
     "_label" : "codelist|name|legal-basis-40"
   }, {
     "id" : "legal-basis-5",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-5.gc",
     "description" : "Allowed Legal Basis values for notice subtype 5",
     "_label" : "codelist|name|legal-basis-5"
   }, {
     "id" : "legal-basis-6",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-6.gc",
     "description" : "Allowed Legal Basis values for notice subtype 6",
     "_label" : "codelist|name|legal-basis-6"
   }, {
     "id" : "legal-basis-7",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-7.gc",
     "description" : "Allowed Legal Basis values for notice subtype 7",
     "_label" : "codelist|name|legal-basis-7"
   }, {
     "id" : "legal-basis-8",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-8.gc",
     "description" : "Allowed Legal Basis values for notice subtype 8",
     "_label" : "codelist|name|legal-basis-8"
   }, {
     "id" : "legal-basis-9",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-9.gc",
     "description" : "Allowed Legal Basis values for notice subtype 9",
     "_label" : "codelist|name|legal-basis-9"
   }, {
     "id" : "legal-basis-cei",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-cei.gc",
     "description" : "Allowed Legal Basis values for notice subtype CEI",
     "_label" : "codelist|name|legal-basis-cei"
   }, {
     "id" : "legal-basis-e1",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-e1.gc",
     "description" : "Allowed Legal Basis values for notice subtype E1",
     "_label" : "codelist|name|legal-basis-e1"
   }, {
     "id" : "legal-basis-e2",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-e2.gc",
     "description" : "Allowed Legal Basis values for notice subtype E2",
     "_label" : "codelist|name|legal-basis-e2"
   }, {
     "id" : "legal-basis-e3",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-e3.gc",
     "description" : "Allowed Legal Basis values for notice subtype E3",
     "_label" : "codelist|name|legal-basis-e3"
   }, {
     "id" : "legal-basis-e4",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-e4.gc",
     "description" : "Allowed Legal Basis values for notice subtype E4",
     "_label" : "codelist|name|legal-basis-e4"
   }, {
     "id" : "legal-basis-e5",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-e5.gc",
     "description" : "Allowed Legal Basis values for notice subtype E5",
     "_label" : "codelist|name|legal-basis-e5"
   }, {
     "id" : "legal-basis-t01",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-t01.gc",
     "description" : "Allowed Legal Basis values for notice subtype T01",
     "_label" : "codelist|name|legal-basis-t01"
   }, {
     "id" : "legal-basis-t02",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-t02.gc",
     "description" : "Allowed Legal Basis values for notice subtype T02",
     "_label" : "codelist|name|legal-basis-t02"
   }, {
     "id" : "legal-basis-x01",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-x01.gc",
     "description" : "Allowed Legal Basis values for notice subtype X01",
     "_label" : "codelist|name|legal-basis-x01"
   }, {
     "id" : "legal-basis-x02",
+    "version" : "1.10.277",
     "parentId" : "legal-basis",
     "filename" : "legal-basis_legal-basis-x02.gc",
     "description" : "Allowed Legal Basis values for notice subtype X02",
     "_label" : "codelist|name|legal-basis-x02"
   }, {
     "id" : "linguistic-status",
+    "version" : "1.10.277",
     "parentId" : "document-status",
     "filename" : "document-status_linguistic-status.gc",
     "description" : "List of codes to specify whether a linguistic version has or not a legal status.",
     "_label" : "codelist|name|linguistic-status"
   }, {
     "id" : "main-activity",
+    "version" : "20230927-0",
     "filename" : "main-activity.gc",
     "description" : "List of codes for the main activities of the buyers.",
     "_label" : "codelist|name|main-activity"
   }, {
     "id" : "measurement-unit",
+    "version" : "20231213-0",
     "filename" : "measurement-unit.gc",
     "description" : "List of codes for the most commonly used Unit of Measures in international trades.",
     "_label" : "codelist|name|measurement-unit"
   }, {
     "id" : "missing-info-submission",
+    "version" : "20230614-0",
     "filename" : "missing-info-submission.gc",
     "description" : "This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.",
     "_label" : "codelist|name|missing-info-submission"
   }, {
     "id" : "modification-justification",
+    "version" : "20230614-0",
     "filename" : "modification-justification.gc",
     "description" : "This table provides the main reasons for modifying a contract within the domain of public procurement.",
     "_label" : "codelist|name|modification-justification"
   }, {
     "id" : "nda",
+    "version" : "1.10.277",
     "parentId" : "indicator",
     "filename" : "indicator_nda.gc",
     "description" : "List of codes to specify whether a non-disclosure agreement is required.",
     "_label" : "codelist|name|nda"
   }, {
     "id" : "no-esubmission-justification",
+    "version" : "1.10.277",
     "parentId" : "communication-justification",
     "filename" : "communication-justification_no-esubmission-justification.gc",
     "description" : "List of codes to justify the impossibility to submit electronically",
     "_label" : "codelist|name|no-esubmission-justification"
   }, {
     "id" : "non-award-justification",
+    "version" : "20230614-0",
     "filename" : "non-award-justification.gc",
     "description" : "This table provides the list of reasons of the buyer for not choosing a winner in the procurement procedure.",
     "_label" : "codelist|name|non-award-justification"
   }, {
     "id" : "non-publication-identifier",
+    "version" : "1.0",
     "filename" : "non-publication-identifier.gc",
     "description" : "List of codes for the identification of the information whose publication shall be delayed.",
     "_label" : "codelist|name|non-publication-identifier"
   }, {
     "id" : "non-publication-justification",
+    "version" : "20230614-0",
     "filename" : "non-publication-justification.gc",
     "description" : "This table provides codes and values for the main reasons for not immediately publishing a notice within the context of public procurement.",
     "_label" : "codelist|name|non-publication-justification"
   }, {
     "id" : "notice-purpose",
+    "version" : "1.0",
     "filename" : "notice-purpose.gc",
     "description" : "List of codes to specify the purpose of the Business Register Information Notice",
     "_label" : "codelist|name|notice-purpose"
   }, {
     "id" : "notice-reference",
+    "version" : "1.0",
     "filename" : "notice-reference.gc",
     "description" : "Notice reference type",
     "_label" : "codelist|name|notice-reference"
   }, {
     "id" : "notice-subtype",
+    "version" : "1.0",
     "filename" : "notice-subtype.gc",
     "description" : "List of possible Notice Subtype codes for a Notice of type Business Registration Information Notice.",
     "_label" : "codelist|name|notice-subtype"
   }, {
     "id" : "notice-type",
+    "version" : "20230614-0",
     "filename" : "notice-type.gc",
     "description" : "This table provides a list of public procurement notices according to procurement legislation published once a project is approved.",
     "_label" : "codelist|name|notice-type"
   }, {
     "id" : "number-fixed",
+    "version" : "20220615-0",
     "filename" : "number-fixed.gc",
     "description" : "This table provides the codes linked to fix values within the context of public procurement.",
     "_label" : "codelist|name|number-fixed"
   }, {
     "id" : "number-threshold",
+    "version" : "20220316-0",
     "filename" : "number-threshold.gc",
     "description" : "This table provides the codes linked to the type of threshold values within the context of public procurement.",
     "_label" : "codelist|name|number-threshold"
   }, {
     "id" : "number-weight",
+    "version" : "20230315-0",
     "filename" : "number-weight.gc",
     "description" : "This table provides the codes linked to the type of weight values used in award criteria within the context of public procurement.",
     "_label" : "codelist|name|number-weight"
   }, {
     "id" : "nuts",
+    "version" : "2021",
     "filename" : "nuts.gc",
     "description" : "List of codes for the geographical nomenclature subdivision of the economic territory of the European Union (EU) into regions at three different levels (NUTS 1, 2 and 3 respectively, moving from larger to smaller territorial units).",
     "_label" : "codelist|name|nuts"
   }, {
     "id" : "nuts-alb-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-alb-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Albania",
     "_label" : "codelist|name|nuts-alb-lvl3"
   }, {
     "id" : "nuts-aut-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-aut-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Austria",
     "_label" : "codelist|name|nuts-aut-lvl3"
   }, {
     "id" : "nuts-bel-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-bel-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Belgium",
     "_label" : "codelist|name|nuts-bel-lvl3"
   }, {
     "id" : "nuts-bgr-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-bgr-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Bulgaria",
     "_label" : "codelist|name|nuts-bgr-lvl3"
   }, {
     "id" : "nuts-che-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-che-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Switzerland",
     "_label" : "codelist|name|nuts-che-lvl3"
   }, {
     "id" : "nuts-country",
+    "version" : "1.10.277",
     "parentId" : "country",
     "filename" : "country_nuts-country.gc",
     "description" : "List of codes for Countries having NUTS codes",
     "_label" : "codelist|name|nuts-country"
   }, {
     "id" : "nuts-cyp-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-cyp-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Cyprus",
     "_label" : "codelist|name|nuts-cyp-lvl3"
   }, {
     "id" : "nuts-cze-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-cze-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Czech Republic",
     "_label" : "codelist|name|nuts-cze-lvl3"
   }, {
     "id" : "nuts-deu-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-deu-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Germany",
     "_label" : "codelist|name|nuts-deu-lvl3"
   }, {
     "id" : "nuts-dnk-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-dnk-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Denmark",
     "_label" : "codelist|name|nuts-dnk-lvl3"
   }, {
     "id" : "nuts-esp-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-esp-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Spain",
     "_label" : "codelist|name|nuts-esp-lvl3"
   }, {
     "id" : "nuts-est-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-est-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Estonia",
     "_label" : "codelist|name|nuts-est-lvl3"
   }, {
     "id" : "nuts-fin-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-fin-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Finland",
     "_label" : "codelist|name|nuts-fin-lvl3"
   }, {
     "id" : "nuts-fra-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-fra-lvl3.gc",
     "description" : "List of level 3 NUTS codes for France",
     "_label" : "codelist|name|nuts-fra-lvl3"
   }, {
     "id" : "nuts-gbr-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-gbr-lvl3.gc",
     "description" : "List of level 3 NUTS codes for United Kingdom",
     "_label" : "codelist|name|nuts-gbr-lvl3"
   }, {
     "id" : "nuts-grc-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-grc-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Greece",
     "_label" : "codelist|name|nuts-grc-lvl3"
   }, {
     "id" : "nuts-hrv-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-hrv-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Croatia",
     "_label" : "codelist|name|nuts-hrv-lvl3"
   }, {
     "id" : "nuts-hun-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-hun-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Hungary",
     "_label" : "codelist|name|nuts-hun-lvl3"
   }, {
     "id" : "nuts-irl-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-irl-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Ireland",
     "_label" : "codelist|name|nuts-irl-lvl3"
   }, {
     "id" : "nuts-isl-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-isl-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Iceland",
     "_label" : "codelist|name|nuts-isl-lvl3"
   }, {
     "id" : "nuts-ita-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-ita-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Italy",
     "_label" : "codelist|name|nuts-ita-lvl3"
   }, {
     "id" : "nuts-lie-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-lie-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Lichtenstein",
     "_label" : "codelist|name|nuts-lie-lvl3"
   }, {
     "id" : "nuts-ltu-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-ltu-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Lithuania",
     "_label" : "codelist|name|nuts-ltu-lvl3"
   }, {
     "id" : "nuts-lux-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-lux-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Luxembourg",
     "_label" : "codelist|name|nuts-lux-lvl3"
   }, {
     "id" : "nuts-lva-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-lva-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Latvia",
     "_label" : "codelist|name|nuts-lva-lvl3"
   }, {
     "id" : "nuts-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-lvl3.gc",
     "description" : "List of all level 3 NUTS codes",
     "_label" : "codelist|name|nuts-lvl3"
   }, {
     "id" : "nuts-mkd-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-mkd-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Former Yugoslav Republic of Macedonia",
     "_label" : "codelist|name|nuts-mkd-lvl3"
   }, {
     "id" : "nuts-mlt-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-mlt-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Malta",
     "_label" : "codelist|name|nuts-mlt-lvl3"
   }, {
     "id" : "nuts-mne-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-mne-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Montenegro",
     "_label" : "codelist|name|nuts-mne-lvl3"
   }, {
     "id" : "nuts-nld-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-nld-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Netherlands",
     "_label" : "codelist|name|nuts-nld-lvl3"
   }, {
     "id" : "nuts-nor-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-nor-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Norway",
     "_label" : "codelist|name|nuts-nor-lvl3"
   }, {
     "id" : "nuts-pol-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-pol-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Poland",
     "_label" : "codelist|name|nuts-pol-lvl3"
   }, {
     "id" : "nuts-prt-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-prt-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Portugal",
     "_label" : "codelist|name|nuts-prt-lvl3"
   }, {
     "id" : "nuts-rou-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-rou-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Romania",
     "_label" : "codelist|name|nuts-rou-lvl3"
   }, {
     "id" : "nuts-srb-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-srb-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Serbia",
     "_label" : "codelist|name|nuts-srb-lvl3"
   }, {
     "id" : "nuts-svk-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-svk-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Slovakia",
     "_label" : "codelist|name|nuts-svk-lvl3"
   }, {
     "id" : "nuts-svn-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-svn-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Slovenia",
     "_label" : "codelist|name|nuts-svn-lvl3"
   }, {
     "id" : "nuts-swe-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-swe-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Sweden",
     "_label" : "codelist|name|nuts-swe-lvl3"
   }, {
     "id" : "nuts-tur-lvl3",
+    "version" : "1.10.277",
     "parentId" : "nuts",
     "filename" : "nuts_nuts-tur-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Turkey",
     "_label" : "codelist|name|nuts-tur-lvl3"
   }, {
     "id" : "organisation-role",
+    "version" : "20230614-0",
     "filename" : "organisation-role.gc",
     "description" : "This table provides the list of the different functions of the organisations in a procurement procedure.",
     "_label" : "codelist|name|organisation-role"
   }, {
     "id" : "organisation-role-service",
+    "version" : "1.10.277",
     "parentId" : "organisation-role",
     "filename" : "organisation-role_organisation-role-service.gc",
     "description" : "List of possible service codes for Procurement Service Providers",
     "_label" : "codelist|name|organisation-role-service"
   }, {
     "id" : "other-place-service",
+    "version" : "20220316-0",
     "filename" : "other-place-service.gc",
     "description" : "This table provides the broad geopolitical areas linked to the location of works and the place of performance or delivery within the context of public procurement.",
     "_label" : "codelist|name|other-place-service"
   }, {
     "id" : "permission",
+    "version" : "20230315-0",
     "filename" : "permission.gc",
     "description" : "This table provides the codes linked to the different values of permission and/or obligation.",
     "_label" : "codelist|name|permission"
   }, {
     "id" : "pin-buyer",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_pin-buyer.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of PIN Buyer Notice Type.",
     "_label" : "codelist|name|pin-buyer"
   }, {
     "id" : "pin-cfc-social",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_pin-cfc-social.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of PIN Call for Competition Social Notice Type.",
     "_label" : "codelist|name|pin-cfc-social"
   }, {
     "id" : "pin-cfc-standard",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_pin-cfc-standard.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of PIN Call for Competition Standard Notice Type.",
     "_label" : "codelist|name|pin-cfc-standard"
   }, {
     "id" : "pin-only",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_pin-only.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of PIN Only Notice Type.",
     "_label" : "codelist|name|pin-only"
   }, {
     "id" : "pin-rtl",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_pin-rtl.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of PIN Reduced Time Limit Notice Type.",
     "_label" : "codelist|name|pin-rtl"
   }, {
     "id" : "pin-tran",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_pin-tran.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of PIN for Public Transportation Service Contract Notice Type.",
     "_label" : "codelist|name|pin-tran"
   }, {
     "id" : "planning",
+    "version" : "1.10.277",
     "parentId" : "notice-type",
     "filename" : "notice-type_planning.gc",
     "description" : "List of allowed Notice Type codes for a Planning Form Type",
     "_label" : "codelist|name|planning"
   }, {
     "id" : "player-type",
+    "version" : "1.0",
     "filename" : "player-type.gc",
     "description" : "Type of role/subrole player",
     "_label" : "codelist|name|player-type"
   }, {
     "id" : "postcode-country",
+    "version" : "1.10.277",
     "parentId" : "country",
     "filename" : "country_postcode-country.gc",
     "description" : "List of country codes for countries having postcodes and requiring their use",
     "_label" : "codelist|name|postcode-country"
   }, {
     "id" : "procedure-type-10",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-10.gc",
     "description" : "Allowed procedure type for notice subtype 10",
     "_label" : "codelist|name|procedure-type-10"
   }, {
     "id" : "procedure-type-11",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-11.gc",
     "description" : "Allowed procedure type for notice subtype 11",
     "_label" : "codelist|name|procedure-type-11"
   }, {
     "id" : "procedure-type-12",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-12.gc",
     "description" : "Allowed procedure type for notice subtype 12",
     "_label" : "codelist|name|procedure-type-12"
   }, {
     "id" : "procedure-type-13",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-13.gc",
     "description" : "Allowed procedure type for notice subtype 13",
     "_label" : "codelist|name|procedure-type-13"
   }, {
     "id" : "procedure-type-16",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-16.gc",
     "description" : "Allowed procedure type for notice subtype 16",
     "_label" : "codelist|name|procedure-type-16"
   }, {
     "id" : "procedure-type-17",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-17.gc",
     "description" : "Allowed procedure type for notice subtype 17",
     "_label" : "codelist|name|procedure-type-17"
   }, {
     "id" : "procedure-type-18",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-18.gc",
     "description" : "Allowed procedure type for notice subtype 18",
     "_label" : "codelist|name|procedure-type-18"
   }, {
     "id" : "procedure-type-20",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-20.gc",
     "description" : "Allowed procedure type for notice subtype 20",
     "_label" : "codelist|name|procedure-type-20"
   }, {
     "id" : "procedure-type-21",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-21.gc",
     "description" : "Allowed procedure type for notice subtype 21",
     "_label" : "codelist|name|procedure-type-21"
   }, {
     "id" : "procedure-type-23",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-23.gc",
     "description" : "Allowed procedure type for notice subtype 23",
     "_label" : "codelist|name|procedure-type-23"
   }, {
     "id" : "procedure-type-24",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-24.gc",
     "description" : "Allowed procedure type for notice subtype 24",
     "_label" : "codelist|name|procedure-type-24"
   }, {
     "id" : "procedure-type-25",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-25.gc",
     "description" : "Allowed procedure type for notice subtype 25",
     "_label" : "codelist|name|procedure-type-25"
   }, {
     "id" : "procedure-type-26",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-26.gc",
     "description" : "Allowed procedure type for notice subtype 26",
     "_label" : "codelist|name|procedure-type-26"
   }, {
     "id" : "procedure-type-27",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-27.gc",
     "description" : "Allowed procedure type for notice subtype 27",
     "_label" : "codelist|name|procedure-type-27"
   }, {
     "id" : "procedure-type-28",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-28.gc",
     "description" : "Allowed procedure type for notice subtype 28",
     "_label" : "codelist|name|procedure-type-28"
   }, {
     "id" : "procedure-type-29",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-29.gc",
     "description" : "Allowed procedure type for notice subtype 29",
     "_label" : "codelist|name|procedure-type-29"
   }, {
     "id" : "procedure-type-30",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-30.gc",
     "description" : "Allowed procedure type for notice subtype 30",
     "_label" : "codelist|name|procedure-type-30"
   }, {
     "id" : "procedure-type-31",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-31.gc",
     "description" : "Allowed procedure type for notice subtype 31",
     "_label" : "codelist|name|procedure-type-31"
   }, {
     "id" : "procedure-type-33",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-33.gc",
     "description" : "Allowed procedure type for notice subtype 33",
     "_label" : "codelist|name|procedure-type-33"
   }, {
     "id" : "procedure-type-34",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-34.gc",
     "description" : "Allowed procedure type for notice subtype 34",
     "_label" : "codelist|name|procedure-type-34"
   }, {
     "id" : "procedure-type-36",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-36.gc",
     "description" : "Allowed procedure type for notice subtype 36",
     "_label" : "codelist|name|procedure-type-36"
   }, {
     "id" : "procedure-type-37",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-37.gc",
     "description" : "Allowed procedure type for notice subtype 37",
     "_label" : "codelist|name|procedure-type-37"
   }, {
     "id" : "procedure-type-7",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-7.gc",
     "description" : "Allowed procedure type for notice subtype 7",
     "_label" : "codelist|name|procedure-type-7"
   }, {
     "id" : "procedure-type-8",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-8.gc",
     "description" : "Allowed procedure type for notice subtype 8",
     "_label" : "codelist|name|procedure-type-8"
   }, {
     "id" : "procedure-type-9",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-9.gc",
     "description" : "Allowed procedure type for notice subtype 9",
     "_label" : "codelist|name|procedure-type-9"
   }, {
     "id" : "procedure-type-e1",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-e1.gc",
     "description" : "Allowed procedure type for notice subtype E1",
     "_label" : "codelist|name|procedure-type-e1"
   }, {
     "id" : "procedure-type-e2",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-e2.gc",
     "description" : "Allowed procedure type for notice subtype E2",
     "_label" : "codelist|name|procedure-type-e2"
   }, {
     "id" : "procedure-type-e3",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-e3.gc",
     "description" : "Allowed procedure type for notice subtype E3",
     "_label" : "codelist|name|procedure-type-e3"
   }, {
     "id" : "procedure-type-e4",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-e4.gc",
     "description" : "Allowed procedure type for notice subtype E4",
     "_label" : "codelist|name|procedure-type-e4"
   }, {
     "id" : "procedure-type-e5",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-e5.gc",
     "description" : "Allowed procedure type for notice subtype E5",
     "_label" : "codelist|name|procedure-type-e5"
   }, {
     "id" : "procedure-type-t01",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-t01.gc",
     "description" : "Allowed procedure type for notice subtype T01",
     "_label" : "codelist|name|procedure-type-t01"
   }, {
     "id" : "procedure-type-t02",
+    "version" : "1.10.277",
     "parentId" : "procurement-procedure-type",
     "filename" : "procurement-procedure-type_procedure-type-t02.gc",
     "description" : "Allowed procedure type for notice subtype T02",
     "_label" : "codelist|name|procedure-type-t02"
   }, {
     "id" : "procurement-procedure-type",
+    "version" : "20220928-0",
     "filename" : "procurement-procedure-type.gc",
     "description" : "This table provides a list of activities leading to the conclusion of public contracts used in public procurement according to the legislation.",
     "_label" : "codelist|name|procurement-procedure-type"
   }, {
     "id" : "qu-sy",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_qu-sy.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of Qualification System Notice Type.",
     "_label" : "codelist|name|qu-sy"
   }, {
     "id" : "received-submission-type",
+    "version" : "20230614-0",
     "filename" : "received-submission-type.gc",
     "description" : "This table provides the list of relevant categories used to classify tenders or requests to participate received within the context of public procurement.",
     "_label" : "codelist|name|received-submission-type"
   }, {
     "id" : "remedy-type",
+    "version" : "20230927-0",
     "filename" : "remedy-type.gc",
     "description" : "This table describes the measures taken following a review.",
     "_label" : "codelist|name|remedy-type"
   }, {
     "id" : "required",
+    "version" : "1.10.277",
     "parentId" : "indicator",
     "filename" : "indicator_required.gc",
     "description" : "List of codes to specify whether the associated requirement applies or not.",
     "_label" : "codelist|name|required"
   }, {
     "id" : "requirement-stage",
+    "version" : "20230927-0",
     "filename" : "requirement-stage.gc",
     "description" : "This table describes when and whether a given requirement must be provided in a procedure.",
     "_label" : "codelist|name|requirement-stage"
   }, {
     "id" : "reserved-execution",
+    "version" : "1.10.277",
     "parentId" : "applicability",
     "filename" : "applicability_reserved-execution.gc",
     "description" : "List of codes to express whether a contract execution is reserved or not.",
     "_label" : "codelist|name|reserved-execution"
   }, {
     "id" : "reserved-procurement",
+    "version" : "20230614-0",
     "filename" : "reserved-procurement.gc",
     "description" : "List of codes to specify whether participation is reserved or not.",
     "_label" : "codelist|name|reserved-procurement"
   }, {
     "id" : "result",
+    "version" : "1.10.277",
     "parentId" : "notice-type",
     "filename" : "notice-type_result.gc",
     "description" : "List of allowed Notice Type codes for a Result Form Type",
     "_label" : "codelist|name|result"
   }, {
     "id" : "revenue-allocation",
+    "version" : "1.10.277",
     "parentId" : "contract-detail",
     "filename" : "contract-detail_revenue-allocation.gc",
     "description" : "Revenue allocation",
     "_label" : "codelist|name|revenue-allocation"
   }, {
     "id" : "review-body-type",
+    "version" : "20221214-0",
     "filename" : "review-body-type.gc",
     "description" : "This table covers the list of organisations providing the review of a given procedure.",
     "_label" : "codelist|name|review-body-type"
   }, {
     "id" : "review-decision-type",
+    "version" : "20230927-0",
     "filename" : "review-decision-type.gc",
     "description" : "This table describes the decision made a review body.",
     "_label" : "codelist|name|review-decision-type"
   }, {
     "id" : "review-requester-type",
+    "version" : "1.10.277",
     "parentId" : "organisation-role",
     "filename" : "organisation-role_review-requester-type.gc",
     "description" : "Category of Stakeholders that requested a review",
     "_label" : "codelist|name|review-requester-type"
   }, {
     "id" : "review-status",
+    "version" : "1.0",
     "filename" : "review-status.gc",
     "description" : "List of codes for the status of a given review request.",
     "_label" : "codelist|name|review-status"
   }, {
     "id" : "review-type",
+    "version" : "1.0",
     "filename" : "review-type.gc",
     "description" : "List of codes for the identification of the type of review requester",
     "_label" : "codelist|name|review-type"
   }, {
     "id" : "rewards-penalties",
+    "version" : "1.0",
     "filename" : "rewards-penalties.gc",
     "description" : "List of codes for rewards and penalties associated to a Public Transportation Service.",
     "_label" : "codelist|name|rewards-penalties"
   }, {
     "id" : "selection-criterion",
+    "version" : "20221214-0",
     "filename" : "selection-criterion.gc",
     "description" : "List of codes to express conditions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.",
     "_label" : "codelist|name|selection-criterion"
   }, {
     "id" : "social-objective",
+    "version" : "20221214-0",
     "filename" : "social-objective.gc",
     "description" : "List of codes for values linked to any social objective promoted by the specifications, award / selection criteria or contract performance conditions included in a procurement.",
     "_label" : "codelist|name|social-objective"
   }, {
     "id" : "social-service-cpv",
+    "version" : "1.10.277",
     "parentId" : "cpv",
     "filename" : "cpv_social-service-cpv.gc",
     "description" : "Codes for social service of CPV",
     "_label" : "codelist|name|social-service-cpv"
   }, {
     "id" : "strategic-procurement",
+    "version" : "20230614-0",
     "filename" : "strategic-procurement.gc",
     "description" : "This table provides the values linked to any social objective promoted by the technical specifications, award criteria, selection criteria or contract performance conditions included in a procurement.",
     "_label" : "codelist|name|strategic-procurement"
   }, {
     "id" : "subco",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_subco.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of Subcontracting Notice Type.",
     "_label" : "codelist|name|subco"
   }, {
     "id" : "subcontracting-allowed",
+    "version" : "1.10.277",
     "parentId" : "indicator",
     "filename" : "indicator_subcontracting-allowed.gc",
     "description" : "List of codes to specify whether subcontracting is allowed or not.",
     "_label" : "codelist|name|subcontracting-allowed"
   }, {
     "id" : "subcontracting-indication",
+    "version" : "20230614-0",
     "filename" : "subcontracting-indication.gc",
     "description" : "This table provides the list of codes and values used to indicate information regarding the share of parts of a contract to third parties. The share may refer to the portion of work, services or supplies and/or to the subject matter being subcontracted.",
     "_label" : "codelist|name|subcontracting-indication"
   }, {
     "id" : "subcontracting-obligation",
+    "version" : "20230614-0",
     "filename" : "subcontracting-obligation.gc",
     "description" : "This table provides the list of codes and values used for the obligation of the economic operator of sharing parts of the original contract to third parties. The share may refer to the portion of work, services or supplies.",
     "_label" : "codelist|name|subcontracting-obligation"
   }, {
     "id" : "tender-guarantee-required",
+    "version" : "1.10.277",
     "parentId" : "indicator",
     "filename" : "indicator_tender-guarantee-required.gc",
     "description" : "List of codes to specify whether a Tender Guarantee is required or not.",
     "_label" : "codelist|name|tender-guarantee-required"
   }, {
     "id" : "tendered-object",
+    "version" : "1.0",
     "filename" : "tendered-object.gc",
     "description" : "Object type covered by the tender (lot, group of lots)",
     "_label" : "codelist|name|tendered-object"
   }, {
     "id" : "tenderlot-presentation",
+    "version" : "1.0",
     "filename" : "tenderlot-presentation.gc",
     "description" : "List of codes to specify whether the submission should deal with all the defined lots.",
     "_label" : "codelist|name|tenderlot-presentation"
   }, {
     "id" : "timeperiod",
+    "version" : "20230927-0",
     "filename" : "timeperiod.gc",
     "description" : "List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.",
     "_label" : "codelist|name|timeperiod"
   }, {
     "id" : "transport-service",
+    "version" : "1.0",
     "filename" : "transport-service.gc",
     "description" : "This table provides a list of transport services.",
     "_label" : "codelist|name|transport-service"
   }, {
     "id" : "usage",
+    "version" : "20230927-0",
     "filename" : "usage.gc",
     "description" : "List of codes to indicate whether the associated concept should be used or not.",
     "_label" : "codelist|name|usage"
   }, {
     "id" : "veat",
+    "version" : "1.10.277",
     "parentId" : "notice-subtype",
     "filename" : "notice-subtype_veat.gc",
     "description" : "List of allowed Notice Subtype codes for a notice of Voluntary ex-ante Transparency Notice Type.",
     "_label" : "codelist|name|veat"
   }, {
     "id" : "vehicle-category",
+    "version" : "20231213-0",
     "filename" : "vehicle-category.gc",
     "description" : "The category of vehicle falling within the scope of Directive 2009/33/EC.",
     "_label" : "codelist|name|vehicle-category"
   }, {
     "id" : "vehicles",
+    "version" : "1.0",
     "filename" : "vehicles.gc",
     "description" : "List of codes for vehicle categories.",
     "_label" : "codelist|name|vehicles"
   }, {
     "id" : "winner-selection-status",
+    "version" : "20230614-0",
     "filename" : "winner-selection-status.gc",
     "description" : "This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and whether the competition is open.",
     "_label" : "codelist|name|winner-selection-status"
