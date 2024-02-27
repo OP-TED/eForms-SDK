@@ -190,7 +190,7 @@
             <SimpleValue>Organismul de soluționare a căilor de atac a luat o decizie cu privire la cererea actuală</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Orgán zodpovedný za preskúmanie prijal rozhodnutie v súvislosti s danou žiadosťou</SimpleValue>
+            <SimpleValue>Orgán zodpovedný za preskúmanie prijal rozhodnutie v súvislosti s danou žiadosťou</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Revizijski organ je sprejel odločitev v zvezi z aktualnim zahtevkom</SimpleValue>
@@ -270,7 +270,7 @@
             <SimpleValue>Cererea de soluționare a căilor de atac a fost introdusă și procedura este în curs</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Požiadalo sa o preskúmanie, ktoré stále prebieha</SimpleValue>
+            <SimpleValue>Požiadalo sa o preskúmanie, ktoré stále prebieha</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Revizija je bila zahtevana in še vedno poteka</SimpleValue>

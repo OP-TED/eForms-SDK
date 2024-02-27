@@ -5,7 +5,7 @@
       <ShortName>CanStandard</ShortName>
       <LongName>can-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.10.0</Version>
+      <Version>1.10.283</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -511,7 +511,7 @@
             <SimpleValue>Anunț general de atribuire a contractului sub prag</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o výsledku obstarávania (CAN) pod prahovou hodnotou</SimpleValue>
+            <SimpleValue>Všeobecné oznámenie o výsledku obstarávania (CAN) pod prahovou hodnotou</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Obvestilo o oddaji naročila pod pragom – splošno</SimpleValue>

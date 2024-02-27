@@ -5,7 +5,7 @@
       <ShortName>PinCfcStandard</ShortName>
       <LongName>pin-cfc-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.10.0</Version>
+      <Version>1.10.283</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -291,7 +291,7 @@
             <SimpleValue>Покана за изразяване на интерес</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Výzva k vyjádření zájmu</SimpleValue>
+            <SimpleValue>Výzva k vyjádření zájmu</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Indkaldelse af interessetilkendegivelser</SimpleValue>
