@@ -669,7 +669,7 @@
    <svrl:failed-assert id="BR-BT-00105-0052"
                        location="/cn:ContractNotice/cac:TenderingProcess/cbc:ProcedureCode"
                        role="ERROR"
-                       test="normalize-space(.) = ('comp-dial', 'comp-tend', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">
+                       test="normalize-space(.) = ('comp-dial', 'comp-tend', 'exp-int-rail', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">
       <svrl:text>rule|text|BR-BT-00105-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest/cac:SpecificTendererRequirement/cbc:Description"/>
