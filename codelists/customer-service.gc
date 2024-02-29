@@ -702,7 +702,7 @@
             <SimpleValue>Έρευνα ικανοποίησης πελατών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Customer Satisfaction Survey</SimpleValue>
+            <SimpleValue>Customer satisfaction survey</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Encuesta de satisfacción del cliente</SimpleValue>

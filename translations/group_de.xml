@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Inhalt</entry>
 <entry key="group|name|GR-ContractingAuthority">Öffentlicher Auftraggeber</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Beschaffer</entry>
+<entry key="group|name|GR-EU-Registration">EU-Registriernummer</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation, die zusätzliche Informationen bereitstellt</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Zusätzliche Informationen</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Bedingungen der Auktion</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Zu ändernder Abschnitt</entry>
 <entry key="group|name|ND-NDA">Beschreibung der NGM</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Begründung, warum kein Gewinner ermittelt wurde (später veröffentlicht)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Ungefährer Wert der Bekanntmachung (wird später veröffentlicht)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Höchstwert Bekanntmachung (später veröffentlicht)</entry>
 <entry key="group|name|ND-NoticeResult">Ergebnis</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Höchstwert der Gruppe von Losen</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Einstufung des Haupterzeugnisses eines Teils</entry>
 <entry key="group|name|ND-PartPlacePerformance">Erfüllungsort</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Frühere Planungsreferenz</entry>
+<entry key="group|name|ND-PartProcurementDocument">Beschaffungsdokumente für Teil</entry>
 <entry key="group|name|ND-PartReservedExecution">Reservierte Vertragsdurchführung</entry>
 <entry key="group|name|ND-PartReservedProcurement">Vorbehaltene Auftragsvergabe</entry>
 <entry key="group|name|ND-PayerParty">Zahlende Organisation</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Eingegangene Einreichungen – Typ (später veröffentlicht)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Eingegangene Einreichungen — Statistik</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Neu geschätzter Wert (später veröffentlicht)</entry>
+<entry key="group|name|ND-RevenueAllocation">Prozentsatz der Einnahmenverteilung</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistiken über Nachprüfungsanträge</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Nachprüfungsanträge, Irregularitäten – Anzahl (veröffentlicht zu einem späteren Zeitpunkt)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Nachprüfungsanträge, Irregularitäten – Typ (veröffentlicht zu einem späteren Zeitpunkt)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Hauptauftragnehmer</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Vergabe von Unteraufträgen – Beschreibung (später veröffentlicht)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Unterauftragsvergabe</entry>
+<entry key="group|name|ND-SubcontractingObligation">Verpflichtungen im Zusammenhang mit Subunternehmen</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Wert der Vergabe von Unteraufträgen ist bekannt (später veröffentlicht)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Vergabe von Unteraufträgen – Prozentanteil (später veröffentlicht)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Vergabe von Unteraufträgen (später veröffentlicht)</entry>

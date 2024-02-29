@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Contenu</entry>
 <entry key="group|name|GR-ContractingAuthority">Pouvoir adjudicateur</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Acheteur</entry>
+<entry key="group|name|GR-EU-Registration">Numéro d'enregistrement UE</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation fournissant des informations complémentaires</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Informations complémentaires</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Conditions de la mise aux enchères</entry>
@@ -330,7 +331,7 @@
 <entry key="group|name|ND-LotSubmissionLanguage">Langue de soumission de l'offre</entry>
 <entry key="group|name|ND-LotTender">Offre présentée</entry>
 <entry key="group|name|ND-LotTenderOriginCountry">Pays d'origine</entry>
-<entry key="group|name|ND-LotTenderingProcess">Procédure d’appel d’offres</entry>
+<entry key="group|name|ND-LotTenderingProcess">Procédure de passation</entry>
 <entry key="group|name|ND-LotsGroup">Groupes de lots</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteria">Critères d'attribution</entry>
 <entry key="group|name|ND-LotsGroupAwardCriteriaNameUnpublish">Nom des critères d’attribution du groupe de lots (publication ultérieure)</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Section à modifier</entry>
 <entry key="group|name|ND-NDA">Description de l’accord de confidentialité</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">La raison pour laquelle un lauréat n’a pas été choisi (publication ultérieure)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Valeur approximative de l'avis (publiée ultérieurement)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Valeur maximale de l’avis (publication ultérieure)</entry>
 <entry key="group|name|ND-NoticeResult">Résultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Valeur maximale du groupe de lots</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Nomenclature pour le produit principal d’une partie</entry>
 <entry key="group|name|ND-PartPlacePerformance">Lieu d’exécution</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Référence de planification préalable</entry>
+<entry key="group|name|ND-PartProcurementDocument">Documents d'achat pour la partie</entry>
 <entry key="group|name|ND-PartReservedExecution">Exécution réservée du contrat</entry>
 <entry key="group|name|ND-PartReservedProcurement">Passation de marchés publics réservés</entry>
 <entry key="group|name|ND-PayerParty">Organisme payeur</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Type de soumission reçue (publication ultérieure)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistiques sur les soumissions reçues</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Valeur réestimée (publiée plus tard)</entry>
+<entry key="group|name|ND-RevenueAllocation">Pourcentage d'allocation des revenus</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistiques sur les demandes de réexamen</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Nombre d’irrégularités de la demande de réexamen (publication ultérieure)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Type d’irrégularité de la demande de réexamen (publication ultérieure)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Entrepreneur principal</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Description de la sous-traitance (publication ultérieure)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Sous-traitance</entry>
+<entry key="group|name|ND-SubcontractingObligation">Obligations liées à la sous-traitance</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Le pourcentage de la sous-traitance est connu (publication ultérieure)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Pourcentage de sous-traitance (publication ultérieure)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Sous-traitance (publication ultérieure)</entry>

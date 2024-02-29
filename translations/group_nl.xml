@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Inhoud</entry>
 <entry key="group|name|GR-ContractingAuthority">Aanbestedende dienst</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Koper</entry>
+<entry key="group|name|GR-EU-Registration">EU-registratienummer</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisatie die aanvullende informatie verstrekt</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Nadere inlichtingen</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Voorwaarden van de veiling</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Te wijzigen sectie</entry>
 <entry key="group|name|ND-NDA">Beschrijving van de geheimhoudingsovereenkomst</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">De reden waarom geen winnaar is gekozen (later gepubliceerd)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Bij benadering waarde van de aankondiging (later gepubliceerd)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Aankondiging maximumwaarde (later gepubliceerd)</entry>
 <entry key="group|name|ND-NoticeResult">Resultaat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximumwaarde van groep percelen</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Classificatie van de belangrijkste goederen van een deel</entry>
 <entry key="group|name|ND-PartPlacePerformance">Plaats van uitvoering</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Verwijzing naar eerdere planning</entry>
+<entry key="group|name|ND-PartProcurementDocument">Aanbestedingsdocumenten voor onderdeel</entry>
 <entry key="group|name|ND-PartReservedExecution">Gereserveerde uitvoering van het contract</entry>
 <entry key="group|name|ND-PartReservedProcurement">Voorbehouden aanbestedingen</entry>
 <entry key="group|name|ND-PayerParty">Betalende organisatie</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Type ontvangen inschrijvingen (later gepubliceerd)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistieken over de ontvangen inschrijvingen</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Herziene waarde (later gepubliceerd)</entry>
+<entry key="group|name|ND-RevenueAllocation">Percentage van de inkomstenverdeling</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistieken over aanvragen voor beroep</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Aantal onregelmatigheden aangevraagd beroep (later gepubliceerd)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Type onregelmatigheid aangevraagd beroep (later gepubliceerd)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Hoofdaannemer</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Beschrijving onderaanneming (later gepubliceerd)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Onderaanneming</entry>
+<entry key="group|name|ND-SubcontractingObligation">Verplichtingen met betrekking tot onderaanneming</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Percentage onderaanneming is bekend (later gepubliceerd)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Percentage onderaanneming (later gepubliceerd)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Onderaanneming (later gepubliceerd)</entry>

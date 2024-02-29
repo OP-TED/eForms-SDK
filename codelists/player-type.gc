@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>The player for the role/subrole is of type "Organisation".</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Играчът за ролята / подролята е от тип 'Организация'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hráč pro roli / podroli je typu 'Organizace'</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Spilleren for rollen / underrollen er af typen 'Organisation'</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Spieler für die Rolle / Unterrolle ist vom Typ 'Organisation'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο παίκτης για τον ρόλο / υπορόλο είναι τύπου 'Οργάνωση'</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>The player for the role/subrole is of type "Organisation".</SimpleValue>
+            <SimpleValue>The player for the role / subrole is of type 'Organisation'</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El jugador para el rol / subrol es de tipo 'Organización'</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rolli / alarolli mängija on tüüpi 'Organisatsioon'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Roolin / aliroolin pelaaja on tyyppiä 'Organisaatio'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Le joueur pour le rôle / sous-rôle est de type 'Organisation'</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is den chineál 'Eagraíocht' an imreoir don ról / fo-ról</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Igrač za ulogu / podulogu je tipa 'Organizacija'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szereplő a szerepkör / al-szerepkör típusa 'Szervezet'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il giocatore per il ruolo / sottoruolo è di tipo 'Organizzazione'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Žaidėjas vaidmeniui / subvaidmeniui yra tipo 'Organizacija'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Spēlētājs lomai / apakšlomai ir 'Organizācija' tips</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-player għar-ruħ / sub-ruħ huwa tat-tip 'Organizzazzjoni'</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De speler voor de rol / subrol is van het type 'Organisatie'</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gracz dla roli / podroli jest typu 'Organizacja'</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O jogador para o papel / subpapel é do tipo 'Organização'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Jucătorul pentru rol / subrol este de tipul 'Organizație'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hráč pre rolu / podrolu je typu 'Organizácia'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Igralec za vlogo / podvlogo je tipa 'Organizacija'</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Spelaren för rollen / underrollen är av typen 'Organisation'</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>The player for the role/subrole is of type "Touchpoint".</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Играчът за ролята / подролята е от тип 'Точка за контакт'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hráč pro roli / podroli je typu 'Kontaktní bod'</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Spilleren for rollen / underrollen er af typen 'Kontaktpunkt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Spieler für die Rolle / Unterrolle ist vom Typ 'Kontaktpunkt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο παίκτης για τον ρόλο / υπορόλο είναι τύπου 'Σημείο επαφής'</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>The player for the role/subrole is of type "Touchpoint".</SimpleValue>
+            <SimpleValue>The player for the role / subrole is of type 'Touchpoint'</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El jugador para el rol / subrol es de tipo 'Punto de contacto'</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rolli / alarolli mängija on tüüpi 'Kontaktpunkt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Roolin / aliroolin pelaaja on tyyppiä 'Kontaktipiste'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Le joueur pour le rôle / sous-rôle est de type 'Point de contact'</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is den chineál 'Pointe Teagmhála' an imreoir don ról / fo-ról</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Igrač za ulogu / podulogu je tipa 'Kontaktna točka'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szereplő a szerepkör / al-szerepkör típusa 'Érintési pont'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il giocatore per il ruolo / sottoruolo è di tipo 'Punto di contatto'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Žaidėjas vaidmeniui / subvaidmeniui yra tipo 'Kontaktinis taškas'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Spēlētājs lomai / apakšlomai ir 'Kontaktpunkta' tips</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-player għar-ruħ / sub-ruħ huwa tat-tip 'Punt ta' Kuntatt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De speler voor de rol / subrol is van het type 'Contactpunt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gracz dla roli / podroli jest typu 'Punkt kontaktowy'</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O jogador para o papel / subpapel é do tipo 'Ponto de contato'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Jucătorul pentru rol / subrol este de tipul 'Punct de contact'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hráč pre rolu / podrolu je typu 'Kontaktný bod'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Igralec za vlogo / podvlogo je tipa 'Kontaktna točka'</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Spelaren för rollen / underrollen är av typen 'Kontaktpunkt'</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -115,6 +115,11 @@
 		<cac:TenderingTerms>
 			<cac:FiscalLegislationDocumentReference>
 				<cbc:ID>ID1</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://example.com/fiscal-legislation</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
@@ -123,6 +128,11 @@
 			</cac:FiscalLegislationDocumentReference>
 			<cac:EnvironmentalLegislationDocumentReference>
 				<cbc:ID>ID2</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://example.com/environmental-legislation</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
@@ -131,6 +141,11 @@
 			</cac:EnvironmentalLegislationDocumentReference>
 			<cac:EmploymentLegislationDocumentReference>
 				<cbc:ID>ID3</cbc:ID>
+				<cac:Attachment>
+					<cac:ExternalReference>
+						<cbc:URI>https://example.com/employment-legislation</cbc:URI>
+					</cac:ExternalReference>
+				</cac:Attachment>
 				<cac:IssuerParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0001</cbc:ID>

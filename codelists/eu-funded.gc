@@ -190,7 +190,7 @@
             <SimpleValue>Proiect de achiziții publice finanțat integral sau parțial din fonduri UE</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Projekt verejného obstarávania úplne alebo čiastočne financovaný z prostriedkov EÚ</SimpleValue>
+            <SimpleValue>Projekt verejného obstarávania úplne alebo čiastočne financovaný z prostriedkov EÚ</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Projekt javnega naročanja se v celoti ali delno financira s sredstvi EU</SimpleValue>
@@ -270,7 +270,7 @@
             <SimpleValue>Proiect de achiziții publice nefinanțat din fonduri UE</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Projekt verejného obstarávania nie je financovaný z prostriedkov EÚ</SimpleValue>
+            <SimpleValue>Projekt verejného obstarávania nie je financovaný z prostriedkov EÚ</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Projekt javnega naročanja se ne financira s sredstvi EU</SimpleValue>

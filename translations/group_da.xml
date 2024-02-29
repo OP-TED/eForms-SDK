@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Indhold</entry>
 <entry key="group|name|GR-ContractingAuthority">Ordregivende myndighed</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Køber</entry>
+<entry key="group|name|GR-EU-Registration">EU-registreringsnummer</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation, der giver yderligere oplysninger</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Yderligere oplysninger</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Auktionsbetingelser</entry>
@@ -81,7 +82,7 @@
 <entry key="group|name|GR-Lot-TenderValidity">Udbudsgyldighed</entry>
 <entry key="group|name|GR-Lot-TendererQualification">Oplysninger om forsinket indsendelse</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Udbudsbetingelser</entry>
-<entry key="group|name|GR-Lot-Variants">Varianter</entry>
+<entry key="group|name|GR-Lot-Variants">Alternative tilbud</entry>
 <entry key="group|name|GR-LotResult-1">Resultat 1</entry>
 <entry key="group|name|GR-LotResult-2">Resultat 2</entry>
 <entry key="group|name|GR-LotResult-Parties">Parter</entry>
@@ -200,7 +201,7 @@
 <entry key="group|name|GR-Unpublish-BT-163">Metode anvendt til beregning af den anslåede værdi af koncessionen (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-171">Rangorden på listen over vindere (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Produktets eller tjenesteydelsens oprindelsesland (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-193">Udbuddet er en variant (offentliggøres senere)</entry>
+<entry key="group|name|GR-Unpublish-BT-193">Udbuddet er et alternativt tilbud (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-539">Type (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Type (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Type (offentliggøres senere)</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Afsnit der skal ændres</entry>
 <entry key="group|name|ND-NDA">Beskrivelse af fortrolighedsaftalen</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Årsagen til, at der ikke blev valgt en vinder (offentliggøres senere)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Bekendtgørelsens omtrentlige værdi (offentliggøres senere)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Maksimal værdi af bekendtgørelse (offentliggøres senere)</entry>
 <entry key="group|name|ND-NoticeResult">Resultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maksimal værdi af gruppe af delkontrakter</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Klassifikation af en parts hovedvare</entry>
 <entry key="group|name|ND-PartPlacePerformance">Udførelsessted</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Henvisning til tidligere planlægning</entry>
+<entry key="group|name|ND-PartProcurementDocument">Indkøbsdokumenter for del</entry>
 <entry key="group|name|ND-PartReservedExecution">Reserveret kontraktudførelse</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserveret udbud</entry>
 <entry key="group|name|ND-PayerParty">Betalende organisation</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Type modtaget indsendelse (offentliggøres senere)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistik over modtagne indsendelser</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Genestimeret værdi (offentliggjort senere)</entry>
+<entry key="group|name|ND-RevenueAllocation">Procentdel af indtægtsfordeling</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistik over anmodninger om gennemgang</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Antal uregelmæssigheder angivet i anmodningen om gennemgang (offentliggøres senere)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Anmodning om gennemgang, type uregelmæssighed (offentliggøres senere)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Hovedentreprenør</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Beskrivelse af underentreprise (offentliggøres senere)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Underleverandør</entry>
+<entry key="group|name|ND-SubcontractingObligation">Forpligtelser i forbindelse med underleverandører</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Underentrepriseprocentdel er kendt (offentliggøres senere)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Procentdel af underentreprise (offentliggøres senere)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Underentreprise (offentliggøres senere)</entry>

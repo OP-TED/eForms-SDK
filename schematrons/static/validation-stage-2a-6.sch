@@ -534,12 +534,18 @@
 		<assert id="BR-BT-00115-0009" role="ERROR" diagnostics="BT-115-Part" test="count(cbc:GovernmentAgreementConstraintIndicator) = 0">rule|text|BR-BT-00115-0009</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference[$noticeSubType = '6']">
+		<assert id="BR-OPT-00113-0009" role="ERROR" diagnostics="OPT-113-Part-EmployLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00113-0009</assert>
+		<assert id="BR-OPT-00130-0009" role="ERROR" diagnostics="OPT-130-Part-EmployLegis" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0">rule|text|BR-OPT-00130-0009</assert>
 		<assert id="BR-OPT-00301-0310" role="ERROR" diagnostics="OPT-301-Part-EmployLegis" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00301-0310</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference[$noticeSubType = '6']">
+		<assert id="BR-OPT-00112-0009" role="ERROR" diagnostics="OPT-112-Part-EnvironLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00112-0009</assert>
+		<assert id="BR-OPT-00120-0009" role="ERROR" diagnostics="OPT-120-Part-EnvironLegis" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0">rule|text|BR-OPT-00120-0009</assert>
 		<assert id="BR-OPT-00301-0260" role="ERROR" diagnostics="OPT-301-Part-EnvironLegis" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00301-0260</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference[$noticeSubType = '6']">
+		<assert id="BR-OPT-00110-0009" role="ERROR" diagnostics="OPT-110-Part-FiscalLegis" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0">rule|text|BR-OPT-00110-0009</assert>
+		<assert id="BR-OPT-00111-0009" role="ERROR" diagnostics="OPT-111-Part-FiscalLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00111-0009</assert>
 		<assert id="BR-OPT-00301-0210" role="ERROR" diagnostics="OPT-301-Part-FiscalLegis" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00301-0210</assert>
 	</rule>
 	<rule context="/*/cac:SenderParty/cac:Contact[$noticeSubType = '6']">
@@ -989,8 +995,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '6']">
 		<assert id="BR-BT-00165-0009" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) = 0">rule|text|BR-BT-00165-0009</assert>
 		<assert id="BR-BT-00500-0009" role="ERROR" diagnostics="BT-500-Organization-Company" test="count(cac:PartyName/cbc:Name) &gt; 0">rule|text|BR-BT-00500-0009</assert>
-		<assert id="BR-BT-00503-0009" role="ERROR" diagnostics="ND-Company_BT-503-Organization-Company" test="count(cac:Contact/cbc:Telephone) &gt; 0">rule|text|BR-BT-00503-0009</assert>
-		<assert id="BR-BT-00506-0009" role="ERROR" diagnostics="ND-Company_BT-506-Organization-Company" test="count(cac:Contact/cbc:ElectronicMail) &gt; 0">rule|text|BR-BT-00506-0009</assert>
 		<assert id="BR-BT-00513-0009" role="ERROR" diagnostics="ND-Company_BT-513-Organization-Company" test="count(cac:PostalAddress/cbc:CityName) &gt; 0">rule|text|BR-BT-00513-0009</assert>
 		<assert id="BR-BT-00514-0009" role="ERROR" diagnostics="ND-Company_BT-514-Organization-Company" test="count(cac:PostalAddress/cac:Country/cbc:IdentificationCode) &gt; 0">rule|text|BR-BT-00514-0009</assert>
 		<assert id="BR-OPT-00200-0009" role="ERROR" diagnostics="OPT-200-Organization-Company" test="count(cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00200-0009</assert>

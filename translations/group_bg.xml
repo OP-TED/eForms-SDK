@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Съдържание</entry>
 <entry key="group|name|GR-ContractingAuthority">Възлагащ орган</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Купувач</entry>
+<entry key="group|name|GR-EU-Registration">Регистрационен номер на ЕС</entry>
 <entry key="group|name|GR-Lot-AddInfo">Организация, предоставяща допълнителна информация</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Допълнителна информация</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Условия на търга</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Секция, която трябва да бъде променена</entry>
 <entry key="group|name|ND-NDA">Описание на споразумението за неразкриване на информация</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Причина, поради която не е избран победител (по-късно публикуване)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Приблизителна стойност на известието (публикувана по-късно)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Максимална стойност по обявлението (по-късно публикуване)</entry>
 <entry key="group|name|ND-NoticeResult">Резултат</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Максимална стойност за група обособени позиции</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Класификация за основната стока по част</entry>
 <entry key="group|name|ND-PartPlacePerformance">Място на изпълнение</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Номер на предишното планиране</entry>
+<entry key="group|name|ND-PartProcurementDocument">Документи за обществената поръчка за част</entry>
 <entry key="group|name|ND-PartReservedExecution">Изпълнение на обществена поръчка със запазени права</entry>
 <entry key="group|name|ND-PartReservedProcurement">Запазена обществена поръчка</entry>
 <entry key="group|name|ND-PayerParty">Финансираща организация</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Вид на получените оферти или заявления (по-късно публикуване)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Статистика за получените оферти или заявления</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Преоценена стойност (публикувана по-късно)</entry>
+<entry key="group|name|ND-RevenueAllocation">Процент на разпределение на приходите</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Статистически данни за исканията за преразглеждане (обжалване)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Брой на нередностите, посочени в искането за преразглеждане (обжалване) (по-късно публикуване)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Искане за преразглеждане (обжалване) — вид на нередностите (по-късно публикуване)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Главен изпълнител</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Описание на частта от поръчката за подизпълнение (по-късно публикуване)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Подизпълнение</entry>
+<entry key="group|name|ND-SubcontractingObligation">Задължения, свързани със субдоговорите</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Процентният дял от поръчката за подизпълнение е известен (по-късно публикуване)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Процентен дял от поръчката за подизпълнение (по-късно публикуване)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Използване на подизпълнители (по-късно публикуване)</entry>

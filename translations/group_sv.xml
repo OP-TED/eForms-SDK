@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Innehåll</entry>
 <entry key="group|name|GR-ContractingAuthority">Upphandlande myndighet</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Köpare</entry>
+<entry key="group|name|GR-EU-Registration">EU-registreringsnummer</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation som ger kompletterande information</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Kompletterande information</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Villkor för auktionen</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Avsnitt som ska ändras</entry>
 <entry key="group|name|ND-NDA">Beskrivning av sekretessavtal</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Skäl till att en vinnare inte valdes (publiceras senare)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Ungefärligt värde på meddelandet (publiceras senare)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Meddelandets högsta värde (publiceras senare)</entry>
 <entry key="group|name|ND-NoticeResult">Resultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Högsta värdet för en grupp av delkontrakt</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Klassificering för en dels huvudsakliga vara</entry>
 <entry key="group|name|ND-PartPlacePerformance">Leveransplats</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Hänvisning till tidigare planering</entry>
+<entry key="group|name|ND-PartProcurementDocument">Upphandlingsdokument för del</entry>
 <entry key="group|name|ND-PartReservedExecution">Reserverad kontraktsutförande</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserverad upphandling</entry>
 <entry key="group|name|ND-PayerParty">Betalningsorganisation</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Typ av inkomna anbud (publiceras senare)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Statistik över inkomna anbud</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Omberäknat värde (publicerat senare)</entry>
+<entry key="group|name|ND-RevenueAllocation">Procentuell fördelning av intäkterna</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistik över prövningsansökningar</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Antal prövningsansökningar som gäller oriktigheter (publiceras senare)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Typ av oriktigheter i prövningsansökningar (publiceras senare)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Huvudentreprenör</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Beskrivning av underentreprenad (publiceras senare)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Underentreprenad</entry>
+<entry key="group|name|ND-SubcontractingObligation">Skyldigheter relaterade till underent</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Underentreprenadens procentandel är känd (publiceras senare)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Underentreprenadens procentandel (publiceras senare)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Underentreprenad (publiceras senare)</entry>

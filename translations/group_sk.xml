@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Obsah</entry>
 <entry key="group|name|GR-ContractingAuthority">Verejný obstarávateľ</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Kupujúci</entry>
+<entry key="group|name|GR-EU-Registration">Registračné číslo EÚ</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizácia poskytujúca ďalšie informácie</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Doplňujúce informácie</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Podmienky aukcie</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Sekcia, ktorá sa má upraviť</entry>
 <entry key="group|name|ND-NDA">Opis dohody o nezverejňovaní informácií</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Dôvod, prečo nebol vybratý víťaz (uverejnené neskôr)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Približná hodnota oznámenia (zverejnené neskôr)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Maximálna hodnota oznámenia (uverejnené neskôr)</entry>
 <entry key="group|name|ND-NoticeResult">Výsledok</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximálna hodnota skupiny častí</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Klasifikácia pre hlavnú komoditu časti</entry>
 <entry key="group|name|ND-PartPlacePerformance">Miesto plnenia</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Odkaz na predchádzajúce plánovanie</entry>
+<entry key="group|name|ND-PartProcurementDocument">Nákupné dokumenty pre časť</entry>
 <entry key="group|name|ND-PartReservedExecution">Rezervované vykonávanie zmluvy</entry>
 <entry key="group|name|ND-PartReservedProcurement">Vyhradené verejné obstarávanie</entry>
 <entry key="group|name|ND-PayerParty">Platiteľská organizácia</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Typ prijatých ponúk (uverejnené neskôr)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Štatistické údaje o prijatých ponukách</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Predočená hodnota (zverejnená neskôr)</entry>
+<entry key="group|name|ND-RevenueAllocation">Percento prerozdelovania príjmov</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Štatistické údaje týkajúce sa žiadostí o preskúmanie</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Počet nezrovnalostí podľa žiadostí o preskúmanie (uverejnené neskôr)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Druh nezrovnalostí podľa žiadostí o preskúmanie (uverejnené neskôr)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Hlavný dodávateľ</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Opis využitia subdodávateľov (uverejnené neskôr)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Subdodávka</entry>
+<entry key="group|name|ND-SubcontractingObligation">Záväzky súvisiace s subdodávkou</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Percentuálny podiel subdodávok je známy (uverejnené neskôr)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Percentuálny podiel subdodávok (uverejnené neskôr)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Využitie subdodávateľov (uverejnené neskôr)</entry>

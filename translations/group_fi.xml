@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Sisältö</entry>
 <entry key="group|name|GR-ContractingAuthority">Hankintaviranomainen</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Ostaja</entry>
+<entry key="group|name|GR-EU-Registration">EU-rekisterinumero</entry>
 <entry key="group|name|GR-Lot-AddInfo">Lisätietoa antava organisaatio</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Lisätiedot</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Huutokaupan ehdot</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Muutettava osio</entry>
 <entry key="group|name|ND-NDA">Salassapitosopimuksen kuvaus</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Syy, miksi voittajaa ei ole valittu (julkaistaan myöhemmin)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Ilmoituksen arvioitu arvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Ilmoituksen enimmäisarvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-NoticeResult">Tulokset</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Erien ryhmän enimmäisarvo</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Osan pääasiallisen hyödykkeen luokitus</entry>
 <entry key="group|name|ND-PartPlacePerformance">Suorituspaikka</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Aiemman suunnittelun viite</entry>
+<entry key="group|name|ND-PartProcurementDocument">Hankinta-asiakirjat osalle</entry>
 <entry key="group|name|ND-PartReservedExecution">Varattu sopimuksen täytäntöönpano</entry>
 <entry key="group|name|ND-PartReservedProcurement">Varattu hankintamenettely</entry>
 <entry key="group|name|ND-PayerParty">Maksava organisaatio</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Saatujen tarjousten/osallistumishakemusten tyyppi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Saatujen tarjousten/osallistumishakemusten tilastot</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Uudelleen arvioitu arvo (julkaistu myöhemmin)</entry>
+<entry key="group|name|ND-RevenueAllocation">Tulojen jakoprosentti</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Muutoksenhakupyyntöjen tilastot</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Muutoksenhaussa väitettyjen sääntöjenvastaisuuksien määrä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Muutoksenhaussa väitettyjen sääntöjenvastaisuuksien tyyppi (julkaistaan myöhemmin)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Pääurakoitsija</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Alihankinnan kuvaus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Alihankinta</entry>
+<entry key="group|name|ND-SubcontractingObligation">Alihankintaan liittyvät velvoitteet</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Alihankinnan osuus tiedossa (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Alihankinnan osuus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Alihankinta (julkaistaan myöhemmin)</entry>

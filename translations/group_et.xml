@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Sisu</entry>
 <entry key="group|name|GR-ContractingAuthority">Avaliku sektori hankija</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Hankija</entry>
+<entry key="group|name|GR-EU-Registration">ELi registreerimisnumber</entry>
 <entry key="group|name|GR-Lot-AddInfo">Lisateavet andev organisatsioon</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Lisateave</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Oksjoni tingimused</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Muudetav osa</entry>
 <entry key="group|name|ND-NDA">Konfidentsiaalsuskokkuleppe kirjeldus</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Põhjus, miks edukat pakkujat ei valitud (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Teate ligikaudne väärtus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Teate maksimaalne maksumus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-NoticeResult">Tulemus</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Osade rühma maksimaalne maksumus</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Osa põhikauba klassifikatsioon</entry>
 <entry key="group|name|ND-PartPlacePerformance">Lepingu täitmise koht</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Eelneva kavandamise viide</entry>
+<entry key="group|name|ND-PartProcurementDocument">Osa hankemenetluse dokumendid</entry>
 <entry key="group|name|ND-PartReservedExecution">Reserveeritud lepingu täitmine</entry>
 <entry key="group|name|ND-PartReservedProcurement">Reserveeritud hange</entry>
 <entry key="group|name|ND-PayerParty">Makseorganisatsioon</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Laekunud taotluste ja pakkumuste liik (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Laekunud taotluste ja pakkumuste statistika</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Ümberhinnatud väärtus (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-RevenueAllocation">Tulu jaotamise protsent</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Läbivaatamistaotluste statistika</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Läbivaatamistaotlustes väidetud rikkumiste arv (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Läbivaatamistaotlustes väidetud rikkumiste liik (avaldatakse hiljem)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Peatöövõtja</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Allhanke kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Alltöövõtt</entry>
+<entry key="group|name|ND-SubcontractingObligation">Alltöövõtuga seotud kohustused</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Allhanke protsendimäär on teada (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Allhanke protsendimäär (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Allhanked (avaldatakse hiljem)</entry>

@@ -1710,7 +1710,7 @@
             <SimpleValue>Valoarea estimată a acordurilor-cadru pentru grupul de loturi (BT-156)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Predpokladaná hodnota rámcových dohôd v skupine častí (BT-156)</SimpleValue>
+            <SimpleValue>Predpokladaná hodnota rámcových dohôd v skupine častí (BT-156)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Predvidena vrednost okvirnih sporazumov v skupini sklopov (BT-156)</SimpleValue>
@@ -1726,8 +1726,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Group Framework Re-estimated Value (BT-1561)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нова прогнозна стойност по рамковите споразумения по група обособени позиции (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Znovu odhadnutá hodnota rámcové dohody v rámci skupiny částí (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Revurderet værdi af rammeaftalerne i en gruppe af delkontrakter (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Neu geschätzter Wert der Rahmenvereinbarung innerhalb der Gruppe von Losen (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Επανεκτιμηθείσα αξία των συμφωνιών-πλαισίων εντός ομάδας παρτίδων (BT-1561)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Group Framework Re-estimated Value (BT-1561)</SimpleValue>
+            <SimpleValue>Re-estimated value of the framework agreements within a group of lots (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Valor recalculado de los acuerdos marco dentro de un grupo de lotes (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Raamlepingute uuesti arvutatud maksumus osade rühma lõikes (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Puitejärjestelyjen uudelleenarvioitu arvo erien ryhmässä (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur réestimée des accords-cadres dans un groupe de lots (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach athmheasta na gcreat-chomhaontuithe laistigh de ghrúpa beart (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ponovno procijenjena vrijednost okvirnih sporazuma unutar skupine grupa (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Részcsoporton belüli keretmegállapodások újrabecsült értéke (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore di riestimo dell'accordo quadro per un gruppo di lotti (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkimo dalių grupės iš naujo įvertinta vertė pagal preliminariąsias sutartis (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pamatnolīgumu pārrēķinātā aplēstā vērtība daļu grupā (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur stmat mill-ġdid tal-ftehimiet qafas fi ħdan grupp ta’ lottijiet (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Opnieuw geraamde waarde van de raamovereenkomsten binnen een groep percelen (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ponownie oszacowana wartość umów ramowych w grupie części zamówienia (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor reestimado dos acordos-quadro num grupo de lotes (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea recalculată a acordurilor-cadru pentru un grup de loturi (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prehodnotená hodnota rámcových dohôd v rámci skupiny častí (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ponovno ocenjena vrednost okvirnih sporazumov v skupini sklopov (BT-1561)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Nytt beräknat värde på ramavtalen inom den här gruppen av delkontrakt (BT-1561)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2121,7 +2190,7 @@
             <SimpleValue>Valoarea estimată a acordurilor-cadru din cadrul acestei proceduri (BT-118)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Predpokladaná hodnota rámcových dohôd v tomto postupe (BT-118)</SimpleValue>
+            <SimpleValue>Predpokladaná hodnota rámcových dohôd v tomto postupe (BT-118)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Ocenjena vrednost okvirnih sporazumov v tem postopku (BT-118)</SimpleValue>
@@ -2218,73 +2287,73 @@
             <SimpleValue>Notice Value (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Стойност на всички поръчки, възложени в рамките на тази процедура (BT-161)</SimpleValue>
+            <SimpleValue>Стойност на всички договори, възложени с това съобщение (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Hodnota všech zakázek zadaných v tomto řízení (BT-161)</SimpleValue>
+            <SimpleValue>Hodnota všech smluv udělených v tomto oznámení (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Værdien af alle de kontrakter, der tildeles i denne bekendtgørelse (BT-161)</SimpleValue>
+            <SimpleValue>Værdien af alle kontrakter tildelt i denne meddelelse (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Wert aller im Rahmen dieses Verfahrens vergebenen Aufträge (BT-161)</SimpleValue>
+            <SimpleValue>Wert aller in dieser Bekanntmachung vergebenen Verträge (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Αξία όλων των συμβάσεων που ανατέθηκαν στο πλαίσιο της παρούσας διαδικασίας (BT-161)</SimpleValue>
+            <SimpleValue>Αξία όλων των συμβάσεων που ανατέθηκαν με αυτήν την ειδοποίηση (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Value of all contracts awarded in this procedure (BT-161)</SimpleValue>
+            <SimpleValue>Value of all contracts awarded in this notice (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Valor de todos los contratos adjudicados en el presente procedimiento (BT-161)</SimpleValue>
+            <SimpleValue>Valor de todos los contratos adjudicados en este aviso (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Kõigi selle menetluse käigus sõlmitud lepingute maksumus (BT-161)</SimpleValue>
+            <SimpleValue>Kõigi selle teate alusel sõlmitud lepingute väärtus (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kaikkien tässä menettelyssä tehtyjen hankintasopimusten arvo (BT-161)</SimpleValue>
+            <SimpleValue>Kaikkien tässä ilmoituksessa myönnettyjen sopimusten arvo (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Valeur de tous les marchés attribués dans le cadre de la procédure en question (BT-161)</SimpleValue>
+            <SimpleValue>Valeur de tous les contrats attribués dans cet avis (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Luach na gconarthaí go léir a dámhadh sa nós imeachta seo (BT-161)</SimpleValue>
+            <SimpleValue>Luach gach conradh a bronnadh sa fógra seo (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Vrijednost svih ugovora dodijeljenih u ovom postupku (BT-161)</SimpleValue>
+            <SimpleValue>Vrijednost svih ugovora dodijeljenih u ovoj obavijesti (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Az ebben az eljárásban odaítélt valamennyi szerződés értéke (BT-161)</SimpleValue>
+            <SimpleValue>Az értesítésben odaítélt összes szerződés értéke (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Valore di tutti gli appalti aggiudicati nell'ambito della presente procedura (BT-161)</SimpleValue>
+            <SimpleValue>Valore di tutti i contratti assegnati in questo avviso (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Visų pagal šią procedūrą skiriamų sutarčių vertė (BT-161)</SimpleValue>
+            <SimpleValue>Visų šiame pranešime suteiktų sutarčių vertė (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Visu šajā procedūrā piešķirto līgumu vērtība (BT-161)</SimpleValue>
+            <SimpleValue>Visu šajā paziņojumā piešķirto līgumu vērtība (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Valur tal-kuntratti kollha mogħtija f’din il-proċedura (BT-161)</SimpleValue>
+            <SimpleValue>Valur ta' kull kuntratt mogħti f'dan l-avviż (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Waarde van alle in het kader van deze procedure gegunde opdrachten (BT-161)</SimpleValue>
+            <SimpleValue>Waarde van alle contracten toegekend in deze kennisgeving (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Wartość wszystkich zamówień udzielonych w ramach tego postępowania (BT-161)</SimpleValue>
+            <SimpleValue>Wartość wszystkich umów przyznanych w tym zawiadomieniu (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Valor de todos os contratos adjudicados no âmbito deste procedimento (BT-161)</SimpleValue>
+            <SimpleValue>Valor de todos os contratos adjudicados neste aviso (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Valoarea tuturor contractelor atribuite în cadrul acestei proceduri (BT-161)</SimpleValue>
+            <SimpleValue>Valoarea tuturor contractelor atribuite în această notificare (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Hodnota všetkých zákaziek zadaných v tomto postupe (BT-161)</SimpleValue>
+            <SimpleValue>Hodnota všetkých zmlúv udelených v tomto oznámení (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Vrednost vseh javnih naročil, oddanih v tem postopku (BT-161)</SimpleValue>
+            <SimpleValue>Vrednost vseh pogodb, dodeljenih v tem obvestilu (BT-161)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Värdet av alla de kontrakt som tilldelas i det här förfarandet (BT-161)</SimpleValue>
@@ -2621,7 +2690,7 @@
             <SimpleValue>Брой на получените оферти или заявления за участие (BT-759)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Počet doručených nabídek nebo žádostí o účast (BT-759)</SimpleValue>
+            <SimpleValue>Počet doručených nabídek nebo žádostí o účast (BT-759)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Antal modtagne tilbud og ansøgninger om deltagelse (BT-759)</SimpleValue>
@@ -2681,7 +2750,7 @@
             <SimpleValue>Numărul de oferte/ cereri de participare primite (BT-759)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Počet prijatých ponúk alebo žiadostí o účasť (BT-759)</SimpleValue>
+            <SimpleValue>Počet prijatých ponúk alebo žiadostí o účasť (BT-759)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Število prejetih ponudb ali prijav za sodelovanje (BT-759)</SimpleValue>
@@ -2777,8 +2846,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Framework Re-estimated Value (BT-660)</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нова прогнозна стойност за рамковото споразумение (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Znovu odhadnutá hodnota rámcové dohody (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Revurderet værdi af rammeaftalen (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Neu geschätzter Wert der Rahmenvereinbarung (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Επανεκτιμηθείσα αξία της συμφωνίας-πλαισίου (BT-660)</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Framework Re-estimated Value (BT-660)</SimpleValue>
+            <SimpleValue>Re-estimated value of the framework agreement (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Nuevo valor estimado del acuerdo marco (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Raamlepingu uuesti arvutatud maksumus (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Puitejärjestelyn uudelleenarvioitu arvo (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Valeur réestimée de l’accord-cadre (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Luach athmheasta an chreat-chomhaontaithe (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ponovno procijenjena vrijednost okvirnog sporazuma (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A keretmegállapodás újrabecsült értéke (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Valore di riestimo dell'accordo quadro (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Preliminariosios sutarties iš naujo įvertinta vertė (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pamatnolīguma pārrēķinātā aplēstā vērtība (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Valur stmat mill-ġdid tal-ftehim qafas (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Opnieuw geraamde waarde van de raamovereenkomst (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ponownie oszacowana wartość umowy ramowej (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Valor reestimado do acordo-quadro (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Valoarea recalculată a acordului-cadru (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Prehodnotená hodnota rámcovej dohody (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ponovno ocenjena vrednost okvirnega sporazuma (BT-660)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Nytt beräknat värde på ramavtalet (BT-660)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3172,7 +3310,7 @@
             <SimpleValue>Procentul estimat din contract pe care contractantul îl va subcontracta unor terți, în raport cu întregul contract (BT-731)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Predpokladaný percentuálny podiel zákazky, ktorý dodávateľ zadá tretím stranám v porovnaní s celou zákazkou (BT-731)</SimpleValue>
+            <SimpleValue>Predpokladaný percentuálny podiel zákazky, ktorý dodávateľ zadá tretím stranám v porovnaní s celou zákazkou (BT-731)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Predvideni delež javnega naročila, ki ga bo izvajalec oddal tretjim osebam v primerjavi s celotnim javnim naročilom (BT-731)</SimpleValue>
@@ -3412,7 +3550,7 @@
             <SimpleValue>Locul pe lista câștigătorilor (BT-171)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Poradie v zozname víťazov (BT-171)</SimpleValue>
+            <SimpleValue>Poradie v zozname víťazov (BT-171)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Razvrstitev na seznamu zmagovalcev (BT-171)</SimpleValue>

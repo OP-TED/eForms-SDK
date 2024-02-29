@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Περιεχόμενο</entry>
 <entry key="group|name|GR-ContractingAuthority">Αναθέτουσα αρχή</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Αγοραστής</entry>
+<entry key="group|name|GR-EU-Registration">Αριθμός εγγραφής ΕΕ</entry>
 <entry key="group|name|GR-Lot-AddInfo">Οργανισμός παροχής συμπληρωματικών πληροφοριών</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Συμπληρωματικές πληροφορίες</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Όροι του πλειστηριασμού</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Τμήμα που πρέπει να τροποποιηθεί</entry>
 <entry key="group|name|ND-NDA">Περιγραφή της συμφωνίας τήρησης απορρήτου</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Λόγος για τον οποίο δεν επιλέχθηκε ο νικητής (δημοσίευση αργότερα)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Προσεγγιστική αξία της ειδοποίησης (δημοσιεύεται αργότερα)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Μέγιστη αξία προκήρυξης / γνωστοποίησης (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-NoticeResult">Αποτέλεσμα</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Μέγιστη αξία ομάδας παρτίδων</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Ταξινόμηση του κύριου προϊόντος ενός μέρους</entry>
 <entry key="group|name|ND-PartPlacePerformance">Τόπος εκτέλεσης</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Παραπομπή σε προηγούμενο προγραμματισμό</entry>
+<entry key="group|name|ND-PartProcurementDocument">Έγγραφα προμήθειας για τμήμα</entry>
 <entry key="group|name|ND-PartReservedExecution">Εκτέλεση κατακύρωσης σύμβασης</entry>
 <entry key="group|name|ND-PartReservedProcurement">Κατ’ αποκλειστικότητα ανάθεση σύμβασης</entry>
 <entry key="group|name|ND-PayerParty">Οργανισμός πληρωμής</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Είδος παραληφθείσας προσφοράς (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Στατιστικές σχετικά με τις προσφορές που παραλήφθηκαν</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Επανεκτιμημένη αξία (δημοσιεύτηκε αργότερα)</entry>
+<entry key="group|name|ND-RevenueAllocation">Ποσοστό κατανομής εσόδων</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Στατιστικές σχετικά με τις προδικαστικές προσφυγές</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Αριθμός παρατυπιών στο πλαίσιο προδικαστικών προσφυγών (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Είδος παρατυπιών στο πλαίσιο προδικαστικών προσφυγών (δημοσίευση αργότερα)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Κύριος ανάδοχος</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Περιγραφή υπεργολαβίας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Υποεργολαβία</entry>
+<entry key="group|name|ND-SubcontractingObligation">Υποχρεώσεις σχετικά με την υπεργολαβία</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Το ποσοστό υπεργολαβίας είναι γνωστό (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Ποσοστό υπεργολαβίας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Υπεργολαβία (δημοσίευση αργότερα)</entry>

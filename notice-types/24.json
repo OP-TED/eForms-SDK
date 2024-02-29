@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.10.0",
-    "createdOn" : "2023-11-15T14:00:00"
+    "version" : "1.10.276",
+    "createdOn" : "2024-02-22T15:37:01"
   },
   "noticeId" : "24",
   "metadata" : [ {
@@ -613,6 +613,7 @@
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
     "_identifierFieldId" : "BT-137-Lot",
+    "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
     "content" : [ {
       "id" : "BT-137-Lot",
@@ -1774,8 +1775,7 @@
           "_idSchemes" : [ "ORG", "TPO" ]
         } ]
       } ]
-    } ],
-    "_captionFieldId" : "BT-21-Lot"
+    } ]
   }, {
     "id" : "GR-LotsGroup",
     "contentType" : "group",
@@ -1786,6 +1786,7 @@
     "_idScheme" : "GLO",
     "_schemeName" : "LotsGroup",
     "_identifierFieldId" : "BT-137-LotsGroup",
+    "_captionFieldId" : "BT-21-LotsGroup",
     "_repeatable" : true,
     "content" : [ {
       "id" : "GR-LotsGroup-Purpose",
@@ -1964,8 +1965,7 @@
           "_label" : "field|name|BT-733-LotsGroup"
         } ]
       } ]
-    } ],
-    "_captionFieldId" : "BT-21-LotsGroup"
+    } ]
   }, {
     "id" : "GR-Change",
     "contentType" : "group",
@@ -2051,6 +2051,7 @@
       "_idScheme" : "ORG",
       "_schemeName" : "organization",
       "_identifierFieldId" : "OPT-200-Organization-Company",
+      "_captionFieldId" : "BT-500-Organization-Company",
       "_repeatable" : true,
       "content" : [ {
         "id" : "OPT-200-Organization-Company",
@@ -2222,6 +2223,7 @@
         "_idScheme" : "TPO",
         "_schemeName" : "touchpoint",
         "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
+        "_captionFieldId" : "BT-500-Organization-TouchPoint",
         "_repeatable" : true,
         "collapsed" : true,
         "content" : [ {
@@ -2337,10 +2339,8 @@
             "description" : "Contact Fax",
             "_label" : "field|name|BT-739-Organization-TouchPoint"
           } ]
-        } ],
-        "_captionFieldId" : "BT-500-Organization-TouchPoint"
-      } ],
-      "_captionFieldId" : "BT-500-Organization-Company"
+        } ]
+      } ]
     } ]
   } ]
 }

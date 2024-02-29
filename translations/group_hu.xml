@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Tartalom</entry>
 <entry key="group|name|GR-ContractingAuthority">Ajánlatkérő szerv</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Vevő</entry>
+<entry key="group|name|GR-EU-Registration">EU-regisztrációs szám</entry>
 <entry key="group|name|GR-Lot-AddInfo">További információkat szolgáltató szervezet</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">További információk</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Az árlejtés feltételei</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Módosítandó szakasz</entry>
 <entry key="group|name|ND-NDA">A nem differenciált előirányzatok ismertetése</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">Ok, amiért nem választottak ki nyertest (később közzétéve)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Értesítés hozzávetőleges értéke (később közzétett)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Hirdetmény maximális értéke (később közzétéve)</entry>
 <entry key="group|name|ND-NoticeResult">Eredmény</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">A részek csoportjának maximális értéke</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">A hirdetményrész fő árucikkének besorolása</entry>
 <entry key="group|name|ND-PartPlacePerformance">Teljesítési hely</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Előzetes tervezés hivatkozása</entry>
+<entry key="group|name|ND-PartProcurementDocument">Beszerzési dokumentumok a részhez</entry>
 <entry key="group|name|ND-PartReservedExecution">Fenntartott szerződés teljesítése</entry>
 <entry key="group|name|ND-PartReservedProcurement">Fenntartott közbeszerzés</entry>
 <entry key="group|name|ND-PayerParty">Fizető szervezet</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Beérkezett beadvány típusa (később közzétéve)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Beérkezett beadványok – statisztikák</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Újrabecsült érték (később közzétéve)</entry>
+<entry key="group|name|ND-RevenueAllocation">Bevétel-elosztási százalék</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Felülvizsgálati kérelmek – statisztikák</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Felülvizsgálati kérelemben jelzett szabálytalanságok száma (később közzétéve)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Felülvizsgálati kérelemben jelzett szabálytalanságok típusa (később közzétéve)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Fővállalkozó</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Alvállalkozásba adás ismertetése (később közzétéve)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Alvállalkozás</entry>
+<entry key="group|name|ND-SubcontractingObligation">A szubkontraktussal kapcsolatos kötelezettségek</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Alvállalkozásba adott szerződésrész százalékos aránya ismert (később közzétéve)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Alvállalkozásba adás ismertetése (később közzétéve)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Alvállalkozásba adás (később közzétéve)</entry>

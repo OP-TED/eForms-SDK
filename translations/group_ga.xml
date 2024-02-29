@@ -19,6 +19,7 @@
 <entry key="group|name|GR-Content">Ábhar</entry>
 <entry key="group|name|GR-ContractingAuthority">An t-údarás conarthach</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Ceannaitheoir</entry>
+<entry key="group|name|GR-EU-Registration">Uimhir clárúcháin AE</entry>
 <entry key="group|name|GR-Lot-AddInfo">An eagraíocht a chuireann eolas breise ar fáil</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Eolas breise</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Téarmaí an cheant</entry>
@@ -357,6 +358,7 @@
 <entry key="group|name|ND-ModifiedSection">Rannán le hathrú</entry>
 <entry key="group|name|ND-NDA">Cur síos ar an NDA</entry>
 <entry key="group|name|ND-NotAwardedReasonUnpublish">An fáth nár roghnaíodh buaiteoir (le foilsiú níos déanaí)</entry>
+<entry key="group|name|ND-NoticeApproximateValueUnpublish">Luach measta an fógra (foilsithe níos déanaí)</entry>
 <entry key="group|name|ND-NoticeMaximumValueUnpublish">Uasluach an fhógra (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-NoticeResult">Toradh</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Uasluach an ghrúpa luchtóg</entry>
@@ -377,6 +379,7 @@
 <entry key="group|name|ND-PartMainClassification">Aicmiú le haghaidh príomh-thráchtearra coda</entry>
 <entry key="group|name|ND-PartPlacePerformance">An áit feidhmíochta</entry>
 <entry key="group|name|ND-PartPreviousPlanning">Tagairt pleanála roimhe seo</entry>
+<entry key="group|name|ND-PartProcurementDocument">Doiciméid soláthairte do chuid</entry>
 <entry key="group|name|ND-PartReservedExecution">Gníomhú conarthaí faoi chúram</entry>
 <entry key="group|name|ND-PartReservedProcurement">Soláthar forchoimeádta</entry>
 <entry key="group|name|ND-PayerParty">Eagraíocht íocaíochta</entry>
@@ -401,6 +404,7 @@
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">An cineál aighneachta a fuarthas (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-ReceivedSubmissions">Staitisticí na n-aighneachtaí a fuarthas</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Luach ath-mheasúnaithe (foilsithe níos déanaí)</entry>
+<entry key="group|name|ND-RevenueAllocation">Céatadán dáileacháin ioncaim</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Staitisticí maidir le hiarratais ar athbhreithniú</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Comhaireamh neamhrialtachta na n-iarratas ar athbhreithniú (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Cineál neamhrialtachta na n-iarratas ar athbhreithniú (le foilsiú níos déanaí)</entry>
@@ -419,6 +423,7 @@
 <entry key="group|name|ND-SubContractorTakerReference">Príomhthreoraithe</entry>
 <entry key="group|name|ND-SubcontractingDescriptionUnpublish">Cur síos ar an bhfochonraitheoireacht (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-SubcontractingIndication">Fóráil íoschonartha</entry>
+<entry key="group|name|ND-SubcontractingObligation">Dualgais a bhaineann le foirneartú</entry>
 <entry key="group|name|ND-SubcontractingPercentageKnownUnpublish">Is eol céatadán na fochonraitheoireachta (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-SubcontractingPercentageUnpublish">Céatadán na fochonraitheoireachta (le foilsiú níos déanaí)</entry>
 <entry key="group|name|ND-SubcontractingUnpublish">Fochonraitheoireacht (le foilsiú níos déanaí)</entry>
