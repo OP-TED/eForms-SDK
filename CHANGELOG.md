@@ -4,27 +4,23 @@ This release of the SDK does not contain any backwards incompatible changes: sof
 
 ## Additional information
 
+TEDEFO-2971
+Add a schemas/schemas.json index file
+
+TEDEFO-3076
+SDK Schematrons json, index file
+
+TEDEFO-2970
+Codelist index, add codelist version
+
 ## Updated metadata content
 
 ### Schema, nodes, fields and notice type definitions
 
 #### Fields
-TEDEFO-3120
-fields json business entities labelId key value
-
-TEDEFO-3042
-Define a Business Entity for X01/X02 Notice Types fields : BT-501-Business-European 
-
-TEDEFO-3042
-Define a Business Entity for X01/X02 Notice Types fields
 
 TEDEFO-3083
 Make the node ND-Modification not repeatable (a single description associated to the list of modified sections)
-
-!!!!! TEDEFO-2941
-Assigning each existing field to a business_entity
-
-The business entities will not be exported in SDK 1.11 (in fields.json and elsewhere) but they are used internally by the MDC as the business entities replaced some older columns. This is why this is a task and not a feature. 
 
 TEDEFO-2552
 Second stage rule on maximum candidates not consistent with Regulation Annex
@@ -32,68 +28,29 @@ Second stage rule on maximum candidates not consistent with Regulation Annex
 TEDEFO-2907
 Correct the inappropriately defined field BT-150-Contract-Scheme
 
-
 TEDEFO-3046
 Define field for the Review Technical Identifier
 
-TEDEFO-3041
-Define the reviewInformation business entity and associated data
-
 #### Schemas
+
 TEDEFO-3045
 Update the XSD to add a new element for the Review Technical Identifier
 
-
 #### Notice types
+
 TEDEFO-2896
 BT-01(e)-Procedure and BT-01(f)Procedure missing in 1
 
 TEDEFO-3056
-GR-Part-DPS in subtype 5 corrected from SECTION to GROUP 
-
-GR-ChangedSectionIdentifiers in subtype 13 corrected from SECTION to GROUP 
-
-TEDEFO-3131
-Addition of businessEntityId in repeatable groups of the NTDs
+GR-Part-DPS in subtype 5 corrected from SECTION to GROUP
+GR-ChangedSectionIdentifiers in subtype 13 corrected from SECTION to GROUP
 
 ### Rules
 
-### Codelists
-TEDEFO-3002
-measurement-unit: 
-Added a unit for ""piece"" with code H87; removed 39 redundant units,  
-eu-programme: 
-Updated labels (including adding the years for programmes with the same name like ERDF) 
-corporate-body: 
-Added CJU, which replaces KDTJU 
-vehicle-category: 
-Added one Irish translation for ""m3"" 
+TEDEFO-2928 Added a prefix "eforms-" in Schematron phase identifiers, because identifiers should not start with a digit. This might require an adaptation if you are executing the Schematron rules and use the phases introduced in SDK 1.10.0.
 
-TEDEFO-2595
-The measurement-unit codelist does not contain a "unit" or "piece" code while the unitCode attribute for the measure is required following the XSD
+TEDEFO-719 Added rules to check that required XML attributes like "listName", "currencyID", "unitCode", or "schemeName" are present.
 
-TEDEFO-3047:
-Add missing croatian labels in CPV (codelist of January 2024)
-
-TEDEFO-2862
-CPV missing croatian translation
-
-TEDEFO-2953
-Replace eforms-country codelist by the filtered country codelist
-
-TEDEFO-2062
-Sync all codelists once with SKOS AP even if version did not change
-
-TEDEFO-2955
-December 2023 update of codelists
-
-TEDEFO-3115
-Update "Direct Award Justification" and "Procurement Procedure Type" codelists to meet DG MOVE forms requirements
-
-TEDEFO-2970
-Codelist index, add codelist version
-
-#### Schematron
 TEDEFO-2667
 Allow Renewal Description (BT-57-Lot) when Renewal Maximum (BT-58) is not null
 
@@ -139,9 +96,6 @@ Rules: Rules for uniqueness of WeightNumber should be Lot-specific
 TEDEFO-2898
 Review the BT-106-Procedure conditional Rules and ensure they comply with the agreed upon table for procedure accelerated
 
-TEDEFO-2928
-schematrons - Phase identifier cannot start with a number
-
 TEDEFO-2849
 Activate rules for No Negotiation Necessary (BT-120-Lot)
 
@@ -158,7 +112,7 @@ TEDEFO-3091
 Update message for Schematron rule on dispatch date
 
 TEDEFO-2987
-Make the rules for unique identifiers consistent (does not affect actual validation) 
+Make the rules for unique identifiers consistent (does not affect actual validation)
 
 TEDEFO-2723
 Remove manual Schematron that make request to old TED website API
@@ -286,50 +240,82 @@ Provision of Buyer Review Complainants (BT-712) only possible once competition i
 TEDEFO-2873
 Allow for Buyer Review Requests Irregularity Type (BT-636) when competition is over and require Buyer Review Requests Count (BT-635) once BT-636 specified
 
-TEDEFO-719
-Generate schematron rules for presence of attributes
-
-1/ An attribute field must always be present when the corresponding "element" field is present if one of the following is true: 
-- the attribute is "listName", "currencyID" or "unitCode" 
-- the attribute is "schemeName" and the field has a "codeList" property or a preset value (current exceptions are "OPP-124-Business-Scheme" and "BT-01(c)-Procedure-Scheme"). 
-If the attribute is "languageID", nothing to do, its presence is already check by "multilingual" rules. 
-2/ Rules for forbidding attribute fields are not useful (attribute cannot be in the XML if the element is not). 
-3/ Rules are for Schematron only, as they don't make sense for a form UI 
-
 TEDEFO-3096
 In Contract Modifications, current rules prevent the specification of Framework Agreement values
 
 TEDEFO-2620
 Make Tender Value, Highest & Lowest (BT-720, BT-711, BT-710) forbidden when competition ongoing; Tender Value (BT-720) mandatory if no FA or contracts within a FA; FA Re-calculated Max Value or Re-estimated Value (BT-709, BT-660) mandatory for a FA
 
-TEDEFO-3076
-SDK Schematrons json, index file
+### Codelists
+
+TEDEFO-3002 Update various codelists based on the latest pubilcations on EU Vocabularies: "measurement-unit", "eu-programme", "corporate-body", "vehicle-category"
+
+TEDEFO-2595
+The measurement-unit codelist does not contain a "unit" or "piece" code while the unitCode attribute for the measure is required following the XSD
+
+TEDEFO-3047:
+Add missing croatian labels in CPV (codelist of January 2024)
+
+TEDEFO-2862
+CPV missing croatian translation
+
+TEDEFO-2953
+Replace eforms-country codelist by the filtered country codelist
+
+TEDEFO-2062
+Sync all codelists once with SKOS AP even if version did not change
+
+TEDEFO-2955
+December 2023 update of codelists
+
+TEDEFO-3115
+Update "Direct Award Justification" and "Procurement Procedure Type" codelists to meet DG MOVE forms requirements
 
 ### View templates
 
+TEDEFO-2984
+EFXT: Results section missing when no LotTenders present
+
+TEDEFO-3062
+EFXT: BT-717 Clean Vehicles Directive does not show in the publication
+
+TEDEFO-2535
+EFXT: Complete EFX templates for CEI
+
+TEDEFO-2895
+EFXT: Restore broken summary views
+
+TEDEFO-2926
+EFXT: Fix wrong Orgs appearing in Names of non-leaders for this Winner
+
+TEDEFO-2921
+EFXT: Second Tenderer in winning TenderingParty not displayed
+
+TEDEFO-3032
+EFXT: Lines appearing when Field is not present
+
+TEDEFO-2945
+EFXT: Update display of Fields when value is FALSE
+
+TEDEFO-2854
+EFXT: update templates to display sequence of codes as labels
+
+TEDEFO-2814
+EFXT: Write new Winner section for DAP subtypes 25-28
+
 ### Labels and translations
+
 TEDEFO-2976
 Improve the label of rule BR-BT-00051-0100 for criteria used for the 2nd stage
 
 TEDEFO-2890
 Missing translations from some codelists
 
-
 TEDEFO-2989
 Rules: Labels for BT-19-Lot rules are opposite
 
-
-TEDEFO-3111
-Business entity name labels and translation
-
-
 TEDEFO-2990
 Rules: Label for BR-BT-01311-0152 is wrong
-
-
-TEDEFO-3034
-Invalid characters in some "expression" translations in ES and GA
-
 
 TEDEFO-3082
 Translate the expression label expression|name|341
@@ -383,46 +369,13 @@ TEDEFO-3116
 Update "Direct Award Justification" and "Procurement Procedure Type" code labels for codes used in DG MOVE forms
 
 TEDEFO-2913
-rule|text|BR-BT-00067-0106 
-Text in EN and FR, but did not match the rule. EN text correct, FR test removed 
+rule|text|BR-BT-00067-0106
+Text in EN and FR, but did not match the rule. EN text correct, FR test removed
 
-TEDEFO-2984
-EFXT: Results section missing when no LotTenders present
-
-TEDEFO-3062
-EFXT: BT-717 Clean Vehicles Directive does not show in the publication
-
-TEDEFO-2535
-EFXT: Complete EFX templates for CEI
-
-TEDEFO-2895
-EFXT: Restore broken summary views
-
-TEDEFO-2926
-EFXT: Fix wrong Orgs appearing in Names of non-leaders for this Winner
-
-TEDEFO-2921
-EFXT: Second Tenderer in winning TenderingParty not displayed
-
-TEDEFO-3032
-EFXT: Lines appearing when Field is not present
-
-TEDEFO-2945
-EFXT: Update display of Fields when value is FALSE
-
-TEDEFO-2854
-EFXT: update templates to display sequence of codes as labels
-
-TEDEFO-2814
-EFXT: Write new Winner section for DAP subtypes 25-28
-
-TEDEFO-2971
-Add a schemas/schemas.json index file as part of the export process
-### Examples
+As new rules were added, a notice that was valid with SDK 1.10.x might not be valid with this version.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
 This release note does not cover the details of all changes.
 
 A comprehensive list of changes between SDK 1.10.0 and SDK 1.11.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.10.0...1.11.0>
-
