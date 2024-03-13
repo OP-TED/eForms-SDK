@@ -4,18 +4,23 @@ This release of the SDK does not contain any backwards incompatible changes: sof
 
 ## Additional information
 
-TEDEFO-2971
-Add a schemas/schemas.json index file
+Two new index files were added :
 
-TEDEFO-3076
-SDK Schematrons json, index file
+* `schemas.json` in the `schemas` folder, with information on each XSD file available under this folder.
+* `schematrons.json`in the `schematrons` folder, with information on each Schematron file available under this folder.
 
-TEDEFO-2970
-Codelist index, add codelist version
+In the index file `codelists\codelists.json`, we have added a "version" property for each codelist.
 
 ## Updated metadata content
 
 ### Schema, nodes, fields and notice type definitions
+
+For contract modification notices, the field BT-1501(s)-Contract was replaced by 2 fields:
+
+* BT-1501(c)-Contract for the identifier of the contract being modified, with a new element named efbc:ModifiedContractIdentifier added in the schema.
+* BT-1501(p)-Contract for the identifiers of other sections of the notice impacted by the modification.
+
+A new field OPT-093-Review was added with the corresponding element added in the schema under efac:AppealStatus. This field is currently not used, and is intended for the new "Contract completion" notices that will be added in a future version.
 
 #### Fields
 
@@ -27,14 +32,6 @@ Second stage rule on maximum candidates not consistent with Regulation Annex
 
 TEDEFO-2907
 Correct the inappropriately defined field BT-150-Contract-Scheme
-
-TEDEFO-3046
-Define field for the Review Technical Identifier
-
-#### Schemas
-
-TEDEFO-3045
-Update the XSD to add a new element for the Review Technical Identifier
 
 #### Notice types
 
@@ -49,7 +46,7 @@ GR-ChangedSectionIdentifiers in subtype 13 corrected from SECTION to GROUP
 
 TEDEFO-2928 Added a prefix "eforms-" in Schematron phase identifiers, because identifiers should not start with a digit. This might require an adaptation if you are executing the Schematron rules and use the phases introduced in SDK 1.10.0.
 
-TEDEFO-719 Added rules to check that required XML attributes like "listName", "currencyID", "unitCode", or "schemeName" are present.
+TEDEFO-719 Added rules to check that required XML attributes "listName", "currencyID" are present.
 
 TEDEFO-2667
 Allow Renewal Description (BT-57-Lot) when Renewal Maximum (BT-58) is not null
