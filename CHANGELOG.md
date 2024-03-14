@@ -256,35 +256,21 @@ Update "Direct Award Justification" and "Procurement Procedure Type" codelists t
 
 ### View templates
 
-TEDEFO-2984
-EFXT: Results section missing when no LotTenders present
+The Winner section is now displayed for VEAT (direct award) notices that do not include a LotResult
 
-TEDEFO-3062
-EFXT: BT-717 Clean Vehicles Directive does not show in the publication
+The Results section will now be displayed for notices with no Tenders included
 
-TEDEFO-2535
-EFXT: Complete EFX templates for CEI
+CEI notices ("Call for expressions of interest") are now displayed in full
 
-TEDEFO-2895
-EFXT: Restore broken summary views
+Translated labels are now displayed for all codes
 
-TEDEFO-2926
-EFXT: Fix wrong Orgs appearing in Names of non-leaders for this Winner
+New Fields in Modifications now displayed
 
-TEDEFO-2921
-EFXT: Second Tenderer in winning TenderingParty not displayed
+Fixed display issues with: BT-1711-Tender "Tender Ranked", BT-717 "Clean Vehicles Directive", Tendering Party Organisation Names
 
-TEDEFO-3032
-EFXT: Lines appearing when Field is not present
+Several Fields will now be displayed even when their value is negative, i.e. "no" or "false" or "none" or "not-allowed"
 
-TEDEFO-2945
-EFXT: Update display of Fields when value is FALSE
 
-TEDEFO-2854
-EFXT: update templates to display sequence of codes as labels
-
-TEDEFO-2814
-EFXT: Write new Winner section for DAP subtypes 25-28
 
 ### Labels and translations
 
