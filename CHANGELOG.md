@@ -15,36 +15,20 @@ In the index file `codelists\codelists.json`, we have added a "version" property
 
 ### Schema, nodes, fields and notice type definitions
 
-For contract modification notices, the field BT-1501(s)-Contract was replaced by 2 fields:
-
-* BT-1501(c)-Contract for the identifier of the contract being modified, with a new element named efbc:ModifiedContractIdentifier added in the schema.
-* BT-1501(p)-Contract for the identifiers of other sections of the notice impacted by the modification.
-
-A new field OPT-093-Review was added with the corresponding element added in the schema under efac:AppealStatus. This field is currently not used, and is intended for the new "Contract completion" notices that will be added in a future version.
-
-#### Fields
-
-TEDEFO-3083
-Make the node ND-Modification not repeatable (a single description associated to the list of modified sections)
-
-TEDEFO-2552
-Second stage rule on maximum candidates not consistent with Regulation Annex
-
-TEDEFO-2907
-Correct the inappropriately defined field BT-150-Contract-Scheme
-
-#### Notice types
-
-TEDEFO-2896
-BT-01(e)-Procedure and BT-01(f)Procedure missing in 1
-
-TEDEFO-3056
-GR-Part-DPS in subtype 5 corrected from SECTION to GROUP
-GR-ChangedSectionIdentifiers in subtype 13 corrected from SECTION to GROUP
+* For contract modification notices, the field BT-1501(s)-Contract was replaced by 2 fields:
+  * BT-1501(c)-Contract for the identifier of the contract being modified, with a new element named `efbc:ModifiedContractIdentifier` added in the schema.
+  * BT-1501(p)-Contract for the identifiers of other sections of the notice impacted by the modification.
+* A new field OPT-093-Review was added for the review technical identifier, with the corresponding element added in the schema under `efac:AppealStatus`. This field is currently not used, and is intended for the new "Contract completion" notices that will be added in a future version.
+* The field BT-150-Contract-Scheme was removed, as the corresponding attribute is not needed in the XML.
+* The node ND-Modification was corrected to not be repeatable.
+* The notice type definitions for subtypes 14 and 15 were updated for the fields related to the second stage invitation.
+* The notice type definition for subtype 1 was corrected to add fields BT-01(e)-Procedure and BT-01(f)Procedure.
+* The notice type definition for subtype 5 was corrected to change GR-Part-DPS from SECTION to GROUP.
+* The notice type definition for subtype 13 was corrected to change GR-ChangedSectionIdentifiers from SECTION to GROUP.
 
 ### Rules
 
-TEDEFO-2928 Added a prefix "eforms-" in Schematron phase identifiers, because identifiers should not start with a digit. This might require an adaptation if you are executing the Schematron rules and use the phases introduced in SDK 1.10.0.
+In the schematron files, the identifiers for the phases added in SDK 1.10.0 now all start with an "eforms-" prefix. This was necessary because the Schematron standard requires that identifiers do not start with a digit. This might require an adaptation if you are executing the Schematron rules and use the phases introduced in SDK 1.10.0.
 
 TEDEFO-719 Added rules to check that required XML attributes "listName", "currencyID" are present.
 
@@ -77,6 +61,8 @@ Rules: BR-OPT-00301-1411 has wrong Field in Description
 
 TEDEFO-2952
 Allow for 2nd stage BTs for Notice Subtype 14 instead of 15 and activate conditional rules
+TEDEFO-2552
+Second stage rule on maximum candidates not consistent with Regulation Annex
 
 TEDEFO-2963
 Update the rules that involve comparison of summed decimal values by including a tolerance
