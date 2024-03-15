@@ -38164,7 +38164,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "7", "10", "14", "16", "17", "19" ],
-        "condition" : "{ND-LotReviewTerms} ${BT-99-Lot is present}",
+        "condition" : "{ND-LotReviewTerms} ${BT-99-Lot is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
