@@ -32452,7 +32452,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "23", "24" ],
-        "condition" : "{ND-LateTendererInformation} ${BT-771-Lot not in ('late-all','late-some')}",
+        "condition" : "{ND-LateTendererInformation} ${BT-771-Lot not in ('late-all','late-some') or BT-771-Lot is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
