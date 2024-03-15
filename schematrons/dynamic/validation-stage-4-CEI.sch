@@ -85,8 +85,8 @@
 		<assert id="BR-BT-00802-0017" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode/normalize-space(text()) = 'true')">rule|text|BR-BT-00802-0017</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution'][$noticeSubType = 'CEI']">
-		<assert id="BR-OPT-00070-0067" role="ERROR" diagnostics="OPT-070-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:ExecutionRequirementCode/normalize-space(text()) = 'true')">rule|text|BR-OPT-00070-0067</assert>
-		<assert id="BR-OPT-00070-0104" role="ERROR" diagnostics="OPT-070-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode/normalize-space(text()) = 'true')">rule|text|BR-OPT-00070-0104</assert>
+		<assert id="BR-OPT-00070-0067" role="ERROR" diagnostics="OPT-070-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:ExecutionRequirementCode/normalize-space(text()) = 'yes')">rule|text|BR-OPT-00070-0067</assert>
+		<assert id="BR-OPT-00070-0104" role="ERROR" diagnostics="OPT-070-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode/normalize-space(text()) = 'yes')">rule|text|BR-OPT-00070-0104</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding[$noticeSubType = 'CEI']">
 		<assert id="BR-BT-06140-0017" role="ERROR" diagnostics="BT-6140-Lot" test="count(cbc:Description) = 0 or not(not(cbc:FundingProgramCode) and not(efbc:FinancingIdentifier))">rule|text|BR-BT-06140-0017</assert>

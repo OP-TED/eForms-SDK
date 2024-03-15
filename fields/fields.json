@@ -36066,7 +36066,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "CEI" ],
-        "condition" : "{ND-LotReservedExecution} ${not(BT-736-Lot == 'true')}",
+        "condition" : "{ND-LotReservedExecution} ${not(BT-736-Lot == 'yes')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
