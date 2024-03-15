@@ -457,12 +457,6 @@
                        test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00300-0289</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-300-Procedure-Buyer-Scheme_MA"
-                       location="/can:ContractAwardNotice/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-300-Procedure-Buyer-Scheme_MA</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"/>
    <svrl:failed-assert id="BR-BT-00262-0153"
                        location="/can:ContractAwardNotice/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"
@@ -524,12 +518,6 @@
                        role="ERROR"
                        test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00301-1216</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-301-Lot-ReviewOrg-Scheme_MA"
-                       location="/can:ContractAwardNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-301-Lot-ReviewOrg-Scheme_MA</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:PresentationPeriod/cbc:Description/@languageID"/>
@@ -608,12 +596,6 @@
                        test="matches(normalize-space(.),'^CON-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00315-0051</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-315-LotResult-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-315-LotResult-Scheme_MA</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00321-0052"
@@ -621,12 +603,6 @@
                        role="ERROR"
                        test="matches(normalize-space(.),'^TEN-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00321-0052</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-321-Tender-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-321-Tender-Scheme_MA</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderReference/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID"/>
@@ -636,24 +612,12 @@
                        test="matches(normalize-space(.),'^TPA-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00310-0052</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-310-Tender-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-310-Tender-Scheme_MA</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00316-0052"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^CON-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00316-0052</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-316-Contract-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-316-Contract-Scheme_MA</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID"/>
@@ -663,12 +627,6 @@
                        test="matches(normalize-space(.),'^TEN-\d{4}$')">
       <svrl:text>rule|text|BR-BT-03202-0051</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="BT-3202-Contract-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|BT-3202-Contract-Scheme_MA</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00210-0052"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
@@ -676,24 +634,12 @@
                        test="matches(normalize-space(.),'^TPA-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00210-0052</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-210-Tenderer-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-210-Tenderer-Scheme_MA</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00300-0203"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00300-0203</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-300-Tenderer-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-300-Tenderer-Scheme_MA</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:failed-assert id="OPP-070-notice-List_MA"
@@ -722,12 +668,6 @@
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00200-0051</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-200-Organization-Company-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-200-Organization-Company-Scheme_MA</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity/cbc:CompanyID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"/>
@@ -778,7 +718,7 @@
    <svrl:failed-assert id="BR-BT-00119-0036"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"
-                       test="count(efbc:DPSTerminationIndicator) &gt; 0 or (efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[not(../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('dps-list','dp-nlist'))]/normalize-space(text()))">
+                       test="count(efbc:DPSTerminationIndicator) &gt; 0 or (efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[not(../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('dps-list','dps-nlist'))]/normalize-space(text()))">
       <svrl:text>rule|text|BR-BT-00119-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-119-LotResult" see="field:BT-119-LotResult">
          <svrl:text>efbc:DPSTerminationIndicator</svrl:text>
