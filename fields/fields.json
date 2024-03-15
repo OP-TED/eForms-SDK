@@ -3289,7 +3289,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "33", "34" ],
-        "condition" : "{ND-LotResult} ${BT-13713-LotResult in BT-137-Lot[BT-766-Lot not in ('dps-list','dp-nlist')]}",
+        "condition" : "{ND-LotResult} ${BT-13713-LotResult in BT-137-Lot[BT-766-Lot not in ('dps-list','dps-nlist')]}",
         "value" : true,
         "severity" : "ERROR"
       } ]
