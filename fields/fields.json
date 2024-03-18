@@ -31634,7 +31634,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
-        "condition" : "{ND-LotResult} ${BT-760-LotResult is not present}",
+        "condition" : "{ND-ReceivedSubmissions} ${BT-760-LotResult is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
