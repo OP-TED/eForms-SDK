@@ -1,5 +1,10 @@
 {
   "files" : [ {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "en",
+    "threeLetterCode" : "eng",
+    "filename" : "business-entity_en.xml"
+  }, {
     "assetType" : "business-term",
     "twoLetterCode" : "bg",
     "threeLetterCode" : "bul",
