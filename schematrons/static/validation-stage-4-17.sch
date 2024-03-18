@@ -264,9 +264,11 @@
 		<assert id="BR-BT-00106-0054" role="ERROR" diagnostics="BT-106-Procedure" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call','comp-dial','innovation'))">rule|text|BR-BT-00106-0054</assert>
 		<assert id="BR-BT-01351-0023" role="ERROR" diagnostics="BT-1351-Procedure" test="count(cbc:ProcessReason) = 0 or (cbc:ProcessReasonCode/normalize-space(text()) = 'true')">rule|text|BR-BT-01351-0023</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms[$noticeSubType = '17']">
+		<assert id="BR-BT-00031-0023" role="ERROR" diagnostics="ND-ProcedureTerms_BT-31-Procedure" test="count(cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00031-0023</assert>
+		<assert id="BR-BT-00031-0074" role="ERROR" diagnostics="ND-ProcedureTerms_BT-31-Procedure" test="count(cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(not(../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All') and count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) > 1)">rule|text|BR-BT-00031-0074</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = '17']">
-		<assert id="BR-BT-00031-0023" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00031-0023</assert>
-		<assert id="BR-BT-00031-0074" role="ERROR" diagnostics="BT-31-Procedure" test="count(cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(not(../../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All') and count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) > 1)">rule|text|BR-BT-00031-0074</assert>
 		<assert id="BR-BT-00033-0023" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00033-0023</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '17']">

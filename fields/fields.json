@@ -21375,7 +21375,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
-        "condition" : "{ND-LotDistribution} ${count(/BT-137-Lot) < 2}",
+        "condition" : "{ND-ProcedureTerms} ${count(/BT-137-Lot) < 2}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -21385,7 +21385,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "16", "17" ],
-        "condition" : "{ND-LotDistribution} ${not(BT-763-Procedure == 'All') and count(/BT-137-Lot) > 1}",
+        "condition" : "{ND-ProcedureTerms} ${not(BT-763-Procedure == 'All') and count(/BT-137-Lot) > 1}",
         "value" : true,
         "severity" : "ERROR"
       } ]
