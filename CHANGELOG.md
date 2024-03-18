@@ -130,9 +130,6 @@ Make BT-22 optional
 TEDEFO-2958
 cancel-intent to be allowed also once submission deadline has passed
 
-TEDEFO-3088
-Prevent the specification of the URL and Issuer party when the Legislation Doc ID is not specified
-
 TEDEFO-3089
 Remove the constraint on DPS that enforced the Participation Request Deadline to match the end of the DPS
 
