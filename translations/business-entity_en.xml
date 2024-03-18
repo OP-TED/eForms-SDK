@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in English. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Buyer</entry>
+<entry key="business-entity|name|changes">Changes</entry>
+<entry key="business-entity|name|contract">Contract</entry>
+<entry key="business-entity|name|contractModification">Contract modification</entry>
+<entry key="business-entity|name|euBusiness">European Business</entry>
+<entry key="business-entity|name|groupOfLots">Group of Lots</entry>
+<entry key="business-entity|name|lot">Lot</entry>
+<entry key="business-entity|name|noticeInformation">Notice information</entry>
+<entry key="business-entity|name|noticeResult">Notice result</entry>
+<entry key="business-entity|name|organization">Organisation</entry>
+<entry key="business-entity|name|part">Part</entry>
+<entry key="business-entity|name|procedure">Procedure</entry>
+<entry key="business-entity|name|resultForLot">Result for Lot</entry>
+<entry key="business-entity|name|reviewInformation">Review Information</entry>
+<entry key="business-entity|name|tender">Tender</entry>
+<entry key="business-entity|name|tenderingParty">Tendering party</entry>
+<entry key="business-entity|name|touchpoint">Touchpoint</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Ultimate beneficial owner</entry>
+</properties>
