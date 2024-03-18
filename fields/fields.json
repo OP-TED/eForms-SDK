@@ -36497,20 +36497,6 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "7", "8", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ],
-        "condition" : "{ND-LotFiscalLegislation} ${OPT-111-Lot-FiscalLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -36536,20 +36522,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "4", "5" ],
-        "condition" : "{ND-PartFiscalLegislation} ${OPT-111-Part-FiscalLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -36765,20 +36737,6 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "7", "8", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ],
-        "condition" : "{ND-LotEnvironmentalLegislation} ${OPT-112-Lot-EnvironLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -36804,20 +36762,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "4", "5" ],
-        "condition" : "{ND-PartEnvironmentalLegislation} ${OPT-112-Part-EnvironLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -36847,20 +36791,6 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "7", "8", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ],
-        "condition" : "{ND-LotEmploymentLegislation} ${OPT-113-Lot-EmployLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -36886,20 +36816,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "4", "5" ],
-        "condition" : "{ND-PartEmploymentLegislation} ${OPT-113-Part-EmployLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -37875,20 +37791,6 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "7", "8", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ],
-        "condition" : "{ND-LotEmploymentLegislation} ${OPT-113-Lot-EmployLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -37949,20 +37851,6 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "7", "8", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ],
-        "condition" : "{ND-LotEnvironmentalLegislation} ${OPT-112-Lot-EnvironLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -38021,20 +37909,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "7", "8", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40" ],
-        "condition" : "{ND-LotFiscalLegislation} ${OPT-111-Lot-FiscalLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -38649,20 +38523,6 @@
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "4", "5" ],
-        "condition" : "{ND-PartEmploymentLegislation} ${OPT-113-Part-EmployLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -38723,20 +38583,6 @@
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "4", "5" ],
-        "condition" : "{ND-PartEnvironmentalLegislation} ${OPT-112-Part-EnvironLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -38795,20 +38641,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "4", "5" ],
-        "condition" : "{ND-PartFiscalLegislation} ${OPT-111-Part-FiscalLegis is not present}",
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
