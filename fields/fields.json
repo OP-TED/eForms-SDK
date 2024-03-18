@@ -28010,7 +28010,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "38", "39" ],
+        "noticeTypes" : [ "25", "26", "27" ],
         "condition" : "{ND-LotResultFAValues} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')])}",
         "value" : true,
         "severity" : "ERROR"
