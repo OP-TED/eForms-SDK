@@ -35289,7 +35289,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "38", "39", "40", "CEI", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
