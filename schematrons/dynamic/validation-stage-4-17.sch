@@ -254,7 +254,7 @@
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '17']">
 		<assert id="BR-BT-00031-0023" role="ERROR" diagnostics="ND-ProcedureTerms_BT-31-Procedure" test="count(cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00031-0023</assert>
-		<assert id="BR-BT-00031-0074" role="ERROR" diagnostics="ND-ProcedureTerms_BT-31-Procedure" test="count(cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(not(../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All') and count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) > 1)">rule|text|BR-BT-00031-0074</assert>
+		<assert id="BR-BT-00031-0074" role="ERROR" diagnostics="ND-ProcedureTerms_BT-31-Procedure" test="count(cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(not(../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'all') and count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) > 1)">rule|text|BR-BT-00031-0074</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = '17']">
 		<assert id="BR-BT-00033-0023" role="ERROR" diagnostics="BT-33-Procedure" test="count(cbc:MaximumLotsAwardedNumeric) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00033-0023</assert>

@@ -21385,7 +21385,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "16", "17" ],
-        "condition" : "{ND-ProcedureTerms} ${not(BT-763-Procedure == 'All') and count(/BT-137-Lot) > 1}",
+        "condition" : "{ND-ProcedureTerms} ${not(BT-763-Procedure == 'all') and count(/BT-137-Lot) > 1}",
         "value" : true,
         "severity" : "ERROR"
       } ]
