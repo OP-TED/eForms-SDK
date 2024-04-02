@@ -3024,13 +3024,18 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "38", "39" ],
+        "noticeTypes" : [ "25", "26", "27" ],
         "condition" : "{ND-NoticeResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-660-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "33", "34" ],
         "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') or (BT-660-LotResult is not present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "38", "39" ],
+        "condition" : "{ND-NoticeResult} ${BT-660-LotResult is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
