@@ -338,6 +338,8 @@
 			<xsd:element ref="efac:FieldsPrivacy" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:ID" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="cbc:RankCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:ForeignSubsidiesMeasuresCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:ForeignSubsidiesMeasuresDescription" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:PublicTransportationCumulatedDistance" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:TenderRankedIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:TenderVariantIndicator" minOccurs="0" maxOccurs="1"/>
