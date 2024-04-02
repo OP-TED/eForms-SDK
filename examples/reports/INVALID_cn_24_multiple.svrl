@@ -427,7 +427,7 @@
    <svrl:failed-assert id="BR-BT-00031-0073"
                        location="/cn:ContractNotice/cac:TenderingTerms"
                        role="ERROR"
-                       test="count(cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(not(../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'All') and count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &gt; 1)">
+                       test="count(cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric) &gt; 0 or not(not(../cac:TenderingProcess/cbc:PartPresentationCode/normalize-space(text()) = 'all') and count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &gt; 1)">
       <svrl:text>rule|text|BR-BT-00031-0073</svrl:text>
       <svrl:diagnostic-reference diagnostic="ND-ProcedureTerms_BT-31-Procedure"
                                  see="field:BT-31-Procedure">
