@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Criterio de adjudicación: número' (BT-541) no está cumplimentado o 'El número es un valor fijo' (BT-5422) está cumplimentado o 'El número es un tipo de umbral' (BT-5423) está cumplimentado</entry>
 <entry key="expression|name|157">'Criterio de adjudicación: número' (BT-541) no está cumplimentado o 'El número es un valor fijo' (BT-5422) está cumplimentado o 'El número es un tipo de umbral' (BT-5423) está cumplimentado</entry>
 <entry key="expression|name|158">'El licitador debe presentar ofertas para todos los lotes' ((BT-763)) es cierto</entry>
-<entry key="expression|name|159">'El licitador debe presentar ofertas para todos los lotes' (BT-763) es cierto o hay más de un lote en el anuncio</entry>
+<entry key="expression|name|159">Los lotes no son 'El licitador debe presentar ofertas para todos los lotes' (BT-763) y hay más de un lote en el aviso</entry>
 <entry key="expression|name|16">'Criterio de adjudicación: número' (BT-541-Lot) no está vacío</entry>
 <entry key="expression|name|160">No hay varios lotes</entry>
 <entry key="expression|name|161">'Clasificación principal' (BT-262-Lot) no está cumplimentado</entry>

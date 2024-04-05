@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
 <entry key="expression|name|157">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
 <entry key="expression|name|158">'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' ((BT-763)) est vrai</entry>
-<entry key="expression|name|159">'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' (BT-763) est vrai ou il y a plus d’un lot dans l’avis</entry>
+<entry key="expression|name|159">Les lots ne sont pas 'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' (BT-763) et il y a plus d'un lot dans l'avis</entry>
 <entry key="expression|name|16">'Nombre critère d’attribution' (BT-541-Lot) n’est pas vide</entry>
 <entry key="expression|name|160">Il n’y a pas de lots multiples</entry>
 <entry key="expression|name|161">'Nomenclature principale' (BT-262-Lot) n’est pas rempli</entry>

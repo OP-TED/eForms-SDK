@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är ett fast värde' (BT-5422) fylls i eller 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i</entry>
 <entry key="expression|name|157">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är ett fast värde' (BT-5422) fylls i eller 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i</entry>
 <entry key="expression|name|158">'Anbudsgivaren ska lämna in anbud för alla delar (anbudsområden)' ((BT-763)) är sant</entry>
-<entry key="expression|name|159">'Anbudsgivaren ska lämna in anbud för alla delar (anbudsområden)' (BT-763) är sant eller det finns mer än en del i meddelandet</entry>
+<entry key="expression|name|159">Partierna är inte 'Anbudsgivaren ska lämna in anbud för alla delar (anbudsområden)' (BT-763) och det finns mer än ett parti i meddelandet</entry>
 <entry key="expression|name|16">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot) är inte tomt</entry>
 <entry key="expression|name|160">Det finns inte multipla delar</entry>
 <entry key="expression|name|161">'Huvudklassificering' (BT-262-Lot) fylls inte i</entry>

@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je pevná hodnota' (BT-5422) je vyplněn nebo 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn</entry>
 <entry key="expression|name|157">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je pevná hodnota' (BT-5422) je vyplněn nebo 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn</entry>
 <entry key="expression|name|158">'Uchazeč musí podat nabídky pro všechny části' ((BT-763)) je pravda</entry>
-<entry key="expression|name|159">'Uchazeč musí podat nabídky pro všechny části' (BT-763) je pravda nebo je v oznámení uvedena více než jedna položka</entry>
+<entry key="expression|name|159">Losy nejsou 'Uchazeč musí podat nabídky pro všechny části' (BT-763) a v oznámení je více než jeden los</entry>
 <entry key="expression|name|16">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot) není prázdný</entry>
 <entry key="expression|name|160">Neexistují vícenásobné položky</entry>
 <entry key="expression|name|161">'Hlavní klasifikace' (BT-262-Lot) není vyplněn</entry>

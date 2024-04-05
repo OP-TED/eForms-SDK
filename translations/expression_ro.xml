@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este o valoare fixă' (BT-5422) este completat sau 'Numărul este un tip de prag' (BT-5423) este completat</entry>
 <entry key="expression|name|157">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este o valoare fixă' (BT-5422) este completat sau 'Numărul este un tip de prag' (BT-5423) este completat</entry>
 <entry key="expression|name|158">'Ofertantul trebuie să prezinte oferte pentru toate loturile' ((BT-763)) este adevărat</entry>
-<entry key="expression|name|159">'Ofertantul trebuie să prezinte oferte pentru toate loturile' (BT-763) este adevărat sau există mai mult de un lot în anunț</entry>
+<entry key="expression|name|159">Loturile nu sunt 'Ofertantul trebuie să prezinte oferte pentru toate loturile' (BT-763) și există mai mult de un lot în notificare</entry>
 <entry key="expression|name|16">'Număr legat de criteriul de atribuire' (BT-541-Lot) nu este gol</entry>
 <entry key="expression|name|160">Nu există mai multe loturi</entry>
 <entry key="expression|name|161">'Clasificarea principală' (BT-262-Lot) nu este completat</entry>

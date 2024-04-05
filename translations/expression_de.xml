@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422) ist ausgefüllt oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt</entry>
 <entry key="expression|name|157">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422) ist ausgefüllt oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt</entry>
 <entry key="expression|name|158">'Der Bieter muss Angebote für alle Lose einreichen' ((BT-763)) ist wahr</entry>
-<entry key="expression|name|159">'Der Bieter muss Angebote für alle Lose einreichen' (BT-763) ist wahr oder es gibt mehr als ein Los in der Bekanntmachung</entry>
+<entry key="expression|name|159">Die Lose sind nicht 'Der Bieter muss Angebote für alle Lose einreichen' (BT-763) und es gibt mehr als ein Los in der Mitteilung</entry>
 <entry key="expression|name|16">'Zuschlagskriterium — Zahl' (BT-541-Lot) ist nicht leer</entry>
 <entry key="expression|name|160">Es gibt keine mehreren Lose</entry>
 <entry key="expression|name|161">'Haupteinstufung' (BT-262-Lot) ist nicht ausgefüllt</entry>

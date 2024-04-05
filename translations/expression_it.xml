@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Criterio di aggiudicazione: numero' (BT-541) non è compilato o 'Il numero è un valore determinato' (BT-5422) è compilato o 'Il numero costituisce una soglia' (BT-5423) è compilato</entry>
 <entry key="expression|name|157">'Criterio di aggiudicazione: numero' (BT-541) non è compilato o 'Il numero è un valore determinato' (BT-5422) è compilato o 'Il numero costituisce una soglia' (BT-5423) è compilato</entry>
 <entry key="expression|name|158">'L'offerente deve presentare offerte per tutti i lotti' ((BT-763)) è vero</entry>
-<entry key="expression|name|159">'L'offerente deve presentare offerte per tutti i lotti' (BT-763) è vero o vi è più di un lotto nell'avviso</entry>
+<entry key="expression|name|159">I lotti non sono 'L'offerente deve presentare offerte per tutti i lotti' (BT-763) e ci sono più lotti nell'avviso</entry>
 <entry key="expression|name|16">'Criterio di aggiudicazione: numero' (BT-541-Lot) non è vuoto</entry>
 <entry key="expression|name|160">Non vi sono lotti multipli</entry>
 <entry key="expression|name|161">'Classificazione principale' (BT-262-Lot) non è compilato</entry>

@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in</entry>
 <entry key="expression|name|157">'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in</entry>
 <entry key="expression|name|158">'The tenderer must submit tenders for all lots' ((BT-763)) is true</entry>
-<entry key="expression|name|159">'The tenderer must submit tenders for all lots' (BT-763) is true or there is more than one lot in the notice</entry>
+<entry key="expression|name|159">Lots are not 'The tenderer must submit tenders for all lots' (BT-763) and there is more than one lot in the notice</entry>
 <entry key="expression|name|16">'Award criterion number' (BT-541-Lot) is not empty</entry>
 <entry key="expression|name|160">There are no multiple lots</entry>
 <entry key="expression|name|161">'Main classification' (BT-262-Lot) is not filled in</entry>

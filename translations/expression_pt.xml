@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'N.º do critério de adjudicação' (BT-541) não está preenchido ou 'O número é um valor fixo' (BT-5422) está preenchido ou 'O número é um tipo de limiar' (BT-5423) está preenchido</entry>
 <entry key="expression|name|157">'N.º do critério de adjudicação' (BT-541) não está preenchido ou 'O número é um valor fixo' (BT-5422) está preenchido ou 'O número é um tipo de limiar' (BT-5423) está preenchido</entry>
 <entry key="expression|name|158">'O proponente tem de apresentar propostas para todos os lotes' ((BT-763)) é verdadeiro</entry>
-<entry key="expression|name|159">'O proponente tem de apresentar propostas para todos os lotes' (BT-763) é verdadeiro ou existe mais do que um lote no anúncio</entry>
+<entry key="expression|name|159">Os lotes não são 'O proponente tem de apresentar propostas para todos os lotes' (BT-763) e há mais de um lote no aviso</entry>
 <entry key="expression|name|16">'N.º do critério de adjudicação' (BT-541-Lot) não está vazio</entry>
 <entry key="expression|name|160">Não existem vários lotes</entry>
 <entry key="expression|name|161">'Classificação principal' (BT-262-Lot) não está preenchido</entry>
