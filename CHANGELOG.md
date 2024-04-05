@@ -263,11 +263,9 @@ Translated labels are now displayed for all codes
 
 New Fields in Modifications now displayed
 
-Fixed display issues with: BT-1711-Tender "Tender Ranked", BT-717 "Clean Vehicles Directive", Tendering Party Organisation Names
+Fixed display issues with: BT-1711-Tender "Tender Ranked", BT-717 "Clean Vehicles Directive", Tendering Party Organisation Names, BT-09(b)-Procedure "Cross Border Law"
 
 Several Fields will now be displayed even when their value is negative, i.e. "no" or "false" or "none" or "not-allowed"
-
-
 
 ### Labels and translations
 
