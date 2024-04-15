@@ -4733,7 +4733,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0101"
       }, {
-        "value" : "{ND-LotResult} ${BT-759-LotResult[BT-760-LotResult == 't-sme'] == (BT-759-LotResult[BT-760-LotResult == 't-med'] + BT-759-LotResult[BT-760-LotResult == 't-small'] + BT-759-LotResult[BT-760-LotResult == 't-micro']) or not(BT-759-LotResult[BT-760-LotResult == 't-sme'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-small'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-micro'] is present)}",
+        "value" : "{ND-LotResult} ${BT-759-LotResult[BT-760-LotResult == 't-sme'] == (BT-759-LotResult[BT-760-LotResult == 't-med'] + BT-759-LotResult[BT-760-LotResult == 't-small'] + BT-759-LotResult[BT-760-LotResult == 't-micro']) or not(BT-759-LotResult[BT-760-LotResult == 't-sme'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-med'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-small'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-micro'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0102"
       }, {
