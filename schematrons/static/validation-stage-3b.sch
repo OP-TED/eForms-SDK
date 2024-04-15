@@ -910,6 +910,11 @@
 		<assert id="BT-744-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-744-Lot-List_MA</assert>
 		<assert id="BT-744-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-744-Lot_WS</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='fsr']/cbc:ExecutionRequirementCode">
+		<assert id="BR-BT-00681-0051" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00681-0051</assert>
+		<assert id="BT-681-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-681-Lot-List_MA</assert>
+		<assert id="BT-681-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-681-Lot_WS</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']/cbc:Description/@languageID">
 		<assert id="BR-BT-00802-0051" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00802-0051</assert>
 	</rule>
@@ -2944,6 +2949,10 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID">
 		<assert id="BR-OPT-00310-0052" role="ERROR" test="matches(normalize-space(.),'^TPA-\d{4}$')">rule|text|BR-OPT-00310-0052</assert>
 		<assert id="OPT-310-Tender_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-310-Tender_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:ForeignSubsidiesMeasuresCode">
+		<assert id="BT-682-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-682-Tender-List_MA</assert>
+		<assert id="BT-682-Tender_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-682-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:TenderRankedIndicator">
 		<assert id="BR-BT-01711-0100" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-01711-0100</assert>

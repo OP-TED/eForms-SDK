@@ -605,6 +605,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='esignature-submission']">
 		<assert id="BT-744-Lot_R" role="ERROR" diagnostics="BT-744-Lot" test="count(cbc:ExecutionRequirementCode) &lt; 2">rule|text|BT-744-Lot_R</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='fsr']">
+		<assert id="BT-681-Lot_R" role="ERROR" diagnostics="BT-681-Lot" test="count(cbc:ExecutionRequirementCode) &lt; 2">rule|text|BT-681-Lot_R</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']">
 		<assert id="BT-801-Lot_R" role="ERROR" diagnostics="BT-801-Lot" test="count(cbc:ExecutionRequirementCode) &lt; 2">rule|text|BT-801-Lot_R</assert>
 		<assert id="BT-802-Lot_A" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-802-Lot_A</assert>
@@ -1605,6 +1608,7 @@
 		<assert id="BT-1711-Tender_R" role="ERROR" diagnostics="BT-1711-Tender" test="count(efbc:TenderRankedIndicator) &lt; 2">rule|text|BT-1711-Tender_R</assert>
 		<assert id="BT-193-Tender_R" role="ERROR" diagnostics="BT-193-Tender" test="count(efbc:TenderVariantIndicator) &lt; 2">rule|text|BT-193-Tender_R</assert>
 		<assert id="BT-3201-Tender_R" role="ERROR" diagnostics="BT-3201-Tender" test="count(efac:TenderReference/cbc:ID) &lt; 2">rule|text|BT-3201-Tender_R</assert>
+		<assert id="BT-682-Tender_R" role="ERROR" diagnostics="BT-682-Tender" test="count(efbc:ForeignSubsidiesMeasuresCode) &lt; 2">rule|text|BT-682-Tender_R</assert>
 		<assert id="BT-720-Tender_R" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &lt; 2">rule|text|BT-720-Tender_R</assert>
 		<assert id="BT-779-Tender_R" role="ERROR" diagnostics="ND-LotTender_BT-779-Tender" test="count(efac:AggregatedAmounts/cbc:PaidAmount) &lt; 2">rule|text|BT-779-Tender_R</assert>
 		<assert id="BT-782-Tender_R" role="ERROR" diagnostics="ND-LotTender_BT-782-Tender" test="count(efac:AggregatedAmounts/efbc:PenaltiesAmount) &lt; 2">rule|text|BT-782-Tender_R</assert>

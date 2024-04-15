@@ -1145,6 +1145,8 @@
 		<diagnostic id="BT-661-Lot" see="field:BT-661-Lot">cbc:LimitationDescription</diagnostic>
 		<diagnostic id="BT-67_a_-Procedure" see="field:BT-67(a)-Procedure">cbc:TendererRequirementTypeCode[@listName='exclusion-ground']</diagnostic>
 		<diagnostic id="BT-67_b_-Procedure" see="field:BT-67(b)-Procedure">cbc:Description</diagnostic>
+		<diagnostic id="BT-681-Lot" see="field:BT-681-Lot">cbc:ExecutionRequirementCode</diagnostic>
+		<diagnostic id="BT-682-Tender" see="field:BT-682-Tender">efbc:ForeignSubsidiesMeasuresCode</diagnostic>
 		<diagnostic id="BT-70-Lot" see="field:BT-70-Lot">cbc:Description</diagnostic>
 		<diagnostic id="BT-701-notice" see="field:BT-701-notice">cbc:ID[@schemeName='notice-id']</diagnostic>
 		<diagnostic id="BT-702_a_-notice" see="field:BT-702(a)-notice">cbc:NoticeLanguageCode</diagnostic>
@@ -1299,9 +1301,9 @@
 		<diagnostic id="ND-ContractingParty" see="node:ND-ContractingParty">cac:ContractingParty</diagnostic>
 		<diagnostic id="ND-CrossBorderLawUnpublish" see="node:ND-CrossBorderLawUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-ExclusionGrounds" see="node:ND-ExclusionGrounds">cac:SpecificTendererRequirement</diagnostic>
-		<diagnostic id="ND-ExecutionRequirements" see="node:ND-ExecutionRequirements">cac:ContractExecutionRequirement</diagnostic>
 		<diagnostic id="ND-ExtendedDurationJustification" see="node:ND-ExtendedDurationJustification">efac:DurationJustification</diagnostic>
 		<diagnostic id="ND-FA" see="node:ND-FA">cac:FrameworkAgreement</diagnostic>
+		<diagnostic id="ND-FSR" see="node:ND-FSR">cac:ContractExecutionRequirement</diagnostic>
 		<diagnostic id="ND-Funding" see="node:ND-Funding">efac:Funding</diagnostic>
 		<diagnostic id="ND-GazetteReference" see="node:ND-GazetteReference">cac:AdditionalDocumentReference</diagnostic>
 		<diagnostic id="ND-GroupComposition" see="node:ND-GroupComposition">cac:LotsGroup</diagnostic>

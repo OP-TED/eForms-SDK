@@ -645,6 +645,13 @@
     "xsdSequenceOrder" : [ { "cac:ContractExecutionRequirement" : 38 } ],
     "repeatable" : false
   }, {
+    "id" : "ND-FSR",
+    "parentId" : "ND-LotTenderingTerms",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='fsr']",
+    "xpathRelative" : "cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='fsr']",
+    "xsdSequenceOrder" : [ { "cac:ContractExecutionRequirement" : 38 } ],
+    "repeatable" : false
+  }, {
     "id" : "ND-NDA",
     "parentId" : "ND-LotTenderingTerms",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']",
@@ -1704,14 +1711,14 @@
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts",
     "xpathRelative" : "efac:AggregatedAmounts",
-    "xsdSequenceOrder" : [ { "efac:AggregatedAmounts" : 8 } ],
+    "xsdSequenceOrder" : [ { "efac:AggregatedAmounts" : 10 } ],
     "repeatable" : false
   }, {
     "id" : "ND-ConcessionRevenue",
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue",
     "xpathRelative" : "efac:ConcessionRevenue",
-    "xsdSequenceOrder" : [ { "efac:ConcessionRevenue" : 9 } ],
+    "xsdSequenceOrder" : [ { "efac:ConcessionRevenue" : 11 } ],
     "repeatable" : false
   }, {
     "id" : "ND-ConcessionRevenueBuyerUnpublish",
@@ -1739,21 +1746,21 @@
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']",
     "xpathRelative" : "efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']",
-    "xsdSequenceOrder" : [ { "efac:ContractTerm" : 10 } ],
+    "xsdSequenceOrder" : [ { "efac:ContractTerm" : 12 } ],
     "repeatable" : false
   }, {
     "id" : "ND-RevenueAllocation",
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[efbc:TermCode/text()='all-rev-tic']",
     "xpathRelative" : "efac:ContractTerm[efbc:TermCode/text()='all-rev-tic']",
-    "xsdSequenceOrder" : [ { "efac:ContractTerm" : 10 } ],
+    "xsdSequenceOrder" : [ { "efac:ContractTerm" : 12 } ],
     "repeatable" : false
   }, {
     "id" : "ND-OtherContractExecutionConditions",
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ContractTerm[not(efbc:TermCode/text()='all-rev-tic')][efbc:TermCode/@listName='contract-detail']",
     "xpathRelative" : "efac:ContractTerm[not(efbc:TermCode/text()='all-rev-tic')][efbc:TermCode/@listName='contract-detail']",
-    "xsdSequenceOrder" : [ { "efac:ContractTerm" : 10 } ],
+    "xsdSequenceOrder" : [ { "efac:ContractTerm" : 12 } ],
     "repeatable" : true
   }, {
     "id" : "ND-TenderRankUnpublish",
@@ -1781,7 +1788,7 @@
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin",
     "xpathRelative" : "efac:Origin",
-    "xsdSequenceOrder" : [ { "efac:Origin" : 11 } ],
+    "xsdSequenceOrder" : [ { "efac:Origin" : 13 } ],
     "repeatable" : true
   }, {
     "id" : "ND-CountryOriginUnpublish",
@@ -1795,7 +1802,7 @@
     "parentId" : "ND-LotTender",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']",
     "xpathRelative" : "efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']",
-    "xsdSequenceOrder" : [ { "efac:SubcontractingTerm" : 12 } ],
+    "xsdSequenceOrder" : [ { "efac:SubcontractingTerm" : 14 } ],
     "repeatable" : false
   }, {
     "id" : "ND-SubcontractingUnpublish",
@@ -4778,7 +4785,7 @@
     "btId" : "BT-13714",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderLot/cbc:ID",
     "xpathRelative" : "efac:TenderLot/cbc:ID",
-    "xsdSequenceOrder" : [ { "efac:TenderLot" : 14 }, { "cbc:ID" : 1 } ],
+    "xsdSequenceOrder" : [ { "efac:TenderLot" : 16 }, { "cbc:ID" : 1 } ],
     "type" : "id-ref",
     "attributes" : [ "BT-13714-Tender-Scheme" ],
     "idSchemes" : [ "GLO", "LOT" ],
@@ -4830,7 +4837,7 @@
     "btId" : "BT-13714",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderLot/cbc:ID/@schemeName",
     "xpathRelative" : "efac:TenderLot/cbc:ID/@schemeName",
-    "xsdSequenceOrder" : [ { "efac:TenderLot" : 14 }, { "cbc:ID" : 1 } ],
+    "xsdSequenceOrder" : [ { "efac:TenderLot" : 16 }, { "cbc:ID" : 1 } ],
     "type" : "code",
     "attributeName" : "schemeName",
     "attributeOf" : "BT-13714-Tender",
@@ -6409,7 +6416,7 @@
     "btId" : "BT-1711",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:TenderRankedIndicator",
     "xpathRelative" : "efbc:TenderRankedIndicator",
-    "xsdSequenceOrder" : [ { "efbc:TenderRankedIndicator" : 5 } ],
+    "xsdSequenceOrder" : [ { "efbc:TenderRankedIndicator" : 7 } ],
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "repeatable" : {
@@ -6598,7 +6605,7 @@
     "btId" : "BT-193",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:TenderVariantIndicator",
     "xpathRelative" : "efbc:TenderVariantIndicator",
-    "xsdSequenceOrder" : [ { "efbc:TenderVariantIndicator" : 6 } ],
+    "xsdSequenceOrder" : [ { "efbc:TenderVariantIndicator" : 8 } ],
     "type" : "indicator",
     "legalType" : "INDICATOR",
     "privacy" : {
@@ -21430,7 +21437,7 @@
     "btId" : "BT-3201",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderReference/cbc:ID",
     "xpathRelative" : "efac:TenderReference/cbc:ID",
-    "xsdSequenceOrder" : [ { "efac:TenderReference" : 15 }, { "cbc:ID" : 1 } ],
+    "xsdSequenceOrder" : [ { "efac:TenderReference" : 17 }, { "cbc:ID" : 1 } ],
     "type" : "id",
     "legalType" : "IDENTIFIER",
     "repeatable" : {
@@ -28231,6 +28238,100 @@
       "severity" : "ERROR"
     }
   }, {
+    "id" : "BT-681-Lot",
+    "parentNodeId" : "ND-FSR",
+    "name" : "Foreign Subsidies Regulation",
+    "btId" : "BT-681",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='fsr']/cbc:ExecutionRequirementCode",
+    "xpathRelative" : "cbc:ExecutionRequirementCode",
+    "xsdSequenceOrder" : [ { "cbc:ExecutionRequirementCode" : 3 } ],
+    "type" : "code",
+    "attributes" : [ "BT-681-Lot-List" ],
+    "legalType" : "INDICATOR",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "9", "18", "22", "23", "24", "25", "26", "27", "28", "31", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "fsr",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
+    }
+  }, {
+    "id" : "BT-681-Lot-List",
+    "parentNodeId" : "ND-FSR",
+    "name" : "Foreign Subsidies Regulation Listname",
+    "btId" : "BT-681",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='fsr']/cbc:ExecutionRequirementCode/@listName",
+    "xpathRelative" : "cbc:ExecutionRequirementCode/@listName",
+    "xsdSequenceOrder" : [ { "cbc:ExecutionRequirementCode" : 3 } ],
+    "type" : "text",
+    "attributeName" : "listName",
+    "attributeOf" : "BT-681-Lot",
+    "presetValue" : "fsr",
+    "legalType" : "INDICATOR",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    }
+  }, {
+    "id" : "BT-682-Tender",
+    "parentNodeId" : "ND-LotTender",
+    "name" : "Foreign Subsidies Measures",
+    "btId" : "BT-682",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:ForeignSubsidiesMeasuresCode",
+    "xpathRelative" : "efbc:ForeignSubsidiesMeasuresCode",
+    "xsdSequenceOrder" : [ { "efbc:ForeignSubsidiesMeasuresCode" : 4 } ],
+    "type" : "code",
+    "attributes" : [ "BT-682-Tender-List" ],
+    "legalType" : "CODE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    },
+    "forbidden" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "31", "38", "39", "40", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29", "30", "32", "33", "34", "35", "36", "37" ],
+        "condition" : "{ND-LotTender} ${not(BT-13714-Tender in BT-137-Lot[BT-681-Lot == 'true']) and not(BT-13714-Tender in BT-330-Procedure[BT-1375-Procedure in BT-137-Lot[BT-681-Lot == 'true']])}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    }
+  }, {
+    "id" : "BT-682-Tender-List",
+    "parentNodeId" : "ND-LotTender",
+    "name" : "Foreign Subsidies Measures Listname",
+    "btId" : "BT-682",
+    "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:ForeignSubsidiesMeasuresCode/@listName",
+    "xpathRelative" : "efbc:ForeignSubsidiesMeasuresCode/@listName",
+    "xsdSequenceOrder" : [ { "efbc:ForeignSubsidiesMeasuresCode" : 4 } ],
+    "type" : "text",
+    "attributeName" : "listName",
+    "attributeOf" : "BT-682-Tender",
+    "presetValue" : "foreign-subsidies-measures",
+    "legalType" : "CODE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
+    }
+  }, {
     "id" : "BT-70-Lot",
     "parentNodeId" : "ND-ExecutionRequirements",
     "name" : "Terms Performance",
@@ -29146,7 +29247,7 @@
     "btId" : "BT-720",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cac:LegalMonetaryTotal/cbc:PayableAmount",
     "xpathRelative" : "cac:LegalMonetaryTotal/cbc:PayableAmount",
-    "xsdSequenceOrder" : [ { "cac:LegalMonetaryTotal" : 7 }, { "cbc:PayableAmount" : 10 } ],
+    "xsdSequenceOrder" : [ { "cac:LegalMonetaryTotal" : 9 }, { "cbc:PayableAmount" : 10 } ],
     "type" : "amount",
     "attributes" : [ "BT-720-Tender-Currency" ],
     "legalType" : "VALUE",
@@ -29196,7 +29297,7 @@
     "btId" : "BT-720",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cac:LegalMonetaryTotal/cbc:PayableAmount/@currencyID",
     "xpathRelative" : "cac:LegalMonetaryTotal/cbc:PayableAmount/@currencyID",
-    "xsdSequenceOrder" : [ { "cac:LegalMonetaryTotal" : 7 }, { "cbc:PayableAmount" : 10 } ],
+    "xsdSequenceOrder" : [ { "cac:LegalMonetaryTotal" : 9 }, { "cbc:PayableAmount" : 10 } ],
     "type" : "code",
     "attributeName" : "currencyID",
     "attributeOf" : "BT-720-Tender",
@@ -35262,7 +35363,7 @@
     "btId" : "OPP-080",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:PublicTransportationCumulatedDistance",
     "xpathRelative" : "efbc:PublicTransportationCumulatedDistance",
-    "xsdSequenceOrder" : [ { "efbc:PublicTransportationCumulatedDistance" : 4 } ],
+    "xsdSequenceOrder" : [ { "efbc:PublicTransportationCumulatedDistance" : 6 } ],
     "type" : "integer",
     "attributes" : [ "OPP-080-Tender-Unit" ],
     "repeatable" : {
@@ -35285,7 +35386,7 @@
     "btId" : "OPP-080",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:PublicTransportationCumulatedDistance/@unitCode",
     "xpathRelative" : "efbc:PublicTransportationCumulatedDistance/@unitCode",
-    "xsdSequenceOrder" : [ { "efbc:PublicTransportationCumulatedDistance" : 4 } ],
+    "xsdSequenceOrder" : [ { "efbc:PublicTransportationCumulatedDistance" : 6 } ],
     "type" : "text",
     "attributeName" : "unitCode",
     "attributeOf" : "OPP-080-Tender",
@@ -39369,7 +39470,7 @@
     "btId" : "OPT-310",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID",
     "xpathRelative" : "efac:TenderingParty/cbc:ID",
-    "xsdSequenceOrder" : [ { "efac:TenderingParty" : 13 }, { "cbc:ID" : 1 } ],
+    "xsdSequenceOrder" : [ { "efac:TenderingParty" : 15 }, { "cbc:ID" : 1 } ],
     "type" : "id-ref",
     "attributes" : [ "OPT-310-Tender-Scheme" ],
     "idSchemes" : [ "TPA" ],
@@ -39420,7 +39521,7 @@
     "btId" : "OPT-310",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID/@schemeName",
     "xpathRelative" : "efac:TenderingParty/cbc:ID/@schemeName",
-    "xsdSequenceOrder" : [ { "efac:TenderingParty" : 13 }, { "cbc:ID" : 1 } ],
+    "xsdSequenceOrder" : [ { "efac:TenderingParty" : 15 }, { "cbc:ID" : 1 } ],
     "type" : "text",
     "attributeName" : "schemeName",
     "attributeOf" : "OPT-310-Tender",
