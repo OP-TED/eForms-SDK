@@ -1130,7 +1130,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<!--   "id" : "OPT-002-notice","name" : "Customization ID (UBL)" -->
-	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
 	<!--     "id" : "BT-701-notice","name" : "Notice Identifier" -->
 	<cbc:ID schemeName="notice-id">15377ca1-6cf7-4060-90f0-9290128957a3</cbc:ID>
 	<!--"id" : "BT-04-notice", "name" : "Procedure Identifier"-->
