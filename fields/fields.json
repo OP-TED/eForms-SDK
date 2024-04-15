@@ -22048,23 +22048,23 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SecondStage} ${(BT-50-Lot <= BT-51-Lot) or not(BT-51-Lot is present)}",
+        "value" : "{ND-SecondStage} ${(BT-50-Lot <= BT-51-Lot) or not(BT-51-Lot is present) or not(BT-50-Lot is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00050-0100"
       }, {
-        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'restricted') and (BT-50-Lot > 4)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'restricted')}",
+        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'restricted') and (BT-50-Lot > 4)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'restricted') or BT-766-Lot in ('dps-list','dps-nlist')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00050-0101"
       }, {
-        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'neg-w-call') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'neg-w-call')}",
+        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'neg-w-call') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'neg-w-call') or BT-766-Lot in ('dps-list','dps-nlist')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00050-0102"
       }, {
-        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'comp-dial') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'comp-dial')}",
+        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'comp-dial') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'comp-dial') or BT-766-Lot in ('dps-list','dps-nlist')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00050-0103"
       }, {
-        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'innovation') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'innovation')}",
+        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'innovation') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'innovation') or BT-766-Lot in ('dps-list','dps-nlist')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00050-0104"
       } ]
