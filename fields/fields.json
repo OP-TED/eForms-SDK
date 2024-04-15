@@ -39625,6 +39625,10 @@
         "value" : "{ND-LotResult} ${every text:$tender in OPT-320-LotResult satisfies ($tender in OPT-321-Tender)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00320-0100"
+      }, {
+        "value" : "{OPT-320-LotResult} ${every text:$resultTender in OPT-320-LotResult, text:$resultLot in BT-13713-LotResult, context:$resultGroup in ND-GroupComposition[BT-1375-Procedure == $resultLot] satisfies (($resultTender in OPT-321-Tender[BT-13714-Tender == $resultLot]) or ($resultTender in OPT-321-Tender[BT-13714-Tender in $resultGroup::BT-330-Procedure]))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-OPT-00320-0101"
       } ]
     }
   }, {
