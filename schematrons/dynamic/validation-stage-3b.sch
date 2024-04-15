@@ -397,6 +397,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']">
 		<assert id="BR-BT-00023-0156" role="ERROR" test="normalize-space(.) = ('services', 'supplies', 'works')">rule|text|BR-BT-00023-0156</assert>
+		<assert id="BT-23-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-23-Lot-List_MA</assert>
 		<assert id="BT-23-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-23-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:SMESuitableIndicator">

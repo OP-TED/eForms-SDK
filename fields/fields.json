@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.0",
-    "createdOn" : "2024-03-25T10:00:00"
+    "version" : "1.11.97",
+    "createdOn" : "2024-04-12T11:38:52"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -19812,6 +19812,7 @@
     "xpathRelative" : "cbc:ProcurementTypeCode[@listName='contract-nature']",
     "xsdSequenceOrder" : [ { "cbc:ProcurementTypeCode" : 5 } ],
     "type" : "code",
+    "attributes" : [ "BT-23-Lot-List" ],
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -19857,6 +19858,23 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00023-0203"
       } ]
+    }
+  }, {
+    "id" : "BT-23-Lot-List",
+    "parentNodeId" : "ND-LotProcurementScope",
+    "name" : "Main Nature Listname",
+    "btId" : "BT-23",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ProcurementTypeCode[@listName='contract-nature']/@listName",
+    "xpathRelative" : "cbc:ProcurementTypeCode[@listName='contract-nature']/@listName",
+    "xsdSequenceOrder" : [ { "cbc:ProcurementTypeCode" : 5 } ],
+    "type" : "text",
+    "attributeName" : "listName",
+    "attributeOf" : "BT-23-Lot",
+    "presetValue" : "contract-nature",
+    "legalType" : "CODE",
+    "repeatable" : {
+      "value" : false,
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-23-Part",
