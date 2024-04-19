@@ -93,28 +93,15 @@ In the schematron files, the identifiers for the phases added in SDK 1.10.0 now 
 
 ### Codelists
 
-TEDEFO-3002 Update various codelists based on the latest pubilcations on EU Vocabularies: "measurement-unit", "eu-programme", "corporate-body", "vehicle-category"
-
-TEDEFO-2595
-The measurement-unit codelist does not contain a "unit" or "piece" code while the unitCode attribute for the measure is required following the XSD
-
-TEDEFO-3047:
-Add missing croatian labels in CPV (codelist of January 2024)
-
-TEDEFO-2862
-CPV missing croatian translation
-
-TEDEFO-2953
-Replace eforms-country codelist by the filtered country codelist
-
-TEDEFO-2062
-Sync all codelists once with SKOS AP even if version did not change
-
-TEDEFO-2955
-December 2023 update of codelists
-
-TEDEFO-3115
-Update "Direct Award Justification" and "Procurement Procedure Type" codelists to meet DG MOVE forms requirements
+* Updated codelists related to forms T01 and T02: 
+  * procedure-type: added exp-int-rail
+  * direct-award-justification: added exc-circ-rail, sm-contr, sm-contr-sme, char-imp and sim-infra and removed rail
+  * procedure-type-t01 and procedure-type-t02: added  neg-wo-call and exp-int-rail
+  * made some labels clearer
+* measurement-unit: added unit for "piece" and removed 39 redundant units
+* added missing Croatian labels in CPV 
+* removed redundant eforms-country codelist (same as country codelist)
+* corporate-body (added CJU, removed KDTJU), updates to eu-programme (added years in labels for programmes with the same name), other label corrections
 
 ### View templates
 
