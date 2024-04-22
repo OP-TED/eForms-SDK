@@ -121,72 +121,10 @@ Several Fields will now be displayed even when their value is negative, i.e. "no
 
 ### Labels and translations
 
-TEDEFO-2976
-Improve the label of rule BR-BT-00051-0100 for criteria used for the 2nd stage
-
-TEDEFO-2890
-Missing translations from some codelists
-
-TEDEFO-2989
-Rules: Labels for BT-19-Lot rules are opposite
-
-TEDEFO-2990
-Rules: Label for BR-BT-01311-0152 is wrong
-
-TEDEFO-3082
-Translate the expression label expression|name|341
-
-TEDEFO-3132
-English name for OPT-310 has question marks
-
-TEDEFO-3029
-Labels : translations for OPP-035 for T02 form
-
-TEDEFO-3117
-Translate new and modified labels for DG MOVE forms
-
-TEDEFO-3137
-Update labels changing BT-105-Lot for BT-105-Procedure
-
-TEDEFO-3031
-Correct the labels in SDK 1.11 for co-constraint rules BR-BT-00002-0100 and BR-OPT-00202-0101
-
-TEDEFO-3164
-Fix label for rule|text|BR-BT-00738-0053 rule in SDK 1.11 to actually match the 0-60 days constraint
-
-TEDEFO-2843
-Labels : incorrect text for code "not-val" in codelist non-publication-identifier
-
-TEDEFO-2998
-Add translations for new rule message template on whitespace
-
-TEDEFO-2973
-Improve rules labels for rules on Group of Lots that referred to 'Lots included'
-
-TEDEFO-2974
-Update rules labels referring to "contractor" instead of "tenderer"
-
-TEDEFO-1949
-Create description labels for OPx business-terms
-
-TEDEFO-2967
-Create label and translations for auxiliary|text|change-notice (for all SDK versions)
-
-TEDEFO-3069
-Labels: need label for BT-1501(n)-Contract
-
-TEDEFO-2950
- list of "problematic" labels with missing translations
-
-TEDEFO-2823
-Fix labels for multiple co-constraint (schematron stage 5) rules
-
-TEDEFO-3116
-Update "Direct Award Justification" and "Procurement Procedure Type" code labels for codes used in DG MOVE forms
-
-TEDEFO-2913
-rule|text|BR-BT-00067-0106
-Text in EN and FR, but did not match the rule. EN text correct, FR test removed
+* Added description labels for OPx business terms
+* Corrected and improved numerous rule and expression labels
+* Corrected and added missing translations in some code lists
+* Added translations for new and modified labels for forms T01 and T02
 
 As new rules were added, a notice that was valid with SDK 1.10.x might not be valid with this version.
 
