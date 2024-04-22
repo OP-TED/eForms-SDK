@@ -69,7 +69,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">fc9cfb17-81d0-4f26-9a00-0c4bd25cf0a2</cbc:ID>
 	<cbc:ContractFolderID>82c626cc-83e1-4644-9cf1-6ed82b3e3dbc</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
@@ -103,7 +103,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>700029324</cbc:ID>
+		<cbc:ID schemeName="InternalID">700029324</cbc:ID>
 		<cbc:Name languageID="ENG">Procurement of Military Working Dogs</cbc:Name>
 		<cbc:Description languageID="ENG">Livestock. PQQ Access Code: NTV9J9643N
 		Dog training services — military working dogs delivery team are looking for interested parties to supply military working dogs with a requirement for canine protection and detection and also military working dogs to provide a specialist search capability.
@@ -237,7 +237,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>700029324</cbc:ID>
+			<cbc:ID schemeName="InternalID">700029324</cbc:ID>
 			<cbc:Name languageID="ENG">Procurement of Military Working Dogs</cbc:Name>
 			<cbc:Description languageID="ENG">Livestock. PQQ Access Code: NTV9J9643N
 			Dog training services — military working dogs delivery team are looking for interested parties to supply military working dogs with a requirement for canine protection and detection and also military working dogs to provide a specialist search capability.

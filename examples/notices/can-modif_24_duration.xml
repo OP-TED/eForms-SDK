@@ -7,12 +7,10 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:ContractModification>
-						<efbc:ChangedNoticeIdentifier>268231-2010</efbc:ChangedNoticeIdentifier>
+						<efbc:ChangedNoticeIdentifier schemeName="ojs-notice-id">268231-2010</efbc:ChangedNoticeIdentifier>
+						<efbc:ModifiedContractIdentifier schemeName="contract">CON-0001</efbc:ModifiedContractIdentifier>
 						<efac:Change>
 							<efbc:ChangeDescription languageID="ENG">Extension of six (6) months and increased contract value from GBP 95 000 000 to GBP 105 000 000.</efbc:ChangeDescription>
-							<efac:ChangedSection>
-								<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
-							</efac:ChangedSection>
 							<efac:ChangedSection>
 								<efbc:ChangedSectionIdentifier>RESULT</efbc:ChangedSectionIdentifier>
 							</efac:ChangedSection>
@@ -227,7 +225,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">1f8687c9-8cca-493a-b0ee-553ed23d8402</cbc:ID>
 	<cbc:ContractFolderID>b492c659-4893-4796-b7db-4e511d85e0c8</cbc:ContractFolderID>
 	<cbc:IssueDate>2010-10-07+01:00</cbc:IssueDate>
@@ -252,7 +250,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
-		<cbc:ID> 103420</cbc:ID>
+		<cbc:ID schemeName="InternalID">103420</cbc:ID>
 		<cbc:Name languageID="ENG">Automated Laboratory Medicine Systems</cbc:Name>
 		<cbc:Description languageID="ENG">Automated laboratory medicine systems incorporating clinical chemistry, haematology, immunology and blood bank.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
@@ -291,7 +289,7 @@
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>103420</cbc:ID>
+			<cbc:ID schemeName="InternalID">103420</cbc:ID>
 			<cbc:Name languageID="ENG">Automated Laboratory Medicine Systems</cbc:Name>
 			<cbc:Description languageID="ENG">Automated laboratory medicine systems incorporating clinical chemistry, haematology, immunology and blood bank.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>

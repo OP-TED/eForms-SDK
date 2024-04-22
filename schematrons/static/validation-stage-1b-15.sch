@@ -54,6 +54,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[$noticeSubType = '15']">
 		<assert id="ND-LotAwardCriterionFixNumberUnpublish-15" role="ERROR" diagnostics="ND-LotAwardCriterionFixNumberUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-LotAwardCriterionFixNumberUnpublish-15</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria[$noticeSubType = '15']">
+		<assert id="ND-SecondStageWeightCriterionParameter-15" role="ERROR" diagnostics="ND-SecondStageWeightCriterionParameter" test="count(efac:CriterionParameter) = 0">rule|text|ND-SecondStageWeightCriterionParameter-15</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '15']">
 		<assert id="ND-AcceleratedProcedure-15" role="ERROR" diagnostics="ND-AcceleratedProcedure" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-15</assert>
 		<assert id="ND-ProcedureTypeUnpublish-15" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-15</assert>
@@ -68,7 +71,9 @@
 		<assert id="ND-ContractModification-15" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-15</assert>
 		<assert id="ND-NoticeResult-15" role="ERROR" diagnostics="ND-NoticeResult" test="count(efac:NoticeResult) = 0">rule|text|ND-NoticeResult-15</assert>
 		<assert id="ND-Organizations-15" role="ERROR" diagnostics="ND-Organizations" test="count(efac:Organizations) &gt; 0">rule|text|ND-Organizations-15</assert>
-		<assert id="ND-ReviewRequests-15" role="ERROR" diagnostics="ND-ReviewRequests" test="count(efac:AppealsInformation) = 0">rule|text|ND-ReviewRequests-15</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus[$noticeSubType = '15']">
+		<assert id="ND-AppealingParty-15" role="ERROR" diagnostics="ND-AppealingParty" test="count(efac:AppealingParty) = 0">rule|text|ND-AppealingParty-15</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '15']">
 		<assert id="ND-Organization-15" role="ERROR" diagnostics="ND-Organization" test="count(efac:Organization) &gt; 0">rule|text|ND-Organization-15</assert>

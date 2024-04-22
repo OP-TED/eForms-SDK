@@ -105,7 +105,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">e887ac08-8b2a-47ee-8ba2-b3564418d241</cbc:ID>
 	<cbc:ContractFolderID>9999abf1-e057-47a5-9210-b1f6fc759999</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-05-10+01:00</cbc:IssueDate>
@@ -237,7 +237,7 @@
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
-				<cbc:ID>Whatever identifier </cbc:ID>
+				<cbc:ID>Whatever identifier</cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
 				<cac:Attachment>
 					<cac:ExternalReference>
@@ -411,7 +411,7 @@
 			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
-				<cbc:ID>Whatever identifier </cbc:ID>
+				<cbc:ID>Whatever identifier</cbc:ID>
 				<cbc:DocumentType>non-restricted-document</cbc:DocumentType>
 				<cac:Attachment>
 					<cac:ExternalReference>

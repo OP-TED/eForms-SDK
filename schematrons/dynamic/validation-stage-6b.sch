@@ -3,14 +3,6 @@
 
 <!-- This file contains schematron rules that use information outside of the notice being validated -->
 
-<!-- Notice dispatch date -->
-<rule context="/*">
-	<!-- BT-803(d)-notice Notice Dispatch Date eSender or BT-05(a)-notice Notice Dispatch Date is with one day of current date -->
-	<assert id="D-0001" role="ERROR" test="((ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) ge xs:dayTimeDuration('-P1D'))) or (((current-date() - xs:date(cbc:IssueDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(cbc:IssueDate/text())) ge xs:dayTimeDuration('-P1D')))">
-		Notice Dispatch Date eSender (BT-803), or by default Notice Dispatch Date (BT-05), must be between 0 and 24 hours before the current date.
-	</assert>
-</rule>
-
 <!-- Reference to the notice being changed by a change notice. -->
 <let name="parentNoticeId" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efbc:ChangedNoticeIdentifier/fn:normalize-space(text())"/>
 
@@ -21,16 +13,11 @@
 <!-- XML document of the parent notice. -->
 <let name="parentNotice" value="$getParentNotice($parentNoticeId)"/>
 
-<!-- URL of the request to the TED website API to search for a notice by its identifier
-	 The marker ##NOTICE_ID## must be replaced by the notice identifier value. -->
-<let name="tedSearchUrlPattern" value="'https://ted.europa.eu/api/v3.0/notices/search?q=notice-identifier=[##NOTICE_ID##]&amp;scope=3'"/>
-
-<!-- Function that takes a notice id, calls the search API and return the response as text. -->
-<let name="searchNotice" value="function($id) { fn:unparsed-text(replace($tedSearchUrlPattern, '##NOTICE_ID##', $id)) }"/>
-
-<rule context="/*/cbc:ID">
-	<assert id="D-0002" role="ERROR" test="matches($searchNotice(normalize-space(.)), '&quot;total&quot;\s*:\s*0')">
-		There is already a published notice with this identifier.
+<!-- Notice dispatch date -->
+<rule context="/*">
+	<!-- BT-803(d)-notice Notice Dispatch Date eSender or BT-05(a)-notice Notice Dispatch Date is with one day of current date -->
+	<assert id="D-0001" role="ERROR" test="((ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:TransmissionDate/text())) ge xs:dayTimeDuration('-P1D'))) or (((current-date() - xs:date(cbc:IssueDate/text())) le xs:dayTimeDuration('P2D')) and ((current-date() - xs:date(cbc:IssueDate/text())) ge xs:dayTimeDuration('-P1D')))">
+		Notice Dispatch Date (BT-05), or Notice Dispatch Date eSender (BT-803) if provided, must be 1 day before or after the current date.
 	</assert>
 </rule>
 

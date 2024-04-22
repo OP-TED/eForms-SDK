@@ -936,7 +936,7 @@
             <SimpleValue>Koncessionsbekendtgørelse – koncessionsdirektivet, standardordningen</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Konzessionsbekanntmachung – Richtlinie für Beschaffung im Bereich Verteidigung, Standardregelung</SimpleValue>
+            <SimpleValue>Konzessionsbekanntmachung – Konzessionsrichtlinie, Standardregelung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Προκήρυξη σύμβασης παραχώρησης – οδηγία για την άμυνα, τυποποιημένο καθεστώς</SimpleValue>
@@ -3330,7 +3330,7 @@
             <SimpleValue>Покана за изразяване на интерес</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Výzva k vyjádření zájmu</SimpleValue>
+            <SimpleValue>Výzva k vyjádření zájmu</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Indkaldelse af interessetilkendegivelser</SimpleValue>
@@ -3470,7 +3470,7 @@
             <SimpleValue>Anunțul de consultare preliminară a pieței</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Oznámenie o predbežnej trhovej konzultácii</SimpleValue>
+            <SimpleValue>Oznámenie o predbežnej trhovej konzultácii</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Obvestilo o predhodnem preverjanju trga</SimpleValue>
@@ -3630,7 +3630,7 @@
             <SimpleValue>Anunț general de participare sub prag</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o vyhlásení verejného obstarávania (CN) pod prahovou hodnotou</SimpleValue>
+            <SimpleValue>Všeobecné oznámenie o vyhlásení verejného obstarávania (CN) pod prahovou hodnotou</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Obvestilo o naročilu pod pragom – splošno</SimpleValue>
@@ -3710,7 +3710,7 @@
             <SimpleValue>Anunț general de atribuire a contractului sub prag</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o výsledku obstarávania (CAN) pod prahovou hodnotou</SimpleValue>
+            <SimpleValue>Všeobecné oznámenie o výsledku obstarávania (CAN) pod prahovou hodnotou</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Obvestilo o oddaji naročila pod pragom – splošno</SimpleValue>
@@ -3730,7 +3730,7 @@
             <SimpleValue>Обявление за изпълнена поръчка</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Oznámení o dokončení zakázky</SimpleValue>
+            <SimpleValue>Oznámení o dokončení zakázky</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Bekendtgørelse om gennemførelse af kontrakt</SimpleValue>
@@ -3790,7 +3790,7 @@
             <SimpleValue>Anunț de finalizare a contractului</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Formulár o dokončení zmluvy</SimpleValue>
+            <SimpleValue>Formulár o dokončení zmluvy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Obvestilo o zaključku naročila</SimpleValue>

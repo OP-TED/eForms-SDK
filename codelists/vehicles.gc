@@ -190,7 +190,7 @@
             <SimpleValue>Numărul vehiculelor care intră în domeniul de aplicare al directivei privind vehiculele nepoluante - CVD</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Počet všetkých vozidiel v rozsahu pôsobnosti smernice o ekologických vozidlách</SimpleValue>
+            <SimpleValue>Počet všetkých vozidiel v rozsahu pôsobnosti smernice o ekologických vozidlách</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Število vseh vozil, ki spadajo na področje uporabe direktive o čistih vozilih</SimpleValue>
@@ -350,7 +350,7 @@
             <SimpleValue>Numărul de vehicule grele cu emisii zero</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Počet ťažkých úžitkových vozidiel s nulovými emisiami</SimpleValue>
+            <SimpleValue>Počet ťažkých úžitkových vozidiel s nulovými emisiami</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Število brezemisijskih težkih vozil</SimpleValue>

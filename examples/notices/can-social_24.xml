@@ -13,66 +13,77 @@
 					<efac:NoticeResult>
 						<cbc:TotalAmount currencyID="EUR">123456.78</cbc:TotalAmount>
 						<efac:LotResult>
-							<cbc:ID>RES-0001</cbc:ID>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
 							<efac:DecisionReason>
 								<efbc:DecisionReasonCode listName="non-award-justification">all-rej</efbc:DecisionReasonCode>
 							</efac:DecisionReason>
 							<efac:LotTender>
-								<cbc:ID>TEN-0001</cbc:ID>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0001</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotResult>
-							<cbc:ID>RES-0002</cbc:ID>
+							<cbc:ID schemeName="result">RES-0002</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
-								<cbc:ID>TEN-0002</cbc:ID>
+								<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
-								<cbc:ID>CON-0001</cbc:ID>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0002</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotResult>
-							<cbc:ID>RES-0003</cbc:ID>
+							<cbc:ID schemeName="result">RES-0003</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">open-nw</cbc:TenderResultCode>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0003</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotTender>
-							<cbc:ID>TEN-0001</cbc:ID>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
 							<efac:TenderingParty>
-								<cbc:ID>TPA-0001</cbc:ID>
+								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0001</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>TENNN</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:LotTender>
-							<cbc:ID>TEN-0002</cbc:ID>
+							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							<efbc:TenderRankedIndicator>false</efbc:TenderRankedIndicator>
+							<cac:LegalMonetaryTotal>
+								<cbc:PayableAmount currencyID="EUR">100000</cbc:PayableAmount>
+							</cac:LegalMonetaryTotal>
 							<efac:TenderingParty>
-								<cbc:ID>TPA-0001</cbc:ID>
+								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0002</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>TENNN</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
-							<cbc:ID>CON-0001</cbc:ID>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<efac:ContractReference>
 								<cbc:ID>125b291e-576f-4855-b685-df8e9231475b-01</cbc:ID>
 							</efac:ContractReference>
@@ -81,9 +92,9 @@
 							</efac:LotTender>
 						</efac:SettledContract>
 						<efac:TenderingParty>
-							<cbc:ID>TPA-0001</cbc:ID>
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							<efac:Tenderer>
-								<cbc:ID>ORG-0002</cbc:ID>
+								<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>
@@ -98,7 +109,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">ZenithNova Innovations Ltd.</cbc:Name>
@@ -131,7 +142,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com/contact-us/katerina-lisa</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange/katerina-lisa</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Katerina Lisa</cbc:Name>
@@ -144,8 +155,9 @@
 						<efac:Organization>
 							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0002</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Kapa</cbc:Name>
@@ -173,7 +185,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">eb13621b-cb76-46ee-b6c1-3d33ac707d94</cbc:ID>
 	<cbc:ContractFolderID>23da790b-60bc-4897-8a6b-5b8eda654d89</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -192,7 +204,7 @@
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>ORG-0001</cbc:ID>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
@@ -210,12 +222,12 @@ vol3 </cbc:Description>
 		<cac:TenderingTerms>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>EBA1</cbc:ID>
+			<cbc:ID schemeName="InternalID">EBA1</cbc:ID>
 			<cbc:Name languageID="ENG">March of the Penguins vol3 </cbc:Name>
 			<cbc:Description languageID="ENG">Every winter emperor penguins embark on an incredible journey from the ocean to the Antarctic hinterland to breed, during which they struggle for survival under extremely adverse conditions. vol3 </cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -229,12 +241,12 @@ vol3 </cbc:Description>
 		<cac:TenderingTerms>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>EBA2</cbc:ID>
+			<cbc:ID schemeName="InternalID">EBA2</cbc:ID>
 			<cbc:Name languageID="ENG">March of the Penguins vol3 LOT2 </cbc:Name>
 			<cbc:Description languageID="ENG">Every winter emperor penguins embark on an incredible journey from the ocean to the Antarctic hinterland to breed, during which they struggle for survival under extremely adverse conditions. vol3 LOT2 </cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -248,12 +260,12 @@ vol3 </cbc:Description>
 		<cac:TenderingTerms>
 			<cac:DocumentProviderParty>
 				<cac:PartyIdentification>
-					<cbc:ID>TPO-0001</cbc:ID>
+					<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 				</cac:PartyIdentification>
 			</cac:DocumentProviderParty>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>EBA3</cbc:ID>
+			<cbc:ID schemeName="InternalID">EBA3</cbc:ID>
 			<cbc:Name languageID="ENG">March of the Penguins vol3 LOT3</cbc:Name>
 			<cbc:Description languageID="ENG">Every winter emperor penguins embark on an incredible journey from the ocean to the Antarctic hinterland to breed, during which they struggle for survival under extremely adverse conditions. vol32 LOT3</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>

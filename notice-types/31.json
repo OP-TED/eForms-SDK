@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0",
   "metadataDatabase" : {
-    "version" : "1.10.0",
-    "createdOn" : "2023-11-15T14:00:00"
+    "version" : "1.11.0",
+    "createdOn" : "2024-02-29T16:00:00"
   },
   "noticeId" : "31",
   "metadata" : [ {
@@ -905,6 +905,7 @@
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
     "_identifierFieldId" : "BT-137-Lot",
+    "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
     "content" : [ {
       "id" : "BT-137-Lot",
@@ -2142,8 +2143,7 @@
           "_idSchemes" : [ "ORG", "TPO" ]
         } ]
       } ]
-    } ],
-    "_captionFieldId" : "BT-21-Lot"
+    } ]
   }, {
     "id" : "GR-LotsGroup",
     "contentType" : "group",
@@ -2154,6 +2154,7 @@
     "_idScheme" : "GLO",
     "_schemeName" : "LotsGroup",
     "_identifierFieldId" : "BT-137-LotsGroup",
+    "_captionFieldId" : "BT-21-LotsGroup",
     "_repeatable" : true,
     "content" : [ {
       "id" : "GR-LotsGroup-Purpose",
@@ -2782,8 +2783,7 @@
           } ]
         } ]
       } ]
-    } ],
-    "_captionFieldId" : "BT-21-LotsGroup"
+    } ]
   }, {
     "id" : "GR-Result",
     "contentType" : "group",
@@ -3084,6 +3084,7 @@
         "_idScheme" : "TPA",
         "_schemeName" : "tendering-party",
         "_identifierFieldId" : "OPT-210-Tenderer",
+        "_captionFieldId" : "OPT-211-Tenderer",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-210-Tenderer",
@@ -3154,8 +3155,7 @@
               "_idSchemes" : [ "ORG" ]
             } ]
           } ]
-        } ],
-        "_captionFieldId" : "OPT-211-Tenderer"
+        } ]
       } ]
     }, {
       "id" : "GR-SettledContract-Section",
@@ -3173,6 +3173,7 @@
         "_idScheme" : "CON",
         "_schemeName" : "contract",
         "_identifierFieldId" : "OPT-316-Contract",
+        "_captionFieldId" : "BT-150-Contract",
         "_repeatable" : true,
         "content" : [ {
           "id" : "GR-SettledContract-1",
@@ -3291,8 +3292,7 @@
             "description" : "Contract EU Funds Details",
             "_label" : "field|name|BT-6110-Contract"
           } ]
-        } ],
-        "_captionFieldId" : "BT-150-Contract"
+        } ]
       } ]
     }, {
       "id" : "GR-LotTender-Section",
@@ -3310,6 +3310,7 @@
         "_idScheme" : "TEN",
         "_schemeName" : "tender",
         "_identifierFieldId" : "OPT-321-Tender",
+        "_captionFieldId" : "BT-3201-Tender",
         "_repeatable" : true,
         "content" : [ {
           "id" : "GR-Tender",
@@ -3754,8 +3755,7 @@
               "_label" : "field|name|BT-198(BT-731)-Tender"
             } ]
           } ]
-        } ],
-        "_captionFieldId" : "BT-3201-Tender"
+        } ]
       } ]
     }, {
       "id" : "GR-LotResult-Section",
@@ -3773,6 +3773,7 @@
         "_idScheme" : "RES",
         "_schemeName" : "result",
         "_identifierFieldId" : "OPT-322-LotResult",
+        "_captionFieldId" : "BT-13713-LotResult",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-322-LotResult",
@@ -4454,8 +4455,7 @@
               "_label" : "field|name|BT-198(BT-759)-LotResult"
             } ]
           } ]
-        } ],
-        "_captionFieldId" : "BT-13713-LotResult"
+        } ]
       } ]
     } ]
   }, {
@@ -4549,6 +4549,7 @@
         "_idScheme" : "ORG",
         "_schemeName" : "organization",
         "_identifierFieldId" : "OPT-200-Organization-Company",
+        "_captionFieldId" : "BT-500-Organization-Company",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-200-Organization-Company",
@@ -4761,6 +4762,7 @@
           "_idScheme" : "TPO",
           "_schemeName" : "touchpoint",
           "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
+          "_captionFieldId" : "BT-500-Organization-TouchPoint",
           "_repeatable" : true,
           "collapsed" : true,
           "content" : [ {
@@ -4876,10 +4878,8 @@
               "description" : "Contact Fax",
               "_label" : "field|name|BT-739-Organization-TouchPoint"
             } ]
-          } ],
-          "_captionFieldId" : "BT-500-Organization-TouchPoint"
-        } ],
-        "_captionFieldId" : "BT-500-Organization-Company"
+          } ]
+        } ]
       } ]
     }, {
       "id" : "GR-UBO-Subsection",
@@ -4897,6 +4897,7 @@
         "_idScheme" : "UBO",
         "_schemeName" : "ubo",
         "_identifierFieldId" : "OPT-202-UBO",
+        "_captionFieldId" : "BT-500-UBO",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-202-UBO",
@@ -4994,8 +4995,7 @@
             "description" : "Winner Owner Nationality",
             "_label" : "field|name|BT-706-UBO"
           } ]
-        } ],
-        "_captionFieldId" : "BT-500-UBO"
+        } ]
       } ]
     } ]
   } ]

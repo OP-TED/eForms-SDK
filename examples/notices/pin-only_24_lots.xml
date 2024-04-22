@@ -73,7 +73,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">199b243b-4daf-4d7d-ba7c-f37f88102480</cbc:ID>
 	<cbc:IssueDate>2020-04-02+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:30:00+01:00</cbc:IssueTime>
@@ -105,7 +105,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
-		<cbc:ID> GO-202042-PRO-16291922</cbc:ID>
+		<cbc:ID schemeName="InternalID">GO-202042-PRO-16291922</cbc:ID>
 		<cbc:Name languageID="ENG">Fusion21 Materials Supply Framework — Market Engagement Opportunity</cbc:Name>
 		<cbc:Description languageID="ENG">Fusion21 is developing a new framework for the supply of materials to Fusion21 Members across the public sector. The objective of this framework is to deliver a best practice material supply offer for Fusion21 Members for the next 4 years. Fusion21 is seeking to engage with the supply market to understand suppliers views on the potential for a new materials offer, ensuring it will be reflective of the best practice capabilities that exist with suppliers in this market. We would encourage you to: (a) complete the survey designed to gain your feedback on the structure and scope of the framework via this link: https://www.surveymonkey.co.uk/r/2XFWQFR; and (b) register your interest in the opportunity by confirming your details and the lots you intend to bid for here: https://fusion21.delta-esourcing.com/respond/44JDE788CH</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>

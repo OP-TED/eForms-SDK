@@ -30,7 +30,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID> 20007158700014</cbc:CompanyID>
+									<cbc:CompanyID>20007158700014</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Name>Service Achats</cbc:Name>
@@ -130,7 +130,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">4039abd1-af19-42cf-bce0-7c55806601e8</cbc:ID>
 	<cbc:ContractFolderID>fe181e9c-327f-4a7c-8669-ef0774c9a749</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-14+01:00</cbc:IssueDate>
@@ -165,7 +165,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
-		<cbc:ID>Dsp crèches</cbc:ID>
+		<cbc:ID schemeName="InternalID">Dsp crèches</cbc:ID>
 		<cbc:Name languageID="FRA">Concession de service public pour la gestion des équipements d'accueil collectif de la petite enfance — secteur nord-est Loches et Tauxigny-Saint-Bauld</cbc:Name>
 		<cbc:Description languageID="FRA">— la présente concession de service sous-forme de DSP concerne deux structures de type multi-accueils de quarante berceaux chacune</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -285,7 +285,7 @@
 			</cac:TenderSubmissionDeadlinePeriod>	
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID> Dsp crèches</cbc:ID>
+			<cbc:ID schemeName="InternalID">Dsp crèches</cbc:ID>
 			<cbc:Name languageID="FRA">Concession de service public pour la gestion des équipements d'accueil collectif de la petite enfance — secteur nord-est Loches et Tauxigny-Saint-Bauld</cbc:Name>
 			<cbc:Description languageID="FRA">— la présente concession de service sous-forme de DSP concerne deux structures de type multi-accueils de quarante berceaux chacune.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

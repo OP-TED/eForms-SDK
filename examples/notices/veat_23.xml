@@ -117,7 +117,7 @@
 									<cbc:StreetName>Bahnhofstraße 54</cbc:StreetName>
 									<cbc:CityName>Neckargemünd</cbc:CityName>
 									<cbc:PostalZone>69151</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">DE128 </cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">DE128</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
 									</cac:Country>
@@ -141,7 +141,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">9938e0b2-bba7-4123-b96b-a654440660bf</cbc:ID>
 	<cbc:ContractFolderID>f83d19fa-192f-4eba-acc0-b1a6ac8862c7</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-01-10+01:00</cbc:IssueDate>
@@ -183,7 +183,7 @@
 		<cbc:Description languageID="DEU">Abschluss eines Wasser-Konzessionsvertrags sowie einer Löschwasservereinbarung</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cac:MainCommodityClassification>
-			<cbc:ItemClassificationCode listName="cpv">65110000 </cbc:ItemClassificationCode>
+			<cbc:ItemClassificationCode listName="cpv">65110000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
@@ -214,7 +214,7 @@
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="DEU">Wasser-Konzessionsvertrag und Löschwasservereinbarung</cbc:Name>
 			<cbc:Description languageID="DEU">Konzessionsvertrag: Der Wasser-Konzessionsvertrag enthält neben den Regelungen zur Wegenutzung auch eine Lieferverpflichtung zur Trinkwasserversorgung. Ziel des Vertrages ist es, durch Planung, Bau, Betrieb und Instandhaltung von Wasserversorgungsanlagen unter Nutzung der öffentlichen Verkehrswege der Stadt eine möglichst sichere, preisgünstige, umweltverträgliche und verbraucherfreundliche Versorgung der Einwohner und Gewerbetreibenden im Stadtgebiet von Neckargemünd mit Wasser in guter Qualität zu
 			gewährleisten. Als Entgelt für die eingeräumten Nutzungsrechte sind Konzessionsabgaben im jeweils höchstzulässigen Umfang vereinbart.

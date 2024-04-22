@@ -5,7 +5,7 @@
       <ShortName>CnStandard</ShortName>
       <LongName>cn-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.10.0</Version>
+      <Version>1.11.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -377,7 +377,7 @@
             <SimpleValue>Koncessionsbekendtgørelse – koncessionsdirektivet, standardordningen</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Konzessionsbekanntmachung – Richtlinie für Beschaffung im Bereich Verteidigung, Standardregelung</SimpleValue>
+            <SimpleValue>Konzessionsbekanntmachung – Konzessionsrichtlinie, Standardregelung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Προκήρυξη σύμβασης παραχώρησης – οδηγία για την άμυνα, τυποποιημένο καθεστώς</SimpleValue>
@@ -511,7 +511,7 @@
             <SimpleValue>Anunț general de participare sub prag</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o vyhlásení verejného obstarávania (CN) pod prahovou hodnotou</SimpleValue>
+            <SimpleValue>Všeobecné oznámenie o vyhlásení verejného obstarávania (CN) pod prahovou hodnotou</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Obvestilo o naročilu pod pragom – splošno</SimpleValue>

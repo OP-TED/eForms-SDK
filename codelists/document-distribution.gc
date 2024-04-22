@@ -190,7 +190,7 @@
             <SimpleValue>Nu există restricții privind accesul la documente</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Neobmedzený prístup k podkladom</SimpleValue>
+            <SimpleValue>Neobmedzený prístup k podkladom</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Ni omejitev za dostop do dokumentov</SimpleValue>
@@ -210,7 +210,7 @@
             <SimpleValue>Достъпът до някои документи за поръчката е ограничен</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Přístup k určité zadávací dokumentaci je omezený</SimpleValue>
+            <SimpleValue>Přístup k určité zadávací dokumentaci je omezený</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Adgangen til visse udbudsdokumenter er begrænset</SimpleValue>
@@ -270,7 +270,7 @@
             <SimpleValue>Accesul la anumite documente de achiziție este restricționat</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Obmedzený prístup k súťažným podkladom</SimpleValue>
+            <SimpleValue>Obmedzený prístup k súťažným podkladom</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Dostop do nekaterih dokumentov v zvezi z oddajo javnega naročila je omejen</SimpleValue>

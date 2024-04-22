@@ -1,0 +1,73 @@
+{
+  "schemas" : [ {
+    "standard" : "BDNDR",
+    "name" : "CCTS CCT SchemaModule",
+    "version" : "1.1",
+    "filename" : "common/BDNDR-CCTS_CCT_SchemaModule-1.1.xsd"
+  }, {
+    "standard" : "BDNDR",
+    "name" : "UnqualifiedDataTypes",
+    "version" : "2.1",
+    "filename" : "common/BDNDR-UnqualifiedDataTypes-1.1.xsd"
+  }, {
+    "standard" : "EFORMS",
+    "name" : "ExtensionAggregateComponents",
+    "version" : "2.3",
+    "filename" : "common/EFORMS-ExtensionAggregateComponents-2.3.xsd"
+  }, {
+    "standard" : "EFORMS",
+    "name" : "ExtensionApex",
+    "version" : "2.3",
+    "filename" : "common/EFORMS-ExtensionApex-2.3.xsd"
+  }, {
+    "standard" : "EFORMS",
+    "name" : "ExtensionBasicComponents",
+    "version" : "2.3",
+    "filename" : "common/EFORMS-ExtensionBasicComponents-2.3.xsd"
+  }, {
+    "standard" : "UBL",
+    "name" : "CommonAggregateComponents",
+    "version" : "2.3",
+    "filename" : "common/UBL-CommonAggregateComponents-2.3.xsd"
+  }, {
+    "standard" : "UBL",
+    "name" : "CommonBasicComponents",
+    "version" : "2.3",
+    "filename" : "common/UBL-CommonBasicComponents-2.3.xsd"
+  }, {
+    "standard" : "UBL",
+    "name" : "CommonExtensionComponents",
+    "version" : "2.3",
+    "filename" : "common/UBL-CommonExtensionComponents-2.3.xsd"
+  }, {
+    "standard" : "UBL",
+    "name" : "ExtensionContentDataType",
+    "version" : "2.3",
+    "filename" : "common/UBL-ExtensionContentDataType-2.3.xsd"
+  }, {
+    "standard" : "UBL",
+    "name" : "QualifiedDataTypes",
+    "version" : "2.3",
+    "filename" : "common/UBL-QualifiedDataTypes-2.3.xsd"
+  }, {
+    "standard" : "EFORMS",
+    "name" : "BusinessRegistrationInformationNotice",
+    "version" : "2.3",
+    "filename" : "maindoc/EFORMS-BusinessRegistrationInformationNotice.xsd"
+  }, {
+    "standard" : "UBL",
+    "name" : "ContractAwardNotice",
+    "version" : "2.3",
+    "filename" : "maindoc/UBL-ContractAwardNotice-2.3.xsd"
+  }, {
+    "standard" : "UBL",
+    "name" : "ContractNotice",
+    "version" : "2.3",
+    "filename" : "maindoc/UBL-ContractNotice-2.3.xsd"
+  }, {
+    "standard" : "UBL",
+    "name" : "PriorInformationNotice",
+    "version" : "2.3",
+    "filename" : "maindoc/UBL-PriorInformationNotice-2.3.xsd"
+  } ]
+}

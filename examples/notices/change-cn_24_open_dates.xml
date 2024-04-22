@@ -145,7 +145,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">71397268-6c47-4f2f-8ab0-f41a26138f81</cbc:ID>
 	<cbc:ContractFolderID>31f258b6-5eb2-4875-8997-affa3cdce27c</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-17+01:00</cbc:IssueDate>
@@ -232,7 +232,7 @@
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>RC-CPU-19-065</cbc:ID>
+		<cbc:ID schemeName="InternalID">RC-CPU-19-065</cbc:ID>
 		<cbc:Name languageID="ENG">Term Contract for a Planned Programme of In-service Inspection and Testing of Electrical Equipment</cbc:Name>
 		<cbc:Description languageID="ENG">The purpose of this contract is to formalise the Councils requirement to employ a contractor to carry out a planned programme of in-service inspection and testing of electrical equipment within the Councils public buildings.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -477,7 +477,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="ENG">Term Contract for a Planned Programme of In-service Inspection and Testing of Electrical Equipment</cbc:Name>
 			<cbc:Description languageID="ENG">The purpose of this contract is to formalise the Councils requirement to employ a contractor to carry out a planned programme of in-service inspection and testing of electrical equipment within the Councils public buildings.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

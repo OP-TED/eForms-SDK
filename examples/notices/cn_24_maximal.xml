@@ -429,7 +429,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<!--BT-701-->
 	<cbc:ID schemeName="notice-id">14549263-b47b-4e59-96a1-2d0d13e19343</cbc:ID>
 	<!--BT-04-->
@@ -538,7 +538,7 @@
 			<!--BT-31-->
 			<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
 			<cac:LotsGroup>
-				<cbc:LotsGroupID>GLO-0001</cbc:LotsGroupID>
+				<cbc:LotsGroupID schemeName="LotsGroup">GLO-0001</cbc:LotsGroupID>
 				<cac:ProcurementProjectLotReference>
 					<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 				</cac:ProcurementProjectLotReference>
@@ -1108,7 +1108,7 @@
 			</cac:AdditionalInformationRequestPeriod>
 			<cac:NoticeDocumentReference>
 				<!--BT-125-->
-				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
+				<cbc:ID schemeName="notice-id-ref">9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
@@ -1666,7 +1666,7 @@
 			</cac:AdditionalInformationRequestPeriod>
 			<cac:NoticeDocumentReference>
 				<!--BT-125-->
-				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
+				<cbc:ID schemeName="notice-id-ref">9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
-                        phase="29"
+                        phase="eforms-29"
                         title="eForms schematron rules">
    <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
    <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
@@ -32,7 +32,6 @@
 			rule|text|P-0002
 		</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="//cbc:NoticeTypeCode"/>
    <svrl:active-pattern id="EFORMS-validation-stage-1b-29"/>
    <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:failed-assert id="ND-ProcedureProcurementScope-29"
@@ -199,6 +198,12 @@
    <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
+   <svrl:failed-assert id="OPP-070-notice-List_MA"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"
+                       role="ERROR"
+                       test="count(@listName) &gt; 0">
+      <svrl:text>rule|text|OPP-070-notice-List_MA</svrl:text>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-3b-29"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-29"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>

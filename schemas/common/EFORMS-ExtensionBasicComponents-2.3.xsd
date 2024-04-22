@@ -48,6 +48,7 @@
 	<xsd:element name="IrregularityTypeCode" type="IrregularityTypeCodeType"/>
 	<xsd:element name="ItemClassificationDescription" type="ItemClassificationDescriptionType"/>
 	<xsd:element name="ListedOnRegulatedMarketIndicator" type="ListedOnRegulatedMarketIndicatorType"/>
+	<xsd:element name="ModifiedContractIdentifier" type="ModifiedContractIdentifierType"/>
 	<xsd:element name="NaturalPersonIndicator" type="NaturalPersonIndicatorType"/>
 	<xsd:element name="NonAwardJustificationCode" type="NonAwardJustificationCodeType"/>
 	<xsd:element name="NoticePublicationID" type="NoticePublicationIDType"/>
@@ -274,6 +275,11 @@
 	<xsd:complexType name="ListedOnRegulatedMarketIndicatorType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:IndicatorType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ModifiedContractIdentifierType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:IdentifierType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="NaturalPersonIndicatorType">

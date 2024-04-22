@@ -7,12 +7,10 @@
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:ContractModification>
-						<efbc:ChangedNoticeIdentifier>342558-2018</efbc:ChangedNoticeIdentifier>
+						<efbc:ChangedNoticeIdentifier schemeName="ojs-notice-id">342558-2018</efbc:ChangedNoticeIdentifier>
+						<efbc:ModifiedContractIdentifier schemeName="contract">CON-0001</efbc:ModifiedContractIdentifier>
 						<efac:Change>
 							<efbc:ChangeDescription languageID="ENG">Increase in framework value</efbc:ChangeDescription>
-							<efac:ChangedSection>
-								<efbc:ChangedSectionIdentifier>CON-0001</efbc:ChangedSectionIdentifier>
-							</efac:ChangedSection>
 						</efac:Change>
 						<efac:ChangeReason>
 							<cbc:ReasonCode listName="modification-justification">add-wss</cbc:ReasonCode>
@@ -216,7 +214,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">3572a106-eb30-4c7a-8ac5-b3502f71742a</cbc:ID>
 	<cbc:ContractFolderID>8e8b5cf4-595b-4562-85b0-7c79922cb330</cbc:ContractFolderID>
 	<cbc:IssueDate>2018-08-02+01:00</cbc:IssueDate>
@@ -241,7 +239,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
-		<cbc:ID>17/044</cbc:ID>
+		<cbc:ID schemeName="InternalID">17/044</cbc:ID>
 		<cbc:Name languageID="ENG">Change Partner</cbc:Name>
 		<cbc:Description languageID="ENG">LSBU is seeking the services of a strategic change partner to support it in delivering the objectives of LEAP, an ambitions change programme that will transform the way the University is organised and delivers its services to support its students through their learning journey and respond more flexibly and effectively to emerging opportunities and challenges, including evolving student and employer (customer) needs and expectations, new digital solutions, regulatory, information and market changes, remaining true to its identity and stated aims. The LEAP programme has been designed around 9 workstreams.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -273,7 +271,7 @@
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="ENG">Change Partner</cbc:Name>
 			<cbc:Description languageID="ENG">LSBU is seeking the services of a strategic change partner to support it in delivering the objectives of LEAP, an ambitions change programme that will transform the way the University is organised and delivers its services to support its students through their learning journey and respond more flexibly and effectively to emerging opportunities and challenges, including evolving student and employer (customer) needs and expectations, new digital solutions, regulatory, information and market changes, remaining true to its identity and stated aims. The LEAP programme has been designed around 9 workstreams.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
