@@ -62,6 +62,10 @@
 				{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
 				{ND-Root[BT-196(BT-09)-Procedure is present]} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
 				{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
+			0 {BT-09(a)-Procedure[BT-09(b)-Procedure == 'unpublished']} #{auxiliary|text|cross-border-law}: #{auxiliary|text|unpublished} // Applicable cross-border law
+				{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
+				{ND-Root[BT-196(BT-09)-Procedure is present]} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
+				{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
 4 {ND-Root[BT-137-LotsGroup is present]} #{auxiliary|text|group-of-lots} // 4. Group of lots
 	1 {ND-LotsGroup} #{field|name|BT-330-Procedure}: ${BT-137-LotsGroup} // 4.1 Group of lots
 		{BT-137-LotsGroup} #{field|name|BT-1375-Procedure}: ${for text:$gloid in BT-137-LotsGroup return BT-1375-Procedure[BT-330-Procedure == $gloid]} // Lots included / Group Lot Identifier 

@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Myöntämisperusteeseen liittyvä luku' (BT-541) ei ole täytetty tai 'Luku on kiinteä arvo' (BT-5422) on täytetty tai 'Luku on tyypiltään kynnysarvo' (BT-5423) on täytetty</entry>
 <entry key="expression|name|157">'Myöntämisperusteeseen liittyvä luku' (BT-541) ei ole täytetty tai 'Luku on kiinteä arvo' (BT-5422) on täytetty tai 'Luku on tyypiltään kynnysarvo' (BT-5423) on täytetty</entry>
 <entry key="expression|name|158">'Tarjouksen tekijän on esitettävä tarjoukset kaikista eristä' ((BT-763)) on tosi</entry>
-<entry key="expression|name|159">'Tarjouksen tekijän on esitettävä tarjoukset kaikista eristä' (BT-763) on tosi tai ilmoituksessa on useampi kuin yksi erä</entry>
+<entry key="expression|name|159">Erät eivät ole 'Tarjouksen tekijän on esitettävä tarjoukset kaikista eristä' (BT-763) ja ilmoituksessa on enemmän kuin yksi erä</entry>
 <entry key="expression|name|16">'Myöntämisperusteeseen liittyvä luku' (BT-541-Lot) ei ole tyhjä</entry>
 <entry key="expression|name|160">Ei ole useita eriä</entry>
 <entry key="expression|name|161">'Pääasiallinen luokitus' (BT-262-Lot) ei ole täytetty</entry>
@@ -113,7 +113,7 @@
 <entry key="expression|name|20">'Maa' (BT-5141-Lot) ei ole tyhjä</entry>
 <entry key="expression|name|200">'Keston päättymispäivä' (BT-537-Lot) on täytetty</entry>
 <entry key="expression|name|201">'Kilpailun perusteella tehtävä palvelusopimus tehdään yhden voittajista kanssa' (BT-41-Lot) ei ole tosi</entry>
-<entry key="expression|name|202">'Tietoa muutoksenhaun määräajoista' (BT-99-Lot) on täytetty</entry>
+<entry key="expression|name|202">'Tietoa muutoksenhaun määräajoista' (BT-99-Lot) ei ole täytetty</entry>
 <entry key="expression|name|203">Yhdenkään erän osalta ei ole tehty sopimusta</entry>
 <entry key="expression|name|204">'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract) ei ole täytetty</entry>
 <entry key="expression|name|205">'Menettelyn tyyppi' (BT-105) ei ole 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua', 'Oikeusperusta' (BT-01) ei ole 'Asetus (EU, Euratom) 2018/1046', vähintään yksi 'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract) on täytetty</entry>
@@ -219,7 +219,7 @@
 <entry key="expression|name|297">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-553)-Tender) ei ole täytetty</entry>
 <entry key="expression|name|298">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-554)-Tender) ei ole täytetty</entry>
 <entry key="expression|name|299">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-555)-Tender) ei ole täytetty</entry>
-<entry key="expression|name|3">'Menettelyn tyyppi' (BT-105) on oltava: 'Avoin'; 'Rajoitettu'; 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
+<entry key="expression|name|3">'Menettelyn tyyppi' (BT-105) ei ole 'Avoin', 'Rajoitettu', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Kilpailullinen neuvottelumenettely' tai 'Innovaatiokumppanuus'</entry>
 <entry key="expression|name|30">'Perusteita käytetään valittaessa menettelyn jälkimmäiseen vaiheeseen kutsuttavia ehdokkaita' (BT-40) ei ole 'Kyllä'</entry>
 <entry key="expression|name|300">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-556)-NoticeResult) ei ole täytetty</entry>
 <entry key="expression|name|301">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-709)-LotResult) ei ole täytetty</entry>
@@ -269,17 +269,18 @@
 <entry key="expression|name|341">Organisaatio ei ole tarjoaja eikä alihankkija</entry>
 <entry key="expression|name|342">Jos organisaatio toimitti 'Tarjoava osapuoli' (OPT-310-Tender), mikä johti sopimukseen 'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract), organisaatio on tarjouskilpailun voittaja</entry>
 <entry key="expression|name|343">'UBO:n tekninen ID (UBO-XXX)' (OPT-202-UBO) ei ole täytetty</entry>
+<entry key="expression|name|344">'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä'</entry>
 <entry key="expression|name|345">Organisaatio ei ole 'Ostaja'</entry>
 <entry key="expression|name|346">Organisaatio on ostaja, ja dynaamista hankintajärjestelmää voivat käyttää myös ostajat, joita ei ole mainittu tässä ilmoituksessa, ja oikeusperusta on eri kuin 'Muu', ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ole täytetty</entry>
 <entry key="expression|name|347">Organisaatio on ostaja, ja dynaamista hankintajärjestelmää voivat käyttää myös ostajat, joita ei ole mainittu tässä ilmoituksessa, ja oikeusperusta on eri kuin 'Muu', ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ole täytetty</entry>
 <entry key="expression|name|348">'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä'; 'Menettelyn tyyppi' (BT-105) ei ole yksi seuraavista: 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely', 'Rajoitettu'</entry>
 <entry key="expression|name|349">Kyseessä on puitesopimus</entry>
-<entry key="expression|name|35">'Menettelyn tyyppi' (BT-105) ei ole yksi seuraavista: 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
+<entry key="expression|name|35">'Menettelyn tyyppi' (BT-105) ei ole 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
 <entry key="expression|name|350">Organisaatio ei kuulu tarjouksen tekevään tahoon; 'Organisaatio on luonnollinen henkilö' (BT-633-Organization); 'Voittaja on noteerattu säännellyillä markkinoilla' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organisaatio (OPT-200-Organization-Company) kuuluu voittaneeseen tarjoukseen päätarjoajana (OPT-300-Tenderer) tai alihankkijana (OPT-301-Tenderer-SubCont); 'Organisaatio on luonnollinen henkilö' (BT-633-Organization) on 'ei' ja 'Voittaja on noteerattu säännellyillä markkinoilla' (BT-746-Organization) on 'ei'</entry>
 <entry key="expression|name|352">Vähintään yhden organisaation on liityttävä organisaatioon 'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Menettelyn tyyppi' (BT-105) on 'Avoin' tai 'Rajoitettu'</entry>
-<entry key="expression|name|354">'Menettelyn tyyppi' (BT-105) on 'Rajoitettu' tai 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
+<entry key="expression|name|353">'Menettelyn tyyppi' (BT-105) on 'Avoin', 'Rajoitettu' tai 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
+<entry key="expression|name|354">'Menettelyn tyyppi' (BT-105) ei ole 'Rajoitettu' tai 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
 <entry key="expression|name|355">Organisaatio ei ole ostaja, tai on vain yksi ostaja</entry>
 <entry key="expression|name|356">On kaksi eri ostajaa kahdesta eri maasta</entry>
 <entry key="expression|name|357">'Oikeusperusta' (BT-01) on 'Direktiivi 2014/23/EU', ja 'Menettelyn tyyppi' (BT-105) on 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua' tai 'Muu yksivaiheinen menettely' tai 'Muu monivaiheinen menettely'</entry>
@@ -353,7 +354,7 @@
 <entry key="expression|name|514">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717) ei ole 'kyllä'</entry>
 <entry key="expression|name|515">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717) ei ole 'kyllä' tämän erän osalta tai erästä ei ole tehty sopimusta</entry>
 <entry key="expression|name|516">'Puhtaita ajoneuvoja koskeva direktiivi muodostaa oikeusperustan, jonka perusteella eri hankintamenettelyluokkia sovelletaan' (BT-735-LotResult) ei ole täytetty</entry>
-<entry key="expression|name|517">'Direktiivin 2009/33/EY soveltamisalaan kuuluva ajoneuvoluokka, esim. kevyet hyötyajoneuvot (M1, M2, N1), linja-autot (M3), kuorma-autot (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) ei ole täytetty</entry>
+<entry key="expression|name|517">'Ajoneuvon luokka' (BT-723-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|518">'Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan' (BT-717) ei ole 'kyllä' tämän erän osalta</entry>
 <entry key="expression|name|52">'Hankintasopimuksen saaneelta tarjoajien ryhmältä vaaditaan tietty oikeudellinen muoto' (BT-761-Lot) ei ole 'kyllä'</entry>
 <entry key="expression|name|520">'Luku on tyypiltään painotus' (BT-5421) ei ole 'Ensisijaisuusjärjestys'</entry>

@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Értékelési szempont száma' (BT-541) nincs kitöltve, vagy 'A szám rögzített érték' (BT-5422) ki van töltve, vagy 'A szám valamilyen küszöbérték' (BT-5423) ki van töltve</entry>
 <entry key="expression|name|157">'Értékelési szempont száma' (BT-541) nincs kitöltve, vagy 'A szám rögzített érték' (BT-5422) ki van töltve, vagy 'A szám valamilyen küszöbérték' (BT-5423) ki van töltve</entry>
 <entry key="expression|name|158">'Az ajánlattevőnek valamennyi részre be kell nyújtania ajánlatot' ((BT-763)) igaz</entry>
-<entry key="expression|name|159">'Az ajánlattevőnek valamennyi részre be kell nyújtania ajánlatot' (BT-763) igaz, vagy egynél több tétel szerepel a hirdetményben</entry>
+<entry key="expression|name|159">A tételek nem 'Az ajánlattevőnek valamennyi részre be kell nyújtania ajánlatot' (BT-763) és több tétel is szerepel a hirdetményben</entry>
 <entry key="expression|name|16">'Értékelési szempont száma' (BT-541-Lot) nem üres</entry>
 <entry key="expression|name|160">Nincs több tétel</entry>
 <entry key="expression|name|161">'Fő osztályozás' (BT-262-Lot) nincs kitöltve</entry>
@@ -113,7 +113,7 @@
 <entry key="expression|name|20">'Ország' (BT-5141-Lot) nem üres</entry>
 <entry key="expression|name|200">'Időtartam befejezésének dátuma' (BT-537-Lot) ki van töltve</entry>
 <entry key="expression|name|201">'A pályázatot követően a szolgáltatásnyújtásra irányuló szerződést a pályázat egyik nyertesének ítélik oda' (BT-41-Lot) nem igaz</entry>
-<entry key="expression|name|202">'A felülvizsgálati határidőkre vonatkozó információk' (BT-99-Lot) ki van töltve</entry>
+<entry key="expression|name|202">'A felülvizsgálati határidőkre vonatkozó információk' (BT-99-Lot) nincs kitöltve</entry>
 <entry key="expression|name|203">Egy tételt sem ítéltek oda</entry>
 <entry key="expression|name|204">'Szerződés ajánlati azonosítója' (BT-3202-Contract) nincs kitöltve</entry>
 <entry key="expression|name|205">'Az eljárás típusa' (BT-105) nem 'Felhívás nélküli tárgyalásos eljárás'; 'Jogalap' (BT-01) nem '(EU, Euratom) 2018/1046 rendelet'; legalább egy 'Szerződés ajánlati azonosítója' (BT-3202-Contract) ki van töltve</entry>
@@ -219,7 +219,7 @@
 <entry key="expression|name|297">'Később közzéteendő mező' (BT-195(BT-553)-Tender) nincs kitöltve</entry>
 <entry key="expression|name|298">'Később közzéteendő mező' (BT-195(BT-554)-Tender) nincs kitöltve</entry>
 <entry key="expression|name|299">'Később közzéteendő mező' (BT-195(BT-555)-Tender) nincs kitöltve</entry>
-<entry key="expression|name|3">'Az eljárás típusa' (BT-105) a következőnek kell lennie: 'Nyitott'; 'Zárt'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
+<entry key="expression|name|3">'Az eljárás típusa' (BT-105) nem 'Nyitott', 'Zárt', 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos', 'Versenypárbeszéd' vagy 'Innovációs partnerség'</entry>
 <entry key="expression|name|30">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) nem 'Igen'</entry>
 <entry key="expression|name|300">'Később közzéteendő mező' (BT-195(BT-556)-NoticeResult) nincs kitöltve</entry>
 <entry key="expression|name|301">'Később közzéteendő mező' (BT-195(BT-709)-LotResult) nincs kitöltve</entry>
@@ -269,17 +269,18 @@
 <entry key="expression|name|341">A szervezet nem ajánlattevő vagy alvállalkozó</entry>
 <entry key="expression|name|342">Ha a szervezet benyújtott 'Ajánlattevő' (OPT-310-Tender), melynek eredménye 'Szerződés ajánlati azonosítója' (BT-3202-Contract) volt, akkor ez a szervezet nyertes</entry>
 <entry key="expression|name|343">'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) nincs kitöltve</entry>
+<entry key="expression|name|344">'Ez az eljárás több szakaszból áll. Minden szakaszban kiesik néhány résztvevő' (BT-52-Lot) nem 'igen'</entry>
 <entry key="expression|name|345">A szervezet nem egy 'Vevő'</entry>
 <entry key="expression|name|346">A szervezet vevő, és a dinamikus beszerzési rendszert a jelen hirdetményben nem szereplő vevők is használhatják, és a jogalap eltér ettől: 'Egyéb', 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) pedig nincs kitöltve</entry>
 <entry key="expression|name|347">A szervezet vevő, és a dinamikus beszerzési rendszert a jelen hirdetményben nem szereplő vevők is használhatják, és a jogalap eltér ettől: 'Egyéb', 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) pedig nincs kitöltve</entry>
 <entry key="expression|name|348">'Ez az eljárás több szakaszból áll. Minden szakaszban kiesik néhány résztvevő' (BT-52-Lot) nem 'igen'; 'Az eljárás típusa' (BT-105) nem a következők egyike: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'; 'Egyéb többszakaszos eljárás'; 'Zárt'</entry>
 <entry key="expression|name|349">Ez egy keretszerződés</entry>
-<entry key="expression|name|35">'Az eljárás típusa' (BT-105) nem tartozik a következők közé: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
+<entry key="expression|name|35">'Az eljárás típusa' (BT-105) nem 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
 <entry key="expression|name|350">A szervezet nem része pályázó félnek; 'A szervezet természetes személy.' (BT-633-Organization); 'A nyertes szabályozott piacon jegyzett' (BT-746-Organization)</entry>
 <entry key="expression|name|351">A(z) (OPT-200-Organization-Company) szervezet úgy vesz részt a nyertes pályázatban mint fő (OPT-300-Tenderer) vagy (OPT-301-Tenderer-SubCont) alpályázó; 'A szervezet természetes személy.' (BT-633-Organization) = 'nem', és 'A nyertes szabályozott piacon jegyzett' (BT-746-Organization) = 'nem'</entry>
 <entry key="expression|name|352">Legalább egy szervezet kapcsolatban áll ezzel: 'Ezt a szerepet betöltő szervezet' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Az eljárás típusa' (BT-105) = 'Nyitott' vagy 'Zárt'</entry>
-<entry key="expression|name|354">'Az eljárás típusa' (BT-105) = 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
+<entry key="expression|name|353">'Az eljárás típusa' (BT-105) 'Nyitott', 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
+<entry key="expression|name|354">'Az eljárás típusa' (BT-105) nem 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
 <entry key="expression|name|355">A szervezet nem vevő, vagy csak egy vevő van</entry>
 <entry key="expression|name|356">Két különböző vásárló van két különböző országból</entry>
 <entry key="expression|name|357">'Jogalap' (BT-01) = '2014/23/EU irányelv', és 'Az eljárás típusa' (BT-105) = 'Felhívás nélküli tárgyalásos eljárás' vagy 'Egyéb egyszakaszos eljárás' vagy 'Egyéb többszakaszos eljárás'</entry>
@@ -353,7 +354,7 @@
 <entry key="expression|name|514">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' (BT-717) nem 'igen'</entry>
 <entry key="expression|name|515">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' (BT-717) nem 'igen' e tétel esetében, vagy a tételt nem ítélték oda</entry>
 <entry key="expression|name|516">'A tiszta járművekről szóló irányelv szerinti jogalap annak megállapítására, hogy a szerződéstípusok mely kategóriái alkalmazandók' (BT-735-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|517">'A 2009/33/EK irányelv hatálya alá tartozó járműkategória, beleértve a következőket: Könnyűgépjárművek (M1, M2, N1); Busz (M3); Tehergépkocsi (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) nincs kitöltve</entry>
+<entry key="expression|name|517">'Jármű kategória' (BT-723-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|518">'A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.' (BT-717) nem 'igen' e tétel esetében</entry>
 <entry key="expression|name|52">'A szerződést elnyerő ajánlattevők csoportjának valamilyen jogi formát kell öltenie' (BT-761-Lot) nem 'igen'</entry>
 <entry key="expression|name|520">'A szám valamilyen súlyozás' (BT-5421) nem 'Fontossági sorrend'</entry>

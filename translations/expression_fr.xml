@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
 <entry key="expression|name|157">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
 <entry key="expression|name|158">'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' ((BT-763)) est vrai</entry>
-<entry key="expression|name|159">'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' (BT-763) est vrai ou il y a plus d’un lot dans l’avis</entry>
+<entry key="expression|name|159">Les lots ne sont pas 'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' (BT-763) et il y a plus d'un lot dans l'avis</entry>
 <entry key="expression|name|16">'Nombre critère d’attribution' (BT-541-Lot) n’est pas vide</entry>
 <entry key="expression|name|160">Il n’y a pas de lots multiples</entry>
 <entry key="expression|name|161">'Nomenclature principale' (BT-262-Lot) n’est pas rempli</entry>
@@ -113,7 +113,7 @@
 <entry key="expression|name|20">'Pays' (BT-5141-Lot) n’est pas vide</entry>
 <entry key="expression|name|200">'Date de fin de durée' (BT-537-Lot) est rempli</entry>
 <entry key="expression|name|201">'Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours' (BT-41-Lot) n’est pas vrai</entry>
-<entry key="expression|name|202">'Informations relatives aux délais de recours' (BT-99-Lot) est rempli</entry>
+<entry key="expression|name|202">'Informations relatives aux délais de recours' (BT-99-Lot) n'est pas rempli</entry>
 <entry key="expression|name|203">Aucun lot n’a été attribué</entry>
 <entry key="expression|name|204">'ID offre marché' (BT-3202-Contract) n’est pas rempli</entry>
 <entry key="expression|name|205">'Type de procédure' (BT-105) n’est pas 'Négociée sans mise en concurrence préalable'; 'Base juridique' (BT-01) n’est pas 'Règlement (UE, Euratom) 2018/1046'; au moins un 'ID offre marché' (BT-3202-Contract) est rempli</entry>
@@ -219,7 +219,7 @@
 <entry key="expression|name|297">'Champ à publier ultérieurement' (BT-195(BT-553)-Tender) n’est pas rempli</entry>
 <entry key="expression|name|298">'Champ à publier ultérieurement' (BT-195(BT-554)-Tender) n’est pas rempli</entry>
 <entry key="expression|name|299">'Champ à publier ultérieurement' (BT-195(BT-555)-Tender) n’est pas rempli</entry>
-<entry key="expression|name|3">'Type de procédure' (BT-105) doit être: 'Ouverte'; 'Restreinte'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
+<entry key="expression|name|3">'Type de procédure' (BT-105) n'est pas 'Ouverte', 'Restreinte', 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', 'Dialogue compétitif' ou 'Partenariat d’innovation'</entry>
 <entry key="expression|name|30">'Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure' (BT-40) n’est pas 'Oui'</entry>
 <entry key="expression|name|300">'Champ à publier ultérieurement' (BT-195(BT-556)-NoticeResult) n’est pas rempli</entry>
 <entry key="expression|name|301">'Champ à publier ultérieurement' (BT-195(BT-709)-LotResult) n’est pas rempli</entry>
@@ -269,17 +269,18 @@
 <entry key="expression|name|341">L'organisation n'est ni un soumissionnaire ni un sous-traitant</entry>
 <entry key="expression|name|342">Si l’organisation a soumis 'Partie appelante' (OPT-310-Tender) qui aboutit à 'ID offre marché' (BT-3202-Contract), l’organisation est retenue</entry>
 <entry key="expression|name|343">'ID technique du UBO (UBO-XXX)' (OPT-202-UBO) n’est pas rempli</entry>
+<entry key="expression|name|344">'La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés' (BT-52-Lot) n'est pas 'oui'</entry>
 <entry key="expression|name|345">L’organisation n’est pas 'Acheteur'</entry>
 <entry key="expression|name|346">L’organisation est un acheteur et le système d’acquisition dynamique est également utilisable par les acheteurs non repris dans le présent avis, et la base juridique est différente de 'Autre' et 'Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs' (OPP-052) n’est pas rempli</entry>
 <entry key="expression|name|347">L’organisation est un acheteur et le système d’acquisition dynamique est également utilisable par les acheteurs non repris dans le présent avis, et la base juridique est différente de 'Autre' et 'Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs' (OPP-052) n’est pas rempli</entry>
 <entry key="expression|name|348">'La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés' (BT-52-Lot) n’est pas 'oui': 'Type de procédure' (BT-105) ne fait pas partie des éléments suivants: 'Dialogue compétitif'; 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'; 'Autre procédure en plusieurs étapes'; 'Restreinte'</entry>
 <entry key="expression|name|349">Il s’agit d’un contrat-cadre</entry>
-<entry key="expression|name|35">'Type de procédure' (BT-105) ne fait pas partie des éléments suivants: 'Dialogue compétitif'; 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
+<entry key="expression|name|35">'Type de procédure' (BT-105) n'est pas 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|350">L’organisation ne fait pas partie de la partie soumissionnaire; 'L’organisation est une personne physique' (BT-633-Organization); 'Le lauréat est coté sur un marché réglementé' (BT-746-Organization)</entry>
 <entry key="expression|name|351">L’organisation (OPT-200-Organization-Company) fait partie d’une offre retenue en tant que soumissionnaire(OPT-300-Tenderer) principal ou sous-soumissionnaire (OPT-301-Tenderer-SubCont); 'L’organisation est une personne physique' (BT-633-Organization) est 'non' et 'Le lauréat est coté sur un marché réglementé' (BT-746-Organization) est 'non'</entry>
 <entry key="expression|name|352">Au moins une organisation est reliée à 'Organisation remplissant ce rôle' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Type de procédure' (BT-105) est 'Ouverte' ou 'Restreinte'</entry>
-<entry key="expression|name|354">'Type de procédure' (BT-105) est 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
+<entry key="expression|name|353">'Type de procédure' (BT-105) est 'Ouverte', 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
+<entry key="expression|name|354">'Type de procédure' (BT-105) n'est pas 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|355">L’organisation n’est pas un acheteur ou il n’y a qu’un seul acheteur</entry>
 <entry key="expression|name|356">Il existe deux acheteurs différents de deux pays différents</entry>
 <entry key="expression|name|357">'Base juridique' (BT-01) est 'Directive 2014/23/UE' et 'Type de procédure' (BT-105) est 'Négociée sans mise en concurrence préalable', 'Autre procédure en une seule étape' ou 'Autre procédure en plusieurs étapes'</entry>
@@ -353,7 +354,7 @@
 <entry key="expression|name|514">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717) n’est pas 'oui'</entry>
 <entry key="expression|name|515">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717) n’est pas 'oui' pour ce lot ou le lot n’a pas été attribué</entry>
 <entry key="expression|name|516">'La base juridique de la directive sur les véhicules propres pour établir la catégorie de procédure de passation de marché qui s’applique' (BT-735-LotResult) n’est pas rempli</entry>
-<entry key="expression|name|517">'Les catégories de véhicules relevant du champ d’application de la directive 2009/33/CE, y compris: Véhicules utilitaires légers (M1, M2, N1); Bus (M3); Camions (N2, N3); M1; M2; N1; N2; N3.' (BT-723-LotResult) n’est pas rempli</entry>
+<entry key="expression|name|517">'Catégorie de véhicule' (BT-723-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|518">'Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)' (BT-717) n’est pas 'oui' pour ce lot</entry>
 <entry key="expression|name|52">'Un groupe de soumissionnaires auquel un marché est attribué doit revêtir une forme juridique donnée' (BT-761-Lot) n’est pas 'oui'</entry>
 <entry key="expression|name|520">'Le nombre est une pondération' (BT-5421) n’est pas 'Ordre d’importance'</entry>

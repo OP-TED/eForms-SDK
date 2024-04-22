@@ -398,6 +398,10 @@
 				<cbc:Description languageID="ENG">Other Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
+		<cac:LotDistribution>
+			<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+			<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+		</cac:LotDistribution>
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:Description languageID="ENG">Description of the procedure  ---</cbc:Description>

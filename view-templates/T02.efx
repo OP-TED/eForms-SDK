@@ -36,6 +36,10 @@
 				{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
 				{ND-Root[BT-196(BT-09)-Procedure is present]} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
 				{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
+			0 {BT-09(a)-Procedure[BT-09(b)-Procedure == 'unpublished']} #{auxiliary|text|cross-border-law}: #{auxiliary|text|unpublished} // Applicable cross-border law
+				{BT-197(BT-09)-Procedure} #{name|BT-197(BT-09)-Procedure}: #{BT-197(BT-09)-Procedure} // Unpublished Justification Code
+				{ND-Root[BT-196(BT-09)-Procedure is present]} #{name|BT-196(BT-09)-Procedure}: ${BT-196(BT-09)-Procedure}// Unpublished Justification Description
+				{BT-198(BT-09)-Procedure} #{name|BT-198(BT-09)-Procedure}: ${BT-198(BT-09)-Procedure} // Unpublished Access Date
 5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5. Lots
 	1 {ND-Lot} #{field|name|BT-137-Lot}: ${BT-137-Lot} // 5.1 Lot
 		{ND-Lot} #{field|name|BT-21-Lot}: ${BT-21-Lot} // Title
