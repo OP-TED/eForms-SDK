@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Tildelingskriterium talværdi' (BT-541) er ikke udfyldt, eller 'Talværdi er en fast værdi' (BT-5422) er udfyldt, eller 'Talværdi er en tærskeltype' (BT-5423) er udfyldt</entry>
 <entry key="expression|name|157">'Tildelingskriterium talværdi' (BT-541) er ikke udfyldt, eller 'Talværdi er en fast værdi' (BT-5422) er udfyldt, eller 'Talværdi er en tærskeltype' (BT-5423) er udfyldt</entry>
 <entry key="expression|name|158">'Tilbudsgiveren skal indgive tilbud for alle delkontrakter' ((BT-763)) er sand</entry>
-<entry key="expression|name|159">'Tilbudsgiveren skal indgive tilbud for alle delkontrakter' (BT-763) er sand, eller der er mere end 1 parti i bekendtgørelsen</entry>
+<entry key="expression|name|159">Partierne er ikke 'Tilbudsgiveren skal indgive tilbud for alle delkontrakter' (BT-763) og der er mere end én parti i meddelelsen</entry>
 <entry key="expression|name|16">'Tildelingskriterium talværdi' (BT-541-Lot) er ikke tom</entry>
 <entry key="expression|name|160">Der er ingen multiple partier</entry>
 <entry key="expression|name|161">'Primær klassificering' (BT-262-Lot) er ikke udfyldt</entry>
@@ -113,7 +113,7 @@
 <entry key="expression|name|20">'Land' (BT-5141-Lot) er ikke tom</entry>
 <entry key="expression|name|200">'Varigheds slutdato' (BT-537-Lot) er udfyldt</entry>
 <entry key="expression|name|201">'En eventuel tjenesteydelseskontrakt, der tildeles på grundlag af projektkonkurrencen, vil gå til en af vinderne af konkurrencen' (BT-41-Lot) er ikke sand</entry>
-<entry key="expression|name|202">'Oplysninger om undersøgelsesfrister' (BT-99-Lot) er udfyldt</entry>
+<entry key="expression|name|202">'Oplysninger om undersøgelsesfrister' (BT-99-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|203">Der er ikke blevet tildelt nogen partier</entry>
 <entry key="expression|name|204">'Kontrakt udbuds-ID' (BT-3202-Contract) er ikke udfyldt</entry>
 <entry key="expression|name|205">'Udbudsprocedure' (BT-105) er ikke 'Udbud med forhandling uden forudgående offentliggørelse'; 'Retsgrundlag' (BT-01) er ikke 'Forordning (EU, Euratom) 2018/1046'; mindst 1 'Kontrakt udbuds-ID' (BT-3202-Contract) er udfyldt</entry>
@@ -219,7 +219,7 @@
 <entry key="expression|name|297">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-553)-Tender) er ikke udfyldt</entry>
 <entry key="expression|name|298">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-554)-Tender) er ikke udfyldt</entry>
 <entry key="expression|name|299">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-555)-Tender) er ikke udfyldt</entry>
-<entry key="expression|name|3">'Udbudsprocedure' (BT-105) skal være: 'Åben'; 'Begrænset'; 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
+<entry key="expression|name|3">'Udbudsprocedure' (BT-105) er ikke 'Åben', 'Begrænset', 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse', 'Konkurrencepræget dialog' eller 'Innovationspartnerskab'</entry>
 <entry key="expression|name|30">'Kriterierne vil blive anvendt til at udvælge de ansøgere, som skal opfordres til at deltage i anden fase af proceduren' (BT-40) er ikke 'Ja'</entry>
 <entry key="expression|name|300">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-556)-NoticeResult) er ikke udfyldt</entry>
 <entry key="expression|name|301">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-709)-LotResult) er ikke udfyldt</entry>
@@ -269,17 +269,18 @@
 <entry key="expression|name|341">Organisationen er hverken tilbudsgiver eller underleverandør</entry>
 <entry key="expression|name|342">Hvis organisationen indsendte 'Udbudsparti' (OPT-310-Tender), der fører til 'Kontrakt udbuds-ID' (BT-3202-Contract), så er organisationen vinder</entry>
 <entry key="expression|name|343">'UBO's tekniske ID (UBO-XXX)' (OPT-202-UBO) er ikke udfyldt</entry>
+<entry key="expression|name|344">'Proceduren afvikles i successive faser. I hver fase kan nogle ansøgere blive afvist' (BT-52-Lot) er ikke 'ja'</entry>
 <entry key="expression|name|345">Organisationen er ikke en 'Køber'</entry>
 <entry key="expression|name|346">Organisationen er køber, og det dynamiske indkøbssystem kan også anvendes af købere, der ikke er anført i denne bekendtgørelse, og retsgrundlaget er forskelligt fra 'Andet', og 'Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser for andre købere' (OPP-052) er ikke udfyldt</entry>
 <entry key="expression|name|347">Organisationen er køber, og det dynamiske indkøbssystem kan også anvendes af købere, der ikke er anført i denne bekendtgørelse, og retsgrundlaget er forskelligt fra 'Andet', og 'Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser for andre købere' (OPP-052) er ikke udfyldt</entry>
 <entry key="expression|name|348">'Proceduren afvikles i successive faser. I hver fase kan nogle ansøgere blive afvist' (BT-52-Lot) er ikke 'ja'; 'Udbudsprocedure' (BT-105) er ikke en af følgende: 'Konkurrencepræget dialog'; 'Innovationspartnerskab'; 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'; 'Anden procedure, der afvikles i flere faser'; 'Begrænset'</entry>
 <entry key="expression|name|349">Det er en rammeaftale</entry>
-<entry key="expression|name|35">'Udbudsprocedure' (BT-105) er ikke en af følgende: 'Konkurrencepræget dialog'; 'Innovationspartnerskab'; 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
+<entry key="expression|name|35">'Udbudsprocedure' (BT-105) er ikke 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
 <entry key="expression|name|350">Organisationen indgår ikke som bydende part; 'Organisationen er en fysisk person' (BT-633-Organization); 'Vinderen er noteret på et reguleret marked' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organisationen (OPT-200-Organization-Company) indgår i et vindende tilbud som hovedtilbudsgiver (OPT-300-Tenderer) eller undertilbudsgiver (OPT-301-Tenderer-SubCont); 'Organisationen er en fysisk person' (BT-633-Organization) er 'nej' og 'Vinderen er noteret på et reguleret marked' (BT-746-Organization) er 'nej'</entry>
 <entry key="expression|name|352">Mindst 1 organisation er tilsluttet 'Organisationen, der udfylder denne rolle' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Udbudsprocedure' (BT-105) er 'Åben' eller 'Begrænset'</entry>
-<entry key="expression|name|354">'Udbudsprocedure' (BT-105) er 'Begrænset' eller 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
+<entry key="expression|name|353">'Udbudsprocedure' (BT-105) er 'Åben', 'Begrænset' eller 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
+<entry key="expression|name|354">'Udbudsprocedure' (BT-105) er ikke 'Begrænset' eller 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
 <entry key="expression|name|355">Organisationen er ikke køber, eller der er kun 1 køber</entry>
 <entry key="expression|name|356">Der er to forskellige købere fra to forskellige lande</entry>
 <entry key="expression|name|357">'Retsgrundlag' (BT-01) er 'Direktiv 2014/23/EU', og 'Udbudsprocedure' (BT-105) er 'Udbud med forhandling uden forudgående offentliggørelse' eller 'Anden procedure, der afvikles i to faser' eller 'Anden procedure, der afvikles i flere faser'</entry>
@@ -353,7 +354,7 @@
 <entry key="expression|name|514">'Udbuddet falder ind under anvendelsesområdet for Europa-Parlamentets og Rådets direktiv 2009/33/EF (direktivet om renere køretøjer)' (BT-717) er ikke 'ja'</entry>
 <entry key="expression|name|515">'Udbuddet falder ind under anvendelsesområdet for Europa-Parlamentets og Rådets direktiv 2009/33/EF (direktivet om renere køretøjer)' (BT-717) er ikke 'ja' for dette parti, eller partiet ikke er blevet tildelt</entry>
 <entry key="expression|name|516">'Retsgrundlaget for direktivet om renere køretøjer skal fastslå, hvilken kategori af udbudsprocedure, der finder anvendelse' (BT-735-LotResult) er ikke udfyldt</entry>
-<entry key="expression|name|517">'Den køretøjskategori, der er omfattet af direktiv 2009/33/EF, herunder: Lette køretøjer (M1, M2, N1) Bus (M3) Lastbil (N2, N3) M1; M2; N1; N2; N3' (BT-723-LotResult) er ikke udfyldt</entry>
+<entry key="expression|name|517">'Kategori af køretøj' (BT-723-LotResult) er ikke udfyldt</entry>
 <entry key="expression|name|518">'Udbuddet falder ind under anvendelsesområdet for Europa-Parlamentets og Rådets direktiv 2009/33/EF (direktivet om renere køretøjer)' (BT-717) er ikke 'ja' for dette parti</entry>
 <entry key="expression|name|52">'En gruppe tilbudsgivere, der får tildelt en kontrakt, skal have en bestemt retlig form.' (BT-761-Lot) er ikke 'ja'</entry>
 <entry key="expression|name|520">'Talværdi er en vægttype' (BT-5421) er ikke 'Prioriteret rækkefølge'</entry>

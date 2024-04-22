@@ -64,7 +64,7 @@
 <entry key="expression|name|156">Níl 'Uimhir an chritéir dámhachtana' (BT-541) líonta isteach nó tá 'Luach seasta is ea an uimhir' (BT-5422) líonta isteach nó tá 'Cineál tairsí is ea an uimhir' (BT-5423) líonta isteach</entry>
 <entry key="expression|name|157">Níl 'Uimhir an chritéir dámhachtana' (BT-541) líonta isteach nó tá 'Luach seasta is ea an uimhir' (BT-5422) líonta isteach nó tá 'Cineál tairsí is ea an uimhir' (BT-5423) líonta isteach</entry>
 <entry key="expression|name|158">Tá 'Ní mór don tairgeoir tairiscintí a chur isteach do gach luchtóg' ((BT-763)) fíor</entry>
-<entry key="expression|name|159">Tá 'Ní mór don tairgeoir tairiscintí a chur isteach do gach luchtóg' (BT-763) fíor nó tá níos mó ná beart amháin san fhógra</entry>
+<entry key="expression|name|159">Níl na lotsa 'Ní mór don tairgeoir tairiscintí a chur isteach do gach luchtóg' (BT-763) agus tá níos mó ná lot amháin sa fógra</entry>
 <entry key="expression|name|16">Níl 'Uimhir an chritéir dámhachtana' (BT-541-Lot) folamh</entry>
 <entry key="expression|name|160">Níl aon il-bhearta ann</entry>
 <entry key="expression|name|161">Níl 'Príomhaicmiú' (BT-262-Lot) líonta isteach</entry>
@@ -113,7 +113,7 @@
 <entry key="expression|name|20">Níl 'Tír' (BT-5141-Lot) folamh</entry>
 <entry key="expression|name|200">Tá 'Dáta deiridh an tréimhse' (BT-537-Lot) líonta isteach</entry>
 <entry key="expression|name|201">Níl 'Aon chonradh seirbhíse a dhéanfar tar éis an chomórtais, bronnfar é ar cheann de bhuaiteoirí an chomórtais' (BT-41-Lot) fíor</entry>
-<entry key="expression|name|202">Tá 'Eolas faoi spriocdhátaí athbhreithnithe' (BT-99-Lot) líonta isteach</entry>
+<entry key="expression|name|202">'Eolas faoi spriocdhátaí athbhreithnithe' (BT-99-Lot) níl sé líonta isteach</entry>
 <entry key="expression|name|203">Níor dámhadh beart ar bith</entry>
 <entry key="expression|name|204">Níl 'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) líonta isteach</entry>
 <entry key="expression|name|205">Níl 'An cineál nóis imeachta'(BT-105) ina 'Idirbheartaíocht lena mbaineann glao roimh ré ar iomaíocht'; ní hionann 'Bunús dlí'(BT-01) agus 'Rialachán (AE, Euratom) 2018/1046'; tá ar a laghad aon 'Aitheantóir thairiscint an chonartha'(BT-3202-Contract) amháin líonta isteach</entry>
@@ -219,7 +219,7 @@
 <entry key="expression|name|297">Níl 'Réimse le foilsiú níos déanaí' (BT-195(BT-553)-Tender) líonta isteach</entry>
 <entry key="expression|name|298">Níl 'Réimse le foilsiú níos déanaí' (BT-195(BT-554)-Tender) líonta isteach</entry>
 <entry key="expression|name|299">Níl 'Réimse le foilsiú níos déanaí' (BT-195(BT-555)-Tender) líonta isteach</entry>
-<entry key="expression|name|3">Ní mór 'An cineál nóis imeachta' (BT-105) a bheith: 'Oscailte'; 'Teoranta'; 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
+<entry key="expression|name|3">'An cineál nóis imeachta' (BT-105) níl sé 'Oscailte', 'Teoranta', 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht', 'Idirphlé iomaíoch' nó 'Comhpháirtíocht nuálaíochta'</entry>
 <entry key="expression|name|30">Ní hionann 'Úsáidfear na critéir chun na hiarrthóirí a roghnú a dtabharfar cuireadh dóibh chuig an dara céim den nós imeachta' (BT-40) agus 'Is ea'</entry>
 <entry key="expression|name|300">Níl 'Réimse le foilsiú níos déanaí' (BT-195(BT-556)-NoticeResult) líonta isteach</entry>
 <entry key="expression|name|301">Níl 'Réimse le foilsiú níos déanaí' (BT-195(BT-709)-LotResult) líonta isteach</entry>
@@ -269,17 +269,18 @@
 <entry key="expression|name|341">Ní thairgeoir ná fochoimhdeachtaí an eagraíocht</entry>
 <entry key="expression|name|342">Má chuir an eagraíocht 'Páirtí tairisceana' (OPT-310-Tender) isteach, agus bhí 'Aitheantóir thairiscint an chonartha' (BT-3202-Contract) mar thoradh air sin, is é an eagraíocht an buaiteoir dá bharr</entry>
 <entry key="expression|name|343">Níl 'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) líonta isteach</entry>
+<entry key="expression|name|344">'Beidh an nós imeachta ar siúl i gcéimeanna comhleanúnacha. I ngach céim, d’fhéadfaí roinnt rannpháirtithe a dhíchur' (BT-52-Lot) níl sé 'tá'</entry>
 <entry key="expression|name|345">Níl an eagraíocht ina 'Ceannaitheoir'</entry>
 <entry key="expression|name|346">Ceannaitheoir is ea an eagraíocht, agus is féidir le ceannaitheoirí nach liostaítear san fhógra seo an córas dinimiciúil ceannaigh a úsáid, agus tá an bunús dlí difriúil le 'Eile', agus níl 'Comhlacht lárnach ceannaigh a fhaigheann soláthairtí agus/nó seirbhísí ar son ceannaitheoirí eile' (OPP-052) líonta isteach</entry>
 <entry key="expression|name|347">Ceannaitheoir is ea an eagraíocht, agus is féidir le ceannaitheoirí nach liostaítear san fhógra seo an córas dinimiciúil ceannaigh a úsáid, agus tá an bunús dlí difriúil le 'Eile', agus níl 'Comhlacht lárnach ceannaigh a fhaigheann soláthairtí agus/nó seirbhísí ar son ceannaitheoirí eile' (OPP-052) líonta isteach</entry>
 <entry key="expression|name|348">Níl 'Beidh an nós imeachta ar siúl i gcéimeanna comhleanúnacha. I ngach céim, d’fhéadfaí roinnt rannpháirtithe a dhíchur' (BT-52-Lot) 'tá'; ní hé 'An cineál nóis imeachta' (BT-105) ceann de na cinn a leanas: 'Idirphlé iomaíoch'; 'Comhpháirtíocht nuálaíochta'; 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'; 'Nós imeachta ilchéime eile'; 'Teoranta'</entry>
 <entry key="expression|name|349">Is creatchonradh é</entry>
-<entry key="expression|name|35">Ní hé 'An cineál nóis imeachta' (BT-105) ceann de na cinn a leanas: 'Idirphlé iomaíoch'; 'Comhpháirtíocht nuálaíochta'; 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
+<entry key="expression|name|35">'An cineál nóis imeachta' (BT-105) níl sé 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
 <entry key="expression|name|350">Ní ghlacann an eagraíocht páirt sa pháirtí tairisceana; 'Is duine nádúrtha í an eagraíocht' (BT-633-Organization); 'Tá an buaiteoir liostaithe ar mhargadh rialáilte' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Glacann an eagraíocht (OPT-200-Organization-Company) páirt i dtairiscint rathúil mar phríomh-thairgeoir (OPT-300-Tenderer) nó fho-thairgeoir (OPT-301-Tenderer-SubCont); is ionann 'Is duine nádúrtha í an eagraíocht' (BT-633-Organization) agus 'níl' agus is ionann 'Tá an buaiteoir liostaithe ar mhargadh rialáilte' (BT-746-Organization) agus 'níl'</entry>
 <entry key="expression|name|352">Baineann ar a laghad eagraíocht amháin le 'Eagraíocht atá ag líonadh an róil seo' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">Is ionann 'An cineál nóis imeachta' (BT-105) agus 'Oscailte' nó 'Teoranta'</entry>
-<entry key="expression|name|354">Is ionann 'An cineál nóis imeachta' (BT-105) agus 'Teoranta' nó 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
+<entry key="expression|name|353">'An cineál nóis imeachta' (BT-105) is 'Oscailte', 'Teoranta' nó 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
+<entry key="expression|name|354">'An cineál nóis imeachta' (BT-105) níl sé 'Teoranta' nó 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
 <entry key="expression|name|355">Ní ceannaitheoir í an eagraíocht nó níl ach ceannaitheoir amháin ann</entry>
 <entry key="expression|name|356">Tá beirt cheannaitheoirí ann ó dhá thír éagsúla</entry>
 <entry key="expression|name|357">Is ionann 'Bunús dlí' (BT-01) agus 'Treoir 2014/23/AE', agus tá 'An cineál nóis imeachta' (BT-105) ina 'Idirbheartaíocht lena mbaineann glao roimh ré ar iomaíocht' nó ina 'Nós imeachta aonchéime eile' nó ina 'Nós imeachta ilchéime eile'</entry>
@@ -353,7 +354,7 @@
 <entry key="expression|name|514">Ní hionann 'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717) agus 'tá'</entry>
 <entry key="expression|name|515">Ní hionann 'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717) agus 'tá' le haghaidh an bhirt seo, nó níor dámhadh an beart</entry>
 <entry key="expression|name|516">Níl 'An bunús dlí CVD chun a dheimhniú cén chatagóir nóis imeachta soláthair ag a bhfuil feidhm' (BT-735-LotResult) líonta isteach</entry>
-<entry key="expression|name|517">Níl 'An chatagóir feithicle a thagann faoi raon feidhme Threoir 2009/33/CE, lena n-áirítear: Feithiclí saothair éadroim (M1, M2, N1); Bus (M3); Trucail (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) líonta isteach</entry>
+<entry key="expression|name|517">Níl 'Catagóir feithicle' (BT-723-LotResult) líonta isteach</entry>
 <entry key="expression|name|518">Ní hionann'Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)' (BT-717) agus 'tá' le haghaidh an bhirt seo</entry>
 <entry key="expression|name|52">Ní hionann 'Ní mór do ghrúpa tairgeoirí ar a ndéantar conradh a dhámhachtain foirm dhlíthiúil áirithe a ghlacadh' (BT-761-Lot) agus 'tá'</entry>
 <entry key="expression|name|520">Ní hionann 'Cineál ualaigh is ea an uimhir' (BT-5421) agus 'Ord tábhachta'</entry>

@@ -81,9 +81,9 @@
 		7 {ND-PartReservedExecution[BT-736-Part is present]} #{auxiliary|text|procurement-terms} // 3.1.7 Procurement Terms (PART)
 			{BT-736-Part} #{field|name|BT-736-Part}: #{BT-736-Part} // Reserved Execution (PART)
 		8 {ND-PartTenderingProcess[(BT-765-Part is present) or (BT-766-Part is present)]} #{auxiliary|text|techniques} // 3.1.8 Techniques
-			{ND-PartTenderingProcess[BT-765-Part is present]} #{auxiliary|text|framework-agreement}: // Information about framework agreement (PART)
+			0 {ND-PartTenderingProcess[BT-765-Part is present]} #{auxiliary|text|framework-agreement}: // Information about framework agreement (PART)
 				{BT-765-Part} #{BT-765-Part} // Information about framework agreement (PART)
-			{ND-PartTenderingProcess[BT-766-Part is present]} #{auxiliary|text|dynamic-purchasing-system}: // Information about the dynamic purchasing system (PART)
+			0 {ND-PartTenderingProcess[BT-766-Part is present]} #{auxiliary|text|dynamic-purchasing-system}: // Information about the dynamic purchasing system (PART)
 				{BT-766-Part} #{BT-766-Part} // Dynamic purchasing system type (PART)
 		9 {ND-PartTenderingTerms[(OPT-301-Part-Mediator is present) or (OPT-301-Part-ReviewOrg is present) or (OPT-301-Part-FiscalLegis is present) or (OPT-301-Part-EnvironLegis is present) or (OPT-301-Part-EmployLegis is present) or (OPT-301-Part-AddInfo is present) or (OPT-301-Part-DocProvider is present) or (OPT-301-Part-ReviewInfo is present) or (OPT-301-Part-TenderReceipt is present) or (OPT-301-Part-TenderEval is present)]} #{auxiliary|text|further-info} // 3.1.9 Further information, mediation and review
 			{BT-137-Part[OPT-301-Part-Mediator is present]} #{auxiliary|text|organisation-mediation}: ${for text:$refid in OPT-301-Part-Mediator, text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid) or (OPT-201-Organization-TouchPoint == $refid)] return $orgname} // Mediation organisation (Part)

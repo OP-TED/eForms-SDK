@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in</entry>
 <entry key="expression|name|157">'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in</entry>
 <entry key="expression|name|158">'The tenderer must submit tenders for all lots' ((BT-763)) is true</entry>
-<entry key="expression|name|159">'The tenderer must submit tenders for all lots' (BT-763) is true or there is more than one lot in the notice</entry>
+<entry key="expression|name|159">Lots are not 'The tenderer must submit tenders for all lots' (BT-763) and there is more than one lot in the notice</entry>
 <entry key="expression|name|16">'Award criterion number' (BT-541-Lot) is not empty</entry>
 <entry key="expression|name|160">There are no multiple lots</entry>
 <entry key="expression|name|161">'Main classification' (BT-262-Lot) is not filled in</entry>
@@ -113,7 +113,7 @@
 <entry key="expression|name|20">'Country' (BT-5141-Lot) is not empty</entry>
 <entry key="expression|name|200">'Duration end date' (BT-537-Lot) is filled in</entry>
 <entry key="expression|name|201">'Any service contract following the contest will be awarded to one of the winners of the contest' (BT-41-Lot) is not true</entry>
-<entry key="expression|name|202">'Information about review deadlines' (BT-99-Lot) is filled in</entry>
+<entry key="expression|name|202">'Information about review deadlines' (BT-99-Lot) is not filled in</entry>
 <entry key="expression|name|203">No lots have been awarded</entry>
 <entry key="expression|name|204">'Contract tender identifier' (BT-3202-Contract) is not filled in</entry>
 <entry key="expression|name|205">'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; at least one 'Contract tender identifier' (BT-3202-Contract) is filled in</entry>
@@ -219,7 +219,7 @@
 <entry key="expression|name|297">'Field to publish later' (BT-195(BT-553)-Tender) is not filled in</entry>
 <entry key="expression|name|298">'Field to publish later' (BT-195(BT-554)-Tender) is not filled in</entry>
 <entry key="expression|name|299">'Field to publish later' (BT-195(BT-555)-Tender) is not filled in</entry>
-<entry key="expression|name|3">'Type of procedure' (BT-105) must be: 'Open'; 'Restricted'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
+<entry key="expression|name|3">'Type of procedure' (BT-105) is not 'Open', 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue' or 'Innovation partnership'</entry>
 <entry key="expression|name|30">'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'Yes'</entry>
 <entry key="expression|name|300">'Field to publish later' (BT-195(BT-556)-NoticeResult) is not filled in</entry>
 <entry key="expression|name|301">'Field to publish later' (BT-195(BT-709)-LotResult) is not filled in</entry>
@@ -269,17 +269,18 @@
 <entry key="expression|name|341">The organisation is not a tenderer or subcontractor</entry>
 <entry key="expression|name|342">If the organisation submitted 'Tendering party' (OPT-310-Tender) which lead to 'Contract tender identifier' (BT-3202-Contract), then the organisation is a winner</entry>
 <entry key="expression|name|343">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not filled in</entry>
+<entry key="expression|name|344">'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes'</entry>
 <entry key="expression|name|345">The organisation is not a 'Buyer'</entry>
 <entry key="expression|name|346">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>
 <entry key="expression|name|347">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>
 <entry key="expression|name|348">'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'</entry>
 <entry key="expression|name|349">It is a framework contract</entry>
-<entry key="expression|name|35">'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
+<entry key="expression|name|35">'Type of procedure' (BT-105) is not 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|350">The organisation does not take part in tendering party; 'The organisation is a natural person' (BT-633-Organization); 'The winner is listed on a regulated market' (BT-746-Organization)</entry>
 <entry key="expression|name|351">The organisation (OPT-200-Organization-Company) takes part in a winning tender as main (OPT-300-Tenderer) or sub-tenderer (OPT-301-Tenderer-SubCont); 'The organisation is a natural person' (BT-633-Organization) is 'no' and 'The winner is listed on a regulated market' (BT-746-Organization) is 'no'</entry>
 <entry key="expression|name|352">At least one organisation is connected to 'Organisation filling this role' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Type of procedure' (BT-105) is 'Open' or 'Restricted'</entry>
-<entry key="expression|name|354">'Type of procedure' (BT-105) is 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
+<entry key="expression|name|353">'Type of procedure' (BT-105) is 'Open', 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
+<entry key="expression|name|354">'Type of procedure' (BT-105) is not 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|355">Organisation is not a buyer or there is only one buyer</entry>
 <entry key="expression|name|356">There are two different buyers from two different countries</entry>
 <entry key="expression|name|357">'Legal basis' (BT-01) is 'Directive 2014/23/EU', and 'Type of procedure' (BT-105) is 'Negotiated without prior call for competition' or 'Other single stage procedure' or 'Other multiple stage procedure'</entry>
@@ -353,7 +354,7 @@
 <entry key="expression|name|514">'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717) is not 'yes'</entry>
 <entry key="expression|name|515">'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717) is not 'yes' for this lot or the lot has not been awarded</entry>
 <entry key="expression|name|516">'The CVD legal basis to establish which category of procurement procedure applies' (BT-735-LotResult) is not filled in</entry>
-<entry key="expression|name|517">'The category of vehicle falling within the scope of Directive 2009/33/EC, including: Light-duty vehicles (M1, M2, N1); Bus (M3); Truck (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) is not filled in</entry>
+<entry key="expression|name|517">'Category of vehicle' (BT-723-LotResult) is not filled in</entry>
 <entry key="expression|name|518">'The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)' (BT-717) is not 'yes' for this lot</entry>
 <entry key="expression|name|52">'A certain legal form must be taken by a group of tenderers that is awarded a contract' (BT-761-Lot) is not 'yes'</entry>
 <entry key="expression|name|520">'Number is a type of weight' (BT-5421) is not 'Order of importance'</entry>

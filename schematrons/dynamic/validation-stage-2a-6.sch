@@ -535,18 +535,12 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference[$noticeSubType = '6']">
 		<assert id="BR-OPT-00113-0009" role="ERROR" diagnostics="OPT-113-Part-EmployLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00113-0009</assert>
-		<assert id="BR-OPT-00130-0009" role="ERROR" diagnostics="OPT-130-Part-EmployLegis" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0">rule|text|BR-OPT-00130-0009</assert>
-		<assert id="BR-OPT-00301-0310" role="ERROR" diagnostics="OPT-301-Part-EmployLegis" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00301-0310</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference[$noticeSubType = '6']">
 		<assert id="BR-OPT-00112-0009" role="ERROR" diagnostics="OPT-112-Part-EnvironLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00112-0009</assert>
-		<assert id="BR-OPT-00120-0009" role="ERROR" diagnostics="OPT-120-Part-EnvironLegis" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0">rule|text|BR-OPT-00120-0009</assert>
-		<assert id="BR-OPT-00301-0260" role="ERROR" diagnostics="OPT-301-Part-EnvironLegis" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00301-0260</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference[$noticeSubType = '6']">
-		<assert id="BR-OPT-00110-0009" role="ERROR" diagnostics="OPT-110-Part-FiscalLegis" test="count(cac:Attachment/cac:ExternalReference/cbc:URI) &gt; 0">rule|text|BR-OPT-00110-0009</assert>
 		<assert id="BR-OPT-00111-0009" role="ERROR" diagnostics="OPT-111-Part-FiscalLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00111-0009</assert>
-		<assert id="BR-OPT-00301-0210" role="ERROR" diagnostics="OPT-301-Part-FiscalLegis" test="count(cac:IssuerParty/cac:PartyIdentification/cbc:ID) &gt; 0">rule|text|BR-OPT-00301-0210</assert>
 	</rule>
 	<rule context="/*/cac:SenderParty/cac:Contact[$noticeSubType = '6']">
 		<assert id="BR-OPP-00131-0009" role="ERROR" diagnostics="OPP-131-Business" test="count(cbc:ElectronicMail) = 0">rule|text|BR-OPP-00131-0009</assert>

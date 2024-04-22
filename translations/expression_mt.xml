@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew 'In-numru hu valur fiss' (BT-5422) huwa mimli jew 'In-numru hu tip ta’ limitu' (BT-5423)</entry>
 <entry key="expression|name|157">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew 'In-numru hu valur fiss' (BT-5422) huwa mimli jew 'In-numru hu tip ta’ limitu' (BT-5423)</entry>
 <entry key="expression|name|158">'L-offerent irid iressaq offerti għal-lottijiet kollha' ((BT-763)) huwa veru</entry>
-<entry key="expression|name|159">'L-offerent irid iressaq offerti għal-lottijiet kollha' (BT-763) huwa veru jew hemm aktar minn lott wieħed fl-avviż</entry>
+<entry key="expression|name|159">Il-lotti mhux 'L-offerent irid iressaq offerti għal-lottijiet kollha' (BT-763) u hemm aktar minn lot waħda fl-avviż</entry>
 <entry key="expression|name|16">'Numru tal-kriterju għall-għoti' (BT-541-Lot) mhuwiex vojt</entry>
 <entry key="expression|name|160">M’hemm l-ebda lottijiet multipli</entry>
 <entry key="expression|name|161">'Klassifikazzjoni prinċipali' (BT-262-Lot) mhuwiex mimli</entry>
@@ -113,7 +113,7 @@
 <entry key="expression|name|20">'Pajjiż' (BT-5141-Lot) mhuwiex vojt</entry>
 <entry key="expression|name|200">'Data tat-tmiem tad-durata' (BT-537-Lot) huwa mimli</entry>
 <entry key="expression|name|201">'Kwalunkwe kuntratt ta’ servizz wara l-konkors se jingħata lil wieħed mir-rebbieħa tal-konkors' (BT-41-Lot) mhuwiex veru</entry>
-<entry key="expression|name|202">'Informazzjoni dwar l-iskadenzi tar-rieżami' (BT-99-Lot) huwa mimli</entry>
+<entry key="expression|name|202">'Informazzjoni dwar l-iskadenzi tar-rieżami' (BT-99-Lot) mhux mimli</entry>
 <entry key="expression|name|203">L-ebda lottijiet ma ngħataw</entry>
 <entry key="expression|name|204">'ID tal-offerta tal-kuntratt' (BT-3202-Contract) mhuwiex mimli</entry>
 <entry key="expression|name|205">'Tip ta’ proċedura' (BT-105) mhuwiex 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni'; 'Bażi legali' (BT-01) mhuwiex 'Regolament (UE, Euratom) 2018/1046'; mill-inqas wieħed 'ID tal-offerta tal-kuntratt'(BT-3202-Contract) huwa mimli</entry>
@@ -219,7 +219,7 @@
 <entry key="expression|name|297">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-553)-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|298">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-554)-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|299">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-555)-Tender) mhuwiex mimli</entry>
-<entry key="expression|name|3">'Tip ta’ proċedura' (BT-105) għandu jkun: 'Miftuħa'; 'Ristretta'; 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'</entry>
+<entry key="expression|name|3">'Tip ta’ proċedura' (BT-105) mhux 'Miftuħa', 'Ristretta', 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar', 'Djalogu kompetittiv' jew 'Sħubija għall-innovazzjoni'</entry>
 <entry key="expression|name|30">'Il-kriterji se jintużaw biex jintgħażlu l-kandidati li għandhom jiġu mistiedna għat-tieni stadju tal-proċedura' (BT-40) mhuwiex 'Iva'</entry>
 <entry key="expression|name|300">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-556)-NoticeResult) mhuwiex mimli</entry>
 <entry key="expression|name|301">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-709)-LotResult) mhuwiex mimli</entry>
@@ -269,17 +269,18 @@
 <entry key="expression|name|341">L-organizzazzjoni mhijiex offranta jew subappaltatur</entry>
 <entry key="expression|name|342">Jekk l-organizzazzjoni bagħtet 'Parti li toffri' (OPT-310-Tender) li jwassal għal 'ID tal-offerta tal-kuntratt' (BT-3202-Contract), allura l-organizzazzjoni hija rebbieħa</entry>
 <entry key="expression|name|343">'ID tekniku tal-UBO (UBO-XXX)' (OPT-202-UBO) mhuwiex mimli</entry>
+<entry key="expression|name|344">'Il-proċedura se ssir fi stadji suċċessivi. F’kull stadju, xi parteċipanti jistgħu jiġu eliminati' (BT-52-Lot) mhux 'iva'</entry>
 <entry key="expression|name|345">L-organizzazzjoni mhijiex 'Xerrej'</entry>
 <entry key="expression|name|346">L-organizzazzjoni hija xerrejja u s-sistema dinamika ta’ xiri tista’ tintuża wkoll mix-xerrejja mhux elenkati f’dan l-avviż u l-bażi legali hija differenti minn 'Oħrajn', u'Korp ċentrali għall-akkwisti li jakkwista provvisti u/jew servizzi maħsuba għal xerrejja oħra' (OPP-052) mhuwiex mimli</entry>
 <entry key="expression|name|347">L-organizzazzjoni hija xerrejja u s-sistema dinamika ta’ xiri tista’ tintuża wkoll mix-xerrejja mhux elenkati f’dan l-avviż u l-bażi legali hija differenti minn 'Oħrajn', u'Korp ċentrali għall-akkwisti li jakkwista provvisti u/jew servizzi maħsuba għal xerrejja oħra' (OPP-052) mhuwiex mimli</entry>
 <entry key="expression|name|348">'Il-proċedura se ssir fi stadji suċċessivi. F’kull stadju, xi parteċipanti jistgħu jiġu eliminati' (BT-52-Lot) mhuwiex 'iva'; 'Tip ta’ proċedura' (BT-105) mhuwiex wieħed minn dawn li ġejjin: 'Djalogu kompetittiv'; 'Sħubija għall-innovazzjoni'; 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'; 'Proċedura oħra b’diversi stadji'; 'Ristretta'</entry>
 <entry key="expression|name|349">Huwa qafas ta’ kuntratt</entry>
-<entry key="expression|name|35">'Tip ta’ proċedura' (BT-105) mhuwiex wieħed minn dawn li ġejjin: 'Djalogu kompetittiv'; 'Sħubija għall-innovazzjoni'; 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'</entry>
+<entry key="expression|name|35">'Tip ta’ proċedura' (BT-105) mhux 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'</entry>
 <entry key="expression|name|350">L-organizzazzjoni ma tieħux sehem fil-parti tas-sejħa għall-offerti; 'L-organizzazzjoni hi persuna fiżika' (BT-633-Organization); 'Ir-rebbieħ huwa elenkat f’suq regolat' (BT-746-Organization)</entry>
 <entry key="expression|name|351">L-organizzazzjoni (OPT-200-Organization-Company) jieħu sehem f’offerta rebbieħa bħala offerent ewleni (OPT-300-Tenderer) jew sotto-offerent (OPT-301-Tenderer-SubCont); 'L-organizzazzjoni hi persuna fiżika' (BT-633-Organization) huwa 'le' u 'Ir-rebbieħ huwa elenkat f’suq regolat' (BT-746-Organization) huwa 'le'</entry>
 <entry key="expression|name|352">Mill-inqas organizzazzjoni waħda hija konnessa ma’ 'Organizzazzjoni li twettaq din ir-rwol' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Tip ta’ proċedura' (BT-105) huwa 'Miftuħa' jew 'Ristretta'</entry>
-<entry key="expression|name|354">'Tip ta’ proċedura' (BT-105) huwa 'Ristretta' jew 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'</entry>
+<entry key="expression|name|353">'Tip ta’ proċedura' (BT-105) hija 'Miftuħa', 'Ristretta' jew 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'</entry>
+<entry key="expression|name|354">'Tip ta’ proċedura' (BT-105) mhux 'Ristretta' jew 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'</entry>
 <entry key="expression|name|355">L-organizzazzjoni mhijiex xerrej jew hemm xerrej wieħed biss</entry>
 <entry key="expression|name|356">Hemm żewġ xerrejja differenti minn żewġ pajjiżi differenti</entry>
 <entry key="expression|name|357">'Bażi legali' (BT-01) huwa 'Direttiva 2014/23/UE', u 'Tip ta’ proċedura' (BT-105) huwa 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni' jew 'Proċedura oħra bi stadju wieħed' jew 'Proċedura oħra b’diversi stadji'</entry>
@@ -353,7 +354,7 @@
 <entry key="expression|name|514">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717) mhuwiex 'iva'</entry>
 <entry key="expression|name|515">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717) mhuwiex 'iva' għal dan il-lott jew il-lott ma ngħatax</entry>
 <entry key="expression|name|516">'Il-bażi ġuridika tas-CVD biex jiġi stabbilit liema kategorija ta’ proċedura ta’ akkwist tapplika' (BT-735-LotResult) mhuwiex mimli</entry>
-<entry key="expression|name|517">'Il-kategorija tal-vettura li taqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE, inkluż: Vetturi light-duty (M1, M2, N1); Xarabank (M3); Trakk (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) mhuwiex mimli</entry>
+<entry key="expression|name|517">'Kategorija tal-vettura' (BT-723-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|518">'L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)' (BT-717) mhuwiex 'iva' għal dan il-lott</entry>
 <entry key="expression|name|52">'Grupp ta’ offerenti li jingħata kuntratt irid ikollu ċerta forma legali' (BT-761-Lot) mhuwiex 'iva'</entry>
 <entry key="expression|name|520">'In-numru hu tip ta’ ponderazzjoni' (BT-5421) mhuwiex 'Ordni ta’ importanza'</entry>

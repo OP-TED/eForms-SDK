@@ -64,7 +64,7 @@
 <entry key="expression|name|156">'N.º do critério de adjudicação' (BT-541) não está preenchido ou 'O número é um valor fixo' (BT-5422) está preenchido ou 'O número é um tipo de limiar' (BT-5423) está preenchido</entry>
 <entry key="expression|name|157">'N.º do critério de adjudicação' (BT-541) não está preenchido ou 'O número é um valor fixo' (BT-5422) está preenchido ou 'O número é um tipo de limiar' (BT-5423) está preenchido</entry>
 <entry key="expression|name|158">'O proponente tem de apresentar propostas para todos os lotes' ((BT-763)) é verdadeiro</entry>
-<entry key="expression|name|159">'O proponente tem de apresentar propostas para todos os lotes' (BT-763) é verdadeiro ou existe mais do que um lote no anúncio</entry>
+<entry key="expression|name|159">Os lotes não são 'O proponente tem de apresentar propostas para todos os lotes' (BT-763) e há mais de um lote no aviso</entry>
 <entry key="expression|name|16">'N.º do critério de adjudicação' (BT-541-Lot) não está vazio</entry>
 <entry key="expression|name|160">Não existem vários lotes</entry>
 <entry key="expression|name|161">'Classificação principal' (BT-262-Lot) não está preenchido</entry>
@@ -113,7 +113,7 @@
 <entry key="expression|name|20">'País' (BT-5141-Lot) não está vazio</entry>
 <entry key="expression|name|200">'Data de fim da duração' (BT-537-Lot) está preenchido</entry>
 <entry key="expression|name|201">'Qualquer contrato de prestação de serviços na sequência do concurso será adjudicado a um dos vencedores do concurso' (BT-41-Lot) não é verdadeiro</entry>
-<entry key="expression|name|202">'Informações sobre os prazos de recurso' (BT-99-Lot) está preenchido</entry>
+<entry key="expression|name|202">'Informações sobre os prazos de recurso' (BT-99-Lot) não está preenchido</entry>
 <entry key="expression|name|203">Nenhum lote foi adjudicado</entry>
 <entry key="expression|name|204">'Identificador da proposta do contrato' (BT-3202-Contract) não está preenchido</entry>
 <entry key="expression|name|205">'Tipo de procedimento' (BT-105) não é 'Por negociação sem abertura prévia de concurso'; 'Base jurídica' (BT-01) não é 'Regulamento (UE, Euratom) 2018/1046'; pelo menos um 'Identificador da proposta do contrato' (BT-3202-Contract) está preenchido</entry>
@@ -219,7 +219,7 @@
 <entry key="expression|name|297">'Campo a publicar mais tarde' (BT-195(BT-553)-Tender) não está preenchido</entry>
 <entry key="expression|name|298">'Campo a publicar mais tarde' (BT-195(BT-554)-Tender) não está preenchido</entry>
 <entry key="expression|name|299">'Campo a publicar mais tarde' (BT-195(BT-555)-Tender) não está preenchido</entry>
-<entry key="expression|name|3">'Tipo de procedimento' (BT-105) deve ser: 'Aberto'; 'Limitado'; 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
+<entry key="expression|name|3">'Tipo de procedimento' (BT-105) não é 'Aberto', 'Limitado', 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação', 'Diálogo concorrencial' ou 'Parcerias para a inovação'</entry>
 <entry key="expression|name|30">'Os critérios serão utilizados para selecionar os candidatos a convidar para a segunda fase do concurso' (BT-40) não é 'Sim'</entry>
 <entry key="expression|name|300">'Campo a publicar mais tarde' (BT-195(BT-556)-NoticeResult) não está preenchido</entry>
 <entry key="expression|name|301">'Campo a publicar mais tarde' (BT-195(BT-709)-LotResult) não está preenchido</entry>
@@ -269,17 +269,18 @@
 <entry key="expression|name|341">A organização não é um concorrente nem um subcontratado</entry>
 <entry key="expression|name|342">Se a organização apresentou 'Parte ofertante' (OPT-310-Tender) que conduziu a 'Identificador da proposta do contrato' (BT-3202-Contract), então a organização é a vencedora</entry>
 <entry key="expression|name|343">'ID técnico do UBO (UBO-XXX)' (OPT-202-UBO) não está preenchido</entry>
+<entry key="expression|name|344">'O procedimento irá decorrer em fases sucessivas. Em cada fase, alguns participantes podem ser eliminados' (BT-52-Lot) não é 'sim'</entry>
 <entry key="expression|name|345">A organização não é um 'Adquirente'</entry>
 <entry key="expression|name|346">A organização é um comprador e o sistema de aquisição dinâmico também é utilizável por compradores não enumerados no presente anúncio, e a base jurídica é diferente de 'Outros', e 'Central de compras que adquire fornecimentos e/ou serviços destinados a outros adquirentes' (OPP-052) não está preenchido</entry>
 <entry key="expression|name|347">A organização é um comprador e o sistema de aquisição dinâmico também é utilizável por compradores não enumerados no presente anúncio, e a base jurídica é diferente de 'Outros', e 'Central de compras que adquire fornecimentos e/ou serviços destinados a outros adquirentes' (OPP-052) não está preenchido</entry>
 <entry key="expression|name|348">'O procedimento irá decorrer em fases sucessivas. Em cada fase, alguns participantes podem ser eliminados' (BT-52-Lot) não é 'sim'; 'Tipo de procedimento' (BT-105) não é um dos seguintes: 'Diálogo concorrencial'; 'Parcerias para a inovação'; 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'; 'Outro processo em múltiplas fases'; 'Limitado'</entry>
 <entry key="expression|name|349">Trata-se de um contrato-quadro</entry>
-<entry key="expression|name|35">'Tipo de procedimento' (BT-105) não é um dos seguintes: 'Diálogo concorrencial'; 'Parcerias para a inovação'; 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
+<entry key="expression|name|35">'Tipo de procedimento' (BT-105) não é 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
 <entry key="expression|name|350">A organização não participa num grupo de proponentes; 'A organização é uma pessoa singular' (BT-633-Organization); 'O vencedor está cotado num mercado regulamentado' (BT-746-Organization)</entry>
 <entry key="expression|name|351">A organização (OPT-200-Organization-Company) participa numa proposta selecionada como líder (OPT-300-Tenderer) ou subproponente (OPT-301-Tenderer-SubCont); 'A organização é uma pessoa singular' (BT-633-Organization) é 'não' e 'O vencedor está cotado num mercado regulamentado' (BT-746-Organization) é 'não'</entry>
 <entry key="expression|name|352">Pelo menos uma organização está ligada a 'Organização que desempenha este papel' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Tipo de procedimento' (BT-105) é 'Aberto' ou 'Limitado'</entry>
-<entry key="expression|name|354">'Tipo de procedimento' (BT-105) é 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
+<entry key="expression|name|353">'Tipo de procedimento' (BT-105) é 'Aberto', 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
+<entry key="expression|name|354">'Tipo de procedimento' (BT-105) não é 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
 <entry key="expression|name|355">A organização não é um comprador ou existe apenas um comprador</entry>
 <entry key="expression|name|356">Existem dois compradores diferentes de dois países diferentes</entry>
 <entry key="expression|name|357">'Base jurídica' (BT-01) é 'Diretiva 2014/23/UE', e 'Tipo de procedimento' (BT-105) é 'Por negociação sem abertura prévia de concurso' ou 'Outro processo de fase única' ou 'Outro processo em múltiplas fases'</entry>
@@ -353,7 +354,7 @@
 <entry key="expression|name|514">'O processo de adjudicação está abrangido pela Diretiva 2009/33/CE do Parlamento Europeu e do Conselho (Diretiva Veículos Não Poluentes – DVNP)' (BT-717) não é 'sim'</entry>
 <entry key="expression|name|515">'O processo de adjudicação está abrangido pela Diretiva 2009/33/CE do Parlamento Europeu e do Conselho (Diretiva Veículos Não Poluentes – DVNP)' (BT-717) não é 'sim' para este lote ou o lote não foi adjudicado</entry>
 <entry key="expression|name|516">'Base jurídica da DVNP para determinar a categoria de procedimento de adjudicação aplicável' (BT-735-LotResult) não está preenchido</entry>
-<entry key="expression|name|517">'A categoria do veículo abrangida pelo âmbito de aplicação da Diretiva 2009/33/CE, incluindo: Veículos ligeiros (M1, M2, N1); Autocarros (M3); Camiões (N2, N3); M1; M2; N1; N2; N3' (BT-723-LotResult) não está preenchido</entry>
+<entry key="expression|name|517">'Categoria de veículo' (BT-723-LotResult) não está preenchido</entry>
 <entry key="expression|name|518">'O processo de adjudicação está abrangido pela Diretiva 2009/33/CE do Parlamento Europeu e do Conselho (Diretiva Veículos Não Poluentes – DVNP)' (BT-717) não é 'sim' para este lote</entry>
 <entry key="expression|name|52">'Um grupo de proponentes ao qual é adjudicado um contrato tem de assumir uma determinada forma jurídica' (BT-761-Lot) não é 'sim'</entry>
 <entry key="expression|name|520">'O número é um tipo de fator de ponderação' (BT-5421) não é 'Ordem de importância'</entry>
