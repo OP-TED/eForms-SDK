@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-88)-Procedure) ist nicht ausgefüllt</entry>
 <entry key="expression|name|316">Es gibt mehr als ein Los</entry>
 <entry key="expression|name|317">'Es handelt sich um die Vergabe wiederkehrender Aufträge' ((BT-94-Lot)) ist nicht 'ja'</entry>
-<entry key="expression|name|318">'Verfahrensart' (BT-105-Lot) ist 'Offenes Verfahren'</entry>
+<entry key="expression|name|318">'Verfahrensart' (BT-105-Procedure) ist 'Offenes Verfahren'</entry>
 <entry key="expression|name|319">'Kennung – Kontaktstelle der Organisation' (OPT-301-Lot-ReviewInfo) ist nicht ausgefüllt</entry>
 <entry key="expression|name|32">'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot) ist nicht leer</entry>
 <entry key="expression|name|320">'elektronische Auktion' ((BT-767-Lot)) ist nicht 'ja'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Zugang zu bestimmten Auftragsunterlagen ist beschränkt' (BT-14-Lot) ist nichtoffen</entry>
 <entry key="expression|name|43">'Eine Sicherheitsleistung ist erforderlich' (BT-751-Lot) ist nicht 'ja'</entry>
 <entry key="expression|name|44">'Verfahrensart' (BT-105) ist einer der Folgenden: 'Wettbewerblicher Dialog'; 'Innovationspartnerschaften'; 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'; 'Verhandlungsverfahren ohne Aufruf zum Wettbewerb'; 'Sonstiges zweistufiges Verfahren'; 'Sonstiges einstufiges Verfahren'; 'Nichtoffenes Verfahren'</entry>
-<entry key="expression|name|45">'Verfahrensart' (BT-105-Lot) ist 'Offenes Verfahren'</entry>
-<entry key="expression|name|46">'Verfahrensart' (BT-105-Lot) ist 'Offenes Verfahren'</entry>
-<entry key="expression|name|47">'Verfahrensart' (BT-105-Lot) ist 'Offenes Verfahren'</entry>
-<entry key="expression|name|48">'Verfahrensart' (BT-105-Lot) ist nicht 'Offenes Verfahren'</entry>
-<entry key="expression|name|49">'Verfahrensart' (BT-105-Lot) ist nicht 'Offenes Verfahren'</entry>
+<entry key="expression|name|45">'Verfahrensart' (BT-105-Procedure) ist 'Offenes Verfahren'</entry>
+<entry key="expression|name|46">'Verfahrensart' (BT-105-Procedure) ist 'Offenes Verfahren'</entry>
+<entry key="expression|name|47">'Verfahrensart' (BT-105-Procedure) ist 'Offenes Verfahren'</entry>
+<entry key="expression|name|48">'Verfahrensart' (BT-105-Procedure) ist nicht 'Offenes Verfahren'</entry>
+<entry key="expression|name|49">'Verfahrensart' (BT-105-Procedure) ist nicht 'Offenes Verfahren'</entry>
 <entry key="expression|name|5">'Land' ist ausgefüllt</entry>
-<entry key="expression|name|50">'Verfahrensart' (BT-105-Lot) ist nicht 'Offenes Verfahren'</entry>
+<entry key="expression|name|50">'Verfahrensart' (BT-105-Procedure) ist nicht 'Offenes Verfahren'</entry>
 <entry key="expression|name|500">'Rechtsgrundlage' (BT-01(e)-Procedure) ist nicht ausgefüllt</entry>
 <entry key="expression|name|501">'Art' (BT-539-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|502">'Art' (BT-539-LotsGroup) ist nicht ausgefüllt</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-636)-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|507">'Verfahrensart' (BT-105) ist nicht 'Innovationspartnerschaften' oder 'Wettbewerblicher Dialog'</entry>
 <entry key="expression|name|509">'Verfahrensart' (BT-105) ist nicht 'Innovationspartnerschaften' oder 'Wettbewerblicher Dialog'; 'Wert des Preises' (BT-644) ist nicht ausgefüllt</entry>
-<entry key="expression|name|51">'Verfahrensart' (BT-105-Lot) ist nicht 'Offenes Verfahren'</entry>
+<entry key="expression|name|51">'Verfahrensart' (BT-105-Procedure) ist nicht 'Offenes Verfahren'</entry>
 <entry key="expression|name|510">'Bekanntmachung — eSender-Übermittlungsdatum' (BT-803(d)-notice) ist nicht ausgefüllt</entry>
 <entry key="expression|name|511">'Es ist eine Geheimhaltungsvereinbarung erforderlich' (BT-801) ist 'nein'</entry>
 <entry key="expression|name|512">'Kennung der EU-Mittel' (BT-5011) und 'Bezeichnung des von der EU finanzierten Projekts oder Programms' (BT-722) sind nicht ausgefüllt</entry>

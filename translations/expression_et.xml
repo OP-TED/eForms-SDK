@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-88)-Procedure) ei ole täidetud</entry>
 <entry key="expression|name|316">Osi on rohkem kui üks</entry>
 <entry key="expression|name|317">'Tegemist on korduva hankega' ((BT-94-Lot)) ei ole 'jah'</entry>
-<entry key="expression|name|318">'Menetluse liik' (BT-105-Lot) on 'Avatud'</entry>
+<entry key="expression|name|318">'Menetluse liik' (BT-105-Procedure) on 'Avatud'</entry>
 <entry key="expression|name|319">'Tunnus – organisatsiooni kontaktpunkt' (OPT-301-Lot-ReviewInfo) ei ole täidetud</entry>
 <entry key="expression|name|32">'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot) ei ole tühi</entry>
 <entry key="expression|name|320">'Tegemist on elektroonilise oksjoniga' ((BT-767-Lot)) ei ole 'jah'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Juurdepääs teatavatele hankedokumentidele on piiratud' (BT-14-Lot) on piiratud</entry>
 <entry key="expression|name|43">'Nõutakse tagatist' (BT-751-Lot) ei ole 'jah'</entry>
 <entry key="expression|name|44">'Menetluse liik' (BT-105) on üks järgmistest: 'Võistlev dialoog'; 'Innovatsioonipartnerlus'; 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'; 'Väljakuulutamiseta läbirääkimistega hankemenetlus'; 'Muu mitmeetapiline menetlus'; 'Muu üheetapiline menetlus'; 'Piiratud'</entry>
-<entry key="expression|name|45">'Menetluse liik' (BT-105-Lot) on 'Avatud'</entry>
-<entry key="expression|name|46">'Menetluse liik' (BT-105-Lot) on 'Avatud'</entry>
-<entry key="expression|name|47">'Menetluse liik' (BT-105-Lot) on 'Avatud'</entry>
-<entry key="expression|name|48">'Menetluse liik' (BT-105-Lot) ei ole 'Avatud'</entry>
-<entry key="expression|name|49">'Menetluse liik' (BT-105-Lot) ei ole 'Avatud'</entry>
+<entry key="expression|name|45">'Menetluse liik' (BT-105-Procedure) on 'Avatud'</entry>
+<entry key="expression|name|46">'Menetluse liik' (BT-105-Procedure) on 'Avatud'</entry>
+<entry key="expression|name|47">'Menetluse liik' (BT-105-Procedure) on 'Avatud'</entry>
+<entry key="expression|name|48">'Menetluse liik' (BT-105-Procedure) ei ole 'Avatud'</entry>
+<entry key="expression|name|49">'Menetluse liik' (BT-105-Procedure) ei ole 'Avatud'</entry>
 <entry key="expression|name|5">'Riik' on täidetud</entry>
-<entry key="expression|name|50">'Menetluse liik' (BT-105-Lot) ei ole 'Avatud'</entry>
+<entry key="expression|name|50">'Menetluse liik' (BT-105-Procedure) ei ole 'Avatud'</entry>
 <entry key="expression|name|500">'Õiguslik alus' (BT-01(e)-Procedure) ei ole täidetud</entry>
 <entry key="expression|name|501">'Liik' (BT-539-Lot) ei ole täidetud</entry>
 <entry key="expression|name|502">'Liik' (BT-539-LotsGroup) ei ole täidetud</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-636)-LotResult) ei ole täidetud</entry>
 <entry key="expression|name|507">'Menetluse liik' (BT-105) ei ole 'Innovatsioonipartnerlus' ega 'Võistlev dialoog'</entry>
 <entry key="expression|name|509">'Menetluse liik' (BT-105) ei ole 'Innovatsioonipartnerlus' ega 'Võistlev dialoog'; 'Auhinna väärtus' (BT-644) ei ole täidetud</entry>
-<entry key="expression|name|51">'Menetluse liik' (BT-105-Lot) ei ole 'Avatud'</entry>
+<entry key="expression|name|51">'Menetluse liik' (BT-105-Procedure) ei ole 'Avatud'</entry>
 <entry key="expression|name|510">'E-saatja teate saatmise kuupäev' (BT-803(d)-notice) ei ole täidetud</entry>
 <entry key="expression|name|511">'Vajalik on konfidentsiaalsuskokkulepe' (BT-801) on 'ei'</entry>
 <entry key="expression|name|512">'ELi vahendite tunnus' (BT-5011) ja 'ELi rahastatud projekti või programmi nimi' (BT-722) ei ole täidetud</entry>

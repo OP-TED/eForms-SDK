@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Pole pre neskoršie uverejnenie' (BT-195(BT-88)-Procedure) nie je vyplnený</entry>
 <entry key="expression|name|316">Existuje viac ako jedna časť</entry>
 <entry key="expression|name|317">'Toto je opakujúce sa verejné obstarávanie' ((BT-94-Lot)) nie je 'áno'</entry>
-<entry key="expression|name|318">'Druh postupu' (BT-105-Lot) je 'Verejná súťaž'</entry>
+<entry key="expression|name|318">'Druh postupu' (BT-105-Procedure) je 'Verejná súťaž'</entry>
 <entry key="expression|name|319">'Kontaktné miesto – Identifikátor' (OPT-301-Lot-ReviewInfo) nie je vyplnený</entry>
 <entry key="expression|name|32">'Číslo výzvy spojenej s podmienkami účasti druhej fázy' (BT-752-Lot) nie je prázdny</entry>
 <entry key="expression|name|320">'Použije sa elektronická aukcia' ((BT-767-Lot)) nie je 'áno'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Obmedzený prístup k súťažným podkladom' (BT-14-Lot) je obmedzený</entry>
 <entry key="expression|name|43">'Informácia, či sa požaduje zábezpeka' (BT-751-Lot) nie je 'áno'</entry>
 <entry key="expression|name|44">'Druh postupu' (BT-105) je jedným z týchto: 'Súťažný dialóg'; 'Inovatívne partnerstvo'; 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'; 'Rokovacie konanie bez zverejnenia výzvy na súťaž'; 'Iný viacfázový postup'; 'Iný jednofázový postup'; 'Užšia súťaž'</entry>
-<entry key="expression|name|45">'Druh postupu' (BT-105-Lot) je 'Verejná súťaž'</entry>
-<entry key="expression|name|46">'Druh postupu' (BT-105-Lot) je 'Verejná súťaž'</entry>
-<entry key="expression|name|47">'Druh postupu' (BT-105-Lot) je 'Verejná súťaž'</entry>
-<entry key="expression|name|48">'Druh postupu' (BT-105-Lot) nie je 'Verejná súťaž'</entry>
-<entry key="expression|name|49">'Druh postupu' (BT-105-Lot) nie je 'Verejná súťaž'</entry>
+<entry key="expression|name|45">'Druh postupu' (BT-105-Procedure) je 'Verejná súťaž'</entry>
+<entry key="expression|name|46">'Druh postupu' (BT-105-Procedure) je 'Verejná súťaž'</entry>
+<entry key="expression|name|47">'Druh postupu' (BT-105-Procedure) je 'Verejná súťaž'</entry>
+<entry key="expression|name|48">'Druh postupu' (BT-105-Procedure) nie je 'Verejná súťaž'</entry>
+<entry key="expression|name|49">'Druh postupu' (BT-105-Procedure) nie je 'Verejná súťaž'</entry>
 <entry key="expression|name|5">'Krajina' je vyplnený</entry>
-<entry key="expression|name|50">'Druh postupu' (BT-105-Lot) nie je 'Verejná súťaž'</entry>
+<entry key="expression|name|50">'Druh postupu' (BT-105-Procedure) nie je 'Verejná súťaž'</entry>
 <entry key="expression|name|500">'Právny základ' (BT-01(e)-Procedure) nie je vyplnený</entry>
 <entry key="expression|name|501">'Typ' (BT-539-Lot) nie je vyplnený</entry>
 <entry key="expression|name|502">'Typ' (BT-539-LotsGroup) nie je vyplnený</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Pole pre neskoršie uverejnenie' (BT-195(BT-636)-LotResult) nie je vyplnený</entry>
 <entry key="expression|name|507">'Druh postupu' (BT-105) nie je 'Inovatívne partnerstvo' alebo 'Súťažný dialóg'</entry>
 <entry key="expression|name|509">'Druh postupu' (BT-105) nie je 'Inovatívne partnerstvo' alebo 'Súťažný dialóg'; 'Hodnota ceny' (BT-644) nie je vyplnený</entry>
-<entry key="expression|name|51">'Druh postupu' (BT-105-Lot) nie je 'Verejná súťaž'</entry>
+<entry key="expression|name|51">'Druh postupu' (BT-105-Procedure) nie je 'Verejná súťaž'</entry>
 <entry key="expression|name|510">'Dátum odoslania oznámenia (eSender)' (BT-803(d)-notice) nie je vyplnený</entry>
 <entry key="expression|name|511">'Vyžaduje sa dohoda o nezverejňovaní informácií' (BT-801) je 'nie'</entry>
 <entry key="expression|name|512">'Identifikátor finančných prostriedkov EÚ' (BT-5011) a 'Názov projektu alebo programu financovaného z prostriedkov EÚ' (BT-722) nie sú vyplnené</entry>

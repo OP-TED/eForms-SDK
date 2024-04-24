@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Vėliau skelbtinas laukas' (BT-195(BT-88)-Procedure) neužpildyta</entry>
 <entry key="expression|name|316">Yra daugiau nei viena dalis</entry>
 <entry key="expression|name|317">'Tai pasikartojantis pirkimas' ((BT-94-Lot)) nėra 'taip'</entry>
-<entry key="expression|name|318">'Pirkimo būdas' (BT-105-Lot) yra 'Atviras'</entry>
+<entry key="expression|name|318">'Pirkimo būdas' (BT-105-Procedure) yra 'Atviras'</entry>
 <entry key="expression|name|319">'ID – organizacijos ryšių centras' (OPT-301-Lot-ReviewInfo) neužpildyta</entry>
 <entry key="expression|name|32">'Atrankos kriterijai: kvietimas į antrąjį etapą: skaičius' (BT-752-Lot) nėra tuščia</entry>
 <entry key="expression|name|320">'Naudojamas elektroninis aukcionas' ((BT-767-Lot)) nėra 'taip'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Prieiga prie tam tikrų pirkimo dokumentų yra ribota' (BT-14-Lot) yra apribota</entry>
 <entry key="expression|name|43">'Reikalinga garantija' (BT-751-Lot) nėra 'taip'</entry>
 <entry key="expression|name|44">'Pirkimo būdas' (BT-105) yra vienas iš šių: 'Konkurencinis dialogas'; 'Inovacijų partnerystė'; 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'; 'Derybos be išankstinio skelbimo apie pirkimą'; 'Kita kelių etapų procedūra'; 'Kita vieno etapo procedūra'; 'Ribotas'</entry>
-<entry key="expression|name|45">'Pirkimo būdas' (BT-105-Lot) yra 'Atviras'</entry>
-<entry key="expression|name|46">'Pirkimo būdas' (BT-105-Lot) yra 'Atviras'</entry>
-<entry key="expression|name|47">'Pirkimo būdas' (BT-105-Lot) yra 'Atviras'</entry>
-<entry key="expression|name|48">'Pirkimo būdas' (BT-105-Lot) nėra 'Atviras'</entry>
-<entry key="expression|name|49">'Pirkimo būdas' (BT-105-Lot) nėra 'Atviras'</entry>
+<entry key="expression|name|45">'Pirkimo būdas' (BT-105-Procedure) yra 'Atviras'</entry>
+<entry key="expression|name|46">'Pirkimo būdas' (BT-105-Procedure) yra 'Atviras'</entry>
+<entry key="expression|name|47">'Pirkimo būdas' (BT-105-Procedure) yra 'Atviras'</entry>
+<entry key="expression|name|48">'Pirkimo būdas' (BT-105-Procedure) nėra 'Atviras'</entry>
+<entry key="expression|name|49">'Pirkimo būdas' (BT-105-Procedure) nėra 'Atviras'</entry>
 <entry key="expression|name|5">'Šalis' užpildyta</entry>
-<entry key="expression|name|50">'Pirkimo būdas' (BT-105-Lot) nėra 'Atviras'</entry>
+<entry key="expression|name|50">'Pirkimo būdas' (BT-105-Procedure) nėra 'Atviras'</entry>
 <entry key="expression|name|500">'Teisinis pagrindas' (BT-01(e)-Procedure) neužpildyta</entry>
 <entry key="expression|name|501">'Rūšis' (BT-539-Lot) neužpildyta</entry>
 <entry key="expression|name|502">'Rūšis' (BT-539-LotsGroup) neužpildyta</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Vėliau skelbtinas laukas' (BT-195(BT-636)-LotResult) neužpildyta</entry>
 <entry key="expression|name|507">'Pirkimo būdas' (BT-105) nėra 'Inovacijų partnerystė' arba 'Konkurencinis dialogas'</entry>
 <entry key="expression|name|509">'Pirkimo būdas' (BT-105) nėra 'Inovacijų partnerystė' arba 'Konkurencinis dialogas'; 'Prizo vertė' (BT-644) neužpildyta</entry>
-<entry key="expression|name|51">'Pirkimo būdas' (BT-105-Lot) nėra 'Atviras'</entry>
+<entry key="expression|name|51">'Pirkimo būdas' (BT-105-Procedure) nėra 'Atviras'</entry>
 <entry key="expression|name|510">'Skelbimas: išsiuntimo data (e. formų siuntėjas)' (BT-803(d)-notice) neužpildyta</entry>
 <entry key="expression|name|511">'Būtinas konfidencialumo susitarimas' (BT-801) yra 'ne'</entry>
 <entry key="expression|name|512">'ES fondų identifikatorius' (BT-5011) ir 'ES finansuojamo projekto arba programos pavadinimas' (BT-722) neužpildyta</entry>

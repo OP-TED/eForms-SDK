@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-88)-Procedure) ei ole täytetty</entry>
 <entry key="expression|name|316">Eriä on enemmän kuin yksi</entry>
 <entry key="expression|name|317">'Tämä on toistuva hankinta' ((BT-94-Lot)) ei ole 'kyllä'</entry>
-<entry key="expression|name|318">'Menettelyn tyyppi' (BT-105-Lot) on 'Avoin'</entry>
+<entry key="expression|name|318">'Menettelyn tyyppi' (BT-105-Procedure) on 'Avoin'</entry>
 <entry key="expression|name|319">'Tunniste – Organisaation yhteyspiste' (OPT-301-Lot-ReviewInfo) ei ole täytetty</entry>
 <entry key="expression|name|32">'Valintaperusteet – Kutsu jälkimmäiseen vaiheeseen – Luku' (BT-752-Lot) ei ole tyhjä</entry>
 <entry key="expression|name|320">'Käytetään sähköistä huutokauppaa' ((BT-767-Lot)) ei ole 'kyllä'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Tiettyjen hankinta-asiakirjojen saatavuutta on rajoitettu' (BT-14-Lot) on rajoitettu</entry>
 <entry key="expression|name|43">'Vakuus vaaditaan' (BT-751-Lot) ei ole 'kyllä'</entry>
 <entry key="expression|name|44">'Menettelyn tyyppi' (BT-105) on yksi seuraavista: 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua', 'Muu monivaiheinen menettely', 'Muu yksivaiheinen menettely', 'Rajoitettu'</entry>
-<entry key="expression|name|45">'Menettelyn tyyppi' (BT-105-Lot) on 'Avoin'</entry>
-<entry key="expression|name|46">'Menettelyn tyyppi' (BT-105-Lot) on 'Avoin'</entry>
-<entry key="expression|name|47">'Menettelyn tyyppi' (BT-105-Lot) on 'Avoin'</entry>
-<entry key="expression|name|48">'Menettelyn tyyppi' (BT-105-Lot) ei ole 'Avoin'</entry>
-<entry key="expression|name|49">'Menettelyn tyyppi' (BT-105-Lot) ei ole 'Avoin'</entry>
+<entry key="expression|name|45">'Menettelyn tyyppi' (BT-105-Procedure) on 'Avoin'</entry>
+<entry key="expression|name|46">'Menettelyn tyyppi' (BT-105-Procedure) on 'Avoin'</entry>
+<entry key="expression|name|47">'Menettelyn tyyppi' (BT-105-Procedure) on 'Avoin'</entry>
+<entry key="expression|name|48">'Menettelyn tyyppi' (BT-105-Procedure) ei ole 'Avoin'</entry>
+<entry key="expression|name|49">'Menettelyn tyyppi' (BT-105-Procedure) ei ole 'Avoin'</entry>
 <entry key="expression|name|5">'Maa' on täytetty</entry>
-<entry key="expression|name|50">'Menettelyn tyyppi' (BT-105-Lot) ei ole 'Avoin'</entry>
+<entry key="expression|name|50">'Menettelyn tyyppi' (BT-105-Procedure) ei ole 'Avoin'</entry>
 <entry key="expression|name|500">'Oikeusperusta' (BT-01(e)-Procedure) ei ole täytetty</entry>
 <entry key="expression|name|501">'Tyyppi' (BT-539-Lot) ei ole täytetty</entry>
 <entry key="expression|name|502">'Tyyppi' (BT-539-LotsGroup) ei ole täytetty</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-636)-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|507">'Menettelyn tyyppi' (BT-105) ei ole 'Innovaatiokumppanuus' tai 'Kilpailullinen neuvottelumenettely'</entry>
 <entry key="expression|name|509">'Menettelyn tyyppi' (BT-105) ei ole 'Innovaatiokumppanuus' tai 'Kilpailullinen neuvottelumenettely', 'Palkinnon arvo' (BT-644) ei ole täytetty</entry>
-<entry key="expression|name|51">'Menettelyn tyyppi' (BT-105-Lot) ei ole 'Avoin'</entry>
+<entry key="expression|name|51">'Menettelyn tyyppi' (BT-105-Procedure) ei ole 'Avoin'</entry>
 <entry key="expression|name|510">'Ilmoituksen lähetyspäivä (eSender)' (BT-803(d)-notice) ei ole täytetty</entry>
 <entry key="expression|name|511">'Salassapitosopimus vaaditaan' (BT-801) on 'ei'</entry>
 <entry key="expression|name|512">'EU:n varojen tunniste' (BT-5011) ja 'EU:n rahoittaman hankkeen tai ohjelman nimi' (BT-722) ei ole täytetty</entry>
