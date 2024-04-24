@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Campo da pubblicare successivamente' (BT-195(BT-88)-Procedure) non è compilato</entry>
 <entry key="expression|name|316">Vi è più di un lotto</entry>
 <entry key="expression|name|317">'Si tratta di un appalto rinnovabile' ((BT-94-Lot)) non è 'sì'</entry>
-<entry key="expression|name|318">'Tipo di procedura' (BT-105-Lot) è 'Aperta'</entry>
+<entry key="expression|name|318">'Tipo di procedura' (BT-105-Procedure) è 'Aperta'</entry>
 <entry key="expression|name|319">'Identificativo - punti di contatto dell'organizzazione' (OPT-301-Lot-ReviewInfo) non è compilato</entry>
 <entry key="expression|name|32">'Criteri di selezione per invito seconda fase: numero' (BT-752-Lot) non è vuoto</entry>
 <entry key="expression|name|320">'Si tratta di un'asta elettronica' ((BT-767-Lot)) non è 'sì'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'L'accesso a determinati documenti di gara è limitato' (BT-14-Lot) è soggetto a restrizione</entry>
 <entry key="expression|name|43">'È obbligatoria una garanzia' (BT-751-Lot) non è 'sì'</entry>
 <entry key="expression|name|44">'Tipo di procedura' (BT-105) è uno dei seguenti: 'Dialogo competitivo'; 'Partenariato per l'innovazione'; 'Negoziata con previa indizione di gara / competitiva con negoziazione'; 'Negoziata senza previa indizione di gara'; 'Altra procedura a più fasi'; 'Altra procedura a fase unica'; 'Ristretta'</entry>
-<entry key="expression|name|45">'Tipo di procedura' (BT-105-Lot) è 'Aperta'</entry>
-<entry key="expression|name|46">'Tipo di procedura' (BT-105-Lot) è 'Aperta'</entry>
-<entry key="expression|name|47">'Tipo di procedura' (BT-105-Lot) è 'Aperta'</entry>
-<entry key="expression|name|48">'Tipo di procedura' (BT-105-Lot) non è 'Aperta'</entry>
-<entry key="expression|name|49">'Tipo di procedura' (BT-105-Lot) non è 'Aperta'</entry>
+<entry key="expression|name|45">'Tipo di procedura' (BT-105-Procedure) è 'Aperta'</entry>
+<entry key="expression|name|46">'Tipo di procedura' (BT-105-Procedure) è 'Aperta'</entry>
+<entry key="expression|name|47">'Tipo di procedura' (BT-105-Procedure) è 'Aperta'</entry>
+<entry key="expression|name|48">'Tipo di procedura' (BT-105-Procedure) non è 'Aperta'</entry>
+<entry key="expression|name|49">'Tipo di procedura' (BT-105-Procedure) non è 'Aperta'</entry>
 <entry key="expression|name|5">'Paese' è compilato</entry>
-<entry key="expression|name|50">'Tipo di procedura' (BT-105-Lot) non è 'Aperta'</entry>
+<entry key="expression|name|50">'Tipo di procedura' (BT-105-Procedure) non è 'Aperta'</entry>
 <entry key="expression|name|500">'Base giuridica' (BT-01(e)-Procedure) non è compilato</entry>
 <entry key="expression|name|501">'Tipo' (BT-539-Lot) non è compilato</entry>
 <entry key="expression|name|502">'Tipo' (BT-539-LotsGroup) non è compilato</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Campo da pubblicare successivamente' (BT-195(BT-636)-LotResult) non è compilato</entry>
 <entry key="expression|name|507">'Tipo di procedura' (BT-105) non è 'Partenariato per l'innovazione' o 'Dialogo competitivo'</entry>
 <entry key="expression|name|509">'Tipo di procedura' (BT-105) non è 'Partenariato per l'innovazione' o 'Dialogo competitivo'; 'Valore del premio' (BT-644) non è compilato</entry>
-<entry key="expression|name|51">'Tipo di procedura' (BT-105-Lot) non è 'Aperta'</entry>
+<entry key="expression|name|51">'Tipo di procedura' (BT-105-Procedure) non è 'Aperta'</entry>
 <entry key="expression|name|510">'Data di trasmissione da parte dell'eSender dell'avviso o bando' (BT-803(d)-notice) non è compilato</entry>
 <entry key="expression|name|511">'È richiesto un accordo di non divulgazione' (BT-801) è 'no'</entry>
 <entry key="expression|name|512">'Identificativo dei fondi UE' (BT-5011) e 'Nome del progetto o programma finanziato dall'UE' (BT-722) non sono compilati</entry>

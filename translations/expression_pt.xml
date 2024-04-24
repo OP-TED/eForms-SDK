@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Campo a publicar mais tarde' (BT-195(BT-88)-Procedure) não está preenchido</entry>
 <entry key="expression|name|316">Há mais do que um lote</entry>
 <entry key="expression|name|317">'Trata-se de um concurso recorrente' ((BT-94-Lot)) não é 'sim'</entry>
-<entry key="expression|name|318">'Tipo de procedimento' (BT-105-Lot) é 'Aberto'</entry>
+<entry key="expression|name|318">'Tipo de procedimento' (BT-105-Procedure) é 'Aberto'</entry>
 <entry key="expression|name|319">'Identificador — Ponto de Contacto da Organização' (OPT-301-Lot-ReviewInfo) não está preenchido</entry>
 <entry key="expression|name|32">'N.º de critérios de seleção do convite para a segunda fase' (BT-752-Lot) não está vazio</entry>
 <entry key="expression|name|320">'É utilizado um leilão eletrónico' ((BT-767-Lot)) não é 'sim'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'O acesso a determinados documentos do concurso é restrito' (BT-14-Lot) é limitado</entry>
 <entry key="expression|name|43">'É exigida uma garantia' (BT-751-Lot) não é 'sim'</entry>
 <entry key="expression|name|44">'Tipo de procedimento' (BT-105) é um dos seguintes: 'Diálogo concorrencial'; 'Parcerias para a inovação'; 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'; 'Por negociação sem abertura prévia de concurso'; 'Outro processo em múltiplas fases'; 'Outro processo de fase única'; 'Limitado'</entry>
-<entry key="expression|name|45">'Tipo de procedimento' (BT-105-Lot) é 'Aberto'</entry>
-<entry key="expression|name|46">'Tipo de procedimento' (BT-105-Lot) é 'Aberto'</entry>
-<entry key="expression|name|47">'Tipo de procedimento' (BT-105-Lot) é 'Aberto'</entry>
-<entry key="expression|name|48">'Tipo de procedimento' (BT-105-Lot) não é 'Aberto'</entry>
-<entry key="expression|name|49">'Tipo de procedimento' (BT-105-Lot) não é 'Aberto'</entry>
+<entry key="expression|name|45">'Tipo de procedimento' (BT-105-Procedure) é 'Aberto'</entry>
+<entry key="expression|name|46">'Tipo de procedimento' (BT-105-Procedure) é 'Aberto'</entry>
+<entry key="expression|name|47">'Tipo de procedimento' (BT-105-Procedure) é 'Aberto'</entry>
+<entry key="expression|name|48">'Tipo de procedimento' (BT-105-Procedure) não é 'Aberto'</entry>
+<entry key="expression|name|49">'Tipo de procedimento' (BT-105-Procedure) não é 'Aberto'</entry>
 <entry key="expression|name|5">'País' está preenchido</entry>
-<entry key="expression|name|50">'Tipo de procedimento' (BT-105-Lot) não é 'Aberto'</entry>
+<entry key="expression|name|50">'Tipo de procedimento' (BT-105-Procedure) não é 'Aberto'</entry>
 <entry key="expression|name|500">'Base jurídica' (BT-01(e)-Procedure) não está preenchido</entry>
 <entry key="expression|name|501">'Tipo' (BT-539-Lot) não está preenchido</entry>
 <entry key="expression|name|502">'Tipo' (BT-539-LotsGroup) não está preenchido</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Campo a publicar mais tarde' (BT-195(BT-636)-LotResult) não está preenchido</entry>
 <entry key="expression|name|507">'Tipo de procedimento' (BT-105) não é 'Parcerias para a inovação' ou 'Diálogo concorrencial'</entry>
 <entry key="expression|name|509">'Tipo de procedimento' (BT-105) não é 'Parcerias para a inovação' ou 'Diálogo concorrencial'; 'Valor do prémio' (BT-644) não está preenchido</entry>
-<entry key="expression|name|51">'Tipo de procedimento' (BT-105-Lot) não é 'Aberto'</entry>
+<entry key="expression|name|51">'Tipo de procedimento' (BT-105-Procedure) não é 'Aberto'</entry>
 <entry key="expression|name|510">'Data de envio do anúncio eSender' (BT-803(d)-notice) não está preenchido</entry>
 <entry key="expression|name|511">'É exigido um acordo de não divulgação' (BT-801) é 'não'</entry>
 <entry key="expression|name|512">'Identificador dos fundos da UE' (BT-5011) e 'Nome do projeto ou programa financiado pela UE' (BT-722) não estão preenchidos</entry>

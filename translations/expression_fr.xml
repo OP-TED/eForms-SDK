@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Champ à publier ultérieurement' (BT-195(BT-88)-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|316">Il y a plus d’un lot</entry>
 <entry key="expression|name|317">'Il s’agit d’un marché récurrent' ((BT-94-Lot)) n’est pas 'oui'</entry>
-<entry key="expression|name|318">'Type de procédure' (BT-105-Lot) est 'Ouverte'</entry>
+<entry key="expression|name|318">'Type de procédure' (BT-105-Procedure) est 'Ouverte'</entry>
 <entry key="expression|name|319">'Identifiant – Point de contact de l’organisation' (OPT-301-Lot-ReviewInfo) n’est pas rempli</entry>
 <entry key="expression|name|32">'Nombre critères sélection seconde étape' (BT-752-Lot) n’est pas vide</entry>
 <entry key="expression|name|320">'Une enchère électronique est utilisée' ((BT-767-Lot)) n’est pas 'oui'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'L’accès à certains documents de marché est restreint' (BT-14-Lot) est restreint</entry>
 <entry key="expression|name|43">'Une garantie est requise' (BT-751-Lot) n’est pas 'oui'</entry>
 <entry key="expression|name|44">'Type de procédure' (BT-105) est l’un des éléments suivants: 'Dialogue compétitif'; 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'; 'Négociée sans mise en concurrence préalable'; 'Autre procédure en plusieurs étapes'; 'Autre procédure en une seule étape'; 'Restreinte'</entry>
-<entry key="expression|name|45">'Type de procédure' (BT-105-Lot) est 'Ouverte'</entry>
-<entry key="expression|name|46">'Type de procédure' (BT-105-Lot) est 'Ouverte'</entry>
-<entry key="expression|name|47">'Type de procédure' (BT-105-Lot) est 'Ouverte'</entry>
-<entry key="expression|name|48">'Type de procédure' (BT-105-Lot) n’est pas 'Ouverte'</entry>
-<entry key="expression|name|49">'Type de procédure' (BT-105-Lot) n’est pas 'Ouverte'</entry>
+<entry key="expression|name|45">'Type de procédure' (BT-105-Procedure) est 'Ouverte'</entry>
+<entry key="expression|name|46">'Type de procédure' (BT-105-Procedure) est 'Ouverte'</entry>
+<entry key="expression|name|47">'Type de procédure' (BT-105-Procedure) est 'Ouverte'</entry>
+<entry key="expression|name|48">'Type de procédure' (BT-105-Procedure) n’est pas 'Ouverte'</entry>
+<entry key="expression|name|49">'Type de procédure' (BT-105-Procedure) n’est pas 'Ouverte'</entry>
 <entry key="expression|name|5">'Pays' est rempli</entry>
-<entry key="expression|name|50">'Type de procédure' (BT-105-Lot) n’est pas 'Ouverte'</entry>
+<entry key="expression|name|50">'Type de procédure' (BT-105-Procedure) n’est pas 'Ouverte'</entry>
 <entry key="expression|name|500">'Base juridique' (BT-01(e)-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|501">'Type' (BT-539-Lot) n’est pas rempli</entry>
 <entry key="expression|name|502">'Type' (BT-539-LotsGroup) n’est pas rempli</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Champ à publier ultérieurement' (BT-195(BT-636)-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|507">'Type de procédure' (BT-105) n’est pas 'Partenariat d’innovation' ou 'Dialogue compétitif'</entry>
 <entry key="expression|name|509">'Type de procédure' (BT-105) n’est pas 'Partenariat d’innovation' ou 'Dialogue compétitif'; 'Valeur de la prime' (BT-644) n’est pas rempli</entry>
-<entry key="expression|name|51">'Type de procédure' (BT-105-Lot) n’est pas 'Ouverte'</entry>
+<entry key="expression|name|51">'Type de procédure' (BT-105-Procedure) n’est pas 'Ouverte'</entry>
 <entry key="expression|name|510">'Date d’envoi de l’avis (eSender)' (BT-803(d)-notice) n’est pas rempli</entry>
 <entry key="expression|name|511">'Un accord de confidentialité est requis' (BT-801) est 'non'</entry>
 <entry key="expression|name|512">'Identifiant des fonds de l’UE' (BT-5011) et 'Nom du projet ou programme financé par l’UE' (BT-722) ne sont pas remplis</entry>

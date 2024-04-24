@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Câmp de publicat ulterior' (BT-195(BT-88)-Procedure) nu este completat</entry>
 <entry key="expression|name|316">Există mai mult de un lot</entry>
 <entry key="expression|name|317">'Aceasta este o achiziție recurentă' ((BT-94-Lot)) nu este 'da'</entry>
-<entry key="expression|name|318">'Tip de procedură' (BT-105-Lot) este 'Deschisă'</entry>
+<entry key="expression|name|318">'Tip de procedură' (BT-105-Procedure) este 'Deschisă'</entry>
 <entry key="expression|name|319">'Identificator - punct de contact organizație' (OPT-301-Lot-ReviewInfo) nu este completat</entry>
 <entry key="expression|name|32">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot) nu este gol</entry>
 <entry key="expression|name|320">'Se utilizează o licitație electronică' ((BT-767-Lot)) nu este 'da'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Accesul la anumite documente de achiziție este restricționat.' (BT-14-Lot) este limitat</entry>
 <entry key="expression|name|43">'Este necesară o garanție.' (BT-751-Lot) nu este 'da'</entry>
 <entry key="expression|name|44">'Tip de procedură' (BT-105) este una dintre următoarele: 'Dialog competitiv'; 'Parteneriat pentru inovare'; 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'; 'Negociată fără publicarea unei proceduri concurențiale de ofertare'; 'Altă procedură cu mai multe etape'; 'Altă procedură cu o singură etapă'; 'Restrânsă'</entry>
-<entry key="expression|name|45">'Tip de procedură' (BT-105-Lot) este 'Deschisă'</entry>
-<entry key="expression|name|46">'Tip de procedură' (BT-105-Lot) este 'Deschisă'</entry>
-<entry key="expression|name|47">'Tip de procedură' (BT-105-Lot) este 'Deschisă'</entry>
-<entry key="expression|name|48">'Tip de procedură' (BT-105-Lot) nu este 'Deschisă'</entry>
-<entry key="expression|name|49">'Tip de procedură' (BT-105-Lot) nu este 'Deschisă'</entry>
+<entry key="expression|name|45">'Tip de procedură' (BT-105-Procedure) este 'Deschisă'</entry>
+<entry key="expression|name|46">'Tip de procedură' (BT-105-Procedure) este 'Deschisă'</entry>
+<entry key="expression|name|47">'Tip de procedură' (BT-105-Procedure) este 'Deschisă'</entry>
+<entry key="expression|name|48">'Tip de procedură' (BT-105-Procedure) nu este 'Deschisă'</entry>
+<entry key="expression|name|49">'Tip de procedură' (BT-105-Procedure) nu este 'Deschisă'</entry>
 <entry key="expression|name|5">'Țara' este completat</entry>
-<entry key="expression|name|50">'Tip de procedură' (BT-105-Lot) nu este 'Deschisă'</entry>
+<entry key="expression|name|50">'Tip de procedură' (BT-105-Procedure) nu este 'Deschisă'</entry>
 <entry key="expression|name|500">'Temei juridic' (BT-01(e)-Procedure) nu este completat</entry>
 <entry key="expression|name|501">'Tip' (BT-539-Lot) nu este completat</entry>
 <entry key="expression|name|502">'Tip' (BT-539-LotsGroup) nu este completat</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Câmp de publicat ulterior' (BT-195(BT-636)-LotResult) nu este completat</entry>
 <entry key="expression|name|507">'Tip de procedură' (BT-105) nu este 'Parteneriat pentru inovare' sau 'Dialog competitiv'</entry>
 <entry key="expression|name|509">'Tip de procedură' (BT-105) nu este 'Parteneriat pentru inovare' sau 'Dialog competitiv'; 'Valoarea premiului' (BT-644) nu este completat</entry>
-<entry key="expression|name|51">'Tip de procedură' (BT-105-Lot) nu este 'Deschisă'</entry>
+<entry key="expression|name|51">'Tip de procedură' (BT-105-Procedure) nu este 'Deschisă'</entry>
 <entry key="expression|name|510">'Data de expediere a anunțului eSender' (BT-803(d)-notice) nu este completat</entry>
 <entry key="expression|name|511">'Este necesar un acord de confidențialitate' (BT-801) este 'nu'</entry>
 <entry key="expression|name|512">'Identificatorul fondurilor UE' (BT-5011) și 'Denumirea proiectului sau a programului finanțat de UE' (BT-722) nu sunt completate</entry>
