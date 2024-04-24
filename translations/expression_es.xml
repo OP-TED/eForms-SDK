@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Campo para publicar más tarde' (BT-195(BT-88)-Procedure) no está cumplimentado</entry>
 <entry key="expression|name|316">Hay más de un lote</entry>
 <entry key="expression|name|317">'Se trata de una contratación recurrente' ((BT-94-Lot)) no es 'sí'</entry>
-<entry key="expression|name|318">'Tipo de procedimiento' (BT-105-Lot) es 'Abierto'</entry>
+<entry key="expression|name|318">'Tipo de procedimiento' (BT-105-Procedure) es 'Abierto'</entry>
 <entry key="expression|name|319">'Identificador: punto de contacto de la organización' (OPT-301-Lot-ReviewInfo) no está cumplimentado</entry>
 <entry key="expression|name|32">'Criterios de selección para invitación a la segunda fase: número' (BT-752-Lot) no está vacío</entry>
 <entry key="expression|name|320">'Se utiliza la subasta electrónica' ((BT-767-Lot)) no es 'sí'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'El acceso a determinados documentos de contratación está restringido' (BT-14-Lot) está restringido</entry>
 <entry key="expression|name|43">'Se exige una garantía' (BT-751-Lot) no es 'sí'</entry>
 <entry key="expression|name|44">'Tipo de procedimiento' (BT-105) es uno de los siguientes: 'Diálogo competitivo'; 'Asociación para la innovación'; 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'; 'Negociado sin convocatoria de licitación previa'; 'Otro procedimiento de múltiples etapas'; 'Otro procedimiento de una sola etapa'; 'Restringido'</entry>
-<entry key="expression|name|45">'Tipo de procedimiento' (BT-105-Lot) es 'Abierto'</entry>
-<entry key="expression|name|46">'Tipo de procedimiento' (BT-105-Lot) es 'Abierto'</entry>
-<entry key="expression|name|47">'Tipo de procedimiento' (BT-105-Lot) es 'Abierto'</entry>
-<entry key="expression|name|48">'Tipo de procedimiento' (BT-105-Lot) no es 'Abierto'</entry>
-<entry key="expression|name|49">'Tipo de procedimiento' (BT-105-Lot) no es 'Abierto'</entry>
+<entry key="expression|name|45">'Tipo de procedimiento' (BT-105-Procedure) es 'Abierto'</entry>
+<entry key="expression|name|46">'Tipo de procedimiento' (BT-105-Procedure) es 'Abierto'</entry>
+<entry key="expression|name|47">'Tipo de procedimiento' (BT-105-Procedure) es 'Abierto'</entry>
+<entry key="expression|name|48">'Tipo de procedimiento' (BT-105-Procedure) no es 'Abierto'</entry>
+<entry key="expression|name|49">'Tipo de procedimiento' (BT-105-Procedure) no es 'Abierto'</entry>
 <entry key="expression|name|5">'País' está cumplimentado</entry>
-<entry key="expression|name|50">'Tipo de procedimiento' (BT-105-Lot) no es 'Abierto'</entry>
+<entry key="expression|name|50">'Tipo de procedimiento' (BT-105-Procedure) no es 'Abierto'</entry>
 <entry key="expression|name|500">'Base jurídica' (BT-01(e)-Procedure) no está cumplimentado</entry>
 <entry key="expression|name|501">'Tipo' (BT-539-Lot) no está cumplimentado</entry>
 <entry key="expression|name|502">'Tipo' (BT-539-LotsGroup) no está cumplimentado</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Campo para publicar más tarde' (BT-195(BT-636)-LotResult) no está cumplimentado</entry>
 <entry key="expression|name|507">'Tipo de procedimiento' (BT-105) no es 'Asociación para la innovación' ni 'Diálogo competitivo'</entry>
 <entry key="expression|name|509">'Tipo de procedimiento' (BT-105) no es 'Asociación para la innovación' ni 'Diálogo competitivo'; 'Valor del premio' (BT-644) no está cumplimentado</entry>
-<entry key="expression|name|51">'Tipo de procedimiento' (BT-105-Lot) no es 'Abierto'</entry>
+<entry key="expression|name|51">'Tipo de procedimiento' (BT-105-Procedure) no es 'Abierto'</entry>
 <entry key="expression|name|510">'Anuncio: fecha de envío (por parte del eSender)' (BT-803(d)-notice) no está cumplimentado</entry>
 <entry key="expression|name|511">'Es necesario un acuerdo de confidencialidad' (BT-801) es 'no'</entry>
 <entry key="expression|name|512">'Identificador de los fondos de la UE' (BT-5011) y 'Nombre del proyecto o programa financiado por la UE' (BT-722) no están cumplimentados</entry>

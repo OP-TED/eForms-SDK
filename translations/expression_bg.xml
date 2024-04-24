@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Поле за по-късно публикуване' (BT-195(BT-88)-Procedure) не се попълва</entry>
 <entry key="expression|name|316">Има повече от една обособена позиция</entry>
 <entry key="expression|name|317">'Това е повтаряща се обществена поръчка' ((BT-94-Lot)) не е 'да'</entry>
-<entry key="expression|name|318">'Вид процедура' (BT-105-Lot) е 'Открита'</entry>
+<entry key="expression|name|318">'Вид процедура' (BT-105-Procedure) е 'Открита'</entry>
 <entry key="expression|name|319">'Идентификатор — точка за връзка на организацията' (OPT-301-Lot-ReviewInfo) не се попълва</entry>
 <entry key="expression|name|32">'Число, свързано с критериите за подбор за участие на втория етап' (BT-752-Lot) не е празно</entry>
 <entry key="expression|name|320">'Използва се електронен търг' ((BT-767-Lot)) не е 'да'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Достъпът до някои документи за поръчката е ограничен' (BT-14-Lot) е ограничена</entry>
 <entry key="expression|name|43">'Изисква се гаранция' (BT-751-Lot) не е 'да'</entry>
 <entry key="expression|name|44">'Вид процедура' (BT-105) е едно от следните: 'Състезателен диалог'; 'Партньорство за иновации'; 'Договаряне с предварително публикуване на покана за участие в състезателна процедура / състезателна с договаряне'; 'Договаряне без предварително обявление'; 'Друга многоетапна процедура'; 'Друга едноетапна процедура'; 'Ограничена'</entry>
-<entry key="expression|name|45">'Вид процедура' (BT-105-Lot) е 'Открита'</entry>
-<entry key="expression|name|46">'Вид процедура' (BT-105-Lot) е 'Открита'</entry>
-<entry key="expression|name|47">'Вид процедура' (BT-105-Lot) е 'Открита'</entry>
-<entry key="expression|name|48">'Вид процедура' (BT-105-Lot) не е 'Открита'</entry>
-<entry key="expression|name|49">'Вид процедура' (BT-105-Lot) не е 'Открита'</entry>
+<entry key="expression|name|45">'Вид процедура' (BT-105-Procedure) е 'Открита'</entry>
+<entry key="expression|name|46">'Вид процедура' (BT-105-Procedure) е 'Открита'</entry>
+<entry key="expression|name|47">'Вид процедура' (BT-105-Procedure) е 'Открита'</entry>
+<entry key="expression|name|48">'Вид процедура' (BT-105-Procedure) не е 'Открита'</entry>
+<entry key="expression|name|49">'Вид процедура' (BT-105-Procedure) не е 'Открита'</entry>
 <entry key="expression|name|5">'Държава' се попълва</entry>
-<entry key="expression|name|50">'Вид процедура' (BT-105-Lot) не е 'Открита'</entry>
+<entry key="expression|name|50">'Вид процедура' (BT-105-Procedure) не е 'Открита'</entry>
 <entry key="expression|name|500">'Правно основание' (BT-01(e)-Procedure) не се попълва</entry>
 <entry key="expression|name|501">'Вид' (BT-539-Lot) не се попълва</entry>
 <entry key="expression|name|502">'Вид' (BT-539-LotsGroup) не се попълва</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Поле за по-късно публикуване' (BT-195(BT-636)-LotResult) не се попълва</entry>
 <entry key="expression|name|507">'Вид процедура' (BT-105) не е 'Партньорство за иновации' или 'Състезателен диалог'</entry>
 <entry key="expression|name|509">'Вид процедура' (BT-105) не е 'Партньорство за иновации' или 'Състезателен диалог'; 'Стойност на наградата' (BT-644) не се попълва</entry>
-<entry key="expression|name|51">'Вид процедура' (BT-105-Lot) не е 'Открита'</entry>
+<entry key="expression|name|51">'Вид процедура' (BT-105-Procedure) не е 'Открита'</entry>
 <entry key="expression|name|510">'Дата на изпращане на обявлението (електронен подател)' (BT-803(d)-notice) не се попълва</entry>
 <entry key="expression|name|511">'Изисква се споразумение за неразкриване на информация' (BT-801) е 'не'</entry>
 <entry key="expression|name|512">'Идентификатор на средствата от ЕС' (BT-5011) и 'Наименование на финансирания от ЕС проект или програма' (BT-722) не се попълват</entry>

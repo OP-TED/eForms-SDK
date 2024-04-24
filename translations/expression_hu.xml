@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Később közzéteendő mező' (BT-195(BT-88)-Procedure) nincs kitöltve</entry>
 <entry key="expression|name|316">Egynél több tétel van</entry>
 <entry key="expression|name|317">'Ez egy ismétlődő közbeszerzés' ((BT-94-Lot)) nem 'igen'</entry>
-<entry key="expression|name|318">'Az eljárás típusa' (BT-105-Lot) = 'Nyitott'</entry>
+<entry key="expression|name|318">'Az eljárás típusa' (BT-105-Procedure) = 'Nyitott'</entry>
 <entry key="expression|name|319">'Azonosító – Szervezet kapcsolattartója' (OPT-301-Lot-ReviewInfo) nincs kitöltve</entry>
 <entry key="expression|name|32">'Alkalmassági követelmények második szakaszhoz – meghívási szám' (BT-752-Lot) nem üres</entry>
 <entry key="expression|name|320">'Elektronikus árlejtés alkalmazására kerül sor' ((BT-767-Lot)) nem 'igen'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van' (BT-14-Lot) korlátozott</entry>
 <entry key="expression|name|43">'Biztosítéknyújtási kötelezettség áll fenn' (BT-751-Lot) nem 'igen'</entry>
 <entry key="expression|name|44">'Az eljárás típusa' (BT-105) a következők egyike: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'; 'Felhívás nélküli tárgyalásos eljárás'; 'Egyéb többszakaszos eljárás'; 'Egyéb egyszakaszos eljárás'; 'Zárt'</entry>
-<entry key="expression|name|45">'Az eljárás típusa' (BT-105-Lot) = 'Nyitott'</entry>
-<entry key="expression|name|46">'Az eljárás típusa' (BT-105-Lot) = 'Nyitott'</entry>
-<entry key="expression|name|47">'Az eljárás típusa' (BT-105-Lot) = 'Nyitott'</entry>
-<entry key="expression|name|48">'Az eljárás típusa' (BT-105-Lot) nem 'Nyitott'</entry>
-<entry key="expression|name|49">'Az eljárás típusa' (BT-105-Lot) nem 'Nyitott'</entry>
+<entry key="expression|name|45">'Az eljárás típusa' (BT-105-Procedure) = 'Nyitott'</entry>
+<entry key="expression|name|46">'Az eljárás típusa' (BT-105-Procedure) = 'Nyitott'</entry>
+<entry key="expression|name|47">'Az eljárás típusa' (BT-105-Procedure) = 'Nyitott'</entry>
+<entry key="expression|name|48">'Az eljárás típusa' (BT-105-Procedure) nem 'Nyitott'</entry>
+<entry key="expression|name|49">'Az eljárás típusa' (BT-105-Procedure) nem 'Nyitott'</entry>
 <entry key="expression|name|5">'Ország' ki van töltve</entry>
-<entry key="expression|name|50">'Az eljárás típusa' (BT-105-Lot) nem 'Nyitott'</entry>
+<entry key="expression|name|50">'Az eljárás típusa' (BT-105-Procedure) nem 'Nyitott'</entry>
 <entry key="expression|name|500">'Jogalap' (BT-01(e)-Procedure) nincs kitöltve</entry>
 <entry key="expression|name|501">'Típus' (BT-539-Lot) nincs kitöltve</entry>
 <entry key="expression|name|502">'Típus' (BT-539-LotsGroup) nincs kitöltve</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Később közzéteendő mező' (BT-195(BT-636)-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|507">'Az eljárás típusa' (BT-105) nem 'Innovációs partnerség' vagy 'Versenypárbeszéd'</entry>
 <entry key="expression|name|509">'Az eljárás típusa' (BT-105) nem 'Innovációs partnerség' vagy 'Versenypárbeszéd'; 'A díj értéke' (BT-644) nincs kitöltve</entry>
-<entry key="expression|name|51">'Az eljárás típusa' (BT-105-Lot) nem 'Nyitott'</entry>
+<entry key="expression|name|51">'Az eljárás típusa' (BT-105-Procedure) nem 'Nyitott'</entry>
 <entry key="expression|name|510">'Hirdetmény megküldésének dátuma (az eSender rendszerben)' (BT-803(d)-notice) nincs kitöltve</entry>
 <entry key="expression|name|511">'Titoktartási megállapodásra van szükség' (BT-801) = 'nem'</entry>
 <entry key="expression|name|512">'Az uniós alapok azonosítója' (BT-5011) és 'Az uniós finanszírozású projekt vagy program neve' (BT-722) nincs kitöltve</entry>

@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Polje, ki naj se objavi pozneje' (BT-195(BT-88)-Procedure) ni izpolnjeno</entry>
 <entry key="expression|name|316">Obstaja več kot en sklop</entry>
 <entry key="expression|name|317">'Gre za ponovljeno javno naročilo' ((BT-94-Lot)) ni 'da'</entry>
-<entry key="expression|name|318">'Vrsta postopka' (BT-105-Lot) je 'Odprti postopek'</entry>
+<entry key="expression|name|318">'Vrsta postopka' (BT-105-Procedure) je 'Odprti postopek'</entry>
 <entry key="expression|name|319">'ID – Kontaktna točka organizacije' (OPT-301-Lot-ReviewInfo) ni izpolnjeno</entry>
 <entry key="expression|name|32">'Številka pogojev za vabilo k sodelovanju na drugi stopnji' (BT-752-Lot) ni prazno</entry>
 <entry key="expression|name|320">'Uporablja se elektronska dražba' ((BT-767-Lot)) ni 'da'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Dostop do nekaterih dokumentov v zvezi z oddajo javnega naročila je omejen' (BT-14-Lot) je omejeno</entry>
 <entry key="expression|name|43">'Potrebno je jamstvo' (BT-751-Lot) ni 'da'</entry>
 <entry key="expression|name|44">'Vrsta postopka' (BT-105) je eno od naslednjega: 'Konkurenčni dialog'; 'Partnerstvo za inovacije'; 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'; 'S pogajanji, brez predhodnega javnega razpisa'; 'Drugi večstopenjski postopek'; 'Drugi enostopenjski postopek'; 'Omejeni postopek'</entry>
-<entry key="expression|name|45">'Vrsta postopka' (BT-105-Lot) je 'Odprti postopek'</entry>
-<entry key="expression|name|46">'Vrsta postopka' (BT-105-Lot) je 'Odprti postopek'</entry>
-<entry key="expression|name|47">'Vrsta postopka' (BT-105-Lot) je 'Odprti postopek'</entry>
-<entry key="expression|name|48">'Vrsta postopka' (BT-105-Lot) ni 'Odprti postopek'</entry>
-<entry key="expression|name|49">'Vrsta postopka' (BT-105-Lot) ni 'Odprti postopek'</entry>
+<entry key="expression|name|45">'Vrsta postopka' (BT-105-Procedure) je 'Odprti postopek'</entry>
+<entry key="expression|name|46">'Vrsta postopka' (BT-105-Procedure) je 'Odprti postopek'</entry>
+<entry key="expression|name|47">'Vrsta postopka' (BT-105-Procedure) je 'Odprti postopek'</entry>
+<entry key="expression|name|48">'Vrsta postopka' (BT-105-Procedure) ni 'Odprti postopek'</entry>
+<entry key="expression|name|49">'Vrsta postopka' (BT-105-Procedure) ni 'Odprti postopek'</entry>
 <entry key="expression|name|5">'Država' je izpolnjeno</entry>
-<entry key="expression|name|50">'Vrsta postopka' (BT-105-Lot) ni 'Odprti postopek'</entry>
+<entry key="expression|name|50">'Vrsta postopka' (BT-105-Procedure) ni 'Odprti postopek'</entry>
 <entry key="expression|name|500">'Pravna podlaga' (BT-01(e)-Procedure) ni izpolnjeno</entry>
 <entry key="expression|name|501">'Vrsta' (BT-539-Lot) ni izpolnjeno</entry>
 <entry key="expression|name|502">'Vrsta' (BT-539-LotsGroup) ni izpolnjeno</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Polje, ki naj se objavi pozneje' (BT-195(BT-636)-LotResult) ni izpolnjeno</entry>
 <entry key="expression|name|507">'Vrsta postopka' (BT-105) ni 'Partnerstvo za inovacije' ali 'Konkurenčni dialog'</entry>
 <entry key="expression|name|509">'Vrsta postopka' (BT-105) ni 'Partnerstvo za inovacije' ali 'Konkurenčni dialog'; 'Vrednost nagrade' (BT-644) ni izpolnjeno</entry>
-<entry key="expression|name|51">'Vrsta postopka' (BT-105-Lot) ni 'Odprti postopek'</entry>
+<entry key="expression|name|51">'Vrsta postopka' (BT-105-Procedure) ni 'Odprti postopek'</entry>
 <entry key="expression|name|510">'Datum pošiljanja obvestila (ePošiljatelja)' (BT-803(d)-notice) ni izpolnjeno</entry>
 <entry key="expression|name|511">'Zahteva se sporazum o nerazkrivanju podatkov' (BT-801) je 'ne'</entry>
 <entry key="expression|name|512">'Identifikator sredstev EU' (BT-5011) in 'Ime projekta ali programa, ki ga financira EU' (BT-722) nista izpolnjeni</entry>
