@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Pole do publikacji w późniejszym terminie' (BT-195(BT-88)-Procedure) nie jest wypełnione</entry>
 <entry key="expression|name|316">Istnieje więcej niż jedna część</entry>
 <entry key="expression|name|317">'To jest zamówienie powtarzalne' ((BT-94-Lot)) nie jest 'tak'</entry>
-<entry key="expression|name|318">'Rodzaj procedury' (BT-105-Lot) to 'Otwarta'</entry>
+<entry key="expression|name|318">'Rodzaj procedury' (BT-105-Procedure) to 'Otwarta'</entry>
 <entry key="expression|name|319">'Organizacja lub konkretny punkt kontaktowy' (OPT-301-Lot-ReviewInfo) nie jest wypełnione</entry>
 <entry key="expression|name|32">'Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba' (BT-752-Lot) nie jest puste</entry>
 <entry key="expression|name|320">'Stosuje się aukcję elektroniczną' ((BT-767-Lot)) nie jest 'tak'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Dostęp do niektórych dokumentów zamówienia jest zastrzeżony' (BT-14-Lot) jest ograniczone</entry>
 <entry key="expression|name|43">'Wymagane jest zabezpieczenie' (BT-751-Lot) nie jest 'tak'</entry>
 <entry key="expression|name|44">'Rodzaj procedury' (BT-105) jest jednym z następujących: 'Dialog konkurencyjny'; 'Partnerstwo innowacyjne'; 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami'; 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie'; 'Inna procedura wieloetapowa'; 'Inna procedura jednoetapowa'; 'Ograniczona'</entry>
-<entry key="expression|name|45">'Rodzaj procedury' (BT-105-Lot) to 'Otwarta'</entry>
-<entry key="expression|name|46">'Rodzaj procedury' (BT-105-Lot) to 'Otwarta'</entry>
-<entry key="expression|name|47">'Rodzaj procedury' (BT-105-Lot) to 'Otwarta'</entry>
-<entry key="expression|name|48">'Rodzaj procedury' (BT-105-Lot) nie jest 'Otwarta'</entry>
-<entry key="expression|name|49">'Rodzaj procedury' (BT-105-Lot) nie jest 'Otwarta'</entry>
+<entry key="expression|name|45">'Rodzaj procedury' (BT-105-Procedure) to 'Otwarta'</entry>
+<entry key="expression|name|46">'Rodzaj procedury' (BT-105-Procedure) to 'Otwarta'</entry>
+<entry key="expression|name|47">'Rodzaj procedury' (BT-105-Procedure) to 'Otwarta'</entry>
+<entry key="expression|name|48">'Rodzaj procedury' (BT-105-Procedure) nie jest 'Otwarta'</entry>
+<entry key="expression|name|49">'Rodzaj procedury' (BT-105-Procedure) nie jest 'Otwarta'</entry>
 <entry key="expression|name|5">'Kraj' jest wypełnione</entry>
-<entry key="expression|name|50">'Rodzaj procedury' (BT-105-Lot) nie jest 'Otwarta'</entry>
+<entry key="expression|name|50">'Rodzaj procedury' (BT-105-Procedure) nie jest 'Otwarta'</entry>
 <entry key="expression|name|500">'Podstawa prawna' (BT-01(e)-Procedure) nie jest wypełnione</entry>
 <entry key="expression|name|501">'Rodzaj' (BT-539-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|502">'Rodzaj' (BT-539-LotsGroup) nie jest wypełnione</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Pole do publikacji w późniejszym terminie' (BT-195(BT-636)-LotResult) nie jest wypełnione</entry>
 <entry key="expression|name|507">'Rodzaj procedury' (BT-105) nie jest 'Partnerstwo innowacyjne' ani 'Dialog konkurencyjny'</entry>
 <entry key="expression|name|509">'Rodzaj procedury' (BT-105) nie jest 'Partnerstwo innowacyjne' lub 'Dialog konkurencyjny'; 'Wartość nagrody' (BT-644) nie jest wypełnione</entry>
-<entry key="expression|name|51">'Rodzaj procedury' (BT-105-Lot) nie jest 'Otwarta'</entry>
+<entry key="expression|name|51">'Rodzaj procedury' (BT-105-Procedure) nie jest 'Otwarta'</entry>
 <entry key="expression|name|510">'Ogłoszenie - Data wysłania (eSender)' (BT-803(d)-notice) nie jest wypełnione</entry>
 <entry key="expression|name|511">'Wymagana jest umowa o poufności' (BT-801) to 'nie'</entry>
 <entry key="expression|name|512">'Identyfikator funduszy UE' (BT-5011) i 'Nazwa projektu lub programu finansowanego przez UE' (BT-722) nie są wypełnione</entry>

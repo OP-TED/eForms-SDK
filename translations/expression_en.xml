@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Field to publish later' (BT-195(BT-88)-Procedure) is not filled in</entry>
 <entry key="expression|name|316">There is more than one lot</entry>
 <entry key="expression|name|317">'This is a recurrent procurement' ((BT-94-Lot)) is not 'yes'</entry>
-<entry key="expression|name|318">'Type of procedure' (BT-105-Lot) is 'Open'</entry>
+<entry key="expression|name|318">'Type of procedure' (BT-105-Procedure) is 'Open'</entry>
 <entry key="expression|name|319">'Organisation or specific contact point' (OPT-301-Lot-ReviewInfo) is not filled in</entry>
 <entry key="expression|name|32">'Selection criteria second stage invite number' (BT-752-Lot) is not empty</entry>
 <entry key="expression|name|320">'An electronic auction is used' ((BT-767-Lot)) is not 'yes'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Access to certain procurement documents is restricted' (BT-14-Lot) is restricted</entry>
 <entry key="expression|name|43">'A guarantee is required' (BT-751-Lot) is not 'yes'</entry>
 <entry key="expression|name|44">'Type of procedure' (BT-105) is one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Negotiated without prior call for competition'; 'Other multiple stage procedure'; 'Other single stage procedure'; 'Restricted'</entry>
-<entry key="expression|name|45">'Type of procedure' (BT-105-Lot) is 'Open'</entry>
-<entry key="expression|name|46">'Type of procedure' (BT-105-Lot) is 'Open'</entry>
-<entry key="expression|name|47">'Type of procedure' (BT-105-Lot) is 'Open'</entry>
-<entry key="expression|name|48">'Type of procedure' (BT-105-Lot) is not 'Open'</entry>
-<entry key="expression|name|49">'Type of procedure' (BT-105-Lot) is not 'Open'</entry>
+<entry key="expression|name|45">'Type of procedure' (BT-105-Procedure) is 'Open'</entry>
+<entry key="expression|name|46">'Type of procedure' (BT-105-Procedure) is 'Open'</entry>
+<entry key="expression|name|47">'Type of procedure' (BT-105-Procedure) is 'Open'</entry>
+<entry key="expression|name|48">'Type of procedure' (BT-105-Procedure) is not 'Open'</entry>
+<entry key="expression|name|49">'Type of procedure' (BT-105-Procedure) is not 'Open'</entry>
 <entry key="expression|name|5">'Country' is filled in</entry>
-<entry key="expression|name|50">'Type of procedure' (BT-105-Lot) is not 'Open'</entry>
+<entry key="expression|name|50">'Type of procedure' (BT-105-Procedure) is not 'Open'</entry>
 <entry key="expression|name|500">'Legal basis' (BT-01(e)-Procedure) is not filled in</entry>
 <entry key="expression|name|501">'Type' (BT-539-Lot) is not filled in</entry>
 <entry key="expression|name|502">'Type' (BT-539-LotsGroup) is not filled in</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Field to publish later' (BT-195(BT-636)-LotResult) is not filled in</entry>
 <entry key="expression|name|507">'Type of procedure' (BT-105) is not 'Innovation partnership' or 'Competitive dialogue'</entry>
 <entry key="expression|name|509">'Type of procedure' (BT-105) is not 'Innovation partnership' or 'Competitive dialogue'; 'Value of the prize' (BT-644) is not filled in</entry>
-<entry key="expression|name|51">'Type of procedure' (BT-105-Lot) is not 'Open'</entry>
+<entry key="expression|name|51">'Type of procedure' (BT-105-Procedure) is not 'Open'</entry>
 <entry key="expression|name|510">'Notice dispatch date (eSender)' (BT-803(d)-notice) is not filled in</entry>
 <entry key="expression|name|511">'A non-disclosure agreement is required' (BT-801) is 'no'</entry>
 <entry key="expression|name|512">'Identifier of EU funds' (BT-5011) and 'Name of EU-financed project or programme' (BT-722) are not filled in</entry>

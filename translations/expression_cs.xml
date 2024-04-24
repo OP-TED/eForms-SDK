@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Pole bude zveřejněno později' (BT-195(BT-88)-Procedure) není vyplněn</entry>
 <entry key="expression|name|316">Existuje více než jedna položka</entry>
 <entry key="expression|name|317">'Jedná se o opakující se zadávací řízení' ((BT-94-Lot)) není 'ano'</entry>
-<entry key="expression|name|318">'Typ řízení' (BT-105-Lot) je 'Otevřené'</entry>
+<entry key="expression|name|318">'Typ řízení' (BT-105-Procedure) je 'Otevřené'</entry>
 <entry key="expression|name|319">'Organizace nebo konkrétní kontaktní bod' (OPT-301-Lot-ReviewInfo) není vyplněn</entry>
 <entry key="expression|name|32">'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752-Lot) není prázdný</entry>
 <entry key="expression|name|320">'Bude použita elektronická aukce' ((BT-767-Lot)) není 'ano'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Přístup k určité zadávací dokumentaci je omezený' (BT-14-Lot) je omezen</entry>
 <entry key="expression|name|43">'Je požadována záruka' (BT-751-Lot) není 'ano'</entry>
 <entry key="expression|name|44">'Typ řízení' (BT-105) je jedním z následujících: 'Soutěžní dialog'; 'Inovační partnerství'; 'Jednací řízení s uveřejněním / jednací řízení'; 'Jednací řízení bez uveřejnění'; 'Jiné vícefázové řízení'; 'Jiné jednofázové řízení'; 'Užší'</entry>
-<entry key="expression|name|45">'Typ řízení' (BT-105-Lot) je 'Otevřené'</entry>
-<entry key="expression|name|46">'Typ řízení' (BT-105-Lot) je 'Otevřené'</entry>
-<entry key="expression|name|47">'Typ řízení' (BT-105-Lot) je 'Otevřené'</entry>
-<entry key="expression|name|48">'Typ řízení' (BT-105-Lot) není 'Otevřené'</entry>
-<entry key="expression|name|49">'Typ řízení' (BT-105-Lot) není 'Otevřené'</entry>
+<entry key="expression|name|45">'Typ řízení' (BT-105-Procedure) je 'Otevřené'</entry>
+<entry key="expression|name|46">'Typ řízení' (BT-105-Procedure) je 'Otevřené'</entry>
+<entry key="expression|name|47">'Typ řízení' (BT-105-Procedure) je 'Otevřené'</entry>
+<entry key="expression|name|48">'Typ řízení' (BT-105-Procedure) není 'Otevřené'</entry>
+<entry key="expression|name|49">'Typ řízení' (BT-105-Procedure) není 'Otevřené'</entry>
 <entry key="expression|name|5">'Země' je vyplněn</entry>
-<entry key="expression|name|50">'Typ řízení' (BT-105-Lot) není 'Otevřené'</entry>
+<entry key="expression|name|50">'Typ řízení' (BT-105-Procedure) není 'Otevřené'</entry>
 <entry key="expression|name|500">'Právní základ' (BT-01(e)-Procedure) není vyplněn</entry>
 <entry key="expression|name|501">'Typ' (BT-539-Lot) není vyplněn</entry>
 <entry key="expression|name|502">'Typ' (BT-539-LotsGroup) není vyplněn</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Pole bude zveřejněno později' (BT-195(BT-636)-LotResult) není vyplněn</entry>
 <entry key="expression|name|507">'Typ řízení' (BT-105) není 'Inovační partnerství' nebo 'Soutěžní dialog'</entry>
 <entry key="expression|name|509">'Typ řízení' (BT-105) není 'Inovační partnerství' nebo 'Soutěžní dialog'; 'Hodnota ceny' (BT-644) není vyplněn</entry>
-<entry key="expression|name|51">'Typ řízení' (BT-105-Lot) není 'Otevřené'</entry>
+<entry key="expression|name|51">'Typ řízení' (BT-105-Procedure) není 'Otevřené'</entry>
 <entry key="expression|name|510">'Datum odeslání oznámení (eSender)' (BT-803(d)-notice) není vyplněn</entry>
 <entry key="expression|name|511">'Požaduje se dohoda o zachování mlčenlivosti' (BT-801) je 'ne'</entry>
 <entry key="expression|name|512">'Identifikátor finančních prostředků EU' (BT-5011) a 'Název projektu nebo programu financovaného EU' (BT-722) nejsou vyplněny</entry>

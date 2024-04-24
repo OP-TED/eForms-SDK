@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Lauks publicēšanai vēlāk' (BT-195(BT-88)-Procedure) nav aizpildīta</entry>
 <entry key="expression|name|316">Ir vairāk nekā 1 daļa</entry>
 <entry key="expression|name|317">'Šis ir kārtējs iepirkums' ((BT-94-Lot)) nav 'jā'</entry>
-<entry key="expression|name|318">'Procedūras veids' (BT-105-Lot) ir 'Atklāta'</entry>
+<entry key="expression|name|318">'Procedūras veids' (BT-105-Procedure) ir 'Atklāta'</entry>
 <entry key="expression|name|319">'Organizācija vai konkrēts kontaktpunkts' (OPT-301-Lot-ReviewInfo) nav aizpildīta</entry>
 <entry key="expression|name|32">'Atlases kritēriji – otrais posms – uzaicinājuma skaitlis' (BT-752-Lot) nav tukša</entry>
 <entry key="expression|name|320">'Tiek izmantota elektroniska izsole' ((BT-767-Lot)) nav 'jā'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Piekļuve konkrētiem iepirkuma procedūras dokumentiem ir ierobežota' (BT-14-Lot) ir ierobežota</entry>
 <entry key="expression|name|43">'Tiek prasīts nodrošinājums' (BT-751-Lot) nav 'jā'</entry>
 <entry key="expression|name|44">'Procedūras veids' (BT-105) ir viens no šādiem variantiem: 'Konkursa dialogs'; 'Inovācijas partnerība'; 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'; 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas'; 'Cita daudzpakāpju procedūra';'Cita vienpakāpes procedūra';'Slēgta'</entry>
-<entry key="expression|name|45">'Procedūras veids' (BT-105-Lot) ir 'Atklāta'</entry>
-<entry key="expression|name|46">'Procedūras veids' (BT-105-Lot) ir 'Atklāta'</entry>
-<entry key="expression|name|47">'Procedūras veids' (BT-105-Lot) ir 'Atklāta'</entry>
-<entry key="expression|name|48">'Procedūras veids' (BT-105-Lot) nav 'Atklāta'</entry>
-<entry key="expression|name|49">'Procedūras veids' (BT-105-Lot) nav 'Atklāta'</entry>
+<entry key="expression|name|45">'Procedūras veids' (BT-105-Procedure) ir 'Atklāta'</entry>
+<entry key="expression|name|46">'Procedūras veids' (BT-105-Procedure) ir 'Atklāta'</entry>
+<entry key="expression|name|47">'Procedūras veids' (BT-105-Procedure) ir 'Atklāta'</entry>
+<entry key="expression|name|48">'Procedūras veids' (BT-105-Procedure) nav 'Atklāta'</entry>
+<entry key="expression|name|49">'Procedūras veids' (BT-105-Procedure) nav 'Atklāta'</entry>
 <entry key="expression|name|5">'Valsts' ir aizpildīta</entry>
-<entry key="expression|name|50">'Procedūras veids' (BT-105-Lot) nav 'Atklāta'</entry>
+<entry key="expression|name|50">'Procedūras veids' (BT-105-Procedure) nav 'Atklāta'</entry>
 <entry key="expression|name|500">'Juridiskais pamats' (BT-01(e)-Procedure) nav aizpildīta</entry>
 <entry key="expression|name|501">'Veids' (BT-539-Lot) nav aizpildīta</entry>
 <entry key="expression|name|502">'Veids' (BT-539-LotsGroup) nav aizpildīta</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Lauks publicēšanai vēlāk' (BT-195(BT-636)-LotResult) nav aizpildīta</entry>
 <entry key="expression|name|507">'Procedūras veids' (BT-105) nav 'Inovācijas partnerība' vai 'Konkursa dialogs'</entry>
 <entry key="expression|name|509">'Procedūras veids' (BT-105) nav 'Inovācijas partnerība' vai 'Konkursa dialogs'; 'Balvas vērtība' (BT-644) nav aizpildīta</entry>
-<entry key="expression|name|51">'Procedūras veids' (BT-105-Lot) nav 'Atklāta'</entry>
+<entry key="expression|name|51">'Procedūras veids' (BT-105-Procedure) nav 'Atklāta'</entry>
 <entry key="expression|name|510">'Paziņojuma nosūtīšanas datums (e- sūtītājs)' (BT-803(d)-notice) nav aizpildīta</entry>
 <entry key="expression|name|511">'Tiek prasīts informācijas neizpaušanas līgums' (BT-801) ir 'nē'</entry>
 <entry key="expression|name|512">'ES finansējuma identifikators' (BT-5011) un 'ES finansētā projekta vai programmas nosaukums' (BT-722) nav aizpildītas</entry>

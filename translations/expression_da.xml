@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-88)-Procedure) er ikke udfyldt</entry>
 <entry key="expression|name|316">Der er mere end 1 parti</entry>
 <entry key="expression|name|317">'Dette er et tilbagevendende udbud' ((BT-94-Lot)) er ikke 'ja'</entry>
-<entry key="expression|name|318">'Type af procedure' (BT-105-Lot) er 'Åben'</entry>
+<entry key="expression|name|318">'Type af procedure' (BT-105-Procedure) er 'Åben'</entry>
 <entry key="expression|name|319">'Organisation eller specifikt kontaktpunkt' (OPT-301-Lot-ReviewInfo) er ikke udfyldt</entry>
 <entry key="expression|name|32">'Udvælgelseskriterier anden fase opfordringsnummer' (BT-752-Lot) er ikke tom</entry>
 <entry key="expression|name|320">'Der anvendes elektronisk auktion' ((BT-767-Lot)) er ikke 'ja'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Adgangen til visse udbudsdokumenter er begrænset' (BT-14-Lot) er begrænset</entry>
 <entry key="expression|name|43">'Der kræves en garanti' (BT-751-Lot) er ikke 'ja'</entry>
 <entry key="expression|name|44">'Type af procedure' (BT-105) er en af følgende: 'Konkurrencepræget dialog'; 'Innovationspartnerskab'; 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'; 'Udbud med forhandling uden forudgående offentliggørelse'; 'Anden procedure, der afvikles i flere faser'; 'Anden procedure, der afvikles i to faser'; 'Begrænset'</entry>
-<entry key="expression|name|45">'Type af procedure' (BT-105-Lot) er 'Åben'</entry>
-<entry key="expression|name|46">'Type af procedure' (BT-105-Lot) er 'Åben'</entry>
-<entry key="expression|name|47">'Type af procedure' (BT-105-Lot) er 'Åben'</entry>
-<entry key="expression|name|48">'Type af procedure' (BT-105-Lot) er ikke 'Åben'</entry>
-<entry key="expression|name|49">'Type af procedure' (BT-105-Lot) er ikke 'Åben'</entry>
+<entry key="expression|name|45">'Type af procedure' (BT-105-Procedure) er 'Åben'</entry>
+<entry key="expression|name|46">'Type af procedure' (BT-105-Procedure) er 'Åben'</entry>
+<entry key="expression|name|47">'Type af procedure' (BT-105-Procedure) er 'Åben'</entry>
+<entry key="expression|name|48">'Type af procedure' (BT-105-Procedure) er ikke 'Åben'</entry>
+<entry key="expression|name|49">'Type af procedure' (BT-105-Procedure) er ikke 'Åben'</entry>
 <entry key="expression|name|5">'Land' er udfyldt</entry>
-<entry key="expression|name|50">'Type af procedure' (BT-105-Lot) er ikke 'Åben'</entry>
+<entry key="expression|name|50">'Type af procedure' (BT-105-Procedure) er ikke 'Åben'</entry>
 <entry key="expression|name|500">'Retsgrundlag' (BT-01(e)-Procedure) er ikke udfyldt</entry>
 <entry key="expression|name|501">'Type' (BT-539-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|502">'Type' (BT-539-LotsGroup) er ikke udfyldt</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-636)-LotResult) er ikke udfyldt</entry>
 <entry key="expression|name|507">'Type af procedure' (BT-105) er ikke 'Innovationspartnerskab' eller 'Konkurrencepræget dialog'</entry>
 <entry key="expression|name|509">'Type af procedure' (BT-105) er ikke 'Innovationspartnerskab' eller 'Konkurrencepræget dialog'; 'Præmiens værdi' (BT-644) er ikke udfyldt</entry>
-<entry key="expression|name|51">'Type af procedure' (BT-105-Lot) er ikke 'Åben'</entry>
+<entry key="expression|name|51">'Type af procedure' (BT-105-Procedure) er ikke 'Åben'</entry>
 <entry key="expression|name|510">'Dato for afsendelse af bekendtgørelse (eSender)' (BT-803(d)-notice) er ikke udfyldt</entry>
 <entry key="expression|name|511">'Der kræves en fortrolighedsaftale' (BT-801) er 'nej'</entry>
 <entry key="expression|name|512">'Identifikator for EU-støtte' (BT-5011) og 'Navn på EU-finansieret projekt eller program' (BT-722) er ikke udfyldt</entry>

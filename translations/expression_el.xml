@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Πεδίο προς δημοσίευση αργότερα' (BT-195(BT-88)-Procedure) δεν συμπληρώνεται</entry>
 <entry key="expression|name|316">Υπάρχουν περισσότερες από μια παρτίδες</entry>
 <entry key="expression|name|317">'Πρόκειται για επαναλαμβανόμενη διαδικασία δημοσίων συμβάσεων' ((BT-94-Lot)) δεν είναι 'ναι'</entry>
-<entry key="expression|name|318">'Είδος διαδικασίας' (BT-105-Lot) είναι 'Ανοικτή'</entry>
+<entry key="expression|name|318">'Είδος διαδικασίας' (BT-105-Procedure) είναι 'Ανοικτή'</entry>
 <entry key="expression|name|319">'Οργανισμός ή συγκεκριμένο σημείο επαφής' (OPT-301-Lot-ReviewInfo) δεν συμπληρώνεται</entry>
 <entry key="expression|name|32">'Αριθμός σχετικός με την πρόσκληση σε δεύτερο στάδιο βάσει κριτηρίων επιλογής' (BT-752-Lot) δεν είναι κενό</entry>
 <entry key="expression|name|320">'Χρησιμοποιείται ηλεκτρονικός πλειστηριασμός' ((BT-767-Lot)) δεν είναι 'ναι'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Η πρόσβαση σε ορισμένα έγγραφα της σύμβασης είναι περιορισμένη' (BT-14-Lot) είναι περιορισμένα</entry>
 <entry key="expression|name|43">'Απαιτείται εγγύηση' (BT-751-Lot) δεν είναι 'ναι'</entry>
 <entry key="expression|name|44">'Είδος διαδικασίας' (BT-105) είναι ένα από τα ακόλουθα: 'Ανταγωνιστικός διάλογος', 'Σύμπραξη καινοτομίας', 'Με διαπραγμάτευση με προηγούμενη δημοσίευση προκήρυξης διαγωνισμού/ανταγωνιστική διαδικασία με διαπραγμάτευση', 'Με διαπραγμάτευση χωρίς προηγούμενη δημοσίευση προκήρυξης διαγωνισμού', 'Άλλη διαδικασία πολλών σταδίων', 'Άλλη διαδικασία ενός σταδίου', 'Κλειστή'</entry>
-<entry key="expression|name|45">'Είδος διαδικασίας' (BT-105-Lot) είναι 'Ανοικτή'</entry>
-<entry key="expression|name|46">'Είδος διαδικασίας' (BT-105-Lot) είναι 'Ανοικτή'</entry>
-<entry key="expression|name|47">'Είδος διαδικασίας' (BT-105-Lot) είναι 'Ανοικτή'</entry>
-<entry key="expression|name|48">'Είδος διαδικασίας' (BT-105-Lot) δεν είναι 'Ανοικτή'</entry>
-<entry key="expression|name|49">'Είδος διαδικασίας' (BT-105-Lot) δεν είναι 'Ανοικτή'</entry>
+<entry key="expression|name|45">'Είδος διαδικασίας' (BT-105-Procedure) είναι 'Ανοικτή'</entry>
+<entry key="expression|name|46">'Είδος διαδικασίας' (BT-105-Procedure) είναι 'Ανοικτή'</entry>
+<entry key="expression|name|47">'Είδος διαδικασίας' (BT-105-Procedure) είναι 'Ανοικτή'</entry>
+<entry key="expression|name|48">'Είδος διαδικασίας' (BT-105-Procedure) δεν είναι 'Ανοικτή'</entry>
+<entry key="expression|name|49">'Είδος διαδικασίας' (BT-105-Procedure) δεν είναι 'Ανοικτή'</entry>
 <entry key="expression|name|5">'Χώρα' συμπληρώνεται</entry>
-<entry key="expression|name|50">'Είδος διαδικασίας' (BT-105-Lot) δεν είναι 'Ανοικτή'</entry>
+<entry key="expression|name|50">'Είδος διαδικασίας' (BT-105-Procedure) δεν είναι 'Ανοικτή'</entry>
 <entry key="expression|name|500">'Νομική βάση' (BT-01(e)-Procedure) δεν συμπληρώνεται</entry>
 <entry key="expression|name|501">'Είδος' (BT-539-Lot) δεν συμπληρώνεται</entry>
 <entry key="expression|name|502">'Είδος' (BT-539-LotsGroup) δεν συμπληρώνεται</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Πεδίο προς δημοσίευση αργότερα' (BT-195(BT-636)-LotResult) δεν συμπληρώνεται</entry>
 <entry key="expression|name|507">'Είδος διαδικασίας' (BT-105) δεν είναι 'Σύμπραξη καινοτομίας' ή 'Ανταγωνιστικός διάλογος'</entry>
 <entry key="expression|name|509">'Είδος διαδικασίας' (BT-105) δεν είναι 'Σύμπραξη καινοτομίας' ή 'Ανταγωνιστικός διάλογος', 'Αξία του βραβείου' (BT-644) δεν συμπληρώνεται</entry>
-<entry key="expression|name|51">'Είδος διαδικασίας' (BT-105-Lot) δεν είναι 'Ανοικτή'</entry>
+<entry key="expression|name|51">'Είδος διαδικασίας' (BT-105-Procedure) δεν είναι 'Ανοικτή'</entry>
 <entry key="expression|name|510">'Ημερομηνία αποστολής προκήρυξης/γνωστοποίησης (από τον eSender)' (BT-803(d)-notice) δεν συμπληρώνεται</entry>
 <entry key="expression|name|511">'Απαιτείται συμφωνία τήρησης του απορρήτου' (BT-801) είναι 'όχι'</entry>
 <entry key="expression|name|512">'Αναγνωριστικός κωδικός των ταμείων της ΕΕ' (BT-5011) και 'Ονομασία του χρηματοδοτούμενου από την ΕΕ έργου ή προγράμματος' (BT-722) δεν συμπληρώνονται</entry>

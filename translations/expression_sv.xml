@@ -240,7 +240,7 @@
 <entry key="expression|name|315">'Fält som ska publiceras senare' (BT-195(BT-88)-Procedure) fylls inte i</entry>
 <entry key="expression|name|316">Det finns fler än en del</entry>
 <entry key="expression|name|317">'Det här är en återkommande upphandling' ((BT-94-Lot)) är inte 'ja'</entry>
-<entry key="expression|name|318">'Typ av förfarande' (BT-105-Lot) är 'Öppet'</entry>
+<entry key="expression|name|318">'Typ av förfarande' (BT-105-Procedure) är 'Öppet'</entry>
 <entry key="expression|name|319">'Organisation eller specifik kontakt punkt' (OPT-301-Lot-ReviewInfo) fylls inte i</entry>
 <entry key="expression|name|32">'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot) är inte tomt</entry>
 <entry key="expression|name|320">'En elektronisk auktion används' ((BT-767-Lot)) är inte 'ja'</entry>
@@ -329,13 +329,13 @@
 <entry key="expression|name|42">'Åtkomsten till vissa upphandlingsdokument är begränsad' (BT-14-Lot) begränsas</entry>
 <entry key="expression|name|43">'En garanti krävs' (BT-751-Lot) är inte 'ja'</entry>
 <entry key="expression|name|44">'Typ av förfarande' (BT-105) är ett av följande: 'Konkurrenspräglad dialog'; 'Innovationspartnerskap'; 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'; 'Förhandlat förfarande utan föregående meddelande om upphandling'; 'Annat förfarande i flera steg'; 'Annat förfarande i ett steg'; 'Selektivt'</entry>
-<entry key="expression|name|45">'Typ av förfarande' (BT-105-Lot) är 'Öppet'</entry>
-<entry key="expression|name|46">'Typ av förfarande' (BT-105-Lot) är 'Öppet'</entry>
-<entry key="expression|name|47">'Typ av förfarande' (BT-105-Lot) är 'Öppet'</entry>
-<entry key="expression|name|48">'Typ av förfarande' (BT-105-Lot) är inte 'Öppet'</entry>
-<entry key="expression|name|49">'Typ av förfarande' (BT-105-Lot) är inte 'Öppet'</entry>
+<entry key="expression|name|45">'Typ av förfarande' (BT-105-Procedure) är 'Öppet'</entry>
+<entry key="expression|name|46">'Typ av förfarande' (BT-105-Procedure) är 'Öppet'</entry>
+<entry key="expression|name|47">'Typ av förfarande' (BT-105-Procedure) är 'Öppet'</entry>
+<entry key="expression|name|48">'Typ av förfarande' (BT-105-Procedure) är inte 'Öppet'</entry>
+<entry key="expression|name|49">'Typ av förfarande' (BT-105-Procedure) är inte 'Öppet'</entry>
 <entry key="expression|name|5">'Land' fylls i</entry>
-<entry key="expression|name|50">'Typ av förfarande' (BT-105-Lot) är inte 'Öppet'</entry>
+<entry key="expression|name|50">'Typ av förfarande' (BT-105-Procedure) är inte 'Öppet'</entry>
 <entry key="expression|name|500">'Rättslig grund' (BT-01(e)-Procedure) fylls inte i</entry>
 <entry key="expression|name|501">'Typ' (BT-539-Lot) fylls inte i</entry>
 <entry key="expression|name|502">'Typ' (BT-539-LotsGroup) fylls inte i</entry>
@@ -345,7 +345,7 @@
 <entry key="expression|name|506">'Fält som ska publiceras senare' (BT-195(BT-636)-LotResult) fylls inte i</entry>
 <entry key="expression|name|507">'Typ av förfarande' (BT-105) är inte 'Innovationspartnerskap' eller 'Konkurrenspräglad dialog'</entry>
 <entry key="expression|name|509">'Typ av förfarande' (BT-105) är inte 'Innovationspartnerskap' eller 'Konkurrenspräglad dialog'; 'Värde av priset' (BT-644) fylls inte i</entry>
-<entry key="expression|name|51">'Typ av förfarande' (BT-105-Lot) är inte 'Öppet'</entry>
+<entry key="expression|name|51">'Typ av förfarande' (BT-105-Procedure) är inte 'Öppet'</entry>
 <entry key="expression|name|510">'Datum för avsändning av meddelandet (eSender)' (BT-803(d)-notice) fylls inte i</entry>
 <entry key="expression|name|511">'Sekretessavtal krävs' (BT-801) är 'nej'</entry>
 <entry key="expression|name|512">'Identifierare för EU-medel' (BT-5011) och 'Namnet på det EU-finansierade projektet eller programmet' (BT-722) fylls inte i</entry>
