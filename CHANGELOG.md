@@ -1,3 +1,20 @@
+# SDK 1.8.3 Release Notes
+
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* Removed rules that required the participation request deadline (BT-1311(d)-Lot) to match the end of the DPS.
+* Allow change notices with "cancel-intent" to be submitted after the tender deadline has passed.
+* Allow change notices to have a dispatch date (BT-05(a)-notice) that is after the "Future Notice" date (BT-127-notice).
+* Allow change notices to have a dispatch date (BT-05(a)-notice) that is after the "Deadline Receipt Expressions" (BT-630(d)-Lot).
+* Corrected various rules to allow information on framework agreements in contract modification notices (subtypes 38 and 39).
+* Removed rule requiring "Notice Framework Maximum Value" (BT-118-NoticeResult) to be the sum of the corresponding values in each lot.
+
+This release also includes updated translations and updated notice visualisation templates.
+
+A comprehensive list of changes between SDK 1.8.2 and SDK 1.8.3 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.8.2...1.8.3>
+
+You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?version=1.8.3&base=1.8.2>
+
 # SDK 1.8.2 Release Notes
 
 This release brings the following corrections in the validation rules, making them more permissive:
