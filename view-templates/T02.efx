@@ -121,13 +121,12 @@
 				{OPT-320-LotResult[count(for text:$tender1 in OPT-320-LotResult, text:$tpa1 in OPT-310-Tender[OPT-321-Tender == $tender1], text:$orgid1 in (OPT-300-Tenderer[OPT-170-Tenderer[OPT-210-Tenderer == $tpa1] == TRUE]), text:$org1 in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid1] return $org1)>0]} #{field|name|BT-500-Organization-Company}: ${for text:$tender2 in OPT-320-LotResult, text:$tpa2 in OPT-310-Tender[OPT-321-Tender == $tender2], text:$orgid2 in (OPT-300-Tenderer[OPT-170-Tenderer[OPT-210-Tenderer == $tpa2] == FALSE]), text:$org2 in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid2] return $org2} // Names of non-leaders for this non-winning tenderer
 				{OPT-320-LotResult[count(for text:$tender1 in OPT-320-LotResult, text:$tpa1 in OPT-310-Tender[OPT-321-Tender == $tender1], text:$orgid1 in (OPT-300-Tenderer[OPT-210-Tenderer[OPT-170-Tenderer is not present] == $tpa1]), text:$org1 in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid1] return $org1)>0]} #{field|name|BT-500-Organization-Company}: ${for text:$tender2 in OPT-320-LotResult, text:$tpa2 in OPT-310-Tender[OPT-321-Tender == $tender2], text:$orgid2 in (OPT-300-Tenderer[OPT-210-Tenderer[OPT-170-Tenderer is not present] == $tpa2]), text:$org2 in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid2] return $org2} // Names of this non-winning tenderer (single organisation in Tendering Party)
 7 {ND-Root[BT-1501(n)-Contract is present]} #{auxiliary|text|modification} // 7. Modifications
-	1 {ND-ContractModification} #{auxiliary|text|modification} // Modification
 	{BT-1501(n)-Contract} #{field|name|BT-1501(n)-Contract}: ${BT-1501(n)-Contract} // Modification Previous Notice Identifier
 	{BT-200-Contract} #{field|name|BT-200-Contract}: #{BT-200-Contract} // Modification Reason Code
 	{BT-201-Contract} #{field|name|BT-201-Contract}: ${BT-201-Contract} // Modification Reason Description
-		1 {ND-Modification} #{auxiliary|text|change} // Modification
+	1 {ND-Modification} #{auxiliary|text|modification} // Modification
+		{BT-1501(s)-Contract} #{field|name|BT-1501(s)-Contract}: ${BT-1501(s)-Contract} // Modification Previous Notice Section Identifier
 		{BT-202-Contract} #{field|name|BT-202-Contract}: ${BT-202-Contract} // Modification Previous Notice Section Identifier
-			{BT-1501(p)-Contract} #{field|name|BT-1501(p)-Contract}: ${BT-1501(p)-Contract} // Modified Notice Part Reference
 8 {ND-Root} #{auxiliary|text|organisations} // 8. Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
 		{ND-Organization} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name

@@ -224,7 +224,6 @@
 					0 {BT-723-LotResult} #{field|name|BT-723-LotResult}: #value // The category of vehicle falling within the scope of Directive 2009/33/EC.
 						{OPT-155-LotResult} #{OPT-155-LotResult}: ${format-number(OPT-156-LotResult, '###,##0')} // Vehicle category and number
 7 {ND-Root[BT-1501(n)-Contract is present]} #{auxiliary|text|modification} // 7. Modifications
-	1 {ND-ContractModification} #{auxiliary|text|modification} // Modification
 	{BT-1501(n)-Contract} #{field|name|BT-1501(n)-Contract}: ${BT-1501(n)-Contract} // Modification Previous Notice Identifier
 	{BT-200-Contract} #{field|name|BT-200-Contract}: #{BT-200-Contract} // Modification Reason Code
 	{BT-201-Contract} #{field|name|BT-201-Contract}: ${BT-201-Contract} // Modification Reason Description
