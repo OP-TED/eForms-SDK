@@ -77,7 +77,7 @@
 			0 {BT-137-Part[(BT-632-Part is present) or (BT-124-Part is present)]} #{auxiliary|text|adhoc-communication} // Ad hoc communication channel
 				{BT-632-Part} #{field|name|BT-632-Part}: ${BT-632-Part} // Tool Name (Part)
 				{BT-124-Part} #{field|name|BT-124-Part}: ${BT-124-Part} // Tool Atypical URL (Part)
-		7 {ND-PartReservedExecution[BT-736-Part is present]} #{auxiliary|text|procurement-terms} // 3.1.7 Procurement Terms (PART)
+		7 {BT-137-Part[BT-736-Part is present]} #{auxiliary|text|procurement-terms} // 3.1.7 Procurement Terms (PART)
 			{BT-736-Part} #{field|name|BT-736-Part}: #{BT-736-Part} // Reserved Execution (PART)
 		8 {ND-PartTenderingProcess[(BT-765-Part is present) or (BT-766-Part is present)]} #{auxiliary|text|techniques} // 3.1.8 Techniques
 			0 {ND-PartTenderingProcess[BT-765-Part is present]} #{auxiliary|text|framework-agreement}: // Information about framework agreement (PART)
