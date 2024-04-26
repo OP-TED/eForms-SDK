@@ -4,7 +4,7 @@
 	0 {ND-Root} #{auxiliary|text|legal-basis}: // Legal basis
 		{BT-01-notice} #{BT-01-notice} // Regulation reference
 		{OPP-100-Business} #{name|OPP-100}: #{OPP-100-Business} // This notice contains information relevant to
-	1 {BT-500-Business} #{auxiliary|text|company} // 9.1 Name and address of the company-society
+	1 {ND-Root} #{auxiliary|text|company} // 9.1 Name and address of the company-society
 		{BT-500-Business} #{name|BT-500}: ${BT-500-Business} // Official name
 		{BT-501-Business-National} #{name|BT-501}: ${BT-501-Business-National} // Identifier of the organisation
 		{BT-510(a)-Business} #{name|BT-510}: ${BT-510(a)-Business} ${BT-510(b)-Business} ${BT-510(c)-Business} // Postal address
