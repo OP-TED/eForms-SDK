@@ -5,7 +5,7 @@
       <ShortName>IrregularityType</ShortName>
       <LongName>irregularity-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/irregularity-type</LongName>
-      <Version>20230927-0</Version>
+      <Version>20240207-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/irregularity-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -653,7 +653,7 @@
             <SimpleValue>Sutarties elementų, nustatytų skelbime apie pirkimą arba konkurso specifikacijose, pakeitimai neatitinka galiojančių taisyklių</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Paziņojumā par līgumu vai piedāvājuma specifikācijās noteikto līguma elementu pārveidojumi, kas neatbilst attiecīgajiem noteikumiem</SimpleValue>
+            <SimpleValue>Paziņojumā par līgumu vai iepirkuma specifikācijās noteikto līguma elementu pārveidojumi, kas neatbilst attiecīgajiem noteikumiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Modifika tal-elementi tal-kuntratt stabbiliti fl-avviż tal-kuntratt jew fl-ispeċifikazzjonijiet tekniċi, li mhumiex konformi mar-regoli rilevanti</SimpleValue>
@@ -1245,79 +1245,79 @@
             <SimpleValue>nc-proc-eap</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Non-compliance with the procedure established in the Directive for electronic and aggregated procurement</SimpleValue>
+            <SimpleValue>Non-compliance with the procedure for electronic and aggregated procurement</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Неспазване на процедурата за електронните и комбинираните поръчки, установена в Директивата</SimpleValue>
+            <SimpleValue>Неспазване на процедурата за възлагане на електронни и комбинирани обществени поръчки</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nedodržení postupu stanoveného ve směrnici pro elektronické a souhrnné zadávání veřejných zakázek</SimpleValue>
+            <SimpleValue>Nedodržení postupu pro elektronické a souhrnné zadávání veřejných zakázek</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Manglende overholdelse af proceduren i direktivet om elektronisk og aggregeret indkøb</SimpleValue>
+            <SimpleValue>Manglende overholdelse af proceduren for elektroniske og samlede udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Verstoß gegen das Vefahren, das in der Richtlinie für die elektronische Auftragsvergabe und für Sammelbeschaffungen vorgesehen ist</SimpleValue>
+            <SimpleValue>Verstoß gegen das Verfahren für die elektronische Auftragsvergabe und für Sammelbeschaffungen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Μη συμμόρφωση με τη διαδικασία που προβλέπει η οδηγία για τις ηλεκτρονικές και συγκεντρωτικές διαδικασίες σύναψης συμβάσεων</SimpleValue>
+            <SimpleValue>Μη συμμόρφωση με τη διαδικασία ηλεκτρονικών και συγκεντρωτικών δημόσιων συμβάσεων</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Non-compliance with the procedure established in the Directive for electronic and aggregated procurement</SimpleValue>
+            <SimpleValue>Non-compliance with the procedure for electronic and aggregated procurement</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>No conformidad con el procedimiento establecido en la Directiva para la contratación electrónica y agregada</SimpleValue>
+            <SimpleValue>No conformidad con el procedimiento para la contratación electrónica y agregada</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Direktiiviga kehtestatud elektroonilise või koondhankemenetluse rikkumine</SimpleValue>
+            <SimpleValue>Elektroonilise või koondhankemenetluse rikkumine</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Sähköisiä ja yhdistettyjä hankintoja koskevassa direktiivissä vahvistetun menettelyn noudattamatta jättäminen</SimpleValue>
+            <SimpleValue>Sähköisiä ja yhdistettyjä hankintoja koskevan menettelyn noudattamatta jättäminen</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Non-respect de la procédure établie dans la directive pour les marchés électroniques et aggrégés</SimpleValue>
+            <SimpleValue>Non-respect de la procédure de passation de marchés électroniques et agrégés</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Neamhchomhlíonadh an nós imeachta a leagtar síos sa Treoir maidir leis an soláthar leictreonach agus comhiomlánaithe</SimpleValue>
+            <SimpleValue>Neamhchomhlíonadh an nós imeachta maidir le soláthar leictreonach agus comhiomlánaithe</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Nesukladnost s postupkom utvrđenim u Direktivi za elektroničku i zbirnu nabavu</SimpleValue>
+            <SimpleValue>Nesukladnost s postupkom za elektroničku i zbirnu nabavu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Az elektronikus és az összetett beszerzésre vonatkozóan az irányelvben meghatározott eljárás be nem tartása</SimpleValue>
+            <SimpleValue>Az elektronikus és az összetett beszerzésre vonatkozó eljárás be nem tartása</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Inosservanza della procedura stabilita nella direttiva per gli appalti elettronici e aggregati</SimpleValue>
+            <SimpleValue>Inosservanza della procedura per gli appalti elettronici e aggregati</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Direktyvoje nustatytos elektroninių ir grupinių pirkimų procedūros nesilaikymas</SimpleValue>
+            <SimpleValue>Elektroninių ir grupinių pirkimų procedūros nesilaikymas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Neatbilstība procedūrai, kas direktīvā noteikta attiecībā uz elektronisko un apvienoto iepirkumu</SimpleValue>
+            <SimpleValue>Neatbilstība elektroniskā un apvienotā iepirkuma procedūrai</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Nuqqas ta’ konformità mal-proċedura stabbilita fid-Direttiva dwar l-akkwist elettroniku u aggregat</SimpleValue>
+            <SimpleValue>Nuqqas ta’ konformità mal-proċedura dwar l-akkwist elettroniku u aggregat</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Niet-naleving van de in de richtlijn vastgestelde procedure voor elektronische en samengestelde aanbesteding</SimpleValue>
+            <SimpleValue>Niet-naleving van de procedure voor elektronische en samengestelde aanbesteding</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Nieprzestrzeganie procedury ustanowionej w dyrektywie w odniesieniu do zamówień elektronicznych i zagregowanych</SimpleValue>
+            <SimpleValue>Niezgodność z procedurami w zakresie zamówień elektronicznych i zagregowanych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Não cumprimento do procedimento estabelecido na diretiva sobre a contratação pública eletrónica e agregada</SimpleValue>
+            <SimpleValue>Incumprimento dos procedimentos para a contratação pública eletrónica e agregada</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Nerespectarea procedurii stabilite în Directiva privind achizițiile electronice și agregate</SimpleValue>
+            <SimpleValue>Nerespectarea procedurii pentru achizițiile electronice și agregate</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nedodržanie postupu stanoveného v smernici o elektronickom a hromadnom obstarávaní</SimpleValue>
+            <SimpleValue>Nedodržanie postupu elektronického a súhrnného obstarávania</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Neupoštevanje postopka, določenega v direktivi za elektronska in skupna javna naročila</SimpleValue>
+            <SimpleValue>Neupoštevanje postopka za elektronsko in skupno javno naročanje</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Förfarandet i direktivet för elektronisk och gemensam upphandling har inte följts</SimpleValue>
+            <SimpleValue>Åsidosättande av bestämmelser om elektroniska metoder eller samordnad upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>

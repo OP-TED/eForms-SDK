@@ -6,7 +6,7 @@
       <LongName>contract-term</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/contract-detail</LongName>
       <LongName Identifier="eFormsParentId">contract-detail</LongName>
-      <Version>1.11.0</Version>
+      <Version>1.11.166</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -177,7 +177,7 @@
             <SimpleValue>Izmaksu parametri attiecībā uz kompensāciju maksājumiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Il-parametri tal-ispejjeż biex isiru l-ħlasijiet ta' kumpens</SimpleValue>
+            <SimpleValue>Il-parametri tal-ispejjeż biex isiru l-ħlasijiet ta’ kumpens</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Parameters voor kosten voor compensaties</SimpleValue>
@@ -198,7 +198,7 @@
             <SimpleValue>Stroškovni parametri za nadomestila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kostnadsparametrar för betalningar av kompensation</SimpleValue>
+            <SimpleValue>Kriterier för beräkning av ersättningen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -257,7 +257,7 @@
             <SimpleValue>Piešķirtas ekskluzīvas tiesības</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Qegħdin jingħataw drittijiet esklussivi</SimpleValue>
+            <SimpleValue>Qegħdin jingħataw drittijiet esklussiv</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Exclusieve rechten zijn toegekend</SimpleValue>
@@ -289,76 +289,76 @@
             <SimpleValue>Other</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Други специфични условия</SimpleValue>
+            <SimpleValue>Други</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Další zvláštní podmínky</SimpleValue>
+            <SimpleValue>Jiný</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Andre særlige vilkår</SimpleValue>
+            <SimpleValue>Andre</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Sonstige besondere Bedingungen</SimpleValue>
+            <SimpleValue>Sonstiges</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Άλλοι ειδικοί όροι</SimpleValue>
+            <SimpleValue>Άλλη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Other particular conditions</SimpleValue>
+            <SimpleValue>Other</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Otras condiciones particulares</SimpleValue>
+            <SimpleValue>Otras</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Muud eritingimused</SimpleValue>
+            <SimpleValue>Muu</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Muut erityisehdot</SimpleValue>
+            <SimpleValue>Muut</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Autres conditions particulières</SimpleValue>
+            <SimpleValue>Autres</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Coinníollacha sonracha eile</SimpleValue>
+            <SimpleValue>Eile</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ostali posebni uvjeti</SimpleValue>
+            <SimpleValue>Ostali</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Egyéb különleges feltételek</SimpleValue>
+            <SimpleValue>Egyéb</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Altre condizioni particolari</SimpleValue>
+            <SimpleValue>Altre</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Kitos specifinės sąlygos</SimpleValue>
+            <SimpleValue>Kitos</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Citi konkrēti nosacījumi</SimpleValue>
+            <SimpleValue>Citi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Kundizzjonijiet partikolari oħrajn</SimpleValue>
+            <SimpleValue>Oħrajn</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Andere bijzondere voorwaarden</SimpleValue>
+            <SimpleValue>Andere</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Inne szczególne warunki</SimpleValue>
+            <SimpleValue>Inne</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Outras condições especiais</SimpleValue>
+            <SimpleValue>Outras</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Alte condiții speciale</SimpleValue>
+            <SimpleValue>Alte</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Ďalšie osobitné podmienky</SimpleValue>
+            <SimpleValue>Iná</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Drugi posebni pogoji</SimpleValue>
+            <SimpleValue>Drugo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Andra särskilda villkor</SimpleValue>
+            <SimpleValue>Annat</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -417,7 +417,7 @@
             <SimpleValue>Sabiedrisko pakalpojumu sniegšanas saistības</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-Obbligi ta' Servizz Pubbliku</SimpleValue>
+            <SimpleValue>L-Obbligi ta’ Servizz Pubbliku</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Openbaredienstverplichtingen</SimpleValue>
@@ -438,7 +438,7 @@
             <SimpleValue>Obveznosti javne službe</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Skyldigheter avseende offentliga tjänster</SimpleValue>
+            <SimpleValue>Skyldigheter avseende allmännyttiga tjänster</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -494,7 +494,7 @@
             <SimpleValue>Socialiniai standartai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Sociālie standarti</SimpleValue>
+            <SimpleValue>Sociālie standart</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Standards soċjali</SimpleValue>
@@ -518,7 +518,7 @@
             <SimpleValue>Socialni standardi</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Sociala normer</SimpleValue>
+            <SimpleValue>Sociala villkor</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
