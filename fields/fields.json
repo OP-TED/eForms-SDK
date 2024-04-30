@@ -28313,6 +28313,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "foreign-subsidies-measure-conclusion",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-682-Tender-List",
@@ -28325,7 +28332,7 @@
     "type" : "text",
     "attributeName" : "listName",
     "attributeOf" : "BT-682-Tender",
-    "presetValue" : "foreign-subsidies-measures",
+    "presetValue" : "foreign-subsidies-measure-conclusion",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
