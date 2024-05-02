@@ -3,7 +3,7 @@
 
   <groupId>eu.europa.ted.eforms</groupId>
   <artifactId>eforms-sdk</artifactId>
-  <version>1.10.1</version>
+  <version>1.10.2</version>
   <packaging>jar</packaging>
 
   <name>eForms SDK</name>
@@ -48,12 +48,12 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.build.outputTimestamp>2023-12-21T10:40:56Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2024-04-25T13:44:43Z</project.build.outputTimestamp>
 
     <sonatype.server.url>s01.oss.sonatype.org</sonatype.server.url>
 
     <!-- Versions eForms -->
-    <version.eforms-sdk-analyzer>1.10.0</version.eforms-sdk-analyzer>
+    <version.eforms-sdk-analyzer>1.10.1</version.eforms-sdk-analyzer>
 
     <!-- Versions - Plugins -->
     <version.dependency.plugin>3.5.0</version.dependency.plugin>

@@ -1,3 +1,25 @@
+# SDK 1.10.2 Release Notes
+
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* Removed rules forbidding the indication of GPA coverage (BT-115) in certain situations.
+* Removed rules that required the participation request deadline (BT-1311(d)-Lot) to match the end of the DPS.
+* Allow change notices with "cancel-intent" to be submitted after the tender deadline has passed.
+* Allow change notices to have a dispatch date (BT-05(a)-notice) that is after the "Future Notice" date (BT-127-notice).
+* Allow change notices to have a dispatch date (BT-05(a)-notice) that is after the "Deadline Receipt Expressions" (BT-630(d)-Lot).
+* Corrected various rules to allow information on framework agreements in contract modification notices (subtypes 38 and 39).
+* Corrected rules to allow various fields in VEAT notices (subtypes 25, 26 and 27).
+
+This release also includes updated translations and updated notice visualisation templates.
+
+> [!WARNING]
+> Some of the changes in view templates trigger a bug in efx-toolkit-java version 2.0.0-alpha.1 and before, causing an error when translating some templates.
+> So if your application uses the view templates and the EFX Toolkit, ensure that you're using efx-toolkit-java version 2.0.0-alpha.2 or later.
+
+A comprehensive list of changes between SDK 1.10.1 and SDK 1.10.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.10.1...1.10.2>
+
+You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?version=1.10.2&base=1.10.1>
+
 # SDK 1.10.1 Release Notes
 
 This release adds missing translations for rule messages, and adds a new label for "Change notice" with the identifier `auxiliary|text|change-notice`.
