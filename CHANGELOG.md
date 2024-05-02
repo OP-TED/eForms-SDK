@@ -1,3 +1,22 @@
+# SDK 1.7.4 Release Notes
+
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* Removed rules that required the participation request deadline (BT-1311(d)-Lot) to match the end of the DPS.
+* Allow change notices to have a dispatch date (BT-05(a)-notice) that is after the "Future Notice" date (BT-127-notice).
+* Allow change notices to have a dispatch date (BT-05(a)-notice) that is after the "Deadline Receipt Expressions" (BT-630(d)-Lot).
+* Removed rule requiring "Notice Framework Maximum Value" (BT-118-NoticeResult) to be the sum of the corresponding values in each lot.
+
+This release also includes updated translations and updated notice visualisation templates.
+
+> [!WARNING]
+> Some of the changes in view templates trigger a bug in efx-toolkit-java version 2.0.0-alpha.1 and before, causing an error when translating some templates.
+> So if your application uses the view templates and the EFX Toolkit, ensure that you're using efx-toolkit-java version 2.0.0-alpha.2 or later.
+
+A comprehensive list of changes between SDK 1.7.3 and SDK 1.7.4 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.7.3...1.7.4>
+
+You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?version=1.7.4&base=1.7.3>
+
 # SDK 1.7.3 Release Notes
 
 This release brings the following corrections in the validation rules, making them more permissive:
