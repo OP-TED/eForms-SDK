@@ -1,6 +1,6 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.9.2",
+  "sdkVersion" : "eforms-sdk-1.9.3",
   "metadataDatabase" : {
     "version" : "1.9.5",
     "createdOn" : "2023-10-05T15:56:54"
@@ -2387,7 +2387,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice in ('cancel','cancel-intent'))) or not((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
+        "value" : "{ND-Root} ${((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)) and not(BT-140-notice == 'cancel')) or not((BT-758-notice is present) and ((BT-05(a)-notice > BT-630(d)-Lot) or (BT-05(a)-notice > BT-131(d)-Lot) or (BT-05(a)-notice > BT-1311(d)-Lot)))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00005-0151"
       } ]
@@ -3147,7 +3147,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "38", "39" ],
+        "noticeTypes" : [ "25", "26", "27" ],
         "condition" : "{ND-NoticeResult} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
@@ -3162,19 +3162,9 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34", "38", "39" ],
+        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34" ],
         "value" : true,
         "severity" : "ERROR"
-      } ]
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "condition" : "{ND-NoticeResult} ${BT-118-NoticeResult is present}",
-        "value" : "{ND-NoticeResult} ${(not(BT-156-NoticeResult is present) and ((every text:$faMaxCurr in (BT-709-LotResult/@currencyID) satisfies $faMaxCurr == BT-118-NoticeResult/@currencyID) and (BT-118-NoticeResult == sum(BT-709-LotResult)))) or (BT-156-NoticeResult is present) or not(every text:$faMax in (BT-709-LotResult/@currencyID) satisfies $faMax == BT-118-NoticeResult/@currencyID)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00118-0100"
       } ]
     }
   }, {
@@ -3616,6 +3606,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
+        "condition" : "{ND-Root} ${BT-758-notice is not present}",
         "value" : "{ND-Root} ${(BT-127-notice > BT-05(a)-notice) or not(BT-127-notice is present) or not(BT-05(a)-notice is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00127-0100"
@@ -3825,7 +3816,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00131-0150"
       }, {
-        "condition" : "{ND-LotTenderingProcess} ${(BT-131(d)-Lot is present) and (BT-05(a)-notice is present)}",
+        "condition" : "{ND-LotTenderingProcess} ${(BT-131(d)-Lot is present) and (BT-05(a)-notice is present) and not(BT-758-notice is present)}",
         "value" : "{ND-LotTenderingProcess} ${BT-131(d)-Lot > BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00131-0151"
@@ -3918,11 +3909,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-LotTenderingProcess} ${(BT-766-Lot in ('dps-list', 'dps-nlist')) and (BT-537-Lot is present) and (BT-1311(d)-Lot is present) }",
-        "value" : "{ND-LotTenderingProcess} ${BT-1311(d)-Lot == BT-537-Lot}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-01311-0150"
-      }, {
         "condition" : "{ND-LotTenderingProcess} ${(BT-1311(d)-Lot is present) and (BT-130-Lot is present)}",
         "value" : "{ND-LotTenderingProcess} ${(BT-1311(d)-Lot < BT-130-Lot)}",
         "severity" : "ERROR",
@@ -26782,7 +26768,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-InterestExpressionReceptionPeriod} ${(BT-630(d)-Lot is present) and (BT-05(a)-notice is present)}",
+        "condition" : "{ND-InterestExpressionReceptionPeriod} ${(BT-630(d)-Lot is present) and (BT-05(a)-notice is present) and (BT-758-notice is not present)}",
         "value" : "{ND-InterestExpressionReceptionPeriod} ${BT-630(d)-Lot > BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00630-0150"
