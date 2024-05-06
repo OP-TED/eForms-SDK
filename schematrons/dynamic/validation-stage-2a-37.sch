@@ -107,6 +107,9 @@
 		<assert id="BR-BT-00013-0202" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-13_t_-Lot" test="count(cac:AdditionalInformationRequestPeriod/cbc:EndTime) = 0">rule|text|BR-BT-00013-0202</assert>
 		<assert id="BR-BT-00017-0046" role="ERROR" diagnostics="BT-17-Lot" test="count(cbc:SubmissionMethodCode[@listName='esubmission']) = 0">rule|text|BR-BT-00017-0046</assert>
 		<assert id="BR-BT-00052-0046" role="ERROR" diagnostics="BT-52-Lot" test="count(cbc:CandidateReductionConstraintIndicator) = 0">rule|text|BR-BT-00052-0046</assert>
+		<assert id="BR-BT-00109-0046" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-109-Lot" test="count(cac:FrameworkAgreement/cbc:Justification) = 0">rule|text|BR-BT-00109-0046</assert>
+		<assert id="BR-BT-00111-0046" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-111-Lot" test="count(cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']/cbc:Description) = 0">rule|text|BR-BT-00111-0046</assert>
+		<assert id="BR-BT-00113-0046" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-113-Lot" test="count(cac:FrameworkAgreement/cbc:MaximumOperatorQuantity) = 0">rule|text|BR-BT-00113-0046</assert>
 		<assert id="BR-BT-00115-0097" role="ERROR" diagnostics="BT-115-Lot" test="count(cbc:GovernmentAgreementConstraintIndicator) = 0">rule|text|BR-BT-00115-0097</assert>
 		<assert id="BR-BT-00124-0096" role="ERROR" diagnostics="BT-124-Lot" test="count(cbc:AccessToolsURI) = 0">rule|text|BR-BT-00124-0096</assert>
 		<assert id="BR-BT-00130-0046" role="ERROR" diagnostics="BT-130-Lot" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0">rule|text|BR-BT-00130-0046</assert>
@@ -129,12 +132,7 @@
 		<assert id="BR-BT-00051-0046" role="ERROR" diagnostics="BT-51-Lot" test="count(cbc:MaximumQuantity) = 0">rule|text|BR-BT-00051-0046</assert>
 		<assert id="BR-BT-00661-0046" role="ERROR" diagnostics="BT-661-Lot" test="count(cbc:LimitationDescription) = 0">rule|text|BR-BT-00661-0046</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement[$noticeSubType = '37']">
-		<assert id="BR-BT-00109-0046" role="ERROR" diagnostics="BT-109-Lot" test="count(cbc:Justification) = 0">rule|text|BR-BT-00109-0046</assert>
-		<assert id="BR-BT-00113-0046" role="ERROR" diagnostics="BT-113-Lot" test="count(cbc:MaximumOperatorQuantity) = 0">rule|text|BR-BT-00113-0046</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories'][$noticeSubType = '37']">
-		<assert id="BR-BT-00111-0046" role="ERROR" diagnostics="BT-111-Lot" test="count(cbc:Description) = 0">rule|text|BR-BT-00111-0046</assert>
 		<assert id="BR-OPT-00090-0097" role="ERROR" diagnostics="OPT-090-Lot" test="count(cbc:Name) = 0">rule|text|BR-OPT-00090-0097</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent[$noticeSubType = '37']">

@@ -1465,6 +1465,9 @@
 		<diagnostic id="ND-LotTender_OPP-033-Tender" see="field:OPP-033-Tender">efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']/efbc:TermCode</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess" see="node:ND-LotTenderingProcess">cac:TenderingProcess</diagnostic>
 		<diagnostic id="ND-LotTenderingProcessExtension" see="node:ND-LotTenderingProcessExtension">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</diagnostic>
+		<diagnostic id="ND-LotTenderingProcess_BT-109-Lot" see="field:BT-109-Lot">cac:FrameworkAgreement/cbc:Justification</diagnostic>
+		<diagnostic id="ND-LotTenderingProcess_BT-111-Lot" see="field:BT-111-Lot">cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']/cbc:Description</diagnostic>
+		<diagnostic id="ND-LotTenderingProcess_BT-113-Lot" see="field:BT-113-Lot">cac:FrameworkAgreement/cbc:MaximumOperatorQuantity</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-1251-Lot" see="field:BT-1251-Lot">cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-1311_d_-Lot" see="field:BT-1311(d)-Lot">cac:ParticipationRequestReceptionPeriod/cbc:EndDate</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-1311_t_-Lot" see="field:BT-1311(t)-Lot">cac:ParticipationRequestReceptionPeriod/cbc:EndTime</diagnostic>

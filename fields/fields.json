@@ -2843,17 +2843,17 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "10", "12", "16", "20" ],
-        "condition" : "{ND-FA} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc') or not(((BT-537-Lot - BT-536-Lot) > P4Y) or (BT-36-Lot > P4Y))}",
+        "condition" : "{ND-LotTenderingProcess} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc') or not(((BT-537-Lot - BT-536-Lot) > P4Y) or (BT-36-Lot > P4Y))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "8", "11", "13", "17", "21" ],
-        "condition" : "{ND-FA} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc') or not(((BT-537-Lot - BT-536-Lot) > P8Y) or (BT-36-Lot > P8Y))}",
+        "condition" : "{ND-LotTenderingProcess} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc') or not(((BT-537-Lot - BT-536-Lot) > P8Y) or (BT-36-Lot > P8Y))}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "9", "18", "22" ],
-        "condition" : "{ND-FA} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc') or not(((BT-537-Lot - BT-536-Lot) > P7Y) or (BT-36-Lot > P7Y))}",
+        "condition" : "{ND-LotTenderingProcess} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc') or not(((BT-537-Lot - BT-536-Lot) > P7Y) or (BT-36-Lot > P7Y))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -2973,7 +2973,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "16", "17", "18", "20", "21", "22", "25", "26", "27", "29", "30", "31", "33", "34" ],
-        "condition" : "{ND-FABuyerCategories} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')}",
+        "condition" : "{ND-LotTenderingProcess} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -3112,7 +3112,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "16", "17", "18", "20", "21", "22" ],
-        "condition" : "{ND-FA} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')}",
+        "condition" : "{ND-LotTenderingProcess} ${BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
