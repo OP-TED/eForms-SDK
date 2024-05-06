@@ -4305,7 +4305,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "33", "34" ],
-        "condition" : "{ND-DirectAward} ${not(BT-105-Procedure == 'neg-wo-call')}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${not(BT-105-Procedure == 'neg-wo-call')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
