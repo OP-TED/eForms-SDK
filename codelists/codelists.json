@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.166",
-    "createdOn" : "2024-04-30T09:47:05"
+    "version" : "1.11.191",
+    "createdOn" : "2024-05-07T08:58:00"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -406,6 +406,12 @@
     "description" : "List of codes for Exclusion Ground identification",
     "_label" : "codelist|name|exclusion-ground"
   }, {
+    "id" : "foreign-subsidies-measure-conclusion",
+    "version" : "1.0",
+    "filename" : "foreign-subsidies-measure-conclusion.gc",
+    "description" : "The FSR introduces a new set of rules that enables the Commission to address distortions caused by foreign subsidies.",
+    "_label" : "codelist|name|foreign-subsidies-measure-conclusion"
+  }, {
     "id" : "form-type",
     "version" : "20240207-0",
     "filename" : "form-type.gc",
@@ -417,6 +423,13 @@
     "filename" : "framework-agreement.gc",
     "description" : "This table provides the list of codes to distinguish the different type framework agreement involved in a tender.",
     "_label" : "codelist|name|framework-agreement"
+  }, {
+    "id" : "fsr",
+    "version" : "1.11.191",
+    "parentId" : "indicator",
+    "filename" : "indicator_fsr.gc",
+    "description" : "List of codes to specify whether the Foreign Subsidies Regulation applies.",
+    "_label" : "codelist|name|fsr"
   }, {
     "id" : "gpp-criteria",
     "version" : "1.0",
