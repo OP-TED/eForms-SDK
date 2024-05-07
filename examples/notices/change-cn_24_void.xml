@@ -215,6 +215,9 @@
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>
+			<cac:FrameworkAgreement>
+				<cbc:MaximumOperatorQuantity>3</cbc:MaximumOperatorQuantity>
+			</cac:FrameworkAgreement>
 			<cac:ContractingSystem>
 				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
 			</cac:ContractingSystem>
