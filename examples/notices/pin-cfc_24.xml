@@ -186,6 +186,10 @@
 			</ext:UBLExtensions>
 			<cbc:SubmissionMethodCode listName="esubmission">not-allowed</cbc:SubmissionMethodCode>
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:ProcessJustification>
+				<cbc:ProcessReasonCode listName="no-esubmission-justification">ipr-iss</cbc:ProcessReasonCode>
+				<cbc:Description languageID="ENG">No e-submission because of reasons.</cbc:Description>
+			</cac:ProcessJustification>
 			<cac:ContractingSystem>
 				<cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
 			</cac:ContractingSystem>
