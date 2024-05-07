@@ -2951,6 +2951,7 @@
 		<assert id="OPT-310-Tender_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-310-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:ForeignSubsidiesMeasuresCode">
+		<assert id="BR-BT-00682-0101" role="ERROR" test="normalize-space(.) = ('adm-clos', 'commit', 'meat', 'no-inves', 'no-obj', 'proh')">rule|text|BR-BT-00682-0101</assert>
 		<assert id="BT-682-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-682-Tender-List_MA</assert>
 		<assert id="BT-682-Tender_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-682-Tender_WS</assert>
 	</rule>

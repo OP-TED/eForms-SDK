@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.97",
-    "createdOn" : "2024-04-12T11:38:52"
+    "version" : "1.11.190",
+    "createdOn" : "2024-05-06T18:02:34"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -28310,6 +28310,15 @@
       }, {
         "noticeTypes" : [ "29", "30", "32", "33", "34", "35", "36", "37" ],
         "condition" : "{ND-LotTender} ${not(BT-13714-Tender in BT-137-Lot[BT-681-Lot == 'true']) and not(BT-13714-Tender in BT-330-Procedure[BT-1375-Procedure in BT-137-Lot[BT-681-Lot == 'true']])}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "29", "30", "32", "33", "34", "35", "36", "37" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
