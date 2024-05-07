@@ -6,7 +6,7 @@
       <LongName>procedure-type-t01</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/procurement-procedure-type</LongName>
       <LongName Identifier="eFormsParentId">procurement-procedure-type</LongName>
-      <Version>1.11.0</Version>
+      <Version>1.11.191</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -126,7 +126,7 @@
             <SimpleValue>comp-tend</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Competitive tendering</SimpleValue>
+            <SimpleValue>Competitive tendering (article 5(3) of Regulation 1370/2007) </SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Конкурентна търговия (член 5(3) на регламент 1370/2007)</SimpleValue>
@@ -144,7 +144,7 @@
             <SimpleValue>Διαγωνισμός (άρθρο 5 παράγραφος 3 του κανονισμού 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Competitive tendering (article 5(3) of regulation 1370/2007)</SimpleValue>
+            <SimpleValue>Competitive tendering (article 5(3) of Regulation 1370/2007) </SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Licitación competitiva (artículo 5(3) del reglamento 1370/2007)</SimpleValue>
@@ -206,7 +206,7 @@
             <SimpleValue>exp-int-rail</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Request for expression of interest – only for rail (article 5(3b) of regulation 1370/2007)</SimpleValue>
+            <SimpleValue>Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Заявка за проявяване на интерес - само за железопътния транспорт (член 5(3b) на регламент 1370/2007)</SimpleValue>
@@ -224,7 +224,7 @@
             <SimpleValue>Αίτηση για δήλωση ενδιαφέροντος - μόνο για τον σιδηρόδρομο (άρθρο 5 παράγραφος 3β του κανονισμού 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Request for expression of interest – only for rail (article 5(3b) of regulation 1370/2007)</SimpleValue>
+            <SimpleValue>Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Solicitud de expresión de interés - solo para ferrocarril (artículo 5(3b) del reglamento 1370/2007)</SimpleValue>
