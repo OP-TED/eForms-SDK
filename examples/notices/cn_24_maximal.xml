@@ -1518,6 +1518,10 @@
 				<!--BT-744-->
 				<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<!--BT-681-->
+				<cbc:ExecutionRequirementCode listName="fsr">true</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<!--BT-120-->
 				<cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
