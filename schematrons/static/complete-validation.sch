@@ -746,7 +746,7 @@
 		<diagnostic id="BT-17-Lot" see="field:BT-17-Lot">cbc:SubmissionMethodCode[@listName='esubmission']</diagnostic>
 		<diagnostic id="BT-171-Tender" see="field:BT-171-Tender">cbc:RankCode</diagnostic>
 		<diagnostic id="BT-1711-Tender" see="field:BT-1711-Tender">efbc:TenderRankedIndicator</diagnostic>
-		<diagnostic id="BT-19-Lot" see="field:BT-19-Lot">cbc:ProcessReasonCode</diagnostic>
+		<diagnostic id="BT-19-Lot" see="field:BT-19-Lot">cbc:ProcessReasonCode[@listName='no-esubmission-justification']</diagnostic>
 		<diagnostic id="BT-191-Tender" see="field:BT-191-Tender">efbc:AreaCode</diagnostic>
 		<diagnostic id="BT-193-Tender" see="field:BT-193-Tender">efbc:TenderVariantIndicator</diagnostic>
 		<diagnostic id="BT-195_BT-09_-Procedure" see="field:BT-195(BT-09)-Procedure">efbc:FieldIdentifierCode</diagnostic>
@@ -1382,6 +1382,8 @@
 		<diagnostic id="ND-LotTenderingProcess_BT-132_d_-Lot" see="field:BT-132(d)-Lot">cac:OpenTenderEvent/cbc:OccurrenceDate</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-13_d_-Lot" see="field:BT-13(d)-Lot">cac:AdditionalInformationRequestPeriod/cbc:EndDate</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-13_t_-Lot" see="field:BT-13(t)-Lot">cac:AdditionalInformationRequestPeriod/cbc:EndTime</diagnostic>
+		<diagnostic id="ND-LotTenderingProcess_BT-19-Lot" see="field:BT-19-Lot">cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']</diagnostic>
+		<diagnostic id="ND-LotTenderingProcess_BT-745-Lot" see="field:BT-745-Lot">cac:ProcessJustification/cbc:Description</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-765-Lot" see="field:BT-765-Lot">cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-766-Lot" see="field:BT-766-Lot">cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage']/cbc:ContractingSystemTypeCode</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms" see="node:ND-LotTenderingTerms">cac:TenderingTerms</diagnostic>
@@ -1414,7 +1416,6 @@
 		<diagnostic id="ND-LotsGroupValueEstimate" see="node:ND-LotsGroupValueEstimate">cac:RequestedTenderTotal</diagnostic>
 		<diagnostic id="ND-Modification" see="node:ND-Modification">efac:Change</diagnostic>
 		<diagnostic id="ND-ModificationReason" see="node:ND-ModificationReason">efac:ChangeReason</diagnostic>
-		<diagnostic id="ND-NonEsubmission" see="node:ND-NonEsubmission">cac:ProcessJustification</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms" see="node:ND-NonUBLTenderingTerms">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms_BT-5010-Lot" see="field:BT-5010-Lot">efac:Funding/efbc:FinancingIdentifier</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms_BT-651-Lot" see="field:BT-651-Lot">efac:TenderSubcontractingRequirements/efbc:TenderSubcontractingRequirementsCode</diagnostic>

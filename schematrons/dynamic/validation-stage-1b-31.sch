@@ -22,7 +22,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '31']">
 		<assert id="ND-AuctionTerms-31" role="ERROR" diagnostics="ND-AuctionTerms" test="count(cac:AuctionTerms) &gt; 0">rule|text|ND-AuctionTerms-31</assert>
-		<assert id="ND-NonEsubmission-31" role="ERROR" diagnostics="ND-NonEsubmission" test="count(cac:ProcessJustification) = 0">rule|text|ND-NonEsubmission-31</assert>
 		<assert id="ND-PublicOpening-31" role="ERROR" diagnostics="ND-PublicOpening" test="count(cac:OpenTenderEvent) = 0">rule|text|ND-PublicOpening-31</assert>
 		<assert id="ND-SecondStage-31" role="ERROR" diagnostics="ND-SecondStage" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-SecondStage-31</assert>
 	</rule>

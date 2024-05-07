@@ -19,7 +19,6 @@
 		<assert id="ND-LotTenderingTerms-34" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-LotTenderingTerms-34</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '34']">
-		<assert id="ND-NonEsubmission-34" role="ERROR" diagnostics="ND-NonEsubmission" test="count(cac:ProcessJustification) = 0">rule|text|ND-NonEsubmission-34</assert>
 		<assert id="ND-PublicOpening-34" role="ERROR" diagnostics="ND-PublicOpening" test="count(cac:OpenTenderEvent) = 0">rule|text|ND-PublicOpening-34</assert>
 		<assert id="ND-SecondStage-34" role="ERROR" diagnostics="ND-SecondStage" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-SecondStage-34</assert>
 	</rule>

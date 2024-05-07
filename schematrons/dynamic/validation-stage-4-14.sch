@@ -80,8 +80,12 @@
 		<assert id="BR-BT-05141-0166" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or not(cac:Address/cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0166</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '14']">
+		<assert id="BR-BT-00019-0020" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-19-Lot" test="count(cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &gt; 0 or not(cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|BR-BT-00019-0020</assert>
+		<assert id="BR-BT-00019-0060" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-19-Lot" test="count(cac:ProcessJustification/cbc:ProcessReasonCode[@listName='no-esubmission-justification']) = 0 or (cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|BR-BT-00019-0060</assert>
 		<assert id="BR-BT-00052-0020" role="ERROR" diagnostics="BT-52-Lot" test="count(cbc:CandidateReductionConstraintIndicator) = 0 or not(../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or ../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' or ../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00052-0020</assert>
 		<assert id="BR-BT-00130-0020" role="ERROR" diagnostics="BT-130-Lot" test="count(cac:InvitationSubmissionPeriod/cbc:StartDate) = 0 or not(../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00130-0020</assert>
+		<assert id="BR-BT-00745-0020" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-745-Lot" test="count(cac:ProcessJustification/cbc:Description) &gt; 0 or not(cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|BR-BT-00745-0020</assert>
+		<assert id="BR-BT-00745-0058" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-745-Lot" test="count(cac:ProcessJustification/cbc:Description) = 0 or not(cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'required')">rule|text|BR-BT-00745-0058</assert>
 		<assert id="BR-BT-01251-0070" role="ERROR" diagnostics="ND-LotTenderingProcess_BT-1251-Lot" test="count(cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress) = 0 or (cac:NoticeDocumentReference/cbc:ID)">rule|text|BR-BT-01251-0070</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '14']">
@@ -93,12 +97,6 @@
 		<assert id="BR-BT-00051-0020" role="ERROR" diagnostics="BT-51-Lot" test="count(cbc:MaximumQuantity) = 0 or (cbc:LimitationDescription = true())">rule|text|BR-BT-00051-0020</assert>
 		<assert id="BR-BT-00051-0060" role="ERROR" diagnostics="BT-51-Lot" test="count(cbc:MaximumQuantity) &gt; 0 or not(cbc:LimitationDescription = true())">rule|text|BR-BT-00051-0060</assert>
 		<assert id="BR-BT-00661-0020" role="ERROR" diagnostics="BT-661-Lot" test="count(cbc:LimitationDescription) = 0 or not(../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or ../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' or ../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">rule|text|BR-BT-00661-0020</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification'][$noticeSubType = '14']">
-		<assert id="BR-BT-00019-0020" role="ERROR" diagnostics="BT-19-Lot" test="count(cbc:ProcessReasonCode) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|BR-BT-00019-0020</assert>
-		<assert id="BR-BT-00019-0060" role="ERROR" diagnostics="BT-19-Lot" test="count(cbc:ProcessReasonCode) = 0 or (../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|BR-BT-00019-0060</assert>
-		<assert id="BR-BT-00745-0020" role="ERROR" diagnostics="BT-745-Lot" test="count(cbc:Description) &gt; 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|BR-BT-00745-0020</assert>
-		<assert id="BR-BT-00745-0058" role="ERROR" diagnostics="BT-745-Lot" test="count(cbc:Description) = 0 or not(../cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'required')">rule|text|BR-BT-00745-0058</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '14']">
 		<assert id="BR-BT-00018-0020" role="ERROR" diagnostics="ND-LotTenderingTerms_BT-18-Lot" test="count(cac:TenderRecipientParty/cbc:EndpointID) = 0 or not(../cac:TenderingProcess/cbc:SubmissionMethodCode[@listName='esubmission']/normalize-space(text()) = 'not-allowed')">rule|text|BR-BT-00018-0020</assert>

@@ -326,13 +326,13 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent/cbc:Description">
 		<assert id="BT-134-Lot_D" role="ERROR" test="@languageID">rule|text|BT-134-Lot_D</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification']">
-		<assert id="BT-19-Lot_R" role="ERROR" diagnostics="BT-19-Lot" test="count(cbc:ProcessReasonCode) &lt; 2">rule|text|BT-19-Lot_R</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification">
+		<assert id="BT-19-Lot_R" role="ERROR" diagnostics="BT-19-Lot" test="count(cbc:ProcessReasonCode[@listName='no-esubmission-justification']) &lt; 2">rule|text|BT-19-Lot_R</assert>
 		<assert id="BT-745-Lot_A" role="ERROR" diagnostics="BT-745-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-745-Lot_A</assert>
 		<assert id="BT-745-Lot_B" role="ERROR" diagnostics="BT-745-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-745-Lot_B</assert>
 		<assert id="BT-745-Lot_C" role="ERROR" diagnostics="BT-745-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-745-Lot_C</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='no-esubmission-justification']/cbc:Description">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ProcessJustification/cbc:Description">
 		<assert id="BT-745-Lot_D" role="ERROR" test="@languageID">rule|text|BT-745-Lot_D</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension">
