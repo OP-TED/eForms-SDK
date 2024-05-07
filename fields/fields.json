@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.192",
-    "createdOn" : "2024-05-07T10:28:10"
+    "version" : "1.11.193",
+    "createdOn" : "2024-05-07T11:39:28"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -2238,7 +2238,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-legal-basis",
+        "id" : "legal-basis",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -2925,9 +2925,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-buyer-legal-type",
-        "type" : "flat",
-        "parentId" : "buyer-legal-type"
+        "id" : "buyer-legal-type",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     }
@@ -3084,7 +3083,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -3273,7 +3272,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -5817,7 +5816,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -5886,7 +5885,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -5933,7 +5932,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -6054,7 +6053,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -6127,7 +6126,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -6195,7 +6194,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -19845,9 +19844,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-contract-nature",
-        "type" : "flat",
-        "parentId" : "contract-nature"
+        "id" : "contract-nature",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     },
@@ -19918,9 +19916,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-contract-nature",
-        "type" : "flat",
-        "parentId" : "contract-nature"
+        "id" : "contract-nature",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     },
@@ -19986,9 +19983,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-contract-nature",
-        "type" : "flat",
-        "parentId" : "contract-nature"
+        "id" : "contract-nature",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     },
@@ -20888,7 +20884,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -20935,7 +20931,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -20982,7 +20978,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -21029,7 +21025,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -21081,7 +21077,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -21133,7 +21129,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -21185,7 +21181,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -24999,9 +24995,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-contract-nature",
-        "type" : "flat",
-        "parentId" : "contract-nature"
+        "id" : "contract-nature",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     }
@@ -25053,9 +25048,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-contract-nature",
-        "type" : "flat",
-        "parentId" : "contract-nature"
+        "id" : "contract-nature",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     }
@@ -25107,9 +25101,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-contract-nature",
-        "type" : "flat",
-        "parentId" : "contract-nature"
+        "id" : "contract-nature",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     }
@@ -26705,7 +26698,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -27886,7 +27879,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -28069,7 +28062,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -28665,9 +28658,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-language",
-        "type" : "flat",
-        "parentId" : "language"
+        "id" : "language",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     }
@@ -28701,9 +28693,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-language",
-        "type" : "flat",
-        "parentId" : "language"
+        "id" : "language",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     }
@@ -28766,7 +28757,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -28954,7 +28945,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -29013,7 +29004,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -29324,7 +29315,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -30582,7 +30573,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-language",
+        "id" : "language",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -30617,7 +30608,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-language",
+        "id" : "language",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -32952,7 +32943,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -33126,7 +33117,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -33607,7 +33598,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -33681,7 +33672,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-currency",
+        "id" : "currency",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -34346,9 +34337,8 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "eforms-language",
-        "type" : "flat",
-        "parentId" : "language"
+        "id" : "language",
+        "type" : "flat"
       },
       "severity" : "ERROR"
     }

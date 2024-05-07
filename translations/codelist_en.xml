@@ -48,15 +48,9 @@
 <entry key="codelist|name|ecatalog-submission">List of codes to specify whether the submission of electronic catalogues is allowed or not.</entry>
 <entry key="codelist|name|economic-operator-size">This table provides the different categories in which the tenderers to whom a contract can be awarded are classified, according to their size (using as criteria the number of employees).</entry>
 <entry key="codelist|name|eea-country">List of codes of the European Economic Area countries</entry>
-<entry key="codelist|name|eforms-buyer-legal-type">List of buyer-legal-type codes allowed in eforms</entry>
-<entry key="codelist|name|eforms-contract-nature">List of eforms allowed codes to specify the main and additional natures of a purchase</entry>
-<entry key="codelist|name|eforms-currency">List of currency codes allowed in eforms</entry>
-<entry key="codelist|name|eforms-language">List of language codes allowed in eforms</entry>
-<entry key="codelist|name|eforms-legal-basis">List of Legal Basis codes allowed in eForms</entry>
 <entry key="codelist|name|einvoicing">List of codes to specify whether the use of electronic invoicing is allowed or not.</entry>
 <entry key="codelist|name|entity-activity">List of Main Activity codes allowed for a Contracting Entity</entry>
 <entry key="codelist|name|environmental-impact">This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor</entry>
-<entry key="codelist|name|eppn-country">List of codes for the European Plant Phenotyping Network countries</entry>
 <entry key="codelist|name|esignature-submission">List of codes to dpecify whether electronic signature may be used or not.</entry>
 <entry key="codelist|name|esubmission">List of codes to specify whether the electronic submission is allowed or not.</entry>
 <entry key="codelist|name|eu-country">List of codes of the EU countries</entry>
@@ -255,7 +249,6 @@
 <entry key="codelist|name|tendered-object">Object type covered by the tender (lot, group of lots)</entry>
 <entry key="codelist|name|tenderlot-presentation">List of codes to specify whether the submission should deal with all the defined lots.</entry>
 <entry key="codelist|name|timeperiod">List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.</entry>
-<entry key="codelist|name|timeperiods">List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.</entry>
 <entry key="codelist|name|transport-service">This table provides a list of transport services.</entry>
 <entry key="codelist|name|usage">List of codes to indicate whether the associated concept should be used or not.</entry>
 <entry key="codelist|name|veat">List of allowed Notice Subtype codes for a notice of Voluntary ex-ante Transparency Notice Type.</entry>

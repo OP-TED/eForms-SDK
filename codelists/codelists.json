@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.191",
-    "createdOn" : "2024-05-07T08:58:00"
+    "version" : "1.11.193",
+    "createdOn" : "2024-05-07T11:39:28"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -303,41 +303,6 @@
     "filename" : "country_eea-country.gc",
     "description" : "List of codes of the European Economic Area countries",
     "_label" : "codelist|name|eea-country"
-  }, {
-    "id" : "eforms-buyer-legal-type",
-    "version" : "1.11.0",
-    "parentId" : "buyer-legal-type",
-    "filename" : "buyer-legal-type_eforms-buyer-legal-type.gc",
-    "description" : "List of buyer-legal-type codes allowed in eforms",
-    "_label" : "codelist|name|eforms-buyer-legal-type"
-  }, {
-    "id" : "eforms-contract-nature",
-    "version" : "1.11.0",
-    "parentId" : "contract-nature",
-    "filename" : "contract-nature_eforms-contract-nature.gc",
-    "description" : "List of eforms allowed codes to specify the main and additional natures of a purchase",
-    "_label" : "codelist|name|eforms-contract-nature"
-  }, {
-    "id" : "eforms-currency",
-    "version" : "1.11.0",
-    "parentId" : "currency",
-    "filename" : "currency_eforms-currency.gc",
-    "description" : "List of currency codes allowed in eforms",
-    "_label" : "codelist|name|eforms-currency"
-  }, {
-    "id" : "eforms-language",
-    "version" : "1.11.0",
-    "parentId" : "language",
-    "filename" : "language_eforms-language.gc",
-    "description" : "List of language codes allowed in eforms",
-    "_label" : "codelist|name|eforms-language"
-  }, {
-    "id" : "eforms-legal-basis",
-    "version" : "1.11.0",
-    "parentId" : "legal-basis",
-    "filename" : "legal-basis_eforms-legal-basis.gc",
-    "description" : "List of Legal Basis codes allowed in eForms",
-    "_label" : "codelist|name|eforms-legal-basis"
   }, {
     "id" : "einvoicing",
     "version" : "1.11.0",
