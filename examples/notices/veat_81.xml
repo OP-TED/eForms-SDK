@@ -168,6 +168,10 @@
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="direct-award-justification">urgency</cbc:ProcessReasonCode>
+			<cbc:ProcessReason languageID="ENG">Because of urgencey...</cbc:ProcessReason>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Ante nte vol2 </cbc:Name>
