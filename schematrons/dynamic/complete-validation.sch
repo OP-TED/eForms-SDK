@@ -1458,6 +1458,7 @@
 		<diagnostic id="ND-LotTender" see="node:ND-LotTender">efac:LotTender</diagnostic>
 		<diagnostic id="ND-LotTenderOriginCountry" see="node:ND-LotTenderOriginCountry">efac:Origin</diagnostic>
 		<diagnostic id="ND-LotTender_BT-191-Tender" see="field:BT-191-Tender">efac:Origin/efbc:AreaCode</diagnostic>
+		<diagnostic id="ND-LotTender_BT-773-Tender" see="field:BT-773-Tender">efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode</diagnostic>
 		<diagnostic id="ND-LotTender_BT-779-Tender" see="field:BT-779-Tender">efac:AggregatedAmounts/cbc:PaidAmount</diagnostic>
 		<diagnostic id="ND-LotTender_BT-780-Tender" see="field:BT-780-Tender">efac:AggregatedAmounts/efbc:PaidAmountDescription</diagnostic>
 		<diagnostic id="ND-LotTender_BT-782-Tender" see="field:BT-782-Tender">efac:AggregatedAmounts/efbc:PenaltiesAmount</diagnostic>
