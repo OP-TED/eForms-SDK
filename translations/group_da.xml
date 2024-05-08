@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Danish. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Information om gentagelse</entry>
 <entry key="group|name|GR-Business-Address">Adresse</entry>
 <entry key="group|name|GR-Business-Contact">Kontakt</entry>
 <entry key="group|name|GR-Business-Party">Forretningspart</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Auktionsbetingelser</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Konsekvenser ved tildeling</entry>
 <entry key="group|name|GR-Lot-Candidates">Ansøgere</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Krav til kontraktens gennemførelse</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Fornyelser og muligheder</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Kontraktindgåelsessystem</entry>
 <entry key="group|name|GR-Lot-Deadline">Frister for gennemgang</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Mæglingsorganisation</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Udførelsessted</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Anslået varighed</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Varighed</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Periode</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Proces efter tildeling</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Tidligere planlægning</entry>
 <entry key="group|name|GR-Lot-Procedure">Procedure</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametre for tildelingskriterier</entry>
 <entry key="group|name|GR-LotsGroup-Description">Beskrivelse af gruppen af delkontrakter</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Oplysninger om rammeaftale</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Delkontrakter, der indgår i gruppen af delkontrakter</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Formål</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Udbuddets anvendelsesområde</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Udbudsbetingelser</entry>
 <entry key="group|name|GR-Metadata">Metadata</entry>
 <entry key="group|name|GR-Modification">Ændring</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Afsnit, som ændringen gælder for</entry>
 <entry key="group|name|GR-Nda">Fortrolighedsaftale</entry>
 <entry key="group|name|GR-NoticeResult-Section">Resultat</entry>
 <entry key="group|name|GR-Organisations">Organisationer, der er nævnt i bekendtgørelsen</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Beskrivelse</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Direkte tildeling</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Udelukkelsesgrunde</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Henvisning til lokal lovgivning</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Andet retsgrundlag uden identifikator</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Andet retsgrundlag med identifikator</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Retsgrundlag</entry>
@@ -181,14 +174,12 @@
 <entry key="group|name|GR-Unpublish-BT-09">Grænseoverskridende lovgivning (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Type procedure (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Type procedure (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Fremskyndet procedure (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Anslået værdi af rammeaftalen (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Anslået værdi af rammeaftalen (offentliggøres senere)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Rammeaftalernes maksimumværdi i denne procedure (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">ID for den tidligere procedure, der begrunder direkte tildeling (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID for den tidligere procedure, der begrunder direkte tildeling (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Beskrivelse af direkte tildeling (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Beskrivelse af direkte tildeling (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Begrundelse for fremskyndet procedure (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Begrundelse for direkte tildeling (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Status for udvælgelse af vindere (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status for udvælgelse af vindere (offentliggøres senere)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Beskrivelse (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Beskrivelse (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Beskrivelse (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Talværdi for tildelingskriterium (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Talværdi for tildelingskriterium (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Talværdi for tildelingskriterium (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Talværdi er en vægttype (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Talværdi er en vægttype (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Talværdi er en vægttype (offentliggøres senere)</entry>
@@ -294,9 +282,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Nummer på tildelingskriterium for delkontrakt kompliceret (offentliggøres senere)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Tildelingskriterium for delkontrakt er et fast nummer (offentliggøres senere)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Nummer på tildelingskriterium for delkontrakt er en tærskel (offentliggøres senere)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Nummer på tildelingskriterium for delkontrakt (offentliggøres senere)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Nummer på tildelingskriterium for delkontrakt vægtning (offentliggøres senere)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Parameter for tildelingskriterium</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Parametre for tildelingskriterier</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Tærskelværdikriterium (offentliggøres senere)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Type tildelingskriterium for delkontrakt (offentliggøres senere)</entry>
@@ -342,9 +328,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Antallet af tildelingskriterier for gruppe af delkontrakter er kompliceret (offentliggøres senere)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Antallet af tildelingskriterier for gruppe af delkontrakter er fast (offentliggøres senere)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Antallet af tildelingskriterier for gruppe af delkontrakter er en tærskelværdi (offentliggøres senere)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Antallet af tildelingskriterier for gruppe af delkontrakter (offentliggøres senere)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Antallet af tildelingskriterier for gruppe af delkontrakter er en vægtet værdi (offentliggøres senere)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parameter for tildelingskriterium</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parametre for tildelingskriterier</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Tærskelværdikriterium (offentliggøres senere)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Type af tildelingskriterier for gruppe af delkontrakter (offentliggøres senere)</entry>
@@ -363,7 +347,6 @@
 <entry key="group|name|ND-NoticeResult">Resultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maksimal værdi af gruppe af delkontrakter</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Værdi af bekendtgørelse (offentliggøres senere)</entry>
-<entry key="group|name|ND-OptionsDescription">Beskrivelse af muligheder</entry>
 <entry key="group|name|ND-Organization">Organisationer, der er nævnt i bekendtgørelsen</entry>
 <entry key="group|name|ND-OrganizationUboReference">Endelig retmæssig ejer</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Andre betingelser end indtægtsfordeling</entry>
