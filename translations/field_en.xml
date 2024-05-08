@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">The internal identifier used for files regarding the procurement procedure or lot before a procedure identifier is given (e.g. coming from the buyer's document management system or procurement planning system).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">The internal identifier used for files regarding the procurement procedure or lot before a procedure identifier is given (e.g. coming from the buyer's document management system or procurement planning system).</entry>
 <entry key="field|description|BT-23-Lot">The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.</entry>
+<entry key="field|description|BT-23-Lot-List">The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.</entry>
 <entry key="field|description|BT-23-Part">The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.</entry>
 <entry key="field|description|BT-23-Part-List">The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.</entry>
 <entry key="field|description|BT-23-Procedure">The main nature (e.g. works) of what is being bought. In case of mixed procurement (e.g. a procedure for both works and services), the main nature may be, for example, the one with the highest estimated value. This information shall be given for the whole procedure.</entry>
@@ -829,6 +830,10 @@
 <entry key="field|description|BT-67(a)-Procedure-List">The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may also include specific national exclusion grounds.</entry>
 <entry key="field|description|BT-67(b)-Procedure">The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may also include specific national exclusion grounds.</entry>
 <entry key="field|description|BT-67(b)-Procedure-Language">The brief description of criteria regarding the personal situation of tenderers that may lead to their exclusion. This shall include a list of all such criteria and indicate required information (e.g. self-declaration, documentation). This may also include specific national exclusion grounds.</entry>
+<entry key="field|description|BT-681-Lot">Whether the Foreign Subsidies Regulation is applicable to the procurement procedure or not.</entry>
+<entry key="field|description|BT-681-Lot-List">The Foreign Subsidies Regulation (FSR) (EU) 2022/2560, in line with Article 28 thereof, is applicable to this procurement procedure.</entry>
+<entry key="field|description|BT-682-Tender">Applied Foreign Subsidies Measures</entry>
+<entry key="field|description|BT-682-Tender-List">Measures applied under the Foreign Subsidies Regulation (EU) 2022/2560.</entry>
 <entry key="field|description|BT-70-Lot">The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).</entry>
 <entry key="field|description|BT-70-Lot-Language">The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).</entry>
 <entry key="field|description|BT-701-notice">The European Public Procurement Notice Identifier of this notice. Including this identifier in all published version of this notice (e.g. TED, national publication portals, regional publication portals) allows unique identification of procurement notices around the Union.</entry>
@@ -993,6 +998,12 @@
 <entry key="field|description|BT-803(t)-notice">The date and time the notice was transmitted electronically by the eSender to the Publications Office of the European Union</entry>
 <entry key="field|description|BT-805-Lot">The procurement procedure includes the use of established green public procurement criteria (selection criteria, technical specifications, award criteria and contract performance clauses), at national, Union or other level, if applicable.</entry>
 <entry key="field|description|BT-805-Lot-List">The procurement procedure includes the use of established green public procurement criteria (selection criteria, technical specifications, award criteria and contract performance clauses), at national, Union or other level, if applicable.</entry>
+<entry key="field|description|BT-806-Procedure">Where the exclusions grounds are defined, for example, the procurement documents or in ESPD.</entry>
+<entry key="field|description|BT-806-Procedure-List">Where the exclusions grounds are defined, for example, the procurement documents or in ESPD.</entry>
+<entry key="field|description|BT-809-Lot">The criteria (or criterion).</entry>
+<entry key="field|description|BT-809-Lot-List">The criteria (or criterion).</entry>
+<entry key="field|description|BT-821-Lot">Where the selection criteria are defined, for example, the procurement documents or in ESPD</entry>
+<entry key="field|description|BT-821-Lot-List">Where the selection criteria are defined, for example, the procurement documents or in ESPD</entry>
 <entry key="field|description|BT-88-Procedure">The main features of the procedure (e.g. description of the individual stage(s)) and information about where the full rules for the procedure can be found. This information shall be given when the procedure is not one of those mentioned in the procurement Directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.</entry>
 <entry key="field|description|BT-88-Procedure-Language">The main features of the procedure (e.g. description of the individual stage(s)) and information about where the full rules for the procedure can be found. This information shall be given when the procedure is not one of those mentioned in the procurement Directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.</entry>
 <entry key="field|description|BT-92-Lot">Electronic ordering will be used.</entry>
@@ -1797,6 +1808,7 @@
 <entry key="field|name|BT-22-Procedure">Internal identifier</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Internal identifier</entry>
 <entry key="field|name|BT-23-Lot">Main nature of the contract</entry>
+<entry key="field|name|BT-23-Lot-List">Main nature of the contract</entry>
 <entry key="field|name|BT-23-Part">Main nature of the contract</entry>
 <entry key="field|name|BT-23-Part-List">Main nature of the contract</entry>
 <entry key="field|name|BT-23-Procedure">Main nature of the contract</entry>
@@ -2037,8 +2049,8 @@
 <entry key="field|name|BT-632-Lot">Name</entry>
 <entry key="field|name|BT-632-Part">Name</entry>
 <entry key="field|name|BT-633-Organization">The organisation is a natural person</entry>
-<entry key="field|name|BT-634-Lot">This cancelled or unsuccessful procedure or lot will be relaunched</entry>
-<entry key="field|name|BT-634-Procedure">This cancelled or unsuccessful procedure or lot will be relaunched</entry>
+<entry key="field|name|BT-634-Lot">The lot will be relaunched if cancelled or unsuccessful</entry>
+<entry key="field|name|BT-634-Procedure">The procedure will be relaunched if cancelled or unsuccessful</entry>
 <entry key="field|name|BT-635-LotResult">Number of buyer review requests</entry>
 <entry key="field|name|BT-636-LotResult">Type of alleged irregularity</entry>
 <entry key="field|name|BT-636-LotResult-List">Type of alleged irregularity</entry>
@@ -2056,6 +2068,10 @@
 <entry key="field|name|BT-67(a)-Procedure-List">Description</entry>
 <entry key="field|name|BT-67(b)-Procedure">Description</entry>
 <entry key="field|name|BT-67(b)-Procedure-Language">Description</entry>
+<entry key="field|name|BT-681-Lot">Foreign Subsidies Regulation</entry>
+<entry key="field|name|BT-681-Lot-List">Foreign Subsidies Regulation</entry>
+<entry key="field|name|BT-682-Tender">Foreign Subsidies Measures</entry>
+<entry key="field|name|BT-682-Tender-List">Foreign Subsidies Measures</entry>
 <entry key="field|name|BT-70-Lot">Conditions relating to the performance of the contract</entry>
 <entry key="field|name|BT-70-Lot-Language">Conditions relating to the performance of the contract</entry>
 <entry key="field|name|BT-701-notice">Notice identifier/version</entry>
@@ -2084,8 +2100,8 @@
 <entry key="field|name|BT-717-Lot-List">The procurement falls within the scope of the European Parliament and Council 2009/33/EC (Clean Vehicles Directive – CVD)</entry>
 <entry key="field|name|BT-718-notice">The procurement documents were changed on</entry>
 <entry key="field|name|BT-719-notice">Change date of the procurement documents</entry>
-<entry key="field|name|BT-720-Tender">Value of the result</entry>
-<entry key="field|name|BT-720-Tender-Currency">Value of the result</entry>
+<entry key="field|name|BT-720-Tender">Value of the tender</entry>
+<entry key="field|name|BT-720-Tender-Currency">Value of the tender</entry>
 <entry key="field|name|BT-721-Contract">Title</entry>
 <entry key="field|name|BT-721-Contract-Language">Title</entry>
 <entry key="field|name|BT-722-Contract">Name of EU-financed project or programme</entry>
@@ -2257,6 +2273,12 @@
 <entry key="field|name|BT-803(t)-notice">Notice dispatch date (eSender)</entry>
 <entry key="field|name|BT-805-Lot">Green Procurement Criteria</entry>
 <entry key="field|name|BT-805-Lot-List">Green Procurement Criteria</entry>
+<entry key="field|name|BT-806-Procedure">Exclusion Grounds Source</entry>
+<entry key="field|name|BT-806-Procedure-List">Exclusion Grounds Source</entry>
+<entry key="field|name|BT-809-Lot">Selection Criteria</entry>
+<entry key="field|name|BT-809-Lot-List">Selection Criteria</entry>
+<entry key="field|name|BT-821-Lot">Selection Criteria Source</entry>
+<entry key="field|name|BT-821-Lot-List">Selection Criteria Source</entry>
 <entry key="field|name|BT-88-Procedure">Main features of the procedure</entry>
 <entry key="field|name|BT-88-Procedure-Language">Main features of the procedure</entry>
 <entry key="field|name|BT-92-Lot">Electronic ordering will be used</entry>

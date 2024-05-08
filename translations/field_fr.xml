@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Identifiant interne utilisé pour les dossiers relatifs à la procédure de passation de marché ou au lot avant qu’un identifiant de la procédure soit donné (provenant, par exemple, du système de gestion des documents de l’acheteur ou du système de planification des marchés).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Identifiant interne utilisé pour les dossiers relatifs à la procédure de passation de marché ou au lot avant qu’un identifiant de la procédure soit donné (provenant, par exemple, du système de gestion des documents de l’acheteur ou du système de planification des marchés).</entry>
 <entry key="field|description|BT-23-Lot">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
+<entry key="field|description|BT-23-Lot-List">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
 <entry key="field|description|BT-23-Part">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
 <entry key="field|description|BT-23-Part-List">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
 <entry key="field|description|BT-23-Procedure">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Identifiant interne</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Identifiant interne</entry>
 <entry key="field|name|BT-23-Lot">Nature du marché</entry>
+<entry key="field|name|BT-23-Lot-List">Nature du marché</entry>
 <entry key="field|name|BT-23-Part">Nature du marché</entry>
 <entry key="field|name|BT-23-Part-List">Nature du marché</entry>
 <entry key="field|name|BT-23-Procedure">Nature du marché</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Nom</entry>
 <entry key="field|name|BT-632-Part">Nom</entry>
 <entry key="field|name|BT-633-Organization">L’organisation est une personne physique</entry>
-<entry key="field|name|BT-634-Lot">Cette procédure ou ce lot annulé(e) ou infructueux(-se) sera relancé(e)</entry>
-<entry key="field|name|BT-634-Procedure">Cette procédure ou ce lot annulé(e) ou infructueux(-se) sera relancé(e)</entry>
+<entry key="field|name|BT-634-Lot">Si le lot est annulé ou infructueux, il sera relancé</entry>
+<entry key="field|name|BT-634-Procedure">Si la procédure est annulée ou infructueuse, elle sera relancée</entry>
 <entry key="field|name|BT-635-LotResult">Nombre de demandes réexamen acheteur</entry>
 <entry key="field|name|BT-636-LotResult">Type d’irrégularité alléguée</entry>
 <entry key="field|name|BT-636-LotResult-List">Type d’irrégularité alléguée</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)</entry>
 <entry key="field|name|BT-718-notice">Les documents de marché ont été modifiés le</entry>
 <entry key="field|name|BT-719-notice">Modifier la date des documents de marché</entry>
-<entry key="field|name|BT-720-Tender">Valeur du résultat</entry>
-<entry key="field|name|BT-720-Tender-Currency">Valeur du résultat</entry>
+<entry key="field|name|BT-720-Tender">Valeur de l'offre</entry>
+<entry key="field|name|BT-720-Tender-Currency">Valeur de l'offre</entry>
 <entry key="field|name|BT-721-Contract">Titre</entry>
 <entry key="field|name|BT-721-Contract-Language">Titre</entry>
 <entry key="field|name|BT-722-Contract">Nom du projet ou programme financé par l’UE</entry>

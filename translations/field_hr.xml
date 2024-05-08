@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Interni identifikator upotrebljava se za spise u pogledu postupka javne nabave ili grupe prije nego što se dodijeli identifikator postupka (npr. broj koji potječe iz kupčeva sustava za upravljanje dokumentima ili sustava za planiranje nabave).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Interni identifikator upotrebljava se za spise u pogledu postupka javne nabave ili grupe prije nego što se dodijeli identifikator postupka (npr. broj koji potječe iz kupčeva sustava za upravljanje dokumentima ili sustava za planiranje nabave).</entry>
 <entry key="field|description|BT-23-Lot">Glavna priroda (npr. radova) onoga što se kupuje. U slučaju mješovite javne nabave (npr. postupak i za radove i za usluge), glavna priroda može, na primjer, biti ona s najvišom procijenjenom vrijednosti. Te se informacije moraju dati za cijeli postupak.</entry>
+<entry key="field|description|BT-23-Lot-List">Glavna priroda (npr. radova) onoga što se kupuje. U slučaju mješovite javne nabave (npr. postupak i za radove i za usluge), glavna priroda može, na primjer, biti ona s najvišom procijenjenom vrijednosti. Te se informacije moraju dati za cijeli postupak.</entry>
 <entry key="field|description|BT-23-Part">Glavna priroda (npr. radova) onoga što se kupuje. U slučaju mješovite javne nabave (npr. postupak i za radove i za usluge), glavna priroda može, na primjer, biti ona s najvišom procijenjenom vrijednosti. Te se informacije moraju dati za cijeli postupak.</entry>
 <entry key="field|description|BT-23-Part-List">Glavna priroda (npr. radova) onoga što se kupuje. U slučaju mješovite javne nabave (npr. postupak i za radove i za usluge), glavna priroda može, na primjer, biti ona s najvišom procijenjenom vrijednosti. Te se informacije moraju dati za cijeli postupak.</entry>
 <entry key="field|description|BT-23-Procedure">Glavna priroda (npr. radova) onoga što se kupuje. U slučaju mješovite javne nabave (npr. postupak i za radove i za usluge), glavna priroda može, na primjer, biti ona s najvišom procijenjenom vrijednosti. Te se informacije moraju dati za cijeli postupak.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Interna identifikacijska oznaka</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Interna identifikacijska oznaka</entry>
 <entry key="field|name|BT-23-Lot">Priroda ugovora</entry>
+<entry key="field|name|BT-23-Lot-List">Priroda ugovora</entry>
 <entry key="field|name|BT-23-Part">Priroda ugovora</entry>
 <entry key="field|name|BT-23-Part-List">Priroda ugovora</entry>
 <entry key="field|name|BT-23-Procedure">Priroda ugovora</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Naziv</entry>
 <entry key="field|name|BT-632-Part">Naziv</entry>
 <entry key="field|name|BT-633-Organization">Organizacija je fizička osoba</entry>
-<entry key="field|name|BT-634-Lot">Ovaj poništeni ili neuspješni postupak odnosno grupa bit će ponovo pokrenuti</entry>
-<entry key="field|name|BT-634-Procedure">Ovaj poništeni ili neuspješni postupak odnosno grupa bit će ponovo pokrenuti</entry>
+<entry key="field|name|BT-634-Lot">Ako je lot otkazan ili neuspješan, ponovno će se pokrenuti</entry>
+<entry key="field|name|BT-634-Procedure">Ako je postupak otkazan ili neuspješan, ponovno će se pokrenuti</entry>
 <entry key="field|name|BT-635-LotResult">Kupac – broj zahtjeva za pravnu zaštitu (preispitivanje)</entry>
 <entry key="field|name|BT-636-LotResult">Vrsta navodne nepravilnosti</entry>
 <entry key="field|name|BT-636-LotResult-List">Vrsta navodne nepravilnosti</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Javna nabava obuhvaćena je područjem primjene Direktive 2009/33/EZ Europskog parlamenta i Vijeća (Direktiva o čistim vozilima)</entry>
 <entry key="field|name|BT-718-notice">Datum izmjene dokumentacije o nabavi</entry>
 <entry key="field|name|BT-719-notice">Datum promjene dokumentacije javne nabave</entry>
-<entry key="field|name|BT-720-Tender">Vrijednost ishoda</entry>
-<entry key="field|name|BT-720-Tender-Currency">Vrijednost ishoda</entry>
+<entry key="field|name|BT-720-Tender">Vrijednost natječaja</entry>
+<entry key="field|name|BT-720-Tender-Currency">Vrijednost natječaja</entry>
 <entry key="field|name|BT-721-Contract">Naslov</entry>
 <entry key="field|name|BT-721-Contract-Language">Naslov</entry>
 <entry key="field|name|BT-722-Contract">Naziv projekta ili programa koji financira EU</entry>

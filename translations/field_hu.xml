@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Belső azonosító, amelyet az eljárásazonosító meghatározása előtt alkalmaznak a közbeszerzési eljárással vagy résszel kapcsolatos iratokra (pl. amely az ajánlatkérő szervezet dokumentumkezelő rendszeréből vagy a közbeszerzés-tervezési rendszeréből származik).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Belső azonosító, amelyet az eljárásazonosító meghatározása előtt alkalmaznak a közbeszerzési eljárással vagy résszel kapcsolatos iratokra (pl. amely az ajánlatkérő szervezet dokumentumkezelő rendszeréből vagy a közbeszerzés-tervezési rendszeréből származik).</entry>
 <entry key="field|description|BT-23-Lot">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
+<entry key="field|description|BT-23-Lot-List">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
 <entry key="field|description|BT-23-Part">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
 <entry key="field|description|BT-23-Part-List">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
 <entry key="field|description|BT-23-Procedure">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Belső azonosító</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Belső azonosító</entry>
 <entry key="field|name|BT-23-Lot">A szerződés jellege</entry>
+<entry key="field|name|BT-23-Lot-List">A szerződés jellege</entry>
 <entry key="field|name|BT-23-Part">A szerződés jellege</entry>
 <entry key="field|name|BT-23-Part-List">A szerződés jellege</entry>
 <entry key="field|name|BT-23-Procedure">A szerződés jellege</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Megnevezés</entry>
 <entry key="field|name|BT-632-Part">Megnevezés</entry>
 <entry key="field|name|BT-633-Organization">A szervezet természetes személy.</entry>
-<entry key="field|name|BT-634-Lot">Újból sor kerül majd e törölt vagy sikertelen eljárásra vagy annak egy részére</entry>
-<entry key="field|name|BT-634-Procedure">Újból sor kerül majd e törölt vagy sikertelen eljárásra vagy annak egy részére</entry>
+<entry key="field|name|BT-634-Lot">Ha a tétel törölve van vagy sikertelen, újraindítják</entry>
+<entry key="field|name|BT-634-Procedure">Ha az eljárás törölve van vagy sikertelen, újraindítják</entry>
 <entry key="field|name|BT-635-LotResult">Vevői felülvizsgálati kérelmek száma</entry>
 <entry key="field|name|BT-636-LotResult">Az állítólagos szabálytalanság típusa</entry>
 <entry key="field|name|BT-636-LotResult-List">Az állítólagos szabálytalanság típusa</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.</entry>
 <entry key="field|name|BT-718-notice">A közbeszerzési dokumentumokat ebben az időpontban módosították</entry>
 <entry key="field|name|BT-719-notice">A közbeszerzési dokumentumok megváltoztatásának dátuma</entry>
-<entry key="field|name|BT-720-Tender">Az eredmény értéke</entry>
-<entry key="field|name|BT-720-Tender-Currency">Az eredmény értéke</entry>
+<entry key="field|name|BT-720-Tender">Ajánlat értéke</entry>
+<entry key="field|name|BT-720-Tender-Currency">Ajánlat értéke</entry>
 <entry key="field|name|BT-721-Contract">Cím</entry>
 <entry key="field|name|BT-721-Contract-Language">Cím</entry>
 <entry key="field|name|BT-722-Contract">Az uniós finanszírozású projekt vagy program neve</entry>

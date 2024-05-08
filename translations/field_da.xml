@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Den interne identifikator, som anvendes for filer, der vedrører udbudsproceduren eller delkontrakten, forud for tildelingen af en identifikator for proceduren (f.eks. en identifikator fra købers dokumenthåndteringssystem eller system for udbudsplanlægning).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Den interne identifikator, som anvendes for filer, der vedrører udbudsproceduren eller delkontrakten, forud for tildelingen af en identifikator for proceduren (f.eks. en identifikator fra købers dokumenthåndteringssystem eller system for udbudsplanlægning).</entry>
 <entry key="field|description|BT-23-Lot">De vigtigste kendetegn (f.eks. bygge- og anlægsarbejder) ved det, der købes. I tilfælde af blandede udbud (f.eks. en procedure for både bygge- og anlægsarbejder og tjenesteydelser) kan de vigtigste kendetegn f.eks. være den del, der har den højeste anslåede værdi. Disse oplysninger skal forelægges for hele proceduren.</entry>
+<entry key="field|description|BT-23-Lot-List">De vigtigste kendetegn (f.eks. bygge- og anlægsarbejder) ved det, der købes. I tilfælde af blandede udbud (f.eks. en procedure for både bygge- og anlægsarbejder og tjenesteydelser) kan de vigtigste kendetegn f.eks. være den del, der har den højeste anslåede værdi. Disse oplysninger skal forelægges for hele proceduren.</entry>
 <entry key="field|description|BT-23-Part">De vigtigste kendetegn (f.eks. bygge- og anlægsarbejder) ved det, der købes. I tilfælde af blandede udbud (f.eks. en procedure for både bygge- og anlægsarbejder og tjenesteydelser) kan de vigtigste kendetegn f.eks. være den del, der har den højeste anslåede værdi. Disse oplysninger skal forelægges for hele proceduren.</entry>
 <entry key="field|description|BT-23-Part-List">De vigtigste kendetegn (f.eks. bygge- og anlægsarbejder) ved det, der købes. I tilfælde af blandede udbud (f.eks. en procedure for både bygge- og anlægsarbejder og tjenesteydelser) kan de vigtigste kendetegn f.eks. være den del, der har den højeste anslåede værdi. Disse oplysninger skal forelægges for hele proceduren.</entry>
 <entry key="field|description|BT-23-Procedure">De vigtigste kendetegn (f.eks. bygge- og anlægsarbejder) ved det, der købes. I tilfælde af blandede udbud (f.eks. en procedure for både bygge- og anlægsarbejder og tjenesteydelser) kan de vigtigste kendetegn f.eks. være den del, der har den højeste anslåede værdi. Disse oplysninger skal forelægges for hele proceduren.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Intern identifikator</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Intern identifikator</entry>
 <entry key="field|name|BT-23-Lot">Kontraktens art</entry>
+<entry key="field|name|BT-23-Lot-List">Kontraktens art</entry>
 <entry key="field|name|BT-23-Part">Kontraktens art</entry>
 <entry key="field|name|BT-23-Part-List">Kontraktens art</entry>
 <entry key="field|name|BT-23-Procedure">Kontraktens art</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Navn</entry>
 <entry key="field|name|BT-632-Part">Navn</entry>
 <entry key="field|name|BT-633-Organization">Organisationen er en fysisk person</entry>
-<entry key="field|name|BT-634-Lot">Denne procedure eller delkontrakt, der blev annulleret eller endte uden resultat, vil blive gentaget</entry>
-<entry key="field|name|BT-634-Procedure">Denne procedure eller delkontrakt, der blev annulleret eller endte uden resultat, vil blive gentaget</entry>
+<entry key="field|name|BT-634-Lot">Hvis partiet annulleres eller mislykkes, vil det blive genstartet</entry>
+<entry key="field|name|BT-634-Procedure">Hvis proceduren annulleres eller mislykkes, vil den blive genstartet</entry>
 <entry key="field|name|BT-635-LotResult">Antal anmodninger om købergennemgang</entry>
 <entry key="field|name|BT-636-LotResult">Arten af den påståede uregelmæssighed</entry>
 <entry key="field|name|BT-636-LotResult-List">Arten af den påståede uregelmæssighed</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Udbuddet falder ind under anvendelsesområdet for Europa-Parlamentets og Rådets direktiv 2009/33/EF (direktivet om renere køretøjer)</entry>
 <entry key="field|name|BT-718-notice">Udbudsdokumenterne blev ændret den</entry>
 <entry key="field|name|BT-719-notice">Dato for ændring af udbudsdokumenterne</entry>
-<entry key="field|name|BT-720-Tender">Værdien af resultatet</entry>
-<entry key="field|name|BT-720-Tender-Currency">Værdien af resultatet</entry>
+<entry key="field|name|BT-720-Tender">Værdien af udbuddet</entry>
+<entry key="field|name|BT-720-Tender-Currency">Værdien af udbuddet</entry>
 <entry key="field|name|BT-721-Contract">Titel</entry>
 <entry key="field|name|BT-721-Contract-Language">Titel</entry>
 <entry key="field|name|BT-722-Contract">Navn på EU-finansieret projekt eller program</entry>

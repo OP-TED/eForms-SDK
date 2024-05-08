@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Sisemine tunnus, mida kasutatakse seoses riigihangete või hanke osa andmestikega enne hanketunnuse määramist (nt hankija dokumendihaldussüsteemi või hanke kavandamise süsteemi põhjal).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Sisemine tunnus, mida kasutatakse seoses riigihangete või hanke osa andmestikega enne hanketunnuse määramist (nt hankija dokumendihaldussüsteemi või hanke kavandamise süsteemi põhjal).</entry>
 <entry key="field|description|BT-23-Lot">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
+<entry key="field|description|BT-23-Lot-List">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
 <entry key="field|description|BT-23-Part">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
 <entry key="field|description|BT-23-Part-List">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
 <entry key="field|description|BT-23-Procedure">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Sisemine tunnus</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Sisemine tunnus</entry>
 <entry key="field|name|BT-23-Lot">Lepingu olemus</entry>
+<entry key="field|name|BT-23-Lot-List">Lepingu olemus</entry>
 <entry key="field|name|BT-23-Part">Lepingu olemus</entry>
 <entry key="field|name|BT-23-Part-List">Lepingu olemus</entry>
 <entry key="field|name|BT-23-Procedure">Lepingu olemus</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Nimi</entry>
 <entry key="field|name|BT-632-Part">Nimi</entry>
 <entry key="field|name|BT-633-Organization">Organisatsioon on füüsiline isik</entry>
-<entry key="field|name|BT-634-Lot">Tühistatud või ebaõnnestunud hange või selle osa korraldatakse uuesti</entry>
-<entry key="field|name|BT-634-Procedure">Tühistatud või ebaõnnestunud hange või selle osa korraldatakse uuesti</entry>
+<entry key="field|name|BT-634-Lot">Kui partii tühistatakse või ebaõnnestub, käivitatakse see uuesti</entry>
+<entry key="field|name|BT-634-Procedure">Kui protseduur tühistatakse või ebaõnnestub, käivitatakse see uuesti</entry>
 <entry key="field|name|BT-635-LotResult">Hankija – läbivaatamine – taotluste arv</entry>
 <entry key="field|name|BT-636-LotResult">Väidetava rikkumise liik</entry>
 <entry key="field|name|BT-636-LotResult-List">Väidetava rikkumise liik</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse</entry>
 <entry key="field|name|BT-718-notice">Hankedokumente muudeti</entry>
 <entry key="field|name|BT-719-notice">Hankedokumentide muutmise kuupäev</entry>
-<entry key="field|name|BT-720-Tender">Tulemuse väärtus</entry>
-<entry key="field|name|BT-720-Tender-Currency">Tulemuse väärtus</entry>
+<entry key="field|name|BT-720-Tender">Hankepakkumise väärtus</entry>
+<entry key="field|name|BT-720-Tender-Currency">Hankepakkumise väärtus</entry>
 <entry key="field|name|BT-721-Contract">Pealkiri</entry>
 <entry key="field|name|BT-721-Contract-Language">Pealkiri</entry>
 <entry key="field|name|BT-722-Contract">ELi rahastatud projekti või programmi nimi</entry>

@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Vidaus identifikatorius, naudojamas pirkimo procedūros arba pirkimo dalies byloms prieš suteikiant procedūros identifikatorių (pvz., suteiktas pirkėjo dokumentų tvarkymo sistemos arba viešojo pirkimo planavimo sistemos).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Vidaus identifikatorius, naudojamas pirkimo procedūros arba pirkimo dalies byloms prieš suteikiant procedūros identifikatorių (pvz., suteiktas pirkėjo dokumentų tvarkymo sistemos arba viešojo pirkimo planavimo sistemos).</entry>
 <entry key="field|description|BT-23-Lot">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
+<entry key="field|description|BT-23-Lot-List">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
 <entry key="field|description|BT-23-Part">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
 <entry key="field|description|BT-23-Part-List">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
 <entry key="field|description|BT-23-Procedure">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Vidaus identifikatorius</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Vidaus identifikatorius</entry>
 <entry key="field|name|BT-23-Lot">Sutarties objektas</entry>
+<entry key="field|name|BT-23-Lot-List">Sutarties objektas</entry>
 <entry key="field|name|BT-23-Part">Sutarties objektas</entry>
 <entry key="field|name|BT-23-Part-List">Sutarties objektas</entry>
 <entry key="field|name|BT-23-Procedure">Sutarties objektas</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Pavadinimas</entry>
 <entry key="field|name|BT-632-Part">Pavadinimas</entry>
 <entry key="field|name|BT-633-Organization">Organizacija yra fizinis asmuo</entry>
-<entry key="field|name|BT-634-Lot">Ši atšaukta arba nesėkminga procedūra ar pirkimo dalis bus skelbiama iš naujo</entry>
-<entry key="field|name|BT-634-Procedure">Ši atšaukta arba nesėkminga procedūra ar pirkimo dalis bus skelbiama iš naujo</entry>
+<entry key="field|name|BT-634-Lot">Jei partija bus atšaukta arba nesėkminga, ji bus paleista iš naujo</entry>
+<entry key="field|name|BT-634-Procedure">Jei procedūra bus atšaukta arba nesėkminga, ji bus paleista iš naujo</entry>
 <entry key="field|name|BT-635-LotResult">Pirkėjo peržiūros prašymų skaičius</entry>
 <entry key="field|name|BT-636-LotResult">Įtariamo pažeidimo rūšis</entry>
 <entry key="field|name|BT-636-LotResult-List">Įtariamo pažeidimo rūšis</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Pirkimui taikoma Europos Parlamento ir Tarybos direktyva 2009/33/EB (Netaršių transporto priemonių direktyva (NTPD))</entry>
 <entry key="field|name|BT-718-notice">Pirkimo dokumentai buvo pakeisti</entry>
 <entry key="field|name|BT-719-notice">Pirkimo dokumentų pasikeitimo data</entry>
-<entry key="field|name|BT-720-Tender">Rezultato vertė</entry>
-<entry key="field|name|BT-720-Tender-Currency">Rezultato vertė</entry>
+<entry key="field|name|BT-720-Tender">Pasiūlymo vertė</entry>
+<entry key="field|name|BT-720-Tender-Currency">Pasiūlymo vertė</entry>
 <entry key="field|name|BT-721-Contract">Pavadinimas</entry>
 <entry key="field|name|BT-721-Contract-Language">Pavadinimas</entry>
 <entry key="field|name|BT-722-Contract">ES finansuojamo projekto arba programos pavadinimas</entry>

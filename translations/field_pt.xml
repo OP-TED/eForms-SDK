@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">O identificador interno utilizado para os dossiês relativos ao processo de adjudicação ou ao lote antes de ser indicado um identificador do processo (proveniente, p. ex., do sistema de gestão de documentos do adquirente ou do sistema de planeamento da adjudicação de contratos).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">O identificador interno utilizado para os dossiês relativos ao processo de adjudicação ou ao lote antes de ser indicado um identificador do processo (proveniente, p. ex., do sistema de gestão de documentos do adquirente ou do sistema de planeamento da adjudicação de contratos).</entry>
 <entry key="field|description|BT-23-Lot">A natureza principal (p. ex., obras) do que é adquirido. No caso de concursos mistos (p. ex., um processo que abrange obras e serviços), a natureza principal pode ser, p. ex., a do contrato que apresenta o valor estimado mais elevado. Estas informações devem ser fornecidas para a totalidade do processo.</entry>
+<entry key="field|description|BT-23-Lot-List">A natureza principal (p. ex., obras) do que é adquirido. No caso de concursos mistos (p. ex., um processo que abrange obras e serviços), a natureza principal pode ser, p. ex., a do contrato que apresenta o valor estimado mais elevado. Estas informações devem ser fornecidas para a totalidade do processo.</entry>
 <entry key="field|description|BT-23-Part">A natureza principal (p. ex., obras) do que é adquirido. No caso de concursos mistos (p. ex., um processo que abrange obras e serviços), a natureza principal pode ser, p. ex., a do contrato que apresenta o valor estimado mais elevado. Estas informações devem ser fornecidas para a totalidade do processo.</entry>
 <entry key="field|description|BT-23-Part-List">A natureza principal (p. ex., obras) do que é adquirido. No caso de concursos mistos (p. ex., um processo que abrange obras e serviços), a natureza principal pode ser, p. ex., a do contrato que apresenta o valor estimado mais elevado. Estas informações devem ser fornecidas para a totalidade do processo.</entry>
 <entry key="field|description|BT-23-Procedure">A natureza principal (p. ex., obras) do que é adquirido. No caso de concursos mistos (p. ex., um processo que abrange obras e serviços), a natureza principal pode ser, p. ex., a do contrato que apresenta o valor estimado mais elevado. Estas informações devem ser fornecidas para a totalidade do processo.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Identificador interno</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Identificador interno</entry>
 <entry key="field|name|BT-23-Lot">Natureza do contrato</entry>
+<entry key="field|name|BT-23-Lot-List">Natureza do contrato</entry>
 <entry key="field|name|BT-23-Part">Natureza do contrato</entry>
 <entry key="field|name|BT-23-Part-List">Natureza do contrato</entry>
 <entry key="field|name|BT-23-Procedure">Natureza do contrato</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Nome</entry>
 <entry key="field|name|BT-632-Part">Nome</entry>
 <entry key="field|name|BT-633-Organization">A organização é uma pessoa singular</entry>
-<entry key="field|name|BT-634-Lot">Este concurso ou lote anulado ou infrutífero será relançado</entry>
-<entry key="field|name|BT-634-Procedure">Este concurso ou lote anulado ou infrutífero será relançado</entry>
+<entry key="field|name|BT-634-Lot">Se o lote for cancelado ou não tiver sucesso, será relançado</entry>
+<entry key="field|name|BT-634-Procedure">Se o procedimento for cancelado ou não tiver sucesso, será relançado</entry>
 <entry key="field|name|BT-635-LotResult">N.º de pedidos de recursos ao adquirente</entry>
 <entry key="field|name|BT-636-LotResult">Tipo de irregularidade alegada</entry>
 <entry key="field|name|BT-636-LotResult-List">Tipo de irregularidade alegada</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">O processo de adjudicação está abrangido pela Diretiva 2009/33/CE do Parlamento Europeu e do Conselho (Diretiva Veículos Não Poluentes – DVNP)</entry>
 <entry key="field|name|BT-718-notice">Os documentos do concurso foram alterados em</entry>
 <entry key="field|name|BT-719-notice">Data de alteração dos documentos do concurso</entry>
-<entry key="field|name|BT-720-Tender">Valor do resultado</entry>
-<entry key="field|name|BT-720-Tender-Currency">Valor do resultado</entry>
+<entry key="field|name|BT-720-Tender">Valor do concurso</entry>
+<entry key="field|name|BT-720-Tender-Currency">Valor do concurso</entry>
 <entry key="field|name|BT-721-Contract">Título</entry>
 <entry key="field|name|BT-721-Contract-Language">Título</entry>
 <entry key="field|name|BT-722-Contract">Nome do projeto ou programa financiado pela UE</entry>

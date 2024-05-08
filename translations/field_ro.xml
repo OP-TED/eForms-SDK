@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Identificatorul intern utilizat pentru dosarele referitoare la procedura de achiziții sau la lot înainte de furnizarea unui identificator al procedurii (provenind, de exemplu, de la sistemele utilizate de cumpărător pentru gestionarea documentelor sau pentru planificarea achizițiilor).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Identificatorul intern utilizat pentru dosarele referitoare la procedura de achiziții sau la lot înainte de furnizarea unui identificator al procedurii (provenind, de exemplu, de la sistemele utilizate de cumpărător pentru gestionarea documentelor sau pentru planificarea achizițiilor).</entry>
 <entry key="field|description|BT-23-Lot">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
+<entry key="field|description|BT-23-Lot-List">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
 <entry key="field|description|BT-23-Part">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
 <entry key="field|description|BT-23-Part-List">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
 <entry key="field|description|BT-23-Procedure">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Identificator intern</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Identificator intern</entry>
 <entry key="field|name|BT-23-Lot">Natura contractului</entry>
+<entry key="field|name|BT-23-Lot-List">Natura contractului</entry>
 <entry key="field|name|BT-23-Part">Natura contractului</entry>
 <entry key="field|name|BT-23-Part-List">Natura contractului</entry>
 <entry key="field|name|BT-23-Procedure">Natura contractului</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Nume</entry>
 <entry key="field|name|BT-632-Part">Nume</entry>
 <entry key="field|name|BT-633-Organization">Organizația este o persoană fizică</entry>
-<entry key="field|name|BT-634-Lot">Această procedură/acest lot anulat(ă) sau eșuat(ă) va fi relansat(ă)</entry>
-<entry key="field|name|BT-634-Procedure">Această procedură/acest lot anulat(ă) sau eșuat(ă) va fi relansat(ă)</entry>
+<entry key="field|name|BT-634-Lot">Dacă lotul este anulat sau nereușit, acesta va fi reluat</entry>
+<entry key="field|name|BT-634-Procedure">Dacă procedura este anulată sau nereușită, aceasta va fi reluată</entry>
 <entry key="field|name|BT-635-LotResult">Numărul cererilor de soluționare a căilor de atac adresate cumpărătorului</entry>
 <entry key="field|name|BT-636-LotResult">Tipul de presupusă neregulă</entry>
 <entry key="field|name|BT-636-LotResult-List">Tipul de presupusă neregulă</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).</entry>
 <entry key="field|name|BT-718-notice">Documentele achiziției au fost modificate la data de</entry>
 <entry key="field|name|BT-719-notice">Modificarea datei în documentele privind achiziția</entry>
-<entry key="field|name|BT-720-Tender">Valoarea rezultatului</entry>
-<entry key="field|name|BT-720-Tender-Currency">Valoarea rezultatului</entry>
+<entry key="field|name|BT-720-Tender">Valoarea licitației</entry>
+<entry key="field|name|BT-720-Tender-Currency">Valoarea licitației</entry>
 <entry key="field|name|BT-721-Contract">Titlu</entry>
 <entry key="field|name|BT-721-Contract-Language">Titlu</entry>
 <entry key="field|name|BT-722-Contract">Denumirea proiectului sau a programului finanțat de UE</entry>

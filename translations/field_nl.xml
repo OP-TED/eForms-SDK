@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">De interne identificatiecode die voor bestanden met betrekking tot de aanbestedingsprocedure of het perceel wordt gebruikt voordat aan de procedure een identificatiecode is toegewezen (bv. afkomstig van het systeem voor documentbeheer of voor de planning van aanbestedingen van de koper).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">De interne identificatiecode die voor bestanden met betrekking tot de aanbestedingsprocedure of het perceel wordt gebruikt voordat aan de procedure een identificatiecode is toegewezen (bv. afkomstig van het systeem voor documentbeheer of voor de planning van aanbestedingen van de koper).</entry>
 <entry key="field|description|BT-23-Lot">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
+<entry key="field|description|BT-23-Lot-List">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
 <entry key="field|description|BT-23-Part">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
 <entry key="field|description|BT-23-Part-List">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
 <entry key="field|description|BT-23-Procedure">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Interne identificatiecode</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Interne identificatiecode</entry>
 <entry key="field|name|BT-23-Lot">Aard van het contract</entry>
+<entry key="field|name|BT-23-Lot-List">Aard van het contract</entry>
 <entry key="field|name|BT-23-Part">Aard van het contract</entry>
 <entry key="field|name|BT-23-Part-List">Aard van het contract</entry>
 <entry key="field|name|BT-23-Procedure">Aard van het contract</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Naam</entry>
 <entry key="field|name|BT-632-Part">Naam</entry>
 <entry key="field|name|BT-633-Organization">De organisatie is een natuurlijk persoon</entry>
-<entry key="field|name|BT-634-Lot">Deze procedure of dit perceel is geannuleerd of was niet succesvol en zal opnieuw worden aanbesteed</entry>
-<entry key="field|name|BT-634-Procedure">Deze procedure of dit perceel is geannuleerd of was niet succesvol en zal opnieuw worden aanbesteed</entry>
+<entry key="field|name|BT-634-Lot">Als de kavel wordt geannuleerd of niet succesvol is, wordt deze opnieuw gestart</entry>
+<entry key="field|name|BT-634-Procedure">Als de procedure wordt geannuleerd of niet succesvol is, wordt deze opnieuw gestart</entry>
 <entry key="field|name|BT-635-LotResult">Aantal beroepen van kopers</entry>
 <entry key="field|name|BT-636-LotResult">Aard van de vermeende onregelmatigheid</entry>
 <entry key="field|name|BT-636-LotResult-List">Aard van de vermeende onregelmatigheid</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)</entry>
 <entry key="field|name|BT-718-notice">De aanbestedingsstukken zijn gewijzigd op</entry>
 <entry key="field|name|BT-719-notice">Datum van wijziging van de aanbestedingsstukken</entry>
-<entry key="field|name|BT-720-Tender">Waarde van het resultaat</entry>
-<entry key="field|name|BT-720-Tender-Currency">Waarde van het resultaat</entry>
+<entry key="field|name|BT-720-Tender">Waarde van de aanbesteding</entry>
+<entry key="field|name|BT-720-Tender-Currency">Waarde van de aanbesteding</entry>
 <entry key="field|name|BT-721-Contract">Titel</entry>
 <entry key="field|name|BT-721-Contract-Language">Titel</entry>
 <entry key="field|name|BT-722-Contract">Naam van door de EU gefinancierd project of programma</entry>

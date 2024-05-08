@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">An t‑aitheantóir inmheánach a úsáidtear le haghaidh comhaid a bhaineann leis an nós imeachta soláthair nó leis an mbeart sula dtugtar aitheantóir nós imeachta (e.g. ceann a thagann ó chóras bainistithe doiciméad nó ó chóras pleanála soláthair an cheannaitheora).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">An t‑aitheantóir inmheánach a úsáidtear le haghaidh comhaid a bhaineann leis an nós imeachta soláthair nó leis an mbeart sula dtugtar aitheantóir nós imeachta (e.g. ceann a thagann ó chóras bainistithe doiciméad nó ó chóras pleanála soláthair an cheannaitheora).</entry>
 <entry key="field|description|BT-23-Lot">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
+<entry key="field|description|BT-23-Lot-List">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
 <entry key="field|description|BT-23-Part">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
 <entry key="field|description|BT-23-Part-List">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
 <entry key="field|description|BT-23-Procedure">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Aitheantóir inmheánach</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Aitheantóir inmheánach</entry>
 <entry key="field|name|BT-23-Lot">Cineál an chonartha</entry>
+<entry key="field|name|BT-23-Lot-List">Cineál an chonartha</entry>
 <entry key="field|name|BT-23-Part">Cineál an chonartha</entry>
 <entry key="field|name|BT-23-Part-List">Cineál an chonartha</entry>
 <entry key="field|name|BT-23-Procedure">Cineál an chonartha</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Ainm</entry>
 <entry key="field|name|BT-632-Part">Ainm</entry>
 <entry key="field|name|BT-633-Organization">Is duine nádúrtha í an eagraíocht</entry>
-<entry key="field|name|BT-634-Lot">Athsheolfar an nós imeachta nó an luchtóg sin a cuireadh ar ceal nó a theip air</entry>
-<entry key="field|name|BT-634-Procedure">Athsheolfar an nós imeachta nó an luchtóg sin a cuireadh ar ceal nó a theip air</entry>
+<entry key="field|name|BT-634-Lot">Má chuirtear an lot ar ceal nó má theipeann air, seolfar é arís</entry>
+<entry key="field|name|BT-634-Procedure">Má chuirtear ar ceal é nó má theipeann air, seolfar an nós imeachta arís</entry>
 <entry key="field|name|BT-635-LotResult">Líon na n-iarratas ar athbhreithniú ceannaitheora</entry>
 <entry key="field|name|BT-636-LotResult">Cineál na neamhrialtachta líomhnaithe</entry>
 <entry key="field|name|BT-636-LotResult-List">Cineál na neamhrialtachta líomhnaithe</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)</entry>
 <entry key="field|name|BT-718-notice">Athraíodh na doiciméid soláthair an</entry>
 <entry key="field|name|BT-719-notice">Dáta na ndoiciméad soláthair a athrú</entry>
-<entry key="field|name|BT-720-Tender">Luach an toraidh</entry>
-<entry key="field|name|BT-720-Tender-Currency">Luach an toraidh</entry>
+<entry key="field|name|BT-720-Tender">Luach an tairisceana</entry>
+<entry key="field|name|BT-720-Tender-Currency">Luach an tairisceana</entry>
 <entry key="field|name|BT-721-Contract">Teideal</entry>
 <entry key="field|name|BT-721-Contract-Language">Teideal</entry>
 <entry key="field|name|BT-722-Contract">Ainm an tionscadail nó an chláir a fuair maoiniú ón Aontas</entry>

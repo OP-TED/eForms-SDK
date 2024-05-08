@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Hankintamenettelyyn tai yksittäiseen erään liittyvien tiedostojen sisäinen tunniste, jota käytetään ennen menettelytunnisteen antamista. Sisäinen tunniste voi olla peräisin esimerkiksi ostajan asiakirjahallinta- tai hankintasuunnittelujärjestelmästä.</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Hankintamenettelyyn tai yksittäiseen erään liittyvien tiedostojen sisäinen tunniste, jota käytetään ennen menettelytunnisteen antamista. Sisäinen tunniste voi olla peräisin esimerkiksi ostajan asiakirjahallinta- tai hankintasuunnittelujärjestelmästä.</entry>
 <entry key="field|description|BT-23-Lot">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
+<entry key="field|description|BT-23-Lot-List">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
 <entry key="field|description|BT-23-Part">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
 <entry key="field|description|BT-23-Part-List">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
 <entry key="field|description|BT-23-Procedure">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Sisäinen tunniste</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Sisäinen tunniste</entry>
 <entry key="field|name|BT-23-Lot">Sopimuksen kategoria</entry>
+<entry key="field|name|BT-23-Lot-List">Sopimuksen kategoria</entry>
 <entry key="field|name|BT-23-Part">Sopimuksen kategoria</entry>
 <entry key="field|name|BT-23-Part-List">Sopimuksen kategoria</entry>
 <entry key="field|name|BT-23-Procedure">Sopimuksen kategoria</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Nimi</entry>
 <entry key="field|name|BT-632-Part">Nimi</entry>
 <entry key="field|name|BT-633-Organization">Organisaatio on luonnollinen henkilö</entry>
-<entry key="field|name|BT-634-Lot">Tämä peruutettu tai tulokseton menettely tai erä käynnistetään uudelleen</entry>
-<entry key="field|name|BT-634-Procedure">Tämä peruutettu tai tulokseton menettely tai erä käynnistetään uudelleen</entry>
+<entry key="field|name|BT-634-Lot">Jos erä peruutetaan tai epäonnistuu, se käynnistetään uudelleen</entry>
+<entry key="field|name|BT-634-Procedure">Jos menettely peruutetaan tai epäonnistuu, se käynnistetään uudelleen</entry>
 <entry key="field|name|BT-635-LotResult">Muutoksenhakujen lukumäärä</entry>
 <entry key="field|name|BT-636-LotResult">Muutoksenhauissa väitetyt sääntöjenvastaisuudet tyypiltään</entry>
 <entry key="field|name|BT-636-LotResult-List">Muutoksenhauissa väitetyt sääntöjenvastaisuudet tyypiltään</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan</entry>
 <entry key="field|name|BT-718-notice">Hankinta-asiakirjoja on muutettu</entry>
 <entry key="field|name|BT-719-notice">Hankinta-asiakirjojen muutoksen päivämäärä</entry>
-<entry key="field|name|BT-720-Tender">Tuloksen arvo</entry>
-<entry key="field|name|BT-720-Tender-Currency">Tuloksen arvo</entry>
+<entry key="field|name|BT-720-Tender">Tarjouksen arvo</entry>
+<entry key="field|name|BT-720-Tender-Currency">Tarjouksen arvo</entry>
 <entry key="field|name|BT-721-Contract">Otsikko</entry>
 <entry key="field|name|BT-721-Contract-Language">Otsikko</entry>
 <entry key="field|name|BT-722-Contract">EU:n rahoittaman hankkeen tai ohjelman nimi</entry>

@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">L'identificativo interno utilizzato per i fascicoli riguardanti la procedura di appalto o il lotto prima dell'attribuzione di un identificativo della procedura (ad es. assegnato dal sistema di gestione dei documenti del committente o dal sistema di programmazione degli appalti).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">L'identificativo interno utilizzato per i fascicoli riguardanti la procedura di appalto o il lotto prima dell'attribuzione di un identificativo della procedura (ad es. assegnato dal sistema di gestione dei documenti del committente o dal sistema di programmazione degli appalti).</entry>
 <entry key="field|description|BT-23-Lot">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
+<entry key="field|description|BT-23-Lot-List">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
 <entry key="field|description|BT-23-Part">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
 <entry key="field|description|BT-23-Part-List">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
 <entry key="field|description|BT-23-Procedure">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Identificativo interno</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Identificativo interno</entry>
 <entry key="field|name|BT-23-Lot">Natura dell'appalto</entry>
+<entry key="field|name|BT-23-Lot-List">Natura dell'appalto</entry>
 <entry key="field|name|BT-23-Part">Natura dell'appalto</entry>
 <entry key="field|name|BT-23-Part-List">Natura dell'appalto</entry>
 <entry key="field|name|BT-23-Procedure">Natura dell'appalto</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Nome</entry>
 <entry key="field|name|BT-632-Part">Nome</entry>
 <entry key="field|name|BT-633-Organization">L'organizzazione è una persona fisica</entry>
-<entry key="field|name|BT-634-Lot">La procedura o il lotto in questione, annullata/o o senza esito, sarà indetta/o nuovamente</entry>
-<entry key="field|name|BT-634-Procedure">La procedura o il lotto in questione, annullata/o o senza esito, sarà indetta/o nuovamente</entry>
+<entry key="field|name|BT-634-Lot">Se il lotto viene annullato o non ha successo, verrà rilanciato</entry>
+<entry key="field|name|BT-634-Procedure">Se la procedura viene annullata o non ha successo, verrà rilanciata</entry>
 <entry key="field|name|BT-635-LotResult">Numero dei ricorsi al committente</entry>
 <entry key="field|name|BT-636-LotResult">Tipo di presunta irregolarità</entry>
 <entry key="field|name|BT-636-LotResult-List">Tipo di presunta irregolarità</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">L'appalto rientra nell'ambito di applicazione della direttiva 2009/33/CE del Parlamento europeo e del Consiglio sulla promozione di veicoli puliti (direttiva sui veicoli puliti o CVD)</entry>
 <entry key="field|name|BT-718-notice">I documenti di gara sono stati modificati il</entry>
 <entry key="field|name|BT-719-notice">Rettifica di documenti di gara: data</entry>
-<entry key="field|name|BT-720-Tender">Valore del risultato</entry>
-<entry key="field|name|BT-720-Tender-Currency">Valore del risultato</entry>
+<entry key="field|name|BT-720-Tender">Valore dell'offerta</entry>
+<entry key="field|name|BT-720-Tender-Currency">Valore dell'offerta</entry>
 <entry key="field|name|BT-721-Contract">Titolo</entry>
 <entry key="field|name|BT-721-Contract-Language">Titolo</entry>
 <entry key="field|name|BT-722-Contract">Nome del progetto o programma finanziato dall'UE</entry>

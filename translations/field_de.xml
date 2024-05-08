@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Die interne Kennung wird für Dateien im Zusammenhang mit dem Vergabeverfahren oder Los verwendet, bevor eine Verfahrenskennung vergeben wird (z. B. Dateien aus dem Dokumentmanagement- oder Vergabeplanungssystem des Beschaffers).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Die interne Kennung wird für Dateien im Zusammenhang mit dem Vergabeverfahren oder Los verwendet, bevor eine Verfahrenskennung vergeben wird (z. B. Dateien aus dem Dokumentmanagement- oder Vergabeplanungssystem des Beschaffers).</entry>
 <entry key="field|description|BT-23-Lot">Die Hauptkategorie der Auftragsvergabe (z. B. Bauleistungen). Bei gemischten Aufträgen (z. B. Verfahren für Bau- und Dienstleistungsaufträge) kann die Hauptkategorie beispielsweise durch den Auftrag mit dem höchsten geschätzten Wert dargestellt werden. Diese Angaben erfolgen für das gesamte Verfahren.</entry>
+<entry key="field|description|BT-23-Lot-List">Die Hauptkategorie der Auftragsvergabe (z. B. Bauleistungen). Bei gemischten Aufträgen (z. B. Verfahren für Bau- und Dienstleistungsaufträge) kann die Hauptkategorie beispielsweise durch den Auftrag mit dem höchsten geschätzten Wert dargestellt werden. Diese Angaben erfolgen für das gesamte Verfahren.</entry>
 <entry key="field|description|BT-23-Part">Die Hauptkategorie der Auftragsvergabe (z. B. Bauleistungen). Bei gemischten Aufträgen (z. B. Verfahren für Bau- und Dienstleistungsaufträge) kann die Hauptkategorie beispielsweise durch den Auftrag mit dem höchsten geschätzten Wert dargestellt werden. Diese Angaben erfolgen für das gesamte Verfahren.</entry>
 <entry key="field|description|BT-23-Part-List">Die Hauptkategorie der Auftragsvergabe (z. B. Bauleistungen). Bei gemischten Aufträgen (z. B. Verfahren für Bau- und Dienstleistungsaufträge) kann die Hauptkategorie beispielsweise durch den Auftrag mit dem höchsten geschätzten Wert dargestellt werden. Diese Angaben erfolgen für das gesamte Verfahren.</entry>
 <entry key="field|description|BT-23-Procedure">Die Hauptkategorie der Auftragsvergabe (z. B. Bauleistungen). Bei gemischten Aufträgen (z. B. Verfahren für Bau- und Dienstleistungsaufträge) kann die Hauptkategorie beispielsweise durch den Auftrag mit dem höchsten geschätzten Wert dargestellt werden. Diese Angaben erfolgen für das gesamte Verfahren.</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Interne Kennung</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Interne Kennung</entry>
 <entry key="field|name|BT-23-Lot">Art des Auftrags</entry>
+<entry key="field|name|BT-23-Lot-List">Art des Auftrags</entry>
 <entry key="field|name|BT-23-Part">Art des Auftrags</entry>
 <entry key="field|name|BT-23-Part-List">Art des Auftrags</entry>
 <entry key="field|name|BT-23-Procedure">Art des Auftrags</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Name</entry>
 <entry key="field|name|BT-632-Part">Name</entry>
 <entry key="field|name|BT-633-Organization">Die Organisation ist eine natürliche Person.</entry>
-<entry key="field|name|BT-634-Lot">Dieses annullierte oder ergebnislos gebliebene Verfahren oder Los wird neu aufgelegt</entry>
-<entry key="field|name|BT-634-Procedure">Dieses annullierte oder ergebnislos gebliebene Verfahren oder Los wird neu aufgelegt</entry>
+<entry key="field|name|BT-634-Lot">Wenn das Los abgebrochen oder nicht erfolgreich ist, wird es neu gestartet</entry>
+<entry key="field|name|BT-634-Procedure">Wenn das Verfahren abgebrochen oder nicht erfolgreich ist, wird es neu gestartet</entry>
 <entry key="field|name|BT-635-LotResult">Anzahl der Nachprüfungsanträge – Beschaffer</entry>
 <entry key="field|name|BT-636-LotResult">Art der behaupteten Unregelmäßigkeit</entry>
 <entry key="field|name|BT-636-LotResult-List">Art der behaupteten Unregelmäßigkeit</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))</entry>
 <entry key="field|name|BT-718-notice">Änderung der Auftragsunterlagen am</entry>
 <entry key="field|name|BT-719-notice">Datum der Änderung der Auftragsunterlagen</entry>
-<entry key="field|name|BT-720-Tender">Wert des Ergebnisses</entry>
-<entry key="field|name|BT-720-Tender-Currency">Wert des Ergebnisses</entry>
+<entry key="field|name|BT-720-Tender">Wert der Ausschreibung</entry>
+<entry key="field|name|BT-720-Tender-Currency">Wert der Ausschreibung</entry>
 <entry key="field|name|BT-721-Contract">Titel</entry>
 <entry key="field|name|BT-721-Contract-Language">Titel</entry>
 <entry key="field|name|BT-722-Contract">Bezeichnung des von der EU finanzierten Projekts oder Programms</entry>

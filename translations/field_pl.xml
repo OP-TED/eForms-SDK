@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Wewnętrzny identyfikator stosowany w przypadku dokumentacji dotyczącej postępowania o udzielenie zamówienia lub części zamówienia przed nadaniem identyfikatora postępowania (np. pochodzący z systemu zarządzania dokumentami nabywcy lub z jego systemu planowania zamówień).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Wewnętrzny identyfikator stosowany w przypadku dokumentacji dotyczącej postępowania o udzielenie zamówienia lub części zamówienia przed nadaniem identyfikatora postępowania (np. pochodzący z systemu zarządzania dokumentami nabywcy lub z jego systemu planowania zamówień).</entry>
 <entry key="field|description|BT-23-Lot">Główny charakter (np. roboty budowlane) dokonywanych zakupów. W przypadku zamówień mieszanych (np. postępowania dotyczącego zarówno robót budowlanych, jak i usług) główny charakter można ustalić na przykład na podstawie przedmiotu zakupu o najwyższej szacowanej wartości. Informacje te należy podawać dla całego postępowania.</entry>
+<entry key="field|description|BT-23-Lot-List">Główny charakter (np. roboty budowlane) dokonywanych zakupów. W przypadku zamówień mieszanych (np. postępowania dotyczącego zarówno robót budowlanych, jak i usług) główny charakter można ustalić na przykład na podstawie przedmiotu zakupu o najwyższej szacowanej wartości. Informacje te należy podawać dla całego postępowania.</entry>
 <entry key="field|description|BT-23-Part">Główny charakter (np. roboty budowlane) dokonywanych zakupów. W przypadku zamówień mieszanych (np. postępowania dotyczącego zarówno robót budowlanych, jak i usług) główny charakter można ustalić na przykład na podstawie przedmiotu zakupu o najwyższej szacowanej wartości. Informacje te należy podawać dla całego postępowania.</entry>
 <entry key="field|description|BT-23-Part-List">Główny charakter (np. roboty budowlane) dokonywanych zakupów. W przypadku zamówień mieszanych (np. postępowania dotyczącego zarówno robót budowlanych, jak i usług) główny charakter można ustalić na przykład na podstawie przedmiotu zakupu o najwyższej szacowanej wartości. Informacje te należy podawać dla całego postępowania.</entry>
 <entry key="field|description|BT-23-Procedure">Główny charakter (np. roboty budowlane) dokonywanych zakupów. W przypadku zamówień mieszanych (np. postępowania dotyczącego zarówno robót budowlanych, jak i usług) główny charakter można ustalić na przykład na podstawie przedmiotu zakupu o najwyższej szacowanej wartości. Informacje te należy podawać dla całego postępowania.</entry>
@@ -1311,15 +1312,15 @@
 <entry key="field|name|BT-140-notice-List">Główny powód zmiany</entry>
 <entry key="field|name|BT-141(a)-notice">Opis zmian</entry>
 <entry key="field|name|BT-141(a)-notice-Language">Opis zmian</entry>
-<entry key="field|name|BT-142-LotResult">Status wyboru zwycięzcy konkursu</entry>
-<entry key="field|name|BT-142-LotResult-List">Status wyboru zwycięzcy konkursu</entry>
+<entry key="field|name|BT-142-LotResult">Status wyboru zwycięzcy</entry>
+<entry key="field|name|BT-142-LotResult-List">Status wyboru zwycięzcy</entry>
 <entry key="field|name|BT-144-LotResult">Powód, dla którego nie wyłoniono zwycięzcy</entry>
 <entry key="field|name|BT-144-LotResult-List">Powód, dla którego nie wyłoniono zwycięzcy</entry>
 <entry key="field|name|BT-145-Contract">Data zawarcia umowy</entry>
 <entry key="field|name|BT-1451-Contract">Data wyboru zwycięzcy</entry>
 <entry key="field|name|BT-15-Lot">Adres dokumentów zamówienia</entry>
 <entry key="field|name|BT-15-Part">Adres dokumentów zamówienia</entry>
-<entry key="field|name|BT-150-Contract">Identyfikator zamówienia</entry>
+<entry key="field|name|BT-150-Contract">Identyfikator umowy</entry>
 <entry key="field|name|BT-1501(c)-Contract">Identyfikator zmodyfikowanego kontraktu</entry>
 <entry key="field|name|BT-1501(c)-Contract-Scheme">Identyfikator sekcji</entry>
 <entry key="field|name|BT-1501(n)-Contract">Identyfikator poprzedniego ogłoszenia o udzieleniu zamówienia</entry>
@@ -1797,6 +1798,7 @@
 <entry key="field|name|BT-22-Procedure">Wewnętrzny identyfikator</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Wewnętrzny identyfikator</entry>
 <entry key="field|name|BT-23-Lot">Charakter zamówienia</entry>
+<entry key="field|name|BT-23-Lot-List">Charakter zamówienia</entry>
 <entry key="field|name|BT-23-Part">Charakter zamówienia</entry>
 <entry key="field|name|BT-23-Part-List">Charakter zamówienia</entry>
 <entry key="field|name|BT-23-Procedure">Charakter zamówienia</entry>
@@ -2037,8 +2039,8 @@
 <entry key="field|name|BT-632-Lot">Nazwa</entry>
 <entry key="field|name|BT-632-Part">Nazwa</entry>
 <entry key="field|name|BT-633-Organization">Organizacja jest osobą fizyczną</entry>
-<entry key="field|name|BT-634-Lot">Dana procedura lub część zamówienia, która została unieważniona lub nie przyniosła udanego rozstrzygnięcia, zostanie ponownie wszczęta</entry>
-<entry key="field|name|BT-634-Procedure">Dana procedura lub część zamówienia, która została unieważniona lub nie przyniosła udanego rozstrzygnięcia, zostanie ponownie wszczęta</entry>
+<entry key="field|name|BT-634-Lot">Jeżeli partia zostanie anulowana lub zakończy się niepowodzeniem, zostanie wznowiona</entry>
+<entry key="field|name|BT-634-Procedure">Jeżeli procedura zostanie anulowana lub zakończy się niepowodzeniem, zostanie wznowiona</entry>
 <entry key="field|name|BT-635-LotResult">Liczba odwołań nabywców</entry>
 <entry key="field|name|BT-636-LotResult">Rodzaj domniemanej nieprawidłowości</entry>
 <entry key="field|name|BT-636-LotResult-List">Rodzaj domniemanej nieprawidłowości</entry>
@@ -2084,8 +2086,8 @@
 <entry key="field|name|BT-717-Lot-List">Zamówienie wchodzi w zakres dyrektywy Parlamentu Europejskiego i Rady 2009/33/WE (dyrektywa w sprawie czystych ekologicznie pojazdów – CVD)</entry>
 <entry key="field|name|BT-718-notice">Dokumenty zamówienia zmieniono w dniu</entry>
 <entry key="field|name|BT-719-notice">Data zmiany dokumentów zamówienia</entry>
-<entry key="field|name|BT-720-Tender">Wartość wyniku</entry>
-<entry key="field|name|BT-720-Tender-Currency">Wartość wyniku</entry>
+<entry key="field|name|BT-720-Tender">Wartość przetargu</entry>
+<entry key="field|name|BT-720-Tender-Currency">Wartość przetargu</entry>
 <entry key="field|name|BT-721-Contract">Tytuł</entry>
 <entry key="field|name|BT-721-Contract-Language">Tytuł</entry>
 <entry key="field|name|BT-722-Contract">Nazwa projektu lub programu finansowanego przez UE</entry>
