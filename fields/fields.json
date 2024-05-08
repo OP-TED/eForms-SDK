@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.196",
-    "createdOn" : "2024-05-07T14:55:05"
+    "version" : "1.11.197",
+    "createdOn" : "2024-05-07T23:37:36"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -39779,7 +39779,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "T02" ],
-        "condition" : "{ND-LotTender} ${not(BT-142-LotResult == 'selec-w') and not(BT-144-LotResult != 'no-rece')}",
+        "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult == 'selec-w') and not(BT-144-LotResult != 'no-rece')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -39793,7 +39793,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "T02" ],
-        "condition" : "{ND-LotTender} ${BT-142-LotResult == 'selec-w'}",
+        "condition" : "{ND-NoticeResult} ${BT-142-LotResult == 'selec-w'}",
         "value" : true,
         "severity" : "ERROR"
       } ]

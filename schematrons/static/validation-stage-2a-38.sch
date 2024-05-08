@@ -645,6 +645,9 @@
 		<assert id="BR-BT-00200-0047" role="ERROR" diagnostics="BT-200-Contract" test="count(cbc:ReasonCode) &gt; 0">rule|text|BR-BT-00200-0047</assert>
 		<assert id="BR-BT-00201-0047" role="ERROR" diagnostics="BT-201-Contract" test="count(efbc:ReasonDescription) &gt; 0">rule|text|BR-BT-00201-0047</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '38']">
+		<assert id="BR-OPT-00321-0047" role="ERROR" diagnostics="ND-NoticeResult_OPT-321-Tender" test="count(efac:LotTender/cbc:ID) &gt; 0">rule|text|BR-OPT-00321-0047</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '38']">
 		<assert id="BR-BT-00119-0047" role="ERROR" diagnostics="BT-119-LotResult" test="count(efbc:DPSTerminationIndicator) = 0">rule|text|BR-BT-00119-0047</assert>
 		<assert id="BR-BT-00142-0047" role="ERROR" diagnostics="BT-142-LotResult" test="count(cbc:TenderResultCode) = 0">rule|text|BR-BT-00142-0047</assert>
@@ -702,7 +705,6 @@
 		<assert id="BR-OPP-00030-0047" role="ERROR" diagnostics="ND-LotTender_OPP-030-Tender" test="count(efac:ContractTerm[not(efbc:TermCode/text()='all-rev-tic')][efbc:TermCode/@listName='contract-detail']/efbc:TermCode) = 0">rule|text|BR-OPP-00030-0047</assert>
 		<assert id="BR-OPP-00033-0047" role="ERROR" diagnostics="ND-LotTender_OPP-033-Tender" test="count(efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']/efbc:TermCode) = 0">rule|text|BR-OPP-00033-0047</assert>
 		<assert id="BR-OPP-00080-0047" role="ERROR" diagnostics="OPP-080-Tender" test="count(efbc:PublicTransportationCumulatedDistance) = 0">rule|text|BR-OPP-00080-0047</assert>
-		<assert id="BR-OPT-00321-0047" role="ERROR" diagnostics="OPT-321-Tender" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00321-0047</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue[$noticeSubType = '38']">
 		<assert id="BR-BT-00160-0047" role="ERROR" diagnostics="BT-160-Tender" test="count(efbc:RevenueBuyerAmount) = 0">rule|text|BR-BT-00160-0047</assert>

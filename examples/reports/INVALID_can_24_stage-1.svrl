@@ -630,6 +630,15 @@
    <svrl:fired-rule context="/*/cac:TenderingProcess[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
+   <svrl:failed-assert id="BR-OPT-00321-0057"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult"
+                       role="ERROR"
+                       test="count(efac:LotTender/cbc:ID) = 0 or not(not(efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w') and not(efac:LotResult/efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text()) != 'no-rece'))">
+      <svrl:text>rule|text|BR-OPT-00321-0057</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-NoticeResult_OPT-321-Tender" see="field:OPT-321-Tender">
+         <svrl:text>efac:LotTender/cbc:ID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>
    <svrl:failed-assert id="BR-BT-00119-0036"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
@@ -676,15 +685,6 @@
       <svrl:text>rule|text|BR-OPT-00310-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-310-Tender" see="field:OPT-310-Tender">
          <svrl:text>efac:TenderingParty/cbc:ID</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="BR-OPT-00321-0057"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
-                       role="ERROR"
-                       test="count(cbc:ID) = 0 or not(not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w') and not(../efac:LotResult/efac:DecisionReason/efbc:DecisionReasonCode/normalize-space(text()) != 'no-rece'))">
-      <svrl:text>rule|text|BR-OPT-00321-0057</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-321-Tender" see="field:OPT-321-Tender">
-         <svrl:text>cbc:ID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '29']"/>

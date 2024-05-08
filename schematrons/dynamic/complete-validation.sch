@@ -1520,6 +1520,7 @@
 		<diagnostic id="ND-NoticeApproximateValueUnpublish" see="node:ND-NoticeApproximateValueUnpublish">efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-NoticeResult" see="node:ND-NoticeResult">efac:NoticeResult</diagnostic>
 		<diagnostic id="ND-NoticeResultGroupFA" see="node:ND-NoticeResultGroupFA">efac:GroupFramework</diagnostic>
+		<diagnostic id="ND-NoticeResult_OPT-321-Tender" see="field:OPT-321-Tender">efac:LotTender/cbc:ID</diagnostic>
 		<diagnostic id="ND-OperationType" see="node:ND-OperationType">efac:NoticePurpose</diagnostic>
 		<diagnostic id="ND-OptionsAndRenewals" see="node:ND-OptionsAndRenewals">cac:ContractExtension</diagnostic>
 		<diagnostic id="ND-OptionsAndRenewals_BT-57-Lot" see="field:BT-57-Lot">cac:Renewal/cac:Period/cbc:Description</diagnostic>
