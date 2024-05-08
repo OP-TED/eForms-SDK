@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Dutch. File generated from metadata database.</comment>
 <entry key="expression|name|1">De waarde voor 'De koper is een aanbestedende instantie' (BT-740) is 'Neen'</entry>
-<entry key="expression|name|100">'Gunningscriterium numerieke waarde' (BT-541-Lot) is ingevuld, 'Numerieke waarde is van het type gewicht'(BT-5421-Lot) en 'Numerieke waarde is van het type drempel'(BT-5423-Lot) zijn niet ingevuld</entry>
-<entry key="expression|name|101">'Gunningscriterium numerieke waarde' (BT-541-Lot) is ingevuld, 'Numerieke waarde is van het type gewicht'(BT-5421-Lot) en 'Numerieke waarde is van het type drempel'(BT-5422-Lot) zijn niet ingevuld</entry>
-<entry key="expression|name|102">'Gunningscriterium numerieke waarde' (BT-541-LotsGroup) is ingevuld, 'Numerieke waarde is van het type gewicht'(BT-5421-LotsGroup) en 'Numerieke waarde is van het type drempel'(BT-5423-LotsGroup) zijn niet ingevuld</entry>
-<entry key="expression|name|103">'Gunningscriterium numerieke waarde' (BT-541-LotsGroup) is ingevuld, 'Numerieke waarde is van het type gewicht'(BT-5421-LotsGroup) en 'Numerieke waarde is van het type drempel'(BT-5422-LotsGroup) zijn niet ingevuld</entry>
 <entry key="expression|name|104">'Beschrijving van de methode die moet worden gebruikt als de weging niet aan de hand van criteria kan worden uitgedrukt' (BT-543-Lots) is niet ingevuld</entry>
 <entry key="expression|name|105">'Beschrijving van de methode die moet worden gebruikt als de weging niet aan de hand van criteria kan worden uitgedrukt' (BT-543-LotsGroup) is niet ingevuld</entry>
 <entry key="expression|name|106">'Looptijd' (BT-36-Lot) of 'Einddatum van de duur' (BT-537-Lot) is ingevuld</entry>
 <entry key="expression|name|107">'Looptijd' (BT-36-Lot) of 'Andere looptijd' (BT-538-Lot) is ingevuld</entry>
 <entry key="expression|name|108">'Einddatum van de duur' (BT-537-Lot) of 'Andere looptijd' (BT-538-Lot) is ingevuld</entry>
-<entry key="expression|name|109">'Type procedure' (BT-105) is niet 'Onderhandse gunning'</entry>
 <entry key="expression|name|11">'Begindatum' (BT-536-Part) is niet ingevuld</entry>
 <entry key="expression|name|110">'Type procedure' (BT-105) is 'Openbaar'; 'Type procedure' (BT-105) is 'Andere procedure in één fase' en 'Uiterste datum voor de ontvangst van verzoeken tot deelname' (BT-1311) is niet ingevuld; 'Type procedure' (BT-105) moet worden ingevuld 'Andere procedure in meerdere fasen' en 'Uiterste datum voor de ontvangst van verzoeken tot deelname' (BT-1311) is niet ingevuld</entry>
 <entry key="expression|name|111">'Type procedure' (BT-105) is 'Andere procedure in één fase' en 'Uiterste datum voor de ontvangst van inschrijvingen' (BT-131) is niet ingevuld; 'Type procedure' (BT-105) is 'Andere procedure in meerdere fasen' en 'Uiterste datum voor de ontvangst van verzoeken tot deelname' (BT-131) is niet ingevuld</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Uiterste datum voor de ontvangst van inschrijvingen' (BT-131(d)-Lot) is ingevuld</entry>
 <entry key="expression|name|115">'Uiterste datum voor de ontvangst van verzoeken tot deelname' (BT-1311(d)-Lot) is ingevuld</entry>
 <entry key="expression|name|116">'Type procedure' (BT-105) is 'Openbaar' of 'Andere procedure in één fase' of 'Onderhandelingsprocedure zonder voorafgaande oproep tot mededinging'</entry>
-<entry key="expression|name|117">'Type' (BT-747-Lot) is niet ingevuld</entry>
 <entry key="expression|name|118">'Postadres' (BT-5101(a)-Lot) is niet ingevuld</entry>
 <entry key="expression|name|119">'Postadres' (BT-5101(a)-Part) is niet ingevuld</entry>
 <entry key="expression|name|12">'Rechtsvorm van de koper' (BT-11) is één van de volgende: 'Publiekrechtelijke instelling'; 'Publiekrechtelijke instelling onder zeggenschap van een centrale overheidsinstantie'; 'Publiekrechtelijke instelling onder zeggenschap van een lokale overheid'; 'Publiekrechtelijke instelling onder zeggenschap van een regionale overheid'; 'Centrale overheidsinstantie'; 'Contractant op defensiegebied'; 'EU-instelling, -orgaan of -agentschapp'; 'Europese instelling/Europees agentschap of internationale organisatie'; 'Internationale organisatie'; 'Lokale overheid'; 'Organisatie die een door een centrale overheidsinstantie gesubsidieerde opdracht gunt'; 'Organisatie die een door een lokale overheid gesubsidieerde opdracht gunt'; 'Organisatie die een door een regionale overheid gesubsidieerde opdracht gunt'; 'Overheidsonderneming'; 'Overheidsonderneming onder zeggenschap van een centrale overheidsinstantie'; 'Overheidsonderneming onder zeggenschap van een lokale overheid'; 'Overheidsonderneming onder zeggenschap van een regionale overheid'; 'Regionale overheid'; 'Regionale of plaatselijke instantie'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Toegang tot bepaalde aanbestedingsstukken is beperkt' (BT-14-Part) is openbaar</entry>
 <entry key="expression|name|150">'Beschrijving' (BT-540-Lot) is niet ingevuld</entry>
 <entry key="expression|name|151">'Beschrijving' (BT-540-LotsGroup) is niet ingevuld</entry>
-<entry key="expression|name|152">'Gunningscriterium numerieke waarde' (BT-541) is niet ingevuld of 'Numerieke waarde is van het type vaste waarde' (BT-5422) is ingevuld 'Numerieke waarde is van het type drempel' (BT-5423) is ingevuld</entry>
-<entry key="expression|name|153">'Gunningscriterium numerieke waarde' (BT-541) is niet ingevuld of 'Numerieke waarde is van het type vaste waarde' (BT-5422) is ingevuld 'Numerieke waarde is van het type drempel' (BT-5423) is ingevuld</entry>
-<entry key="expression|name|154">'Gunningscriterium numerieke waarde' (BT-541) is niet ingevuld of 'Numerieke waarde is van het type gewicht' (BT-5421) is ingevuld of 'Numerieke waarde is van het type drempel' (BT-5423) is ingevuld of 'Type' (BT-539) is 'Kwaliteit'</entry>
-<entry key="expression|name|155">'Gunningscriterium numerieke waarde' (BT-541) is niet ingevuld of 'Numerieke waarde is van het type gewicht' (BT-5421) is ingevuld of 'Numerieke waarde is van het type drempel' (BT-5423) is ingevuld of 'Type' (BT-539) is 'Kwaliteit'</entry>
-<entry key="expression|name|156">'Gunningscriterium numerieke waarde' (BT-541) is niet ingevuld of 'Numerieke waarde is van het type vaste waarde' (BT-5422) is ingevuld of 'Numerieke waarde is van het type drempel' (BT-5423) is ingevuld</entry>
-<entry key="expression|name|157">'Gunningscriterium numerieke waarde' (BT-541) is niet ingevuld of 'Numerieke waarde is van het type vaste waarde' (BT-5422) is ingevuld of 'Numerieke waarde is van het type drempel' (BT-5423) is ingevuld</entry>
-<entry key="expression|name|158">'De inschrijver moet op alle percelen inschrijven' ((BT-763)) is juist</entry>
 <entry key="expression|name|159">De kavels zijn niet 'De inschrijver moet op alle percelen inschrijven' (BT-763) en er is meer dan één kavel in de kennisgeving</entry>
-<entry key="expression|name|16">'Gunningscriterium numerieke waarde' (BT-541-Lot) is niet leeg</entry>
 <entry key="expression|name|160">Er zijn geen meerdere percelen</entry>
 <entry key="expression|name|161">'Belangrijkste classificatie' (BT-262-Lot) is niet ingevuld</entry>
 <entry key="expression|name|162">'Belangrijkste classificatie' (BT-262-Part) is niet ingevuld</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'Technische ID van de aanbieding' (OPT-321-Tender) bestaat niet</entry>
 <entry key="expression|name|178">'Organisatie die deze rol vervult' (OPT-300-Tenderer) bestaat niet</entry>
 <entry key="expression|name|179">'Organisatie of specifiek contactpunt' (OPT-301-Tenderer-MainCont) is niet ingevuld</entry>
-<entry key="expression|name|18">'Gunningscriterium numerieke waarde' (BT-541-LotsGroup) is niet leeg</entry>
 <entry key="expression|name|180">'Officiële naam' (BT-500-Organization-Company) is niet ingevuld</entry>
 <entry key="expression|name|181">'Officiële naam' (BT-500-Organization-TouchPoint) is niet ingevuld</entry>
 <entry key="expression|name|182">'Land' (BT-514-Organization-Company) heeft geen NUTS-codes</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Website-adres van de arbeidswetgeving' (OPT-130-Part-EmployLegis) is ingevuld</entry>
 <entry key="expression|name|193">'Type genoegdoening beroep' (BT-792-Review) is niet 'Alternatieve sanctie' of 'Schadevergoeding'</entry>
 <entry key="expression|name|194">'Type genoegdoening beroep' (BT-792-Review) is 'Schadevergoeding'</entry>
-<entry key="expression|name|195">'Beroep ingetrokken' (BT-796-Review) is onjuist</entry>
+<entry key="expression|name|195">'Beroep ingetrokken' (BT-796-Review) is niet 'ja'</entry>
 <entry key="expression|name|196">'ID beroep' (BT-784-Review) is niet ingevuld</entry>
 <entry key="expression|name|197">'Identificatiecode van de eerdere aankondiging' (BT-125i-Lot) is niet ingevuld</entry>
 <entry key="expression|name|198">'Identificatiecode van de eerdere aankondiging' (BT-125(i)-Part) is niet ingevuld</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Er zijn geen percelen gegund</entry>
 <entry key="expression|name|204">'ID opdracht inschrijving' (BT-3202-Contract) is niet ingevuld</entry>
 <entry key="expression|name|205">'Type procedure' (BT-105) is niet 'Onderhandelingsprocedure zonder voorafgaande oproep tot mededinging'; 'Rechtsgrondslag' (BT-01) is niet 'Verordening (EU, Euratom) 2018/1046'; ten minste één 'ID opdracht inschrijving' (BT-3202-Contract) is ingevuld</entry>
-<entry key="expression|name|206">'De opdracht wordt gegund in het kader van een raamovereenkomst' (BT-768-Contract) is onjuist</entry>
+<entry key="expression|name|206">'De opdracht wordt gegund in het kader van een raamovereenkomst' (BT-768-Contract) is niet 'ja'</entry>
 <entry key="expression|name|207">'Identificatiecode van de inschrijving' (BT-3201-Tender) is ingevuld</entry>
 <entry key="expression|name|209">'Versie van de eerdere aankondiging die moet worden gewijzigd' (BT-758-notice) is niet ingevuld</entry>
 <entry key="expression|name|21">'Onderverdeling land (NUTS)' B373(BT-5071-Lot) is ingevuld</entry>
 <entry key="expression|name|210">'Identificatiecode afdeling' (BT-13716-notice) is niet ingevuld</entry>
-<entry key="expression|name|211">Indicator “De aanbestedingsstukken zijn gewijzigd” (BT-718-notice) is onjuist</entry>
+<entry key="expression|name|211">De indicator 'De aanbestedingsdocumenten zijn gewijzigd' (BT-718-notice) is niet 'ja'</entry>
 <entry key="expression|name|212">'Voornaamste reden voor de wijziging' (BT-140-notice) is niet ingevuld</entry>
 <entry key="expression|name|213">Is van toepassing op de EU-bedrijfsregistratie</entry>
 <entry key="expression|name|214">'Toepasselijk grensoverschrijdend recht' (BT-09(b)-Procedure) is niet ingevuld</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Type' (BT-539-LotsGroup) is niet ingevuld</entry>
 <entry key="expression|name|234">'Beschrijving' (BT-540-Lot) is niet ingevuld</entry>
 <entry key="expression|name|235">'Beschrijving' (BT-540-LotsGroup) is niet ingevuld</entry>
-<entry key="expression|name|236">'Gunningscriterium numerieke waarde' (BT-541-Lot) is niet ingevuld</entry>
-<entry key="expression|name|237">'Gunningscriterium numerieke waarde' (BT-541-LotsGroup) is niet ingevuld</entry>
 <entry key="expression|name|238">'Numerieke waarde is van het type gewicht' (BT-5421-Lot) is niet ingevuld</entry>
 <entry key="expression|name|239">'Numerieke waarde is van het type gewicht' (BT-5421-LotsGroup) is niet ingevuld</entry>
 <entry key="expression|name|24">'Begindatum' (BT-536-Lot) is niet ingevuld</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Veld om later te publiceren' (BT-195(BT-161)-NoticeResult) is niet ingevuld</entry>
 <entry key="expression|name|278">'Veld om later te publiceren' (BT-195(BT-162)-Tender) is niet ingevuld</entry>
 <entry key="expression|name|279">'Veld om later te publiceren' (BT-195(BT-163)-Tender) is niet ingevuld</entry>
-<entry key="expression|name|28">'Gebruik van dit criterium' (BT-748) is 'Gebruikt'</entry>
 <entry key="expression|name|280">'Veld om later te publiceren' (BT-195(BT-171)-Tender) is niet ingevuld</entry>
 <entry key="expression|name|281">'Veld om later te publiceren' (BT-195(BT-191)-Tender) is niet ingevuld</entry>
 <entry key="expression|name|282">'Veld om later te publiceren' (BT-195(BT-193)-Tender) is niet ingevuld</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Veld om later te publiceren' (BT-195(BT-731)-Tender) is niet ingevuld</entry>
 <entry key="expression|name|308">'Veld om later te publiceren' (BT-195(BT-733)-Lot) is niet ingevuld</entry>
 <entry key="expression|name|309">'Veld om later te publiceren' (BT-195(BT-733)-LotsGroup) is niet ingevuld</entry>
-<entry key="expression|name|31">'Selectiecriteria tweede fase uitnodiging numerieke waarde' (BT-752-Lot) is niet leeg</entry>
 <entry key="expression|name|310">'Veld om later te publiceren' (BT-195(BT-734)-Lot) is niet ingevuld</entry>
 <entry key="expression|name|311">'Veld om later te publiceren' (BT-195(BT-734)-LotsGroup) is niet ingevuld</entry>
 <entry key="expression|name|312">'Veld om later te publiceren' (BT-195(BT-759)-LotResult) is niet ingevuld</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Dit is een periodiek terugkerende aanbesteding' (BT-94-Lot) is niet 'ja'</entry>
 <entry key="expression|name|318">'Type procedure' (BT-105-Procedure) is 'Openbaar'</entry>
 <entry key="expression|name|319">'Organisatie of specifiek contactpunt' (OPT-301-Lot-ReviewInfo) is niet ingevuld</entry>
-<entry key="expression|name|32">'Selectiecriteria tweede fase uitnodiging numerieke waarde' (BT-752-Lot) is niet leeg</entry>
 <entry key="expression|name|320">'Er wordt gebruikgemaakt van een elektronische veiling' (BT-767-Lot) is niet 'ja'</entry>
 <entry key="expression|name|321">'Type procedure' (BT-105) is niet 'Niet-openbaar'</entry>
 <entry key="expression|name|322">'Voertuigtype' (OPT-155-LotResult) is niet ingevuld</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Elektronische indiening is vereist</entry>
 <entry key="expression|name|370">Elektronische indiening is niet toegestaan</entry>
 <entry key="expression|name|371">Groep percelen omvat één of minder percelen</entry>
-<entry key="expression|name|372">'Type' (BT-747-Lot) is niet ingevuld</entry>
 <entry key="expression|name|373">Groep van percelen bestaat uit percelen zonder raamovereenkomst</entry>
 <entry key="expression|name|374">'Een verplichting waaraan de inschrijver moet voldoen met betrekking tot onderaanneming' (BT-66) is niet ingevuld</entry>
 <entry key="expression|name|375">'Einddatum van de duur' (BT-537-Part) is ingevuld; 'Andere looptijd' (BT-538-Part) is ingevuld</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Opnieuw geraamde waarde van de raamovereenkomst' (BT-660-LotResult) is niet ingevuld</entry>
 <entry key="expression|name|561">'Veld om later te publiceren' (BT-195(BT-660)-LotResult) is niet ingevuld</entry>
 <entry key="expression|name|568">'Code vereiste voor de uitvoering' (OPT-060-Lot) is niet ingevuld</entry>
-<entry key="expression|name|569">'Beschrijving' (BT-540-Lot) is aanwezig en 'Gunningscriterium numerieke waarde' (BT-541-Lot-FixedNumber) &amp;amp; 'Gunningscriterium numerieke waarde' (BT-541-Lot-ThresholdNumber) zijn niet aanwezig</entry>
 <entry key="expression|name|57">'Het gaat om een raamovereenkomst' (BT-765-Lot) is 'Geen'</entry>
-<entry key="expression|name|570">'Beschrijving' (BT-540-Lot) is aanwezig en 'Gunningscriterium numerieke waarde' (BT-541-Lot-WeightNumber) &amp;amp; 'Gunningscriterium numerieke waarde' (BT-541-Lot-ThresholdNumber) zijn niet aanwezig</entry>
-<entry key="expression|name|571">'Beschrijving' (BT-540-Lot) is aanwezig en 'Gunningscriterium numerieke waarde' (BT-541-Lot-WeightNumber) &amp;amp; 'Gunningscriterium numerieke waarde' (BT-541-Lot-FixedNumber) zijn niet aanwezig</entry>
-<entry key="expression|name|572">'Beschrijving' (BT-540-LotsGroup) is aanwezig en 'Gunningscriterium numerieke waarde' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Gunningscriterium numerieke waarde' (BT-541-LotsGroup-ThresholdNumber) zijn niet aanwezig</entry>
-<entry key="expression|name|573">'Beschrijving' (BT-540-LotsGroup) is aanwezig en 'Gunningscriterium numerieke waarde' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Gunningscriterium numerieke waarde' (BT-541-LotsGroup-ThresholdNumber) zijn niet aanwezig</entry>
-<entry key="expression|name|574">'Beschrijving' (BT-540-LotsGroup) is aanwezig en 'Gunningscriterium numerieke waarde' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Gunningscriterium numerieke waarde' (BT-541-LotsGroup-FixedNumber) zijn niet aanwezig</entry>
 <entry key="expression|name|575">'Gunningscriterium numerieke waarde' (BT-541-Lot-WeightNumber) is niet aanwezig</entry>
 <entry key="expression|name|576">'Gunningscriterium numerieke waarde' (BT-541-Lot-FixedNumber) is niet aanwezig</entry>
 <entry key="expression|name|577">'Gunningscriterium numerieke waarde' (BT-541-Lot-ThresholdNumber) is niet aanwezig</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Andere beperkingen op de plaats van uitvoering' (BT-727-Lot) is 'Waar dan ook' of 'Overal in de Europese Economische Ruimte'</entry>
 <entry key="expression|name|94">'Andere beperkingen op de plaats van uitvoering' (BT-727-Part) mag niet 'Waar dan ook' of 'Overal in de Europese Economische Ruimte' zijn</entry>
 <entry key="expression|name|95">'Andere beperkingen op de plaats van uitvoering' (BT-727-Procedure) is 'Waar dan ook' of 'Overal in de Europese Economische Ruimte'</entry>
-<entry key="expression|name|96">'Gunningscriterium numerieke waarde' (BT-541-Lot) is ingevuld, 'Numerieke waarde is van het type vaste waarde'(BT-5422-Lot) en 'Numerieke waarde is van het type drempel'(BT-5423-Lot) zijn niet ingevuld</entry>
-<entry key="expression|name|97">'Gunningscriterium numerieke waarde' (BT-541-LotsGroup) is ingevuld, 'Numerieke waarde is van het type vaste waarde'(BT-5422-LotsGroup) en 'Numerieke waarde is van het type drempel'(BT-5423-LotsGroup) zijn niet ingevuld</entry>
 </properties>

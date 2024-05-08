@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in German. File generated from metadata database.</comment>
 <entry key="expression|name|1">Der Wert für 'Der Erwerber ist ein Auftraggeber' (BT-740) ist 'Nein'</entry>
-<entry key="expression|name|100">'Zuschlagskriterium — Zahl' (BT-541-Lot) ist ausgefüllt 'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421-Lot) und 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423-Lot) sind nicht ausgefüllt</entry>
-<entry key="expression|name|101">'Zuschlagskriterium — Zahl' (BT-541-Lot) ist ausgefüllt 'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421-Lot) und 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5422-Lot) sind nicht ausgefüllt</entry>
-<entry key="expression|name|102">'Zuschlagskriterium — Zahl' (BT-541-LotsGroup) ist ausgefüllt 'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421-LotsGroup) und 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423-LotsGroup) sind nicht ausgefüllt</entry>
-<entry key="expression|name|103">'Zuschlagskriterium — Zahl' (BT-541-LotsGroup) ist ausgefüllt 'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421-LotsGroup) und 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5422-LotsGroup) sind nicht ausgefüllt</entry>
 <entry key="expression|name|104">'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-Lots) ist nicht ausgefüllt</entry>
 <entry key="expression|name|105">'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-LotsGroup) ist nicht ausgefüllt</entry>
 <entry key="expression|name|106">'Laufzeit' (BT-36-Lot) oder 'Enddatum der Laufzeit' (BT-537-Lot) ist ausgefüllt</entry>
 <entry key="expression|name|107">'Laufzeit' (BT-36-Lot) oder 'Andere Laufzeit' (BT-538-Lot) ist ausgefüllt</entry>
 <entry key="expression|name|108">'Enddatum der Laufzeit' (BT-537-Lot) oder 'Andere Laufzeit' (BT-538-Lot) ist ausgefüllt</entry>
-<entry key="expression|name|109">'Verfahrensart' (BT-105) ist nicht 'Direktvergabe'</entry>
 <entry key="expression|name|11">'Datum des Beginns' (BT-536-Part) ist nicht ausgefüllt</entry>
 <entry key="expression|name|110">'Verfahrensart' (BT-105) ist 'Offenes Verfahren'; 'Verfahrensart' (BT-105) ist 'Sonstiges einstufiges Verfahren' und 'Frist für den Eingang der Teilnahmeanträge' (BT-1311) ist nicht ausgefüllt; 'Verfahrensart' (BT-105) muss 'Sonstiges zweistufiges Verfahren' sein und 'Frist für den Eingang der Teilnahmeanträge' (BT-1311) ist nicht ausgefüllt</entry>
 <entry key="expression|name|111">'Verfahrensart' (BT-105) ist 'Sonstiges einstufiges Verfahren' und 'Frist für den Eingang der Angebote' (BT-131) ist nicht ausgefüllt; 'Verfahrensart' (BT-105) ist'Sonstiges zweistufiges Verfahren' und 'Frist für den Eingang der Teilnahmeanträge' (BT-131) ist nicht ausgefüllt</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Frist für den Eingang der Angebote' (BT-131(d)-Lot) ist ausgefüllt</entry>
 <entry key="expression|name|115">'Frist für den Eingang der Teilnahmeanträge' (BT-1311(d)-Lot) ist ausgefüllt</entry>
 <entry key="expression|name|116">'Verfahrensart' (BT-105) ist 'Offenes Verfahren' oder 'Sonstiges einstufiges Verfahren' oder 'Verhandlungsverfahren ohne Aufruf zum Wettbewerb'</entry>
-<entry key="expression|name|117">'Art' (BT-747-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|118">'Postanschrift' (BT-5101(a)-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|119">'Postanschrift' (BT-5101(a)-Part) ist nicht ausgefüllt</entry>
 <entry key="expression|name|12">'Rechtsform des Erwerbers' (BT-11) ist einer der folgenden:'Einrichtung des öffentlichen Rechts'; 'Von einer zentralen Regierungsbehörde kontrollierte Einrichtung des öffentlichen Rechts'; 'Von einer lokalen Gebietskörperschaft kontrollierte Einrichtung des öffentlichen Rechts'; 'Von einer regionalen Gebietskörperschaft kontrollierte Einrichtung des öffentlichen Rechts'; 'Zentrale Regierungsbehörde'; 'Auftragnehmer im Bereich Verteidigung'; 'EU-Institution, -Einrichtung oder -Agentur'; 'Europäische Institution/Agentur oder internationale Organisation'; 'Internationale Organisation'; 'Lokale Gebietskörperschaft'; 'Organisation, die einen durch eine zentrale Regierungsbehörde subventionierten Auftrag vergibt'; 'Organisation, die einen durch eine lokale Gebietskörperschaft subventionierten Auftrag vergibt'; 'Organisation, die einen durch eine regionale Gebietskörperschaft subventionierten Auftrag vergibt'; 'Öffentliches Unternehmen'; 'Von einer zentralen Regierungsbehörde kontrolliertes öffentliches Unternehmen'; 'Von einer lokalen Gebietskörperschaft kontrolliertes öffentliches Unternehmen'; 'Von einer regionalen Gebietskörperschaft kontrolliertes öffentliches Unternehmen'; 'Regionale Gebietskörperschaft'; 'Regional- oder Kommunalbehörde'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Zugang zu bestimmten Auftragsunterlagen ist beschränkt' (BT-14-Part) ist nicht nichtoffen</entry>
 <entry key="expression|name|150">'Beschreibung' (BT-540-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|151">'Beschreibung' (BT-540-LotsGroup) ist nicht ausgefüllt</entry>
-<entry key="expression|name|152">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422) ist ausgefüllt 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt</entry>
-<entry key="expression|name|153">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422) ist ausgefüllt 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt</entry>
-<entry key="expression|name|154">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421) ist ausgefüllt oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt oder 'Art' (BT-539) ist 'Qualität'</entry>
-<entry key="expression|name|155">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421) ist ausgefüllt oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt oder 'Art' (BT-539) ist 'Qualität'</entry>
-<entry key="expression|name|156">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422) ist ausgefüllt oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt</entry>
-<entry key="expression|name|157">'Zuschlagskriterium — Zahl' (BT-541) ist nicht ausgefüllt oder 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422) ist ausgefüllt oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423) ist ausgefüllt</entry>
-<entry key="expression|name|158">'Der Bieter muss Angebote für alle Lose einreichen' ((BT-763)) ist wahr</entry>
 <entry key="expression|name|159">Die Lose sind nicht 'Der Bieter muss Angebote für alle Lose einreichen' (BT-763) und es gibt mehr als ein Los in der Mitteilung</entry>
-<entry key="expression|name|16">'Zuschlagskriterium — Zahl' (BT-541-Lot) ist nicht leer</entry>
 <entry key="expression|name|160">Es gibt keine mehreren Lose</entry>
 <entry key="expression|name|161">'Haupteinstufung' (BT-262-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|162">'Haupteinstufung' (BT-262-Part) ist nicht ausgefüllt</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'Technische ID des Angebots' (OPT-321-Tender) existiert nicht</entry>
 <entry key="expression|name|178">'Organisation, die diese Rolle ausfüllt' (OPT-300-Tenderer) existiert nicht</entry>
 <entry key="expression|name|179">'Organisation oder spezifischer Kontaktpunkt' (OPT-301-Tenderer-MainCont) ist nicht ausgefüllt</entry>
-<entry key="expression|name|18">'Zuschlagskriterium — Zahl' (BT-541-LotsGroup) ist nicht leer</entry>
 <entry key="expression|name|180">'Offizielle Bezeichnung' (BT-500-Organization-Company) ist nicht ausgefüllt</entry>
 <entry key="expression|name|181">'Offizielle Bezeichnung' (BT-500-Organization-TouchPoint) ist nicht ausgefüllt</entry>
 <entry key="expression|name|182">'Land' (BT-514-Organization-Company) hat keine NUTS-Codes</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Webadresse der Arbeitsgesetzgebung' (OPT-130-Part-EmployLegis) ist ausgefüllt</entry>
 <entry key="expression|name|193">'Nachprüfung – Typ der Abhilfemaßnahme' (BT-792-Review) ist nicht 'Alternative Sanktionen' oder 'Schadenersatz'</entry>
 <entry key="expression|name|194">'Nachprüfung – Typ der Abhilfemaßnahme' (BT-792-Review) ist 'Schadenersatz'</entry>
-<entry key="expression|name|195">'Nachprüfung – Antrag zurückgezogen' (BT-796-Review) ist nicht wahr</entry>
+<entry key="expression|name|195">'Nachprüfung – Antrag zurückgezogen' (BT-796-Review) ist nicht 'ja'</entry>
 <entry key="expression|name|196">'Nachprüfung – Kennung' (BT-784-Review) ist nicht ausgefüllt</entry>
 <entry key="expression|name|197">'Kennung der vorherigen Bekanntmachung' (BT-125i-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|198">'Kennung der vorherigen Bekanntmachung' (BT-125(i)-Part) ist nicht ausgefüllt</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Es wurden keine Lose vergeben</entry>
 <entry key="expression|name|204">'Auftrag, Ausschreibung – Kennung' (BT-3202-Contract) ist nicht ausgefüllt</entry>
 <entry key="expression|name|205">'Verfahrensart' (BT-105) ist nicht 'Verhandlungsverfahren ohne Aufruf zum Wettbewerb'; 'Rechtsgrundlage' (BT-01) ist nicht 'Verordnung (EU, Euratom) 2018/1046'; zumindest ein 'Auftrag, Ausschreibung – Kennung' (BT-3202-Contract) ist ausgefüllt</entry>
-<entry key="expression|name|206">'Der Auftrag wird als Teil einer Rahmenvereinbarung vergeben' (BT-768-Contract) ist nicht wahr</entry>
+<entry key="expression|name|206">'Der Auftrag wird als Teil einer Rahmenvereinbarung vergeben' (BT-768-Contract) ist nicht 'ja'</entry>
 <entry key="expression|name|207">'Kennung des Angebots' (BT-3201-Tender) ist ausgefüllt</entry>
 <entry key="expression|name|209">'Fassung der zu ändernden vorigen Bekanntmachung' (BT-758-notice) ist nicht ausgefüllt</entry>
 <entry key="expression|name|21">'Land, Gliederung (NUTS)' B373 (BT-5071-Lot) ist ausgefüllt</entry>
 <entry key="expression|name|210">'Abschnittskennung' (BT-13716-notice) ist nicht ausgefüllt</entry>
-<entry key="expression|name|211">Indikator „Die Beschaffungsunterlagen haben sich geändert“ (BT-718-notice) trifft nicht zu</entry>
+<entry key="expression|name|211">Der Indikator 'Die Vergabeunterlagen wurden geändert' (BT-718-notice) ist nicht 'ja'</entry>
 <entry key="expression|name|212">'Hauptgrund für die Änderung' (BT-140-notice) ist nicht ausgefüllt</entry>
 <entry key="expression|name|213">Es gilt für die EU-Geschäftsregistrierung</entry>
 <entry key="expression|name|214">'Anzuwendende grenzübergreifende Rechtsvorschrift' (BT-09(b)-Procedure) ist nicht ausgefüllt</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Art' (BT-539-LotsGroup) ist nicht ausgefüllt</entry>
 <entry key="expression|name|234">'Beschreibung' (BT-540-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|235">'Beschreibung' (BT-540-LotsGroup) ist nicht ausgefüllt</entry>
-<entry key="expression|name|236">'Zuschlagskriterium — Zahl' (BT-541-Lot) ist nicht ausgefüllt</entry>
-<entry key="expression|name|237">'Zuschlagskriterium — Zahl' (BT-541-LotsGroup) ist nicht ausgefüllt</entry>
 <entry key="expression|name|238">'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|239">'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421-LotsGroup) ist nicht ausgefüllt</entry>
 <entry key="expression|name|24">'Datum des Beginns' (BT-536-Lot) ist nicht ausgefüllt</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-161)-NoticeResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|278">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-162)-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|279">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-163)-Tender) ist nicht ausgefüllt</entry>
-<entry key="expression|name|28">'Anwendung dieses Kriteriums' (BT-748) ist 'Verwendet'</entry>
 <entry key="expression|name|280">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-171)-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|281">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-191)-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|282">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-193)-Tender) ist nicht ausgefüllt</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-731)-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|308">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-733)-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|309">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-733)-LotsGroup) ist nicht ausgefüllt</entry>
-<entry key="expression|name|31">'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot) ist nicht leer</entry>
 <entry key="expression|name|310">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-734)-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|311">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-734)-LotsGroup) ist nicht ausgefüllt</entry>
 <entry key="expression|name|312">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-759)-LotResult) ist nicht ausgefüllt</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Es handelt sich um die Vergabe wiederkehrender Aufträge' (BT-94-Lot) ist nicht 'ja'</entry>
 <entry key="expression|name|318">'Verfahrensart' (BT-105-Procedure) ist 'Offenes Verfahren'</entry>
 <entry key="expression|name|319">'Organisation oder spezifischer Kontaktpunkt' (OPT-301-Lot-ReviewInfo) ist nicht ausgefüllt</entry>
-<entry key="expression|name|32">'Eignungskriterien — Einladung zur zweiten Stufe, Zahl' (BT-752-Lot) ist nicht leer</entry>
 <entry key="expression|name|320">'elektronische Auktion' (BT-767-Lot) ist nicht 'ja'</entry>
 <entry key="expression|name|321">'Verfahrensart' (BT-105) ist nicht 'Nichtoffenes Verfahren'</entry>
 <entry key="expression|name|322">'Fahrzeugtyp' (OPT-155-LotResult) ist nicht ausgefüllt</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Elektronische Einreichung ist erforderlich</entry>
 <entry key="expression|name|370">Elektronische Einreichung ist nicht erlaubt</entry>
 <entry key="expression|name|371">Gruppe von Losen enthält ein oder weniger Lose</entry>
-<entry key="expression|name|372">'Art' (BT-747-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|373">Gruppe von Losen besteht aus Losen ohne Rahmenvereinbarung</entry>
 <entry key="expression|name|374">'Eine Verpflichtung des Bieters bezüglich der Vergabe von Unteraufträgen.' (BT-66) ist nicht ausgefüllt</entry>
 <entry key="expression|name|375">'Enddatum der Laufzeit' (BT-537-Part) ist ausgefüllt; 'Andere Laufzeit' (BT-538-Part) ist ausgefüllt</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Neu geschätzter Wert der Rahmenvereinbarung' (BT-660-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|561">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-660)-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|568">'Anforderungen an die Ausführung – Code' (OPT-060-Lot) ist nicht ausgefüllt</entry>
-<entry key="expression|name|569">'Beschreibung' (BT-540-Lot) ist vorhanden und 'Zuschlagskriterium — Zahl' (BT-541-Lot-FixedNumber) &amp;amp; 'Zuschlagskriterium — Zahl' (BT-541-Lot-ThresholdNumber) sind nicht vorhanden</entry>
 <entry key="expression|name|57">'Rahmenvereinbarung geschlossen' (BT-765-Lot) ist 'Kein dynamisches Beschaffungssystem'</entry>
-<entry key="expression|name|570">'Beschreibung' (BT-540-Lot) ist vorhanden und 'Zuschlagskriterium — Zahl' (BT-541-Lot-WeightNumber) &amp;amp; 'Zuschlagskriterium — Zahl' (BT-541-Lot-ThresholdNumber) sind nicht vorhanden</entry>
-<entry key="expression|name|571">'Beschreibung' (BT-540-Lot) ist vorhanden und 'Zuschlagskriterium — Zahl' (BT-541-Lot-WeightNumber) &amp;amp; 'Zuschlagskriterium — Zahl' (BT-541-Lot-FixedNumber) sind nicht vorhanden</entry>
-<entry key="expression|name|572">'Beschreibung' (BT-540-LotsGroup) ist vorhanden und 'Zuschlagskriterium — Zahl' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Zuschlagskriterium — Zahl' (BT-541-LotsGroup-ThresholdNumber) sind nicht vorhanden</entry>
-<entry key="expression|name|573">'Beschreibung' (BT-540-LotsGroup) ist vorhanden und 'Zuschlagskriterium — Zahl' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Zuschlagskriterium — Zahl' (BT-541-LotsGroup-ThresholdNumber) sind nicht vorhanden</entry>
-<entry key="expression|name|574">'Beschreibung' (BT-540-LotsGroup) ist vorhanden und 'Zuschlagskriterium — Zahl' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Zuschlagskriterium — Zahl' (BT-541-LotsGroup-FixedNumber) sind nicht vorhanden</entry>
 <entry key="expression|name|575">'Zuschlagskriterium — Zahl' (BT-541-Lot-WeightNumber) ist nicht vorhanden</entry>
 <entry key="expression|name|576">'Zuschlagskriterium — Zahl' (BT-541-Lot-FixedNumber) ist nicht vorhanden</entry>
 <entry key="expression|name|577">'Zuschlagskriterium — Zahl' (BT-541-Lot-ThresholdNumber) ist nicht vorhanden</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Sonstige Beschränkungen am Erfüllungsort' (BT-727-Lot) ist 'Beliebiger Ort' oder 'Ort im Europäischen Wirtschaftsraum'</entry>
 <entry key="expression|name|94">'Sonstige Beschränkungen am Erfüllungsort' (BT-727-Part) darf nicht 'Beliebiger Ort' oder 'Ort im Europäischen Wirtschaftsraum' sein</entry>
 <entry key="expression|name|95">'Sonstige Beschränkungen am Erfüllungsort' (BT-727-Procedure) ist 'Beliebiger Ort' oder 'Ort im Europäischen Wirtschaftsraum'</entry>
-<entry key="expression|name|96">'Zuschlagskriterium — Zahl' (BT-541-Lot) ist ausgefüllt 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422-Lot) und 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423-Lot) sind nicht ausgefüllt</entry>
-<entry key="expression|name|97">'Zuschlagskriterium — Zahl' (BT-541-LotsGroup) ist ausgefüllt 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-5422-LotsGroup) und 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-5423-LotsGroup) sind nicht ausgefüllt</entry>
 </properties>

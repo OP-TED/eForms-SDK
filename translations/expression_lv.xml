@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Latvian. File generated from metadata database.</comment>
 <entry key="expression|name|1">Paredzamā 'Pircējs ir līgumslēdzējs' (BT-740) vērtība ir 'Nē'</entry>
-<entry key="expression|name|100">'Piešķiršanas kritērija skaitlis' (BT-541-Lot) ir aizpildīta, 'Skaitlis ir svēruma veids' (BT-5421-Lot) un 'Skaitlis ir sliekšņa veids' (BT-5423-Lot) nav aizpildītas</entry>
-<entry key="expression|name|101">'Piešķiršanas kritērija skaitlis' (BT-541-Lot) ir aizpildīta, 'Skaitlis ir svēruma veids' (BT-5421-Lot) un 'Skaitlis ir sliekšņa veids' (BT-5422-Lot) nav aizpildītas</entry>
-<entry key="expression|name|102">'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup) ir aizpildīta, 'Skaitlis ir svēruma veids' (BT-5421-LotsGroup) un 'Skaitlis ir sliekšņa veids' (BT-5423-LotsGroup) nav aizpildītas</entry>
-<entry key="expression|name|103">'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup) ir aizpildīta, 'Skaitlis ir svēruma veids' (BT-5421-LotsGroup) un 'Skaitlis ir sliekšņa veids' (BT-5422-LotsGroup) nav aizpildītas</entry>
 <entry key="expression|name|104">'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-Lots) nav aizpildīta</entry>
 <entry key="expression|name|105">'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-LotsGroup) nav aizpildīta</entry>
 <entry key="expression|name|106">'Darbības termiņš' (BT-36-Lot) vai 'Ilguma beigu datums' (BT-537-Lot) ir aizpildīta</entry>
 <entry key="expression|name|107">'Darbības termiņš' (BT-36-Lot) vai 'Ilgums – cits' (BT-538-Lot) ir aizpildīta</entry>
 <entry key="expression|name|108">'Ilguma beigu datums' (BT-537-Lot) vai 'Ilgums – cits' (BT-538-Lot) ir aizpildīta</entry>
-<entry key="expression|name|109">'Procedūras veids' (BT-105) nav 'Tieša piešķiršana'</entry>
 <entry key="expression|name|11">'Sākuma datums' (BT-536-Part) nav aizpildīta</entry>
 <entry key="expression|name|110">'Procedūras veids' (BT-105) ir 'Atklāta'; 'Procedūras veids' (BT-105) ir 'Cita vienpakāpes procedūra' un 'Dalības pieprasījumu saņemšanas termiņš' (BT-1311) nav aizpildīta; 'Procedūras veids' (BT-105) tai jābūt'Cita daudzpakāpju procedūra' un, 'Dalības pieprasījumu saņemšanas termiņš' (BT-1311)tā nav aizpildīta</entry>
 <entry key="expression|name|111">'Procedūras veids' (BT-105) ir 'Cita vienpakāpes procedūra' un 'Piedāvājumu saņemšanas termiņš' (BT-131) nav aizpildīta; 'Procedūras veids' (BT-105) ir 'Cita daudzpakāpju procedūra' un 'Dalības pieprasījumu saņemšanas termiņš' (BT-131) nav aizpildīta</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Piedāvājumu saņemšanas termiņš' (BT-131(d)-Lot) ir aizpildīta</entry>
 <entry key="expression|name|115">'Dalības pieprasījumu saņemšanas termiņš' (BT-1311(d)-Lot) ir aizpildīta</entry>
 <entry key="expression|name|116">'Procedūras veids' (BT-105) ir 'Atklāta' vai 'Cita vienpakāpes procedūra' vai 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas'</entry>
-<entry key="expression|name|117">'Veids' (BT-747-Lot) nav aizpildīta</entry>
 <entry key="expression|name|118">'Pasta adrese' (BT-5101(a)-Lot) nav aizpildīta</entry>
 <entry key="expression|name|119">'Pasta adrese' (BT-5101(a)-Part) nav aizpildīta</entry>
 <entry key="expression|name|12">'Pircēja juridiskais statuss' (BT-11) ir viens no šādiem variantiem: 'Publisko tiesību subjekts'; 'Publisko tiesību subjekts, ko kontrolē centrālās pārvaldes iestāde'; 'Publisko tiesību subjekts, ko kontrolē vietējās pārvaldes iestāde'; 'Publisko tiesību subjekts, ko kontrolē reģionālās pārvaldes iestāde'; 'Centrālās pārvaldes iestāde'; 'Aizsardzības darbuzņēmējs'; 'ES iestāde, struktūra vai aģentūra'; 'Europos institucija arba agentūra ar tarptautinė organizacija'; 'Starptautiska organizācija'; 'Vietējās pārvaldes iestāde'; 'Organizācija, kas piešķir centrālās pārvaldes iestādes subsidētu līgumu'; 'Organizācija, kas piešķir vietējas iestādes subsidētu līgumu'; 'Organizācija, kas piešķir reģionālas iestādes subsidētu līgumu'; 'Publiskais uzņēmums'; 'Publisks uzņēmums, ko kontrolē centrālās pārvaldes iestāde'; 'Publisks uzņēmums, ko kontrolē vietējās pārvaldes iestāde'; 'Publisks uzņēmums, ko kontrolē reģionālās pārvaldes iestāde'; 'Reģionāla iestāde'; 'Reģionāla vai vietēja iestāde'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Piekļuve konkrētiem iepirkuma procedūras dokumentiem ir ierobežota' (BT-14-Part) nav ierobežota</entry>
 <entry key="expression|name|150">'Apraksts' (BT-540-Lot) nav aizpildīta</entry>
 <entry key="expression|name|151">'Apraksts' (BT-540-LotsGroup) nav aizpildīta</entry>
-<entry key="expression|name|152">'Piešķiršanas kritērija skaitlis' (BT-541) nav aizpildīta vai 'Skaitlis ir fiksēta vērtība' (BT-5422) ir aizpildīta 'Skaitlis ir sliekšņa veids' (BT-5423) ir aizpildīta</entry>
-<entry key="expression|name|153">'Piešķiršanas kritērija skaitlis' (BT-541) nav aizpildīta vai 'Skaitlis ir fiksēta vērtība' (BT-5422) ir aizpildīta 'Skaitlis ir sliekšņa veids' (BT-5423) ir aizpildīta</entry>
-<entry key="expression|name|154">'Piešķiršanas kritērija skaitlis' (BT-541) nav aizpildīta vai 'Skaitlis ir svēruma veids' (BT-5421) ir aizpildīta vai 'Skaitlis ir sliekšņa veids' (BT-5423) ir aizpildīta vai 'Veids' (BT-539) ir 'Kvalitāte'</entry>
-<entry key="expression|name|155">'Piešķiršanas kritērija skaitlis' (BT-541) nav aizpildīta vai 'Skaitlis ir svēruma veids' (BT-5421) ir aizpildīta vai 'Skaitlis ir sliekšņa veids' (BT-5423) ir aizpildīta vai 'Veids' (BT-539) ir 'Kvalitāte'</entry>
-<entry key="expression|name|156">'Piešķiršanas kritērija skaitlis' (BT-541) nav aizpildīta vai 'Skaitlis ir fiksēta vērtība' (BT-5422) ir aizpildīta vai 'Skaitlis ir sliekšņa veids' (BT-5423) ir aizpildīta</entry>
-<entry key="expression|name|157">'Piešķiršanas kritērija skaitlis' (BT-541) nav aizpildīta vai 'Skaitlis ir fiksēta vērtība' (BT-5422) ir aizpildīta vai 'Skaitlis ir sliekšņa veids' (BT-5423) ir aizpildīta</entry>
-<entry key="expression|name|158">'Pretendentam jāiesniedz piedāvājumi par visām daļām' ((BT-763)) ir pareiza</entry>
 <entry key="expression|name|159">Lotus nav 'Pretendentam jāiesniedz piedāvājumi par visām daļām' (BT-763) un paziņojumā ir vairāk nekā viens lots</entry>
-<entry key="expression|name|16">'Piešķiršanas kritērija skaitlis' (BT-541-Lot) nav tukša</entry>
 <entry key="expression|name|160">Nav vairāku daļu</entry>
 <entry key="expression|name|161">'Galvenā klasifikācija' (BT-262-Lot) nav aizpildīta</entry>
 <entry key="expression|name|162">'Galvenā klasifikācija' (BT-262-Part) nav aizpildīta</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'Piedāvājuma tehniskais ID' (OPT-321-Tender) nepastāv</entry>
 <entry key="expression|name|178">'Organizācija, kas pilda šo lomu' (OPT-300-Tenderer) nepastāv</entry>
 <entry key="expression|name|179">'Organizācija vai konkrēts kontaktpunkts' (OPT-301-Tenderer-MainCont) nav aizpildīta</entry>
-<entry key="expression|name|18">'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup) nav tukša</entry>
 <entry key="expression|name|180">'Oficiālais nosaukums' (BT-500-Organization-Company) nav aizpildīta</entry>
 <entry key="expression|name|181">'Oficiālais nosaukums' (BT-500-Organization-TouchPoint) nav aizpildīta</entry>
 <entry key="expression|name|182">'Valsts' (BT-514-Organization-Company) nav NUTS kodu</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Darba likumdošanas tīmekļa adrese' (OPT-130-Part-EmployLegis) ir aizpildīta</entry>
 <entry key="expression|name|193">'Pārskatīšanas tiesiskās aizsardzības līdzekļa veids' (BT-792-Review) nav 'Alternatīvas sankcijas' vai 'Zaudējumu atlīdzināšana'</entry>
 <entry key="expression|name|194">'Pārskatīšanas tiesiskās aizsardzības līdzekļa veids' (BT-792-Review) ir 'Zaudējumu atlīdzināšana'</entry>
-<entry key="expression|name|195">'Pārskatīšanas pieprasījums atsaukts' (BT-796-Review) nav pareiza</entry>
+<entry key="expression|name|195">'Pārskatīšanas pieprasījums atsaukts' (BT-796-Review) nav 'jā'</entry>
 <entry key="expression|name|196">'Pārskatīšana – ID' (BT-784-Review) nav aizpildīta</entry>
 <entry key="expression|name|197">'Iepriekšējā paziņojuma identifikators' (BT-125i-Lot) nav aizpildīta</entry>
 <entry key="expression|name|198">'Iepriekšējā paziņojuma identifikators' (BT-125(i)-Part) nav aizpildīta</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Līguma slēgšanas tiesības netika piešķirtas par nevienu daļu</entry>
 <entry key="expression|name|204">'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract) nav aizpildīta</entry>
 <entry key="expression|name|205">'Procedūras veids' (BT-105) nav 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas'; 'Juridiskais pamats' (BT-01) nav 'Regula (ES, Euratom) 2018/1046'; vismaz viena 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract) ir aizpildīta</entry>
-<entry key="expression|name|206">'Līguma slēgšanas tiesības piešķir saskaņā ar pamatnolīgumu' (BT-768-Contract) nav pareiza</entry>
+<entry key="expression|name|206">'Līguma slēgšanas tiesības piešķir saskaņā ar pamatnolīgumu' (BT-768-Contract) nav 'jā'</entry>
 <entry key="expression|name|207">'Piedāvājuma identifikators' (BT-3201-Tender) ir aizpildīta</entry>
 <entry key="expression|name|209">'Paziņojuma versija, kurā veicamas izmaiņas' (BT-758-notice) nav aizpildīta</entry>
 <entry key="expression|name|21">'Valsts apakšiedalījums (NUTS)' B373(BT-5071-Lot) ir aizpildīta</entry>
 <entry key="expression|name|210">'Iedaļas identifikators' (BT-13716-notice) nav aizpildīta</entry>
-<entry key="expression|name|211">Indikators “Iepirkuma procedūras dokumenti ir mainīti” (BT-718-notice)nav pareizs</entry>
+<entry key="expression|name|211">Indikators 'Iepirkuma dokumenti ir mainījušies' (BT-718-notice) nav 'jā'</entry>
 <entry key="expression|name|212">'Galvenais izmaiņu iemesls' (BT-140-notice) nav aizpildīta</entry>
 <entry key="expression|name|213">Tas attiecas uz ES uzņēmumu reģistrāciju</entry>
 <entry key="expression|name|214">'Pārrobežu situācijās piemērojamie tiesību akti' (BT-09(b)-Procedure) nav aizpildīta</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Veids' (BT-539-LotsGroup) nav aizpildīta</entry>
 <entry key="expression|name|234">'Apraksts' (BT-540-Lot) nav aizpildīta</entry>
 <entry key="expression|name|235">'Apraksts' (BT-540-LotsGroup) nav aizpildīta</entry>
-<entry key="expression|name|236">'Piešķiršanas kritērija skaitlis' (BT-541-Lot) nav aizpildīta</entry>
-<entry key="expression|name|237">'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup) nav aizpildīta</entry>
 <entry key="expression|name|238">'Skaitlis ir svēruma veids' (BT-5421-Lot) nav aizpildīta</entry>
 <entry key="expression|name|239">'Skaitlis ir svēruma veids' (BT-5421-LotsGroup) nav aizpildīta</entry>
 <entry key="expression|name|24">'Sākuma datums' (BT-536-Lot) nav aizpildīta</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Lauks publicēšanai vēlāk' (BT-195(BT-161)-NoticeResult) nav aizpildīta</entry>
 <entry key="expression|name|278">'Lauks publicēšanai vēlāk' (BT-195(BT-162)-Tender) nav aizpildīta</entry>
 <entry key="expression|name|279">'Lauks publicēšanai vēlāk' (BT-195(BT-163)-Tender) nav aizpildīta</entry>
-<entry key="expression|name|28">'Šī kritērija izmantojums' (BT-748) ir 'Izmantots'</entry>
 <entry key="expression|name|280">'Lauks publicēšanai vēlāk' (BT-195(BT-171)-Tender) nav aizpildīta</entry>
 <entry key="expression|name|281">'Lauks publicēšanai vēlāk' (BT-195(BT-191)-Tender) nav aizpildīta</entry>
 <entry key="expression|name|282">'Lauks publicēšanai vēlāk' (BT-195(BT-193)-Tender) nav aizpildīta</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Lauks publicēšanai vēlāk' (BT-195(BT-731)-Tender) nav aizpildīta</entry>
 <entry key="expression|name|308">'Lauks publicēšanai vēlāk' (BT-195(BT-733)-Lot) nav aizpildīta</entry>
 <entry key="expression|name|309">'Lauks publicēšanai vēlāk' (BT-195(BT-733)-LotsGroup) nav aizpildīta</entry>
-<entry key="expression|name|31">'Atlases kritēriji – otrais posms – uzaicinājuma skaitlis' (BT-752-Lot) nav tukša</entry>
 <entry key="expression|name|310">'Lauks publicēšanai vēlāk' (BT-195(BT-734)-Lot) nav aizpildīta</entry>
 <entry key="expression|name|311">'Lauks publicēšanai vēlāk' (BT-195(BT-734)-LotsGroup) nav aizpildīta</entry>
 <entry key="expression|name|312">'Lauks publicēšanai vēlāk' (BT-195(BT-759)-LotResult) nav aizpildīta</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Šis ir kārtējs iepirkums' (BT-94-Lot) nav 'jā'</entry>
 <entry key="expression|name|318">'Procedūras veids' (BT-105-Procedure) ir 'Atklāta'</entry>
 <entry key="expression|name|319">'Organizācija vai konkrēts kontaktpunkts' (OPT-301-Lot-ReviewInfo) nav aizpildīta</entry>
-<entry key="expression|name|32">'Atlases kritēriji – otrais posms – uzaicinājuma skaitlis' (BT-752-Lot) nav tukša</entry>
 <entry key="expression|name|320">'Tiek izmantota elektroniska izsole' (BT-767-Lot) nav 'jā'</entry>
 <entry key="expression|name|321">'Procedūras veids' (BT-105) nav 'Slēgta'</entry>
 <entry key="expression|name|322">'Transportlīdzekļa tips' (OPT-155-LotResult) nav aizpildīta</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Ir nepieciešama elektroniska iesniegšana</entry>
 <entry key="expression|name|370">Elektroniskā iesniegšana nav atļauta</entry>
 <entry key="expression|name|371">Daļu grupa ietver 1 vai mazāk daļu</entry>
-<entry key="expression|name|372">'Veids' (BT-747-Lot) nav aizpildīta</entry>
 <entry key="expression|name|373">Daļu grupa sastāv no daļām bez pamatnolīguma</entry>
 <entry key="expression|name|374">'Pienākums, kas pretendentam jāizpilda attiecībā uz apakšuzņēmuma līgumiem' (BT-66) nav aizpildīta</entry>
 <entry key="expression|name|375">'Ilguma beigu datums' (BT-537-Part) ir aizpildīta; 'Ilgums – cits' (BT-538-Part) ir aizpildīta</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult) nav aizpildīta</entry>
 <entry key="expression|name|561">'Lauks publicēšanai vēlāk' (BT-195(BT-660)-LotResult) nav aizpildīta</entry>
 <entry key="expression|name|568">'Izpildei piemērojamo prasību kods' (OPT-060-Lot) nav aizpildīta</entry>
-<entry key="expression|name|569">'Apraksts' (BT-540-Lot) ir klāt, un 'Piešķiršanas kritērija skaitlis' (BT-541-Lot-FixedNumber) &amp;amp; 'Piešķiršanas kritērija skaitlis' (BT-541-Lot-ThresholdNumber) nav klāt</entry>
 <entry key="expression|name|57">'Ir paredzēts pamatnolīgums' (BT-765-Lot) ir 'Nav'</entry>
-<entry key="expression|name|570">'Apraksts' (BT-540-Lot) ir klāt, un 'Piešķiršanas kritērija skaitlis' (BT-541-Lot-WeightNumber) &amp;amp; 'Piešķiršanas kritērija skaitlis' (BT-541-Lot-ThresholdNumber) nav klāt</entry>
-<entry key="expression|name|571">'Apraksts' (BT-540-Lot) ir klāt, un 'Piešķiršanas kritērija skaitlis' (BT-541-Lot-WeightNumber) &amp;amp; 'Piešķiršanas kritērija skaitlis' (BT-541-Lot-FixedNumber) nav klāt</entry>
-<entry key="expression|name|572">'Apraksts' (BT-540-LotsGroup) ir klāt, un 'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup-ThresholdNumber) nav klāt</entry>
-<entry key="expression|name|573">'Apraksts' (BT-540-LotsGroup) ir klāt, un 'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup-ThresholdNumber) nav klāt</entry>
-<entry key="expression|name|574">'Apraksts' (BT-540-LotsGroup) ir klāt, un 'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup-FixedNumber) nav klāt</entry>
 <entry key="expression|name|575">'Piešķiršanas kritērija skaitlis' (BT-541-Lot-WeightNumber) nav klāt</entry>
 <entry key="expression|name|576">'Piešķiršanas kritērija skaitlis' (BT-541-Lot-FixedNumber) nav klāt</entry>
 <entry key="expression|name|577">'Piešķiršanas kritērija skaitlis' (BT-541-Lot-ThresholdNumber) nav klāt</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Lot) ir 'Jebkur' vai 'Jebkur Eiropas Ekonomikas zonā'</entry>
 <entry key="expression|name|94">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Part) nedrīkst būt 'Jebkur' vai 'Jebkur Eiropas Ekonomikas zonā'</entry>
 <entry key="expression|name|95">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Procedure) ir 'Jebkur' vai 'Jebkur Eiropas Ekonomikas zonā'</entry>
-<entry key="expression|name|96">'Piešķiršanas kritērija skaitlis' (BT-541-Lot) ir aizpildīta, 'Skaitlis ir fiksēta vērtība' (BT-5422-Lot) un 'Skaitlis ir sliekšņa veids' (BT-5423-Lot) nav aizpildītas</entry>
-<entry key="expression|name|97">'Piešķiršanas kritērija skaitlis' (BT-541-LotsGroup) ir aizpildīta, 'Skaitlis ir fiksēta vērtība' (BT-5422-LotsGroup) un 'Skaitlis ir sliekšņa veids' (BT-5423-LotsGroup) nav aizpildītas</entry>
 </properties>

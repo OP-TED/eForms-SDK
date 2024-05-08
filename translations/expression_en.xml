@@ -3,16 +3,14 @@
 <properties>
 <comment>expression in English. File generated from metadata database.</comment>
 <entry key="expression|name|1">The value for 'The buyer is a contracting entity' (BT-740) is 'No'</entry>
-<entry key="expression|name|100">'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in</entry>
-<entry key="expression|name|101">'Award criterion number' (BT-541-Lot) is filled in, 'Number is a type of weight' (BT-5421-Lot) and 'Number is a type of threshold' (BT-5422-Lot) are not filled in</entry>
-<entry key="expression|name|102">'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a type of weight' (BT-5421-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in</entry>
-<entry key="expression|name|103">'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a type of weight' (BT-5421-LotsGroup) and 'Number is a type of threshold' (BT-5422-LotsGroup) are not filled in</entry>
+<entry key="expression|name|10">Award Criterion Description (BT-540-LotsGroup) is not present or Award Criteria Complicated (BT-543-LotsGroup) is present</entry>
+<entry key="expression|name|100">Award Criterion Description (BT-540-LotsGroup) is present and Award Criterion Weight Number (BT-541-LotsGroup-WeightNumber), Award Criterion Threshold Number (BT-541-LotsGroup-ThresholdNumber) &amp; Award Criteria Complicated (BT-543-LotsGroup) are not present</entry>
+<entry key="expression|name|101">Award Criterion Description (BT-540-LotsGroup) is present and Award Criterion Weight Number (BT-541-LotsGroup-WeightNumber), Award Criterion Fixed Number (BT-541-LotsGroup-FixedNumber) &amp; Award Criteria Complicated (BT-543-LotsGroup) are not present</entry>
 <entry key="expression|name|104">'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lots) is not filled in</entry>
 <entry key="expression|name|105">'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-LotsGroup) is not filled in</entry>
 <entry key="expression|name|106">'Duration' (BT-36-Lot) or 'Duration end date' (BT-537-Lot) is filled in</entry>
 <entry key="expression|name|107">'Duration' (BT-36-Lot) or 'Other duration' (BT-538-Lot) is filled in</entry>
 <entry key="expression|name|108">'Duration end date' (BT-537-Lot) or 'Other duration' (BT-538-Lot) is filled in</entry>
-<entry key="expression|name|109">'Type of procedure' (BT-105) is not 'Direct award'</entry>
 <entry key="expression|name|11">'Start date' (BT-536-Part) is not filled in</entry>
 <entry key="expression|name|110">'Type of procedure' (BT-105) is 'Open'; 'Type of procedure' (BT-105) is 'Other single stage procedure' and 'Deadline for receipt of requests to participate' (BT-1311) is not filled in; 'Type of procedure' (BT-105) must be 'Other multiple stage procedure' and 'Deadline for receipt of requests to participate' (BT-1311) is not filled in</entry>
 <entry key="expression|name|111">'Type of procedure' (BT-105) is 'Other single stage procedure' and 'Deadline for receipt of tenders' (BT-131) is not filled in; 'Type of procedure' (BT-105) is 'Other multiple stage procedure' and 'Deadline for receipt of requests to participate' (BT-131) is not filled in</entry>
@@ -21,7 +19,6 @@
 <entry key="expression|name|114">'Deadline for receipt of tenders' (BT-131(d)-Lot) is filled in</entry>
 <entry key="expression|name|115">'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) is filled in</entry>
 <entry key="expression|name|116">'Type of procedure' (BT-105) is 'Open' or 'Other single stage procedure' or 'Negotiated without prior call for competition'</entry>
-<entry key="expression|name|117">'Type' (BT-747-Lot) is not filled in</entry>
 <entry key="expression|name|118">'Postal address' (BT-5101(a)-Lot) is not filled in</entry>
 <entry key="expression|name|119">'Postal address' (BT-5101(a)-Part) is not filled in</entry>
 <entry key="expression|name|12">'Legal type of the buyer' (BT-11) is one of the following: 'Body governed by public law'; 'Body governed by public law, controlled by a central government authority'; 'Body governed by public law, controlled by a local authority'; 'Body governed by public law, controlled by a regional authority'; 'Central government authority'; 'Defence contractor'; 'EU institution, body or agency'; 'European Institution/Agency or International Organisation'; 'International organisation'; 'Local authority'; 'Organisation awarding a contract subsidised by a central government authority'; 'Organisation awarding a contract subsidised by a local authority'; 'Organisation awarding a contract subsidised by a regional authority'; 'Public undertaking'; 'Public undertaking, controlled by a central government authority'; 'Public undertaking, controlled by a local authority'; 'Public undertaking, controlled by a regional authority'; 'Regional authority'; 'Regional or local authority'</entry>
@@ -57,15 +54,7 @@
 <entry key="expression|name|15">'Access to certain procurement documents is restricted' (BT-14-Part) is not restricted</entry>
 <entry key="expression|name|150">'Description' (BT-540-Lot) is not filled in</entry>
 <entry key="expression|name|151">'Description' (BT-540-LotsGroup) is not filled in</entry>
-<entry key="expression|name|152">'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in 'Number is a type of threshold' (BT-5423) is filled in</entry>
-<entry key="expression|name|153">'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in 'Number is a type of threshold' (BT-5423) is filled in</entry>
-<entry key="expression|name|154">'Award criterion number' (BT-541) is not filled in or 'Number is a type of weight' (BT-5421) is filled in or 'Number is a type of threshold' (BT-5423) is filled in or 'Type' (BT-539) is 'Quality'</entry>
-<entry key="expression|name|155">'Award criterion number' (BT-541) is not filled in or 'Number is a type of weight' (BT-5421) is filled in or 'Number is a type of threshold' (BT-5423) is filled in or 'Type' (BT-539) is 'Quality'</entry>
-<entry key="expression|name|156">'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in</entry>
-<entry key="expression|name|157">'Award criterion number' (BT-541) is not filled in or 'Number is a fixed value' (BT-5422) is filled in or 'Number is a type of threshold' (BT-5423) is filled in</entry>
-<entry key="expression|name|158">'The tenderer must submit tenders for all lots' ((BT-763)) is true</entry>
 <entry key="expression|name|159">Lots are not 'The tenderer must submit tenders for all lots' (BT-763) and there is more than one lot in the notice</entry>
-<entry key="expression|name|16">'Award criterion number' (BT-541-Lot) is not empty</entry>
 <entry key="expression|name|160">There are no multiple lots</entry>
 <entry key="expression|name|161">'Main classification' (BT-262-Lot) is not filled in</entry>
 <entry key="expression|name|162">'Main classification' (BT-262-Part) is not filled in</entry>
@@ -87,7 +76,6 @@
 <entry key="expression|name|177">'Technical ID of the tender' (OPT-321-Tender) does not exist</entry>
 <entry key="expression|name|178">'Organisation filling this role' (OPT-300-Tenderer) does not exist</entry>
 <entry key="expression|name|179">'Organisation or specific contact point' (OPT-301-Tenderer-MainCont) is not filled in</entry>
-<entry key="expression|name|18">'Award criterion number' (BT-541-LotsGroup) is not empty</entry>
 <entry key="expression|name|180">'Official name' (BT-500-Organization-Company) is not filled in</entry>
 <entry key="expression|name|181">'Official name' (BT-500-Organization-TouchPoint) is not filled in</entry>
 <entry key="expression|name|182">'Country' (BT-514-Organization-Company) does not have NUTS codes</entry>
@@ -104,7 +92,7 @@
 <entry key="expression|name|192">'Web address of employment legislation' (OPT-130-Part-EmployLegis) is filled in</entry>
 <entry key="expression|name|193">'Review remedy type' (BT-792-Review) is not 'Alternative penalty' or 'Damages'</entry>
 <entry key="expression|name|194">'Review remedy type' (BT-792-Review) is 'Damages'</entry>
-<entry key="expression|name|195">'Review request withdrawn' (BT-796-Review) is not true</entry>
+<entry key="expression|name|195">'Review request withdrawn' (BT-796-Review) is not 'yes'</entry>
 <entry key="expression|name|196">'Review identifier' (BT-784-Review) is not filled in</entry>
 <entry key="expression|name|197">'Identifier of the previous notice' (BT-125i-Lot) is not filled in</entry>
 <entry key="expression|name|198">'Identifier of the previous notice' (BT-125(i)-Part) is not filled in</entry>
@@ -117,12 +105,12 @@
 <entry key="expression|name|203">No lots have been awarded</entry>
 <entry key="expression|name|204">'Contract tender identifier' (BT-3202-Contract) is not filled in</entry>
 <entry key="expression|name|205">'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; at least one 'Contract tender identifier' (BT-3202-Contract) is filled in</entry>
-<entry key="expression|name|206">'The contract is awarded within a framework agreement' (BT-768-Contract) is not true</entry>
+<entry key="expression|name|206">'The contract is awarded within a framework agreement' (BT-768-Contract) is not 'yes'</entry>
 <entry key="expression|name|207">'Tender identifier' (BT-3201-Tender) is filled in</entry>
 <entry key="expression|name|209">'Version of the previous notice to be changed' (BT-758-notice) is not filled in</entry>
 <entry key="expression|name|21">'Country subdivision (NUTS)' B373(BT-5071-Lot) is filled in</entry>
 <entry key="expression|name|210">'Section identifier' (BT-13716-notice) is not filled in</entry>
-<entry key="expression|name|211">Indicator 'The procurement documents have changed' (BT-718-notice) is not true</entry>
+<entry key="expression|name|211">Indicator 'The procurement documents have changed' (BT-718-notice) is not 'yes'</entry>
 <entry key="expression|name|212">'Main reason for change' (BT-140-notice) is not filled in</entry>
 <entry key="expression|name|213">It applies to EU Business Registration</entry>
 <entry key="expression|name|214">'Applicable cross-border law' (BT-09(b)-Procedure) is not filled in</entry>
@@ -149,8 +137,6 @@
 <entry key="expression|name|233">'Type' (BT-539-LotsGroup) is not filled in</entry>
 <entry key="expression|name|234">'Description' (BT-540-Lot) is not filled in</entry>
 <entry key="expression|name|235">'Description' (BT-540-LotsGroup) is not filled in</entry>
-<entry key="expression|name|236">'Award criterion number' (BT-541-Lot) is not filled in</entry>
-<entry key="expression|name|237">'Award criterion number' (BT-541-LotsGroup) is not filled in</entry>
 <entry key="expression|name|238">'Number is a type of weight' (BT-5421-Lot) is not filled in</entry>
 <entry key="expression|name|239">'Number is a type of weight' (BT-5421-LotsGroup) is not filled in</entry>
 <entry key="expression|name|24">'Start date' (BT-536-Lot) is not filled in</entry>
@@ -197,7 +183,6 @@
 <entry key="expression|name|277">'Field to publish later' (BT-195(BT-161)-NoticeResult) is not filled in</entry>
 <entry key="expression|name|278">'Field to publish later' (BT-195(BT-162)-Tender) is not filled in</entry>
 <entry key="expression|name|279">'Field to publish later' (BT-195(BT-163)-Tender) is not filled in</entry>
-<entry key="expression|name|28">'Use of this criterion' (BT-748) is 'Used'</entry>
 <entry key="expression|name|280">'Field to publish later' (BT-195(BT-171)-Tender) is not filled in</entry>
 <entry key="expression|name|281">'Field to publish later' (BT-195(BT-191)-Tender) is not filled in</entry>
 <entry key="expression|name|282">'Field to publish later' (BT-195(BT-193)-Tender) is not filled in</entry>
@@ -231,7 +216,6 @@
 <entry key="expression|name|307">'Field to publish later' (BT-195(BT-731)-Tender) is not filled in</entry>
 <entry key="expression|name|308">'Field to publish later' (BT-195(BT-733)-Lot) is not filled in</entry>
 <entry key="expression|name|309">'Field to publish later' (BT-195(BT-733)-LotsGroup) is not filled in</entry>
-<entry key="expression|name|31">'Selection criteria second stage invite number' (BT-752-Lot) is not empty</entry>
 <entry key="expression|name|310">'Field to publish later' (BT-195(BT-734)-Lot) is not filled in</entry>
 <entry key="expression|name|311">'Field to publish later' (BT-195(BT-734)-LotsGroup) is not filled in</entry>
 <entry key="expression|name|312">'Field to publish later' (BT-195(BT-759)-LotResult) is not filled in</entry>
@@ -242,7 +226,6 @@
 <entry key="expression|name|317">'This is a recurrent procurement' (BT-94-Lot) is not 'yes'</entry>
 <entry key="expression|name|318">'Type of procedure' (BT-105-Procedure) is 'Open'</entry>
 <entry key="expression|name|319">'Organisation or specific contact point' (OPT-301-Lot-ReviewInfo) is not filled in</entry>
-<entry key="expression|name|32">'Selection criteria second stage invite number' (BT-752-Lot) is not empty</entry>
 <entry key="expression|name|320">'An electronic auction is used' (BT-767-Lot) is not 'yes'</entry>
 <entry key="expression|name|321">'Type of procedure' (BT-105) is not 'Restricted'</entry>
 <entry key="expression|name|322">'Vehicle type' (OPT-155-LotResult) is not filled in</entry>
@@ -298,7 +281,6 @@
 <entry key="expression|name|369">Electronic submission is required</entry>
 <entry key="expression|name|370">Electronic submission is not allowed</entry>
 <entry key="expression|name|371">Group of lots contains one or less lots</entry>
-<entry key="expression|name|372">'Type' (BT-747-Lot) is not filled in</entry>
 <entry key="expression|name|373">Group of lots consists of lots with no framework agreement</entry>
 <entry key="expression|name|374">'An obligation to be met by the tenderer concerning subcontracting' (BT-66) is not filled in</entry>
 <entry key="expression|name|375">'Duration end date' (BT-537-Part) is filled in; 'Other duration' (BT-538-Part) is filled in</entry>
@@ -396,13 +378,7 @@
 <entry key="expression|name|560">'Re-estimated value of the framework agreement' (BT-660-LotResult) is not filled in</entry>
 <entry key="expression|name|561">'Field to publish later' (BT-195(BT-660)-LotResult) is not filled in</entry>
 <entry key="expression|name|568">'Execution requirement code' (OPT-060-Lot) is not filled in</entry>
-<entry key="expression|name|569">'Description' (BT-540-Lot) is present and 'Award criterion number' (BT-541-Lot-FixedNumber) &amp;amp; 'Award criterion number' (BT-541-Lot-ThresholdNumber) are not present</entry>
 <entry key="expression|name|57">'Framework agreement is involved' (BT-765-Lot) is 'No dynamic purchase system'</entry>
-<entry key="expression|name|570">'Description' (BT-540-Lot) is present and 'Award criterion number' (BT-541-Lot-WeightNumber) &amp;amp; 'Award criterion number' (BT-541-Lot-ThresholdNumber) are not present</entry>
-<entry key="expression|name|571">'Description' (BT-540-Lot) is present and 'Award criterion number' (BT-541-Lot-WeightNumber) &amp;amp; 'Award criterion number' (BT-541-Lot-FixedNumber) are not present</entry>
-<entry key="expression|name|572">'Description' (BT-540-LotsGroup) is present and 'Award criterion number' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Award criterion number' (BT-541-LotsGroup-ThresholdNumber) are not present</entry>
-<entry key="expression|name|573">'Description' (BT-540-LotsGroup) is present and 'Award criterion number' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Award criterion number' (BT-541-LotsGroup-ThresholdNumber) are not present</entry>
-<entry key="expression|name|574">'Description' (BT-540-LotsGroup) is present and 'Award criterion number' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Award criterion number' (BT-541-LotsGroup-FixedNumber) are not present</entry>
 <entry key="expression|name|575">'Award criterion number' (BT-541-Lot-WeightNumber) is not present</entry>
 <entry key="expression|name|576">'Award criterion number' (BT-541-Lot-FixedNumber) is not present</entry>
 <entry key="expression|name|577">'Award criterion number' (BT-541-Lot-ThresholdNumber) is not present</entry>
@@ -435,7 +411,13 @@
 <entry key="expression|name|604">'Type of procedure' (BT-105) value is equal to 'Other multiple stage procedure'</entry>
 <entry key="expression|name|605">Identifier of the contract to be modified (BT-1501(c)-Contract) is filled in</entry>
 <entry key="expression|name|61">'Justification for direct award' (BT-136-Procedure) is not one of the following: 'Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations'; 'Need for additional works or services by the original contractor'; 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'</entry>
+<entry key="expression|name|613">the Tender is neither submitted for a Lot for which Foreign Subsidies Regulation (BT-681-Lot) is set to 'true', nor for a Group of Lots containing a lot for which Foreign Subsidies Regulation (BT-681-Lot) is set to 'true'</entry>
+<entry key="expression|name|616">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>
+<entry key="expression|name|617">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>
+<entry key="expression|name|618">Procedure Legal Basis (BT-01) value is equal to 'Directive 2014/24/EU' and Procedure is accelerated (BT-106-Procedure is true)</entry>
+<entry key="expression|name|619">Procedure Legal Basis (BT-01) value is equal to 'Directive 2009/81/EU' and Procedure is accelerated (BT-106-Procedure is true)</entry>
 <entry key="expression|name|62">'Winner selection status' (BT-142-LotResult) is not 'No winner was chosen and the competition is closed.'</entry>
+<entry key="expression|name|620">Procedure Legal Basis (BT-01) value is equal to 'Directive 2014/25/EU' and Procedure is accelerated (BT-106-Procedure is true)</entry>
 <entry key="expression|name|63">'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'</entry>
 <entry key="expression|name|64">'Framework agreement is involved' (BT-765) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition'; and 'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'</entry>
 <entry key="expression|name|65">'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.'</entry>
@@ -460,11 +442,14 @@
 <entry key="expression|name|86">'Significance of the essential assets provided in relation to the overall assets needed for the provision of the public services' (OPP-020-Contract) is not 'yes'</entry>
 <entry key="expression|name|87">'The execution of the contract must be performed within the framework of sheltered employment programmes' (BT-736-Lot) is not 'yes'</entry>
 <entry key="expression|name|89">'Reference to the contract ' (OPT-315-LotResult) is not empty</entry>
+<entry key="expression|name|9">Award Criterion Description (BT-540-Lot) is not present or Award Criteria Complicated (BT-543-Lot) is present</entry>
 <entry key="expression|name|90">'Winner selection status' (BT-142-LotResult) must not be 'At least one winner was chosen.'</entry>
 <entry key="expression|name|91">'Tender identifier' (BT-3201-Tender) is not filled in</entry>
 <entry key="expression|name|93">'Other restrictions on the place of performance' (BT-727-Lot) is 'Anywhere' or 'Anywhere in the European Economic Area'</entry>
 <entry key="expression|name|94">'Other restrictions on the place of performance' (BT-727-Part) must not be 'Anywhere' or 'Anywhere in the European Economic Area'</entry>
 <entry key="expression|name|95">'Other restrictions on the place of performance' (BT-727-Procedure) is 'Anywhere' or 'Anywhere in the European Economic Area'</entry>
-<entry key="expression|name|96">'Award criterion number' (BT-541-Lot) is filled in, 'Number is a fixed value' (BT-5422-Lot) and 'Number is a type of threshold' (BT-5423-Lot) are not filled in</entry>
-<entry key="expression|name|97">'Award criterion number' (BT-541-LotsGroup) is filled in, 'Number is a fixed value' (BT-5422-LotsGroup) and 'Number is a type of threshold' (BT-5423-LotsGroup) are not filled in</entry>
+<entry key="expression|name|96">Award Criterion Description (BT-540-Lot) is present and Award Criterion Fixed Number (BT-541-Lot-FixedNumber), Award Criterion Threshold Number (BT-541-Lot-ThresholdNumber) &amp; Award Criteria Complicated (BT-543-Lot) are not present</entry>
+<entry key="expression|name|97">Award Criterion Description (BT-540-Lot) is present and Award Criterion Weight Number (BT-541-Lot-WeightNumber), Award Criterion Threshold Number (BT-541-Lot-ThresholdNumber) &amp; Award Criteria Complicated (BT-543-Lot) are not present</entry>
+<entry key="expression|name|98">Award Criterion Description (BT-540-Lot) is present and Award Criterion Weight Number (BT-541-Lot-WeightNumber), Award Criterion Fixed Number (BT-541-Lot-FixedNumber) &amp; Award Criteria Complicated (BT-543-Lot) are not present</entry>
+<entry key="expression|name|99">Award Criterion Description (BT-540-LotsGroup) is present and Award Criterion Fixed Number (BT-541-LotsGroup-FixedNumber), Award Criterion Threshold Number (BT-541-LotsGroup-ThresholdNumber) &amp; Award Criteria Complicated (BT-543-LotsGroup) are not present</entry>
 </properties>

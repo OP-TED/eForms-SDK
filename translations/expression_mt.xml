@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Maltese. File generated from metadata database.</comment>
 <entry key="expression|name|1">Il-valur għal 'Ix-xerrej huwa entità kontraenti' (BT-740) huwa 'Le'</entry>
-<entry key="expression|name|100">'Numru tal-kriterju għall-għoti' (BT-541-Lot) huma mimlijin, 'In-numru hu tip ta’ ponderazzjoni ' (BT-5421-Lot) u 'In-numru hu tip ta’ limitu' (BT-5423-Lot) mhumiex mimlijin</entry>
-<entry key="expression|name|101">'Numru tal-kriterju għall-għoti' (BT-541-Lot) huma mimlijin, 'In-numru hu tip ta’ ponderazzjoni ' (BT-5421-Lot) u 'In-numru hu tip ta’ limitu' (BT-5422-Lot) mhumiex mimlijin</entry>
-<entry key="expression|name|102">'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup) huma mimlijin, 'In-numru hu tip ta’ ponderazzjoni ' (BT-5421-LotsGroup) u 'In-numru hu tip ta’ limitu' (BT-5423-LotsGroup) mhumiex mimlijin</entry>
-<entry key="expression|name|103">'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup) huma mimlijin, 'In-numru hu tip ta’ ponderazzjoni ' (BT-5421-LotsGroup) u 'In-numru hu tip ta’ limitu' (BT-5422-LotsGroup) mhumiex mimlijin</entry>
 <entry key="expression|name|104">'Deskrizzjoni tal-metodu li għandu jintuża jekk il-koeffiċjent tal-korrezzjoni ma jistax jiġi espress permezz ta’ kriterji' (BT-543-Lots) mhuwiex mimli</entry>
 <entry key="expression|name|105">'Deskrizzjoni tal-metodu li għandu jintuża jekk il-koeffiċjent tal-korrezzjoni ma jistax jiġi espress permezz ta’ kriterji' (BT-543-LotsGroup) mhuwiex mimli</entry>
 <entry key="expression|name|106">'Tul ta’ żmien' (BT-36-Lot) jew 'Data tat-tmiem tad-durata' (BT-537-Lot) huma mimlijin</entry>
 <entry key="expression|name|107">'Tul ta’ żmien' (BT-36-Lot) jew 'Tul ta’ żmien ieħor' (BT-538-Lot) huma mimlijin</entry>
 <entry key="expression|name|108">'Data tat-tmiem tad-durata' (BT-537-Lot) jew 'Tul ta’ żmien ieħor' (BT-538-Lot) huma mimlijin</entry>
-<entry key="expression|name|109">'Tip ta’ proċedura' (BT-105) mhuwiex 'Għoti dirett'</entry>
 <entry key="expression|name|11">'Data tal-bidu' (BT-536-Part) mhuwiex mimli</entry>
 <entry key="expression|name|110">'Tip ta’ proċedura' (BT-105) huwa 'Miftuħa'; 'Tip ta’ proċedura' (BT-105) huwa 'Proċedura oħra bi stadju wieħed' u 'Skadenza biex jintlaqgħu t-talbiet għall-parteċipazzjoni' (BT-1311) mhumiex mimlijin; 'Tip ta’ proċedura' (BT-105) għandhom ikunu 'Proċedura oħra b’diversi stadji' u 'Skadenza biex jintlaqgħu t-talbiet għall-parteċipazzjoni' (BT-1311) mhumiex mimlijin</entry>
 <entry key="expression|name|111">'Tip ta’ proċedura' (BT-105) huwa 'Proċedura oħra bi stadju wieħed' u 'Skadenza biex jintlaqgħu l-offerti' (BT-131) mhuwiex mimli; 'Tip ta’ proċedura' (BT-105) huwa 'Proċedura oħra b’diversi stadji' u 'Skadenza biex jintlaqgħu t-talbiet għall-parteċipazzjoni' (BT-131) mhuwiex mimli</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Skadenza biex jintlaqgħu l-offerti' (BT-131(d)-Lot) huwa mimli</entry>
 <entry key="expression|name|115">'Skadenza biex jintlaqgħu t-talbiet għall-parteċipazzjoni' (BT-1311(d)-Lot) huwa mimli</entry>
 <entry key="expression|name|116">'Tip ta’ proċedura' (BT-105) huma 'Miftuħa' jew 'Proċedura oħra bi stadju wieħed' jew 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni'</entry>
-<entry key="expression|name|117">'Tip' (BT-747-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|118">'Indirizz postali' (BT-5101(a)-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|119">'Indirizz postali' (BT-5101(a)-Part) mhuwiex mimli</entry>
 <entry key="expression|name|12">'Tip legali tax-xerrej' (BT-11) hija waħda minn dawn li ġejjin: 'Korp irregolat bil-liġi pubblika'; 'Korp irregolat bil-liġi pubblika, ikkontrollat minn awtorità tal-gvern ċentrali'; 'Korp irregolat bil-liġi pubblika, ikkontrollat minn awtorità lokali'; 'Korp irregolat bil-liġi pubblika, ikkontrollat minn awtorità reġjonali'; 'Awtorità tal-gvern ċentrali'; 'Kuntrattur tad-difiża'; 'Istituzzjoni, korp jew aġenzija tal-UE'; 'Istituzzjoni/Aġenzija Ewropea jew Organizzazzjoni Internazzjonali'; 'Organizzazzjoni internazzjonali'; 'Awtorità lokali'; 'Organizzazzjoni li tagħti kuntratt issussidjat minn awtorità tal-gvern ċentrali'; 'Organizzazzjoni li tagħti kuntratt issussidjat minn awtorità lokali'; 'Organizzazzjoni li tagħti kuntratt issussidjat minn awtorità reġjonali'; 'Impriża pubblika'; 'Impriża pubblika, ikkontrollata minn awtorità tal-gvern ċentrali'; 'Impriża pubblika, ikkontrollata minn awtorità lokali'; 'Impriża pubblika, ikkontrollata minn awtorità reġjonali'; 'Awtorità reġjonali'; 'Awtorità reġjonali jew lokali'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Aċċess għal ċerti dokumenti tal-akkwist hu ristrett.' (BT-14-Part) mhuwiex ristrett</entry>
 <entry key="expression|name|150">'Deskrizzjoni' (BT-540-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|151">'Deskrizzjoni' (BT-540-LotsGroup) mhuwiex mimli</entry>
-<entry key="expression|name|152">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew 'In-numru hu valur fiss' (BT-5422) huwa mimli 'In-numru hu tip ta’ limitu' (BT-5423) huwa mimli</entry>
-<entry key="expression|name|153">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew 'In-numru hu valur fiss' (BT-5422) huwa mimli 'In-numru hu tip ta’ limitu' (BT-5423) huwa mimli</entry>
-<entry key="expression|name|154">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew'In-numru hu tip ta’ ponderazzjoni ' (BT-5421) huwa mimli jew 'In-numru hu tip ta’ limitu' (BT-5423) huwa mimli jew 'Tip' (BT-539) huwa 'Kwalità'</entry>
-<entry key="expression|name|155">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew'In-numru hu tip ta’ ponderazzjoni ' (BT-5421) huwa mimli jew 'In-numru hu tip ta’ limitu' (BT-5423) huwa mimli jew 'Tip' (BT-539) huwa 'Kwalità'</entry>
-<entry key="expression|name|156">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew 'In-numru hu valur fiss' (BT-5422) huwa mimli jew 'In-numru hu tip ta’ limitu' (BT-5423)</entry>
-<entry key="expression|name|157">'Numru tal-kriterju għall-għoti' (BT-541) mhuwiex mimli jew 'In-numru hu valur fiss' (BT-5422) huwa mimli jew 'In-numru hu tip ta’ limitu' (BT-5423)</entry>
-<entry key="expression|name|158">'L-offerent irid iressaq offerti għal-lottijiet kollha' ((BT-763)) huwa veru</entry>
 <entry key="expression|name|159">Il-lotti mhux 'L-offerent irid iressaq offerti għal-lottijiet kollha' (BT-763) u hemm aktar minn lot waħda fl-avviż</entry>
-<entry key="expression|name|16">'Numru tal-kriterju għall-għoti' (BT-541-Lot) mhuwiex vojt</entry>
 <entry key="expression|name|160">M’hemm l-ebda lottijiet multipli</entry>
 <entry key="expression|name|161">'Klassifikazzjoni prinċipali' (BT-262-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|162">'Klassifikazzjoni prinċipali' (BT-262-Part) mhuwiex mimli</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'ID tekniku tal-offerta' (OPT-321-Tender) ma jeżistix</entry>
 <entry key="expression|name|178">'Organizzazzjoni li twettaq din ir-rwol' (OPT-300-Tenderer) ma jeżistix</entry>
 <entry key="expression|name|179">'Organizzazzjoni jew punt ta' kuntatt speċifiku' (OPT-301-Tenderer-MainCont) mhuwiex mimli</entry>
-<entry key="expression|name|18">'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup) mhuwiex vojt</entry>
 <entry key="expression|name|180">'Isem uffiċjali' (BT-500-Organization-Company) mhuwiex mimli</entry>
 <entry key="expression|name|181">'Isem uffiċjali' (BT-500-Organization-TouchPoint) mhuwiex mimli</entry>
 <entry key="expression|name|182">'Pajjiż' (BT-514-Organization-Company) ma għandux kodiċijiet NUTS</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Indirizz web tal-liġi tax-xogħol' (OPT-130-Part-EmployLegis) huwa mimli</entry>
 <entry key="expression|name|193">'Tip ta’ rimedju tar-rieżami' (BT-792-Review) mhuwiex 'Penali alternattivi' jew 'Danni'</entry>
 <entry key="expression|name|194">'Tip ta’ rimedju tar-rieżami' (BT-792-Review) huwa 'Danni'</entry>
-<entry key="expression|name|195">'Talba għal rieżami rtirata' (BT-796-Review) mhuwiex veru</entry>
+<entry key="expression|name|195">'Talba għal rieżami rtirata' (BT-796-Review) mhux 'iva'</entry>
 <entry key="expression|name|196">'ID tar-rieżami' (BT-784-Review) mhuwiex mimli</entry>
 <entry key="expression|name|197">'Identifikatur tal-avviż preċedenti' (BT-125i-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|198">'Identifikatur tal-avviż preċedenti' (BT-125(i)-Part) mhuwiex mimli</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">L-ebda lottijiet ma ngħataw</entry>
 <entry key="expression|name|204">'ID tal-offerta tal-kuntratt' (BT-3202-Contract) mhuwiex mimli</entry>
 <entry key="expression|name|205">'Tip ta’ proċedura' (BT-105) mhuwiex 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni'; 'Bażi legali' (BT-01) mhuwiex 'Regolament (UE, Euratom) 2018/1046'; mill-inqas wieħed 'ID tal-offerta tal-kuntratt'(BT-3202-Contract) huwa mimli</entry>
-<entry key="expression|name|206">'Il-kuntratt jingħata fi ftehim qafas' (BT-768-Contract) mhuwiex veru</entry>
+<entry key="expression|name|206">'Il-kuntratt jingħata fi ftehim qafas' (BT-768-Contract) mhux 'iva'</entry>
 <entry key="expression|name|207">'Identifikatur tal-offerta' (BT-3201-Tender) huwa mimli</entry>
 <entry key="expression|name|209">'Verżjoni tal-avviż preċedenti li għandu jinbidel' (BT-758-notice) mhuwiex mimli</entry>
 <entry key="expression|name|21">'Sottodiviżjoni tal-pajjiż (NUTS)' B373 (BT-5071-Lot) huwa mimli</entry>
 <entry key="expression|name|210">'Identifikatur tas-sezzjoni' (BT-13716-notice) mhuwiex mimli</entry>
-<entry key="expression|name|211">Indikatur “Id-dokumenti tal-ksib inbidlu” (BT-718-notice) mhuwiex veru</entry>
+<entry key="expression|name|211">L-indikatur 'Id-dokumenti ta' l-appalt pubbliku inbidlu' (BT-718-notice) mhux 'iva'</entry>
 <entry key="expression|name|212">'Raġuni ewlenija għall-bidla' (BT-140-notice) mhuwiex mimli</entry>
 <entry key="expression|name|213">Dan japplika għar-Reġistrazzjoni tan-Negozju tal-UE</entry>
 <entry key="expression|name|214">'Liġi transfruntiera applikabbli' (BT-09(b)-Procedure) mhuwiex mimli</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Tip' (BT-539-LotsGroup) mhuwiex mimli</entry>
 <entry key="expression|name|234">'Deskrizzjoni' (BT-540-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|235">'Deskrizzjoni' (BT-540-LotsGroup) mhuwiex mimli</entry>
-<entry key="expression|name|236">'Numru tal-kriterju għall-għoti' (BT-541-Lot) mhuwiex mimli</entry>
-<entry key="expression|name|237">'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup) mhuwiex mimli</entry>
 <entry key="expression|name|238">'In-numru hu tip ta’ ponderazzjoni' (BT-5421-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|239">'In-numru hu tip ta’ ponderazzjoni' (BT-5421-LotsGroup) mhuwiex mimli</entry>
 <entry key="expression|name|24">'Data tal-bidu' (BT-536-Lot) mhuwiex mimli</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-161)-NoticeResult) mhuwiex mimli</entry>
 <entry key="expression|name|278">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-162)-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|279">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-163)-Tender) mhuwiex mimli</entry>
-<entry key="expression|name|28">'Użu ta’ dan il-kriterju' (BT-748) huwa 'Intużaw'</entry>
 <entry key="expression|name|280">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-171)-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|281">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-191)-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|282">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-193)-Tender) mhuwiex mimli</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-731)-Tender) mhuwiex mimli</entry>
 <entry key="expression|name|308">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-733)-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|309">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-733)-LotsGroup) mhuwiex mimli</entry>
-<entry key="expression|name|31">'Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju' (BT-752-Lot) mhuwiex vojt</entry>
 <entry key="expression|name|310">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-734)-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|311">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-734)-LotsGroup) mhuwiex mimli</entry>
 <entry key="expression|name|312">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-759)-LotResult) mhuwiex mimli</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Dan huwa akkwist rikorrenti' (BT-94-Lot) mhuwiex 'iva'</entry>
 <entry key="expression|name|318">'Tip ta’ proċedura' (BT-105-Procedure) huwa 'Miftuħa'</entry>
 <entry key="expression|name|319">'Organizzazzjoni jew punt ta' kuntatt speċifiku' (OPT-301-Lot-ReviewInfo) mhuwiex mimli</entry>
-<entry key="expression|name|32">'Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju' (BT-752-Lot) mhuwiex vojt</entry>
 <entry key="expression|name|320">'Użat irkant elettroniku' (BT-767-Lot) mhuwiex 'iva'</entry>
 <entry key="expression|name|321">'Tip ta’ proċedura' (BT-105) mhuwiex 'Ristretta'</entry>
 <entry key="expression|name|322">'Tip ta' vettura' (OPT-155-LotResult) mhuwiex mimli</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Hija meħtieġa sottomissjoni elettronika</entry>
 <entry key="expression|name|370">Sottomissjoni elettronika mhijiex permessa</entry>
 <entry key="expression|name|371">Grupp ta’ lottijiet fih lott wieħed jew inqas</entry>
-<entry key="expression|name|372">'Tip' (BT-747-Lot) mhuwiex mimli</entry>
 <entry key="expression|name|373">Il-grupp ta’ lottijiet jikkonsisti f’lottijiet mingħajr qafas ta’ ftehim</entry>
 <entry key="expression|name|374">'Obbligu li jrid jiġi rrispettat mill-offerent rigward is-sottokuntrattar' (BT-66) mhuwiex mimli</entry>
 <entry key="expression|name|375">'Data tat-tmiem tad-durata' (BT-537-Part) huwa mimli; 'Tul ta’ żmien ieħor' (BT-538-Part) huwa mimli</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Valur stmat mill-ġdid tal-ftehim qafas' (BT-660-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|561">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-660)-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|568">'Kodiċi tar-rekwiżit tal-eżekuzzjoni' (OPT-060-Lot) mhuwiex mimli</entry>
-<entry key="expression|name|569">'Deskrizzjoni' (BT-540-Lot) hija preżenti u 'Numru tal-kriterju għall-għoti' (BT-541-Lot-FixedNumber) &amp;amp; 'Numru tal-kriterju għall-għoti' (BT-541-Lot-ThresholdNumber) mhux preżenti</entry>
 <entry key="expression|name|57">'Involut ftehim qafas' (BT-765-Lot) huwa 'L-ebda'</entry>
-<entry key="expression|name|570">'Deskrizzjoni' (BT-540-Lot) hija preżenti u 'Numru tal-kriterju għall-għoti' (BT-541-Lot-WeightNumber) &amp;amp; 'Numru tal-kriterju għall-għoti' (BT-541-Lot-ThresholdNumber) mhux preżenti</entry>
-<entry key="expression|name|571">'Deskrizzjoni' (BT-540-Lot) hija preżenti u 'Numru tal-kriterju għall-għoti' (BT-541-Lot-WeightNumber) &amp;amp; 'Numru tal-kriterju għall-għoti' (BT-541-Lot-FixedNumber) mhux preżenti</entry>
-<entry key="expression|name|572">'Deskrizzjoni' (BT-540-LotsGroup) hija preżenti u 'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup-ThresholdNumber) mhux preżenti</entry>
-<entry key="expression|name|573">'Deskrizzjoni' (BT-540-LotsGroup) hija preżenti u 'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup-ThresholdNumber) mhux preżenti</entry>
-<entry key="expression|name|574">'Deskrizzjoni' (BT-540-LotsGroup) hija preżenti u 'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup-FixedNumber) mhux preżenti</entry>
 <entry key="expression|name|575">'Numru tal-kriterju għall-għoti' (BT-541-Lot-WeightNumber) mhux preżenti</entry>
 <entry key="expression|name|576">'Numru tal-kriterju għall-għoti' (BT-541-Lot-FixedNumber) mhux preżenti</entry>
 <entry key="expression|name|577">'Numru tal-kriterju għall-għoti' (BT-541-Lot-ThresholdNumber) mhux preżenti</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727-Lot) huwa 'Ikun fejn ikun' jew 'Ikun fejn ikun fiż-Żona Ekonomika Ewropea'</entry>
 <entry key="expression|name|94">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727-Part) ma għandux ikun 'Ikun fejn ikun' jew 'Ikun fejn ikun fiż-Żona Ekonomika Ewropea'</entry>
 <entry key="expression|name|95">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727-Procedure) huwa 'Ikun fejn ikun' jew 'Ikun fejn ikun fiż-Żona Ekonomika Ewropea'</entry>
-<entry key="expression|name|96">'Numru tal-kriterju għall-għoti' (BT-541-Lot) huwa mimli, 'In-numru hu valur fiss' (BT-5422-Lot) u 'In-numru hu tip ta’ limitu' (BT-5423-Lot) mhumiex mimlija</entry>
-<entry key="expression|name|97">'Numru tal-kriterju għall-għoti' (BT-541-LotsGroup) huwa mimli, 'In-numru hu valur fiss' (BT-5422-LotsGroup) u 'In-numru hu tip ta’ limitu' (BT-5423-LotsGroup) mhumiex mimlija</entry>
 </properties>

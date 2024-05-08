@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Czech. File generated from metadata database.</comment>
 <entry key="expression|name|1">Hodnota pro 'Kupující je zadavatelem' (BT-740) je 'Ne'</entry>
-<entry key="expression|name|100">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot) je vyplněn a nejsou vyplněny 'Číslo je typem váhy' (BT-5421-Lot) a 'Číslo je typem prahové hodnoty' (BT-5423-Lot)</entry>
-<entry key="expression|name|101">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot) je vyplněn a nejsou vyplněny 'Číslo je typem váhy' (BT-5421-Lot) a 'Číslo je typem prahové hodnoty' (BT-5422-Lot)</entry>
-<entry key="expression|name|102">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup) je vyplněn a nejsou vyplněny 'Číslo je typem váhy' (BT-5421-LotsGroup) a 'Číslo je typem prahové hodnoty' (BT-5423-LotsGroup)</entry>
-<entry key="expression|name|103">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup) je vyplněn a nejsou vyplněny 'Číslo je typem váhy' (BT-5421-LotsGroup) a 'Číslo je typem prahové hodnoty' (BT-5422-LotsGroup)</entry>
 <entry key="expression|name|104">'Popis metody, která se použije v případě, že vážení nelze vyjádřit pomocí kritérií' (BT-543-Lots) není vyplněn</entry>
 <entry key="expression|name|105">'Popis metody, která se použije v případě, že vážení nelze vyjádřit pomocí kritérií' (BT-543-LotsGroup) není vyplněn</entry>
 <entry key="expression|name|106">'Doba trvání' (BT-36-Lot) nebo 'Datum konce trvání' (BT-537-Lot) je vyplněn</entry>
 <entry key="expression|name|107">'Doba trvání' (BT-36-Lot) nebo 'Jiná doba' (BT-538-Lot) je vyplněn</entry>
 <entry key="expression|name|108">'Datum konce trvání' (BT-537-Lot) nebo 'Jiná doba' (BT-538-Lot) je vyplněn</entry>
-<entry key="expression|name|109">'Typ řízení' (BT-105) není 'Přímé zadání zakázky'</entry>
 <entry key="expression|name|11">'Datum zahájení' (BT-536-Part) není vyplněn</entry>
 <entry key="expression|name|110">'Typ řízení' (BT-105) je 'Otevřené'; 'Typ řízení' (BT-105) je 'Jiné jednofázové řízení' a 'Lhůta pro doručení žádostí o účast' (BT-1311) není vyplněn; 'Typ řízení' (BT-105) musí být 'Jiné vícefázové řízení' a 'Lhůta pro doručení žádostí o účast' (BT-1311) není vyplněn</entry>
 <entry key="expression|name|111">'Typ řízení' (BT-105) je 'Jiné jednofázové řízení' a 'Lhůta pro doručení nabídek' (BT-131) není vyplněn; 'Typ řízení' (BT-105) je 'Jiné vícefázové řízení' a 'Lhůta pro doručení žádostí o účast' (BT-131) není vyplněn</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Lhůta pro doručení nabídek' (BT-131(d)-Lot) je vyplněn</entry>
 <entry key="expression|name|115">'Lhůta pro doručení žádostí o účast' (BT-1311(d)-Lot) je vyplněn</entry>
 <entry key="expression|name|116">'Typ řízení' (BT-105) je 'Otevřené' nebo 'Jiné jednofázové řízení' nebo 'Jednací řízení bez uveřejnění'</entry>
-<entry key="expression|name|117">'Typ' (BT-747-Lot) není vyplněn</entry>
 <entry key="expression|name|118">'Poštovní adresa' (BT-5101(a)-Lot) není vyplněn</entry>
 <entry key="expression|name|119">'Poštovní adresa' (BT-5101(a)-Part) není vyplněn</entry>
 <entry key="expression|name|12">'Právní forma kupujícího' (BT-11) je jedním z následujících: 'Veřejnoprávní subjekt'; 'Veřejnoprávní subjekt ovládaný ústředním orgánem státní správy'; 'Veřejnoprávní subjekt ovládaný místním orgánem'; 'Veřejnoprávní subjekt ovládaný regionálním orgánem'; 'Ústřední orgán státní správy'; 'Zadavatel, zhotovitel, dodavatel nebo poskytovatel služeb v oblasti obrany'; 'Instituce, orgán nebo agentura EU'; 'Evropská instituce/agentura nebo mezinárodní organizace'; 'Mezinárodní organizace'; 'Místní orgán'; 'Organizace zadávající zakázku dotovanou ústředním orgánem státní správy'; 'Organizace zadávající zakázku dotovanou místním orgánem'; 'Organizace zadávající zakázku dotovanou regionálním orgánem'; 'Veřejný podnik'; 'Veřejný podnik ovládaný ústředním orgánem státní správy'; 'Veřejný podnik ovládaný místním orgánem'; 'Veřejný podnik ovládaný regionálním orgánem'; 'Regionální orgán'; 'Regionální či místní orgán'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Přístup k určité zadávací dokumentaci je omezený' (BT-14-Part) není omezen</entry>
 <entry key="expression|name|150">'Popis' (BT-540-Lot) není vyplněn</entry>
 <entry key="expression|name|151">'Popis' (BT-540-LotsGroup) není vyplněn</entry>
-<entry key="expression|name|152">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je pevná hodnota' (BT-5422) je vyplněn, 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn</entry>
-<entry key="expression|name|153">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je pevná hodnota' (BT-5422) je vyplněn, 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn</entry>
-<entry key="expression|name|154">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je typem váhy' (BT-5421) je vyplněn nebo 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn nebo 'Typ' (BT-539) je 'Kvalita'</entry>
-<entry key="expression|name|155">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je typem váhy' (BT-5421) je vyplněn nebo 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn nebo 'Typ' (BT-539) je 'Kvalita'</entry>
-<entry key="expression|name|156">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je pevná hodnota' (BT-5422) je vyplněn nebo 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn</entry>
-<entry key="expression|name|157">'Číslo spojené s kritériem pro zadání zakázky' (BT-541) není vyplněn nebo 'Číslo je pevná hodnota' (BT-5422) je vyplněn nebo 'Číslo je typem prahové hodnoty' (BT-5423) je vyplněn</entry>
-<entry key="expression|name|158">'Uchazeč musí podat nabídky pro všechny části' ((BT-763)) je pravda</entry>
 <entry key="expression|name|159">Losy nejsou 'Uchazeč musí podat nabídky pro všechny části' (BT-763) a v oznámení je více než jeden los</entry>
-<entry key="expression|name|16">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot) není prázdný</entry>
 <entry key="expression|name|160">Neexistují vícenásobné položky</entry>
 <entry key="expression|name|161">'Hlavní klasifikace' (BT-262-Lot) není vyplněn</entry>
 <entry key="expression|name|162">'Hlavní klasifikace' (BT-262-Part) není vyplněn</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'Technické ID nabídky' (OPT-321-Tender) neexistuje</entry>
 <entry key="expression|name|178">'Organizace vykonávající tuto roli' (OPT-300-Tenderer) neexistuje</entry>
 <entry key="expression|name|179">'Organizace nebo konkrétní kontaktní bod' (OPT-301-Tenderer-MainCont) není vyplněn</entry>
-<entry key="expression|name|18">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup) není prázdný</entry>
 <entry key="expression|name|180">'Oficiální název' (BT-500-Organization-Company) není vyplněn</entry>
 <entry key="expression|name|181">'Oficiální název' (BT-500-Organization-TouchPoint) není vyplněn</entry>
 <entry key="expression|name|182">'Země' (BT-514-Organization-Company) nemá kódy NUTS</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Webová adresa pracovní legislativy' (OPT-130-Part-EmployLegis) je vyplněn</entry>
 <entry key="expression|name|193">'Přezkum – druh nápravného opatření' (BT-792-Review) není 'Jiná sankce' nebo 'Náhrada škody'</entry>
 <entry key="expression|name|194">'Přezkum – druh nápravného opatření' (BT-792-Review) je 'Náhrada škody'</entry>
-<entry key="expression|name|195">'Přezkum – žádost stažena' (BT-796-Review) není pravda</entry>
+<entry key="expression|name|195">'Přezkum – žádost stažena' (BT-796-Review) není 'ano'</entry>
 <entry key="expression|name|196">'Identifikátor přezkumu' (BT-784-Review) není vyplněn</entry>
 <entry key="expression|name|197">'Identifikátor předchozího oznámení' (BT-125i-Lot) není vyplněn</entry>
 <entry key="expression|name|198">'Identifikátor předchozího oznámení' (BT-125(i)-Part) není vyplněn</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Žádné položky nebyly zadány</entry>
 <entry key="expression|name|204">'Identifikátor nabídky zakázky' (BT-3202-Contract) není vyplněn</entry>
 <entry key="expression|name|205">'Typ řízení' (BT-105) není 'Jednací řízení bez uveřejnění'; 'Právní základ' (BT-01) není 'Nařízení (EU, Euratom) 2018/1046'; alespoň jeden 'Identifikátor nabídky zakázky' (BT-3202-Contract) je vyplněn</entry>
-<entry key="expression|name|206">'Zakázka je zadána na základě rámcové dohody' (BT-768-Contract) není pravda</entry>
+<entry key="expression|name|206">'Zakázka je zadána na základě rámcové dohody' (BT-768-Contract) není 'ano'</entry>
 <entry key="expression|name|207">'Identifikátor nabídky' (BT-3201-Tender) je vyplněn</entry>
 <entry key="expression|name|209">'Znění předchozího oznámení, které má být změněno' (BT-758-notice) není vyplněn</entry>
 <entry key="expression|name|21">'Nižší územní jednotka země (NUTS)' B373 (BT-5071-Lot) je vyplněn</entry>
 <entry key="expression|name|210">'Identifikátor sekce' (BT-13716-notice) není vyplněn</entry>
-<entry key="expression|name|211">Ukazatel „Změna zadávací dokumentace“ (BT-718-notice) není pravda</entry>
+<entry key="expression|name|211">Indikátor 'Dokumenty pro veřejnou zakázku byly změněny' (BT-718-notice) není 'ano'</entry>
 <entry key="expression|name|212">'Hlavní důvod změny' (BT-140-notice) není vyplněn</entry>
 <entry key="expression|name|213">Vztahuje se na registraci v obchodním rejstříku v EU</entry>
 <entry key="expression|name|214">'Použitelné přeshraniční právo' (BT-09(b)-Procedure) není vyplněn</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Typ' (BT-539-LotsGroup) není vyplněn</entry>
 <entry key="expression|name|234">'Popis' (BT-540-Lot) není vyplněn</entry>
 <entry key="expression|name|235">'Popis' (BT-540-LotsGroup) není vyplněn</entry>
-<entry key="expression|name|236">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot) není vyplněn</entry>
-<entry key="expression|name|237">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup) není vyplněn</entry>
 <entry key="expression|name|238">'Číslo je typem váhy' (BT-5421-Lot) není vyplněn</entry>
 <entry key="expression|name|239">'Číslo je typem váhy' (BT-5421-LotsGroup) není vyplněn</entry>
 <entry key="expression|name|24">'Datum zahájení' (BT-536-Lot) není vyplněn</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Pole bude zveřejněno později' (BT-195(BT-161)-NoticeResult) není vyplněn</entry>
 <entry key="expression|name|278">'Pole bude zveřejněno později' (BT-195(BT-162)-Tender) není vyplněn</entry>
 <entry key="expression|name|279">'Pole bude zveřejněno později' (BT-195(BT-163)-Tender) není vyplněn</entry>
-<entry key="expression|name|28">'Použití tohoto kritéria' (BT-748) je 'Použita'</entry>
 <entry key="expression|name|280">'Pole bude zveřejněno později' (BT-195(BT-171)-Tender) není vyplněn</entry>
 <entry key="expression|name|281">'Pole bude zveřejněno později' (BT-195(BT-191)-Tender) není vyplněn</entry>
 <entry key="expression|name|282">'Pole bude zveřejněno později' (BT-195(BT-193)-Tender) není vyplněn</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Pole bude zveřejněno později' (BT-195(BT-731)-Tender) není vyplněn</entry>
 <entry key="expression|name|308">'Pole bude zveřejněno později' (BT-195(BT-733)-Lot) není vyplněn</entry>
 <entry key="expression|name|309">'Pole bude zveřejněno později' (BT-195(BT-733)-LotsGroup) není vyplněn</entry>
-<entry key="expression|name|31">'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752-Lot) není prázdný</entry>
 <entry key="expression|name|310">'Pole bude zveřejněno později' (BT-195(BT-734)-Lot) není vyplněn</entry>
 <entry key="expression|name|311">'Pole bude zveřejněno později' (BT-195(BT-734)-LotsGroup) není vyplněn</entry>
 <entry key="expression|name|312">'Pole bude zveřejněno později' (BT-195(BT-759)-LotResult) není vyplněn</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Jedná se o opakující se zadávací řízení' (BT-94-Lot) není 'ano'</entry>
 <entry key="expression|name|318">'Typ řízení' (BT-105-Procedure) je 'Otevřené'</entry>
 <entry key="expression|name|319">'Organizace nebo konkrétní kontaktní bod' (OPT-301-Lot-ReviewInfo) není vyplněn</entry>
-<entry key="expression|name|32">'Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi' (BT-752-Lot) není prázdný</entry>
 <entry key="expression|name|320">'Bude použita elektronická aukce' (BT-767-Lot) není 'ano'</entry>
 <entry key="expression|name|321">'Typ řízení' (BT-105) není 'Užší'</entry>
 <entry key="expression|name|322">'Typ vozidla' (OPT-155-LotResult) není vyplněn</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Požaduje se elektronické podání</entry>
 <entry key="expression|name|370">Elektronické podání není povoleno</entry>
 <entry key="expression|name|371">Skupina položek obsahuje jednu nebo méně položek</entry>
-<entry key="expression|name|372">'Typ' (BT-747-Lot) není vyplněn</entry>
 <entry key="expression|name|373">Skupina položek se skládá z položek bez rámcové smlouvy</entry>
 <entry key="expression|name|374">'Povinnosti, které uchazeč musí splnit v souvislosti s využitím subdodavatele' (BT-66) není vyplněn</entry>
 <entry key="expression|name|375">'Datum konce trvání' (BT-537-Part) je vyplněn; 'Jiná doba' (BT-538-Part) je vyplněn</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Znovu odhadnutá hodnota rámcové dohody' (BT-660-LotResult) není vyplněn</entry>
 <entry key="expression|name|561">'Pole bude zveřejněno později' (BT-195(BT-660)-LotResult) není vyplněn</entry>
 <entry key="expression|name|568">'Kód požadavku plnění' (OPT-060-Lot) není vyplněn</entry>
-<entry key="expression|name|569">'Popis' (BT-540-Lot) je přítomen a 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-FixedNumber) &amp;amp; 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-ThresholdNumber) nejsou přítomny</entry>
 <entry key="expression|name|57">'Je použita rámcová dohoda' (BT-765-Lot) je 'Žádná z možností'</entry>
-<entry key="expression|name|570">'Popis' (BT-540-Lot) je přítomen a 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-WeightNumber) &amp;amp; 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-ThresholdNumber) nejsou přítomny</entry>
-<entry key="expression|name|571">'Popis' (BT-540-Lot) je přítomen a 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-WeightNumber) &amp;amp; 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-FixedNumber) nejsou přítomny</entry>
-<entry key="expression|name|572">'Popis' (BT-540-LotsGroup) je přítomen a 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup-ThresholdNumber) nejsou přítomny</entry>
-<entry key="expression|name|573">'Popis' (BT-540-LotsGroup) je přítomen a 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup-ThresholdNumber) nejsou přítomny</entry>
-<entry key="expression|name|574">'Popis' (BT-540-LotsGroup) je přítomen a 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup-FixedNumber) nejsou přítomny</entry>
 <entry key="expression|name|575">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-WeightNumber) není přítomen</entry>
 <entry key="expression|name|576">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-FixedNumber) není přítomen</entry>
 <entry key="expression|name|577">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot-ThresholdNumber) není přítomen</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Další omezení týkající se místa plnění' (BT-727-Lot) je 'Kdekoli' nebo 'Kdekoli v Evropském hospodářském prostoru'</entry>
 <entry key="expression|name|94">'Další omezení týkající se místa plnění' (BT-727-Part) nesmí být 'Kdekoli' nebo 'Kdekoli v Evropském hospodářském prostoru'</entry>
 <entry key="expression|name|95">'Další omezení týkající se místa plnění' (BT-727-Procedure) je 'Kdekoli' nebo 'Kdekoli v Evropském hospodářském prostoru'</entry>
-<entry key="expression|name|96">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-Lot) je vyplněn, 'Číslo je pevná hodnota' (BT-5422-Lot) a 'Číslo je typem prahové hodnoty' (BT-5423-Lot) není vyplněn</entry>
-<entry key="expression|name|97">'Číslo spojené s kritériem pro zadání zakázky' (BT-541-LotsGroup) je vyplněn, 'Číslo je pevná hodnota' (BT-5422-LotsGroup) a 'Číslo je typem prahové hodnoty' (BT-5423-LotsGroup) není vyplněn</entry>
 </properties>

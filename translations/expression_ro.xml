@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Romanian. File generated from metadata database.</comment>
 <entry key="expression|name|1">Valoarea pentru 'Achizitorul este o entitate contractantă' (BT-740) este 'Nu'</entry>
-<entry key="expression|name|100">'Număr legat de criteriul de atribuire' (BT-541-Lot) este completat, 'Numărul este un tip de pondere' (BT-5421-Lot) și 'Numărul este un tip de prag' (BT-5423-Lot) nu sunt completate</entry>
-<entry key="expression|name|101">'Număr legat de criteriul de atribuire' (BT-541-Lot) este completat, 'Numărul este un tip de pondere' (BT-5421-Lot) și 'Numărul este un tip de prag' (BT-5422-Lot) nu sunt completate</entry>
-<entry key="expression|name|102">'Număr legat de criteriul de atribuire' (BT-541-LotsGroup) este completat, 'Numărul este un tip de pondere' (BT-5421-LotsGroup) și 'Numărul este un tip de prag' (BT-5423-LotsGroup) nu sunt completate</entry>
-<entry key="expression|name|103">'Număr legat de criteriul de atribuire' (BT-541-LotsGroup) este completat, 'Numărul este un tip de pondere' (BT-5421-LotsGroup) și 'Numărul este un tip de prag' (BT-5422-LotsGroup) nu sunt completate</entry>
 <entry key="expression|name|104">'Descrierea metodei care trebuie utilizată dacă ponderarea nu poate fi exprimată prin criterii' (BT-543-Lots) nu este completat</entry>
 <entry key="expression|name|105">'Descrierea metodei care trebuie utilizată dacă ponderarea nu poate fi exprimată prin criterii' (BT-543-LotsGroup) nu este completat</entry>
 <entry key="expression|name|106">'Durată' (BT-36-Lot) sau 'Data de sfârșit a duratei' (BT-537-Lot) este completat</entry>
 <entry key="expression|name|107">'Durată' (BT-36-Lot) sau 'Altă durată' (BT-538-Lot) este completat</entry>
 <entry key="expression|name|108">'Data de sfârșit a duratei' (BT-537-Lot) sau 'Altă durată' (BT-538-Lot) este completat</entry>
-<entry key="expression|name|109">'Tip de procedură' (BT-105) nu este 'Atribuire directă'</entry>
 <entry key="expression|name|11">'Data începerii' (BT-536-Part) nu este completat</entry>
 <entry key="expression|name|110">'Tip de procedură' (BT-105) este 'Deschisă'; 'Tip de procedură' (BT-105)este 'Altă procedură cu o singură etapă' și 'Termenul-limită pentru primirea cererilor de participare' (BT-1311)nu este completat; 'Tip de procedură' (BT-105) trebuie să fie 'Altă procedură cu mai multe etape' și 'Termenul-limită pentru primirea cererilor de participare' (BT-1311) nu este completat</entry>
 <entry key="expression|name|111">'Tip de procedură' (BT-105) este 'Altă procedură cu o singură etapă' și 'Termenul-limită pentru primirea ofertelor' (BT-131) nu este completat; 'Tip de procedură' (BT-105)este 'Altă procedură cu mai multe etape' și 'Termenul-limită pentru primirea cererilor de participare' (BT-131) nu este completat</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Termenul-limită pentru primirea ofertelor' (BT-131(d)-Lot) este completat</entry>
 <entry key="expression|name|115">'Termenul-limită pentru primirea cererilor de participare' (BT-1311(d)-Lot) este completat</entry>
 <entry key="expression|name|116">'Tip de procedură' (BT-105) este 'Deschisă' sau 'Altă procedură cu o singură etapă' sau 'Negociată fără publicarea unei proceduri concurențiale de ofertare'</entry>
-<entry key="expression|name|117">'Tip' (BT-747-Lot) nu este completat</entry>
 <entry key="expression|name|118">'Adresă poștală' (BT-5101(a)-Lot) nu este completat</entry>
 <entry key="expression|name|119">'Adresă poștală' (BT-5101(a)-Part) nu este completat</entry>
 <entry key="expression|name|12">'Forma juridică a achizitorului' (BT-11) este una dintre următoarele: 'Organism de drept public'; 'Organism de drept public, controlat de o autoritate guvernamentală centrală'; 'Organism de drept public, controlat de o autoritate locală'; 'Organism de drept public, controlat de o autoritate regională'; 'Autoritate guvernamentală centrală'; 'Contractant din domeniul apărării'; 'Instituție, organ sau agenție a UE'; 'Instituţie/agenţie europeană sau organizaţie internaţională'; 'Organizație internațională'; 'Autoritate locală'; 'Organizație care atribuie un contract subvenționat de o autoritate guvernamentală centrală'; 'Organizație care atribuie un contract subvenționat de o autoritate locală'; 'Organizație care atribuie un contract subvenționat de o autoritate regională'; 'Întreprindere de stat'; 'Întreprindere de stat, controlată de o autoritate guvernamentală centrală'; 'Întreprindere de stat, controlată de o autoritate locală'; 'Întreprindere de stat, controlată de o autoritate regională'; 'Autoritate regională'; 'Autoritate regională sau locală'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Accesul la anumite documente de achiziție este restricționat.' (BT-14-Part) nu este limitat</entry>
 <entry key="expression|name|150">'Descriere' (BT-540-Lot) nu este completat</entry>
 <entry key="expression|name|151">'Descriere' (BT-540-LotsGroup) nu este completat</entry>
-<entry key="expression|name|152">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este o valoare fixă' (BT-5422) este completat 'Numărul este un tip de prag' (BT-5423) este completat</entry>
-<entry key="expression|name|153">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este o valoare fixă' (BT-5422) este completat 'Numărul este un tip de prag' (BT-5423) este completat</entry>
-<entry key="expression|name|154">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este un tip de pondere' (BT-5421) este completat sau 'Numărul este un tip de prag' (BT-5423) este completat sau 'Tip' (BT-539) este 'Calitate'</entry>
-<entry key="expression|name|155">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este un tip de pondere' (BT-5421) este completat sau 'Numărul este un tip de prag' (BT-5423) este completat sau 'Tip' (BT-539) este 'Calitate'</entry>
-<entry key="expression|name|156">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este o valoare fixă' (BT-5422) este completat sau 'Numărul este un tip de prag' (BT-5423) este completat</entry>
-<entry key="expression|name|157">'Număr legat de criteriul de atribuire' (BT-541) nu este completat sau 'Numărul este o valoare fixă' (BT-5422) este completat sau 'Numărul este un tip de prag' (BT-5423) este completat</entry>
-<entry key="expression|name|158">'Ofertantul trebuie să prezinte oferte pentru toate loturile' ((BT-763)) este adevărat</entry>
 <entry key="expression|name|159">Loturile nu sunt 'Ofertantul trebuie să prezinte oferte pentru toate loturile' (BT-763) și există mai mult de un lot în notificare</entry>
-<entry key="expression|name|16">'Număr legat de criteriul de atribuire' (BT-541-Lot) nu este gol</entry>
 <entry key="expression|name|160">Nu există mai multe loturi</entry>
 <entry key="expression|name|161">'Clasificarea principală' (BT-262-Lot) nu este completat</entry>
 <entry key="expression|name|162">'Clasificarea principală' (BT-262-Part) nu este completat</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'ID-ul tehnic al ofertei' (OPT-321-Tender) nu există</entry>
 <entry key="expression|name|178">'Organizația care îndeplinește acest rol' (OPT-300-Tenderer) nu există</entry>
 <entry key="expression|name|179">'Organizația sau punctul de contact specific' (OPT-301-Tenderer-MainCont) nu este completat</entry>
-<entry key="expression|name|18">'Număr legat de criteriul de atribuire' (BT-541-LotsGroup) nu este gol</entry>
 <entry key="expression|name|180">'Denumire oficială' (BT-500-Organization-Company) nu este completat</entry>
 <entry key="expression|name|181">'Denumire oficială' (BT-500-Organization-TouchPoint) nu este completat</entry>
 <entry key="expression|name|182">'Țara' (BT-514-Organization-Company) nu are coduri NUTS</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Adresa web a legislației a muncii' (OPT-130-Part-EmployLegis) este completat</entry>
 <entry key="expression|name|193">'Căile de atac - tip de măsură corectivă' (BT-792-Review) nu este 'Sancțiune alternativă' sau 'Daune-interese'</entry>
 <entry key="expression|name|194">'Căile de atac - tip de măsură corectivă' (BT-792-Review) este 'Daune-interese'</entry>
-<entry key="expression|name|195">'Căile de atac - retragerea cererii' (BT-796-Review) nu este adevărat</entry>
+<entry key="expression|name|195">'Căile de atac - retragerea cererii' (BT-796-Review) nu este 'da'</entry>
 <entry key="expression|name|196">'Căile de atac - identificator' (BT-784-Review) nu este completat</entry>
 <entry key="expression|name|197">'Identificatorul anunțului anterior' (BT-125i-Lot) nu este completat</entry>
 <entry key="expression|name|198">'Identificatorul anunțului anterior' (BT-125(i)-Part) nu este completat</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Nu a fost atribuit niciun lot</entry>
 <entry key="expression|name|204">'Contract: identificator lot' (BT-3202-Contract) nu este completat</entry>
 <entry key="expression|name|205">'Tip de procedură' (BT-105) nu este 'Negociată fără publicarea unei proceduri concurențiale de ofertare'; 'Temei juridic' (BT-01) nu este 'Regulamentul (UE, Euratom) 2018/1046'; cel puțin un 'Contract: identificator lot' (BT-3202-Contract) este completat</entry>
-<entry key="expression|name|206">'Contractul este atribuit în baza unui acord-cadru' (BT-768-Contract) nu este adevărat</entry>
+<entry key="expression|name|206">'Contractul este atribuit în baza unui acord-cadru' (BT-768-Contract) nu este 'da'</entry>
 <entry key="expression|name|207">'Identificatorul ofertei' (BT-3201-Tender) este completat</entry>
 <entry key="expression|name|209">'Versiunea anunțului anterior care urmează să fie modificată' (BT-758-notice) nu este completat</entry>
 <entry key="expression|name|21">'Subdiviziunea țării (NUTS)' B373(BT-5071-Lot) este completat</entry>
 <entry key="expression|name|210">'Identificator secțiune' (BT-13716-notice) nu este completat</entry>
-<entry key="expression|name|211">Indicatorul „Dosarul licitației s-a modificat” (BT-718-notice) nu este adevărat</entry>
+<entry key="expression|name|211">Indicatorul 'Documentele de achiziție s-au modificat' (BT-718-notice) nu este 'da'</entry>
 <entry key="expression|name|212">'Principalul motiv al modificării' (BT-140-notice) nu este completat</entry>
 <entry key="expression|name|213">Se aplică înregistrării în UE a companiilor</entry>
 <entry key="expression|name|214">'Drept transnațional aplicabil' (BT-09(b)-Procedure) nu este completat</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Tip' (BT-539-LotsGroup) nu este completat</entry>
 <entry key="expression|name|234">'Descriere' (BT-540-Lot) nu este completat</entry>
 <entry key="expression|name|235">'Descriere' (BT-540-LotsGroup) nu este completat</entry>
-<entry key="expression|name|236">'Număr legat de criteriul de atribuire' (BT-541-Lot) nu este completat</entry>
-<entry key="expression|name|237">'Număr legat de criteriul de atribuire' (BT-541-LotsGroup) nu este completat</entry>
 <entry key="expression|name|238">'Numărul este un tip de pondere' (BT-5421-Lot) nu este completat</entry>
 <entry key="expression|name|239">'Numărul este un tip de pondere' (BT-5421-LotsGroup) nu este completat</entry>
 <entry key="expression|name|24">'Data începerii' (BT-536-Lot) nu este completat</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Câmp de publicat ulterior' (BT-195(BT-161)-NoticeResult) nu este completat</entry>
 <entry key="expression|name|278">'Câmp de publicat ulterior' (BT-195(BT-162)-Tender) nu este completat</entry>
 <entry key="expression|name|279">'Câmp de publicat ulterior' (BT-195(BT-163)-Tender) nu este completat</entry>
-<entry key="expression|name|28">'Utilizarea acestui criteriu' (BT-748) este 'Utilizat'</entry>
 <entry key="expression|name|280">'Câmp de publicat ulterior' (BT-195(BT-171)-Tender) nu este completat</entry>
 <entry key="expression|name|281">'Câmp de publicat ulterior' (BT-195(BT-191)-Tender) nu este completat</entry>
 <entry key="expression|name|282">'Câmp de publicat ulterior' (BT-195(BT-193)-Tender) nu este completat</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Câmp de publicat ulterior' (BT-195(BT-731)-Tender) nu este completat</entry>
 <entry key="expression|name|308">'Câmp de publicat ulterior' (BT-195(BT-733)-Lot) nu este completat</entry>
 <entry key="expression|name|309">'Câmp de publicat ulterior' (BT-195(BT-733)-LotsGroup) nu este completat</entry>
-<entry key="expression|name|31">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot) nu este gol</entry>
 <entry key="expression|name|310">'Câmp de publicat ulterior' (BT-195(BT-734)-Lot) nu este completat</entry>
 <entry key="expression|name|311">'Câmp de publicat ulterior' (BT-195(BT-734)-LotsGroup) nu este completat</entry>
 <entry key="expression|name|312">'Câmp de publicat ulterior' (BT-195(BT-759)-LotResult) nu este completat</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Aceasta este o achiziție recurentă' (BT-94-Lot) nu este 'da'</entry>
 <entry key="expression|name|318">'Tip de procedură' (BT-105-Procedure) este 'Deschisă'</entry>
 <entry key="expression|name|319">'Organizația sau punctul de contact specific' (OPT-301-Lot-ReviewInfo) nu este completat</entry>
-<entry key="expression|name|32">'Număr legat de criteriile de selecție pentru invitația la a doua etapă' (BT-752-Lot) nu este gol</entry>
 <entry key="expression|name|320">'Se utilizează o licitație electronică' (BT-767-Lot) nu este 'da'</entry>
 <entry key="expression|name|321">'Tip de procedură' (BT-105) nu este 'Restrânsă'</entry>
 <entry key="expression|name|322">'Tip de vehicul' (OPT-155-LotResult) nu este completat</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Este necesară transmiterea electronică</entry>
 <entry key="expression|name|370">Transmiterea electronică nu este permisă</entry>
 <entry key="expression|name|371">Grupul de loturi conține un lot sau loturi mai puține</entry>
-<entry key="expression|name|372">'Tip' (BT-747-Lot) nu este completat</entry>
 <entry key="expression|name|373">Grupul de loturi include loturi fără acord-cadru</entry>
 <entry key="expression|name|374">'O obligație pe care ofertantul trebuie să o îndeplinească în materie de subcontractare.' (BT-66) nu este completat</entry>
 <entry key="expression|name|375">'Data de sfârșit a duratei' (BT-537-Part) este completat; 'Altă durată' (BT-538-Part) este completat</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) nu este completat</entry>
 <entry key="expression|name|561">'Câmp de publicat ulterior' (BT-195(BT-660)-LotResult) nu este completat</entry>
 <entry key="expression|name|568">'Codul cerinței de executare' (OPT-060-Lot) nu este completat</entry>
-<entry key="expression|name|569">'Descriere' (BT-540-Lot) este prezent și 'Număr legat de criteriul de atribuire' (BT-541-Lot-FixedNumber) &amp;amp; 'Număr legat de criteriul de atribuire' (BT-541-Lot-ThresholdNumber) nu sunt prezente</entry>
 <entry key="expression|name|57">'Se aplică un acord-cadru' (BT-765-Lot) este 'Niciunul'</entry>
-<entry key="expression|name|570">'Descriere' (BT-540-Lot) este prezent și 'Număr legat de criteriul de atribuire' (BT-541-Lot-WeightNumber) &amp;amp; 'Număr legat de criteriul de atribuire' (BT-541-Lot-ThresholdNumber) nu sunt prezente</entry>
-<entry key="expression|name|571">'Descriere' (BT-540-Lot) este prezent și 'Număr legat de criteriul de atribuire' (BT-541-Lot-WeightNumber) &amp;amp; 'Număr legat de criteriul de atribuire' (BT-541-Lot-FixedNumber) nu sunt prezente</entry>
-<entry key="expression|name|572">'Descriere' (BT-540-LotsGroup) este prezent și 'Număr legat de criteriul de atribuire' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Număr legat de criteriul de atribuire' (BT-541-LotsGroup-ThresholdNumber) nu sunt prezente</entry>
-<entry key="expression|name|573">'Descriere' (BT-540-LotsGroup) este prezent și 'Număr legat de criteriul de atribuire' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Număr legat de criteriul de atribuire' (BT-541-LotsGroup-ThresholdNumber) nu sunt prezente</entry>
-<entry key="expression|name|574">'Descriere' (BT-540-LotsGroup) este prezent și 'Număr legat de criteriul de atribuire' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Număr legat de criteriul de atribuire' (BT-541-LotsGroup-FixedNumber) nu sunt prezente</entry>
 <entry key="expression|name|575">'Număr legat de criteriul de atribuire' (BT-541-Lot-WeightNumber) nu este prezent</entry>
 <entry key="expression|name|576">'Număr legat de criteriul de atribuire' (BT-541-Lot-FixedNumber) nu este prezent</entry>
 <entry key="expression|name|577">'Număr legat de criteriul de atribuire' (BT-541-Lot-ThresholdNumber) nu este prezent</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Alte restricții privind locul de executare' (BT-727-Lot) este 'Oriunde' sau 'Oriunde în Spațiul Economic European'</entry>
 <entry key="expression|name|94">'Alte restricții privind locul de executare' (BT-727-Part) nu poate fi 'Oriunde' sau 'Oriunde în Spațiul Economic European'</entry>
 <entry key="expression|name|95">'Alte restricții privind locul de executare' (BT-727-Procedure) este 'Oriunde' sau 'Oriunde în Spațiul Economic European'</entry>
-<entry key="expression|name|96">'Număr legat de criteriul de atribuire' (BT-541-Lot) este completat, 'Numărul este o valoare fixă' (BT-5422-Lot) și 'Numărul este un tip de prag' (BT-5423-Lot) nu sunt completate</entry>
-<entry key="expression|name|97">'Număr legat de criteriul de atribuire' (BT-541-LotsGroup) este completat, 'Numărul este o valoare fixă' (BT-5422-LotsGroup) și 'Numărul este un tip de prag' (BT-5423-LotsGroup) nu sunt completate</entry>
 </properties>

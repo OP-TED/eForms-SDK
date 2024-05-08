@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Danish. File generated from metadata database.</comment>
 <entry key="expression|name|1">Værdien for 'Køberen er en ordregivende enhed' (BT-740) er 'Nej'</entry>
-<entry key="expression|name|100">'Tildelingskriterium talværdi' (BT-541-Lot) er udfyldt, og 'Talværdi er en vægttype' (BT-5421-Lot) og 'Talværdi er en tærskeltype' (BT-5423-Lot) er ikke udfyldt</entry>
-<entry key="expression|name|101">'Tildelingskriterium talværdi' (BT-541-Lot) er udfyldt, og 'Talværdi er en vægttype' (BT-5421-Lot) og 'Talværdi er en tærskeltype' (BT-5422-Lot) er ikke udfyldt</entry>
-<entry key="expression|name|102">'Tildelingskriterium talværdi' (BT-541-LotsGroup) er udfyldt, og 'Talværdi er en vægttype' (BT-5421-LotsGroup) og 'Talværdi er en tærskeltype' (BT-5423-LotsGroup) er ikke udfyldt</entry>
-<entry key="expression|name|103">'Tildelingskriterium talværdi' (BT-541-LotsGroup) er udfyldt, og 'Talværdi er en vægttype' (BT-5421-LotsGroup) og 'Talværdi er en tærskeltype' (BT-5422-LotsGroup) er ikke udfyldt</entry>
 <entry key="expression|name|104">'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-Lots) er ikke udfyldt</entry>
 <entry key="expression|name|105">'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-LotsGroup) er ikke udfyldt</entry>
 <entry key="expression|name|106">'Varighed' (BT-36-Lot) eller 'Varigheds slutdato' (BT-537-Lot) er udfyldt</entry>
 <entry key="expression|name|107">'Varighed' (BT-36-Lot) eller 'Anden varighed' (BT-538-Lot) er udfyldt</entry>
 <entry key="expression|name|108">'Varigheds slutdato' (BT-537-Lot) eller 'Anden varighed' (BT-538-Lot) er udfyldt</entry>
-<entry key="expression|name|109">'Type af procedure' (BT-105) er ikke 'Direkte tildeling'</entry>
 <entry key="expression|name|11">'Startdato' (BT-536-Part) er ikke udfyldt</entry>
 <entry key="expression|name|110">'Udbudsprocedure' (BT-105) er 'Åben'; 'Udbudsprocedure' (BT-105) er 'Anden procedure, der afvikles i to faser', og 'Frist for modtagelse af anmodninger om deltagelse' (BT-1311) er ikke udfyldt; 'Udbudsprocedure' (BT-105) skal være 'Anden procedure, der afvikles i flere faser', og 'Frist for modtagelse af anmodninger om deltagelse' (BT-1311) er ikke udfyldt</entry>
 <entry key="expression|name|111">'Udbudsprocedure' (BT-105) er 'Anden procedure, der afvikles i to faser'; 'Frist for modtagelse af tilbud' (BT-131) er ikke udfyldt; 'Udbudsprocedure' (BT-105) er 'Anden procedure, der afvikles i flere faser', og 'Frist for modtagelse af anmodninger om deltagelse' (BT-131) er ikke udfyldt</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Frist for modtagelse af tilbud' (BT-131(d)-Lot) er udfyldt</entry>
 <entry key="expression|name|115">'Frist for modtagelse af anmodninger om deltagelse' (BT-1311(d)-Lot) er udfyldt</entry>
 <entry key="expression|name|116">'Udbudsprocedure' (BT-105) er 'Åben' eller 'Anden procedure, der afvikles i to faser' eller 'Udbud med forhandling uden forudgående offentliggørelse'</entry>
-<entry key="expression|name|117">'Type' (BT-747-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|118">'Postadresse' (BT-5101(a)-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|119">'Postadresse' (BT-5101(a)-Part) er ikke udfyldt</entry>
 <entry key="expression|name|12">'Køberens retlige status' (BT-11) er en af følgende: 'Offentligretligt organ'; 'Offentligretligt organ, der styres af en central regeringsmyndighed'; 'Offentligretligt organ, der styres af en lokal myndighed'; 'Offentligretligt organ, der styres af en regional myndighed'; 'Central regeringsmyndighed'; 'Entreprenør på forsvarsområdet'; 'EU-institution, organ eller agentur'; 'Europæisk institution/agentur eller international organisation'; 'International organisation'; 'Lokal myndighed'; 'Organisation, der tildeler en kontrakt, som modtager subsidier fra central regeringsmyndighed'; 'Organisation, der tildeler en kontrakt, som modtager subsidier fra lokal regeringsmyndighed'; 'Organisation, der tildeler en kontrakt, som modtager subsidier fra regional regeringsmyndighed'; 'Offentlig virksomhed'; 'Offentlig virksomhed, der styres af en central regeringsmyndighed'; 'Offentlig virksomhed, der styres af en lokal myndighed'; 'Offentlig virksomhed, der styres af en regional myndighed'; 'Regional myndighed'; 'Regional eller lokal myndighed'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Adgangen til visse udbudsdokumenter er begrænset' (BT-14-Part) er ikke begrænset</entry>
 <entry key="expression|name|150">'Beskrivelse' (BT-540-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|151">'Beskrivelse' (BT-540-LotsGroup) er ikke udfyldt</entry>
-<entry key="expression|name|152">'Tildelingskriterium talværdi' (BT-541) er ikke udfyldt, eller 'Talværdi er en fast værdi' (BT-5422) er udfyldt, 'Talværdi er en tærskeltype' (BT-5423) er udfyldt</entry>
-<entry key="expression|name|153">'Tildelingskriterium talværdi' (BT-541) er ikke udfyldt, eller 'Talværdi er en fast værdi' (BT-5422) er udfyldt, 'Talværdi er en tærskeltype' (BT-5423) er udfyldt</entry>
-<entry key="expression|name|154">'Tildelingskriterium talværdi' (BT-541) er ikke udfyldt, eller 'Talværdi er en vægttype' (BT-5421) er udfyldt, eller 'Talværdi er en tærskeltype' (BT-5423) er udfyldt, eller 'Type' (BT-539) er 'Kvalitet'</entry>
-<entry key="expression|name|155">'Tildelingskriterium talværdi' (BT-541) er ikke udfyldt, eller 'Talværdi er en vægttype' (BT-5421) er udfyldt, eller 'Talværdi er en tærskeltype' (BT-5423) er udfyldt, eller 'Type' (BT-539) er 'Kvalitet'</entry>
-<entry key="expression|name|156">'Tildelingskriterium talværdi' (BT-541) er ikke udfyldt, eller 'Talværdi er en fast værdi' (BT-5422) er udfyldt, eller 'Talværdi er en tærskeltype' (BT-5423) er udfyldt</entry>
-<entry key="expression|name|157">'Tildelingskriterium talværdi' (BT-541) er ikke udfyldt, eller 'Talværdi er en fast værdi' (BT-5422) er udfyldt, eller 'Talværdi er en tærskeltype' (BT-5423) er udfyldt</entry>
-<entry key="expression|name|158">'Tilbudsgiveren skal indgive tilbud for alle delkontrakter' ((BT-763)) er sand</entry>
 <entry key="expression|name|159">Partierne er ikke 'Tilbudsgiveren skal indgive tilbud for alle delkontrakter' (BT-763) og der er mere end én parti i meddelelsen</entry>
-<entry key="expression|name|16">'Tildelingskriterium talværdi' (BT-541-Lot) er ikke tom</entry>
 <entry key="expression|name|160">Der er ingen multiple partier</entry>
 <entry key="expression|name|161">'Primær klassificering' (BT-262-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|162">'Primær klassificering' (BT-262-Part) er ikke udfyldt</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'Teknisk ID på tilbuddet' (OPT-321-Tender) eksisterer ikke</entry>
 <entry key="expression|name|178">'Organisationen, der udfylder denne rolle' (OPT-300-Tenderer) eksisterer ikke</entry>
 <entry key="expression|name|179">'Organisation eller specifikt kontaktpunkt' (OPT-301-Tenderer-MainCont) er ikke udfyldt</entry>
-<entry key="expression|name|18">'Tildelingskriterium talværdi' (BT-541-LotsGroup) er ikke tom</entry>
 <entry key="expression|name|180">'Officielt navn' (BT-500-Organization-Company) er ikke udfyldt</entry>
 <entry key="expression|name|181">'Officielt navn' (BT-500-Organization-TouchPoint) er ikke udfyldt</entry>
 <entry key="expression|name|182">'Land' (BT-514-Organization-Company) har ikke NUTS-koder</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Webadresse for beskæftigelseslovgivning' (OPT-130-Part-EmployLegis) er udfyldt</entry>
 <entry key="expression|name|193">'Gennemgang type af afhjælpning' (BT-792-Review) er ikke 'Alternativ sanktion' eller 'Skadeserstatning'</entry>
 <entry key="expression|name|194">'Gennemgang type af afhjælpning' (BT-792-Review) er 'Skadeserstatning'</entry>
-<entry key="expression|name|195">'Anmodning om gennemgang trukket tilbage' (BT-796-Review) er ikke sand</entry>
+<entry key="expression|name|195">'Anmodning om gennemgang trukket tilbage' (BT-796-Review) er ikke 'ja'</entry>
 <entry key="expression|name|196">'Gennemgangs-ID' (BT-784-Review) er ikke udfyldt</entry>
 <entry key="expression|name|197">'Identifikator for den foregående bekendtgørelse' (BT-125i-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|198">'Identifikator for den foregående bekendtgørelse' (BT-125(i)-Part) er ikke udfyldt</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Der er ikke blevet tildelt nogen partier</entry>
 <entry key="expression|name|204">'Kontrakt udbuds-ID' (BT-3202-Contract) er ikke udfyldt</entry>
 <entry key="expression|name|205">'Udbudsprocedure' (BT-105) er ikke 'Udbud med forhandling uden forudgående offentliggørelse'; 'Retsgrundlag' (BT-01) er ikke 'Forordning (EU, Euratom) 2018/1046'; mindst 1 'Kontrakt udbuds-ID' (BT-3202-Contract) er udfyldt</entry>
-<entry key="expression|name|206">'Kontrakten tildeles som led i en rammeaftale' (BT-768-Contract) er ikke sand</entry>
+<entry key="expression|name|206">'Kontrakten tildeles som led i en rammeaftale' (BT-768-Contract) er ikke 'ja'</entry>
 <entry key="expression|name|207">'Tilbud – Identifikator' (BT-3201-Tender) er udfyldt</entry>
 <entry key="expression|name|209">'Udgave af den foregående bekendtgørelse, der skal ændres' (BT-758-notice) er ikke udfyldt</entry>
 <entry key="expression|name|21">'Landespecifik underafdeling (NUTS)' B373(BT-5071-Lot) er udfyldt</entry>
 <entry key="expression|name|210">'Afsnitsidentifikator' (BT-13716-notice) er ikke udfyldt</entry>
-<entry key="expression|name|211">Indikatoren »Udbudsdokumenterne er blevet ændret« (BT-718-notice) er ikke sand</entry>
+<entry key="expression|name|211">Indikatoren 'Udbudsdokumenterne er ændret' (BT-718-notice) er ikke 'ja'</entry>
 <entry key="expression|name|212">'Hovedårsagen til ændringen' (BT-140-notice) er ikke udfyldt</entry>
 <entry key="expression|name|213">Det gælder for EU-virksomhedsregistrering</entry>
 <entry key="expression|name|214">'Gældende grænseoverskridende lovgivning' (BT-09(b)-Procedure) er ikke udfyldt</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Type' (BT-539-LotsGroup) er ikke udfyldt</entry>
 <entry key="expression|name|234">'Beskrivelse' (BT-540-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|235">'Beskrivelse' (BT-540-LotsGroup) er ikke udfyldt</entry>
-<entry key="expression|name|236">'Tildelingskriterium talværdi' (BT-541-Lot) er ikke udfyldt</entry>
-<entry key="expression|name|237">'Tildelingskriterium talværdi' (BT-541-LotsGroup) er ikke udfyldt</entry>
 <entry key="expression|name|238">'Talværdi er en vægttype' (BT-5421-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|239">'Talværdi er en vægttype' (BT-5421-LotsGroup) er ikke udfyldt</entry>
 <entry key="expression|name|24">'Startdato' (BT-536-Lot) er ikke udfyldt</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-161)-NoticeResult) er ikke udfyldt</entry>
 <entry key="expression|name|278">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-162)-Tender) er ikke udfyldt</entry>
 <entry key="expression|name|279">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-163)-Tender) er ikke udfyldt</entry>
-<entry key="expression|name|28">'Anvendelse af dette kriterium' (BT-748) er 'Anvendte'</entry>
 <entry key="expression|name|280">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-171)-Tender) er ikke udfyldt</entry>
 <entry key="expression|name|281">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-191)-Tender) er ikke udfyldt</entry>
 <entry key="expression|name|282">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-193)-Tender) er ikke udfyldt</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-731)-Tender) er ikke udfyldt</entry>
 <entry key="expression|name|308">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-733)-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|309">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-733)-LotsGroup) er ikke udfyldt</entry>
-<entry key="expression|name|31">'Udvælgelseskriterier anden fase opfordringsnummer' (BT-752-Lot) er ikke tom</entry>
 <entry key="expression|name|310">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-734)-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|311">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-734)-LotsGroup) er ikke udfyldt</entry>
 <entry key="expression|name|312">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-759)-LotResult) er ikke udfyldt</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Dette er et tilbagevendende udbud' (BT-94-Lot) er ikke 'ja'</entry>
 <entry key="expression|name|318">'Udbudsprocedure' (BT-105-Procedure) er 'Åben'</entry>
 <entry key="expression|name|319">'Organisation eller specifikt kontaktpunkt' (OPT-301-Lot-ReviewInfo) er ikke udfyldt</entry>
-<entry key="expression|name|32">'Udvælgelseskriterier anden fase opfordringsnummer' (BT-752-Lot) er ikke tom</entry>
 <entry key="expression|name|320">'Der anvendes elektronisk auktion' (BT-767-Lot) er ikke 'ja'</entry>
 <entry key="expression|name|321">'Udbudsprocedure' (BT-105) er ikke 'Begrænset'</entry>
 <entry key="expression|name|322">'Køretøjstype' (OPT-155-LotResult) er ikke udfyldt</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Elektronisk indsendelse er påkrævet</entry>
 <entry key="expression|name|370">Elektronisk indsendelse er ikke tilladt</entry>
 <entry key="expression|name|371">En gruppe af partier indeholder 1 eller færre partier</entry>
-<entry key="expression|name|372">'Type' (BT-747-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|373">En gruppe af partier består af partier uden for en rammeaftale</entry>
 <entry key="expression|name|374">'En forpligtelse, som tilbudsgiveren skal opfylde i forbindelse med underentreprise' (BT-66) er ikke udfyldt</entry>
 <entry key="expression|name|375">'Varigheds slutdato' (BT-537-Part) er udfyldt; 'Anden varighed' (BT-538-Part) er udfyldt</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Revurderet værdi af rammeaftalen' (BT-660-LotResult) er ikke udfyldt</entry>
 <entry key="expression|name|561">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-660)-LotResult) er ikke udfyldt</entry>
 <entry key="expression|name|568">'Kode for udførelseskrav' (OPT-060-Lot) er ikke udfyldt</entry>
-<entry key="expression|name|569">'Beskrivelse' (BT-540-Lot) er til stede og 'Tildelingskriterium talværdi' (BT-541-Lot-FixedNumber) &amp;amp; 'Tildelingskriterium talværdi' (BT-541-Lot-ThresholdNumber) er ikke til stede</entry>
 <entry key="expression|name|57">'Rammeaftale er involveret' (BT-765-Lot) er 'Ingen'</entry>
-<entry key="expression|name|570">'Beskrivelse' (BT-540-Lot) er til stede og 'Tildelingskriterium talværdi' (BT-541-Lot-WeightNumber) &amp;amp; 'Tildelingskriterium talværdi' (BT-541-Lot-ThresholdNumber) er ikke til stede</entry>
-<entry key="expression|name|571">'Beskrivelse' (BT-540-Lot) er til stede og 'Tildelingskriterium talværdi' (BT-541-Lot-WeightNumber) &amp;amp; 'Tildelingskriterium talværdi' (BT-541-Lot-FixedNumber) er ikke til stede</entry>
-<entry key="expression|name|572">'Beskrivelse' (BT-540-LotsGroup) er til stede og 'Tildelingskriterium talværdi' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Tildelingskriterium talværdi' (BT-541-LotsGroup-ThresholdNumber) er ikke til stede</entry>
-<entry key="expression|name|573">'Beskrivelse' (BT-540-LotsGroup) er til stede og 'Tildelingskriterium talværdi' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Tildelingskriterium talværdi' (BT-541-LotsGroup-ThresholdNumber) er ikke til stede</entry>
-<entry key="expression|name|574">'Beskrivelse' (BT-540-LotsGroup) er til stede og 'Tildelingskriterium talværdi' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Tildelingskriterium talværdi' (BT-541-LotsGroup-FixedNumber) er ikke til stede</entry>
 <entry key="expression|name|575">'Tildelingskriterium talværdi' (BT-541-Lot-WeightNumber) er ikke til stede</entry>
 <entry key="expression|name|576">'Tildelingskriterium talværdi' (BT-541-Lot-FixedNumber) er ikke til stede</entry>
 <entry key="expression|name|577">'Tildelingskriterium talværdi' (BT-541-Lot-ThresholdNumber) er ikke til stede</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Andre begrænsninger af opfyldelsesstedet' (BT-727-Lot) er 'Hvor som helst' eller 'Hvor som helst inden for EØS'</entry>
 <entry key="expression|name|94">'Andre begrænsninger af opfyldelsesstedet' (BT-727-Part) må ikke være 'Hvor som helst' eller 'Hvor som helst inden for EØS'</entry>
 <entry key="expression|name|95">'Andre begrænsninger af opfyldelsesstedet' (BT-727-Procedure) er 'Hvor som helst' eller 'Hvor som helst inden for EØS'</entry>
-<entry key="expression|name|96">'Tildelingskriterium talværdi' (BT-541-Lot) er udfyldt, og 'Talværdi er en fast værdi' (BT-5422-Lot) og 'Talværdi er en tærskeltype' (BT-5423-Lot) er ikke udfyldt</entry>
-<entry key="expression|name|97">'Tildelingskriterium talværdi' (BT-541-LotsGroup) er udfyldt, og 'Talværdi er en fast værdi' (BT-5422-LotsGroup) og 'Talværdi er en tærskeltype' (BT-5423-LotsGroup) er ikke udfyldt</entry>
 </properties>
