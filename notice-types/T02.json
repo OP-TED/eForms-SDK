@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.11.0",
+  "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.0",
-    "createdOn" : "2024-02-29T16:00:00"
+    "version" : "1.11.203",
+    "createdOn" : "2024-05-08T11:56:36"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -293,9 +293,10 @@
       }, {
         "id" : "GR-Procedure-Description",
         "contentType" : "group",
+        "nodeId" : "ND-ProcedureProcurementScope",
         "displayType" : "GROUP",
-        "description" : "Description",
-        "_label" : "group|name|GR-Procedure-Description",
+        "description" : "Scope of the Procurement addressed with the whole notice",
+        "_label" : "group|name|ND-ProcedureProcurementScope",
         "content" : [ {
           "id" : "BT-22-Procedure",
           "contentType" : "field",
@@ -398,35 +399,6 @@
             "description" : "Additional Classification Code",
             "_label" : "field|name|BT-263-Procedure"
           } ]
-        } ]
-      } ]
-    }, {
-      "id" : "GR-Procedure-TenderingTerms",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Tendering Terms",
-      "_label" : "group|name|GR-Procedure-TenderingTerms",
-      "content" : [ {
-        "id" : "GR-Procedure-CrossBorderLaw",
-        "contentType" : "group",
-        "nodeId" : "ND-CrossBorderLaw",
-        "displayType" : "GROUP",
-        "description" : "Cross Border Law",
-        "_label" : "group|name|ND-CrossBorderLaw",
-        "content" : [ {
-          "id" : "BT-09(a)-Procedure",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Cross Border Law",
-          "_label" : "field|name|BT-09(a)-Procedure",
-          "_presetValue" : "CrossBorderLaw",
-          "hidden" : true
-        }, {
-          "id" : "BT-09(b)-Procedure",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Cross Border Law Description",
-          "_label" : "field|name|BT-09(b)-Procedure"
         } ]
       } ]
     }, {
@@ -1091,6 +1063,14 @@
             "displayType" : "TEXTBOX",
             "description" : "Kilometers Public Transport",
             "_label" : "field|name|OPP-080-Tender"
+          }, {
+            "id" : "OPP-080-Tender-Unit",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Kilometers Public Transport Unit",
+            "_label" : "field|name|OPP-080-Tender-Unit",
+            "_presetValue" : "KTM",
+            "hidden" : true
           }, {
             "id" : "GR-LotTender-RevenueAllocation",
             "contentType" : "group",

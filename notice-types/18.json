@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.11.0",
+  "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.0",
-    "createdOn" : "2024-02-29T16:00:00"
+    "version" : "1.11.203",
+    "createdOn" : "2024-05-08T11:56:36"
   },
   "noticeId" : "18",
   "metadata" : [ {
@@ -398,11 +398,10 @@
       }, {
         "id" : "GR-Procedure-PlaceOfPerformance",
         "contentType" : "group",
-        "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
+        "nodeId" : "ND-ProcedurePlacePerformance",
         "displayType" : "GROUP",
-        "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
-        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
-        "_repeatable" : true,
+        "description" : "A location where the Procurement, for the Procedure as a whole, should take place",
+        "_label" : "group|name|ND-ProcedurePlacePerformance",
         "content" : [ {
           "id" : "BT-5101(a)-Procedure",
           "contentType" : "field",
@@ -466,6 +465,21 @@
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-Procedure-TenderingTerms",
       "content" : [ {
+        "id" : "GR-Procedure-ExclusionGrounds-Source",
+        "contentType" : "group",
+        "nodeId" : "ND-ExclusionGroundsSource",
+        "displayType" : "GROUP",
+        "description" : "Exclusion Grounds Source (Code)",
+        "_label" : "group|name|ND-ExclusionGroundsSource",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-806-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Exclusion Grounds Source",
+          "_label" : "field|name|BT-806-Procedure"
+        } ]
+      }, {
         "id" : "GR-Procedure-ExclusionGrounds",
         "contentType" : "group",
         "nodeId" : "ND-ExclusionGrounds",
@@ -1037,9 +1051,10 @@
       }, {
         "id" : "GR-Lot-AuctionTerms",
         "contentType" : "group",
+        "nodeId" : "ND-AuctionTerms",
         "displayType" : "GROUP",
-        "description" : "Auction Terms",
-        "_label" : "group|name|GR-Lot-AuctionTerms",
+        "description" : "eAuction related information (indicator, URL, Description)",
+        "_label" : "group|name|ND-AuctionTerms",
         "content" : [ {
           "id" : "BT-767-Lot",
           "contentType" : "field",
@@ -1272,6 +1287,21 @@
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-Lot-TenderingTerms",
       "content" : [ {
+        "id" : "GR-Lot-SelectionCriteria-Source",
+        "contentType" : "group",
+        "nodeId" : "ND-SelectionCriteriaSource",
+        "displayType" : "GROUP",
+        "description" : "Source for Selection Criteria",
+        "_label" : "group|name|ND-SelectionCriteriaSource",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-821-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Selection Criteria Source",
+          "_label" : "field|name|BT-821-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-SelectionCriteria",
         "contentType" : "group",
         "nodeId" : "ND-SelectionCriteria",
@@ -1280,29 +1310,17 @@
         "_label" : "group|name|ND-SelectionCriteria",
         "_repeatable" : true,
         "content" : [ {
-          "id" : "BT-747-Lot",
+          "id" : "BT-809-Lot",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
-          "description" : "Selection Criteria Type",
-          "_label" : "field|name|BT-747-Lot"
-        }, {
-          "id" : "BT-749-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Selection Criteria Name",
-          "_label" : "field|name|BT-749-Lot"
+          "description" : "Selection Criteria",
+          "_label" : "field|name|BT-809-Lot"
         }, {
           "id" : "BT-750-Lot",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
           "description" : "Selection Criteria Description",
           "_label" : "field|name|BT-750-Lot"
-        }, {
-          "id" : "BT-748-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Selection Criteria Used",
-          "_label" : "field|name|BT-748-Lot"
         }, {
           "id" : "BT-40-Lot",
           "contentType" : "field",

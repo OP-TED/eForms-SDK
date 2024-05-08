@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.11.0",
+  "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.0",
-    "createdOn" : "2024-02-29T16:00:00"
+    "version" : "1.11.203",
+    "createdOn" : "2024-05-08T11:56:36"
   },
   "noticeId" : "4",
   "metadata" : [ {
@@ -257,9 +257,10 @@
       }, {
         "id" : "GR-Procedure-Description",
         "contentType" : "group",
+        "nodeId" : "ND-ProcedureProcurementScope",
         "displayType" : "GROUP",
-        "description" : "Description",
-        "_label" : "group|name|GR-Procedure-Description",
+        "description" : "Scope of the Procurement addressed with the whole notice",
+        "_label" : "group|name|ND-ProcedureProcurementScope",
         "content" : [ {
           "id" : "BT-127-notice",
           "contentType" : "field",
@@ -363,11 +364,10 @@
       }, {
         "id" : "GR-Procedure-PlaceOfPerformance",
         "contentType" : "group",
-        "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
+        "nodeId" : "ND-ProcedurePlacePerformance",
         "displayType" : "GROUP",
-        "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
-        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
-        "_repeatable" : true,
+        "description" : "A location where the Procurement, for the Procedure as a whole, should take place",
+        "_label" : "group|name|ND-ProcedurePlacePerformance",
         "content" : [ {
           "id" : "BT-5101(a)-Procedure",
           "contentType" : "field",
@@ -669,43 +669,29 @@
         "description" : "Planned Duration",
         "_label" : "group|name|GR-Part-PlannedDuration",
         "content" : [ {
-          "id" : "GR-Part-PlannedDuration-Dates",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Duration Dates",
-          "_label" : "group|name|GR-Part-PlannedDuration-Dates",
-          "content" : [ {
-            "id" : "BT-536-Part",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Duration Start Date",
-            "_label" : "field|name|BT-536-Part"
-          }, {
-            "id" : "BT-537-Part",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Duration End Date",
-            "_label" : "field|name|BT-537-Part"
-          } ]
-        }, {
-          "id" : "GR-Part-PlannedDuration-Period",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Duration Period",
-          "_label" : "group|name|GR-Part-PlannedDuration-Period",
-          "content" : [ {
-            "id" : "BT-36-Part",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Duration Period",
-            "_label" : "field|name|BT-36-Part"
-          } ]
-        }, {
           "id" : "BT-538-Part",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
           "description" : "Duration Other",
           "_label" : "field|name|BT-538-Part"
+        }, {
+          "id" : "BT-536-Part",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Duration Start Date",
+          "_label" : "field|name|BT-536-Part"
+        }, {
+          "id" : "BT-537-Part",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Duration End Date",
+          "_label" : "field|name|BT-537-Part"
+        }, {
+          "id" : "BT-36-Part",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Duration Period",
+          "_label" : "field|name|BT-36-Part"
         } ]
       }, {
         "id" : "GR-Part-GpaAgreement",
