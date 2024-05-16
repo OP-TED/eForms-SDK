@@ -257,6 +257,8 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PostalAddress/cbc:PostalZone"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PostalAddress/cbc:StreetName"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cbc:WebsiteURI"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-15"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '15']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-15"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '15']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '15']"/>

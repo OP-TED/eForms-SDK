@@ -281,6 +281,7 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efbc:AwardingCPBIndicator"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efbc:ListedOnRegulatedMarketIndicator"/>
    <svrl:active-pattern id="EFORMS-validation-stage-3b-34"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '34']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-34"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '34']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '34']"/>

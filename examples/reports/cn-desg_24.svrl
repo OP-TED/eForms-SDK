@@ -290,6 +290,7 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cbc:WebsiteURI"/>
    <svrl:active-pattern id="EFORMS-validation-stage-3b-23"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '23']"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '23']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-23"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '23']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '23']"/>

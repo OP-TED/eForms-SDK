@@ -356,6 +356,8 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efbc:ListedOnRegulatedMarketIndicator"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/efac:Nationality/cbc:NationalityID"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-32"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '32']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-32"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '32']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '32']"/>

@@ -694,6 +694,7 @@
                        test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">
       <svrl:text>rule|text|BR-BT-00105-0149</svrl:text>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '29']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-29"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '29']"/>

@@ -264,6 +264,7 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/efac:Nationality/cbc:NationalityID"/>
    <svrl:active-pattern id="EFORMS-validation-stage-3b-26"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '26']"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '26']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-26"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '26']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '26']"/>

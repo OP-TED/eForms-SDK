@@ -99,6 +99,8 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PostalAddress/cbc:StreetName"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cbc:EndpointID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cbc:WebsiteURI"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-2"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '2']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-2"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '2']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '2']"/>

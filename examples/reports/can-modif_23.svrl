@@ -180,6 +180,8 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PostalAddress/cbc:Department"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cbc:EndpointID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cbc:WebsiteURI"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-40"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '40']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-40"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '40']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '40']"/>

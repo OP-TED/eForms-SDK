@@ -164,6 +164,8 @@
                        test="count(@listName) &gt; 0">
       <svrl:text>rule|text|OPP-070-notice-List_MA</svrl:text>
    </svrl:failed-assert>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-4"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-4"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>

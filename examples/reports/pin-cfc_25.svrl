@@ -377,6 +377,7 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cbc:WebsiteURI"/>
    <svrl:active-pattern id="EFORMS-validation-stage-3b-11"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '11']"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '11']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-11"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '11']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '11']"/>
