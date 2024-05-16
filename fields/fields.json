@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.197",
-    "createdOn" : "2024-05-07T23:37:36"
+    "version" : "1.11.228",
+    "createdOn" : "2024-05-16T10:28:56"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -4860,7 +4860,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier",
     "xpathRelative" : "efbc:ChangedSectionIdentifier",
     "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
-    "type" : "id",
+    "type" : "id-ref",
+    "idSchemes" : [ "CON", "GLO", "LOT", "ORG", "PAR", "RES", "TEN", "TPA", "TPO", "UBO" ],
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -5695,7 +5696,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier",
     "xpathRelative" : "efbc:ChangedSectionIdentifier",
     "xsdSequenceOrder" : [ { "efbc:ChangedSectionIdentifier" : 1 } ],
-    "type" : "id",
+    "type" : "id-ref",
+    "idSchemes" : [ "ORG", "RES", "TEN", "TPA", "TPO", "UBO" ],
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,
@@ -33224,7 +33226,8 @@
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealedItem/cbc:ID",
     "xpathRelative" : "cbc:ID",
     "xsdSequenceOrder" : [ { "cbc:ID" : 1 } ],
-    "type" : "id",
+    "type" : "id-ref",
+    "idSchemes" : [ "CON", "GLO", "LOT", "ORG", "PAR", "RES", "TEN", "TPA", "TPO", "UBO" ],
     "legalType" : "IDENTIFIER",
     "repeatable" : {
       "value" : false,

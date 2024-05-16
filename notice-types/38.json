@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.203",
-    "createdOn" : "2024-05-08T11:56:36"
+    "version" : "1.11.228",
+    "createdOn" : "2024-05-16T10:28:56"
   },
   "noticeId" : "38",
   "metadata" : [ {
@@ -2652,7 +2652,8 @@
             "contentType" : "field",
             "displayType" : "TEXTBOX",
             "description" : "Modified Notice Part Reference",
-            "_label" : "field|name|BT-1501(p)-Contract"
+            "_label" : "field|name|BT-1501(p)-Contract",
+            "_idSchemes" : [ "ORG", "RES", "TEN", "TPA", "TPO", "UBO" ]
           } ]
         }, {
           "id" : "BT-202-Contract",
@@ -2710,7 +2711,8 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Change Previous Section Identifier",
-          "_label" : "field|name|BT-13716-notice"
+          "_label" : "field|name|BT-13716-notice",
+          "_idSchemes" : [ "CON", "GLO", "LOT", "ORG", "PAR", "RES", "TEN", "TPA", "TPO", "UBO" ]
         } ]
       }, {
         "id" : "BT-141(a)-notice",
