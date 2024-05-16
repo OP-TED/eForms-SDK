@@ -10139,6 +10139,9 @@
 <entry key="code|name|document-distribution.restricted-document">Access to certain procurement documents is restricted</entry>
 <entry key="code|name|document-status.non-official">Unofficial language version</entry>
 <entry key="code|name|document-status.official">Official language version</entry>
+<entry key="code|name|documents-used-in-public-procurement.epo-Notice">Notice</entry>
+<entry key="code|name|documents-used-in-public-procurement.epo-ProcurementDocument">Procurement Document</entry>
+<entry key="code|name|documents-used-in-public-procurement.epo-sub-ESPD">European Single Procurement Document (ESPD)</entry>
 <entry key="code|name|dps-usage.dps-list">Dynamic purchasing system, only usable by buyers listed in this notice</entry>
 <entry key="code|name|dps-usage.dps-nlist">Dynamic purchasing system, also usable by buyers not listed in this notice</entry>
 <entry key="code|name|dps-usage.none">No dynamic purchase system</entry>
@@ -10430,6 +10433,9 @@
 <entry key="code|name|exclusion-ground.susp-act">Business activities are suspended</entry>
 <entry key="code|name|exclusion-ground.tax-pay">Payment of taxes</entry>
 <entry key="code|name|exclusion-ground.terr-offence">Terrorist offences or offences linked to terrorist activities</entry>
+<entry key="code|name|exclusion-grounds-source.epo-Notice">Notice</entry>
+<entry key="code|name|exclusion-grounds-source.epo-ProcurementDocument">Procurement Document</entry>
+<entry key="code|name|exclusion-grounds-source.epo-sub-ESPD">European Single Procurement Document (ESPD)</entry>
 <entry key="code|name|foreign-subsidies-measure-conclusion.adm-clos">Notification submitted, administrative closure of FSR preliminary review procedure</entry>
 <entry key="code|name|foreign-subsidies-measure-conclusion.commit">Notification submitted, decision with commitments</entry>
 <entry key="code|name|foreign-subsidies-measure-conclusion.meat">Declaration submitted, standard MEAT award</entry>
@@ -16719,6 +16725,9 @@
 <entry key="code|name|review-status.requested">Review has been requested and is still under process</entry>
 <entry key="code|name|review-type.complainants">Complainants</entry>
 <entry key="code|name|rewards-penalties.rew-pen">Information on rewards and penalties</entry>
+<entry key="code|name|selection-criteria-source.epo-Notice">Notice</entry>
+<entry key="code|name|selection-criteria-source.epo-ProcurementDocument">Procurement Document</entry>
+<entry key="code|name|selection-criteria-source.epo-sub-ESPD">European Single Procurement Document (ESPD)</entry>
 <entry key="code|name|selection-criterion.ef-stand">Economic and financial standing</entry>
 <entry key="code|name|selection-criterion.other">Other</entry>
 <entry key="code|name|selection-criterion.sui-act">Suitability to pursue the professional activity</entry>
