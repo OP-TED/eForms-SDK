@@ -264,6 +264,12 @@
     "description" : "List of codes to specify whether a document has or not a legal status.",
     "_label" : "codelist|name|document-status"
   }, {
+    "id" : "documents-used-in-public-procurement",
+    "version" : "1.0",
+    "filename" : "documents-used-in-public-procurement.gc",
+    "description" : "This code list describes documents used in Public Procurement. A set of interrelated business information representing the business facts and associated metadata. The information may be conveyed in any language",
+    "_label" : "codelist|name|documents-used-in-public-procurement"
+  }, {
     "id" : "dps-usage",
     "version" : "20240207-0",
     "filename" : "dps-usage.gc",
@@ -370,6 +376,13 @@
     "filename" : "criterion_exclusion-ground.gc",
     "description" : "List of codes for Exclusion Ground identification",
     "_label" : "codelist|name|exclusion-ground"
+  }, {
+    "id" : "exclusion-grounds-source",
+    "version" : "1.12.0-SNAPSHOT",
+    "parentId" : "documents-used-in-public-procurement",
+    "filename" : "documents-used-in-public-procurement_exclusion-grounds-source.gc",
+    "description" : "Source for the exclusion grounds.",
+    "_label" : "codelist|name|exclusion-grounds-source"
   }, {
     "id" : "foreign-subsidies-measure-conclusion",
     "version" : "1.0",
@@ -1585,6 +1598,13 @@
     "filename" : "rewards-penalties.gc",
     "description" : "List of codes for rewards and penalties associated to a Public Transportation Service.",
     "_label" : "codelist|name|rewards-penalties"
+  }, {
+    "id" : "selection-criteria-source",
+    "version" : "1.12.0-SNAPSHOT",
+    "parentId" : "documents-used-in-public-procurement",
+    "filename" : "documents-used-in-public-procurement_selection-criteria-source.gc",
+    "description" : "Source for the exclusion grounds.",
+    "_label" : "codelist|name|selection-criteria-source"
   }, {
     "id" : "selection-criterion",
     "version" : "20240313-0",
