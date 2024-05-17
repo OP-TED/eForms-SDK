@@ -94,6 +94,13 @@
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<ext:UBLExtensions>
 			<ext:UBLExtension>
@@ -125,26 +132,14 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">res-pub-ser</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

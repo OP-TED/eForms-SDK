@@ -61,10 +61,6 @@
 								<cac:PartyLegalEntity>
 									<cbc:CompanyID schemeName="eu">GCEU</cbc:CompanyID>
 								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+352 4303-1</cbc:Telephone>
-									<cbc:ElectronicMail>GeneralCourt.Registry@curia.europa.eu</cbc:ElectronicMail>
-								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 					</efac:Organizations>
@@ -98,8 +94,7 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
@@ -118,29 +113,6 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
@@ -155,6 +127,11 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
@@ -237,6 +214,6 @@
 			<cac:PlannedPeriod>
 				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
-	</cac:ProcurementProject>
-</cac:ProcurementProjectLot>
+		</cac:ProcurementProject>
+	</cac:ProcurementProjectLot>
 </ContractNotice>

@@ -99,6 +99,13 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
 	</cac:TenderingProcess>
@@ -138,18 +145,6 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
 							<efac:TenderSubcontractingRequirements>
 								<efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">none</efbc:TenderSubcontractingRequirementsCode>
 							</efac:TenderSubcontractingRequirements>
@@ -171,6 +166,11 @@
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
 				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:AllowedSubcontractTerms>
 				<cbc:SubcontractingConditionsCode listName="subcontracting-obligation">none</cbc:SubcontractingConditionsCode>

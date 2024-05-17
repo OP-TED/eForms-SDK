@@ -168,48 +168,53 @@
 		</ext:UBLExtensions>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-Notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
+				<cbc:Description languageID="ENG">Excluded if ...</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
@@ -250,21 +255,18 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">sui-act</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">HM Land Registry will have certain technical requirements for this contract that will be mandatory in order to meet the necessary UK Government security standards.  (i) Bidders will be asked to self-certify that their organisation either is already certified to ‘ISO 27001:2017 Information Security Management' or equivalent level, or would ensure that it is accredited in accordance with the outline implementation plan timescale requirements and will maintain this certification throughout the contract period.  (ii) Bidders will be asked to self-certify that their organisation either is already certified to ‘Penetration of systems by a CHECK, CREST, or TIGER approved’ or equivalent standard, or would ensure that it is accredited in accordance with the outline implementation plan timescale requirements and will maintain this certification throughout the contract period.  (iii) Bidders will be asked to self-certify that their organisation either is already operating to UK government cloud security principles in terms of official data holding and management of personal information, or can provide assurance that the required services will be implemented and managed in accordance to these principles. This includes assurance that controls will be implemented as part of a security risk management process within the outline implementation plan timescale requirements, and risk management maintained throughout the contract period. Please see the following link: https://www.ncsc.gov.uk/guidance/cloud-security-collection.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">ef-stand</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">tp-abil</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
@@ -299,6 +301,16 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-Notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

@@ -189,6 +189,13 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
 	</cac:TenderingProcess>
@@ -208,32 +215,6 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">La participation est réservée à la profession d'architecte.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Cf. règlement de consultation.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Cf. règlement de consultation.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>DocID1</cbc:ID>
@@ -244,6 +225,11 @@
 					</cac:ExternalReference>
 				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
 			<cac:AwardingTerms>
 				<cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
 				<cbc:BindingOnBuyerIndicator>true</cbc:BindingOnBuyerIndicator>

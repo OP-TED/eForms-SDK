@@ -98,6 +98,11 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-Notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Description (BT-67(b)-Procedure) Early termination, damages or other comparable sanctions</cbc:Description>
 			</cac:SpecificTendererRequirement>
@@ -115,26 +120,6 @@ vol3</cbc:Description>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Name languageID="ENG">Economic and financial standing</cbc:Name>
-								<cbc:Description languageID="ENG">Economic and financial standing</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">nyk</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cac:RequiredFinancialGuarantee>
 				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
 			</cac:RequiredFinancialGuarantee>
@@ -180,6 +165,11 @@ vol3</cbc:Description>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">res-ws</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

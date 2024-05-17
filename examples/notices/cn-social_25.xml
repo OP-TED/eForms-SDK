@@ -96,8 +96,7 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">Corruption</cbc:Description>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
@@ -123,26 +122,14 @@ vol3
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

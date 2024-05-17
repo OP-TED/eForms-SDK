@@ -101,8 +101,7 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">See procurement documents</cbc:Description>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
@@ -132,18 +131,6 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">see tender specifications</cbc:Description>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
 			<cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
 			<cac:RequiredFinancialGuarantee>
@@ -169,6 +156,11 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

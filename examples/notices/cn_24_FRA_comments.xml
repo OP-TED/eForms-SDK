@@ -169,6 +169,12 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<!--BT-806 Exclusion Grounds Source-->
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-Notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
 		<!--BT-67 Exclusion Grounds-->
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
@@ -261,29 +267,6 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<!--BT-60 - EU Funds-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
@@ -299,6 +282,12 @@
 				<!--BT-71 Reserved Participation (from code list)-->
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821 Selection Criteria Source-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
@@ -485,29 +474,6 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Critères de sélection tels que mentionnés dans les documents de la consultation</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<!--BT-60 - EU Funds-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
@@ -523,6 +489,12 @@
 				<!--BT-71 Reserved Participation (from code list)-->
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821 Selection Criteria Source-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

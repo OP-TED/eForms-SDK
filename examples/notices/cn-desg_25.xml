@@ -96,6 +96,11 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-Notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Arrangement with creditors</cbc:Description>
 			</cac:SpecificTendererRequirement>
@@ -126,13 +131,16 @@ vol3</cbc:Description>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">ef-stand</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">sui-act</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">tp-abil</cbc:TendererRequirementTypeCode>
+								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -148,6 +156,11 @@ vol3</cbc:Description>
 					</cac:ExternalReference>
 				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-Notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
 			<cac:AwardingTerms>
 				<cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
 				<cbc:BindingOnBuyerIndicator>true</cbc:BindingOnBuyerIndicator>

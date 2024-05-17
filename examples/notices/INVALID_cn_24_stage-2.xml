@@ -64,8 +64,7 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground"></cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG"></cbc:Description>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
@@ -88,8 +87,7 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion"></cbc:CriterionTypeCode>
-								<cbc:CalculationExpressionCode listName="usage"></cbc:CalculationExpressionCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion"></cbc:TendererRequirementTypeCode>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -103,6 +101,11 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement"></cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source"></cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

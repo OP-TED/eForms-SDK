@@ -477,6 +477,12 @@
 			<cbc:ID>CrossBorderLaw</cbc:ID>
 			<cbc:DocumentDescription languageID="ENG">Cross border law description ---</cbc:DocumentDescription>
 		</cac:ProcurementLegislationDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<!--BT-806-->
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-Notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
 		<!--BT-67-->
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
@@ -702,14 +708,10 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">sui-act</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -726,14 +728,10 @@
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">ef-stand</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -750,14 +748,10 @@
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">tp-abil</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -928,6 +922,24 @@
 					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
 					<!--BT-772-->
 					<cbc:Description languageID="ENG">Later tender information description ---</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-Notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-ESPD</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
@@ -1268,14 +1280,10 @@
 								<cbc:Description languageID="ENG">Recovery Fund</cbc:Description>
 							</efac:Funding>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">sui-act</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -1292,14 +1300,10 @@
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">ef-stand</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -1316,14 +1320,10 @@
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">tp-abil</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -1494,6 +1494,12 @@
 					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
 					<!--BT-772-->
 					<cbc:Description languageID="ENG">Later tender information description ---</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-Notice</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

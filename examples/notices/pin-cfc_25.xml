@@ -160,6 +160,11 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
 		<cac:LotDistribution>
 			<cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
 			<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
@@ -186,19 +191,16 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">sui-act</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="DEU">Die vorliegend maßgeblichen Eignungsunterlagen werden in der Aufforderung zur Interessenbestätigung nach § 36 Abs. 5 SektVO mitgeteilt werden. Für die Interessenbekundung interessierter Unternehmen wird auf Ziffer VI.3 b) der vorliegenden Bekanntmachung verwiesen.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">ef-stand</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="DEU">Die vorliegend maßgeblichen Eignungsunterlagen werden in der Aufforderung zur Interessenbestätigung nach § 36 Abs. 5 SektVO mitgeteilt werden. Für die Interessenbekundung interessierter Unternehmen wird auf Ziffer VI.3 b) der vorliegenden Bekanntmachung verwiesen.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">tp-abil</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="DEU">Die vorliegend maßgeblichen Eignungsunterlagen werden in der Aufforderung zur Interessenbestätigung nach § 36 Abs. 5 SektVO mitgeteilt werden. Für die Interessenbekundung interessierter Unternehmen wird auf Ziffer VI.3 b) der vorliegenden Bekanntmachung verwiesen.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -207,6 +209,16 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-Notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
@@ -326,19 +338,16 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">sui-act</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="DEU">Die vorliegend maßgeblichen Eignungsunterlagen werden in der Aufforderung zur Interessenbestätigung nach § 36 Abs. 5 SektVO mitgeteilt werden. Für die Interessenbekundung interessierter Unternehmen wird auf Ziffer VI.3 b) der vorliegenden Bekanntmachung verwiesen.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">ef-stand</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="DEU">Die vorliegend maßgeblichen Eignungsunterlagen werden in der Aufforderung zur Interessenbestätigung nach § 36 Abs. 5 SektVO mitgeteilt werden. Für die Interessenbekundung interessierter Unternehmen wird auf Ziffer VI.3 b) der vorliegenden Bekanntmachung verwiesen.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">tp-abil</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="DEU">Die vorliegend maßgeblichen Eignungsunterlagen werden in der Aufforderung zur Interessenbestätigung nach § 36 Abs. 5 SektVO mitgeteilt werden. Für die Interessenbekundung interessierter Unternehmen wird auf Ziffer VI.3 b) der vorliegenden Bekanntmachung verwiesen.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -347,6 +356,16 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-Notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
