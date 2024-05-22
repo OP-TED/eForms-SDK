@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.228",
-    "createdOn" : "2024-05-16T10:28:56"
+    "version" : "1.11.239",
+    "createdOn" : "2024-05-21T16:02:09"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -371,10 +371,9 @@
     "_label" : "codelist|name|eu-programme"
   }, {
     "id" : "exclusion-ground",
-    "version" : "1.12.0-SNAPSHOT",
-    "parentId" : "criterion",
-    "filename" : "criterion_exclusion-ground.gc",
-    "description" : "List of codes for Exclusion Ground identification",
+    "version" : "1.0",
+    "filename" : "exclusion-ground.gc",
+    "description" : "Criteria that prevent certain entities from participating in public contracts due to criminal offenses, tax breaches, or other specified misconduct, aiming to ensure fairness and integrity in public procurement processes",
     "_label" : "codelist|name|exclusion-ground"
   }, {
     "id" : "exclusion-grounds-source",
@@ -1607,9 +1606,9 @@
     "_label" : "codelist|name|selection-criteria-source"
   }, {
     "id" : "selection-criterion",
-    "version" : "20240313-0",
+    "version" : "1.0",
     "filename" : "selection-criterion.gc",
-    "description" : "List of codes to express conditions that are concerned for evaluation purposes. This codelist is a subset of the ESPD codelist CriterionTaxonomy.",
+    "description" : "Requirements for participation in the procurement process, focusing on tenderers suitability, economic and financial standing, and technical and professional ability, and ensuring tender relevance and proportionality to the contract",
     "_label" : "codelist|name|selection-criterion"
   }, {
     "id" : "social-objective",

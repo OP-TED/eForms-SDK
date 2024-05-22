@@ -2,8 +2,8 @@
 <!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>SelectionCriterion</ShortName>
-      <LongName>selection-criterion</LongName>
+      <ShortName>ExclusionGround</ShortName>
+      <LongName>exclusion-ground</LongName>
       <Version>1.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
@@ -121,354 +121,288 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-facil-res</SimpleValue>
+            <SimpleValue>exg-crim-corrpt</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Study, technical and research facilities</SimpleValue>
+            <SimpleValue>Corruption</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Study, technical and research facilities</SimpleValue>
+            <SimpleValue>Corruption</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-facil-tools</SimpleValue>
+            <SimpleValue>exg-crim-fraud</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tools, plant, or technical equipment</SimpleValue>
+            <SimpleValue>Fraud</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Tools, plant, or technical equipment</SimpleValue>
+            <SimpleValue>Fraud</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-mgmt-env</SimpleValue>
+            <SimpleValue>exg-crim-laund</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Environmental management measures</SimpleValue>
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Environmental management measures</SimpleValue>
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-mgmt-qual</SimpleValue>
+            <SimpleValue>exg-crim-part</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Measures for ensuring quality</SimpleValue>
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Measures for ensuring quality</SimpleValue>
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-mgmt-supply</SimpleValue>
+            <SimpleValue>exg-crim-terror</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Supply chain management</SimpleValue>
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Supply chain management</SimpleValue>
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-qual-inst</SimpleValue>
+            <SimpleValue>exg-crim-traffick</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Certificates by quality control institutes</SimpleValue>
+            <SimpleValue>Child labour and including other forms of trafficking in human beings</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Certificates by quality control institutes</SimpleValue>
+            <SimpleValue>Child labour and including other forms of trafficking in human beings</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-qual-smp-w-autent</SimpleValue>
+            <SimpleValue>exg-mis-bre-env-law</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Samples, descriptions, or photographs with certification of authenticity for supply contracts</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Samples, descriptions, or photographs with certification of authenticity for supply contracts</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-qual-smp-wo-autent</SimpleValue>
+            <SimpleValue>exg-mis-bre-lab-law</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Samples, descriptions, or photographs without certification of authenticity</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Samples, descriptions, or photographs without certification of authenticity</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-ref-services</SimpleValue>
+            <SimpleValue>exg-mis-bre-soc-law</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>References on specified services</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>References on specified services</SimpleValue>
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-ref-supply</SimpleValue>
+            <SimpleValue>exg-mis-distortion</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>References on specified deliveries</SimpleValue>
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>References on specified deliveries</SimpleValue>
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-ref-work</SimpleValue>
+            <SimpleValue>exg-mis-misconduct</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>References on specified works</SimpleValue>
+            <SimpleValue>Grave professional misconduct</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>References on specified works</SimpleValue>
+            <SimpleValue>Grave professional misconduct</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-staff-qual</SimpleValue>
+            <SimpleValue>exg-mis-misrepresent</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Relevant educational and professional qualifications</SimpleValue>
+            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Relevant educational and professional qualifications</SimpleValue>
+            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-staff-tech-ctrl</SimpleValue>
+            <SimpleValue>exg-mis-off-cond</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Technicians or technical bodies for quality control</SimpleValue>
+            <SimpleValue>Offence concerning its professional conduct in the domain of defence procurement</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Technicians or technical bodies for quality control</SimpleValue>
+            <SimpleValue>Offence concerning its professional conduct in the domain of defence procurement</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-staff-tech-work</SimpleValue>
+            <SimpleValue>exg-mis-partic-confl</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Technicians or technical bodies to carry out the work</SimpleValue>
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Technicians or technical bodies to carry out the work</SimpleValue>
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-staff-yrly-avg-mp</SimpleValue>
+            <SimpleValue>exg-mis-prep-confl</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Average yearly manpower</SimpleValue>
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Average yearly manpower</SimpleValue>
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-staff-yrly-no-mgmt</SimpleValue>
+            <SimpleValue>exg-mis-sanction</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Number of managerial staff</SimpleValue>
+            <SimpleValue>Early termination, damages, or other comparable sanctions</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Number of managerial staff</SimpleValue>
+            <SimpleValue>Early termination, damages, or other comparable sanctions</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-abil-subc</SimpleValue>
+            <SimpleValue>exg-mis-unrel-sec</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Subcontracting proportion</SimpleValue>
+            <SimpleValue>Unreliability to exclude risks to the security of the country</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Subcontracting proportion</SimpleValue>
+            <SimpleValue>Unreliability to exclude risks to the security of the country</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-sche-env-cert-indep</SimpleValue>
+            <SimpleValue>exg-natl-bre-nat-law</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Certificates by independent bodies about environmental management systems or standards</SimpleValue>
+            <SimpleValue>Breaching of obligations set under purely national exclusion grounds</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Certificates by independent bodies about environmental management systems or standards</SimpleValue>
+            <SimpleValue>Breaching of obligations set under purely national exclusion grounds</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-sche-qu-cert-indep</SimpleValue>
+            <SimpleValue>exg-pmt-bre-ssc</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Certificates by independent bodies about quality assurance standards</SimpleValue>
+            <SimpleValue>Breaching obligation relating to payment of social security contributions</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Certificates by independent bodies about quality assurance standards</SimpleValue>
+            <SimpleValue>Breaching obligation relating to payment of social security contributions</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-sec-inf</SimpleValue>
+            <SimpleValue>exg-pmt-bre-tax</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Security of information</SimpleValue>
+            <SimpleValue>Breaching obligation relating to payment of taxes</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Security of information</SimpleValue>
+            <SimpleValue>Breaching obligation relating to payment of taxes</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-sec-proc</SimpleValue>
+            <SimpleValue>exg-sitn-as-susp</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Security to process, store and transmit classified information</SimpleValue>
+            <SimpleValue>Business activities are suspended</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Security to process, store and transmit classified information</SimpleValue>
+            <SimpleValue>Business activities are suspended</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-sec-supply</SimpleValue>
+            <SimpleValue>exg-sitn-bankr</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Security of supply</SimpleValue>
+            <SimpleValue>Bankruptcy</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Security of supply</SimpleValue>
+            <SimpleValue>Bankruptcy</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-stand-ins</SimpleValue>
+            <SimpleValue>exg-sitn-cred-arran</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Professional risk indemnity insurance</SimpleValue>
+            <SimpleValue>Arrangement with creditors</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Professional risk indemnity insurance</SimpleValue>
+            <SimpleValue>Arrangement with creditors</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-stand-other</SimpleValue>
+            <SimpleValue>exg-sitn-insolvency</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Other economic or financial requirements</SimpleValue>
+            <SimpleValue>Insolvency</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Other economic or financial requirements</SimpleValue>
+            <SimpleValue>Insolvency</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-stand-ratio</SimpleValue>
+            <SimpleValue>exg-sitn-liq-admin</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Financial ratio</SimpleValue>
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Financial ratio</SimpleValue>
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>slc-stand-to-avg</SimpleValue>
+            <SimpleValue>exg-sitn-other</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Average yearly turnover</SimpleValue>
+            <SimpleValue>Analogous situation like bankruptcy, insolvency or arrangement with creditors under national law</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Average yearly turnover</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>slc-stand-to-gen</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>General yearly turnover</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>General yearly turnover</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>slc-stand-to-spec</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Specific yearly turnover</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Specific yearly turnover</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>slc-stand-to-spec-avg</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Specific average yearly turnover</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Specific average yearly turnover</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>slc-suit-auth-mbrshp</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Authorisation or membership of a particular organisation needed for service contracts</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Authorisation or membership of a particular organisation needed for service contracts</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>slc-suit-reg-prof</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Enrolment in a relevant professional register</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Enrolment in a relevant professional register</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>slc-suit-reg-trade</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Enrolment in a trade register</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Enrolment in a trade register</SimpleValue>
+            <SimpleValue>Analogous situation like bankruptcy, insolvency or arrangement with creditors under national law</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
