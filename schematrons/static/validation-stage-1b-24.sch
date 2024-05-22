@@ -31,8 +31,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '24']">
 		<assert id="ND-AuctionTerms-24" role="ERROR" diagnostics="ND-AuctionTerms" test="count(cac:AuctionTerms) = 0">rule|text|ND-AuctionTerms-24</assert>
-		<assert id="ND-FA-24" role="ERROR" diagnostics="ND-FA" test="count(cac:FrameworkAgreement) = 0">rule|text|ND-FA-24</assert>
-		<assert id="ND-PublicOpening-24" role="ERROR" diagnostics="ND-PublicOpening" test="count(cac:OpenTenderEvent) = 0">rule|text|ND-PublicOpening-24</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '24']">
 		<assert id="ND-InterestExpressionReceptionPeriod-24" role="ERROR" diagnostics="ND-InterestExpressionReceptionPeriod" test="count(efac:InterestExpressionReceptionPeriod) = 0">rule|text|ND-InterestExpressionReceptionPeriod-24</assert>
@@ -41,6 +39,7 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '24']">
 		<assert id="ND-AwardingTerms-24" role="ERROR" diagnostics="ND-AwardingTerms" test="count(cac:AwardingTerms) &gt; 0">rule|text|ND-AwardingTerms-24</assert>
 		<assert id="ND-LotProcurementDocument-24" role="ERROR" diagnostics="ND-LotProcurementDocument" test="count(cac:CallForTendersDocumentReference) &gt; 0">rule|text|ND-LotProcurementDocument-24</assert>
+		<assert id="ND-LotReservedParticipation-24" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) &gt; 0">rule|text|ND-LotReservedParticipation-24</assert>
 		<assert id="ND-PaymentTerms-24" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-24</assert>
 		<assert id="ND-PostAwardProcess-24" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-24</assert>
 		<assert id="ND-SecurityClearanceTerms-24" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-24</assert>
@@ -77,8 +76,14 @@
 		<assert id="ND-AcceleratedProcedure-24" role="ERROR" diagnostics="ND-AcceleratedProcedure" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-24</assert>
 		<assert id="ND-ProcedureTypeUnpublish-24" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-24</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms[$noticeSubType = '24']">
+		<assert id="ND-TendererQualificationRequest-24" role="ERROR" diagnostics="ND-TendererQualificationRequest" test="count(cac:TendererQualificationRequest) &gt; 0">rule|text|ND-TendererQualificationRequest-24</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[$noticeSubType = '24']">
 		<assert id="ND-CrossBorderLawUnpublish-24" role="ERROR" diagnostics="ND-CrossBorderLawUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-CrossBorderLawUnpublish-24</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[$noticeSubType = '24']">
+		<assert id="ND-ExclusionGrounds-24" role="ERROR" diagnostics="ND-ExclusionGrounds" test="count(cac:SpecificTendererRequirement) &gt; 0">rule|text|ND-ExclusionGrounds-24</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '24']">
 		<assert id="ND-ContractModification-24" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-24</assert>

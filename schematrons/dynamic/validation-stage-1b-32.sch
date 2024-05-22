@@ -19,8 +19,6 @@
 		<assert id="ND-LotTenderingTerms-32" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-LotTenderingTerms-32</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '32']">
-		<assert id="ND-FA-32" role="ERROR" diagnostics="ND-FA" test="count(cac:FrameworkAgreement) = 0">rule|text|ND-FA-32</assert>
-		<assert id="ND-PublicOpening-32" role="ERROR" diagnostics="ND-PublicOpening" test="count(cac:OpenTenderEvent) = 0">rule|text|ND-PublicOpening-32</assert>
 		<assert id="ND-SecondStage-32" role="ERROR" diagnostics="ND-SecondStage" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-SecondStage-32</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '32']">
@@ -41,6 +39,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '32']">
 		<assert id="ND-LotAwardCriteria-32" role="ERROR" diagnostics="ND-LotAwardCriteria" test="count(cac:AwardingCriterion) &gt; 0">rule|text|ND-LotAwardCriteria-32</assert>
 		<assert id="ND-Prize-32" role="ERROR" diagnostics="ND-Prize" test="count(cac:Prize) = 0">rule|text|ND-Prize-32</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '32']">
+		<assert id="ND-LotAwardCriterion-32" role="ERROR" diagnostics="ND-LotAwardCriterion" test="count(cac:SubordinateAwardingCriterion) &gt; 0">rule|text|ND-LotAwardCriterion-32</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '32']">
 		<assert id="ND-Funding-32" role="ERROR" diagnostics="ND-Funding" test="count(efac:Funding) = 0">rule|text|ND-Funding-32</assert>
