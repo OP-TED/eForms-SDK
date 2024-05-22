@@ -354,6 +354,7 @@
 		<assert id="BT-751-Lot_R" role="ERROR" diagnostics="ND-LotTenderingTerms_BT-751-Lot" test="count(cac:RequiredFinancialGuarantee/cbc:GuaranteeTypeCode[@listName='tender-guarantee-required']) &lt; 2">rule|text|BT-751-Lot_R</assert>
 		<assert id="BT-761-Lot_R" role="ERROR" diagnostics="ND-LotTenderingTerms_BT-761-Lot" test="count(cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode) &lt; 2">rule|text|BT-761-Lot_R</assert>
 		<assert id="BT-769-Lot_R" role="ERROR" diagnostics="BT-769-Lot" test="count(cbc:MultipleTendersCode) &lt; 2">rule|text|BT-769-Lot_R</assert>
+		<assert id="BT-771-Lot_R" role="ERROR" diagnostics="ND-LotTenderingTerms_BT-771-Lot" test="count(cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='selection-criteria-source'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:TendererRequirementTypeCode) &lt; 2">rule|text|BT-771-Lot_R</assert>
 		<assert id="BT-78-Lot_R" role="ERROR" diagnostics="BT-78-Lot" test="count(cbc:LatestSecurityClearanceDate) &lt; 2">rule|text|BT-78-Lot_R</assert>
 		<assert id="BT-79-Lot_R" role="ERROR" diagnostics="BT-79-Lot" test="count(cbc:RequiredCurriculaCode) &lt; 2">rule|text|BT-79-Lot_R</assert>
 		<assert id="BT-94-Lot_R" role="ERROR" diagnostics="BT-94-Lot" test="count(cbc:RecurringProcurementIndicator) &lt; 2">rule|text|BT-94-Lot_R</assert>
@@ -691,7 +692,6 @@
 		<assert id="BT-71-Lot_R" role="ERROR" diagnostics="BT-71-Lot" test="count(cbc:TendererRequirementTypeCode) &lt; 2">rule|text|BT-71-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='selection-criteria-source'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='missing-info-submission']">
-		<assert id="BT-771-Lot_R" role="ERROR" diagnostics="BT-771-Lot" test="count(cbc:TendererRequirementTypeCode) &lt; 2">rule|text|BT-771-Lot_R</assert>
 		<assert id="BT-772-Lot_A" role="ERROR" diagnostics="BT-772-Lot" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-772-Lot_A</assert>
 		<assert id="BT-772-Lot_B" role="ERROR" diagnostics="BT-772-Lot" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-772-Lot_B</assert>
 		<assert id="BT-772-Lot_C" role="ERROR" diagnostics="BT-772-Lot" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-772-Lot_C</assert>
