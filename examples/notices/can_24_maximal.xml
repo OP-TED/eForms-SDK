@@ -192,7 +192,7 @@
 							<!--"id": "BT-171-Tender",	"name": "Tender Rank"-->
 							<cbc:RankCode>3</cbc:RankCode>
 							<!--"id": "BT-682-Tender" -->
-							<efbc:ForeignSubsidiesMeasuresCode listName="foreign-subsidies-measure-conclusion">adm-clos</efbc:ForeignSubsidiesMeasuresCode>
+							<efbc:ForeignSubsidiesMeasuresCode listName="foreign-subsidy-measure-conclusion">fsr-adm-clos</efbc:ForeignSubsidiesMeasuresCode>
 							<!--"id": "BT-1711-Tender",	"name": "Tender Ranked"-->
 							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--"id": "BT-193-Tender","name": "Tender Variant",-->
@@ -237,7 +237,7 @@
 							<!--"id": "BT-171-Tender",	"name": "Tender Rank"-->
 							<cbc:RankCode>4</cbc:RankCode>
 							<!--"id": "BT-682-Tender" -->
-							<efbc:ForeignSubsidiesMeasuresCode listName="foreign-subsidies-measure-conclusion">no-obj</efbc:ForeignSubsidiesMeasuresCode>
+							<efbc:ForeignSubsidiesMeasuresCode listName="foreign-subsidy-measure-conclusion">fsr-no-obj</efbc:ForeignSubsidiesMeasuresCode>
 							<!--"id": "BT-1711-Tender",	"name": "Tender Ranked"-->
 							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--"id": "BT-193-Tender","name": "Tender Variant",-->

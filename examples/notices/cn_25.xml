@@ -156,7 +156,7 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
@@ -199,17 +199,17 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:TendererRequirementTypeCode  listName="selection-criterion">sui-act</cbc:TendererRequirementTypeCode >
+								<cbc:TendererRequirementTypeCode  listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode >
 								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:TendererRequirementTypeCode  listName="selection-criterion">ef-stand</cbc:TendererRequirementTypeCode >
+								<cbc:TendererRequirementTypeCode  listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode >
 								<cbc:Description languageID="ENG">Applicants will be expected to be of sufficient financial and economic standing to support the anticipated contract value. All applicants must complete the financial questions within the pre-qualification questionnaire and tender documents. Financial standing relevant to the anticipated contract value will be determined by Scottish Water based on the response to the pre-qualification questionnaire and any further financial checks deemed necessary.</cbc:Description>
 								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:TendererRequirementTypeCode  listName="selection-criterion">tp-abil</cbc:TendererRequirementTypeCode >
+								<cbc:TendererRequirementTypeCode  listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode >
 								<cbc:Description languageID="ENG">Selection criteria as stated in the procurement documents</cbc:Description>
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 							</efac:SelectionCriteria>
@@ -259,12 +259,12 @@
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
-					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-Notice</cbc:TendererRequirementTypeCode>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
-					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

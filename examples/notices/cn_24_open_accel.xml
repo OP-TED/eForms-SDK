@@ -207,7 +207,7 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-ProcurementDocument</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
@@ -239,15 +239,15 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:TendererRequirementTypeCode listName="selection-criterion">sui-act</cbc:TendererRequirementTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ITA">Sono ammessi tutti gli operatori economici previsti dall’art. 45 del D.Lgs. n. 50/2016, compresi i concorrenti appositamente e temporaneamente raggruppati ai sensi dell’art. 45, comma 2, lett. d) del D.Lgs. n. 50/2016 e aggregazioni tra imprese aderenti al contratto di rete ai sensi dell’art. 45, comma 2, lett. f) del D.Lgs. n. 50/2016, secondo le modalità indicate nel disciplinare di gara.</cbc:Description>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:TendererRequirementTypeCode listName="selection-criterion">ef-stand</cbc:TendererRequirementTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ITA">Ciascuna impresa concorrente (anche se ausiliaria, consorziata, mandante o retista) dovrà produrre due idonee dichiarazioni bancarie.</cbc:Description>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:TendererRequirementTypeCode listName="selection-criterion">tp-abil</cbc:TendererRequirementTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ITA">Sono ammesse a partecipare le imprese e/o raggruppamenti e/o reti specializzati nella produzione dei manufatti per cui chiedono di concorrere. A tal fine, ciascun concorrente dovrà dichiarare/dimostrare il possesso dei seguenti requisiti minimi: a) fasi di lavorazione essenziali che ogni operatore economico partecipante dovrà possedere (esclusi rete, sedia e cassetta porta pistola e gli accessori come viti, maniglie e guide): — taglio, fresatura, foratura, piallatura, levigatura e incollaggio del legno, — assemblaggio delle parti componenti i singoli arredi, — imballaggio, — montaggio a destinazione; b) organizzazione complessiva d’impresa desumibile da: — elenco descrittivo delle attrezzature tecniche possedute afferenti la lavorazione completi dei manufatti in legno, — stabilimenti di produzione e forza lavoro, — capacità produttiva giornaliera riferita a prodotti finiti analoghi a quelli dell’appalto in linea con i termini di approntamento e montaggio degli arredi in fornitura (55 giorni); c) certificazione di qualità in corso di validità, attestante l’ottemperanza alle norme UNI EN ISO 9001-2015, rilasciata da ente accreditato Accredia o altro ente in mutuo riconoscimento, relativa al settore di accreditamento (EA) e processi verificati e certificati (indicati nello «scopo» o «campo di applicazione») concernenti la/e fase/i di lavorazione svolta/e dall’operatore economico per la tipologia di manufatti per i quali chiede di partecipare; d) fatturato specifico: le ditte partecipanti dovranno presentare l’elenco dettagliato di forniture, realizzate nel triennio 2017-2019, relativo a prodotti finiti analoghi per materia prima utilizzata (manufatti in legno) a quelli per cui si chiede di partecipare, la cui media annua deve essere pari ad almeno il valore della gara (291 934,60 EUR, IVA esclusa). L’elenco deve contenere l’indicazione dettagliata di tipologia dei prodotti, importi fatturati, date dei contratti e beneficiari. L’amministrazione si riserva la facoltà di disporre sopralluoghi tecnici presso le sedi, anche secondarie, dei concorrenti, per verificarne la capacità tecnica. Le relative spese sono a carico del concorrente. I livelli minimi di capacità tecnica ed economica sono giustificati dall’oggettiva complessità della fornitura (quanto a tempi di approntamento e consegna dei prodotti finiti, specie per richiesta di «V d’urgenza» o «V d’obbligo»), in quanto i materiali dovranno essere adattati all’ambiente dove dovranno essere consegnati ed installati.</cbc:Description>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
@@ -272,7 +272,7 @@
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
-					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-Notice</cbc:TendererRequirementTypeCode>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
