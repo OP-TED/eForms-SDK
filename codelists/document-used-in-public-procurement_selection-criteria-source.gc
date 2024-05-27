@@ -4,7 +4,7 @@
    <Identification>
       <ShortName>SelectionCriteriaSource</ShortName>
       <LongName>selection-criteria-source</LongName>
-      <LongName Identifier="eFormsParentId">documents-used-in-public-procurement</LongName>
+      <LongName Identifier="eFormsParentId">document-used-in-public-procurement</LongName>
       <Version>1.12.0-SNAPSHOT</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
@@ -122,7 +122,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>epo-Notice</SimpleValue>
+            <SimpleValue>epo-notice</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Notice</SimpleValue>
@@ -133,7 +133,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>epo-ProcurementDocument</SimpleValue>
+            <SimpleValue>epo-procurement-document</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Procurement Document</SimpleValue>
@@ -144,7 +144,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>epo-sub-ESPD</SimpleValue>
+            <SimpleValue>epo-sub-espd</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>European Single Procurement Document (ESPD)</SimpleValue>

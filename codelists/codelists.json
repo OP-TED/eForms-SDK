@@ -264,11 +264,11 @@
     "description" : "List of codes to specify whether a document has or not a legal status.",
     "_label" : "codelist|name|document-status"
   }, {
-    "id" : "documents-used-in-public-procurement",
+    "id" : "document-used-in-public-procurement",
     "version" : "1.0",
-    "filename" : "documents-used-in-public-procurement.gc",
+    "filename" : "document-used-in-public-procurement.gc",
     "description" : "This code list describes documents used in Public Procurement. A set of interrelated business information representing the business facts and associated metadata. The information may be conveyed in any language",
-    "_label" : "codelist|name|documents-used-in-public-procurement"
+    "_label" : "codelist|name|document-used-in-public-procurement"
   }, {
     "id" : "dps-usage",
     "version" : "20240207-0",
@@ -378,8 +378,8 @@
   }, {
     "id" : "exclusion-grounds-source",
     "version" : "1.12.0-SNAPSHOT",
-    "parentId" : "documents-used-in-public-procurement",
-    "filename" : "documents-used-in-public-procurement_exclusion-grounds-source.gc",
+    "parentId" : "document-used-in-public-procurement",
+    "filename" : "document-used-in-public-procurement_exclusion-grounds-source.gc",
     "description" : "Source for the exclusion grounds.",
     "_label" : "codelist|name|exclusion-grounds-source"
   }, {
@@ -1600,9 +1600,9 @@
   }, {
     "id" : "selection-criteria-source",
     "version" : "1.12.0-SNAPSHOT",
-    "parentId" : "documents-used-in-public-procurement",
-    "filename" : "documents-used-in-public-procurement_selection-criteria-source.gc",
-    "description" : "Source for the exclusion grounds.",
+    "parentId" : "document-used-in-public-procurement",
+    "filename" : "document-used-in-public-procurement_selection-criteria-source.gc",
+    "description" : "Source for the selection criteria.",
     "_label" : "codelist|name|selection-criteria-source"
   }, {
     "id" : "selection-criterion",
