@@ -1057,7 +1057,7 @@
 		<assert id="BT-761-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-761-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='selection-criteria-source']/cbc:TendererRequirementTypeCode">
-		<assert id="BR-BT-00821-0051" role="ERROR" test="normalize-space(.) = ('epo-Notice', 'epo-ProcurementDocument', 'epo-sub-ESPD')">rule|text|BR-BT-00821-0051</assert>
+		<assert id="BR-BT-00821-0051" role="ERROR" test="normalize-space(.) = ('epo-notice', 'epo-procurement-document', 'epo-sub-espd')">rule|text|BR-BT-00821-0051</assert>
 		<assert id="BT-821-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-821-Lot-List_MA</assert>
 		<assert id="BT-821-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-821-Lot_WS</assert>
 	</rule>
@@ -1127,7 +1127,7 @@
 		<assert id="BR-BT-00750-0073" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00750-0073</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:TendererRequirementTypeCode">
-		<assert id="BR-BT-00809-0101" role="ERROR" test="normalize-space(.) = ('ef-stand', 'other', 'sui-act', 'tp-abil')">rule|text|BR-BT-00809-0101</assert>
+		<assert id="BR-BT-00809-0101" role="ERROR" test="normalize-space(.) = ('slc-abil-facil-res', 'slc-abil-facil-tools', 'slc-abil-mgmt-env', 'slc-abil-mgmt-qual', 'slc-abil-mgmt-supply', 'slc-abil-qual-inst', 'slc-abil-qual-smp-w-autent', 'slc-abil-qual-smp-wo-autent', 'slc-abil-ref-services', 'slc-abil-ref-supply', 'slc-abil-ref-work', 'slc-abil-staff-qual', 'slc-abil-staff-tech-ctrl', 'slc-abil-staff-tech-work', 'slc-abil-staff-yrly-avg-mp', 'slc-abil-staff-yrly-no-mgmt', 'slc-abil-subc', 'slc-sche-env-cert-indep', 'slc-sche-qu-cert-indep', 'slc-sec-inf', 'slc-sec-proc', 'slc-sec-supply', 'slc-stand-ins', 'slc-stand-other', 'slc-stand-ratio', 'slc-stand-to-avg', 'slc-stand-to-gen', 'slc-stand-to-spec', 'slc-stand-to-spec-avg', 'slc-suit-auth-mbrshp', 'slc-suit-reg-prof', 'slc-suit-reg-trade')">rule|text|BR-BT-00809-0101</assert>
 		<assert id="BT-809-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-809-Lot-List_MA</assert>
 		<assert id="BT-809-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-809-Lot_WS</assert>
 	</rule>
@@ -1966,12 +1966,12 @@
 		<assert id="BR-BT-00067-0105" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00067-0105</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-ground']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode">
-		<assert id="BR-BT-00067-0104" role="ERROR" test="normalize-space(.) = ('bankr-nat', 'bankruptcy', 'corruption', 'cred-arran', 'crime-org', 'distorsion', 'envir-law', 'finan-laund', 'fraud', 'human-traffic', 'insolvency', 'labour-law', 'liq-admin', 'misrepresent', 'nati-ground', 'partic-confl', 'prep-confl', 'prof-misconduct', 'sanction', 'socsec-law', 'socsec-pay', 'susp-act', 'tax-pay', 'terr-offence')">rule|text|BR-BT-00067-0104</assert>
+		<assert id="BR-BT-00067-0104" role="ERROR" test="normalize-space(.) = ('exg-crim-corrpt', 'exg-crim-fraud', 'exg-crim-laund', 'exg-crim-part', 'exg-crim-terror', 'exg-crim-traffick', 'exg-mis-bre-env-law', 'exg-mis-bre-lab-law', 'exg-mis-bre-soc-law', 'exg-mis-distortion', 'exg-mis-misconduct', 'exg-mis-misrepresent', 'exg-mis-off-cond', 'exg-mis-partic-confl', 'exg-mis-prep-confl', 'exg-mis-sanction', 'exg-mis-unrel-sec', 'exg-natl-bre-nat-law', 'exg-pmt-bre-ssc', 'exg-pmt-bre-tax', 'exg-sitn-as-susp', 'exg-sitn-bankr', 'exg-sitn-cred-arran', 'exg-sitn-insolvency', 'exg-sitn-liq-admin', 'exg-sitn-other')">rule|text|BR-BT-00067-0104</assert>
 		<assert id="BT-67_a_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-67_a_-Procedure-List_MA</assert>
 		<assert id="BT-67_a_-Procedure_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-67_a_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-grounds-source']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode">
-		<assert id="BR-BT-00806-0051" role="ERROR" test="normalize-space(.) = ('epo-Notice', 'epo-ProcurementDocument', 'epo-sub-ESPD')">rule|text|BR-BT-00806-0051</assert>
+		<assert id="BR-BT-00806-0051" role="ERROR" test="normalize-space(.) = ('epo-notice', 'epo-procurement-document', 'epo-sub-espd')">rule|text|BR-BT-00806-0051</assert>
 		<assert id="BT-806-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-806-Procedure-List_MA</assert>
 		<assert id="BT-806-Procedure_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-806-Procedure_WS</assert>
 	</rule>
@@ -2949,7 +2949,7 @@
 		<assert id="OPT-310-Tender_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-310-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:ForeignSubsidiesMeasuresCode">
-		<assert id="BR-BT-00682-0101" role="ERROR" test="normalize-space(.) = ('adm-clos', 'commit', 'meat', 'no-inves', 'no-obj', 'proh')">rule|text|BR-BT-00682-0101</assert>
+		<assert id="BR-BT-00682-0101" role="ERROR" test="normalize-space(.) = ('fsr-adm-clos', 'fsr-commit', 'fsr-irregul', 'fsr-meat', 'fsr-no-obj', 'fsr-proh', 'fsr-stand')">rule|text|BR-BT-00682-0101</assert>
 		<assert id="BT-682-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-682-Tender-List_MA</assert>
 		<assert id="BT-682-Tender_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-682-Tender_WS</assert>
 	</rule>
