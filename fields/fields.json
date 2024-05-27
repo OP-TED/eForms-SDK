@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.239",
-    "createdOn" : "2024-05-21T16:02:09"
+    "version" : "1.11.257",
+    "createdOn" : "2024-05-27T15:56:31"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -28348,7 +28348,7 @@
     },
     "codeList" : {
       "value" : {
-        "id" : "foreign-subsidies-measure-conclusion",
+        "id" : "foreign-subsidy-measure-conclusion",
         "type" : "flat"
       },
       "severity" : "ERROR"
@@ -28364,7 +28364,7 @@
     "type" : "text",
     "attributeName" : "listName",
     "attributeOf" : "BT-682-Tender",
-    "presetValue" : "foreign-subsidies-measure-conclusion",
+    "presetValue" : "foreign-subsidy-measure-conclusion",
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
@@ -34029,7 +34029,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI" ],
-        "condition" : "{ND-LotTenderingTerms} ${not(BT-821-Lot == 'epo-Notice')}",
+        "condition" : "{ND-LotTenderingTerms} ${not(BT-821-Lot == 'epo-notice')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
