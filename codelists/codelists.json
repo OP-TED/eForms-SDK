@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.239",
-    "createdOn" : "2024-05-21T16:02:09"
+    "version" : "1.11.257",
+    "createdOn" : "2024-05-27T15:56:31"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -383,11 +383,11 @@
     "description" : "Source for the exclusion grounds.",
     "_label" : "codelist|name|exclusion-grounds-source"
   }, {
-    "id" : "foreign-subsidies-measure-conclusion",
+    "id" : "foreign-subsidy-measure-conclusion",
     "version" : "1.0",
-    "filename" : "foreign-subsidies-measure-conclusion.gc",
+    "filename" : "foreign-subsidy-measure-conclusion.gc",
     "description" : "The FSR introduces a new set of rules that enables the Commission to address distortions caused by foreign subsidies.",
-    "_label" : "codelist|name|foreign-subsidies-measure-conclusion"
+    "_label" : "codelist|name|foreign-subsidy-measure-conclusion"
   }, {
     "id" : "form-type",
     "version" : "20240207-0",

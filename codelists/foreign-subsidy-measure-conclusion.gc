@@ -2,8 +2,8 @@
 <!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>ForeignSubsidiesMeasureConclusion</ShortName>
-      <LongName>foreign-subsidies-measure-conclusion</LongName>
+      <ShortName>ForeignSubsidyMeasureConclusion</ShortName>
+      <LongName>foreign-subsidy-measure-conclusion</LongName>
       <Version>1.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
@@ -121,7 +121,7 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>adm-clos</SimpleValue>
+            <SimpleValue>fsr-adm-clos</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Notification submitted, administrative closure of FSR preliminary review procedure</SimpleValue>
@@ -132,7 +132,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>commit</SimpleValue>
+            <SimpleValue>fsr-commit</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Notification submitted, decision with commitments</SimpleValue>
@@ -143,7 +143,18 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>meat</SimpleValue>
+            <SimpleValue>fsr-irregul</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Notification submitted, decision on irregular tender or request to participate</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Notification submitted, decision on irregular tender or request to participate</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>fsr-meat</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Declaration submitted, standard MEAT award</SimpleValue>
@@ -154,18 +165,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>no-inves</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Declaration submitted, no investigation, standard award procedure</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Declaration submitted, no investigation, standard award procedure</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>no-obj</SimpleValue>
+            <SimpleValue>fsr-no-obj</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Notification submitted, decision with no objection</SimpleValue>
@@ -176,13 +176,24 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>proh</SimpleValue>
+            <SimpleValue>fsr-proh</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Notification submitted, decision prohibiting the award</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Notification submitted, decision prohibiting the award</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>fsr-stand</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Declaration submitted, standard award procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Declaration submitted, standard award procedure</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>
