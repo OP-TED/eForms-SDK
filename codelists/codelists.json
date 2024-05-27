@@ -1269,7 +1269,7 @@
     "version" : "1.12.0-SNAPSHOT",
     "parentId" : "country",
     "filename" : "country_postcode-country.gc",
-    "description" : "List of country codes for countries having postcodes and requiring their use",
+    "description" : "List of country codes for countries having postcodes and requiring their use (source: UPU https://www.upu.int/UPU/media/upu/documents/PostCode/General-Addressing-Issues.pdf )",
     "_label" : "codelist|name|postcode-country"
   }, {
     "id" : "procedure-type-10",
