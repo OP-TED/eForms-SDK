@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.257",
-    "createdOn" : "2024-05-27T15:56:31"
+    "version" : "1.11.262",
+    "createdOn" : "2024-05-28T13:35:28"
   },
   "noticeId" : "12",
   "metadata" : [ {
@@ -135,6 +135,7 @@
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
       "_label" : "group|name|ND-ContractingParty",
+      "businessEntityId" : "buyer",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ContractingAuthority-Buyer",
@@ -632,6 +633,7 @@
     "_label" : "group|name|ND-Lot",
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
+    "businessEntityId" : "lot",
     "_identifierFieldId" : "BT-137-Lot",
     "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
@@ -2171,6 +2173,7 @@
     "_label" : "group|name|ND-LotsGroup",
     "_idScheme" : "GLO",
     "_schemeName" : "LotsGroup",
+    "businessEntityId" : "groupOfLots",
     "_identifierFieldId" : "BT-137-LotsGroup",
     "_captionFieldId" : "BT-21-LotsGroup",
     "_repeatable" : true,
@@ -2475,6 +2478,7 @@
       "_label" : "group|name|ND-Organization",
       "_idScheme" : "ORG",
       "_schemeName" : "organization",
+      "businessEntityId" : "organization",
       "_identifierFieldId" : "OPT-200-Organization-Company",
       "_captionFieldId" : "BT-500-Organization-Company",
       "_repeatable" : true,
@@ -2647,6 +2651,7 @@
         "_label" : "group|name|ND-Touchpoint",
         "_idScheme" : "TPO",
         "_schemeName" : "touchpoint",
+        "businessEntityId" : "touchpoint",
         "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
         "_captionFieldId" : "BT-500-Organization-TouchPoint",
         "_repeatable" : true,
