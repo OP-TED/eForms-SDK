@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.257",
-    "createdOn" : "2024-05-27T15:56:31"
+    "version" : "1.11.260",
+    "createdOn" : "2024-05-28T11:18:58"
   },
   "xmlStructure" : [ {
     "id" : "ND-Root",
@@ -2306,17 +2306,9 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${((BT-01-notice == '32014L0023') and (BT-02-notice in ('pin-cfc-social','cn-standard','veat','can-standard','can-social','can-modif'))) or not(BT-01-notice == '32014L0023')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00002-0100"
-      }, {
         "value" : "{ND-Root} ${((OPP-070-notice in ('14','19','28','32','35','40') or (OPP-070-notice == 'E5' and BT-01-notice == '32014L0023')) and not(BT-531-Procedure == 'supplies') and not(BT-531-Lot == 'supplies') and not(BT-531-Part == 'supplies')) or not(OPP-070-notice in ('14','19','28','32','35','40') or (OPP-070-notice == 'E5' and BT-01-notice == '32014L0023'))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00002-0101"
-      }, {
-        "value" : "{ND-Root} ${((OPP-070-notice in ('1','4','7','10','12','16','20','23','25','29','33','36','38') or (OPP-070-notice == 'E5' and BT-01-notice == '32014L0024')) and not(BT-02-notice == 'subco')) or not(OPP-070-notice in ('1','4','7','10','12','16','20','23','25','29','33','36','38') or (OPP-070-notice == 'E5' and BT-01-notice == '32014L0024'))}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00002-0102"
       }, {
         "value" : "{ND-Root} ${((BT-03-notice == 'bri') and (BT-02-notice in (bri))) or not(BT-03-notice == 'bri')}",
         "severity" : "ERROR",
@@ -2734,17 +2726,17 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('16','29','E5')) and (BT-105-Procedure is present) and (BT-01-notice == '32014L0024')}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('16','29','E5')) and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('open', 'restricted', 'neg-w-call')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00105-0110"
       }, {
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('18','31','E5')) and (BT-105-Procedure is present) and (BT-01-notice == '32009L0081')}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('18','31','E5')) and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('restricted', 'neg-w-call')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00105-0111"
       }, {
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('17','30','E5')) and (BT-105-Procedure is present) and (BT-01-notice == '32014L0025')}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('17','30','E5')) and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('open', 'restricted', 'neg-w-call','comp-dial')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00105-0112"
@@ -35253,7 +35245,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "4", "5", "7", "8", "10", "13", "16", "17", "21", "23", "24", "25", "26", "29", "30", "34", "37" ],
-        "condition" : "{ND-Organization} ${(OPT-200-Organization-Company in OPT-300-Procedure-Buyer) and (BT-766-Lot == 'dps-nlist') and (BT-01-notice != 'other') and (OPP-052-Organization is not present)}",
+        "condition" : "{ND-Organization} ${(OPT-200-Organization-Company in OPT-300-Procedure-Buyer) and (BT-766-Lot == 'dps-nlist')  and (OPP-052-Organization is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
