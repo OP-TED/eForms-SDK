@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.228",
-    "createdOn" : "2024-05-16T10:28:56"
+    "version" : "1.11.257",
+    "createdOn" : "2024-05-27T15:56:31"
   },
   "noticeId" : "23",
   "metadata" : [ {
@@ -467,13 +467,13 @@
           "id" : "BT-67(a)-Procedure",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
-          "description" : "Exclusion Grounds",
+          "description" : "Exclusion Ground",
           "_label" : "field|name|BT-67(a)-Procedure"
         }, {
           "id" : "BT-67(b)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
-          "description" : "Exclusion Grounds",
+          "description" : "Exclusion Ground Description",
           "_label" : "field|name|BT-67(b)-Procedure"
         } ]
       }, {
