@@ -917,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Beskrivelse af, hvordan tilbud, ansøgninger om deltagelse eller interessetilkendegivelser indgives ikke-elektronisk.</entry>
 <entry key="field|description|BT-745-Lot-Language">Beskrivelse af, hvordan tilbud, ansøgninger om deltagelse eller interessetilkendegivelser indgives ikke-elektronisk.</entry>
 <entry key="field|description|BT-746-Organization">Nationaliteten (eller nationaliteterne) for den/de begunstigede ejer(e) af vinderen, tilbudsgiveren eller underentreprenøren er ikke offentliggjort i det register/de registre, der er indført ved direktiv 2018/843, fordi vinderen er noteret på et reguleret marked (f.eks. en børs), som sikrer tilstrækkelig gennemsigtighed i overensstemmelse med lovgivningen om bekæmpelse af hvidvaskning af penge.</entry>
-<entry key="field|description|BT-747-Lot">Kriterierne (eller kriteriet) vedrører f.eks. økonomisk og finansiel formåen eller teknisk og faglig formåen.</entry>
-<entry key="field|description|BT-747-Lot-List">Kriterierne (eller kriteriet) vedrører f.eks. økonomisk og finansiel formåen eller teknisk og faglig formåen.</entry>
-<entry key="field|description|BT-748-Lot">De kriterier (eller det kriterium) af en given type, der er anvendt eller ikke anvendt, eller (hvor en forhåndsmeddelelse er anvendt som indkaldelse af tilbud eller for at afkorte frister) hvis anvendelsen heraf endnu ikke er kendt.</entry>
-<entry key="field|description|BT-748-Lot-List">De kriterier (eller det kriterium) af en given type, der er anvendt eller ikke anvendt, eller (hvor en forhåndsmeddelelse er anvendt som indkaldelse af tilbud eller for at afkorte frister) hvis anvendelsen heraf endnu ikke er kendt.</entry>
-<entry key="field|description|BT-749-Lot">Navnet på udvælgelseskriterierne (eller -kriteriet).</entry>
-<entry key="field|description|BT-749-Lot-Language">Navnet på udvælgelseskriterierne (eller -kriteriet).</entry>
 <entry key="field|description|BT-75-Lot">Beskrivelsen af den finansielle garanti, som tilbudsgiveren skal stille, når denne indgiver et tilbud. Garantien kan stilles i form af f.eks. en betaling til køberen eller et bankdokument. Typisk fortabes garantien, hvis en tilbudsgiver har vundet kontrakten, men sidenhen afviser at underskrive den.</entry>
 <entry key="field|description|BT-75-Lot-Language">Beskrivelsen af den finansielle garanti, som tilbudsgiveren skal stille, når denne indgiver et tilbud. Garantien kan stilles i form af f.eks. en betaling til køberen eller et bankdokument. Typisk fortabes garantien, hvis en tilbudsgiver har vundet kontrakten, men sidenhen afviser at underskrive den.</entry>
 <entry key="field|description|BT-750-Lot">En kort beskrivelse af udvælgelseskriterierne (eller kriteriet), herunder mindstekrav, krævede oplysninger (f.eks. egenerklæringer, dokumentation) og af, hvordan kriterierne eller kriteriet vil blive anvendt for at udvælge de ansøgere, der skal opfordres til at deltage i anden fase af proceduren (hvis det højeste antal ansøgere er fastsat).</entry>
@@ -2145,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Beskrivelse</entry>
 <entry key="field|name|BT-745-Lot-Language">Beskrivelse</entry>
 <entry key="field|name|BT-746-Organization">Vinderen er noteret på et reguleret marked</entry>
-<entry key="field|name|BT-747-Lot">Type</entry>
-<entry key="field|name|BT-747-Lot-List">Type</entry>
-<entry key="field|name|BT-748-Lot">Anvendelse af dette kriterium</entry>
-<entry key="field|name|BT-748-Lot-List">Anvendelse af dette kriterium</entry>
-<entry key="field|name|BT-749-Lot">Navn</entry>
-<entry key="field|name|BT-749-Lot-Language">Navn</entry>
 <entry key="field|name|BT-75-Lot">Beskrivelse af den finansielle garanti</entry>
 <entry key="field|name|BT-75-Lot-Language">Beskrivelse af den finansielle garanti</entry>
 <entry key="field|name|BT-750-Lot">Beskrivelse</entry>

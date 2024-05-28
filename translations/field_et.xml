@@ -917,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Mitteelektrooniliselt esitatavate pakkumuste, osalemistaotluste või osalemishuvi teadete esitamise viisi kirjeldus.</entry>
 <entry key="field|description|BT-745-Lot-Language">Mitteelektrooniliselt esitatavate pakkumuste, osalemistaotluste või osalemishuvi teadete esitamise viisi kirjeldus.</entry>
 <entry key="field|description|BT-746-Organization">Eduka pakkuja, hankija või alltöövõtja tegeliku kasusaaja (või tegelike kasusaajate) elu- või asukohariiki (või -riike) ei avaldata direktiivi (EL) 2018/843 alusel loodud registri(te)s, sest edukas pakkuja on noteeritud reguleeritud turul (nt börs), mis tagab piisava läbipaistvuse kooskõlas rahapesuvastaste õigusaktidega.</entry>
-<entry key="field|description|BT-747-Lot">Tingimused (või tingimus), näiteks majanduslik ja finantsseisund või tehniline ja kutsealane suutlikkus.</entry>
-<entry key="field|description|BT-747-Lot-List">Tingimused (või tingimus), näiteks majanduslik ja finantsseisund või tehniline ja kutsealane suutlikkus.</entry>
-<entry key="field|description|BT-748-Lot">Asjaomaseid tingimusi (või asjaomast tingimust) kasutatakse, ei kasutata või (juhul kui eelteadet kasutatakse hanke väljakuulutamiseks või tähtaegade lühendamiseks) nende (selle) kasutamine pole veel teada.</entry>
-<entry key="field|description|BT-748-Lot-List">Asjaomaseid tingimusi (või asjaomast tingimust) kasutatakse, ei kasutata või (juhul kui eelteadet kasutatakse hanke väljakuulutamiseks või tähtaegade lühendamiseks) nende (selle) kasutamine pole veel teada.</entry>
-<entry key="field|description|BT-749-Lot">Kvalifitseerimistingimuste (või -tingimuse) nimetus.</entry>
-<entry key="field|description|BT-749-Lot-Language">Kvalifitseerimistingimuste (või -tingimuse) nimetus.</entry>
 <entry key="field|description|BT-75-Lot">Pakkumuse esitamisel pakkujalt nõutava finantstagatise kirjeldus. Tagatis võib kujutada endast näiteks rahasumma tasumist hankijale või dokumenti pangalt. Tavaliselt jäädakse tagatisest ilma, kui pakkuja on saanud lepingu, kuid seejärel keeldub seda allkirjastamast.</entry>
 <entry key="field|description|BT-75-Lot-Language">Pakkumuse esitamisel pakkujalt nõutava finantstagatise kirjeldus. Tagatis võib kujutada endast näiteks rahasumma tasumist hankijale või dokumenti pangalt. Tavaliselt jäädakse tagatisest ilma, kui pakkuja on saanud lepingu, kuid seejärel keeldub seda allkirjastamast.</entry>
 <entry key="field|description|BT-750-Lot">Kvalifitseerimistingimuste (või -tingimuse) lühikirjeldus, sh miinimumnõuded, nõutav teave (nt ettevõtja enda kinnitus, dokumendid) ja see, kuidas kasutatakse tingimusi või tingimust, et valida taotlejad, kes kutsutakse osalema menetluse teise etappi (kui on kehtestatud maksimaalne taotlejate arv).</entry>
@@ -2145,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Kirjeldus</entry>
 <entry key="field|name|BT-745-Lot-Language">Kirjeldus</entry>
 <entry key="field|name|BT-746-Organization">Pakkuja on noteeritud reguleeritud turul</entry>
-<entry key="field|name|BT-747-Lot">Liik</entry>
-<entry key="field|name|BT-747-Lot-List">Liik</entry>
-<entry key="field|name|BT-748-Lot">Selle kriteeriumi kasutamine</entry>
-<entry key="field|name|BT-748-Lot-List">Selle kriteeriumi kasutamine</entry>
-<entry key="field|name|BT-749-Lot">Nimi</entry>
-<entry key="field|name|BT-749-Lot-Language">Nimi</entry>
 <entry key="field|name|BT-75-Lot">Finantstagatise kirjeldus</entry>
 <entry key="field|name|BT-75-Lot-Language">Finantstagatise kirjeldus</entry>
 <entry key="field|name|BT-750-Lot">Kirjeldus</entry>

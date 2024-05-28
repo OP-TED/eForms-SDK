@@ -917,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Kuvaus siitä, miten tarjoukset, osallistumishakemukset tai kiinnostuksenilmaisut jätetään muuten kuin sähköisesti.</entry>
 <entry key="field|description|BT-745-Lot-Language">Kuvaus siitä, miten tarjoukset, osallistumishakemukset tai kiinnostuksenilmaisut jätetään muuten kuin sähköisesti.</entry>
 <entry key="field|description|BT-746-Organization">Voittajan, tarjoajan tai alihankkijan taloudellisen omistajan kansalaisuutta (kansalaisuuksia) ei ole julkaistu direktiivin (EU) 2018/843 nojalla laaditu(i)ssa rekister(e)issä, koska voittaja on noteerattu säännellyillä markkinoilla (esim. arvopaperipörssissä), mikä varmistaa riittävän avoimuuden rahanpesun torjuntaa koskevan lainsäädännön mukaisesti.</entry>
-<entry key="field|description|BT-747-Lot">Perusteet (tai peruste) koskevat esimerkiksi taloudellista ja rahoituksellista tilannetta tai teknistä ja ammatillista pätevyyttä.</entry>
-<entry key="field|description|BT-747-Lot-List">Perusteet (tai peruste) koskevat esimerkiksi taloudellista ja rahoituksellista tilannetta tai teknistä ja ammatillista pätevyyttä.</entry>
-<entry key="field|description|BT-748-Lot">Tietyn tyyppisiä perusteita (tai perustetta) käytetään, ei käytetä tai (jos kyseessä on ennakkoilmoitus kutsuna tarjouskilpailuun tai määräaikojen lyhentämiseksi) käyttö ei ole vielä tiedossa.</entry>
-<entry key="field|description|BT-748-Lot-List">Tietyn tyyppisiä perusteita (tai perustetta) käytetään, ei käytetä tai (jos kyseessä on ennakkoilmoitus kutsuna tarjouskilpailuun tai määräaikojen lyhentämiseksi) käyttö ei ole vielä tiedossa.</entry>
-<entry key="field|description|BT-749-Lot">Valintaperusteiden (tai -perusteen) nimi.</entry>
-<entry key="field|description|BT-749-Lot-Language">Valintaperusteiden (tai -perusteen) nimi.</entry>
 <entry key="field|description|BT-75-Lot">Tarjoajalta tarjouksen jättämisen yhteydessä vaadittavan rahallisen vakuuden kuvaus. Vakuus voi olla esimerkiksi ostajalle suoritettava maksu tai pankin antama asiakirja. Yleensä vakuus menetetään, jos tarjoaja on voittanut sopimuksen mutta kieltäytyy allekirjoittamasta sitä.</entry>
 <entry key="field|description|BT-75-Lot-Language">Tarjoajalta tarjouksen jättämisen yhteydessä vaadittavan rahallisen vakuuden kuvaus. Vakuus voi olla esimerkiksi ostajalle suoritettava maksu tai pankin antama asiakirja. Yleensä vakuus menetetään, jos tarjoaja on voittanut sopimuksen mutta kieltäytyy allekirjoittamasta sitä.</entry>
 <entry key="field|description|BT-750-Lot">Lyhyt kuvaus valintaperusteista (tai -perusteesta), mukaan lukien vähimmäisvaatimukset, vaaditut tiedot (esim. oma ilmoitus, dokumentaatio) ja siitä, miten perusteita (tai perustetta) käytetään valittaessa menettelyn jälkimmäiseen vaiheeseen kutsuttavia ehdokkaita (jos ehdokkaille on asetettu enimmäismäärä).</entry>
@@ -2145,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Kuvaus</entry>
 <entry key="field|name|BT-745-Lot-Language">Kuvaus</entry>
 <entry key="field|name|BT-746-Organization">Voittaja on noteerattu säännellyillä markkinoilla</entry>
-<entry key="field|name|BT-747-Lot">Tyyppi</entry>
-<entry key="field|name|BT-747-Lot-List">Tyyppi</entry>
-<entry key="field|name|BT-748-Lot">Tämän perusteen käyttö</entry>
-<entry key="field|name|BT-748-Lot-List">Tämän perusteen käyttö</entry>
-<entry key="field|name|BT-749-Lot">Nimi</entry>
-<entry key="field|name|BT-749-Lot-Language">Nimi</entry>
 <entry key="field|name|BT-75-Lot">Vakuuden kuvaus</entry>
 <entry key="field|name|BT-75-Lot-Language">Vakuuden kuvaus</entry>
 <entry key="field|name|BT-750-Lot">Kuvaus</entry>
