@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">An t‑aitheantóir inmheánach a úsáidtear le haghaidh comhaid a bhaineann leis an nós imeachta soláthair nó leis an mbeart sula dtugtar aitheantóir nós imeachta (e.g. ceann a thagann ó chóras bainistithe doiciméad nó ó chóras pleanála soláthair an cheannaitheora).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">An t‑aitheantóir inmheánach a úsáidtear le haghaidh comhaid a bhaineann leis an nós imeachta soláthair nó leis an mbeart sula dtugtar aitheantóir nós imeachta (e.g. ceann a thagann ó chóras bainistithe doiciméad nó ó chóras pleanála soláthair an cheannaitheora).</entry>
 <entry key="field|description|BT-23-Lot">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
+<entry key="field|description|BT-23-Lot-List">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
 <entry key="field|description|BT-23-Part">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
 <entry key="field|description|BT-23-Part-List">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
 <entry key="field|description|BT-23-Procedure">An príomhchineál (e.g. oibreacha) a bhfuiltear á cheannach. I gcás soláthar measctha (e.g. soláthar le haghaidh oibreacha agus seirbhísí araon), d'fhéadfadh sé gurb é an príomhchineál an ceann lena a bhfuil an luach measta is airde, mar shampla. Tabharfar an fhaisnéis sin le haghaidh an nós imeachta ina iomláine.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">An tuairisc ar an gcaoi le tairiscintí, iarratais ar rannpháirtíocht nó léirithe spéise a chur isteach go neamhleictreonach.</entry>
 <entry key="field|description|BT-745-Lot-Language">An tuairisc ar an gcaoi le tairiscintí, iarratais ar rannpháirtíocht nó léirithe spéise a chur isteach go neamhleictreonach.</entry>
 <entry key="field|description|BT-746-Organization">Maidir le húinéir (nó úinéirí) is tairbhí an bhuaiteora, an tairgeora nó an fhochonraitheora, níl a náisiúntacht (nó náisiúntachtaí) foilsithe sa chlár nó sna cláir a bhunaítear le Treoir (AE) 2018/843, toisc go bhfuil an buaiteoir liostaithe ar mhargadh rialáilte (e.g. stocmhalartán) lena áirithítear gurb ann do dhóthain trédhearcachta i gcomhréir leis an reachtaíocht i gcoinne sciúradh airgid.</entry>
-<entry key="field|description|BT-747-Lot">Baineann na critéir (nó an critéar) le seasamh eacnamaíoch agus airgeadais nó cumas teicniúil agus gairmiúil, mar shampla.</entry>
-<entry key="field|description|BT-747-Lot-List">Baineann na critéir (nó an critéar) le seasamh eacnamaíoch agus airgeadais nó cumas teicniúil agus gairmiúil, mar shampla.</entry>
-<entry key="field|description|BT-748-Lot">Tá na critéir (nó an critéar) den chineál i gceist ina gcritéir (ina chritéar) a úsáideadh, nár úsáideadh, nó (i gcás fógra réamhfhaisnéise a úsáideadh mar ghlao ar iomaíocht nó chun teorainneacha ama a laghdú) ní fios go fóill.</entry>
-<entry key="field|description|BT-748-Lot-List">Tá na critéir (nó an critéar) den chineál i gceist ina gcritéir (ina chritéar) a úsáideadh, nár úsáideadh, nó (i gcás fógra réamhfhaisnéise a úsáideadh mar ghlao ar iomaíocht nó chun teorainneacha ama a laghdú) ní fios go fóill.</entry>
-<entry key="field|description|BT-749-Lot">Ainm na gcritéar (nó an chritéir) roghnúcháin.</entry>
-<entry key="field|description|BT-749-Lot-Language">Ainm na gcritéar (nó an chritéir) roghnúcháin.</entry>
 <entry key="field|description|BT-75-Lot">An tuairisc ar an ráthaíocht airgeadais a bhfuil ceangal ar an tairgeoir é a thabhairt nuair a chuirtear tairiscint isteach. Is féidir an ráthaíocht a bheith i bhfoirm íocaíocht le ceannaitheoir nó i bhfoirm doiciméad ó bhanc, mar shampla. De ghnáth, chaillfí an ráthaíocht dá mbeadh an conradh buaite ag tairgeoir agus go ndiúltódh sé é a shíniú.</entry>
 <entry key="field|description|BT-75-Lot-Language">An tuairisc ar an ráthaíocht airgeadais a bhfuil ceangal ar an tairgeoir é a thabhairt nuair a chuirtear tairiscint isteach. Is féidir an ráthaíocht a bheith i bhfoirm íocaíocht le ceannaitheoir nó i bhfoirm doiciméad ó bhanc, mar shampla. De ghnáth, chaillfí an ráthaíocht dá mbeadh an conradh buaite ag tairgeoir agus go ndiúltódh sé é a shíniú.</entry>
 <entry key="field|description|BT-750-Lot">An tuairisc achomair ar na critéir (nó ar an gcritéar) roghnúcháin, lena n‑áirítear riachtanais íosta, faisnéis a éilítear (e.g. féindearbhú, doiciméadacht) agus an chaoi a n‑úsáidfear na critéir nó an critéar chun iarrthóirí a roghnú le cuireadh a thabhairt dóibh chuig an dara céim den nós imeachta (má socraíodh uaslíon iarrthóirí).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Aitheantóir inmheánach</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Aitheantóir inmheánach</entry>
 <entry key="field|name|BT-23-Lot">Cineál an chonartha</entry>
+<entry key="field|name|BT-23-Lot-List">Cineál an chonartha</entry>
 <entry key="field|name|BT-23-Part">Cineál an chonartha</entry>
 <entry key="field|name|BT-23-Part-List">Cineál an chonartha</entry>
 <entry key="field|name|BT-23-Procedure">Cineál an chonartha</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Ainm</entry>
 <entry key="field|name|BT-632-Part">Ainm</entry>
 <entry key="field|name|BT-633-Organization">Is duine nádúrtha í an eagraíocht</entry>
-<entry key="field|name|BT-634-Lot">Athsheolfar an nós imeachta nó an luchtóg sin a cuireadh ar ceal nó a theip air</entry>
-<entry key="field|name|BT-634-Procedure">Athsheolfar an nós imeachta nó an luchtóg sin a cuireadh ar ceal nó a theip air</entry>
+<entry key="field|name|BT-634-Lot">Má chuirtear an lot ar ceal nó má theipeann air, seolfar é arís</entry>
+<entry key="field|name|BT-634-Procedure">Má chuirtear ar ceal é nó má theipeann air, seolfar an nós imeachta arís</entry>
 <entry key="field|name|BT-635-LotResult">Líon na n-iarratas ar athbhreithniú ceannaitheora</entry>
 <entry key="field|name|BT-636-LotResult">Cineál na neamhrialtachta líomhnaithe</entry>
 <entry key="field|name|BT-636-LotResult-List">Cineál na neamhrialtachta líomhnaithe</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Tagann an soláthar faoi raon feidhme Threoir 2009/33/CE ó Pharlaimint na hEorpa agus ón gComhairle (Treoir maidir le Feithiclí Glana – CVD)</entry>
 <entry key="field|name|BT-718-notice">Athraíodh na doiciméid soláthair an</entry>
 <entry key="field|name|BT-719-notice">Dáta na ndoiciméad soláthair a athrú</entry>
-<entry key="field|name|BT-720-Tender">Luach an toraidh</entry>
-<entry key="field|name|BT-720-Tender-Currency">Luach an toraidh</entry>
+<entry key="field|name|BT-720-Tender">Luach an tairisceana</entry>
+<entry key="field|name|BT-720-Tender-Currency">Luach an tairisceana</entry>
 <entry key="field|name|BT-721-Contract">Teideal</entry>
 <entry key="field|name|BT-721-Contract-Language">Teideal</entry>
 <entry key="field|name|BT-722-Contract">Ainm an tionscadail nó an chláir a fuair maoiniú ón Aontas</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Cur síos</entry>
 <entry key="field|name|BT-745-Lot-Language">Cur síos</entry>
 <entry key="field|name|BT-746-Organization">Tá an buaiteoir liostaithe ar mhargadh rialáilte</entry>
-<entry key="field|name|BT-747-Lot">Cineál</entry>
-<entry key="field|name|BT-747-Lot-List">Cineál</entry>
-<entry key="field|name|BT-748-Lot">Úsáid an chritéir seo</entry>
-<entry key="field|name|BT-748-Lot-List">Úsáid an chritéir seo</entry>
-<entry key="field|name|BT-749-Lot">Ainm</entry>
-<entry key="field|name|BT-749-Lot-Language">Ainm</entry>
 <entry key="field|name|BT-75-Lot">Cur síos ar an ráthaíocht airgeadais</entry>
 <entry key="field|name|BT-75-Lot-Language">Cur síos ar an ráthaíocht airgeadais</entry>
 <entry key="field|name|BT-750-Lot">Cur síos</entry>

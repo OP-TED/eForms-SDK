@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Swedish. File generated from metadata database.</comment>
 <entry key="expression|name|1">Värdet för 'Köparen är en upphandlande enhet' (BT-740) är 'Nej'</entry>
-<entry key="expression|name|100">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot) fylls i, 'Sifferangivelsen är en typ av viktning' (BT-5421-Lot) och 'Sifferangivelsen är en typ av tröskel' (BT-5423-Lot) fylls inte i</entry>
-<entry key="expression|name|101">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot) fylls i, 'Sifferangivelsen är en typ av viktning' (BT-5421-Lot) och 'Sifferangivelsen är en typ av tröskel' (BT-5422-Lot) fylls inte i</entry>
-<entry key="expression|name|102">'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup) fylls i, 'Sifferangivelsen är en typ av viktning' (BT-5421-LotsGroup) och 'Sifferangivelsen är en typ av tröskel' (BT-5423-LotsGroup) fylls inte i</entry>
-<entry key="expression|name|103">'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup) fylls i, 'Sifferangivelsen är en typ av viktning' (BT-5421-LotsGroup) och 'Sifferangivelsen är en typ av tröskel' (BT-5422-LotsGroup) fylls inte i</entry>
 <entry key="expression|name|104">'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-Lots) fylls inte i</entry>
 <entry key="expression|name|105">'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-LotsGroup) fylls inte i</entry>
 <entry key="expression|name|106">'Varaktighet' (BT-36-Lot) eller 'Slutdatum för varaktighet' (BT-537-Lot) fylls i</entry>
 <entry key="expression|name|107">'Varaktighet' (BT-36-Lot) eller 'Varaktighet – annat' (BT-538-Lot) fylls i</entry>
 <entry key="expression|name|108">'Slutdatum för varaktighet' (BT-537-Lot) eller 'Varaktighet – annat' (BT-538-Lot) fylls i</entry>
-<entry key="expression|name|109">'Typ av förfarande' (BT-105) är inte 'Direkttilldelning'</entry>
 <entry key="expression|name|11">'Startdatum' (BT-536-Part) fylls inte i</entry>
 <entry key="expression|name|110">'Typ av förfarande' (BT-105) är 'Öppet'; 'Typ av förfarande' (BT-105) är 'Annat förfarande i ett steg' och 'Tidsfrist för mottagande av anbudsansökningar' (BT-1311) fylls inte i; 'Typ av förfarande' (BT-105) måste vara 'Annat förfarande i flera steg' och 'Tidsfrist för mottagande av anbudsansökningar' (BT-1311) fylls inte i</entry>
 <entry key="expression|name|111">'Typ av förfarande' (BT-105) är 'Annat förfarande i ett steg' och 'Tidsfrist för mottagande av anbud' (BT-131) fylls inte i; 'Typ av förfarande' (BT-105) är 'Annat förfarande i flera steg' och 'Tidsfrist för mottagande av anbudsansökningar' (BT-131) fylls inte i</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Tidsfrist för mottagande av anbud' (BT-131(d)-Lot) fylls i</entry>
 <entry key="expression|name|115">'Tidsfrist för mottagande av anbudsansökningar' (BT-1311(d)-Lot) fylls i</entry>
 <entry key="expression|name|116">'Typ av förfarande' (BT-105) är 'Öppet' eller 'Annat förfarande i ett steg' eller 'Förhandlat förfarande utan föregående meddelande om upphandling'</entry>
-<entry key="expression|name|117">'Typ' (BT-747-Lot) fylls inte i</entry>
 <entry key="expression|name|118">'Postadress' (BT-5101(a)-Lot) fylls inte i</entry>
 <entry key="expression|name|119">'Postadress' (BT-5101(a)-Part) fylls inte i</entry>
 <entry key="expression|name|12">'Köparens rättsliga status' (BT-11) är ett av följande: 'Offentligrättsligt organ'; 'Offentligrättsligt organ som kontrolleras av en statlig myndighet'; 'Offentligrättsligt organ som kontrolleras av en lokal myndighet'; 'Offentligrättsligt organ som kontrolleras av en regional myndighet'; 'Statlig myndighet'; 'Uppdragstagare på försvarsområdet'; 'EU-institution, organ eller byrå'; 'EU-institution/organ eller internationell organisation'; 'Internationell organisation'; 'Lokal myndighet'; 'Organisation som tilldelar ett kontrakt som subventioneras av en statlig myndighet'; 'Organisation som tilldelar ett kontrakt som subventioneras av en lokal myndighet'; 'Organisation som tilldelar ett kontrakt som subventioneras av en regional myndighet'; 'Offentligt företag'; 'Offentligt företag som kontrolleras av en statlig myndighet'; 'Offentligt företag som kontrolleras av en lokal myndighet'; 'Offentligt företag som kontrolleras av en regional myndighet'; 'Regional myndighet'; 'Regional eller lokal myndighet'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Åtkomsten till vissa upphandlingsdokument är begränsad' (BT-14-Part) begränsas ej</entry>
 <entry key="expression|name|150">'Beskrivning' (BT-540-Lot) fylls inte i</entry>
 <entry key="expression|name|151">'Beskrivning' (BT-540-LotsGroup) fylls inte i</entry>
-<entry key="expression|name|152">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är ett fast värde' (BT-5422) fylls i 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i</entry>
-<entry key="expression|name|153">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är ett fast värde' (BT-5422) fylls i 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i</entry>
-<entry key="expression|name|154">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är en typ av viktning' (BT-5421) fylls i eller 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i eller 'Typ' (BT-539) är 'Kvalitet'</entry>
-<entry key="expression|name|155">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är en typ av viktning' (BT-5421) fylls i eller 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i eller 'Typ' (BT-539) är 'Kvalitet'</entry>
-<entry key="expression|name|156">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är ett fast värde' (BT-5422) fylls i eller 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i</entry>
-<entry key="expression|name|157">'Sifferangivelse för tilldelningskriterium' (BT-541) fylls inte i eller 'Sifferangivelsen är ett fast värde' (BT-5422) fylls i eller 'Sifferangivelsen är en typ av tröskel' (BT-5423) fylls i</entry>
-<entry key="expression|name|158">'Anbudsgivaren ska lämna in anbud för alla delar (anbudsområden)' ((BT-763)) är sant</entry>
 <entry key="expression|name|159">Partierna är inte 'Anbudsgivaren ska lämna in anbud för alla delar (anbudsområden)' (BT-763) och det finns mer än ett parti i meddelandet</entry>
-<entry key="expression|name|16">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot) är inte tomt</entry>
 <entry key="expression|name|160">Det finns inte multipla delar</entry>
 <entry key="expression|name|161">'Huvudklassificering' (BT-262-Lot) fylls inte i</entry>
 <entry key="expression|name|162">'Huvudklassificering' (BT-262-Part) fylls inte i</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'Tekniskt ID för anbudet' (OPT-321-Tender) finns inte</entry>
 <entry key="expression|name|178">'Organisationen som utför denna roll' (OPT-300-Tenderer) finns inte</entry>
 <entry key="expression|name|179">'Organisation eller specifik kontakt' (OPT-301-Tenderer-MainCont) fylls inte i</entry>
-<entry key="expression|name|18">'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup) är inte tomt</entry>
 <entry key="expression|name|180">'Officiellt namn' (BT-500-Organization-Company) fylls inte i</entry>
 <entry key="expression|name|181">'Officiellt namn' (BT-500-Organization-TouchPoint) fylls inte i</entry>
 <entry key="expression|name|182">'Land' (BT-514-Organization-Company) saknar NUTS-koder</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Webbadress för arbetsrätt' (OPT-130-Part-EmployLegis) fylls i</entry>
 <entry key="expression|name|193">'Prövningens typ av rättsmedel' (BT-792-Review) är inte 'Alternativ påföljd' eller 'Skadestånd'</entry>
 <entry key="expression|name|194">'Prövningens typ av rättsmedel' (BT-792-Review) är 'Skadestånd'</entry>
-<entry key="expression|name|195">'Ansökan om prövning återkallad' (BT-796-Review) är inte sant</entry>
+<entry key="expression|name|195">'Ansökan om prövning återkallad' (BT-796-Review) är inte 'ja'</entry>
 <entry key="expression|name|196">'Prövningens id' (BT-784-Review) fylls inte i</entry>
 <entry key="expression|name|197">'Identifierare för tidigare meddelande' (BT-125i-Lot) fylls inte i</entry>
 <entry key="expression|name|198">'Identifierare för tidigare meddelande' (BT-125(i)-Part) fylls inte i</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Inga delar har tilldelats</entry>
 <entry key="expression|name|204">'Id: Vinnande anbud för kontraktet' (BT-3202-Contract) fylls inte i</entry>
 <entry key="expression|name|205">'Typ av förfarande' (BT-105) är inte 'Förhandlat förfarande utan föregående meddelande om upphandling'; 'Rättslig grund' (BT-01) är inte 'Förordning (EU, Euratom) 2018/1046'; minst ett 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract) fylls i</entry>
-<entry key="expression|name|206">'Kontraktet tilldelas inom ett ramavtal' (BT-768-Contract) är inte sant</entry>
+<entry key="expression|name|206">'Kontraktet tilldelas inom ett ramavtal' (BT-768-Contract) är inte 'ja'</entry>
 <entry key="expression|name|207">'Identifierare för anbudsgivare' (BT-3201-Tender) fylls i</entry>
 <entry key="expression|name|209">'Version av det föregående meddelandet som ska ändras' (BT-758-notice) fylls inte i</entry>
 <entry key="expression|name|21">'Del av land (NUTS)' B373 (BT-5071-Lot) ska fyllas i</entry>
 <entry key="expression|name|210">'Identifierare för avsnitt' (BT-13716-notice) fylls inte i</entry>
-<entry key="expression|name|211">Indikatorn ”Upphandlingsdokumenten har ändrats” (BT-718-notice) är inte sann</entry>
+<entry key="expression|name|211">Indikatorn 'Upphandlingsdokumenten har ändrats' (BT-718-notice) är inte 'ja'</entry>
 <entry key="expression|name|212">'Huvudskälet till ändringen' (BT-140-notice) fylls inte i</entry>
 <entry key="expression|name|213">Det gäller för företagsregistrering i EU</entry>
 <entry key="expression|name|214">'Tillämplig gränsöverskridande lagstiftning' (BT-09(b)-Procedure) fylls inte i</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Typ' (BT-539-LotsGroup) fylls inte i</entry>
 <entry key="expression|name|234">'Beskrivning' (BT-540-Lot) fylls inte i</entry>
 <entry key="expression|name|235">'Beskrivning' (BT-540-LotsGroup) fylls inte i</entry>
-<entry key="expression|name|236">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot) fylls inte i</entry>
-<entry key="expression|name|237">'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup) fylls inte i</entry>
 <entry key="expression|name|238">'Sifferangivelsen är en typ av viktning' (BT-5421-Lot) fylls inte i</entry>
 <entry key="expression|name|239">'Sifferangivelsen är en typ av viktning' (BT-5421-LotsGroup) fylls inte i</entry>
 <entry key="expression|name|24">'Startdatum' (BT-536-Lot) fylls inte i</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Fält som ska publiceras senare' (BT-195(BT-161)-NoticeResult) fylls inte i</entry>
 <entry key="expression|name|278">'Fält som ska publiceras senare' (BT-195(BT-162)-Tender) fylls inte i</entry>
 <entry key="expression|name|279">'Fält som ska publiceras senare' (BT-195(BT-163)-Tender) fylls inte i</entry>
-<entry key="expression|name|28">'Användning av det här kriteriet' (BT-748) är 'Använda'</entry>
 <entry key="expression|name|280">'Fält som ska publiceras senare' (BT-195(BT-171)-Tender) fylls inte i</entry>
 <entry key="expression|name|281">'Fält som ska publiceras senare' (BT-195(BT-191)-Tender) fylls inte i</entry>
 <entry key="expression|name|282">'Fält som ska publiceras senare' (BT-195(BT-193)-Tender) fylls inte i</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Fält som ska publiceras senare' (BT-195(BT-731)-Tender) fylls inte i</entry>
 <entry key="expression|name|308">'Fält som ska publiceras senare' (BT-195(BT-733)-Lot) fylls inte i</entry>
 <entry key="expression|name|309">'Fält som ska publiceras senare' (BT-195(BT-733)-LotsGroup) fylls inte i</entry>
-<entry key="expression|name|31">'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot) är inte tomt</entry>
 <entry key="expression|name|310">'Fält som ska publiceras senare' (BT-195(BT-734)-Lot) fylls inte i</entry>
 <entry key="expression|name|311">'Fält som ska publiceras senare' (BT-195(BT-734)-LotsGroup) fylls inte i</entry>
 <entry key="expression|name|312">'Fält som ska publiceras senare' (BT-195(BT-759)-LotResult) fylls inte i</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Det här är en återkommande upphandling' (BT-94-Lot) är inte 'ja'</entry>
 <entry key="expression|name|318">'Typ av förfarande' (BT-105-Procedure) är 'Öppet'</entry>
 <entry key="expression|name|319">'Organisation eller specifik kontakt' (OPT-301-Lot-ReviewInfo) fylls inte i</entry>
-<entry key="expression|name|32">'Sifferangivelse för urvalskriterier för andra steget i anbudsansökan' (BT-752-Lot) är inte tomt</entry>
 <entry key="expression|name|320">'En elektronisk auktion används' (BT-767-Lot) är inte 'ja'</entry>
 <entry key="expression|name|321">'Typ av förfarande' (BT-105) är inte 'Selektivt'</entry>
 <entry key="expression|name|322">'Fordonstyp' (OPT-155-LotResult) fylls inte i</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Elektronisk inlämning krävs</entry>
 <entry key="expression|name|370">Elektronisk inlämning är inte tillåten</entry>
 <entry key="expression|name|371">Grupp av delar innehåller en eller färre delar</entry>
-<entry key="expression|name|372">'Typ' (BT-747-Lot) fylls inte i</entry>
 <entry key="expression|name|373">Grupp av delar består av delar utan ramavtal</entry>
 <entry key="expression|name|374">'En skyldighet som anbudsgivaren ska fullgöra vid underentreprenad' (BT-66) fylls inte i</entry>
 <entry key="expression|name|375">'Slutdatum för varaktighet' (BT-537-Part) fylls i; 'Varaktighet – annat' (BT-538-Part) fylls i</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) fylls inte i</entry>
 <entry key="expression|name|561">'Fält som ska publiceras senare' (BT-195(BT-660)-LotResult) fylls inte i</entry>
 <entry key="expression|name|568">'Kod för genomförande' (OPT-060-Lot) fylls inte i</entry>
-<entry key="expression|name|569">'Beskrivning' (BT-540-Lot) finns och 'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-FixedNumber) &amp;amp; 'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-ThresholdNumber) finns inte</entry>
 <entry key="expression|name|57">'Det gäller ett ramavtal' (BT-765-Lot) är 'Inget'</entry>
-<entry key="expression|name|570">'Beskrivning' (BT-540-Lot) finns och 'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-WeightNumber) &amp;amp; 'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-ThresholdNumber) finns inte</entry>
-<entry key="expression|name|571">'Beskrivning' (BT-540-Lot) finns och 'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-WeightNumber) &amp;amp; 'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-FixedNumber) finns inte</entry>
-<entry key="expression|name|572">'Beskrivning' (BT-540-LotsGroup) är närvarande och 'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup-ThresholdNumber) är inte närvarande</entry>
-<entry key="expression|name|573">'Beskrivning' (BT-540-LotsGroup) finns och 'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup-ThresholdNumber) finns inte</entry>
-<entry key="expression|name|574">'Beskrivning' (BT-540-LotsGroup) finns och 'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup-FixedNumber) finns inte</entry>
 <entry key="expression|name|575">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-WeightNumber) finns inte</entry>
 <entry key="expression|name|576">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-FixedNumber) finns inte</entry>
 <entry key="expression|name|577">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-ThresholdNumber) finns inte</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Andra begränsningar för leveransplatsen' (BT-727-Lot) är 'Var som helst' eller 'Var som helst inom Europeiska ekonomiska samarbetsområdet'</entry>
 <entry key="expression|name|94">'Andra begränsningar för leveransplatsen' (BT-727-Part) får inte vara 'Var som helst' eller 'Var som helst inom Europeiska ekonomiska samarbetsområdet'</entry>
 <entry key="expression|name|95">'Andra begränsningar för leveransplatsen' (BT-727-Procedure) är 'Var som helst' eller 'Var som helst inom Europeiska ekonomiska samarbetsområdet'</entry>
-<entry key="expression|name|96">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot) fylls i, 'Sifferangivelsen är ett fast värde' (BT-5422-Lot) och 'Sifferangivelsen är en typ av tröskel' (BT-5423-Lot) fylls inte i</entry>
-<entry key="expression|name|97">'Sifferangivelse för tilldelningskriterium' (BT-541-LotsGroup) fylls i, 'Sifferangivelsen är ett fast värde' (BT-5422-LotsGroup) och 'Sifferangivelsen är en typ av tröskel' (BT-5423-LotsGroup) fylls inte i</entry>
 </properties>

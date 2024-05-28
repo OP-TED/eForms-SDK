@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">L-identifikatur intern li ntuża għall-fajls li jirrigwardaw il-proċedura tal-akkwist jew il-lott qabel ma jingħata identifikatur tal-proċedura (eż. li jkun ġej mis-sistema ta’ ġestjoni tad-dokumenti jew mis-sistema ta’ ppjanar tal-akkwist tax-xerrej).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">L-identifikatur intern li ntuża għall-fajls li jirrigwardaw il-proċedura tal-akkwist jew il-lott qabel ma jingħata identifikatur tal-proċedura (eż. li jkun ġej mis-sistema ta’ ġestjoni tad-dokumenti jew mis-sistema ta’ ppjanar tal-akkwist tax-xerrej).</entry>
 <entry key="field|description|BT-23-Lot">In-natura prinċipali (eż. xogħlijiet) ta’ dak li qed jinxtara. F’każ ta’ akkwist imħallat (eż. proċedura kemm għax-xogħlijiet u kemm għas-servizzi), in-natura prinċipali tista’ tkun, pereżempju, dik bl-ogħla valur stmat. Din l-informazzjoni għandha tingħata għall-proċedura kollha.</entry>
+<entry key="field|description|BT-23-Lot-List">In-natura prinċipali (eż. xogħlijiet) ta’ dak li qed jinxtara. F’każ ta’ akkwist imħallat (eż. proċedura kemm għax-xogħlijiet u kemm għas-servizzi), in-natura prinċipali tista’ tkun, pereżempju, dik bl-ogħla valur stmat. Din l-informazzjoni għandha tingħata għall-proċedura kollha.</entry>
 <entry key="field|description|BT-23-Part">In-natura prinċipali (eż. xogħlijiet) ta’ dak li qed jinxtara. F’każ ta’ akkwist imħallat (eż. proċedura kemm għax-xogħlijiet u kemm għas-servizzi), in-natura prinċipali tista’ tkun, pereżempju, dik bl-ogħla valur stmat. Din l-informazzjoni għandha tingħata għall-proċedura kollha.</entry>
 <entry key="field|description|BT-23-Part-List">In-natura prinċipali (eż. xogħlijiet) ta’ dak li qed jinxtara. F’każ ta’ akkwist imħallat (eż. proċedura kemm għax-xogħlijiet u kemm għas-servizzi), in-natura prinċipali tista’ tkun, pereżempju, dik bl-ogħla valur stmat. Din l-informazzjoni għandha tingħata għall-proċedura kollha.</entry>
 <entry key="field|description|BT-23-Procedure">In-natura prinċipali (eż. xogħlijiet) ta’ dak li qed jinxtara. F’każ ta’ akkwist imħallat (eż. proċedura kemm għax-xogħlijiet u kemm għas-servizzi), in-natura prinċipali tista’ tkun, pereżempju, dik bl-ogħla valur stmat. Din l-informazzjoni għandha tingħata għall-proċedura kollha.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Id-deskrizzjoni dwar kif jitressqu l-offerti, it-talbiet għall-parteċipazzjoni, jew l-espressjonijiet ta’ interess b’mod mhux elettroniku.</entry>
 <entry key="field|description|BT-745-Lot-Language">Id-deskrizzjoni dwar kif jitressqu l-offerti, it-talbiet għall-parteċipazzjoni, jew l-espressjonijiet ta’ interess b’mod mhux elettroniku.</entry>
 <entry key="field|description|BT-746-Organization">In-nazzjonalità (jew in-nazzjonalitajiet) tas-sid(ien) benefiċjarju/i tar-rebbieħ, tal-offerent, jew tas-sottokuntrattur mhijiex/mhumiex ippubblikata/i fir-reġistru/i stabbilit(i) bid-Direttiva (UE) 2018/843, minħabba li r-rebbieħ ikun elenkat f’suq regolat (eż. il-borża) li jiżgura trasparenza adegwata f’konformità mal-leġiżlazzjoni kontra l-ħasil tal-flus.</entry>
-<entry key="field|description|BT-747-Lot">Il-kriterju (jew il-kriterji) jikkonċerna(w), pereżempju, il-kapaċità ekonomika u finanzjarja jew il-ħila teknika u professjonali.</entry>
-<entry key="field|description|BT-747-Lot-List">Il-kriterju (jew il-kriterji) jikkonċerna(w), pereżempju, il-kapaċità ekonomika u finanzjarja jew il-ħila teknika u professjonali.</entry>
-<entry key="field|description|BT-748-Lot">Il-kriterju (jew il-kriterji) tat-tip partikolari ntuża(w), ma ntużax/ntużawx, jew (f’każ ta’ avviż informattiv minn qabel li ntuża bħala sejħa għall-kompetizzjoni jew biex jitnaqqsu l-limiti ta’ żmien) l-użu ma jkunx għadu magħruf.</entry>
-<entry key="field|description|BT-748-Lot-List">Il-kriterju (jew il-kriterji) tat-tip partikolari ntuża(w), ma ntużax/ntużawx, jew (f’każ ta’ avviż informattiv minn qabel li ntuża bħala sejħa għall-kompetizzjoni jew biex jitnaqqsu l-limiti ta’ żmien) l-użu ma jkunx għadu magħruf.</entry>
-<entry key="field|description|BT-749-Lot">L-isem tal-kriterju (jew tal-kriterji) tal-għażla.</entry>
-<entry key="field|description|BT-749-Lot-Language">L-isem tal-kriterju (jew tal-kriterji) tal-għażla.</entry>
 <entry key="field|description|BT-75-Lot">Id-deskrizzjoni tal-garanzija finanzjarja meħtieġa mingħand l-offerent meta jressaq offerta. Il-garanzija tista’ tieħu l-forma ta’, pereżempju, pagament lix-xerrej jew dokument mingħand bank. Tipikament, il-garanzija tintilef meta offerent ikun rebaħ il-kuntratt iżda mbagħad jirrifjuta li jiffirmah.</entry>
 <entry key="field|description|BT-75-Lot-Language">Id-deskrizzjoni tal-garanzija finanzjarja meħtieġa mingħand l-offerent meta jressaq offerta. Il-garanzija tista’ tieħu l-forma ta’, pereżempju, pagament lix-xerrej jew dokument mingħand bank. Tipikament, il-garanzija tintilef meta offerent ikun rebaħ il-kuntratt iżda mbagħad jirrifjuta li jiffirmah.</entry>
 <entry key="field|description|BT-750-Lot">Id-deskrizzjoni qasira tal-kriterju (jew tal-kriterji) tal-għażla, inkluż ir-rekwiżiti minimi, l-informazzjoni meħtieġa (eż. l-awtodikjarazzjoni, id-dokumentazzjoni) u kif il-kriterju jew il-kriterji se jintuża(w) biex jintgħażlu l-kandidati li jridu jiġu mistiedna għat-tieni stadju tal-proċedura (jekk ikun ġie stabbilit numru massimu ta’ kandidati).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Identifikatur intern</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Identifikatur intern</entry>
 <entry key="field|name|BT-23-Lot">Natura tal-kuntratt</entry>
+<entry key="field|name|BT-23-Lot-List">Natura tal-kuntratt</entry>
 <entry key="field|name|BT-23-Part">Natura tal-kuntratt</entry>
 <entry key="field|name|BT-23-Part-List">Natura tal-kuntratt</entry>
 <entry key="field|name|BT-23-Procedure">Natura tal-kuntratt</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Isem</entry>
 <entry key="field|name|BT-632-Part">Isem</entry>
 <entry key="field|name|BT-633-Organization">L-organizzazzjoni hi persuna fiżika</entry>
-<entry key="field|name|BT-634-Lot">Din il-proċedura jew il-lott kanċellat jew li ma rnexxiex se jiġi varat mill-ġdid</entry>
-<entry key="field|name|BT-634-Procedure">Din il-proċedura jew il-lott kanċellat jew li ma rnexxiex se jiġi varat mill-ġdid</entry>
+<entry key="field|name|BT-634-Lot">Jekk il-lott jiġi annullat jew ma jkunx ta' suċċess, se jinbidel mill-ġdid</entry>
+<entry key="field|name|BT-634-Procedure">Jekk il-proċedura tiġi annullata jew ma tġibx suċċess, se tġin irranġata</entry>
 <entry key="field|name|BT-635-LotResult">Numru ta’ talbiet għal rieżami tax-xerrej</entry>
 <entry key="field|name|BT-636-LotResult">Tip ta’ irregolarità allegata</entry>
 <entry key="field|name|BT-636-LotResult-List">Tip ta’ irregolarità allegata</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">L-akkwist jaqa’ fil-kamp ta’ applikazzjoni tad-Direttiva 2009/33/KE tal-Parlament Ewropew u tal-Kunsill (id-Direttiva dwar Vetturi Nodfa – CVD)</entry>
 <entry key="field|name|BT-718-notice">Id-dokumenti tal-akkwist inbidlu fi</entry>
 <entry key="field|name|BT-719-notice">Immodifika d-data tad-dokumenti tal-akkwist</entry>
-<entry key="field|name|BT-720-Tender">Valur tar-riżultat</entry>
-<entry key="field|name|BT-720-Tender-Currency">Valur tar-riżultat</entry>
+<entry key="field|name|BT-720-Tender">Valur tal-offerta</entry>
+<entry key="field|name|BT-720-Tender-Currency">Valur tal-offerta</entry>
 <entry key="field|name|BT-721-Contract">Titlu</entry>
 <entry key="field|name|BT-721-Contract-Language">Titlu</entry>
 <entry key="field|name|BT-722-Contract">Isem il-proġett jew il-programm iffinanzjat mill-UE</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Deskrizzjoni</entry>
 <entry key="field|name|BT-745-Lot-Language">Deskrizzjoni</entry>
 <entry key="field|name|BT-746-Organization">Ir-rebbieħ huwa elenkat f’suq regolat</entry>
-<entry key="field|name|BT-747-Lot">Tip</entry>
-<entry key="field|name|BT-747-Lot-List">Tip</entry>
-<entry key="field|name|BT-748-Lot">Użu ta’ dan il-kriterju</entry>
-<entry key="field|name|BT-748-Lot-List">Użu ta’ dan il-kriterju</entry>
-<entry key="field|name|BT-749-Lot">Isem</entry>
-<entry key="field|name|BT-749-Lot-Language">Isem</entry>
 <entry key="field|name|BT-75-Lot">Deskrizzjoni tal-garanzija finanzjarja</entry>
 <entry key="field|name|BT-75-Lot-Language">Deskrizzjoni tal-garanzija finanzjarja</entry>
 <entry key="field|name|BT-750-Lot">Deskrizzjoni</entry>
@@ -2435,8 +2425,8 @@
 <entry key="field|name|OPT-302-Organization-Scheme">Organizzazzjoni li twettaq din ir-rwol</entry>
 <entry key="field|name|OPT-310-Tender">Parti li toffri</entry>
 <entry key="field|name|OPT-310-Tender-Scheme">Parti li toffri</entry>
-<entry key="field|name|OPT-315-LotResult">Referenza għall-kuntratt</entry>
-<entry key="field|name|OPT-315-LotResult-Scheme">Referenza għall-kuntratt</entry>
+<entry key="field|name|OPT-315-LotResult">Riferiment għall-kuntratt</entry>
+<entry key="field|name|OPT-315-LotResult-Scheme">Riferiment għall-kuntratt</entry>
 <entry key="field|name|OPT-316-Contract">ID tekniku tal-kuntratt</entry>
 <entry key="field|name|OPT-316-Contract-Scheme">ID tekniku tal-kuntratt</entry>
 <entry key="field|name|OPT-320-LotResult">ID tekniku ta' offerta miġbura</entry>

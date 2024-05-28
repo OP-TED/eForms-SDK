@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Interní identifikátor používaný pro soubory týkající se zadávacího řízení nebo části zakázky před přidělením identifikátoru zadávacího řízení (např. pocházející ze systému správy dokumentů kupujícího nebo ze systému pro plánování veřejných zakázek).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Interní identifikátor používaný pro soubory týkající se zadávacího řízení nebo části zakázky před přidělením identifikátoru zadávacího řízení (např. pocházející ze systému správy dokumentů kupujícího nebo ze systému pro plánování veřejných zakázek).</entry>
 <entry key="field|description|BT-23-Lot">Hlavní povaha předmětu zakázky (např. stavebních prací). V případě smíšených zakázek (např. zakázek na stavební práce i na služby) může být hlavní povahou například povaha s nejvyšší odhadovanou hodnotou. Tyto informace se uvedou pro celé zadávací řízení.</entry>
+<entry key="field|description|BT-23-Lot-List">Hlavní povaha předmětu zakázky (např. stavebních prací). V případě smíšených zakázek (např. zakázek na stavební práce i na služby) může být hlavní povahou například povaha s nejvyšší odhadovanou hodnotou. Tyto informace se uvedou pro celé zadávací řízení.</entry>
 <entry key="field|description|BT-23-Part">Hlavní povaha předmětu zakázky (např. stavebních prací). V případě smíšených zakázek (např. zakázek na stavební práce i na služby) může být hlavní povahou například povaha s nejvyšší odhadovanou hodnotou. Tyto informace se uvedou pro celé zadávací řízení.</entry>
 <entry key="field|description|BT-23-Part-List">Hlavní povaha předmětu zakázky (např. stavebních prací). V případě smíšených zakázek (např. zakázek na stavební práce i na služby) může být hlavní povahou například povaha s nejvyšší odhadovanou hodnotou. Tyto informace se uvedou pro celé zadávací řízení.</entry>
 <entry key="field|description|BT-23-Procedure">Hlavní povaha předmětu zakázky (např. stavebních prací). V případě smíšených zakázek (např. zakázek na stavební práce i na služby) může být hlavní povahou například povaha s nejvyšší odhadovanou hodnotou. Tyto informace se uvedou pro celé zadávací řízení.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Popis neelektronického podávání nabídek, žádostí o účast nebo vyjádření zájmu.</entry>
 <entry key="field|description|BT-745-Lot-Language">Popis neelektronického podávání nabídek, žádostí o účast nebo vyjádření zájmu.</entry>
 <entry key="field|description|BT-746-Organization">Státní příslušnost (nebo příslušnosti) skutečného majitele (skutečných majitelů) vítěze, uchazeče nebo subdodavatele není uvedena v rejstříku nebo rejstřících zřízených směrnicí (EU) 2018/843, protože vítěz je kótován na regulovaném trhu (např. na burze cenných papírů), který zajišťuje náležitou transparentnost v souladu s právními předpisy pro boj proti praní peněz.</entry>
-<entry key="field|description|BT-747-Lot">Kritéria (nebo kritérium) týkající se například ekonomické a finanční způsobilosti nebo technické a odborné způsobilosti.</entry>
-<entry key="field|description|BT-747-Lot-List">Kritéria (nebo kritérium) týkající se například ekonomické a finanční způsobilosti nebo technické a odborné způsobilosti.</entry>
-<entry key="field|description|BT-748-Lot">Kritéria (nebo kritérium) daného typu jsou použita, nejsou použita nebo jejich použití není dosud známo (v případě předběžného oznámení použitého jako výzva k účasti v soutěži nebo za účelem zkrácení lhůt).</entry>
-<entry key="field|description|BT-748-Lot-List">Kritéria (nebo kritérium) daného typu jsou použita, nejsou použita nebo jejich použití není dosud známo (v případě předběžného oznámení použitého jako výzva k účasti v soutěži nebo za účelem zkrácení lhůt).</entry>
-<entry key="field|description|BT-749-Lot">Název kvalifikačních kritérií pro výběr (nebo kritéria).</entry>
-<entry key="field|description|BT-749-Lot-Language">Název kvalifikačních kritérií pro výběr (nebo kritéria).</entry>
 <entry key="field|description|BT-75-Lot">Popis finanční záruky požadované od uchazeče při podání nabídky. Záruka může mít například formu platby kupujícímu nebo dokladu od banky. Obvykle záruka propadá v případě, kdy uchazeč zakázku získal, ale následně ji odmítl podepsat.</entry>
 <entry key="field|description|BT-75-Lot-Language">Popis finanční záruky požadované od uchazeče při podání nabídky. Záruka může mít například formu platby kupujícímu nebo dokladu od banky. Obvykle záruka propadá v případě, kdy uchazeč zakázku získal, ale následně ji odmítl podepsat.</entry>
 <entry key="field|description|BT-750-Lot">Stručný popis kvalifikačních kritérií pro výběr (nebo kritéria), včetně minimálních požadavků, požadované informace (např. vlastní prohlášení, dokumenty) a jak budou tato kritéria (nebo kritérium) použita k výběru zájemců, kteří budou vyzváni k účasti ve druhé fázi řízení (pokud byl stanoven maximální počet zájemců).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Interní identifikátor</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Interní identifikátor</entry>
 <entry key="field|name|BT-23-Lot">Charakter smlouvy</entry>
+<entry key="field|name|BT-23-Lot-List">Charakter smlouvy</entry>
 <entry key="field|name|BT-23-Part">Charakter smlouvy</entry>
 <entry key="field|name|BT-23-Part-List">Charakter smlouvy</entry>
 <entry key="field|name|BT-23-Procedure">Charakter smlouvy</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Jméno/název</entry>
 <entry key="field|name|BT-632-Part">Jméno/název</entry>
 <entry key="field|name|BT-633-Organization">Organizace je fyzická osoba</entry>
-<entry key="field|name|BT-634-Lot">Toto zrušené nebo neúspěšné řízení bude znovu zahájeno</entry>
-<entry key="field|name|BT-634-Procedure">Toto zrušené nebo neúspěšné řízení bude znovu zahájeno</entry>
+<entry key="field|name|BT-634-Lot">Pokud bude položka zrušena nebo neúspěšná, bude znovu spuštěna</entry>
+<entry key="field|name|BT-634-Procedure">Pokud bude postup zrušen nebo neúspěšný, bude znovu spuštěn</entry>
 <entry key="field|name|BT-635-LotResult">Počet žádostí o přezkum kupujícím</entry>
 <entry key="field|name|BT-636-LotResult">Druh údajné nesrovnalosti</entry>
 <entry key="field|name|BT-636-LotResult-List">Druh údajné nesrovnalosti</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)</entry>
 <entry key="field|name|BT-718-notice">Zadávací dokumentace byla změněna dne</entry>
 <entry key="field|name|BT-719-notice">Datum změny zadávací dokumentace</entry>
-<entry key="field|name|BT-720-Tender">Hodnota výsledku</entry>
-<entry key="field|name|BT-720-Tender-Currency">Hodnota výsledku</entry>
+<entry key="field|name|BT-720-Tender">Hodnota nabídky</entry>
+<entry key="field|name|BT-720-Tender-Currency">Hodnota nabídky</entry>
 <entry key="field|name|BT-721-Contract">Název</entry>
 <entry key="field|name|BT-721-Contract-Language">Název</entry>
 <entry key="field|name|BT-722-Contract">Název projektu nebo programu financovaného EU</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Popis</entry>
 <entry key="field|name|BT-745-Lot-Language">Popis</entry>
 <entry key="field|name|BT-746-Organization">Vítěz je kotován na regulovaném trhu</entry>
-<entry key="field|name|BT-747-Lot">Typ</entry>
-<entry key="field|name|BT-747-Lot-List">Typ</entry>
-<entry key="field|name|BT-748-Lot">Použití tohoto kritéria</entry>
-<entry key="field|name|BT-748-Lot-List">Použití tohoto kritéria</entry>
-<entry key="field|name|BT-749-Lot">Jméno/název</entry>
-<entry key="field|name|BT-749-Lot-Language">Jméno/název</entry>
 <entry key="field|name|BT-75-Lot">Popis finanční záruky</entry>
 <entry key="field|name|BT-75-Lot-Language">Popis finanční záruky</entry>
 <entry key="field|name|BT-750-Lot">Popis</entry>

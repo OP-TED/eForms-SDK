@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">De interne identificatiecode die voor bestanden met betrekking tot de aanbestedingsprocedure of het perceel wordt gebruikt voordat aan de procedure een identificatiecode is toegewezen (bv. afkomstig van het systeem voor documentbeheer of voor de planning van aanbestedingen van de koper).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">De interne identificatiecode die voor bestanden met betrekking tot de aanbestedingsprocedure of het perceel wordt gebruikt voordat aan de procedure een identificatiecode is toegewezen (bv. afkomstig van het systeem voor documentbeheer of voor de planning van aanbestedingen van de koper).</entry>
 <entry key="field|description|BT-23-Lot">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
+<entry key="field|description|BT-23-Lot-List">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
 <entry key="field|description|BT-23-Part">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
 <entry key="field|description|BT-23-Part-List">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
 <entry key="field|description|BT-23-Procedure">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">De beschrijving van de wijze waarop inschrijvingen, verzoeken tot deelname of blijken van belangstelling langs niet-elektronische weg kunnen worden ingediend.</entry>
 <entry key="field|description|BT-745-Lot-Language">De beschrijving van de wijze waarop inschrijvingen, verzoeken tot deelname of blijken van belangstelling langs niet-elektronische weg kunnen worden ingediend.</entry>
 <entry key="field|description|BT-746-Organization">De nationaliteit (of nationaliteiten) van de begunstigde eigenaar(s) van de winnaar, inschrijver of onderaannemer is/zijn niet bekendgemaakt in het/de bij Richtlijn (EU) 2018/843 vastgestelde register(s), omdat de winnaar genoteerd is op een gereglementeerde markt (bijvoorbeeld een effectenbeurs) die instaat voor voldoende transparantie in overeenstemming met de antiwitwaswetgeving.</entry>
-<entry key="field|description|BT-747-Lot">Bij de criteria (of het criterium) gaat het bijvoorbeeld om de economische en financiële draagkracht of de technische en beroepsbekwaamheid.</entry>
-<entry key="field|description|BT-747-Lot-List">Bij de criteria (of het criterium) gaat het bijvoorbeeld om de economische en financiële draagkracht of de technische en beroepsbekwaamheid.</entry>
-<entry key="field|description|BT-748-Lot">De criteria (of het criterium) van het desbetreffende type worden/wordt gebruikt, niet gebruikt, of (in het geval van een vooraankondiging gebruikt als oproep tot mededinging of met het oog op het verkorten van termijnen) het gebruik is nog niet bekend.</entry>
-<entry key="field|description|BT-748-Lot-List">De criteria (of het criterium) van het desbetreffende type worden/wordt gebruikt, niet gebruikt, of (in het geval van een vooraankondiging gebruikt als oproep tot mededinging of met het oog op het verkorten van termijnen) het gebruik is nog niet bekend.</entry>
-<entry key="field|description|BT-749-Lot">De naam van de selectiecriteria (of het selectiecriterium).</entry>
-<entry key="field|description|BT-749-Lot-Language">De naam van de selectiecriteria (of het selectiecriterium).</entry>
 <entry key="field|description|BT-75-Lot">De beschrijving van de financiële waarborg die bij de indiening van een inschrijving van de inschrijver wordt verlangd. De waarborg kan bijvoorbeeld de vorm hebben van een betaling aan de koper of een document van een bank. De waarborg zou normaal gesproken worden ingehouden wanneer de inschrijver de opdracht heeft gewonnen, maar vervolgens weigert het contract te ondertekenen.</entry>
 <entry key="field|description|BT-75-Lot-Language">De beschrijving van de financiële waarborg die bij de indiening van een inschrijving van de inschrijver wordt verlangd. De waarborg kan bijvoorbeeld de vorm hebben van een betaling aan de koper of een document van een bank. De waarborg zou normaal gesproken worden ingehouden wanneer de inschrijver de opdracht heeft gewonnen, maar vervolgens weigert het contract te ondertekenen.</entry>
 <entry key="field|description|BT-750-Lot">De korte beschrijving van de selectiecriteria (of het criterium), met inbegrip van de minimumeisen, de vereiste informatie (bv. eigen verklaring, documentatie) en de wijze waarop de criteria of het criterium zullen/zal worden gebruikt om de gegadigden te selecteren die voor de tweede fase van de procedure zullen worden uitgenodigd (als er een maximumaantal gegadigden is vastgesteld).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Interne identificatiecode</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Interne identificatiecode</entry>
 <entry key="field|name|BT-23-Lot">Aard van het contract</entry>
+<entry key="field|name|BT-23-Lot-List">Aard van het contract</entry>
 <entry key="field|name|BT-23-Part">Aard van het contract</entry>
 <entry key="field|name|BT-23-Part-List">Aard van het contract</entry>
 <entry key="field|name|BT-23-Procedure">Aard van het contract</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Naam</entry>
 <entry key="field|name|BT-632-Part">Naam</entry>
 <entry key="field|name|BT-633-Organization">De organisatie is een natuurlijk persoon</entry>
-<entry key="field|name|BT-634-Lot">Deze procedure of dit perceel is geannuleerd of was niet succesvol en zal opnieuw worden aanbesteed</entry>
-<entry key="field|name|BT-634-Procedure">Deze procedure of dit perceel is geannuleerd of was niet succesvol en zal opnieuw worden aanbesteed</entry>
+<entry key="field|name|BT-634-Lot">Als de kavel wordt geannuleerd of niet succesvol is, wordt deze opnieuw gestart</entry>
+<entry key="field|name|BT-634-Procedure">Als de procedure wordt geannuleerd of niet succesvol is, wordt deze opnieuw gestart</entry>
 <entry key="field|name|BT-635-LotResult">Aantal beroepen van kopers</entry>
 <entry key="field|name|BT-636-LotResult">Aard van de vermeende onregelmatigheid</entry>
 <entry key="field|name|BT-636-LotResult-List">Aard van de vermeende onregelmatigheid</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">De aanbesteding valt binnen de werkingssfeer van Richtlijn 2009/33/EG van het Europees Parlement en de Raad (“richtlijn schone voertuigen”)</entry>
 <entry key="field|name|BT-718-notice">De aanbestedingsstukken zijn gewijzigd op</entry>
 <entry key="field|name|BT-719-notice">Datum van wijziging van de aanbestedingsstukken</entry>
-<entry key="field|name|BT-720-Tender">Waarde van het resultaat</entry>
-<entry key="field|name|BT-720-Tender-Currency">Waarde van het resultaat</entry>
+<entry key="field|name|BT-720-Tender">Waarde van de aanbesteding</entry>
+<entry key="field|name|BT-720-Tender-Currency">Waarde van de aanbesteding</entry>
 <entry key="field|name|BT-721-Contract">Titel</entry>
 <entry key="field|name|BT-721-Contract-Language">Titel</entry>
 <entry key="field|name|BT-722-Contract">Naam van door de EU gefinancierd project of programma</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Beschrijving</entry>
 <entry key="field|name|BT-745-Lot-Language">Beschrijving</entry>
 <entry key="field|name|BT-746-Organization">De winnaar is genoteerd op een gereglementeerde markt</entry>
-<entry key="field|name|BT-747-Lot">Type</entry>
-<entry key="field|name|BT-747-Lot-List">Type</entry>
-<entry key="field|name|BT-748-Lot">Gebruik van dit criterium</entry>
-<entry key="field|name|BT-748-Lot-List">Gebruik van dit criterium</entry>
-<entry key="field|name|BT-749-Lot">Naam</entry>
-<entry key="field|name|BT-749-Lot-Language">Naam</entry>
 <entry key="field|name|BT-75-Lot">Beschrijving van de financiële garantie</entry>
 <entry key="field|name|BT-75-Lot-Language">Beschrijving van de financiële garantie</entry>
 <entry key="field|name|BT-750-Lot">Beschrijving</entry>

@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Italian. File generated from metadata database.</comment>
 <entry key="expression|name|1">Il valore per 'Il committente è un ente aggiudicatore' (BT-740) è 'No'</entry>
-<entry key="expression|name|100">'Criterio di aggiudicazione: numero' (BT-541-Lot) è compilato, 'Il numero è un tipo di ponderazione' (BT-5421-Lot) e 'Il numero costituisce una soglia' (BT-5423-Lot) non sono compilati</entry>
-<entry key="expression|name|101">'Criterio di aggiudicazione: numero' (BT-541-Lot) è compilato, 'Il numero è un tipo di ponderazione' (BT-5421-Lot) e 'Il numero costituisce una soglia' (BT-5422-Lot) non sono compilati</entry>
-<entry key="expression|name|102">'Criterio di aggiudicazione: numero' (BT-541-LotsGroup) è compilato, 'Il numero è un tipo di ponderazione' (BT-5421-LotsGroup) e 'Il numero costituisce una soglia' (BT-5423-LotsGroup) non sono compilati</entry>
-<entry key="expression|name|103">'Criterio di aggiudicazione: numero' (BT-541-LotsGroup) è compilato, 'Il numero è un tipo di ponderazione' (BT-5421-LotsGroup) e 'Il numero costituisce una soglia' (BT-5422-LotsGroup) non sono compilati</entry>
 <entry key="expression|name|104">'Descrizione del metodo da utilizzare se la ponderazione non può essere espressa da criteri' (BT-543-Lots) non è compilato</entry>
 <entry key="expression|name|105">'Descrizione del metodo da utilizzare se la ponderazione non può essere espressa da criteri' (BT-543-LotsGroup) non è compilato</entry>
 <entry key="expression|name|106">'Durata' (BT-36-Lot) o 'Data di fine durata' (BT-537-Lot) è compilato</entry>
 <entry key="expression|name|107">'Durata' (BT-36-Lot) o 'Durata: altro' (BT-538-Lot) è compilato</entry>
 <entry key="expression|name|108">'Data di fine durata' (BT-537-Lot) o 'Durata: altro' (BT-538-Lot) è compilato</entry>
-<entry key="expression|name|109">'Tipo di procedura' (BT-105) non è 'Aggiudicazione diretta'</entry>
 <entry key="expression|name|11">'Data di inizio' (BT-536-Part) non è compilato</entry>
 <entry key="expression|name|110">'Tipo di procedura' (BT-105) è 'Aperta'; 'Tipo di procedura' (BT-105) è 'Altra procedura a fase unica' e 'Termine per il ricevimento delle domande di partecipazione' (BT-1311) non è compilato; 'Tipo di procedura' (BT-105) deve essere 'Altra procedura a più fasi' e 'Termine per il ricevimento delle domande di partecipazione' (BT-1311) non è compilato</entry>
 <entry key="expression|name|111">'Tipo di procedura' (BT-105) è 'Altra procedura a fase unica' e 'Termine per il ricevimento delle offerte' (BT-131) non è compilato; 'Tipo di procedura' (BT-105) è 'Altra procedura a più fasi' e 'Termine per il ricevimento delle domande di partecipazione' (BT-131) non è compilato</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Termine per il ricevimento delle offerte' (BT-131(d)-Lot) è compilato</entry>
 <entry key="expression|name|115">'Termine per il ricevimento delle domande di partecipazione' (BT-1311(d)-Lot) è compilato</entry>
 <entry key="expression|name|116">'Tipo di procedura' (BT-105) è 'Aperta' o 'Altra procedura a fase unica' o 'Negoziata senza previa indizione di gara'</entry>
-<entry key="expression|name|117">'Tipo' (BT-747-Lot) non è compilato</entry>
 <entry key="expression|name|118">'Indirizzo postale' (BT-5101(a)-Lot) non è compilato</entry>
 <entry key="expression|name|119">'Indirizzo postale' (BT-5101(a)-Part) non è compilato</entry>
 <entry key="expression|name|12">'Forma giuridica del committente' (BT-11) è uno dei seguenti: 'Organismo di diritto pubblico'; 'Organismo di diritto pubblico controllato da un'autorità governativa centrale'; 'Organismo di diritto pubblico controllato da un'autorità locale'; 'Organismo di diritto pubblico controllato da un'autorità regionale'; 'Autorità governativa centrale'; 'Appaltatore nel settore della difesa'; 'Istituzione, organo o agenzia dell’UE'; 'Istituzione/agenzia europea o organizzazione internazionale'; 'Organizzazione internazionale'; 'Autorità locale'; 'Organizzazione che aggiudica un appalto sovvenzionato da un'autorità governativa centrale'; 'Organizzazione che aggiudica un appalto sovvenzionato da un'autorità locale'; 'Organizzazione che aggiudica un appalto sovvenzionato da un'autorità regionale'; 'Impresa pubblica'; 'Impresa pubblica controllata da un'autorità governativa centrale'; 'Impresa pubblica controllata da un'autorità locale'; 'Impresa pubblica controllata da un'autorità regionale'; 'Autorità regionale'; 'Autorità regionale o locale'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'L'accesso a determinati documenti di gara è limitato' (BT-14-Part) non è soggetto a restrizione</entry>
 <entry key="expression|name|150">'Descrizione' (BT-540-Lot) non è compilato</entry>
 <entry key="expression|name|151">'Descrizione' (BT-540-LotsGroup) non è compilato</entry>
-<entry key="expression|name|152">'Criterio di aggiudicazione: numero' (BT-541) non è compilato o 'Il numero è un valore determinato' (BT-5422) è compilato 'Il numero costituisce una soglia' (BT-5423) è compilato</entry>
-<entry key="expression|name|153">'Criterio di aggiudicazione: numero' (BT-541) non è compilato o 'Il numero è un valore determinato' (BT-5422) è compilato 'Il numero costituisce una soglia' (BT-5423) è compilato</entry>
-<entry key="expression|name|154">'Criterio di aggiudicazione: numero' (BT-541) non è compilato o 'Il numero è un tipo di ponderazione' (BT-5421) è compilato o 'Il numero costituisce una soglia' (BT-5423) è compilato o 'Tipo' (BT-539) è 'Qualità'</entry>
-<entry key="expression|name|155">'Criterio di aggiudicazione: numero' (BT-541) non è compilato o 'Il numero è un tipo di ponderazione' (BT-5421) è compilato o 'Il numero costituisce una soglia' (BT-5423) è compilato o 'Tipo' (BT-539) è 'Qualità'</entry>
-<entry key="expression|name|156">'Criterio di aggiudicazione: numero' (BT-541) non è compilato o 'Il numero è un valore determinato' (BT-5422) è compilato o 'Il numero costituisce una soglia' (BT-5423) è compilato</entry>
-<entry key="expression|name|157">'Criterio di aggiudicazione: numero' (BT-541) non è compilato o 'Il numero è un valore determinato' (BT-5422) è compilato o 'Il numero costituisce una soglia' (BT-5423) è compilato</entry>
-<entry key="expression|name|158">'L'offerente deve presentare offerte per tutti i lotti' ((BT-763)) è vero</entry>
 <entry key="expression|name|159">I lotti non sono 'L'offerente deve presentare offerte per tutti i lotti' (BT-763) e ci sono più lotti nell'avviso</entry>
-<entry key="expression|name|16">'Criterio di aggiudicazione: numero' (BT-541-Lot) non è vuoto</entry>
 <entry key="expression|name|160">Non vi sono lotti multipli</entry>
 <entry key="expression|name|161">'Classificazione principale' (BT-262-Lot) non è compilato</entry>
 <entry key="expression|name|162">'Classificazione principale' (BT-262-Part) non è compilato</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'ID tecnico dell'offerta' (OPT-321-Tender) non esiste</entry>
 <entry key="expression|name|178">'Organizzazione che svolge questo ruolo' (OPT-300-Tenderer) non esiste</entry>
 <entry key="expression|name|179">'Organizzazione o punto di contatto specifico' (OPT-301-Tenderer-MainCont) non è compilato</entry>
-<entry key="expression|name|18">'Criterio di aggiudicazione: numero' (BT-541-LotsGroup) non è vuoto</entry>
 <entry key="expression|name|180">'Nome ufficiale' (BT-500-Organization-Company) non è compilato</entry>
 <entry key="expression|name|181">'Nome ufficiale' (BT-500-Organization-TouchPoint) non è compilato</entry>
 <entry key="expression|name|182">'Paese' (BT-514-Organization-Company) non ha codici NUTS</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Indirizzo web della legislazione sul lavoro' (OPT-130-Part-EmployLegis) è compilato</entry>
 <entry key="expression|name|193">'Ricorso: tipo di risoluzione' (BT-792-Review) non è 'Sanzione alternativa' o 'Risarcimenti'</entry>
 <entry key="expression|name|194">'Ricorso: tipo di risoluzione' (BT-792-Review) è 'Risarcimenti'</entry>
-<entry key="expression|name|195">'Ricorso: richiesta annullata' (BT-796-Review) non è vero</entry>
+<entry key="expression|name|195">'Ricorso: richiesta annullata' (BT-796-Review) non è 'sì'</entry>
 <entry key="expression|name|196">'Ricorso: identificativo' (BT-784-Review) non è compilato</entry>
 <entry key="expression|name|197">'Identificativo dell'avviso precedente' (BT-125i-Lot) non è compilato</entry>
 <entry key="expression|name|198">'Identificativo dell'avviso precedente' (BT-125(i)-Part) non è compilato</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Non è stato aggiudicato alcun lotto</entry>
 <entry key="expression|name|204">'Appalto: identificativo dell'offerta' (BT-3202-Contract) non è compilato</entry>
 <entry key="expression|name|205">'Tipo di procedura' (BT-105) non è 'Negoziata senza previa indizione di gara'; 'Base giuridica' (BT-01) non è 'Regolamento (UE, Euratom) 2018/1046'; almeno un 'Appalto: identificativo dell'offerta' (BT-3202-Contract) è compilato</entry>
-<entry key="expression|name|206">'L'appalto è aggiudicato nell'ambito di un accordo quadro' (BT-768-Contract) non è vero</entry>
+<entry key="expression|name|206">'L'appalto è aggiudicato nell'ambito di un accordo quadro' (BT-768-Contract) non è 'sì'</entry>
 <entry key="expression|name|207">'Identificativo dell'offerta' (BT-3201-Tender) è compilato</entry>
 <entry key="expression|name|209">'Versione dell'avviso precedente da modificare' (BT-758-notice) non è compilato</entry>
 <entry key="expression|name|21">'Suddivisione del paese (NUTS)' B373(BT-5071-Lot) è compilato</entry>
 <entry key="expression|name|210">'Identificativo della sezione' (BT-13716-notice) non è compilato</entry>
-<entry key="expression|name|211">L'indicatore «I documenti di gara sono cambiati» (BT-718-notice) non è vero</entry>
+<entry key="expression|name|211">L'indicatore 'I documenti di gara sono cambiati' (BT-718-notice) non è 'sì'</entry>
 <entry key="expression|name|212">'Motivo principale della modifica' (BT-140-notice) non è compilato</entry>
 <entry key="expression|name|213">Si applica alla registrazione delle imprese nell'UE</entry>
 <entry key="expression|name|214">'Diritto transfrontaliero applicabile' (BT-09(b)-Procedure) non è compilato</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Tipo' (BT-539-LotsGroup) non è compilato</entry>
 <entry key="expression|name|234">'Descrizione' (BT-540-Lot) non è compilato</entry>
 <entry key="expression|name|235">'Descrizione' (BT-540-LotsGroup) non è compilato</entry>
-<entry key="expression|name|236">'Criterio di aggiudicazione: numero' (BT-541-Lot) non è compilato</entry>
-<entry key="expression|name|237">'Criterio di aggiudicazione: numero' (BT-541-LotsGroup) non è compilato</entry>
 <entry key="expression|name|238">'Il numero è un tipo di ponderazione' (BT-5421-Lot) non è compilato</entry>
 <entry key="expression|name|239">'Il numero è un tipo di ponderazione' (BT-5421-LotsGroup) non è compilato</entry>
 <entry key="expression|name|24">'Data di inizio' (BT-536-Lot) non è compilato</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Campo da pubblicare successivamente' (BT-195(BT-161)-NoticeResult) non è compilato</entry>
 <entry key="expression|name|278">'Campo da pubblicare successivamente' (BT-195(BT-162)-Tender) non è compilato</entry>
 <entry key="expression|name|279">'Campo da pubblicare successivamente' (BT-195(BT-163)-Tender) non è compilato</entry>
-<entry key="expression|name|28">'Uso del criterio' (BT-748) è 'Applicato'</entry>
 <entry key="expression|name|280">'Campo da pubblicare successivamente' (BT-195(BT-171)-Tender) non è compilato</entry>
 <entry key="expression|name|281">'Campo da pubblicare successivamente' (BT-195(BT-191)-Tender) non è compilato</entry>
 <entry key="expression|name|282">'Campo da pubblicare successivamente' (BT-195(BT-193)-Tender) non è compilato</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Campo da pubblicare successivamente' (BT-195(BT-731)-Tender) non è compilato</entry>
 <entry key="expression|name|308">'Campo da pubblicare successivamente' (BT-195(BT-733)-Lot) non è compilato</entry>
 <entry key="expression|name|309">'Campo da pubblicare successivamente' (BT-195(BT-733)-LotsGroup) non è compilato</entry>
-<entry key="expression|name|31">'Criteri di selezione per invito seconda fase: numero' (BT-752-Lot) non è vuoto</entry>
 <entry key="expression|name|310">'Campo da pubblicare successivamente' (BT-195(BT-734)-Lot) non è compilato</entry>
 <entry key="expression|name|311">'Campo da pubblicare successivamente' (BT-195(BT-734)-LotsGroup) non è compilato</entry>
 <entry key="expression|name|312">'Campo da pubblicare successivamente' (BT-195(BT-759)-LotResult) non è compilato</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Si tratta di un appalto rinnovabile' (BT-94-Lot) non è 'sì'</entry>
 <entry key="expression|name|318">'Tipo di procedura' (BT-105-Procedure) è 'Aperta'</entry>
 <entry key="expression|name|319">'Organizzazione o punto di contatto specifico' (OPT-301-Lot-ReviewInfo) non è compilato</entry>
-<entry key="expression|name|32">'Criteri di selezione per invito seconda fase: numero' (BT-752-Lot) non è vuoto</entry>
 <entry key="expression|name|320">'Si tratta di un'asta elettronica' (BT-767-Lot) non è 'sì'</entry>
 <entry key="expression|name|321">'Tipo di procedura' (BT-105) non è 'Ristretta'</entry>
 <entry key="expression|name|322">'Tipo di veicolo' (OPT-155-LotResult) non è compilato</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">È richiesta la presentazione elettronica</entry>
 <entry key="expression|name|370">Non è consentita la presentazione elettronica</entry>
 <entry key="expression|name|371">Il gruppo di lotti comprende uno o meno lotti</entry>
-<entry key="expression|name|372">'Tipo' (BT-747-Lot) non è compilato</entry>
 <entry key="expression|name|373">Il gruppo di lotti è costituito da lotti senza accordo quadro</entry>
 <entry key="expression|name|374">'Un obbligo che l'offerente deve rispettare in relazione al subappalto' (BT-66) non è compilato</entry>
 <entry key="expression|name|375">'Data di fine durata' (BT-537-Part) è compilato; 'Durata: altro' (BT-538-Part) è compilato</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Valore di riestimo dell'accordo quadro' (BT-660-LotResult) non è compilato</entry>
 <entry key="expression|name|561">'Campo da pubblicare successivamente' (BT-195(BT-660)-LotResult) non è compilato</entry>
 <entry key="expression|name|568">'Requisito di esecuzione: codice' (OPT-060-Lot) non è compilato</entry>
-<entry key="expression|name|569">'Descrizione' (BT-540-Lot) è presente e 'Criterio di aggiudicazione: numero' (BT-541-Lot-FixedNumber) &amp;amp; 'Criterio di aggiudicazione: numero' (BT-541-Lot-ThresholdNumber) non sono presenti</entry>
 <entry key="expression|name|57">'Si tratta di un accordo quadro' (BT-765-Lot) è 'Nulla'</entry>
-<entry key="expression|name|570">'Descrizione' (BT-540-Lot) è presente e 'Criterio di aggiudicazione: numero' (BT-541-Lot-WeightNumber) &amp;amp; 'Criterio di aggiudicazione: numero' (BT-541-Lot-ThresholdNumber) non sono presenti</entry>
-<entry key="expression|name|571">'Descrizione' (BT-540-Lot) è presente e 'Criterio di aggiudicazione: numero' (BT-541-Lot-WeightNumber) &amp;amp; 'Criterio di aggiudicazione: numero' (BT-541-Lot-FixedNumber) non sono presenti</entry>
-<entry key="expression|name|572">'Descrizione' (BT-540-LotsGroup) è presente e 'Criterio di aggiudicazione: numero' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Criterio di aggiudicazione: numero' (BT-541-LotsGroup-ThresholdNumber) non sono presenti</entry>
-<entry key="expression|name|573">'Descrizione' (BT-540-LotsGroup) è presente e 'Criterio di aggiudicazione: numero' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Criterio di aggiudicazione: numero' (BT-541-LotsGroup-ThresholdNumber) non sono presenti</entry>
-<entry key="expression|name|574">'Descrizione' (BT-540-LotsGroup) è presente e 'Criterio di aggiudicazione: numero' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Criterio di aggiudicazione: numero' (BT-541-LotsGroup-FixedNumber) non sono presenti</entry>
 <entry key="expression|name|575">'Criterio di aggiudicazione: numero' (BT-541-Lot-WeightNumber) non è presente</entry>
 <entry key="expression|name|576">'Criterio di aggiudicazione: numero' (BT-541-Lot-FixedNumber) non è presente</entry>
 <entry key="expression|name|577">'Criterio di aggiudicazione: numero' (BT-541-Lot-ThresholdNumber) non è presente</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Ulteriori restrizioni sul luogo di esecuzione' (BT-727-Lot) è 'Ovunque' o 'Ovunque nello Spazio economico europeo'</entry>
 <entry key="expression|name|94">'Ulteriori restrizioni sul luogo di esecuzione' (BT-727-Part) non deve essere 'Ovunque' o 'Ovunque nello Spazio economico europeo'</entry>
 <entry key="expression|name|95">'Ulteriori restrizioni sul luogo di esecuzione' (BT-727-Procedure) è 'Ovunque' o 'Ovunque nello Spazio economico europeo'</entry>
-<entry key="expression|name|96">'Criterio di aggiudicazione: numero' (BT-541-Lot) è compilato, 'Il numero è un valore determinato' (BT-5422-Lot) e 'Il numero costituisce una soglia' (BT-5423-Lot) non sono compilati</entry>
-<entry key="expression|name|97">'Criterio di aggiudicazione: numero' (BT-541-LotsGroup) è compilato, 'Il numero è un valore determinato' (BT-5422-LotsGroup) e 'Il numero costituisce una soglia' (BT-5423-LotsGroup) non sono compilati</entry>
 </properties>

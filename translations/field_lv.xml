@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Iekšējais identifikators (piemēram, no pircēja dokumentu pārvaldības sistēmas vai iepirkuma plānošanas sistēmas), ko izmanto ar iepirkuma procedūru vai daļu saistītai dokumentācijai, pirms piešķirts procedūras identifikators.</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Iekšējais identifikators (piemēram, no pircēja dokumentu pārvaldības sistēmas vai iepirkuma plānošanas sistēmas), ko izmanto ar iepirkuma procedūru vai daļu saistītai dokumentācijai, pirms piešķirts procedūras identifikators.</entry>
 <entry key="field|description|BT-23-Lot">Iepirkuma pamatveids (piemēram, būvdarbi). Jaukta iepirkuma gadījumā (piemēram, procedūra gan attiecībā uz būvdarbiem, gan attiecībā uz pakalpojumiem) pamatveidu var noteikt, piemēram, pēc komponenta ar lielāko aplēsto vērtību. Šo informāciju sniedz attiecībā uz procedūru kopumā.</entry>
+<entry key="field|description|BT-23-Lot-List">Iepirkuma pamatveids (piemēram, būvdarbi). Jaukta iepirkuma gadījumā (piemēram, procedūra gan attiecībā uz būvdarbiem, gan attiecībā uz pakalpojumiem) pamatveidu var noteikt, piemēram, pēc komponenta ar lielāko aplēsto vērtību. Šo informāciju sniedz attiecībā uz procedūru kopumā.</entry>
 <entry key="field|description|BT-23-Part">Iepirkuma pamatveids (piemēram, būvdarbi). Jaukta iepirkuma gadījumā (piemēram, procedūra gan attiecībā uz būvdarbiem, gan attiecībā uz pakalpojumiem) pamatveidu var noteikt, piemēram, pēc komponenta ar lielāko aplēsto vērtību. Šo informāciju sniedz attiecībā uz procedūru kopumā.</entry>
 <entry key="field|description|BT-23-Part-List">Iepirkuma pamatveids (piemēram, būvdarbi). Jaukta iepirkuma gadījumā (piemēram, procedūra gan attiecībā uz būvdarbiem, gan attiecībā uz pakalpojumiem) pamatveidu var noteikt, piemēram, pēc komponenta ar lielāko aplēsto vērtību. Šo informāciju sniedz attiecībā uz procedūru kopumā.</entry>
 <entry key="field|description|BT-23-Procedure">Iepirkuma pamatveids (piemēram, būvdarbi). Jaukta iepirkuma gadījumā (piemēram, procedūra gan attiecībā uz būvdarbiem, gan attiecībā uz pakalpojumiem) pamatveidu var noteikt, piemēram, pēc komponenta ar lielāko aplēsto vērtību. Šo informāciju sniedz attiecībā uz procedūru kopumā.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Apraksts par to, kā piedāvājumus, dalības pieteikumus vai intereses apstiprinājumus iesniegt neelektroniski.</entry>
 <entry key="field|description|BT-745-Lot-Language">Apraksts par to, kā piedāvājumus, dalības pieteikumus vai intereses apstiprinājumus iesniegt neelektroniski.</entry>
 <entry key="field|description|BT-746-Organization">Uzvarētāja, pretendenta vai apakšuzņēmēja faktiskā(-o) īpašnieka(-u) valstspiederība (vai valstspiederības) nav publicēta(-s) reģistrā(-os), kas izveidots(-i) ar Direktīvu (ES) 2018/843, jo uzvarētājs ir kotēts regulētā tirgū (piemēram, fondu biržā), kas nodrošina atbilstīgu pārredzamību saskaņā ar tiesību aktiem par nelikumīgi iegūtu līdzekļu legalizācijas novēršanu.</entry>
-<entry key="field|description|BT-747-Lot">Kritēriji (vai kritērijs) attiecas uz, piemēram, saimniecisko un finansiālo stāvokli vai tehniskajām un profesionālajām spējām.</entry>
-<entry key="field|description|BT-747-Lot-List">Kritēriji (vai kritērijs) attiecas uz, piemēram, saimniecisko un finansiālo stāvokli vai tehniskajām un profesionālajām spējām.</entry>
-<entry key="field|description|BT-748-Lot">Tiks izmantoti, netiks izmantoti vai (attiecībā uz iepriekšēju informatīvu paziņojumu, ko izmanto, lai izsludinātu iepirkumu vai lai saīsinātu termiņus) vēl nav zināms, vai tiks izmantoti (izmantots) attiecīgā tipa kritēriji (vai kritērijs).</entry>
-<entry key="field|description|BT-748-Lot-List">Tiks izmantoti, netiks izmantoti vai (attiecībā uz iepriekšēju informatīvu paziņojumu, ko izmanto, lai izsludinātu iepirkumu vai lai saīsinātu termiņus) vēl nav zināms, vai tiks izmantoti (izmantots) attiecīgā tipa kritēriji (vai kritērijs).</entry>
-<entry key="field|description|BT-749-Lot">Atlases kritēriju (vai kritērija) nosaukumi (vai nosaukums).</entry>
-<entry key="field|description|BT-749-Lot-Language">Atlases kritēriju (vai kritērija) nosaukumi (vai nosaukums).</entry>
 <entry key="field|description|BT-75-Lot">Apraksts par finansiālo nodrošinājumu, ko pieprasa no pretendenta, kad tas iesniedz piedāvājumu. Nodrošinājums var būt, piemēram, maksājums pircējam vai bankas garantija. Parasti nodrošinājums netiek atdots, ja pretendents ieguvis līguma slēgšanas tiesības, bet tad ir atteicies līgumu parakstīt.</entry>
 <entry key="field|description|BT-75-Lot-Language">Apraksts par finansiālo nodrošinājumu, ko pieprasa no pretendenta, kad tas iesniedz piedāvājumu. Nodrošinājums var būt, piemēram, maksājums pircējam vai bankas garantija. Parasti nodrošinājums netiek atdots, ja pretendents ieguvis līguma slēgšanas tiesības, bet tad ir atteicies līgumu parakstīt.</entry>
 <entry key="field|description|BT-750-Lot">Īss apraksts par atlases kritērijiem (vai kritēriju), ieskaitot minimālās prasības, prasīto informāciju (piemēram, pašdeklarācija, dokumentācija) un kā kritērijus vai kritēriju izmantos, lai atlasītu kandidātus, kurus uzaicinās uz procedūras otro posmu (ja tika noteikts maksimālais kandidātu skaits).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Iekšējais identifikators</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Iekšējais identifikators</entry>
 <entry key="field|name|BT-23-Lot">Līguma veids</entry>
+<entry key="field|name|BT-23-Lot-List">Līguma veids</entry>
 <entry key="field|name|BT-23-Part">Līguma veids</entry>
 <entry key="field|name|BT-23-Part-List">Līguma veids</entry>
 <entry key="field|name|BT-23-Procedure">Līguma veids</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Nosaukums</entry>
 <entry key="field|name|BT-632-Part">Nosaukums</entry>
 <entry key="field|name|BT-633-Organization">Organizācija ir fiziska persona</entry>
-<entry key="field|name|BT-634-Lot">Šī atceltā vai nesekmīgā procedūra vai daļa tiks atsākta</entry>
-<entry key="field|name|BT-634-Procedure">Šī atceltā vai nesekmīgā procedūra vai daļa tiks atsākta</entry>
+<entry key="field|name|BT-634-Lot">Ja lots tiek atcelts vai neizdodas, tas tiks atkārtoti uzsākts</entry>
+<entry key="field|name|BT-634-Procedure">Ja procedūra tiek atcelta vai neizdodas, tā tiks atkārtoti uzsākta</entry>
 <entry key="field|name|BT-635-LotResult">Pārskatīšanas pieprasījumu skaits</entry>
 <entry key="field|name|BT-636-LotResult">Norādīto pārkāpumu raksturs</entry>
 <entry key="field|name|BT-636-LotResult-List">Norādīto pārkāpumu raksturs</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Iepirkums ietilpst Eiropas Parlamenta un Padomes Direktīvas 2009/33/EK (“Tīro transportlīdzekļu direktīvas” – TTD) darbības jomā</entry>
 <entry key="field|name|BT-718-notice">Datums, kad veiktas izmaiņas iepirkuma dokumentos</entry>
 <entry key="field|name|BT-719-notice">Izmaiņas iepirkuma dokumentos – datums</entry>
-<entry key="field|name|BT-720-Tender">Rezultāta vērtība</entry>
-<entry key="field|name|BT-720-Tender-Currency">Rezultāta vērtība</entry>
+<entry key="field|name|BT-720-Tender">Vērtība iepirkuma</entry>
+<entry key="field|name|BT-720-Tender-Currency">Vērtība iepirkuma</entry>
 <entry key="field|name|BT-721-Contract">Nosaukums</entry>
 <entry key="field|name|BT-721-Contract-Language">Nosaukums</entry>
 <entry key="field|name|BT-722-Contract">ES finansētā projekta vai programmas nosaukums</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Apraksts</entry>
 <entry key="field|name|BT-745-Lot-Language">Apraksts</entry>
 <entry key="field|name|BT-746-Organization">Uzvarētājs ir kotēts regulētā tirgū</entry>
-<entry key="field|name|BT-747-Lot">Veids</entry>
-<entry key="field|name|BT-747-Lot-List">Veids</entry>
-<entry key="field|name|BT-748-Lot">Šī kritērija izmantojums</entry>
-<entry key="field|name|BT-748-Lot-List">Šī kritērija izmantojums</entry>
-<entry key="field|name|BT-749-Lot">Nosaukums</entry>
-<entry key="field|name|BT-749-Lot-Language">Nosaukums</entry>
 <entry key="field|name|BT-75-Lot">Finanšu garantijas apraksts</entry>
 <entry key="field|name|BT-75-Lot-Language">Finanšu garantijas apraksts</entry>
 <entry key="field|name|BT-750-Lot">Apraksts</entry>

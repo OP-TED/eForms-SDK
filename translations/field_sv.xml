@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Den interna identifierare som används för filer avseende upphandlingsförfarandet eller delkontraktet innan en identifierare för hela upphandlingen har erhållits (t.ex. en identifierare från köparens dokumenthanteringssystem eller upphandlingssystem).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Den interna identifierare som används för filer avseende upphandlingsförfarandet eller delkontraktet innan en identifierare för hela upphandlingen har erhållits (t.ex. en identifierare från köparens dokumenthanteringssystem eller upphandlingssystem).</entry>
 <entry key="field|description|BT-23-Lot">Det huvudsakliga upphandlingsslaget (t.ex. byggentreprenader) för det som anskaffas. Vid blandad upphandling (t.ex. ett förfarande för både byggentreprenader och tjänster) kan det huvudsakliga slaget t.ex. vara det slag som har det beräknade högsta värdet. Denna information ska lämnas för hela upphandlingen.</entry>
+<entry key="field|description|BT-23-Lot-List">Det huvudsakliga upphandlingsslaget (t.ex. byggentreprenader) för det som anskaffas. Vid blandad upphandling (t.ex. ett förfarande för både byggentreprenader och tjänster) kan det huvudsakliga slaget t.ex. vara det slag som har det beräknade högsta värdet. Denna information ska lämnas för hela upphandlingen.</entry>
 <entry key="field|description|BT-23-Part">Det huvudsakliga upphandlingsslaget (t.ex. byggentreprenader) för det som anskaffas. Vid blandad upphandling (t.ex. ett förfarande för både byggentreprenader och tjänster) kan det huvudsakliga slaget t.ex. vara det slag som har det beräknade högsta värdet. Denna information ska lämnas för hela upphandlingen.</entry>
 <entry key="field|description|BT-23-Part-List">Det huvudsakliga upphandlingsslaget (t.ex. byggentreprenader) för det som anskaffas. Vid blandad upphandling (t.ex. ett förfarande för både byggentreprenader och tjänster) kan det huvudsakliga slaget t.ex. vara det slag som har det beräknade högsta värdet. Denna information ska lämnas för hela upphandlingen.</entry>
 <entry key="field|description|BT-23-Procedure">Det huvudsakliga upphandlingsslaget (t.ex. byggentreprenader) för det som anskaffas. Vid blandad upphandling (t.ex. ett förfarande för både byggentreprenader och tjänster) kan det huvudsakliga slaget t.ex. vara det slag som har det beräknade högsta värdet. Denna information ska lämnas för hela upphandlingen.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Beskrivning av hur intresseanmälan, anbudsansökan eller anbud ska inlämnas på icke-elektronisk väg.</entry>
 <entry key="field|description|BT-745-Lot-Language">Beskrivning av hur intresseanmälan, anbudsansökan eller anbud ska inlämnas på icke-elektronisk väg.</entry>
 <entry key="field|description|BT-746-Organization">Nationaliteten (eller nationaliteterna) för vinnarens, anbudsgivarens eller underentreprenörens verkliga huvudman offentliggörs inte i det eller de register som upprättats i enlighet med direktiv (EU) 2018/843, eftersom vinnaren är noterad på en reglerad marknad (t.ex. en värdepappersbörs) som garanterar tillräcklig insyn i enlighet med lagstiftningen om bekämpning av penningtvätt.</entry>
-<entry key="field|description|BT-747-Lot">Kriterierna (eller kriteriet) avser t.ex. ekonomisk och finansiell ställning eller tekniska och yrkesmässiga kunskaper.</entry>
-<entry key="field|description|BT-747-Lot-List">Kriterierna (eller kriteriet) avser t.ex. ekonomisk och finansiell ställning eller tekniska och yrkesmässiga kunskaper.</entry>
-<entry key="field|description|BT-748-Lot">De kriterier (eller det kriterium) för en viss typ som används, inte används eller (om ett förhandsmeddelande används som ett meddelande om upphandling eller för att minska tidsfristerna) om användningen ännu inte är känd.</entry>
-<entry key="field|description|BT-748-Lot-List">De kriterier (eller det kriterium) för en viss typ som används, inte används eller (om ett förhandsmeddelande används som ett meddelande om upphandling eller för att minska tidsfristerna) om användningen ännu inte är känd.</entry>
-<entry key="field|description|BT-749-Lot">Namn på urvalskriterierna (eller urvalskriteriet).</entry>
-<entry key="field|description|BT-749-Lot-Language">Namn på urvalskriterierna (eller urvalskriteriet).</entry>
 <entry key="field|description|BT-75-Lot">Beskrivningen av den finansiella garanti som anbudsgivaren är skyldig att ställa när denne lämnar ett anbud. Garantin kan ställas i form av exempelvis en betalning till köparen eller en handling från banken. Garantin är vanligtvis förverkad om en anbudsgivare har fått kontraktet, men därefter vägrar att underteckna det.</entry>
 <entry key="field|description|BT-75-Lot-Language">Beskrivningen av den finansiella garanti som anbudsgivaren är skyldig att ställa när denne lämnar ett anbud. Garantin kan ställas i form av exempelvis en betalning till köparen eller en handling från banken. Garantin är vanligtvis förverkad om en anbudsgivare har fått kontraktet, men därefter vägrar att underteckna det.</entry>
 <entry key="field|description|BT-750-Lot">En kortfattad beskrivning av urvalskriterierna (eller urvalskriteriet), inklusive minimikrav, erforderlig information (t.ex. egen försäkran, dokumentation) och hur kriterierna eller kriteriet kommer att användas för att välja ut de anbudssökande som ska inbjudas till det andra steget i förfarandet (om ett högsta antal anbudssökande har fastställts).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Intern identifierare</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Intern identifierare</entry>
 <entry key="field|name|BT-23-Lot">Kontraktets art</entry>
+<entry key="field|name|BT-23-Lot-List">Kontraktets art</entry>
 <entry key="field|name|BT-23-Part">Kontraktets art</entry>
 <entry key="field|name|BT-23-Part-List">Kontraktets art</entry>
 <entry key="field|name|BT-23-Procedure">Kontraktets art</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Namn</entry>
 <entry key="field|name|BT-632-Part">Namn</entry>
 <entry key="field|name|BT-633-Organization">Organisationen är en fysisk person</entry>
-<entry key="field|name|BT-634-Lot">Den här avbrutna eller resultatlösa upphandlingen eller delen i upphandlingen kommer att göras om</entry>
-<entry key="field|name|BT-634-Procedure">Den här avbrutna eller resultatlösa upphandlingen eller delen i upphandlingen kommer att göras om</entry>
+<entry key="field|name|BT-634-Lot">Om posten avbryts eller misslyckas, kommer den att startas om</entry>
+<entry key="field|name|BT-634-Procedure">Om förfarandet avbryts eller misslyckas, kommer det att startas om</entry>
 <entry key="field|name|BT-635-LotResult">Antal ansökningar om prövning hos köparen</entry>
 <entry key="field|name|BT-636-LotResult">Typ av oriktighetstyp</entry>
 <entry key="field|name|BT-636-LotResult-List">Typ av oriktighetstyp</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Upphandlingen omfattas av tillämpningsområdet för Europaparlamentets och rådets direktiv 2009/33/EG (direktivet om rena fordon)</entry>
 <entry key="field|name|BT-718-notice">Upphandlingsdokumenten ändrades den</entry>
 <entry key="field|name|BT-719-notice">Datum för ändring av upphandlingsdokument</entry>
-<entry key="field|name|BT-720-Tender">Anbudsvärde</entry>
-<entry key="field|name|BT-720-Tender-Currency">Anbudsvärde</entry>
+<entry key="field|name|BT-720-Tender">Värde på upphandlingen</entry>
+<entry key="field|name|BT-720-Tender-Currency">Värde på upphandlingen</entry>
 <entry key="field|name|BT-721-Contract">Titel</entry>
 <entry key="field|name|BT-721-Contract-Language">Titel</entry>
 <entry key="field|name|BT-722-Contract">Namnet på det EU-finansierade projektet eller programmet</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Beskrivning</entry>
 <entry key="field|name|BT-745-Lot-Language">Beskrivning</entry>
 <entry key="field|name|BT-746-Organization">Vinnaren är noterad på en reglerad marknad</entry>
-<entry key="field|name|BT-747-Lot">Typ</entry>
-<entry key="field|name|BT-747-Lot-List">Typ</entry>
-<entry key="field|name|BT-748-Lot">Användning av det här kriteriet</entry>
-<entry key="field|name|BT-748-Lot-List">Användning av det här kriteriet</entry>
-<entry key="field|name|BT-749-Lot">Namn</entry>
-<entry key="field|name|BT-749-Lot-Language">Namn</entry>
 <entry key="field|name|BT-75-Lot">Beskrivning av den finansiella garantin</entry>
 <entry key="field|name|BT-75-Lot-Language">Beskrivning av den finansiella garantin</entry>
 <entry key="field|name|BT-750-Lot">Beskrivning</entry>
@@ -2435,8 +2425,8 @@
 <entry key="field|name|OPT-302-Organization-Scheme">Organisationen som utför denna roll</entry>
 <entry key="field|name|OPT-310-Tender">Anbudsgivare</entry>
 <entry key="field|name|OPT-310-Tender-Scheme">Anbudsgivare</entry>
-<entry key="field|name|OPT-315-LotResult">Hänvisning till kontraktet</entry>
-<entry key="field|name|OPT-315-LotResult-Scheme">Hänvisning till kontraktet</entry>
+<entry key="field|name|OPT-315-LotResult">Referens till kontraktet</entry>
+<entry key="field|name|OPT-315-LotResult-Scheme">Referens till kontraktet</entry>
 <entry key="field|name|OPT-316-Contract">Tekniskt ID för kontraktet</entry>
 <entry key="field|name|OPT-316-Contract-Scheme">Tekniskt ID för kontraktet</entry>
 <entry key="field|name|OPT-320-LotResult">Tekniskt ID för mottaget anbud</entry>

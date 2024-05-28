@@ -140,7 +140,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">cbe9e7b7-6860-4bb1-a200-b3ada0ff6fbe</cbc:ID>
 	<cbc:ContractFolderID>75db4bef-aae6-41f1-a593-d5dc62abd907</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -168,6 +168,10 @@
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">neg-wo-call</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="direct-award-justification">urgency</cbc:ProcessReasonCode>
+			<cbc:ProcessReason languageID="ENG">Because of urgencey...</cbc:ProcessReason>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Ante nte vol2 </cbc:Name>

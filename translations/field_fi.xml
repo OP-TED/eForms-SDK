@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Hankintamenettelyyn tai yksittäiseen erään liittyvien tiedostojen sisäinen tunniste, jota käytetään ennen menettelytunnisteen antamista. Sisäinen tunniste voi olla peräisin esimerkiksi ostajan asiakirjahallinta- tai hankintasuunnittelujärjestelmästä.</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Hankintamenettelyyn tai yksittäiseen erään liittyvien tiedostojen sisäinen tunniste, jota käytetään ennen menettelytunnisteen antamista. Sisäinen tunniste voi olla peräisin esimerkiksi ostajan asiakirjahallinta- tai hankintasuunnittelujärjestelmästä.</entry>
 <entry key="field|description|BT-23-Lot">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
+<entry key="field|description|BT-23-Lot-List">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
 <entry key="field|description|BT-23-Part">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
 <entry key="field|description|BT-23-Part-List">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
 <entry key="field|description|BT-23-Procedure">Hankinnan pääkategoria (esim. urakka). Jos kyseessä on sekamuotoinen hankinta (esim. sekä urakoita että palveluja koskeva menettely), pääkategoria voi olla esimerkiksi arvoltaan korkeimmaksi arvioitu. Nämä tiedot on annettava koko menettelystä.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Kuvaus siitä, miten tarjoukset, osallistumishakemukset tai kiinnostuksenilmaisut jätetään muuten kuin sähköisesti.</entry>
 <entry key="field|description|BT-745-Lot-Language">Kuvaus siitä, miten tarjoukset, osallistumishakemukset tai kiinnostuksenilmaisut jätetään muuten kuin sähköisesti.</entry>
 <entry key="field|description|BT-746-Organization">Voittajan, tarjoajan tai alihankkijan taloudellisen omistajan kansalaisuutta (kansalaisuuksia) ei ole julkaistu direktiivin (EU) 2018/843 nojalla laaditu(i)ssa rekister(e)issä, koska voittaja on noteerattu säännellyillä markkinoilla (esim. arvopaperipörssissä), mikä varmistaa riittävän avoimuuden rahanpesun torjuntaa koskevan lainsäädännön mukaisesti.</entry>
-<entry key="field|description|BT-747-Lot">Perusteet (tai peruste) koskevat esimerkiksi taloudellista ja rahoituksellista tilannetta tai teknistä ja ammatillista pätevyyttä.</entry>
-<entry key="field|description|BT-747-Lot-List">Perusteet (tai peruste) koskevat esimerkiksi taloudellista ja rahoituksellista tilannetta tai teknistä ja ammatillista pätevyyttä.</entry>
-<entry key="field|description|BT-748-Lot">Tietyn tyyppisiä perusteita (tai perustetta) käytetään, ei käytetä tai (jos kyseessä on ennakkoilmoitus kutsuna tarjouskilpailuun tai määräaikojen lyhentämiseksi) käyttö ei ole vielä tiedossa.</entry>
-<entry key="field|description|BT-748-Lot-List">Tietyn tyyppisiä perusteita (tai perustetta) käytetään, ei käytetä tai (jos kyseessä on ennakkoilmoitus kutsuna tarjouskilpailuun tai määräaikojen lyhentämiseksi) käyttö ei ole vielä tiedossa.</entry>
-<entry key="field|description|BT-749-Lot">Valintaperusteiden (tai -perusteen) nimi.</entry>
-<entry key="field|description|BT-749-Lot-Language">Valintaperusteiden (tai -perusteen) nimi.</entry>
 <entry key="field|description|BT-75-Lot">Tarjoajalta tarjouksen jättämisen yhteydessä vaadittavan rahallisen vakuuden kuvaus. Vakuus voi olla esimerkiksi ostajalle suoritettava maksu tai pankin antama asiakirja. Yleensä vakuus menetetään, jos tarjoaja on voittanut sopimuksen mutta kieltäytyy allekirjoittamasta sitä.</entry>
 <entry key="field|description|BT-75-Lot-Language">Tarjoajalta tarjouksen jättämisen yhteydessä vaadittavan rahallisen vakuuden kuvaus. Vakuus voi olla esimerkiksi ostajalle suoritettava maksu tai pankin antama asiakirja. Yleensä vakuus menetetään, jos tarjoaja on voittanut sopimuksen mutta kieltäytyy allekirjoittamasta sitä.</entry>
 <entry key="field|description|BT-750-Lot">Lyhyt kuvaus valintaperusteista (tai -perusteesta), mukaan lukien vähimmäisvaatimukset, vaaditut tiedot (esim. oma ilmoitus, dokumentaatio) ja siitä, miten perusteita (tai perustetta) käytetään valittaessa menettelyn jälkimmäiseen vaiheeseen kutsuttavia ehdokkaita (jos ehdokkaille on asetettu enimmäismäärä).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Sisäinen tunniste</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Sisäinen tunniste</entry>
 <entry key="field|name|BT-23-Lot">Sopimuksen kategoria</entry>
+<entry key="field|name|BT-23-Lot-List">Sopimuksen kategoria</entry>
 <entry key="field|name|BT-23-Part">Sopimuksen kategoria</entry>
 <entry key="field|name|BT-23-Part-List">Sopimuksen kategoria</entry>
 <entry key="field|name|BT-23-Procedure">Sopimuksen kategoria</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Nimi</entry>
 <entry key="field|name|BT-632-Part">Nimi</entry>
 <entry key="field|name|BT-633-Organization">Organisaatio on luonnollinen henkilö</entry>
-<entry key="field|name|BT-634-Lot">Tämä peruutettu tai tulokseton menettely tai erä käynnistetään uudelleen</entry>
-<entry key="field|name|BT-634-Procedure">Tämä peruutettu tai tulokseton menettely tai erä käynnistetään uudelleen</entry>
+<entry key="field|name|BT-634-Lot">Jos erä peruutetaan tai epäonnistuu, se käynnistetään uudelleen</entry>
+<entry key="field|name|BT-634-Procedure">Jos menettely peruutetaan tai epäonnistuu, se käynnistetään uudelleen</entry>
 <entry key="field|name|BT-635-LotResult">Muutoksenhakujen lukumäärä</entry>
 <entry key="field|name|BT-636-LotResult">Muutoksenhauissa väitetyt sääntöjenvastaisuudet tyypiltään</entry>
 <entry key="field|name|BT-636-LotResult-List">Muutoksenhauissa väitetyt sääntöjenvastaisuudet tyypiltään</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Hankinta kuuluu Euroopan parlamentin ja neuvoston direktiivin 2009/33/EY (puhtaita ajoneuvoja koskeva direktiivi) soveltamisalaan</entry>
 <entry key="field|name|BT-718-notice">Hankinta-asiakirjoja on muutettu</entry>
 <entry key="field|name|BT-719-notice">Hankinta-asiakirjojen muutoksen päivämäärä</entry>
-<entry key="field|name|BT-720-Tender">Tuloksen arvo</entry>
-<entry key="field|name|BT-720-Tender-Currency">Tuloksen arvo</entry>
+<entry key="field|name|BT-720-Tender">Tarjouksen arvo</entry>
+<entry key="field|name|BT-720-Tender-Currency">Tarjouksen arvo</entry>
 <entry key="field|name|BT-721-Contract">Otsikko</entry>
 <entry key="field|name|BT-721-Contract-Language">Otsikko</entry>
 <entry key="field|name|BT-722-Contract">EU:n rahoittaman hankkeen tai ohjelman nimi</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Kuvaus</entry>
 <entry key="field|name|BT-745-Lot-Language">Kuvaus</entry>
 <entry key="field|name|BT-746-Organization">Voittaja on noteerattu säännellyillä markkinoilla</entry>
-<entry key="field|name|BT-747-Lot">Tyyppi</entry>
-<entry key="field|name|BT-747-Lot-List">Tyyppi</entry>
-<entry key="field|name|BT-748-Lot">Tämän perusteen käyttö</entry>
-<entry key="field|name|BT-748-Lot-List">Tämän perusteen käyttö</entry>
-<entry key="field|name|BT-749-Lot">Nimi</entry>
-<entry key="field|name|BT-749-Lot-Language">Nimi</entry>
 <entry key="field|name|BT-75-Lot">Vakuuden kuvaus</entry>
 <entry key="field|name|BT-75-Lot-Language">Vakuuden kuvaus</entry>
 <entry key="field|name|BT-750-Lot">Kuvaus</entry>

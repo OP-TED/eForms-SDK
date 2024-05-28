@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>ExclusionGround</ShortName>
+      <LongName>exclusion-ground</LongName>
+      <Version>1.0</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-corrpt</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Corruption</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Corruption</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-fraud</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fraud</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Fraud</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-laund</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-part</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-terror</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-traffick</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Child labour and including other forms of trafficking in human beings</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Child labour and including other forms of trafficking in human beings</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-bre-env-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-bre-lab-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-bre-soc-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-distortion</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-misconduct</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Grave professional misconduct</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Grave professional misconduct</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-misrepresent</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-off-cond</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Offence concerning its professional conduct in the domain of defence procurement</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Offence concerning its professional conduct in the domain of defence procurement</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-partic-confl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-prep-confl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-sanction</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Early termination, damages, or other comparable sanctions</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Early termination, damages, or other comparable sanctions</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-unrel-sec</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unreliability to exclude risks to the security of the country</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Unreliability to exclude risks to the security of the country</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-natl-bre-nat-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations set under purely national exclusion grounds</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations set under purely national exclusion grounds</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-pmt-bre-ssc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching obligation relating to payment of social security contributions</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching obligation relating to payment of social security contributions</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-pmt-bre-tax</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching obligation relating to payment of taxes</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching obligation relating to payment of taxes</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-as-susp</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Business activities are suspended</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Business activities are suspended</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-bankr</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bankruptcy</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bankruptcy</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-cred-arran</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Arrangement with creditors</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arrangement with creditors</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-insolvency</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Insolvency</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Insolvency</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-liq-admin</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Analogous situation like bankruptcy, insolvency or arrangement with creditors under national law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Analogous situation like bankruptcy, insolvency or arrangement with creditors under national law</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

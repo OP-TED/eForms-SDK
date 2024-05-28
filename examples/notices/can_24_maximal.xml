@@ -191,6 +191,8 @@
 							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<!--"id": "BT-171-Tender",	"name": "Tender Rank"-->
 							<cbc:RankCode>3</cbc:RankCode>
+							<!--"id": "BT-682-Tender" -->
+							<efbc:ForeignSubsidiesMeasuresCode listName="foreign-subsidy-measure-conclusion">fsr-adm-clos</efbc:ForeignSubsidiesMeasuresCode>
 							<!--"id": "BT-1711-Tender",	"name": "Tender Ranked"-->
 							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--"id": "BT-193-Tender","name": "Tender Variant",-->
@@ -234,6 +236,8 @@
 							<cbc:ID schemeName="tender">TEN-0002</cbc:ID>
 							<!--"id": "BT-171-Tender",	"name": "Tender Rank"-->
 							<cbc:RankCode>4</cbc:RankCode>
+							<!--"id": "BT-682-Tender" -->
+							<efbc:ForeignSubsidiesMeasuresCode listName="foreign-subsidy-measure-conclusion">fsr-no-obj</efbc:ForeignSubsidiesMeasuresCode>
 							<!--"id": "BT-1711-Tender",	"name": "Tender Ranked"-->
 							<efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
 							<!--"id": "BT-193-Tender","name": "Tender Variant",-->
@@ -1130,7 +1134,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<!--   "id" : "OPT-002-notice","name" : "Customization ID (UBL)" -->
-	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
 	<!--     "id" : "BT-701-notice","name" : "Notice Identifier" -->
 	<cbc:ID schemeName="notice-id">15377ca1-6cf7-4060-90f0-9290128957a3</cbc:ID>
 	<!--"id" : "BT-04-notice", "name" : "Procedure Identifier"-->
@@ -1433,6 +1437,10 @@
 					</cac:PartyIdentification>
 				</cac:IssuerParty>
 			</cac:EmploymentLegislationDocumentReference>
+			<cac:ContractExecutionRequirement>
+				<!--"id" : "BT-681-Lot" -->
+				<cbc:ExecutionRequirementCode listName="fsr">true</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
 			<!-- LOT-0001 - Awarding criteria -->
 			<cac:AwardingTerms>
 				<cac:AwardingCriterion>

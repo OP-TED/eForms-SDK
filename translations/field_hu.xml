@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Belső azonosító, amelyet az eljárásazonosító meghatározása előtt alkalmaznak a közbeszerzési eljárással vagy résszel kapcsolatos iratokra (pl. amely az ajánlatkérő szervezet dokumentumkezelő rendszeréből vagy a közbeszerzés-tervezési rendszeréből származik).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Belső azonosító, amelyet az eljárásazonosító meghatározása előtt alkalmaznak a közbeszerzési eljárással vagy résszel kapcsolatos iratokra (pl. amely az ajánlatkérő szervezet dokumentumkezelő rendszeréből vagy a közbeszerzés-tervezési rendszeréből származik).</entry>
 <entry key="field|description|BT-23-Lot">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
+<entry key="field|description|BT-23-Lot-List">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
 <entry key="field|description|BT-23-Part">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
 <entry key="field|description|BT-23-Part-List">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
 <entry key="field|description|BT-23-Procedure">A beszerzés fő tárgya (pl. építési beruházás). Vegyes beszerzés esetén (pl. építési beruházásra és szolgáltatásokra irányuló eljárás) a fő tárgy lehet például a legnagyobb becsült értékkel rendelkező. Ezt az információt a teljes eljárásra vonatkozóan kell megadni.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Annak leírása, hogy hogyan kell nem elektronikusan benyújtani az ajánlatokat, a részvételi jelentkezéseket vagy a szándéknyilatkozatokat.</entry>
 <entry key="field|description|BT-745-Lot-Language">Annak leírása, hogy hogyan kell nem elektronikusan benyújtani az ajánlatokat, a részvételi jelentkezéseket vagy a szándéknyilatkozatokat.</entry>
 <entry key="field|description|BT-746-Organization">A nyertes, ajánlattevő vagy alvállalkozó tényleges tulajdonosának (tulajdonosainak) állampolgársága nincs közzétéve az (EU) 2018/843 irányelv szerint létrehozott nyilvántartásban, mivel a nyertes szabályozott piacon (pl. tőzsdén) jegyzett, amely a pénzmosás elleni jogszabályokkal összhangban megfelelő átláthatóságot biztosít.</entry>
-<entry key="field|description|BT-747-Lot">A követelmények (követelmény) például a gazdasági és pénzügyi helyzetre vagy a technikai és szakmai alkalmasságra vonatkoznak (vonatkozik).</entry>
-<entry key="field|description|BT-747-Lot-List">A követelmények (követelmény) például a gazdasági és pénzügyi helyzetre vagy a technikai és szakmai alkalmasságra vonatkoznak (vonatkozik).</entry>
-<entry key="field|description|BT-748-Lot">Az adott típusú követelmény vagy követelmények alkalmazására sor kerül vagy nem, vagy (az eljárást megindító felhívásként használt vagy határidők csökkentésére irányuló előzetes tájékoztató esetén) még nem ismert, hogy sor kerül-e az alkalmazásra.</entry>
-<entry key="field|description|BT-748-Lot-List">Az adott típusú követelmény vagy követelmények alkalmazására sor kerül vagy nem, vagy (az eljárást megindító felhívásként használt vagy határidők csökkentésére irányuló előzetes tájékoztató esetén) még nem ismert, hogy sor kerül-e az alkalmazásra.</entry>
-<entry key="field|description|BT-749-Lot">Az alkalmassági követelmények (vagy követelmény) neve.</entry>
-<entry key="field|description|BT-749-Lot-Language">Az alkalmassági követelmények (vagy követelmény) neve.</entry>
 <entry key="field|description|BT-75-Lot">Az ajánlattevő által az ajánlat benyújtásakor teljesítendő biztosítéknyújtási kötelezettség leírása. A biztosítéknyújtás például lehet az ajánlatkérő szervezetnek történő kifizetés vagy a bankból származó dokumentum. A nyújtott biztosíték jellemzően elvész, ha az ajánlattevő elnyerte a szerződést, azonban elutasítja annak aláírását.</entry>
 <entry key="field|description|BT-75-Lot-Language">Az ajánlattevő által az ajánlat benyújtásakor teljesítendő biztosítéknyújtási kötelezettség leírása. A biztosítéknyújtás például lehet az ajánlatkérő szervezetnek történő kifizetés vagy a bankból származó dokumentum. A nyújtott biztosíték jellemzően elvész, ha az ajánlattevő elnyerte a szerződést, azonban elutasítja annak aláírását.</entry>
 <entry key="field|description|BT-750-Lot">Az alkalmassági követelmények (vagy követelmény) rövid leírása, beleértve a minimumkövetelményeket, a kötelező információt (pl. önbevallás, dokumentáció), valamint az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkozó követelmény vagy követelmények alkalmazásának módját (ha meg van határozva a jelentkezők maximális száma).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Belső azonosító</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Belső azonosító</entry>
 <entry key="field|name|BT-23-Lot">A szerződés jellege</entry>
+<entry key="field|name|BT-23-Lot-List">A szerződés jellege</entry>
 <entry key="field|name|BT-23-Part">A szerződés jellege</entry>
 <entry key="field|name|BT-23-Part-List">A szerződés jellege</entry>
 <entry key="field|name|BT-23-Procedure">A szerződés jellege</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Megnevezés</entry>
 <entry key="field|name|BT-632-Part">Megnevezés</entry>
 <entry key="field|name|BT-633-Organization">A szervezet természetes személy.</entry>
-<entry key="field|name|BT-634-Lot">Újból sor kerül majd e törölt vagy sikertelen eljárásra vagy annak egy részére</entry>
-<entry key="field|name|BT-634-Procedure">Újból sor kerül majd e törölt vagy sikertelen eljárásra vagy annak egy részére</entry>
+<entry key="field|name|BT-634-Lot">Ha a tétel törölve van vagy sikertelen, újraindítják</entry>
+<entry key="field|name|BT-634-Procedure">Ha az eljárás törölve van vagy sikertelen, újraindítják</entry>
 <entry key="field|name|BT-635-LotResult">Vevői felülvizsgálati kérelmek száma</entry>
 <entry key="field|name|BT-636-LotResult">Az állítólagos szabálytalanság típusa</entry>
 <entry key="field|name|BT-636-LotResult-List">Az állítólagos szabálytalanság típusa</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">A közbeszerzés a 2009/33/EK európai parlamenti és tanácsi irányelv (a tiszta járművekről szóló irányelv – CVD) hatálya alá tartozik.</entry>
 <entry key="field|name|BT-718-notice">A közbeszerzési dokumentumokat ebben az időpontban módosították</entry>
 <entry key="field|name|BT-719-notice">A közbeszerzési dokumentumok megváltoztatásának dátuma</entry>
-<entry key="field|name|BT-720-Tender">Az eredmény értéke</entry>
-<entry key="field|name|BT-720-Tender-Currency">Az eredmény értéke</entry>
+<entry key="field|name|BT-720-Tender">Ajánlat értéke</entry>
+<entry key="field|name|BT-720-Tender-Currency">Ajánlat értéke</entry>
 <entry key="field|name|BT-721-Contract">Cím</entry>
 <entry key="field|name|BT-721-Contract-Language">Cím</entry>
 <entry key="field|name|BT-722-Contract">Az uniós finanszírozású projekt vagy program neve</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Leírás</entry>
 <entry key="field|name|BT-745-Lot-Language">Leírás</entry>
 <entry key="field|name|BT-746-Organization">A nyertes szabályozott piacon jegyzett</entry>
-<entry key="field|name|BT-747-Lot">Típus</entry>
-<entry key="field|name|BT-747-Lot-List">Típus</entry>
-<entry key="field|name|BT-748-Lot">E kritérium alkalmazása</entry>
-<entry key="field|name|BT-748-Lot-List">E kritérium alkalmazása</entry>
-<entry key="field|name|BT-749-Lot">Megnevezés</entry>
-<entry key="field|name|BT-749-Lot-Language">Megnevezés</entry>
 <entry key="field|name|BT-75-Lot">A pénzügyi biztosíték ismertetése</entry>
 <entry key="field|name|BT-75-Lot-Language">A pénzügyi biztosíték ismertetése</entry>
 <entry key="field|name|BT-750-Lot">Leírás</entry>

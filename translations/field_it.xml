@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">L'identificativo interno utilizzato per i fascicoli riguardanti la procedura di appalto o il lotto prima dell'attribuzione di un identificativo della procedura (ad es. assegnato dal sistema di gestione dei documenti del committente o dal sistema di programmazione degli appalti).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">L'identificativo interno utilizzato per i fascicoli riguardanti la procedura di appalto o il lotto prima dell'attribuzione di un identificativo della procedura (ad es. assegnato dal sistema di gestione dei documenti del committente o dal sistema di programmazione degli appalti).</entry>
 <entry key="field|description|BT-23-Lot">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
+<entry key="field|description|BT-23-Lot-List">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
 <entry key="field|description|BT-23-Part">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
 <entry key="field|description|BT-23-Part-List">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
 <entry key="field|description|BT-23-Procedure">La natura principale (ad es. lavori) dell'oggetto dell'appalto. In caso di appalti misti (ad es. un appalto per beni e servizi), la natura principale può essere, ad esempio, quella dal valore stimato superiore. Tali informazioni sono fornite per la procedura complessiva.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Descrizione delle modalità di presentazione di offerte, domande di partecipazione o espressioni di interesse per via non elettronica.</entry>
 <entry key="field|description|BT-745-Lot-Language">Descrizione delle modalità di presentazione di offerte, domande di partecipazione o espressioni di interesse per via non elettronica.</entry>
 <entry key="field|description|BT-746-Organization">Nazionalità o cittadinanze dei beneficiari effettivi del vincitore, dell'offerente o del subappaltatore non sono pubblicate nei registri previsti alla direttiva (UE) 2018/843 del Parlamento europeo e del Consiglio perché il vincitore è quotato su un mercato regolamentato (ad es. una borsa valori) che assicura il livello adeguato di trasparenza nel rispetto della legislazione antiriciclaggio.</entry>
-<entry key="field|description|BT-747-Lot">I criteri riguardano, ad esempio, la capacità economica e finanziaria o le capacità tecniche e professionali.</entry>
-<entry key="field|description|BT-747-Lot-List">I criteri riguardano, ad esempio, la capacità economica e finanziaria o le capacità tecniche e professionali.</entry>
-<entry key="field|description|BT-748-Lot">Il criterio o i criteri del tipo dato sono stati applicati, non applicati oppure (nel caso di un avviso di preinformazione utilizzato come avviso di indizione di gara o per abbreviare i termini) la loro applicazione non è ancora nota.</entry>
-<entry key="field|description|BT-748-Lot-List">Il criterio o i criteri del tipo dato sono stati applicati, non applicati oppure (nel caso di un avviso di preinformazione utilizzato come avviso di indizione di gara o per abbreviare i termini) la loro applicazione non è ancora nota.</entry>
-<entry key="field|description|BT-749-Lot">Il nome del criterio (o dei criteri) di selezione.</entry>
-<entry key="field|description|BT-749-Lot-Language">Il nome del criterio (o dei criteri) di selezione.</entry>
 <entry key="field|description|BT-75-Lot">Descrizione della garanzia finanziaria obbligatoria dell'offerente al momento di presentare un'offerta. La garanzia può assumere la forma, per esempio, di un versamento al committente o di un documento bancario. La garanzia è di solito persa se l'offerente si è visto aggiudicare l'appalto ma ha rifiutato di firmare il contratto.</entry>
 <entry key="field|description|BT-75-Lot-Language">Descrizione della garanzia finanziaria obbligatoria dell'offerente al momento di presentare un'offerta. La garanzia può assumere la forma, per esempio, di un versamento al committente o di un documento bancario. La garanzia è di solito persa se l'offerente si è visto aggiudicare l'appalto ma ha rifiutato di firmare il contratto.</entry>
 <entry key="field|description|BT-750-Lot">Breve descrizione del criterio (o dei criteri) di selezione, compresi i requisiti minimi, le informazioni richieste (ad es. autodichiarazione, documentazione) e in qual modo il criterio o i criteri saranno utilizzati per la selezione dei candidati da invitare alla seconda fase della procedura (se è stabilito un numero massimo di candidati).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Identificativo interno</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Identificativo interno</entry>
 <entry key="field|name|BT-23-Lot">Natura dell'appalto</entry>
+<entry key="field|name|BT-23-Lot-List">Natura dell'appalto</entry>
 <entry key="field|name|BT-23-Part">Natura dell'appalto</entry>
 <entry key="field|name|BT-23-Part-List">Natura dell'appalto</entry>
 <entry key="field|name|BT-23-Procedure">Natura dell'appalto</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Nome</entry>
 <entry key="field|name|BT-632-Part">Nome</entry>
 <entry key="field|name|BT-633-Organization">L'organizzazione è una persona fisica</entry>
-<entry key="field|name|BT-634-Lot">La procedura o il lotto in questione, annullata/o o senza esito, sarà indetta/o nuovamente</entry>
-<entry key="field|name|BT-634-Procedure">La procedura o il lotto in questione, annullata/o o senza esito, sarà indetta/o nuovamente</entry>
+<entry key="field|name|BT-634-Lot">Se il lotto viene annullato o non ha successo, verrà rilanciato</entry>
+<entry key="field|name|BT-634-Procedure">Se la procedura viene annullata o non ha successo, verrà rilanciata</entry>
 <entry key="field|name|BT-635-LotResult">Numero dei ricorsi al committente</entry>
 <entry key="field|name|BT-636-LotResult">Tipo di presunta irregolarità</entry>
 <entry key="field|name|BT-636-LotResult-List">Tipo di presunta irregolarità</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">L'appalto rientra nell'ambito di applicazione della direttiva 2009/33/CE del Parlamento europeo e del Consiglio sulla promozione di veicoli puliti (direttiva sui veicoli puliti o CVD)</entry>
 <entry key="field|name|BT-718-notice">I documenti di gara sono stati modificati il</entry>
 <entry key="field|name|BT-719-notice">Rettifica di documenti di gara: data</entry>
-<entry key="field|name|BT-720-Tender">Valore del risultato</entry>
-<entry key="field|name|BT-720-Tender-Currency">Valore del risultato</entry>
+<entry key="field|name|BT-720-Tender">Valore dell'offerta</entry>
+<entry key="field|name|BT-720-Tender-Currency">Valore dell'offerta</entry>
 <entry key="field|name|BT-721-Contract">Titolo</entry>
 <entry key="field|name|BT-721-Contract-Language">Titolo</entry>
 <entry key="field|name|BT-722-Contract">Nome del progetto o programma finanziato dall'UE</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Descrizione</entry>
 <entry key="field|name|BT-745-Lot-Language">Descrizione</entry>
 <entry key="field|name|BT-746-Organization">Il vincitore è quotato su un mercato regolamentato</entry>
-<entry key="field|name|BT-747-Lot">Tipo</entry>
-<entry key="field|name|BT-747-Lot-List">Tipo</entry>
-<entry key="field|name|BT-748-Lot">Uso del criterio</entry>
-<entry key="field|name|BT-748-Lot-List">Uso del criterio</entry>
-<entry key="field|name|BT-749-Lot">Nome</entry>
-<entry key="field|name|BT-749-Lot-Language">Nome</entry>
 <entry key="field|name|BT-75-Lot">Descrizione della garanzia finanziaria</entry>
 <entry key="field|name|BT-75-Lot-Language">Descrizione della garanzia finanziaria</entry>
 <entry key="field|name|BT-750-Lot">Descrizione</entry>

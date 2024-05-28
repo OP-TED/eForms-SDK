@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Vidaus identifikatorius, naudojamas pirkimo procedūros arba pirkimo dalies byloms prieš suteikiant procedūros identifikatorių (pvz., suteiktas pirkėjo dokumentų tvarkymo sistemos arba viešojo pirkimo planavimo sistemos).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Vidaus identifikatorius, naudojamas pirkimo procedūros arba pirkimo dalies byloms prieš suteikiant procedūros identifikatorių (pvz., suteiktas pirkėjo dokumentų tvarkymo sistemos arba viešojo pirkimo planavimo sistemos).</entry>
 <entry key="field|description|BT-23-Lot">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
+<entry key="field|description|BT-23-Lot-List">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
 <entry key="field|description|BT-23-Part">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
 <entry key="field|description|BT-23-Part-List">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
 <entry key="field|description|BT-23-Procedure">Pagrindinis viešojo pirkimo objektas (pvz., darbai). Mišraus pirkimo atveju (pvz., kai sutarties objektas yra darbai ir paslaugos) pagrindinis objektas gali būti, pavyzdžiui, ta sutarties objekto dalis, kurios numatoma pirkimo vertė yra didžiausia. Ši informacija pateikiama apie visą procedūrą.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Pasiūlymų, dalyvavimo prašymų ar susidomėjimo pareiškimų pateikimo ne elektroninėmis priemonėmis aprašymas.</entry>
 <entry key="field|description|BT-745-Lot-Language">Pasiūlymų, dalyvavimo prašymų ar susidomėjimo pareiškimų pateikimo ne elektroninėmis priemonėmis aprašymas.</entry>
 <entry key="field|description|BT-746-Organization">Laimėtojo, dalyvio arba subrangovo tikrojo (-ųjų) savininko (-ų) pilietybė (arba pilietybės) neskelbiama (-os) registre (-uose), sudarytame (-uose) pagal Direktyvą (ES) 2018/843, nes laimėtojo vertybiniais popieriais prekiaujama reguliuojamoje rinkoje (pvz., vertybinių popierių biržoje), kurioje užtikrinamas tinkamo lygio skaidrumas pagal kovos su pinigų plovimu teisės aktus.</entry>
-<entry key="field|description|BT-747-Lot">Kriterijai (arba kriterijus) yra susiję (-ęs) su, pavyzdžiui, ekonomine ir finansine būkle arba techniniu ir profesiniu pajėgumu.</entry>
-<entry key="field|description|BT-747-Lot-List">Kriterijai (arba kriterijus) yra susiję (-ęs) su, pavyzdžiui, ekonomine ir finansine būkle arba techniniu ir profesiniu pajėgumu.</entry>
-<entry key="field|description|BT-748-Lot">Tam tikros rūšies kriterijai (arba kriterijus) yra taikomi (-as), netaikomi (-as) arba (kai išankstinis informacinis skelbimas skelbiamas kaip kvietimas dalyvauti konkurse arba siekiant sutrumpinti terminus) dar nežinoma, ar jie (jis) bus taikomi (-as).</entry>
-<entry key="field|description|BT-748-Lot-List">Tam tikros rūšies kriterijai (arba kriterijus) yra taikomi (-as), netaikomi (-as) arba (kai išankstinis informacinis skelbimas skelbiamas kaip kvietimas dalyvauti konkurse arba siekiant sutrumpinti terminus) dar nežinoma, ar jie (jis) bus taikomi (-as).</entry>
-<entry key="field|description|BT-749-Lot">Atrankos kriterijų (arba kriterijaus) pavadinimas.</entry>
-<entry key="field|description|BT-749-Lot-Language">Atrankos kriterijų (arba kriterijaus) pavadinimas.</entry>
 <entry key="field|description|BT-75-Lot">Finansinės garantijos, kurios iš dalyvio reikalaujama jam pateikiant pasiūlymą, aprašymas. Garantija gali būti, pavyzdžiui, mokėjimas pirkėjui arba banko dokumentas. Paprastai garantija negrąžinama, jei sutartį laimėjęs dalyvis atsisako ją pasirašyti.</entry>
 <entry key="field|description|BT-75-Lot-Language">Finansinės garantijos, kurios iš dalyvio reikalaujama jam pateikiant pasiūlymą, aprašymas. Garantija gali būti, pavyzdžiui, mokėjimas pirkėjui arba banko dokumentas. Paprastai garantija negrąžinama, jei sutartį laimėjęs dalyvis atsisako ją pasirašyti.</entry>
 <entry key="field|description|BT-750-Lot">Trumpas atrankos kriterijų (arba kriterijaus) aprašymas, apimantis minimalius reikalavimus, pateiktiną informaciją (pvz., savideklaraciją, dokumentus) ir tai, kaip kriterijai arba kriterijus bus taikomas atrenkant kandidatus į antrąjį procedūros etapą, (jei nustatytas didžiausias kandidatų skaičius).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Vidaus identifikatorius</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Vidaus identifikatorius</entry>
 <entry key="field|name|BT-23-Lot">Sutarties objektas</entry>
+<entry key="field|name|BT-23-Lot-List">Sutarties objektas</entry>
 <entry key="field|name|BT-23-Part">Sutarties objektas</entry>
 <entry key="field|name|BT-23-Part-List">Sutarties objektas</entry>
 <entry key="field|name|BT-23-Procedure">Sutarties objektas</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Pavadinimas</entry>
 <entry key="field|name|BT-632-Part">Pavadinimas</entry>
 <entry key="field|name|BT-633-Organization">Organizacija yra fizinis asmuo</entry>
-<entry key="field|name|BT-634-Lot">Ši atšaukta arba nesėkminga procedūra ar pirkimo dalis bus skelbiama iš naujo</entry>
-<entry key="field|name|BT-634-Procedure">Ši atšaukta arba nesėkminga procedūra ar pirkimo dalis bus skelbiama iš naujo</entry>
+<entry key="field|name|BT-634-Lot">Jei partija bus atšaukta arba nesėkminga, ji bus paleista iš naujo</entry>
+<entry key="field|name|BT-634-Procedure">Jei procedūra bus atšaukta arba nesėkminga, ji bus paleista iš naujo</entry>
 <entry key="field|name|BT-635-LotResult">Pirkėjo peržiūros prašymų skaičius</entry>
 <entry key="field|name|BT-636-LotResult">Įtariamo pažeidimo rūšis</entry>
 <entry key="field|name|BT-636-LotResult-List">Įtariamo pažeidimo rūšis</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Pirkimui taikoma Europos Parlamento ir Tarybos direktyva 2009/33/EB (Netaršių transporto priemonių direktyva (NTPD))</entry>
 <entry key="field|name|BT-718-notice">Pirkimo dokumentai buvo pakeisti</entry>
 <entry key="field|name|BT-719-notice">Pirkimo dokumentų pasikeitimo data</entry>
-<entry key="field|name|BT-720-Tender">Rezultato vertė</entry>
-<entry key="field|name|BT-720-Tender-Currency">Rezultato vertė</entry>
+<entry key="field|name|BT-720-Tender">Pasiūlymo vertė</entry>
+<entry key="field|name|BT-720-Tender-Currency">Pasiūlymo vertė</entry>
 <entry key="field|name|BT-721-Contract">Pavadinimas</entry>
 <entry key="field|name|BT-721-Contract-Language">Pavadinimas</entry>
 <entry key="field|name|BT-722-Contract">ES finansuojamo projekto arba programos pavadinimas</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Aprašymas</entry>
 <entry key="field|name|BT-745-Lot-Language">Aprašymas</entry>
 <entry key="field|name|BT-746-Organization">Laimėtojo vertybiniais popieriais prekiaujama reguliuojamoje rinkoje</entry>
-<entry key="field|name|BT-747-Lot">Rūšis</entry>
-<entry key="field|name|BT-747-Lot-List">Rūšis</entry>
-<entry key="field|name|BT-748-Lot">Šio kriterijaus taikymas</entry>
-<entry key="field|name|BT-748-Lot-List">Šio kriterijaus taikymas</entry>
-<entry key="field|name|BT-749-Lot">Pavadinimas</entry>
-<entry key="field|name|BT-749-Lot-Language">Pavadinimas</entry>
 <entry key="field|name|BT-75-Lot">Finansinės garantijos aprašymas</entry>
 <entry key="field|name|BT-75-Lot-Language">Finansinės garantijos aprašymas</entry>
 <entry key="field|name|BT-750-Lot">Aprašymas</entry>

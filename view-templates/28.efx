@@ -3,7 +3,7 @@
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Official name
-		{BT-11-Procedure-Buyer} #{field|name|BT-11-Procedure-Buyer}: #value // Legal type of the buyer
+		{BT-11-Procedure-Buyer} #{field|name|BT-11-Procedure-Buyer}: #{BT-11-Procedure-Buyer} // Legal type of the buyer
 		{BT-740-Procedure-Buyer[BT-740-Procedure-Buyer == 'cont-ent']} #{field|name|BT-740-Procedure-Buyer} // Buyer Contracting Entity
 		{BT-10-Procedure-Buyer} #{field|name|BT-10-Procedure-Buyer}: #value // Activity of the contracting authority
 		{BT-610-Procedure-Buyer} #{field|name|BT-610-Procedure-Buyer}: #{BT-610-Procedure-Buyer} // Activity Entity
@@ -15,6 +15,9 @@
 		{OPP-090-Procedure} #{field|name|OPP-090-Procedure}: ${OPP-090-Procedure} // Previous Notice
 		{BT-22-Procedure} #{field|name|BT-22-Procedure}: ${BT-22-Procedure} // Internal identifier
 		0 {BT-105-Procedure[BT-105-Procedure != 'unpublished']} #{field|name|BT-105-Procedure}: #{BT-105-Procedure} // Type of the procedure
+			{BT-197(BT-105)-Procedure} #{field|name|BT-197(BT-105)-Procedure}: #{BT-197(BT-105)-Procedure} // Unpublished Justification Code
+			{BT-105-Procedure[BT-196(BT-105)-Procedure is present]} #{field|name|BT-196(BT-105)-Procedure}: ${BT-196(BT-105)-Procedure} // Unpublished Justification Description
+			{BT-105-Procedure[BT-198(BT-105)-Procedure is present]} #{field|name|BT-198(BT-105)-Procedure}: ${BT-198(BT-105)-Procedure} // Unpublished Access Date
 		0 {BT-105-Procedure[BT-105-Procedure == 'unpublished']} #{field|name|BT-105-Procedure}: #{auxiliary|text|unpublished} // Type of the procedure (unpublished)
 			{BT-197(BT-105)-Procedure} #{field|name|BT-197(BT-105)-Procedure}: #{BT-197(BT-105)-Procedure} // Unpublished Justification Code
 			{BT-105-Procedure[BT-196(BT-105)-Procedure is present]} #{field|name|BT-196(BT-105)-Procedure}: ${BT-196(BT-105)-Procedure} // Unpublished Justification Description
@@ -59,41 +62,65 @@
 		3 {ND-LotsGroupAwardCriteria} #{auxiliary|text|award-criteria} // 4.1.3 Award criteria
 			0 {ND-LotsGroupAwardCriterion} #{auxiliary|text|criterion}: // Criterion
 				0 {ND-LotsGroupAwardCriterion[BT-539-LotsGroup != 'unpublished' ]} #{field|name|BT-539-LotsGroup}: #{BT-539-LotsGroup} // Criterion Type
+					{BT-197(BT-539)-LotsGroup} #{field|name|BT-197(BT-539)-LotsGroup}: #{BT-197(BT-539)-LotsGroup} // Unpublished Justification Code
+					{BT-539-LotsGroup[BT-196(BT-539)-LotsGroup is present]} #{field|name|BT-196(BT-539)-LotsGroup}: ${BT-196(BT-539)-LotsGroup} // Unpublished Justification Description
+					{BT-539-LotsGroup[BT-198(BT-539)-LotsGroup is present]} #{field|name|BT-198(BT-539)-LotsGroup}: ${BT-198(BT-539)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-539-LotsGroup == 'unpublished' ]} #{field|name|BT-539-LotsGroup}: #{auxiliary|text|unpublished} // Criterion Type (unpublished)
 					{BT-197(BT-539)-LotsGroup} #{field|name|BT-197(BT-539)-LotsGroup}: #{BT-197(BT-539)-LotsGroup} // Unpublished Justification Code
 					{BT-539-LotsGroup[BT-196(BT-539)-LotsGroup is present]} #{field|name|BT-196(BT-539)-LotsGroup}: ${BT-196(BT-539)-LotsGroup} // Unpublished Justification Description
 					{BT-539-LotsGroup[BT-198(BT-539)-LotsGroup is present]} #{field|name|BT-198(BT-539)-LotsGroup}: ${BT-198(BT-539)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-734-LotsGroup != 'unpublished']} #{field|name|BT-734-LotsGroup}: ${BT-734-LotsGroup} // Criterion Name
+					{BT-197(BT-734)-LotsGroup} #{field|name|BT-197(BT-734)-LotsGroup}: #{BT-197(BT-734)-LotsGroup} // Unpublished Justification Code
+					{ND-LotsGroupAwardCriteriaNameUnpublish[BT-196(BT-734)-LotsGroup is present]} #{field|name|BT-196(BT-734)-LotsGroup}: ${BT-196(BT-734)-LotsGroup} // Unpublished Justification Description
+					{ND-LotsGroupAwardCriteriaNameUnpublish[BT-198(BT-734)-LotsGroup is present]} #{field|name|BT-198(BT-734)-LotsGroup}: ${BT-198(BT-734)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-734-LotsGroup == 'unpublished']} #{field|name|BT-734-LotsGroup}: #{auxiliary|text|unpublished} // Criterion Name (unpublished)
 					{BT-197(BT-734)-LotsGroup} #{field|name|BT-197(BT-734)-LotsGroup}: #{BT-197(BT-734)-LotsGroup} // Unpublished Justification Code
 					{ND-LotsGroupAwardCriteriaNameUnpublish[BT-196(BT-734)-LotsGroup is present]} #{field|name|BT-196(BT-734)-LotsGroup}: ${BT-196(BT-734)-LotsGroup} // Unpublished Justification Description
 					{ND-LotsGroupAwardCriteriaNameUnpublish[BT-198(BT-734)-LotsGroup is present]} #{field|name|BT-198(BT-734)-LotsGroup}: ${BT-198(BT-734)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-540-LotsGroup != 'unpublished']} #{field|name|BT-540-LotsGroup}: ${BT-540-LotsGroup} // Award Criterion Description
+					{BT-197(BT-540)-LotsGroup} #{field|name|BT-197(BT-540)-LotsGroup}: #{BT-197(BT-540)-LotsGroup} // Unpublished Justification Code
+					{ND-LotsGroupAwardCriteriaNameUnpublish[BT-196(BT-540)-LotsGroup is present]} #{field|name|BT-196(BT-540)-LotsGroup}: ${BT-196(BT-540)-LotsGroup} // Unpublished Justification Description
+					{ND-LotsGroupAwardCriteriaNameUnpublish[BT-198(BT-540)-LotsGroup is present]} #{field|name|BT-198(BT-540)-LotsGroup}: ${BT-198(BT-540)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-540-LotsGroup == 'unpublished']} #{field|name|BT-540-LotsGroup}: #{auxiliary|text|unpublished} // Award Criterion Description (unpublished)
 					{BT-197(BT-540)-LotsGroup} #{field|name|BT-197(BT-540)-LotsGroup}: #{BT-197(BT-540)-LotsGroup} // Unpublished Justification Code
 					{ND-LotsGroupAwardCriteriaNameUnpublish[BT-196(BT-540)-LotsGroup is present]} #{field|name|BT-196(BT-540)-LotsGroup}: ${BT-196(BT-540)-LotsGroup} // Unpublished Justification Description
 					{ND-LotsGroupAwardCriteriaNameUnpublish[BT-198(BT-540)-LotsGroup is present]} #{field|name|BT-198(BT-540)-LotsGroup}: ${BT-198(BT-540)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-5421-LotsGroup != 'unpublished']} #{BT-5421-LotsGroup}: ${format-number(BT-541-LotsGroup-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+					{BT-197(BT-5421)-LotsGroup} #{field|name|BT-197(BT-5421)-LotsGroup}: #{BT-197(BT-5421)-LotsGroup} // Unpublished Justification Code
+					{ND-LotsGroupAwardCriterionNumberWeightUnpublish[BT-196(BT-5421)-LotsGroup is present]} #{field|name|BT-196(BT-5421)-LotsGroup}: ${BT-196(BT-5421)-LotsGroup} // Unpublished Justification Description
+					{ND-LotsGroupAwardCriterionNumberWeightUnpublish[BT-198(BT-5421)-LotsGroup is present]} #{field|name|BT-198(BT-5421)-LotsGroup}: ${BT-198(BT-5421)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-5421-LotsGroup == 'unpublished']} ${BT-5421-LotsGroup}: #{auxiliary|text|unpublished} // Award Criterion Number Weight (unpublished) / Award Criterion Number
 					{BT-197(BT-5421)-LotsGroup} #{field|name|BT-197(BT-5421)-LotsGroup}: #{BT-197(BT-5421)-LotsGroup} // Unpublished Justification Code
 					{ND-LotsGroupAwardCriterionNumberWeightUnpublish[BT-196(BT-5421)-LotsGroup is present]} #{field|name|BT-196(BT-5421)-LotsGroup}: ${BT-196(BT-5421)-LotsGroup} // Unpublished Justification Description
 					{ND-LotsGroupAwardCriterionNumberWeightUnpublish[BT-198(BT-5421)-LotsGroup is present]} #{field|name|BT-198(BT-5421)-LotsGroup}: ${BT-198(BT-5421)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-5422-LotsGroup != 'unpublished']} #{BT-5422-LotsGroup}: ${format-number(BT-541-LotsGroup-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+					{BT-197(BT-5422)-LotsGroup} #{field|name|BT-197(BT-5422)-LotsGroup}: #{BT-197(BT-5422)-LotsGroup} // Unpublished Justification Code
+					{ND-LotsGroupAwardCriterionNumberFixUnpublish[BT-196(BT-5422)-LotsGroup is present]} #{field|name|BT-196(BT-5422)-LotsGroup}: ${BT-196(BT-5422)-LotsGroup} // Unpublished Justification Description
+					{ND-LotsGroupAwardCriterionNumberFixUnpublish[BT-198(BT-5422)-LotsGroup is present]} #{field|name|BT-198(BT-5422)-LotsGroup}: ${BT-198(BT-5422)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-5422-LotsGroup == 'unpublished']} ${BT-5422-LotsGroup}: #{auxiliary|text|unpublished} // Award Criterion Number Fixed / Award Criterion Number (unpublished)
 					{BT-197(BT-5422)-LotsGroup} #{field|name|BT-197(BT-5422)-LotsGroup}: #{BT-197(BT-5422)-LotsGroup} // Unpublished Justification Code
 					{ND-LotsGroupAwardCriterionNumberFixUnpublish[BT-196(BT-5422)-LotsGroup is present]} #{field|name|BT-196(BT-5422)-LotsGroup}: ${BT-196(BT-5422)-LotsGroup} // Unpublished Justification Description
 					{ND-LotsGroupAwardCriterionNumberFixUnpublish[BT-198(BT-5422)-LotsGroup is present]} #{field|name|BT-198(BT-5422)-LotsGroup}: ${BT-198(BT-5422)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-5423-LotsGroup != 'unpublished']} #{BT-5423-LotsGroup}: ${format-number(BT-541-LotsGroup-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
+					{BT-197(BT-5423)-LotsGroup} #{field|name|BT-197(BT-5423)-LotsGroup}: #{BT-197(BT-5423)-LotsGroup} // Unpublished Justification Code
+					{ND-LotsGroupAwardCriterionNumberThresholdUnpublish[BT-196(BT-5423)-LotsGroup is present]} #{field|name|BT-196(BT-5423)-LotsGroup}: ${BT-196(BT-5423)-LotsGroup} // Unpublished Justification Description
+					{ND-LotsGroupAwardCriterionNumberThresholdUnpublish[BT-198(BT-5423)-LotsGroup is present]} #{field|name|BT-198(BT-5423)-LotsGroup}: ${BT-198(BT-5423)-LotsGroup} // Unpublished Access Date
 				0 {ND-LotsGroupAwardCriterion[BT-5423-LotsGroup == 'unpublished']} ${BT-5423-LotsGroup}: #{auxiliary|text|unpublished} // Award Criterion Number Threshold / Award Criterion Number (unpublished)
 					{BT-197(BT-5423)-LotsGroup} #{field|name|BT-197(BT-5423)-LotsGroup}: #{BT-197(BT-5423)-LotsGroup} // Unpublished Justification Code
 					{ND-LotsGroupAwardCriterionNumberThresholdUnpublish[BT-196(BT-5423)-LotsGroup is present]} #{field|name|BT-196(BT-5423)-LotsGroup}: ${BT-196(BT-5423)-LotsGroup} // Unpublished Justification Description
 					{ND-LotsGroupAwardCriterionNumberThresholdUnpublish[BT-198(BT-5423)-LotsGroup is present]} #{field|name|BT-198(BT-5423)-LotsGroup}: ${BT-198(BT-5423)-LotsGroup} // Unpublished Access Date
 			0 {ND-LotsGroupAwardCriteria[BT-543-LotsGroup != 'unpublished']} #{field|name|BT-543-LotsGroup}: ${BT-543-LotsGroup} // Award Criteria Complicated
+				{BT-197(BT-543)-LotsGroup} #{field|name|BT-197(BT-543)-LotsGroup}: #{BT-197(BT-543)-LotsGroup} // Unpublished Justification Code
+				{ND-LotsGroupAwardCriterionNumberComplicatedUnpublish[BT-196(BT-543)-LotsGroup is present]} #{field|name|BT-196(BT-543)-LotsGroup}: ${BT-196(BT-543)-LotsGroup} // Unpublished Justification Description
+				{ND-LotsGroupAwardCriterionNumberComplicatedUnpublish[BT-198(BT-543)-LotsGroup is present]} #{field|name|BT-198(BT-543)-LotsGroup}: ${BT-198(BT-543)-LotsGroup} // Unpublished Access Date
 			0 {ND-LotsGroupAwardCriteria[BT-543-LotsGroup == 'unpublished']} #{field|name|BT-543-LotsGroup}: #{auxiliary|text|unpublished} // Award Criteria Complicated (unpublished)
 				{BT-197(BT-543)-LotsGroup} #{field|name|BT-197(BT-543)-LotsGroup}: #{BT-197(BT-543)-LotsGroup} // Unpublished Justification Code
 				{ND-LotsGroupAwardCriterionNumberComplicatedUnpublish[BT-196(BT-543)-LotsGroup is present]} #{field|name|BT-196(BT-543)-LotsGroup}: ${BT-196(BT-543)-LotsGroup} // Unpublished Justification Description
 				{ND-LotsGroupAwardCriterionNumberComplicatedUnpublish[BT-198(BT-543)-LotsGroup is present]} #{field|name|BT-198(BT-543)-LotsGroup}: ${BT-198(BT-543)-LotsGroup} // Unpublished Access Date
 			0 {ND-LotsGroupAwardCriteria[BT-733-LotsGroup != 'unpublished']} #{field|name|BT-733-LotsGroup}: ${BT-733-LotsGroup} // Award Criteria Order Justification
+				{BT-197(BT-733)-LotsGroup} #{field|name|BT-197(BT-733)-LotsGroup}: #{BT-197(BT-733)-LotsGroup} // Unpublished Justification Code
+				{ND-LotsGroupAwardCriteriaOrderJustificationUnpublish[BT-196(BT-733)-LotsGroup is present]} #{field|name|BT-196(BT-733)-LotsGroup}: ${BT-196(BT-733)-LotsGroup} // Unpublished Justification Description
+				{ND-LotsGroupAwardCriteriaOrderJustificationUnpublish[BT-198(BT-733)-LotsGroup is present]} #{field|name|BT-198(BT-733)-LotsGroup}: ${BT-198(BT-733)-LotsGroup} // Unpublished Access Date
 			0 {ND-LotsGroupAwardCriteria[BT-733-LotsGroup == 'unpublished']} #{field|name|BT-733-LotsGroup}: #{auxiliary|text|unpublished} // Award Criteria Order Justification (unpublished)
 				{BT-197(BT-733)-LotsGroup} #{field|name|BT-197(BT-733)-LotsGroup}: #{BT-197(BT-733)-LotsGroup} // Unpublished Justification Code
 				{ND-LotsGroupAwardCriteriaOrderJustificationUnpublish[BT-196(BT-733)-LotsGroup is present]} #{field|name|BT-196(BT-733)-LotsGroup}: ${BT-196(BT-733)-LotsGroup} // Unpublished Justification Description
@@ -148,46 +175,70 @@
 		10 {ND-LotAwardCriteria} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria
 			0 {ND-LotAwardCriterion} #{auxiliary|text|criterion}: // Award Criterion
 				0 {ND-LotAwardCriterion[BT-539-Lot != 'unpublished']} #{field|name|BT-539-Lot}: #{BT-539-Lot} // Type
+					{BT-197(BT-539)-Lot} #{field|name|BT-197(BT-539)-Lot}: #{BT-197(BT-539)-Lot} // Unpublished Justification Code
+					{BT-539-Lot[BT-196(BT-539)-Lot is present]} #{field|name|BT-196(BT-539)-Lot}: ${BT-196(BT-539)-Lot} // Unpublished Justification Description
+					{BT-539-Lot[BT-198(BT-539)-Lot is present]} #{field|name|BT-198(BT-539)-Lot}: ${BT-198(BT-539)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardCriterion[BT-539-Lot == 'unpublished']} #{field|name|BT-539-Lot}: #{auxiliary|text|unpublished} // Type (unpublished)
 					{BT-197(BT-539)-Lot} #{field|name|BT-197(BT-539)-Lot}: #{BT-197(BT-539)-Lot} // Unpublished Justification Code
 					{BT-539-Lot[BT-196(BT-539)-Lot is present]} #{field|name|BT-196(BT-539)-Lot}: ${BT-196(BT-539)-Lot} // Unpublished Justification Description
 					{BT-539-Lot[BT-198(BT-539)-Lot is present]} #{field|name|BT-198(BT-539)-Lot}: ${BT-198(BT-539)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardCriterion[BT-734-Lot != 'unpublished']} #{field|name|BT-734-Lot}: ${BT-734-Lot} // Criterion Name
+					{BT-197(BT-734)-Lot} #{field|name|BT-197(BT-734)-Lot}: #{BT-197(BT-734)-Lot} // Unpublished Justification Code
+					{ND-LotAwardCriterionParameters[BT-196(BT-734)-Lot is present]} #{field|name|BT-196(BT-734)-Lot}: ${BT-196(BT-734)-Lot} // Unpublished Justification Description
+					{ND-LotAwardCriterionParameters[BT-198(BT-734)-Lot is present]} #{field|name|BT-198(BT-734)-Lot}: ${BT-198(BT-734)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardCriterion[BT-734-Lot == 'unpublished']} #{field|name|BT-734-Lot}: #{auxiliary|text|unpublished} // Criterion Name (unpublished)
 					{BT-197(BT-734)-Lot} #{field|name|BT-197(BT-734)-Lot}: #{BT-197(BT-734)-Lot} // Unpublished Justification Code
 					{ND-LotAwardCriterionParameters[BT-196(BT-734)-Lot is present]} #{field|name|BT-196(BT-734)-Lot}: ${BT-196(BT-734)-Lot} // Unpublished Justification Description
 					{ND-LotAwardCriterionParameters[BT-198(BT-734)-Lot is present]} #{field|name|BT-198(BT-734)-Lot}: ${BT-198(BT-734)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardCriterion[BT-540-Lot != 'unpublished']} #{field|name|BT-540-Lot}: ${BT-540-Lot} // Award Criterion Description
+					{BT-197(BT-540)-Lot} #{field|name|BT-197(BT-540)-Lot}: #{BT-197(BT-540)-Lot} // Unpublished Justification Code
+					{ND-LotAwardCriterionParameters[BT-196(BT-540)-Lot is present]} #{field|name|BT-196(BT-540)-Lot}: ${BT-196(BT-540)-Lot} // Unpublished Justification Description
+					{ND-LotAwardCriterionParameters[BT-198(BT-540)-Lot is present]} #{field|name|BT-198(BT-540)-Lot}: ${BT-198(BT-540)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardCriterion[BT-540-Lot == 'unpublished']} #{field|name|BT-540-Lot}: #{auxiliary|text|unpublished} // Award Criterion Description (unpublished)
 					{BT-197(BT-540)-Lot} #{field|name|BT-197(BT-540)-Lot}: #{BT-197(BT-540)-Lot} // Unpublished Justification Code
 					{ND-LotAwardCriterionParameters[BT-196(BT-540)-Lot is present]} #{field|name|BT-196(BT-540)-Lot}: ${BT-196(BT-540)-Lot} // Unpublished Justification Description
 					{ND-LotAwardCriterionParameters[BT-198(BT-540)-Lot is present]} #{field|name|BT-198(BT-540)-Lot}: ${BT-198(BT-540)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardWeightCriterionParameter[BT-5421-Lot != 'unpublished']} #{BT-5421-Lot}: ${format-number(BT-541-Lot-WeightNumber, '###,##0.###,###,###')} // Award Criterion Number Weight / Award Criterion Number
+					{BT-197(BT-5421)-Lot} #{field|name|BT-197(BT-5421)-Lot}: #{BT-197(BT-5421)-Lot} // Unpublished Justification Code
+					{ND-LotAwardCriterionNumberWeightUnpublish[BT-196(BT-5421)-Lot is present]} #{field|name|BT-196(BT-5421)-Lot}: ${BT-196(BT-5421)-Lot} // Unpublished Justification Description
+					{ND-LotAwardCriterionNumberWeightUnpublish[BT-198(BT-5421)-Lot is present]} #{field|name|BT-198(BT-5421)-Lot}: ${BT-198(BT-5421)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardWeightCriterionParameter[BT-5421-Lot == 'unpublished']} #{auxiliary|text|unpublished}: #{auxiliary|text|unpublished} // Award Criterion Number Weight / Award Criterion Number (unpublished)
 					{BT-197(BT-5421)-Lot} #{field|name|BT-197(BT-5421)-Lot}: #{BT-197(BT-5421)-Lot} // Unpublished Justification Code
 					{ND-LotAwardCriterionNumberWeightUnpublish[BT-196(BT-5421)-Lot is present]} #{field|name|BT-196(BT-5421)-Lot}: ${BT-196(BT-5421)-Lot} // Unpublished Justification Description
 					{ND-LotAwardCriterionNumberWeightUnpublish[BT-198(BT-5421)-Lot is present]} #{field|name|BT-198(BT-5421)-Lot}: ${BT-198(BT-5421)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardFixedCriterionParameter[BT-5422-Lot != 'unpublished']} #{BT-5422-Lot}: ${format-number(BT-541-Lot-FixedNumber, '###,##0.###,###,###')} // Award Criterion Number Fixed / Award Criterion Number
+					{BT-197(BT-5422)-Lot} #{field|name|BT-197(BT-5422)-Lot}: #{BT-197(BT-5422)-Lot} // Unpublished Justification Code
+					{ND-LotAwardCriterionNumberFixUnpublish[BT-196(BT-5422)-Lot is present]} #{field|name|BT-196(BT-5422)-Lot}: ${BT-196(BT-5422)-Lot} // Unpublished Justification Description
+					{ND-LotAwardCriterionNumberFixUnpublish[BT-198(BT-5422)-Lot is present]} #{field|name|BT-198(BT-5422)-Lot}: ${BT-198(BT-5422)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardFixedCriterionParameter[BT-5422-Lot == 'unpublished']} #{auxiliary|text|unpublished}: #{auxiliary|text|unpublished} // Award Criterion Number Fixed / Award Criterion Number (unpublished)
 					{BT-197(BT-5422)-Lot} #{field|name|BT-197(BT-5422)-Lot}: #{BT-197(BT-5422)-Lot} // Unpublished Justification Code
 					{ND-LotAwardCriterionNumberFixUnpublish[BT-196(BT-5422)-Lot is present]} #{field|name|BT-196(BT-5422)-Lot}: ${BT-196(BT-5422)-Lot} // Unpublished Justification Description
 					{ND-LotAwardCriterionNumberFixUnpublish[BT-198(BT-5422)-Lot is present]} #{field|name|BT-198(BT-5422)-Lot}: ${BT-198(BT-5422)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardThresholdCriterionParameter[BT-5423-Lot != 'unpublished']} #{BT-5423-Lot}: ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Number Threshold / Award Criterion Number
+					{BT-197(BT-5423)-Lot} #{field|name|BT-197(BT-5423)-Lot}: #{BT-197(BT-5423)-Lot} // Unpublished Justification Code
+					{ND-LotAwardCriterionNumberThresholdUnpublish[BT-196(BT-5423)-Lot is present]} #{field|name|BT-196(BT-5423)-Lot}: ${BT-196(BT-5423)-Lot} // Unpublished Justification Description
+					{ND-LotAwardCriterionNumberThresholdUnpublish[BT-198(BT-5423)-Lot is present]} #{field|name|BT-198(BT-5423)-Lot}: ${BT-198(BT-5423)-Lot} // Unpublished Access Date
 				0 {ND-LotAwardThresholdCriterionParameter[BT-5423-Lot == 'unpublished']} #{auxiliary|text|unpublished}: #{auxiliary|text|unpublished} // Award Criterion Number Threshold / Award Criterion Number (unpublished)
 					{BT-197(BT-5423)-Lot} #{field|name|BT-197(BT-5423)-Lot}: #{BT-197(BT-5423)-Lot} // Unpublished Justification Code
 					{ND-LotAwardCriterionNumberThresholdUnpublish[BT-196(BT-5423)-Lot is present]} #{field|name|BT-196(BT-5423)-Lot}: ${BT-196(BT-5423)-Lot} // Unpublished Justification Description
 					{ND-LotAwardCriterionNumberThresholdUnpublish[BT-198(BT-5423)-Lot is present]} #{field|name|BT-198(BT-5423)-Lot}: ${BT-198(BT-5423)-Lot} // Unpublished Access Date
 			0 {ND-LotAwardCriteria[BT-543-Lot != 'unpublished']} #{field|name|BT-543-Lot}: ${BT-543-Lot} // Award Criteria Complicated
+				{BT-197(BT-543)-Lot} #{field|name|BT-197(BT-543)-Lot}: #{BT-197(BT-543)-Lot} // Unpublished Justification Code
+				{ND-LotAwardCriterionNumberComplicatedUnpublish[BT-196(BT-543)-Lot is present]} #{field|name|BT-196(BT-543)-Lot}: ${BT-196(BT-543)-Lot} // Unpublished Justification Description
+				{ND-LotAwardCriterionNumberComplicatedUnpublish[BT-198(BT-543)-Lot is present]} #{field|name|BT-198(BT-543)-Lot}: ${BT-198(BT-543)-Lot} // Unpublished Access Date
 			0 {ND-LotAwardCriteria[BT-543-Lot == 'unpublished']} #{field|name|BT-543-Lot}: #{auxiliary|text|unpublished} // Award Criteria Complicated (unpublished)
 				{BT-197(BT-543)-Lot} #{field|name|BT-197(BT-543)-Lot}: #{BT-197(BT-543)-Lot} // Unpublished Justification Code
 				{ND-LotAwardCriterionNumberComplicatedUnpublish[BT-196(BT-543)-Lot is present]} #{field|name|BT-196(BT-543)-Lot}: ${BT-196(BT-543)-Lot} // Unpublished Justification Description
 				{ND-LotAwardCriterionNumberComplicatedUnpublish[BT-198(BT-543)-Lot is present]} #{field|name|BT-198(BT-543)-Lot}: ${BT-198(BT-543)-Lot} // Unpublished Access Date
 			0 {ND-LotAwardCriteria[BT-733-Lot != 'unpublished']} #{field|name|BT-733-Lot}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
+				{BT-197(BT-733)-Lot} #{field|name|BT-197(BT-733)-Lot}: #{BT-197(BT-733)-Lot} // Unpublished Justification Code
+				{ND-LotAwardCriteria[BT-196(BT-733)-Lot is present]} #{field|name|BT-196(BT-733)-Lot}: ${BT-196(BT-733)-Lot} // Unpublished Justification Description
+				{ND-LotAwardCriteria[BT-198(BT-733)-Lot is present]} #{field|name|BT-198(BT-733)-Lot}: ${BT-198(BT-733)-Lot} // Unpublished Access Date
 			0 {ND-LotAwardCriteria[BT-733-Lot == 'unpublished']} #{field|name|BT-733-Lot}: #{auxiliary|text|unpublished} // Justification for not indicating the weighing of the award criteria (unpublished)
 				{BT-197(BT-733)-Lot} #{field|name|BT-197(BT-733)-Lot}: #{BT-197(BT-733)-Lot} // Unpublished Justification Code
 				{ND-LotAwardCriteria[BT-196(BT-733)-Lot is present]} #{field|name|BT-196(BT-733)-Lot}: ${BT-196(BT-733)-Lot} // Unpublished Justification Description
 				{ND-LotAwardCriteria[BT-198(BT-733)-Lot is present]} #{field|name|BT-198(BT-733)-Lot}: ${BT-198(BT-733)-Lot} // Unpublished Access Date
-		12 {ND-Lot[(BT-631-Lot is present) or (BT-130-Lot is present) or (BT-578-Lot == 'true') or (BT-732-Lot is present) or (BT-78-Lot is present) or (BT-42-Lot is present) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present) or (BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot is present) or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present) or ((BT-771-Lot is present) and (BT-772-Lot is present)) or (BT-132(d)-Lot is present) or (BT-133-Lot is present) or (BT-134-Lot is present) or (BT-736-Lot is present) or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot is present) or (BT-93-Lot is present) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-99-Lot is present) or (OPP-020-Contract is present)]} #{auxiliary|text|procurement-terms} // 5.1.12 Procurement terms
+		12 {ND-Lot[(BT-631-Lot is present) or (BT-130-Lot is present) or (BT-578-Lot == 'true') or (BT-732-Lot is present) or (BT-78-Lot is present) or (BT-42-Lot is present) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present) or (BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot is present) or (BT-63-Lot is present) or (BT-769-Lot is present) or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present) or ((BT-771-Lot is present) and (BT-772-Lot is present)) or (BT-132(d)-Lot is present) or (BT-133-Lot is present) or (BT-134-Lot is present) or (BT-736-Lot is present) or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot is present) or (BT-93-Lot is present) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-681-Lot is present) or (BT-99-Lot is present) or (OPP-020-Contract is present)]} #{auxiliary|text|procurement-terms} // 5.1.12 Procurement terms
 			{ND-LotTenderingTerms[BT-99-Lot is present]} #{field|name|BT-99-Lot}: ${BT-99-Lot} // Information about review deadlines
 		16 {BT-137-Lot[(OPT-301-Lot-Mediator is present) or (OPT-301-Lot-ReviewOrg is present) or (OPT-301-Lot-FiscalLegis is present) or (OPT-301-Lot-EnvironLegis is present) or (OPT-301-Lot-EmployLegis is present) or (OPT-301-Lot-AddInfo is present) or (OPT-301-Lot-DocProvider is present) or (OPT-301-Lot-ReviewInfo is present) or (OPT-301-Lot-TenderReceipt is present) or (OPT-301-Lot-TenderEval is present) or (some text:$orgida in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Financing[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgida != '') or (some text:$orgidb in (for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2] return $orgid2) satisfies $orgidb != '') or (some text:$orgidc in (for text:$lotid3 in BT-137-Lot, text:$conid3 in OPT-315-LotResult[BT-13713-LotResult == $lotid3], text:$orgid3 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid3] return $orgid3) satisfies $orgidc != '')]} #{auxiliary|text|further-info} // 5.1.16 Further information, mediation and review
 			{BT-137-Lot[OPT-301-Lot-Mediator is present]} #{auxiliary|text|organisation-mediation}: ${for text:$refid in OPT-301-Lot-Mediator, text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid) or (OPT-201-Organization-TouchPoint == $refid)] return $orgname} // Mediation organisation (Lot)
@@ -200,36 +251,43 @@
 			{BT-137-Lot[OPT-301-Lot-ReviewInfo is present]} #{auxiliary|text|organisation-providing-info-review}: ${for text:$refid in OPT-301-Lot-ReviewInfo, text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid) or (OPT-201-Organization-TouchPoint == $refid)] return $orgname} // Appeal Information Providing Organisation (Lot)
 			{BT-137-Lot[some text:$orgid in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgid != '']} #{auxiliary|text|organisation-paying}: ${for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2], text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $orgid2) or (OPT-201-Organization-TouchPoint == $orgid2)] return $orgname} // Paying Organisation (LotResult)
 			{BT-137-Lot[some text:$orgid in (for text:$lotid1 in BT-137-Lot, text:$conid1 in OPT-315-LotResult[BT-13713-LotResult == $lotid1], text:$orgid1 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid1] return $orgid1) satisfies $orgid != '']} #{auxiliary|text|organisation-signing-contract}: ${distinct-values(for text:$lotid2 in BT-137-Lot, text:$conid2 in OPT-315-LotResult[BT-13713-LotResult == $lotid2], text:$orgid2 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid2], text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $orgid2) or (OPT-201-Organization-TouchPoint == $orgid2)] return $orgname)} // Contract Signatory (LotResult)
-			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']]} #{auxiliary|text|organisation-providing-procurement-service}: $value // Service Provider organisation
-			{BT-500-Organization-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']]} #{auxiliary|text|organisation-esender}: $value // eSender
+			{ND-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']]} #{auxiliary|text|organisation-providing-procurement-service}: ${BT-500-Organization-Company} // Service Provider organisation
+			{ND-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']]} #{auxiliary|text|organisation-esender}: ${BT-500-Organization-Company} // eSender
 6 {ND-NoticeResult} #{auxiliary|text|results} // 6. Results
 	0 {ND-NoticeResult[BT-161-NoticeResult != -1]} #{field|name|BT-161-NoticeResult}: ${format-number(BT-161-NoticeResult, '###,##0.##')} #{code|name|${concat('currency.', BT-161-NoticeResult/@currencyID)}} // Notice Value (Value of all contracts awarded in this procedure)
+		{ND-NoticeValueUnpublish} #{field|name|BT-197(BT-161)-NoticeResult}: #{BT-197(BT-161)-NoticeResult} // Unpublished Justification Code
+		{ND-NoticeValueUnpublish[BT-196(BT-161)-NoticeResult is present]} #{field|name|BT-196(BT-161)-NoticeResult}: ${BT-196(BT-161)-NoticeResult} // Unpublished Justification Description
+		{ND-NoticeValueUnpublish[BT-198(BT-161)-NoticeResult is present]} #{field|name|BT-198(BT-161)-NoticeResult}: ${BT-198(BT-161)-NoticeResult} // Unpublished Access Date
 	0 {ND-NoticeResult[BT-161-NoticeResult == -1]} #{field|name|BT-161-NoticeResult}: #{auxiliary|text|unpublished} // Notice Value (Value of all contracts awarded in this procedure) (unpublished)
 		{ND-NoticeValueUnpublish} #{field|name|BT-197(BT-161)-NoticeResult}: #{BT-197(BT-161)-NoticeResult} // Unpublished Justification Code
 		{ND-NoticeValueUnpublish[BT-196(BT-161)-NoticeResult is present]} #{field|name|BT-196(BT-161)-NoticeResult}: ${BT-196(BT-161)-NoticeResult} // Unpublished Justification Description
 		{ND-NoticeValueUnpublish[BT-198(BT-161)-NoticeResult is present]} #{field|name|BT-198(BT-161)-NoticeResult}: ${BT-198(BT-161)-NoticeResult} // Unpublished Access Date
 	0 {ND-DirectAward} #{auxiliary|text|direct-award}: // Direct award
 		0 {BT-136-Procedure[BT-136-Procedure != 'unpublished']} #{field|name|BT-136-Procedure}: #{BT-136-Procedure} // Justification for direct award
+			{ND-DirectAwardJustificationCodeUnpublish} #{field|name|BT-197(BT-136)-Procedure}: #{BT-197(BT-136)-Procedure} // Unpublished Justification Code
+			{ND-DirectAwardJustificationCodeUnpublish[BT-196(BT-136)-Procedure is present]} #{field|name|BT-196(BT-136)-Procedure}: ${BT-196(BT-136)-Procedure} // Unpublished Justification Description
+			{ND-DirectAwardJustificationCodeUnpublish[BT-198(BT-136)-Procedure is present]} #{field|name|BT-198(BT-136)-Procedure}: ${BT-198(BT-136)-Procedure} // Unpublished Access Date
 		0 {BT-136-Procedure[BT-136-Procedure == 'unpublished']} #{field|name|BT-136-Procedure}: #{auxiliary|text|unpublished} // Justification for direct award (unpublished)
 			{ND-DirectAwardJustificationCodeUnpublish} #{field|name|BT-197(BT-136)-Procedure}: #{BT-197(BT-136)-Procedure} // Unpublished Justification Code
 			{ND-DirectAwardJustificationCodeUnpublish[BT-196(BT-136)-Procedure is present]} #{field|name|BT-196(BT-136)-Procedure}: ${BT-196(BT-136)-Procedure} // Unpublished Justification Description
 			{ND-DirectAwardJustificationCodeUnpublish[BT-198(BT-136)-Procedure is present]} #{field|name|BT-198(BT-136)-Procedure}: ${BT-198(BT-136)-Procedure} // Unpublished Access Date
 		0 {ND-DirectAward[BT-135-Procedure != 'unpublished']} #{field|name|BT-135-Procedure}: ${BT-135-Procedure} // Other justification
+			{ND-DirectAwardJustificationTextUnpublish} #{field|name|BT-197(BT-135)-Procedure}: #{BT-197(BT-135)-Procedure} // Unpublished Justification Code
+			{ND-DirectAwardJustificationTextUnpublish[BT-196(BT-135)-Procedure is present]} #{field|name|BT-196(BT-135)-Procedure}: ${BT-196(BT-135)-Procedure} // Unpublished Justification Description
+			{ND-DirectAwardJustificationTextUnpublish[BT-198(BT-135)-Procedure is present]} #{field|name|BT-198(BT-135)-Procedure}: ${BT-198(BT-135)-Procedure} // Unpublished Access Date
 		0 {ND-DirectAward[BT-135-Procedure == 'unpublished']} #{field|name|BT-135-Procedure}: #{auxiliary|text|unpublished} // Other justification (unpublished)
 			{ND-DirectAwardJustificationTextUnpublish} #{field|name|BT-197(BT-135)-Procedure}: #{BT-197(BT-135)-Procedure} // Unpublished Justification Code
 			{ND-DirectAwardJustificationTextUnpublish[BT-196(BT-135)-Procedure is present]} #{field|name|BT-196(BT-135)-Procedure}: ${BT-196(BT-135)-Procedure} // Unpublished Justification Description
 			{ND-DirectAwardJustificationTextUnpublish[BT-198(BT-135)-Procedure is present]} #{field|name|BT-198(BT-135)-Procedure}: ${BT-198(BT-135)-Procedure} // Unpublished Access Date
 		0 {BT-1252-Procedure[BT-1252-Procedure != 'unpublished']} #{field|name|BT-1252-Procedure}: ${BT-1252-Procedure} // Identifier of the previous procedure that justifies direct award
+			{ND-DirectAwardJustificationPreviousUnpublish} #{field|name|BT-197(BT-1252)-Procedure}: #{BT-197(BT-1252)-Procedure} // Unpublished Justification Code
+			{ND-DirectAwardJustificationPreviousUnpublish[BT-196(BT-1252)-Procedure is present]} #{field|name|BT-196(BT-1252)-Procedure}: ${BT-196(BT-1252)-Procedure} // Unpublished Justification Description
+			{ND-DirectAwardJustificationPreviousUnpublish[BT-198(BT-1252)-Procedure is present]} #{field|name|BT-198(BT-1252)-Procedure}: ${BT-198(BT-1252)-Procedure} // Unpublished Access Date
 		0 {BT-1252-Procedure[BT-1252-Procedure == 'unpublished']} #{field|name|BT-1252-Procedure}: #{auxiliary|text|unpublished} // Identifier of the previous procedure that justifies direct award (unpublished)
 			{ND-DirectAwardJustificationPreviousUnpublish} #{field|name|BT-197(BT-1252)-Procedure}: #{BT-197(BT-1252)-Procedure} // Unpublished Justification Code
 			{ND-DirectAwardJustificationPreviousUnpublish[BT-196(BT-1252)-Procedure is present]} #{field|name|BT-196(BT-1252)-Procedure}: ${BT-196(BT-1252)-Procedure} // Unpublished Justification Description
 			{ND-DirectAwardJustificationPreviousUnpublish[BT-198(BT-1252)-Procedure is present]} #{field|name|BT-198(BT-1252)-Procedure}: ${BT-198(BT-1252)-Procedure} // Unpublished Access Date
 	1 {ND-LotTender[OPT-322-LotResult is not present]} #{field|name|BT-13713-LotResult}: ${BT-13714-Tender} // 6.1 Result Lot Identifier (LOT-XXXX) DAP/VEAT notices
-		0 {BT-13714-Tender[count(for text:$tender1 in BT-13714-Tender return BT-13713-LotResult[BT-13713-LotResult[BT-709-LotResult is present or BT-660-LotResult is present] == $tender1]) > 0] } #{auxiliary|text|framework-agreement} // --- TODO --- 0 {ND-LotResultFAValues} #{auxiliary|text|framework-agreement}: // Framework agreement
-			{BT-13714-Tender[count(for text:$tender1 in BT-13714-Tender return number:BT-709-LotResult[BT-709-LotResult[BT-13713-LotResult == $tender1] != -1]) > 0] } #{field|name|BT-709-LotResult}: ${for text:$tender2 in BT-13714-Tender, number:$value in BT-709-LotResult[BT-13713-LotResult == $tender2] return format-number($value, '###,##0.##')} // Framework Maximum Value
-			{BT-13714-Tender[count(for text:$tender1 in BT-13714-Tender return number:BT-709-LotResult[BT-709-LotResult[BT-13713-LotResult == $tender1] == -1]) > 0] } #{field|name|BT-709-LotResult}: #{auxiliary|text|unpublished} // Framework Maximum Value (unpublished)
-			{BT-13714-Tender[count(for text:$tender1 in BT-13714-Tender return number:BT-660-LotResult[BT-660-LotResult[BT-13713-LotResult == $tender1] != -1]) > 0] } #{field|name|BT-660-LotResult}: ${for text:$tender2 in BT-13714-Tender, number:$value in BT-660-LotResult[BT-13713-LotResult == $tender2] return format-number($value, '###,##0.##')} // Framework Re-estimated Value
-			{BT-13714-Tender[count(for text:$tender1 in BT-13714-Tender return number:BT-660-LotResult[BT-660-LotResult[BT-13713-LotResult == $tender1] == -1]) > 0] } #{field|name|BT-660-LotResult}: #{auxiliary|text|unpublished} // Framework Re-estimated Value (unpublished)
 		2 {ND-LotTender} #{auxiliary|text|winner-info} // 6.1.2. Winning tenders
 			0 {ND-LotTender} #{auxiliary|text|winner}: // Winner
 				{ND-LotTender[count(for text:$tpa1 in OPT-310-Tender, text:$name1 in (OPT-211-Tenderer[OPT-170-Tenderer[OPT-210-Tenderer == $tpa1] == TRUE]) return $name1)>0]} #{field|name|OPT-211-Tenderer}: ${for text:$tpa2 in OPT-310-Tender, text:$name2 in (OPT-211-Tenderer[OPT-170-Tenderer[OPT-210-Tenderer == $tpa2] == TRUE]) return $name2} // Name of the tendering party for this Winner
@@ -242,53 +300,85 @@
 				{ND-LotTender} #{field|name|BT-3201-Tender}: ${BT-3201-Tender} // Tender identifier
 				{ND-LotTender} #{field|name|BT-13714-Tender}: ${BT-13714-Tender} // Identifier of lot or group of lots
 				0 {ND-LotTender[BT-720-Tender != -1]} #{field|name|BT-720-Tender}: ${format-number(BT-720-Tender, '###,##0.##')} #{code|name|${concat('currency.', BT-720-Tender[BT-720-Tender != -1]/@currencyID)}} // Value of the tender
+					{BT-197(BT-720)-Tender} #{field|name|BT-197(BT-720)-Tender}: #{BT-197(BT-720)-Tender} // Unpublished Justification Code
+					{ND-WinningTenderValueUnpublish[BT-196(BT-720)-Tender is present]} #{field|name|BT-196(BT-720)-Tender}: ${BT-196(BT-720)-Tender} // Unpublished Justification Description
+					{BT-198(BT-720)-Tender} #{field|name|BT-198(BT-720)-Tender}: ${BT-198(BT-720)-Tender} // Unpublished Access Date
 				0 {ND-LotTender[BT-720-Tender == -1]} #{field|name|BT-720-Tender}: #{auxiliary|text|unpublished} // Value of the tender (unpublished)
-				0 {ND-LotTender[BT-1711-Tender == TRUE]} #{field|name|BT-1711-Tender} // Tender Ranked
+					{BT-197(BT-720)-Tender} #{field|name|BT-197(BT-720)-Tender}: #{BT-197(BT-720)-Tender} // Unpublished Justification Code
+					{ND-WinningTenderValueUnpublish[BT-196(BT-720)-Tender is present]} #{field|name|BT-196(BT-720)-Tender}: ${BT-196(BT-720)-Tender} // Unpublished Justification Description
+					{BT-198(BT-720)-Tender} #{field|name|BT-198(BT-720)-Tender}: ${BT-198(BT-720)-Tender} // Unpublished Access Date
 				0 {ND-LotTender[BT-160-Tender is present or BT-162-Tender is present or BT-163-Tender is present]} #{auxiliary|text|concession-value}  // Concession value (Tender)
 					0 {BT-162-Tender[BT-162-Tender != -1]} #{field|name|BT-162-Tender}: ${format-number(BT-162-Tender, '###,##0.##')} #{code|name|${concat('currency.', BT-162-Tender/@currencyID)}} // Concession Revenue User
+						{BT-197(BT-162)-Tender} #{field|name|BT-197(BT-162)-Tender}: #{BT-197(BT-162)-Tender} // Unpublished Justification Code
+						{BT-162-Tender[BT-196(BT-162)-Tender is present]} #{field|name|BT-196(BT-162)-Tender}: ${BT-196(BT-162)-Tender} // Unpublished Justification Description
+						{BT-198(BT-162)-Tender} #{field|name|BT-198(BT-162)-Tender}: ${BT-198(BT-162)-Tender} // Unpublished Access Date
 					0 {BT-162-Tender[BT-162-Tender == -1]} #{field|name|BT-162-Tender}: #{auxiliary|text|unpublished} // Concession Revenue User (unpublished)
-						{BT-197(BT-162)-Tender} #{field|name|BT-197(BT-162)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-162)-Tender)}} // Unpublished Justification Code
+						{BT-197(BT-162)-Tender} #{field|name|BT-197(BT-162)-Tender}: #{BT-197(BT-162)-Tender} // Unpublished Justification Code
 						{BT-162-Tender[BT-196(BT-162)-Tender is present]} #{field|name|BT-196(BT-162)-Tender}: ${BT-196(BT-162)-Tender} // Unpublished Justification Description
 						{BT-198(BT-162)-Tender} #{field|name|BT-198(BT-162)-Tender}: ${BT-198(BT-162)-Tender} // Unpublished Access Date
 					0 {BT-160-Tender[BT-160-Tender != -1]} #{field|name|BT-160-Tender}: ${format-number(BT-160-Tender, '###,##0.##')} #{code|name|${concat('currency.', BT-160-Tender/@currencyID)}} // Concession Revenue Buyer
-					0 {BT-160-Tender[BT-160-Tender == -1]} #{field|name|BT-160-Tender}: #{auxiliary|text|unpublished} // Concession Revenue Buyer (unpublished)
-						{BT-197(BT-160)-Tender} #{field|name|BT-197(BT-160)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-160)-Tender)}} // Unpublished Justification Code
+						{BT-197(BT-160)-Tender} #{field|name|BT-197(BT-160)-Tender}: #{BT-197(BT-160)-Tender} // Unpublished Justification Code
 						{BT-160-Tender[BT-196(BT-160)-Tender is present]} #{field|name|BT-196(BT-160)-Tender}: ${BT-196(BT-160)-Tender} // Unpublished Justification Description
 						{BT-198(BT-160)-Tender} #{field|name|BT-198(BT-160)-Tender}: ${BT-198(BT-160)-Tender} // Unpublished Access Date
-					0 {BT-163-Tender[BT-163-Tender != 'unpublished']} #{field|name|BT-163-Tender}: ${BT-163-Tender} // Concession Value Description (Tender)
-					0 {BT-163-Tender[BT-163-Tender == 'unpublished']} #{field|name|BT-163-Tender}: #{auxiliary|text|unpublished} // Concession Value Description (Tender) (unpublished)
-						{BT-197(BT-163)-Tender} #{field|name|BT-197(BT-163)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-163)-Tender)}} // Unpublished Justification Code
-						{ND-LotTender[BT-196(BT-163)-Tender is present]} #{field|name|BT-196(BT-163)-Tender}: ${BT-196(BT-163)-Tender} // Unpublished Justification Description
+					0 {BT-160-Tender[BT-160-Tender == -1]} #{field|name|BT-160-Tender}: #{auxiliary|text|unpublished} // Concession Revenue Buyer (unpublished)
+						{BT-197(BT-160)-Tender} #{field|name|BT-197(BT-160)-Tender}: #{BT-197(BT-160)-Tender} // Unpublished Justification Code
+						{BT-160-Tender[BT-196(BT-160)-Tender is present]} #{field|name|BT-196(BT-160)-Tender}: ${BT-196(BT-160)-Tender} // Unpublished Justification Description
+						{BT-198(BT-160)-Tender} #{field|name|BT-198(BT-160)-Tender}: ${BT-198(BT-160)-Tender} // Unpublished Access Date
+					0 {ND-ConcessionRevenue[BT-163-Tender != 'unpublished']} #{field|name|BT-163-Tender}: ${BT-163-Tender} // Concession Value Description (Tender)
+						{BT-197(BT-163)-Tender} #{field|name|BT-197(BT-163)-Tender}: #{BT-197(BT-163)-Tender} // Unpublished Justification Code
+						{ND-ConcessionRevenue[BT-196(BT-163)-Tender is present]} #{field|name|BT-196(BT-163)-Tender}: ${BT-196(BT-163)-Tender} // Unpublished Justification Description
 						{BT-198(BT-163)-Tender} #{field|name|BT-198(BT-163)-Tender}: ${BT-198(BT-163)-Tender} // Unpublished Access Date
-				0 {ND-LotTender[BT-773-Tender != 'unpublished']} #{field|name|BT-773-Tender}: #{code|name|${concat('applicability.',BT-773-Tender)}}  // Subcontracting  
-				0 {ND-LotTender[BT-773-Tender == 'unpublished']} #{field|name|BT-773-Tender}: #{auxiliary|text|unpublished} // Subcontracting (unpublished)
-					{BT-197(BT-773)-Tender} #{field|name|BT-197(BT-773)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-773)-Tender)}} // Unpublished Justification Code
+					0 {ND-ConcessionRevenue[BT-163-Tender == 'unpublished']} #{field|name|BT-163-Tender}: #{auxiliary|text|unpublished} // Concession Value Description (Tender) (unpublished)
+						{BT-197(BT-163)-Tender} #{field|name|BT-197(BT-163)-Tender}: #{BT-197(BT-163)-Tender} // Unpublished Justification Code
+						{ND-ConcessionRevenue[BT-196(BT-163)-Tender is present]} #{field|name|BT-196(BT-163)-Tender}: ${BT-196(BT-163)-Tender} // Unpublished Justification Description
+						{BT-198(BT-163)-Tender} #{field|name|BT-198(BT-163)-Tender}: ${BT-198(BT-163)-Tender} // Unpublished Access Date
+				0 {ND-SubcontractedContract[BT-773-Tender != 'unpublished']} #{field|name|BT-773-Tender}: #{code|name|${concat('applicability.',BT-773-Tender)}}  // Subcontracting  
+					{BT-197(BT-773)-Tender} #{field|name|BT-197(BT-773)-Tender}: #{BT-197(BT-773)-Tender} // Unpublished Justification Code
 					{BT-773-Tender[BT-196(BT-773)-Tender is present]} #{field|name|BT-196(BT-773)-Tender}: ${BT-196(BT-773)-Tender} // Unpublished Justification Description
 					{BT-198(BT-773)-Tender} #{field|name|BT-198(BT-773)-Tender}: ${BT-198(BT-773)-Tender} // Unpublished Access Date
-				0 {ND-LotTender[BT-195(BT-730)-Tender is not present]} #{field|name|BT-730-Tender}: #{code|name|${if (BT-730-Tender == TRUE) then 'indicator.true' else 'indicator.false' }} // The Buyer knows the estimated value of the contract that the contractor will subcontract to third parties
-				0 {ND-LotTender[BT-195(BT-730)-Tender is present]} #{field|name|BT-730-Tender}: #{auxiliary|text|unpublished} // The Buyer knows the estimated value of the contract that the contractor will subcontract to third parties (unpublished)
-					{BT-197(BT-730)-Tender} #{field|name|BT-197(BT-730)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-730)-Tender)}} // Unpublished Justification Code
+				0 {ND-SubcontractedContract[BT-773-Tender == 'unpublished']} #{field|name|BT-773-Tender}: #{auxiliary|text|unpublished} // Subcontracting (unpublished)
+					{BT-197(BT-773)-Tender} #{field|name|BT-197(BT-773)-Tender}: #{BT-197(BT-773)-Tender} // Unpublished Justification Code
+					{BT-773-Tender[BT-196(BT-773)-Tender is present]} #{field|name|BT-196(BT-773)-Tender}: ${BT-196(BT-773)-Tender} // Unpublished Justification Description
+					{BT-198(BT-773)-Tender} #{field|name|BT-198(BT-773)-Tender}: ${BT-198(BT-773)-Tender} // Unpublished Access Date
+				0 {ND-SubcontractedContract[BT-730-Tender is present and (BT-195(BT-730)-Tender is not present or BT-730-Tender == TRUE)]} #{field|name|BT-730-Tender}: #{code|name|${if (BT-730-Tender == TRUE) then 'indicator.true' else 'indicator.false' }} // The Buyer knows the estimated value of the contract that the contractor will subcontract to third parties
+					{BT-197(BT-730)-Tender} #{field|name|BT-197(BT-730)-Tender}: #{BT-197(BT-730)-Tender} // Unpublished Justification Code
 					{BT-730-Tender[BT-196(BT-730)-Tender is present]} #{field|name|BT-196(BT-730)-Tender}: ${BT-196(BT-730)-Tender} // Unpublished Justification Description
 					{BT-198(BT-730)-Tender} #{field|name|BT-198(BT-730)-Tender}: ${BT-198(BT-730)-Tender} // Unpublished Access Date
-				0 {ND-LotTender[BT-553-Tender != -1]} #{field|name|BT-553-Tender}: ${format-number(BT-553-Tender, '###,##0.##')} #{code|name|${concat('currency.', BT-553-Tender/@currencyID)}} // Estimated value of the part of the contract that the contractor will subcontract to third parties
-				0 {ND-LotTender[BT-553-Tender == -1]} #{field|name|BT-553-Tender}: #{auxiliary|text|unpublished} // Estimated value of the part of the contract that the contractor will subcontract to third parties (unpublished)
-					{BT-197(BT-553)-Tender} #{field|name|BT-197(BT-553)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-553)-Tender)}} // Unpublished Justification Code
+				0 {ND-SubcontractedContract[BT-195(BT-730)-Tender is present and BT-730-Tender == FALSE]} #{field|name|BT-730-Tender}: #{auxiliary|text|unpublished} // The Buyer knows the estimated value of the contract that the contractor will subcontract to third parties (unpublished)
+					{BT-197(BT-730)-Tender} #{field|name|BT-197(BT-730)-Tender}: #{BT-197(BT-730)-Tender} // Unpublished Justification Code
+					{BT-730-Tender[BT-196(BT-730)-Tender is present]} #{field|name|BT-196(BT-730)-Tender}: ${BT-196(BT-730)-Tender} // Unpublished Justification Description
+					{BT-198(BT-730)-Tender} #{field|name|BT-198(BT-730)-Tender}: ${BT-198(BT-730)-Tender} // Unpublished Access Date
+				0 {ND-SubcontractedContract[BT-553-Tender != -1]} #{field|name|BT-553-Tender}: ${format-number(BT-553-Tender, '###,##0.##')} #{code|name|${concat('currency.', BT-553-Tender/@currencyID)}} // Estimated value of the part of the contract that the contractor will subcontract to third parties
+					{BT-197(BT-553)-Tender} #{field|name|BT-197(BT-553)-Tender}: #{BT-197(BT-553)-Tender} // Unpublished Justification Code
 					{BT-553-Tender[BT-196(BT-553)-Tender is present]} #{field|name|BT-196(BT-553)-Tender}: ${BT-196(BT-553)-Tender} // Unpublished Justification Description
 					{BT-198(BT-553)-Tender} #{field|name|BT-198(BT-553)-Tender}: ${BT-198(BT-553)-Tender} // Unpublished Access Date
-				0 {ND-LotTender[BT-195(BT-731)-Tender is not present]} #{field|name|BT-731-Tender}: #{code|name|${if (BT-731-Tender == TRUE) then 'indicator.true' else 'indicator.false' }} // The Buyer knows the estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract
-				0 {ND-LotTender[BT-195(BT-731)-Tender is present]} #{field|name|BT-731-Tender}: #{auxiliary|text|unpublished} // The Buyer knows the estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract (unpublished)
-					{BT-197(BT-731)-Tender} #{field|name|BT-197(BT-731)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-731)-Tender)}} // Unpublished Justification Code
+				0 {ND-SubcontractedContract[BT-553-Tender == -1]} #{field|name|BT-553-Tender}: #{auxiliary|text|unpublished} // Estimated value of the part of the contract that the contractor will subcontract to third parties (unpublished)
+					{BT-197(BT-553)-Tender} #{field|name|BT-197(BT-553)-Tender}: #{BT-197(BT-553)-Tender} // Unpublished Justification Code
+					{BT-553-Tender[BT-196(BT-553)-Tender is present]} #{field|name|BT-196(BT-553)-Tender}: ${BT-196(BT-553)-Tender} // Unpublished Justification Description
+					{BT-198(BT-553)-Tender} #{field|name|BT-198(BT-553)-Tender}: ${BT-198(BT-553)-Tender} // Unpublished Access Date
+				0 {ND-SubcontractedContract[BT-731-Tender is present and (BT-195(BT-731)-Tender is not present or BT-731-Tender == TRUE)]} #{field|name|BT-731-Tender}: #{code|name|${if (BT-731-Tender == TRUE) then 'indicator.true' else 'indicator.false' }} // The Buyer knows the estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract
+					{BT-197(BT-731)-Tender} #{field|name|BT-197(BT-731)-Tender}: #{BT-197(BT-731)-Tender} // Unpublished Justification Code
 					{BT-731-Tender[BT-196(BT-731)-Tender is present]} #{field|name|BT-196(BT-731)-Tender}: ${BT-196(BT-731)-Tender} // Unpublished Justification Description
 					{BT-198(BT-731)-Tender} #{field|name|BT-198(BT-731)-Tender}: ${BT-198(BT-731)-Tender} // Unpublished Access Date
-				0 {ND-LotTender[BT-555-Tender != -1]} #{field|name|BT-555-Tender}: ${format-number(BT-555-Tender, '###,##0.##')} // Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract
-				0 {ND-LotTender[BT-555-Tender == -1]} #{field|name|BT-555-Tender}: #{auxiliary|text|unpublished} // Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract (unpublished)
-					{BT-197(BT-555)-Tender} #{field|name|BT-197(BT-555)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-555)-Tender)}} // Unpublished Justification Code
+				0 {ND-SubcontractedContract[BT-195(BT-731)-Tender is present and BT-731-Tender == FALSE]} #{field|name|BT-731-Tender}: #{auxiliary|text|unpublished} // The Buyer knows the estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract (unpublished)
+					{BT-197(BT-731)-Tender} #{field|name|BT-197(BT-731)-Tender}: #{BT-197(BT-731)-Tender} // Unpublished Justification Code
+					{BT-731-Tender[BT-196(BT-731)-Tender is present]} #{field|name|BT-196(BT-731)-Tender}: ${BT-196(BT-731)-Tender} // Unpublished Justification Description
+					{BT-198(BT-731)-Tender} #{field|name|BT-198(BT-731)-Tender}: ${BT-198(BT-731)-Tender} // Unpublished Access Date
+				0 {ND-SubcontractedContract[BT-555-Tender != -1]} #{field|name|BT-555-Tender}: ${format-number(BT-555-Tender, '###,##0.##')} // Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract
+					{BT-197(BT-555)-Tender} #{field|name|BT-197(BT-555)-Tender}: #{BT-197(BT-555)-Tender} // Unpublished Justification Code
 					{BT-555-Tender[BT-196(BT-555)-Tender is present]} #{field|name|BT-196(BT-555)-Tender}: ${BT-196(BT-555)-Tender} // Unpublished Justification Description
 					{BT-198(BT-555)-Tender} #{field|name|BT-198(BT-555)-Tender}: ${BT-198(BT-555)-Tender} // Unpublished Access Date
-				0 {ND-LotTender[(BT-554-Tender != '' and BT-554-Tender != 'unpublished')]} #{field|name|BT-554-Tender}: ${BT-554-Tender} // Subcontracting Description
-				0 {ND-LotTender[BT-554-Tender == 'unpublished']} #{field|name|BT-554-Tender}: #{auxiliary|text|unpublished} // Subcontracting Description (unpublished)
-					{BT-197(BT-554)-Tender} #{field|name|BT-197(BT-554)-Tender}: #{code|name|${concat('non-publication-justification.', BT-197(BT-554)-Tender)}} // Unpublished Justification Code
-					{BT-554-Tender[BT-196(BT-554)-Tender is present]} #{field|name|BT-196(BT-554)-Tender}: ${BT-196(BT-554)-Tender} // Unpublished Justification Description
+				0 {ND-SubcontractedContract[BT-555-Tender == -1]} #{field|name|BT-555-Tender}: #{auxiliary|text|unpublished} // Estimated percentage of the contract that the contractor will subcontract to third parties, compared to the whole contract (unpublished)
+					{BT-197(BT-555)-Tender} #{field|name|BT-197(BT-555)-Tender}: #{BT-197(BT-555)-Tender} // Unpublished Justification Code
+					{BT-555-Tender[BT-196(BT-555)-Tender is present]} #{field|name|BT-196(BT-555)-Tender}: ${BT-196(BT-555)-Tender} // Unpublished Justification Description
+					{BT-198(BT-555)-Tender} #{field|name|BT-198(BT-555)-Tender}: ${BT-198(BT-555)-Tender} // Unpublished Access Date
+				0 {ND-SubcontractedContract[(BT-554-Tender != '' and BT-554-Tender != 'unpublished')]} #{field|name|BT-554-Tender}: ${BT-554-Tender} // Subcontracting Description
+					{BT-197(BT-554)-Tender} #{field|name|BT-197(BT-554)-Tender}: #{BT-197(BT-554)-Tender} // Unpublished Justification Code
+					{ND-SubcontractedContract[BT-196(BT-554)-Tender is present]} #{field|name|BT-196(BT-554)-Tender}: ${BT-196(BT-554)-Tender} // Unpublished Justification Description
+					{BT-198(BT-554)-Tender} #{field|name|BT-198(BT-554)-Tender}: ${BT-198(BT-554)-Tender} // Unpublished Access Date
+				0 {ND-SubcontractedContract[BT-554-Tender == 'unpublished']} #{field|name|BT-554-Tender}: #{auxiliary|text|unpublished} // Subcontracting Description (unpublished)
+					{BT-197(BT-554)-Tender} #{field|name|BT-197(BT-554)-Tender}: #{BT-197(BT-554)-Tender} // Unpublished Justification Code
+					{ND-SubcontractedContract[BT-196(BT-554)-Tender is present]} #{field|name|BT-196(BT-554)-Tender}: ${BT-196(BT-554)-Tender} // Unpublished Justification Description
 					{BT-198(BT-554)-Tender} #{field|name|BT-198(BT-554)-Tender}: ${BT-198(BT-554)-Tender} // Unpublished Access Date
 				0 {OPT-321-Tender} #{auxiliary|text|contract-information}: // Contract info for this tender
 					0 {OPT-321-Tender} #{field|name|BT-150-Contract}: ${for text:$tender in OPT-321-Tender return BT-150-Contract[BT-3202-Contract == $tender]} // Contract identifier
@@ -367,10 +457,10 @@
 10 {ND-Root[BT-758-notice is present]} #{auxiliary|text|change} // 10. Change
 	{BT-758-notice} #{field|name|BT-758-notice}: ${BT-758-notice} // Change Notice Version Identifier
 	{BT-140-notice} #{field|name|BT-140-notice}: #{BT-140-notice} // Change Reason Code
-	{BT-762-notice} #{field|name|BT-762-notice}: ${BT-762-notice} // Change Reason Description
+	{ND-ChangeReason[BT-762-notice is present]} #{field|name|BT-762-notice}: ${BT-762-notice} // Change Reason Description
 	1 {ND-Change} #{auxiliary|text|change} // 10.1 Change
 		{BT-13716-notice} #{field|name|BT-13716-notice}: ${BT-13716-notice} // Change Previous Section Identifier
-		{BT-141(a)-notice} #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice} // Change Description
+		{ND-Change[BT-141(a)-notice is present]} #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice} // Change Description
 		{BT-719-notice} #{field|name|BT-718-notice}: ${BT-719-notice} // Change Procurement Documents / Change Procurement Documents Date
 11 {ND-Root} #{auxiliary|text|notice-information} // 11. Notice information
 	1 {ND-Root} #{auxiliary|text|notice-information} // 11.1 Notice information

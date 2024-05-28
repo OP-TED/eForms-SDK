@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Interni identifikator, ki se uporablja za spise v zvezi s postopkom za oddajo javnega naročila ali sklopom, dokler se ne dodeli identifikator postopka (npr. iz kupčevega sistema za ravnanje z dokumenti ali sistema za načrtovanje javnih naročil).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Interni identifikator, ki se uporablja za spise v zvezi s postopkom za oddajo javnega naročila ali sklopom, dokler se ne dodeli identifikator postopka (npr. iz kupčevega sistema za ravnanje z dokumenti ali sistema za načrtovanje javnih naročil).</entry>
 <entry key="field|description|BT-23-Lot">Glavna vrsta (npr. gradnja) predmeta nakupa. Pri mešanih javnih naročilih (npr. postopek, ki zajema tako gradnje kot tudi storitve) je glavna vrsta lahko npr. tista pri naročilu z najviše ocenjeno vrednostjo. Ta podatek se da za celoten postopek.</entry>
+<entry key="field|description|BT-23-Lot-List">Glavna vrsta (npr. gradnja) predmeta nakupa. Pri mešanih javnih naročilih (npr. postopek, ki zajema tako gradnje kot tudi storitve) je glavna vrsta lahko npr. tista pri naročilu z najviše ocenjeno vrednostjo. Ta podatek se da za celoten postopek.</entry>
 <entry key="field|description|BT-23-Part">Glavna vrsta (npr. gradnja) predmeta nakupa. Pri mešanih javnih naročilih (npr. postopek, ki zajema tako gradnje kot tudi storitve) je glavna vrsta lahko npr. tista pri naročilu z najviše ocenjeno vrednostjo. Ta podatek se da za celoten postopek.</entry>
 <entry key="field|description|BT-23-Part-List">Glavna vrsta (npr. gradnja) predmeta nakupa. Pri mešanih javnih naročilih (npr. postopek, ki zajema tako gradnje kot tudi storitve) je glavna vrsta lahko npr. tista pri naročilu z najviše ocenjeno vrednostjo. Ta podatek se da za celoten postopek.</entry>
 <entry key="field|description|BT-23-Procedure">Glavna vrsta (npr. gradnja) predmeta nakupa. Pri mešanih javnih naročilih (npr. postopek, ki zajema tako gradnje kot tudi storitve) je glavna vrsta lahko npr. tista pri naročilu z najviše ocenjeno vrednostjo. Ta podatek se da za celoten postopek.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Opis načina neelektronske oddaje ponudb, prijav za sodelovanje ali prijav interesa.</entry>
 <entry key="field|description|BT-745-Lot-Language">Opis načina neelektronske oddaje ponudb, prijav za sodelovanje ali prijav interesa.</entry>
 <entry key="field|description|BT-746-Organization">Državljanstva dejanskih lastnikov zmagovalca, ponudnika ali podizvajalca niso objavljena v registrih, vzpostavljenih z Direktivo (EU) 2018/843, ker zmagovalec kotira na reguliranem trgu (npr. borza), na katerem je zagotovljena zadostna preglednost v skladu z zakonodajo o preprečevanju pranja denarja.</entry>
-<entry key="field|description|BT-747-Lot">Pogoji zadevajo npr. ekonomski in finančni položaj ali tehnično in strokovno sposobnost.</entry>
-<entry key="field|description|BT-747-Lot-List">Pogoji zadevajo npr. ekonomski in finančni položaj ali tehnično in strokovno sposobnost.</entry>
-<entry key="field|description|BT-748-Lot">Pogoji določene vrste se uporabljajo/se ne uporabljajo oziroma (v primeru predhodnega informativnega obvestila, ki se uporablja kot javni razpis ali za skrajšanje rokov) še ni znano, ali se bodo uporabljali.</entry>
-<entry key="field|description|BT-748-Lot-List">Pogoji določene vrste se uporabljajo/se ne uporabljajo oziroma (v primeru predhodnega informativnega obvestila, ki se uporablja kot javni razpis ali za skrajšanje rokov) še ni znano, ali se bodo uporabljali.</entry>
-<entry key="field|description|BT-749-Lot">Naziv pogojev za sodelovanje.</entry>
-<entry key="field|description|BT-749-Lot-Language">Naziv pogojev za sodelovanje.</entry>
 <entry key="field|description|BT-75-Lot">Opis finančnega jamstva, ki se zahteva od ponudnika ob predložitvi ponudbe. Jamstvo je lahko npr. v obliki plačila kupcu ali bančnega dokumenta. Jamstvo praviloma zapade, če ponudnik dobi naročilo, a ga potem noče podpisati.</entry>
 <entry key="field|description|BT-75-Lot-Language">Opis finančnega jamstva, ki se zahteva od ponudnika ob predložitvi ponudbe. Jamstvo je lahko npr. v obliki plačila kupcu ali bančnega dokumenta. Jamstvo praviloma zapade, če ponudnik dobi naročilo, a ga potem noče podpisati.</entry>
 <entry key="field|description|BT-750-Lot">Kratek opis pogojev za sodelovanje, vključno z minimalnimi zahtevami, zahtevanimi informacijami (npr. lastna izjava, dokumentacija) in informacijami o tem, kako se bodo pogoji uporabljali za izbiro kandidatov, ki bodo povabljeni k sodelovanju na drugi stopnji postopka (če je bilo določeno največje število kandidatov).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Notranji identifikator</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Notranji identifikator</entry>
 <entry key="field|name|BT-23-Lot">Vrsta javnega naročila</entry>
+<entry key="field|name|BT-23-Lot-List">Vrsta javnega naročila</entry>
 <entry key="field|name|BT-23-Part">Vrsta javnega naročila</entry>
 <entry key="field|name|BT-23-Part-List">Vrsta javnega naročila</entry>
 <entry key="field|name|BT-23-Procedure">Vrsta javnega naročila</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Ime</entry>
 <entry key="field|name|BT-632-Part">Ime</entry>
 <entry key="field|name|BT-633-Organization">Organizacija je fizična oseba</entry>
-<entry key="field|name|BT-634-Lot">Ta preklican ali neuspešen postopek ali sklop se bo ponovno začel</entry>
-<entry key="field|name|BT-634-Procedure">Ta preklican ali neuspešen postopek ali sklop se bo ponovno začel</entry>
+<entry key="field|name|BT-634-Lot">Če je sklop preklican ali neuspešen, se bo ponovno zagnal</entry>
+<entry key="field|name|BT-634-Procedure">Če je postopek preklican ali neuspešen, se bo ponovno zaženel</entry>
 <entry key="field|name|BT-635-LotResult">Število zahtevkov kupcu za revizijo</entry>
 <entry key="field|name|BT-636-LotResult">Vrsta domnevne nepravilnosti</entry>
 <entry key="field|name|BT-636-LotResult-List">Vrsta domnevne nepravilnosti</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Javno naročilo spada na področje uporabe Direktive 2009/33/ES Evropskega parlamenta in Sveta (direktiva o čistih vozilih – DČV)</entry>
 <entry key="field|name|BT-718-notice">Dokumenti v zvezi z oddajo javnega naročila so bili spremenjeni dne</entry>
 <entry key="field|name|BT-719-notice">Sprememba datuma dokumentov v zvezi z oddajo javnega naročila</entry>
-<entry key="field|name|BT-720-Tender">Vrednost rezultata</entry>
-<entry key="field|name|BT-720-Tender-Currency">Vrednost rezultata</entry>
+<entry key="field|name|BT-720-Tender">Vrednost razpisa</entry>
+<entry key="field|name|BT-720-Tender-Currency">Vrednost razpisa</entry>
 <entry key="field|name|BT-721-Contract">Naslov</entry>
 <entry key="field|name|BT-721-Contract-Language">Naslov</entry>
 <entry key="field|name|BT-722-Contract">Ime projekta ali programa, ki ga financira EU</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Opis</entry>
 <entry key="field|name|BT-745-Lot-Language">Opis</entry>
 <entry key="field|name|BT-746-Organization">Zmagovalec kotira na reguliranem trgu</entry>
-<entry key="field|name|BT-747-Lot">Vrsta</entry>
-<entry key="field|name|BT-747-Lot-List">Vrsta</entry>
-<entry key="field|name|BT-748-Lot">Uporaba tega merila</entry>
-<entry key="field|name|BT-748-Lot-List">Uporaba tega merila</entry>
-<entry key="field|name|BT-749-Lot">Ime</entry>
-<entry key="field|name|BT-749-Lot-Language">Ime</entry>
 <entry key="field|name|BT-75-Lot">Opis finančnega poroštva</entry>
 <entry key="field|name|BT-75-Lot-Language">Opis finančnega poroštva</entry>
 <entry key="field|name|BT-750-Lot">Opis</entry>

@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Estonian. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Korduvuse kohta teave</entry>
 <entry key="group|name|GR-Business-Address">Aadress</entry>
 <entry key="group|name|GR-Business-Contact">Kontakt</entry>
 <entry key="group|name|GR-Business-Party">Ettevõtjast osapool</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Oksjoni tingimused</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Lepingu sõlmimise tagajärjed</entry>
 <entry key="group|name|GR-Lot-Candidates">Kandidaadid</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Lepingu täitmise nõuded</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Uuendused ja valikud</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Hankesüsteem</entry>
 <entry key="group|name|GR-Lot-Deadline">Läbivaatamise tähtajad</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Vahendusorganisatsioon</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Lepingu täitmise koht</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Eeldatav kestus</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Kestus</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Ajavahemik</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Lepingu sõlmimise järgne protsess</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Eelnev kavandamine</entry>
 <entry key="group|name|GR-Lot-Procedure">Menetlus</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Hindamiskriteeriumide parameetrid</entry>
 <entry key="group|name|GR-LotsGroup-Description">Osade rühma kirjeldus</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Teave raamlepingu kohta</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Osade rühma kuuluvad osad</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Eesmärk</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Hanke ulatus</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Hanketingimused</entry>
 <entry key="group|name|GR-Metadata">Metaandmed</entry>
 <entry key="group|name|GR-Modification">Muutmine</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Alajaotus, mida muudetakse</entry>
 <entry key="group|name|GR-Nda">Konfidentsiaalsuskokkulepe</entry>
 <entry key="group|name|GR-NoticeResult-Section">Tulemus</entry>
 <entry key="group|name|GR-Organisations">Teates nimetatud organisatsioonid</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Kirjeldus</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Otselepingu sõlmimine</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Kõrvaldamise alused</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Viide kohalikule õigusele</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Muu õiguslik alus ilma tunnuseta</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Muu õiguslik alus koos tunnusega</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Õiguslik alus</entry>
@@ -181,14 +174,12 @@
 <entry key="group|name|GR-Unpublish-BT-09">Piiriülene õigus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Menetluse liik (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Menetluse liik (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Kiirendatud menetlus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Raamlepingu eeldatav maksumus (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Raamlepingu eeldatav maksumus (avaldatakse hiljem)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Raamlepingute maksimaalne maksumus selles hankemenetluses (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Otselepingu sõlmimist põhjendava eelmise menetluse tunnus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Otselepingu sõlmimist põhjendava eelmise menetluse tunnus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Otselepingu kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Otselepingu kirjeldus (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Kiirendatud menetluse põhjendus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Otselepingu sõlmimise põhjendus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Eduka pakkuja valiku staatus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Eduka pakkuja valiku staatus (avaldatakse hiljem)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Kirjeldus (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Hindamiskriteeriumiga seotud arv (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Hindamiskriteeriumiga seotud arv (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Hindamiskriteeriumiga seotud arv (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Arv on teatavat liiki osakaal (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Arv on teatavat liiki osakaal (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Arv on teatavat liiki osakaal (avaldatakse hiljem)</entry>
@@ -294,9 +282,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Osa hindamiskriteeriumi arv – keeruline (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Osa hindamiskriteerium on fikseeritud arv (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Osa hindamiskriteeriumi arv on piirmäär (avaldatakse hiljem)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Osa hindamiskriteeriumi arv (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Osa hindamiskriteeriumi arvu osakaal (avaldatakse hiljem)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Hindamiskriteeriumi parameeter</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Hindamiskriteeriumide parameetrid</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Lävendi väärtuskriteerium (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Osa hindamiskriteeriumi liik (avaldatakse hiljem)</entry>
@@ -342,9 +328,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Osade rühma hindamiskriteeriumide arv – keeruline (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Osade rühma hindamiskriteerium on fikseeritud arv (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Osade rühma hindamiskriteeriumi arv on piirmäär (avaldatakse hiljem)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Osade rühma hindamiskriteeriumi arv (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Osade rühma hindamiskriteeriumide arvu osakaal (avaldatakse hiljem)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Hindamiskriteeriumi parameeter</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Hindamiskriteeriumi parameetrid</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Lävendi väärtuskriteerium (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Osade rühma hindamiskriteeriumi liik (avaldatakse hiljem)</entry>
@@ -363,7 +347,6 @@
 <entry key="group|name|ND-NoticeResult">Tulemus</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Osade rühma maksimaalne maksumus</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Teate maksumus (avaldatakse hiljem)</entry>
-<entry key="group|name|ND-OptionsDescription">Täiendavate hankevõimaluste kirjeldus</entry>
 <entry key="group|name|ND-Organization">Teates nimetatud organisatsioonid</entry>
 <entry key="group|name|ND-OrganizationUboReference">Tegelik kasusaaja</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Muud tingimused peale tulude jaotamise</entry>

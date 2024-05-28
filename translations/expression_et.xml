@@ -3,16 +3,11 @@
 <properties>
 <comment>expression in Estonian. File generated from metadata database.</comment>
 <entry key="expression|name|1">'Hankija on võrgustiku sektori hankija' (BT-740) jaoks on väärtus 'Ei'</entry>
-<entry key="expression|name|100">'Hindamiskriteerium – arv' (BT-541-Lot) on täidetud, 'Arv on teatavat liiki osakaal' (BT-5421-Lot) ja 'Arv on teatavat liiki piirmäär' (BT-5423-Lot) ei ole täidetud</entry>
-<entry key="expression|name|101">'Hindamiskriteerium – arv' (BT-541-Lot) on täidetud, 'Arv on teatavat liiki osakaal' (BT-5421-Lot) ja 'Arv on teatavat liiki piirmäär' (BT-5422-Lot) ei ole täidetud</entry>
-<entry key="expression|name|102">'Hindamiskriteerium – arv' (BT-541-LotsGroup) on täidetud, 'Arv on teatavat liiki osakaal' (BT-5421-LotsGroup) ja 'Arv on teatavat liiki piirmäär' (BT-5423-LotsGroup) ei ole täidetud</entry>
-<entry key="expression|name|103">'Hindamiskriteerium – arv' (BT-541-LotsGroup) on täidetud, 'Arv on teatavat liiki osakaal' (BT-5421-LotsGroup) ja 'Arv on teatavat liiki piirmäär' (BT-5422-LotsGroup) ei ole täidetud</entry>
 <entry key="expression|name|104">'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-Lots) ei ole täidetud</entry>
 <entry key="expression|name|105">'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-LotsGroup) ei ole täidetud</entry>
 <entry key="expression|name|106">'Kestus' (BT-36-Lot) või 'Kestuse lõppkuupäev' (BT-537-Lot) on täidetud</entry>
 <entry key="expression|name|107">'Kestus' (BT-36-Lot) või 'Muu kestus' (BT-538-Lot) on täidetud</entry>
 <entry key="expression|name|108">'Kestuse lõppkuupäev' (BT-537-Lot) või 'Muu kestus' (BT-538-Lot) on täidetud</entry>
-<entry key="expression|name|109">'Menetluse liik' (BT-105) ei ole 'Otselepingu sõlmimine'</entry>
 <entry key="expression|name|11">'Alguskuupäev' (BT-536-Part) ei ole täidetud</entry>
 <entry key="expression|name|110">'Menetluse liik' (BT-105) on 'Avatud'; 'Menetluse liik' (BT-105) on 'Muu üheetapiline menetlus' ja 'Osalemistaotluste esitamise tähtaeg' (BT-1311) ei ole täidetud; 'Menetluse liik' (BT-105) peab olema 'Muu mitmeetapiline menetlus' ja 'Osalemistaotluste esitamise tähtaeg' (BT-1311) ei ole täidetud</entry>
 <entry key="expression|name|111">'Menetluse liik' (BT-105) on 'Muu üheetapiline menetlus' ja 'Pakkumuste esitamise tähtaeg' (BT-131) ei ole täidetud; 'Menetluse liik' (BT-105) on 'Muu mitmeetapiline menetlus' ja 'Osalemistaotluste esitamise tähtaeg' (BT-131) ei ole täidetud</entry>
@@ -21,7 +16,6 @@
 <entry key="expression|name|114">'Pakkumuste esitamise tähtaeg' (BT-131(d)-Lot) on täidetud</entry>
 <entry key="expression|name|115">'Osalemistaotluste esitamise tähtaeg' (BT-1311(d)-Lot) on täidetud</entry>
 <entry key="expression|name|116">'Menetluse liik' (BT-105) on 'Avatud' või 'Muu üheetapiline menetlus' või 'Väljakuulutamiseta läbirääkimistega hankemenetlus'</entry>
-<entry key="expression|name|117">'Liik' (BT-747-Lot) ei ole täidetud</entry>
 <entry key="expression|name|118">'Postiaadress' (BT-5101(a)-Lot) ei ole täidetud</entry>
 <entry key="expression|name|119">'Postiaadress' (BT-5101(a)-Part) ei ole täidetud</entry>
 <entry key="expression|name|12">'Ostja õiguslik vorm' (BT-11) on üks järgmistest: 'Avalik-õiguslik isik'; 'Keskvalitsusasutuse kontrollitav avalik-õiguslik isik'; 'Kohaliku omavalitsuse kontrollitav avalik-õiguslik isik'; 'Piirkondliku omavalitsuse kontrollitav avalik-õiguslik isik'; 'Keskvalitsusasutus'; 'Kaitsevaldkonna töövõtja'; 'ELi institutsioon, organ või amet'; 'Euroopa Liidu institutsioon või rahvusvaheline organisatsioon'; 'Rahvusvaheline organisatsioon'; 'Kohalik omavalitsus'; 'Keskvalitsusasutuse subsideeritavat lepingut sõlmiv organisatsioon'; 'Kohaliku omavalitsuse subsideeritavat lepingut sõlmiv organisatsioon'; 'Piirkondliku omavalitsuse subsideeritavat lepingut sõlmiv organisatsioon'; 'Riigi osalusega äriühing'; 'Keskvalitsusasutuse kontrollitav riigi osalusega äriühing'; 'Kohaliku omavalitsuse kontrollitav riigi osalusega äriühing'; 'Piirkondliku omavalitsuse kontrollitav riigi osalusega äriühing'; 'Piirkondlik omavalitsus'; 'Linna või valla ametiasutus'</entry>
@@ -57,15 +51,7 @@
 <entry key="expression|name|15">'Juurdepääs teatavatele hankedokumentidele on piiratud' (BT-14-Part) ei ole piiratud</entry>
 <entry key="expression|name|150">'Kirjeldus' (BT-540-Lot) ei ole täidetud</entry>
 <entry key="expression|name|151">'Kirjeldus' (BT-540-LotsGroup) ei ole täidetud</entry>
-<entry key="expression|name|152">'Hindamiskriteerium – arv' (BT-541) ei ole täidetud või 'Arv on fikseeritud väärtus' (BT-5422) on täidetud 'Arv on teatavat liiki piirmäär' (BT-5423) on täidetud</entry>
-<entry key="expression|name|153">'Hindamiskriteerium – arv' (BT-541) ei ole täidetud või 'Arv on fikseeritud väärtus' (BT-5422) on täidetud 'Arv on teatavat liiki piirmäär' (BT-5423) on täidetud</entry>
-<entry key="expression|name|154">'Hindamiskriteerium – arv' (BT-541) ei ole täidetud või 'Arv on teatavat liiki osakaal' (BT-5421) on täidetud või 'Arv on teatavat liiki piirmäär' (BT-5423) on täidetud või 'Liik' (BT-539) on 'Kvaliteet'</entry>
-<entry key="expression|name|155">'Hindamiskriteerium – arv' (BT-541) ei ole täidetud või 'Arv on teatavat liiki osakaal' (BT-5421) on täidetud või 'Arv on teatavat liiki piirmäär' (BT-5423) on täidetud või 'Liik' (BT-539) on 'Kvaliteet'</entry>
-<entry key="expression|name|156">'Hindamiskriteerium – arv' (BT-541) ei ole täidetud või 'Arv on fikseeritud väärtus' (BT-5422) on täidetud või 'Arv on teatavat liiki piirmäär' (BT-5423) on täidetud</entry>
-<entry key="expression|name|157">'Hindamiskriteerium – arv' (BT-541) ei ole täidetud või 'Arv on fikseeritud väärtus' (BT-5422) on täidetud või 'Arv on teatavat liiki piirmäär' (BT-5423) on täidetud</entry>
-<entry key="expression|name|158">'Pakkuja peab esitama pakkumused kõikide osade kohta' ((BT-763)) on tõene</entry>
 <entry key="expression|name|159">Partiid ei ole 'Pakkuja peab esitama pakkumused kõikide osade kohta' (BT-763) ja teadaandes on rohkem kui üks partii</entry>
-<entry key="expression|name|16">'Hindamiskriteerium – arv' (BT-541-Lot) ei ole tühi</entry>
 <entry key="expression|name|160">Mitut osa ei ole</entry>
 <entry key="expression|name|161">'Peamine liigitus' (BT-262-Lot) ei ole täidetud</entry>
 <entry key="expression|name|162">'Peamine liigitus' (BT-262-Part) ei ole täidetud</entry>
@@ -87,7 +73,6 @@
 <entry key="expression|name|177">'Pakkumise tehniline ID' (OPT-321-Tender) puudub</entry>
 <entry key="expression|name|178">'Organisatsioon, mis täidab seda rolli' (OPT-300-Tenderer) puudub</entry>
 <entry key="expression|name|179">'Organisatsioon või konkreetne kontaktipunkt' (OPT-301-Tenderer-MainCont) ei ole täidetud</entry>
-<entry key="expression|name|18">'Hindamiskriteerium – arv' (BT-541-LotsGroup) ei ole tühi</entry>
 <entry key="expression|name|180">'Ametlik nimi' (BT-500-Organization-Company) ei ole täidetud</entry>
 <entry key="expression|name|181">'Ametlik nimi' (BT-500-Organization-TouchPoint) ei ole täidetud</entry>
 <entry key="expression|name|182">'Riik' (BT-514-Organization-Company) on NUTSi koodideta</entry>
@@ -104,7 +89,7 @@
 <entry key="expression|name|192">'Tööõiguse veebiaadress' (OPT-130-Part-EmployLegis) on täidetud</entry>
 <entry key="expression|name|193">'Läbivaatamine – õiguskaitsevahendi liik' (BT-792-Review) ei ole 'Alternatiivkaristus' ega 'Kahjutasud'</entry>
 <entry key="expression|name|194">'Läbivaatamine – õiguskaitsevahendi liik' (BT-792-Review) on 'Kahjutasud'</entry>
-<entry key="expression|name|195">'Läbivaatamistaotlus – tagasi võetud' (BT-796-Review) pole tõene</entry>
+<entry key="expression|name|195">'Läbivaatamistaotlus – tagasi võetud' (BT-796-Review) ei ole 'jah'</entry>
 <entry key="expression|name|196">'Läbivaatamine – tunnus' (BT-784-Review) ei ole täidetud</entry>
 <entry key="expression|name|197">'Eelmise teate tunnus' (BT-125i-Lot) ei ole täidetud</entry>
 <entry key="expression|name|198">'Eelmise teate tunnus' (BT-125(i)-Part) ei ole täidetud</entry>
@@ -117,12 +102,12 @@
 <entry key="expression|name|203">Ühegi osa kohta lepingut ei sõlmitud</entry>
 <entry key="expression|name|204">'Leping – pakkumus – tunnus' (BT-3202-Contract) ei ole täidetud</entry>
 <entry key="expression|name|205">'Menetluse liik' (BT-105) ei ole 'Väljakuulutamiseta läbirääkimistega hankemenetlus'; 'Õiguslik alus' (BT-01) ei ole 'Määrus (EL, Euratom) 2018/1046'; vähemalt üks 'Leping – pakkumus – tunnus' (BT-3202-Contract) on täidetud</entry>
-<entry key="expression|name|206">'Leping sõlmitakse raamlepingu alusel' (BT-768-Contract) pole tõene</entry>
+<entry key="expression|name|206">'Leping sõlmitakse raamlepingu alusel' (BT-768-Contract) ei ole 'jah'</entry>
 <entry key="expression|name|207">'Pakkumuse tunnus' (BT-3201-Tender) on täidetud</entry>
 <entry key="expression|name|209">'Eelmise teate versioon, mida muudetakse' (BT-758-notice) ei ole täidetud</entry>
 <entry key="expression|name|21">'Riik – jaotus (NUTS)' B373(BT-5071-Lot) on täidetud</entry>
 <entry key="expression|name|210">'Punkti tunnus' (BT-13716-notice) ei ole täidetud</entry>
-<entry key="expression|name|211">Näitaja „Hankedokumendid on muutunud“ (BT-718-notice) pole tõene</entry>
+<entry key="expression|name|211">Näitaja 'Hanke dokumendid on muutunud' (BT-718-notice) ei ole 'jah'</entry>
 <entry key="expression|name|212">'Muudatuse peamine põhjus' (BT-140-notice) ei ole täidetud</entry>
 <entry key="expression|name|213">Seda kohaldatakse ELi ettevõtja registreerimisel</entry>
 <entry key="expression|name|214">'Kohaldatav piiriülene õigus' (BT-09(b)-Procedure) ei ole täidetud</entry>
@@ -149,8 +134,6 @@
 <entry key="expression|name|233">'Liik' (BT-539-LotsGroup) ei ole täidetud</entry>
 <entry key="expression|name|234">'Kirjeldus' (BT-540-Lot) ei ole täidetud</entry>
 <entry key="expression|name|235">'Kirjeldus' (BT-540-LotsGroup) ei ole täidetud</entry>
-<entry key="expression|name|236">'Hindamiskriteerium – arv' (BT-541-Lot) ei ole täidetud</entry>
-<entry key="expression|name|237">'Hindamiskriteerium – arv' (BT-541-LotsGroup) ei ole täidetud</entry>
 <entry key="expression|name|238">'Arv on teatavat liiki osakaal' (BT-5421-Lot) ei ole täidetud</entry>
 <entry key="expression|name|239">'Arv on teatavat liiki osakaal' (BT-5421-LotsGroup) ei ole täidetud</entry>
 <entry key="expression|name|24">'Alguskuupäev' (BT-536-Lot) ei ole täidetud</entry>
@@ -197,7 +180,6 @@
 <entry key="expression|name|277">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-161)-NoticeResult) ei ole täidetud</entry>
 <entry key="expression|name|278">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-162)-Tender) ei ole täidetud</entry>
 <entry key="expression|name|279">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-163)-Tender) ei ole täidetud</entry>
-<entry key="expression|name|28">'Selle kriteeriumi kasutamine' (BT-748) on 'Kasutatakse'</entry>
 <entry key="expression|name|280">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-171)-Tender) ei ole täidetud</entry>
 <entry key="expression|name|281">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-191)-Tender) ei ole täidetud</entry>
 <entry key="expression|name|282">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-193)-Tender) ei ole täidetud</entry>
@@ -231,7 +213,6 @@
 <entry key="expression|name|307">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-731)-Tender) ei ole täidetud</entry>
 <entry key="expression|name|308">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-733)-Lot) ei ole täidetud</entry>
 <entry key="expression|name|309">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-733)-LotsGroup) ei ole täidetud</entry>
-<entry key="expression|name|31">'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot) ei ole tühi</entry>
 <entry key="expression|name|310">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-734)-Lot) ei ole täidetud</entry>
 <entry key="expression|name|311">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-734)-LotsGroup) ei ole täidetud</entry>
 <entry key="expression|name|312">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-759)-LotResult) ei ole täidetud</entry>
@@ -242,7 +223,6 @@
 <entry key="expression|name|317">'Tegemist on korduva hankega' (BT-94-Lot) ei ole 'jah'</entry>
 <entry key="expression|name|318">'Menetluse liik' (BT-105-Procedure) on 'Avatud'</entry>
 <entry key="expression|name|319">'Organisatsioon või konkreetne kontaktipunkt' (OPT-301-Lot-ReviewInfo) ei ole täidetud</entry>
-<entry key="expression|name|32">'Kvalifitseerimistingimused – teine etapp – kutse – arv' (BT-752-Lot) ei ole tühi</entry>
 <entry key="expression|name|320">'Tegemist on elektroonilise oksjoniga' (BT-767-Lot) ei ole 'jah'</entry>
 <entry key="expression|name|321">'Menetluse liik' (BT-105) ei ole 'Piiratud'</entry>
 <entry key="expression|name|322">'Sõiduki tüüp' (OPT-155-LotResult) ei ole täidetud</entry>
@@ -298,7 +278,6 @@
 <entry key="expression|name|369">Nõutav on elektrooniline esitamine</entry>
 <entry key="expression|name|370">Elektrooniline esitamine ei ole lubatud</entry>
 <entry key="expression|name|371">Osade rühm koosneb ühest või vähemast osast</entry>
-<entry key="expression|name|372">'Liik' (BT-747-Lot) ei ole täidetud</entry>
 <entry key="expression|name|373">Osade rühm koosneb osadest, mille kohta ei ole raamlepingut sõlmitud</entry>
 <entry key="expression|name|374">'Pakkuja peab allhanget puudutava kohustuse täitma' (BT-66) ei ole täidetud</entry>
 <entry key="expression|name|375">'Kestuse lõppkuupäev' (BT-537-Part) on täidetud; 'Muu kestus' (BT-538-Part) on täidetud</entry>
@@ -396,13 +375,7 @@
 <entry key="expression|name|560">'Raamlepingu uuesti arvutatud maksumus' (BT-660-LotResult) ei ole täidetud</entry>
 <entry key="expression|name|561">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-660)-LotResult) ei ole täidetud</entry>
 <entry key="expression|name|568">'Täitmise nõude kood' (OPT-060-Lot) ei ole täidetud</entry>
-<entry key="expression|name|569">'Kirjeldus' (BT-540-Lot) on olemas ja 'Hindamiskriteerium – arv' (BT-541-Lot-FixedNumber) &amp;amp; 'Hindamiskriteerium – arv' (BT-541-Lot-ThresholdNumber) ei ole olemas</entry>
 <entry key="expression|name|57">'Tegemist on raamlepinguga' (BT-765-Lot) on 'Ei kohaldata'</entry>
-<entry key="expression|name|570">'Kirjeldus' (BT-540-Lot) on olemas ja 'Hindamiskriteerium – arv' (BT-541-Lot-WeightNumber) &amp;amp; 'Hindamiskriteerium – arv' (BT-541-Lot-ThresholdNumber) ei ole olemas</entry>
-<entry key="expression|name|571">'Kirjeldus' (BT-540-Lot) on olemas ja 'Hindamiskriteerium – arv' (BT-541-Lot-WeightNumber) &amp;amp; 'Hindamiskriteerium – arv' (BT-541-Lot-FixedNumber) ei ole olemas</entry>
-<entry key="expression|name|572">'Kirjeldus' (BT-540-LotsGroup) on olemas ja 'Hindamiskriteerium – arv' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Hindamiskriteerium – arv' (BT-541-LotsGroup-ThresholdNumber) ei ole olemas</entry>
-<entry key="expression|name|573">'Kirjeldus' (BT-540-LotsGroup) on olemas ja 'Hindamiskriteerium – arv' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Hindamiskriteerium – arv' (BT-541-LotsGroup-ThresholdNumber) ei ole olemas</entry>
-<entry key="expression|name|574">'Kirjeldus' (BT-540-LotsGroup) on olemas ja 'Hindamiskriteerium – arv' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Hindamiskriteerium – arv' (BT-541-LotsGroup-FixedNumber) ei ole olemas</entry>
 <entry key="expression|name|575">'Hindamiskriteerium – arv' (BT-541-Lot-WeightNumber) ei ole olemas</entry>
 <entry key="expression|name|576">'Hindamiskriteerium – arv' (BT-541-Lot-FixedNumber) ei ole olemas</entry>
 <entry key="expression|name|577">'Hindamiskriteerium – arv' (BT-541-Lot-ThresholdNumber) ei ole olemas</entry>
@@ -465,6 +438,4 @@
 <entry key="expression|name|93">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727-Lot) on 'Kus tahes' või 'Kõikjal Euroopa Majanduspiirkonnas'</entry>
 <entry key="expression|name|94">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727-Part) ei tohi olla 'Kus tahes' ega 'Kõikjal Euroopa Majanduspiirkonnas'</entry>
 <entry key="expression|name|95">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727-Procedure) on 'Kus tahes' või 'Kõikjal Euroopa Majanduspiirkonnas'</entry>
-<entry key="expression|name|96">'Hindamiskriteerium – arv' (BT-541-Lot) on täidetud, 'Arv on fikseeritud väärtus' (BT-5422-Lot) ja 'Arv on teatavat liiki piirmäär' (BT-5423-Lot) ei ole täidetud</entry>
-<entry key="expression|name|97">'Hindamiskriteerium – arv' (BT-541-LotsGroup) on täidetud, 'Arv on fikseeritud väärtus' (BT-5422-LotsGroup) ja 'Arv on teatavat liiki piirmäär' (BT-5423-LotsGroup) ei ole täidetud</entry>
 </properties>

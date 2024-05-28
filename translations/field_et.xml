@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Sisemine tunnus, mida kasutatakse seoses riigihangete või hanke osa andmestikega enne hanketunnuse määramist (nt hankija dokumendihaldussüsteemi või hanke kavandamise süsteemi põhjal).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Sisemine tunnus, mida kasutatakse seoses riigihangete või hanke osa andmestikega enne hanketunnuse määramist (nt hankija dokumendihaldussüsteemi või hanke kavandamise süsteemi põhjal).</entry>
 <entry key="field|description|BT-23-Lot">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
+<entry key="field|description|BT-23-Lot-List">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
 <entry key="field|description|BT-23-Part">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
 <entry key="field|description|BT-23-Part-List">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
 <entry key="field|description|BT-23-Procedure">Peamine hankelepingu ese (nt ehitustööd). Segahanke puhul (nt kui menetlus puudutab nii ehitustöid kui ka teenuseid) võib peamine hankelepingu ese olla näiteks see, mille eeldatav maksumus on kõige suurem. See teave tuleb esitada kogu menetluse kohta.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Mitteelektrooniliselt esitatavate pakkumuste, osalemistaotluste või osalemishuvi teadete esitamise viisi kirjeldus.</entry>
 <entry key="field|description|BT-745-Lot-Language">Mitteelektrooniliselt esitatavate pakkumuste, osalemistaotluste või osalemishuvi teadete esitamise viisi kirjeldus.</entry>
 <entry key="field|description|BT-746-Organization">Eduka pakkuja, hankija või alltöövõtja tegeliku kasusaaja (või tegelike kasusaajate) elu- või asukohariiki (või -riike) ei avaldata direktiivi (EL) 2018/843 alusel loodud registri(te)s, sest edukas pakkuja on noteeritud reguleeritud turul (nt börs), mis tagab piisava läbipaistvuse kooskõlas rahapesuvastaste õigusaktidega.</entry>
-<entry key="field|description|BT-747-Lot">Tingimused (või tingimus), näiteks majanduslik ja finantsseisund või tehniline ja kutsealane suutlikkus.</entry>
-<entry key="field|description|BT-747-Lot-List">Tingimused (või tingimus), näiteks majanduslik ja finantsseisund või tehniline ja kutsealane suutlikkus.</entry>
-<entry key="field|description|BT-748-Lot">Asjaomaseid tingimusi (või asjaomast tingimust) kasutatakse, ei kasutata või (juhul kui eelteadet kasutatakse hanke väljakuulutamiseks või tähtaegade lühendamiseks) nende (selle) kasutamine pole veel teada.</entry>
-<entry key="field|description|BT-748-Lot-List">Asjaomaseid tingimusi (või asjaomast tingimust) kasutatakse, ei kasutata või (juhul kui eelteadet kasutatakse hanke väljakuulutamiseks või tähtaegade lühendamiseks) nende (selle) kasutamine pole veel teada.</entry>
-<entry key="field|description|BT-749-Lot">Kvalifitseerimistingimuste (või -tingimuse) nimetus.</entry>
-<entry key="field|description|BT-749-Lot-Language">Kvalifitseerimistingimuste (või -tingimuse) nimetus.</entry>
 <entry key="field|description|BT-75-Lot">Pakkumuse esitamisel pakkujalt nõutava finantstagatise kirjeldus. Tagatis võib kujutada endast näiteks rahasumma tasumist hankijale või dokumenti pangalt. Tavaliselt jäädakse tagatisest ilma, kui pakkuja on saanud lepingu, kuid seejärel keeldub seda allkirjastamast.</entry>
 <entry key="field|description|BT-75-Lot-Language">Pakkumuse esitamisel pakkujalt nõutava finantstagatise kirjeldus. Tagatis võib kujutada endast näiteks rahasumma tasumist hankijale või dokumenti pangalt. Tavaliselt jäädakse tagatisest ilma, kui pakkuja on saanud lepingu, kuid seejärel keeldub seda allkirjastamast.</entry>
 <entry key="field|description|BT-750-Lot">Kvalifitseerimistingimuste (või -tingimuse) lühikirjeldus, sh miinimumnõuded, nõutav teave (nt ettevõtja enda kinnitus, dokumendid) ja see, kuidas kasutatakse tingimusi või tingimust, et valida taotlejad, kes kutsutakse osalema menetluse teise etappi (kui on kehtestatud maksimaalne taotlejate arv).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Sisemine tunnus</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Sisemine tunnus</entry>
 <entry key="field|name|BT-23-Lot">Lepingu olemus</entry>
+<entry key="field|name|BT-23-Lot-List">Lepingu olemus</entry>
 <entry key="field|name|BT-23-Part">Lepingu olemus</entry>
 <entry key="field|name|BT-23-Part-List">Lepingu olemus</entry>
 <entry key="field|name|BT-23-Procedure">Lepingu olemus</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Nimi</entry>
 <entry key="field|name|BT-632-Part">Nimi</entry>
 <entry key="field|name|BT-633-Organization">Organisatsioon on füüsiline isik</entry>
-<entry key="field|name|BT-634-Lot">Tühistatud või ebaõnnestunud hange või selle osa korraldatakse uuesti</entry>
-<entry key="field|name|BT-634-Procedure">Tühistatud või ebaõnnestunud hange või selle osa korraldatakse uuesti</entry>
+<entry key="field|name|BT-634-Lot">Kui partii tühistatakse või ebaõnnestub, käivitatakse see uuesti</entry>
+<entry key="field|name|BT-634-Procedure">Kui protseduur tühistatakse või ebaõnnestub, käivitatakse see uuesti</entry>
 <entry key="field|name|BT-635-LotResult">Hankija – läbivaatamine – taotluste arv</entry>
 <entry key="field|name|BT-636-LotResult">Väidetava rikkumise liik</entry>
 <entry key="field|name|BT-636-LotResult-List">Väidetava rikkumise liik</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Riigihange kuulub Euroopa Parlamendi ja nõukogu direktiivi 2009/33/EÜ (keskkonnasõbralike sõidukite direktiiv) kohaldamisalasse</entry>
 <entry key="field|name|BT-718-notice">Hankedokumente muudeti</entry>
 <entry key="field|name|BT-719-notice">Hankedokumentide muutmise kuupäev</entry>
-<entry key="field|name|BT-720-Tender">Tulemuse väärtus</entry>
-<entry key="field|name|BT-720-Tender-Currency">Tulemuse väärtus</entry>
+<entry key="field|name|BT-720-Tender">Hankepakkumise väärtus</entry>
+<entry key="field|name|BT-720-Tender-Currency">Hankepakkumise väärtus</entry>
 <entry key="field|name|BT-721-Contract">Pealkiri</entry>
 <entry key="field|name|BT-721-Contract-Language">Pealkiri</entry>
 <entry key="field|name|BT-722-Contract">ELi rahastatud projekti või programmi nimi</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Kirjeldus</entry>
 <entry key="field|name|BT-745-Lot-Language">Kirjeldus</entry>
 <entry key="field|name|BT-746-Organization">Pakkuja on noteeritud reguleeritud turul</entry>
-<entry key="field|name|BT-747-Lot">Liik</entry>
-<entry key="field|name|BT-747-Lot-List">Liik</entry>
-<entry key="field|name|BT-748-Lot">Selle kriteeriumi kasutamine</entry>
-<entry key="field|name|BT-748-Lot-List">Selle kriteeriumi kasutamine</entry>
-<entry key="field|name|BT-749-Lot">Nimi</entry>
-<entry key="field|name|BT-749-Lot-Language">Nimi</entry>
 <entry key="field|name|BT-75-Lot">Finantstagatise kirjeldus</entry>
 <entry key="field|name|BT-75-Lot-Language">Finantstagatise kirjeldus</entry>
 <entry key="field|name|BT-750-Lot">Kirjeldus</entry>

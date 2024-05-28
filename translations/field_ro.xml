@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Identificatorul intern utilizat pentru dosarele referitoare la procedura de achiziții sau la lot înainte de furnizarea unui identificator al procedurii (provenind, de exemplu, de la sistemele utilizate de cumpărător pentru gestionarea documentelor sau pentru planificarea achizițiilor).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Identificatorul intern utilizat pentru dosarele referitoare la procedura de achiziții sau la lot înainte de furnizarea unui identificator al procedurii (provenind, de exemplu, de la sistemele utilizate de cumpărător pentru gestionarea documentelor sau pentru planificarea achizițiilor).</entry>
 <entry key="field|description|BT-23-Lot">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
+<entry key="field|description|BT-23-Lot-List">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
 <entry key="field|description|BT-23-Part">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
 <entry key="field|description|BT-23-Part-List">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
 <entry key="field|description|BT-23-Procedure">Natura principală (de exemplu, lucrări) a ceea ce este achiziționat. În cazul achizițiilor mixte (de exemplu, o aceeași procedură pentru lucrări și servicii), natura principală poate fi, de exemplu, cea cu valoarea estimată cea mai mare. Aceste informații trebuie furnizate pentru întreaga procedură.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Descrierea modalităților de prezentare a ofertelor, a cererilor de participare sau manifestărilor interesului pe cale neelectronică.</entry>
 <entry key="field|description|BT-745-Lot-Language">Descrierea modalităților de prezentare a ofertelor, a cererilor de participare sau manifestărilor interesului pe cale neelectronică.</entry>
 <entry key="field|description|BT-746-Organization">Naționalitatea (sau naționalitățile) beneficiarului (beneficiarilor) efectiv(i) al(ai) câștigătorului, ofertantului sau subcontractantului nu este (sunt) publicată (publicate) în registrul (registrele) prevăzut(e) de Directiva (UE) 2018/843 a Parlamentului European și a Consiliului, deoarece câștigătorul este cotat pe o piață reglementată (de exemplu, o bursă de valori) care asigură o transparență adecvată în conformitate cu legislația privind combaterea spălării banilor.</entry>
-<entry key="field|description|BT-747-Lot">Criteriile (sau criteriul) privesc (privește), de exemplu, capacitatea economică și financiară sau capacitatea tehnică și profesională.</entry>
-<entry key="field|description|BT-747-Lot-List">Criteriile (sau criteriul) privesc (privește), de exemplu, capacitatea economică și financiară sau capacitatea tehnică și profesională.</entry>
-<entry key="field|description|BT-748-Lot">Criteriile (sau criteriul) tipului în cauză sunt (este) utilizat(e), neutilizat(e) sau (în cazul unui anunț de intenție utilizat ca invitație la procedura concurențială de ofertare sau pentru scurtarea termenelor) utilizarea nu este cunoscută încă.</entry>
-<entry key="field|description|BT-748-Lot-List">Criteriile (sau criteriul) tipului în cauză sunt (este) utilizat(e), neutilizat(e) sau (în cazul unui anunț de intenție utilizat ca invitație la procedura concurențială de ofertare sau pentru scurtarea termenelor) utilizarea nu este cunoscută încă.</entry>
-<entry key="field|description|BT-749-Lot">Denumirea criteriilor (sau a criteriului) de selecție.</entry>
-<entry key="field|description|BT-749-Lot-Language">Denumirea criteriilor (sau a criteriului) de selecție.</entry>
 <entry key="field|description|BT-75-Lot">Descrierea garanției financiare solicitate ofertantului la depunerea ofertei. Garanția poate lua, de exemplu, forma unei plăți către cumpărător sau a unui document de la o bancă. În general, garanția ar fi reținută în momentul în care ofertantul ar câștiga contractul, dar ar refuza să îl semneze.</entry>
 <entry key="field|description|BT-75-Lot-Language">Descrierea garanției financiare solicitate ofertantului la depunerea ofertei. Garanția poate lua, de exemplu, forma unei plăți către cumpărător sau a unui document de la o bancă. În general, garanția ar fi reținută în momentul în care ofertantul ar câștiga contractul, dar ar refuza să îl semneze.</entry>
 <entry key="field|description|BT-750-Lot">Descrierea pe scurt a criteriului sau a criteriilor de selecție, inclusiv cerințele minime, informațiile obligatorii (de exemplu, declarație pe proprie răspundere, documentație) și modul în care criteriul sau criteriile vor fi utilizate pentru selecționarea candidaților care urmează să fie invitați să participe la a doua etapă a procedurii (dacă a fost stabilit un număr maxim de candidați).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Identificator intern</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Identificator intern</entry>
 <entry key="field|name|BT-23-Lot">Natura contractului</entry>
+<entry key="field|name|BT-23-Lot-List">Natura contractului</entry>
 <entry key="field|name|BT-23-Part">Natura contractului</entry>
 <entry key="field|name|BT-23-Part-List">Natura contractului</entry>
 <entry key="field|name|BT-23-Procedure">Natura contractului</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Nume</entry>
 <entry key="field|name|BT-632-Part">Nume</entry>
 <entry key="field|name|BT-633-Organization">Organizația este o persoană fizică</entry>
-<entry key="field|name|BT-634-Lot">Această procedură/acest lot anulat(ă) sau eșuat(ă) va fi relansat(ă)</entry>
-<entry key="field|name|BT-634-Procedure">Această procedură/acest lot anulat(ă) sau eșuat(ă) va fi relansat(ă)</entry>
+<entry key="field|name|BT-634-Lot">Dacă lotul este anulat sau nereușit, acesta va fi reluat</entry>
+<entry key="field|name|BT-634-Procedure">Dacă procedura este anulată sau nereușită, aceasta va fi reluată</entry>
 <entry key="field|name|BT-635-LotResult">Numărul cererilor de soluționare a căilor de atac adresate cumpărătorului</entry>
 <entry key="field|name|BT-636-LotResult">Tipul de presupusă neregulă</entry>
 <entry key="field|name|BT-636-LotResult-List">Tipul de presupusă neregulă</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Achiziția intră în domeniul de aplicare al Directivei 2009/33/CE a Parlamentului European și a Consiliului (Directiva privind vehiculele nepoluante - CVD).</entry>
 <entry key="field|name|BT-718-notice">Documentele achiziției au fost modificate la data de</entry>
 <entry key="field|name|BT-719-notice">Modificarea datei în documentele privind achiziția</entry>
-<entry key="field|name|BT-720-Tender">Valoarea rezultatului</entry>
-<entry key="field|name|BT-720-Tender-Currency">Valoarea rezultatului</entry>
+<entry key="field|name|BT-720-Tender">Valoarea licitației</entry>
+<entry key="field|name|BT-720-Tender-Currency">Valoarea licitației</entry>
 <entry key="field|name|BT-721-Contract">Titlu</entry>
 <entry key="field|name|BT-721-Contract-Language">Titlu</entry>
 <entry key="field|name|BT-722-Contract">Denumirea proiectului sau a programului finanțat de UE</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Descriere</entry>
 <entry key="field|name|BT-745-Lot-Language">Descriere</entry>
 <entry key="field|name|BT-746-Organization">Câștigătorul este cotat pe o piață reglementată</entry>
-<entry key="field|name|BT-747-Lot">Tip</entry>
-<entry key="field|name|BT-747-Lot-List">Tip</entry>
-<entry key="field|name|BT-748-Lot">Utilizarea acestui criteriu</entry>
-<entry key="field|name|BT-748-Lot-List">Utilizarea acestui criteriu</entry>
-<entry key="field|name|BT-749-Lot">Denumire</entry>
-<entry key="field|name|BT-749-Lot-Language">Denumire</entry>
 <entry key="field|name|BT-75-Lot">Descrierea garanției financiare</entry>
 <entry key="field|name|BT-75-Lot-Language">Descrierea garanției financiare</entry>
 <entry key="field|name|BT-750-Lot">Descriere</entry>

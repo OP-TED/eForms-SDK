@@ -570,6 +570,7 @@
 <entry key="field|description|BT-22-Procedure">Identifiant interne utilisé pour les dossiers relatifs à la procédure de passation de marché ou au lot avant qu’un identifiant de la procédure soit donné (provenant, par exemple, du système de gestion des documents de l’acheteur ou du système de planification des marchés).</entry>
 <entry key="field|description|BT-22-Procedure-Scheme">Identifiant interne utilisé pour les dossiers relatifs à la procédure de passation de marché ou au lot avant qu’un identifiant de la procédure soit donné (provenant, par exemple, du système de gestion des documents de l’acheteur ou du système de planification des marchés).</entry>
 <entry key="field|description|BT-23-Lot">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
+<entry key="field|description|BT-23-Lot-List">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
 <entry key="field|description|BT-23-Part">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
 <entry key="field|description|BT-23-Part-List">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
 <entry key="field|description|BT-23-Procedure">Nature principale (travaux, par exemple) de ce qui est acheté. Dans le cas de marchés mixtes (marchés portant à la fois sur des travaux et des services, par exemple), la nature principale du marché peut être, par exemple, celle du marché dont la valeur estimée est la plus élevée. Ces informations doivent être fournies pour l’ensemble de la procédure.</entry>
@@ -916,12 +917,6 @@
 <entry key="field|description|BT-745-Lot">Description de la manière de présenter des offres, des demandes de participation ou des manifestations d’intérêt par voie non électronique.</entry>
 <entry key="field|description|BT-745-Lot-Language">Description de la manière de présenter des offres, des demandes de participation ou des manifestations d’intérêt par voie non électronique.</entry>
 <entry key="field|description|BT-746-Organization">La (les) nationalité(s) du (des) bénéficiaire(s) effectif(s) du lauréat, du soumissionnaire ou du sous-traitant n’est (ne sont) pas publiée(s) dans le(s) registre(s) établi(s) par la directive (UE) 2018/843 parce que le lauréat est coté sur un marché réglementé (Bourse, par exemple) qui garantit une transparence suffisante conformément à ladite législation.</entry>
-<entry key="field|description|BT-747-Lot">Le(s) critère(s) concerne(nt), par exemple, la capacité économique et financière ou la capacité technique et professionnelle.</entry>
-<entry key="field|description|BT-747-Lot-List">Le(s) critère(s) concerne(nt), par exemple, la capacité économique et financière ou la capacité technique et professionnelle.</entry>
-<entry key="field|description|BT-748-Lot">Le(s) critère(s) d’un type donné est (sont) utilisé(s), inutilisé(s) ou, dans le cas d’un avis de préinformation utilisé pour lancer un appel à la concurrence ou pour raccourcir les délais, leur utilisation n’est pas encore connue.</entry>
-<entry key="field|description|BT-748-Lot-List">Le(s) critère(s) d’un type donné est (sont) utilisé(s), inutilisé(s) ou, dans le cas d’un avis de préinformation utilisé pour lancer un appel à la concurrence ou pour raccourcir les délais, leur utilisation n’est pas encore connue.</entry>
-<entry key="field|description|BT-749-Lot">Nom du (des) critère(s) de sélection.</entry>
-<entry key="field|description|BT-749-Lot-Language">Nom du (des) critère(s) de sélection.</entry>
 <entry key="field|description|BT-75-Lot">Description de la garantie financière requise du soumissionnaire lors de la présentation d’une offre. La garantie peut prendre la forme, par exemple, d’un paiement à l’acheteur ou d’un document bancaire. En règle générale, la garantie est perdue lorsqu’un soumissionnaire qui a remporté le marché refuse de le signer.</entry>
 <entry key="field|description|BT-75-Lot-Language">Description de la garantie financière requise du soumissionnaire lors de la présentation d’une offre. La garantie peut prendre la forme, par exemple, d’un paiement à l’acheteur ou d’un document bancaire. En règle générale, la garantie est perdue lorsqu’un soumissionnaire qui a remporté le marché refuse de le signer.</entry>
 <entry key="field|description|BT-750-Lot">Description succincte du (des) critère(s) de sélection, y compris les exigences minimales, les informations requises (déclaration sur l’honneur, justificatifs, etc.) et la manière dont le(s) critère(s) sera (seront) appliqué(s) pour sélectionner les candidats à convoquer pour la seconde étape de la procédure (si un nombre maximal de candidats a été fixé).</entry>
@@ -1797,6 +1792,7 @@
 <entry key="field|name|BT-22-Procedure">Identifiant interne</entry>
 <entry key="field|name|BT-22-Procedure-Scheme">Identifiant interne</entry>
 <entry key="field|name|BT-23-Lot">Nature du marché</entry>
+<entry key="field|name|BT-23-Lot-List">Nature du marché</entry>
 <entry key="field|name|BT-23-Part">Nature du marché</entry>
 <entry key="field|name|BT-23-Part-List">Nature du marché</entry>
 <entry key="field|name|BT-23-Procedure">Nature du marché</entry>
@@ -2037,8 +2033,8 @@
 <entry key="field|name|BT-632-Lot">Nom</entry>
 <entry key="field|name|BT-632-Part">Nom</entry>
 <entry key="field|name|BT-633-Organization">L’organisation est une personne physique</entry>
-<entry key="field|name|BT-634-Lot">Cette procédure ou ce lot annulé(e) ou infructueux(-se) sera relancé(e)</entry>
-<entry key="field|name|BT-634-Procedure">Cette procédure ou ce lot annulé(e) ou infructueux(-se) sera relancé(e)</entry>
+<entry key="field|name|BT-634-Lot">Si le lot est annulé ou infructueux, il sera relancé</entry>
+<entry key="field|name|BT-634-Procedure">Si la procédure est annulée ou infructueuse, elle sera relancée</entry>
 <entry key="field|name|BT-635-LotResult">Nombre de demandes réexamen acheteur</entry>
 <entry key="field|name|BT-636-LotResult">Type d’irrégularité alléguée</entry>
 <entry key="field|name|BT-636-LotResult-List">Type d’irrégularité alléguée</entry>
@@ -2084,8 +2080,8 @@
 <entry key="field|name|BT-717-Lot-List">Le marchés public relève du champ d’application de la directive 2009/33/CE du Parlement européen et du Conseil (directive sur les véhicules propres)</entry>
 <entry key="field|name|BT-718-notice">Les documents de marché ont été modifiés le</entry>
 <entry key="field|name|BT-719-notice">Modifier la date des documents de marché</entry>
-<entry key="field|name|BT-720-Tender">Valeur du résultat</entry>
-<entry key="field|name|BT-720-Tender-Currency">Valeur du résultat</entry>
+<entry key="field|name|BT-720-Tender">Valeur de l'offre</entry>
+<entry key="field|name|BT-720-Tender-Currency">Valeur de l'offre</entry>
 <entry key="field|name|BT-721-Contract">Titre</entry>
 <entry key="field|name|BT-721-Contract-Language">Titre</entry>
 <entry key="field|name|BT-722-Contract">Nom du projet ou programme financé par l’UE</entry>
@@ -2143,12 +2139,6 @@
 <entry key="field|name|BT-745-Lot">Description</entry>
 <entry key="field|name|BT-745-Lot-Language">Description</entry>
 <entry key="field|name|BT-746-Organization">Le lauréat est coté sur un marché réglementé</entry>
-<entry key="field|name|BT-747-Lot">Type</entry>
-<entry key="field|name|BT-747-Lot-List">Type</entry>
-<entry key="field|name|BT-748-Lot">Utilisation de ce critère</entry>
-<entry key="field|name|BT-748-Lot-List">Utilisation de ce critère</entry>
-<entry key="field|name|BT-749-Lot">Nom</entry>
-<entry key="field|name|BT-749-Lot-Language">Nom</entry>
 <entry key="field|name|BT-75-Lot">Description de la garantie financière</entry>
 <entry key="field|name|BT-75-Lot-Language">Description de la garantie financière</entry>
 <entry key="field|name|BT-750-Lot">Description</entry>
