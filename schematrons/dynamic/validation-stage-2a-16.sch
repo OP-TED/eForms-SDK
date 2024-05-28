@@ -437,9 +437,6 @@
 		<assert id="BR-BT-00197-1450" role="ERROR" diagnostics="BT-197_BT-09_-Procedure" test="count(cbc:ReasonCode) = 0">rule|text|BR-BT-00197-1450</assert>
 		<assert id="BR-BT-00198-1478" role="ERROR" diagnostics="BT-198_BT-09_-Procedure" test="count(efbc:PublicationDate) = 0">rule|text|BR-BT-00198-1478</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-ground']/cac:SpecificTendererRequirement[$noticeSubType = '16']">
-		<assert id="BR-BT-00067-0022" role="ERROR" diagnostics="BT-67_a_-Procedure" test="count(cbc:TendererRequirementTypeCode) &gt; 0">rule|text|BR-BT-00067-0022</assert>
-	</rule>
 	<rule context="/*/efac:NoticePurpose[$noticeSubType = '16']">
 		<assert id="BR-OPP-00100-0022" role="ERROR" diagnostics="OPP-100-Business" test="count(cbc:PurposeCode) = 0">rule|text|BR-OPP-00100-0022</assert>
 	</rule>

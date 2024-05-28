@@ -1138,7 +1138,6 @@
 		<diagnostic id="BT-24-Part" see="field:BT-24-Part">cbc:Description</diagnostic>
 		<diagnostic id="BT-24-Procedure" see="field:BT-24-Procedure">cbc:Description</diagnostic>
 		<diagnostic id="BT-25-Lot" see="field:BT-25-Lot">cbc:EstimatedOverallContractQuantity</diagnostic>
-		<diagnostic id="BT-262-Procedure" see="field:BT-262-Procedure">cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="BT-263-Lot" see="field:BT-263-Lot">cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="BT-263-Part" see="field:BT-263-Part">cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="BT-263-Procedure" see="field:BT-263-Procedure">cbc:ItemClassificationCode</diagnostic>
@@ -1618,6 +1617,7 @@
 		<diagnostic id="ND-ProcedureTerms_BT-01_e_-Procedure" see="field:BT-01(e)-Procedure">cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis']/cbc:ID</diagnostic>
 		<diagnostic id="ND-ProcedureTerms_BT-09_a_-Procedure" see="field:BT-09(a)-Procedure">cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:ID</diagnostic>
 		<diagnostic id="ND-ProcedureTerms_BT-31-Procedure" see="field:BT-31-Procedure">cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric</diagnostic>
+		<diagnostic id="ND-ProcedureTerms_BT-67_a_-Procedure" see="field:BT-67(a)-Procedure">cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-ground']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode</diagnostic>
 		<diagnostic id="ND-ProcedureTerms_BT-806-Procedure" see="field:BT-806-Procedure">cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-grounds-source']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode</diagnostic>
 		<diagnostic id="ND-ProcedureTypeUnpublish" see="node:ND-ProcedureTypeUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-ProcedureValueEstimate" see="node:ND-ProcedureValueEstimate">cac:RequestedTenderTotal</diagnostic>
