@@ -598,7 +598,7 @@
    <svrl:failed-assert id="BR-BT-00821-0051"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/cac:TendererQualificationRequest[2]/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode"
                        role="ERROR"
-                       test="normalize-space(.) = ('epo-Notice', 'epo-ProcurementDocument', 'epo-sub-ESPD')">
+                       test="normalize-space(.) = ('epo-notice', 'epo-procurement-document', 'epo-sub-espd')">
       <svrl:text>rule|text|BR-BT-00821-0051</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='selection-criteria-source'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode"/>
@@ -619,7 +619,7 @@
    <svrl:failed-assert id="BR-BT-00809-0101"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:TendererRequirementTypeCode"
                        role="ERROR"
-                       test="normalize-space(.) = ('ef-stand', 'other', 'sui-act', 'tp-abil')">
+                       test="normalize-space(.) = ('slc-abil-facil-res', 'slc-abil-facil-tools', 'slc-abil-mgmt-env', 'slc-abil-mgmt-qual', 'slc-abil-mgmt-supply', 'slc-abil-qual-inst', 'slc-abil-qual-smp-w-autent', 'slc-abil-qual-smp-wo-autent', 'slc-abil-ref-services', 'slc-abil-ref-supply', 'slc-abil-ref-work', 'slc-abil-staff-qual', 'slc-abil-staff-tech-ctrl', 'slc-abil-staff-tech-work', 'slc-abil-staff-yrly-avg-mp', 'slc-abil-staff-yrly-no-mgmt', 'slc-abil-subc', 'slc-sche-env-cert-indep', 'slc-sche-qu-cert-indep', 'slc-sec-inf', 'slc-sec-proc', 'slc-sec-supply', 'slc-stand-ins', 'slc-stand-other', 'slc-stand-ratio', 'slc-stand-to-avg', 'slc-stand-to-gen', 'slc-stand-to-spec', 'slc-stand-to-spec-avg', 'slc-suit-auth-mbrshp', 'slc-suit-reg-prof', 'slc-suit-reg-trade')">
       <svrl:text>rule|text|BR-BT-00809-0101</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID"/>
@@ -740,7 +740,7 @@
    <svrl:failed-assert id="BR-BT-00809-0022"
                        location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingTerms"
                        role="ERROR"
-                       test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:TendererRequirementTypeCode) = 0 or (cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='selection-criteria-source']/cbc:TendererRequirementTypeCode/normalize-space(text()) = 'epo-Notice')">
+                       test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:TendererRequirementTypeCode) = 0 or (cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='selection-criteria-source']/cbc:TendererRequirementTypeCode/normalize-space(text()) = 'epo-notice')">
       <svrl:text>rule|text|BR-BT-00809-0022</svrl:text>
       <svrl:diagnostic-reference diagnostic="ND-LotTenderingTerms_BT-809-Lot" see="field:BT-809-Lot">
          <svrl:text>ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:TendererRequirementTypeCode</svrl:text>
