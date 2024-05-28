@@ -139,7 +139,7 @@
 				{BT-7532-Lot} #{BT-7532-Lot}: ${format-number(BT-752-Lot-ThresholdNumber, '###,##0.###,###,###')} // Number Threshold
 			0 {ND-LotTenderingTerms[(BT-50-Lot is present) or (BT-51-Lot is present) or (BT-52-Lot == TRUE) or (BT-120-Lot == TRUE)]} #{auxiliary|text|second-stage}: // Information about the second stage of a two-stage procedure
 				{BT-50-Lot[BT-50-Lot is present]} #{field|name|BT-50-Lot}: ${BT-50-Lot} // Minimum Candidates
-				{BT-661-Lot[BT-51-Lot is present]} #{field|name|BT-51-Lot}: ${BT-51-Lot} // Maximum Candidates
+				{BT-51-Lot[BT-51-Lot is present]} #{field|name|BT-51-Lot}: ${BT-51-Lot} // Maximum Candidates
 				{BT-52-Lot[BT-52-Lot == TRUE]} #{field|name|BT-52-Lot} // The procedure will take place in successive stages. In each stage, some participants may be eliminated.
 				{BT-120-Lot[BT-120-Lot == TRUE]} #{field|name|BT-120-Lot} // The buyer reserves the right to award the contract on the basis of the initial tenders without any further negotiations.
 		10 {ND-LotAwardCriteria} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria

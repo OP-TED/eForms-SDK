@@ -138,7 +138,7 @@
 				{BT-7532-Lot} #{BT-7532-Lot}: ${format-number(BT-752-Lot-ThresholdNumber, '###,##0.###,###,###')} // Number Threshold
 			0 {ND-LotTenderingTerms[(BT-50-Lot is present) or (BT-51-Lot is present) or (BT-52-Lot == TRUE) or (BT-120-Lot == TRUE)]} #{auxiliary|text|second-stage}: // Information about the second stage of a two-stage procedure
 				{BT-50-Lot[BT-50-Lot is present]} #{field|name|BT-50-Lot}: ${BT-50-Lot} // Minimum Candidates
-				{BT-661-Lot[BT-51-Lot is present]} #{field|name|BT-51-Lot}: ${BT-51-Lot} // Maximum Candidates
+				{BT-51-Lot[BT-51-Lot is present]} #{field|name|BT-51-Lot}: ${BT-51-Lot} // Maximum Candidates
 				{BT-52-Lot[BT-52-Lot == TRUE]} #{field|name|BT-52-Lot} // The procedure will take place in successive stages. In each stage, some participants may be eliminated.
 		10 {ND-LotAwardCriteria} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria
 			0 {ND-LotAwardCriterion} #{auxiliary|text|criterion}: // Award Criterion
