@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Dutch. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Koper</entry>
+<entry key="business-entity|name|changes">Wijzigingen</entry>
+<entry key="business-entity|name|contract">Contract</entry>
+<entry key="business-entity|name|contractModification">Wijziging van een opdracht</entry>
+<entry key="business-entity|name|euBusiness">Europees bedrijfsleven</entry>
+<entry key="business-entity|name|groupOfLots">Groep percelen</entry>
+<entry key="business-entity|name|lot">Perceel</entry>
+<entry key="business-entity|name|noticeInformation">Informatie over een aankondiging</entry>
+<entry key="business-entity|name|noticeResult">Aankondiging resultaat</entry>
+<entry key="business-entity|name|organization">Organisatie</entry>
+<entry key="business-entity|name|part">Deel</entry>
+<entry key="business-entity|name|procedure">Procedure</entry>
+<entry key="business-entity|name|resultForLot">Resultaat voor kavel</entry>
+<entry key="business-entity|name|reviewInformation">Informatie over de beoordeling</entry>
+<entry key="business-entity|name|tender">Inschrijving</entry>
+<entry key="business-entity|name|tenderingParty">Aanbiedende partij</entry>
+<entry key="business-entity|name|touchpoint">Contactpunt</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Uiteindelijke begunstigde eigenaar</entry>
+</properties>

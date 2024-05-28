@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Greek. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Αγοραστής</entry>
+<entry key="business-entity|name|changes">Αλλαγές</entry>
+<entry key="business-entity|name|contract">Σύμβαση</entry>
+<entry key="business-entity|name|contractModification">Τροποποίηση της σύμβασης</entry>
+<entry key="business-entity|name|euBusiness">Ευρωπαϊκή Επιχείρηση</entry>
+<entry key="business-entity|name|groupOfLots">Ομάδα παρτίδων</entry>
+<entry key="business-entity|name|lot">Παρτίδα</entry>
+<entry key="business-entity|name|noticeInformation">Πληροφορίες προκήρυξης</entry>
+<entry key="business-entity|name|noticeResult">Αποτέλεσμα προκήρυξης/γνωστοποίησης</entry>
+<entry key="business-entity|name|organization">Οργανισμός</entry>
+<entry key="business-entity|name|part">Τμήμα</entry>
+<entry key="business-entity|name|procedure">Διαδικασία</entry>
+<entry key="business-entity|name|resultForLot">Αποτέλεσμα για παρτίδα</entry>
+<entry key="business-entity|name|reviewInformation">Πληροφορίες σχετικά με την αναθεώρηση</entry>
+<entry key="business-entity|name|tender">Προσφορά</entry>
+<entry key="business-entity|name|tenderingParty">Μέρος που προσφέρει</entry>
+<entry key="business-entity|name|touchpoint">Σημείο επαφής</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Τελικός ευεργετικός κάτοχος</entry>
+</properties>

@@ -1,5 +1,125 @@
 {
   "files" : [ {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "bg",
+    "threeLetterCode" : "bul",
+    "filename" : "business-entity_bg.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "cs",
+    "threeLetterCode" : "ces",
+    "filename" : "business-entity_cs.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "da",
+    "threeLetterCode" : "dan",
+    "filename" : "business-entity_da.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "de",
+    "threeLetterCode" : "deu",
+    "filename" : "business-entity_de.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "el",
+    "threeLetterCode" : "ell",
+    "filename" : "business-entity_el.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "en",
+    "threeLetterCode" : "eng",
+    "filename" : "business-entity_en.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "es",
+    "threeLetterCode" : "spa",
+    "filename" : "business-entity_es.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "et",
+    "threeLetterCode" : "est",
+    "filename" : "business-entity_et.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "fi",
+    "threeLetterCode" : "fin",
+    "filename" : "business-entity_fi.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "fr",
+    "threeLetterCode" : "fra",
+    "filename" : "business-entity_fr.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "ga",
+    "threeLetterCode" : "gle",
+    "filename" : "business-entity_ga.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "hr",
+    "threeLetterCode" : "hrv",
+    "filename" : "business-entity_hr.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "hu",
+    "threeLetterCode" : "hun",
+    "filename" : "business-entity_hu.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "it",
+    "threeLetterCode" : "ita",
+    "filename" : "business-entity_it.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "lt",
+    "threeLetterCode" : "lit",
+    "filename" : "business-entity_lt.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "lv",
+    "threeLetterCode" : "lav",
+    "filename" : "business-entity_lv.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "mt",
+    "threeLetterCode" : "mlt",
+    "filename" : "business-entity_mt.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "nl",
+    "threeLetterCode" : "nld",
+    "filename" : "business-entity_nl.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "pl",
+    "threeLetterCode" : "pol",
+    "filename" : "business-entity_pl.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "pt",
+    "threeLetterCode" : "por",
+    "filename" : "business-entity_pt.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "ro",
+    "threeLetterCode" : "ron",
+    "filename" : "business-entity_ro.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "sk",
+    "threeLetterCode" : "slk",
+    "filename" : "business-entity_sk.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "sl",
+    "threeLetterCode" : "slv",
+    "filename" : "business-entity_sl.xml"
+  }, {
+    "assetType" : "business-entity",
+    "twoLetterCode" : "sv",
+    "threeLetterCode" : "swe",
+    "filename" : "business-entity_sv.xml"
+  }, {
     "assetType" : "business-term",
     "twoLetterCode" : "bg",
     "threeLetterCode" : "bul",

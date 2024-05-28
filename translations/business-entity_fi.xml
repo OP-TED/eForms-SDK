@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Finnish. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Ostaja</entry>
+<entry key="business-entity|name|changes">Muutokset</entry>
+<entry key="business-entity|name|contract">Sopimus</entry>
+<entry key="business-entity|name|contractModification">Sopimusmuutokset</entry>
+<entry key="business-entity|name|euBusiness">Eurooppalainen liiketoiminta</entry>
+<entry key="business-entity|name|groupOfLots">Erien ryhmä</entry>
+<entry key="business-entity|name|lot">Erä</entry>
+<entry key="business-entity|name|noticeInformation">Ilmoituksen tiedot</entry>
+<entry key="business-entity|name|noticeResult">Tulosten ilmoittaminen</entry>
+<entry key="business-entity|name|organization">Organisaatio</entry>
+<entry key="business-entity|name|part">Osa</entry>
+<entry key="business-entity|name|procedure">Menettely</entry>
+<entry key="business-entity|name|resultForLot">Tulos erälle</entry>
+<entry key="business-entity|name|reviewInformation">Tietoa tarkastelusta</entry>
+<entry key="business-entity|name|tender">Tarjous</entry>
+<entry key="business-entity|name|tenderingParty">Tarjoava osapuoli</entry>
+<entry key="business-entity|name|touchpoint">Yhteyspiste</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Lopullinen edunsaaja</entry>
+</properties>

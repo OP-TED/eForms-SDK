@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Romanian. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Cumpărător</entry>
+<entry key="business-entity|name|changes">Modificări</entry>
+<entry key="business-entity|name|contract">Contract</entry>
+<entry key="business-entity|name|contractModification">Modificarea contractului</entry>
+<entry key="business-entity|name|euBusiness">Afaceri europene</entry>
+<entry key="business-entity|name|groupOfLots">Grup de loturi</entry>
+<entry key="business-entity|name|lot">Lot</entry>
+<entry key="business-entity|name|noticeInformation">Informații privind anunțul</entry>
+<entry key="business-entity|name|noticeResult">Rezultatul anunțului</entry>
+<entry key="business-entity|name|organization">Organizație</entry>
+<entry key="business-entity|name|part">Parte</entry>
+<entry key="business-entity|name|procedure">Procedură</entry>
+<entry key="business-entity|name|resultForLot">Rezultat pentru lot</entry>
+<entry key="business-entity|name|reviewInformation">Informații despre revizuire</entry>
+<entry key="business-entity|name|tender">Ofertă</entry>
+<entry key="business-entity|name|tenderingParty">Partea ofertantă</entry>
+<entry key="business-entity|name|touchpoint">Punct de contact</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Beneficiarul final efectiv</entry>
+</properties>

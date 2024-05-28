@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Swedish. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Upphandlare</entry>
+<entry key="business-entity|name|changes">Ändringar</entry>
+<entry key="business-entity|name|contract">Kontrakt</entry>
+<entry key="business-entity|name|contractModification">Kontraktsändring</entry>
+<entry key="business-entity|name|euBusiness">Europeiskt företagande</entry>
+<entry key="business-entity|name|groupOfLots">Grupp av delar</entry>
+<entry key="business-entity|name|lot">Del (anbudsområde)</entry>
+<entry key="business-entity|name|noticeInformation">Information om meddelandet</entry>
+<entry key="business-entity|name|noticeResult">Information om resultat</entry>
+<entry key="business-entity|name|organization">Organisation</entry>
+<entry key="business-entity|name|part">Del</entry>
+<entry key="business-entity|name|procedure">Förfarande</entry>
+<entry key="business-entity|name|resultForLot">Resultat för parti</entry>
+<entry key="business-entity|name|reviewInformation">Information om granskning</entry>
+<entry key="business-entity|name|tender">Anbud</entry>
+<entry key="business-entity|name|tenderingParty">Anbudsgivare</entry>
+<entry key="business-entity|name|touchpoint">Kontaktpunkt</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Slutlig förmånstagare</entry>
+</properties>
