@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.262",
-    "createdOn" : "2024-05-28T13:35:28"
+    "version" : "1.11.287",
+    "createdOn" : "2024-05-30T16:37:59"
   },
   "noticeId" : "15",
   "metadata" : [ {
@@ -1075,60 +1075,6 @@
           "displayType" : "TEXTAREA",
           "description" : "Selection Criteria Description",
           "_label" : "field|name|BT-750-Lot"
-        }, {
-          "id" : "BT-40-Lot",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Selection Criteria Second Stage Invite",
-          "_label" : "field|name|BT-40-Lot"
-        }, {
-          "id" : "GR-Lot-SelectionCriteria-SecondStageInvite",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Parameter (Number & Code) for a Second Stage Criterion",
-          "_label" : "group|name|GR-Lot-SelectionCriteria-SecondStageInvite",
-          "content" : [ {
-            "id" : "GR-Lot-SelectionCriteria-SecondStageInvite-Weight",
-            "contentType" : "group",
-            "nodeId" : "ND-SecondStageWeightCriterionParameter",
-            "displayType" : "GROUP",
-            "description" : "Second Stage Weight Criterion Parameter",
-            "_label" : "group|name|ND-SecondStageWeightCriterionParameter",
-            "content" : [ {
-              "id" : "BT-7531-Lot",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Selection Criteria Second Stage Invite Number Weight",
-              "_label" : "field|name|BT-7531-Lot"
-            }, {
-              "id" : "BT-752-Lot-WeightNumber",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Selection Criteria Second Stage Invite Weight Number",
-              "_label" : "field|name|BT-752-Lot-WeightNumber"
-            } ]
-          }, {
-            "id" : "GR-Lot-SelectionCriteria-SecondStageInvite-Threshold",
-            "contentType" : "group",
-            "nodeId" : "ND-SecondStageThresholdCriterionParameter",
-            "displayType" : "GROUP",
-            "description" : "Second Stage Threshold Criterion Parameter",
-            "_label" : "group|name|ND-SecondStageThresholdCriterionParameter",
-            "_repeatable" : true,
-            "content" : [ {
-              "id" : "BT-7532-Lot",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Selection Criteria Second Stage Invite Number Threshold",
-              "_label" : "field|name|BT-7532-Lot"
-            }, {
-              "id" : "BT-752-Lot-ThresholdNumber",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Selection Criteria Second Stage Invite Threshold Number",
-              "_label" : "field|name|BT-752-Lot-ThresholdNumber"
-            } ]
-          } ]
         } ]
       }, {
         "id" : "GR-Lot-AwardCriteria",
