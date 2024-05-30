@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Danish. File generated from metadata database.</comment>
 <entry key="expression|name|1">Værdien for 'Køberen er en ordregivende enhed' (BT-740) er 'Nej'</entry>
+<entry key="expression|name|10">'Beskrivelse' - 'Tildelingskriterium' (BT-540-LotsGroup) er ikke til stede eller 'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-LotsGroup) er til stede</entry>
+<entry key="expression|name|100">'Beskrivelse' - 'Tildelingskriterium' (BT-540-LotsGroup) er til stede og 'Tildelingskriterium talværdi' – 'Talværdi er en vægttype' (BT-541-LotsGroup-WeightNumber), 'Tildelingskriterium talværdi' – 'Talværdi er en tærskeltype' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-LotsGroup) er ikke til stede</entry>
+<entry key="expression|name|101">'Beskrivelse' - 'Tildelingskriterium' (BT-540-LotsGroup) er til stede og 'Tildelingskriterium talværdi' – 'Talværdi er en vægttype' (BT-541-LotsGroup-WeightNumber), 'Tildelingskriterium talværdi' – 'Talværdi er en fast værdi' (BT-541-LotsGroup-FixedNumber) &amp; 'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-LotsGroup) er ikke til stede</entry>
 <entry key="expression|name|104">'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-Lots) er ikke udfyldt</entry>
 <entry key="expression|name|105">'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-LotsGroup) er ikke udfyldt</entry>
 <entry key="expression|name|106">'Varighed' (BT-36-Lot) eller 'Varigheds slutdato' (BT-537-Lot) er udfyldt</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Det er ikke en rammeaftale; 'Revurderet værdi af rammeaftalen' (BT-660-LotResult) er ikke udfyldt</entry>
 <entry key="expression|name|54">'En forpligtelse, som tilbudsgiveren skal opfylde i forbindelse med underentreprise' (BT-65_Lot) er ikke 'Entreprenøren skal give en mindsteprocentdel af kontrakten i underentreprise ved anvendelse af den procedure, der er fastsat i afsnit III i direktiv 2009/81/EF.'</entry>
 <entry key="expression|name|540">Der blev ikke valgt nogen vinder; det er ikke en rammeaftale; 'Revurderet værdi af rammeaftalen' (BT-660-LotResult) er ikke udfyldt</entry>
-<entry key="expression|name|542">'Værdi af grupperammeaftale for delkontrakt med ID' (BT-556) er udfyldt, og '' er ikke udfyldt</entry>
+<entry key="expression|name|542">'Værdi af grupperammeaftale for delkontrakt med ID' (BT-556) er udfyldt, og 'Revurderet værdi af rammeaftalerne i en gruppe af delkontrakter (BT-1561)' er ikke udfyldt</entry>
 <entry key="expression|name|543">'Værdi af grupperammeaftale for delkontrakt med ID' (BT-556) er udfyldt, og 'Anslået værdi af rammeaftalen for gruppen af delkontrakter' er ikke udfyldt</entry>
 <entry key="expression|name|544">'Rammeaftalens omtrentlige værdi' (BT-1118-NoticeResult) er ikke udfyldt</entry>
 <entry key="expression|name|545">'Felt til offentliggørelse på et senere tidspunkt' (BT-195(BT-1118)-NoticeResult) er ikke udfyldt</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">Værdien af 'Udbudsprocedure' (BT-105) er lig med 'Anden procedure, der afvikles i flere faser'</entry>
 <entry key="expression|name|605">Identifikatoren for kontrakten, der skal ændres (BT-1501(c)-Contract), er udfyldt</entry>
 <entry key="expression|name|61">'Begrundelse for direkte tildeling' (BT-136-Procedure) er ikke en af følgende: 'Der er kun modtaget uregelmæssige eller uantagelige tilbud som svar på en foregående bekendtgørelse. Alle og kun de tilbud i den foregående procedure, som opfylder udvælgelseskriterierne, som ikke er omfattet af udelukkelsesgrundene og som opfylder de formelle krav, blev inkluderet i forhandlingerne'; 'Behov for supplerende bygge- og anlægsarbejder eller tjenesteydelser fra den oprindelige kontrahent'; 'Nye bygge- og anlægsarbejder eller tjenesteydelser, der er en gentagelse af tilsvarende tjenesteydelser eller bygge- og anlægsarbejder og bestilt på de udtrykkelige betingelser, der er anført i direktivet'; 'Der er ikke modtaget nogen egnede tilbud, ansøgninger om deltagelse eller ansøgninger som svar på en foregående bekendtgørelse'; 'Delvis udskiftning eller udvidelse af eksisterende leveringer eller af bestående installationer, som er foretaget af den oprindelige leverandør på de udtrykkelige betingelser, der er anført i direktivet'; 'Tjenesteydelseskontrakt, der skal tildeles til vinderen eller én af vinderne i henhold til reglerne for projektkonkurrencer'</entry>
+<entry key="expression|name|613">Tilbuddet er hverken indsendt for et parti, hvor 'Udenlandsk Støtte-regulativ' (BT-681-Lot) er sat til 'ja', eller for en gruppe af partier, der indeholder et parti, hvor 'Udenlandsk Støtte-regulativ' (BT-681-Lot) er sat til 'ja'</entry>
+<entry key="expression|name|614">Meddelelsen er ikke identificeret som en 'Kilde til udvælgelseskriterier'</entry>
+<entry key="expression|name|615">Udvælgelseskriteriet (BT-809) kode findes ikke</entry>
+<entry key="expression|name|616">Organisationen er en køber, og det dynamiske indkøbssystem kan også bruges af købere, der ikke er opført i denne meddelelse, og 'Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser for andre købere' (OPP-052) er ikke udfyldt</entry>
+<entry key="expression|name|617">Organisationen er en køber, og det dynamiske indkøbssystem kan også bruges af købere, der ikke er opført i denne meddelelse, og 'Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser for andre købere' (OPP-052) er ikke udfyldt</entry>
+<entry key="expression|name|618">'Proceduren er en hasteprocedure' (BT-106-Procedure) er 'ja'</entry>
+<entry key="expression|name|619">'Proceduren er en hasteprocedure' (BT-106-Procedure) er 'ja'</entry>
 <entry key="expression|name|62">'Vinder udvælgelse status' (BT-142-LotResult) er ikke 'Der er ikke udvalgt en vinder, og konkurrencen er afsluttet.'</entry>
+<entry key="expression|name|620">'Proceduren er en hasteprocedure' (BT-106-Procedure) er 'ja'</entry>
+<entry key="expression|name|621">Meddelelsen er ikke identificeret som en 'Zgrundlag for udelukkelse'</entry>
+<entry key="expression|name|622">Landet for forretning (BT-514-Business) bruger postnumre</entry>
+<entry key="expression|name|623">Landet for organisationen (BT-514-Organization-Company) bruger postnumre</entry>
+<entry key="expression|name|624">Landet for det specifikke kontaktpunkt (BT-514-Organization-TouchPoint) bruger postnumre</entry>
+<entry key="expression|name|625">Landet for den ultimative reelle ejers bopæl (BT-514-UBO) bruger postnumre</entry>
+<entry key="expression|name|626">Organisationen, der udfylder denne rolle' (OPT-301-Tenderer-SubCont) eksisterer ikke</entry>
 <entry key="expression|name|63">'Rammeaftale er involveret' (BT-765) er en af følgende : 'Rammeaftale delvis uden og delvis med fornyet iværksættelse af konkurrence'; 'Rammeaftale med fornyet iværksættelse af konkurrence'; 'Rammeaftale uden fornyet iværksættelse af konkurrence'; og 'Vinder udvælgelse status' (BT-142-LotResult) må ikke være 'Der er udvalgt mindst én vinder.'</entry>
 <entry key="expression|name|64">'Rammeaftale er involveret' (BT-765) er en af følgende : 'Rammeaftale delvis uden og delvis med fornyet iværksættelse af konkurrence'; 'Rammeaftale med fornyet iværksættelse af konkurrence'; 'Rammeaftale uden fornyet iværksættelse af konkurrence'; og 'Vinder udvælgelse status' (BT-142-LotResult) må ikke være 'Der er udvalgt mindst én vinder.'</entry>
 <entry key="expression|name|65">'Vinder udvælgelse status' (BT-142-LotResult) er 'Der er udvalgt mindst én vinder.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'Betydningen af de leverede væsentlige aktiver i forhold til de samlede aktiver, der er nødvendige for leveringen af de offentlige tjenesteydelser' (OPP-020-Contract) er ikke 'ja'</entry>
 <entry key="expression|name|87">'Udførelsen af kontrakten skal ske inden for rammerne af programmer for beskyttet beskæftigelse' (BT-736-Lot) er ikke 'ja'</entry>
 <entry key="expression|name|89">'Henvisning til kontrakten ' (OPT-315-LotResult) er ikke tom</entry>
+<entry key="expression|name|9">'Beskrivelse' - 'Tildelingskriterium' (BT-540-Lot) er ikke til stede eller 'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-Lot) er til stede</entry>
 <entry key="expression|name|90">'Vinder udvælgelse status' (BT-142-LotResult) må ikke være 'Der er udvalgt mindst én vinder.'</entry>
 <entry key="expression|name|91">'Tilbud – Identifikator' (BT-3201-Tender) er ikke udfyldt</entry>
 <entry key="expression|name|93">'Andre begrænsninger af opfyldelsesstedet' (BT-727-Lot) er 'Hvor som helst' eller 'Hvor som helst inden for EØS'</entry>
 <entry key="expression|name|94">'Andre begrænsninger af opfyldelsesstedet' (BT-727-Part) må ikke være 'Hvor som helst' eller 'Hvor som helst inden for EØS'</entry>
 <entry key="expression|name|95">'Andre begrænsninger af opfyldelsesstedet' (BT-727-Procedure) er 'Hvor som helst' eller 'Hvor som helst inden for EØS'</entry>
+<entry key="expression|name|96">'Beskrivelse' - 'Tildelingskriterium' (BT-540-Lot) er til stede og 'Tildelingskriterium talværdi' – 'Talværdi er en fast værdi' (BT-541-Lot-FixedNumber), 'Tildelingskriterium talværdi' – 'Talværdi er en tærskeltype' (BT-541-Lot-ThresholdNumber) &amp; 'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-Lot) er ikke til stede</entry>
+<entry key="expression|name|97">'Beskrivelse' - 'Tildelingskriterium' (BT-540-Lot) er til stede og 'Tildelingskriterium talværdi' – 'Talværdi er en vægttype' (BT-541-Lot-WeightNumber), 'Tildelingskriterium talværdi' – 'Talværdi er en tærskeltype' (BT-541-Lot-ThresholdNumber) &amp; 'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-Lot) er ikke til stede</entry>
+<entry key="expression|name|98">'Beskrivelse' - 'Tildelingskriterium' (BT-540-Lot) er til stede og 'Tildelingskriterium talværdi' – 'Talværdi er en vægttype' (BT-541-Lot-WeightNumber), 'Tildelingskriterium talværdi' – 'Talværdi er en fast værdi' (BT-541-Lot-FixedNumber) &amp; 'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-Lot) er ikke til stede</entry>
+<entry key="expression|name|99">'Beskrivelse' - 'Tildelingskriterium' (BT-540-LotsGroup) er til stede og 'Tildelingskriterium talværdi' – 'Talværdi er en fast værdi' (BT-541-LotsGroup-FixedNumber), 'Tildelingskriterium talværdi' – 'Talværdi er en tærskeltype' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier' (BT-543-LotsGroup) er ikke til stede</entry>
 </properties>

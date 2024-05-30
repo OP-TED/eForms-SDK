@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Hungarian. File generated from metadata database.</comment>
 <entry key="expression|name|1">'Az ajánlatkérő szervezet közszolgáltató ajánlatkérő' (BT-740) értéke 'Nem'</entry>
+<entry key="expression|name|10">'Leírás' - 'Értékelési szempont' (BT-540-LotsGroup) nincs jelen, vagy 'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-LotsGroup) jelen van</entry>
+<entry key="expression|name|100">'Leírás' - 'Értékelési szempont' (BT-540-LotsGroup) jelen van és 'Értékelési szempont száma' – 'A szám valamilyen súlyozás' (BT-541-LotsGroup-WeightNumber), 'Értékelési szempont száma' – 'A szám valamilyen küszöbérték' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-LotsGroup) nincsenek jelen</entry>
+<entry key="expression|name|101">'Leírás' - 'Értékelési szempont' (BT-540-LotsGroup) jelen van és 'Értékelési szempont száma' – 'A szám valamilyen súlyozás' (BT-541-LotsGroup-WeightNumber), 'Értékelési szempont száma' – 'A szám rögzített érték' (BT-541-LotsGroup-FixedNumber) &amp; 'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-LotsGroup) nincsenek jelen</entry>
 <entry key="expression|name|104">'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-Lots) nincs kitöltve</entry>
 <entry key="expression|name|105">'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-LotsGroup) nincs kitöltve</entry>
 <entry key="expression|name|106">'Időtartam' (BT-36-Lot) vagy 'Időtartam befejezésének dátuma' (BT-537-Lot) ki van töltve</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Ez nem keretszerződés; 'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|54">'Az ajánlattevő által az alvállalkozásba adás tekintetében betartandó kötelezettség' (BT-65_Lot) nem 'A vállalkozónak a szerződés bizonyos százalékát a 2009/81/EK irányelv III. címében foglalt eljáráson keresztül kell alvállalkozásba adnia.'</entry>
 <entry key="expression|name|540">Nem volt nyertes; Ez nem keretszerződés; 'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|542">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556) ki van töltve, és '' nincs kitöltve</entry>
+<entry key="expression|name|542">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556) ki van töltve, és 'Részcsoporton belüli keretmegállapodások újrabecsült értéke (BT-1561)' nincs kitöltve</entry>
 <entry key="expression|name|543">'Csoportos keretmegállapodáson belüli érték – részazonosító' (BT-556) ki van töltve, és 'A részcsoporton belüli keretmegállapodás becsült értéke' nincs kitöltve</entry>
 <entry key="expression|name|544">'A keretmegállapodások megközelítő értéke' (BT-1118-NoticeResult) nincs kitöltve</entry>
 <entry key="expression|name|545">'Később közzéteendő mező' (BT-195(BT-1118)-NoticeResult) nincs kitöltve</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">A 'Az eljárás típusa' (BT-105) értéke egyenlő a 'Egyéb többszakaszos eljárás' értékkel</entry>
 <entry key="expression|name|605">Az módosítandó szerződés azonosítója (BT-1501(c)-Contract) kitöltve van</entry>
 <entry key="expression|name|61">'A közvetlen odaítélés indoklása' (BT-136-Procedure) nem tartozik a következők közé: 'Az előző hirdetményre csak szabálytalan vagy érvénytelen ajánlatok érkeztek. A tárgyalások az előző hirdetményre jelentkező összes olyan ajánlattevő – és csakis azon ajánlattevők – bevonásával zajlottak, amelyek megfeleltek a kiválasztási kritériumoknak, amelyekre nem vonatkoztak kizárási okok, és amelyek teljesítették az alaki követelményeket'; 'Az eredeti vállalkozó által nyújtott további építési beruházásra vagy szolgáltatásokra van szükség'; 'A korábbi építési beruházás vagy szolgáltatás megismétlését jelentő új építési beruházás vagy szolgáltatás megrendelésére került sor, az irányelvben megállapított szigorú feltételeknek megfelelően'; 'Az előzetes hirdetményre nem érkezett megfelelő ajánlat, részvételi jelentkezés vagy kérelem'; 'Az eredeti szállítótól az irányelvben foglalt szigorú feltételek szerint megrendelt, meglévő áruk vagy felszerelések részleges pótlása vagy kibővítése'; 'A tervpályázat szabályai szerint a nyertesnek vagy az egyik nyertesnek odaítélendő szolgáltatási szerződés'</entry>
+<entry key="expression|name|613">A tender nem lett benyújtva sem olyan tételre, amelyhez a 'Külföldi támogatási rendelet' (BT-681-Lot) 'igen'-ra van beállítva, sem olyan tételcsoportra, amely tartalmaz egy olyan tételt, amelyhez a 'Külföldi támogatási rendelet' (BT-681-Lot) 'igen'-ra van beállítva</entry>
+<entry key="expression|name|614">Az értesítést nem azonosították mint 'Selekciós kritériumok forrása'</entry>
+<entry key="expression|name|615">A választási kritérium (BT-809) kódja nem létezik</entry>
+<entry key="expression|name|616">A szervezet vevő, és a dinamikus beszerzési rendszer is használható azok által a vevők által, akik nem szerepelnek ebben az értesítésben, és a 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) nincs kitöltve</entry>
+<entry key="expression|name|617">A szervezet vevő, és a dinamikus beszerzési rendszer is használható azok által a vevők által, akik nem szerepelnek ebben az értesítésben, és a 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) nincs kitöltve</entry>
+<entry key="expression|name|618">'Az eljárás gyorsított' (BT-106-Procedure) 'igen'</entry>
+<entry key="expression|name|619">'Az eljárás gyorsított' (BT-106-Procedure) 'igen'</entry>
 <entry key="expression|name|62">'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem 'A nyertes kiválasztására sor került, és a verseny lezárult.'</entry>
+<entry key="expression|name|620">'Az eljárás gyorsított' (BT-106-Procedure) 'igen'</entry>
+<entry key="expression|name|621">Az értesítést nem azonosították mint 'Indokok kizárásra'</entry>
+<entry key="expression|name|622">Az üzleti tevékenység helye (BT-514-Business) postai irányítószámokat használ</entry>
+<entry key="expression|name|623">Szervezet országa (BT-514-Organization-Company) postai irányítószámokat használ</entry>
+<entry key="expression|name|624">Az adott kapcsolattartási pont országa (BT-514-Organization-TouchPoint) postai irányítószámokat használ</entry>
+<entry key="expression|name|625">A végső haszonélvező lakhelyének országa (BT-514-UBO) postai irányítószámokat használ</entry>
+<entry key="expression|name|626">Ezt a szerepet betöltő szervezet' (OPT-301-Tenderer-SubCont) nem létezik</entry>
 <entry key="expression|name|63">'Keretmegállapodás' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'; és 'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
 <entry key="expression|name|64">'Keretmegállapodás' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'; és 'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
 <entry key="expression|name|65">'Van-e nyertes kiválasztva?' (BT-142-LotResult) = 'Legalább egy nyertes kiválasztására sor került.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'A rendelkezésre bocsátott alapvető eszközök jelentősége a közszolgáltatások nyújtásához szükséges összes eszközhöz viszonyítva' (OPP-020-Contract) nem 'igen'</entry>
 <entry key="expression|name|87">'A szerződést védett foglalkoztatási programok keretében kell teljesíteni' (BT-736-Lot) nem 'igen'</entry>
 <entry key="expression|name|89">'Hivatkozás a szerződésre' (OPT-315-LotResult) nem üres</entry>
+<entry key="expression|name|9">'Leírás' - 'Értékelési szempont' (BT-540-Lot) nincs jelen, vagy 'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-Lot) jelen van</entry>
 <entry key="expression|name|90">'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
 <entry key="expression|name|91">'Ajánlat azonosítója' (BT-3201-Tender) nincs kitöltve</entry>
 <entry key="expression|name|93">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727-Lot) = 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
 <entry key="expression|name|94">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727-Part) nem lehet 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
 <entry key="expression|name|95">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727-Procedure) = 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'</entry>
+<entry key="expression|name|96">'Leírás' - 'Értékelési szempont' (BT-540-Lot) jelen van és 'Értékelési szempont száma' – 'A szám rögzített érték' (BT-541-Lot-FixedNumber), 'Értékelési szempont száma' – 'A szám valamilyen küszöbérték' (BT-541-Lot-ThresholdNumber) &amp; 'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-Lot) nincsenek jelen</entry>
+<entry key="expression|name|97">'Leírás' - 'Értékelési szempont' (BT-540-Lot) je prisutan i 'Értékelési szempont száma' – 'A szám valamilyen súlyozás' (BT-541-Lot-WeightNumber), 'Értékelési szempont száma' – 'A szám valamilyen küszöbérték' (BT-541-Lot-ThresholdNumber) &amp; 'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-Lot) nisu prisutni</entry>
+<entry key="expression|name|98">'Leírás' - 'Értékelési szempont' (BT-540-Lot) jelen van és 'Értékelési szempont száma' – 'A szám valamilyen súlyozás' (BT-541-Lot-WeightNumber), 'Értékelési szempont száma' – 'A szám rögzített érték' (BT-541-Lot-FixedNumber) &amp; 'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-Lot) nincsenek jelen</entry>
+<entry key="expression|name|99">'Leírás' - 'Értékelési szempont' (BT-540-LotsGroup) jelen van és 'Értékelési szempont száma' – 'A szám rögzített érték' (BT-541-LotsGroup-FixedNumber), 'Értékelési szempont száma' – 'A szám valamilyen küszöbérték' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki' (BT-543-LotsGroup) nincsenek jelen</entry>
 </properties>

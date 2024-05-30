@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Portuguese. File generated from metadata database.</comment>
 <entry key="expression|name|1">O valor para 'O adquirente é uma entidade adjudicante' (BT-740) é 'Não'</entry>
+<entry key="expression|name|10">'Descrição' - 'Critério de adjudicação' (BT-540-LotsGroup) não está presente ou 'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-LotsGroup) está presente</entry>
+<entry key="expression|name|100">'Descrição' - 'Critério de adjudicação' (BT-540-LotsGroup) está presente e 'N.º do critério de adjudicação' – 'O número é um tipo de fator de ponderação' (BT-541-LotsGroup-WeightNumber), 'N.º do critério de adjudicação' – 'O número é um tipo de limiar' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-LotsGroup) não estão presentes</entry>
+<entry key="expression|name|101">'Descrição' - 'Critério de adjudicação' (BT-540-LotsGroup) está presente e 'N.º do critério de adjudicação' – 'O número é um tipo de fator de ponderação' (BT-541-LotsGroup-WeightNumber), 'N.º do critério de adjudicação' – 'O número é um tipo de limiar' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-LotsGroup) não estão presentes</entry>
 <entry key="expression|name|104">'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-Lots) não está preenchido</entry>
 <entry key="expression|name|105">'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-LotsGroup) não está preenchido</entry>
 <entry key="expression|name|106">'Duração' (BT-36-Lot) ou 'Data de fim da duração' (BT-537-Lot) está preenchido</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Não se trata de um contrato-quadro; 'Valor reestimado do acordo-quadro' (BT-660-LotResult) não está preenchido</entry>
 <entry key="expression|name|54">'Obrigação a cumprir pelo proponente em matéria de subcontratação' (BT-65_Lot) não é 'O contratante tem de subcontratar uma percentagem mínima do contrato utilizando o procedimento estabelecido no título III da Diretiva 2009/81/CE.'</entry>
 <entry key="expression|name|540">Nenhum vencedor foi selecionado; Não se trata de um contrato-quadro; 'Valor reestimado do acordo-quadro' (BT-660-LotResult) não está preenchido</entry>
-<entry key="expression|name|542">'Identificador do lote do valor de um grupo num acordo-quadro' (BT-556) está preenchido e o '' não está preenchido</entry>
+<entry key="expression|name|542">'Identificador do lote do valor de um grupo num acordo-quadro' (BT-556) está preenchido e o 'Valor reestimado dos acordos-quadro num grupo de lotes (BT-1561)' não está preenchido</entry>
 <entry key="expression|name|543">'Identificador do lote do valor de um grupo num acordo-quadro' (BT-556) está preenchido e o 'Valor estimado dos acordos-quadro no grupo de lotes' não está preenchido</entry>
 <entry key="expression|name|544">'Valor aproximado dos acordos-quadro' (BT-1118-NoticeResult) não está preenchido</entry>
 <entry key="expression|name|545">'Campo a publicar mais tarde' (BT-195(BT-1118)-NoticeResult) não está preenchido</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">O valor de 'Tipo de procedimento' (BT-105) é igual a 'Outro processo em múltiplas fases'</entry>
 <entry key="expression|name|605">O identificador do contrato a ser modificado (BT-1501(c)-Contract) está preenchido</entry>
 <entry key="expression|name|61">'Justificação da adjudicação direta' (BT-136-Procedure) não é um dos seguintes: 'Só foram recebidas propostas irregulares ou inaceitáveis em resposta a um anúncio anterior. Só foram incluídos nas negociações todos os proponentes do procedimento anterior que cumpriam os critérios de seleção, aos quais não se aplicavam os motivos de exclusão e que cumpriam os requisitos formais'; 'Necessidade de obras ou serviços adicionais pelo contratante original'; 'Novas obras ou serviços que consistem na repetição de anteriores obras ou serviços e foram encomendados de acordo com as condições estritas fixadas na diretiva'; 'Não foram recebidas propostas, pedidos de participação ou candidaturas adequados em resposta a um anúncio anterior'; 'Substituição parcial ou ampliação de produtos ou instalações existentes pelo fornecedor inicial, encomendada nas condições estritas fixadas na diretiva'; 'Contrato de prestação de serviços a adjudicar ao vencedor ou a um dos vencedores de acordo com as regras de um concurso para trabalhos de conceção'</entry>
+<entry key="expression|name|613">A proposta não foi submetida nem para um lote para o qual 'Regulação de Subsídios Estrangeiros' (BT-681-Lot) está definido como 'sim', nem para um grupo de lotes que contém um lote para o qual 'Regulação de Subsídios Estrangeiros' (BT-681-Lot) está definido como 'sim'</entry>
+<entry key="expression|name|614">O aviso não foi identificado como um 'Fundamento para critérios de seleção'</entry>
+<entry key="expression|name|615">O código do critério de seleção (BT-809) não existe</entry>
+<entry key="expression|name|616">A organização é um comprador, e o sistema de compra dinâmico também pode ser usado por compradores não listados neste aviso, e 'Central de compras que adquire fornecimentos e/ou serviços destinados a outros adquirentes' (OPP-052) não está preenchido</entry>
+<entry key="expression|name|617">A organização é um comprador, e o sistema de compra dinâmico também pode ser usado por compradores não listados neste aviso, e 'Central de compras que adquire fornecimentos e/ou serviços destinados a outros adquirentes' (OPP-052) não está preenchido</entry>
+<entry key="expression|name|618">'O procedimento é acelerado' (BT-106-Procedure) é 'sim'</entry>
+<entry key="expression|name|619">'O procedimento é acelerado' (BT-106-Procedure) é 'sim'</entry>
 <entry key="expression|name|62">'Estatuto de seleção do vencedor' (BT-142-LotResult) não é 'O vencedor foi selecionado e o concurso está fechado.'</entry>
+<entry key="expression|name|620">'O procedimento é acelerado' (BT-106-Procedure) é 'sim'</entry>
+<entry key="expression|name|621">O aviso não foi identificado como um 'Fundamento para exclusão'</entry>
+<entry key="expression|name|622">O país de negócio (BT-514-Business) usa códigos postais</entry>
+<entry key="expression|name|623">O país da organização (BT-514-Organization-Company) usa códigos postais</entry>
+<entry key="expression|name|624">O país do ponto de contato específico (BT-514-Organization-TouchPoint) usa códigos postais</entry>
+<entry key="expression|name|625">O país de residência do beneficiário final (BT-514-UBO) usa códigos postais</entry>
+<entry key="expression|name|626">Organização que desempenha este papel' (OPT-301-Tenderer-SubCont) não existe</entry>
 <entry key="expression|name|63">'Acordo-quadro' (BT-765) é um dos seguintes: 'Acordo-quadro, em parte sem reabertura e em parte com reabertura de concurso'; 'Acordo-quadro, com reabertura de concurso'; 'Acordo-quadro, sem reabertura de concurso'; e 'Estatuto de seleção do vencedor' (BT-142-LotResult) não deve ser 'O vencedor foi selecionado.'</entry>
 <entry key="expression|name|64">'Acordo-quadro' (BT-765) é um dos seguintes: 'Acordo-quadro, em parte sem reabertura e em parte com reabertura de concurso'; 'Acordo-quadro, com reabertura de concurso'; 'Acordo-quadro, sem reabertura de concurso'; e 'Estatuto de seleção do vencedor' (BT-142-LotResult) não deve ser 'O vencedor foi selecionado.'</entry>
 <entry key="expression|name|65">'Estatuto de seleção do vencedor' (BT-142-LotResult) é 'O vencedor foi selecionado.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'Importância dos ativos essenciais fornecidos em relação aos ativos globais necessários para a prestação dos serviços públicos' (OPP-020-Contract) não é 'sim'</entry>
 <entry key="expression|name|87">'A execução do contrato tem de ser efetuada no âmbito de programas de emprego protegido' (BT-736-Lot) não é 'sim'</entry>
 <entry key="expression|name|89">'Referência ao contrato' (OPT-315-LotResult) não está vazio</entry>
+<entry key="expression|name|9">'Descrição' - 'Critério de adjudicação' (BT-540-Lot) não está presente ou 'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-Lot) está presente</entry>
 <entry key="expression|name|90">'Estatuto de seleção do vencedor' (BT-142-LotResult) não pode ser 'O vencedor foi selecionado.'</entry>
 <entry key="expression|name|91">'Identificador da proposta' (BT-3201-Tender) não está preenchido</entry>
 <entry key="expression|name|93">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727-Lot) é 'Em qualquer local' ou 'Em qualquer parte do Espaço Económico Europeu'</entry>
 <entry key="expression|name|94">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727-Part) não pode ser 'Em qualquer local' ou 'Em qualquer parte do Espaço Económico Europeu'</entry>
 <entry key="expression|name|95">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727-Procedure) é 'Em qualquer local' ou 'Em qualquer parte do Espaço Económico Europeu'</entry>
+<entry key="expression|name|96">'Descrição' - 'Critério de adjudicação' (BT-540-Lot) está presente e 'N.º do critério de adjudicação' – 'O número é um valor fixo' (BT-541-Lot-FixedNumber), 'N.º do critério de adjudicação' – 'O número é um tipo de limiar' (BT-541-Lot-ThresholdNumber) &amp; 'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-Lot) não estão presentes</entry>
+<entry key="expression|name|97">'Descrição' - 'Critério de adjudicação' (BT-540-Lot) jest obecny, a 'N.º do critério de adjudicação' – 'O número é um tipo de fator de ponderação' (BT-541-Lot-WeightNumber), 'N.º do critério de adjudicação' – 'O número é um tipo de limiar' (BT-541-Lot-ThresholdNumber) &amp; 'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-Lot) nie są obecne</entry>
+<entry key="expression|name|98">'Descrição' - 'Critério de adjudicação' (BT-540-Lot) está presente e 'N.º do critério de adjudicação' – 'O número é um tipo de fator de ponderação' (BT-541-Lot-WeightNumber), 'N.º do critério de adjudicação' – 'O número é um valor fixo' (BT-541-Lot-FixedNumber) &amp; 'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-Lot) não estão presentes</entry>
+<entry key="expression|name|99">'Descrição' - 'Critério de adjudicação' (BT-540-LotsGroup) está presente e 'N.º do critério de adjudicação' – 'O número é um valor fixo' (BT-541-LotsGroup-FixedNumber), 'N.º do critério de adjudicação' – 'O número é um tipo de limiar' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Descrição do método a utilizar se a ponderação não puder ser expressa por critérios' (BT-543-LotsGroup) não estão presentes</entry>
 </properties>

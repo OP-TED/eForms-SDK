@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Finnish. File generated from metadata database.</comment>
 <entry key="expression|name|1">Kohteen 'Ostaja on hankintayksikkö' (BT-740) arvo on 'Ei'</entry>
+<entry key="expression|name|10">'Kuvaus' - 'Myöntämisperuste' (BT-540-LotsGroup) ei ole läsnä tai 'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-LotsGroup) on läsnä</entry>
+<entry key="expression|name|100">'Kuvaus' - 'Myöntämisperuste' (BT-540-LotsGroup) on läsnä ja 'Myöntämisperusteeseen liittyvä luku' – 'Luku on tyypiltään painotus' (BT-541-LotsGroup-WeightNumber), 'Myöntämisperusteeseen liittyvä luku' – 'Luku on tyypiltään kynnysarvo' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-LotsGroup) eivät ole läsnä</entry>
+<entry key="expression|name|101">'Kuvaus' - 'Myöntämisperuste' (BT-540-LotsGroup) on läsnä ja 'Myöntämisperusteeseen liittyvä luku' – 'Luku on tyypiltään painotus' (BT-541-LotsGroup-WeightNumber), 'Myöntämisperusteeseen liittyvä luku' – 'Luku on kiinteä arvo' (BT-541-LotsGroup-FixedNumber) &amp; 'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-LotsGroup) eivät ole läsnä</entry>
 <entry key="expression|name|104">'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-Lots) ei ole täytetty</entry>
 <entry key="expression|name|105">'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-LotsGroup) ei ole täytetty</entry>
 <entry key="expression|name|106">'Kesto' (BT-36-Lot) tai 'Keston päättymispäivä' (BT-537-Lot) on täytetty</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Kyseessä ei ole puitesopimus; 'Puitejärjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|54">'Alihankintaa koskeva velvoite, joka tarjoajan on täytettävä' (BT-65_Lot) ei ole 'Toimeksisaajan on teetettävä tietty vähimmäisprosenttiosuus sopimuksesta direktiivin 2009/81/EY III osastossa säädettyä menettelyä noudattaen.'</entry>
 <entry key="expression|name|540">Voittajaa ei valittu; kyseessä ei ole puitesopimus; 'Puitejärjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) ei ole täytetty</entry>
-<entry key="expression|name|542">'Erien ryhmän arvo puitejärjestelyssä – Erien tunniste' (BT-556) on täytetty ja '' ei ole täytetty</entry>
+<entry key="expression|name|542">'Erien ryhmän arvo puitejärjestelyssä – Erien tunniste' (BT-556) on täytetty ja 'Puitejärjestelyjen uudelleenarvioitu arvo erien ryhmässä (BT-1561)' ei ole täytetty</entry>
 <entry key="expression|name|543">'Erien ryhmän arvo puitejärjestelyssä – Erien tunniste' (BT-556) on täytetty ja 'Puitejärjestelyjen arvioitu arvo erien ryhmässä' ei ole täytetty</entry>
 <entry key="expression|name|544">'Puitejärjestelyjen likimääräinen arvo' (BT-1118-NoticeResult) ei ole täytetty</entry>
 <entry key="expression|name|545">'Kenttä myöhempää julkaisemista varten' (BT-195(BT-1118)-NoticeResult) ei ole täytetty</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">'Menettelyn tyyppi' (BT-105) arvo on yhtä suuri kuin 'Muu monivaiheinen menettely'</entry>
 <entry key="expression|name|605">Muutettavan sopimuksen tunniste (BT-1501(c)-Contract) on täytetty</entry>
 <entry key="expression|name|61">'Perustelu sopimuksen tekemiselle suorahankintana' (BT-136-Procedure) ei ole yksi seuraavista: 'Aiemman ilmoituksen perusteella saatiin ainoastaan tarjouksia, jotka eivät vastaa tarjouspyyntöä tai joita ei voida hyväksyä. Neuvotteluihin otettiin mukaan ainoastaan ne aikaisemman menettelyn tarjoajat, jotka täyttivät valintaperusteet ja muodolliset vaatimukset ja joiden osalta edellytykset poissulkemisperusteiden soveltamiselle eivät täyttyneet', 'Tarve alkuperäiseltä toimeksisaajalta hankittaviin lisäurakoihin tai -palveluihin', 'Uudet urakat tai palvelut, jotka ovat aiemman urakan tai palvelun toistamista ja jotka tilataan direktiivissä asetettuja tiukkoja edellytyksiä noudattaen', 'Aiempaan ilmoitukseen ei ole saatu sopivia tarjouksia, osallistumishakemuksia eikä hakemuksia', 'Direktiivissä asetettujen tiukkojen edellytysten mukaisten alkuperäisen toimittajan aiempien tavaratoimitusten tai laitteistojen osittainen korvaaminen tai laajentaminen', 'Ainoan voittajan tai yhden voittajan kanssa suunnittelukilpailun sääntöjen mukaisesti tehtävä palveluhankintasopimus'</entry>
+<entry key="expression|name|613">Tarjousta ei ole jätetty erälle, jolle 'Ulkomaisten tukien asetus' (BT-681-Lot) on asetettu 'kyllä', eikä eräryhmälle, joka sisältää erän, jolle 'Ulkomaisten tukien asetus' (BT-681-Lot) on asetettu 'kyllä'</entry>
+<entry key="expression|name|614">Ilmoitusta ei ole tunnistettu 'Valintakriteerien lähde':ksi</entry>
+<entry key="expression|name|615">Olevan valintakriteerin (BT-809) koodia ei ole</entry>
+<entry key="expression|name|616">Organisaatio on ostaja, ja dynaaminen hankintajärjestelmä on myös käytettävissä ostajille, jotka eivät ole tässä ilmoituksessa, ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ei ole täytetty</entry>
+<entry key="expression|name|617">Organisaatio on ostaja, ja dynaaminen hankintajärjestelmä on myös käytettävissä ostajille, jotka eivät ole tässä ilmoituksessa, ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ei ole täytetty</entry>
+<entry key="expression|name|618">'Menettely on nopeutettu' (BT-106-Procedure) on 'kyllä'</entry>
+<entry key="expression|name|619">'Menettely on nopeutettu' (BT-106-Procedure) on 'kyllä'</entry>
 <entry key="expression|name|62">'Voittajan valinnan tila' (BT-142-LotResult) ei ole 'Voittajaa ei valittu ja kilpailu on suljettu.'</entry>
+<entry key="expression|name|620">'Menettely on nopeutettu' (BT-106-Procedure) on 'kyllä'</entry>
+<entry key="expression|name|621">Ilmoitusta ei ole tunnistettu 'Perusteiden lähde':ksi</entry>
+<entry key="expression|name|622">Maa, jossa liiketoiminta (BT-514-Business) tapahtuu, käyttää postinumeroita</entry>
+<entry key="expression|name|623">Maan organisaatio (BT-514-Organization-Company) käyttää postinumeroita</entry>
+<entry key="expression|name|624">Tietyssä yhteydenottopisteessä (BT-514-Organization-TouchPoint) käytetään postinumeroita</entry>
+<entry key="expression|name|625">Lopullisen edunsaajan (BT-514-UBO) asuinmaa käyttää postinumeroita</entry>
+<entry key="expression|name|626">Organisaatio, joka täyttää tämän roolin' (OPT-301-Tenderer-SubCont) ei ole olemassa</entry>
 <entry key="expression|name|63">'Käytetään puitejärjestelyä' (BT-765) on jokin seuraavista: 'Puitejärjestely, johon liittyy osittainen uudelleen kilpailuttaminen', 'Puitejärjestely, johon liittyy uudelleen kilpailuttaminen', 'Puitejärjestely, johon ei liity uudelleen kilpailuttamista', ja 'Voittajan valinnan tila' (BT-142-LotResult) ei saa olla 'Vähintään yksi voittaja valittu.'</entry>
 <entry key="expression|name|64">'Käytetään puitejärjestelyä' (BT-765) on jokin seuraavista: 'Puitejärjestely, johon liittyy osittainen uudelleen kilpailuttaminen', 'Puitejärjestely, johon liittyy uudelleen kilpailuttaminen', 'Puitejärjestely, johon ei liity uudelleen kilpailuttamista', ja 'Voittajan valinnan tila' (BT-142-LotResult) ei saa olla 'Vähintään yksi voittaja valittu.'</entry>
 <entry key="expression|name|65">'Voittajan valinnan tila' (BT-142-LotResult) on 'Vähintään yksi voittaja valittu.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'Keskeisen omaisuuden merkittävyys suhteessa julkisten palvelujen tarjoamiseen tarvittaviin kokonaisvaroihin' (OPP-020-Contract) ei ole 'kyllä'</entry>
 <entry key="expression|name|87">'Sopimuksen täytäntöönpano on rajattu tehtäväksi suojatyöohjelmien puitteissa' (BT-736-Lot) ei ole 'kyllä'</entry>
 <entry key="expression|name|89">'Viittaus sopimukseen' (OPT-315-LotResult) ei ole tyhjä</entry>
+<entry key="expression|name|9">'Kuvaus' - 'Myöntämisperuste' (BT-540-Lot) ei ole läsnä tai 'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-Lot) on läsnä</entry>
 <entry key="expression|name|90">'Voittajan valinnan tila' (BT-142-LotResult) ei voi olla 'Vähintään yksi voittaja valittu.'</entry>
 <entry key="expression|name|91">'Tarjouksen tunniste' (BT-3201-Tender) ei ole täytetty</entry>
 <entry key="expression|name|93">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727-Lot) on 'Missä tahansa' tai 'Missä tahansa Euroopan talousalueella'</entry>
 <entry key="expression|name|94">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727-Part) ei voi olla 'Missä tahansa' tai 'Missä tahansa Euroopan talousalueella'</entry>
 <entry key="expression|name|95">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727-Procedure) on 'Missä tahansa' tai 'Missä tahansa Euroopan talousalueella'</entry>
+<entry key="expression|name|96">'Kuvaus' - 'Myöntämisperuste' (BT-540-Lot) on läsnä ja 'Myöntämisperusteeseen liittyvä luku' – 'Luku on kiinteä arvo' (BT-541-Lot-FixedNumber), 'Myöntämisperusteeseen liittyvä luku' – 'Luku on tyypiltään kynnysarvo' (BT-541-Lot-ThresholdNumber) &amp; 'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-Lot) eivät ole läsnä</entry>
+<entry key="expression|name|97">'Kuvaus' - 'Myöntämisperuste' (BT-540-Lot) on läsnä ja 'Myöntämisperusteeseen liittyvä luku' – 'Luku on tyypiltään painotus' (BT-541-Lot-WeightNumber), 'Myöntämisperusteeseen liittyvä luku' – 'Luku on tyypiltään kynnysarvo' (BT-541-Lot-ThresholdNumber) &amp; 'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-Lot) eivät ole läsnä</entry>
+<entry key="expression|name|98">'Kuvaus' - 'Myöntämisperuste' (BT-540-Lot) on läsnä ja 'Myöntämisperusteeseen liittyvä luku' – 'Luku on tyypiltään painotus' (BT-541-Lot-WeightNumber), 'Myöntämisperusteeseen liittyvä luku' – 'Luku on kiinteä arvo' (BT-541-Lot-FixedNumber) &amp; 'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-Lot) eivät ole läsnä</entry>
+<entry key="expression|name|99">'Kuvaus' - 'Myöntämisperuste' (BT-540-LotsGroup) on läsnä ja 'Myöntämisperusteeseen liittyvä luku' – 'Luku on kiinteä arvo' (BT-541-LotsGroup-FixedNumber), 'Myöntämisperusteeseen liittyvä luku' – 'Luku on tyypiltään kynnysarvo' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Käytettävä menetelmä silloin kun myöntämisperusteilla ei pystytä ilmaisemaan painotusta' (BT-543-LotsGroup) eivät ole läsnä</entry>
 </properties>

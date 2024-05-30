@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Swedish. File generated from metadata database.</comment>
 <entry key="expression|name|1">Värdet för 'Köparen är en upphandlande enhet' (BT-740) är 'Nej'</entry>
+<entry key="expression|name|10">'Beskrivning' - 'Tilldelningskriterium' (BT-540-LotsGroup) finns inte eller 'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-LotsGroup) finns</entry>
+<entry key="expression|name|100">'Beskrivning' - 'Tilldelningskriterium' (BT-540-LotsGroup) är närvarande och 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av viktning' (BT-541-LotsGroup-WeightNumber), 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av tröskel' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-LotsGroup) är inte närvarande</entry>
+<entry key="expression|name|101">'Beskrivning' - 'Tilldelningskriterium' (BT-540-LotsGroup) är närvarande och 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av viktning' (BT-541-LotsGroup-WeightNumber), 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av tröskel' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-LotsGroup) är inte närvarande</entry>
 <entry key="expression|name|104">'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-Lots) fylls inte i</entry>
 <entry key="expression|name|105">'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-LotsGroup) fylls inte i</entry>
 <entry key="expression|name|106">'Varaktighet' (BT-36-Lot) eller 'Slutdatum för varaktighet' (BT-537-Lot) fylls i</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Det är inte ett ramavtal; 'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) fylls inte i</entry>
 <entry key="expression|name|54">'En skyldighet som anbudsgivaren ska fullgöra vid underentreprenad' (BT-65_Lot) är inte 'Uppdragstagaren ska lägga ut en lägsta procentandel av upphandlingen på underentreprenörer enligt det förfarande som fastställs i avdelning III i direktiv 2009/81/EG.'</entry>
 <entry key="expression|name|540">Ingen vinnare valdes ut; det är inte ett ramavtal; 'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) fylls inte i</entry>
-<entry key="expression|name|542">'Värde för ett ramavtal inom en grupp – delkontraktets id' (BT-556) fylls i och det '' fylls inte i</entry>
+<entry key="expression|name|542">'Värde för ett ramavtal inom en grupp – delkontraktets id' (BT-556) fylls i och det 'Nytt beräknat värde på ramavtalen inom den här gruppen av delkontrakt (BT-1561)' fylls inte i</entry>
 <entry key="expression|name|543">'Värde för ett ramavtal inom en grupp – delkontraktets id' (BT-556) fylls i och det 'Uppskattat värde för den grupp delar som avser ramavtalet' fylls inte i</entry>
 <entry key="expression|name|544">'Ungefärligt värde på ramavtalen' (BT-1118-NoticeResult) fylls inte i</entry>
 <entry key="expression|name|545">'Fält som ska publiceras senare' (BT-195(BT-1118)-NoticeResult) fylls inte i</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">Värdet för 'Typ av förfarande' (BT-105) är lika med 'Annat förfarande i flera steg'</entry>
 <entry key="expression|name|605">Identifieraren för det kontrakt som ska ändras (BT-1501(c)-Contract) är ifylld</entry>
 <entry key="expression|name|61">'Motivering av direkttilldelning' (BT-136-Procedure) är inte ett av följande: 'Inga vanliga anbud, anbudsansökningar eller ansökningar som är godtagbara mottogs som svar på ett tidigare meddelande. Endast de anbudsgivare som uppfyllde selekteringskriterierna, inte omfattades av uteslutningskriterierna och uppfyllde de formella kriterierna i det föregående förfarandet deltog i förhandlingarna'; 'Behov av ytterligare byggentreprenader eller tjänster från den ursprungliga uppdragstagaren'; 'Nya byggentreprenader eller tjänster, som är en upprepning av tidigare byggentreprenader eller tjänster och beställs i enlighet med de strikta villkoren i direktivet'; 'Inga lämpliga anbud, anbudsansökningar eller ansökningar mottogs som svar på ett tidigare meddelande'; 'Delvis ersättning eller utökande av de befintliga leveranser eller installationer som beställts av den ursprungliga leverantören enligt de strikta villkor som anges i direktivet'; 'Tjänstekontrakt som tilldelas vinnaren eller en av vinnarna i enlighet med reglerna för en projekttävling'</entry>
+<entry key="expression|name|613">Anbudet har inte lämnats in för ett parti där 'Förordningen om utländska bidrag' (BT-681-Lot) är inställt på 'ja', eller för en grupp partier som innehåller ett parti där 'Förordningen om utländska bidrag' (BT-681-Lot) är inställt på 'ja'</entry>
+<entry key="expression|name|614">Meddelandet har inte identifierats som en 'Källa till urvalskriterier'</entry>
+<entry key="expression|name|615">Urvalskriteriekoden (BT-809) finns inte</entry>
+<entry key="expression|name|616">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) är inte ifyllt</entry>
+<entry key="expression|name|617">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) är inte ifyllt</entry>
+<entry key="expression|name|618">'Förfarandet är påskyndat' (BT-106-Procedure) är 'ja'</entry>
+<entry key="expression|name|619">'Förfarandet är påskyndat' (BT-106-Procedure) är 'ja'</entry>
 <entry key="expression|name|62">'Status på val av vinnare' (BT-142-LotResult) är inte 'Ingen vinnare har valts ut och tävlingen har avslutats.'</entry>
+<entry key="expression|name|620">'Förfarandet är påskyndat' (BT-106-Procedure) är 'ja'</entry>
+<entry key="expression|name|621">Meddelandet har inte identifierats som en 'Källa till uteslutningsgrunder'</entry>
+<entry key="expression|name|622">Verksamhetslandet (BT-514-Business) använder postnummer</entry>
+<entry key="expression|name|623">Landet för organisationen (BT-514-Organization-Company) använder postnummer</entry>
+<entry key="expression|name|624">Landet för den specifika kontaktpunkten (BT-514-Organization-TouchPoint) använder postnummer</entry>
+<entry key="expression|name|625">Landet där den slutliga förmånstagaren (BT-514-UBO) bor använder postnummer</entry>
+<entry key="expression|name|626">Organisationen som utför denna roll' (OPT-301-Tenderer-SubCont) finns inte</entry>
 <entry key="expression|name|63">'Det gäller ett ramavtal' (BT-765) är ett av följande: 'Ramavtal delvis utan och delvis med förnyad konkurrensutsättning'; 'Ramavtal med förnyad konkurrensutsättning'; 'Ramavtal utan förnyad konkurrensutsättning'; och 'Status på val av vinnare' (BT-142-LotResult) får inte vara 'Minst en vinnare valdes.'</entry>
 <entry key="expression|name|64">'Det gäller ett ramavtal' (BT-765) är ett av följande: 'Ramavtal delvis utan och delvis med förnyad konkurrensutsättning'; 'Ramavtal med förnyad konkurrensutsättning'; 'Ramavtal utan förnyad konkurrensutsättning'; och 'Status på val av vinnare' (BT-142-LotResult) får inte vara 'Minst en vinnare valdes.'</entry>
 <entry key="expression|name|65">'Status på val av vinnare' (BT-142-LotResult) är 'Minst en vinnare valdes.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'Betydelsen av de levererade väsentliga tillgångarna i förhållande till de totala tillgångar som krävs för att utföra de offentliga tjänsterna' (OPP-020-Contract) är inte 'ja'</entry>
 <entry key="expression|name|87">'Kontraktet måste genomföras inom ramen för program för skyddad anställning' (BT-736-Lot) är inte 'ja'</entry>
 <entry key="expression|name|89">'Referens till kontraktet' (OPT-315-LotResult) är inte tomt</entry>
+<entry key="expression|name|9">'Beskrivning' - 'Tilldelningskriterium' (BT-540-Lot) finns inte eller 'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-Lot) finns</entry>
 <entry key="expression|name|90">'Status på val av vinnare' (BT-142-LotResult) får inte vara 'Minst en vinnare valdes.'</entry>
 <entry key="expression|name|91">'Identifierare för anbudsgivare' (BT-3201-Tender) fylls inte i</entry>
 <entry key="expression|name|93">'Andra begränsningar för leveransplatsen' (BT-727-Lot) är 'Var som helst' eller 'Var som helst inom Europeiska ekonomiska samarbetsområdet'</entry>
 <entry key="expression|name|94">'Andra begränsningar för leveransplatsen' (BT-727-Part) får inte vara 'Var som helst' eller 'Var som helst inom Europeiska ekonomiska samarbetsområdet'</entry>
 <entry key="expression|name|95">'Andra begränsningar för leveransplatsen' (BT-727-Procedure) är 'Var som helst' eller 'Var som helst inom Europeiska ekonomiska samarbetsområdet'</entry>
+<entry key="expression|name|96">'Beskrivning' - 'Tilldelningskriterium' (BT-540-Lot) finns och 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är ett fast värde' (BT-541-Lot-FixedNumber), 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av tröskel' (BT-541-Lot-ThresholdNumber) &amp; 'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-Lot) finns inte</entry>
+<entry key="expression|name|97">'Beskrivning' - 'Tilldelningskriterium' (BT-540-Lot) je prisoten in 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av viktning' (BT-541-Lot-WeightNumber), 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av tröskel' (BT-541-Lot-ThresholdNumber) &amp; 'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-Lot) niso prisotni</entry>
+<entry key="expression|name|98">'Beskrivning' - 'Tilldelningskriterium' (BT-540-Lot) är närvarande och 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av viktning' (BT-541-Lot-WeightNumber), 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är ett fast värde' (BT-541-Lot-FixedNumber) &amp; 'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-Lot) är inte närvarande</entry>
+<entry key="expression|name|99">'Beskrivning' - 'Tilldelningskriterium' (BT-540-LotsGroup) är närvarande och 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är ett fast värde' (BT-541-LotsGroup-FixedNumber), 'Sifferangivelse för tilldelningskriterium' – 'Sifferangivelsen är en typ av tröskel' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Beskrivning av den metod som ska användas om viktning inte kan uttryckas med kriterierna' (BT-543-LotsGroup) är inte närvarande</entry>
 </properties>

@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Estonian. File generated from metadata database.</comment>
 <entry key="expression|name|1">'Hankija on võrgustiku sektori hankija' (BT-740) jaoks on väärtus 'Ei'</entry>
+<entry key="expression|name|10">'Kirjeldus' - 'Hindamiskriteerium' (BT-540-LotsGroup) ei ole olemas või 'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-LotsGroup) on olemas</entry>
+<entry key="expression|name|100">'Kirjeldus' - 'Hindamiskriteerium' (BT-540-LotsGroup) on olemas ja 'Hindamiskriteerium – arv' – 'Arv on teatavat liiki osakaal' (BT-541-LotsGroup-WeightNumber), 'Hindamiskriteerium – arv' – 'Arv on teatavat liiki piirmäär' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-LotsGroup) ei ole olemas</entry>
+<entry key="expression|name|101">'Kirjeldus' - 'Hindamiskriteerium' (BT-540-LotsGroup) on olemas ja 'Hindamiskriteerium – arv' – 'Arv on teatavat liiki osakaal' (BT-541-LotsGroup-WeightNumber), 'Hindamiskriteerium – arv' – 'Arv on fikseeritud väärtus' (BT-541-LotsGroup-FixedNumber) &amp; 'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-LotsGroup) ei ole olemas</entry>
 <entry key="expression|name|104">'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-Lots) ei ole täidetud</entry>
 <entry key="expression|name|105">'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-LotsGroup) ei ole täidetud</entry>
 <entry key="expression|name|106">'Kestus' (BT-36-Lot) või 'Kestuse lõppkuupäev' (BT-537-Lot) on täidetud</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">See ei ole raamleping; 'Raamlepingu uuesti arvutatud maksumus' (BT-660-LotResult) ei ole täidetud</entry>
 <entry key="expression|name|54">'Pakkuja peab allhanget puudutava kohustuse täitma' (BT-65_Lot) ei ole 'Töövõtja peab lepingu teatud protsentuaalse miinimumosa suhtes sõlmima allhankelepingu, kasutades direktiivi 2009/81/EÜ III jaotises sätestatud menetlust.'</entry>
 <entry key="expression|name|540">Ühtegi võitjat ei valitud; see ei ole raamleping; 'Raamlepingu uuesti arvutatud maksumus' (BT-660-LotResult) ei ole täidetud</entry>
-<entry key="expression|name|542">'Osade rühma maksimaalne maksumus raamlepingu raames – osa tunnus' (BT-556) on täidetud ja '' ei ole täidetud</entry>
+<entry key="expression|name|542">'Osade rühma maksimaalne maksumus raamlepingu raames – osa tunnus' (BT-556) on täidetud ja 'Raamlepingute uuesti arvutatud maksumus osade rühma lõikes (BT-1561)' ei ole täidetud</entry>
 <entry key="expression|name|543">'Osade rühma maksimaalne maksumus raamlepingu raames – osa tunnus' (BT-556) on täidetud ja 'Raamlepingute eeldatav maksumus osade rühma lõikes' ei ole täidetud</entry>
 <entry key="expression|name|544">'Raamlepingute ligikaudne maksumus' (BT-1118-NoticeResult) ei ole täidetud</entry>
 <entry key="expression|name|545">'Hiljem avaldamisele kuuluv väli' (BT-195(BT-1118)-NoticeResult) ei ole täidetud</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">'Menetluse liik' (BT-105) väärtus on võrdne 'Muu mitmeetapiline menetlus'</entry>
 <entry key="expression|name|605">Modifitseeritava lepingu identifikaator (BT-1501(c)-Contract) on täidetud</entry>
 <entry key="expression|name|61">'Otselepingu sõlmimise põhjendus' (BT-136-Procedure) ei ole üks järgmistest: 'Vastusena eelmisele teatele on saadud ainult ebakorrektseid või vastuvõetamatuid pakkumusi. Läbirääkimistesse kaasati ainult need eelmises menetluses osalenud pakkujad, kes vastasid valikukriteeriumidele ja ametlikele nõuetele ning ei täitnud kõrvalejätmise tingimusi'; 'Vajadus täiendavate ehitustööde või teenuste järele esialgselt töövõtjalt'; 'Uued ehitustööd või teenused, mis seisnevad samalaadsete ehitustööde või teenuste kordamises ja tellitakse kooskõlas direktiivis kehtestatud rangete tingimustega'; 'Eelmise teate peale ei esitatud ühtegi sobivat pakkumust, osalemistaotlust ega taotlust'; 'Olemasolevate asjade või seadmete osaline asendamine või täiendamine esialgse tarnija poolt direktiivis sätestatud rangetel tingimustel'; 'Ideekonkursi võitjale või ühele võitjale antav teenusleping ideekonkursi eeskirjade alusel'</entry>
+<entry key="expression|name|613">Pakkumist ei ole esitatud ei partii jaoks, mille jaoks 'Välisriikide toetuste määrus' (BT-681-Lot) on määratud 'jah', ega partii grupi jaoks, mis sisaldab partiid, mille jaoks 'Välisriikide toetuste määrus' (BT-681-Lot) on määratud 'jah'</entry>
+<entry key="expression|name|614">Teadaannet ei ole tuvastatud kui 'Valikukriteeriumide allikas'</entry>
+<entry key="expression|name|615">Valikukriteeriumi (BT-809) koodi ei ole</entry>
+<entry key="expression|name|616">Organisatsioon on ostja, ja dünaamiline ostusüsteem on samuti kasutatav ostjate poolt, kes ei ole selles teates loetletud, ja 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>
+<entry key="expression|name|617">Organisatsioon on ostja, ja dünaamiline ostusüsteem on samuti kasutatav ostjate poolt, kes ei ole selles teates loetletud, ja 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>
+<entry key="expression|name|618">'Menetlust kiirendatakse' (BT-106-Procedure) on 'jah'</entry>
+<entry key="expression|name|619">'Menetlust kiirendatakse' (BT-106-Procedure) on 'jah'</entry>
 <entry key="expression|name|62">'Eduka pakkuja valiku staatus' (BT-142-LotResult) ei ole 'Edukat pakkujat välja ei valitud ja hange on lõpetatud.'</entry>
+<entry key="expression|name|620">'Menetlust kiirendatakse' (BT-106-Procedure) on 'jah'</entry>
+<entry key="expression|name|621">Teadaannet ei ole tuvastatud kui 'Väljajätmise aluse allikas'</entry>
+<entry key="expression|name|622">Äritegevuse riik (BT-514-Business) kasutab postiindekse</entry>
+<entry key="expression|name|623">Organisatsiooni riik (BT-514-Organization-Company) kasutab postiindekse</entry>
+<entry key="expression|name|624">Kontaktpunkti riik (BT-514-Organization-TouchPoint) kasutab postiindekse</entry>
+<entry key="expression|name|625">Lõpliku kasusaaja elukohariik (BT-514-UBO) kasutab postiindekse</entry>
+<entry key="expression|name|626">Organisatsioon, mis täidab seda rolli' (OPT-301-Tenderer-SubCont) puudub</entry>
 <entry key="expression|name|63">'Tegemist on raamlepinguga' (BT-765) on üks järgmistest: 'Raamleping, mille puhul kasutatakse osaliselt minikonkurssi'; 'Raamleping koos minikonkursiga'; 'Raamleping ilmaminikonkursita'; ning 'Eduka pakkuja valiku staatus' (BT-142-LotResult) ei tohi olla 'Vähemalt üks edukas pakkuja on välja valitud.'</entry>
 <entry key="expression|name|64">'Tegemist on raamlepinguga' (BT-765) on üks järgmistest: 'Raamleping, mille puhul kasutatakse osaliselt minikonkurssi'; 'Raamleping koos minikonkursiga'; 'Raamleping ilmaminikonkursita'; ning 'Eduka pakkuja valiku staatus' (BT-142-LotResult) ei tohi olla 'Vähemalt üks edukas pakkuja on välja valitud.'</entry>
 <entry key="expression|name|65">'Eduka pakkuja valiku staatus' (BT-142-LotResult) on 'Vähemalt üks edukas pakkuja on välja valitud.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'Põhivarade tähtsus seoses avalike teenuste osutamiseks vajaliku koguvaraga' (OPP-020-Contract) ei ole 'jah'</entry>
 <entry key="expression|name|87">'Lepingu täitmine peab toimuma kaitstud tööhõive programmide raames' (BT-736-Lot) ei ole 'jah'</entry>
 <entry key="expression|name|89">'Viide lepingule' (OPT-315-LotResult) ei ole tühi</entry>
+<entry key="expression|name|9">'Kirjeldus' - 'Hindamiskriteerium' (BT-540-Lot) ei ole olemas või 'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-Lot) on olemas</entry>
 <entry key="expression|name|90">'Eduka pakkuja valiku staatus' (BT-142-LotResult) ei tohi olla 'Vähemalt üks edukas pakkuja on välja valitud.'</entry>
 <entry key="expression|name|91">'Pakkumuse tunnus' (BT-3201-Tender) ei ole täidetud</entry>
 <entry key="expression|name|93">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727-Lot) on 'Kus tahes' või 'Kõikjal Euroopa Majanduspiirkonnas'</entry>
 <entry key="expression|name|94">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727-Part) ei tohi olla 'Kus tahes' ega 'Kõikjal Euroopa Majanduspiirkonnas'</entry>
 <entry key="expression|name|95">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727-Procedure) on 'Kus tahes' või 'Kõikjal Euroopa Majanduspiirkonnas'</entry>
+<entry key="expression|name|96">'Kirjeldus' - 'Hindamiskriteerium' (BT-540-Lot) on olemas ja 'Hindamiskriteerium – arv' – 'Arv on fikseeritud väärtus' (BT-541-Lot-FixedNumber), 'Hindamiskriteerium – arv' – 'Arv on teatavat liiki piirmäär' (BT-541-Lot-ThresholdNumber) &amp; 'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-Lot) ei ole olemas</entry>
+<entry key="expression|name|97">'Kirjeldus' - 'Hindamiskriteerium' (BT-540-Lot) on olemas ja 'Hindamiskriteerium – arv' – 'Arv on teatavat liiki osakaal' (BT-541-Lot-WeightNumber), 'Hindamiskriteerium – arv' – 'Arv on teatavat liiki piirmäär' (BT-541-Lot-ThresholdNumber) &amp; 'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-Lot) ei ole olemas</entry>
+<entry key="expression|name|98">'Kirjeldus' - 'Hindamiskriteerium' (BT-540-Lot) on olemas ja 'Hindamiskriteerium – arv' – 'Arv on teatavat liiki osakaal' (BT-541-Lot-WeightNumber), 'Hindamiskriteerium – arv' – 'Arv on fikseeritud väärtus' (BT-541-Lot-FixedNumber) &amp; 'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-Lot) ei ole olemas</entry>
+<entry key="expression|name|99">'Kirjeldus' - 'Hindamiskriteerium' (BT-540-LotsGroup) on olemas ja 'Hindamiskriteerium – arv' – 'Arv on fikseeritud väärtus' (BT-541-LotsGroup-FixedNumber), 'Hindamiskriteerium – arv' – 'Arv on teatavat liiki piirmäär' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada' (BT-543-LotsGroup) ei ole olemas</entry>
 </properties>
