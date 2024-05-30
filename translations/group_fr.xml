@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Statut de sélection du lauréat (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">La raison pour laquelle un lauréat n’a pas été choisi (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">La raison pour laquelle un lauréat n’a pas été choisi (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Valeur estimée des accords-cadres dans le groupe de lots (publication ultérieure)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Valeur maximale des accords-cadres dans ce groupe de lots (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Recettes estimées provenant de l’acheteur ayant attribué la concession (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valeur de tous les marchés attribués dans le cadre de la procédure en question (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Recettes estimées provenant des utilisateurs de la concession (publication ultérieure)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Procédure accélérée</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justification de l’absence de critères d’accessibilité</entry>
 <entry key="group|name|ND-Asset">Actifs justifiant la prolongation du contrat</entry>
+<entry key="group|name|ND-AuctionTerms">Conditions de la mise aux enchères</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membre du jury</entry>
 <entry key="group|name|ND-BusinessCapability">Activité commerciale</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Demandes de réexamen</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Motifs d’exclusion</entry>
 <entry key="group|name|ND-ExecutionRequirements">Conditions de réalisation</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Prolongation du contrat</entry>
+<entry key="group|name|ND-FSR">Applicabilité du Règlement sur les subventions étrangères</entry>
 <entry key="group|name|ND-FinancingParty">Organisme de financement</entry>
 <entry key="group|name|ND-Funding">Fonds de l'UE</entry>
 <entry key="group|name|ND-GazetteReference">Référence à la publication</entry>

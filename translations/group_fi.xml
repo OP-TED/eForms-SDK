@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Voittajan valinnan tila (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Syy, miksi voittajaa ei ole valittu (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Syy, miksi voittajaa ei ole valittu (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Puitejärjestelyjen arvioitu arvo erien ryhmässä (julkaistaan myöhemmin)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Puitejärjestelyjen enimmäisarvo tässä erien ryhmässä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Arvioidut tulot käyttöoikeuden myöntäneeltä ostajalta (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Kaikkien tässä menettelyssä tehtyjen hankintasopimusten arvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Arvioidut tulot käyttöoikeuden käyttäjiltä (julkaistaan myöhemmin)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Nopeutettu menettely</entry>
 <entry key="group|name|ND-AccessibilityJustification">Perustelut esteettömyysvaatimusten puuttumiselle</entry>
 <entry key="group|name|ND-Asset">Omaisuus, joka oikeuttaa sopimuksen jatkamiseen</entry>
+<entry key="group|name|ND-AuctionTerms">Huutokaupan ehdot</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Tuomariston jäsen</entry>
 <entry key="group|name|ND-BusinessCapability">Liiketoiminnan toimiala</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Muutoksenhakupyynnöt</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Poissulkemisperusteet</entry>
 <entry key="group|name|ND-ExecutionRequirements">Suoritusajat</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Sopimuksen jatkaminen</entry>
+<entry key="group|name|ND-FSR">Soveltuvuus ulkomaisten tukien asetukseen</entry>
 <entry key="group|name|ND-FinancingParty">Rahoitusjärjestö</entry>
 <entry key="group|name|ND-Funding">EU:n rahastot</entry>
 <entry key="group|name|ND-GazetteReference">Viittaus julkaisuun</entry>

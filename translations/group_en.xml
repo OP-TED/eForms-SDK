@@ -186,7 +186,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Winner selection status (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">The reason why a winner was not chosen (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">The reason why a winner was not chosen (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Estimated value of the framework agreements in the group of lots (published later)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maximum value of the framework agreements in this group of lots (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Estimated revenue from the buyer who granted the concession (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Value of all contracts awarded in this procedure (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Estimated revenue coming from the users of the concession (published later)</entry>
@@ -239,7 +239,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Accelerated procedure</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justification for absence of accessibility criteria</entry>
 <entry key="group|name|ND-Asset">Assets justifying contract extension</entry>
-<entry key="group|name|ND-AuctionTerms">eAuction related information (indicator, URL, Description)</entry>
+<entry key="group|name|ND-AuctionTerms">Terms of the auction</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jury member</entry>
 <entry key="group|name|ND-BusinessCapability">Business activity</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Requests to review</entry>
@@ -263,7 +263,7 @@
 <entry key="group|name|ND-ExclusionGroundsSource">Exclusion Grounds Source (Code)</entry>
 <entry key="group|name|ND-ExecutionRequirements">Terms of performance</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Contract extension</entry>
-<entry key="group|name|ND-FSR">Foreign Subsidies Regulation Applicability</entry>
+<entry key="group|name|ND-FSR">Applicability of the Foreign Subsidies Regulation</entry>
 <entry key="group|name|ND-FinancingParty">Financing organisation</entry>
 <entry key="group|name|ND-Funding">EU funds</entry>
 <entry key="group|name|ND-GazetteReference">Reference to the publication</entry>
@@ -390,7 +390,7 @@
 <entry key="group|name|ND-QualityTarget">Description of quality targets</entry>
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Received submission count (published later)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Received submission type (published later)</entry>
-<entry key="group|name|ND-ReceivedSubmissions">Received submissions statististics</entry>
+<entry key="group|name|ND-ReceivedSubmissions">Received submissions statistics</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Re-estimated value (published later)</entry>
 <entry key="group|name|ND-RevenueAllocation">Revenue allocation percentage</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistics about review requests</entry>

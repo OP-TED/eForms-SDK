@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Eduka pakkuja valiku staatus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Põhjus, miks edukat pakkujat ei valitud (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Põhjus, miks edukat pakkujat ei valitud (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Raamlepingute eeldatav maksumus osade rühmas (avaldatakse hiljem)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Raamlepingute maksimaalne maksumus osade rühma lõikes (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Kontsessiooni andnud hankijalt saadav eeldatav tulu (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Kõigi käesoleva teate raames sõlmitud lepingute maksumus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Kontsessiooni kasutajatelt saadav eeldatav tulu (avaldatakse hiljem)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Kiirendatud menetlus</entry>
 <entry key="group|name|ND-AccessibilityJustification">Juurdepääsukriteeriumide puudumise põhjendus</entry>
 <entry key="group|name|ND-Asset">Varad, mis põhjendavad lepingu pikendamist</entry>
+<entry key="group|name|ND-AuctionTerms">Oksjoni tingimused</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Žürii liige</entry>
 <entry key="group|name|ND-BusinessCapability">Äritegevus</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Läbivaatamistaotlused</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Kõrvaldamise alused</entry>
 <entry key="group|name|ND-ExecutionRequirements">Täitmistingimused</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Lepingu pikendamine</entry>
+<entry key="group|name|ND-FSR">Välisriikide toetuste määruse kohaldatavus</entry>
 <entry key="group|name|ND-FinancingParty">Rahastamisorganisatsioon</entry>
 <entry key="group|name|ND-Funding">ELi vahendid</entry>
 <entry key="group|name|ND-GazetteReference">Viide avaldamisele</entry>

@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Estatuto de seleção do vencedor (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Motivo pelo qual não foi selecionado um vencedor (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Motivo pelo qual não foi selecionado um vencedor (publicação mais tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Valor estimado dos acordos-quadro no grupo de lotes (publicação mais tarde)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Valor máximo dos acordos-quadro neste grupo de lotes (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Receitas estimadas do adquirente que adjudicou a concessão (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valor de todos os contratos adjudicados no âmbito deste procedimento (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Receitas estimadas provenientes dos utilizadores da concessão (publicação mais tarde)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Procedimento acelerado</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justificação da falta de critérios de acessibilidade</entry>
 <entry key="group|name|ND-Asset">Ativos que justificam a prorrogação do contrato</entry>
+<entry key="group|name|ND-AuctionTerms">Condições do leilão</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membro do júri</entry>
 <entry key="group|name|ND-BusinessCapability">Atividade empresarial</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Pedidos de recurso</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Motivos de exclusão</entry>
 <entry key="group|name|ND-ExecutionRequirements">Termos de execução</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Prorrogação do contrato</entry>
+<entry key="group|name|ND-FSR">Aplicabilidade da Regulação de Subsídios Estrangeiros</entry>
 <entry key="group|name|ND-FinancingParty">Organização financiadora</entry>
 <entry key="group|name|ND-Funding">Fundos da UE</entry>
 <entry key="group|name|ND-GazetteReference">Referência à publicação</entry>

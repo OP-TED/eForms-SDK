@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Stato della selezione dei vincitori (pubblicato successivamente)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Motivo per cui non è stato scelto un vincitore (pubblicato successivamente)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Motivo per cui non è stato scelto un vincitore (pubblicato successivamente)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Valore stimato degli accordi quadro per un gruppo di lotti (pubblicato successivamente)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Valore massimo degli accordi quadro per il gruppo di lotti (pubblicato successivamente)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Ricavo previsto proveniente dal committente che ha aggiudicato la concessione (pubblicato successivamente)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valore di tutti gli appalti aggiudicati nella procedura (pubblicato successivamente)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Ricavo previsto proveniente dal committente che ha aggiudicato la concessione (pubblicato successivamente)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Procedura accelerata</entry>
 <entry key="group|name|ND-AccessibilityJustification">Giustificazione dell'assenza dei criteri di accessibilità</entry>
 <entry key="group|name|ND-Asset">Beni che giustificano la proroga del contratto</entry>
+<entry key="group|name|ND-AuctionTerms">Condizioni d'asta</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membro della giuria</entry>
 <entry key="group|name|ND-BusinessCapability">Attività commerciale</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Richieste di ricorso</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Motivi di esclusione</entry>
 <entry key="group|name|ND-ExecutionRequirements">Termini di esecuzione</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Proroga del contratto</entry>
+<entry key="group|name|ND-FSR">Applicabilità del Regolamento sulle sovvenzioni straniere</entry>
 <entry key="group|name|ND-FinancingParty">Organizzazione finanziatrice</entry>
 <entry key="group|name|ND-Funding">Fondi dell'UE</entry>
 <entry key="group|name|ND-GazetteReference">Riferimento alla pubblicazione</entry>
