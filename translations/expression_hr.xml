@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Croatian. File generated from metadata database.</comment>
 <entry key="expression|name|1">Vrijednost za 'Kupac je naručitelj' (BT-740) je 'Ne'</entry>
+<entry key="expression|name|10">'Opis' - 'Kriterij za dodjelu' (BT-540-LotsGroup) nije prisutan ili 'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-LotsGroup) je prisutan</entry>
+<entry key="expression|name|100">'Opis' - 'Kriterij za dodjelu' (BT-540-LotsGroup) je prisutan i 'Broj kriterija za dodjelu' – 'Broj je ponder' (BT-541-LotsGroup-WeightNumber), 'Broj kriterija za dodjelu' – 'Broj je granična vrijednost' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-LotsGroup) nisu prisutni</entry>
+<entry key="expression|name|101">'Opis' - 'Kriterij za dodjelu' (BT-540-LotsGroup) je prisutan i 'Broj kriterija za dodjelu' – 'Broj je ponder' (BT-541-LotsGroup-WeightNumber), 'Broj kriterija za dodjelu' – 'Broj je fiksna vrijednost' (BT-541-LotsGroup-FixedNumber) &amp; 'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-LotsGroup) nisu prisutni</entry>
 <entry key="expression|name|104">'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-Lots) nije popunjeno</entry>
 <entry key="expression|name|105">'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-LotsGroup) nije popunjeno</entry>
 <entry key="expression|name|106">'Trajanje' (BT-36-Lot) ili 'Datum završetka trajanja' (BT-537-Lot) je popunjeno</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Nije okvirni ugovor; 'Ponovno procijenjena vrijednost okvirnog sporazuma' (BT-660-LotResult) nije popunjeno</entry>
 <entry key="expression|name|54">'Obveza koju ponuditelj mora ispuniti u vezi s podugovaranjem' (BT-65_Lot) nije 'Ugovaratelj (izvođač radova) mora dati u podugovor minimalni postotak vrijednosti ugovora u okviru postupka iz glave III. Direktive 2009/81/EZ.'</entry>
 <entry key="expression|name|540">Nije odabran pobjednik; nije okvirni ugovor; 'Ponovno procijenjena vrijednost okvirnog sporazuma' (BT-660-LotResult) nije popunjeno</entry>
-<entry key="expression|name|542">'Vrijednost za skupinu u okvirnom sporazumu – identifikatori grupa' (BT-556) popunjeno, a '' nije popunjeno</entry>
+<entry key="expression|name|542">'Vrijednost za skupinu u okvirnom sporazumu – identifikatori grupa' (BT-556) popunjeno, a 'Ponovno procijenjena vrijednost okvirnih sporazuma unutar skupine grupa (BT-1561)' nije popunjeno</entry>
 <entry key="expression|name|543">'Vrijednost za skupinu u okvirnom sporazumu – identifikatori grupa' (BT-556) popunjeno, a 'Procijenjena vrijednost okvirnih sporazuma unutar skupine grupâ' nije popunjeno</entry>
 <entry key="expression|name|544">'Približna vrijednost okvirnih sporazuma' (BT-1118-NoticeResult) nije popunjeno</entry>
 <entry key="expression|name|545">'Polje se objavljuje kasnije' (BT-195(BT-1118)-NoticeResult) nije popunjeno</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">Vrijednost 'Vrsta postupka' (BT-105) jednaka je 'Ostali postupci u više faza'</entry>
 <entry key="expression|name|605">Identifikator ugovora koji treba izmijeniti (BT-1501(c)-Contract) je popunjen</entry>
 <entry key="expression|name|61">'Obrazloženje izravne dodjele ugovora' (BT-136-Procedure) nije jedno od sljedećeg: 'Kao odaziv na prethodnu obavijest zaprimljene su samo nepravilne ili neprihvatljive ponude. U pregovore su uključeni samo oni ponuditelji iz prethodnog postupka koji su zadovoljili kriterije za odabir, za koje ne postoji osnova za isključenje i koji ispunjavaju formalne zahtjeve'; 'Potreba za dodatnim radovima ili uslugama prvotnog ugovaratelja'; 'Novi radovi ili usluge, koji se sastoje od ponavljanja postojećih radova ili usluga te su naručeni u skladu sa strogim uvjetima navedenima u Direktivi'; 'Nisu zaprimljene odgovarajuće ponude, zahtjevi za sudjelovanje ili zahtjevi kao odaziv na prethodnu obavijes'; 'Djelomična zamjena ili proširenje postojeće robe ili instalacija koje je isporučio izvorni dobavljač, pod strogim uvjetima navedenima u Direktivi'; 'Ugovor o uslugama koji se dodjeljuje pobjedniku ili jednom od pobjednika na temelju pravila o projektnom natječaju'</entry>
+<entry key="expression|name|613">Ponuda nije podnesena ni za lot za koji je 'Uredba o stranim subvencijama' (BT-681-Lot) postavljen na 'da', niti za grupu lotova koja sadrži lot za koji je 'Uredba o stranim subvencijama' (BT-681-Lot) postavljen na 'da'</entry>
+<entry key="expression|name|614">Obavijest nije identificirana kao 'Izvor kriterija odabira'</entry>
+<entry key="expression|name|615">Kod kriterija odabira (BT-809) ne postoji</entry>
+<entry key="expression|name|616">Organizacija je kupac, a dinamički sustav nabave također je dostupan kupcima koji nisu navedeni u ovoj obavijesti, i 'Središnje tijelo za nabavu koje nabavlja robu i/ili usluge namijenjene drugim kupcima' (OPP-052) nije ispunjen</entry>
+<entry key="expression|name|617">Organizacija je kupac, a dinamički sustav nabave također je dostupan kupcima koji nisu navedeni u ovoj obavijesti, i 'Središnje tijelo za nabavu koje nabavlja robu i/ili usluge namijenjene drugim kupcima' (OPP-052) nije ispunjen</entry>
+<entry key="expression|name|618">'Postupak je ubrzan' (BT-106-Procedure) je 'da'</entry>
+<entry key="expression|name|619">'Postupak je ubrzan' (BT-106-Procedure) je 'da'</entry>
 <entry key="expression|name|62">'Status odabira pobjednika' (BT-142-LotResult) nije 'Pobjednik nije odabran i natječaj je zatvoren.'</entry>
+<entry key="expression|name|620">'Postupak je ubrzan' (BT-106-Procedure) je 'da'</entry>
+<entry key="expression|name|621">Obavijest nije identificirana kao 'Isključujući razlozi'</entry>
+<entry key="expression|name|622">Država poslovanja (BT-514-Business) koristi poštanske brojeve</entry>
+<entry key="expression|name|623">Država organizacije (BT-514-Organization-Company) koristi poštanske brojeve</entry>
+<entry key="expression|name|624">Država specifične kontaktne točke (BT-514-Organization-TouchPoint) koristi poštanske brojeve</entry>
+<entry key="expression|name|625">Država prebivališta krajnjeg korisnika (BT-514-UBO) koristi poštanske brojeve</entry>
+<entry key="expression|name|626">Organizacija koja ispunjava ovu ulogu' (OPT-301-Tenderer-SubCont) ne postoji</entry>
 <entry key="expression|name|63">'Primjenjuje se okvirni sporazuma' (BT-765) jedno je od sljedećeg: 'Okvirni sporazum, djelomično bez ponovne provedbe nadmetanja i djelomično s ponovnom provedbom nadmetanja'; 'Okvirni sporazum s ponovnom provedbom nadmetanja'; 'Okvirni sporazum bez ponovne provedbe nadmetanja'; i 'Status odabira pobjednika' (BT-142-LotResult) ne smije biti 'Odabran je najmanje jedan pobjednik.'</entry>
 <entry key="expression|name|64">'Primjenjuje se okvirni sporazuma' (BT-765) jedno je od sljedećeg: 'Okvirni sporazum, djelomično bez ponovne provedbe nadmetanja i djelomično s ponovnom provedbom nadmetanja'; 'Okvirni sporazum s ponovnom provedbom nadmetanja'; 'Okvirni sporazum bez ponovne provedbe nadmetanja'; i 'Status odabira pobjednika' (BT-142-LotResult) ne smije biti 'Odabran je najmanje jedan pobjednik.'</entry>
 <entry key="expression|name|65">'Status odabira pobjednika' (BT-142-LotResult) je 'Odabran je najmanje jedan pobjednik.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'Važnost ključne imovine na raspolaganju u odnosu na ukupnu imovinu potrebnu za pružanje javnih usluga' (OPP-020-Contract) nije 'da'</entry>
 <entry key="expression|name|87">'Ugovor se mora izvršiti u okviru programa zaštićenih radnih mjesta' (BT-736-Lot) nije 'da'</entry>
 <entry key="expression|name|89">'Referenca na ugovor' (OPT-315-LotResult) nije prazno</entry>
+<entry key="expression|name|9">'Opis' - 'Kriterij za dodjelu' (BT-540-Lot) nije prisutan ili 'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-Lot) je prisutan</entry>
 <entry key="expression|name|90">'Status odabira pobjednika' (BT-142-LotResult) ne smije biti 'Odabran je najmanje jedan pobjednik.'</entry>
 <entry key="expression|name|91">'Identifikacijska oznaka ponude' (BT-3201-Tender) nije popunjeno</entry>
 <entry key="expression|name|93">'Druga ograničenja koja se odnose na mjesto izvršenja' (BT-727-Lot) je 'Bilo gdje' ili 'Bilo gdje u Europskom gospodarskom prostoru'</entry>
 <entry key="expression|name|94">'Druga ograničenja koja se odnose na mjesto izvršenja' (BT-727-Part) ne smije biti 'Bilo gdje' ili 'Bilo gdje u Europskom gospodarskom prostoru'</entry>
 <entry key="expression|name|95">'Druga ograničenja koja se odnose na mjesto izvršenja' (BT-727-Procedure) je 'Bilo gdje' ili 'Bilo gdje u Europskom gospodarskom prostoru'</entry>
+<entry key="expression|name|96">'Opis' - 'Kriterij za dodjelu' (BT-540-Lot) je prisutan i 'Broj kriterija za dodjelu' – 'Broj je fiksna vrijednost' (BT-541-Lot-FixedNumber), 'Broj kriterija za dodjelu' – 'Broj je granična vrijednost' (BT-541-Lot-ThresholdNumber) &amp; 'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-Lot) nisu prisutni</entry>
+<entry key="expression|name|97">'Description' - 'Award criterion' (BT-540-Lot) is present and 'Award criterion number' – 'Number is a type of weight' (BT-541-Lot-WeightNumber), 'Award criterion number' – 'Number is a type of threshold' (BT-541-Lot-ThresholdNumber) &amp; 'Description of the method to be used if weighting cannot be expressed by criteria' (BT-543-Lot) are not present</entry>
+<entry key="expression|name|98">'Opis' - 'Kriterij za dodjelu' (BT-540-Lot) je prisutan i 'Broj kriterija za dodjelu' – 'Broj je ponder' (BT-541-Lot-WeightNumber), 'Broj kriterija za dodjelu' – 'Broj je fiksna vrijednost' (BT-541-Lot-FixedNumber) &amp; 'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-Lot) nisu prisutni</entry>
+<entry key="expression|name|99">'Opis' - 'Kriterij za dodjelu' (BT-540-LotsGroup) je prisutan i 'Broj kriterija za dodjelu' – 'Broj je fiksna vrijednost' (BT-541-LotsGroup-FixedNumber), 'Broj kriterija za dodjelu' – 'Broj je granična vrijednost' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija' (BT-543-LotsGroup) nisu prisutni</entry>
 </properties>

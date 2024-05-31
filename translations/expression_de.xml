@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in German. File generated from metadata database.</comment>
 <entry key="expression|name|1">Der Wert für 'Der Erwerber ist ein Auftraggeber' (BT-740) ist 'Nein'</entry>
+<entry key="expression|name|10">'Beschreibung' - 'Zuschlagskriterium' (BT-540-LotsGroup) ist nicht vorhanden oder 'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-LotsGroup) ist vorhanden</entry>
+<entry key="expression|name|100">'Beschreibung' - 'Zuschlagskriterium' (BT-540-LotsGroup) ist vorhanden und 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um eine Gewichtung' (BT-541-LotsGroup-WeightNumber), 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-LotsGroup) sind nicht vorhanden</entry>
+<entry key="expression|name|101">'Beschreibung' - 'Zuschlagskriterium' (BT-540-LotsGroup) ist vorhanden und 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um eine Gewichtung' (BT-541-LotsGroup-WeightNumber), 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-541-LotsGroup-FixedNumber) &amp; 'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-LotsGroup) sind nicht vorhanden</entry>
 <entry key="expression|name|104">'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-Lots) ist nicht ausgefüllt</entry>
 <entry key="expression|name|105">'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-LotsGroup) ist nicht ausgefüllt</entry>
 <entry key="expression|name|106">'Laufzeit' (BT-36-Lot) oder 'Enddatum der Laufzeit' (BT-537-Lot) ist ausgefüllt</entry>
@@ -51,7 +54,7 @@
 <entry key="expression|name|15">'Zugang zu bestimmten Auftragsunterlagen ist beschränkt' (BT-14-Part) ist nicht nichtoffen</entry>
 <entry key="expression|name|150">'Beschreibung' (BT-540-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|151">'Beschreibung' (BT-540-LotsGroup) ist nicht ausgefüllt</entry>
-<entry key="expression|name|159">Die Lose sind nicht 'Der Bieter muss Angebote für alle Lose einreichen' (BT-763) und es gibt mehr als ein Los in der Mitteilung</entry>
+<entry key="expression|name|159">Die Lose sind nicht 'Der Bieter muss Angebote für alle Lose einreichen' (BT-763) und es gibt mehr als ein Los in der Bekanntmachung</entry>
 <entry key="expression|name|160">Es gibt keine mehreren Lose</entry>
 <entry key="expression|name|161">'Haupteinstufung' (BT-262-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|162">'Haupteinstufung' (BT-262-Part) ist nicht ausgefüllt</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Es handelt sich nicht um einen Rahmenvertrag; 'Neu geschätzter Wert der Rahmenvereinbarung' (BT-660-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|54">'Eine Verpflichtung des Bieters bezüglich der Vergabe von Unteraufträgen.' (BT-65_Lot) ist nicht 'Der Auftragnehmer ist verpflichtet, einen Mindestprozentsatz des Auftrags gemäß dem Verfahren in Titel III der Richtlinie 2009/81/EG als Unterauftrag zu vergeben.'</entry>
 <entry key="expression|name|540">Es wurde kein Gewinner gewählt; es handelt sich nicht um einen Rahmenvertrag; 'Neu geschätzter Wert der Rahmenvereinbarung' (BT-660-LotResult) ist nicht ausgefüllt</entry>
-<entry key="expression|name|542">'Wert Rahmenvereinbarung, Gruppe, Loskennung' (BT-556) ist ausgefüllt und '' ist nicht ausgefüllt</entry>
+<entry key="expression|name|542">'Wert Rahmenvereinbarung, Gruppe, Loskennung' (BT-556) ist ausgefüllt und 'Neu geschätzter Wert der Rahmenvereinbarung innerhalb der Gruppe von Losen (BT-1561)' ist nicht ausgefüllt</entry>
 <entry key="expression|name|543">'Wert Rahmenvereinbarung, Gruppe, Loskennung' (BT-556) ist ausgefüllt und 'Geschätzter Wert der Rahmenvereinbarung innerhalb der Gruppe von Losen' ist nicht ausgefüllt</entry>
 <entry key="expression|name|544">'Ungefährer Wert der Rahmenvereinbarungen' (BT-1118-NoticeResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|545">'Feld, das zu einem späteren Zeitpunkt veröffentlicht werden soll' (BT-195(BT-1118)-NoticeResult) ist nicht ausgefüllt</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">Der Wert von 'Verfahrensart' (BT-105) entspricht 'Sonstiges zweistufiges Verfahren'</entry>
 <entry key="expression|name|605">Der Kennzeichner des zu ändernden Vertrags (BT-1501(c)-Contract) ist ausgefüllt</entry>
 <entry key="expression|name|61">'Begründung der Direktvergabe' (BT-136-Procedure) ist nicht einer der folgenden: 'Im Anschluss an eine vorherige Bekanntmachung sind nur nicht ordnungsgemäße bzw. ungeeignete Angebote eingegangen. Die Verhandlungen wurden ausschließlich mit all denjenigen Bietern geführt, die die Auswahlkriterien und die formalen Anforderungen erfüllt haben und auf die die Ausschlusskriterien nicht zutrafen'; 'Bedarf an zusätzlichen Bauleistungen oder Dienstleistungen durch den ursprünglichen Auftragnehmer'; 'Neue Bauleistungen/Dienstleistungen, die in der Wiederholung gleichartiger Bau- oder Dienstleistungen bestehen und die gemäß den strengen Vorschriften der Richtlinie vergeben werden'; 'Keine geeigneten Angebote, Teilnahmeanträge oder Anträge im Anschluss an eine vorherige Bekanntmachung'; 'Teilweiser Ersatz oder Ausweitung vorhandener Lieferungen oder Anlagen durch den ursprünglichen Lieferanten, deren Beschaffung nach den strengen Vorschriften der Richtlinie erfolgt'; 'Dienstleistungsauftrag, der an den Gewinner oder an einen der Gewinner eines Wettbewerbs gemäß den Wettbewerbsbestimmungen vergeben wird'</entry>
+<entry key="expression|name|613">Das Angebot wurde weder für ein Los eingereicht, für das 'Verordnung zu ausländischen Subventionen' (BT-681-Lot) auf 'ja' gesetzt ist, noch für eine Gruppe von Losen, die ein Los enthält, für das 'Verordnung zu ausländischen Subventionen' (BT-681-Lot) auf 'ja' gesetzt ist</entry>
+<entry key="expression|name|614">Die Mitteilung wurde nicht als 'Quelle der Auswahlkriterien' identifiziert</entry>
+<entry key="expression|name|615">Der Auswahlkriterium (BT-809) Code existiert nicht</entry>
+<entry key="expression|name|616">Die Organisation ist ein Käufer, und das dynamische Beschaffungssystem kann auch von Käufern genutzt werden, die nicht in dieser Bekanntmachung aufgeführt sind, und 'Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt' (OPP-052) ist nicht ausgefüllt</entry>
+<entry key="expression|name|617">Die Organisation ist ein Käufer, und das dynamische Beschaffungssystem kann auch von Käufern genutzt werden, die nicht in dieser Bekanntmachung aufgeführt sind, und 'Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt' (OPP-052) ist nicht ausgefüllt</entry>
+<entry key="expression|name|618">'Das Verfahren wird beschleunigt' (BT-106-Procedure) ist 'ja'</entry>
+<entry key="expression|name|619">'Das Verfahren wird beschleunigt' (BT-106-Procedure) ist 'ja'</entry>
 <entry key="expression|name|62">'Status der Preisträgerauswahl' (BT-142-LotResult) ist nicht 'Es wurde kein Wettbewerbsgewinner ermittelt, und der Wettbewerb ist abgeschlossen.'</entry>
+<entry key="expression|name|620">'Das Verfahren wird beschleunigt' (BT-106-Procedure) ist 'ja'</entry>
+<entry key="expression|name|621">Die Mitteilung wurde nicht als 'Grundlage für den Ausschluss' identifiziert</entry>
+<entry key="expression|name|622">Das Land des Geschäfts (BT-514-Business) verwendet Postleitzahlen</entry>
+<entry key="expression|name|623">Das Land der Organisation (BT-514-Organization-Company) verwendet Postleitzahlen</entry>
+<entry key="expression|name|624">Das Land des spezifischen Kontaktpunkts (BT-514-Organization-TouchPoint) verwendet Postleitzahlen</entry>
+<entry key="expression|name|625">Das Wohnsitzland des wirtschaftlichen Eigentümers (BT-514-UBO) verwendet Postleitzahlen</entry>
+<entry key="expression|name|626">Organisation, die diese Rolle ausfüllt' (OPT-301-Tenderer-SubCont) existiert nicht</entry>
 <entry key="expression|name|63">'Rahmenvereinbarung geschlossen' (BT-765) ist einer der Folgenden: 'Rahmenvereinbarung, teilweise mit erneutem Aufruf zum Wettbewerb, teilweise ohne erneuten Aufruf zum Wettbewerb'; 'Rahmenvereinbarung mit erneutem Aufruf zum Wettbewerb'; 'Rahmenvereinbarung ohne erneuten Aufruf zum Wettbewerb'; und 'Status der Preisträgerauswahl' (BT-142-LotResult) dürfen nicht 'Es wurde mindestens ein Gewinner ermittelt.' sein</entry>
 <entry key="expression|name|64">'Rahmenvereinbarung geschlossen' (BT-765) ist einer der Folgenden: 'Rahmenvereinbarung, teilweise mit erneutem Aufruf zum Wettbewerb, teilweise ohne erneuten Aufruf zum Wettbewerb'; 'Rahmenvereinbarung mit erneutem Aufruf zum Wettbewerb'; 'Rahmenvereinbarung ohne erneuten Aufruf zum Wettbewerb'; und 'Status der Preisträgerauswahl' (BT-142-LotResult) dürfen nicht 'Es wurde mindestens ein Gewinner ermittelt.' sein</entry>
 <entry key="expression|name|65">'Status der Preisträgerauswahl' (BT-142-LotResult) ist 'Es wurde mindestens ein Gewinner ermittelt.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'Höhe der bereitgestellten wesentlichen Vermögenswerte im Verhältnis zum Gesamtvermögen, das für die Erbringung der öffentlichen Dienstleistungen erforderlich ist' (OPP-020-Contract) ist nicht 'ja'</entry>
 <entry key="expression|name|87">'Die Auftragsausführung muss im Rahmen von Programmen für geschützte Beschäftigungsverhältnisse erfolgen' (BT-736-Lot) ist nicht 'ja'</entry>
 <entry key="expression|name|89">'Verweis auf den Vertrag' (OPT-315-LotResult) ist nicht leer</entry>
+<entry key="expression|name|9">'Beschreibung' - 'Zuschlagskriterium' (BT-540-Lot) ist nicht vorhanden oder 'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-Lot) ist vorhanden</entry>
 <entry key="expression|name|90">'Status der Preisträgerauswahl' (BT-142-LotResult) darf nicht 'Es wurde mindestens ein Gewinner ermittelt.' sein</entry>
 <entry key="expression|name|91">'Kennung des Angebots' (BT-3201-Tender) ist nicht ausgefüllt</entry>
 <entry key="expression|name|93">'Sonstige Beschränkungen am Erfüllungsort' (BT-727-Lot) ist 'Beliebiger Ort' oder 'Ort im Europäischen Wirtschaftsraum'</entry>
 <entry key="expression|name|94">'Sonstige Beschränkungen am Erfüllungsort' (BT-727-Part) darf nicht 'Beliebiger Ort' oder 'Ort im Europäischen Wirtschaftsraum' sein</entry>
 <entry key="expression|name|95">'Sonstige Beschränkungen am Erfüllungsort' (BT-727-Procedure) ist 'Beliebiger Ort' oder 'Ort im Europäischen Wirtschaftsraum'</entry>
+<entry key="expression|name|96">'Beschreibung' - 'Zuschlagskriterium' (BT-540-Lot) ist vorhanden und 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-541-Lot-FixedNumber), 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-541-Lot-ThresholdNumber) &amp; 'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-Lot) sind nicht vorhanden</entry>
+<entry key="expression|name|97">'Beschreibung' - 'Zuschlagskriterium' (BT-540-Lot) ist vorhanden und 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um eine Gewichtung' (BT-541-Lot-WeightNumber), 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-541-Lot-ThresholdNumber) &amp; 'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-Lot) sind nicht vorhanden</entry>
+<entry key="expression|name|98">'Beschreibung' - 'Zuschlagskriterium' (BT-540-Lot) ist vorhanden und 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um eine Gewichtung' (BT-541-Lot-WeightNumber), 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-541-Lot-FixedNumber) &amp; 'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-Lot) sind nicht vorhanden</entry>
+<entry key="expression|name|99">'Beschreibung' - 'Zuschlagskriterium' (BT-540-LotsGroup) ist vorhanden und 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um einen festen Zahlenwert' (BT-541-LotsGroup-FixedNumber), 'Zuschlagskriterium — Zahl' – 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann' (BT-543-LotsGroup) sind nicht vorhanden</entry>
 </properties>

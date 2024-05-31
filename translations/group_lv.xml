@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Uzvarētāja atlases statuss (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Iemesls, kāpēc netika izraudzīts uzvarētājs (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Iemesls, kāpēc netika izraudzīts uzvarētājs (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Pamatnolīgumu paredzamā vērtība daļu grupā (publicēts vēlāk)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Pamatnolīgumu maksimālā vērtība šajā daļu grupā (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Aplēstie ieņēmumi no pircēja, kas piešķīris koncesiju (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Visu šajā procedūrā piešķirto līgumu vērtība (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Aplēstie ieņēmumi no koncesijas lietotājiem (publicēts vēlāk)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Ātrināta procedūra</entry>
 <entry key="group|name|ND-AccessibilityJustification">Pamatojums piekļūstamības kritēriju neesamībai</entry>
 <entry key="group|name|ND-Asset">Īpašums, kas attaisno līguma pagarināšanu</entry>
+<entry key="group|name|ND-AuctionTerms">Izsoles noteikumi</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Žūrijas loceklis</entry>
 <entry key="group|name|ND-BusinessCapability">Biznesa aktivitāte</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Pārskatāmie pieprasījumi</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Izslēgšanas iemesli</entry>
 <entry key="group|name|ND-ExecutionRequirements">Izpildes nosacījumi</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Līguma pagarināšana</entry>
+<entry key="group|name|ND-FSR">Ārvalstu subsīdiju regulas piemērojamība</entry>
 <entry key="group|name|ND-FinancingParty">Finansēšanas organizācija</entry>
 <entry key="group|name|ND-Funding">ES fondi</entry>
 <entry key="group|name|ND-GazetteReference">Atsauce uz publikāciju</entry>

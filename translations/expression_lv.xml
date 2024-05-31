@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Latvian. File generated from metadata database.</comment>
 <entry key="expression|name|1">Paredzamā 'Pircējs ir līgumslēdzējs' (BT-740) vērtība ir 'Nē'</entry>
+<entry key="expression|name|10">'Apraksts' - 'Piešķiršanas kritērijs' (BT-540-LotsGroup) nav klāt vai 'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-LotsGroup) ir klāt</entry>
+<entry key="expression|name|100">'Apraksts' - 'Piešķiršanas kritērijs' (BT-540-LotsGroup) ir klāt un 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir svēruma veids' (BT-541-LotsGroup-WeightNumber), 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir sliekšņa veids' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-LotsGroup) nav klāt</entry>
+<entry key="expression|name|101">'Apraksts' - 'Piešķiršanas kritērijs' (BT-540-LotsGroup) ir klāt un 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir svēruma veids' (BT-541-LotsGroup-WeightNumber), 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir sliekšņa veids' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-LotsGroup) nav klāt</entry>
 <entry key="expression|name|104">'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-Lots) nav aizpildīta</entry>
 <entry key="expression|name|105">'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-LotsGroup) nav aizpildīta</entry>
 <entry key="expression|name|106">'Darbības termiņš' (BT-36-Lot) vai 'Ilguma beigu datums' (BT-537-Lot) ir aizpildīta</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Tas nav pamatnolīgums; 'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult) nav aizpildīta</entry>
 <entry key="expression|name|54">'Pienākums, kas pretendentam jāizpilda attiecībā uz apakšuzņēmuma līgumiem' (BT-65_Lot) nav 'Darbuzņēmējam ir pienākums līguma minimālo procentuālo daļu nodot izpildei apakšuzņēmumam, izmantojot Direktīvas 2009/81/EK III sadaļā noteikto procedūru.'</entry>
 <entry key="expression|name|540">Netika izvēlēts neviens uzvarētājs; Tas nav pamatnolīgums; 'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult)nav aizpildīta</entry>
-<entry key="expression|name|542">'Pamatnolīguma grupas vērtība – daļas ID' (BT-556) ir aizpildīta un '' nav aizpildīta</entry>
+<entry key="expression|name|542">'Pamatnolīguma grupas vērtība – daļas ID' (BT-556) ir aizpildīta un 'Pamatnolīgumu pārrēķinātā aplēstā vērtība daļu grupā (BT-1561)' nav aizpildīta</entry>
 <entry key="expression|name|543">'Pamatnolīguma grupas vērtība – daļas ID' (BT-556) ir aizpildīta un 'Pamatnolīgumu paredzamā summa daļu grupā' nav aizpildīta</entry>
 <entry key="expression|name|544">'Pamatnolīgumu aptuvenā vērtība' (BT-1118-NoticeResult) nav aizpildīta</entry>
 <entry key="expression|name|545">'Lauks publicēšanai vēlāk' (BT-195(BT-1118)-NoticeResult) nav aizpildīta</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">'Procedūras veids' (BT-105) vērtība ir vienāda ar 'Cita daudzpakāpju procedūra'</entry>
 <entry key="expression|name|605">Jāmodificējamā līguma identifikators (BT-1501(c)-Contract) ir aizpildīts</entry>
 <entry key="expression|name|61">'Tiešas piešķiršanas pamatojums' (BT-136-Procedure) nav viens no šādiem variantiem: 'Pēc iepriekšējā sludinājuma tika saņemti tikai anormāli vai nepieņemami piedāvājumi. Sarunās tika iekļauti tikai visi tie iepriekšējās procedūras pretendenti, kuri atbilst atlases kritērijiem, kurus nav iemesla izslēgt un kuri apmierina formālās prasības'; 'Nepieciešamība pēc sākotnējā darbuzņēmēja veiktiem papildu būvdarbiem vai pakalpojumiem'; 'Jauni būvdarbi vai pakalpojumi, kas ir esošo būvdarbu vai pakalpojumu atkārtojums un tiek pasūtīti saskaņā ar stingriem nosacījumiem, kuri noteikti direktīvā'; 'Par atbildi uz agrāku paziņojumu netika saņemti piemēroti piedāvājumi, dalības pieprasījumi vai pieteikumi'; 'Esošo piegāžu vai iekārtu daļēja aizstāšana vai papildināšana, ko veic sākotnējais piegādātājs un kas pasūtīts saskaņā ar stingriem nosacījumiem, kuri noteikti direktīvā'; 'Pakalpojumu līgums tiks piešķirts uzvarētājam vai vienam no uzvarētājiem saskaņā ar metu konkursa noteikumiem'</entry>
+<entry key="expression|name|613">Piedāvājums nav iesniegts ne partijai, kurai 'Ārvalstu subsīdiju regulā' (BT-681-Lot) ir iestatīts 'jā', ne partiju grupai, kas ietver partiju, kurai 'Ārvalstu subsīdiju regulā' (BT-681-Lot) ir iestatīts 'jā'</entry>
+<entry key="expression|name|614">Paziņojums nav identificēts kā 'Atlases kritēriju avots'</entry>
+<entry key="expression|name|615">Izvēles kritērija (BT-809) kods neeksistē</entry>
+<entry key="expression|name|616">Organizācija ir pircējs, un dinamiskā iepirkuma sistēma ir arī izmantojama pircējiem, kas nav norādīti šajā paziņojumā, un 'Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus' (OPP-052) nav aizpildīts</entry>
+<entry key="expression|name|617">Organizācija ir pircējs, un dinamiskā iepirkuma sistēma ir arī izmantojama pircējiem, kas nav norādīti šajā paziņojumā, un 'Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus' (OPP-052) nav aizpildīts</entry>
+<entry key="expression|name|618">'Procedūra ir paātrināta' (BT-106-Procedure) ir 'jā'</entry>
+<entry key="expression|name|619">'Procedūra ir paātrināta' (BT-106-Procedure) ir 'jā'</entry>
 <entry key="expression|name|62">'Uzvarētāja atlases statuss' (BT-142-LotResult) nav 'Uzvarētājs netika izraudzīts, un konkurss ir slēgts.'</entry>
+<entry key="expression|name|620">'Procedūra ir paātrināta' (BT-106-Procedure) ir 'jā'</entry>
+<entry key="expression|name|621">Paziņojums nav identificēts kā 'Izslēgšanas iemeslu avots'</entry>
+<entry key="expression|name|622">Biznesa valsts (BT-514-Business) izmanto pasta kodus</entry>
+<entry key="expression|name|623">Organizācijas valsts (BT-514-Organization-Company) izmanto pasta kodus</entry>
+<entry key="expression|name|624">Konkrēta kontaktpunkta valsts (BT-514-Organization-TouchPoint) izmanto pasta kodus</entry>
+<entry key="expression|name|625">Gala labuma īpašnieka dzīvesvietas valsts (BT-514-UBO) izmanto pasta kodus</entry>
+<entry key="expression|name|626">Organizācija, kas pilda šo lomu' (OPT-301-Tenderer-SubCont) nepastāv</entry>
 <entry key="expression|name|63">'Ir paredzēts pamatnolīgums' (BT-765) ir viens no šādiem variantiem: 'Pamatnolīgums ar konkursa daļēju neatsākšanu un daļēju atsākšanu'; 'Pamatnolīgums ar konkursa atsākšanu'; 'Pamatnolīgums bez konkursa atsākšanas'; un 'Uzvarētāja atlases statuss' (BT-142-LotResult) nevar būt 'Ir izraudzīts vismaz viens uzvarētājs.'</entry>
 <entry key="expression|name|64">'Ir paredzēts pamatnolīgums' (BT-765) ir viens no šādiem variantiem: 'Pamatnolīgums ar konkursa daļēju neatsākšanu un daļēju atsākšanu'; 'Pamatnolīgums ar konkursa atsākšanu'; 'Pamatnolīgums bez konkursa atsākšanas'; un 'Uzvarētāja atlases statuss' (BT-142-LotResult) nevar būt 'Ir izraudzīts vismaz viens uzvarētājs.'</entry>
 <entry key="expression|name|65">'Uzvarētāja atlases statuss' (BT-142-LotResult) ir 'Ir izraudzīts vismaz viens uzvarētājs.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">'Nodrošināto būtisko aktīvu nozīmīgums attiecībā uz visiem aktīviem, kas nepieciešami sabiedrisko pakalpojumu sniegšanai' (OPP-020-Contract) nav 'jā'</entry>
 <entry key="expression|name|87">'Līguma izpilde jāveic saskaņā ar aizsargātas nodarbinātības programmām' (BT-736-Lot) nav 'jā'</entry>
 <entry key="expression|name|89">'Atsauce uz līgumu' (OPT-315-LotResult) nav tukša</entry>
+<entry key="expression|name|9">'Apraksts' - 'Piešķiršanas kritērijs' (BT-540-Lot) nav klāt vai 'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-Lot) ir klāt</entry>
 <entry key="expression|name|90">'Uzvarētāja atlases statuss' (BT-142-LotResult) nedrīkst būt 'Ir izraudzīts vismaz viens uzvarētājs.'</entry>
 <entry key="expression|name|91">'Piedāvājuma identifikators' (BT-3201-Tender) nav aizpildīta</entry>
 <entry key="expression|name|93">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Lot) ir 'Jebkur' vai 'Jebkur Eiropas Ekonomikas zonā'</entry>
 <entry key="expression|name|94">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Part) nedrīkst būt 'Jebkur' vai 'Jebkur Eiropas Ekonomikas zonā'</entry>
 <entry key="expression|name|95">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Procedure) ir 'Jebkur' vai 'Jebkur Eiropas Ekonomikas zonā'</entry>
+<entry key="expression|name|96">'Apraksts' - 'Piešķiršanas kritērijs' (BT-540-Lot) ir klāt un 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir fiksēta vērtība' (BT-541-Lot-FixedNumber), 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir sliekšņa veids' (BT-541-Lot-ThresholdNumber) &amp; 'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-Lot) nav klāt</entry>
+<entry key="expression|name|97">'Apraksts' - 'Piešķiršanas kritērijs' (BT-540-Lot) yra ir 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir svēruma veids' (BT-541-Lot-WeightNumber), 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir sliekšņa veids' (BT-541-Lot-ThresholdNumber) &amp; 'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-Lot) nėra</entry>
+<entry key="expression|name|98">'Apraksts' - 'Piešķiršanas kritērijs' (BT-540-Lot) ir klāt un 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir svēruma veids' (BT-541-Lot-WeightNumber), 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir fiksēta vērtība' (BT-541-Lot-FixedNumber) &amp; 'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-Lot) nav klāt</entry>
+<entry key="expression|name|99">'Apraksts' - 'Piešķiršanas kritērijs' (BT-540-LotsGroup) ir klāt un 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir fiksēta vērtība' (BT-541-LotsGroup-FixedNumber), 'Piešķiršanas kritērija skaitlis' – 'Skaitlis ir sliekšņa veids' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem' (BT-543-LotsGroup) nav klāt</entry>
 </properties>

@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Stav výběru vítěze (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Důvod, proč nebyl vybrán vítěz (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Důvod, proč nebyl vybrán vítěz (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Odhadovaná hodnota rámcových dohod ve skupině částí (zveřejněno později)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maximální hodnota rámcových dohod v této skupině částí (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Odhadované příjmy od kupujícího, který udělil koncesi (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Hodnota všech zakázek zadaných v tomto řízení (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Odhadované příjmy od uživatelů koncese (zveřejněno později)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Zrychlené řízení</entry>
 <entry key="group|name|ND-AccessibilityJustification">Odůvodnění absence kritérií přístupnosti</entry>
 <entry key="group|name|ND-Asset">Majetek ospravedlňující prodloužení smlouvy</entry>
+<entry key="group|name|ND-AuctionTerms">Podmínky aukce</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Člen poroty</entry>
 <entry key="group|name|ND-BusinessCapability">Obchodní činnost</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Žádosti o přezkum</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Důvody pro vyloučení</entry>
 <entry key="group|name|ND-ExecutionRequirements">Podmínky provedení</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Prodloužení smlouvy</entry>
+<entry key="group|name|ND-FSR">Použitelnost nařízení o zahraničních dotacích</entry>
 <entry key="group|name|ND-FinancingParty">Finanční organizace</entry>
 <entry key="group|name|ND-Funding">EU fondy</entry>
 <entry key="group|name|ND-GazetteReference">Odkaz na publikaci</entry>

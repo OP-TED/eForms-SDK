@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Статус на избора на победител (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Причина, поради която не е избран победител (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Причина, поради която не е избран победител (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Прогнозна стойност по рамковите споразумения по групата обособени позиции (по-късно публикуване)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Максимална стойност по рамковите споразумения по тази група обособени позиции (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Прогнозни приходи от купувача, който е възложил концесията (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Стойност на всички поръчки, възложени по тази процедура (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Прогнозни приходи от ползвателите на концесията (по-късно публикуване)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Ускорена процедура</entry>
 <entry key="group|name|ND-AccessibilityJustification">Обосновка за липсата на критерии за достъпността</entry>
 <entry key="group|name|ND-Asset">Активи, оправдаващи удължаването на договора</entry>
+<entry key="group|name|ND-AuctionTerms">Условия на търга</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Член на журито</entry>
 <entry key="group|name|ND-BusinessCapability">Бизнес дейност</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Искания за преразглеждане (обжалване)</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Основания за изключване</entry>
 <entry key="group|name|ND-ExecutionRequirements">Условия за изпълнение</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Удължаване на договора</entry>
+<entry key="group|name|ND-FSR">Приложимост на Регламента за чуждестранните субсидии</entry>
 <entry key="group|name|ND-FinancingParty">Финансираща организация</entry>
 <entry key="group|name|ND-Funding">ЕС фондове</entry>
 <entry key="group|name|ND-GazetteReference">Препратка към публикацията</entry>

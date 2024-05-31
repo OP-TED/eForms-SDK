@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status för valet av vinnare (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Skäl till att en vinnare inte valdes (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Skäl till att en vinnare inte valdes (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Beräknat värde för ett ramavtal i gruppen med delkontrakt (publiceras senare)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Högsta värdet på ramavtalen inom den här gruppen av delkontrakt (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Beräknade inkomster från köparen som meddelade koncessionen (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Värdet av alla kontrakt som tilldelas i det här förfarandet (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Beräknade inkomster som kommer från koncessionens användare (publiceras senare)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Förenklat förfarande</entry>
 <entry key="group|name|ND-AccessibilityJustification">Motivering till varför inte tillgänglighet beaktas</entry>
 <entry key="group|name|ND-Asset">Tillgångar som motiverar kontraktsförlängning</entry>
+<entry key="group|name|ND-AuctionTerms">Villkor för auktionen</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jurymedlem</entry>
 <entry key="group|name|ND-BusinessCapability">Affärsverksamhet</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Ansökningar om prövning</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Uteslutningsgrunder</entry>
 <entry key="group|name|ND-ExecutionRequirements">Utförandevillkor</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Förlängning av kontrakt</entry>
+<entry key="group|name|ND-FSR">Tillämpbarhet av förordningen om utländska bidrag</entry>
 <entry key="group|name|ND-FinancingParty">Finansieringsorganisation</entry>
 <entry key="group|name|ND-Funding">EU-medel</entry>
 <entry key="group|name|ND-GazetteReference">Referens till publikationen</entry>

@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Stav výberu víťaza (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Dôvod, prečo nebol vybratý víťaz (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Dôvod, prečo nebol vybratý víťaz (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Odhadovaná hodnota rámcových dohôd v skupine častí (uverejnené neskôr)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maximálna hodnota rámcových dohôd v tejto skupine častí (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Predpokladané príjmy plynúce od kupujúceho, ktorý udelil koncesiu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Hodnota všetkých zákaziek zadaných v rámci tohto postupu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Predpokladané príjmy plynúce od používateľov koncesie (uverejnené neskôr)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Urýchlené konanie</entry>
 <entry key="group|name|ND-AccessibilityJustification">Odôvodnenie absencie kritérií prístupnosti</entry>
 <entry key="group|name|ND-Asset">Majetok, ktorý odôvodňuje predĺženie zmluvy</entry>
+<entry key="group|name|ND-AuctionTerms">Podmienky aukcie</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Člen poroty</entry>
 <entry key="group|name|ND-BusinessCapability">Podnikateľská činnosť</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Žiadosti o preskúmanie</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Dôvody na vylúčenie</entry>
 <entry key="group|name|ND-ExecutionRequirements">Podmienky plnenia</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Predĺženie zmluvy</entry>
+<entry key="group|name|ND-FSR">Použiteľnosť nariadenia o zahraničných dotáciách</entry>
 <entry key="group|name|ND-FinancingParty">Finančná organizácia</entry>
 <entry key="group|name|ND-Funding">Európske fondy</entry>
 <entry key="group|name|ND-GazetteReference">Odkaz na publikáciu</entry>

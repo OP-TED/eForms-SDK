@@ -2141,7 +2141,7 @@
 		<assert id="BR-BT-00718-0051" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00718-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason/cbc:ReasonCode">
-		<assert id="BR-BT-00140-0052" role="ERROR" test="normalize-space(.) = ('cancel', 'cancel-intent', 'cor-buy', 'cor-esen', 'cor-pub', 'info-release', 'update-add')">rule|text|BR-BT-00140-0052</assert>
+		<assert id="BR-BT-00140-0052" role="ERROR" test="normalize-space(.) = ('cancel', 'cancel-intent', 'cor-buy', 'cor-esen', 'cor-pub', 'info-release', 'susp-review', 'update-add')">rule|text|BR-BT-00140-0052</assert>
 		<assert id="BT-140-notice-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-140-notice-List_MA</assert>
 		<assert id="BT-140-notice_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-140-notice_WS</assert>
 	</rule>

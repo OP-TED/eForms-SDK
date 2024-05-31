@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Statutul selecției câștigătorului (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Motivul pentru care nu a fost ales un câștigător (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Motivul pentru care nu a fost ales un câștigător (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Valoarea estimată a acordurilor-cadru din grupul de loturi (publicare ulterioară)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Valoarea maximă a acordurilor-cadru pentru acest grup de loturi (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Venituri estimate de la achizitorul care a acordat concesiunea (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valoarea tuturor contractelor atribuite în cadrul acestei proceduri (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Venituri estimate de la utilizatorii concesiunii (publicare ulterioară)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Procedură accelerată</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justificarea absenței criteriilor de accesibilitate</entry>
 <entry key="group|name|ND-Asset">Active care justifică prelungirea contractului</entry>
+<entry key="group|name|ND-AuctionTerms">Condițiile licitației</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membru al juriului</entry>
 <entry key="group|name|ND-BusinessCapability">Activitate de afaceri</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Cereri de soluționare a căilor de atac</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Motive de excludere</entry>
 <entry key="group|name|ND-ExecutionRequirements">Termeni de performanță</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Prelungirea contractului</entry>
+<entry key="group|name|ND-FSR">Applicabilitatea Regulamentului privind subvențiile străine</entry>
 <entry key="group|name|ND-FinancingParty">Organizație de finanțare</entry>
 <entry key="group|name|ND-Funding">Fonduri UE</entry>
 <entry key="group|name|ND-GazetteReference">Referire la publicație</entry>

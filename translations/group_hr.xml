@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status odabira pobjednika (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Razlog zbog kojeg pobjednik nije odabran (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Razlog zbog kojeg pobjednik nije odabran (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Procijenjena vrijednost okvirnih sporazuma u skupini grupa (objavljuje se kasnije)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maksimalna vrijednost okvirnih sporazuma unutar te skupine grupa (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Procijenjeni prihodi od kupca koji je dodijelio koncesiju (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Vrijednost svih ugovora dodijeljenih u ovom postupku (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Procijenjeni prihodi od korisnika koncesije (objavljuje se kasnije)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Ubrazan postupak</entry>
 <entry key="group|name|ND-AccessibilityJustification">Obrazloženje nepostojanja kriterija za pristupačnost</entry>
 <entry key="group|name|ND-Asset">Imovina koja opravdava produženje ugovora</entry>
+<entry key="group|name|ND-AuctionTerms">Uvjeti dražbe</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Član žirija</entry>
 <entry key="group|name|ND-BusinessCapability">Poslovna aktivnost</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Zahtjevi za pravnu zaštitu (preispitivanje)</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Osnove za isključenje</entry>
 <entry key="group|name|ND-ExecutionRequirements">Uvjeti izvedbe</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Produženje ugovora</entry>
+<entry key="group|name|ND-FSR">Primjenjivost Uredbe o stranim subvencijama</entry>
 <entry key="group|name|ND-FinancingParty">Organizacija financiranja</entry>
 <entry key="group|name|ND-Funding">EU fondovi</entry>
 <entry key="group|name|ND-GazetteReference">Referenca na publikaciju</entry>

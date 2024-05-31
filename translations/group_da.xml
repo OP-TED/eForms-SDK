@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status for udvælgelse af vindere (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Årsagen til, at der ikke blev valgt en vinder (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Årsagen til, at der ikke blev valgt en vinder (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Anslået værdi af rammeaftalerne i gruppen af delkontrakter (offentliggøres senere)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maksimumsværdi af rammeaftalerne i denne gruppe af delkontrakter (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Anslåede indtægter fra den køber, der tildelte koncessionen (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Værdi af alle kontrakter, der er tildelt i denne procedure (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Anslåede indtægter fra brugerne af koncessionen (offentliggøres senere)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Accelereret procedure</entry>
 <entry key="group|name|ND-AccessibilityJustification">Begrundelse for manglende tilgængelighedskriterier</entry>
 <entry key="group|name|ND-Asset">Aktiver, der berettiger til kontraktforlængelse</entry>
+<entry key="group|name|ND-AuctionTerms">Auktionsbetingelser</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Medlem af juryen</entry>
 <entry key="group|name|ND-BusinessCapability">Forretningsaktivitet</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Anmodninger om gennemgang</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Udelukkelsesgrunde</entry>
 <entry key="group|name|ND-ExecutionRequirements">Ydelsesbetingelser</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Forlængelse af kontrakt</entry>
+<entry key="group|name|ND-FSR">Anvendelighed af Udenlandsk Støtte-regulativet</entry>
 <entry key="group|name|ND-FinancingParty">Finansieringsorganisation</entry>
 <entry key="group|name|ND-Funding">EU-midler</entry>
 <entry key="group|name|ND-GazetteReference">Reference til publikationen</entry>

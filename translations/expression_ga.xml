@@ -3,6 +3,9 @@
 <properties>
 <comment>expression in Irish. File generated from metadata database.</comment>
 <entry key="expression|name|1">Is é an luach le haghaidh 'Is eintiteas conarthach é an ceannaitheoir' (BT-740) ná 'Ní hea'</entry>
+<entry key="expression|name|10">'Cur síos' - 'Critéar dámhachtana' (BT-540-LotsGroup) níl i láthair nó 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-LotsGroup) tá i láthair</entry>
+<entry key="expression|name|100">'Cur síos' - 'Critéar dámhachtana' (BT-540-LotsGroup) i láthair agus 'Uimhir an chritéir dámhachtana' – 'Cineál ualaigh is ea an uimhir' (BT-541-LotsGroup-WeightNumber), 'Uimhir an chritéir dámhachtana' – 'Cineál tairsí is ea an uimhir' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-LotsGroup) níl i láthair</entry>
+<entry key="expression|name|101">'Cur síos' - 'Critéar dámhachtana' (BT-540-LotsGroup) i láthair agus 'Uimhir an chritéir dámhachtana' – 'Cineál ualaigh is ea an uimhir' (BT-541-LotsGroup-WeightNumber), 'Uimhir an chritéir dámhachtana' – 'Luach seasta is ea an uimhir' (BT-541-LotsGroup-FixedNumber) &amp; 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-LotsGroup) níl i láthair</entry>
 <entry key="expression|name|104">Níl 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-Lots) líonta isteach</entry>
 <entry key="expression|name|105">Níl 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-LotsGroup) líonta isteach</entry>
 <entry key="expression|name|106">Tá 'Fad ama' (BT-36-Lot) nó 'Dáta deiridh an tréimhse' (BT-537-Lot) líonta isteach</entry>
@@ -353,7 +356,7 @@
 <entry key="expression|name|539">Ní creatchonradh é; Níl 'Luach athmheasta an chreat-chomhaontaithe' (BT-660-LotResult) líonta isteach</entry>
 <entry key="expression|name|54">Ní hionann 'Oibleagáid atá le comhlíonadh ag an tairgeoir maidir le fochonraitheoireacht' (BT-65_Lot) agus 'Ní mór don chonraitheoir céatadán íosta den chonradh a ligean ar fochonradh tríd an nós imeachta a leagtar amach i dTeideal III de Threoir 2009/81/CE.'</entry>
 <entry key="expression|name|540">Níor roghnaíodh buaiteoir ar bith; Ní creatchonradh é; Níl 'Luach athmheasta an chreat-chomhaontaithe' (BT-660-LotResult) líonta isteach</entry>
-<entry key="expression|name|542">Tá 'Aitheantóir birt chreat an ghrúpa' (BT-556) líonta isteach agus níl an '' líonta isteach</entry>
+<entry key="expression|name|542">Tá 'Aitheantóir birt chreat an ghrúpa' (BT-556) líonta isteach agus níl an 'Luach athmheasta na gcreat-chomhaontuithe laistigh de ghrúpa beart (BT-1561)' líonta isteach</entry>
 <entry key="expression|name|543">Tá 'Aitheantóir birt chreat an ghrúpa' (BT-556) líonta isteach agus níl an 'Luach measta na gcreat-chomhaontuithe sa ghrúpa luchtóg' líonta isteach</entry>
 <entry key="expression|name|544">Níl 'Garluach an chreat-chomhaontaithe' (BT-1118-NoticeResult) líonta isteach</entry>
 <entry key="expression|name|545">Níl 'Réimse le foilsiú níos déanaí' (BT-195(BT-1118)-NoticeResult) líonta isteach</entry>
@@ -408,7 +411,21 @@
 <entry key="expression|name|604">Is ionann luach 'An cineál nóis imeachta' (BT-105) agus 'Nós imeachta ilchéime eile'</entry>
 <entry key="expression|name|605">Tá an aitheantas ar an gconradh a athrú (BT-1501(c)-Contract) líonta isteach</entry>
 <entry key="expression|name|61">Ní hé 'An bonn cirt le dámhachtain dhíreach' (BT-136-Procedure) ceann de na cinn a leanas: 'Ní bhfuarthas ach tairiscintí neamhrialta agus do-ghlactha mar fhreagairt ar fhógra roimhe seo. Níor cuireadh san áireamh leis an gcaibidlíocht ach amháin na tairgeoirí úd go léir ón nós imeachta roimhe seo a chomhlíon na critéir roghnúcháin, nár chomhlíon na forais eisiaimh agus a chomhlíon na ceanglais fhoirmiúla, agus na tairgeoirí úd amháin'; 'Gá le breis oibreacha nó seirbhísí le í ón gconraitheoir bunaidh'; 'Oibreacha nó seirbhísí nua, is athdhéanamh oibreacha nó seirbhísí atá ar bun cheana agus iad ordaithe i gcomhréir de réir na gcoinníollacha diana atá luaite sa Treoir'; 'Ní bhfuarthas aon tairiscintí, iarratais ar rannpháirtíocht, ná iarratais oiriúnacha mar fhreagairt ar fhógra roimhe seo'; 'An soláthróir bunaidh soláthairtí nó suiteálacha atá ann cheana a pháirt-athsholáthar nó a shíneadh agus é sin ordaithe de réir na gcoinníollacha diana atá luaite sa Treoir'; 'Conradh seirbhíse le dámhachtain don iarrthóir rathúil nó do cheann acu de réir rialacha comórtais dearaidh'</entry>
+<entry key="expression|name|613">Níor cuireadh an tairiscint isteach do ghnóthas ar leith a bhfuil 'Rialachán na Scaireanna Coigríche' (BT-681-Lot) leagtha amach mar 'tá', ná do ghrúpa gnóthas a bhfuil gnóthas ann a bhfuil 'Rialachán na Scaireanna Coigríche' (BT-681-Lot) leagtha amach mar 'tá'</entry>
+<entry key="expression|name|614">Níor aithníodh an fógra mar 'Foinse na gcritéir roghnaithe'</entry>
+<entry key="expression|name|615">Níl cód an critéir roghnaithe (BT-809) ann</entry>
+<entry key="expression|name|616">Tá an eagraíocht ina ceannaitheoir, agus tá an córas ceannach dinimiciúil inúsáidte freisin ag ceannaitheoirí nach bhfuil liostáilte sa fógra seo, agus níl 'Comhlacht lárnach ceannaigh a fhaigheann soláthairtí agus/nó seirbhísí ar son ceannaitheoirí eile' (OPP-052) líonta isteach</entry>
+<entry key="expression|name|617">Tá an eagraíocht ina ceannaitheoir, agus tá an córas ceannach dinimiciúil inúsáidte freisin ag ceannaitheoirí nach bhfuil liostáilte sa fógra seo, agus níl 'Comhlacht lárnach ceannaigh a fhaigheann soláthairtí agus/nó seirbhísí ar son ceannaitheoirí eile' (OPP-052) líonta isteach</entry>
+<entry key="expression|name|618">'Tá an nós imeachta á bhrostú' (BT-106-Procedure) is 'tá'</entry>
+<entry key="expression|name|619">'Tá an nós imeachta á bhrostú' (BT-106-Procedure) is 'tá'</entry>
 <entry key="expression|name|62">Ní hionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Níor roghnaíodh aon bhuaiteoir agus tá an iomaíocht thart.'</entry>
+<entry key="expression|name|620">'Tá an nós imeachta á bhrostú' (BT-106-Procedure) is 'tá'</entry>
+<entry key="expression|name|621">Níor aithníodh an fógra mar 'Foinse na gcúiseanna eisiúna'</entry>
+<entry key="expression|name|622">Úsáideann an tír ina mbíonn an gnó (BT-514-Business) códanna poist</entry>
+<entry key="expression|name|623">Úsáideann an tír ina bhfuil an eagraíocht (BT-514-Organization-Company) códanna poist</entry>
+<entry key="expression|name|624">Úsáideann an tír ina bhfuil an pointe teagmhála sonrach (BT-514-Organization-TouchPoint) códanna poist</entry>
+<entry key="expression|name|625">Tír cónaithe an úinéara buntáisteach deiridh (BT-514-UBO) a úsáideann códanna poist</entry>
+<entry key="expression|name|626">Ní ann do 'Eagraíocht atá ag líonadh an róil seo' (OPT-301-Tenderer-SubCont)</entry>
 <entry key="expression|name|63">Is é 'Tá creat-chomhaontú i gceist' (BT-765) ceann de na cinn a leanas: 'Creat-chomhaontú, gan an iomaíocht a athoscailt go pointe agus maille le hathoscailt na hiomaíochta go pointe'; 'Creat-chomhaontú, maille le hathoscailt na hiomaíochta'; 'Creat-chomhaontú, gan an iomaíocht a athoscailt'; agus ní ceart gurb ionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Roghnaíodh buaiteoir amháin ar a laghad.'</entry>
 <entry key="expression|name|64">Is é 'Tá creat-chomhaontú i gceist' (BT-765) ceann de na cinn a leanas: 'Creat-chomhaontú, gan an iomaíocht a athoscailt go pointe agus maille le hathoscailt na hiomaíochta go pointe'; 'Creat-chomhaontú, maille le hathoscailt na hiomaíochta'; 'Creat-chomhaontú, gan an iomaíocht a athoscailt'; agus ní ceart gurb ionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Roghnaíodh buaiteoir amháin ar a laghad.'</entry>
 <entry key="expression|name|65">Is ionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Roghnaíodh buaiteoir amháin ar a laghad.'</entry>
@@ -433,9 +450,14 @@
 <entry key="expression|name|86">Ní hionann 'Tábhacht na sócmhainní riachtanacha arna soláthar maidir leis na sócmhainní foriomlána is gá chun na seirbhísí poiblí a sholáthar' (OPP-020-Contract) agus 'tá'</entry>
 <entry key="expression|name|87">Ní hionann 'Ní mór an conradh a chur i gcrích faoi chuimsiú clár fostaíochta dídeanaí' (BT-736-Lot) agus 'tá'</entry>
 <entry key="expression|name|89">Níl 'Tagairt don chonradh' (OPT-315-LotResult) folamh</entry>
+<entry key="expression|name|9">'Cur síos' - 'Critéar dámhachtana' (BT-540-Lot) níl i láthair nó 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-Lot) tá i láthair</entry>
 <entry key="expression|name|90">Ní ceart gurb ionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Roghnaíodh buaiteoir amháin ar a laghad.'</entry>
 <entry key="expression|name|91">Níl 'Aitheantóir tairisceana' (BT-3201-Tender) líonta isteach</entry>
 <entry key="expression|name|93">Is ionann 'Srianta eile ar áit na feidhmíochta' (BT-727-Lot) agus 'Aon áit' nó 'Aon áit sa Limistéar Eorpach Eacnamaíoch'</entry>
 <entry key="expression|name|94">Ní ceart gurb ionann 'Srianta eile ar áit na feidhmíochta' (BT-727-Part) agus 'Aon áit' ná 'Aon áit sa Limistéar Eorpach Eacnamaíoch'</entry>
 <entry key="expression|name|95">Is ionann 'Srianta eile ar áit na feidhmíochta' (BT-727-Procedure) agus 'Aon áit' nó 'Aon áit sa Limistéar Eorpach Eacnamaíoch'</entry>
+<entry key="expression|name|96">'Cur síos' - 'Critéar dámhachtana' (BT-540-Lot) tá i láthair agus 'Uimhir an chritéir dámhachtana' – 'Luach seasta is ea an uimhir' (BT-541-Lot-FixedNumber), 'Uimhir an chritéir dámhachtana' – 'Cineál tairsí is ea an uimhir' (BT-541-Lot-ThresholdNumber) &amp; 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-Lot) níl i láthair</entry>
+<entry key="expression|name|97">'Cur síos' - 'Critéar dámhachtana' (BT-540-Lot) tá i láthair agus 'Uimhir an chritéir dámhachtana' – 'Cineál ualaigh is ea an uimhir' (BT-541-Lot-WeightNumber), 'Uimhir an chritéir dámhachtana' – 'Cineál tairsí is ea an uimhir' (BT-541-Lot-ThresholdNumber) &amp; 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-Lot) níl i láthair</entry>
+<entry key="expression|name|98">'Cur síos' - 'Critéar dámhachtana' (BT-540-Lot) i láthair agus 'Uimhir an chritéir dámhachtana' – 'Cineál ualaigh is ea an uimhir' (BT-541-Lot-WeightNumber), 'Uimhir an chritéir dámhachtana' – 'Luach seasta is ea an uimhir' (BT-541-Lot-FixedNumber) &amp; 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-Lot) níl i láthair</entry>
+<entry key="expression|name|99">'Cur síos' - 'Critéar dámhachtana' (BT-540-LotsGroup) i láthair agus 'Uimhir an chritéir dámhachtana' – 'Luach seasta is ea an uimhir' (BT-541-LotsGroup-FixedNumber), 'Uimhir an chritéir dámhachtana' – 'Cineál tairsí is ea an uimhir' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir' (BT-543-LotsGroup) níl i láthair</entry>
 </properties>

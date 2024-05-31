@@ -58,9 +58,9 @@
 <entry key="group|name|GR-Lot-Purpose">Doel</entry>
 <entry key="group|name|GR-Lot-QualityTarget">Kwaliteitsdoelstellingen</entry>
 <entry key="group|name|GR-Lot-Requirements2SecurityClearance1">Vereisten</entry>
-<entry key="group|name|GR-Lot-Review">Evaluatie</entry>
-<entry key="group|name|GR-Lot-ReviewInfo">Organisatie die informatie verstrekt over de evaluatie</entry>
-<entry key="group|name|GR-Lot-ReviewOrg">Organisatie die de evaluatie uitvoert</entry>
+<entry key="group|name|GR-Lot-Review">Beroep</entry>
+<entry key="group|name|GR-Lot-ReviewInfo">Organisatie die informatie verstrekt over de beroepsprocedure</entry>
+<entry key="group|name|GR-Lot-ReviewOrg">Organisatie voor beroepsprocedures</entry>
 <entry key="group|name|GR-Lot-Scope">Toepassingsgebied van de aanbesteding</entry>
 <entry key="group|name|GR-Lot-Scope-AdditionalClassification">Aanvullende classificatie</entry>
 <entry key="group|name|GR-Lot-Scope-MainClassification">Classificatie</entry>
@@ -185,7 +185,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Selectiestatus winnaar (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">De reden waarom geen winnaar is gekozen (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">De reden waarom geen winnaar is gekozen (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Geraamde waarde van de raamovereenkomsten in de groep percelen (later gepubliceerd)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maximumwaarde van de raamovereenkomsten in deze groep percelen (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Geraamde inkomsten afkomstig van de koper die de concessie verleende (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Waarde van alle in het kader van deze procedure gegunde opdrachten (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Geraamde inkomsten afkomstig van de gebruikers van de concessie (later gepubliceerd)</entry>
@@ -238,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Versnelde procedure</entry>
 <entry key="group|name|ND-AccessibilityJustification">Rechtvaardiging voor de afwezigheid van toegankelijkheidscriteria</entry>
 <entry key="group|name|ND-Asset">Activa die contractverlenging rechtvaardigen</entry>
+<entry key="group|name|ND-AuctionTerms">Voorwaarden van de veiling</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jurylid</entry>
 <entry key="group|name|ND-BusinessCapability">Bedrijfsactiviteit</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Aanvragen voor beroep</entry>
@@ -260,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Uitsluitingsgronden</entry>
 <entry key="group|name|ND-ExecutionRequirements">Voorwaarden van uitvoering</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Contractverlenging</entry>
+<entry key="group|name|ND-FSR">Toepasselijkheid van de Verordening inzake buitenlandse subsidies</entry>
 <entry key="group|name|ND-FinancingParty">Financieringsorganisatie</entry>
 <entry key="group|name|ND-Funding">EU-fondsen</entry>
 <entry key="group|name|ND-GazetteReference">Verwijzing naar de publicatie</entry>
