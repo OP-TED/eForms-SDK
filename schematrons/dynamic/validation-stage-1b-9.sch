@@ -51,7 +51,6 @@
 		<assert id="ND-LotsGroupAwardCriterionFixNumberUnpublish-9" role="ERROR" diagnostics="ND-LotsGroupAwardCriterionFixNumberUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-LotsGroupAwardCriterionFixNumberUnpublish-9</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '9']">
-		<assert id="ND-AcceleratedProcedure-9" role="ERROR" diagnostics="ND-AcceleratedProcedure" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-9</assert>
 		<assert id="ND-ProcedureTypeUnpublish-9" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-9</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '9']">

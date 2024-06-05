@@ -427,6 +427,16 @@
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter[efbc:ParameterCode/@listName='number-threshold'][$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efac:CriterionParameter[efbc:ParameterCode/@listName='number-threshold'][$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '16']"/>
+   <svrl:failed-assert id="BR-BT-00106-0022"
+                       location="/cn:ContractNotice/cac:TenderingProcess"
+                       role="ERROR"
+                       test="count(cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode) &gt; 0 or not(cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call'))">
+      <svrl:text>rule|text|BR-BT-00106-0022</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-ProcedureTenderingProcess_BT-106-Procedure"
+                                 see="field:BT-106-Procedure">
+         <svrl:text>cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:failed-assert id="BR-BT-00031-0073"
                        location="/cn:ContractNotice/cac:TenderingTerms"

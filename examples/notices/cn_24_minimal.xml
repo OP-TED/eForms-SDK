@@ -94,6 +94,9 @@ But with the minimal amount of information while still valid
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Provision of IT Services Related to OP IT Systems (EUR-Lex, N-Lex, Search Layer, and Others)</cbc:Name>

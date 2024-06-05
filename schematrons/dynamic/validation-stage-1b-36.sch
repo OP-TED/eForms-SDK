@@ -55,9 +55,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject[$noticeSubType = '36']">
 		<assert id="ND-LotsGroupValueEstimate-36" role="ERROR" diagnostics="ND-LotsGroupValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotsGroupValueEstimate-36</assert>
 	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = '36']">
-		<assert id="ND-AcceleratedProcedure-36" role="ERROR" diagnostics="ND-AcceleratedProcedure" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-36</assert>
-	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '36']">
 		<assert id="ND-TendererQualificationRequest-36" role="ERROR" diagnostics="ND-TendererQualificationRequest" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-TendererQualificationRequest-36</assert>
 	</rule>

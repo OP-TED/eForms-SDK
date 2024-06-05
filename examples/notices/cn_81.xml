@@ -108,6 +108,9 @@
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID schemeName="InternalID">700029324</cbc:ID>

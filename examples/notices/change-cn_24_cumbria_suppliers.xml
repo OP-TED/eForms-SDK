@@ -240,6 +240,9 @@
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID schemeName="InternalID">DN474002</cbc:ID>

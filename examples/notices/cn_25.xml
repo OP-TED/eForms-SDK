@@ -162,6 +162,9 @@
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID schemeName="InternalID">SW19/ENY/1192</cbc:ID>

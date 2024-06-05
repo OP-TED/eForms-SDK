@@ -236,6 +236,10 @@
 	<cac:TenderingProcess>
 		<!--BT-105 Procedure Type-->
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<!--BT-106 Procedure Accelerated-->
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<!--BT-22 Procedure Internal Identifier-->

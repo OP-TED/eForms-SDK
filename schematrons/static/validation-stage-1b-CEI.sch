@@ -59,7 +59,6 @@
 		<assert id="ND-SecondStageWeightCriterionParameter-CEI" role="ERROR" diagnostics="ND-SecondStageWeightCriterionParameter" test="count(efac:CriterionParameter) = 0">rule|text|ND-SecondStageWeightCriterionParameter-CEI</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
-		<assert id="ND-AcceleratedProcedure-CEI" role="ERROR" diagnostics="ND-AcceleratedProcedure" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-CEI</assert>
 		<assert id="ND-ProcedureTypeUnpublish-CEI" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-CEI</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'CEI']">
