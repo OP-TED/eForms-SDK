@@ -45,9 +45,6 @@
 		<assert id="ND-SecurityClearanceTerms-T02" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-T02</assert>
 		<assert id="ND-SubcontractingObligation-T02" role="ERROR" diagnostics="ND-SubcontractingObligation" test="count(cac:AllowedSubcontractTerms) = 0">rule|text|ND-SubcontractingObligation-T02</assert>
 	</rule>
-	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'T02']">
-		<assert id="ND-AcceleratedProcedure-T02" role="ERROR" diagnostics="ND-AcceleratedProcedure" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-T02</assert>
-	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'T02']">
 		<assert id="ND-LotDistribution-T02" role="ERROR" diagnostics="ND-LotDistribution" test="count(cac:LotDistribution) = 0">rule|text|ND-LotDistribution-T02</assert>
 		<assert id="ND-TendererQualificationRequest-T02" role="ERROR" diagnostics="ND-TendererQualificationRequest" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-TendererQualificationRequest-T02</assert>

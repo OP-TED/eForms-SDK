@@ -1058,7 +1058,7 @@
 <entry key="field|description|OPP-034-Tender">Информация за награди и санкции</entry>
 <entry key="field|description|OPP-034-Tender-Language">Език, използван за описание на информацията за награди и санкции</entry>
 <entry key="field|description|OPP-035-Tender">Код за идентифициране на детайлите на договора, разглеждани в тази група: 'Разпределение на приходите от продажбите на билети'</entry>
-<entry key="field|description|OPP-035-Tender-List">Име на списъка, съдържащ кодовете за условията на договора относно разпределението на приходите, а именно 'contract-detail'</entry>
+<entry key="field|description|OPP-035-Tender-List">Списък с кодове за разпределение на приходите от продажба на билети</entry>
 <entry key="field|description|OPP-040-Procedure">Категория на транспортната услуга: 'Услуги по превоз с автобус (градски / регионален)', 'Услуги по туристически превози (на дълги разстояния)', 'Услуги по превози по теснолинейни железопътни линии', 'Услуги по превоз с метро', 'Други услуги по превоз', 'Услуги по превоз по вътрешни водни пътища и морски пътища', 'Услуги на железопътния транспорт', 'Услуги по превоз с трамвай', 'Услуги по превоз с тролейбус'</entry>
 <entry key="field|description|OPP-040-Procedure-List">Име на списъка с кодове, съдържащ кодовете за характера на транспортните услуги, а именно 'transport-service'</entry>
 <entry key="field|description|OPP-050-Organization">Индикатор, който позволява да се посочи, в случай на наличие на множество купувачи, дали купувачът е лидер или не.</entry>
@@ -1329,7 +1329,7 @@
 <entry key="field|name|BT-137-Lot-Scheme">Обособена позиция</entry>
 <entry key="field|name|BT-137-LotsGroup">Технически идентификатор на групата от партиди</entry>
 <entry key="field|name|BT-137-LotsGroup-Scheme">Обособена позиция</entry>
-<entry key="field|name|BT-137-Part">Част</entry>
+<entry key="field|name|BT-137-Part">Технически идентификатор на частта</entry>
 <entry key="field|name|BT-137-Part-Scheme">Обособена позиция</entry>
 <entry key="field|name|BT-13713-LotResult">Резултат — идентификатор на обособена позиция</entry>
 <entry key="field|name|BT-13713-LotResult-Scheme">Резултат — идентификатор на обособена позиция</entry>

@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.287",
-    "createdOn" : "2024-05-30T16:37:59"
+    "version" : "1.11.294",
+    "createdOn" : "2024-06-05T09:52:15"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -2563,7 +2563,323 @@
         "id" : "legal-basis",
         "type" : "flat"
       },
-      "severity" : "ERROR"
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "1" ],
+        "value" : {
+          "id" : "legal-basis-1",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "10" ],
+        "value" : {
+          "id" : "legal-basis-10",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "11" ],
+        "value" : {
+          "id" : "legal-basis-11",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "12" ],
+        "value" : {
+          "id" : "legal-basis-12",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "13" ],
+        "value" : {
+          "id" : "legal-basis-13",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "14" ],
+        "value" : {
+          "id" : "legal-basis-14",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "15" ],
+        "value" : {
+          "id" : "legal-basis-15",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "16" ],
+        "value" : {
+          "id" : "legal-basis-16",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "17" ],
+        "value" : {
+          "id" : "legal-basis-17",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "18" ],
+        "value" : {
+          "id" : "legal-basis-18",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "19" ],
+        "value" : {
+          "id" : "legal-basis-19",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "2" ],
+        "value" : {
+          "id" : "legal-basis-2",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "20" ],
+        "value" : {
+          "id" : "legal-basis-20",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "21" ],
+        "value" : {
+          "id" : "legal-basis-21",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "22" ],
+        "value" : {
+          "id" : "legal-basis-22",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "23" ],
+        "value" : {
+          "id" : "legal-basis-23",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "24" ],
+        "value" : {
+          "id" : "legal-basis-24",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "25" ],
+        "value" : {
+          "id" : "legal-basis-25",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "26" ],
+        "value" : {
+          "id" : "legal-basis-26",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "27" ],
+        "value" : {
+          "id" : "legal-basis-27",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "28" ],
+        "value" : {
+          "id" : "legal-basis-28",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29" ],
+        "value" : {
+          "id" : "legal-basis-29",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "3" ],
+        "value" : {
+          "id" : "legal-basis-3",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "30" ],
+        "value" : {
+          "id" : "legal-basis-30",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "31" ],
+        "value" : {
+          "id" : "legal-basis-31",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "32" ],
+        "value" : {
+          "id" : "legal-basis-32",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "33" ],
+        "value" : {
+          "id" : "legal-basis-33",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "34" ],
+        "value" : {
+          "id" : "legal-basis-34",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "35" ],
+        "value" : {
+          "id" : "legal-basis-35",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "36" ],
+        "value" : {
+          "id" : "legal-basis-36",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "37" ],
+        "value" : {
+          "id" : "legal-basis-37",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "38" ],
+        "value" : {
+          "id" : "legal-basis-38",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "39" ],
+        "value" : {
+          "id" : "legal-basis-39",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "4" ],
+        "value" : {
+          "id" : "legal-basis-4",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "40" ],
+        "value" : {
+          "id" : "legal-basis-40",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "5" ],
+        "value" : {
+          "id" : "legal-basis-5",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "6" ],
+        "value" : {
+          "id" : "legal-basis-6",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "7" ],
+        "value" : {
+          "id" : "legal-basis-7",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "8" ],
+        "value" : {
+          "id" : "legal-basis-8",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "9" ],
+        "value" : {
+          "id" : "legal-basis-9",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "CEI" ],
+        "value" : {
+          "id" : "legal-basis-cei",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "T01" ],
+        "value" : {
+          "id" : "legal-basis-t01",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "T02" ],
+        "value" : {
+          "id" : "legal-basis-t02",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "X01" ],
+        "value" : {
+          "id" : "legal-basis-x01",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "X02" ],
+        "value" : {
+          "id" : "legal-basis-x02",
+          "type" : "flat"
+        },
+        "severity" : "ERROR"
+      } ]
     }
   }, {
     "id" : "BT-02-notice",
@@ -3099,17 +3415,17 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "16", "29" ],
-        "condition" : "{ND-AcceleratedProcedure} ${BT-105-Procedure not in ('open','restricted','neg-w-call')}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure not in ('open','restricted','neg-w-call')}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "17", "30" ],
-        "condition" : "{ND-AcceleratedProcedure} ${BT-105-Procedure not in ('open','restricted','neg-w-call','comp-dial','innovation')}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure not in ('open','restricted','neg-w-call','comp-dial','innovation')}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "18", "31" ],
-        "condition" : "{ND-AcceleratedProcedure} ${BT-105-Procedure not in ('neg-w-call','restricted')}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure not in ('neg-w-call','restricted')}",
         "value" : true,
         "severity" : "ERROR"
       } ]

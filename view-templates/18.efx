@@ -137,6 +137,7 @@
 			{BT-754-Lot} #{BT-754-Lot} // Accessibility 
 			{BT-137-Lot[BT-755-Lot is present]} #{field|name|BT-755-Lot}: ${BT-755-Lot} // Accessibility Justification
 		9 {ND-LotTenderingTerms[BT-809-Lot is present]} #{auxiliary|text|selection-criteria} // 5.1.9 Selection criteria
+			0 {ND-LotTenderingTerms[BT-821-Lot is present]} #{auxiliary|text|selection-criteria-sources}: #{BT-821-Lot} // Selection criteria sources
 			0 {ND-SelectionCriteria} #{auxiliary|text|criterion}: #{BT-809-Lot} // Criterion
 				{ND-SelectionCriteria[BT-750-Lot is present]} #{field|name|BT-750-Lot}: ${BT-750-Lot} // Selection Criterion Description
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{field|name|BT-40-Lot} // Selection Criteria Second Stage Invite

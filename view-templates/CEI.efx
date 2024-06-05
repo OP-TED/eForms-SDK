@@ -75,6 +75,7 @@
 			{BT-726-Lot[BT-726-Lot == TRUE]} #{field|name|BT-726-Lot} // This procurement is also suitable for small and medium enterprises (SMEs). (true / false)
 			{BT-137-Lot[BT-300-Lot is present]} #{field|name|BT-300-Lot}: ${BT-300-Lot} // Additional information
 		9 {ND-LotTenderingTerms[(BT-809-Lot is present)]} #{auxiliary|text|conditions-participation}: // 5.1.9 Conditions for participation (CEI)
+			0 {ND-LotTenderingTerms[BT-821-Lot is present]} #{auxiliary|text|selection-criteria-sources}: #{BT-821-Lot} // Selection criteria sources
 			0 {ND-SelectionCriteria} #{auxiliary|text|criterion}: #{BT-809-Lot} // Criterion
 				{ND-SelectionCriteria[BT-750-Lot is present]} #{field|name|BT-750-Lot}: ${BT-750-Lot} // Selection Criterion Description
 		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents

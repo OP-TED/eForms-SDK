@@ -50,7 +50,6 @@
 		<assert id="ND-LotsGroupAwardCriterionFixNumberUnpublish-7" role="ERROR" diagnostics="ND-LotsGroupAwardCriterionFixNumberUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-LotsGroupAwardCriterionFixNumberUnpublish-7</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '7']">
-		<assert id="ND-AcceleratedProcedure-7" role="ERROR" diagnostics="ND-AcceleratedProcedure" test="count(cac:ProcessJustification) = 0">rule|text|ND-AcceleratedProcedure-7</assert>
 		<assert id="ND-ProcedureTypeUnpublish-7" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-7</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '7']">
