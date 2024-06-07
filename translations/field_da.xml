@@ -99,8 +99,8 @@
 <entry key="field|description|BT-1501(n)-Contract-Scheme">En identifikator for ét eller flere afsnit i en foregående bekendtgørelse i proceduren. Oplysningerne i afsnittet om ændring vedrører dette eller disse afsnit.</entry>
 <entry key="field|description|BT-1501(p)-Contract">En identifikator for en erhvervsenhed (RESULT|((RES|TEN|TPA|TPO|ORG-XXXX)), som angivet i den tidligere meddelelse.</entry>
 <entry key="field|description|BT-151-Contract">URL-adressen (f.eks. internetadressen) for kontrakten.</entry>
-<entry key="field|description|BT-156-NoticeResult">Det er den genberegnede højeste værdi, der forventes at blive brugt for en gruppe delkontrakter i proceduren. Disse oplysninger kan forelægges, når den højeste værdi af en gruppe af delkontrakter er lavere end summen af værdier for de enkelte delkontrakter (f.eks. når det samme budget anvendes for flere delkontrakter). Værdien omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser. Værdien er genberegnet på grundlag af vinderens tilbud.</entry>
-<entry key="field|description|BT-156-NoticeResult-Currency">Det er den genberegnede højeste værdi, der forventes at blive brugt for en gruppe delkontrakter i proceduren. Disse oplysninger kan forelægges, når den højeste værdi af en gruppe af delkontrakter er lavere end summen af værdier for de enkelte delkontrakter (f.eks. når det samme budget anvendes for flere delkontrakter). Værdien omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser. Værdien er genberegnet på grundlag af vinderens tilbud.</entry>
+<entry key="field|description|BT-156-NoticeResult">Det er den genberegnede højeste værdi, der forventes at blive brugt for en gruppe delkontrakter i proceduren. Disse oplysninger kan forelægges, når den højeste værdi af en gruppe af delkontrakter er lavere end summen af værdier for de enkelte delkontrakter (f.eks. når det samme budget anvendes for flere delkontrakter). Værdien omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser. Værdien er genberegnet på grundlag af vinderens tilbud.</entry>
+<entry key="field|description|BT-156-NoticeResult-Currency">Det er den genberegnede højeste værdi, der forventes at blive brugt for en gruppe delkontrakter i proceduren. Disse oplysninger kan forelægges, når den højeste værdi af en gruppe af delkontrakter er lavere end summen af værdier for de enkelte delkontrakter (f.eks. når det samme budget anvendes for flere delkontrakter). Værdien omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser. Værdien er genberegnet på grundlag af vinderens tilbud.</entry>
 <entry key="field|description|BT-1561-NoticeResult">Den værdi, der forventes at blive brugt inden for en rammeaftale i en gruppe af delkontrakter. Disse oplysninger kan forelægges, når værdien, der forventes at blive brugt for en gruppe af delkontrakter er lavere end summen af de værdier, der forventes at blive brugt for de enkelte delkontrakter (f.eks. når det samme budget anvendes for flere delkontrakter). Værdien omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser. Den nye anslåede værdi er den værdi, der forventes at blive brugt , og den er anslået på ny på grundlag af vinderens tilbud.</entry>
 <entry key="field|description|BT-1561-NoticeResult-Currency">Den værdi, der forventes at blive brugt inden for en rammeaftale i en gruppe af delkontrakter. Disse oplysninger kan forelægges, når værdien, der forventes at blive brugt for en gruppe af delkontrakter er lavere end summen af de værdier, der forventes at blive brugt for de enkelte delkontrakter (f.eks. når det samme budget anvendes for flere delkontrakter). Værdien omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser. Den nye anslåede værdi er den værdi, der forventes at blive brugt , og den er anslået på ny på grundlag af vinderens tilbud.</entry>
 <entry key="field|description|BT-157-LotsGroup">Den højeste værdi, der kan bruges inden for en rammeaftale i en gruppe af delkontrakter. Disse oplysninger kan forelægges, når den højeste værdi af en gruppe af delkontrakter er lavere end summen af værdier for de enkelte delkontrakter i denne gruppe (f.eks. når det samme budget anvendes for flere delkontrakter). Højeste værdi betegner en værdi, der omfatter alle de kontrakter, der skal tildeles inden for en rammeaftale, i løbet af hele dens varighed, herunder valgmuligheder og fornyelser.</entry>
@@ -1048,7 +1048,7 @@
 <entry key="field|description|OPP-021-Contract-Language">Sprog brugt til at navngive eller beskrive det aktiv, der retfærdiggør kontraktens ekstraordinære varighed</entry>
 <entry key="field|description|OPP-022-Contract">Betydningen af de væsentlige aktiver leveret i forhold til de samlede aktiver, der er nødvendige for levering af offentlige tjenester (estimeret procentdel af aktiver leveret i samlede aktiver brugt til at levere tjenester under kontrakten)</entry>
 <entry key="field|description|OPP-023-Contract">Overvejende brug af aktiver (estimeret procentdel af aktiver leveret sammenlignet med aktiver brugt til aktiviteter, der er forskellige fra offentlige tjenester)</entry>
-<entry key="field|description|OPP-030-Tender">Kode til at identificere kontraktdetaljerne, der er adresseret i den følgende gruppe: 'Omkostningsparametre for kompensationsbetalinger', 'Der ydes enerettigheder', 'Offentlige serviceforpligtelser', 'Sociale standarder', 'Andre særlige vilkår'</entry>
+<entry key="field|description|OPP-030-Tender">Transporttjenestekategori: 'Tjenesteydelser vedrørende trafikbetjening med bus (i byområder / på regionalplan)', 'Tjenesteydelser vedrørende trafikbetjening med rutebil (langdistance)', 'Tjenesteydelser vedrørende trafikbetjening med letbane', 'Tjenesteydelser vedrørende trafikbetjening med metro', 'Øvrige transporttjenester', 'Tjenesteydelser i forbindelse med transport ad indre vandveje og søtransport', 'Jernbanetransport', 'Tjenesteydelser vedrørende trafikbetjening med sporvogn', 'Tjenesteydelser vedrørende trafikbetjening med trolleybus'</entry>
 <entry key="field|description|OPP-030-Tender-List">Navn på listen, der indeholder alle koderne for kontraktbetingelserne, nemlig 'contract-detail'</entry>
 <entry key="field|description|OPP-031-Tender">Tekstbeskrivelse om den valgte kontraktbetingelse</entry>
 <entry key="field|description|OPP-031-Tender-Language">Sprog brugt til at beskrive kontraktbetingelserne</entry>
@@ -1059,7 +1059,7 @@
 <entry key="field|description|OPP-034-Tender-Language">Sprog brugt til beskrivelse af information om belønninger og straffe</entry>
 <entry key="field|description|OPP-035-Tender">Kode til at identificere kontraktdetaljerne, der behandles i denne gruppe: 'Fordeling af indtægter fra billetsalg'</entry>
 <entry key="field|description|OPP-035-Tender-List">Navn på listen, der indeholder koderne for kontraktbetingelserne om indtægtsfordeling, nemlig 'contract-detail'</entry>
-<entry key="field|description|OPP-040-Procedure">Transporttjenestekategori: 'Tjenesteydelser vedrørende trafikbetjening med bus (i byområder / på regionalplan)', 'Tjenesteydelser vedrørende trafikbetjening med rutebil (langdistance)', 'Tjenesteydelser vedrørende trafikbetjening med letbane', 'Tjenesteydelser vedrørende trafikbetjening med metro', 'Øvrige transporttjenester', 'Tjenesteydelser i forbindelse med transport ad indre vandveje og søtransport', 'Jernbanetransport', 'Tjenesteydelser vedrørende trafikbetjening med sporvogn', 'Tjenesteydelser vedrørende trafikbetjening med trolleybus'</entry>
+<entry key="field|description|OPP-040-Procedure">Kode til at identificere kontraktdetaljerne, der er adresseret i den følgende gruppe: 'Omkostningsparametre for kompensationsbetalinger', 'Der ydes enerettigheder', 'Offentlige serviceforpligtelser', 'Sociale standarder', 'Andre særlige vilkår'</entry>
 <entry key="field|description|OPP-040-Procedure-List">Navnet på kodelisten, der indeholder koderne for transporttjenesternes karakter, nemlig 'transport-service'</entry>
 <entry key="field|description|OPP-050-Organization">Indikator, der gør det muligt at specificere, om en køber er en leder i tilfælde af, at der findes flere købere.</entry>
 <entry key="field|description|OPP-051-Organization">Indikator, der bruges til at specificere, om en køber er en central indkøbsenhed, der tildeler kontrakter.</entry>
@@ -1325,11 +1325,11 @@
 <entry key="field|name|BT-1351-Procedure-Language">Begrundelse for hasteproceduren</entry>
 <entry key="field|name|BT-136-Procedure">Begrundelse for direkte tildeling</entry>
 <entry key="field|name|BT-136-Procedure-List">Begrundelse for direkte tildeling</entry>
-<entry key="field|name|BT-137-Lot">Teknisk ID for partiet</entry>
+<entry key="field|name|BT-137-Lot">Teknisk ID for delkontrakten</entry>
 <entry key="field|name|BT-137-Lot-Scheme">Delkontrakt</entry>
-<entry key="field|name|BT-137-LotsGroup">Teknisk ID for partigruppen</entry>
+<entry key="field|name|BT-137-LotsGroup">Teknisk ID for gruppen af delkontrakter</entry>
 <entry key="field|name|BT-137-LotsGroup-Scheme">Delkontrakt</entry>
-<entry key="field|name|BT-137-Part">Del</entry>
+<entry key="field|name|BT-137-Part">Teknisk ID for delen</entry>
 <entry key="field|name|BT-137-Part-Scheme">Delkontrakt</entry>
 <entry key="field|name|BT-13713-LotResult">Resultat delkontrakt-ID</entry>
 <entry key="field|name|BT-13713-LotResult-Scheme">Resultat delkontrakt-ID</entry>
@@ -2071,8 +2071,8 @@
 <entry key="field|name|BT-632-Lot">Navn</entry>
 <entry key="field|name|BT-632-Part">Navn</entry>
 <entry key="field|name|BT-633-Organization">Organisationen er en fysisk person</entry>
-<entry key="field|name|BT-634-Lot">Hvis partiet annulleres eller mislykkes, vil det blive genstartet</entry>
-<entry key="field|name|BT-634-Procedure">Hvis proceduren annulleres eller mislykkes, vil den blive genstartet</entry>
+<entry key="field|name|BT-634-Lot">Hvis delkontrakten annulleres eller mislykkes, vil det blive genudbudt</entry>
+<entry key="field|name|BT-634-Procedure">Hvis proceduren annulleres eller mislykkes, vil den blive genudbudt</entry>
 <entry key="field|name|BT-635-LotResult">Antal klager</entry>
 <entry key="field|name|BT-636-LotResult">Arten af den påståede uregelmæssighed</entry>
 <entry key="field|name|BT-636-LotResult-List">Arten af den påståede uregelmæssighed</entry>
