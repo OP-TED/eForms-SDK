@@ -77,7 +77,6 @@
 			{BT-23-Lot} #{field|name|BT-23-Lot}: #{BT-23-Lot} // Nature of the contract
 			{BT-531-Lot} #{field|name|BT-531-Lot}: #{BT-531-Lot} // Additional Nature
 			{BT-262-Lot[BT-26(m)-Lot == 'cpv']} #{field|name|BT-262-Lot} (${BT-26(m)-Lot}): ${BT-262-Lot} #{BT-262-Lot} // Main classification (CPV)
-			{BT-262-Lot[BT-26(m)-Lot != 'cpv']} #{field|name|BT-262-Lot} (${BT-26(m)-Lot}): ${BT-262-Lot} // Main classification (non-CPV)
 			{BT-263-Lot[BT-26(a)-Lot == 'cpv']} #{field|name|BT-263-Lot} (${BT-26(a)-Lot}): ${BT-263-Lot} #{BT-263-Lot} // Additional classification (CPV)
 			{BT-25-Lot} #{field|name|BT-25-Lot}: ${format-number(BT-25-Lot, '###,##0.###,###,###')} #{BT-625-Lot} // Quantity
 			0 {ND-OptionsAndRenewals[BT-54-Lot is present]} #{auxiliary|text|options}: // Options
