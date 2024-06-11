@@ -151,7 +151,7 @@
 <entry key="business-term|description|BT-50">Minimālais kandidātu skaits, ko paredzēts uzaicināt uz procedūras otro posmu.</entry>
 <entry key="business-term|description|BT-500">Organizācijas oficiālais nosaukums.</entry>
 <entry key="business-term|description|BT-501">Organizācijas identifikators. Jānorāda visi organizācijas identifikatori.</entry>
-<entry key="business-term|description|BT-5010">Tās Savienības programmas identifikators, ko izmanto, lai vismaz daļēji finansētu līgumu. Jāsniedz viskonkrētākā informācija (piemēram, dotācijas nolīguma numurs, valsts identifikators, projekta akronīms, līguma numurs).</entry>
+<entry key="business-term|description|BT-5010">Tās Savienības programmas identifikators, ko izmanto, lai vismaz daļēji finansētu līgumu. Jāsniedz viskonkrētākā informācija (piemēram, attiecīgās programmas unikālais Eiropas identifikācijas numurs, tāds kā CCI numurs KNR fondu gadījumā vai dotācijas nolīguma numurs, valsts identifikators, projekta akronīms, kontaktnumurs).</entry>
 <entry key="business-term|description|BT-5011">Tās Savienības programmas identifikators, ko izmanto, lai vismaz daļēji finansētu līgumu. Jāsniedz viskonkrētākā informācija (piemēram, dotācijas nolīguma numurs, valsts identifikators, projekta akronīms, līguma numurs).</entry>
 <entry key="business-term|description|BT-502">Departamenta nosaukums vai cits kontaktpunkts saziņai ar organizāciju. Lai izvairītos no persondatu nevajadzīgas apstrādes, kontaktpunkts ļauj identificēt fizisku personu tikai vajadzības gadījumā (Eiropas Parlamenta un Padomes Regulas (ES) 2016/679 un Eiropas Parlamenta un Padomes Regulas (ES) 2018/1725 nozīmē).</entry>
 <entry key="business-term|description|BT-503">Tālruņa numurs saziņai ar organizāciju. Lai izvairītos no persondatu nevajadzīgas apstrādes, tālruņa numurs ļauj identificēt fizisku personu tikai vajadzības gadījumā (Regulas (ES) 2016/679 un Regulas (ES) 2018/1725 nozīmē).</entry>
@@ -197,7 +197,7 @@
 <entry key="business-term|description|BT-6110">Sīkāka informācija par to Savienības programmu vai projektu, ko izmanto, lai vismaz daļēji finansētu iepirkumu.</entry>
 <entry key="business-term|description|BT-6140">Sīkāka informācija par to Savienības programmu vai projektu, ko izmanto, lai vismaz daļēji finansētu iepirkumu.</entry>
 <entry key="business-term|description|BT-615">Interneta adrese ar informāciju par piekļuvi ierobežotas piekļuves iepirkuma procedūras dokumentiem (ierobežotai iepirkuma dokumentu daļai).</entry>
-<entry key="business-term|description|BT-625">Vienības, kurās mēra attiecīgās preces, pakalpojumus vai būvdarbus, piemēram, stundas vai kilogrami. Ja CPV kods ir piegāde, kam nav vajadzīga papildu vienība (piemēram, vieglie automobiļi), tad vienība nav jānorāda un par daudzumu uzskata apjomu, piemēram, “automobiļu skaitu”.</entry>
+<entry key="business-term|description|BT-625">Vienības, kurās mēra attiecīgās preces, pakalpojumus vai būvdarbus, piemēram, stundas vai kilogrami.</entry>
 <entry key="business-term|description|BT-63">Vai pretendentiem ir prasīts, atļauts vai nav atļauts iesniegt piedāvājumus, kas atbilst pircēja vajadzībām citā veidā, nekā ierosināts iepirkuma procedūras dokumentos. Iepirkuma procedūras dokumentos izklāstīti papildu nosacījumi piedāvājumu variantu iesniegšanai.</entry>
 <entry key="business-term|description|BT-630">Intereses apstiprinājumu saņemšanas termiņš.</entry>
 <entry key="business-term|description|BT-631">Paredzamais datums, kad tiks nosūtīts uzaicinājums apstiprināt interesi.</entry>

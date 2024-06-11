@@ -151,7 +151,7 @@
 <entry key="business-term|description|BT-50">Menettelyn jälkimmäiseen vaiheeseen kutsuttavien ehdokkaiden vähimmäismäärä.</entry>
 <entry key="business-term|description|BT-500">Organisaation virallinen nimi.</entry>
 <entry key="business-term|description|BT-501">Organisaation tunniste. Kaikki organisaation tunnisteet on ilmoitettava.</entry>
-<entry key="business-term|description|BT-5010">Sopimuksen ainakin osittaiseen rahoitukseen käytettävän unionin ohjelman tunniste. On annettava mahdollisimman konkreettiset tiedot (esim. avustussopimuksen numero, kansallinen tunnus, hankkeen lyhenne, sopimuksen numero).</entry>
+<entry key="business-term|description|BT-5010">Sopimuksen ainakin osittaiseen rahoitukseen käytettävän unionin ohjelman tunniste. On annettava mahdollisimman konkreettiset tiedot (kuten kyseessä olevan ohjelman yksilöllinen eurooppalainen tunnistenumero, jos se on saatavilla, esim. CCI-numero, kun kyse on yhteisiä säännöksiä koskevan asetuksen alaisista rahastoista, avustussopimuksen numero, kansallinen tunnus, hankkeen lyhenne, sopimuksen numero).</entry>
 <entry key="business-term|description|BT-5011">Sopimuksen ainakin osittaiseen rahoitukseen käytettävän unionin ohjelman tunniste. On annettava mahdollisimman konkreettiset tiedot (esim. avustussopimuksen numero, kansallinen tunnus, hankkeen lyhenne, sopimuksen numero).</entry>
 <entry key="business-term|description|BT-502">Osaston tai muun yhteyspisteen nimi organisaation kanssa käytävää viestintää varten. Henkilötietojen tarpeettoman käsittelyn välttämiseksi yhteyspiste sallii fyysisen henkilön tunnistamisen vain tarvittaessa (Euroopan parlamentin ja neuvoston asetuksen (EU) 2016/679 ja Euroopan parlamentin ja neuvoston asetuksen (EU) 2018/1725 mukaisesti).</entry>
 <entry key="business-term|description|BT-503">Puhelinnumero yhteydenottoja varten. Henkilötietojen tarpeettoman käsittelyn välttämiseksi fyysinen henkilö saa olla tunnistettavissa puhelinnumeron perusteella vain, jos se on tarpeen (asetusten (EU) 2016/679 ja (EU) 2018/1725 mukaisesti).</entry>
@@ -197,7 +197,7 @@
 <entry key="business-term|description|BT-6110">Lisätiedot sopimuksen ainakin osittaiseen rahoitukseen käytettävästä unionin ohjelmasta tai hankkeesta.</entry>
 <entry key="business-term|description|BT-6140">Lisätiedot sopimuksen ainakin osittaiseen rahoitukseen käytettävästä unionin ohjelmasta tai hankkeesta.</entry>
 <entry key="business-term|description|BT-615">Internetosoite, josta saa tietoa rajoitettujen hankinta-asiakirjojen (tai niiden osien) saatavuudesta.</entry>
-<entry key="business-term|description|BT-625">Tavaran, palvelun tai urakan yksikkö, esimerkiksi tunnit tai kilogrammat. Jos CPV-koodi on tavara, joka ei tarvitse lisäyksikköä (esim. autot), yksikköä ei tarvitse ilmoittaa ja määrä lasketaan lukumääränä, esim. ”autojen lukumäärä”.</entry>
+<entry key="business-term|description|BT-625">Tavaran, palvelun tai urakan yksikkö, esimerkiksi tunnit tai kilogrammat.</entry>
 <entry key="business-term|description|BT-63">Ovatko tarjoajat velvollisia tekemään tarjouksia, jotka täyttävät ostajan tarpeet eri tavoin kuin hankinta-asiakirjoissa esitetään, tai onko tarjoajilla mahdollisuus esittää tällaisia tarjouksia. Lisäedellytykset vaihtoehtotarjousten jättämiselle esitetään hankinta-asiakirjoissa.</entry>
 <entry key="business-term|description|BT-630">Kiinnostuksenilmaisujen vastaanottamisen määräaika.</entry>
 <entry key="business-term|description|BT-631">Kiinnostuksen vahvistamispyyntöjen arvioitu lähetyspäivä.</entry>

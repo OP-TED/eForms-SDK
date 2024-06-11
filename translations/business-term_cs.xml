@@ -151,7 +151,7 @@
 <entry key="business-term|description|BT-50">Minimální počet zájemců, kteří musí být vyzváni k účasti ve druhé fázi řízení.</entry>
 <entry key="business-term|description|BT-500">Úřední název organizace.</entry>
 <entry key="business-term|description|BT-501">Identifikátor organizace. Uvádějí se všechny identifikátory organizace.</entry>
-<entry key="business-term|description|BT-5010">Identifikátor programu Unie použitého na alespoň částečné financování zakázky. Informace musí být co nejkonkrétnější (např. číslo grantové dohody, vnitrostátní identifikátor, zkratka projektu, číslo smlouvy).</entry>
+<entry key="business-term|description|BT-5010">Identifikátor programu Unie použitého na alespoň částečné financování zakázky. Informace musí být co nejkonkrétnější (např. jedinečné evropské identifikační číslo příslušného programu, pokud je k dispozici, např. číslo CCI u fondů podle nařízení o společných ustanoveních, nebo číslo grantové smlouvy, národní identifikátor, zkratka projektu, číslo zakázky).</entry>
 <entry key="business-term|description|BT-5011">Identifikátor programu Unie použitého na alespoň částečné financování zakázky. Informace musí být co nejkonkrétnější (např. číslo grantové dohody, vnitrostátní identifikátor, zkratka projektu, číslo smlouvy).</entry>
 <entry key="business-term|description|BT-502">Název oddělení nebo jiného kontaktního místa pro komunikaci s organizací. Aby se předešlo zbytečnému zpracování osobních údajů, umožní kontaktní místo identifikaci fyzické osoby pouze v nezbytných případech (ve smyslu nařízení Evropského parlamentu a Rady (EU) 2016/679 a nařízení Evropského parlamentu a Rady (EU) 2018/1725).</entry>
 <entry key="business-term|description|BT-503">Telefonní číslo, na němž lze organizaci kontaktovat. Aby se předešlo zbytečnému zpracování osobních údajů, umožní telefonní číslo identifikaci fyzické osoby pouze v nezbytných případech (ve smyslu nařízení (EU) 2016/679 a nařízení (EU) 2018/1725).</entry>
@@ -197,7 +197,7 @@
 <entry key="business-term|description|BT-6110">Další informace o programu nebo projektu Unie použitém na alespoň částečné financování zakázky.</entry>
 <entry key="business-term|description|BT-6140">Další informace o programu nebo projektu Unie použitém na alespoň částečné financování zakázky.</entry>
 <entry key="business-term|description|BT-615">Internetová adresa s informacemi o přístupu k omezené zadávací dokumentaci (její části).</entry>
-<entry key="business-term|description|BT-625">Jednotka pro vyjádření zboží, služby nebo stavebních prací, například hodiny nebo kilogramy. Je-li kód CPV dodávka nevyžadující další jednotku (např. automobily), jednotka se neuvádí a množství je definováno počtem, např. „počet automobilů“.</entry>
+<entry key="business-term|description|BT-625">Jednotka pro vyjádření zboží, služby nebo stavebních prací, například hodiny nebo kilogramy.</entry>
 <entry key="business-term|description|BT-63">Zda uchazeči mohou nebo nemohou podávat nabídky, které splňují potřeby kupujícího jinak, než je navrženo v zadávací dokumentaci, či zda je to po nich požadováno. Další podmínky pro předkládání variant jsou uvedeny v zadávací dokumentaci.</entry>
 <entry key="business-term|description|BT-630">Lhůta pro doručení vyjádření zájmu.</entry>
 <entry key="business-term|description|BT-631">Předpokládané datum odeslání výzev k potvrzení zájmu.</entry>

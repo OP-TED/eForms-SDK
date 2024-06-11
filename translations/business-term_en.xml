@@ -151,7 +151,7 @@
 <entry key="business-term|description|BT-50">The minimum number of candidates to be invited for the second stage of the procedure.</entry>
 <entry key="business-term|description|BT-500">The official name of the organisation.</entry>
 <entry key="business-term|description|BT-501">An identifier of the organisation. All of the organisation's identifiers shall be given.</entry>
-<entry key="business-term|description|BT-5010">An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. grant agreement number, national identifier, project acronym, contract number).</entry>
+<entry key="business-term|description|BT-5010">An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. the unique European identification number of the relevant programme when available, for example the CCI number for CPR funds, or grant agreement number, national identifier, project acronym, contract number).</entry>
 <entry key="business-term|description|BT-5011">An identifier of the Union programme used to at least partially finance the contract. The most concrete information must be given (e.g. grant agreement number, national identifier, project acronym, contract number)</entry>
 <entry key="business-term|description|BT-502">The name of the department or other contact point for communicating with the organisation. To avoid unnecessary processing of personal data, the contact point shall allow the identification of a physical person only when necessary (in the sense of European Parliament and Council Regulation (EU) 2016/679 and European Parliament and Council Regulation (EU) 2018/1725).</entry>
 <entry key="business-term|description|BT-503">The telephone number for contacting the organisation. To avoid unnecessary processing of personal data, the telephone number shall allow the identification of a physical person only when necessary (in the sense of the Regulation (EU) 2016/679 and Regulation (EU) 2018/1725).</entry>
@@ -197,7 +197,7 @@
 <entry key="business-term|description|BT-6110">Further information about the Union programme or project used at least partially finance the procurement.</entry>
 <entry key="business-term|description|BT-6140">Further information about the Union programme or project used at least partially finance the procurement.</entry>
 <entry key="business-term|description|BT-615">The internet address with information on accessing the restricted (part of the) procurement documents.</entry>
-<entry key="business-term|description|BT-625">The unit which the good, service, or work comes in, for example hours or kilograms. Where the CPV code is a supply which does not need a further unit (e.g. cars), then no unit needs to be given and quantity is taken to be an amount, e.g. the "number of cars".</entry>
+<entry key="business-term|description|BT-625">The unit which the good, service, or work comes in, for example hours or kilograms.</entry>
 <entry key="business-term|description|BT-63">Whether tenderers are required, allowed, or not allowed to submit tenders which fulfil the buyer's needs differently than as proposed in the procurement documents. Further conditions for submitting variant tenders are in the procurement documents.</entry>
 <entry key="business-term|description|BT-630">The time limit for receipt of expressions of interest.</entry>
 <entry key="business-term|description|BT-631">The estimated date of dispatch of the invitations to confirm interest.</entry>
