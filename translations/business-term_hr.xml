@@ -151,7 +151,7 @@
 <entry key="business-term|description|BT-50">Minimalni broj natjecatelja koji se pozivaju u drugu fazu postupka.</entry>
 <entry key="business-term|description|BT-500">Službeno ime organizacije.</entry>
 <entry key="business-term|description|BT-501">Identifikator organizacije. Navode se svi identifikatori organizacije.</entry>
-<entry key="business-term|description|BT-5010">Identifikator programa Unije iz kojeg se ugovor barem djelomično financira. Moraju se navesti konkretne informacije (npr. broj sporazuma o dodjeli bespovratnih sredstava, nacionalni identifikator, skraćeni naziv projekta, broj ugovora).</entry>
+<entry key="business-term|description|BT-5010">Identifikator programa Unije iz kojeg se ugovor barem djelomično financira. Moraju se navesti konkretne informacije (npr. jedinstveni europski identifikacijski broj relevantnog programa ako je dostupan, na primjer broj CCI za fondove iz UZO-a, ili broj sporazuma o dodjeli bespovratnih sredstava, nacionalni identifikator, skraćeni naziv projekta, broj ugovora).</entry>
 <entry key="business-term|description|BT-5011">Identifikator programa Unije iz kojeg se ugovor barem djelomično financira. Moraju se navesti konkretne informacije (npr. broj sporazuma o dodjeli bespovratnih sredstava, nacionalni identifikator, skraćeni naziv projekta, broj ugovora).</entry>
 <entry key="business-term|description|BT-502">Naziv odjela ili druge kontaktne točke za komunikaciju s organizacijom. Kako bi se izbjegla nepotrebna obrada osobnih podataka, identifikacija fizičke osobe putem kontaktne točke omogućava se samo ako je to nužno (u smislu Uredbe Europskog parlamenta i Vijeća (EU) 2016/679 i Uredbe Europskog parlamenta i Vijeća (EU) 2018/1725).</entry>
 <entry key="business-term|description|BT-503">Telefonski broj za kontakt s organizacijom. Kako bi se izbjegla nepotrebna obrada osobnih podataka, identifikacija fizičke osobe putem telefonskog broja omogućava se samo ako je to nužno (u smislu Uredbe (EU) 2016/679 i Uredbe (EU) 2018/1725).</entry>
@@ -197,7 +197,7 @@
 <entry key="business-term|description|BT-6110">Dodatne informacije o programu ili projektu Unije iz kojeg se nabava barem djelomično financira.</entry>
 <entry key="business-term|description|BT-6140">Dodatne informacije o programu ili projektu Unije iz kojeg se nabava barem djelomično financira.</entry>
 <entry key="business-term|description|BT-615">Internetska adresa s informacijama o pristupu dokumentaciji o nabavi (dijelu dokumentacije o nabavi) na koju se primjenjuje ograničenje.</entry>
-<entry key="business-term|description|BT-625">Jedinica za nabavu robe, usluge ili rad, na primjer sati ili kilogrami. Ako CPV oznaka označava robu za koju nije potrebna dodatna jedinica (npr. automobili), onda ne treba navesti jedinicu te se količina izražava brojem, npr. „broj automobila”.</entry>
+<entry key="business-term|description|BT-625">Jedinica za nabavu robe, usluge ili rad, na primjer sati ili kilogrami.</entry>
 <entry key="business-term|description|BT-63">Navesti moraju li, smiju li ili ne smiju podnositelji podnositi ponude koje ispunjavaju potrebe kupca na drukčiji način nego što je predloženo u dokumentaciji o nabavi. Dodatni uvjeti za podnošenje varijanti ponuda su u dokumentaciji o nabavi.</entry>
 <entry key="business-term|description|BT-630">Rok za zaprimanje iskaza interesa.</entry>
 <entry key="business-term|description|BT-631">Predviđeni datum slanja poziva na potvrdu interesa.</entry>

@@ -650,7 +650,7 @@
 <entry key="field|description|BT-501-Business-National">Organisatsiooni tunnus. Märkida tuleb kõik organisatsiooni tunnused.</entry>
 <entry key="field|description|BT-501-Business-National-Scheme">Organisatsiooni tunnus. Märkida tuleb kõik organisatsiooni tunnused.</entry>
 <entry key="field|description|BT-501-Organization-Company">Organisatsiooni tunnus. Märkida tuleb kõik organisatsiooni tunnused.</entry>
-<entry key="field|description|BT-5010-Lot">Vähemalt lepingu osaliseks rahastamiseks kasutatud liidu programmi tunnus. Esitada tuleb võimalikult täpne teave (nt toetuslepingu number, riiklik tunnus, projekti akronüüm, lepingu number).</entry>
+<entry key="field|description|BT-5010-Lot">Vähemalt lepingu osaliseks rahastamiseks kasutatud liidu programmi tunnus. Esitada tuleb võimalikult täpne teave (nt asjaomase programmi Euroopa tunnusnumber, kui see on olemas, nt ühtne tunnuskood (CCI-kood) ühissätete määruse fondide puhul (CPR-fondid) või toetuslepingu number, riiklik tunnus, projekti lühend, lepingu number).</entry>
 <entry key="field|description|BT-5011-Contract">Vähemalt lepingu osaliseks rahastamiseks kasutatud liidu programmi tunnus. Esitada tuleb võimalikult täpne teave (nt toetuslepingu number, riiklik tunnus, projekti akronüüm, lepingu number).</entry>
 <entry key="field|description|BT-502-Business">Organisatsiooniga suhtlemise eest vastutava osakonna või muu kontaktpunkti nimi. Isikuandmete tarbetu töötlemise vältimiseks lubab kontaktpunkt füüsilise isiku tuvastada ainult siis, kui see on vajalik (Euroopa Parlamendi ja nõukogu määruste (EL) 2016/679 ja (EL) 2018/1725 tähenduses).</entry>
 <entry key="field|description|BT-502-Organization-Company">Organisatsiooniga suhtlemise eest vastutava osakonna või muu kontaktpunkti nimi. Isikuandmete tarbetu töötlemise vältimiseks lubab kontaktpunkt füüsilise isiku tuvastada ainult siis, kui see on vajalik (Euroopa Parlamendi ja nõukogu määruste (EL) 2016/679 ja (EL) 2018/1725 tähenduses).</entry>
@@ -802,7 +802,7 @@
 <entry key="field|description|BT-6140-Lot-Language">Lisateave liidu programmi või projekti kohta, mille raames hanget vähemalt osaliselt rahastati.</entry>
 <entry key="field|description|BT-615-Lot">Piiratud juurdepääsuga hankedokumentidele (või osale neist) juurdepääsu käsitleva teabe internetiaadress.</entry>
 <entry key="field|description|BT-615-Part">Piiratud juurdepääsuga hankedokumentidele (või osale neist) juurdepääsu käsitleva teabe internetiaadress.</entry>
-<entry key="field|description|BT-625-Lot">Hanke esemeks oleva kauba, teenuse või ehitustöö ühikud, nt tunnid või kilogrammid. Kui CPV koodi puhul on tegemist asjaga, mis ei vaja mõõtühikut (nt autod), siis ei ole vaja mõõtühikut esitada ning kogust arvestatakse arvuna, nt „autode arv“.</entry>
+<entry key="field|description|BT-625-Lot">Hanke esemeks oleva kauba, teenuse või ehitustöö ühikud, nt tunnid või kilogrammid.</entry>
 <entry key="field|description|BT-63-Lot">Kas pakkujad peavad esitama, tohivad või ei tohi esitada pakkumusi, mis täidavad hankija vajadusi teistmoodi, kui hankedokumentides ette nähtud. Alternatiivsete lahenduste esitamise lisatingimused on esitatud hankedokumentides.</entry>
 <entry key="field|description|BT-63-Lot-List">Kas pakkujad peavad esitama, tohivad või ei tohi esitada pakkumusi, mis täidavad hankija vajadusi teistmoodi, kui hankedokumentides ette nähtud. Alternatiivsete lahenduste esitamise lisatingimused on esitatud hankedokumentides.</entry>
 <entry key="field|description|BT-630(d)-Lot">Osalemishuvist teatamise tähtpäev.</entry>
