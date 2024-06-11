@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.12.0-SNAPSHOT",
+  "sdkVersion" : "eforms-sdk-1.12.0",
   "metadataDatabase" : {
-    "version" : "1.11.315",
-    "createdOn" : "2024-06-10T16:27:07"
+    "version" : "1.12.0",
+    "createdOn" : "2024-06-11T11:53:25"
   },
   "businessEntities" : [ {
     "id" : "buyer",
