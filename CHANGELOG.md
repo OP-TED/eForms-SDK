@@ -301,40 +301,26 @@ Translate code label for susp-review code
 ### TEDEFO-3394
 Translate labels for postcode rules review
 
-EMD/TEMPLATES:
+## View templates
 
-### TEDEFO-3273
-Fix repeating languages in Contract Modification section
+* Unpublish Information Fields (Unpublished Justification Code (BT-196), Unpublished Justification Description (BT-198), Unpublished Access Date (BT-197)) will now be displayed even after the Unpublished Access Date (BT-198) has been passed
+* New Field BT-681-Lot ("Foreign Subsidies Regulation") will now be displayed in Lots in Competition notices and Result notices
+* New Field BT-682-Tender ("Foreign Subsidies Measures") will now be displayed in Tenders in Result notices
+* New Field BT-806-Procedure ("Exclusion Grounds Source") will now be displayed under "Procedure" in Competition notices
+* New Field BT-821-Lot ("Selection Criteria Source") will now be displayed in Lots in Competition notices
+* Line "5.1.9 Selection criteria" has been updated to display Field BT-809 "Selection Criteria", which has replaced Field BT-747 "Selection Criteria Type"
+* The Fields BT-749 "Selection Criteria Name" and BT-748 "Selection Criteria Used" have been removed from the eForms Regulation, and will no longer be displayed
 
-### TEDEFO-3330
-LOT: service providers are repeated
+### Bug fixes
 
-### TEDEFO-3386
-View template for CEI still references deleted field
+* Multilingual Fields in the Change and Modification sections now display only the selected language
+* Lines for "Procurement service provider" and "TED eSender" will no longer be repeated
+* BT-538-Part "Duration Other" will now be displayed correctly in Parts
+* Contract Modification notices modifying VEAT notices without LotResults will now be displayed correctly
+* Field OPP-090-Procedure "Previous Notice Identifier" will now be displayed for subtype T01 "Planning notice for public passenger transport services ..."
+* The display of Fields BT-730-Tender "Subcontracting Value Known", BT-731-Tender "Subcontracting Percentage Known" and BT-193-Tender "Tender Variant", when they have been Unpublished, and the Unpublished Access Date has passed, has been corrected
 
-### TEDEFO-3391
-BT-538-Part is not displayed for subtypes 4-6
 
-### TEDEFO-3114
-display unpublished info even if field has real value
-
-### TEDEFO-3149
-Update View Templates to include FSR
-
-### TEDEFO-3184
-Extend EFX lines for VEAT Results to Contract Modification
-
-### TEDEFO-3208
-Display OPP-090 for T01
-
-### TEDEFO-3293
-Update View Templates for new Exclusion Grounds
-
-### TEDEFO-3294
-Update View Templates for new Selection Criteria
-
-### TEDEFO-3133
-Make EFX logic for BT-730-Tender, BT-731-Tender and BT-193-Tender the same
 
 ## SDK:
 
