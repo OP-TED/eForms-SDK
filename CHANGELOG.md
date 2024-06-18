@@ -5,7 +5,7 @@ This release brings the following corrections in the validation rules, making th
 * Remove rule checking that "Notice Framework Approximate Value" (BT-1118-NoticeResult) is the sum of the values for each lot.
 * Remove rules forbidding "Framework Re-estimated Value" (BT-660-LotResult) and "Framework Re-calculated Maximum Value" (BT-709-LotResult) in VEAT notices (subtypes 25, 26 and 27).
 
-A comprehensive list of changes between SDK 1.10.1 and SDK 1.10.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.10.2...1.10.3>
+A comprehensive list of changes between SDK 1.10.2 and SDK 1.10.3 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.10.2...1.10.3>
 
 You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?version=1.10.3&base=1.10.2>
 
