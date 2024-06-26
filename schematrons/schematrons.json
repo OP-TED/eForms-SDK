@@ -928,10 +928,20 @@
     "stage" : "4",
     "filename" : "dynamic/validation-stage-4-X02.sch"
   }, {
+    "name" : "validation-stage-4m",
+    "type" : "dynamic",
+    "stage" : "4m",
+    "filename" : "dynamic/validation-stage-4m.sch"
+  }, {
     "name" : "validation-stage-5",
     "type" : "dynamic",
     "stage" : "5",
     "filename" : "dynamic/validation-stage-5.sch"
+  }, {
+    "name" : "validation-stage-5m",
+    "type" : "dynamic",
+    "stage" : "5m",
+    "filename" : "dynamic/validation-stage-5m.sch"
   }, {
     "name" : "validation-stage-6a",
     "type" : "dynamic",
@@ -1867,9 +1877,19 @@
     "stage" : "4",
     "filename" : "static/validation-stage-4-X02.sch"
   }, {
+    "name" : "validation-stage-4m",
+    "type" : "static",
+    "stage" : "4m",
+    "filename" : "static/validation-stage-4m.sch"
+  }, {
     "name" : "validation-stage-5",
     "type" : "static",
     "stage" : "5",
     "filename" : "static/validation-stage-5.sch"
+  }, {
+    "name" : "validation-stage-5m",
+    "type" : "static",
+    "stage" : "5m",
+    "filename" : "static/validation-stage-5m.sch"
   } ]
 }
