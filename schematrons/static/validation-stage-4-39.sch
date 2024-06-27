@@ -296,8 +296,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '39']">
 		<assert id="BR-BT-00145-0048" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) &gt; 0 or not(efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0048</assert>
 		<assert id="BR-BT-00145-0063" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0063</assert>
-		<assert id="BR-BT-00150-0048" role="ERROR" diagnostics="BT-150-Contract" test="count(efac:ContractReference/cbc:ID) &gt; 0 or ((not(cbc:ID)))">rule|text|BR-BT-00150-0048</assert>
-		<assert id="BR-BT-00150-0098" role="ERROR" diagnostics="BT-150-Contract" test="count(efac:ContractReference/cbc:ID) = 0 or not((not(cbc:ID)))">rule|text|BR-BT-00150-0098</assert>
 		<assert id="BR-BT-00151-0048" role="ERROR" diagnostics="BT-151-Contract" test="count(cbc:URI) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00151-0048</assert>
 		<assert id="BR-BT-00721-0048" role="ERROR" diagnostics="BT-721-Contract" test="count(cbc:Title) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00721-0048</assert>
 		<assert id="BR-BT-01451-0048" role="ERROR" diagnostics="BT-1451-Contract" test="count(cbc:AwardDate) = 0 or not((not(cbc:ID)))">rule|text|BR-BT-01451-0048</assert>

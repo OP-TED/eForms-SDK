@@ -6267,7 +6267,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "T02" ],
         "condition" : "{ND-SettledContract} ${(OPT-316-Contract is not present)}",
         "value" : true,
         "severity" : "ERROR"
@@ -22747,8 +22747,13 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T02" ],
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "T02" ],
         "condition" : "{ND-SettledContract} ${(OPT-316-Contract is not present) or (OPT-321-Tender is not present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "36", "37" ],
+        "condition" : "{ND-SettledContract} ${not(BT-142-LotResult == 'selec-w') or (OPT-322-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
