@@ -168,9 +168,11 @@
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-4"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4m"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-5m"/>
 </svrl:schematron-output>
