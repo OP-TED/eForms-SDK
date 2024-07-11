@@ -21,42 +21,33 @@ Assigning each existing field to a business_entity
 
 #### EMD/SCHEMAS
 
-* TEDEFO-3144
-Update XSD for FSR
+* Updated XSD to:
 
-* TEDEFO-3249
-Update the schemas to deal with the new Exclusion & Selection Criteria approach as defined 
+  * include the Foreign Subsidies Regulation (FSR),
+  * deal with the new Exclusion & Selection Criteria approach as defined 
 in the Regulation Annex
 
 #### Fields
 
-* TEDEFO-3257
-Define the field for the attribute listName of BT-23-Lot
+* Defined field for the attribute listName of BT-23-Lot
 
-* TEDEFO-3288
-Fix the preset_value for Kilometers Public Transport Unit (OPP-080-Tender-Unit)
+* Fixed preset_value for Kilometers Public Transport Unit in T02 Notice Subtype (OPP-080-Tender-Unit)
 
-* TEDEFO-3300
-Review rules and nodes definitions for non-electronic submission (BT-19, BT-745)
+* Reviewed rules and nodes definitions for non-electronic submission (BT-19, BT-745)
 
-* TEDEFO-3385
-Incorrect type for field BT-821-Lot-List
+* Updated type for field BT-821-Lot-List
 
-* TEDEFO-3143
-Define fields and Nodes for FSR
+* Defined fields and Nodes for FSR
 
+* Updated Exclusion & Selection Criteria with the definition of new fields and nodes for: 
+  * BT-806,
+  * BT-821,
+  * BT-809, and
 
-* TEDEFO-3250
-Update Nodes & Fields for the new Exclusion & Selection Criteria
-"Define the new fields and nodes needed for the following BTs: 
-* BT-806 
-* BT-821 
-* BT-809 
-
-and delete the deprecated fields for the BTs: 
-* BT-747, 
-* BT-748, 
-* BT-749"
+  deletion of deprecated fields for: 
+  * BT-747, 
+  * BT-748, 
+  * BT-749.
 
 #### EMD/NOTICE TYPES
 
@@ -121,107 +112,62 @@ All changes done in subtypes 7 to 24 and CEI
 
 ### Rules
 
-* TEDEFO-3420
-OPT-301-Tenderer-MainCont condition is not accurate
+* Updated rules for Exclusion & Selection Criteria,
 
-* TEDEFO-3260
-Update expression for rule BR-BT-13713-0102
+* Updated OPT-301-Tenderer-MainCont condition to depend on Subcontractor existence instead,
 
-* TEDEFO-3298
-Update rules context for rules on BT-773
+* Updated expression for rule BR-BT-13713-0102 to include control of existence of information on tenders received from medium sized enterprises
 
-* TEDEFO-3316
-Update conditions & contexts for rules on BT-541 to trigger in absence of extensions and 
+* Updated conditions & contexts for rules on BT-541 to trigger in absence of extensions and 
 prevent BT-541 when BT-543 specified
 
-* TEDEFO-3317
-Update the rule context to the grandparent node for rules on BT-135-Procedure
+* Updated contexts for rules on:
+  * BT-135-Procedure
+  * BT-109-Lot,
+  * BT-111-Lot,
+  * BT-113-Lot,
+  * BT-106-Procedure,  
+  * BT-773-Tender, and
+  * OPT-321-Tender
+  
+  for mandatory rules to trigger also in absence of the parent element.
 
-* TEDEFO-3320
-Update context for rules on BT-109-Lot, BT-111-Lot and BT-113-Lot
+* Updated context for rules on:
+  * BT-76-Lot, and
+  * BT-771-Lot.
 
-* TEDEFO-3332
-Update context for existence rules on OPT-321-Tender to ND-NoticeResult
+* Removed "Cross Border Law" from the T01 and T02 forms,
 
-* TEDEFO-3370
-Inconsistent context for rules under cac:TendererQualificationRequest
+* Defined rules for FSR,
 
-* TEDEFO-3127
-Remove Cross Border Law from the T01 and T02 forms
+* Constraint "Minimum Candidates (BT-50-Lot) > 5" not applied to DPS anymore,
 
-* TEDEFO-3145
-Define rules for FSR
+* Defined rule to check for Tender - Result consistency,
 
-* TEDEFO-3222
-Ensure Minimum Candidates (BT-50-Lot) > 5 is not applied for DPS
+* Removed ineffective rules trying to fetch other notices,
 
-* TEDEFO-3269
-Define rule that checks for Tender - Result consistency
+* Restriction of mandatory rules for BT-543-Lotsgroup and BT-539-LotsGroup to CVS,
 
-* TEDEFO-3376
-Remove uneffective rules that try to fetch other notices
+* Applied Legal Basis rules on a per Notice Subtype basis,
 
-* TEDEFO-3483
-Live validation of mandatory rules for BT-543-Lotsgroup and BT-539-LotsGroup
+* Updated rules that still referred to "eforms-xxx" lists,
 
-* TEDEFO-1644
-Apply legal basis rules on a per form subtype basis
-
-* TEDEFO-3251
-Update rules for Exclusion & Selection Criteria
-
-* TEDEFO-3305
-Update the rules that use the eforms-xxx lists
-Define rules for the new fields and remove rules for the deprecated fields
-* TEDEFO-3389
-Currently postcodes are allowed and mandatory for countries of the postcode-country only. 
-They should be allowed for any country and mandatory for countries in the codelist 
-Rules to be addressed for the following fields: 
-* -BT-512-Business- 
-* -BT-512-Organization-Company- 
-* -BT-512-Organization-TouchPoint- 
-* -BT-512-UBO- 
-* -BT-5121-Lot- 
-* -BT-5121-Part- 
-* -BT-5121-Procedure- 
-* -OPP-111-Business- 
- 
-* TEDEFO-3456
-Update context for rules on BT-106
-For rules to be effective, rules context should be changed from parent to
- "ND-ProcedureTenderingProcess" for the mandatory rules to actually apply. 
+* Postcodes now allowed for any country and mandatory for countries in the postcode-country codelist,
 
 ### Codelists
 
-* TEDEFO-3319
-Translations removed for several codes in codelists from EU Vocabularies
+* Aligned T01-T02 codelists with EU Vocabulary resources.
 
-* TEDEFO-3151
-T01-T02 codelists for EU Voc March.
+* Defined codelists for Foreign Subsidies Regulation ("foreign-subsidy-measure-conclusion", "fsr"),
 
-* TEDEFO-3171
-Harmonize "official" column in the database "code_list" table
+* Defined new codelists ("document-used-in-public-procurement","selection-criteria-source","exclusion-grounds-source")
+and update existing ones ("exclusion-ground", "selection-criterion") to satisfy the new "Exclusion & Selection Criteria" approach,
 
-* TEDEFO-3238
-Define codelists for Foreign Subsidies Regulation
+* Removed useless codelists ("eforms-xxx" & "period-listname")
 
-* TEDEFO-3255
-Define the required codelists for the new Exclusion & Selection Criteria approach
+* Ireland added to the postcode-country codelist,
 
-* TEDEFO-3335
-Remove useless codelists eforms-xxx & period-listname
-* eforms-buyer-legal-type 
-* eforms-contract-nature 
-* eforms-currency 
-* eforms-language 
-* eforms-legal-basis 
-* period-listname
-
-* TEDEFO-3374
-Add Ireland to the postcode-country codelist
-
-* TEDEFO-3388
-Add "susp-review" code to the change-corrig-justification codelist
+* "susp-review" code added to the change-corrig-justification codelist.
 
 ### View templates
 
