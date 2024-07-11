@@ -49,66 +49,22 @@ in the Regulation Annex
   * BT-748, 
   * BT-749.
 
-#### EMD/NOTICE TYPES
+#### Notice type definitions
 
-* TEDEFO-2951
-The CVD fields in the lot result were reordered to make them more user friendly. 
-The vehicle category is now chosen first, followed by the number and type of vehicle. 
-
-* TEDEFO-3203
-The Fields related to the CVD in the lot were added to the contract modification 
-notice types (38, 39, 40) 
-
-* TEDEFO-3278
-the structure of the Planned duration groupin the Pin only parts has been aligned
- with the one in the lot 
- 
-* TEDEFO-3279
-The node for the Procedure Place of performance was corrected to 
-ND-ProcedurePlaceofPerformance for all concerned subtypes. 
-
-* TEDEFO-3283
-the node ND-ProcedureProcurementScope has been added to all the missing subtypes 
-(1, 2, 3, 4, 5, 6, 7, 8, 9, 15, 16, CEI, T01, T02) to facilitate the identification 
-of rules related to the fields. Further improvements will be made to 
-GR-Procedure-Procurement-Scope (which contains fields that are under the same node) 
-as time allows. 
-
-* TEDEFO-3297
-Added the field OPP-080-Tender-Unit ad hidden in the T02 NTD, to make use of the preset value
-'KTM'  used to make this field valid against the schema.
-
-* TEDEFO-3387
-the Selection criteria second stage invitation indicator (BT-40) and related weight and number
- fields have been removed form NTDs 15,19 and CEI 
-
-* TEDEFO-3129
-The Cross border law fields have been removed from T01/02 together with their display 
-group and the Procedure Tendering Terms section, which became empty. 
-
-
-* TEDEFO-3146
-The Foreign Subsidies Regulation fields BT-681-Lot and BT-682-Tender have been added 
-in the Lot>Tendering Terms section and the Result>Tenders section 
-
-* TEDEFO-3180
-The subcontracing fields in the Tender section of the result have been reordered to make it easier to fill-in.
- The indicator for subcontracting is now the first field, followed by the description.
- 
-* TEDEFO-3207
-The field OPP-090-Procedure was added to T01 subtype, to be able to refer to previous notices. 
-
-* TEDEFO-3263
-ND-AuctionTerms has been added to GR-Lot-AuctionTerms so that the error messages can be pointed to 
-the specific fields
-
-* TEDEFO-3252
-The exclusion grounds fields have been updated. BT-806-Procedure (Exclusion Grounds 
-Source) has been added in a group above the already existing one. 
-The selection criteria fields have been rehauled. BT-747-Lot, BT-748-Lot and BT-749 lot 
-have been replaced by BT-809-Lot 'Selection Criterion' combobox. Another group has been 
-added above the Selection Criteria to identify ths source using field BT-821-Lot. 
-All changes done in subtypes 7 to 24 and CEI 
+* The exclusion grounds fields have been updated. "Exclusion Grounds Source" (BT-806-Procedure) has been added in a group above the already existing one.
+* The selection criteria fields have also been adapted. BT-747-Lot, BT-748-Lot and BT-749-Lot have been replaced by "Selection Criterion" (BT-809-Lot) as a combobox. Another group has been added above the Selection Criteria to identify ths source using field BT-821-Lot.
+* The Foreign Subsidies Regulation fields BT-681-Lot and BT-682-Tender have been added in the Lot / Tendering Terms section and the Result / Tenders section.
+* The CVD fields in the lot result were reordered to make them more user friendly. The vehicle category is now chosen first, followed by the number and type of vehicle.
+* The Fields related to the CVD in the lot were added to the contract modification notice types.
+* The structure of the "planned duration" group in the PIN-only parts has been aligned with the one in the lots.
+* The node for the "Procedure Place of performance" was corrected to ND-ProcedurePlacePerformance for all concerned subtypes.
+* The node ND-ProcedureProcurementScope has been added to all the subtypes where it was missing (1, 2, 3, 4, 5, 6, 7, 8, 9, 15, 16, CEI, T01, T02), to facilitate the identification of rules related to the fields (issue #870).
+* The field OPP-080-Tender-Unit was added as hidden in T02, with the preset value 'KTM', to help make the XML valid against the schema.
+* The "selection criteria second stage invitation" indicator (BT-40) and the related weight and number fields have been removed for subtypes 15, 19, and CEI.
+* The cross border law fields have been removed from T01 and T02 together with their display group and the "Procedure Tendering Terms" section.
+* The subcontracing fields in the "Tender" section of the result have been reordered to make them easier to fill-in. The indicator for subcontracting is now the first field, followed by the description.
+* The field OPP-090-Procedure was added to T01 subtype for the identification of previous notices.
+* ND-AuctionTerms has been added to GR-Lot-AuctionTerms so that error messages can point to this specific group.
 
 ### Rules
 
