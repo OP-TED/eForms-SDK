@@ -1462,6 +1462,7 @@
 		<diagnostic id="ND-NoticeApproximateValueUnpublish" see="node:ND-NoticeApproximateValueUnpublish">efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-NoticeResult" see="node:ND-NoticeResult">efac:NoticeResult</diagnostic>
 		<diagnostic id="ND-NoticeResultGroupFA" see="node:ND-NoticeResultGroupFA">efac:GroupFramework</diagnostic>
+		<diagnostic id="ND-NoticeResult_BT-150-Contract" see="field:BT-150-Contract">efac:SettledContract/efac:ContractReference/cbc:ID</diagnostic>
 		<diagnostic id="ND-NoticeResult_OPT-321-Tender" see="field:OPT-321-Tender">efac:LotTender/cbc:ID</diagnostic>
 		<diagnostic id="ND-OperationType" see="node:ND-OperationType">efac:NoticePurpose</diagnostic>
 		<diagnostic id="ND-OptionsAndRenewals" see="node:ND-OptionsAndRenewals">cac:ContractExtension</diagnostic>
