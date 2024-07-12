@@ -94,58 +94,9 @@ The schemas has been updated to include the information for the Foreign Subsidie
 
 ### Labels and translations
 
-* TEDEFO-3318
-Update Dutch translations
-
-* TEDEFO-3459
-mixed up languages for business-term|name|OPP-124
-
-* TEDEFO-3460
-Incorrect new texts for expression|name|542
-
-* TEDEFO-3463
-business term description are now wrong in all languages
-
-* TEDEFO-3468
-Fields descriptions are in the wrong language
-
-* TEDEFO-3147
-Translate labels for new FSR nodes and fields
-
-* TEDEFO-3148
-Provide translation for the new FSR rules
-
-* TEDEFO-3354
-Update BT descriptions as changed in the December 2023 eForms regulation amendment
-
-* TEDEFO-3253
-Translate labels for new Exclusion & Selection Criteria fields
-
-* TEDEFO-3254
-Provide translations for the new Exclusion and Selection Criteria rules
-
-* TEDEFO-3275
-Translate label for rule that checks for Tender - Result consistency
-
-* TEDEFO-3327
-Needed translations for new conditions for Award Criteria
-
-* TEDEFO-3339
-Provide translations for the Legal Basis controls
-
-* TEDEFO-3375
-Integrate the translation for the codes of the following codelists: 
-* foreign-subsidy-measure-conclusion
-* document-used-in-public-procurement 
-* change-corrig-justification
-* exclusion-ground 
-* selection-criterion
-
-* TEDEFO-3392
-Translate code label for susp-review code
-
-* TEDEFO-3394
-Translate labels for postcode rules review
+* Added translations for new and modified labels
+* Corrected and improved numerous rule and expression labels
+* Corrected and added missing translations in some code lists
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
