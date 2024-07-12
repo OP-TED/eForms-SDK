@@ -19,35 +19,18 @@ Assigning each existing field to a business_entity
 
 ### Schema, nodes, fields and notice type definitions
 
-#### EMD/SCHEMAS
+#### Schemas
 
-* Updated XSD to:
-
-  * include the Foreign Subsidies Regulation (FSR),
-  * deal with the new Exclusion & Selection Criteria approach as defined 
-in the Regulation Annex
+The schemas has been updated to include the information for the Foreign Subsidies Regulation (FSR), and deal with the new Exclusion & Selection Criteria approach as defined in the Regulation Annex.
 
 #### Fields
 
-* Defined field for the attribute listName of BT-23-Lot
-
-* Fixed preset_value for Kilometers Public Transport Unit in T02 Notice Subtype (OPP-080-Tender-Unit)
-
-* Reviewed rules and nodes definitions for non-electronic submission (BT-19, BT-745)
-
-* Updated type for field BT-821-Lot-List
-
-* Defined fields and Nodes for FSR
-
-* Updated Exclusion & Selection Criteria with the definition of new fields and nodes for: 
-  * BT-806,
-  * BT-821,
-  * BT-809, and
-
-  deletion of deprecated fields for: 
-  * BT-747, 
-  * BT-748, 
-  * BT-749.
+* Updated Exclusion & Selection Criteria with the definition of new fields and nodes for BT-806, BT-821, BT-809, and the deletion of fields for BT-747, BT-748, BT-749.
+* Defined fields and nodes for FSR.
+* Defined field for the attribute listName of BT-23-Lot.
+* Fixed preset_value for Kilometers Public Transport Unit in T02 Notice Subtype (OPP-080-Tender-Unit).
+* Reviewed rules and nodes definitions for non-electronic submission (BT-19, BT-745).
+* Updated type for field BT-821-Lot-List.
 
 #### Notice type definitions
 
@@ -68,69 +51,40 @@ in the Regulation Annex
 
 ### Rules
 
-* Updated rules for Exclusion & Selection Criteria,
-
-* Updated OPT-301-Tenderer-MainCont condition to depend on Subcontractor existence instead,
-
-* Updated expression for rule BR-BT-13713-0102 to include control of existence of information on tenders received from medium sized enterprises
-
-* Updated conditions & contexts for rules on BT-541 to trigger in absence of extensions and 
-prevent BT-541 when BT-543 specified
-
-* Updated contexts for rules on:
-  * BT-135-Procedure
-  * BT-109-Lot,
-  * BT-111-Lot,
-  * BT-113-Lot,
-  * BT-106-Procedure,  
-  * BT-773-Tender, and
-  * OPT-321-Tender
-  
-  for mandatory rules to trigger also in absence of the parent element.
-
-* Updated context for rules on:
-  * BT-76-Lot, and
-  * BT-771-Lot.
-
-* Removed "Cross Border Law" from the T01 and T02 forms,
-
-* Defined rules for FSR,
-
-* Constraint "Minimum Candidates (BT-50-Lot) > 5" not applied to DPS anymore,
-
-* Defined rule to check for Tender - Result consistency,
-
-* Removed ineffective rules trying to fetch other notices,
-
-* Restriction of mandatory rules for BT-543-Lotsgroup and BT-539-LotsGroup to CVS,
-
-* Applied Legal Basis rules on a per Notice Subtype basis,
-
-* Updated rules that still referred to "eforms-xxx" lists,
-
-* Postcodes now allowed for any country and mandatory for countries in the postcode-country codelist,
+* Updated rules for Exclusion & Selection Criteria.
+* Updated OPT-301-Tenderer-MainCont condition to depend on Subcontractor existence instead.
+* Updated expression for rule BR-BT-13713-0102 to include control of existence of information on tenders received from medium sized enterprises.
+* Updated conditions & contexts for rules on BT-541 to trigger in absence of extensions and prevent BT-541 when BT-543 specified.
+* Updated contexts for rules on: BT-135-Procedure, BT-109-Lot, BT-111-Lot, BT-113-Lot, BT-106-Procedure, BT-773-Tender, and OPT-321-Tender. This is to ensure that mandatory rules trigger also in absence of the parent element.
+* Updated context for rules on BT-76-Lot and BT-771-Lot.
+* Removed "Cross Border Law" from the T01 and T02 forms.
+* Defined rules for FSR.
+* Constraint "Minimum Candidates (BT-50-Lot) > 5" not applied to DPS anymore.
+* Defined rule to check for Tender - Result consistency.
+* Removed ineffective rules trying to fetch other notices.
+* Restriction of mandatory rules for BT-543-LotsGroup and BT-539-LotsGroup to CVS.
+* Applied Legal Basis rules on a per Notice Subtype basis.
+* Updated rules that still referred to "eforms-xxx" lists.
+* Postcodes now allowed for any country and mandatory for countries in the postcode-country codelist.
 
 ### Codelists
 
-* Defined new codelists (document-used-in-public-procurement, selection-criteria-source, exclusion-grounds-source) and updated existing ones (exclusion-ground, selection-criterion)
-* Defined new codelists (fsr, foreign-subsidy-measure-conclusion) for Foreign Subsidies Regulation
-* Removed redundant tailored codelists that are the same as their parent codelist (eforms-xxx and period-listname)
-* Added "susp-review" code to the change-corrig-justification codelist
-* Added Ireland to the postcode-country codelist
-* Aligned T01-T02 codelists with EU Vocabularies
+* Defined new codelists (document-used-in-public-procurement, selection-criteria-source, exclusion-grounds-source) and updated existing ones (exclusion-ground, selection-criterion).
+* Defined new codelists (fsr, foreign-subsidy-measure-conclusion) for Foreign Subsidies Regulation.
+* Removed redundant tailored codelists that are the same as their parent codelist (eforms-xxx and period-listname).
+* Added "susp-review" code to the change-corrig-justification codelist.
+* Added Ireland to the postcode-country codelist.
+* Aligned T01-T02 codelists with EU Vocabularies.
 
 ### View templates
 
-* Unpublish Information Fields (Unpublished Justification Code (BT-196), Unpublished Justification Description (BT-198), Unpublished Access Date (BT-197)) will now be displayed even after the Unpublished Access Date (BT-198) has been passed
-* New Field BT-681-Lot ("Foreign Subsidies Regulation") will now be displayed in Lots in Competition notices and Result notices
-* New Field BT-682-Tender ("Foreign Subsidies Measures") will now be displayed in Tenders in Result notices
-* New Field BT-806-Procedure ("Exclusion Grounds Source") will now be displayed under "Procedure" in Competition notices
-* New Field BT-821-Lot ("Selection Criteria Source") will now be displayed in Lots in Competition notices
-* Line "5.1.9 Selection criteria" has been updated to display Field BT-809 "Selection Criteria", which has replaced Field BT-747 "Selection Criteria Type"
-* The Fields BT-749 "Selection Criteria Name" and BT-748 "Selection Criteria Used" have been removed from the eForms Regulation, and will no longer be displayed
-
-#### Bug fixes
-
+* Unpublish Information Fields (Unpublished Justification Code (BT-196), Unpublished Justification Description (BT-198), Unpublished Access Date (BT-197)) will now be displayed even after the Unpublished Access Date (BT-198) has been passed.
+* New Field BT-681-Lot ("Foreign Subsidies Regulation") will now be displayed in Lots in Competition notices and Result notices.
+* New Field BT-682-Tender ("Foreign Subsidies Measures") will now be displayed in Tenders in Result notices.
+* New Field BT-806-Procedure ("Exclusion Grounds Source") will now be displayed under "Procedure" in Competition notices.
+* New Field BT-821-Lot ("Selection Criteria Source") will now be displayed in Lots in Competition notices.
+* Line "5.1.9 Selection criteria" has been updated to display Field BT-809 "Selection Criteria", which has replaced Field BT-747 "Selection Criteria Type".
+* The Fields BT-749 "Selection Criteria Name" and BT-748 "Selection Criteria Used" have been removed from the eForms Regulation, and will no longer be displayed.
 * Multilingual Fields in the Change and Modification sections now display only the selected language
 * Lines for "Procurement service provider" and "TED eSender" will no longer be repeated
 * BT-538-Part "Duration Other" will now be displayed correctly in Parts
