@@ -112,18 +112,12 @@ prevent BT-541 when BT-543 specified
 
 ### Codelists
 
-* Aligned T01-T02 codelists with EU Vocabulary resources.
-
-* Defined codelists for Foreign Subsidies Regulation ("foreign-subsidy-measure-conclusion", "fsr"),
-
-* Defined new codelists ("document-used-in-public-procurement","selection-criteria-source","exclusion-grounds-source")
-and update existing ones ("exclusion-ground", "selection-criterion") to satisfy the new "Exclusion & Selection Criteria" approach,
-
-* Removed useless codelists ("eforms-xxx" & "period-listname")
-
-* Ireland added to the postcode-country codelist,
-
-* "susp-review" code added to the change-corrig-justification codelist.
+* Defined new codelists (document-used-in-public-procurement, selection-criteria-source, exclusion-grounds-source) and updated existing ones (exclusion-ground, selection-criterion)
+* Defined new codelists (fsr, foreign-subsidy-measure-conclusion) for Foreign Subsidies Regulation
+* Removed redundant tailored codelists that are the same as their parent codelist (eforms-xxx and period-listname)
+* Added "susp-review" code to the change-corrig-justification codelist
+* Added Ireland to the postcode-country codelist
+* Aligned T01-T02 codelists with EU Vocabularies
 
 ### View templates
 
