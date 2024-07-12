@@ -38,7 +38,7 @@ The schemas has been updated to include the information for the Foreign Subsidie
 * The field OPP-080-Tender-Unit was added as hidden in T02, with the preset value 'KTM', to help make the XML valid against the schema.
 * The "selection criteria second stage invitation" indicator (BT-40) and the related weight and number fields have been removed for subtypes 15, 19, and CEI.
 * The cross border law fields have been removed from T01 and T02 together with their display group and the "Procedure Tendering Terms" section.
-* The subcontracing fields in the "Tender" section of the result have been reordered to make them easier to fill-in. The indicator for subcontracting is now the first field, followed by the description.
+* The subcontracting fields in the "Tender" section of the result have been reordered to make them easier to fill-in. The indicator for subcontracting is now the first field, followed by the description.
 * The field OPP-090-Procedure was added to T01 subtype for the identification of previous notices.
 * ND-AuctionTerms has been added to GR-Lot-AuctionTerms so that error messages can point to this specific group.
 
