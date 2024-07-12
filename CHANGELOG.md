@@ -5,15 +5,8 @@ This release of the SDK does not contain any backwards incompatible changes: sof
 
 ## Additional information
 
-* TEDEFO-3187
-fields.json with business entities information
-"In *fields.json,* add *information about business entities.* 
-This adds: 
-A *businessEntityId* key value pair in all fields 
-A *businessEntityId* key value pair in repeatable nodes 
-A new key called *businessEntities* above ""xmlStructure"", 
-the value is a JSON array ""[ ]"" of business entities objects 
-Assigning each existing field to a business_entity
+This version introduces business entities, which group fields into business concepts, and allow implementing features that were previously not practical to implement. A new section in `field.json`, named `businessEntities`, gives information on each business entity. References to business entities have been added for fields and nodes, and also in notice type definitions.
+More information will be available soon in the online documentation at <https://docs.ted.europa.eu>.
 
 ## Updated metadata content
 
