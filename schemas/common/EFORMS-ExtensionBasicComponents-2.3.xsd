@@ -38,6 +38,8 @@
 	<xsd:element name="ExtendedDurationIndicator" type="ExtendedDurationIndicatorType"/>
 	<xsd:element name="FieldIdentifierCode" type="FieldIdentifierCodeType"/>
 	<xsd:element name="FinancingIdentifier" type="FinancingIdentifierType"/>
+	<xsd:element name="ForeignSubsidiesMeasuresCode" type="ForeignSubsidiesMeasuresCodeType"/>
+	<xsd:element name="ForeignSubsidiesMeasuresDescription" type="ForeignSubsidiesMeasuresDescriptionType"/>
 	<xsd:element name="FrameworkMaximumAmount" type="FrameworkMaximumAmountType"/>
 	<xsd:element name="GazetteID" type="GazetteIDType"/>
 	<xsd:element name="GroupType" type="GroupTypeType"/>
@@ -225,6 +227,16 @@
 	<xsd:complexType name="FinancingIdentifierType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:IdentifierType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ForeignSubsidiesMeasuresCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ForeignSubsidiesMeasuresDescriptionType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:TextType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="FrameworkMaximumAmountType">

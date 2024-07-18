@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Dutch. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Informatie over herhaling</entry>
 <entry key="group|name|GR-Business-Address">Adres</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
 <entry key="group|name|GR-Business-Party">Zakelijke partij</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Voorwaarden van de veiling</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Gevolgen van de gunning</entry>
 <entry key="group|name|GR-Lot-Candidates">Gegadigden</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Vereisten voor de uitvoering van het contract</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Vernieuwingen en opties</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Systeem voor het sluiten van contracten</entry>
 <entry key="group|name|GR-Lot-Deadline">Termijnen voor evaluatie</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Bemiddelingsorganisatie</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Plaats van uitvoering</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Geraamde looptijd</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Looptijd</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Periode</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Procedure na gunning</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Eerdere aankondiging geplande opdracht</entry>
 <entry key="group|name|GR-Lot-Procedure">Procedure</entry>
@@ -62,9 +58,9 @@
 <entry key="group|name|GR-Lot-Purpose">Doel</entry>
 <entry key="group|name|GR-Lot-QualityTarget">Kwaliteitsdoelstellingen</entry>
 <entry key="group|name|GR-Lot-Requirements2SecurityClearance1">Vereisten</entry>
-<entry key="group|name|GR-Lot-Review">Evaluatie</entry>
-<entry key="group|name|GR-Lot-ReviewInfo">Organisatie die informatie verstrekt over de evaluatie</entry>
-<entry key="group|name|GR-Lot-ReviewOrg">Organisatie die de evaluatie uitvoert</entry>
+<entry key="group|name|GR-Lot-Review">Beroep</entry>
+<entry key="group|name|GR-Lot-ReviewInfo">Organisatie die informatie verstrekt over de beroepsprocedure</entry>
+<entry key="group|name|GR-Lot-ReviewOrg">Organisatie voor beroepsprocedures</entry>
 <entry key="group|name|GR-Lot-Scope">Toepassingsgebied van de aanbesteding</entry>
 <entry key="group|name|GR-Lot-Scope-AdditionalClassification">Aanvullende classificatie</entry>
 <entry key="group|name|GR-Lot-Scope-MainClassification">Classificatie</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parameters gunningscriteria</entry>
 <entry key="group|name|GR-LotsGroup-Description">Beschrijving van de groep percelen</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informatie over raamovereenkomst</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Percelen die deel uitmaken van de groep percelen</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Doel</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Toepassingsgebied van de aanbesteding</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Voorwaarden voor inschrijving</entry>
 <entry key="group|name|GR-Metadata">Metagegevens</entry>
 <entry key="group|name|GR-Modification">Wijziging opdracht</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Afdeling waarop de wijziging van toepassing is</entry>
 <entry key="group|name|GR-Nda">Geheimhoudingsovereenkomst</entry>
 <entry key="group|name|GR-NoticeResult-Section">Resultaat</entry>
 <entry key="group|name|GR-Organisations">In de aankondiging genoemde organisaties</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Beschrijving</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Onderhandse gunning</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Uitsluitingsgronden</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Verwijzing naar plaatselijk recht</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Andere rechtsgrondslag zonder identificatiecode</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Andere rechtsgrondslag met een identificatiecode</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Rechtsgrondslag</entry>
@@ -181,20 +174,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Grensoverschrijdend recht (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Type procedure (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Type procedure (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Versnelde procedure (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Geraamde waarde van raamovereenkomst (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Geraamde waarde van raamovereenkomst (later gepubliceerd)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Maximumwaarde van de raamovereenkomsten in deze procedure (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">ID van de eerdere procedure die onderhandse gunning rechtvaardigt (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID van de eerdere procedure die onderhandse gunning rechtvaardigt (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Beschrijving van onderhandse gunning (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Beschrijving van onderhandse gunning (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Rechtvaardiging voor versnelde procedure (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Rechtvaardiging voor onderhandse gunning (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Selectiestatus winnaar (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Selectiestatus winnaar (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">De reden waarom geen winnaar is gekozen (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">De reden waarom geen winnaar is gekozen (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Geraamde waarde van de raamovereenkomsten in de groep percelen (later gepubliceerd)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maximumwaarde van de raamovereenkomsten in deze groep percelen (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Geraamde inkomsten afkomstig van de koper die de concessie verleende (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Waarde van alle in het kader van deze procedure gegunde opdrachten (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Geraamde inkomsten afkomstig van de gebruikers van de concessie (later gepubliceerd)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Beschrijving (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Beschrijving (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Beschrijving (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Nummer gunningscriterium (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Nummer gunningscriterium (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Nummer gunningscriterium (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Getal is van het type gewicht (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Getal is van het type gewicht (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Getal is van het type gewicht (later gepubliceerd)</entry>
@@ -250,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Versnelde procedure</entry>
 <entry key="group|name|ND-AccessibilityJustification">Rechtvaardiging voor de afwezigheid van toegankelijkheidscriteria</entry>
 <entry key="group|name|ND-Asset">Activa die contractverlenging rechtvaardigen</entry>
+<entry key="group|name|ND-AuctionTerms">Voorwaarden van de veiling</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jurylid</entry>
 <entry key="group|name|ND-BusinessCapability">Bedrijfsactiviteit</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Aanvragen voor beroep</entry>
@@ -272,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Uitsluitingsgronden</entry>
 <entry key="group|name|ND-ExecutionRequirements">Voorwaarden van uitvoering</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Contractverlenging</entry>
+<entry key="group|name|ND-FSR">Toepasselijkheid van de Verordening inzake buitenlandse subsidies</entry>
 <entry key="group|name|ND-FinancingParty">Financieringsorganisatie</entry>
 <entry key="group|name|ND-Funding">EU-fondsen</entry>
 <entry key="group|name|ND-GazetteReference">Verwijzing naar de publicatie</entry>
@@ -294,9 +284,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Gunningscriterium perceel numerieke waarde complex (later gepubliceerd)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Gunningscriterium perceel is een vaste numerieke waarde (later gepubliceerd)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Gunningscriterium perceel is een drempelwaarde (later gepubliceerd)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Gunningscriterium perceel numerieke waarde (later gepubliceerd)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Gunningscriterium perceel gewicht (later gepubliceerd)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Parameter gunningscriterium</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Parameters gunningscriteria</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Drempelwaardecriterium (later gepubliceerd)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Gunningscriterium perceel type (later gepubliceerd)</entry>
@@ -342,9 +330,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Groep percelen gunningscriteria numerieke waarde complex (later gepubliceerd)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Groep percelen gunningscriterium is een vaste numerieke waarde (later gepubliceerd)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Groep percelen gunningscriteria is een drempelwaarde (later gepubliceerd)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Groep percelen gunningscriterium numerieke waarde (later gepubliceerd)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Groep percelen gunningscriteria numerieke waarde gewicht (later gepubliceerd)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parameter gunningscriterium</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parameters gunningscriterium</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Drempelwaardecriterium (later gepubliceerd)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Groep percelen gunningscriterium type (later gepubliceerd)</entry>
@@ -363,7 +349,6 @@
 <entry key="group|name|ND-NoticeResult">Resultaat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximumwaarde van groep percelen</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Aankondiging waarde (later gepubliceerd)</entry>
-<entry key="group|name|ND-OptionsDescription">Beschrijving van opties</entry>
 <entry key="group|name|ND-Organization">In de aankondiging genoemde organisaties</entry>
 <entry key="group|name|ND-OrganizationUboReference">Uiteindelijke begunstigde eigenaar</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Andere voorwaarden dan toewijzing van inkomsten</entry>

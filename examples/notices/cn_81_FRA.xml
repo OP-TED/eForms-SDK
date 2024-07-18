@@ -69,7 +69,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">866bf88e-f381-45c8-a085-43a6148d0ab7</cbc:ID>
 	<cbc:ContractFolderID>82c626cc-83e1-4644-9cf1-6ed82b3e3dbc</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-08+01:00</cbc:IssueDate>
@@ -103,8 +103,18 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID schemeName="InternalID">700029324</cbc:ID>
@@ -142,7 +152,7 @@
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
 								<!--Financial-->
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="FRA">
 									Les entreprises candidates doivent fournir à l’appui de leur candidature un dossier de présentation du candidat, et le cas échéant de chaque co-traitant, comprenant entre autres:
 									— les caractéristiques de l’entreprise: statuts, forme juridique, composition du capital, principaux actionnaires, participations, représentants engageant l’entreprise, effectif total, dimensions, activités, organigramme;
@@ -154,11 +164,10 @@
 									Si le candidat recourt à la sous-traitance, il doit produire les mêmes renseignements et documents concernant son/ses sous-traitants. En outre, pour justifier qu’il dispose des capacités de ce(s) sous-traitant(s) pour l’exécution du marché, il apporte la preuve par tout moyen approprié.
 									La sous-traitance totale est interdite.
 								</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<!--technical-->
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="FRA">
 									La sélection des candidats se fera sur les critères techniques suivants:
 									— maîtrise de l’assistance à maîtrise d’œuvre en suivi de réalisation d’installations tertiaires;
@@ -187,11 +196,10 @@
 									2.16) Maîtrise du logiciel AutocAD, version 2016 ou supérieure, nécessaire pour la vérification, la création et la mise à jour de plans techniques.
 									Si le candidat recourt à la sous-traitance, il doit produire les mêmes renseignements et documents concernant ce sous-traitant. En outre, pour justifier qu’il dispose des capacités de ce(s) sous-traitant(s) pour l’exécution du marché, il apporte la preuve par tout moyen approprié.
 								</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
 								<!--Professional-->
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="FRA">
 									Le CEA procédera à l'analyse et à la sélection des candidatures conformément aux critères suivants:
 									— conformité administrative;
@@ -212,7 +220,6 @@
 									Le recours à la sous-traitance sera effectué dans le cadre des dispositions du code de la commande publique et des dispositions applicables aux marchés publics de défense ou de sécurité. 
 									Le formulaire DC4 est à compléter pour chaque demande d’acceptation de sous-traitant.
 								</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:TenderSubcontractingRequirements>
 								<efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">shar-subc</efbc:TenderSubcontractingRequirementsCode>
@@ -239,6 +246,11 @@
 				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="FRA">En cas de groupement, ce dernier doit revêtir la forme d’un Groupement momentané d’entreprises (GME) solidaire ou à défaut d’un GME conjoint. 
 En tout état de cause, le mandataire doit être solidaire de tous les membres du groupement.</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:AllowedSubcontractTerms>
 				<cbc:SubcontractingConditionsCode listName="subcontracting-obligation">subc-chng</cbc:SubcontractingConditionsCode>

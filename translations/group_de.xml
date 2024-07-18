@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in German. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Informationen zur Wiederholung</entry>
 <entry key="group|name|GR-Business-Address">Anschrift</entry>
 <entry key="group|name|GR-Business-Contact">Kontakt</entry>
 <entry key="group|name|GR-Business-Party">Geschäftspartei</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Bedingungen der Auktion</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Folgen der Vergabe</entry>
 <entry key="group|name|GR-Lot-Candidates">Bewerber</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Anforderungen an die Auftragsausführung</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Verlängerungen und Optionen</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Auftragsvergabeverfahren</entry>
 <entry key="group|name|GR-Lot-Deadline">Fristen für Nachprüfungsverfahren</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Schlichtungsstelle</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Erfüllungsort</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Geschätzte Laufzeit</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Laufzeit</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Zeitraum</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Verfahren nach der Vergabe</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Frühere Planung</entry>
 <entry key="group|name|GR-Lot-Procedure">Verfahren</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Zuschlagskriterien – Parameter</entry>
 <entry key="group|name|GR-LotsGroup-Description">Beschreibung der Gruppe von Losen</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informationen über die Rahmenvereinbarung</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Lose, die in der Gruppe von Losen enthalten sind</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Zweck</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Umfang der Auftragsvergabe</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Bedingungen für die Einreichung eines Angebots</entry>
 <entry key="group|name|GR-Metadata">Metadaten</entry>
 <entry key="group|name|GR-Modification">Änderung</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Abschnitt, für den die Änderung gilt</entry>
 <entry key="group|name|GR-Nda">NGM</entry>
 <entry key="group|name|GR-NoticeResult-Section">Ergebnis</entry>
 <entry key="group|name|GR-Organisations">Organisationen, die in der Bekanntmachung genannt werden</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Beschreibung</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Direktvergabe</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Ausschlussgründe</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Verweis auf lokale Rechtsvorschriften</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Andere Rechtsgrundlage ohne Kennung</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Andere Rechtsgrundlage mit Kennung</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Rechtsgrundlage</entry>
@@ -181,20 +174,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Grenzübergreifende Rechtsvorschriften (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Art des Verfahrens (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Art des Verfahrens (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Beschleunigtes Verfahren (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Geschätzter Wert der Rahmenvereinbarung (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Geschätzter Wert der Rahmenvereinbarung (später veröffentlicht)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Höchstwert der Rahmenvereinbarungen in diesem Verfahren (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">ID des früheren Verfahrens zur Begründung der Direktvergabe (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID des früheren Verfahrens zur Begründung der Direktvergabe (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Beschreibung der Direktvergabe (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Beschreibung der Direktvergabe (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Begründung des beschleunigten Verfahrens (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Begründung der Direktvergabe (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Stand der Gewinnerauswahl (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Stand der Gewinnerauswahl (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Begründung, warum kein Gewinner ermittelt wurde (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Begründung, warum kein Gewinner ermittelt wurde (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Geschätzter Wert der Rahmenvereinbarungen in der Gruppe von Losen (später veröffentlicht)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Höchstwert der Rahmenvereinbarung innerhalb dieser Gruppe von Losen (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Geschätzte Einnahmen durch den Beschaffer, der Konzessionen gewährt hat (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Wert aller im Rahmen dieses Verfahrens vergebenen Aufträge (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Geschätzte Einnahmen durch die Nutzer von Konzessionen (später veröffentlicht)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Beschreibung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Beschreibung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Beschreibung (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Zuschlagskriterium — Zahl (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Zuschlagskriterium — Zahl (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Zuschlagskriterium — Zahl (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Bei der Zahl handelt sich um eine Gewichtung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Bei der Zahl handelt sich um eine Gewichtung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Bei der Zahl handelt sich um eine Gewichtung (später veröffentlicht)</entry>
@@ -250,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Beschleunigtes Verfahren</entry>
 <entry key="group|name|ND-AccessibilityJustification">Begründung für das Fehlen von Zugänglichkeitskriterien</entry>
 <entry key="group|name|ND-Asset">Assets, die eine Vertragsverlängerung rechtfertigen</entry>
+<entry key="group|name|ND-AuctionTerms">Bedingungen der Auktion</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jurymitglied</entry>
 <entry key="group|name|ND-BusinessCapability">Geschäftstätigkeit</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Anträge auf Nachprüfung</entry>
@@ -272,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Ausschlussgründe</entry>
 <entry key="group|name|ND-ExecutionRequirements">Leistungsbedingungen</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Vertragsverlängerung</entry>
+<entry key="group|name|ND-FSR">Anwendbarkeit der Verordnung zu ausländischen Subventionen</entry>
 <entry key="group|name|ND-FinancingParty">Finanzierungsorganisation</entry>
 <entry key="group|name|ND-Funding">EU-Fonds</entry>
 <entry key="group|name|ND-GazetteReference">Verweis auf die Veröffentlichung</entry>
@@ -294,9 +284,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Zuschlagskriterium des Loses – Zahl kompliziert (später veröffentlicht)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Zuschlagskriterium des Loses ist feste Zahl (später veröffentlicht)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Zuschlagskriterium des Loses, Zahl ist Schwellenwert (später veröffentlicht)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Zuschlagskriterium des Loses – Zahl (später veröffentlicht)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Zuschlagskriterium des Loses – Zahl, Gewichtung (später veröffentlicht)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Zuschlagskriterium – Parameter</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Zuschlagskriterien – Parameter</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Schwellenwertkriterium (später veröffentlicht)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Zuschlagskriterium des Loses – Typ (später veröffentlicht)</entry>
@@ -342,9 +330,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Zuschlagskriterium der Gruppe von Losen – Zahl kompliziert (später veröffentlicht)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Zuschlagskriterium der Gruppe von Losen ist feste Zahl (später veröffentlicht)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Zuschlagskriterium der Gruppe von Losen, Zahl ist Schwellenwert (später veröffentlicht)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Zuschlagskriterien der Gruppe von Losen – Zahl (später veröffentlicht)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Zuschlagskriterium der Gruppe von Losen – Zahl, Gewichtung (später veröffentlicht)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Zuschlagskriterium – Parameter</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Zuschlagskriterium – Parameter</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Schwellenwertkriterium (später veröffentlicht)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Zuschlagskriterien der Gruppe von Losen – Typ (später veröffentlicht)</entry>
@@ -363,7 +349,6 @@
 <entry key="group|name|ND-NoticeResult">Ergebnis</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Höchstwert der Gruppe von Losen</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Wert Bekanntmachung (später veröffentlicht)</entry>
-<entry key="group|name|ND-OptionsDescription">Beschreibung der Optionen</entry>
 <entry key="group|name|ND-Organization">Organisationen, die in der Bekanntmachung genannt werden</entry>
 <entry key="group|name|ND-OrganizationUboReference">Letztendlicher wirtschaftlicher Eigentümer</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Andere Bedingungen als die Zuteilung der Einnahmen</entry>

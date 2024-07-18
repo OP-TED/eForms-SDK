@@ -129,7 +129,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">76c82dad-10b1-4e6a-9326-9312b4bf9baf</cbc:ID>
 	<cbc:ContractFolderID>1adea6cf-8780-4298-a915-55f6796bf847</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-25+01:00</cbc:IssueDate>
@@ -157,6 +157,13 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:Description languageID="ENG">Procedure involving negotiations</cbc:Description>
 		<cbc:ProcedureCode listName="procurement-procedure-type">oth-single</cbc:ProcedureCode>
@@ -198,30 +205,6 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">Qualification Stage (Pass/Fail):
-									Assessment of suitability and selection of Bidder’s response via ESPD (Scotland).</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:Description languageID="ENG">As stated in the procurement documents.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cac:RequiredFinancialGuarantee>
 				<cbc:GuaranteeTypeCode listName="tender-guarantee-required">true</cbc:GuaranteeTypeCode>
 				<cbc:Description languageID="ENG">It is a requirement of this contract that bidders hold, or can commit to obtain prior to the commencement of any subsequently awarded contract, the types and levels of insurance indicated below: — employers’ liability (compulsory insurance): to a minimum indemnity limit of 5 000 000 GBP , — public liability insurance including treatment risk and/or administration of medicines: minimum 20 000 000 GBP in respect of any one. Incident: — medical malpractice insurance: minimum of 10 000 000 GBP in respect of any 1 incident and in the aggregate, — motor vehicle insurance: minimum of 5 000 000 GBP in respect of any 1 incident in respect of third party liability, — professional indemnity insurance: minimum of 2 000 000 GBP in respect of any 1 incident or in the aggregate and where in the aggregate a minimum of 1 automatic reinstatement of the sum insured to apply in any 1 period.</cbc:Description>
@@ -234,6 +217,16 @@
 			<cac:TendererQualificationRequest>
 				<cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
 				<cbc:CompanyLegalForm languageID="ENG">Scotland Excel will require the members of any tendering group of entities (including, but not limited to, consortium members, members of a group of economic operators and/or sub-contractors) to be jointly and severally liable for the performance of the contract (no matter the legal form taken by those entities in order to enter into the contract). Consortium information may be disclosed in accordance with the Regulations. The anticipated value is estimated and may be subject to change. Bidders should note there is no guarantee of any business, use, level of use or continuity of business through the contract.</cbc:CompanyLegalForm>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
 				<cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>

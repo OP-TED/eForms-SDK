@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Lithuanian. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Informacija apie pasikartojimą</entry>
 <entry key="group|name|GR-Business-Address">Adresas</entry>
 <entry key="group|name|GR-Business-Contact">Kontaktiniai duomenys</entry>
 <entry key="group|name|GR-Business-Party">Verslo subjektas</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Aukciono sąlygos</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Skyrimo pasekmės</entry>
 <entry key="group|name|GR-Lot-Candidates">Kandidatai</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Sutarties vykdymo reikalavimai</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Pratęsimai ir galimybės</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Sutarčių sudarymo sistema</entry>
 <entry key="group|name|GR-Lot-Deadline">Peržiūros terminai</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Tarpininkavimo organizacija</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Sutarties vykdymo vieta</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Numatomas galiojimas</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Galiojimas</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Laikotarpis</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Procesas po sutarties skyrimo</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Anksčiau planuotas pirkimas</entry>
 <entry key="group|name|GR-Lot-Procedure">Procedūra</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Skyrimo kriterijų parametrai</entry>
 <entry key="group|name|GR-LotsGroup-Description">Pirkimo dalių grupės aprašymas</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informacija apie preliminariąją sutartį</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Pirkimo dalių grupei priklausančios pirkimo dalys</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Tikslas</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Pirkimo taikymo sritis</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Pirkimų procedūros sąlygos</entry>
 <entry key="group|name|GR-Metadata">Metaduomenys</entry>
 <entry key="group|name|GR-Modification">Keitimas</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Skirsnis, kuriam taikomas pakeitimas</entry>
 <entry key="group|name|GR-Nda">Konfidencialumo susitarimas</entry>
 <entry key="group|name|GR-NoticeResult-Section">Rezultatai</entry>
 <entry key="group|name|GR-Organisations">Skelbime minimos organizacijos</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Aprašymas</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Tiesioginis sutarties skyrimas</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Pašalinimo pagrindai</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Nuoroda į vietos teisę</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Kitas teisinis pagrindas be identifikatoriaus</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Kitas teisinis pagrindas, turintis identifikatorių</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Teisinis pagrindas</entry>
@@ -181,20 +174,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Tarpvalstybiniu atveju taikytina teisė (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Procedūros rūšis (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Procedūros rūšis (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Pagreitinta procedūra (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Numatoma preliminariosios sutarties vertė (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Numatoma preliminariosios sutarties vertė (skelbiama vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Didžiausioji šios procedūros preliminariųjų sutarčių vertė (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Ankstesnės procedūros, kuria grindžiamas tiesioginis skyrimas, ID (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Ankstesnės procedūros, kuria grindžiamas tiesioginis skyrimas, ID (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Tiesioginio skyrimo aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Tiesioginio skyrimo aprašymas (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Pagreitintos procedūros taikymo pagrindimas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Tiesioginio skyrimo pagrindimas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Laimėtojo atrankos būsena (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Laimėtojo atrankos būsena (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Priežastis, dėl kurios nebuvo išrinktas laimėtojas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Priežastis, dėl kurios nebuvo išrinktas laimėtojas (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Pirkimo dalių grupės numatoma vertė pagal preliminariąsias sutartis (skelbiama vėliau)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Šios pirkimo dalių grupės didžiausioji vertė pagal preliminariąsias sutartis (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Numatomos pajamos iš koncesiją suteikusio pirkėjo (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Bendra visų pagal šią procedūrą skiriamų sutarčių vertė (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Numatomos pajamos iš koncesijos vartotojų (skelbiama vėliau)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Aprašymas (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Skyrimo kriterijus: skaičius (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Skyrimo kriterijus: skaičius (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Skyrimo kriterijus: skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Skaičius yra tam tikras lyginamasis svoris (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Skaičius yra tam tikras lyginamasis svoris (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Skaičius yra tam tikras lyginamasis svoris (skelbiama vėliau)</entry>
@@ -250,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Pagreitinta procedūra</entry>
 <entry key="group|name|ND-AccessibilityJustification">Prieinamumo kriterijų nebuvimo pagrindimas</entry>
 <entry key="group|name|ND-Asset">Turtas, pateisinantis sutarties pratęsimą</entry>
+<entry key="group|name|ND-AuctionTerms">Aukciono sąlygos</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Teisės narys</entry>
 <entry key="group|name|ND-BusinessCapability">Verslo veikla</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Peržiūros prašymai</entry>
@@ -272,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Pašalinimo pagrindai</entry>
 <entry key="group|name|ND-ExecutionRequirements">Vykdymo sąlygos</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Sutarties pratęsimas</entry>
+<entry key="group|name|ND-FSR">Užsienio subsidijų reglamento taikymas</entry>
 <entry key="group|name|ND-FinancingParty">Finansavimo organizacija</entry>
 <entry key="group|name|ND-Funding">ES fondai</entry>
 <entry key="group|name|ND-GazetteReference">Nuoroda į publikaciją</entry>
@@ -294,9 +284,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Pirkimo dalis: skyrimo kriterijus: sudėtingas skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Pirkimo dalies sutarties skyrimo kriterijus yra fiksuotasis skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Pirkimo dalies sutarties skyrimo kriterijaus skaičius yra vertės riba (skelbiama vėliau)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Pirkimo dalis: skyrimo kriterijus: skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Pirkimo dalis: skyrimo kriterijus: skaičius: lyginamasis svoris (skelbiama vėliau)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Skyrimo kriterijaus parametras</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Skyrimo kriterijų parametrai</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Ribinės vertės kriterijus (paskelbtas vėliau)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Pirkimo dalis: skyrimo kriterijus: rūšis (skelbiama vėliau)</entry>
@@ -342,9 +330,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Pirkimo dalių grupė: skyrimo kriterijus: sudėtingas skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Pirkimo dalių grupės sutarties skyrimo kriterijus yra fiksuotasis skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Pirkimo dalių grupės sutarties skyrimo kriterijaus skaičius yra vertės riba (skelbiama vėliau)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Pirkimo dalių grupė: skyrimo kriterijus: skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Pirkimo dalių grupė: skyrimo kriterijus: lyginamasis svoris (skelbiama vėliau)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Skyrimo kriterijaus parametras</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Skyrimo kriterijaus parametrai</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Ribinės vertės kriterijus (paskelbtas vėliau)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Pirkimo dalių grupė: skyrimo kriterijus: rūšis (skelbiama vėliau)</entry>
@@ -363,7 +349,6 @@
 <entry key="group|name|ND-NoticeResult">Rezultatai</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Didžiausioji pirkimo dalių grupės vertė</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Skelbimo vertė (skelbiama vėliau)</entry>
-<entry key="group|name|ND-OptionsDescription">Pasirinkimo galimybių aprašymas</entry>
 <entry key="group|name|ND-Organization">Skelbime minimos organizacijos</entry>
 <entry key="group|name|ND-OrganizationUboReference">Galutinis naudos gavėjas</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Kitos sąlygos, išskyrus pajamų paskirstymą</entry>

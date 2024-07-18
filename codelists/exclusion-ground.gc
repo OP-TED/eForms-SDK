@@ -1,0 +1,2203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>ExclusionGround</ShortName>
+      <LongName>exclusion-ground</LongName>
+      <Version>1.0</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-corrpt</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Corruption</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Корупция</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Korupce</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Korruption</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Korruption</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Διαφθορά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Corruption</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Corrupción</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Korruptsioon</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Korruptio</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Corruption</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Éilliú</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Korupcija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Korrupció</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Corruzione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Korupcija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Korupcija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-korruzzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Corruptie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Korupcja</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Corrupção</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Corupție</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Korupcia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Korupcija</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Korruption</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-fraud</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Fraud</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Измами</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Podvody</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Svig</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Betrugsbekämpfung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απάτη</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Fraud</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Fraude</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pettus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Petos</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Fraude</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Calaois</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prijevara</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csalás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Frode</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sukčiavimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Krāpšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Frodi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Fraude</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nadużycia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Fraude</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Frauda</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Podvod</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Goljufije</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Bedrägerier</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-laund</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Изпиране на пари или финансиране на тероризма</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Praní peněz nebo financování terorismu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Hvidvaskning af penge eller finansiering af terrorisme</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Geldwäsche oder Terrorismusfinanzierung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Νομιμοποίηση εσόδων από παράνομες δραστηριότητες ή χρηματοδότηση της τρομοκρατίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Money laundering or terrorist financing</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Blanqueo de capitales o financiación del terrorismo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rahapesu või terrorismi rahastamine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rahanpesu tai terrorismin rahoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Blanchiment de capitaux ou financement du terrorisme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sciúradh airgid nó maoiniú na sceimhlitheoireachta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pranje novca ili financiranje terorizma</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Pénzmosás vagy terrorizmus finanszírozása</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Riciclaggio di proventi di attività criminose o finanziamento del terrorismo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pinigų plovimas arba teroristų finansavimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nelikumīgi iegūtu līdzekļu legalizēšana vai teroristu finansēšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ħasil tal-flus jew finanzjament tat-terroriżmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Witwassen van geld of financiering van terrorisme</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Pranie pieniędzy lub finansowanie terroryzmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Branqueamento de capitais ou financiamento do terrorismo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Combaterea spălării banilor sau a finanțării terorismului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Pranie špinavých peňazí alebo financovanie terorizmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Pranje denarja ali financiranje terorizma</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Penningtvätt eller finansiering av terrorism</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-part</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Участие в престъпна организация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Účast na zločinném spolčení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Deltagelse i en kriminel organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Beteiligung an einer kriminellen Vereinigung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Συμμετοχή σε εγκληματική οργάνωση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Participation in a criminal organisation</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Participación en una organización delictiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kuritegelikus ühenduses osalemine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rikollisjärjestön toimintaan osallistuminen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Participation à une organisation criminelle</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rannpháirtíocht in eagraíocht choiriúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sudjelovanje u zločinačkoj organizaciji</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bűnszervezetben való részvétel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Partecipazione a un'organizzazione criminale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Dalyvavimas nusikalstamoje organizacijoje</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Dalība noziedzīgā organizācijā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Parteċipazzjoni f’organizzazzjoni kriminali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Deelname aan een criminele organisatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Udział w organizacji przestępczej</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Participação numa organização criminosa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Participarea la o organizație criminală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Účasť v zločineckej organizácii</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sodelovanje v hudodelski združbi</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Deltagande i en kriminell organisation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-terror</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Терористични престъпления или престъпления, които са свързани с терористични дейности</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Teroristické trestné činy nebo trestné činy spojené s teroristickými činnostmi</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Terrorhandlinger eller strafbare handlinger med forbindelse til terroraktivitet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Terroristische Straftaten oder Straftaten im Zusammenhang mit terroristischen Aktivitäten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τρομοκρατικά εγκλήματα ή εγκλήματα συνδεόμενα με τρομοκρατικές δραστηριότητες</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Terrorist offences or offences linked to terrorist activities</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Delitos de terrorismo o delitos ligados a las actividades terroristas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Terroriakti toimepanek või terroristliku tegevusega seotud õigusrikkumised</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Terrorismirikokset tai terroritoimintaan liittyvät rikokset</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Infractions terroristes ou infractions liées aux activités terroristes</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cionta sceimhlitheoireachta nó cionta a bhaineann le gníomhaíochtaí sceimhlitheoireachta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kaznena djela terorizma ili kaznena djela povezana s terorističkim aktivnostima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Terrorista bűncselekmény vagy terrorista tevékenységekkel összefüggő bűncselekmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Reati terroristici o reati connessi alle attività terroristiche</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Teroristiniai nusikaltimai arba su teroristine veikla susiję nusikaltimai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Teroristu nodarījumi vai nodarījumi, kas saistīti ar teroristu darbībām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Reati terroristiċi jew reati marbuta ma’ attivitajiet terroristiċi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Terroristische misdrijven of strafbare feiten in verband met terroristische activiteiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przestępstwa terrorystyczne lub przestępstwa związane z działalnością terrorystyczną</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Infrações terroristas ou infrações relacionadas com atividades terroristas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Infracțiuni teroriste sau infracțiuni legate de activități teroriste</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Teroristické trestné činy alebo trestné činy spojené s teroristickými činnosťami</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Teroristična kazniva dejanja ali kazniva dejanja, povezana s terorističnimi dejavnostmi</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Terroristbrott eller brott med anknytning till terroristverksamhet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim-traffick</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Child labour and including other forms of trafficking in human beings</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Детски труд и други форми на трафик на хора</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dětská práce a jiné formy obchodování s lidmi</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Børnearbejde og andre former for menneskehandel</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kinderarbeit und andere Formen des Menschenhandels</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παιδική εργασία και άλλες μορφές εμπορίας ανθρώπων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Child labour and other forms of trafficking in human beings</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Trabajo infantil y otras formas de trata de seres humanos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Laste tööjõu kasutamine ja muud inimkaubanduse vormid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lapsityövoima ja muut ihmiskaupan muodot</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Travail des enfants et autres formes de traite des êtres humains</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fostú páistí agus cineálacha eile gáinneála ar dhaoine</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dječji rad i drugi oblici trgovanja ljudima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Gyermekmunka és az emberkereskedelem más formái</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lavoro minorile e altre forme di tratta di esseri umani</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vaikų darbas ir kitos prekybos žmonėmis formos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Bērnu darbs un citi cilvēku tirdzniecības veidi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tħaddim tat-tfal u forom oħra ta’ traffikar tal-bnedmin</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Kinderarbeid en andere vormen van mensenhandel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Praca dzieci i inne formy handlu ludźmi</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Trabalho infantil e outras formas de tráfico de seres humanos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Munca copiilor și alte forme de trafic de persoane</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Detská práca a iné formy obchodovania s ľuďmi</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Delo otrok in druge oblike trgovine z ljudmi</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Barnarbete och andra former av människohandel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-bre-env-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нарушение на задължения в областта на екологичното право</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Porušení povinností vyplývajících z právních předpisů o ochraně životního prostředí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilsidesættelse af forpligtelser på miljølovgivningsområdet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verstoß gegen umweltrechtliche Verpflichtungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παράβαση υποχρεώσεων στους τομείς του περιβαλλοντικού δικαίου</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of environmental law</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Incumplimiento de obligaciones en materia de Derecho medioambiental</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskkonnaõiguse valdkonnas kohaldatavate kohustuste täitmata jätmine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ympäristölainsäädännön mukaisten velvoitteiden rikkominen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Manquement aux obligations dans le domaine du droit environnemental</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sárú oibleagáidí i réimsí an dlí comhshaoil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kršenje obveza u području prava o okolišu</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Környezetvédelmi jogszabályokban előírt kötelezettségek megszegése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Violazione di obblighi in materia di diritto ambientale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pareigų aplinkos teisės srityje pažeidimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pienākumu neizpilde vides tiesību jomā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ksur tal-obbligi fl-oqsma tal-liġi ambjentali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet-nakoming van verplichtingen op het gebied van milieurecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Naruszenie obowiązków w dziedzinie prawa ochrony środowiska</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Violação das obrigações no domínio da legislação ambiental</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Încălcarea obligațiilor în domeniile legislației de mediu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Porušenie povinností v oblasti environmentálneho práva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kršitev obveznosti na področju okoljskega prava</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Åsidosättande av skyldigheter enligt miljölagstiftningen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-bre-lab-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нарушение на задължения в областта на трудовото право</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Porušení povinností vyplývajících z pracovněprávních předpisů</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilsidesættelse af forpligtelser på det arbejdsretlige område</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verstoß gegen arbeitsrechtliche Verpflichtungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παράβαση υποχρεώσεων στους τομείς του εργατικού δικαίου</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of labour law</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Incumplimiento de obligaciones en materia de Derecho laboral</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tööõiguse valdkonnas kohaldatavate kohustuste täitmata jätmine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Työlainsäädännön mukaisten velvoitteiden rikkominen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Manquement aux obligations dans le domaine du droit du travail</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sárú oibleagáidí i réimsí an dlí saothair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kršenje obveza u području radnog prava</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Munkajogi kötelezettségek megszegése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Violazione degli obblighi in materia di diritto del lavoro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pareigų darbo teisės srityje pažeidimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pienākumu neizpilde darba tiesību jomā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ksur tal-obbligi fl-oqsma tal-liġi tax-xogħol</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet-nakoming van verplichtingen op het gebied van arbeidsrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Naruszenie obowiązków w dziedzinie prawa pracy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Violação das obrigações no domínio da legislação laboral</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Încălcarea obligațiilor în domeniile legislației muncii</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Porušenie povinností v oblasti pracovného práva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kršitev obveznosti na področju delovnega prava</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Åsidosättande av skyldigheter enligt arbetsrätten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-bre-soc-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нарушение на задължения в областта на социалното право</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Porušení povinností vyplývajících ze sociálněprávních předpisů</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilsidesættelse af forpligtelser på sociallovgivningsområdet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verstoß gegen sozialrechtliche Verpflichtungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παράβαση υποχρεώσεων στους τομείς του κοινωνικού δικαίου</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations in the fields of social law</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Incumplimiento de obligaciones en materia de Derecho social</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sotsiaalõiguse valdkonnas kohaldatavate kohustuste täitmata jätmine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sosiaalilainsäädännön mukaisten velvoitteiden rikkominen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Manquement aux obligations dans le domaine du droit social</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sárú oibleagáidí i réimsí an dlí shóisialta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kršenje obveza u području socijalnog prava</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szociális jogszabályokban előírt kötelezettségek megszegése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Violazione degli obblighi in materia di diritto sociale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pareigų socialinės teisės srityje pažeidimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pienākumu neizpilde sociālo tiesību jomā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ksur tal-obbligi fl-oqsma tal-liġi soċjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Niet-nakoming van verplichtingen op het gebied van sociaal recht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Naruszenie obowiązków w dziedzinie prawa socjalnego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Violação das obrigações no domínio da legislação social</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Încălcarea obligațiilor în domeniile legislației sociale</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Porušenie povinností v oblasti sociálneho práva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kršitev obveznosti na področju socialnega prava</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Åsidosättande av skyldigheter enligt sociallagstiftningen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-distortion</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Споразумения с други икономически оператори за нарушаване на конкуренцията</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dohody s jinými hospodářskými subjekty, jejichž cílem je narušení hospodářské soutěže</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Aftaler med andre økonomiske aktører med henblik på konkurrencefordrejning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vereinbarungen mit anderen Wirtschaftsteilnehmern zur Verzerrung des Wettbewerbs</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Συμφωνίες με άλλους οικονομικούς φορείς με στόχο τη στρέβλωση του ανταγωνισμού</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Agreements with other economic operators aimed at distorting competition</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Acuerdos con otros operadores económicos destinados a falsear la competencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Konkurentsi moonutamise eesmärgil teiste ettevõtjatega sõlmitud kokkulepped</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Toisten talouden toimijoiden kanssa kilpailun vääristämiseksi tehdyt sopimukset</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Accords avec d’autres opérateurs économiques en vue de fausser la concurrence</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Comhaontuithe le hoibreoirí eacnamaíocha eile arb é is aidhm dóibh an iomaíocht a shaobhadh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sporazumi s drugim gospodarskim subjektima u cilju narušavanja tržišnog natjecanja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A verseny torzítását célzó megállapodás más gazdasági szereplőkkel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Accordi con altri operatori economici intesi a falsare la concorrenza</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Su kitais ekonominės veiklos vykdytojais sudaryti susitarimai, kuriais siekta iškraipyti konkurenciją</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nolīgumi ar citiem ekonomikas dalībniekiem, kuru mērķis ir izkropļot konkurenci</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ftehimiet ma’ operaturi ekonomiċi oħrajn li għandhom l-għan li jikkawżaw distorsjoni tal-kompetizzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vervalsing van de mededinging</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Porozumienia z innymi wykonawcami mające na celu zakłócenie konkurencji</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Acordos com outros operadores económicos com o objetivo de distorcer a concorrência</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Acorduri cu alți operatori economici care vizează denaturarea concurenței</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dohody s inými hospodárskymi subjektmi s cieľom narušiť hospodársku súťaž</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dogovori z drugimi gospodarskimi subjekti z namenom izkrivljanja konkurence</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Avtal med andra ekonomiska aktörer med syfte att snedvrida konkurrensen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-misconduct</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Grave professional misconduct</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Тежко професионално простъпничество</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Závažné profesní pochybení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Alvorlig professionel forseelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Schweres berufliches Fehlverhalten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σοβαρή επαγγελματική ανεπαρκή συμπεριφορά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Grave professional misconduct</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Mala conducta profesional grave</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tõsine kutsealane väärkäitumine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vakava ammatillinen väärinkäytös</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Faute professionnelle grave</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Drochiompar gairmiúil tromchúiseach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Teško profesionalno nesavjesno ponašanje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Súlyos szakmai hanyagság</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Grave comportamento professionale scorretto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sunkus profesinis nusižengimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Smutīgs profesionāls pārkāpums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Mikkundotta professjonali gravi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ernstig professioneel wangedrag</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ciężkie niewłaściwe postępowanie zawodowe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Grave má conduta profissional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Abateri profesionale grave</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Vážne profesionálne pochybenie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Huda profesionalna nesposobnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Allvarligt yrkesmässigt felbeteende</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-misrepresent</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Е виновен за погрешно представяне на информация, не е в състояние да представи необходимите документи и е получил поверителна информация във връзка с тази процедура</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dopustil se zkreslení informací, odepřel informace, nemohl poskytnout požadované dokumenty a obdržel důvěrné informace o tomto postupu.</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Har afgivet urigtige oplysninger eller tilbageholdt oplysninger, som ikke var i stand til at fremlægge de krævede dokumenter og indhentet fortrolige oplysninger i forbindelse med denne procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Falsche Angaben, verweigerte Informationen, die nicht in der Lage sind, die erforderlichen Unterlagen vorzulegen, und haben vertrauliche Informationen über dieses Verfahren erhalten.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ένοχος για διαστρέβλωση, απόκρυψη πληροφοριών, αδυναμία προσκόμισης των απαιτούμενων εγγράφων και απόκτηση εμπιστευτικών πληροφοριών για τη διαδικασία αυτή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Guilty of misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Que haya incurrido en falsas declaraciones, le haya ocultado información, no esté en condiciones de facilitar los documentos necesarios y haya obtenido información confidencial sobre este procedimiento</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Valeandmete esitamine, teabe varjamine, ei suuda esitada nõutavaid dokumente ja on saanud selle menetluse kohta konfidentsiaalset teavet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Syyllistyminen väärien tietojen antamiseen, tietojen antamatta jättämiseen, vaadittujen asiakirjojen antamiseen kykenemättömien tietojen toimittamiseen ja tätä menettelyä koskevien luottamuksellisten tietojen antamiseen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Coupable de fausses déclarations, non-communication, n’a pas été en mesure de fournir les documents requis et a obtenu des informations confidentielles de la présente procédure</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ciontach i mífhaisnéis, i bhfaisnéis siar, gan a bheith in ann doiciméid riachtanacha a sholáthar agus faisnéis rúnda ar an nós imeachta sin a fháil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kriv za pogrešno prikazivanje, uskraćene informacije, nemogućnost dostavljanja traženih dokumenata i dobivanje povjerljivih informacija za taj postupak</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Hamis nyilatkozatot tettek, nem tudtak információt nyújtani, nem tudták benyújtani a kért dokumentumokat, és bizalmas információkat kaptak az eljárásról</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Colpevole di false dichiarazioni, non è stato in grado di fornire i documenti richiesti e ha ottenuto informazioni riservate relative a tale procedura.</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pripažinimas kaltu dėl klaidingos informacijos, negalintis pateikti reikalaujamų dokumentų ir gautas konfidencialios informacijos apie šią procedūrą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kļūdaina nepatiesas informācijas sniegšana, nespēja sniegt pieprasītos dokumentus un iegūta konfidenciāla informācija šajā procedūrā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ħatja ta’ rappreżentazzjoni ħażina, informazzjoni miżmuma li ma tistax tipprovdi dokumenti meħtieġa u informazzjoni kunfidenzjali ta’ din il-proċedura</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Die zich schuldig heeft gemaakt aan valse verklaringen, achterhouden van informatie, niet in staat is de vereiste documenten te verstrekken en heeft vertrouwelijke informatie over deze procedure verkregen.</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Winni wprowadzenia w błąd, zatajenia informacji, niemożności dostarczenia wymaganych dokumentów i uzyskania informacji poufnych w ramach tej procedury</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Culpados de falsas declarações, ocultando informações, incapazes de apresentar os documentos necessários e obtiveram informações confidenciais sobre este procedimento.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Au fost găsiți vinovați de fals în declarații, au divulgat informații, nu au putut furniza documentele necesare și au obținut informații confidențiale ale acestei proceduri</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nepravdivé informácie, neposkytnutie informácií, poskytnutie požadovaných dokumentov a získanie dôverných informácií o tomto postupe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kriv napačnega prikazovanja podatkov, informacij, ki jih ni bilo mogoče zagotoviti, zahtevanih dokumentov in pridobljenih zaupnih informacij v tem postopku</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Har lämnat felaktiga uppgifter, underlåtit att lämna de begärda handlingarna och har fått konfidentiell information om förfarandet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-off-cond</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Offence concerning its professional conduct in the domain of defence procurement</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Престъпление, свързано с професионалното му поведение в областта на оборудването за отбрана</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přestupek týkající se jeho profesního chování v oblasti obranných zakázek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forseelse vedrørende dets professionelle adfærd inden for forsvarsindkøb</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verstoß im Zusammenhang mit seinem beruflichen Verhalten im Bereich der Verteidigungsbeschaffung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παράπτωμα που αφορά την επαγγελματική του συμπεριφορά στον τομέα των αμυντικών προμηθειών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Offence concerning its professional conduct in the domain of defence procurement</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Delito relacionado con su conducta profesional en el ámbito de la contratación de defensa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Süütegu, mis puudutab tema kutsealast käitumist kaitsehankes</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rikos, joka liittyy sen ammatilliseen toimintaan puolustushankinnan alalla</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Infraction concernant sa conduite professionnelle dans le domaine des marchés de défense</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cion a bhaineann lena iompar gairmiúil sa réimse soláthairtí cosanta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prekršaj u vezi s njegovim profesionalnim ponašanjem u području obrambene nabave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Vétség a szakmai magatartásával kapcsolatban a védelmi beszerzés területén</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Reato relativo alla sua condotta professionale nel settore degli appalti di difesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nusižengimas, susijęs su jo profesiniu elgesiu gynybos pirkimų srityje</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Noziegums, kas saistīts ar tā profesionālo uzvedību aizsardzības iepirkumu jomā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Reat dwar il-kundotta professjonali tiegħu fid-dominju tal-provvista tad-difiża</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vergrijp betreffende zijn professioneel gedrag op het gebied van defensieaanbestedingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Przestępstwo dotyczące jego postępowania zawodowego w dziedzinie zamówień obronnych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Delito relativo à sua conduta profissional no domínio dos contratos de defesa</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Infracțiune legată de conduita sa profesională în domeniul achizițiilor de apărare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Trestný čin týkajúci sa jeho profesionálneho správania v oblasti obranných obstarávaní</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Prekršek, povezan z njegovim profesionalnim ravnanjem na področju obrambnih naročil</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Brott som rör dess yrkesbeteende inom försvarsupphandling</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-partic-confl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Конфликт на интереси, свързан с участието в процедурата за възлагане на обществена поръчка</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Střet zájmů související s účastí v zadávacím řízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Interessekonflikt som følge af deltagelse i udbudsproceduren</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Interessenkonflikt aufgrund seiner Teilnahme an dem Vergabeverfahren</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σύγκρουση συμφερόντων λόγω της συμμετοχής του στη διαδικασία σύναψης της σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Conflict of interest due to its participation in the procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Conflicto de intereses debido a su participación en el procedimiento de contratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankemenetluses osalemisega kaasnev huvide konflikt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Talouden toimijan hankintamenettelyyn osallistumisesta johtuvat eturistiriidat</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Conflit d’intérêt créé par sa participation à la procédure de passation de marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Coinbhleacht leasa mar gheall ar a rannpháirtíocht sa nós imeachta soláthair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sukob interesa koji proizlazi iz sudjelovanja u postupku javne nabave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A közbeszerzési eljárásban való részvételből fakadó összeférhetetlenség</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Conflitto di interessi legato alla partecipazione alla procedura di appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Interesų konfliktas dėl dalyvavimo pirkimo procedūroje</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Interešu konflikts saistībā ar tās dalību iepirkuma procedūrā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kunflitt ta’ interess minħabba l-parteċipazzjoni tiegħu fil-proċedura ta’ akkwist</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Belangenconflict als gevolg van deelneming aan de aanbestedingsprocedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Konflikt interesów spowodowany udziałem w postępowaniu o udzielenie zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Conflitos de interesses decorrentes da participação no procedimento de contratação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Conflict de interese care decurge din participarea la procedura de achiziții publice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Konflikt záujmov z dôvodu účasti na postupe obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nasprotje interesov zaradi njegovega sodelovanja v postopku oddaje javnega naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Intressekonflikt på grund av deltagande i upphandlingsförfarandet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-prep-confl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Пряко или косвено участие в подготовката на процедурата за възлагане на обществена поръчка</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Přímý nebo nepřímý podíl na přípravě tohoto zadávacího řízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Direkte eller indirekte involvering i forberedelsen af denne udbudsprocedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Direkte oder indirekte Beteiligung an der Vorbereitung des Vergabeverfahrens</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άμεση ή έμμεση συμμετοχή στην κατάρτιση της παρούσας διαδικασίας σύναψης σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Direct or indirect involvement in the preparation of this procurement procedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Participación, directa o indirecta, en la preparación del presente procedimiento de contratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Otsene või kaude osalemine käesoleva hankemenetluse ettevalmistamisel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Välitön tai välillinen osallistuminen tämän hankintamenettelyn valmisteluun</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Association directe ou indirecte à la préparation de cette procédure de passation de marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Rannpháirtíocht dhíreach nó indíreach in ullmhú an nós imeachta soláthair seo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Izravno ili neizravno sudjelovanje u pripremi ovog postupka javne nabave</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Közvetlen vagy közvetett részvétel a közbeszerzési eljárás előkészítésében</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Partecipazione diretta o indiretta alla preparazione della procedura di appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tiesioginis arba netiesioginis dalyvavimas rengiant šią pirkimo procedūrą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tieša vai netieša iesaistīšanās šīs iepirkuma procedūras sagatavošanā;</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Involviment dirett jew indirett fit-tħejjija ta’ din il-proċedura ta’ akkwist</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Directe of indirecte betrokkenheid bij de voorbereiding van deze aanbestedingsprocedure</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bezpośrednie lub pośrednie zaangażowanie w przygotowanie przedmiotowego postępowania o udzielenie zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Intervenção direta ou indireta na preparação do presente procedimento de contratação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Implicare directă sau indirectă în pregătirea acestei proceduri de achiziții publice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Priama alebo nepriama účasť na príprave tohto postupu obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Neposredno ali posredno sodelovanje pri pripravi tega postopka oddaje javnega naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Direkt eller indirekt deltagande i förberedelserna av detta upphandlingsförfarande</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-sanction</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Early termination, damages, or other comparable sanctions</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Предсрочно прекратяване на договор и налагане на обезщетения или други подобни санкции</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Předčasné ukončení, náhrada škody nebo jiné srovnatelné sankce</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ophævelse eller en lignende sanktion</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vorzeitige Beendigung, Schadensersatz oder andere vergleichbare Sanktionen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πρόωρη λήξη, αποζημιώσεις ή άλλες παρόμοιες κυρώσεις</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Early termination, damages or other comparable sanctions</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Rescisión anticipada, imposición de daños y perjuicios u otras sanciones comparables</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ennetähtaegne lõpetamine, kahjutasu või võrreldavad sanktsioonid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennenaikainen irtisanominen, vahingonkorvaukset tai muut vastaavat seuraamukset</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Résiliation, dommages et intérêts ou autres sanctions comparables</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Foirceannadh luath, damáistí nó smachtbhannaí inchomparáide eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prijevremeni raskid, naknada štete ili druge usporedive sankcije</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Lejárat előtti megszüntetés, kártérítési követelés vagy egyéb hasonló szankciók</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cessazione anticipata, risarcimento danni o altre sanzioni comparabili</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutarties nutraukimas anksčiau laiko, žala ar kitos panašios sankcijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pirmstermiņa izbeigšana, zaudējumu atlīdzināšana vai citas līdzīgas sankcijas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Terminazzjoni bikrija, danni jew sanzjonijiet komparabbli oħra</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Voortijdige beëindiging, schadevergoeding of andere vergelijkbare sancties</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Rozwiązanie umowy przed czasem, odszkodowania lub inne porównywalne sankcje</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rescisão antecipada, indemnizações ou outras sanções comparáveis</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Încetare anticipată, daune-interese sau alte sancțiuni comparabile</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Predčasné ukončenie zmluvy, škody alebo iné porovnateľné sankcie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Predčasna odpoved pogodbe, odškodnina ali druge primerljive sankcije</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Förtida uppsägning, skadestånd eller andra jämförbara sanktioner</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis-unrel-sec</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Unreliability to exclude risks to the security of the country</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ненадеждност за изключване на рисковете за сигурността на страната</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nespolehlivost pro vyloučení rizik pro bezpečnost země</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Upålidelighed til at udelukke risici for landets sikkerhed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Unzuverlässigkeit zur Ausschließung von Risiken für die Sicherheit des Landes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αναξιοπιστία για την αποφυγή κινδύνων για την ασφάλεια της χώρας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Unreliability to exclude risks to the security of the country</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Falta de fiabilidad para excluir riesgos para la seguridad del país</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ebausaldusväärsus riigi turvalisuse riskide välistamiseks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Luotettavuuden puute maan turvallisuusriskien poissulkemiseksi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Fiabilité insuffisante pour exclure les risques pour la sécurité du pays</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Droch-iontaofacht chun rioscaí slándála na tíre a eisiamh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nepouzdanost za isključivanje rizika za sigurnost zemlje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Megbízhatatlanság a ország biztonságának kockázatainak kizárására</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Affidabilità insufficiente per escludere i rischi per la sicurezza del paese</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepatikimumas, siekiant išvengti rizikos šalies saugumui</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nepārliecība, lai izslēgtu riskus valsts drošībai</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Inaffidabbilità biex jeskludi r-riskji għall-sigurtà tal-pajjiż</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Onbetrouwbaarheid om risico's voor de veiligheid van het land uit te sluiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Niezawodność w celu wyeliminowania ryzyka dla bezpieczeństwa kraju</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Falta de confiabilidade para excluir riscos à segurança do país</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Nesiguranță pentru a exclude riscurile la securitatea țării</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nespoľahlivosť na vylúčenie rizík pre bezpečnosť krajiny</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Nezanesljivost za izključitev tveganj za varnost države</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Opålitlighet för att utesluta risker för landets säkerhet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-natl-bre-nat-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching of obligations set under purely national exclusion grounds</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нарушаване на задълженията, поставени по силата на чисто национални основания за изключване</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Porušení povinností stanovených na základě čistě národních důvodů pro vyloučení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Overtrædelse af forpligtelser fastsat under rent nationale udelukkelsesgrunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verstoß gegen Verpflichtungen, die auf rein nationalen Ausschlussgründen beruhen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παραβίαση των υποχρεώσεων που έχουν τεθεί σύμφωνα με αμιγώς εθνικά κριτήρια αποκλεισμού</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching of obligations set under purely national exclusion grounds</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Incumplimiento de las obligaciones establecidas en los motivos de exclusión puramente nacionales</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Puhtalt riiklikest välistamise alustest tulenevate kohustuste rikkumine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Puhtaasti kansallisten poissulkemisperusteiden mukaisten velvoitteiden rikkominen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Violation des obligations établies en vertu de motifs d'exclusion purement nationaux</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sárú ar dhualgaisí atá leagtha síos faoi bhonn eisiach náisiúnta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kršenje obveza postavljenih prema isključivo nacionalnim razlozima za isključivanje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kötelezettségek megsértése, amelyek kizárólag nemzeti kizárási okok alapján kerültek meghatározásra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Violazione degli obblighi previsti da motivi di esclusione puramente nazionali</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Įsipareigojimų, nustatytų pagal grynai nacionalinius pašalinimo pagrindus, pažeidimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Saimnieciskās darbības aizlieguma pamatojumu pārkāpšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Qerda ta' obbligi stabbiliti taħt raġunijiet ta' esklussjoni purament nazzjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Schending van verplichtingen die zijn vastgesteld op basis van zuiver nationale uitsluitingsgronden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Naruszenie zobowiązań wynikających wyłącznie z krajowych przesłanek wykluczenia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Violação de obrigações estabelecidas em virtude de motivos de exclusão puramente nacionais</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Încălcarea obligațiilor stabilite în baza motivelor de excludere pur naționale</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Porušenie povinností stanovených na základe čisto národných dôvodov vylúčenia</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kršitev obveznosti, določenih na podlagi izključno nacionalnih razlogov za izključitev</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Brott mot skyldigheter som fastställts enligt rent nationella uteslutningsgrunder</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-pmt-bre-ssc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching obligation relating to payment of social security contributions</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нарушаване на задължение, свързано с плащането на осигурителни вноски</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Porušení povinnosti související s platbou sociálního pojištění</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Overtrædelse af forpligtelse relateret til betaling af sociale bidrag</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verstoß gegen die Verpflichtung zur Zahlung von Sozialversicherungsbeiträgen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παραβίαση υποχρέωσης που σχετίζεται με την πληρωμή εισφορών κοινωνικής ασφάλισης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching obligation relating to payment of social security contributions</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Incumplimiento de la obligación relacionada con el pago de las contribuciones a la seguridad social</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sotsiaalkindlustusmaksete tasumise kohustuse rikkumine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sosiaaliturvamaksujen maksamiseen liittyvän velvoitteen rikkominen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Violation de l'obligation relative au paiement des cotisations de sécurité sociale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sárú ar dhualgas a bhaineann le híocaíocht ranníocaíochtaí leis an gCóras Slándála Sóisialaí</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kršenje obveze vezane uz plaćanje doprinosa za socijalno osiguranje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A társadalombiztosítási hozzájárulások fizetésével kapcsolatos kötelezettség megsértése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Violazione dell'obbligo relativo al pagamento dei contributi previdenziali</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Socialinio draudimo įmokų mokėjimo įsipareigojimo pažeidimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sociālās apdrošināšanas iemaksu maksāšanas pienākumu pārkāpšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Qerda ta' obbligu relatat mal-ħlas ta' kontribuzzjonijiet tas-sigurtà soċjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Schending van verplichting betreffende de betaling van sociale zekerheidsbijdragen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Naruszenie zobowiązania dotyczącego płatności składek na ubezpieczenia społeczne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Violação da obrigação relativa ao pagamento de contribuições para a segurança social</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Încălcarea obligației legate de plata contribuțiilor de securitate socială</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Porušenie povinnosti súvisiacej s platbou sociálnych odvodov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kršitev obveznosti, povezane s plačilom prispevkov za socialno varnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Brott mot skyldighet att betala socialförsäkringsavgifter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-pmt-bre-tax</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Breaching obligation relating to payment of taxes</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Нарушаване на задължение, свързано с плащането на данъци</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Porušení povinnosti související s platbou daní</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Overtrædelse af forpligtelse relateret til betaling af skatter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verstoß gegen die Verpflichtung zur Zahlung von Steuern</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Παραβίαση υποχρέωσης που σχετίζεται με την πληρωμή φόρων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Breaching obligation relating to payment of taxes</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Incumplimiento de la obligación relacionada con el pago de impuestos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Maksude tasumise kohustuse rikkumine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Verojen maksamiseen liittyvän velvoitteen rikkominen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Violation de l'obligation relative au paiement des impôts</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sárú ar dhualgas a bhaineann le híocaíocht cánach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kršenje obveze vezane uz plaćanje poreza</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Adófizetési kötelezettség megsértése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Violazione dell'obbligo relativo al pagamento delle tasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Mokesčių mokėjimo įsipareigojimo pažeidimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Nodokļu maksāšanas pienākumu pārkāpšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Qerda ta' obbligu relatat mal-ħlas ta' taxxi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Schending van verplichting betreffende de betaling van belastingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Naruszenie zobowiązania dotyczącego płatności podatków</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Violação da obrigação relativa ao pagamento de impostos</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Încălcarea obligației legate de plata impozitelor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Porušenie povinnosti súvisiacej s platbou daní</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kršitev obveznosti, povezane s plačilom davkov</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Brott mot skyldighet att betala skatter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-as-susp</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Business activities are suspended</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Прекратена стопанска дейност</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Obchodní činnost je pozastavena</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Erhvervsvirksomheden er indstillet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Einstellung der gewerblichen Tätigkeit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αναστολή επιχειρηματικών δραστηριοτήτων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Business activities are suspended</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Las actividades empresariales han sido suspendidas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Äritegevus on peatatud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Liiketoiminta on keskeytetty</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>État de cessation d’activités</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cuirtear ar fionraí gníomhaíochtaí gnó</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Suspendirane poslovne aktivnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Üzleti tevékenység felfüggesztése</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Cessazione di attività</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sustabdyta verslo veikla</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Uzņēmējdarbību aptur</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-attivitajiet kummerċjali huma sospiżi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Staking van bedrijfsactiviteiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Działalność gospodarcza jest zawieszona</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Atividades suspensas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Activitățile economice sunt suspendate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Pozastavené podnikateľské činnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Poslovne dejavnosti so začasno ustavljene</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Avbruten näringsverksamhet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-bankr</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Bankruptcy</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Банкрут</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Úpadek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Konkurs</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Konkurs</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πτώχευση</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Bankruptcy</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Quiebra</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Pankrot</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Konkurssi</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Faillite</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Féimheacht</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Stečaj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csőd</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fallimento</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bankrotas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Bankrots</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Falliment</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Faillissement</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Upadłość</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Falência</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Faliment</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Konkurz</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Stečaj</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Konkurs</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-cred-arran</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Arrangement with creditors</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Споразумение с кредиторите</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dohoda o vyrovnání s věřiteli</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tvangsakkord uden for konkurs</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Vergleichsverfahren</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Διακανονισμός με τους πιστωτές</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Arrangement with creditors</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Convenio con los acreedores</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kokkulepe võlausaldajatega</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Järjestelyt velkojien kanssa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Concordat</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Socrú le creidiúnaithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nagodba s vjerovnicima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Csődegyezség hitelezőkkel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Concordato preventivo con i creditori</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Susitarimas su kreditoriais</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vienošanās ar kreditoriem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arranġament mal-kredituri</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Regeling met schuldeisers</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Układ z wierzycielami</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Acordo com os credores</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Concordat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dohoda s veriteľmi</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dogovor z upniki</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ackordsuppgörelse med borgenärer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-insolvency</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Insolvency</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Неплатежоспособност</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Platební neschopnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Insolvens</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zahlungsunfähigkeit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αφερεγγυότητα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Insolvency</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Insolvencia</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Maksejõuetus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Maksukyvyttömyys</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Insolvabilité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dócmhainneacht</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Nesolventnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Fizetésképtelenség</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Insolvenza</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nemokumas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Maksātnespēja</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Insolvenza</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Insolventie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Niewypłacalność</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Insolvência</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Insolvență</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Platobná neschopnosť</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Plačilna nesposobnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Insolvens</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-liq-admin</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Администриране на активите от ликвидатор</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Majetek spravuje likvidátor</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Aktiver, der administreres af en kurator</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Verwaltung der Vermögenswerte durch einen Insolvenzverwalter</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Περιουσιακά στοιχεία υπό αναγκαστική διαχείριση από εκκαθαριστή</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Assets being administered by liquidator</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Activos que están siendo administrados por un liquidador</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vara haldab likvideerija</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Varat selvitysmiehen hallinnassa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Biens administrés par un liquidateur</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sócmhainní atá á riaradh ag leachtaitheoir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Imovinom subjekta upravlja stečajni upravitelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Felszámoló által kezelt vagyon</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Amministrazione controllata</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Likvidatoriaus administruojamas turtas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Aktīvi, kurus pārvalda likvidators</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Assijiet amministrati minn likwidatur</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Activa beheerd door vereffenaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Aktywami zarządza likwidator</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ativos sob gestão por um liquidatário</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Active administrate de lichidator</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Aktíva spravované likvidátorom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sredstva upravlja stečajni upravitelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tvångsförvaltning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn-other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Analogous situation like bankruptcy, insolvency or arrangement with creditors under national law</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Аналогична на несъстоятелност ситуация съгласно националното законодателство</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Srovnatelná situace jako úpadek podle vnitrostátních právních předpisů</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>En situation, der svarer til konkurs i henhold til national ret</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Zahlungsunfähigkeit vergleichbare Lage gemäß nationaler Rechtsvorschriften</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κατάσταση ανάλογη της πτώχευσης, δυνάμει της εθνικής νομοθεσίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Analogous situation like bankruptcy under national law</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Situación análoga a la quiebra con arreglo al Derecho nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Siseriikliku õiguse kohane samalaadne olukord, näiteks pankrot</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kansallisesta lainsäädännöstä johtuva konkurssia tai muuta sellaista vastaava tilanne</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Situation analogue à la faillite prévue dans la législation nationale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cás cosúil le féimheacht faoin dlí náisiúnta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Situacije istovrsne stečaju prema nacionalnim zakonima</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A nemzeti törvények értelmében a csődhöz hasonló helyzet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Situazione analoga al fallimento ai sensi della normativa nazionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bankrotui prilygstanti situacija pagal nacionalinius įstatymus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Līdzīga situācija kā bankrots saskaņā ar valsts tiesību aktiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sitwazzjoni analoga bħal falliment skont il-liġi nazzjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Met faillissement vergelijkbare toestand uit hoofde van nationale recht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inna sytuacja podobna do upadłości wynikająca z prawa krajowego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Situação análoga, como falência ao abrigo da legislação nacional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Situații similare, în temeiul legislației naționale, cum ar fi falimentul</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Podobná situácia ako úpadok podľa vnútroštátneho práva</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Položaj, ki je v skladu z nacionalno zakonodajo podoben stečaju</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Situation som enligt nationell lagstiftning motsvarar konkurs</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

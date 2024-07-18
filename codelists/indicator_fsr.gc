@@ -2,11 +2,10 @@
 <!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>EformsContractNature</ShortName>
-      <LongName>eforms-contract-nature</LongName>
-      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/contract-nature</LongName>
-      <LongName Identifier="eFormsParentId">contract-nature</LongName>
-      <Version>1.11.0</Version>
+      <ShortName>Fsr</ShortName>
+      <LongName>fsr</LongName>
+      <LongName Identifier="eFormsParentId">indicator</LongName>
+      <Version>1.12.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -123,242 +122,162 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>services</SimpleValue>
+            <SimpleValue>false</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Services</SimpleValue>
+            <SimpleValue>False</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Услуги</SimpleValue>
+            <SimpleValue>не</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Služby</SimpleValue>
+            <SimpleValue>ne</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Tjenesteydelser</SimpleValue>
+            <SimpleValue>nej</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Dienstleistungen</SimpleValue>
+            <SimpleValue>nein</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Υπηρεσίες</SimpleValue>
+            <SimpleValue>όχι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Services</SimpleValue>
+            <SimpleValue>no</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Servicios</SimpleValue>
+            <SimpleValue>no</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Teenused</SimpleValue>
+            <SimpleValue>ei</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Palvelut</SimpleValue>
+            <SimpleValue>ei</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Services</SimpleValue>
+            <SimpleValue>non</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Seirbhísí</SimpleValue>
+            <SimpleValue>níl</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Usluge</SimpleValue>
+            <SimpleValue>ne</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Szolgáltatások</SimpleValue>
+            <SimpleValue>nem</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Servizi</SimpleValue>
+            <SimpleValue>no</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Paslaugos</SimpleValue>
+            <SimpleValue>ne</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Pakalpojumi</SimpleValue>
+            <SimpleValue>nē</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi</SimpleValue>
+            <SimpleValue>le</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Diensten</SimpleValue>
+            <SimpleValue>neen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi</SimpleValue>
+            <SimpleValue>nie</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Serviços</SimpleValue>
+            <SimpleValue>não</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Servicii</SimpleValue>
+            <SimpleValue>nu</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby</SimpleValue>
+            <SimpleValue>nie</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve</SimpleValue>
+            <SimpleValue>ne</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Tjänster</SimpleValue>
+            <SimpleValue>nej</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>supplies</SimpleValue>
+            <SimpleValue>true</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Supplies</SimpleValue>
+            <SimpleValue>True</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Доставки</SimpleValue>
+            <SimpleValue>да</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Dodávky</SimpleValue>
+            <SimpleValue>ano</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Varer</SimpleValue>
+            <SimpleValue>ja</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Lieferungen</SimpleValue>
+            <SimpleValue>ja</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προμήθειες</SimpleValue>
+            <SimpleValue>ναι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Supplies</SimpleValue>
+            <SimpleValue>yes</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Suministros</SimpleValue>
+            <SimpleValue>sí</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Tarned</SimpleValue>
+            <SimpleValue>jah</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Tavarat</SimpleValue>
+            <SimpleValue>kyllä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Fournitures</SimpleValue>
+            <SimpleValue>oui</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Soláthairtí</SimpleValue>
+            <SimpleValue>tá</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Roba</SimpleValue>
+            <SimpleValue>da</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Árubeszerzések</SimpleValue>
+            <SimpleValue>igen</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Forniture</SimpleValue>
+            <SimpleValue>sì</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Prekės</SimpleValue>
+            <SimpleValue>taip</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Piegādes</SimpleValue>
+            <SimpleValue>jā</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Fornituri</SimpleValue>
+            <SimpleValue>iva</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Leveringen</SimpleValue>
+            <SimpleValue>ja</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Dostawy</SimpleValue>
+            <SimpleValue>tak</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Fornecimentos</SimpleValue>
+            <SimpleValue>sim</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Bunuri</SimpleValue>
+            <SimpleValue>da</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Dodávky</SimpleValue>
+            <SimpleValue>áno</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Blago</SimpleValue>
+            <SimpleValue>da</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Varor</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>works</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Works</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Строителство</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Stavební práce</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Bygge og anlæg</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Bauleistung</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Έργα</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Works</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Obras</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Ehitustööde hankelepingud</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Urakat</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Marché de travaux</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Oibreacha</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Radovi</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Építési beruházás</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Lavori</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>darbai</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Būvdarbi</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Xogħlijiet</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Werken</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Roboty budowlane</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Obras</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Lucrări</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Práce</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Gradnje</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Byggentreprenader</SimpleValue>
+            <SimpleValue>ja</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

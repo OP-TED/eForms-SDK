@@ -3,16 +3,14 @@
 <properties>
 <comment>expression in Polish. File generated from metadata database.</comment>
 <entry key="expression|name|1">Wartość dla 'Nabywca jest podmiotem zamawiającym' (BT-740) to 'Nie'</entry>
-<entry key="expression|name|100">'Kryterium udzielenia - Liczba' (BT-541-Lot) jest wypełnione, 'Liczba jest rodzajem wagi' (BT-5421-Lot) i 'Liczba jest rodzajem progu' (BT-5423-Lot) nie są wypełnione</entry>
-<entry key="expression|name|101">'Kryterium udzielenia - Liczba' (BT-541-Lot) jest wypełnione, 'Liczba jest rodzajem wagi' (BT-5421-Lot) i 'Liczba jest rodzajem progu' (BT-5422-Lot) nie są wypełnione</entry>
-<entry key="expression|name|102">'Kryterium udzielenia - Liczba' (BT-541-LotsGroup) jest wypełnione, 'Liczba jest rodzajem wagi' (BT-5421-LotsGroup) i 'Liczba jest rodzajem progu' (BT-5423-LotsGroup) nie są wypełnione</entry>
-<entry key="expression|name|103">'Kryterium udzielenia - Liczba' (BT-541-LotsGroup) jest wypełnione, 'Liczba jest rodzajem wagi' (BT-5421-LotsGroup) i 'Liczba jest rodzajem progu' (BT-5422-LotsGroup) nie są wypełnione</entry>
+<entry key="expression|name|10">'Opis' - 'Kryterium udzielenia' (BT-540-LotsGroup) nie jest obecny lub 'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-LotsGroup) jest obecny</entry>
+<entry key="expression|name|100">'Opis' - 'Kryterium udzielenia' (BT-540-LotsGroup) jest obecny, a 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem wagi' (BT-541-LotsGroup-WeightNumber), 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem progu' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-LotsGroup) nie są obecne</entry>
+<entry key="expression|name|101">'Opis' - 'Kryterium udzielenia' (BT-540-LotsGroup) jest obecny, a 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem wagi' (BT-541-LotsGroup-WeightNumber), 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem progu' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-LotsGroup) nie są obecne</entry>
 <entry key="expression|name|104">'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-Lots) nie jest wypełnione</entry>
 <entry key="expression|name|105">'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-LotsGroup) nie jest wypełnione</entry>
 <entry key="expression|name|106">'Okres obowiązywania' (BT-36-Lot) lub 'Data zakończenia trwania' (BT-537-Lot) jest wypełnione</entry>
 <entry key="expression|name|107">'Okres obowiązywania' (BT-36-Lot) lub 'Inny okres' (BT-538-Lot) jest wypełnione</entry>
 <entry key="expression|name|108">'Data zakończenia trwania' (BT-537-Lot) lub 'Inny okres' (BT-538-Lot) jest wypełnione</entry>
-<entry key="expression|name|109">'Rodzaj procedury' (BT-105) nie jest 'Bezpośrednie udzielenie zamówienia'</entry>
 <entry key="expression|name|11">'Data początkowa' (BT-536-Part) nie jest wypełnione</entry>
 <entry key="expression|name|110">'Rodzaj procedury' (BT-105) jest 'Otwarta'; 'Rodzaj procedury' (BT-105) jest 'Inna procedura jednoetapowa' i 'Termin składania wniosków o dopuszczenie do udziału' (BT-1311) nie jest wypełnione; 'Rodzaj procedury' (BT-105) musi być 'Inna procedura wieloetapowa', a 'Termin składania wniosków o dopuszczenie do udziału' (BT-1311) nie jest wypełnione</entry>
 <entry key="expression|name|111">'Rodzaj procedury' (BT-105) jest 'Inna procedura jednoetapowa' i 'Termin składania ofert' (BT-131) nie jest wypełnione; 'Rodzaj procedury' (BT-105) jest 'Inna procedura wieloetapowa', a 'Termin składania wniosków o dopuszczenie do udziału' (BT-131) nie jest wypełnione</entry>
@@ -21,7 +19,6 @@
 <entry key="expression|name|114">'Termin składania ofert' (BT-131(d)-Lot) jest wypełnione</entry>
 <entry key="expression|name|115">'Termin składania wniosków o dopuszczenie do udziału' (BT-1311(d)-Lot) jest wypełnione</entry>
 <entry key="expression|name|116">'Rodzaj procedury' (BT-105) jest 'Otwarta' lub 'Inna procedura jednoetapowa' lub 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie'</entry>
-<entry key="expression|name|117">'Rodzaj' (BT-747-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|118">'Adres pocztowy' (BT-5101(a)-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|119">'Adres pocztowy' (BT-5101(a)-Part) nie jest wypełnione</entry>
 <entry key="expression|name|12">'Status prawny nabywcy' (BT-11) jest jednym z następujących: 'Podmiot prawa publicznego'; 'Podmiot prawa publicznego kontrolowany przez instytucję administracji centralnej'; 'Podmiot prawa publicznego kontrolowany przez instytucję lokalną'; 'Podmiot prawa publicznego kontrolowany przez instytucję regionalną'; 'Instytucja administracji centralnej'; 'Kontrahent w sektorze obronności'; 'Instytucja, organ lub agencja UE'; 'Instytucja/agencja europejska lub organizacja międzynarodowa'; 'Organizacja międzynarodowa'; 'Instytucja lokalna'; 'Organizacja udzielająca zamówienia dotowanego przez instytucję administracji centralnej'; 'Organizacja udzielająca zamówienia dotowanego przez instytucję administracji lokalnej'; 'Organizacja udzielająca zamówienia dotowanego przez instytucję administracji regionalnej'; 'Przedsiębiorstwo publiczne'; 'Przedsiębiorstwo publiczne kontrolowane przez instytucję administracji centralnej'; 'Przedsiębiorstwo publiczne kontrolowane przez instytucję lokalną'; 'Przedsiębiorstwo publiczne kontrolowane przez instytucję regionalną'; 'Instytucja regionalna'; 'Organ władzy regionalnej lub lokalnej'</entry>
@@ -57,15 +54,7 @@
 <entry key="expression|name|15">'Dostęp do niektórych dokumentów zamówienia jest zastrzeżony' (BT-14-Part) nie jest ograniczone</entry>
 <entry key="expression|name|150">'Opis' (BT-540-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|151">'Opis' (BT-540-LotsGroup) nie jest wypełnione</entry>
-<entry key="expression|name|152">'Kryterium udzielenia - Liczba' (BT-541) nie jest wypełnione lub 'Liczba jest wartością stałą' (BT-5422) jest wypełnione, 'Liczba jest rodzajem progu' (BT-5423) jest wypełnione</entry>
-<entry key="expression|name|153">'Kryterium udzielenia - Liczba' (BT-541) nie jest wypełnione lub 'Liczba jest wartością stałą' (BT-5422) jest wypełnione, 'Liczba jest rodzajem progu' (BT-5423) jest wypełnione</entry>
-<entry key="expression|name|154">'Kryterium udzielenia - Liczba' (BT-541) nie jest wypełnione lub 'Liczba jest rodzajem wagi' (BT-5421) jest wypełnione lub 'Liczba jest rodzajem progu' (BT-5423) jest wypełnione lub 'Rodzaj' (BT-539) jest 'Jakość'</entry>
-<entry key="expression|name|155">'Kryterium udzielenia - Liczba' (BT-541) nie jest wypełnione lub 'Liczba jest rodzajem wagi' (BT-5421) jest wypełnione lub 'Liczba jest rodzajem progu' (BT-5423) jest wypełnione lub 'Rodzaj' (BT-539) jest 'Jakość'</entry>
-<entry key="expression|name|156">'Kryterium udzielenia - Liczba' (BT-541) nie jest wypełnione lub 'Liczba jest wartością stałą' (BT-5422) jest wypełnione lub 'Liczba jest rodzajem progu' (BT-5423) jest wypełnione</entry>
-<entry key="expression|name|157">'Kryterium udzielenia - Liczba' (BT-541) nie jest wypełnione lub 'Liczba jest wartością stałą' (BT-5422) jest wypełnione lub 'Liczba jest rodzajem progu' (BT-5423) jest wypełnione</entry>
-<entry key="expression|name|158">'Oferent musi złożyć oferty dotyczące wszystkich części zamówienia' ((BT-763)) jest prawdziwe</entry>
 <entry key="expression|name|159">Działki nie są 'Oferent musi złożyć oferty dotyczące wszystkich części zamówienia' (BT-763) i w ogłoszeniu jest więcej niż jedna działka</entry>
-<entry key="expression|name|16">'Kryterium udzielenia - Liczba' (BT-541-Lot) nie jest puste</entry>
 <entry key="expression|name|160">Nie ma wielu części</entry>
 <entry key="expression|name|161">'Główna klasyfikacja' (BT-262-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|162">'Główna klasyfikacja' (BT-262-Part) nie jest wypełnione</entry>
@@ -87,7 +76,6 @@
 <entry key="expression|name|177">'Techniczne ID oferty' (OPT-321-Tender) nie istnieje</entry>
 <entry key="expression|name|178">'Organizacja pełniąca tę rolę' (OPT-300-Tenderer) nie istnieje</entry>
 <entry key="expression|name|179">'Organizacja lub konkretny punkt kontaktowy' (OPT-301-Tenderer-MainCont) nie jest wypełnione</entry>
-<entry key="expression|name|18">'Kryterium udzielenia - Liczba' (BT-541-LotsGroup) nie jest puste</entry>
 <entry key="expression|name|180">'Oficjalna nazwa' (BT-500-Organization-Company) nie jest wypełnione</entry>
 <entry key="expression|name|181">'Oficjalna nazwa' (BT-500-Organization-TouchPoint) nie jest wypełnione</entry>
 <entry key="expression|name|182">'Kraj' (BT-514-Organization-Company) nie posiada kodów NUTS</entry>
@@ -104,7 +92,7 @@
 <entry key="expression|name|192">'Adres strony internetowej z przepisami pracy' (OPT-130-Part-EmployLegis) jest wypełnione</entry>
 <entry key="expression|name|193">'Odwołanie - Środek odwoławczy - Rodzaj' (BT-792-Review) nie jest 'Inna kara' ani 'Odszkodowanie'</entry>
 <entry key="expression|name|194">'Odwołanie - Środek odwoławczy - Rodzaj' (BT-792-Review) to 'Odszkodowanie'</entry>
-<entry key="expression|name|195">'Odwołanie – Wycofanie' (BT-796-Review) nie jest prawdziwe</entry>
+<entry key="expression|name|195">'Odwołanie – Wycofanie' (BT-796-Review) nie jest 'tak'</entry>
 <entry key="expression|name|196">'Odwołanie – ID' (BT-784-Review) nie jest wypełnione</entry>
 <entry key="expression|name|197">'Identyfikator poprzedniego ogłoszenia' (BT-125i-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|198">'Identyfikator poprzedniego ogłoszenia' (BT-125(i)-Part) nie jest wypełnione</entry>
@@ -117,12 +105,12 @@
 <entry key="expression|name|203">Nie udzielono zamówienia na żadne części</entry>
 <entry key="expression|name|204">'Umowa - identyfikator oferty' (BT-3202-Contract) nie jest wypełnione</entry>
 <entry key="expression|name|205">'Rodzaj procedury' (BT-105) nie jest 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie'; 'Podstawa prawna' (BT-01) nie jest 'Rozporządzenie (UE, Euratom) 2018/1046'; przynajmniej jedno 'Umowa - identyfikator oferty' (BT-3202-Contract) jest wypełnione</entry>
-<entry key="expression|name|206">'Zamówienie jest udzielane w ramach umowy ramowej' (BT-768-Contract) nie jest prawdziwe</entry>
+<entry key="expression|name|206">'Zamówienie jest udzielane w ramach umowy ramowej' (BT-768-Contract) nie jest 'tak'</entry>
 <entry key="expression|name|207">'Identyfikator oferty' (BT-3201-Tender) jest wypełnione</entry>
 <entry key="expression|name|209">'Poprzednia wersja ogłoszenia, która jest zmieniana' (BT-758-notice) nie jest wypełnione</entry>
 <entry key="expression|name|21">'Podpodział krajowy (NUTS)' B373(BT-5071-Lot) jest wypełnione</entry>
 <entry key="expression|name|210">'Identyfikator sekcji' (BT-13716-notice) nie jest wypełnione</entry>
-<entry key="expression|name|211">Wskaźnik „Dokumenty zamówienia zostały zmienione” nie jest prawdziwy (BT-718-notice)</entry>
+<entry key="expression|name|211">Wskaźnik 'Dokumenty przetargowe uległy zmianie' (BT-718-notice) nie jest 'tak'</entry>
 <entry key="expression|name|212">'Główny powód zmiany' (BT-140-notice) nie jest wypełnione</entry>
 <entry key="expression|name|213">Dotyczy rejestracji działalności gospodarczej w UE</entry>
 <entry key="expression|name|214">'Właściwe prawo transgraniczne' (BT-09(b)-Procedure) nie jest wypełnione</entry>
@@ -149,8 +137,6 @@
 <entry key="expression|name|233">'Rodzaj' (BT-539-LotsGroup) nie jest wypełnione</entry>
 <entry key="expression|name|234">'Opis' (BT-540-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|235">'Opis' (BT-540-LotsGroup) nie jest wypełnione</entry>
-<entry key="expression|name|236">'Kryterium udzielenia - Liczba' (BT-541-Lot) nie jest wypełnione</entry>
-<entry key="expression|name|237">'Kryterium udzielenia - Liczba' (BT-541-LotsGroup) nie jest wypełnione</entry>
 <entry key="expression|name|238">'Liczba jest rodzajem wagi' (BT-5421-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|239">'Liczba jest rodzajem wagi' (BT-5421-LotsGroup) nie jest wypełnione</entry>
 <entry key="expression|name|24">'Data początkowa' (BT-536-Lot) nie jest wypełnione</entry>
@@ -197,7 +183,6 @@
 <entry key="expression|name|277">'Pole do publikacji w późniejszym terminie' (BT-195(BT-161)-NoticeResult) nie jest wypełnione</entry>
 <entry key="expression|name|278">'Pole do publikacji w późniejszym terminie' (BT-195(BT-162)-Tender) nie jest wypełnione</entry>
 <entry key="expression|name|279">'Pole do publikacji w późniejszym terminie' (BT-195(BT-163)-Tender) nie jest wypełnione</entry>
-<entry key="expression|name|28">'Wykorzystanie tego kryterium' (BT-748) to 'Stosowane'</entry>
 <entry key="expression|name|280">'Pole do publikacji w późniejszym terminie' (BT-195(BT-171)-Tender) nie jest wypełnione</entry>
 <entry key="expression|name|281">'Pole do publikacji w późniejszym terminie' (BT-195(BT-191)-Tender) nie jest wypełnione</entry>
 <entry key="expression|name|282">'Pole do publikacji w późniejszym terminie' (BT-195(BT-193)-Tender) nie jest wypełnione</entry>
@@ -231,7 +216,6 @@
 <entry key="expression|name|307">'Pole do publikacji w późniejszym terminie' (BT-195(BT-731)-Tender) nie jest wypełnione</entry>
 <entry key="expression|name|308">'Pole do publikacji w późniejszym terminie' (BT-195(BT-733)-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|309">'Pole do publikacji w późniejszym terminie' (BT-195(BT-733)-LotsGroup) nie jest wypełnione</entry>
-<entry key="expression|name|31">'Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba' (BT-752-Lot) nie jest puste</entry>
 <entry key="expression|name|310">'Pole do publikacji w późniejszym terminie' (BT-195(BT-734)-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|311">'Pole do publikacji w późniejszym terminie' (BT-195(BT-734)-LotsGroup) nie jest wypełnione</entry>
 <entry key="expression|name|312">'Pole do publikacji w późniejszym terminie' (BT-195(BT-759)-LotResult) nie jest wypełnione</entry>
@@ -242,7 +226,6 @@
 <entry key="expression|name|317">'To jest zamówienie powtarzalne' (BT-94-Lot) nie jest 'tak'</entry>
 <entry key="expression|name|318">'Rodzaj procedury' (BT-105-Procedure) to 'Otwarta'</entry>
 <entry key="expression|name|319">'Organizacja lub konkretny punkt kontaktowy' (OPT-301-Lot-ReviewInfo) nie jest wypełnione</entry>
-<entry key="expression|name|32">'Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba' (BT-752-Lot) nie jest puste</entry>
 <entry key="expression|name|320">'Stosuje się aukcję elektroniczną' (BT-767-Lot) nie jest 'tak'</entry>
 <entry key="expression|name|321">'Rodzaj procedury' (BT-105) nie jest 'Ograniczona'</entry>
 <entry key="expression|name|322">'Typ pojazdu' (OPT-155-LotResult) nie jest wypełnione</entry>
@@ -298,7 +281,6 @@
 <entry key="expression|name|369">Wymagane jest zgłoszenie elektroniczne</entry>
 <entry key="expression|name|370">Zgłoszenie elektroniczne nie jest dozwolone</entry>
 <entry key="expression|name|371">Grupa części składa się z jednej lub mniej części</entry>
-<entry key="expression|name|372">'Rodzaj' (BT-747-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|373">Grupa części składa się z części bez umowy ramowej</entry>
 <entry key="expression|name|374">'Obowiązek oferenta dotyczący podwykonawstwa' (BT-66) nie jest wypełnione</entry>
 <entry key="expression|name|375">'Data zakończenia trwania' (BT-537-Part) jest wypełnione; 'Inny okres' (BT-538-Part) jest wypełnione</entry>
@@ -374,7 +356,7 @@
 <entry key="expression|name|539">Nie jest to umowa ramowa; 'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) nie jest wypełnione</entry>
 <entry key="expression|name|54">'Obowiązek oferenta dotyczący podwykonawstwa' (BT-65_Lot) nie jest 'Wykonawca musi zlecić podwykonawstwo minimalnej wartości procentowej zamówienia z zastosowaniem procedury określonej w tytule III dyrektywy 2009/81/WE.'</entry>
 <entry key="expression|name|540">Nie wybrano zwycięzcy; nie jest to umowa ramowa; 'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) nie jest wypełnione</entry>
-<entry key="expression|name|542">'Grupa – Umowa ramowa – Wartość – ID części zamówienia' (BT-556) jest wypełnione, a '' nie jest wypełnione</entry>
+<entry key="expression|name|542">'Grupa – Umowa ramowa – Wartość – ID części zamówienia' (BT-556) jest wypełnione, a 'Ponownie oszacowana wartość umów ramowych w grupie części zamówienia (BT-1561)' nie jest wypełnione</entry>
 <entry key="expression|name|543">'Grupa – Umowa ramowa – Wartość – ID części zamówienia' (BT-556) jest wypełnione, a 'Szacowana wartość umów ramowych w grupie części zamówienia' nie jest wypełnione</entry>
 <entry key="expression|name|544">'Przybliżona wartość umów ramowych' (BT-1118-NoticeResult) nie jest wypełnione</entry>
 <entry key="expression|name|545">'Pole do publikacji w późniejszym terminie' (BT-195(BT-1118)-NoticeResult) nie jest wypełnione</entry>
@@ -396,13 +378,7 @@
 <entry key="expression|name|560">'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) nie jest wypełnione</entry>
 <entry key="expression|name|561">'Pole do publikacji w późniejszym terminie' (BT-195(BT-660)-LotResult) nie jest wypełnione</entry>
 <entry key="expression|name|568">'Kod wymagań wykonania' (OPT-060-Lot) nie jest wypełnione</entry>
-<entry key="expression|name|569">'Opis' (BT-540-Lot) jest obecny, a 'Kryterium udzielenia - Liczba' (BT-541-Lot-FixedNumber) &amp;amp; 'Kryterium udzielenia - Liczba' (BT-541-Lot-ThresholdNumber) nie są obecne</entry>
 <entry key="expression|name|57">'Stosuje się umowę ramową' (BT-765-Lot) to 'Brak dynamicznego systemu zakupów'</entry>
-<entry key="expression|name|570">'Opis' (BT-540-Lot) jest obecny, a 'Kryterium udzielenia - Liczba' (BT-541-Lot-WeightNumber) &amp;amp; 'Kryterium udzielenia - Liczba' (BT-541-Lot-ThresholdNumber) nie są obecne</entry>
-<entry key="expression|name|571">'Opis' (BT-540-Lot) jest obecny, a 'Kryterium udzielenia - Liczba' (BT-541-Lot-WeightNumber) &amp;amp; 'Kryterium udzielenia - Liczba' (BT-541-Lot-FixedNumber) nie są obecne</entry>
-<entry key="expression|name|572">'Opis' (BT-540-LotsGroup) jest obecny, a 'Kryterium udzielenia - Liczba' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Kryterium udzielenia - Liczba' (BT-541-LotsGroup-ThresholdNumber) nie są obecne</entry>
-<entry key="expression|name|573">'Opis' (BT-540-LotsGroup) jest obecny, a 'Kryterium udzielenia - Liczba' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Kryterium udzielenia - Liczba' (BT-541-LotsGroup-ThresholdNumber) nie są obecne</entry>
-<entry key="expression|name|574">'Opis' (BT-540-LotsGroup) jest obecny, a 'Kryterium udzielenia - Liczba' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Kryterium udzielenia - Liczba' (BT-541-LotsGroup-FixedNumber) nie są obecne</entry>
 <entry key="expression|name|575">'Kryterium udzielenia - Liczba' (BT-541-Lot-WeightNumber) nie jest obecny</entry>
 <entry key="expression|name|576">'Kryterium udzielenia - Liczba' (BT-541-Lot-FixedNumber) nie jest obecny</entry>
 <entry key="expression|name|577">'Kryterium udzielenia - Liczba' (BT-541-Lot-ThresholdNumber) nie jest obecny</entry>
@@ -435,7 +411,22 @@
 <entry key="expression|name|604">Wartość 'Rodzaj procedury' (BT-105) jest równa 'Inna procedura wieloetapowa'</entry>
 <entry key="expression|name|605">Identifikator umowy do modyfikacji (BT-1501(c)-Contract) jest wypełniony</entry>
 <entry key="expression|name|61">'Uzasadnienie bezpośredniego udzielenia zamówienia' (BT-136-Procedure) nie jest jednym z następujących: 'W odpowiedzi na wcześniejsze ogłoszenie otrzymano jedynie oferty nieprawidłowe lub niemożliwe do przyjęcia. Do negocjacji dopuszczono jedynie wszystkich tych oferentów uczestniczących w poprzednim postępowaniu, którzy spełnili kryteria kwalifikacji, nie odpowiadają kryteriom wykluczenia oraz spełnili wymogi formalne'; 'Potrzeba realizacji dodatkowych robót budowlanych lub usług przez pierwotnego wykonawcę'; 'Nowe roboty budowlane lub usługi, będące powtórzeniem istniejących robót budowlanych lub usług oraz zamawiane zgodnie z warunkami ściśle określonymi w dyrektywie'; 'W odpowiedzi na wcześniejsze ogłoszenie nie otrzymano odpowiednich ofert, wniosków o dopuszczenie do udziału lub wniosków'; 'Częściowe zastąpienie lub rozszerzenie istniejących dostaw lub instalacji przez pierwotnego dostawcę, zamawiane zgodnie z warunkami ściśle określonymi w dyrektywie'; 'Zamówienie na usługi ma zostać udzielone zwycięzcy lub jednemu ze zwycięzców na podstawie regulaminu konkursu'</entry>
+<entry key="expression|name|613">Oferta nie została złożona ani dla partii, dla której 'Regulacja dotycząca zagranicznych dotacji' (BT-681-Lot) jest ustawiony na 'tak', ani dla grupy partii zawierającej partię, dla której 'Regulacja dotycząca zagranicznych dotacji' (BT-681-Lot) jest ustawiony na 'tak'</entry>
+<entry key="expression|name|614">Powiadomienie nie zostało zidentyfikowane jako 'Źródło kryteriów selekcji'</entry>
+<entry key="expression|name|615">Kod kryterium wyboru (BT-809) nie istnieje</entry>
+<entry key="expression|name|616">Organizacja jest nabywcą, a dynamiczny system zakupów może być również używany przez nabywców nie wymienionych w tym zawiadomieniu, a 'Centralna jednostka zakupująca nabywająca dostawy i/lub usługi przeznaczone dla innych nabywców' (OPP-052) nie jest wypełnione</entry>
+<entry key="expression|name|617">Organizacja jest nabywcą, a dynamiczny system zakupów może być również używany przez nabywców nie wymienionych w tym zawiadomieniu, a 'Centralna jednostka zakupująca nabywająca dostawy i/lub usługi przeznaczone dla innych nabywców' (OPP-052) nie jest wypełnione</entry>
+<entry key="expression|name|618">'Procedura jest przyspieszona' (BT-106-Procedure) jest 'tak'</entry>
+<entry key="expression|name|619">'Procedura jest przyspieszona' (BT-106-Procedure) jest 'tak'</entry>
 <entry key="expression|name|62">'Status wyboru zwycięzcy' (BT-142-LotResult) nie jest 'Nie wyłoniono zwycięzcy, a procedura konkurencyjna została zamknięta.'</entry>
+<entry key="expression|name|620">'Procedura jest przyspieszona' (BT-106-Procedure) jest 'tak'</entry>
+<entry key="expression|name|621">Powiadomienie nie zostało zidentyfikowane jako 'Źródło podstaw do wykluczenia'</entry>
+<entry key="expression|name|622">Kraj działalności (BT-514-Business) używa kodów pocztowych</entry>
+<entry key="expression|name|623">Kraj organizacji (BT-514-Organization-Company) używa kodów pocztowych</entry>
+<entry key="expression|name|624">Kraj konkretnego punktu kontaktowego (BT-514-Organization-TouchPoint) używa kodów pocztowych</entry>
+<entry key="expression|name|625">Kraj zamieszkania ostatecznego właściciela korzyści (BT-514-UBO) używa kodów pocztowych</entry>
+<entry key="expression|name|626">Organizacja pełniąca tę rolę' (OPT-301-Tenderer-SubCont) nie istnieje</entry>
+<entry key="expression|name|627">'Identyfikator umowy' (BT-150-Contract) nie istnieje</entry>
 <entry key="expression|name|63">'Stosuje się umowę ramową' (BT-765) jest jednym z następujących: 'Umowa ramowa, częściowo bez ponownego poddania, a częściowo z ponownym poddaniem zamówienia procedurze konkurencyjnej'; 'Umowa ramowa, z ponownym poddaniem zamówienia procedurze konkurencyjnej'; 'Umowa ramowa, bez ponownego poddania zamówienia procedurze konkurencyjnej'; a 'Status wyboru zwycięzcy' (BT-142-LotResult) nie może być 'Wyłoniono co najmniej jednego zwycięzcę.'</entry>
 <entry key="expression|name|64">'Stosuje się umowę ramową' (BT-765) jest jednym z następujących: 'Umowa ramowa, częściowo bez ponownego poddania, a częściowo z ponownym poddaniem zamówienia procedurze konkurencyjnej'; 'Umowa ramowa, z ponownym poddaniem zamówienia procedurze konkurencyjnej'; 'Umowa ramowa, bez ponownego poddania zamówienia procedurze konkurencyjnej'; a 'Status wyboru zwycięzcy' (BT-142-LotResult) nie może być 'Wyłoniono co najmniej jednego zwycięzcę.'</entry>
 <entry key="expression|name|65">'Status wyboru zwycięzcy' (BT-142-LotResult) to 'Wyłoniono co najmniej jednego zwycięzcę.'</entry>
@@ -460,11 +451,14 @@
 <entry key="expression|name|86">'Wykorzystane istotne aktywa względem łącznych aktywów potrzebnych do świadczenia usług publicznych' (OPP-020-Contract) nie jest 'tak'</entry>
 <entry key="expression|name|87">'Wykonanie zamówienia musi odbywać się w ramach programów zatrudnienia chronionego' (BT-736-Lot) nie jest 'tak'</entry>
 <entry key="expression|name|89">'Odniesienie do umowy' (OPT-315-LotResult) nie jest puste</entry>
+<entry key="expression|name|9">'Opis' - 'Kryterium udzielenia' (BT-540-Lot) nie jest obecny lub 'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-Lot) jest obecny</entry>
 <entry key="expression|name|90">'Status wyboru zwycięzcy' (BT-142-LotResult) nie może być 'Wyłoniono co najmniej jednego zwycięzcę.'</entry>
 <entry key="expression|name|91">'Identyfikator oferty' (BT-3201-Tender) nie jest wypełnione</entry>
 <entry key="expression|name|93">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727-Lot) to 'W dowolnym miejscu' lub 'W dowolnym miejscu w Europejskim Obszarze Gospodarczym'</entry>
 <entry key="expression|name|94">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727-Part) nie może być 'W dowolnym miejscu' ani 'W dowolnym miejscu w Europejskim Obszarze Gospodarczym'</entry>
 <entry key="expression|name|95">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727-Procedure) to 'W dowolnym miejscu' lub 'W dowolnym miejscu w Europejskim Obszarze Gospodarczym'</entry>
-<entry key="expression|name|96">'Kryterium udzielenia - Liczba' (BT-541-Lot) jest wypełnione, 'Liczba jest wartością stałą' (BT-5422-Lot) i 'Liczba jest rodzajem progu' (BT-5423-Lot) nie są wypełnione</entry>
-<entry key="expression|name|97">'Kryterium udzielenia - Liczba' (BT-541-LotsGroup) jest wypełnione, 'Liczba jest wartością stałą' (BT-5422-LotsGroup) i 'Liczba jest rodzajem progu' (BT-5423-LotsGroup) nie są wypełnione</entry>
+<entry key="expression|name|96">'Opis' - 'Kryterium udzielenia' (BT-540-Lot) jest obecny, a 'Kryterium udzielenia - Liczba' – 'Liczba jest wartością stałą' (BT-541-Lot-FixedNumber), 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem progu' (BT-541-Lot-ThresholdNumber) &amp; 'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-Lot) nie są obecne</entry>
+<entry key="expression|name|97">'Opis' - 'Kryterium udzielenia' (BT-540-Lot) is aanwezig en 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem wagi' (BT-541-Lot-WeightNumber), 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem progu' (BT-541-Lot-ThresholdNumber) &amp; 'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-Lot) zijn niet aanwezig</entry>
+<entry key="expression|name|98">'Opis' - 'Kryterium udzielenia' (BT-540-Lot) jest obecny, a 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem wagi' (BT-541-Lot-WeightNumber), 'Kryterium udzielenia - Liczba' – 'Liczba jest wartością stałą' (BT-541-Lot-FixedNumber) &amp; 'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-Lot) nie są obecne</entry>
+<entry key="expression|name|99">'Opis' - 'Kryterium udzielenia' (BT-540-LotsGroup) jest obecny, a 'Kryterium udzielenia - Liczba' – 'Liczba jest wartością stałą' (BT-541-LotsGroup-FixedNumber), 'Kryterium udzielenia - Liczba' – 'Liczba jest rodzajem progu' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom' (BT-543-LotsGroup) nie są obecne</entry>
 </properties>

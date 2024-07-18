@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Spanish. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Información sobre recurrencia</entry>
 <entry key="group|name|GR-Business-Address">Dirección</entry>
 <entry key="group|name|GR-Business-Contact">Contacto</entry>
 <entry key="group|name|GR-Business-Party">Parte empresarial</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Condiciones de la subasta</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Consecuencias de la adjudicación</entry>
 <entry key="group|name|GR-Lot-Candidates">Personas candidatas</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Requisitos para la ejecución del contrato</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Renovaciones y opciones</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Sistema de contratación</entry>
 <entry key="group|name|GR-Lot-Deadline">Plazos para el recurso</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Organización de mediación</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Lugar de ejecución</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Duración estimada</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Duración</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Período</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Proceso posterior a la adjudicación</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Planificación anterior</entry>
 <entry key="group|name|GR-Lot-Procedure">Procedimiento</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parámetros de los criterios de adjudicación</entry>
 <entry key="group|name|GR-LotsGroup-Description">Descripción del grupo de lotes</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Información sobre el acuerdo marco</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Lotes incluidos en el grupo de lotes</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Finalidad</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Ámbito de la contratación</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Condiciones de la licitación</entry>
 <entry key="group|name|GR-Metadata">Metadatos</entry>
 <entry key="group|name|GR-Modification">Modificación</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Sección a la que se aplica la modificación</entry>
 <entry key="group|name|GR-Nda">Acuerdo de confidencialidad</entry>
 <entry key="group|name|GR-NoticeResult-Section">Resultado</entry>
 <entry key="group|name|GR-Organisations">Organizaciones mencionadas en el anuncio</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Descripción</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Adjudicación directa</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Motivos de exclusión</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Referencia a la legislación local</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Otra base jurídica sin un identificador</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Otra base jurídica con un identificador</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Base jurídica</entry>
@@ -181,20 +174,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Derecho transfronterizo (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Tipo de procedimiento (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Tipo de procedimiento (publicado más tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Procedimiento acelerado (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Valor estimado del acuerdo marco (publicado más tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Valor estimado del acuerdo marco (publicado más tarde)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Valor máximo de los acuerdos marco del presente procedimiento (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Identificador del procedimiento anterior que justifica la adjudicación directa (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Identificador del procedimiento anterior que justifica la adjudicación directa (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Descripción de la adjudicación directa (publicada más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Descripción de la adjudicación directa (publicada más tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Justificación del procedimiento acelerado (publicada más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Justificación de la adjudicación directa (publicada más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Estado de selección del ganador (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Estado de selección del ganador (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Motivo por el que no se eligió un ganador (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Motivo por el que no se eligió un ganador (publicado más tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Valor estimado de los acuerdos marco del grupo de lotes (publicado más tarde)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Valor máximo de los acuerdos marco de este grupo de lotes (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Ingresos estimados del comprador que adjudicó la concesión (publicados más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valor de todos los contratos adjudicados en el presente procedimiento (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Ingresos estimados procedentes de los usuarios de la concesión (publicados más tarde)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Descripción (publicada más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Descripción (publicada más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Descripción (publicada más tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Criterio de adjudicación: número (publicado más tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Criterio de adjudicación: número (publicado más tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Criterio de adjudicación: número (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">El número es un tipo de ponderación (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">El número es un tipo de ponderación (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">El número es un tipo de ponderación (publicado más tarde)</entry>
@@ -250,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Procedimiento acelerado</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justificación de la ausencia de criterios de accesibilidad</entry>
 <entry key="group|name|ND-Asset">Activos que justifican la prórroga del contrato</entry>
+<entry key="group|name|ND-AuctionTerms">Condiciones de la subasta</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Miembro del jurado</entry>
 <entry key="group|name|ND-BusinessCapability">Actividad empresarial</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Solicitudes de recurso</entry>
@@ -272,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Motivos de exclusión</entry>
 <entry key="group|name|ND-ExecutionRequirements">Términos de ejecución</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Prórroga del contrato</entry>
+<entry key="group|name|ND-FSR">Aplicabilidad del Reglamento de Subvenciones Extranjeras</entry>
 <entry key="group|name|ND-FinancingParty">Organización financiera</entry>
 <entry key="group|name|ND-Funding">Fondos de la UE</entry>
 <entry key="group|name|ND-GazetteReference">Referencia a la publicación</entry>
@@ -294,9 +284,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Criterio de adjudicación del lote: número complejo (publicado más tarde)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">El criterio de adjudicación del lote es un número fijo (publicado más tarde)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">El número de criterio de adjudicación del lote es un umbral (publicado más tarde)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Número del criterio de adjudicación del lote (publicado más tarde)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Ponderación del número del criterio de adjudicación del lote (publicada más tarde)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Parámetro del criterio de adjudicación</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Parámetros de los criterios de adjudicación</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Criterio de umbral de valor (publicado posteriormente)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Tipo de criterio de adjudicación del lote (publicado más tarde)</entry>
@@ -342,9 +330,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Criterios de adjudicación del grupo de lotes: número complejo (publicado más tarde)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">El criterio de adjudicación del grupo de lotes es un número fijo (publicado más tarde)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">El número de criterio de adjudicación del grupo de lotes es un umbral (publicado más tarde)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Número del criterio de adjudicación del grupo de lotes (publicado más tarde)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Ponderación del número de criterios de adjudicación del grupo de lotes (publicado más tarde)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parámetro del criterio de adjudicación</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parámetros del criterio de adjudicación</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Criterio de umbral de valor (publicado posteriormente)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Tipo de criterio de adjudicación del grupo de lotes (publicado más tarde)</entry>
@@ -363,7 +349,6 @@
 <entry key="group|name|ND-NoticeResult">Resultado</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Valor máximo del grupo de lotes</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Valor del anuncio (publicado más tarde)</entry>
-<entry key="group|name|ND-OptionsDescription">Descripción de opciones</entry>
 <entry key="group|name|ND-Organization">Organizaciones mencionadas en el anuncio</entry>
 <entry key="group|name|ND-OrganizationUboReference">Beneficiario último</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Condiciones distintas de la asignación de ingresos</entry>

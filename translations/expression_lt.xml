@@ -3,16 +3,14 @@
 <properties>
 <comment>expression in Lithuanian. File generated from metadata database.</comment>
 <entry key="expression|name|1">'Pirkėjas yra perkantysis subjektas' (BT-740) reikšmė yra 'Ne'</entry>
-<entry key="expression|name|100">'Skyrimo kriterijus: skaičius' (BT-541-Lot) užpildyta, 'Skaičius yra tam tikras lyginamasis svoris' (BT-5421-Lot) ir 'Skaičius yra tam tikra vertės riba' (BT-5423-Lot) – neužpildyta</entry>
-<entry key="expression|name|101">'Skyrimo kriterijus: skaičius' (BT-541-Lot) užpildyta, 'Skaičius yra tam tikras lyginamasis svoris' (BT-5421-Lot) ir 'Skaičius yra tam tikra vertės riba' (BT-5422-Lot) – neužpildyta</entry>
-<entry key="expression|name|102">'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup) užpildyta, 'Skaičius yra tam tikras lyginamasis svoris' (BT-5421-LotsGroup) ir 'Skaičius yra tam tikra vertės riba' (BT-5423-LotsGroup) – neužpildyta</entry>
-<entry key="expression|name|103">'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup) užpildyta, 'Skaičius yra tam tikras lyginamasis svoris' (BT-5421-LotsGroup) ir 'Skaičius yra tam tikra vertės riba' (BT-5422-LotsGroup) – neužpildyta</entry>
+<entry key="expression|name|10">'Aprašymas' - 'Skyrimo kriterijus' (BT-540-LotsGroup) nėra arba 'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-LotsGroup) yra</entry>
+<entry key="expression|name|100">'Aprašymas' - 'Skyrimo kriterijus' (BT-540-LotsGroup) yra ir 'Skyrimo kriterijus: skaičius' – 'Skaičius yra tam tikras lyginamasis svoris' (BT-541-LotsGroup-WeightNumber), 'Skyrimo kriterijus: skaičius' – 'Skaičius yra tam tikra vertės riba' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-LotsGroup) nėra</entry>
+<entry key="expression|name|101">'Aprašymas' - 'Skyrimo kriterijus' (BT-540-LotsGroup) yra ir 'Skyrimo kriterijus: skaičius' – 'Skaičius yra tam tikras lyginamasis svoris' (BT-541-LotsGroup-WeightNumber), 'Skyrimo kriterijus: skaičius' – 'Skaičius yra fiksuotoji vertė' (BT-541-LotsGroup-FixedNumber) &amp; 'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-LotsGroup) nėra</entry>
 <entry key="expression|name|104">'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-Lots) neužpildyta</entry>
 <entry key="expression|name|105">'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-LotsGroup) neužpildyta</entry>
 <entry key="expression|name|106">'Galiojimas' (BT-36-Lot) ar 'Trukmės pabaigos data' (BT-537-Lot) užpildyta</entry>
 <entry key="expression|name|107">'Galiojimas' (BT-36-Lot) ar 'Kitas galiojimas' (BT-538-Lot) užpildyta</entry>
 <entry key="expression|name|108">'Trukmės pabaigos data' (BT-537-Lot) ar 'Kitas galiojimas' (BT-538-Lot) užpildyta</entry>
-<entry key="expression|name|109">'Pirkimo būdas' (BT-105) nėra 'Tiesioginis skyrimas'</entry>
 <entry key="expression|name|11">'Pradžios data' (BT-536-Part) neužpildyta</entry>
 <entry key="expression|name|110">'Pirkimo būdas' (BT-105) yra 'Atviras'; 'Pirkimo būdas' (BT-105) yra 'Kita vieno etapo procedūra', o 'Dalyvavimo prašymų priėmimo terminas' (BT-1311) neužpildyta; 'Pirkimo būdas' (BT-105) turi būti 'Kita kelių etapų procedūra' ir 'Dalyvavimo prašymų priėmimo terminas' (BT-1311) neužpildyta</entry>
 <entry key="expression|name|111">'Pirkimo būdas' (BT-105) yra 'Kita vieno etapo procedūra', o 'Pasiūlymų priėmimo terminas' (BT-131) neužpildyta; 'Pirkimo būdas' (BT-105) yra 'Kita kelių etapų procedūra', o 'Dalyvavimo prašymų priėmimo terminas' (BT-131) neužpildyta</entry>
@@ -21,7 +19,6 @@
 <entry key="expression|name|114">'Pasiūlymų priėmimo terminas' (BT-131(d)-Lot) užpildyta</entry>
 <entry key="expression|name|115">'Dalyvavimo prašymų priėmimo terminas' (BT-1311(d)-Lot) užpildyta</entry>
 <entry key="expression|name|116">'Pirkimo būdas' (BT-105) yra 'Atviras' arba 'Kita vieno etapo procedūra', arba 'Derybos be išankstinio skelbimo apie pirkimą'</entry>
-<entry key="expression|name|117">'Rūšis' (BT-747-Lot) neužpildyta</entry>
 <entry key="expression|name|118">'Pašto adresas' (BT-5101(a)-Lot) neužpildyta</entry>
 <entry key="expression|name|119">'Pašto adresas' (BT-5101(a)-Part) neužpildyta</entry>
 <entry key="expression|name|12">'Pirkėjo teisinė forma' (BT-11) yra vienas iš šių: 'Viešosios teisės reglamentuojama įstaiga'; 'Viešosios teisės reglamentuojama įstaiga, kontroliuojama centrinės valdžios institucijos'; 'Viešosios teisės reglamentuojama įstaiga, kontroliuojama vietos valdžios institucijos'; 'Viešosios teisės reglamentuojama įstaiga, kontroliuojama regioninės valdžios institucijos'; 'Centrinės valdžios institucija'; 'Gynybos sektoriaus rangovas'; 'ES institucija, įstaiga ar agentūra'; 'Eiropas institūcija/aģentūra vai starptautiska organizācija'; 'Tarptautinė organizacija'; 'Vietos valdžios institucija'; 'Organizacija, skirianti sutartį, subsidijuojamą centrinės valdžios institucijos'; 'Organizacija, skirianti sutartį, subsidijuojamą vietos valdžios institucijos'; 'Organizacija, skirianti sutartį, subsidijuojamą regioninės valdžios institucijos'; 'Valstybinė įmonė'; 'Valstybinė įmonė, kontroliuojama centrinės valdžios institucijos'; 'Valstybinė įmonė, kontroliuojama vietos valdžios institucijos'; 'Valstybinė įmonė, kontroliuojama regioninės valdžios institucijos'; 'Regioninės valdžios institucija'; 'Regiono ar vietos valdžios institucija'</entry>
@@ -57,15 +54,7 @@
 <entry key="expression|name|15">'Prieiga prie tam tikrų pirkimo dokumentų yra ribota' (BT-14-Part) neapribota</entry>
 <entry key="expression|name|150">'Aprašymas' (BT-540-Lot) neužpildyta</entry>
 <entry key="expression|name|151">'Aprašymas' (BT-540-LotsGroup) neužpildyta</entry>
-<entry key="expression|name|152">'Skyrimo kriterijus: skaičius' (BT-541) neužpildyta ar 'Skaičius yra fiksuotoji vertė' (BT-5422) užpildyta 'Skaičius yra tam tikra vertės riba' (BT-5423) užpildyta</entry>
-<entry key="expression|name|153">'Skyrimo kriterijus: skaičius' (BT-541) neužpildyta ar 'Skaičius yra fiksuotoji vertė' (BT-5422) užpildyta 'Skaičius yra tam tikra vertės riba' (BT-5423) užpildyta</entry>
-<entry key="expression|name|154">'Skyrimo kriterijus: skaičius' (BT-541) neužpildyta ar 'Skaičius yra tam tikras lyginamasis svoris' (BT-5421) užpildyta, ar 'Skaičius yra tam tikra vertės riba' (BT-5423) užpildyta, ar 'Rūšis' (BT-539) yra 'Kokybė'</entry>
-<entry key="expression|name|155">'Skyrimo kriterijus: skaičius' (BT-541) neužpildyta ar 'Skaičius yra tam tikras lyginamasis svoris' (BT-5421) užpildyta, ar 'Skaičius yra tam tikra vertės riba' (BT-5423) užpildyta, ar 'Rūšis' (BT-539) yra 'Kokybė'</entry>
-<entry key="expression|name|156">'Skyrimo kriterijus: skaičius' (BT-541) neužpildyta ar 'Skaičius yra fiksuotoji vertė' (BT-5422) užpildyta, ar 'Skaičius yra tam tikra vertės riba' (BT-5423) užpildyta</entry>
-<entry key="expression|name|157">'Skyrimo kriterijus: skaičius' (BT-541) neužpildyta ar 'Skaičius yra fiksuotoji vertė' (BT-5422) užpildyta, ar 'Skaičius yra tam tikra vertės riba' (BT-5423) užpildyta</entry>
-<entry key="expression|name|158">'Dalyvis privalo pateikti pasiūlymus dėl visų pirkimo dalių' ((BT-763)) yra teisinga</entry>
 <entry key="expression|name|159">Lotai nėra 'Dalyvis privalo pateikti pasiūlymus dėl visų pirkimo dalių' (BT-763) ir pranešime yra daugiau nei vienas lotas</entry>
-<entry key="expression|name|16">'Skyrimo kriterijus: skaičius' (BT-541-Lot) nėra tuščia</entry>
 <entry key="expression|name|160">Nėra kelių dalių</entry>
 <entry key="expression|name|161">'Pagrindinis klasifikacijos kodas' (BT-262-Lot) neužpildyta</entry>
 <entry key="expression|name|162">'Pagrindinis klasifikacijos kodas' (BT-262-Part) neužpildyta</entry>
@@ -87,7 +76,6 @@
 <entry key="expression|name|177">'Pasiūlymo techninis ID' (OPT-321-Tender) nėra</entry>
 <entry key="expression|name|178">'Organizacija, atliekanti šį vaidmenį' (OPT-300-Tenderer) nėra</entry>
 <entry key="expression|name|179">'Organizacija arba konkretus kontaktinis taškas' (OPT-301-Tenderer-MainCont) neužpildyta</entry>
-<entry key="expression|name|18">'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup) nėra tuščia</entry>
 <entry key="expression|name|180">'Oficialus pavadinimas' (BT-500-Organization-Company) neužpildyta</entry>
 <entry key="expression|name|181">'Oficialus pavadinimas' (BT-500-Organization-TouchPoint) neužpildyta</entry>
 <entry key="expression|name|182">'Šalis' (BT-514-Organization-Company) neturi NUTS kodų</entry>
@@ -104,7 +92,7 @@
 <entry key="expression|name|192">'Darbo teisės interneto adresas' (OPT-130-Part-EmployLegis) užpildyta</entry>
 <entry key="expression|name|193">'Peržiūra: taisomoji priemonė: rūšis' (BT-792-Review) nėra 'Alternatyvi sankcija' arba 'Nuostolių atlyginimas'</entry>
 <entry key="expression|name|194">'Peržiūra: taisomoji priemonė: rūšis' (BT-792-Review) yra 'Nuostolių atlyginimas'</entry>
-<entry key="expression|name|195">'Peržiūros prašymas: atsiimtas' (BT-796-Review) netiesa</entry>
+<entry key="expression|name|195">'Peržiūros prašymas: atsiimtas' (BT-796-Review) nėra 'taip'</entry>
 <entry key="expression|name|196">'Peržiūra: ID' (BT-784-Review) neužpildyta</entry>
 <entry key="expression|name|197">'Ankstesnio skelbimo identifikatorius' (BT-125i-Lot) neužpildyta</entry>
 <entry key="expression|name|198">'Ankstesnio skelbimo identifikatorius' (BT-125(i)-Part) neužpildyta</entry>
@@ -117,12 +105,12 @@
 <entry key="expression|name|203">Nebuvo paskirta nė vienos dalies</entry>
 <entry key="expression|name|204">'Sutartis: pasiūlymas: ID' (BT-3202-Contract) neužpildyta</entry>
 <entry key="expression|name|205">'Pirkimo būdas' (BT-105) nėra 'Derybos be išankstinio skelbimo apie pirkimą'; 'Teisinis pagrindas' (BT-01) nėra 'Reglamentas (ES, Euratomas) 2018/1046'; bent vienas 'Sutartis: pasiūlymas: ID' (BT-3202-Contract) užpildytas</entry>
-<entry key="expression|name|206">'Sutartis skiriama pagal preliminariąją sutartį' (BT-768-Contract) netiesa</entry>
+<entry key="expression|name|206">'Sutartis skiriama pagal preliminariąją sutartį' (BT-768-Contract) nėra 'taip'</entry>
 <entry key="expression|name|207">'Pasiūlymo identifikatorius' (BT-3201-Tender) užpildyta</entry>
 <entry key="expression|name|209">'Ankstesnė skelbimo redakcija, kuri turi būti pakeista' (BT-758-notice) neužpildyta</entry>
 <entry key="expression|name|21">'Šalies administracinis vienetas (NUTS)' B373(BT-5071-Lot) užpildyta</entry>
 <entry key="expression|name|210">'Skirsnio identifikatorius' (BT-13716-notice) neužpildyta</entry>
-<entry key="expression|name|211">Rodiklis „Pirkimo dokumentai pasikeitė“ (BT-718-notice) neteisingas</entry>
+<entry key="expression|name|211">Rodiklis 'Pirkimo dokumentai pasikeitė' (BT-718-notice) nėra 'taip'</entry>
 <entry key="expression|name|212">'Pagrindinė pakeitimo priežastis' (BT-140-notice) neužpildyta</entry>
 <entry key="expression|name|213">Taikoma ES įmonių registracijai</entry>
 <entry key="expression|name|214">'Taikoma tarpvalstybinė teisė' (BT-09(b)-Procedure) neužpildyta</entry>
@@ -149,8 +137,6 @@
 <entry key="expression|name|233">'Rūšis' (BT-539-LotsGroup) neužpildyta</entry>
 <entry key="expression|name|234">'Aprašymas' (BT-540-Lot) neužpildyta</entry>
 <entry key="expression|name|235">'Aprašymas' (BT-540-LotsGroup) neužpildyta</entry>
-<entry key="expression|name|236">'Skyrimo kriterijus: skaičius' (BT-541-Lot) neužpildyta</entry>
-<entry key="expression|name|237">'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup) neužpildyta</entry>
 <entry key="expression|name|238">'Skaičius yra tam tikras lyginamasis svoris' (BT-5421-Lot) neužpildyta</entry>
 <entry key="expression|name|239">'Skaičius yra tam tikras lyginamasis svoris' (BT-5421-LotsGroup) neužpildyta</entry>
 <entry key="expression|name|24">'Pradžios data' (BT-536-Lot) neužpildyta</entry>
@@ -197,7 +183,6 @@
 <entry key="expression|name|277">'Vėliau skelbtinas laukas' (BT-195(BT-161)-NoticeResult) neužpildyta</entry>
 <entry key="expression|name|278">'Vėliau skelbtinas laukas' (BT-195(BT-162)-Tender) neužpildyta</entry>
 <entry key="expression|name|279">'Vėliau skelbtinas laukas' (BT-195(BT-163)-Tender) neužpildyta</entry>
-<entry key="expression|name|28">'Šio kriterijaus taikymas' (BT-748) yra 'Naudoti'</entry>
 <entry key="expression|name|280">'Vėliau skelbtinas laukas' (BT-195(BT-171)-Tender) neužpildyta</entry>
 <entry key="expression|name|281">'Vėliau skelbtinas laukas' (BT-195(BT-191)-Tender) neužpildyta</entry>
 <entry key="expression|name|282">'Vėliau skelbtinas laukas' (BT-195(BT-193)-Tender) neužpildyta</entry>
@@ -231,7 +216,6 @@
 <entry key="expression|name|307">'Vėliau skelbtinas laukas' (BT-195(BT-731)-Tender) neužpildyta</entry>
 <entry key="expression|name|308">'Vėliau skelbtinas laukas' (BT-195(BT-733)-Lot) neužpildyta</entry>
 <entry key="expression|name|309">'Vėliau skelbtinas laukas' (BT-195(BT-733)-LotsGroup) neužpildyta</entry>
-<entry key="expression|name|31">'Atrankos kriterijai: kvietimas į antrąjį etapą: skaičius' (BT-752-Lot) nėra tuščia</entry>
 <entry key="expression|name|310">'Vėliau skelbtinas laukas' (BT-195(BT-734)-Lot) neužpildyta</entry>
 <entry key="expression|name|311">'Vėliau skelbtinas laukas' (BT-195(BT-734)-LotsGroup) neužpildyta</entry>
 <entry key="expression|name|312">'Vėliau skelbtinas laukas' (BT-195(BT-759)-LotResult) neužpildyta</entry>
@@ -242,7 +226,6 @@
 <entry key="expression|name|317">'Tai pasikartojantis pirkimas' (BT-94-Lot) nėra 'taip'</entry>
 <entry key="expression|name|318">'Pirkimo būdas' (BT-105-Procedure) yra 'Atviras'</entry>
 <entry key="expression|name|319">'Organizacija arba konkretus kontaktinis taškas' (OPT-301-Lot-ReviewInfo) neužpildyta</entry>
-<entry key="expression|name|32">'Atrankos kriterijai: kvietimas į antrąjį etapą: skaičius' (BT-752-Lot) nėra tuščia</entry>
 <entry key="expression|name|320">'Naudojamas elektroninis aukcionas' (BT-767-Lot) nėra 'taip'</entry>
 <entry key="expression|name|321">'Pirkimo būdas' (BT-105) nėra 'Ribotas'</entry>
 <entry key="expression|name|322">'Transporto priemonės tipas' (OPT-155-LotResult) neužpildyta</entry>
@@ -298,7 +281,6 @@
 <entry key="expression|name|369">Reikalaujama teikti elektroniniu būdu</entry>
 <entry key="expression|name|370">Neleidžiama teikti elektroniniu būdu</entry>
 <entry key="expression|name|371">Pirkimo dalių grupę sudaro viena arba mažiau dalių</entry>
-<entry key="expression|name|372">'Rūšis' (BT-747-Lot) neužpildyta</entry>
 <entry key="expression|name|373">Pirkimo dalių grupę sudaro dalys, dėl kurių nesudaryta preliminarioji sutartis</entry>
 <entry key="expression|name|374">'Dalyviui nustatoma subrangos prievolė' (BT-66) neužpildyta</entry>
 <entry key="expression|name|375">'Trukmės pabaigos data' (BT-537-Part) užpildyta; 'Kitas galiojimas' (BT-538-Part) užpildyta</entry>
@@ -374,7 +356,7 @@
 <entry key="expression|name|539">Tai nėra preliminarioji sutartis; 'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) neužpildyta</entry>
 <entry key="expression|name|54">'Dalyviui nustatoma subrangos prievolė' (BT-65_Lot) nėra 'Rangovas privalo sudaryti subrangos sutartį dėl mažiausios visos sutarties procentinės dalies pagal Direktyvos 2009/81/EB III antraštinėje dalyje nustatytą procedūrą.'</entry>
 <entry key="expression|name|540">Laimėtojas nepasirinktas; Tai nėra preliminarioji sutartis; 'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) neužpildyta</entry>
-<entry key="expression|name|542">'Pirkimo dalių grupė: preliminarioji sutartis: vertė: pirkimo dalies ID' (BT-556) užpildyta, o '' neužpildyta</entry>
+<entry key="expression|name|542">'Pirkimo dalių grupė: preliminarioji sutartis: vertė: pirkimo dalies ID' (BT-556) užpildyta, o 'Pirkimo dalių grupės iš naujo įvertinta vertė pagal preliminariąsias sutartis (BT-1561)' neužpildyta</entry>
 <entry key="expression|name|543">'Pirkimo dalių grupė: preliminarioji sutartis: vertė: pirkimo dalies ID' (BT-556) užpildyta, o 'Pirkimo dalių grupės numatoma vertė pagal preliminariąsias sutartis' neužpildyta</entry>
 <entry key="expression|name|544">'Preliminariųjų sutarčių apytikslė vertė' (BT-1118-NoticeResult) neužpildyta</entry>
 <entry key="expression|name|545">'Vėliau skelbtinas laukas' (BT-195(BT-1118)-NoticeResult) neužpildyta</entry>
@@ -396,13 +378,7 @@
 <entry key="expression|name|560">'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) neužpildyta</entry>
 <entry key="expression|name|561">'Vėliau skelbtinas laukas' (BT-195(BT-660)-LotResult) neužpildyta</entry>
 <entry key="expression|name|568">'Teikimo reikalavimo kodas' (OPT-060-Lot) neužpildyta</entry>
-<entry key="expression|name|569">'Aprašymas' (BT-540-Lot) yra ir 'Skyrimo kriterijus: skaičius' (BT-541-Lot-FixedNumber) &amp;amp; 'Skyrimo kriterijus: skaičius' (BT-541-Lot-ThresholdNumber) nėra</entry>
 <entry key="expression|name|57">'Taikoma preliminarioji sutartis' (BT-765-Lot) yra 'Netaikoma'</entry>
-<entry key="expression|name|570">'Aprašymas' (BT-540-Lot) yra ir 'Skyrimo kriterijus: skaičius' (BT-541-Lot-WeightNumber) &amp;amp; 'Skyrimo kriterijus: skaičius' (BT-541-Lot-ThresholdNumber) nėra</entry>
-<entry key="expression|name|571">'Aprašymas' (BT-540-Lot) yra ir 'Skyrimo kriterijus: skaičius' (BT-541-Lot-WeightNumber) &amp;amp; 'Skyrimo kriterijus: skaičius' (BT-541-Lot-FixedNumber) nėra</entry>
-<entry key="expression|name|572">'Aprašymas' (BT-540-LotsGroup) yra ir 'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup-ThresholdNumber) nėra</entry>
-<entry key="expression|name|573">'Aprašymas' (BT-540-LotsGroup) yra ir 'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup-ThresholdNumber) nėra</entry>
-<entry key="expression|name|574">'Aprašymas' (BT-540-LotsGroup) yra ir 'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup-FixedNumber) nėra</entry>
 <entry key="expression|name|575">'Skyrimo kriterijus: skaičius' (BT-541-Lot-WeightNumber) nėra</entry>
 <entry key="expression|name|576">'Skyrimo kriterijus: skaičius' (BT-541-Lot-FixedNumber) nėra</entry>
 <entry key="expression|name|577">'Skyrimo kriterijus: skaičius' (BT-541-Lot-ThresholdNumber) nėra</entry>
@@ -435,7 +411,22 @@
 <entry key="expression|name|604">'Pirkimo būdas' (BT-105) vertė yra lygi 'Kita kelių etapų procedūra'</entry>
 <entry key="expression|name|605">Modifikuotinos sutarties identifikatorius (BT-1501(c)-Contract) yra užpildytas</entry>
 <entry key="expression|name|61">'Tiesioginio skyrimo pagrindimas' (BT-136-Procedure) nėra vienas iš šių: 'Pagal ankstesnį skelbimą buvo gauta tik netinkamų ir nepriimtinų pasiūlymų. Derėtis pakviesti visi ankstesnės procedūros dalyviai, kurie atitiko atrankos kriterijus, formalius reikalavimus ir kuriems netaikomi pašalinimo pagrindai'; 'Poreikis įsigyti papildomų darbų arba paslaugų iš pirminio rangovo'; 'Nauji darbai ar paslaugos, kurie yra tokie pat kaip esami darbai ar paslaugos ir kurie užsakyti laikantis Direktyvoje nustatytų griežtų sąlygų'; 'Pagal ankstesnį skelbimą nebuvo gauta tinkamų pasiūlymų, dalyvavimo prašymų arba paraiškų'; 'Esamų prekių arba įrenginių dalinis pakeitimas arba gamybos linijos tąsa iš pirminio tiekėjo užsakoma laikantis Direktyvoje nustatytų griežtų sąlygų'; 'Paslaugų pirkimo sutartis, skiriama laimėtojui arba vienam iš laimėtojų, laikantis projekto konkurso taisyklių'</entry>
+<entry key="expression|name|613">Pasiūlymas nepateiktas nei partijai, kuriai 'Užsienio subsidijų reglamentas' (BT-681-Lot) nustatytas 'taip', nei partijų grupei, kurioje yra partija, kuriai 'Užsienio subsidijų reglamentas' (BT-681-Lot) nustatytas 'taip'</entry>
+<entry key="expression|name|614">Pranešimas nebuvo identifikuotas kaip 'Pasirinkimo kriterijų šaltinis'</entry>
+<entry key="expression|name|615">Pasirinkimo kriterijaus (BT-809) kodas neegzistuoja</entry>
+<entry key="expression|name|616">Organizacija yra pirkėjas, o dinaminė pirkimo sistema taip pat gali būti naudojama pirkėjams, kurie nėra nurodyti šiame pranešime, ir 'Centrinė perkančioji organizacija, įsigyjanti kitiems pirkėjams skirtas prekes ir (arba) paslaugas' (OPP-052) nėra užpildytas</entry>
+<entry key="expression|name|617">Organizacija yra pirkėjas, o dinaminė pirkimo sistema taip pat gali būti naudojama pirkėjams, kurie nėra nurodyti šiame pranešime, ir 'Centrinė perkančioji organizacija, įsigyjanti kitiems pirkėjams skirtas prekes ir (arba) paslaugas' (OPP-052) nėra užpildytas</entry>
+<entry key="expression|name|618">'Procedūra pagreitinta' (BT-106-Procedure) yra 'taip'</entry>
+<entry key="expression|name|619">'Procedūra pagreitinta' (BT-106-Procedure) yra 'taip'</entry>
 <entry key="expression|name|62">'Laimėtojo atrankos būsena' (BT-142-LotResult) nėra 'Nepasirinktas nė vienas laimėtojas ir konkursas baigtas.'</entry>
+<entry key="expression|name|620">'Procedūra pagreitinta' (BT-106-Procedure) yra 'taip'</entry>
+<entry key="expression|name|621">Pranešimas nebuvo identifikuotas kaip 'Pašalinimo pagrindų šaltinis'</entry>
+<entry key="expression|name|622">Verslo šalis (BT-514-Business) naudoja pašto kodus</entry>
+<entry key="expression|name|623">Organizacijos šalis (BT-514-Organization-Company) naudoja pašto kodus</entry>
+<entry key="expression|name|624">Specifinio kontakto taško šalis (BT-514-Organization-TouchPoint) naudoja pašto kodus</entry>
+<entry key="expression|name|625">Galutinio naudos gavėjo gyvenamoji šalis (BT-514-UBO) naudoja pašto kodus</entry>
+<entry key="expression|name|626">Organizacija, atliekanti šį vaidmenį' (OPT-301-Tenderer-SubCont) nėra</entry>
+<entry key="expression|name|627">'Sutarties identifikatorius' (BT-150-Contract) neegzistuoja</entry>
 <entry key="expression|name|63">'Taikoma preliminarioji sutartis' (BT-765) yra vienas iš šių: 'Preliminarioji sutartis, dėl dalies neskelbiant naujo konkurso ir dėl dalies skelbiant naują konkursą'; 'Preliminarioji sutartis, skelbiant naują konkursą'; 'Preliminarioji sutartis, neskelbiant naujo konkurso', o 'Laimėtojo atrankos būsena' (BT-142-LotResult) neturi būti 'Pasirinktas bent vienas laimėtojas.'</entry>
 <entry key="expression|name|64">'Taikoma preliminarioji sutartis' (BT-765) yra vienas iš šių: 'Preliminarioji sutartis, dėl dalies neskelbiant naujo konkurso ir dėl dalies skelbiant naują konkursą'; 'Preliminarioji sutartis, skelbiant naują konkursą'; 'Preliminarioji sutartis, neskelbiant naujo konkurso', o 'Laimėtojo atrankos būsena' (BT-142-LotResult) neturi būti 'Pasirinktas bent vienas laimėtojas.'</entry>
 <entry key="expression|name|65">'Laimėtojo atrankos būsena' (BT-142-LotResult) yra 'Pasirinktas bent vienas laimėtojas.'</entry>
@@ -460,11 +451,14 @@
 <entry key="expression|name|86">'Nurodyto esminio turto reikšmingumas viso turto, kurio reikia viešosioms paslaugoms teikti, atžvilgiu' (OPP-020-Contract) nėra 'taip'</entry>
 <entry key="expression|name|87">'Sutartis turi būti vykdoma pagal globojamų darbo grupių užimtumo programas' (BT-736-Lot) nėra 'taip'</entry>
 <entry key="expression|name|89">'Nuoroda į sutartį' (OPT-315-LotResult) nėra tuščia</entry>
+<entry key="expression|name|9">'Aprašymas' - 'Skyrimo kriterijus' (BT-540-Lot) nėra arba 'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-Lot) yra</entry>
 <entry key="expression|name|90">'Laimėtojo atrankos būsena' (BT-142-LotResult) neturi būti 'Pasirinktas bent vienas laimėtojas.'</entry>
 <entry key="expression|name|91">'Pasiūlymo identifikatorius' (BT-3201-Tender) neužpildyta</entry>
 <entry key="expression|name|93">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727-Lot) yra 'Bet kur' ar 'Bet kur Europos ekonominės erdvėje'</entry>
 <entry key="expression|name|94">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727-Part) neturi būti 'Bet kur' ar'Bet kur Europos ekonominės erdvėje'</entry>
 <entry key="expression|name|95">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727-Procedure) yra 'Bet kur' ar 'Bet kur Europos ekonominės erdvėje'</entry>
-<entry key="expression|name|96">'Skyrimo kriterijus: skaičius' (BT-541-Lot) užpildyta, 'Skaičius yra fiksuotoji vertė' (BT-5422-Lot) ir 'Skaičius yra tam tikra vertės riba' (BT-5423-Lot) neužpildyta</entry>
-<entry key="expression|name|97">'Skyrimo kriterijus: skaičius' (BT-541-LotsGroup) užpildyta. 'Skaičius yra fiksuotoji vertė' (BT-5422-LotsGroup) ir 'Skaičius yra tam tikra vertės riba' (BT-5423-LotsGroup) neužpildyta</entry>
+<entry key="expression|name|96">'Aprašymas' - 'Skyrimo kriterijus' (BT-540-Lot) yra ir 'Skyrimo kriterijus: skaičius' – 'Skaičius yra fiksuotoji vertė' (BT-541-Lot-FixedNumber), 'Skyrimo kriterijus: skaičius' – 'Skaičius yra tam tikra vertės riba' (BT-541-Lot-ThresholdNumber) &amp; 'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-Lot) nėra</entry>
+<entry key="expression|name|97">'Aprašymas' - 'Skyrimo kriterijus' (BT-540-Lot) è presente e 'Skyrimo kriterijus: skaičius' – 'Skaičius yra tam tikras lyginamasis svoris' (BT-541-Lot-WeightNumber), 'Skyrimo kriterijus: skaičius' – 'Skaičius yra tam tikra vertės riba' (BT-541-Lot-ThresholdNumber) &amp; 'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-Lot) non sono presenti</entry>
+<entry key="expression|name|98">'Aprašymas' - 'Skyrimo kriterijus' (BT-540-Lot) yra ir 'Skyrimo kriterijus: skaičius' – 'Skaičius yra tam tikras lyginamasis svoris' (BT-541-Lot-WeightNumber), 'Skyrimo kriterijus: skaičius' – 'Skaičius yra fiksuotoji vertė' (BT-541-Lot-FixedNumber) &amp; 'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-Lot) nėra</entry>
+<entry key="expression|name|99">'Aprašymas' - 'Skyrimo kriterijus' (BT-540-LotsGroup) yra ir 'Skyrimo kriterijus: skaičius' – 'Skaičius yra fiksuotoji vertė' (BT-541-LotsGroup-FixedNumber), 'Skyrimo kriterijus: skaičius' – 'Skaičius yra tam tikra vertės riba' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais' (BT-543-LotsGroup) nėra</entry>
 </properties>

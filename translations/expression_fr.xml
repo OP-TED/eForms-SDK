@@ -3,16 +3,14 @@
 <properties>
 <comment>expression in French. File generated from metadata database.</comment>
 <entry key="expression|name|1">La valeur de'L’acheteur est une entité adjudicatrice' (BT-740) est 'Non'</entry>
-<entry key="expression|name|100">'Nombre critère d’attribution' (BT-541-Lot) est rempli, 'Le nombre est une pondération' (BT-5421-Lot) et 'Le nombre est un type de seuil' (BT-5423-Lot) ne sont pas remplis</entry>
-<entry key="expression|name|101">'Nombre critère d’attribution' (BT-541-Lot) est rempli, 'Le nombre est une pondération' (BT-5421-Lot) et 'Le nombre est un type de seuil' (BT-5422-Lot) ne sont pas remplis</entry>
-<entry key="expression|name|102">'Nombre critère d’attribution' (BT-541-LotsGroup) est rempli, 'Le nombre est une pondération' (BT-5421-LotsGroup) et 'Le nombre est un type de seuil' (BT-5423-LotsGroup) ne sont pas remplis</entry>
-<entry key="expression|name|103">'Nombre critère d’attribution' (BT-541-LotsGroup) est rempli, 'Le nombre est une pondération' (BT-5421-LotsGroup) et 'Le nombre est un type de seuil' (BT-5422-LotsGroup) ne sont pas remplis</entry>
+<entry key="expression|name|10">'Description' - 'Critère d’attribution' (BT-540-LotsGroup) n'est pas présent ou 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-LotsGroup) est présent</entry>
+<entry key="expression|name|100">'Description' - 'Critère d’attribution' (BT-540-LotsGroup) est présent et 'Nombre critère d’attribution' – 'Le nombre est une pondération' (BT-541-LotsGroup-WeightNumber), 'Nombre critère d’attribution' – 'Le nombre est un type de seuil' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-LotsGroup) ne sont pas présents</entry>
+<entry key="expression|name|101">'Description' - 'Critère d’attribution' (BT-540-LotsGroup) est présent et 'Nombre critère d’attribution' – 'Le nombre est une pondération' (BT-541-LotsGroup-WeightNumber), 'Nombre critère d’attribution' – 'Le nombre est une valeur fixe' (BT-541-LotsGroup-FixedNumber) &amp; 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-LotsGroup) ne sont pas présents</entry>
 <entry key="expression|name|104">'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-Lots) n’est pas rempli</entry>
 <entry key="expression|name|105">'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-LotsGroup) n’est pas rempli</entry>
 <entry key="expression|name|106">'Durée' (BT-36-Lot) ou 'Date de fin de durée' (BT-537-Lot) est rempli</entry>
 <entry key="expression|name|107">'Durée' (BT-36-Lot) ou 'Autre durée' (BT-538-Lot) est rempli</entry>
 <entry key="expression|name|108">'Date de fin de durée' (BT-537-Lot) ou 'Autre durée' (BT-538-Lot) est rempli</entry>
-<entry key="expression|name|109">'Type de procédure' (BT-105) n’est pas 'Attribution directe'</entry>
 <entry key="expression|name|11">'Date de début' (BT-536-Part) n’est pas rempli</entry>
 <entry key="expression|name|110">'Type de procédure' (BT-105) est 'Ouverte'; 'Type de procédure' (BT-105) est 'Autre procédure en une seule étape' et 'Date limite de réception des demandes de participation' (BT-1311) n’est pas rempli; 'Type de procédure' (BT-105) doit être 'Autre procédure en plusieurs étapes' et 'Date limite de réception des demandes de participation' (BT-1311) n’est pas rempli</entry>
 <entry key="expression|name|111">'Type de procédure' (BT-105) est 'Autre procédure en une seule étape' et 'Date limite de réception des offres' (BT-131) n’est pas rempli; 'Type de procédure' (BT-105) est 'Autre procédure en plusieurs étapes' et 'Date limite de réception des demandes de participation' (BT-131) n’est pas rempli</entry>
@@ -21,7 +19,6 @@
 <entry key="expression|name|114">'Date limite de réception des offres' (BT-131(d)-Lot) est rempli</entry>
 <entry key="expression|name|115">'Date limite de réception des demandes de participation' (BT-1311(d)-Lot) est rempli</entry>
 <entry key="expression|name|116">'Type de procédure' (BT-105) est 'Ouverte', 'Autre procédure en une seule étape' ou 'Négociée sans mise en concurrence préalable'</entry>
-<entry key="expression|name|117">'Type' (BT-747-Lot) n’est pas rempli</entry>
 <entry key="expression|name|118">'Adresse postale' (BT-5101(a)-Lot) n’est pas rempli</entry>
 <entry key="expression|name|119">'Adresse postale' (BT-5101(a)-Part) n’est pas rempli</entry>
 <entry key="expression|name|12">'Forme juridique de l’acheteur' (BT-11) est l’un des éléments suivants: 'Organisme de droit public'; 'Organisme de droit public, contrôlé par une autorité publique centrale'; 'Organisme de droit public, contrôlé par une autorité locale'; 'Organisme de droit public, contrôlé par une autorité régionale'; 'Autorité publique centrale'; 'Contractant du secteur de la défense'; 'Institution, organe ou agence de l’UE'; 'Institution/agence européenne ou organisation internationale'; 'Organisation internationale'; 'Autorité locale'; 'Organisation qui passe un marché subventionné par une autorité publique centrale'; 'Organisation qui passe un marché subventionné par une autorité locale'; 'Organisation qui passe un marché subventionné par une autorité régionale'; 'Entreprise publique'; 'Entreprise publique, contrôlée par une autorité publique centrale'; 'Entreprise publique, contrôlée par une autorité locale'; 'Entreprise publique, contrôlée par une autorité régionale'; 'Autorité régionale'; 'Autorité régionale ou locale'</entry>
@@ -57,15 +54,7 @@
 <entry key="expression|name|15">'L’accès à certains documents de marché est restreint' (BT-14-Part) n’est pas restreint</entry>
 <entry key="expression|name|150">'Description' (BT-540-Lot) n’est pas rempli</entry>
 <entry key="expression|name|151">'Description' (BT-540-LotsGroup) n’est pas rempli</entry>
-<entry key="expression|name|152">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
-<entry key="expression|name|153">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
-<entry key="expression|name|154">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une pondération' (BT-5421) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli ou 'Type' (BT-539) est 'Qualité'</entry>
-<entry key="expression|name|155">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une pondération' (BT-5421) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli ou 'Type' (BT-539) est 'Qualité'</entry>
-<entry key="expression|name|156">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
-<entry key="expression|name|157">'Nombre critère d’attribution' (BT-541) n’est pas rempli ou 'Le nombre est une valeur fixe' (BT-5422) est rempli ou 'Le nombre est un type de seuil' (BT-5423) est rempli</entry>
-<entry key="expression|name|158">'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' ((BT-763)) est vrai</entry>
 <entry key="expression|name|159">Les lots ne sont pas 'Le soumissionnaire doit présenter une offre pour l’ensemble des lots' (BT-763) et il y a plus d'un lot dans l'avis</entry>
-<entry key="expression|name|16">'Nombre critère d’attribution' (BT-541-Lot) n’est pas vide</entry>
 <entry key="expression|name|160">Il n’y a pas de lots multiples</entry>
 <entry key="expression|name|161">'Nomenclature principale' (BT-262-Lot) n’est pas rempli</entry>
 <entry key="expression|name|162">'Nomenclature principale' (BT-262-Part) n’est pas rempli</entry>
@@ -87,7 +76,6 @@
 <entry key="expression|name|177">'ID technique de l'offre' (OPT-321-Tender) n’existe pas</entry>
 <entry key="expression|name|178">'Organisation remplissant ce rôle' (OPT-300-Tenderer) n’existe pas</entry>
 <entry key="expression|name|179">'Organisation ou point de contact spécifique' (OPT-301-Tenderer-MainCont) n’est pas rempli</entry>
-<entry key="expression|name|18">'Nombre critère d’attribution' (BT-541-LotsGroup) n’est pas vide</entry>
 <entry key="expression|name|180">'Nom officiel' (BT-500-Organization-Company) n’est pas rempli</entry>
 <entry key="expression|name|181">'Nom officiel' (BT-500-Organization-TouchPoint) n’est pas rempli</entry>
 <entry key="expression|name|182">'Pays' (BT-514-Organization-Company) ne possède pas de codes NUTS</entry>
@@ -104,7 +92,7 @@
 <entry key="expression|name|192">'Adresse web de la législation sur l'emploi' (OPT-130-Part-EmployLegis) est rempli</entry>
 <entry key="expression|name|193">'Type de mesure corrective du réexamen' (BT-792-Review) n’est pas 'Sanction de substitution' ou 'Dommages-intérêts'</entry>
 <entry key="expression|name|194">'Type de mesure corrective du réexamen' (BT-792-Review) est 'Dommages-intérêts'</entry>
-<entry key="expression|name|195">'Demande de réexamen retirée' (BT-796-Review) n’est pas vrai</entry>
+<entry key="expression|name|195">'Demande de réexamen retirée' (BT-796-Review) n'est pas 'oui'</entry>
 <entry key="expression|name|196">'Identifiant du réexamen' (BT-784-Review) n’est pas rempli</entry>
 <entry key="expression|name|197">'Identifiant de l’avis antérieur' (BT-125i-Lot) n’est pas rempli</entry>
 <entry key="expression|name|198">'Identifiant de l’avis antérieur' (BT-125(i)-Part) n’est pas rempli</entry>
@@ -117,12 +105,12 @@
 <entry key="expression|name|203">Aucun lot n’a été attribué</entry>
 <entry key="expression|name|204">'ID offre marché' (BT-3202-Contract) n’est pas rempli</entry>
 <entry key="expression|name|205">'Type de procédure' (BT-105) n’est pas 'Négociée sans mise en concurrence préalable'; 'Base juridique' (BT-01) n’est pas 'Règlement (UE, Euratom) 2018/1046'; au moins un 'ID offre marché' (BT-3202-Contract) est rempli</entry>
-<entry key="expression|name|206">'Le marché est attribué dans le contexte d’un accord-cadre' (BT-768-Contract) n’est pas vrai</entry>
+<entry key="expression|name|206">'Le marché est attribué dans le contexte d’un accord-cadre' (BT-768-Contract) n'est pas 'oui'</entry>
 <entry key="expression|name|207">'Identifiant de l’offre' (BT-3201-Tender) est rempli</entry>
 <entry key="expression|name|209">'Version de l’avis antérieur à modifier' (BT-758-notice) n’est pas rempli</entry>
 <entry key="expression|name|21">'Subdivision pays (NUTS)' B373(BT-5071-Lot) est rempli</entry>
 <entry key="expression|name|210">'Identifiant de la section' (BT-13716-notice) n’est pas rempli</entry>
-<entry key="expression|name|211">L’indicateur «Le dossier d’appel d’offres a changé» (BT-718-notice) n’est pas vrai</entry>
+<entry key="expression|name|211">L'indicateur 'Les documents de la procédure ont été modifiés' (BT-718-notice) n'est pas 'oui'</entry>
 <entry key="expression|name|212">'Principale raison de la modification' (BT-140-notice) n’est pas rempli</entry>
 <entry key="expression|name|213">Cela s’applique à l’inscription au registre du commerce de l’UE</entry>
 <entry key="expression|name|214">'Droit transnational applicable' (BT-09(b)-Procedure) n’est pas rempli</entry>
@@ -149,8 +137,6 @@
 <entry key="expression|name|233">'Type' (BT-539-LotsGroup) n’est pas rempli</entry>
 <entry key="expression|name|234">'Description' (BT-540-Lot) n’est pas rempli</entry>
 <entry key="expression|name|235">'Description' (BT-540-LotsGroup) n’est pas rempli</entry>
-<entry key="expression|name|236">'Nombre critère d’attribution' (BT-541-Lot) n’est pas rempli</entry>
-<entry key="expression|name|237">'Nombre critère d’attribution' (BT-541-LotsGroup) n’est pas rempli</entry>
 <entry key="expression|name|238">'Le nombre est une pondération' (BT-5421-Lot) n’est pas rempli</entry>
 <entry key="expression|name|239">'Le nombre est une pondération' (BT-5421-LotsGroup) n’est pas rempli</entry>
 <entry key="expression|name|24">'Date de début' (BT-536-Lot) n’est pas rempli</entry>
@@ -197,7 +183,6 @@
 <entry key="expression|name|277">'Champ à publier ultérieurement' (BT-195(BT-161)-NoticeResult) n’est pas rempli</entry>
 <entry key="expression|name|278">'Champ à publier ultérieurement' (BT-195(BT-162)-Tender) n’est pas rempli</entry>
 <entry key="expression|name|279">'Champ à publier ultérieurement' (BT-195(BT-163)-Tender) n’est pas rempli</entry>
-<entry key="expression|name|28">'Utilisation de ce critère' (BT-748) est 'Utilisé'</entry>
 <entry key="expression|name|280">'Champ à publier ultérieurement' (BT-195(BT-171)-Tender) n’est pas rempli</entry>
 <entry key="expression|name|281">'Champ à publier ultérieurement' (BT-195(BT-191)-Tender) n’est pas rempli</entry>
 <entry key="expression|name|282">'Champ à publier ultérieurement' (BT-195(BT-193)-Tender) n’est pas rempli</entry>
@@ -231,7 +216,6 @@
 <entry key="expression|name|307">'Champ à publier ultérieurement' (BT-195(BT-731)-Tender) n’est pas rempli</entry>
 <entry key="expression|name|308">'Champ à publier ultérieurement' (BT-195(BT-733)-Lot) n’est pas rempli</entry>
 <entry key="expression|name|309">'Champ à publier ultérieurement' (BT-195(BT-733)-LotsGroup) n’est pas rempli</entry>
-<entry key="expression|name|31">'Nombre critères sélection seconde étape' (BT-752-Lot) n’est pas vide</entry>
 <entry key="expression|name|310">'Champ à publier ultérieurement' (BT-195(BT-734)-Lot) n’est pas rempli</entry>
 <entry key="expression|name|311">'Champ à publier ultérieurement' (BT-195(BT-734)-LotsGroup) n’est pas rempli</entry>
 <entry key="expression|name|312">'Champ à publier ultérieurement' (BT-195(BT-759)-LotResult) n’est pas rempli</entry>
@@ -242,7 +226,6 @@
 <entry key="expression|name|317">'Il s’agit d’un marché récurrent' (BT-94-Lot) n’est pas 'oui'</entry>
 <entry key="expression|name|318">'Type de procédure' (BT-105-Procedure) est 'Ouverte'</entry>
 <entry key="expression|name|319">'Organisation ou point de contact spécifique' (OPT-301-Lot-ReviewInfo) n’est pas rempli</entry>
-<entry key="expression|name|32">'Nombre critères sélection seconde étape' (BT-752-Lot) n’est pas vide</entry>
 <entry key="expression|name|320">'Une enchère électronique est utilisée' (BT-767-Lot) n’est pas 'oui'</entry>
 <entry key="expression|name|321">'Type de procédure' (BT-105) n’est pas 'Restreinte'</entry>
 <entry key="expression|name|322">'Type de véhicule' (OPT-155-LotResult) n’est pas rempli</entry>
@@ -298,7 +281,6 @@
 <entry key="expression|name|369">La présentation par voie électronique est requise</entry>
 <entry key="expression|name|370">La présentation par voie électronique n’est pas autorisée</entry>
 <entry key="expression|name|371">Le groupe de lots contient un lot ou moins</entry>
-<entry key="expression|name|372">'Type' (BT-747-Lot) n’est pas rempli</entry>
 <entry key="expression|name|373">Le groupe de lots comprend des lots sans accord-cadre</entry>
 <entry key="expression|name|374">'Obligation que le soumissionnaire doit respecter en matière de sous-traitance' (BT-66) n’est pas rempli</entry>
 <entry key="expression|name|375">'Date de fin de durée' (BT-537-Part) est rempli; 'Autre durée' (BT-538-Part) est rempli</entry>
@@ -374,7 +356,7 @@
 <entry key="expression|name|539">Il ne s’agit pas d’un contrat-cadre; 'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|54">'Obligation que le soumissionnaire doit respecter en matière de sous-traitance' (BT-65_Lot) n’est pas 'Le contractant doit sous-traiter un pourcentage minimal du marché selon la procédure prévue au titre III de la directive 2009/81/CE.'</entry>
 <entry key="expression|name|540">Aucun adjudicataire n’a été retenu; il ne s’agit pas d’un contrat-cadre; 'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) n’est pas rempli</entry>
-<entry key="expression|name|542">'Valeur d’un groupe de lots dans le cas d’un accord-cadre – Identifiants des lots' (BT-556) est rempli et '' n’est pas rempli</entry>
+<entry key="expression|name|542">'Valeur d’un groupe de lots dans le cas d’un accord-cadre – Identifiants des lots' (BT-556) est rempli et 'Valeur réestimée des accords-cadres dans un groupe de lots (BT-1561)' n’est pas rempli</entry>
 <entry key="expression|name|543">'Valeur d’un groupe de lots dans le cas d’un accord-cadre – Identifiants des lots' (BT-556) est rempli et 'Valeur estimée des accords-cadres dans le groupe de lots' n’est pas rempli</entry>
 <entry key="expression|name|544">'Valeur approximative des accords-cadres' (BT-1118-NoticeResult) n’est pas rempli</entry>
 <entry key="expression|name|545">'Champ à publier ultérieurement' (BT-195(BT-1118)-NoticeResult) n’est pas rempli</entry>
@@ -396,13 +378,7 @@
 <entry key="expression|name|560">'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|561">'Champ à publier ultérieurement' (BT-195(BT-660)-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|568">'Code de l’obligation d’exécution' (OPT-060-Lot) n’est pas rempli</entry>
-<entry key="expression|name|569">'Description' (BT-540-Lot) est présent et 'Nombre critère d’attribution' (BT-541-Lot-FixedNumber) &amp;amp; 'Nombre critère d’attribution' (BT-541-Lot-ThresholdNumber) ne sont pas présents</entry>
 <entry key="expression|name|57">'Il s’agit d’un accord-cadre' (BT-765-Lot) est 'Pas de système d’acquisition dynamique'</entry>
-<entry key="expression|name|570">'Description' (BT-540-Lot) est présent et 'Nombre critère d’attribution' (BT-541-Lot-WeightNumber) &amp;amp; 'Nombre critère d’attribution' (BT-541-Lot-ThresholdNumber) ne sont pas présents</entry>
-<entry key="expression|name|571">'Description' (BT-540-Lot) est présent et 'Nombre critère d’attribution' (BT-541-Lot-WeightNumber) &amp;amp; 'Nombre critère d’attribution' (BT-541-Lot-FixedNumber) ne sont pas présents</entry>
-<entry key="expression|name|572">'Description' (BT-540-LotsGroup) est présent et 'Nombre critère d’attribution' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Nombre critère d’attribution' (BT-541-LotsGroup-ThresholdNumber) ne sont pas présents</entry>
-<entry key="expression|name|573">'Description' (BT-540-LotsGroup) est présent et 'Nombre critère d’attribution' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Nombre critère d’attribution' (BT-541-LotsGroup-ThresholdNumber) ne sont pas présents</entry>
-<entry key="expression|name|574">'Description' (BT-540-LotsGroup) est présent et 'Nombre critère d’attribution' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Nombre critère d’attribution' (BT-541-LotsGroup-FixedNumber) ne sont pas présents</entry>
 <entry key="expression|name|575">'Nombre critère d’attribution' (BT-541-Lot-WeightNumber) n'est pas présent</entry>
 <entry key="expression|name|576">'Nombre critère d’attribution' (BT-541-Lot-FixedNumber) n'est pas présent</entry>
 <entry key="expression|name|577">'Nombre critère d’attribution' (BT-541-Lot-ThresholdNumber) n'est pas présent</entry>
@@ -435,7 +411,22 @@
 <entry key="expression|name|604">La valeur de 'Type de procédure' (BT-105) est égale à 'Autre procédure en plusieurs étapes'</entry>
 <entry key="expression|name|605">L'identifiant du contrat à modifier (BT-1501(c)-Contract) est rempli</entry>
 <entry key="expression|name|61">'Justification de l’attribution directe' (BT-136-Procedure) n’est pas l’un des éléments suivants: 'Seules des offres irrégulières ou inacceptables ont été reçues en réponse à un avis antérieur. Tous les soumissionnaires et uniquement les soumissionnaires de la procédure antérieure qui ont satisfait aux critères de sélection, n'ont pas été pas concernés par les motifs d'exclusion et ont satisfait aux exigences formelles ont été inclus dans les négociations'; 'Besoin de travaux ou de services supplémentaires de la part du contractant initial'; 'Nouveaux travaux ou services constituant une répétition de travaux ou de services existants et commandés dans les conditions strictes énoncées dans la directive'; 'Aucune offre, demande de participation ou candidature appropriée n’a été reçue en réponse à un avis antérieur'; 'Renouvellement partiel ou extension de fournitures ou d’installations existantes par le fournisseur initial commandées dans les conditions strictes énoncées dans la directive'; 'Marché de services à attribuer au lauréat ou à l’un des lauréats selon le règlement d’un concours'</entry>
+<entry key="expression|name|613">La soumission n'est pas déposée ni pour un lot pour lequel 'Règlement sur les subventions étrangères' (BT-681-Lot) est défini à 'oui', ni pour un groupe de lots contenant un lot pour lequel 'Règlement sur les subventions étrangères' (BT-681-Lot) est défini à 'oui'</entry>
+<entry key="expression|name|614">Le message n'a pas été identifié comme un 'Source des critères de sélection'</entry>
+<entry key="expression|name|615">Le code du critère de sélection (BT-809) n'existe pas</entry>
+<entry key="expression|name|616">L'organisation est un acheteur, et le système d'achat dynamique est également utilisable par les acheteurs non répertoriés dans cet avis, et 'Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs' (OPP-052) n'est pas rempli</entry>
+<entry key="expression|name|617">L'organisation est un acheteur, et le système d'achat dynamique est également utilisable par les acheteurs non répertoriés dans cet avis, et 'Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs' (OPP-052) n'est pas rempli</entry>
+<entry key="expression|name|618">'La procédure est accélérée' (BT-106-Procedure) est 'oui'</entry>
+<entry key="expression|name|619">'La procédure est accélérée' (BT-106-Procedure) est 'oui'</entry>
 <entry key="expression|name|62">'Statut sélection lauréat' (BT-142-LotResult) n’est pas 'Aucun lauréat n’a été choisi et le concours est clos.'</entry>
+<entry key="expression|name|620">'La procédure est accélérée' (BT-106-Procedure) est 'oui'</entry>
+<entry key="expression|name|621">Le message n'a pas été identifié comme un 'Source des motifs d'exclusion'</entry>
+<entry key="expression|name|622">Le pays d'activité (BT-514-Business) utilise des codes postaux</entry>
+<entry key="expression|name|623">Le pays de l'organisation (BT-514-Organization-Company) utilise des codes postaux</entry>
+<entry key="expression|name|624">Le pays du point de contact spécifique (BT-514-Organization-TouchPoint) utilise des codes postaux</entry>
+<entry key="expression|name|625">Le pays de résidence du bénéficiaire effectif ultime (BT-514-UBO) utilise des codes postaux</entry>
+<entry key="expression|name|626">Organisation remplissant ce rôle' (OPT-301-Tenderer-SubCont) n’existe pas</entry>
+<entry key="expression|name|627">'Identifiant du marché' (BT-150-Contract) n'existe pas</entry>
 <entry key="expression|name|63">'Il s’agit d’un accord-cadre' (BT-765) est l’un des éléments suivants: 'Accord-cadre, en partie sans remise en concurrence et en partie avec remise en concurrence'; 'Accord-cadre, avec remise en concurrence'; 'Accord-cadre, sans remise en concurrence'; et 'Statut sélection lauréat' (BT-142-LotResult) ne doit pas être 'Au moins un lauréat a été choisi.'</entry>
 <entry key="expression|name|64">'Il s’agit d’un accord-cadre' (BT-765) est l’un des éléments suivants: 'Accord-cadre, en partie sans remise en concurrence et en partie avec remise en concurrence'; 'Accord-cadre, avec remise en concurrence'; 'Accord-cadre, sans remise en concurrence'; et 'Statut sélection lauréat' (BT-142-LotResult) ne doit pas être 'Au moins un lauréat a été choisi.'</entry>
 <entry key="expression|name|65">'Statut sélection lauréat' (BT-142-LotResult) est 'Au moins un lauréat a été choisi.'</entry>
@@ -460,11 +451,14 @@
 <entry key="expression|name|86">'Importance des actifs essentiels fournis par rapport à l’ensemble des actifs nécessaires à la prestation de services publics' (OPP-020-Contract) n’est pas 'oui'</entry>
 <entry key="expression|name|87">'Le marché doit être exécuté dans le cadre de programmes d’emplois protégés' (BT-736-Lot) n’est pas 'oui'</entry>
 <entry key="expression|name|89">'Référence au contrat' (OPT-315-LotResult) n’est pas vide</entry>
+<entry key="expression|name|9">'Description' - 'Critère d’attribution' (BT-540-Lot) n'est pas présent ou 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-Lot) est présent</entry>
 <entry key="expression|name|90">'Statut sélection lauréat' (BT-142-LotResult) ne doit pas être 'Au moins un lauréat a été choisi.'</entry>
 <entry key="expression|name|91">'Identifiant de l’offre' (BT-3201-Tender) n’est pas rempli</entry>
 <entry key="expression|name|93">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727-Lot) est 'N’importe où' ou 'N’importe où dans l’Espace économique européen'</entry>
 <entry key="expression|name|94">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727-Part) ne doit pas être 'N’importe où' ou 'N’importe où dans l’Espace économique européen'</entry>
 <entry key="expression|name|95">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727-Procedure) est 'N’importe où' ou 'N’importe où dans l’Espace économique européen'</entry>
-<entry key="expression|name|96">'Nombre critère d’attribution' (BT-541-Lot) est rempli, 'Le nombre est une valeur fixe' (BT-5422-Lot) et 'Le nombre est un type de seuil' (BT-5423-Lot) ne sont pas remplis</entry>
-<entry key="expression|name|97">'Nombre critère d’attribution' (BT-541-LotsGroup) est rempli, 'Le nombre est une valeur fixe' (BT-5422-LotsGroup) et 'Le nombre est un type de seuil' (BT-5423-LotsGroup) ne sont pas remplis</entry>
+<entry key="expression|name|96">'Description' - 'Critère d’attribution' (BT-540-Lot) est présent et 'Nombre critère d’attribution' – 'Le nombre est une valeur fixe' (BT-541-Lot-FixedNumber), 'Nombre critère d’attribution' – 'Le nombre est un type de seuil' (BT-541-Lot-ThresholdNumber) &amp; 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-Lot) ne sont pas présents</entry>
+<entry key="expression|name|97">'Description' - 'Critère d’attribution' (BT-540-Lot) est présent et 'Nombre critère d’attribution' – 'Le nombre est une pondération' (BT-541-Lot-WeightNumber), 'Nombre critère d’attribution' – 'Le nombre est un type de seuil' (BT-541-Lot-ThresholdNumber) &amp; 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-Lot) ne sont pas présents</entry>
+<entry key="expression|name|98">'Description' - 'Critère d’attribution' (BT-540-Lot) est présent et 'Nombre critère d’attribution' – 'Le nombre est une pondération' (BT-541-Lot-WeightNumber), 'Nombre critère d’attribution' – 'Le nombre est une valeur fixe' (BT-541-Lot-FixedNumber) &amp; 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-Lot) ne sont pas présents</entry>
+<entry key="expression|name|99">'Description' - 'Critère d’attribution' (BT-540-LotsGroup) est présent et 'Nombre critère d’attribution' – 'Le nombre est une valeur fixe' (BT-541-LotsGroup-FixedNumber), 'Nombre critère d’attribution' – 'Le nombre est un type de seuil' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-LotsGroup) ne sont pas présents</entry>
 </properties>

@@ -4,9 +4,8 @@
    <Identification>
       <ShortName>SelectionCriterion</ShortName>
       <LongName>selection-criterion</LongName>
-      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/selection-criterion</LongName>
-      <Version>20221214-0</Version>
-      <CanonicalUri>http://publications.europa.eu/resource/dataset/selection-criterion</CanonicalUri>
+      <Version>1.0</Version>
+      <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -122,322 +121,2562 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>ef-stand</SimpleValue>
+            <SimpleValue>slc-abil-facil-res</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Economic and financial standing</SimpleValue>
+            <SimpleValue>Study, technical and research facilities</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Икономическо и финансово състояние</SimpleValue>
+            <SimpleValue>Учебни, технически и изследователски съоръжения</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Ekonomická a finanční způsobilost</SimpleValue>
+            <SimpleValue>Studijní, technické a výzkumné zařízení</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Økonomisk og finansiel formåen</SimpleValue>
+            <SimpleValue>Studie-, tekniske og forskningsfaciliteter</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Wirtschaftliche und finanzielle Leistungsfähigkeit</SimpleValue>
+            <SimpleValue>Studien-, technische und Forschungseinrichtungen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Οικονομική και χρηματοδοτική επάρκεια</SimpleValue>
+            <SimpleValue>Εγκαταστάσεις μελέτης, τεχνικές και ερευνητικές</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Economic and financial standing</SimpleValue>
+            <SimpleValue>Study, technical and research facilities</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Solvencia económica y financiera</SimpleValue>
+            <SimpleValue>Instalaciones de estudio, técnicas y de investigación</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Majanduslik ja finantsseisund</SimpleValue>
+            <SimpleValue>Õppe-, tehnilised ja uurimisasutused</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Taloudellinen tilanne ja rahoitusasema</SimpleValue>
+            <SimpleValue>Opinto-, tekniset ja tutkimuslaitokset</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Capacité économique et financière</SimpleValue>
+            <SimpleValue>Installations d'étude, techniques et de recherche</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Seasamh eacnamaíoch agus airgeadais</SimpleValue>
+            <SimpleValue>Áiseanna staidéir, teicniúla agus taighde</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ekonomska i financijska sposobnost</SimpleValue>
+            <SimpleValue>Studije, tehnički i istraživački objekti</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Gazdasági és pénzügyi helyzet</SimpleValue>
+            <SimpleValue>Tanulmányi, technikai és kutatási létesítmények</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Capacità economica e finanziaria</SimpleValue>
+            <SimpleValue>Strutture di studio, tecniche e di ricerca</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Ekonominė ir finansinė būklė</SimpleValue>
+            <SimpleValue>Studijų, techninių ir mokslinių tyrimų įranga</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Saimnieciskais un finansiālais stāvoklis</SimpleValue>
+            <SimpleValue>Studiju, tehniskie un pētniecības objekti</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Kapaċità ekonomika u finanzjarja</SimpleValue>
+            <SimpleValue>Faċilitajiet ta' studju, tekniki u riċerka</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Economische en financiële draagkracht</SimpleValue>
+            <SimpleValue>Studie-, technische en onderzoeksfaciliteiten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Sytuacja ekonomiczna i finansowa</SimpleValue>
+            <SimpleValue>Obiekty studiów, techniczne i badawcze</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Capacidade económica e financeira</SimpleValue>
+            <SimpleValue>Instalações de estudo, técnicas e de pesquisa</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Capacitatea economică și financiară</SimpleValue>
+            <SimpleValue>Facilități de studiu, tehnice și de cercetare</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Ekonomické a finančné postavenie</SimpleValue>
+            <SimpleValue>Študijné, technické a výskumné zariadenia</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Ekonomski in finančni položaj</SimpleValue>
+            <SimpleValue>Študijske, tehnične in raziskovalne ustanove</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Ekonomisk och finansiell ställning</SimpleValue>
+            <SimpleValue>Studie-, tekniska och forskningsanläggningar</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>other</SimpleValue>
+            <SimpleValue>slc-abil-facil-tools</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Other</SimpleValue>
+            <SimpleValue>Tools, plant, or technical equipment</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Друго</SimpleValue>
+            <SimpleValue>Инструменти, заводи или техническа оборудване</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Jiné</SimpleValue>
+            <SimpleValue>Nástroje, zařízení nebo technické vybavení</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Andet</SimpleValue>
+            <SimpleValue>Værktøj, anlæg eller teknisk udstyr</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Sonstiges</SimpleValue>
+            <SimpleValue>Werkzeuge, Anlagen oder technische Ausrüstung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Άλλο</SimpleValue>
+            <SimpleValue>Εργαλεία, εργοστάσια ή τεχνικός εξοπλισμός</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Other</SimpleValue>
+            <SimpleValue>Tools, plant, or technical equipment</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Otros</SimpleValue>
+            <SimpleValue>Herramientas, planta o equipo técnico</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Muu</SimpleValue>
+            <SimpleValue>Tööriistad, taimed või tehnilised seadmed</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Muu</SimpleValue>
+            <SimpleValue>Työkalut, laitokset tai tekniset laitteet</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Autre</SimpleValue>
+            <SimpleValue>Outils, usines ou équipements techniques</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Eile</SimpleValue>
+            <SimpleValue>Uirlisí, plandaí nó trealamh teicniúil</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ostalo</SimpleValue>
+            <SimpleValue>Alati, biljke ili tehnička oprema</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Egyéb</SimpleValue>
+            <SimpleValue>Eszközök, üzemek vagy technikai felszerelések</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Altro</SimpleValue>
+            <SimpleValue>Strumenti, impianti o attrezzature tecniche</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Kita</SimpleValue>
+            <SimpleValue>Įrankiai, gamyklos ar techninė įranga</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Cits</SimpleValue>
+            <SimpleValue>Instrumenti, rūpnīcas vai tehniskā aprīkojuma</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Oħrajn</SimpleValue>
+            <SimpleValue>Għodda, impjanti jew apparat tekniku</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Andere</SimpleValue>
+            <SimpleValue>Gereedschappen, installaties of technische uitrusting</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Inne</SimpleValue>
+            <SimpleValue>Narzędzia, zakłady lub sprzęt techniczny</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Outros</SimpleValue>
+            <SimpleValue>Ferramentas, plantas ou equipamentos técnicos</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Altele</SimpleValue>
+            <SimpleValue>Unelte, instalații sau echipamente tehnice</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Iné</SimpleValue>
+            <SimpleValue>Nástroje, závody alebo technické zariadenia</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Drugo</SimpleValue>
+            <SimpleValue>Orodja, rastline ali tehnična oprema</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Annat</SimpleValue>
+            <SimpleValue>Verktyg, anläggningar eller teknisk utrustning</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>sui-act</SimpleValue>
+            <SimpleValue>slc-abil-mgmt-env</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Suitability to pursue the professional activity</SimpleValue>
+            <SimpleValue>Environmental management measures</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Годност за упражняване на професионалната дейност</SimpleValue>
+            <SimpleValue>Мерки за управление на околната среда</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Vhodnost pro výkon odborné činnosti</SimpleValue>
+            <SimpleValue>Opatření pro řízení životního prostředí</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Egnethed til at udøve det pågældende erhverv</SimpleValue>
+            <SimpleValue>Miljøledelsestiltag</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Eignung zur Berufsausübung</SimpleValue>
+            <SimpleValue>Umweltmanagementmaßnahmen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Καταλληλότητα για την άσκηση της επαγγελματικής δραστηριότητας</SimpleValue>
+            <SimpleValue>Μέτρα διαχείρισης του περιβάλλοντος</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Suitability to pursue the professional activity</SimpleValue>
+            <SimpleValue>Environmental management measures</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Aptitud para ejercer la actividad profesional</SimpleValue>
+            <SimpleValue>Medidas de gestión medioambiental</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Sobivus tegeleda kutsealase tööga</SimpleValue>
+            <SimpleValue>Keskkonnajuhtimise meetmed</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kelpoisuus harjoittaa ammattitoimintaa</SimpleValue>
+            <SimpleValue>Ympäristön hallintatoimenpiteet</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Aptitude à exercer l’activité professionnelle</SimpleValue>
+            <SimpleValue>Mesures de gestion environnementale</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Oiriúnacht chun an ghníomhaíocht ghairmiúil a shaothrú</SimpleValue>
+            <SimpleValue>Bearta bainistíochta comhshaoil</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Sposobnost za obavljanje stručne djelatnosti</SimpleValue>
+            <SimpleValue>Mjere upravljanja okolišem</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A szakmai tevékenység ellátására való megfelelés</SimpleValue>
+            <SimpleValue>Környezetgazdálkodási intézkedések</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Abilitazione all'esercizio dell'attività professionale</SimpleValue>
+            <SimpleValue>Misure di gestione ambientale</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Tinkamumas verstis profesine veikla</SimpleValue>
+            <SimpleValue>Aplinkos valdymo priemonės</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Piemērotība profesionālās darbības veikšanai</SimpleValue>
+            <SimpleValue>Vides pārvaldības pasākumi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Idoneità għat-twettiq tal-attività professjonali</SimpleValue>
+            <SimpleValue>Miżuri ta' ġestjoni tal-ambjent</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Geschiktheid om de beroepsactiviteit uit te oefenen</SimpleValue>
+            <SimpleValue>Milieubeheermaatregelen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Kompetencje do prowadzenia danej działalności zawodowej</SimpleValue>
+            <SimpleValue>Środki zarządzania środowiskiem</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Competência para o exercício da atividade profissional</SimpleValue>
+            <SimpleValue>Medidas de gestão ambiental</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Aptitudinea de exercitare a activității profesionale</SimpleValue>
+            <SimpleValue>Măsuri de management al mediului</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Vhodnosť vykonávať odbornú činnosť</SimpleValue>
+            <SimpleValue>Opatrenia pre environmentálny manažment</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Primernost za opravljanje poklicne dejavnosti</SimpleValue>
+            <SimpleValue>Ukrepi za upravljanje z okoljem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Lämplighet att utöva yrkesverksamhet</SimpleValue>
+            <SimpleValue>Miljöledningsåtgärder</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>tp-abil</SimpleValue>
+            <SimpleValue>slc-abil-mgmt-qual</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Technical and professional ability</SimpleValue>
+            <SimpleValue>Measures for ensuring quality</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Технически и професионални способности</SimpleValue>
+            <SimpleValue>Мерки за гарантиране на качеството</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Technická a odborná způsobilost</SimpleValue>
+            <SimpleValue>Opatření pro zajištění kvality</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Teknisk og faglig formåen</SimpleValue>
+            <SimpleValue>Foranstaltninger til sikring af kvalitet</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Technische und berufliche Leistungsfähigkeit</SimpleValue>
+            <SimpleValue>Maßnahmen zur Sicherstellung der Qualität</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Τεχνική και επαγγελματική ικανότητα</SimpleValue>
+            <SimpleValue>Μέτρα για την εξασφάλιση της ποιότητας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Technical and professional ability</SimpleValue>
+            <SimpleValue>Measures for ensuring quality</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Capacidad técnica y profesional</SimpleValue>
+            <SimpleValue>Medidas para garantizar la calidad</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Tehniline ja kutsealane suutlikkus</SimpleValue>
+            <SimpleValue>Kvaliteedi tagamise meetmed</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Tekninen ja ammatillinen pätevyys</SimpleValue>
+            <SimpleValue>Toimenpiteet laadun varmistamiseksi</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Capacité technique et professionnelle</SimpleValue>
+            <SimpleValue>Mesures pour garantir la qualité</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Cumas teicniúil agus gairmiúil</SimpleValue>
+            <SimpleValue>Bearta a chinntíonn cáilíocht</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Tehnička i stručna sposobnost</SimpleValue>
+            <SimpleValue>Mjere za osiguranje kvalitete</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Technikai és szakmai alkalmasság</SimpleValue>
+            <SimpleValue>Minőségbiztosítási intézkedések</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Capacità tecniche e professionali</SimpleValue>
+            <SimpleValue>Misure per garantire la qualità</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Techninis ir profesinis pajėgumas</SimpleValue>
+            <SimpleValue>Kokybės užtikrinimo priemonės</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Tehniskās un profesionālās spējas</SimpleValue>
+            <SimpleValue>Pasākumi kvalitātes nodrošināšanai</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Ħila teknika u professjonali</SimpleValue>
+            <SimpleValue>Miżuri biex jiżguraw il-kwalità</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Technische en beroepsbekwaamheid</SimpleValue>
+            <SimpleValue>Maatregelen om kwaliteit te waarborgen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Zdolność techniczna i zawodowa</SimpleValue>
+            <SimpleValue>Środki zapewniające jakość</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Capacidade técnica e profissional</SimpleValue>
+            <SimpleValue>Medidas para garantir a qualidade</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Capacitatea tehnică și profesională</SimpleValue>
+            <SimpleValue>Măsuri pentru asigurarea calității</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Technická a odborná spôsobilosť</SimpleValue>
+            <SimpleValue>Opatrenia na zabezpečenie kvality</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Tehnična in strokovna sposobnost</SimpleValue>
+            <SimpleValue>Ukrepi za zagotavljanje kakovosti</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Teknisk och yrkesmässig kapacitet</SimpleValue>
+            <SimpleValue>Åtgärder för att säkerställa kvaliteten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-mgmt-supply</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Supply chain management</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Управление на веригата на доставки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Řízení dodavatelských řetězců</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forsyningskædeledelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Supply-Chain-Management</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Διαχείριση αλυσίδας εφοδιασμού</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Supply chain management</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Gestión de la cadena de suministro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tarneahela juhtimine</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Toimitusketjun hallinta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Gestion de la chaîne d'approvisionnement</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bainistíocht shlí soláthair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Upravljanje lancem opskrbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ellátási lánc menedzsment</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gestione della catena di fornitura</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tiekimo grandinės valdymas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piegādes ķēdes pārvaldība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ġestjoni tal-katina ta' provvista</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Supply chain management</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zarządzanie łańcuchem dostaw</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Gestão da cadeia de fornecimento</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Gestionarea lanțului de aprovizionare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Manažment dodávateľských reťazcov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Upravljanje dobavne verige</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Försörjningskedjans hantering</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-qual-inst</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Certificates by quality control institutes</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сертификати от институти за контрол на качеството</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Certifikáty od institutů pro kontrolu kvality</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Certifikater fra kvalitetskontrolinstitutter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zertifikate von Qualitätskontrollinstituten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πιστοποιητικά από ινστιτούτα ελέγχου ποιότητας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Certificates by quality control institutes</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Certificados de institutos de control de calidad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kvaliteedikontrolli instituutide sertifikaadid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Laadunvalvontainstituuttien sertifikaatit</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Certificats délivrés par des instituts de contrôle de la qualité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Teastais ó institiúidí rialaithe cáilíochta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Certifikati instituta za kontrolu kvalitete</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Minőségellenőrző intézetek által kiadott tanúsítványok</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Certificati rilasciati da istituti di controllo della qualità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kokybės kontrolės institutų sertifikatai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kvalitātes kontroles institūtu sertifikāti</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ċertifikati minn istituti ta' kontroll tal-kwalità</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Certificaten van kwaliteitscontrole-instituten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Certyfikaty wydane przez instytuty kontroli jakości</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Certificados por institutos de controle de qualidade</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Certificate emise de institutele de control al calității</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Certifikáty od inštitútov pre kontrolu kvality</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Certifikati inštitutov za nadzor kakovosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Certifikat från kvalitetskontrollinstitut</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-qual-smp-w-autent</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Samples, descriptions, or photographs with certification of authenticity for supply contracts</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Проби, описания или снимки със сертификат за автентичност за договори за доставки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Vzorky, popisy nebo fotografie s certifikátem pravosti pro dodavatelské smlouvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Prøver, beskrivelser eller fotografier med certificering af ægthed for leveringskontrakter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Muster, Beschreibungen oder Fotos mit Echtheitszertifikat für Lieferverträge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δείγματα, περιγραφές ή φωτογραφίες με πιστοποίηση αυθεντικότητας για συμβάσεις προμήθειας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Samples, descriptions, or photographs with certification of authenticity for supply contracts</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Muestras, descripciones o fotografías con certificación de autenticidad para contratos de suministro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Näidised, kirjeldused või fotod autentsussertifikaadiga tarnelepingute jaoks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Näytteet, kuvaukset tai valokuvat, joissa on aitoustodistus toimitussopimuksille</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Échantillons, descriptions ou photographies avec certification d'authenticité pour les contrats de fourniture</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Samplaí, cur síos, nó grianghraif le dearbhú aitheantais do chonarthaí soláthair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Uzorci, opisi ili fotografije s certifikatom autentičnosti za ugovore o opskrbi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Minták, leírások vagy fényképek hitelesítő tanúsítvánnyal a szállítási szerződésekhez</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Campioni, descrizioni o fotografie con certificazione di autenticità per contratti di fornitura</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pavyzdžiai, aprašymai ar nuotraukos su autentiškumo sertifikatu tiekimo sutartims</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paraugi, apraksti vai fotogrāfijas ar autentiskuma sertifikātu piegādes līgumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kampjunijiet, deskrizzjonijiet jew ritratti b'ċertifikat ta' awtentiċità għal kuntratti ta' provvista</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Monsters, beschrijvingen of foto's met certificering van echtheid voor leveringscontracten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Próbki, opisy lub zdjęcia z certyfikatem autentyczności dla umów dostaw</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Amostras, descrições ou fotografias com certificação de autenticidade para contratos de fornecimento</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Mostra, descrieri sau fotografii cu certificare de autenticitate pentru contracte de furnizare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Vzorky, popisy alebo fotografie s certifikáciou autenticity pre dodávateľské zmluvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vzorci, opisi ali fotografije s potrdilom o avtentičnosti za dobavne pogodbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Prover, beskrivningar eller fotografier med äkthetsintyg för leveranskontrakt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-qual-smp-wo-autent</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Samples, descriptions, or photographs without certification of authenticity</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Проби, описания или снимки без сертификат за автентичност</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Vzorky, popisy nebo fotografie bez certifikátu pravosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Prøver, beskrivelser eller fotografier uden certificering af ægthed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Muster, Beschreibungen oder Fotos ohne Echtheitszertifikat</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Δείγματα, περιγραφές ή φωτογραφίες χωρίς πιστοποίηση αυθεντικότητας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Samples, descriptions, or photographs without certification of authenticity</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Muestras, descripciones o fotografías sin certificación de autenticidad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Näidised, kirjeldused või fotod ilma autentsussertifikaadita</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Näytteet, kuvaukset tai valokuvat ilman aitoustodistusta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Échantillons, descriptions ou photographies sans certification d'authenticité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Samplaí, cur síos, nó grianghraif gan dearbhú aitheantais</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Uzorci, opisi ili fotografije bez certifikata autentičnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Minták, leírások vagy fényképek hitelesítő tanúsítvány nélkül</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Campioni, descrizioni o fotografie senza certificazione di autenticità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pavyzdžiai, aprašymai ar nuotraukos be autentiškumo sertifikato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paraugi, apraksti vai fotogrāfijas bez autentiskuma sertifikāta</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kampjunijiet, deskrizzjonijiet jew ritratti mingħajr ċertifikat ta' awtentiċità</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Monsters, beschrijvingen of foto's zonder certificering van echtheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Próbki, opisy lub zdjęcia bez certyfikatu autentyczności</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Amostras, descrições ou fotografias sem certificação de autenticidade</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Mostra, descrieri sau fotografii fără certificare de autenticitate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Vzorky, popisy alebo fotografie bez certifikácie autenticity</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vzorci, opisi ali fotografije brez potrdila o avtentičnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Prover, beskrivningar eller fotografier utan äkthetsintyg</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-ref-services</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>References on specified services</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Референции за определени услуги</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Reference na určité služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Referencer på specificerede tjenester</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Referenzen zu bestimmten Dienstleistungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αναφορές σε καθορισμένες υπηρεσίες</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>References on specified services</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Referencias sobre servicios específicos</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Viited määratud teenustele</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Viitteet määriteltyihin palveluihin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Références sur des services spécifiés</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tagairtí ar sheirbhísí sonraithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Reference na određene usluge</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Hivatkozások a meghatározott szolgáltatásokra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Referenze su servizi specifici</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rekomendacijos dėl nurodytų paslaugų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Atsauksmes par noteiktām pakalpojumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Referenzi fuq servizzi speċifiċi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Referenties voor gespecificeerde diensten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Referencje dotyczące określonych usług</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Referências sobre serviços especificados</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Referințe despre servicii specificate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Referencie na špecifikované služby</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Reference o določenih storitvah</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Referenser på angivna tjänster</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-ref-supply</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>References on specified deliveries</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Референции за определени доставки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Reference na určité dodávky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Referencer på specificerede leverancer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Referenzen zu bestimmten Lieferungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αναφορές σε καθορισμένες παραδόσεις</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>References on specified deliveries</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Referencias sobre entregas específicas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Viited määratud tarnetele</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Viitteet määriteltyihin toimituksiin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Références sur des livraisons spécifiées</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tagairtí ar sheachadtaí sonraithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Reference na određene isporuke</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Hivatkozások a meghatározott szállításokra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Referenze su forniture specifiche</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rekomendacijos dėl nurodytų pristatymų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Atsauksmes par noteiktām piegādēm</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Referenzi fuq consegne speċifiċi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Referenties voor gespecificeerde leveringen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Referencje dotyczące określonych dostaw</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Referências sobre entregas especificadas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Referințe despre livrări specificate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Referencie na špecifikované dodávky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Reference o določenih dobavah</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Referenser på angivna leveranser</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-ref-work</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>References on specified works</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Референции за определени работи</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Reference na určité práce</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Referencer på specificerede arbejder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Referenzen zu bestimmten Arbeiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αναφορές σε καθορισμένα έργα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>References on specified works</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Referencias sobre obras específicas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Viited määratud töödele</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Viitteet määriteltyihin töihin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Références sur des travaux spécifiés</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tagairtí ar shaothair sonraithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Reference na određene radove</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Hivatkozások a meghatározott munkákra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Referenze su lavori specifici</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rekomendacijos dėl nurodytų darbų</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Atsauksmes par noteiktām darbībām</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Referenzi fuq xogħlijiet speċifiċi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Referenties voor gespecificeerde werken</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Referencje dotyczące określonych prac</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Referências sobre obras especificadas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Referințe despre lucrări specificate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Referencie na špecifikované práce</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Reference o določenih delih</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Referenser på angivna arbeten</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-staff-qual</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Relevant educational and professional qualifications</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Съответните образователни и професионални квалификации</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Relevantní vzdělání a profesní kvalifikace</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Relevante uddannelses- og erhvervskvalifikationer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Relevante Bildungs- und Berufsqualifikationen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Σχετικές εκπαιδευτικές και επαγγελματικές προσόντα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Relevant educational and professional qualifications</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Titulaciones educativas y profesionales relevantes</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Asjakohased haridus- ja kutsekvalifikatsioonid</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Asiaankuuluvat koulutus- ja ammatilliset pätevyydet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Qualifications éducatives et professionnelles pertinentes</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cáilíochtaí oideachasúla agus gairmiúla ábhartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Relevantne obrazovne i profesionalne kvalifikacije</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Releváns oktatási és szakmai képesítések</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Titoli di studio e qualifiche professionali pertinenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Atitinkamos švietimo ir profesinės kvalifikacijos</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Atbilstošas izglītības un profesionālās kvalifikācijas</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kwalifiki edukattivi u professjonali rilevanti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Relevante onderwijs- en beroepskwalificaties</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odpowiednie kwalifikacje edukacyjne i zawodowe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Qualificações educacionais e profissionais relevantes</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Calificări educaționale și profesionale relevante</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Relevantné vzdelávacie a profesionálne kvalifikácie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ustrezne izobraževalne in poklicne kvalifikacije</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Relevanta utbildnings- och yrkeskvalifikationer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-staff-tech-ctrl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Technicians or technical bodies for quality control</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Техници или технически органи за контрол на качеството</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Technici nebo technické orgány pro kontrolu kvality</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Teknikere eller tekniske organer til kvalitetskontrol</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Techniker oder technische Stellen für die Qualitätskontrolle</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τεχνικοί ή τεχνικά σώματα για τον έλεγχο της ποιότητας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Technicians or technical bodies for quality control</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Técnicos o entidades técnicas para el control de calidad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tehnikud või tehnilised organid kvaliteedikontrolliks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Teknikot tai tekniset elimet laadunvalvontaan</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Techniciens ou organismes techniques pour le contrôle de la qualité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Teicneoirí nó comhlachtaí teicniúla le haghaidh rialú cáilíochta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tehničari ili tehnička tijela za kontrolu kvalitete</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Technikusok vagy technikai szervek a minőségellenőrzéshez</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tecnici o organismi tecnici per il controllo della qualità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Technikai ar techninės organizacijos kokybės kontrolės</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tehniķi vai tehniskās iestādes kvalitātes kontrolei</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tekniċi jew entitajiet tekniċi għall-kontroll tal-kwalità</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Technici of technische instanties voor kwaliteitscontrole</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Technicy lub organy techniczne do kontroli jakości</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Técnicos ou órgãos técnicos para controle de qualidade</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tehnicieni sau organisme tehnice pentru controlul calității</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Technici alebo technické orgány pre kontrolu kvality</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tehniki ali tehnična telesa za nadzor kakovosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tekniker eller tekniska organ för kvalitetskontroll</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-staff-tech-work</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Technicians or technical bodies to carry out the work</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Техници или технически органи за извършване на работата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Technici nebo technické orgány pro provádění práce</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Teknikere eller tekniske organer til at udføre arbejdet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Techniker oder technische Stellen zur Durchführung der Arbeiten</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Τεχνικοί ή τεχνικά σώματα για την εκτέλεση της εργασίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Technicians or technical bodies to carry out the work</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Técnicos o entidades técnicas para llevar a cabo el trabajo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tehnikud või tehnilised organid töö teostamiseks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Teknikot tai tekniset elimet työn suorittamiseen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Techniciens ou organismes techniques pour effectuer le travail</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Teicneoirí nó comhlachtaí teicniúla chun an obair a dhéanamh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tehničari ili tehnička tijela za obavljanje posla</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Technikusok vagy technikai szervek a munka elvégzéséhez</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Tecnici o organismi tecnici per l'esecuzione del lavoro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Technikai ar techninės organizacijos darbui atlikti</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tehniķi vai tehniskās iestādes darba veikšanai</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Tekniċi jew entitajiet tekniċi biex iwettqu l-ħidma</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Technici of technische instanties om het werk uit te voeren</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Technicy lub organy techniczne do wykonania pracy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Técnicos ou órgãos técnicos para realizar o trabalho</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Tehnicieni sau organisme tehnice pentru a efectua lucrarea</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Technici alebo technické orgány na vykonanie práce</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tehniki ali tehnična telesa za izvajanje dela</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Tekniker eller tekniska organ för att utföra arbetet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-staff-yrly-avg-mp</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Average yearly manpower</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Среден годишен персонал</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Průměrný roční počet zaměstnanců</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gennemsnitlig årlig arbejdsstyrke</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Durchschnittliche jährliche Belegschaft</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μέσος ετήσιος αριθμός εργαζομένων</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Average yearly manpower</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Media anual de personal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskmine aastane tööjõud</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Keskimääräinen vuotuinen työvoima</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Effectif moyen annuel</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fórsa saothair meánach bliantúil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prosječna godišnja radna snaga</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Átlagos éves munkaerő</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Media annuale della forza lavoro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vidutinė metinė darbo jėga</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vidējais gada darbaspēks</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Medja annwali tal-impjegati</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gemiddeld jaarlijks personeelsbestand</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Średnia roczna liczba pracowników</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Média anual de mão de obra</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Media anuală a forței de muncă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Priemerný ročný počet pracovníkov</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Povprečna letna delovna sila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Genomsnittlig årlig arbetskraft</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-staff-yrly-no-mgmt</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Number of managerial staff</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Брой на управленския персонал</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Počet manažerských pracovníků</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Antal ledelsesmæssigt personale</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anzahl der Führungskräfte</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αριθμός διοικητικού προσωπικού</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Number of managerial staff</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Número de personal directivo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Juhtivtöötajate arv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Johtohenkilöstön määrä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Nombre de cadres</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Líon na bhfoireann bainistíochta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Broj menadžerskog osoblja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Vezetői személyzet száma</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Numero di personale dirigenziale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vadovų skaičius</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vadības personāla skaits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Numru ta' ħaddiema maniġerjali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aantal leidinggevend personeel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Liczba kierowniczych pracowników</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Número de pessoal gerencial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Numărul personalului managerial</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Počet manažérskeho personálu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Število vodstvenega osebja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Antal chefer</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-abil-subc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Subcontracting proportion</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Дял на субдоговорите</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Podíl subdodavatelů</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andel af underleverancer</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Anteil der Unterauftragsvergabe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ποσοστό υπεργολαβίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Subcontracting proportion</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Proporción de subcontratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Alltöövõtu osakaal</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alihankinnan osuus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Proportion de sous-traitance</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cion fochoinraithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Omjer podugovaranja</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Alvállalkozási arány</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Proporzione di subappalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Subrangos dalis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Apakšuzņēmējdarbības proporcija</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Proporzjon ta' subkontrattar</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verhouding onderaanneming</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Proporcja podwykonawstwa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Proporção de subcontratação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Proporția subcontractării</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Podiel subdodávok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Delež podizvajanja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Andel underentreprenad</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-sche-env-cert-indep</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Certificates by independent bodies about environmental management systems or standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сертификати от независими органи за системи или стандарти за управление на околната среда</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Certifikáty od nezávislých subjektů o systémech nebo standardech pro řízení životního prostředí</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Certifikater fra uafhængige organer om miljøledelsessystemer eller standarder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zertifikate von unabhängigen Stellen über Umweltmanagementsysteme oder -standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πιστοποιητικά από ανεξάρτητους φορείς σχετικά με συστήματα ή πρότυπα διαχείρισης του περιβάλλοντος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Certificates by independent bodies about environmental management systems or standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Certificados por organismos independientes sobre sistemas o normas de gestión ambiental</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sõltumatute asutuste poolt väljastatud sertifikaadid keskkonnajuhtimise süsteemide või standardite kohta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Riippumattomien elinten myöntämät ympäristöhallintajärjestelmien tai -standardien sertifikaatit</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Certificats délivrés par des organismes indépendants concernant les systèmes ou normes de gestion environnementale</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Teastais ó ghníomhaireachtaí neamhspleácha faoi chórais nó caighdeáin bhainistíochta comhshaoil</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Certifikati neovisnih tijela o sustavima ili standardima za upravljanje okolišem</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Független szervezetek által kiadott tanúsítványok a környezetmenedzsment rendszerekről vagy szabványokról</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Certificati rilasciati da organi indipendenti riguardanti sistemi o standard di gestione ambientale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepriklausomų institucijų sertifikatai apie aplinkos vadybos sistemas ar standartus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Neatkarīgu iestāžu sertifikāti par vides pārvaldības sistēmām vai standartiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ċertifikati minn entitajiet indipendenti dwar sistemi jew standards ta' ġestjoni tal-ambjent</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Certificaten van onafhankelijke instanties over milieubeheersystemen of -normen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Certyfikaty od niezależnych organizacji dotyczące systemów lub standardów zarządzania środowiskiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Certificados por entidades independentes sobre sistemas ou padrões de gestão ambiental</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Certificate emise de organisme independente despre sisteme sau standarde de management al mediului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Certifikáty od nezávislých orgánov o systémoch alebo normách environmentálneho manažmentu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Certifikati neodvisnih organov o sistemih ali standardih za upravljanje okolja</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Certifikat från oberoende organ om miljöledningssystem eller standarder</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-sche-qu-cert-indep</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Certificates by independent bodies about quality assurance standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сертификати от независими органи за стандарти за уверяване на качеството</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Certifikáty od nezávislých subjektů o standardech pro zajištění kvality</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Certifikater fra uafhængige organer om kvalitetssikringsstandarder</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zertifikate von unabhängigen Stellen über Qualitätssicherungsstandards</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πιστοποιητικά από ανεξάρτητους φορείς σχετικά με πρότυπα διασφάλισης της ποιότητας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Certificates by independent bodies about quality assurance standards</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Certificados por organismos independientes sobre normas de aseguramiento de la calidad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sõltumatute asutuste poolt väljastatud sertifikaadid kvaliteedi tagamise standardite kohta</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Riippumattomien elinten myöntämät laadunvarmistusstandardien sertifikaatit</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Certificats délivrés par des organismes indépendants concernant les normes d'assurance qualité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Teastais ó ghníomhaireachtaí neamhspleácha faoi chaighdeáin dearbhú cáilíochta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Certifikati neovisnih tijela o standardima osiguranja kvalitete</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Független szervezetek által kiadott tanúsítványok a minőségbiztosítási szabványokról</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Certificati rilasciati da organi indipendenti riguardanti standard di assicurazione della qualità</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Nepriklausomų institucijų sertifikatai apie kokybės užtikrinimo standartus</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Neatkarīgu iestāžu sertifikāti par kvalitātes nodrošināšanas standartiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ċertifikati minn entitajiet indipendenti dwar standards ta' assigurazzjoni tal-kwalità</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Certificaten van onafhankelijke instanties over kwaliteitsborgingsnormen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Certyfikaty od niezależnych organizacji dotyczące standardów zapewnienia jakości</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Certificados por entidades independentes sobre padrões de garantia de qualidade</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Certificate emise de organisme independente despre standarde de asigurare a calității</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Certifikáty od nezávislých orgánov o normách zabezpečenia kvality</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Certifikati neodvisnih organov o standardih zagotavljanja kakovosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Certifikat från oberoende organ om kvalitetssäkringsstandarder</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-sec-inf</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Security of information</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Защита на информацията</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zabezpečení informací</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Informationssikkerhed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Informationssicherheit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ασφάλεια των πληροφοριών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Security of information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Seguridad de la información</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teabe turvalisus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Tietoturva</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sécurité de l'information</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sábháilteacht faisnéise</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sigurnost informacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Információbiztonság</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sicurezza delle informazioni</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Informacijos saugumas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Informācijas drošība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sigurtà tal-informazzjoni</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Informatiebeveiliging</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bezpieczeństwo informacji</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Segurança da informação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Securitatea informațiilor</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bezpečnosť informácií</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Varnost informacij</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Informationssäkerhet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-sec-proc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Security to process, store and transmit classified information</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сигурност при обработка, съхранение и предаване на класифицирана информация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zabezpečení pro zpracování, ukládání a přenos klasifikovaných informací</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Sikkerhed til behandling, opbevaring og transmission af klassificeret information</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sicherheit bei der Verarbeitung, Speicherung und Übermittlung von klassifizierten Informationen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ασφάλεια για την επεξεργασία, αποθήκευση και μετάδοση εμπιστευτικών πληροφοριών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Security to process, store and transmit classified information</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Seguridad para procesar, almacenar y transmitir información clasificada</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Turvalisus klassifitseeritud teabe töötlemiseks, salvestamiseks ja edastamiseks</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Turvallisuus luokitellun tiedon käsittelyssä, tallennuksessa ja siirrossa</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sécurité pour traiter, stocker et transmettre des informations classifiées</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sábháilteacht chun faisnéis rangaíochta a phróiseáil, a stóráil agus a sheoladh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sigurnost za obradu, pohranu i prijenos klasificiranih informacija</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Biztonság a besorolt információk feldolgozásához, tárolásához és továbbításához</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sicurezza nel trattamento, conservazione e trasmissione di informazioni classificate</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Saugumas apdorojant, saugant ir perduodant klasifikuotą informaciją</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Drošība, apstrādājot, glabājot un pārraidot klasificētu informāciju</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sigurtà biex tipproċessa, tħażen u ttrasmetti informazzjoni klassifikata</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Beveiliging voor het verwerken, opslaan en overdragen van geclassificeerde informatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bezpieczeństwo w procesie przetwarzania, przechowywania i przesyłania informacji poufnych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Segurança para processar, armazenar e transmitir informações classificadas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Securitatea pentru a procesa, stoca și transmite informații clasificate</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bezpečnosť spracovania, ukladania a prenosu klasifikovaných informácií</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Varnost za obdelavo, shranjevanje in prenos klasificiranih informacij</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Säkerhet för att bearbeta, lagra och överföra klassificerad information</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-sec-supply</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Security of supply</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сигурност на доставките</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zabezpečení dodávek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Forsyningsikkerhed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Versorgungssicherheit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ασφάλεια του εφοδιασμού</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Security of supply</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Seguridad del suministro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Tarnete turvalisus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Toimitusvarmuus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sécurité de l'approvisionnement</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sábháilteacht soláthair</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sigurnost opskrbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szállításbiztonság</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sicurezza della fornitura</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Tiekimo saugumas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Piegādes drošība</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sigurtà tal-provvista</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Leveringszekerheid</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Bezpieczeństwo dostaw</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Segurança do fornecimento</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Securitatea aprovizionării</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Bezpečnosť dodávok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Varnost oskrbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Försörjningssäkerhet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-stand-ins</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Professional risk indemnity insurance</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Професионална застраховка за индемнизация на риска</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Profesionální pojištění proti riziku odpovědnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Professionel risikoansvarsforsikring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Berufliche Risikohaftpflichtversicherung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Επαγγελματική ασφάλιση αποζημίωσης για επαγγελματικούς κινδύνους</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Professional risk indemnity insurance</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Seguro de indemnización por riesgos profesionales</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Professionaalne riski hüvitis kindlustus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ammatillinen riskivakuutus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Assurance responsabilité professionnelle pour les risques</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Árachas éiginnteachta gairmiúil riosca</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Profesionalno osiguranje od rizika odštete</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Szakmai kockázati felelősségbiztosítás</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Assicurazione professionale di indennizzo del rischio</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Profesionali rizikos draudimo polisas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Profesionālā riska apdrošināšana</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Assigurazzjoni ta' indennità għar-riskji professjonali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Professionele risico-indemniteitsverzekering</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ubezpieczenie od odpowiedzialności cywilnej z tytułu ryzyka zawodowego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Seguro de indemnização de risco profissional</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Asigurare de despăgubire pentru riscuri profesionale</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Poistenie profesijného rizika</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zavarovanje za poklicno tveganje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Professionell riskindemniseringsförsäkring</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-stand-other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Other economic or financial requirements</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Други икономически или финансови изисквания</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Další ekonomické nebo finanční požadavky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Andre økonomiske eller finansielle krav</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Andere wirtschaftliche oder finanzielle Anforderungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλες οικονομικές ή χρηματοοικονομικές απαιτήσεις</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Other economic or financial requirements</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otros requisitos económicos o financieros</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muud majanduslikud või finantsnõuded</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muut taloudelliset tai rahoitukselliset vaatimukset</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autres exigences économiques ou financières</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Riachtanais eacnamaíochta nó airgeadais eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ostali ekonomski ili financijski zahtjevi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb gazdasági vagy pénzügyi követelmények</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altri requisiti economici o finanziari</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kiti ekonominiai ar finansiniai reikalavimai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Citi ekonomiski vai finansiāli prasījumi</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rekwiżiti ekonomiċi jew finanzjarji oħra</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Andere economische of financiële eisen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inne wymagania ekonomiczne lub finansowe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outros requisitos económicos ou financeiros</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Alte cerințe economice sau financiare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Iné ekonomické alebo finančné požiadavky</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Druge ekonomske ali finančne zahteve</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Andra ekonomiska eller finansiella krav</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-stand-ratio</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Financial ratio</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Финансови коефициенти</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Finanční poměr</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Finansielt forhold</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Finanzkennzahlen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Χρηματοοικονομικός δείκτης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Financial ratio</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ratio financiero</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Finants suhtarv</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Taloudellinen suhdeluku</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ratio financier</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cóimheas airgeadais</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Financijski omjer</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Pénzügyi mutató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Rapporto finanziario</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Finansinis santykis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Finanšu rādītājs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rapport finanzjarju</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Financiële ratio</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wskaźnik finansowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Rácio financeiro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Raport financiar</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Finančný pomer</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Finančno razmerje</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Finansiellt förhållande</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-stand-to-avg</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Average yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Среден годишен оборот</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Průměrný roční obrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gennemsnitlig årlig omsætning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Durchschnittlicher Jahresumsatz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Μέσος ετήσιος τζίρος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Average yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Volumen de negocios anual medio</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Keskmine aastane käive</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Keskimääräinen vuotuinen liikevaihto</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Chiffre d'affaires annuel moyen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ioncam bliantúil meánach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Prosječni godišnji promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Átlagos éves forgalom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fatturato annuo medio</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Vidutinis metinis apyvartumas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Vidējais gada apgrozījums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Volum ta' negozju annwali medju</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gemiddelde jaarlijkse omzet</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Średni roczny obrót</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Faturamento médio anual</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cifra de afaceri medie anuală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Priemerný ročný obrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Povprečni letni promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Genomsnittlig årlig omsättning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-stand-to-gen</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>General yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Общ годишен оборот</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Celkový roční obrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Generel årlig omsætning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Allgemeiner Jahresumsatz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γενικός ετήσιος τζίρος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>General yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Volumen de negocios anual general</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Üldine aastane käive</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Yleinen vuotuinen liikevaihto</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Chiffre d'affaires annuel général</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ioncam bliantúil ginearálta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ukupni godišnji promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Teljes éves forgalom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fatturato annuo generale</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Bendras metinis apyvartumas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kopējais gada apgrozījums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Volum ta' negozju annwali ġenerali</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Algemene jaarlijkse omzet</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogólny roczny obrót</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Faturamento geral anual</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cifra de afaceri generală anuală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Celkový ročný obrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Splošni letni promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Generell årlig omsättning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-stand-to-spec</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Specific yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Специфичен годишен оборот</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Specifický roční obrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Specifik årlig omsætning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Spezifischer Jahresumsatz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ειδικός ετήσιος τζίρος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Specific yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Volumen de negocios anual específico</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Spetsiifiline aastane käive</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Erityinen vuotuinen liikevaihto</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Chiffre d'affaires annuel spécifique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ioncam bliantúil sonrach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Specifični godišnji promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Specifikus éves forgalom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fatturato annuo specifico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Specifinis metinis apyvartumas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Specifisks gada apgrozījums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Volum ta' negozju annwali speċifiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Specifieke jaarlijkse omzet</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Specyficzny roczny obrót</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Faturamento anual específico</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cifra de afaceri specifică anuală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Špecifický ročný obrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Specifični letni promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Specifik årlig omsättning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-stand-to-spec-avg</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Specific average yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Специфичен среден годишен оборот</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Specifický průměrný roční obrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Specifik gennemsnitlig årlig omsætning</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Spezifischer durchschnittlicher Jahresumsatz</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ειδικός μέσος ετήσιος τζίρος</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Specific average yearly turnover</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Volumen de negocios anual medio específico</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Spetsiifiline keskmine aastane käive</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Erityinen keskimääräinen vuotuinen liikevaihto</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Chiffre d'affaires annuel moyen spécifique</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ioncam bliantúil meánach sonrach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Specifični prosječni godišnji promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Specifikus átlagos éves forgalom</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fatturato annuo medio specifico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Specifinis vidutinis metinis apyvartumas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Specifisks vidējais gada apgrozījums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Volum ta' negozju annwali medju speċifiku</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Specifieke gemiddelde jaarlijkse omzet</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Specyficzny średni roczny obrót</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Faturamento médio anual específico</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cifra de afaceri medie specifică anuală</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Priemerný špecifický ročný obrat</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Specifični povprečni letni promet</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Specifik genomsnittlig årlig omsättning</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-suit-auth-mbrshp</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Authorisation or membership of a particular organisation needed for service contracts</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Необходимост от разрешение или членство в конкретна организация за договори за услуги</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Potřeba povolení nebo členství v určité organizaci pro smlouvy o službách</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Godkendelse eller medlemskab af en bestemt organisation nødvendig for servicekontrakter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Genehmigung oder Mitgliedschaft in einer bestimmten Organisation erforderlich für Dienstleistungsverträge</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Απαίτηση για άδεια ή μέλος σε συγκεκριμένη οργάνωση για συμβάσεις υπηρεσιών</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Authorisation or membership of a particular organisation needed for service contracts</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Autorización o pertenencia a una organización particular necesaria para contratos de servicios</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teenuselepingute jaoks on vaja luba või kuulumist teatud organisatsiooni</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Palvelusopimuksia varten tarvitaan lupa tai jäsenyys tietyssä järjestössä</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autorisation ou adhésion à une organisation particulière nécessaire pour les contrats de services</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Údarás nó ballraíocht de eagraíocht áirithe de dhíth do chonarthaí seirbhíse</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Potrebna dozvola ili članstvo u određenoj organizaciji za ugovore o uslugama</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Engedély vagy tagság szükséges egy adott szervezetben a szolgáltatási szerződésekhez</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Autorizzazione o appartenenza a una particolare organizzazione necessaria per contratti di servizio</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Autorizacija arba narystė tam tikroje organizacijoje, reikalinga paslaugų sutartims</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Autorizācija vai dalība konkrētā organizācijā, kas nepieciešama pakalpojumu līgumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Awtorizzazzjoni jew appartenenza għal organizzazzjoni partikolari meħtieġa għal kuntratti tas-servizzi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Autorisatie of lidmaatschap van een bepaalde organisatie vereist voor dienstencontracten</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wymagane jest zezwolenie lub członkostwo w konkretnej organizacji dla umów o świadczenie usług</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Autorização ou filiação a uma organização específica necessária para contratos de serviço</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Autorizație sau apartenență la o organizație particulară necesară pentru contracte de servicii</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Povolenie alebo členstvo v konkrétnej organizácii potrebné pre služobné zmluvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Potrebno dovoljenje ali članstvo v določeni organizaciji za servisne pogodbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Behörighet eller medlemskap i en specifik organisation krävs för tjänstekontrakt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-suit-reg-prof</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Enrolment in a relevant professional register</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Регистрация в съответен професионален регистър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zápis do relevantního profesního rejstříku</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilmelding i et relevant professionelt register</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Eintragung in ein relevantes Berufsregister</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εγγραφή σε σχετικό επαγγελματικό μητρώο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Enrolment in a relevant professional register</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Inscripción en un registro profesional relevante</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Registreerimine asjakohases kutsealases registris</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rekisteröinti asiaankuuluvaan ammattirekisteriin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Inscription à un registre professionnel pertinent</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Clárú i gclár gairmiúil ábhartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Upis u relevantni profesionalni registar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bejegyzés egy releváns szakmai nyilvántartásba</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Iscrizione in un registro professionale pertinente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Įrašymas į atitinkamą profesinį registrą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Reģistrācija attiecīgā profesionālā reģistrā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Reġistrazzjoni f'reġistru professjonali rilevanti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Inschrijving in een relevant beroepsregister</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wpis do odpowiedniego rejestru zawodowego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Inscrição em um registro profissional relevante</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Înregistrare într-un registru profesional relevant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Registrácia v relevantnom profesionálnom registri</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vpis v ustrezen profesionalni register</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Registrering i ett relevant yrkesregister</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>slc-suit-reg-trade</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Enrolment in a trade register</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Регистрация в търговски регистър</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zápis do obchodního rejstříku</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Tilmelding i et handelsregister</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Eintragung in das Handelsregister</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εγγραφή σε εμπορικό μητρώο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Enrolment in a trade register</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Inscripción en un registro mercantil</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Registreerimine äriregistris</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rekisteröinti kaupparekisteriin</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Inscription à un registre du commerce</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Clárú i gclár trádála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Upis u trgovački registar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Bejegyzés a cégregiszterbe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Iscrizione in un registro di commercio</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Įrašymas į prekybos registrą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Reģistrācija tirdzniecības reģistrā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Reġistrazzjoni f'reġistru tal-kummerċ</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Inschrijving in een handelsregister</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wpis do rejestru handlowego</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Inscrição em um registro comercial</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Înregistrare într-un registru comercial</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Registrácia v obchodnom registri</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Vpis v trgovski register</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Registrering i ett handelsregister</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

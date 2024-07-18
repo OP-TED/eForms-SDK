@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in English. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Information about recurrence</entry>
 <entry key="group|name|GR-Business-Address">Address</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
 <entry key="group|name|GR-Business-Party">Business party</entry>
@@ -20,12 +19,12 @@
 <entry key="group|name|GR-ContractingAuthority">Contracting authority</entry>
 <entry key="group|name|GR-ContractingAuthority-Buyer">Buyer</entry>
 <entry key="group|name|GR-EU-Registration">EU registration number</entry>
+<entry key="group|name|GR-FSR-Measures">Tender Foreign Subsidies Regulation Measures</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation providing additional information</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Additional information</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Terms of the auction</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Consequences of award</entry>
 <entry key="group|name|GR-Lot-Candidates">Candidates</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Requirements for contract execution</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Renewals and options</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Contracting system</entry>
 <entry key="group|name|GR-Lot-Deadline">Deadlines for review</entry>
@@ -49,8 +48,6 @@
 <entry key="group|name|GR-Lot-Mediator">Mediation organisation</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Place of performance</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Estimated duration</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Duration</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Period</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Post award process</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Previous planning</entry>
 <entry key="group|name|GR-Lot-Procedure">Procedure</entry>
@@ -100,13 +97,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Award criteria parameters</entry>
 <entry key="group|name|GR-LotsGroup-Description">Description of the group of lots</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Information about framework agreement</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Lots included in the group of lots</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Purpose</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Scope of the procurement</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Tendering terms</entry>
 <entry key="group|name|GR-Metadata">Metadata</entry>
 <entry key="group|name|GR-Modification">Modification</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Section to which the change applies</entry>
 <entry key="group|name|GR-Nda">NDA</entry>
 <entry key="group|name|GR-NoticeResult-Section">Result</entry>
 <entry key="group|name|GR-Organisations">Organisations mentioned in the notice</entry>
@@ -147,7 +142,6 @@
 <entry key="group|name|GR-Procedure-Description">Description</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Direct award</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Exclusion grounds</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Reference to local law</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Other legal basis without an identifier</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Other legal basis with an identifier</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Legal basis</entry>
@@ -181,20 +175,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Cross-border law (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Type of procedure (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Type of procedure (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Accelerated procedure (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Estimated value of framework agreement (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Estimated value of framework agreement (published later)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Maximum value of the framework agreements in this procedure (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">ID of the previous procedure justifying direct award (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID of the previous procedure justifying direct award (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Description of direct award (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Description of direct award (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Justification for accelerated procedure (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Justification for direct award (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Winner selection status (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Winner selection status (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">The reason why a winner was not chosen (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">The reason why a winner was not chosen (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Estimated value of the framework agreements in the group of lots (published later)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maximum value of the framework agreements in this group of lots (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Estimated revenue from the buyer who granted the concession (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Value of all contracts awarded in this procedure (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Estimated revenue coming from the users of the concession (published later)</entry>
@@ -208,9 +200,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Description (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Description (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Description (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Award criterion number (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Award criterion number (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Award criterion number (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Number is a type of weight (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Number is a type of weight (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Number is a type of weight (published later)</entry>
@@ -249,8 +238,8 @@
 <entry key="group|name|GR-Winner">Winner</entry>
 <entry key="group|name|ND-AcceleratedProcedure">Accelerated procedure</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justification for absence of accessibility criteria</entry>
-<entry key="group|name|ND-AllowedSubcontracting">Condition on subcontractinng</entry>
 <entry key="group|name|ND-Asset">Assets justifying contract extension</entry>
+<entry key="group|name|ND-AuctionTerms">Terms of the auction</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jury member</entry>
 <entry key="group|name|ND-BusinessCapability">Business activity</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Requests to review</entry>
@@ -271,8 +260,10 @@
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justification for direct award (published later)</entry>
 <entry key="group|name|ND-EuEntity">EU registration number</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
+<entry key="group|name|ND-ExclusionGroundsSource">Exclusion Grounds Source (Code)</entry>
 <entry key="group|name|ND-ExecutionRequirements">Terms of performance</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Contract extension</entry>
+<entry key="group|name|ND-FSR">Applicability of the Foreign Subsidies Regulation</entry>
 <entry key="group|name|ND-FinancingParty">Financing organisation</entry>
 <entry key="group|name|ND-Funding">EU funds</entry>
 <entry key="group|name|ND-GazetteReference">Reference to the publication</entry>
@@ -295,9 +286,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Lot award criterion number complicated (published later)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Lot award criterion is a fixed number (published later)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Lot award criterion number is a threshold (published later)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Lot award criterion number (published later)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Lot award criterion number weight (published later)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Award criterion parameter</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Award criteria parameters</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Threshold value criterion (published later)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Lot award criterion type (published later)</entry>
@@ -343,9 +332,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Group of lots award criteria number complicated (published later)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Group of lots award criterion is a fixed number (published later)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Group of lots award criterion number is a threshold (published later)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Group of lots award criterion number (published later)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Group of lots award criteria number weight (published later)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Award criterion parameter</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Award criterion parameters</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Threshold value criterion (published later)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Group of lots award criterion type (published later)</entry>
@@ -364,7 +351,6 @@
 <entry key="group|name|ND-NoticeResult">Result</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximum value of group of lots</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Notice value (published later)</entry>
-<entry key="group|name|ND-OptionsDescription">Description of options</entry>
 <entry key="group|name|ND-Organization">Organisations mentioned in the notice</entry>
 <entry key="group|name|ND-OrganizationUboReference">Ultimate beneficial owner</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Conditions other than revenue allocation</entry>
@@ -393,6 +379,7 @@
 <entry key="group|name|ND-ProcedureContractAdditionalNature">Additional contract nature</entry>
 <entry key="group|name|ND-ProcedureFeaturesUnpublish">Procedure features (published later)</entry>
 <entry key="group|name|ND-ProcedureMainClassification">Main classification</entry>
+<entry key="group|name|ND-ProcedurePlacePerformance">A location where the Procurement, for the Procedure as a whole, should take place</entry>
 <entry key="group|name|ND-ProcedurePlacePerformanceAdditionalInformation">Additional information about place of performance</entry>
 <entry key="group|name|ND-ProcedureProcurementScope">Tendering terms</entry>
 <entry key="group|name|ND-ProcedureTenderingProcess">Purpose</entry>
@@ -403,7 +390,7 @@
 <entry key="group|name|ND-QualityTarget">Description of quality targets</entry>
 <entry key="group|name|ND-ReceivedSubmissionCountUnpublish">Received submission count (published later)</entry>
 <entry key="group|name|ND-ReceivedSubmissionTypeUnpublish">Received submission type (published later)</entry>
-<entry key="group|name|ND-ReceivedSubmissions">Received submissions statististics</entry>
+<entry key="group|name|ND-ReceivedSubmissions">Received submissions statistics</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Re-estimated value (published later)</entry>
 <entry key="group|name|ND-RevenueAllocation">Revenue allocation percentage</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistics about review requests</entry>
@@ -413,6 +400,7 @@
 <entry key="group|name|ND-SecondStageThresholdCriterionParameter">Second stage threshold parameter</entry>
 <entry key="group|name|ND-SecondStageWeightCriterionParameter">Second stage weight parameter</entry>
 <entry key="group|name|ND-SelectionCriteria">Selection criteria</entry>
+<entry key="group|name|ND-SelectionCriteriaSource">Source for Selection Criteria</entry>
 <entry key="group|name|ND-ServiceProviderParty">Service provider</entry>
 <entry key="group|name|ND-SettledContract">Settled contract</entry>
 <entry key="group|name|ND-SettledContractTenderReference">Tender leading to the contract</entry>

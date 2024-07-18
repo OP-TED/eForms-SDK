@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Romanian. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Informații despre recurență</entry>
 <entry key="group|name|GR-Business-Address">Adresă</entry>
 <entry key="group|name|GR-Business-Contact">Contact</entry>
 <entry key="group|name|GR-Business-Party">Parte comercială</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Condițiile licitației</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Consecințele atribuirii</entry>
 <entry key="group|name|GR-Lot-Candidates">Candidați</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Cerințe pentru executarea contractului</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Renovări și opțiuni</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Sistem de contractare</entry>
 <entry key="group|name|GR-Lot-Deadline">Termene pentru căile de atac</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Organizație de mediere</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Loc de executare</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Durata estimată</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Durată</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Perioadă</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Procesul post-atribuire</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Planificare anterioară</entry>
 <entry key="group|name|GR-Lot-Procedure">Procedură</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametri criterii de atribuire</entry>
 <entry key="group|name|GR-LotsGroup-Description">Descrierea grupului de loturi</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informații despre acordul-cadru</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Loturi incluse în grupul de loturi</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Scop</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Domeniul de aplicare al achiziției publice</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Condiții de ofertare</entry>
 <entry key="group|name|GR-Metadata">Metadate</entry>
 <entry key="group|name|GR-Modification">Modificare</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Secțiunea căreia i se aplică modificarea</entry>
 <entry key="group|name|GR-Nda">Acord de confidențialitate</entry>
 <entry key="group|name|GR-NoticeResult-Section">Rezultat</entry>
 <entry key="group|name|GR-Organisations">Organizații menționate în anunț</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Descriere</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Atribuire directă</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Motive de excludere</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Trimitere la legislația locală</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Alt temei juridic fără identificator</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Alt temei juridic cu identificator</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Temei juridic</entry>
@@ -181,20 +174,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Drept transnațional (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Tip de procedură (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Tip de procedură (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Procedură accelerată (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Valoarea estimată a acordului-cadru (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Valoarea estimată a acordului-cadru (publicare ulterioară)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Valoarea maximă a acordurilor-cadru referitoare la această procedură (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Identificatorul procedurii anterioare care justifică atribuirea directă (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Identificatorul procedurii anterioare care justifică atribuirea directă (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Descrierea atribuirii directe (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Descrierea atribuirii directe (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Justificarea pentru procedura accelerată (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Justificarea pentru atribuirea directă (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Statutul selecției câștigătorului (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Statutul selecției câștigătorului (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Motivul pentru care nu a fost ales un câștigător (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Motivul pentru care nu a fost ales un câștigător (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Valoarea estimată a acordurilor-cadru din grupul de loturi (publicare ulterioară)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Valoarea maximă a acordurilor-cadru pentru acest grup de loturi (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Venituri estimate de la achizitorul care a acordat concesiunea (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valoarea tuturor contractelor atribuite în cadrul acestei proceduri (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Venituri estimate de la utilizatorii concesiunii (publicare ulterioară)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Descriere (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Descriere (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Descriere (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Numărul criteriului de atribuire (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Numărul criteriului de atribuire (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Numărul criteriului de atribuire (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Numărul este un tip de pondere (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Numărul este un tip de pondere (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Numărul este un tip de pondere (publicare ulterioară)</entry>
@@ -250,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Procedură accelerată</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justificarea absenței criteriilor de accesibilitate</entry>
 <entry key="group|name|ND-Asset">Active care justifică prelungirea contractului</entry>
+<entry key="group|name|ND-AuctionTerms">Condițiile licitației</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membru al juriului</entry>
 <entry key="group|name|ND-BusinessCapability">Activitate de afaceri</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Cereri de soluționare a căilor de atac</entry>
@@ -272,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Motive de excludere</entry>
 <entry key="group|name|ND-ExecutionRequirements">Termeni de performanță</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Prelungirea contractului</entry>
+<entry key="group|name|ND-FSR">Applicabilitatea Regulamentului privind subvențiile străine</entry>
 <entry key="group|name|ND-FinancingParty">Organizație de finanțare</entry>
 <entry key="group|name|ND-Funding">Fonduri UE</entry>
 <entry key="group|name|ND-GazetteReference">Referire la publicație</entry>
@@ -294,9 +284,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Criteriul de atribuire a lotului: număr complex (publicare ulterioară)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Criteriul de atribuire a lotului este o valoare fixă (publicare ulterioară)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Numărul legat de criteriul de atribuire a lotului este un prag (publicare ulterioară)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Numărul legat de criteriul de atribuire a lotului (publicare ulterioară)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Ponderea numărului legat de criteriul de atribuire a lotului (publicare ulterioară)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Parametrul criteriului de atribuire</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Parametrii criteriilor de atribuire</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Criteriu de valoare prag (publicat ulterior)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Tipul de criteriu de atribuire a lotului (publicare ulterioară)</entry>
@@ -342,9 +330,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Criteriul de atribuire a grupului de loturi: număr complex (publicare ulterioară)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Criteriul de atribuire a grupului de loturi este o valoare fixă (publicare ulterioară)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Numărul legat de criteriul de atribuire a grupului loturi este un prag (publicare ulterioară)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Numărul legat de criteriul de atribuire a grupului de loturi (publicare ulterioară)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Ponderea criteriilor de atribuire a grupului de loturi (publicare ulterioară)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parametrul criteriului de atribuire</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parametrii criteriului de atribuire</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Criteriu de valoare prag (publicat ulterior)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Tipul de criteriu de atribuire a grupului de loturi (publicare ulterioară)</entry>
@@ -363,7 +349,6 @@
 <entry key="group|name|ND-NoticeResult">Rezultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Valoarea maximă a grupului de loturi</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Valoarea anunțului (publicare ulterioară)</entry>
-<entry key="group|name|ND-OptionsDescription">Descrierea opțiunilor</entry>
 <entry key="group|name|ND-Organization">Organizații menționate în anunț</entry>
 <entry key="group|name|ND-OrganizationUboReference">Beneficiar efectiv final</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Alte condiții decât alocarea de venituri</entry>

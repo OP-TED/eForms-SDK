@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Polish. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Informacje o powtarzalności</entry>
 <entry key="group|name|GR-Business-Address">Adres</entry>
 <entry key="group|name|GR-Business-Contact">Kontakt</entry>
 <entry key="group|name|GR-Business-Party">Strona biznesowa</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Warunki aukcji</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Konsekwencje udzielenia zamówienia</entry>
 <entry key="group|name|GR-Lot-Candidates">Kandydaci</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Wymogi dotyczące realizacji zamówienia</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Odnowienia i opcje</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">System zamówień</entry>
 <entry key="group|name|GR-Lot-Deadline">Terminy odwołania</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Organ mediacyjny</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Miejsce realizacji</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Szacowany okres obowiązywania</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Okres obowiązywania</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Okres</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Procedura po udzieleniu zamówienia</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Wcześniejszy plan zakupu</entry>
 <entry key="group|name|GR-Lot-Procedure">Procedura</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametry kryteriów udzielenia zamówienia</entry>
 <entry key="group|name|GR-LotsGroup-Description">Opis grupy części zamówienia</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informacje o umowie ramowej</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Części wchodzące w skład grupy części zamówienia</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Przeznaczenie</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Zakres zamówienia</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Warunki przetargu</entry>
 <entry key="group|name|GR-Metadata">Metadane</entry>
 <entry key="group|name|GR-Modification">Modyfikacja</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Sekcja, w której wprowadzono zmianę</entry>
 <entry key="group|name|GR-Nda">Umowa o poufności</entry>
 <entry key="group|name|GR-NoticeResult-Section">Wyniki</entry>
 <entry key="group|name|GR-Organisations">Organizacje wymienione w ogłoszeniu</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Opis</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Bezpośrednie udzielenie zamówienia</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Podstawy wykluczenia</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Odniesienie do prawa miejscowego</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Inna podstawa prawna bez identyfikatora</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Inna podstawa prawna z identyfikatorem</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Podstawa prawna</entry>
@@ -168,7 +161,7 @@
 <entry key="group|name|GR-SettledContract-1">Zamówienie</entry>
 <entry key="group|name|GR-SettledContract-2">Środki UE w umowie</entry>
 <entry key="group|name|GR-SettledContract-3">Aktywa</entry>
-<entry key="group|name|GR-SettledContract-Section">Zamówienia</entry>
+<entry key="group|name|GR-SettledContract-Section">Umowy</entry>
 <entry key="group|name|GR-Subcontractor">Podwykonawca</entry>
 <entry key="group|name|GR-Tender">Oferta</entry>
 <entry key="group|name|GR-TenderingParty">Uczestnik przetargu</entry>
@@ -181,20 +174,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Prawo transgraniczne (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Rodzaj procedury (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Rodzaj procedury (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Procedura przyspieszona (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Szacunkowa wartość umowy ramowej (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Szacunkowa wartość umowy ramowej (publikowane później)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Maksymalna wartość umów ramowych w tej procedurze (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Numer identyfikacyjny poprzedniej procedury uzasadniającej bezpośrednie udzielenie zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Numer identyfikacyjny poprzedniej procedury uzasadniającej bezpośrednie udzielenie zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Opis bezpośredniego udzielenia zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Opis bezpośredniego udzielenia zamówienia (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Uzasadnienie procedury przyspieszonej (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Uzasadnienie bezpośredniego udzielenia zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Status wyboru zwycięzcy konkursu (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status wyboru zwycięzcy konkursu (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Powód, dla którego zwycięzca nie został wybrany (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Powód, dla którego zwycięzca nie został wybrany (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Szacunkowa wartość umów ramowych w grupie części zamówienia (publikowane później)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maksymalna wartość umów ramowych w tej grupie części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Szacunkowe przychody nabywcy, który udzielił koncesji (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Wartość wszystkich zamówień udzielonych w tej procedurze (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Szacunkowe przychody pochodzące od użytkowników koncesji (publikowane później)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Opis (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Opis (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Opis (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Liczba związana z kryterium udzielenia zamówienia (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Liczba związana z kryterium udzielenia zamówienia (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Liczba związana z kryterium udzielenia zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Liczba jest rodzajem wagi (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Liczba jest rodzajem wagi (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Liczba jest rodzajem wagi (publikowane później)</entry>
@@ -250,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Przyspieszone postępowanie</entry>
 <entry key="group|name|ND-AccessibilityJustification">Uzasadnienie braku kryteriów dostępności</entry>
 <entry key="group|name|ND-Asset">Majątek uzasadniający przedłużenie umowy</entry>
+<entry key="group|name|ND-AuctionTerms">Warunki aukcji</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Członek jury</entry>
 <entry key="group|name|ND-BusinessCapability">Działalność gospodarcza</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Wnioski o dokonanie przeglądu</entry>
@@ -272,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Podstawy wykluczenia</entry>
 <entry key="group|name|ND-ExecutionRequirements">Warunki wykonania</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Przedłużenie umowy</entry>
+<entry key="group|name|ND-FSR">Zastosowanie Regulacji dotyczącej zagranicznych dotacji</entry>
 <entry key="group|name|ND-FinancingParty">Organizacja finansująca</entry>
 <entry key="group|name|ND-Funding">Fundusze UE</entry>
 <entry key="group|name|ND-GazetteReference">Odniesienie do publikacji</entry>
@@ -294,9 +284,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Złożona liczba związana z kryterium udzielenia części zamówienia (publikowane później)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Kryterium udzielenia części zamówienia jest liczbą stałą (publikowane później)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Liczba związana z kryterium udzielenia części zamówienia jest progiem (publikowane później)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Liczba związana z kryterium udzielenia części zamówienia (publikowane później)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Liczba związana z kryterium udzielenia części zamówienia jest wagą (publikowane później)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Parametr kryterium udzielenia zamówienia</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Parametry kryteriów udzielenia zamówienia</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Kryterium wartości progowej (opublikowane później)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Rodzaj kryterium udzielenia części zamówienia (publikowane później)</entry>
@@ -342,9 +330,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Złożona liczba związana z kryteriami udzielenia grupy części zamówienia (publikowane później)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Kryterium udzielenia grupy części zamówienia jest liczbą stałą (publikowane później)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Liczba związana z kryterium udzielenia grupy części zamówienia jest progiem (publikowane później)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Liczba związana z kryterium udzielenia grupy części zamówienia (publikowane później)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Liczba związana z kryteriami udzielenia grupy części zamówienia jest wagą (publikowane później)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parametr kryterium udzielenia zamówienia</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parametry kryterium udzielenia zamówienia</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Kryterium wartości progowej (opublikowane później)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Rodzaj kryterium udzielenia grupy części zamówienia (publikowane później)</entry>
@@ -363,7 +349,6 @@
 <entry key="group|name|ND-NoticeResult">Wyniki</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maksymalna wartość grupy części zamówienia</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Wartość ogłoszenia (publikowane później)</entry>
-<entry key="group|name|ND-OptionsDescription">Opis opcji</entry>
 <entry key="group|name|ND-Organization">Organizacje wymienione w ogłoszeniu</entry>
 <entry key="group|name|ND-OrganizationUboReference">Ostateczny beneficjent właściciel</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Warunki inne niż alokacja przychodów</entry>

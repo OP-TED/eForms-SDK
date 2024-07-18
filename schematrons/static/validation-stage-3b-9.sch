@@ -4,4 +4,7 @@
 	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '9']">
 		<assert id="BR-BT-00105-0127" role="ERROR" test="normalize-space(.) = ('neg-w-call', 'restricted')">rule|text|BR-BT-00105-0127</assert>
 	</rule>
+	<rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '9']">
+		<assert id="BR-BT-00001-0217" role="ERROR" test="normalize-space(.) = ('32009L0081', 'other')">rule|text|BR-BT-00001-0217</assert>
+	</rule>
 </pattern>

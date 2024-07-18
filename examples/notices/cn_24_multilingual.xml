@@ -404,7 +404,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">55aae64f-88a8-44a5-b2fb-8228e97fe6ee</cbc:ID>
 	<cbc:ContractFolderID>46c9ce89-5986-40d9-992f-e1a2469a48f8</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
@@ -508,7 +508,12 @@
 		<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="BUL">Както е определено в документите за обществена поръчка.</cbc:Description>
 				<cbc:Description languageID="CES">Jak je uvedeno v zadávací dokumentaci.</cbc:Description>
 				<cbc:Description languageID="DAN">Som angivet i udbudsdokumenterne.</cbc:Description>
@@ -538,6 +543,9 @@
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID schemeName="InternalID">AO 10786</cbc:ID>
@@ -643,7 +651,7 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="BUL">Както е определено в документите за обществена поръчка.</cbc:Description>
 								<cbc:Description languageID="CES">Jak je uvedeno v zadávací dokumentaci.</cbc:Description>
 								<cbc:Description languageID="DAN">Som angivet i udbudsdokumenterne.</cbc:Description>
@@ -668,10 +676,9 @@
 								<cbc:Description languageID="SLV">Kot je navedeno v razpisni dokumentaciji.</cbc:Description>
 								<cbc:Description languageID="SPA">Véanse los documentos de contratación.</cbc:Description>
 								<cbc:Description languageID="SWE">Enligt vad som anges i upphandlingsdokumenten.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="BUL">Както е определено в документите за обществена поръчка.</cbc:Description>
 								<cbc:Description languageID="CES">Jak je uvedeno v zadávací dokumentaci.</cbc:Description>
 								<cbc:Description languageID="DAN">Som angivet i udbudsdokumenterne.</cbc:Description>
@@ -696,10 +703,9 @@
 								<cbc:Description languageID="SLV">Kot je navedeno v razpisni dokumentaciji.</cbc:Description>
 								<cbc:Description languageID="SPA">Véanse los documentos de contratación.</cbc:Description>
 								<cbc:Description languageID="SWE">Enligt vad som anges i upphandlingsdokumenten.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="BUL">Както е определено в документите за обществена поръчка.</cbc:Description>
 								<cbc:Description languageID="CES">Jak je uvedeno v zadávací dokumentaci.</cbc:Description>
 								<cbc:Description languageID="DAN">Som angivet i udbudsdokumenterne.</cbc:Description>
@@ -724,7 +730,6 @@
 								<cbc:Description languageID="SLV">Kot je navedeno v razpisni dokumentaciji.</cbc:Description>
 								<cbc:Description languageID="SPA">Véanse los documentos de contratación.</cbc:Description>
 								<cbc:Description languageID="SWE">Enligt vad som anges i upphandlingsdokumenten.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -766,6 +771,14 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

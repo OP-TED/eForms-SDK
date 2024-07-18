@@ -3,16 +3,14 @@
 <properties>
 <comment>expression in Spanish. File generated from metadata database.</comment>
 <entry key="expression|name|1">El valor para 'El comprador es una entidad adjudicadora' (BT-740) es 'No'</entry>
-<entry key="expression|name|100">'Criterio de adjudicación: número' (BT-541-Lot) está cumplimentado, 'El número es un tipo de ponderación' (BT-5421-Lot) y 'El número es un tipo de umbral' (BT-5423-Lot) no están cumplimentados</entry>
-<entry key="expression|name|101">'Criterio de adjudicación: número' (BT-541-Lot) está cumplimentado, 'El número es un tipo de ponderación' (BT-5421-Lot) y 'El número es un tipo de umbral' (BT-5422-Lot) no están cumplimentados</entry>
-<entry key="expression|name|102">'Criterio de adjudicación: número' (BT-541-LotsGroup) está cumplimentado, 'El número es un tipo de ponderación' (BT-5421-LotsGroup) y 'El número es un tipo de umbral' (BT-5423-LotsGroup) no están cumplimentados</entry>
-<entry key="expression|name|103">'Criterio de adjudicación: número' (BT-541-LotsGroup) está cumplimentado, 'El número es un tipo de ponderación' (BT-5421-LotsGroup) y 'El número es un tipo de umbral' (BT-5422-LotsGroup) no están cumplimentados</entry>
+<entry key="expression|name|10">'Descripción' - 'Criterio de adjudicación' (BT-540-LotsGroup) no está presente o 'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-LotsGroup) está presente</entry>
+<entry key="expression|name|100">'Descripción' - 'Criterio de adjudicación' (BT-540-LotsGroup) está presente y 'Criterio de adjudicación: número' – 'El número es un tipo de ponderación' (BT-541-LotsGroup-WeightNumber), 'Criterio de adjudicación: número' – 'El número es un tipo de umbral' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-LotsGroup) no están presentes</entry>
+<entry key="expression|name|101">'Descripción' - 'Criterio de adjudicación' (BT-540-LotsGroup) está presente y 'Criterio de adjudicación: número' – 'El número es un tipo de ponderación' (BT-541-LotsGroup-WeightNumber), 'Criterio de adjudicación: número' – 'El número es un valor fijo' (BT-541-LotsGroup-FixedNumber) &amp; 'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-LotsGroup) no están presentes</entry>
 <entry key="expression|name|104">'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-Lots) no está cumplimentado</entry>
 <entry key="expression|name|105">'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-LotsGroup) no está cumplimentado</entry>
 <entry key="expression|name|106">'Duración' (BT-36-Lot) o 'Fecha de finalización de la duración' (BT-537-Lot) está cumplimentado</entry>
 <entry key="expression|name|107">'Duración' (BT-36-Lot) o 'Duración: otra información' (BT-538-Lot) está cumplimentado</entry>
 <entry key="expression|name|108">'Fecha de finalización de la duración' (BT-537-Lot) o 'Duración: otra información' (BT-538-Lot) está cumplimentado</entry>
-<entry key="expression|name|109">'Tipo de procedimiento' (BT-105) no es 'Adjudicación directa'</entry>
 <entry key="expression|name|11">'Fecha de inicio' (BT-536-Part) no está cumplimentado</entry>
 <entry key="expression|name|110">'Tipo de procedimiento' (BT-105) es 'Abierto'; 'Tipo de procedimiento' (BT-105) es 'Otro procedimiento de una sola etapa' y 'Plazo de recepción de solicitudes de participación' (BT-1311) no está cumplimentado; 'Tipo de procedimiento' (BT-105) debe ser 'Otro procedimiento de múltiples etapas' y 'Plazo de recepción de solicitudes de participación' (BT-1311) no está cumplimentado</entry>
 <entry key="expression|name|111">'Tipo de procedimiento' (BT-105) es 'Otro procedimiento de una sola etapa' y 'Plazo de recepción de ofertas' (BT-131) no está cumplimentado; 'Tipo de procedimiento' (BT-105) es 'Otro procedimiento de múltiples etapas' y 'Plazo de recepción de solicitudes de participación' (BT-131) no está cumplimentado</entry>
@@ -21,7 +19,6 @@
 <entry key="expression|name|114">'Plazo de recepción de ofertas' (BT-131(d)-Lot) está cumplimentado</entry>
 <entry key="expression|name|115">'Plazo de recepción de solicitudes de participación' (BT-1311(d)-Lot) está cumplimentado</entry>
 <entry key="expression|name|116">'Tipo de procedimiento' (BT-105) es 'Abierto', 'Otro procedimiento de una sola etapa' o 'Negociado sin convocatoria de licitación previa'</entry>
-<entry key="expression|name|117">'Tipo' (BT-747-Lot) no está cumplimentado</entry>
 <entry key="expression|name|118">'Dirección postal' (BT-5101(a)-Lot) no está cumplimentado</entry>
 <entry key="expression|name|119">'Dirección postal' (BT-5101(a)-Part) no está cumplimentado</entry>
 <entry key="expression|name|12">'Naturaleza jurídica del comprador' (BT-11) es uno de los siguientes: 'Organismo de Derecho público'; 'Organismo de Derecho público bajo el control de una autoridad estatal'; 'Organismo de Derecho público bajo el control de una autoridad local'; 'Organismo de Derecho público bajo el control de una autoridad regional'; 'Autoridad estatal'; 'Contratista de defensa'; 'Institución, órgano o agencia de la UE'; 'Institución/organismo descentralizado europeo u organización internacional'; 'Organización internacional'; 'Autoridad local'; 'Organización que concede un contrato subvencionado por una autoridad estatal'; 'Organización que concede un contrato subvencionado por una autoridad local'; 'Organización que concede un contrato subvencionado por una autoridad regional'; 'Empresa pública'; 'Empresa pública bajo el control de una autoridad estatal'; 'Empresa pública bajo el control de una autoridad local'; 'Empresa pública bajo el control de una autoridad regional'; 'Autoridad regional'; 'Autoridad regional o local'</entry>
@@ -57,15 +54,7 @@
 <entry key="expression|name|15">'El acceso a determinados documentos de contratación está restringido' (BT-14-Part) no está restringido</entry>
 <entry key="expression|name|150">'Descripción' (BT-540-Lot) no está cumplimentado</entry>
 <entry key="expression|name|151">'Descripción' (BT-540-LotsGroup) no está cumplimentado</entry>
-<entry key="expression|name|152">'Criterio de adjudicación: número' (BT-541) no está cumplimentado o 'El número es un valor fijo' (BT-5422) está cumplimentado, 'El número es un tipo de umbral' (BT-5423) está cumplimentado</entry>
-<entry key="expression|name|153">'Criterio de adjudicación: número' (BT-541) no está cumplimentado o 'El número es un valor fijo' (BT-5422) está cumplimentado, 'El número es un tipo de umbral' (BT-5423) está cumplimentado</entry>
-<entry key="expression|name|154">'Criterio de adjudicación: número' (BT-541) no está cumplimentado o 'El número es un tipo de ponderación' (BT-5421) está cumplimentado o 'El número es un tipo de umbral' (BT-5423) está cumplimentado o 'Tipo' (BT-539) es 'Calidad'</entry>
-<entry key="expression|name|155">'Criterio de adjudicación: número' (BT-541) no está cumplimentado o 'El número es un tipo de ponderación' (BT-5421) está cumplimentado o 'El número es un tipo de umbral' (BT-5423) está cumplimentado o 'Tipo' (BT-539) es 'Calidad'</entry>
-<entry key="expression|name|156">'Criterio de adjudicación: número' (BT-541) no está cumplimentado o 'El número es un valor fijo' (BT-5422) está cumplimentado o 'El número es un tipo de umbral' (BT-5423) está cumplimentado</entry>
-<entry key="expression|name|157">'Criterio de adjudicación: número' (BT-541) no está cumplimentado o 'El número es un valor fijo' (BT-5422) está cumplimentado o 'El número es un tipo de umbral' (BT-5423) está cumplimentado</entry>
-<entry key="expression|name|158">'El licitador debe presentar ofertas para todos los lotes' ((BT-763)) es cierto</entry>
 <entry key="expression|name|159">Los lotes no son 'El licitador debe presentar ofertas para todos los lotes' (BT-763) y hay más de un lote en el aviso</entry>
-<entry key="expression|name|16">'Criterio de adjudicación: número' (BT-541-Lot) no está vacío</entry>
 <entry key="expression|name|160">No hay varios lotes</entry>
 <entry key="expression|name|161">'Clasificación principal' (BT-262-Lot) no está cumplimentado</entry>
 <entry key="expression|name|162">'Clasificación principal' (BT-262-Part) no está cumplimentado</entry>
@@ -87,7 +76,6 @@
 <entry key="expression|name|177">'ID técnico de la oferta' (OPT-321-Tender) no existe</entry>
 <entry key="expression|name|178">'Organización que cumple este papel' (OPT-300-Tenderer) no existe</entry>
 <entry key="expression|name|179">'Organización o punto de contacto específico' (OPT-301-Tenderer-MainCont) no está cumplimentado</entry>
-<entry key="expression|name|18">'Criterio de adjudicación: número' (BT-541-LotsGroup) no está vacío</entry>
 <entry key="expression|name|180">'Denominación oficial' (BT-500-Organization-Company) no está cumplimentado</entry>
 <entry key="expression|name|181">'Denominación oficial' (BT-500-Organization-TouchPoint) no está cumplimentado</entry>
 <entry key="expression|name|182">'País' (BT-514-Organization-Company) no incluye códigos NUTS</entry>
@@ -104,7 +92,7 @@
 <entry key="expression|name|192">'Dirección web de la legislación laboral' (OPT-130-Part-EmployLegis) está cumplimentado</entry>
 <entry key="expression|name|193">'Recurso: tipo de remedio' (BT-792-Review) no es 'Sanción alternativa' ni 'Indemnización'</entry>
 <entry key="expression|name|194">'Recurso: tipo de remedio' (BT-792-Review) es 'Indemnización'</entry>
-<entry key="expression|name|195">'Recurso: retirada de la solicitud' (BT-796-Review) no es cierto</entry>
+<entry key="expression|name|195">'Recurso: retirada de la solicitud' (BT-796-Review) no es 'sí'</entry>
 <entry key="expression|name|196">'Recurso: identificador' (BT-784-Review) no está cumplimentado</entry>
 <entry key="expression|name|197">'Identificador del anuncio anterior' (BT-125i-Lot) no está cumplimentado</entry>
 <entry key="expression|name|198">'Identificador del anuncio anterior' (BT-125(i)-Part) no está cumplimentado</entry>
@@ -117,12 +105,12 @@
 <entry key="expression|name|203">No se ha adjudicado ningún lote</entry>
 <entry key="expression|name|204">'Contrato: identificador de oferta' (BT-3202-Contract) no está cumplimentado</entry>
 <entry key="expression|name|205">'Tipo de procedimiento' (BT-105) no es 'Negociado sin convocatoria de licitación previa'; 'Base jurídica' (BT-01) no es 'Reglamento (UE, Euratom) 2018/1046'; al menos un 'Contrato: identificador de oferta' (BT-3202-Contract) está cumplimentado</entry>
-<entry key="expression|name|206">'El contrato se adjudica dentro de un acuerdo marco' (BT-768-Contract) no es cierto</entry>
+<entry key="expression|name|206">'El contrato se adjudica dentro de un acuerdo marco' (BT-768-Contract) no es 'sí'</entry>
 <entry key="expression|name|207">'Identificador de la oferta' (BT-3201-Tender) está cumplimentado</entry>
 <entry key="expression|name|209">'Versión del anuncio anterior que debe modificarse' (BT-758-notice) no está cumplimentado</entry>
 <entry key="expression|name|21">'Subdivisión del país (NUTS)' B373(BT-5071-Lot) está cumplimentado</entry>
 <entry key="expression|name|210">'Identificador de sección' (BT-13716-notice) no está cumplimentado</entry>
-<entry key="expression|name|211">El indicador «Se han modificado los documentos de contratación» (BT-718-notice) no es cierto</entry>
+<entry key="expression|name|211">El indicador 'Los documentos de contratación han cambiado' (BT-718-notice) no es 'sí'</entry>
 <entry key="expression|name|212">'Principal motivo de la modificación' (BT-140-notice) no está cumplimentado</entry>
 <entry key="expression|name|213">Aplicable al registro de empresas de la UE</entry>
 <entry key="expression|name|214">'Derecho transfronterizo aplicable' (BT-09(b)-Procedure) no está cumplimentado</entry>
@@ -149,8 +137,6 @@
 <entry key="expression|name|233">'Tipo' (BT-539-LotsGroup) no está cumplimentado</entry>
 <entry key="expression|name|234">'Descripción' (BT-540-Lot) no está cumplimentado</entry>
 <entry key="expression|name|235">'Descripción' (BT-540-LotsGroup) no está cumplimentado</entry>
-<entry key="expression|name|236">'Criterio de adjudicación: número' (BT-541-Lot) no está cumplimentado</entry>
-<entry key="expression|name|237">'Criterio de adjudicación: número' (BT-541-LotsGroup) no está cumplimentado</entry>
 <entry key="expression|name|238">'El número es un tipo de ponderación' (BT-5421-Lot) no está cumplimentado</entry>
 <entry key="expression|name|239">'El número es un tipo de ponderación' (BT-5421-LotsGroup) no está cumplimentado</entry>
 <entry key="expression|name|24">'Fecha de inicio' (BT-536-Lot) no está cumplimentado</entry>
@@ -197,7 +183,6 @@
 <entry key="expression|name|277">'Campo para publicar más tarde' (BT-195(BT-161)-NoticeResult) no está cumplimentado</entry>
 <entry key="expression|name|278">'Campo para publicar más tarde' (BT-195(BT-162)-Tender) no está cumplimentado</entry>
 <entry key="expression|name|279">'Campo para publicar más tarde' (BT-195(BT-163)-Tender) no está cumplimentado</entry>
-<entry key="expression|name|28">'Uso de este criterio' (BT-748) es 'Usado'</entry>
 <entry key="expression|name|280">'Campo para publicar más tarde' (BT-195(BT-171)-Tender) no está cumplimentado</entry>
 <entry key="expression|name|281">'Campo para publicar más tarde' (BT-195(BT-191)-Tender) no está cumplimentado</entry>
 <entry key="expression|name|282">'Campo para publicar más tarde' (BT-195(BT-193)-Tender) no está cumplimentado</entry>
@@ -231,7 +216,6 @@
 <entry key="expression|name|307">'Campo para publicar más tarde' (BT-195(BT-731)-Tender) no está cumplimentado</entry>
 <entry key="expression|name|308">'Campo para publicar más tarde' (BT-195(BT-733)-Lot) no está cumplimentado</entry>
 <entry key="expression|name|309">'Campo para publicar más tarde' (BT-195(BT-733)-LotsGroup) no está cumplimentado</entry>
-<entry key="expression|name|31">'Criterios de selección para invitación a la segunda fase: número' (BT-752-Lot) no está vacío</entry>
 <entry key="expression|name|310">'Campo para publicar más tarde' (BT-195(BT-734)-Lot) no está cumplimentado</entry>
 <entry key="expression|name|311">'Campo para publicar más tarde' (BT-195(BT-734)-LotsGroup) no está cumplimentado</entry>
 <entry key="expression|name|312">'Campo para publicar más tarde' (BT-195(BT-759)-LotResult) no está cumplimentado</entry>
@@ -242,7 +226,6 @@
 <entry key="expression|name|317">'Se trata de una contratación recurrente' (BT-94-Lot) no es 'sí'</entry>
 <entry key="expression|name|318">'Tipo de procedimiento' (BT-105-Procedure) es 'Abierto'</entry>
 <entry key="expression|name|319">'Organización o punto de contacto específico' (OPT-301-Lot-ReviewInfo) no está cumplimentado</entry>
-<entry key="expression|name|32">'Criterios de selección para invitación a la segunda fase: número' (BT-752-Lot) no está vacío</entry>
 <entry key="expression|name|320">'Se utiliza la subasta electrónica' (BT-767-Lot) no es 'sí'</entry>
 <entry key="expression|name|321">'Tipo de procedimiento' (BT-105) no es 'Restringido'</entry>
 <entry key="expression|name|322">'Tipo de vehículo' (OPT-155-LotResult) no está cumplimentado</entry>
@@ -298,7 +281,6 @@
 <entry key="expression|name|369">Se requiere presentación electrónica</entry>
 <entry key="expression|name|370">No se permite la presentación electrónica</entry>
 <entry key="expression|name|371">El grupo de lotes contiene un lote o menos</entry>
-<entry key="expression|name|372">'Tipo' (BT-747-Lot) no está cumplimentado</entry>
 <entry key="expression|name|373">El grupo de lotes está formado por lotes sin acuerdo marco</entry>
 <entry key="expression|name|374">'Una obligación que debe cumplir el licitador en relación con la subcontratación' (BT-66) no está cumplimentado</entry>
 <entry key="expression|name|375">'Fecha de finalización de la duración' (BT-537-Part) está cumplimentado; 'Duración: otra información' (BT-538-Part) está cumplimentado</entry>
@@ -374,7 +356,7 @@
 <entry key="expression|name|539">No se trata de un contrato marco; 'Nuevo valor estimado del acuerdo marco' (BT-660-LotResult) no está cumplimentado</entry>
 <entry key="expression|name|54">'Una obligación que debe cumplir el licitador en relación con la subcontratación' (BT-65_Lot) no es 'El contratista debe subcontratar un porcentaje mínimo del contrato utilizando el procedimiento establecido en el título III de la Directiva 2009/81/CE.'</entry>
 <entry key="expression|name|540">No se ha elegido ningún ganador; no se trata de un contrato marco; 'Nuevo valor estimado del acuerdo marco' (BT-660-LotResult) no está cumplimentado</entry>
-<entry key="expression|name|542">'Acuerdo marco grupo: valor identificador de lote' (BT-556) está cumplimentado y el '' no está cumplimentado</entry>
+<entry key="expression|name|542">'Acuerdo marco grupo: valor identificador de lote' (BT-556) está cumplimentado y el 'Valor recalculado de los acuerdos marco dentro de un grupo de lotes (BT-1561)' no está cumplimentado</entry>
 <entry key="expression|name|543">'Acuerdo marco grupo: valor identificador de lote' (BT-556) está cumplimentado y el 'Valor estimado de los acuerdos marco del grupo de lotes' no está cumplimentado</entry>
 <entry key="expression|name|544">'Valor aproximado de los acuerdos marco' (BT-1118-NoticeResult) no está cumplimentado</entry>
 <entry key="expression|name|545">'Campo para publicar más tarde' (BT-195(BT-1118)-NoticeResult) no está cumplimentado</entry>
@@ -396,13 +378,7 @@
 <entry key="expression|name|560">'Nuevo valor estimado del acuerdo marco' (BT-660-LotResult) no está cumplimentado</entry>
 <entry key="expression|name|561">'Campo para publicar más tarde' (BT-195(BT-660)-LotResult) no está cumplimentado</entry>
 <entry key="expression|name|568">'Código del requisito de ejecución' (OPT-060-Lot) no está cumplimentado</entry>
-<entry key="expression|name|569">'Descripción' (BT-540-Lot) está presente y 'Criterio de adjudicación: número' (BT-541-Lot-FixedNumber) &amp;amp; 'Criterio de adjudicación: número' (BT-541-Lot-ThresholdNumber) no están presentes</entry>
 <entry key="expression|name|57">'Se aplica un acuerdo marco' (BT-765-Lot) es 'Ninguno'</entry>
-<entry key="expression|name|570">'Descripción' (BT-540-Lot) está presente y 'Criterio de adjudicación: número' (BT-541-Lot-WeightNumber) &amp;amp; 'Criterio de adjudicación: número' (BT-541-Lot-ThresholdNumber) no están presentes</entry>
-<entry key="expression|name|571">'Descripción' (BT-540-Lot) está presente y 'Criterio de adjudicación: número' (BT-541-Lot-WeightNumber) &amp;amp; 'Criterio de adjudicación: número' (BT-541-Lot-FixedNumber) no están presentes</entry>
-<entry key="expression|name|572">'Descripción' (BT-540-LotsGroup) está presente y 'Criterio de adjudicación: número' (BT-541-LotsGroup-FixedNumber) &amp;amp; 'Criterio de adjudicación: número' (BT-541-LotsGroup-ThresholdNumber) no están presentes</entry>
-<entry key="expression|name|573">'Descripción' (BT-540-LotsGroup) está presente y 'Criterio de adjudicación: número' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Criterio de adjudicación: número' (BT-541-LotsGroup-ThresholdNumber) no están presentes</entry>
-<entry key="expression|name|574">'Descripción' (BT-540-LotsGroup) está presente y 'Criterio de adjudicación: número' (BT-541-LotsGroup-WeightNumber) &amp;amp; 'Criterio de adjudicación: número' (BT-541-LotsGroup-FixedNumber) no están presentes</entry>
 <entry key="expression|name|575">'Criterio de adjudicación: número' (BT-541-Lot-WeightNumber) no está presente</entry>
 <entry key="expression|name|576">'Criterio de adjudicación: número' (BT-541-Lot-FixedNumber) no está presente</entry>
 <entry key="expression|name|577">'Criterio de adjudicación: número' (BT-541-Lot-ThresholdNumber) no está presente</entry>
@@ -435,7 +411,22 @@
 <entry key="expression|name|604">El valor de 'Tipo de procedimiento' (BT-105) es igual a 'Otro procedimiento de múltiples etapas'</entry>
 <entry key="expression|name|605">El identificador del contrato a modificar (BT-1501(c)-Contract) está completado</entry>
 <entry key="expression|name|61">'Justificación de la adjudicación directa' (BT-136-Procedure) no es uno de los siguientes: 'En respuesta a un anuncio anterior solo se recibieron ofertas irregulares o inaceptables. Solo fueron incluidos en las negociaciones todos los licitadores del procedimiento anterior que cumplían los criterios de selección, no cumplían los motivos de exclusión y cumplían los requisitos formales'; 'Necesidad de obras o servicios adicionales por parte del contratista original'; 'Nuevos servicios u obras que consisten en la repetición de servicios u obras similares y que se solicitan con arreglo a las condiciones estrictas establecidas en la Directiva'; 'No se han recibido ofertas, solicitudes de participación o candidaturas adecuadas en respuesta a un anuncio anterior'; 'Sustitución parcial o ampliación de suministros o instalaciones existentes por el proveedor original solicitada con arreglo a las condiciones estrictas establecidas en la Directiva'; 'Contrato de servicios que debe adjudicarse al ganador o a uno de los ganadores con arreglo a las normas de un concurso de proyectos'</entry>
+<entry key="expression|name|613">La oferta no se ha presentado ni para un lote para el cual 'Reglamento de Subvenciones Extranjeras' (BT-681-Lot) se ha establecido en 'sí', ni para un grupo de lotes que contienen un lote para el cual 'Reglamento de Subvenciones Extranjeras' (BT-681-Lot) se ha establecido en 'sí'</entry>
+<entry key="expression|name|614">El aviso no ha sido identificado como un 'Fuente de los criterios de selección'</entry>
+<entry key="expression|name|615">El código del criterio de selección (BT-809) no existe</entry>
+<entry key="expression|name|616">La organización es un comprador, y el sistema de compra dinámico también puede ser utilizado por compradores no enumerados en este aviso, y 'Organismo comprador central que adquiere suministros o servicios destinados a otros compradores' (OPP-052) no está rellenado</entry>
+<entry key="expression|name|617">La organización es un comprador, y el sistema de compra dinámico también puede ser utilizado por compradores no enumerados en este aviso, y 'Organismo comprador central que adquiere suministros o servicios destinados a otros compradores' (OPP-052) no está rellenado</entry>
+<entry key="expression|name|618">'El procedimiento está acelerado' (BT-106-Procedure) es 'sí'</entry>
+<entry key="expression|name|619">'El procedimiento está acelerado' (BT-106-Procedure) es 'sí'</entry>
 <entry key="expression|name|62">'Estado de selección del ganador' (BT-142-LotResult) no es 'No se ha escogido a ningún ganador y la licitación está cerrada.'</entry>
+<entry key="expression|name|620">'El procedimiento está acelerado' (BT-106-Procedure) es 'sí'</entry>
+<entry key="expression|name|621">El aviso no ha sido identificado como un 'Fuente de los motivos de exclusión'</entry>
+<entry key="expression|name|622">El país de negocio (BT-514-Business) utiliza códigos postales</entry>
+<entry key="expression|name|623">El país de la organización (BT-514-Organization-Company) utiliza códigos postales</entry>
+<entry key="expression|name|624">El país del punto de contacto específico (BT-514-Organization-TouchPoint) utiliza códigos postales</entry>
+<entry key="expression|name|625">El país de residencia del propietario beneficiario final (BT-514-UBO) utiliza códigos postales</entry>
+<entry key="expression|name|626">Organización que cumple este papel' (OPT-301-Tenderer-SubCont) no existe</entry>
+<entry key="expression|name|627">'Identificador del contrato' (BT-150-Contract) no existe</entry>
 <entry key="expression|name|63">'Se aplica un acuerdo marco' (BT-765) es uno de los siguientes: 'Acuerdo marco, en parte con y en parte sin convocatoria de nueva licitación'; 'Acuerdo marco con convocatoria de nueva licitación'; 'Acuerdo marco sin convocatoria de nueva licitación'; y 'Estado de selección del ganador' (BT-142-LotResult) no debe ser 'Se ha escogido al menos un ganador.'</entry>
 <entry key="expression|name|64">'Se aplica un acuerdo marco' (BT-765) es uno de los siguientes: 'Acuerdo marco, en parte con y en parte sin convocatoria de nueva licitación'; 'Acuerdo marco con convocatoria de nueva licitación'; 'Acuerdo marco sin convocatoria de nueva licitación'; y 'Estado de selección del ganador' (BT-142-LotResult) no debe ser 'Se ha escogido al menos un ganador.'</entry>
 <entry key="expression|name|65">'Estado de selección del ganador' (BT-142-LotResult) es 'Se ha escogido al menos un ganador.'</entry>
@@ -460,11 +451,14 @@
 <entry key="expression|name|86">'Importancia de los activos esenciales aportados en relación con el conjunto de activos necesarios para la prestación de los servicios públicos' (OPP-020-Contract) no es 'sí'</entry>
 <entry key="expression|name|87">'La ejecución del contrato debe realizarse en el marco de programas de empleo protegido' (BT-736-Lot) no es 'sí'</entry>
 <entry key="expression|name|89">'Referencia al contrato' (OPT-315-LotResult) no está vacío</entry>
+<entry key="expression|name|9">'Descripción' - 'Criterio de adjudicación' (BT-540-Lot) no está presente o 'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-Lot) está presente</entry>
 <entry key="expression|name|90">'Estado de selección del ganador' (BT-142-LotResult) no debe ser 'Se ha escogido al menos un ganador.'</entry>
 <entry key="expression|name|91">'Identificador de la oferta' (BT-3201-Tender) no está cumplimentado</entry>
 <entry key="expression|name|93">'Otras restricciones del lugar de ejecución' (BT-727-Lot) es 'En cualquier lugar' o 'En cualquier lugar del Espacio Económico Europeo'</entry>
 <entry key="expression|name|94">'Otras restricciones del lugar de ejecución' (BT-727-Part) no debe ser 'En cualquier lugar' ni 'En cualquier lugar del Espacio Económico Europeo'</entry>
 <entry key="expression|name|95">'Otras restricciones del lugar de ejecución' (BT-727-Procedure) es 'En cualquier lugar' o 'En cualquier lugar del Espacio Económico Europeo'</entry>
-<entry key="expression|name|96">'Criterio de adjudicación: número' (BT-541-Lot) está cumplimentado, 'El número es un valor fijo' (BT-5422-Lot) y 'El número es un tipo de umbral' (BT-5423-Lot) no están cumplimentados</entry>
-<entry key="expression|name|97">'Criterio de adjudicación: número' (BT-541-LotsGroup) está cumplimentado, 'El número es un valor fijo' (BT-5422-LotsGroup) y 'El número es un tipo de umbral' (BT-5423-LotsGroup) no están cumplimentados</entry>
+<entry key="expression|name|96">'Descripción' - 'Criterio de adjudicación' (BT-540-Lot) está presente y 'Criterio de adjudicación: número' – 'El número es un valor fijo' (BT-541-Lot-FixedNumber), 'Criterio de adjudicación: número' – 'El número es un tipo de umbral' (BT-541-Lot-ThresholdNumber) &amp; 'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-Lot) no están presentes</entry>
+<entry key="expression|name|97">'Descripción' - 'Criterio de adjudicación' (BT-540-Lot) está presente y 'Criterio de adjudicación: número' – 'El número es un tipo de ponderación' (BT-541-Lot-WeightNumber), 'Criterio de adjudicación: número' – 'El número es un tipo de umbral' (BT-541-Lot-ThresholdNumber) &amp; 'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-Lot) no están presentes</entry>
+<entry key="expression|name|98">'Descripción' - 'Criterio de adjudicación' (BT-540-Lot) está presente y 'Criterio de adjudicación: número' – 'El número es un tipo de ponderación' (BT-541-Lot-WeightNumber), 'Criterio de adjudicación: número' – 'El número es un valor fijo' (BT-541-Lot-FixedNumber) &amp; 'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-Lot) no están presentes</entry>
+<entry key="expression|name|99">'Descripción' - 'Criterio de adjudicación' (BT-540-LotsGroup) está presente y 'Criterio de adjudicación: número' – 'El número es un valor fijo' (BT-541-LotsGroup-FixedNumber), 'Criterio de adjudicación: número' – 'El número es un tipo de umbral' (BT-541-LotsGroup-ThresholdNumber) &amp; 'Descripción del método que debe utilizarse si la ponderación no puede expresarse mediante criterios' (BT-543-LotsGroup) no están presentes</entry>
 </properties>

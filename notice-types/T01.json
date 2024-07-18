@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.11.0",
+  "sdkVersion" : "1.12.0",
   "metadataDatabase" : {
-    "version" : "1.11.0",
-    "createdOn" : "2024-02-29T16:00:00"
+    "version" : "1.12.0",
+    "createdOn" : "2024-06-11T11:53:25"
   },
   "noticeId" : "T01",
   "metadata" : [ {
@@ -128,6 +128,7 @@
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
       "_label" : "group|name|ND-ContractingParty",
+      "businessEntityId" : "buyer",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ContractingAuthority-Buyer",
@@ -204,6 +205,21 @@
       "description" : "Purpose",
       "_label" : "group|name|GR-Procedure-Purpose",
       "content" : [ {
+        "id" : "GR-Previous-Notice",
+        "contentType" : "group",
+        "nodeId" : "ND-PreviousNoticeReference",
+        "displayType" : "GROUP",
+        "description" : "Previous notice reference",
+        "_label" : "group|name|ND-PreviousNoticeReference",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPP-090-Procedure",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Previous Notice Identifier",
+          "_label" : "field|name|OPP-090-Procedure"
+        } ]
+      }, {
         "id" : "GR-Procedure-MainLegalBasis",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -263,9 +279,10 @@
       }, {
         "id" : "GR-Procedure-Description",
         "contentType" : "group",
+        "nodeId" : "ND-ProcedureProcurementScope",
         "displayType" : "GROUP",
-        "description" : "Description",
-        "_label" : "group|name|GR-Procedure-Description",
+        "description" : "Scope of the Procurement addressed with the whole notice",
+        "_label" : "group|name|ND-ProcedureProcurementScope",
         "content" : [ {
           "id" : "BT-22-Procedure",
           "contentType" : "field",
@@ -371,35 +388,6 @@
         } ]
       } ]
     }, {
-      "id" : "GR-Procedure-TenderingTerms",
-      "contentType" : "group",
-      "displayType" : "SECTION",
-      "description" : "Tendering Terms",
-      "_label" : "group|name|GR-Procedure-TenderingTerms",
-      "content" : [ {
-        "id" : "GR-Procedure-CrossBorderLaw",
-        "contentType" : "group",
-        "nodeId" : "ND-CrossBorderLaw",
-        "displayType" : "GROUP",
-        "description" : "Cross Border Law",
-        "_label" : "group|name|ND-CrossBorderLaw",
-        "content" : [ {
-          "id" : "BT-09(a)-Procedure",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Cross Border Law",
-          "_label" : "field|name|BT-09(a)-Procedure",
-          "_presetValue" : "CrossBorderLaw",
-          "hidden" : true
-        }, {
-          "id" : "BT-09(b)-Procedure",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Cross Border Law Description",
-          "_label" : "field|name|BT-09(b)-Procedure"
-        } ]
-      } ]
-    }, {
       "id" : "GR-Procedure-Procedure-subsection",
       "contentType" : "group",
       "displayType" : "SECTION",
@@ -457,6 +445,7 @@
     "_label" : "group|name|ND-Lot",
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
+    "businessEntityId" : "lot",
     "_identifierFieldId" : "BT-137-Lot",
     "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
@@ -740,7 +729,8 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Change Previous Section Identifier",
-          "_label" : "field|name|BT-13716-notice"
+          "_label" : "field|name|BT-13716-notice",
+          "_idSchemes" : [ "CON", "GLO", "LOT", "ORG", "PAR", "RES", "TEN", "TPA", "TPO", "UBO" ]
         } ]
       }, {
         "id" : "BT-141(a)-notice",
@@ -777,6 +767,7 @@
       "_label" : "group|name|ND-Organization",
       "_idScheme" : "ORG",
       "_schemeName" : "organization",
+      "businessEntityId" : "organization",
       "_identifierFieldId" : "OPT-200-Organization-Company",
       "_captionFieldId" : "BT-500-Organization-Company",
       "_repeatable" : true,
@@ -937,6 +928,7 @@
         "_label" : "group|name|ND-Touchpoint",
         "_idScheme" : "TPO",
         "_schemeName" : "touchpoint",
+        "businessEntityId" : "touchpoint",
         "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
         "_captionFieldId" : "BT-500-Organization-TouchPoint",
         "_repeatable" : true,

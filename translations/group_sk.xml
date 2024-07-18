@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Slovak. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Informácie o opakovanej výskyte</entry>
 <entry key="group|name|GR-Business-Address">Adresa</entry>
 <entry key="group|name|GR-Business-Contact">Kontaktné údaje</entry>
 <entry key="group|name|GR-Business-Party">Zmluvná strana</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Podmienky aukcie</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Dôsledky zadania</entry>
 <entry key="group|name|GR-Lot-Candidates">Záujemcovia</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Požiadavky na plnenie zmluvy</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Obnovenia a možnosti</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Systém uzatvárania zmlúv</entry>
 <entry key="group|name|GR-Lot-Deadline">Lehoty na preskúmanie</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Sprostredkovateľská organizácia</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Miesto plnenia</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Predpokladané trvanie</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Trvanie</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Obdobie</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Postup po zadaní</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Predchádzajúce plánovanie</entry>
 <entry key="group|name|GR-Lot-Procedure">Postup</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametre kritérií na vyhodnotenie ponúk</entry>
 <entry key="group|name|GR-LotsGroup-Description">Opis skupiny častí</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informácie o rámcovej dohode</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Časti zahrnuté v skupine častí</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Účel</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Rozsah verejného obstarávania</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Podmienky zadávania zákazky</entry>
 <entry key="group|name|GR-Metadata">Metaúdaje</entry>
 <entry key="group|name|GR-Modification">Zmena</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Oddiel, na ktorý sa zmena vzťahuje</entry>
 <entry key="group|name|GR-Nda">NRP</entry>
 <entry key="group|name|GR-NoticeResult-Section">Výsledok</entry>
 <entry key="group|name|GR-Organisations">Organizácie uvedené v oznámení</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Opis</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Zámer uzavrieť zmluvu</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Dôvody na vylúčenie</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Odkaz na miestne právne predpisy</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Iný právny základ s identifikátorom</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Iný právny základ s identifikátorom</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Právny základ</entry>
@@ -181,20 +174,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Cezhraničné právne predpisy (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Druh postupu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Druh postupu (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Zrýchlený postup (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Odhadovaná hodnota rámcovej dohody (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Odhadovaná hodnota rámcovej dohody (uverejnené neskôr)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Maximálna hodnota rámcových dohôd v tomto postupe (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Identifikátor predchádzajúceho postupu na odôvodnenie priameho zadania (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Identifikátor predchádzajúceho postupu na odôvodnenie priameho zadania (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Opis priameho zadania (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Opis priameho zadania (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Odôvodnenie zrýchleného postupu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Odôvodnenie priameho zadania (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Stav výberu víťaza (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Stav výberu víťaza (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Dôvod, prečo nebol vybratý víťaz (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Dôvod, prečo nebol vybratý víťaz (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Odhadovaná hodnota rámcových dohôd v skupine častí (uverejnené neskôr)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maximálna hodnota rámcových dohôd v tejto skupine častí (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Predpokladané príjmy plynúce od kupujúceho, ktorý udelil koncesiu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Hodnota všetkých zákaziek zadaných v rámci tohto postupu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Predpokladané príjmy plynúce od používateľov koncesie (uverejnené neskôr)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Opis (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Opis (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Opis (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Číslo kritéria na vyhodnotenie ponúk (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Číslo kritéria na vyhodnotenie ponúk (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Číslo kritéria na vyhodnotenie ponúk (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Číslo je typ váhy (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Číslo je typ váhy (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Číslo je typ váhy (uverejnené neskôr)</entry>
@@ -250,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Urýchlené konanie</entry>
 <entry key="group|name|ND-AccessibilityJustification">Odôvodnenie absencie kritérií prístupnosti</entry>
 <entry key="group|name|ND-Asset">Majetok, ktorý odôvodňuje predĺženie zmluvy</entry>
+<entry key="group|name|ND-AuctionTerms">Podmienky aukcie</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Člen poroty</entry>
 <entry key="group|name|ND-BusinessCapability">Podnikateľská činnosť</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Žiadosti o preskúmanie</entry>
@@ -272,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Dôvody na vylúčenie</entry>
 <entry key="group|name|ND-ExecutionRequirements">Podmienky plnenia</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Predĺženie zmluvy</entry>
+<entry key="group|name|ND-FSR">Použiteľnosť nariadenia o zahraničných dotáciách</entry>
 <entry key="group|name|ND-FinancingParty">Finančná organizácia</entry>
 <entry key="group|name|ND-Funding">Európske fondy</entry>
 <entry key="group|name|ND-GazetteReference">Odkaz na publikáciu</entry>
@@ -294,9 +284,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Kritérium na vyhodnotenie ponúk častí má zložitú číselnú hodnotu (uverejnené neskôr)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Kritérium na vyhodnotenie ponúk časti má pevné stanovenú číselnú hodnotu (uverejnené neskôr)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Kritérium na vyhodnotenie ponúk časti má prahovú číselnú hodnotu (uverejnené neskôr)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Číslo kritéria na vyhodnotenie ponúk časti (uverejnené neskôr)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Váha čísla kritéria na vyhodnotenie ponúk časti (uverejnené neskôr)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Parameter kritéria na vyhodnotenie ponúk</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Parametre kritérií na vyhodnotenie ponúk</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Kritérium prahovej hodnoty (zverejnené neskôr)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Typ kritéria na vyhodnotenie ponúk časti (uverejnené neskôr)</entry>
@@ -342,9 +330,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Kritérium na vyhodnotenie ponúk pre skupinu častí má zložitú číselnú hodnotu (uverejnené neskôr)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Kritérium na vyhodnotenie ponúk pre skupinu častí má pevné stanovenú číselnú hodnotu (uverejnené neskôr)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Kritérium na vyhodnotenie ponúk pre skupinu častí má prahovú číselnú hodnotu (uverejnené neskôr)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Číslo kritéria na vyhodnotenie ponúk pre skupinu častí (uverejnené neskôr)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Váha čísla kritéria na vyhodnotenie ponúk pre skupinu častí (uverejnené neskôr)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parameter kritéria na vyhodnotenie ponúk</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parametre kritéria na vyhodnotenie ponúk</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Kritérium prahovej hodnoty (zverejnené neskôr)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Typ kritéria na vyhodnotenie ponúk pre skupinu častí (uverejnené neskôr)</entry>
@@ -363,7 +349,6 @@
 <entry key="group|name|ND-NoticeResult">Výsledok</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Maximálna hodnota skupiny častí</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Hodnota oznámenia (uverejnené neskôr)</entry>
-<entry key="group|name|ND-OptionsDescription">Opis opcií</entry>
 <entry key="group|name|ND-Organization">Organizácie uvedené v oznámení</entry>
 <entry key="group|name|ND-OrganizationUboReference">Skutočný prospech majiteľa</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Podmienky iné ako alokácia príjmov</entry>

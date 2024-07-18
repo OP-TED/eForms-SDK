@@ -2,7 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>group in Slovenian. File generated from metadata database.</comment>
-<entry key="group|name|GR-132001">Informacije o ponovitvi</entry>
 <entry key="group|name|GR-Business-Address">Naslov</entry>
 <entry key="group|name|GR-Business-Contact">Kontaktna oseba</entry>
 <entry key="group|name|GR-Business-Party">Poslovna stranka</entry>
@@ -25,7 +24,6 @@
 <entry key="group|name|GR-Lot-AuctionTerms">Pogoji dražbe</entry>
 <entry key="group|name|GR-Lot-AwardingConsequences">Posledice oddaje naročila</entry>
 <entry key="group|name|GR-Lot-Candidates">Kandidati</entry>
-<entry key="group|name|GR-Lot-ContractExecutionRequirements">Zahteve za izvedbo naročila</entry>
 <entry key="group|name|GR-Lot-ContractExtension">Obnove in možnosti</entry>
 <entry key="group|name|GR-Lot-ContractingSystem">Sistem oddaje naročil</entry>
 <entry key="group|name|GR-Lot-Deadline">Roki za revizijo</entry>
@@ -49,8 +47,6 @@
 <entry key="group|name|GR-Lot-Mediator">Mediacijska organizacija</entry>
 <entry key="group|name|GR-Lot-PlaceOfPerformance">Kraj izvedbe</entry>
 <entry key="group|name|GR-Lot-PlannedDuration">Predvideno trajanje</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Dates">Trajanje</entry>
-<entry key="group|name|GR-Lot-PlannedDuration-Period">Obdobje</entry>
 <entry key="group|name|GR-Lot-PostAwardProcess">Postopek po oddaji naročila</entry>
 <entry key="group|name|GR-Lot-PreviousPlanning">Predhodno načrtovanje</entry>
 <entry key="group|name|GR-Lot-Procedure">Postopek</entry>
@@ -100,13 +96,11 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametri merila za oddajo</entry>
 <entry key="group|name|GR-LotsGroup-Description">Opis skupine sklopov</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informacije o okvirnem sporazumu</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Sklopi, vključeni v skupino sklopov</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Namen</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Obseg javnega naročila</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Pogoji za oddajo ponudbe</entry>
 <entry key="group|name|GR-Metadata">Metapodatki</entry>
 <entry key="group|name|GR-Modification">Sprememba</entry>
-<entry key="group|name|GR-ModificationSectionIdentifiers">Oddelek, v katerem se sprememba uporabi</entry>
 <entry key="group|name|GR-Nda">Sporazum o nerazkrivanju podatkov</entry>
 <entry key="group|name|GR-NoticeResult-Section">Rezultat</entry>
 <entry key="group|name|GR-Organisations">Organizacije, navedene v obvestilu</entry>
@@ -147,7 +141,6 @@
 <entry key="group|name|GR-Procedure-Description">Opis</entry>
 <entry key="group|name|GR-Procedure-DirectAward">Neposredna oddaja naročila</entry>
 <entry key="group|name|GR-Procedure-ExclusionGrounds">Razlogi za izključitev</entry>
-<entry key="group|name|GR-Procedure-LocalCrossBorderLaw">Sklic na lokalne predpise</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisNoID">Druga pravna podlaga brez identifikatorja</entry>
 <entry key="group|name|GR-Procedure-LocalLegalBasisWithID">Druga pravna podlaga z identifikatorjem</entry>
 <entry key="group|name|GR-Procedure-MainLegalBasis">Pravna podlaga</entry>
@@ -181,20 +174,18 @@
 <entry key="group|name|GR-Unpublish-BT-09">Čezmejno pravo (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Vrsta postopka (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Vrsta postopka (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-106">Pospešeni postopek (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Ocenjena vrednost okvirnega sporazuma (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Ocenjena vrednost okvirnega sporazuma (objavljeno pozneje)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Najvišja vrednost okvirnih sporazumov v tem postopku (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">ID predhodnega postopka, ki utemeljuje neposredno oddajo naročila (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID predhodnega postopka, ki utemeljuje neposredno oddajo naročila (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Opis neposredne oddaje naročila (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-135-Procedure">Opis neposredne oddaje naročila (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-1351">Utemeljitev za pospešeni postopek (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Utemeljitev za neposredno oddajo naročila (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-142">Status izbire ponudnika (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status izbire ponudnika (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Razlog, zaradi katerega ni bil izbran noben ponudnik (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Razlog, zaradi katerega ni bil izbran noben ponudnik (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Ocenjena vrednost okvirnih sporazumov v skupini sklopov (objavljeno pozneje)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Najvišja vrednost okvirnih sporazumov v tej skupini sklopov (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Predvideni prihodki, ki prihajajo od kupca, ki je podelil koncesijo (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Vrednost vseh javnih naročil, oddanih v tem postopku (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Predvideni prihodki, ki prihajajo od uporabnikov koncesije (objavljeno pozneje)</entry>
@@ -208,9 +199,6 @@
 <entry key="group|name|GR-Unpublish-BT-540">Opis (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Opis (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Opis (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-541">Številka v merilu za oddajo naročila (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-Lot">Številka v merilu za oddajo naročila (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-541-LotsGroup">Številka v merilu za oddajo naročila (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421">Številka je vrsta ponderja (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Številka je vrsta ponderja (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Številka je vrsta ponderja (objavljeno pozneje)</entry>
@@ -250,6 +238,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Pospešen postopek</entry>
 <entry key="group|name|ND-AccessibilityJustification">Utemeljitev za neobstoj meril dostopnosti</entry>
 <entry key="group|name|ND-Asset">Sredstva, ki upravičujejo podaljšanje pogodbe</entry>
+<entry key="group|name|ND-AuctionTerms">Pogoji dražbe</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Član žirije</entry>
 <entry key="group|name|ND-BusinessCapability">Poslovna dejavnost</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Zahtevki za revizijo</entry>
@@ -272,6 +261,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Razlogi za izključitev</entry>
 <entry key="group|name|ND-ExecutionRequirements">Pogoji izvedbe</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Podaljšanje pogodbe</entry>
+<entry key="group|name|ND-FSR">Uporabnost Uredbe o tujih subvencijah</entry>
 <entry key="group|name|ND-FinancingParty">Finančna organizacija</entry>
 <entry key="group|name|ND-Funding">Sredstva EU</entry>
 <entry key="group|name|ND-GazetteReference">Sklic na objavo</entry>
@@ -294,9 +284,7 @@
 <entry key="group|name|ND-LotAwardCriterionNumberComplicatedUnpublish">Številka v zapletenem merilu za oddajo sklopa (objavljeno pozneje)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberFixUnpublish">Merilo za oddajo sklopa je nespremenljiva številka (objavljeno pozneje)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberThresholdUnpublish">Številka v merilu za oddajo sklopa je prag (objavljeno pozneje)</entry>
-<entry key="group|name|ND-LotAwardCriterionNumberUnpublish">Številka v merilu za oddajo sklopa (objavljeno pozneje)</entry>
 <entry key="group|name|ND-LotAwardCriterionNumberWeightUnpublish">Številka v merilu za oddajo sklopa je ponder (objavljeno pozneje)</entry>
-<entry key="group|name|ND-LotAwardCriterionParameter">Parameter merila za oddajo</entry>
 <entry key="group|name|ND-LotAwardCriterionParameters">Parametri meril za oddajo</entry>
 <entry key="group|name|ND-LotAwardCriterionThresholdNumberUnpublish">Merilo pragovne vrednosti (objavljeno pozneje)</entry>
 <entry key="group|name|ND-LotAwardCriterionTypeUnpublish">Vrsta merila za oddajo sklopa (objavljeno pozneje)</entry>
@@ -342,9 +330,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Številka v zapletenih merilih za oddajo skupine sklopov (objavljeno pozneje)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Merilo za oddajo skupine sklopov je nespremenljiva številka (objavljeno pozneje)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Številka v merilu za oddajo skupine sklopov je prag (objavljeno pozneje)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Številka v merilu za oddajo skupine sklopov (objavljeno pozneje)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Številka v merilih za oddajo skupine sklopov je ponder (objavljeno pozneje)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parameter merila za oddajo</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parametri merila za oddajo</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Merilo pragovne vrednosti (objavljeno pozneje)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Vrsta merila za oddajo skupine sklopov (objavljeno pozneje)</entry>
@@ -363,7 +349,6 @@
 <entry key="group|name|ND-NoticeResult">Rezultat</entry>
 <entry key="group|name|ND-NoticeResultGroupFA">Najvišja vrednost skupine sklopov</entry>
 <entry key="group|name|ND-NoticeValueUnpublish">Obvestilo o vrednosti</entry>
-<entry key="group|name|ND-OptionsDescription">Opis opcij</entry>
 <entry key="group|name|ND-Organization">Organizacije, navedene v obvestilu</entry>
 <entry key="group|name|ND-OrganizationUboReference">Končni koristni lastnik</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Pogoji razen dodelitve prihodkov</entry>

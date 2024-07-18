@@ -27,13 +27,13 @@
    <svrl:failed-assert id="P-0002"
                        location="/pin:PriorInformationNotice"
                        role="ERROR"
-                       test="(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = ('1', '2', '3', 'X01', 'X02') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('1', '2', '3', 'X01', 'X02')) and count(cac:ProcurementProjectLot) &gt; 0)">
+                       test="($noticeSubType = ('1', '2', '3', 'X01', 'X02') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('1', '2', '3', 'X01', 'X02')) and count(cac:ProcurementProjectLot) &gt; 0)">
       <svrl:text>
 			rule|text|P-0002
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-1b-4"/>
-   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '4']"/>
    <svrl:failed-assert id="ND-Part-4"
                        location="/pin:PriorInformationNotice"
                        role="ERROR"
@@ -53,8 +53,8 @@
          <svrl:text>cac:ProcurementProject</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:failed-assert id="ND-Organizations-4"
                        location="/pin:PriorInformationNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
                        role="ERROR"
@@ -65,7 +65,7 @@
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-2a-4"/>
-   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-BT-00005-0059"
                        location="/pin:PriorInformationNotice"
                        role="ERROR"
@@ -111,8 +111,8 @@
          <svrl:text>cbc:CustomizationID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
-   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '4']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '4']"/>
    <svrl:failed-assert id="BR-OPT-00300-0107"
                        location="/pin:PriorInformationNotice/cac:ContractingParty/cac:Party"
                        role="ERROR"
@@ -123,7 +123,7 @@
          <svrl:text>cac:PartyIdentification/cbc:ID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-2b"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
@@ -164,8 +164,10 @@
                        test="count(@listName) &gt; 0">
       <svrl:text>rule|text|OPP-070-notice-List_MA</svrl:text>
    </svrl:failed-assert>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-4"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-4"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '4']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>

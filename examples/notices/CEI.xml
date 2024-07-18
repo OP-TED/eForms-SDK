@@ -138,7 +138,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">37f3f877-01ee-4671-a49f-5581cffe6388</cbc:ID>
 	<cbc:ContractFolderID>16c06d41-2232-4907-b836-07e0ee650c42</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-01-27+01:00</cbc:IssueDate>
@@ -176,9 +176,13 @@
 	</cac:ContractingParty>
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
-			<!-- The way this is marked will most likely be simplified. Use of /*/cac:TenderingTerms/cac:TendererQualificationRequest/cbc:Description instead. -->
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-bankr</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Applicants shall be excluded from participating in a contract if:
 (a) they are bankrupt, being wound up or have suspended business activities, their affairs are being administered by the court, they have entered into an arrangement with creditors or similar measures or are the subject of any proceedings of that nature, or are in any analogous situation arising from a similar procedure provided for in national legislation or regulations;
 (b) they have been convicted of an offence concerning their professional conduct by a judgment which is not open to appeal;
@@ -229,24 +233,21 @@ Interested experts may submit their applications at any point in time until 3 mo
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">This call is exclusively addressed to natural persons (and not to legal persons, such as companies), with the specific requirements referred to in Section 5.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">the applicant shall have the economic and financial capacity to provide the services set out in this document (see the declaration in point 3 of the Application Form).</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">Experts shall be selected for the list on the basis of their professional and technical ability to carry out the tasks described in this document. In order to be placed on this list of experts by the European Parliament, the applicant shall:
 — have a sound communication, academic or scientific background, with proven experience in science communication; he/she must have at least 4 years' professional experience in science communication, including at least 2 years clearly related to at least 1 of the policy fields in question, alternatively he/she must have a solid professional background linked to at least 1 of the thematic areas listed in paragraph 1.1, with 4 years’ proven professional experience in that area,
 — have an excellent command of English (duly proven through publications in English, language certificates, etc.),
 Applicants must provide evidence of their ability, skills, experience and competence for performing the work by means of:
 — a motivation letter of no more than 2 pages (max. 500 words), in which the applicant sets out his/her reasons for applying and the principal reasons why he/she should be admitted, including the thematic area/s he/she is interested in publishing about,
 — a full curriculum vitae, specifying specifies his/her educational and professional background, relevant expertise and experience and knowledge of languages; following the basic structure of the Europass template, the curriculum vitae should be organized as follows: personal information, work experience, education and training, level(s) of (foreign) language competence, personal skills and competences (with scientific/academic relevance), additional information pertinent for this call for expression of interest (e.g. publications, ongoing or planned research projects, awards received, etc.).</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -268,6 +269,11 @@ Applicants must provide evidence of their ability, skills, experience and compet
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>-->
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
 				<cbc:ExecutionRequirementCode listName="reserved-execution">not-known</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
