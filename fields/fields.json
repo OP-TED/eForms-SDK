@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.11.315",
-    "createdOn" : "2024-06-10T16:27:07"
+    "version" : "1.12.0",
+    "createdOn" : "2024-06-11T11:53:25"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -6267,8 +6267,8 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "T02" ],
-        "condition" : "{ND-SettledContract} ${(OPT-316-Contract is not present)}",
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "T02" ],
+        "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -22747,8 +22747,13 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "T02" ],
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "T02" ],
         "condition" : "{ND-SettledContract} ${(OPT-316-Contract is not present) or (OPT-321-Tender is not present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "36", "37" ],
+        "condition" : "{ND-SettledContract} ${not(BT-142-LotResult == 'selec-w') or (OPT-322-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -24738,7 +24743,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-SecondStage} ${(BT-40-Lot == TRUE) or not(BT-51-Lot is present)}",
+        "value" : "{ND-SecondStage} ${(BT-40-Lot == TRUE) or not(BT-51-Lot is present) or not(BT-821-Lot == 'epo-notice')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00051-0100"
       } ]
@@ -28230,7 +28235,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "33", "34", "38", "39" ],
+        "noticeTypes" : [ "29", "30", "31", "33", "34" ],
         "condition" : "{ND-NoticeResultGroupFA} ${not(every text:$groupResult in BT-556-NoticeResult, text:$lot in BT-1375-Procedure[BT-330-Procedure == $groupResult], text:$result in BT-142-LotResult[BT-13713-LotResult == $lot] satisfies ($result == 'selec-w')) or (every text:$group in BT-556-NoticeResult satisfies (count(BT-137-Lot[(BT-137-Lot in BT-1375-Procedure[BT-330-Procedure == $group]) and (BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc'))]) < 2))}",
         "value" : true,
         "severity" : "ERROR"
@@ -41525,7 +41530,12 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "T02" ],
+        "condition" : "{ND-SettledContract} ${BT-150-Contract is not present}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "36", "37" ],
         "condition" : "{ND-SettledContract} ${not(BT-142-LotResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
@@ -41628,7 +41638,7 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00320-0100"
       }, {
-        "value" : "{OPT-320-LotResult} ${every text:$resultTender in OPT-320-LotResult, text:$resultLot in BT-13713-LotResult, context:$resultGroup in ND-GroupComposition[BT-1375-Procedure == $resultLot] satisfies (($resultTender in OPT-321-Tender[BT-13714-Tender == $resultLot]) or ($resultTender in OPT-321-Tender[BT-13714-Tender in $resultGroup::BT-330-Procedure]))}",
+        "value" : "{OPT-320-LotResult} ${every text:$resultTender in OPT-320-LotResult, text:$resultLot in BT-13713-LotResult, text:$tenderLot in BT-13714-Tender[OPT-321-Tender == $resultTender] satisfies (($resultLot == $tenderLot) or ($resultLot == BT-1375-Procedure[BT-330-Procedure == $tenderLot]))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00320-0101"
       } ]
