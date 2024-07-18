@@ -690,15 +690,6 @@
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
-   <svrl:failed-assert id="BR-BT-00150-0036"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
-                       role="ERROR"
-                       test="count(efac:ContractReference/cbc:ID) &gt; 0 or ((not(cbc:ID)))">
-      <svrl:text>rule|text|BR-BT-00150-0036</svrl:text>
-      <svrl:diagnostic-reference diagnostic="BT-150-Contract" see="field:BT-150-Contract">
-         <svrl:text>efac:ContractReference/cbc:ID</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:failed-assert id="BR-BT-03202-0036"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
                        role="ERROR"
@@ -712,7 +703,7 @@
    <svrl:failed-assert id="BR-OPT-00316-0053"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
                        role="ERROR"
-                       test="count(cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">
+                       test="count(cbc:ID) = 0 or (efac:ContractReference/cbc:ID)">
       <svrl:text>rule|text|BR-OPT-00316-0053</svrl:text>
       <svrl:diagnostic-reference diagnostic="OPT-316-Contract" see="field:OPT-316-Contract">
          <svrl:text>cbc:ID</svrl:text>

@@ -307,8 +307,6 @@
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
-			</cac:TendererQualificationRequest>
-			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>

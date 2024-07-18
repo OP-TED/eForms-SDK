@@ -747,6 +747,16 @@
    <svrl:fired-rule context="/*/cac:TenderingProcess[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00150-0086"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult"
+                       role="ERROR"
+                       test="count(efac:SettledContract/efac:ContractReference/cbc:ID) = 0 or (efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">
+      <svrl:text>rule|text|BR-BT-00150-0086</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-NoticeResult_BT-150-Contract"
+                                 see="field:BT-150-Contract">
+         <svrl:text>efac:SettledContract/efac:ContractReference/cbc:ID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00321-0057"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult"
                        role="ERROR"
@@ -804,15 +814,6 @@
       <svrl:text>rule|text|BR-BT-00145-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-145-Contract" see="field:BT-145-Contract">
          <svrl:text>cbc:IssueDate</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="BR-OPT-00316-0053"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
-                       role="ERROR"
-                       test="count(cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">
-      <svrl:text>rule|text|BR-OPT-00316-0053</svrl:text>
-      <svrl:diagnostic-reference diagnostic="OPT-316-Contract" see="field:OPT-316-Contract">
-         <svrl:text>cbc:ID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = '29']"/>

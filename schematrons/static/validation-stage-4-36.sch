@@ -432,8 +432,8 @@
 		<assert id="BR-BT-00721-0045" role="ERROR" diagnostics="BT-721-Contract" test="count(cbc:Title) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00721-0045</assert>
 		<assert id="BR-BT-01451-0045" role="ERROR" diagnostics="BT-1451-Contract" test="count(cbc:AwardDate) &gt; 0 or ((not(cbc:ID)))">rule|text|BR-BT-01451-0045</assert>
 		<assert id="BR-BT-01451-0053" role="ERROR" diagnostics="BT-1451-Contract" test="count(cbc:AwardDate) = 0 or not((not(cbc:ID)))">rule|text|BR-BT-01451-0053</assert>
-		<assert id="BR-BT-03202-0045" role="ERROR" diagnostics="ND-SettledContract_BT-3202-Contract" test="count(efac:LotTender/cbc:ID) &gt; 0 or ((not(cbc:ID)) or (not(../efac:LotTender/cbc:ID)))">rule|text|BR-BT-03202-0045</assert>
-		<assert id="BR-BT-03202-0068" role="ERROR" diagnostics="ND-SettledContract_BT-3202-Contract" test="count(efac:LotTender/cbc:ID) = 0 or not((not(cbc:ID)) or (not(../efac:LotTender/cbc:ID)))">rule|text|BR-BT-03202-0068</assert>
+		<assert id="BR-BT-03202-0045" role="ERROR" diagnostics="ND-SettledContract_BT-3202-Contract" test="count(efac:LotTender/cbc:ID) &gt; 0 or (not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w') or (not(../efac:LotResult/cbc:ID)))">rule|text|BR-BT-03202-0045</assert>
+		<assert id="BR-BT-03202-0068" role="ERROR" diagnostics="ND-SettledContract_BT-3202-Contract" test="count(efac:LotTender/cbc:ID) = 0 or not(not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w') or (not(../efac:LotResult/cbc:ID)))">rule|text|BR-BT-03202-0068</assert>
 		<assert id="BR-OPT-00316-0045" role="ERROR" diagnostics="OPT-316-Contract" test="count(cbc:ID) &gt; 0 or not(../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00316-0045</assert>
 		<assert id="BR-OPT-00316-0062" role="ERROR" diagnostics="OPT-316-Contract" test="count(cbc:ID) = 0 or (../efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'selec-w')">rule|text|BR-OPT-00316-0062</assert>
 	</rule>
