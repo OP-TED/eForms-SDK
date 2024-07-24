@@ -55,6 +55,7 @@
 <entry key="code|name|can-modif.38">Contract modification notice – general directive</entry>
 <entry key="code|name|can-modif.39">Contract modification notice – sectoral directive</entry>
 <entry key="code|name|can-modif.40">Contract modification notice – concessions directive</entry>
+<entry key="code|name|can-modif.E6">Voluntary Contract Modification Notice</entry>
 <entry key="code|name|can-social.33">Contract award notice – general directive, light regime</entry>
 <entry key="code|name|can-social.34">Contract award notice – sectoral directive, light regime</entry>
 <entry key="code|name|can-social.35">Concession award notice – concessions directive, light regime</entry>
@@ -62,7 +63,7 @@
 <entry key="code|name|can-standard.30">Contract award notice – sectoral directive, standard regime</entry>
 <entry key="code|name|can-standard.31">Contract award notice – defence directive, standard regime</entry>
 <entry key="code|name|can-standard.32">Concession award notice – concession directive, standard regime</entry>
-<entry key="code|name|can-standard.E4">Below threshold contract award notice (CAN) general</entry>
+<entry key="code|name|can-standard.E4">Voluntary Award Notice</entry>
 <entry key="code|name|can-tran.T02">Information notice for award of public service contract</entry>
 <entry key="code|name|change-corrig-justification.cancel">Notice cancelled</entry>
 <entry key="code|name|change-corrig-justification.cancel-intent">Cancellation intention</entry>
@@ -81,7 +82,7 @@
 <entry key="code|name|cn-standard.17">Contract notice – sectoral directive, standard regime</entry>
 <entry key="code|name|cn-standard.18">Contract notice – defence directive, standard regime</entry>
 <entry key="code|name|cn-standard.19">Concession notice – concessions directive, standard regime</entry>
-<entry key="code|name|cn-standard.E3">Below threshold contract notice (CN) general</entry>
+<entry key="code|name|cn-standard.E3">Voluntary Contract Notice</entry>
 <entry key="code|name|communication-justification.ipr-iss">Intellectual property right issues</entry>
 <entry key="code|name|communication-justification.phy-mod">Inclusion of a physical model</entry>
 <entry key="code|name|communication-justification.sen-info">Protection of particularly sensitive information</entry>
@@ -10802,6 +10803,8 @@
 <entry key="code|name|legal-basis-e5.32014L0025">Directive 2014/25/EU</entry>
 <entry key="code|name|legal-basis-e5.32018R1046">Regulation (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.other">Other</entry>
+<entry key="code|name|legal-basis-e6.32009L0081">Directive 2009/81/EC</entry>
+<entry key="code|name|legal-basis-e6.other">Other</entry>
 <entry key="code|name|legal-basis-t01.32007R1370">Regulation (EC) No 1370/2007</entry>
 <entry key="code|name|legal-basis-t02.32007R1370">Regulation (EC) No 1370/2007</entry>
 <entry key="code|name|legal-basis-x01.31985R2137">Regulation (EEC) No 2137/85</entry>
@@ -10981,11 +10984,12 @@
 <entry key="code|name|notice-subtype.8">Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive</entry>
 <entry key="code|name|notice-subtype.9">Prior information notice used to shorten time limits for receipt of tenders – defence directive</entry>
 <entry key="code|name|notice-subtype.CEI">Call for expressions of interest</entry>
-<entry key="code|name|notice-subtype.E1">Preliminary market consultation notice</entry>
-<entry key="code|name|notice-subtype.E2">Below threshold prior information notice (PIN) only</entry>
-<entry key="code|name|notice-subtype.E3">Below threshold contract notice (CN) general</entry>
-<entry key="code|name|notice-subtype.E4">Below threshold contract award notice (CAN) general</entry>
-<entry key="code|name|notice-subtype.E5">Contract completion notice</entry>
+<entry key="code|name|notice-subtype.E1">Voluntary Pre-market Consultation Notice</entry>
+<entry key="code|name|notice-subtype.E2">Voluntary Prior Information Notice</entry>
+<entry key="code|name|notice-subtype.E3">Voluntary Contract Notice</entry>
+<entry key="code|name|notice-subtype.E4">Voluntary Award Notice</entry>
+<entry key="code|name|notice-subtype.E5">Voluntary Completion Notice</entry>
+<entry key="code|name|notice-subtype.E6">Voluntary Contract Modification Notice</entry>
 <entry key="code|name|notice-subtype.T01">Prior information notice for public service contract</entry>
 <entry key="code|name|notice-subtype.T02">Information notice for award of public service contract</entry>
 <entry key="code|name|notice-subtype.X01">European Economic Interest Grouping</entry>
@@ -16315,7 +16319,7 @@
 <entry key="code|name|pin-only.4">Prior information notice used only for information – general directive</entry>
 <entry key="code|name|pin-only.5">Periodic indicative notice used only for information – sectoral directive</entry>
 <entry key="code|name|pin-only.6">Prior information notice used only for information – defence directive</entry>
-<entry key="code|name|pin-only.E2">Below threshold prior information notice (PIN) only</entry>
+<entry key="code|name|pin-only.E2">Voluntary Prior Information Notice</entry>
 <entry key="code|name|pin-rtl.7">Prior information notice used to shorten time limits for receipt of tenders – general directive</entry>
 <entry key="code|name|pin-rtl.8">Periodic indicative notice used to shorten time limits for receipt of tenders – sectoral directive</entry>
 <entry key="code|name|pin-rtl.9">Prior information notice used to shorten time limits for receipt of tenders – defence directive</entry>
