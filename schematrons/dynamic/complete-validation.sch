@@ -639,6 +639,88 @@
 		<active pattern="EFORMS-validation-stage-6a" />
 		<active pattern="EFORMS-validation-stage-6b" />
 	</phase>
+	<phase id="eforms-E1">
+		<active pattern="EFORMS-validation-stage-1a" />
+		<active pattern="EFORMS-validation-stage-2b" />
+		<active pattern="EFORMS-validation-stage-3a" />
+		<active pattern="EFORMS-validation-stage-3b" />
+		<active pattern="EFORMS-validation-stage-4m" />
+		<active pattern="EFORMS-validation-stage-5" />
+		<active pattern="EFORMS-validation-stage-5m" />
+		<active pattern="EFORMS-validation-stage-6a" />
+		<active pattern="EFORMS-validation-stage-6b" />
+	</phase>
+	<phase id="eforms-E2">
+		<active pattern="EFORMS-validation-stage-1a" />
+		<active pattern="EFORMS-validation-stage-1b-E2" />
+		<active pattern="EFORMS-validation-stage-2a-E2" />
+		<active pattern="EFORMS-validation-stage-2b" />
+		<active pattern="EFORMS-validation-stage-3a" />
+		<active pattern="EFORMS-validation-stage-3b" />
+		<active pattern="EFORMS-validation-stage-3b-E2" />
+		<active pattern="EFORMS-validation-stage-4-E2" />
+		<active pattern="EFORMS-validation-stage-4m" />
+		<active pattern="EFORMS-validation-stage-5" />
+		<active pattern="EFORMS-validation-stage-5m" />
+		<active pattern="EFORMS-validation-stage-6a" />
+		<active pattern="EFORMS-validation-stage-6b" />
+	</phase>
+	<phase id="eforms-E3">
+		<active pattern="EFORMS-validation-stage-1a" />
+		<active pattern="EFORMS-validation-stage-1b-E3" />
+		<active pattern="EFORMS-validation-stage-2a-E3" />
+		<active pattern="EFORMS-validation-stage-2b" />
+		<active pattern="EFORMS-validation-stage-3a" />
+		<active pattern="EFORMS-validation-stage-3b" />
+		<active pattern="EFORMS-validation-stage-3b-E3" />
+		<active pattern="EFORMS-validation-stage-4-E3" />
+		<active pattern="EFORMS-validation-stage-4m" />
+		<active pattern="EFORMS-validation-stage-5" />
+		<active pattern="EFORMS-validation-stage-5m" />
+		<active pattern="EFORMS-validation-stage-6a" />
+		<active pattern="EFORMS-validation-stage-6b" />
+	</phase>
+	<phase id="eforms-E4">
+		<active pattern="EFORMS-validation-stage-1a" />
+		<active pattern="EFORMS-validation-stage-1b-E4" />
+		<active pattern="EFORMS-validation-stage-2a-E4" />
+		<active pattern="EFORMS-validation-stage-2b" />
+		<active pattern="EFORMS-validation-stage-3a" />
+		<active pattern="EFORMS-validation-stage-3b" />
+		<active pattern="EFORMS-validation-stage-3b-E4" />
+		<active pattern="EFORMS-validation-stage-4-E4" />
+		<active pattern="EFORMS-validation-stage-4m" />
+		<active pattern="EFORMS-validation-stage-5" />
+		<active pattern="EFORMS-validation-stage-5m" />
+		<active pattern="EFORMS-validation-stage-6a" />
+		<active pattern="EFORMS-validation-stage-6b" />
+	</phase>
+	<phase id="eforms-E5">
+		<active pattern="EFORMS-validation-stage-1a" />
+		<active pattern="EFORMS-validation-stage-2b" />
+		<active pattern="EFORMS-validation-stage-3a" />
+		<active pattern="EFORMS-validation-stage-3b" />
+		<active pattern="EFORMS-validation-stage-4m" />
+		<active pattern="EFORMS-validation-stage-5" />
+		<active pattern="EFORMS-validation-stage-5m" />
+		<active pattern="EFORMS-validation-stage-6a" />
+		<active pattern="EFORMS-validation-stage-6b" />
+	</phase>
+	<phase id="eforms-E6">
+		<active pattern="EFORMS-validation-stage-1a" />
+		<active pattern="EFORMS-validation-stage-1b-E6" />
+		<active pattern="EFORMS-validation-stage-2a-E6" />
+		<active pattern="EFORMS-validation-stage-2b" />
+		<active pattern="EFORMS-validation-stage-3a" />
+		<active pattern="EFORMS-validation-stage-3b" />
+		<active pattern="EFORMS-validation-stage-3b-E6" />
+		<active pattern="EFORMS-validation-stage-4-E6" />
+		<active pattern="EFORMS-validation-stage-4m" />
+		<active pattern="EFORMS-validation-stage-5" />
+		<active pattern="EFORMS-validation-stage-5m" />
+		<active pattern="EFORMS-validation-stage-6a" />
+		<active pattern="EFORMS-validation-stage-6b" />
+	</phase>
 	<phase id="eforms-T01">
 		<active pattern="EFORMS-validation-stage-1a" />
 		<active pattern="EFORMS-validation-stage-1b-T01" />
@@ -742,6 +824,10 @@
 	<include href="validation-stage-1b-8.sch"/>
 	<include href="validation-stage-1b-9.sch"/>
 	<include href="validation-stage-1b-CEI.sch"/>
+	<include href="validation-stage-1b-E2.sch"/>
+	<include href="validation-stage-1b-E3.sch"/>
+	<include href="validation-stage-1b-E4.sch"/>
+	<include href="validation-stage-1b-E6.sch"/>
 	<include href="validation-stage-1b-T01.sch"/>
 	<include href="validation-stage-1b-T02.sch"/>
 	<include href="validation-stage-1b-X01.sch"/>
@@ -787,6 +873,10 @@
 	<include href="validation-stage-2a-8.sch"/>
 	<include href="validation-stage-2a-9.sch"/>
 	<include href="validation-stage-2a-CEI.sch"/>
+	<include href="validation-stage-2a-E2.sch"/>
+	<include href="validation-stage-2a-E3.sch"/>
+	<include href="validation-stage-2a-E4.sch"/>
+	<include href="validation-stage-2a-E6.sch"/>
 	<include href="validation-stage-2a-T01.sch"/>
 	<include href="validation-stage-2a-T02.sch"/>
 	<include href="validation-stage-2a-X01.sch"/>
@@ -834,6 +924,10 @@
 	<include href="validation-stage-3b-8.sch"/>
 	<include href="validation-stage-3b-9.sch"/>
 	<include href="validation-stage-3b-CEI.sch"/>
+	<include href="validation-stage-3b-E2.sch"/>
+	<include href="validation-stage-3b-E3.sch"/>
+	<include href="validation-stage-3b-E4.sch"/>
+	<include href="validation-stage-3b-E6.sch"/>
 	<include href="validation-stage-3b-T01.sch"/>
 	<include href="validation-stage-3b-T02.sch"/>
 	<include href="validation-stage-3b-X01.sch"/>
@@ -880,6 +974,10 @@
 	<include href="validation-stage-4-8.sch"/>
 	<include href="validation-stage-4-9.sch"/>
 	<include href="validation-stage-4-CEI.sch"/>
+	<include href="validation-stage-4-E2.sch"/>
+	<include href="validation-stage-4-E3.sch"/>
+	<include href="validation-stage-4-E4.sch"/>
+	<include href="validation-stage-4-E6.sch"/>
 	<include href="validation-stage-4-T01.sch"/>
 	<include href="validation-stage-4-T02.sch"/>
 	<include href="validation-stage-4-X01.sch"/>
@@ -1562,6 +1660,7 @@
 		<diagnostic id="ND-LotProcurementScope_BT-263-Lot" see="field:BT-263-Lot">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="ND-LotProcurementScope_BT-271-Lot" see="field:BT-271-Lot">cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount</diagnostic>
 		<diagnostic id="ND-LotProcurementScope_BT-531-Lot" see="field:BT-531-Lot">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='contract-nature']/cbc:ProcurementTypeCode</diagnostic>
+		<diagnostic id="ND-LotProcurementScope_BT-727-Lot" see="field:BT-727-Lot">cac:RealizedLocation/cac:Address/cbc:Region</diagnostic>
 		<diagnostic id="ND-LotProcurementScope_BT-754-Lot" see="field:BT-754-Lot">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='accessibility']/cbc:ProcurementTypeCode</diagnostic>
 		<diagnostic id="ND-LotProcurementScope_BT-774-Lot" see="field:BT-774-Lot">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='environmental-impact']/cbc:ProcurementTypeCode</diagnostic>
 		<diagnostic id="ND-LotProcurementScope_BT-775-Lot" see="field:BT-775-Lot">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='social-objective']/cbc:ProcurementTypeCode</diagnostic>
@@ -1590,6 +1689,7 @@
 		<diagnostic id="ND-LotTender_BT-782-Tender" see="field:BT-782-Tender">efac:AggregatedAmounts/efbc:PenaltiesAmount</diagnostic>
 		<diagnostic id="ND-LotTender_OPP-030-Tender" see="field:OPP-030-Tender">efac:ContractTerm[not(efbc:TermCode/text()='all-rev-tic')][efbc:TermCode/@listName='contract-detail']/efbc:TermCode</diagnostic>
 		<diagnostic id="ND-LotTender_OPP-033-Tender" see="field:OPP-033-Tender">efac:ContractTerm[efbc:TermCode/@listName='rewards-penalties']/efbc:TermCode</diagnostic>
+		<diagnostic id="ND-LotTender_OPP-035-Tender" see="field:OPP-035-Tender">efac:ContractTerm[efbc:TermCode/text()='all-rev-tic']/efbc:TermCode</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess" see="node:ND-LotTenderingProcess">cac:TenderingProcess</diagnostic>
 		<diagnostic id="ND-LotTenderingProcessExtension" see="node:ND-LotTenderingProcessExtension">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</diagnostic>
 		<diagnostic id="ND-LotTenderingProcess_BT-109-Lot" see="field:BT-109-Lot">cac:FrameworkAgreement/cbc:Justification</diagnostic>
@@ -1610,6 +1710,8 @@
 		<diagnostic id="ND-LotTenderingTerms" see="node:ND-LotTenderingTerms">cac:TenderingTerms</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-18-Lot" see="field:BT-18-Lot">cac:TenderRecipientParty/cbc:EndpointID</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-65-Lot" see="field:BT-65-Lot">cac:AllowedSubcontractTerms[cbc:SubcontractingConditionsCode/@listName='subcontracting-obligation']/cbc:SubcontractingConditionsCode</diagnostic>
+		<diagnostic id="ND-LotTenderingTerms_BT-681-Lot" see="field:BT-681-Lot">cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='fsr']/cbc:ExecutionRequirementCode</diagnostic>
+		<diagnostic id="ND-LotTenderingTerms_BT-71-Lot" see="field:BT-71-Lot">cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='selection-criteria-source'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-736-Lot" see="field:BT-736-Lot">cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='reserved-execution']/cbc:ExecutionRequirementCode</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-743-Lot" see="field:BT-743-Lot">cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='einvoicing']/cbc:ExecutionRequirementCode</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-744-Lot" see="field:BT-744-Lot">cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='esignature-submission']/cbc:ExecutionRequirementCode</diagnostic>
@@ -1618,6 +1720,7 @@
 		<diagnostic id="ND-LotTenderingTerms_BT-761-Lot" see="field:BT-761-Lot">cac:TendererQualificationRequest[not(cac:SpecificTendererRequirement)]/cbc:CompanyLegalFormCode</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-764-Lot" see="field:BT-764-Lot">cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='ecatalog-submission']/cbc:ExecutionRequirementCode</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-771-Lot" see="field:BT-771-Lot">cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='selection-criteria-source'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:TendererRequirementTypeCode</diagnostic>
+		<diagnostic id="ND-LotTenderingTerms_BT-772-Lot" see="field:BT-772-Lot">cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='selection-criteria-source'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='missing-info-submission']/cbc:Description</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-801-Lot" see="field:BT-801-Lot">cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda']/cbc:ExecutionRequirementCode</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-809-Lot" see="field:BT-809-Lot">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/cbc:TendererRequirementTypeCode</diagnostic>
 		<diagnostic id="ND-LotTenderingTerms_BT-821-Lot" see="field:BT-821-Lot">cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='selection-criteria-source']/cbc:TendererRequirementTypeCode</diagnostic>
@@ -1678,6 +1781,7 @@
 		<diagnostic id="ND-PartProcurementScope_BT-262-Part" see="field:BT-262-Part">cac:MainCommodityClassification/cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="ND-PartProcurementScope_BT-263-Part" see="field:BT-263-Part">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="ND-PartProcurementScope_BT-531-Part" see="field:BT-531-Part">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='contract-nature']/cbc:ProcurementTypeCode</diagnostic>
+		<diagnostic id="ND-PartProcurementScope_BT-727-Part" see="field:BT-727-Part">cac:RealizedLocation/cac:Address/cbc:Region</diagnostic>
 		<diagnostic id="ND-PartReservedParticipation_BT-71-Part" see="field:BT-71-Part">cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode</diagnostic>
 		<diagnostic id="ND-PartReviewTerms" see="node:ND-PartReviewTerms">cac:AppealTerms</diagnostic>
 		<diagnostic id="ND-PartTenderingProcess_BT-1251-Part" see="field:BT-1251-Part">cac:NoticeDocumentReference/cbc:ReferencedDocumentInternalAddress</diagnostic>
@@ -1700,6 +1804,7 @@
 		<diagnostic id="ND-ProcedureProcurementScope_BT-263-Procedure" see="field:BT-263-Procedure">cac:AdditionalCommodityClassification/cbc:ItemClassificationCode</diagnostic>
 		<diagnostic id="ND-ProcedureProcurementScope_BT-271-Procedure" see="field:BT-271-Procedure">cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount</diagnostic>
 		<diagnostic id="ND-ProcedureProcurementScope_BT-531-Procedure" see="field:BT-531-Procedure">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='contract-nature']/cbc:ProcurementTypeCode</diagnostic>
+		<diagnostic id="ND-ProcedureProcurementScope_BT-727-Procedure" see="field:BT-727-Procedure">cac:RealizedLocation/cac:Address/cbc:Region</diagnostic>
 		<diagnostic id="ND-ProcedureProcurementScope_OPP-040-Procedure" see="field:OPP-040-Procedure">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='transport-service']/cbc:ProcurementTypeCode</diagnostic>
 		<diagnostic id="ND-ProcedureTenderingProcess" see="node:ND-ProcedureTenderingProcess">cac:TenderingProcess</diagnostic>
 		<diagnostic id="ND-ProcedureTenderingProcess_BT-106-Procedure" see="field:BT-106-Procedure">cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode</diagnostic>
