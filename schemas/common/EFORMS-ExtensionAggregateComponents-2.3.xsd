@@ -26,6 +26,8 @@
 	<xsd:element name="AppealsInformation" type="AppealsInformationType"/>
 	<xsd:element name="AppealingParty" type="AppealingPartyType"/>
 	<xsd:element name="Asset" type="AssetType"/>
+	<xsd:element name="AssetLabel" type="AssetLabelType"/>
+	<xsd:element name="AssetMetric" type="StatisticsType"/>
 	<xsd:element name="AssetsList" type="AssetsListType"/>
 	<xsd:element name="AwardCriterionParameter" type="AwardCriterionParameterType"/>
 	<xsd:element name="BusinessPartyGroup" type="BusinessPartyGroupType"/>
@@ -164,6 +166,12 @@
 			<xsd:element ref="efbc:AssetDescription" minOccurs="1" maxOccurs="unbounded"/>
 			<xsd:element ref="efbc:AssetSignificance" minOccurs="1" maxOccurs="1"/>
 			<xsd:element ref="efbc:AssetPredominance" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AssetLabelType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:LabelCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:LabelDescription" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="AssetsListType">
@@ -433,6 +441,8 @@
 	<xsd:complexType name="ProcurementDetailsType">
 		<xsd:sequence>
 			<xsd:element ref="efbc:AssetCategoryCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:AssetLabel" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:AssetMetric" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:StrategicProcurementStatistics" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
