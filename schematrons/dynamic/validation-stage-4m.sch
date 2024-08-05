@@ -18,7 +18,7 @@
 	<!-- Identifiers of organisations that are part of a tendering party that has submitted a tender that is referenced in a contract -->
 	 <let name="global-org-winner" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID = $global-tpa-winner]" />
 	<!-- Identifiers of organisations that are subcontractors in a tendering party that has submitted a tender that is referenced in a contract -->
-	<let name="global-org-winner-subcontractor" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID = $global-tpa-winner]" />>
+	<let name="global-org-winner-subcontractor" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID = $global-tpa-winner]" />
 
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']">
 		<assert id="BR-BT-00720-0036" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not((cbc:ID = $global-ten-selec-no-fa) or (cbc:ID = $global-ten-selec-fa and cbc:ID = $global-ten-contract-in-fa))">rule|text|BR-BT-00720-0036</assert>
