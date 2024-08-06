@@ -5,7 +5,7 @@
       <ShortName>Currency</ShortName>
       <LongName>currency</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/currency</LongName>
-      <Version>20230927-0</Version>
+      <Version>20240612-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/currency</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -2958,7 +2958,7 @@
             <SimpleValue>Couronne tchèque</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Koruna Phoblacht na Seice</SimpleValue>
+            <SimpleValue>Koruna na Seicia</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Češka kruna</SimpleValue>
@@ -11314,7 +11314,7 @@
             <SimpleValue>Hrivna</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Hryvnia</SimpleValue>
+            <SimpleValue>Grivna</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Hryvnia</SimpleValue>
