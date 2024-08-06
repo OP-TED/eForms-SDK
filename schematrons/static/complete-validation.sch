@@ -1562,7 +1562,7 @@
 		<diagnostic id="ND-LotProcurementScope_BT-776-Lot" see="field:BT-776-Lot">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='innovative-acquisition']/cbc:ProcurementTypeCode</diagnostic>
 		<diagnostic id="ND-LotProcurementScope_BT-805-Lot" see="field:BT-805-Lot">cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='gpp-criteria']/cbc:ProcurementTypeCode</diagnostic>
 		<diagnostic id="ND-LotReservedParticipation" see="node:ND-LotReservedParticipation">cac:TendererQualificationRequest</diagnostic>
-		<diagnostic id="ND-LotReservedProcurement" see="field:BT-71-Lot">cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='reserved-procurement']/cbc:TendererRequirementTypeCode</diagnostic>
+		<diagnostic id="ND-LotReservedProcurement" see="node:ND-LotReservedProcurement">cac:SpecificTendererRequirement</diagnostic>
 		<diagnostic id="ND-LotResult" see="node:ND-LotResult">efac:LotResult</diagnostic>
 		<diagnostic id="ND-LotResultFAValues" see="node:ND-LotResultFAValues">efac:FrameworkAgreementValues</diagnostic>
 		<diagnostic id="ND-LotResult_BT-636-LotResult" see="field:BT-636-LotResult">efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efbc:StatisticsCode</diagnostic>

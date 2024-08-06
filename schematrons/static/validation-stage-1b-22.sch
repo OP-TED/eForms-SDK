@@ -28,9 +28,7 @@
 		<assert id="ND-PMCAnswersDeadline-22" role="ERROR" diagnostics="ND-PMCAnswersDeadline" test="count(efac:AnswerReceptionPeriod) = 0">rule|text|ND-PMCAnswersDeadline-22</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '22']">
-		<assert id="ND-FSR-22" role="ERROR" diagnostics="ND-FSR" test="count(cac:ContractExecutionRequirement) &gt; 0">rule|text|ND-FSR-22</assert>
 		<assert id="ND-FinancialGuarantee-22" role="ERROR" diagnostics="ND-FinancialGuarantee" test="count(cac:RequiredFinancialGuarantee) &gt; 0">rule|text|ND-FinancialGuarantee-22</assert>
-		<assert id="ND-LotReservedParticipation-22" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) &gt; 0">rule|text|ND-LotReservedParticipation-22</assert>
 		<assert id="ND-Participants-22" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-22</assert>
 		<assert id="ND-PaymentTerms-22" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) &gt; 0">rule|text|ND-PaymentTerms-22</assert>
 		<assert id="ND-SubcontractingObligation-22" role="ERROR" diagnostics="ND-SubcontractingObligation" test="count(cac:AllowedSubcontractTerms) = 0">rule|text|ND-SubcontractingObligation-22</assert>

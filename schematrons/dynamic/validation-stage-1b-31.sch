@@ -30,9 +30,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '31']">
 		<assert id="ND-AwardingTerms-31" role="ERROR" diagnostics="ND-AwardingTerms" test="count(cac:AwardingTerms) &gt; 0">rule|text|ND-AwardingTerms-31</assert>
-		<assert id="ND-FSR-31" role="ERROR" diagnostics="ND-FSR" test="count(cac:ContractExecutionRequirement) = 0">rule|text|ND-FSR-31</assert>
 		<assert id="ND-LotProcurementDocument-31" role="ERROR" diagnostics="ND-LotProcurementDocument" test="count(cac:CallForTendersDocumentReference) = 0">rule|text|ND-LotProcurementDocument-31</assert>
-		<assert id="ND-LotReservedParticipation-31" role="ERROR" diagnostics="ND-LotReservedParticipation" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-LotReservedParticipation-31</assert>
 		<assert id="ND-Participants-31" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-31</assert>
 		<assert id="ND-PaymentTerms-31" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-31</assert>
 		<assert id="ND-PostAwardProcess-31" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-31</assert>
