@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.120",
-    "createdOn" : "2024-08-02T16:55:10"
+    "version" : "1.12.123",
+    "createdOn" : "2024-08-05T09:24:56"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -31421,6 +31421,16 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{ND-LotProcurementScope} ${BT-02-notice in ('can-desg','can-social','can-standard','can-tran','cn-desg','cn-social','cn-standard','compl','corr','pin-cfc-social','pin-cfc-standard','pin-rtl','pin-tran','pmc','qu-sy','subco','veat')}",
+        "value" : "{ND-LotProcurementScope} ${(BT-5141-Lot is present) or (BT-727-Lot is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00727-0230"
+      } ]
     }
   }, {
     "id" : "BT-727-Part",
@@ -31457,6 +31467,16 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{ND-PartProcurementScope} ${BT-02-notice in ('pin-only')}",
+        "value" : "{ND-PartProcurementScope} ${(BT-5141-Part is present) or (BT-727-Part is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00727-0229"
+      } ]
     }
   }, {
     "id" : "BT-727-Procedure",
@@ -31493,6 +31513,16 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{ND-ProcedureProcurementScope} ${BT-02-notice in ('can-desg','can-social','can-standard','can-tran','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pin-tran','pmc','qu-sy','subco','veat')}",
+        "value" : "{ND-ProcedureProcurementScope} ${(BT-5141-Procedure is present) or (BT-727-Procedure is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00727-0228"
+      } ]
     }
   }, {
     "id" : "BT-728-Lot",
