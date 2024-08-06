@@ -16,7 +16,7 @@
 	<!-- Identifiers of tendering parties that have submitted a tender that is referenced in a contract -->
 	 <let name="global-tpa-winner" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID[../../cbc:ID = $global-ten-contract]" />
 	<!-- Identifiers of organisations that are part of a tendering party that has submitted a tender that is referenced in a contract -->
-	 <let name="global-org-winner" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID = $global-tpa-winner]" />
+	<let name="global-org-winner" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID[../../cbc:ID = $global-tpa-winner]" />
 	<!-- Identifiers of organisations that are subcontractors in a tendering party that has submitted a tender that is referenced in a contract -->
 	<let name="global-org-winner-subcontractor" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID[../../cbc:ID = $global-tpa-winner]" />
 
