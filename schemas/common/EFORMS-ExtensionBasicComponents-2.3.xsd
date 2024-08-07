@@ -35,6 +35,8 @@
 	<xsd:element name="DecisionReasonCode" type="DecisionReasonCodeType"/>
 	<xsd:element name="DecisionTypeCode" type="DecisionTypeCodeType"/>
 	<xsd:element name="DPSTerminationIndicator" type="DPSTerminationIndicatorType"/>
+	<xsd:element name="ExceptionCode" type="ExceptionCodeType"/>
+	<xsd:element name="ExceptionDescription" type="ExceptionDescriptionType"/>
 	<xsd:element name="ExtendedDurationIndicator" type="ExtendedDurationIndicatorType"/>
 	<xsd:element name="FieldIdentifierCode" type="FieldIdentifierCodeType"/>
 	<xsd:element name="FinancingIdentifier" type="FinancingIdentifierType"/>
@@ -53,6 +55,7 @@
 	<xsd:element name="LabelCode" type="LabelCodeType"/>
 	<xsd:element name="ListedOnRegulatedMarketIndicator" type="ListedOnRegulatedMarketIndicatorType"/>
 	<xsd:element name="ModifiedContractIdentifier" type="ModifiedContractIdentifierType"/>
+	<xsd:element name="MeasureCode" type="MeasureCodeType"/>
 	<xsd:element name="NaturalPersonIndicator" type="NaturalPersonIndicatorType"/>
 	<xsd:element name="NonAwardJustificationCode" type="NonAwardJustificationCodeType"/>
 	<xsd:element name="NoticePublicationID" type="NoticePublicationIDType"/>
@@ -216,6 +219,16 @@
 			<xsd:restriction base="udt:IndicatorType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
+	<xsd:complexType name="ExceptionCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="ExceptionDescriptionType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:TextType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
 	<xsd:complexType name="ExtendedDurationIndicatorType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:IndicatorType"/>
@@ -299,6 +312,11 @@
 	<xsd:complexType name="ListedOnRegulatedMarketIndicatorType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:IndicatorType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="MeasureCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="ModifiedContractIdentifierType">
