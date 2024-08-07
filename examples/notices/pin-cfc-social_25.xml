@@ -121,6 +121,11 @@ vol3</cbc:Description>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">92111000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw-eea</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -187,6 +192,11 @@ A rainy day finds you in a hair salon. Now you have to decide whether to cut you
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">92111000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-eea</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:ProcurementProjectLot>

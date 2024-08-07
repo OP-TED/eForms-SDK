@@ -118,6 +118,11 @@ vol3
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">30000000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -200,6 +205,11 @@ A man is trapped in his own house after an accident confined him to a wheelchair
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">30000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 </urn:ContractNotice>

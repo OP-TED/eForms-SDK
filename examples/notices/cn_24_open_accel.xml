@@ -230,6 +230,15 @@
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">39143100</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="ITA">Firenze</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">ITI14</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">ITA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>

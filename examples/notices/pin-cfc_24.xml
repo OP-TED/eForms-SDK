@@ -119,6 +119,11 @@
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">18000000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw-eea</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -200,6 +205,11 @@
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">18000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-eea</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
 				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
