@@ -3,7 +3,7 @@
 This release brings the following corrections in the validation rules, making them more permissive:
 
 * Allow post codes (BT-512) in addresses for all countries.
-* Remove rules that try to fetch another notice. They were never had any effect, as the service they call does not exist, and they can cause errors with some schematron implementations.
+* Remove rules that try to fetch another notice. They never had any effect, as the service they call does not exist, and they can cause errors with some schematron implementations.
 
 This release also includes updated translations and updated notice visualisation templates.
 
