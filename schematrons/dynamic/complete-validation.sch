@@ -641,9 +641,13 @@
 	</phase>
 	<phase id="eforms-E1">
 		<active pattern="EFORMS-validation-stage-1a" />
+		<active pattern="EFORMS-validation-stage-1b-E1" />
+		<active pattern="EFORMS-validation-stage-2a-E1" />
 		<active pattern="EFORMS-validation-stage-2b" />
 		<active pattern="EFORMS-validation-stage-3a" />
 		<active pattern="EFORMS-validation-stage-3b" />
+		<active pattern="EFORMS-validation-stage-3b-E1" />
+		<active pattern="EFORMS-validation-stage-4-E1" />
 		<active pattern="EFORMS-validation-stage-4m" />
 		<active pattern="EFORMS-validation-stage-5" />
 		<active pattern="EFORMS-validation-stage-5m" />
@@ -697,9 +701,13 @@
 	</phase>
 	<phase id="eforms-E5">
 		<active pattern="EFORMS-validation-stage-1a" />
+		<active pattern="EFORMS-validation-stage-1b-E5" />
+		<active pattern="EFORMS-validation-stage-2a-E5" />
 		<active pattern="EFORMS-validation-stage-2b" />
 		<active pattern="EFORMS-validation-stage-3a" />
 		<active pattern="EFORMS-validation-stage-3b" />
+		<active pattern="EFORMS-validation-stage-3b-E5" />
+		<active pattern="EFORMS-validation-stage-4-E5" />
 		<active pattern="EFORMS-validation-stage-4m" />
 		<active pattern="EFORMS-validation-stage-5" />
 		<active pattern="EFORMS-validation-stage-5m" />
@@ -824,9 +832,11 @@
 	<include href="validation-stage-1b-8.sch"/>
 	<include href="validation-stage-1b-9.sch"/>
 	<include href="validation-stage-1b-CEI.sch"/>
+	<include href="validation-stage-1b-E1.sch"/>
 	<include href="validation-stage-1b-E2.sch"/>
 	<include href="validation-stage-1b-E3.sch"/>
 	<include href="validation-stage-1b-E4.sch"/>
+	<include href="validation-stage-1b-E5.sch"/>
 	<include href="validation-stage-1b-E6.sch"/>
 	<include href="validation-stage-1b-T01.sch"/>
 	<include href="validation-stage-1b-T02.sch"/>
@@ -873,9 +883,11 @@
 	<include href="validation-stage-2a-8.sch"/>
 	<include href="validation-stage-2a-9.sch"/>
 	<include href="validation-stage-2a-CEI.sch"/>
+	<include href="validation-stage-2a-E1.sch"/>
 	<include href="validation-stage-2a-E2.sch"/>
 	<include href="validation-stage-2a-E3.sch"/>
 	<include href="validation-stage-2a-E4.sch"/>
+	<include href="validation-stage-2a-E5.sch"/>
 	<include href="validation-stage-2a-E6.sch"/>
 	<include href="validation-stage-2a-T01.sch"/>
 	<include href="validation-stage-2a-T02.sch"/>
@@ -924,9 +936,11 @@
 	<include href="validation-stage-3b-8.sch"/>
 	<include href="validation-stage-3b-9.sch"/>
 	<include href="validation-stage-3b-CEI.sch"/>
+	<include href="validation-stage-3b-E1.sch"/>
 	<include href="validation-stage-3b-E2.sch"/>
 	<include href="validation-stage-3b-E3.sch"/>
 	<include href="validation-stage-3b-E4.sch"/>
+	<include href="validation-stage-3b-E5.sch"/>
 	<include href="validation-stage-3b-E6.sch"/>
 	<include href="validation-stage-3b-T01.sch"/>
 	<include href="validation-stage-3b-T02.sch"/>
@@ -974,9 +988,11 @@
 	<include href="validation-stage-4-8.sch"/>
 	<include href="validation-stage-4-9.sch"/>
 	<include href="validation-stage-4-CEI.sch"/>
+	<include href="validation-stage-4-E1.sch"/>
 	<include href="validation-stage-4-E2.sch"/>
 	<include href="validation-stage-4-E3.sch"/>
 	<include href="validation-stage-4-E4.sch"/>
+	<include href="validation-stage-4-E5.sch"/>
 	<include href="validation-stage-4-E6.sch"/>
 	<include href="validation-stage-4-T01.sch"/>
 	<include href="validation-stage-4-T02.sch"/>
