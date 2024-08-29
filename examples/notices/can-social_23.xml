@@ -241,6 +241,11 @@ vol3</cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">75000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:ProcurementProjectLot>
@@ -271,6 +276,11 @@ vol3 LOT2 </cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">77000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:ProcurementProjectLot>
@@ -301,6 +311,11 @@ vol3 LOT3</cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">85000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>

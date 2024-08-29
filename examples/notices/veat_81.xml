@@ -221,6 +221,12 @@ vol2 LOT1 </cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">73111000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">Anywhere</cbc:Description>
+				<cac:Address>
+					<cbc:Region>anyw</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:ProcurementProjectLot>

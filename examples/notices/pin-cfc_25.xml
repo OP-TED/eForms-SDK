@@ -182,6 +182,15 @@
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">50712000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="DEU">Flughafen Stuttgart</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">DE113</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">DEU</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>

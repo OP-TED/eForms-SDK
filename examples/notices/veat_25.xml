@@ -299,6 +299,14 @@
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">31214000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">UK Railway infrastructure as maintained by Network Rail.</cbc:Description>
+				<cac:Address>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>

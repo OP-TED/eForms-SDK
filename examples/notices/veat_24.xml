@@ -391,6 +391,15 @@
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">33000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">Tees Valley</cbc:Description>
+				<cac:Address>
+					<cbc:CountrySubentityCode listName="nuts">UKC11</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>

@@ -119,6 +119,15 @@
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">60112000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cbc:Description languageID="POR">urbano/regional</cbc:Description>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">PT16D</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">PRT</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
