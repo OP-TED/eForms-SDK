@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Felek</entry>
 <entry key="group|name|GR-LotResult-Section">A részek eredményei</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Az ajánlat értéke</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">A részek csoportjába tartozó részek</entry>
 <entry key="group|name|GR-LotTender">Benyújtott ajánlat</entry>
 <entry key="group|name|GR-LotTender-1">Tender azonosítók</entry>
 <entry key="group|name|GR-LotTender-2">Tender engedmények</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Értékelési szempontok – paraméterek</entry>
 <entry key="group|name|GR-LotsGroup-Description">A részek csoportjának ismertetése</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Információk a keretmegállapodásról</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">A részek csoportjába tartozó részek</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Cél</entry>
 <entry key="group|name|GR-LotsGroup-Scope">A közbeszerzés tárgya</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">A közbeszerzési eljárás feltételei</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Eljárás típusa (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Gyorsított eljárás (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">A keretmegállapodás becsült értéke (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">A keretmegállapodás becsült értéke (később közzétéve)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">A keretmegállapodások maximális értéke ebben az eljárásban (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">A közvetlen odaítélést indokló korábbi eljárás azonosítója (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">A közvetlen odaítélést indokló korábbi eljárás azonosítója (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Közvetlen odaítélés ismertetése (később közzétéve)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Van-e kiválasztva nyertes? (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Ok, amiért nem választottak ki nyertest (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Ok, amiért nem választottak ki nyertest (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">A részek csoportján belüli keretmegállapodás becsült értéke (később közzétéve)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Az e részcsoporton belüli keretmegállapodások maximális értéke (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">A koncessziót megadó vevőtől származó becsült bevétel (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Az ebben az eljárásban odaítélt valamennyi szerződés értéke (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">A koncesszió felhasználóitól származó becsült bevétel (később közzétéve)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Gyorsított eljárás</entry>
 <entry key="group|name|ND-AccessibilityJustification">Az akadálymentesítési kritériumok hiányának indoklása</entry>
 <entry key="group|name|ND-Asset">Szerződéshosszabbítást indokló eszközök</entry>
+<entry key="group|name|ND-AuctionTerms">Az árlejtés feltételei</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Bírósági tag</entry>
 <entry key="group|name|ND-BusinessCapability">Üzleti tevékenység</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Felülvizsgálati kérelem</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Kizáró okok</entry>
 <entry key="group|name|ND-ExecutionRequirements">Teljesítési feltételek</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Szerződéshosszabbítás</entry>
+<entry key="group|name|ND-FSR">A külföldi támogatási rendelet alkalmazhatósága</entry>
 <entry key="group|name|ND-FinancingParty">Pénzügyi szervezet</entry>
 <entry key="group|name|ND-Funding">EU alapok</entry>
 <entry key="group|name|ND-GazetteReference">Hivatkozás a közzétételre</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Eredmény</entry>
 <entry key="group|name|ND-LotResultContractReference">Döntés utáni szerződés</entry>
 <entry key="group|name|ND-LotResultTenderReference">A díjazásra figyelemmel tartott ajánlat</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Részek csoportjára vonatkozó értékelési szempont – szám (később közzétéve)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Értékelési szempont – paraméter</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">A beszerzés társadalmi célja</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Ajánlattétel nyelve</entry>
 <entry key="group|name|ND-LotTender">Benyújtott ajánlat</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Részek csoportjára vonatkozó értékelési szempont – szám, összetett (később közzétéve)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Részek csoportjára vonatkozó értékelési szempont – szám, rögzített érték (később közzétéve)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Részek csoportjára vonatkozó értékelési szempont – szám, küszöbérték (később közzétéve)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Részek csoportjára vonatkozó értékelési szempont – szám (később közzétéve)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Részek csoportjára vonatkozó értékelési szempont – szám, súlyozás (később közzétéve)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Értékelési szempont – paraméter</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Értékelési szempont – paraméterek</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Küszöbértékű kritérium (később közzétéve)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Részek csoportjára vonatkozó értékelési szempont – típus (később közzétéve)</entry>

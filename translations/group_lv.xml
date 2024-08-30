@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Puses</entry>
 <entry key="group|name|GR-LotResult-Section">Daļu rezultāti</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Piedāvājuma vērtība</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">Daļas, kas iekļautas daļu grupā</entry>
 <entry key="group|name|GR-LotTender">Iesniegtais piedāvājums</entry>
 <entry key="group|name|GR-LotTender-1">Iepirkumu identifikatori</entry>
 <entry key="group|name|GR-LotTender-2">Iepirkumu koncesijas</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Piešķiršanas kritēriju parametri</entry>
 <entry key="group|name|GR-LotsGroup-Description">Daļu grupas apraksts</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informācija par pamatnolīgumu</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Daļas, kas iekļautas daļu grupā</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Mērķis</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Iepirkuma tvērums</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Konkursa noteikumi</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Procedūras veids (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Paātrinātā procedūra (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Pamatnolīguma paredzamā vērtība (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Pamatnolīguma paredzamā vērtība (publicēts vēlāk)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Šajā procedūrā piešķiramo pamatnolīgumu maksimālā vērtība (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Tiešo piešķiršanu pamatojošās iepriekšējās procedūras ID (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Tiešo piešķiršanu pamatojošās iepriekšējās procedūras ID (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Tiešas piešķiršanas apraksts (publicēts vēlāk)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Uzvarētāja atlases statuss (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Iemesls, kāpēc netika izraudzīts uzvarētājs (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Iemesls, kāpēc netika izraudzīts uzvarētājs (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Pamatnolīgumu paredzamā vērtība daļu grupā (publicēts vēlāk)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Pamatnolīgumu maksimālā vērtība šajā daļu grupā (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Aplēstie ieņēmumi no pircēja, kas piešķīris koncesiju (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Visu šajā procedūrā piešķirto līgumu vērtība (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Aplēstie ieņēmumi no koncesijas lietotājiem (publicēts vēlāk)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Ātrināta procedūra</entry>
 <entry key="group|name|ND-AccessibilityJustification">Pamatojums piekļūstamības kritēriju neesamībai</entry>
 <entry key="group|name|ND-Asset">Īpašums, kas attaisno līguma pagarināšanu</entry>
+<entry key="group|name|ND-AuctionTerms">Izsoles noteikumi</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Žūrijas loceklis</entry>
 <entry key="group|name|ND-BusinessCapability">Biznesa aktivitāte</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Pārskatāmie pieprasījumi</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Izslēgšanas iemesli</entry>
 <entry key="group|name|ND-ExecutionRequirements">Izpildes nosacījumi</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Līguma pagarināšana</entry>
+<entry key="group|name|ND-FSR">Ārvalstu subsīdiju regulas piemērojamība</entry>
 <entry key="group|name|ND-FinancingParty">Finansēšanas organizācija</entry>
 <entry key="group|name|ND-Funding">ES fondi</entry>
 <entry key="group|name|ND-GazetteReference">Atsauce uz publikāciju</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Rezultāts</entry>
 <entry key="group|name|ND-LotResultContractReference">Līgums pēc apbalvošanas lēmuma</entry>
 <entry key="group|name|ND-LotResultTenderReference">Piedāvājums, kas tiek ņemts vērā apbalvošanas lēmumam</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Daļu grupai noteiktā piešķiršanas kritērija skaitlis (publicēts vēlāk)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Piešķiršanas kritērija parametrs</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">Sociālais iepirkuma mērķis</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Piedāvājuma iesniegšanas valoda</entry>
 <entry key="group|name|ND-LotTender">Iesniegtais piedāvājums</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Daļu grupai noteikto piešķiršanas kritēriju skaitlis, sarežģītā svēršana (publicēts vēlāk)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Daļu grupai noteiktais piešķiršanas kritērijs ir fiksēts skaitlis (publicēts vēlāk)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Daļu grupai noteiktā piešķiršanas kritērija skaitlis ir slieksnis (publicēts vēlāk)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Daļu grupai noteiktā piešķiršanas kritērija skaitlis (publicēts vēlāk)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Daļu grupai noteikto piešķiršanas kritēriju skaitlis – svērums (publicēts vēlāk)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Piešķiršanas kritērija parametrs</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Piešķiršanas kritērija parametri</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Sliekšņa vērtības kritērija (publicēts vēlāk)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Daļu grupai noteiktā piešķiršanas kritērija veids (publicēts vēlāk)</entry>
