@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Parter</entry>
 <entry key="group|name|GR-LotResult-Section">Delkontraktens resultat</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Anbudsvärde</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">Delkontrakt som ingår i gruppen av delkontrakt</entry>
 <entry key="group|name|GR-LotTender">Inlämnat anbud</entry>
 <entry key="group|name|GR-LotTender-1">Upphandlingsidentifierare</entry>
 <entry key="group|name|GR-LotTender-2">Upphandlingens eftergifter</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametrar för tilldelningskriterier</entry>
 <entry key="group|name|GR-LotsGroup-Description">Beskrivning av grupp av delkontrakt</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Information om ramavtal</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Delkontrakt som ingår i gruppen av delkontrakt</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Föremålet för upphandlingen</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Upphandlingens omfattning</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Villkoren för upphandlingen</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Typ av förfarande (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Påskyndat förfarande (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Beräknat värde för ramavtal (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Beräknat värde för ramavtal (publiceras senare)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Högsta värdet på ramavtalen i det här förfarandet (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">ID för tidigare upphandling som motiverar direkttilldelning (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID för tidigare upphandling som motiverar direkttilldelning (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Beskrivning av direkttilldelning (publiceras senare)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status för valet av vinnare (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Skäl till att en vinnare inte valdes (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Skäl till att en vinnare inte valdes (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Beräknat värde för ett ramavtal i gruppen med delkontrakt (publiceras senare)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Högsta värdet på ramavtalen inom den här gruppen av delkontrakt (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Beräknade inkomster från köparen som meddelade koncessionen (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Värdet av alla kontrakt som tilldelas i det här förfarandet (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Beräknade inkomster som kommer från koncessionens användare (publiceras senare)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Förenklat förfarande</entry>
 <entry key="group|name|ND-AccessibilityJustification">Motivering till varför inte tillgänglighet beaktas</entry>
 <entry key="group|name|ND-Asset">Tillgångar som motiverar kontraktsförlängning</entry>
+<entry key="group|name|ND-AuctionTerms">Villkor för auktionen</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jurymedlem</entry>
 <entry key="group|name|ND-BusinessCapability">Affärsverksamhet</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Ansökningar om prövning</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Uteslutningsgrunder</entry>
 <entry key="group|name|ND-ExecutionRequirements">Utförandevillkor</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Förlängning av kontrakt</entry>
+<entry key="group|name|ND-FSR">Tillämpbarhet av förordningen om utländska bidrag</entry>
 <entry key="group|name|ND-FinancingParty">Finansieringsorganisation</entry>
 <entry key="group|name|ND-Funding">EU-medel</entry>
 <entry key="group|name|ND-GazetteReference">Referens till publikationen</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Resultat</entry>
 <entry key="group|name|ND-LotResultContractReference">Kontrakt efter beslut om tilldelning</entry>
 <entry key="group|name|ND-LotResultTenderReference">Anbud som övervägs för tilldelningsbeslut</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Sifferangivelse för tilldelningskriteriet för gruppen av delkontrakt (publiceras senare)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parameter för tilldelningskriterium</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">Den sociala målsättningen för upphandlingen</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Språk för anbudsinlämning</entry>
 <entry key="group|name|ND-LotTender">Inlämnat anbud</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Antal komplicerade tilldelningskriterier för gruppen av delkontrakt (publiceras senare)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Tilldelningskriteriet för gruppen av delkontrakt är en fast sifferangivelse (publiceras senare)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Tilldelningskriteriet för gruppen av delkontrakt är en tröskel (publiceras senare)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Sifferangivelse för tilldelningskriteriet för gruppen av delkontrakt (publiceras senare)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Sifferangivelse för tilldelningskriteriet för gruppen av delkontrakt – viktning (publiceras senare)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parameter för tilldelningskriterium</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parametrar för tilldelningskriterium</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Tröskelvärdeskriterium (publiceras senare)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Typ av tilldelningskriterium för grupp av delkontrakt (publiceras senare)</entry>

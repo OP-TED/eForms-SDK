@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Osapuolet</entry>
 <entry key="group|name|GR-LotResult-Section">Erien tulokset</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Tarjouksen arvo</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">Erien ryhmään sisältyvät erät</entry>
 <entry key="group|name|GR-LotTender">Lähetetty tarjous/hakemus</entry>
 <entry key="group|name|GR-LotTender-1">Tarjousten tunnisteet</entry>
 <entry key="group|name|GR-LotTender-2">Tarjousten myöntöoikeudet</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Myöntämisperusteiden muuttujat</entry>
 <entry key="group|name|GR-LotsGroup-Description">Erien ryhmän kuvaus</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Tietoa puitejärjestelystä</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Erien ryhmään sisältyvät erät</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Tarkoitus</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Hankinnan laajuus</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Tarjouspyynnön ehdot</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Menettelyn tyyppi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Nopeutettu menettely (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Puitejärjestelyn arvioitu arvo (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Puitejärjestelyn arvioitu arvo (julkaistaan myöhemmin)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Puitejärjestelyjen enimmäisarvo tässä menettelyssä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Tunniste edelliselle menettelylle, jolla perustellaan sopimuksen tekeminen suorahankintana (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Tunniste edelliselle menettelylle, jolla perustellaan sopimuksen tekeminen suorahankintana (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Suorahankinnan kuvaus (julkaistaan myöhemmin)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Voittajan valinnan tila (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Syy, miksi voittajaa ei ole valittu (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Syy, miksi voittajaa ei ole valittu (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Puitejärjestelyjen arvioitu arvo erien ryhmässä (julkaistaan myöhemmin)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Puitejärjestelyjen enimmäisarvo tässä erien ryhmässä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Arvioidut tulot käyttöoikeuden myöntäneeltä ostajalta (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Kaikkien tässä menettelyssä tehtyjen hankintasopimusten arvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Arvioidut tulot käyttöoikeuden käyttäjiltä (julkaistaan myöhemmin)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Nopeutettu menettely</entry>
 <entry key="group|name|ND-AccessibilityJustification">Perustelut esteettömyysvaatimusten puuttumiselle</entry>
 <entry key="group|name|ND-Asset">Omaisuus, joka oikeuttaa sopimuksen jatkamiseen</entry>
+<entry key="group|name|ND-AuctionTerms">Huutokaupan ehdot</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Tuomariston jäsen</entry>
 <entry key="group|name|ND-BusinessCapability">Liiketoiminnan toimiala</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Muutoksenhakupyynnöt</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Poissulkemisperusteet</entry>
 <entry key="group|name|ND-ExecutionRequirements">Suoritusajat</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Sopimuksen jatkaminen</entry>
+<entry key="group|name|ND-FSR">Soveltuvuus ulkomaisten tukien asetukseen</entry>
 <entry key="group|name|ND-FinancingParty">Rahoitusjärjestö</entry>
 <entry key="group|name|ND-Funding">EU:n rahastot</entry>
 <entry key="group|name|ND-GazetteReference">Viittaus julkaisuun</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Tulokset</entry>
 <entry key="group|name|ND-LotResultContractReference">Päätöksen jälkeinen sopimus</entry>
 <entry key="group|name|ND-LotResultTenderReference">Tarjous, joka otetaan huomioon päätöksessä</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Erien ryhmän myöntämisperusteeseen liittyvä luku (julkaistaan myöhemmin)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Myöntämisperusteen muuttuja</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">Hankinnan sosiaalinen tavoite</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Tarjouksen jättökieli</entry>
 <entry key="group|name|ND-LotTender">Lähetetty tarjous/hakemus</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Erien ryhmän myöntämisperusteisiin liittyvän luvun monimutkainen painotus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Erien ryhmän myöntämisperusteeseen liittyvä luku on kiinteä arvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Erien ryhmän myöntämisperusteeseen liittyvä luku on kynnysarvo (julkaistaan myöhemmin)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Erien ryhmän myöntämisperusteeseen liittyvä luku (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Erien ryhmän myöntämisperusteisiin liittyvä painotusluku (julkaistaan myöhemmin)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Myöntämisperusteen muuttuja</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Myöntämisperusteen muuttujat</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Kynnysarvokriteeri (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Erien ryhmän myöntämisperusteen tyyppi (julkaistaan myöhemmin)</entry>
