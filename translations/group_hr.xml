@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Stranke</entry>
 <entry key="group|name|GR-LotResult-Section">Rezultati grupa</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Vrijednost ponude</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">Grupe koje su dio skupine grupa</entry>
 <entry key="group|name|GR-LotTender">Podnesena ponuda</entry>
 <entry key="group|name|GR-LotTender-1">Identifikatori natječaja</entry>
 <entry key="group|name|GR-LotTender-2">Koncesije natječaja</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametri kriterija za dodjelu</entry>
 <entry key="group|name|GR-LotsGroup-Description">Opis skupine grupa</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informacije o okvirnom sporazumu</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Grupe koje su dio skupine grupa</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Svrha</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Opseg javne nabave</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Uvjeti natječaja</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Vrsta postupka (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Ubrzani postupak (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Procijenjena vrijednost okvirnog sporazuma (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Procijenjena vrijednost okvirnog sporazuma (objavljuje se kasnije)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Maksimalna vrijednost okvirnih sporazuma u ovom postupku (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">ID prethodnog postupka kojim se obrazlaže izravna dodjela (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID prethodnog postupka kojim se obrazlaže izravna dodjela (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Opis izravne dodjele (objavljuje se kasnije)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status odabira pobjednika (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Razlog zbog kojeg pobjednik nije odabran (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Razlog zbog kojeg pobjednik nije odabran (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Procijenjena vrijednost okvirnih sporazuma u skupini grupa (objavljuje se kasnije)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Maksimalna vrijednost okvirnih sporazuma unutar te skupine grupa (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Procijenjeni prihodi od kupca koji je dodijelio koncesiju (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Vrijednost svih ugovora dodijeljenih u ovom postupku (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Procijenjeni prihodi od korisnika koncesije (objavljuje se kasnije)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Ubrazan postupak</entry>
 <entry key="group|name|ND-AccessibilityJustification">Obrazloženje nepostojanja kriterija za pristupačnost</entry>
 <entry key="group|name|ND-Asset">Imovina koja opravdava produženje ugovora</entry>
+<entry key="group|name|ND-AuctionTerms">Uvjeti dražbe</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Član žirija</entry>
 <entry key="group|name|ND-BusinessCapability">Poslovna aktivnost</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Zahtjevi za pravnu zaštitu (preispitivanje)</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Osnove za isključenje</entry>
 <entry key="group|name|ND-ExecutionRequirements">Uvjeti izvedbe</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Produženje ugovora</entry>
+<entry key="group|name|ND-FSR">Primjenjivost Uredbe o stranim subvencijama</entry>
 <entry key="group|name|ND-FinancingParty">Organizacija financiranja</entry>
 <entry key="group|name|ND-Funding">EU fondovi</entry>
 <entry key="group|name|ND-GazetteReference">Referenca na publikaciju</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Rezultat</entry>
 <entry key="group|name|ND-LotResultContractReference">Ugovor nakon donošenja odluke o dodjeli</entry>
 <entry key="group|name|ND-LotResultTenderReference">Ponuda koja se razmatra za odluku o dodjeli</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Broj koji je kriterij za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parametar kriterija za dodjelu</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">Društveni cilj nabave</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Jezik podnošenja ponude</entry>
 <entry key="group|name|ND-LotTender">Podnesena ponuda</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Složen broj kriterija za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Kriterij za dodjelu za skupine grupa je fiksan broj (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Kriterij za dodjelu za skupine grupa je granična vrijednost (objavljuje se kasnije)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Broj koji je kriterij za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Ponder za kriterij za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parametar kriterija za dodjelu</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parametri kriterija za dodjelu</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Kriterij prag-vrijednosti (objavljen kasnije)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Vrsta kriterija za dodjelu za skupine grupa (objavljuje se kasnije)</entry>

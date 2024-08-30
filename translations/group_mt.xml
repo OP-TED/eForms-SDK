@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Partijiet</entry>
 <entry key="group|name|GR-LotResult-Section">Riżultati tal-lottijiet</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Valur tal-offerta</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">Lottijiet inklużi fil-grupp ta’ lottijiet</entry>
 <entry key="group|name|GR-LotTender">Offerta sottomessa</entry>
 <entry key="group|name|GR-LotTender-1">Identifikaturi tat-tender</entry>
 <entry key="group|name|GR-LotTender-2">Konċessjonijiet tat-tender</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametri tal-kriterji tal-għoti</entry>
 <entry key="group|name|GR-LotsGroup-Description">Deskrizzjoni tal-grupp ta’ lottijiet</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informazzjoni dwar il-ftehim qafas</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Lottijiet inklużi fil-grupp ta’ lottijiet</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Skop</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Kamp ta’ applikazzjoni tal-akkwist</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Termini tal-offerti</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Tip ta’ proċedura (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Proċedura aċċellerata (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Valur stmat tal-ftehim qafas (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Valur stmat tal-ftehim qafas (pubblikazzjoni aktar tard)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Valur massimu tal-ftehimiet qafas f’din il-proċedura (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">ID tal-proċedura preċedenti li tiġġustifika l-għoti dirett (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">ID tal-proċedura preċedenti li tiġġustifika l-għoti dirett (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Deskrizzjoni tal-għoti diretta (pubblikazzjoni aktar tard)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Status ta’ selezzjoni tar-rebbieħ (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Ir-raġuni għaliex ma ntgħażilx rebbieħ (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Ir-raġuni għaliex ma ntgħażilx rebbieħ (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Valur stmat tal-ftehimiet qafas fil-grupp tal-lottijiet (pubblikazzjoni aktar tard)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Valur massimu tal-ftehimiet qafas fi ħdan dan il-grupp ta’ lottijiet (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Dħul stmat mix-xerrej li ta l-konċessjoni (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valur tal-kuntratti kollha mogħtija f’din il-proċedura (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Dħul stmat li ġej mill-utenti tal-konċessjoni (pubblikazzjoni aktar tard)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Proċedura aċċellerata</entry>
 <entry key="group|name|ND-AccessibilityJustification">Ġustifikazzjoni għan-nuqqas ta’ kriterji ta’ aċċessibbiltà</entry>
 <entry key="group|name|ND-Asset">Assi li jgħajjtu estensjoni tal-kuntratt</entry>
+<entry key="group|name|ND-AuctionTerms">Termini tal-irkant</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membru tal-ġurija</entry>
 <entry key="group|name|ND-BusinessCapability">Attività tal-biżness</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Talbiet għal reviżjoni</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Raġunijiet għall-esklużjoni</entry>
 <entry key="group|name|ND-ExecutionRequirements">Termini tal-prestazzjoni</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Estensjoni tal-kuntratt</entry>
+<entry key="group|name|ND-FSR">Applikabbiltà tar-Regolament tal-Subsidji Barranin</entry>
 <entry key="group|name|ND-FinancingParty">Organizzazzjoni ta' finanzjament</entry>
 <entry key="group|name|ND-Funding">Fondi tal-UE</entry>
 <entry key="group|name|ND-GazetteReference">Referenza għall-pubblikazzjoni</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Riżultat</entry>
 <entry key="group|name|ND-LotResultContractReference">Kuntratt wara deċiżjoni ta' premju</entry>
 <entry key="group|name|ND-LotResultTenderReference">Offerta kkunsidrata għall-deċiżjoni ta' premju</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Il-kriterju għall-għoti tal-grupp ta’ lottijiet numru (pubblikazzjoni aktar tard)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parametru tal-kriterju għall-għoti</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">Obbiett soċjali tal-provvista</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Lingwa ta' sottomissjoni tal-offerta</entry>
 <entry key="group|name|ND-LotTender">Offerta sottomessa</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Kriterji għall-għoti tal-grupp ta’ lottijiet numru kumpless (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Il-kriterju għall-għoti tal-grupp hu numru fiss (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Il-kriterju għall-għoti tal-grupp ta’ lottijiet hu livell minimu (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Il-kriterju għall-għoti tal-grupp ta’ lottijiet numru (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Kriterji għall-għoti tal-grupp ta’ lottijiet numru tal-ponderazzjoni (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Parametru tal-kriterju għall-għoti</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Parametru tal-kriterju għall-għoti</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Kriterju ta' valur tal-limitu (ippubblikat aktar tard)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Kriterju għall-għoti tal-grupp ta’ lottijiet tip (pubblikazzjoni aktar tard)</entry>
