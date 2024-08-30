@@ -1,11 +1,11 @@
 // Summary
 // File generated from metadata database
 0 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // Buyer Summary
-	0 {ND-ContractingParty} #{auxiliary|text|buyer-competent} // Competent authority
-		0 {ND-ContractingParty} #{auxiliary|text|buyer} ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Buyer
+	0 {ND-ContractingParty[(count(for text:$reforgid in OPT-300-Procedure-Buyer, text:$orgid in OPT-200-Organization-Company[OPT-200-Organization-Company[(OPP-050-Organization == TRUE) or (not(/OPP-050-Organization == TRUE))] == $reforgid] return $orgid) > 0) and not(preceding::OPT-300-Procedure-Buyer[(count(for text:$reforgid1 in OPT-300-Procedure-Buyer, text:$orgid1 in OPT-200-Organization-Company[OPT-200-Organization-Company[(OPP-050-Organization == TRUE) or (not(/OPP-050-Organization == TRUE))] == $reforgid1] return $orgid1) > 0)] is present)]} #{auxiliary|text|buyer-competent} // Competent authority (first Group Leader or first of all)
+		0 {ND-ContractingParty} #{auxiliary|text|buyer} ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Buyer name (summary)
 		0 {ND-ContractingParty} ${for text:$orgid in OPT-300-Procedure-Buyer return concat(BT-514-Organization-Company[OPT-200-Organization-Company == $orgid], ', ', BT-507-Organization-Company[OPT-200-Organization-Company == $orgid], ', ', BT-513-Organization-Company[OPT-200-Organization-Company == $orgid])} // Place of the Buyer
 // summary efx
-// 2. Procedure Summary (empty)
+{ND-Root} Procedure // 2. Procedure Summary (empty) 
 // summary efx
 0 {ND-Part} ${BT-137-Part}: ${BT-21-Part} // 3.1 Part Summary
 	{ND-Part} #{BT-262-Part} (${BT-262-Part}) // Main CPV
