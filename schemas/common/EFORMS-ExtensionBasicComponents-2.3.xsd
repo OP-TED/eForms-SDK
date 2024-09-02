@@ -24,6 +24,9 @@
 	<xsd:element name="AreaCode" type="AreaCodeType"/>
 	<xsd:element name="AssetCategoryCode" type="AssetCategoryCodeType"/>
 	<xsd:element name="AssetDescription" type="AssetDescriptionType"/>
+	<xsd:element name="AssetMetricCode" type="AssetMetricCodeType"/>
+	<xsd:element name="AssetMetricMeasurementUnit" type="AssetMetricMeasurementUnitType"/>
+	<xsd:element name="AssetMetricNumeric" type="AssetMetricNumericType"/>
 	<xsd:element name="AssetPredominance" type="AssetPredominanceType"/>
 	<xsd:element name="AssetSignificance" type="AssetSignificanceType"/>
 	<xsd:element name="AwardingCPBIndicator" type="AwardingCPBIndicatorType"/>
@@ -162,6 +165,21 @@
 	<xsd:complexType name="AssetDescriptionType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:TextType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="AssetMetricCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="AssetMetricMeasurementUnitType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="AssetMetricNumericType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:NumericType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="AssetPredominanceType">
