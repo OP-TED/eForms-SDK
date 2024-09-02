@@ -3,7 +3,7 @@
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
 	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
 		{ND-ContractingParty} #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Official name
-		{BT-11-Procedure-Buyer} #{field|name|BT-11-Procedure-Buyer}: #value // Legal type of the buyer
+		{BT-11-Procedure-Buyer} #{field|name|BT-11-Procedure-Buyer}: #{BT-11-Procedure-Buyer} // Legal type of the buyer
 		{BT-740-Procedure-Buyer[BT-740-Procedure-Buyer == 'cont-ent']} #{field|name|BT-740-Procedure-Buyer} // Buyer Contracting Entity
 		{BT-10-Procedure-Buyer} #{field|name|BT-10-Procedure-Buyer}: #value // Activity of the contracting authority
 		{BT-610-Procedure-Buyer} #{field|name|BT-610-Procedure-Buyer}: #{BT-610-Procedure-Buyer} // Activity Entity
@@ -53,7 +53,7 @@
 			{BT-5141-Part} #{field|name|BT-5141-Part}: #{BT-5141-Part} // Country
 			{BT-727-Part} #{BT-727-Part} // Restrictions on the place of performance
 			{ND-PartPlacePerformance[BT-728-Part is present]} #{field|name|BT-728-Part}: ${BT-728-Part} // Additional information
-		3 {ND-PartDuration[(BT-536-Part is present) or (BT-537-Part is present) or (BT-36-Part is present)]} #{auxiliary|text|duration} // 3.1.3 Duration
+		3 {ND-PartDuration} #{auxiliary|text|duration} // 3.1.3 Duration
 			{BT-536-Part} #{field|name|BT-536-Part}: ${BT-536-Part} // Start date
 			{BT-537-Part} #{field|name|BT-537-Part}: ${BT-537-Part} // End date
 			{BT-36-Part} #{field|name|BT-36-Part}: ${format-number(OPA-36-Part-Number, '###,##0.###,###,###')} #{code|name|${concat('duration-unit.', BT-36-Part/@unitCode)}} // Period
@@ -147,10 +147,10 @@
 10 {ND-Root[BT-758-notice is present]} #{auxiliary|text|change} // 10. Change
 	{BT-758-notice} #{field|name|BT-758-notice}: ${BT-758-notice} // Change Notice Version Identifier
 	{BT-140-notice} #{field|name|BT-140-notice}: #{BT-140-notice} // Change Reason Code
-	{BT-762-notice} #{field|name|BT-762-notice}: ${BT-762-notice} // Change Reason Description
+	{ND-ChangeReason[BT-762-notice is present]} #{field|name|BT-762-notice}: ${BT-762-notice} // Change Reason Description
 	1 {ND-Change} #{auxiliary|text|change} // 10.1 Change
 		{BT-13716-notice} #{field|name|BT-13716-notice}: ${BT-13716-notice} // Change Previous Section Identifier
-		{BT-141(a)-notice} #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice} // Change Description
+		{ND-Change[BT-141(a)-notice is present]} #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice} // Change Description
 		{BT-719-notice} #{field|name|BT-718-notice}: ${BT-719-notice} // Change Procurement Documents / Change Procurement Documents Date
 11 {ND-Root} #{auxiliary|text|notice-information} // 11. Notice information
 	1 {ND-Root} #{auxiliary|text|notice-information} // 11.1 Notice information

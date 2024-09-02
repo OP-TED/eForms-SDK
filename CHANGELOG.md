@@ -1,3 +1,17 @@
+# SDK 1.8.4 Release Notes
+
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* Allow "Winner Decision" (BT-1451) to be on the same day the notice is submitted (BT-05) and the contract is signed (BT-145).
+* Remove rule requiring "Notice Framework Approximate Value" (BT-1118-NoticeResult) to be the sum of the corresponding values for each lot.
+* Remove rules that try to fetch another notice. They never had any effect, as the service they call does not exist, and they can cause errors with some schematron implementations.
+
+This release also includes updated translations and updated notice visualisation templates.
+
+A comprehensive list of changes between SDK 1.8.3 and SDK 1.8.4 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.8.3...1.8.4>
+
+You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?base=1.8.3&version=1.8.4>
+
 # SDK 1.8.3 Release Notes
 
 This release brings the following corrections in the validation rules, making them more permissive:
