@@ -1,6 +1,6 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.11.0",
+  "sdkVersion" : "eforms-sdk-1.11.1",
   "metadataDatabase" : {
     "version" : "1.11.0",
     "createdOn" : "2024-03-25T10:00:00"
@@ -24029,11 +24029,6 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "X02" ],
-        "condition" : "{ND-BusinessAddress} ${BT-514-Business not in (postcode-country)}",
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "mandatory" : {
@@ -24041,6 +24036,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "X02" ],
+        "condition" : "{ND-BusinessAddress} ${BT-514-Business in (postcode-country)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -24067,11 +24063,6 @@
         "noticeTypes" : [ "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02" ],
-        "condition" : "{ND-Company} ${BT-514-Organization-Company not in (postcode-country)}",
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "mandatory" : {
@@ -24079,6 +24070,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02" ],
+        "condition" : "{ND-Company} ${BT-514-Organization-Company in (postcode-country)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -24105,11 +24097,6 @@
         "noticeTypes" : [ "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02" ],
-        "condition" : "{ND-Touchpoint} ${BT-514-Organization-TouchPoint not in (postcode-country)}",
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "mandatory" : {
@@ -24117,6 +24104,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02" ],
+        "condition" : "{ND-Touchpoint} ${BT-514-Organization-TouchPoint in (postcode-country)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -24141,11 +24129,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "38", "39", "40", "CEI", "T01", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "T02" ],
-        "condition" : "{ND-UBO} ${not(BT-514-UBO in (postcode-country))}",
         "value" : true,
         "severity" : "ERROR"
       } ]

@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Parties</entry>
 <entry key="group|name|GR-LotResult-Section">Résultats des lots</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Valeur de l’offre</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">Lots inclus dans le groupe de lots</entry>
 <entry key="group|name|GR-LotTender">Offre présentée</entry>
 <entry key="group|name|GR-LotTender-1">Identifiants d'offre</entry>
 <entry key="group|name|GR-LotTender-2">Concessions de l'offre</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Paramètres des critères d’attribution</entry>
 <entry key="group|name|GR-LotsGroup-Description">Description du groupe de lots</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Informations sur l’accord-cadre</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Lots inclus dans le groupe de lots</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Objet</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Étendue du marché</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Conditions de passation du marché</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Type de procédure (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Procédure accélérée (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Valeur estimée de l’accord-cadre (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Valeur estimée de l’accord-cadre (publication ultérieure)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Valeur maximale des accords-cadres dans cette procédure (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Identifiant de la procédure précédente justifiant l’attribution directe (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Identifiant de la procédure précédente justifiant l’attribution directe (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Description de l’attribution directe (publication ultérieure)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Statut de sélection du lauréat (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">La raison pour laquelle un lauréat n’a pas été choisi (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">La raison pour laquelle un lauréat n’a pas été choisi (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Valeur estimée des accords-cadres dans le groupe de lots (publication ultérieure)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Valeur maximale des accords-cadres dans ce groupe de lots (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Recettes estimées provenant de l’acheteur ayant attribué la concession (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Valeur de tous les marchés attribués dans le cadre de la procédure en question (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Recettes estimées provenant des utilisateurs de la concession (publication ultérieure)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Procédure accélérée</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justification de l’absence de critères d’accessibilité</entry>
 <entry key="group|name|ND-Asset">Actifs justifiant la prolongation du contrat</entry>
+<entry key="group|name|ND-AuctionTerms">Conditions de la mise aux enchères</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membre du jury</entry>
 <entry key="group|name|ND-BusinessCapability">Activité commerciale</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Demandes de réexamen</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Motifs d’exclusion</entry>
 <entry key="group|name|ND-ExecutionRequirements">Conditions de réalisation</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Prolongation du contrat</entry>
+<entry key="group|name|ND-FSR">Applicabilité du Règlement sur les subventions étrangères</entry>
 <entry key="group|name|ND-FinancingParty">Organisme de financement</entry>
 <entry key="group|name|ND-Funding">Fonds de l'UE</entry>
 <entry key="group|name|ND-GazetteReference">Référence à la publication</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Résultat</entry>
 <entry key="group|name|ND-LotResultContractReference">Contrat après une décision d'attribution</entry>
 <entry key="group|name|ND-LotResultTenderReference">Offre considérée pour la décision d'attribution</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Nombre du critère d’attribution du groupe de lots (publication ultérieure)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Paramètre du critère d’attribution</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">Objectif social de la passation de marché</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Langue de soumission de l'offre</entry>
 <entry key="group|name|ND-LotTender">Offre présentée</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Nombre des critères d’attribution du groupe de lots complexe (publication ultérieure)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Le critère d’attribution du groupe de lots est un nombre fixe (publication ultérieure)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Le nombre du critère d’attribution du groupe de lots est un seuil (publication ultérieure)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Nombre du critère d’attribution du groupe de lots (publication ultérieure)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Pondération des critères d’attribution du groupe de lots (publication ultérieure)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Paramètre du critère d’attribution</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Paramètres du critère d’attribution</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Critère de seuil de valeur (publié ultérieurement)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Type de critère d’attribution du groupe de lots (publication ultérieure)</entry>
