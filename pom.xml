@@ -3,7 +3,7 @@
 
   <groupId>eu.europa.ted.eforms</groupId>
   <artifactId>eforms-sdk</artifactId>
-  <version>1.9.3</version>
+  <version>1.9.4</version>
   <packaging>jar</packaging>
 
   <name>eForms SDK</name>
@@ -48,7 +48,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.build.outputTimestamp>2024-04-26T13:06:01Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2024-08-13T06:45:45Z</project.build.outputTimestamp>
 
     <sonatype.server.url>s01.oss.sonatype.org</sonatype.server.url>
 
