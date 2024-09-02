@@ -282,6 +282,28 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>completion</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Completion</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Completion</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>consultation</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Consultation</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Consultation</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>cont-modif</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
