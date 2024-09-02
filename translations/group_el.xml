@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Μέρη</entry>
 <entry key="group|name|GR-LotResult-Section">Αποτελέσματα παρτίδων</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Αξία της προσφοράς</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">Παρτίδες που περιλαμβάνονται στην ομάδα παρτίδων</entry>
 <entry key="group|name|GR-LotTender">Υποβληθείσα προσφορά</entry>
 <entry key="group|name|GR-LotTender-1">Αναγνωριστικά διαγωνισμού</entry>
 <entry key="group|name|GR-LotTender-2">Παραχωρήσεις διαγωνισμού</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Παράμετροι κριτηρίων ανάθεσης</entry>
 <entry key="group|name|GR-LotsGroup-Description">Περιγραφή της ομάδας παρτίδων</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Πληροφορίες σχετικά με τη συμφωνία-πλαίσιο</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Παρτίδες που περιλαμβάνονται στην ομάδα παρτίδων</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Σκοπός</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Πεδίο εφαρμογής της σύμβασης</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Όροι υποβολής προσφορών</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Είδος διαδικασίας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Ταχεία διαδικασία (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Εκτιμώμενη αξία της συμφωνίας-πλαισίου (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Εκτιμώμενη αξία της συμφωνίας-πλαισίου (δημοσίευση αργότερα)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Μέγιστη αξία των συμφωνιών-πλαισίων στην παρούσα διαδικασία (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Αναγνωριστικό της προηγούμενης διαδικασίας που δικαιολογεί την απευθείας ανάθεση (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Αναγνωριστικό της προηγούμενης διαδικασίας που δικαιολογεί την απευθείας ανάθεση (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Περιγραφή της απευθείας ανάθεσης (δημοσίευση αργότερα)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Κατάσταση επιλογής του νικητή (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Λόγος για τον οποίο δεν επιλέχθηκε ο νικητής (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Λόγος για τον οποίο δεν επιλέχθηκε ο νικητής (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Εκτιμώμενη αξία των συμφωνιών-πλαισίων στην ομάδα παρτίδων (δημοσίευση αργότερα)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Μέγιστη αξία των συμφωνιών-πλαισίων σε αυτήν την ομάδα παρτίδων (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Εκτιμώμενα έσοδα από τον αγοραστή που παραχώρησε τη σύμβαση παραχώρησης (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Αξία όλων των συμβάσεων που ανατέθηκαν στο πλαίσιο της παρούσας διαδικασίας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Εκτιμώμενα έσοδα προερχόμενα από τους χρήστες της σύμβασης παραχώρησης (δημοσίευση αργότερα)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Επιταχυμένη διαδικασία</entry>
 <entry key="group|name|ND-AccessibilityJustification">Αιτιολόγηση της απουσίας κριτηρίων προσβασιμότητας</entry>
 <entry key="group|name|ND-Asset">Περιουσιακά στοιχεία που δικαιολογούν την παράταση του συμβολαίου</entry>
+<entry key="group|name|ND-AuctionTerms">Όροι του πλειστηριασμού</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Μέλος της επιτροπής</entry>
 <entry key="group|name|ND-BusinessCapability">Επιχειρηματική δραστηριότητα</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Προδικαστικές προσφυγές</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Λόγοι αποκλεισμού</entry>
 <entry key="group|name|ND-ExecutionRequirements">Όροι εκτέλεσης</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Παράταση συμβολαίου</entry>
+<entry key="group|name|ND-FSR">Εφαρμοστεότητα του Κανονισμού για τις Ξένες Επιδοτήσεις</entry>
 <entry key="group|name|ND-FinancingParty">Οργανισμός χρηματοδότησης</entry>
 <entry key="group|name|ND-Funding">Ευρωπαϊκοί πόροι</entry>
 <entry key="group|name|ND-GazetteReference">Αναφορά στη δημοσίευση</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Αποτέλεσμα</entry>
 <entry key="group|name|ND-LotResultContractReference">Σύμβαση μετά από απόφαση κατακύρωσης</entry>
 <entry key="group|name|ND-LotResultTenderReference">Διαγωνισμός που λαμβάνεται υπόψη για την απόφαση κατακύρωσης</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Αριθμός κριτηρίου ανάθεσης της ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Παράμετρος κριτηρίου ανάθεσης</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">Κοινωνικός στόχος της δημοπράτησης</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Γλώσσα υποβολής προσφοράς</entry>
 <entry key="group|name|ND-LotTender">Υποβληθείσα προσφορά</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Σύνθετος αριθμός κριτηρίων ανάθεσης ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Το κριτήριο ανάθεσης της ομάδας παρτίδων είναι σταθερός αριθμός (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Ο αριθμός κριτηρίου ανάθεσης της ομάδας παρτίδων είναι κατώτατο όριο (δημοσίευση αργότερα)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Αριθμός κριτηρίου ανάθεσης της ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Στάθμιση αριθμού κριτηρίων ανάθεσης της ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Παράμετρος κριτηρίου ανάθεσης</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Παράμετροι κριτηρίου ανάθεσης</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Κριτήριο ορίου αξίας (δημοσιεύεται αργότερα)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Είδος κριτηρίου ανάθεσης της ομάδας παρτίδων (δημοσίευση αργότερα)</entry>

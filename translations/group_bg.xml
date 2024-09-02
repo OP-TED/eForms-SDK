@@ -88,6 +88,7 @@
 <entry key="group|name|GR-LotResult-Parties">Страни</entry>
 <entry key="group|name|GR-LotResult-Section">Резултати по обособените позиции</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Стойност на офертата</entry>
+<entry key="group|name|GR-LotsGroup-LotDistribution">Обособени позиции, включени в групата обособени позиции</entry>
 <entry key="group|name|GR-LotTender">Подадена оферта</entry>
 <entry key="group|name|GR-LotTender-1">Идентификатори на търга</entry>
 <entry key="group|name|GR-LotTender-2">Концесии на търга</entry>
@@ -100,7 +101,6 @@
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Параметри на критериите за възлагане</entry>
 <entry key="group|name|GR-LotsGroup-Description">Описание на групата обособени позиции</entry>
 <entry key="group|name|GR-LotsGroup-FrameworkAgreement">Информация за рамково споразумение</entry>
-<entry key="group|name|GR-LotsGroup-LotDistribution">Обособени позиции, включени в групата обособени позиции</entry>
 <entry key="group|name|GR-LotsGroup-Purpose">Цел</entry>
 <entry key="group|name|GR-LotsGroup-Scope">Обхват на поръчката</entry>
 <entry key="group|name|GR-LotsGroup-TenderingTerms">Тръжни условия</entry>
@@ -183,7 +183,7 @@
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Вид процедура (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-106">Ускорена процедура (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-1118">Прогнозна стойност по рамковото споразумение (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-118">Прогнозна стойност по рамковото споразумение (по-късно публикуване)</entry>
+<entry key="group|name|GR-Unpublish-BT-118">Максимална стойност по рамковите споразумения по тази процедура (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252">Идентификатор на предишната процедура, обосноваваща прякото възлагане (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-1252-Procedure">Идентификатор на предишната процедура, обосноваваща прякото възлагане (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-135">Описание на прякото възлагане (по-късно публикуване)</entry>
@@ -194,7 +194,7 @@
 <entry key="group|name|GR-Unpublish-BT-142-LotResult">Статус на избора на победител (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-144">Причина, поради която не е избран победител (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-144-LotResult">Причина, поради която не е избран победител (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-156">Прогнозна стойност по рамковите споразумения по групата обособени позиции (по-късно публикуване)</entry>
+<entry key="group|name|GR-Unpublish-BT-156">Максимална стойност по рамковите споразумения по тази група обособени позиции (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-160">Прогнозни приходи от купувача, който е възложил концесията (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-161">Стойност на всички поръчки, възложени по тази процедура (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-162">Прогнозни приходи от ползвателите на концесията (по-късно публикуване)</entry>
@@ -250,6 +250,7 @@
 <entry key="group|name|ND-AcceleratedProcedure">Ускорена процедура</entry>
 <entry key="group|name|ND-AccessibilityJustification">Обосновка за липсата на критерии за достъпността</entry>
 <entry key="group|name|ND-Asset">Активи, оправдаващи удължаването на договора</entry>
+<entry key="group|name|ND-AuctionTerms">Условия на търга</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Член на журито</entry>
 <entry key="group|name|ND-BusinessCapability">Бизнес дейност</entry>
 <entry key="group|name|ND-BuyerReviewComplainants">Искания за преразглеждане (обжалване)</entry>
@@ -272,6 +273,7 @@
 <entry key="group|name|ND-ExclusionGrounds">Основания за изключване</entry>
 <entry key="group|name|ND-ExecutionRequirements">Условия за изпълнение</entry>
 <entry key="group|name|ND-ExtendedDurationJustification">Удължаване на договора</entry>
+<entry key="group|name|ND-FSR">Приложимост на Регламента за чуждестранните субсидии</entry>
 <entry key="group|name|ND-FinancingParty">Финансираща организация</entry>
 <entry key="group|name|ND-Funding">ЕС фондове</entry>
 <entry key="group|name|ND-GazetteReference">Препратка към публикацията</entry>
@@ -327,6 +329,8 @@
 <entry key="group|name|ND-LotResult">Резултат</entry>
 <entry key="group|name|ND-LotResultContractReference">Договор след вземане на решение за присъждане</entry>
 <entry key="group|name|ND-LotResultTenderReference">Предложение, взето предвид при вземане на решение за присъждане</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Число, свързано с критерия за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
+<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Параметър на критерия за възлагане</entry>
 <entry key="group|name|ND-LotSocialObjectiveType">Социална цел на обществената поръчка</entry>
 <entry key="group|name|ND-LotSubmissionLanguage">Език за представяне на офертата</entry>
 <entry key="group|name|ND-LotTender">Подадена оферта</entry>
@@ -342,9 +346,7 @@
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish">Усложнени критерии за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberFixUnpublish">Критерият за възлагане на поръчка за групата обособени позиции е фиксирана числова величина (по-късно публикуване)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberThresholdUnpublish">Числото, свързано с критерия за възлагане на поръчка за групата обособени позиции, е праг (по-късно публикуване)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionNumberUnpublish">Число, свързано с критерия за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionNumberWeightUnpublish">Число, свързано с критерия за възлагане на поръчка за групата обособени позиции — тегло (по-късно публикуване)</entry>
-<entry key="group|name|ND-LotsGroupAwardCriterionParameter">Параметър на критерия за възлагане</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionParameters">Параметри на критерия за възлагане</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionThresholdNumberUnpublish">Прагов критерий за стойност (публикува се по-късно)</entry>
 <entry key="group|name|ND-LotsGroupAwardCriterionTypeUnpublish">Вид на критерия за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
