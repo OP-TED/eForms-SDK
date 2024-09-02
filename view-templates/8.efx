@@ -186,7 +186,7 @@
 			0 {ND-LateTendererInformation[(BT-771-Lot is present) and (BT-772-Lot is present)]} #{auxiliary|text|late-tenderer-info}: // Information that can be supplemented after the submission deadline
 				{BT-771-Lot} #{BT-771-Lot} // Late Tenderer Information
 				{ND-LateTendererInformation[BT-772-Lot is present]} #{field|name|BT-772-Lot}: ${BT-772-Lot} // Late Tenderer Information Description
-			0 {ND-LotTenderingTerms[(BT-736-Lot is present) or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot is present) or (BT-93-Lot is present) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-681-Lot is present)]} #{auxiliary|text|contract-terms}: // Terms of contract
+			0 {ND-LotTenderingTerms[(BT-736-Lot is present) or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot is present) or (BT-93-Lot is present) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present)]} #{auxiliary|text|contract-terms}: // Terms of contract
 				{BT-736-Lot} #{field|name|BT-736-Lot}: #{BT-736-Lot} // The execution of the contract must be performed in the framework of sheltered employment programmes (yes / no / not-known)
 				{ND-ExecutionRequirements[BT-70-Lot is present]} #{field|name|BT-70-Lot}: ${BT-70-Lot} // Terms Performance
 				0 {BT-801-Lot} #{field|name|BT-801-Lot}: #{code|name|${concat('indicator.', BT-801-Lot)}} // A non-disclosure agreement is required.
