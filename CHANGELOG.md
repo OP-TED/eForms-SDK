@@ -1,3 +1,13 @@
+# SDK 1.6.5 Release Notes
+
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* Remove rules that try to fetch another notice. They never had any effect, as the service they call does not exist, and they can cause errors with some schematron implementations.
+
+A comprehensive list of changes between SDK 1.6.4 and SDK 1.6.5 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.6.4...1.6.5>
+
+You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?base=1.6.4&version=1.6.5>
+
 # SDK 1.6.4 Release Notes
 
 This release brings the following corrections in the validation rules, making them more permissive:
