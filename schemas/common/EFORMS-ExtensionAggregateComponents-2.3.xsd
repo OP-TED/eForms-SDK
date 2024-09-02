@@ -28,7 +28,7 @@
 	<xsd:element name="AppliedMeasure" type="AppliedMeasureType"/>
 	<xsd:element name="Asset" type="AssetType"/>
 	<xsd:element name="AssetLabel" type="AssetLabelType"/>
-	<xsd:element name="AssetMetric" type="StatisticsType"/>
+	<xsd:element name="AssetMetric" type="AssetMetricType"/>
 	<xsd:element name="AssetsList" type="AssetsListType"/>
 	<xsd:element name="AwardCriterionParameter" type="AwardCriterionParameterType"/>
 	<xsd:element name="BusinessPartyGroup" type="BusinessPartyGroupType"/>
@@ -187,6 +187,13 @@
 	<xsd:complexType name="AssetsListType">
 		<xsd:sequence>
 			<xsd:element ref="efac:Asset" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="AssetMetricType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:AssetMetricCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:AssetMetricMeasurementUnit" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:AssetMetricNumeric" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="AwardCriterionParameterType">
