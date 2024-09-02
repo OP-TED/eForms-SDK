@@ -288,7 +288,4 @@
 		{OPP-010-notice} #{field|name|OPP-010-notice}: ${OPP-010-notice} // Notice publication number
 		{OPP-011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
 		{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date
-11.2 Publication information
-		{OPP-010-notice} #{field|name|OPP-010-notice}: ${OPP-010-notice} // Notice publication number
-		{OPP-011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
-		{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date
+

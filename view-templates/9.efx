@@ -296,6 +296,3 @@
 		{OPP-011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
 		{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date
 		{BT-127-notice} #{field|name|BT-127-notice}: ${BT-127-notice} // Estimated date of publication of a contract notice within this procedure
--011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
-		{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date
-		{BT-127-notice} #{field|name|BT-127-notice}: ${BT-127-notice} // Estimated date of publication of a contract notice within this procedure
