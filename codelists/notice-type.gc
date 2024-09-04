@@ -922,6 +922,17 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>compl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Contract completion notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Contract completion notice</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>pin-buyer</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -1398,6 +1409,17 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Förhandsmeddelande om kollektivtrafik</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pmc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pre-market consultation notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pre-market consultation notice</SimpleValue>
          </Value>
       </Row>
       <Row>
