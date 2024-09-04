@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.222",
-    "createdOn" : "2024-09-04T10:53:02"
+    "version" : "1.12.225",
+    "createdOn" : "2024-09-04T11:56:49"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -158,11 +158,32 @@
     "description" : "List of allowed Notice Type codes for a notice of Competition Form Type",
     "_label" : "codelist|name|competition"
   }, {
+    "id" : "compl",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "notice-subtype",
+    "filename" : "notice-subtype_compl.gc",
+    "description" : "List of allowed Notice Subtype codes for a Contract Completion Notice Type",
+    "_label" : "codelist|name|compl"
+  }, {
+    "id" : "completion",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "notice-type",
+    "filename" : "notice-type_completion.gc",
+    "description" : "List of allowed Notice Type codes for a Completion Form Type",
+    "_label" : "codelist|name|completion"
+  }, {
     "id" : "conditions",
     "version" : "1.0",
     "filename" : "conditions.gc",
     "description" : "Codes for conditions",
     "_label" : "codelist|name|conditions"
+  }, {
+    "id" : "consultation",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "notice-type",
+    "filename" : "notice-type_consultation.gc",
+    "description" : "List of allowed Notice Type codes for a Consultation Form Type",
+    "_label" : "codelist|name|consultation"
   }, {
     "id" : "cont-modif",
     "version" : "1.13.0-SNAPSHOT",
@@ -1271,6 +1292,13 @@
     "filename" : "player-type.gc",
     "description" : "Type of role/subrole player",
     "_label" : "codelist|name|player-type"
+  }, {
+    "id" : "pmc",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "notice-subtype",
+    "filename" : "notice-subtype_pmc.gc",
+    "description" : "List of allowed Notice Subtype codes for a Pre-market Consultation Notice Type",
+    "_label" : "codelist|name|pmc"
   }, {
     "id" : "postcode-country",
     "version" : "1.13.0-SNAPSHOT",
