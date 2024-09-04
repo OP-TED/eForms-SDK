@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.210",
-    "createdOn" : "2024-09-02T16:41:11"
+    "version" : "1.12.222",
+    "createdOn" : "2024-09-04T10:53:02"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -1488,20 +1488,6 @@
     "filename" : "procurement-procedure-type_procedure-type-9.gc",
     "description" : "Allowed procedure type for notice subtype 9",
     "_label" : "codelist|name|procedure-type-9"
-  }, {
-    "id" : "procedure-type-e1",
-    "version" : "1.13.0-SNAPSHOT",
-    "parentId" : "procurement-procedure-type",
-    "filename" : "procurement-procedure-type_procedure-type-e1.gc",
-    "description" : "Allowed procedure type for notice subtype E1",
-    "_label" : "codelist|name|procedure-type-e1"
-  }, {
-    "id" : "procedure-type-e2",
-    "version" : "1.13.0-SNAPSHOT",
-    "parentId" : "procurement-procedure-type",
-    "filename" : "procurement-procedure-type_procedure-type-e2.gc",
-    "description" : "Allowed procedure type for notice subtype E2",
-    "_label" : "codelist|name|procedure-type-e2"
   }, {
     "id" : "procedure-type-e3",
     "version" : "1.13.0-SNAPSHOT",
