@@ -20,10 +20,10 @@
 	<xsd:element name="AppealIrregularity" type="AppealIrregularityType"/>
 	<xsd:element name="AppealRequestsStatistics" type="AppealRequestsStatisticsType"/>
 	<xsd:element name="AppealRemedy" type="AppealRemedyType"/>
-	<xsd:element name="AppealStatus" type="AppealStatusType"/>
+	<xsd:element name="AppealInformation" type="AppealInformationType"/>
 	<xsd:element name="AppealedItem" type="AppealedItemType"/>
 	<xsd:element name="AppealProcessingParty" type="AppealProcessingPartyType"/>
-	<xsd:element name="AppealsInformation" type="AppealsInformationType"/>
+	<xsd:element name="Appeals" type="AppealsType"/>
 	<xsd:element name="AppealingParty" type="AppealingPartyType"/>
 	<xsd:element name="AppliedMeasure" type="AppliedMeasureType"/>
 	<xsd:element name="Asset" type="AssetType"/>
@@ -129,32 +129,32 @@
 			<xsd:element ref="efbc:StatisticsNumeric" minOccurs="1" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
-	<xsd:complexType name="AppealStatusType">
+	<xsd:complexType name="AppealInformationType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:ID" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="cbc:Date" minOccurs="1" maxOccurs="1"/>
-			<xsd:element ref="cbc:Title" minOccurs="1" maxOccurs="unbounded"/>
-			<xsd:element ref="cbc:Description" minOccurs="1" maxOccurs="unbounded"/>
-			<xsd:element ref="cbc:URI" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:Date" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="cbc:Title" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="cbc:Description" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="cbc:FeeAmount" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="efbc:AppealStageCode" minOccurs="1" maxOccurs="1"/>
-			<xsd:element ref="efbc:AppealStageID" minOccurs="1" maxOccurs="1"/>
-			<xsd:element ref="efbc:AppealPreviousStageID" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="efbc:RemedyAmount" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="cbc:URI" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:AppealID" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:AppealRemedyValue" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:AppealStageCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:PreviousReviewIdentifier" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealDate" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealReasons" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efac:AppealDecision" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:AppealIrregularity" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efac:AppealProcessingParty" minOccurs="1" maxOccurs="1"/>
+			<xsd:element ref="efac:AppealedItem" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:AppealingParty" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:AppealProcessingParty" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:AppealDecision" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:AppealRemedy" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element ref="efac:AppealedItem" minOccurs="1" maxOccurs="unbounded"/>
-			<xsd:element ref="efac:AppealingParty" minOccurs="1" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
-	<xsd:complexType name="AppealsInformationType">
+	<xsd:complexType name="AppealsType">
 		<xsd:sequence>
-			<xsd:element ref="efac:AppealStatus" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:AppealInformation" minOccurs="1" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="AppealingPartyType">
