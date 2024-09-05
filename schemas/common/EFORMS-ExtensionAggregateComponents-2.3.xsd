@@ -140,7 +140,7 @@
 			<xsd:element ref="efbc:AppealID" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:AppealRemedyValue" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:AppealStageCode" minOccurs="0" maxOccurs="1"/>
-			<xsd:element ref="efbc:PreviousReviewIdentifier" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:PreviousAppealID" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealIndicator" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealDate" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efbc:WithdrawnAppealReasons" minOccurs="0" maxOccurs="unbounded"/>
