@@ -13,13 +13,13 @@
 	<!-- ===== Element Declarations ===== -->
 	<xsd:element name="AccessToolName" type="AccessToolNameType"/>
 	<xsd:element name="AcquiringCPBIndicator" type="AcquiringCPBIndicatorType"/>
-	<xsd:element name="AppealStageCode" type="AppealStageCodeType"/>
-	<xsd:element name="AppealStageID" type="AppealStageIDType"/>
-	<xsd:element name="AppealPreviousStageID" type="AppealPreviousStageIDType"/>
+	<xsd:element name="AppealID" type="AppealIDType"/>
 	<xsd:element name="AppealProcessingPartyTypeDescription" type="AppealProcessingPartyTypeDescriptionType"/>
 	<xsd:element name="AppealProcessingPartyTypeCode" type="AppealProcessingPartyTypeCodeType"/>
+	<xsd:element name="AppealStageCode" type="AppealStageCodeType"/>
 	<xsd:element name="AppealingPartyTypeDescription" type="AppealingPartyTypeDescriptionType"/>
 	<xsd:element name="AppealingPartyTypeCode" type="AppealingPartyTypeCodeType"/>
+	<xsd:element name="AppealRemedyValue" type="AppealRemedyValueType"/>
 	<xsd:element name="ApplicableLegalBasis" type="ApplicableLegalBasisType"/>
 	<xsd:element name="AreaCode" type="AreaCodeType"/>
 	<xsd:element name="AssetCategoryCode" type="AssetCategoryCodeType"/>
@@ -69,6 +69,7 @@
 	<xsd:element name="ParameterCode" type="ParameterCodeType"/>
 	<xsd:element name="PenaltiesAmount" type="PenaltiesAmountType"/>
 	<xsd:element name="PercentageKnownIndicator" type="PercentageKnownIndicatorType"/>
+	<xsd:element name="PreviousAppealID" type="PreviousAppealIDType"/>
 	<xsd:element name="PublicationDate" type="PublicationDateType"/>
 	<xsd:element name="PublicTransportationCumulatedDistance" type="PublicTransportationCumulatedDistanceType"/>
 	<xsd:element name="ProcedureRelaunchIndicator" type="ProcedureRelaunchIndicatorType"/>
@@ -112,12 +113,7 @@
 			<xsd:restriction base="udt:IndicatorType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
-	<xsd:complexType name="AppealStageCodeType">
-		<xsd:simpleContent>
-			<xsd:restriction base="udt:CodeType"/>
-		</xsd:simpleContent>
-	</xsd:complexType>
-	<xsd:complexType name="AppealStageIDType">
+	<xsd:complexType name="AppealIDType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:IdentifierType"/>
 		</xsd:simpleContent>
@@ -142,9 +138,19 @@
 			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
-	<xsd:complexType name="AppealPreviousStageIDType">
+	<xsd:complexType name="PreviousAppealIDType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:IdentifierType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="AppealRemedyValueType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:AmountType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="AppealStageCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="ApplicableLegalBasisType">
