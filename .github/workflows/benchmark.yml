@@ -1,11 +1,7 @@
 name: Benchmark Schematron rules with the SDK Analyzer
 
-on:
-  push:
-  pull_request:
-
-  # Allows to run this workflow manually from the Actions tab
-  workflow_dispatch:
+# Allows to also run this workflow manually from the Actions tab
+on: [push, pull_request, workflow_dispatch]
 
 permissions:
   # Contents permission needed to create a commit comment
