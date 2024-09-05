@@ -11,8 +11,7 @@
 	<let name="global-res-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID" />
 	<let name="global-con-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"/>
 	<let name="global-con-business-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID"/>
-	<let name="global-ten-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/
-	efac:LotTender/cbc:ID"/>
+	<let name="global-ten-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"/>
 	<let name="global-tpa-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"/>
 	
 	<!-- Variable for references to identifiers -->
@@ -76,7 +75,7 @@
 		<assert id="BR-OPT-00301-1410" role="ERROR" diagnostics="ND-LotResult_OPT-301-LotResult-Financing" test="(every $financing in cac:FinancingParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) satisfies ($financing = $global-org-ids)) or not(cac:FinancingParty/cac:PartyIdentification/cbc:ID)">rule|text|BR-OPT-00301-1410</assert>
 		<assert id="BR-OPT-00301-1414" role="ERROR" diagnostics="ND-LotResult_OPT-301-LotResult-Paying" test="(every $payer in cac:PayerParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) satisfies ($payer = $global-org-ids)) or not(cac:PayerParty/cac:PartyIdentification/cbc:ID)">rule|text|BR-OPT-00301-1414</assert>
 		<assert id="BR-OPT-00315-0100" role="ERROR" diagnostics="ND-LotResult_OPT-315-LotResult" test="(every $contract in efac:SettledContract/cbc:ID/normalize-space(text()) satisfies ($contract = $global-con-ids)) or not(efac:SettledContract/cbc:ID)">rule|text|BR-OPT-00315-0100</assert>
-		<assert id="BR-OPT-00320-0100" role="ERROR" diagnostics="ND-LotResult_OPT-320-LotResult" test="(every $tender in efac:LotTender/cbc:ID/normalize-space(text()) satisfies ($tender = $global-ten-ids)) or not(efac:LotTender/cbc:ID)">rule|text|BR-OPT-00320-0100</assert>
+		<assert id="BR-OPT-00320-0100" role="ERROR" diagnostics="ND-LotResult_OPT-320-LotResult" test="(every $tender in efac:LotTender/cbc:ID/normalize-space(text()) satisfies ($tender = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID)) or not(efac:LotTender/cbc:ID)">rule|text|BR-OPT-00320-0100</assert>
 	</rule>
 
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract">
