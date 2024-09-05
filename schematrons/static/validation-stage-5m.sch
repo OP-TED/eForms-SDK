@@ -83,23 +83,4 @@
 		<assert id="BR-OPT-00300-0252" role="ERROR" diagnostics="ND-SettledContract_OPT-300-Contract-Signatory" test="(every $signatory in cac:SignatoryParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) satisfies ($signatory = $global-org-ids)) or not(cac:SignatoryParty/cac:PartyIdentification/cbc:ID)">rule|text|BR-OPT-00300-0252</assert>
 	</rule>
 
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ID">
-		<assert id="BR-BT-00022-0241-slow" role="ERROR" test="count(for $x in ., $y in /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ID[. = $x] return $y) = 1">rule|text|BR-BT-00022-0241</assert>
-	</rule>
-
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID">
-		<assert id="BR-BT-00137-0201-slow" role="ERROR" test="count(for $x in ., $y in /*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[. = $x] return $y) = 1">rule|text|BR-BT-00137-0201</assert>
-	</rule>
-		
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
-		<assert id="BR-OPT-00321-0100-slow" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID[. = $x] return $y) = 1">rule|text|BR-OPT-00321-0100</assert>
-	</rule>
-
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID">
-		<assert id="BR-BT-00150-0101-slow" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID[. = $x] return $y) = 1">rule|text|BR-BT-00150-0101</assert>
-	</rule>
-
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID">
-		<assert id="BR-OPT-00210-0100-slow" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID[. = $x] return $y) = 1">rule|text|BR-OPT-00210-0100</assert>
-	</rule>
 </pattern>
