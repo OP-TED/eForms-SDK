@@ -3,16 +3,14 @@ name: Benchmark Schematron rules with the SDK Analyzer
 # Allows to also run this workflow manually from the Actions tab
 on: [push, pull_request, workflow_dispatch]
 
-# Contents permission needed to create a commit comment
-permissions: write-all
-
 jobs:
   benchmark:
     name: Run Schematron benchmark
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      packages: write
+      # Contents permission needed to create a commit comment
+      contents: write
+      packages: read
     steps:
       - uses: actions/checkout@v4
 
