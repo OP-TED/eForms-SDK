@@ -28,7 +28,7 @@
 	<let name="global-res-ids-duplicates" value="for $val in distinct-values($global-res-ids) return $val[count($global-res-ids[. = $val]) > 1]"/>
 	<let name="global-con-ids-duplicates" value="for $val in distinct-values($global-con-ids) return $val[count($global-con-ids[. = $val]) > 1]"/>
 	<let name="global-con-business-ids-duplicates" value="for $val in distinct-values($global-con-business-ids) return $val[count($global-con-business-ids[. = $val]) > 1]"/>
-	<let name="global-ten-ids-duplicates" value="for $val in distinct-values(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID) return $val[count(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID[. = $val]) > 1]"/>
+	<let name="global-ten-ids-duplicates" value="for $val in distinct-values($global-ten-ids) return $val[count($global-ten-ids[. = $val]) > 1]"/>
 	<let name="global-tpa-ids-duplicates" value="for $val in distinct-values($global-tpa-ids) return $val[count($global-tpa-ids[. = $val]) > 1]"/>
 	
 	<!-- Rules on identifiers -->
@@ -75,7 +75,7 @@
 		<assert id="BR-OPT-00301-1410" role="ERROR" diagnostics="ND-LotResult_OPT-301-LotResult-Financing" test="(every $financing in cac:FinancingParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) satisfies ($financing = $global-org-ids)) or not(cac:FinancingParty/cac:PartyIdentification/cbc:ID)">rule|text|BR-OPT-00301-1410</assert>
 		<assert id="BR-OPT-00301-1414" role="ERROR" diagnostics="ND-LotResult_OPT-301-LotResult-Paying" test="(every $payer in cac:PayerParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) satisfies ($payer = $global-org-ids)) or not(cac:PayerParty/cac:PartyIdentification/cbc:ID)">rule|text|BR-OPT-00301-1414</assert>
 		<assert id="BR-OPT-00315-0100" role="ERROR" diagnostics="ND-LotResult_OPT-315-LotResult" test="(every $contract in efac:SettledContract/cbc:ID/normalize-space(text()) satisfies ($contract = $global-con-ids)) or not(efac:SettledContract/cbc:ID)">rule|text|BR-OPT-00315-0100</assert>
-		<assert id="BR-OPT-00320-0100" role="ERROR" diagnostics="ND-LotResult_OPT-320-LotResult" test="(every $tender in efac:LotTender/cbc:ID/normalize-space(text()) satisfies ($tender = /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID)) or not(efac:LotTender/cbc:ID)">rule|text|BR-OPT-00320-0100</assert>
+		<assert id="BR-OPT-00320-0100" role="ERROR" diagnostics="ND-LotResult_OPT-320-LotResult" test="(every $tender in efac:LotTender/cbc:ID/normalize-space(text()) satisfies ($tender = $global-ten-ids)) or not(efac:LotTender/cbc:ID)">rule|text|BR-OPT-00320-0100</assert>
 	</rule>
 
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract">
@@ -83,4 +83,11 @@
 		<assert id="BR-OPT-00300-0252" role="ERROR" diagnostics="ND-SettledContract_OPT-300-Contract-Signatory" test="(every $signatory in cac:SignatoryParty/cac:PartyIdentification/cbc:ID/normalize-space(text()) satisfies ($signatory = $global-org-ids)) or not(cac:SignatoryParty/cac:PartyIdentification/cbc:ID)">rule|text|BR-OPT-00300-0252</assert>
 	</rule>
 
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
+		<assert id="BR-OPT-00321-0100-slow" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID[. = $x] return $y) = 1">rule|text|BR-OPT-00321-0100</assert>
+	</rule>
+
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID">
+		<assert id="BR-BT-00150-0101-slow" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID[. = $x] return $y) = 1">rule|text|BR-BT-00150-0101</assert>
+	</rule>
 </pattern>
