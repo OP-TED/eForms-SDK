@@ -28,7 +28,7 @@
 	<let name="global-res-ids-duplicates" value="for $val in distinct-values($global-res-ids) return $val[count($global-res-ids[. = $val]) > 1]"/>
 	<let name="global-con-ids-duplicates" value="for $val in distinct-values($global-con-ids) return $val[count($global-con-ids[. = $val]) > 1]"/>
 	<let name="global-con-business-ids-duplicates" value="for $val in distinct-values($global-con-business-ids) return $val[count($global-con-business-ids[. = $val]) > 1]"/>
-	<let name="global-ten-ids-duplicates" value="for $val in distinct-values($global-ten-ids) return $val[count($global-ten-ids[. = $val]) > 1]"/>
+	<let name="global-ten-ids-duplicates" value="for $val in distinct-values(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID) return $val[count(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID[. = $val]) > 1]"/>
 	<let name="global-tpa-ids-duplicates" value="for $val in distinct-values($global-tpa-ids) return $val[count($global-tpa-ids[. = $val]) > 1]"/>
 	
 	<!-- Rules on identifiers -->
