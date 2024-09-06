@@ -70,6 +70,9 @@
 <entry key="codelist|name|gpp-criteria">Green Public Procurement Criteria</entry>
 <entry key="codelist|name|indicator">List of eforms allowed indicator values</entry>
 <entry key="codelist|name|innovative-acquisition">This table provides the codes and values used for the type of innovative works, supplies or services being procured within the context of public procurement.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">This table provides the list of codes and values used to specify the exception to the application of the IPI measure</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">This table provides the list of codes and values used to specify the applied IPI measure</entry>
+<entry key="codelist|name|ipi-scope">This table provides the list of codes and values used to indicate that a procurement falls under the scope of the International Procurement Instrument</entry>
 <entry key="codelist|name|irregularity-type">This code list refers generally to the types of irregularities described in Section 2 of the Annex to the Commission Decision C(2019) 3452.</entry>
 <entry key="codelist|name|language">List of three characters language codes correlated with the ISO 639 international standard with additional codes for some languages without assigned ISO code.</entry>
 <entry key="codelist|name|lawful-country">List of countries for which there is a legal basis for publication in the Supplement to the Official Journal of the European Union</entry>
