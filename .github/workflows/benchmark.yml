@@ -20,7 +20,7 @@ jobs:
           distribution: 'adopt'
 
       - name: Run benchmark
-        run: mvn clean install -Pbenchmark --no-transfer-progress
+        run: mvn clean install -Pbenchmark --no-transfer-progress -s .github/workflows/settings.xml
 
       # Download previous benchmark result from cache (if exists)
       - name: Download previous benchmark data
