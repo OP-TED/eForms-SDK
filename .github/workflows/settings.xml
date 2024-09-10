@@ -10,9 +10,12 @@
       </activation>
       <repositories>
         <repository>
-          <id>github</id>
-          <name>OP-TED GitHub Packages</name>
-          <url>https://public:${env.GITHUB_TOKEN}@maven.pkg.github.com/OP-TED/*</url>
+          <id>ossrh</id>
+          <name>OSSRH Snapshots</name>
+          <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+          <releases>
+            <enabled>false</enabled>
+          </releases>
           <snapshots>
             <enabled>true</enabled>
           </snapshots>
