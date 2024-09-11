@@ -464,6 +464,7 @@
 	<xsd:complexType name="ProcurementDetailsType">
 		<xsd:sequence>
 			<xsd:element ref="efbc:AssetCategoryCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:LegalFrameworkCode" minOccurs="0" maxOccurs="1"/>
 			<xsd:element ref="efac:AssetLabel" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:AssetMetric" minOccurs="0" maxOccurs="unbounded"/>
 			<xsd:element ref="efac:StrategicProcurementStatistics" minOccurs="0" maxOccurs="unbounded"/>
