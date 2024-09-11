@@ -56,6 +56,7 @@
 	<xsd:element name="ItemClassificationDescription" type="ItemClassificationDescriptionType"/>
 	<xsd:element name="LabelDescription" type="LabelDescriptionType"/>
 	<xsd:element name="LabelCode" type="LabelCodeType"/>
+	<xsd:element name="LegalFrameworkCode" type="LegalFrameworkCodeType"/>
 	<xsd:element name="ListedOnRegulatedMarketIndicator" type="ListedOnRegulatedMarketIndicatorType"/>
 	<xsd:element name="ModifiedContractIdentifier" type="ModifiedContractIdentifierType"/>
 	<xsd:element name="MeasureCode" type="MeasureCodeType"/>
@@ -329,6 +330,11 @@
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="LabelCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="LegalFrameworkCodeType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
