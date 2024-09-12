@@ -1104,11 +1104,11 @@
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<!--BT-115-->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
-				<!--BT-131-->
+			<cac:ParticipationRequestReceptionPeriod>
+				<!--BT-1311-->
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<!--BT-13-->
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
@@ -1660,11 +1660,11 @@
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<!--BT-115-->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
-				<!--BT-131-->
+			<cac:ParticipationRequestReceptionPeriod>
+				<!--BT-1311-->
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<!--BT-13-->
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>

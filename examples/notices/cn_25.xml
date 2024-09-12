@@ -329,10 +329,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2020-05-27+01:00</cbc:EndDate>
 				<cbc:EndTime>11:00:00+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>3</cbc:MaximumQuantity>

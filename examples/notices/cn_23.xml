@@ -268,10 +268,6 @@
 		<cac:TenderingProcess>
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
-				<cbc:EndDate>2020-07-01+01:00</cbc:EndDate>
-				<cbc:EndTime>16:30:00+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>	
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<cbc:ID schemeName="InternalID">Dsp crèches</cbc:ID>
