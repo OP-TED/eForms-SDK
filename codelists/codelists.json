@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.230",
-    "createdOn" : "2024-09-06T10:35:02"
+    "version" : "1.12.259",
+    "createdOn" : "2024-09-12T13:15:07"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -331,12 +331,37 @@
     "description" : "List of codes of the European Economic Area countries",
     "_label" : "codelist|name|eea-country"
   }, {
+    "id" : "eed-scope",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "indicator",
+    "filename" : "indicator_eed-scope.gc",
+    "description" : "This table provides the list of codes and values used to indicate that a procurement falls under the scope of the Energy Efficiency Directive",
+    "_label" : "codelist|name|eed-scope"
+  }, {
     "id" : "einvoicing",
     "version" : "1.13.0-SNAPSHOT",
     "parentId" : "permission",
     "filename" : "permission_einvoicing.gc",
     "description" : "List of codes to specify whether the use of electronic invoicing is allowed or not.",
     "_label" : "codelist|name|einvoicing"
+  }, {
+    "id" : "energy-efficiency-basis",
+    "version" : "1.0",
+    "filename" : "energy-efficiency-basis.gc",
+    "description" : "Legal Framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.",
+    "_label" : "codelist|name|energy-efficiency-basis"
+  }, {
+    "id" : "energy-efficiency-item",
+    "version" : "1.0",
+    "filename" : "energy-efficiency-item.gc",
+    "description" : "Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.",
+    "_label" : "codelist|name|energy-efficiency-item"
+  }, {
+    "id" : "energy-efficiency-label",
+    "version" : "1.0",
+    "filename" : "energy-efficiency-label.gc",
+    "description" : "This table provides the list of codes and values used to specify the energy efficiency of the product",
+    "_label" : "codelist|name|energy-efficiency-label"
   }, {
     "id" : "entity-activity",
     "version" : "1.13.0-SNAPSHOT",
@@ -866,6 +891,12 @@
     "filename" : "measurement-unit.gc",
     "description" : "List of codes for the most commonly used Unit of Measures in international trades.",
     "_label" : "codelist|name|measurement-unit"
+  }, {
+    "id" : "metric-type",
+    "version" : "1.0",
+    "filename" : "metric-type.gc",
+    "description" : "List of codes used to characterize the type of metric covered by the specified numbers. ",
+    "_label" : "codelist|name|metric-type"
   }, {
     "id" : "missing-info-submission",
     "version" : "20240612-0",

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>EnergyEfficiencyItem</ShortName>
+      <LongName>energy-efficiency-item</LongName>
+      <Version>1.0</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>air-cond</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Air conditioners including air-to-air heat pumps</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Air conditioners including air-to-air heat pumps</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>building</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Building</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Building</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>circul</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Circulators</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Circulators</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>computer</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Computers</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Computers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>cook-appl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Domestic cooking appliances - ovens, range hoods, hobs </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Domestic cooking appliances - ovens, range hoods, hobs </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>dishwas</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Dishwashers</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Dishwashers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>el-mo-vsd</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Electric motors and variable speed drives </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Electric motors and variable speed drives </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>fuel-boil</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Solid fuel boilers</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Solid fuel boilers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>hea-cool</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Air heating/cooling products</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Air heating/cooling products</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>hous-freez</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Household fridges and freezers</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Household fridges and freezers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>indus-fan</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Industrial fans</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Industrial fans</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ligh-gea</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Light sources and control gears</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Light sources and control gears</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>lo-spa-hea</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Local Space Heaters  </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Local Space Heaters  </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>mob-pho-ta</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Mobile phones and tablets</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Mobile phones and tablets</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pow-suppl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>External power supplies</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>External power supplies</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pow-tra</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Power transformers</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Power transformers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pro-refrig</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Professional refrigeration equipment</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Professional refrigeration equipment</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>products</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Products</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Products</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>refri-appl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Refrigerating appliances with a sales function</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Refrigerating appliances with a sales function</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ser-da-sto</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Servers and data storage products </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Servers and data storage products </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>services</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Services</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Services</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>spa-com-hea</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Space and combination heater</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Space and combination heater</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>tum-dry</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tumble driers</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tumble driers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>tv-nat-law</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>TVs - electronic displays national law</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>TVs - electronic displays national law</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>tyres</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Tyres </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Tyres </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>vac-clea</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Vacuum cleaners </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Vacuum cleaners </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ventila</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ventilation units  </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ventilation units  </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>wa-hea-tan</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Water heaters - storage tank and solar devices </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Water heaters - storage tank and solar devices </SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>wa-pu</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Water pumps</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Water pumps</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>was-ma-dry</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Washing machines and washer-dryers</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Washing machines and washer-dryers</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>weld-eq</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Welding equipment</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Welding equipment</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>works</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Works </SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Works </SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
