@@ -16723,9 +16723,9 @@
 <entry key="code|name|review-decision-type.rej-other">Odrzucono, ponieważ odwołujący nie ma legitymacji procesowej, z powodów innych niż upływ terminu do wniesienia odwołania</entry>
 <entry key="code|name|review-decision-type.rej-resolv">Odrzucono, ponieważ problem został już rozwiązany</entry>
 <entry key="code|name|review-decision-type.rej-signed">Odrzucono, ponieważ umowa została już podpisana</entry>
+<entry key="code|name|review-information-type.dec">Decyzję dotyczącą bieżącego odwołania podjął organ odwoławczy</entry>
+<entry key="code|name|review-information-type.req">Złożono wniosek o odwołanie i jest on nadal rozpatrywany</entry>
 <entry key="code|name|review-requester-type.rev-req">Organizacja (lub osoba) składająca odwołanie, która ma lub miała interes w uzyskaniu zamówienia i która poniósła szkodę lub może ponieść szkodę w wyniku domniemanego naruszenia</entry>
-<entry key="code|name|review-status.decided">Decyzję dotyczącą bieżącego odwołania podjął organ odwoławczy</entry>
-<entry key="code|name|review-status.requested">Złożono wniosek o odwołanie i jest on nadal rozpatrywany</entry>
 <entry key="code|name|review-type.complainants">Skarżący</entry>
 <entry key="code|name|rewards-penalties.rew-pen">Informacja na temat nagród i kar</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Uwaga</entry>
