@@ -30440,6 +30440,13 @@
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "eu-official-language",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-70-Lot",
