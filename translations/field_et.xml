@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Kvaliteedieesmärgi kirjeldus</entry>
 <entry key="field|description|OPT-072-Lot-Language">Kvaliteedieesmärgi kirjelduseks kasutatav keel</entry>
 <entry key="field|description|OPT-090-Lot">Kood, mis näitab, et tegemist on ostjate kategooriatega: 'ostjate kategooriad'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Pool, kes taotles ülevaadet (st roll)</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Loendi nimi, mis sisaldab ülevaate taotlejate tüüpide koode</entry>
-<entry key="field|description|OPT-092-ReviewBody">Kirjeldus organist, kes vastutab ülevaate taotluste töötlemise eest</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Keel, milles on kirjeldatud organ, kes vastutab ülevaate taotluste töötlemise eest</entry>
-<entry key="field|description|OPT-092-ReviewReq">Ülevaate taotleja tüübi kirjeldus</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Keel, milles on kirjeldatud ülevaate taotleja tüüp</entry>
 <entry key="field|description|OPT-100-Contract">Viide tulemuste teatele, mis sisaldab teavet praeguse lepingu aluseks oleva raamlepingu allkirjastamise kohta</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Skeemi nimi, mida kasutatakse viite väljendamiseks tulemuste teatele, mis sisaldab teavet raamlepingu allkirjastamise kohta, mille alusel praegune leping toimub</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Veebiaadress, kus võib leida kohalikku maksuseadustikku</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Kvaliteedieesmärgi kirjeldus</entry>
 <entry key="field|name|OPT-072-Lot-Language">Kvaliteedieesmärgi kirjeldus</entry>
 <entry key="field|name|OPT-090-Lot">Hankijate kategooriad</entry>
-<entry key="field|name|OPT-091-ReviewReq">Vaidlustuse esitaja liik</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Vaidlustuse esitaja liik</entry>
-<entry key="field|name|OPT-092-ReviewBody">Vaidlustusorgani liigi kirjeldus</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Vaidlustusorgani liigi kirjeldus</entry>
-<entry key="field|name|OPT-092-ReviewReq">Vaidlustusorgani liigi kirjeldus</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Vaidlustusorgani liigi kirjeldus</entry>
 <entry key="field|name|OPT-100-Contract">Teade, millega teavitati raamlepingust</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Teade, millega teavitati raamlepingust</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Maksuõiguse veebiaadress</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organisatsioon või konkreetne kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Seda rolli täitev organisatsioon</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organisatsioon või konkreetne kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organisatsioon või konkreetne kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organisatsioon või konkreetne kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organisatsioon või konkreetne kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organisatsioon või konkreetne kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Seda rolli täitev organisatsioon</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organisatsioon või konkreetne kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Seda rolli täitev organisatsioon</entry>

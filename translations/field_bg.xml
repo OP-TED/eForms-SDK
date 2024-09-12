@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Описание на целта за качество</entry>
 <entry key="field|description|OPT-072-Lot-Language">Език, използван за описание на целта за качество</entry>
 <entry key="field|description|OPT-090-Lot">Код за указване, че става въпрос за категории на купувачи: 'buyer categories'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Типът (т.е. ролята) на страната, която е поискала преглед</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Име на списъка, съдържащ кодовете за типовете на заявителите за преглед</entry>
-<entry key="field|description|OPT-092-ReviewBody">Описание на органа, отговорен за обработката на исканията за преглед</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Език, на който е написано описанието на органа, отговорен за обработката на исканията за преглед</entry>
-<entry key="field|description|OPT-092-ReviewReq">Описание на типа на заявителя за преглед</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Език, на който е описан типът на заявителя за преглед</entry>
 <entry key="field|description|OPT-100-Contract">Препратка към известието за резултата, което съдържа информация за подписания рамков договор, по който се провежда настоящият договор</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Име на схемата, използвана за изразяване на препратката към известието за резултата, което съдържа информация за подписания рамков договор, по който се провежда настоящият договор</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Уеб адрес, където може да се намери местното данъчно законодателство</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Описание на целта за качество</entry>
 <entry key="field|name|OPT-072-Lot-Language">Описание на целта за качество</entry>
 <entry key="field|name|OPT-090-Lot">Категории купувачи</entry>
-<entry key="field|name|OPT-091-ReviewReq">Вид подател на искане за преразглеждане (обжалване)</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Вид подател на искане за преразглеждане (обжалване)</entry>
-<entry key="field|name|OPT-092-ReviewBody">Описание на вида орган за преразглеждане (обжалване)</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Описание на вида орган за преразглеждане (обжалване)</entry>
-<entry key="field|name|OPT-092-ReviewReq">Описание на вида орган за преразглеждане (обжалване)</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Описание на вида орган за преразглеждане (обжалване)</entry>
 <entry key="field|name|OPT-100-Contract">Уведомление, което създаде рамковото споразумение</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Уведомление, което създаде рамковото споразумение</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Уеб адрес на данъчното законодателство</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Организация или конкретна контактна точка</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Организация, която изпълнява тази роля</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Организация или конкретна контактна точка</entry>
-<entry key="field|name|OPT-301-ReviewBody">Организация или конкретна контактна точка</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Организация или конкретна контактна точка</entry>
-<entry key="field|name|OPT-301-ReviewReq">Организация или конкретна контактна точка</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Организация или конкретна контактна точка</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Организация, която изпълнява тази роля</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Организация или конкретна контактна точка</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Организация, която изпълнява тази роля</entry>

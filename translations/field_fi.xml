@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Laadullisen tavoitteen kuvaus</entry>
 <entry key="field|description|OPT-072-Lot-Language">Kieli, jolla laadullinen tavoite on kuvattu</entry>
 <entry key="field|description|OPT-090-Lot">Koodi, joka osoittaa, että kyseessä on ostajakategoriat: 'ostajakategoriat'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Osapuoli (eli rooli), joka on pyytänyt tarkastelua</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Taulukon nimi, joka sisältää koodit tarkastelupyyntötyypeille</entry>
-<entry key="field|description|OPT-092-ReviewBody">Kuvaus yksiköstä, joka on vastuussa tarkastelupyyntöjen käsittelystä</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Kieli, jolla yksikkö, joka on vastuussa tarkastelupyyntöjen käsittelystä, on kuvattu</entry>
-<entry key="field|description|OPT-092-ReviewReq">Tarkastelupyynnön esittäjätyypin kuvaus</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Kieli, jolla tarkastelupyynnön esittäjätyyppi on kuvattu</entry>
 <entry key="field|description|OPT-100-Contract">Viittaus tulostiedotteeseen, joka sisältää tiedot puitesopimuksesta, johon nykyinen sopimus perustuu</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Kaavion nimi, jota käytetään viittaamaan tulostiedotteeseen, joka sisältää tiedot puitesopimuksesta, johon nykyinen sopimus perustuu</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Verkkosivusto, josta löytyy paikallinen verolainsäädäntö</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Laatutavoitteen kuvaus</entry>
 <entry key="field|name|OPT-072-Lot-Language">Laatutavoitteen kuvaus</entry>
 <entry key="field|name|OPT-090-Lot">Ostajakategoriat</entry>
-<entry key="field|name|OPT-091-ReviewReq">Muutoksenhaun pyytäjän tyyppi</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Muutoksenhaun pyytäjän tyyppi</entry>
-<entry key="field|name|OPT-092-ReviewBody">Muutoksenhakuelimen tyypin kuvaus</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Muutoksenhakuelimen tyypin kuvaus</entry>
-<entry key="field|name|OPT-092-ReviewReq">Muutoksenhakuelimen tyypin kuvaus</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Muutoksenhakuelimen tyypin kuvaus</entry>
 <entry key="field|name|OPT-100-Contract">Ilmoitus, joka loi puitesopimuksen</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Ilmoitus, joka loi puitesopimuksen</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Verolainsäädännön verkkosivusto</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organisaatio tai tietty yhteyshenkilö</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organisaatio, joka täyttää tämän roolin</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organisaatio tai tietty yhteyshenkilö</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organisaatio tai tietty yhteyshenkilö</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organisaatio tai tietty yhteyshenkilö</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organisaatio tai tietty yhteyshenkilö</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organisaatio tai tietty yhteyshenkilö</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organisaatio, joka täyttää tämän roolin</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organisaatio tai tietty yhteyshenkilö</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organisaatio, joka täyttää tämän roolin</entry>

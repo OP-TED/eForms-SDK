@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Descrierea obiectivului de calitate</entry>
 <entry key="field|description|OPT-072-Lot-Language">Limba utilizată pentru descrierea obiectivului de calitate</entry>
 <entry key="field|description|OPT-090-Lot">Codul care indică faptul că este vorba despre categorii de cumpărători: 'categorii de cumpărători'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Partea (adică rolul) care a solicitat revizuirea</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Numele listei care conține coduri pentru tipurile de solicitări de revizuire</entry>
-<entry key="field|description|OPT-092-ReviewBody">Descrierea entității responsabile cu procesarea solicitărilor de revizuire</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Limba în care este descrisă entitatea responsabilă cu procesarea solicitărilor de revizuire</entry>
-<entry key="field|description|OPT-092-ReviewReq">Descrierea tipului de solicitant al revizuirii</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Limba în care este descris tipul de solicitant al revizuirii</entry>
 <entry key="field|description|OPT-100-Contract">Referința la raportul de rezultate care conține informații despre contractul-cadru semnat pe baza căruia se desfășoară contractul actual</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Numele schemei utilizate pentru a nota referința la raportul de rezultate care conține informații despre contractul-cadru semnat pe baza căruia se desfășoară contractul actual</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Adresa web unde poate fi găsită legislația fiscală locală</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Descriere obiectiv de calitate</entry>
 <entry key="field|name|OPT-072-Lot-Language">Descriere obiectiv de calitate</entry>
 <entry key="field|name|OPT-090-Lot">Categorii de cumpărători</entry>
-<entry key="field|name|OPT-091-ReviewReq">Tip de solicitant cale de atac</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Tip de solicitant cale de atac</entry>
-<entry key="field|name|OPT-092-ReviewBody">Descriere tip de organism cale de atac</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Descriere tip de organism cale de atac</entry>
-<entry key="field|name|OPT-092-ReviewReq">Descriere tip de organism cale de atac</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Descriere tip de organism cale de atac</entry>
 <entry key="field|name|OPT-100-Contract">Anunț care a creat acordul-cadru</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Anunț care a creat acordul-cadru</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Adresa web a legislației fiscale</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organizația sau punctul de contact specific</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organizația care îndeplinește acest rol</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organizația sau punctul de contact specific</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organizația sau punctul de contact specific</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organizația sau punctul de contact specific</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organizația sau punctul de contact specific</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organizația sau punctul de contact specific</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organizația care îndeplinește acest rol</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organizația sau punctul de contact specific</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organizația care îndeplinește acest rol</entry>

@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Opis kakovostnega cilja</entry>
 <entry key="field|description|OPT-072-Lot-Language">Jezik, v katerem je opisan kakovostni cilj</entry>
 <entry key="field|description|OPT-090-Lot">Koda, ki kaže, da gre za kategorije kupcev: 'kategorije kupcev'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Stranka (tj. vloga), ki je zahtevala pregled</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Ime seznama, ki vsebuje kode za vrste zahtevkov za pregled</entry>
-<entry key="field|description|OPT-092-ReviewBody">Opis enote, ki je odgovorna za obdelavo zahtevkov za pregled</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Jezik, v katerem je opisana enota, ki je odgovorna za obdelavo zahtevkov za pregled</entry>
-<entry key="field|description|OPT-092-ReviewReq">Opis vrste prosilca za pregled</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Jezik, v katerem je opisan tip prosilca za pregled</entry>
 <entry key="field|description|OPT-100-Contract">Napotitev na obvestilo o rezultatih, ki vsebuje podatke o podpisani okvirni pogodbi, na kateri temelji trenutna pogodba</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Ime sheme, ki se uporablja za beleženje napotitve na obvestilo o rezultatih, ki vsebuje podatke o podpisani okvirni pogodbi, na kateri temelji trenutna pogodba</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Spletni naslov, kjer je mogoče najti lokalno davčno zakonodajo</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Opis cilja glede kakovosti</entry>
 <entry key="field|name|OPT-072-Lot-Language">Opis cilja glede kakovosti</entry>
 <entry key="field|name|OPT-090-Lot">Kategorije kupcev</entry>
-<entry key="field|name|OPT-091-ReviewReq">Vrsta vložnika zahtevka za revizijo</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Vrsta vložnika zahtevka za revizijo</entry>
-<entry key="field|name|OPT-092-ReviewBody">Opis vrste revizijskega organa</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Opis vrste revizijskega organa</entry>
-<entry key="field|name|OPT-092-ReviewReq">Opis vrste revizijskega organa</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Opis vrste revizijskega organa</entry>
 <entry key="field|name|OPT-100-Contract">Obvestilo, ki je ustvarilo okvirni sporazum</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Obvestilo, ki je ustvarilo okvirni sporazum</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Spletni naslov davčne zakonodaje</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organizacija ali določena kontaktna točka</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organizacija, ki opravlja to vlogo</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organizacija ali določena kontaktna točka</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organizacija ali določena kontaktna točka</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organizacija ali določena kontaktna točka</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organizacija ali določena kontaktna točka</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organizacija ali določena kontaktna točka</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organizacija, ki opravlja to vlogo</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organizacija ali določena kontaktna točka</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organizacija, ki opravlja to vlogo</entry>

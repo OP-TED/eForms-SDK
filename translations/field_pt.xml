@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Descrição do objetivo de qualidade</entry>
 <entry key="field|description|OPT-072-Lot-Language">Língua usada para descrever o objetivo de qualidade</entry>
 <entry key="field|description|OPT-090-Lot">Código que indica que se trata de categorias de compradores: 'categorias de compradores'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Parte (ou seja, papel) que solicitou a revisão</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Nome da lista que contém códigos para tipos de solicitações de revisão</entry>
-<entry key="field|description|OPT-092-ReviewBody">Descrição da entidade responsável pelo processamento dos pedidos de revisão</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Língua usada para descrever a entidade responsável pelo processamento dos pedidos de revisão</entry>
-<entry key="field|description|OPT-092-ReviewReq">Descrição do tipo de solicitante de revisão</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Língua usada para descrever o tipo de solicitante de revisão</entry>
 <entry key="field|description|OPT-100-Contract">Referência para o relatório de resultados que contém informações sobre o contrato-quadro assinado no qual o contrato atual se baseia</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Nome do esquema usado para anotar a referência para o relatório de resultados que contém informações sobre o contrato-quadro assinado no qual o contrato atual se baseia</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Endereço da web onde pode ser encontrada a legislação fiscal local</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Descrição do objetivo de qualidade</entry>
 <entry key="field|name|OPT-072-Lot-Language">Descrição do objetivo de qualidade</entry>
 <entry key="field|name|OPT-090-Lot">Categorias de adquirentes</entry>
-<entry key="field|name|OPT-091-ReviewReq">Tipo de requerente do recurso</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Tipo de requerente do recurso</entry>
-<entry key="field|name|OPT-092-ReviewBody">Descrição do tipo de órgão de recurso</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Descrição do tipo de órgão de recurso</entry>
-<entry key="field|name|OPT-092-ReviewReq">Descrição do tipo de órgão de recurso</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Descrição do tipo de órgão de recurso</entry>
 <entry key="field|name|OPT-100-Contract">Aviso que criou o acordo-quadro</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Aviso que criou o acordo-quadro</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Endereço web da legislação fiscal</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organização ou ponto de contato específico</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organização que desempenha este papel</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organização ou ponto de contato específico</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organização ou ponto de contato específico</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organização ou ponto de contato específico</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organização ou ponto de contato específico</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organização ou ponto de contato específico</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organização que desempenha este papel</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organização ou ponto de contato específico</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organização que desempenha este papel</entry>

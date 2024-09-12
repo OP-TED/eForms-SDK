@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Beschreibung des Qualitätsziels</entry>
 <entry key="field|description|OPT-072-Lot-Language">Sprache, die für die Beschreibung des Qualitätsziels verwendet wird</entry>
 <entry key="field|description|OPT-090-Lot">Code zur Angabe, dass es sich um Käuferkategorien handelt: 'buyer categories'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Der Typ (d.h. die Rolle) der Partei, die die Überprüfung angefordert hat</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Name der Liste, die die Codes für die Arten von Überprüfungsantragstellern enthält</entry>
-<entry key="field|description|OPT-092-ReviewBody">Beschreibung der Stelle, die für die Bearbeitung der Überprüfungsanträge zuständig ist</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Sprache, in der die Beschreibung der Stelle, die für die Bearbeitung der Überprüfungsanträge zuständig ist, verfasst ist</entry>
-<entry key="field|description|OPT-092-ReviewReq">Beschreibung der Art des Überprüfungsantragstellers</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Sprache, in der die Art des Überprüfungsantragstellers beschrieben ist</entry>
 <entry key="field|description|OPT-100-Contract">Verweis auf die Ergebnismitteilung, die Informationen über die unterzeichnete Rahmenvereinbarung enthält, unter der der aktuelle Vertrag stattfindet</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Name des Schemas, das verwendet wird, um den Verweis auf die Ergebnismitteilung auszudrücken, die Informationen über die unterzeichnete Rahmenvereinbarung enthält, unter der der aktuelle Vertrag stattfindet</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Webadresse, unter der die lokale Steuergesetzgebung gefunden werden kann</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Qualitätsziel – Beschreibung</entry>
 <entry key="field|name|OPT-072-Lot-Language">Qualitätsziel – Beschreibung</entry>
 <entry key="field|name|OPT-090-Lot">Beschaffer – Kategorien</entry>
-<entry key="field|name|OPT-091-ReviewReq">Nachprüfung – Art des Antragstellers</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Nachprüfung – Art des Antragstellers</entry>
-<entry key="field|name|OPT-092-ReviewBody">Nachprüfungsstelle – Typ – Beschreibung</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Nachprüfungsstelle – Typ – Beschreibung</entry>
-<entry key="field|name|OPT-092-ReviewReq">Nachprüfungsstelle – Typ – Beschreibung</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Nachprüfungsstelle – Typ – Beschreibung</entry>
 <entry key="field|name|OPT-100-Contract">Bekanntmachung, die die Rahmenvereinbarung geschaffen hat</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Bekanntmachung, die die Rahmenvereinbarung geschaffen hat</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Webadresse der Steuergesetzgebung</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organisation oder spezifischer Kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organisation, die diese Rolle ausfüllt</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organisation oder spezifischer Kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organisation oder spezifischer Kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organisation oder spezifischer Kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organisation oder spezifischer Kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organisation oder spezifischer Kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organisation, die diese Rolle ausfüllt</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organisation oder spezifischer Kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organisation, die diese Rolle ausfüllt</entry>
