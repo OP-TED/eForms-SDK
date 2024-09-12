@@ -1679,18 +1679,18 @@
     "description" : "This table describes the decision made a review body.",
     "_label" : "codelist|name|review-decision-type"
   }, {
+    "id" : "review-information-type",
+    "version" : "1.0",
+    "filename" : "review-information-type.gc",
+    "description" : "List of codes for the status of a given review request.",
+    "_label" : "codelist|name|review-information-type"
+  }, {
     "id" : "review-requester-type",
     "version" : "1.13.0-SNAPSHOT",
     "parentId" : "organisation-role",
     "filename" : "organisation-role_review-requester-type.gc",
     "description" : "Category of Stakeholders that requested a review",
     "_label" : "codelist|name|review-requester-type"
-  }, {
-    "id" : "review-status",
-    "version" : "1.0",
-    "filename" : "review-status.gc",
-    "description" : "List of codes for the status of a given review request.",
-    "_label" : "codelist|name|review-status"
   }, {
     "id" : "review-type",
     "version" : "1.0",
