@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.259",
-    "createdOn" : "2024-09-12T13:15:07"
+    "version" : "1.12.260",
+    "createdOn" : "2024-09-12T16:05:22"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -26875,7 +26875,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "36", "37", "CEI", "E1", "E2", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "36", "37", "CEI", "E2", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
