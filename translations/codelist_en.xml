@@ -52,7 +52,12 @@
 <entry key="codelist|name|ecatalog-submission">List of codes to specify whether the submission of electronic catalogues is allowed or not.</entry>
 <entry key="codelist|name|economic-operator-size">This table provides the different categories in which the tenderers to whom a contract can be awarded are classified, according to their size (using as criteria the number of employees).</entry>
 <entry key="codelist|name|eea-country">List of codes of the European Economic Area countries</entry>
+<entry key="codelist|name|eed-scope">This table provides the list of codes and values used to indicate that a procurement falls under the scope of the Energy Efficiency Directive</entry>
 <entry key="codelist|name|einvoicing">List of codes to specify whether the use of electronic invoicing is allowed or not.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Legal Framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.</entry>
+<entry key="codelist|name|energy-efficiency-item">Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">This table provides the list of codes and values used to identify the products, works or services category for their energy efficiency</entry>
+<entry key="codelist|name|energy-efficiency-label">This table provides the list of codes and values used to specify the energy efficiency of the product</entry>
 <entry key="codelist|name|entity-activity">List of Main Activity codes allowed for a Contracting Entity</entry>
 <entry key="codelist|name|environmental-impact">This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor</entry>
 <entry key="codelist|name|esignature-submission">List of codes to dpecify whether electronic signature may be used or not.</entry>
@@ -131,6 +136,7 @@
 <entry key="codelist|name|linguistic-status">List of codes to specify whether a linguistic version has or not a legal status.</entry>
 <entry key="codelist|name|main-activity">List of codes for the main activities of the buyers.</entry>
 <entry key="codelist|name|measurement-unit">List of codes for the most commonly used Unit of Measures in international trades.</entry>
+<entry key="codelist|name|metric-type">List of codes used to characterize the type of metric covered by the specified numbers. </entry>
 <entry key="codelist|name|missing-info-submission">This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.</entry>
 <entry key="codelist|name|modification-justification">This table provides the main reasons for modifying a contract within the domain of public procurement.</entry>
 <entry key="codelist|name|nda">List of codes to specify whether a non-disclosure agreement is required.</entry>
