@@ -823,6 +823,16 @@
    <svrl:active-pattern id="EFORMS-validation-stage-4m"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00165-0036"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="ERROR"
+                       test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">
+      <svrl:text>rule|text|BR-BT-00165-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-165-Organization-Company"
+                                 see="field:BT-165-Organization-Company">
+         <svrl:text>efbc:CompanySizeCode</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:failed-assert id="BR-OPT-00300-0255"

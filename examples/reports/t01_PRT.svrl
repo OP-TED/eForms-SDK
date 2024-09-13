@@ -30,6 +30,16 @@
    <svrl:fired-rule context="/*[$noticeSubType = 'T01']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = 'T01']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = 'T01']"/>
+   <svrl:failed-assert id="ND-ProcedurePlacePerformanceAdditionalInformation-T01"
+                       location="/pin:PriorInformationNotice/cac:ProcurementProject"
+                       role="ERROR"
+                       test="count(cac:RealizedLocation) = 0">
+      <svrl:text>rule|text|ND-ProcedurePlacePerformanceAdditionalInformation-T01</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-ProcedurePlacePerformanceAdditionalInformation"
+                                 see="node:ND-ProcedurePlacePerformanceAdditionalInformation">
+         <svrl:text>cac:RealizedLocation</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'T01']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T01']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'T01']"/>
@@ -43,6 +53,35 @@
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = 'T01']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = 'T01']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = 'T01']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = 'T01']"/>
+   <svrl:failed-assert id="BR-BT-00728-0011"
+                       location="/pin:PriorInformationNotice/cac:ProcurementProject/cac:RealizedLocation"
+                       role="ERROR"
+                       test="count(cbc:Description) = 0">
+      <svrl:text>rule|text|BR-BT-00728-0011</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-728-Procedure" see="field:BT-728-Procedure">
+         <svrl:text>cbc:Description</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address[$noticeSubType = 'T01']"/>
+   <svrl:failed-assert id="BR-BT-05071-0011"
+                       location="/pin:PriorInformationNotice/cac:ProcurementProject/cac:RealizedLocation/cac:Address"
+                       role="ERROR"
+                       test="count(cbc:CountrySubentityCode) = 0">
+      <svrl:text>rule|text|BR-BT-05071-0011</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-5071-Procedure" see="field:BT-5071-Procedure">
+         <svrl:text>cbc:CountrySubentityCode</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-05141-0011"
+                       location="/pin:PriorInformationNotice/cac:ProcurementProject/cac:RealizedLocation/cac:Address"
+                       role="ERROR"
+                       test="count(cac:Country/cbc:IdentificationCode) = 0">
+      <svrl:text>rule|text|BR-BT-05141-0011</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-5141-Procedure" see="field:BT-5141-Procedure">
+         <svrl:text>cac:Country/cbc:IdentificationCode</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'T01']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'T01']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod[$noticeSubType = 'T01']"/>
@@ -62,6 +101,9 @@
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='transport-service']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cbc:Description"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Description"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Name"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Note"/>
@@ -95,6 +137,10 @@
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification/cbc:ItemClassificationCode/@listName"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='transport-service']/cbc:ProcurementTypeCode"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cac:Address/cbc:CountrySubentityCode"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cbc:Description"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject/cac:RealizedLocation/cbc:Description/@languageID"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Description"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:Description/@languageID"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cbc:ID"/>
