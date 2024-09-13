@@ -13,14 +13,14 @@
 						<efac:Organization>
 							<efac:Company>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Buyer Org</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cac:Country>
-										<cbc:IdentificationCode listName="">LUX</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 							</efac:Company>
@@ -42,22 +42,22 @@
 	<cac:ContractingParty>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>ORG-0001</cbc:ID>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Procedure Name</cbc:Name>
 		<cbc:Description languageID="ENG">Procedure description</cbc:Description>
-		<cbc:ProcurementTypeCode listName="">services</cbc:ProcurementTypeCode>
+		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">72000000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
 		<cac:RealizedLocation>
-				<cac:Address>
-					<cbc:Region>anyw-eea</cbc:Region>
-				</cac:Address>
-			</cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw-eea</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Part">PAR-0001</cbc:ID>
