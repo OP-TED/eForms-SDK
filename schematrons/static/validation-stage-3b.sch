@@ -1144,15 +1144,35 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:SelectionCriteria/efbc:SecondStageIndicator">
 		<assert id="BR-BT-00040-0060" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00040-0060</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']/efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode">
 		<assert id="BR-BT-00735-0051" role="ERROR" test="normalize-space(.) = ('oth-serv-contr', 'pass-tran-serv', 'veh-acq')">rule|text|BR-BT-00735-0051</assert>
 		<assert id="BT-735-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-735-Lot-List_MA</assert>
 		<assert id="BT-735-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-735-Lot_WS</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efbc:ApplicableLegalBasis">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']/efbc:ApplicableLegalBasis">
 		<assert id="BR-BT-00717-0051" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00717-0051</assert>
 		<assert id="BT-717-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-717-Lot-List_MA</assert>
 		<assert id="BT-717-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-717-Lot_WS</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode">
+		<assert id="BR-BT-00811-0151" role="ERROR" test="normalize-space(.) = ('air-cond', 'building', 'circul', 'computer', 'cook-appl', 'dishwas', 'el-mo-vsd', 'fuel-boil', 'hea-cool', 'hous-freez', 'indus-fan', 'ligh-gea', 'lo-spa-hea', 'mob-pho-ta', 'pow-suppl', 'pow-tra', 'pro-refrig', 'products', 'refri-appl', 'ser-da-sto', 'services', 'spa-com-hea', 'tum-dry', 'tv-nat-law', 'tyres', 'vac-clea', 'ventila', 'wa-hea-tan', 'wa-pu', 'was-ma-dry', 'weld-eq', 'works')">rule|text|BR-BT-00811-0151</assert>
+		<assert id="BT-811_b_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-811_b_-Lot-List_MA</assert>
+		<assert id="BT-811_b_-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-811_b_-Lot_WS</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:LegalFrameworkCode">
+		<assert id="BR-BT-00811-0149" role="ERROR" test="normalize-space(.) = ('eco-des', 'eed-spec', 'enrg-lab', 'gpp-crit', 'nzeb-bui')">rule|text|BR-BT-00811-0149</assert>
+		<assert id="BT-811_a_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-811_a_-Lot-List_MA</assert>
+		<assert id="BT-811_a_-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-811_a_-Lot_WS</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efbc:ApplicableLegalBasis">
+		<assert id="BR-BT-00810-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00810-0052</assert>
+		<assert id="BT-810-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-810-Lot-List_MA</assert>
+		<assert id="BT-810-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-810-Lot_WS</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='ipi-scope']/efbc:ApplicableLegalBasis">
+		<assert id="BR-BT-00684-0052" role="ERROR" test="normalize-space(.) = ('false')">rule|text|BR-BT-00684-0052</assert>
+		<assert id="BT-684-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-684-Lot-List_MA</assert>
+		<assert id="BT-684-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-684-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:TenderSubcontractingRequirements/efbc:TenderSubcontractingRequirementsCode">
 		<assert id="BR-BT-00651-0051" role="ERROR" test="normalize-space(.) = ('none', 'shar-subc', 'subc-noblig', 'subc-oblig', 'subj-noblig', 'subj-oblig')">rule|text|BR-BT-00651-0051</assert>
@@ -2004,12 +2024,12 @@
 		<assert id="BT-702_a_-notice_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-702_a_-notice_WS</assert>
 	</rule>
 	<rule context="/*/cbc:NoticeTypeCode">
-		<assert id="BR-BT-00002-0052" role="ERROR" test="normalize-space(.) = ('brin-ecs', 'brin-eeig', 'can-desg', 'can-modif', 'can-social', 'can-standard', 'can-tran', 'cn-desg', 'cn-social', 'cn-standard', 'pin-buyer', 'pin-cfc-social', 'pin-cfc-standard', 'pin-only', 'pin-rtl', 'pin-tran', 'qu-sy', 'subco', 'veat')">rule|text|BR-BT-00002-0052</assert>
+		<assert id="BR-BT-00002-0052" role="ERROR" test="normalize-space(.) = ('brin-ecs', 'brin-eeig', 'can-desg', 'can-modif', 'can-social', 'can-standard', 'can-tran', 'cn-desg', 'cn-social', 'cn-standard', 'compl', 'pin-buyer', 'pin-cfc-social', 'pin-cfc-standard', 'pin-only', 'pin-rtl', 'pin-tran', 'pmc', 'qu-sy', 'subco', 'veat')">rule|text|BR-BT-00002-0052</assert>
 		<assert id="BT-02-notice_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-02-notice_WS</assert>
 		<assert id="BT-03-notice_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-03-notice_MA</assert>
 	</rule>
 	<rule context="/*/cbc:NoticeTypeCode/@listName">
-		<assert id="BR-BT-00003-0052" role="ERROR" test="normalize-space(.) = ('bri', 'competition', 'cont-modif', 'dir-awa-pre', 'planning', 'result')">rule|text|BR-BT-00003-0052</assert>
+		<assert id="BR-BT-00003-0052" role="ERROR" test="normalize-space(.) = ('bri', 'competition', 'completion', 'consultation', 'cont-modif', 'dir-awa-pre', 'planning', 'result')">rule|text|BR-BT-00003-0052</assert>
 	</rule>
 	<rule context="/*/cbc:PlannedDate">
 		<assert id="BR-BT-00127-0052" role="ERROR" test="matches(normalize-space(.),'^((((1[6-9]|[2-9]\d)\d{2})-(((0[13578]|1[02]))-31|((0[13-9]|1[0-2])-(29|30))))|(((((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))-02-29))|(((1[6-9]|[2-9]\d)\d{2})-((0[1-9])|(1[0-2]))-(0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-00127-0052</assert>
@@ -2034,94 +2054,83 @@
 		<assert id="OPP-100-Business-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|OPP-100-Business-List_MA</assert>
 		<assert id="OPP-100-Business_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPP-100-Business_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Date">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:Date">
 		<assert id="BR-BT-00787-0052" role="ERROR" test="matches(normalize-space(.),'^((((1[6-9]|[2-9]\d)\d{2})-(((0[13578]|1[02]))-31|((0[13-9]|1[0-2])-(29|30))))|(((((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))-02-29))|(((1[6-9]|[2-9]\d)\d{2})-((0[1-9])|(1[0-2]))-(0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-00787-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Description/@languageID">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:Description/@languageID">
 		<assert id="BR-BT-00789-0051" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00789-0051</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:FeeAmount">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:FeeAmount">
 		<assert id="BT-795-Review-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-795-Review-Currency_MA</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:FeeAmount/@currencyID">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:FeeAmount/@currencyID">
 		<assert id="BR-BT-00795-0051" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00795-0051</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:ID">
-		<assert id="OPT-093-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-093-Review_WS</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:ID">
+		<assert id="BT-804-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-804-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Title/@languageID">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:Title/@languageID">
 		<assert id="BR-BT-00788-0051" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00788-0051</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:URI">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:URI">
 		<assert id="BR-BT-00794-0052" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\d)?\.))[\w\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00794-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealDecision/efbc:DecisionTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealDecision/efbc:DecisionTypeCode">
 		<assert id="BR-BT-00790-0051" role="ERROR" test="normalize-space(.) = ('accepted', 'other', 'rej-dl-passed', 'rej-ncomp', 'rej-nirreg', 'rej-npaid', 'rej-other', 'rej-resolv', 'rej-signed')">rule|text|BR-BT-00790-0051</assert>
 		<assert id="BT-790-Review-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-790-Review-List_MA</assert>
 		<assert id="BT-790-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-790-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealIrregularity/efbc:IrregularityTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealIrregularity/efbc:IrregularityTypeCode">
 		<assert id="BR-BT-00791-0051" role="ERROR" test="normalize-space(.) = ('ab-low', 'ar-split', 'bid-rigging', 'change-eval', 'conf-int', 'cp-mod-cond', 'elem-mod', 'eva-add-crit', 'eva-diff-crit', 'formal', 'ins-audit', 'insuf-timl', 'irr-involv', 'mod-inco', 'nc-proc-eap', 'nc-timl', 'ncompl-awcrit', 'ncompl-cn', 'ncompl-com', 'ncompl-sub', 'no-notice', 'noex-addinfo', 'noex-timl', 'nojust-nolots', 'npub-limit', 'other', 'restr-not-tlim', 'unj-comp-pro', 'unj-excl', 'unj-lim-subc', 'unj-na-ppr', 'unj-nrl', 'unj-nrl-other')">rule|text|BR-BT-00791-0051</assert>
 		<assert id="BT-791-Review-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-791-Review-List_MA</assert>
 		<assert id="BT-791-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-791-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID">
-		<assert id="BR-OPT-00301-1336" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00301-1336</assert>
-		<assert id="OPT-301-ReviewBody_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-301-ReviewBody_WS</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID">
+		<assert id="BR-BT-00807-0051" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-BT-00807-0051</assert>
+		<assert id="BT-807-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-807-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode">
 		<assert id="BR-BT-00799-0052" role="ERROR" test="normalize-space(.) = ('1-inst', '2-inst', '3-inst', '4-inst', '5-inst', 'buyer', 'other')">rule|text|BR-BT-00799-0052</assert>
 		<assert id="BT-799-ReviewBody-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-799-ReviewBody-List_MA</assert>
 		<assert id="BT-799-ReviewBody_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-799-ReviewBody_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription/@languageID">
-		<assert id="BR-OPT-00092-0102" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-OPT-00092-0102</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealRemedy/efbc:RemedyTypeCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealRemedy/efbc:RemedyTypeCode">
 		<assert id="BR-BT-00792-0051" role="ERROR" test="normalize-space(.) = ('alt-penalty', 'damage', 'ineffectiveness', 'interim', 'set-aside')">rule|text|BR-BT-00792-0051</assert>
 		<assert id="BT-792-Review-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-792-Review-List_MA</assert>
 		<assert id="BT-792-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-792-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealedItem/cbc:ID">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealedItem/cbc:ID">
 		<assert id="BR-BT-00786-0051" role="ERROR" test="matches(normalize-space(.),'^(PROCEDURE|BUYER|RESULT|((PAR|LOT|GLO|RES|ORG|TPA|TPO|TEN|CON|UBO)-\d{4}))$')">rule|text|BR-BT-00786-0051</assert>
 		<assert id="BT-786-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-786-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID">
-		<assert id="BR-OPT-00301-1337" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00301-1337</assert>
-		<assert id="OPT-301-ReviewReq_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-301-ReviewReq_WS</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID">
+		<assert id="BR-BT-00808-0052" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-BT-00808-0052</assert>
+		<assert id="BT-808-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-808-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/efbc:AppealingPartyTypeCode">
-		<assert id="BR-OPT-00091-0052" role="ERROR" test="normalize-space(.) = ('rev-req')">rule|text|BR-OPT-00091-0052</assert>
-		<assert id="OPT-091-ReviewReq-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|OPT-091-ReviewReq-List_MA</assert>
-		<assert id="OPT-091-ReviewReq_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-091-ReviewReq_WS</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealID">
+		<assert id="BT-784-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-784-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/efbc:AppealingPartyTypeDescription/@languageID">
-		<assert id="BR-OPT-00092-0103" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-OPT-00092-0103</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealRemedyValue">
+		<assert id="BT-793-Review-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-793-Review-Currency_MA</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealPreviousStageID">
-		<assert id="BT-785-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-785-Review_WS</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealRemedyValue/@currencyID">
+		<assert id="BR-BT-00793-0052" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00793-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageCode">
-		<assert id="BR-BT-00783-0052" role="ERROR" test="normalize-space(.) = ('decided', 'requested')">rule|text|BR-BT-00783-0052</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealStageCode">
+		<assert id="BR-BT-00783-0052" role="ERROR" test="normalize-space(.) = ('dec', 'req')">rule|text|BR-BT-00783-0052</assert>
 		<assert id="BT-783-Review-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-783-Review-List_MA</assert>
 		<assert id="BT-783-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-783-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:AppealStageID">
-		<assert id="BT-784-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-784-Review_WS</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:PreviousAppealID">
+		<assert id="BT-785-Review_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-785-Review_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:RemedyAmount">
-		<assert id="BT-793-Review-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-793-Review-Currency_MA</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:RemedyAmount/@currencyID">
-		<assert id="BR-BT-00793-0052" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00793-0052</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealDate">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:WithdrawnAppealDate">
 		<assert id="BR-BT-00797-0052" role="ERROR" test="matches(normalize-space(.),'^((((1[6-9]|[2-9]\d)\d{2})-(((0[13578]|1[02]))-31|((0[13-9]|1[0-2])-(29|30))))|(((((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))-02-29))|(((1[6-9]|[2-9]\d)\d{2})-((0[1-9])|(1[0-2]))-(0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-00797-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealIndicator">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:WithdrawnAppealIndicator">
 		<assert id="BR-BT-00796-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00796-0052</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealReasons/@languageID">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:WithdrawnAppealReasons/@languageID">
 		<assert id="BR-BT-00798-0051" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00798-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:Change/efac:ChangedSection/efbc:ChangedSectionIdentifier">
@@ -2578,17 +2587,57 @@
 		<assert id="BR-OPT-00315-0051" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|BR-OPT-00315-0051</assert>
 		<assert id="OPT-315-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-315-LotResult_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics/efbc:StatisticsCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efac:MeasureException/efbc:ExceptionCode">
+		<assert id="BR-BT-00687-0060" role="ERROR" test="normalize-space(.) = ('no-exc', 'one-tend', 'pub-int')">rule|text|BR-BT-00687-0060</assert>
+		<assert id="BT-687-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-687-LotResult-List_MA</assert>
+		<assert id="BT-687-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-687-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efac:MeasureException/efbc:ExceptionDescription/@languageID">
+		<assert id="BR-BT-00688-0060" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00688-0060</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode">
+		<assert id="BR-BT-00685-0060" role="ERROR" test="normalize-space(.) = ('empty')">rule|text|BR-BT-00685-0060</assert>
+		<assert id="BT-685-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-685-LotResult-List_MA</assert>
+		<assert id="BT-685-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-685-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel/efbc:LabelCode">
+		<assert id="BT-812-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-812-LotResult-List_MA</assert>
+		<assert id="BT-812-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-812-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel/efbc:LabelCode/@listName">
+		<assert id="BR-BT-00812-0066" role="ERROR" test="normalize-space(.) = ('ENERA', 'ENERA1', 'ENERA2', 'ENERA3', 'ENERB', 'ENERC', 'ENERD', 'ENERE', 'ENERF', 'ENERG')">rule|text|BR-BT-00812-0066</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-con-yr']/efbc:AssetMetricCode">
+		<assert id="BR-OPT-00080-0066" role="ERROR" test="normalize-space(.) = ('nrg-con-yr', 'nrg-sav-yr')">rule|text|BR-OPT-00080-0066</assert>
+		<assert id="OPT-080-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|OPT-080-LotResult-List_MA</assert>
+		<assert id="OPT-080-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-080-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-sav-yr']/efbc:AssetMetricCode">
+		<assert id="BR-OPT-00081-0066" role="ERROR" test="normalize-space(.) = ('nrg-con-yr', 'nrg-sav-yr')">rule|text|BR-OPT-00081-0066</assert>
+		<assert id="OPT-081-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|OPT-081-LotResult-List_MA</assert>
+		<assert id="OPT-081-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-081-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode">
+		<assert id="BR-BT-00811-0152" role="ERROR" test="normalize-space(.) = ('air-cond', 'building', 'circul', 'computer', 'cook-appl', 'dishwas', 'el-mo-vsd', 'fuel-boil', 'hea-cool', 'hous-freez', 'indus-fan', 'ligh-gea', 'lo-spa-hea', 'mob-pho-ta', 'pow-suppl', 'pow-tra', 'pro-refrig', 'products', 'refri-appl', 'ser-da-sto', 'services', 'spa-com-hea', 'tum-dry', 'tv-nat-law', 'tyres', 'vac-clea', 'ventila', 'wa-hea-tan', 'wa-pu', 'was-ma-dry', 'weld-eq', 'works')">rule|text|BR-BT-00811-0152</assert>
+		<assert id="BT-811_b_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-811_b_-LotResult-List_MA</assert>
+		<assert id="BT-811_b_-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-811_b_-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:LegalFrameworkCode">
+		<assert id="BR-BT-00811-0150" role="ERROR" test="normalize-space(.) = ('eco-des', 'eed-spec', 'enrg-lab', 'gpp-crit', 'nzeb-bui')">rule|text|BR-BT-00811-0150</assert>
+		<assert id="BT-811_a_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-811_a_-LotResult-List_MA</assert>
+		<assert id="BT-811_a_-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-811_a_-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics/efbc:StatisticsCode">
 		<assert id="BR-OPT-00155-0052" role="ERROR" test="normalize-space(.) = ('vehicles', 'vehicles-clean', 'vehicles-zero-emission')">rule|text|BR-OPT-00155-0052</assert>
 		<assert id="OPT-155-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|OPT-155-LotResult-List_MA</assert>
 		<assert id="OPT-155-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-155-LotResult_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode">
 		<assert id="BR-BT-00723-0051" role="ERROR" test="normalize-space(.) = ('m1', 'm1-m2-n1', 'm2', 'm3', 'n1', 'n2', 'n2-n3', 'n3')">rule|text|BR-BT-00723-0051</assert>
 		<assert id="BT-723-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-723-LotResult-List_MA</assert>
 		<assert id="BT-723-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-723-LotResult_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode">
 		<assert id="BR-BT-00735-0102" role="ERROR" test="normalize-space(.) = ('oth-serv-contr', 'pass-tran-serv', 'veh-acq')">rule|text|BR-BT-00735-0102</assert>
 		<assert id="BT-735-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-735-LotResult-List_MA</assert>
 		<assert id="BT-735-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-735-LotResult_WS</assert>

@@ -97,6 +97,11 @@
 		<assert id="BR-BT-00750-0017" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) &gt; 0 or not(cbc:TendererRequirementTypeCode)">rule|text|BR-BT-00750-0017</assert>
 		<assert id="BR-BT-00750-0059" role="ERROR" diagnostics="BT-750-Lot" test="count(cbc:Description) = 0 or (cbc:TendererRequirementTypeCode)">rule|text|BR-BT-00750-0059</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope'][$noticeSubType = 'CEI']">
+		<assert id="BR-BT-00811-0017" role="ERROR" diagnostics="ND-EEDLot_BT-811_a_-Lot" test="count(efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:LegalFrameworkCode) = 0 or (efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00811-0017</assert>
+		<assert id="BR-BT-00811-0217" role="ERROR" diagnostics="ND-EEDLot_BT-811_b_-Lot" test="count(efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode) = 0 or (efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00811-0217</assert>
+		<assert id="BR-BT-00811-0308" role="ERROR" diagnostics="ND-EEDLot_BT-811_b_-Lot" test="count(efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode) &gt; 0 or not(efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00811-0308</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
 		<assert id="BR-BT-00763-0017" role="ERROR" diagnostics="BT-763-Procedure" test="count(cbc:PartPresentationCode) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00763-0017</assert>
 	</rule>
