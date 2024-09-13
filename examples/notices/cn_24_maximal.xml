@@ -767,6 +767,22 @@
 									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<!--BT-810-->
+								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<!--BT-811-->
+									<efac:ProcurementDetails>
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">computer</efbc:AssetCategoryCode>
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">eco-des</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+									<!--BT-811-->
+									<efac:ProcurementDetails>
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
@@ -1335,6 +1351,17 @@
 									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<!--BT-810-->
+								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<!--BT-811-->
+									<efac:ProcurementDetails>
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
 				</ext:UBLExtension>

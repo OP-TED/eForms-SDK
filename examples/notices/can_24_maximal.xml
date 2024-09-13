@@ -117,6 +117,43 @@
 									</efac:ProcurementDetails>
 								</efac:StrategicProcurementInformation>
 							</efac:StrategicProcurement>
+							<efac:StrategicProcurement>
+								<efac:StrategicProcurementInformation>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-LotResult",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">computer</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-LotResult",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">eco-des</efbc:LegalFrameworkCode>
+										<efac:AssetMetric>
+											<!--"id" : "OPT-080-LotResult",   "name" : "Consumption Metric"-->
+											<efbc:AssetMetricCode listName="metric-type">nrg-con-yr</efbc:AssetMetricCode>
+											<!--"id" : "BT-813-LotResult",    "name" : "Energy Consumption in kWh/year"-->
+											<efbc:AssetMetricNumeric>123</efbc:AssetMetricNumeric>
+										</efac:AssetMetric>
+										<efac:AssetMetric>
+											<!--"id" : "OPT-081-LotResult",   "name" : "Savings Metric"-->
+											<efbc:AssetMetricCode listName="metric-type">nrg-sav-yr</efbc:AssetMetricCode>
+											<!--"id" : "BT-814-LotResult",    "name" : "Energy Savings in kWh/year"-->
+											<efbc:AssetMetricNumeric>45</efbc:AssetMetricNumeric>
+										</efac:AssetMetric>
+										<efac:StrategicProcurementStatistics>
+											<efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+										</efac:StrategicProcurementStatistics>
+									</efac:ProcurementDetails>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-LotResult",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-LotResult",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+										<efac:AssetLabel>
+											<efbc:LabelCode listName="energy-efficiency-label">ENERA3</efbc:LabelCode>
+										</efac:AssetLabel>
+										<efac:StrategicProcurementStatistics>
+											<efbc:StatisticsNumeric>8</efbc:StatisticsNumeric>
+										</efac:StrategicProcurementStatistics>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 							<efac:TenderLot>
 								<!-- "id" : "BT-13713-LotResult", "name" : "Result Lot Identifier" -->
 								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -1398,6 +1435,24 @@
 									<efbc:ProcurementCategoryCode listName="cvd-contract-type">oth-serv-contr</efbc:ProcurementCategoryCode>
 								</efac:StrategicProcurementInformation>
 							</efac:StrategicProcurement>
+							<efac:StrategicProcurement>
+								<!--"id" : "BT-810-Lot",   "name" : "EED Applicable"-->
+								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-Lot",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">computer</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-Lot",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">eco-des</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-Lot",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-Lot",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
@@ -1698,6 +1753,26 @@
 		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 		<!-- LOT-0002 - Tendering terms -->
 		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:StrategicProcurement>
+								<!--"id" : "BT-810-Lot",   "name" : "EED Applicable"-->
+								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-Lot",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-Lot",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
 			<!--"id" : "BT-60-Lot", "name" : "EU Funds"-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!-- Organisation - Fiscal Legislation -->
