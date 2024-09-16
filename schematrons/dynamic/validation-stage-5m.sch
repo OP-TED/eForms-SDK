@@ -63,7 +63,7 @@
 
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID">
 		<assert id="BR-OPT-00316-0100" role="ERROR" test="not(. = $global-con-ids-duplicates)">rule|text|BR-OPT-00316-0100</assert>
-		<assert id="BR-OPT-00316-0101" role="ERROR" test="(. = $global-res-to-con) or not(../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('29','30','31','32','33','34','35','36','37','E5','E4','T02'))">rule|text|BR-OPT-00316-0101</assert>
+		<assert id="BR-OPT-00316-0101" role="ERROR" test="(. = $global-res-to-con) or not($noticeSubType = ('29','30','31','32','33','34','35','36','37','E5','E4','T02'))">rule|text|BR-OPT-00316-0101</assert>
 	</rule>
 
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID">
