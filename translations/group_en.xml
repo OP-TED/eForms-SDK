@@ -258,6 +258,9 @@
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Direct award justification code (published later)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID of the previous procedure justifying direct award (published later)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justification for direct award (published later)</entry>
+<entry key="group|name|ND-EEDInformationLot">Information about EED products to be procured</entry>
+<entry key="group|name|ND-EEDLot">Information about EED and foreseen associated assets: EED applicability and bought products</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLot">Identification of one of the assets to be procured</entry>
 <entry key="group|name|ND-EuEntity">EU registration number</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
 <entry key="group|name|ND-ExclusionGroundsSource">Exclusion Grounds Source (Code)</entry>
@@ -272,6 +275,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Group maximal value identifier (published later)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Group maximum value (published later)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Group re-estimated value (published later)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Details about an applied measure</entry>
+<entry key="group|name|ND-IPIInformation">Information about all the aplied measures</entry>
+<entry key="group|name|ND-IPILot">Information about IPI applicability</entry>
+<entry key="group|name|ND-IPILotResult">Overall information about the International Procurement Instrument</entry>
+<entry key="group|name|ND-IPIMeasureException">Exception to the applied measure</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistics about applied measures</entry>
 <entry key="group|name|ND-LateTendererInformation">Late tenderer information</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Other legal basis without a known identifier</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Other legal basis with an identifier</entry>
@@ -354,6 +363,7 @@
 <entry key="group|name|ND-Organization">Organisations mentioned in the notice</entry>
 <entry key="group|name|ND-OrganizationUboReference">Ultimate beneficial owner</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Conditions other than revenue allocation</entry>
+<entry key="group|name|ND-PMCAnswersDeadline">Deadline for reception of answers to the PMC</entry>
 <entry key="group|name|ND-Part">Part</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Additional classification</entry>
 <entry key="group|name|ND-PartContractAdditionalNature">Additional contract nature</entry>
@@ -418,6 +428,7 @@
 <entry key="group|name|ND-SubcontractingUnpublish">Subcontracting (published later)</entry>
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Subcontracting value is known (published later)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Subcontracting value (published later)</entry>
+<entry key="group|name|ND-TenderAggregatedAmounts">Aggregated amounts for all the execution contracts of the given tender until project end.</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Rank of tender (published later)</entry>
 <entry key="group|name|ND-TenderValueHighestUnpublish">Value of the highest tender (published later)</entry>
 <entry key="group|name|ND-TenderValueLowestUnpublish">Value of the lowest tender (published later)</entry>
