@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.260",
-    "createdOn" : "2024-09-12T16:05:22"
+    "version" : "1.12.301",
+    "createdOn" : "2024-09-16T15:41:03"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -37226,6 +37226,13 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "codeList" : {
+      "value" : {
+        "id" : "energy-efficiency-label",
+        "type" : "flat"
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-812-LotResult-List",
@@ -37243,13 +37250,6 @@
     "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
-      "severity" : "ERROR"
-    },
-    "codeList" : {
-      "value" : {
-        "id" : "energy-efficiency-label",
-        "type" : "flat"
-      },
       "severity" : "ERROR"
     }
   }, {
