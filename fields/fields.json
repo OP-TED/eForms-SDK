@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.307",
-    "createdOn" : "2024-09-17T11:22:34"
+    "version" : "1.12.308",
+    "createdOn" : "2024-09-17T12:31:04"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -35786,7 +35786,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5" ],
-        "condition" : "{ND-ReviewStatus} ${not (BT-783-Review == 'decision') or (BT-796-Review == TRUE)}",
+        "condition" : "{ND-ReviewStatus} ${not (BT-783-Review == 'dec') or (BT-796-Review == TRUE)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
