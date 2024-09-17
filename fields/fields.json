@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.301",
-    "createdOn" : "2024-09-16T15:41:03"
+    "version" : "1.12.307",
+    "createdOn" : "2024-09-17T11:22:34"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -4266,7 +4266,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -4295,7 +4295,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -4324,7 +4324,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -6380,7 +6380,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -6423,7 +6423,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -6668,7 +6668,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -7453,7 +7453,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -24253,7 +24253,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -24282,7 +24282,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -24311,7 +24311,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -24340,7 +24340,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
+      "value" : "^[A-Za-z0-9!#$%&''*+/=?_-]+(\\.[A-Za-z0-9!#$%&''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
       "severity" : "ERROR"
     }
   }, {
@@ -24379,7 +24379,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
+      "value" : "^[A-Za-z0-9!#$%&''*+/=?_-]+(\\.[A-Za-z0-9!#$%&''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
       "severity" : "ERROR"
     }
   }, {
@@ -24423,7 +24423,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
+      "value" : "^[A-Za-z0-9!#$%&''*+/=?_-]+(\\.[A-Za-z0-9!#$%&''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
       "severity" : "ERROR"
     }
   }, {
@@ -24457,7 +24457,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
+      "value" : "^[A-Za-z0-9!#$%&''*+/=?_-]+(\\.[A-Za-z0-9!#$%&''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
       "severity" : "ERROR"
     }
   }, {
@@ -24953,7 +24953,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -24982,7 +24982,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -25026,7 +25026,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -29068,7 +29068,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -29111,7 +29111,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -36038,7 +36038,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -39247,7 +39247,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -39417,7 +39417,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
+      "value" : "^[A-Za-z0-9!#$%&''*+/=?_-]+(\\.[A-Za-z0-9!#$%&''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\\.)+([A-Za-z]{2,})$",
       "severity" : "ERROR"
     }
   }, {
@@ -40025,7 +40025,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -40053,7 +40053,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -40273,7 +40273,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -40301,7 +40301,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -40329,7 +40329,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
@@ -40357,7 +40357,7 @@
       } ]
     },
     "pattern" : {
-      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@&quot;\\(\\)&amp;]+",
+      "value" : "((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\\d)?\\.))[\\w\\?!\\./:;,\\-_=#+*%@\"\\(\\)&]+",
       "severity" : "ERROR"
     }
   }, {
