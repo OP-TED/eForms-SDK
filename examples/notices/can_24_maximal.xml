@@ -1580,6 +1580,11 @@
 								</efac:StrategicProcurementInformation>
 							</efac:StrategicProcurement>
 							<efac:StrategicProcurement>
+								<!--"id" : "BT-684-Lot",   "name" : "IPI Measures are Applicable"-->
+								<!-- Should be set to true once an IPI measure is available -->
+								<efbc:ApplicableLegalBasis listName="ipi-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+							<efac:StrategicProcurement>
 								<!--"id" : "BT-810-Lot",   "name" : "EED Applicable"-->
 								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
 								<efac:StrategicProcurementInformation>
