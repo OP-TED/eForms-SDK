@@ -776,6 +776,15 @@
          <svrl:text>efbc:DPSTerminationIndicator</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-00685-0052"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="count(efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode) &gt; 0 or ((efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[not(../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='ipi-scope']/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')]/normalize-space(text())) or (not(cbc:TenderResultCode)) or (cbc:TenderResultCode/normalize-space(text()) = 'open-nw'))">
+      <svrl:text>rule|text|BR-BT-00685-0052</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-LotResult_BT-685-LotResult" see="field:BT-685-LotResult">
+         <svrl:text>efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00315-0052"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"

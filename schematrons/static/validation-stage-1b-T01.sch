@@ -57,22 +57,9 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'T01']">
 		<assert id="ND-ContractModification-T01" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-T01</assert>
+		<assert id="ND-NoticeResult-T01" role="ERROR" diagnostics="ND-NoticeResult" test="count(efac:NoticeResult) = 0">rule|text|ND-NoticeResult-T01</assert>
 		<assert id="ND-Organizations-T01" role="ERROR" diagnostics="ND-Organizations" test="count(efac:Organizations) &gt; 0">rule|text|ND-Organizations-T01</assert>
 		<assert id="ND-ReviewRequests-T01" role="ERROR" diagnostics="ND-ReviewRequests" test="count(efac:Appeals) = 0">rule|text|ND-ReviewRequests-T01</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = 'T01']">
-		<assert id="ND-LotResult-T01" role="ERROR" diagnostics="ND-LotResult" test="count(efac:LotResult) = 0">rule|text|ND-LotResult-T01</assert>
-		<assert id="ND-NoticeApproximateValueUnpublish-T01" role="ERROR" diagnostics="ND-NoticeApproximateValueUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-NoticeApproximateValueUnpublish-T01</assert>
-		<assert id="ND-NoticeResultGroupFA-T01" role="ERROR" diagnostics="ND-NoticeResultGroupFA" test="count(efac:GroupFramework) = 0">rule|text|ND-NoticeResultGroupFA-T01</assert>
-		<assert id="ND-SettledContract-T01" role="ERROR" diagnostics="ND-SettledContract" test="count(efac:SettledContract) = 0">rule|text|ND-SettledContract-T01</assert>
-		<assert id="ND-TenderingParty-T01" role="ERROR" diagnostics="ND-TenderingParty" test="count(efac:TenderingParty) = 0">rule|text|ND-TenderingParty-T01</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'T01']">
-		<assert id="ND-ConcessionRevenue-T01" role="ERROR" diagnostics="ND-ConcessionRevenue" test="count(efac:ConcessionRevenue) = 0">rule|text|ND-ConcessionRevenue-T01</assert>
-		<assert id="ND-LotTenderOriginCountry-T01" role="ERROR" diagnostics="ND-LotTenderOriginCountry" test="count(efac:Origin) = 0">rule|text|ND-LotTenderOriginCountry-T01</assert>
-		<assert id="ND-OtherContractExecutionConditions-T01" role="ERROR" diagnostics="ND-OtherContractExecutionConditions" test="count(efac:ContractTerm) = 0">rule|text|ND-OtherContractExecutionConditions-T01</assert>
-		<assert id="ND-SubcontractedContract-T01" role="ERROR" diagnostics="ND-SubcontractedContract" test="count(efac:SubcontractingTerm) = 0">rule|text|ND-SubcontractedContract-T01</assert>
-		<assert id="ND-TenderRankUnpublish-T01" role="ERROR" diagnostics="ND-TenderRankUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-TenderRankUnpublish-T01</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = 'T01']">
 		<assert id="ND-Organization-T01" role="ERROR" diagnostics="ND-Organization" test="count(efac:Organization) &gt; 0">rule|text|ND-Organization-T01</assert>
