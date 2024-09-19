@@ -171,7 +171,7 @@
 		</cac:LotDistribution>
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
-		<cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+		<cbc:ProcedureCode listName="procurement-procedure-type">oth-mult</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:ID schemeName="InternalID">xyz</cbc:ID>
