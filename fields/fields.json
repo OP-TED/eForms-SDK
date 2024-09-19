@@ -31907,7 +31907,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-ProcedureProcurementScope} ${BT-02-notice in ('can-desg','can-social','can-standard','can-tran','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pin-tran','pmc','qu-sy','subco','veat')}",
+        "condition" : "{ND-ProcedureProcurementScope} ${BT-02-notice in ('can-desg','can-social','can-standard','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pmc','qu-sy','subco','veat')}",
         "value" : "{ND-ProcedureProcurementScope} ${(BT-5141-Procedure is present) or (BT-727-Procedure is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00727-0228"
