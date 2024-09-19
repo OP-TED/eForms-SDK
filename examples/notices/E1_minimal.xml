@@ -62,7 +62,6 @@
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 		<cac:TenderingTerms>
-			<cbc:MultipleTendersCode listName="permission">allowed</cbc:MultipleTendersCode>
 			<cac:TenderRecipientParty>
 				<cbc:EndpointID>https://example.com/endpoint</cbc:EndpointID>
 			</cac:TenderRecipientParty>
