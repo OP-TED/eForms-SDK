@@ -447,77 +447,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>E3</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Общо обявление за поръчка под прага</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Obecné oznámení o zahájení zadávacího řízení pro podlimitní zakázky</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Generelt under tærskel for udbudsbekendtgørelse</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unterhalb des Schwellenwerts – Auftragsbekanntmachung (CN) allgemein</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Γενική προκήρυξη σύμβασης (CN) κάτω από το κατώτατο όριο</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Below threshold contract notice (CN) general</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de licitación general por debajo del umbral</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Piirmäärast allapoole jääv üldine hanketeade</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Kynnysarvon alittava hankintailmoitus – yleisdirektiivi</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Seuil non atteint avis de marché général</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Faoi bhun thairseach an fhógra conartha (CN) ghinearálta</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o nadmetanju ispod granične vrijednosti – općenito</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti eljárást megindító hirdetmény – általános</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso o bando di gara generale al di sotto della soglia</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Finansinės vertės ribos nesiekiantys viešieji pirkimai: bendras skelbimas apie viešąjį pirkimą</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Zem sliekšņa, paziņojums par līgumu, vispārīgs iepirkums (publicēts vēlāk)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż ta’ kuntratt taħt il-limitu minimu (CN) ġenerali</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Algemene aankondiging van een opdracht onder de drempelwaarde</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Ogólne ogłoszenie o zamówieniu poniżej progu</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Abaixo do limiar para anúncio de pré-informação (API) geral</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Anunț general de participare sub prag</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o vyhlásení verejného obstarávania (CN) pod prahovou hodnotou</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o naročilu pod pragom – splošno</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Under tröskelvärdet – allmänt meddelande om upphandling (CN)</SimpleValue>
+            <SimpleValue>Voluntary Contract Notice</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

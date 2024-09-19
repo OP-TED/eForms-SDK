@@ -4,8 +4,9 @@
    <Identification>
       <ShortName>ExclusionGround</ShortName>
       <LongName>exclusion-ground</LongName>
-      <Version>1.0</Version>
-      <CanonicalUri/>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/exclusion-ground</LongName>
+      <Version>20240612-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/exclusion-ground</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -119,6 +120,17 @@
       </Column>
    </ColumnSet>
    <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-crim</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Grounds relating to criminal convictions</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Grounds relating to criminal convictions</SimpleValue>
+         </Value>
+      </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>exg-crim-corrpt</SimpleValue>
@@ -542,7 +554,7 @@
             <SimpleValue>Παιδική εργασία και άλλες μορφές εμπορίας ανθρώπων</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Child labour and other forms of trafficking in human beings</SimpleValue>
+            <SimpleValue>Child labour and including other forms of trafficking in human beings</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Trabajo infantil y otras formas de trata de seres humanos</SimpleValue>
@@ -597,6 +609,17 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Barnarbete och andra former av människohandel</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-mis</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Grounds relating to insolvency, conflicts of interests or professional misconduct</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Grounds relating to insolvency, conflicts of interests or professional misconduct</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -926,77 +949,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>Grave professional misconduct</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Тежко професионално простъпничество</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Závažné profesní pochybení</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Alvorlig professionel forseelse</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Schweres berufliches Fehlverhalten</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Σοβαρή επαγγελματική ανεπαρκή συμπεριφορά</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Grave professional misconduct</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Mala conducta profesional grave</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Tõsine kutsealane väärkäitumine</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Vakava ammatillinen väärinkäytös</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Faute professionnelle grave</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Drochiompar gairmiúil tromchúiseach</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Teško profesionalno nesavjesno ponašanje</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Súlyos szakmai hanyagság</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Grave comportamento professionale scorretto</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Sunkus profesinis nusižengimas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Smutīgs profesionāls pārkāpums</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Mikkundotta professjonali gravi</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Ernstig professioneel wangedrag</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Ciężkie niewłaściwe postępowanie zawodowe</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Grave má conduta profissional</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Abateri profesionale grave</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Vážne profesionálne pochybenie</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Huda profesionalna nesposobnost</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Allvarligt yrkesmässigt felbeteende</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1022,7 +976,7 @@
             <SimpleValue>Ένοχος για διαστρέβλωση, απόκρυψη πληροφοριών, αδυναμία προσκόμισης των απαιτούμενων εγγράφων και απόκτηση εμπιστευτικών πληροφοριών για τη διαδικασία αυτή</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Guilty of misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Que haya incurrido en falsas declaraciones, le haya ocultado información, no esté en condiciones de facilitar los documentos necesarios y haya obtenido información confidencial sobre este procedimiento</SimpleValue>
@@ -1086,77 +1040,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>Offence concerning its professional conduct in the domain of defence procurement</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Престъпление, свързано с професионалното му поведение в областта на оборудването за отбрана</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Přestupek týkající se jeho profesního chování v oblasti obranných zakázek</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Forseelse vedrørende dets professionelle adfærd inden for forsvarsindkøb</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Verstoß im Zusammenhang mit seinem beruflichen Verhalten im Bereich der Verteidigungsbeschaffung</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Παράπτωμα που αφορά την επαγγελματική του συμπεριφορά στον τομέα των αμυντικών προμηθειών</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Offence concerning its professional conduct in the domain of defence procurement</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Delito relacionado con su conducta profesional en el ámbito de la contratación de defensa</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Süütegu, mis puudutab tema kutsealast käitumist kaitsehankes</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Rikos, joka liittyy sen ammatilliseen toimintaan puolustushankinnan alalla</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Infraction concernant sa conduite professionnelle dans le domaine des marchés de défense</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Cion a bhaineann lena iompar gairmiúil sa réimse soláthairtí cosanta</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Prekršaj u vezi s njegovim profesionalnim ponašanjem u području obrambene nabave</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Vétség a szakmai magatartásával kapcsolatban a védelmi beszerzés területén</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Reato relativo alla sua condotta professionale nel settore degli appalti di difesa</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Nusižengimas, susijęs su jo profesiniu elgesiu gynybos pirkimų srityje</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Noziegums, kas saistīts ar tā profesionālo uzvedību aizsardzības iepirkumu jomā</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Reat dwar il-kundotta professjonali tiegħu fid-dominju tal-provvista tad-difiża</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Vergrijp betreffende zijn professioneel gedrag op het gebied van defensieaanbestedingen</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Przestępstwo dotyczące jego postępowania zawodowego w dziedzinie zamówień obronnych</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Delito relativo à sua conduta profissional no domínio dos contratos de defesa</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Infracțiune legată de conduita sa profesională în domeniul achizițiilor de apărare</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Trestný čin týkajúci sa jeho profesionálneho správania v oblasti obranných obstarávaní</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Prekršek, povezan z njegovim profesionalnim ravnanjem na področju obrambnih naročil</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Brott som rör dess yrkesbeteende inom försvarsupphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1342,7 +1227,7 @@
             <SimpleValue>Πρόωρη λήξη, αποζημιώσεις ή άλλες παρόμοιες κυρώσεις</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Early termination, damages or other comparable sanctions</SimpleValue>
+            <SimpleValue>Early termination, damages, or other comparable sanctions</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Rescisión anticipada, imposición de daños y perjuicios u otras sanciones comparables</SimpleValue>
@@ -1406,77 +1291,88 @@
          <Value ColumnRef="Name">
             <SimpleValue>Unreliability to exclude risks to the security of the country</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Ненадеждност за изключване на рисковете за сигурността на страната</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Nespolehlivost pro vyloučení rizik pro bezpečnost země</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Upålidelighed til at udelukke risici for landets sikkerhed</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unzuverlässigkeit zur Ausschließung von Risiken für die Sicherheit des Landes</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Αναξιοπιστία για την αποφυγή κινδύνων για την ασφάλεια της χώρας</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Unreliability to exclude risks to the security of the country</SimpleValue>
          </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-natl</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Purely national exclusion grounds</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Чисто национални основания за изключване</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Čistě vnitrostátní důvody pro vyloučení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Rent nationale udelukkelsesgrunde</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Rein innerstaatliche Ausschlussgründe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αμιγώς εθνικοί λόγοι αποκλεισμού</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Purely national exclusion grounds</SimpleValue>
+         </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Falta de fiabilidad para excluir riesgos para la seguridad del país</SimpleValue>
+            <SimpleValue>Motivos de exclusión puramente nacionales</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Ebausaldusväärsus riigi turvalisuse riskide välistamiseks</SimpleValue>
+            <SimpleValue>Ainult siseriiklikest õigusaktidest tulenevad kõrvalejätmise alused</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Luotettavuuden puute maan turvallisuusriskien poissulkemiseksi</SimpleValue>
+            <SimpleValue>Puhtaasti kansalliset poissulkemisperusteet</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Fiabilité insuffisante pour exclure les risques pour la sécurité du pays</SimpleValue>
+            <SimpleValue>Motifs d’exclusion purement nationaux</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Droch-iontaofacht chun rioscaí slándála na tíre a eisiamh</SimpleValue>
+            <SimpleValue>Foras eisiaimh náisiúnta amháin</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Nepouzdanost za isključivanje rizika za sigurnost zemlje</SimpleValue>
+            <SimpleValue>Isključivo nacionalne osnove za isključenje</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Megbízhatatlanság a ország biztonságának kockázatainak kizárására</SimpleValue>
+            <SimpleValue>Tisztán nemzeti kizáró okok</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Affidabilità insufficiente per escludere i rischi per la sicurezza del paese</SimpleValue>
+            <SimpleValue>Motivi di esclusione previsti esclusivamente dalla legislazione nazionale</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Nepatikimumas, siekiant išvengti rizikos šalies saugumui</SimpleValue>
+            <SimpleValue>Išimtinai nacionaliniai pašalinimo pagrindai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Nepārliecība, lai izslēgtu riskus valsts drošībai</SimpleValue>
+            <SimpleValue>Tikai valsts tiesību normās paredzēti izslēgšanas iemesli</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Inaffidabbilità biex jeskludi r-riskji għall-sigurtà tal-pajjiż</SimpleValue>
+            <SimpleValue>Raġunijiet purament nazzjonali għall-esklużjoni</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Onbetrouwbaarheid om risico's voor de veiligheid van het land uit te sluiten</SimpleValue>
+            <SimpleValue>Louter nationale uitsluitingsgronden</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Niezawodność w celu wyeliminowania ryzyka dla bezpieczeństwa kraju</SimpleValue>
+            <SimpleValue>Podstawy wykluczenia o charakterze wyłącznie krajowym</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Falta de confiabilidade para excluir riscos à segurança do país</SimpleValue>
+            <SimpleValue>Motivos de exclusão puramente nacionais</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Nesiguranță pentru a exclude riscurile la securitatea țării</SimpleValue>
+            <SimpleValue>Motive de excludere pur naționale</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nespoľahlivosť na vylúčenie rizík pre bezpečnosť krajiny</SimpleValue>
+            <SimpleValue>Čisto vnútroštátne dôvody vylúčenia</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Nezanesljivost za izključitev tveganj za varnost države</SimpleValue>
+            <SimpleValue>Izključno nacionalni razlogi za izključitev</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Opålitlighet för att utesluta risker för landets säkerhet</SimpleValue>
+            <SimpleValue>Nationella uteslutningsgrunder</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1486,77 +1382,19 @@
          <Value ColumnRef="Name">
             <SimpleValue>Breaching of obligations set under purely national exclusion grounds</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Нарушаване на задълженията, поставени по силата на чисто национални основания за изключване</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Porušení povinností stanovených na základě čistě národních důvodů pro vyloučení</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Overtrædelse af forpligtelser fastsat under rent nationale udelukkelsesgrunde</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Verstoß gegen Verpflichtungen, die auf rein nationalen Ausschlussgründen beruhen</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Παραβίαση των υποχρεώσεων που έχουν τεθεί σύμφωνα με αμιγώς εθνικά κριτήρια αποκλεισμού</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Breaching of obligations set under purely national exclusion grounds</SimpleValue>
          </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Incumplimiento de las obligaciones establecidas en los motivos de exclusión puramente nacionales</SimpleValue>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-pmt</SimpleValue>
          </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Puhtalt riiklikest välistamise alustest tulenevate kohustuste rikkumine</SimpleValue>
+         <Value ColumnRef="Name">
+            <SimpleValue>Grounds relating to the payment of taxes or social security contributions </SimpleValue>
          </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Puhtaasti kansallisten poissulkemisperusteiden mukaisten velvoitteiden rikkominen</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Violation des obligations établies en vertu de motifs d'exclusion purement nationaux</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Sárú ar dhualgaisí atá leagtha síos faoi bhonn eisiach náisiúnta</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Kršenje obveza postavljenih prema isključivo nacionalnim razlozima za isključivanje</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Kötelezettségek megsértése, amelyek kizárólag nemzeti kizárási okok alapján kerültek meghatározásra</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Violazione degli obblighi previsti da motivi di esclusione puramente nazionali</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Įsipareigojimų, nustatytų pagal grynai nacionalinius pašalinimo pagrindus, pažeidimas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Saimnieciskās darbības aizlieguma pamatojumu pārkāpšana</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Qerda ta' obbligi stabbiliti taħt raġunijiet ta' esklussjoni purament nazzjonali</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Schending van verplichtingen die zijn vastgesteld op basis van zuiver nationale uitsluitingsgronden</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Naruszenie zobowiązań wynikających wyłącznie z krajowych przesłanek wykluczenia</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Violação de obrigações estabelecidas em virtude de motivos de exclusão puramente nacionais</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Încălcarea obligațiilor stabilite în baza motivelor de excludere pur naționale</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Porušenie povinností stanovených na základe čisto národných dôvodov vylúčenia</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Kršitev obveznosti, določenih na podlagi izključno nacionalnih razlogov za izključitev</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Brott mot skyldigheter som fastställts enligt rent nationella uteslutningsgrunder</SimpleValue>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Grounds relating to the payment of taxes or social security contributions </SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1566,77 +1404,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>Breaching obligation relating to payment of social security contributions</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Нарушаване на задължение, свързано с плащането на осигурителни вноски</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Porušení povinnosti související s platbou sociálního pojištění</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Overtrædelse af forpligtelse relateret til betaling af sociale bidrag</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Verstoß gegen die Verpflichtung zur Zahlung von Sozialversicherungsbeiträgen</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Παραβίαση υποχρέωσης που σχετίζεται με την πληρωμή εισφορών κοινωνικής ασφάλισης</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Breaching obligation relating to payment of social security contributions</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Incumplimiento de la obligación relacionada con el pago de las contribuciones a la seguridad social</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Sotsiaalkindlustusmaksete tasumise kohustuse rikkumine</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Sosiaaliturvamaksujen maksamiseen liittyvän velvoitteen rikkominen</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Violation de l'obligation relative au paiement des cotisations de sécurité sociale</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Sárú ar dhualgas a bhaineann le híocaíocht ranníocaíochtaí leis an gCóras Slándála Sóisialaí</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Kršenje obveze vezane uz plaćanje doprinosa za socijalno osiguranje</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>A társadalombiztosítási hozzájárulások fizetésével kapcsolatos kötelezettség megsértése</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Violazione dell'obbligo relativo al pagamento dei contributi previdenziali</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Socialinio draudimo įmokų mokėjimo įsipareigojimo pažeidimas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Sociālās apdrošināšanas iemaksu maksāšanas pienākumu pārkāpšana</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Qerda ta' obbligu relatat mal-ħlas ta' kontribuzzjonijiet tas-sigurtà soċjali</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Schending van verplichting betreffende de betaling van sociale zekerheidsbijdragen</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Naruszenie zobowiązania dotyczącego płatności składek na ubezpieczenia społeczne</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Violação da obrigação relativa ao pagamento de contribuições para a segurança social</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Încălcarea obligației legate de plata contribuțiilor de securitate socială</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Porušenie povinnosti súvisiacej s platbou sociálnych odvodov</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Kršitev obveznosti, povezane s plačilom prispevkov za socialno varnost</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Brott mot skyldighet att betala socialförsäkringsavgifter</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1646,77 +1415,19 @@
          <Value ColumnRef="Name">
             <SimpleValue>Breaching obligation relating to payment of taxes</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Нарушаване на задължение, свързано с плащането на данъци</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Porušení povinnosti související s platbou daní</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Overtrædelse af forpligtelse relateret til betaling af skatter</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Verstoß gegen die Verpflichtung zur Zahlung von Steuern</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Παραβίαση υποχρέωσης που σχετίζεται με την πληρωμή φόρων</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Breaching obligation relating to payment of taxes</SimpleValue>
          </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Incumplimiento de la obligación relacionada con el pago de impuestos</SimpleValue>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exg-sitn</SimpleValue>
          </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Maksude tasumise kohustuse rikkumine</SimpleValue>
+         <Value ColumnRef="Name">
+            <SimpleValue>Grounds relating to the situation of the economic operator</SimpleValue>
          </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Verojen maksamiseen liittyvän velvoitteen rikkominen</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Violation de l'obligation relative au paiement des impôts</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Sárú ar dhualgas a bhaineann le híocaíocht cánach</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Kršenje obveze vezane uz plaćanje poreza</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Adófizetési kötelezettség megsértése</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Violazione dell'obbligo relativo al pagamento delle tasse</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Mokesčių mokėjimo įsipareigojimo pažeidimas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Nodokļu maksāšanas pienākumu pārkāpšana</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Qerda ta' obbligu relatat mal-ħlas ta' taxxi</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Schending van verplichting betreffende de betaling van belastingen</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Naruszenie zobowiązania dotyczącego płatności podatków</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Violação da obrigação relativa ao pagamento de impostos</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Încălcarea obligației legate de plata impozitelor</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Porušenie povinnosti súvisiacej s platbou daní</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Kršitev obveznosti, povezane s plačilom davkov</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Brott mot skyldighet att betala skatter</SimpleValue>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Grounds relating to the situation of the economic operator</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2142,7 +1853,7 @@
             <SimpleValue>Κατάσταση ανάλογη της πτώχευσης, δυνάμει της εθνικής νομοθεσίας</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Analogous situation like bankruptcy under national law</SimpleValue>
+            <SimpleValue>Analogous situation like bankruptcy, insolvency or arrangement with creditors under national law</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Situación análoga a la quiebra con arreglo al Derecho nacional</SimpleValue>

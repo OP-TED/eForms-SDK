@@ -5,7 +5,7 @@
       <ShortName>SelectionCriteriaSource</ShortName>
       <LongName>selection-criteria-source</LongName>
       <LongName Identifier="eFormsParentId">document-used-in-public-procurement</LongName>
-      <Version>1.12.0</Version>
+      <Version>1.13.0-SNAPSHOT</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -175,9 +175,6 @@
          <Value ColumnRef="lav_label">
             <SimpleValue>Paziņojums</SimpleValue>
          </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż</SimpleValue>
-         </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Aankondiging</SimpleValue>
          </Value>
@@ -223,7 +220,7 @@
             <SimpleValue>Έγγραφο σύμβασης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Procurement document</SimpleValue>
+            <SimpleValue>Procurement Document</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Documento de contratación</SimpleValue>
@@ -254,9 +251,6 @@
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Iepirkuma dokuments</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Dokument tal-Akkwist</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Aanbestedingsstuk</SimpleValue>
@@ -334,9 +328,6 @@
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Eiropas vienotais iepirkuma procedūras dokuments (ESPD)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Dokument Ewropew Uniku għall-Akkwist (ESPD)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Uniform Europees Aanbestedingsdocument (UEA)</SimpleValue>
