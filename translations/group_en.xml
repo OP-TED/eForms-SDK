@@ -258,9 +258,16 @@
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Direct award justification code (published later)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">ID of the previous procedure justifying direct award (published later)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justification for direct award (published later)</entry>
+<entry key="group|name|ND-EEDAssetLabel">EED label for a given procured asset of a LotResult</entry>
+<entry key="group|name|ND-EEDAssetQuantity">EED Quantity for a given procured asset of a LotResult</entry>
+<entry key="group|name|ND-EEDConsumption">EED yearly Energy Consumption for a given procured asset of a LotResult</entry>
 <entry key="group|name|ND-EEDInformationLot">Information about EED products to be procured</entry>
+<entry key="group|name|ND-EEDInformationLotResult">EED related information for a given LotResult</entry>
 <entry key="group|name|ND-EEDLot">Information about EED and foreseen associated assets: EED applicability and bought products</entry>
+<entry key="group|name|ND-EEDLotResult">Overall information about the bought assets under EED: Product type, category and quantity</entry>
 <entry key="group|name|ND-EEDProcurementDetailsLot">Identification of one of the assets to be procured</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLotResult">EED detailed information for a given procured asset of a LotResult</entry>
+<entry key="group|name|ND-EEDSavings">EED yearly Energy Savings for a given procured asset of a LotResult</entry>
 <entry key="group|name|ND-EuEntity">EU registration number</entry>
 <entry key="group|name|ND-ExclusionGrounds">Exclusion grounds</entry>
 <entry key="group|name|ND-ExclusionGroundsSource">Exclusion Grounds Source (Code)</entry>
