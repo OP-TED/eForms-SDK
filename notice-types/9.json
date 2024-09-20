@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.359",
-    "createdOn" : "2024-09-20T13:39:57"
+    "version" : "1.12.362",
+    "createdOn" : "2024-09-20T15:41:23"
   },
   "noticeId" : "9",
   "metadata" : [ {
@@ -1895,18 +1895,6 @@
         "description" : "Deadlines I",
         "_label" : "group|name|GR-Lot-Deadlines1",
         "content" : [ {
-          "id" : "BT-131(d)-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Deadline Receipt Tenders",
-          "_label" : "field|name|BT-131(d)-Lot"
-        }, {
-          "id" : "BT-131(t)-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Deadline Receipt Tenders",
-          "_label" : "field|name|BT-131(t)-Lot"
-        }, {
           "id" : "BT-130-Lot",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
