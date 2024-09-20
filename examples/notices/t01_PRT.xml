@@ -23,7 +23,7 @@
 									<cbc:StreetName>Praça do Município</cbc:StreetName>
 									<cbc:CityName>Águeda</cbc:CityName>
 									<cbc:PostalZone>3754-500</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">PT16D</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">PT191</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">PRT</cbc:IdentificationCode>
 									</cac:Country>
@@ -141,7 +141,7 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="POR">urbano/regional</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">PT16D</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">PT191</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">PRT</cbc:IdentificationCode>
 					</cac:Country>
