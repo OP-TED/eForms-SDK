@@ -58,11 +58,11 @@
 			{BT-507-Organization-TouchPoint} #{field|name|BT-507-Organization-TouchPoint}: #{BT-507-Organization-TouchPoint} (${BT-507-Organization-TouchPoint}) // Touchpoint Country Subdivision
 			{BT-514-Organization-TouchPoint} #{field|name|BT-514-Organization-TouchPoint}: #{BT-514-Organization-TouchPoint} // Touchpoint Country
 			{BT-502-Organization-TouchPoint} #{field|name|BT-502-Organization-TouchPoint}: ${BT-502-Organization-TouchPoint} // Touchpoint Contact Point
-			{BT-506-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-506-Organization-TouchPoint}: ${BT-506-Organization-TouchPoint} // Touchpoint Contact Email Address
-			{BT-503-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-503-Organization-TouchPoint}: ${BT-503-Organization-TouchPoint} // Touchpoint Contact Telephone Number
-			{BT-739-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-739-Organization-TouchPoint}: ${BT-739-Organization-TouchPoint} // Touchpoint Contact Fax
-			{BT-505-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-505-Organization-TouchPoint}: ${BT-505-Organization-TouchPoint} // Touchpoint Internet Address
-			{BT-509-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-509-Organization-TouchPoint}: ${BT-509-Organization-TouchPoint} // Touchpoint eDelivery Gateway
+			{BT-506-Organization-TouchPoint} #{field|name|BT-506-Organization-TouchPoint}: ${BT-506-Organization-TouchPoint} // Touchpoint Contact Email Address
+			{BT-503-Organization-TouchPoint} #{field|name|BT-503-Organization-TouchPoint}: ${BT-503-Organization-TouchPoint} // Touchpoint Contact Telephone Number
+			{BT-739-Organization-TouchPoint} #{field|name|BT-739-Organization-TouchPoint}: ${BT-739-Organization-TouchPoint} // Touchpoint Contact Fax
+			{BT-505-Organization-TouchPoint} #{field|name|BT-505-Organization-TouchPoint}: ${BT-505-Organization-TouchPoint} // Touchpoint Internet Address
+			{BT-509-Organization-TouchPoint} #{field|name|BT-509-Organization-TouchPoint}: ${BT-509-Organization-TouchPoint} // Touchpoint eDelivery Gateway
 		0 {ND-Organization} #{auxiliary|text|roles}: // Roles of this organisation
 			0 {ND-Organization[count(for text:$orgid in OPT-200-Organization-Company return OPT-300-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid])>0]} #{auxiliary|text|buyer} // This org is a Buyer
 			{ND-Organization[(some text:$esender in (for text:$orgid in OPT-200-Organization-Company, text:$servprovtype in OPT-030-Procedure-SProvider[OPT-300-Procedure-SProvider == $orgid] return $servprovtype) satisfies $esender == 'serv-prov') or (some text:$esender1 in (for text:$tpoid in OPT-201-Organization-TouchPoint, text:$servprovtype1 in OPT-030-Procedure-SProvider[OPT-300-Procedure-SProvider == $tpoid] return $servprovtype1) satisfies $esender1 == 'serv-prov')]} #{auxiliary|text|organisation-providing-procurement-service} // This org is a Service Provider

@@ -2,8 +2,8 @@
 <!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>ReviewStatus</ShortName>
-      <LongName>review-status</LongName>
+      <ShortName>ReviewInformationType</ShortName>
+      <LongName>review-information-type</LongName>
       <Version>1.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
@@ -121,10 +121,10 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>decided</SimpleValue>
+            <SimpleValue>dec</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Decision has been made by the Review Body regarding the current request.</SimpleValue>
+            <SimpleValue>Decision</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Органът за преразглеждане (обжалване) е взел решение относно настоящото искане</SimpleValue>
@@ -201,10 +201,10 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>requested</SimpleValue>
+            <SimpleValue>req</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Review has been requested and is still under process</SimpleValue>
+            <SimpleValue>Request</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Поискано е преразглеждане (обжалване), което все още продължава</SimpleValue>

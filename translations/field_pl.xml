@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Opis celu jakościowego</entry>
 <entry key="field|description|OPT-072-Lot-Language">Język, w którym opisany jest cel jakościowy</entry>
 <entry key="field|description|OPT-090-Lot">Kod wskazujący, że mówimy o kategoriach nabywców: 'kategorie nabywców'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Strona (tj. rola), która poprosiła o przegląd</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Nazwa listy zawierającej kody typów wniosków o przegląd</entry>
-<entry key="field|description|OPT-092-ReviewBody">Opis instytucji odpowiedzialnej za przetwarzanie wniosków o przegląd</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Język, w którym opisana jest instytucja odpowiedzialna za przetwarzanie wniosków o przegląd</entry>
-<entry key="field|description|OPT-092-ReviewReq">Opis typu wnioskodawcy przeglądu</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Język, w którym opisany jest typ wnioskodawcy przeglądu</entry>
 <entry key="field|description|OPT-100-Contract">Odniesienie do powiadomienia o wynikach zawierającego informacje o podpisanej umowie ramowej, na podstawie której realizowana jest obecna umowa</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Nazwa schematu używanego do zapisania odniesienia do powiadomienia o wynikach zawierającego informacje o podpisanej umowie ramowej, na podstawie której realizowana jest obecna umowa</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Adres internetowy, na którym można znaleźć lokalne prawo podatkowe</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Cele w zakresie jakości – Opis</entry>
 <entry key="field|name|OPT-072-Lot-Language">Cele w zakresie jakości – Opis</entry>
 <entry key="field|name|OPT-090-Lot">Kategorie nabywców</entry>
-<entry key="field|name|OPT-091-ReviewReq">Osoba wnioskująca o odwołanie – Typ</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Osoba wnioskująca o odwołanie – Typ</entry>
-<entry key="field|name|OPT-092-ReviewBody">Organ odwoławczy – Rodzaj – Opis</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Organ odwoławczy – Rodzaj – Opis</entry>
-<entry key="field|name|OPT-092-ReviewReq">Organ odwoławczy – Rodzaj – Opis</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Organ odwoławczy – Rodzaj – Opis</entry>
 <entry key="field|name|OPT-100-Contract">Ogłoszenie, które stworzyło umowę ramową</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Ogłoszenie, które stworzyło umowę ramową</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Adres strony internetowej z przepisami podatkowymi</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organizacja lub konkretny punkt kontaktowy</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organizacja pełniąca tę rolę</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organizacja lub konkretny punkt kontaktowy</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organizacja lub konkretny punkt kontaktowy</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organizacja lub konkretny punkt kontaktowy</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organizacja lub konkretny punkt kontaktowy</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organizacja lub konkretny punkt kontaktowy</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organizacja pełniąca tę rolę</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organizacja lub konkretny punkt kontaktowy</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organizacja pełniąca tę rolę</entry>

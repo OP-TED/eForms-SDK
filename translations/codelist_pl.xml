@@ -196,6 +196,7 @@
 <entry key="codelist|name|procedure-type-19">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 19</entry>
 <entry key="codelist|name|procedure-type-20">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 20</entry>
 <entry key="codelist|name|procedure-type-21">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 21</entry>
+<entry key="codelist|name|procedure-type-22">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 22</entry>
 <entry key="codelist|name|procedure-type-23">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 23</entry>
 <entry key="codelist|name|procedure-type-24">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 24</entry>
 <entry key="codelist|name|procedure-type-25">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 25</entry>
@@ -232,8 +233,8 @@
 <entry key="codelist|name|result">Lista dozwolonych kodów rodzaju ogłoszenia dla typu formularza wyników</entry>
 <entry key="codelist|name|review-body-type">Ta tabela obejmuje listę organizacji rozpatrujących odwołanie dla danej procedury.</entry>
 <entry key="codelist|name|review-decision-type">W tabeli opisano decyzje podjęte przez organ odwoławczy.</entry>
+<entry key="codelist|name|review-information-type">Lista kodów określających status danego odwołania.</entry>
 <entry key="codelist|name|review-requester-type">Kategoria zainteresowanych stron, które wystąpiły o odwołanie</entry>
-<entry key="codelist|name|review-status">Lista kodów określających status danego odwołania.</entry>
 <entry key="codelist|name|review-type">Lista kodów służących do identyfikacji rodzaju osoby wnioskującej o odwołanie</entry>
 <entry key="codelist|name|rewards-penalties">Lista kodów wynagrodzeń i kar związanych z usługami transportu publicznego.</entry>
 <entry key="codelist|name|selection-criterion">Lista kodów wyrażających warunki, które są brane pod uwagę do celów oceny. Ta lista kodów jest podzbiorem listy kodów ESPD dotyczących systematyki kryteriów.</entry>

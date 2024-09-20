@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Beskrivelse af kvalitetsmålet</entry>
 <entry key="field|description|OPT-072-Lot-Language">Sprog, der bruges til beskrivelse af kvalitetsmålet</entry>
 <entry key="field|description|OPT-090-Lot">Kode til at angive, at det drejer sig om køberkategorier: 'buyer categories'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Typen (dvs. rollen) af den part, der har anmodet om gennemgang</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Navn på listen, der indeholder koderne for typerne af gennemgangsanmodere</entry>
-<entry key="field|description|OPT-092-ReviewBody">Beskrivelse af den instans, der er ansvarlig for behandling af anmodninger om gennemgang</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Sprog, hvori beskrivelsen af den instans, der er ansvarlig for behandling af anmodninger om gennemgang, er skrevet</entry>
-<entry key="field|description|OPT-092-ReviewReq">Beskrivelse af typen af gennemgangsanmoder</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Sprog, hvori typen af gennemgangsanmoder er beskrevet</entry>
 <entry key="field|description|OPT-100-Contract">Henvisning til resultatmeddelelsen, der indeholder oplysninger om den underskrevne rammeaftale, under hvilken den nuværende kontrakt finder sted</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Navn på det skema, der bruges til at udtrykke henvisningen til resultatmeddelelsen, der indeholder oplysninger om den underskrevne rammeaftale, under hvilken den nuværende kontrakt finder sted</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Webadresse, hvor lokal skattelovgivning kan findes</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Beskrivelse af kvalitetsmål</entry>
 <entry key="field|name|OPT-072-Lot-Language">Beskrivelse af kvalitetsmål</entry>
 <entry key="field|name|OPT-090-Lot">Køberkategorier</entry>
-<entry key="field|name|OPT-091-ReviewReq">Typer af klagere</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Typer af klagere</entry>
-<entry key="field|name|OPT-092-ReviewBody">Beskrivelse af klageorgan</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Beskrivelse af klageorgan</entry>
-<entry key="field|name|OPT-092-ReviewReq">Beskrivelse af klageorgan</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Beskrivelse af klageorgan</entry>
 <entry key="field|name|OPT-100-Contract">Bekendtgørelse om indgåede kontrakter, der skabte rammeaftalen</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Bekendtgørelse om indgåede kontrakter, der skabte rammeaftalen</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Webadresse for skattelovgivning</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organisation eller specifikt kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organisationen, der udfylder denne rolle</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organisation eller specifikt kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organisation eller specifikt kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organisation eller specifikt kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organisation eller specifikt kontaktpunkt</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organisation eller specifikt kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organisationen, der udfylder denne rolle</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organisation eller specifikt kontaktpunkt</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organisationen, der udfylder denne rolle</entry>

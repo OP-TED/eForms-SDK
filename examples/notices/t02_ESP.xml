@@ -27,6 +27,10 @@
 								<cbc:PayableAmount currencyID="EUR">9693759000.00</cbc:PayableAmount>
 							</cac:LegalMonetaryTotal>
 							<efac:ContractTerm>
+								<efbc:TermCode listName="contract-detail">all-rev-tic</efbc:TermCode>
+								<efbc:TermPercent>50</efbc:TermPercent>
+							</efac:ContractTerm>
+							<efac:ContractTerm>
 								<efbc:TermCode listName="contract-detail">cost-comp</efbc:TermCode>
 								<efbc:TermDescription languageID="SPA">Description of the costs parameters blablabla ...</efbc:TermDescription>
 							</efac:ContractTerm>

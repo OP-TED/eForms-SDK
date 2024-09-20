@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Popis kvalitatívneho cieľa</entry>
 <entry key="field|description|OPT-072-Lot-Language">Jazyk, v ktorom je popísaný kvalitatívny cieľ</entry>
 <entry key="field|description|OPT-090-Lot">Kód, ktorý označuje, že ide o kategórie kupujúcich: 'kategórie kupujúcich'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Strana (tj. úloha), ktorá požiadala o preskúmanie</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Názov zoznamu obsahujúceho kódy pre typy žiadostí o preskúmanie</entry>
-<entry key="field|description|OPT-092-ReviewBody">Popis jednotky zodpovednej za spracovanie žiadostí o preskúmanie</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Jazyk, v ktorom je popísaná jednotka zodpovedná za spracovanie žiadostí o preskúmanie</entry>
-<entry key="field|description|OPT-092-ReviewReq">Popis typu žiadateľa o preskúmanie</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Jazyk, v ktorom je popísaný typ žiadateľa o preskúmanie</entry>
 <entry key="field|description|OPT-100-Contract">Odkaz na výsledkovú správu obsahujúcu informácie o podpísanej rámcovej dohode, na ktorej je založená súčasná zmluva</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Názov schémy použitej na zaznamenanie odkazu na výsledkovú správu obsahujúcu informácie o podpísanej rámcovej dohode, na ktorej je založená súčasná zmluva</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Webová adresa, na ktorej je možné nájsť miestnu daňovú legislatívu</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Opis cieľa kvality</entry>
 <entry key="field|name|OPT-072-Lot-Language">Opis cieľa kvality</entry>
 <entry key="field|name|OPT-090-Lot">Kategórie kupujúcich</entry>
-<entry key="field|name|OPT-091-ReviewReq">Typ žiadateľa o preskúmanie</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Typ žiadateľa o preskúmanie</entry>
-<entry key="field|name|OPT-092-ReviewBody">Opis typu orgánu zodpovedného za preskúmanie</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Opis typu orgánu zodpovedného za preskúmanie</entry>
-<entry key="field|name|OPT-092-ReviewReq">Opis typu orgánu zodpovedného za preskúmanie</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Opis typu orgánu zodpovedného za preskúmanie</entry>
 <entry key="field|name|OPT-100-Contract">Oznámenie, ktoré vytvorilo rámcovú dohodu</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Oznámenie, ktoré vytvorilo rámcovú dohodu</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Webová adresa daňovej legislatívy</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organizácia alebo konkrétny kontaktný bod</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organizácia, ktorá plní túto úlohu</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organizácia alebo konkrétny kontaktný bod</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organizácia alebo konkrétny kontaktný bod</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organizácia alebo konkrétny kontaktný bod</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organizácia alebo konkrétny kontaktný bod</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organizácia alebo konkrétny kontaktný bod</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organizácia, ktorá plní túto úlohu</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organizácia alebo konkrétny kontaktný bod</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organizácia, ktorá plní túto úlohu</entry>

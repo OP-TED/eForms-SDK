@@ -52,7 +52,12 @@
 <entry key="codelist|name|ecatalog-submission">List of codes to specify whether the submission of electronic catalogues is allowed or not.</entry>
 <entry key="codelist|name|economic-operator-size">This table provides the different categories in which the tenderers to whom a contract can be awarded are classified, according to their size (using as criteria the number of employees).</entry>
 <entry key="codelist|name|eea-country">List of codes of the European Economic Area countries</entry>
+<entry key="codelist|name|eed-scope">This table provides the list of codes and values used to indicate that a procurement falls under the scope of the Energy Efficiency Directive</entry>
 <entry key="codelist|name|einvoicing">List of codes to specify whether the use of electronic invoicing is allowed or not.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Legal Framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.</entry>
+<entry key="codelist|name|energy-efficiency-item">Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">This table provides the list of codes and values used to identify the products, works or services category for their energy efficiency</entry>
+<entry key="codelist|name|energy-efficiency-label">This table provides the list of codes and values used to specify the energy efficiency of the product</entry>
 <entry key="codelist|name|entity-activity">List of Main Activity codes allowed for a Contracting Entity</entry>
 <entry key="codelist|name|environmental-impact">This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor</entry>
 <entry key="codelist|name|esignature-submission">List of codes to dpecify whether electronic signature may be used or not.</entry>
@@ -70,6 +75,9 @@
 <entry key="codelist|name|gpp-criteria">Green Public Procurement Criteria</entry>
 <entry key="codelist|name|indicator">List of eforms allowed indicator values</entry>
 <entry key="codelist|name|innovative-acquisition">This table provides the codes and values used for the type of innovative works, supplies or services being procured within the context of public procurement.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">This table provides the list of codes and values used to specify the exception to the application of the IPI measure</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">This table provides the list of codes and values used to specify the applied IPI measure</entry>
+<entry key="codelist|name|ipi-scope">This table provides the list of codes and values used to indicate that a procurement falls under the scope of the International Procurement Instrument</entry>
 <entry key="codelist|name|irregularity-type">This code list refers generally to the types of irregularities described in Section 2 of the Annex to the Commission Decision C(2019) 3452.</entry>
 <entry key="codelist|name|language">List of three characters language codes correlated with the ISO 639 international standard with additional codes for some languages without assigned ISO code.</entry>
 <entry key="codelist|name|lawful-country">List of countries for which there is a legal basis for publication in the Supplement to the Official Journal of the European Union</entry>
@@ -128,6 +136,7 @@
 <entry key="codelist|name|linguistic-status">List of codes to specify whether a linguistic version has or not a legal status.</entry>
 <entry key="codelist|name|main-activity">List of codes for the main activities of the buyers.</entry>
 <entry key="codelist|name|measurement-unit">List of codes for the most commonly used Unit of Measures in international trades.</entry>
+<entry key="codelist|name|metric-type">List of codes used to characterize the type of metric covered by the specified numbers. </entry>
 <entry key="codelist|name|missing-info-submission">This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.</entry>
 <entry key="codelist|name|modification-justification">This table provides the main reasons for modifying a contract within the domain of public procurement.</entry>
 <entry key="codelist|name|nda">List of codes to specify whether a non-disclosure agreement is required.</entry>
@@ -182,6 +191,7 @@
 <entry key="codelist|name|nuts-svn-lvl3">List of level 3 NUTS codes for Slovenia</entry>
 <entry key="codelist|name|nuts-swe-lvl3">List of level 3 NUTS codes for Sweden</entry>
 <entry key="codelist|name|nuts-tur-lvl3">List of level 3 NUTS codes for Turkey</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">List of level 3 NUTS codes for Kosovo</entry>
 <entry key="codelist|name|organisation-role">This table provides the list of the different functions of the organisations in a procurement procedure.</entry>
 <entry key="codelist|name|organisation-role-service">List of possible service codes for Procurement Service Providers</entry>
 <entry key="codelist|name|other-place-service">This table provides the broad geopolitical areas linked to the location of works and the place of performance or delivery within the context of public procurement.</entry>
@@ -208,6 +218,7 @@
 <entry key="codelist|name|procedure-type-19">Allowed procedure type for notice subtype 19</entry>
 <entry key="codelist|name|procedure-type-20">Allowed procedure type for notice subtype 20</entry>
 <entry key="codelist|name|procedure-type-21">Allowed procedure type for notice subtype 21</entry>
+<entry key="codelist|name|procedure-type-22">Allowed procedure type for notice subtype 22</entry>
 <entry key="codelist|name|procedure-type-23">Allowed procedure type for notice subtype 23</entry>
 <entry key="codelist|name|procedure-type-24">Allowed procedure type for notice subtype 24</entry>
 <entry key="codelist|name|procedure-type-25">Allowed procedure type for notice subtype 25</entry>
@@ -245,8 +256,8 @@
 <entry key="codelist|name|revenue-allocation">Revenue allocation</entry>
 <entry key="codelist|name|review-body-type">This table covers the list of organisations providing the review of a given procedure.</entry>
 <entry key="codelist|name|review-decision-type">This table describes the decision made a review body.</entry>
+<entry key="codelist|name|review-information-type">List of codes for the status of a given review request.</entry>
 <entry key="codelist|name|review-requester-type">Category of Stakeholders that requested a review</entry>
-<entry key="codelist|name|review-status">List of codes for the status of a given review request.</entry>
 <entry key="codelist|name|review-type">List of codes for the identification of the type of review requester</entry>
 <entry key="codelist|name|rewards-penalties">List of codes for rewards and penalties associated to a Public Transportation Service.</entry>
 <entry key="codelist|name|selection-criteria-source">Source for the exclusion grounds.</entry>

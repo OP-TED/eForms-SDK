@@ -86,7 +86,6 @@
 									<cbc:StreetName>Polaris House</cbc:StreetName>
 									<cbc:CityName>Swindon</cbc:CityName>
 									<cbc:PostalZone>SN2 1FF</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKK14</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -112,7 +111,6 @@
 								<cac:PostalAddress>
 									<cbc:CityName>Swindon</cbc:CityName>
 									<cbc:PostalZone>SN2 1FF</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKK14</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -137,7 +135,6 @@
 									<cbc:StreetName>Some Street</cbc:StreetName>
 									<cbc:CityName>Example City</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKK14</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -197,7 +194,6 @@
 									<cbc:StreetName>240 Blackfriars Road</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>SE1 8NW</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI44</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -310,7 +306,6 @@
 				<cbc:AdditionalStreetName>Madingley Road</cbc:AdditionalStreetName>
 				<cbc:CityName>Cambridge</cbc:CityName>
 				<cbc:PostalZone>CB3 0ET</cbc:PostalZone>
-				<cbc:CountrySubentityCode listName="nuts">UKH12</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
@@ -452,7 +447,6 @@
 					<cbc:AdditionalStreetName>Madingley Road</cbc:AdditionalStreetName>
 					<cbc:CityName>Cambridge</cbc:CityName>
 					<cbc:PostalZone>CB3 0ET</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKH12</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>

@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.225",
-    "createdOn" : "2024-09-04T11:56:49"
+    "version" : "1.12.359",
+    "createdOn" : "2024-09-20T13:39:57"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -331,12 +331,37 @@
     "description" : "List of codes of the European Economic Area countries",
     "_label" : "codelist|name|eea-country"
   }, {
+    "id" : "eed-scope",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "indicator",
+    "filename" : "indicator_eed-scope.gc",
+    "description" : "This table provides the list of codes and values used to indicate that a procurement falls under the scope of the Energy Efficiency Directive",
+    "_label" : "codelist|name|eed-scope"
+  }, {
     "id" : "einvoicing",
     "version" : "1.13.0-SNAPSHOT",
     "parentId" : "permission",
     "filename" : "permission_einvoicing.gc",
     "description" : "List of codes to specify whether the use of electronic invoicing is allowed or not.",
     "_label" : "codelist|name|einvoicing"
+  }, {
+    "id" : "energy-efficiency-basis",
+    "version" : "1.0",
+    "filename" : "energy-efficiency-basis.gc",
+    "description" : "Legal Framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.",
+    "_label" : "codelist|name|energy-efficiency-basis"
+  }, {
+    "id" : "energy-efficiency-item",
+    "version" : "1.0",
+    "filename" : "energy-efficiency-item.gc",
+    "description" : "Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.",
+    "_label" : "codelist|name|energy-efficiency-item"
+  }, {
+    "id" : "energy-efficiency-label",
+    "version" : "1.0",
+    "filename" : "energy-efficiency-label.gc",
+    "description" : "This table provides the list of codes and values used to specify the energy efficiency of the product",
+    "_label" : "codelist|name|energy-efficiency-label"
   }, {
     "id" : "entity-activity",
     "version" : "1.13.0-SNAPSHOT",
@@ -446,6 +471,25 @@
     "filename" : "innovative-acquisition.gc",
     "description" : "This table provides the codes and values used for the type of innovative works, supplies or services being procured within the context of public procurement.",
     "_label" : "codelist|name|innovative-acquisition"
+  }, {
+    "id" : "international-procurement-instrument-application",
+    "version" : "1.0",
+    "filename" : "international-procurement-instrument-application.gc",
+    "description" : "This table provides the list of codes and values used to specify the exception to the application of the IPI measure",
+    "_label" : "codelist|name|international-procurement-instrument-application"
+  }, {
+    "id" : "international-procurement-instrument-measure",
+    "version" : "1.0",
+    "filename" : "international-procurement-instrument-measure.gc",
+    "description" : "This table provides the list of codes and values used to specify the applied IPI measure",
+    "_label" : "codelist|name|international-procurement-instrument-measure"
+  }, {
+    "id" : "ipi-scope",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "indicator",
+    "filename" : "indicator_ipi-scope.gc",
+    "description" : "This table provides the list of codes and values used to indicate that a procurement falls under the scope of the International Procurement Instrument",
+    "_label" : "codelist|name|ipi-scope"
   }, {
     "id" : "irregularity-type",
     "version" : "20240612-0",
@@ -848,6 +892,12 @@
     "description" : "List of codes for the most commonly used Unit of Measures in international trades.",
     "_label" : "codelist|name|measurement-unit"
   }, {
+    "id" : "metric-type",
+    "version" : "1.0",
+    "filename" : "metric-type.gc",
+    "description" : "List of codes used to characterize the type of metric covered by the specified numbers. ",
+    "_label" : "codelist|name|metric-type"
+  }, {
     "id" : "missing-info-submission",
     "version" : "20240612-0",
     "filename" : "missing-info-submission.gc",
@@ -935,7 +985,7 @@
     "_label" : "codelist|name|number-weight"
   }, {
     "id" : "nuts",
-    "version" : "2021",
+    "version" : "2024",
     "filename" : "nuts.gc",
     "description" : "List of codes for the geographical nomenclature subdivision of the economic territory of the European Union (EU) into regions at three different levels (NUTS 1, 2 and 3 respectively, moving from larger to smaller territorial units).",
     "_label" : "codelist|name|nuts"
@@ -1037,13 +1087,6 @@
     "filename" : "nuts_nuts-fra-lvl3.gc",
     "description" : "List of level 3 NUTS codes for France",
     "_label" : "codelist|name|nuts-fra-lvl3"
-  }, {
-    "id" : "nuts-gbr-lvl3",
-    "version" : "1.13.0-SNAPSHOT",
-    "parentId" : "nuts",
-    "filename" : "nuts_nuts-gbr-lvl3.gc",
-    "description" : "List of level 3 NUTS codes for United Kingdom",
-    "_label" : "codelist|name|nuts-gbr-lvl3"
   }, {
     "id" : "nuts-grc-lvl3",
     "version" : "1.13.0-SNAPSHOT",
@@ -1212,6 +1255,13 @@
     "filename" : "nuts_nuts-tur-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Turkey",
     "_label" : "codelist|name|nuts-tur-lvl3"
+  }, {
+    "id" : "nuts-xkx-lvl3",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "nuts",
+    "filename" : "nuts_nuts-xkx-lvl3.gc",
+    "description" : "List of level 3 NUTS codes for Kosovo",
+    "_label" : "codelist|name|nuts-xkx-lvl3"
   }, {
     "id" : "organisation-role",
     "version" : "20240612-0",
@@ -1390,6 +1440,13 @@
     "filename" : "procurement-procedure-type_procedure-type-21.gc",
     "description" : "Allowed procedure type for notice subtype 21",
     "_label" : "codelist|name|procedure-type-21"
+  }, {
+    "id" : "procedure-type-22",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "procurement-procedure-type",
+    "filename" : "procurement-procedure-type_procedure-type-22.gc",
+    "description" : "Allowed procedure type for notice subtype 22",
+    "_label" : "codelist|name|procedure-type-22"
   }, {
     "id" : "procedure-type-23",
     "version" : "1.13.0-SNAPSHOT",
@@ -1629,18 +1686,18 @@
     "description" : "This table describes the decision made a review body.",
     "_label" : "codelist|name|review-decision-type"
   }, {
+    "id" : "review-information-type",
+    "version" : "1.0",
+    "filename" : "review-information-type.gc",
+    "description" : "List of codes for the status of a given review request.",
+    "_label" : "codelist|name|review-information-type"
+  }, {
     "id" : "review-requester-type",
     "version" : "1.13.0-SNAPSHOT",
     "parentId" : "organisation-role",
     "filename" : "organisation-role_review-requester-type.gc",
     "description" : "Category of Stakeholders that requested a review",
     "_label" : "codelist|name|review-requester-type"
-  }, {
-    "id" : "review-status",
-    "version" : "1.0",
-    "filename" : "review-status.gc",
-    "description" : "List of codes for the status of a given review request.",
-    "_label" : "codelist|name|review-status"
   }, {
     "id" : "review-type",
     "version" : "1.0",

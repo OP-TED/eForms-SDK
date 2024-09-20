@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Περιγραφή του στόχου ποιότητας</entry>
 <entry key="field|description|OPT-072-Lot-Language">Γλώσσα που χρησιμοποιείται για την περιγραφή του στόχου ποιότητας</entry>
 <entry key="field|description|OPT-090-Lot">Κωδικός για να δηλώσει ότι πρόκειται για κατηγορίες αγοραστών: 'buyer categories'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Ο τύπος (δηλαδή ο ρόλος) του μέρους που ζήτησε την επανεξέταση</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Όνομα της λίστας που περιέχει τους κωδικούς για τους τύπους των αιτητών επανεξέτασης</entry>
-<entry key="field|description|OPT-092-ReviewBody">Περιγραφή του οργανισμού που είναι υπεύθυνος για την επεξεργασία των αιτήσεων επανεξέτασης</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Γλώσσα στην οποία είναι γραμμένη η περιγραφή του οργανισμού που είναι υπεύθυνος για την επεξεργασία των αιτήσεων επανεξέτασης</entry>
-<entry key="field|description|OPT-092-ReviewReq">Περιγραφή του τύπου του αιτητή επανεξέτασης</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Γλώσσα στην οποία είναι περιγραφεί ο τύπος του αιτητή επανεξέτασης</entry>
 <entry key="field|description|OPT-100-Contract">Αναφορά στην ειδοποίηση αποτελέσματος, που περιέχει πληροφορίες για την υπογεγραμμένη πλαισιακή συμφωνία, κάτω από την οποία λαμβάνει χώρα η τρέχουσα σύμβαση</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Όνομα του σχήματος που χρησιμοποιείται για να εκφράσει την αναφορά στην ειδοποίηση αποτελέσματος, που περιέχει πληροφορίες για την υπογεγραμμένη πλαισιακή συμφωνία, κάτω από την οποία λαμβάνει χώρα η τρέχουσα σύμβαση</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Διεύθυνση ιστοσελίδας, όπου μπορεί να βρεθεί η τοπική φορολογική νομοθεσία</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Περιγραφή του ποιοτικού στόχου</entry>
 <entry key="field|name|OPT-072-Lot-Language">Περιγραφή του ποιοτικού στόχου</entry>
 <entry key="field|name|OPT-090-Lot">Κατηγορίες αγοραστή</entry>
-<entry key="field|name|OPT-091-ReviewReq">Τύπος υποβάλλοντος προδικαστική προσφυγή</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Τύπος υποβάλλοντος προδικαστική προσφυγή</entry>
-<entry key="field|name|OPT-092-ReviewBody">Περιγραφή είδους οργάνου προσφυγής</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Περιγραφή είδους οργάνου προσφυγής</entry>
-<entry key="field|name|OPT-092-ReviewReq">Περιγραφή είδους οργάνου προσφυγής</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Περιγραφή είδους οργάνου προσφυγής</entry>
 <entry key="field|name|OPT-100-Contract">Ειδοποίηση που δημιούργησε τη συμφωνία πλαίσιο</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Ειδοποίηση που δημιούργησε τη συμφωνία πλαίσιο</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Διεύθυνση ιστοσελίδας της φορολογικής νομοθεσίας</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Οργάνωση ή συγκεκριμένο σημείο επαφής</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Οργάνωση που εκπληρώνει αυτόν τον ρόλο</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Οργάνωση ή συγκεκριμένο σημείο επαφής</entry>
-<entry key="field|name|OPT-301-ReviewBody">Οργάνωση ή συγκεκριμένο σημείο επαφής</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Οργάνωση ή συγκεκριμένο σημείο επαφής</entry>
-<entry key="field|name|OPT-301-ReviewReq">Οργάνωση ή συγκεκριμένο σημείο επαφής</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Οργάνωση ή συγκεκριμένο σημείο επαφής</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Οργάνωση που εκπληρώνει αυτόν τον ρόλο</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Οργάνωση ή συγκεκριμένο σημείο επαφής</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Οργάνωση που εκπληρώνει αυτόν τον ρόλο</entry>

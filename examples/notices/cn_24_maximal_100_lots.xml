@@ -27,7 +27,6 @@
 									<cbc:Department>Finance Division</cbc:Department>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -56,7 +55,6 @@
 									<cbc:Department>Procurement Dpt</cbc:Department>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -82,7 +80,6 @@
 									<cbc:Department>Fin Adm Archives Dpt</cbc:Department>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -108,7 +105,6 @@
 									<cbc:Department>Tenders Evaluation Committee</cbc:Department>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -135,7 +131,6 @@
 									<cbc:StreetName>6 Main Street</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -166,7 +161,6 @@
 									<cbc:Department>Environment Information department</cbc:Department>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -198,7 +192,6 @@
 									<cbc:Department>ABC Unit</cbc:Department>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -229,7 +222,6 @@
 									<cbc:Department>Reviews and Complains</cbc:Department>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -259,7 +251,6 @@
 									<cbc:Department>Public Procurement</cbc:Department>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -442,7 +433,6 @@
 				<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 				<cbc:CityName>London</cbc:CityName>
 				<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-				<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
@@ -732,10 +722,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -810,7 +800,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -1117,10 +1106,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -1195,7 +1184,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -1502,10 +1490,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -1580,7 +1568,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -1887,10 +1874,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -1965,7 +1952,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -2272,10 +2258,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -2350,7 +2336,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -2657,10 +2642,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -2735,7 +2720,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -3042,10 +3026,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -3120,7 +3104,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -3427,10 +3410,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -3505,7 +3488,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -3812,10 +3794,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -3890,7 +3872,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -4197,10 +4178,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -4275,7 +4256,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -4582,10 +4562,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -4660,7 +4640,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -4967,10 +4946,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -5045,7 +5024,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -5352,10 +5330,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -5430,7 +5408,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -5737,10 +5714,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -5815,7 +5792,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -6122,10 +6098,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -6200,7 +6176,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -6507,10 +6482,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -6585,7 +6560,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -6892,10 +6866,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -6970,7 +6944,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -7277,10 +7250,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -7355,7 +7328,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -7662,10 +7634,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -7740,7 +7712,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -8047,10 +8018,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -8125,7 +8096,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -8432,10 +8402,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -8510,7 +8480,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -8817,10 +8786,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -8895,7 +8864,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -9202,10 +9170,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -9280,7 +9248,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -9587,10 +9554,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -9665,7 +9632,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -9972,10 +9938,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -10050,7 +10016,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -10357,10 +10322,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -10435,7 +10400,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -10742,10 +10706,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -10820,7 +10784,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -11127,10 +11090,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -11205,7 +11168,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -11512,10 +11474,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -11590,7 +11552,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -11897,10 +11858,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -11975,7 +11936,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -12282,10 +12242,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -12360,7 +12320,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -12667,10 +12626,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -12745,7 +12704,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -13052,10 +13010,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -13130,7 +13088,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -13437,10 +13394,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -13515,7 +13472,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -13822,10 +13778,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -13900,7 +13856,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -14207,10 +14162,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -14285,7 +14240,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -14592,10 +14546,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -14670,7 +14624,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -14977,10 +14930,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -15055,7 +15008,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -15362,10 +15314,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -15440,7 +15392,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -15747,10 +15698,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -15825,7 +15776,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -16132,10 +16082,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -16210,7 +16160,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -16517,10 +16466,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -16595,7 +16544,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -16902,10 +16850,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -16980,7 +16928,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -17287,10 +17234,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -17365,7 +17312,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -17672,10 +17618,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -17750,7 +17696,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -18057,10 +18002,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -18135,7 +18080,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -18442,10 +18386,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -18520,7 +18464,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -18827,10 +18770,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -18905,7 +18848,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -19212,10 +19154,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -19290,7 +19232,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -19597,10 +19538,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -19675,7 +19616,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -19982,10 +19922,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -20060,7 +20000,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -20367,10 +20306,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -20445,7 +20384,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -20752,10 +20690,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -20830,7 +20768,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -21137,10 +21074,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -21215,7 +21152,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -21522,10 +21458,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -21600,7 +21536,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -21907,10 +21842,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -21985,7 +21920,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -22292,10 +22226,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -22370,7 +22304,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -22677,10 +22610,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -22755,7 +22688,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -23062,10 +22994,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -23140,7 +23072,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -23447,10 +23378,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -23525,7 +23456,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -23832,10 +23762,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -23910,7 +23840,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -24217,10 +24146,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -24295,7 +24224,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -24602,10 +24530,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -24680,7 +24608,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -24987,10 +24914,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -25065,7 +24992,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -25372,10 +25298,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -25450,7 +25376,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -25757,10 +25682,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -25835,7 +25760,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -26142,10 +26066,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -26220,7 +26144,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -26527,10 +26450,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -26605,7 +26528,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -26912,10 +26834,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -26990,7 +26912,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -27297,10 +27218,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -27375,7 +27296,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -27682,10 +27602,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -27760,7 +27680,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -28067,10 +27986,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -28145,7 +28064,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -28452,10 +28370,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -28530,7 +28448,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -28837,10 +28754,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -28915,7 +28832,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -29222,10 +29138,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -29300,7 +29216,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -29607,10 +29522,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -29685,7 +29600,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -29992,10 +29906,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -30070,7 +29984,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -30377,10 +30290,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -30455,7 +30368,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -30762,10 +30674,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -30840,7 +30752,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -31147,10 +31058,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -31225,7 +31136,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -31532,10 +31442,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -31610,7 +31520,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -31917,10 +31826,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -31995,7 +31904,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -32302,10 +32210,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -32380,7 +32288,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -32687,10 +32594,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -32765,7 +32672,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -33072,10 +32978,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -33150,7 +33056,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -33457,10 +33362,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -33535,7 +33440,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -33842,10 +33746,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -33920,7 +33824,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -34227,10 +34130,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -34305,7 +34208,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -34612,10 +34514,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -34690,7 +34592,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -34997,10 +34898,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -35075,7 +34976,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -35382,10 +35282,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -35460,7 +35360,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -35767,10 +35666,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -35845,7 +35744,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -36152,10 +36050,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -36230,7 +36128,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -36537,10 +36434,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -36615,7 +36512,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -36922,10 +36818,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -37000,7 +36896,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -37307,10 +37202,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -37385,7 +37280,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -37692,10 +37586,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -37770,7 +37664,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -38077,10 +37970,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -38155,7 +38048,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -38462,10 +38354,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -38540,7 +38432,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>
@@ -38847,10 +38738,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
@@ -38925,7 +38816,6 @@
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<cbc:CityName>London</cbc:CityName>
 					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>

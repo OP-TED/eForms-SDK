@@ -733,7 +733,7 @@
    <svrl:failed-assert id="BR-BT-00727-0228"
                        location="/can:ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
-                       test="((cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode) or (cac:RealizedLocation/cac:Address/cbc:Region)) or not(../cbc:NoticeTypeCode/normalize-space(text()) = ('can-desg','can-social','can-standard','can-tran','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pin-tran','pmc','qu-sy','subco','veat'))">
+                       test="((cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode) or (cac:RealizedLocation/cac:Address/cbc:Region)) or not(../cbc:NoticeTypeCode/normalize-space(text()) = ('can-desg','can-social','can-standard','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pmc','qu-sy','subco','veat'))">
       <svrl:text>rule|text|BR-BT-00727-0228</svrl:text>
       <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope_BT-727-Procedure"
                                  see="field:BT-727-Procedure">
@@ -823,6 +823,12 @@
       <svrl:text>rule|text|BR-OPT-00210-0102</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"/>
+   <svrl:failed-assert id="BR-OPT-00316-0101"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
+                       role="ERROR"
+                       test="(. = $global-res-to-con) or not($noticeSubType = ('29','30','31','32','33','34','35','36','37','E5','E4','T02'))">
+      <svrl:text>rule|text|BR-OPT-00316-0101</svrl:text>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"/>
 </svrl:schematron-output>

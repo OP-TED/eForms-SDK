@@ -776,6 +776,15 @@
          <svrl:text>efbc:DPSTerminationIndicator</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-00685-0052"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="count(efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode) &gt; 0 or ((efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[not(../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='ipi-scope']/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')]/normalize-space(text())) or (not(cbc:TenderResultCode)) or (cbc:TenderResultCode/normalize-space(text()) = 'open-nw'))">
+      <svrl:text>rule|text|BR-BT-00685-0052</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-LotResult_BT-685-LotResult" see="field:BT-685-LotResult">
+         <svrl:text>efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:failed-assert id="BR-OPT-00315-0052"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
                        role="ERROR"
@@ -823,6 +832,16 @@
    <svrl:active-pattern id="EFORMS-validation-stage-4m"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
+   <svrl:failed-assert id="BR-BT-00165-0036"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
+                       role="ERROR"
+                       test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">
+      <svrl:text>rule|text|BR-BT-00165-0036</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-165-Organization-Company"
+                                 see="field:BT-165-Organization-Company">
+         <svrl:text>efbc:CompanySizeCode</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:failed-assert id="BR-OPT-00300-0255"
@@ -842,7 +861,7 @@
    <svrl:failed-assert id="BR-BT-00727-0228"
                        location="/can:ContractAwardNotice/cac:ProcurementProject"
                        role="ERROR"
-                       test="((cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode) or (cac:RealizedLocation/cac:Address/cbc:Region)) or not(../cbc:NoticeTypeCode/normalize-space(text()) = ('can-desg','can-social','can-standard','can-tran','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pin-tran','pmc','qu-sy','subco','veat'))">
+                       test="((cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode) or (cac:RealizedLocation/cac:Address/cbc:Region)) or not(../cbc:NoticeTypeCode/normalize-space(text()) = ('can-desg','can-social','can-standard','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pmc','qu-sy','subco','veat'))">
       <svrl:text>rule|text|BR-BT-00727-0228</svrl:text>
       <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope_BT-727-Procedure"
                                  see="field:BT-727-Procedure">

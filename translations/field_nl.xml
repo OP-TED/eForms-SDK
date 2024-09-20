@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Beschrijving van het kwaliteitsdoel</entry>
 <entry key="field|description|OPT-072-Lot-Language">Taal waarin het kwaliteitsdoel is beschreven</entry>
 <entry key="field|description|OPT-090-Lot">Code die aangeeft dat het gaat om categorieën van kopers: 'categorieën van kopers'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Partij (d.w.z. rol) die om de beoordeling heeft gevraagd</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Naam van de tabel met codes voor typen beoordelingsverzoeken</entry>
-<entry key="field|description|OPT-092-ReviewBody">Beschrijving van de instantie die verantwoordelijk is voor de verwerking van beoordelingsverzoeken</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Taal waarin de beschrijving van de instantie die verantwoordelijk is voor de verwerking van beoordelingsverzoeken, is geschreven</entry>
-<entry key="field|description|OPT-092-ReviewReq">Beschrijving van het type beoordelingsverzoeker</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Taal waarin het type beoordelingsverzoeker is beschreven</entry>
 <entry key="field|description|OPT-100-Contract">Verwijzing naar het resultaatbericht met informatie over de ondertekende raamovereenkomst waarop het huidige contract is gebaseerd</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Naam van het schema dat wordt gebruikt om de verwijzing naar het resultaatbericht met informatie over de ondertekende raamovereenkomst waarop het huidige contract is gebaseerd, te noteren</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Webadres waar de lokale belastingwetgeving te vinden is</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Beschrijving kwaliteitsdoelstelling</entry>
 <entry key="field|name|OPT-072-Lot-Language">Beschrijving kwaliteitsdoelstelling</entry>
 <entry key="field|name|OPT-090-Lot">Koperscategorieën</entry>
-<entry key="field|name|OPT-091-ReviewReq">Type aanvrager beroep</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Type aanvrager beroep</entry>
-<entry key="field|name|OPT-092-ReviewBody">Beschrijving type beroepsinstantie</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Beschrijving type beroepsinstantie</entry>
-<entry key="field|name|OPT-092-ReviewReq">Beschrijving type beroepsinstantie</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Beschrijving type beroepsinstantie</entry>
 <entry key="field|name|OPT-100-Contract">Kennisgeving die de raamovereenkomst heeft gecreëerd</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Kennisgeving die de raamovereenkomst heeft gecreëerd</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Website-adres van de belastingwetgeving</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organisatie of specifiek contactpunt</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organisatie die deze rol vervult</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organisatie of specifiek contactpunt</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organisatie of specifiek contactpunt</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organisatie of specifiek contactpunt</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organisatie of specifiek contactpunt</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organisatie of specifiek contactpunt</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organisatie die deze rol vervult</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organisatie of specifiek contactpunt</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organisatie die deze rol vervult</entry>

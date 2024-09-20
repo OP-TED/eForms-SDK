@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Deskrizzjoni tal-għan tal-kwalità</entry>
 <entry key="field|description|OPT-072-Lot-Language">Lingwa użata għall-deskrizzjoni tal-għan tal-kwalità</entry>
 <entry key="field|description|OPT-090-Lot">Kodi li jindika li qed nitkellmu dwar kategoriji ta' klijenti: 'kategoriji ta' klijenti'</entry>
-<entry key="field|description|OPT-091-ReviewReq">It-tip (jiġifieri r-rwol) tal-parti li talbet ir-reviżjoni</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Isem tal-lista li fihom il-kodi għat-tipi ta' talbiet għar-reviżjoni</entry>
-<entry key="field|description|OPT-092-ReviewBody">Deskrizzjoni tal-korpu responsabbli għall-ipproċessar tal-talbiet għar-reviżjoni</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Il-lingwa li fihom miktub id-deskrizzjoni tal-korpu responsabbli għall-ipproċessar tal-talbiet għar-reviżjoni</entry>
-<entry key="field|description|OPT-092-ReviewReq">Deskrizzjoni tat-tip ta' min jitolbu r-reviżjoni</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Il-lingwa li fiha hija deskritta t-tip ta' min jitolbu r-reviżjoni</entry>
 <entry key="field|description|OPT-100-Contract">Referenza għan-notifika tar-riżultat li fiha l-informazzjoni dwar l-ftehim qafas iffirmat li fuq il-bażi tiegħu qed isir il-kuntratt attwali</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Isem ta' skema li tintuża biex tesprimi r-referenza għan-notifika tar-riżultat li fiha l-informazzjoni dwar l-ftehim qafas iffirmat li fuq il-bażi tiegħu qed isir il-kuntratt attwali</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Indirizz web fejn tista' ssib il-leġiżlazzjoni tat-taxxa lokali</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Deskrizzjoni tal-mira tal-kwalità</entry>
 <entry key="field|name|OPT-072-Lot-Language">Deskrizzjoni tal-mira tal-kwalità</entry>
 <entry key="field|name|OPT-090-Lot">Kategoriji ta’ xerrejja</entry>
-<entry key="field|name|OPT-091-ReviewReq">Tip ta’ rikjedent ta’ rieżami</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Tip ta’ rikjedent ta’ rieżami</entry>
-<entry key="field|name|OPT-092-ReviewBody">Deskrizzjoni tat-tip ta’ korp tar-rieżami</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Deskrizzjoni tat-tip ta’ korp tar-rieżami</entry>
-<entry key="field|name|OPT-092-ReviewReq">Deskrizzjoni tat-tip ta’ korp tar-rieżami</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Deskrizzjoni tat-tip ta’ korp tar-rieżami</entry>
 <entry key="field|name|OPT-100-Contract">Avviż li ħoloq il-ftehim quadru</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Avviż li ħoloq il-ftehim quadru</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Indirizz web tal-liġi tat-taxxa</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organizzazzjoni jew punt ta' kuntatt speċifiku</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organizzazzjoni li twettaq din ir-rwol</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organizzazzjoni jew punt ta' kuntatt speċifiku</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organizzazzjoni jew punt ta' kuntatt speċifiku</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organizzazzjoni jew punt ta' kuntatt speċifiku</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organizzazzjoni jew punt ta' kuntatt speċifiku</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organizzazzjoni jew punt ta' kuntatt speċifiku</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organizzazzjoni li twettaq din ir-rwol</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organizzazzjoni jew punt ta' kuntatt speċifiku</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organizzazzjoni li twettaq din ir-rwol</entry>

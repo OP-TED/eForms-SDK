@@ -196,6 +196,7 @@
 <entry key="codelist|name|procedure-type-19">A 19. altípusú hirdetmények esetében megengedett eljárástípus</entry>
 <entry key="codelist|name|procedure-type-20">A 20. altípusú hirdetmények esetében megengedett eljárástípus</entry>
 <entry key="codelist|name|procedure-type-21">A 21. altípusú hirdetmények esetében megengedett eljárástípus</entry>
+<entry key="codelist|name|procedure-type-22">A 22. altípusú hirdetmények esetében megengedett eljárástípus</entry>
 <entry key="codelist|name|procedure-type-23">A 23. altípusú hirdetmények esetében megengedett eljárástípus</entry>
 <entry key="codelist|name|procedure-type-24">A 24. altípusú hirdetmények esetében megengedett eljárástípus</entry>
 <entry key="codelist|name|procedure-type-25">A 25. altípusú hirdetmények esetében megengedett eljárástípus</entry>
@@ -232,8 +233,8 @@
 <entry key="codelist|name|result">Az „eredményről szóló hirdetmény” típusú hirdetmények esetében engedélyezett hirdetménytípusok kódját tartalmazó lista.</entry>
 <entry key="codelist|name|review-body-type">Ez a táblázat egy adott eljárás felülvizsgálatát végző szervezetek listáját tartalmazza.</entry>
 <entry key="codelist|name|review-decision-type">Ez a táblázat a felülvizsgálati szerv által hozott határozatot ismerteti.</entry>
+<entry key="codelist|name|review-information-type">Egy adott felülvizsgálati kérelem státuszára vonatkozó kódok listája.</entry>
 <entry key="codelist|name|review-requester-type">Azoknak az érdekelt feleknek a kategóriája, amelyek felülvizsgálatot kértek</entry>
-<entry key="codelist|name|review-status">Egy adott felülvizsgálati kérelem státuszára vonatkozó kódok listája.</entry>
 <entry key="codelist|name|review-type">A felülvizsgálatot kérő fél típusának azonosítására szolgáló kódok listája</entry>
 <entry key="codelist|name|rewards-penalties">A tömegközlekedési szolgáltatáshoz kapcsolódó díjak és szankciók kódját tartalmazó lista.</entry>
 <entry key="codelist|name|selection-criterion">Azon kódok listája, amelyekkel kifejezhető, melyek az értékelés céljából használt feltételek. Ez a kódlista része az egységes európai közbeszerzési dokumentum „CriterionTaxonomy” kódlistájának.</entry>

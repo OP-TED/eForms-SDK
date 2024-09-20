@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Cur síos ar spriocchaighdeán na gcustaiméirí</entry>
 <entry key="field|description|OPT-072-Lot-Language">Teanga a úsáidtear chun cur síos a dhéanamh ar spriocchaighdeán na gcustaiméirí</entry>
 <entry key="field|description|OPT-090-Lot">Cód a léiríonn go bhfuil sé ag dul i gceist catagóirí ceannaitheoirí: 'catagóirí ceannaitheoirí'</entry>
-<entry key="field|description|OPT-091-ReviewReq">An cineál (m.sh. ról) an páirtí a d'iarr an athbhreithniú</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Ainm an liosta a bhfuil na códanna do chineálacha iarrthóirí athbhreithnithe ann</entry>
-<entry key="field|description|OPT-092-ReviewBody">Cur síos ar an gcorp a bhfuil freagracht air le haghaidh iarratais athbhreithnithe a phróiseáil</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Teanga a bhfuil cur síos ar an gcorp a bhfuil freagracht air le haghaidh iarratais athbhreithnithe a phróiseáil scríofa ann</entry>
-<entry key="field|description|OPT-092-ReviewReq">Cur síos ar chineál an iarrthóra athbhreithnithe</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Teanga a bhfuil cur síos ar chineál an iarrthóra athbhreithnithe scríofa ann</entry>
 <entry key="field|description|OPT-100-Contract">Tagairt don fógra torthaí a bhfuil eolas faoi chonradh na comhaontaithe raime faoi seach ann</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Ainm an scéime a úsáidtear chun tagairt a dhéanamh don fógra torthaí a bhfuil eolas faoi chonradh na comhaontaithe raime faoi seach ann</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Seoladh gréasáin áit a bhféadfadh dlíthe fioscacha áitiúla a bheith le fáil</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Cur síos ar an sprioc cáilíochta</entry>
 <entry key="field|name|OPT-072-Lot-Language">Cur síos ar an sprioc cáilíochta</entry>
 <entry key="field|name|OPT-090-Lot">Catagóirí ceannaitheora</entry>
-<entry key="field|name|OPT-091-ReviewReq">Cineál an iarrthóra athbhreithnithe</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Cineál an iarrthóra athbhreithnithe</entry>
-<entry key="field|name|OPT-092-ReviewBody">Cur síos ar chineál an chomhlachta athbhreithnithe</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Cur síos ar chineál an chomhlachta athbhreithnithe</entry>
-<entry key="field|name|OPT-092-ReviewReq">Cur síos ar chineál an chomhlachta athbhreithnithe</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Cur síos ar chineál an chomhlachta athbhreithnithe</entry>
 <entry key="field|name|OPT-100-Contract">Fógra a chruthaigh an comhaontú creatlach</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Fógra a chruthaigh an comhaontú creatlach</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Seoladh gréasáin an reachtaíochta cánach</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Eagraíocht nó pointe teagmhála sonrach</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Eagraíocht atá ag líonadh an róil seo</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Eagraíocht nó pointe teagmhála sonrach</entry>
-<entry key="field|name|OPT-301-ReviewBody">Eagraíocht nó pointe teagmhála sonrach</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Eagraíocht nó pointe teagmhála sonrach</entry>
-<entry key="field|name|OPT-301-ReviewReq">Eagraíocht nó pointe teagmhála sonrach</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Eagraíocht nó pointe teagmhála sonrach</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Eagraíocht atá ag líonadh an róil seo</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Eagraíocht nó pointe teagmhála sonrach</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Eagraíocht atá ag líonadh an róil seo</entry>

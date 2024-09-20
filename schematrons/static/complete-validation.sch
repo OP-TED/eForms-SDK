@@ -1467,8 +1467,8 @@
 		<diagnostic id="BT-780-Tender" see="field:BT-780-Tender">efbc:PaidAmountDescription</diagnostic>
 		<diagnostic id="BT-781-Lot" see="field:BT-781-Lot">cbc:Description</diagnostic>
 		<diagnostic id="BT-783-Review" see="field:BT-783-Review">efbc:AppealStageCode</diagnostic>
-		<diagnostic id="BT-784-Review" see="field:BT-784-Review">efbc:AppealStageID</diagnostic>
-		<diagnostic id="BT-785-Review" see="field:BT-785-Review">efbc:AppealPreviousStageID</diagnostic>
+		<diagnostic id="BT-784-Review" see="field:BT-784-Review">efbc:AppealID</diagnostic>
+		<diagnostic id="BT-785-Review" see="field:BT-785-Review">efbc:PreviousAppealID</diagnostic>
 		<diagnostic id="BT-786-Review" see="field:BT-786-Review">cbc:ID</diagnostic>
 		<diagnostic id="BT-787-Review" see="field:BT-787-Review">cbc:Date</diagnostic>
 		<diagnostic id="BT-788-Review" see="field:BT-788-Review">cbc:Title</diagnostic>
@@ -1477,7 +1477,7 @@
 		<diagnostic id="BT-790-Review" see="field:BT-790-Review">efbc:DecisionTypeCode</diagnostic>
 		<diagnostic id="BT-791-Review" see="field:BT-791-Review">efbc:IrregularityTypeCode</diagnostic>
 		<diagnostic id="BT-792-Review" see="field:BT-792-Review">efbc:RemedyTypeCode</diagnostic>
-		<diagnostic id="BT-793-Review" see="field:BT-793-Review">efbc:RemedyAmount</diagnostic>
+		<diagnostic id="BT-793-Review" see="field:BT-793-Review">efbc:AppealRemedyValue</diagnostic>
 		<diagnostic id="BT-794-Review" see="field:BT-794-Review">cbc:URI</diagnostic>
 		<diagnostic id="BT-795-Review" see="field:BT-795-Review">cbc:FeeAmount</diagnostic>
 		<diagnostic id="BT-796-Review" see="field:BT-796-Review">efbc:WithdrawnAppealIndicator</diagnostic>
@@ -1489,14 +1489,19 @@
 		<diagnostic id="BT-802-Lot" see="field:BT-802-Lot">cbc:Description</diagnostic>
 		<diagnostic id="BT-803_d_-notice" see="field:BT-803(d)-notice">efbc:TransmissionDate</diagnostic>
 		<diagnostic id="BT-803_t_-notice" see="field:BT-803(t)-notice">efbc:TransmissionTime</diagnostic>
+		<diagnostic id="BT-804-Review" see="field:BT-804-Review">cbc:ID</diagnostic>
 		<diagnostic id="BT-805-Lot" see="field:BT-805-Lot">cbc:ProcurementTypeCode</diagnostic>
 		<diagnostic id="BT-806-Procedure" see="field:BT-806-Procedure">cbc:TendererRequirementTypeCode</diagnostic>
+		<diagnostic id="BT-808-Review" see="field:BT-808-Review">cac:Party/cac:PartyIdentification/cbc:ID</diagnostic>
 		<diagnostic id="BT-809-Lot" see="field:BT-809-Lot">cbc:TendererRequirementTypeCode</diagnostic>
 		<diagnostic id="BT-810-Lot" see="field:BT-810-Lot">efbc:ApplicableLegalBasis</diagnostic>
-		<diagnostic id="BT-811-Lot" see="field:BT-811-Lot">efbc:AssetCategoryCode</diagnostic>
-		<diagnostic id="BT-811-LotResult" see="field:BT-811-LotResult">efbc:AssetCategoryCode</diagnostic>
+		<diagnostic id="BT-811_a_-Lot" see="field:BT-811(a)-Lot">efbc:LegalFrameworkCode</diagnostic>
+		<diagnostic id="BT-811_a_-LotResult" see="field:BT-811(a)-LotResult">efbc:LegalFrameworkCode</diagnostic>
+		<diagnostic id="BT-811_b_-Lot" see="field:BT-811(b)-Lot">efbc:AssetCategoryCode</diagnostic>
+		<diagnostic id="BT-811_b_-LotResult" see="field:BT-811(b)-LotResult">efbc:AssetCategoryCode</diagnostic>
 		<diagnostic id="BT-812-LotResult" see="field:BT-812-LotResult">efbc:LabelCode</diagnostic>
-		<diagnostic id="BT-813-LotResult" see="field:BT-813-LotResult">efbc:StatisticsNumeric</diagnostic>
+		<diagnostic id="BT-813-LotResult" see="field:BT-813-LotResult">efbc:AssetMetricNumeric</diagnostic>
+		<diagnostic id="BT-814-LotResult" see="field:BT-814-LotResult">efbc:AssetMetricNumeric</diagnostic>
 		<diagnostic id="BT-815-LotResult" see="field:BT-815-LotResult">efbc:StatisticsNumeric</diagnostic>
 		<diagnostic id="BT-821-Lot" see="field:BT-821-Lot">cbc:TendererRequirementTypeCode</diagnostic>
 		<diagnostic id="BT-88-Procedure" see="field:BT-88-Procedure">cbc:Description</diagnostic>
@@ -1507,7 +1512,6 @@
 		<diagnostic id="BT-97-Lot" see="field:BT-97-Lot">cbc:ID</diagnostic>
 		<diagnostic id="BT-98-Lot" see="field:BT-98-Lot">cac:TenderValidityPeriod/cbc:DurationMeasure</diagnostic>
 		<diagnostic id="BT-99-Lot" see="field:BT-99-Lot">cbc:Description</diagnostic>
-		<diagnostic id="ND-AppealingParty" see="node:ND-AppealingParty">efac:AppealingParty</diagnostic>
 		<diagnostic id="ND-AuctionTerms" see="node:ND-AuctionTerms">cac:AuctionTerms</diagnostic>
 		<diagnostic id="ND-AwardingTerms" see="node:ND-AwardingTerms">cac:AwardingTerms</diagnostic>
 		<diagnostic id="ND-AwardingTerms_BT-46-Lot" see="field:BT-46-Lot">cac:TechnicalCommitteePerson/cbc:FamilyName</diagnostic>
@@ -1538,10 +1542,14 @@
 		<diagnostic id="ND-ContractModification" see="node:ND-ContractModification">efac:ContractModification</diagnostic>
 		<diagnostic id="ND-ContractingParty" see="node:ND-ContractingParty">cac:ContractingParty</diagnostic>
 		<diagnostic id="ND-CrossBorderLawUnpublish" see="node:ND-CrossBorderLawUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
-		<diagnostic id="ND-EEDLot_BT-811-Lot" see="field:BT-811-Lot">efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode</diagnostic>
+		<diagnostic id="ND-EEDLot_BT-811_a_-Lot" see="field:BT-811(a)-Lot">efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:LegalFrameworkCode</diagnostic>
+		<diagnostic id="ND-EEDLot_BT-811_b_-Lot" see="field:BT-811(b)-Lot">efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode</diagnostic>
 		<diagnostic id="ND-EEDProcurementDetailsLotResult_BT-812-LotResult" see="field:BT-812-LotResult">efac:AssetLabel/efbc:LabelCode</diagnostic>
-		<diagnostic id="ND-EEDProcurementDetailsLotResult_BT-813-LotResult" see="field:BT-813-LotResult">efac:AssetMetric/efbc:StatisticsNumeric</diagnostic>
+		<diagnostic id="ND-EEDProcurementDetailsLotResult_BT-813-LotResult" see="field:BT-813-LotResult">efac:AssetMetric[efbc:AssetMetricCode='nrg-con-yr']/efbc:AssetMetricNumeric</diagnostic>
+		<diagnostic id="ND-EEDProcurementDetailsLotResult_BT-814-LotResult" see="field:BT-814-LotResult">efac:AssetMetric[efbc:AssetMetricCode='nrg-sav-yr']/efbc:AssetMetricNumeric</diagnostic>
 		<diagnostic id="ND-EEDProcurementDetailsLotResult_BT-815-LotResult" see="field:BT-815-LotResult">efac:StrategicProcurementStatistics/efbc:StatisticsNumeric</diagnostic>
+		<diagnostic id="ND-EEDProcurementDetailsLotResult_OPT-080-LotResult" see="field:OPT-080-LotResult">efac:AssetMetric[efbc:AssetMetricCode='nrg-con-yr']/efbc:AssetMetricCode</diagnostic>
+		<diagnostic id="ND-EEDProcurementDetailsLotResult_OPT-081-LotResult" see="field:OPT-081-LotResult">efac:AssetMetric[efbc:AssetMetricCode='nrg-sav-yr']/efbc:AssetMetricCode</diagnostic>
 		<diagnostic id="ND-ExclusionGrounds" see="node:ND-ExclusionGrounds">cac:SpecificTendererRequirement</diagnostic>
 		<diagnostic id="ND-ExtendedDurationJustification" see="node:ND-ExtendedDurationJustification">efac:DurationJustification</diagnostic>
 		<diagnostic id="ND-FSR" see="node:ND-FSR">cac:ContractExecutionRequirement</diagnostic>
@@ -1607,10 +1615,14 @@
 		<diagnostic id="ND-LotResult_BT-712_a_-LotResult" see="field:BT-712(a)-LotResult">efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efbc:StatisticsCode</diagnostic>
 		<diagnostic id="ND-LotResult_BT-759-LotResult" see="field:BT-759-LotResult">efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric</diagnostic>
 		<diagnostic id="ND-LotResult_BT-760-LotResult" see="field:BT-760-LotResult">efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode</diagnostic>
-		<diagnostic id="ND-LotResult_BT-811-LotResult" see="field:BT-811-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item-classification']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode</diagnostic>
-		<diagnostic id="ND-LotResult_BT-812-LotResult" see="field:BT-812-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item-classification']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel/efbc:LabelCode</diagnostic>
-		<diagnostic id="ND-LotResult_BT-813-LotResult" see="field:BT-813-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item-classification']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric/efbc:StatisticsNumeric</diagnostic>
-		<diagnostic id="ND-LotResult_BT-815-LotResult" see="field:BT-815-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item-classification']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics/efbc:StatisticsNumeric</diagnostic>
+		<diagnostic id="ND-LotResult_BT-811_a_-LotResult" see="field:BT-811(a)-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:LegalFrameworkCode</diagnostic>
+		<diagnostic id="ND-LotResult_BT-811_b_-LotResult" see="field:BT-811(b)-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode</diagnostic>
+		<diagnostic id="ND-LotResult_BT-812-LotResult" see="field:BT-812-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel/efbc:LabelCode</diagnostic>
+		<diagnostic id="ND-LotResult_BT-813-LotResult" see="field:BT-813-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-con-yr']/efbc:AssetMetricNumeric</diagnostic>
+		<diagnostic id="ND-LotResult_BT-814-LotResult" see="field:BT-814-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-sav-yr']/efbc:AssetMetricNumeric</diagnostic>
+		<diagnostic id="ND-LotResult_BT-815-LotResult" see="field:BT-815-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics/efbc:StatisticsNumeric</diagnostic>
+		<diagnostic id="ND-LotResult_OPT-080-LotResult" see="field:OPT-080-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-con-yr']/efbc:AssetMetricCode</diagnostic>
+		<diagnostic id="ND-LotResult_OPT-081-LotResult" see="field:OPT-081-LotResult">efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-sav-yr']/efbc:AssetMetricCode</diagnostic>
 		<diagnostic id="ND-LotResult_OPT-301-LotResult-Financing" see="field:OPT-301-LotResult-Financing">cac:FinancingParty/cac:PartyIdentification/cbc:ID</diagnostic>
 		<diagnostic id="ND-LotResult_OPT-301-LotResult-Paying" see="field:OPT-301-LotResult-Paying">cac:PayerParty/cac:PartyIdentification/cbc:ID</diagnostic>
 		<diagnostic id="ND-LotResult_OPT-315-LotResult" see="field:OPT-315-LotResult">efac:SettledContract/cbc:ID</diagnostic>
@@ -1686,7 +1698,8 @@
 		<diagnostic id="ND-NonUBLTenderingTerms_BT-7220-Lot" see="field:BT-7220-Lot">efac:Funding/cbc:FundingProgramCode</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms_BT-809-Lot" see="field:BT-809-Lot">efac:SelectionCriteria/cbc:TendererRequirementTypeCode</diagnostic>
 		<diagnostic id="ND-NonUBLTenderingTerms_BT-810-Lot" see="field:BT-810-Lot">efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efbc:ApplicableLegalBasis</diagnostic>
-		<diagnostic id="ND-NonUBLTenderingTerms_BT-811-Lot" see="field:BT-811-Lot">efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode</diagnostic>
+		<diagnostic id="ND-NonUBLTenderingTerms_BT-811_a_-Lot" see="field:BT-811(a)-Lot">efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:LegalFrameworkCode</diagnostic>
+		<diagnostic id="ND-NonUBLTenderingTerms_BT-811_b_-Lot" see="field:BT-811(b)-Lot">efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode</diagnostic>
 		<diagnostic id="ND-NotAwardedReasonUnpublish" see="node:ND-NotAwardedReasonUnpublish">efac:DecisionReason/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-NoticeApproximateValueUnpublish" see="node:ND-NoticeApproximateValueUnpublish">efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-NoticeResult" see="node:ND-NoticeResult">efac:NoticeResult</diagnostic>
@@ -1762,17 +1775,17 @@
 		<diagnostic id="ND-ProcurementDetailsLotResult" see="node:ND-ProcurementDetailsLotResult">efac:ProcurementDetails</diagnostic>
 		<diagnostic id="ND-PublicOpening_BT-133-Lot" see="field:BT-133-Lot">cac:OccurenceLocation/cbc:Description</diagnostic>
 		<diagnostic id="ND-ReceivedSubmissions" see="node:ND-ReceivedSubmissions">efac:ReceivedSubmissionsStatistics</diagnostic>
+		<diagnostic id="ND-ReviewRequests" see="node:ND-ReviewRequests">efac:Appeals</diagnostic>
 		<diagnostic id="ND-ReviewRequestsStatistics" see="node:ND-ReviewRequestsStatistics">efac:AppealRequestsStatistics</diagnostic>
 		<diagnostic id="ND-ReviewStatus_BT-786-Review" see="field:BT-786-Review">efac:AppealedItem/cbc:ID</diagnostic>
 		<diagnostic id="ND-ReviewStatus_BT-790-Review" see="field:BT-790-Review">efac:AppealDecision/efbc:DecisionTypeCode</diagnostic>
 		<diagnostic id="ND-ReviewStatus_BT-791-Review" see="field:BT-791-Review">efac:AppealIrregularity/efbc:IrregularityTypeCode</diagnostic>
 		<diagnostic id="ND-ReviewStatus_BT-792-Review" see="field:BT-792-Review">efac:AppealRemedy/efbc:RemedyTypeCode</diagnostic>
 		<diagnostic id="ND-ReviewStatus_BT-799-ReviewBody" see="field:BT-799-ReviewBody">efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode</diagnostic>
-		<diagnostic id="ND-ReviewStatus_OPT-091-ReviewReq" see="field:OPT-091-ReviewReq">efac:AppealingParty/efbc:AppealingPartyTypeCode</diagnostic>
-		<diagnostic id="ND-ReviewStatus_OPT-092-ReviewBody" see="field:OPT-092-ReviewBody">efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription</diagnostic>
-		<diagnostic id="ND-ReviewStatus_OPT-301-ReviewBody" see="field:OPT-301-ReviewBody">efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID</diagnostic>
-		<diagnostic id="ND-ReviewStatus_OPT-301-ReviewReq" see="field:OPT-301-ReviewReq">efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID</diagnostic>
+		<diagnostic id="ND-ReviewStatus_BT-807-Review" see="field:BT-807-Review">efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID</diagnostic>
+		<diagnostic id="ND-ReviewStatus_BT-808-Review" see="field:BT-808-Review">efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID</diagnostic>
 		<diagnostic id="ND-RootExtension" see="node:ND-RootExtension">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension</diagnostic>
+		<diagnostic id="ND-RootExtension_BT-783-Review" see="field:BT-783-Review">efac:Appeals/efac:AppealInformation/efbc:AppealStageCode</diagnostic>
 		<diagnostic id="ND-RootExtension_OPP-010-notice" see="field:OPP-010-notice">efac:Publication/efbc:NoticePublicationID[@schemeName='ojs-notice-id']</diagnostic>
 		<diagnostic id="ND-RootExtension_OPP-011-notice" see="field:OPP-011-notice">efac:Publication/efbc:GazetteID[@schemeName='ojs-id']</diagnostic>
 		<diagnostic id="ND-RootExtension_OPP-012-notice" see="field:OPP-012-notice">efac:Publication/efbc:PublicationDate</diagnostic>
@@ -1796,9 +1809,7 @@
 		<diagnostic id="ND-SubContractor_OPT-301-Tenderer-MainCont" see="field:OPT-301-Tenderer-MainCont">efac:MainContractor/cbc:ID</diagnostic>
 		<diagnostic id="ND-SubcontractedContract" see="node:ND-SubcontractedContract">efac:SubcontractingTerm</diagnostic>
 		<diagnostic id="ND-SubcontractingObligation" see="node:ND-SubcontractingObligation">cac:AllowedSubcontractTerms</diagnostic>
-		<diagnostic id="ND-TenderRankUnpublish" see="node:ND-TenderRankUnpublish">efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-TendererQualificationRequest" see="node:ND-TendererQualificationRequest">cac:TendererQualificationRequest</diagnostic>
-		<diagnostic id="ND-TenderingParty" see="node:ND-TenderingParty">efac:TenderingParty</diagnostic>
 		<diagnostic id="ND-TenderingParty_OPT-300-Tenderer" see="field:OPT-300-Tenderer">efac:Tenderer/cbc:ID</diagnostic>
 		<diagnostic id="ND-TenderingParty_OPT-301-Tenderer-SubCont" see="field:OPT-301-Tenderer-SubCont">efac:SubContractor/cbc:ID</diagnostic>
 		<diagnostic id="ND-Touchpoint_BT-16-Organization-TouchPoint" see="field:BT-16-Organization-TouchPoint">cac:PostalAddress/cbc:Department</diagnostic>
@@ -1864,11 +1875,9 @@
 		<diagnostic id="OPT-070-Lot" see="field:OPT-070-Lot">cbc:Description</diagnostic>
 		<diagnostic id="OPT-071-Lot" see="field:OPT-071-Lot">cbc:ExecutionRequirementCode</diagnostic>
 		<diagnostic id="OPT-072-Lot" see="field:OPT-072-Lot">cbc:Description</diagnostic>
+		<diagnostic id="OPT-080-LotResult" see="field:OPT-080-LotResult">efbc:AssetMetricCode</diagnostic>
+		<diagnostic id="OPT-081-LotResult" see="field:OPT-081-LotResult">efbc:AssetMetricCode</diagnostic>
 		<diagnostic id="OPT-090-Lot" see="field:OPT-090-Lot">cbc:Name</diagnostic>
-		<diagnostic id="OPT-091-ReviewReq" see="field:OPT-091-ReviewReq">efbc:AppealingPartyTypeCode</diagnostic>
-		<diagnostic id="OPT-092-ReviewBody" see="field:OPT-092-ReviewBody">efbc:AppealProcessingPartyTypeDescription</diagnostic>
-		<diagnostic id="OPT-092-ReviewReq" see="field:OPT-092-ReviewReq">efbc:AppealingPartyTypeDescription</diagnostic>
-		<diagnostic id="OPT-093-Review" see="field:OPT-093-Review">cbc:ID</diagnostic>
 		<diagnostic id="OPT-100-Contract" see="field:OPT-100-Contract">cac:NoticeDocumentReference/cbc:ID</diagnostic>
 		<diagnostic id="OPT-110-Lot-FiscalLegis" see="field:OPT-110-Lot-FiscalLegis">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
 		<diagnostic id="OPT-110-Part-FiscalLegis" see="field:OPT-110-Part-FiscalLegis">cac:Attachment/cac:ExternalReference/cbc:URI</diagnostic>
@@ -1918,7 +1927,6 @@
 		<diagnostic id="OPT-301-Part-ReviewOrg" see="field:OPT-301-Part-ReviewOrg">cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID</diagnostic>
 		<diagnostic id="OPT-301-Part-TenderEval" see="field:OPT-301-Part-TenderEval">cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID</diagnostic>
 		<diagnostic id="OPT-301-Part-TenderReceipt" see="field:OPT-301-Part-TenderReceipt">cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID</diagnostic>
-		<diagnostic id="OPT-301-ReviewReq" see="field:OPT-301-ReviewReq">cac:Party/cac:PartyIdentification/cbc:ID</diagnostic>
 		<diagnostic id="OPT-301-Tenderer-MainCont" see="field:OPT-301-Tenderer-MainCont">cbc:ID</diagnostic>
 		<diagnostic id="OPT-301-Tenderer-SubCont" see="field:OPT-301-Tenderer-SubCont">cbc:ID</diagnostic>
 		<diagnostic id="OPT-302-Organization" see="field:OPT-302-Organization">cbc:ID</diagnostic>

@@ -22,9 +22,7 @@
 		<assert id="ND-ContractModification-X01" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-X01</assert>
 		<assert id="ND-NoticeResult-X01" role="ERROR" diagnostics="ND-NoticeResult" test="count(efac:NoticeResult) = 0">rule|text|ND-NoticeResult-X01</assert>
 		<assert id="ND-Organizations-X01" role="ERROR" diagnostics="ND-Organizations" test="count(efac:Organizations) = 0">rule|text|ND-Organizations-X01</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus[$noticeSubType = 'X01']">
-		<assert id="ND-AppealingParty-X01" role="ERROR" diagnostics="ND-AppealingParty" test="count(efac:AppealingParty) = 0">rule|text|ND-AppealingParty-X01</assert>
+		<assert id="ND-ReviewRequests-X01" role="ERROR" diagnostics="ND-ReviewRequests" test="count(efac:Appeals) = 0">rule|text|ND-ReviewRequests-X01</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes[$noticeSubType = 'X01']">
 		<assert id="ND-Change-X01" role="ERROR" diagnostics="ND-Change" test="count(efac:Change) = 0">rule|text|ND-Change-X01</assert>

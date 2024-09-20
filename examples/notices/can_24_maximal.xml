@@ -12,6 +12,150 @@
 					<!-- "id" : "BT-803(t)-notice", "name" : "Notice Dispatch Date eSender (time)"-->
 					<efbc:TransmissionTime>21:00:00+01:00</efbc:TransmissionTime>
 					<!-- -->
+					<!-- REVIEW -->
+					<!-- -->
+					<efac:Appeals>
+						<efac:AppealInformation>
+							<!-- "id" : "BT-804-Review", "name" : "Review Technical Identifier" -->
+							<cbc:ID schemeName="review">REV-0001</cbc:ID>
+							<!-- "id" : "BT-787-Review", "name" : "Review Date" -->
+							<cbc:Date>2023-03-20+01:00</cbc:Date>
+							<!-- "id" : "BT-788-Review", "name" : "Review Title" -->
+							<cbc:Title languageID="ENG">Title of review request info</cbc:Title>
+							<!-- "id" : "BT-789-Review", "name" : "Review Description" -->
+							<cbc:Description languageID="ENG">Description of review request info</cbc:Description>
+							<!-- "id" : "BT-784-Review", "name" : "Review Identifier" -->
+							<efbc:AppealID>123/23</efbc:AppealID>
+							<!-- "id" : "BT-783-Review", "name" : "Review Request or Decision" -->
+							<efbc:AppealStageCode listName="review-information-type">req</efbc:AppealStageCode>
+							<efac:AppealIrregularity>
+								<!-- "id" : "BT-791-Review", "name" : "Review Irregularity Type" -->
+								<efbc:IrregularityTypeCode listName="irregularity-type">ins-audit</efbc:IrregularityTypeCode>
+							</efac:AppealIrregularity>
+							<efac:AppealProcessingParty>
+								<!-- "id" : "BT-799-ReviewBody", "name" : "Review Body Type" -->
+								<efbc:AppealProcessingPartyTypeCode listName="review-body-type">2-inst</efbc:AppealProcessingPartyTypeCode>
+								<cac:Party>
+									<cac:PartyIdentification>
+										<!-- "id" : "BT-807-Review", "name" : "Review Body (Reference ID)" -->
+										<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+									</cac:PartyIdentification>
+								</cac:Party>
+							</efac:AppealProcessingParty>
+						</efac:AppealInformation>
+						<efac:AppealInformation>
+							<!-- "id" : "BT-804-Review", "name" : "Review Technical Identifier" -->
+							<cbc:ID schemeName="review">REV-0002</cbc:ID>
+							<!-- "id" : "BT-787-Review", "name" : "Review Date" -->
+							<cbc:Date>2023-03-01+01:00</cbc:Date>
+							<!-- "id" : "BT-788-Review", "name" : "Review Title" -->
+							<cbc:Title languageID="ENG">Title of review request info</cbc:Title>
+							<!-- "id" : "BT-789-Review", "name" : "Review Description" -->
+							<cbc:Description languageID="ENG">Description of review request info</cbc:Description>
+							<!-- "id" : "BT-795-Review", "name" : "Review Request Fee" -->
+							<cbc:FeeAmount currencyID="EUR">1000</cbc:FeeAmount>
+							<!-- "id" : "BT-794-Review", "name" : "Review URL" -->
+							<cbc:URI>https://example.com/procurement/review-decisions/AB-23</cbc:URI>
+							<!-- "id" : "BT-784-Review", "name" : "Review Identifier" -->
+							<efbc:AppealID>AB-23</efbc:AppealID>
+							<!-- "id" : "BT-783-Review", "name" : "Review Request or Decision" -->
+							<efbc:AppealStageCode listName="review-information-type">dec</efbc:AppealStageCode>
+							<!-- "id" : "BT-785-Review", "name" : "Review Previous Identifier" -->
+							<efbc:PreviousAppealID>01/23</efbc:PreviousAppealID>
+							<!-- "id" : "BT-796-Review", "name" : "Review Request Withdrawn" -->
+							<efbc:WithdrawnAppealIndicator>true</efbc:WithdrawnAppealIndicator>
+							<!-- "id" : "BT-797-Review", "name" : "Review Request Withdrawn Date" -->
+							<efbc:WithdrawnAppealDate>2023-03-15+01:00</efbc:WithdrawnAppealDate>
+							<!-- "id" : "BT-798-Review", "name" : "Review Request Withdrawn Reasons" -->
+							<efbc:WithdrawnAppealReasons languageID="ENG">Review request withdranw because of reasons.</efbc:WithdrawnAppealReasons>
+							<efac:AppealIrregularity>
+								<!-- "id" : "BT-791-Review", "name" : "Review Irregularity Type" -->
+								<efbc:IrregularityTypeCode listName="irregularity-type">eva-add-crit</efbc:IrregularityTypeCode>
+							</efac:AppealIrregularity>
+							<efac:AppealedItem>
+								<!-- "id" : "BT-786-Review", "name" : "Review Notice Section Identifier" -->
+								<cbc:ID>LOT-0001</cbc:ID>
+							</efac:AppealedItem>
+							<efac:AppealingParty>
+								<cac:Party>
+									<cac:PartyIdentification>
+										<!-- "id" : "BT-808-Review", "name" : "Review Requester (Reference ID)" -->
+										<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+									</cac:PartyIdentification>
+								</cac:Party>
+							</efac:AppealingParty>
+							<efac:AppealProcessingParty>
+								<!-- "id" : "BT-799-ReviewBody", "name" : "Review Body Type" -->
+								<efbc:AppealProcessingPartyTypeCode listName="review-body-type">1-inst</efbc:AppealProcessingPartyTypeCode>
+								<cac:Party>
+									<cac:PartyIdentification>
+										<!-- "id" : "BT-807-Review", "name" : "Review Body (Reference ID)" -->
+										<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+									</cac:PartyIdentification>
+								</cac:Party>
+							</efac:AppealProcessingParty>
+						</efac:AppealInformation>
+						<efac:AppealInformation>
+							<!-- "id" : "BT-804-Review", "name" : "Review Technical Identifier" -->
+							<cbc:ID schemeName="review">REV-0003</cbc:ID>
+							<!-- "id" : "BT-787-Review", "name" : "Review Date" -->
+							<cbc:Date>2023-03-03+01:00</cbc:Date>
+							<!-- "id" : "BT-788-Review", "name" : "Review Title" -->
+							<cbc:Title languageID="ENG">Title of review request info</cbc:Title>
+							<!-- "id" : "BT-789-Review", "name" : "Review Description" -->
+							<cbc:Description languageID="ENG">Description of review request info</cbc:Description>
+							<!-- "id" : "BT-795-Review", "name" : "Review Request Fee" -->
+							<cbc:FeeAmount currencyID="EUR">2000</cbc:FeeAmount>
+							<!-- "id" : "BT-794-Review", "name" : "Review URL" -->
+							<cbc:URI>https://example.com/procurement/review-decisions/CD-23</cbc:URI>
+							<!-- "id" : "BT-784-Review", "name" : "Review Identifier" -->
+							<efbc:AppealID>CD-23</efbc:AppealID>
+							<!-- "id" : "BT-793-Review", "name" : "Review Remedy Value" -->
+							<efbc:AppealRemedyValue currencyID="EUR">20000</efbc:AppealRemedyValue>
+							<!-- "id" : "BT-783-Review", "name" : "Review Request or Decision" -->
+							<efbc:AppealStageCode listName="review-information-type">dec</efbc:AppealStageCode>
+							<!-- "id" : "BT-785-Review", "name" : "Review Previous Identifier" -->
+							<efbc:PreviousAppealID>01/23</efbc:PreviousAppealID>
+							<!-- "id" : "BT-796-Review", "name" : "Review Request Withdrawn" -->
+							<efbc:WithdrawnAppealIndicator>false</efbc:WithdrawnAppealIndicator>
+							<efac:AppealIrregularity>
+								<!-- "id" : "BT-791-Review", "name" : "Review Irregularity Type" -->
+								<efbc:IrregularityTypeCode listName="irregularity-type">eva-add-crit</efbc:IrregularityTypeCode>
+							</efac:AppealIrregularity>
+							<efac:AppealedItem>
+								<!-- "id" : "BT-786-Review", "name" : "Review Notice Section Identifier" -->
+								<cbc:ID>LOT-0002</cbc:ID>
+							</efac:AppealedItem>
+							<efac:AppealingParty>
+								<cac:Party>
+									<cac:PartyIdentification>
+										<!-- "id" : "BT-808-Review", "name" : "Review Requester (Reference ID)" -->
+										<cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+									</cac:PartyIdentification>
+								</cac:Party>
+							</efac:AppealingParty>
+							<efac:AppealProcessingParty>
+								<!-- "id" : "BT-799-ReviewBody", "name" : "Review Body Type" -->
+								<efbc:AppealProcessingPartyTypeCode listName="review-body-type">buyer</efbc:AppealProcessingPartyTypeCode>
+								<cac:Party>
+									<cac:PartyIdentification>
+										<!-- "id" : "BT-807-Review", "name" : "Review Body (Reference ID)" -->
+										<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+									</cac:PartyIdentification>
+								</cac:Party>
+							</efac:AppealProcessingParty>
+							<efac:AppealDecision>
+								<!-- "id" : "BT-790-Review", "name" : "Review Decision Type" -->
+								<efbc:DecisionTypeCode listName="review-decision-type">accepted</efbc:DecisionTypeCode>
+							</efac:AppealDecision>
+							<efac:AppealRemedy>
+								<!-- "id" : "BT-792-Review", "name" : "Review Remedy Type" -->
+								<efbc:RemedyTypeCode listName="remedy-type">damage</efbc:RemedyTypeCode>
+							</efac:AppealRemedy>
+							<!-- "id" : "", "name" : "" -->
+						</efac:AppealInformation>
+					</efac:Appeals>
+					<!-- -->
 					<!-- RESULTS -->
 					<!-- -->
 					<efac:NoticeResult>
@@ -113,6 +257,43 @@
 											<efbc:StatisticsCode listName="vehicles">vehicles-clean</efbc:StatisticsCode>
 											<!--"id" : "OPT-156-LotResult", "name" : "Vehicule Numeric"-->
 											<efbc:StatisticsNumeric>10</efbc:StatisticsNumeric>
+										</efac:StrategicProcurementStatistics>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
+							<efac:StrategicProcurement>
+								<efac:StrategicProcurementInformation>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-LotResult",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">computer</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-LotResult",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">eco-des</efbc:LegalFrameworkCode>
+										<efac:AssetMetric>
+											<!--"id" : "OPT-080-LotResult",   "name" : "Consumption Metric"-->
+											<efbc:AssetMetricCode listName="metric-type">nrg-con-yr</efbc:AssetMetricCode>
+											<!--"id" : "BT-813-LotResult",    "name" : "Energy Consumption in kWh/year"-->
+											<efbc:AssetMetricNumeric>123</efbc:AssetMetricNumeric>
+										</efac:AssetMetric>
+										<efac:AssetMetric>
+											<!--"id" : "OPT-081-LotResult",   "name" : "Savings Metric"-->
+											<efbc:AssetMetricCode listName="metric-type">nrg-sav-yr</efbc:AssetMetricCode>
+											<!--"id" : "BT-814-LotResult",    "name" : "Energy Savings in kWh/year"-->
+											<efbc:AssetMetricNumeric>45</efbc:AssetMetricNumeric>
+										</efac:AssetMetric>
+										<efac:StrategicProcurementStatistics>
+											<efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+										</efac:StrategicProcurementStatistics>
+									</efac:ProcurementDetails>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-LotResult",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-LotResult",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+										<efac:AssetLabel>
+											<efbc:LabelCode listName="energy-efficiency-label">ENERA3</efbc:LabelCode>
+										</efac:AssetLabel>
+										<efac:StrategicProcurementStatistics>
+											<efbc:StatisticsNumeric>8</efbc:StatisticsNumeric>
 										</efac:StrategicProcurementStatistics>
 									</efac:ProcurementDetails>
 								</efac:StrategicProcurementInformation>
@@ -476,14 +657,14 @@
 									<!--id": "BT-16-Organization-Company", "name": "Organisation Part Name"-->
 									<cbc:Department>Finance Division</cbc:Department>
 									<!--"id": "BT-513-Organization-Company", "name": "Organisation City"-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--"id": "BT-512-Organization-Company", "name": "Organisation Post Code"-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--"id": "BT-507-Organization-Company","name": "Organisation Country Subdivision"-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<!--"id": "BT-514-Organization-Company","name": "Organisation Country Code"-->
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -517,14 +698,14 @@
 									<!--BT-16-->
 									<cbc:Department>Procurement Dpt</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
@@ -549,14 +730,14 @@
 									<!--BT-16-->
 									<cbc:Department>Fin Adm Archives Dpt</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
@@ -592,14 +773,14 @@
 									<!--BT-510-->
 									<cbc:StreetName>6 Main Street</cbc:StreetName>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -641,14 +822,14 @@
 									<!--BT-16-->
 									<cbc:Department>Environment Information department</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -692,14 +873,14 @@
 									<!--BT-16-->
 									<cbc:Department>ABC Unit</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -741,14 +922,14 @@
 									<!--BT-16-->
 									<cbc:Department>Reviews and Complains</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -790,14 +971,14 @@
 									<!--BT-16-->
 									<cbc:Department>Public Procurement</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -1266,14 +1447,14 @@
 				<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
 				<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 				<!-- "id" : "BT-5131-Procedure", "name" : "Place Performance City"-->
-				<cbc:CityName>London</cbc:CityName>
+				<cbc:CityName>Luxembourg</cbc:CityName>
 				<!--"id" : "BT-5121-Procedure", "name" : "Place Performance Post Code"-->
-				<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+				<cbc:PostalZone>1234</cbc:PostalZone>
 				<!--"id" : "BT-5071-Procedure", "name" : "Place Performance Country Subdivision"-->
-				<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+				<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 				<cac:Country>
 					<!--"id" : "BT-5141-Procedure", "name" : "Place Performance Country Code"-->
-					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -1396,6 +1577,29 @@
 								<efac:StrategicProcurementInformation>
 									<!--"id" : "BT-735-Lot",   "name" : "CVD Contract Type"-->
 									<efbc:ProcurementCategoryCode listName="cvd-contract-type">oth-serv-contr</efbc:ProcurementCategoryCode>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
+							<efac:StrategicProcurement>
+								<!--"id" : "BT-684-Lot",   "name" : "IPI Measures are Applicable"-->
+								<!-- Should be set to true once an IPI measure is available -->
+								<efbc:ApplicableLegalBasis listName="ipi-scope">false</efbc:ApplicableLegalBasis>
+							</efac:StrategicProcurement>
+							<efac:StrategicProcurement>
+								<!--"id" : "BT-810-Lot",   "name" : "EED Applicable"-->
+								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-Lot",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">computer</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-Lot",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">eco-des</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-Lot",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-Lot",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
 								</efac:StrategicProcurementInformation>
 							</efac:StrategicProcurement>
 						</efext:EformsExtension>
@@ -1645,12 +1849,12 @@
 					<!-- "id" : "BT-5131-Lot", "name" : "Place Performance City"-->
 					<cbc:CityName>London</cbc:CityName>
 					<!--"id" : "BT-5121-Lot", "name" : "Place Performance Post Code"-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+					<cbc:PostalZone>1234</cbc:PostalZone>
 					<!--"id" : "BT-5071-Lot", "name" : "Place Performance Country Subdivision"-->
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 					<cac:Country>
 						<!--"id" : "BT-5141-Lot", "name" : "Place Performance Country Code"-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
@@ -1698,6 +1902,26 @@
 		<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 		<!-- LOT-0002 - Tendering terms -->
 		<cac:TenderingTerms>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:StrategicProcurement>
+								<!--"id" : "BT-810-Lot",   "name" : "EED Applicable"-->
+								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<efac:ProcurementDetails>
+										<!--"id" : "BT-811(b)-Lot",   "name" : "EED List (Item)"-->
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<!--"id" : "BT-811(a)-Lot",   "name" : "EED List (Basis)"-->
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
 			<!--"id" : "BT-60-Lot", "name" : "EU Funds"-->
 			<cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
 			<!-- Organisation - Fiscal Legislation -->
@@ -1931,12 +2155,12 @@
 					<!-- "id" : "BT-5131-Procedure", "name" : "Place Performance City"-->
 					<cbc:CityName>London</cbc:CityName>
 					<!--"id" : "BT-5121-Procedure", "name" : "Place Performance Post Code"-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+					<cbc:PostalZone>1234</cbc:PostalZone>
 					<!--"id" : "BT-5071-Procedure", "name" : "Place Performance Country Subdivision"-->
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 					<cac:Country>
 						<!--"id" : "BT-5141-Lot", "name" : "Place Performance Country Code"-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>

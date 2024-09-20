@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Opis cilja kvalitete</entry>
 <entry key="field|description|OPT-072-Lot-Language">Jezik koji se koristi za opis cilja kvalitete</entry>
 <entry key="field|description|OPT-090-Lot">Kod koji označava da se radi o kategorijama kupaca: 'kategorije kupaca'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Vrsta (tj. uloga) strane koja je zatražila pregled</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Ime popisa koji sadrži kodove za vrste zahtjeva za pregled</entry>
-<entry key="field|description|OPT-092-ReviewBody">Opis tijela zaduženog za obradu zahtjeva za pregled</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Jezik na kojem je napisan opis tijela zaduženog za obradu zahtjeva za pregled</entry>
-<entry key="field|description|OPT-092-ReviewReq">Opis vrste podnositelja zahtjeva za pregled</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Jezik na kojem je opisan tip podnositelja zahtjeva za pregled</entry>
 <entry key="field|description|OPT-100-Contract">Referenca na obavijest o rezultatu koja sadrži informacije o potpisanom okvirnom sporazumu na temelju kojeg se trenutni ugovor odvija</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Ime sheme koja se koristi za izražavanje reference na obavijest o rezultatu koja sadrži informacije o potpisanom okvirnom sporazumu na temelju kojeg se trenutni ugovor odvija</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Web adresa na kojoj se može pronaći lokalno porezno zakonodavstvo</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Opis cilja u pogledu kvalitete</entry>
 <entry key="field|name|OPT-072-Lot-Language">Opis cilja u pogledu kvalitete</entry>
 <entry key="field|name|OPT-090-Lot">Kategorije kupaca</entry>
-<entry key="field|name|OPT-091-ReviewReq">Vrsta zahtjeva za pravnu zaštitu (preispitivanje)</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Vrsta zahtjeva za pravnu zaštitu (preispitivanje)</entry>
-<entry key="field|name|OPT-092-ReviewBody">Opis vrste tijela za pravnu zaštitu (preispitivanje)</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Opis vrste tijela za pravnu zaštitu (preispitivanje)</entry>
-<entry key="field|name|OPT-092-ReviewReq">Opis vrste tijela za pravnu zaštitu (preispitivanje)</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Opis vrste tijela za pravnu zaštitu (preispitivanje)</entry>
 <entry key="field|name|OPT-100-Contract">Obavijest koja je stvorila okvirni sporazum</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Obavijest koja je stvorila okvirni sporazum</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Web adresa poreznog zakonodavstva</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organizacija ili specifična kontaktna točka</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organizacija koja ispunjava ovu ulogu</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organizacija ili specifična kontaktna točka</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organizacija ili specifična kontaktna točka</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organizacija ili specifična kontaktna točka</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organizacija ili specifična kontaktna točka</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organizacija ili specifična kontaktna točka</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organizacija koja ispunjava ovu ulogu</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organizacija ili specifična kontaktna točka</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organizacija koja ispunjava ovu ulogu</entry>

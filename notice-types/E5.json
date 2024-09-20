@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.172",
-    "createdOn" : "2024-08-28T11:26:13"
+    "version" : "1.12.359",
+    "createdOn" : "2024-09-20T13:39:57"
   },
   "noticeId" : "E5",
   "metadata" : [ {
@@ -509,12 +509,6 @@
         "description" : "Procedure",
         "_label" : "group|name|GR-Procedure-Procedure",
         "content" : [ {
-          "id" : "BT-634-Procedure",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Procurement Relaunch",
-          "_label" : "field|name|BT-634-Procedure"
-        }, {
           "id" : "BT-88-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
@@ -841,19 +835,6 @@
           } ]
         } ]
       }, {
-        "id" : "GR-Procedure-PinTerminated",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "PIN Terminated",
-        "_label" : "group|name|GR-Procedure-PinTerminated",
-        "content" : [ {
-          "id" : "BT-756-Procedure",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "PIN Competition Termination",
-          "_label" : "field|name|BT-756-Procedure"
-        } ]
-      }, {
         "id" : "GR-Procedure-AdditionalInformation",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -938,27 +919,6 @@
       "description" : "Tendering Procedure information (GPA, Atypical Tool, Deadlines, techniques) for a Lot",
       "_label" : "group|name|ND-LotTenderingProcess",
       "content" : [ {
-        "id" : "GR-Lot-PreviousPlanning",
-        "contentType" : "group",
-        "nodeId" : "ND-LotPreviousPlanning",
-        "displayType" : "GROUP",
-        "description" : "Lot Previous Planning Reference",
-        "_label" : "group|name|ND-LotPreviousPlanning",
-        "_repeatable" : true,
-        "content" : [ {
-          "id" : "BT-125(i)-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Previous Planning Identifier",
-          "_label" : "field|name|BT-125(i)-Lot"
-        }, {
-          "id" : "BT-1251-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Previous Planning Part Identifier",
-          "_label" : "field|name|BT-1251-Lot"
-        } ]
-      }, {
         "id" : "GR-Lot-Description",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -1077,6 +1037,27 @@
         "description" : "Procurement Type",
         "_label" : "group|name|GR-Lot-ProcurementType",
         "content" : [ {
+          "id" : "GR-Lot-ProcurementType-Strategic",
+          "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementType",
+          "displayType" : "GROUP",
+          "description" : "Information (Description) about Strategic Procurement Type",
+          "_label" : "group|name|ND-StrategicProcurementType",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-06-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Strategic Procurement",
+            "_label" : "field|name|BT-06-Lot"
+          }, {
+            "id" : "BT-777-Lot",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Strategic Procurement Description",
+            "_label" : "field|name|BT-777-Lot"
+          } ]
+        }, {
           "id" : "GR-Lot-Environmental-Impact",
           "contentType" : "group",
           "nodeId" : "ND-LotEnvironmentalImpactType",
@@ -1135,27 +1116,6 @@
             "displayType" : "COMBOBOX",
             "description" : "Procurement of Innovation",
             "_label" : "field|name|BT-776-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-ProcurementType-Strategic",
-          "contentType" : "group",
-          "nodeId" : "ND-StrategicProcurementType",
-          "displayType" : "GROUP",
-          "description" : "Information (Description) about Strategic Procurement Type",
-          "_label" : "group|name|ND-StrategicProcurementType",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-06-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Strategic Procurement",
-            "_label" : "field|name|BT-06-Lot"
-          }, {
-            "id" : "BT-777-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Strategic Procurement Description",
-            "_label" : "field|name|BT-777-Lot"
           } ]
         }, {
           "id" : "GR-Lot-ProcurementType-Accessibility",
@@ -1248,12 +1208,6 @@
         "description" : "Planned Duration",
         "_label" : "group|name|GR-Lot-PlannedDuration",
         "content" : [ {
-          "id" : "BT-538-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Duration Other",
-          "_label" : "field|name|BT-538-Lot"
-        }, {
           "id" : "BT-536-Lot",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
@@ -1266,11 +1220,11 @@
           "description" : "Duration End Date",
           "_label" : "field|name|BT-537-Lot"
         }, {
-          "id" : "BT-36-Lot",
+          "id" : "BT-781-Lot",
           "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Duration Period",
-          "_label" : "field|name|BT-36-Lot"
+          "displayType" : "TEXTAREA",
+          "description" : "Duration Additional Information",
+          "_label" : "field|name|BT-781-Lot"
         } ]
       }, {
         "id" : "GR-Lot-ContractExtension",
@@ -2046,6 +2000,49 @@
             "_label" : "field|name|BT-735-Lot"
           } ]
         } ]
+      }, {
+        "id" : "GR-Lot-EED",
+        "contentType" : "group",
+        "nodeId" : "ND-EEDLot",
+        "displayType" : "GROUP",
+        "description" : "Information about EED and foreseen associated assets: EED applicability and bought products",
+        "_label" : "group|name|ND-EEDLot",
+        "content" : [ {
+          "id" : "BT-810-Lot",
+          "contentType" : "field",
+          "displayType" : "RADIO",
+          "description" : "EED Applicable",
+          "_label" : "field|name|BT-810-Lot"
+        }, {
+          "id" : "GR-Lot-EED-Products",
+          "contentType" : "group",
+          "nodeId" : "ND-EEDInformationLot",
+          "displayType" : "GROUP",
+          "description" : "Information about EED products to be procured",
+          "_label" : "group|name|ND-EEDInformationLot",
+          "content" : [ {
+            "id" : "GR-Lot-EED-Asset",
+            "contentType" : "group",
+            "nodeId" : "ND-EEDProcurementDetailsLot",
+            "displayType" : "SECTION",
+            "description" : "Identification of one of the assets to be procured",
+            "_label" : "group|name|ND-EEDProcurementDetailsLot",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "BT-811(a)-Lot",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "EED List (Basis)",
+              "_label" : "field|name|BT-811(a)-Lot"
+            }, {
+              "id" : "BT-811(b)-Lot",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "EED List (Item)",
+              "_label" : "field|name|BT-811(b)-Lot"
+            } ]
+          } ]
+        } ]
       } ]
     }, {
       "id" : "GR-Lot-SubmissionInfo",
@@ -2054,19 +2051,6 @@
       "description" : "Submission Info",
       "_label" : "group|name|GR-Lot-SubmissionInfo",
       "content" : [ {
-        "id" : "GR-Lot-Procedure",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Procedure",
-        "_label" : "group|name|GR-Lot-Procedure",
-        "content" : [ {
-          "id" : "BT-634-Lot",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Procurement Relaunch",
-          "_label" : "field|name|BT-634-Lot"
-        } ]
-      }, {
         "id" : "GR-Lot-AddInfo",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -3643,6 +3627,32 @@
               "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-163)-Tender"
             } ]
+          } ]
+        }, {
+          "id" : "GR-LotTender-PaymentsandPenalties",
+          "contentType" : "group",
+          "nodeId" : "ND-TenderAggregatedAmounts",
+          "displayType" : "GROUP",
+          "description" : "Aggregated amounts for all the execution contracts of the given tender until project end.",
+          "_label" : "group|name|ND-TenderAggregatedAmounts",
+          "content" : [ {
+            "id" : "BT-779-Tender",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Tender Payment Value",
+            "_label" : "field|name|BT-779-Tender"
+          }, {
+            "id" : "BT-780-Tender",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Tender Payment Value Additional Information",
+            "_label" : "field|name|BT-780-Tender"
+          }, {
+            "id" : "BT-782-Tender",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Tender Penalties",
+            "_label" : "field|name|BT-782-Tender"
           } ]
         }, {
           "id" : "GR-LotTender-Subcontracting",

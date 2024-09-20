@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Beskrivning av kvalitetsmålet</entry>
 <entry key="field|description|OPT-072-Lot-Language">Språk som används för att beskriva kvalitetsmålet</entry>
 <entry key="field|description|OPT-090-Lot">Kod som indikerar att det handlar om köparkategorier: 'köparkategorier'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Part (dvs. roll) som begärt granskning</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Namn på listan som innehåller koder för olika typer av granskningsförfrågningar</entry>
-<entry key="field|description|OPT-092-ReviewBody">Beskrivning av enheten som är ansvarig för att behandla granskningsförfrågningar</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Språk som används för att beskriva enheten som är ansvarig för att behandla granskningsförfrågningar</entry>
-<entry key="field|description|OPT-092-ReviewReq">Beskrivning av typen av granskningsförfrågare</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Språk som används för att beskriva typen av granskningsförfrågare</entry>
 <entry key="field|description|OPT-100-Contract">Referens till resultatrapporten som innehåller information om ramavtalet som det aktuella avtalet baseras på</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Namn på schemat som används för att notera referensen till resultatrapporten som innehåller information om ramavtalet som det aktuella avtalet baseras på</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Webbadress där lokal skattelagstiftning kan hittas</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Beskrivning av kvalitetsmål</entry>
 <entry key="field|name|OPT-072-Lot-Language">Beskrivning av kvalitetsmål</entry>
 <entry key="field|name|OPT-090-Lot">Köparkategorier</entry>
-<entry key="field|name|OPT-091-ReviewReq">Typ av prövningsansökan</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Typ av prövningsansökan</entry>
-<entry key="field|name|OPT-092-ReviewBody">Beskrivning av typ av prövningsorgan</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Beskrivning av typ av prövningsorgan</entry>
-<entry key="field|name|OPT-092-ReviewReq">Beskrivning av typ av prövningsorgan</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Beskrivning av typ av prövningsorgan</entry>
 <entry key="field|name|OPT-100-Contract">Meddelande som skapade ramavtalet</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Meddelande som skapade ramavtalet</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Webbadress för skattelagstiftning</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organisation eller specifik kontakt</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organisationen som utför denna roll</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organisation eller specifik kontakt</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organisation eller specifik kontakt</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organisation eller specifik kontakt</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organisation eller specifik kontakt</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organisation eller specifik kontakt</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organisationen som utför denna roll</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organisation eller specifik kontakt</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organisationen som utför denna roll</entry>

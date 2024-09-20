@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Kokybės tikslo aprašymas</entry>
 <entry key="field|description|OPT-072-Lot-Language">Kalba, naudojama kokybės tikslo aprašymui</entry>
 <entry key="field|description|OPT-090-Lot">Kodas, rodantis, kad kalbama apie pirkėjų kategorijas: 'pirkėjų kategorijos'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Šalis (t.y. vaidmuo), užklausiusi peržiūrą</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Sąrašo pavadinimas, kuriame yra peržiūros prašytojų tipų kodai</entry>
-<entry key="field|description|OPT-092-ReviewBody">Aprašymas institucijos, atsakingos už peržiūros prašymų apdorojimą</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Kalba, kuria parašytas aprašymas institucijos, atsakingos už peržiūros prašymų apdorojimą</entry>
-<entry key="field|description|OPT-092-ReviewReq">Peržiūros prašytojo tipo aprašymas</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Kalba, kuria aprašomas peržiūros prašytojo tipas</entry>
 <entry key="field|description|OPT-100-Contract">Nuoroda į rezultatų pranešimą, kuriame pateikiama informacija apie pasirašytą pagrindinį susitarimą, pagal kurį vyksta dabartinė sutartis</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Schemos pavadinimas, naudojamas nurodant nuorodą į rezultatų pranešimą, kuriame pateikiama informacija apie pasirašytą pagrindinį susitarimą, pagal kurį vyksta dabartinė sutartis</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Internetinio adresas, kuriame galima rasti vietos fiskalinį teisės aktą</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Kokybės tikslo aprašymas</entry>
 <entry key="field|name|OPT-072-Lot-Language">Kokybės tikslo aprašymas</entry>
 <entry key="field|name|OPT-090-Lot">Pirkėjų kategorijos</entry>
-<entry key="field|name|OPT-091-ReviewReq">Peržiūros prašytojo rūšis</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Peržiūros prašytojo rūšis</entry>
-<entry key="field|name|OPT-092-ReviewBody">Peržiūros institucijos rūšies aprašymas</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Peržiūros institucijos rūšies aprašymas</entry>
-<entry key="field|name|OPT-092-ReviewReq">Peržiūros institucijos rūšies aprašymas</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Peržiūros institucijos rūšies aprašymas</entry>
 <entry key="field|name|OPT-100-Contract">Pranešimas, kūręs pagrindinę sutartį</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Pranešimas, kūręs pagrindinę sutartį</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Mokesčių teisės interneto adresas</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organizacija arba konkretus kontaktinis taškas</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organizacija, atliekanti šį vaidmenį</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organizacija arba konkretus kontaktinis taškas</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organizacija arba konkretus kontaktinis taškas</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organizacija arba konkretus kontaktinis taškas</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organizacija arba konkretus kontaktinis taškas</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organizacija arba konkretus kontaktinis taškas</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organizacija, atliekanti šį vaidmenį</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organizacija arba konkretus kontaktinis taškas</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organizacija, atliekanti šį vaidmenį</entry>

@@ -172,10 +172,10 @@ vol3
 			</cac:Language>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-08-11+03:00</cbc:EndDate>
 				<cbc:EndTime>15:00:00+03:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<cbc:ID schemeName="InternalID">ABE</cbc:ID>

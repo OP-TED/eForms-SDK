@@ -1101,12 +1101,6 @@
 <entry key="field|description|OPT-072-Lot">Kvalitātes mērķa apraksts</entry>
 <entry key="field|description|OPT-072-Lot-Language">Valoda, kādā aprakstīts kvalitātes mērķis</entry>
 <entry key="field|description|OPT-090-Lot">Kods, kas norāda, ka runa ir par pircēju kategorijām: 'pircēju kategorijas'</entry>
-<entry key="field|description|OPT-091-ReviewReq">Puse (t.i., loma), kas pieprasīja pārskatu</entry>
-<entry key="field|description|OPT-091-ReviewReq-List">Saraksta nosaukums, kas satur kodus pārskata pieprasītāju veidiem</entry>
-<entry key="field|description|OPT-092-ReviewBody">Apraksts par iestādi, kas atbild par pārskata pieprasījumu apstrādi</entry>
-<entry key="field|description|OPT-092-ReviewBody-Language">Valoda, kurā aprakstīta iestāde, kas atbild par pārskata pieprasījumu apstrādi</entry>
-<entry key="field|description|OPT-092-ReviewReq">Pārskata pieprasītāja veida apraksts</entry>
-<entry key="field|description|OPT-092-ReviewReq-Language">Valoda, kurā aprakstīts pārskata pieprasītāja veids</entry>
 <entry key="field|description|OPT-100-Contract">Atsauce uz rezultātu paziņojumu, kas satur informāciju par parakstīto ietvaru līgumu, saskaņā ar kuru notiek pašreizējais līgums</entry>
 <entry key="field|description|OPT-100-Contract-Scheme">Shēmas nosaukums, kas tiek izmantota, lai izteiktu atsauci uz rezultātu paziņojumu, kas satur informāciju par parakstīto ietvaru līgumu, saskaņā ar kuru notiek pašreizējais līgums</entry>
 <entry key="field|description|OPT-110-Lot-FiscalLegis">Tīmekļa adrese, kurā var atrast vietējo nodokļu likumdošanu</entry>
@@ -2373,12 +2367,6 @@
 <entry key="field|name|OPT-072-Lot">Kvalitātes mērķrādītāja apraksts</entry>
 <entry key="field|name|OPT-072-Lot-Language">Kvalitātes mērķrādītāja apraksts</entry>
 <entry key="field|name|OPT-090-Lot">Pircēju kategorijas</entry>
-<entry key="field|name|OPT-091-ReviewReq">Pārskatīšanas pieprasītāja veids</entry>
-<entry key="field|name|OPT-091-ReviewReq-List">Pārskatīšanas pieprasītāja veids</entry>
-<entry key="field|name|OPT-092-ReviewBody">Pārskatīšanas struktūras veids – apraksts</entry>
-<entry key="field|name|OPT-092-ReviewBody-Language">Pārskatīšanas struktūras veids – apraksts</entry>
-<entry key="field|name|OPT-092-ReviewReq">Pārskatīšanas struktūras veids – apraksts</entry>
-<entry key="field|name|OPT-092-ReviewReq-Language">Pārskatīšanas struktūras veids – apraksts</entry>
 <entry key="field|name|OPT-100-Contract">Paziņojums, kas radīja ietvaru līgumu</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Paziņojums, kas radīja ietvaru līgumu</entry>
 <entry key="field|name|OPT-110-Lot-FiscalLegis">Nodokļu likumdošanas tīmekļa adrese</entry>
@@ -2461,10 +2449,6 @@
 <entry key="field|name|OPT-301-Part-TenderEval-Scheme">Organizācija vai konkrēts kontaktpunkts</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt">Organizācija, kas pilda šo lomu</entry>
 <entry key="field|name|OPT-301-Part-TenderReceipt-Scheme">Organizācija vai konkrēts kontaktpunkts</entry>
-<entry key="field|name|OPT-301-ReviewBody">Organizācija vai konkrēts kontaktpunkts</entry>
-<entry key="field|name|OPT-301-ReviewBody-Scheme">Organizācija vai konkrēts kontaktpunkts</entry>
-<entry key="field|name|OPT-301-ReviewReq">Organizācija vai konkrēts kontaktpunkts</entry>
-<entry key="field|name|OPT-301-ReviewReq-Scheme">Organizācija vai konkrēts kontaktpunkts</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont">Organizācija, kas pilda šo lomu</entry>
 <entry key="field|name|OPT-301-Tenderer-MainCont-Scheme">Organizācija vai konkrēts kontaktpunkts</entry>
 <entry key="field|name|OPT-301-Tenderer-SubCont">Organizācija, kas pilda šo lomu</entry>

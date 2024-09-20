@@ -3406,77 +3406,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>E1</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Обявление за предварителна пазарна консултация</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Oznámení o předběžné tržní konzultaci</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Bekendtgørelse om indledende markedsundersøgelse</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Vorherige Marktkonsultation</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Γνωστοποίηση προκαταρκτικής διαβούλευσης με την αγορά</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Preliminary market consultation notice</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de consulta preliminar del mercado</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Esialgse turu-uuringu teade</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Alustavaa markkinakartoitusta koskeva ilmoitus</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Avis de consultation préalable du marché</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Fógra réamhchomhairliúcháin margaidh</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o prethodnoj provjeri tržišta</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Előzetes piaci konzultációra vonatkozó hirdetmény</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso o bando di consultazione preliminare di mercato</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Skelbimas dėl pirminės rinkos konsultacijos</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Paziņojums par iepriekšēju apspriešanos ar tirgus dalībniekiem</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż ta’ konsultazzjoni preliminari tas-suq</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Aankondiging van voorafgaande marktconsultatie</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Ogłoszenie o wstępnych konsultacjach rynkowych</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Anúncio de consulta preliminar ao mercado</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Anunțul de consultare preliminară a pieței</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Oznámenie o predbežnej trhovej konzultácii</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o predhodnem preverjanju trga</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Meddelande om preliminär marknadsundersökning</SimpleValue>
+            <SimpleValue>Voluntary Pre-market Consultation Notice</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3486,77 +3417,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>E2</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Обявление за предварителна информация, използвано само за информация, под прага</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Pouze předběžná oznámení pro podlimitní zakázky</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Kun under tærskel for forhåndsmeddelelse (PIN)</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unterhalb des Schwellenwerts – nur Vorinformation (PIN)</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Μόνο προκαταρκτική προκήρυξη (PIN) κάτω από το κατώτατο όριο</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Below threshold prior information notice (PIN) only</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Solo anuncio de información previa por debajo del umbral</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Üksnes piirmäärast allapoole jääv eelteade (PIN)</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Kynnysarvon alittava ennakkoilmoitus</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Seuil non atteint avis de préinformation uniquement</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Faoi bhun thairseach an fhógra réamhfhaisnéise (PIN) amháin</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Samo prethodna informacijska obavijest (PIN) ispod granične vrijednosti</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti, kizárólag tájékoztatás céljából használt előzetes tájékoztató</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso o bando di preinformazione (PIN) a fini unicamente informativi al di sotto della soglia</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Finansinės vertės ribos nesiekiantys viešieji pirkimai: tik išankstinis informacinis skelbimas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Zem sliekšņa, iepriekšējs informatīvs paziņojums, ko izmanto tikai informācijai (publicēts vēlāk)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż ta’ informazzjoni minn qabel taħt il-limitu minimu (PIN) biss</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Alleen vooraankondiging onder de drempelwaarde</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Tylko wstępne ogłoszenie informacyjne (PIN) o zamówieniu poniżej progu</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Abaixo do limiar para anúncio de pré-informação (API) apenas</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Numai anunțul de informare prealabilă (PIN) sub prag</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Len predbežné oznámenie (PIN) pod prahovou hodnotou</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Samo predhodno informativno obvestilo o naročilu pod pragom</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Under tröskelvärdet – enbart förhandsmeddelande (PIN)</SimpleValue>
+            <SimpleValue>Voluntary Prior Information Notice</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3566,77 +3428,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>E3</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Общо обявление за поръчка под прага</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Obecné oznámení o zahájení zadávacího řízení pro podlimitní zakázky</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Generelt under tærskel for udbudsbekendtgørelse</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unterhalb des Schwellenwerts – Auftragsbekanntmachung (CN) allgemein</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Γενική προκήρυξη σύμβασης (CN) κάτω από το κατώτατο όριο</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Below threshold contract notice (CN) general</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de licitación general por debajo del umbral</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Piirmäärast allapoole jääv üldine hanketeade</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Kynnysarvon alittava hankintailmoitus – yleisdirektiivi</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Seuil non atteint avis de marché général</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Faoi bhun thairseach an fhógra conartha (CN) ghinearálta</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o nadmetanju ispod granične vrijednosti – općenito</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti eljárást megindító hirdetmény – általános</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso o bando di gara generale al di sotto della soglia</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Finansinės vertės ribos nesiekiantys viešieji pirkimai: bendras skelbimas apie viešąjį pirkimą</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Zem sliekšņa, paziņojums par līgumu, vispārīgs iepirkums (publicēts vēlāk)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż ta’ kuntratt taħt il-limitu minimu (CN) ġenerali</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Algemene aankondiging van een opdracht onder de drempelwaarde</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Ogólne ogłoszenie o zamówieniu poniżej progu</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Abaixo do limiar para anúncio de pré-informação (API) geral</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Anunț general de participare sub prag</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o vyhlásení verejného obstarávania (CN) pod prahovou hodnotou</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o naročilu pod pragom – splošno</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Under tröskelvärdet – allmänt meddelande om upphandling (CN)</SimpleValue>
+            <SimpleValue>Voluntary Contract Notice</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3646,77 +3439,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>E4</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Общо обявление за възложена поръчка под прага</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Obecné oznámení o výsledku zadávacího řízení pro podlimitní zakázky</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Generelt under tærskel for bekendtgørelse om indgåede kontrakter</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Unterhalb des Schwellenwerts – Vergabebekanntmachung (CAN) allgemein</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Γενική γνωστοποίηση ανάθεσης σύμβασης (CAN) κάτω από το κατώτατο όριο</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Below threshold contract award notice (CAN) general</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de adjudicación del contrato general por debajo del umbral</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Piirmäärast allapoole jääv lepingu sõlmimise teade – üldine</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Kynnysarvon alittava jälki-ilmoitus – yleisdirektiivi</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Seuil non atteint avis d’attribution de marché général</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Faoi bhun thairseach an fhógra ghinearálta faoi dhámhachtain conartha (CAN)</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o dodjeli ugovora ispod granične vrijednosti – općenito</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti szerződés odaítéléséről szóló tájékoztató – általános</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso di aggiudicazione generale di importo sottosoglia</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Finansinės vertės ribos nesiekiantys viešieji pirkimai: bendras skelbimas apie sutarties skyrimą</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Zem sliekšņa paziņojums par līguma slēgšanas tiesību piešķiršanu, vispārīgs (publicēts vēlāk)</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż ta’ għoti ta’ kuntratt taħt il-limitu minimu (CAN) ġenerali</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Algemene aankondiging van gegunde opdracht onder de drempelwaarde</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Ogólne ogłoszenie o udzieleniu zamówienia poniżej progu</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Abaixo do limiar para anúncio de adjudicação de contrato (AAC) geral</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Anunț general de atribuire a contractului sub prag</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o výsledku obstarávania (CAN) pod prahovou hodnotou</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o oddaji naročila pod pragom – splošno</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Under tröskelvärdet – allmänt meddelande om tilldelning av kontrakt (CAN)</SimpleValue>
+            <SimpleValue>Voluntary Award Notice</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3726,77 +3450,8 @@
          <Value ColumnRef="Name">
             <SimpleValue>E5</SimpleValue>
          </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Обявление за изпълнена поръчка</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Oznámení o dokončení zakázky</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Bekendtgørelse om gennemførelse af kontrakt</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Bekanntmachung der Auftragsausführung</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Γνωστοποίηση ολοκλήρωσης της σύμβασης</SimpleValue>
-         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Contract completion notice</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de finalización del contrato</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Lepingu täitmise teade</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Sopimuksen toteutusilmoitus</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Avis d’achèvement de marché</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Fógraí maidir le comhlánú conartha</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o izvršenju ugovora</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>A szerződés teljesítéséről szóló hirdetmény</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso di completamento di un appalto</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Skelbimas apie sutarties įvykdymą</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Paziņojums par līguma pabeigšanu</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż ta’ tlestija ta’ kuntratt</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Aankondiging van voltooiing van een opdracht</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Ogłoszenie o ukończeniu realizacji zamówienia</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Anúncio de celebração de contrato</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Anunț de finalizare a contractului</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Formulár o dokončení zmluvy</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o zaključku naročila</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Meddelande om genomfört kontrakt</SimpleValue>
+            <SimpleValue>Voluntary Completion Notice</SimpleValue>
          </Value>
       </Row>
       <Row>
