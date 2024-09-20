@@ -2,8 +2,8 @@
 <!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
-      <ShortName>NutsLvaLvl3</ShortName>
-      <LongName>nuts-lva-lvl3</LongName>
+      <ShortName>NutsXkxLvl3</ShortName>
+      <LongName>nuts-xkx-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
       <Version>1.13.0-SNAPSHOT</Version>
@@ -123,407 +123,567 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LV005</SimpleValue>
+            <SimpleValue>XK001</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Latgale</SimpleValue>
+            <SimpleValue>Prishtinë/Priština</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LV009</SimpleValue>
+            <SimpleValue>XK002</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Zemgale</SimpleValue>
+            <SimpleValue>Mitrovicë/Mitrovica</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LV00A</SimpleValue>
+            <SimpleValue>XK003</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Rīga</SimpleValue>
+            <SimpleValue>Pejë/Peć</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LV00B</SimpleValue>
+            <SimpleValue>XK004</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kurzeme</SimpleValue>
+            <SimpleValue>Prizren/Prizren</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LV00C</SimpleValue>
+            <SimpleValue>XK005</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Vidzeme</SimpleValue>
+            <SimpleValue>Ferizaj/Uroševac</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>LVZZZ</SimpleValue>
+            <SimpleValue>XK006</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Gjilan/Gnjilane</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>XK007</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Gjakovë/Đakovica</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>XKZZZ</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>

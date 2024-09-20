@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.337",
-    "createdOn" : "2024-09-19T13:55:50"
+    "version" : "1.12.359",
+    "createdOn" : "2024-09-20T13:39:57"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -985,7 +985,7 @@
     "_label" : "codelist|name|number-weight"
   }, {
     "id" : "nuts",
-    "version" : "2021",
+    "version" : "2024",
     "filename" : "nuts.gc",
     "description" : "List of codes for the geographical nomenclature subdivision of the economic territory of the European Union (EU) into regions at three different levels (NUTS 1, 2 and 3 respectively, moving from larger to smaller territorial units).",
     "_label" : "codelist|name|nuts"
@@ -1087,13 +1087,6 @@
     "filename" : "nuts_nuts-fra-lvl3.gc",
     "description" : "List of level 3 NUTS codes for France",
     "_label" : "codelist|name|nuts-fra-lvl3"
-  }, {
-    "id" : "nuts-gbr-lvl3",
-    "version" : "1.13.0-SNAPSHOT",
-    "parentId" : "nuts",
-    "filename" : "nuts_nuts-gbr-lvl3.gc",
-    "description" : "List of level 3 NUTS codes for United Kingdom",
-    "_label" : "codelist|name|nuts-gbr-lvl3"
   }, {
     "id" : "nuts-grc-lvl3",
     "version" : "1.13.0-SNAPSHOT",
@@ -1262,6 +1255,13 @@
     "filename" : "nuts_nuts-tur-lvl3.gc",
     "description" : "List of level 3 NUTS codes for Turkey",
     "_label" : "codelist|name|nuts-tur-lvl3"
+  }, {
+    "id" : "nuts-xkx-lvl3",
+    "version" : "1.13.0-SNAPSHOT",
+    "parentId" : "nuts",
+    "filename" : "nuts_nuts-xkx-lvl3.gc",
+    "description" : "List of level 3 NUTS codes for Kosovo",
+    "_label" : "codelist|name|nuts-xkx-lvl3"
   }, {
     "id" : "organisation-role",
     "version" : "20240612-0",
