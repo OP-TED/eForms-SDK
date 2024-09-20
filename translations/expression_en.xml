@@ -462,6 +462,9 @@
 <entry key="expression|name|654">Review Request or Decision (BT-783-Review) is not present or it is not about a "decision" or the Request has been withdrawn.</entry>
 <entry key="expression|name|655">Review Remedy Type (BT-792-Review) is not present</entry>
 <entry key="expression|name|656">Energy Savings (in kWh/year) (BT-814-LotResult) does not exist</entry>
+<entry key="expression|name|657">there is no Lot with a framework agreement</entry>
+<entry key="expression|name|658">there is no Framework agreement or it is about a contract within a Framework Agreement.</entry>
+<entry key="expression|name|659">No framework agreement is involved</entry>
 <entry key="expression|name|66">'Winner selection status' (BT-142-LotResult) is not 'At least one winner was chosen.'; 'Technical ID of the lot result (RES-XXX)' (OPT-322) is not filled in</entry>
 <entry key="expression|name|67">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
 <entry key="expression|name|68">'Subcontracting value is known' (BT-730-Tender) is not 'yes'</entry>
