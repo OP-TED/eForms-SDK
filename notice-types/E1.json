@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.304",
-    "createdOn" : "2024-09-16T16:13:00"
+    "version" : "1.12.359",
+    "createdOn" : "2024-09-20T13:39:57"
   },
   "noticeId" : "E1",
   "metadata" : [ {
@@ -585,114 +585,6 @@
             "displayType" : "COMBOBOX",
             "description" : "Additional Classification Code",
             "_label" : "field|name|BT-263-Lot"
-          } ]
-        } ]
-      }, {
-        "id" : "GR-Lot-ProcurementType",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Procurement Type",
-        "_label" : "group|name|GR-Lot-ProcurementType",
-        "content" : [ {
-          "id" : "GR-Lot-ProcurementType-Strategic",
-          "contentType" : "group",
-          "nodeId" : "ND-StrategicProcurementType",
-          "displayType" : "GROUP",
-          "description" : "Information (Description) about Strategic Procurement Type",
-          "_label" : "group|name|ND-StrategicProcurementType",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-06-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Strategic Procurement",
-            "_label" : "field|name|BT-06-Lot"
-          }, {
-            "id" : "BT-777-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Strategic Procurement Description",
-            "_label" : "field|name|BT-777-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-Environmental-Impact",
-          "contentType" : "group",
-          "nodeId" : "ND-LotEnvironmentalImpactType",
-          "displayType" : "GROUP",
-          "description" : "Environmental impact procurement type",
-          "_label" : "group|name|ND-LotEnvironmentalImpactType",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-774-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Green Procurement",
-            "_label" : "field|name|BT-774-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-Green-Procurement",
-          "contentType" : "group",
-          "nodeId" : "ND-LotGreenCriteria",
-          "displayType" : "GROUP",
-          "description" : "Details about the use of Green Procurement Criteria",
-          "_label" : "group|name|ND-LotGreenCriteria",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-805-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Green Procurement Criteria",
-            "_label" : "field|name|BT-805-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-Social-Objective",
-          "contentType" : "group",
-          "nodeId" : "ND-LotSocialObjectiveType",
-          "displayType" : "GROUP",
-          "description" : "Social objective procurement type",
-          "_label" : "group|name|ND-LotSocialObjectiveType",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-775-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Social Procurement",
-            "_label" : "field|name|BT-775-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-Innovation-Procurement",
-          "contentType" : "group",
-          "nodeId" : "ND-LotInnovativeAcquisitionType",
-          "displayType" : "GROUP",
-          "description" : "Innovative acquisition procurement type",
-          "_label" : "group|name|ND-LotInnovativeAcquisitionType",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-776-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Procurement of Innovation",
-            "_label" : "field|name|BT-776-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-ProcurementType-Accessibility",
-          "contentType" : "group",
-          "nodeId" : "ND-AccessibilityJustification",
-          "displayType" : "GROUP",
-          "description" : "Justification for absence of Accessibility Criteria",
-          "_label" : "group|name|ND-AccessibilityJustification",
-          "content" : [ {
-            "id" : "BT-754-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Accessibility",
-            "_label" : "field|name|BT-754-Lot"
-          }, {
-            "id" : "BT-755-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Accessibility Justification",
-            "_label" : "field|name|BT-755-Lot"
           } ]
         } ]
       }, {

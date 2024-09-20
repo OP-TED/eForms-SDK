@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.12.0",
+  "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.0",
-    "createdOn" : "2024-06-11T11:53:25"
+    "version" : "1.12.359",
+    "createdOn" : "2024-09-20T13:39:57"
   },
   "noticeId" : "14",
   "metadata" : [ {
@@ -793,6 +793,27 @@
         "description" : "Procurement Type",
         "_label" : "group|name|GR-Lot-ProcurementType",
         "content" : [ {
+          "id" : "GR-Lot-ProcurementType-Strategic",
+          "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementType",
+          "displayType" : "GROUP",
+          "description" : "Information (Description) about Strategic Procurement Type",
+          "_label" : "group|name|ND-StrategicProcurementType",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-06-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Strategic Procurement",
+            "_label" : "field|name|BT-06-Lot"
+          }, {
+            "id" : "BT-777-Lot",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Strategic Procurement Description",
+            "_label" : "field|name|BT-777-Lot"
+          } ]
+        }, {
           "id" : "GR-Lot-Environmental-Impact",
           "contentType" : "group",
           "nodeId" : "ND-LotEnvironmentalImpactType",
@@ -851,27 +872,6 @@
             "displayType" : "COMBOBOX",
             "description" : "Procurement of Innovation",
             "_label" : "field|name|BT-776-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-ProcurementType-Strategic",
-          "contentType" : "group",
-          "nodeId" : "ND-StrategicProcurementType",
-          "displayType" : "GROUP",
-          "description" : "Information (Description) about Strategic Procurement Type",
-          "_label" : "group|name|ND-StrategicProcurementType",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-06-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Strategic Procurement",
-            "_label" : "field|name|BT-06-Lot"
-          }, {
-            "id" : "BT-777-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Strategic Procurement Description",
-            "_label" : "field|name|BT-777-Lot"
           } ]
         }, {
           "id" : "GR-Lot-ProcurementType-Accessibility",
@@ -1639,6 +1639,49 @@
           "displayType" : "COMBOBOX",
           "description" : "Foreign Subsidies Regulation",
           "_label" : "field|name|BT-681-Lot"
+        } ]
+      }, {
+        "id" : "GR-Lot-EED",
+        "contentType" : "group",
+        "nodeId" : "ND-EEDLot",
+        "displayType" : "GROUP",
+        "description" : "Information about EED and foreseen associated assets: EED applicability and bought products",
+        "_label" : "group|name|ND-EEDLot",
+        "content" : [ {
+          "id" : "BT-810-Lot",
+          "contentType" : "field",
+          "displayType" : "RADIO",
+          "description" : "EED Applicable",
+          "_label" : "field|name|BT-810-Lot"
+        }, {
+          "id" : "GR-Lot-EED-Products",
+          "contentType" : "group",
+          "nodeId" : "ND-EEDInformationLot",
+          "displayType" : "GROUP",
+          "description" : "Information about EED products to be procured",
+          "_label" : "group|name|ND-EEDInformationLot",
+          "content" : [ {
+            "id" : "GR-Lot-EED-Asset",
+            "contentType" : "group",
+            "nodeId" : "ND-EEDProcurementDetailsLot",
+            "displayType" : "SECTION",
+            "description" : "Identification of one of the assets to be procured",
+            "_label" : "group|name|ND-EEDProcurementDetailsLot",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "BT-811(a)-Lot",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "EED List (Basis)",
+              "_label" : "field|name|BT-811(a)-Lot"
+            }, {
+              "id" : "BT-811(b)-Lot",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "EED List (Item)",
+              "_label" : "field|name|BT-811(b)-Lot"
+            } ]
+          } ]
         } ]
       }, {
         "id" : "GR-Lot-ElectronicSignatureRequired",

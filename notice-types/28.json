@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.12.0",
+  "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.0",
-    "createdOn" : "2024-06-11T11:53:25"
+    "version" : "1.12.359",
+    "createdOn" : "2024-09-20T13:39:57"
   },
   "noticeId" : "28",
   "metadata" : [ {
@@ -900,6 +900,27 @@
         "description" : "Procurement Type",
         "_label" : "group|name|GR-Lot-ProcurementType",
         "content" : [ {
+          "id" : "GR-Lot-ProcurementType-Strategic",
+          "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementType",
+          "displayType" : "GROUP",
+          "description" : "Information (Description) about Strategic Procurement Type",
+          "_label" : "group|name|ND-StrategicProcurementType",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-06-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Strategic Procurement",
+            "_label" : "field|name|BT-06-Lot"
+          }, {
+            "id" : "BT-777-Lot",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Strategic Procurement Description",
+            "_label" : "field|name|BT-777-Lot"
+          } ]
+        }, {
           "id" : "GR-Lot-Environmental-Impact",
           "contentType" : "group",
           "nodeId" : "ND-LotEnvironmentalImpactType",
@@ -958,27 +979,6 @@
             "displayType" : "COMBOBOX",
             "description" : "Procurement of Innovation",
             "_label" : "field|name|BT-776-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-ProcurementType-Strategic",
-          "contentType" : "group",
-          "nodeId" : "ND-StrategicProcurementType",
-          "displayType" : "GROUP",
-          "description" : "Information (Description) about Strategic Procurement Type",
-          "_label" : "group|name|ND-StrategicProcurementType",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-06-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Strategic Procurement",
-            "_label" : "field|name|BT-06-Lot"
-          }, {
-            "id" : "BT-777-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Strategic Procurement Description",
-            "_label" : "field|name|BT-777-Lot"
           } ]
         }, {
           "id" : "GR-Lot-ProcurementType-Accessibility",
