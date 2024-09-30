@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.359",
-    "createdOn" : "2024-09-20T13:39:57"
+    "version" : "1.12.386",
+    "createdOn" : "2024-09-30T09:32:06"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -23947,15 +23947,6 @@
         "noticeTypes" : [ "1", "2", "4", "5", "7", "8", "10", "11", "12", "13", "14", "15", "16", "17", "19", "20", "21", "23", "24", "29", "30", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E6", "T01", "T02" ],
         "value" : true,
         "severity" : "ERROR"
-      } ]
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{BT-501-Organization-Company} ${BT-501-Organization-Company is unique in /BT-501-Organization-Company}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00501-0259"
       } ]
     }
   }, {

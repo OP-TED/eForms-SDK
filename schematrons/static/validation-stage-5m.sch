@@ -22,7 +22,6 @@
 
 	<!-- Variable for duplicate values -->
 	<let name="global-org-ids-duplicates" value="for $val in $global-org-ids return $val[count($global-org-ids[. = $val]) > 1]"/>
-	<let name="global-org-regs-duplicates" value="for $val in $global-org-regs return $val[count($global-org-regs[. = $val]) > 1]"/>
 	<let name="global-lot-ids-duplicates" value="for $val in $global-lot-ids return $val[count($global-lot-ids[. = $val]) > 1]"/>
 	<let name="global-lot-business-ids-duplicates" value="for $val in $global-lot-business-ids return $val[count($global-lot-business-ids[. = $val]) > 1]"/>
 	<let name="global-res-ids-duplicates" value="for $val in $global-res-ids return $val[count($global-res-ids[. = $val]) > 1]"/>
@@ -34,10 +33,6 @@
 	<!-- Rules on identifiers -->
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00200-0100" role="ERROR" test="not(. = $global-org-ids-duplicates)">rule|text|BR-OPT-00200-0100</assert>
-	</rule>
-
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity/cbc:CompanyID">
-		<assert id="BR-BT-00501-0259" role="ERROR" test="not(. = $global-org-regs-duplicates)">rule|text|BR-BT-00501-0259</assert>
 	</rule>
 
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID">
