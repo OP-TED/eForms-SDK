@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:ContractAwardNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+<ContractAwardNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
 								  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
 								  xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
 								  xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
 								  xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
 								  xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
-								  xmlns:urn="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2">
+								  xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2">
 	<ext:UBLExtensions>
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
@@ -259,4 +259,4 @@ vol3 LOT3</cbc:Description>
 	<cac:TenderResult>
 		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
-</urn:ContractAwardNotice>
+</ContractAwardNotice>
