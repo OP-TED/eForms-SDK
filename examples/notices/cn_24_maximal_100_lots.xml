@@ -25,10 +25,11 @@
 									<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
 									<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 									<cbc:Department>Finance Division</cbc:Department>
-									<cbc:CityName>London</cbc:CityName>
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:CityName>Luxembourg</cbc:CityName>
+									<cbc:PostalZone>1324</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
