@@ -43,6 +43,7 @@
 <entry key="expression|name|1393">The Procedure Place of Performance Country Code (BT-5141-Procedure) or the Procedure Place Performance Services Other (BT-727-Procedure) exists</entry>
 <entry key="expression|name|1394">The Part Place of Performance Country Code (BT-5141-Part) or the Part Place Performance Services Other (BT-727-Part) exists</entry>
 <entry key="expression|name|1395">The Lot Place of Performance Country Code (BT-5141-Lot) or the Lot Place Performance Services Other (BT-727-Lot) exists</entry>
+<entry key="expression|name|1396">“’Official name’ ((BT-500-Organization-Company) should not contain the word ‘test’”. </entry>
 <entry key="expression|name|14">'Access to certain procurement documents is restricted' (BT-14-Part) is not filled in</entry>
 <entry key="expression|name|140">'Additional information' (BT-728) and BT-5142 (BT-5142) are not filled in</entry>
 <entry key="expression|name|141">'Other restrictions on the place of performance' (BT-727) and 'Country' (BT-5141) are not filled in</entry>
@@ -456,7 +457,7 @@
 <entry key="expression|name|649">Review Irregularity Type (BT-791-Review) is not present</entry>
 <entry key="expression|name|65">'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.'</entry>
 <entry key="expression|name|650">Review Irregularity Type (BT-791-Review) is present and it is about a decision at least partly approving the request</entry>
-<entry key="expression|name|651">Review Remedy Type (BT-792-Review) is not present or it is not about a decision</entry>
+<entry key="expression|name|651">Review Remedy Type (BT-792-Review) is not present</entry>
 <entry key="expression|name|652">Review Request or Decision (BT-783-Review) is present, the Review Information is about a "decision" and Review Decision Type (BT-790-Review) is not present.</entry>
 <entry key="expression|name|653">The Review Request is not withdrawn (BT-796-Review is not set to "true")</entry>
 <entry key="expression|name|654">Review Request or Decision (BT-783-Review) is not present or it is not about a "decision" or the Request has been withdrawn.</entry>
@@ -466,6 +467,8 @@
 <entry key="expression|name|658">there is no Framework agreement or it is about a contract within a Framework Agreement.</entry>
 <entry key="expression|name|659">No framework agreement is involved</entry>
 <entry key="expression|name|66">'Winner selection status' (BT-142-LotResult) is not 'At least one winner was chosen.'; 'Technical ID of the lot result (RES-XXX)' (OPT-322) is not filled in</entry>
+<entry key="expression|name|660">’Official name’ (BT-500-Organization-Company) exists</entry>
+<entry key="expression|name|661">the organisation (OPT-200-Organization-Company) is a Buyer (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
 <entry key="expression|name|68">'Subcontracting value is known' (BT-730-Tender) is not 'yes'</entry>
 <entry key="expression|name|69">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
