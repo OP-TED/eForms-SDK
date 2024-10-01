@@ -115,6 +115,8 @@
 <entry key="code|name|contract-term.publ-ser-obl">Public service obligations</entry>
 <entry key="code|name|contract-term.soc-stand">Social standards</entry>
 <entry key="code|name|corporate-body.ACER">European Union Agency for the Cooperation of Energy Regulators</entry>
+<entry key="code|name|corporate-body.AEPPEPF">Authority for European Political Parties and European Political Foundations</entry>
+<entry key="code|name|corporate-body.AMLA">Authority for Anti-Money Laundering and Countering the Financing of Terrorism</entry>
 <entry key="code|name|corporate-body.BERD">European Bank for Reconstruction and Development</entry>
 <entry key="code|name|corporate-body.BEREC_OFFICE">Agency for Support for BEREC</entry>
 <entry key="code|name|corporate-body.CAJU">Clean Aviation Joint Undertaking</entry>
@@ -123,7 +125,7 @@
 <entry key="code|name|corporate-body.CEDEFOP">Cedefop</entry>
 <entry key="code|name|corporate-body.CEPOL">European Union Agency for Law Enforcement Training</entry>
 <entry key="code|name|corporate-body.CERN">CERN</entry>
-<entry key="code|name|corporate-body.CERT">Computer Emergency Response Team for the EU institutions, bodies and agencies</entry>
+<entry key="code|name|corporate-body.CERT-EU">Cybersecurity Service for the Union Institutions, Bodies, Offices and Agencies</entry>
 <entry key="code|name|corporate-body.CFCA">European Fisheries Control Agency</entry>
 <entry key="code|name|corporate-body.CHJU">Clean Hydrogen Joint Undertaking</entry>
 <entry key="code|name|corporate-body.CINEA">European Climate, Infrastructure and Environment Executive Agency</entry>
@@ -140,6 +142,7 @@
 <entry key="code|name|corporate-body.EBA">European Banking Authority</entry>
 <entry key="code|name|corporate-body.ECA">European Court of Auditors</entry>
 <entry key="code|name|corporate-body.ECB">European Central Bank</entry>
+<entry key="code|name|corporate-body.ECCC">European Cybersecurity Industrial, Technology and Research Competence Centre</entry>
 <entry key="code|name|corporate-body.ECDC">European Centre for Disease Prevention and Control</entry>
 <entry key="code|name|corporate-body.ECHA">European Chemicals Agency</entry>
 <entry key="code|name|corporate-body.ECHR">European Court of Human Rights</entry>
@@ -157,7 +160,6 @@
 <entry key="code|name|corporate-body.EISMEA">European Innovation Council and SMEs Executive Agency</entry>
 <entry key="code|name|corporate-body.EIT">European Institute of Innovation and Technology</entry>
 <entry key="code|name|corporate-body.ELA">European Labour Authority</entry>
-<entry key="code|name|corporate-body.EMCDDA">European Monitoring Centre for Drugs and Drug Addiction</entry>
 <entry key="code|name|corporate-body.EMEA">European Medicines Agency</entry>
 <entry key="code|name|corporate-body.EMSA">European Maritime Safety Agency</entry>
 <entry key="code|name|corporate-body.ENISA">European Union Agency for Cybersecurity</entry>
@@ -172,6 +174,7 @@
 <entry key="code|name|corporate-body.ESMA">European Securities and Markets Authority</entry>
 <entry key="code|name|corporate-body.ETF">European Training Foundation</entry>
 <entry key="code|name|corporate-body.EUAA">European Union Agency for Asylum</entry>
+<entry key="code|name|corporate-body.EUDA">European Union Drugs Agency</entry>
 <entry key="code|name|corporate-body.EUISS">European Union Institute for Security Studies</entry>
 <entry key="code|name|corporate-body.EURAIL">Europe’s Rail Joint Undertaking</entry>
 <entry key="code|name|corporate-body.EURATOM">Euratom Supply Agency</entry>
@@ -10123,6 +10126,7 @@
 <entry key="code|name|direct-award-justification.liquidator">Purchase on particularly advantageous terms from the liquidator in an insolvency procedure, an arrangement with creditors or a similar procedure under national laws and regulations</entry>
 <entry key="code|name|direct-award-justification.non-buyer-aw">Contract awarded by parties that are not buyers</entry>
 <entry key="code|name|direct-award-justification.non-contr">Certain cases of non-contractual nature</entry>
+<entry key="code|name|direct-award-justification.non-dir">The procurement falls outside the scope of application of the directive</entry>
 <entry key="code|name|direct-award-justification.non-p-int">Contracts for non-pecuniary interest</entry>
 <entry key="code|name|direct-award-justification.not-wss">Contracts whose purpose is not the execution of works, the supply of products and the provision of services</entry>
 <entry key="code|name|direct-award-justification.other-activity">Contracts awarded for purposes other than the pursuit of a covered activity or for the pursuit of such an activity in a third country</entry>
@@ -10482,7 +10486,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Conflict of interest due to its participation in the procurement procedure</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Direct or indirect involvement in the preparation of this procurement procedure</entry>
 <entry key="code|name|exclusion-ground.exg-mis-sanction">Early termination, damages, or other comparable sanctions</entry>
-<entry key="code|name|exclusion-ground.exg-mis-unrel-sec">Unreliability to exclude risks to the security of the country</entry>
+<entry key="code|name|exclusion-ground.exg-mis-unrel-sec">Lack of reliability to exclude risks to the security of the country</entry>
 <entry key="code|name|exclusion-ground.exg-natl">Purely national exclusion grounds</entry>
 <entry key="code|name|exclusion-ground.exg-natl-bre-nat-law">Breaching of obligations set under purely national exclusion grounds</entry>
 <entry key="code|name|exclusion-ground.exg-pmt">Grounds relating to the payment of taxes or social security contributions </entry>
@@ -10532,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">No exception</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Exception only one tender</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Exception public interest</entry>
-<entry key="code|name|international-procurement-instrument-measure.empty">There is currently no Implementing Act</entry>
+<entry key="code|name|international-procurement-instrument-measure.empty">Placeholder for a specific IPI measure</entry>
 <entry key="code|name|ipi-scope.false">no</entry>
 <entry key="code|name|irregularity-type.ab-low">Unjustified rejection of abnormally low tenders</entry>
 <entry key="code|name|irregularity-type.ar-split">Artificial splitting of contracts</entry>
