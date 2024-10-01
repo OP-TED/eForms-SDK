@@ -238,6 +238,12 @@
 <entry key="group|name|GR-Winner">Winner</entry>
 <entry key="group|name|ND-AcceleratedProcedure">Accelerated procedure</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justification for absence of accessibility criteria</entry>
+<entry key="group|name|ND-AppealDecision">Decision type</entry>
+<entry key="group|name|ND-AppealIrregularity">Irregularity type</entry>
+<entry key="group|name|ND-AppealProcessingParty">Party dealing with the review at the given process step.</entry>
+<entry key="group|name|ND-AppealRemedy">Remedy type</entry>
+<entry key="group|name|ND-AppealedItemReference">Appealed item</entry>
+<entry key="group|name|ND-AppealingParty">A Party that initiated the Review Request</entry>
 <entry key="group|name|ND-Asset">Assets justifying contract extension</entry>
 <entry key="group|name|ND-AuctionTerms">Terms of the auction</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Jury member</entry>
@@ -410,9 +416,11 @@
 <entry key="group|name|ND-ReceivedSubmissions">Received submissions statistics</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Re-estimated value (published later)</entry>
 <entry key="group|name|ND-RevenueAllocation">Revenue allocation percentage</entry>
+<entry key="group|name|ND-ReviewRequests">Information about Requested Reviews and their associated statuses</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistics about review requests</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Review request irregularity count (published later)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Review request irregularity type (published later)</entry>
+<entry key="group|name|ND-ReviewStatus">Status of submitted Review Requests (ID, Stage, Title, Description, Request, Decision)</entry>
 <entry key="group|name|ND-RewardsPenalties">Rewards and penalties</entry>
 <entry key="group|name|ND-SecondStageThresholdCriterionParameter">Second stage threshold parameter</entry>
 <entry key="group|name|ND-SecondStageWeightCriterionParameter">Second stage weight parameter</entry>
