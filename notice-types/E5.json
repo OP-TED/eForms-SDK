@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.389",
-    "createdOn" : "2024-09-30T14:39:28"
+    "version" : "1.12.401",
+    "createdOn" : "2024-10-01T13:17:56"
   },
   "noticeId" : "E5",
   "metadata" : [ {
@@ -4714,6 +4714,206 @@
             } ]
           } ]
         } ]
+      } ]
+    } ]
+  }, {
+    "id" : "GR-Review",
+    "contentType" : "group",
+    "nodeId" : "ND-ReviewRequests",
+    "displayType" : "SECTION",
+    "description" : "Information about Requested Reviews and their associated statuses",
+    "_label" : "group|name|ND-ReviewRequests",
+    "content" : [ {
+      "id" : "GR-Review-Status",
+      "contentType" : "group",
+      "nodeId" : "ND-ReviewStatus",
+      "displayType" : "GROUP",
+      "description" : "Status of submitted Review Requests (ID, Stage, Title, Description, Request, Decision)",
+      "_label" : "group|name|ND-ReviewStatus",
+      "_idScheme" : "REV",
+      "_schemeName" : "review",
+      "businessEntityId" : "reviewInformation",
+      "_identifierFieldId" : "BT-804-Review",
+      "_captionFieldId" : "BT-784-Review",
+      "_repeatable" : true,
+      "content" : [ {
+        "id" : "BT-804-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Review Technical Identifier",
+        "_label" : "field|name|BT-804-Review",
+        "_idScheme" : "REV",
+        "_schemeName" : "review"
+      }, {
+        "id" : "BT-783-Review",
+        "contentType" : "field",
+        "displayType" : "COMBOBOX",
+        "description" : "Review Request or Decision",
+        "_label" : "field|name|BT-783-Review"
+      }, {
+        "id" : "GR-Review-AppealParty",
+        "contentType" : "group",
+        "nodeId" : "ND-AppealingParty",
+        "displayType" : "GROUP",
+        "description" : "A Party that initiated the Review Request",
+        "_label" : "group|name|ND-AppealingParty",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-808-Review",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Review Applicant Identifier",
+          "_label" : "field|name|BT-808-Review",
+          "_idSchemes" : [ "ORG" ]
+        } ]
+      }, {
+        "id" : "GR-Review-Party",
+        "contentType" : "group",
+        "nodeId" : "ND-AppealProcessingParty",
+        "displayType" : "GROUP",
+        "description" : "Party dealing with the review at the given process step.",
+        "_label" : "group|name|ND-AppealProcessingParty",
+        "content" : [ {
+          "id" : "BT-807-Review",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Review Body Identifier",
+          "_label" : "field|name|BT-807-Review",
+          "_idSchemes" : [ "ORG" ]
+        }, {
+          "id" : "BT-799-ReviewBody",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Review Body Type",
+          "_label" : "field|name|BT-799-ReviewBody"
+        } ]
+      }, {
+        "id" : "BT-784-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Review Identifier",
+        "_label" : "field|name|BT-784-Review"
+      }, {
+        "id" : "BT-785-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Review Previous Identifier",
+        "_label" : "field|name|BT-785-Review"
+      }, {
+        "id" : "GR-Review-AppealedItem",
+        "contentType" : "group",
+        "nodeId" : "ND-AppealedItemReference",
+        "displayType" : "GROUP",
+        "description" : "Appealed item",
+        "_label" : "group|name|ND-AppealedItemReference",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-786-Review",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Review Notice Section Identifier",
+          "_label" : "field|name|BT-786-Review",
+          "_idSchemes" : [ "CON", "GLO", "LOT", "ORG", "PAR", "RES", "TEN", "TPA", "TPO", "UBO" ]
+        } ]
+      }, {
+        "id" : "BT-787-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Review Date",
+        "_label" : "field|name|BT-787-Review"
+      }, {
+        "id" : "BT-788-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Review Title",
+        "_label" : "field|name|BT-788-Review"
+      }, {
+        "id" : "BT-789-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Review Description",
+        "_label" : "field|name|BT-789-Review"
+      }, {
+        "id" : "BT-794-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Review URL",
+        "_label" : "field|name|BT-794-Review"
+      }, {
+        "id" : "GR-Review-Decision",
+        "contentType" : "group",
+        "nodeId" : "ND-AppealDecision",
+        "displayType" : "GROUP",
+        "description" : "Decision type",
+        "_label" : "group|name|ND-AppealDecision",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-790-Review",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Review Decision Type",
+          "_label" : "field|name|BT-790-Review"
+        } ]
+      }, {
+        "id" : "GR-Review-IrregularityType",
+        "contentType" : "group",
+        "nodeId" : "ND-AppealIrregularity",
+        "displayType" : "GROUP",
+        "description" : "Irregularity type",
+        "_label" : "group|name|ND-AppealIrregularity",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-791-Review",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Review Irregularity Type",
+          "_label" : "field|name|BT-791-Review"
+        } ]
+      }, {
+        "id" : "GR-Review-Remedy",
+        "contentType" : "group",
+        "nodeId" : "ND-AppealRemedy",
+        "displayType" : "GROUP",
+        "description" : "Remedy type",
+        "_label" : "group|name|ND-AppealRemedy",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-792-Review",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Review Remedy Type",
+          "_label" : "field|name|BT-792-Review"
+        } ]
+      }, {
+        "id" : "BT-793-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Review Remedy Value",
+        "_label" : "field|name|BT-793-Review"
+      }, {
+        "id" : "BT-795-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Review Request Fee",
+        "_label" : "field|name|BT-795-Review"
+      }, {
+        "id" : "BT-796-Review",
+        "contentType" : "field",
+        "displayType" : "RADIO",
+        "description" : "Review Request Withdrawn",
+        "_label" : "field|name|BT-796-Review"
+      }, {
+        "id" : "BT-797-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Review Request Withdrawn Date",
+        "_label" : "field|name|BT-797-Review"
+      }, {
+        "id" : "BT-798-Review",
+        "contentType" : "field",
+        "displayType" : "TEXTAREA",
+        "description" : "Review Request Withdrawn Reasons",
+        "_label" : "field|name|BT-798-Review"
       } ]
     } ]
   }, {
