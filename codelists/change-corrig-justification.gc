@@ -5,7 +5,7 @@
       <ShortName>ChangeCorrigJustification</ShortName>
       <LongName>change-corrig-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/change-corrig-justification</LongName>
-      <Version>20240207-0</Version>
+      <Version>20240925-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/change-corrig-justification</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -608,76 +608,76 @@
             <SimpleValue>Procedure suspended due to a complaint, appeal or any other action for review</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Процедурата е спряна заради жалба, апелация или друго действие за преразглеждане</SimpleValue>
+            <SimpleValue>Процедурата е спряна поради жалба, обжалване или друго действие за преразглеждане</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Postup je pozastaven kvůli stížnosti, odvolání nebo jinému přezkumnému opatření</SimpleValue>
+            <SimpleValue>Řízení pozastaveno z důvodu stížnosti, odvolání nebo jiné žádosti o přezkum</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Proceduren er suspenderet på grund af en klage, appel eller anden gennemgangsaktion</SimpleValue>
+            <SimpleValue>Procedure suspenderet som følge af en klage, en appel eller anden form for prøvelse</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Verfahren aufgrund einer Beschwerde, Berufung oder einer anderen Überprüfungsmaßnahme ausgesetzt</SimpleValue>
+            <SimpleValue>Aussetzung des Verfahrens aufgrund einer Beschwerde, eines Rechtsbehelfs oder einer anderen Überprüfungsmaßnahme</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Η διαδικασία αναστέλλεται λόγω καταγγελίας, έφεσης ή οποιασδήποτε άλλης δράσης αναθεώρησης</SimpleValue>
+            <SimpleValue>Η διαδικασία ανεστάλη λόγω καταγγελίας, έφεσης ή άλλης προσφυγής</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Procedure suspended due to a complaint, appeal or any other action for review</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Procedimiento suspendido debido a una queja, apelación o cualquier otra acción de revisión</SimpleValue>
+            <SimpleValue>Procedimiento suspendido debido a una reclamación, un recurso u otro tipo de revisión</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Menetlus on peatatud kaebuse, apellatsiooni või muu ülevaatamise tegevuse tõttu</SimpleValue>
+            <SimpleValue>Menetlus peatatud kaebuse, edasikaebuse või muu läbivaatamismeetme tõttu</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Menettely keskeytetty valituksen, vetoomuksen tai muun tarkistustoimenpiteen vuoksi</SimpleValue>
+            <SimpleValue>Menettely keskeytetty valituksen, muutoksenhaun tai muunlaisen tarkastelupyynnön vuoksi</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Procédure suspendue en raison d'une plainte, d'un appel ou de toute autre action en révision</SimpleValue>
+            <SimpleValue>Procédure suspendue à la suite d’une plainte, d’un recours ou de tout autre réexamen</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Próiseas curtha ar ceal de bharr gearán, achomhairc nó aon ghníomh eile athbhreithnithe</SimpleValue>
+            <SimpleValue>Nós imeachta curtha ar fionraí mar gheall ar ghearán, achomharc nó aon ghníomh eile le hathbhreithniú</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Postupak je obustavljen zbog prigovora, žalbe ili bilo koje druge radnje za pregled</SimpleValue>
+            <SimpleValue>Postupak obustavljen zbog pritužbe, žalbe ili bilo kojeg drugog zahtjeva za preispitivanje</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Eljárás felfüggesztve panasz, fellebbezés vagy bármilyen más felülvizsgálati intézkedés miatt</SimpleValue>
+            <SimpleValue>Panasz, fellebbezés vagy egyéb felülvizsgálati kérelem miatt az eljárást felfüggesztették</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Procedura sospesa a causa di un reclamo, appello o qualsiasi altra azione di revisione</SimpleValue>
+            <SimpleValue>Procedura sospesa a causa di un reclamo, di un ricorso o di qualsiasi altra azione di riesame</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Procedūra sustabdyta dėl skundo, apeliacijos ar bet kokio kito peržiūros veiksmo</SimpleValue>
+            <SimpleValue>Procedūra sustabdyta dėl skundo, apeliacinio skundo ar kitų veiksmų ir bus peržiūrėta</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Procedūra ir apturēta sūdzības, apelācijas vai jebkādas citas pārskatīšanas darbības dēļ</SimpleValue>
+            <SimpleValue>Procedūra apturēta sūdzības, pārsūdzības vai jebkādas citas pārskatīšanas dēļ</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Proċedura sospesa minħabba lment, appell jew kwalunkwe azzjoni oħra għar-reviżjoni</SimpleValue>
+            <SimpleValue>Proċedura sospiża minħabba lment, appell jew kwalunkwe azzjoni oħra ta’ rieżami</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Procedure opgeschort vanwege een klacht, beroep of enige andere actie voor herziening</SimpleValue>
+            <SimpleValue>Procedure opgeschort naar aanleiding van een klacht, beroep of enige andere actie met het oog op beroep of herziening</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Procedura zawieszona z powodu skargi, odwołania lub jakiegokolwiek innego działania w celu przeglądu</SimpleValue>
+            <SimpleValue>Procedura zawieszona ze względu na skargę, odwołanie lub inne zaskarżenie</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Procedimento suspenso devido a uma reclamação, recurso ou qualquer outra ação de revisão</SimpleValue>
+            <SimpleValue>Procedimento suspenso devido a reclamação, recurso ou qualquer outra forma de reapreciação</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Procedura suspendată din cauza unei plângeri, apeluri sau orice altă acțiune de revizuire</SimpleValue>
+            <SimpleValue>Procedură suspendată ca urmare a unei plângeri, a unui recurs sau a oricărei alte acțiuni de revizuire</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Postup je pozastavený kvôli sťažnosti, odvolaniu alebo inej opatreniu na preskúmanie</SimpleValue>
+            <SimpleValue>Konanie pozastavené z dôvodu sťažnosti, odvolania alebo iného dôvodu na preskúmanie</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Postopek je prekinjen zaradi pritožbe, pritožbe ali katere koli druge akcije za pregled</SimpleValue>
+            <SimpleValue>Postopek je bil prekinjen zaradi pritožbe ali katerega koli drugega postopka za pregled</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Förfarandet är avstängt på grund av ett klagomål, överklagande eller någon annan granskande åtgärd</SimpleValue>
+            <SimpleValue>Postopek je bil prekinjen zaradi pritožbe ali katerega koli drugega postopka za pregled</SimpleValue>
          </Value>
       </Row>
       <Row>
