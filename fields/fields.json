@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.396",
-    "createdOn" : "2024-10-01T09:40:34"
+    "version" : "1.12.406",
+    "createdOn" : "2024-10-03T14:03:49"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -35971,7 +35971,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5" ],
-        "condition" : "{ND-ReviewStatus} ${(BT-792-Review is not present) or not(BT-783-Review == 'dec')}",
+        "condition" : "{ND-ReviewStatus} ${(BT-792-Review is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -36011,6 +36011,7 @@
     "type" : "url",
     "businessEntityId" : "reviewInformation",
     "legalType" : "URL",
+    "maxLength" : 400,
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -36691,7 +36692,7 @@
   }, {
     "id" : "BT-807-Review",
     "parentNodeId" : "ND-AppealProcessingParty",
-    "name" : "Review Body (Reference ID)",
+    "name" : "Review Body Identifier",
     "btId" : "BT-807",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID",
     "xpathRelative" : "cac:Party/cac:PartyIdentification/cbc:ID",
@@ -36727,7 +36728,7 @@
   }, {
     "id" : "BT-807-Review-Scheme",
     "parentNodeId" : "ND-AppealProcessingParty",
-    "name" : "Review Body (Reference ID) Schemename",
+    "name" : "Review Body Identifier Schemename",
     "btId" : "BT-807",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",
     "xpathRelative" : "cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",
@@ -36745,7 +36746,7 @@
   }, {
     "id" : "BT-808-Review",
     "parentNodeId" : "ND-AppealingParty",
-    "name" : "Review Requester (Reference ID)",
+    "name" : "Review Applicant Identifier",
     "btId" : "BT-808",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID",
     "xpathRelative" : "cac:Party/cac:PartyIdentification/cbc:ID",
@@ -36781,7 +36782,7 @@
   }, {
     "id" : "BT-808-Review-Scheme",
     "parentNodeId" : "ND-AppealingParty",
-    "name" : "Review Requester (Reference ID) Schemename",
+    "name" : "Review Applicant Identifier Schemename",
     "btId" : "BT-808",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",
     "xpathRelative" : "cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",

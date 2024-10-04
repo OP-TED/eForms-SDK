@@ -2074,6 +2074,7 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:URI">
 		<assert id="BR-BT-00794-0052" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\d)?\.))[\w\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00794-0052</assert>
+		<assert id="BT-794-Review_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-794-Review_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealDecision/efbc:DecisionTypeCode">
 		<assert id="BR-BT-00790-0051" role="ERROR" test="normalize-space(.) = ('accepted', 'other', 'rej-dl-passed', 'rej-ncomp', 'rej-nirreg', 'rej-npaid', 'rej-other', 'rej-resolv', 'rej-signed')">rule|text|BR-BT-00790-0051</assert>
