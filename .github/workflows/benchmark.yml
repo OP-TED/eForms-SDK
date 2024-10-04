@@ -1,7 +1,15 @@
 name: Benchmark Schematron rules with the SDK Analyzer
 
-# Allows to also run this workflow manually from the Actions tab
-on: [push, pull_request, workflow_dispatch]
+on:
+  push:
+  pull_request:
+  # Allows to also run this workflow manually from the Actions tab
+  workflow_dispatch:
+  # Run this workflow every Tuesday and Friday at 05:00
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 5 * * 2,5'
+
 
 jobs:
   benchmark:
