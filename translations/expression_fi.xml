@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Omistajan kansalaisuus' (BT-706) ei ole täytetty</entry>
 <entry key="expression|name|143">'Virallinen nimi' (BT-500-UBO) ei ole täytetty</entry>
 <entry key="expression|name|144">'Maa' (BT-514-UBO) ei ole NUTS-koodeja</entry>
-<entry key="expression|name|145">'Maa' (BT-514-UBO) ei ole postinumeroja</entry>
 <entry key="expression|name|146">'Postiosoite' (BT-510(a)-UBO) ei ole täytetty</entry>
 <entry key="expression|name|147">'Postiosoite' (BT-510(b)-UBO) ei ole täytetty</entry>
 <entry key="expression|name|148">'Perusteita käytetään valittaessa menettelyn jälkimmäiseen vaiheeseen kutsuttavia ehdokkaita' (BT-40) ei ole 'kyllä' tai 'Luku on tyypiltään kynnysarvo' (BT-7532) on täytetty</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'UBO:n tekninen ID (UBO-XXX)' (OPT-202-UBO) ei ole täytetty</entry>
 <entry key="expression|name|344">'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä'</entry>
 <entry key="expression|name|345">Organisaatio ei ole 'Ostaja'</entry>
-<entry key="expression|name|346">Organisaatio on ostaja, ja dynaamista hankintajärjestelmää voivat käyttää myös ostajat, joita ei ole mainittu tässä ilmoituksessa, ja oikeusperusta on eri kuin 'Muu', ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ole täytetty</entry>
-<entry key="expression|name|347">Organisaatio on ostaja, ja dynaamista hankintajärjestelmää voivat käyttää myös ostajat, joita ei ole mainittu tässä ilmoituksessa, ja oikeusperusta on eri kuin 'Muu', ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ole täytetty</entry>
 <entry key="expression|name|348">'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä'; 'Menettelyn tyyppi' (BT-105) ei ole yksi seuraavista: 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely', 'Rajoitettu'</entry>
 <entry key="expression|name|349">Kyseessä on puitesopimus</entry>
 <entry key="expression|name|35">'Menettelyn tyyppi' (BT-105) ei ole 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Postitoimipaikka' (BT-513-Business) ei ole täytetty</entry>
 <entry key="expression|name|391">'Postiosoite' (BT-510(a)-Business) ei ole täytetty</entry>
 <entry key="expression|name|392">'Postiosoite' (BT-510(b)-Business) ei ole täytetty</entry>
-<entry key="expression|name|393">'Maa' (BT-514-Business) ei ole postinumeroja</entry>
 <entry key="expression|name|394">'Maa' (BT-514-Business) ei ole täytetty</entry>
 <entry key="expression|name|395">'Sovellettava rajatylittävä lainsäädäntö' (BT-09(a)-Procedure) ei ole täytetty</entry>
 <entry key="expression|name|4">'Menettely on nopeutettu' (BT-106-Procedure) ei ole 'kyllä'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727), 'Maaryhmittely (NUTS)' BT-5071 ja 'Postitoimipaikka' (BT-5131) ei ole täytetty</entry>
 <entry key="expression|name|524">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727), 'Maaryhmittely (NUTS)' BT-5071 ja 'Postitoimipaikka' (BT-5131) ei ole täytetty</entry>
 <entry key="expression|name|525">'Muut suorituspaikkaa koskevat rajoitukset' (BT-727), 'Maaryhmittely (NUTS)' BT-5071 ja 'Postitoimipaikka' (BT-5131) ei ole täytetty</entry>
-<entry key="expression|name|528">'Maa' (BT-514-Organization-Touchpoint) ei ole postinumeroja</entry>
 <entry key="expression|name|529">'Tietoa muutoksenhaun määräajoista' (BT-99-Lot) ei ole täytetty</entry>
 <entry key="expression|name|53">'Alihankintaa koskeva velvoite, joka tarjoajan on täytettävä' (BT-65_Lot) ei ole 'Toimeksisaajan on teetettävä tietty vähimmäisprosenttiosuus sopimuksesta direktiivin 2009/81/EY III osastossa säädettyä menettelyä noudattaen.'</entry>
 <entry key="expression|name|530">'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization) ei liity mihinkään organisaatioon</entry>

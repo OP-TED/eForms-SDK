@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Naționalitatea proprietarului' (BT-706) nu este completat</entry>
 <entry key="expression|name|143">'Denumire oficială' (BT-500-UBO) nu este completat</entry>
 <entry key="expression|name|144">'Țara' (BT-514-UBO) nu are coduri NUTS</entry>
-<entry key="expression|name|145">'Țara' (BT-514-UBO) nu are coduri poștale</entry>
 <entry key="expression|name|146">'Adresă poștală' (BT-510(a)-UBO) nu este completat</entry>
 <entry key="expression|name|147">'Adresă poștală' (BT-510(b)-UBO) nu este completat</entry>
 <entry key="expression|name|148">'Criteriile vor fi utilizate pentru a selecta candidații care urmează să fie invitați în a doua etapă a procedurii' (BT-40) nu este 'da' sau 'Numărul este un tip de prag' (BT-7532) este completat</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) nu este completat</entry>
 <entry key="expression|name|344">'Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați' (BT-52-Lot) nu este 'da'</entry>
 <entry key="expression|name|345">Organizația nu este 'Cumpărător'</entry>
-<entry key="expression|name|346">Organizația este un cumpărător, iar sistemul dinamic de achiziții poate fi utilizat și de cumpărătorii care nu sunt enumerați în prezentul anunț, iar temeiul juridic este diferit de 'Altele' și 'Organism central de achiziție care achiziționează bunuri și/sau servicii destinate altor cumpărători' (OPP-052) nu este completat</entry>
-<entry key="expression|name|347">Organizația este un cumpărător, iar sistemul dinamic de achiziții poate fi utilizat și de cumpărătorii care nu sunt enumerați în prezentul anunț, iar temeiul juridic este diferit de 'Altele' și 'Organism central de achiziție care achiziționează bunuri și/sau servicii destinate altor cumpărători' (OPP-052) nu este completat</entry>
 <entry key="expression|name|348">'Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați' (BT-52-Lot) nu este 'da'; 'Tip de procedură' (BT-105) nu este una dintre următoarele: 'Dialog competitiv'; 'Parteneriat pentru inovare'; 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'; 'Altă procedură cu mai multe etape'; 'Restrânsă'</entry>
 <entry key="expression|name|349">Acesta este un contract-cadru</entry>
 <entry key="expression|name|35">'Tip de procedură' (BT-105) nu este 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Localitate' (BT-513-Business) nu este completat</entry>
 <entry key="expression|name|391">'Adresă poștală' (BT-510(a)-Business) nu este completat</entry>
 <entry key="expression|name|392">'Adresă poștală' (BT-510(b)-Business) nu este completat</entry>
-<entry key="expression|name|393">'Țara' (BT-514-Business) nu are coduri poștale</entry>
 <entry key="expression|name|394">'Țara' (BT-514-Business) nu este completat</entry>
 <entry key="expression|name|395">'Drept transnațional aplicabil' (BT-09(a)-Procedure) nu este completat</entry>
 <entry key="expression|name|4">'Procedura este accelerată' (BT-106-Procedure) nu este 'da'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Alte restricții privind locul de executare' (BT-727), 'Subdiviziunea țării (NUTS)' BT-5071 și 'Localitate' (BT-5131) nu este completat</entry>
 <entry key="expression|name|524">'Alte restricții privind locul de executare' (BT-727), 'Subdiviziunea țării (NUTS)' BT-5071 și 'Localitate' (BT-5131) nu este completat</entry>
 <entry key="expression|name|525">'Alte restricții privind locul de executare' (BT-727), 'Subdiviziunea țării (NUTS)' BT-5071 și 'Localitate' (BT-5131) nu este completat</entry>
-<entry key="expression|name|528">'Țara' (BT-514-Organization-Touchpoint) nu are coduri poștale</entry>
 <entry key="expression|name|529">'Informații privind termenele-limită pentru reexaminare' (BT-99-Lot) nu este completat</entry>
 <entry key="expression|name|53">'O obligație pe care ofertantul trebuie să o îndeplinească în materie de subcontractare.' (BT-65_Lot) nu este 'Contractantul trebuie să subcontracteze un procentaj minim din contract utilizând procedura prevăzută la titlul III din Directiva 2009/81/CE.'</entry>
 <entry key="expression|name|530">'Organizația care îndeplinește acest rol' (OPT-302-Organization) nu este conectată la nicio organizație</entry>

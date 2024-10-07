@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Státní příslušnost majitele' (BT-706) není vyplněn</entry>
 <entry key="expression|name|143">'Oficiální název' (BT-500-UBO) není vyplněn</entry>
 <entry key="expression|name|144">'Země' (BT-514-UBO) nemá kódy NUTS</entry>
-<entry key="expression|name|145">'Země' (BT-514-UBO) nemá PSČ</entry>
 <entry key="expression|name|146">'Poštovní adresa' (BT-510(a)-UBO) není vyplněn</entry>
 <entry key="expression|name|147">'Poštovní adresa' (BT-510(b)-UBO) není vyplněn</entry>
 <entry key="expression|name|148">'Kritéria budou použita k výběru uchazečů, kteří budou pozváni do druhé fáze řízení' (BT-40) není 'ano' nebo 'Číslo je typem prahové hodnoty' (BT-7532) je vyplněn</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'Technické ID konečného uživatele výhod (UBO-XXX)' (OPT-202-UBO) není vyplněn</entry>
 <entry key="expression|name|344">'Řízení proběhne v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni' (BT-52-Lot) není 'ano'</entry>
 <entry key="expression|name|345">Organizace není 'Kupující'</entry>
-<entry key="expression|name|346">Organizace je kupujícím a dynamický nákupní systém je rovněž použitelný kupujícími, kteří nejsou uvedeni v tomto oznámení, a právní základ se liší od 'Jiné' a 'Centrální zadavatel pořizující dodávky a/nebo služby určené pro jiné kupující' (OPP-052) není vyplněn</entry>
-<entry key="expression|name|347">Organizace je kupujícím a dynamický nákupní systém je rovněž použitelný kupujícími, kteří nejsou uvedeni v tomto oznámení, a právní základ se liší od 'Jiné' a 'Centrální zadavatel pořizující dodávky a/nebo služby určené pro jiné kupující' (OPP-052) není vyplněn</entry>
 <entry key="expression|name|348">'Řízení proběhne v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni' (BT-52-Lot) není 'ano'; 'Typ řízení' (BT-105) není jedním z následujících: 'Soutěžní dialog'; 'Inovační partnerství'; 'Jednací řízení s uveřejněním / jednací řízení'; 'Jiné vícefázové řízení'; 'Užší'</entry>
 <entry key="expression|name|349">Jedná se o rámcovou smlouvu</entry>
 <entry key="expression|name|35">'Typ řízení' (BT-105) není 'Jednací řízení s uveřejněním / jednací řízení'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Obec' (BT-513-Business) není vyplněn</entry>
 <entry key="expression|name|391">'Poštovní adresa' (BT-510(a)-Business) není vyplněn</entry>
 <entry key="expression|name|392">'Poštovní adresa' (BT-510(b)-Business) není vyplněn</entry>
-<entry key="expression|name|393">'Země' (BT-514-Business) nemá PSČ</entry>
 <entry key="expression|name|394">'Země' (BT-514-Business) není vyplněn</entry>
 <entry key="expression|name|395">'Použitelné přeshraniční právo' (BT-09(a)-Procedure) není vyplněn</entry>
 <entry key="expression|name|4">'Řízení se zrychlí' (BT-106-Procedure) není 'ano'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Další omezení týkající se místa plnění' (BT-727), 'Nižší územní jednotka země (NUTS)' BT-5071 a 'Obec' (BT-5131) není vyplněn</entry>
 <entry key="expression|name|524">'Další omezení týkající se místa plnění' (BT-727), 'Nižší územní jednotka země (NUTS)' BT-5071 a 'Obec' (BT-5131) není vyplněn</entry>
 <entry key="expression|name|525">'Další omezení týkající se místa plnění' (BT-727), 'Nižší územní jednotka země (NUTS)' BT-5071 a 'Obec' (BT-5131) není vyplněn</entry>
-<entry key="expression|name|528">'Země' (BT-514-Organization-Touchpoint) nemá PSČ</entry>
 <entry key="expression|name|529">'Informace o lhůtách pro přezkum' (BT-99-Lot) není vyplněn</entry>
 <entry key="expression|name|53">'Povinnosti, které uchazeč musí splnit v souvislosti s využitím subdodavatele' (BT-65_Lot) není 'Zhotovitel, dodavatel nebo poskytovatel musí minimální procentní podíl zakázky zadat třetím osobám prostřednictvím zadávacího řízení stanoveného v hlavě III směrnice 2009/81/ES.'</entry>
 <entry key="expression|name|530">'Organizace vykonávající tuto roli' (OPT-302-Organization) není spojen s žádnou organizací</entry>

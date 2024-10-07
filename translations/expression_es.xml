@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Nacionalidad del titular' (BT-706) no está cumplimentado</entry>
 <entry key="expression|name|143">'Denominación oficial' (BT-500-UBO) no está cumplimentado</entry>
 <entry key="expression|name|144">'País' (BT-514-UBO) no incluye códigos NUTS</entry>
-<entry key="expression|name|145">'País' (BT-514-UBO) no incluye códigos postales</entry>
 <entry key="expression|name|146">'Dirección postal' (BT-510(a)-UBO) no está cumplimentado</entry>
 <entry key="expression|name|147">'Dirección postal' (BT-510(b)-UBO) no está cumplimentado</entry>
 <entry key="expression|name|148">'Los criterios se utilizarán para seleccionar a los candidatos que serán invitados a la segunda fase del procedimiento' (BT-40) no es 'sí' o 'El número es un tipo de umbral' (BT-7532) está cumplimentado</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'ID técnico del UBO (UBO-XXX)' (OPT-202-UBO) no está cumplimentado</entry>
 <entry key="expression|name|344">'El procedimiento se desarrollará en fases sucesivas. En cada fase, pueden eliminarse algunos participantes' (BT-52-Lot) no es 'sí'</entry>
 <entry key="expression|name|345">La organización no es un 'Comprador'</entry>
-<entry key="expression|name|346">La organización es un comprador, y el sistema dinámico de adquisición también pueden usarlo compradores que no aparezcan en este anuncio, y el fundamento jurídico no es 'Otros', y 'Organismo comprador central que adquiere suministros o servicios destinados a otros compradores' (OPP-052) no está cumplimentado</entry>
-<entry key="expression|name|347">La organización es un comprador, y el sistema dinámico de adquisición también pueden usarlo compradores que no aparezcan en este anuncio, y el fundamento jurídico no es 'Otros', y 'Organismo comprador central que adquiere suministros o servicios destinados a otros compradores' (OPP-052) no está cumplimentado</entry>
 <entry key="expression|name|348">'El procedimiento se desarrollará en fases sucesivas. En cada fase, pueden eliminarse algunos participantes' (BT-52-Lot) no es 'sí'; 'Tipo de procedimiento' (BT-105) no es uno de los siguientes: 'Diálogo competitivo'; 'Asociación para la innovación'; 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'; 'Otro procedimiento de múltiples etapas'; 'Restringido'</entry>
 <entry key="expression|name|349">Es un contrato marco</entry>
 <entry key="expression|name|35">'Tipo de procedimiento' (BT-105) no es 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Localidad' (BT-513-Business) no está cumplimentado</entry>
 <entry key="expression|name|391">'Dirección postal' (BT-510(a)-Business) no está cumplimentado</entry>
 <entry key="expression|name|392">'Dirección postal' (BT-510(b)-Business) no está cumplimentado</entry>
-<entry key="expression|name|393">'País' (BT-514-Business) no incluye códigos postales</entry>
 <entry key="expression|name|394">'País' (BT-514-Business) no está cumplimentado</entry>
 <entry key="expression|name|395">'Derecho transfronterizo aplicable' (BT-09(a)-Procedure) no está cumplimentado</entry>
 <entry key="expression|name|4">'El procedimiento está acelerado' (BT-106-Procedure) no es 'sí'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Otras restricciones del lugar de ejecución' (BT-727), 'Subdivisión del país (NUTS)' BT-5071 y 'Localidad' (BT-5131) no están cumplimentados</entry>
 <entry key="expression|name|524">'Otras restricciones del lugar de ejecución' (BT-727), 'Subdivisión del país (NUTS)' BT-5071 y 'Localidad' (BT-5131) no están cumplimentados</entry>
 <entry key="expression|name|525">'Otras restricciones del lugar de ejecución' (BT-727), 'Subdivisión del país (NUTS)' BT-5071 y 'Localidad' (BT-5131) no están cumplimentados</entry>
-<entry key="expression|name|528">'País' (BT-514-Organization-Touchpoint) no incluye códigos postales</entry>
 <entry key="expression|name|529">'Información sobre los plazos de revisión' (BT-99-Lot) no está cumplimentado</entry>
 <entry key="expression|name|53">'Una obligación que debe cumplir el licitador en relación con la subcontratación' (BT-65_Lot) no es 'El contratista debe subcontratar un porcentaje mínimo del contrato utilizando el procedimiento establecido en el título III de la Directiva 2009/81/CE.'</entry>
 <entry key="expression|name|530">'Organización que cumple este papel' (OPT-302-Organization) no está conectado a ninguna organización</entry>

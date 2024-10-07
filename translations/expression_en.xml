@@ -50,7 +50,6 @@
 <entry key="expression|name|142">'Nationality of the owner' (BT-706) is not filled in</entry>
 <entry key="expression|name|143">'Official name' (BT-500-UBO) is not filled in</entry>
 <entry key="expression|name|144">'Country' (BT-514-UBO) does not have NUTS codes</entry>
-<entry key="expression|name|145">'Country' (BT-514-UBO) does not have postcodes</entry>
 <entry key="expression|name|146">'Postal address' (BT-510(a)-UBO) is not filled in</entry>
 <entry key="expression|name|147">'Postal address' (BT-510(b)-UBO) is not filled in</entry>
 <entry key="expression|name|148">'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'yes' or 'Number is a type of threshold' (BT-7532) is filled in</entry>
@@ -258,8 +257,6 @@
 <entry key="expression|name|343">'UBO technical ID (UBO-XXX)' (OPT-202-UBO) is not filled in</entry>
 <entry key="expression|name|344">'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes'</entry>
 <entry key="expression|name|345">The organisation is not a 'Buyer'</entry>
-<entry key="expression|name|346">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>
-<entry key="expression|name|347">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and the legal basis is different from 'Other', and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>
 <entry key="expression|name|348">'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes'; 'Type of procedure' (BT-105) is not one of the following: 'Competitive dialogue'; 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'; 'Other multiple stage procedure'; 'Restricted'</entry>
 <entry key="expression|name|349">It is a framework contract</entry>
 <entry key="expression|name|35">'Type of procedure' (BT-105) is not 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
@@ -305,7 +302,6 @@
 <entry key="expression|name|390">'Town' (BT-513-Business) is not filled in</entry>
 <entry key="expression|name|391">'Postal address' (BT-510(a)-Business) is not filled in</entry>
 <entry key="expression|name|392">'Postal address' (BT-510(b)-Business) is not filled in</entry>
-<entry key="expression|name|393">'Country' (BT-514-Business) does not have postcodes</entry>
 <entry key="expression|name|394">'Country' (BT-514-Business) is not filled in</entry>
 <entry key="expression|name|395">'Applicable cross-border law' (BT-09(a)-Procedure) is not filled in</entry>
 <entry key="expression|name|4">'The procedure is accelerated' (BT-106-Procedure) is not 'yes'</entry>
@@ -347,7 +343,6 @@
 <entry key="expression|name|523">'Other restrictions on the place of performance' (BT-727), 'Country subdivision (NUTS)' BT-5071 and 'Town' (BT-5131) is not filled in</entry>
 <entry key="expression|name|524">'Other restrictions on the place of performance' (BT-727), 'Country subdivision (NUTS)' BT-5071 and 'Town' (BT-5131) is not filled in</entry>
 <entry key="expression|name|525">'Other restrictions on the place of performance' (BT-727), 'Country subdivision (NUTS)' BT-5071 and 'Town' (BT-5131) is not filled in</entry>
-<entry key="expression|name|528">'Country' (BT-514-Organization-Touchpoint) does not have postcodes</entry>
 <entry key="expression|name|529">'Information about review deadlines' (BT-99-Lot) is not filled in</entry>
 <entry key="expression|name|53">'An obligation to be met by the tenderer concerning subcontracting' (BT-65_Lot) is not 'The contractor must subcontract a minimum percentage of the contract using the procedure set out in Title III of Directive 2009/81/EC.'</entry>
 <entry key="expression|name|530">'Organisation filling this role' (OPT-302-Organization) is not connected to any organisation</entry>

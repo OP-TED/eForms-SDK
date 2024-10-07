@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Nationalité du propriétaire' (BT-706) n’est pas rempli</entry>
 <entry key="expression|name|143">'Nom officiel' (BT-500-UBO) n’est pas rempli</entry>
 <entry key="expression|name|144">'Pays' (BT-514-UBO) ne possède pas de codes NUTS</entry>
-<entry key="expression|name|145">'Pays' (BT-514-UBO) ne possède pas de codes postaux</entry>
 <entry key="expression|name|146">'Adresse postale' (BT-510(a)-UBO) n’est pas rempli</entry>
 <entry key="expression|name|147">'Adresse postale' (BT-510(b)-UBO) n’est pas rempli</entry>
 <entry key="expression|name|148">'Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure' (BT-40) n’est pas 'oui' ou 'Le nombre est un type de seuil' (BT-7532) est rempli</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'ID technique du UBO (UBO-XXX)' (OPT-202-UBO) n’est pas rempli</entry>
 <entry key="expression|name|344">'La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés' (BT-52-Lot) n'est pas 'oui'</entry>
 <entry key="expression|name|345">L’organisation n’est pas 'Acheteur'</entry>
-<entry key="expression|name|346">L’organisation est un acheteur et le système d’acquisition dynamique est également utilisable par les acheteurs non repris dans le présent avis, et la base juridique est différente de 'Autre' et 'Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs' (OPP-052) n’est pas rempli</entry>
-<entry key="expression|name|347">L’organisation est un acheteur et le système d’acquisition dynamique est également utilisable par les acheteurs non repris dans le présent avis, et la base juridique est différente de 'Autre' et 'Centrale d’achat qui acquiert des fournitures et/ou des services destinés à d’autres acheteurs' (OPP-052) n’est pas rempli</entry>
 <entry key="expression|name|348">'La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés' (BT-52-Lot) n’est pas 'oui': 'Type de procédure' (BT-105) ne fait pas partie des éléments suivants: 'Dialogue compétitif'; 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'; 'Autre procédure en plusieurs étapes'; 'Restreinte'</entry>
 <entry key="expression|name|349">Il s’agit d’un contrat-cadre</entry>
 <entry key="expression|name|35">'Type de procédure' (BT-105) n'est pas 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Ville' (BT-513-Business) n’est pas rempli</entry>
 <entry key="expression|name|391">'Adresse postale' (BT-510(a)-Business) n’est pas rempli</entry>
 <entry key="expression|name|392">'Adresse postale' (BT-510(b)-Business) n’est pas rempli</entry>
-<entry key="expression|name|393">'Pays' (BT-514-Business) ne possède pas de codes postaux</entry>
 <entry key="expression|name|394">'Pays' (BT-514-Business) n’est pas rempli</entry>
 <entry key="expression|name|395">'Droit transnational applicable' (BT-09(a)-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|4">'La procédure est accélérée' (BT-106-Procedure) n’est pas 'oui'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727), 'Subdivision pays (NUTS)' BT-5071 et 'Ville' (BT-5131) n’est pas rempli</entry>
 <entry key="expression|name|524">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727), 'Subdivision pays (NUTS)' BT-5071 et 'Ville' (BT-5131) n’est pas rempli</entry>
 <entry key="expression|name|525">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727), 'Subdivision pays (NUTS)' BT-5071 et 'Ville' (BT-5131) n’est pas rempli</entry>
-<entry key="expression|name|528">'Pays' (BT-514-Organization-Touchpoint) ne possède pas de codes postaux</entry>
 <entry key="expression|name|529">'Informations relatives aux délais de recours' (BT-99-Lot) n’est pas rempli</entry>
 <entry key="expression|name|53">'Obligation que le soumissionnaire doit respecter en matière de sous-traitance' (BT-65_Lot) n’est pas 'Le contractant doit sous-traiter un pourcentage minimal du marché selon la procédure prévue au titre III de la directive 2009/81/CE.'</entry>
 <entry key="expression|name|530">'Organisation remplissant ce rôle' (OPT-302-Organization) n’est lié à aucune organisation</entry>

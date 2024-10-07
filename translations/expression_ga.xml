@@ -46,7 +46,6 @@
 <entry key="expression|name|142">Níl 'Náisiúntacht an úinéara' (BT-706) líonta isteach</entry>
 <entry key="expression|name|143">Níl 'Ainm oifigiúil' (BT-500-UBO) líonta isteach</entry>
 <entry key="expression|name|144">Níl cóid aicmiú comhchoiteann na n-aonad críche maidir le staidreamh (NUTS) ag 'Tír' (BT-514-UBO)</entry>
-<entry key="expression|name|145">Níl cóid phoist ag 'Tír' (BT-514-UBO)</entry>
 <entry key="expression|name|146">Níl 'Seoladh poist' (BT-510(a)-UBO) líonta isteach</entry>
 <entry key="expression|name|147">Níl 'Seoladh poist' (BT-510(b)-UBO) líonta isteach</entry>
 <entry key="expression|name|148">Ní hionann 'Úsáidfear na critéir chun na hiarrthóirí a roghnú a dtabharfar cuireadh dóibh chuig an dara céim den nós imeachta' (BT-40) agus 'tá' nó níl 'Cineál tairsí is ea an uimhir' (BT-7532) líonta isteach</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">Níl 'ID teicniúil an UBO (UBO-XXX)' (OPT-202-UBO) líonta isteach</entry>
 <entry key="expression|name|344">'Beidh an nós imeachta ar siúl i gcéimeanna comhleanúnacha. I ngach céim, d’fhéadfaí roinnt rannpháirtithe a dhíchur' (BT-52-Lot) níl sé 'tá'</entry>
 <entry key="expression|name|345">Níl an eagraíocht ina 'Ceannaitheoir'</entry>
-<entry key="expression|name|346">Ceannaitheoir is ea an eagraíocht, agus is féidir le ceannaitheoirí nach liostaítear san fhógra seo an córas dinimiciúil ceannaigh a úsáid, agus tá an bunús dlí difriúil le 'Eile', agus níl 'Comhlacht lárnach ceannaigh a fhaigheann soláthairtí agus/nó seirbhísí ar son ceannaitheoirí eile' (OPP-052) líonta isteach</entry>
-<entry key="expression|name|347">Ceannaitheoir is ea an eagraíocht, agus is féidir le ceannaitheoirí nach liostaítear san fhógra seo an córas dinimiciúil ceannaigh a úsáid, agus tá an bunús dlí difriúil le 'Eile', agus níl 'Comhlacht lárnach ceannaigh a fhaigheann soláthairtí agus/nó seirbhísí ar son ceannaitheoirí eile' (OPP-052) líonta isteach</entry>
 <entry key="expression|name|348">Níl 'Beidh an nós imeachta ar siúl i gcéimeanna comhleanúnacha. I ngach céim, d’fhéadfaí roinnt rannpháirtithe a dhíchur' (BT-52-Lot) 'tá'; ní hé 'An cineál nóis imeachta' (BT-105) ceann de na cinn a leanas: 'Idirphlé iomaíoch'; 'Comhpháirtíocht nuálaíochta'; 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'; 'Nós imeachta ilchéime eile'; 'Teoranta'</entry>
 <entry key="expression|name|349">Is creatchonradh é</entry>
 <entry key="expression|name|35">'An cineál nóis imeachta' (BT-105) níl sé 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">Níl 'Baile' (BT-513-Business) líonta isteach</entry>
 <entry key="expression|name|391">Níl 'Seoladh poist' (BT-510(a)-Business) líonta isteach</entry>
 <entry key="expression|name|392">Níl 'Seoladh poist' (BT-510(b)-Business) líonta isteach</entry>
-<entry key="expression|name|393">Níl cóid phoist ag 'Tír' (BT-514-Business)</entry>
 <entry key="expression|name|394">Níl 'Tír' (BT-514-Business) líonta isteach</entry>
 <entry key="expression|name|395">Níl 'Dlí trasteorann is infheidhme' (BT-09(a)-Procedure) líonta isteach</entry>
 <entry key="expression|name|4">Ní hionann 'Tá an nós imeachta á bhrostú' (BT-106-Procedure) agus 'tá'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">Níl 'Srianta eile ar áit na feidhmíochta' (BT-727), 'Foroinn tíre (NUTS)' BT-5071 ná 'Baile' (BT-5131) líonta isteach</entry>
 <entry key="expression|name|524">Níl 'Srianta eile ar áit na feidhmíochta' (BT-727), 'Foroinn tíre (NUTS)' BT-5071 ná 'Baile' (BT-5131) líonta isteach</entry>
 <entry key="expression|name|525">Níl 'Srianta eile ar áit na feidhmíochta' (BT-727), 'Foroinn tíre (NUTS)' BT-5071 ná 'Baile' (BT-5131) líonta isteach</entry>
-<entry key="expression|name|528">Níl cóid phoist ag 'Tír' (BT-514-Organization-Touchpoint)</entry>
 <entry key="expression|name|529">Níl 'Eolas faoi spriocdhátaí athbhreithnithe' (BT-99-Lot) líonta isteach</entry>
 <entry key="expression|name|53">Ní hionann 'Oibleagáid atá le comhlíonadh ag an tairgeoir maidir le fochonraitheoireacht' (BT-65_Lot) agus 'Ní mór don chonraitheoir céatadán íosta den chonradh a ligean ar fochonradh tríd an nós imeachta a leagtar amach i dTeideal III de Threoir 2009/81/CE.'</entry>
 <entry key="expression|name|530">Ní bhaineann 'Eagraíocht atá ag líonadh an róil seo' (OPT-302-Organization) le heagraíocht ar bith</entry>

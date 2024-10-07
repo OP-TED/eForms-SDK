@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Nationalitet på verklig huvudman' (BT-706) fylls inte i</entry>
 <entry key="expression|name|143">'Officiellt namn' (BT-500-UBO) fylls inte i</entry>
 <entry key="expression|name|144">'Land' (BT-514-UBO) saknar NUTS-koder</entry>
-<entry key="expression|name|145">'Land' (BT-514-UBO) saknar postnummer</entry>
 <entry key="expression|name|146">'Postadress' (BT-510(a)-UBO) fylls inte i</entry>
 <entry key="expression|name|147">'Postadress' (BT-510(b)-UBO) fylls inte i</entry>
 <entry key="expression|name|148">'Kriterierna kommer att användas för att välja anbudssökande som bjuds in att delta i det andra steget i förfarandet' (BT-40) fylls inte i 'ja' eller 'Sifferangivelsen är en typ av tröskel' (BT-7532) fylls i</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'Tekniskt ID för UBO (UBO-XXX)' (OPT-202-UBO) fylls inte i</entry>
 <entry key="expression|name|344">'Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas' (BT-52-Lot) är inte 'ja'</entry>
 <entry key="expression|name|345">Organisationen är inte en 'Upphandlare'</entry>
-<entry key="expression|name|346">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och den rättsliga grunden skiljer sig från 'Annat', och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) fylls inte i</entry>
-<entry key="expression|name|347">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och den rättsliga grunden skiljer sig från 'Annat', och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) fylls inte i</entry>
 <entry key="expression|name|348">'Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas' (BT-52-Lot) är inte 'ja'; 'Typ av förfarande' (BT-105) är inte något av följande: 'Konkurrenspräglad dialog'; 'Innovationspartnerskap'; 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'; 'Annat förfarande i flera steg'; 'Selektivt'</entry>
 <entry key="expression|name|349">Det är ett ramavtal</entry>
 <entry key="expression|name|35">'Typ av förfarande' (BT-105) är inte 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Ort' (BT-513-Business) fylls inte i</entry>
 <entry key="expression|name|391">'Postadress' (BT-510(a)-Business) fylls inte i</entry>
 <entry key="expression|name|392">'Postadress' (BT-510(b)-Business) fylls inte i</entry>
-<entry key="expression|name|393">'Land' (BT-514-Business) saknar postnummer</entry>
 <entry key="expression|name|394">'Land' (BT-514-Business) fylls inte i</entry>
 <entry key="expression|name|395">'Tillämplig gränsöverskridande lagstiftning' (BT-09(a)-Procedure) fylls inte i</entry>
 <entry key="expression|name|4">'Förfarandet är påskyndat' (BT-106-Procedure) är inte 'ja'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Andra begränsningar för leveransplatsen' (BT-727), 'Del av land (NUTS)' BT-5071 och 'Ort' (BT-5131) fylls inte i</entry>
 <entry key="expression|name|524">'Andra begränsningar för leveransplatsen' (BT-727), 'Del av land (NUTS)' BT-5071 och 'Ort' (BT-5131) fylls inte i</entry>
 <entry key="expression|name|525">'Andra begränsningar för leveransplatsen' (BT-727), 'Del av land (NUTS)' BT-5071 och 'Ort' (BT-5131) fylls inte i</entry>
-<entry key="expression|name|528">'Land' (BT-514-Organization-Touchpoint) saknar postnummer</entry>
 <entry key="expression|name|529">'Information om tidsfrist för prövning' (BT-99-Lot) fylls inte i</entry>
 <entry key="expression|name|53">'En skyldighet som anbudsgivaren ska fullgöra vid underentreprenad' (BT-65_Lot) är inte 'Uppdragstagaren ska lägga ut en lägsta procentandel av upphandlingen på underentreprenörer enligt det förfarande som fastställs i avdelning III i direktiv 2009/81/EG.'</entry>
 <entry key="expression|name|530">'Organisationen som utför denna roll' (OPT-302-Organization) är inte knuten till någon organisation</entry>

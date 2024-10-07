@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Nationaliteit van de eigenaar' (BT-706) is niet ingevuld</entry>
 <entry key="expression|name|143">'Officiële naam' (BT-500-UBO) is niet ingevuld</entry>
 <entry key="expression|name|144">'Land' (BT-514-UBO) heeft geen NUTS-codes</entry>
-<entry key="expression|name|145">'Land' (BT-514-UBO) heeft geen postcodes</entry>
 <entry key="expression|name|146">'Postadres' (BT-510(a)-UBO) is niet ingevuld</entry>
 <entry key="expression|name|147">'Postadres' (BT-510(b)-UBO) is niet ingevuld</entry>
 <entry key="expression|name|148">'De criteria zullen worden gebruikt om de gegadigden te selecteren die voor de tweede fase van de procedure zullen worden uitgenodigd' (BT-40) is niet 'ja' of 'Numerieke waarde is van het type drempel' (BT-7532) is ingevuld</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'Technische ID van de UBO (UBO-XXX)' (OPT-202-UBO) is niet ingevuld</entry>
 <entry key="expression|name|344">'De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen' (BT-52-Lot) is niet 'ja'</entry>
 <entry key="expression|name|345">De organisatie is geen 'Koper'</entry>
-<entry key="expression|name|346">De organisatie is een koper en het dynamisch aankoopsysteem is ook bruikbaar voor niet in deze aankondiging genoemde kopers en de rechtsgrondslag is anders dan 'Andere', en 'Aankoopcentrale die voor andere kopers bestemde goederen en/of diensten koopt' (OPP-052) is niet ingevuld</entry>
-<entry key="expression|name|347">De organisatie is een koper en het dynamisch aankoopsysteem is ook bruikbaar voor niet in deze aankondiging genoemde kopers en de rechtsgrondslag is anders dan 'Andere', en 'Aankoopcentrale die voor andere kopers bestemde goederen en/of diensten koopt' (OPP-052) is niet ingevuld</entry>
 <entry key="expression|name|348">'De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen' (BT-52-Lot) is niet 'ja'; 'Type procedure' (BT-105) is niet een van de volgende: 'Concurrentiegerichte dialoog'; 'Innovatiepartnerschap'; 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'; 'Andere procedure in meerdere fasen'; 'Niet-openbaar'</entry>
 <entry key="expression|name|349">Het is een raamovereenkomst</entry>
 <entry key="expression|name|35">'Type procedure' (BT-105) is niet 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Stad' (BT-513-Business) is niet ingevuld</entry>
 <entry key="expression|name|391">'Postadres' (BT-510(a)-Business) is niet ingevuld</entry>
 <entry key="expression|name|392">'Postadres' (BT-510(b)-Business) is niet ingevuld</entry>
-<entry key="expression|name|393">'Land' (BT-514-Business) heeft geen postcodes</entry>
 <entry key="expression|name|394">'Land' (BT-514-Business) is niet ingevuld</entry>
 <entry key="expression|name|395">'Toepasselijk grensoverschrijdend recht' (BT-09(a)-Procedure) is niet ingevuld</entry>
 <entry key="expression|name|4">'De procedure wordt versneld' (BT-106-Procedure) is niet 'ja'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Andere beperkingen op de plaats van uitvoering' (BT-727), 'Onderverdeling land (NUTS)' BT-5071 en 'Stad' (BT-5131) is niet ingevuld</entry>
 <entry key="expression|name|524">'Andere beperkingen op de plaats van uitvoering' (BT-727), 'Onderverdeling land (NUTS)' BT-5071 en 'Stad' (BT-5131) is niet ingevuld</entry>
 <entry key="expression|name|525">'Andere beperkingen op de plaats van uitvoering' (BT-727), 'Onderverdeling land (NUTS)' BT-5071 en 'Stad' (BT-5131) is niet ingevuld</entry>
-<entry key="expression|name|528">'Land' (BT-514-Organization-Touchpoint) heeft geen postcodes</entry>
 <entry key="expression|name|529">'Informatie over de termijnen voor beroep' (BT-99-Lot) is niet ingevuld</entry>
 <entry key="expression|name|53">'Een verplichting waaraan de inschrijver moet voldoen met betrekking tot onderaanneming' (BT-65_Lot) is niet 'De contractant moet een minimumpercentage van de opdracht in onderaanneming geven aan de hand van de in titel III van Richtlijn 2009/81/EG beschreven procedure.'</entry>
 <entry key="expression|name|530">'Organisatie die deze rol vervult' (OPT-302-Organization) is niet verbonden is met een organisatie</entry>

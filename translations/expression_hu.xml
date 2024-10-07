@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'A tulajdonos állampolgársága' (BT-706) nincs kitöltve</entry>
 <entry key="expression|name|143">'Hivatalos név' (BT-500-UBO) nincs kitöltve</entry>
 <entry key="expression|name|144">'Ország' (BT-514-UBO) nem rendelkezik NUTS-kódokkal</entry>
-<entry key="expression|name|145">'Ország' (BT-514-UBO) nem rendelkezik irányítószámokkal</entry>
 <entry key="expression|name|146">'Postacím' (BT-510(a)-UBO) nincs kitöltve</entry>
 <entry key="expression|name|147">'Postacím' (BT-510(b)-UBO) nincs kitöltve</entry>
 <entry key="expression|name|148">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) nem 'igen', vagy 'A szám valamilyen küszöbérték' (BT-7532) ki van töltve</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) nincs kitöltve</entry>
 <entry key="expression|name|344">'Ez az eljárás több szakaszból áll. Minden szakaszban kiesik néhány résztvevő' (BT-52-Lot) nem 'igen'</entry>
 <entry key="expression|name|345">A szervezet nem egy 'Vevő'</entry>
-<entry key="expression|name|346">A szervezet vevő, és a dinamikus beszerzési rendszert a jelen hirdetményben nem szereplő vevők is használhatják, és a jogalap eltér ettől: 'Egyéb', 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) pedig nincs kitöltve</entry>
-<entry key="expression|name|347">A szervezet vevő, és a dinamikus beszerzési rendszert a jelen hirdetményben nem szereplő vevők is használhatják, és a jogalap eltér ettől: 'Egyéb', 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) pedig nincs kitöltve</entry>
 <entry key="expression|name|348">'Ez az eljárás több szakaszból áll. Minden szakaszban kiesik néhány résztvevő' (BT-52-Lot) nem 'igen'; 'Az eljárás típusa' (BT-105) nem a következők egyike: 'Versenypárbeszéd'; 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'; 'Egyéb többszakaszos eljárás'; 'Zárt'</entry>
 <entry key="expression|name|349">Ez egy keretszerződés</entry>
 <entry key="expression|name|35">'Az eljárás típusa' (BT-105) nem 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Város' (BT-513-Business) nincs kitöltve</entry>
 <entry key="expression|name|391">'Postacím' (BT-510(a)-Business) nincs kitöltve</entry>
 <entry key="expression|name|392">'Postacím' (BT-510(b)-Business) nincs kitöltve</entry>
-<entry key="expression|name|393">'Ország' (BT-514-Business) nem rendelkezik irányítószámokkal</entry>
 <entry key="expression|name|394">'Ország' (BT-514-Business) nincs kitöltve</entry>
 <entry key="expression|name|395">'A határokon átnyúlóan alkalmazandó jog' (BT-09(a)-Procedure) nincs kitöltve</entry>
 <entry key="expression|name|4">'Az eljárás gyorsított' (BT-106-Procedure) nem 'igen'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727), 'Ország alegysége (NUTS)' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
 <entry key="expression|name|524">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727), 'Ország alegysége (NUTS)' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
 <entry key="expression|name|525">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727), 'Ország alegysége (NUTS)' BT-5071 és 'Város' (BT-5131) nincs kitöltve</entry>
-<entry key="expression|name|528">'Ország' (BT-514-Organization-Touchpoint) nem rendelkezik irányítószámokkal</entry>
 <entry key="expression|name|529">'A felülvizsgálati határidőkre vonatkozó információk' (BT-99-Lot) nincs kitöltve</entry>
 <entry key="expression|name|53">'Az ajánlattevő által az alvállalkozásba adás tekintetében betartandó kötelezettség' (BT-65_Lot) nem 'A vállalkozónak a szerződés bizonyos százalékát a 2009/81/EK irányelv III. címében foglalt eljáráson keresztül kell alvállalkozásba adnia.'</entry>
 <entry key="expression|name|530">'Ezt a szerepet betöltő szervezet' (OPT-302-Organization) nincs kapcsolatban egyetlen szervezettel sem</entry>

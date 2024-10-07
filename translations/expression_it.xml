@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Nazionalità del titolare' (BT-706) non è compilato</entry>
 <entry key="expression|name|143">'Nome ufficiale' (BT-500-UBO) non è compilato</entry>
 <entry key="expression|name|144">'Paese' (BT-514-UBO) non ha codici NUTS</entry>
-<entry key="expression|name|145">'Paese' (BT-514-UBO) non ha codici postali</entry>
 <entry key="expression|name|146">'Indirizzo postale' (BT-510(a)-UBO) non è compilato</entry>
 <entry key="expression|name|147">'Indirizzo postale' (BT-510(b)-UBO) non è compilato</entry>
 <entry key="expression|name|148">'I criteri saranno utilizzati per selezionare i candidati da invitare alla seconda fase della procedura' (BT-40) non è 'sì' o 'Il numero costituisce una soglia' (BT-7532) è compilato</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'ID tecnico del UBO (UBO-XXX)' (OPT-202-UBO) non è compilato</entry>
 <entry key="expression|name|344">'La procedura si svolge in diverse fasi. In ogni fase possono essere eliminati alcuni partecipanti' (BT-52-Lot) non è 'sì'</entry>
 <entry key="expression|name|345">L'organizzazione non è 'Committente'</entry>
-<entry key="expression|name|346">L'organizzazione è un acquirente, il sistema dinamico di acquisizione è utilizzabile anche da acquirenti non elencati nel presente avviso, la base giuridica è diversa da 'Altro' e 'Centrale di committenza per l'acquisizione di forniture e/o servizi destinati ad altri committenti' (OPP-052) non è compilato</entry>
-<entry key="expression|name|347">L'organizzazione è un acquirente, il sistema dinamico di acquisizione è utilizzabile anche da acquirenti non elencati nel presente avviso, la base giuridica è diversa da 'Altro' e 'Centrale di committenza per l'acquisizione di forniture e/o servizi destinati ad altri committenti' (OPP-052) non è compilato</entry>
 <entry key="expression|name|348">'La procedura si svolge in diverse fasi. In ogni fase possono essere eliminati alcuni partecipanti' (BT-52-Lot) non è 'sì'; 'Tipo di procedura' (BT-105) non è uno dei seguenti: 'Dialogo competitivo'; 'Partenariato per l'innovazione'; 'Negoziata con previa indizione di gara / competitiva con negoziazione'; 'Altra procedura a più fasi'; 'Ristretta'</entry>
 <entry key="expression|name|349">Si tratta di un contratto quadro</entry>
 <entry key="expression|name|35">'Tipo di procedura' (BT-105) non è 'Negoziata con previa indizione di gara / competitiva con negoziazione'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Località' (BT-513-Business) non è compilato</entry>
 <entry key="expression|name|391">'Indirizzo postale' (BT-510(a)-Business) non è compilato</entry>
 <entry key="expression|name|392">'Indirizzo postale' (BT-510(b)-Business) non è compilato</entry>
-<entry key="expression|name|393">'Paese' (BT-514-Business) non ha codici postali</entry>
 <entry key="expression|name|394">'Paese' (BT-514-Business) non è compilato</entry>
 <entry key="expression|name|395">'Diritto transfrontaliero applicabile' (BT-09(a)-Procedure) non è compilato</entry>
 <entry key="expression|name|4">'La procedura è accelerata' (BT-106-Procedure) non è 'sì'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Ulteriori restrizioni sul luogo di esecuzione' (BT-727), 'Suddivisione del paese (NUTS)' BT-5071 e 'Località' (BT-5131) non è compilato</entry>
 <entry key="expression|name|524">'Ulteriori restrizioni sul luogo di esecuzione' (BT-727), 'Suddivisione del paese (NUTS)' BT-5071 e 'Località' (BT-5131) non è compilato</entry>
 <entry key="expression|name|525">'Ulteriori restrizioni sul luogo di esecuzione' (BT-727), 'Suddivisione del paese (NUTS)' BT-5071 e 'Località' (BT-5131) non è compilato</entry>
-<entry key="expression|name|528">'Paese' (BT-514-Organization-Touchpoint) non ha codici postali</entry>
 <entry key="expression|name|529">'Informazioni sui termini per il riesame' (BT-99-Lot) non è compilato</entry>
 <entry key="expression|name|53">'Un obbligo che l'offerente deve rispettare in relazione al subappalto' (BT-65_Lot) non è 'L'appaltatore deve subappaltare una percentuale minima dell'appalto applicando la procedura di cui al titolo III della direttiva 2009/81/CE.'</entry>
 <entry key="expression|name|530">'Organizzazione che svolge questo ruolo' (OPT-302-Organization) non è collegato ad alcuna organizzazione</entry>

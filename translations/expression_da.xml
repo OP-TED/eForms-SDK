@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Ejerens nationalitet' (BT-706) er ikke udfyldt</entry>
 <entry key="expression|name|143">'Officielt navn' (BT-500-UBO) er ikke udfyldt</entry>
 <entry key="expression|name|144">'Land' (BT-514-UBO) har ikke NUTS-koder</entry>
-<entry key="expression|name|145">'Land' (BT-514-UBO) har ikke postnumre</entry>
 <entry key="expression|name|146">'Postadresse' (BT-510(a)-UBO) er ikke udfyldt</entry>
 <entry key="expression|name|147">'Postadresse' (BT-510(b)-UBO) er ikke udfyldt</entry>
 <entry key="expression|name|148">'Kriteriet vil blive anvendt til at udvælge de ansøgere, som skal opfordres til at deltage i anden fase af proceduren' (BT-40) er ikke 'ja', eller 'Værdien er en tærskel' (BT-7532) er udfyldt</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'UBO's tekniske ID (UBO-XXX)' (OPT-202-UBO) er ikke udfyldt</entry>
 <entry key="expression|name|344">'Proceduren afvikles i successive faser. I hver fase kan nogle ansøgere blive' (BT-52-Lot) er ikke 'ja'</entry>
 <entry key="expression|name|345">Organisationen er ikke en 'Køber'</entry>
-<entry key="expression|name|346">Organisationen er køber, og det dynamiske indkøbssystem kan også anvendes af købere, der ikke er anført i denne bekendtgørelse, og retsgrundlaget er forskelligt fra 'Andet', og 'Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser for andre købere' (OPP-052) er ikke udfyldt</entry>
-<entry key="expression|name|347">Organisationen er køber, og det dynamiske indkøbssystem kan også anvendes af købere, der ikke er anført i denne bekendtgørelse, og retsgrundlaget er forskelligt fra 'Andet', og 'Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser for andre købere' (OPP-052) er ikke udfyldt</entry>
 <entry key="expression|name|348">'Proceduren afvikles i successive faser. I hver fase kan nogle ansøgere blive' (BT-52-Lot) er ikke 'ja'; 'Udbudsprocedure' (BT-105) er ikke en af følgende: 'Konkurrencepræget dialog'; 'Innovationspartnerskab'; 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'; 'Anden procedure, der afvikles i flere faser'; 'Begrænset'</entry>
 <entry key="expression|name|349">Det er en rammeaftale</entry>
 <entry key="expression|name|35">'Udbudsprocedure' (BT-105) er ikke 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'By' (BT-513-Business) er ikke udfyldt</entry>
 <entry key="expression|name|391">'Postadresse' (BT-510(a)-Business) er ikke udfyldt</entry>
 <entry key="expression|name|392">'Postadresse' (BT-510(b)-Business) er ikke udfyldt</entry>
-<entry key="expression|name|393">'Land' (BT-514-Business) har ikke postnumre</entry>
 <entry key="expression|name|394">'Land' (BT-514-Business) er ikke udfyldt</entry>
 <entry key="expression|name|395">'Gældende grænseoverskridende lovgivning' (BT-09(a)-Procedure) er ikke udfyldt</entry>
 <entry key="expression|name|4">'Proceduren er en hasteprocedure' (BT-106-Procedure) er ikke 'ja'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Andre begrænsninger af opfyldelsesstedet' (BT-727), 'Landsdel (NUTS)' BT-5071 og 'By' (BT-5131) er ikke udfyldt</entry>
 <entry key="expression|name|524">'Andre begrænsninger af opfyldelsesstedet' (BT-727), 'Landsdel (NUTS)' BT-5071 og 'By' (BT-5131) er ikke udfyldt</entry>
 <entry key="expression|name|525">'Andre begrænsninger af opfyldelsesstedet' (BT-727), 'Landsdel (NUTS)' BT-5071 og 'By' (BT-5131) er ikke udfyldt</entry>
-<entry key="expression|name|528">'Land' (BT-514-Organization-Touchpoint) har ikke postnumre</entry>
 <entry key="expression|name|529">'Oplysninger om klagefrister' (BT-99-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|53">'En forpligtelse, som tilbudsgiveren skal opfylde i forbindelse med underentreprise' (BT-65_Lot) er ikke 'Entreprenøren skal give en mindsteprocentdel af kontrakten i underentreprise ved anvendelse af den procedure, der er fastsat i afsnit III i direktiv 2009/81/EF.'</entry>
 <entry key="expression|name|530">'Organisationen, der udfylder denne rolle' (OPT-302-Organization) er ikke forbundet med nogen organisation</entry>

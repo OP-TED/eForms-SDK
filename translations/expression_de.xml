@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Staatsangehörigkeit des Eigentümers' (BT-706) ist nicht ausgefüllt</entry>
 <entry key="expression|name|143">'Offizielle Bezeichnung' (BT-500-UBO) ist nicht ausgefüllt</entry>
 <entry key="expression|name|144">'Land' (BT-514-UBO) hat keine NUTS-Codes</entry>
-<entry key="expression|name|145">'Land' (BT-514-UBO) hat keine Postleitzahlen</entry>
 <entry key="expression|name|146">'Postanschrift' (BT-510(a)-UBO) ist nicht ausgefüllt</entry>
 <entry key="expression|name|147">'Postanschrift' (BT-510(b)-UBO) ist nicht ausgefüllt</entry>
 <entry key="expression|name|148">'Anhand der Kriterien werden die Bewerber ausgewählt, die zur zweiten Phase des Verfahrens eingeladen werden sollen' (BT-40) ist nicht 'ja' oder 'Bei der Zahl handelt sich um einen Schwellenwert' (BT-7532) ist ausgefüllt</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'Technische ID des UBO (UBO-XXX)' (OPT-202-UBO) ist nicht ausgefüllt</entry>
 <entry key="expression|name|344">'Das Verfahren wird in mehreren aufeinanderfolgenden Phasen durchgeführt. In jeder Phase können einige Teilnehmer ausgeschlossen werden' (BT-52-Lot) ist nicht 'ja'</entry>
 <entry key="expression|name|345">Die Organisation ist kein 'Beschaffer'</entry>
-<entry key="expression|name|346">Die Organisation ist ein Käufer, und das dynamische Einkaufssystem kann auch durch Käufer, die nicht in dieser Bekanntmachung aufgeführt sind, verwendet werden und die Rechtsgrundlage ist anders als 'Sonstiges', und 'Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt' (OPP-052) ist nicht ausgefüllt</entry>
-<entry key="expression|name|347">Die Organisation ist ein Käufer, und das dynamische Einkaufssystem kann auch durch Käufer, die nicht in dieser Bekanntmachung aufgeführt sind, verwendet werden und die Rechtsgrundlage ist anders als 'Sonstiges', und 'Zentrale Beschaffungsstelle, die für andere Beschaffer bestimmte Lieferungen und/oder Dienstleistungen erwirbt' (OPP-052) ist nicht ausgefüllt</entry>
 <entry key="expression|name|348">'Das Verfahren wird in mehreren aufeinanderfolgenden Phasen durchgeführt. In jeder Phase können einige Teilnehmer ausgeschlossen werden' (BT-52-Lot) ist nicht 'ja'; 'Verfahrensart' (BT-105) ist nicht eine der folgenden: 'Wettbewerblicher Dialog'; 'Innovationspartnerschaften'; 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'; 'Sonstiges zweistufiges Verfahren'; 'Nichtoffenes Verfahren'</entry>
 <entry key="expression|name|349">Es handelt sich um einen Rahmenvertrag</entry>
 <entry key="expression|name|35">'Verfahrensart' (BT-105) ist nicht 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Stadt' (BT-513-Business) ist nicht ausgefüllt</entry>
 <entry key="expression|name|391">'Postanschrift' (BT-510(a)-Business) ist nicht ausgefüllt</entry>
 <entry key="expression|name|392">'Postanschrift' (BT-510(b)-Business) ist nicht ausgefüllt</entry>
-<entry key="expression|name|393">'Land' (BT-514-Business) hat keine Postleitzahlen</entry>
 <entry key="expression|name|394">'Land' (BT-514-Business) ist nicht ausgefüllt</entry>
 <entry key="expression|name|395">'Anzuwendende grenzübergreifende Rechtsvorschrift' (BT-09(a)-Procedure) ist nicht ausgefüllt</entry>
 <entry key="expression|name|4">'Das Verfahren wird beschleunigt' (BT-106-Procedure) ist nicht 'ja'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Sonstige Beschränkungen am Erfüllungsort' (BT-727), 'Land, Gliederung (NUTS)' BT-5071 und 'Stadt' (BT-5131) ist nicht ausgefüllt</entry>
 <entry key="expression|name|524">'Sonstige Beschränkungen am Erfüllungsort' (BT-727), 'Land, Gliederung (NUTS)' BT-5071 und 'Stadt' (BT-5131) ist nicht ausgefüllt</entry>
 <entry key="expression|name|525">'Sonstige Beschränkungen am Erfüllungsort' (BT-727), 'Land, Gliederung (NUTS)' BT-5071 und 'Stadt' (BT-5131) ist nicht ausgefüllt</entry>
-<entry key="expression|name|528">'Land' (BT-514-Organization-Touchpoint) hat keine Postleitzahlen</entry>
 <entry key="expression|name|529">'Informationen über die Überprüfungsfristen' (BT-99-Lot) ist nicht ausgefüllt</entry>
 <entry key="expression|name|53">'Eine Verpflichtung des Bieters bezüglich der Vergabe von Unteraufträgen.' (BT-65_Lot) ist nicht 'Der Auftragnehmer ist verpflichtet, einen Mindestprozentsatz des Auftrags gemäß dem Verfahren in Titel III der Richtlinie 2009/81/EG als Unterauftrag zu vergeben.'</entry>
 <entry key="expression|name|530">'Organisation, die diese Rolle ausfüllt' (OPT-302-Organization) ist mit keiner Organisation verbunden</entry>

@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Savininko pilietybė' (BT-706) neužpildyta</entry>
 <entry key="expression|name|143">'Oficialus pavadinimas' (BT-500-UBO) neužpildyta</entry>
 <entry key="expression|name|144">'Šalis' (BT-514-UBO) neturi NUTS kodų</entry>
-<entry key="expression|name|145">'Šalis' (BT-514-UBO) neturi pašto kodų</entry>
 <entry key="expression|name|146">'Pašto adresas' (BT-510(a)-UBO) neužpildyta</entry>
 <entry key="expression|name|147">'Pašto adresas' (BT-510(b)-UBO) neužpildyta</entry>
 <entry key="expression|name|148">'Kriterijai bus taikomi atrenkant į antrąjį procedūros etapą kviečiamus kandidatus' (BT-40) nėra 'taip' ar 'Skaičius yra tam tikra vertės riba' (BT-7532) užpildyta</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'UBO techninis ID (UBO-XXX)' (OPT-202-UBO) neužpildyta</entry>
 <entry key="expression|name|344">'Procedūra vyks nuosekliais etapais. Kiekviename etape kai kurie dalyviai gali būti pašalinti' (BT-52-Lot) nėra 'taip'</entry>
 <entry key="expression|name|345">Organizacija nėra 'Pirkėjas'</entry>
-<entry key="expression|name|346">Organizacija yra pirkėjas, o dinamine pirkimo sistema taip pat gali naudotis šiame skelbime neišvardyti pirkėjai, o teisinis pagrindas skiriasi nuo 'Kita', ir 'Centrinė perkančioji organizacija, įsigyjanti kitiems pirkėjams skirtas prekes ir (arba) paslaugas' (OPP-052) neužpildyta</entry>
-<entry key="expression|name|347">Organizacija yra pirkėjas, o dinamine pirkimo sistema taip pat gali naudotis šiame skelbime neišvardyti pirkėjai, o teisinis pagrindas skiriasi nuo 'Kita', ir 'Centrinė perkančioji organizacija, įsigyjanti kitiems pirkėjams skirtas prekes ir (arba) paslaugas' (OPP-052) neužpildyta</entry>
 <entry key="expression|name|348">'Procedūra vyks nuosekliais etapais. Kiekviename etape kai kurie dalyviai gali būti pašalinti' (BT-52-Lot) nėra 'taip'; 'Pirkimo būdas' (BT-105) nėra vienas iš šių: 'Konkurencinis dialogas'; 'Inovacijų partnerystė'; 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'; 'Kita kelių etapų procedūra'; 'Ribotas'</entry>
 <entry key="expression|name|349">Tai preliminarioji sutartis</entry>
 <entry key="expression|name|35">'Pirkimo būdas' (BT-105) nėra 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Miestas' (BT-513-Business) neužpildyta</entry>
 <entry key="expression|name|391">'Pašto adresas' (BT-510(a)-Business) neužpildyta</entry>
 <entry key="expression|name|392">'Pašto adresas' (BT-510(b)-Business) neužpildyta</entry>
-<entry key="expression|name|393">'Šalis' (BT-514-Business) neturi pašto kodų</entry>
 <entry key="expression|name|394">'Šalis' (BT-514-Business) neužpildyta</entry>
 <entry key="expression|name|395">'Taikoma tarpvalstybinė teisė' (BT-09(a)-Procedure) neužpildyta</entry>
 <entry key="expression|name|4">'Procedūra pagreitinta' (BT-106-Procedure) nėra 'taip'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727), 'Šalies administracinis vienetas (NUTS)' BT-5071 ir 'Miestas' (BT-5131) neužpildyta</entry>
 <entry key="expression|name|524">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727), 'Šalies administracinis vienetas (NUTS)' BT-5071 ir 'Miestas' (BT-5131) neužpildyta</entry>
 <entry key="expression|name|525">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727), 'Šalies administracinis vienetas (NUTS)' BT-5071 ir 'Miestas' (BT-5131) neužpildyta</entry>
-<entry key="expression|name|528">'Šalis' (BT-514-Organization-Touchpoint) neturi pašto kodų</entry>
 <entry key="expression|name|529">'Informacija apie peržiūros terminus' (BT-99-Lot) neužpildyta</entry>
 <entry key="expression|name|53">'Dalyviui nustatoma subrangos prievolė' (BT-65_Lot) nėra 'Rangovas privalo sudaryti subrangos sutartį dėl mažiausios visos sutarties procentinės dalies pagal Direktyvos 2009/81/EB III antraštinėje dalyje nustatytą procedūrą.'</entry>
 <entry key="expression|name|530">'Organizacija, atliekanti šį vaidmenį' (OPT-302-Organization) nėra susiję su jokia organizacija</entry>

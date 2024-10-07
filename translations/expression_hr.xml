@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Državljanstvo vlasnika' (BT-706) nije popunjeno</entry>
 <entry key="expression|name|143">'Službeno ime' (BT-500-UBO) nije popunjeno</entry>
 <entry key="expression|name|144">'Zemlja' (BT-514-UBO) nema NUTS kôdove</entry>
-<entry key="expression|name|145">'Zemlja' (BT-514-UBO) nema poštanske brojeve</entry>
 <entry key="expression|name|146">'Poštanska adresa' (BT-510(a)-UBO) nije popunjeno</entry>
 <entry key="expression|name|147">'Poštanska adresa' (BT-510(b)-UBO) nije popunjeno</entry>
 <entry key="expression|name|148">'Na kriterijima će se temeljiti odabir natjecatelja koji će biti pozvani u drugu fazu postupka' (BT-40) nije 'da' ili 'Broj je granična vrijednost' (BT-7532) je popunjeno</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'Tehnički ID UBO-a (UBO-XXX)' (OPT-202-UBO) nije popunjeno</entry>
 <entry key="expression|name|344">'Postupak će se odvijati u uzastopnim fazama. U svakoj fazi neki sudionici mogu biti isključeni' (BT-52-Lot) nije 'da'</entry>
 <entry key="expression|name|345">Organizacija nije 'Kupac'</entry>
-<entry key="expression|name|346">Organizacija je kupac, a dinamični sustav nabave mogu koristiti i kupci koji nisu navedeni u ovoj obavijesti, a pravna je osnova različita od 'Ostalo', a 'Središnje tijelo za nabavu koje nabavlja robu i/ili usluge namijenjene drugim kupcima' (OPP-052) nije ispunjeno</entry>
-<entry key="expression|name|347">Organizacija je kupac, a dinamični sustav nabave mogu koristiti i kupci koji nisu navedeni u ovoj obavijesti, a pravna je osnova različita od 'Ostalo', a 'Središnje tijelo za nabavu koje nabavlja robu i/ili usluge namijenjene drugim kupcima' (OPP-052) nije ispunjeno</entry>
 <entry key="expression|name|348">'Postupak će se odvijati u uzastopnim fazama. U svakoj fazi neki sudionici mogu biti isključeni' (BT-52-Lot) nije 'da'; 'Vrsta postupka' (BT-105) nije jedno od sljedećeg: 'Natjecateljski dijalog'; 'Partnerstvo za inovacije'; 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore'; 'Ostali postupci u više faza'; 'Ograničen'</entry>
 <entry key="expression|name|349">Ovo je okvirni ugovor</entry>
 <entry key="expression|name|35">'Vrsta postupka' (BT-105) nije 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Grad' (BT-513-Business) nije popunjeno</entry>
 <entry key="expression|name|391">'Poštanska adresa' (BT-510(a)-Business) nije popunjeno</entry>
 <entry key="expression|name|392">'Poštanska adresa' (BT-510(b)-Business) nije popunjeno</entry>
-<entry key="expression|name|393">'Zemlja' (BT-514-Business) nema poštanske brojeve</entry>
 <entry key="expression|name|394">'Zemlja' (BT-514-Business) nije popunjeno</entry>
 <entry key="expression|name|395">'Primjenjivo prekogranično pravo' (BT-09(a)-Procedure) nije popunjeno</entry>
 <entry key="expression|name|4">'Postupak je ubrzan' (BT-106-Procedure) nije 'da'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Druga ograničenja koja se odnose na mjesto izvršenja' (BT-727), 'Zemlja – podregija (NUTS)' BT-5071 i 'Grad' (BT-5131) nisu popunjeni</entry>
 <entry key="expression|name|524">'Druga ograničenja koja se odnose na mjesto izvršenja' (BT-727), 'Zemlja – podregija (NUTS)' BT-5071 i 'Grad' (BT-5131) nisu popunjeni</entry>
 <entry key="expression|name|525">'Druga ograničenja koja se odnose na mjesto izvršenja' (BT-727), 'Zemlja – podregija (NUTS)' BT-5071 i 'Grad' (BT-5131) nisu popunjeni</entry>
-<entry key="expression|name|528">'Zemlja' (BT-514-Organization-Touchpoint) nema poštanske brojeve</entry>
 <entry key="expression|name|529">'Informacije o rokovima za preispitivanje' (BT-99-Lot) nije popunjeno</entry>
 <entry key="expression|name|53">'Obveza koju ponuditelj mora ispuniti u vezi s podugovaranjem' (BT-65_Lot) nije 'Ugovaratelj (izvođač radova) mora dati u podugovor minimalni postotak vrijednosti ugovora u okviru postupka iz glave III. Direktive 2009/81/EZ.'</entry>
 <entry key="expression|name|530">'Organizacija koja ispunjava ovu ulogu' (OPT-302-Organization) nije povezano s bilo kojom organizacijom</entry>

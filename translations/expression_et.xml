@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Omaniku kodakondsus' (BT-706) ei ole täidetud</entry>
 <entry key="expression|name|143">'Ametlik nimi' (BT-500-UBO) ei ole täidetud</entry>
 <entry key="expression|name|144">'Riik' (BT-514-UBO) on NUTSi koodideta</entry>
-<entry key="expression|name|145">'Riik' (BT-514-UBO) on sihtnumbrita</entry>
 <entry key="expression|name|146">'Postiaadress' (BT-510(a)-UBO) ei ole täidetud</entry>
 <entry key="expression|name|147">'Postiaadress' (BT-510(b)-UBO) ei ole täidetud</entry>
 <entry key="expression|name|148">'Kriteeriume kasutatakse menetluse teise etappi kutsutavate taotlejate väljavalimiseks' (BT-40) ei ole 'jah' või 'Arv on teatavat liiki piirmäär' (BT-7532) on täidetud</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'UBO tehniline ID (UBO-XXX)' (OPT-202-UBO) ei ole täidetud</entry>
 <entry key="expression|name|344">'Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada' (BT-52-Lot) ei ole 'jah'</entry>
 <entry key="expression|name|345">Organisatsioon ei ole 'Hankija'</entry>
-<entry key="expression|name|346">Organisatsioon on ostja ja dünaamilist hankesüsteemi saavad kasutada ka käesolevas hanketeates loetlemata ostjad ning õiguslik alus erineb 'Muu'st ning 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>
-<entry key="expression|name|347">Organisatsioon on ostja ja dünaamilist hankesüsteemi saavad kasutada ka käesolevas hanketeates loetlemata ostjad ning õiguslik alus erineb 'Muu'st ning 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>
 <entry key="expression|name|348">'Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada' (BT-52-Lot) ei ole 'jah'; 'Menetluse liik' (BT-105) ei ole üks järgmistest: 'Võistlev dialoog'; 'Innovatsioonipartnerlus'; 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'; 'Muu mitmeetapiline menetlus'; 'Piiratud'</entry>
 <entry key="expression|name|349">See on raamleping</entry>
 <entry key="expression|name|35">'Menetluse liik' (BT-105) ei ole 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Linn' (BT-513-Business) ei ole täidetud</entry>
 <entry key="expression|name|391">'Postiaadress' (BT-510(a)-Business) ei ole täidetud</entry>
 <entry key="expression|name|392">'Postiaadress' (BT-510(b)-Business) ei ole täidetud</entry>
-<entry key="expression|name|393">'Riik' (BT-514-Business) on sihtnumbrita</entry>
 <entry key="expression|name|394">'Riik' (BT-514-Business) ei ole täidetud</entry>
 <entry key="expression|name|395">'Kohaldatav piiriülene õigus' (BT-09(a)-Procedure) ei ole täidetud</entry>
 <entry key="expression|name|4">'Kiirendatud menetlus' (BT-106-Procedure) ei ole 'jah'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727), 'Riik – jaotus (NUTS)' BT-5071 ja 'Linn' (BT-5131) ei ole täidetud</entry>
 <entry key="expression|name|524">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727), 'Riik – jaotus (NUTS)' BT-5071 ja 'Linn' (BT-5131) ei ole täidetud</entry>
 <entry key="expression|name|525">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727), 'Riik – jaotus (NUTS)' BT-5071 ja 'Linn' (BT-5131) ei ole täidetud</entry>
-<entry key="expression|name|528">'Riik' (BT-514-Organization-Touchpoint) on sihtnumbrita</entry>
 <entry key="expression|name|529">'Teave vaidlustamise tähtaegade kohta' (BT-99-Lot) ei ole täidetud</entry>
 <entry key="expression|name|53">'Pakkuja peab allhanget puudutava kohustuse täitma' (BT-65_Lot) ei ole 'Töövõtja peab lepingu teatud protsentuaalse miinimumosa suhtes sõlmima allhankelepingu, kasutades direktiivi 2009/81/EÜ III jaotises sätestatud menetlust.'</entry>
 <entry key="expression|name|530">'Organisatsioon, mis täidab seda rolli' (OPT-302-Organization) ei ole seotud ühegi organisatsiooniga</entry>

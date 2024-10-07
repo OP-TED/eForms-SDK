@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Īpašnieka valstspiederība' (BT-706) nav aizpildīta</entry>
 <entry key="expression|name|143">'Oficiālais nosaukums' (BT-500-UBO) nav aizpildīta</entry>
 <entry key="expression|name|144">'Valsts' (BT-514-UBO) nav NUTS kodu</entry>
-<entry key="expression|name|145">'Valsts' (BT-514-UBO) nav pasta kodu</entry>
 <entry key="expression|name|146">'Pasta adrese' (BT-510(a)-UBO) nav aizpildīta</entry>
 <entry key="expression|name|147">'Pasta adrese' (BT-510(b)-UBO) nav aizpildīta</entry>
 <entry key="expression|name|148">'Kritērijus izmantos, lai atlasītu kandidātus, kurus uzaicinās uz procedūras otro posmu' (BT-40) nav 'jā' vai 'Skaitlis ir sliekšņa veids' (BT-7532) ir aizpildīta</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'UBO tehniskais ID (UBO-XXX)' (OPT-202-UBO) nav aizpildīta</entry>
 <entry key="expression|name|344">'Procedūra notiks secīgos posmos. Katrā posmā daži dalībnieki var tikt izslēgti' (BT-52-Lot) nav 'jā'</entry>
 <entry key="expression|name|345">Organizācija nav 'Pircējs'</entry>
-<entry key="expression|name|346">Organizācija ir pircējs, un dinamisko iepirkumu sistēmu var izmantot arī pircēji, kas nav minēti šajā paziņojumā, un juridiskais pamats ir atšķirīgs no 'Cits', un 'Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus' (OPP-052) nav aizpildīta</entry>
-<entry key="expression|name|347">Organizācija ir pircējs, un dinamisko iepirkumu sistēmu var izmantot arī pircēji, kas nav minēti šajā paziņojumā, un juridiskais pamats ir atšķirīgs no 'Cits', un 'Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus' (OPP-052) nav aizpildīta</entry>
 <entry key="expression|name|348">'Procedūra notiks secīgos posmos. Katrā posmā daži dalībnieki var tikt izslēgti' (BT-52-Lot) nav 'jā'; 'Procedūras veids' (BT-105) nav viens no šādiem variantiem: 'Konkursa dialogs'; 'Inovācijas partnerība'; 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'; 'Cita daudzpakāpju procedūra'; 'Slēgta'</entry>
 <entry key="expression|name|349">Tas ir pamatnolīgums</entry>
 <entry key="expression|name|35">'Procedūras veids' (BT-105) nav 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Pilsēta' (BT-513-Business) nav aizpildīta</entry>
 <entry key="expression|name|391">'Pasta adrese' (BT-510(a)-Business) nav aizpildīta</entry>
 <entry key="expression|name|392">'Pasta adrese' (BT-510(b)-Business) nav aizpildīta</entry>
-<entry key="expression|name|393">'Valsts' (BT-514-Business) nav pasta kodu</entry>
 <entry key="expression|name|394">'Valsts' (BT-514-Business) nav aizpildīta</entry>
 <entry key="expression|name|395">'Pārrobežu situācijās piemērojamie tiesību akti' (BT-09(a)-Procedure) nav aizpildīta</entry>
 <entry key="expression|name|4">'Procedūra ir paātrināta' (BT-106-Procedure) nav 'jā'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727), 'Valsts apakšiedalījums (NUTS)' BT-5071 un 'Pilsēta' (BT-5131) nav aizpildīta</entry>
 <entry key="expression|name|524">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727), 'Valsts apakšiedalījums (NUTS)' BT-5071 un 'Pilsēta' (BT-5131) nav aizpildīta</entry>
 <entry key="expression|name|525">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727), 'Valsts apakšiedalījums (NUTS)' BT-5071 un 'Pilsēta' (BT-5131) nav aizpildīta</entry>
-<entry key="expression|name|528">'Valsts' (BT-514-Organization-Touchpoint) nav pasta kodu</entry>
 <entry key="expression|name|529">'Informācija par pārskatīšanas termiņiem' (BT-99-Lot) nav aizpildīta</entry>
 <entry key="expression|name|53">'Pienākums, kas pretendentam jāizpilda attiecībā uz apakšuzņēmuma līgumiem' (BT-65_Lot) nav 'Darbuzņēmējam ir pienākums līguma minimālo procentuālo daļu nodot izpildei apakšuzņēmumam, izmantojot Direktīvas 2009/81/EK III sadaļā noteikto procedūru.'</entry>
 <entry key="expression|name|530">'Organizācija, kas pilda šo lomu' (OPT-302-Organization) nav saistīta ar kādu organizāciju</entry>

@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Štátna príslušnosť vlastníka' (BT-706) nie je vyplnený</entry>
 <entry key="expression|name|143">'Úradný názov' (BT-500-UBO) nie je vyplnený</entry>
 <entry key="expression|name|144">'Krajina' (BT-514-UBO) nemá kódy NUTS</entry>
-<entry key="expression|name|145">'Krajina' (BT-514-UBO) nemá PSČ</entry>
 <entry key="expression|name|146">'Poštová adresa' (BT-510(a)-UBO) nie je vyplnený</entry>
 <entry key="expression|name|147">'Poštová adresa' (BT-510(b)-UBO) nie je vyplnený</entry>
 <entry key="expression|name|148">'Kritériá sa použijú na výber záujemcov, ktorí budú pozvaní do druhej fázy postupu' (BT-40) nie je 'áno' alebo 'Číslo je typom prahovej hodnoty' (BT-7532) je vyplnený</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'Technické ID UBO (UBO-XXX)' (OPT-202-UBO) nie je vyplnený</entry>
 <entry key="expression|name|344">'Postup prebieha v po sebe nasledujúcich fázach. V každej fáze môžu byť niektorí účastníci vylúčení' (BT-52-Lot) nie je 'áno'</entry>
 <entry key="expression|name|345">Organizácia nie je 'Kupujúci'</entry>
-<entry key="expression|name|346">Organizácia je kupujúcim a dynamický nákupný systém môžu využívať aj kupujúci, ktorí nie sú uvedení v tomto oznámení, a právny základ je iný ako 'Iné', a 'Centrálna obstarávacia organizácia, ktorá obstaráva dodávky tovaru a/alebo služby určené pre iných kupujúcich' (OPP-052) nie je vyplnený</entry>
-<entry key="expression|name|347">Organizácia je kupujúcim a dynamický nákupný systém môžu využívať aj kupujúci, ktorí nie sú uvedení v tomto oznámení, a právny základ je iný ako 'Iné', a 'Centrálna obstarávacia organizácia, ktorá obstaráva dodávky tovaru a/alebo služby určené pre iných kupujúcich' (OPP-052) nie je vyplnený</entry>
 <entry key="expression|name|348">'Postup prebieha v po sebe nasledujúcich fázach. V každej fáze môžu byť niektorí účastníci vylúčení' (BT-52-Lot) nie je 'áno'; 'Druh postupu' (BT-105) nie je jedným z týchto: 'Súťažný dialóg'; 'Inovatívne partnerstvo'; 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'; 'Iný viacfázový postup'; 'Užšia súťaž'</entry>
 <entry key="expression|name|349">Ide o rámcovú zmluvu</entry>
 <entry key="expression|name|35">'Druh postupu' (BT-105) nie je 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Mesto' (BT-513-Business) nie je vyplnený</entry>
 <entry key="expression|name|391">'Poštová adresa' (BT-510(a)-Business) nie je vyplnený</entry>
 <entry key="expression|name|392">'Poštová adresa' (BT-510(b)-Business) nie je vyplnený</entry>
-<entry key="expression|name|393">'Krajina' (BT-514-Business) nemá PSČ</entry>
 <entry key="expression|name|394">'Krajina' (BT-514-Business) nie je vyplnený</entry>
 <entry key="expression|name|395">'Uplatniteľné cezhraničné právne predpisy' (BT-09(a)-Procedure) nie je vyplnený</entry>
 <entry key="expression|name|4">'Postup je zrýchlený' (BT-106-Procedure) nie je 'áno'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Iné obmedzenia týkajúce sa miesta plnenia' (BT-727), 'Nižšia územná jednotka krajiny (NUTS)' BT-5071 a 'Mesto' (BT-5131) nie je vyplnený</entry>
 <entry key="expression|name|524">'Iné obmedzenia týkajúce sa miesta plnenia' (BT-727), 'Nižšia územná jednotka krajiny (NUTS)' BT-5071 a 'Mesto' (BT-5131) nie je vyplnený</entry>
 <entry key="expression|name|525">'Iné obmedzenia týkajúce sa miesta plnenia' (BT-727), 'Nižšia územná jednotka krajiny (NUTS)' BT-5071 a 'Mesto' (BT-5131) nie je vyplnený</entry>
-<entry key="expression|name|528">'Krajina' (BT-514-Organization-Touchpoint) nemá PSČ</entry>
 <entry key="expression|name|529">'Informácie o lehotách na preskúmanie' (BT-99-Lot) nie je vyplnený</entry>
 <entry key="expression|name|53">'Povinnosť, ktorú musí uchádzač splniť v prípade zadania zákazky subdodávateľovi' (BT-65_Lot) nie je 'Dodávateľ musí zadať minimálny percentuálny podiel zákazky subdodávateľom s použitím postupu stanoveného v hlave III smernice 2009/81/ES.'</entry>
 <entry key="expression|name|530">'Organizácia, ktorá plní túto úlohu' (OPT-302-Organization) nie je spojený so žiadnou organizáciou</entry>

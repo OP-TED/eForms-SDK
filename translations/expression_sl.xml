@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Državljanstvo lastnika' (BT-706) ni izpolnjeno</entry>
 <entry key="expression|name|143">'Uradno ime' (BT-500-UBO) ni izpolnjeno</entry>
 <entry key="expression|name|144">'Država' (BT-514-UBO) nima šifer NUTS</entry>
-<entry key="expression|name|145">'Država' (BT-514-UBO) nima poštnih številk</entry>
 <entry key="expression|name|146">'Poštni naslov' (BT-510(a)-UBO) ni izpolnjeno</entry>
 <entry key="expression|name|147">'Poštni naslov' (BT-510(b)-UBO) ni izpolnjeno</entry>
 <entry key="expression|name|148">'Merila se bodo uporabila za izbiro kandidatov, ki se povabijo k sodelovanju v drugi stopnji postopka' (BT-40) ni 'da' ali 'Številka je vrsta praga' (BT-7532) je izpolnjeno</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'Tehnični ID UBO (UBO-XXX)' (OPT-202-UBO) ni izpolnjeno</entry>
 <entry key="expression|name|344">'Postopek se bo odvijal v zaporednih stopnjah. Na vsaki stopnji se lahko izločijo nekateri sodelujoči' (BT-52-Lot) ni 'da'</entry>
 <entry key="expression|name|345">Organizacija ni 'Kupec'</entry>
-<entry key="expression|name|346">Organizacija je kupec in dinamični nabavni sistem lahko uporabljajo tudi kupci, ki niso navedeni v tem obvestilu, in pravna podlaga je drugačna od 'Drugo' in 'Osrednji nabavni organ, ki nabavlja blago in/ali storitve za druge kupce' (OPP-052) ni izpolnjeno</entry>
-<entry key="expression|name|347">Organizacija je kupec in dinamični nabavni sistem lahko uporabljajo tudi kupci, ki niso navedeni v tem obvestilu, in pravna podlaga je drugačna od 'Drugo' in 'Osrednji nabavni organ, ki nabavlja blago in/ali storitve za druge kupce' (OPP-052) ni izpolnjeno</entry>
 <entry key="expression|name|348">'Postopek se bo odvijal v zaporednih stopnjah. Na vsaki stopnji se lahko izločijo nekateri sodelujoči' (BT-52-Lot) ni 'da'; 'Vrsta postopka' (BT-105) ni eno od naslednjega: 'Konkurenčni dialog'; 'Partnerstvo za inovacije'; 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'; 'Drugi večstopenjski postopek'; 'Omejeni postopek'</entry>
 <entry key="expression|name|349">To je okvirno naročilo</entry>
 <entry key="expression|name|35">'Vrsta postopka' (BT-105) ni 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Mesto' (BT-513-Business) ni izpolnjeno</entry>
 <entry key="expression|name|391">'Poštni naslov' (BT-510(a)-Business) ni izpolnjeno</entry>
 <entry key="expression|name|392">'Poštni naslov' (BT-510(b)-Business) ni izpolnjeno</entry>
-<entry key="expression|name|393">'Država' (BT-514-Business) nima poštnih številk</entry>
 <entry key="expression|name|394">'Država' (BT-514-Business) ni izpolnjeno</entry>
 <entry key="expression|name|395">'Čezmejno pravo, ki se uporablja' (BT-09(a)-Procedure) ni izpolnjeno</entry>
 <entry key="expression|name|4">'Postopek je pospešen' (BT-106-Procedure) ni 'da'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Druge omejitve glede kraja izvedbe' (BT-727), 'Podregija države (NUTS)' BT-5071 in 'Mesto' (BT-5131) ni izpolnjeno</entry>
 <entry key="expression|name|524">'Druge omejitve glede kraja izvedbe' (BT-727), 'Podregija države (NUTS)' BT-5071 in 'Mesto' (BT-5131) ni izpolnjeno</entry>
 <entry key="expression|name|525">'Druge omejitve glede kraja izvedbe' (BT-727), 'Podregija države (NUTS)' BT-5071 in 'Mesto' (BT-5131) ni izpolnjeno</entry>
-<entry key="expression|name|528">'Država' (BT-514-Organization-Touchpoint) nima poštnih številk</entry>
 <entry key="expression|name|529">'Informacije o rokih za revizijo' (BT-99-Lot) ni izpolnjeno</entry>
 <entry key="expression|name|53">'Obveznost, ki jo mora ponudnik izpolniti v zvezi z oddajo naročil podizvajalcem' (BT-65_Lot) ni 'Izvajalec mora oddati podizvajalcem najnižji odstotek naročila po postopku iz naslova III Direktive 2009/81/ES.'</entry>
 <entry key="expression|name|530">'Organizacija, ki opravlja to vlogo' (OPT-302-Organization) ni povezano z nobeno organizacijo</entry>

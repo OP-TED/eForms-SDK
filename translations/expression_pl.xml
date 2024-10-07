@@ -46,7 +46,6 @@
 <entry key="expression|name|142">'Przynależność państwowa właściciela' (BT-706) nie jest wypełnione</entry>
 <entry key="expression|name|143">'Oficjalna nazwa' (BT-500-UBO) nie jest wypełnione</entry>
 <entry key="expression|name|144">'Kraj' (BT-514-UBO) nie posiada kodów NUTS</entry>
-<entry key="expression|name|145">'Kraj' (BT-514-UBO) nie posiada kodów pocztowych</entry>
 <entry key="expression|name|146">'Adres pocztowy' (BT-510(a)-UBO) nie jest wypełnione</entry>
 <entry key="expression|name|147">'Adres pocztowy' (BT-510(b)-UBO) nie jest wypełnione</entry>
 <entry key="expression|name|148">'Kryteria zostaną wykorzystane do kwalifikacji kandydatów zapraszanych do drugiego etapu procedury' (BT-40) nie jest 'tak' lub 'Liczba jest rodzajem progu' (BT-7532) jest wypełnione</entry>
@@ -254,8 +253,6 @@
 <entry key="expression|name|343">'Techniczne ID UBO (UBO-XXX)' (OPT-202-UBO) nie jest wypełnione</entry>
 <entry key="expression|name|344">'Procedura zostanie przeprowadzona w kolejnych etapach. Na każdym etapie niektórzy uczestnicy mogą zostać wyeliminowani' (BT-52-Lot) nie jest 'tak'</entry>
 <entry key="expression|name|345">Organizacja nie jest 'Nabywca'</entry>
-<entry key="expression|name|346">Organizacja jest nabywcą, dynamiczny system zakupów może być również wykorzystywany przez nabywców niewymienionych w niniejszym ogłoszeniu, podstawa prawna jest inna niż 'Inne', a 'Centralna jednostka zakupująca nabywająca dostawy i/lub usługi przeznaczone dla innych nabywców' (OPP-052) nie jest wypełnione</entry>
-<entry key="expression|name|347">Organizacja jest nabywcą, dynamiczny system zakupów może być również wykorzystywany przez nabywców niewymienionych w niniejszym ogłoszeniu, podstawa prawna jest inna niż 'Inne', a 'Centralna jednostka zakupująca nabywająca dostawy i/lub usługi przeznaczone dla innych nabywców' (OPP-052) nie jest wypełnione</entry>
 <entry key="expression|name|348">'Procedura zostanie przeprowadzona w kolejnych etapach. Na każdym etapie niektórzy uczestnicy mogą zostać wyeliminowani' (BT-52-Lot) nie jest 'tak'; 'Rodzaj procedury' (BT-105) nie jest jednym z następujących: 'Dialog konkurencyjny'; 'Partnerstwo innowacyjne'; 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami'; 'Inna procedura wieloetapowa'; 'Ograniczona'</entry>
 <entry key="expression|name|349">Jest to umowa ramowa</entry>
 <entry key="expression|name|35">'Rodzaj procedury' (BT-105) nie jest 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami'</entry>
@@ -301,7 +298,6 @@
 <entry key="expression|name|390">'Miejscowość' (BT-513-Business) nie jest wypełnione</entry>
 <entry key="expression|name|391">'Adres pocztowy' (BT-510(a)-Business) nie jest wypełnione</entry>
 <entry key="expression|name|392">'Adres pocztowy' (BT-510(b)-Business) nie jest wypełnione</entry>
-<entry key="expression|name|393">'Kraj' (BT-514-Business) nie posiada kodów pocztowych</entry>
 <entry key="expression|name|394">'Kraj' (BT-514-Business) nie jest wypełnione</entry>
 <entry key="expression|name|395">'Właściwe prawo transgraniczne' (BT-09(a)-Procedure) nie jest wypełnione</entry>
 <entry key="expression|name|4">'Procedura jest przyspieszona' (BT-106-Procedure) nie jest 'tak'</entry>
@@ -343,7 +339,6 @@
 <entry key="expression|name|523">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727), 'Podpodział krajowy (NUTS)' BT-5071 i 'Miejscowość' (BT-5131) nie są wypełnione</entry>
 <entry key="expression|name|524">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727), 'Podpodział krajowy (NUTS)' BT-5071 i 'Miejscowość' (BT-5131) nie są wypełnione</entry>
 <entry key="expression|name|525">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727), 'Podpodział krajowy (NUTS)' BT-5071 i 'Miejscowość' (BT-5131) nie są wypełnione</entry>
-<entry key="expression|name|528">'Kraj' (BT-514-Organization-Touchpoint) nie posiada kodów pocztowych</entry>
 <entry key="expression|name|529">'Informacje o terminach odwołania' (BT-99-Lot) nie jest wypełnione</entry>
 <entry key="expression|name|53">'Obowiązek oferenta dotyczący podwykonawstwa' (BT-65_Lot) nie jest 'Wykonawca musi zlecić podwykonawstwo minimalnej wartości procentowej zamówienia z zastosowaniem procedury określonej w tytule III dyrektywy 2009/81/WE.'</entry>
 <entry key="expression|name|530">'Organizacja pełniąca tę rolę' (OPT-302-Organization) nie jest związane z żadną organizacją</entry>
