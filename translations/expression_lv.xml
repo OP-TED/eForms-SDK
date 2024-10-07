@@ -259,7 +259,7 @@
 <entry key="expression|name|350">Organizācija nav piedāvājuma puses sastāvā; 'Organizācija ir fiziska persona' (BT-633-Organization); 'Uzvarētājs ir kotēts regulētā tirgū' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organizācija (OPT-200-Organization-Company) piedalās vadošajā piedāvājumā kā galvenais pretendents (OPT-300-Tenderer) vai apakšpretendents (OPT-301-Tenderer-SubCont); 'Organizācija ir fiziska persona' (BT-633-Organization) ir 'nē' un 'Uzvarētājs ir kotēts regulētā tirgū' (BT-746-Organization) ir 'nē'</entry>
 <entry key="expression|name|352">Vismaz viena organizācija ir saistīta ar 'Organizācija, kas pilda šo lomu' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Procedūras veids' (BT-105) ir 'Atklāta', 'Slēgta' vai 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'</entry>
+<entry key="expression|name|353">'Procedūras veids' (BT-105) nav 'Atklāta', 'Slēgta' vai 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'</entry>
 <entry key="expression|name|354">'Procedūras veids' (BT-105) nav 'Slēgta' vai 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'</entry>
 <entry key="expression|name|355">Organizācija nav pircējs, vai ir tikai viens pircējs</entry>
 <entry key="expression|name|356">Ir divi dažādi pircēji no divām dažādām valstīm</entry>

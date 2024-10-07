@@ -259,7 +259,7 @@
 <entry key="expression|name|350">La organización no forma parte de la parte ofertante; 'La organización es una persona física' (BT-633-Organization); 'El ganador cotiza en un mercado regulado' (BT-746-Organization)</entry>
 <entry key="expression|name|351">La organización (OPT-200-Organization-Company) forma parte de una oferta ganadora como principal (OPT-300-Tenderer) o licitador secundario (OPT-301-Tenderer-SubCont); 'La organización es una persona física' (BT-633-Organization) es 'no' y 'El ganador cotiza en un mercado regulado' (BT-746-Organization) es 'no'</entry>
 <entry key="expression|name|352">Al menos una organización está conectada a 'Organización que cumple este papel' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Tipo de procedimiento' (BT-105) es 'Abierto', 'Restringido' o 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
+<entry key="expression|name|353">'Tipo de procedimiento' (BT-105) no es 'Abierto', 'Restringido' o 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
 <entry key="expression|name|354">'Tipo de procedimiento' (BT-105) no es 'Restringido' o 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
 <entry key="expression|name|355">La organización no es comprador o solo hay un comprador</entry>
 <entry key="expression|name|356">Hay dos compradores diferentes de dos países diferentes</entry>

@@ -263,7 +263,7 @@
 <entry key="expression|name|350">The organisation does not take part in tendering party; 'The organisation is a natural person' (BT-633-Organization); 'The winner is listed on a regulated market' (BT-746-Organization)</entry>
 <entry key="expression|name|351">The organisation (OPT-200-Organization-Company) takes part in a winning tender as main (OPT-300-Tenderer) or sub-tenderer (OPT-301-Tenderer-SubCont); 'The organisation is a natural person' (BT-633-Organization) is 'no' and 'The winner is listed on a regulated market' (BT-746-Organization) is 'no'</entry>
 <entry key="expression|name|352">At least one organisation is connected to 'Organisation filling this role' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Type of procedure' (BT-105) is 'Open', 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
+<entry key="expression|name|353">'Type of procedure' (BT-105) is not 'Open', 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|354">'Type of procedure' (BT-105) is not 'Restricted' or 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|355">Organisation is not a buyer or there is only one buyer</entry>
 <entry key="expression|name|356">There are two different buyers from two different countries</entry>

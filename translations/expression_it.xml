@@ -259,7 +259,7 @@
 <entry key="expression|name|350">L'organizzazione non partecipa alla parte offerente; 'L'organizzazione è una persona fisica' (BT-633-Organization); 'Il vincitore è quotato su un mercato regolamentato' (BT-746-Organization)</entry>
 <entry key="expression|name|351">L'organizzazione(OPT-200-Organization-Company) partecipa a un'offerta vincente in qualità di offerente capofila (OPT-300-Tenderer) o sub-offerente (OPT-301-Tenderer-SubCont); 'L'organizzazione è una persona fisica' (BT-633-Organization) è 'no' e 'Il vincitore è quotato su un mercato regolamentato' (BT-746-Organization) è 'no'</entry>
 <entry key="expression|name|352">Almeno un'organizzazione è collegata a 'Organizzazione che svolge questo ruolo' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Tipo di procedura' (BT-105) è 'Aperta', 'Ristretta' o 'Negoziata con previa indizione di gara / competitiva con negoziazione'</entry>
+<entry key="expression|name|353">'Tipo di procedura' (BT-105) non è 'Aperta', 'Ristretta' o 'Negoziata con previa indizione di gara / competitiva con negoziazione'</entry>
 <entry key="expression|name|354">'Tipo di procedura' (BT-105) non è 'Ristretta' o 'Negoziata con previa indizione di gara / competitiva con negoziazione'</entry>
 <entry key="expression|name|355">L'organizzazione non è un acquirente o vi è un solo acquirente</entry>
 <entry key="expression|name|356">Vi sono due acquirenti diversi provenienti da due paesi differenti</entry>

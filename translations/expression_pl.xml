@@ -259,7 +259,7 @@
 <entry key="expression|name|350">Organizacja nie uczestniczy w stronie przetargowej; 'Organizacja jest osobą fizyczną' (BT-633-Organization); 'Zwycięzca jest notowany na rynku regulowanym' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organizacja (OPT-200-Organization-Company) uczestniczy w zwycięskiej stronie przetargowej jako główny oferent (OPT-300-Tenderer) lub podoferent (OPT-301-Tenderer-SubCont); 'Organizacja jest osobą fizyczną' (BT-633-Organization)to 'nie' i 'Zwycięzca jest notowany na rynku regulowanym' (BT-746-Organization) to 'nie'</entry>
 <entry key="expression|name|352">Co najmniej jedna organizacja jest połączona z 'Organizacja pełniąca tę rolę' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Rodzaj procedury' (BT-105) jest 'Otwarta', 'Ograniczona' lub 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami'</entry>
+<entry key="expression|name|353">'Rodzaj procedury' (BT-105) nie jest 'Otwarta', 'Ograniczona' lub 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami'</entry>
 <entry key="expression|name|354">'Rodzaj procedury' (BT-105) nie jest 'Ograniczona' ani 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami'</entry>
 <entry key="expression|name|355">Organizacja nie jest nabywcą lub istnieje tylko jeden nabywca</entry>
 <entry key="expression|name|356">Istnieje dwóch różnych nabywców z dwóch różnych krajów</entry>
