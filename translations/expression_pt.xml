@@ -262,7 +262,7 @@
 <entry key="expression|name|350">A organização não participa num grupo de proponentes; 'A organização é uma pessoa singular' (BT-633-Organization); 'O vencedor está cotado num mercado regulamentado' (BT-746-Organization)</entry>
 <entry key="expression|name|351">A organização (OPT-200-Organization-Company) participa numa proposta selecionada como líder (OPT-300-Tenderer) ou subproponente (OPT-301-Tenderer-SubCont); 'A organização é uma pessoa singular' (BT-633-Organization) é 'não' e 'O vencedor está cotado num mercado regulamentado' (BT-746-Organization) é 'não'</entry>
 <entry key="expression|name|352">Pelo menos uma organização está ligada a 'Organização que desempenha este papel' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Tipo de procedimento' (BT-105) é 'Aberto', 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
+<entry key="expression|name|353">'Tipo de procedimento' (BT-105) não é 'Aberto', 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
 <entry key="expression|name|354">'Tipo de procedimento' (BT-105) não é 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
 <entry key="expression|name|355">A organização não é um comprador ou existe apenas um comprador</entry>
 <entry key="expression|name|356">Existem dois compradores diferentes de dois países diferentes</entry>

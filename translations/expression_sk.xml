@@ -262,7 +262,7 @@
 <entry key="expression|name|350">Organizácia nie je súčasťou strany predkladajúcej ponuku; 'Organizácia je fyzickou osobou' (BT-633-Organization); 'Víťaz je kótovaný na regulovanom trhu' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organizácia (OPT-200-Organization-Company) je súčasťou víťaznej ponuky ako hlavný uchádzač (OPT-300-Tenderer) alebo vedľajší uchádzač (OPT-301-Tenderer-SubCont); 'Organizácia je fyzickou osobou' (BT-633-Organization) je 'nie' a 'Víťaz je kótovaný na regulovanom trhu' (BT-746-Organization) je 'nie'</entry>
 <entry key="expression|name|352">Najmenej jedna organizácia je pripojená k 'Organizácia, ktorá plní túto úlohu' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Druh postupu' (BT-105) je 'Verejná súťaž', 'Užšia súťaž' alebo 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'</entry>
+<entry key="expression|name|353">'Druh postupu' (BT-105) nie je 'Verejná súťaž', 'Užšia súťaž' alebo 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'</entry>
 <entry key="expression|name|354">'Druh postupu' (BT-105) nie je 'Užšia súťaž' alebo 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'</entry>
 <entry key="expression|name|355">Organizácia nie je kupujúcim alebo je len jeden kupujúci</entry>
 <entry key="expression|name|356">Existujú dvaja rôzni kupujúci z dvoch rôznych krajín</entry>
