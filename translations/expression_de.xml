@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Die Organisation nimmt nicht an der Ausschreibung teil; 'Die Organisation ist eine natürliche Person.' (BT-633-Organization); 'Der Gewinner ist auf einem geregelten Markt notiert' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Die Organisation (OPT-200-Organization-Company) nimmt an dem ausgewählten Angebot als Haupt-(OPT-300-Tenderer) oder Teilbieter teil (OPT-301-Tenderer-SubCont); 'Die Organisation ist eine natürliche Person.' (BT-633-Organization) ist 'nein' und 'Der Gewinner ist auf einem geregelten Markt notiert' (BT-746-Organization) ist 'nein'</entry>
 <entry key="expression|name|352">Mindestens eine Organisation ist verbunden mit 'Organisation, die diese Rolle ausfüllt' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Verfahrensart' (BT-105) ist 'Offenes Verfahren', 'Nichtoffenes Verfahren' oder 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'</entry>
+<entry key="expression|name|353">'Verfahrensart' (BT-105) ist nicht 'Offenes Verfahren', 'Nichtoffenes Verfahren' oder 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'</entry>
 <entry key="expression|name|354">'Verfahrensart' (BT-105) ist nicht 'Nichtoffenes Verfahren' oder 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'</entry>
 <entry key="expression|name|355">Organisation ist kein Käufer oder es gibt nur einen Käufer</entry>
 <entry key="expression|name|356">Es gibt zwei verschiedene Käufer aus zwei verschiedenen Ländern</entry>

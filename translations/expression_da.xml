@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Organisationen indgår ikke som bydende part; 'Organisationen er en fysisk person' (BT-633-Organization); 'Vinderen er noteret på et reguleret marked' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organisationen (OPT-200-Organization-Company) indgår i et vindende tilbud som hovedtilbudsgiver (OPT-300-Tenderer) eller undertilbudsgiver (OPT-301-Tenderer-SubCont); 'Organisationen er en fysisk person' (BT-633-Organization) er 'nej' og 'Vinderen er noteret på et reguleret marked' (BT-746-Organization) er 'nej'</entry>
 <entry key="expression|name|352">Mindst 1 organisation er tilsluttet 'Organisationen, der udfylder denne rolle' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Udbudsprocedure' (BT-105) er 'Åben', 'Begrænset' eller 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
+<entry key="expression|name|353">'Udbudsprocedure' (BT-105) er ikke 'Åben', 'Begrænset' eller 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
 <entry key="expression|name|354">'Udbudsprocedure' (BT-105) er ikke 'Begrænset' eller 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
 <entry key="expression|name|355">Organisationen er ikke køber, eller der er kun 1 køber</entry>
 <entry key="expression|name|356">Der er to forskellige købere fra to forskellige lande</entry>

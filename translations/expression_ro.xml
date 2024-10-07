@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Organizația nu participă la partea care depune ofertă; 'Organizația este o persoană fizică' (BT-633-Organization); 'Câștigătorul este cotat pe o piață reglementată' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organizația (OPT-200-Organization-Company) participă la o ofertă câștigătoare în calitate de ofertant principal (OPT-300-Tenderer) sau subofertant (OPT-301-Tenderer-SubCont); 'Organizația este o persoană fizică' (BT-633-Organization) este 'nu' și 'Câștigătorul este cotat pe o piață reglementată' (BT-746-Organization) este 'nu'</entry>
 <entry key="expression|name|352">Cel puțin o organizație este conectată la 'Organizația care îndeplinește acest rol' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Tip de procedură' (BT-105) este 'Deschisă', 'Restrânsă' sau 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'</entry>
+<entry key="expression|name|353">'Tip de procedură' (BT-105) nu este 'Deschisă', 'Restrânsă' sau 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'</entry>
 <entry key="expression|name|354">'Tip de procedură' (BT-105) nu este 'Restrânsă' sau 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'</entry>
 <entry key="expression|name|355">Organizația nu este un cumpărător sau există un singur cumpărător</entry>
 <entry key="expression|name|356">Există doi cumpărători diferiți din două țări diferite</entry>

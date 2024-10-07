@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Organizacija ni član ponudnika; 'Organizacija je fizična oseba' (BT-633-Organization); 'Zmagovalec kotira na reguliranem trgu' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organizacija (OPT-200-Organization-Company) sodeluje pri izbrani ponudbi kot glavni (OPT-300-Tenderer) ali podponudnik (OPT-301-Tenderer-SubCont); 'Organizacija je fizična oseba' (BT-633-Organization) je 'ne' in 'Zmagovalec kotira na reguliranem trgu' (BT-746-Organization) je 'ne'</entry>
 <entry key="expression|name|352">Vsaj ena organizacija je povezana z 'Organizacija, ki opravlja to vlogo' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Vrsta postopka' (BT-105) je 'Odprti postopek', 'Omejeni postopek' ali 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'</entry>
+<entry key="expression|name|353">'Vrsta postopka' (BT-105) ni 'Odprti postopek', 'Omejeni postopek' ali 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'</entry>
 <entry key="expression|name|354">'Vrsta postopka' (BT-105) ni 'Omejeni postopek' ali 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'</entry>
 <entry key="expression|name|355">Organizacija ni kupec oziroma obstaja samo en kupec</entry>
 <entry key="expression|name|356">Obstajata dva različna kupca iz dveh različnih držav</entry>

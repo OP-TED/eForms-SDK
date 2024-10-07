@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Organizacija ne sudjeluje u podnositelju ponude; 'Organizacija je fizička osoba' (BT-633-Organization); 'Pobjednik je uvršten na uređeno tržište' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organizacija (OPT-200-Organization-Company) sudjeluje u uspješnom nadmetanju u svojstvu glavnog (OPT-300-Tenderer)ili podponuditelja (OPT-301-Tenderer-SubCont); 'Organizacija je fizička osoba' (BT-633-Organization) je 'ne' i 'Pobjednik je uvršten na uređeno tržište' (BT-746-Organization) je 'ne'</entry>
 <entry key="expression|name|352">Najmanje jedna organizacija povezana je s 'Organizacija koja ispunjava ovu ulogu' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Vrsta postupka' (BT-105) je 'Otvoren', 'Ograničen' ili 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore'</entry>
+<entry key="expression|name|353">'Vrsta postupka' (BT-105) nije 'Otvoren', 'Ograničen' ili 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore'</entry>
 <entry key="expression|name|354">'Vrsta postupka' (BT-105) nije 'Ograničen' ili 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore'</entry>
 <entry key="expression|name|355">Organizacija nije kupac ili postoji samo jedan kupac</entry>
 <entry key="expression|name|356">Postoje dva različita kupca iz dvije različite zemlje</entry>
