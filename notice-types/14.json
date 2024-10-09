@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.401",
-    "createdOn" : "2024-10-01T13:17:56"
+    "version" : "1.12.417",
+    "createdOn" : "2024-10-09T10:14:51"
   },
   "noticeId" : "14",
   "metadata" : [ {
@@ -537,6 +537,12 @@
           "displayType" : "RADIO",
           "description" : "Procurement Relaunch",
           "_label" : "field|name|BT-634-Procedure"
+        }, {
+          "id" : "BT-105-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Procedure Type",
+          "_label" : "field|name|BT-105-Procedure"
         }, {
           "id" : "BT-763-Procedure",
           "contentType" : "field",
