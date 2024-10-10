@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.401",
-    "createdOn" : "2024-10-01T13:17:56"
+    "version" : "1.12.420",
+    "createdOn" : "2024-10-09T17:06:05"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -218,7 +218,7 @@
     "_label" : "codelist|name|corporate-body"
   }, {
     "id" : "country",
-    "version" : "20230915-0",
+    "version" : "20240925-0",
     "filename" : "country.gc",
     "description" : "List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.",
     "_label" : "codelist|name|country"
