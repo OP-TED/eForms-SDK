@@ -230,7 +230,7 @@
 		{ND-ContractModification} #{field|name|BT-201-Contract}: ${BT-201-Contract} // Modification Reason Description
 		1 {ND-Modification} #{auxiliary|text|change} // 7.1.1 Modification
 			{ND-Modification} #{field|name|BT-202-Contract}: ${BT-202-Contract} // Modification Description
-			{BT-1501(p)-Contract} #{field|name|BT-1501(p)-Contract}: ${BT-1501(p)-Contract} // Modified Notice Part Reference
+			{ND-Modification[BT-1501(p)-Contract is present]} #{field|name|BT-1501(p)-Contract}: ${BT-1501(p)-Contract} // Modified Notice Part Reference
 8 {ND-Root} #{auxiliary|text|organisations} // 8 Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
 		{ND-Organization} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name

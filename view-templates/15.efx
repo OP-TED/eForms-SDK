@@ -80,7 +80,7 @@
 				{BT-5010-Lot} #{field|name|BT-5010-Lot}: ${BT-5010-Lot} // EU Funds Financing Identifier
 				{ND-Funding[BT-6140-Lot is present]} #{field|name|BT-6140-Lot}: ${BT-6140-Lot} // EU Funds Details
 			{BT-115-Lot} #{field|name|BT-115-Lot}: #{code|name|${if (BT-115-Lot == TRUE) then 'indicator.true' else 'indicator.false'}} // GPA Coverage
-			{BT-726-Lot[BT-726-Lot == TRUE]} #{field|name|BT-726-Lot} // This procurement is also suitable for small and medium enterprises (SMEs). (true / false)
+			{BT-726-Lot} #{field|name|BT-726-Lot}: #{code|name|${if (BT-726-Lot == TRUE) then 'indicator.true' else 'indicator.false'}} // This procurement is also suitable for small and medium enterprises (SMEs). (true / false)
 			0 {ND-LotTenderingProcess[(BT-125(i)-Lot is present) or (BT-1251-Lot is present)]} #{auxiliary|text|previous-planning}: // Information about previous notices - Previous planning
 				0 {BT-125(i)-Lot} #{field|name|BT-125(i)-Lot}: ${BT-125(i)-Lot} // Identifier of previous notice
 					{BT-1251-Lot} #{field|name|BT-1251-Lot}: ${BT-1251-Lot} // Identifier of the part of the previous notice

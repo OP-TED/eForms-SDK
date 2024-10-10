@@ -62,7 +62,7 @@
 			{BT-27-Part} #{field|name|BT-27-Part}: ${format-number(BT-27-Part, '###,##0.##')} #{code|name|${concat('currency.', BT-27-Part/@currencyID)}} // Estimated value excluding VAT
 		5 {BT-137-Part[(BT-71-Part is present) or (BT-115-Part is present) or (BT-726-Part == TRUE) or (BT-125(i)-Part is present) or (BT-1251-Part is present) or (BT-300-Part is present)]} #{auxiliary|text|general-information} // 3.1.5 General information
 			{BT-137-Part[BT-71-Part is present]} #{field|name|BT-71-Part}: #{BT-71-Part} // Reserved Participation: (PART)
-			{BT-726-Part[BT-726-Part == TRUE]} #{field|name|BT-726-Part} // This procurement is also suitable for small and medium-sized enterprises (SMEs). (true/false)
+			{BT-726-Part} #{field|name|BT-726-Part}: #{code|name|${if (BT-726-Part== TRUE) then 'indicator.true' else 'indicator.false'}} // This procurement is also suitable for small and medium-sized enterprises (SMEs). (true/false)
 			0 {BT-137-Part[(BT-125(i)-Part is present) or (BT-1251-Part is present)]} #{auxiliary|text|previous-planning} // Information about previous notices
 				0 {BT-125(i)-Part} #{field|name|BT-125(i)-Part}: ${BT-125(i)-Part} // Identifier of the previous notice
 					{BT-1251-Part} #{field|name|BT-1251-Part}: ${BT-1251-Part} // Identifier of the part of the previous notice

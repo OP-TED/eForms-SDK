@@ -71,7 +71,7 @@
 				{BT-7220-Lot} #{field|name|BT-7220-Lot}: #{BT-7220-Lot} // EU Funds Programme
 				{BT-5010-Lot} #{field|name|BT-5010-Lot}: ${BT-5010-Lot} // EU Funds Financing Identifier
 				{ND-Funding[BT-6140-Lot is present]} #{field|name|BT-6140-Lot}: ${BT-6140-Lot} // EU Funds Details
-			{BT-726-Lot[BT-726-Lot == TRUE]} #{field|name|BT-726-Lot} // This procurement is also suitable for small and medium enterprises (SMEs). (true / false)
+			{BT-726-Lot} #{field|name|BT-726-Lot}: #{code|name|${if (BT-726-Lot == TRUE) then 'indicator.true' else 'indicator.false'}} // This procurement is also suitable for small and medium enterprises (SMEs). (true / false)
 			{BT-137-Lot[BT-300-Lot is present]} #{field|name|BT-300-Lot}: ${BT-300-Lot} // Additional information
 		7 {ND-LotProcurementScope[(BT-06-Lot is present) or (BT-777-Lot is present) or (BT-774-Lot is present) or (BT-775-Lot is present) or (BT-776-Lot is present) or (BT-805-Lot is present) or (BT-717-Lot is present) or (BT-810-Lot == 'true')]} #{auxiliary|text|strategic-procurement} // 5.1.7 Strategic procurement
 			0 {ND-StrategicProcurementType} #{field|name|BT-06-Lot}: #{BT-06-Lot} // Aim of strategic procurement
