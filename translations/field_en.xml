@@ -2343,7 +2343,7 @@
 <entry key="field|name|BT-812-LotResult">Energy efficiency label</entry>
 <entry key="field|name|BT-812-LotResult-List">Energy efficiency label</entry>
 <entry key="field|name|BT-813-LotResult">Energy efficiency consumption in kWh/year</entry>
-<entry key="field|name|BT-814-LotResult">Energy Savings in kWh/year</entry>
+<entry key="field|name|BT-814-LotResult">Energy savings in kWh/year</entry>
 <entry key="field|name|BT-815-LotResult">Energy efficiency quantity</entry>
 <entry key="field|name|BT-821-Lot">Selection Criteria Source</entry>
 <entry key="field|name|BT-821-Lot-List">Source of selection criteria</entry>
@@ -2424,10 +2424,10 @@
 <entry key="field|name|OPT-071-Lot-List">Quality target code</entry>
 <entry key="field|name|OPT-072-Lot">Quality target description</entry>
 <entry key="field|name|OPT-072-Lot-Language">Quality target description</entry>
-<entry key="field|name|OPT-080-LotResult">EED Consumption Metric</entry>
-<entry key="field|name|OPT-080-LotResult-List">EED Consumption Metric</entry>
-<entry key="field|name|OPT-081-LotResult">EED Savings Metric</entry>
-<entry key="field|name|OPT-081-LotResult-List">EED Savings Metric</entry>
+<entry key="field|name|OPT-080-LotResult">EED consumption metric</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED consumption metric</entry>
+<entry key="field|name|OPT-081-LotResult">EED savings metric</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED savings metric</entry>
 <entry key="field|name|OPT-090-Lot">Buyer categories</entry>
 <entry key="field|name|OPT-100-Contract">Notice that created the framework agreement</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Notice that created the framework agreement</entry>

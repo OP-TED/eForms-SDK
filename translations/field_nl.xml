@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Energie-efficiëntie label</entry>
 <entry key="field|name|BT-812-LotResult-List">Energie-efficiëntie label</entry>
 <entry key="field|name|BT-813-LotResult">Energieverbruik in kWh/jaar</entry>
+<entry key="field|name|BT-814-LotResult">Energiebesparing in kWh/jaar</entry>
 <entry key="field|name|BT-815-LotResult">Hoeveelheid energie-efficiëntie</entry>
 <entry key="field|name|BT-821-Lot">Bron van selectiecriteria</entry>
 <entry key="field|name|BT-821-Lot-List">Bron van selectiecriteria</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Code kwaliteitsdoelstelling</entry>
 <entry key="field|name|OPT-072-Lot">Beschrijving kwaliteitsdoelstelling</entry>
 <entry key="field|name|OPT-072-Lot-Language">Beschrijving kwaliteitsdoelstelling</entry>
+<entry key="field|name|OPT-080-LotResult">Metric van EED-verbruik</entry>
+<entry key="field|name|OPT-080-LotResult-List">Metric van EED-verbruik</entry>
+<entry key="field|name|OPT-081-LotResult">Metric van EED-besparingen</entry>
+<entry key="field|name|OPT-081-LotResult-List">Metric van EED-besparingen</entry>
 <entry key="field|name|OPT-090-Lot">Koperscategorieën</entry>
 <entry key="field|name|OPT-100-Contract">Kennisgeving die de raamovereenkomst heeft gecreëerd</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Kennisgeving die de raamovereenkomst heeft gecreëerd</entry>

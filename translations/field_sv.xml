@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Energieffektivitetsmärkning</entry>
 <entry key="field|name|BT-812-LotResult-List">Energieffektivitetsmärkning</entry>
 <entry key="field|name|BT-813-LotResult">Energianvändning i kWh/år</entry>
+<entry key="field|name|BT-814-LotResult">Energibesparing i kWh/år</entry>
 <entry key="field|name|BT-815-LotResult">Mängd energieffektivitet</entry>
 <entry key="field|name|BT-821-Lot">Källa till urvalskriterier</entry>
 <entry key="field|name|BT-821-Lot-List">Källa till urvalskriterier</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Kod för kvalitetsmål</entry>
 <entry key="field|name|OPT-072-Lot">Beskrivning av kvalitetsmål</entry>
 <entry key="field|name|OPT-072-Lot-Language">Beskrivning av kvalitetsmål</entry>
+<entry key="field|name|OPT-080-LotResult">EED förbrukningsmetrik</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED förbrukningsmetrik</entry>
+<entry key="field|name|OPT-081-LotResult">EED besparingsmetrik</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED besparingsmetrik</entry>
 <entry key="field|name|OPT-090-Lot">Köparkategorier</entry>
 <entry key="field|name|OPT-100-Contract">Meddelande som skapade ramavtalet</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Meddelande som skapade ramavtalet</entry>

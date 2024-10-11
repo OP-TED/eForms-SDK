@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Energiahatékonysági címke</entry>
 <entry key="field|name|BT-812-LotResult-List">Energiahatékonysági címke</entry>
 <entry key="field|name|BT-813-LotResult">Energiafogyasztás kWh/évben</entry>
+<entry key="field|name|BT-814-LotResult">Energia megtakarítás kWh/évben</entry>
 <entry key="field|name|BT-815-LotResult">Energiahatékonyság mennyisége</entry>
 <entry key="field|name|BT-821-Lot">Selekciós kritériumok forrása</entry>
 <entry key="field|name|BT-821-Lot-List">Selekciós kritériumok forrása</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Minőségi cél – kód</entry>
 <entry key="field|name|OPT-072-Lot">Minőségi cél – ismertetés</entry>
 <entry key="field|name|OPT-072-Lot-Language">Minőségi cél – ismertetés</entry>
+<entry key="field|name|OPT-080-LotResult">EED fogyasztási metrika</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED fogyasztási metrika</entry>
+<entry key="field|name|OPT-081-LotResult">EED megtakarítási metrika</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED megtakarítási metrika</entry>
 <entry key="field|name|OPT-090-Lot">Vevői kategóriák</entry>
 <entry key="field|name|OPT-100-Contract">Értesítés, amely létrehozta a keretszerződést</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Értesítés, amely létrehozta a keretszerződést</entry>

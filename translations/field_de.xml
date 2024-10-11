@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Energieeffizienz-Label</entry>
 <entry key="field|name|BT-812-LotResult-List">Energieeffizienz-Label</entry>
 <entry key="field|name|BT-813-LotResult">Energieverbrauch in kWh/Jahr</entry>
+<entry key="field|name|BT-814-LotResult">Energieeinsparungen in kWh/Jahr</entry>
 <entry key="field|name|BT-815-LotResult">Energieeffizienz-Menge</entry>
 <entry key="field|name|BT-821-Lot">Quelle der Eignungskriterien</entry>
 <entry key="field|name|BT-821-Lot-List">Quelle der Eignungskriterien</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Qualitätsziel – Code</entry>
 <entry key="field|name|OPT-072-Lot">Qualitätsziel – Beschreibung</entry>
 <entry key="field|name|OPT-072-Lot-Language">Qualitätsziel – Beschreibung</entry>
+<entry key="field|name|OPT-080-LotResult">EED-Verbrauchsmetrik</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED-Verbrauchsmetrik</entry>
+<entry key="field|name|OPT-081-LotResult">EED-Einsparmetrik</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED-Einsparmetrik</entry>
 <entry key="field|name|OPT-090-Lot">Beschaffer – Kategorien</entry>
 <entry key="field|name|OPT-100-Contract">Bekanntmachung, die die Rahmenvereinbarung geschaffen hat</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Bekanntmachung, die die Rahmenvereinbarung geschaffen hat</entry>

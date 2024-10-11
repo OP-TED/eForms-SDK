@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Etykieta efektywności energetycznej</entry>
 <entry key="field|name|BT-812-LotResult-List">Etykieta efektywności energetycznej</entry>
 <entry key="field|name|BT-813-LotResult">Zużycie energii w kWh/rok</entry>
+<entry key="field|name|BT-814-LotResult">Oszczędność energii w kWh/rok</entry>
 <entry key="field|name|BT-815-LotResult">Ilość efektywności energetycznej</entry>
 <entry key="field|name|BT-821-Lot">Źródło kryteriów selekcji</entry>
 <entry key="field|name|BT-821-Lot-List">Źródło kryteriów selekcji</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Cele w zakresie jakości – Kod</entry>
 <entry key="field|name|OPT-072-Lot">Cele w zakresie jakości – Opis</entry>
 <entry key="field|name|OPT-072-Lot-Language">Cele w zakresie jakości – Opis</entry>
+<entry key="field|name|OPT-080-LotResult">EED miernik konsumpcji</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED miernik konsumpcji</entry>
+<entry key="field|name|OPT-081-LotResult">EED miernik oszczędności</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED miernik oszczędności</entry>
 <entry key="field|name|OPT-090-Lot">Kategorie nabywców</entry>
 <entry key="field|name|OPT-100-Contract">Ogłoszenie, które stworzyło umowę ramową</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Ogłoszenie, które stworzyło umowę ramową</entry>

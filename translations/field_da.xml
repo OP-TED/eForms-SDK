@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Energimærke</entry>
 <entry key="field|name|BT-812-LotResult-List">Energimærke</entry>
 <entry key="field|name|BT-813-LotResult">Energiforbrug i kWh/år</entry>
+<entry key="field|name|BT-814-LotResult">Energibesparelser i kWh/år</entry>
 <entry key="field|name|BT-815-LotResult">Energi effektivitet mængde</entry>
 <entry key="field|name|BT-821-Lot">Kilde til udvælgelseskriterier</entry>
 <entry key="field|name|BT-821-Lot-List">Kilde til udvælgelseskriterier</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Kvalitetsmålkode</entry>
 <entry key="field|name|OPT-072-Lot">Beskrivelse af kvalitetsmål</entry>
 <entry key="field|name|OPT-072-Lot-Language">Beskrivelse af kvalitetsmål</entry>
+<entry key="field|name|OPT-080-LotResult">EED forbrugsmetrik</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED forbrugsmetrik</entry>
+<entry key="field|name|OPT-081-LotResult">EED besparelsesmetrik</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED besparelsesmetrik</entry>
 <entry key="field|name|OPT-090-Lot">Køberkategorier</entry>
 <entry key="field|name|OPT-100-Contract">Bekendtgørelse om indgåede kontrakter, der skabte rammeaftalen</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Bekendtgørelse om indgåede kontrakter, der skabte rammeaftalen</entry>

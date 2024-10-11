@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Etiqueta de eficiência energética</entry>
 <entry key="field|name|BT-812-LotResult-List">Etiqueta de eficiência energética</entry>
 <entry key="field|name|BT-813-LotResult">Consumo de energia em kWh/ano</entry>
+<entry key="field|name|BT-814-LotResult">Poupança de energia em kWh/ano</entry>
 <entry key="field|name|BT-815-LotResult">Quantidade de eficiência energética</entry>
 <entry key="field|name|BT-821-Lot">Fundamento para critérios de seleção</entry>
 <entry key="field|name|BT-821-Lot-List">Fundamento para critérios de seleção</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Código do objetivo de qualidade</entry>
 <entry key="field|name|OPT-072-Lot">Descrição do objetivo de qualidade</entry>
 <entry key="field|name|OPT-072-Lot-Language">Descrição do objetivo de qualidade</entry>
+<entry key="field|name|OPT-080-LotResult">Métrica de consumo EED</entry>
+<entry key="field|name|OPT-080-LotResult-List">Métrica de consumo EED</entry>
+<entry key="field|name|OPT-081-LotResult">Métrica de economia EED</entry>
+<entry key="field|name|OPT-081-LotResult-List">Métrica de economia EED</entry>
 <entry key="field|name|OPT-090-Lot">Categorias de adquirentes</entry>
 <entry key="field|name|OPT-100-Contract">Aviso que criou o acordo-quadro</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Aviso que criou o acordo-quadro</entry>

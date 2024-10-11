@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Štítok energetickej efektívnosti</entry>
 <entry key="field|name|BT-812-LotResult-List">Štítok energetickej efektívnosti</entry>
 <entry key="field|name|BT-813-LotResult">Spotreba energie v kWh/rok</entry>
+<entry key="field|name|BT-814-LotResult">Úspora energie v kWh/roku</entry>
 <entry key="field|name|BT-815-LotResult">Množstvo energetickej efektívnosti</entry>
 <entry key="field|name|BT-821-Lot">Zdroj výberových kritérií</entry>
 <entry key="field|name|BT-821-Lot-List">Zdroj výberových kritérií</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Kód cieľa kvality</entry>
 <entry key="field|name|OPT-072-Lot">Opis cieľa kvality</entry>
 <entry key="field|name|OPT-072-Lot-Language">Opis cieľa kvality</entry>
+<entry key="field|name|OPT-080-LotResult">Metrika spotreby EED</entry>
+<entry key="field|name|OPT-080-LotResult-List">Metrika spotreby EED</entry>
+<entry key="field|name|OPT-081-LotResult">Metrika úspor EED</entry>
+<entry key="field|name|OPT-081-LotResult-List">Metrika úspor EED</entry>
 <entry key="field|name|OPT-090-Lot">Kategórie kupujúcich</entry>
 <entry key="field|name|OPT-100-Contract">Oznámenie, ktoré vytvorilo rámcovú dohodu</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Oznámenie, ktoré vytvorilo rámcovú dohodu</entry>

@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Energoefektivitātes etiķete</entry>
 <entry key="field|name|BT-812-LotResult-List">Energoefektivitātes etiķete</entry>
 <entry key="field|name|BT-813-LotResult">Energijas patēriņš kWh/gadā</entry>
+<entry key="field|name|BT-814-LotResult">Enerģijas ietaupījums kWh/gadā</entry>
 <entry key="field|name|BT-815-LotResult">Energoefektivitātes daudzums</entry>
 <entry key="field|name|BT-821-Lot">Atlases kritēriju avots</entry>
 <entry key="field|name|BT-821-Lot-List">Atlases kritēriju avots</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Kvalitātes mērķrādītāja kods</entry>
 <entry key="field|name|OPT-072-Lot">Kvalitātes mērķrādītāja apraksts</entry>
 <entry key="field|name|OPT-072-Lot-Language">Kvalitātes mērķrādītāja apraksts</entry>
+<entry key="field|name|OPT-080-LotResult">EED patēriņa metriks</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED patēriņa metriks</entry>
+<entry key="field|name|OPT-081-LotResult">EED ietaupījuma metriks</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED ietaupījuma metriks</entry>
 <entry key="field|name|OPT-090-Lot">Pircēju kategorijas</entry>
 <entry key="field|name|OPT-100-Contract">Paziņojums, kas radīja ietvaru līgumu</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Paziņojums, kas radīja ietvaru līgumu</entry>

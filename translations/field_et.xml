@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Energiaefektiivsuse märgis</entry>
 <entry key="field|name|BT-812-LotResult-List">Energiaefektiivsuse märgis</entry>
 <entry key="field|name|BT-813-LotResult">Energiaefektiivsuse tarbimine kWh/aastas</entry>
+<entry key="field|name|BT-814-LotResult">Energiasääst kWh/aastas</entry>
 <entry key="field|name|BT-815-LotResult">Energiaefektiivsuse kogus</entry>
 <entry key="field|name|BT-821-Lot">Valikukriteeriumide allikas</entry>
 <entry key="field|name|BT-821-Lot-List">Valikukriteeriumide allikas</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Kvaliteedieesmärgi kood</entry>
 <entry key="field|name|OPT-072-Lot">Kvaliteedieesmärgi kirjeldus</entry>
 <entry key="field|name|OPT-072-Lot-Language">Kvaliteedieesmärgi kirjeldus</entry>
+<entry key="field|name|OPT-080-LotResult">EED tarbimise mõõdik</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED tarbimise mõõdik</entry>
+<entry key="field|name|OPT-081-LotResult">EED säästmise mõõdik</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED säästmise mõõdik</entry>
 <entry key="field|name|OPT-090-Lot">Hankijate kategooriad</entry>
 <entry key="field|name|OPT-100-Contract">Teade, millega teavitati raamlepingust</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Teade, millega teavitati raamlepingust</entry>

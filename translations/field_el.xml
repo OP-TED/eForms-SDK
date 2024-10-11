@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Ετικέτα ενεργειακής απόδοσης</entry>
 <entry key="field|name|BT-812-LotResult-List">Ετικέτα ενεργειακής απόδοσης</entry>
 <entry key="field|name|BT-813-LotResult">Κατανάλωση ενέργειας σε kWh/έτος</entry>
+<entry key="field|name|BT-814-LotResult">Εξοικονόμηση ενέργειας σε kWh/έτος</entry>
 <entry key="field|name|BT-815-LotResult">Ποσότητα ενεργειακής απόδοσης</entry>
 <entry key="field|name|BT-821-Lot">Πηγή των κριτηρίων επιλογής</entry>
 <entry key="field|name|BT-821-Lot-List">Πηγή των κριτηρίων επιλογής</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Κωδικός του ποιοτικού στόχου</entry>
 <entry key="field|name|OPT-072-Lot">Περιγραφή του ποιοτικού στόχου</entry>
 <entry key="field|name|OPT-072-Lot-Language">Περιγραφή του ποιοτικού στόχου</entry>
+<entry key="field|name|OPT-080-LotResult">EED καταναλωτικό μετρητή</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED καταναλωτικό μετρητή</entry>
+<entry key="field|name|OPT-081-LotResult">EED μετρητής εξοικονόμησης</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED μετρητής εξοικονόμησης</entry>
 <entry key="field|name|OPT-090-Lot">Κατηγορίες αγοραστή</entry>
 <entry key="field|name|OPT-100-Contract">Ειδοποίηση που δημιούργησε τη συμφωνία πλαίσιο</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Ειδοποίηση που δημιούργησε τη συμφωνία πλαίσιο</entry>

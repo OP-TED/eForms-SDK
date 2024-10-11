@@ -2339,6 +2339,7 @@
 <entry key="field|name|BT-812-LotResult">Energijska nalepka</entry>
 <entry key="field|name|BT-812-LotResult-List">Energijska nalepka</entry>
 <entry key="field|name|BT-813-LotResult">Poraba energije v kWh/leto</entry>
+<entry key="field|name|BT-814-LotResult">Prihranek energije v kWh/leto</entry>
 <entry key="field|name|BT-815-LotResult">Količina energetske učinkovitosti</entry>
 <entry key="field|name|BT-821-Lot">Vir izbirnih kriterijev</entry>
 <entry key="field|name|BT-821-Lot-List">Vir izbirnih kriterijev</entry>
@@ -2419,6 +2420,10 @@
 <entry key="field|name|OPT-071-Lot-List">Koda cilja glede kakovosti</entry>
 <entry key="field|name|OPT-072-Lot">Opis cilja glede kakovosti</entry>
 <entry key="field|name|OPT-072-Lot-Language">Opis cilja glede kakovosti</entry>
+<entry key="field|name|OPT-080-LotResult">EED porabniški metrik</entry>
+<entry key="field|name|OPT-080-LotResult-List">EED porabniški metrik</entry>
+<entry key="field|name|OPT-081-LotResult">EED metrika prihrankov</entry>
+<entry key="field|name|OPT-081-LotResult-List">EED metrika prihrankov</entry>
 <entry key="field|name|OPT-090-Lot">Kategorije kupcev</entry>
 <entry key="field|name|OPT-100-Contract">Obvestilo, ki je ustvarilo okvirni sporazum</entry>
 <entry key="field|name|OPT-100-Contract-Scheme">Obvestilo, ki je ustvarilo okvirni sporazum</entry>
