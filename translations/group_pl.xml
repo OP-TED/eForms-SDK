@@ -237,6 +237,8 @@
 <entry key="group|name|GR-Winner">Zwycięzca</entry>
 <entry key="group|name|ND-AcceleratedProcedure">Przyspieszone postępowanie</entry>
 <entry key="group|name|ND-AccessibilityJustification">Uzasadnienie braku kryteriów dostępności</entry>
+<entry key="group|name|ND-AppealProcessingParty">Strona zajmująca się przeglądem na danym etapie procesu.</entry>
+<entry key="group|name|ND-AppealingParty">Strona, która zainicjowała wniosek o przegląd</entry>
 <entry key="group|name|ND-Asset">Majątek uzasadniający przedłużenie umowy</entry>
 <entry key="group|name|ND-AuctionTerms">Warunki aukcji</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Członek jury</entry>
@@ -257,6 +259,16 @@
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Bezpośrednie udzielenie zamówienia – Uzasadnienie – Kod (publikowane później)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Numer identyfikacyjny poprzedniej procedury uzasadniającej bezpośrednie udzielenie zamówienia (publikowane później)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Uzasadnienie bezpośredniego udzielenia zamówienia (publikowane później)</entry>
+<entry key="group|name|ND-EEDAssetLabel">Etykieta EED dla danego nabywanego aktywa LotResult</entry>
+<entry key="group|name|ND-EEDAssetQuantity">Ilość EED dla danego nabywanego aktywa LotResult</entry>
+<entry key="group|name|ND-EEDConsumption">Roczne zużycie energii EED dla danego nabywanego aktywa LotResult</entry>
+<entry key="group|name|ND-EEDInformationLot">Informacje na temat produktów EED do zakupu</entry>
+<entry key="group|name|ND-EEDInformationLotResult">Informacje związane z EED dla danego LotResult</entry>
+<entry key="group|name|ND-EEDLot">Informacje na temat EED i przewidywanych związanych aktywów: stosowalność EED i zakupione produkty</entry>
+<entry key="group|name|ND-EEDLotResult">Ogólne informacje na temat zakupionych aktywów na podstawie EED: typ produktu, kategoria i ilość</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLot">Identyfikacja jednego z nabywanych aktywów</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLotResult">Szczegółowe informacje EED dla danego nabywanego aktywa LotResult</entry>
+<entry key="group|name|ND-EEDSavings">Roczne oszczędności energii EED dla danego nabywanego aktywa LotResult</entry>
 <entry key="group|name|ND-EuEntity">Numer rejestracyjny UE</entry>
 <entry key="group|name|ND-ExclusionGrounds">Podstawy wykluczenia</entry>
 <entry key="group|name|ND-ExecutionRequirements">Warunki wykonania</entry>
@@ -270,6 +282,8 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identyfikator maksymalnej wartości grupy (publikowane później)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Maksymalna wartość grupy (publikowane później)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Ponownie oszacowana wartość grupy (publikowane później)</entry>
+<entry key="group|name|ND-IPIInformation">Informacje na temat wszystkich zastosowanych środków</entry>
+<entry key="group|name|ND-IPILotResult">Ogólne informacje na temat Międzynarodowego Instrumentu Zamówień Publicznych</entry>
 <entry key="group|name|ND-LateTendererInformation">Opóźnione informacje o oferencie</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Inna podstawa prawna bez znanego identyfikatora</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Inna podstawa prawna z identyfikatorem</entry>
@@ -352,6 +366,7 @@
 <entry key="group|name|ND-Organization">Organizacje wymienione w ogłoszeniu</entry>
 <entry key="group|name|ND-OrganizationUboReference">Ostateczny beneficjent właściciel</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Warunki inne niż alokacja przychodów</entry>
+<entry key="group|name|ND-PMCAnswersDeadline">Termin na odbiór odpowiedzi</entry>
 <entry key="group|name|ND-Part">Część</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Dodatkowa klasyfikacja</entry>
 <entry key="group|name|ND-PartContractAdditionalNature">Dodatkowy charakter umowy</entry>
@@ -377,8 +392,9 @@
 <entry key="group|name|ND-ProcedureContractAdditionalNature">Dodatkowy charakter umowy</entry>
 <entry key="group|name|ND-ProcedureFeaturesUnpublish">Aspekty procedury (publikowane później)</entry>
 <entry key="group|name|ND-ProcedureMainClassification">Główna klasyfikacja</entry>
+<entry key="group|name|ND-ProcedurePlacePerformance">Miejsce, w którym powinien odbyć się zamówienie, dla całego postępowania</entry>
 <entry key="group|name|ND-ProcedurePlacePerformanceAdditionalInformation">Dodatkowe informacje na temat miejsca realizacji</entry>
-<entry key="group|name|ND-ProcedureProcurementScope">Warunki przetargu</entry>
+<entry key="group|name|ND-ProcedureProcurementScope">Opis</entry>
 <entry key="group|name|ND-ProcedureTenderingProcess">Przeznaczenie</entry>
 <entry key="group|name|ND-ProcedureTransportServiceType">Rodzaj usługi transportowej</entry>
 <entry key="group|name|ND-ProcedureTypeUnpublish">Rodzaj procedury (publikowane później)</entry>
@@ -390,9 +406,11 @@
 <entry key="group|name|ND-ReceivedSubmissions">Statystyki otrzymanych ofert lub wniosków</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Przeoceniona wartość (opublikowana później)</entry>
 <entry key="group|name|ND-RevenueAllocation">Procentowy podział dochodów</entry>
+<entry key="group|name|ND-ReviewRequests">Informacje na temat żądanych przeglądów i ich powiązanych statusów</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statystyki dotyczące odwołań</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Liczba nieprawidłowości w odwołaniach (publikowane później)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Rodzaj nieprawidłowości w odwołaniach (publikowane później)</entry>
+<entry key="group|name|ND-ReviewStatus">Status złożonych wniosków o przegląd (ID, etap, tytuł, opis, wniosek, decyzja)</entry>
 <entry key="group|name|ND-RewardsPenalties">Wynagrodzenia i kary</entry>
 <entry key="group|name|ND-SecondStageThresholdCriterionParameter">Parametr progowy drugiego etapu</entry>
 <entry key="group|name|ND-SecondStageWeightCriterionParameter">Parametr wagowy drugiego etapu</entry>
@@ -414,6 +432,7 @@
 <entry key="group|name|ND-SubcontractingUnpublish">Podwykonawstwo (publikowane później)</entry>
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Znana jest wartość podwykonawstwa (publikowane później)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Wartość podwykonawstwa (publikowane później)</entry>
+<entry key="group|name|ND-TenderAggregatedAmounts">Skumulowane kwoty dla wszystkich umów wykonawczych danego przetargu do końca projektu</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Ranga oferty (publikowane później)</entry>
 <entry key="group|name|ND-TenderValueHighestUnpublish">Wartość najwyższej oferty (opublikowana później)</entry>
 <entry key="group|name|ND-TenderValueLowestUnpublish">Wartość najniższej oferty (opublikowana później)</entry>
