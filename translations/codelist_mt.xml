@@ -46,7 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Lista ta’ kodiċijiet biex jiġi speċifikat jekk is-sottomissjoni ta’ katalogi elettroniċi hix permessa jew le.</entry>
 <entry key="codelist|name|economic-operator-size">Din it-tabella tipprovdi l-kategoriji differenti li fihom l-offerenti li lilhom jista’ jingħata kuntratt huma kklassifikati, skont id-daqs tagħhom (bl-użu bħala kriterji tan-numru ta’ impjegati).</entry>
 <entry key="codelist|name|eea-country">Lista ta’ kodiċijiet tal-pajjiżi taż-Żona Ekonomika Ewropea</entry>
+<entry key="codelist|name|eed-scope">Din it-tabella tipprovdi l-lista ta' kodiċi u valuri użati biex jintużaw biex jindikaw li akkwist jaqa' taħt l-iskop tad-Direttiva dwar l-Effiċjenza tal-Energija</entry>
 <entry key="codelist|name|einvoicing">Lista ta’ kodiċijiet biex jiġi speċifikat jekk l-użu tal-fatturazzjoni elettronika hux permess jew le.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Qafas legali għall-oġġetti, bħall-atti delegati tal-Etikettar tal-Energija, miżuri ta' implimentazzjoni (Direttiva 2009/125/EC), jew Regolament 2020/740; prodotti u servizzi kkuverti mill-GPP; xogħlijiet, servizzi jew bini</entry>
+<entry key="codelist|name|energy-efficiency-item">Prodotti kkuverti mill-atti delegati tal-Etikettar tal-Energija, miżuri ta' implimentazzjoni (Direttiva 2009/125/EC), jew Regolament 2020/740; prodotti u servizzi kkuverti mill-GPP; xogħlijiet, servizzi jew bini</entry>
+<entry key="codelist|name|energy-efficiency-label">Din it-tabella tipprovdi l-lista ta' kodiċi u valuri użati biex jispeċifikaw l-effiċjenza enerġetika tal-prodott</entry>
 <entry key="codelist|name|entity-activity">Lista ta’ kodiċijiet tal-Attività Ewlenija permessi għal Entità Kontraenti</entry>
 <entry key="codelist|name|environmental-impact">Din it-tabella tipprovdi l-informazzjoni dwar jekk akkwist jinkludix (u kif) approċċ għat-tnaqqis tal-impatti ambjentali tax-xogħol, il-provvista jew is-servizz użat fl-ispeċifikazzjonijiet tekniċi, fil-kriterji tal-għoti, fil-kriterji ta’ selezzjoni jew fil-parametri tal-kuntratt</entry>
 <entry key="codelist|name|esignature-submission">Lista ta’ kodiċijiet li għandhom jispeċifikaw jekk tistax tintuża firma elettronika jew le.</entry>
@@ -56,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Lista ta’ kodiċijiet tal-lingwi uffiċjali tal-UE</entry>
 <entry key="codelist|name|eu-programme">Lista ta’ kodiċijiet għall-programmi maħluqin u kkoordinati mill-Unjoni Ewropea u appoġġjati finanzjarjament mill-Unjoni Ewropea jew, fi ftit każijiet, mill-kontribuzzjonijiet mill-Istati Membri.</entry>
 <entry key="codelist|name|exclusion-ground">Lista ta’ kodiċijiet għall-identifikazzjoni tar-Raġuni għall-Esklużjoni</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR j introduċi sett ta' regoli ġodda li jippermetti lill-Kummissjoni jindirizza d-distorsjonijiet kawżati minn sussidji barranin.</entry>
 <entry key="codelist|name|form-type">Din it-tabella tipprovdi l-kodiċijiet u l-valuri użati għat-tip ta’ formoli ppubblikati fuq it-TED.</entry>
 <entry key="codelist|name|framework-agreement">Din it-tabella tipprovdi l-lista ta’ kodiċijiet biex issir distinzjoni bejn it-tipi differenti ta’ ftehim qafas involuti f’offerta.</entry>
 <entry key="codelist|name|gpp-criteria">Kriterji għall-Akkwist Pubbliku Ekoloġiku</entry>
 <entry key="codelist|name|indicator">Lista ta’ valuri tal-indikaturi permessi għal formoli elettroniċi</entry>
 <entry key="codelist|name|innovative-acquisition">Din it-tabella tipprovdi l-kodiċijiet u l-valuri użati għat-tip ta’ xogħlijiet, provvisti jew servizzi innovattivi li qed jiġu akkwistati fil-kuntest tal-akkwist pubbliku.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Din it-tabella tipprovdi l-lista ta' kodiċi u valuri użati biex jispeċifikaw l-eċċezzjoni għall-applikazzjoni tal-miżura IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Din it-tabella tipprovdi l-lista ta' kodiċi u valuri użati biex jispeċifikaw il-miżura IPI applikata</entry>
 <entry key="codelist|name|irregularity-type">Din il-lista ta’ kodiċijiet ġeneralment tirreferi għat-tipi ta’ irregolaritajiet deskritti fit-Taqsima 2 tal-Anness tad-Deċiżjoni tal-Kummissjoni C(2019) 3452.</entry>
 <entry key="codelist|name|language">Lista ta’ tliet karattri kodiċijiet tal-lingwa korrelatati mal-istandard internazzjonali ISO 639 b’kodiċijiet addizzjonali għal xi lingwi mingħajr il-kodiċi ISO assenjat.</entry>
 <entry key="codelist|name|lawful-country">Lista ta’ pajjiżi li għalihom hemm bażi legali għall-pubblikazzjoni fis-Suppliment ta’ Il-Ġurnal Uffiċjali tal-Unjoni Ewropea</entry>

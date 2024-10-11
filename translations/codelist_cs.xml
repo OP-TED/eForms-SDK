@@ -35,7 +35,7 @@
 <entry key="codelist|name|currency">Seznam kódů měn</entry>
 <entry key="codelist|name|customer-service">V této tabulce je uveden seznam zákaznických služeb.</entry>
 <entry key="codelist|name|cvd-contract-type">Druh zakázky v rámci zadávacího řízení v oblasti působnosti směrnice 2009/33/ES o čistých vozidlech</entry>
-<entry key="codelist|name|cvd-scope">Seznam kódů určujících, zda zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)</entry>
+<entry key="codelist|name|cvd-scope">Seznam kódů určujících, zda zadávání zakázek spadá do působnosti směrnice Evropského parlamentu a Rady 2009/33/ES (směrnice o čistých vozidlech)</entry>
 <entry key="codelist|name|dir-awa-pre">Seznam povolených kódů typu pro formulář oznámení o záměru uzavřít smlouvu</entry>
 <entry key="codelist|name|direct-award-justification">V této tabulce je uveden seznam důvodů pro použití řízení, v němž lze zadat zakázky přímo bez požadavku na zveřejnění výzvy k účasti v soutěži v Úředním věstníku Evropské unie.</entry>
 <entry key="codelist|name|document-distribution">Seznam kódů specifikujících, zda je distribuce dokumentů omezená, či nikoli</entry>
@@ -46,7 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Seznam kódů specifikujících, zda je povoleno podávání nabídek ve formě elektronického katalogu, či nikoli</entry>
 <entry key="codelist|name|economic-operator-size">V této tabulce jsou uvedeny různé kategorie, do nichž jsou uchazeči, kterým může být zakázka zadána, řazeni podle velikosti (kritérium je počet zaměstnanců).</entry>
 <entry key="codelist|name|eea-country">Seznam kódů zemí Evropského hospodářského prostoru</entry>
+<entry key="codelist|name|eed-scope">Tato tabulka poskytuje seznam kódů a hodnot používaných k označení, že zadávání veřejných zakázek spadá do působnosti směrnice o energetické účinnosti</entry>
 <entry key="codelist|name|einvoicing">Seznam kódů specifikujících, zda je povolena elektronická fakturace, či nikoli</entry>
+<entry key="codelist|name|energy-efficiency-basis">Právní rámec pro položky, jako jsou delegované akty pro energetické štítkování, prováděcí opatření (směrnice 2009/125/ES) nebo nařízení 2020/740; produkty a služby pokryté GPP; práce, služby nebo budovy</entry>
+<entry key="codelist|name|energy-efficiency-item">Produkty pokryté delegovanými akty pro energetické štítkování, prováděcími opatřeními (směrnice 2009/125/ES) nebo nařízením 2020/740; produkty a služby pokryté GPP; práce, služby nebo budovy</entry>
+<entry key="codelist|name|energy-efficiency-label">Tato tabulka poskytuje seznam kódů a hodnot používaných k určení energetické účinnosti produktu</entry>
 <entry key="codelist|name|entity-activity">Seznam kódů hlavních činností povolených pro zadavatele</entry>
 <entry key="codelist|name|environmental-impact">V této tabulce jsou uvedeny informace o tom, zda (a jak) veřejná zakázka zahrnuje přístup ke snížení environmentálních dopadů stavebních prací, dodávek nebo služeb v technických specifikacích, kritériích pro zadání, kritériích pro výběr nebo plnění zakázky</entry>
 <entry key="codelist|name|esignature-submission">Seznam kódů specifikujících, zda lze použít elektronický podpis, či nikoli.</entry>
@@ -56,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Seznam kódů úředních jazyků EU</entry>
 <entry key="codelist|name|eu-programme">Seznam kódů pro programy vytvořené a koordinované Evropskou unií a finančně podporované Evropskou unií nebo v několika případech příspěvky členských států</entry>
 <entry key="codelist|name|exclusion-ground">Seznam kódů pro identifikaci země pro vyloučení</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR zavádí novou sadu pravidel, která umožňují Komisi řešit zkreslení způsobená zahraničními dotacemi.</entry>
 <entry key="codelist|name|form-type">V této tabulce jsou uvedeny kódy a hodnoty použité pro typ formulářů zveřejněných na portálu TED</entry>
 <entry key="codelist|name|framework-agreement">V této tabulce je uveden seznam kódů pro rozlišení různých typů rámcových dohod, jichž se nabídkové řízení týká.</entry>
 <entry key="codelist|name|gpp-criteria">Kritéria pro zelené veřejné zakázky</entry>
 <entry key="codelist|name|indicator">Seznam povolených hodnot indikátorů v elektronických formulářích</entry>
 <entry key="codelist|name|innovative-acquisition">V této tabulce jsou uvedeny kódy a hodnoty používané u typů inovativních stavebních prací, dodávek nebo služeb pořizovaných v rámci zadávání veřejných zakázek.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Tato tabulka poskytuje seznam kódů a hodnot používaných k určení výjimky z aplikace opatření IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Tato tabulka poskytuje seznam kódů a hodnot používaných k určení aplikovaného opatření IPI</entry>
 <entry key="codelist|name|irregularity-type">Tento seznam kódů obecně odkazuje na druhy nesrovnalostí popsané v oddíle 2 přílohy rozhodnutí Komise C(2019) 3452.</entry>
 <entry key="codelist|name|language">Seznam třímístných kódů jazyků odpovídajících mezinárodní normě ISO 3166 a doplňkových kódů orgánů pro některé jazyky bez přiděleného kódu ISO</entry>
 <entry key="codelist|name|lawful-country">Seznam zemí, pro které existuje právní základ pro zveřejnění v Dodatku k Úřednímu věstníku Evropské unie</entry>
@@ -121,7 +128,7 @@
 <entry key="codelist|name|measurement-unit">Seznam kódů nejběžněji používaných měrných jednotek v mezinárodním obchodě</entry>
 <entry key="codelist|name|missing-info-submission">V této tabulce je uveden seznam kódů, které uvádějí, zda lze informace týkající se uchazeče (úplné nebo částečné) doplnit i po uplynutí lhůty pro podání nabídky.</entry>
 <entry key="codelist|name|modification-justification">Tato tabulka uvádí hlavní důvody pro změnu smlouvy v oblasti zadávání veřejných zakázek.</entry>
-<entry key="codelist|name|nda">Seznam kódů specifikujících, zda se požaduje dohoda o zachování mlčenlivostij, či nikoli</entry>
+<entry key="codelist|name|nda">Seznam kódů specifikujících, zda se požaduje dohoda o zachování mlčenlivostij, či nikoli</entry>
 <entry key="codelist|name|no-esubmission-justification">Seznam kódů odůvodnění, proč není elektronické podání možné</entry>
 <entry key="codelist|name|non-award-justification">V této tabulce je uveden seznam důvodů kupujícího, proč v zadávacím řízení nebyl vybrán vítěz.</entry>
 <entry key="codelist|name|non-publication-identifier">Seznam kódů určujících informace, které se budou zveřejňovat později</entry>

@@ -46,7 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Elenco dei codici per specificare se la presentazione sotto forma di catalogo elettronico è consentita o meno.</entry>
 <entry key="codelist|name|economic-operator-size">La tabella indica le diverse categorie in cui gli offerenti cui può essere aggiudicato un appalto sono classificati in base alle loro dimensioni (utilizzando come criterio il numero di dipendenti).</entry>
 <entry key="codelist|name|eea-country">Elenco dei codici dei paesi dello Spazio economico europeo</entry>
+<entry key="codelist|name|eed-scope">Questa tabella fornisce l'elenco dei codici e dei valori utilizzati per indicare che un acquisto rientra nell'ambito della Direttiva sull'efficienza energetica</entry>
 <entry key="codelist|name|einvoicing">Elenco dei codici per specificare se la fatturazione elettronica è consentita o meno.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Quadro giuridico per gli elementi, come gli atti delegati per l'etichettatura energetica, le misure di attuazione (Direttiva 2009/125/CE) o il Regolamento 2020/740; prodotti e servizi coperti dal GPP; lavori, servizi o edifici</entry>
+<entry key="codelist|name|energy-efficiency-item">Prodotti coperti dagli atti delegati per l'etichettatura energetica, le misure di attuazione (Direttiva 2009/125/CE) o il Regolamento 2020/740; prodotti e servizi coperti dal GPP; lavori, servizi o edifici</entry>
+<entry key="codelist|name|energy-efficiency-label">Questa tabella fornisce l'elenco dei codici e dei valori utilizzati per specificare l'efficienza energetica del prodotto</entry>
 <entry key="codelist|name|entity-activity">Elenco dei codici delle attività principali consentite per un ente aggiudicatore</entry>
 <entry key="codelist|name|environmental-impact">La tabella indica se un appalto comprende o meno (e in che modo) un approccio volto a ridurre l'impatto ambientale dei lavori, della fornitura o del servizio utilizzato nelle specifiche tecniche, nei criteri di aggiudicazione, nei criteri di selezione o nell'esecuzione del contratto.</entry>
 <entry key="codelist|name|esignature-submission">Elenco dei codici per specificare se la firma elettronica è consentita o meno.</entry>
@@ -56,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Elenco dei codici delle lingue ufficiali dell'UE</entry>
 <entry key="codelist|name|eu-programme">Elenco dei codici dei programmi creati e coordinati dall'Unione europea e sostenuti dai suoi finanziamenti o, in alcuni casi, dai contributi degli Stati membri.</entry>
 <entry key="codelist|name|exclusion-ground">Elenco dei codici per l'identificazione del motivo di esclusione</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">L'FSR introduce un nuovo insieme di regole che consente alla Commissione di affrontare le distorsioni causate dai sussidi esteri.</entry>
 <entry key="codelist|name|form-type">La tabella riporta i codici e i valori utilizzati per il tipo di moduli pubblicati su TED.</entry>
 <entry key="codelist|name|framework-agreement">La tabella fornisce l'elenco dei codici per distinguere i diversi tipi di accordo quadro previsti nell'ambito di un'offerta.</entry>
 <entry key="codelist|name|gpp-criteria">Criteri degli appalti pubblici verdi</entry>
 <entry key="codelist|name|indicator">Elenco dei valori degli indicatori consentiti nei formulari elettronici</entry>
 <entry key="codelist|name|innovative-acquisition">La tabella fornisce codici e valori usati per lavori, forniture o servizi di tipo innovativo acquistati nell'ambito di un appalto pubblico.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Questa tabella fornisce l'elenco dei codici e dei valori utilizzati per specificare l'eccezione all'applicazione della misura IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Questa tabella fornisce l'elenco dei codici e dei valori utilizzati per specificare la misura IPI applicata</entry>
 <entry key="codelist|name|irregularity-type">L'elenco di codici si riferisce in generale ai tipi di irregolarità descritti nella sezione 2 dell'allegato della decisione C(2019) 3452 della Commissione.</entry>
 <entry key="codelist|name|language">Elenco dei codici a tre caratteri delle lingue, correlati alla norma internazionale ISO 639, con codici aggiuntivi per alcune lingue senza codice ISO assegnato.</entry>
 <entry key="codelist|name|lawful-country">Elenco dei paesi per i quali esiste una base giuridica per la pubblicazione nel supplemento della Gazzetta ufficiale dell'Unione europea</entry>
