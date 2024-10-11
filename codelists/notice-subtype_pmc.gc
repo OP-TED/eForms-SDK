@@ -127,8 +127,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E1</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доброволно обявление за предпазарна консултация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dobrovolné oznámení o předběžné tržní konzultaci</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Frivillig meddelelse om høring forud for markedsføring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Bekanntmachung über vorherige Marktkonsultation</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθελοντική γνωστοποίηση προκαταρκτικής διαβούλευσης με την αγορά</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Voluntary Pre-market Consultation Notice</SimpleValue>
+            <SimpleValue>Voluntary pre-market consultation notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio voluntario de consulta previa a la introducción en el mercado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik hanke-eelne turu-uuring</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis volontaire de consultation avant marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dobrovolný fógra comhairliúcháin réamh-mhargaidh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dobrovoljna obavijest o prethodnoj provjeri tržišta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes piaci konzultációt megelőző hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario di consultazione preliminare di mercato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas skelbimas apie rinkos konsultacijas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrijwillige aankondiging van voorafgaande marktconsultatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de consulta preliminar do mercado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț voluntar de consultare înainte de introducerea pe piață</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dobrovoľné oznámenie o predbežnej trhovej konzultácii</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dobrovoljno obvestilo o predhodnem preverjanju trga</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Frivilligt meddelande om förberedande marknadssamråd</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

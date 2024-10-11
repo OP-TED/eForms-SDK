@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.420",
-    "createdOn" : "2024-10-09T17:06:05"
+    "version" : "1.12.427",
+    "createdOn" : "2024-10-10T17:26:02"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -348,13 +348,13 @@
     "id" : "energy-efficiency-basis",
     "version" : "1.0",
     "filename" : "energy-efficiency-basis.gc",
-    "description" : "Legal Framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.",
+    "description" : "Legal framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings",
     "_label" : "codelist|name|energy-efficiency-basis"
   }, {
     "id" : "energy-efficiency-item",
     "version" : "1.0",
     "filename" : "energy-efficiency-item.gc",
-    "description" : "Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.",
+    "description" : "Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings",
     "_label" : "codelist|name|energy-efficiency-item"
   }, {
     "id" : "energy-efficiency-label",
