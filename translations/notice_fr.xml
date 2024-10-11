@@ -43,11 +43,12 @@
 <entry key="notice|name|8">Avis périodique indicatif utilisé pour raccourcir les délais de réception des offres – directive sectorielle</entry>
 <entry key="notice|name|9">Avis de préinformation utilisé pour raccourcir les délais de réception des offres – directive «défense»</entry>
 <entry key="notice|name|CEI">Appel à manifestation d’intérêt</entry>
-<entry key="notice|name|E1">Avis de consultation préalable du marché</entry>
-<entry key="notice|name|E2">Avis de préinformation (PIN) inférieur au seuil uniquement</entry>
-<entry key="notice|name|E3">Avis de marché en dessous du seuil général (NC)</entry>
-<entry key="notice|name|E4">Avis d’attribution de marché inférieur au seuil général (CAN)</entry>
-<entry key="notice|name|E5">Avis d’achèvement du marché</entry>
+<entry key="notice|name|E1">Avis volontaire de consultation avant marché</entry>
+<entry key="notice|name|E2">Avis volontaire de préinformation</entry>
+<entry key="notice|name|E3">Avis volontaire de marché</entry>
+<entry key="notice|name|E4">Avis volontaire d’attribution</entry>
+<entry key="notice|name|E5">Avis volontaire d’achèvement</entry>
+<entry key="notice|name|E6">Avis volontaire de modification du marché</entry>
 <entry key="notice|name|T01">Avis de préinformation relatif à un contrat de service public</entry>
 <entry key="notice|name|T02">Avis d'information relatif à l'attribution d'un contrat de service public</entry>
 <entry key="notice|name|X01">Groupement européen d’intérêt économique</entry>
