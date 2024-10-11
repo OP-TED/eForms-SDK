@@ -2069,8 +2069,8 @@
 <entry key="field|name|BT-555-Tender">Percentage of subcontracting</entry>
 <entry key="field|name|BT-556-NoticeResult">Group framework value lot identifier</entry>
 <entry key="field|name|BT-556-NoticeResult-Scheme">Group framework value lot identifier</entry>
-<entry key="field|name|BT-57-Lot">The buyer reserves the right for additional purchases from the contractor, as described here</entry>
-<entry key="field|name|BT-57-Lot-Language">The buyer reserves the right for additional purchases from the contractor, as described here</entry>
+<entry key="field|name|BT-57-Lot">Other information about renewals</entry>
+<entry key="field|name|BT-57-Lot-Language">Other information about renewals</entry>
 <entry key="field|name|BT-578-Lot">Security clearance is required</entry>
 <entry key="field|name|BT-578-Lot-List">Security clearance is required</entry>
 <entry key="field|name|BT-58-Lot">Maximum renewals</entry>
@@ -2322,13 +2322,13 @@
 <entry key="field|name|BT-804-Review-Scheme">Review technical identifier</entry>
 <entry key="field|name|BT-805-Lot">Green Procurement Criteria</entry>
 <entry key="field|name|BT-805-Lot-List">Green Procurement Criteria</entry>
-<entry key="field|name|BT-806-Procedure">Exclusion Grounds Source</entry>
+<entry key="field|name|BT-806-Procedure">Source of grounds for exclusion</entry>
 <entry key="field|name|BT-806-Procedure-List">Source of grounds for exclusion</entry>
 <entry key="field|name|BT-807-Review">Identifier of review body</entry>
 <entry key="field|name|BT-807-Review-Scheme">Identifier of review body</entry>
 <entry key="field|name|BT-808-Review">Identifier of review applicant</entry>
 <entry key="field|name|BT-808-Review-Scheme">Identifier of review applicant</entry>
-<entry key="field|name|BT-809-Lot">Selection Criteria</entry>
+<entry key="field|name|BT-809-Lot">Selection criteria</entry>
 <entry key="field|name|BT-809-Lot-List">Selection criteria</entry>
 <entry key="field|name|BT-810-Lot">EED applicable</entry>
 <entry key="field|name|BT-810-Lot-List">EED applicable</entry>
@@ -2345,7 +2345,7 @@
 <entry key="field|name|BT-813-LotResult">Energy efficiency consumption in kWh/year</entry>
 <entry key="field|name|BT-814-LotResult">Energy savings in kWh/year</entry>
 <entry key="field|name|BT-815-LotResult">Energy efficiency quantity</entry>
-<entry key="field|name|BT-821-Lot">Selection Criteria Source</entry>
+<entry key="field|name|BT-821-Lot">Source of selection criteria</entry>
 <entry key="field|name|BT-821-Lot-List">Source of selection criteria</entry>
 <entry key="field|name|BT-88-Procedure">Main features of the procedure</entry>
 <entry key="field|name|BT-88-Procedure-Language">Main features of the procedure</entry>
