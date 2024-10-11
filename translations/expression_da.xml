@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Specifik IPI-foranstaltning' (BT-685) er ikke til stede</entry>
 <entry key="expression|name|64">'Rammeaftale er involveret' (BT-765) er en af følgende : 'Rammeaftale delvis uden og delvis med fornyet iværksættelse af konkurrence'; 'Rammeaftale med fornyet iværksættelse af konkurrence'; 'Rammeaftale uden fornyet iværksættelse af konkurrence'; og 'Status for udvælgelse af vinder' (BT-142-LotResult) må ikke være 'Der er udvalgt mindst én vinder.'</entry>
 <entry key="expression|name|640">'Undtagelse fra anvendelsen af IPI-foranstaltningen' (BT-687) er ikke indstillet til 'Tvingende grunde af hensyn til den offentlige interesse'</entry>
+<entry key="expression|name|641">Værdien af 'Udbudsprocedure' (BT-105) er ikke lig med 'Åben' eller 'Anden procedure, der afvikles i to faser'</entry>
+<entry key="expression|name|642">Værdien af 'Udbudsprocedure' (BT-105) er lig med 'Åben', 'Udbud med forhandling uden forudgående offentliggørelse' eller 'Anden procedure, der afvikles i to faser'</entry>
+<entry key="expression|name|643">Værdien af 'Udbudsprocedure' (BT-105) er ikke lig med 'Begrænset', 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse', 'Konkurrencepræget dialog', 'Innovationspartnerskab' eller 'Anden procedure, der afvikles i flere faser'</entry>
+<entry key="expression|name|644">'Udbudsprocedure' (BT-105) værdien er ikke lig med 'Begrænset', 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse', 'Konkurrencepræget dialog', 'Innovationspartnerskab' eller 'Anden procedure, der afvikles i flere faser', og 'Frist for modtagelse af anmodninger om deltagelse' (BT-1311) er ikke til stede</entry>
+<entry key="expression|name|645">'Udbudsprocedure' (BT-105) værdien er ikke lig med 'Begrænset', 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse', 'Konkurrencepræget dialog', 'Innovationspartnerskab' eller 'Anden procedure, der afvikles i flere faser', og 'Frist for modtagelse af interessetilkendegivelser' (BT-630) er ikke til stede</entry>
 <entry key="expression|name|646">'Klage eller afgørelse' (BT-783-Review) er ikke til stede</entry>
 <entry key="expression|name|647">'Klage eller afgørelse' (BT-783-Review) er ikke til stede eller det er ikke 'Afgørelsen er truffet af klageorganet vedrørende den aktuelle anmodning'</entry>
 <entry key="expression|name|648">'Klage eller afgørelse' (BT-783-Review) er ikke til stede, eller det er 'Afgørelsen er truffet af klageorganet vedrørende den aktuelle anmodning' og 'Typen af afgørelse' (BT-790-Review) er hverken 'Accepteret' eller 'Andet'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Klagen er trukket tilbage' (BT-796-Review) er ikke sat til 'ja'</entry>
 <entry key="expression|name|654">'Klage eller afgørelse' (BT-783-Review) er ikke til stede eller det er ikke 'Afgørelsen er truffet af klageorganet vedrørende den aktuelle anmodning' eller anmodningen er trukket tilbage</entry>
 <entry key="expression|name|655">'Type af retsmiddel i afgørelsen' (BT-792-Review) er ikke til stede</entry>
+<entry key="expression|name|656">'Energibesparelser i kWh/år' (BT-814-LotResult) findes ikke</entry>
+<entry key="expression|name|657">Der er ingen partier inden for en rammeaftale</entry>
+<entry key="expression|name|658">Der er ingen rammeaftale, eller det drejer sig om en kontrakt inden for en rammeaftale</entry>
+<entry key="expression|name|659">Ingen rammeaftale er involveret</entry>
 <entry key="expression|name|66">'Status for udvælgelse af vinder' (BT-142-LotResult) er ikke 'Der er udvalgt mindst én vinder.'; 'Teknisk ID på delkontrakt resultatet (RES-XXX)' (OPT-322) er ikke udfyldt</entry>
+<entry key="expression|name|660">'Officielt navn' (BT-500-Organization-Company) eksisterer</entry>
+<entry key="expression|name|661">'Organisationens tekniske ID (ORG-XXX)'(OPT-200-Organization-Company) er en 'Organisationen, der udfylder denne rolle' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Underentreprise' (BT-773-Tender) er ikke 'Ja'</entry>
 <entry key="expression|name|68">'Underentrepriseværdien er kendt' (BT-730-Tender) er ikke 'ja'</entry>
 <entry key="expression|name|69">'Underentreprise' (BT-773-Tender) er ikke 'Ja'</entry>

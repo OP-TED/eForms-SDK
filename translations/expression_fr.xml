@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Mesure spécifique de l'IPI' (BT-685) n'est pas présent</entry>
 <entry key="expression|name|64">'Il s’agit d’un accord-cadre' (BT-765) est l’un des éléments suivants: 'Accord-cadre, en partie sans remise en concurrence et en partie avec remise en concurrence'; 'Accord-cadre, avec remise en concurrence'; 'Accord-cadre, sans remise en concurrence'; et 'Statut sélection lauréat' (BT-142-LotResult) ne doit pas être 'Au moins un lauréat a été choisi.'</entry>
 <entry key="expression|name|640">'Exception à l'application de la mesure IPI' (BT-687) n'est pas réglé sur 'Raisons impérieuses d'intérêt public'</entry>
+<entry key="expression|name|641">La valeur de 'Type de procédure' (BT-105) n'est pas égale à 'Ouverte' ou 'Autre procédure en une seule étape'</entry>
+<entry key="expression|name|642">La valeur de 'Type de procédure' (BT-105) est égale à 'Ouverte', 'Négociée sans mise en concurrence préalable' ou 'Autre procédure en une seule étape'</entry>
+<entry key="expression|name|643">La valeur de 'Type de procédure' (BT-105) n'est pas égale à 'Restreinte', 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', 'Dialogue compétitif', 'Partenariat d’innovation' ou 'Autre procédure en plusieurs étapes'</entry>
+<entry key="expression|name|644">'Type de procédure' (BT-105) la valeur n'est pas égale à 'Restreinte', 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', 'Dialogue compétitif', 'Partenariat d’innovation' ou 'Autre procédure en plusieurs étapes', et 'Date limite de réception des demandes de participation' (BT-1311) n'est pas présent</entry>
+<entry key="expression|name|645">'Type de procédure' (BT-105) la valeur n'est pas égale à 'Restreinte', 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', 'Dialogue compétitif', 'Partenariat d’innovation' ou 'Autre procédure en plusieurs étapes', et 'Date limite de réception des manifestations d’intérêt' (BT-630) n'est pas présent</entry>
 <entry key="expression|name|646">'Demande ou décision de réexamen' (BT-783-Review) n'est pas présent</entry>
 <entry key="expression|name|647">'Demande ou décision de réexamen' (BT-783-Review) n'est pas présent ou ce n'est pas 'La décision a été prise par l'organisme de révision concernant la demande actuelle'</entry>
 <entry key="expression|name|648">'Demande ou décision de réexamen' (BT-783-Review) n'est pas présent ou il est 'La décision a été prise par l'organisme de révision concernant la demande actuelle' et 'Type de décision du réexamen' (BT-790-Review) n'est ni 'Accepté' ni 'Autre'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Demande de réexamen retirée' (BT-796-Review) n'est pas réglé sur 'oui'</entry>
 <entry key="expression|name|654">'Demande ou décision de réexamen' (BT-783-Review) n'est pas présent ou il n'est pas 'La décision a été prise par l'organisme de révision concernant la demande actuelle' ou la demande a été retirée</entry>
 <entry key="expression|name|655">'Type de mesure corrective du réexamen' (BT-792-Review) n'est pas présent</entry>
+<entry key="expression|name|656">'Économies d'énergie en kWh/an' (BT-814-LotResult) n'existe pas</entry>
+<entry key="expression|name|657">Il n'y a pas de lots dans un accord-cadre</entry>
+<entry key="expression|name|658">Il n'existe pas d'accord-cadre ou il s'agit d'un contrat dans le cadre d'un accord-cadre</entry>
+<entry key="expression|name|659">Aucun accord-cadre n'est impliqué</entry>
 <entry key="expression|name|66">'Statut sélection lauréat' (BT-142-LotResult) n’est pas 'Au moins un lauréat a été choisi.'; 'ID technique du résultat du lot (RES-XXX)' (OPT-322) n’est pas rempli</entry>
+<entry key="expression|name|660">'Nom officiel' (BT-500-Organization-Company) existe</entry>
+<entry key="expression|name|661">'ID technique de l'organisation (ORG-XXX)'(OPT-200-Organization-Company) est un 'Organisation remplissant ce rôle' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Sous-traitance' (BT-773-Tender) n’est pas 'Oui'</entry>
 <entry key="expression|name|68">'La valeur de la sous-traitance est connue' (BT-730-Tender) n’est pas 'oui'</entry>
 <entry key="expression|name|69">'Sous-traitance' (BT-773-Tender) n’est pas 'Oui'</entry>

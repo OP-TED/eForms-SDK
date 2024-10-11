@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Miżura speċifika IPI' (BT-685) mhux preżenti</entry>
 <entry key="expression|name|64">'Involut ftehim qafas' (BT-765) huwa wieħed minn dawn li ġejjin: 'Ftehim qafas, parzjalment mingħajr ma terġa’ tinfetaħ il-kompetizzjoni u parzjalment billi terġa’ tinfetaħ il-kompetizzjoni'; 'Ftehim qafas, billi terġa’ tinfetaħ il-kompetizzjoni'; 'Ftehim qafas, mingħajr ma terġa’ tinfetaħ il-kompetizzjoni'; u 'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) ma għandux ikun 'Intgħażel minn tal-inqas rebbieħ wieħed.'</entry>
 <entry key="expression|name|640">'Eċċezzjoni mill-applikazzjoni tal-miżura IPI' (BT-687) mhux imsejjah għal 'Raġunijiet prevalenti relatati mal-interess pubbliku'</entry>
+<entry key="expression|name|641">'Tip ta’ proċedura' (BT-105) valur mhujiex ugwali għal 'Miftuħa' jew 'Proċedura oħra bi stadju wieħed'</entry>
+<entry key="expression|name|642">'Tip ta’ proċedura' (BT-105) valur hi ugwali għal 'Miftuħa', 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni' jew 'Proċedura oħra bi stadju wieħed'</entry>
+<entry key="expression|name|643">'Tip ta’ proċedura' (BT-105) valur mhujiex ugwali għal 'Ristretta', 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar', 'Djalogu kompetittiv', 'Sħubija għall-innovazzjoni' jew 'Proċedura oħra b’diversi stadji'</entry>
+<entry key="expression|name|644">'Tip ta’ proċedura' (BT-105) il-valur mhux ugwali għal 'Ristretta', 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar', 'Djalogu kompetittiv', 'Sħubija għall-innovazzjoni' jew 'Proċedura oħra b’diversi stadji', u 'Skadenza biex jintlaqgħu t-talbiet għall-parteċipazzjoni' (BT-1311) mhux preżenti</entry>
+<entry key="expression|name|645">'Tip ta’ proċedura' (BT-105) il-valur mhux ugwali għal 'Ristretta', 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar', 'Djalogu kompetittiv', 'Sħubija għall-innovazzjoni' jew 'Proċedura oħra b’diversi stadji', u 'Skadenza biex jintlaqgħu l-espressjonijiet ta’ interess' (BT-630) mhux preżenti</entry>
 <entry key="expression|name|646">'Talba jew deċiżjoni għal rieżami' (BT-783-Review) mhux preżenti</entry>
 <entry key="expression|name|647">'Talba jew deċiżjoni għal rieżami' (BT-783-Review) mhux preżenti jew ma jkunx 'Id-deċiżjoni ġiet magħmula mill-organ ta' reviżjoni dwar it-talba attwali'</entry>
 <entry key="expression|name|648">'Talba jew deċiżjoni għal rieżami' (BT-783-Review) ma jkunx preżenti jew huwa 'Id-deċiżjoni ġiet magħmula mill-organ ta' reviżjoni dwar it-talba attwali' u 'Tip ta’ deċiżjoni tar-rieżami' (BT-790-Review) ma jkunx 'Aċċettata' jew 'Oħrajn'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Talba għal rieżami rtirata' (BT-796-Review) mhux settjat għal 'iva'</entry>
 <entry key="expression|name|654">'Talba jew deċiżjoni għal rieżami' (BT-783-Review) ma jeżżistx jew ma huwiex 'Id-deċiżjoni ġiet magħmula mill-organ ta' reviżjoni dwar it-talba attwali' jew it-talba ġiet ritirata</entry>
 <entry key="expression|name|655">'Tip ta’ rimedju tar-rieżami' (BT-792-Review) ma jeżżistx</entry>
+<entry key="expression|name|656">'Salvatur enerġija f'kWh/sena' (BT-814-LotResult) ma jeħdimx</entry>
+<entry key="expression|name|657">M'għandniex ħafna ftehim ta' qafas</entry>
+<entry key="expression|name|658">M'għandniex ftehim ta' qafas jew huwa dwar kuntratt fi ħdan ftehim ta' qafas</entry>
+<entry key="expression|name|659">M'għandniex involut ftehim ta' qafas</entry>
 <entry key="expression|name|66">'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) mhuwiex 'Intgħażel minn tal-inqas rebbieħ wieħed.'; 'ID tekniku tar-riżultat tal-lott (RES-XXX)' (OPT-322) mhuwiex mimli</entry>
+<entry key="expression|name|660">'Isem uffiċjali' (BT-500-Organization-Company) jeżżisti</entry>
+<entry key="expression|name|661">'ID tekniku tal-organizzazzjoni (ORG-XXX)'(OPT-200-Organization-Company) hija 'Organizzazzjoni li twettaq din ir-rwol' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Sottokuntrattar' (BT-773-Tender) mhuwiex 'Iva'</entry>
 <entry key="expression|name|68">'Il-valur tas-sottokuntrattar hu magħruf' (BT-730-Tender) mhuwiex 'iva'</entry>
 <entry key="expression|name|69">'Sottokuntrattar' (BT-773-Tender) mhuwiex 'Iva'</entry>

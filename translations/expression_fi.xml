@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Erityinen IPI-toimenpide' (BT-685) ei ole läsnä</entry>
 <entry key="expression|name|64">'Käytetään puitejärjestelyä' (BT-765) on jokin seuraavista: 'Puitejärjestely, johon liittyy osittainen uudelleen kilpailuttaminen', 'Puitejärjestely, johon liittyy uudelleen kilpailuttaminen', 'Puitejärjestely, johon ei liity uudelleen kilpailuttamista', ja 'Voittajan valinnan tila' (BT-142-LotResult) ei saa olla 'Vähintään yksi voittaja valittu.'</entry>
 <entry key="expression|name|640">'Poikkeus IPI-toimenpiteen soveltamisesta' (BT-687) ei ole asetettu 'Julkisen edun kannalta pakottavat syyt'</entry>
+<entry key="expression|name|641">'Menettelyn tyyppi' (BT-105) arvo ei ole yhtä suuri kuin 'Avoin' tai 'Muu yksivaiheinen menettely'</entry>
+<entry key="expression|name|642">'Menettelyn tyyppi' (BT-105) arvo on yhtä suuri kuin 'Avoin', 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua' tai 'Muu yksivaiheinen menettely'</entry>
+<entry key="expression|name|643">'Menettelyn tyyppi' (BT-105) arvo ei ole yhtä suuri kuin 'Rajoitettu', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus' tai 'Muu monivaiheinen menettely'</entry>
+<entry key="expression|name|644">'Menettelyn tyyppi' (BT-105) arvo ei ole yhtä suuri kuin 'Rajoitettu', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus' tai 'Muu monivaiheinen menettely', ja 'Osallistumishakemusten vastaanottamisen määräaika' (BT-1311) ei ole läsnä</entry>
+<entry key="expression|name|645">'Menettelyn tyyppi' (BT-105) arvo ei ole yhtä suuri kuin 'Rajoitettu', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus' tai 'Muu monivaiheinen menettely', ja 'Kiinnostuksenilmaisujen vastaanottamisen määräaika' (BT-630) ei ole läsnä</entry>
 <entry key="expression|name|646">'Muutoksenhakupyyntö tai päätös' (BT-783-Review) ei ole läsnä</entry>
 <entry key="expression|name|647">'Muutoksenhakupyyntö tai päätös' (BT-783-Review) ei ole läsnä tai se ei ole 'Päätös on tehty tarkastuselimen toimesta koskien nykyistä pyyntöä'</entry>
 <entry key="expression|name|648">'Muutoksenhakupyyntö tai päätös' (BT-783-Review) ei ole läsnä tai se on 'Päätös on tehty tarkastuselimen toimesta koskien nykyistä pyyntöä' ja 'Muutoksenhaun ratkaisun tyyppi' (BT-790-Review) ei ole kumpikaan 'Hyväksytty' eikä 'Muu'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Muutoksenhakupyynnön peruminen' (BT-796-Review) ei ole asetettu 'kyllä'</entry>
 <entry key="expression|name|654">'Muutoksenhakupyyntö tai päätös' (BT-783-Review) ei ole läsnä tai se ei ole 'Päätös on tehty tarkastuselimen toimesta koskien nykyistä pyyntöä' tai pyyntö on peruutettu</entry>
 <entry key="expression|name|655">'Muutoksenhaun korjaustoimenpiteen tyyppi' (BT-792-Review) ei ole läsnä</entry>
+<entry key="expression|name|656">'Energiansäästöt kWh/vuodessa' (BT-814-LotResult) ei ole olemassa</entry>
+<entry key="expression|name|657">Puitesopimuksessa ei ole osin</entry>
+<entry key="expression|name|658">Ei ole puitesopimusta tai kyse on sopimuksesta puitesopimuksen puitteissa</entry>
+<entry key="expression|name|659">Ei ole mukana puitesopimusta</entry>
 <entry key="expression|name|66">'Voittajan valinnan tila' (BT-142-LotResult) ei ole 'Vähintään yksi voittaja valittu.'; 'Erän tuloksen tekninen tunnus (RES-XXX)' (OPT-322) ei ole täytetty</entry>
+<entry key="expression|name|660">'Virallinen nimi' (BT-500-Organization-Company) on olemassa</entry>
+<entry key="expression|name|661">'Organisaation tekninen ID (ORG-XXX)'(OPT-200-Organization-Company) on 'Organisaatio, joka täyttää tämän roolin' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>
 <entry key="expression|name|68">'Alihankinnan arvo tiedossa' (BT-730-Tender) ei ole 'kyllä'</entry>
 <entry key="expression|name|69">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>

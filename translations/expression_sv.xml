@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Specifik IPI-åtgärd' (BT-685) finns inte</entry>
 <entry key="expression|name|64">'Det gäller ett ramavtal' (BT-765) är ett av följande: 'Ramavtal delvis utan och delvis med förnyad konkurrensutsättning'; 'Ramavtal med förnyad konkurrensutsättning'; 'Ramavtal utan förnyad konkurrensutsättning'; och 'Status på val av vinnare' (BT-142-LotResult) får inte vara 'Minst en vinnare valdes.'</entry>
 <entry key="expression|name|640">'Undantag från tillämpningen av IPI-åtgärden' (BT-687) är inte inställt på 'Tvingande skäl relaterade till allmänintresset'</entry>
+<entry key="expression|name|641">Värdet på 'Typ av förfarande' (BT-105) är inte lika med 'Öppet' eller 'Annat förfarande i ett steg'</entry>
+<entry key="expression|name|642">Värdet på 'Typ av förfarande' (BT-105) är lika med 'Öppet', 'Förhandlat förfarande utan föregående meddelande om upphandling' eller 'Annat förfarande i ett steg'</entry>
+<entry key="expression|name|643">Värdet på 'Typ av förfarande' (BT-105) är inte lika med 'Selektivt', 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens', 'Konkurrenspräglad dialog', 'Innovationspartnerskap' eller 'Annat förfarande i flera steg'</entry>
+<entry key="expression|name|644">'Typ av förfarande' (BT-105) värde är inte lika med 'Selektivt', 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens', 'Konkurrenspräglad dialog', 'Innovationspartnerskap' eller 'Annat förfarande i flera steg', och 'Tidsfrist för mottagande av anbudsansökningar' (BT-1311) finns inte</entry>
+<entry key="expression|name|645">'Typ av förfarande' (BT-105) värde är inte lika med 'Selektivt', 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens', 'Konkurrenspräglad dialog', 'Innovationspartnerskap' eller 'Annat förfarande i flera steg', och 'Tidsfrist för mottagande av intresseanmälningar' (BT-630) finns inte</entry>
 <entry key="expression|name|646">'Ansökningar om prövning eller beslut' (BT-783-Review) finns inte</entry>
 <entry key="expression|name|647">'Ansökningar om prövning eller beslut' (BT-783-Review) finns inte eller det är inte 'Beslut har fattats av granskningsorganet angående den aktuella begäran'</entry>
 <entry key="expression|name|648">'Ansökningar om prövning eller beslut' (BT-783-Review) finns inte eller är 'Beslut har fattats av granskningsorganet angående den aktuella begäran' och 'Typ av beslut om prövning' (BT-790-Review) är varken 'Bifall' eller 'Annat'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Ansökan om prövning återkallad' (BT-796-Review) är inte inställd på 'ja'</entry>
 <entry key="expression|name|654">'Ansökningar om prövning eller beslut' (BT-783-Review) är inte närvarande eller är inte 'Beslut har fattats av granskningsorganet angående den aktuella begäran' eller begäran har dragits tillbaka</entry>
 <entry key="expression|name|655">'Prövningens typ av rättsmedel' (BT-792-Review) är inte närvarande</entry>
+<entry key="expression|name|656">'Energibesparing i kWh/år' (BT-814-LotResult) finns inte</entry>
+<entry key="expression|name|657">Det finns inga tomter inom ett ramavtal</entry>
+<entry key="expression|name|658">Det finns ingen ramavtal eller det handlar om ett kontrakt inom ett ramavtal</entry>
+<entry key="expression|name|659">Inget ramavtal är inblandat</entry>
 <entry key="expression|name|66">'Status på val av vinnare' (BT-142-LotResult) är inte 'Minst en vinnare valdes.'; 'Tekniskt ID för partiresultatet (RES-XXX)' (OPT-322) fylls inte i</entry>
+<entry key="expression|name|660">'Officiellt namn' (BT-500-Organization-Company) finns</entry>
+<entry key="expression|name|661">'Tekniskt ID för organisationen (ORG-XXX)'(OPT-200-Organization-Company) är en 'Organisationen som utför denna roll'</entry>
 <entry key="expression|name|67">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>
 <entry key="expression|name|68">'Värdet på underentreprenaden är känt' (BT-730-Tender) är inte 'ja'</entry>
 <entry key="expression|name|69">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>

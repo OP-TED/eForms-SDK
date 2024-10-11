@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Konkretny środek IPI' (BT-685) nie jest obecny</entry>
 <entry key="expression|name|64">'Stosuje się umowę ramową' (BT-765) jest jednym z następujących: 'Umowa ramowa, częściowo bez ponownego poddania, a częściowo z ponownym poddaniem zamówienia procedurze konkurencyjnej'; 'Umowa ramowa, z ponownym poddaniem zamówienia procedurze konkurencyjnej'; 'Umowa ramowa, bez ponownego poddania zamówienia procedurze konkurencyjnej'; a 'Status wyboru zwycięzcy' (BT-142-LotResult) nie może być 'Wyłoniono co najmniej jednego zwycięzcę.'</entry>
 <entry key="expression|name|640">'Wyjątek od stosowania środka IPI' (BT-687) nie jest ustawiony na 'Nadrzędne powody związane z interesem publicznym'</entry>
+<entry key="expression|name|641">Wartość 'Rodzaj procedury' (BT-105) nie jest równa 'Otwarta' lub 'Inna procedura jednoetapowa'</entry>
+<entry key="expression|name|642">Wartość 'Rodzaj procedury' (BT-105) jest równa 'Otwarta', 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie' lub 'Inna procedura jednoetapowa'</entry>
+<entry key="expression|name|643">Wartość 'Rodzaj procedury' (BT-105) nie jest równa 'Ograniczona', 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami', 'Dialog konkurencyjny', 'Partnerstwo innowacyjne' lub 'Inna procedura wieloetapowa'</entry>
+<entry key="expression|name|644">'Rodzaj procedury' (BT-105) wartość nie jest równa 'Ograniczona', 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami', 'Dialog konkurencyjny', 'Partnerstwo innowacyjne' lub 'Inna procedura wieloetapowa', a 'Termin składania wniosków o dopuszczenie do udziału' (BT-1311) nie jest obecny</entry>
+<entry key="expression|name|645">'Rodzaj procedury' (BT-105) wartość nie jest równa 'Ograniczona', 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami', 'Dialog konkurencyjny', 'Partnerstwo innowacyjne' lub 'Inna procedura wieloetapowa', a 'Termin wyrażenia zainteresowania' (BT-630) nie jest obecny</entry>
 <entry key="expression|name|646">'Odwołanie lub decyzja' (BT-783-Review) nie jest obecny</entry>
 <entry key="expression|name|647">'Odwołanie lub decyzja' (BT-783-Review) nie jest obecny lub nie jest 'Decyzja została podjęta przez organ przeglądający w sprawie bieżącego wniosku'</entry>
 <entry key="expression|name|648">'Odwołanie lub decyzja' (BT-783-Review) nie jest obecny lub jest 'Decyzja została podjęta przez organ przeglądający w sprawie bieżącego wniosku' a 'Odwołanie - Decyzja - Rodzaj' (BT-790-Review) nie jest ani 'Uwzględniono' ani 'Inne'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Odwołanie – Wycofanie' (BT-796-Review) nie jest ustawiony na 'tak'</entry>
 <entry key="expression|name|654">'Odwołanie lub decyzja' (BT-783-Review) nie jest obecny lub nie jest 'Decyzja została podjęta przez organ przeglądający w sprawie bieżącego wniosku' lub wniosek został wycofany</entry>
 <entry key="expression|name|655">'Odwołanie - Środek odwoławczy - Rodzaj' (BT-792-Review) nie jest obecny</entry>
+<entry key="expression|name|656">'Oszczędność energii w kWh/rok' (BT-814-LotResult) nie istnieje</entry>
+<entry key="expression|name|657">Nie ma działek w ramach umowy ramowej</entry>
+<entry key="expression|name|658">Nie ma umowy ramowej lub chodzi o umowę w ramach umowy ramowej</entry>
+<entry key="expression|name|659">Nie jest zaangażowana umowa ramowa</entry>
 <entry key="expression|name|66">'Status wyboru zwycięzcy' (BT-142-LotResult) nie jest 'Wyłoniono co najmniej jednego zwycięzcę.'; 'Techniczne ID wyniku partii (RES-XXX)' (OPT-322) nie jest wypełnione</entry>
+<entry key="expression|name|660">'Oficjalna nazwa' (BT-500-Organization-Company) istnieje</entry>
+<entry key="expression|name|661">'Techniczne ID organizacji (ORG-XXX)'(OPT-200-Organization-Company) to 'Organizacja pełniąca tę rolę' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>
 <entry key="expression|name|68">'Podwykonawstwo - Wartość jest znana' (BT-730-Tender) nie jest 'tak'</entry>
 <entry key="expression|name|69">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>

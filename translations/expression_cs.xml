@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Specifické opatření IPI' (BT-685) není přítomen</entry>
 <entry key="expression|name|64">'Je použita rámcová dohoda' (BT-765) je jedním z následujících: 'Rámcová dohoda kombinující postup bez obnovení soutěže s obnovením soutěže'; 'Rámcová dohoda s obnovením soutěže'; 'Rámcová dohoda bez obnovení soutěže'; a 'Stav výběru vítěze' (BT-142-LotResult) nesmí být 'Byl vybrán alespoň jeden vítěz.'</entry>
 <entry key="expression|name|640">'Výjimka z uplatnění opatření IPI' (BT-687) není nastaven na 'Převažující důvody týkající se veřejného zájmu'</entry>
+<entry key="expression|name|641">Hodnota 'Typ řízení' (BT-105) není rovna 'Otevřené' nebo 'Jiné jednofázové řízení'</entry>
+<entry key="expression|name|642">Hodnota 'Typ řízení' (BT-105) je rovna 'Otevřené', 'Jednací řízení bez uveřejnění' nebo 'Jiné jednofázové řízení'</entry>
+<entry key="expression|name|643">Hodnota 'Typ řízení' (BT-105) není rovna 'Užší', 'Jednací řízení s uveřejněním / jednací řízení', 'Soutěžní dialog', 'Inovační partnerství' nebo 'Jiné vícefázové řízení'</entry>
+<entry key="expression|name|644">'Typ řízení' (BT-105) hodnota není rovna 'Užší', 'Jednací řízení s uveřejněním / jednací řízení', 'Soutěžní dialog', 'Inovační partnerství' nebo 'Jiné vícefázové řízení', a 'Lhůta pro doručení žádostí o účast' (BT-1311) není přítomen</entry>
+<entry key="expression|name|645">'Typ řízení' (BT-105) hodnota není rovna 'Užší', 'Jednací řízení s uveřejněním / jednací řízení', 'Soutěžní dialog', 'Inovační partnerství' nebo 'Jiné vícefázové řízení', a 'Lhůta pro doručení vyjádření zájmu' (BT-630) není přítomen</entry>
 <entry key="expression|name|646">'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen</entry>
 <entry key="expression|name|647">'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen nebo není 'Rozhodnutí bylo přijato kontrolním orgánem ohledně aktuálního požadavku'</entry>
 <entry key="expression|name|648">'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen nebo je 'Rozhodnutí bylo přijato kontrolním orgánem ohledně aktuálního požadavku' a 'Přezkum – druh rozhodnutí' (BT-790-Review) není ani 'Přijat' ani 'Jiné'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Přezkum – žádost stažena' (BT-796-Review) není nastaven na 'ano'</entry>
 <entry key="expression|name|654">'Žádost o přezkum nebo rozhodnutí' (BT-783-Review) není přítomen nebo není 'Rozhodnutí bylo přijato kontrolním orgánem ohledně aktuálního požadavku' nebo byla žádost stáhnuta</entry>
 <entry key="expression|name|655">'Přezkum – druh nápravného opatření' (BT-792-Review) není přítomen</entry>
+<entry key="expression|name|656">'Úspory energie v kWh/ročně' (BT-814-LotResult) neexistuje</entry>
+<entry key="expression|name|657">Nejsou žádné pozemky v rámci rámcové dohody</entry>
+<entry key="expression|name|658">Neexistuje rámcová dohoda nebo jde o smlouvu v rámci rámcové dohody</entry>
+<entry key="expression|name|659">Nerámcová dohoda není zapojena</entry>
 <entry key="expression|name|66">'Stav výběru vítěze' (BT-142-LotResult) není 'Byl vybrán alespoň jeden vítěz.'; 'Technické ID výsledku dílu (RES-XXX)' (OPT-322) není vyplněn</entry>
+<entry key="expression|name|660">'Oficiální název' (BT-500-Organization-Company) existuje</entry>
+<entry key="expression|name|661">'Technické ID organizace (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizace vykonávající tuto roli' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
 <entry key="expression|name|68">'Hodnota subdodávky je známa' (BT-730-Tender) není 'ano'</entry>
 <entry key="expression|name|69">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>

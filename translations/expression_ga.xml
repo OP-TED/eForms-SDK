@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Beart sonrach IPI' (BT-685) níl sé i láthair</entry>
 <entry key="expression|name|64">Is é 'Tá creat-chomhaontú i gceist' (BT-765) ceann de na cinn a leanas: 'Creat-chomhaontú, gan an iomaíocht a athoscailt go pointe agus maille le hathoscailt na hiomaíochta go pointe'; 'Creat-chomhaontú, maille le hathoscailt na hiomaíochta'; 'Creat-chomhaontú, gan an iomaíocht a athoscailt'; agus ní ceart gurb ionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Roghnaíodh buaiteoir amháin ar a laghad.'</entry>
 <entry key="expression|name|640">'Eisceacht ó chur i bhfeidhm an bheart IPI' (BT-687) níl sé socraithe go 'Cúiseanna forleithne a bhaineann leis an leas poiblí'</entry>
+<entry key="expression|name|641">'An cineál nóis imeachta' (BT-105) luach níl comhoiriúnach le 'Oscailte' nó 'Nós imeachta aonchéime eile'</entry>
+<entry key="expression|name|642">'An cineál nóis imeachta' (BT-105) luach comhoiriúnach le 'Oscailte', 'Idirbheartaíocht lena mbaineann glao roimh ré ar iomaíocht' nó 'Nós imeachta aonchéime eile'</entry>
+<entry key="expression|name|643">'An cineál nóis imeachta' (BT-105) luach níl comhoiriúnach le 'Teoranta', 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht', 'Idirphlé iomaíoch', 'Comhpháirtíocht nuálaíochta' nó 'Nós imeachta ilchéime eile'</entry>
+<entry key="expression|name|644">'An cineál nóis imeachta' (BT-105) luach níl comhoiriúnach le 'Teoranta', 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht', 'Idirphlé iomaíoch', 'Comhpháirtíocht nuálaíochta' nó 'Nós imeachta ilchéime eile', agus 'Spriocdháta chun iarrataí ar rannpháirtíocht a fháil' (BT-1311) níl i láthair</entry>
+<entry key="expression|name|645">'An cineál nóis imeachta' (BT-105) luach níl comhoiriúnach le 'Teoranta', 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht', 'Idirphlé iomaíoch', 'Comhpháirtíocht nuálaíochta' nó 'Nós imeachta ilchéime eile', agus 'Spriocdháta chun léirithe spéise a fháil' (BT-630) níl i láthair</entry>
 <entry key="expression|name|646">'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl sé i láthair</entry>
 <entry key="expression|name|647">'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl sé i láthair nó níl sé 'Tá cinneadh déanta ag an gcomhlacht athbhreithnithe maidir leis an iarratas reatha'</entry>
 <entry key="expression|name|648">'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl ann nó tá sé 'Tá cinneadh déanta ag an gcomhlacht athbhreithnithe maidir leis an iarratas reatha' agus níl 'Cineál cinnidh an athbhreithnithe' (BT-790-Review) ná 'Glactar leis' ná 'Eile'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Tarraingíodh siar an t-iarratas ar athbhreithniú' (BT-796-Review) níl sé socraithe go 'tá'</entry>
 <entry key="expression|name|654">'Iarratas ar athbhreithniú nó cinneadh' (BT-783-Review) níl sé i láthair nó níl sé 'Tá cinneadh déanta ag an gcomhlacht athbhreithnithe maidir leis an iarratas reatha' nó tá an t-iarratas tarraingthe siar</entry>
 <entry key="expression|name|655">'Cineál leighis an athbhreithnithe' (BT-792-Review) níl sé i láthair</entry>
+<entry key="expression|name|656">'Spóráil fuinnimh i kWh/bliain' (BT-814-LotResult) níl sé ann</entry>
+<entry key="expression|name|657">Níl aon ghnóthais laistigh de chomhaontú creatlach</entry>
+<entry key="expression|name|658">Níl aon chomhaontú creatlach ann nó tá sé i gceist le conradh laistigh de chomhaontú creatlach</entry>
+<entry key="expression|name|659">Níl aon chomhaontú creatlach páirteach</entry>
 <entry key="expression|name|66">Ní hionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Roghnaíodh buaiteoir amháin ar a laghad.'; níl 'ID teicniúil torthaí an lochta (RES-XXX)' (OPT-322) líonta isteach</entry>
+<entry key="expression|name|660">'Ainm oifigiúil' (BT-500-Organization-Company) tá ann</entry>
+<entry key="expression|name|661">'ID teicniúil an eagraíochta (ORG-XXX)'(OPT-200-Organization-Company) is 'Eagraíocht atá ag líonadh an róil seo' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">Ní hionann 'Fochonraitheoireacht' (BT-773-Tender) agus 'Is ea'</entry>
 <entry key="expression|name|68">Ní hionann 'Is eol luach na fochonraitheoireachta' (BT-730-Tender) agus 'tá'</entry>
 <entry key="expression|name|69">Ní hionann 'Fochonraitheoireacht' (BT-773-Tender) agus 'Is ea'</entry>

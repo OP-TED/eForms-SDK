@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Specifična mjera IPI' (BT-685) nije prisutan</entry>
 <entry key="expression|name|64">'Primjenjuje se okvirni sporazuma' (BT-765) jedno je od sljedećeg: 'Okvirni sporazum, djelomično bez ponovne provedbe nadmetanja i djelomično s ponovnom provedbom nadmetanja'; 'Okvirni sporazum s ponovnom provedbom nadmetanja'; 'Okvirni sporazum bez ponovne provedbe nadmetanja'; i 'Status odabira pobjednika' (BT-142-LotResult) ne smije biti 'Odabran je najmanje jedan pobjednik.'</entry>
 <entry key="expression|name|640">'Izuzetak od primjene mjere IPI' (BT-687) nije postavljen na 'Pretežiti razlozi koji se odnose na javni interes'</entry>
+<entry key="expression|name|641">Vrijednost 'Vrsta postupka' (BT-105) nije jednaka 'Otvoren' ili 'Ostali postupci od jedne faze'</entry>
+<entry key="expression|name|642">Vrijednost 'Vrsta postupka' (BT-105) jednaka je 'Otvoren', 'Pregovarački bez prethodnog poziva na nadmetanje' ili 'Ostali postupci od jedne faze'</entry>
+<entry key="expression|name|643">Vrijednost 'Vrsta postupka' (BT-105) nije jednaka 'Ograničen', 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore', 'Natjecateljski dijalog', 'Partnerstvo za inovacije' ili 'Ostali postupci u više faza'</entry>
+<entry key="expression|name|644">'Vrsta postupka' (BT-105) vrijednost nije jednaka 'Ograničen', 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore', 'Natjecateljski dijalog', 'Partnerstvo za inovacije' ili 'Ostali postupci u više faza', i 'Rok za primitak zahtjeva za sudjelovanje' (BT-1311) nije prisutan</entry>
+<entry key="expression|name|645">'Vrsta postupka' (BT-105) vrijednost nije jednaka 'Ograničen', 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore', 'Natjecateljski dijalog', 'Partnerstvo za inovacije' ili 'Ostali postupci u više faza', i 'Rok za primitak iskaza interesa' (BT-630) nije prisutan</entry>
 <entry key="expression|name|646">'Zahtjev za pravnu zaštitu (preispitivanje) ili s tim povezana odluka' (BT-783-Review) nije prisutan</entry>
 <entry key="expression|name|647">'Zahtjev za pravnu zaštitu (preispitivanje) ili s tim povezana odluka' (BT-783-Review) nije prisutan ili nije 'Odluka je donesena od strane tijela za pregled u vezi s trenutnim zahtjevom'</entry>
 <entry key="expression|name|648">'Zahtjev za pravnu zaštitu (preispitivanje) ili s tim povezana odluka' (BT-783-Review) nije prisutan ili je 'Odluka je donesena od strane tijela za pregled u vezi s trenutnim zahtjevom' i 'Vrsta odluke o pravnoj zaštiti (preispitivanju)' (BT-790-Review) nije ni 'Prihvaćeno' ni 'Ostalo'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Povlačenje zahtjeva za pravnu zaštitu (preispitivanje)' (BT-796-Review) nije postavljen na 'da'</entry>
 <entry key="expression|name|654">'Zahtjev za pravnu zaštitu (preispitivanje) ili s tim povezana odluka' (BT-783-Review) nije prisutan ili nije 'Odluka je donesena od strane tijela za pregled u vezi s trenutnim zahtjevom' ili je zahtjev povučen</entry>
 <entry key="expression|name|655">'Vrsta pravnog lijeka zatraženog u postupku pravne zaštite (preispitivanja)' (BT-792-Review) nije prisutan</entry>
+<entry key="expression|name|656">'Ušteda energije u kWh/godini' (BT-814-LotResult) ne postoji</entry>
+<entry key="expression|name|657">Nema parcela unutar okvirnog sporazuma</entry>
+<entry key="expression|name|658">Nema okvirnog sporazuma ili se radi o ugovoru unutar okvirnog sporazuma</entry>
+<entry key="expression|name|659">Nema uključenog okvirnog sporazuma</entry>
 <entry key="expression|name|66">'Status odabira pobjednika' (BT-142-LotResult) nije 'Odabran je najmanje jedan pobjednik.'; 'Tehnički ID rezultata lota (RES-XXX)' (OPT-322) nije popunjeno</entry>
+<entry key="expression|name|660">'Službeno ime' (BT-500-Organization-Company) postoji</entry>
+<entry key="expression|name|661">'Tehnički ID organizacije (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizacija koja ispunjava ovu ulogu' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Podugovaranje' (BT-773-Tender) nije 'Da'</entry>
 <entry key="expression|name|68">'Vrijednost podugovaranja poznata' (BT-730-Tender) nije 'da'</entry>
 <entry key="expression|name|69">'Podugovaranje' (BT-773-Tender) nije 'Da'</entry>

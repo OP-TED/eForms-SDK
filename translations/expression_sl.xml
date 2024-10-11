@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Specifični ukrep IPI' (BT-685) ni prisoten</entry>
 <entry key="expression|name|64">'Gre za okvirni sporazum' (BT-765) je eno od naslednjega: 'Okvirni sporazum, deloma brez ponovnega odpiranja konkurence in deloma s ponovnim odpiranjem konkurence'; 'Okvirni sporazum s ponovnim odpiranjem konkurence'; 'Okvirni sporazum brez ponovnega odpiranja konkurence'; in 'Status izbire ponudnika' (BT-142-LotResult) ne sme biti 'Izbran je bil vsaj en zmagovalec.'</entry>
 <entry key="expression|name|640">'Izjema od uporabe ukrepa IPI' (BT-687) ni nastavljen na 'Prevladujoči razlogi, povezani z javnim interesom'</entry>
+<entry key="expression|name|641">Vrednost 'Vrsta postopka' (BT-105) ni enaka 'Odprti postopek' ali 'Drugi enostopenjski postopek'</entry>
+<entry key="expression|name|642">Vrednost 'Vrsta postopka' (BT-105) je enaka 'Odprti postopek', 'S pogajanji, brez predhodnega javnega razpisa' ali 'Drugi enostopenjski postopek'</entry>
+<entry key="expression|name|643">Vrednost 'Vrsta postopka' (BT-105) ni enaka 'Omejeni postopek', 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji', 'Konkurenčni dialog', 'Partnerstvo za inovacije' ali 'Drugi večstopenjski postopek'</entry>
+<entry key="expression|name|644">'Vrsta postopka' (BT-105) vrednost ni enaka 'Omejeni postopek', 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji', 'Konkurenčni dialog', 'Partnerstvo za inovacije' ali 'Drugi večstopenjski postopek', in 'Rok za prejem prijav za sodelovanje' (BT-1311) ni prisoten</entry>
+<entry key="expression|name|645">'Vrsta postopka' (BT-105) vrednost ni enaka 'Omejeni postopek', 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji', 'Konkurenčni dialog', 'Partnerstvo za inovacije' ali 'Drugi večstopenjski postopek', in 'Rok za prejem prijav interesa' (BT-630) ni prisoten</entry>
 <entry key="expression|name|646">'Zahtevek za revizijo ali sklep' (BT-783-Review) ni prisoten</entry>
 <entry key="expression|name|647">'Zahtevek za revizijo ali sklep' (BT-783-Review) ni prisoten ali ni 'Odločitev je sprejelo pregledno telo glede trenutne zahteve'</entry>
 <entry key="expression|name|648">'Zahtevek za revizijo ali sklep' (BT-783-Review) ni prisoten ali je 'Odločitev je sprejelo pregledno telo glede trenutne zahteve' in 'Revizija – vrsta sklepa' (BT-790-Review) ni niti 'Sprejeto' niti 'Drugo'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Revizija – zahtevek umaknjen' (BT-796-Review) ni nastavljen na 'da'</entry>
 <entry key="expression|name|654">'Zahtevek za revizijo ali sklep' (BT-783-Review) ni prisoten ali ni 'Odločitev je sprejelo pregledno telo glede trenutne zahteve' ali je bil zahtevek umaknjen</entry>
 <entry key="expression|name|655">'Revizija – vrsta pravnega sredstva' (BT-792-Review) ni prisoten</entry>
+<entry key="expression|name|656">'Prihranek energije v kWh/leto' (BT-814-LotResult) ne obstaja</entry>
+<entry key="expression|name|657">Ni parcel v okvirnem sporazumu</entry>
+<entry key="expression|name|658">Ni okvirnega sporazuma ali gre za pogodbo v okviru okvirnega sporazuma</entry>
+<entry key="expression|name|659">Ni vključenega okvirnega sporazuma</entry>
 <entry key="expression|name|66">'Status izbire ponudnika' (BT-142-LotResult) ni 'Izbran je bil vsaj en zmagovalec.'; 'Tehnični ID rezultata sklopa (RES-XXX)' (OPT-322) ni izpolnjeno</entry>
+<entry key="expression|name|660">'Uradno ime' (BT-500-Organization-Company) obstaja</entry>
+<entry key="expression|name|661">'Tehnični ID organizacije (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizacija, ki opravlja to vlogo' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>
 <entry key="expression|name|68">'Vrednost oddaje naročil podizvajalcem je znana' (BT-730-Tender) ni 'da'</entry>
 <entry key="expression|name|69">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>

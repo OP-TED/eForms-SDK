@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Medida específica del IPI' (BT-685) no está presente</entry>
 <entry key="expression|name|64">'Se aplica un acuerdo marco' (BT-765) es uno de los siguientes: 'Acuerdo marco, en parte con y en parte sin convocatoria de nueva licitación'; 'Acuerdo marco con convocatoria de nueva licitación'; 'Acuerdo marco sin convocatoria de nueva licitación'; y 'Estado de selección del ganador' (BT-142-LotResult) no debe ser 'Se ha escogido al menos un ganador.'</entry>
 <entry key="expression|name|640">'Excepción a la aplicación de la medida IPI' (BT-687) no está configurado en 'Razones imperiosas de interés público'</entry>
+<entry key="expression|name|641">El valor de 'Tipo de procedimiento' (BT-105) no es igual a 'Abierto' o 'Otro procedimiento de una sola etapa'</entry>
+<entry key="expression|name|642">El valor de 'Tipo de procedimiento' (BT-105) es igual a 'Abierto', 'Negociado sin convocatoria de licitación previa' o 'Otro procedimiento de una sola etapa'</entry>
+<entry key="expression|name|643">El valor de 'Tipo de procedimiento' (BT-105) no es igual a 'Restringido', 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación', 'Diálogo competitivo', 'Asociación para la innovación' o 'Otro procedimiento de múltiples etapas'</entry>
+<entry key="expression|name|644">'Tipo de procedimiento' (BT-105) el valor no es igual a 'Restringido', 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación', 'Diálogo competitivo', 'Asociación para la innovación' o 'Otro procedimiento de múltiples etapas', y 'Plazo de recepción de solicitudes de participación' (BT-1311) no está presente</entry>
+<entry key="expression|name|645">'Tipo de procedimiento' (BT-105) el valor no es igual a 'Restringido', 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación', 'Diálogo competitivo', 'Asociación para la innovación' o 'Otro procedimiento de múltiples etapas', y 'Plazo de recepción de manifestaciones de interés' (BT-630) no está presente</entry>
 <entry key="expression|name|646">'Recurso: solicitud o decisión' (BT-783-Review) no está presente</entry>
 <entry key="expression|name|647">'Recurso: solicitud o decisión' (BT-783-Review) no está presente o no es 'Se ha tomado una decisión por el órgano de revisión respecto a la solicitud actual'</entry>
 <entry key="expression|name|648">'Recurso: solicitud o decisión' (BT-783-Review) no está presente o es 'Se ha tomado una decisión por el órgano de revisión respecto a la solicitud actual' y 'Recurso: tipo de decisión' (BT-790-Review) no es ni 'Aceptado' ni 'Otros'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Recurso: retirada de la solicitud' (BT-796-Review) no está configurado en 'sí'</entry>
 <entry key="expression|name|654">'Recurso: solicitud o decisión' (BT-783-Review) no está presente o no es 'Se ha tomado una decisión por el órgano de revisión respecto a la solicitud actual' o la solicitud ha sido retirada</entry>
 <entry key="expression|name|655">'Recurso: tipo de remedio' (BT-792-Review) no está presente</entry>
+<entry key="expression|name|656">'Ahorros de energía en kWh/año' (BT-814-LotResult) no existe</entry>
+<entry key="expression|name|657">No hay lotes dentro de un acuerdo marco</entry>
+<entry key="expression|name|658">No existe un acuerdo marco o se trata de un contrato dentro de un acuerdo marco</entry>
+<entry key="expression|name|659">No se involucra un acuerdo marco</entry>
 <entry key="expression|name|66">'Estado de selección del ganador' (BT-142-LotResult) no es 'Se ha escogido al menos un ganador.'; 'ID técnico del resultado del lote (RES-XXX)' (OPT-322) no está cumplimentado</entry>
+<entry key="expression|name|660">'Denominación oficial' (BT-500-Organization-Company) existe</entry>
+<entry key="expression|name|661">'ID técnico de la organización (ORG-XXX)'(OPT-200-Organization-Company) es un 'Organización que cumple este papel' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>
 <entry key="expression|name|68">'Se conoce el valor de la subcontratación' (BT-730-Tender) no es 'sí'</entry>
 <entry key="expression|name|69">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>

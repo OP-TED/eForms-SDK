@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Specifinė IPI priemonė' (BT-685) nėra</entry>
 <entry key="expression|name|64">'Taikoma preliminarioji sutartis' (BT-765) yra vienas iš šių: 'Preliminarioji sutartis, dėl dalies neskelbiant naujo konkurso ir dėl dalies skelbiant naują konkursą'; 'Preliminarioji sutartis, skelbiant naują konkursą'; 'Preliminarioji sutartis, neskelbiant naujo konkurso', o 'Laimėtojo atrankos būsena' (BT-142-LotResult) neturi būti 'Pasirinktas bent vienas laimėtojas.'</entry>
 <entry key="expression|name|640">'Išimtis iš IPI priemonės taikymo' (BT-687) nėra nustatyta 'Perstumiantys viešojo intereso motyvai'</entry>
+<entry key="expression|name|641">'Pirkimo būdas' (BT-105) vertė nelygi 'Atviras' arba 'Kita vieno etapo procedūra'</entry>
+<entry key="expression|name|642">'Pirkimo būdas' (BT-105) vertė lygi 'Atviras', 'Derybos be išankstinio skelbimo apie pirkimą' arba 'Kita vieno etapo procedūra'</entry>
+<entry key="expression|name|643">'Pirkimo būdas' (BT-105) vertė nelygi 'Ribotas', 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis', 'Konkurencinis dialogas', 'Inovacijų partnerystė' arba 'Kita kelių etapų procedūra'</entry>
+<entry key="expression|name|644">'Pirkimo būdas' (BT-105) vertė nelygi 'Ribotas', 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis', 'Konkurencinis dialogas', 'Inovacijų partnerystė' ar 'Kita kelių etapų procedūra', ir 'Dalyvavimo prašymų priėmimo terminas' (BT-1311) nėra</entry>
+<entry key="expression|name|645">'Pirkimo būdas' (BT-105) vertė nelygi 'Ribotas', 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis', 'Konkurencinis dialogas', 'Inovacijų partnerystė' ar 'Kita kelių etapų procedūra', ir 'Pareikšto susidomėjimo priėmimo terminas' (BT-630) nėra</entry>
 <entry key="expression|name|646">'Peržiūra: prašymas arba sprendimas' (BT-783-Review) nėra</entry>
 <entry key="expression|name|647">'Peržiūra: prašymas arba sprendimas' (BT-783-Review) nėra arba tai nėra 'Peržiūros institucija priėmė sprendimą dėl dabartinio prašymo'</entry>
 <entry key="expression|name|648">'Peržiūra: prašymas arba sprendimas' (BT-783-Review) nėra arba yra 'Peržiūros institucija priėmė sprendimą dėl dabartinio prašymo' ir 'Sprendimas dėl peržiūros: rūšis' (BT-790-Review) nėra nei 'Priimtas' nei 'Kita'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Peržiūros prašymas: atsiimtas' (BT-796-Review) nėra nustatytas 'taip'</entry>
 <entry key="expression|name|654">'Peržiūra: prašymas arba sprendimas' (BT-783-Review) nėra arba tai nėra 'Peržiūros institucija priėmė sprendimą dėl dabartinio prašymo' arba prašymas buvo atšauktas</entry>
 <entry key="expression|name|655">'Peržiūra: taisomoji priemonė: rūšis' (BT-792-Review) nėra</entry>
+<entry key="expression|name|656">'Energijos taupymas kWh/metus' (BT-814-LotResult) nėra</entry>
+<entry key="expression|name|657">Nėra daugybės pagal pagrindinę sutartį</entry>
+<entry key="expression|name|658">Nėra pagrindinės sutarties arba tai sutartis pagal pagrindinę sutartį</entry>
+<entry key="expression|name|659">Nėra įtrauktos pagrindinės sutarties</entry>
 <entry key="expression|name|66">'Laimėtojo atrankos būsena' (BT-142-LotResult) nėra 'Pasirinktas bent vienas laimėtojas.'; 'Partijos rezultato techninis ID (RES-XXX)' (OPT-322)neužpildyta</entry>
+<entry key="expression|name|660">'Oficialus pavadinimas' (BT-500-Organization-Company) egzistuoja</entry>
+<entry key="expression|name|661">'Organizacijos techninis ID (ORG-XXX)'(OPT-200-Organization-Company) yra 'Organizacija, atliekanti šį vaidmenį' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Subranga' (BT-773-Tender) nėra 'Taip'</entry>
 <entry key="expression|name|68">'Subrangos vertė žinoma' (BT-730-Tender) nėra 'taip'</entry>
 <entry key="expression|name|69">'Subranga' (BT-773-Tender) nėra 'Taip'</entry>

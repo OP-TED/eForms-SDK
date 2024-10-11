@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Konkreetne IPI meede' (BT-685) ei ole olemas</entry>
 <entry key="expression|name|64">'Tegemist on raamlepinguga' (BT-765) on üks järgmistest: 'Raamleping, mille puhul kasutatakse osaliselt minikonkurssi'; 'Raamleping koos minikonkursiga'; 'Raamleping ilmaminikonkursita'; ning 'Eduka pakkuja valiku staatus' (BT-142-LotResult) ei tohi olla 'Vähemalt üks edukas pakkuja on välja valitud.'</entry>
 <entry key="expression|name|640">'Erandid IPI meetme kohaldamisest' (BT-687) ei ole seadistatud 'Ülekaalukad põhjused, mis on seotud avaliku huviga'</entry>
+<entry key="expression|name|641">'Menetluse liik' (BT-105) väärtus ei võrdu 'Avatud' või 'Muu üheetapiline menetlus'</entry>
+<entry key="expression|name|642">'Menetluse liik' (BT-105) väärtus on võrdne 'Avatud', 'Väljakuulutamiseta läbirääkimistega hankemenetlus' või 'Muu üheetapiline menetlus'</entry>
+<entry key="expression|name|643">'Menetluse liik' (BT-105) väärtus ei võrdu 'Piiratud', 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus', 'Võistlev dialoog', 'Innovatsioonipartnerlus' või 'Muu mitmeetapiline menetlus'</entry>
+<entry key="expression|name|644">'Menetluse liik' (BT-105) väärtus ei ole võrdne 'Piiratud', 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus', 'Võistlev dialoog', 'Innovatsioonipartnerlus' või 'Muu mitmeetapiline menetlus', ja 'Osalemistaotluste esitamise tähtaeg' (BT-1311) ei ole kohal</entry>
+<entry key="expression|name|645">'Menetluse liik' (BT-105) väärtus ei ole võrdne 'Piiratud', 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus', 'Võistlev dialoog', 'Innovatsioonipartnerlus' või 'Muu mitmeetapiline menetlus', ja 'Osalemishuvist teatamise tähtaeg' (BT-630) ei ole kohal</entry>
 <entry key="expression|name|646">'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) ei ole olemas</entry>
 <entry key="expression|name|647">'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) ei ole olemas või see ei ole 'Otsus on tehtud ülevaatamisasutuse poolt praeguse taotluse kohta'</entry>
 <entry key="expression|name|648">'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) ei ole olemas või on 'Otsus on tehtud ülevaatamisasutuse poolt praeguse taotluse kohta' ja 'Vaidlustuse otsuse liik' (BT-790-Review) ei ole ei 'Vastu võetud' ega 'Muu'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Vaidlustus tagasi võetud' (BT-796-Review) ei ole seadistatud 'jah'</entry>
 <entry key="expression|name|654">'Läbivaatamistaotlus või läbivaatamisotsus' (BT-783-Review) ei ole kohal või see ei ole 'Otsus on tehtud ülevaatamisasutuse poolt praeguse taotluse kohta' või taotlus on tagasi võetud</entry>
 <entry key="expression|name|655">'Vaidlustus - õiguskaitsevahendi liik' (BT-792-Review) ei ole kohal</entry>
+<entry key="expression|name|656">'Energiasääst kWh/aastas' (BT-814-LotResult) ei eksisteeri</entry>
+<entry key="expression|name|657">Raamlepingus ei ole osi</entry>
+<entry key="expression|name|658">Puudub raamleping või on tegemist lepinguga raamlepingu raames</entry>
+<entry key="expression|name|659">Raamlepingut ei kaasata</entry>
 <entry key="expression|name|66">'Eduka pakkuja valiku staatus' (BT-142-LotResult) ei ole'Vähemalt üks edukas pakkuja on välja valitud.'; 'Osa tulemuse tehniline tunnus (RES-XXX)' (OPT-322) ei ole täidetud</entry>
+<entry key="expression|name|660">'Ametlik nimi' (BT-500-Organization-Company) on olemas</entry>
+<entry key="expression|name|661">'Organisatsiooni tehniline ID (ORG-XXX)'(OPT-200-Organization-Company) on 'Organisatsioon, mis täidab seda rolli' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Allhanked' (BT-773-Tender) ei ole 'Jah'</entry>
 <entry key="expression|name|68">'Allhanke maksumus on teada' (BT-730-Tender) ei ole 'jah'</entry>
 <entry key="expression|name|69">'Allhanked' (BT-773-Tender) ei ole 'Jah'</entry>

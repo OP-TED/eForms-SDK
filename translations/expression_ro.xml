@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Măsură IPI specifică' (BT-685) nu este prezent</entry>
 <entry key="expression|name|64">'Se aplică un acord-cadru' (BT-765) este una dintre următoarele: 'Acord-cadru, parțial fără și parțial cu reluarea procedurii concurențiale'; 'Acord-cadru, cu reluarea procedurii concurențiale'; 'Acord-cadru, fără reluarea procedurii concurențiale' și 'Statutul selecției câștigătorului' (BT-142-LotResult) nu trebuie să fie 'A fost selecționat cel puțin un câștigător.'</entry>
 <entry key="expression|name|640">'Excepție la aplicarea măsurii IPI' (BT-687) nu este setat la 'Motive preponderente legate de interesul public'</entry>
+<entry key="expression|name|641">Valoarea 'Tip de procedură' (BT-105) nu este egală cu 'Deschisă' sau 'Altă procedură cu o singură etapă'</entry>
+<entry key="expression|name|642">Valoarea 'Tip de procedură' (BT-105) este egală cu 'Deschisă', 'Negociată fără publicarea unei proceduri concurențiale de ofertare' sau 'Altă procedură cu o singură etapă'</entry>
+<entry key="expression|name|643">Valoarea 'Tip de procedură' (BT-105) nu este egală cu 'Restrânsă', 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', 'Dialog competitiv', 'Parteneriat pentru inovare' sau 'Altă procedură cu mai multe etape'</entry>
+<entry key="expression|name|644">'Tip de procedură' (BT-105) valoarea nu este egală cu 'Restrânsă', 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', 'Dialog competitiv', 'Parteneriat pentru inovare' sau 'Altă procedură cu mai multe etape', și 'Termenul-limită pentru primirea cererilor de participare' (BT-1311) nu este prezent</entry>
+<entry key="expression|name|645">'Tip de procedură' (BT-105) valoarea nu este egală cu 'Restrânsă', 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', 'Dialog competitiv', 'Parteneriat pentru inovare' sau 'Altă procedură cu mai multe etape', și 'Termenul-limită pentru primirea cererilor de exprimare a interesului' (BT-630) nu este prezent</entry>
 <entry key="expression|name|646">'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent</entry>
 <entry key="expression|name|647">'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent sau nu este 'Decizia a fost luată de organul de revizuire privind solicitarea curentă'</entry>
 <entry key="expression|name|648">'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent sau este 'Decizia a fost luată de organul de revizuire privind solicitarea curentă' și 'Căile de atac - tip de decizie' (BT-790-Review) nu este nici 'Acceptată' nici 'Altul'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Căile de atac - retragerea cererii' (BT-796-Review) nu este setat la 'da'</entry>
 <entry key="expression|name|654">'Căile de atac - cerere sau decizie' (BT-783-Review) nu este prezent sau nu este 'Decizia a fost luată de organul de revizuire privind solicitarea curentă' sau cererea a fost retrasă</entry>
 <entry key="expression|name|655">'Căile de atac - tip de măsură corectivă' (BT-792-Review) nu este prezent</entry>
+<entry key="expression|name|656">'Economie de energie în kWh/an' (BT-814-LotResult) nu există</entry>
+<entry key="expression|name|657">Nu există loturi în cadrul unui acord-cadru</entry>
+<entry key="expression|name|658">Nu există un acord-cadru sau este vorba despre un contract în cadrul unui acord-cadru</entry>
+<entry key="expression|name|659">Nu este implicat un acord-cadru</entry>
 <entry key="expression|name|66">'Statutul selecției câștigătorului' (BT-142-LotResult) nu este 'A fost selecționat cel puțin un câștigător.'; 'ID-ul tehnic al rezultatului lotului (RES-XXX)' (OPT-322) nu este completat</entry>
+<entry key="expression|name|660">'Denumire oficială' (BT-500-Organization-Company) există</entry>
+<entry key="expression|name|661">'ID-ul tehnic al organizației (ORG-XXX)'(OPT-200-Organization-Company) este un 'Organizația care îndeplinește acest rol' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
 <entry key="expression|name|68">'Valoarea subcontractării este cunoscută' (BT-730-Tender) nu este 'da'</entry>
 <entry key="expression|name|69">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>

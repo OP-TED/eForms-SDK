@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Specifikus IPI intézkedés' (BT-685) nincs jelen</entry>
 <entry key="expression|name|64">'Keretmegállapodás' (BT-765) a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül'; és 'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem lehet 'Legalább egy nyertes kiválasztására sor került.'</entry>
 <entry key="expression|name|640">'Kivétel az IPI intézkedés alkalmazásából' (BT-687) nincs beállítva 'A közérdekkel összefüggő kényszerítő okok'</entry>
+<entry key="expression|name|641">'Az eljárás típusa' (BT-105) értéke nem egyenlő a 'Nyitott' vagy a 'Egyéb egyszakaszos eljárás' értékkel</entry>
+<entry key="expression|name|642">'Az eljárás típusa' (BT-105) értéke egyenlő a 'Nyitott', a 'Felhívás nélküli tárgyalásos eljárás' vagy a 'Egyéb egyszakaszos eljárás' értékkel</entry>
+<entry key="expression|name|643">'Az eljárás típusa' (BT-105) értéke nem egyenlő a 'Zárt', a 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos', a 'Versenypárbeszéd', a 'Innovációs partnerség' vagy a 'Egyéb többszakaszos eljárás' értékkel</entry>
+<entry key="expression|name|644">'Az eljárás típusa' (BT-105) értéke nem egyenlő a 'Zárt', 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos', 'Versenypárbeszéd', 'Innovációs partnerség' vagy 'Egyéb többszakaszos eljárás' értékkel, és a 'A részvételi jelentkezések beérkezésének határideje' (BT-1311) nem jelenik meg</entry>
+<entry key="expression|name|645">'Az eljárás típusa' (BT-105) értéke nem egyenlő a 'Zárt', 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos', 'Versenypárbeszéd', 'Innovációs partnerség' vagy 'Egyéb többszakaszos eljárás' értékkel, és a 'A szándéknyilatkozatok beérkezésének határideje' (BT-630) nem jelenik meg</entry>
 <entry key="expression|name|646">'Felülvizsgálati kérelem vagy határozat' (BT-783-Review) nincs jelen</entry>
 <entry key="expression|name|647">'Felülvizsgálati kérelem vagy határozat' (BT-783-Review) nincs jelen vagy nem 'A felülvizsgáló testület döntést hozott a jelenlegi kérelemről'</entry>
 <entry key="expression|name|648">'Felülvizsgálati kérelem vagy határozat' (BT-783-Review) nincs jelen vagy 'A felülvizsgáló testület döntést hozott a jelenlegi kérelemről' és 'Felülvizsgálat – határozat típusa' (BT-790-Review) sem 'Elfogadva' sem 'Egyéb'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Felülvizsgálati kérelem visszavonva' (BT-796-Review) nincs beállítva 'igen'</entry>
 <entry key="expression|name|654">'Felülvizsgálati kérelem vagy határozat' (BT-783-Review) nincs jelen vagy nem 'A felülvizsgáló testület döntést hozott a jelenlegi kérelemről' vagy a kérelem visszavonták</entry>
 <entry key="expression|name|655">'Felülvizsgálat – korrekciós intézkedés típusa' (BT-792-Review) nincs jelen</entry>
+<entry key="expression|name|656">'Energia megtakarítás kWh/évben' (BT-814-LotResult) nem létezik</entry>
+<entry key="expression|name|657">Nincsenek telek egy keretszerződésen belül</entry>
+<entry key="expression|name|658">Nincs keretszerződés, vagy egy keretszerződésen belüli szerződésről van szó</entry>
+<entry key="expression|name|659">Nincs bevonva keretszerződés</entry>
 <entry key="expression|name|66">'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem 'Legalább egy nyertes kiválasztására sor került.'; 'A tétel eredményének technikai azonosítója (RES-XXX)' (OPT-322) nincs kitöltve</entry>
+<entry key="expression|name|660">'Hivatalos név' (BT-500-Organization-Company) létezik</entry>
+<entry key="expression|name|661">'Szervezet technikai azonosítója (ORG-XXX)'(OPT-200-Organization-Company) egy 'Ezt a szerepet betöltő szervezet' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
 <entry key="expression|name|68">'Az alvállalkozásba adott szerződésrész értéke ismert' (BT-730-Tender) nem 'igen'</entry>
 <entry key="expression|name|69">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>

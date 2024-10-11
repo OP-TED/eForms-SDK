@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Spezifische IPI-Maßnahme' (BT-685) ist nicht vorhanden</entry>
 <entry key="expression|name|64">'Rahmenvereinbarung geschlossen' (BT-765) ist einer der Folgenden: 'Rahmenvereinbarung, teilweise mit erneutem Aufruf zum Wettbewerb, teilweise ohne erneuten Aufruf zum Wettbewerb'; 'Rahmenvereinbarung mit erneutem Aufruf zum Wettbewerb'; 'Rahmenvereinbarung ohne erneuten Aufruf zum Wettbewerb'; und 'Status der Preisträgerauswahl' (BT-142-LotResult) dürfen nicht 'Es wurde mindestens ein Gewinner ermittelt.' sein</entry>
 <entry key="expression|name|640">'Ausnahme von der Anwendung der IPI-Maßnahme' (BT-687) ist nicht auf 'Zwingende Gründe im öffentlichen Interesse' eingestellt</entry>
+<entry key="expression|name|641">Der Wert von 'Verfahrensart' (BT-105) ist nicht gleich 'Offenes Verfahren' oder 'Sonstiges einstufiges Verfahren'</entry>
+<entry key="expression|name|642">Der Wert von 'Verfahrensart' (BT-105) ist gleich 'Offenes Verfahren', 'Verhandlungsverfahren ohne Aufruf zum Wettbewerb' oder 'Sonstiges einstufiges Verfahren'</entry>
+<entry key="expression|name|643">Der Wert von 'Verfahrensart' (BT-105) ist nicht gleich 'Nichtoffenes Verfahren', 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren', 'Wettbewerblicher Dialog', 'Innovationspartnerschaften' oder 'Sonstiges zweistufiges Verfahren'</entry>
+<entry key="expression|name|644">'Verfahrensart' (BT-105) Wert ist nicht gleich 'Nichtoffenes Verfahren', 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren', 'Wettbewerblicher Dialog', 'Innovationspartnerschaften' oder 'Sonstiges zweistufiges Verfahren', und 'Frist für den Eingang der Teilnahmeanträge' (BT-1311) ist nicht vorhanden</entry>
+<entry key="expression|name|645">'Verfahrensart' (BT-105) Wert ist nicht gleich 'Nichtoffenes Verfahren', 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren', 'Wettbewerblicher Dialog', 'Innovationspartnerschaften' oder 'Sonstiges zweistufiges Verfahren', und 'Frist für den Eingang der Interessenbekundungen' (BT-630) ist nicht vorhanden</entry>
 <entry key="expression|name|646">'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist nicht vorhanden</entry>
 <entry key="expression|name|647">'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist nicht vorhanden oder es ist nicht 'Die Entscheidung wurde von der Prüfstelle bezüglich der aktuellen Anforderung getroffen'</entry>
 <entry key="expression|name|648">'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist nicht vorhanden oder es ist 'Die Entscheidung wurde von der Prüfstelle bezüglich der aktuellen Anforderung getroffen' und 'Nachprüfungsentscheidung – Kategorie' (BT-790-Review) ist weder 'Zugelassen' noch 'Sonstiges'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Nachprüfung – Antrag zurückgezogen' (BT-796-Review) ist nicht auf 'ja' eingestellt</entry>
 <entry key="expression|name|654">'Nachprüfungsantrag oder -entscheidung' (BT-783-Review) ist nicht vorhanden oder es ist nicht 'Die Entscheidung wurde von der Prüfstelle bezüglich der aktuellen Anforderung getroffen' oder der Antrag wurde zurückgezogen</entry>
 <entry key="expression|name|655">'Nachprüfung – Typ der Abhilfemaßnahme' (BT-792-Review) ist nicht vorhanden</entry>
+<entry key="expression|name|656">'Energieeinsparungen in kWh/Jahr' (BT-814-LotResult) existiert nicht</entry>
+<entry key="expression|name|657">Es gibt keine Lose innerhalb einer Rahmenvereinbarung</entry>
+<entry key="expression|name|658">Es gibt keine Rahmenvereinbarung oder es handelt sich um einen Vertrag innerhalb einer Rahmenvereinbarung</entry>
+<entry key="expression|name|659">Es ist keine Rahmenvereinbarung beteiligt</entry>
 <entry key="expression|name|66">'Status der Preisträgerauswahl' (BT-142-LotResult) ist nicht 'Es wurde mindestens ein Gewinner ermittelt.'; 'Technische ID des Losergebnisses (RES-XXX)' (OPT-322) ist nicht ausgefüllt</entry>
+<entry key="expression|name|660">'Offizielle Bezeichnung' (BT-500-Organization-Company) existiert</entry>
+<entry key="expression|name|661">'Technische ID der Organisation (ORG-XXX)'(OPT-200-Organization-Company) ist ein 'Organisation, die diese Rolle ausfüllt' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht 'Ja'</entry>
 <entry key="expression|name|68">'Wert der Vergabe von Unteraufträgen ist bekannt' (BT-730-Tender) ist nicht 'ja'</entry>
 <entry key="expression|name|69">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht 'Ja'</entry>

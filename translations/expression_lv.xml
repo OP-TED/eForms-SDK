@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Konkrēts IPI pasākums' (BT-685) nav klāt</entry>
 <entry key="expression|name|64">'Ir paredzēts pamatnolīgums' (BT-765) ir viens no šādiem variantiem: 'Pamatnolīgums ar konkursa daļēju neatsākšanu un daļēju atsākšanu'; 'Pamatnolīgums ar konkursa atsākšanu'; 'Pamatnolīgums bez konkursa atsākšanas'; un 'Uzvarētāja atlases statuss' (BT-142-LotResult) nevar būt 'Ir izraudzīts vismaz viens uzvarētājs.'</entry>
 <entry key="expression|name|640">'Izņēmums no IPI pasākuma piemērošanas' (BT-687) nav iestatīts uz 'Pārākās sabiedriskās intereses iemesli'</entry>
+<entry key="expression|name|641">'Procedūras veids' (BT-105) vērtība nav vienāda ar 'Atklāta' vai 'Cita vienpakāpes procedūra'</entry>
+<entry key="expression|name|642">'Procedūras veids' (BT-105) vērtība ir vienāda ar 'Atklāta', 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas' vai 'Cita vienpakāpes procedūra'</entry>
+<entry key="expression|name|643">'Procedūras veids' (BT-105) vērtība nav vienāda ar 'Slēgta', 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām', 'Konkursa dialogs', 'Inovācijas partnerība' vai 'Cita daudzpakāpju procedūra'</entry>
+<entry key="expression|name|644">'Procedūras veids' (BT-105) vērtība nav vienāda ar 'Slēgta', 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām', 'Konkursa dialogs', 'Inovācijas partnerība' vai 'Cita daudzpakāpju procedūra', un 'Dalības pieprasījumu saņemšanas termiņš' (BT-1311) nav klāt</entry>
+<entry key="expression|name|645">'Procedūras veids' (BT-105) vērtība nav vienāda ar 'Slēgta', 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām', 'Konkursa dialogs', 'Inovācijas partnerība' vai 'Cita daudzpakāpju procedūra', un 'Ieinteresētības apstiprinājumu saņemšanas termiņš' (BT-630) nav klāt</entry>
 <entry key="expression|name|646">'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) nav klāt</entry>
 <entry key="expression|name|647">'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) nav klāt vai tas nav 'Lēmumu ir pieņēmis pārskatīšanas iestāde par pašreizējo pieprasījumu'</entry>
 <entry key="expression|name|648">'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) nav klāt vai tas ir 'Lēmumu ir pieņēmis pārskatīšanas iestāde par pašreizējo pieprasījumu' un 'Pārskatīšanas lēmuma veids' (BT-790-Review) nav ne 'Pārskatīšanas pieprasījums pieņemts' ne 'Cits'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Pārskatīšanas pieprasījums atsaukts' (BT-796-Review) nav iestatīts uz 'jā'</entry>
 <entry key="expression|name|654">'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) nav klāt vai tas nav 'Lēmumu ir pieņēmis pārskatīšanas iestāde par pašreizējo pieprasījumu' vai pieprasījums ir atsaukts</entry>
 <entry key="expression|name|655">'Pārskatīšanas tiesiskās aizsardzības līdzekļa veids' (BT-792-Review) nav klāt</entry>
+<entry key="expression|name|656">'Enerģijas ietaupījums kWh/gadā' (BT-814-LotResult) neeksistē</entry>
+<entry key="expression|name|657">Nav daudz ietvaru līgumā</entry>
+<entry key="expression|name|658">Nav ietvaru līguma vai tā ir līgums ietvaru līguma ietvaros</entry>
+<entry key="expression|name|659">Nav iesaistīta ietvaru līguma</entry>
 <entry key="expression|name|66">'Uzvarētāja atlases statuss' (BT-142-LotResult) nav 'Ir izraudzīts vismaz viens uzvarētājs.'; 'Partijas rezultāta tehniskais ID (RES-XXX)' (OPT-322) nav aizpildīta</entry>
+<entry key="expression|name|660">'Oficiālais nosaukums' (BT-500-Organization-Company) pastāv</entry>
+<entry key="expression|name|661">'Organizācijas tehniskais ID (ORG-XXX)'(OPT-200-Organization-Company) ir 'Organizācija, kas pilda šo lomu' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>
 <entry key="expression|name|68">'Apakšuzņēmuma līguma vērtība zināma' (BT-730-Tender) nav 'jā'</entry>
 <entry key="expression|name|69">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>

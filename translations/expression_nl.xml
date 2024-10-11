@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Specifieke IPI-maatregel' (BT-685) is niet aanwezig</entry>
 <entry key="expression|name|64">'Het gaat om een raamovereenkomst' (BT-765) is een van de volgende: 'Raamovereenkomst, deels zonder en deels met hernieuwde oproep tot mededinging'; 'Raamovereenkomst, met hernieuwde oproep tot mededinging'; 'Raamovereenkomst, zonder hernieuwde oproep tot mededinging'; en 'Selectiestatus winnaar' (BT-142-LotResult) en mag niet 'Er is ten minste één winnaar gekozen.' zijn</entry>
 <entry key="expression|name|640">'Uitzondering op de toepassing van de IPI-maatregel' (BT-687) is niet ingesteld op 'Doorslaggevende redenen met betrekking tot het openbaar belang'</entry>
+<entry key="expression|name|641">De waarde van 'Type procedure' (BT-105) is niet gelijk aan 'Openbaar' of 'Andere procedure in één fase'</entry>
+<entry key="expression|name|642">De waarde van 'Type procedure' (BT-105) is gelijk aan 'Openbaar', 'Onderhandelingsprocedure zonder voorafgaande oproep tot mededinging' of 'Andere procedure in één fase'</entry>
+<entry key="expression|name|643">De waarde van 'Type procedure' (BT-105) is niet gelijk aan 'Niet-openbaar', 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling', 'Concurrentiegerichte dialoog', 'Innovatiepartnerschap' of 'Andere procedure in meerdere fasen'</entry>
+<entry key="expression|name|644">'Type procedure' (BT-105) waarde is niet gelijk aan 'Niet-openbaar', 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling', 'Concurrentiegerichte dialoog', 'Innovatiepartnerschap' of 'Andere procedure in meerdere fasen', en 'Uiterste datum voor de ontvangst van verzoeken tot deelname' (BT-1311) is niet aanwezig</entry>
+<entry key="expression|name|645">'Type procedure' (BT-105) waarde is niet gelijk aan 'Niet-openbaar', 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling', 'Concurrentiegerichte dialoog', 'Innovatiepartnerschap' of 'Andere procedure in meerdere fasen', en 'Uiterste datum voor de ontvangst van blijken van belangstelling' (BT-630) is niet aanwezig</entry>
 <entry key="expression|name|646">'Beroep of besluit' (BT-783-Review) is niet aanwezig</entry>
 <entry key="expression|name|647">'Beroep of besluit' (BT-783-Review) is niet aanwezig of het is niet 'De beslissing is genomen door de beoordelende instantie met betrekking tot het huidige verzoek'</entry>
 <entry key="expression|name|648">'Beroep of besluit' (BT-783-Review) is niet aanwezig of het is 'De beslissing is genomen door de beoordelende instantie met betrekking tot het huidige verzoek' en 'Type beslissing beroep' (BT-790-Review) is noch 'Gegrond' noch 'Andere'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Beroep ingetrokken' (BT-796-Review) is niet ingesteld op 'ja'</entry>
 <entry key="expression|name|654">'Beroep of besluit' (BT-783-Review) is niet aanwezig of het is niet 'De beslissing is genomen door de beoordelende instantie met betrekking tot het huidige verzoek' of het verzoek is ingetrokken</entry>
 <entry key="expression|name|655">'Type genoegdoening beroep' (BT-792-Review) is niet aanwezig</entry>
+<entry key="expression|name|656">'Energiebesparing in kWh/jaar' (BT-814-LotResult) bestaat niet</entry>
+<entry key="expression|name|657">Er zijn geen kavels binnen een raamovereenkomst</entry>
+<entry key="expression|name|658">Er is geen raamovereenkomst of het gaat om een contract binnen een raamovereenkomst</entry>
+<entry key="expression|name|659">Er is geen raamovereenkomst betrokken</entry>
 <entry key="expression|name|66">'Selectiestatus winnaar' (BT-142-LotResult) is niet 'Er is ten minste één winnaar gekozen.'; 'Technische ID van het lotresultaat (RES-XXX)' (OPT-322) is niet ingevuld</entry>
+<entry key="expression|name|660">'Officiële naam' (BT-500-Organization-Company) bestaat</entry>
+<entry key="expression|name|661">'Technische ID van de organisatie (ORG-XXX)'(OPT-200-Organization-Company) is een 'Organisatie die deze rol vervult' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Onderaanneming' (BT-773-Tender) is niet 'Ja'</entry>
 <entry key="expression|name|68">'Waarde onderaanneming is bekend' (BT-730-Tender) is niet 'ja'</entry>
 <entry key="expression|name|69">'Onderaanneming' (BT-773-Tender) is niet 'Ja'</entry>

@@ -440,6 +440,11 @@
 <entry key="expression|name|639">'Špecifické opatrenie IPI' (BT-685) nie je prítomný</entry>
 <entry key="expression|name|64">'Uplatňuje sa rámcová dohoda' (BT-765) je jedným z týchto: 'Rámcová dohoda, časť bez opätovného vyhlásenia a časť s opätovným vyhlásením súťaže'; 'Rámcová dohoda, s opätovným vyhlásením súťaže'; 'Rámcová dohoda, bez opätovného vyhlásenia súťaže'; a 'Stav výberu víťaza' (BT-142-LotResult) nesmie byť 'Bol vybratý aspoň jeden víťaz.'</entry>
 <entry key="expression|name|640">'Výnimka z uplatnenia opatrenia IPI' (BT-687) nie je nastavený na 'Prevažujúce dôvody súvisiace s verejným záujmom'</entry>
+<entry key="expression|name|641">Hodnota 'Druh postupu' (BT-105) nie je rovná 'Verejná súťaž' alebo 'Iný jednofázový postup'</entry>
+<entry key="expression|name|642">Hodnota 'Druh postupu' (BT-105) je rovná 'Verejná súťaž', 'Rokovacie konanie bez zverejnenia výzvy na súťaž' alebo 'Iný jednofázový postup'</entry>
+<entry key="expression|name|643">Hodnota 'Druh postupu' (BT-105) nie je rovná 'Užšia súťaž', 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním', 'Súťažný dialóg', 'Inovatívne partnerstvo' alebo 'Iný viacfázový postup'</entry>
+<entry key="expression|name|644">'Druh postupu' (BT-105) hodnota nie je rovná 'Užšia súťaž', 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním', 'Súťažný dialóg', 'Inovatívne partnerstvo' alebo 'Iný viacfázový postup', a 'Lehota na prijímanie žiadostí o účasť' (BT-1311) nie je prítomný</entry>
+<entry key="expression|name|645">'Druh postupu' (BT-105) hodnota nie je rovná 'Užšia súťaž', 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním', 'Súťažný dialóg', 'Inovatívne partnerstvo' alebo 'Iný viacfázový postup', a 'Lehota na predkladanie vyjadrení záujmu' (BT-630) nie je prítomný</entry>
 <entry key="expression|name|646">'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) nie je prítomný</entry>
 <entry key="expression|name|647">'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) nie je prítomný alebo nie je 'Rozhodnutie bolo prijaté kontrolným orgánom týkajúce sa aktuálnej žiadosti'</entry>
 <entry key="expression|name|648">'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) nie je prítomný alebo je 'Rozhodnutie bolo prijaté kontrolným orgánom týkajúce sa aktuálnej žiadosti' a 'Typ rozhodnutia o preskúmaní' (BT-790-Review) nie je ani 'Prijaté' ani 'Iné'</entry>
@@ -451,7 +456,13 @@
 <entry key="expression|name|653">'Stiahnutie žiadosti o preskúmanie' (BT-796-Review) nie je nastavený na 'áno'</entry>
 <entry key="expression|name|654">'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) nie je prítomný alebo nie je 'Rozhodnutie bolo prijaté kontrolným orgánom týkajúce sa aktuálnej žiadosti' alebo bola žiadosť stiahnutá</entry>
 <entry key="expression|name|655">'Typ prostriedku nápravy podľa preskúmania' (BT-792-Review) nie je prítomný</entry>
+<entry key="expression|name|656">'Úspora energie v kWh/roku' (BT-814-LotResult) neexistuje</entry>
+<entry key="expression|name|657">Nie sú žiadne parcely v rámci rámcovej dohody</entry>
+<entry key="expression|name|658">Nie je rámcová dohoda alebo ide o zmluvu v rámci rámcovej dohody</entry>
+<entry key="expression|name|659">Nie je zapojená rámcová dohoda</entry>
 <entry key="expression|name|66">'Stav výberu víťaza' (BT-142-LotResult) nie je 'Bol vybratý aspoň jeden víťaz.'; 'Technické ID výsledku časti (RES-XXX)' (OPT-322) nie je vyplnený</entry>
+<entry key="expression|name|660">'Úradný názov' (BT-500-Organization-Company) existuje</entry>
+<entry key="expression|name|661">'Technické ID organizácie (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizácia, ktorá plní túto úlohu' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|67">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je 'Áno'</entry>
 <entry key="expression|name|68">'Hodnota subdodávky je známa' (BT-730-Tender) nie je 'áno'</entry>
 <entry key="expression|name|69">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je 'Áno'</entry>
