@@ -237,6 +237,8 @@
 <entry key="group|name|GR-Winner">Edukas pakkuja</entry>
 <entry key="group|name|ND-AcceleratedProcedure">Kiirendatud menetlus</entry>
 <entry key="group|name|ND-AccessibilityJustification">Ligipääsetavuse kriteeriumide puudumise põhjendus</entry>
+<entry key="group|name|ND-AppealProcessingParty">Pool, kes tegeleb ülevaatamisega antud protsessi etapis.</entry>
+<entry key="group|name|ND-AppealingParty">Pool, kes algatas ülevaatamistaotluse</entry>
 <entry key="group|name|ND-Asset">Varad, mis põhjendavad lepingu pikendamist</entry>
 <entry key="group|name|ND-AuctionTerms">Oksjoni tingimused</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Žürii liige</entry>
@@ -257,6 +259,16 @@
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Otselepingu sõlmimise põhjenduse kood (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Otselepingu sõlmimist põhjendava eelmise menetluse tunnus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Otselepingu sõlmimise põhjendus (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-EEDAssetLabel">EED etikett konkreetse ostetud vara LotResult puhul</entry>
+<entry key="group|name|ND-EEDAssetQuantity">EED kogus konkreetse ostetud vara LotResult puhul</entry>
+<entry key="group|name|ND-EEDConsumption">EED aastane energiatarbimine konkreetse ostetud vara LotResult puhul</entry>
+<entry key="group|name|ND-EEDInformationLot">Teave hankimisele kuuluvate EED toodete kohta</entry>
+<entry key="group|name|ND-EEDInformationLotResult">EED-ga seotud teave konkreetse LotResult kohta</entry>
+<entry key="group|name|ND-EEDLot">EED ja eeldatavate seotud varade teave: EED kohaldatavus ja ostetud tooted</entry>
+<entry key="group|name|ND-EEDLotResult">Üldteave EED alusel ostetud varade kohta: toote tüüp, kategooria ja kogus</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLot">Ühe hankimisele kuuluva vara tuvastamine</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLotResult">EED üksikasjalik teave konkreetse ostetud vara LotResult kohta</entry>
+<entry key="group|name|ND-EEDSavings">EED aastane energiasääst konkreetse ostetud vara LotResult puhul</entry>
 <entry key="group|name|ND-EuEntity">ELi registreerimisnumber</entry>
 <entry key="group|name|ND-ExclusionGrounds">Kõrvaldamise alused</entry>
 <entry key="group|name|ND-ExecutionRequirements">Täitmistingimused</entry>
@@ -270,6 +282,8 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Rühma maksimaalse maksumuse tunnus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Rühma maksimaalne maksumus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Rühma ümberarvutatud eeldatav maksumus (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-IPIInformation">Teave kõigi rakendatud meetmete kohta</entry>
+<entry key="group|name|ND-IPILotResult">Üldteave rahvusvahelise hankemenetluse kohta</entry>
 <entry key="group|name|ND-LateTendererInformation">Hilinenud teave pakkuja kohta</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Muu õiguslik alus ilma teadaoleva tunnuseta</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Muu õiguslik alus koos tunnusega</entry>
@@ -352,6 +366,7 @@
 <entry key="group|name|ND-Organization">Teates nimetatud organisatsioonid</entry>
 <entry key="group|name|ND-OrganizationUboReference">Tegelik kasusaaja</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Muud tingimused peale tulude jaotamise</entry>
+<entry key="group|name|ND-PMCAnswersDeadline">Vastuste saamise tähtaeg</entry>
 <entry key="group|name|ND-Part">Osa</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Lisaklassifikaator</entry>
 <entry key="group|name|ND-PartContractAdditionalNature">Lisanduv lepingu olemus</entry>
@@ -377,8 +392,9 @@
 <entry key="group|name|ND-ProcedureContractAdditionalNature">Lisanduv lepingu olemus</entry>
 <entry key="group|name|ND-ProcedureFeaturesUnpublish">Menetluskorra kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-ProcedureMainClassification">Põhiklassifikaator</entry>
+<entry key="group|name|ND-ProcedurePlacePerformance">Koht, kus kogu menetluse jaoks peaks toimuma hankimine</entry>
 <entry key="group|name|ND-ProcedurePlacePerformanceAdditionalInformation">Lisateave lepingu täitmise koha kohta</entry>
-<entry key="group|name|ND-ProcedureProcurementScope">Hanketingimused</entry>
+<entry key="group|name|ND-ProcedureProcurementScope">Kirjeldus</entry>
 <entry key="group|name|ND-ProcedureTenderingProcess">Eesmärk</entry>
 <entry key="group|name|ND-ProcedureTransportServiceType">Transporditeenuse tüüp</entry>
 <entry key="group|name|ND-ProcedureTypeUnpublish">Menetluse liik (avaldatakse hiljem)</entry>
@@ -390,9 +406,11 @@
 <entry key="group|name|ND-ReceivedSubmissions">Laekunud taotluste ja pakkumuste statistika</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Ümberarvutatud eeldatav maksumus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-RevenueAllocation">Tulu jaotamise protsent</entry>
+<entry key="group|name|ND-ReviewRequests">Teave taotletud ülevaatamiste ja nende seotud seisundite kohta</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Vaidlustuste statistika</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Vaidlustustaotlustes väidetud rikkumiste arv (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Vaidlustustaotlustes väidetud rikkumiste liik (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-ReviewStatus">Esitatud ülevaatamistaotluste staatus (ID, etapp, pealkiri, kirjeldus, taotlus, otsus)</entry>
 <entry key="group|name|ND-RewardsPenalties">Auhinnad ja leppetrahvid</entry>
 <entry key="group|name|ND-SecondStageThresholdCriterionParameter">Teise etapi lävendiparameeter</entry>
 <entry key="group|name|ND-SecondStageWeightCriterionParameter">Teise etapi kaaluparameeter</entry>
@@ -414,6 +432,7 @@
 <entry key="group|name|ND-SubcontractingUnpublish">Allhanked (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Allhanke maksumus on teada (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Allhanke maksumus (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-TenderAggregatedAmounts">Kogusummad kõigi antud hankeni jõudnud lepingute täitmiseks</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Pakkumuse koht paremusjärjestuses (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-TenderValueHighestUnpublish">Kõige kallima pakkumuse maksumus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-TenderValueLowestUnpublish">Kõige odavama pakkumuse maksumus (avaldatakse hiljem)</entry>

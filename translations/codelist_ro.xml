@@ -46,7 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Lista codurilor pentru a preciza dacă trimiterea de cataloage electronice este autorizată sau nu.</entry>
 <entry key="codelist|name|economic-operator-size">Acest tabel prezintă diferitele categorii în care sunt clasificați ofertanții cărora li se poate atribui un contract, în funcție de dimensiunea lor (utilizând drept criteriu numărul de angajați).</entry>
 <entry key="codelist|name|eea-country">Lista codurilor țărilor din Spațiul Economic European</entry>
+<entry key="codelist|name|eed-scope">Acest tabel oferă lista de coduri și valori utilizate pentru a indica faptul că o achiziție intră sub incidența Directivei privind eficiența energetică</entry>
 <entry key="codelist|name|einvoicing">Lista codurilor pentru a preciza dacă facturarea electronică este autorizată sau nu.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Cadrul juridic pentru elemente, cum ar fi actele delegate privind etichetarea energetică, măsurile de implementare (Directiva 2009/125/CE) sau Regulamentul 2020/740; produse și servicii acoperite de GPP; lucrări, servicii sau clădiri</entry>
+<entry key="codelist|name|energy-efficiency-item">Produse acoperite de actele delegate privind etichetarea energetică, măsurile de implementare (Directiva 2009/125/CE) sau Regulamentul 2020/740; produse și servicii acoperite de GPP; lucrări, servicii sau clădiri</entry>
+<entry key="codelist|name|energy-efficiency-label">Acest tabel oferă lista de coduri și valori utilizate pentru a specifica eficiența energetică a produsului</entry>
 <entry key="codelist|name|entity-activity">Lista codurilor deactivități principale permise pentru o entitate contractantă</entry>
 <entry key="codelist|name|environmental-impact">Acest tabel oferă informații din care să reiasă dacă o achiziție publică include (și cum) o abordare pentru reducerea impactului asupra mediului al lucrărilor, bunurilor sau serviciilor utilizate în specificațiile tehnice, criteriile de atribuire, criteriile de selecție sau executarea contractului.</entry>
 <entry key="codelist|name|esignature-submission">Lista codurilor pentru a preciza dacă se poate utiliza sau nu semnătura electronică.</entry>
@@ -56,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Lista codurilor limbilor oficiale ale UE</entry>
 <entry key="codelist|name|eu-programme">Lista codurilor pentru programele create și coordonate și sprijinite financiar de Uniunea Europeană sau, în câteva cazuri, de contribuțiile statelor membre.</entry>
 <entry key="codelist|name|exclusion-ground">Lista codurilor pentru identificarea motivului de excludere</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR introduce un nou set de reguli care permite Comisiei să abordeze distorsiunile cauzate de subvențiile străine.</entry>
 <entry key="codelist|name|form-type">Acest tabel prezintă codurile și valorile utilizate pentru tipul de formulare publicate în TED.</entry>
 <entry key="codelist|name|framework-agreement">Acest tabel conține lista codurilor pentru a face distincția între diferitele tipuri de acorduri-cadru implicate într-o ofertă.</entry>
 <entry key="codelist|name|gpp-criteria">Criteriile privind achizițiile publice ecologice</entry>
 <entry key="codelist|name|indicator">Lista de valori a indicatorilor autorizați în formularele electronice</entry>
 <entry key="codelist|name|innovative-acquisition">Acest tabel conține codurile și valorile utilizate pentru tipul de lucrări, bunuri sau servicii inovatoare achiziționate în contextul achiziției publice.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Acest tabel oferă lista de coduri și valori utilizate pentru a specifica excepția la aplicarea măsurii IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Acest tabel oferă lista de coduri și valori utilizate pentru a specifica măsura IPI aplicată</entry>
 <entry key="codelist|name|irregularity-type">Această listă de coduri se referă, în general, la tipurile de nereguli descrise în secțiunea 2 din anexa la Decizia C(2019)3452 a Comisiei.</entry>
 <entry key="codelist|name|language">Lista codurilor de limbă formate din trei caractere, corelate cu standardul internațional ISO 639, alături de coduri suplimentare pentru unele limbi care nu au primit un cod ISO.</entry>
 <entry key="codelist|name|lawful-country">Lista țărilor pentru care există un temei juridic pentru publicarea în suplimentul la Jurnalul Oficial al Uniunii Europene</entry>

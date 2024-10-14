@@ -237,6 +237,8 @@
 <entry key="group|name|GR-Winner">Uzvarētājs</entry>
 <entry key="group|name|ND-AcceleratedProcedure">Ātrināta procedūra</entry>
 <entry key="group|name|ND-AccessibilityJustification">Pamatojums piekļūstamības kritēriju neesamībai</entry>
+<entry key="group|name|ND-AppealProcessingParty">Puse, kas nodarbojas ar pārskatīšanu konkrētā procesa solī.</entry>
+<entry key="group|name|ND-AppealingParty">Puse, kas uzsāka pārskatīšanas pieprasījumu</entry>
 <entry key="group|name|ND-Asset">Īpašums, kas attaisno līguma pagarināšanu</entry>
 <entry key="group|name|ND-AuctionTerms">Izsoles noteikumi</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Žūrijas loceklis</entry>
@@ -257,6 +259,16 @@
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Tiešas piešķiršanas pamatojuma kods (publicēts vēlāk)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Tiešo piešķiršanu pamatojošās iepriekšējās procedūras ID (publicēts vēlāk)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Tiešas piešķiršanas pamatojums (publicēts vēlāk)</entry>
+<entry key="group|name|ND-EEDAssetLabel">EED etiķete konkrētam iegūtam aktīvam LotResult</entry>
+<entry key="group|name|ND-EEDAssetQuantity">EED daudzums konkrētam iegūtam aktīvam LotResult</entry>
+<entry key="group|name|ND-EEDConsumption">EED gada enerģijas patēriņš konkrētam iegūtam aktīvam LotResult</entry>
+<entry key="group|name|ND-EEDInformationLot">Informācija par EED produktiem, kas jāiegādājas</entry>
+<entry key="group|name|ND-EEDInformationLotResult">EED saistītā informācija par konkrētu LotResult</entry>
+<entry key="group|name|ND-EEDLot">Informācija par EED un paredzamajiem saistītajiem aktīviem: EED piemērojamība un iegādātie produkti</entry>
+<entry key="group|name|ND-EEDLotResult">Vispārēja informācija par saskaņā ar EED iegādātajiem aktīviem: Produkta tips, kategorija un daudzums</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLot">Viena no iegādājamajiem aktīviem identifikācija</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLotResult">EED detalizēta informācija par konkrētu iegūtu aktīvu LotResult</entry>
+<entry key="group|name|ND-EEDSavings">EED gada enerģijas ietaupījums konkrētam iegūtam aktīvam LotResult</entry>
 <entry key="group|name|ND-EuEntity">ES reģistrācijas numurs</entry>
 <entry key="group|name|ND-ExclusionGrounds">Izslēgšanas iemesli</entry>
 <entry key="group|name|ND-ExecutionRequirements">Izpildes nosacījumi</entry>
@@ -270,6 +282,8 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Grupas maksimālās vērtības identifikators (publicēts vēlāk)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Grupas maksimālā vērtība (publicēta vēlāk)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Grupas pārrēķinātā aplēstā vērtība (publicēta vēlāk)</entry>
+<entry key="group|name|ND-IPIInformation">Informācija par visiem piemērotajiem pasākumiem</entry>
+<entry key="group|name|ND-IPILotResult">Vispārēja informācija par Starptautisko iepirkumu instrumentu</entry>
 <entry key="group|name|ND-LateTendererInformation">Novēlota informācija par pretendentu</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Cits juridiskais pamats bez zināma identifikatora</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Cits juridiskais pamats ar identifikatoru</entry>
@@ -352,6 +366,7 @@
 <entry key="group|name|ND-Organization">Paziņojumā minētās organizācijas</entry>
 <entry key="group|name|ND-OrganizationUboReference">Galīgais labums guvējs</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Nosacījumi, kas nav ieņēmumu piešķiršana</entry>
+<entry key="group|name|ND-PMCAnswersDeadline">Termiņš atbilžu saņemšanai</entry>
 <entry key="group|name|ND-Part">Iedaļa</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Papildu klasifikācija</entry>
 <entry key="group|name|ND-PartContractAdditionalNature">Papildu līguma raksturs</entry>
@@ -377,8 +392,9 @@
 <entry key="group|name|ND-ProcedureContractAdditionalNature">Papildu līguma raksturs</entry>
 <entry key="group|name|ND-ProcedureFeaturesUnpublish">Procedūras iezīmes (publicētas vēlāk)</entry>
 <entry key="group|name|ND-ProcedureMainClassification">Galvenā klasifikācija</entry>
+<entry key="group|name|ND-ProcedurePlacePerformance">Vieta, kur būtu jānotiek iepirkumam, visai procedūrai kopumā</entry>
 <entry key="group|name|ND-ProcedurePlacePerformanceAdditionalInformation">Papildu informācija par izpildes vietu</entry>
-<entry key="group|name|ND-ProcedureProcurementScope">Konkursa noteikumi</entry>
+<entry key="group|name|ND-ProcedureProcurementScope">Apraksts</entry>
 <entry key="group|name|ND-ProcedureTenderingProcess">Mērķis</entry>
 <entry key="group|name|ND-ProcedureTransportServiceType">Transporta pakalpojuma veids</entry>
 <entry key="group|name|ND-ProcedureTypeUnpublish">Procedūras veids (publicēts vēlāk)</entry>
@@ -390,9 +406,11 @@
 <entry key="group|name|ND-ReceivedSubmissions">Saņemto piedāvājumu un pieteikumu statistika</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Pārskatītā vērtība (publicēta vēlāk)</entry>
 <entry key="group|name|ND-RevenueAllocation">Ieņēmumu sadalījuma procentuālā daļa</entry>
+<entry key="group|name|ND-ReviewRequests">Informācija par pieprasītajām pārskatīšanām un to saistītajiem statusiem</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistika par pārskatīšanas pieprasījumiem</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Pārskatīšanas pieprasījumos norādīto pārkāpumu skaits (publicēts vēlāk)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Pārskatīšanas pieprasījumos norādīto pārkāpumu raksturs (publicēts vēlāk)</entry>
+<entry key="group|name|ND-ReviewStatus">Iesniegto pārskatīšanas pieprasījumu statuss (ID, posms, nosaukums, apraksts, pieprasījums, lēmums)</entry>
 <entry key="group|name|ND-RewardsPenalties">Atlīdzība un līgumsods</entry>
 <entry key="group|name|ND-SecondStageThresholdCriterionParameter">Otrā posma sliekšņa parametrs</entry>
 <entry key="group|name|ND-SecondStageWeightCriterionParameter">Otrā posma svaru parametrs</entry>
@@ -414,6 +432,7 @@
 <entry key="group|name|ND-SubcontractingUnpublish">Apakšuzņēmēju piesaiste (publicēts vēlāk)</entry>
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Apakšuzņēmuma līguma vērtība ir zināma (publicēta vēlāk)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Apakšuzņēmuma līguma vērtība (publicēta vēlāk)</entry>
+<entry key="group|name|ND-TenderAggregatedAmounts">Kopējās summas visiem izpildes līgumiem par konkrēto iepirkumu līdz projekta beigām</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Piedāvājumu vieta (publicēts vēlāk)</entry>
 <entry key="group|name|ND-TenderValueHighestUnpublish">Augstākā piedāvājuma vērtība (publicēts vēlāk)</entry>
 <entry key="group|name|ND-TenderValueLowestUnpublish">Zemākā piedāvājuma vērtība (publicēts vēlāk)</entry>

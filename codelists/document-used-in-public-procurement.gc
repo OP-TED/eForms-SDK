@@ -5,7 +5,7 @@
       <ShortName>DocumentUsedInPublicProcurement</ShortName>
       <LongName>document-used-in-public-procurement</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/document-used-in-public-procurement</LongName>
-      <Version>20240612-0</Version>
+      <Version>20240925-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/document-used-in-public-procurement</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -175,6 +175,9 @@
          <Value ColumnRef="lav_label">
             <SimpleValue>Paziņojums</SimpleValue>
          </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż</SimpleValue>
+         </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Aankondiging</SimpleValue>
          </Value>
@@ -252,6 +255,9 @@
          <Value ColumnRef="lav_label">
             <SimpleValue>Iepirkuma dokuments</SimpleValue>
          </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dokument tal-Akkwist</SimpleValue>
+         </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Aanbestedingsstuk</SimpleValue>
          </Value>
@@ -328,6 +334,9 @@
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Eiropas vienotais iepirkuma procedūras dokuments (ESPD)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Dokument Uniku Ewropew tal-Akkwist (DUEA)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Uniform Europees Aanbestedingsdocument (UEA)</SimpleValue>

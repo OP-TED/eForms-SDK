@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.359",
-    "createdOn" : "2024-09-20T13:39:57"
+    "version" : "1.12.417",
+    "createdOn" : "2024-10-09T10:14:51"
   },
   "noticeId" : "14",
   "metadata" : [ {
@@ -537,6 +537,12 @@
           "displayType" : "RADIO",
           "description" : "Procurement Relaunch",
           "_label" : "field|name|BT-634-Procedure"
+        }, {
+          "id" : "BT-105-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Procedure Type",
+          "_label" : "field|name|BT-105-Procedure"
         }, {
           "id" : "BT-763-Procedure",
           "contentType" : "field",
@@ -1807,19 +1813,6 @@
           "displayType" : "TEXTBOX",
           "description" : "Additional Information Deadline",
           "_label" : "field|name|BT-13(t)-Lot"
-        } ]
-      }, {
-        "id" : "GR-Lot-TenderValidity",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Tender Validity",
-        "_label" : "group|name|GR-Lot-TenderValidity",
-        "content" : [ {
-          "id" : "BT-98-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Tender Validity Deadline",
-          "_label" : "field|name|BT-98-Lot"
         } ]
       }, {
         "id" : "GR-Lot-Deadlines2",

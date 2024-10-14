@@ -1809,7 +1809,7 @@
 		<assert id="BR-BT-00135-0061" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00135-0061</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/cbc:ProcessReasonCode">
-		<assert id="BR-BT-00136-0052" role="ERROR" test="normalize-space(.) = ('additional', 'artistic', 'bargain', 'below-thres', 'below-thres-sme', 'char-imp', 'closure', 'commodity', 'contest', 'crisis', 'defse-excl', 'dir24-list', 'dir81-annexii', 'dir81-transport', 'ecom-excl', 'energy-supply', 'exc-circ-rail', 'exclusive', 'existing', 'in-house', 'int-oper', 'int-rules', 'irregular', 'liquidator', 'non-buyer-aw', 'non-contr', 'non-p-int', 'not-wss', 'other-activity', 'other-exclusive', 'rd', 'repetition', 'resd', 'rl-third', 'sc-right', 'serv-excl', 'sim-infra', 'spe-arrang', 'technical', 'tra-ser', 'unsuitable', 'urgency', 'water-purch')">rule|text|BR-BT-00136-0052</assert>
+		<assert id="BR-BT-00136-0052" role="ERROR" test="normalize-space(.) = ('additional', 'artistic', 'bargain', 'below-thres', 'below-thres-sme', 'char-imp', 'closure', 'commodity', 'contest', 'crisis', 'defse-excl', 'dir24-list', 'dir81-annexii', 'dir81-transport', 'ecom-excl', 'energy-supply', 'exc-circ-rail', 'exclusive', 'existing', 'in-house', 'int-oper', 'int-rules', 'irregular', 'liquidator', 'non-buyer-aw', 'non-contr', 'non-dir', 'non-p-int', 'not-wss', 'other-activity', 'other-exclusive', 'rd', 'repetition', 'resd', 'rl-third', 'sc-right', 'serv-excl', 'sim-infra', 'spe-arrang', 'technical', 'tra-ser', 'unsuitable', 'urgency', 'water-purch')">rule|text|BR-BT-00136-0052</assert>
 		<assert id="BT-136-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-136-Procedure-List_MA</assert>
 		<assert id="BT-136-Procedure_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-136-Procedure_WS</assert>
 	</rule>
@@ -2074,6 +2074,7 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:URI">
 		<assert id="BR-BT-00794-0052" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\d)?\.))[\w\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00794-0052</assert>
+		<assert id="BT-794-Review_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-794-Review_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealDecision/efbc:DecisionTypeCode">
 		<assert id="BR-BT-00790-0051" role="ERROR" test="normalize-space(.) = ('accepted', 'other', 'rej-dl-passed', 'rej-ncomp', 'rej-nirreg', 'rej-npaid', 'rej-other', 'rej-resolv', 'rej-signed')">rule|text|BR-BT-00790-0051</assert>

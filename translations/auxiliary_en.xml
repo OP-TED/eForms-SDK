@@ -9,9 +9,9 @@
 <entry key="auxiliary|text|accessibility">Accessibility criteria</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc communication channel</entry>
 <entry key="auxiliary|text|award-criteria">Award criteria</entry>
-<entry key="auxiliary|text|award-criterion-fixed-dimension">Award Criterion Number Fixed Dimension</entry>
-<entry key="auxiliary|text|award-criterion-threshold-dimension">Award Criterion Number Threshold Dimension</entry>
-<entry key="auxiliary|text|award-criterion-weight-dimension">Award Criterion Number Weight Dimension</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Category of award weight criterion</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Category of award fixed criterion</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Category of award threshold criterion</entry>
 <entry key="auxiliary|text|beneficial-owner">Beneficial owner</entry>
 <entry key="auxiliary|text|buyer">Buyer</entry>
 <entry key="auxiliary|text|buyer-competent">Competent authority</entry>
@@ -105,6 +105,7 @@
 <entry key="auxiliary|text|renewal">Renewal</entry>
 <entry key="auxiliary|text|results">Results</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Result of the procurement procedure</entry>
+<entry key="auxiliary|text|review">Review</entry>
 <entry key="auxiliary|text|review-request-withdrawn">The application for review or for interim measures was withdrawn</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Type of alleged irregularity</entry>
 <entry key="auxiliary|text|review-requests-summary">Summary of the review requests the buyer received</entry>

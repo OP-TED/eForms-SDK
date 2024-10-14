@@ -367,8 +367,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E6</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доброволно обявление за изменение на договор</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dobrovolné oznámení o změně smlouvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Frivillig bekendtgørelse om kontraktændring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Bekanntmachung einer Auftragsänderung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθελοντική γνωστοποίηση τροποποίησης σύμβασης</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Voluntary Contract Modification Notice</SimpleValue>
+            <SimpleValue>Voluntary contract modification notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio voluntario de modificación de contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik lepingu muutmise teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis volontaire de modification du marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dobrovolný fógra faoi mhodhnú conartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dobrovoljna obavijest o izmjeni ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes tájékoztató szerződésmódosításról</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario di modifica di un appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas skelbimas apie sutarties keitimą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgs paziņojums par līguma grozījumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż volontarju ta’ modifika f’kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrijwillige aankondiging van wijziging contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dobrowolne ogłoszenie o modyfikacji umowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de modificação do contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț voluntar de modificare a contractului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dobrovoľné oznámenie o úprave zmluvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dobrovoljno obvestilo o spremembi naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Frivilligt meddelande om kontraktsändring</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Критерии за достъпност</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc канал за комуникация</entry>
 <entry key="auxiliary|text|award-criteria">Критерии за възлагане</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Категория на критерия за възлагане с тегло</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Категория на критерия за възлагане с фиксирана стойност</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Категория на критерия за възлагане с праг</entry>
 <entry key="auxiliary|text|beneficial-owner">Действителен собственик</entry>
 <entry key="auxiliary|text|buyer">Купувач</entry>
 <entry key="auxiliary|text|buyer-competent">Компетентен орган</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Продължителност</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Продължителност на поканата за изразяване на интерес</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Информация за динамичната система за покупки</entry>
+<entry key="auxiliary|text|eed-applicable">Обществената поръчка попада в обхвата на Директивата за енергийна ефективност (EED) (EU) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Списък на продукти, работи, услуги и сгради, свързани с Директивата за енергийна ефективност (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Електронен търг</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Предвидена начална дата и срок на договора</entry>
 <entry key="auxiliary|text|essential-assets">Основни активи</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Група обособени позиции</entry>
 <entry key="auxiliary|text|grouping">Наименование на групата</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Информация за възнагражденията и санкциите</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Обществената поръчка попада в обхвата на Международния инструмент за обществени поръчки (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Статистика за мерките на Международния инструмент за обществени поръчки (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Езици, на които могат да се подават заявления за изразяване на интерес</entry>
 <entry key="auxiliary|text|late-tenderer-info">Информация, която може да бъде допълнена след крайния срок за подаване</entry>
 <entry key="auxiliary|text|legal-basis">Правно основание</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Подновяване</entry>
 <entry key="auxiliary|text|results">Резултати</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Резултат от процедурата за възлагане на обществена поръчка</entry>
+<entry key="auxiliary|text|review">Преразглеждане (обжалване)</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Заявлението за преглед или за временни мерки беше оттеглено</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Вид на предполагаемата нередност</entry>
 <entry key="auxiliary|text|review-requests-summary">Обобщение на получените от купувача искания за преразглеждане</entry>
 <entry key="auxiliary|text|roles">Роли на тази организация</entry>

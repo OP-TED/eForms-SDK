@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.359",
-    "createdOn" : "2024-09-20T13:39:57"
+    "version" : "1.12.427",
+    "createdOn" : "2024-10-10T17:26:02"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -113,7 +113,7 @@
     "_label" : "codelist|name|can-tran"
   }, {
     "id" : "change-corrig-justification",
-    "version" : "20240207-0",
+    "version" : "20240925-0",
     "filename" : "change-corrig-justification.gc",
     "description" : "This table provides the codes and values used in case of justification of corrections applied to a notice within the context of public procurement.",
     "_label" : "codelist|name|change-corrig-justification"
@@ -212,13 +212,13 @@
     "_label" : "codelist|name|contract-term"
   }, {
     "id" : "corporate-body",
-    "version" : "20240111-0",
+    "version" : "20240925-0",
     "filename" : "corporate-body.gc",
     "description" : "The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.",
     "_label" : "codelist|name|corporate-body"
   }, {
     "id" : "country",
-    "version" : "20230915-0",
+    "version" : "20240925-0",
     "filename" : "country.gc",
     "description" : "List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.",
     "_label" : "codelist|name|country"
@@ -236,7 +236,7 @@
     "_label" : "codelist|name|criterion"
   }, {
     "id" : "currency",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "currency.gc",
     "description" : "List of currency codes",
     "_label" : "codelist|name|currency"
@@ -268,7 +268,7 @@
     "_label" : "codelist|name|dir-awa-pre"
   }, {
     "id" : "direct-award-justification",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "direct-award-justification.gc",
     "description" : "This table provides the list of reasons for using a procedure which allows awarding contracts directly without the requirement of publishing a call for competition in the Official Journal of the European Union.",
     "_label" : "codelist|name|direct-award-justification"
@@ -286,7 +286,7 @@
     "_label" : "codelist|name|document-status"
   }, {
     "id" : "document-used-in-public-procurement",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "document-used-in-public-procurement.gc",
     "description" : "This code list describes documents used in Public Procurement. A set of interrelated business information representing the business facts and associated metadata. The information may be conveyed in any language",
     "_label" : "codelist|name|document-used-in-public-procurement"
@@ -348,13 +348,13 @@
     "id" : "energy-efficiency-basis",
     "version" : "1.0",
     "filename" : "energy-efficiency-basis.gc",
-    "description" : "Legal Framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.",
+    "description" : "Legal framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings",
     "_label" : "codelist|name|energy-efficiency-basis"
   }, {
     "id" : "energy-efficiency-item",
     "version" : "1.0",
     "filename" : "energy-efficiency-item.gc",
-    "description" : "Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings.",
+    "description" : "Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings",
     "_label" : "codelist|name|energy-efficiency-item"
   }, {
     "id" : "energy-efficiency-label",
@@ -417,7 +417,7 @@
     "_label" : "codelist|name|eu-programme"
   }, {
     "id" : "exclusion-ground",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "exclusion-ground.gc",
     "description" : "List of codes for Exclusion Ground identification",
     "_label" : "codelist|name|exclusion-ground"
@@ -430,13 +430,13 @@
     "_label" : "codelist|name|exclusion-grounds-source"
   }, {
     "id" : "foreign-subsidy-measure-conclusion",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "foreign-subsidy-measure-conclusion.gc",
     "description" : "The FSR introduces a new set of rules that enables the Commission to address distortions caused by foreign subsidies.",
     "_label" : "codelist|name|foreign-subsidy-measure-conclusion"
   }, {
     "id" : "form-type",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "form-type.gc",
     "description" : "This table provides the codes and values used for the type of forms published on TED.",
     "_label" : "codelist|name|form-type"
@@ -498,7 +498,7 @@
     "_label" : "codelist|name|irregularity-type"
   }, {
     "id" : "language",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "language.gc",
     "description" : "List of three characters language codes correlated with the ISO 639 international standard with additional codes for some languages without assigned ISO code.",
     "_label" : "codelist|name|language"
@@ -961,7 +961,7 @@
     "_label" : "codelist|name|notice-subtype"
   }, {
     "id" : "notice-type",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "notice-type.gc",
     "description" : "This table provides a list of public procurement notices according to procurement legislation published once a project is approved.",
     "_label" : "codelist|name|notice-type"
@@ -1610,7 +1610,7 @@
     "_label" : "codelist|name|procedure-type-t02"
   }, {
     "id" : "procurement-procedure-type",
-    "version" : "20240612-0",
+    "version" : "20240925-0",
     "filename" : "procurement-procedure-type.gc",
     "description" : "This table provides a list of activities leading to the conclusion of public contracts used in public procurement according to the legislation.",
     "_label" : "codelist|name|procurement-procedure-type"

@@ -35,7 +35,7 @@
 <entry key="codelist|name|currency">A pénznemek kódjának listája</entry>
 <entry key="codelist|name|customer-service">Ez a táblázat az ügyfélszolgálatok listáját tartalmazza.</entry>
 <entry key="codelist|name|cvd-contract-type">A tiszta járművekről szóló 2009/33/EK irányelv hatálya alá tartozó közbeszerzési eljárás szerződéstípusa.</entry>
-<entry key="codelist|name|cvd-scope">Azon kódok listája, melyekkel megadható, hogy a közbeszerzés a tiszta járművekről szóló 2009/33/EK európai parlamenti és tanácsi irányelv hatálya alá tartozik-e vagy sem.</entry>
+<entry key="codelist|name|cvd-scope">Azon kódok listája, melyekkel megadható, hogy a közbeszerzés a tiszta járművekről szóló 2009/33/EK európai parlamenti és tanácsi irányelv hatálya alá tartozik-e vagy sem.</entry>
 <entry key="codelist|name|dir-awa-pre">A „Közvetlen odaítélés előzetes bejelentése” hirdetmény típusú hirdetmények esetében engedélyezett hirdetménytípusok kódját tartalmazó lista.</entry>
 <entry key="codelist|name|direct-award-justification">Ez a táblázat az olyan eljárások alkalmazásának okait tartalmazza, amelyek lehetővé teszik a szerződések közvetlen odaítélését anélkül, hogy pályázati felhívást kellene közzétenni az Európai Unió Hivatalos Lapjában.</entry>
 <entry key="codelist|name|document-distribution">Azon kódok listája, amelyekkel megadható, hogy a dokumentumok terjesztése korlátozva van-e vagy sem.</entry>
@@ -46,7 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Azon kódok listája, amelyekkel megadható, hogy elektronikus katalógusok benyújtása engedélyezett-e vagy sem.</entry>
 <entry key="codelist|name|economic-operator-size">Ez a táblázat azokat a különböző kategóriákat tartalmazza, amelyekbe azok az ajánlattevők, amelyeknek a szerződések odaítélhetők, méretük alapján be vannak sorolva (kritériumként az alkalmazottak számát használják).</entry>
 <entry key="codelist|name|eea-country">Az Európai Gazdasági Térség országainak kódját tartalmazó lista</entry>
+<entry key="codelist|name|eed-scope">Ez a táblázat a kódok és értékek listáját adja, amelyeket arra használnak, hogy jelezzék, hogy a beszerzés az energiahatékonysági irányelv hatálya alá tartozik</entry>
 <entry key="codelist|name|einvoicing">Azon kódok listája, amelyekkel megadható, hogy az elektronikus számlázás engedélyezett-e vagy sem.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Jogi keret a tételekhez, mint az Energia Címkézési Delegált Cselekvések, végrehajtási intézkedések (2009/125/EK irányelv) vagy a 2020/740 rendelet; a GPP által lefedett termékek és szolgáltatások; munkák, szolgáltatások vagy épületek</entry>
+<entry key="codelist|name|energy-efficiency-item">Termékek, amelyeket az Energia Címkézési Delegált Cselekvések, végrehajtási intézkedések (2009/125/EK irányelv) vagy a 2020/740 rendelet fedezi; a GPP által lefedett termékek és szolgáltatások; munkák, szolgáltatások vagy épületek</entry>
+<entry key="codelist|name|energy-efficiency-label">Ez a táblázat a kódok és értékek listáját adja meg, amelyeket a termék energiahatékonyságának meghatározására használnak</entry>
 <entry key="codelist|name|entity-activity">A közszolgáltató ajánlatkérők esetében engedélyezett főtevékenység-kódokat tartalmazó lista</entry>
 <entry key="codelist|name|environmental-impact">Ez a táblázat arról nyújt tájékoztatást, hogy a közbeszerzés – a műszaki leírásban, az értékelési szempontokban, az alkalmassági követelményekben vagy a szerződésteljesítés feltételeiben – magában foglal-e vagy sem olyan szemléletmódot (és ha igen, hogyan), amely az építési beruházás, az árubeszerzés vagy a szolgáltatás környezeti hatásainak csökkentésére irányul.</entry>
 <entry key="codelist|name|esignature-submission">Azon kódok listája, amelyekkel megadható, hogy lehet-e elektronikus aláírást használni vagy sem.</entry>
@@ -56,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Az EU hivatalos nyelveinek kódját tartalmazó lista</entry>
 <entry key="codelist|name|eu-programme">Az Európai Unió által létrehozott és koordinált, illetve az Európai Unió vagy – néhány esetben – a tagállamok pénzügyi támogatásával megvalósuló programok kódját tartalmazó lista.</entry>
 <entry key="codelist|name|exclusion-ground">A kizáró okok azonosítására szolgáló kódok listája</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">Az FSR új szabályokat vezet be, amelyek lehetővé teszik a Bizottság számára, hogy kezelje a külföldi támogatások által okozott torzulásokat.</entry>
 <entry key="codelist|name|form-type">Ez a táblázat a TED-en közzétett hirdetményminta-típusok kódjait és értékeit tartalmazza.</entry>
 <entry key="codelist|name|framework-agreement">Ez a táblázat az ajánlatokban előforduló keretmegállapodás-típusok megkülönböztetésére szolgáló kódok listáját tartalmazza.</entry>
 <entry key="codelist|name|gpp-criteria">Zöld közbeszerzésre vonatkozó kritérium</entry>
 <entry key="codelist|name|indicator">Az e-hirdetményekben megengedett mutatók értékeinek listája</entry>
 <entry key="codelist|name|innovative-acquisition">Ez a táblázat azokat a kódokat és értékeket tartalmazza, amelyek a közbeszerzés keretében beszerezni kívánt innovatív építési beruházások, áruk vagy szolgáltatások típusának jelölésére szolgálnak.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Ez a táblázat a kódok és értékek listáját adja meg, amelyeket az IPI intézkedés alkalmazásának kivételének meghatározására használnak</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Ez a táblázat a kódok és értékek listáját adja meg, amelyeket az alkalmazott IPI intézkedés meghatározására használnak</entry>
 <entry key="codelist|name|irregularity-type">Ez a kódlista általában a C(2019) 3452 bizottsági határozat mellékletének 2. szakaszában ismertetett szabálytalanságtípusokra vonatkozik.</entry>
 <entry key="codelist|name|language">Az ISO 639 nemzetközi szabványnak megfeleltetett, három karakterből álló nyelvkódoknak, valamint egyes, kiutalt ISO-kóddal nem rendelkező nyelvek kiegészítő kódjainak a listája.</entry>
 <entry key="codelist|name|lawful-country">Azon országok jegyzéke, amelyek esetében létezik jogalap az Európai Unió Hivatalos Lapjának Kiegészítésében való közzétételhez</entry>
@@ -251,7 +258,7 @@
 <entry key="codelist|name|transport-service">Ez a táblázat a közlekedési szolgáltatások listáját tartalmazza.</entry>
 <entry key="codelist|name|usage">Azon kódok listája, amelyekkel jelezhető, hogy a kapcsolódó fogalom használható-e vagy sem.</entry>
 <entry key="codelist|name|veat">Az „önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény” típusú hirdetmények esetében engedélyezett hirdetményaltípusok kódját tartalmazó lista.</entry>
-<entry key="codelist|name|vehicle-category">A 2009/33/EK irányelv hatálya alá tartozó járműkategória.</entry>
+<entry key="codelist|name|vehicle-category">A 2009/33/EK irányelv hatálya alá tartozó járműkategória.</entry>
 <entry key="codelist|name|vehicles">A járműkategóriák kódjának listája.</entry>
 <entry key="codelist|name|winner-selection-status">Ez a táblázat azoknak a kódoknak és értékeknek a listáját tartalmazza, amelyek annak jelzésére szolgálnak, hogy van-e kiválasztva nyertes ajánlattevő, és hogy nyílt eljárásról van-e szó.</entry>
 </properties>

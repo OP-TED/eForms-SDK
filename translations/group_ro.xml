@@ -237,6 +237,8 @@
 <entry key="group|name|GR-Winner">Câștigător</entry>
 <entry key="group|name|ND-AcceleratedProcedure">Procedură accelerată</entry>
 <entry key="group|name|ND-AccessibilityJustification">Justificarea absenței criteriilor de accesibilitate</entry>
+<entry key="group|name|ND-AppealProcessingParty">Partea care se ocupă de revizuire la etapa de procesare dată.</entry>
+<entry key="group|name|ND-AppealingParty">O parte care a inițiat cererea de revizuire</entry>
 <entry key="group|name|ND-Asset">Active care justifică prelungirea contractului</entry>
 <entry key="group|name|ND-AuctionTerms">Condițiile licitației</entry>
 <entry key="group|name|ND-AwardingTermsJuryMember">Membru al juriului</entry>
@@ -257,6 +259,16 @@
 <entry key="group|name|ND-DirectAwardJustificationCodeUnpublish">Codul justificării atribuirii directe (publicare ulterioară)</entry>
 <entry key="group|name|ND-DirectAwardJustificationPreviousUnpublish">Identificatorul unei proceduri anterioare care a justificat atribuirea directă (publicare ulterioară)</entry>
 <entry key="group|name|ND-DirectAwardJustificationTextUnpublish">Justificarea pentru atribuirea directă (publicare ulterioară)</entry>
+<entry key="group|name|ND-EEDAssetLabel">Eticheta EED pentru un anumit activ achiziționat al unui LotResult</entry>
+<entry key="group|name|ND-EEDAssetQuantity">Cantitatea EED pentru un anumit activ achiziționat al unui LotResult</entry>
+<entry key="group|name|ND-EEDConsumption">Consumul anual de energie EED pentru un anumit activ achiziționat al unui LotResult</entry>
+<entry key="group|name|ND-EEDInformationLot">Informații despre produsele EED care urmează să fie achiziționate</entry>
+<entry key="group|name|ND-EEDInformationLotResult">Informații legate de EED pentru un anumit LotResult</entry>
+<entry key="group|name|ND-EEDLot">Informații despre EED și activele asociate prevăzute: aplicabilitatea EED și produsele cumpărate</entry>
+<entry key="group|name|ND-EEDLotResult">Informații generale despre activele cumpărate în cadrul EED: tipul de produs, categoria și cantitatea</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLot">Identificarea unuia dintre activele care urmează să fie achiziționate</entry>
+<entry key="group|name|ND-EEDProcurementDetailsLotResult">Informații detaliate EED pentru un anumit activ achiziționat al unui LotResult</entry>
+<entry key="group|name|ND-EEDSavings">Economia anuală de energie EED pentru un anumit activ achiziționat al unui LotResult</entry>
 <entry key="group|name|ND-EuEntity">Număr de înregistrare UE</entry>
 <entry key="group|name|ND-ExclusionGrounds">Motive de excludere</entry>
 <entry key="group|name|ND-ExecutionRequirements">Termeni de performanță</entry>
@@ -270,6 +282,8 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identificatorul valorii maxime a grupului (publicare ulterioară)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Valoarea maximă a grupului (publicare ulterioară)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Valoarea recalculată a grupului (publicare ulterioară)</entry>
+<entry key="group|name|ND-IPIInformation">Informații despre toate măsurile aplicate</entry>
+<entry key="group|name|ND-IPILotResult">Informații generale despre Instrumentul de Achiziție Internațională</entry>
 <entry key="group|name|ND-LateTendererInformation">Informații privind ofertantul care pot fi depuse după expirarea termenului</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Alt temei juridic fără identificator cunoscut</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Alt temei juridic cu identificator</entry>
@@ -352,6 +366,7 @@
 <entry key="group|name|ND-Organization">Organizații menționate în anunț</entry>
 <entry key="group|name|ND-OrganizationUboReference">Beneficiar efectiv final</entry>
 <entry key="group|name|ND-OtherContractExecutionConditions">Alte condiții decât alocarea de venituri</entry>
+<entry key="group|name|ND-PMCAnswersDeadline">Termenul limită pentru primirea răspunsurilor</entry>
 <entry key="group|name|ND-Part">Parte</entry>
 <entry key="group|name|ND-PartAdditionalClassification">Clasificare suplimentară</entry>
 <entry key="group|name|ND-PartContractAdditionalNature">Natură suplimentară a contractului</entry>
@@ -377,8 +392,9 @@
 <entry key="group|name|ND-ProcedureContractAdditionalNature">Natură suplimentară a contractului</entry>
 <entry key="group|name|ND-ProcedureFeaturesUnpublish">Caracteristicile procedurii (publicare ulterioară)</entry>
 <entry key="group|name|ND-ProcedureMainClassification">Clasificare principală</entry>
+<entry key="group|name|ND-ProcedurePlacePerformance">Un loc în care achiziția, pentru procedura în ansamblu, ar trebui să aibă loc</entry>
 <entry key="group|name|ND-ProcedurePlacePerformanceAdditionalInformation">Informații suplimentare privind locul de efectuare</entry>
-<entry key="group|name|ND-ProcedureProcurementScope">Condiții de ofertare</entry>
+<entry key="group|name|ND-ProcedureProcurementScope">Descriere</entry>
 <entry key="group|name|ND-ProcedureTenderingProcess">Scop</entry>
 <entry key="group|name|ND-ProcedureTransportServiceType">Tip de serviciu de transport</entry>
 <entry key="group|name|ND-ProcedureTypeUnpublish">Tipul de procedură (publicare ulterioară)</entry>
@@ -390,9 +406,11 @@
 <entry key="group|name|ND-ReceivedSubmissions">Statistici privind ofertele primite</entry>
 <entry key="group|name|ND-ReestimatedValueUnpublish">Valoare reestimată (publicată mai târziu)</entry>
 <entry key="group|name|ND-RevenueAllocation">Procent de alocare a veniturilor</entry>
+<entry key="group|name|ND-ReviewRequests">Informații despre revizuirile solicitate și stările lor asociate</entry>
 <entry key="group|name|ND-ReviewRequestsStatistics">Statistici privind cererile de soluționare a căilor de atac</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsCountUnpublish">Numărul de nereguli din cererile de soluționare a căilor de atac (publicare ulterioară)</entry>
 <entry key="group|name|ND-ReviewRequestsStatisticsTypeUnpublish">Tipul de nereguli din cererile de soluționare a căilor de atac (publicare ulterioară)</entry>
+<entry key="group|name|ND-ReviewStatus">Starea cererilor de revizuire trimise (ID, etapă, titlu, descriere, cerere, decizie)</entry>
 <entry key="group|name|ND-RewardsPenalties">Recompense și sancțiuni</entry>
 <entry key="group|name|ND-SecondStageThresholdCriterionParameter">Parametrul pragului etapei a doua</entry>
 <entry key="group|name|ND-SecondStageWeightCriterionParameter">Parametrul ponderii etapei a doua</entry>
@@ -414,6 +432,7 @@
 <entry key="group|name|ND-SubcontractingUnpublish">Subcontractare (publicare ulterioară)</entry>
 <entry key="group|name|ND-SubcontractingValueKnownUnpublish">Valoarea subcontractării este cunoscută (publicare ulterioară)</entry>
 <entry key="group|name|ND-SubcontractingValueUnpublish">Valoarea subcontractării (publicare ulterioară)</entry>
+<entry key="group|name|ND-TenderAggregatedAmounts">Suma agregată pentru toate contractele de execuție ale licitației date până la sfârșitul proiectului</entry>
 <entry key="group|name|ND-TenderRankUnpublish">Poziția ofertei (publicare ulterioară)</entry>
 <entry key="group|name|ND-TenderValueHighestUnpublish">Valoarea celei mai mari licitații (publicată mai târziu)</entry>
 <entry key="group|name|ND-TenderValueLowestUnpublish">Valoarea celei mai mici licitații (publicată mai târziu)</entry>

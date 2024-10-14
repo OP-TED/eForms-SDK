@@ -46,7 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Lista kodów określających, czy przesyłanie katalogów elektronicznych jest dozwolone.</entry>
 <entry key="codelist|name|economic-operator-size">Ta tabela przedstawia poszczególne kategorie, do których klasyfikowani są oferenci, którym można udzielić zamówienia, w zależności od ich wielkości (stosując jako kryterium liczbę pracowników).</entry>
 <entry key="codelist|name|eea-country">Lista kodów państw Europejskiego Obszaru Gospodarczego</entry>
+<entry key="codelist|name|eed-scope">Ta tabela zawiera listę kodów i wartości używanych do wskazania, że zamówienie publiczne podlega zakresowi Dyrektywy w sprawie efektywności energetycznej</entry>
 <entry key="codelist|name|einvoicing">Lista kodów określających, czy korzystanie z fakturowania elektronicznego jest dozwolone.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Ramowy prawny dla elementów, takich jak delegowane akty dotyczące etykietowania energetycznego, środki wykonawcze (Dyrektywa 2009/125/WE) lub Rozporządzenie 2020/740; produkty i usługi objęte GPP; prace, usługi lub budynki</entry>
+<entry key="codelist|name|energy-efficiency-item">Produkty objęte delegowanymi aktami dotyczącymi etykietowania energetycznego, środkami wykonawczymi (Dyrektywa 2009/125/WE) lub Rozporządzeniem 2020/740; produkty i usługi objęte GPP; prace, usługi lub budynki</entry>
+<entry key="codelist|name|energy-efficiency-label">Ta tabela zawiera listę kodów i wartości używanych do określania efektywności energetycznej produktu</entry>
 <entry key="codelist|name|entity-activity">Lista kodów głównej działalności dozwolonych dla podmiotu zamawiającego</entry>
 <entry key="codelist|name|environmental-impact">Ta tabela zawiera informacje na temat tego, czy zamówienie obejmuje (i w jaki sposób) podejście do zmniejszenia wpływu na środowisko robót budowlanych, dostaw lub usług, zastosowane w specyfikacjach technicznych, kryteriach udzielenia zamówienia, kryteriach kwalifikacji lub specyfikacji warunków zamówienia.</entry>
 <entry key="codelist|name|esignature-submission">Lista kodów określających, czy można używać podpisu elektronicznego.</entry>
@@ -56,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Lista kodów języków urzędowych UE</entry>
 <entry key="codelist|name|eu-programme">Lista kodów programów stworzonych i koordynowanych przez Unię Europejską oraz wspieranych finansowo przez Unię Europejską lub, w kilku przypadkach, przez wkład państw członkowskich.</entry>
 <entry key="codelist|name|exclusion-ground">Lista kodów do identyfikacji podstawy wykluczenia</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR wprowadza nowy zestaw zasad, które umożliwiają Komisji rozwiązywanie problemów związanych z zakłóceniami spowodowanymi przez zagraniczne dotacje.</entry>
 <entry key="codelist|name|form-type">Ta tabela zawiera kody i wartości używane dla typów formularzy publikowanych na TED.</entry>
 <entry key="codelist|name|framework-agreement">Ta tabela zawiera listę kodów rozróżniających poszczególne rodzaje umów ramowych związanych z ofertą.</entry>
 <entry key="codelist|name|gpp-criteria">Kryteria zielonych zamówień publicznych</entry>
 <entry key="codelist|name|indicator">Lista dozwolonych w e-formularzu wartości wskaźników</entry>
 <entry key="codelist|name|innovative-acquisition">Ta tabela zawiera kody i wartości stosowane dla rodzaju innowacyjnych robót budowlanych, dostaw lub usług zamawianych w kontekście zamówień publicznych.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Ta tabela zawiera listę kodów i wartości używanych do określania wyjątku od zastosowania środka IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Ta tabela zawiera listę kodów i wartości używanych do określania zastosowanego środka IPI</entry>
 <entry key="codelist|name|irregularity-type">Niniejsza lista kodów odnosi się ogólnie do rodzajów nieprawidłowości opisanych w sekcji 2 załącznika do decyzji Komisji C(2019) 3452.</entry>
 <entry key="codelist|name|language">Lista trzyznakowych kodów językowych, skorelowanych z normą międzynarodową ISO 639 i dodatkowymi kodami dla niektórych języków bez przypisanego kodu ISO.</entry>
 <entry key="codelist|name|lawful-country">Wykaz państw, dla których istnieje podstawa prawna do publikacji w Suplemencie do Dziennika Urzędowego Unii Europejskiej</entry>

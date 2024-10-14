@@ -1773,6 +1773,7 @@
 		<diagnostic id="ND-ProcedureTypeUnpublish" see="node:ND-ProcedureTypeUnpublish">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy</diagnostic>
 		<diagnostic id="ND-ProcedureValueEstimate" see="node:ND-ProcedureValueEstimate">cac:RequestedTenderTotal</diagnostic>
 		<diagnostic id="ND-ProcurementDetailsLotResult" see="node:ND-ProcurementDetailsLotResult">efac:ProcurementDetails</diagnostic>
+		<diagnostic id="ND-ProcurementStatistics" see="node:ND-ProcurementStatistics">efac:StrategicProcurementStatistics</diagnostic>
 		<diagnostic id="ND-PublicOpening_BT-133-Lot" see="field:BT-133-Lot">cac:OccurenceLocation/cbc:Description</diagnostic>
 		<diagnostic id="ND-ReceivedSubmissions" see="node:ND-ReceivedSubmissions">efac:ReceivedSubmissionsStatistics</diagnostic>
 		<diagnostic id="ND-ReviewRequests" see="node:ND-ReviewRequests">efac:Appeals</diagnostic>

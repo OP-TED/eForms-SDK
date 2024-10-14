@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.359",
-    "createdOn" : "2024-09-20T13:39:57"
+    "version" : "1.12.407",
+    "createdOn" : "2024-10-07T10:28:51"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -3478,7 +3478,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "14", "38", "39", "40", "CEI", "E1", "E2", "E6", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "38", "39", "40", "CEI", "E1", "E2", "E6", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23948,15 +23948,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{BT-501-Organization-Company} ${BT-501-Organization-Company is unique in /BT-501-Organization-Company}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00501-0259"
-      } ]
     }
   }, {
     "id" : "BT-5010-Lot",
@@ -35980,7 +35971,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5" ],
-        "condition" : "{ND-ReviewStatus} ${(BT-792-Review is not present) or not(BT-783-Review == 'dec')}",
+        "condition" : "{ND-ReviewStatus} ${(BT-792-Review is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -36020,6 +36011,7 @@
     "type" : "url",
     "businessEntityId" : "reviewInformation",
     "legalType" : "URL",
+    "maxLength" : 400,
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -36700,7 +36692,7 @@
   }, {
     "id" : "BT-807-Review",
     "parentNodeId" : "ND-AppealProcessingParty",
-    "name" : "Review Body (Reference ID)",
+    "name" : "Review Body Identifier",
     "btId" : "BT-807",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID",
     "xpathRelative" : "cac:Party/cac:PartyIdentification/cbc:ID",
@@ -36736,7 +36728,7 @@
   }, {
     "id" : "BT-807-Review-Scheme",
     "parentNodeId" : "ND-AppealProcessingParty",
-    "name" : "Review Body (Reference ID) Schemename",
+    "name" : "Review Body Identifier Schemename",
     "btId" : "BT-807",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",
     "xpathRelative" : "cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",
@@ -36754,7 +36746,7 @@
   }, {
     "id" : "BT-808-Review",
     "parentNodeId" : "ND-AppealingParty",
-    "name" : "Review Requester (Reference ID)",
+    "name" : "Review Applicant Identifier",
     "btId" : "BT-808",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID",
     "xpathRelative" : "cac:Party/cac:PartyIdentification/cbc:ID",
@@ -36790,7 +36782,7 @@
   }, {
     "id" : "BT-808-Review-Scheme",
     "parentNodeId" : "ND-AppealingParty",
-    "name" : "Review Requester (Reference ID) Schemename",
+    "name" : "Review Applicant Identifier Schemename",
     "btId" : "BT-808",
     "xpathAbsolute" : "/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",
     "xpathRelative" : "cac:Party/cac:PartyIdentification/cbc:ID/@schemeName",
@@ -36902,7 +36894,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "36", "37", "E1", "E2", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "36", "37", "E1", "E2", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -36952,11 +36944,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "36", "37", "E1", "E2", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "36", "37", "E1", "E2", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "CEI", "E3", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "CEI", "E3", "E4", "E5", "E6" ],
         "condition" : "{ND-EEDLot} ${not(BT-810-Lot == 'true')}",
         "value" : true,
         "severity" : "ERROR"
@@ -37007,11 +36999,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4" ],
         "condition" : "{ND-LotResult} ${(BT-13713-LotResult in BT-137-Lot[not(BT-810-Lot == 'true')]) or not(BT-142-LotResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
@@ -37026,7 +37018,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -37076,11 +37068,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "36", "37", "E1", "E2", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "36", "37", "E1", "E2", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "CEI", "E3", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "CEI", "E3", "E4", "E5", "E6" ],
         "condition" : "{ND-EEDLot} ${not(BT-810-Lot == 'true')}",
         "value" : true,
         "severity" : "ERROR"
@@ -37090,7 +37082,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "CEI", "E3", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "CEI", "E3", "E4", "E5", "E6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -37140,11 +37132,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4" ],
         "condition" : "{ND-LotResult} ${(BT-13713-LotResult in BT-137-Lot[not(BT-810-Lot == 'true')]) or not(BT-142-LotResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
@@ -37159,7 +37151,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -37209,11 +37201,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "condition" : "{ND-EEDProcurementDetailsLotResult} ${not(BT-811(a)-LotResult == 'enrg-lab')}",
         "value" : true,
         "severity" : "ERROR"
@@ -37223,7 +37215,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -37272,11 +37264,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "condition" : "{ND-EEDProcurementDetailsLotResult} ${(BT-811(a)-LotResult is not present) or (BT-811(a)-LotResult == 'enrg-lab')}",
         "value" : true,
         "severity" : "ERROR"
@@ -37286,7 +37278,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -37310,11 +37302,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "condition" : "{ND-EEDProcurementDetailsLotResult} ${BT-811(a)-LotResult is not present}",
         "value" : true,
         "severity" : "ERROR"
@@ -37324,7 +37316,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "condition" : "{ND-EEDProcurementDetailsLotResult} ${(BT-811(a)-LotResult is present) and not(BT-811(a)-LotResult == 'enrg-lab')}",
         "value" : true,
         "severity" : "ERROR"
@@ -37349,11 +37341,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "36", "37", "CEI", "E1", "E2", "E3", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "condition" : "{ND-EEDProcurementDetailsLotResult} ${BT-811(a)-LotResult is not present}",
         "value" : true,
         "severity" : "ERROR"
@@ -37363,7 +37355,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "38", "39", "40", "E4", "E5", "E6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -37719,11 +37711,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14", "15", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "E3" ],
+        "noticeTypes" : [ "7", "8", "16", "17", "18", "19", "20", "21", "22", "E3" ],
         "condition" : "{ND-LotTenderingTerms} ${BT-105-Procedure not in ('open','oth-single')}",
         "value" : true,
         "severity" : "ERROR"

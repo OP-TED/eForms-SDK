@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.13.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.12.359",
-    "createdOn" : "2024-09-20T13:39:57"
+    "version" : "1.12.389",
+    "createdOn" : "2024-09-30T14:39:28"
   },
   "noticeId" : "E1",
   "metadata" : [ {
@@ -997,20 +997,6 @@
           "displayType" : "COMBOBOX",
           "description" : "Review Organization Technical Identifier Reference",
           "_label" : "field|name|OPT-301-Lot-ReviewOrg",
-          "_idSchemes" : [ "ORG", "TPO" ]
-        } ]
-      }, {
-        "id" : "GR-Lot-ReviewInfo",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Review Information Providing Organisation",
-        "_label" : "group|name|GR-Lot-ReviewInfo",
-        "content" : [ {
-          "id" : "OPT-301-Lot-ReviewInfo",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Review Info Provider Technical Identifier Reference",
-          "_label" : "field|name|OPT-301-Lot-ReviewInfo",
           "_idSchemes" : [ "ORG", "TPO" ]
         } ]
       }, {

@@ -46,7 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Liste over koder, der angiver, om indsendelse af elektroniske kataloger er tilladt eller ej.</entry>
 <entry key="codelist|name|economic-operator-size">Denne tabel viser de forskellige kategorier, hvori de tilbudsgivere, der kan få tildelt en kontrakt, klassificeres efter deres størrelse (baseret på antallet af ansatte).</entry>
 <entry key="codelist|name|eea-country">Liste over koder for landene i Det Europæiske Økonomiske Samarbejdsområde</entry>
+<entry key="codelist|name|eed-scope">Denne tabel giver listen over koder og værdier, der anvendes til at angive, at et udbud falder ind under energibesparelsesdirektivet</entry>
 <entry key="codelist|name|einvoicing">Liste over koder, der angiver, om brug af elektronisk fakturering er tilladt eller ej.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Juridisk ramme for elementer, som energimærkningsdelegerede handlinger, gennemførelsesforanstaltninger (direktiv 2009/125/EF) eller forordning 2020/740; produkter og tjenester dækket af GPP; arbejder, tjenester eller bygninger</entry>
+<entry key="codelist|name|energy-efficiency-item">Produkter dækket af energimærkningsdelegerede handlinger, gennemførelsesforanstaltninger (direktiv 2009/125/EF) eller forordning 2020/740; produkter og tjenester dækket af GPP; arbejder, tjenester eller bygninger</entry>
+<entry key="codelist|name|energy-efficiency-label">Denne tabel giver en liste over koder og værdier, der bruges til at specificere produktets energieffektivitet</entry>
 <entry key="codelist|name|entity-activity">Liste over primære aktivitetskoder, der er tilladt for en ordregiver</entry>
 <entry key="codelist|name|environmental-impact">Denne tabel indeholder oplysninger om, hvorvidt et udbud omfatter (og hvordan) en tilgang til reduktion af miljøvirkningerne af det arbejde, den forsyning eller den tjenesteydelse, der anvendes i de tekniske specifikationer, tildelingskriterierne, udvælgelseskriterierne eller den udførte kontrakt</entry>
 <entry key="codelist|name|esignature-submission">Liste over koder, der angiver, om der kan anvendes elektronisk signatur eller ej.</entry>
@@ -56,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Liste over koder for de officielle EU-sprog</entry>
 <entry key="codelist|name|eu-programme">Liste over koder for programmer, der er oprettet og koordineres af Den Europæiske Union og støttes finansielt af Den Europæiske Union eller i enkelte tilfælde af bidrag fra medlemsstaterne.</entry>
 <entry key="codelist|name|exclusion-ground">Liste over koder for identifikation af udelukkelsesgrunde</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR introducerer et nyt sæt regler, der gør det muligt for Kommissionen at håndtere forvridninger forårsaget af udenlandske subsidier.</entry>
 <entry key="codelist|name|form-type">Denne tabel viser de koder og værdier, der er anvendt for den type formularer, der er offentliggjort i TED.</entry>
 <entry key="codelist|name|framework-agreement">Denne tabel indeholder en liste over koder, der gør det muligt at skelne mellem de forskellige typer rammeaftaler, der indgår i et udbud.</entry>
 <entry key="codelist|name|gpp-criteria">Kriterier for grønne offentlige udbud</entry>
 <entry key="codelist|name|indicator">Liste over tilladte indikatorværdier for maskinlæsbare formularer</entry>
 <entry key="codelist|name|innovative-acquisition">Denne tabel viser de koder og værdier, der anvendes for den type af innovative arbejder, forsyninger eller tjenesteydelser, der indkøbes i forbindelse med offentlige udbud.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Denne tabel giver en liste over koder og værdier, der bruges til at specificere undtagelsen til anvendelsen af IPI-målingen</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Denne tabel giver en liste over koder og værdier, der bruges til at specificere den anvendte IPI-måling</entry>
 <entry key="codelist|name|irregularity-type">Denne kodeliste henviser generelt til de typer uregelmæssigheder, der er beskrevet i afsnit 2 i bilaget til Kommissionens afgørelse C (2019) 3452.</entry>
 <entry key="codelist|name|language">Liste over sprogkoder på tre tegn der er forbundet med den internationale ISO 639-standard med yderligere koder for nogle sprog uden tildelt ISO-kode.</entry>
 <entry key="codelist|name|lawful-country">Liste over lande, for hvilke der er retsgrundlag for offentliggørelse i tillægget til Den Europæiske Unions Tidende</entry>

@@ -3406,8 +3406,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E1</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доброволно обявление за предпазарна консултация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dobrovolné oznámení o předběžné tržní konzultaci</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Frivillig meddelelse om høring forud for markedsføring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Bekanntmachung über vorherige Marktkonsultation</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθελοντική γνωστοποίηση προκαταρκτικής διαβούλευσης με την αγορά</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Voluntary Pre-market Consultation Notice</SimpleValue>
+            <SimpleValue>Voluntary pre-market consultation notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio voluntario de consulta previa a la introducción en el mercado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik hanke-eelne turu-uuring</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoinen ennakoivaa markkinakartoitusta koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis volontaire de consultation avant marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dobrovolný fógra comhairliúcháin réamh-mhargaidh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dobrovoljna obavijest o prethodnoj provjeri tržišta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes piaci konzultációt megelőző hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario di consultazione preliminare di mercato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas skelbimas apie rinkos konsultacijas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīga iepriekšējas tirgus izzināšanas paziņojums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż volontarju tal-konsultazzjoni ta’ qabel is-suq</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrijwillige aankondiging van voorafgaande marktconsultatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dobrowolne ogłoszenie o wstępnych konsultacjach rynkowych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de consulta preliminar do mercado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț voluntar de consultare înainte de introducerea pe piață</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dobrovoľné oznámenie o predbežnej trhovej konzultácii</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dobrovoljno obvestilo o predhodnem preverjanju trga</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Frivilligt meddelande om förberedande marknadssamråd</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3417,8 +3486,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E2</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доброволно обявление за предварителна информация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dobrovolné předběžné oznámení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Frivillig vejledende forhåndsmeddelelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Vorabinformation</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθελοντική προκαταρκτική προκήρυξη</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Voluntary Prior Information Notice</SimpleValue>
+            <SimpleValue>Voluntary prior information notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio voluntario de información previa</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik eelteade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoinen ennakkotiedote</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis volontaire de préinformation</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dobrovolný fógra réamhfhaisnéise</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dobrovoljna prethodna informacijska obavijest</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes előzetes tájékoztató</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario di preinformazione</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas išankstinis informacinis skelbimas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgs iepriekšējs informatīvs paziņojums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż volontarju informattiv minn qabel</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrijwillige vooraankondiging</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dobrowolne wstępne ogłoszenie informacyjne</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de pré-informação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț voluntar de intenție</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dobrovoľné predbežné oznámenie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dobrovoljno predhodno informativno obvestilo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Frivilligt förhandsmeddelande</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3428,8 +3566,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доброволно обявление за поръчка</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dobrovolné oznámení o zahájení zadávacího řízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Frivillig udbudsbekendtgørelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Auftragsbekanntmachung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθελοντική προκήρυξη διαγωνισμού</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Voluntary Contract Notice</SimpleValue>
+            <SimpleValue>Voluntary contract notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio voluntario de licitación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik hanketeade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoinen hankintailmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis volontaire de marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dobrovolný fógra conartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dobrovoljna obavijest o nadmetanju</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes eljárást megindító hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario di gara</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas skelbimas apie viešąjį pirkimą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgs paziņojums par līgumu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż volontarju ta’ kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrijwillige aankondiging van een opdracht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dobrowolne ogłoszenie o zamówieniu</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de concurso</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț voluntar de participare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dobrovoľné oznámenie o vyhlásení obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dobrovoljno obvestilo o naročilu</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Frivilligt meddelande om upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3439,8 +3646,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E4</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доброволно обявление за възложена поръчка</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dobrovolné oznámení o výsledku zadávacího řízení</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Frivillig bekendtgørelse om indgåede kontrakter</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Vergabebekanntmachung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθελοντική γνωστοποίηση ανάθεσης</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Voluntary Award Notice</SimpleValue>
+            <SimpleValue>Voluntary award notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio voluntario de adjudicación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik lepingu sõlmimise teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoinen jälki-ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis volontaire d’attribution</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dobrovolný fógra faoi dhámhachtain</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dobrovoljna obavijesti o dodjeli ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes tájékoztató az eljárás eredményéről</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario di aggiudicazione (CAN)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas skelbimas apie sutarties sudarymą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgs paziņojums par piešķiršanu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż volontarju ta’ għoti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrijwillig gunningsbericht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dobrowolne ogłoszenie o udzieleniu zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário da adjudicação</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț voluntar de atribuire a contractului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dobrovoľné oznámenie o výsledku obstarávania</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dobrovoljno obvestilo o oddaji naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Frivilliga meddelanden om tilldelning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3450,8 +3726,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E5</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доброволно обявление за изпълнена поръчка</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dobrovolné oznámení o dokončení zakázky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Frivillig bekendtgørelse om færdiggørelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Bekanntmachung über die Auftragsausführung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθελοντική γνωστοποίηση ολοκλήρωσης</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Voluntary Completion Notice</SimpleValue>
+            <SimpleValue>Voluntary completion notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio voluntario de finalización</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik lepingu täitmise teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoinen toteutusilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis volontaire d’achèvement</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dobrovolný fógra comhlánaithe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dobrovoljna obavijest o izvršenju ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes tájékoztató szerződés teljesítéséről</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario di completamento</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas skelbimas apie sutarties įvykdymą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgs paziņojums par pabeigšanu</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż volontarju ta’ tlestija</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrijwillige kennisgeving van voltooiing</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dobrowolne ogłoszenie o ukończeniu realizacji zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de conclusão</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț voluntar de finalizare</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dobrovoľné oznámenie o dokončení</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dobrovoljno obvestilo o dokončanju</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Frivilliga meddelanden om genomfört kontrakt</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3461,8 +3806,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>E6</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Доброволно обявление за изменение на договор</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Dobrovolné oznámení o změně smlouvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Frivillig bekendtgørelse om kontraktændring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Freiwillige Bekanntmachung einer Auftragsänderung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εθελοντική γνωστοποίηση τροποποίησης σύμβασης</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Voluntary Contract Modification Notice</SimpleValue>
+            <SimpleValue>Voluntary contract modification notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio voluntario de modificación de contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Vabatahtlik lepingu muutmise teade</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Vapaaehtoinen hankintasopimuksen muuttamista koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis volontaire de modification du marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Dobrovolný fógra faoi mhodhnú conartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Dobrovoljna obavijest o izmjeni ugovora</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Önkéntes tájékoztató szerződésmódosításról</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso volontario di modifica di un appalto</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Savanoriškas skelbimas apie sutarties keitimą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Brīvprātīgs paziņojums par līguma grozījumiem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż volontarju ta’ modifika f’kuntratt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Vrijwillige aankondiging van wijziging contract</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dobrowolne ogłoszenie o modyfikacji umowy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio voluntário de modificação do contrato</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț voluntar de modificare a contractului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Dobrovoľné oznámenie o úprave zmluvy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Dobrovoljno obvestilo o spremembi naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Frivilligt meddelande om kontraktsändring</SimpleValue>
          </Value>
       </Row>
       <Row>

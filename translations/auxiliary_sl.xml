@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Merila dostopnosti</entry>
 <entry key="auxiliary|text|adhoc-communication">Sprotni komunikacijski kanal</entry>
 <entry key="auxiliary|text|award-criteria">Merila za oddajo javnega naročila</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategorija merila za oddajo javnega naročila teža</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategorija merila za oddajo javnega naročila fiksna vrednost</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategorija merila za oddajo javnega naročila prag</entry>
 <entry key="auxiliary|text|beneficial-owner">Dejanski lastnik</entry>
 <entry key="auxiliary|text|buyer">Kupec</entry>
 <entry key="auxiliary|text|buyer-competent">Pristojni organ</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Trajanje</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Trajanje razpisa za prijavo interesa</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informacije o dinamičnem nabavnem sistemu</entry>
+<entry key="auxiliary|text|eed-applicable">Nabava spada v okvir Direktive o energetski učinkovitosti (EED) (EU) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Seznam izdelkov, del, storitev in zgradb, povezanih z Direktivo o energetski učinkovitosti (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektronska dražba</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Predvidena datum začetka in trajanje javnega naročila</entry>
 <entry key="auxiliary|text|essential-assets">Osnovna sredstva</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Skupina sklopov</entry>
 <entry key="auxiliary|text|grouping">Ime združenja</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informacije o nagrajevanjih in kaznih</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Nabava spada v okvir Mednarodnega instrumenta za javno naročanje (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistika o ukrepih Mednarodnega instrumenta za javno naročanje (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Jeziki, v katerih se lahko oddajo prijave interesa</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informacije, ki se lahko dodajo po roku za predložitev</entry>
 <entry key="auxiliary|text|legal-basis">Pravna podlaga</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Podaljšanje</entry>
 <entry key="auxiliary|text|results">Rezultati</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Rezultat postopka oddaje javnega naročila</entry>
+<entry key="auxiliary|text|review">Revizija</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Zahteva za pregled ali začasne ukrepe je bila umaknjena</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Vrsta domnevne nepravilnosti</entry>
 <entry key="auxiliary|text|review-requests-summary">Povzetek zahtevkov za pregled, ki jih je prejel kupec</entry>
 <entry key="auxiliary|text|roles">Vloge te organizacije</entry>

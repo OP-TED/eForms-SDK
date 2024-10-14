@@ -5,7 +5,7 @@
       <ShortName>DirectAwardJustification</ShortName>
       <LongName>direct-award-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/direct-award-justification</LongName>
-      <Version>20240612-0</Version>
+      <Version>20240925-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/direct-award-justification</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -2198,6 +2198,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Vissa fall som inte har karaktär av kontrakt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>non-dir</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The procurement falls outside the scope of application of the directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обществената поръчка не попада в обхвата на приложение на директивата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zakázka nespadá do oblasti působnosti příslušné směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbuddet er ikke omfattet af direktivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Auftrag fällt nicht in den Anwendungsbereich der Richtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η σύμβαση δεν εμπίπτει στο πεδίο εφαρμογής της οδηγίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The procurement falls outside the scope of application of the directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El contrato no entra en el ámbito de aplicación de la Directiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hange ei kuulu direktiivi kohaldamisalasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankinta ei kuulu direktiivin soveltamisalaan</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Le contrat ne relève pas du champ d'application de la directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá an soláthar lasmuigh de raon feidhme na Treorach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Javna je nabava izuzeta iz područja primjene Direktive</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beszerzés nem tartozik az irányelv hatálya alá</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'appalto non rientra nel campo di applicazione della direttiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkimui netaikoma direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirkums neietilpst attiecīgās direktīvas darbības jomā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-akkwist ma jaqax fl-ambitu tal-applikazzjoni tad-direttiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De aanbesteding valt buiten het toepassingsgebied van de richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamówienie nie jest objęte zakresem stosowania dyrektywy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O concurso não é abrangido pelo âmbito de aplicação da diretiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Achiziţia nu se încadrează în domeniul de aplicare al directivei</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zákazka nespadá do rozsahu uplatňovania smernice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Naročilo ne spada v področje uporabe Direktive</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Kontraktet ligger utanför direktivets tillämpningsområde</SimpleValue>
          </Value>
       </Row>
       <Row>
