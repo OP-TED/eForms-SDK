@@ -5,6 +5,12 @@ This release of the SDK does not contain any backwards incompatible changes: sof
 
 ## Updated metadata content
 
+### EFX grammar
+
+A small change was made to the EFX grammar, to remove an unneeded alternative in a parser rule. This improves the performance of parsers generated from the grammar by reducing the time spent looking ahead and backtracking.
+This does not change the EFX language, or the output of the parser or transaltor.
+A new version of the EFX toolkit will be released to take advantage of this improvement. If you have your own ANTLR parser generated from the EFX grammar, you will need to re-generate it to benefit from this change.
+
 ### Schema, nodes, fields and notice type definitions
 
 ### Schemas
