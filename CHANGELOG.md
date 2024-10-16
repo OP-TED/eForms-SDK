@@ -84,11 +84,15 @@ Following the review of procedure types per form and the absence of single stage
 
 ### Rules
 
-Add hand-written optimized Schematron.
+In order to reduce the time required to validate notices with a high number of entities (organisations, lots, tenders, etc.), some Schematron rules have been modified to make better use of variables. Those rules have also moved to new files (`validation-stage-4m.sch` and `validation-stage-5m.sch`), to facilitate their maintenance.
 
-#### TEDEFO-3052
-Rule on winner size is too slow on large notices
-The rules like BR-BT-00165-0036 indicate that for CAN notices, if an organisation is a ""winner"", the size of the organisation (field BT-165-Organization-Company) is mandatory.
+Based on tests with the Central Validation Service, the validation can be 3 times faster. So if you plan to submit large notices, we strongly encourage you to use SDK 1.13.
+
+If you execute the Schematron rules yourself and use the "ph-schematron-pure" library, you will need to use version 8.0.3 or later, due to limitations and bugs in previous versions of the library. For other Schematron implementations, no change should be required to benefit from this improvement.
+
+Other changes in the rules include:
+
+* Added rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner.
 
 #### TEDEFO-3061
 OPT-140-Lot (Procurement documents ID) is required by the schema.
