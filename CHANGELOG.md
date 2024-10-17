@@ -44,7 +44,7 @@ Update the NTDs to include the IPI & FSR fields
 Update the NTDs to include the EED fields
 
 #### TEDEFO-3686
-The Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists [NOT ""1"", ""2"", ""3"", ""4"", ""5"", ""6"", ""CEI"", ""E1"", ""E2"", ""T01"", ""T02"", ""X01"", ""X02""]
+The Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists [NOT "1", "2", "3", "4", "5", "6", "CEI", "E1", "E2", "T01", "T02", "X01", "X02"]
 
 Based on proposal in [https://code.europa.eu/eproc/eforms/crs/-/issues/57]
 Move the -Strategic group with BT-06 and BT-777 above the groups with the different types of strategic procurement.
@@ -176,7 +176,7 @@ Also BT-105 Procedure Type is forbidden for any D23 form except 28.
 
 #### TEDEFO-3672
 Update existence rules for Procedure Type (BT-105). BT-105 should:
-* be allowed (O) for D23, E3, E4, E5, QS with any value except (""comp-tend"", ""exp-int-rail""),
+* be allowed (O) for D23, E3, E4, E5, QS with any value except ("comp-tend", "exp-int-rail"),
 * be forbidden for E1, E2, E6
 
 #### TEDEFO-3674
@@ -215,18 +215,10 @@ Get the list of all the required codelists for Review Information
 Define codelists for IPI
 
 #### TEDEFO-3450
-Define codelists for EED
+Define codelists for EED: energy-efficiency-label, energy-efficiency-item, energy-efficiency-basis
 
-|*BT*|*list*|
-|Energy Efficiency Label (BT-812)|*energy-efficiency-label*|
-|EED List (BT-811)|*energy-efficiency-item* for BT-811(b)-Lot/LotResultt
-*energy-efficiency-basis* for BT-811(a)-Lot/LotResultt|
-
- "
 #### TEDEFO-3470
-Remove unused codes from non-publication-identifier codelist
-* not-dis-dat
-* not-pub-dat
+Remove unused codes from non-publication-identifier codelist: not-dis-dat and not-pub-dat
 
 #### TEDEFO-3552
 Define/update required metadata for E6
@@ -236,7 +228,6 @@ Have Form Type, Notice Type and Notice Subtype defined for voluntary forms
 
 #### TEDEFO-3632
 Import of NUTS 2024
-Go from / to |20240111-0|20240612-0|
 
 #### TEDEFO-3656
 Update technical code lists following NUTS update
@@ -246,123 +237,29 @@ September 2024 codelist updates, nuts excluded
 
 ### View templates
 
-#### TEDEFO-3485
-
-Improved display of ""unpublished"" Award Criteria Dimensions and Numbers
-
-####  TEDEFO-3533
-Fixed bugs with display of labels for BT-706-UBO Beneficial Owner Nationality and BT-682-Tender Foreign Subsidies Measures
-
-
-#### TEDEFO-3575
-fixed bug causing fatal error when the Beneficial owner has more than one nationality.
-
-#### TEDEFO-3628
-""Procurement Service Provider"" has been removed from the list of organisations under Section 5.1.16 Further information, mediation and review
-
-#### TEDEFO-3781
-Fixed bug: the names of Tendering Party Leaders are now excluded from the line ""Official name""
-
-
-#### TEDEFO-3793
-view-templates:
-Error when UBO has several nationalities
-
-#### TEDEFO-3799
-EFXT: some templates use deprecated codelist "eforms-country"
-"See [https://github.com/OP-TED/eForms-SDK/issues/1030]
-
-#### TEDEFO-3240
-Added information for Result notices:
-* In section ""5 Lot"", under ""5.1.12 Terms of procurement"", to inform if the Lot falls within the scope of the International Procurement Instrument
-* In section ""6 Results"", under ""Statistics about strategic procurement"" to display information relating to the International Procurement Instrument measures
-
-#### TEDEFO-3451
-Added information for Result notices:
-* For Competition and Result notices, in section ""5 Lot"", under ""Strategic procurement"", to inform if the Lot falls within the scope of the Energy Efficiency Directive, and to list the items that are related to the EED
-* For Result notices, in section ""6 Results"", under ""Statistics about strategic procurement"" to list the items procured that are related to the EED, with information about their efficiency savings
-
-#### TEDEFO-3471
-As the role ""eSender"" applies to the Notice as a whole, the line ""TED eSender"" has been removed from section 5.1.16 ""Further information, mediation and review"" for all eForms subtypes.
-
-#### TEDEFO-3475
-Display both Organisation Name and TouchPoint Name where a role is performed by a TouchPoint
-
-#### TEDEFO-3486
-Generate random addresses across different EU countries
-Apply these addresses to all XML examples for Place of Performance
-
-#### TEDEFO-3548
-Under section 5.1.7. Strategic procurement, Multiple values for each type of strategic procurement are combined into one line.
-
-#### TEDEFO-3559
-Add new Views E1 to E6
-"In the MDM View Templates section, please add new Views for the new below-threshold forms E1, E2, E3, E4, E5 and E6.
-
-#### TEDEFO-3630
-Lines for the following Fields will no longer be displayed when the Fields are not present: BT-71 Reserved Participation (Part/Lot), BT-768 Contract Framework Agreement (Result). BT-726-LotsGroup ""Suitable For SMEs"" will now be displayed under section ""4.1.2 General information""
-
-#### TEDEFO-3631
-EFXT: remove Buyer restriction on TouchPoint contact details
-
-#### TEDEFO-3676
-Moved display of BT-99-Lot ""Review Deadline Description"" from section 5.1.12 Procurement terms to just under the organisation ""Review organisation"" in section  5.1.16 Further information
-
-#### TEDEFO-3733
-new section for Review
-available to subtypes 29, 30, 31, 32, 33, 34, 35, 36, 37, E4, E5
-
-#### TEDEFO-3766
-EFX XML Examples: Replace example UK address
-The XML examples include an Organisation whose address is given as in the UK, including a UK NUTS code.
-
-Replace all instances of this address with a new fake address from another country.
-
-#### TEDEFO-3790
-Removed line numbering for the section ""Notice information""
-
-#### TEDEFO-3808
- Multiple values for BT-531 Additional Nature are now displayed on one line, for Procedure, Part and Lot
-
-#### TEDEFO-3813
- multiple BT-1501(p)-Contract Modified Notice Part Reference are now grouped on one line
-
-#### TEDEFO-3814
-see TEDEFO-3816
-
-#### TEDEFO-3093
-Added new section ""11 Review"" for displaying information on Review procedures
-
-#### TEDEFO-3644
-* For the new voluntary form E1, added a line to display BT-800 Deadline Receipt Answers
-* For the new voluntary form E1, added lines to display BT-779 Tender Payment Value, BT-780, Tender Payment Value Additional Information, BT-782 Tender Penalties and BT-781 Duration Additional Information
-
-#### TEDEFO-3403
-Create the PMC efx view-template (E1)
-
-#### TEDEFO-3410
- Added EFX template for new below-threshold Voluntary Contract Completion Notice ""E5"" subtype.
-
-#### TEDEFO-3416
-Added EFX template for new below-threshold Voluntary Prior Information Notice  ""E2"" subtype.
-
-#### TEDEFO-3425
- Added EFX template for new below-threshold Voluntary Contract Notice ""E3"" subtype.
-
-#### TEDEFO-3432
- Added EFX template for new below-threshold Voluntary Contract Notice ""E4"" subtype.
-
-#### TEDEFO-3439
-Create the Voluntary Contract Modification (E6) efx view-template
-
-#### TEDEFO-3464
-EFXT: Create XML example of Appeals Information
-
-#### TEDEFO-3620
-EFXT: EFX for new E forms: ensure BT-105 Procedure Type is correct
-
-#### TEDEFO-3816
-Displayed line for BT-726 Suitable For SMEs (Part, Lot and LotsGroup) when the value is ""false""
+* Added new section for Review, available to subtypes 29, 30, 31, 32, 33, 34, 35, 36, 37, E4, E5.
+* Added views for the new below-threshold forms E1, E2, E3, E4, E5 and E6.
+* Added information for IPI in Result notices:
+  * In section "5 Lot", under "5.1.12 Terms of procurement", to inform if the Lot falls within the scope of the International Procurement Instrument.
+  * In section "6 Results", under "Statistics about strategic procurement" to display information relating to the International Procurement Instrument measures.
+* Added information for EED:
+  * For Competition and Result notices, in section "5 Lot", under "Strategic procurement", to inform if the Lot falls within the scope of the Energy Efficiency Directive, and to list the items that are related to the EED.
+  * For Result notices, in section "6 Results", under "Statistics about strategic procurement" to list the items procured that are related to the EED, with information about their efficiency savings.
+* Improved display of "unpublished" award criteria dimensions and numbers.
+* Fixed bugs with display of labels for BT-706-UBO "Beneficial Owner Nationality" and BT-682-Tender "Foreign Subsidies Measures".
+* Fixed bug causing fatal error when the beneficial owner has more than one nationality.
+* "Procurement Service Provider" has been removed from the list of organisations under Section 5.1.16 Further information, mediation and review.
+* Fixed bug: the names of Tendering Party Leaders are now excluded from the line "Official name".
+* As the role "eSender" applies to the Notice as a whole, the line "TED eSender" has been removed from section 5.1.16 "Further information, mediation and review" for all eForms subtypes.
+* Display both Organisation Name and TouchPoint Name where a role is performed by a TouchPoint.
+* Under section 5.1.7. Strategic procurement, multiple values for each type of strategic procurement are combined into one line.
+* Lines for the following Fields will no longer be displayed when the Fields are not present: BT-71 Reserved Participation (Part/Lot), BT-768 Contract Framework Agreement (Result). BT-726-LotsGroup "Suitable For SMEs" will now be displayed under section "4.1.2 General information".
+* Fixed bug: the TouchPoint contact details are now displayed for all organisations.
+* Moved display of BT-99-Lot "Review Deadline Description" from section 5.1.12 Procurement terms to just under the organisation "Review organisation" in section  5.1.16 Further information.
+* Removed line numbering for the section "Notice information".
+* Multiple values for BT-531 Additional Nature are now displayed on one line, for Procedure, Part and Lot.
+* Multiple BT-1501(p)-Contract Modified Notice Part Reference are now grouped on one line.
+* Displayed line for BT-726 Suitable For SMEs (Part, Lot and LotsGroup) when the value is "false".
 
 ### Labels and translations
 
@@ -373,18 +270,18 @@ Rules: Labels for some rules on BT-19-Lot are opposite
 Incorrect message for rule BR-BT-00738-0053 on preferred publication date
 "The current messages for rule BR-BT-00738-0053 are incorrect in all languages:
 the rule as implemented checks that the preferred publication date is between *0* and 60 days after the dispatch date.
-But the messages refer to ""*2* and 60 days"", in all languages.
+But the messages refer to "*2* and 60 days", in all languages.
 
 #### TEDEFO-3602
 Labels: The label and translations for BT-57 is wrong
-"The English label for ""business-term|name|BT-57"" is wrong. It currently is :
-""The buyer reserves the right for additional purchases from the contractor, as described here""
+"The English label for "business-term|name|BT-57" is wrong. It currently is :
+"The buyer reserves the right for additional purchases from the contractor, as described here"
 This is similar to the description label for BT-53:
-""The buyer reserves the right (not an obligation) for additional purchases from the contractor (while the contract is valid).""
-The description in the Annex for BT-57 is ""Any other information about the renewal(s).""
+"The buyer reserves the right (not an obligation) for additional purchases from the contractor (while the contract is valid)."
+The description in the Annex for BT-57 is "Any other information about the renewal(s)."
 
 #### TEDEFO-3807
-Fix the Hungarian translation for "Vehicle purchase, lease or rent"		"Current translation is ""Járművásárlás, -bérlés vagy -bérlés"" while it should be ""Járműbeszerzés, -lízing vagy -bérlés""
+Fix the Hungarian translation for "Vehicle purchase, lease or rent"		"Current translation is "Járművásárlás, -bérlés vagy -bérlés" while it should be "Járműbeszerzés, -lízing vagy -bérlés"
 From https://github.com/OP-TED/eForms-SDK/issues/1031
 
 #### TEDEFO-3809
@@ -394,8 +291,8 @@ cf. [https://github.com/OP-TED/eForms-SDK/issues/1034]
 
 #### TEDEFO-3811
 Incorrect French label for code|name|requirement-stage.par-requ
-"Current label: ""Exigence dans le demande de participation""
-Expected label: ""Exigence dans la demande de participation""
+"Current label: "Exigence dans le demande de participation"
+Expected label: "Exigence dans la demande de participation"
 
 cf. https://github.com/OP-TED/eForms-SDK/discussions/1036
 
