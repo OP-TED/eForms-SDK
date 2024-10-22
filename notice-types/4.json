@@ -365,10 +365,11 @@
       }, {
         "id" : "GR-Procedure-PlaceOfPerformance",
         "contentType" : "group",
-        "nodeId" : "ND-ProcedurePlacePerformance",
+        "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
         "displayType" : "GROUP",
-        "description" : "A location where the Procurement, for the Procedure as a whole, should take place",
-        "_label" : "group|name|ND-ProcedurePlacePerformance",
+        "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
+        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-5101(a)-Procedure",
           "contentType" : "field",
