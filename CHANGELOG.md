@@ -82,6 +82,13 @@ Add the fields BT-765-Lot and BT-768-Contract to the NTDs for forms 38, 39 and E
 The Tender Validity field (BT-98-Lot) and related group were removed from NTD 9 to 15
 Following the review of procedure types per form and the absence of single stage procedures, BT-98 has to be removed from the NTDs 9 to 15"
 
+#### TEDEFO-3820
+The node ND-ProcedurePlacePerformance is associated to GR-Procedure-PlaceofPerformance.
+The correct node is be ND-ProcedurePlacePerformanceAdditionalInformation.
+
+#### TEDEFO-3843
+Update NTD for QS (subtype 15) to include BT-1311 "Deadline Receipt Requests".
+
 ### Rules
 
 In order to reduce the time required to validate notices with a high number of entities (organisations, lots, tenders, etc.), some Schematron rules have been modified to make better use of variables. Those rules have also moved to new files (`validation-stage-4m.sch` and `validation-stage-5m.sch`), to facilitate their maintenance.
@@ -199,6 +206,9 @@ Update rules for Review fields
 #### TEDEFO-3772
 Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations.
 
+### TEDEFO-3842
+Make BT-1311 (date and time deadline) mandatory for QS (notice subtype 15).
+
 ### Codelists
 
 #### TEDEFO-3549
@@ -248,18 +258,21 @@ September 2024 codelist updates, nuts excluded
 * Improved display of "unpublished" award criteria dimensions and numbers.
 * Fixed bugs with display of labels for BT-706-UBO "Beneficial Owner Nationality" and BT-682-Tender "Foreign Subsidies Measures".
 * Fixed bug causing fatal error when the beneficial owner has more than one nationality.
-* "Procurement Service Provider" has been removed from the list of organisations under Section 5.1.16 Further information, mediation and review.
+* "Procurement Service Provider" has been removed from the list of organisations under Section "5.1.16 Further information, mediation and review".
 * Fixed bug: the names of Tendering Party Leaders are now excluded from the line "Official name".
-* As the role "eSender" applies to the Notice as a whole, the line "TED eSender" has been removed from section 5.1.16 "Further information, mediation and review" for all eForms subtypes.
+* As the role "eSender" applies to the Notice as a whole, the line "TED eSender" has been removed from section "5.1.16 Further information, mediation and review" for all eForms subtypes.
 * Display both Organisation Name and TouchPoint Name where a role is performed by a TouchPoint.
-* Under section 5.1.7. Strategic procurement, multiple values for each type of strategic procurement are combined into one line.
-* Lines for the following Fields will no longer be displayed when the Fields are not present: BT-71 Reserved Participation (Part/Lot), BT-768 Contract Framework Agreement (Result). BT-726-LotsGroup "Suitable For SMEs" will now be displayed under section "4.1.2 General information".
+* Under section "5.1.7. Strategic procurement", multiple values for each type of strategic procurement are combined into one line.
+* Lines for the following fields will no longer be displayed when the fields are not present: BT-71 "Reserved Participation" (Part/Lot), BT-768 "Contract Framework Agreement" (Result). BT-726-LotsGroup "Suitable For SMEs" will now be displayed under section "4.1.2 General information".
 * Fixed bug: the TouchPoint contact details are now displayed for all organisations.
-* Moved display of BT-99-Lot "Review Deadline Description" from section 5.1.12 Procurement terms to just under the organisation "Review organisation" in section  5.1.16 Further information.
+* Moved display of BT-99-Lot "Review Deadline Description" from section "5.1.12 Procurement terms" to just under the organisation "Review organisation" in section "5.1.16 Further information".
 * Removed line numbering for the section "Notice information".
-* Multiple values for BT-531 Additional Nature are now displayed on one line, for Procedure, Part and Lot.
-* Multiple BT-1501(p)-Contract Modified Notice Part Reference are now grouped on one line.
-* Displayed line for BT-726 Suitable For SMEs (Part, Lot and LotsGroup) when the value is "false".
+* Multiple values for BT-531 "Additional Nature" are now displayed on one line, for Procedure, Part and Lot.
+* Multiple BT-1501(p)-Contract "Modified Notice Part Reference" are now grouped on one line.
+* Displayed line for BT-726 "Suitable For SMEs" (Part, Lot and LotsGroup) when the value is "false".
+* Fixed bug causing fatal error when a Tender has more than one BT-191-Tender "Country Origin".
+* OPP-124-Business "Gazette Issue Identifier" is now included within "Publication in the official gazette" for Business Registration notices (subtypes X01 and X02)
+* OPT-100-Contract "Framework Notice Identifier" is now included within "Contract information" for winning tenders.
 
 ### Labels and translations
 
