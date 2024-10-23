@@ -1,98 +1,375 @@
 
-# SDK 1.12.0 Release Notes
+# SDK 1.13.0 Release Notes
 
-This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.11.0 should also be able to use this version.
-
-## Additional information
-
-This version introduces business entities, which group fields into business concepts, and allow implementing features that were previously not practical to implement. A new section in `field.json`, named `businessEntities`, gives information on each business entity. References to business entities have been added for fields and nodes, and also in notice type definitions.
-More information will be available soon in the online documentation at <https://docs.ted.europa.eu>.
+This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.12.0 should also be able to use this version.
 
 ## Updated metadata content
 
+### EFX grammar
+
+A small change was made to the EFX grammar, to remove an unneeded alternative in a parser rule. This improves the performance of parsers generated from the grammar by reducing the time spent looking ahead and backtracking.
+This does not change the EFX language, or the output of the parser or transaltor.
+A new version of the EFX toolkit will be released to take advantage of this improvement. If you have your own ANTLR parser generated from the EFX grammar, you will need to re-generate it to benefit from this change.
+
 ### Schema, nodes, fields and notice type definitions
 
-#### Schemas
+### Schemas
 
-The schemas has been updated to include the information for the Foreign Subsidies Regulation (FSR), and deal with the new Exclusion & Selection Criteria approach as defined in the Regulation Annex.
+#### TEDEFO-3242
+Update XSD for IPI
 
-#### Fields
+#### TEDEFO-3445
+Define the needed XML components for EED
 
-* Updated Exclusion & Selection Criteria with the definition of new fields and nodes for BT-806, BT-821, BT-809, and the deletion of fields for BT-747, BT-748, BT-749.
-* Defined fields and nodes for FSR.
-* Defined field for the attribute listName of BT-23-Lot.
-* Fixed preset_value for Kilometers Public Transport Unit in T02 Notice Subtype (OPP-080-Tender-Unit).
-* Reviewed rules and nodes definitions for non-electronic submission (BT-19, BT-745).
-* Updated type for field BT-821-Lot-List.
+#### TEDEFO-3059
+Following changes to the use of the Review section, update the XSD.
 
-#### Notice type definitions
+### Fields
 
-* The exclusion grounds fields have been updated. "Exclusion Grounds Source" (BT-806-Procedure) has been added in a group above the already existing one.
-* The selection criteria fields have also been adapted. BT-747-Lot, BT-748-Lot and BT-749-Lot have been replaced by "Selection Criterion" (BT-809-Lot) as a combobox. Another group has been added above the Selection Criteria to identify ths source using field BT-821-Lot.
-* The Foreign Subsidies Regulation fields BT-681-Lot and BT-682-Tender have been added in the Lot / Tendering Terms section and the Result / Tenders section.
-* The CVD fields in the lot result were reordered to make them more user friendly. The vehicle category is now chosen first, followed by the number and type of vehicle.
-* The Fields related to the CVD in the lot were added to the contract modification notice types.
-* The structure of the "planned duration" group in the PIN-only parts has been aligned with the one in the lots.
-* The node for the "Procedure Place of performance" was corrected to ND-ProcedurePlacePerformance for all concerned subtypes.
-* The node ND-ProcedureProcurementScope has been added to all the subtypes where it was missing (1, 2, 3, 4, 5, 6, 7, 8, 9, 15, 16, CEI, T01, T02), to facilitate the identification of rules related to the fields (issue #870).
-* The field OPP-080-Tender-Unit was added as hidden in T02, with the preset value 'KTM', to help make the XML valid against the schema.
-* The "selection criteria second stage invitation" indicator (BT-40) and the related weight and number fields have been removed for subtypes 15, 19, and CEI.
-* The cross border law fields have been removed from T01 and T02 together with their display group and the "Procedure Tendering Terms" section.
-* The subcontracting fields in the "Tender" section of the result have been reordered to make them easier to fill-in. The indicator for subcontracting is now the first field, followed by the description.
-* The field OPP-090-Procedure was added to T01 subtype for the identification of previous notices.
-* ND-AuctionTerms has been added to GR-Lot-AuctionTerms so that error messages can point to this specific group.
+#### TEDEFO-3241
+Define fields and Nodes for IPI
+
+#### TEDEFO-3444
+Define fields and Nodes for EED
+
+#### TEDEFO-3702
+Update fields & nodes definitions for Review
+
+### Notice type definitions
+
+#### TEDEFO-3244
+Update the NTDs to include the IPI & FSR fields
+
+#### TEDEFO-3447
+Update the NTDs to include the EED fields
+
+#### TEDEFO-3686
+The Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists [NOT "1", "2", "3", "4", "5", "6", "CEI", "E1", "E2", "T01", "T02", "X01", "X02"]
+
+Based on proposal in [https://code.europa.eu/eproc/eforms/crs/-/issues/57]
+Move the -Strategic group with BT-06 and BT-777 above the groups with the different types of strategic procurement.
+Check the rules and live validation behave in an understandable way.
+
+#### TEDEFO-3402
+Create the PMC NTD	EMD/notice-types	Have the PMC Notice Type Definition created
+
+#### TEDEFO-3409
+Create the CC (E5) NTD	EMD/notice-types	Have the CC (E5) Notice Type Definition created
+
+#### TEDEFO-3415
+Create the Voluntary Planning (E2) NTD	EMD/notice-types	Have the Voluntary Planning (E2) Notice Type Definition created
+
+#### TEDEFO-3424
+Create the Voluntary Competition (E3) NTD	EMD/notice-types	"Release note: The Voluntary Competition (E3) notice type has been added.
+
+Have the Voluntary Competition (E3) Notice Type Definition created"
+
+#### TEDEFO-3431
+Create the Voluntary Result (E4) NTD	EMD/notice-types	Have the Voluntary Result (E4) Notice Type Definition created
+
+#### TEDEFO-3438
+Create the Voluntary Contract Modification (E6) NTD	EMD/notice-types	Have the Voluntary Contract Modification (E6) Notice Type Definition created
+
+#### TEDEFO-3705
+Update NTDs to include Review information	EMD/notice-types	"The Review Section has been added below the Results, in the left menu, for 29-37, E4 and E5.
+
+#### TEDEFO-3744
+The fields related to the existence of a framework agreement were added to the lot and contract sections in NTD 38, 39, E6 in order to allow contract modifications in the scope of framework contracts
+
+Add the fields BT-765-Lot and BT-768-Contract to the NTDs for forms 38, 39 and E6"
+
+#### TEDEFO-3761
+The Tender Validity field (BT-98-Lot) and related group were removed from NTD 9 to 15
+Following the review of procedure types per form and the absence of single stage procedures, BT-98 has to be removed from the NTDs 9 to 15"
+
+#### TEDEFO-3820
+The node ND-ProcedurePlacePerformance is associated to GR-Procedure-PlaceofPerformance.
+The correct node is be ND-ProcedurePlacePerformanceAdditionalInformation.
+
+#### TEDEFO-3843
+Update NTD for QS (subtype 15) to include BT-1311 "Deadline Receipt Requests".
 
 ### Rules
 
-* Updated rules for Exclusion & Selection Criteria.
-* Updated OPT-301-Tenderer-MainCont condition to depend on Subcontractor existence instead.
-* Updated expression for rule BR-BT-13713-0102 to include control of existence of information on tenders received from medium sized enterprises.
-* Updated conditions & contexts for rules on BT-541 to trigger in absence of extensions and prevent BT-541 when BT-543 specified.
-* Updated contexts for rules on: BT-135-Procedure, BT-109-Lot, BT-111-Lot, BT-113-Lot, BT-106-Procedure, BT-773-Tender, and OPT-321-Tender. This is to ensure that mandatory rules trigger also in absence of the parent element.
-* Updated context for rules on BT-76-Lot and BT-771-Lot.
-* Removed "Cross Border Law" from the T01 and T02 forms.
-* Defined rules for FSR.
-* Constraint "Minimum Candidates (BT-50-Lot) > 5" not applied to DPS anymore.
-* Defined rule to check for Tender - Result consistency.
-* Removed ineffective rules trying to fetch other notices.
-* Restriction of mandatory rules for BT-543-LotsGroup and BT-539-LotsGroup to CVS.
-* Applied Legal Basis rules on a per Notice Subtype basis.
-* Updated rules that still referred to "eforms-xxx" lists.
-* Postcodes now allowed for any country and mandatory for countries in the postcode-country codelist.
+In order to reduce the time required to validate notices with a high number of entities (organisations, lots, tenders, etc.), some Schematron rules have been modified to make better use of variables. Those rules have also moved to new files (`validation-stage-4m.sch` and `validation-stage-5m.sch`), to facilitate their maintenance.
+
+Based on tests with the Central Validation Service, the validation can be 3 times faster. So if you plan to submit large notices, we strongly encourage you to use SDK 1.13.
+
+If you execute the Schematron rules yourself and use the "ph-schematron-pure" library, you will need to use version 8.0.3 or later, due to limitations and bugs in previous versions of the library. For other Schematron implementations, no change should be required to benefit from this improvement.
+
+Other changes in the rules include:
+
+* Added rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner.
+
+#### TEDEFO-3061
+OPT-140-Lot (Procurement documents ID) is required by the schema.
+
+In the rules, OPT-140-Lot is mandatory if BT-14-Lot is present.
+BT-14-Lot is mandatory for subtypes 16, 17 and 19, but not 18.
+
+So it is possible to have a notice of subtype 18 that complies with all rules but is invalid against the schema."
+
+#### TEDEFO-3734
+Incorrect condition for mandatory rules on BT-685-LotResult
+
+#### TEDEFO-3209
+Have tighter rules on deadlines
+
+#### TEDEFO-3243
+Define rules for IPI
+
+#### TEDEFO-3446
+Define rules for EED
+
+#### TEDEFO-3508
+Define rules for Place of performance presence
+At least one of the two fields have to exist: BT-5141 and BT-727
+It is not possible for the procedure or a given to know which one has to be present, therefore the currently applied context may not change for the lot or procedure.
+There is also no rule for nodes and if the context for the rule does not exist, then the rule is not fired.
+It is necessary to introduce a stage 5 rule that check that a least one of the 2 fields is present for the procedure and each lots."
+
+#### TEDEFO-3579
+Remove Draft rule BR-BT-00512-0294 that prohibits the specification of the Touchpoint Postcode		The rule BR-BT-00512-0294 prohibits the specification of the postcode for the touchpoint. Rule is in draft, so no impact
+
+#### TEDEFO-3582
+Add missing forbidden rules for BT-682-Tender		"Rules for BT-682-Tender are missing and should be added:
+* for CEI and T01 (to be backported to SDK 1.12.0 where field added)"
+
+#### TEDEFO-3594
+Update rule context for BT-681-Lot		Update rule context for _BT-681-Lot_  to _ND-LotTenderingTerms_  so that any later mandatory FSR rule will fire
+
+#### TEDEFO-3595
+Update rule context for BT-71-Lot and BT-772-Lot		Update rule context for _BT-71-Lot_  and BT-772-Lot to _ND-LotTenderingTerms_  so that any mandatory rule will fire
+
+#### TEDEFO-3596
+Update rule context for OPP-035-Tender		Update rule context for _OPP-035-Tender_ to _ND-LotTender_ so that any mandatory rule will fire
+
+####  TEDEFO-3777
+Update Lawfulness rules for SDK 1.13
+Remove checks for the word "sale" in various descriptions fields.
+Add a check for the exact string “test” in all organisation names in any language
+Remove the rules that check buyer country and eu-funds, which are also conditional on the subtype
+Add a rule that checks that buyer country is in lawful-country, regardless of eu-fund and subtype
+
+#### TEDEFO-3365
+Allow for BT-768 in Contract Modification		"BT-768 should be allowed in Contract Modification to make it possible to modify contracts in a FA.
+
+This would require:
+* removal of stage 2 forbidden rules,
+* check of other rules that could require further fields or could be blocking if not addressed"
+
+#### TEDEFO-3401
+Review/update the PMC rules
+
+#### TEDEFO-3408
+Review/update the CC (E5) rules
+
+#### TEDEFO-3414
+Review/update the Voluntary Planning (E2) rules
+
+#### TEDEFO-3423
+Review/update the Voluntary Competition (E3) rulesneeded.
+
+#### TEDEFO-3430
+Review/update the Voluntary Result (E4) rules
+
+#### TEDEFO-3437
+Define the Voluntary Contract Modification (E6) rulesand updated wherever needed.
+
+#### TEDEFO-3554
+Update rules on Tender Validity Deadline (BT-98)
+For D23, procedures are negotiated and having BT-98 for these may not be relevant.
+Also BT-105 Procedure Type is forbidden for any D23 form except 28.
+
+#### TEDEFO-3672
+Update existence rules for Procedure Type (BT-105). BT-105 should:
+* be allowed (O) for D23, E3, E4, E5, QS with any value except ("comp-tend", "exp-int-rail"),
+* be forbidden for E1, E2, E6
+
+#### TEDEFO-3674
+Review rules for Procedure dependent fields
+The following fields have rules that depends on the Procedure Type (BT-105):
+* Tender Validity Deadline (BT-98-Lot)
+* Minimum Candidates (BT-50-Lot)
+* Successive Reduction (BT-52-Lot)
+* Maximum Candidates Indicator (BT-661-Lot)
+* Contract Conclusion Date (BT-145-Contract)
+* Dispatch Invitation Tender (BT-130-Lot)
+* Procedure Features (BT-88-Procedure)
+* Rewards Other (BT-45-Lot)
+* Prize Value (BT-644-Lot)
+* Prize Rank (BT-44-Lot.)
+
+#### TEDEFO-3703
+Update rules for Review fields
+
+#### TEDEFO-3772
+Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations.
+
+### TEDEFO-3842
+Make BT-1311 (date and time deadline) mandatory for QS (notice subtype 15).
 
 ### Codelists
 
-* Defined new codelists (document-used-in-public-procurement, selection-criteria-source, exclusion-grounds-source) and updated existing ones (exclusion-ground, selection-criterion).
-* Defined new codelists (fsr, foreign-subsidy-measure-conclusion) for Foreign Subsidies Regulation.
-* Removed redundant tailored codelists that are the same as their parent codelist (eforms-xxx and period-listname).
-* Added "susp-review" code to the change-corrig-justification codelist.
-* Added Ireland to the postcode-country codelist.
-* Aligned T01-T02 codelists with EU Vocabularies.
+#### TEDEFO-3549
+Create new tailored list legal-basis-e6
+
+#### TEDEFO-3492
+June 2024 codelist updates
+There are 3 new codelists: document-used-in-public-procurement, exclusion-ground, foreign-subsidy-measure-conclusion and some updates in other codelists.
+
+#### TEDEFO-3060
+Get the list of all the required codelists for Review Information
+
+#### TEDEFO-3247
+Define codelists for IPI
+
+#### TEDEFO-3450
+Define codelists for EED: energy-efficiency-label, energy-efficiency-item, energy-efficiency-basis
+
+#### TEDEFO-3470
+Remove unused codes from non-publication-identifier codelist: not-dis-dat and not-pub-dat
+
+#### TEDEFO-3552
+Define/update required metadata for E6
+
+#### TEDEFO-3561
+Have Form Type, Notice Type and Notice Subtype defined for voluntary forms
+
+#### TEDEFO-3632
+Import of NUTS 2024
+
+#### TEDEFO-3656
+Update technical code lists following NUTS update
+
+#### TEDEFO-3739
+September 2024 codelist updates, nuts excluded
 
 ### View templates
 
-* Unpublish Information Fields (Unpublished Justification Code (BT-196), Unpublished Justification Description (BT-198), Unpublished Access Date (BT-197)) will now be displayed even after the Unpublished Access Date (BT-198) has been passed.
-* New Field BT-681-Lot ("Foreign Subsidies Regulation") will now be displayed in Lots in Competition notices and Result notices.
-* New Field BT-682-Tender ("Foreign Subsidies Measures") will now be displayed in Tenders in Result notices.
-* New Field BT-806-Procedure ("Exclusion Grounds Source") will now be displayed under "Procedure" in Competition notices.
-* New Field BT-821-Lot ("Selection Criteria Source") will now be displayed in Lots in Competition notices.
-* Line "5.1.9 Selection criteria" has been updated to display Field BT-809 "Selection Criteria", which has replaced Field BT-747 "Selection Criteria Type".
-* The Fields BT-749 "Selection Criteria Name" and BT-748 "Selection Criteria Used" have been removed from the eForms Regulation, and will no longer be displayed.
-* Multilingual Fields in the Change and Modification sections now display only the selected language
-* Lines for "Procurement service provider" and "TED eSender" will no longer be repeated
-* BT-538-Part "Duration Other" will now be displayed correctly in Parts
-* Contract Modification notices modifying VEAT notices without LotResults will now be displayed correctly
-* Field OPP-090-Procedure "Previous Notice Identifier" will now be displayed for subtype T01 "Planning notice for public passenger transport services ..."
-* The display of Fields BT-730-Tender "Subcontracting Value Known", BT-731-Tender "Subcontracting Percentage Known" and BT-193-Tender "Tender Variant", when they have been Unpublished, and the Unpublished Access Date has passed, has been corrected
+* Added new section for Review, available to subtypes 29, 30, 31, 32, 33, 34, 35, 36, 37, E4, E5.
+* Added views for the new below-threshold forms E1, E2, E3, E4, E5 and E6.
+* Added information for IPI in Result notices:
+  * In section "5 Lot", under "5.1.12 Terms of procurement", to inform if the Lot falls within the scope of the International Procurement Instrument.
+  * In section "6 Results", under "Statistics about strategic procurement" to display information relating to the International Procurement Instrument measures.
+* Added information for EED:
+  * For Competition and Result notices, in section "5 Lot", under "Strategic procurement", to inform if the Lot falls within the scope of the Energy Efficiency Directive, and to list the items that are related to the EED.
+  * For Result notices, in section "6 Results", under "Statistics about strategic procurement" to list the items procured that are related to the EED, with information about their efficiency savings.
+* Improved display of "unpublished" award criteria dimensions and numbers.
+* Fixed bugs with display of labels for BT-706-UBO "Beneficial Owner Nationality" and BT-682-Tender "Foreign Subsidies Measures".
+* Fixed bug causing fatal error when the beneficial owner has more than one nationality.
+* "Procurement Service Provider" has been removed from the list of organisations under Section "5.1.16 Further information, mediation and review".
+* Fixed bug: the names of Tendering Party Leaders are now excluded from the line "Official name".
+* As the role "eSender" applies to the Notice as a whole, the line "TED eSender" has been removed from section "5.1.16 Further information, mediation and review" for all eForms subtypes.
+* Display both Organisation Name and TouchPoint Name where a role is performed by a TouchPoint.
+* Under section "5.1.7. Strategic procurement", multiple values for each type of strategic procurement are combined into one line.
+* Lines for the following fields will no longer be displayed when the fields are not present: BT-71 "Reserved Participation" (Part/Lot), BT-768 "Contract Framework Agreement" (Result). BT-726-LotsGroup "Suitable For SMEs" will now be displayed under section "4.1.2 General information".
+* Fixed bug: the TouchPoint contact details are now displayed for all organisations.
+* Moved display of BT-99-Lot "Review Deadline Description" from section "5.1.12 Procurement terms" to just under the organisation "Review organisation" in section "5.1.16 Further information".
+* Removed line numbering for the section "Notice information".
+* Multiple values for BT-531 "Additional Nature" are now displayed on one line, for Procedure, Part and Lot.
+* Multiple BT-1501(p)-Contract "Modified Notice Part Reference" are now grouped on one line.
+* Displayed line for BT-726 "Suitable For SMEs" (Part, Lot and LotsGroup) when the value is "false".
+* Fixed bug causing fatal error when a Tender has more than one BT-191-Tender "Country Origin".
+* OPP-124-Business "Gazette Issue Identifier" is now included within "Publication in the official gazette" for Business Registration notices (subtypes X01 and X02)
+* OPT-100-Contract "Framework Notice Identifier" is now included within "Contract information" for winning tenders.
 
 ### Labels and translations
 
-* Added translations for new and modified labels
-* Corrected and improved numerous rule and expression labels
-* Corrected and added missing translations in some code lists
+#### TEDEFO-2989
+Rules: Labels for some rules on BT-19-Lot are opposite
+
+#### TEDEFO-3584
+Incorrect message for rule BR-BT-00738-0053 on preferred publication date
+"The current messages for rule BR-BT-00738-0053 are incorrect in all languages:
+the rule as implemented checks that the preferred publication date is between *0* and 60 days after the dispatch date.
+But the messages refer to "*2* and 60 days", in all languages.
+
+#### TEDEFO-3602
+Labels: The label and translations for BT-57 is wrong
+"The English label for "business-term|name|BT-57" is wrong. It currently is :
+"The buyer reserves the right for additional purchases from the contractor, as described here"
+This is similar to the description label for BT-53:
+"The buyer reserves the right (not an obligation) for additional purchases from the contractor (while the contract is valid)."
+The description in the Annex for BT-57 is "Any other information about the renewal(s)."
+
+#### TEDEFO-3807
+Fix the Hungarian translation for "Vehicle purchase, lease or rent"		"Current translation is "Járművásárlás, -bérlés vagy -bérlés" while it should be "Járműbeszerzés, -lízing vagy -bérlés"
+From https://github.com/OP-TED/eForms-SDK/issues/1031
+
+#### TEDEFO-3809
+Incorrect labels for condition 353
+"Labels for condition 353 are incorrect and state the opposite of what they should.
+cf. [https://github.com/OP-TED/eForms-SDK/issues/1034]
+
+#### TEDEFO-3811
+Incorrect French label for code|name|requirement-stage.par-requ
+"Current label: "Exigence dans le demande de participation"
+Expected label: "Exigence dans la demande de participation"
+
+cf. https://github.com/OP-TED/eForms-SDK/discussions/1036
+
+#### TEDEFO-3245
+Translate labels for new IPI nodes and fields
+
+#### TEDEFO-3246
+Provide translation for the new IPI rules
+
+#### TEDEFO-3448
+Translate labels for new EED nodes and fields
+
+#### TEDEFO-3449
+Provide translation for the new EED rules
+
+#### TEDEFO-3726
+Create auxiliary labels for Award Criteria dimensions
+||id||English||
+|auxiliary\|text\|award-criterion-weight-dimension|Award Criterion Number Weight Dimension|
+|auxiliary\|text\|award-criterion-fixed-dimension|Award Criterion Number Fixed Dimension|
+|auxiliary\|text\|award-criterion-threshold-dimension|Award Criterion Number Threshold Dimension|
+
+#### TEDEFO-3404
+Provide the translations for the PMC form
+
+#### TEDEFO-3411
+Provide the translations for the CC (E5) form
+
+#### TEDEFO-3417
+Provide the translations for the Voluntary Planning (E2) form
+
+#### TEDEFO-3426
+Provide the translations for the Voluntary Competition (E3) form
+
+#### TEDEFO-3433
+Provide the translations for the Voluntary Result (E4) form
+
+#### TEDEFO-3440
+Provide the translations for the Voluntary Contract Modification (E6) form
+
+#### TEDEFO-3560
+Update the Extended forms description labels
+
+#### TEDEFO-3571
+Translate labels for Place of Performance existence
+
+#### TEDEFO-3704
+Update translations for Review
+"Following changes to the Review section, translations updates are needed:
+
+#### TEDEFO-3792
+New Group Labels for SDK 1.13
+"With the addition of the IPI, EED, Review section and Voluntary forms, there are new nodes in the SDK, and these have been applied to groups in the NTDs. 
+
+As such, new group labels are needed.
+
+
+#### TEDEFO-3805
+Have rule messages set to original statement and translated for BT-630
+
+
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
 This release note does not cover the details of all changes.
 
-A comprehensive list of changes between SDK 1.11.0 and SDK 1.12.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.11.0...1.12.0>
+A comprehensive list of changes between SDK 1.12.0 and SDK 1.13.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.12.0...1.13.0>

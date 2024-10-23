@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.13.0-SNAPSHOT",
+  "sdkVersion" : "1.13.0",
   "metadataDatabase" : {
-    "version" : "1.12.359",
-    "createdOn" : "2024-09-20T13:39:57"
+    "version" : "1.13.0",
+    "createdOn" : "2024-10-14T13:00:00"
   },
   "noticeId" : "8",
   "metadata" : [ {
@@ -377,10 +377,11 @@
       }, {
         "id" : "GR-Procedure-PlaceOfPerformance",
         "contentType" : "group",
-        "nodeId" : "ND-ProcedurePlacePerformance",
+        "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
         "displayType" : "GROUP",
-        "description" : "A location where the Procurement, for the Procedure as a whole, should take place",
-        "_label" : "group|name|ND-ProcedurePlacePerformance",
+        "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
+        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-5101(a)-Procedure",
           "contentType" : "field",

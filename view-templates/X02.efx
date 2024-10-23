@@ -28,6 +28,7 @@
 		{OPP-120-Business} #{name|OPP-120}: ${OPP-120-Business} // Name of publication
 		{OPP-121-Business} #{name|OPP-121}: ${OPP-121-Business} // Title of the announcement
 		{OPP-122-Business} #{name|OPP-122}: ${OPP-122-Business} // URL of the announcement
+		{OPP-124-Business} #{name|OPP-124}: ${OPP-124-Business} // Gazette Issue Identifier / Issue of the publication
 		{OPP-123-Business} #{name|OPP-123}: ${OPP-123-Business} // Date of publication of the announcement
 	5 {ND-Root[OPP-130-Business is present]} #{name|OPP-130}: ${OPP-130-Business} // 9.5 Additional information
 10 {ND-Root[BT-758-notice is present]} #{auxiliary|text|change} // 10 Change
