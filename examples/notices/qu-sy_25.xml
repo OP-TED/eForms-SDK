@@ -260,6 +260,10 @@
 		<cac:TenderingProcess>
 			<cbc:SubmissionMethodCode listName="esubmission">allowed</cbc:SubmissionMethodCode>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+			<cac:ParticipationRequestReceptionPeriod>
+				<cbc:EndDate>2020-04-29+01:00</cbc:EndDate>
+				<cbc:EndTime>12:00:00+01:00</cbc:EndTime>
+			</cac:ParticipationRequestReceptionPeriod>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<cbc:ID schemeName="InternalID">SQASF2020</cbc:ID>
