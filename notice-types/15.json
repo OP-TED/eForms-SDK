@@ -1560,6 +1560,18 @@
         "description" : "Deadlines I",
         "_label" : "group|name|GR-Lot-Deadlines1",
         "content" : [ {
+          "id" : "BT-1311(d)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Deadline Receipt Requests",
+          "_label" : "field|name|BT-1311(d)-Lot"
+        }, {
+          "id" : "BT-1311(t)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Deadline Receipt Requests",
+          "_label" : "field|name|BT-1311(t)-Lot"
+        }, {
           "id" : "BT-13(d)-Lot",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
