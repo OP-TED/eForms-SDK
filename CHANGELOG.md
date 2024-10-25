@@ -84,7 +84,7 @@ Following the review of procedure types per form and the absence of single stage
 
 #### TEDEFO-3820
 The node ND-ProcedurePlacePerformance is associated to GR-Procedure-PlaceofPerformance.
-The correct node is be ND-ProcedurePlacePerformanceAdditionalInformation.
+The correct node is ND-ProcedurePlacePerformanceAdditionalInformation.
 
 #### TEDEFO-3843
 Update NTD for QS (subtype 15) to include BT-1311 "Deadline Receipt Requests".
@@ -206,8 +206,11 @@ Update rules for Review fields
 #### TEDEFO-3772
 Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations.
 
-### TEDEFO-3842
+#### TEDEFO-3842
 Make BT-1311 (date and time deadline) mandatory for QS (notice subtype 15).
+
+#### TEDEFO-3852
+BT-40-Lot should be dependent on the existence of BT-809-Lot
 
 ### Codelists
 
@@ -362,10 +365,11 @@ New Group Labels for SDK 1.13
 
 As such, new group labels are needed.
 
-
 #### TEDEFO-3805
 Have rule messages set to original statement and translated for BT-630
 
+#### TEDEFO-3854
+Fix incorrect text for BT-113 in DE
 
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
