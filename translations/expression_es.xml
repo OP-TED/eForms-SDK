@@ -463,6 +463,7 @@
 <entry key="expression|name|66">'Estado de selección del ganador' (BT-142-LotResult) no es 'Se ha escogido al menos un ganador.'; 'ID técnico del resultado del lote (RES-XXX)' (OPT-322) no está cumplimentado</entry>
 <entry key="expression|name|660">'Denominación oficial' (BT-500-Organization-Company) existe</entry>
 <entry key="expression|name|661">'ID técnico de la organización (ORG-XXX)'(OPT-200-Organization-Company) es un 'Organización que cumple este papel' (OPT-300-Procedure-Buyer)</entry>
+<entry key="expression|name|662">'Criterios de selección' (BT-809-Lot) no existe o 'El procedimiento se desarrollará en fases sucesivas. En cada fase, pueden eliminarse algunos participantes' (BT-52-Lot) no es 'sí' o 'Tipo de procedimiento' (BT-105) no es 'Diálogo competitivo', 'Asociación para la innovación', 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación', 'Otro procedimiento de múltiples etapas' o 'Restringido'</entry>
 <entry key="expression|name|67">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>
 <entry key="expression|name|68">'Se conoce el valor de la subcontratación' (BT-730-Tender) no es 'sí'</entry>
 <entry key="expression|name|69">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>

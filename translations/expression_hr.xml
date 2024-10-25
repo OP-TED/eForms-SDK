@@ -463,6 +463,7 @@
 <entry key="expression|name|66">'Status odabira pobjednika' (BT-142-LotResult) nije 'Odabran je najmanje jedan pobjednik.'; 'Tehnički ID rezultata lota (RES-XXX)' (OPT-322) nije popunjeno</entry>
 <entry key="expression|name|660">'Službeno ime' (BT-500-Organization-Company) postoji</entry>
 <entry key="expression|name|661">'Tehnički ID organizacije (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizacija koja ispunjava ovu ulogu' (OPT-300-Procedure-Buyer)</entry>
+<entry key="expression|name|662">'Kriteriji za odabir' (BT-809-Lot) ne postoji ili 'Postupak će se odvijati u uzastopnim fazama. U svakoj fazi neki sudionici mogu biti isključeni' (BT-52-Lot) nije 'da' ili 'Vrsta postupka' (BT-105) nije 'Natjecateljski dijalog', 'Partnerstvo za inovacije', 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore', 'Ostali postupci u više faza' ili 'Ograničen'</entry>
 <entry key="expression|name|67">'Podugovaranje' (BT-773-Tender) nije 'Da'</entry>
 <entry key="expression|name|68">'Vrijednost podugovaranja poznata' (BT-730-Tender) nije 'da'</entry>
 <entry key="expression|name|69">'Podugovaranje' (BT-773-Tender) nije 'Da'</entry>
