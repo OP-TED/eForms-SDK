@@ -41,9 +41,6 @@
 		<assert id="ND-LotAwardCriteria-31" role="ERROR" diagnostics="ND-LotAwardCriteria" test="count(cac:AwardingCriterion) &gt; 0">rule|text|ND-LotAwardCriteria-31</assert>
 		<assert id="ND-Prize-31" role="ERROR" diagnostics="ND-Prize" test="count(cac:Prize) = 0">rule|text|ND-Prize-31</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = '31']">
-		<assert id="ND-LotAwardCriterion-31" role="ERROR" diagnostics="ND-LotAwardCriterion" test="count(cac:SubordinateAwardingCriterion) &gt; 0">rule|text|ND-LotAwardCriterion-31</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '31']">
 		<assert id="ND-Funding-31" role="ERROR" diagnostics="ND-Funding" test="count(efac:Funding) = 0">rule|text|ND-Funding-31</assert>
 		<assert id="ND-SelectionCriteria-31" role="ERROR" diagnostics="ND-SelectionCriteria" test="count(efac:SelectionCriteria) = 0">rule|text|ND-SelectionCriteria-31</assert>
