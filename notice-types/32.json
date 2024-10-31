@@ -4198,7 +4198,8 @@
         "description" : "Review Technical Identifier",
         "_label" : "field|name|BT-804-Review",
         "_idScheme" : "REV",
-        "_schemeName" : "review"
+        "_schemeName" : "review",
+        "hidden" : true
       }, {
         "id" : "BT-783-Review",
         "contentType" : "field",
