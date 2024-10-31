@@ -659,17 +659,17 @@
         "description" : "Deadline for reception of answers to the PMC",
         "_label" : "group|name|ND-PMCAnswersDeadline",
         "content" : [ {
-          "id" : "BT-800(t)-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Deadline Receipt Answers (Time)",
-          "_label" : "field|name|BT-800(t)-Lot"
-        }, {
           "id" : "BT-800(d)-Lot",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Deadline Receipt Answers (Date)",
           "_label" : "field|name|BT-800(d)-Lot"
+        }, {
+          "id" : "BT-800(t)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Deadline Receipt Answers (Time)",
+          "_label" : "field|name|BT-800(t)-Lot"
         } ]
       }, {
         "id" : "GR-Lot-PlannedDuration",
