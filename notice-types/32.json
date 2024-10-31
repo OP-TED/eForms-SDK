@@ -553,6 +553,12 @@
             "description" : "Unpublished Access Date",
             "_label" : "field|name|BT-198(BT-88)-Procedure"
           } ]
+        }, {
+          "id" : "BT-105-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Procedure Type",
+          "_label" : "field|name|BT-105-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-DirectAward",

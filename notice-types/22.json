@@ -533,6 +533,12 @@
           "description" : "Procedure Features",
           "_label" : "field|name|BT-88-Procedure"
         }, {
+          "id" : "BT-105-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Procedure Type",
+          "_label" : "field|name|BT-105-Procedure"
+        }, {
           "id" : "BT-763-Procedure",
           "contentType" : "field",
           "displayType" : "COMBOBOX",

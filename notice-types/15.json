@@ -503,6 +503,12 @@
           "displayType" : "RADIO",
           "description" : "Procurement Relaunch",
           "_label" : "field|name|BT-634-Procedure"
+        }, {
+          "id" : "BT-105-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Procedure Type",
+          "_label" : "field|name|BT-105-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-AdditionalInformation",
