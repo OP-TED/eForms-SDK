@@ -3503,17 +3503,17 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('16','29','E5')) and (BT-105-Procedure is present)}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and ((OPP-070-notice in ('16','29')) or ((OPP-070-notice == 'E5') and (BT-01-notice in ('32014L0024','32018R1046')))) and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('open', 'restricted', 'neg-w-call')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00105-0110"
       }, {
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('18','31','E5')) and (BT-105-Procedure is present)}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and ((OPP-070-notice in ('18','31')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32009L0081'))) and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('restricted', 'neg-w-call')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00105-0111"
       }, {
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (OPP-070-notice in ('17','30','E5')) and (BT-105-Procedure is present)}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and ((OPP-070-notice in ('17','30')) or ((OPP-070-notice == 'E5') and (BT-01-notice == '32014L0025'))) and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('open', 'restricted', 'neg-w-call','comp-dial')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00105-0112"
