@@ -176,24 +176,26 @@ September 2024 codelist updates, nuts excluded
 
 ### View templates
 
-* Improved display of "unpublished" award criteria dimensions and numbers.
-* Fixed bugs with display of labels for BT-706-UBO "Beneficial Owner Nationality" and BT-682-Tender "Foreign Subsidies Measures".
-* Fixed bug causing fatal error when the beneficial owner has more than one nationality.
-* "Procurement Service Provider" has been removed from the list of organisations under Section "5.1.16 Further information, mediation and review".
-* Fixed bug: the names of Tendering Party Leaders are now excluded from the line "Official name".
-* As the role "eSender" applies to the Notice as a whole, the line "TED eSender" has been removed from section "5.1.16 Further information, mediation and review" for all eForms subtypes.
-* Display both Organisation Name and TouchPoint Name where a role is performed by a TouchPoint.
-* Under section "5.1.7. Strategic procurement", multiple values for each type of strategic procurement are combined into one line.
-* Lines for the following fields will no longer be displayed when the fields are not present: BT-71 "Reserved Participation" (Part/Lot), BT-768 "Contract Framework Agreement" (Result). BT-726-LotsGroup "Suitable For SMEs" will now be displayed under section "4.1.2 General information".
-* Fixed bug: the TouchPoint contact details are now displayed for all organisations.
-* Moved display of BT-99-Lot "Review Deadline Description" from section "5.1.12 Procurement terms" to just under the organisation "Review organisation" in section "5.1.16 Further information".
-* Removed line numbering for the section "Notice information".
-* Multiple values for BT-531 "Additional Nature" are now displayed on one line, for Procedure, Part and Lot.
-* Multiple BT-1501(p)-Contract "Modified Notice Part Reference" are now grouped on one line.
-* Displayed line for BT-726 "Suitable For SMEs" (Part, Lot and LotsGroup) when the value is "false".
-* Fixed bug causing fatal error when a Tender has more than one BT-191-Tender "Country Origin".
-* OPP-124-Business "Gazette Issue Identifier" is now included within "Publication in the official gazette" for Business Registration notices (subtypes X01 and X02)
 * OPT-100-Contract "Framework Notice Identifier" is now included within "Contract information" for winning tenders.
+* OPP-124-Business "Gazette Issue Identifier" is now included within "Publication in the official gazette" for Business Registration notices (subtypes X01 and X02)
+* BT-726 Suitable For SMEs (Part, Lot and LotsGroup) is now displayed when the value is "false"
+* BT-726 "Suitable For SMEs" (Part) will now be displayed under section "4.1.2 General information"
+* "Procurement Service Provider" has been removed from the list of organisations under Section "5.1.16 Further information, mediation and review".
+* As the role "eSender" applies to the Notice as a whole, the line "TED eSender" has been removed from section "5.1.16 Further information, mediation and review" for all eForms subtypes.
+* Lines for the following fields will no longer be displayed when the fields are not present: BT-71 "Reserved Participation" (Part/Lot), BT-768 "Contract Framework Agreement" (Result).
+* Improved display of "unpublished" award criteria dimensions and numbers.
+* Removed line numbering for the section "Notice information".
+* Multiple values of the following Fields are now displayed on one line:
+  * BT-1501(p)-Contract Modified Notice Part Reference
+  * BT-531 Additional Nature
+  * Under section 5.1.7. Strategic procurement, the types of strategic procurement: BT-06, BT-777, BT-774, BT-805, BT-775, BT-776, BT-717, BT-735
+* Moved display of BT-99-Lot "Review Deadline Description" from section "5.1.12 Procurement terms" to just under the organisation "Review organisation" in section "5.1.16 Further information".
+* Both Organisation Name and TouchPoint Name are displayed where a role is performed by a TouchPoint.
+* For new form E1, added a line to display BT-800 Deadline Receipt Answers.
+* For new form E5, added lines to display BT-779 Tender Payment Value, BT-780, Tender Payment Value Additional Information, BT-782 Tender Penalties and BT-781 Duration Additional Information.
+* The names of Tendering Party Leaders are now excluded from the line "Official name".
+* Fixed bugs causing fatal errors when a Tender has more than one BT-191-Tender Country Origin, or a Beneficial owner has more than one nationality.
+* Fixed bugs causing BT-706-UBO Beneficial Owner Nationality and BT-682-Tender Foreign Subsidies Measures to display incorrectly.
 
 ### Labels and translations
 
