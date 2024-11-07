@@ -5,43 +5,34 @@ This release of the SDK does not contain any backwards incompatible changes: sof
 
 ## Updated metadata content
 
+### eForms regulation second amendment
+
+This SDK release completes the implementation of [Commission Implementing Regulation (EU) 2023/2884 of 20 December 2023](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2884)
+
+The implementation can be seen in changes in almost all SDK components: schemas, fields, codelists, schematrons, notice-types, view-templates, translations and examples.
+
+The following fields and forms have been added:
+
+* International Procurement Instrument (IPI) in Result notices
+* Energy Efficiency Directive (EED) in Competition and Result notices
+* E1 Pre-Market Consultation, with new _consultation_ form type and _pmc_ notice-type
+* E2 voluntary Planning
+* E3 voluntary Competition
+* E4 voluntary Result
+* E5 Contract Completion, new _completion_ form type and _compl_ notice-type, including new Review section, also added to all Result notices (subtypes 29-37, E4, E5)
+* E6 Contract Modification for defence directive 2009/81/EC
+
+The European Commission has published [policy guides for IPI, EED and Review](https://code.europa.eu/eproc/eforms/docs/-/tree/main/guides)
+
+All new components are optional so a notice in SDK 1.12 format will validate against the schema of SDK 1.13 (but the notice will be subject to other rule changes as listed in this release note).
+
 ### EFX grammar
 
 A small change was made to the EFX grammar, to remove an unneeded alternative in a parser rule. This improves the performance of parsers generated from the grammar by reducing the time spent looking ahead and backtracking.
 This does not change the EFX language, or the output of the parser or transaltor.
 A new version of the EFX toolkit will be released to take advantage of this improvement. If you have your own ANTLR parser generated from the EFX grammar, you will need to re-generate it to benefit from this change.
 
-### Schema, nodes, fields and notice type definitions
-
-### Schemas
-
-#### TEDEFO-3242
-Update XSD for IPI
-
-#### TEDEFO-3445
-Define the needed XML components for EED
-
-#### TEDEFO-3059
-Following changes to the use of the Review section, update the XSD.
-
-### Fields
-
-#### TEDEFO-3241
-Define fields and Nodes for IPI
-
-#### TEDEFO-3444
-Define fields and Nodes for EED
-
-#### TEDEFO-3702
-Update fields & nodes definitions for Review
-
 ### Notice type definitions
-
-#### TEDEFO-3244
-Update the NTDs to include the IPI & FSR fields
-
-#### TEDEFO-3447
-Update the NTDs to include the EED fields
 
 #### TEDEFO-3686
 The Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists [NOT "1", "2", "3", "4", "5", "6", "CEI", "E1", "E2", "T01", "T02", "X01", "X02"]
@@ -49,29 +40,6 @@ The Type of Procurement Group has been adapted to have Strategic Procurement as 
 Based on proposal in [https://code.europa.eu/eproc/eforms/crs/-/issues/57]
 Move the -Strategic group with BT-06 and BT-777 above the groups with the different types of strategic procurement.
 Check the rules and live validation behave in an understandable way.
-
-#### TEDEFO-3402
-Create the PMC NTD	EMD/notice-types	Have the PMC Notice Type Definition created
-
-#### TEDEFO-3409
-Create the CC (E5) NTD	EMD/notice-types	Have the CC (E5) Notice Type Definition created
-
-#### TEDEFO-3415
-Create the Voluntary Planning (E2) NTD	EMD/notice-types	Have the Voluntary Planning (E2) Notice Type Definition created
-
-#### TEDEFO-3424
-Create the Voluntary Competition (E3) NTD	EMD/notice-types	"Release note: The Voluntary Competition (E3) notice type has been added.
-
-Have the Voluntary Competition (E3) Notice Type Definition created"
-
-#### TEDEFO-3431
-Create the Voluntary Result (E4) NTD	EMD/notice-types	Have the Voluntary Result (E4) Notice Type Definition created
-
-#### TEDEFO-3438
-Create the Voluntary Contract Modification (E6) NTD	EMD/notice-types	Have the Voluntary Contract Modification (E6) Notice Type Definition created
-
-#### TEDEFO-3705
-Update NTDs to include Review information	EMD/notice-types	"The Review Section has been added below the Results, in the left menu, for 29-37, E4 and E5.
 
 #### TEDEFO-3744
 The fields related to the existence of a framework agreement were added to the lot and contract sections in NTD 38, 39, E6 in order to allow contract modifications in the scope of framework contracts
@@ -115,12 +83,6 @@ Incorrect condition for mandatory rules on BT-685-LotResult
 #### TEDEFO-3209
 Have tighter rules on deadlines
 
-#### TEDEFO-3243
-Define rules for IPI
-
-#### TEDEFO-3446
-Define rules for EED
-
 #### TEDEFO-3508
 Define rules for Place of performance presence
 At least one of the two fields have to exist: BT-5141 and BT-727
@@ -157,24 +119,6 @@ Allow for BT-768 in Contract Modification		"BT-768 should be allowed in Contract
 This would require:
 * removal of stage 2 forbidden rules,
 * check of other rules that could require further fields or could be blocking if not addressed"
-
-#### TEDEFO-3401
-Review/update the PMC rules
-
-#### TEDEFO-3408
-Review/update the CC (E5) rules
-
-#### TEDEFO-3414
-Review/update the Voluntary Planning (E2) rules
-
-#### TEDEFO-3423
-Review/update the Voluntary Competition (E3) rulesneeded.
-
-#### TEDEFO-3430
-Review/update the Voluntary Result (E4) rules
-
-#### TEDEFO-3437
-Define the Voluntary Contract Modification (E6) rulesand updated wherever needed.
 
 #### TEDEFO-3554
 Update rules on Tender Validity Deadline (BT-98)
@@ -214,30 +158,12 @@ BT-40-Lot should be dependent on the existence of BT-809-Lot
 
 ### Codelists
 
-#### TEDEFO-3549
-Create new tailored list legal-basis-e6
-
 #### TEDEFO-3492
 June 2024 codelist updates
 There are 3 new codelists: document-used-in-public-procurement, exclusion-ground, foreign-subsidy-measure-conclusion and some updates in other codelists.
 
-#### TEDEFO-3060
-Get the list of all the required codelists for Review Information
-
-#### TEDEFO-3247
-Define codelists for IPI
-
-#### TEDEFO-3450
-Define codelists for EED: energy-efficiency-label, energy-efficiency-item, energy-efficiency-basis
-
 #### TEDEFO-3470
 Remove unused codes from non-publication-identifier codelist: not-dis-dat and not-pub-dat
-
-#### TEDEFO-3552
-Define/update required metadata for E6
-
-#### TEDEFO-3561
-Have Form Type, Notice Type and Notice Subtype defined for voluntary forms
 
 #### TEDEFO-3632
 Import of NUTS 2024
@@ -250,14 +176,6 @@ September 2024 codelist updates, nuts excluded
 
 ### View templates
 
-* Added new section for Review, available to subtypes 29, 30, 31, 32, 33, 34, 35, 36, 37, E4, E5.
-* Added views for the new below-threshold forms E1, E2, E3, E4, E5 and E6.
-* Added information for IPI in Result notices:
-  * In section "5 Lot", under "5.1.12 Terms of procurement", to inform if the Lot falls within the scope of the International Procurement Instrument.
-  * In section "6 Results", under "Statistics about strategic procurement" to display information relating to the International Procurement Instrument measures.
-* Added information for EED:
-  * For Competition and Result notices, in section "5 Lot", under "Strategic procurement", to inform if the Lot falls within the scope of the Energy Efficiency Directive, and to list the items that are related to the EED.
-  * For Result notices, in section "6 Results", under "Statistics about strategic procurement" to list the items procured that are related to the EED, with information about their efficiency savings.
 * Improved display of "unpublished" award criteria dimensions and numbers.
 * Fixed bugs with display of labels for BT-706-UBO "Beneficial Owner Nationality" and BT-682-Tender "Foreign Subsidies Measures".
 * Fixed bug causing fatal error when the beneficial owner has more than one nationality.
@@ -312,18 +230,6 @@ Expected label: "Exigence dans la demande de participation"
 
 cf. https://github.com/OP-TED/eForms-SDK/discussions/1036
 
-#### TEDEFO-3245
-Translate labels for new IPI nodes and fields
-
-#### TEDEFO-3246
-Provide translation for the new IPI rules
-
-#### TEDEFO-3448
-Translate labels for new EED nodes and fields
-
-#### TEDEFO-3449
-Provide translation for the new EED rules
-
 #### TEDEFO-3726
 Create auxiliary labels for Award Criteria dimensions
 ||id||English||
@@ -331,33 +237,8 @@ Create auxiliary labels for Award Criteria dimensions
 |auxiliary\|text\|award-criterion-fixed-dimension|Award Criterion Number Fixed Dimension|
 |auxiliary\|text\|award-criterion-threshold-dimension|Award Criterion Number Threshold Dimension|
 
-#### TEDEFO-3404
-Provide the translations for the PMC form
-
-#### TEDEFO-3411
-Provide the translations for the CC (E5) form
-
-#### TEDEFO-3417
-Provide the translations for the Voluntary Planning (E2) form
-
-#### TEDEFO-3426
-Provide the translations for the Voluntary Competition (E3) form
-
-#### TEDEFO-3433
-Provide the translations for the Voluntary Result (E4) form
-
-#### TEDEFO-3440
-Provide the translations for the Voluntary Contract Modification (E6) form
-
-#### TEDEFO-3560
-Update the Extended forms description labels
-
 #### TEDEFO-3571
 Translate labels for Place of Performance existence
-
-#### TEDEFO-3704
-Update translations for Review
-"Following changes to the Review section, translations updates are needed:
 
 #### TEDEFO-3792
 New Group Labels for SDK 1.13
