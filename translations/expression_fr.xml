@@ -262,7 +262,7 @@
 <entry key="expression|name|350">L’organisation ne fait pas partie de la partie soumissionnaire; 'L’organisation est une personne physique' (BT-633-Organization); 'Le lauréat est coté sur un marché réglementé' (BT-746-Organization)</entry>
 <entry key="expression|name|351">L’organisation (OPT-200-Organization-Company) fait partie d’une offre retenue en tant que soumissionnaire(OPT-300-Tenderer) principal ou sous-soumissionnaire (OPT-301-Tenderer-SubCont); 'L’organisation est une personne physique' (BT-633-Organization) est 'non' et 'Le lauréat est coté sur un marché réglementé' (BT-746-Organization) est 'non'</entry>
 <entry key="expression|name|352">Au moins une organisation est reliée à 'Organisation remplissant ce rôle' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Type de procédure' (BT-105) est 'Ouverte', 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
+<entry key="expression|name|353">'Type de procédure' (BT-105) n'est pas 'Ouverte', 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|354">'Type de procédure' (BT-105) n'est pas 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|355">L’organisation n’est pas un acheteur ou il n’y a qu’un seul acheteur</entry>
 <entry key="expression|name|356">Il existe deux acheteurs différents de deux pays différents</entry>

@@ -262,7 +262,7 @@
 <entry key="expression|name|350">Organizacija nedalyvauja konkurse dalyvaujančioje šalyje; 'Organizacija yra fizinis asmuo' (BT-633-Organization); 'Laimėtojo vertybiniais popieriais prekiaujama reguliuojamoje rinkoje' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organizacija (OPT-200-Organization-Company) yra konkurso laimėtojo sudėtyje kaip pagrindinis (OPT-300-Tenderer) ar papildomas konkurso dalyvis(OPT-301-Tenderer-SubCont); 'Organizacija yra fizinis asmuo' (BT-633-Organization) yra 'ne' ir 'Laimėtojo vertybiniais popieriais prekiaujama reguliuojamoje rinkoje' (BT-746-Organization) yra 'ne'</entry>
 <entry key="expression|name|352">Bent viena organizacija yra susijusi su 'Organizacija, atliekanti šį vaidmenį' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Pirkimo būdas' (BT-105) yra 'Atviras', 'Ribotas' arba 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'</entry>
+<entry key="expression|name|353">'Pirkimo būdas' (BT-105) nėra 'Atviras', 'Ribotas' arba 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'</entry>
 <entry key="expression|name|354">'Pirkimo būdas' (BT-105) nėra 'Ribotas' arba 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'</entry>
 <entry key="expression|name|355">Organizacija nėra pirkėjas arba yra tik vienas pirkėjas</entry>
 <entry key="expression|name|356">Dviejose skirtingose šalyse yra du skirtingi pirkėjai</entry>

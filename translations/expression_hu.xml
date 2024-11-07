@@ -262,7 +262,7 @@
 <entry key="expression|name|350">A szervezet nem része pályázó félnek; 'A szervezet természetes személy.' (BT-633-Organization); 'A nyertes szabályozott piacon jegyzett' (BT-746-Organization)</entry>
 <entry key="expression|name|351">A(z) (OPT-200-Organization-Company) szervezet úgy vesz részt a nyertes pályázatban mint fő (OPT-300-Tenderer) vagy (OPT-301-Tenderer-SubCont) alpályázó; 'A szervezet természetes személy.' (BT-633-Organization) = 'nem', és 'A nyertes szabályozott piacon jegyzett' (BT-746-Organization) = 'nem'</entry>
 <entry key="expression|name|352">Legalább egy szervezet kapcsolatban áll ezzel: 'Ezt a szerepet betöltő szervezet' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Az eljárás típusa' (BT-105) 'Nyitott', 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
+<entry key="expression|name|353">'Az eljárás típusa' (BT-105) nem 'Nyitott', 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
 <entry key="expression|name|354">'Az eljárás típusa' (BT-105) nem 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
 <entry key="expression|name|355">A szervezet nem vevő, vagy csak egy vevő van</entry>
 <entry key="expression|name|356">Két különböző vásárló van két különböző országból</entry>

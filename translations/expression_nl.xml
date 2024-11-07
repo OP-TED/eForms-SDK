@@ -262,7 +262,7 @@
 <entry key="expression|name|350">De organisatie neemt niet deel aan een inschrijvende partij; 'De organisatie is een natuurlijk persoon' (BT-633-Organization); 'De winnaar is genoteerd op een gereglementeerde markt' (BT-746-Organization)</entry>
 <entry key="expression|name|351">De organisatie (OPT-200-Organization-Company) neemt deel aan een winnende inschrijving als hoofdinschrijver (OPT-300-Tenderer) of als sub-inschrijver (OPT-301-Tenderer-SubCont); 'De organisatie is een natuurlijk persoon' (BT-633-Organization) is 'neen' en 'De winnaar is genoteerd op een gereglementeerde markt' (BT-746-Organization) is 'neen'</entry>
 <entry key="expression|name|352">Ten minste één organisatie is verbonden met 'Organisatie die deze rol vervult' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Type procedure' (BT-105) is 'Openbaar', 'Niet-openbaar' of 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
+<entry key="expression|name|353">'Type procedure' (BT-105) is niet 'Openbaar', 'Niet-openbaar' of 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
 <entry key="expression|name|354">'Type procedure' (BT-105) is niet 'Niet-openbaar' of 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
 <entry key="expression|name|355">Organisatie is geen koper of er is slechts één koper</entry>
 <entry key="expression|name|356">Er zijn twee verschillende kopers uit twee verschillende landen</entry>
