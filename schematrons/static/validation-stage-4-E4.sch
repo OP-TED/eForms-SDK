@@ -203,10 +203,8 @@
 		<assert id="BR-BT-00137-0091" role="ERROR" diagnostics="BT-137-LotsGroup" test="count(cbc:ID) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00137-0091</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject[$noticeSubType = 'E4']">
-		<assert id="BR-BT-00021-0144" role="ERROR" diagnostics="BT-21-LotsGroup" test="count(cbc:Name) &gt; 0 or not(../cbc:ID)">rule|text|BR-BT-00021-0144</assert>
 		<assert id="BR-BT-00021-0289" role="ERROR" diagnostics="BT-21-LotsGroup" test="count(cbc:Name) = 0 or (../cbc:ID)">rule|text|BR-BT-00021-0289</assert>
 		<assert id="BR-BT-00022-0231" role="ERROR" diagnostics="BT-22-LotsGroup" test="count(cbc:ID) = 0 or (../cbc:ID)">rule|text|BR-BT-00022-0231</assert>
-		<assert id="BR-BT-00024-0144" role="ERROR" diagnostics="BT-24-LotsGroup" test="count(cbc:Description) &gt; 0 or not(../cbc:ID)">rule|text|BR-BT-00024-0144</assert>
 		<assert id="BR-BT-00024-0289" role="ERROR" diagnostics="BT-24-LotsGroup" test="count(cbc:Description) = 0 or (../cbc:ID)">rule|text|BR-BT-00024-0289</assert>
 		<assert id="BR-BT-00271-0142" role="ERROR" diagnostics="ND-LotsGroupProcurementScope_BT-271-LotsGroup" test="count(cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount) = 0 or (../cbc:ID/normalize-space(text()) = ../../cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cbc:LotsGroupID[../cac:ProcurementProjectLotReference/cbc:ID[@schemeName='Lot']/normalize-space(text()) = ../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) = ('fa-mix','fa-w-rc','fa-wo-rc')]/normalize-space(text())]/normalize-space(text()))">rule|text|BR-BT-00271-0142</assert>
 	</rule>
