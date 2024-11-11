@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Avviso sull'esistenza di un sistema di qualificazione</entry>
 <entry key="code|name|competition.subco">Avviso di subappalto</entry>
 <entry key="code|name|compl.E5">Avviso volontario di completamento</entry>
+<entry key="code|name|completion.compl">Avviso di completamento di un appalto</entry>
 <entry key="code|name|conditions.performance">Prestazioni</entry>
+<entry key="code|name|consultation.pmc">Avviso di consultazione preliminare di mercato</entry>
 <entry key="code|name|cont-modif.can-modif">Avviso di modifica di un appalto</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Ripartizione dei ricavi dalla vendita di biglietti</entry>
 <entry key="code|name|contract-detail.cost-comp">Parametri di costo per le compensazioni</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Dichiarazione presentata, procedura standard di aggiudicazione</entry>
 <entry key="code|name|form-type.bri">Informazioni sulla registrazione delle imprese</entry>
 <entry key="code|name|form-type.competition">Gara</entry>
+<entry key="code|name|form-type.completion">Completamento</entry>
+<entry key="code|name|form-type.consultation">Consultazione</entry>
 <entry key="code|name|form-type.cont-modif">Modifica dell'appalto</entry>
 <entry key="code|name|form-type.dir-awa-pre">Preavviso di aggiudicazione diretta</entry>
 <entry key="code|name|form-type.planning">Programmazione</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Avviso o bando di concorso di progettazione</entry>
 <entry key="code|name|notice-type.cn-social">Bando di gara – regime alleggerito</entry>
 <entry key="code|name|notice-type.cn-standard">Bando di gara o di concessione – regime ordinario</entry>
+<entry key="code|name|notice-type.compl">Avviso di completamento di un appalto</entry>
 <entry key="code|name|notice-type.pin-buyer">Avviso di pubblicazione di un avviso di preinformazione o di un avviso periodico indicativo relativo al profilo di committente</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Avviso di preinformazione o avviso periodico indicativo utilizzato come avviso di indizione di gara – regime alleggerito</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Avviso di preinformazione o avviso periodico indicativo utilizzato come avviso di indizione di gara – regime ordinario</entry>
 <entry key="code|name|notice-type.pin-only">Avviso di preinformazione o avviso periodico indicativo a fini unicamente informativi</entry>
 <entry key="code|name|notice-type.pin-rtl">Avviso di preinformazione o avviso periodico indicativo utilizzato per abbreviare i termini per la ricezione delle offerte</entry>
 <entry key="code|name|notice-type.pin-tran">Avviso di preinformazione per i servizi di trasporto pubblico di passeggeri</entry>
+<entry key="code|name|notice-type.pmc">Avviso di consultazione preliminare di mercato</entry>
 <entry key="code|name|notice-type.qu-sy">Avviso sull'esistenza di un sistema di qualificazione</entry>
 <entry key="code|name|notice-type.subco">Avviso di subappalto</entry>
 <entry key="code|name|notice-type.veat">Avviso volontario per la trasparenza ex ante</entry>

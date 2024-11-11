@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Oznámenie o existencii kvalifikačného systému</entry>
 <entry key="code|name|competition.subco">Oznámenie o zadaní subdodávok</entry>
 <entry key="code|name|compl.E5">Dobrovoľné oznámenie o dokončení</entry>
+<entry key="code|name|completion.compl">Oznámenie o dokončení verejného obstarávania</entry>
 <entry key="code|name|conditions.performance">Plnenie</entry>
+<entry key="code|name|consultation.pmc">Oznámenie o predbežnej trhovej konzultácii</entry>
 <entry key="code|name|cont-modif.can-modif">Oznámenie o úprave zmluvy</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Vyčlenenie výnosov z predaja lístkov</entry>
 <entry key="code|name|contract-detail.cost-comp">Nákladové parametre pre platby úhrady</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Oznámenie predložené, štandardný postup zadania zákazky</entry>
 <entry key="code|name|form-type.bri">Informácie o registrácii podniku</entry>
 <entry key="code|name|form-type.competition">Súťaž</entry>
+<entry key="code|name|form-type.completion">Dokončenie</entry>
+<entry key="code|name|form-type.consultation">Konzultácia</entry>
 <entry key="code|name|form-type.cont-modif">Úprava zmluvy</entry>
 <entry key="code|name|form-type.dir-awa-pre">Predbežné oznámenie o zámere uzavrieť zmluvu</entry>
 <entry key="code|name|form-type.planning">Plánovanie obstarávania</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Oznámenie o vyhlásení súťaže návrhov</entry>
 <entry key="code|name|notice-type.cn-social">Oznámenie o vyhlásení verejného obstarávania – zjednodušený režim</entry>
 <entry key="code|name|notice-type.cn-standard">Oznámenie o vyhlásení verejného obstarávania alebo oznámenie o koncesii – štandardný režim</entry>
+<entry key="code|name|notice-type.compl">Oznámenie o dokončení verejného obstarávania</entry>
 <entry key="code|name|notice-type.pin-buyer">Oznámenie o uverejnení predbežného oznámenia a pravidelného informatívneho oznámenia v profile kupujúceho</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Predbežné oznámenie alebo pravidelné informatívne oznámenie použité ako výzva na súťaž – zjednodušený režim</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Predbežné oznámenie a pravidelné informatívne oznámenie použité ako výzva na súťaž – štandardný režim</entry>
 <entry key="code|name|notice-type.pin-only">Predbežné oznámenie a pravidelné informatívne oznámenie použité len na informačné účely</entry>
 <entry key="code|name|notice-type.pin-rtl">Predbežné oznámenie a pravidelné informatívne oznámenie použité na skrátenie lehôt na prijímanie ponúk</entry>
 <entry key="code|name|notice-type.pin-tran">Predbežné oznámenie o službách vo verejnom záujme v osobnej doprave</entry>
+<entry key="code|name|notice-type.pmc">Oznámenie o predbežnej trhovej konzultácii</entry>
 <entry key="code|name|notice-type.qu-sy">Oznámenie o existencii kvalifikačného systému</entry>
 <entry key="code|name|notice-type.subco">Oznámenie o zadaní subdodávok</entry>
 <entry key="code|name|notice-type.veat">Oznámenie pre dobrovoľnú transparentnosť ex-ante</entry>

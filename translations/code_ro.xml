@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Anunț privind existența unui sistem de calificare</entry>
 <entry key="code|name|competition.subco">Anunț de subcontractare</entry>
 <entry key="code|name|compl.E5">Anunț voluntar de finalizare</entry>
+<entry key="code|name|completion.compl">Anunț de încheiere a contractului</entry>
 <entry key="code|name|conditions.performance">Performanță</entry>
+<entry key="code|name|consultation.pmc">Anunț de consultare prealabilă a pieței</entry>
 <entry key="code|name|cont-modif.can-modif">Anunț de modificare a contractului</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Alocarea veniturilor încasate din vânzarea de bilete</entry>
 <entry key="code|name|contract-detail.cost-comp">Parametri de cost pentru plata compensaţiilor</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Declarație depusă, procedură standard de atribuire</entry>
 <entry key="code|name|form-type.bri">Informații privind statutul în Registrul Comerțului</entry>
 <entry key="code|name|form-type.competition">Procedură concurențială</entry>
+<entry key="code|name|form-type.completion">Încheiere</entry>
+<entry key="code|name|form-type.consultation">Consultare</entry>
 <entry key="code|name|form-type.cont-modif">Modificări aduse contractului</entry>
 <entry key="code|name|form-type.dir-awa-pre">Notificare prealabilă a atribuirii directe</entry>
 <entry key="code|name|form-type.planning">Planificare</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Anunț de concurs de proiecte</entry>
 <entry key="code|name|notice-type.cn-social">Anunț de participare - regim simplificat</entry>
 <entry key="code|name|notice-type.cn-standard">Anunț de participare sau de concesionare - regim standard</entry>
+<entry key="code|name|notice-type.compl">Anunț de încheiere a contractului</entry>
 <entry key="code|name|notice-type.pin-buyer">Anunț privind publicarea unui anunț de intenție sau a unui anunț periodic de informare privind profilul unui cumpărător</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Anunț de intenție sau anunț orientativ periodic utilizat ca procedură concurențială de ofertare - regim simplificat</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Anunț de intenție sau anunț orientativ periodic utilizat ca procedură concurențială de ofertare - regim standard</entry>
 <entry key="code|name|notice-type.pin-only">Anunț de intenție sau anunț orientativ periodic utilizat numai pentru informare</entry>
 <entry key="code|name|notice-type.pin-rtl">Anunț de intenție sau anunț orientativ periodic utilizat pentru scurtarea termenelor de primire a ofertelor</entry>
 <entry key="code|name|notice-type.pin-tran">Anunț de intenție pentru servicii publice de transport de călători</entry>
+<entry key="code|name|notice-type.pmc">Anunț de consultare prealabilă a pieței</entry>
 <entry key="code|name|notice-type.qu-sy">Anunț privind existența unui sistem de calificare</entry>
 <entry key="code|name|notice-type.subco">Anunț de subcontractare</entry>
 <entry key="code|name|notice-type.veat">Anunț de transparență ex ante voluntară</entry>

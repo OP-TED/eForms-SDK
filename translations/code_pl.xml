@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Ogłoszenie o istnieniu systemu kwalifikowania</entry>
 <entry key="code|name|competition.subco">Ogłoszenie o podwykonawstwie</entry>
 <entry key="code|name|compl.E5">Dobrowolne ogłoszenie o ukończeniu realizacji zamówienia</entry>
+<entry key="code|name|completion.compl">Ogłoszenie o ukończeniu realizacji zamówienia</entry>
 <entry key="code|name|conditions.performance">Realizacja</entry>
+<entry key="code|name|consultation.pmc">Ogłoszenie o wstępnych konsultacjach rynkowych</entry>
 <entry key="code|name|cont-modif.can-modif">Ogłoszenie o modyfikacji umowy</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Podział przychodów ze sprzedaży biletów</entry>
 <entry key="code|name|contract-detail.cost-comp">Parametry kosztów w celu obliczenia rekompensaty</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Oświadczenie przedłożone, standardowe postępowanie o udzielenie zamówienia</entry>
 <entry key="code|name|form-type.bri">Informacja o rejestracji działalności gospodarczej</entry>
 <entry key="code|name|form-type.competition">Procedura konkurencyjna</entry>
+<entry key="code|name|form-type.completion">Zakończenie</entry>
+<entry key="code|name|form-type.consultation">Konsultacje</entry>
 <entry key="code|name|form-type.cont-modif">Modyfikacja umowy</entry>
 <entry key="code|name|form-type.dir-awa-pre">Uprzednie zawiadomienie o bezpośrednim udzieleniu zamówienia</entry>
 <entry key="code|name|form-type.planning">Plan zakupu</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Ogłoszenie o konkursie</entry>
 <entry key="code|name|notice-type.cn-social">Ogłoszenie o zamówieniu – tryb uproszczony</entry>
 <entry key="code|name|notice-type.cn-standard">Ogłoszenie o zamówieniu lub ogłoszenie o koncesji – tryb standardowy</entry>
+<entry key="code|name|notice-type.compl">Ogłoszenie o ukończeniu realizacji zamówienia</entry>
 <entry key="code|name|notice-type.pin-buyer">Ogłoszenie o publikacji wstępnego ogłoszenia informacyjnego lub okresowego ogłoszenia informacyjnego na profilu nabywcy</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – tryb uproszczony</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane jako zaproszenie do ubiegania się o zamówienie – tryb standardowy</entry>
 <entry key="code|name|notice-type.pin-only">Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane wyłącznie do celów informacyjnych</entry>
 <entry key="code|name|notice-type.pin-rtl">Wstępne ogłoszenie informacyjne lub okresowe ogłoszenie informacyjne wykorzystywane do skrócenia terminu składania ofert</entry>
 <entry key="code|name|notice-type.pin-tran">Wstępne ogłoszenie informacyjne dotyczące usług publicznych w zakresie transportu pasażerskiego</entry>
+<entry key="code|name|notice-type.pmc">Ogłoszenie o wstępnych konsultacjach rynkowych</entry>
 <entry key="code|name|notice-type.qu-sy">Ogłoszenie o istnieniu systemu kwalifikowania</entry>
 <entry key="code|name|notice-type.subco">Ogłoszenie o podwykonawstwie</entry>
 <entry key="code|name|notice-type.veat">Ogłoszenie o dobrowolnej przejrzystości ex ante</entry>

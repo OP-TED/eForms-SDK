@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Oznámení o zavedení systému kvalifikace</entry>
 <entry key="code|name|competition.subco">Oznámení o subdodávkách</entry>
 <entry key="code|name|compl.E5">Dobrovolné oznámení o dokončení zakázky</entry>
+<entry key="code|name|completion.compl">Oznámení o dokončení zakázky</entry>
 <entry key="code|name|conditions.performance">Plnění</entry>
+<entry key="code|name|consultation.pmc">Oznámení o předběžné tržní konzultaci</entry>
 <entry key="code|name|cont-modif.can-modif">Oznámení o změně smlouvy</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Rozdělení výnosů z prodeje jízdenek</entry>
 <entry key="code|name|contract-detail.cost-comp">Parametry nákladů pro splátky kompenzace</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Prohlášení předloženo, standardní zadávací řízení</entry>
 <entry key="code|name|form-type.bri">Informace o registraci podniku</entry>
 <entry key="code|name|form-type.competition">Zadávání</entry>
+<entry key="code|name|form-type.completion">Dokončení</entry>
+<entry key="code|name|form-type.consultation">Konzultace</entry>
 <entry key="code|name|form-type.cont-modif">Změna smlouvy</entry>
 <entry key="code|name|form-type.dir-awa-pre">Oznámení o záměru uzavřít smlouvu</entry>
 <entry key="code|name|form-type.planning">Plánování</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Oznámení o soutěži o návrh</entry>
 <entry key="code|name|notice-type.cn-social">Oznámení o zahájení zadávacího řízení – zjednodušený režim</entry>
 <entry key="code|name|notice-type.cn-standard">Oznámení o zahájení zadávacího nebo koncesního řízení – standardní režim</entry>
+<entry key="code|name|notice-type.compl">Oznámení o dokončení zakázky</entry>
 <entry key="code|name|notice-type.pin-buyer">Oznámení o uveřejnění předběžného oznámení nebo pravidelného předběžného oznámení na profilu kupujícího</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Předběžné oznámení nebo pravidelné předběžné oznámení použité jako výzva k účasti v soutěži – zjednodušený režim</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Předběžné oznámení nebo pravidelné předběžné oznámení použité jako výzva k účasti v soutěži – standardní režim</entry>
 <entry key="code|name|notice-type.pin-only">Předběžné oznámení nebo pravidelné předběžné oznámení použité pouze pro informační účely</entry>
 <entry key="code|name|notice-type.pin-rtl">Předběžné oznámení nebo pravidelné předběžné oznámení použité za účelem zkrácení lhůty pro podání nabídek</entry>
 <entry key="code|name|notice-type.pin-tran">Předběžné oznámení pro veřejné služby v přepravě cestujících</entry>
+<entry key="code|name|notice-type.pmc">Oznámení o předběžné tržní konzultaci</entry>
 <entry key="code|name|notice-type.qu-sy">Oznámení o zavedení systému kvalifikace</entry>
 <entry key="code|name|notice-type.subco">Oznámení o subdodávkách</entry>
 <entry key="code|name|notice-type.veat">Oznámení o dobrovolné průhlednosti ex ante</entry>

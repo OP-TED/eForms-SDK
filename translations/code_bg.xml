@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Обявление за съществуването на квалификационна система</entry>
 <entry key="code|name|competition.subco">Обявление за поръчка за подизпълнение</entry>
 <entry key="code|name|compl.E5">Доброволно обявление за изпълнена поръчка</entry>
+<entry key="code|name|completion.compl">Обявление за приключване на договор</entry>
 <entry key="code|name|conditions.performance">Изпълнение</entry>
+<entry key="code|name|consultation.pmc">Обявление за предпазарна консултация</entry>
 <entry key="code|name|cont-modif.can-modif">Обявление за изменение на договор</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Разпределяне на приходи от продажби на билети</entry>
 <entry key="code|name|contract-detail.cost-comp">Ценови параметри за компенсационните плащания</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Подадена декларация, стандартна процедура за възлагане</entry>
 <entry key="code|name|form-type.bri">Информация за регистрацията на предприятие</entry>
 <entry key="code|name|form-type.competition">Състезателна процедура</entry>
+<entry key="code|name|form-type.completion">Приключване</entry>
+<entry key="code|name|form-type.consultation">Консултация</entry>
 <entry key="code|name|form-type.cont-modif">Изменение на договор</entry>
 <entry key="code|name|form-type.dir-awa-pre">Предварителна обява за пряко възлагане</entry>
 <entry key="code|name|form-type.planning">Планиране</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Обявление за конкурс за проект</entry>
 <entry key="code|name|notice-type.cn-social">Обявление за поръчка – облекчен режим</entry>
 <entry key="code|name|notice-type.cn-standard">Обявление за поръчка или концесия – стандартен режим</entry>
+<entry key="code|name|notice-type.compl">Обявление за приключване на договор</entry>
 <entry key="code|name|notice-type.pin-buyer">Обявление за публикуването на обявление за предварителна информация или периодично индикативно обявление в профил на купувача</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Обявление за предварителна информация или периодично индикативно обявление, използвани като покана за участие в състезателна процедура – облекчен режим</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Обявление за предварителна информация или периодично индикативно обявление, използвани като покана за участие в състезателна процедура – стандартен режим</entry>
 <entry key="code|name|notice-type.pin-only">Обявление за предварителна информация или периодично индикативно обявление, използвани само за информация</entry>
 <entry key="code|name|notice-type.pin-rtl">Обявление за предварителна информация или периодично индикативно обявление, използвани за съкращаване на сроковете за получаване на офертите</entry>
 <entry key="code|name|notice-type.pin-tran">Обявление за предварителна информация за обществени услуги за пътнически превоз</entry>
+<entry key="code|name|notice-type.pmc">Обявление за предпазарна консултация</entry>
 <entry key="code|name|notice-type.qu-sy">Обявление за съществуването на квалификационна система</entry>
 <entry key="code|name|notice-type.subco">Обявление за поръчка за подизпълнение</entry>
 <entry key="code|name|notice-type.veat">Обявление за доброволна прозрачност ex ante</entry>

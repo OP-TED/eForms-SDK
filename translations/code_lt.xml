@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Skelbimas apie kvalifikacijos vertinimo sistemą</entry>
 <entry key="code|name|competition.subco">Skelbimas apie subrangą</entry>
 <entry key="code|name|compl.E5">Savanoriškas skelbimas apie sutarties įvykdymą</entry>
+<entry key="code|name|completion.compl">Skelbimas apie sutarties įvykdymą</entry>
 <entry key="code|name|conditions.performance">Vykdymas</entry>
+<entry key="code|name|consultation.pmc">Skelbimas apie konsultacijas prieš produkto pateikimą rinkai</entry>
 <entry key="code|name|cont-modif.can-modif">Skelbimas apie sutarties keitimą</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Pajamų, gautų pardavus bilietus, paskirstymas</entry>
 <entry key="code|name|contract-detail.cost-comp">Kompensacinėms išmokoms taikomi išlaidų parametrai</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Deklaracija pateikta, standartinė sutarties skyrimo procedūra</entry>
 <entry key="code|name|form-type.bri">Įmonės registravimo informacija</entry>
 <entry key="code|name|form-type.competition">Konkursas</entry>
+<entry key="code|name|form-type.completion">Užbaigimas</entry>
+<entry key="code|name|form-type.consultation">Konsultacija</entry>
 <entry key="code|name|form-type.cont-modif">Sutarties keitimas</entry>
 <entry key="code|name|form-type.dir-awa-pre">Išankstinis skelbimas apie tiesioginį sutarties skyrimą</entry>
 <entry key="code|name|form-type.planning">Planuojamas pirkimas</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Skelbimas apie projekto konkursą</entry>
 <entry key="code|name|notice-type.cn-social">Skelbimas apie pirkimą. Paprastesnis režimas</entry>
 <entry key="code|name|notice-type.cn-standard">Skelbimas apie pirkimą arba koncesiją. Įprasta tvarka</entry>
+<entry key="code|name|notice-type.compl">Skelbimas apie sutarties įvykdymą</entry>
 <entry key="code|name|notice-type.pin-buyer">Pranešimas apie skelbiamą išankstinį informacinį skelbimą arba reguliarų orientacinį skelbimą pirkėjo profilyje</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas kaip kvietimas dalyvauti konkurse. Paprastesnis režimas</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas kaip kvietimas dalyvauti konkurse. Įprasta tvarka</entry>
 <entry key="code|name|notice-type.pin-only">Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, skirtas tik informavimui</entry>
 <entry key="code|name|notice-type.pin-rtl">Išankstinis informacinis skelbimas arba reguliarus orientacinis skelbimas, naudojamas siekiant sutrumpinti pasiūlymų priėmimo terminą</entry>
 <entry key="code|name|notice-type.pin-tran">Išankstinis informacinis skelbimas apie viešojo keleivinio transporto paslaugas</entry>
+<entry key="code|name|notice-type.pmc">Skelbimas apie konsultacijas prieš produkto pateikimą rinkai</entry>
 <entry key="code|name|notice-type.qu-sy">Skelbimas apie kvalifikacijos vertinimo sistemą</entry>
 <entry key="code|name|notice-type.subco">Skelbimas apie subrangą</entry>
 <entry key="code|name|notice-type.veat">Savanoriškas ex-ante skelbimas skaidrumo sumetimais</entry>

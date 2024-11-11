@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Bekanntmachung über das Bestehen eines Prüfungssystems</entry>
 <entry key="code|name|competition.subco">Bekanntmachung der Vergabe von Unteraufträgen</entry>
 <entry key="code|name|compl.E5">Freiwillige Bekanntmachung über die Auftragsausführung</entry>
+<entry key="code|name|completion.compl">Bekanntmachung über die Auftragsausführung</entry>
 <entry key="code|name|conditions.performance">Leistung</entry>
+<entry key="code|name|consultation.pmc">Bekanntmachung über vorherige Marktkonsultation</entry>
 <entry key="code|name|cont-modif.can-modif">Bekanntmachung der Auftragsänderungen</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Zuteilung der Erträge aus dem Verkauf von Fahrscheinen</entry>
 <entry key="code|name|contract-detail.cost-comp">Kostenparameter für Ausgleichszahlungen</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Eingereichte Erklärung; Standardvergabeverfahren</entry>
 <entry key="code|name|form-type.bri">Angaben zur Unternehmensregistrierung</entry>
 <entry key="code|name|form-type.competition">Wettbewerb</entry>
+<entry key="code|name|form-type.completion">Abschlussbekanntmachung</entry>
+<entry key="code|name|form-type.consultation">Vorankündigung</entry>
 <entry key="code|name|form-type.cont-modif">Auftragsänderung</entry>
 <entry key="code|name|form-type.dir-awa-pre">Vorankündigung – Direktvergabe</entry>
 <entry key="code|name|form-type.planning">Planung</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Wettbewerbsbekanntmachung</entry>
 <entry key="code|name|notice-type.cn-social">Auftragsbekanntmachung – Sonderregelung</entry>
 <entry key="code|name|notice-type.cn-standard">Auftrags- oder Konzessionsbekanntmachung – Standardregelung</entry>
+<entry key="code|name|notice-type.compl">Bekanntmachung über die Auftragsausführung</entry>
 <entry key="code|name|notice-type.pin-buyer">Bekanntmachung der Veröffentlichung einer Vorinformation oder einer regelmäßigen nicht verbindlichen Bekanntmachung in einem Beschafferprofil</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung als Aufruf zum Wettbewerb – Sonderregelung</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung als Aufruf zum Wettbewerb – Standardregelung</entry>
 <entry key="code|name|notice-type.pin-only">Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung nur zu Informationszwecken</entry>
 <entry key="code|name|notice-type.pin-rtl">Vorinformation oder eine regelmäßige nicht verbindliche Bekanntmachung zum Zweck der Verkürzung der Frist für den Eingang der Angebote</entry>
 <entry key="code|name|notice-type.pin-tran">Vorinformation zu öffentlichen Personenverkehrsdiensten</entry>
+<entry key="code|name|notice-type.pmc">Bekanntmachung über vorherige Marktkonsultation</entry>
 <entry key="code|name|notice-type.qu-sy">Bekanntmachung über das Bestehen eines Prüfungssystems</entry>
 <entry key="code|name|notice-type.subco">Bekanntmachung der Vergabe von Unteraufträgen</entry>
 <entry key="code|name|notice-type.veat">Freiwillige Ex-ante-Transparenzbekanntmachung</entry>

@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Kelpuuttamisjärjestelmää koskeva ilmoitus</entry>
 <entry key="code|name|competition.subco">Alihankintaa koskeva ilmoitus</entry>
 <entry key="code|name|compl.E5">Vapaaehtoinen toteutusilmoitus</entry>
+<entry key="code|name|completion.compl">Sopimuksen toteutusilmoitus</entry>
 <entry key="code|name|conditions.performance">Täytäntöönpano</entry>
+<entry key="code|name|consultation.pmc">Ennakoivaa markkinakartoitusta koskeva ilmoitus</entry>
 <entry key="code|name|cont-modif.can-modif">Hankintasopimuksen muuttamista koskeva ilmoitus</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Matkalippujen myynnistä saatavien tulojen jakaminen</entry>
 <entry key="code|name|contract-detail.cost-comp">Korvausten kustannusperusteet</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Vakuutus toimitettu, tavanomainen hankintamenettely</entry>
 <entry key="code|name|form-type.bri">Yritysrekisteritiedot</entry>
 <entry key="code|name|form-type.competition">Kilpailu</entry>
+<entry key="code|name|form-type.completion">Toteutus</entry>
+<entry key="code|name|form-type.consultation">Kartoitus</entry>
 <entry key="code|name|form-type.cont-modif">Sopimusmuutokset</entry>
 <entry key="code|name|form-type.dir-awa-pre">Ennakkoilmoitus suorahankinnasta</entry>
 <entry key="code|name|form-type.planning">Suunnittelu</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Suunnittelukilpailua koskeva ilmoitus</entry>
 <entry key="code|name|notice-type.cn-social">Hankintailmoitus – kevennetty järjestely</entry>
 <entry key="code|name|notice-type.cn-standard">Hankintailmoitus tai käyttöoikeussopimusta koskeva ilmoitus – vakiojärjestelmä</entry>
+<entry key="code|name|notice-type.compl">Sopimuksen toteutusilmoitus</entry>
 <entry key="code|name|notice-type.pin-buyer">Ilmoitus ennakkoilmoituksen tai ohjeellisen kausi-ilmoituksen julkaisemisesta hankkijaprofiilissa</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Tarjouskilpailukutsuna käytettävä ennakkoilmoitus tai ohjeellinen kausi-ilmoitus – kevennetty järjestely</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Tarjouskilpailukutsuna käytettävä ennakkoilmoitus tai ohjeellinen kausi-ilmoitus – vakiojärjestelmä</entry>
 <entry key="code|name|notice-type.pin-only">Ennakkoilmoitus tai ohjeellinen kausi-ilmoitus vain tietotarkoituksiin</entry>
 <entry key="code|name|notice-type.pin-rtl">Ennakkoilmoitus tai ohjeellinen kausi-ilmoitus tarjousaikojen lyhentämistä varten</entry>
 <entry key="code|name|notice-type.pin-tran">Ennakkoilmoitus julkisista henkilöliikennepalveluista</entry>
+<entry key="code|name|notice-type.pmc">Ennakoivaa markkinakartoitusta koskeva ilmoitus</entry>
 <entry key="code|name|notice-type.qu-sy">Kelpuuttamisjärjestelmää koskeva ilmoitus</entry>
 <entry key="code|name|notice-type.subco">Alihankintaa koskeva ilmoitus</entry>
 <entry key="code|name|notice-type.veat">Vapaaehtoista ex ante -avoimuutta koskeva ilmoitus</entry>

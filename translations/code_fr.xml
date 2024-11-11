@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Avis sur l’existence d’un système de qualification</entry>
 <entry key="code|name|competition.subco">Avis de sous-traitance</entry>
 <entry key="code|name|compl.E5">Avis volontaire d’achèvement</entry>
+<entry key="code|name|completion.compl">Avis d’achèvement du marché</entry>
 <entry key="code|name|conditions.performance">Performance</entry>
+<entry key="code|name|consultation.pmc">Avis de consultation avant marché</entry>
 <entry key="code|name|cont-modif.can-modif">Avis de modification de marché</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Affectation des recettes provenant de la vente des titres de transport</entry>
 <entry key="code|name|contract-detail.cost-comp">Paramètres de coût pour compensations</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Déclaration soumise, procédure d’attribution standard</entry>
 <entry key="code|name|form-type.bri">Informations relatives à l’enregistrement des entreprises</entry>
 <entry key="code|name|form-type.competition">Mise en concurrence</entry>
+<entry key="code|name|form-type.completion">Achèvement</entry>
+<entry key="code|name|form-type.consultation">Consultation</entry>
 <entry key="code|name|form-type.cont-modif">Modification du marché</entry>
 <entry key="code|name|form-type.dir-awa-pre">Notification préalable d’attribution directe</entry>
 <entry key="code|name|form-type.planning">Planification</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Avis de concours</entry>
 <entry key="code|name|notice-type.cn-social">Avis de marché – régime assoupli</entry>
 <entry key="code|name|notice-type.cn-standard">Avis de marché ou de concession – régime ordinaire</entry>
+<entry key="code|name|notice-type.compl">Avis d’achèvement du marché</entry>
 <entry key="code|name|notice-type.pin-buyer">Avis annonçant la publication d’un avis de préinformation ou d’un avis périodique indicatif sur un profil d’acheteur</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Avis de préinformation ou avis périodique indicatif utilisé comme appel à la concurrence – régime assoupli</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Avis de préinformation ou avis périodique indicatif utilisé comme appel à la concurrence – régime ordinaire</entry>
 <entry key="code|name|notice-type.pin-only">Avis de préinformation ou avis périodique indicatif utilisé uniquement à titre d’information</entry>
 <entry key="code|name|notice-type.pin-rtl">Avis de préinformation ou avis périodique indicatif utilisé pour raccourcir les délais de réception des offres</entry>
 <entry key="code|name|notice-type.pin-tran">Avis de préinformation relatif à des services publics de transport de voyageurs</entry>
+<entry key="code|name|notice-type.pmc">Avis de consultation avant marché</entry>
 <entry key="code|name|notice-type.qu-sy">Avis sur l’existence d’un système de qualification</entry>
 <entry key="code|name|notice-type.subco">Avis de sous-traitance</entry>
 <entry key="code|name|notice-type.veat">Avis en cas de transparence ex ante volontaire</entry>

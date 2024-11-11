@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Anúncio relativo à existência de um sistema de qualificação</entry>
 <entry key="code|name|competition.subco">Anúncio de subcontratação</entry>
 <entry key="code|name|compl.E5">Anúncio voluntário de conclusão</entry>
+<entry key="code|name|completion.compl">Anúncio de conclusão de contrato</entry>
 <entry key="code|name|conditions.performance">Desempenho</entry>
+<entry key="code|name|consultation.pmc">Anúncio de consulta preliminar do mercado</entry>
 <entry key="code|name|cont-modif.can-modif">Anúncio de modificação do contrato</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Repartição das receitas ligadas à venda de títulos de transporte</entry>
 <entry key="code|name|contract-detail.cost-comp">Parâmetros de custo para compensações</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Declaração apresentada, procedimento normal de adjudicação</entry>
 <entry key="code|name|form-type.bri">Informações do registo comercial</entry>
 <entry key="code|name|form-type.competition">Concurso</entry>
+<entry key="code|name|form-type.completion">Conclusão</entry>
+<entry key="code|name|form-type.consultation">Consulta</entry>
 <entry key="code|name|form-type.cont-modif">Modificação do contrato</entry>
 <entry key="code|name|form-type.dir-awa-pre">Pré-anúncio de adjudicação direta</entry>
 <entry key="code|name|form-type.planning">Planeamento</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Anúncio de concurso para trabalhos de conceção</entry>
 <entry key="code|name|notice-type.cn-social">Anúncio de concurso — regime simplificado</entry>
 <entry key="code|name|notice-type.cn-standard">Anúncio de concurso ou de concessão – regime normal</entry>
+<entry key="code|name|notice-type.compl">Anúncio de conclusão de contrato</entry>
 <entry key="code|name|notice-type.pin-buyer">Anúncio de publicação de um anúncio de pré-informação ou de um anúncio periódico indicativo sobre um perfil de adquirente</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Anúncio de pré-informação ou anúncio periódico indicativo utilizado como anúncio de concurso — regime simplificado</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Anúncio de pré-informação ou anúncio periódico indicativo utilizado como anúncio de concurso — regime normal</entry>
 <entry key="code|name|notice-type.pin-only">Anúncio de pré-informação ou anúncio periódico indicativo utilizado apenas a título informativo</entry>
 <entry key="code|name|notice-type.pin-rtl">Anúncio de pré-informação ou anúncio periódico indicativo utilizado para encurtar os prazos de receção das propostas</entry>
 <entry key="code|name|notice-type.pin-tran">Anúncio de pré-informação — serviços públicos de transporte de passageiros</entry>
+<entry key="code|name|notice-type.pmc">Anúncio de consulta preliminar do mercado</entry>
 <entry key="code|name|notice-type.qu-sy">Anúncio relativo à existência de um sistema de qualificação</entry>
 <entry key="code|name|notice-type.subco">Anúncio de subcontratação</entry>
 <entry key="code|name|notice-type.veat">Anúncio voluntário de transparência ex ante</entry>

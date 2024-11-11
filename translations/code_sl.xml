@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Obvestilo o vzpostavitvi kvalifikacijskega sistema</entry>
 <entry key="code|name|competition.subco">Obvestilo o oddaji naročil podizvajalcem</entry>
 <entry key="code|name|compl.E5">Dobrovoljno obvestilo o dokončanju</entry>
+<entry key="code|name|completion.compl">Obvestilo o sklenitvi pogodbe</entry>
 <entry key="code|name|conditions.performance">Izvedba</entry>
+<entry key="code|name|consultation.pmc">Obvestilo o predhodnem preverjanju trga</entry>
 <entry key="code|name|cont-modif.can-modif">Obvestilo o spremembi naročila</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Razporeditev prihodkov iz prodaje vozovnic</entry>
 <entry key="code|name|contract-detail.cost-comp">Stroškovni parametri za nadomestila</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Predložena izjava, standardni postopek dodelitve</entry>
 <entry key="code|name|form-type.bri">Podatki o registraciji podjetja</entry>
 <entry key="code|name|form-type.competition">Javni razpis</entry>
+<entry key="code|name|form-type.completion">Zaključek</entry>
+<entry key="code|name|form-type.consultation">Posvetovanje</entry>
 <entry key="code|name|form-type.cont-modif">Sprememba naročila</entry>
 <entry key="code|name|form-type.dir-awa-pre">Predhodno obvestilo o neposredni dodelitvi</entry>
 <entry key="code|name|form-type.planning">Načrtovanje</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Obvestilo o projektnem natečaju</entry>
 <entry key="code|name|notice-type.cn-social">Obvestilo o naročilu – enostavnejša ureditev</entry>
 <entry key="code|name|notice-type.cn-standard">Obvestilo o koncesiji ali naročilu – standardna ureditev</entry>
+<entry key="code|name|notice-type.compl">Obvestilo o sklenitvi pogodbe</entry>
 <entry key="code|name|notice-type.pin-buyer">Obvestilo o objavi predhodnega informativnega obvestila ali periodičnega informativnega obvestila v profilu kupca</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja kot javni razpis – enostavnejša ureditev</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja kot javni razpis – standardna ureditev</entry>
 <entry key="code|name|notice-type.pin-only">Predhodno informativno obvestilo ali periodično informativno obvestilo, ki se uporablja samo za obveščanje</entry>
 <entry key="code|name|notice-type.pin-rtl">Predhodno informativno obvestilo ali periodično informativno obvestilo, predhodno informativno obvestilo kot sredstvo za skrajšanje rokov za prejem ponudb</entry>
 <entry key="code|name|notice-type.pin-tran">Predhodno informativno obvestilo za storitve javnega potniškega prevoza</entry>
+<entry key="code|name|notice-type.pmc">Obvestilo o predhodnem preverjanju trga</entry>
 <entry key="code|name|notice-type.qu-sy">Obvestilo o vzpostavitvi kvalifikacijskega sistema</entry>
 <entry key="code|name|notice-type.subco">Obvestilo o oddaji naročil podizvajalcem</entry>
 <entry key="code|name|notice-type.veat">Prostovoljno obvestilo za predhodno transparentnost</entry>

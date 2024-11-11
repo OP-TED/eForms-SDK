@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Bekendtgørelse om anvendelse af en kvalifikationsordning</entry>
 <entry key="code|name|competition.subco">Bekendtgørelse om underentreprise</entry>
 <entry key="code|name|compl.E5">Frivillig bekendtgørelse om færdiggørelse</entry>
+<entry key="code|name|completion.compl">Bekendtgørelse om færdiggørelse af kontrakt</entry>
 <entry key="code|name|conditions.performance">Resultater</entry>
+<entry key="code|name|consultation.pmc">Bekendtgørelse om høring forud for markedsføring</entry>
 <entry key="code|name|cont-modif.can-modif">Bekendtgørelse om kontraktændring</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Fordeling af indtægter fra billetsalg</entry>
 <entry key="code|name|contract-detail.cost-comp">Omkostningsparametre for kompensationsbetalinger</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Erklæring indgivet, standardtildelingsprocedure</entry>
 <entry key="code|name|form-type.bri">Information om virksomhedsregistrering</entry>
 <entry key="code|name|form-type.competition">Konkurrencevilkår</entry>
+<entry key="code|name|form-type.completion">Færdiggørelse</entry>
+<entry key="code|name|form-type.consultation">Høring</entry>
 <entry key="code|name|form-type.cont-modif">Kontraktændring</entry>
 <entry key="code|name|form-type.dir-awa-pre">Forudgående underretning om direkte tildeling</entry>
 <entry key="code|name|form-type.planning">Planlægning</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Bekendtgørelse om projektkonkurrence</entry>
 <entry key="code|name|notice-type.cn-social">Udbudsbekendtgørelse – den lempelige ordning</entry>
 <entry key="code|name|notice-type.cn-standard">Udbuds- eller koncessionsbekendtgørelse – standardordningen</entry>
+<entry key="code|name|notice-type.compl">Bekendtgørelse om færdiggørelse af kontrakt</entry>
 <entry key="code|name|notice-type.pin-buyer">Bekendtgørelse om offentliggørelse af en forhåndsmeddelelse eller en vejledende periodisk bekendtgørelse i en køberprofil</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt som indkaldelser af tilbud – den lempelige ordning</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt som indkaldelser af tilbud – standardordningen</entry>
 <entry key="code|name|notice-type.pin-only">Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der kun er anvendt til informationsformål</entry>
 <entry key="code|name|notice-type.pin-rtl">Forhåndsmeddelelse eller vejledende periodisk bekendtgørelse, der er anvendt til at afkorte tidsfrister for modtagelse af tilbud</entry>
 <entry key="code|name|notice-type.pin-tran">Forhåndsmeddelelse vedrørende offentlig personbefordring</entry>
+<entry key="code|name|notice-type.pmc">Bekendtgørelse om høring forud for markedsføring</entry>
 <entry key="code|name|notice-type.qu-sy">Bekendtgørelse om anvendelse af en kvalifikationsordning</entry>
 <entry key="code|name|notice-type.subco">Bekendtgørelse om underentreprise</entry>
 <entry key="code|name|notice-type.veat">Bekendtgørelse med henblik på frivillig forudgående gennemsigtighed</entry>

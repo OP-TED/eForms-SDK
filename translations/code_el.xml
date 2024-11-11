@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Γνωστοποίηση για την ύπαρξη συστήματος προεπιλογής</entry>
 <entry key="code|name|competition.subco">Προκήρυξη υπεργολαβίας</entry>
 <entry key="code|name|compl.E5">Εθελοντική γνωστοποίηση ολοκλήρωσης</entry>
+<entry key="code|name|completion.compl">Γνωστοποίηση ολοκλήρωσης σύμβασης</entry>
 <entry key="code|name|conditions.performance">Επιδόσεις</entry>
+<entry key="code|name|consultation.pmc">Γνωστοποίηση προκαταρκτικής διαβούλευσης με την αγορά</entry>
 <entry key="code|name|cont-modif.can-modif">Γνωστοποίηση τροποποίησης σύμβασης</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Κατανομή των εσόδων από την πώληση εισιτηρίων</entry>
 <entry key="code|name|contract-detail.cost-comp">Παράμετροι κόστους για πληρωμές αποζημιώσεων</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Υποβληθείσα δήλωση, συνήθης διαδικασία ανάθεσης</entry>
 <entry key="code|name|form-type.bri">Στοιχεία καταχώρισης επιχειρήσεων</entry>
 <entry key="code|name|form-type.competition">Aνταγωνισμός</entry>
+<entry key="code|name|form-type.completion">Ολοκλήρωση</entry>
+<entry key="code|name|form-type.consultation">Διαβούλευση</entry>
 <entry key="code|name|form-type.cont-modif">Τροποποίηση σύμβασης</entry>
 <entry key="code|name|form-type.dir-awa-pre">Προκοινοποίηση απευθείας ανάθεσης</entry>
 <entry key="code|name|form-type.planning">Σχεδιασμός</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Προκήρυξη διαγωνισμού μελετών</entry>
 <entry key="code|name|notice-type.cn-social">Προκήρυξη σύμβασης — απλουστευμένο καθεστώς</entry>
 <entry key="code|name|notice-type.cn-standard">Προκήρυξη σύμβασης ή σύμβασης παραχώρησης — τυποποιημένο καθεστώς</entry>
+<entry key="code|name|notice-type.compl">Γνωστοποίηση ολοκλήρωσης σύμβασης</entry>
 <entry key="code|name|notice-type.pin-buyer">Γνωστοποίηση της δημοσίευσης προκαταρκτικής προκήρυξης ή περιοδικής ενημερωτικής προκήρυξης για προφίλ αγοραστή</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για προκήρυξη διαγωνισμού – απλουστευμένο καθεστώς</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για προκήρυξη διαγωνισμού – τυποποιημένο καθεστώς</entry>
 <entry key="code|name|notice-type.pin-only">Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική προκήρυξη που χρησιμοποιείται μόνο για ενημέρωση</entry>
 <entry key="code|name|notice-type.pin-rtl">Προκαταρκτική προκήρυξη ή περιοδική ενδεικτική διακήρυξη που χρησιμοποιείται για τη συντόμευση των προθεσμιών παραλαβής των προσφορών</entry>
 <entry key="code|name|notice-type.pin-tran">Προκαταρκτική προκήρυξη για δημόσιες επιβατικές μεταφορές</entry>
+<entry key="code|name|notice-type.pmc">Γνωστοποίηση προκαταρκτικής διαβούλευσης με την αγορά</entry>
 <entry key="code|name|notice-type.qu-sy">Γνωστοποίηση για την ύπαρξη συστήματος προεπιλογής</entry>
 <entry key="code|name|notice-type.subco">Προκήρυξη υπεργολαβίας</entry>
 <entry key="code|name|notice-type.veat">Προκήρυξη για εκούσια εκ των προτέρων διαφάνεια</entry>

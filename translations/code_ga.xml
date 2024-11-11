@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Fógra maidir le córas cáiliúcháin a bheith ann</entry>
 <entry key="code|name|competition.subco">Fógra maidir le fochonrú</entry>
 <entry key="code|name|compl.E5">Dobrovolný fógra comhlánaithe</entry>
+<entry key="code|name|completion.compl">Fógra faoi chur i gcrích conartha</entry>
 <entry key="code|name|conditions.performance">Feidhmíocht</entry>
+<entry key="code|name|consultation.pmc">Fógra comhairliúcháin réamh-mhargaidh</entry>
 <entry key="code|name|cont-modif.can-modif">Fógra maidir le mionathrú conartha</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Leithdháileadh an ioncaim ó dhíolachán ticéad</entry>
 <entry key="code|name|contract-detail.cost-comp">Paraiméadair costais le haghaidh íocaíochtaí cúitimh</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Dearbhú curtha isteach, nós imeachta dámhachtana caighdeánach</entry>
 <entry key="code|name|form-type.bri">Eolas faoi chlárú gnó</entry>
 <entry key="code|name|form-type.competition">Iomaíocht</entry>
+<entry key="code|name|form-type.completion">Cur i gcrích</entry>
+<entry key="code|name|form-type.consultation">Comhairliúchán</entry>
 <entry key="code|name|form-type.cont-modif">Mionathrú conartha</entry>
 <entry key="code|name|form-type.dir-awa-pre">Réamhfhógra maidir le dámhachtain dhíreach</entry>
 <entry key="code|name|form-type.planning">Pleanáil</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Fógra faoi chomórtas dearaidh</entry>
 <entry key="code|name|notice-type.cn-social">Fógra conartha – an córas éadrom</entry>
 <entry key="code|name|notice-type.cn-standard">Fógra maidir le conradh nó lamháltas — an gnáthchóras</entry>
+<entry key="code|name|notice-type.compl">Fógra faoi chur i gcrích conartha</entry>
 <entry key="code|name|notice-type.pin-buyer">Fógra maidir le foilsiú fógra faisnéise roimh ré nó fógra faisnéise tréimhsiúil i dtaobh próifíl cheannaitheora</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Fógra réamhfhaisnéise nó fógra táscach tréimhsiúil lena ndéantar glao ar iomaíocht – an córas éadrom</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil lena ndéantar glao ar iomaíocht – an gnáthchóras</entry>
 <entry key="code|name|notice-type.pin-only">Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil ar mhaithe le faisnéis amháin</entry>
 <entry key="code|name|notice-type.pin-rtl">Fógra faisnéise roimh ré nó fógra táscach tréimhsiúil lena ngearrtar na teorainneacha ama le tairiscintí a fháil</entry>
 <entry key="code|name|notice-type.pin-tran">Fógra réamhfhaisnéise le haghaidh seirbhísí poiblí iompair do phaisinéirí</entry>
+<entry key="code|name|notice-type.pmc">Fógra comhairliúcháin réamh-mhargaidh</entry>
 <entry key="code|name|notice-type.qu-sy">Fógra maidir le córas cáiliúcháin a bheith ann</entry>
 <entry key="code|name|notice-type.subco">Fógra maidir le fochonrú</entry>
 <entry key="code|name|notice-type.veat">Fógra trédhearcachta ex ante deonach</entry>

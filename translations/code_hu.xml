@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Előminősítési rendszer meglétéről szóló hirdetmény</entry>
 <entry key="code|name|competition.subco">Alvállalkozói hirdetmény</entry>
 <entry key="code|name|compl.E5">Önkéntes tájékoztató szerződés teljesítéséről</entry>
+<entry key="code|name|completion.compl">Szerződés teljesítéséről szóló hirdetmény</entry>
 <entry key="code|name|conditions.performance">Teljesítés</entry>
+<entry key="code|name|consultation.pmc">Piaci konzultációt megelőző hirdetmény</entry>
 <entry key="code|name|cont-modif.can-modif">Szerződésmódosításról szóló hirdetmény</entry>
 <entry key="code|name|contract-detail.all-rev-tic">A jegyértékesítésből származó bevételek megosztása</entry>
 <entry key="code|name|contract-detail.cost-comp">Az ellentételezés költségparaméterei</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Nyilatkozat benyújtása, rendes odaítélési eljárás</entry>
 <entry key="code|name|form-type.bri">Cégadatok</entry>
 <entry key="code|name|form-type.competition">Verseny</entry>
+<entry key="code|name|form-type.completion">Teljesítés</entry>
+<entry key="code|name|form-type.consultation">Konzultáció</entry>
 <entry key="code|name|form-type.cont-modif">Szerződésmódosítás</entry>
 <entry key="code|name|form-type.dir-awa-pre">Közvetlen odaítélés előzetes bejelentése</entry>
 <entry key="code|name|form-type.planning">Tervezés</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Tervpályázati hirdetmény</entry>
 <entry key="code|name|notice-type.cn-social">Eljárást megindító hirdetmény – enyhébb szabályozás</entry>
 <entry key="code|name|notice-type.cn-standard">Eljárást megindító vagy koncessziós hirdetmény – klasszikus ajánlatkérőkre vonatkozó szabályok</entry>
+<entry key="code|name|notice-type.compl">Szerződés teljesítéséről szóló hirdetmény</entry>
 <entry key="code|name|notice-type.pin-buyer">Előzetes tájékoztató vagy időszakos előzetes tájékoztató felhasználói oldalon történő közzétételéről szóló hirdetmény</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Ajánlati/részvételi felhívásként használt előzetes tájékoztató vagy időszakos előzetes tájékoztató – enyhébb szabályozás</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Ajánlati/részvételi felhívásként használt előzetes tájékoztató vagy időszakos előzetes tájékoztató – klasszikus ajánlatkérőkre vonatkozó szabályok</entry>
 <entry key="code|name|notice-type.pin-only">Kizárólag tájékoztatás céljából használt előzetes tájékoztató vagy időszakos előzetes tájékoztató</entry>
 <entry key="code|name|notice-type.pin-rtl">Ajánlatok beérkezésére megszabott határidő rövidítésére szolgáló előzetes tájékoztató vagy időszakos előzetes tájékoztató</entry>
 <entry key="code|name|notice-type.pin-tran">Személyszállítási közszolgáltatásra vonatkozó előzetes tájékoztató</entry>
+<entry key="code|name|notice-type.pmc">Piaci konzultációt megelőző hirdetmény</entry>
 <entry key="code|name|notice-type.qu-sy">Előminősítési rendszer meglétéről szóló hirdetmény</entry>
 <entry key="code|name|notice-type.subco">Alvállalkozói hirdetmény</entry>
 <entry key="code|name|notice-type.veat">Önkéntes, előzetes, átláthatóságra vonatkozó hirdetmény</entry>

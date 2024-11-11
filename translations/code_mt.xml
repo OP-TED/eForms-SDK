@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Avviż dwar l-eżistenza ta’ sistema ta’ kwalifika</entry>
 <entry key="code|name|competition.subco">Avviż tas-sottokuntrattar</entry>
 <entry key="code|name|compl.E5">Avviż volontarju ta’ tlestija</entry>
+<entry key="code|name|completion.compl">Avviż ta’ tlestija ta’ kuntratt</entry>
 <entry key="code|name|conditions.performance">Prestazzjoni</entry>
+<entry key="code|name|consultation.pmc">Avviż tal-konsultazzjoni ta’ qabel is-suq</entry>
 <entry key="code|name|cont-modif.can-modif">Avviż tal-modifika fil-kuntratt</entry>
 <entry key="code|name|contract-detail.all-rev-tic">L-allokazzjoni tad-dħul mill-bejgħ tal-biljetti</entry>
 <entry key="code|name|contract-detail.cost-comp">Il-parametri tal-ispejjeż biex isiru l-ħlasijiet ta’ kumpens</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Dikjarazzjoni sottomessa, proċedura standard tal-għoti</entry>
 <entry key="code|name|form-type.bri">Informazzjoni dwar ir-reġistrazzjoni tan-negozju</entry>
 <entry key="code|name|form-type.competition">Kompetizzjoni</entry>
+<entry key="code|name|form-type.completion">Tlestija</entry>
+<entry key="code|name|form-type.consultation">Konsultazzjoni</entry>
 <entry key="code|name|form-type.cont-modif">Modifika fil-kuntratt</entry>
 <entry key="code|name|form-type.dir-awa-pre">Notifika minn qabel tal-għoti dirett</entry>
 <entry key="code|name|form-type.planning">Ippjanar</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Avviż dwar konkors ta’ disinn</entry>
 <entry key="code|name|notice-type.cn-social">Avviż tal-kuntratt – reġim ħafif</entry>
 <entry key="code|name|notice-type.cn-standard">Avviż tal-kuntratt jew tal-konċessjoni – reġim standard</entry>
+<entry key="code|name|notice-type.compl">Avviż ta’ tlestija ta’ kuntratt</entry>
 <entry key="code|name|notice-type.pin-buyer">Avviż tal-pubblikazzjoni ta’ avviż informattiv minn qabel jew ta’ avviż informattiv perjodiku fuq profil ta’ xerrej</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat għal sejħa għall-kompetizzjoni – reġim ħafif</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat għal sejħa għall-kompetizzjoni – reġim standard</entry>
 <entry key="code|name|notice-type.pin-only">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biss għall-informazzjoni</entry>
 <entry key="code|name|notice-type.pin-rtl">Avviż informattiv minn qabel jew avviż indikattiv perjodiku użat biex jitqassru l-limiti ta’ żmien għall-wasla tal-offerti</entry>
 <entry key="code|name|notice-type.pin-tran">Avviż informattiv minn qabel għas-servizzi pubbliċi tat-trasport tal-passiġġieri</entry>
+<entry key="code|name|notice-type.pmc">Avviż tal-konsultazzjoni ta’ qabel is-suq</entry>
 <entry key="code|name|notice-type.qu-sy">Avviż dwar l-eżistenza ta’ sistema ta’ kwalifika</entry>
 <entry key="code|name|notice-type.subco">Avviż tas-sottokuntrattar</entry>
 <entry key="code|name|notice-type.veat">Avviż tat-trasparenza ex ante volontarju</entry>

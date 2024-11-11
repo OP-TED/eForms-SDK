@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Anuncio de la existencia de un sistema de calificación</entry>
 <entry key="code|name|competition.subco">Anuncio de subcontratación</entry>
 <entry key="code|name|compl.E5">Anuncio voluntario de finalización</entry>
+<entry key="code|name|completion.compl">Anuncio de finalización de contrato</entry>
 <entry key="code|name|conditions.performance">Prestaciones</entry>
+<entry key="code|name|consultation.pmc">Anuncio de consulta previa a la introducción en el mercado</entry>
 <entry key="code|name|cont-modif.can-modif">Anuncio de modificación de contrato</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Distribución de los ingresos derivados de la venta de los títulos de transporte</entry>
 <entry key="code|name|contract-detail.cost-comp">Parámetros de coste para el pago de compensaciones</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Declaración presentada, procedimiento estándar de adjudicación</entry>
 <entry key="code|name|form-type.bri">Información sobre el registro de empresas</entry>
 <entry key="code|name|form-type.competition">Licitación</entry>
+<entry key="code|name|form-type.completion">Finalización</entry>
+<entry key="code|name|form-type.consultation">Consulta</entry>
 <entry key="code|name|form-type.cont-modif">Modificación de contrato</entry>
 <entry key="code|name|form-type.dir-awa-pre">Notificación previa de adjudicación directa</entry>
 <entry key="code|name|form-type.planning">Planificación</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Anuncio de concurso de proyectos</entry>
 <entry key="code|name|notice-type.cn-social">Anuncio de contrato. Régimen simplificado</entry>
 <entry key="code|name|notice-type.cn-standard">Anuncio de contrato o de concesión. Régimen normal</entry>
+<entry key="code|name|notice-type.compl">Anuncio de finalización de contrato</entry>
 <entry key="code|name|notice-type.pin-buyer">Anuncio de la publicación de un anuncio de información previa o de un anuncio periódico indicativo en un perfil de comprador</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Anuncio de información previa o anuncio periódico indicativo usado como convocatoria de licitación. Régimen simplificado</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Anuncio de información previa o anuncio periódico indicativo usado como convocatoria de licitación. Régimen normal</entry>
 <entry key="code|name|notice-type.pin-only">Anuncio de información previa o anuncio periódico indicativo usado únicamente para información</entry>
 <entry key="code|name|notice-type.pin-rtl">Anuncio de información previa o anuncio periódico indicativo usado para reducir los plazos de recepción de las ofertas</entry>
 <entry key="code|name|notice-type.pin-tran">Anuncio de información previa de servicios públicos de transporte de viajeros</entry>
+<entry key="code|name|notice-type.pmc">Anuncio de consulta previa a la introducción en el mercado</entry>
 <entry key="code|name|notice-type.qu-sy">Anuncio de la existencia de un sistema de calificación</entry>
 <entry key="code|name|notice-type.subco">Anuncio de subcontratación</entry>
 <entry key="code|name|notice-type.veat">Anuncio de transparencia previa voluntaria</entry>

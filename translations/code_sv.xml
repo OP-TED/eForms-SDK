@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Meddelande om att det finns ett kvalificeringssystem</entry>
 <entry key="code|name|competition.subco">Meddelande om underentreprenad</entry>
 <entry key="code|name|compl.E5">Frivilliga meddelanden om genomfört kontrakt</entry>
+<entry key="code|name|completion.compl">Meddelande om genomfört kontrakt</entry>
 <entry key="code|name|conditions.performance">Genomförande</entry>
+<entry key="code|name|consultation.pmc">Meddelande om förberedande marknadssamråd</entry>
 <entry key="code|name|cont-modif.can-modif">Meddelande om ändring av kontrakt eller ramavtal</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Fördelning av inkomster från biljettförsäljning</entry>
 <entry key="code|name|contract-detail.cost-comp">Kriterier för beräkning av ersättningen</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Försäkran inlämnad, standardförfarande för tilldelning</entry>
 <entry key="code|name|form-type.bri">Bolagsregistreringsinformation</entry>
 <entry key="code|name|form-type.competition">Konkurrensutsättning</entry>
+<entry key="code|name|form-type.completion">Genomfört</entry>
+<entry key="code|name|form-type.consultation">Samråd</entry>
 <entry key="code|name|form-type.cont-modif">Ändring av kontrakt och ramavtal</entry>
 <entry key="code|name|form-type.dir-awa-pre">Frivillig förhandsinsyn</entry>
 <entry key="code|name|form-type.planning">Planering</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Meddelande om projekttävling</entry>
 <entry key="code|name|notice-type.cn-social">Meddelande om upphandling – förenklat system</entry>
 <entry key="code|name|notice-type.cn-standard">Meddelande om upphandling eller koncession – standardsystem</entry>
+<entry key="code|name|notice-type.compl">Meddelande om genomfört kontrakt</entry>
 <entry key="code|name|notice-type.pin-buyer">Meddelande om offentliggörande av ett förhandsmeddelande på upphandlarprofil</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Förhandsmeddelande som används som anbudsinfordran – förenklat system</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Förhandsmeddelande som används som anbudsinfordran – standardsystem</entry>
 <entry key="code|name|notice-type.pin-only">Förhandsmeddelande som endast används i informationssyfte</entry>
 <entry key="code|name|notice-type.pin-rtl">Förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud</entry>
 <entry key="code|name|notice-type.pin-tran">Förhandsmeddelande om kollektivtrafik</entry>
+<entry key="code|name|notice-type.pmc">Meddelande om förberedande marknadssamråd</entry>
 <entry key="code|name|notice-type.qu-sy">Meddelande om att det finns ett kvalificeringssystem</entry>
 <entry key="code|name|notice-type.subco">Meddelande om underentreprenad</entry>
 <entry key="code|name|notice-type.veat">Meddelande om frivillig förhandsinsyn</entry>

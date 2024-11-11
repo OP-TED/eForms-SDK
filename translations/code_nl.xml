@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Aankondiging inzake het bestaan van een erkenningsregeling</entry>
 <entry key="code|name|competition.subco">Aankondiging van een opdracht in onderaanneming</entry>
 <entry key="code|name|compl.E5">Vrijwillige kennisgeving van voltooiing</entry>
+<entry key="code|name|completion.compl">Aankondiging van voltooiing van een opdracht</entry>
 <entry key="code|name|conditions.performance">Prestaties</entry>
+<entry key="code|name|consultation.pmc">Aankondiging van voorafgaande marktconsultatie</entry>
 <entry key="code|name|cont-modif.can-modif">Aankondiging van wijziging contract</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Verdeelsleutel voor de ontvangsten uit de verkoop van vervoerbewijzen</entry>
 <entry key="code|name|contract-detail.cost-comp">Parameters voor kosten voor compensaties</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Aanmelding ingediend, standaardgunningsprocedure</entry>
 <entry key="code|name|form-type.bri">Informatie over bedrijfsregistratie</entry>
 <entry key="code|name|form-type.competition">Mededinging</entry>
+<entry key="code|name|form-type.completion">Voltooiing</entry>
+<entry key="code|name|form-type.consultation">Raadpleging</entry>
 <entry key="code|name|form-type.cont-modif">Wijziging van een opdracht</entry>
 <entry key="code|name|form-type.dir-awa-pre">Vooraankondiging onderhandse gunning</entry>
 <entry key="code|name|form-type.planning">Geplande opdracht</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Aankondiging van een prijsvraag voor ontwerpen</entry>
 <entry key="code|name|notice-type.cn-social">Aankondiging van een opdracht – lichte regeling</entry>
 <entry key="code|name|notice-type.cn-standard">Aankondiging van een opdracht of concessie – standaardregeling</entry>
+<entry key="code|name|notice-type.compl">Aankondiging van voltooiing van een opdracht</entry>
 <entry key="code|name|notice-type.pin-buyer">Aankondiging van de bekendmaking van een vooraankondiging of een periodieke indicatieve aankondiging via een kopersprofiel</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Vooraankondiging of periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – lichte regeling</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Vooraankondiging of periodieke indicatieve aankondiging gebruikt als oproep tot mededinging – standaardregeling</entry>
 <entry key="code|name|notice-type.pin-only">Vooraankondiging of periodieke indicatieve aankondiging die alleen ter informatie wordt gebruikt</entry>
 <entry key="code|name|notice-type.pin-rtl">Vooraankondiging of periodieke indicatieve aankondiging gebruikt om termijnen voor de ontvangst van inschrijvingen in te korten</entry>
 <entry key="code|name|notice-type.pin-tran">Vooraankondiging voor openbaar personenvervoer</entry>
+<entry key="code|name|notice-type.pmc">Aankondiging van voorafgaande marktconsultatie</entry>
 <entry key="code|name|notice-type.qu-sy">Aankondiging inzake het bestaan van een erkenningsregeling</entry>
 <entry key="code|name|notice-type.subco">Aankondiging van een opdracht in onderaanneming</entry>
 <entry key="code|name|notice-type.veat">Aankondiging in geval van vrijwillige transparantie vooraf</entry>

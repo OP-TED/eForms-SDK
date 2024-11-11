@@ -96,7 +96,9 @@
 <entry key="code|name|competition.qu-sy">Kvalifitseerimissüsteemi teade</entry>
 <entry key="code|name|competition.subco">Allhanke teade</entry>
 <entry key="code|name|compl.E5">Vabatahtlik lepingu täitmise teade</entry>
+<entry key="code|name|completion.compl">Teade lepingu täitmise kohta</entry>
 <entry key="code|name|conditions.performance">Lepingu täitmine</entry>
+<entry key="code|name|consultation.pmc">Hanke-eelne turu-uuring</entry>
 <entry key="code|name|cont-modif.can-modif">Lepingu muutmise teade</entry>
 <entry key="code|name|contract-detail.all-rev-tic">Piletimüügist saadava tulu jaotamine</entry>
 <entry key="code|name|contract-detail.cost-comp">Hüvitise maksumuse näitajad</entry>
@@ -10508,6 +10510,8 @@
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-stand">Deklaratsioon esitatud, tavapärane hankemenetlus</entry>
 <entry key="code|name|form-type.bri">Ettevõtete registreerimisega seotud teave</entry>
 <entry key="code|name|form-type.competition">Hange</entry>
+<entry key="code|name|form-type.completion">Lõpuleviimine</entry>
+<entry key="code|name|form-type.consultation">Konsulteerimine</entry>
 <entry key="code|name|form-type.cont-modif">Lepingu muutmine</entry>
 <entry key="code|name|form-type.dir-awa-pre">Teavitamine kavandatavast otselepingust</entry>
 <entry key="code|name|form-type.planning">Kavandamine</entry>
@@ -11062,12 +11066,14 @@
 <entry key="code|name|notice-type.cn-desg">Ideekonkursi kutse</entry>
 <entry key="code|name|notice-type.cn-social">Hanketeade – lihtsustatud kord</entry>
 <entry key="code|name|notice-type.cn-standard">Hanketeade või kontsessiooniteade – üldkord</entry>
+<entry key="code|name|notice-type.compl">Teade lepingu täitmise kohta</entry>
 <entry key="code|name|notice-type.pin-buyer">Teade eelteate või perioodilise eelteate avaldamise kohta hankija profiilis</entry>
 <entry key="code|name|notice-type.pin-cfc-social">Hanke väljakuulutamiseks kasutatav eelteade või perioodiline eelteade – lihtsustatud kord</entry>
 <entry key="code|name|notice-type.pin-cfc-standard">Hanke väljakuulutamiseks kasutatav eelteade või perioodiline eelteade – üldkord</entry>
 <entry key="code|name|notice-type.pin-only">Ainult teavitamise eesmärgil kasutatav eelteade või perioodiline eelteade</entry>
 <entry key="code|name|notice-type.pin-rtl">Eelteade või perioodiline eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks</entry>
 <entry key="code|name|notice-type.pin-tran">Eelteade avaliku reisijateveoteenuse kohta</entry>
+<entry key="code|name|notice-type.pmc">Hanke-eelne turu-uuring</entry>
 <entry key="code|name|notice-type.qu-sy">Kvalifitseerimissüsteemi teade</entry>
 <entry key="code|name|notice-type.subco">Allhanke teade</entry>
 <entry key="code|name|notice-type.veat">Vabatahtlik eelnev avalikustamisteade</entry>
