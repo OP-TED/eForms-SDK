@@ -126,6 +126,7 @@
 				{BT-747-Lot} #{field|name|BT-747-Lot}: #{BT-747-Lot} // Selection Criterion Type
 				{ND-SelectionCriteria[BT-749-Lot is present]} #{field|name|BT-749-Lot}: ${BT-749-Lot} // Selection Criterion Name
 				{ND-SelectionCriteria[BT-750-Lot is present]} #{field|name|BT-750-Lot}: ${BT-750-Lot} // Selection Criterion Description
+				{BT-748-Lot} #{field|name|BT-748-Lot}: #{BT-748-Lot} // Use of this criterion
 			0 {ND-LotTenderingTerms[(BT-50-Lot is present) or (BT-51-Lot is present) or (BT-52-Lot == TRUE) or (BT-120-Lot == TRUE)]} #{auxiliary|text|second-stage}: // Information about the second stage of a two-stage procedure
 				{BT-50-Lot[BT-50-Lot is present]} #{field|name|BT-50-Lot}: ${BT-50-Lot} // Minimum Candidates
 				{BT-51-Lot[BT-51-Lot is present]} #{field|name|BT-51-Lot}: ${BT-51-Lot} // Maximum Candidates
