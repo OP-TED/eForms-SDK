@@ -40984,10 +40984,6 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0250"
       }, {
-        "value" : "{ND-Root} ${every text:$sps in OPT-300-Procedure-SProvider satisfies $sps not in OPT-300-Procedure-Buyer}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-OPT-00300-0254"
-      }, {
         "value" : "{ND-Root} ${(every text:$tenderer in OPT-300-Tenderer satisfies $tenderer not in OPT-300-Procedure-Buyer) and (every text:$subcont in OPT-301-Tenderer-SubCont satisfies $subcont not in OPT-300-Procedure-Buyer)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0255"
@@ -41127,10 +41123,6 @@
         "value" : "{ND-TenderingParty} ${every text:$mediator in /OPT-301-Lot-Mediator satisfies $mediator not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0256"
-      }, {
-        "value" : "{ND-TenderingParty} ${every text:$psp in OPT-300-Procedure-SProvider satisfies $psp not in OPT-300-Tenderer}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-OPT-00300-0257"
       }, {
         "value" : "{ND-TenderingParty} ${every text:$revOrg in /OPT-301-Lot-ReviewOrg satisfies $revOrg not in OPT-300-Tenderer}",
         "severity" : "ERROR",
