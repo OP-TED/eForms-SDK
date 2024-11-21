@@ -32,6 +32,15 @@ A small change was made to the EFX grammar, to remove an unneeded alternative in
 This does not change the EFX language, or the output of the parser or transaltor.
 A new version of the EFX toolkit will be released to take advantage of this improvement. If you have your own ANTLR parser generated from the EFX grammar, you will need to re-generate it to benefit from this change.
 
+### Schema, nodes, fields and notice type definitions
+
+* Schema update to include the elements required for International Procurement Instrument (IPI), 
+Energy Efficiency Directive (EED) and Review.
+
+* Definition of fields & nodes for IPI and EED,
+
+* Finalisation of the nodes & fields definitions for Review.
+
 ### Notice type definitions
 
 #### TEDEFO-3686
@@ -67,112 +76,73 @@ If you execute the Schematron rules yourself and use the "ph-schematron-pure" li
 
 Other changes in the rules include:
 
-* Added rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner.
+* Added rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner,
 
-#### TEDEFO-3061
-OPT-140-Lot (Procurement documents ID) is required by the schema.
+* Updated rule condition so that the existence of Specific IPI Measure (BT-685) is actually driven by the Application of IPI Measure (BT-684) for the Lot it is associated with,
 
-In the rules, OPT-140-Lot is mandatory if BT-14-Lot is present.
-BT-14-Lot is mandatory for subtypes 16, 17 and 19, but not 18.
+* Improved Deadline existence controls with added Procedure Type dependency,
 
-So it is possible to have a notice of subtype 18 that complies with all rules but is invalid against the schema."
+* Rules for the new forms (E1, E2, E3, E4, E5, E6),
 
-#### TEDEFO-3734
-Incorrect condition for mandatory rules on BT-685-LotResult
+* rules for the existence of EED fields,
 
-#### TEDEFO-3209
-Have tighter rules on deadlines
+* Rules to ensure the presence of the place of performance,
 
-#### TEDEFO-3508
-Define rules for Place of performance presence
-At least one of the two fields have to exist: BT-5141 and BT-727
-It is not possible for the procedure or a given to know which one has to be present, therefore the currently applied context may not change for the lot or procedure.
-There is also no rule for nodes and if the context for the rule does not exist, then the rule is not fired.
-It is necessary to introduce a stage 5 rule that check that a least one of the 2 fields is present for the procedure and each lots."
+* Forbidding FSR for T01 & CEI,
 
-#### TEDEFO-3579
-Remove Draft rule BR-BT-00512-0294 that prohibits the specification of the Touchpoint Postcode		The rule BR-BT-00512-0294 prohibits the specification of the postcode for the touchpoint. Rule is in draft, so no impact
+* For the Foreign Subsidy Regulation indicator (BT-681), update of the rule context for the rule to get effectively fired,
 
-#### TEDEFO-3582
-Add missing forbidden rules for BT-682-Tender		"Rules for BT-682-Tender are missing and should be added:
-* for CEI and T01 (to be backported to SDK 1.12.0 where field added)"
+* Rules context update for Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772) so that Mandatory rules actually get fired when needed,
 
-#### TEDEFO-3594
-Update rule context for BT-681-Lot		Update rule context for _BT-681-Lot_  to _ND-LotTenderingTerms_  so that any later mandatory FSR rule will fire
+* Update of rules context for "Revenues Allocation of tickets sales code" (OPP-035) for mandatory rules to effectively fire when needed (T02 form only),
 
-#### TEDEFO-3595
-Update rule context for BT-71-Lot and BT-772-Lot		Update rule context for _BT-71-Lot_  and BT-772-Lot to _ND-LotTenderingTerms_  so that any mandatory rule will fire
+* Update Lawfulness rules:
+  * Add a check for the exact string “test” in all organisation names in any language,
+  * Add a rule that checks that buyer country is in a lawful-country, regardless of eu-fund and subtype
 
-#### TEDEFO-3596
-Update rule context for OPP-035-Tender		Update rule context for _OPP-035-Tender_ to _ND-LotTender_ so that any mandatory rule will fire
+* Improve FA agreement information reporting in Contract Modification notice (adding missing fields to align with other forms).
 
-####  TEDEFO-3777
-Update Lawfulness rules for SDK 1.13
-Remove checks for the word "sale" in various descriptions fields.
-Add a check for the exact string “test” in all organisation names in any language
-Remove the rules that check buyer country and eu-funds, which are also conditional on the subtype
-Add a rule that checks that buyer country is in lawful-country, regardless of eu-fund and subtype
+* Allow "Tender Validity Deadline" (BT-98) for single stage procedures only,
 
-#### TEDEFO-3365
-Allow for BT-768 in Contract Modification		"BT-768 should be allowed in Contract Modification to make it possible to modify contracts in a FA.
+* Update existence rules for Procedure Type (BT-105) (existence and allowed Procedure Types),
 
-This would require:
-* removal of stage 2 forbidden rules,
-* check of other rules that could require further fields or could be blocking if not addressed"
+* Extend the use of Dispatch Invitation Tender (BT-130-Lot) to all single stage procedure and "Direct Award Without a Prior Call for Competititon",
 
-#### TEDEFO-3554
-Update rules on Tender Validity Deadline (BT-98)
-For D23, procedures are negotiated and having BT-98 for these may not be relevant.
-Also BT-105 Procedure Type is forbidden for any D23 form except 28.
+* Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations,
 
-#### TEDEFO-3672
-Update existence rules for Procedure Type (BT-105). BT-105 should:
-* be allowed (O) for D23, E3, E4, E5, QS with any value except ("comp-tend", "exp-int-rail"),
-* be forbidden for E1, E2, E6
-
-#### TEDEFO-3674
-Review rules for Procedure dependent fields
-The following fields have rules that depends on the Procedure Type (BT-105):
-* Tender Validity Deadline (BT-98-Lot)
-* Minimum Candidates (BT-50-Lot)
-* Successive Reduction (BT-52-Lot)
-* Maximum Candidates Indicator (BT-661-Lot)
-* Contract Conclusion Date (BT-145-Contract)
-* Dispatch Invitation Tender (BT-130-Lot)
-* Procedure Features (BT-88-Procedure)
-* Rewards Other (BT-45-Lot)
-* Prize Value (BT-644-Lot)
-* Prize Rank (BT-44-Lot.)
-
-#### TEDEFO-3703
-Update rules for Review fields
-
-#### TEDEFO-3772
-Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations.
-
-#### TEDEFO-3842
-Make BT-1311 (date and time deadline) mandatory for QS (notice subtype 15).
-
-#### TEDEFO-3852
-BT-40-Lot should be dependent on the existence of BT-809-Lot
+* Make BT-1311 (date and time deadline) optional for QS (notice subtype 15).
 
 ### Codelists
 
-#### TEDEFO-3492
-June 2024 codelist updates
-There are 3 new codelists: document-used-in-public-procurement, exclusion-ground, foreign-subsidy-measure-conclusion and some updates in other codelists.
+* Define tailored list for Procedure Type per form,
 
-#### TEDEFO-3470
-Remove unused codes from non-publication-identifier codelist: not-dis-dat and not-pub-dat
+* Define codelists for IPI:
 
-#### TEDEFO-3632
-Import of NUTS 2024
+  * ipi-scope,
 
-#### TEDEFO-3656
-Update technical code lists following NUTS update
+  * international-procurement-instrument-measure,
 
-#### TEDEFO-3739
-September 2024 codelist updates, nuts excluded
+  * international-procurement-instrument-application,
+
+* Define codelists for EED:
+
+  * eed-scope
+
+  * energy-efficiency-label
+
+  * energy-efficiency-item
+
+  * energy-efficiency-basis
+
+* Remove unused codes from non-publication-identifier codelist:
+
+  * not-dis-dat
+
+  * not-pub-dat
+
+* Update of Form Type, Notice Type and Notice Subtype codelists to include voluntary forms (E1 - E6),
+
+* Use of NUTS 2024
 
 ### View templates
 
