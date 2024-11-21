@@ -145,6 +145,7 @@
 				{BT-137-Lot[BT-97-Lot is present]} #{field|name|BT-97-Lot}: #{BT-97-Lot} // Languages in which tenders or requests to participate may be submitted
 				{BT-744-Lot[BT-744-Lot == 'true']} #{field|name|BT-744-Lot} // Advanced or qualified electronic signature or seal (as defined in Regulation (EU) No 910/2014) is required. (true/false)
 				{BT-751-Lot[BT-75-Lot is present]} #{field|name|BT-75-Lot}: ${BT-75-Lot} // Financial Guarantee Description
+				{BT-1311(d)-Lot} #{field|name|BT-1311(d)-Lot}: ${BT-1311(d)-Lot} ${BT-1311(t)-Lot} // Deadline for receipt of requests to participate
 				{BT-98-Lot} #{field|name|BT-98-Lot}: ${OPA-98-Lot-Number} #{code|name|${concat('duration-unit.', BT-98-Lot/@unitCode)}} // Deadline until which the tender must remain valid
 			0 {ND-LateTendererInformation[(BT-771-Lot is present) and (BT-772-Lot is present)]} #{auxiliary|text|late-tenderer-info}: // Information that can be supplemented after the submission deadline
 				{BT-771-Lot} #{BT-771-Lot} // Late Tenderer Information
