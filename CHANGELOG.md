@@ -32,14 +32,9 @@ A small change was made to the EFX grammar, to remove an unneeded alternative in
 This does not change the EFX language, or the output of the parser or transaltor.
 A new version of the EFX toolkit will be released to take advantage of this improvement. If you have your own ANTLR parser generated from the EFX grammar, you will need to re-generate it to benefit from this change.
 
-### Schema, nodes, fields and notice type definitions
+### Schema, nodes and fields
 
-* Schema update to include the elements required for International Procurement Instrument (IPI), 
-Energy Efficiency Directive (EED) and Review.
-
-* Definition of fields & nodes for IPI and EED,
-
-* Finalisation of the nodes & fields definitions for Review.
+* Finalisation of the nodes & fields definitions for the "Review" section.
 
 ### Notice type definitions
 
@@ -78,13 +73,7 @@ Other changes in the rules include:
 
 * Added rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner,
 
-* Updated rule condition so that the existence of Specific IPI Measure (BT-685) is actually driven by the Application of IPI Measure (BT-684) for the Lot it is associated with,
-
 * Improved Deadline existence controls with added Procedure Type dependency,
-
-* Rules for the new forms (E1, E2, E3, E4, E5, E6),
-
-* rules for the existence of EED fields,
 
 * Rules to ensure the presence of the place of performance,
 
@@ -114,35 +103,15 @@ Other changes in the rules include:
 
 ### Codelists
 
+* Use of NUTS 2024
+
 * Define tailored list for Procedure Type per form,
-
-* Define codelists for IPI:
-
-  * ipi-scope,
-
-  * international-procurement-instrument-measure,
-
-  * international-procurement-instrument-application,
-
-* Define codelists for EED:
-
-  * eed-scope
-
-  * energy-efficiency-label
-
-  * energy-efficiency-item
-
-  * energy-efficiency-basis
 
 * Remove unused codes from non-publication-identifier codelist:
 
   * not-dis-dat
 
   * not-pub-dat
-
-* Update of Form Type, Notice Type and Notice Subtype codelists to include voluntary forms (E1 - E6),
-
-* Use of NUTS 2024
 
 ### View templates
 
