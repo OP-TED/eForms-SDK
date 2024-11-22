@@ -71,46 +71,29 @@ If you execute the Schematron rules yourself and use the "ph-schematron-pure" li
 
 Other changes in the rules include:
 
-* Added rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner,
-
-* Improved Deadline existence controls with added Procedure Type dependency,
-
-* Rules to ensure the presence of the place of performance,
-
-* Forbidding FSR for T01 & CEI,
-
-* For the Foreign Subsidy Regulation indicator (BT-681), update of the rule context for the rule to get effectively fired,
-
-* Rules context update for Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772) so that Mandatory rules actually get fired when needed,
-
-* Update of rules context for "Revenues Allocation of tickets sales code" (OPP-035) for mandatory rules to effectively fire when needed (T02 form only),
-
+* Added rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner.
+* Improved Deadline existence controls with added Procedure Type dependency.
+* Rules to ensure the presence of the place of performance.
+* Forbidding FSR for T01 & CEI.
+* For the Foreign Subsidy Regulation indicator (BT-681), update of the rule context for the rule to get effectively fired.
+* Rules context update for Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772) so that Mandatory rules actually get fired when needed.
+* Update of rules context for "Revenues Allocation of tickets sales code" (OPP-035) for mandatory rules to effectively fire when needed (T02 form only).
 * Update Lawfulness rules:
-  * Add a check for the exact string “test” in all organisation names in any language,
-  * Add a rule that checks that buyer country is in a lawful-country, regardless of eu-fund and subtype
-
+  * Add a check for the exact string “test” in all organisation names in any language.
+  * Add a rule that checks that buyer country is in a lawful-country, regardless of eu-fund and subtype.
 * Improve FA agreement information reporting in Contract Modification notice (adding missing fields to align with other forms).
-
-* Allow "Tender Validity Deadline" (BT-98) for single stage procedures only,
-
-* Update existence rules for Procedure Type (BT-105) (existence and allowed Procedure Types),
-
-* Extend the use of Dispatch Invitation Tender (BT-130-Lot) to all single stage procedure and "Direct Award Without a Prior Call for Competititon",
-
-* Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations,
-
+* Allow "Tender Validity Deadline" (BT-98) for single stage procedures only.
+* Update existence rules for Procedure Type (BT-105) (existence and allowed Procedure Types).
+* Extend the use of Dispatch Invitation Tender (BT-130-Lot) to all single stage procedure and "Direct Award Without a Prior Call for Competititon".
+* Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations.
 * Make BT-1311 (date and time deadline) optional for QS (notice subtype 15).
 
 ### Codelists
 
-* Use of NUTS 2024
-
-* Define tailored list for Procedure Type per form,
-
+* Use of NUTS 2024.
+* Define tailored list for Procedure Type per form.
 * Remove unused codes from non-publication-identifier codelist:
-
   * not-dis-dat
-
   * not-pub-dat
 
 ### View templates
