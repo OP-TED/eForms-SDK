@@ -93,9 +93,9 @@ Other changes in the rules include:
 
 * For the Foreign Subsidy Regulation indicator (BT-681), update of the rule context for the rule to get effectively fired,
 
-* Rules context update for Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772) so that Mandatory rules actually get fired when needed,
+* Rules context update for Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772) so that mandatory rules actually get fired when needed,
 
-* Update of rules context for "Revenues Allocation of tickets sales code" (OPP-035) for mandatory rules to effectively fire when needed (T02 form only),
+* Update of rules context for Revenues Allocation of tickets sales code (OPP-035) for mandatory rules to effectively fire when needed (T02 form only),
 
 * Update Lawfulness rules:
   * Add a check for the exact string “test” in all organisation names in any language,
@@ -103,7 +103,7 @@ Other changes in the rules include:
 
 * Improve FA agreement information reporting in Contract Modification notice (adding missing fields to align with other forms).
 
-* Allow "Tender Validity Deadline" (BT-98) for single stage procedures only,
+* Allow Tender Validity Deadline (BT-98) for single stage procedures only,
 
 * Update existence rules for Procedure Type (BT-105) (existence and allowed Procedure Types),
 
@@ -142,6 +142,8 @@ Other changes in the rules include:
 * Update of Form Type, Notice Type and Notice Subtype codelists to include voluntary forms (E1 - E6),
 
 * Use of NUTS 2024
+
+* remove the constraint that forbid Buyer and Tenderer from being Service Provide/eSender.
 
 ### View templates
 
