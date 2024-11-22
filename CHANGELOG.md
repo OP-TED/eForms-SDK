@@ -76,7 +76,7 @@ Other changes in the rules include:
 * Rules to ensure the presence of the place of performance.
 * Forbidding FSR for T01 & CEI.
 * For the Foreign Subsidy Regulation indicator (BT-681), update of the rule context for the rule to get effectively fired.
-* Rules context update for Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772) so that Mandatory rules actually get fired when needed.
+* Rules context update for Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772) so that mandatory rules actually get fired when needed.
 * Update of rules context for "Revenues Allocation of tickets sales code" (OPP-035) for mandatory rules to effectively fire when needed (T02 form only).
 * Update Lawfulness rules:
   * Add a check for the exact string “test” in all organisation names in any language.
@@ -87,6 +87,7 @@ Other changes in the rules include:
 * Extend the use of Dispatch Invitation Tender (BT-130-Lot) to all single stage procedure and "Direct Award Without a Prior Call for Competititon".
 * Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations.
 * Make BT-1311 (date and time deadline) optional for QS (notice subtype 15).
+* Remove the constraint that forbid Buyer and Tenderer from being Service Provider or eSender.
 
 ### Codelists
 
