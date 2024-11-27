@@ -38,28 +38,11 @@ A new version of the EFX toolkit will be released to take advantage of this impr
 
 ### Notice type definitions
 
-#### TEDEFO-3686
-The Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists [NOT "1", "2", "3", "4", "5", "6", "CEI", "E1", "E2", "T01", "T02", "X01", "X02"]
-
-Based on proposal in [https://code.europa.eu/eproc/eforms/crs/-/issues/57]
-Move the -Strategic group with BT-06 and BT-777 above the groups with the different types of strategic procurement.
-Check the rules and live validation behave in an understandable way.
-
-#### TEDEFO-3744
-The fields related to the existence of a framework agreement were added to the lot and contract sections in NTD 38, 39, E6 in order to allow contract modifications in the scope of framework contracts
-
-Add the fields BT-765-Lot and BT-768-Contract to the NTDs for forms 38, 39 and E6"
-
-#### TEDEFO-3761
-The Tender Validity field (BT-98-Lot) and related group were removed from NTD 9 to 15
-Following the review of procedure types per form and the absence of single stage procedures, BT-98 has to be removed from the NTDs 9 to 15"
-
-#### TEDEFO-3820
-The node ND-ProcedurePlacePerformance is associated to GR-Procedure-PlaceofPerformance.
-The correct node is ND-ProcedurePlacePerformanceAdditionalInformation.
-
-#### TEDEFO-3843
-Update NTD for QS (subtype 15) to include BT-1311 "Deadline Receipt Requests".
+* Based on proposal in <https://code.europa.eu/eproc/eforms/crs/-/issues/57> the Strategic procurement group with BT-06 and BT-777 was moved above the groups with the different types of strategic procurement. The Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists (subtypes other than "1", "2", "3", "4", "5", "6", "CEI", "E1", "E2", "T01", "T02", "X01", "X02").
+* The fields related to the existence of a framework agreement (BT-765-Lot and BT-768-Contract) were added to the lot and contract sections in subtypes 38, 39, E6 in order to allow contract modifications in the scope of framework contracts.
+* The Tender Validity field (BT-98-Lot) and related group were removed from NTD 9 to 15 Following the review of procedure types per form and the absence of single stage procedures.
+* The correct node ND-ProcedurePlacePerformanceAdditionalInformation is now associated to GR-Procedure-PlaceOfPerformance.
+* The Qualification System (subtype 15) was updated to include BT-1311 "Deadline Receipt Requests".
 
 ### Rules
 
