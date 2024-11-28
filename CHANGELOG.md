@@ -34,6 +34,7 @@ A new version of the EFX toolkit will be released to take advantage of this impr
 ### Schema, nodes and fields
 
 * Finalisation of the nodes & fields definitions for the "Review" section.
+* Add fields for IPI and EED.
 
 ### Rules
 
