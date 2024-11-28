@@ -24,7 +24,6 @@
 									<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
 									<cbc:CityName>Glasgow</cbc:CityName>
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -51,7 +50,6 @@
 									<cbc:StreetName>6 Buchanan Gate</cbc:StreetName>
 									<cbc:CityName>Glasgow</cbc:CityName>
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -75,7 +73,6 @@
 								<cac:PostalAddress>
 									<cbc:CityName>Glasgow</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -123,7 +120,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">39d68def-a6aa-4e85-aa8d-97f0600ea41e</cbc:ID>
 	<cbc:ContractFolderID>027f7db6-596d-4395-87b9-d8a7b0e4b269</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-15+01:00</cbc:IssueDate>
@@ -187,7 +184,6 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">SCOTLAND</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
@@ -329,10 +325,10 @@
 			<cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
+			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2020-05-27+01:00</cbc:EndDate>
 				<cbc:EndTime>11:00:00+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:EconomicOperatorShortList>
 				<cbc:LimitationDescription>true</cbc:LimitationDescription>
 				<cbc:MaximumQuantity>3</cbc:MaximumQuantity>
@@ -360,7 +356,6 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="ENG">SCOTLAND</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>

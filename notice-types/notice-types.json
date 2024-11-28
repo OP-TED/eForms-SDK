@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.12.0",
+  "sdkVersion" : "1.13.0",
   "metadataDatabase" : {
-    "version" : "1.12.0",
-    "createdOn" : "2024-06-11T11:53:25"
+    "version" : "1.13.0",
+    "createdOn" : "2024-10-14T13:00:00"
   },
   "noticeSubTypes" : [ {
     "documentType" : "PIN",
@@ -374,6 +374,60 @@
     "subTypeId" : "CEI",
     "_label" : "notice|name|CEI",
     "viewTemplateIds" : [ "CEI", "summary" ]
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "other",
+    "formType" : "consultation",
+    "type" : "pmc",
+    "description" : "Voluntary Pre-market Consultation Notice",
+    "subTypeId" : "E1",
+    "_label" : "notice|name|E1",
+    "viewTemplateIds" : [ "E1", "summary" ]
+  }, {
+    "documentType" : "PIN",
+    "legalBasis" : "other",
+    "formType" : "planning",
+    "type" : "pin-only",
+    "description" : "Voluntary Prior Information Notice",
+    "subTypeId" : "E2",
+    "_label" : "notice|name|E2",
+    "viewTemplateIds" : [ "E2", "summary" ]
+  }, {
+    "documentType" : "CN",
+    "legalBasis" : "other",
+    "formType" : "competition",
+    "type" : "cn-standard",
+    "description" : "Voluntary Contract Notice",
+    "subTypeId" : "E3",
+    "_label" : "notice|name|E3",
+    "viewTemplateIds" : [ "E3", "summary" ]
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "other",
+    "formType" : "result",
+    "type" : "can-standard",
+    "description" : "Voluntary Award Notice",
+    "subTypeId" : "E4",
+    "_label" : "notice|name|E4",
+    "viewTemplateIds" : [ "E4", "summary" ]
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "other",
+    "formType" : "completion",
+    "type" : "compl",
+    "description" : "Voluntary Completion Notice",
+    "subTypeId" : "E5",
+    "_label" : "notice|name|E5",
+    "viewTemplateIds" : [ "E5", "summary" ]
+  }, {
+    "documentType" : "CAN",
+    "legalBasis" : "32009L0081",
+    "formType" : "cont-modif",
+    "type" : "can-modif",
+    "description" : "Voluntary Contract Modification Notice",
+    "subTypeId" : "E6",
+    "_label" : "notice|name|E6",
+    "viewTemplateIds" : [ "E6", "summary" ]
   }, {
     "documentType" : "PIN",
     "legalBasis" : "32007R1370",

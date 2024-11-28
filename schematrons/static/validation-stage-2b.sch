@@ -730,11 +730,21 @@
 		<assert id="BT-752-Lot-WeightNumber_R" role="ERROR" diagnostics="BT-752-Lot-WeightNumber" test="count(efbc:ParameterNumeric) &lt; 2">rule|text|BT-752-Lot-WeightNumber_R</assert>
 		<assert id="BT-7531-Lot_R" role="ERROR" diagnostics="BT-7531-Lot" test="count(efbc:ParameterCode) &lt; 2">rule|text|BT-7531-Lot_R</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']">
 		<assert id="BT-717-Lot_R" role="ERROR" diagnostics="BT-717-Lot" test="count(efbc:ApplicableLegalBasis) &lt; 2">rule|text|BT-717-Lot_R</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement/efac:StrategicProcurementInformation">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']/efac:StrategicProcurementInformation">
 		<assert id="BT-735-Lot_R" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) &lt; 2">rule|text|BT-735-Lot_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']">
+		<assert id="BT-810-Lot_R" role="ERROR" diagnostics="BT-810-Lot" test="count(efbc:ApplicableLegalBasis) &lt; 2">rule|text|BT-810-Lot_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='eed-scope']/efac:StrategicProcurementInformation/efac:ProcurementDetails">
+		<assert id="BT-811_a_-Lot_R" role="ERROR" diagnostics="BT-811_a_-Lot" test="count(efbc:LegalFrameworkCode) &lt; 2">rule|text|BT-811_a_-Lot_R</assert>
+		<assert id="BT-811_b_-Lot_R" role="ERROR" diagnostics="BT-811_b_-Lot" test="count(efbc:AssetCategoryCode) &lt; 2">rule|text|BT-811_b_-Lot_R</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='ipi-scope']">
+		<assert id="BT-684-Lot_R" role="ERROR" diagnostics="BT-684-Lot" test="count(efbc:ApplicableLegalBasis) &lt; 2">rule|text|BT-684-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:TenderSubcontractingRequirements">
 		<assert id="BT-651-Lot_R" role="ERROR" diagnostics="BT-651-Lot" test="count(efbc:TenderSubcontractingRequirementsCode) &lt; 2">rule|text|BT-651-Lot_R</assert>
@@ -1246,10 +1256,10 @@
 		<assert id="OPP-012-notice_R" role="ERROR" diagnostics="ND-RootExtension_OPP-012-notice" test="count(efac:Publication/efbc:PublicationDate) &lt; 2">rule|text|OPP-012-notice_R</assert>
 		<assert id="OPP-070-notice_R" role="ERROR" diagnostics="OPP-070-notice" test="count(efac:NoticeSubType/cbc:SubTypeCode) &lt; 2">rule|text|OPP-070-notice_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation">
 		<assert id="BT-783-Review_R" role="ERROR" diagnostics="BT-783-Review" test="count(efbc:AppealStageCode) &lt; 2">rule|text|BT-783-Review_R</assert>
-		<assert id="BT-784-Review_R" role="ERROR" diagnostics="BT-784-Review" test="count(efbc:AppealStageID) &lt; 2">rule|text|BT-784-Review_R</assert>
-		<assert id="BT-785-Review_R" role="ERROR" diagnostics="BT-785-Review" test="count(efbc:AppealPreviousStageID) &lt; 2">rule|text|BT-785-Review_R</assert>
+		<assert id="BT-784-Review_R" role="ERROR" diagnostics="BT-784-Review" test="count(efbc:AppealID) &lt; 2">rule|text|BT-784-Review_R</assert>
+		<assert id="BT-785-Review_R" role="ERROR" diagnostics="BT-785-Review" test="count(efbc:PreviousAppealID) &lt; 2">rule|text|BT-785-Review_R</assert>
 		<assert id="BT-787-Review_R" role="ERROR" diagnostics="BT-787-Review" test="count(cbc:Date) &lt; 2">rule|text|BT-787-Review_R</assert>
 		<assert id="BT-788-Review_A" role="ERROR" diagnostics="BT-788-Review" test="count(cbc:Title[@languageID = preceding-sibling::cbc:Title/@languageID]) = 0">rule|text|BT-788-Review_A</assert>
 		<assert id="BT-788-Review_B" role="ERROR" diagnostics="BT-788-Review" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Title/@languageID = $lg) or count(cbc:Title) = 0">rule|text|BT-788-Review_B</assert>
@@ -1257,7 +1267,7 @@
 		<assert id="BT-789-Review_A" role="ERROR" diagnostics="BT-789-Review" test="count(cbc:Description[@languageID = preceding-sibling::cbc:Description/@languageID]) = 0">rule|text|BT-789-Review_A</assert>
 		<assert id="BT-789-Review_B" role="ERROR" diagnostics="BT-789-Review" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies cbc:Description/@languageID = $lg) or count(cbc:Description) = 0">rule|text|BT-789-Review_B</assert>
 		<assert id="BT-789-Review_C" role="ERROR" diagnostics="BT-789-Review" test="(every $lg in (cbc:Description/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(cbc:Description) = 0">rule|text|BT-789-Review_C</assert>
-		<assert id="BT-793-Review_R" role="ERROR" diagnostics="BT-793-Review" test="count(efbc:RemedyAmount) &lt; 2">rule|text|BT-793-Review_R</assert>
+		<assert id="BT-793-Review_R" role="ERROR" diagnostics="BT-793-Review" test="count(efbc:AppealRemedyValue) &lt; 2">rule|text|BT-793-Review_R</assert>
 		<assert id="BT-794-Review_R" role="ERROR" diagnostics="BT-794-Review" test="count(cbc:URI) &lt; 2">rule|text|BT-794-Review_R</assert>
 		<assert id="BT-795-Review_R" role="ERROR" diagnostics="BT-795-Review" test="count(cbc:FeeAmount) &lt; 2">rule|text|BT-795-Review_R</assert>
 		<assert id="BT-796-Review_R" role="ERROR" diagnostics="BT-796-Review" test="count(efbc:WithdrawnAppealIndicator) &lt; 2">rule|text|BT-796-Review_R</assert>
@@ -1266,46 +1276,31 @@
 		<assert id="BT-798-Review_B" role="ERROR" diagnostics="BT-798-Review" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:WithdrawnAppealReasons/@languageID = $lg) or count(efbc:WithdrawnAppealReasons) = 0">rule|text|BT-798-Review_B</assert>
 		<assert id="BT-798-Review_C" role="ERROR" diagnostics="BT-798-Review" test="(every $lg in (efbc:WithdrawnAppealReasons/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:WithdrawnAppealReasons) = 0">rule|text|BT-798-Review_C</assert>
 		<assert id="BT-799-ReviewBody_R" role="ERROR" diagnostics="ND-ReviewStatus_BT-799-ReviewBody" test="count(efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode) &lt; 2">rule|text|BT-799-ReviewBody_R</assert>
-		<assert id="OPT-093-Review_R" role="ERROR" diagnostics="OPT-093-Review" test="count(cbc:ID) &lt; 2">rule|text|OPT-093-Review_R</assert>
-		<assert id="OPT-301-ReviewBody_R" role="ERROR" diagnostics="ND-ReviewStatus_OPT-301-ReviewBody" test="count(efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-ReviewBody_R</assert>
+		<assert id="BT-804-Review_R" role="ERROR" diagnostics="BT-804-Review" test="count(cbc:ID) &lt; 2">rule|text|BT-804-Review_R</assert>
+		<assert id="BT-807-Review_R" role="ERROR" diagnostics="ND-ReviewStatus_BT-807-Review" test="count(efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|BT-807-Review_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Description">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:Description">
 		<assert id="BT-789-Review_D" role="ERROR" test="@languageID">rule|text|BT-789-Review_D</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/cbc:Title">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:Title">
 		<assert id="BT-788-Review_D" role="ERROR" test="@languageID">rule|text|BT-788-Review_D</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealDecision">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealDecision">
 		<assert id="BT-790-Review_R" role="ERROR" diagnostics="BT-790-Review" test="count(efbc:DecisionTypeCode) &lt; 2">rule|text|BT-790-Review_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealIrregularity">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealIrregularity">
 		<assert id="BT-791-Review_R" role="ERROR" diagnostics="BT-791-Review" test="count(efbc:IrregularityTypeCode) &lt; 2">rule|text|BT-791-Review_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty">
-		<assert id="OPT-092-ReviewBody_A" role="ERROR" diagnostics="OPT-092-ReviewBody" test="count(efbc:AppealProcessingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealProcessingPartyTypeDescription/@languageID]) = 0">rule|text|OPT-092-ReviewBody_A</assert>
-		<assert id="OPT-092-ReviewBody_B" role="ERROR" diagnostics="OPT-092-ReviewBody" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:AppealProcessingPartyTypeDescription/@languageID = $lg) or count(efbc:AppealProcessingPartyTypeDescription) = 0">rule|text|OPT-092-ReviewBody_B</assert>
-		<assert id="OPT-092-ReviewBody_C" role="ERROR" diagnostics="OPT-092-ReviewBody" test="(every $lg in (efbc:AppealProcessingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:AppealProcessingPartyTypeDescription) = 0">rule|text|OPT-092-ReviewBody_C</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeDescription">
-		<assert id="OPT-092-ReviewBody_D" role="ERROR" test="@languageID">rule|text|OPT-092-ReviewBody_D</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealRemedy">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealRemedy">
 		<assert id="BT-792-Review_R" role="ERROR" diagnostics="BT-792-Review" test="count(efbc:RemedyTypeCode) &lt; 2">rule|text|BT-792-Review_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealedItem">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealedItem">
 		<assert id="BT-786-Review_R" role="ERROR" diagnostics="BT-786-Review" test="count(cbc:ID) &lt; 2">rule|text|BT-786-Review_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty">
-		<assert id="OPT-091-ReviewReq_R" role="ERROR" diagnostics="OPT-091-ReviewReq" test="count(efbc:AppealingPartyTypeCode) &lt; 2">rule|text|OPT-091-ReviewReq_R</assert>
-		<assert id="OPT-092-ReviewReq_A" role="ERROR" diagnostics="OPT-092-ReviewReq" test="count(efbc:AppealingPartyTypeDescription[@languageID = preceding-sibling::efbc:AppealingPartyTypeDescription/@languageID]) = 0">rule|text|OPT-092-ReviewReq_A</assert>
-		<assert id="OPT-092-ReviewReq_B" role="ERROR" diagnostics="OPT-092-ReviewReq" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:AppealingPartyTypeDescription/@languageID = $lg) or count(efbc:AppealingPartyTypeDescription) = 0">rule|text|OPT-092-ReviewReq_B</assert>
-		<assert id="OPT-092-ReviewReq_C" role="ERROR" diagnostics="OPT-092-ReviewReq" test="(every $lg in (efbc:AppealingPartyTypeDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:AppealingPartyTypeDescription) = 0">rule|text|OPT-092-ReviewReq_C</assert>
-		<assert id="OPT-301-ReviewReq_R" role="ERROR" diagnostics="OPT-301-ReviewReq" test="count(cac:Party/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|OPT-301-ReviewReq_R</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealingParty">
+		<assert id="BT-808-Review_R" role="ERROR" diagnostics="BT-808-Review" test="count(cac:Party/cac:PartyIdentification/cbc:ID) &lt; 2">rule|text|BT-808-Review_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efac:AppealingParty/efbc:AppealingPartyTypeDescription">
-		<assert id="OPT-092-ReviewReq_D" role="ERROR" test="@languageID">rule|text|OPT-092-ReviewReq_D</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AppealsInformation/efac:AppealStatus/efbc:WithdrawnAppealReasons">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:WithdrawnAppealReasons">
 		<assert id="BT-798-Review_D" role="ERROR" test="@languageID">rule|text|BT-798-Review_D</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes">
@@ -1591,13 +1586,46 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract">
 		<assert id="OPT-315-LotResult_R" role="ERROR" diagnostics="OPT-315-LotResult" test="count(cbc:ID) &lt; 2">rule|text|OPT-315-LotResult_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure">
+		<assert id="BT-685-LotResult_R" role="ERROR" diagnostics="BT-685-LotResult" test="count(efbc:MeasureCode) &lt; 2">rule|text|BT-685-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efac:MeasureException">
+		<assert id="BT-687-LotResult_R" role="ERROR" diagnostics="BT-687-LotResult" test="count(efbc:ExceptionCode) &lt; 2">rule|text|BT-687-LotResult_R</assert>
+		<assert id="BT-688-LotResult_A" role="ERROR" diagnostics="BT-688-LotResult" test="count(efbc:ExceptionDescription[@languageID = preceding-sibling::efbc:ExceptionDescription/@languageID]) = 0">rule|text|BT-688-LotResult_A</assert>
+		<assert id="BT-688-LotResult_B" role="ERROR" diagnostics="BT-688-LotResult" test="(every $lg in (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID) satisfies efbc:ExceptionDescription/@languageID = $lg) or count(efbc:ExceptionDescription) = 0">rule|text|BT-688-LotResult_B</assert>
+		<assert id="BT-688-LotResult_C" role="ERROR" diagnostics="BT-688-LotResult" test="(every $lg in (efbc:ExceptionDescription/@languageID) satisfies $lg = (/*/cbc:NoticeLanguageCode, /*/cac:AdditionalNoticeLanguage/cbc:ID)) or count(efbc:ExceptionDescription) = 0">rule|text|BT-688-LotResult_C</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efac:MeasureException/efbc:ExceptionDescription">
+		<assert id="BT-688-LotResult_D" role="ERROR" test="@languageID">rule|text|BT-688-LotResult_D</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efac:MeasureStatistics">
+		<assert id="BT-686-LotResult_R" role="ERROR" diagnostics="BT-686-LotResult" test="count(efbc:StatisticsNumeric) &lt; 2">rule|text|BT-686-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails">
+		<assert id="BT-811_a_-LotResult_R" role="ERROR" diagnostics="BT-811_a_-LotResult" test="count(efbc:LegalFrameworkCode) &lt; 2">rule|text|BT-811_a_-LotResult_R</assert>
+		<assert id="BT-811_b_-LotResult_R" role="ERROR" diagnostics="BT-811_b_-LotResult" test="count(efbc:AssetCategoryCode) &lt; 2">rule|text|BT-811_b_-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel">
+		<assert id="BT-812-LotResult_R" role="ERROR" diagnostics="BT-812-LotResult" test="count(efbc:LabelCode) &lt; 2">rule|text|BT-812-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-con-yr']">
+		<assert id="BT-813-LotResult_R" role="ERROR" diagnostics="BT-813-LotResult" test="count(efbc:AssetMetricNumeric) &lt; 2">rule|text|BT-813-LotResult_R</assert>
+		<assert id="OPT-080-LotResult_R" role="ERROR" diagnostics="OPT-080-LotResult" test="count(efbc:AssetMetricCode) &lt; 2">rule|text|OPT-080-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']">
+		<assert id="BT-814-LotResult_R" role="ERROR" diagnostics="BT-814-LotResult" test="count(efbc:AssetMetricNumeric) &lt; 2">rule|text|BT-814-LotResult_R</assert>
+		<assert id="OPT-081-LotResult_R" role="ERROR" diagnostics="OPT-081-LotResult" test="count(efbc:AssetMetricCode) &lt; 2">rule|text|OPT-081-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics">
+		<assert id="BT-815-LotResult_R" role="ERROR" diagnostics="BT-815-LotResult" test="count(efbc:StatisticsNumeric) &lt; 2">rule|text|BT-815-LotResult_R</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation">
 		<assert id="BT-735-LotResult_R" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) &lt; 2">rule|text|BT-735-LotResult_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efac:ProcurementDetails">
 		<assert id="BT-723-LotResult_R" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) &lt; 2">rule|text|BT-723-LotResult_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics">
 		<assert id="OPT-155-LotResult_R" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) &lt; 2">rule|text|OPT-155-LotResult_R</assert>
 		<assert id="OPT-156-LotResult_R" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) &lt; 2">rule|text|OPT-156-LotResult_R</assert>
 	</rule>

@@ -24,7 +24,6 @@
 									<cbc:Department>n/a</cbc:Department>
 									<cbc:CityName>Prescot</cbc:CityName>
 									<cbc:PostalZone>L34 1PJ</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI32</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -73,7 +72,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">199b243b-4daf-4d7d-ba7c-f37f88102480</cbc:ID>
 	<cbc:IssueDate>2020-04-02+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:30:00+01:00</cbc:IssueTime>

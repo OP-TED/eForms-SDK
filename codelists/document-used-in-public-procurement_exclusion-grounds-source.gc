@@ -5,7 +5,7 @@
       <ShortName>ExclusionGroundsSource</ShortName>
       <LongName>exclusion-grounds-source</LongName>
       <LongName Identifier="eFormsParentId">document-used-in-public-procurement</LongName>
-      <Version>1.12.0</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -223,7 +223,7 @@
             <SimpleValue>Έγγραφο σύμβασης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Procurement document</SimpleValue>
+            <SimpleValue>Procurement Document</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Documento de contratación</SimpleValue>
@@ -336,7 +336,7 @@
             <SimpleValue>Eiropas vienotais iepirkuma procedūras dokuments (ESPD)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Dokument Ewropew Uniku għall-Akkwist (ESPD)</SimpleValue>
+            <SimpleValue>Dokument Uniku Ewropew tal-Akkwist (DUEA)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Uniform Europees Aanbestedingsdocument (UEA)</SimpleValue>

@@ -23,7 +23,7 @@
 									<cbc:StreetName>Praça do Município</cbc:StreetName>
 									<cbc:CityName>Águeda</cbc:CityName>
 									<cbc:PostalZone>3754-500</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">PT16D</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">PT191</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">PRT</cbc:IdentificationCode>
 									</cac:Country>
@@ -72,7 +72,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">468ad654-621e-43f2-bc58-e774eb03926b</cbc:ID>
 	<cbc:IssueDate>2018-06-20+01:00</cbc:IssueDate>
 	<cbc:IssueTime>12:00:00+01:00</cbc:IssueTime>
@@ -141,7 +141,7 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="POR">urbano/regional</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">PT16D</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">PT191</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">PRT</cbc:IdentificationCode>
 					</cac:Country>

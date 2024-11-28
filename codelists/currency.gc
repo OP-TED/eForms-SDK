@@ -5,7 +5,7 @@
       <ShortName>Currency</ShortName>
       <LongName>currency</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/currency</LongName>
-      <Version>20230927-0</Version>
+      <Version>20240925-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/currency</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -2958,7 +2958,7 @@
             <SimpleValue>Couronne tchèque</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Koruna Phoblacht na Seice</SimpleValue>
+            <SimpleValue>Koruna na Seicia</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Češka kruna</SimpleValue>
@@ -8774,7 +8774,7 @@
             <SimpleValue>Zlotý</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Zloty</SimpleValue>
+            <SimpleValue>Złoty</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Zloty</SimpleValue>
@@ -9654,7 +9654,7 @@
             <SimpleValue>Švédská koruna</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Svensk krone</SimpleValue>
+            <SimpleValue>Svensk krona</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Schwedische Krone</SimpleValue>
@@ -11314,7 +11314,7 @@
             <SimpleValue>Hrivna</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Hryvnia</SimpleValue>
+            <SimpleValue>Grivna</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Hryvnia</SimpleValue>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:PriorInformationNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+<PriorInformationNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
 									  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
 									  xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
 									  xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
 									  xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
 									  xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
-									  xmlns:urn="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2">
+									  xmlns="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2">
 	<ext:UBLExtensions>
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
@@ -32,7 +32,7 @@
 									<cbc:Department>Future Solutions Division</cbc:Department>
 									<cbc:CityName>New Horizons, CA</cbc:CityName>
 									<cbc:PostalZone>90210</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">DEG0H</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">DEG0V</cbc:CountrySubentityCode>
 									<cac:AddressLine>
 										<cbc:Line>ZenithNova Innovations 45 Future Boulevard New Horizons, CA 90210 United States of America</cbc:Line>
 									</cac:AddressLine>
@@ -70,7 +70,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">fc972075-4e70-4491-b97a-7e3cb3665826</cbc:ID>
 	<cbc:ContractFolderID>cab6f088-c4b5-463a-b57b-39cb1130755d</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -119,6 +119,11 @@
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">18000000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw-eea</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -200,9 +205,14 @@
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">18000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-eea</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 			<cac:PlannedPeriod>
 				<cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
 			</cac:PlannedPeriod>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
-</urn:PriorInformationNotice>
+</PriorInformationNotice>

@@ -4,8 +4,9 @@
    <Identification>
       <ShortName>ForeignSubsidyMeasureConclusion</ShortName>
       <LongName>foreign-subsidy-measure-conclusion</LongName>
-      <Version>1.0</Version>
-      <CanonicalUri/>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/foreign-subsidy-measure-conclusion</LongName>
+      <Version>20240925-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/foreign-subsidy-measure-conclusion</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -181,7 +182,7 @@
             <SimpleValue>Aanmelding ingediend, administratieve afsluiting van de procedure van voorlopige toetsing uit hoofde van de verordening buitenlandse subsidies</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Zgłoszenie przedłożone, administracyjne zamknięcie procedury wstępnego przeglądu przewidzianej w rozporządzeniu w sprawie subsydiów zagranicznych</SimpleValue>
+            <SimpleValue>Zgłoszenie przedłożone, administracyjne zamknięcie procedury wstępnego przeglądu przewidzianej w rozporządzeniu w sprawie subsydiów zagranicznych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Notificação apresentada, encerramento administrativo do procedimento de análise preliminar ao abrigo do RSE</SimpleValue>
@@ -231,7 +232,7 @@
             <SimpleValue>Teatis esitatud, kohustuste võtmise otsus</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Ilmoitus toimitettu, sitoumuksia sisältävä päätös</SimpleValue>
+            <SimpleValue>Ilmoitus toimitettu, sitoumuksia sisältävä päätös </SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Notification soumise, décision assortie d’engagements</SimpleValue>
@@ -287,76 +288,76 @@
             <SimpleValue>Notification submitted, decision on irregular tender or request to participate</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Изпратено известие, решение за нередовна оферта или заявка за участие</SimpleValue>
+            <SimpleValue>Представено уведомление, решение за нередовна оферта или заявление за участие</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Oznámení odesláno, rozhodnutí o nepravidelné nabídce nebo žádosti o účast</SimpleValue>
+            <SimpleValue>Oznámení předloženo, rozhodnutí o nesprávné nabídce nebo žádosti o účast</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Indsendt meddelelse, afgørelse om uregelmæssigt udbud eller anmodning om deltagelse</SimpleValue>
+            <SimpleValue>Anmeldelse indgivet, afgørelse om ukorrekt tilbud eller ansøgning om deltagelse</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Benachrichtigung eingereicht, Entscheidung über unregelmäßige Ausschreibung oder Teilnahmeantrag</SimpleValue>
+            <SimpleValue>Meldung übermittelt, Entscheidung bezüglich eines nicht ordnungsgemäßen Angebots oder Teilnahmeantrags</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Υποβλήθηκε ειδοποίηση, απόφαση για ανώμαλη δημοπρασία ή αίτηση συμμετοχής</SimpleValue>
+            <SimpleValue>Υποβληθείσα κοινοποίηση, απόφαση σχετικά με μη σύμφωνη προσφορά ή αίτηση συμμετοχής</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Notification submitted, decision on irregular tender or request to participate</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Notificación enviada, decisión sobre licitación irregular o solicitud de participación</SimpleValue>
+            <SimpleValue>Notificación presentada, decisión relativa a una oferta o una solicitud de participación irregulares</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Teade esitatud, otsus ebaõige pakkumise või osalemistaotluse kohta</SimpleValue>
+            <SimpleValue>Teade esitatud, otsus nõuetele mittevastava pakkumuse või osalemistaotluse kohta</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Ilmoitus jätetty, päätös epäsäännöllisestä tarjouksesta tai osallistumispyynnöstä</SimpleValue>
+            <SimpleValue>Ilmoitus toimitettu, sääntöjenvastaista tarjousta tai osallistumishakemusta koskeva päätös</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Notification soumise, décision sur l'offre irrégulière ou la demande de participation</SimpleValue>
+            <SimpleValue>Notification soumise, décision relative à une offre ou demande de participation irrégulière</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tráchtáilte fógra, cinneadh ar tairiscint neamhrialta nó ar iarratas a ghlacadh</SimpleValue>
+            <SimpleValue>Fógra curtha isteach, cinneadh maidir le tairiscint nó iarratas neamhrialta ar rannpháirtíocht</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest podnesena, odluka o nepravilnoj ponudi ili zahtjevu za sudjelovanje</SimpleValue>
+            <SimpleValue>Obavijest poslana, odluka o nepravilnoj ponudi ili zahtjevu za sudjelovanje</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Értesítés benyújtva, döntés a szabálytalan ajánlatot vagy részvételi kérelmet illetően</SimpleValue>
+            <SimpleValue>Bejelentés benyújtása, az ajánlatot érvénytelennek nyilvánító vagy a részvételi jelentkezés elutasításáról szóló határozat</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Notifica inviata, decisione su offerta irregolare o richiesta di partecipazione</SimpleValue>
+            <SimpleValue>Notifica presentata, decisione in merito a un'offerta o una domanda di partecipazione irregolare</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Pranešimas pateiktas, sprendimas dėl nereguliaraus pasiūlymo arba prašymo dalyvauti</SimpleValue>
+            <SimpleValue>Pranešimas pateiktas, sprendimas dėl netinkamo pasiūlymo arba dalyvavimo prašymo</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Paziņojums iesniegts, lēmums par neregulāru piedāvājumu vai lūgumu piedalīties</SimpleValue>
+            <SimpleValue>Paziņojums iesniegts, lēmums saistībā ar neatbilstīgu piedāvājumu vai dalības pieteikumu</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Notifika sottomessa, deċiżjoni dwar offerta irregolari jew talba biex jipparteċipa</SimpleValue>
+            <SimpleValue>Notifika sottomessa, deċiżjoni dwar offerta jew talba għall-parteċipazzjoni irregolari</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Melding ingediend, beslissing over onregelmatige inschrijving of verzoek tot deelname</SimpleValue>
+            <SimpleValue>Kennisgeving ingediend, besluit over onregelmatige inschrijving of onregelmatig verzoek tot deelname</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Powiadomienie złożone, decyzja o nieregularnej ofercie lub prośbie o udział</SimpleValue>
+            <SimpleValue>Zgłoszenie przedłożone, decyzja w sprawie nieprawidłowej oferty lub nieprawidłowego wniosku o dopuszczenie do udziału</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Notificação submetida, decisão sobre proposta irregular ou pedido de participação</SimpleValue>
+            <SimpleValue>Notificação apresentada, decisão relativa a proposta ou pedido de participação irregular</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Notificare depusă, decizie privind licitația neregulată sau cererea de participare</SimpleValue>
+            <SimpleValue>Notificare transmisă, decizie privind o ofertă sau o cerere de participare neregulamentară</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Oznámenie odoslané, rozhodnutie o nepravidelnej ponuke alebo žiadosti o účasť</SimpleValue>
+            <SimpleValue>Oznámenie predložené, rozhodnutie o neregulárnej ponuke alebo žiadosti o účasť</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo poslano, odločitev o nepravilni ponudbi ali zahtevi za sodelovanje</SimpleValue>
+            <SimpleValue>Predložena priglasitev, sklep o nepravilni ponudbi ali prijavi za sodelovanje</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Anmälan inlämnad, beslut om oregelbunden upphandling eller begäran om deltagande</SimpleValue>
+            <SimpleValue>Anmälan inlämnad, beslut om ogiltigt anbud eller ogiltig anbudsansökan</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -364,7 +365,7 @@
             <SimpleValue>fsr-meat</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Declaration submitted, standard MEAT award</SimpleValue>
+            <SimpleValue>Declaration submitted, standard MEAT award    </SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Подадена декларация, стандартно възлагане въз основа на икономически най-изгодната оферта</SimpleValue>
@@ -382,7 +383,7 @@
             <SimpleValue>Υποβληθείσα δήλωση, συνήθης ανάθεση στην πλέον συμφέρουσα από οικονομική άποψη προσφορά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Declaration submitted, standard MEAT award</SimpleValue>
+            <SimpleValue>Declaration submitted, standard MEAT award    </SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Declaración presentada, adjudicación estándar de la oferta económicamente más ventajosa</SimpleValue>
@@ -421,7 +422,7 @@
             <SimpleValue>Aanmelding ingediend, standaardgunning op basis van EMVI</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oświadczenie przedłożone, standardowe udzielenie zamówienia w oparciu o kryteria oferty najkorzystniejsza ekonomicznie</SimpleValue>
+            <SimpleValue>Oświadczenie przedłożone, standardowe udzielenie zamówienia w oparciu o kryteria oferty najkorzystniejsza ekonomicznie</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Declaração apresentada, procedimento normal de adjudicação da proposta economicamente mais vantajosa</SimpleValue>
@@ -501,7 +502,7 @@
             <SimpleValue>Aanmelding ingediend, besluit van geen bezwaar</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Zgłoszenie przedłożone, decyzja o niezgłaszaniu sprzeciwu</SimpleValue>
+            <SimpleValue>Zgłoszenie przedłożone, decyzja o niezgłaszaniu sprzeciwu</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Notificação apresentada, decisão sem objeções</SimpleValue>
@@ -551,7 +552,7 @@
             <SimpleValue>Teatis esitatud, otsus, millega keelatakse lepingu sõlmimine</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Ilmoitus toimitettu, sopimuksen tekemisen kieltävä päätös</SimpleValue>
+            <SimpleValue>Ilmoitus toimitettu, sopimuksen tekemisen kieltävä päätös </SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Notification soumise, décision interdisant l’attribution</SimpleValue>
@@ -661,7 +662,7 @@
             <SimpleValue>Aanmelding ingediend, standaardgunningsprocedure</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Oświadczenie przedłożone, standardowe postępowanie o udzielenie zamówienia</SimpleValue>
+            <SimpleValue>Oświadczenie przedłożone, standardowe postępowanie o udzielenie zamówienia</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Declaração apresentada, procedimento normal de adjudicação</SimpleValue>

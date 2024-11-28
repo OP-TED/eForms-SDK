@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write
     steps:
       - uses: actions/checkout@v4
 
@@ -24,5 +23,3 @@ jobs:
 
       - name: Build and analyze SDK
         run: mvn clean install -Panalyze --no-transfer-progress -s .github/workflows/settings.xml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

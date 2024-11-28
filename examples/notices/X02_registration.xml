@@ -12,7 +12,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">adc2cb72-0bd7-4fbe-a6b8-8efc308316b6</cbc:ID>
 	<cbc:IssueDate>2020-11-26Z</cbc:IssueDate>
 	<cbc:IssueTime>15:12:24Z</cbc:IssueTime>
@@ -36,11 +36,11 @@
 			<cbc:AdditionalStreetName>Building C</cbc:AdditionalStreetName>
 			<!-- Postal Address (to be continued) -->
 			<!-- Town -->
-			<cbc:CityName>South Tilport</cbc:CityName>
+			<cbc:CityName>South Town</cbc:CityName>
 			<!-- Postal Code -->
 			<cbc:PostalZone>STI543M</cbc:PostalZone>
 			<!-- NUTS code (if applicable) -->
-			<cbc:CountrySubentityCode listName="nuts3">UKC11</cbc:CountrySubentityCode>
+			<cbc:CountrySubentityCode listName="nuts3">IE052</cbc:CountrySubentityCode>
 			<!-- Country -->
 			<!-- Postal Address (continuation) -->
 			<cac:AddressLine>
@@ -48,7 +48,7 @@
 			</cac:AddressLine>
 			<!-- Postal Address (end) -->
 			<cac:Country>
-				<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+				<cbc:IdentificationCode listName="country">IRL</cbc:IdentificationCode>
 			</cac:Country>
 		</cac:PostalAddress>
 		<cac:PartyLegalEntity>

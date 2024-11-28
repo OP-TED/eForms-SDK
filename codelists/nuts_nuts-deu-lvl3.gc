@@ -6,7 +6,7 @@
       <LongName>nuts-deu-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.12.0</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -30603,86 +30603,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEG04</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEG05</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -31083,86 +31003,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEG0B</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEG0C</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -31403,86 +31243,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEG0F</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Ilm-Kreis</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>DEG0G</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -31559,166 +31319,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Weimarer Land</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEG0H</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Sonneberg</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>DEG0I</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -32043,87 +31643,87 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEG0N</SimpleValue>
+            <SimpleValue>DEG0Q</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Eisenach, Kreisfreie Stadt</SimpleValue>
+            <SimpleValue>Schmalkalden-Meiningen</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>DEG0P</SimpleValue>
+            <SimpleValue>DEG0R</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Wartburgkreis</SimpleValue>
@@ -32199,6 +31799,326 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Wartburgkreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0S</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Suhl, Kreisfreie Stadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0T</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ilm-Kreis</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0U</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Saalfeld-Rudolstadt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>DEG0V</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sonneberg</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Sonneberg</SimpleValue>
          </Value>
       </Row>
       <Row>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:PriorInformationNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+<PriorInformationNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
 									  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
 									  xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
 									  xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
 									  xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
 									  xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
-									  xmlns:urn="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2">
+									  xmlns="urn:oasis:names:specification:ubl:schema:xsd:PriorInformationNotice-2">
 	<ext:UBLExtensions>
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
@@ -70,7 +70,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">255b0cf4-f8e0-4075-802f-2cce6d3ecf51</cbc:ID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
 	<cbc:IssueTime>09:40:53Z</cbc:IssueTime>
@@ -143,4 +143,4 @@ vol3</cbc:Name>
 			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
-</urn:PriorInformationNotice>
+</PriorInformationNotice>

@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Critéir inrochtaineachta</entry>
 <entry key="auxiliary|text|adhoc-communication">Cainéal cumarsáide ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Critéir dhámhachtana</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Catagóir an critéir dhámhachtana meáchain</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Catagóir an critéir dhámhachtana luach seasta</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Catagóir an critéir dhámhachtana tairseach</entry>
 <entry key="auxiliary|text|beneficial-owner">Úinéir tairbhiúil</entry>
 <entry key="auxiliary|text|buyer">Ceannaitheoir</entry>
 <entry key="auxiliary|text|buyer-competent">Údarás inniúil</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Fad</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Fad an ghlao ar léiriú spéise</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Eolas faoin gcóras ceannaigh dinimiciúil</entry>
+<entry key="auxiliary|text|eed-applicable">Tá an tairiscint laistigh de raon feidhm na Treoir um Éifeachtacht Fuinnimh (EED) (AE) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Liosta táirgí, saothair, seirbhísí agus foirgneamh a bhaineann leis an Treoir um Éifeachtacht Fuinnimh (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Ceant leictreonach</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Dáta tosaithe agus fad beartaithe an chonartha</entry>
 <entry key="auxiliary|text|essential-assets">Sócmhainní riachtanacha</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Grúpa luchtóg</entry>
 <entry key="auxiliary|text|grouping">Ainm na grúpála</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Eolas maidir le luaíochtaí agus pionóis</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Tá an tairiscint laistigh de raon feidhm an Uirlis Idirnáisiúnta Soláthair (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Staitisticí faoi bhearta an Uirlis Idirnáisiúnta Soláthair (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Na teangacha inar féidir na léirithe spéise a chur isteach</entry>
 <entry key="auxiliary|text|late-tenderer-info">Eolas is féidir a fhorlíonadh tar éis an spriocdháta chun iarratas a dhéanamh</entry>
 <entry key="auxiliary|text|legal-basis">Bunús dlí</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Athnuachan</entry>
 <entry key="auxiliary|text|results">Torthaí</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Toradh an nóis imeachta soláthair</entry>
+<entry key="auxiliary|text|review">Athbhreithniú</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Tarraingíodh an t-iarratas ar athbhreithniú nó ar bhearta idirthréimhseacha</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Cineál na neamhrialtachta líomhnaithe</entry>
 <entry key="auxiliary|text|review-requests-summary">Achoimre ar na hiarrataí ar athbhreithniú a fuair an ceannaitheoir</entry>
 <entry key="auxiliary|text|roles">Róil na heagraíochta seo</entry>

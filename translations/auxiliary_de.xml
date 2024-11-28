@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Zugänglichkeitskriterien</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad-hoc-Kommunikationskanal</entry>
 <entry key="auxiliary|text|award-criteria">Zuschlagskriterien</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategorie des Gewicht-Zuschlagskriteriums</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategorie des Festwert-Zuschlagskriteriums</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategorie des Schwellen-Zuschlagskriteriums</entry>
 <entry key="auxiliary|text|beneficial-owner">Wirtschaftlicher Eigentümer</entry>
 <entry key="auxiliary|text|buyer">Beschaffer</entry>
 <entry key="auxiliary|text|buyer-competent">Zuständige Behörde</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Dauer</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Dauer der Aufforderung zur Interessenbekundung</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informationen über das dynamische Beschaffungssystem</entry>
+<entry key="auxiliary|text|eed-applicable">Die Beschaffung fällt in den Geltungsbereich der Richtlinie zur Energieeffizienz (EED) (EU) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Liste der Produkte, Arbeiten, Dienstleistungen und Gebäude, die mit der Richtlinie zur Energieeffizienz (EED) in Verbindung stehen</entry>
 <entry key="auxiliary|text|electronic-auction">Elektronische Auktion</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Beabsichtigter Beginn und Laufzeit des Vertrags</entry>
 <entry key="auxiliary|text|essential-assets">Wesentliche eigene Vermögenswerte</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Gruppe von Losen</entry>
 <entry key="auxiliary|text|grouping">Name des Zusammenschlusses</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informationen über Prämien und Vertragsstrafen</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Die Beschaffung fällt in den Geltungsbereich des Internationalen Beschaffungsinstruments (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistiken über Maßnahmen des Internationalen Beschaffungsinstruments (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Sprachen, in denen Interessenbekundungen eingereicht werden können</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informationen, die nach Ablauf der Einreichungsfrist ergänzt werden können</entry>
 <entry key="auxiliary|text|legal-basis">Rechtsgrundlage</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Verlängerung</entry>
 <entry key="auxiliary|text|results">Ergebnisse</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Ergebnis des Vergabeverfahrens</entry>
+<entry key="auxiliary|text|review">Überprüfung</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Der Antrag auf Überprüfung oder auf einstweilige Maßnahmen wurde zurückgezogen</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Art der behaupteten Unregelmäßigkeit</entry>
 <entry key="auxiliary|text|review-requests-summary">Zusammenfassung der beim Erwerber eingegangenen Überprüfungsanträge</entry>
 <entry key="auxiliary|text|roles">Rollen dieser Organisation</entry>

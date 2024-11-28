@@ -1,25 +1,22 @@
 // View T01
 // File generated from metadata database
-1 {ND-Root} #{auxiliary|text|buyer-competent} // 1. Competent authority (T01, T02)
+1 {ND-Root} #{auxiliary|text|buyer-competent} // 1 Competent authority (T01, T02)
 	{OPT-300-Procedure-Buyer} #{auxiliary|text|buyer-competent} // 1.1 Buyer (T01, T02)
 		{ND-ContractingParty} #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Official name
 		{BT-11-Procedure-Buyer} #{auxiliary|text|legaltype-competent}: #{BT-11-Procedure-Buyer} // Legal type of the buyer (T01, T02)
 		{BT-740-Procedure-Buyer[BT-740-Procedure-Buyer == 'cont-ent']} #{field|name|BT-740-Procedure-Buyer} // Buyer Contracting Entity
 		{BT-10-Procedure-Buyer} #{field|name|BT-10-Procedure-Buyer}: #value // Activity of the contracting authority
-2 {ND-Root} #{auxiliary|text|procedure} // 2. Procedure
+2 {ND-Root} #{auxiliary|text|procedure} // 2 Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{ND-ProcedureProcurementScope} #{field|name|BT-21-Procedure}: ${BT-21-Procedure} // Procedure Title
 		{ND-ProcedureProcurementScope} #{field|name|BT-24-Procedure}: ${BT-24-Procedure} // Procedure Description
 		{OPP-090-Procedure} #{field|name|OPP-090-Procedure}: ${OPP-090-Procedure} // Previous Notice
 		{BT-22-Procedure} #{field|name|BT-22-Procedure}: ${BT-22-Procedure} // Internal identifier
 		0 {BT-105-Procedure[BT-105-Procedure != 'unpublished']} #{field|name|BT-105-Procedure}: #{BT-105-Procedure} // Type of the procedure
-			{BT-197(BT-105)-Procedure} #{field|name|BT-197(BT-105)-Procedure}: #{BT-197(BT-105)-Procedure} // Unpublished Justification Code
-			{BT-105-Procedure[BT-196(BT-105)-Procedure is present]} #{field|name|BT-196(BT-105)-Procedure}: ${BT-196(BT-105)-Procedure} // Unpublished Justification Description
-			{BT-105-Procedure[BT-198(BT-105)-Procedure is present]} #{field|name|BT-198(BT-105)-Procedure}: ${BT-198(BT-105)-Procedure} // Unpublished Access Date
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
 			{BT-23-Procedure} #{field|name|BT-23-Procedure}: #{BT-23-Procedure} // Nature of the contract
 			{OPP-040-Procedure} #{field|name|OPP-040-Procedure}: #{OPP-040-Procedure} // Main Nature - Sub Type (T01, T02)
-			{BT-531-Procedure} #{field|name|BT-531-Procedure}: #{BT-531-Procedure} // Additional nature of the contract
+			{ND-ProcedureProcurementScope[BT-531-Procedure is present]} #{field|name|BT-531-Procedure}: #{BT-531-Procedure} // Additional nature of the contract
 			{BT-262-Procedure[BT-26(m)-Procedure == 'cpv']} #{field|name|BT-262-Procedure} (${BT-26(m)-Procedure}): ${BT-262-Procedure} #{BT-262-Procedure} // Main classification (CPV)
 			{BT-262-Procedure[BT-26(m)-Procedure != 'cpv']} #{field|name|BT-262-Procedure} (${BT-26(m)-Procedure}): ${BT-262-Procedure} // Main classification (non-CPV)
 			{BT-263-Procedure[BT-26(a)-Procedure == 'cpv']} #{field|name|BT-263-Procedure} (${BT-26(a)-Procedure}): ${BT-263-Procedure} #{BT-263-Procedure} // Additional classification (CPV)
@@ -31,14 +28,14 @@
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure} // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
 			0 {BT-09(a)-Procedure[BT-09(b)-Procedure != 'unpublished']} #{auxiliary|text|cross-border-law}: ${BT-09(b)-Procedure} // Applicable cross-border law
-5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5. Lots
+5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5 Lots
 	1 {ND-Lot} #{field|name|BT-137-Lot}: ${BT-137-Lot} // 5.1 Lot
 		{ND-Lot} #{field|name|BT-21-Lot}: ${BT-21-Lot} // Title
 		{ND-Lot} #{field|name|BT-24-Lot}: ${BT-24-Lot} // Description
 		{BT-22-Lot} #{field|name|BT-22-Lot}: ${BT-22-Lot} // Internal identifier
 		1 {ND-LotProcurementScope[(BT-23-Lot is present) or (BT-26(m)-Lot is present) or (BT-26(a)-Lot is present) or (BT-25-Lot is present) or (BT-54-Lot is present)]} #{auxiliary|text|purpose} // 5.1.1 Purpose
 			{BT-23-Lot} #{field|name|BT-23-Lot}: #{BT-23-Lot} // Nature of the contract
-			{BT-531-Lot} #{field|name|BT-531-Lot}: #{BT-531-Lot} // Additional Nature
+			{ND-LotProcurementScope[BT-531-Lot is present]} #{field|name|BT-531-Lot}: #{BT-531-Lot} // Additional Nature
 			{BT-262-Lot[BT-26(m)-Lot == 'cpv']} #{field|name|BT-262-Lot} (${BT-26(m)-Lot}): ${BT-262-Lot} #{BT-262-Lot} // Main classification (CPV)
 			{BT-263-Lot[BT-26(a)-Lot == 'cpv']} #{field|name|BT-263-Lot} (${BT-26(a)-Lot}): ${BT-263-Lot} #{BT-263-Lot} // Additional classification (CPV)
 			{BT-25-Lot} #{field|name|BT-25-Lot}: ${format-number(BT-25-Lot, '###,##0.###,###,###')} #{BT-625-Lot} // Quantity
@@ -55,11 +52,9 @@
 			{BT-537-Lot} #{field|name|BT-537-Lot}: ${BT-537-Lot} // End date
 			{BT-36-Lot} #{field|name|BT-36-Lot}: ${format-number(OPA-36-Lot-Number, '###,##0.###,###,###')} #{code|name|${concat('duration-unit.', BT-36-Lot/@unitCode)}} // Duration
 			{BT-538-Lot} #{field|name|BT-538-Lot}: #{BT-538-Lot} // Planned Period (Unlimited)
-		16 {BT-137-Lot[(OPT-301-Lot-Mediator is present) or (OPT-301-Lot-ReviewOrg is present) or (OPT-301-Lot-FiscalLegis is present) or (OPT-301-Lot-EnvironLegis is present) or (OPT-301-Lot-EmployLegis is present) or (OPT-301-Lot-AddInfo is present) or (OPT-301-Lot-DocProvider is present) or (OPT-301-Lot-ReviewInfo is present) or (OPT-301-Lot-TenderReceipt is present) or (OPT-301-Lot-TenderEval is present) or (some text:$orgida in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Financing[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgida != '') or (some text:$orgidb in (for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2] return $orgid2) satisfies $orgidb != '') or (some text:$orgidc in (for text:$lotid3 in BT-137-Lot, text:$conid3 in OPT-315-LotResult[BT-13713-LotResult == $lotid3], text:$orgid3 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid3] return $orgid3) satisfies $orgidc != '')]} #{auxiliary|text|further-info} // 5.1.16 Further information, mediation and review
-			{BT-137-Lot[OPT-301-Lot-AddInfo is present]} #{auxiliary|text|organisation-providing-info-procedure}: ${for text:$refid in OPT-301-Lot-AddInfo, text:$orgname in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid) or (OPT-201-Organization-TouchPoint == $refid)] return $orgname} // Organisation providing additional information about the procurement procedure (Lot)
-			{ND-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='serv-prov']]} #{auxiliary|text|organisation-providing-procurement-service}: ${BT-500-Organization-Company} // Service Provider organisation
-			{ND-Company[OPT-200-Organization-Company == OPT-300-Procedure-SProvider[OPT-030-Procedure-SProvider=='ted-esen']]} #{auxiliary|text|organisation-esender}: ${BT-500-Organization-Company} // eSender
-8 {ND-Root} #{auxiliary|text|organisations} // 8. Organisations
+		16 {BT-137-Lot[(OPT-301-Lot-Mediator is present) or (OPT-301-Lot-ReviewOrg is present) or (BT-99-Lot is present) or (OPT-301-Lot-FiscalLegis is present) or (OPT-301-Lot-EnvironLegis is present) or (OPT-301-Lot-EmployLegis is present) or (OPT-301-Lot-AddInfo is present) or (OPT-301-Lot-DocProvider is present) or (OPT-301-Lot-ReviewInfo is present) or (OPT-301-Lot-TenderReceipt is present) or (OPT-301-Lot-TenderEval is present) or (some text:$orgida in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Financing[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgida != '') or (some text:$orgidb in (for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2] return $orgid2) satisfies $orgidb != '') or (some text:$orgidc in (for text:$lotid3 in BT-137-Lot, text:$conid3 in OPT-315-LotResult[BT-13713-LotResult == $lotid3], text:$orgid3 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid3] return $orgid3) satisfies $orgidc != '')]} #{auxiliary|text|further-info} // 5.1.16 Further information, mediation and review
+			{BT-137-Lot[OPT-301-Lot-AddInfo is present]} #{auxiliary|text|organisation-providing-info-procedure}: ${for text:$refid1 in OPT-301-Lot-AddInfo, text:$orgname1 in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid1) or (OPT-201-Organization-TouchPoint[BT-500-Organization-TouchPoint is not present] == $refid1)] return $orgname1}${for text:$refid2 in OPT-301-Lot-AddInfo, text:$orgname2 in BT-500-Organization-Company[(OPT-201-Organization-TouchPoint[BT-500-Organization-TouchPoint is present] == $refid2)], text:$tponame in BT-500-Organization-TouchPoint[(OPT-201-Organization-TouchPoint == $refid2)] return concat($orgname2, ' - ', $tponame)} // Organisation providing additional information about the procurement procedure (Lot)
+8 {ND-Root} #{auxiliary|text|organisations} // 8 Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
 		{ND-Organization} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
 		{BT-501-Organization-Company} #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} // Organization Identifier
@@ -76,7 +71,7 @@
 		{BT-505-Organization-Company} #{field|name|BT-505-Organization-Company}: ${BT-505-Organization-Company} // Organization Internet Address
 		{OPT-200-Organization-Company[some text:$bpurl in (for text:$orgid in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid]) satisfies $bpurl != '']} #{field|name|BT-508-Procedure-Buyer}: ${for text:$orgid1 in OPT-200-Organization-Company return BT-508-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid1]} // Buyer Profile URL
 		0 {ND-Touchpoint} #{auxiliary|text|other-contact-point}: // TouchPoint / Other contact points
-			{ND-Touchpoint} #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint} // Buyer Touchpoint Name
+			{ND-Touchpoint[BT-500-Organization-TouchPoint is present]} #{field|name|BT-500-Organization-TouchPoint}: ${BT-500-Organization-TouchPoint} // Buyer Touchpoint Name
 			{BT-16-Organization-TouchPoint} #{field|name|BT-16-Organization-TouchPoint}: ${BT-16-Organization-TouchPoint} // Touchpoint Part Name
 			{BT-510(a)-Organization-TouchPoint} #{field|name|BT-510(a)-Organization-TouchPoint}: ${BT-510(a)-Organization-TouchPoint} ${BT-510(b)-Organization-TouchPoint} ${BT-510(c)-Organization-TouchPoint} // Touchpoint Postal Address
 			{BT-513-Organization-TouchPoint} #{field|name|BT-513-Organization-TouchPoint}: ${BT-513-Organization-TouchPoint} // Touchpoint City
@@ -84,10 +79,10 @@
 			{BT-507-Organization-TouchPoint} #{field|name|BT-507-Organization-TouchPoint}: #{BT-507-Organization-TouchPoint} (${BT-507-Organization-TouchPoint}) // Touchpoint Country Subdivision
 			{BT-514-Organization-TouchPoint} #{field|name|BT-514-Organization-TouchPoint}: #{BT-514-Organization-TouchPoint} // Touchpoint Country
 			{BT-502-Organization-TouchPoint} #{field|name|BT-502-Organization-TouchPoint}: ${BT-502-Organization-TouchPoint} // Touchpoint Contact Point
-			{BT-506-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-506-Organization-TouchPoint}: ${BT-506-Organization-TouchPoint} // Touchpoint Contact Email Address
-			{BT-503-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-503-Organization-TouchPoint}: ${BT-503-Organization-TouchPoint} // Touchpoint Contact Telephone Number
-			{BT-739-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-739-Organization-TouchPoint}: ${BT-739-Organization-TouchPoint} // Touchpoint Contact Fax
-			{BT-505-Organization-TouchPoint[OPT-200-Organization-Company == OPT-300-Procedure-Buyer] } #{field|name|BT-505-Organization-TouchPoint}: ${BT-505-Organization-TouchPoint} // Touchpoint Internet Address
+			{BT-506-Organization-TouchPoint} #{field|name|BT-506-Organization-TouchPoint}: ${BT-506-Organization-TouchPoint} // Touchpoint Contact Email Address
+			{BT-503-Organization-TouchPoint} #{field|name|BT-503-Organization-TouchPoint}: ${BT-503-Organization-TouchPoint} // Touchpoint Contact Telephone Number
+			{BT-739-Organization-TouchPoint} #{field|name|BT-739-Organization-TouchPoint}: ${BT-739-Organization-TouchPoint} // Touchpoint Contact Fax
+			{BT-505-Organization-TouchPoint} #{field|name|BT-505-Organization-TouchPoint}: ${BT-505-Organization-TouchPoint} // Touchpoint Internet Address
 		0 {ND-Organization} #{auxiliary|text|roles}: // Roles of this organisation
 			0 {ND-Organization[count(for text:$orgid in OPT-200-Organization-Company return OPT-300-Procedure-Buyer[OPT-300-Procedure-Buyer == $orgid])>0]} #{auxiliary|text|buyer} // This org is a Buyer
 				{OPP-052-Organization[OPP-052-Organization == TRUE]} #{field|name|OPP-052-Organization} // CPB Acquiring
@@ -95,7 +90,7 @@
 			{ND-Organization[(some text:$esender in (for text:$orgid in OPT-200-Organization-Company, text:$servprovtype in OPT-030-Procedure-SProvider[OPT-300-Procedure-SProvider == $orgid] return $servprovtype) satisfies $esender == 'serv-prov') or (some text:$esender1 in (for text:$tpoid in OPT-201-Organization-TouchPoint, text:$servprovtype1 in OPT-030-Procedure-SProvider[OPT-300-Procedure-SProvider == $tpoid] return $servprovtype1) satisfies $esender1 == 'serv-prov')]} #{auxiliary|text|organisation-providing-procurement-service} // This org is a Service Provider
 			{ND-Organization[(some text:$esender in (for text:$orgid in OPT-200-Organization-Company, text:$servprovtype in OPT-030-Procedure-SProvider[OPT-300-Procedure-SProvider == $orgid] return $servprovtype) satisfies $esender == 'ted-esen') or (some text:$esender1 in (for text:$tpoid in OPT-201-Organization-TouchPoint, text:$servprovtype1 in OPT-030-Procedure-SProvider[OPT-300-Procedure-SProvider == $tpoid] return $servprovtype1) satisfies $esender1 == 'ted-esen')]} #{auxiliary|text|organisation-esender} // This org is an eSender
 			{ND-Organization[(OPT-200-Organization-Company == OPT-301-Lot-AddInfo) or (OPT-201-Organization-TouchPoint == OPT-301-Lot-AddInfo)]} #{auxiliary|text|organisation-providing-info-procedure} // Additional Information Providing Organisation (LOT)
-10 {ND-Root[BT-758-notice is present]} #{auxiliary|text|change} // 10. Change
+10 {ND-Root[BT-758-notice is present]} #{auxiliary|text|change} // 10 Change
 	{BT-758-notice} #{field|name|BT-758-notice}: ${BT-758-notice} // Change Notice Version Identifier
 	{BT-140-notice} #{field|name|BT-140-notice}: #{BT-140-notice} // Change Reason Code
 	{ND-ChangeReason[BT-762-notice is present]} #{field|name|BT-762-notice}: ${BT-762-notice} // Change Reason Description
@@ -103,16 +98,14 @@
 		{BT-13716-notice} #{field|name|BT-13716-notice}: ${BT-13716-notice} // Change Previous Section Identifier
 		{ND-Change[BT-141(a)-notice is present]} #{field|name|BT-141(a)-notice}: ${BT-141(a)-notice} // Change Description
 		{BT-719-notice} #{field|name|BT-718-notice}: ${BT-719-notice} // Change Procurement Documents / Change Procurement Documents Date
-11 {ND-Root} #{auxiliary|text|notice-information} // 11. Notice information
-	1 {ND-Root} #{auxiliary|text|notice-information} // 11.1 Notice information
-		{BT-701-notice} #{field|name|BT-701-notice}: ${BT-701-notice} - ${BT-757-notice} // Notice identifier / version
-		{BT-03-notice} #{field|name|BT-03-notice}: #{BT-03-notice} // Form type
-		{BT-02-notice} #{field|name|BT-02-notice}: #{BT-02-notice} // Notice type
-		{OPP-070-notice} #{field|name|OPP-070-notice}: ${OPP-070-notice} // Notice subtype
-		{BT-05(a)-notice} #{field|name|BT-05(a)-notice}: ${BT-05(a)-notice} ${BT-05(b)-notice} // Notice dispatch date and time
-		{BT-803(d)-notice} #{field|name|BT-803(d)-notice}: ${BT-803(d)-notice} ${BT-803(t)-notice} // Notice dispatch date (eSender)
-		{BT-702(a)-notice} #{field|name|BT-702(a)-notice}: #{BT-702(a)-notice} #{BT-702(b)-notice} // Languages in which this notice is officially available
-	2 {ND-Root} #{auxiliary|text|publication-information} // 11.2 Publication information
-		{OPP-010-notice} #{field|name|OPP-010-notice}: ${OPP-010-notice} // Notice publication number
-		{OPP-011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
-		{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date
+0 {ND-Root} #{auxiliary|text|notice-information} // Notice information
+	{BT-701-notice} #{field|name|BT-701-notice}: ${BT-701-notice} - ${BT-757-notice} // Notice identifier / version
+	{BT-03-notice} #{field|name|BT-03-notice}: #{BT-03-notice} // Form type
+	{BT-02-notice} #{field|name|BT-02-notice}: #{BT-02-notice} // Notice type
+	{OPP-070-notice} #{field|name|OPP-070-notice}: ${OPP-070-notice} // Notice subtype
+	{BT-05(a)-notice} #{field|name|BT-05(a)-notice}: ${BT-05(a)-notice} ${BT-05(b)-notice} // Notice dispatch date and time
+	{BT-803(d)-notice} #{field|name|BT-803(d)-notice}: ${BT-803(d)-notice} ${BT-803(t)-notice} // Notice dispatch date (eSender)
+	{BT-702(a)-notice} #{field|name|BT-702(a)-notice}: #{BT-702(a)-notice} #{BT-702(b)-notice} // Languages in which this notice is officially available
+	{OPP-010-notice} #{field|name|OPP-010-notice}: ${OPP-010-notice} // Notice publication number
+	{OPP-011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
+	{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date

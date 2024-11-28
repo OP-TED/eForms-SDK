@@ -5,7 +5,7 @@
       <ShortName>EuProgramme</ShortName>
       <LongName>eu-programme</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/eu-programme</LongName>
-      <Version>20240313-0</Version>
+      <Version>20240612-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/eu-programme</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -237,6 +237,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Fonds européen agricole de garantie (après transferts entre le FEAGA et le Feader) (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ciste Eorpach um Ráthaíocht Talmhaíochta (tar éis aistrithe idir CERT agus CETFT) (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Europski fond za jamstva u poljoprivredi (nakon prijenosa između EFJP-a i EPFRR-a) (2014/2020)</SimpleValue>
          </Value>
@@ -313,6 +316,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Fonds «Asile et migration» (FAM) (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ciste Tearmainn agus Imirce (CTI) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Fond za azil i migracije (FAM) (2014/2020)</SimpleValue>
@@ -711,6 +717,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Programme «Droits, égalité et citoyenneté» (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Clár um Chearta, Comhionannas agus Saoránacht (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Program za prava, jednakost i građanstvo (2014/2020)</SimpleValue>
          </Value>
@@ -949,7 +958,7 @@
             <SimpleValue>Citoyens, égalité, droits et valeurs (2021/2027)</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Cearta agus Luachanna (2021/2027)</SimpleValue>
+            <SimpleValue>An Clár um Shaoránaigh, Comhionannas, Cearta agus Luachanna (2021/2027)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Građani, ravnopravnost, prava i vrijednosti (2021/2027)</SimpleValue>
@@ -1187,6 +1196,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Contribution du Fonds de cohésion au programme MIE (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ranníocaíocht ón gCiste Comhtháthaithe le clár SCE (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Doprinos programu CEF iz Kohezijskog fonda (2014/2020)</SimpleValue>
@@ -1505,6 +1517,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>L’Europe pour les citoyens (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Clár um an Eoraip ar son na Saoránach (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Europa za građane (2014/2020)</SimpleValue>
          </Value>
@@ -1581,6 +1596,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Compétitivité (régions plus développées) (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Iomaíochas (réigiúin níos forbartha) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Konkurentnost (razvijenije regije) (2014/2020)</SimpleValue>
@@ -1739,6 +1757,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Programme européen d’observation de la Terre (Copernicus) (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Clár an Aontais um fhaire agus um fhaireachán na Cruinne (Copernicus) (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Europski program za praćenje Zemlje (Kopernik) (2014/2020)</SimpleValue>
          </Value>
@@ -1896,6 +1917,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Mécanisme de protection civile de l’Union — États membres (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sásra an Aontais um Chosaint Shibhialta — Na Ballstáit (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Mehanizam Unije za civilnu zaštitu — Države članice (2014/2020)</SimpleValue>
          </Value>
@@ -1972,6 +1996,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Mécanisme de protection civile de l’Union — Hors UE (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Sásra an Aontais um Chosaint Shibhialta — Lasmuigh den Aontas (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Mehanizam Unije za civilnu zaštitu — Izvan EU-a (2014/2020)</SimpleValue>
@@ -2370,6 +2397,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Instrument de coopération au développement (ICD) (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ionstraim maidir le Comhar um Fhorbairt (ICF) (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Instrument za razvojnu suradnju (DCI) (2014/2020)</SimpleValue>
          </Value>
@@ -2606,6 +2636,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Fonds européen agricole pour le développement rural (après transferts entre le FEAGA et le Feader) (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ciste Eorpach Talmhaíochta um Fhorbairt Tuaithe (tar éis aistrithe idir CERT agus CETFT) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Europski poljoprivredni fond za ruralni razvoj (nakon prijenosa između EFJP-a i EPFRR-a) (2014/2020)</SimpleValue>
@@ -3644,6 +3677,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Instrument européen en matière de sûreté nucléaire (2021/2027)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ionstraim Eorpach maidir le Sábháilteacht Núicléach (EINS) (2021/2027)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Europski instrument za nuklearnu sigurnost (EINS) (2021/2027)</SimpleValue>
          </Value>
@@ -3801,6 +3837,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Fonds européen pour les affaires maritimes et la pêche (FEAMP) (2021/2027)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ciste Eorpach Muirí agus Iascaigh (CEMI) (2021/2027)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Europski fond za pomorstvo i ribarstvo (EFPR) (2021/2027)</SimpleValue>
          </Value>
@@ -3877,6 +3916,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Fonds européen pour les affaires maritimes et la pêche (FEAMP) (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ciste Eorpach Muirí agus Iascaigh (CEMI) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Europski fond za pomorstvo i ribarstvo (EFPR) (2014/2020)</SimpleValue>
@@ -5475,6 +5517,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Comparaison des empreintes digitales aux fins de l’application efficace de la convention de Dublin (Eurodac) (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Méarloirg a chur i gcomparáid le chéile chun Coinbhinsiún Bhaile Átha Cliath a chur i bhfeidhm go héifeachtach (Eurodac) (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Sustav „Eurodac” za usporedbu otisaka prstiju za učinkovitu primjenu Dublinske konvencije (2014/2020)</SimpleValue>
          </Value>
@@ -5632,6 +5677,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Fonds de solidarité de l’Union européenne (FSUE) — États membres (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ciste Dlúthpháirtíochta an Aontais Eorpaigh (CDAE) — Na Ballstáit (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Fond solidarnosti Europske unije (EUSF) — Države članice (2014/2020)</SimpleValue>
          </Value>
@@ -5708,6 +5756,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Fonds de solidarité de l’Union européenne (FSUE) — Pays dont l’adhésion est en cours de négociation (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ciste Dlúthpháirtíochta an Aontais Eorpaigh (CDAE) — Tíortha a bhfuil aontachas á chaibidliú acu (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Fond solidarnosti Europske unije (EUSF) — Zemlje u pregovorima za pristupanje (2014/2020)</SimpleValue>
@@ -5946,6 +5997,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Denrées alimentaires et aliments pour animaux (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bia agus Beatha (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Hrana i hrana za životinje (2014/2020)</SimpleValue>
          </Value>
@@ -6023,6 +6077,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Activités spécifiques dans le domaine de l’information financière et du contrôle des comptes (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gníomhaíochtaí sonracha i réimse an tuairiscithe airgeadais agus na hiniúchóireachta (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Posebne aktivnosti u području financijskog izvještavanja i revizije (2014/2020)</SimpleValue>
          </Value>
@@ -6099,6 +6156,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Programme d’action pour améliorer le fonctionnement des services fiscaux dans l’Union européenne (Fiscalis 2020) (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An clár gníomhaíochta um chánachas san Aontas Eorpach (Fiscalis 2020) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Akcijski program za područje oporezivanja u Europskoj uniji (Fiscalis 2020.) (2014/2020)</SimpleValue>
@@ -6257,6 +6317,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Sixième programme-cadre pour la recherche et l’innovation (2001/2006)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Séú Creatchlár um Thaighde agus Nuálaíocht (2001/2006)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Šesti okvirni program za istraživanje i inovacije (2001/2006)</SimpleValue>
          </Value>
@@ -6333,6 +6396,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Septième programme-cadre pour la recherche et l’innovation (2007/2013)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Seachtú Creatchlár um Thaighde agus Nuálaíocht (2007/2013)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Sedmi okvirni program za istraživanje i inovacije (2007/2013)</SimpleValue>
@@ -6411,6 +6477,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Mise en place et exploitation des systèmes européens de radionavigation par satellite (EGNOS et Galileo) (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cur chun feidhme agus saothrú córas Eorpach um loingseoireacht satailíte (EGNOS agus Galileo) (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Provedba i upotreba europskih satelitskih navigacijskih sustava (EGNOS i Galileo) (2014/2020)</SimpleValue>
          </Value>
@@ -6487,6 +6556,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Coopération de l’UE avec le Groenland (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Comhar idir an tAontas agus an Ghraonlainn (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Suradnja EU-a s Grenlandom (2014/2020)</SimpleValue>
@@ -6645,6 +6717,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Action de l’Union dans le domaine de la santé (programme de l’Union relatif à la santé) (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gníomhaíocht an Aontais i réimse na sláinte (Clár Sláinte) (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Djelovanje Unije u području zdravstva (Program Zdravlje) (2014/2020)</SimpleValue>
          </Value>
@@ -6802,6 +6877,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Programmes complémentaires d’exploitation du réacteur à haut flux (HFR) (2009/2011)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cláir fhorlíontacha um an imoibritheoir ardfhlosca (HFR) (2009/2011)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Dodatni istraživački programi u vezi s radom reaktora visokog fluksa (HFR) (2009/2011)</SimpleValue>
          </Value>
@@ -6878,6 +6956,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Programmes complémentaires d’exploitation du réacteur à haut flux (HFR) (2016/2019)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cláir fhorlíontacha um an imoibritheoir ardfhlosca (HFR) (2016/2019)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Dodatni istraživački programi u vezi s radom reaktora visokog fluksa (HFR) (2016/2019)</SimpleValue>
@@ -6956,6 +7037,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Programmes complémentaires d’exploitation du réacteur à haut flux (HFR) (2020/2023)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cláir fhorlíontacha um an imoibritheoir ardfhlosca (HFR) (2020/2023)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Dodatni istraživački programi u vezi s radom reaktora visokog fluksa (HFR) (2020/2023)</SimpleValue>
          </Value>
@@ -7032,6 +7116,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Programmes complémentaires d’exploitation du réacteur à haut flux (HFR) (2012/2015)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cláir fhorlíontacha um an imoibritheoir ardfhlosca (HFR) (2012/2015)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Dodatni istraživački programi u vezi s radom reaktora visokog fluksa (HFR) (2012/2015)</SimpleValue>
@@ -7350,6 +7437,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Favoriser la participation des consommateurs à l’élaboration des politiques de l’Union dans le domaine des services financiers (2017/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cur le rannpháirtíocht tomhaltóirí i gceapadh beartais an Aontais i réimse na seirbhísí airgeadais (2017/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Jačanje sudjelovanja potrošača u donošenju politika Unije u području financijskih usluga (2017/2020)</SimpleValue>
          </Value>
@@ -7666,6 +7756,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Instrument relatif à la coopération en matière de sûreté nucléaire (ICSN) (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ionstraim um Chomhar maidir le Sábháilteacht Núicléach (ICSN) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Instrument suradnje za nuklearnu sigurnost (INSC) (2014/2020)</SimpleValue>
@@ -8063,6 +8156,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Solutions d’interopérabilité pour les administrations publiques, les entreprises et les particuliers en Europa (ISA2) (2016/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Réitigh Idir-Inoibritheachta d’údaráis riaracháin phoiblí, gnólachtaí agus saoránaigh Eorpacha (ISA2) (2016/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Interoperabilna rješenja za europske javne uprave, poduzetnike i građane (ISA2) (2016/2020)</SimpleValue>
@@ -8941,6 +9037,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Fonds de garantie relatif aux actions extérieures (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ciste Ráthaíochta do ghníomhaíochtaí seachtracha (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Jamstveni fond za vanjska djelovanja (2014/2020)</SimpleValue>
          </Value>
@@ -9178,6 +9277,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Programmes d’assistance au déclassement d’installations nucléaires en Bulgarie, en Lituanie et en Slovaquie (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cláir chúnaimh um dhíchoimisiúnú núicléach sa Bhulgáir, sa Liotuáin agus sa tSlóvaic (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Programi pomoći za razgradnju nuklearnih postrojenja u Bugarskoj, Litvi i Slovačkoj (2014/2020)</SimpleValue>
          </Value>
@@ -9254,6 +9356,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Déclassement d’installations nucléaires (Lituanie) (2021/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cláir chúnaimh um dhíchoimisiúnú núicléach (an Liotuáin) (2021/2027)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Razgradnja nuklearnih postrojenja (Litva) (2021/2027)</SimpleValue>
@@ -9571,6 +9676,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Régions ultrapériphériques et à faible densité de population (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Réigiúin fhorimeallacha agus réigiúin inar tearc an daonra (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Najudaljenije i slabo naseljene regije (2014/2020)</SimpleValue>
@@ -10048,6 +10156,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Convergence régionale (régions moins développées) (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cóineasú réigiúnach (réigiúin lagfhorbartha) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Regionalna konvergencija (manje razvijene regije) (2014/2020)</SimpleValue>
@@ -10846,6 +10957,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Assistance technique et actions innovatrices (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cúnamh teicniúil agus gníomhaíochtaí nuálacha (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Tehnička pomoć i inovativne aktivnosti (2014/2020)</SimpleValue>
          </Value>
@@ -10922,6 +11036,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Instrument de soutien financier visant à encourager le développement économique de la communauté chypriote turque (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Ionstraim um thacaíocht airgeadais chun forbairt eacnamaíoch phobal Turcach na Cipire a spreagadh (PTC) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Instrument financijske potpore za poticanje gospodarskog razvoja turske zajednice na Cipru (TZC) (2014/2020)</SimpleValue>
@@ -11160,6 +11277,9 @@
          <Value ColumnRef="fra_label">
             <SimpleValue>Régions en transition (2014/2020)</SimpleValue>
          </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Réigiúin trasdula (2014/2020)</SimpleValue>
+         </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Tranzicijske regije (2014/2020)</SimpleValue>
          </Value>
@@ -11316,6 +11436,9 @@
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Initiative pour l’emploi des jeunes (enveloppe spécifique complémentaire) (2014/2020)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Tionscnamh um Fhostaíocht don Aos Óg (leithdháileadh sonrach breisithe) (2014/2020)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Inicijativa za zapošljavanje mladih (posebna dodatno dodijeljena sredstva) (2014/2020)</SimpleValue>

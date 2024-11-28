@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Akadálymentesítési kritériumok</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc kommunikációs csatorna</entry>
 <entry key="auxiliary|text|award-criteria">Odaítélési szempontok</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategória az odaítélési szempont súlya</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategória az odaítélési szempont fix értéke</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategória az odaítélési szempont küszöbértéke</entry>
 <entry key="auxiliary|text|beneficial-owner">Kedvezményezett</entry>
 <entry key="auxiliary|text|buyer">Vevő</entry>
 <entry key="auxiliary|text|buyer-competent">Illetékes hatóság</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Időtartam</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">A részvételi szándék kifejezésére való felhívás időtartama</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">A dinamikus beszerzési rendszerre vonatkozó információk</entry>
+<entry key="auxiliary|text|eed-applicable">A beszerzés az energiahatékonysági irányelv (EED) (EU) 2023/1791 hatálya alá tartozik</entry>
+<entry key="auxiliary|text|eed-list">A termékek, munkák, szolgáltatások és épületek listája, amelyek kapcsolódnak az energiahatékonysági irányelvhez (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektronikus árverés</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">A szerződés tervezett kezdőnapja és időtartama</entry>
 <entry key="auxiliary|text|essential-assets">Alapvető eszközök</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Részcsoport</entry>
 <entry key="auxiliary|text|grouping">A csoportosulás neve</entry>
 <entry key="auxiliary|text|info-rewards-penalties">A díjakra és szankciókra vonatkozó információk</entry>
+<entry key="auxiliary|text|international-procurement-instrument">A beszerzés az Nemzetközi Beszerzési Eszköz (IPI) hatálya alá tartozik</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">A Nemzetközi Beszerzési Eszköz (IPI) intézkedéseinek statisztikái</entry>
 <entry key="auxiliary|text|language-expressions">A szándéknyilatkozatokat ezeken a nyelveken lehet benyújtani</entry>
 <entry key="auxiliary|text|late-tenderer-info">A benyújtási határidő után megadható kiegészítő információk</entry>
 <entry key="auxiliary|text|legal-basis">Jogalap</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Megújítás</entry>
 <entry key="auxiliary|text|results">Eredmények</entry>
 <entry key="auxiliary|text|results-procurement-procedure">A közbeszerzési eljárás eredménye</entry>
+<entry key="auxiliary|text|review">Felülvizsgálat</entry>
+<entry key="auxiliary|text|review-request-withdrawn">A felülvizsgálati vagy ideiglenes intézkedésekre vonatkozó kérelem vissza lett vonva</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Az állítólagos szabálytalanság típusa</entry>
 <entry key="auxiliary|text|review-requests-summary">Az ajánlatkérő szervezethez beérkezett felülvizsgálati kérelmek összefoglalása</entry>
 <entry key="auxiliary|text|roles">E szervezet szerepei</entry>

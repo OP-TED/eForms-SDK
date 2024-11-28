@@ -255,10 +255,22 @@
    <svrl:active-pattern id="EFORMS-validation-stage-4-16"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4m"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
+   <svrl:failed-assert id="BR-BT-00727-0228"
+                       location="/cn:ContractNotice/cac:ProcurementProject"
+                       role="ERROR"
+                       test="((cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode) or (cac:RealizedLocation/cac:Address/cbc:Region)) or not(../cbc:NoticeTypeCode/normalize-space(text()) = ('can-desg','can-social','can-standard','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pmc','qu-sy','subco','veat'))">
+      <svrl:text>rule|text|BR-BT-00727-0228</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope_BT-727-Procedure"
+                                 see="field:BT-727-Procedure">
+         <svrl:text>cac:RealizedLocation/cac:Address/cbc:Region</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-5m"/>
 </svrl:schematron-output>

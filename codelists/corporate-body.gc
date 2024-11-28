@@ -5,7 +5,7 @@
       <ShortName>CorporateBody</ShortName>
       <LongName>corporate-body</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/corporate-body</LongName>
-      <Version>20240111-0</Version>
+      <Version>20240925-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/corporate-body</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -198,6 +198,166 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Europeiska unionens byrå för samarbete mellan energitillsynsmyndigheter</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AEPPEPF</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Authority for European Political Parties and European Political Foundations</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Орган за европейските политически партии и европейските политически фондации</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Úřad pro evropské politické strany a evropské politické nadace</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Myndigheden for Europæiske Politiske Partier og Europæiske Politiske Fonde</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Behörde für europäische politische Parteien und europäische politische Stiftungen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αρχή για τα Ευρωπαϊκά Πολιτικά Κόμματα και τα Ευρωπαϊκά Πολιτικά Ιδρύματα</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Authority for European Political Parties and European Political Foundations</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Autoridad para los Partidos Políticos Europeos y las Fundaciones Políticas Europeas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Euroopa Tasandi Erakondade ja Euroopa Tasandi Poliitiliste Sihtasutuste Amet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Euroopan tason poliittisista puolueista ja Euroopan tason poliittisista säätiöistä vastaava viranomainen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autorité pour les partis politiques européens et les fondations politiques européennes</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An tÚdarás um Páirtithe Polaitiúla Eorpacha agus um Fhondúireachtaí Polaitiúla Eorpacha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tijelo za europske političke stranke i europske političke zaklade</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Európai Politikai Pártok és Európai Politikai Alapítványok Hatósága</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Autorità per i partiti politici europei e le fondazioni politiche europee</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Europos politinių partijų ir Europos politinių fondų institucija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Eiropas politisko partiju un Eiropas politisko fondu iestāde</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-Awtorità għall-Partiti Politiċi Ewropej u l-Fondazzjonijiet Politiċi Ewropej</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Autoriteit voor Europese politieke partijen en Europese politieke stichtingen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Urząd ds. Europejskich Partii Politycznych i Europejskich Fundacji Politycznych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Autoridade para os Partidos Políticos Europeus e as Fundações Políticas Europeias</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Autoritatea pentru Partidele Politice Europene și Fundațiile Politice Europene</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Úrad pre európske politické strany a európske politické nadácie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organ za evropske politične stranke in evropske politične fundacije</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Myndigheten för europeiska politiska partier och europeiska politiska stiftelser</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>AMLA</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Authority for Anti-Money Laundering and Countering the Financing of Terrorism</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Орган за борба с изпирането на пари и финансирането на тероризма</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Orgán pro boj proti praní peněz a financování terorismu</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Myndigheden for Bekæmpelse af Hvidvask af Penge og Finansiering af Terrorisme</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Behörde zur Bekämpfung von Geldwäsche und Terrorismusfinanzierung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αρχή για την καταπολέμηση της νομιμοποίησης εσόδων από παράνομες δραστηριότητες και της χρηματοδότησης της τρομοκρατίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Authority for Anti-Money Laundering and Countering the Financing of Terrorism</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Autoridad de Lucha contra el Blanqueo de Capitales y la Financiación del Terrorismo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rahapesu ja Terrorismi Rahastamise Tõkestamise Amet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Rahanpesun ja terrorismin rahoituksen torjuntaviranomainen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autorité de lutte contre le blanchiment de capitaux et le financement du terrorisme</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An tÚdarás um Fhrithsciúradh Airgid agus um Chomhrac Mhaoiniú na Sceimhlitheoireachta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tijelo za sprečavanje pranja novca i borbu protiv financiranja terorizma</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A Pénzmosás és Terrorizmusfinanszírozás Elleni Hatóság</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Autorità per la lotta al riciclaggio e al finanziamento del terrorismo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kovos su pinigų plovimu ir teroristų finansavimu institucija</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iestāde nelikumīgi iegūtu līdzekļu legalizēšanas un terorisma finansēšanas novēršanai</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Awtorità għall-Ġlieda Kontra l-Ħasil tal-Flus u l-Finanzjament tat-Terroriżmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Autoriteit voor de bestrijding van witwassen en terrorismefinanciering</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Urząd ds. Przeciwdziałania Praniu Pieniędzy i Finansowaniu Terroryzmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Autoridade para o Combate ao Branqueamento de Capitais e ao Financiamento do Terrorismo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Autoritatea pentru Combaterea Spălării Banilor și a Finanțării Terorismului</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Úrad pre boj proti praniu špinavých peňazí a financovaniu terorizmu</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Organ za preprečevanje pranja denarja in financiranja terorizma</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Myndigheten för bekämpning av penningtvätt och finansiering av terrorism</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -842,82 +1002,82 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>CERT</SimpleValue>
+            <SimpleValue>CERT-EU</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Computer Emergency Response Team for the EU institutions, bodies and agencies</SimpleValue>
+            <SimpleValue>Cybersecurity Service for the Union Institutions, Bodies, Offices and Agencies</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Екип за незабавно реагиране при компютърни инциденти за институциите, органите и агенциите на ЕС</SimpleValue>
+            <SimpleValue>Служба за киберсигурност за институциите, органите, службите и агенциите на Съюза</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Skupina pro reakci na počítačové hrozby v orgánech, institucích a jiných subjektech EU</SimpleValue>
+            <SimpleValue>Služba kybernetické bezpečnosti pro orgány, instituce a jiné subjekty Unie</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>IT-Beredskabsenheden for EU’s Institutioner, Organer og Agenturer</SimpleValue>
+            <SimpleValue>Cybersikkerhedstjenesten for Unionens institutioner, organer, kontorer og agenturer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>IT-Notfallteam für die Organe, Einrichtungen und sonstigen Stellen der EU</SimpleValue>
+            <SimpleValue>Cybersicherheitsdienst für die Organe, Einrichtungen und sonstigen Stellen der Union</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ομάδα αντιμετώπισης έκτακτων αναγκών στην πληροφορική για τα θεσμικά και λοιπά όργανα και τους οργανισμούς της ΕΕ</SimpleValue>
+            <SimpleValue>Υπηρεσία Κυβερνοασφάλειας για τα Θεσμικά και Λοιπά Όργανα και Οργανισμούς της Ένωσης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Computer Emergency Response Team for the EU institutions, bodies and agencies</SimpleValue>
+            <SimpleValue>Cybersecurity Service for the Union Institutions, Bodies, Offices and Agencies</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Equipo de Respuesta a Emergencias Informáticas de las Instituciones, Órganos y Organismos de la Unión Europea</SimpleValue>
+            <SimpleValue>Servicio de Ciberseguridad para las Instituciones, los Órganos y los Organismos de la Unión</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>ELi institutsioonide ja ametite infoturbeintsidentidega tegelev rühm</SimpleValue>
+            <SimpleValue>Liidu institutsioonide, organite ja asutuste küberturvalisuse teenistus</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>EU:n toimielinten, elinten ja virastojen tietotekniikan kriisiryhmä</SimpleValue>
+            <SimpleValue>Unionin toimielinten, elinten, toimistojen ja virastojen kyberturvallisuuspalvelu</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Équipe d’intervention en cas d’urgence informatique pour les institutions, organes et agences de l’Union européenne</SimpleValue>
+            <SimpleValue>Service de cybersécurité pour les institutions, organes et organismes de l’Union</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>An Fhoireann Phráinnfhreagartha Ríomhaire d’Institiúidí, Comhlachtaí agus Gníomhaireachtaí AE</SimpleValue>
+            <SimpleValue>Seirbhís Cibearshlándála d’Institiúidí, Comhlachtaí, oifigí agus Gníomhaireachtaí an Aontais</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Tim za hitne računalne intervencije za institucije, tijela i agencije Europske unije</SimpleValue>
+            <SimpleValue>Služba za kibernetičku sigurnost institucija, tijela, ureda i agencija Unije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Az európai intézmények, szervek és hivatalok számítógépes vészhelyzeteket elhárító csoportja</SimpleValue>
+            <SimpleValue>Az Uniós Intézmények, Szervek, Hivatalok és Ügynökségek Kiberbiztonsági Szolgálata</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Squadra di pronto intervento informatico delle istituzioni, degli organi e delle agenzie dell’Unione europea</SimpleValue>
+            <SimpleValue>Servizio per la cibersicurezza delle istituzioni, degli organi e degli organismi dell’Unione</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Europos institucijų, įstaigų ir agentūrų Kompiuterinių incidentų tyrimo tarnyba</SimpleValue>
+            <SimpleValue>Sąjungos institucijų, įstaigų, organų ir agentūrų kibernetinio saugumo tarnyba</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>ES iestāžu, struktūru un aģentūru datorapdraudējumu reaģēšanas vienība</SimpleValue>
+            <SimpleValue>Savienības iestāžu, struktūru, biroju un aģentūru kiberdrošības dienests</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-Iskwadra ta’ Rispons f’Emerġenza relatata mal-Kompjuters għall-istituzzjonijiet, il-korpi u l-aġenziji Ewropej</SimpleValue>
+            <SimpleValue>Is-Servizz taċ-Ċibersigurtà għall-Istituzzjonijiet, il-Korpi, l-Uffiċċji u l-Aġenziji tal-Unjoni</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Computercrisisresponsteam voor de instellingen, organen en instanties van de Europese Unie</SimpleValue>
+            <SimpleValue>Cyberbeveiligingsdienst voor de instellingen, organen en instanties van de Unie</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Zespół reagowania na incydenty komputerowe w instytucjach, organach i agencjach UE</SimpleValue>
+            <SimpleValue>Służba ds. Cyberbezpieczeństwa Instytucji, Organów i Jednostek Organizacyjnych Unii</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Equipa de Resposta a Emergências Informáticas para as instituições, organismos e agências da UE</SimpleValue>
+            <SimpleValue>Serviço de Cibersegurança para as Instituições, Órgãos e Organismos da União</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Centrul de răspuns la incidente de securitate cibernetică pentru instituțiile, organele și agențiile UE</SimpleValue>
+            <SimpleValue>Serviciul de Securitate Cibernetică pentru Instituțiile, Organele, Oficiile și Agențiile Uniunii</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Tím reakcie na núdzové počítačové situácie v európskych inštitúciách, orgánoch a agentúrach</SimpleValue>
+            <SimpleValue>Služba kybernetickej bezpečnosti pre inštitúcie, orgány, úrady a agentúry Únie</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Skupina za odzivanje na računalniške grožnje za evropske institucije, organe in agencije</SimpleValue>
+            <SimpleValue>Služba za kibernetsko varnost za institucije, organe, urade in agencije Unije</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Incidenthanteringsorganisationen för EU:s institutioner, organ och byråer</SimpleValue>
+            <SimpleValue>Cybersäkerhetstjänsten för unionens institutioner, organ och byråer</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2198,6 +2358,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Europeiska centralbanken</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>ECCC</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>European Cybersecurity Industrial, Technology and Research Competence Centre</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Европейски център за промишлени, технологични и изследователски експертни познания в областта на киберсигурността</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Evropské průmyslové, technologické a výzkumné centrum kompetencí pro kybernetickou bezpečnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Det Europæiske Industri-, Teknologi- og Forskningskompetencecenter for Cybersikkerhed</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Europäisches Kompetenzzentrum für Industrie, Technologie und Forschung im Bereich der Cybersicherheit</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ευρωπαϊκό Κέντρο Αρμοδιότητας για Βιομηχανικά, Τεχνολογικά και Ερευνητικά Θέματα Κυβερνοασφάλειας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>European Cybersecurity Industrial, Technology and Research Competence Centre</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Centro Europeo de Competencia Industrial, Tecnológica y de Investigación en Ciberseguridad</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Küberturvalisuse Valdkonna Tööstuse, Tehnoloogia ja Teadusuuringute Euroopa Pädevuskeskus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Euroopan kyberturvallisuuden teollisuus-, teknologia- ja tutkimusosaamiskeskus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Centre de compétences européen pour l’industrie, les technologies et la recherche en matière de cybersécurité</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>An Lárionad Eorpach um Inniúlachtaí Tionsclaíochta Cibearshlándála, Teicneolaíochta Cibearshlándála agus Taighde Cibearshlándála</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Europski stručni centar za industriju, tehnologiju i istraživanja u području kibersigurnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Európai Kiberbiztonsági Ipari, Technológiai és Kutatási Kompetenciaközpont</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Centro europeo di competenza per la cibersicurezza nell’ambito industriale, tecnologico e della ricerca</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Europos kibernetinio saugumo pramonės, technologijų ir mokslinių tyrimų kompetencijos centras</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Eiropas Industriālais, tehnoloģiskais un pētnieciskais kiberdrošības kompetenču centrs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Iċ-Ċentru Ewropew ta’ Kompetenza Industrijali, Teknoloġika u tar-Riċerka fil-qasam taċ-Ċibersigurtà</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Europees Kenniscentrum voor industrie, technologie en onderzoek op het gebied van cyberbeveiliging</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Europejskie Centrum Kompetencji Przemysłowych, Technologicznych i Badawczych w dziedzinie Cyberbezpieczeństwa</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Centro Europeu de Competências Industriais, Tecnológicas e de Investigação em Cibersegurança</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Centrul european de competențe în domeniul industrial, tehnologic și de cercetare în materie de securitate cibernetică</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Európske centrum priemyselných, technologických a výskumných kompetencií v oblasti kybernetickej bezpečnosti</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Evropski industrijski, tehnološki in raziskovalni kompetenčni center za kibernetsko varnost</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Europeiska kompetenscentrumet för cybersäkerhet inom näringsliv, teknik och forskning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3562,86 +3802,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>EMCDDA</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>European Monitoring Centre for Drugs and Drug Addiction</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Европейски център за мониторинг на наркотици и наркомании</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Evropské monitorovací centrum pro drogy a drogovou závislost</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Det Europæiske Overvågningscenter for Narkotika og Narkotikamisbrug</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Europäische Beobachtungsstelle für Drogen und Drogensucht</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Ευρωπαϊκό Κέντρο Παρακολούθησης Ναρκωτικών και Τοξικομανίας</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>European Monitoring Centre for Drugs and Drug Addiction</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Observatorio Europeo de las Drogas y las Toxicomanías</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Euroopa Narkootikumide ja Narkomaania Seirekeskus</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Euroopan huumausaineiden ja niiden väärinkäytön seurantakeskus</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Observatoire européen des drogues et des toxicomanies</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>An Lárionad Faireacháin Eorpach um Dhrugaí agus Andúil i nDrugaí</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Europski centar za praćenje droga i ovisnosti o drogama</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>A Kábítószer és a Kábítószerfüggőség Európai Megfigyelőközpontja</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Osservatorio europeo delle droghe e delle tossicodipendenze</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Europos narkotikų ir narkomanijos stebėsenos centras</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Eiropas Narkotiku un narkomānijas uzraudzības centrs</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Iċ-Ċentru Ewropew għall-Monitoraġġ tad-Droga u d-Dipendenza fuq id-Droga</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Europees Waarnemingscentrum voor drugs en drugsverslaving</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Europejskie Centrum Monitorowania Narkotyków i Narkomanii</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Observatório Europeu da Droga e da Toxicodependência</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Observatorul European pentru Droguri și Toxicomanie</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Európske monitorovacie centrum pre drogy a drogovú závislosť</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Evropski center za spremljanje drog in zasvojenosti z drogami</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Europeiska centrumet för kontroll av narkotika och narkotikamissbruk</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>EMEA</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -4762,6 +4922,86 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>EUDA</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>European Union Drugs Agency</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Агенция на Европейския съюз по наркотиците</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Agentura Evropské unie pro drog</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Den Europæiske Unions Narkotikaagentur</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Drogenagentur der Europäischen Union</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οργανισμός της Ευρωπαϊκής Ένωσης για τα Ναρκωτικά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>European Union Drugs Agency</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Agencia de la Unión Europea sobre Drogas</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Euroopa Liidu Uimastiamet</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Euroopan unionin huumevirasto</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Agence de l’Union européenne sur les drogues</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gníomhaireacht Drugaí an Aontais Eorpaigh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Agencija Europske unije za droge</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az Európai Unió Kábítószer-ügynöksége</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Agenzia dell’Unione europea sulle droghe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Europos Sąjungos narkotikų agentūra</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Eiropas Savienības Narkotiku aģentūra</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-Aġenzija tal-Unjoni Ewropea dwar id-Drogi</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Drugsagentschap van de Europese Unie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Agencja Unii Europejskiej ds. Narkotyków</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Agência da União Europeia sobre Drogas</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Agenția Uniunii Europene privind Drogurile</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Agentúra Európskej únie pre drogy</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Agencija Evropske unije za droge</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Europeiska unionens narkotikamyndighet</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>EUISS</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -4905,7 +5145,7 @@
             <SimpleValue>Wspólne Europejskie Przedsięwzięcie Kolejowe</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Empresa Comum do Sector Ferroviário Europeu</SimpleValue>
+            <SimpleValue>Empresa Comum do Setor Ferroviário Europeu</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Întreprinderea comună pentru căile ferate ale Europei</SimpleValue>
@@ -6001,7 +6241,7 @@
             <SimpleValue>An tÚdarás um Ullmhacht agus Freagairt i dtaca le hÉigeandálaí Sláinte</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Nadzorno tijelo za pripravnost i odgovor na zdravstvene krize</SimpleValue>
+            <SimpleValue>Tijelo za pripravnost i odgovor na zdravstvene krize</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Egészségügyi Szükséghelyzet-felkészültségi és -reagálási Hatóság</SimpleValue>

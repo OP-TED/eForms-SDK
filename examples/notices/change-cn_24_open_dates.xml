@@ -42,7 +42,6 @@
 									<cbc:StreetName>Renfrewshire House, Cotton Street</cbc:StreetName>
 									<cbc:CityName>Paisley</cbc:CityName>
 									<cbc:PostalZone>PA1 1JB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKM83</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -69,7 +68,6 @@
 								<cac:PostalAddress>
 									<cbc:CityName>Sheriff Street</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -97,7 +95,6 @@
 									<cbc:StreetName>Some Street</cbc:StreetName>
 									<cbc:CityName>Example City</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -145,7 +142,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">71397268-6c47-4f2f-8ab0-f41a26138f81</cbc:ID>
 	<cbc:ContractFolderID>31f258b6-5eb2-4875-8997-affa3cdce27c</cbc:ContractFolderID>
 	<cbc:IssueDate>2020-04-17+01:00</cbc:IssueDate>
@@ -213,7 +210,6 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">Public buildings within the geographical area of Renfrewshire Council.</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKM83</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
@@ -456,7 +452,6 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="ENG">Public buildings within the geographical area of Renfrewshire Council.</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKM83</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>

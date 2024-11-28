@@ -3,7 +3,7 @@
 
   <groupId>eu.europa.ted.eforms</groupId>
   <artifactId>eforms-sdk</artifactId>
-  <version>1.12.0</version>
+  <version>1.13.0</version>
   <packaging>jar</packaging>
 
   <name>eForms SDK</name>
@@ -48,12 +48,12 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.build.outputTimestamp>2024-07-18T12:35:36Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2024-11-28T09:47:43Z</project.build.outputTimestamp>
 
     <sonatype.server.url>s01.oss.sonatype.org</sonatype.server.url>
 
     <!-- Versions eForms -->
-    <version.eforms-sdk-analyzer>1.12.0</version.eforms-sdk-analyzer>
+    <version.eforms-sdk-analyzer>1.13.0</version.eforms-sdk-analyzer>
 
     <!-- Versions - Plugins -->
     <version.dependency.plugin>3.5.0</version.dependency.plugin>
@@ -149,7 +149,42 @@
                     <argument>eu.europa.ted.eforms.sdk.analysis.Application</argument>
                     <argument>${project.basedir}</argument>
                   </arguments>
-                  <classpath/>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>benchmark</id>
+      <dependencies>
+        <dependency>
+          <groupId>eu.europa.ted.eforms</groupId>
+          <artifactId>eforms-sdk-analyzer</artifactId>
+          <version>${version.eforms-sdk-analyzer}</version>
+        </dependency>
+      </dependencies>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>validate</phase>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <configuration>
+                  <executable>java</executable>
+                  <arguments>
+                    <argument>-classpath</argument>
+                    <classpath/>
+                    <argument>eu.europa.ted.eforms.sdk.analysis.Application</argument>
+                    <argument>${project.basedir}</argument>
+                    <argument>benchmark</argument>
+                  </arguments>
                 </configuration>
               </execution>
             </executions>

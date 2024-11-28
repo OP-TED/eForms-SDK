@@ -5,7 +5,7 @@
       <ShortName>Country</ShortName>
       <LongName>country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
-      <Version>20230915-0</Version>
+      <Version>20240925-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/country</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -398,7 +398,7 @@
             <SimpleValue>Anguilla</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Angaíle</SimpleValue>
+            <SimpleValue>Anguilla</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Angvila</SimpleValue>
@@ -712,7 +712,7 @@
             <SimpleValue>Araabia Ühendemiraadid</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Arabiemiirikunnat</SimpleValue>
+            <SimpleValue>Arabiemiraatit</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Émirats arabes unis</SimpleValue>
@@ -2321,7 +2321,7 @@
             <SimpleValue>Saint-Barthélemy</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Saint Barthélemy</SimpleValue>
+            <SimpleValue>Sveti Bartolomej</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Saint-Barthélemy</SimpleValue>
@@ -3041,7 +3041,7 @@
             <SimpleValue>Oileán Bouvet</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Otok Bouvet</SimpleValue>
+            <SimpleValue>Bouvetov Otok</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Bouvet-sziget</SimpleValue>
@@ -3394,7 +3394,7 @@
             <SimpleValue>Kokosové ostrovy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Kokosovi otoki</SimpleValue>
+            <SimpleValue>Kokosovi (Keelingovi) otoki</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Kokosöarna</SimpleValue>
@@ -7841,7 +7841,7 @@
             <SimpleValue>Oileán Heard agus Oileáin McDonald</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Otoci Heard i McDonald</SimpleValue>
+            <SimpleValue>Heardov Otok i McDonaldovi Otoci</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Heard-sziget és McDonald-szigetek</SimpleValue>
@@ -10961,7 +10961,7 @@
             <SimpleValue>Saint-Martin</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Saint Martin</SimpleValue>
+            <SimpleValue>Sveti Martin</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Saint-Martin</SimpleValue>
@@ -12318,7 +12318,7 @@
             <SimpleValue>Montserrat</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Montsarat</SimpleValue>
+            <SimpleValue>Montserrat</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Montserrat</SimpleValue>
@@ -14155,7 +14155,7 @@
             <SimpleValue>Papua-Uusi-Guinea</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Papouasie-Nouvelle-Guinée</SimpleValue>
+            <SimpleValue>Papouasie - Nouvelle-Guinée</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Nua-Ghuine Phapua</SimpleValue>
@@ -16081,7 +16081,7 @@
             <SimpleValue>San Pierre agus Miquelon</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Saint-Pierre-et-Miquelon</SimpleValue>
+            <SimpleValue>Sveti Petar i Mikelon</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Saint-Pierre és Miquelon</SimpleValue>
@@ -16321,7 +16321,7 @@
             <SimpleValue>São Tomé agus Príncipe</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Sveti Toma i Princip</SimpleValue>
+            <SimpleValue>Sveti Toma i Princ</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>São Tomé és Príncipe</SimpleValue>
@@ -18374,7 +18374,7 @@
             <SimpleValue>Menší odlehlé ostrovy USA</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>USA’s mindre øbesiddelser</SimpleValue>
+            <SimpleValue>USA’s Mindre Øbesiddelser</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Kleinere Amerikanischen Überseeinseln</SimpleValue>
@@ -18958,7 +18958,7 @@
             <SimpleValue>Îles Vierges britanniques</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Oileáin Bhriotanacha na Maighdean</SimpleValue>
+            <SimpleValue>Ógh-Oileáin na Breataine</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Britanski Djevičanski Otoci</SimpleValue>
@@ -19038,7 +19038,7 @@
             <SimpleValue>Îles Vierges américaines</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Oileáin Mheiriceánacha na Maighdean</SimpleValue>
+            <SimpleValue>Ógh-Oileáin na Stát Aontaithe</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Američki Djevičanski Otoci</SimpleValue>
@@ -19085,7 +19085,7 @@
             <SimpleValue>VNM</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Vietnam</SimpleValue>
+            <SimpleValue>Viet Nam</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Виетнам</SimpleValue>
@@ -19103,7 +19103,7 @@
             <SimpleValue>Βιετνάμ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Vietnam</SimpleValue>
+            <SimpleValue>Viet Nam</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Vietnam</SimpleValue>
@@ -19278,7 +19278,7 @@
             <SimpleValue>Wallis-et-Futuna</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Vailís agus Futúna</SimpleValue>
+            <SimpleValue>Wallis agus Futuna</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Wallis i Futuna</SimpleValue>

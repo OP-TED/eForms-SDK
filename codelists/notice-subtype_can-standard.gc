@@ -5,7 +5,7 @@
       <ShortName>CanStandard</ShortName>
       <LongName>can-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.12.0</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -448,76 +448,76 @@
             <SimpleValue>E4</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Общо обявление за възложена поръчка под прага</SimpleValue>
+            <SimpleValue>Доброволно обявление за възложена поръчка</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Obecné oznámení o výsledku zadávacího řízení pro podlimitní zakázky</SimpleValue>
+            <SimpleValue>Dobrovolné oznámení o výsledku zadávacího řízení</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Generelt under tærskel for bekendtgørelse om indgåede kontrakter</SimpleValue>
+            <SimpleValue>Frivillig bekendtgørelse om indgåede kontrakter</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Unterhalb des Schwellenwerts – Vergabebekanntmachung (CAN) allgemein</SimpleValue>
+            <SimpleValue>Freiwillige Vergabebekanntmachung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Γενική γνωστοποίηση ανάθεσης σύμβασης (CAN) κάτω από το κατώτατο όριο</SimpleValue>
+            <SimpleValue>Εθελοντική γνωστοποίηση ανάθεσης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Below threshold contract award notice (CAN) general</SimpleValue>
+            <SimpleValue>Voluntary award notice</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de adjudicación del contrato general por debajo del umbral</SimpleValue>
+            <SimpleValue>Anuncio voluntario de adjudicación</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Piirmäärast allapoole jääv lepingu sõlmimise teade – üldine</SimpleValue>
+            <SimpleValue>Vabatahtlik lepingu sõlmimise teade</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kynnysarvon alittava jälki-ilmoitus – yleisdirektiivi</SimpleValue>
+            <SimpleValue>Vapaaehtoinen jälki-ilmoitus</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Seuil non atteint avis d’attribution de marché général</SimpleValue>
+            <SimpleValue>Avis volontaire d’attribution</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Faoi bhun thairseach an fhógra ghinearálta faoi dhámhachtain conartha (CAN)</SimpleValue>
+            <SimpleValue>Dobrovolný fógra faoi dhámhachtain</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o dodjeli ugovora ispod granične vrijednosti – općenito</SimpleValue>
+            <SimpleValue>Dobrovoljna obavijesti o dodjeli ugovora</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti szerződés odaítéléséről szóló tájékoztató – általános</SimpleValue>
+            <SimpleValue>Önkéntes tájékoztató az eljárás eredményéről</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso di aggiudicazione generale di importo sottosoglia</SimpleValue>
+            <SimpleValue>Avviso volontario di aggiudicazione (CAN)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Finansinės vertės ribos nesiekiantys viešieji pirkimai: bendras skelbimas apie sutarties skyrimą</SimpleValue>
+            <SimpleValue>Savanoriškas skelbimas apie sutarties sudarymą</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Zem sliekšņa paziņojums par līguma slēgšanas tiesību piešķiršanu, vispārīgs (publicēts vēlāk)</SimpleValue>
+            <SimpleValue>Brīvprātīgs paziņojums par piešķiršanu</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż ta’ għoti ta’ kuntratt taħt il-limitu minimu (CAN) ġenerali</SimpleValue>
+            <SimpleValue>Avviż volontarju ta’ għoti</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Algemene aankondiging van gegunde opdracht onder de drempelwaarde</SimpleValue>
+            <SimpleValue>Vrijwillig gunningsbericht</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Ogólne ogłoszenie o udzieleniu zamówienia poniżej progu</SimpleValue>
+            <SimpleValue>Dobrowolne ogłoszenie o udzieleniu zamówienia</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Abaixo do limiar para anúncio de adjudicação de contrato (AAC) geral</SimpleValue>
+            <SimpleValue>Anúncio voluntário da adjudicação</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Anunț general de atribuire a contractului sub prag</SimpleValue>
+            <SimpleValue>Anunț voluntar de atribuire a contractului</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o výsledku obstarávania (CAN) pod prahovou hodnotou</SimpleValue>
+            <SimpleValue>Dobrovoľné oznámenie o výsledku obstarávania</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o oddaji naročila pod pragom – splošno</SimpleValue>
+            <SimpleValue>Dobrovoljno obvestilo o oddaji naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Under tröskelvärdet – allmänt meddelande om tilldelning av kontrakt (CAN)</SimpleValue>
+            <SimpleValue>Frivilliga meddelanden om tilldelning</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

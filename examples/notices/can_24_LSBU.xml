@@ -88,7 +88,6 @@
 									<cbc:StreetName>103 Borough Road</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>SE1 0AA</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI44</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -114,7 +113,6 @@
 									<cbc:StreetName>103 Borough Road</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>SE1 0AA</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI44</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -167,7 +165,6 @@
 								<cac:PostalAddress>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -188,7 +185,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.12</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">34453177-5a72-4c6f-b531-19b5aaa217ba</cbc:ID>
 	<cbc:ContractFolderID>d5049cd6-caec-47cd-ab5f-2f7715f975e0</cbc:ContractFolderID>
 	<cbc:IssueDate>2018-08-02+01:00</cbc:IssueDate>

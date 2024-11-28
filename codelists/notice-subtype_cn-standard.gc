@@ -5,7 +5,7 @@
       <ShortName>CnStandard</ShortName>
       <LongName>cn-standard</LongName>
       <LongName Identifier="eFormsParentId">notice-subtype</LongName>
-      <Version>1.12.0</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -448,76 +448,76 @@
             <SimpleValue>E3</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Общо обявление за поръчка под прага</SimpleValue>
+            <SimpleValue>Доброволно обявление за поръчка</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Obecné oznámení o zahájení zadávacího řízení pro podlimitní zakázky</SimpleValue>
+            <SimpleValue>Dobrovolné oznámení o zahájení zadávacího řízení</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Generelt under tærskel for udbudsbekendtgørelse</SimpleValue>
+            <SimpleValue>Frivillig udbudsbekendtgørelse</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Unterhalb des Schwellenwerts – Auftragsbekanntmachung (CN) allgemein</SimpleValue>
+            <SimpleValue>Freiwillige Auftragsbekanntmachung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Γενική προκήρυξη σύμβασης (CN) κάτω από το κατώτατο όριο</SimpleValue>
+            <SimpleValue>Εθελοντική προκήρυξη διαγωνισμού</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Below threshold contract notice (CN) general</SimpleValue>
+            <SimpleValue>Voluntary contract notice</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de licitación general por debajo del umbral</SimpleValue>
+            <SimpleValue>Anuncio voluntario de licitación</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Piirmäärast allapoole jääv üldine hanketeade</SimpleValue>
+            <SimpleValue>Vabatahtlik hanketeade</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kynnysarvon alittava hankintailmoitus – yleisdirektiivi</SimpleValue>
+            <SimpleValue>Vapaaehtoinen hankintailmoitus</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Seuil non atteint avis de marché général</SimpleValue>
+            <SimpleValue>Avis volontaire de marché</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Faoi bhun thairseach an fhógra conartha (CN) ghinearálta</SimpleValue>
+            <SimpleValue>Dobrovolný fógra conartha</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o nadmetanju ispod granične vrijednosti – općenito</SimpleValue>
+            <SimpleValue>Dobrovoljna obavijest o nadmetanju</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Küszöbérték alatti eljárást megindító hirdetmény – általános</SimpleValue>
+            <SimpleValue>Önkéntes eljárást megindító hirdetmény</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso o bando di gara generale al di sotto della soglia</SimpleValue>
+            <SimpleValue>Avviso volontario di gara</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Finansinės vertės ribos nesiekiantys viešieji pirkimai: bendras skelbimas apie viešąjį pirkimą</SimpleValue>
+            <SimpleValue>Savanoriškas skelbimas apie viešąjį pirkimą</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Zem sliekšņa, paziņojums par līgumu, vispārīgs iepirkums (publicēts vēlāk)</SimpleValue>
+            <SimpleValue>Brīvprātīgs paziņojums par līgumu</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż ta’ kuntratt taħt il-limitu minimu (CN) ġenerali</SimpleValue>
+            <SimpleValue>Avviż volontarju ta’ kuntratt</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Algemene aankondiging van een opdracht onder de drempelwaarde</SimpleValue>
+            <SimpleValue>Vrijwillige aankondiging van een opdracht</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Ogólne ogłoszenie o zamówieniu poniżej progu</SimpleValue>
+            <SimpleValue>Dobrowolne ogłoszenie o zamówieniu</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Abaixo do limiar para anúncio de pré-informação (API) geral</SimpleValue>
+            <SimpleValue>Anúncio voluntário de concurso</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Anunț general de participare sub prag</SimpleValue>
+            <SimpleValue>Anunț voluntar de participare</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Všeobecné oznámenie o vyhlásení verejného obstarávania (CN) pod prahovou hodnotou</SimpleValue>
+            <SimpleValue>Dobrovoľné oznámenie o vyhlásení obstarávania</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o naročilu pod pragom – splošno</SimpleValue>
+            <SimpleValue>Dobrovoljno obvestilo o naročilu</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Under tröskelvärdet – allmänt meddelande om upphandling (CN)</SimpleValue>
+            <SimpleValue>Frivilligt meddelande om upphandling</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

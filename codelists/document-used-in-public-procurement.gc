@@ -4,8 +4,9 @@
    <Identification>
       <ShortName>DocumentUsedInPublicProcurement</ShortName>
       <LongName>document-used-in-public-procurement</LongName>
-      <Version>1.0</Version>
-      <CanonicalUri/>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/document-used-in-public-procurement</LongName>
+      <Version>20240925-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/document-used-in-public-procurement</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -222,7 +223,7 @@
             <SimpleValue>Έγγραφο σύμβασης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Procurement document</SimpleValue>
+            <SimpleValue>Procurement Document</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Documento de contratación</SimpleValue>
@@ -335,7 +336,7 @@
             <SimpleValue>Eiropas vienotais iepirkuma procedūras dokuments (ESPD)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Dokument Ewropew Uniku għall-Akkwist (ESPD)</SimpleValue>
+            <SimpleValue>Dokument Uniku Ewropew tal-Akkwist (DUEA)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Uniform Europees Aanbestedingsdocument (UEA)</SimpleValue>

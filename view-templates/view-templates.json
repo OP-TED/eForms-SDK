@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.12.0",
+  "sdkVersion" : "1.13.0",
   "metadataDatabase" : {
-    "version" : "1.12.0",
-    "createdOn" : "2024-06-11T11:53:25"
+    "version" : "1.13.0",
+    "createdOn" : "2024-10-14T13:00:00"
   },
   "viewTemplates" : [ {
     "id" : "1",
@@ -252,10 +252,46 @@
     "_noticeSubtypeIds" : [ "CEI" ],
     "_label" : "view|name|CEI"
   }, {
+    "id" : "E1",
+    "filename" : "E1.efx",
+    "description" : "Default",
+    "_noticeSubtypeIds" : [ "E1" ],
+    "_label" : "view|name|E1"
+  }, {
+    "id" : "E2",
+    "filename" : "E2.efx",
+    "description" : "Default",
+    "_noticeSubtypeIds" : [ "E2" ],
+    "_label" : "view|name|E2"
+  }, {
+    "id" : "E3",
+    "filename" : "E3.efx",
+    "description" : "Default",
+    "_noticeSubtypeIds" : [ "E3" ],
+    "_label" : "view|name|E3"
+  }, {
+    "id" : "E4",
+    "filename" : "E4.efx",
+    "description" : "Default",
+    "_noticeSubtypeIds" : [ "E4" ],
+    "_label" : "view|name|E4"
+  }, {
+    "id" : "E5",
+    "filename" : "E5.efx",
+    "description" : "Default",
+    "_noticeSubtypeIds" : [ "E5" ],
+    "_label" : "view|name|E5"
+  }, {
+    "id" : "E6",
+    "filename" : "E6.efx",
+    "description" : "Default",
+    "_noticeSubtypeIds" : [ "E6" ],
+    "_label" : "view|name|E6"
+  }, {
     "id" : "summary",
     "filename" : "summary.efx",
     "description" : "The summary view works for all notices",
-    "_noticeSubtypeIds" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "T01", "T02", "X01", "X02" ],
+    "_noticeSubtypeIds" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E3", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
     "_label" : "view|name|summary"
   }, {
     "id" : "T01",

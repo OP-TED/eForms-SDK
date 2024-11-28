@@ -6,7 +6,7 @@
       <LongName>procedure-type-30</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/procurement-procedure-type</LongName>
       <LongName Identifier="eFormsParentId">procurement-procedure-type</LongName>
-      <Version>1.12.0</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -455,7 +455,7 @@
             <SimpleValue>Otevřené</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Åben</SimpleValue>
+            <SimpleValue>Offentligt udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Offenes Verfahren</SimpleValue>

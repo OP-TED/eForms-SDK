@@ -5,7 +5,7 @@
       <ShortName>CvdContractType</ShortName>
       <LongName>cvd-contract-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/cvd-contract-type</LongName>
-      <Version>20240313-0</Version>
+      <Version>20240612-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/cvd-contract-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -324,7 +324,7 @@
             <SimpleValue>Kupnja, leasing ili najam vozila</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Járművásárlás, -bérlés vagy -bérlés</SimpleValue>
+            <SimpleValue>Járműbeszerzés, -lízing vagy -bérlés</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Acquisto, leasing o locazione di veicoli</SimpleValue>

@@ -6,7 +6,7 @@
       <LongName>nuts-prt-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.12.0</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -446,79 +446,79 @@
             <SimpleValue>PT11B</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Alto Tâmega</SimpleValue>
+            <SimpleValue>Alto Tâmega e Barroso</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -843,87 +843,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT16B</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Oeste</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT16D</SimpleValue>
+            <SimpleValue>PT191</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Região de Aveiro</SimpleValue>
@@ -1003,7 +923,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT16E</SimpleValue>
+            <SimpleValue>PT192</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Região de Coimbra</SimpleValue>
@@ -1083,7 +1003,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT16F</SimpleValue>
+            <SimpleValue>PT193</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Região de Leiria</SimpleValue>
@@ -1163,7 +1083,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT16G</SimpleValue>
+            <SimpleValue>PT194</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Viseu Dão Lafões</SimpleValue>
@@ -1243,7 +1163,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT16H</SimpleValue>
+            <SimpleValue>PT195</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Beira Baixa</SimpleValue>
@@ -1323,87 +1243,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT16I</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Médio Tejo</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT16J</SimpleValue>
+            <SimpleValue>PT196</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Beiras e Serra da Estrela</SimpleValue>
@@ -1483,87 +1323,167 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT170</SimpleValue>
+            <SimpleValue>PT1A0</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Área Metropolitana de Lisboa</SimpleValue>
+            <SimpleValue>Grande Lisboa</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT181</SimpleValue>
+            <SimpleValue>PT1B0</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Península de Setúbal</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>PT1C1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Alentejo Litoral</SimpleValue>
@@ -1643,7 +1563,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT184</SimpleValue>
+            <SimpleValue>PT1C2</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Baixo Alentejo</SimpleValue>
@@ -1723,87 +1643,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT185</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Lezíria do Tejo</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>PT186</SimpleValue>
+            <SimpleValue>PT1C3</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Alto Alentejo</SimpleValue>
@@ -1883,7 +1723,7 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>PT187</SimpleValue>
+            <SimpleValue>PT1C4</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Alentejo Central</SimpleValue>
@@ -1959,6 +1799,246 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Alentejo Central</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>PT1D1</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Oeste</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>PT1D2</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Médio Tejo</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>PT1D3</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Lezíria do Tejo</SimpleValue>
          </Value>
       </Row>
       <Row>
