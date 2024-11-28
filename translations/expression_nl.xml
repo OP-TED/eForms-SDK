@@ -118,7 +118,7 @@
 <entry key="expression|name|214">'Toepasselijk grensoverschrijdend recht' (BT-09(b)-Procedure) is niet ingevuld</entry>
 <entry key="expression|name|215">'Type procedure' (BT-105-Procedure) is niet ingevuld</entry>
 <entry key="expression|name|216">'De procedure wordt versneld' (BT-106-Procedure) is niet ingevuld</entry>
-<entry key="expression|name|217">'Maximumwaarde van de raamovereenkomsten in deze procedure' (BT-118-NoticeResult) is niet ingevuld</entry>
+<entry key="expression|name|217">'Maximumwaarde van de raamovereenkomsten in deze aankondiging' (BT-118-NoticeResult) is niet ingevuld</entry>
 <entry key="expression|name|218">'Identificatiecode van de eerdere procedure die onderhandse gunning rechtvaardigt' (BT-1252-Procedure) is niet ingevuld</entry>
 <entry key="expression|name|219">'Andere rechtvaardiging' (BT-135-Procedure) is niet ingevuld</entry>
 <entry key="expression|name|22">'Begindatum' (BT-536-Lot) is niet leeg</entry>
@@ -262,7 +262,7 @@
 <entry key="expression|name|350">De organisatie neemt niet deel aan een inschrijvende partij; 'De organisatie is een natuurlijk persoon' (BT-633-Organization); 'De winnaar is genoteerd op een gereglementeerde markt' (BT-746-Organization)</entry>
 <entry key="expression|name|351">De organisatie (OPT-200-Organization-Company) neemt deel aan een winnende inschrijving als hoofdinschrijver (OPT-300-Tenderer) of als sub-inschrijver (OPT-301-Tenderer-SubCont); 'De organisatie is een natuurlijk persoon' (BT-633-Organization) is 'neen' en 'De winnaar is genoteerd op een gereglementeerde markt' (BT-746-Organization) is 'neen'</entry>
 <entry key="expression|name|352">Ten minste één organisatie is verbonden met 'Organisatie die deze rol vervult' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Type procedure' (BT-105) is 'Openbaar', 'Niet-openbaar' of 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
+<entry key="expression|name|353">'Type procedure' (BT-105) is niet 'Openbaar', 'Niet-openbaar' of 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
 <entry key="expression|name|354">'Type procedure' (BT-105) is niet 'Niet-openbaar' of 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
 <entry key="expression|name|355">Organisatie is geen koper of er is slechts één koper</entry>
 <entry key="expression|name|356">Er zijn twee verschillende kopers uit twee verschillende landen</entry>
@@ -463,6 +463,7 @@
 <entry key="expression|name|66">'Selectiestatus winnaar' (BT-142-LotResult) is niet 'Er is ten minste één winnaar gekozen.'; 'Technische ID van het lotresultaat (RES-XXX)' (OPT-322) is niet ingevuld</entry>
 <entry key="expression|name|660">'Officiële naam' (BT-500-Organization-Company) bestaat</entry>
 <entry key="expression|name|661">'Technische ID van de organisatie (ORG-XXX)'(OPT-200-Organization-Company) is een 'Organisatie die deze rol vervult' (OPT-300-Procedure-Buyer)</entry>
+<entry key="expression|name|662">'Selectiecriteria' (BT-809-Lot) bestaat niet of 'De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen' (BT-52-Lot) is niet 'ja' of 'Type procedure' (BT-105) is niet 'Concurrentiegerichte dialoog', 'Innovatiepartnerschap', 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling', 'Andere procedure in meerdere fasen' of 'Niet-openbaar'</entry>
 <entry key="expression|name|67">'Onderaanneming' (BT-773-Tender) is niet 'Ja'</entry>
 <entry key="expression|name|68">'Waarde onderaanneming is bekend' (BT-730-Tender) is niet 'ja'</entry>
 <entry key="expression|name|69">'Onderaanneming' (BT-773-Tender) is niet 'Ja'</entry>

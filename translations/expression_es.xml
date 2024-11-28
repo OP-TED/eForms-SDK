@@ -118,7 +118,7 @@
 <entry key="expression|name|214">'Derecho transfronterizo aplicable' (BT-09(b)-Procedure) no está cumplimentado</entry>
 <entry key="expression|name|215">'Tipo de procedimiento' (BT-105-Procedure) no está cumplimentado</entry>
 <entry key="expression|name|216">'El procedimiento está acelerado' (BT-106-Procedure) no está cumplimentado</entry>
-<entry key="expression|name|217">'Valor máximo de los acuerdos marco del presente procedimiento' (BT-118-NoticeResult) no está cumplimentado</entry>
+<entry key="expression|name|217">'Valor máximo de los acuerdos marco del presente anuncio' (BT-118-NoticeResult) no está cumplimentado</entry>
 <entry key="expression|name|218">'Identificador del procedimiento anterior que justifica la adjudicación directa' (BT-1252-Procedure) no está cumplimentado</entry>
 <entry key="expression|name|219">'Otra justificación' (BT-135-Procedure) no está cumplimentado</entry>
 <entry key="expression|name|22">'Fecha de inicio' (BT-536-Lot) no está vacío</entry>
@@ -262,7 +262,7 @@
 <entry key="expression|name|350">La organización no forma parte de la parte ofertante; 'La organización es una persona física' (BT-633-Organization); 'El ganador cotiza en un mercado regulado' (BT-746-Organization)</entry>
 <entry key="expression|name|351">La organización (OPT-200-Organization-Company) forma parte de una oferta ganadora como principal (OPT-300-Tenderer) o licitador secundario (OPT-301-Tenderer-SubCont); 'La organización es una persona física' (BT-633-Organization) es 'no' y 'El ganador cotiza en un mercado regulado' (BT-746-Organization) es 'no'</entry>
 <entry key="expression|name|352">Al menos una organización está conectada a 'Organización que cumple este papel' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Tipo de procedimiento' (BT-105) es 'Abierto', 'Restringido' o 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
+<entry key="expression|name|353">'Tipo de procedimiento' (BT-105) no es 'Abierto', 'Restringido' o 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
 <entry key="expression|name|354">'Tipo de procedimiento' (BT-105) no es 'Restringido' o 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
 <entry key="expression|name|355">La organización no es comprador o solo hay un comprador</entry>
 <entry key="expression|name|356">Hay dos compradores diferentes de dos países diferentes</entry>
@@ -463,6 +463,7 @@
 <entry key="expression|name|66">'Estado de selección del ganador' (BT-142-LotResult) no es 'Se ha escogido al menos un ganador.'; 'ID técnico del resultado del lote (RES-XXX)' (OPT-322) no está cumplimentado</entry>
 <entry key="expression|name|660">'Denominación oficial' (BT-500-Organization-Company) existe</entry>
 <entry key="expression|name|661">'ID técnico de la organización (ORG-XXX)'(OPT-200-Organization-Company) es un 'Organización que cumple este papel' (OPT-300-Procedure-Buyer)</entry>
+<entry key="expression|name|662">'Criterios de selección' (BT-809-Lot) no existe o 'El procedimiento se desarrollará en fases sucesivas. En cada fase, pueden eliminarse algunos participantes' (BT-52-Lot) no es 'sí' o 'Tipo de procedimiento' (BT-105) no es 'Diálogo competitivo', 'Asociación para la innovación', 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación', 'Otro procedimiento de múltiples etapas' o 'Restringido'</entry>
 <entry key="expression|name|67">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>
 <entry key="expression|name|68">'Se conoce el valor de la subcontratación' (BT-730-Tender) no es 'sí'</entry>
 <entry key="expression|name|69">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>

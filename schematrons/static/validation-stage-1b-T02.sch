@@ -16,7 +16,6 @@
 		<assert id="ND-Buyer-T02" role="ERROR" diagnostics="ND-Buyer" test="count(cac:Party) &gt; 0">rule|text|ND-Buyer-T02</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T02']">
-		<assert id="ND-ProcedureContractAdditionalNature-T02" role="ERROR" diagnostics="ND-ProcedureContractAdditionalNature" test="count(cac:ProcurementAdditionalType) &gt; 0">rule|text|ND-ProcedureContractAdditionalNature-T02</assert>
 		<assert id="ND-ProcedurePlacePerformanceAdditionalInformation-T02" role="ERROR" diagnostics="ND-ProcedurePlacePerformanceAdditionalInformation" test="count(cac:RealizedLocation) = 0">rule|text|ND-ProcedurePlacePerformanceAdditionalInformation-T02</assert>
 		<assert id="ND-ProcedureValueEstimate-T02" role="ERROR" diagnostics="ND-ProcedureValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-ProcedureValueEstimate-T02</assert>
 	</rule>

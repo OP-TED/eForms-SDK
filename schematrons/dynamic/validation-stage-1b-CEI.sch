@@ -56,17 +56,11 @@
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'CEI']">
 		<assert id="ND-ProcedureTypeUnpublish-CEI" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-CEI</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'CEI']">
-		<assert id="ND-TendererQualificationRequest-CEI" role="ERROR" diagnostics="ND-TendererQualificationRequest" test="count(cac:TendererQualificationRequest) &gt; 0">rule|text|ND-TendererQualificationRequest-CEI</assert>
-	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution[$noticeSubType = 'CEI']">
 		<assert id="ND-GroupComposition-CEI" role="ERROR" diagnostics="ND-GroupComposition" test="count(cac:LotsGroup) = 0">rule|text|ND-GroupComposition-CEI</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[$noticeSubType = 'CEI']">
 		<assert id="ND-CrossBorderLawUnpublish-CEI" role="ERROR" diagnostics="ND-CrossBorderLawUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-CrossBorderLawUnpublish-CEI</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[$noticeSubType = 'CEI']">
-		<assert id="ND-ExclusionGrounds-CEI" role="ERROR" diagnostics="ND-ExclusionGrounds" test="count(cac:SpecificTendererRequirement) &gt; 0">rule|text|ND-ExclusionGrounds-CEI</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'CEI']">
 		<assert id="ND-ContractModification-CEI" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-CEI</assert>

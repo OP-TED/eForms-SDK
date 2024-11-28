@@ -49,14 +49,8 @@
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '21']">
 		<assert id="ND-ProcedureTypeUnpublish-21" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-21</assert>
 	</rule>
-	<rule context="/*/cac:TenderingTerms[$noticeSubType = '21']">
-		<assert id="ND-TendererQualificationRequest-21" role="ERROR" diagnostics="ND-TendererQualificationRequest" test="count(cac:TendererQualificationRequest) &gt; 0">rule|text|ND-TendererQualificationRequest-21</assert>
-	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[$noticeSubType = '21']">
 		<assert id="ND-CrossBorderLawUnpublish-21" role="ERROR" diagnostics="ND-CrossBorderLawUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-CrossBorderLawUnpublish-21</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[$noticeSubType = '21']">
-		<assert id="ND-ExclusionGrounds-21" role="ERROR" diagnostics="ND-ExclusionGrounds" test="count(cac:SpecificTendererRequirement) &gt; 0">rule|text|ND-ExclusionGrounds-21</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '21']">
 		<assert id="ND-ContractModification-21" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-21</assert>

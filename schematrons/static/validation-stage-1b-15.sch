@@ -60,13 +60,9 @@
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '15']">
 		<assert id="ND-LotDistribution-15" role="ERROR" diagnostics="ND-LotDistribution" test="count(cac:LotDistribution) = 0">rule|text|ND-LotDistribution-15</assert>
-		<assert id="ND-TendererQualificationRequest-15" role="ERROR" diagnostics="ND-TendererQualificationRequest" test="count(cac:TendererQualificationRequest) &gt; 0">rule|text|ND-TendererQualificationRequest-15</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[$noticeSubType = '15']">
 		<assert id="ND-CrossBorderLawUnpublish-15" role="ERROR" diagnostics="ND-CrossBorderLawUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-CrossBorderLawUnpublish-15</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[$noticeSubType = '15']">
-		<assert id="ND-ExclusionGrounds-15" role="ERROR" diagnostics="ND-ExclusionGrounds" test="count(cac:SpecificTendererRequirement) &gt; 0">rule|text|ND-ExclusionGrounds-15</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '15']">
 		<assert id="ND-ContractModification-15" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-15</assert>

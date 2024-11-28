@@ -118,7 +118,7 @@
 <entry key="expression|name|214">Níl 'Dlí trasteorann is infheidhme' (BT-09(b)-Procedure) líonta isteach</entry>
 <entry key="expression|name|215">Níl 'An cineál nóis imeachta' (BT-105-Procedure) líonta isteach</entry>
 <entry key="expression|name|216">Níl 'Tá an nós imeachta á bhrostú' (BT-106-Procedure) líonta isteach</entry>
-<entry key="expression|name|217">Níl 'Uasluach na gcreat-chomhaontuithe sa nós imeachta seo' (BT-118-NoticeResult) líonta isteach</entry>
+<entry key="expression|name|217">Níl 'Uasluach na gcreat-chomhaontuithe sa fógra seo' (BT-118-NoticeResult) líonta isteach</entry>
 <entry key="expression|name|218">Níl 'Aitheantóir an nóis imeachta roimhe sin lena dtugtar bonn cirt le dámhachtain dhíreach' (BT-1252-Procedure) líonta isteach</entry>
 <entry key="expression|name|219">Níl 'Bonn cirt eile' (BT-135-Procedure) líonta isteach</entry>
 <entry key="expression|name|22">Níl 'Dáta tosaithe' (BT-536-Lot) folamh</entry>
@@ -262,7 +262,7 @@
 <entry key="expression|name|350">Ní ghlacann an eagraíocht páirt sa pháirtí tairisceana; 'Is duine nádúrtha í an eagraíocht' (BT-633-Organization); 'Tá an buaiteoir liostaithe ar mhargadh rialáilte' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Glacann an eagraíocht (OPT-200-Organization-Company) páirt i dtairiscint rathúil mar phríomh-thairgeoir (OPT-300-Tenderer) nó fho-thairgeoir (OPT-301-Tenderer-SubCont); is ionann 'Is duine nádúrtha í an eagraíocht' (BT-633-Organization) agus 'níl' agus is ionann 'Tá an buaiteoir liostaithe ar mhargadh rialáilte' (BT-746-Organization) agus 'níl'</entry>
 <entry key="expression|name|352">Baineann ar a laghad eagraíocht amháin le 'Eagraíocht atá ag líonadh an róil seo' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'An cineál nóis imeachta' (BT-105) is 'Oscailte', 'Teoranta' nó 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
+<entry key="expression|name|353">'An cineál nóis imeachta' (BT-105) níl 'Oscailte', 'Teoranta' nó 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
 <entry key="expression|name|354">'An cineál nóis imeachta' (BT-105) níl sé 'Teoranta' nó 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
 <entry key="expression|name|355">Ní ceannaitheoir í an eagraíocht nó níl ach ceannaitheoir amháin ann</entry>
 <entry key="expression|name|356">Tá beirt cheannaitheoirí ann ó dhá thír éagsúla</entry>
@@ -463,6 +463,7 @@
 <entry key="expression|name|66">Ní hionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Roghnaíodh buaiteoir amháin ar a laghad.'; níl 'ID teicniúil torthaí an lochta (RES-XXX)' (OPT-322) líonta isteach</entry>
 <entry key="expression|name|660">'Ainm oifigiúil' (BT-500-Organization-Company) tá ann</entry>
 <entry key="expression|name|661">'ID teicniúil an eagraíochta (ORG-XXX)'(OPT-200-Organization-Company) is 'Eagraíocht atá ag líonadh an róil seo' (OPT-300-Procedure-Buyer)</entry>
+<entry key="expression|name|662">'Critéir roghnúcháin' (BT-809-Lot) níl ann nó 'Beidh an nós imeachta ar siúl i gcéimeanna comhleanúnacha. I ngach céim, d’fhéadfaí roinnt rannpháirtithe a dhíchur' (BT-52-Lot) níl sé 'tá' nó 'An cineál nóis imeachta' (BT-105) níl sé 'Idirphlé iomaíoch', 'Comhpháirtíocht nuálaíochta', 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht', 'Nós imeachta ilchéime eile' nó 'Teoranta'</entry>
 <entry key="expression|name|67">Ní hionann 'Fochonraitheoireacht' (BT-773-Tender) agus 'Is ea'</entry>
 <entry key="expression|name|68">Ní hionann 'Is eol luach na fochonraitheoireachta' (BT-730-Tender) agus 'tá'</entry>
 <entry key="expression|name|69">Ní hionann 'Fochonraitheoireacht' (BT-773-Tender) agus 'Is ea'</entry>

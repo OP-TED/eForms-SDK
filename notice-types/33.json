@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.13.0-SNAPSHOT",
+  "sdkVersion" : "1.13.0",
   "metadataDatabase" : {
-    "version" : "1.12.401",
-    "createdOn" : "2024-10-01T13:17:56"
+    "version" : "1.13.0",
+    "createdOn" : "2024-10-14T13:00:00"
   },
   "noticeId" : "33",
   "metadata" : [ {
@@ -395,10 +395,11 @@
       }, {
         "id" : "GR-Procedure-PlaceOfPerformance",
         "contentType" : "group",
-        "nodeId" : "ND-ProcedurePlacePerformance",
+        "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
         "displayType" : "GROUP",
-        "description" : "A location where the Procurement, for the Procedure as a whole, should take place",
-        "_label" : "group|name|ND-ProcedurePlacePerformance",
+        "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
+        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-5101(a)-Procedure",
           "contentType" : "field",
@@ -4557,7 +4558,8 @@
         "description" : "Review Technical Identifier",
         "_label" : "field|name|BT-804-Review",
         "_idScheme" : "REV",
-        "_schemeName" : "review"
+        "_schemeName" : "review",
+        "hidden" : true
       }, {
         "id" : "BT-783-Review",
         "contentType" : "field",

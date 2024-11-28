@@ -1608,11 +1608,11 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetLabel">
 		<assert id="BT-812-LotResult_R" role="ERROR" diagnostics="BT-812-LotResult" test="count(efbc:LabelCode) &lt; 2">rule|text|BT-812-LotResult_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-con-yr']">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-con-yr']">
 		<assert id="BT-813-LotResult_R" role="ERROR" diagnostics="BT-813-LotResult" test="count(efbc:AssetMetricNumeric) &lt; 2">rule|text|BT-813-LotResult_R</assert>
 		<assert id="OPT-080-LotResult_R" role="ERROR" diagnostics="OPT-080-LotResult" test="count(efbc:AssetMetricCode) &lt; 2">rule|text|OPT-080-LotResult_R</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-sav-yr']">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']">
 		<assert id="BT-814-LotResult_R" role="ERROR" diagnostics="BT-814-LotResult" test="count(efbc:AssetMetricNumeric) &lt; 2">rule|text|BT-814-LotResult_R</assert>
 		<assert id="OPT-081-LotResult_R" role="ERROR" diagnostics="OPT-081-LotResult" test="count(efbc:AssetMetricCode) &lt; 2">rule|text|OPT-081-LotResult_R</assert>
 	</rule>
