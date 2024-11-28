@@ -1,4 +1,3 @@
-
 # SDK 1.13.0 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.12.0 should also be able to use this version.
@@ -29,20 +28,12 @@ All new components are optional so a notice in SDK 1.12 format will validate aga
 ### EFX grammar
 
 A small change was made to the EFX grammar, to remove an unneeded alternative in a parser rule. This improves the performance of parsers generated from the grammar by reducing the time spent looking ahead and backtracking.
-This does not change the EFX language, or the output of the parser or transaltor.
+This does not change the EFX language, or the output of the parser or translator.
 A new version of the EFX toolkit will be released to take advantage of this improvement. If you have your own ANTLR parser generated from the EFX grammar, you will need to re-generate it to benefit from this change.
 
 ### Schema, nodes and fields
 
 * Finalisation of the nodes & fields definitions for the "Review" section.
-
-### Notice type definitions
-
-* Based on proposal in <https://code.europa.eu/eproc/eforms/crs/-/issues/57> the Strategic procurement group with BT-06 and BT-777 was moved above the groups with the different types of strategic procurement. The Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists (subtypes other than "1", "2", "3", "4", "5", "6", "CEI", "E1", "E2", "T01", "T02", "X01", "X02").
-* The fields related to the existence of a framework agreement (BT-765-Lot and BT-768-Contract) were added to the lot and contract sections in subtypes 38, 39, E6 in order to allow contract modifications in the scope of framework contracts.
-* The Tender Validity field (BT-98-Lot) and related group were removed from NTD 9 to 15 Following the review of procedure types per form and the absence of single stage procedures.
-* The correct node ND-ProcedurePlacePerformanceAdditionalInformation is now associated to GR-Procedure-PlaceOfPerformance.
-* The Qualification System (subtype 15) was updated to include BT-1311 "Deadline Receipt Requests".
 
 ### Rules
 
@@ -52,33 +43,42 @@ Based on tests with the Central Validation Service, the validation can be 3 time
 
 If you execute the Schematron rules yourself and use the "ph-schematron-pure" library, you will need to use version 8.0.3 or later, due to limitations and bugs in previous versions of the library. For other Schematron implementations, no change should be required to benefit from this improvement.
 
-Other changes in the rules include:
+#### Business rules
 
-* Added rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner.
-* Improved Deadline existence controls with added Procedure Type dependency.
-* Rules to ensure the presence of the place of performance.
-* Forbidding FSR for T01 & CEI.
-* For the Foreign Subsidy Regulation indicator (BT-681), update of the rule context for the rule to get effectively fired.
-* Rules context update for Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772) so that mandatory rules actually get fired when needed.
-* Update of rules context for "Revenues Allocation of tickets sales code" (OPP-035) for mandatory rules to effectively fire when needed (T02 form only).
-* Update Lawfulness rules:
-  * Add a check for the exact string “test” in all organisation names in any language.
-  * Add a rule that checks that buyer country is in a lawful-country, regardless of eu-fund and subtype.
-* Improve FA agreement information reporting in Contract Modification notice (adding missing fields to align with other forms).
-* Allow "Tender Validity Deadline" (BT-98) for single stage procedures only.
-* Update existence rules for Procedure Type (BT-105) (existence and allowed Procedure Types).
-* Extend the use of Dispatch Invitation Tender (BT-130-Lot) to all single stage procedure and "Direct Award Without a Prior Call for Competititon".
-* Deactivate the rule that requires the Organization Business ID to be unique in the notice, to solve the concern of some countries using the same ID for multiple organisations.
-* Make BT-1311 (date and time deadline) optional for QS (notice subtype 15).
-* Remove the constraint that forbid Buyer and Tenderer from being Service Provider or eSender.
+* Improve controls for existence of Deadlines with added dependency on Procedure Type.
+* Add Deadline Receipt Requests (BT-1311) as optional for qualification systems (notice subtype 15).
+* Allow Tender Validity Deadline (BT-98) for single stage procedures only.
+* Extend the use of Dispatch Invitation Tender (BT-130-Lot) to all single stage procedures and "Direct Award Without a Prior Call for Competititon".
+* Update existence rules for fields related to Procedure Type (BT-105).
+* Improve rules to ensure the presence of the place of performance (BT-5141, BT-727).
+* Add rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner.
+* Remove the rule that required the Organisation Business ID to be unique in the notice (some countries use the same ID for multiple organisations).
+* Remove the constraint that forbids Buyer and Tenderer from being Service Provider or eSender.
+* Improve information on framework agreement reporting in Contract Modification notices (adding missing fields to align with other forms).
+* Update lawfulness warning rules:
+  * Add a check for the exact string "test" in all organisation names (BT-500) in any language
+  * Adapt the rules that check that buyer country is in a lawful-country to apply regardless of EU funding (BT-60) and subtype
+  * Remove checks for string "sale" in descriptions in English.
+* Update the rule context so the rules get effectively fired for:
+  * Foreign Subsidy Regulation indicator (BT-681)
+  * Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772)
+  * Revenues Allocation of tickets sales code (OPP-035) in T02 form.
+* Forbid FSR (BT-682) for T01 and CEI.
 
 ### Codelists
 
-* Use of NUTS 2024.
-* Define tailored list for Procedure Type per form.
-* Remove unused codes from non-publication-identifier codelist:
-  * not-dis-dat
-  * not-pub-dat
+* NUTS 2021 replaced by NUTS 2024: removed UK, added Kosovo, changes in DE, IT, LV, NL, PT, FI, NO; more details on [Eurostat's NUTS page](https://ec.europa.eu/eurostat/web/nuts).
+* Define tailored lists for Procedure Type per subtype.
+* Remove unused codes from non-publication-identifier codelist: not-dis-dat, not-pub-dat.
+* Incremental updates and translations from EU Vocabularies; changes to corporate-body.
+
+### Notice type definitions
+
+* The Strategic procurement group with BT-06 and BT-777 was moved above the groups with the different types of strategic procurement; the Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists (based on [this proposal](https://code.europa.eu/eproc/eforms/crs/-/issues/57)).
+* The fields related to the existence of a framework agreement (BT-765-Lot and BT-768-Contract) were added to the lot and contract sections in subtypes 38/39/E6 to allow contract modifications in the scope of framework contracts.
+* The Tender Validity field (BT-98-Lot) and its related group were removed from subtypes 9 to 15, following the review of procedure types per form and the absence of single stage procedures.
+* The correct node ND-ProcedurePlacePerformanceAdditionalInformation is now associated to GR-Procedure-PlaceOfPerformance.
+* Deadline Receipt Requests (BT-1311) was added to Qualification System (subtype 15).
 
 ### View templates
 
@@ -105,61 +105,9 @@ Other changes in the rules include:
 
 ### Labels and translations
 
-#### TEDEFO-2989
-Rules: Labels for some rules on BT-19-Lot are opposite
-
-#### TEDEFO-3584
-Incorrect message for rule BR-BT-00738-0053 on preferred publication date
-"The current messages for rule BR-BT-00738-0053 are incorrect in all languages:
-the rule as implemented checks that the preferred publication date is between *0* and 60 days after the dispatch date.
-But the messages refer to "*2* and 60 days", in all languages.
-
-#### TEDEFO-3602
-Labels: The label and translations for BT-57 is wrong
-"The English label for "business-term|name|BT-57" is wrong. It currently is :
-"The buyer reserves the right for additional purchases from the contractor, as described here"
-This is similar to the description label for BT-53:
-"The buyer reserves the right (not an obligation) for additional purchases from the contractor (while the contract is valid)."
-The description in the Annex for BT-57 is "Any other information about the renewal(s)."
-
-#### TEDEFO-3807
-Fix the Hungarian translation for "Vehicle purchase, lease or rent"		"Current translation is "Járművásárlás, -bérlés vagy -bérlés" while it should be "Járműbeszerzés, -lízing vagy -bérlés"
-From https://github.com/OP-TED/eForms-SDK/issues/1031
-
-#### TEDEFO-3809
-Incorrect labels for condition 353
-"Labels for condition 353 are incorrect and state the opposite of what they should.
-cf. [https://github.com/OP-TED/eForms-SDK/issues/1034]
-
-#### TEDEFO-3811
-Incorrect French label for code|name|requirement-stage.par-requ
-"Current label: "Exigence dans le demande de participation"
-Expected label: "Exigence dans la demande de participation"
-
-cf. https://github.com/OP-TED/eForms-SDK/discussions/1036
-
-#### TEDEFO-3726
-Create auxiliary labels for Award Criteria dimensions
-||id||English||
-|auxiliary\|text\|award-criterion-weight-dimension|Award Criterion Number Weight Dimension|
-|auxiliary\|text\|award-criterion-fixed-dimension|Award Criterion Number Fixed Dimension|
-|auxiliary\|text\|award-criterion-threshold-dimension|Award Criterion Number Threshold Dimension|
-
-#### TEDEFO-3571
-Translate labels for Place of Performance existence
-
-#### TEDEFO-3792
-New Group Labels for SDK 1.13
-"With the addition of the IPI, EED, Review section and Voluntary forms, there are new nodes in the SDK, and these have been applied to groups in the NTDs. 
-
-As such, new group labels are needed.
-
-#### TEDEFO-3805
-Have rule messages set to original statement and translated for BT-630
-
-#### TEDEFO-3854
-Fix incorrect text for BT-113 in DE
-
+* Corrected and improved numerous rule and expression labels and translations.
+* Added labels for new fields and voluntary notices.
+* Added translations for new and corrected labels.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
