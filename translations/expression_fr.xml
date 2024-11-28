@@ -118,7 +118,7 @@
 <entry key="expression|name|214">'Droit transnational applicable' (BT-09(b)-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|215">'Type de procédure' (BT-105-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|216">'La procédure est accélérée' (BT-106-Procedure) n’est pas rempli</entry>
-<entry key="expression|name|217">'Valeur maximale des accords-cadres dans cette procédure' (BT-118-NoticeResult) n’est pas rempli</entry>
+<entry key="expression|name|217">'Valeur maximale des accords-cadres dans cet avis' (BT-118-NoticeResult) n’est pas rempli</entry>
 <entry key="expression|name|218">'Identifiant de la procédure antérieure justifiant l’attribution directe' (BT-1252-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|219">'Autre justification' (BT-135-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|22">'Date de début' (BT-536-Lot) n’est pas vide</entry>
@@ -262,7 +262,7 @@
 <entry key="expression|name|350">L’organisation ne fait pas partie de la partie soumissionnaire; 'L’organisation est une personne physique' (BT-633-Organization); 'Le lauréat est coté sur un marché réglementé' (BT-746-Organization)</entry>
 <entry key="expression|name|351">L’organisation (OPT-200-Organization-Company) fait partie d’une offre retenue en tant que soumissionnaire(OPT-300-Tenderer) principal ou sous-soumissionnaire (OPT-301-Tenderer-SubCont); 'L’organisation est une personne physique' (BT-633-Organization) est 'non' et 'Le lauréat est coté sur un marché réglementé' (BT-746-Organization) est 'non'</entry>
 <entry key="expression|name|352">Au moins une organisation est reliée à 'Organisation remplissant ce rôle' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Type de procédure' (BT-105) est 'Ouverte', 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
+<entry key="expression|name|353">'Type de procédure' (BT-105) n'est pas 'Ouverte', 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|354">'Type de procédure' (BT-105) n'est pas 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|355">L’organisation n’est pas un acheteur ou il n’y a qu’un seul acheteur</entry>
 <entry key="expression|name|356">Il existe deux acheteurs différents de deux pays différents</entry>
@@ -463,6 +463,7 @@
 <entry key="expression|name|66">'Statut sélection lauréat' (BT-142-LotResult) n’est pas 'Au moins un lauréat a été choisi.'; 'ID technique du résultat du lot (RES-XXX)' (OPT-322) n’est pas rempli</entry>
 <entry key="expression|name|660">'Nom officiel' (BT-500-Organization-Company) existe</entry>
 <entry key="expression|name|661">'ID technique de l'organisation (ORG-XXX)'(OPT-200-Organization-Company) est un 'Organisation remplissant ce rôle' (OPT-300-Procedure-Buyer)</entry>
+<entry key="expression|name|662">'Critères de sélection' (BT-809-Lot) n'existe pas ou 'La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés' (BT-52-Lot) n'est pas 'oui' ou 'Type de procédure' (BT-105) n'est pas 'Dialogue compétitif', 'Partenariat d’innovation', 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', 'Autre procédure en plusieurs étapes' ou 'Restreinte'</entry>
 <entry key="expression|name|67">'Sous-traitance' (BT-773-Tender) n’est pas 'Oui'</entry>
 <entry key="expression|name|68">'La valeur de la sous-traitance est connue' (BT-730-Tender) n’est pas 'oui'</entry>
 <entry key="expression|name|69">'Sous-traitance' (BT-773-Tender) n’est pas 'Oui'</entry>

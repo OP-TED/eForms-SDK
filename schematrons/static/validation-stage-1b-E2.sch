@@ -15,15 +15,6 @@
 	<rule context="/*/cac:ContractingParty[$noticeSubType = 'E2']">
 		<assert id="ND-Buyer-E2" role="ERROR" diagnostics="ND-Buyer" test="count(cac:Party) &gt; 0">rule|text|ND-Buyer-E2</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'E2']">
-		<assert id="ND-LotTenderingProcess-E2" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-LotTenderingProcess-E2</assert>
-		<assert id="ND-LotTenderingTerms-E2" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) = 0">rule|text|ND-LotTenderingTerms-E2</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'E2']">
-		<assert id="ND-LotPlacePerformance-E2" role="ERROR" diagnostics="ND-LotPlacePerformance" test="count(cac:RealizedLocation) = 0">rule|text|ND-LotPlacePerformance-E2</assert>
-		<assert id="ND-LotValueEstimate-E2" role="ERROR" diagnostics="ND-LotValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-E2</assert>
-		<assert id="ND-OptionsAndRenewals-E2" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-E2</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = 'E2']">
 		<assert id="ND-PartProcurementScope-E2" role="ERROR" diagnostics="ND-PartProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-PartProcurementScope-E2</assert>
 	</rule>

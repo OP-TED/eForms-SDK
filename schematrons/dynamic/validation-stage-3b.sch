@@ -2606,12 +2606,12 @@
 		<assert id="BT-812-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-812-LotResult-List_MA</assert>
 		<assert id="BT-812-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-812-LotResult_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-con-yr']/efbc:AssetMetricCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-con-yr']/efbc:AssetMetricCode">
 		<assert id="BR-OPT-00080-0066" role="ERROR" test="normalize-space(.) = ('nrg-con-yr', 'nrg-sav-yr')">rule|text|BR-OPT-00080-0066</assert>
 		<assert id="OPT-080-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|OPT-080-LotResult-List_MA</assert>
 		<assert id="OPT-080-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-080-LotResult_WS</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode='nrg-sav-yr']/efbc:AssetMetricCode">
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:ProcurementDetails/efbc:AssetCategoryCode/@listName='energy-efficiency-item']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricCode">
 		<assert id="BR-OPT-00081-0066" role="ERROR" test="normalize-space(.) = ('nrg-con-yr', 'nrg-sav-yr')">rule|text|BR-OPT-00081-0066</assert>
 		<assert id="OPT-081-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|OPT-081-LotResult-List_MA</assert>
 		<assert id="OPT-081-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-081-LotResult_WS</assert>

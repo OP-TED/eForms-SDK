@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.13.0-SNAPSHOT",
+  "sdkVersion" : "1.13.0",
   "metadataDatabase" : {
-    "version" : "1.12.401",
-    "createdOn" : "2024-10-01T13:17:56"
+    "version" : "1.13.0",
+    "createdOn" : "2024-10-14T13:00:00"
   },
   "noticeId" : "15",
   "metadata" : [ {
@@ -381,10 +381,11 @@
       }, {
         "id" : "GR-Procedure-PlaceOfPerformance",
         "contentType" : "group",
-        "nodeId" : "ND-ProcedurePlacePerformance",
+        "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
         "displayType" : "GROUP",
-        "description" : "A location where the Procurement, for the Procedure as a whole, should take place",
-        "_label" : "group|name|ND-ProcedurePlacePerformance",
+        "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
+        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
+        "_repeatable" : true,
         "content" : [ {
           "id" : "BT-5101(a)-Procedure",
           "contentType" : "field",
@@ -502,6 +503,12 @@
           "displayType" : "RADIO",
           "description" : "Procurement Relaunch",
           "_label" : "field|name|BT-634-Procedure"
+        }, {
+          "id" : "BT-105-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Procedure Type",
+          "_label" : "field|name|BT-105-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-AdditionalInformation",
@@ -1559,6 +1566,18 @@
         "description" : "Deadlines I",
         "_label" : "group|name|GR-Lot-Deadlines1",
         "content" : [ {
+          "id" : "BT-1311(d)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Deadline Receipt Requests",
+          "_label" : "field|name|BT-1311(d)-Lot"
+        }, {
+          "id" : "BT-1311(t)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Deadline Receipt Requests",
+          "_label" : "field|name|BT-1311(t)-Lot"
+        }, {
           "id" : "BT-13(d)-Lot",
           "contentType" : "field",
           "displayType" : "TEXTBOX",

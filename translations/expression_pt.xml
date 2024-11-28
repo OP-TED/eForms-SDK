@@ -118,7 +118,7 @@
 <entry key="expression|name|214">'Legislação transfronteiriça aplicável' (BT-09(b)-Procedure) não está preenchido</entry>
 <entry key="expression|name|215">'Tipo de procedimento' (BT-105-Procedure) não está preenchido</entry>
 <entry key="expression|name|216">'O procedimento é acelerado' (BT-106-Procedure) não está preenchido</entry>
-<entry key="expression|name|217">'Valor máximo dos acordos-quadro no âmbito deste processo' (BT-118-NoticeResult) não está preenchido</entry>
+<entry key="expression|name|217">'Valor máximo dos acordos-quadro no âmbito deste anúncio' (BT-118-NoticeResult) não está preenchido</entry>
 <entry key="expression|name|218">'Identificador do procedimento anterior que justifica a adjudicação direta' (BT-1252-Procedure) não está preenchido</entry>
 <entry key="expression|name|219">'Outra justificação' (BT-135-Procedure) não está preenchido</entry>
 <entry key="expression|name|22">'Data de início' (BT-536-Lot) não está vazio</entry>
@@ -262,7 +262,7 @@
 <entry key="expression|name|350">A organização não participa num grupo de proponentes; 'A organização é uma pessoa singular' (BT-633-Organization); 'O vencedor está cotado num mercado regulamentado' (BT-746-Organization)</entry>
 <entry key="expression|name|351">A organização (OPT-200-Organization-Company) participa numa proposta selecionada como líder (OPT-300-Tenderer) ou subproponente (OPT-301-Tenderer-SubCont); 'A organização é uma pessoa singular' (BT-633-Organization) é 'não' e 'O vencedor está cotado num mercado regulamentado' (BT-746-Organization) é 'não'</entry>
 <entry key="expression|name|352">Pelo menos uma organização está ligada a 'Organização que desempenha este papel' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Tipo de procedimento' (BT-105) é 'Aberto', 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
+<entry key="expression|name|353">'Tipo de procedimento' (BT-105) não é 'Aberto', 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
 <entry key="expression|name|354">'Tipo de procedimento' (BT-105) não é 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
 <entry key="expression|name|355">A organização não é um comprador ou existe apenas um comprador</entry>
 <entry key="expression|name|356">Existem dois compradores diferentes de dois países diferentes</entry>
@@ -463,6 +463,7 @@
 <entry key="expression|name|66">'Estatuto de seleção do vencedor' (BT-142-LotResult) não é 'O vencedor foi selecionado.'; 'ID técnico do resultado do lote (RES-XXX)' (OPT-322) não está preenchido</entry>
 <entry key="expression|name|660">'Nome oficial' (BT-500-Organization-Company) existe</entry>
 <entry key="expression|name|661">'ID técnico da organização (ORG-XXX)'(OPT-200-Organization-Company) é um 'Organização que desempenha este papel' (OPT-300-Procedure-Buyer)</entry>
+<entry key="expression|name|662">'Critérios de seleção' (BT-809-Lot) não existe ou 'O procedimento irá decorrer em fases sucessivas. Em cada fase, alguns participantes podem ser eliminados' (BT-52-Lot) não é 'sim' ou 'Tipo de procedimento' (BT-105) não é 'Diálogo concorrencial', 'Parcerias para a inovação', 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação', 'Outro processo em múltiplas fases' ou 'Limitado'</entry>
 <entry key="expression|name|67">'Subcontratação' (BT-773-Tender) não é 'Sim'</entry>
 <entry key="expression|name|68">'O valor da subcontratação é conhecido' (BT-730-Tender) não é 'sim'</entry>
 <entry key="expression|name|69">'Subcontratação' (BT-773-Tender) não é 'Sim'</entry>
