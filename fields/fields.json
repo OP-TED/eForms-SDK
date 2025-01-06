@@ -23264,7 +23264,7 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "16", "17", "18", "20", "21", "23", "24", "E3" ],
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "16", "17", "18", "20", "21", "22", "23", "24", "E3" ],
         "condition" : "{ND-SelectionCriteria} ${(BT-809-Lot is not present) or not(BT-52-Lot == TRUE) or BT-105-Procedure not in ('comp-dial','innovation','neg-w-call','oth-mult','restricted')}",
         "value" : true,
         "severity" : "ERROR"
@@ -23279,7 +23279,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "16", "17", "18", "20", "21", "23", "24" ],
+        "noticeTypes" : [ "16", "17", "18", "20", "21", "22", "23", "24" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
