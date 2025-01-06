@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.63",
-    "createdOn" : "2025-01-06T14:55:34"
+    "version" : "1.13.64",
+    "createdOn" : "2025-01-06T17:31:35"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -31186,7 +31186,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "E4", "E5" ],
-        "condition" : "{ND-LotResult} ${BT-142-LotResult == 'open-nw'}",
+        "condition" : "{ND-LotResult} ${(BT-142-LotResult == 'open-nw') or ((BT-142-LotResult == 'clos-nw') and (BT-144-LotResult == 'no-rece'))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -34081,7 +34081,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5" ],
-        "condition" : "{ND-LotResult} ${BT-142-LotResult == 'open-nw'}",
+        "condition" : "{ND-LotResult} ${(BT-142-LotResult == 'open-nw') or ((BT-142-LotResult == 'clos-nw') and (BT-144-LotResult == 'no-rece'))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
