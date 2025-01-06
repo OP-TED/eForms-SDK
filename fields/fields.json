@@ -5825,52 +5825,52 @@
         "message" : "rule|text|BR-BT-01375-0102"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-631-Lot[BT-137-Lot == $lotA], date:$interestB in BT-631-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-631-Lot[BT-137-Lot == $lotA], date:$interestB in BT-631-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0103"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-130-Lot[BT-137-Lot == $lotA], date:$interestB in BT-130-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-130-Lot[BT-137-Lot == $lotA], date:$interestB in BT-130-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0104"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-630(d)-Lot[BT-137-Lot == $lotA], date:$interestB in BT-630(d)-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-630(d)-Lot[BT-137-Lot == $lotA], date:$interestB in BT-630(d)-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0105"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, time:$interestA in BT-630(t)-Lot[BT-137-Lot == $lotA], time:$interestB in BT-630(t)-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, time:$interestA in BT-630(t)-Lot[BT-137-Lot == $lotA], time:$interestB in BT-630(t)-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0106"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-1311(d)-Lot[BT-137-Lot == $lotA], date:$interestB in BT-1311(d)-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-1311(d)-Lot[BT-137-Lot == $lotA], date:$interestB in BT-1311(d)-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0107"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, time:$interestA in BT-1311(t)-Lot[BT-137-Lot == $lotA], time:$interestB in BT-1311(t)-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, time:$interestA in BT-1311(t)-Lot[BT-137-Lot == $lotA], time:$interestB in BT-1311(t)-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0108"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-131(d)-Lot[BT-137-Lot == $lotA], date:$interestB in BT-131(d)-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-131(d)-Lot[BT-137-Lot == $lotA], date:$interestB in BT-131(d)-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0109"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, time:$interestA in BT-131(t)-Lot[BT-137-Lot == $lotA], time:$interestB in BT-131(t)-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, time:$interestA in BT-131(t)-Lot[BT-137-Lot == $lotA], time:$interestB in BT-131(t)-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0110"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-132(d)-Lot[BT-137-Lot == $lotA], date:$interestB in BT-132(d)-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, date:$interestA in BT-132(d)-Lot[BT-137-Lot == $lotA], date:$interestB in BT-132(d)-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0111"
       }, {
         "condition" : "{ND-GroupComposition} ${BT-330-Procedure is present}",
-        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, time:$interestA in BT-132(t)-Lot[BT-137-Lot == $lotA], time:$interestB in BT-132(t)-Lot[BT-137-Lot == $lotA] satisfies ($interestA == $interestB)}",
+        "value" : "{ND-GroupComposition} ${every text:$lotA in BT-1375-Procedure, text:$lotB in BT-1375-Procedure, time:$interestA in BT-132(t)-Lot[BT-137-Lot == $lotA], time:$interestB in BT-132(t)-Lot[BT-137-Lot == $lotB] satisfies ($interestA == $interestB)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01375-0112"
       } ]
