@@ -101,17 +101,6 @@
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
-	<cac:TenderingProcess>
-		<ext:UBLExtensions>
-			<ext:UBLExtension>
-				<ext:ExtensionContent>
-					<efext:EformsExtension>
-						<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
-					</efext:EformsExtension>
-				</ext:ExtensionContent>
-			</ext:UBLExtension>
-		</ext:UBLExtensions>
-	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Title (BT-21) vol3 </cbc:Name>
 		<cbc:Description languageID="ENG">Description (BT-24-Procedure)
@@ -189,7 +178,6 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
-							<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
 							<efac:InterestExpressionReceptionPeriod>
 								<cbc:EndDate>2023-08-08+03:00</cbc:EndDate>
 								<cbc:EndTime>06:00:00+03:00</cbc:EndTime>
