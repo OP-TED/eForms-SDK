@@ -18,10 +18,6 @@
 							<efac:DecisionReason>
 								<efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
 							</efac:DecisionReason>
-							<efac:ReceivedSubmissionsStatistics>
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
-								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
-							</efac:ReceivedSubmissionsStatistics>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
