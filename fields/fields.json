@@ -37423,6 +37423,11 @@
         "noticeTypes" : [ "12", "13", "20", "21" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "19", "32", "35" ],
+        "condition" : "{ND-ProcedureTenderingProcess} ${OPP-070-notice in ('19','32','35') and BT-105-Procedure in ('neg-wo-call','oth-single','oth-mult')}",
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     }
   }, {
