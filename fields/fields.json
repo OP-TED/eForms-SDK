@@ -38004,6 +38004,20 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E3", "E4", "E5", "E6", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "T02" ],
+        "condition" : "{ND-Asset} ${not(OPP-020-Contract == TRUE)}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "T02" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     }
   }, {
@@ -38051,6 +38065,20 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E3", "E4", "E5", "E6", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "T02" ],
+        "condition" : "{ND-Asset} ${not(OPP-020-Contract == TRUE)}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "T02" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     }
   }, {
@@ -38073,6 +38101,20 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E3", "E4", "E5", "E6", "T01", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "T02" ],
+        "condition" : "{ND-Asset} ${not(OPP-020-Contract == TRUE)}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "T02" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
