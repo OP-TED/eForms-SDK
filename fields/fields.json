@@ -24479,6 +24479,16 @@
         "parentId" : "nuts"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{BT-507-Business} ${((BT-514-Business is present) and (BT-507-Business is present))}",
+        "value" : "{BT-507-Business} ${(BT-514-Business == 'ALB' and BT-507-Business in (nuts-alb-lvl3)) or (BT-514-Business == 'AUT' and BT-507-Business in (nuts-aut-lvl3)) or (BT-514-Business == 'BEL' and BT-507-Business in (nuts-bel-lvl3)) or (BT-514-Business == 'BGR' and BT-507-Business in (nuts-bgr-lvl3)) or (BT-514-Business == 'CHE' and BT-507-Business in (nuts-che-lvl3)) or (BT-514-Business == 'CYP' and BT-507-Business in (nuts-cyp-lvl3)) or (BT-514-Business == 'CZE' and BT-507-Business in (nuts-cze-lvl3)) or (BT-514-Business == 'DEU' and BT-507-Business in (nuts-deu-lvl3)) or (BT-514-Business == 'DNK' and BT-507-Business in (nuts-dnk-lvl3)) or (BT-514-Business == 'ESP' and BT-507-Business in (nuts-esp-lvl3)) or (BT-514-Business == 'EST' and BT-507-Business in (nuts-est-lvl3)) or (BT-514-Business == 'FIN' and BT-507-Business in (nuts-fin-lvl3)) or (BT-514-Business == 'FRA' and BT-507-Business in (nuts-fra-lvl3)) or (BT-514-Business == 'GRC' and BT-507-Business in (nuts-grc-lvl3)) or (BT-514-Business == 'HRV' and BT-507-Business in (nuts-hrv-lvl3)) or (BT-514-Business == 'HUN' and BT-507-Business in (nuts-hun-lvl3)) or (BT-514-Business == 'IRL' and BT-507-Business in (nuts-irl-lvl3)) or (BT-514-Business == 'ISL' and BT-507-Business in (nuts-isl-lvl3)) or (BT-514-Business == 'ITA' and BT-507-Business in (nuts-ita-lvl3)) or (BT-514-Business == 'LIE' and BT-507-Business in (nuts-lie-lvl3)) or (BT-514-Business == 'LTU' and BT-507-Business in (nuts-ltu-lvl3)) or (BT-514-Business == 'LUX' and BT-507-Business in (nuts-lux-lvl3)) or (BT-514-Business == 'LVA' and BT-507-Business in (nuts-lva-lvl3)) or (BT-514-Business == 'MKD' and BT-507-Business in (nuts-mkd-lvl3)) or (BT-514-Business == 'MLT' and BT-507-Business in (nuts-mlt-lvl3)) or (BT-514-Business == 'MNE' and BT-507-Business in (nuts-mne-lvl3)) or (BT-514-Business == 'NLD' and BT-507-Business in (nuts-nld-lvl3)) or (BT-514-Business == 'NOR' and BT-507-Business in (nuts-nor-lvl3)) or (BT-514-Business == 'POL' and BT-507-Business in (nuts-pol-lvl3)) or (BT-514-Business == 'PRT' and BT-507-Business in (nuts-prt-lvl3)) or (BT-514-Business == 'ROU' and BT-507-Business in (nuts-rou-lvl3)) or (BT-514-Business == 'SRB' and BT-507-Business in (nuts-srb-lvl3)) or (BT-514-Business == 'SVK' and BT-507-Business in (nuts-svk-lvl3)) or (BT-514-Business == 'SVN' and BT-507-Business in (nuts-svn-lvl3)) or (BT-514-Business == 'SWE' and BT-507-Business in (nuts-swe-lvl3)) or (BT-514-Business == 'TUR' and BT-507-Business in (nuts-tur-lvl3)) or (BT-514-Business == 'XKX' and BT-507-Business in (nuts-xkx-lvl3))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00507-0356"
+      } ]
     }
   }, {
     "id" : "BT-507-Business-List",
@@ -24544,6 +24554,16 @@
         "parentId" : "nuts"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{BT-507-Organization-Company} ${((BT-514-Organization-Company is present) and (BT-507-Organization-Company is present))}",
+        "value" : "{BT-507-Organization-Company} ${(BT-514-Organization-Company == 'ALB' and BT-507-Organization-Company in (nuts-alb-lvl3)) or (BT-514-Organization-Company == 'AUT' and BT-507-Organization-Company in (nuts-aut-lvl3)) or (BT-514-Organization-Company == 'BEL' and BT-507-Organization-Company in (nuts-bel-lvl3)) or (BT-514-Organization-Company == 'BGR' and BT-507-Organization-Company in (nuts-bgr-lvl3)) or (BT-514-Organization-Company == 'CHE' and BT-507-Organization-Company in (nuts-che-lvl3)) or (BT-514-Organization-Company == 'CYP' and BT-507-Organization-Company in (nuts-cyp-lvl3)) or (BT-514-Organization-Company == 'CZE' and BT-507-Organization-Company in (nuts-cze-lvl3)) or (BT-514-Organization-Company == 'DEU' and BT-507-Organization-Company in (nuts-deu-lvl3)) or (BT-514-Organization-Company == 'DNK' and BT-507-Organization-Company in (nuts-dnk-lvl3)) or (BT-514-Organization-Company == 'ESP' and BT-507-Organization-Company in (nuts-esp-lvl3)) or (BT-514-Organization-Company == 'EST' and BT-507-Organization-Company in (nuts-est-lvl3)) or (BT-514-Organization-Company == 'FIN' and BT-507-Organization-Company in (nuts-fin-lvl3)) or (BT-514-Organization-Company == 'FRA' and BT-507-Organization-Company in (nuts-fra-lvl3)) or (BT-514-Organization-Company == 'GRC' and BT-507-Organization-Company in (nuts-grc-lvl3)) or (BT-514-Organization-Company == 'HRV' and BT-507-Organization-Company in (nuts-hrv-lvl3)) or (BT-514-Organization-Company == 'HUN' and BT-507-Organization-Company in (nuts-hun-lvl3)) or (BT-514-Organization-Company == 'IRL' and BT-507-Organization-Company in (nuts-irl-lvl3)) or (BT-514-Organization-Company == 'ISL' and BT-507-Organization-Company in (nuts-isl-lvl3)) or (BT-514-Organization-Company == 'ITA' and BT-507-Organization-Company in (nuts-ita-lvl3)) or (BT-514-Organization-Company == 'LIE' and BT-507-Organization-Company in (nuts-lie-lvl3)) or (BT-514-Organization-Company == 'LTU' and BT-507-Organization-Company in (nuts-ltu-lvl3)) or (BT-514-Organization-Company == 'LUX' and BT-507-Organization-Company in (nuts-lux-lvl3)) or (BT-514-Organization-Company == 'LVA' and BT-507-Organization-Company in (nuts-lva-lvl3)) or (BT-514-Organization-Company == 'MKD' and BT-507-Organization-Company in (nuts-mkd-lvl3)) or (BT-514-Organization-Company == 'MLT' and BT-507-Organization-Company in (nuts-mlt-lvl3)) or (BT-514-Organization-Company == 'MNE' and BT-507-Organization-Company in (nuts-mne-lvl3)) or (BT-514-Organization-Company == 'NLD' and BT-507-Organization-Company in (nuts-nld-lvl3)) or (BT-514-Organization-Company == 'NOR' and BT-507-Organization-Company in (nuts-nor-lvl3)) or (BT-514-Organization-Company == 'POL' and BT-507-Organization-Company in (nuts-pol-lvl3)) or (BT-514-Organization-Company == 'PRT' and BT-507-Organization-Company in (nuts-prt-lvl3)) or (BT-514-Organization-Company == 'ROU' and BT-507-Organization-Company in (nuts-rou-lvl3)) or (BT-514-Organization-Company == 'SRB' and BT-507-Organization-Company in (nuts-srb-lvl3)) or (BT-514-Organization-Company == 'SVK' and BT-507-Organization-Company in (nuts-svk-lvl3)) or (BT-514-Organization-Company == 'SVN' and BT-507-Organization-Company in (nuts-svn-lvl3)) or (BT-514-Organization-Company == 'SWE' and BT-507-Organization-Company in (nuts-swe-lvl3)) or (BT-514-Organization-Company == 'TUR' and BT-507-Organization-Company in (nuts-tur-lvl3)) or (BT-514-Organization-Company == 'XKX' and BT-507-Organization-Company in (nuts-xkx-lvl3))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00507-0353"
+      } ]
     }
   }, {
     "id" : "BT-507-Organization-Company-List",
@@ -24609,6 +24629,16 @@
         "parentId" : "nuts"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{BT-507-Organization-TouchPoint} ${((BT-514-Organization-TouchPoint is present) and (BT-507-Organization-TouchPoint is present))}",
+        "value" : "{BT-507-Organization-TouchPoint} ${(BT-514-Organization-TouchPoint == 'ALB' and BT-507-Organization-TouchPoint in (nuts-alb-lvl3)) or (BT-514-Organization-TouchPoint == 'AUT' and BT-507-Organization-TouchPoint in (nuts-aut-lvl3)) or (BT-514-Organization-TouchPoint == 'BEL' and BT-507-Organization-TouchPoint in (nuts-bel-lvl3)) or (BT-514-Organization-TouchPoint == 'BGR' and BT-507-Organization-TouchPoint in (nuts-bgr-lvl3)) or (BT-514-Organization-TouchPoint == 'CHE' and BT-507-Organization-TouchPoint in (nuts-che-lvl3)) or (BT-514-Organization-TouchPoint == 'CYP' and BT-507-Organization-TouchPoint in (nuts-cyp-lvl3)) or (BT-514-Organization-TouchPoint == 'CZE' and BT-507-Organization-TouchPoint in (nuts-cze-lvl3)) or (BT-514-Organization-TouchPoint == 'DEU' and BT-507-Organization-TouchPoint in (nuts-deu-lvl3)) or (BT-514-Organization-TouchPoint == 'DNK' and BT-507-Organization-TouchPoint in (nuts-dnk-lvl3)) or (BT-514-Organization-TouchPoint == 'ESP' and BT-507-Organization-TouchPoint in (nuts-esp-lvl3)) or (BT-514-Organization-TouchPoint == 'EST' and BT-507-Organization-TouchPoint in (nuts-est-lvl3)) or (BT-514-Organization-TouchPoint == 'FIN' and BT-507-Organization-TouchPoint in (nuts-fin-lvl3)) or (BT-514-Organization-TouchPoint == 'FRA' and BT-507-Organization-TouchPoint in (nuts-fra-lvl3)) or (BT-514-Organization-TouchPoint == 'GRC' and BT-507-Organization-TouchPoint in (nuts-grc-lvl3)) or (BT-514-Organization-TouchPoint == 'HRV' and BT-507-Organization-TouchPoint in (nuts-hrv-lvl3)) or (BT-514-Organization-TouchPoint == 'HUN' and BT-507-Organization-TouchPoint in (nuts-hun-lvl3)) or (BT-514-Organization-TouchPoint == 'IRL' and BT-507-Organization-TouchPoint in (nuts-irl-lvl3)) or (BT-514-Organization-TouchPoint == 'ISL' and BT-507-Organization-TouchPoint in (nuts-isl-lvl3)) or (BT-514-Organization-TouchPoint == 'ITA' and BT-507-Organization-TouchPoint in (nuts-ita-lvl3)) or (BT-514-Organization-TouchPoint == 'LIE' and BT-507-Organization-TouchPoint in (nuts-lie-lvl3)) or (BT-514-Organization-TouchPoint == 'LTU' and BT-507-Organization-TouchPoint in (nuts-ltu-lvl3)) or (BT-514-Organization-TouchPoint == 'LUX' and BT-507-Organization-TouchPoint in (nuts-lux-lvl3)) or (BT-514-Organization-TouchPoint == 'LVA' and BT-507-Organization-TouchPoint in (nuts-lva-lvl3)) or (BT-514-Organization-TouchPoint == 'MKD' and BT-507-Organization-TouchPoint in (nuts-mkd-lvl3)) or (BT-514-Organization-TouchPoint == 'MLT' and BT-507-Organization-TouchPoint in (nuts-mlt-lvl3)) or (BT-514-Organization-TouchPoint == 'MNE' and BT-507-Organization-TouchPoint in (nuts-mne-lvl3)) or (BT-514-Organization-TouchPoint == 'NLD' and BT-507-Organization-TouchPoint in (nuts-nld-lvl3)) or (BT-514-Organization-TouchPoint == 'NOR' and BT-507-Organization-TouchPoint in (nuts-nor-lvl3)) or (BT-514-Organization-TouchPoint == 'POL' and BT-507-Organization-TouchPoint in (nuts-pol-lvl3)) or (BT-514-Organization-TouchPoint == 'PRT' and BT-507-Organization-TouchPoint in (nuts-prt-lvl3)) or (BT-514-Organization-TouchPoint == 'ROU' and BT-507-Organization-TouchPoint in (nuts-rou-lvl3)) or (BT-514-Organization-TouchPoint == 'SRB' and BT-507-Organization-TouchPoint in (nuts-srb-lvl3)) or (BT-514-Organization-TouchPoint == 'SVK' and BT-507-Organization-TouchPoint in (nuts-svk-lvl3)) or (BT-514-Organization-TouchPoint == 'SVN' and BT-507-Organization-TouchPoint in (nuts-svn-lvl3)) or (BT-514-Organization-TouchPoint == 'SWE' and BT-507-Organization-TouchPoint in (nuts-swe-lvl3)) or (BT-514-Organization-TouchPoint == 'TUR' and BT-507-Organization-TouchPoint in (nuts-tur-lvl3)) or (BT-514-Organization-TouchPoint == 'XKX' and BT-507-Organization-TouchPoint in (nuts-xkx-lvl3))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00507-0354"
+      } ]
     }
   }, {
     "id" : "BT-507-Organization-TouchPoint-List",
@@ -24674,6 +24704,16 @@
         "parentId" : "nuts"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{BT-507-UBO} ${((BT-514-UBO is present) and (BT-507-UBO is present))}",
+        "value" : "{BT-507-UBO} ${(BT-514-UBO == 'ALB' and BT-507-UBO in (nuts-alb-lvl3)) or (BT-514-UBO == 'AUT' and BT-507-UBO in (nuts-aut-lvl3)) or (BT-514-UBO == 'BEL' and BT-507-UBO in (nuts-bel-lvl3)) or (BT-514-UBO == 'BGR' and BT-507-UBO in (nuts-bgr-lvl3)) or (BT-514-UBO == 'CHE' and BT-507-UBO in (nuts-che-lvl3)) or (BT-514-UBO == 'CYP' and BT-507-UBO in (nuts-cyp-lvl3)) or (BT-514-UBO == 'CZE' and BT-507-UBO in (nuts-cze-lvl3)) or (BT-514-UBO == 'DEU' and BT-507-UBO in (nuts-deu-lvl3)) or (BT-514-UBO == 'DNK' and BT-507-UBO in (nuts-dnk-lvl3)) or (BT-514-UBO == 'ESP' and BT-507-UBO in (nuts-esp-lvl3)) or (BT-514-UBO == 'EST' and BT-507-UBO in (nuts-est-lvl3)) or (BT-514-UBO == 'FIN' and BT-507-UBO in (nuts-fin-lvl3)) or (BT-514-UBO == 'FRA' and BT-507-UBO in (nuts-fra-lvl3)) or (BT-514-UBO == 'GRC' and BT-507-UBO in (nuts-grc-lvl3)) or (BT-514-UBO == 'HRV' and BT-507-UBO in (nuts-hrv-lvl3)) or (BT-514-UBO == 'HUN' and BT-507-UBO in (nuts-hun-lvl3)) or (BT-514-UBO == 'IRL' and BT-507-UBO in (nuts-irl-lvl3)) or (BT-514-UBO == 'ISL' and BT-507-UBO in (nuts-isl-lvl3)) or (BT-514-UBO == 'ITA' and BT-507-UBO in (nuts-ita-lvl3)) or (BT-514-UBO == 'LIE' and BT-507-UBO in (nuts-lie-lvl3)) or (BT-514-UBO == 'LTU' and BT-507-UBO in (nuts-ltu-lvl3)) or (BT-514-UBO == 'LUX' and BT-507-UBO in (nuts-lux-lvl3)) or (BT-514-UBO == 'LVA' and BT-507-UBO in (nuts-lva-lvl3)) or (BT-514-UBO == 'MKD' and BT-507-UBO in (nuts-mkd-lvl3)) or (BT-514-UBO == 'MLT' and BT-507-UBO in (nuts-mlt-lvl3)) or (BT-514-UBO == 'MNE' and BT-507-UBO in (nuts-mne-lvl3)) or (BT-514-UBO == 'NLD' and BT-507-UBO in (nuts-nld-lvl3)) or (BT-514-UBO == 'NOR' and BT-507-UBO in (nuts-nor-lvl3)) or (BT-514-UBO == 'POL' and BT-507-UBO in (nuts-pol-lvl3)) or (BT-514-UBO == 'PRT' and BT-507-UBO in (nuts-prt-lvl3)) or (BT-514-UBO == 'ROU' and BT-507-UBO in (nuts-rou-lvl3)) or (BT-514-UBO == 'SRB' and BT-507-UBO in (nuts-srb-lvl3)) or (BT-514-UBO == 'SVK' and BT-507-UBO in (nuts-svk-lvl3)) or (BT-514-UBO == 'SVN' and BT-507-UBO in (nuts-svn-lvl3)) or (BT-514-UBO == 'SWE' and BT-507-UBO in (nuts-swe-lvl3)) or (BT-514-UBO == 'TUR' and BT-507-UBO in (nuts-tur-lvl3)) or (BT-514-UBO == 'XKX' and BT-507-UBO in (nuts-xkx-lvl3))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00507-0355"
+      } ]
     }
   }, {
     "id" : "BT-507-UBO-List",
@@ -24740,6 +24780,16 @@
         "parentId" : "nuts"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{BT-5071-Lot} ${((BT-5141-Lot is present) and (BT-5071-Lot is present))}",
+        "value" : "{BT-5071-Lot} ${(BT-5141-Lot == 'ALB' and BT-5071-Lot in (nuts-alb-lvl3)) or (BT-5141-Lot == 'AUT' and BT-5071-Lot in (nuts-aut-lvl3)) or (BT-5141-Lot == 'BEL' and BT-5071-Lot in (nuts-bel-lvl3)) or (BT-5141-Lot == 'BGR' and BT-5071-Lot in (nuts-bgr-lvl3)) or (BT-5141-Lot == 'CHE' and BT-5071-Lot in (nuts-che-lvl3)) or (BT-5141-Lot == 'CYP' and BT-5071-Lot in (nuts-cyp-lvl3)) or (BT-5141-Lot == 'CZE' and BT-5071-Lot in (nuts-cze-lvl3)) or (BT-5141-Lot == 'DEU' and BT-5071-Lot in (nuts-deu-lvl3)) or (BT-5141-Lot == 'DNK' and BT-5071-Lot in (nuts-dnk-lvl3)) or (BT-5141-Lot == 'ESP' and BT-5071-Lot in (nuts-esp-lvl3)) or (BT-5141-Lot == 'EST' and BT-5071-Lot in (nuts-est-lvl3)) or (BT-5141-Lot == 'FIN' and BT-5071-Lot in (nuts-fin-lvl3)) or (BT-5141-Lot == 'FRA' and BT-5071-Lot in (nuts-fra-lvl3)) or (BT-5141-Lot == 'GRC' and BT-5071-Lot in (nuts-grc-lvl3)) or (BT-5141-Lot == 'HRV' and BT-5071-Lot in (nuts-hrv-lvl3)) or (BT-5141-Lot == 'HUN' and BT-5071-Lot in (nuts-hun-lvl3)) or (BT-5141-Lot == 'IRL' and BT-5071-Lot in (nuts-irl-lvl3)) or (BT-5141-Lot == 'ISL' and BT-5071-Lot in (nuts-isl-lvl3)) or (BT-5141-Lot == 'ITA' and BT-5071-Lot in (nuts-ita-lvl3)) or (BT-5141-Lot == 'LIE' and BT-5071-Lot in (nuts-lie-lvl3)) or (BT-5141-Lot == 'LTU' and BT-5071-Lot in (nuts-ltu-lvl3)) or (BT-5141-Lot == 'LUX' and BT-5071-Lot in (nuts-lux-lvl3)) or (BT-5141-Lot == 'LVA' and BT-5071-Lot in (nuts-lva-lvl3)) or (BT-5141-Lot == 'MKD' and BT-5071-Lot in (nuts-mkd-lvl3)) or (BT-5141-Lot == 'MLT' and BT-5071-Lot in (nuts-mlt-lvl3)) or (BT-5141-Lot == 'MNE' and BT-5071-Lot in (nuts-mne-lvl3)) or (BT-5141-Lot == 'NLD' and BT-5071-Lot in (nuts-nld-lvl3)) or (BT-5141-Lot == 'NOR' and BT-5071-Lot in (nuts-nor-lvl3)) or (BT-5141-Lot == 'POL' and BT-5071-Lot in (nuts-pol-lvl3)) or (BT-5141-Lot == 'PRT' and BT-5071-Lot in (nuts-prt-lvl3)) or (BT-5141-Lot == 'ROU' and BT-5071-Lot in (nuts-rou-lvl3)) or (BT-5141-Lot == 'SRB' and BT-5071-Lot in (nuts-srb-lvl3)) or (BT-5141-Lot == 'SVK' and BT-5071-Lot in (nuts-svk-lvl3)) or (BT-5141-Lot == 'SVN' and BT-5071-Lot in (nuts-svn-lvl3)) or (BT-5141-Lot == 'SWE' and BT-5071-Lot in (nuts-swe-lvl3)) or (BT-5141-Lot == 'TUR' and BT-5071-Lot in (nuts-tur-lvl3)) or (BT-5141-Lot == 'XKX' and BT-5071-Lot in (nuts-xkx-lvl3))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-05071-0240"
+      } ]
     }
   }, {
     "id" : "BT-5071-Lot-List",
@@ -24806,6 +24856,16 @@
         "parentId" : "nuts"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{BT-5071-Part} ${((BT-5141-Part is present) and (BT-5071-Part is present))}",
+        "value" : "{BT-5071-Part} ${(BT-5141-Part == 'ALB' and BT-5071-Part in (nuts-alb-lvl3)) or (BT-5141-Part == 'AUT' and BT-5071-Part in (nuts-aut-lvl3)) or (BT-5141-Part == 'BEL' and BT-5071-Part in (nuts-bel-lvl3)) or (BT-5141-Part == 'BGR' and BT-5071-Part in (nuts-bgr-lvl3)) or (BT-5141-Part == 'CHE' and BT-5071-Part in (nuts-che-lvl3)) or (BT-5141-Part == 'CYP' and BT-5071-Part in (nuts-cyp-lvl3)) or (BT-5141-Part == 'CZE' and BT-5071-Part in (nuts-cze-lvl3)) or (BT-5141-Part == 'DEU' and BT-5071-Part in (nuts-deu-lvl3)) or (BT-5141-Part == 'DNK' and BT-5071-Part in (nuts-dnk-lvl3)) or (BT-5141-Part == 'ESP' and BT-5071-Part in (nuts-esp-lvl3)) or (BT-5141-Part == 'EST' and BT-5071-Part in (nuts-est-lvl3)) or (BT-5141-Part == 'FIN' and BT-5071-Part in (nuts-fin-lvl3)) or (BT-5141-Part == 'FRA' and BT-5071-Part in (nuts-fra-lvl3)) or (BT-5141-Part == 'GRC' and BT-5071-Part in (nuts-grc-lvl3)) or (BT-5141-Part == 'HRV' and BT-5071-Part in (nuts-hrv-lvl3)) or (BT-5141-Part == 'HUN' and BT-5071-Part in (nuts-hun-lvl3)) or (BT-5141-Part == 'IRL' and BT-5071-Part in (nuts-irl-lvl3)) or (BT-5141-Part == 'ISL' and BT-5071-Part in (nuts-isl-lvl3)) or (BT-5141-Part == 'ITA' and BT-5071-Part in (nuts-ita-lvl3)) or (BT-5141-Part == 'LIE' and BT-5071-Part in (nuts-lie-lvl3)) or (BT-5141-Part == 'LTU' and BT-5071-Part in (nuts-ltu-lvl3)) or (BT-5141-Part == 'LUX' and BT-5071-Part in (nuts-lux-lvl3)) or (BT-5141-Part == 'LVA' and BT-5071-Part in (nuts-lva-lvl3)) or (BT-5141-Part == 'MKD' and BT-5071-Part in (nuts-mkd-lvl3)) or (BT-5141-Part == 'MLT' and BT-5071-Part in (nuts-mlt-lvl3)) or (BT-5141-Part == 'MNE' and BT-5071-Part in (nuts-mne-lvl3)) or (BT-5141-Part == 'NLD' and BT-5071-Part in (nuts-nld-lvl3)) or (BT-5141-Part == 'NOR' and BT-5071-Part in (nuts-nor-lvl3)) or (BT-5141-Part == 'POL' and BT-5071-Part in (nuts-pol-lvl3)) or (BT-5141-Part == 'PRT' and BT-5071-Part in (nuts-prt-lvl3)) or (BT-5141-Part == 'ROU' and BT-5071-Part in (nuts-rou-lvl3)) or (BT-5141-Part == 'SRB' and BT-5071-Part in (nuts-srb-lvl3)) or (BT-5141-Part == 'SVK' and BT-5071-Part in (nuts-svk-lvl3)) or (BT-5141-Part == 'SVN' and BT-5071-Part in (nuts-svn-lvl3)) or (BT-5141-Part == 'SWE' and BT-5071-Part in (nuts-swe-lvl3)) or (BT-5141-Part == 'TUR' and BT-5071-Part in (nuts-tur-lvl3)) or (BT-5141-Part == 'XKX' and BT-5071-Part in (nuts-xkx-lvl3))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-05071-0239"
+      } ]
     }
   }, {
     "id" : "BT-5071-Part-List",
@@ -24872,6 +24932,16 @@
         "parentId" : "nuts"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{BT-5071-Procedure} ${((BT-5141-Procedure is present) and (BT-5071-Procedure is present))}",
+        "value" : "{BT-5071-Procedure} ${(BT-5141-Procedure == 'ALB' and BT-5071-Procedure in (nuts-alb-lvl3)) or (BT-5141-Procedure == 'AUT' and BT-5071-Procedure in (nuts-aut-lvl3)) or (BT-5141-Procedure == 'BEL' and BT-5071-Procedure in (nuts-bel-lvl3)) or (BT-5141-Procedure == 'BGR' and BT-5071-Procedure in (nuts-bgr-lvl3)) or (BT-5141-Procedure == 'CHE' and BT-5071-Procedure in (nuts-che-lvl3)) or (BT-5141-Procedure == 'CYP' and BT-5071-Procedure in (nuts-cyp-lvl3)) or (BT-5141-Procedure == 'CZE' and BT-5071-Procedure in (nuts-cze-lvl3)) or (BT-5141-Procedure == 'DEU' and BT-5071-Procedure in (nuts-deu-lvl3)) or (BT-5141-Procedure == 'DNK' and BT-5071-Procedure in (nuts-dnk-lvl3)) or (BT-5141-Procedure == 'ESP' and BT-5071-Procedure in (nuts-esp-lvl3)) or (BT-5141-Procedure == 'EST' and BT-5071-Procedure in (nuts-est-lvl3)) or (BT-5141-Procedure == 'FIN' and BT-5071-Procedure in (nuts-fin-lvl3)) or (BT-5141-Procedure == 'FRA' and BT-5071-Procedure in (nuts-fra-lvl3)) or (BT-5141-Procedure == 'GRC' and BT-5071-Procedure in (nuts-grc-lvl3)) or (BT-5141-Procedure == 'HRV' and BT-5071-Procedure in (nuts-hrv-lvl3)) or (BT-5141-Procedure == 'HUN' and BT-5071-Procedure in (nuts-hun-lvl3)) or (BT-5141-Procedure == 'IRL' and BT-5071-Procedure in (nuts-irl-lvl3)) or (BT-5141-Procedure == 'ISL' and BT-5071-Procedure in (nuts-isl-lvl3)) or (BT-5141-Procedure == 'ITA' and BT-5071-Procedure in (nuts-ita-lvl3)) or (BT-5141-Procedure == 'LIE' and BT-5071-Procedure in (nuts-lie-lvl3)) or (BT-5141-Procedure == 'LTU' and BT-5071-Procedure in (nuts-ltu-lvl3)) or (BT-5141-Procedure == 'LUX' and BT-5071-Procedure in (nuts-lux-lvl3)) or (BT-5141-Procedure == 'LVA' and BT-5071-Procedure in (nuts-lva-lvl3)) or (BT-5141-Procedure == 'MKD' and BT-5071-Procedure in (nuts-mkd-lvl3)) or (BT-5141-Procedure == 'MLT' and BT-5071-Procedure in (nuts-mlt-lvl3)) or (BT-5141-Procedure == 'MNE' and BT-5071-Procedure in (nuts-mne-lvl3)) or (BT-5141-Procedure == 'NLD' and BT-5071-Procedure in (nuts-nld-lvl3)) or (BT-5141-Procedure == 'NOR' and BT-5071-Procedure in (nuts-nor-lvl3)) or (BT-5141-Procedure == 'POL' and BT-5071-Procedure in (nuts-pol-lvl3)) or (BT-5141-Procedure == 'PRT' and BT-5071-Procedure in (nuts-prt-lvl3)) or (BT-5141-Procedure == 'ROU' and BT-5071-Procedure in (nuts-rou-lvl3)) or (BT-5141-Procedure == 'SRB' and BT-5071-Procedure in (nuts-srb-lvl3)) or (BT-5141-Procedure == 'SVK' and BT-5071-Procedure in (nuts-svk-lvl3)) or (BT-5141-Procedure == 'SVN' and BT-5071-Procedure in (nuts-svn-lvl3)) or (BT-5141-Procedure == 'SWE' and BT-5071-Procedure in (nuts-swe-lvl3)) or (BT-5141-Procedure == 'TUR' and BT-5071-Procedure in (nuts-tur-lvl3)) or (BT-5141-Procedure == 'XKX' and BT-5071-Procedure in (nuts-xkx-lvl3))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-05071-0238"
+      } ]
     }
   }, {
     "id" : "BT-5071-Procedure-List",
