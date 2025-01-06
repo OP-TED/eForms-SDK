@@ -5317,7 +5317,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "33", "34", "E4", "E5" ],
-        "condition" : "{ND-DirectAward} ${not(BT-105-Procedure == 'neg-wo-call')}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${not(BT-105-Procedure == 'neg-wo-call')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5985,7 +5985,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E3", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
-        "condition" : "{ND-ChangeReason} ${BT-758-notice is not present}",
+        "condition" : "{ND-Changes} ${BT-758-notice is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6949,7 +6949,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "28", "32", "35", "40", "E4", "E5" ],
-        "condition" : "{ND-ConcessionRevenue} ${OPT-321-Tender is not present}",
+        "condition" : "{ND-LotTender} ${OPT-321-Tender is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7094,7 +7094,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "28", "32", "35", "40", "E4", "E5" ],
-        "condition" : "{ND-ConcessionRevenue} ${OPT-321-Tender is not present}",
+        "condition" : "{ND-LotTender} ${OPT-321-Tender is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -7165,7 +7165,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "28", "32", "35", "40", "E4", "E5" ],
-        "condition" : "{ND-ConcessionRevenue} ${OPT-321-Tender is not present}",
+        "condition" : "{ND-LotTender} ${OPT-321-Tender is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23025,7 +23025,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E3" ],
-        "condition" : "{ND-LotDistribution} ${count(/BT-137-Lot) < 2}",
+        "condition" : "{ND-ProcedureTerms} ${count(/BT-137-Lot) < 2}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23264,12 +23264,12 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "16", "17", "18", "20", "21", "22", "23", "24", "E3" ],
-        "condition" : "{ND-SelectionCriteria} ${(BT-809-Lot is not present) or not(BT-52-Lot == TRUE) or BT-105-Procedure not in ('comp-dial','innovation','neg-w-call','oth-mult','restricted')}",
+        "condition" : "{ND-NonUBLTenderingTerms} ${(BT-809-Lot is not present) or not(BT-52-Lot == TRUE) or BT-105-Procedure not in ('comp-dial','innovation','neg-w-call','oth-mult','restricted')}",
         "value" : true,
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "14" ],
-        "condition" : "{ND-SelectionCriteria} ${not(BT-52-Lot == TRUE)}",
+        "condition" : "{ND-NonUBLTenderingTerms} ${not(BT-52-Lot == TRUE)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23533,7 +23533,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "16", "17", "18", "20", "21", "22", "23", "24", "E3" ],
-        "condition" : "{ND-SecondStage} ${BT-105-Procedure == 'open' or BT-105-Procedure == 'oth-single' or BT-105-Procedure == 'neg-wo-call'}",
+        "condition" : "{ND-LotTenderingProcess} ${BT-105-Procedure == 'open' or BT-105-Procedure == 'oth-single' or BT-105-Procedure == 'neg-wo-call'}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -25017,7 +25017,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "16", "17", "18", "20", "21", "22", "23", "24", "E3" ],
-        "condition" : "{ND-SecondStage} ${not(BT-661-Lot == TRUE)}",
+        "condition" : "{ND-LotTenderingProcess} ${not(BT-661-Lot == TRUE)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -29185,7 +29185,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "20", "21", "E3" ],
-        "condition" : "{ND-InterestExpressionReceptionPeriod} ${BT-105-Procedure not in ('restricted','neg-w-call','comp-dial','innovation','oth-mult') and (BT-1311(d)-Lot is not present)}",
+        "condition" : "{ND-LotTenderingProcessExtension} ${BT-105-Procedure not in ('restricted','neg-w-call','comp-dial','innovation','oth-mult') and (BT-1311(d)-Lot is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -37960,7 +37960,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "T02" ],
-        "condition" : "{ND-ExtendedDurationJustification} ${(OPT-316-Contract is not present)}",
+        "condition" : "{ND-SettledContract} ${(OPT-316-Contract is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -40833,7 +40833,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E4", "E5", "E6", "T02" ],
-        "condition" : "{ND-TenderingParty} ${OPT-310-Tender is not present}",
+        "condition" : "{ND-NoticeResult} ${OPT-310-Tender is not present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
