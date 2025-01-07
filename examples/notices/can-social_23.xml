@@ -18,10 +18,6 @@
 							<efac:DecisionReason>
 								<efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
 							</efac:DecisionReason>
-							<efac:ReceivedSubmissionsStatistics>
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
-								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
-							</efac:ReceivedSubmissionsStatistics>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
@@ -55,6 +51,12 @@
 							<cac:LegalMonetaryTotal>
 								<cbc:PayableAmount currencyID="EUR">100000</cbc:PayableAmount>
 							</cac:LegalMonetaryTotal>
+							<efac:ConcessionRevenue>
+								<efbc:RevenueBuyerAmount currencyID="EUR">456</efbc:RevenueBuyerAmount>
+								<efbc:RevenueUserAmount currencyID="EUR">123</efbc:RevenueUserAmount>
+								<efbc:ValueDescription languageID="ENG">Any other details relevant to the value of the concession according to Art. 8(3) of the directive:
+									It is recognised that an indication of the volumes of business likely to be conducted is required. It is not however possible to predict the impact of the Councils requirements as a result of any future unforeseen circumstances, market changes or forthcoming initiatives. We cannot therefore give any guarantee of likely or potential business levels with this agreement.</efbc:ValueDescription>
+							</efac:ConcessionRevenue>
 							<efac:SubcontractingTerm>
 								<efbc:TermCode>not-known</efbc:TermCode>
 								<efbc:ValueKnownIndicator>false</efbc:ValueKnownIndicator>
