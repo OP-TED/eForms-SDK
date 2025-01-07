@@ -465,7 +465,16 @@
 <entry key="expression|name|660">'Official name' (BT-500-Organization-Company) exists</entry>
 <entry key="expression|name|661">'Organisation technical ID (ORG-XXX)'(OPT-200-Organization-Company) is a 'Organisation filling this role' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Selection criteria' (BT-809-Lot) does not exist or 'The procedure will take place in successive stages. At each stage, some participants may be eliminated' (BT-52-Lot) is not 'yes' or 'Type of procedure' (BT-105) is not 'Competitive dialogue', 'Innovation partnership', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Other multiple stage procedure', or 'Restricted'</entry>
+<entry key="expression|name|663">the value chosen for BT-142-LotResult is equal to 'The winner was not yet chosen, but the competition is still ongoing', or the value chosen for BT-142-LotResult is equal to 'No winner was chosen and the competition is closed' and BT-144-LotResult is equal to 'No tenders, requests to participate or projects were received'.</entry>
+<entry key="expression|name|664">Organisation Country Code (BT-514-Organization-Company) is present and Organisation Country Subdivision (BT-507-Organization-Company) is present</entry>
+<entry key="expression|name|665">Touchpoint Country Code (BT-514-Organization-TouchPoint) is present and Touchpoint Country Subdivision (BT-507-Organization-TouchPoint) is present</entry>
+<entry key="expression|name|666">UBO Country Code (BT-514-UBO) is present and UBO Country Subdivision (BT-507-UBO) is present</entry>
+<entry key="expression|name|667">Business Country Code (BT-514-Business) is present and Business Country Subdivision (BT-507-Business) is present</entry>
+<entry key="expression|name|668">Procedure Place Performance Country Code (BT-5141-Procedure) is present and Procedure Place Performance Country Subdivision (BT-5071-Procedure) is present</entry>
+<entry key="expression|name|669">Part Place Performance Country Code (BT-5141-Part) is present and Part Place Performance Country Subdivision (BT-5071-Part) is present</entry>
 <entry key="expression|name|67">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
+<entry key="expression|name|670">Lot Place Performance Country Code (BT-5141-Lot is present) and Lot Place Performance Country Subdivision (BT-5071-Lot) is present</entry>
+<entry key="expression|name|671">'Number is a type of weight' (BT-5421) is not 'Order of importance'</entry>
 <entry key="expression|name|68">'Subcontracting value is known' (BT-730-Tender) is not 'yes'</entry>
 <entry key="expression|name|69">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
 <entry key="expression|name|7">'Country' (BT-5141-Part) is filled in</entry>
