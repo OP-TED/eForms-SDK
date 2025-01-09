@@ -49,6 +49,7 @@
 		<assert id="BR-BT-00536-0154" role="ERROR" diagnostics="BT-536-Part" test="count(cbc:StartDate) = 0 or not((cbc:DurationMeasure and cbc:EndDate) or (cbc:DescriptionCode and cbc:EndDate))">rule|text|BR-BT-00536-0154</assert>
 		<assert id="BR-BT-00537-0119" role="ERROR" diagnostics="BT-537-Part" test="count(cbc:EndDate) = 0 or not((cbc:StartDate and cbc:DescriptionCode) or (cbc:StartDate and cbc:DurationMeasure) or (cbc:DescriptionCode and cbc:DescriptionCode/normalize-space(text()) = 'UNLIMITED'))">rule|text|BR-BT-00537-0119</assert>
 		<assert id="BR-BT-00538-0131" role="ERROR" diagnostics="BT-538-Part" test="count(cbc:DescriptionCode) = 0 or not(cbc:DurationMeasure or (cbc:EndDate and cbc:StartDate))">rule|text|BR-BT-00538-0131</assert>
+		<assert id="BR-OPT-00036-0007" role="ERROR" diagnostics="OPA-36-Part-Number" test="count(cbc:DurationMeasure) = 0 or not((cbc:StartDate and cbc:EndDate) or cbc:DescriptionCode)">rule|text|BR-OPT-00036-0007</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RealizedLocation[$noticeSubType = '4']">
 		<assert id="BR-BT-00727-0187" role="ERROR" diagnostics="ND-PartPlacePerformance_BT-727-Part" test="count(cac:Address/cbc:Region) = 0 or not(cac:Address/cbc:CountrySubentityCode)">rule|text|BR-BT-00727-0187</assert>
