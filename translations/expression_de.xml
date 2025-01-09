@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'Technische ID der Organisation (ORG-XXX)'(OPT-200-Organization-Company) ist ein 'Organisation, die diese Rolle ausfüllt' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Eignungskriterien' (BT-809-Lot) existiert nicht oder 'Das Verfahren wird in mehreren aufeinanderfolgenden Phasen durchgeführt. In jeder Phase können einige Teilnehmer ausgeschlossen werden' (BT-52-Lot) ist nicht 'ja' oder 'Verfahrensart' (BT-105) ist nicht 'Wettbewerblicher Dialog', 'Innovationspartnerschaften', 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren', 'Sonstiges zweistufiges Verfahren' oder 'Nichtoffenes Verfahren'</entry>
 <entry key="expression|name|67">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht 'Ja'</entry>
+<entry key="expression|name|671">'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421) ist nicht 'Rangfolge'</entry>
 <entry key="expression|name|68">'Wert der Vergabe von Unteraufträgen ist bekannt' (BT-730-Tender) ist nicht 'ja'</entry>
 <entry key="expression|name|69">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht 'Ja'</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) ist ausgefüllt</entry>

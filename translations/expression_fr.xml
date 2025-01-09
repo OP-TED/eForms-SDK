@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'ID technique de l'organisation (ORG-XXX)'(OPT-200-Organization-Company) est un 'Organisation remplissant ce rôle' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Critères de sélection' (BT-809-Lot) n'existe pas ou 'La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés' (BT-52-Lot) n'est pas 'oui' ou 'Type de procédure' (BT-105) n'est pas 'Dialogue compétitif', 'Partenariat d’innovation', 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', 'Autre procédure en plusieurs étapes' ou 'Restreinte'</entry>
 <entry key="expression|name|67">'Sous-traitance' (BT-773-Tender) n’est pas 'Oui'</entry>
+<entry key="expression|name|671">'Le nombre est une pondération' (BT-5421) n’est pas 'Ordre d’importance'</entry>
 <entry key="expression|name|68">'La valeur de la sous-traitance est connue' (BT-730-Tender) n’est pas 'oui'</entry>
 <entry key="expression|name|69">'Sous-traitance' (BT-773-Tender) n’est pas 'Oui'</entry>
 <entry key="expression|name|7">'Pays' (BT-5141-Part) est rempli</entry>

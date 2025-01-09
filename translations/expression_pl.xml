@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'Techniczne ID organizacji (ORG-XXX)'(OPT-200-Organization-Company) to 'Organizacja pełniąca tę rolę' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Kryteria kwalifikacji' (BT-809-Lot) nie istnieje lub 'Procedura zostanie przeprowadzona w kolejnych etapach. Na każdym etapie niektórzy uczestnicy mogą zostać wyeliminowani' (BT-52-Lot) nie jest 'tak' lub 'Rodzaj procedury' (BT-105) nie jest 'Dialog konkurencyjny', 'Partnerstwo innowacyjne', 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami', 'Inna procedura wieloetapowa' lub 'Ograniczona'</entry>
 <entry key="expression|name|67">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>
+<entry key="expression|name|671">'Liczba jest rodzajem wagi' (BT-5421) nie jest 'Kolejność według ważności'</entry>
 <entry key="expression|name|68">'Podwykonawstwo - Wartość jest znana' (BT-730-Tender) nie jest 'tak'</entry>
 <entry key="expression|name|69">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>
 <entry key="expression|name|7">'Kraj' (BT-5141-Part) jest wypełnione</entry>

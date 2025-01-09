@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'ID técnico da organização (ORG-XXX)'(OPT-200-Organization-Company) é um 'Organização que desempenha este papel' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Critérios de seleção' (BT-809-Lot) não existe ou 'O procedimento irá decorrer em fases sucessivas. Em cada fase, alguns participantes podem ser eliminados' (BT-52-Lot) não é 'sim' ou 'Tipo de procedimento' (BT-105) não é 'Diálogo concorrencial', 'Parcerias para a inovação', 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação', 'Outro processo em múltiplas fases' ou 'Limitado'</entry>
 <entry key="expression|name|67">'Subcontratação' (BT-773-Tender) não é 'Sim'</entry>
+<entry key="expression|name|671">'O número é um tipo de fator de ponderação' (BT-5421) não é 'Ordem de importância'</entry>
 <entry key="expression|name|68">'O valor da subcontratação é conhecido' (BT-730-Tender) não é 'sim'</entry>
 <entry key="expression|name|69">'Subcontratação' (BT-773-Tender) não é 'Sim'</entry>
 <entry key="expression|name|7">'País' (BT-5141-Part) está preenchido</entry>

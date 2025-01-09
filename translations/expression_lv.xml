@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'Organizācijas tehniskais ID (ORG-XXX)'(OPT-200-Organization-Company) ir 'Organizācija, kas pilda šo lomu' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Atlases kritēriji' (BT-809-Lot) neeksistē vai 'Procedūra notiks secīgos posmos. Katrā posmā daži dalībnieki var tikt izslēgti' (BT-52-Lot) nav 'jā' vai 'Procedūras veids' (BT-105) nav 'Konkursa dialogs', 'Inovācijas partnerība', 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām', 'Cita daudzpakāpju procedūra' vai 'Slēgta'</entry>
 <entry key="expression|name|67">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>
+<entry key="expression|name|671">'Skaitlis ir svēruma veids' (BT-5421) nav 'Secība pēc nozīmīguma'</entry>
 <entry key="expression|name|68">'Apakšuzņēmuma līguma vērtība zināma' (BT-730-Tender) nav 'jā'</entry>
 <entry key="expression|name|69">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>
 <entry key="expression|name|7">'Valsts' (BT-5141-Part) ir aizpildīta</entry>

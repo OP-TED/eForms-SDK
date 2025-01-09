@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'Technické ID organizace (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizace vykonávající tuto roli' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Kritéria výběru' (BT-809-Lot) neexistuje nebo 'Řízení proběhne v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni' (BT-52-Lot) není 'ano' nebo 'Typ řízení' (BT-105) není 'Soutěžní dialog', 'Inovační partnerství', 'Jednací řízení s uveřejněním / jednací řízení', 'Jiné vícefázové řízení' nebo 'Užší'</entry>
 <entry key="expression|name|67">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
+<entry key="expression|name|671">'Číslo je typem váhy' (BT-5421) není 'Pořadí důležitosti'</entry>
 <entry key="expression|name|68">'Hodnota subdodávky je známa' (BT-730-Tender) není 'ano'</entry>
 <entry key="expression|name|69">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
 <entry key="expression|name|7">'Země' (BT-5141-Part) je vyplněn</entry>

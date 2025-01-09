@@ -475,6 +475,9 @@
 <entry key="expression|name|67">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
 <entry key="expression|name|670">Lot Place Performance Country Code (BT-5141-Lot is present) and Lot Place Performance Country Subdivision (BT-5071-Lot) is present</entry>
 <entry key="expression|name|671">'Number is a type of weight' (BT-5421) is not 'Order of importance'</entry>
+<entry key="expression|name|672">the Lot has no DPS and no Framework Agreement</entry>
+<entry key="expression|name|673">the Lot has a DPS and no Framework Agreement</entry>
+<entry key="expression|name|674">the Lot has a Framework Agreement, no contract within a Framework Agreement and no DPS</entry>
 <entry key="expression|name|68">'Subcontracting value is known' (BT-730-Tender) is not 'yes'</entry>
 <entry key="expression|name|69">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
 <entry key="expression|name|7">'Country' (BT-5141-Part) is filled in</entry>
