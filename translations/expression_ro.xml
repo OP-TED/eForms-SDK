@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'ID-ul tehnic al organizației (ORG-XXX)'(OPT-200-Organization-Company) este un 'Organizația care îndeplinește acest rol' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Criterii de selecție' (BT-809-Lot) nu există sau 'Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați' (BT-52-Lot) nu este 'da' sau 'Tip de procedură' (BT-105) nu este 'Dialog competitiv', 'Parteneriat pentru inovare', 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', 'Altă procedură cu mai multe etape' sau 'Restrânsă'</entry>
 <entry key="expression|name|67">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
+<entry key="expression|name|671">'Numărul este un tip de pondere' (BT-5421) nu este 'Ordinea importanței'</entry>
 <entry key="expression|name|68">'Valoarea subcontractării este cunoscută' (BT-730-Tender) nu este 'da'</entry>
 <entry key="expression|name|69">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
 <entry key="expression|name|7">'Țara' (BT-5141-Part) este completat</entry>

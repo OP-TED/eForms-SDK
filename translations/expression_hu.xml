@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'Szervezet technikai azonosítója (ORG-XXX)'(OPT-200-Organization-Company) egy 'Ezt a szerepet betöltő szervezet' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Alkalmassági követelmények' (BT-809-Lot) nem létezik vagy 'Ez az eljárás több szakaszból áll. Minden szakaszban kiesik néhány résztvevő' (BT-52-Lot) nem 'igen' vagy 'Az eljárás típusa' (BT-105) nem 'Versenypárbeszéd', 'Innovációs partnerség', 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos', 'Egyéb többszakaszos eljárás' vagy 'Zárt'</entry>
 <entry key="expression|name|67">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
+<entry key="expression|name|671">'A szám valamilyen súlyozás' (BT-5421) nem 'Fontossági sorrend'</entry>
 <entry key="expression|name|68">'Az alvállalkozásba adott szerződésrész értéke ismert' (BT-730-Tender) nem 'igen'</entry>
 <entry key="expression|name|69">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
 <entry key="expression|name|7">'Ország' (BT-5141-Part) ki van töltve</entry>

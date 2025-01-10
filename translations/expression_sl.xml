@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'Tehnični ID organizacije (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizacija, ki opravlja to vlogo' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Pogoji za sodelovanje' (BT-809-Lot) ne obstaja ali 'Postopek se bo odvijal v zaporednih stopnjah. Na vsaki stopnji se lahko izločijo nekateri sodelujoči' (BT-52-Lot) ni 'da' ali 'Vrsta postopka' (BT-105) ni 'Konkurenčni dialog', 'Partnerstvo za inovacije', 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji', 'Drugi večstopenjski postopek' ali 'Omejeni postopek'</entry>
 <entry key="expression|name|67">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>
+<entry key="expression|name|671">'Številka je vrsta ponderja' (BT-5421) ni 'Vrstni red glede na pomembnost'</entry>
 <entry key="expression|name|68">'Vrednost oddaje naročil podizvajalcem je znana' (BT-730-Tender) ni 'da'</entry>
 <entry key="expression|name|69">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>
 <entry key="expression|name|7">'Država' (BT-5141-Part) je izpolnjeno</entry>

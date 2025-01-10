@@ -465,6 +465,7 @@
 <entry key="expression|name|661">'Organisaation tekninen ID (ORG-XXX)'(OPT-200-Organization-Company) on 'Organisaatio, joka täyttää tämän roolin' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Valintaperusteet' (BT-809-Lot) ei ole olemassa tai 'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä' tai 'Menettelyn tyyppi' (BT-105) ei ole 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely' tai 'Rajoitettu'</entry>
 <entry key="expression|name|67">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>
+<entry key="expression|name|671">'Luku on tyypiltään painotus' (BT-5421) ei ole 'Ensisijaisuusjärjestys'</entry>
 <entry key="expression|name|68">'Alihankinnan arvo tiedossa' (BT-730-Tender) ei ole 'kyllä'</entry>
 <entry key="expression|name|69">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>
 <entry key="expression|name|7">'Maa' (BT-5141-Part) on täytetty</entry>
