@@ -56,24 +56,24 @@
 		<assert id="BR-BT-00165-0036" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0036</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '30']">
-		<assert id="BR-BT-00165-0037" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0036</assert>
+		<assert id="BR-BT-00165-0037" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0037</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '32']">
-		<assert id="BR-BT-00165-0039" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0036</assert>
+		<assert id="BR-BT-00165-0039" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0039</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '33']">
-		<assert id="BR-BT-00165-0042" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0036</assert>
+		<assert id="BR-BT-00165-0042" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0042</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '34']">
-		<assert id="BR-BT-00165-0043" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0036</assert>
+		<assert id="BR-BT-00165-0043" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0043</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '35']">
-		<assert id="BR-BT-00165-0044" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0036</assert>
+		<assert id="BR-BT-00165-0044" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0044</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '36']">
-		<assert id="BR-BT-00165-0045" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0036</assert>
+		<assert id="BR-BT-00165-0045" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0045</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '37']">
-		<assert id="BR-BT-00165-0046" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0036</assert>
+		<assert id="BR-BT-00165-0046" role="ERROR" diagnostics="BT-165-Organization-Company" test="count(efbc:CompanySizeCode) &gt; 0 or not((cac:PartyIdentification/cbc:ID = $global-org-winner) or (cac:PartyIdentification/cbc:ID = $global-org-winner-subcontractor))">rule|text|BR-BT-00165-0046</assert>
 	</rule>
 </pattern>
