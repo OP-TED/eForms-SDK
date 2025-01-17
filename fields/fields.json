@@ -22368,15 +22368,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{BT-501-Organization-Company} ${BT-501-Organization-Company is unique in /BT-501-Organization-Company}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00501-0259"
-      } ]
     }
   }, {
     "id" : "BT-5010-Lot",

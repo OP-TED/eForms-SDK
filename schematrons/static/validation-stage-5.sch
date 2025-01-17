@@ -544,9 +544,6 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00200-0100" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID[. = $x] return $y) = 1">rule|text|BR-OPT-00200-0100</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity/cbc:CompanyID">
-		<assert id="BR-BT-00501-0259" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity/cbc:CompanyID[. = $x] return $y) = 1">rule|text|BR-BT-00501-0259</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00201-0100" role="ERROR" test="count(for $x in ., $y in /*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PartyIdentification/cbc:ID[. = $x] return $y) = 1">rule|text|BR-OPT-00201-0100</assert>
 	</rule>
