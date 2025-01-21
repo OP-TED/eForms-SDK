@@ -6,7 +6,7 @@
       <LongName>social-service-cpv</LongName>
       <LongName Identifier="listId">http://data.europa.eu/cpv/Cpv2008/Code</LongName>
       <LongName Identifier="eFormsParentId">cpv</LongName>
-      <Version>1.13.0</Version>
+      <Version>1.14.0-SNAPSHOT</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -183,7 +183,7 @@
             <SimpleValue>Administratieve diensten voor onderwijs</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi administracyjne w zakresie edukacji</SimpleValue>
+            <SimpleValue>Usługi administracyjne w zakresie edukacji</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços administrativos na área da educação</SimpleValue>
@@ -195,7 +195,7 @@
             <SimpleValue>Vzdelávacie služby verejnej správy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Upravne storitve v izobraževanju</SimpleValue>
+            <SimpleValue>Upravne storitve v izobraževanju</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Utbildningsadministration</SimpleValue>
@@ -263,7 +263,7 @@
             <SimpleValue>Administratieve diensten voor gezondheidszorg</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi administracyjne w zakresie opieki zdrowotnej</SimpleValue>
+            <SimpleValue>Usługi administracyjne w zakresie opieki zdrowotnej</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços administrativos na área da saúde</SimpleValue>
@@ -275,7 +275,7 @@
             <SimpleValue>Zdravotnícke služby verejnej správy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Upravne storitve v zdravstvu</SimpleValue>
+            <SimpleValue>Upravne storitve v zdravstvu</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Hälsovårdsförvaltning</SimpleValue>
@@ -352,10 +352,10 @@
             <SimpleValue>Servicii administrative în domeniul locuinţelor</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby verejnej správy súvisiace s bývaním</SimpleValue>
+            <SimpleValue>Služby verejnej správy súvisiace s bývaním</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Upravne storitve v stanovanjskem gospodarstvu</SimpleValue>
+            <SimpleValue>Upravne storitve v stanovanjskem gospodarstvu</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Fastighetsförvaltning</SimpleValue>
@@ -423,7 +423,7 @@
             <SimpleValue>Diensten voor de terbeschikkingstelling van huishoudelijke hulp</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi w zakresie pozyskiwania pracowników świadczących pomoc domową</SimpleValue>
+            <SimpleValue>Usługi w zakresie pozyskiwania pracowników świadczących pomoc domową</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de fornecimento de pessoal auxiliar doméstico</SimpleValue>
@@ -435,7 +435,7 @@
             <SimpleValue>Zabezpečovanie pomocného personálu pre domácnosť</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve zagotavljanja osebja za pomoč v gospodinjstvu</SimpleValue>
+            <SimpleValue>Storitve zagotavljanja osebja za pomoč v gospodinjstvu</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Tillhandahållande av hemtjänstpersonal</SimpleValue>
@@ -503,7 +503,7 @@
             <SimpleValue>Diensten voor de terbeschikkingstelling van verpleegkundig personeel</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi w zakresie pozyskiwania personelu pielęgniarskiego</SimpleValue>
+            <SimpleValue>Usługi w zakresie pozyskiwania personelu pielęgniarskiego</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de fornecimento de pessoal de enfermagem</SimpleValue>
@@ -583,7 +583,7 @@
             <SimpleValue>Diensten voor de terbeschikkingstelling van medisch personeel</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi w zakresie pozyskiwania personelu medycznego</SimpleValue>
+            <SimpleValue>Usługi w zakresie pozyskiwania personelu medycznego</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de fornecimento de pessoal médico</SimpleValue>
@@ -832,7 +832,7 @@
             <SimpleValue>Servicii de e-învăţare (e-learning)</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby v oblasti elektronického vzdelávania</SimpleValue>
+            <SimpleValue>Služby v oblasti elektronického vzdelávania</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve e-učenja</SimpleValue>
@@ -1172,7 +1172,7 @@
             <SimpleValue>Услуги на здравеопазването и социалните дейности</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Zdravotní a sociální péče</SimpleValue>
+            <SimpleValue>Zdravotní a sociální péče</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Sundhedsvæsen og sociale foranstaltninger</SimpleValue>
@@ -1223,7 +1223,7 @@
             <SimpleValue>Gezondheidszorg en maatschappelijk werk</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi w zakresie zdrowia i opieki społecznej</SimpleValue>
+            <SimpleValue>Usługi w zakresie zdrowia i opieki społecznej</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de saúde e acção social</SimpleValue>
@@ -1232,7 +1232,7 @@
             <SimpleValue>Servicii de sănătate şi servicii de asistenţă socială</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Zdravotnícka a sociálna pomoc</SimpleValue>
+            <SimpleValue>Zdravotnícka a sociálna pomoc</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve na področju zdravstva in socialnega varstva</SimpleValue>
@@ -1332,7 +1332,7 @@
             <SimpleValue>Услуги на лечебни заведения за болнична помощ и свързаните с тях услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Služby nemocnic a související služby</SimpleValue>
+            <SimpleValue>Služby nemocnic a související služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Hospitalsvirksomhed og hermed beslægtet virksomhed</SimpleValue>
@@ -1377,13 +1377,13 @@
             <SimpleValue>Slimnīcu un saistītie pakalpojumi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi ta' l-isptar u dawk relatati magħhom</SimpleValue>
+            <SimpleValue>Servizzi ta' l-isptar u dawk relatati magħhom</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Ziekenhuis- en aanverwante diensten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi szpitalne i podobne</SimpleValue>
+            <SimpleValue>Usługi szpitalne i podobne</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços hospitalares e afins</SimpleValue>
@@ -1392,10 +1392,10 @@
             <SimpleValue>Servicii spitaliceşti şi servicii conexe</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nemocničné a súvisiace služby</SimpleValue>
+            <SimpleValue>Nemocničné a súvisiace služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve bolnišnic in z njimi povezane storitve</SimpleValue>
+            <SimpleValue>Storitve bolnišnic in z njimi povezane storitve</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Sjukhustjänster och tillhörande tjänster</SimpleValue>
@@ -1492,7 +1492,7 @@
             <SimpleValue>Хирургически болнични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Chirurgické služby v nemocnicích</SimpleValue>
+            <SimpleValue>Chirurgické služby v nemocnicích</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Konsultation og behandling på kirurgisk afdeling</SimpleValue>
@@ -1555,7 +1555,7 @@
             <SimpleValue>Chirurgické nemocničné služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Kirurške storitve v bolnišnici</SimpleValue>
+            <SimpleValue>Kirurške storitve v bolnišnici</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Kirurgisk sjukhusvård</SimpleValue>
@@ -1572,7 +1572,7 @@
             <SimpleValue>Многопрофилни болнични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Zdravotnické služby v nemocnicích</SimpleValue>
+            <SimpleValue>Zdravotnické služby v nemocnicích</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Konsultation og behandling på medicinsk afdeling</SimpleValue>
@@ -1635,7 +1635,7 @@
             <SimpleValue>Lekárske nemocničné služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve medicinske oskrbe v bolnišnici</SimpleValue>
+            <SimpleValue>Storitve medicinske oskrbe v bolnišnici</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Läkarvård på sjukhus</SimpleValue>
@@ -1652,7 +1652,7 @@
             <SimpleValue>Гинекологични болнични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Gynekologické služby v nemocnicích</SimpleValue>
+            <SimpleValue>Gynekologické služby v nemocnicích</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Konsultation og behandling på gynækologisk afdeling</SimpleValue>
@@ -1715,7 +1715,7 @@
             <SimpleValue>Gynekologické nemocničné služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve ginekološke oskrbe v bolnišnici</SimpleValue>
+            <SimpleValue>Storitve ginekološke oskrbe v bolnišnici</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Gynekologisk sjukhusvård</SimpleValue>
@@ -1792,7 +1792,7 @@
             <SimpleValue>Servicii de fertilizare in vitro</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby v oblasti umelého oplodnenia</SimpleValue>
+            <SimpleValue>Služby v oblasti umelého oplodnenia</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve in vitro fertilizacije</SimpleValue>
@@ -1812,7 +1812,7 @@
             <SimpleValue>Акушерски болнични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Porodnické služby v nemocnicích</SimpleValue>
+            <SimpleValue>Porodnické služby v nemocnicích</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tjenesteydelser inden for obstetrik</SimpleValue>
@@ -1875,7 +1875,7 @@
             <SimpleValue>Pôrodnícke nemocničné služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Porodniške storitve v bolnišnici</SimpleValue>
+            <SimpleValue>Porodniške storitve v bolnišnici</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Förlossningsvård</SimpleValue>
@@ -1892,7 +1892,7 @@
             <SimpleValue>Рехабилитационни болнични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Rehabilitační služby v nemocnicích</SimpleValue>
+            <SimpleValue>Rehabilitační služby v nemocnicích</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Konsultation og behandling på revalideringsklinik</SimpleValue>
@@ -1955,7 +1955,7 @@
             <SimpleValue>Rehabilitačné nemocničné služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Rehabilitacijske storitve v bolnišnici</SimpleValue>
+            <SimpleValue>Rehabilitacijske storitve v bolnišnici</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Sjukhusrehabilitering</SimpleValue>
@@ -1972,7 +1972,7 @@
             <SimpleValue>Психиатрични болнични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Psychiatrické služby v nemocnicích</SimpleValue>
+            <SimpleValue>Psychiatrické služby v nemocnicích</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Konsultation og behandling på psykiatrisk afdeling</SimpleValue>
@@ -2035,7 +2035,7 @@
             <SimpleValue>Psychiatrické nemocničné služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve psihiatrične oskrbe v bolnišnici</SimpleValue>
+            <SimpleValue>Storitve psihiatrične oskrbe v bolnišnici</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Mentalvård på sjukhus</SimpleValue>
@@ -2052,7 +2052,7 @@
             <SimpleValue>Услуги, свързани с ортопедични изделия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Ortopedické služby v nemocnicích</SimpleValue>
+            <SimpleValue>Ortopedické služby v nemocnicích</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Virksomhed i forbindelse med ortopædi</SimpleValue>
@@ -2195,7 +2195,7 @@
             <SimpleValue>Liečba kyslíkom</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve s kisikoterapijo</SimpleValue>
+            <SimpleValue>Storitve s kisikoterapijo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Syrgasbehandling</SimpleValue>
@@ -2663,7 +2663,7 @@
             <SimpleValue>Dienstverlening ten aanzien van ziekenhuisbeddengoed</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi związane z zakwaterowaniem pacjentów w szpitalach</SimpleValue>
+            <SimpleValue>Usługi związane z zakwaterowaniem pacjentów w szpitalach</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de fornecimento de roupa de cama a hospitais</SimpleValue>
@@ -2675,7 +2675,7 @@
             <SimpleValue>Nemocničné lôžkové služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve oskrbe bolnišnic s posteljnim perilom</SimpleValue>
+            <SimpleValue>Storitve oskrbe bolnišnic s posteljnim perilom</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Leverans av sänglinne till sjukhus</SimpleValue>
@@ -2752,7 +2752,7 @@
             <SimpleValue>Servicii de asistenţă ambulatorie</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby v oblasti ambulantnej starostlivosti</SimpleValue>
+            <SimpleValue>Služby v oblasti ambulantnej starostlivosti</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve oskrbe dnevne bolnišnice</SimpleValue>
@@ -2772,7 +2772,7 @@
             <SimpleValue>Услуги на лечебни заведения за извънболнична лекарска помощ</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Lékařská praxe a související služby</SimpleValue>
+            <SimpleValue>Lékařská praxe a související služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Behandling og konsultation hos praktiserende læger og hermed beslægtet virksomhed</SimpleValue>
@@ -2817,13 +2817,13 @@
             <SimpleValue>Medicīniskās prakses un saistītie pakalpojumi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi tal-prattika medika u dawk relatati</SimpleValue>
+            <SimpleValue>Servizzi tal-prattika medika u dawk relatati</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Medische praktijk en aanverwante diensten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi medyczne i podobne</SimpleValue>
+            <SimpleValue>Usługi medyczne i podobne</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de prática médica e serviços conexos</SimpleValue>
@@ -2832,10 +2832,10 @@
             <SimpleValue>Servicii de practică medicală şi servicii conexe</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Praktické lekárstvo a súvisiace služby</SimpleValue>
+            <SimpleValue>Praktické lekárstvo a súvisiace služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve zdravniških ordinacij in z njimi povezane storitve</SimpleValue>
+            <SimpleValue>Storitve zdravniških ordinacij in z njimi povezane storitve</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Läkarvård och tillhörande tjänster</SimpleValue>
@@ -3092,7 +3092,7 @@
             <SimpleValue>Акушеро-гинекологични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Gynekologické a porodnické služby</SimpleValue>
+            <SimpleValue>Gynekologické a porodnické služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Gynækologiske eller obstetriske tjenester</SimpleValue>
@@ -3152,7 +3152,7 @@
             <SimpleValue>Servicii de obstetrică sau ginecologie</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Gynekologické a pôrodnícke služby</SimpleValue>
+            <SimpleValue>Gynekologické a pôrodnícke služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve ginekologa ali porodničarja</SimpleValue>
@@ -3172,7 +3172,7 @@
             <SimpleValue>Специализирани услуги по нефрология или неврология</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Neurologické služby a služby odborníků na centrální nervový systém</SimpleValue>
+            <SimpleValue>Neurologické služby a služby odborníků na centrální nervový systém</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Nefrologiske tjenester eller tjenester i forbindelse med nervesystemsygdomme</SimpleValue>
@@ -3223,7 +3223,7 @@
             <SimpleValue>Diensten van nefrologie- of zenuwspecialist</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi specjalistyczne w zakresie nefrologii lub układu nerwowego</SimpleValue>
+            <SimpleValue>Usługi specjalistyczne w zakresie nefrologii lub układu nerwowego</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços especializados de nefrologia ou do sistema nervoso</SimpleValue>
@@ -3232,7 +3232,7 @@
             <SimpleValue>Servicii de nefrologie sau neurologie</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby špecialistu na nefrológiu a nervový systém</SimpleValue>
+            <SimpleValue>Služby špecialistu na nefrológiu a nervový systém</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve nefrologa ali nevrologa</SimpleValue>
@@ -3252,7 +3252,7 @@
             <SimpleValue>Специализирани услуги по кардиология или белодробни заболявания</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Kardiologické služby a služby plicních odborníků</SimpleValue>
+            <SimpleValue>Kardiologické služby a služby plicních odborníků</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tjenester i forbindelse med hjerte- eller lungesygdomme</SimpleValue>
@@ -3312,7 +3312,7 @@
             <SimpleValue>Servicii de cardiologie sau servicii prestate de pneumologi</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Kardiologické služby a služby pľúcneho špecialistu</SimpleValue>
+            <SimpleValue>Kardiologické služby a služby pľúcneho špecialistu</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve kardiologa ali pulmologa</SimpleValue>
@@ -3492,7 +3492,7 @@
             <SimpleValue>УНГ услуги или аудиология</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>ORL a audiologické služby</SimpleValue>
+            <SimpleValue>ORL a audiologické služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Tjenester i forbindelse med øre-, næse-, halssygdomme eller audiolog</SimpleValue>
@@ -3572,7 +3572,7 @@
             <SimpleValue>Услуги по гастроентерология и гериатрия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Gastroentrologické a geriatrické služby</SimpleValue>
+            <SimpleValue>Gastroentrologické a geriatrické služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Gastroenterologiske og geriatriske tjenester</SimpleValue>
@@ -3623,7 +3623,7 @@
             <SimpleValue>Diensten van gastro-enteroloog en geriater</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi gastroenterologiczne i pediatryczne</SimpleValue>
+            <SimpleValue>Usługi gastroenterologiczne i pediatryczne</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de gastroenterologia e geriatria</SimpleValue>
@@ -3632,7 +3632,7 @@
             <SimpleValue>Servicii de gastroenterologie şi geriatrie</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Gastroenterologické a geriatrické služby</SimpleValue>
+            <SimpleValue>Gastroenterologické a geriatrické služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve gastroenterologa in geriatra</SimpleValue>
@@ -3812,7 +3812,7 @@
             <SimpleValue>Психиатрични или психологични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Psychiatrické a psychologické služby</SimpleValue>
+            <SimpleValue>Psychiatrické a psychologické služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Psykiater- eller psykologtjenester</SimpleValue>
@@ -3943,7 +3943,7 @@
             <SimpleValue>Diensten van tehuis voor patiënten met psychische stoornissen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi ośrodków dla osób z zaburzeniami psychologicznymi</SimpleValue>
+            <SimpleValue>Usługi ośrodków dla osób z zaburzeniami psychologicznymi</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços ao domicílio para pessoas com perturbações psicológicas</SimpleValue>
@@ -3972,7 +3972,7 @@
             <SimpleValue>Офталмологични, дерматологични и ортопедични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Oftalmologické, dermatologické a ortopedické služby</SimpleValue>
+            <SimpleValue>Oftalmologické, dermatologické a ortopedické služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Oftalmologiske, dermatologiske eller ortopædiske tjenester</SimpleValue>
@@ -4032,7 +4032,7 @@
             <SimpleValue>Servicii de oftalmologie, dermatologie sau ortopedie</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Oftalmologické, dermatologické a ortopedické služby</SimpleValue>
+            <SimpleValue>Oftalmologické, dermatologické a ortopedické služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve oftalmologa, dermatologa ali ortopeda</SimpleValue>
@@ -4292,7 +4292,7 @@
             <SimpleValue>Педиатрични или урологични услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Pediatrické a urologické služby</SimpleValue>
+            <SimpleValue>Pediatrické a urologické služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Pædiatriske eller urologiske tjenester</SimpleValue>
@@ -4612,7 +4612,7 @@
             <SimpleValue>Стоматологични услуги и свързани с тях услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Zubní lékařství a související služby</SimpleValue>
+            <SimpleValue>Zubní lékařství a související služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Behandling hos praktiserende tandlæger og hermed beslægtet virksomhed</SimpleValue>
@@ -4657,13 +4657,13 @@
             <SimpleValue>Stomatoloģijas prakses un saistītie pakalpojumi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi tal-prattika dentali u dawk relatati</SimpleValue>
+            <SimpleValue>Servizzi tal-prattika dentali u dawk relatati</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Tandartspraktijk en aanverwante diensten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi stomatologiczne i podobne</SimpleValue>
+            <SimpleValue>Usługi stomatologiczne i podobne</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de medicina dentária e serviços conexos</SimpleValue>
@@ -4672,10 +4672,10 @@
             <SimpleValue>Servicii de practică dentară şi servicii conexe</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby zubnej lekárskej praxe a súvisiace služby</SimpleValue>
+            <SimpleValue>Služby zubnej lekárskej praxe a súvisiace služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve zobozdravniških ordinacij in z njimi povezane storitve</SimpleValue>
+            <SimpleValue>Storitve zobozdravniških ordinacij in z njimi povezane storitve</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Tandläkarvård och tillhörande tjänster</SimpleValue>
@@ -4983,7 +4983,7 @@
             <SimpleValue>Diverse gezondheidszorgdiensten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Różne usługi w dziedzinie zdrowia</SimpleValue>
+            <SimpleValue>Różne usługi w dziedzinie zdrowia</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de saúde diversos</SimpleValue>
@@ -5303,7 +5303,7 @@
             <SimpleValue>Diensten voor medische behandeling thuis</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi leczenia medycznego świadczone w warunkach domowych</SimpleValue>
+            <SimpleValue>Usługi leczenia medycznego świadczone w warunkach domowych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de tratamento médico ao domicílio</SimpleValue>
@@ -5383,7 +5383,7 @@
             <SimpleValue>Diensten voor dialysebehandeling thuis</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Dializy wykonywane w warunkach domowych</SimpleValue>
+            <SimpleValue>Dializy wykonywane w warunkach domowych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de diálise ao domicílio</SimpleValue>
@@ -5783,7 +5783,7 @@
             <SimpleValue>Hygiënediensten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi w zakresie higieny</SimpleValue>
+            <SimpleValue>Usługi w zakresie higieny</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de higiene</SimpleValue>
@@ -5851,7 +5851,7 @@
             <SimpleValue>Consegna a domicilio di prodotti per incontinenti</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Nelaikymo slaugos produktų pristatymo į namus paslaugos</SimpleValue>
+            <SimpleValue>Nelaikymo slaugos produktų pristatymo į namus paslaugos</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Urīna nesaturēšanas piederumu piegāde mājās</SimpleValue>
@@ -5863,7 +5863,7 @@
             <SimpleValue>Thuisbezorging van producten voor incontinentiepatiënten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Dostarczanie do domu urządzeń używanych w przypadku nietrzymania moczu lub kału</SimpleValue>
+            <SimpleValue>Dostarczanie do domu urządzeń używanych w przypadku nietrzymania moczu lub kału</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Entrega ao domicílio de produtos para incontinência</SimpleValue>
@@ -6515,7 +6515,7 @@
             <SimpleValue>Podnikové zdravotné služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Zdravstvene storitve v podjetjih</SimpleValue>
+            <SimpleValue>Zdravstvene storitve v podjetjih</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Företagshälsovård</SimpleValue>
@@ -6852,7 +6852,7 @@
             <SimpleValue>Услуги в областта на акупунктурата и хиропраксиса</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Akupunktura a chiropraxe</SimpleValue>
+            <SimpleValue>Akupunktura a chiropraxe</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Akupunktur- og kiropraktortjenester</SimpleValue>
@@ -6897,13 +6897,13 @@
             <SimpleValue>Akupunktūras un hiropraktiķu pakalpojumi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi ta' akupuntura u kiroprattika</SimpleValue>
+            <SimpleValue>Servizzi ta' akupuntura u kiroprattika</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Diensten van acupuncturist en chiropractor</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi w zakresie akupunktury i kręgarstwa</SimpleValue>
+            <SimpleValue>Usługi w zakresie akupunktury i kręgarstwa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de acupunctura e quiropraxia</SimpleValue>
@@ -6912,7 +6912,7 @@
             <SimpleValue>Servicii de acupunctură şi chiropraxie</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Akupunktúrne a chiropraktické služby</SimpleValue>
+            <SimpleValue>Akupunktúrne a chiropraktické služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve akupunkturologa in kiropraktika</SimpleValue>
@@ -6983,7 +6983,7 @@
             <SimpleValue>Diensten van acupuncturist</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi w zakresie akupunktury</SimpleValue>
+            <SimpleValue>Usługi w zakresie akupunktury</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de acupunctura</SimpleValue>
@@ -7063,7 +7063,7 @@
             <SimpleValue>Diensten van chiropractor</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi w zakresie kręgarstwa</SimpleValue>
+            <SimpleValue>Usługi w zakresie kręgarstwa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de quiropraxia</SimpleValue>
@@ -7252,7 +7252,7 @@
             <SimpleValue>Социални и свързаните с тях услуги</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Sociální péče a související služby</SimpleValue>
+            <SimpleValue>Sociální péče a související služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Sociale foranstaltninger og hermed beslægtet virksomhed</SimpleValue>
@@ -7297,13 +7297,13 @@
             <SimpleValue>Sociālie pakalpojumi un saistītie pakalpojumi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi ta' xogħol soċjali u dawk relatati</SimpleValue>
+            <SimpleValue>Servizzi ta' xogħol soċjali u dawk relatati</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Maatschappelijke en aanverwante diensten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi pracy społecznej i podobnej</SimpleValue>
+            <SimpleValue>Usługi pracy społecznej i podobnej</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de acção social e serviços conexos</SimpleValue>
@@ -7312,10 +7312,10 @@
             <SimpleValue>Servicii de asistenţă socială şi servicii conexe</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby sociálnej pomoci a súvisiace služby</SimpleValue>
+            <SimpleValue>Služby sociálnej pomoci a súvisiace služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve socialnega varstva in z njimi povezane storitve</SimpleValue>
+            <SimpleValue>Storitve socialnega varstva in z njimi povezane storitve</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Socialvård och tillhörande tjänster</SimpleValue>
@@ -7472,10 +7472,10 @@
             <SimpleValue>Servicii de asistenţă socială cu cazare</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby sociálnej pomoci s ubytovaním</SimpleValue>
+            <SimpleValue>Služby sociálnej pomoci s ubytovaním</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve socialnega varstva z nastanitvijo</SimpleValue>
+            <SimpleValue>Storitve socialnega varstva z nastanitvijo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Social omsorg med inkvartering</SimpleValue>
@@ -7652,7 +7652,7 @@
             <SimpleValue>Услуги на заведения за деца и младежи в затруднение</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Sociální zařízení pro děti a mládež</SimpleValue>
+            <SimpleValue>Sociální zařízení pro děti a mládež</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Forsorg for børn og unge</SimpleValue>
@@ -7697,13 +7697,13 @@
             <SimpleValue>Sociālie pakalpojumi bērniem un jauniešiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi ta' ħarsien għal tfal u żagħżagħ</SimpleValue>
+            <SimpleValue>Servizzi ta' ħarsien għal tfal u żagħżagħ</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Welzijnszorg voor kinderen en jongeren</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi opieki społecznej dla dzieci i młodzieży</SimpleValue>
+            <SimpleValue>Usługi opieki społecznej dla dzieci i młodzieży</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de assistência social a crianças e jovens</SimpleValue>
@@ -7712,7 +7712,7 @@
             <SimpleValue>Servicii sociale pentru copii şi tineri</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Sociálna pomoc deťom a mládeži</SimpleValue>
+            <SimpleValue>Sociálna pomoc deťom a mládeži</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve varstva za otroke in mladino</SimpleValue>
@@ -7875,7 +7875,7 @@
             <SimpleValue>Celodenná starostlivosť</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve oskrbe v dnevnih centrih</SimpleValue>
+            <SimpleValue>Storitve oskrbe v dnevnih centrih</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Tjänster för dagcentrer</SimpleValue>
@@ -7892,7 +7892,7 @@
             <SimpleValue>Услуги на дневни ясли и градини, с изключение на тези за деца с умствени и физически увреждания</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Péče o děti</SimpleValue>
+            <SimpleValue>Péče o děti</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Daginstitutioner for børn</SimpleValue>
@@ -7952,10 +7952,10 @@
             <SimpleValue>Servicii prestate de centre de zi pentru copii</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Celodenná starostlivosť o deti</SimpleValue>
+            <SimpleValue>Celodenná starostlivosť o deti</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve oskrbe v jaslih</SimpleValue>
+            <SimpleValue>Storitve oskrbe v jaslih</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Barnomsorg inom förskola</SimpleValue>
@@ -7972,7 +7972,7 @@
             <SimpleValue>Услуги на дневни центрове за деца и младежи с умствени и физически увреждания</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Péče o tělesně nebo duševně postižené děti a mladé lidi</SimpleValue>
+            <SimpleValue>Péče o tělesně nebo duševně postižené děti a mladé lidi</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Daginstitutioner for handicappede børn og unge</SimpleValue>
@@ -8017,13 +8017,13 @@
             <SimpleValue>Dienas aprūpes pakalpojumi bērniem un jauniešiem ar īpašām vajadzībām</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi ta' kura matul il-jum għat-tfal u taż-żagħżagħ</SimpleValue>
+            <SimpleValue>Servizzi ta' kura matul il-jum għat-tfal u taż-żagħżagħ</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Dagverblijven voor gehandicapte kinderen en jongeren</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi opieki dziennej nad dziećmi i młodzieżą niepełnosprawną</SimpleValue>
+            <SimpleValue>Usługi opieki dziennej nad dziećmi i młodzieżą niepełnosprawną</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de centros de dia para crianças e jovens com deficiência</SimpleValue>
@@ -8032,10 +8032,10 @@
             <SimpleValue>Servicii prestate de centre de zi pentru copii şi tineri cu handicap</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Denná starostlivosť o postihnuté deti a mládež</SimpleValue>
+            <SimpleValue>Denná starostlivosť o postihnuté deti a mládež</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve oskrbe v dnevnih centrih za prizadete otroke in mladino</SimpleValue>
+            <SimpleValue>Storitve oskrbe v dnevnih centrih za prizadete otroke in mladino</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Dagvård för handikappade barn och ungdomar</SimpleValue>
@@ -8091,7 +8091,7 @@
             <SimpleValue>Consegna a domicilio di prodotti alimentari</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Maisto atsargų pristatymas į namus</SimpleValue>
+            <SimpleValue>Maisto atsargų pristatymas į namus</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Pirkumu piegāde mājās</SimpleValue>
@@ -8132,7 +8132,7 @@
             <SimpleValue>Услуги по консултиране, ориентиране, съдействие и помощ, свързани със семейството и децата</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Pomocné a poradenské služby</SimpleValue>
+            <SimpleValue>Pomocné a poradenské služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Vejledning og rådgivning</SimpleValue>
@@ -8177,13 +8177,13 @@
             <SimpleValue>Virzības un padomdevēju pakalpojumi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi ta' konsulenza u pariri</SimpleValue>
+            <SimpleValue>Servizzi ta' konsulenza u pariri</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Diensten voor begeleiding en adviesverlening</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi dozoru i doradztwa</SimpleValue>
+            <SimpleValue>Usługi dozoru i doradztwa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de orientação e aconselhamento</SimpleValue>
@@ -8192,7 +8192,7 @@
             <SimpleValue>Servicii de orientare şi de consultanţă profesională</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Usmerňovanie a poradenské služby</SimpleValue>
+            <SimpleValue>Usmerňovanie a poradenské služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Usmerjevalne in svetovalne storitve</SimpleValue>
@@ -8435,7 +8435,7 @@
             <SimpleValue>Služby pre plánované rodičovstvo</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve v zvezi z načrtovanjem družine</SimpleValue>
+            <SimpleValue>Storitve v zvezi z načrtovanjem družine</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Familjeplanering</SimpleValue>
@@ -8512,10 +8512,10 @@
             <SimpleValue>Servicii sociale neprestate de instituţii rezidenţiale</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Sociálna pomoc neposkytovaná zariadeniami s dlhodobým ubytovaním</SimpleValue>
+            <SimpleValue>Sociálna pomoc neposkytovaná zariadeniami s dlhodobým ubytovaním</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Storitve varstva, ki se ne opravljajo v domovih</SimpleValue>
+            <SimpleValue>Storitve varstva, ki se ne opravljajo v domovih</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Annan omsorg än den som tillhandahålls av boendeinstitutioner</SimpleValue>
@@ -8612,7 +8612,7 @@
             <SimpleValue>Услуги по професионална рехабилитация</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Rehabilitace při nemocech z povolání</SimpleValue>
+            <SimpleValue>Rehabilitace při nemocech z povolání</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Erhvervsrevalideringsvirksomhed</SimpleValue>
@@ -8672,7 +8672,7 @@
             <SimpleValue>Servicii de reabilitare profesională</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Rehabilitačné služby pre choroby z povolania</SimpleValue>
+            <SimpleValue>Rehabilitačné služby pre choroby z povolania</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve zaposlitvene rehabilitacije</SimpleValue>
@@ -9012,7 +9012,7 @@
             <SimpleValue>Услуги на библиотеки, архиви, музеи и други услуги в областта на културата</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Knihovny, archivy, muzea a jiné kulturní služby</SimpleValue>
+            <SimpleValue>Knihovny, archivy, muzea a jiné kulturní služby</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Biblioteker, arkiver, museer og anden kulturel virksomhed</SimpleValue>
@@ -9057,13 +9057,13 @@
             <SimpleValue>Bibliotēku, arhīvu, muzeju un citi kultūras pakalpojumi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Servizzi tal-libreriji, arkivji, mużewijiet u servizzi kulturali oħrajn</SimpleValue>
+            <SimpleValue>Servizzi tal-libreriji, arkivji, mużewijiet u servizzi kulturali oħrajn</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Bibliotheek-, archief-, musea- en andere culturele diensten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Usługi świadczone przez biblioteki, archiwa, muzea i inne usługi kulturalne</SimpleValue>
+            <SimpleValue>Usługi świadczone przez biblioteki, archiwa, muzea i inne usługi kulturalne</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Serviços de bibliotecas, arquivos e museus e outros serviços culturais</SimpleValue>
@@ -9072,7 +9072,7 @@
             <SimpleValue>Servicii prestate de biblioteci, arhive, muzee şi alte servicii culturale</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Služby knižníc, archívov, múzeí a iné kultúrne služby</SimpleValue>
+            <SimpleValue>Služby knižníc, archívov, múzeí a iné kultúrne služby</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Storitve knjižnic, arhivov, muzejev in drugih kulturnih ustanov</SimpleValue>

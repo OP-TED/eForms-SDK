@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.76",
-    "createdOn" : "2025-01-09T16:37:23"
+    "version" : "1.13.83",
+    "createdOn" : "2025-01-14T14:03:11"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -3071,10 +3071,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${((OPP-070-notice in ('14','19','28','32','35','40') or (OPP-070-notice == 'E5' and BT-01-notice == '32014L0023')) and not(BT-531-Procedure == 'supplies') and not(BT-531-Lot == 'supplies') and not(BT-531-Part == 'supplies')) or not(OPP-070-notice in ('14','19','28','32','35','40') or (OPP-070-notice == 'E5' and BT-01-notice == '32014L0023'))}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00002-0101"
-      }, {
         "value" : "{ND-Root} ${((BT-03-notice == 'bri') and (BT-02-notice in (bri))) or not(BT-03-notice == 'bri')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00002-0103"

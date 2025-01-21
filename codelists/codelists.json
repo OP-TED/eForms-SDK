@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.13.0",
+  "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.0",
-    "createdOn" : "2024-10-14T13:00:00"
+    "version" : "1.13.87",
+    "createdOn" : "2025-01-21T09:14:02"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -504,7 +504,7 @@
     "_label" : "codelist|name|language"
   }, {
     "id" : "lawful-country",
-    "version" : "1.13.0",
+    "version" : "1.14.0-SNAPSHOT",
     "parentId" : "country",
     "filename" : "country_lawful-country.gc",
     "description" : "List of countries for which there is a legal basis for publication in the Supplement to the Official Journal of the European Union",
@@ -1731,7 +1731,7 @@
     "_label" : "codelist|name|social-objective"
   }, {
     "id" : "social-service-cpv",
-    "version" : "1.13.0",
+    "version" : "1.14.0-SNAPSHOT",
     "parentId" : "cpv",
     "filename" : "cpv_social-service-cpv.gc",
     "description" : "Codes for social service of CPV",
