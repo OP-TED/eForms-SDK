@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Kritériá prístupnosti</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc komunikačný kanál</entry>
 <entry key="auxiliary|text|award-criteria">Kritériá na vyhodnotenie ponúk</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategória kritéria na vyhodnotenie ponúk hmotnosť</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategória kritéria na vyhodnotenie ponúk pevná hodnota</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategória kritéria na vyhodnotenie ponúk prah</entry>
 <entry key="auxiliary|text|beneficial-owner">Oprávnený vlastník</entry>
 <entry key="auxiliary|text|buyer">Kupujúci</entry>
 <entry key="auxiliary|text|buyer-competent">Príslušný orgán</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Trvanie</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Trvanie výzvy na vyjadrenie záujmu</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informácie o dynamickom nákupnom systéme</entry>
+<entry key="auxiliary|text|eed-applicable">Obstarávanie spadá do pôsobnosti smernice o energetickej účinnosti (EED) (EÚ) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Zoznam výrobkov, prác, služieb a budov súvisiacich so smernicou o energetickej účinnosti (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektronická aukcia</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Predpokladaný dátum začiatku platnosti a trvania zmluvy</entry>
 <entry key="auxiliary|text|essential-assets">Základné aktíva</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Skupina častí</entry>
 <entry key="auxiliary|text|grouping">Názov zoskupenia</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informácie o odmenách a sankciách</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Obstarávanie spadá do pôsobnosti Medzinárodného nástroja verejného obstarávania (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Štatistika o opatreniach Medzinárodného nástroja verejného obstarávania (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Jazyky, v ktorých možno predložiť vyjadrenia záujmu</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informácie, ktoré možno doplniť po uplynutí lehoty na predkladanie ponúk</entry>
 <entry key="auxiliary|text|legal-basis">Právny základ</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Obnovenie</entry>
 <entry key="auxiliary|text|results">Výsledky</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Výsledok postupu verejného obstarávania</entry>
+<entry key="auxiliary|text|review">Preskúmanie</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Žiadosť o preskúmanie alebo o dočasné opatrenia bola stiahnutá</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Typ údajnej nezrovnalosti</entry>
 <entry key="auxiliary|text|review-requests-summary">Zhrnutie žiadostí o preskúmanie, ktoré boli kupujúcemu doručené</entry>
 <entry key="auxiliary|text|roles">Roly tejto organizácie</entry>

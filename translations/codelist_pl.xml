@@ -46,6 +46,7 @@
 <entry key="codelist|name|ecatalog-submission">Lista kodów określających, czy przesyłanie katalogów elektronicznych jest dozwolone.</entry>
 <entry key="codelist|name|economic-operator-size">Ta tabela przedstawia poszczególne kategorie, do których klasyfikowani są oferenci, którym można udzielić zamówienia, w zależności od ich wielkości (stosując jako kryterium liczbę pracowników).</entry>
 <entry key="codelist|name|eea-country">Lista kodów państw Europejskiego Obszaru Gospodarczego</entry>
+<entry key="codelist|name|eed-scope">Ta tabela zawiera listę kodów i wartości używanych do wskazania, że zamówienie publiczne podlega zakresowi Dyrektywy w sprawie efektywności energetycznej</entry>
 <entry key="codelist|name|eforms-buyer-legal-type">Lista kodów typu nabywcy dozwolonych w e-formularzach</entry>
 <entry key="codelist|name|eforms-contract-nature">Lista dozwolonych kodów e-formularzy określających główny i dodatkowy charakter zakupu</entry>
 <entry key="codelist|name|eforms-country">Lista kodów państw dozwolonych w e-formularzach</entry>
@@ -53,6 +54,9 @@
 <entry key="codelist|name|eforms-language">Lista kodów języków dozwolonych w e-formularzach</entry>
 <entry key="codelist|name|eforms-legal-basis">Lista kodów podstawy prawnej dozwolonych w e-formularzach</entry>
 <entry key="codelist|name|einvoicing">Lista kodów określających, czy korzystanie z fakturowania elektronicznego jest dozwolone.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Ramowy prawny dla elementów, takich jak delegowane akty dotyczące etykietowania energetycznego, środki wykonawcze (Dyrektywa 2009/125/WE) lub Rozporządzenie 2020/740; produkty i usługi objęte GPP; prace, usługi lub budynki</entry>
+<entry key="codelist|name|energy-efficiency-item">Produkty objęte delegowanymi aktami dotyczącymi etykietowania energetycznego, środkami wykonawczymi (Dyrektywa 2009/125/WE) lub Rozporządzeniem 2020/740; produkty i usługi objęte GPP; prace, usługi lub budynki</entry>
+<entry key="codelist|name|energy-efficiency-label">Ta tabela zawiera listę kodów i wartości używanych do określania efektywności energetycznej produktu</entry>
 <entry key="codelist|name|entity-activity">Lista kodów głównej działalności dozwolonych dla podmiotu zamawiającego</entry>
 <entry key="codelist|name|environmental-impact">Ta tabela zawiera informacje na temat tego, czy zamówienie obejmuje (i w jaki sposób) podejście do zmniejszenia wpływu na środowisko robót budowlanych, dostaw lub usług, zastosowane w specyfikacjach technicznych, kryteriach udzielenia zamówienia, kryteriach kwalifikacji lub specyfikacji warunków zamówienia.</entry>
 <entry key="codelist|name|esignature-submission">Lista kodów określających, czy można używać podpisu elektronicznego.</entry>
@@ -62,11 +66,14 @@
 <entry key="codelist|name|eu-official-language">Lista kodów języków urzędowych UE</entry>
 <entry key="codelist|name|eu-programme">Lista kodów programów stworzonych i koordynowanych przez Unię Europejską oraz wspieranych finansowo przez Unię Europejską lub, w kilku przypadkach, przez wkład państw członkowskich.</entry>
 <entry key="codelist|name|exclusion-ground">Lista kodów do identyfikacji podstawy wykluczenia</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR wprowadza nowy zestaw zasad, które umożliwiają Komisji rozwiązywanie problemów związanych z zakłóceniami spowodowanymi przez zagraniczne dotacje.</entry>
 <entry key="codelist|name|form-type">Ta tabela zawiera kody i wartości używane dla typów formularzy publikowanych na TED.</entry>
 <entry key="codelist|name|framework-agreement">Ta tabela zawiera listę kodów rozróżniających poszczególne rodzaje umów ramowych związanych z ofertą.</entry>
 <entry key="codelist|name|gpp-criteria">Kryteria zielonych zamówień publicznych</entry>
 <entry key="codelist|name|indicator">Lista dozwolonych w e-formularzu wartości wskaźników</entry>
 <entry key="codelist|name|innovative-acquisition">Ta tabela zawiera kody i wartości stosowane dla rodzaju innowacyjnych robót budowlanych, dostaw lub usług zamawianych w kontekście zamówień publicznych.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Ta tabela zawiera listę kodów i wartości używanych do określania wyjątku od zastosowania środka IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Ta tabela zawiera listę kodów i wartości używanych do określania zastosowanego środka IPI</entry>
 <entry key="codelist|name|irregularity-type">Niniejsza lista kodów odnosi się ogólnie do rodzajów nieprawidłowości opisanych w sekcji 2 załącznika do decyzji Komisji C(2019) 3452.</entry>
 <entry key="codelist|name|language">Lista trzyznakowych kodów językowych, skorelowanych z normą międzynarodową ISO 639 i dodatkowymi kodami dla niektórych języków bez przypisanego kodu ISO.</entry>
 <entry key="codelist|name|lawful-country">Wykaz państw, dla których istnieje podstawa prawna do publikacji w Suplemencie do Dziennika Urzędowego Unii Europejskiej</entry>
@@ -117,6 +124,7 @@
 <entry key="codelist|name|legal-basis-e3">Dozwolone wartości podstawy prawnej dla podrodzaju ogłoszenia E3</entry>
 <entry key="codelist|name|legal-basis-e4">Dozwolone wartości podstawy prawnej dla podrodzaju ogłoszenia E4</entry>
 <entry key="codelist|name|legal-basis-e5">Dozwolone wartości podstawy prawnej dla podrodzaju ogłoszenia E5</entry>
+<entry key="codelist|name|legal-basis-e6">Dozwolone wartości podstawy prawnej dla podrodzaju ogłoszenia E6</entry>
 <entry key="codelist|name|legal-basis-t01">Dozwolone wartości podstawy prawnej dla podrodzaju ogłoszenia T01</entry>
 <entry key="codelist|name|legal-basis-t02">Dozwolone wartości podstawy prawnej dla podrodzaju ogłoszenia T02</entry>
 <entry key="codelist|name|legal-basis-x01">Dozwolone wartości podstawy prawnej dla podrodzaju ogłoszenia X01</entry>
@@ -193,11 +201,15 @@
 <entry key="codelist|name|procedure-type-11">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 11</entry>
 <entry key="codelist|name|procedure-type-12">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 12</entry>
 <entry key="codelist|name|procedure-type-13">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 13</entry>
+<entry key="codelist|name|procedure-type-14">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 14</entry>
+<entry key="codelist|name|procedure-type-15">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 15</entry>
 <entry key="codelist|name|procedure-type-16">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 16</entry>
 <entry key="codelist|name|procedure-type-17">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 17</entry>
 <entry key="codelist|name|procedure-type-18">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 18</entry>
+<entry key="codelist|name|procedure-type-19">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 19</entry>
 <entry key="codelist|name|procedure-type-20">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 20</entry>
 <entry key="codelist|name|procedure-type-21">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 21</entry>
+<entry key="codelist|name|procedure-type-22">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 22</entry>
 <entry key="codelist|name|procedure-type-23">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 23</entry>
 <entry key="codelist|name|procedure-type-24">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 24</entry>
 <entry key="codelist|name|procedure-type-25">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 25</entry>
@@ -207,8 +219,10 @@
 <entry key="codelist|name|procedure-type-29">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 29</entry>
 <entry key="codelist|name|procedure-type-30">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 30</entry>
 <entry key="codelist|name|procedure-type-31">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 31</entry>
+<entry key="codelist|name|procedure-type-32">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 32</entry>
 <entry key="codelist|name|procedure-type-33">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 33</entry>
 <entry key="codelist|name|procedure-type-34">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 34</entry>
+<entry key="codelist|name|procedure-type-35">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 35</entry>
 <entry key="codelist|name|procedure-type-36">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 36</entry>
 <entry key="codelist|name|procedure-type-37">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 37</entry>
 <entry key="codelist|name|procedure-type-7">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 7</entry>
@@ -232,6 +246,7 @@
 <entry key="codelist|name|result">Lista dozwolonych kodów rodzaju ogłoszenia dla typu formularza wyników</entry>
 <entry key="codelist|name|review-body-type">Ta tabela obejmuje listę organizacji rozpatrujących odwołanie dla danej procedury.</entry>
 <entry key="codelist|name|review-decision-type">W tabeli opisano decyzje podjęte przez organ odwoławczy.</entry>
+<entry key="codelist|name|review-information-type">Lista kodów określających status danego odwołania.</entry>
 <entry key="codelist|name|review-requester-type">Kategoria zainteresowanych stron, które wystąpiły o odwołanie</entry>
 <entry key="codelist|name|review-status">Lista kodów określających status danego odwołania.</entry>
 <entry key="codelist|name|review-type">Lista kodów służących do identyfikacji rodzaju osoby wnioskującej o odwołanie</entry>
