@@ -9,6 +9,9 @@
 <entry key="auxiliary|text|accessibility">Accessibility criteria</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc communication channel</entry>
 <entry key="auxiliary|text|award-criteria">Award criteria</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Category of award weight criterion</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Category of award fixed criterion</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Category of award threshold criterion</entry>
 <entry key="auxiliary|text|beneficial-owner">Beneficial owner</entry>
 <entry key="auxiliary|text|buyer">Buyer</entry>
 <entry key="auxiliary|text|buyer-competent">Competent authority</entry>
@@ -29,6 +32,8 @@
 <entry key="auxiliary|text|duration">Duration</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Duration of the call for expressions of interest</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Information about the dynamic purchasing system</entry>
+<entry key="auxiliary|text|eed-applicable">The procurement falls within the scope of the Energy Efficiency Directive (EED) (EU) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">List of products, works, services and buildings related to the Energy Efficiency Directive (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Electronic auction</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Envisaged start date and duration of the contract</entry>
 <entry key="auxiliary|text|essential-assets">Essential assets</entry>
@@ -44,6 +49,8 @@
 <entry key="auxiliary|text|group-of-lots">Group of lots</entry>
 <entry key="auxiliary|text|grouping">Name of the grouping</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Information on rewards and penalties</entry>
+<entry key="auxiliary|text|international-procurement-instrument">The procurement falls within the scope of the International Procurement Instrument (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistics about International Procurement Instrument (IPI) measures</entry>
 <entry key="auxiliary|text|language-expressions">Languages in which the expressions of interest may be submitted</entry>
 <entry key="auxiliary|text|late-tenderer-info">Information that can be supplemented after the submission deadline</entry>
 <entry key="auxiliary|text|legal-basis">Legal basis</entry>
@@ -98,6 +105,8 @@
 <entry key="auxiliary|text|renewal">Renewal</entry>
 <entry key="auxiliary|text|results">Results</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Result of the procurement procedure</entry>
+<entry key="auxiliary|text|review">Review</entry>
+<entry key="auxiliary|text|review-request-withdrawn">The application for review or for interim measures was withdrawn</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Type of alleged irregularity</entry>
 <entry key="auxiliary|text|review-requests-summary">Summary of the review requests the buyer received</entry>
 <entry key="auxiliary|text|roles">Roles of this organisation</entry>

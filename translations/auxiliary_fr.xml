@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Critères d’accessibilité</entry>
 <entry key="auxiliary|text|adhoc-communication">Canal de communication ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Critères d’attribution</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Catégorie du critère d’attribution poids</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Catégorie du critère d’attribution valeur fixe</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Catégorie du critère d’attribution seuil</entry>
 <entry key="auxiliary|text|beneficial-owner">Bénéficiaire effectif</entry>
 <entry key="auxiliary|text|buyer">Acheteur</entry>
 <entry key="auxiliary|text|buyer-competent">Autorité compétente</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Durée</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Durée de l’appel à manifestation d’intérêt</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informations sur le système d’acquisition dynamique</entry>
+<entry key="auxiliary|text|eed-applicable">La passation de marché relève de la Directive sur l'efficacité énergétique (EED) (UE) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Liste des produits, travaux, services et bâtiments liés à la Directive sur l'efficacité énergétique (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Enchère électronique</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Date de début et durée du marché envisagées</entry>
 <entry key="auxiliary|text|essential-assets">Actifs essentiels</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Groupe de lots</entry>
 <entry key="auxiliary|text|grouping">Nom du groupement</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informations sur les primes et pénalités</entry>
+<entry key="auxiliary|text|international-procurement-instrument">La passation de marché relève de l'Instrument d'achat international (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistiques sur les mesures de l'Instrument d'achat international (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Langues dans lesquelles les manifestations d’intérêt peuvent être présentées</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informations qui peuvent être complétées après la date limite de présentation des offres</entry>
 <entry key="auxiliary|text|legal-basis">Base juridique</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Renouvellement</entry>
 <entry key="auxiliary|text|results">Résultats</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Résultat de la procédure de passation de marché</entry>
+<entry key="auxiliary|text|review">Recours</entry>
+<entry key="auxiliary|text|review-request-withdrawn">La demande de révision ou de mesures provisoires a été retirée</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Type d’irrégularité alléguée</entry>
 <entry key="auxiliary|text|review-requests-summary">Résumé des demandes de réexamen reçues par l’acheteur</entry>
 <entry key="auxiliary|text|roles">Rôles de cette organisation</entry>

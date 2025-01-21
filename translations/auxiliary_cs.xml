@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Kritéria přístupnosti</entry>
 <entry key="auxiliary|text|adhoc-communication">Komunikační kanál ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Kritéria pro zadání</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategorie kritéria pro zadání s váhou</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategorie kritéria pro zadání s pevnou hodnotou</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategorie kritéria pro zadání s prahem</entry>
 <entry key="auxiliary|text|beneficial-owner">Skutečný majitel</entry>
 <entry key="auxiliary|text|buyer">Kupující</entry>
 <entry key="auxiliary|text|buyer-competent">Příslušný orgán</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Doba trvání</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Trvání výzvy k projevení zájmu</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informace o dynamickém nákupním systému</entry>
+<entry key="auxiliary|text|eed-applicable">Obstarávání spadá do působnosti směrnice o energetické účinnosti (EED) (EU) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Seznam výrobků, prací, služeb a budov souvisejících se směrnicí o energetické účinnosti (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektronická aukce</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Předpokládané datum zahájení a doba trvání smlouvy</entry>
 <entry key="auxiliary|text|essential-assets">Základní aktiva</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Skupina částí</entry>
 <entry key="auxiliary|text|grouping">Název sdružení</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informace o odměnách a sankcích</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Obstarávání spadá do působnosti Mezinárodního nástroje pro veřejné zakázky (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistiky o opatřeních Mezinárodního nástroje pro veřejné zakázky (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Jazyky, v nichž lze předkládat vyjádření zájmu</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informace, které lze doplnit po uplynutí lhůty pro předkládání návrhů</entry>
 <entry key="auxiliary|text|legal-basis">Právní základ</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Obnovení</entry>
 <entry key="auxiliary|text|results">Výsledek</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Výsledek zadávacího řízení</entry>
+<entry key="auxiliary|text|review">Přezkum</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Žádost o přezkum nebo o předběžná opatření byla stažena</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Druh údajné nesrovnalosti</entry>
 <entry key="auxiliary|text|review-requests-summary">Shrnutí žádostí o přezkum, které kupující obdržel</entry>
 <entry key="auxiliary|text|roles">Úlohy této organizace</entry>
