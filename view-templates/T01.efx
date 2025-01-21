@@ -110,12 +110,3 @@
 	{OPP-011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
 	{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date
 
--notice} #{field|name|BT-02-notice}: #{BT-02-notice} // Notice type
-		{OPP-070-notice} #{field|name|OPP-070-notice}: ${OPP-070-notice} // Notice subtype
-		{BT-05(a)-notice} #{field|name|BT-05(a)-notice}: ${BT-05(a)-notice} ${BT-05(b)-notice} // Notice dispatch date and time
-		{BT-803(d)-notice} #{field|name|BT-803(d)-notice}: ${BT-803(d)-notice} ${BT-803(t)-notice} // Notice dispatch date (eSender)
-		{BT-702(a)-notice} #{field|name|BT-702(a)-notice}: #{BT-702(a)-notice} #{BT-702(b)-notice} // Languages in which this notice is officially available
-	2 {ND-Root} #{auxiliary|text|publication-information} // 11.2 Publication information
-		{OPP-010-notice} #{field|name|OPP-010-notice}: ${OPP-010-notice} // Notice publication number
-		{OPP-011-notice} #{field|name|OPP-011-notice}: ${OPP-011-notice} // OJ S issue number
-		{OPP-012-notice} #{field|name|OPP-012-notice}: ${OPP-012-notice} // Publication date
