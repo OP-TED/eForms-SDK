@@ -1,8 +1,8 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.10.0",
+  "sdkVersion" : "1.11.0",
   "metadataDatabase" : {
-    "version" : "1.10.0",
+    "version" : "1.11.0",
     "createdOn" : "2024-02-29T16:00:00"
   },
   "viewTemplates" : [ {
@@ -272,6 +272,17 @@
   }, {
     "id" : "X01",
     "filename" : "X01.efx",
+    "description" : "Default",
+    "_noticeSubtypeIds" : [ "X01" ],
+    "_label" : "view|name|X01"
+  }, {
+    "id" : "X02",
+    "filename" : "X02.efx",
+    "description" : "Default",
+    "_noticeSubtypeIds" : [ "X02" ],
+    "_label" : "view|name|X02"
+  } ]
+}" : "X01.efx",
     "description" : "Default",
     "_noticeSubtypeIds" : [ "X01" ],
     "_label" : "view|name|X01"
