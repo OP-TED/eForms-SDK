@@ -504,7 +504,7 @@
     "_label" : "codelist|name|language"
   }, {
     "id" : "lawful-country",
-    "version" : "1.13.0",
+    "version" : "1.14.0-SNAPSHOT",
     "parentId" : "country",
     "filename" : "country_lawful-country.gc",
     "description" : "List of countries for which there is a legal basis for publication in the Supplement to the Official Journal of the European Union",
