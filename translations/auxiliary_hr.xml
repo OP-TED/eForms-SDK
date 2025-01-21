@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Kriteriji pristupačnosti</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc komunikacijski kanal</entry>
 <entry key="auxiliary|text|award-criteria">Kriteriji za dodjelu</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategorija kriterija za dodjelu težine</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategorija kriterija za dodjelu fiksne vrijednosti</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategorija kriterija za dodjelu prag</entry>
 <entry key="auxiliary|text|beneficial-owner">Stvarni vlasnik</entry>
 <entry key="auxiliary|text|buyer">Kupac</entry>
 <entry key="auxiliary|text|buyer-competent">Nadležno tijelo</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Trajanje</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Trajanje poziva na iskaz interesa</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informacije o dinamičkom sustavu nabave</entry>
+<entry key="auxiliary|text|eed-applicable">Nabava je u okviru Direktive o energetskoj učinkovitosti (EED) (EU) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Popis proizvoda, radova, usluga i zgrada povezanih s Direktivom o energetskoj učinkovitosti (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektronička dražba</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Predviđeni datum početka i trajanje ugovora</entry>
 <entry key="auxiliary|text|essential-assets">Ključna imovina</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Skupina grupâ</entry>
 <entry key="auxiliary|text|grouping">Ime grupacije</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informacije o nagradama i kaznama</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Nabava je u okviru Međunarodnog instrumenta za nabavu (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistika o mjerama Međunarodnog instrumenta za nabavu (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Jezici na kojima se mogu podnijeti iskazi interesa</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informacije koje se mogu dopuniti nakon roka za podnošenje</entry>
 <entry key="auxiliary|text|legal-basis">Pravna osnova</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Obnova</entry>
 <entry key="auxiliary|text|results">Ishod</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Ishod postupka nabave</entry>
+<entry key="auxiliary|text|review">Pravna zaštita (preispitivanje)</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Zahtjev za pregled ili privremene mjere povučen je</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Vrsta navodne nepravilnosti</entry>
 <entry key="auxiliary|text|review-requests-summary">Sažetak zahtjeva za preispitivanje koje je kupac primio</entry>
 <entry key="auxiliary|text|roles">Uloge ove organizacije</entry>

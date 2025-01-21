@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Pieejamības kritēriji</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc saziņas kanāls</entry>
 <entry key="auxiliary|text|award-criteria">Piešķiršanas kritēriji</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategorija piešķiršanas kritērija svars</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategorija piešķiršanas kritērija fiksēta vērtība</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategorija piešķiršanas kritērija slieksnis</entry>
 <entry key="auxiliary|text|beneficial-owner">Faktiskais īpašnieks</entry>
 <entry key="auxiliary|text|buyer">Pircējs</entry>
 <entry key="auxiliary|text|buyer-competent">Kompetentā iestāde</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Ilgums</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Ieinteresētības apstiprinājumu iesniegšanas termiņš</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informācija par dinamisko iepirkumu sistēmu</entry>
+<entry key="auxiliary|text|eed-applicable">Iepirkums ietilpst Energoefektivitātes direktīvas (EED) (ES) 2023/1791 darbības jomā</entry>
+<entry key="auxiliary|text|eed-list">Produktu, darbu, pakalpojumu un ēku saraksts, kas saistīts ar Energoefektivitātes direktīvu (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektroniskā izsole</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Paredzētais līguma sākuma datums un ilgums</entry>
 <entry key="auxiliary|text|essential-assets">Būtiskie aktīvi</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Daļu grupa</entry>
 <entry key="auxiliary|text|grouping">Grupa</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informācija par piemaksām un soda naudām</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Iepirkums ietilpst Starptautiskā iepirkuma instrumenta (IPI) darbības jomā</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Starptautiskā iepirkuma instrumenta (IPI) pasākumu statistika</entry>
 <entry key="auxiliary|text|language-expressions">Valodas, kādās var iesniegt ieinteresētības apstiprinājumus</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informācija, ko var papildināt pēc iesniegšanas termiņa beigām</entry>
 <entry key="auxiliary|text|legal-basis">Juridiskais pamats</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Pārjaunojums</entry>
 <entry key="auxiliary|text|results">Rezultāti</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Iepirkuma procedūras rezultāts</entry>
+<entry key="auxiliary|text|review">Pārskatīšana</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Pieteikums par pārskatīšanu vai par pagaidu pasākumiem tika atsaukts</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Iespējamā pārkāpuma veids</entry>
 <entry key="auxiliary|text|review-requests-summary">Pircēja saņemto pārskatīšanas pieprasījumu kopsavilkums</entry>
 <entry key="auxiliary|text|roles">Šīs organizācijas lomas</entry>

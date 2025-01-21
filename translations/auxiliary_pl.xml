@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Kryteria dostępności</entry>
 <entry key="auxiliary|text|adhoc-communication">Kanał komunikacji ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Kryteria udzielenia zamówienia</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategoria kryterium udzielenia zamówienia waga</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategoria kryterium udzielenia zamówienia stała wartość</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategoria kryterium udzielenia zamówienia próg</entry>
 <entry key="auxiliary|text|beneficial-owner">Faktyczny właściciel</entry>
 <entry key="auxiliary|text|buyer">Nabywca</entry>
 <entry key="auxiliary|text|buyer-competent">Właściwy organ</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Okres obowiązywania</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Okres obowiązywania zaproszenia do wyrażenia zainteresowania</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informacje o dynamicznym systemie zakupów</entry>
+<entry key="auxiliary|text|eed-applicable">Zamówienie podlega dyrektywie dotyczącej efektywności energetycznej (EED) (UE) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Lista produktów, prac, usług i budynków związanych z dyrektywą dotyczącą efektywności energetycznej (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Aukcja elektroniczna</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Przewidywana data początkowa i okres obowiązywania umowy</entry>
 <entry key="auxiliary|text|essential-assets">Istotne aktywa</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Grupa części zamówienia</entry>
 <entry key="auxiliary|text|grouping">Nazwa grupy</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informacje o wynagrodzeniach i karach</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Zamówienie podlega międzynarodowemu instrumentowi zamówień publicznych (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statystyki dotyczące środków międzynarodowego instrumentu zamówień publicznych (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Języki, w których można zgłaszać wyrażenie zainteresowania</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informacje, które można uzupełnić po upływie terminu zgłoszeń</entry>
 <entry key="auxiliary|text|legal-basis">Podstawa prawna</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Wznowienie</entry>
 <entry key="auxiliary|text|results">Wyniki</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Wynik postępowania o udzielenie zamówienia</entry>
+<entry key="auxiliary|text|review">Odwołanie</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Wniosek o przegląd lub środki tymczasowe został wycofany</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Rodzaj domniemanej nieprawidłowości</entry>
 <entry key="auxiliary|text|review-requests-summary">Podsumowanie odwołań otrzymanych przez nabywcę</entry>
 <entry key="auxiliary|text|roles">Role tej organizacji</entry>
