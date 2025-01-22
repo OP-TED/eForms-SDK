@@ -1,3 +1,12 @@
+# SDK 1.11.2 Release Notes
+
+This release brings the following corrections in the notice visualisation templates:
+
+* Add back the display of BT-748-Lot for all relevant notice subtypes. It was incorrectly removed in the previous version.
+A comprehensive list of changes between SDK 1.11.1 and SDK 1.11.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.11.1...1.11.2>
+
+You can explore the changes between those versions at <https://docs.ted.europa.eu/eforms-sdk-explorer?base=1.11.0&version=1.11.1>
+
 # SDK 1.11.1 Release Notes
 
 This release brings the following corrections in the validation rules, making them more permissive:
