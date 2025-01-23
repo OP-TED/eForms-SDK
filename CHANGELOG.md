@@ -1,6 +1,15 @@
 # SDK 1.10.5 Release Notes
 
-This release includes updated translations and updated notice visualisation templates.
+This release brings the following corrections in the validation rules, making them more permissive:
+
+* Do not require the organisation identifier (BT-501-Organization-Company) to be unique in the notice.
+* Allow the buyer and tenderer organisations to also be a service provider.
+
+This release brings the following corrections in the notice visualisation templates:
+
+* Add back the display of BT-748-Lot for all relevant notice subtypes. It was incorrectly removed in the previous version.
+
+This release also includes updated translations and updated notice visualisation templates.
 
 A comprehensive list of changes between SDK 1.10.4 and SDK 1.10.5 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.10.4...1.10.5>
 
