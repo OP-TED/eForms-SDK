@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Criterii de accesibilitate</entry>
 <entry key="auxiliary|text|adhoc-communication">Canal de comunicare ad-hoc</entry>
 <entry key="auxiliary|text|award-criteria">Criterii de atribuire</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Categorie a criteriului de atribuire greutate</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Categorie a criteriului de atribuire valoare fixă</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Categorie a criteriului de atribuire prag</entry>
 <entry key="auxiliary|text|beneficial-owner">Beneficiar efectiv</entry>
 <entry key="auxiliary|text|buyer">Cumpărător</entry>
 <entry key="auxiliary|text|buyer-competent">Autoritate competentă</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Durata</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Durata cererii de exprimare a interesului</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informații despre sistemul dinamic de achiziții</entry>
+<entry key="auxiliary|text|eed-applicable">Achiziția intră în sfera de aplicare a Directivei privind eficiența energetică (EED) (UE) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Lista de produse, lucrări, servicii și clădiri legate de Directiva privind eficiența energetică (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Licitație electronică</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Data de începere preconizată și durata contractului</entry>
 <entry key="auxiliary|text|essential-assets">Active esențiale</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Grup de loturi</entry>
 <entry key="auxiliary|text|grouping">Numele grupului</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informații despre recompense și sancțiuni</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Achiziția intră în sfera de aplicare a Instrumentului Internațional de Achiziții (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistici privind măsurile Instrumentului Internațional de Achiziții (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Limbile în care pot fi depuse cererile de exprimare a interesului</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informații care pot fi completate după termenul-limită de depunere</entry>
 <entry key="auxiliary|text|legal-basis">Temei juridic</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Reînnoire</entry>
 <entry key="auxiliary|text|results">Rezultate</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Rezultatul procedurii de achiziție publică</entry>
+<entry key="auxiliary|text|review">Căi de atac</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Cererea de revizuire sau de măsuri provizorii a fost retrasă</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Tipul de presupusă neregulă</entry>
 <entry key="auxiliary|text|review-requests-summary">Rezumatul cererilor de reexaminare primite de achizitor</entry>
 <entry key="auxiliary|text|roles">Rolurile acestei organizații</entry>

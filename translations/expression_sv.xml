@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Organisationen deltar inte i anbudsförfarandet; 'Organisationen är en fysisk person' (BT-633-Organization); 'Vinnaren är noterad på en reglerad marknad' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organisationen (OPT-200-Organization-Company) deltar i ett vinnande anbud som huvudanbudsgivare (OPT-300-Tenderer) eller delanbudsgivare (OPT-301-Tenderer-SubCont); 'Organisationen är en fysisk person' (BT-633-Organization) är 'nej' och 'Vinnaren är noterad på en reglerad marknad' (BT-746-Organization) är 'nej'</entry>
 <entry key="expression|name|352">Minst en organisation är ansluten till 'Organisationen som utför denna roll' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Typ av förfarande' (BT-105) är 'Öppet', 'Selektivt' eller 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'</entry>
+<entry key="expression|name|353">'Typ av förfarande' (BT-105) är inte 'Öppet', 'Selektivt' eller 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'</entry>
 <entry key="expression|name|354">'Typ av förfarande' (BT-105) är inte 'Selektivt' eller 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'</entry>
 <entry key="expression|name|355">Organisationen är inte köpare eller det finns endast en köpare</entry>
 <entry key="expression|name|356">Det finns två olika köpare från två olika länder</entry>

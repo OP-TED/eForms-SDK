@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Organisatsioon ei osale pakkumismenetluses osapoolena; 'Organisatsioon on füüsiline isik' (BT-633-Organization); 'Pakkuja on noteeritud reguleeritud turul' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organisatsioon (OPT-200-Organization-Company) osaleb võitnud pakkumuses põhi- (OPT-300-Tenderer) või allpakkujana (OPT-301-Tenderer-SubCont); 'Organisatsioon on füüsiline isik' (BT-633-Organization) on 'ei' ja 'Pakkuja on noteeritud reguleeritud turul' (BT-746-Organization) on 'ei'</entry>
 <entry key="expression|name|352">Vähemalt üks organisatsioon on seotud 'Organisatsioon, mis täidab seda rolli' (OPT-302-Organization)ga</entry>
-<entry key="expression|name|353">'Menetluse liik' (BT-105) on 'Avatud', 'Piiratud' või 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'</entry>
+<entry key="expression|name|353">'Menetluse liik' (BT-105) ei ole 'Avatud', 'Piiratud' või 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'</entry>
 <entry key="expression|name|354">'Menetluse liik' (BT-105) ei ole 'Piiratud' või 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus'</entry>
 <entry key="expression|name|355">Organisatsioon ei ole ostja või on ainult üks ostja</entry>
 <entry key="expression|name|356">On kaks erinevat ostjat kahest erinevast riigist</entry>

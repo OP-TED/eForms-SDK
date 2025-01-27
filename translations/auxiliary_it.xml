@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Criteri di accessibilità</entry>
 <entry key="auxiliary|text|adhoc-communication">Canale di comunicazione ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Criteri di aggiudicazione</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Categoria del criterio di aggiudicazione peso</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Categoria del criterio di aggiudicazione valore fisso</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Categoria del criterio di aggiudicazione soglia</entry>
 <entry key="auxiliary|text|beneficial-owner">Titolare effettivo</entry>
 <entry key="auxiliary|text|buyer">Committente</entry>
 <entry key="auxiliary|text|buyer-competent">Autorità competente</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Durata</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Durata dell'invito a manifestare interesse</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Informazioni sul sistema dinamico di acquisizione</entry>
+<entry key="auxiliary|text|eed-applicable">L'acquisizione rientra nell'ambito della Direttiva sull'efficienza energetica (EED) (UE) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Elenco di prodotti, lavori, servizi ed edifici correlati alla Direttiva sull'efficienza energetica (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Asta elettronica</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Data di inizio e durata previste dell'appalto</entry>
 <entry key="auxiliary|text|essential-assets">Beni essenziali</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Gruppo di lotti</entry>
 <entry key="auxiliary|text|grouping">Nome del gruppo</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Informazioni sui premi e sulle penalità</entry>
+<entry key="auxiliary|text|international-procurement-instrument">L'acquisizione rientra nell'ambito dell'Instrumento di Appalto Internazionale (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistiche sulle misure dell'Instrumento di Appalto Internazionale (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Lingue in cui possono essere presentate le manifestazioni d'interesse</entry>
 <entry key="auxiliary|text|late-tenderer-info">Informazioni che possono essere integrate dopo la scadenza del termine di presentazione</entry>
 <entry key="auxiliary|text|legal-basis">Base giuridica</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Rinnovo</entry>
 <entry key="auxiliary|text|results">Risultati</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Esito della procedura d'appalto</entry>
+<entry key="auxiliary|text|review">Ricorso</entry>
+<entry key="auxiliary|text|review-request-withdrawn">La domanda di revisione o di misure provvisorie è stata ritirata</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Tipo di presunta irregolarità</entry>
 <entry key="auxiliary|text|review-requests-summary">Sintesi delle domande di riesame ricevute dal committente</entry>
 <entry key="auxiliary|text|roles">Ruoli di questa organizzazione</entry>

@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Organisaatio ei kuulu tarjouksen tekevään tahoon; 'Organisaatio on luonnollinen henkilö' (BT-633-Organization); 'Voittaja on noteerattu säännellyillä markkinoilla' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organisaatio (OPT-200-Organization-Company) kuuluu voittaneeseen tarjoukseen päätarjoajana (OPT-300-Tenderer) tai alihankkijana (OPT-301-Tenderer-SubCont); 'Organisaatio on luonnollinen henkilö' (BT-633-Organization) on 'ei' ja 'Voittaja on noteerattu säännellyillä markkinoilla' (BT-746-Organization) on 'ei'</entry>
 <entry key="expression|name|352">Vähintään yhden organisaation on liityttävä organisaatioon 'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Menettelyn tyyppi' (BT-105) on 'Avoin', 'Rajoitettu' tai 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
+<entry key="expression|name|353">'Menettelyn tyyppi' (BT-105) ei ole 'Avoin', 'Rajoitettu' tai 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
 <entry key="expression|name|354">'Menettelyn tyyppi' (BT-105) ei ole 'Rajoitettu' tai 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
 <entry key="expression|name|355">Organisaatio ei ole ostaja, tai on vain yksi ostaja</entry>
 <entry key="expression|name|356">On kaksi eri ostajaa kahdesta eri maasta</entry>

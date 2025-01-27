@@ -279,7 +279,7 @@
 <entry key="expression|name|350">Organizace se není součástí účastníka podávajícího nabídku; 'Organizace je fyzická osoba' (BT-633-Organization); 'Vítěz je kotován na regulovaném trhu' (BT-746-Organization)</entry>
 <entry key="expression|name|351">Organizace (OPT-200-Organization-Company) se účastní vítězné nabídky jako hlavní (OPT-300-Tenderer) nebo subdodavatel (OPT-301-Tenderer-SubCont); 'Organizace je fyzická osoba' (BT-633-Organization) je 'ne' a 'Vítěz je kotován na regulovaném trhu' (BT-746-Organization) je 'ne'</entry>
 <entry key="expression|name|352">Nejméně jedna organizace je propojena s 'Organizace vykonávající tuto roli' (OPT-302-Organization)</entry>
-<entry key="expression|name|353">'Typ řízení' (BT-105) je 'Otevřené', 'Užší' nebo 'Jednací řízení s uveřejněním / jednací řízení'</entry>
+<entry key="expression|name|353">'Typ řízení' (BT-105) není 'Otevřené', 'Užší' nebo 'Jednací řízení s uveřejněním / jednací řízení'</entry>
 <entry key="expression|name|354">'Typ řízení' (BT-105) není 'Užší' nebo 'Jednací řízení s uveřejněním / jednací řízení'</entry>
 <entry key="expression|name|355">Organizace není kupujícím nebo existuje pouze jeden kupující</entry>
 <entry key="expression|name|356">Existují dva různí kupující ze dvou různých zemí</entry>
