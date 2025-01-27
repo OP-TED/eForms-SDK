@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Ligipääsetavuse kriteeriumid</entry>
 <entry key="auxiliary|text|adhoc-communication">Sihtotstarbeline teabevahetuskanal</entry>
 <entry key="auxiliary|text|award-criteria">Pakkumuste hindamise kriteeriumid</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Hindamise kaalukriteeriumi kategooria</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Hindamise fikseeritud väärtusega kriteeriumi kategooria</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Hindamise lävendikriteeriumi kategooria</entry>
 <entry key="auxiliary|text|beneficial-owner">Tegelik kasusaaja</entry>
 <entry key="auxiliary|text|buyer">Hankija</entry>
 <entry key="auxiliary|text|buyer-competent">Pädev asutus</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Kestus</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Osalemiskutse kestus</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Teave dünaamilise hankesüsteemi kohta</entry>
+<entry key="auxiliary|text|eed-applicable">Hange kuulub energiatõhususe direktiivi (EED) (EL) 2023/1791 reguleerimisalasse</entry>
+<entry key="auxiliary|text|eed-list">Nimekiri toodetest, töödest, teenustest ja hoonetest, mis on seotud energiatõhususe direktiiviga (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektrooniline oksjon</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Lepingu kavandatav alguskuupäev ja kestus</entry>
 <entry key="auxiliary|text|essential-assets">Põhivarad</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Osade rühm</entry>
 <entry key="auxiliary|text|grouping">Rühma nimi</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Teave preemiate ja trahvide kohta</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Hanke kuulub rahvusvahelise hankemenetluse (IPI) reguleerimisalasse</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistika rahvusvahelise hankemenetluse (IPI) meetmete kohta</entry>
 <entry key="auxiliary|text|language-expressions">Keeled, milles osalemishuvi teateid võib esitada</entry>
 <entry key="auxiliary|text|late-tenderer-info">Teave, mida saab pärast esitamise tähtaega täiendada</entry>
 <entry key="auxiliary|text|legal-basis">Õiguslik alus</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Uuendamine</entry>
 <entry key="auxiliary|text|results">Tulemused</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Hankemenetluse tulemus</entry>
+<entry key="auxiliary|text|review">Vaidlustus</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Taotlus ülevaatamiseks või ajutiste meetmete rakendamiseks on tagasi võetud</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Väidetava rikkumise liik</entry>
 <entry key="auxiliary|text|review-requests-summary">Hankijale esitatud vaidlustuste kokkuvõte</entry>
 <entry key="auxiliary|text|roles">Selle organisatsiooni rollid</entry>

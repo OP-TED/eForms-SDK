@@ -1,6 +1,6 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.10.4",
+  "sdkVersion" : "eforms-sdk-1.10.5",
   "metadataDatabase" : {
     "version" : "1.10.1",
     "createdOn" : "2023-11-16T17:47:51"
@@ -22192,15 +22192,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "assert" : {
-      "value" : "{ND-Root} ${TRUE}",
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "value" : "{BT-501-Organization-Company} ${BT-501-Organization-Company is unique in /BT-501-Organization-Company}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00501-0259"
-      } ]
     }
   }, {
     "id" : "BT-5010-Lot",
@@ -36704,10 +36695,6 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0250"
       }, {
-        "value" : "{ND-Root} ${every text:$sps in OPT-300-Procedure-SProvider satisfies $sps not in OPT-300-Procedure-Buyer}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-OPT-00300-0254"
-      }, {
         "value" : "{ND-Root} ${(every text:$tenderer in OPT-300-Tenderer satisfies $tenderer not in OPT-300-Procedure-Buyer) and (every text:$subcont in OPT-301-Tenderer-SubCont satisfies $subcont not in OPT-300-Procedure-Buyer)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0255"
@@ -36827,10 +36814,6 @@
         "value" : "{ND-TenderingParty} ${every text:$mediator in /OPT-301-Lot-Mediator satisfies $mediator not in OPT-300-Tenderer}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00300-0256"
-      }, {
-        "value" : "{ND-TenderingParty} ${every text:$psp in OPT-300-Procedure-SProvider satisfies $psp not in OPT-300-Tenderer}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-OPT-00300-0257"
       }, {
         "value" : "{ND-TenderingParty} ${every text:$revOrg in /OPT-301-Lot-ReviewOrg satisfies $revOrg not in OPT-300-Tenderer}",
         "severity" : "ERROR",

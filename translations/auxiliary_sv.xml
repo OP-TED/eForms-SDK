@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Tillgänglighetskriterier</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc-kommunikationskanal</entry>
 <entry key="auxiliary|text|award-criteria">Tilldelningskriterier</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategori av tilldelningskriteriet vikt</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategori av tilldelningskriteriet fast värde</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategori av tilldelningskriteriet tröskel</entry>
 <entry key="auxiliary|text|beneficial-owner">Verklig ägare</entry>
 <entry key="auxiliary|text|buyer">Upphandlare</entry>
 <entry key="auxiliary|text|buyer-competent">Behörig myndighet</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Varaktighet</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Löptid för inbjudan att anmäla intresse</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Information om det dynamiska inköpssystemet</entry>
+<entry key="auxiliary|text|eed-applicable">Upphandlingen omfattas av direktivet om energieffektivitet (EED) (EU) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Lista över produkter, arbeten, tjänster och byggnader relaterade till direktivet om energieffektivitet (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektronisk auktion</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Kontraktets beräknade startdatum och löptid</entry>
 <entry key="auxiliary|text|essential-assets">Väsentliga tillgångar</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Grupp av delar</entry>
 <entry key="auxiliary|text|grouping">Gruppens namn</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Upplysningar om priser och skadestånd</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Upphandlingen omfattas av det internationella upphandlingsinstrumentet (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistik över åtgärder inom det internationella upphandlingsinstrumentet (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">De språk som kan användas i intresseanmälningarna</entry>
 <entry key="auxiliary|text|late-tenderer-info">Information som kan kompletteras efter det att inlämningsfristen har löpt ut</entry>
 <entry key="auxiliary|text|legal-basis">Rättslig grund</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Förlängning</entry>
 <entry key="auxiliary|text|results">Resultat</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Resultatet av upphandlingsförfarandet</entry>
+<entry key="auxiliary|text|review">Prövning</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Ansökan om granskning eller interimistiska åtgärder har dragits tillbaka</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Typ av oriktighet som görs gällande</entry>
 <entry key="auxiliary|text|review-requests-summary">Sammanfattning av de ansökningar om prövning som köparen fått</entry>
 <entry key="auxiliary|text|roles">Den här organisationens roller</entry>
