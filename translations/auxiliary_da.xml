@@ -8,6 +8,9 @@
 <entry key="auxiliary|text|accessibility">Tilgængelighedskriterier</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc-kommunikationskanal</entry>
 <entry key="auxiliary|text|award-criteria">Tildelingskriterier</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategori for tildelingskriteriet vægt</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategori for tildelingskriteriet fast værdi</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategori for tildelingskriteriet tærskel</entry>
 <entry key="auxiliary|text|beneficial-owner">Reel ejer</entry>
 <entry key="auxiliary|text|buyer">Køber</entry>
 <entry key="auxiliary|text|buyer-competent">Kompetent myndighed</entry>
@@ -28,6 +31,8 @@
 <entry key="auxiliary|text|duration">Varighed</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Varigheden af indkaldelsen af interessetilkendegivelser</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Oplysninger om det dynamiske indkøbssystem</entry>
+<entry key="auxiliary|text|eed-applicable">Indkøb falder inden for rammerne af direktivet om energieffektivitet (EED) (EU) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Liste over produkter, værker, tjenester og bygninger relateret til direktivet om energieffektivitet (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Elektronisk auktion</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Kontraktens påtænkte startdato og varighed</entry>
 <entry key="auxiliary|text|essential-assets">Væsentlige aktiver</entry>
@@ -43,6 +48,8 @@
 <entry key="auxiliary|text|group-of-lots">Gruppe af delkontrakter</entry>
 <entry key="auxiliary|text|grouping">Gruppens navn</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Oplysninger om præmier og bøder</entry>
+<entry key="auxiliary|text|international-procurement-instrument">Indkøb falder inden for rammerne af det internationale indkøbsinstrument (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Statistik om foranstaltninger vedrørende det internationale indkøbsinstrument (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Sprog, som interessetilkendegivelserne kan indgives på</entry>
 <entry key="auxiliary|text|late-tenderer-info">Oplysninger, der kan suppleres efter indgivelsesfristen er udløbet</entry>
 <entry key="auxiliary|text|legal-basis">Retsgrundlag</entry>
@@ -97,6 +104,8 @@
 <entry key="auxiliary|text|renewal">Fornyelse</entry>
 <entry key="auxiliary|text|results">Resultater</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Resultaterne af udbudsproceduren</entry>
+<entry key="auxiliary|text|review">Information om klager</entry>
+<entry key="auxiliary|text|review-request-withdrawn">Ansøgningen om gennemgang eller om midlertidige foranstaltninger blev trukket tilbage</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Type påstået uregelmæssighed</entry>
 <entry key="auxiliary|text|review-requests-summary">Resumé af de klager som køberen har modtaget</entry>
 <entry key="auxiliary|text|roles">Denne organisations roller</entry>
