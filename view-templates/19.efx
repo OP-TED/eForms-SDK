@@ -133,6 +133,7 @@
 				{BT-747-Lot} #{field|name|BT-747-Lot}: #{BT-747-Lot} // Selection Criterion Type
 				{ND-SelectionCriteria[BT-749-Lot is present]} #{field|name|BT-749-Lot}: ${BT-749-Lot} // Selection Criterion Name
 				{ND-SelectionCriteria[BT-750-Lot is present]} #{field|name|BT-750-Lot}: ${BT-750-Lot} // Selection Criterion Description
+				{BT-748-Lot} #{field|name|BT-748-Lot}: #{BT-748-Lot} // Use of this criterion
 		10 {ND-LotAwardCriteria} #{auxiliary|text|award-criteria} // 5.1.10 Award criteria
 			0 {ND-LotAwardCriterion} #{auxiliary|text|criterion}: // Award Criterion
 				0 {ND-LotAwardCriterion[BT-539-Lot != 'unpublished']} #{field|name|BT-539-Lot}: #{BT-539-Lot} // Type

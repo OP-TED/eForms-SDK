@@ -133,6 +133,7 @@
 				{BT-747-Lot} #{field|name|BT-747-Lot}: #{BT-747-Lot} // Selection Criterion Type
 				{ND-SelectionCriteria[BT-749-Lot is present]} #{field|name|BT-749-Lot}: ${BT-749-Lot} // Selection Criterion Name
 				{ND-SelectionCriteria[BT-750-Lot is present]} #{field|name|BT-750-Lot}: ${BT-750-Lot} // Selection Criterion Description
+				{BT-748-Lot} #{field|name|BT-748-Lot}: #{BT-748-Lot} // Use of this criterion
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{field|name|BT-40-Lot} // Selection Criteria Second Stage Invite
 				{BT-7531-Lot} #{BT-7531-Lot}: ${format-number(BT-752-Lot, '###,##0.###,###,###')} // Number Weight
 				{BT-7532-Lot} #{BT-7532-Lot}: ${format-number(BT-752-Lot, '###,##0.###,###,###')} // Number Threshold
