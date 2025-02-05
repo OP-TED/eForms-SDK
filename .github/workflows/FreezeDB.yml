@@ -1,0 +1,26 @@
+name: Teams Announcement DB Freeze
+
+on:
+  repository_dispatch:
+    types: [send-teams-announcement]  # Custom API trigger
+
+jobs:
+  send-message:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Send announcement to Teams
+        env:
+          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}  # Your Teams webhook URL
+          VERSION: ${{ github.event.client_payload.version }}
+          RELEASE_CANDIDATE: ${{ github.event.client_payload.releaseCandidate }}
+        run: |
+          curl -H "Content-Type: application/json" \
+            -d '{
+             \"title\": \"Preparing SDK ${VERSION}-rc.${RELEASE_CANDIDATE}\",
+              \"text\": \"We have started the release process for SDK ${VERSION}.\\n\\nSo please stop making any change in the database or via the MDM, until further notice (normally later today).\\n\\nWe will then copy the content of the DB to a separate instance (TEDEFO_DEV_MDD_LG), which will then be used for SDK ${VERSION}. Once this is done, I will notify you when you can resume work with the MDM and the DB, which will be for the next SDK release.\"
+            }' \
+            "$TEAMS_WEBHOOK_URL"
