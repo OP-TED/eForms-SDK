@@ -2035,7 +2035,7 @@
 		<assert id="BR-BT-00127-0052" role="ERROR" test="matches(normalize-space(.),'^((((1[6-9]|[2-9]\d)\d{2})-(((0[13578]|1[02]))-31|((0[13-9]|1[0-2])-(29|30))))|(((((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))-02-29))|(((1[6-9]|[2-9]\d)\d{2})-((0[1-9])|(1[0-2]))-(0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-00127-0052</assert>
 	</rule>
 	<rule context="/*/cbc:RegulatoryDomain">
-		<assert id="BR-BT-00001-0155" role="ERROR" test="normalize-space(.) = ('31985R2137', '32001R2157', '32003R1435', '32007R1370', '32009L0081', '32014L0023', '32014L0024', '32014L0025', '32018R1046', 'other')">rule|text|BR-BT-00001-0155</assert>
+		<assert id="BR-BT-00001-0155" role="ERROR" test="normalize-space(.) = ('31985R2137', '32001R2157', '32003R1435', '32007R1370', '32009L0081', '32014L0023', '32014L0024', '32014L0025', '32018R1046', '32024R2509', 'other')">rule|text|BR-BT-00001-0155</assert>
 		<assert id="BT-01-notice_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-01-notice_WS</assert>
 	</rule>
 	<rule context="/*/cbc:RequestedPublicationDate">
