@@ -4,7 +4,7 @@ This release adds the Regulation 2024/2509 on the financial rules applicable to 
 
 This change has no impact for notices for which the buyer is not an EU institution or body.
 
-A comprehensive list of changes between SDK 1.10.0 and SDK 1.10.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.13.0...1.13.1>
+A comprehensive list of changes between SDK 1.13.0 and SDK 1.13.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.13.0...1.13.1>
 
 # SDK 1.13.0 Release Notes
 
