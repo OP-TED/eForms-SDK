@@ -3866,6 +3866,10 @@
         "value" : "{ND-NoticeResult} ${(not(BT-1561-NoticeResult is present) and (every text:$faEstCurr in (BT-660-LotResult/@currencyID) satisfies $faEstCurr == BT-1118-NoticeResult/@currencyID) and (((BT-1118-NoticeResult >= sum(BT-660-LotResult)) and ((BT-1118-NoticeResult - sum(BT-660-LotResult)) <= (1.00 * count(BT-660-LotResult)))) or ((BT-1118-NoticeResult <= sum(BT-660-LotResult)) and ((sum(BT-660-LotResult) - BT-1118-NoticeResult) <= (1.00 * count(BT-660-LotResult)))))) or (BT-1561-NoticeResult is present) or not(every text:$faEst in (BT-660-LotResult/@currencyID) satisfies $faEst == BT-1118-NoticeResult/@currencyID)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01118-0100"
+      }, {
+        "value" : "{BT-1118-NoticeResult} ${not(BT-1118-NoticeResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-01118-0102"
       } ]
     }
   }, {
@@ -4064,6 +4068,15 @@
         "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "33", "34" ],
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-118-NoticeResult} ${not(BT-118-NoticeResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00118-0102"
       } ]
     }
   }, {
@@ -6717,6 +6730,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-156-NoticeResult} ${not(BT-156-NoticeResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00156-0068"
+      } ]
     }
   }, {
     "id" : "BT-156-NoticeResult-Currency",
@@ -6788,6 +6810,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-1561-NoticeResult} ${not(BT-1561-NoticeResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-01561-0066"
+      } ]
     }
   }, {
     "id" : "BT-1561-NoticeResult-Currency",
@@ -6836,6 +6867,15 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "14", "15", "19", "23", "24", "28", "32", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E6", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-157-LotsGroup} ${not(BT-157-LotsGroup < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00157-0067"
       } ]
     }
   }, {
@@ -6962,6 +7002,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-160-Tender} ${not(BT-160-Tender < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00160-0055"
+      } ]
     }
   }, {
     "id" : "BT-160-Tender-Currency",
@@ -7037,6 +7086,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-161-NoticeResult} ${not(BT-161-NoticeResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00161-0060"
+      } ]
     }
   }, {
     "id" : "BT-161-NoticeResult-Currency",
@@ -7106,6 +7164,15 @@
         "noticeTypes" : [ "32", "35" ],
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-162-Tender} ${not(BT-162-Tender < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00162-0055"
       } ]
     }
   }, {
@@ -22306,6 +22373,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-27-Lot} ${not(BT-27-Lot < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00027-0208"
+      } ]
     }
   }, {
     "id" : "BT-27-Lot-Currency",
@@ -22354,6 +22430,15 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "15", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "E1", "E2", "E6", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-27-LotsGroup} ${not(BT-27-LotsGroup < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00027-0209"
       } ]
     }
   }, {
@@ -22404,6 +22489,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-27-Part} ${not(BT-27-Part < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00027-0210"
+      } ]
     }
   }, {
     "id" : "BT-27-Part-Currency",
@@ -22452,6 +22546,15 @@
         "noticeTypes" : [ "1", "2", "3", "15", "23", "24", "25", "26", "27", "28", "36", "37", "38", "39", "40", "CEI", "E6", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-27-Procedure} ${not(BT-27-Procedure < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00027-0211"
       } ]
     }
   }, {
@@ -22507,6 +22610,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-271-Lot} ${not(BT-271-Lot < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00271-0208"
+      } ]
     }
   }, {
     "id" : "BT-271-Lot-Currency",
@@ -22561,6 +22673,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-271-LotsGroup} ${not(BT-271-LotsGroup < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00271-0209"
+      } ]
     }
   }, {
     "id" : "BT-271-LotsGroup-Currency",
@@ -22614,6 +22735,15 @@
         "condition" : "{ND-ProcedureProcurementScope} ${(BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')) or (BT-765-Lot is not present)}",
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-271-Procedure} ${not(BT-271-Procedure < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00271-0210"
       } ]
     }
   }, {
@@ -28511,6 +28641,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-553-Tender} ${not(BT-553-Tender < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00553-0072"
+      } ]
     }
   }, {
     "id" : "BT-553-Tender-Currency",
@@ -29759,6 +29898,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-644-Lot} ${not(BT-644-Lot < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00644-0054"
+      } ]
     }
   }, {
     "id" : "BT-644-Lot-Currency",
@@ -29947,6 +30095,15 @@
         "condition" : "{ND-LotResultFAValues} ${(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')]) or not(BT-142-LotResult == 'selec-w')}",
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-660-LotResult} ${not(BT-660-LotResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00660-0059"
       } ]
     }
   }, {
@@ -30967,6 +31124,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-709-LotResult} ${not(BT-709-LotResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00709-0059"
+      } ]
     }
   }, {
     "id" : "BT-709-LotResult-Currency",
@@ -31160,6 +31326,10 @@
         "value" : "{ND-LotResult} ${BT-710-LotResult <= BT-711-LotResult}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00710-0101"
+      }, {
+        "value" : "{BT-710-LotResult} ${not(BT-710-LotResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00710-0103"
       } ]
     }
   }, {
@@ -31221,6 +31391,15 @@
         "condition" : "{ND-LotResult} ${(BT-142-LotResult == 'open-nw') or ((BT-142-LotResult == 'clos-nw') and (BT-144-LotResult == 'no-rece'))}",
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-711-LotResult} ${not(BT-711-LotResult < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00711-0056"
       } ]
     }
   }, {
@@ -31546,6 +31725,15 @@
         "condition" : "{ND-LotTender} ${(OPT-321-Tender in OPT-320-LotResult[(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ('fa-mix','fa-w-rc','fa-wo-rc')])]) or (OPT-321-Tender in OPT-320-LotResult[(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')])] and OPT-321-Tender in BT-3202-Contract[(BT-768-Contract == TRUE)])}",
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-720-Tender} ${not(BT-720-Tender < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00720-0060"
       } ]
     }
   }, {
@@ -35226,6 +35414,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-779-Tender} ${not(BT-779-Tender < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00779-0054"
+      } ]
     }
   }, {
     "id" : "BT-779-Tender-Currency",
@@ -35438,6 +35635,15 @@
         "noticeTypes" : [ "E5" ],
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-782-Tender} ${not(BT-782-Tender < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00782-0054"
       } ]
     }
   }, {
@@ -36066,6 +36272,15 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-793-Review} ${not(BT-793-Review < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00793-0054"
+      } ]
     }
   }, {
     "id" : "BT-793-Review-Currency",
@@ -36153,6 +36368,15 @@
         "condition" : "{ND-ReviewStatus} ${not (BT-783-Review == 'dec')}",
         "value" : true,
         "severity" : "ERROR"
+      } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "value" : "{BT-795-Review} ${not(BT-795-Review < 0 )}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00795-0053"
       } ]
     }
   }, {
