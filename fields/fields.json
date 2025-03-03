@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.83",
-    "createdOn" : "2025-01-14T14:03:11"
+    "version" : "1.13.114",
+    "createdOn" : "2025-02-25T09:46:17"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -3929,6 +3929,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-115-Lot",
@@ -7358,6 +7362,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-1711-Tender",
@@ -22871,6 +22879,10 @@
         "severity" : "ERROR"
       } ]
     },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
@@ -23034,6 +23046,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
@@ -23403,6 +23419,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-45-Lot",
@@ -23551,6 +23571,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
@@ -25105,6 +25129,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
@@ -28835,6 +28863,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-60-Lot",
@@ -30379,6 +30411,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-687-LotResult",
@@ -38897,6 +38933,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "OPP-080-Tender-Unit",

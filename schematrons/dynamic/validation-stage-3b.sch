@@ -246,6 +246,9 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cac:Renewal/cac:Period/cbc:Description/@languageID">
 		<assert id="BR-BT-00057-0056" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00057-0056</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cbc:MaximumNumberNumeric">
+		<assert id="BR-BT-00058-0052" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00058-0052</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:ContractExtension/cbc:OptionsDescription">
 		<assert id="BT-54-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|text|BT-54-Lot_length</assert>
 	</rule>
@@ -435,6 +438,12 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:LimitationDescription">
 		<assert id="BR-BT-00661-0053" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00661-0053</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:MaximumQuantity">
+		<assert id="BR-BT-00051-0069" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00051-0069</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:MinimumQuantity">
+		<assert id="BR-BT-00050-0053" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00050-0053</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cac:SubsequentProcessTenderRequirement[cbc:Name/text()='buyer-categories']/cbc:Description">
 		<assert id="BT-111-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 6000">rule|text|BT-111-Lot_length</assert>
 	</rule>
@@ -450,6 +459,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:Justification/@languageID">
 		<assert id="BR-BT-00109-0063" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00109-0063</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:MaximumOperatorQuantity">
+		<assert id="BR-BT-00113-0054" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00113-0054</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:InvitationSubmissionPeriod/cbc:StartDate">
 		<assert id="BR-BT-00130-0052" role="ERROR" test="matches(normalize-space(.),'^((((1[6-9]|[2-9]\d)\d{2})-(((0[13578]|1[02]))-31|((0[13-9]|1[0-2])-(29|30))))|(((((1[6-9]|[2-9]\d)(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))-02-29))|(((1[6-9]|[2-9]\d)\d{2})-((0[1-9])|(1[0-2]))-(0[1-9]|1\d|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-00130-0052</assert>
@@ -827,6 +839,9 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:Description/@languageID">
 		<assert id="BR-BT-00045-0051" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00045-0051</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:RankCode">
+		<assert id="BR-BT-00044-0071" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00044-0071</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount">
 		<assert id="BT-644-Lot-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-644-Lot-Currency_MA</assert>
@@ -1933,6 +1948,12 @@
 		<assert id="BR-BT-00330-0052" role="ERROR" test="matches(normalize-space(.),'^GLO-\d{4}$')">rule|text|BR-BT-00330-0052</assert>
 		<assert id="BT-330-Procedure_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-330-Procedure_WS</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric">
+		<assert id="BR-BT-00033-0054" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00033-0054</assert>
+	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric">
+		<assert id="BR-BT-00031-0075" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00031-0075</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/cbc:DocumentDescription">
 		<assert id="BT-09_b_-Procedure_length" role="ERROR" test="string-length(normalize-space(.)) le 1000">rule|text|BT-09_b_-Procedure_length</assert>
 	</rule>
@@ -2596,6 +2617,9 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efac:MeasureException/efbc:ExceptionDescription/@languageID">
 		<assert id="BR-BT-00688-0060" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00688-0060</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efac:MeasureStatistics/efbc:StatisticsNumeric">
+		<assert id="BR-BT-00686-0060" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00686-0060</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode">
 		<assert id="BR-BT-00685-0060" role="ERROR" test="normalize-space(.) = ('empty')">rule|text|BR-BT-00685-0060</assert>
 		<assert id="BT-685-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-685-LotResult-List_MA</assert>
@@ -2657,6 +2681,9 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
 		<assert id="BR-OPT-00321-0052" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-OPT-00321-0052</assert>
 		<assert id="OPT-321-Tender_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|OPT-321-Tender_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:RankCode">
+		<assert id="BR-BT-00171-0059" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00171-0059</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/cbc:PaidAmount">
 		<assert id="BT-779-Tender-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-779-Tender-Currency_MA</assert>
@@ -3001,6 +3028,9 @@
 		<assert id="BR-BT-00682-0101" role="ERROR" test="normalize-space(.) = ('fsr-adm-clos', 'fsr-commit', 'fsr-irregul', 'fsr-meat', 'fsr-no-obj', 'fsr-proh', 'fsr-stand')">rule|text|BR-BT-00682-0101</assert>
 		<assert id="BT-682-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-682-Tender-List_MA</assert>
 		<assert id="BT-682-Tender_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-682-Tender_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:PublicTransportationCumulatedDistance">
+		<assert id="BR-OPP-00080-0052" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-OPP-00080-0052</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:TenderRankedIndicator">
 		<assert id="BR-BT-01711-0100" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-01711-0100</assert>
