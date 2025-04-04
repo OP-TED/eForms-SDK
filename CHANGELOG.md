@@ -1,3 +1,13 @@
+# SDK 1.13.1 Release Notes
+
+This release adds the Regulation 2024/2509 on the financial rules applicable to the general budget of the Union: new code in the codelist for legal basis, adjustments in a few rules to take this code into account, and new corresponding translations.
+
+This change has no impact for notices for which the buyer is not an EU institution or body.
+
+This release also contains corrections to the Czech translations for rules.
+
+A comprehensive list of changes between SDK 1.13.0 and SDK 1.13.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.13.0...1.13.1>
+
 # SDK 1.13.0 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.12.0 should also be able to use this version.
