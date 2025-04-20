@@ -2,7 +2,35 @@ grammar Efx;
 
 options { tokenVocab=EfxLexer;}
 
-/*** Using the lexer's DEFAULT_MODE ***/
+/*
+ * The eForms Expression Language (EFX) is a Domain Specific Language (DSL) designed
+ * to work with eForms notices. EFX is designed to allow the user to:
+ * - define expressions that can be used to perform computations on eForms notice data,
+ * - define templates that can be used to visualise eForms notices.
+ *
+ * eForms notice data are addressed by dereferencing eForms Fields and Nodes.
+ * eForms Fields point to data elements in an eForms notice.
+ * eForms Nodes point to structural elements in the eForms notice that contain other Nodes and/or Fields.
+ *
+ * EFX expressions are typically used to define validation rules.
+ * EFX expressions always require an evaluation context relative to which all the Fields and Nodes 
+ * referenced by the expression will be dereferenced.
+ *
+ * EFX templates are composed of a series of template-lines which can be nested using
+ * python-style indentation to define a hierarchical structure for notice visualisation.
+ * 
+ * A template-line together with any nested template-lines form a template-block.
+ * An EFX template-file therefore can be thought of as a hierarchy of nested template-blocks.
+ * The template-blocks at the leaf level of this hierarchy, are composed of a single template-line.
+ *
+ * Each template-line is anchored to a context which is used for the evaluation of 
+ * the EFX expressions contained in the template-line. The entire template-block will evaluated as many times 
+ * as the number of elements matched by the context of the corresponding template-line.
+ */
+
+/**************************************
+  Using the lexer's DEFAULT_MODE 
+ **************************************/
 
 /* 
  * A single-expression is typically used to evaluate a condition.
@@ -14,9 +42,27 @@ options { tokenVocab=EfxLexer;}
 singleExpression: StartExpression (FieldId | NodeId) (Comma parameterList)? EndExpression expressionBlock EOF;
 
 /* 
- * A template-file is a series of template-lines.
+ * An EFX template-file consists of a series of template-lines, optionally preceded by a series of global-declarations.
+ * Any variables and functions declared globally can be used in the template-lines.
  */
-templateFile: (templateLine)* EOF;
+templateFile: (globalDeclaration)* (templateLine)* EOF;
+
+/* 
+ * Global-declarations allow the definition of variables and/or functions that can be used throughout the entire template-file.
+ */
+globalDeclaration: StartExpression (globalVariableDeclaration | functionDeclaration) EndExpression CRLF;
+
+/* 
+ * You can capture this context to manage the scope of global variables.
+ */
+globalVariableDeclaration    
+    : stringVariableInitializer
+    | booleanVariableInitializer 
+    | numericVariableInitializer
+    | dateVariableInitializer
+    | timeVariableInitializer 
+    | durationVariableInitializer
+    ;
 
 /* 
  * A template line contains three parts: indentation, context-declaration and template.
@@ -60,7 +106,9 @@ lineBreak: Whitespace* NewLine Whitespace*;
  */
 textBlock: (Whitespace | FreeText)+ textBlock*;
 
-/*** Labels are matched when the lexical analyser is in LABEL mode ***/
+/******************************************************************************
+  Labels are matched when the lexical analyser is in LABEL mode
+ ******************************************************************************/
 
 
 /*
@@ -93,7 +141,9 @@ otherAssetId: OtherAssetId | AssetType | LabelType;
 
 pluraliser: expressionBlock;
 
-/*** Expressions are matched when the lexical analyser is in EXPRESSION mode ***/
+/****************************************************************************** 
+  Expressions are matched when the lexical analyser is in EXPRESSION mode 
+ ******************************************************************************/
 
 
 /* 
@@ -105,8 +155,10 @@ expressionBlock
     ;
 
 /*
- * A context-declaration is contained within curly braces and can be either 
- * a field-identifier or a node-identifier followed by an optional predicate.
+ * A context-declaration block is used to specify the context in which the expressions of the template-line are evaluated.
+ * A template-line is essentially a for-loop that evaluates as many times as the number of elements matched by the context-declaration.
+ * A template-line together with any nested template-lines form a template-block. As the for-loop iterates, the entire template-block is evaluated. 
+ * A context-declaration block also allows the declaration of local variables that can be used in the template-line.
  */
 contextDeclarationBlock
     : StartExpression (templateVariableList Comma)? contextDeclaration (Comma templateVariableList)? EndExpression
@@ -114,24 +166,68 @@ contextDeclarationBlock
 
 contextDeclaration: contextVariableInitializer | fieldContext | nodeContext | shortcut=(Dot | DotDot | Slash);
 
-templateVariableList: templateVariableInitializer (Comma templateVariableInitializer)*;
+templateVariableList: templateVariableDeclaration (Comma templateVariableDeclaration)*;
 
-contextVariableInitializer: ContextType Colon Variable Assignment fieldContext;
-
-templateVariableInitializer
-    : Text      Colon Variable Assignment (stringExpression   | lateBoundExpression)    # stringVariableInitializer
-    | Indicator Colon Variable Assignment (booleanExpression  | lateBoundExpression)    # booleanVariableInitializer
-    | Number    Colon Variable Assignment (numericExpression  | lateBoundExpression)    # numericVariableInitializer
-    | Date      Colon Variable Assignment (dateExpression     | lateBoundExpression)    # dateVariableInitializer 
-    | Time      Colon Variable Assignment (timeExpression     | lateBoundExpression)    # timeVariableInitializer
-    | Measure   Colon Variable Assignment (durationExpression | lateBoundExpression)    # durationVariableInitializer
+/* 
+ * You can capture this context to manage the scope of local variables.
+ * Local variables are only visible within the template-line in which they are declared
+ * as well as in any nested template-lines.
+ * Note that EFX does not allow the declaration of uninitialised variables.
+ * Also note that contextVariableInitializer is not matched by templateVariableDeclaration.
+ * This is because only one contextVariableInitializer is allowed in a contextDeclarationBlock.
+ */
+templateVariableDeclaration
+    : stringVariableInitializer
+    | booleanVariableInitializer 
+    | numericVariableInitializer
+    | dateVariableInitializer
+    | timeVariableInitializer 
+    | durationVariableInitializer
     ;
 
-/*
- * Expression Parameters
- */
+stringVariableInitializer:      Text        Colon Variable Assignment (stringExpression   | lateBoundExpression);
+booleanVariableInitializer:     Indicator   Colon Variable Assignment (booleanExpression  | lateBoundExpression);
+numericVariableInitializer:     Number      Colon Variable Assignment (numericExpression  | lateBoundExpression);
+dateVariableInitializer :       Date        Colon Variable Assignment (dateExpression     | lateBoundExpression);
+timeVariableInitializer:        Time        Colon Variable Assignment (timeExpression     | lateBoundExpression);
+durationVariableInitializer:    Measure     Colon Variable Assignment (durationExpression | lateBoundExpression);
+contextVariableInitializer:     ContextType Colon Variable Assignment fieldContext;
 
+functionDeclaration
+    : stringFunctionDeclaration 
+    | booleanFunctionDeclaration 
+    | numericFunctionDeclaration 
+    | dateFunctionDeclaration 
+    | timeFunctionDeclaration 
+    | durationFunctionDeclaration
+    ;
+
+stringFunctionDeclaration:      Text      Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (stringExpression   | lateBoundExpression);
+booleanFunctionDeclaration:     Indicator Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (booleanExpression  | lateBoundExpression);
+numericFunctionDeclaration:     Number    Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (numericExpression  | lateBoundExpression);
+dateFunctionDeclaration:        Date      Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (dateExpression     | lateBoundExpression);
+timeFunctionDeclaration:        Time      Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (timeExpression     | lateBoundExpression);
+durationFunctionDeclaration:    Measure   Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (durationExpression | lateBoundExpression);
+
+functionInvocation:         Function OpenParenthesis argumentList? CloseParenthesis;
+
+/**************************************
+  Parameters & Arguments
+ **************************************/
+
+/*
+ * Represents a list of parameters passed to a function or a singleExpression. 
+ */
 parameterList: parameterDeclaration (Comma parameterDeclaration)*;
+
+/*
+ * Represents a list of arguments passed to a function.
+ * Each argument can be any expression. The expression will
+ * be evaluated and the result will be passed to the function through
+ * the corresponding parameter.
+ */
+argumentList: argument (Comma argument)*;
+argument: expression;
 
 parameterDeclaration
     : Text      Colon Variable      # stringParameterDeclaration 
@@ -150,9 +246,9 @@ parameterDeclaration
 parameterValue: StartExpression (stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral) EndExpression;
 
 
-/*
- * Expressions
- */
+/**************************************
+  Expressions
+ **************************************/
 
 expression: lateBoundExpression | numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression | sequenceExpression;
 
@@ -202,7 +298,7 @@ booleanExpression
     | timeExpression        Comparison lateBoundScalar                          # ppTimeToLateBoundComparison
     | durationExpression    Comparison lateBoundScalar                          # ppDurationToLateBoundComparison
     | lateBoundScalar       Comparison lateBoundScalar                          # ppFieldValueComparison
-    | lateBoundExpression   Not? Like pattern=STRING                            # pplikePatternCondition
+    | lateBoundExpression   Not? Like pattern=STRING                            # ppLikePatternCondition
     | lateBoundExpression   Is Not? Empty                                       # ppLateBoundEmptinessCondition
     | stringExpression      Not? In lateBoundSequence                           # ppStringInLateBoundListCondition
     | numericExpression     Not? In lateBoundSequence                           # ppNumberInLateBoundListCondition
@@ -220,7 +316,7 @@ booleanExpression
     | (Every | Some) iteratorList Satisfies lateBoundScalar                     # ppLateBoundQuantifiedExpression
     | If   (booleanExpression | lateBoundScalar)
       Then (booleanExpression | lateBoundScalar)
-      Else (booleanExpression | lateBoundScalar)                                # ppconditionalBooleanExpression
+      Else (booleanExpression | lateBoundScalar)                                # ppConditionalBooleanExpression
     ;
     
 stringExpression
@@ -299,9 +395,9 @@ durationExpression
     ;
 
 
-/*
- * Sequences
- */
+/**************************************
+  Sequences
+ **************************************/
 
 sequenceExpression
     : stringSequence 
@@ -383,9 +479,9 @@ timeIteratorExpression:     timeVariableDeclaration     In (timeSequence     | l
 durationIteratorExpression: durationVariableDeclaration In (durationSequence | lateBoundSequence);
 contextIteratorExpression:  contextVariableDeclaration  In (fieldContext     | nodeContext);
 
-/*
- * Literals
- */
+/**************************************
+  Literals
+ **************************************/
 
 stringLiteral: STRING | UUIDV4;
 numericLiteral: INTEGER | DECIMAL;
@@ -397,9 +493,9 @@ timeLiteral: TIME;
 durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
 
 
-/*
- * References
- */
+/**************************************
+  References
+ **************************************/
 
 textTypeCast:       OpenParenthesis Text        CloseParenthesis;
 booleanTypeCast:    OpenParenthesis Indicator   CloseParenthesis;
@@ -467,50 +563,56 @@ codelistReference: CodelistId;
 
 axis: Axis ColonColon;
 
-/*
- * Function calls
- */
+/**************************************
+  Function calls
+ **************************************/
 
 booleanFunction
-    : Not                   OpenParenthesis (booleanExpression         | lateBoundScalar) CloseParenthesis                                                         # notFunction
-    | ContainsFunction      OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis    # containsFunction
-    | StartsWithFunction    OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis    # startsWithFunction
-    | EndsWithFunction      OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis    # endsWithFunction
-    | SequenceEqualFunction OpenParenthesis (left=sequenceExpression   | lateBoundSequence) Comma (right=sequenceExpression | lateBoundSequence) CloseParenthesis  # sequenceEqualFunction
+    : booleanTypeCast       functionInvocation                                                                                                                      # booleanFunctionInvocation
+    | Not                   OpenParenthesis (booleanExpression         | lateBoundScalar) CloseParenthesis                                                          # notFunction
+    | ContainsFunction      OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis     # containsFunction
+    | StartsWithFunction    OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis     # startsWithFunction
+    | EndsWithFunction      OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis     # endsWithFunction
+    | SequenceEqualFunction OpenParenthesis (left=sequenceExpression   | lateBoundSequence) Comma (right=sequenceExpression | lateBoundSequence) CloseParenthesis   # sequenceEqualFunction
     ;
 
 numericFunction
-    : CountFunction         OpenParenthesis (sequenceExpression | lateBoundSequence)  CloseParenthesis    # countFunction
+    : numericTypeCast       functionInvocation                                                            # numericFunctionInvocation
+    | CountFunction         OpenParenthesis (sequenceExpression | lateBoundSequence)  CloseParenthesis    # countFunction
     | Number                OpenParenthesis (stringExpression   | lateBoundScalar)    CloseParenthesis    # numberFunction
     | SumFunction           OpenParenthesis (numericSequence    | lateBoundSequence)  CloseParenthesis    # sumFunction
     | StringLengthFunction  OpenParenthesis (stringExpression   | lateBoundScalar)    CloseParenthesis    # stringLengthFunction
     ;
 
 stringFunction
-    : SubstringFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis   # substringFunction
-    | StringFunction                 OpenParenthesis (numericExpression  | lateBoundScalar)   CloseParenthesis                                                                                                           # toStringFunction
-    | ConcatFunction                 OpenParenthesis (stringExpression   | lateBoundScalar)  (Comma (stringExpression        | lateBoundScalar))* CloseParenthesis                                                       # concatFunction
-    | StringJoinFunction             OpenParenthesis (stringSequence     | lateBoundSequence) Comma (stringExpression        | lateBoundScalar)   CloseParenthesis                                                       # stringJoinFunction
-    | FormatNumberFunction           OpenParenthesis (numericExpression  | lateBoundScalar)  (Comma (format=stringExpression | lateBoundScalar))? CloseParenthesis                                                       # formatNumberFunction
-    | UpperCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                           # upperCaseFunction
-    | LowerCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                           # lowerCaseFunction
-    | PreferredLanguageFunction      OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                           # preferredLanguageFunction
-    | PreferredLanguageTextFunction  OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                           # preferredLanguageTextFunction
+    : textTypeCast                   functionInvocation                                                                                                                                                                 # stringFunctionInvocation 
+    | SubstringFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # substringFunction
+    | StringFunction                 OpenParenthesis (numericExpression  | lateBoundScalar)   CloseParenthesis                                                                                                          # toStringFunction
+    | ConcatFunction                 OpenParenthesis (stringExpression   | lateBoundScalar)  (Comma (stringExpression        | lateBoundScalar))* CloseParenthesis                                                      # concatFunction
+    | StringJoinFunction             OpenParenthesis (stringSequence     | lateBoundSequence) Comma (stringExpression        | lateBoundScalar)   CloseParenthesis                                                      # stringJoinFunction
+    | FormatNumberFunction           OpenParenthesis (numericExpression  | lateBoundScalar)  (Comma (format=stringExpression | lateBoundScalar))? CloseParenthesis                                                      # formatNumberFunction
+    | UpperCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # upperCaseFunction
+    | LowerCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # lowerCaseFunction
+    | PreferredLanguageFunction      OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                          # preferredLanguageFunction
+    | PreferredLanguageTextFunction  OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                          # preferredLanguageTextFunction
     ;
 
 
 dateFunction
-    : Date              OpenParenthesis (stringExpression   | lateBoundScalar) CloseParenthesis                                             # dateFromStringFunction
+    : dateTypeCast      functionInvocation                                                                                                  # dateFunctionInvocation 
+    | Date              OpenParenthesis (stringExpression   | lateBoundScalar) CloseParenthesis                                             # dateFromStringFunction
     | AddMeasure        OpenParenthesis (dateExpression     | lateBoundScalar) Comma (timeExpression | lateBoundScalar) CloseParenthesis    # datePlusMeasureFunction
     | SubtractMeasure   OpenParenthesis (dateExpression     | lateBoundScalar) Comma (timeExpression | lateBoundScalar) CloseParenthesis    # dateMinusMeasureFunction
     ;
 
 timeFunction
-    : Time OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis                        # timeFromStringFunction
+    : timeTypeCast      functionInvocation                                                              # timeFunctionInvocation 
+    | Time OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis                        # timeFromStringFunction
     ;
 
 durationFunction
-    : DayTimeDurationFunction   OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis   # dayTimeDurationFromStringFunction
+    : durationTypeCast          functionInvocation                                                      # durationFunctionInvocation 
+    | DayTimeDurationFunction   OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis   # dayTimeDurationFromStringFunction
     | YearMonthDurationFunction OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis   # yearMonthDurationFromStringFunction
     ;
 
@@ -521,9 +623,9 @@ sequenceFunction
     | ExceptFunction            OpenParenthesis (sequenceExpression | lateBoundSequence) Comma (sequenceExpression | lateBoundSequence) CloseParenthesis    # exceptFunction
     ;
 
-/*
- * Late-binding
- */
+/**************************************
+  Late-binding
+ **************************************/
 
 lateBoundExpression
     : lateBoundScalar
@@ -542,7 +644,8 @@ lateBoundSequenceFromIteration: For iteratorList Return lateBoundScalar;
 lateBoundSequenceReference
     : attributeReference        # sequenceFromAttributeReference 
     | fieldReference            # sequenceFromFieldReference
-    | variableReference         # untypedSequenceVariableExpression
+    | variableReference         # sequenceFromVariableReference
+    | functionInvocation        # sequenceFromFunctionInvocation
     ;
 
 lateBoundScalar
@@ -555,7 +658,8 @@ lateBoundScalar
 lateBoundScalarReference
     : attributeReference        # scalarFromAttributeReference 
     | fieldReference            # scalarFromFieldReference
-    | variableReference         # untypedVariableExpression
+    | variableReference         # scalarFromVariableReference
+    | functionInvocation        # scalarFromFunctionInvocation
     ;
 
 variableReference: Variable;

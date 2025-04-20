@@ -303,7 +303,9 @@ NodeId: NodeIdentifier | NodeAlias;
 VariablePrefix: '$';
 AttributePrefix: '@';
 CodelistPrefix: '#';
+FunctionPrefix: '?';
 
+Function: FunctionPrefix Identifier;
 Variable: VariablePrefix IdentifierPart;
 Attribute: AttributePrefix Identifier;
 CodelistId: CodelistPrefix Identifier;
