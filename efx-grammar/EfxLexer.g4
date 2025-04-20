@@ -62,8 +62,11 @@ mode SKIP_WHITESPACE;
 
 // Just skip all whitespace and directly switch to TEMPLATE mode. Notice that we do not use
 // pushMode(); we simply change the current mode from SKIP_WHITESPACE to TEMPLATE.
-SWS: [ \t]+ -> channel(WHITESPACE), mode(TEMPLATE);
+SWS1: [ \t]+ -> channel(WHITESPACE), mode(TEMPLATE);
 
+// In case there is a comment without preceding whitespace or just a line-ending then
+// we need to return to the DEFAULT mode. Comments with preceding whitespace will be handled by the TEMPLATE mode.
+SWS2: ('//' ~[\r\n\f]*)? EOL+ -> popMode, type(CRLF);
 
 /*
  * TEMPLATE mode 
