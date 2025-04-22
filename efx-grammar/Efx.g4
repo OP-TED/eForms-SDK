@@ -101,7 +101,7 @@ templateFragment
 lineBreak: Whitespace* NewLine Whitespace*;
 
 /**
- * A text-block cosnists of whitespace and free-text.
+ * A text-block consists of whitespace and free-text.
  * It is used to add static content to the template.
  */
 textBlock: (Whitespace | FreeText)+ textBlock*;
