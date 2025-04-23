@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'develop'
+      - 'efx-2'
 
   release:
     types: [created]
