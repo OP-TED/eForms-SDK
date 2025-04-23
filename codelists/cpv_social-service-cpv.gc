@@ -6,7 +6,7 @@
       <LongName>social-service-cpv</LongName>
       <LongName Identifier="listId">http://data.europa.eu/cpv/Cpv2008/Code</LongName>
       <LongName Identifier="eFormsParentId">cpv</LongName>
-      <Version>1.8.104</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -161,6 +161,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Administrative educational services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Administrativne usluge u obrazovanju</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Közigazgatási oktatási szolgáltatások</SimpleValue>
          </Value>
@@ -237,6 +240,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Administrative healthcare services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Administrativne usluge u zdravstvu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Közigazgatási egészségügyi szolgáltatások</SimpleValue>
@@ -315,6 +321,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Administrative housing services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Administrativne usluge u stambenom gospodarstvu</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Közigazgatási házépítési szolgáltatások</SimpleValue>
          </Value>
@@ -391,6 +400,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Supply services of domestic help personnel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge pribavljanja osoblja za pomoć u kućanstvu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Háztartási kisegítő személyzettel való ellátási szolgáltatások</SimpleValue>
@@ -469,6 +481,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Supply services of nursing personnel</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge pribavljanja osoblja za medicinsku njegu</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Ápolószemélyzettel való ellátási szolgáltatások</SimpleValue>
          </Value>
@@ -545,6 +560,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Supply services of medical personnel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge pribavljanja medicinskog osoblja</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Egészségügyi személyzettel való ellátási szolgáltatások</SimpleValue>
@@ -623,6 +641,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Pre-school education services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge predškolskog obrazovanja</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Iskola előtti oktatási szolgáltatások</SimpleValue>
          </Value>
@@ -699,6 +720,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Higher education services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge visokoškolskog obrazovanja</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Felsőoktatási szolgáltatások</SimpleValue>
@@ -777,6 +801,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>E-learning services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge e-učenja</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>E-oktatással kapcsolatos szolgáltatások</SimpleValue>
          </Value>
@@ -853,6 +880,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Adult-education services at university level</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge obrazovanja odraslih na razini sveučilišta</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Egyetemi szintű felnőttoktatási szolgáltatások</SimpleValue>
@@ -931,6 +961,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Staff training services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge izobrazbe kadrova</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Személyzeti képzési szolgáltatások</SimpleValue>
          </Value>
@@ -1007,6 +1040,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Training facilities</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Sredstva za izobrazbu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Képzési létesítmény</SimpleValue>
@@ -1085,6 +1121,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Tutorial services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge mentorstva</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Oktatási szolgáltatások</SimpleValue>
          </Value>
@@ -1161,6 +1200,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Health and social work services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području zdravstva i socijalne skrbi</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Egészségügyi és szociális gondozási szolgáltatások</SimpleValue>
@@ -1239,6 +1281,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Health services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području zdravstva</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Egészségügyi szolgáltatások</SimpleValue>
          </Value>
@@ -1315,6 +1360,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Hospital and related services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolničke usluge i s njima povezane usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kórházi és kapcsolódó szolgáltatások</SimpleValue>
@@ -1393,6 +1441,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Hospital services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolničke usluge</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kórházi szolgáltatások</SimpleValue>
          </Value>
@@ -1469,6 +1520,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Surgical hospital services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolničke usluge u području kirurgije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Sebészeti kórházi szolgáltatások</SimpleValue>
@@ -1547,6 +1601,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Medical hospital services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge medicinske skrbi u bolnicama</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Gyógyászati kórházi szolgáltatások</SimpleValue>
          </Value>
@@ -1623,6 +1680,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Gynaecological hospital services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolničke usluge u području ginekologije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Nőgyógyászati kórházi szolgáltatások</SimpleValue>
@@ -1701,6 +1761,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>In vitro fertilisation services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge oplodnje in vitro</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Mesterséges megtermékenyítéssel kapcsolatos szolgáltatások</SimpleValue>
          </Value>
@@ -1777,6 +1840,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Obstetrical hospital services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolničke usluge u području porodništva</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szülészeti kórházi szolgáltatások</SimpleValue>
@@ -1855,6 +1921,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Rehabilitation hospital services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolničke usluge u području rehabilitacije</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Rehabilitációs kórházi szolgáltatások</SimpleValue>
          </Value>
@@ -1931,6 +2000,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Psychiatric hospital services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolničke usluge u području psihijatrije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Pszichiátriai kórházi szolgáltatások</SimpleValue>
@@ -2009,6 +2081,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Orthotic services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području ortotike</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Ortopéd orvosi szolgáltatások</SimpleValue>
          </Value>
@@ -2085,6 +2160,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Oxygen-therapy services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području oksigenoterapije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Oxigénterápiás szolgáltatások</SimpleValue>
@@ -2163,6 +2241,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Pathology services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području patologije</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Patológiai szolgáltatások</SimpleValue>
          </Value>
@@ -2239,6 +2320,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Blood analysis services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području analize krvi</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Vérképelemzéssel kapcsolatos szolgáltatások</SimpleValue>
@@ -2317,6 +2401,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Bacteriological analysis services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području bakteriološke analize</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Bakterológiai elemzéssel kapcsolatos szolgáltatások</SimpleValue>
          </Value>
@@ -2393,6 +2480,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Hospital dialysis services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Bolničke usluge u području dijalize</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kórházi dialízissel kapcsolatos szolgáltatások</SimpleValue>
@@ -2471,6 +2561,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Hospital support services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Pomoćne usluge za bolnice</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kórházi kisegítő szolgáltatások</SimpleValue>
          </Value>
@@ -2547,6 +2640,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Hospital-bedding services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge opskrbe bolnica posteljnim rubljem</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kórházi ágyakkal kapcsolatos szolgáltatások</SimpleValue>
@@ -2625,6 +2721,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Outpatient care services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge za dnevne bolnice</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Ambuláns betegek ellátásával kapcsolatos szolgáltatások</SimpleValue>
          </Value>
@@ -2701,6 +2800,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Medical practice and related services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge liječničkih ordinacija i srodne usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szakorvosi és ezzel kapcsolatos szolgáltatások</SimpleValue>
@@ -2779,6 +2881,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Medical practice services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge liječničkih ordinacija</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szakorvosi szolgáltatások</SimpleValue>
          </Value>
@@ -2855,6 +2960,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>General-practitioner services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge liječnika opće prakse</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Általános orvosi szolgáltatások</SimpleValue>
@@ -2933,6 +3041,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Medical specialist services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge liječnika specijalista</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Orvosi szakszolgáltatás</SimpleValue>
          </Value>
@@ -3009,6 +3120,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Gyneacologic or obstetric services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge ginekologa ili opstetričara</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Nőgyógyászati vagy szülészeti szolgáltatások</SimpleValue>
@@ -3087,6 +3201,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Nephrology or nervous system specialist services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge nefrologa ili neurologa</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Nefrológiai vagy ideggyógyászati szolgáltatások</SimpleValue>
          </Value>
@@ -3163,6 +3280,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Cardiology services or pulmonary specialists services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge kardiologa ili pulmologa</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kardiológiai vagy tüdőgyógyászati szolgáltatások</SimpleValue>
@@ -3241,6 +3361,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Cardiology services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge kardiologa</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kardiológiai szolgáltatások</SimpleValue>
          </Value>
@@ -3317,6 +3440,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Pulmonary specialists services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge pulmologa</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Tüdőgyógyászati szolgáltatások</SimpleValue>
@@ -3395,6 +3521,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>ENT or audiologist services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge otorinolaringologa ili audiologa</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Fül-orr-gégészeti vagy fülészeti szolgáltatások</SimpleValue>
          </Value>
@@ -3471,6 +3600,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Gastroenterologist and geriatric services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge gastroenterologa i gerijatra</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Gasztroenterológiai és geriátriai szolgáltatások</SimpleValue>
@@ -3549,6 +3681,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Gastroenterologist services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge gastroeneterologa</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Gasztroenterológiai szolgáltatások</SimpleValue>
          </Value>
@@ -3625,6 +3760,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Geriatric services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge gerijatra</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Geriátriai szolgáltatások</SimpleValue>
@@ -3703,6 +3841,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Psychiatrist or psychologist services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge psihijatra ili psihologa</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Pszichiátriai vagy pszichológiai szolgáltatások</SimpleValue>
          </Value>
@@ -3779,6 +3920,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Home for the psychologically disturbed services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge doma za duševno poremećene osobe</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Pszichiátriai intézetekkel kapcsolatos szolgáltatások</SimpleValue>
@@ -3857,6 +4001,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Ophthalmologist, dermatology or orthopedics services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge oftalmologa, dermatologa ili ortopeda</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szemészeti, bőrgyógyászati vagy ortopédiai szolgáltatások</SimpleValue>
          </Value>
@@ -3933,6 +4080,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Ophthalmologist services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge oftalmologa</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szemészeti szolgáltatások</SimpleValue>
@@ -4011,6 +4161,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Dermatology services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge dermatologa</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Bőrgyógyászati szolgáltatások</SimpleValue>
          </Value>
@@ -4087,6 +4240,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Orthopaedic services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge ortopeda</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Ortopéd orvosi szolgáltatások</SimpleValue>
@@ -4165,6 +4321,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Paediatric or urologist services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge pedijatra ili urologa</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Gyermekgyógyászati vagy urológiai szolgáltatások</SimpleValue>
          </Value>
@@ -4241,6 +4400,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Paediatric services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge pedijatra</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Gyermekgyógyászati szolgáltatások</SimpleValue>
@@ -4319,6 +4481,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Urologist services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge urologa</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Urológusi szolgáltatások</SimpleValue>
          </Value>
@@ -4395,6 +4560,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Surgical specialist services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge kirurga</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Sebészeti szakszolgáltatás</SimpleValue>
@@ -4473,6 +4641,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Dental practice and related services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge zubarskih ordinacija i srodne usluge</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Fogorvosi és ezzel kapcsolatos szolgáltatások</SimpleValue>
          </Value>
@@ -4549,6 +4720,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Dental-practice services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge zubarskih ordinacija</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Fogorvosi szolgáltatások</SimpleValue>
@@ -4627,6 +4801,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Orthodontic services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge ortodonta</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Fogszabályozási szolgáltatások</SimpleValue>
          </Value>
@@ -4703,6 +4880,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Orthodontic-surgery services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kirurške usluge ortodonta</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Fogszabályozási sebészi szolgáltatások</SimpleValue>
@@ -4781,6 +4961,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Miscellaneous health services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Razne zdravstvene usluge</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Különféle egészségügyi szolgáltatások</SimpleValue>
          </Value>
@@ -4857,6 +5040,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Services provided by medical personnel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge medicinskog osoblja</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Egészségügyi személyzet által nyújtott szolgáltatások</SimpleValue>
@@ -4935,6 +5121,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Services provided by midwives</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge primalja</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szülésznők által nyújtott szolgáltatások</SimpleValue>
          </Value>
@@ -5011,6 +5200,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Services provided by nurses</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge medicinskih sestara</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Ápolók által nyújtott szolgáltatások</SimpleValue>
@@ -5089,6 +5281,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Home medical treatment services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge kućne medicinske njege</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Otthoni egészségügyi kezelési szolgáltatások</SimpleValue>
          </Value>
@@ -5165,6 +5360,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Dialysis home medical treatment services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge kućne dijalize</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Otthoni dialíziskezelési szolgáltatások</SimpleValue>
@@ -5243,6 +5441,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Advisory services provided by nurses</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Savjetodavne usluge medicinskih sestara</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Ápolók által nyújtott tanácsadói szolgáltatások</SimpleValue>
          </Value>
@@ -5319,6 +5520,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Paramedical services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Paramedicinske usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Természetgyógyászati szolgáltatások</SimpleValue>
@@ -5397,6 +5601,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Physiotherapy services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Fizioterapijske usluge</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Fizioterápiás szolgáltatások</SimpleValue>
          </Value>
@@ -5473,6 +5680,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Homeopathic services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Homeopatske usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Homeopátiás szolgáltatások</SimpleValue>
@@ -5551,6 +5761,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Hygiene services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području higijene</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Higiénés szolgáltatások</SimpleValue>
          </Value>
@@ -5627,6 +5840,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Home delivery of incontinence products</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kućna dostava potrepština za inkontinenciju</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Inkontinencia-termékek házhoz szállítása</SimpleValue>
@@ -5705,6 +5921,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Ambulance services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge kola hitne pomoći</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Mentőszolgálat</SimpleValue>
          </Value>
@@ -5781,6 +6000,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Residential health facilities services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge domova u kojima se pruža zdravstvena skrb</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Körzeti egészségügyi létesítménnyel kapcsolatos szolgáltatások</SimpleValue>
@@ -5859,6 +6081,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Residential nursing care services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge domova za skrb o starim i bolesnim osobama</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Körzeti védőnői ellátási szolgáltatások</SimpleValue>
          </Value>
@@ -5935,6 +6160,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Services provided by medical laboratories</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge medicinskih laboratorija</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Egészségügyi laboratórium által nyújtott szolgáltatások</SimpleValue>
@@ -6013,6 +6241,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Services provided by blood banks</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge banaka krvi</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Vérbank által nyújtott szolgáltatások</SimpleValue>
          </Value>
@@ -6089,6 +6320,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Services provided by sperm banks</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge banaka sperme</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Spermabank által nyújtott szolgáltatások</SimpleValue>
@@ -6167,6 +6401,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Services provided by transplant organ banks</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge banaka organa za transplantaciju</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szervbank által nyújtott szolgáltatások</SimpleValue>
          </Value>
@@ -6243,6 +6480,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Company health services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zdravstvene usluge u poduzećima</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Vállalati egészségügyi szolgáltatások</SimpleValue>
@@ -6321,6 +6561,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Medical analysis services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge medicinskih analiza</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Egészségügyi elemzési szolgáltatások</SimpleValue>
          </Value>
@@ -6397,6 +6640,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Pharmacy services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ljekarničke usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Gyógyszertári szolgáltatások</SimpleValue>
@@ -6475,6 +6721,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Medical imaging services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge medicinskog snimanja</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Orvosi képalkotási szolgáltatások</SimpleValue>
          </Value>
@@ -6551,6 +6800,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Optician services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge optike</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Optikusi szolgáltatások</SimpleValue>
@@ -6629,6 +6881,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Acupuncture and chiropractor services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge akupunkture i kiropraktičara</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Akupunktúrás és kiropraktikai szolgáltatások</SimpleValue>
          </Value>
@@ -6705,6 +6960,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Acupuncture services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge akupunkture</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Akupunktúrás szolgáltatások</SimpleValue>
@@ -6783,6 +7041,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Chiropractor services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge kiropraktičara</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Kiropraktikai szolgáltatások</SimpleValue>
          </Value>
@@ -6859,6 +7120,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Veterinary services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Veterinarske usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Állat-egészségügyi szolgáltatások</SimpleValue>
@@ -6937,6 +7201,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Domestic animal nurseries</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge uzgajališta domaćih životinja</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Háziállat-gondozási szolgáltatások</SimpleValue>
          </Value>
@@ -7013,6 +7280,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Social work and related services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge socijalne skrbi i srodne usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szociális gondozás és kapcsolódó szolgáltatások</SimpleValue>
@@ -7091,6 +7361,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Social work services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge socijalne skrbi</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szociális gondozási szolgáltatások</SimpleValue>
          </Value>
@@ -7167,6 +7440,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Social work services with accommodation</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge socijalne skrbi sa smještajem</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szociális gondozási szolgáltatások szállással</SimpleValue>
@@ -7245,6 +7521,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Welfare services for the elderly</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge skrbi za starije osobe</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Idősgondozási szolgáltatások</SimpleValue>
          </Value>
@@ -7321,6 +7600,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Welfare services for the handicapped</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge skrbi za invalidne osobe</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Fogyatékosgondozási szolgáltatások</SimpleValue>
@@ -7399,6 +7681,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Welfare services for children and young people</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge skrbi za djecu i mlade</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Gyermek- és fiatalgondozási szolgáltatások</SimpleValue>
          </Value>
@@ -7475,6 +7760,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Social work services without accommodation</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge socijalne skrbi bez smještaja</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szociális gondozási szolgáltatások szállás nélkül</SimpleValue>
@@ -7553,6 +7841,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Daycare services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge dnevne skrbi</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Napköziotthon-szolgáltatások</SimpleValue>
          </Value>
@@ -7629,6 +7920,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Child daycare services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge dnevne skrbi za djecu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Napköziotthon-szolgáltatások gyermekek részére</SimpleValue>
@@ -7707,6 +8001,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Daycare services for handicapped children and young people</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge dnevne skrbi za invalidnu djecu i mlade</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Napköziotthon-szolgáltatások fogyatékos gyermekek és fiatalok részére</SimpleValue>
          </Value>
@@ -7783,6 +8080,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Homedelivery of provisions</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge dostave namirnica u domove</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Élelmiszer-házhozszállítás</SimpleValue>
@@ -7861,6 +8161,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Guidance and counselling services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge usmjeravanja i savjetovanja</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Életvezetési és tanácsadási szolgáltatások</SimpleValue>
          </Value>
@@ -7937,6 +8240,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Guidance services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge usmjeravanja</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Életvezetési szolgáltatások</SimpleValue>
@@ -8015,6 +8321,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Counselling services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge savjetovanja</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Tanácsadási szolgáltatások</SimpleValue>
          </Value>
@@ -8091,6 +8400,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Family-planning services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge planiranja obitelji</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Családtervezési szolgáltatások</SimpleValue>
@@ -8169,6 +8481,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Welfare services not delivered through residential institutions</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge skrbi koja se ne pruža u domovima</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Nem bentlakásos intézmények által nyújtott gondozási szolgáltatások</SimpleValue>
          </Value>
@@ -8245,6 +8560,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Rehabilitation services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge rehabilitacije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Rehabilitációs szolgáltatások</SimpleValue>
@@ -8323,6 +8641,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Vocational rehabilitation services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge profesionalne rehabilitacije</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Foglalkozási rehabilitációs szolgáltatások</SimpleValue>
          </Value>
@@ -8399,6 +8720,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Social services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge socijalnih službi</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Szociális szolgáltatások</SimpleValue>
@@ -8477,6 +8801,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Administrative social services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Upravne usluge socijalnih službi</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Közigazgatási szociális szolgáltatások</SimpleValue>
          </Value>
@@ -8553,6 +8880,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Community action programme</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Plan djelovanja zajednice</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Közösségi cselekvési program</SimpleValue>
@@ -8631,6 +8961,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Community health services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zdravstvene usluge zajednice</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Közösségi egészségügyi szolgáltatások</SimpleValue>
          </Value>
@@ -8707,6 +9040,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Library, archives, museums and other cultural services</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge knjižnice, arhiva, muzeja i druge usluge u kulturi</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Könyvtári, levéltári, múzeumi és egyéb kulturális szolgáltatások</SimpleValue>
@@ -8785,6 +9121,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Sporting services</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge u području sporta</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Sportszolgáltatások</SimpleValue>
          </Value>
@@ -8862,6 +9201,9 @@
          <Value ColumnRef="gle_label">
             <SimpleValue>Services furnished by social membership organisations</SimpleValue>
          </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge društvenih članskih organizacija</SimpleValue>
+         </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Tagsággal rendelkező társadalmi szervezetek által nyújtott szolgáltatások</SimpleValue>
          </Value>
@@ -8938,6 +9280,9 @@
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Services provided by youth associations</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Usluge koje pružaju udruge mladih</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
             <SimpleValue>Fiatalok szövetségei által nyújtott szolgáltatások</SimpleValue>

@@ -36,14 +36,14 @@
 									<!--BT-16-->
 									<cbc:Department>Finance Division</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -76,14 +76,14 @@
 									<!--BT-16-->
 									<cbc:Department>Procurement Dpt</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
@@ -108,14 +108,14 @@
 									<!--BT-16-->
 									<cbc:Department>Fin Adm Archives Dpt</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
@@ -144,14 +144,14 @@
 									<!--BT-16-->
 									<cbc:Department>Tenders Evaluation Committee</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:Contact>
@@ -184,14 +184,14 @@
 									<!--BT-510-->
 									<cbc:StreetName>6 Main Street</cbc:StreetName>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -230,14 +230,14 @@
 									<!--BT-16-->
 									<cbc:Department>Environment Information department</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -278,14 +278,14 @@
 									<!--BT-16-->
 									<cbc:Department>ABC Unit</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -324,14 +324,14 @@
 									<!--BT-16-->
 									<cbc:Department>Reviews and Complains</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -370,14 +370,14 @@
 									<!--BT-16-->
 									<cbc:Department>Public Procurement</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
@@ -477,58 +477,64 @@
 			<cbc:ID>CrossBorderLaw</cbc:ID>
 			<cbc:DocumentDescription languageID="ENG">Cross border law description ---</cbc:DocumentDescription>
 		</cac:ProcurementLegislationDocumentReference>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<!--BT-806-->
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-notice</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
 		<!--BT-67-->
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-part</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-corrpt</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-fraud</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-terror</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-laund</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-crim-traffick</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-pmt-bre-tax</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-unrel-sec</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-env-law</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-soc-law</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-mis-bre-lab-law</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-sitn-insolvency</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+				<cbc:TendererRequirementTypeCode listName="exclusion-ground">exg-natl-bre-nat-law</cbc:TendererRequirementTypeCode>
 				<cbc:Description languageID="ENG">Other Exclusion Ground description ---</cbc:Description>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
@@ -538,7 +544,7 @@
 			<!--BT-31-->
 			<cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
 			<cac:LotsGroup>
-				<cbc:LotsGroupID>GLO-0001</cbc:LotsGroupID>
+				<cbc:LotsGroupID schemeName="LotsGroup">GLO-0001</cbc:LotsGroupID>
 				<cac:ProcurementProjectLotReference>
 					<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 				</cac:ProcurementProjectLotReference>
@@ -598,14 +604,14 @@
 				<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
 				<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 				<!--BT-5131-->
-				<cbc:CityName>London</cbc:CityName>
-				<!--BT-5121-->
-				<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-				<!--BT-5071-->
-				<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+				<cbc:CityName>Luxembourg</cbc:CityName>
+				<!--BT-512-->
+				<cbc:PostalZone>1234</cbc:PostalZone>
+				<!--BT-507-->
+				<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+				<!--BT-514-->
 				<cac:Country>
-					<!--BT-5141-->
-					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -679,7 +685,7 @@
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<!--BT-22-->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Group A</cbc:ID>
 			<!--BT-21-->
 			<cbc:Name languageID="ENG">Title ---</cbc:Name>
 			<!--BT-24-->
@@ -702,14 +708,10 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -726,14 +728,10 @@
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -750,14 +748,10 @@
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -773,6 +767,22 @@
 									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<!--BT-810-->
+								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<!--BT-811-->
+									<efac:ProcurementDetails>
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">computer</efbc:AssetCategoryCode>
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">eco-des</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+									<!--BT-811-->
+									<efac:ProcurementDetails>
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
@@ -928,6 +938,20 @@
 					<cbc:TendererRequirementTypeCode listName="missing-info-submission">late-all</cbc:TendererRequirementTypeCode>
 					<!--BT-772-->
 					<cbc:Description languageID="ENG">Later tender information description ---</cbc:Description>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
@@ -1096,11 +1120,11 @@
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<!--BT-115-->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
-				<!--BT-131-->
+			<cac:ParticipationRequestReceptionPeriod>
+				<!--BT-1311-->
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<!--BT-13-->
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
@@ -1108,7 +1132,7 @@
 			</cac:AdditionalInformationRequestPeriod>
 			<cac:NoticeDocumentReference>
 				<!--BT-125-->
-				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
+				<cbc:ID schemeName="notice-id-ref">9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
@@ -1151,7 +1175,7 @@
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<!--BT-22-->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Lot A</cbc:ID>
 			<!--BT-21-->
 			<cbc:Name languageID="ENG">Title ---</cbc:Name>
 			<!--BT-24-->
@@ -1208,14 +1232,14 @@
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<!--BT-5131-->
-					<cbc:CityName>London</cbc:CityName>
-					<!--BT-5121-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<!--BT-5071-->
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+					<cbc:CityName>Luxembourg</cbc:CityName>
+					<!--BT-512-->
+					<cbc:PostalZone>1234</cbc:PostalZone>
+					<!--BT-507-->
+					<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+					<!--BT-514-->
 					<cac:Country>
-						<!--BT-5141-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
@@ -1268,14 +1292,10 @@
 								<cbc:Description languageID="ENG">Recovery Fund</cbc:Description>
 							</efac:Funding>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -1292,14 +1312,10 @@
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -1316,14 +1332,10 @@
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<!--BT-747-->
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<!--BT-749-->
-								<cbc:Name languageID="ENG">Name of the selection criteria---</cbc:Name>
+								<!--BT-809-->
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
 								<!--BT-750-->
 								<cbc:Description languageID="ENG">Selection Criteria Description ---</cbc:Description>
-								<!--BT-748-->
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 								<!--BT-40-->
 								<efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
 								<efac:CriterionParameter>
@@ -1339,6 +1351,17 @@
 									<efbc:ParameterNumeric>3</efbc:ParameterNumeric>
 								</efac:CriterionParameter>
 							</efac:SelectionCriteria>
+							<efac:StrategicProcurement>
+								<!--BT-810-->
+								<efbc:ApplicableLegalBasis listName="eed-scope">true</efbc:ApplicableLegalBasis>
+								<efac:StrategicProcurementInformation>
+									<!--BT-811-->
+									<efac:ProcurementDetails>
+										<efbc:AssetCategoryCode listName="energy-efficiency-item">lo-spa-hea</efbc:AssetCategoryCode>
+										<efbc:LegalFrameworkCode listName="energy-efficiency-basis">enrg-lab</efbc:LegalFrameworkCode>
+									</efac:ProcurementDetails>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
 				</ext:UBLExtension>
@@ -1496,6 +1519,12 @@
 					<cbc:Description languageID="ENG">Later tender information description ---</cbc:Description>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<!--BT-821-->
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
 				<!--BT-736-->
 				<cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
@@ -1517,6 +1546,10 @@
 			<cac:ContractExecutionRequirement>
 				<!--BT-744-->
 				<cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+			</cac:ContractExecutionRequirement>
+			<cac:ContractExecutionRequirement>
+				<!--BT-681-->
+				<cbc:ExecutionRequirementCode listName="fsr">true</cbc:ExecutionRequirementCode>
 			</cac:ContractExecutionRequirement>
 			<cac:AwardingTerms>
 				<!--BT-120-->
@@ -1654,11 +1687,11 @@
 			<cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
 			<!--BT-115-->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
-			<cac:TenderSubmissionDeadlinePeriod>
-				<!--BT-131-->
+			<cac:ParticipationRequestReceptionPeriod>
+				<!--BT-1311-->
 				<cbc:EndDate>2023-05-22+01:00</cbc:EndDate>
 				<cbc:EndTime>20:59:32+01:00</cbc:EndTime>
-			</cac:TenderSubmissionDeadlinePeriod>
+			</cac:ParticipationRequestReceptionPeriod>
 			<cac:AdditionalInformationRequestPeriod>
 				<!--BT-13-->
 				<cbc:EndDate>2023-05-20+01:00</cbc:EndDate>
@@ -1666,7 +1699,7 @@
 			</cac:AdditionalInformationRequestPeriod>
 			<cac:NoticeDocumentReference>
 				<!--BT-125-->
-				<cbc:ID>9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
+				<cbc:ID schemeName="notice-id-ref">9c0fd704-64d3-4294-a3b6-6df45911ab9f-01</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>123</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
@@ -1715,7 +1748,7 @@
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
 			<!--BT-22-->
-			<cbc:ID schemeName="InternalID">Object Reference Number---</cbc:ID>
+			<cbc:ID schemeName="InternalID">Lot B</cbc:ID>
 			<!--BT-21-->
 			<cbc:Name languageID="ENG">Title Lot 2---</cbc:Name>
 			<!--BT-24-->
@@ -1772,14 +1805,14 @@
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<!--BT-5131-->
-					<cbc:CityName>London</cbc:CityName>
-					<!--BT-5121-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<!--BT-5071-->
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+					<cbc:CityName>Luxembourg</cbc:CityName>
+					<!--BT-512-->
+					<cbc:PostalZone>1234</cbc:PostalZone>
+					<!--BT-507-->
+					<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+					<!--BT-514-->
 					<cac:Country>
-						<!--BT-5141-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>

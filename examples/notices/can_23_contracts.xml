@@ -151,7 +151,6 @@
 									<cbc:StreetName>Town Hall, Wood Street</cbc:StreetName>
 									<cbc:CityName>Wakefield</cbc:CityName>
 									<cbc:PostalZone>WF1 2HQ</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -178,7 +177,6 @@
 									<cbc:StreetName>One Burton Street</cbc:StreetName>
 									<cbc:CityName>Wakefield</cbc:CityName>
 									<cbc:PostalZone>WF1 2EB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -234,7 +232,6 @@
 								<cac:PostalAddress>
 									<cbc:CityName>Birkenhead</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -263,7 +260,6 @@
 								<cac:PostalAddress>
 									<cbc:CityName>Bolton</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -325,7 +321,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
-		<cbc:ID>DPS — 774</cbc:ID>
+		<cbc:ID schemeName="InternalID">DPS — 774</cbc:ID>
 		<cbc:Name languageID="ENG">Concession Contract for the Supply of Enforcement Agency Services (Call-off from the YPO Enforcement Services DPS — 774)</cbc:Name>
 		<cbc:Description languageID="ENG">The Council of the Wakefield will be undertaking a call for further competition under the YPO Enforcement Agency Services DPS pursuant to the requirements of the Concession Contracts Regulations 2016 and the procedures laid down in the in the DPS to enter into a concession contract under which the Council will entrust the provision of the enforcement agency services to concessionaires in relation to debts accruing regarding non-payment of the outlined in II.2.4). Only those suppliers registered on the DPS will be invited to participate. The Council is looking to award one contract for first line referrals and one contract for second line referrals under service concession contracts. Successful suppliers must be able to provide all the service required as outlined in the ITB. Contracts will be for 1 year with the option to extend for a further three, 12 month period.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -344,7 +340,7 @@
 		</cac:AdditionalCommodityClassification>
 		<cac:RealizedLocation>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKE45</cbc:CountrySubentityCode>
+				<cbc:Region>anyw-cou</cbc:Region>
 				<cac:Country>
 					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
@@ -403,7 +399,7 @@
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>DPS — 774</cbc:ID>
+			<cbc:ID schemeName="InternalID">DPS — 774</cbc:ID>
 			<cbc:Name languageID="ENG">Concession Contract for the Supply of Enforcement Agency Services (Call-off from the YPO Enforcement Services DPS — 774)</cbc:Name>
 			<cbc:Description languageID="ENG">Wakefield Council is looking to award two services concession contracts under this call-off from the YPO Enforcement Services DPS – 774 in compliance with CCR 16. Under the concession contracts the Council will entrust the provision of the enforcement agency services to concessionaires in relation to debts accruing regarding non-payment of the following: • Council, • Tax Business Rates, • BID Levy, • civil parking enforcement, • overpaid housing benefits debt recovery, • Sundry Income Debt Recovery including High Court Enforcement, • Miscellaneous Debt Recovery together with the following ancillary services, • tracing service. The Council is looking to appoint one supplier for first line referrals and a different supplier for second line referrals under services concession contracts. Successful suppliers must be able to provide all of the above-mentioned services which will be described in more detail in the tender documents to be published under the call for competition. All first line referrals will be awarded to the highest scoring bidder following the evaluation. All second line referrals will be awarded to the 2nd highest scoring bidder.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -422,7 +418,7 @@
 			</cac:AdditionalCommodityClassification>
 			<cac:RealizedLocation>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKE44</cbc:CountrySubentityCode>
+					<cbc:Region>anyw-cou</cbc:Region>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>

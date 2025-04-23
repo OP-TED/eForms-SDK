@@ -31,19 +31,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
 									<!--BT-514-->
 									<cac:Country>
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12341</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -77,19 +77,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12342</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -123,19 +123,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12343</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -167,19 +167,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12344</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -213,19 +213,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12345</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -259,19 +259,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12346</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -305,19 +305,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12347</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -351,19 +351,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12348</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -424,19 +424,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT12349</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -470,19 +470,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT123410</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -516,19 +516,19 @@
 									<!--BT-16-->
 									<cbc:Department>Finance</cbc:Department>
 									<!--BT-513-->
-									<cbc:CityName>London</cbc:CityName>
+									<cbc:CityName>Luxembourg</cbc:CityName>
 									<!--BT-512-->
-									<cbc:PostalZone>N1 9FL</cbc:PostalZone>
+									<cbc:PostalZone>1234</cbc:PostalZone>
 									<!--BT-507-->
-									<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+									<!--BT-514-->
 									<cac:Country>
-										<!--BT-514-->
-										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+										<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
 									<!--BT-501-->
-									<cbc:CompanyID>tva12345</cbc:CompanyID>
+									<cbc:CompanyID>VAT123411</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<!--BT-502-->
@@ -555,9 +555,9 @@
 	<cbc:IssueDate>2023-05-23+01:00</cbc:IssueDate>
 	<cbc:IssueTime>20:59:32+01:00</cbc:IssueTime>
 	<!--BT-757-->
-    <cbc:VersionID>03</cbc:VersionID>
-    <!--BT-127-->
-    <cbc:PlannedDate>2023-09-01+02:00</cbc:PlannedDate>
+	<cbc:VersionID>03</cbc:VersionID>
+	<!--BT-127-->
+	<cbc:PlannedDate>2023-09-01+02:00</cbc:PlannedDate>
 	<!--BT-01-->
 	<cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
 	<!--BT-03--> <!--BT-02-->
@@ -625,14 +625,14 @@
 				<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
 				<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 				<!--BT-5131-->
-				<cbc:CityName>London</cbc:CityName>
-				<!--BT-5121-->
-				<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-				<!--BT-5071-->
-				<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+				<cbc:CityName>Luxembourg</cbc:CityName>
+				<!--BT-512-->
+				<cbc:PostalZone>1234</cbc:PostalZone>
+				<!--BT-507-->
+				<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+				<!--BT-514-->
 				<cac:Country>
-					<!--BT-5141-->
-					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+					<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 				</cac:Country>
 			</cac:Address>
 		</cac:RealizedLocation>
@@ -748,8 +748,8 @@
 				<cac:PartyIdentification>
 					<cbc:ID schemeName="organization">ORG-0005</cbc:ID>
 				</cac:PartyIdentification>
-            </cac:TenderEvaluationParty>
-            <cac:AppealTerms>
+			</cac:TenderEvaluationParty>
+			<cac:AppealTerms>
 				<cac:AppealInformationParty>
 					<cac:PartyIdentification>
 						<cbc:ID schemeName="organization">ORG-0006</cbc:ID>
@@ -781,7 +781,7 @@
 			<!--BT-115-->
 			<cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
 			<!--BT-124-->
-            <cbc:AccessToolsURI>https://test-tool.com</cbc:AccessToolsURI>
+			<cbc:AccessToolsURI>https://test-tool.com</cbc:AccessToolsURI>
 			<cac:AdditionalInformationRequestPeriod>
 				<!--BT-13-->
 				<cbc:EndDate>2023-05-23+01:00</cbc:EndDate>
@@ -789,7 +789,7 @@
 			</cac:AdditionalInformationRequestPeriod>
 			<cac:NoticeDocumentReference>
 				<!--BT-125-->
-				<cbc:ID>12345678-2020</cbc:ID>
+				<cbc:ID schemeName="ojs-notice-id">12345678-2020</cbc:ID>
 				<!--BT-1251-->
 				<cbc:ReferencedDocumentInternalAddress>PAR-010</cbc:ReferencedDocumentInternalAddress>
 			</cac:NoticeDocumentReference>
@@ -839,14 +839,14 @@
 					<cbc:StreetName>Bruce Wayne House</cbc:StreetName>
 					<cbc:AdditionalStreetName>2 Gotham Street</cbc:AdditionalStreetName>
 					<!--BT-5131-->
-					<cbc:CityName>London</cbc:CityName>
-					<!--BT-5121-->
-					<cbc:PostalZone>N1 9FL</cbc:PostalZone>
-					<!--BT-5071-->
-					<cbc:CountrySubentityCode listName="nuts">UKI62</cbc:CountrySubentityCode>
+					<cbc:CityName>Luxembourg</cbc:CityName>
+					<!--BT-512-->
+					<cbc:PostalZone>1234</cbc:PostalZone>
+					<!--BT-507-->
+					<cbc:CountrySubentityCode listName="nuts">LU000</cbc:CountrySubentityCode>
+					<!--BT-514-->
 					<cac:Country>
-						<!--BT-5141-->
-						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+						<cbc:IdentificationCode listName="country">LUX</cbc:IdentificationCode>
 					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>

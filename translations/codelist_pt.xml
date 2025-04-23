@@ -46,13 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Lista de códigos para indicar se é permitida a apresentação de catálogos eletrónicos.</entry>
 <entry key="codelist|name|economic-operator-size">Este quadro apresenta as diferentes categorias em que são classificados os proponentes aos quais pode ser adjudicado um contrato, em função da sua dimensão (utilizando o número de funcionários como critério).</entry>
 <entry key="codelist|name|eea-country">Lista de códigos dos países do Espaço Económico Europeu</entry>
-<entry key="codelist|name|eforms-buyer-legal-type">Lista de códigos de forma jurídica do adquirente permitidos em formulários eletrónicos</entry>
-<entry key="codelist|name|eforms-contract-nature">Lista de códigos permitidos em formulário eletrónicos para indicar as características principais e adicionais de uma compra</entry>
-<entry key="codelist|name|eforms-country">Lista de códigos de país permitidos em formulários eletrónicos</entry>
-<entry key="codelist|name|eforms-currency">Lista de códigos de moeda permitidos em formulários eletrónicos</entry>
-<entry key="codelist|name|eforms-language">Lista de códigos de língua permitidos em formulários eletrónicos</entry>
-<entry key="codelist|name|eforms-legal-basis">Lista de códigos de bases jurídicas permitidos em formulários eletrónicos</entry>
+<entry key="codelist|name|eed-scope">Esta tabela fornece a lista de códigos e valores usados para indicar que uma aquisição está sob o escopo da Diretiva de Eficiência Energética</entry>
 <entry key="codelist|name|einvoicing">Lista de códigos para indicar se é permitida a utilização de faturação eletrónica.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Quadro jurídico para os itens, como Atos Delegados de Etiquetagem Energética, medidas de implementação (Diretiva 2009/125/EC) ou Regulamento 2020/740; produtos e serviços cobertos pelo GPP; obras, serviços ou edifícios</entry>
+<entry key="codelist|name|energy-efficiency-item">Produtos cobertos pelos Atos Delegados de Etiquetagem Energética, medidas de implementação (Diretiva 2009/125/EC) ou Regulamento 2020/740; produtos e serviços cobertos pelo GPP; obras, serviços ou edifícios</entry>
+<entry key="codelist|name|energy-efficiency-label">Esta tabela fornece a lista de códigos e valores usados para especificar a eficiência energética do produto</entry>
 <entry key="codelist|name|entity-activity">Lista de códigos de atividade principal permitidos para uma entidade adjudicante</entry>
 <entry key="codelist|name|environmental-impact">Este quadro fornece informações sobre se um contrato inclui (e de que forma) uma abordagem para reduzir os impactos ambientais do trabalho, do fornecimento ou do serviço utilizado nas especificações técnicas, nos critérios de adjudicação, nos critérios de seleção ou no contrato</entry>
 <entry key="codelist|name|esignature-submission">Lista de códigos para indicar se é permitida a utilização de assinatura eletrónica.</entry>
@@ -62,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Lista de códigos das línguas oficiais da UE</entry>
 <entry key="codelist|name|eu-programme">Lista de códigos dos programas criados e coordenados pela União Europeia que são apoiados financeiramente pela União Europeia ou, em alguns casos, através de contribuições dos Estados-Membros.</entry>
 <entry key="codelist|name|exclusion-ground">Lista de códigos para a identificação dos motivos de exclusão</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">O FSR introduz um novo conjunto de regras que permite à Comissão abordar distorções causadas por subsídios estrangeiros.</entry>
 <entry key="codelist|name|form-type">Este quadro apresenta os códigos e valores utilizados para o tipo de formulários publicados no TED.</entry>
 <entry key="codelist|name|framework-agreement">Este quadro apresenta uma lista de códigos que permite distinguir os diferentes tipos de acordos-quadro envolvidos numa proposta.</entry>
 <entry key="codelist|name|gpp-criteria">Critérios de contratação pública ecológica</entry>
 <entry key="codelist|name|indicator">Lista dos valores indicadores permitidos nos formulários eletrónicos</entry>
 <entry key="codelist|name|innovative-acquisition">Este quadro apresenta os códigos e valores utilizados para o tipo de trabalhos, fornecimentos ou serviços inovadores que estão a ser adjudicados no contexto de contratos públicos.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Esta tabela fornece a lista de códigos e valores usados para especificar a exceção à aplicação da medida IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Esta tabela fornece a lista de códigos e valores usados para especificar a medida IPI aplicada</entry>
 <entry key="codelist|name|irregularity-type">Esta lista de códigos refere-se, de forma geral, aos tipos de irregularidades descritos na secção 2 do anexo da Decisão C(2019) 3452 da Comissão.</entry>
 <entry key="codelist|name|language">Lista de códigos das línguas, com três carateres, correspondentes à norma internacional ISO 639, com códigos adicionais para algumas línguas sem código ISO atribuído.</entry>
 <entry key="codelist|name|lawful-country">Lista de países para os quais existe uma base jurídica para publicação no Suplemento do Jornal Oficial da União Europeia</entry>
@@ -117,6 +118,7 @@
 <entry key="codelist|name|legal-basis-e3">Valores de base jurídica permitidos para anúncios do subtipo E3</entry>
 <entry key="codelist|name|legal-basis-e4">Valores de base jurídica permitidos para anúncios do subtipo E4</entry>
 <entry key="codelist|name|legal-basis-e5">Valores de base jurídica permitidos para anúncios do subtipo E5</entry>
+<entry key="codelist|name|legal-basis-e6">Valores de base jurídica permitidos para anúncios do subtipo E6</entry>
 <entry key="codelist|name|legal-basis-t01">Valores de base jurídica permitidos para anúncios do subtipo T01</entry>
 <entry key="codelist|name|legal-basis-t02">Valores de base jurídica permitidos para anúncios do subtipo T02</entry>
 <entry key="codelist|name|legal-basis-x01">Valores de base jurídica permitidos para anúncios do subtipo X01</entry>
@@ -194,6 +196,7 @@
 <entry key="codelist|name|procedure-type-12">Tipo de procedimento permitido para anúncios do subtipo 12</entry>
 <entry key="codelist|name|procedure-type-13">Tipo de procedimento permitido para anúncios do subtipo 13</entry>
 <entry key="codelist|name|procedure-type-14">Tipo de procedimento permitido para anúncios do subtipo 14</entry>
+<entry key="codelist|name|procedure-type-15">Tipo de procedimento permitido para anúncios do subtipo 15</entry>
 <entry key="codelist|name|procedure-type-16">Tipo de procedimento permitido para anúncios do subtipo 16</entry>
 <entry key="codelist|name|procedure-type-17">Tipo de procedimento permitido para anúncios do subtipo 17</entry>
 <entry key="codelist|name|procedure-type-18">Tipo de procedimento permitido para anúncios do subtipo 18</entry>
@@ -219,7 +222,6 @@
 <entry key="codelist|name|procedure-type-7">Tipo de procedimento permitido para anúncios do subtipo 7</entry>
 <entry key="codelist|name|procedure-type-8">Tipo de procedimento permitido para anúncios do subtipo 8</entry>
 <entry key="codelist|name|procedure-type-9">Tipo de procedimento permitido para anúncios do subtipo 9</entry>
-<entry key="codelist|name|procedure-type-cei">Tipo de procedimento permitido para anúncios do subtipo CEI</entry>
 <entry key="codelist|name|procedure-type-e1">Tipo de procedimento permitido para anúncios do subtipo E1</entry>
 <entry key="codelist|name|procedure-type-e2">Tipo de procedimento permitido para anúncios do subtipo E2</entry>
 <entry key="codelist|name|procedure-type-e3">Tipo de procedimento permitido para anúncios do subtipo E3</entry>
@@ -238,8 +240,8 @@
 <entry key="codelist|name|result">Lista de códigos de tipo de anúncio permitidos para tipo de Formulário de resultados.</entry>
 <entry key="codelist|name|review-body-type">Este quadro inclui a lista das organizações que analisam o recurso de um determinado procedimento.</entry>
 <entry key="codelist|name|review-decision-type">Este quadro descreve a decisão tomada por um órgão de recurso.</entry>
+<entry key="codelist|name|review-information-type">Lista de códigos do estado de um determinado pedido de recurso.</entry>
 <entry key="codelist|name|review-requester-type">Categoria de partes interessadas que apresentaram um recurso</entry>
-<entry key="codelist|name|review-status">Lista de códigos do estado de um determinado pedido de recurso.</entry>
 <entry key="codelist|name|review-type">Lista de códigos para identificação do tipo de requerente de recurso</entry>
 <entry key="codelist|name|rewards-penalties">Lista de códigos para recompensas e sanções associadas a um serviço de transportes públicos.</entry>
 <entry key="codelist|name|selection-criterion">Lista de códigos para indicar as condições aplicáveis para efeitos de avaliação. Esta lista de códigos é um subconjunto da lista de códigos do Documento Europeu Único de Contratação Pública (DEUCP) «CriteriaTaxonomy».</entry>

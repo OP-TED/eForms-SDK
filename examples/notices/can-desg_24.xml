@@ -1,76 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:ContractAwardNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+<ContractAwardNotice xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
 								  xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
 								  xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
 								  xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
 								  xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
 								  xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
-								  xmlns:urn="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2">
+								  xmlns="urn:oasis:names:specification:ubl:schema:xsd:ContractAwardNotice-2">
 	<ext:UBLExtensions>
 		<ext:UBLExtension>
 			<ext:ExtensionContent>
 				<efext:EformsExtension>
 					<efac:NoticeResult>
 						<efac:LotResult>
-							<cbc:ID>RES-0001</cbc:ID>
+							<cbc:ID schemeName="result">RES-0001</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
 							<efac:LotTender>
-								<cbc:ID>TEN-0001</cbc:ID>
+								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
-								<cbc:ID>CON-0001</cbc:ID>
+								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0001</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotResult>
-							<cbc:ID>RES-0002</cbc:ID>
+							<cbc:ID schemeName="result">RES-0002</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">open-nw</cbc:TenderResultCode>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0002</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotResult>
-							<cbc:ID>RES-0003</cbc:ID>
+							<cbc:ID schemeName="result">RES-0003</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
 							<efac:DecisionReason>
 								<efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
 							</efac:DecisionReason>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0003</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotResult>
-							<cbc:ID>RES-0004</cbc:ID>
+							<cbc:ID schemeName="result">RES-0004</cbc:ID>
 							<cbc:TenderResultCode listName="winner-selection-status">open-nw</cbc:TenderResultCode>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0004</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
 							</efac:TenderLot>
 						</efac:LotResult>
 						<efac:LotTender>
-							<cbc:ID>TEN-0001</cbc:ID>
+							<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							<efac:TenderingParty>
-								<cbc:ID>TPA-0001</cbc:ID>
+								<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							</efac:TenderingParty>
 							<efac:TenderLot>
-								<cbc:ID>LOT-0001</cbc:ID>
+								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
 							</efac:TenderLot>
 							<efac:TenderReference>
 								<cbc:ID>TENDERID</cbc:ID>
 							</efac:TenderReference>
 						</efac:LotTender>
 						<efac:SettledContract>
-							<cbc:ID>CON-0001</cbc:ID>
+							<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							<cbc:AwardDate>2023-05-20Z</cbc:AwardDate>
 							<efac:LotTender>
 								<cbc:ID schemeName="tender">TEN-0001</cbc:ID>
 							</efac:LotTender>
 						</efac:SettledContract>
 						<efac:TenderingParty>
-							<cbc:ID>TPA-0001</cbc:ID>
+							<cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
 							<efac:Tenderer>
-								<cbc:ID>ORG-0002</cbc:ID>
+								<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 							</efac:Tenderer>
 						</efac:TenderingParty>
 					</efac:NoticeResult>
@@ -85,7 +93,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0001</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">ZenithNova Innovations </cbc:Name>
@@ -118,7 +126,7 @@
 								<cbc:WebsiteURI>https://www.zenithnovainnovations.com/contact-us/katerina-lisa</cbc:WebsiteURI>
 								<cbc:EndpointID>https://www.zenithnovainnovations.com/info-exchange/katerina-lisa</cbc:EndpointID>
 								<cac:PartyIdentification>
-									<cbc:ID>TPO-0001</cbc:ID>
+									<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Katerina Lisa</cbc:Name>
@@ -131,14 +139,17 @@
 						<efac:Organization>
 							<efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
 							<efac:Company>
+								<efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
 								<cac:PartyIdentification>
-									<cbc:ID>ORG-0002</cbc:ID>
+									<cbc:ID schemeName="organization">ORG-0002</cbc:ID>
 								</cac:PartyIdentification>
 								<cac:PartyName>
 									<cbc:Name languageID="ENG">Official name</cbc:Name>
 								</cac:PartyName>
 								<cac:PostalAddress>
 									<cbc:CityName>Town</cbc:CityName>
+									<cbc:PostalZone>90210</cbc:PostalZone>
+									<cbc:CountrySubentityCode listName="nuts">EL303</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GRC</cbc:IdentificationCode>
 									</cac:Country>
@@ -177,7 +188,7 @@
 		</cac:ContractingActivity>
 		<cac:Party>
 			<cac:PartyIdentification>
-				<cbc:ID>ORG-0001</cbc:ID>
+				<cbc:ID schemeName="organization">ORG-0001</cbc:ID>
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
@@ -193,6 +204,11 @@ vol3</cbc:Description>
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw-eea</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -201,13 +217,13 @@ vol3</cbc:Description>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>ABE</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABE1</cbc:ID>
 			<cbc:Name languageID="ENG">Peeping Tom vol3 LOT1 </cbc:Name>
 			<cbc:Description languageID="ENG">vo3 LOT1 
 As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. 
@@ -218,6 +234,11 @@ vol3 </cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-eea</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:ProcurementProjectLot>
@@ -227,13 +248,13 @@ vol3 </cbc:Description>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>ABE</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABE2</cbc:ID>
 			<cbc:Name languageID="ENG">Peeping Tom vol3 LOT2 </cbc:Name>
 			<cbc:Description languageID="ENG">vol3 LOT2 
 As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. 
@@ -244,6 +265,11 @@ vol3 LOT2 </cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-eea</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:ProcurementProjectLot>
@@ -253,13 +279,13 @@ vol3 LOT2 </cbc:Description>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>ABE</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABE3</cbc:ID>
 			<cbc:Name languageID="ENG">Peeping Tom vol3 LOT3 </cbc:Name>
 			<cbc:Description languageID="ENG">vol3 LOT3
 As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. 
@@ -270,6 +296,11 @@ vol3 LOT3</cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-eea</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:ProcurementProjectLot>
@@ -279,13 +310,13 @@ vol3 LOT3</cbc:Description>
 			<cac:AppealTerms>
 				<cac:AppealReceiverParty>
 					<cac:PartyIdentification>
-						<cbc:ID>TPO-0001</cbc:ID>
+						<cbc:ID schemeName="touchpoint">TPO-0001</cbc:ID>
 					</cac:PartyIdentification>
 				</cac:AppealReceiverParty>
 			</cac:AppealTerms>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>ABE</cbc:ID>
+			<cbc:ID schemeName="InternalID">ABE4</cbc:ID>
 			<cbc:Name languageID="ENG">Peeping Tom vol3 LOT4 </cbc:Name>
 			<cbc:Description languageID="ENG">vol3 LOT4
 As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. As a kid, Mike Lewis was his own father’s guinea pig, in experiments on fear’s effect on the nervous system. All grown now, he’s an orphan and works in a photo studio. His main job is photographing young women, but his hobby is killing them with the camera as his weapon. 
@@ -296,9 +327,14 @@ vol3 LOT4 </cbc:Description>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cac:Address>
+					<cbc:Region>anyw-eea</cbc:Region>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>
 		<cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
 	</cac:TenderResult>
-</urn:ContractAwardNotice>
+</ContractAwardNotice>

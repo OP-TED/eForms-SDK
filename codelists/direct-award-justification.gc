@@ -5,7 +5,7 @@
       <ShortName>DirectAwardJustification</ShortName>
       <LongName>direct-award-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/direct-award-justification</LongName>
-      <Version>20220928-0</Version>
+      <Version>20240925-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/direct-award-justification</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -277,7 +277,7 @@
             <SimpleValue>Naročilo lahko izvede samo določen gospodarski subjekt, ker gre za ustvaritev ali pridobitev unikatne umetnine ali umetniško uprizoritev</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontraktet kan endast tillhandahållas av en viss ekonomisk aktör på grund av skapande eller förvärv av ett unikt konstverk eller en unik konstnärlig prestation</SimpleValue>
+            <SimpleValue>Kontraktet kan endast tillhandahållas av en viss leverantör på grund av skapande eller förvärv av ett unikt konstverk eller en unik konstnärlig prestation</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -437,7 +437,7 @@
             <SimpleValue>Naročila z ocenjeno vrednostjo pod pragom za javna naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontrakt med beräknat värde under tröskelvärdet för upphandling</SimpleValue>
+            <SimpleValue>Kontrakt med uppskattat värde under tröskelvärdena</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -445,79 +445,159 @@
             <SimpleValue>below-thres-sme</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Small scale contract to a small and medium sized enterprise</SimpleValue>
+            <SimpleValue>Small contract with a small or medium-sized enterprise (article 5(4) 2nd paragraph of Regulation 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Договор с ниска стойност с малко или средно предприятие</SimpleValue>
+            <SimpleValue>Малък договор с малко или средно предприятие (член 5, параграф 4, втора алинея от Регламент 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Smlouva malého rozsahu s malým či středním podnikem</SimpleValue>
+            <SimpleValue>Smlouva malého rozsahu s malým či středním podnikem (čl. 5 odst. 4 druhý pododstavec nařízení č. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Mindre kontrakter til små og mellemstore virksomheder</SimpleValue>
+            <SimpleValue>Lille kontrakt med en lille eller mellemstor virksomhed (artikel 5, stk. 4, andet afsnit, i forordning (EF) nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Aufträge in kleinem Maßstab an kleine und mittlere Unternehmen</SimpleValue>
+            <SimpleValue>Vertrag mit geringem Wert mit einem kleinen oder mittleren Unternehmen (Artikel 5 Absatz 4 Unterabsatz 2 der Verordnung (EG) Nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Σύμβαση μικρής κλίμακας σε μικρή και μεσαία επιχείρηση</SimpleValue>
+            <SimpleValue>Μικρή σύμβαση με μικρομεσαία επιχείρηση [άρθρο 5 παράγραφος 4 δεύτερο εδάφιο του κανονισμού (ΕΚ) αριθ. 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Small scale contract to a small and medium sized enterprise</SimpleValue>
+            <SimpleValue>Small contract with a small or medium-sized enterprise (article 5(4) 2nd paragraph of Regulation 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Contrato de pequeña cuantía con una pequeña y mediana empresa</SimpleValue>
+            <SimpleValue>Contrato pequeño con una pequeña o mediana empresa [artículo 5, apartado 4, párrafo segundo, del Reglamento (CE) n.º 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Väikesemahuline leping väikese ja keskmise suurusega ettevõtjaga</SimpleValue>
+            <SimpleValue>Väikesemahuline leping väikese või keskmise suurusega ettevõtjaga (määruse 1370/2007 artikli 5 lõike 4 teine lõik)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Pienen ja keskisuuren yrityksen kanssa tehty pienen mittaluokan sopimus</SimpleValue>
+            <SimpleValue>Pienen ja keskisuuren yrityksen kanssa tehty pienen mittaluokan sopimus (asetuksen (EY) N:o 1370/2007 5 artiklan 4 kohdan 2 alakohta)</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Contrat à petite échelle avec une petite ou moyenne entreprise</SimpleValue>
+            <SimpleValue>Contrat de faible envergure attribué à une petite ou moyenne entreprise [article 5, paragraphe 4, deuxième alinéa, du règlement (CE) nº 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Conradh ar mhionscála le fiontar beag agus meánmhéide</SimpleValue>
+            <SimpleValue>Conradh ar mhionscála le fiontar beag nó meánmhéide (Airteagal 5(4), an dara mír de Rialachán 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Ugovor male vrijednosti malom ili srednjem poduzeću</SimpleValue>
+            <SimpleValue>Mali ugovor s malim ili srednjim poduzećem (članak 5. stavak 4. drugi podstavak Uredbe 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Kis volumenű szerződés egy kis és közepes vállalkozás részére</SimpleValue>
+            <SimpleValue>Kis- vagy középvállalkozásnak odaítélt kis szerződés (az 1370/2007/EK rendelet 5. cikke (4) bekezdésének második albekezdése)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Contratto su piccola scala con una piccola e media impresa</SimpleValue>
+            <SimpleValue>Contratto di entità ridotta aggiudicato a una piccola o media impresa (articolo 5, paragrafo 4, secondo comma, del regolamento (CE) n. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Mažos apimties sutartis mažajai ir vidutinei įmonei</SimpleValue>
+            <SimpleValue>Mažos apimties sutartis su mažąja ar vidutine įmone (Reglamento (EB) Nr. 1370/2007 5 straipsnio 4 dalies antra pastraipa)</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Maza apjoma līgums ar mazu un vidēju uzņēmumu</SimpleValue>
+            <SimpleValue>Mazas vērtības līgums ar mazu vai vidēju uzņēmumu (Regulas (EK) Nr. 1370/2007 5. panta 4. punkta otrā daļa)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Kuntratt fuq skala żgħira lil intrapriża żgħira u ta’ daqs medju</SimpleValue>
+            <SimpleValue>Kuntratt żgħir ma’ intrapriża żgħira jew ta’ daqs medju (Artikolu 5(4) it-2 paragrafu tar-Regolament 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Contract op kleine schaal aan een kleine of middelgrote onderneming</SimpleValue>
+            <SimpleValue>Klein contract met een kleine of middelgrote onderneming (artikel 5, lid 4, 2e alinea, van Verordening (EG) nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Zamówienie o małej wartości na rzecz małego lub średniego przedsiębiorstwa</SimpleValue>
+            <SimpleValue>Mała umowa z małym lub średnim przedsiębiorstwem (art. 5 ust. 4 akapit drugi rozporządzenia 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Contrato de pequena dimensão com uma pequena ou média empresa</SimpleValue>
+            <SimpleValue>Contrato de pequena dimensão com uma pequena ou média empresa [artigo 5.º, n.º 4, 2.º parágrafo, do Regulamento (CE) n.º 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Contract de mică anvergură atribuit unei întreprinderi mici și mijlocii</SimpleValue>
+            <SimpleValue>Contract mic cu o întreprindere mică sau mijlocie [articolul 5 alineatul (4) al 2-lea paragraf din Regulamentul 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Zmluva s malým rozsahom pre malý alebo stredný podnik</SimpleValue>
+            <SimpleValue>Malá zmluva s malým alebo stredným podnikom (článok 5 ods. 4 druhý pododsek nariadenia 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Naročilo majhnega obsega, oddano malemu ali srednjemu podjetju</SimpleValue>
+            <SimpleValue>Pogodba nizke vrednosti z malim ali srednjim podjetjem (člen 5(4), drugi odstavek, Uredbe (ES) št. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Småskaligt kontrakt till ett litet eller medelstort företag</SimpleValue>
+            <SimpleValue>Litet avtal med ett litet eller medelstort företag (artikel 5.4 andra stycket i förordning 1370/2007)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>char-imp</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Structural and geographical characteristics of market/network or improvement of quality of services or cost-efficiency – only for rail (article 5(4a) of Regulation 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Структурни и географски характеристики на пазара/мрежата или подобряване на качеството на услугите или ефективността на разходите — само за железопътен транспорт (член 5, параграф 4а от Регламент  1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Strukturální a geografické charakteristiky trhu/sítě nebo zlepšení kvality služeb či nákladové efektivity – pouze pro železnici (čl. 5 odst. 4a nařízení č. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Strukturelle og geografiske forhold på markedet/nettet eller forbedring af kvaliteten af tjenester eller omkostningseffektiviteten — kun for jernbane (artikel 5, stk. 4a, i forordning (EF) nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Strukturelle und geografische Merkmale des Marktes/Netzes oder Verbesserungen bei der Qualität der Dienste oder der Kosteneffizienz – nur für die Schiene (Artikel 5 Absatz 4a der Verordnung (EG) Nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Διαρθρωτικά και γεωγραφικά χαρακτηριστικά της αγοράς/δικτύου ή βελτίωση της ποιότητας των υπηρεσιών ή της οικονομικής αποδοτικότητας — μόνο για τις σιδηροδρομικές μεταφορές [άρθρο 5 παράγραφος 4α του κανονισμού (ΕΚ) αριθ. 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Structural and geographical characteristics of market/network or improvement of quality of services or cost-efficiency – only for rail (article 5(4a) of Regulation 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Características estructurales y geográficas del mercado / de la red, o mejora de la calidad de los servicios o de su eficiencia en términos de costes — solo para ferrocarril [artículo 5, apartado 4 bis, del Reglamento (CE) n.º 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Turu/võrgu struktuurilised ja geograafilised eripärad või teenuste kvaliteedi või kulutõhususe parandamine – ainult raudteetranspordi puhul (määruse 1370/2007 artikli 5 lõige 4a)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>markkinoiden/verkoston rakenteelliset ja maantieteelliset erityispiirteet tai palvelujen laadun tai kustannustehokkuuden parantaminen – ainoastaan rautatiepalvelut (asetuksen (EY) N:o 1370/2007 5 artiklan 4 a kohta)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Caractéristiques structurelles et géographiques du marché et du réseau ou amélioration de la qualité des services ou du rapport coût-efficacité — uniquement pour le transport par chemin de fer [article 5, paragraphe 4 bis, du règlement (CE) nº 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Saintréithe struchtúracha agus geografacha an mhargaidh/an ghréasáin nó feabhas ar cháilíocht na seirbhísí nó ar chost-éifeachtúlacht — le haghaidh iarnróid amháin (Airteagal 5(4a) de Rialachán 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Strukturne i zemljopisne značajke tržišta/mreže ili poboljšanje kvalitete usluga ili isplativosti – samo za željeznicu (članak 5. stavak 4.a Uredbe 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az érintett piac és hálózat strukturális és földrajzi sajátosságai, vagy a szolgáltatások minőségének, illetve a költséghatékonyságnak a javítása  – csak a vasút esetében (az 1370/2007/EK rendelet 5. cikkének (4a) bekezdése)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Caratteristiche strutturali e geografiche del mercato/della rete o miglioramento della qualità dei servizi o dell'efficienza in termini di costi — solo per il trasporto ferroviario (articolo 5, paragrafo 4 bis, del regolamento (CE) n. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Rinkos ir (arba) tinklo struktūrinės ir geografinės ypatybės arba paslaugų kokybės arba ekonominio efektyvumo gerinimas (tik geležinkelių transportui) (Reglamento (EB) Nr. 1370/2007 5 straipsnio 4a dalis)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Tirgus/tīkla strukturālās un ģeogrāfiskās īpatnības vai pakalpojumu kvalitātes vai rentabilitātes uzlabošana — tikai attiecībā uz dzelzceļu (Regulas (EK) Nr. 1370/2007 5. panta 4.a punkts)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Karatteristiki strutturali u ġeografiċi tas-suq/tan-network jew titjib fil-kwalità tas-servizzi jew fil-kosteffiċjenza — għall-ferroviji biss (Artikolu 5(4a) tar-Regolament 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Structurele en geografische kenmerken van markt/spoorwegnet of verbetering van de kwaliteit van de diensten of kosteneffectiviteit – alleen voor spoorvervoer (artikel 5, lid 4 bis, van Verordening (EG) nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Strukturalne i geograficzne cechy rynku/sieci lub poprawa jakości usług lub efektywności kosztowej – wyłącznie w odniesieniu do kolei (art. 5 ust. 4a rozporządzenia 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Características estruturais e geográficas do mercado/rede ou melhoria da qualidade dos serviços ou da relação custo-eficácia — apenas para o transporte ferroviário [artigo 5.º, n.º 4-A, do Regulamento (CE) n.º 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Caracteristici structurale și geografice ale pieței/rețelei sau îmbunătățirea calității serviciilor sau a eficienței din punctul de vedere al costurilor – numai pentru transportul feroviar [articolul 5 alineatul (4a) din Regulamentul (CE) nr. 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Štrukturálne a geografické charakteristiky trhu/siete alebo zvýšenie kvality služieb alebo nákladovej efektívnosti – len v prípade železničnej dopravy (článok 5 ods. 4a nariadenia 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Strukturne in geografske značilnosti trga/omrežja ali izboljšanje kakovosti storitev ali stroškovne učinkovitosti – samo za železniški prevoz (člen 5(4a) Uredbe (ES) št. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Strukturella och geografiska särdrag hos marknaden/nätet eller förbättrad kvalitet på tjänsten eller förbättrad kostnadseffektivitet – endast för järnväg (artikel 5.4a i förordning 1370/2007)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -597,7 +677,7 @@
             <SimpleValue>Nakup po posebno ugodnih pogojih od gospodarskega subjekta, ki gre v dokončno likvidacijo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Inköp på särskilt gynnsamma villkor hos en ekonomisk aktör som slutgiltigt avslutar sin affärsverksamhet</SimpleValue>
+            <SimpleValue>Inköp på särskilt gynnsamma villkor hos en leverantör som slutgiltigt avslutar sin affärsverksamhet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -837,7 +917,7 @@
             <SimpleValue>Roki za omejeni postopek in postopek s pogajanji po predhodni objavo obvestila o naročilu niso v skladu z nujnostjo, nastalo s krizo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>På grund av brådska till följd av en kris är det omöjligt att iaktta de tidsfrister som gäller vid selektivt förfarande och förhandlat förfarande med offentliggörande av meddelande om upphandling</SimpleValue>
+            <SimpleValue>Tidsfristerna vid selektivt eller förhandlat förfarande med föregående annonsering kan inte användas på grund av brådska med anledning av en kris</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -997,7 +1077,7 @@
             <SimpleValue>Naročila, ki so navedena v členu 7 Direktive 2014/24/EU, vendar na spadajo na področje uporabe Direktive 2014/25/EU</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontrakt som förtecknas i artikel 7 i direktiv 2014/24/EU men som inte omfattas av direktiv 2014/25/EU</SimpleValue>
+            <SimpleValue>Kontrakt listade i artikel 7 i direktiv 2014/24/EU men som inte omfattas av direktiv 2014/25/EU</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1077,7 +1157,7 @@
             <SimpleValue>Naročilo spada med storitve iz Priloge II k Direktivi 2009/81/ES</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontraktet omfattas av de tjänster som förtecknas i bilaga II till direktiv 2009/81/EG</SimpleValue>
+            <SimpleValue>Kontraktet omfattas av de tjänster som listas i bilaga II till direktiv 2009/81/EG</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1317,7 +1397,87 @@
             <SimpleValue>Javna naročila, ki se oddajo za oskrbo z energijo ali gorivi za proizvodnjo energije</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontrakt som tilldelas för upphandling av energi eller bränslen avsedda för energiproduktion</SimpleValue>
+            <SimpleValue>Kontrakt som tilldelas för energi- eller bränsleförsörjning avsedda för energiproduktion</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exc-circ-rail</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Exceptional circumstances – only for rail (article 5(3a) of Regulation 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Извънредни обстоятелства — само за железопътен транспорт (член 5, параграф 3а от Регламент 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Mimořádné okolnosti – pouze pro železnici (čl. 5 odst. 3a nařízení č. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Særlige omstændigheder — kun for jernbane (artikel 5, stk. 3a, i forordning (EF) nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Außergewöhnliche Umstände – nur für die Schiene (Artikel 5 Absatz 3a der Verordnung (EG) Nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εξαιρετικές περιστάσεις — μόνο για τις σιδηροδρομικές μεταφορές [άρθρο 5 παράγραφος 3α του κανονισμού (ΕΚ) αριθ. 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Exceptional circumstances – only for rail (article 5(3a) of Regulation 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Circunstancias excepcionales — solo para ferrocarril [artículo 5, apartado 3 bis, del Reglamento (CE) n.º 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Erandlikud asjaolud – ainult raudteetranspordi puhul (määruse 1370/2007 artikli 5 lõige 3a)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Poikkeukselliset olosuhteet – ainoastaan rautatiepalvelut (asetuksen (EY) N:o 1370/2007 5 artiklan 3 a kohta)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Circonstances exceptionnelles — uniquement pour le transport par chemin de fer [article 5, paragraphe 3 bis, du règlement (CE) nº 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Imthosca eisceachtúla — le haghaidh iarnróid amháin (Airteagal 5(3a) de Rialachán 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Iznimne okolnosti – samo za željeznicu (članak 5. stavak 3.a Uredbe 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kivételes körülmények – csak a vasút esetében (az 1370/2007/EK rendelet 5. cikkének (3a) bekezdése)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Circostanze eccezionali — solo per il trasporto ferroviario (articolo 5, paragrafo 3 bis, del regolamento (CE) n. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Išskirtinės aplinkybės – tik geležinkelių transportui (Reglamento (EB) Nr. 1370/2007 5 straipsnio 3a dalis)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Izņēmuma apstākļi — tikai attiecībā uz dzelzceļu (Regulas (EK) Nr. 1370/2007 5. panta 3.a punkts)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ċirkostanzi eċċezzjonali — għall-ferroviji biss (Artikolu 5(3a) tar-Regolament 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Uitzonderlijke omstandigheden – alleen voor spoorvervoer (artikel 5, lid 3 bis, van Verordening (EG) nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nadzwyczajne okoliczności – wyłącznie w odniesieniu do kolei (art. 5 ust. 3a rozporządzenia 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Circunstâncias excecionais — apenas para o transporte ferroviário [artigo 5.º, n.º 3-A, do Regulamento (CE) n.º 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Situații excepționale – numai pentru transportul feroviar [articolul 5 alineatul (3a) din Regulamentul 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Výnimočné okolnosti – len v prípade železničnej dopravy (článok 5 ods. 3a nariadenia 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Izredne okoliščine – samo za železniški prevoz (člen 5(3b) Uredbe (ES) št. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Exceptionella omständigheter – endast för järnväg (artikel 5.3a i förordning 1370/2007)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1397,7 +1557,7 @@
             <SimpleValue>Naročilo lahko izvede samo določen gospodarski subjekt zaradi izključnih pravic, vključno s pravicami intelektualne lastnine</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontraktet kan endast tillhandahållas av en viss ekonomisk aktör på grund av ensamrätt, inklusive immateriella rättigheter</SimpleValue>
+            <SimpleValue>Kontraktet kan endast tillhandahållas av en leverantör på grund av ensamrätt, inklusive immateriella rättigheter</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1477,7 +1637,7 @@
             <SimpleValue>Delna zamenjava ali razširitev obstoječega blaga ali naprav s strani prvotnega dobavitelja, naročena pod natančno določenimi pogoji iz Direktive</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Delvis ersättning eller utökande av de befintliga leveranser eller installationer som beställts av den ursprungliga leverantören enligt de strikta villkor som anges i direktivet</SimpleValue>
+            <SimpleValue>Delvis ersättande eller utökande av de befintliga leveranser eller installationer som beställts av den ursprungliga leverantören enligt de strikta villkor som anges i direktivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1557,7 +1717,7 @@
             <SimpleValue>Javna naročila med organizacijami v javnem sektorju (notranja), naročila, oddana povezanim podjetjem, ali naročila, oddana skupnemu podjetju ali znotraj skupnega podjetja</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Offentligt kontrakt mellan organisationer inom den offentliga sektorn (internt), kontrakt som tilldelas anknutna företag eller kontrakt som tilldelas ett samriskföretag eller inom ett samriskföretag</SimpleValue>
+            <SimpleValue>Offentligt kontrakt mellan organisationer inom offentlig sektor (intern upphandling), kontrakt som tilldelas anknutna företag eller kontrakt som tilldelas ett samriskföretag eller inom ett samriskföretag</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1565,79 +1725,79 @@
             <SimpleValue>int-oper</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Internal operator</SimpleValue>
+            <SimpleValue>Internal operator (article 5(2) of Regulation 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Вътрешен оператор</SimpleValue>
+            <SimpleValue>Вътрешен оператор (член 5, параграф 2 от Регламент 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Interní provozovatel</SimpleValue>
+            <SimpleValue>Vnitřní provozovatel (čl. 5 odst. 2 nařízení č. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Intern operatør</SimpleValue>
+            <SimpleValue>Intern operatør (artikel 5, stk. 2, i forordning (EF) nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Interner Betreiber</SimpleValue>
+            <SimpleValue>Interner Betreiber (Artikel 5 Absatz 2 der Verordnung (EG) Nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Εγχώριος φορέας</SimpleValue>
+            <SimpleValue>Εγχώριος φορέας [άρθρο 5 παράγραφος 2 του κανονισμού (ΕΚ) αριθ. 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Internal operator</SimpleValue>
+            <SimpleValue>Internal operator (article 5(2) of Regulation 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Operador interno</SimpleValue>
+            <SimpleValue>Operador interno [artículo 5, apartado 2, del Reglamento (CE) n.º 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Sõltuv teenuseosutaja</SimpleValue>
+            <SimpleValue>Sõltuv teenusepakkuja (määruse 1370/2007 artikli 5 lõige 2)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Sisäinen liikenteenharjoittaja</SimpleValue>
+            <SimpleValue>Sisäinen liikenteenharjoittaja (asetuksen (EY) N:o 1370/2007 5 artiklan 2 kohta)</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Opérateur interne</SimpleValue>
+            <SimpleValue>Opérateur interne [article 5, paragraphe 2, du règlement (CE) nº 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Oibreoir inmheánach</SimpleValue>
+            <SimpleValue>Oibreoir inmheánach (Airteagal 5(2) de Rialachán 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Unutarnji operater</SimpleValue>
+            <SimpleValue>Unutarnji operater (članak 5. stavak 2. Uredbe 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Belső szolgáltató</SimpleValue>
+            <SimpleValue>Belső szolgáltató (az 1370/2007/EK rendelet 5. cikkének (2) bekezdése)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Operatore interno</SimpleValue>
+            <SimpleValue>Operatore interno (articolo 5, paragrafo 2, del regolamento (CE) n. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Vidaus vykdytojas</SimpleValue>
+            <SimpleValue>Vidaus operatorius (Reglamento (EB) Nr. 1370/2007 5 straipsnio 2 dalis)</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Iekšējais operators</SimpleValue>
+            <SimpleValue>Iekšējs jeb tieši pakļauts pakalpojumu sniedzējs (Regulas (EK) Nr. 1370/2007 5. panta 2. punkts)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Operatur intern</SimpleValue>
+            <SimpleValue>Operatur intern (Artikolu 5(2) tar-Regolament 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Interne exploitant</SimpleValue>
+            <SimpleValue>Interne exploitant (artikel 5, lid 2, van Verordening (EG) nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Podmiot wewnętrzny</SimpleValue>
+            <SimpleValue>Podmiot wewnętrzny (art. 5 ust. 2 rozporządzenia 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Operador interno</SimpleValue>
+            <SimpleValue>Operador interno [artigo 5.º, n.º 2, do Regulamento (CE) n.º 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Operator intern</SimpleValue>
+            <SimpleValue>Operator intern [articolul 5 alineatul (2) din Regulamentul 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Interný poskytovateľ</SimpleValue>
+            <SimpleValue>Interný poskytovateľ (článok 5 ods. 2 nariadenia 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Notranji izvajalec</SimpleValue>
+            <SimpleValue>Notranji izvajalec (člen 5(2) Uredbe (ES) št. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Internt företag</SimpleValue>
+            <SimpleValue>Internt företag (artikel 5.2 i förordning 1370/2007)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1797,7 +1957,7 @@
             <SimpleValue>V odziv na prejšnje obvestilo so bile prejete samo nepravilne ali nesprejemljive ponudbe. V pogajanja so bile vključene vse in samo tiste ponudbe iz prejšnjega postopka, ki so izpolnjevale pogoje za sodelovanje, pri katerih niso bili podani razlogi za izključitev in ki so izpolnjevale formalne zahteve</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Inga vanliga anbud, anbudsansökningar eller ansökningar som är godtagbara mottogs som svar på ett tidigare meddelande. Endast de anbudsgivare som uppfyllde selekteringskriterierna, inte omfattades av uteslutningskriterierna och uppfyllde de formella kriterierna i det föregående förfarandet deltog i förhandlingarna</SimpleValue>
+            <SimpleValue>Endast ogiltiga eller oacceptabla anbud mottogs som svar på ett tidigare meddelande. Endast de anbudsgivare som uppfyllde kvalificeringskraven, inte omfattades av uteslutningsgrunderna och uppfyllde de formella kriterierna i det föregående förfarandet deltog i förhandlingarna</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2038,6 +2198,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Vissa fall som inte har karaktär av kontrakt</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>non-dir</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The procurement falls outside the scope of application of the directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обществената поръчка не попада в обхвата на приложение на директивата</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zakázka nespadá do oblasti působnosti příslušné směrnice</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Udbuddet er ikke omfattet af direktivet</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Auftrag fällt nicht in den Anwendungsbereich der Richtlinie</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η σύμβαση δεν εμπίπτει στο πεδίο εφαρμογής της οδηγίας</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The procurement falls outside the scope of application of the directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El contrato no entra en el ámbito de aplicación de la Directiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hange ei kuulu direktiivi kohaldamisalasse</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Hankinta ei kuulu direktiivin soveltamisalaan</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Le contrat ne relève pas du champ d'application de la directive</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá an soláthar lasmuigh de raon feidhme na Treorach</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Javna je nabava izuzeta iz područja primjene Direktive</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A beszerzés nem tartozik az irányelv hatálya alá</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'appalto non rientra nel campo di applicazione della direttiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkimui netaikoma direktyva</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepirkums neietilpst attiecīgās direktīvas darbības jomā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-akkwist ma jaqax fl-ambitu tal-applikazzjoni tad-direttiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De aanbesteding valt buiten het toepassingsgebied van de richtlijn</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zamówienie nie jest objęte zakresem stosowania dyrektywy</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O concurso não é abrangido pelo âmbito de aplicação da diretiva</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Achiziţia nu se încadrează în domeniul de aplicare al directivei</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zákazka nespadá do rozsahu uplatňovania smernice</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Naročilo ne spada v področje uporabe Direktive</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Kontraktet ligger utanför direktivets tillämpningsområde</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2357,87 +2597,7 @@
             <SimpleValue>Naročilo lahko izvede samo določen gospodarski subjekt zaradi zaščite drugih izključnih pravic, vključno s pravicami intelektualne lastnine, ki niso opredeljene v členu 5(10) Direktive 2014/23/EU</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontraktet kan endast tillhandahållas av en viss ekonomisk aktör på grund av skyddet av annan ensamrätt, inklusive immateriella rättigheter, än dem som fastställs i artikel 5.10 i direktiv 2014/23/EU</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>rail</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Railway transport</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Железопътен транспорт</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Železniční doprava</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Jernbanetransport</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Schienenverkehr</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Σιδηροδρομικές μεταφορές</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Railway transport</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Transporte ferroviario</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Raudteetransport</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Rautatieliikenne</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Transport par chemin de fer</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Iompar d’iarnród</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Željeznički prijevoz</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Vasúti szállítás</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Trasporto ferroviario</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Geležinkelių transportas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Dzelzceļa pārvadājumi</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Trasport bil-ferrovija</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Spoorvervoer</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Transport kolejowy</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Transporte ferroviário</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Transport feroviar</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Železničná doprava</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Železniški promet</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Järnvägstransport</SimpleValue>
+            <SimpleValue>Kontraktet kan endast tillhandahållas av en viss leverantör på grund av skyddet av annan ensamrätt, inklusive immateriella rättigheter, än dem som fastställs i artikel 5.10 i direktiv 2014/23/EU</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2517,7 +2677,7 @@
             <SimpleValue>Naročilo se nanaša na raziskovalne in razvojne storitve, ki niso določene v členu 13 Direktive 2009/81/ES</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontraktet avser andra forsknings- och utvecklingstjänster än dem som avses i artikel 13 i direktiv 2009/81/EG</SimpleValue>
+            <SimpleValue>Kontraktet avser andra forsknings- och utvecklingstjänster än de som avses i artikel 13 i direktiv 2009/81/EG</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2597,7 +2757,7 @@
             <SimpleValue>Nove gradnje ali storitve, ki predstavljajo ponovitev obstoječih gradenj ali storitev in se naročajo v skladu z natančnimi pogoji, navedenimi v Direktivi</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Nya byggentreprenader eller tjänster, som är en upprepning av tidigare byggentreprenader eller tjänster och beställs i enlighet med de strikta villkoren i direktivet</SimpleValue>
+            <SimpleValue>Nya byggentreprenader eller tjänster, som är en upprepning av tidigare byggentreprenader eller tjänster, och beställs i enlighet med de strikta villkoren i direktivet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2922,6 +3082,86 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>sim-infra</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Simultaneous management of the entire or major part of the infrastructure – only for rail (article 5(4b) of Regulation 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Едновременно управление на цялата или на по-голямата част от инфраструктурата — само за железопътен транспорт (член 5, параграф 4б от Регламент (ЕО) № 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Současná správa celé infrastruktury nebo její významné části – pouze pro železnici (čl. 5 odst. 4b nařízení č. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Samtidig forvaltning af hele eller størstedelen af infrastrukturen — kun for jernbane (artikel 5, stk. 4b, i forordning (EF) nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Gleichzeitige Verwaltung der gesamten oder des größten Teils der Infrastruktur – nur für die Schiene (Artikel 5 Absatz 4b der Verordnung (EG) Nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ταυτόχρονη διαχείριση του συνόλου ή του μεγαλύτερου μέρους της υποδομής — μόνο για τις σιδηροδρομικές μεταφορές [άρθρο 5 παράγραφος 4β του κανονισμού (ΕΚ) αριθ. 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Simultaneous management of the entire or major part of the infrastructure – only for rail (article 5(4b) of Regulation 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Gestión simultánea de la totalidad o la mayor parte de la infraestructura — solo para ferrocarril [artículo 5, apartado 4 ter, del Reglamento (CE) n.º 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kogu raudteeinfrastruktuuri või selle suure osa korraga majandamine – ainult raudteetranspordi puhul (määruse 1370/2007 artikli 5 lõige 4b)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Koko infrastruktuurin tai sen suuren osan yhtäaikainen hallinnointi – ainoastaan rautatiepalvelut (asetuksen (EY) N:o 1370/2007 5 artiklan 4 b kohta)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Gestion simultanée de la totalité ou de la majeure partie de l'infrastructure — uniquement pour le transport par chemin de fer [article 5, paragraphe 4 ter, du règlement (CE) nº 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Bainistíocht chomhuaineach ar an mbonneagar ina iomláine nó ar chuid mhór den bhonneagar — le haghaidh iarnróid amháin (Airteagal 5(4b) de Rialachán 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Istodobno upravljanje čitavom infrastrukturom ili njezinim većim dijelom – samo za željeznicu (članak 5. stavak 4.b Uredbe 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az infrastruktúra egészének vagy túlnyomó részének egyidejű üzemeltetése – csak a vasút esetében (az 1370/2007/EK rendelet 5. cikkének (4b) bekezdése)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Gestione simultanea di tutta o di gran parte dell'infrastruttura ferroviaria — solo per il trasporto ferroviario (articolo 5, paragrafo 4 ter, del regolamento (CE) n. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Visos infrastruktūros arba didžiosios jos dalies valdymas vienu metu – tik geležinkelių transportui (Reglamento (EB) Nr. 1370/2007 5 straipsnio 4b dalis)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Visas infrastruktūras vai tās lielākās daļas vienlaicīga pārvaldība — tikai attiecībā uz dzelzceļu (Regulas (EK) Nr. 1370/2007 5. panta 4.b punkts)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ġestjoni simultanja tal-infrastruttura kollha jew ta' parti prinċipali tagħha — għall-ferroviji biss (Artikolu 5(4b) tar-Regolament 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gelijktijdig geheel of gedeeltelijk beheer van de infrastructuur – alleen voor spoorvervoer (artikel 5, lid 4 ter, van Verordening (EG) nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Równoczesne zarządzanie całością lub większą częścią infrastruktury – wyłącznie w odniesieniu do kolei (art. 5 ust. 4b rozporządzenia 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Exploração simultânea da totalidade ou da maior parte das infraestruturas — apenas para o transporte ferroviário [artigo 5.º, n.º 4-B, do Regulamento (UE) n.º 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Administrarea simultană a întregii infrastructuri sau a celei mai mari părți a acesteia – numai pentru transportul feroviar [articolul 5 alineatul (4b) din Regulamentul (CE) nr. 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Súbežné riadenie celej infraštruktúry alebo podstatnej časti infraštruktúry – len v prípade železničnej dopravy (článok 5 ods. 4b nariadenia 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Hkratno upravljanje celotne infrastrukture ali njenega večjega dela – samo za železniški prevoz (člen 5(4b) Uredbe (ES) št. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Samtidig förvaltning av hela eller större delen av infrastrukturen – endast för järnväg (artikel 5.4b i förordning 1370/2007)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>spe-arrang</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -3077,7 +3317,7 @@
             <SimpleValue>Naročilo lahko izvede samo določen gospodarski subjekt, ker ne obstaja konkurenca iz tehničnih razlogov</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontraktet kan endast tillhandahållas av en viss ekonomisk aktör på grund av bristande konkurrens av tekniska skäl</SimpleValue>
+            <SimpleValue>Kontraktet kan endast tillhandahållas av en viss leverantör på grund av bristande konkurrens av tekniska skäl</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3085,79 +3325,79 @@
             <SimpleValue>tra-ser</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Concessions for air transport services based on the granting of an operating licence within the meaning of Regulation (EC) No 1008/2008 or for public passenger transport services within the meaning of Regulation (EC) No 1370/2007</SimpleValue>
+            <SimpleValue>Concessions for air transport services based on the granting of an operating licence within the meaning of Regulation (EC) No 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Концесии за въздухоплавателни услуги въз основа на предоставянето на оперативен лиценз по смисъла на Регламент (EО) № 1008/2008 или за обществени услуги за пътнически превози по смисъла на Регламент (EО) № 1370/2007</SimpleValue>
+            <SimpleValue>Концесии за въздухоплавателни транспортни услуги въз основа на издаване на оперативен лиценз по смисъла на Регламент (ЕО) № 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Koncese na služby letecké dopravy založené na vydání provozní licence ve smyslu nařízení Evropského parlamentu a Rady (ES) č. 1008/2008 nebo na koncese na veřejné služby v přepravě cestujících ve smyslu nařízení (ES) č. 1370/2007</SimpleValue>
+            <SimpleValue>Koncese na služby letecké dopravy založené na udělení provozní licence ve smyslu nařízení (ES) č. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Koncessioner, som vedrører lufttrafiktjenester på grundlag af en licens efter Europa-Parlamentets og Rådets forordning (EF) nr. 1008/2008, eller som vedrører offentlig personbefordring efter forordning (EF) nr. 1370/2007</SimpleValue>
+            <SimpleValue>Koncessioner for lufttransporttjenester på grundlag af udstedelse af en licens som omhandlet i forordning (EF) nr. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Konzessionen, die im Bereich der Luftverkehrsdienste auf der Grundlage der Erteilung einer Betriebsgenehmigung im Sinne der Verordnung (EG) Nr. 1008/2008 oder für Konzessionen im Bereich der öffentlichen Personenverkehrsdienste im Sinne der Verordnung (EG) Nr. 1370/2007 vergeben werden</SimpleValue>
+            <SimpleValue>Konzessionen für Luftverkehrsdienste auf der Grundlage einer Erteilung einer Betriebsgenehmigung im Sinne der Verordnung (EG) Nr. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Συμβάσεις παραχώρησης για υπηρεσίες αεροπορικών μεταφορών βάσει άδειας εκμετάλλευσης κατά την έννοια του κανονισμού (ΕΚ) αριθ. 1008/2008 ή για δημόσιες επιβατικές μεταφορές κατά την έννοια του κανονισμού (ΕΚ) αριθ. 1370/2007</SimpleValue>
+            <SimpleValue>Συμβάσεις παραχώρησης για υπηρεσίες αεροπορικών μεταφορών βάσει άδειας εκμετάλλευσης κατά την έννοια του κανονισμού (ΕΚ) αριθ. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Concessions for air transport services based on the granting of an operating licence within the meaning of Regulation (EC) No 1008/2008 or for public passenger transport services within the meaning of Regulation (EC) No 1370/2007</SimpleValue>
+            <SimpleValue>Concessions for air transport services based on the granting of an operating licence within the meaning of Regulation (EC) No 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Concesiones de servicios de transporte aéreo basados en la concesión de una licencia de explotación en el sentido del Reglamento (CE) n.º 1008/2008 o relativos a servicios públicos de transporte de viajeros en el sentido del Reglamento (CE) n.º 1370/2007</SimpleValue>
+            <SimpleValue>Concesiones de servicios de transporte aéreo basadas en la concesión de una licencia de explotación en el sentido del Reglamento (CE) n.º 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Kontsessioonid lennutranspordi teenuse osutamiseks tuginedes lennutegevusloa andmisele määruse nr 1008/2008 tähenduses või avaliku reisijateveoteenuse osutamiseks määruse (EÜ) nr 1370/2007 tähenduses</SimpleValue>
+            <SimpleValue>Lennutransporditeenuste kontsessioonid lennutegevusloa alusel määruse (EÜ) nr 1008/2008 tähenduses</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Lentoliikennepalveluja koskevat käyttöoikeussopimukset, jotka perustuvat asetuksessa (EY) N:o 1008/2008 tarkoitetun liikenneluvan myöntämiseen, ja asetuksessa (EY) N:o 1370/2007 tarkoitetut julkisia henkilöliikennepalveluja koskevat käyttöoikeussopimukset</SimpleValue>
+            <SimpleValue>Lentoliikennepalveluja koskevat käyttöoikeussopimukset, jotka perustuvat asetuksessa (EY) N:o 1008/2008 tarkoitetun liikenneluvan myöntämiseen</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Concessions pour des services de transport aérien reposant sur la délivrance d’une licence d’exploitation au sens du règlement (CE) nº 1008/2008 ou pour des services publics de transport de voyageurs au sens du règlement (CE) nº 1370/2007</SimpleValue>
+            <SimpleValue>Concessions relatives à des services de transport aérien basés sur l’octroi d’une licence d’exploitation au sens du règlement (CE) nº 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lamháltais le haghaidh seirbhísí aeriompair atá bunaithe ar cheadúnas oibríochta a dheonú de réir bhrí Rialachán (CE) Uimh. 1008/2008 nó le haghaidh seirbhísí poiblí iompair do phaisinéirí de réir bhrí Rialachán (CE) Uimh. 1370/2007</SimpleValue>
+            <SimpleValue>Lamháltais le haghaidh seirbhísí aeriompair ar bhonn deonú ceadúnais oibríochta de réir bhrí Rialachán (CE) Uimh. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Koncesije za usluge zračnog prometa na temelju dodjele operativne licencije u smislu Uredbe (EZ) br. 1008/2008 ili za usluge javnog prijevoza putnika u smislu Uredbe (EZ) br. 1370/2007</SimpleValue>
+            <SimpleValue>Koncesije za usluge zračnog prijevoza na temelju dodjele operativne licencije u smislu Uredbe (EZ) br. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Légiközlekedési szolgáltatásokra vonatkozó szolgáltatási koncessziók, amelyek az 1008/2008/EK rendelet szerint kiadott működési engedély megadásán alapulnak, valamint az 1370/2007/EK rendelet szerinti személyszállítási közszolgáltatásokra vonatkozó szolgáltatási koncessziók</SimpleValue>
+            <SimpleValue>Az 1008/2008/EK rendelet szerinti működési engedély kiadásán alapuló légi közlekedési szolgáltatásokra vonatkozó koncessziók</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Concessioni di servizi di trasporto aereo sulla base di una licenza di gestione a norma del regolamento (CE) n. 1008/2008 del Parlamento europeo e del Consiglio o concessioni di servizi di trasporto pubblico di passeggeri ai sensi del regolamento (CE) n. 1370/2007</SimpleValue>
+            <SimpleValue>Concessioni di servizi di trasporto aereo sulla base del rilascio di una licenza d'esercizio ai sensi del regolamento (CE) n. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Koncesijos, susijusios su oro susisiekimo paslaugomis, grindžiamomis licencijos oro susisiekimui vykdyti išdavimu, kaip apibrėžta Reglamente (EB) Nr. 1008/2008, arba susijusios su keleivinio transporto viešosiomis paslaugomis, kaip apibrėžta Reglamente (EB) Nr. 1370/2007</SimpleValue>
+            <SimpleValue>Su oro transporto paslaugomis susijusios koncesijos, grindžiamos licencijos oro susisiekimui vykdyti išdavimu, kaip apibrėžta Reglamente (EB) Nr. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Gaisa transporta pakalpojumu koncesija, kuras pamatā ir darbības licences izsniegšana saskaņā ar Eiropas Parlamenta un Padomes Regulu (EK) Nr. 1008/2008, vai sabiedriskā pasažieru transporta pakalpojumu koncesija Regulas (EK) Nr. 1370/2007 nozīmē</SimpleValue>
+            <SimpleValue>Gaisa transporta pakalpojumu koncesijas uz darbības licences piešķiršanas pamata Regulas (EK) Nr. 1008/2008 nozīmē</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Konċessjonijiet għas-servizzi tat-trasport bl-ajru abbażi tal-għoti ta’ liċenzja operattiva skont it-tifsira tar-Regolament (KE) Nru 1008/2008 jew għas-servizzi tat-trasport pubbliku tal-passiġġieri skont it-tifsira tar-Regolament (KE) Nru 1370/2007</SimpleValue>
+            <SimpleValue>Konċessjonijiet għas-servizzi tat-trasport bl-ajru bbażati fuq l-għoti ta’ liċenzja operattiva skont it-tifsira tar-Regolament (KE) Nru 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Concessies voor luchtvervoerdiensten op basis van de verlening van een exploitatievergunning in de zin van Verordening (EG) nr. 1008/2008 of concessies betreffende openbaar personenvervoer in de zin van Verordening (EG) nr. 1370/2007</SimpleValue>
+            <SimpleValue>Concessies voor luchtvervoersdiensten op basis van de verlening van een exploitatievergunning in de zin van Verordening (EG) nr. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Koncesje na usługi transportu lotniczego oparte na udzielaniu koncesji w rozumieniu rozporządzenia (WE) nr 1008/2008 lub na usługi publiczne w zakresie transportu pasażerskiego w rozumieniu rozporządzenia (WE) nr 1370/2007</SimpleValue>
+            <SimpleValue>Koncesje na usługi transportu lotniczego świadczone w oparciu o udzieloną koncesję w rozumieniu rozporządzenia (WE) nr 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Concessões para serviços de transporte aéreo com base na atribuição de uma licença de exploração na aceção do Regulamento (CE) n.º 1008/2008 ou para serviços públicos de transporte de passageiros na aceção do Regulamento (CE) n.º 1370/2007</SimpleValue>
+            <SimpleValue>Concessões de serviços de transporte aéreo com base na concessão de uma licença de exploração na aceção do Regulamento (CE) n.º 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Concesiuni pentru servicii de transport aerian bazate pe acordarea unei licențe de operare în sensul Regulamentului nr. 1008/2008 sau pentru servicii publice de transport de călători în sensul Regulamentului (CE) nr. 1370/2007</SimpleValue>
+            <SimpleValue>Concesiuni pentru servicii de transport aerian bazate pe acordarea unei licențe de operare în sensul Regulamentului (CE) nr. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Koncesie na letecké dopravné služby na základe udelenia prevádzkovej licencie v zmysle nariadenia (ES) č. 1008/2008 alebo na služby vo verejnom záujme v osobnej doprave v zmysle nariadenia (ES) č. 1370/2007</SimpleValue>
+            <SimpleValue>Koncesie na letecké dopravné služby na základe udelenia prevádzkovej licencie v zmysle nariadenia (ES) č. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Koncesije za storitve zračnega prevoza na podlagi izdaje operativne licence v smislu Uredbe št. 1008/2008 ali za koncesije za storitve javnega potniškega prevoza v smislu Uredbe (ES) št. 1370/2007</SimpleValue>
+            <SimpleValue>Koncesije za storitve letalskega prevoza na podlagi izdaje operativne licence v smislu Uredbe (ES) št. 1008/2008</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Koncessioner för lufttransporttjänster som grundas på beviljande av en operativ licens i den mening som avses i förordning (EG) nr 1008/2008 eller tjänster för kollektiv persontrafik i den mening som avses i förordning (EG) nr 1370/2007</SimpleValue>
+            <SimpleValue>Koncessioner för luftfartstjänster på grundval av beviljande av en operativ licens i den mening som avses i förordning (EG) nr 1008/2008</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3237,7 +3477,7 @@
             <SimpleValue>Ni bilo primernih ponudb, prijav za sodelovanje ali vlog v odziv na predhodno obvestilo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Inga lämpliga anbud, anbudsansökningar eller ansökningar mottogs som svar på ett tidigare meddelande</SimpleValue>
+            <SimpleValue>Inga lämpliga anbud, anbudsansökningar eller intresseanmälningar mottogs som svar på ett tidigare meddelande</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3317,7 +3557,7 @@
             <SimpleValue>Skrajno nujni primeri, do katerih pride zaradi dogodkov, ki jih kupec ni mogel predvideti</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Synnerlig brådska till följd av omständigheter som upphandlaren inte kunnat förutse</SimpleValue>
+            <SimpleValue>Synnerlig brådska till följd av omständigheter som köparen inte kunnat förutse</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -3397,7 +3637,7 @@
             <SimpleValue>Javna naročila, ki se oddajo za dobavo vode</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Kontrakt som tilldelas för upphandling av vatten</SimpleValue>
+            <SimpleValue>Kontrakt som tilldelas för inköp av vatten</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

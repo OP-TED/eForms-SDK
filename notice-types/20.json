@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.9.0-SNAPSHOT",
+  "sdkVersion" : "1.13.0",
   "metadataDatabase" : {
-    "version" : "1.8.196",
-    "createdOn" : "2023-07-19T09:56:41"
+    "version" : "1.13.0",
+    "createdOn" : "2024-10-14T13:00:00"
   },
   "noticeId" : "20",
   "metadata" : [ {
@@ -135,6 +135,7 @@
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
       "_label" : "group|name|ND-ContractingParty",
+      "businessEntityId" : "buyer",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ContractingAuthority-Buyer",
@@ -454,6 +455,21 @@
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-Procedure-TenderingTerms",
       "content" : [ {
+        "id" : "GR-Procedure-ExclusionGrounds-Source",
+        "contentType" : "group",
+        "nodeId" : "ND-ExclusionGroundsSource",
+        "displayType" : "GROUP",
+        "description" : "Exclusion Grounds Source (Code)",
+        "_label" : "group|name|ND-ExclusionGroundsSource",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-806-Procedure",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Exclusion Grounds Source",
+          "_label" : "field|name|BT-806-Procedure"
+        } ]
+      }, {
         "id" : "GR-Procedure-ExclusionGrounds",
         "contentType" : "group",
         "nodeId" : "ND-ExclusionGrounds",
@@ -465,21 +481,22 @@
           "id" : "BT-67(a)-Procedure",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
-          "description" : "Exclusion Grounds",
+          "description" : "Exclusion Ground",
           "_label" : "field|name|BT-67(a)-Procedure"
         }, {
           "id" : "BT-67(b)-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
-          "description" : "Exclusion Grounds",
+          "description" : "Exclusion Ground Description",
           "_label" : "field|name|BT-67(b)-Procedure"
         } ]
       }, {
         "id" : "GR-Procedure-CrossBorderLaw",
         "contentType" : "group",
+        "nodeId" : "ND-CrossBorderLaw",
         "displayType" : "GROUP",
         "description" : "Cross Border Law",
-        "_label" : "group|name|GR-Procedure-CrossBorderLaw",
+        "_label" : "group|name|ND-CrossBorderLaw",
         "content" : [ {
           "id" : "BT-09(a)-Procedure",
           "contentType" : "field",
@@ -617,7 +634,9 @@
     "_label" : "group|name|ND-Lot",
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
+    "businessEntityId" : "lot",
     "_identifierFieldId" : "BT-137-Lot",
+    "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
     "content" : [ {
       "id" : "BT-137-Lot",
@@ -781,6 +800,27 @@
         "description" : "Procurement Type",
         "_label" : "group|name|GR-Lot-ProcurementType",
         "content" : [ {
+          "id" : "GR-Lot-ProcurementType-Strategic",
+          "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementType",
+          "displayType" : "GROUP",
+          "description" : "Information (Description) about Strategic Procurement Type",
+          "_label" : "group|name|ND-StrategicProcurementType",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-06-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Strategic Procurement",
+            "_label" : "field|name|BT-06-Lot"
+          }, {
+            "id" : "BT-777-Lot",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Strategic Procurement Description",
+            "_label" : "field|name|BT-777-Lot"
+          } ]
+        }, {
           "id" : "GR-Lot-Environmental-Impact",
           "contentType" : "group",
           "nodeId" : "ND-LotEnvironmentalImpactType",
@@ -794,6 +834,21 @@
             "displayType" : "COMBOBOX",
             "description" : "Green Procurement",
             "_label" : "field|name|BT-774-Lot"
+          } ]
+        }, {
+          "id" : "GR-Lot-Green-Procurement",
+          "contentType" : "group",
+          "nodeId" : "ND-LotGreenCriteria",
+          "displayType" : "GROUP",
+          "description" : "Details about the use of Green Procurement Criteria",
+          "_label" : "group|name|ND-LotGreenCriteria",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-805-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Green Procurement Criteria",
+            "_label" : "field|name|BT-805-Lot"
           } ]
         }, {
           "id" : "GR-Lot-Social-Objective",
@@ -824,27 +879,6 @@
             "displayType" : "COMBOBOX",
             "description" : "Procurement of Innovation",
             "_label" : "field|name|BT-776-Lot"
-          } ]
-        }, {
-          "id" : "GR-Lot-ProcurementType-Strategic",
-          "contentType" : "group",
-          "nodeId" : "ND-StrategicProcurementType",
-          "displayType" : "GROUP",
-          "description" : "Information (Description) about Strategic Procurement Type",
-          "_label" : "group|name|ND-StrategicProcurementType",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-06-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Strategic Procurement",
-            "_label" : "field|name|BT-06-Lot"
-          }, {
-            "id" : "BT-777-Lot",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Strategic Procurement Description",
-            "_label" : "field|name|BT-777-Lot"
           } ]
         }, {
           "id" : "GR-Lot-ProcurementType-Accessibility",
@@ -989,9 +1023,10 @@
       }, {
         "id" : "GR-Lot-AuctionTerms",
         "contentType" : "group",
+        "nodeId" : "ND-AuctionTerms",
         "displayType" : "GROUP",
-        "description" : "Auction Terms",
-        "_label" : "group|name|GR-Lot-AuctionTerms",
+        "description" : "eAuction related information (indicator, URL, Description)",
+        "_label" : "group|name|ND-AuctionTerms",
         "content" : [ {
           "id" : "BT-767-Lot",
           "contentType" : "field",
@@ -1012,6 +1047,19 @@
           "_label" : "field|name|BT-123-Lot"
         } ]
       }, {
+        "id" : "GR-Lot-EUFunds-Indicator",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "EU Funds Indicator",
+        "_label" : "group|name|GR-Lot-EUFunds-Indicator",
+        "content" : [ {
+          "id" : "BT-60-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "EU Funds",
+          "_label" : "field|name|BT-60-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-EUFunds",
         "contentType" : "group",
         "nodeId" : "ND-Funding",
@@ -1020,12 +1068,6 @@
         "_label" : "group|name|ND-Funding",
         "_repeatable" : true,
         "content" : [ {
-          "id" : "BT-60-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "EU Funds",
-          "_label" : "field|name|BT-60-Lot"
-        }, {
           "id" : "BT-7220-Lot",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
@@ -1217,6 +1259,21 @@
       "description" : "Tendering Terms",
       "_label" : "group|name|GR-Lot-TenderingTerms",
       "content" : [ {
+        "id" : "GR-Lot-SelectionCriteria-Source",
+        "contentType" : "group",
+        "nodeId" : "ND-SelectionCriteriaSource",
+        "displayType" : "GROUP",
+        "description" : "Source for Selection Criteria",
+        "_label" : "group|name|ND-SelectionCriteriaSource",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-821-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Selection Criteria Source",
+          "_label" : "field|name|BT-821-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-SelectionCriteria",
         "contentType" : "group",
         "nodeId" : "ND-SelectionCriteria",
@@ -1225,29 +1282,17 @@
         "_label" : "group|name|ND-SelectionCriteria",
         "_repeatable" : true,
         "content" : [ {
-          "id" : "BT-747-Lot",
+          "id" : "BT-809-Lot",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
-          "description" : "Selection Criteria Type",
-          "_label" : "field|name|BT-747-Lot"
-        }, {
-          "id" : "BT-749-Lot",
-          "contentType" : "field",
-          "displayType" : "TEXTAREA",
-          "description" : "Selection Criteria Name",
-          "_label" : "field|name|BT-749-Lot"
+          "description" : "Selection Criteria",
+          "_label" : "field|name|BT-809-Lot"
         }, {
           "id" : "BT-750-Lot",
           "contentType" : "field",
           "displayType" : "TEXTAREA",
           "description" : "Selection Criteria Description",
           "_label" : "field|name|BT-750-Lot"
-        }, {
-          "id" : "BT-748-Lot",
-          "contentType" : "field",
-          "displayType" : "COMBOBOX",
-          "description" : "Selection Criteria Used",
-          "_label" : "field|name|BT-748-Lot"
         }, {
           "id" : "BT-40-Lot",
           "contentType" : "field",
@@ -1501,21 +1546,21 @@
             "description" : "Late Tenderer Information Description",
             "_label" : "field|name|BT-772-Lot"
           } ]
-        }, {
-          "id" : "GR-ReservedParticipation",
-          "contentType" : "group",
-          "nodeId" : "ND-LotReservedProcurement",
-          "displayType" : "GROUP",
-          "description" : "Reserved Procurement",
-          "_label" : "group|name|ND-LotReservedProcurement",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-71-Lot",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Reserved Participation",
-            "_label" : "field|name|BT-71-Lot"
-          } ]
+        } ]
+      }, {
+        "id" : "GR-ReservedParticipation",
+        "contentType" : "group",
+        "nodeId" : "ND-LotReservedProcurement",
+        "displayType" : "GROUP",
+        "description" : "Reserved Procurement",
+        "_label" : "group|name|ND-LotReservedProcurement",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-71-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Reserved Participation",
+          "_label" : "field|name|BT-71-Lot"
         } ]
       }, {
         "id" : "GR-Lot-Variants",
@@ -1597,6 +1642,20 @@
             "description" : "Terms Performance",
             "_label" : "field|name|BT-70-Lot"
           } ]
+        } ]
+      }, {
+        "id" : "GR-Lot-EInvoicing",
+        "contentType" : "group",
+        "nodeId" : "ND-LotEInvoicing",
+        "displayType" : "GROUP",
+        "description" : "Lot eInvoicing",
+        "_label" : "group|name|ND-LotEInvoicing",
+        "content" : [ {
+          "id" : "BT-743-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Electronic Invoicing",
+          "_label" : "field|name|BT-743-Lot"
         } ]
       }, {
         "id" : "GR-Lot-Requirements2SecurityClearance1",
@@ -1684,6 +1743,63 @@
           "displayType" : "TEXTAREA",
           "description" : "Non Disclosure Agreement Description",
           "_label" : "field|name|BT-802-Lot"
+        } ]
+      }, {
+        "id" : "GR-FSR",
+        "contentType" : "group",
+        "nodeId" : "ND-FSR",
+        "displayType" : "GROUP",
+        "description" : "Applicability of the Foreign Subsidies Regulation",
+        "_label" : "group|name|ND-FSR",
+        "content" : [ {
+          "id" : "BT-681-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Foreign Subsidies Regulation",
+          "_label" : "field|name|BT-681-Lot"
+        } ]
+      }, {
+        "id" : "GR-Lot-EED",
+        "contentType" : "group",
+        "nodeId" : "ND-EEDLot",
+        "displayType" : "GROUP",
+        "description" : "Information about EED and foreseen associated assets: EED applicability and bought products",
+        "_label" : "group|name|ND-EEDLot",
+        "content" : [ {
+          "id" : "BT-810-Lot",
+          "contentType" : "field",
+          "displayType" : "RADIO",
+          "description" : "EED Applicable",
+          "_label" : "field|name|BT-810-Lot"
+        }, {
+          "id" : "GR-Lot-EED-Products",
+          "contentType" : "group",
+          "nodeId" : "ND-EEDInformationLot",
+          "displayType" : "GROUP",
+          "description" : "Information about EED products to be procured",
+          "_label" : "group|name|ND-EEDInformationLot",
+          "content" : [ {
+            "id" : "GR-Lot-EED-Asset",
+            "contentType" : "group",
+            "nodeId" : "ND-EEDProcurementDetailsLot",
+            "displayType" : "SECTION",
+            "description" : "Identification of one of the assets to be procured",
+            "_label" : "group|name|ND-EEDProcurementDetailsLot",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "BT-811(a)-Lot",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "EED List (Basis)",
+              "_label" : "field|name|BT-811(a)-Lot"
+            }, {
+              "id" : "BT-811(b)-Lot",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "EED List (Item)",
+              "_label" : "field|name|BT-811(b)-Lot"
+            } ]
+          } ]
         } ]
       }, {
         "id" : "GR-Lot-ElectronicCatalog",
@@ -2165,8 +2281,7 @@
           "_idSchemes" : [ "ORG", "TPO" ]
         } ]
       } ]
-    } ],
-    "_captionFieldId" : "BT-21-Lot"
+    } ]
   }, {
     "id" : "GR-LotsGroup",
     "contentType" : "group",
@@ -2176,7 +2291,9 @@
     "_label" : "group|name|ND-LotsGroup",
     "_idScheme" : "GLO",
     "_schemeName" : "LotsGroup",
+    "businessEntityId" : "groupOfLots",
     "_identifierFieldId" : "BT-137-LotsGroup",
+    "_captionFieldId" : "BT-21-LotsGroup",
     "_repeatable" : true,
     "content" : [ {
       "id" : "GR-LotsGroup-Purpose",
@@ -2393,8 +2510,7 @@
           "_label" : "field|name|BT-733-LotsGroup"
         } ]
       } ]
-    } ],
-    "_captionFieldId" : "BT-21-LotsGroup"
+    } ]
   }, {
     "id" : "GR-Change",
     "contentType" : "group",
@@ -2442,7 +2558,8 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Change Previous Section Identifier",
-          "_label" : "field|name|BT-13716-notice"
+          "_label" : "field|name|BT-13716-notice",
+          "_idSchemes" : [ "CON", "GLO", "LOT", "ORG", "PAR", "RES", "TEN", "TPA", "TPO", "UBO" ]
         } ]
       }, {
         "id" : "BT-141(a)-notice",
@@ -2479,7 +2596,9 @@
       "_label" : "group|name|ND-Organization",
       "_idScheme" : "ORG",
       "_schemeName" : "organization",
+      "businessEntityId" : "organization",
       "_identifierFieldId" : "OPT-200-Organization-Company",
+      "_captionFieldId" : "BT-500-Organization-Company",
       "_repeatable" : true,
       "content" : [ {
         "id" : "OPT-200-Organization-Company",
@@ -2650,8 +2769,11 @@
         "_label" : "group|name|ND-Touchpoint",
         "_idScheme" : "TPO",
         "_schemeName" : "touchpoint",
+        "businessEntityId" : "touchpoint",
         "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
+        "_captionFieldId" : "BT-500-Organization-TouchPoint",
         "_repeatable" : true,
+        "collapsed" : true,
         "content" : [ {
           "id" : "OPT-201-Organization-TouchPoint",
           "contentType" : "field",
@@ -2765,10 +2887,8 @@
             "description" : "Contact Fax",
             "_label" : "field|name|BT-739-Organization-TouchPoint"
           } ]
-        } ],
-        "_captionFieldId" : "BT-500-Organization-TouchPoint"
-      } ],
-      "_captionFieldId" : "BT-500-Organization-Company"
+        } ]
+      } ]
     } ]
   } ]
 }

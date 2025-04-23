@@ -23,7 +23,7 @@
 									<cbc:StreetName>Praça do Município</cbc:StreetName>
 									<cbc:CityName>Águeda</cbc:CityName>
 									<cbc:PostalZone>3754-500</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">PT16D</cbc:CountrySubentityCode>
+									<cbc:CountrySubentityCode listName="nuts">PT191</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">PRT</cbc:IdentificationCode>
 									</cac:Country>
@@ -105,11 +105,12 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
-		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:ProcedureCode listName="procurement-procedure-type">comp-tend</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>RA/DAF/SERV-96/18</cbc:ID>
+		<cbc:ID schemeName="InternalID">RA/DAF/SERV-96/18</cbc:ID>
 		<cbc:Name languageID="POR">Public road transport services</cbc:Name>
+		<cbc:Description languageID="POR">Description of public road transport services</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="POR">Some additional information on the procurement ... blablabla</cbc:Note>
 		<cac:ProcurementAdditionalType>
@@ -130,7 +131,7 @@
 			</cac:AdditionalInformationParty>
 		</cac:TenderingTerms>
 		<cac:ProcurementProject>
-			<cbc:ID>RA/DAF/SERV-96/18</cbc:ID>
+			<cbc:ID schemeName="InternalID">RA/DAF/SERV-96/18</cbc:ID>
 			<cbc:Name languageID="POR">Serviço público de transportes de passageiros de Águeda</cbc:Name>
 			<cbc:Description languageID="POR">Serviço público de transportes de passageiros de Águeda.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -140,7 +141,7 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="POR">urbano/regional</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">PT16D</cbc:CountrySubentityCode>
+					<cbc:CountrySubentityCode listName="nuts">PT191</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">PRT</cbc:IdentificationCode>
 					</cac:Country>

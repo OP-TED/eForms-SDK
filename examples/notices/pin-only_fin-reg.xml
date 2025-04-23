@@ -34,7 +34,7 @@
 									<cbc:CompanyID>PartyLegalEntityCID1234</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>PartyLegalEntityCID1234</cbc:CompanyID>
+									<cbc:CompanyID>OtherID 9876</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Name>Contactname1234</cbc:Name>
@@ -136,7 +136,7 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:ProcurementProject>
-		<cbc:ID>ProPrID1234</cbc:ID>
+		<cbc:ID schemeName="InternalID">ProPrID1234</cbc:ID>
 		<cbc:Name languageID="ENG">ProPrName1234</cbc:Name>
 		<cbc:Description languageID="ENG">PrPrDescblabla</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

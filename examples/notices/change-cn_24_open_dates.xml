@@ -42,7 +42,6 @@
 									<cbc:StreetName>Renfrewshire House, Cotton Street</cbc:StreetName>
 									<cbc:CityName>Paisley</cbc:CityName>
 									<cbc:PostalZone>PA1 1JB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKM83</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -69,7 +68,6 @@
 								<cac:PostalAddress>
 									<cbc:CityName>Sheriff Street</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -97,7 +95,6 @@
 									<cbc:StreetName>Some Street</cbc:StreetName>
 									<cbc:CityName>Example City</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -179,60 +176,18 @@
 	<cac:TenderingTerms>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">NOT AVAILABLE</cbc:Description>
-			</cac:SpecificTendererRequirement>
-			<cac:SpecificTendererRequirement>
-				<cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
-				<cbc:Description languageID="ENG">Bidders will be required to state if any of the exclusion grounds as detailed within Regulation 58 (1) of The Public Contracts (Scotland) Regulations 2015 apply to them. — If required by the member state, bidders are required to be enrolled in the relevant professional or trade registers within the country in which they are established (in the United Kingdom, the bidder is a company registered with the Registrar of Companies and can provide a certificate stating that he is certified as incorporated or registered or, where he is not so certified, a certificate stating that the person concerned has declared on oath that he is engaged in the profession in a specific place under a given business name). — Bidders will be required to state if it is a requirement in the bidder’s country of establishment to hold a particular authorisation or membership of a particular organisation in order to be able to perform the service in question. Where it is required, within a bidder’s country of establishment they must confirm which authorisation or memberships of the relevant organisation(s) are required in order to perform this service and also must confirm if they hold the particular authorisation or memberships.</cbc:Description>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>RC-CPU-19-065</cbc:ID>
+		<cbc:ID schemeName="InternalID">RC-CPU-19-065</cbc:ID>
 		<cbc:Name languageID="ENG">Term Contract for a Planned Programme of In-service Inspection and Testing of Electrical Equipment</cbc:Name>
 		<cbc:Description languageID="ENG">The purpose of this contract is to formalise the Councils requirement to employ a contractor to carry out a planned programme of in-service inspection and testing of electrical equipment within the Councils public buildings.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -255,7 +210,6 @@
 		<cac:RealizedLocation>
 			<cbc:Description languageID="ENG">Public buildings within the geographical area of Renfrewshire Council.</cbc:Description>
 			<cac:Address>
-				<cbc:CountrySubentityCode listName="nuts">UKM83</cbc:CountrySubentityCode>
 				<cac:Country>
 					<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 				</cac:Country>
@@ -277,19 +231,16 @@
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-suit-reg-prof</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">Bidders will be required to state if any of the exclusion grounds as detailed within Regulation 58 (1) of The Public Contracts (Scotland) Regulations 2015 apply to them. — If required by the member state, bidders are required to be enrolled in the relevant professional or trade registers within the country in which they are established (in the United Kingdom, the bidder is a company registered with the Registrar of Companies and can provide a certificate stating that he is certified as incorporated or registered or, where he is not so certified, a certificate stating that the person concerned has declared on oath that he is engaged in the profession in a specific place under a given business name). — Bidders will be required to state if it is a requirement in the bidder’s country of establishment to hold a particular authorisation or membership of a particular organisation in order to be able to perform the service in question. Where it is required, within a bidder’s country of establishment they must confirm which authorisation or memberships of the relevant organisation(s) are required in order to perform this service and also must confirm if they hold the particular authorisation or memberships.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-stand-other</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">Bidders will be required to have a minimum ‘general’ yearly turnover of GBP 200 000.00 for the last 3 years. Where turnover information is not available for the time period requested, the bidder will be required to state the date which they were set up/started trading. Where a bidder fails to meet the minimum financial turnover requirements in its own right but is a subsidiary of a group, the bidder must state if they are relying on a parent company guarantee (the parent company must meet the stipulated minimum financial requirements). The parent company guarantee will be in the form provided in the tender documentation (Appendix A1). Where a bidder is applying as part of a consortium the collective annual turnover of all consortium members will be utilised in the overall assessment of annual turnover. Bidders will require to evidence the equivalent of a Dun and Bradstreet Failure Score of 20 or above. If a bidder considers that the D&amp;B failure score does not reflect their current financial status, the bidder should give a detailed explanation and will be required to provide any relevant supporting independent evidence at request for documentation stage. Where the bidder is a subsidiary of a group but is applying as a separate legal entity and fails to meet the minimum D&amp;B Failure Score (or equivalent) as a company, a parent company guarantee will be required. The parent company must meet the minimum financial requirements as assessed by the Council. The parent company guarantee will be in the form provided in the tender documentation (Appendix A1). Where a bidder is under no obligation to publish accounts and therefore does not have a D&amp;B failure score, they will be required to provide their audited financial accounts for the previous 2 years as part of the request for documentation stage in order that the Council may assess these to determine the suitability of the bidder to undertake a contract of this size. Where a consortium bid is received, the D&amp;B failure score of each consortium member shall be assessed. Bidders must hold or can commit to obtain prior to the commence of any subsequently awarded contract, the types and levels of insurance indicated below: Employer’s (compulsory) liability insurance — minimum GBP 10 million each and every claim. Public and product liability insurance — minimum GBP 10 million each and every claim but in the aggregate for products. Statutory third party motor vehicle insurance.  Minimum level(s) of standards possibly required:   Minimum ‘general’ yearly turnover of GBP 200 000.00 for the last 3 years. Minimum Dun and Bradstreet Failure Score of 20 or equivalent credit rating. Employer’s (compulsory) liability insurance with a minimum indemnity limit of GBP 10 million each and every claim. Public and Product Liability Insurance with a minimum indemnity limit of GBP 10 million each and every claim but in the aggregate for products. Statutory third party motor vehicle insurance.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+								<cbc:TendererRequirementTypeCode listName="selection-criterion">slc-abil-staff-tech-work</cbc:TendererRequirementTypeCode>
 								<cbc:Description languageID="ENG">Bidders will be required to provide examples that demonstrate that they have the relevant experience to deliver the works/services required under this contract. Bidders will require to confirm that the personnel to be used in the execution of this contract possess the City and Guilds Level 3 Certificate for in-service inspections and testing of electrical equipment or other equivalent qualification relevant to the country where the bidder’s registered office or place of business is based. Bidders will be required to confirm their average annual manpower for the last 3 years and the number of managerial staff for the last 3 years. Bidders will be required to demonstrate that they have (or have access to) the relevant tools, plant or technical equipment to deliver the works/services required under this contract. Bidders will be required to confirm whether they intend to subcontract and, if so, for what proportion of the contract (where the bidder intends to subcontract more than 25 % of any contract value to a single subcontractor, a financial report will be carried out on the subcontractor. The Council reserve the right to request one copy of all subcontractors last 2 years audited accounts and details of significant changes since the last year end. The Council also reserve the right to reject the use of subcontractors in relation to the contract, where they fail to meet the Council's minimum financial criteria). Bidders must have health and safety accreditation to BS OHSAS 18001 (or equivalent) or have a documented policy for health and safety management, endorsed by the Chief Executive Officer or equivalent. Bidders must have quality management accreditation to BS EN ISO 9001 (or equivalent) or have a documented policy for quality management, endorsed by the Chief Executive Officer or equivalent. Bidders must have environmental management accreditation to BS EN ISO 14001 (or equivalent) or have a documented policy for environmental management, endorsed by the Chief Executive Officer or equivalent.  Minimum level(s) of standards possibly required:   Bidders must have previous relevant experience. Bidders personnel must have City and Guilds Level 3 certificate for in-service inspections and testing of electrical equipment or other equivalent qualification. Bidders must have the appropriate number of employees to successfully deliver this contract. Bidders must have the appropriate tools, plant and equipment to successfully deliver this contract. Bidders must state if they intend to subcontract any portion of this contract. Bidders must be accredited to BS OHSAS 18001 (or equivalent) or have a documented policy for health and safety management. Bidders must be accredited to BS EN ISO 9001 (or equivalent) or have a documented policy for quality management. Bidders must be accredited to BS EN ISO 14001 (or equivalent) or have a documented policy for environmental management</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
 							</efac:SelectionCriteria>
 						</efext:EformsExtension>
 					</ext:ExtensionContent>
@@ -309,6 +260,11 @@
 			<cac:TendererQualificationRequest>
 				<cac:SpecificTendererRequirement>
 					<cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-notice</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>
@@ -354,7 +310,7 @@
 						</ext:UBLExtensions>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
 						<cbc:Name languageID="ENG">Fair working practices</cbc:Name>
-						<cbc:Description languageID="ENG">The quality working practices are evaluated by...</cbc:Description>
+						<cbc:Description languageID="ENG">The working practices are evaluated by...</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
@@ -388,7 +344,7 @@
 						</ext:UBLExtensions>
 						<cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
 						<cbc:Name languageID="ENG">Community benefit methodology</cbc:Name>
-						<cbc:Description languageID="ENG">The community benefit methodology is evaluated by...</cbc:Description>
+						<cbc:Description languageID="ENG">The community benefits methodology is evaluated by...</cbc:Description>
 					</cac:SubordinateAwardingCriterion>
 					<cac:SubordinateAwardingCriterion>
 						<ext:UBLExtensions>
@@ -477,7 +433,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="ENG">Term Contract for a Planned Programme of In-service Inspection and Testing of Electrical Equipment</cbc:Name>
 			<cbc:Description languageID="ENG">The purpose of this contract is to formalise the Councils requirement to employ a contractor to carry out a planned programme of in-service inspection and testing of electrical equipment within the Councils public buildings.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -496,7 +452,6 @@
 			<cac:RealizedLocation>
 				<cbc:Description languageID="ENG">Public buildings within the geographical area of Renfrewshire Council.</cbc:Description>
 				<cac:Address>
-					<cbc:CountrySubentityCode listName="nuts">UKM83</cbc:CountrySubentityCode>
 					<cac:Country>
 						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 					</cac:Country>

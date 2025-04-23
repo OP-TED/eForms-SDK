@@ -46,13 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Lista codurilor pentru a preciza dacă trimiterea de cataloage electronice este autorizată sau nu.</entry>
 <entry key="codelist|name|economic-operator-size">Acest tabel prezintă diferitele categorii în care sunt clasificați ofertanții cărora li se poate atribui un contract, în funcție de dimensiunea lor (utilizând drept criteriu numărul de angajați).</entry>
 <entry key="codelist|name|eea-country">Lista codurilor țărilor din Spațiul Economic European</entry>
-<entry key="codelist|name|eforms-buyer-legal-type">Lista codurilor de tip legal de cumpărător permise în formularele electronice</entry>
-<entry key="codelist|name|eforms-contract-nature">Lista codurilor de formulare electronice permise pentru a specifica natura principală și suplimentară a unei achiziții</entry>
-<entry key="codelist|name|eforms-country">Lista codurilor de țară permise în formularele electronice</entry>
-<entry key="codelist|name|eforms-currency">Lista codurilor monedelor permise în formularele electronice</entry>
-<entry key="codelist|name|eforms-language">Lista codurilor de limbă permise în formularele electronice</entry>
-<entry key="codelist|name|eforms-legal-basis">Lista codurilor de temei juridic permise în formularele electronice</entry>
+<entry key="codelist|name|eed-scope">Acest tabel oferă lista de coduri și valori utilizate pentru a indica faptul că o achiziție intră sub incidența Directivei privind eficiența energetică</entry>
 <entry key="codelist|name|einvoicing">Lista codurilor pentru a preciza dacă facturarea electronică este autorizată sau nu.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Cadrul juridic pentru elemente, cum ar fi actele delegate privind etichetarea energetică, măsurile de implementare (Directiva 2009/125/CE) sau Regulamentul 2020/740; produse și servicii acoperite de GPP; lucrări, servicii sau clădiri</entry>
+<entry key="codelist|name|energy-efficiency-item">Produse acoperite de actele delegate privind etichetarea energetică, măsurile de implementare (Directiva 2009/125/CE) sau Regulamentul 2020/740; produse și servicii acoperite de GPP; lucrări, servicii sau clădiri</entry>
+<entry key="codelist|name|energy-efficiency-label">Acest tabel oferă lista de coduri și valori utilizate pentru a specifica eficiența energetică a produsului</entry>
 <entry key="codelist|name|entity-activity">Lista codurilor deactivități principale permise pentru o entitate contractantă</entry>
 <entry key="codelist|name|environmental-impact">Acest tabel oferă informații din care să reiasă dacă o achiziție publică include (și cum) o abordare pentru reducerea impactului asupra mediului al lucrărilor, bunurilor sau serviciilor utilizate în specificațiile tehnice, criteriile de atribuire, criteriile de selecție sau executarea contractului.</entry>
 <entry key="codelist|name|esignature-submission">Lista codurilor pentru a preciza dacă se poate utiliza sau nu semnătura electronică.</entry>
@@ -62,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Lista codurilor limbilor oficiale ale UE</entry>
 <entry key="codelist|name|eu-programme">Lista codurilor pentru programele create și coordonate și sprijinite financiar de Uniunea Europeană sau, în câteva cazuri, de contribuțiile statelor membre.</entry>
 <entry key="codelist|name|exclusion-ground">Lista codurilor pentru identificarea motivului de excludere</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR introduce un nou set de reguli care permite Comisiei să abordeze distorsiunile cauzate de subvențiile străine.</entry>
 <entry key="codelist|name|form-type">Acest tabel prezintă codurile și valorile utilizate pentru tipul de formulare publicate în TED.</entry>
 <entry key="codelist|name|framework-agreement">Acest tabel conține lista codurilor pentru a face distincția între diferitele tipuri de acorduri-cadru implicate într-o ofertă.</entry>
 <entry key="codelist|name|gpp-criteria">Criteriile privind achizițiile publice ecologice</entry>
 <entry key="codelist|name|indicator">Lista de valori a indicatorilor autorizați în formularele electronice</entry>
 <entry key="codelist|name|innovative-acquisition">Acest tabel conține codurile și valorile utilizate pentru tipul de lucrări, bunuri sau servicii inovatoare achiziționate în contextul achiziției publice.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Acest tabel oferă lista de coduri și valori utilizate pentru a specifica excepția la aplicarea măsurii IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Acest tabel oferă lista de coduri și valori utilizate pentru a specifica măsura IPI aplicată</entry>
 <entry key="codelist|name|irregularity-type">Această listă de coduri se referă, în general, la tipurile de nereguli descrise în secțiunea 2 din anexa la Decizia C(2019)3452 a Comisiei.</entry>
 <entry key="codelist|name|language">Lista codurilor de limbă formate din trei caractere, corelate cu standardul internațional ISO 639, alături de coduri suplimentare pentru unele limbi care nu au primit un cod ISO.</entry>
 <entry key="codelist|name|lawful-country">Lista țărilor pentru care există un temei juridic pentru publicarea în suplimentul la Jurnalul Oficial al Uniunii Europene</entry>
@@ -117,6 +118,7 @@
 <entry key="codelist|name|legal-basis-e3">Valori ale temeiului juridic permis pentru subtipul de anunț E3</entry>
 <entry key="codelist|name|legal-basis-e4">Valori ale temeiului juridic permis pentru subtipul de anunț E4</entry>
 <entry key="codelist|name|legal-basis-e5">Valori ale temeiului juridic permis pentru subtipul de anunț E5</entry>
+<entry key="codelist|name|legal-basis-e6">Valori ale temeiului juridic permis pentru subtipul de anunț E6</entry>
 <entry key="codelist|name|legal-basis-t01">Valori ale temeiului juridic permis pentru subtipul de anunț T01</entry>
 <entry key="codelist|name|legal-basis-t02">Valori ale temeiului juridic permis pentru subtipul de anunț T02</entry>
 <entry key="codelist|name|legal-basis-x01">Valori ale temeiului juridic permis pentru subtipul de anunț X01</entry>
@@ -194,6 +196,7 @@
 <entry key="codelist|name|procedure-type-12">Tipul de procedură permisă pentru subtipul de anunț 12</entry>
 <entry key="codelist|name|procedure-type-13">Tipul de procedură permisă pentru subtipul de anunț 13</entry>
 <entry key="codelist|name|procedure-type-14">Tipul de procedură permisă pentru subtipul de anunț 14</entry>
+<entry key="codelist|name|procedure-type-15">Tipul de procedură permisă pentru subtipul de anunț 15</entry>
 <entry key="codelist|name|procedure-type-16">Tipul de procedură permisă pentru subtipul de anunț 16</entry>
 <entry key="codelist|name|procedure-type-17">Tipul de procedură permisă pentru subtipul de anunț 17</entry>
 <entry key="codelist|name|procedure-type-18">Tipul de procedură permisă pentru subtipul de anunț 18</entry>
@@ -219,7 +222,6 @@
 <entry key="codelist|name|procedure-type-7">Tipul de procedură permisă pentru subtipul de anunț 7</entry>
 <entry key="codelist|name|procedure-type-8">Tipul de procedură permisă pentru subtipul de anunț 8</entry>
 <entry key="codelist|name|procedure-type-9">Tipul de procedură permisă pentru subtipul de anunț 9</entry>
-<entry key="codelist|name|procedure-type-cei">Tipul de procedură permisă pentru subtipul de anunț CEI</entry>
 <entry key="codelist|name|procedure-type-e1">Tipul de procedură permisă pentru subtipul de anunț E1</entry>
 <entry key="codelist|name|procedure-type-e2">Tipul de procedură permisă pentru subtipul de anunț E2</entry>
 <entry key="codelist|name|procedure-type-e3">Tipul de procedură permisă pentru subtipul de anunț E3</entry>
@@ -238,8 +240,8 @@
 <entry key="codelist|name|result">Lista codurilor de tip de anunț permise pentru un tip de formular cu rezultate</entry>
 <entry key="codelist|name|review-body-type">Acest tabel cuprinde lista organizațiilor competente pentru revizuirea unei anumite proceduri.</entry>
 <entry key="codelist|name|review-decision-type">Acest tabel descrie decizia luată de un organism de soluționare a căilor de atac.</entry>
+<entry key="codelist|name|review-information-type">Lista codurilor privind statutul unei anumite cereri de soluționare a căilor de atac</entry>
 <entry key="codelist|name|review-requester-type">Categoria părților interesate care au formulat o cerere de soluționare a căilor de atac</entry>
-<entry key="codelist|name|review-status">Lista codurilor privind statutul unei anumite cereri de soluționare a căilor de atac</entry>
 <entry key="codelist|name|review-type">Lista codurilor privind identificarea tipului de solicitant al unei cereri de soluționare a căilor de atac</entry>
 <entry key="codelist|name|rewards-penalties">Lista codurilor pentru recompense și sancțiuni asociate unui serviciu de transport public</entry>
 <entry key="codelist|name|selection-criterion">Lista codurilor pentru exprimarea condițiilor care sunt vizate în scopul evaluării. Această listă de coduri este un subset de criterii DEAU.</entry>

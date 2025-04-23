@@ -5,7 +5,7 @@
       <ShortName>IrregularityType</ShortName>
       <LongName>irregularity-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/irregularity-type</LongName>
-      <Version>20220316-0</Version>
+      <Version>20240612-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/irregularity-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -197,7 +197,7 @@
             <SimpleValue>Neupravičena zavrnitev neobičajno nizkih ponudb</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Omotiverat avvisande av onormalt låga anbud</SimpleValue>
+            <SimpleValue>Otillåtet förkastande av onormalt lågt anbud</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -277,7 +277,7 @@
             <SimpleValue>Umetna delitev pogodb</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Artificiell uppdelning av kontrakt</SimpleValue>
+            <SimpleValue>Uppdelning av en upphandling på icke objektiv grund</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -357,7 +357,7 @@
             <SimpleValue>Dogovorjeno oddajanje ponudb (ki ga ugotovi urrd za varstvo konkurence, sodišče ali drug pristojni organ)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Uppgjord anbudsgivning (som konstaterats av en konkurrensmyndighet/kartellmyndighet, en domstol eller ett annat behörigt organ)</SimpleValue>
+            <SimpleValue>Otillåtet anbudssamarbete (som konstaterats av en konkurrens- eller kartellmyndighet, domstol eller annat behörigt organ)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -597,7 +597,7 @@
             <SimpleValue>Konkurečni postopek s pogajanji z znatno spremembo</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Förhandlat förfarande under konkurrens, med väsentliga ändringar av villkoren i meddelandet om upphandling eller kravspecifikationen</SimpleValue>
+            <SimpleValue>Väsentliga ändringar av villkoren i upphandlingsdokumenten i förhandlat förfarande med föregående annonsering</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -653,7 +653,7 @@
             <SimpleValue>Sutarties elementų, nustatytų skelbime apie pirkimą arba konkurso specifikacijose, pakeitimai neatitinka galiojančių taisyklių</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Paziņojumā par līgumu vai piedāvājuma specifikācijās noteikto līguma elementu pārveidojumi, kas neatbilst attiecīgajiem noteikumiem</SimpleValue>
+            <SimpleValue>Paziņojumā par līgumu vai iepirkuma specifikācijās noteikto līguma elementu pārveidojumi, kas neatbilst attiecīgajiem noteikumiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Modifika tal-elementi tal-kuntratt stabbiliti fl-avviż tal-kuntratt jew fl-ispeċifikazzjonijiet tekniċi, li mhumiex konformi mar-regoli rilevanti</SimpleValue>
@@ -677,7 +677,7 @@
             <SimpleValue>Spremembe elementov naročila, navedenih v obvestilu o javnem naročilu ali razpisnih zahtevah, ki niso v skladu z ustreznimi pravili</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Ändringar av delar i ett kontrakt som anges i meddelandet om upphandling eller förfrågningsunderlaget, i strid med reglerna</SimpleValue>
+            <SimpleValue>Otillåtna ändringar av kontraktsvillkoren enligt upphandlingsdokumenten</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -757,7 +757,7 @@
             <SimpleValue>Ocena z uporabo dodatnih meril za oddajo, ki niso bila objavljena</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Utvärdering med användning av ytterligare tilldelningskriterier som inte offentliggjorts</SimpleValue>
+            <SimpleValue>Användning av ytterligare tilldelningskriterier, som inte framgår av upphandlingsdokumenten</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -837,7 +837,7 @@
             <SimpleValue>Ocena ponudb z merili za oddajo, ki se razlikujejo od meril v obvestilu o javnem naročilu ali razpisnih specifikacijah</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Utvärdering av anbud med användning av tilldelningskriterier som skiljer sig från de tilldelningskriterier som anges i meddelandet om upphandling eller i förfrågningsunderlaget</SimpleValue>
+            <SimpleValue>Användning av tilldelningskriterier som skiljer sig från de tilldelningskriterier som anges i upphandlingsdokumenten</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -917,7 +917,7 @@
             <SimpleValue>Formalno</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Formfel</SimpleValue>
+            <SimpleValue>Formaliafel</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -997,7 +997,7 @@
             <SimpleValue>Nezadostna revizijska sled za oddajo javnega naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Otillräcklig verifieringskedja för kontraktstilldelning</SimpleValue>
+            <SimpleValue>Brister i revisionsloggen för tilldelningen av kontrakt</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1077,7 +1077,7 @@
             <SimpleValue>Premalo časa, da bi možni ponudniki/kandidati pridobili dokumentacijo v zvezi z oddajo javnega naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Otillräckligt med tid för potentiella anbudsgivare/anbudssökande att erhålla upphandlingsdokumenten</SimpleValue>
+            <SimpleValue>Ej tillräckligt med tid för potentiella anbudsgivare eller anbudssökande att erhålla upphandlingsdokumenten</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1157,7 +1157,7 @@
             <SimpleValue>Neregularno predhodno sodelovanje kandidatov ali ponudnikov s kupcem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Oriktigt tidigare involvering av anbudssökande eller anbudsgivare med köparen</SimpleValue>
+            <SimpleValue>Otillåtet samröre mellan anbudsgivare/anbudssökande och köparen i ett tidigare skede</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1237,7 +1237,7 @@
             <SimpleValue>Pogoj za sodelovanje ali tehnične specifikacije so bili odpiranju ponudb ali so bili nepravilni uporabljeni</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Urvalskriterierna eller de tekniska specifikationerna ändrades efter att anbuden öppnades eller tillämpades felaktigt</SimpleValue>
+            <SimpleValue>Ändring av krav efter anbudsöppningen eller felaktig tillämpning av ställda krav</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1245,79 +1245,79 @@
             <SimpleValue>nc-proc-eap</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Non-compliance with the procedure established in the Directive for electronic and aggregated procurement</SimpleValue>
+            <SimpleValue>Non-compliance with the procedure for electronic and aggregated procurement</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Неспазване на процедурата за електронните и комбинираните поръчки, установена в Директивата</SimpleValue>
+            <SimpleValue>Неспазване на процедурата за възлагане на електронни и комбинирани обществени поръчки</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nedodržení postupu stanoveného ve směrnici pro elektronické a souhrnné zadávání veřejných zakázek</SimpleValue>
+            <SimpleValue>Nedodržení postupu pro elektronické a souhrnné zadávání veřejných zakázek</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Manglende overholdelse af proceduren i direktivet om elektronisk og aggregeret indkøb</SimpleValue>
+            <SimpleValue>Manglende overholdelse af proceduren for elektroniske og samlede udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Verstoß gegen das Vefahren, das in der Richtlinie für die elektronische Auftragsvergabe und für Sammelbeschaffungen vorgesehen ist</SimpleValue>
+            <SimpleValue>Verstoß gegen das Verfahren für die elektronische Auftragsvergabe und für Sammelbeschaffungen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Μη συμμόρφωση με τη διαδικασία που προβλέπει η οδηγία για τις ηλεκτρονικές και συγκεντρωτικές διαδικασίες σύναψης συμβάσεων</SimpleValue>
+            <SimpleValue>Μη συμμόρφωση με τη διαδικασία ηλεκτρονικών και συγκεντρωτικών δημόσιων συμβάσεων</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Non-compliance with the procedure established in the Directive for electronic and aggregated procurement</SimpleValue>
+            <SimpleValue>Non-compliance with the procedure for electronic and aggregated procurement</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>No conformidad con el procedimiento establecido en la Directiva para la contratación electrónica y agregada</SimpleValue>
+            <SimpleValue>No conformidad con el procedimiento para la contratación electrónica y agregada</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Direktiiviga kehtestatud elektroonilise või koondhankemenetluse rikkumine</SimpleValue>
+            <SimpleValue>Elektroonilise või koondhankemenetluse rikkumine</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Sähköisiä ja yhdistettyjä hankintoja koskevassa direktiivissä vahvistetun menettelyn noudattamatta jättäminen</SimpleValue>
+            <SimpleValue>Sähköisiä ja yhdistettyjä hankintoja koskevan menettelyn noudattamatta jättäminen</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Non-respect de la procédure établie dans la directive pour les marchés électroniques et aggrégés</SimpleValue>
+            <SimpleValue>Non-respect de la procédure de passation de marchés électroniques et agrégés</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Neamhchomhlíonadh an nós imeachta a leagtar síos sa Treoir maidir leis an soláthar leictreonach agus comhiomlánaithe</SimpleValue>
+            <SimpleValue>Neamhchomhlíonadh an nós imeachta maidir le soláthar leictreonach agus comhiomlánaithe</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Nesukladnost s postupkom utvrđenim u Direktivi za elektroničku i zbirnu nabavu</SimpleValue>
+            <SimpleValue>Nesukladnost s postupkom za elektroničku i zbirnu nabavu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Az elektronikus és az összetett beszerzésre vonatkozóan az irányelvben meghatározott eljárás be nem tartása</SimpleValue>
+            <SimpleValue>Az elektronikus és az összetett beszerzésre vonatkozó eljárás be nem tartása</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Inosservanza della procedura stabilita nella direttiva per gli appalti elettronici e aggregati</SimpleValue>
+            <SimpleValue>Inosservanza della procedura per gli appalti elettronici e aggregati</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Direktyvoje nustatytos elektroninių ir grupinių pirkimų procedūros nesilaikymas</SimpleValue>
+            <SimpleValue>Elektroninių ir grupinių pirkimų procedūros nesilaikymas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Neatbilstība procedūrai, kas direktīvā noteikta attiecībā uz elektronisko un apvienoto iepirkumu</SimpleValue>
+            <SimpleValue>Neatbilstība elektroniskā un apvienotā iepirkuma procedūrai</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Nuqqas ta’ konformità mal-proċedura stabbilita fid-Direttiva dwar l-akkwist elettroniku u aggregat</SimpleValue>
+            <SimpleValue>Nuqqas ta’ konformità mal-proċedura dwar l-akkwist elettroniku u aggregat</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Niet-naleving van de in de richtlijn vastgestelde procedure voor elektronische en samengestelde aanbesteding</SimpleValue>
+            <SimpleValue>Niet-naleving van de procedure voor elektronische en samengestelde aanbesteding</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Nieprzestrzeganie procedury ustanowionej w dyrektywie w odniesieniu do zamówień elektronicznych i zagregowanych</SimpleValue>
+            <SimpleValue>Niezgodność z procedurami w zakresie zamówień elektronicznych i zagregowanych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Não cumprimento do procedimento estabelecido na diretiva sobre a contratação pública eletrónica e agregada</SimpleValue>
+            <SimpleValue>Incumprimento dos procedimentos para a contratação pública eletrónica e agregada</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Nerespectarea procedurii stabilite în Directiva privind achizițiile electronice și agregate</SimpleValue>
+            <SimpleValue>Nerespectarea procedurii pentru achizițiile electronice și agregate</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nedodržanie postupu stanoveného v smernici o elektronickom a hromadnom obstarávaní</SimpleValue>
+            <SimpleValue>Nedodržanie postupu elektronického a súhrnného obstarávania</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Neupoštevanje postopka, določenega v direktivi za elektronska in skupna javna naročila</SimpleValue>
+            <SimpleValue>Neupoštevanje postopka za elektronsko in skupno javno naročanje</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Förfarandet i direktivet för elektronisk och gemensam upphandling har inte följts</SimpleValue>
+            <SimpleValue>Åsidosättande av bestämmelser om elektroniska metoder eller samordnad upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1397,7 +1397,7 @@
             <SimpleValue>Neupoštevanje rokov za prejem ponudb ali prijav za sodelovanje</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Överträdelse av tidsfrister för mottagande av anbudsansökningar eller tidsfrister för mottagande av anbudsansökningar</SimpleValue>
+            <SimpleValue>Avsteg från tidsfrister för att komma in med anbudsansökningar eller anbud</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1557,7 +1557,7 @@
             <SimpleValue>Neobjava tehničnih specifikacij, meril za izbor, meril za oddajo naročila (in njihovih ponderjev) ali pogojev za izvedbo naročila v obvestilu o javnem naročilu</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Underlåtenhet att i meddelandet om upphandling offentliggöra de tekniska specifikationerna, selekteringskriterierna, tilldelningskriterierna (och deras vägning) eller villkoren för fullgörande av kontraktet</SimpleValue>
+            <SimpleValue>Underlåtenhet att i annonsen ange krav, tilldelningskriterier inklusive viktning, eller villkoren för fullgörande av kontraktet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1797,7 +1797,7 @@
             <SimpleValue>Neobjava obvestila o javnem naročilu ali neupravičena neposredna dodelitev</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Avsaknad av offentliggörande av meddelande om upphandling eller omotiverad direkt tilldelning</SimpleValue>
+            <SimpleValue>Underlåtenhet att annonsera upphandlingen eller otillåten direktupphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1877,7 +1877,7 @@
             <SimpleValue>Nepodaljšanje roka za prejem ponudb ali prijav za sodelovanje, kadar dodatne informacije, ki jih je gospodarski subjekt sicer pravočasno zahteval, niso predložene najpozneje šest dni pred rokom</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Tidsfristerna för mottagande av anbud eller anbudsansökningar förlängdes inte, när kompletterande information som av den ekonomiska aktören begärts i god tid av något skäl inte lämnas senast sex dagar före tidsfristen</SimpleValue>
+            <SimpleValue>Tidsfristen för mottagande av anbud eller anbudsansökningar förlängdes inte när kompletterande upplysningar av något skäl inte lämnas senast sex dagar före tidsfristen trots att de begärts av en leverantör i god tid</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1957,7 +1957,7 @@
             <SimpleValue>Nepodaljšanje roka za prejem ponudb ali prijav za sodelovanje v primeru večjih sprememb javnega naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Underlåtenhet att förlänga tidsfristerna för mottagande av anbud eller anbudsansökningar när betydande ändringar görs i upphandlingsdokumenten</SimpleValue>
+            <SimpleValue>Underlåtenhet att förlänga tidsfristen att komma in med anbud eller anbudsansökningar trots att väsentliga ändringar görs i upphandlingsdokumenten</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2037,7 +2037,7 @@
             <SimpleValue>Manjka utemeljitev za razdelitev naročila na sklope</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Avsaknad av skäl att inte dela in ett kontrakt i delar</SimpleValue>
+            <SimpleValue>Avsaknad av skäl för att inte tilldela ett kontrakt i separata delar</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2277,7 +2277,7 @@
             <SimpleValue>Omejitve pri pridobivanju razpisne dokumentacije, razen nezadostnega časa</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Begränsningar av erhållandet av upphandlingsdokumenten, andra än otillräcklig tid</SimpleValue>
+            <SimpleValue>Andra begräsningar, än otillräcklig tid, för att erhålla upphandlingsdokumenten</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2357,7 +2357,7 @@
             <SimpleValue>Neupravičena uporaba konkurenčnega postopka s pogajanji, konkurenčnega dialoga ali inovativnega partnerstva</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Omotiverad användning av förhandlade förfaranden under konkurrens, konkurrenspräglad dialog eller innovativt partnerskap</SimpleValue>
+            <SimpleValue>Otillåten användning av förhandlat förfarande med föregående annonsering, konkurrenspräglad dialog eller ett förfarande för inrättande av innovationspartnerskap</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2437,7 +2437,7 @@
             <SimpleValue>Neupravičena izključitev ponudnikov ali kandidatov</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Omotiverad uteslutning av anbudsgivare eller anbudssökande</SimpleValue>
+            <SimpleValue>Otillåten uteslutning av anbudsgivare eller anbudssökande</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2517,7 +2517,7 @@
             <SimpleValue>Neupravičena omejitev oddaje naročil podizvajalcem</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Omotiverad begränsning av underentreprenad</SimpleValue>
+            <SimpleValue>Otillåten begränsning av användandet av underleverantörer</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2597,7 +2597,7 @@
             <SimpleValue>Neupravičena neuporaba pravil o javnih naročilih</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Omotiverad underlåtenhet att tillämpa reglerna för offentlig upphandling</SimpleValue>
+            <SimpleValue>Otillåten underlåtenhet att tillämpa reglerna för offentlig upphandling</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2677,7 +2677,7 @@
             <SimpleValue>Uporaba tehničnih specifikacij, pogoja za sodelovanje, merila za oddajo naročila, merila za izključitev ali pogoja za izvedbo naročila, ki so diskriminatorni, ker dajejo prednost na nacionalni, regionalni ali lokalni podlagi</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Användning av tekniska specifikationer, selekteringskriterium, tilldelningskriterium eller villkor för fullgörande av kontraktet som är diskriminerande på grund av omotiverade nationella, regionala eller lokala preferenser</SimpleValue>
+            <SimpleValue>Krav, tilldelningskriterium eller villkor för fullgörande av kontraktet som är diskriminerande på grund av oproportionerliga nationella, regionala eller lokala preferenser</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -2757,7 +2757,7 @@
             <SimpleValue>Uporaba tehničnih specifikacij, pogoja za sodelovanje, merila za oddajo naročila, merila za izključitev ali pogoja za izvedbo naročila, ki so diskriminatorni (tj. omejujejo dostop gospodarskim subjektom) iz razlogov, pri katerih ne gre za nacionalno, regionalno ali lokalno podlago</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Användning av tekniska specifikationer, selekteringskriterier, tilldelningskriterier eller villkor för fullgörande av kontraktet som är diskriminerande (dvs. begränsar tillträdet för ekonomiska aktörer) av andra skäl än omotiverade nationella, regionala eller lokala preferenser</SimpleValue>
+            <SimpleValue>Krav, tilldelningskriterium eller villkor för fullgörande av kontraktet som är diskriminerande på grund av andra skäl än oproportionerliga nationella, regionala eller lokala preferenser</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

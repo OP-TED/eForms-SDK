@@ -1,0 +1,54 @@
+name: Benchmark Schematron rules with the SDK Analyzer
+
+on:
+  push:
+  pull_request:
+  # Allows to also run this workflow manually from the Actions tab
+  workflow_dispatch:
+  # Run this workflow every Tuesday and Friday at 05:00
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 5 * * 2,5'
+
+
+jobs:
+  benchmark:
+    name: Run Schematron benchmark
+    runs-on: ubuntu-latest
+    permissions:
+      # Contents permission needed to create a commit comment
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+
+      - name: Run benchmark
+        run: mvn clean install -Pbenchmark --no-transfer-progress -s .github/workflows/settings.xml
+
+      # Download previous benchmark result from cache (if exists)
+      - name: Download previous benchmark data
+        uses: actions/cache@v4
+        with:
+          path: ./cache
+          key: ${{ runner.os }}-benchmark
+
+      - name: Process benchmark result
+        uses: benchmark-action/github-action-benchmark@v1
+        with:
+          name: JMH Benchmark
+          tool: 'jmh'
+          output-file-path: jmh-result.json
+          external-data-json-path: ./cache/benchmark-data.json
+          # Alert if new results are significantly worse than previous results
+          alert-threshold: "110%"
+          # Mark the workflow as failed if an alert happens
+          fail-on-alert: true
+          # Add a comment on the commit that caused the alert
+          comment-on-alert: true
+          # GitHub API token to make a commit comment
+          github-token: ${{ secrets.GITHUB_TOKEN }}

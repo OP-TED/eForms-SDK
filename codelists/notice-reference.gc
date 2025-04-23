@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>The reference to the notice is in the format "UUID-XX".</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Референцията към известието е във формат 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odkaz na oznámení je ve formátu 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Henvisningen til meddelelsen er i formatet 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Verweis auf die Mitteilung hat das Format 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η αναφορά στην ειδοποίηση είναι στη μορφή 'UUID-XX'</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>The reference to the notice is in the format "UUID-XX".</SimpleValue>
+            <SimpleValue>The reference to the notice is in the format 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>La referencia al aviso está en el formato 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teate viide on formaadis 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoituksen viite on muodossa 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La référence à l'avis est au format 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá an tagairt don fógra i bhformáid 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Referenca na obavijest je u formatu 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az értesítésre vonatkozó hivatkozás a 'UUID-XX' formátumban van</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il riferimento all'avviso è nel formato 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pranešimo nuoroda yra formatu 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojuma atsauce ir formātā 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ir-referenza għan-notifika hija fil-format 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De verwijzing naar de kennisgeving is in het formaat 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odniesienie do powiadomienia jest w formacie 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A referência ao aviso está no formato 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Referința la notificare este în formatul 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Odkaz na oznámenie je vo formáte 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Napotitev na obvestilo je v formatu 'UUID-XX'</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Referensen till meddelandet är i formatet 'UUID-XX'</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>The reference to the notice is in the format "XXXXXXXXXX-YYYY".</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Референцията към известието е във формат 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Odkaz na oznámení je ve formátu 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Henvisningen til meddelelsen er i formatet 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Verweis auf die Mitteilung hat das Format 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Η αναφορά στην ειδοποίηση είναι στη μορφή 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>The reference to the notice is in the format "XXXXXXXXXX-YYYY".</SimpleValue>
+            <SimpleValue>The reference to the notice is in the format 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>La referencia al aviso está en el formato 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Teate viide on formaadis 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ilmoituksen viite on muodossa 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>La référence à l'avis est au format 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Tá an tagairt don fógra i bhformáid 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Referenca na obavijest je u formatu 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az értesítésre vonatkozó hivatkozás a 'XXXXXXXXXX-YYYY' formátumban van</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il riferimento all'avviso è nel formato 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pranešimo nuoroda yra formatu 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Paziņojuma atsauce ir formātā 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ir-referenza għan-notifika hija fil-format 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De verwijzing naar de kennisgeving is in het formaat 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Odniesienie do powiadomienia jest w formacie 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>A referência ao aviso está no formato 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Referința la notificare este în formatul 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Odkaz na oznámenie je vo formáte 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Napotitev na obvestilo je v formatu 'XXXXXXXXXX-YYYY'</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Referensen till meddelandet är i formatet 'XXXXXXXXXX-YYYY'</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

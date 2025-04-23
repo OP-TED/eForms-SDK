@@ -6,7 +6,7 @@
       <LongName>procedure-type-17</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/procurement-procedure-type</LongName>
       <LongName Identifier="eFormsParentId">procurement-procedure-type</LongName>
-      <Version>1.8.104</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -363,86 +363,6 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>neg-wo-call</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Negotiated without prior call for competition</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Договаряне без предварително обявление</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Jednací řízení bez uveřejnění</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Udbud med forhandling uden forudgående offentliggørelse</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Verhandlungsverfahren ohne Aufruf zum Wettbewerb</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Με διαπραγμάτευση χωρίς προηγούμενη δημοσίευση προκήρυξης διαγωνισμού</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Negotiated without prior call for competition</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Negociado sin convocatoria de licitación previa</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Väljakuulutamiseta läbirääkimistega hankemenetlus</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Négociée sans mise en concurrence préalable</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Idirbheartaíocht lena mbaineann glao roimh ré ar iomaíocht</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Pregovarački bez prethodnog poziva na nadmetanje</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Felhívás nélküli tárgyalásos eljárás</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Negoziata senza previa indizione di gara</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Derybos be išankstinio skelbimo apie pirkimą</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Onderhandelingsprocedure zonder voorafgaande oproep tot mededinging</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Por negociação sem abertura prévia de concurso</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Negociată fără publicarea unei proceduri concurențiale de ofertare</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Rokovacie konanie bez zverejnenia výzvy na súťaž</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>S pogajanji, brez predhodnega javnega razpisa</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Förhandlat förfarande utan föregående meddelande om upphandling</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>open</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -455,7 +375,7 @@
             <SimpleValue>Otevřené</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Åben</SimpleValue>
+            <SimpleValue>Offentligt udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Offenes Verfahren</SimpleValue>

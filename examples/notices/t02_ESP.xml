@@ -27,6 +27,10 @@
 								<cbc:PayableAmount currencyID="EUR">9693759000.00</cbc:PayableAmount>
 							</cac:LegalMonetaryTotal>
 							<efac:ContractTerm>
+								<efbc:TermCode listName="contract-detail">all-rev-tic</efbc:TermCode>
+								<efbc:TermPercent>50</efbc:TermPercent>
+							</efac:ContractTerm>
+							<efac:ContractTerm>
 								<efbc:TermCode listName="contract-detail">cost-comp</efbc:TermCode>
 								<efbc:TermDescription languageID="SPA">Description of the costs parameters blablabla ...</efbc:TermDescription>
 							</efac:ContractTerm>
@@ -258,11 +262,12 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingProcess>
-		<cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+		<cbc:ProcedureCode listName="procurement-procedure-type">comp-tend</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>77635</cbc:ID>
+		<cbc:ID schemeName="InternalID">77635</cbc:ID>
 		<cbc:Name languageID="SPA">Public transport services by railways</cbc:Name>
+		<cbc:Description languageID="SPA">Description of public transport services by railways</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 		<cbc:Note languageID="SPA">Any additional information blabla ...</cbc:Note>
 		<cac:ProcurementAdditionalType>

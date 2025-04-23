@@ -46,13 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Lista med koder för att specificera om det är tillåtet att lämna anbud i form av elektroniska kataloger</entry>
 <entry key="codelist|name|economic-operator-size">Den här tabellen innehåller kategorier för att klassificera anbudsgivare som kan tilldelas kontraktet, enligt deras storlek (med hjälp av kriteriet antal anställda).</entry>
 <entry key="codelist|name|eea-country">Lista med koder för länderna i Europeiska ekonomiska samarbetsområdet (EES)</entry>
-<entry key="codelist|name|eforms-buyer-legal-type">Lista med koder för köparens rättsliga status som är tillåtna i eforms</entry>
-<entry key="codelist|name|eforms-contract-nature">Lista med koder som är tillåtna i eforms för att specificera det huvudsakliga upphandlingsslaget och ytterligare upphandlingsslag för ett inköp</entry>
-<entry key="codelist|name|eforms-country">Lista med landskoder som är tillåtna i eforms</entry>
-<entry key="codelist|name|eforms-currency">Lista med valutakoder som är tillåtna i eforms</entry>
-<entry key="codelist|name|eforms-language">Lista med språkkoder som är tillåtna i eforms</entry>
-<entry key="codelist|name|eforms-legal-basis">Lista med koder för rättslig grund som är tillåtna i eforms</entry>
+<entry key="codelist|name|eed-scope">Denna tabell ger en lista över koder och värden som används för att ange att en upphandling omfattas av direktivet om energieffektivitet</entry>
 <entry key="codelist|name|einvoicing">Lista med koder för att specificera om det är tillåtet med elektronisk fakturering</entry>
+<entry key="codelist|name|energy-efficiency-basis">Rättslig ram för objekten, som Energimärkningsdelegerade handlingar, genomförandeåtgärder (direktiv 2009/125/EG), eller förordning 2020/740; produkter och tjänster som omfattas av GPP; verk, tjänster eller byggnader</entry>
+<entry key="codelist|name|energy-efficiency-item">Produkter som omfattas av Energimärkningsdelegerade handlingar, genomförandeåtgärder (direktiv 2009/125/EG), eller förordning 2020/740; produkter och tjänster som omfattas av GPP; verk, tjänster eller byggnader</entry>
+<entry key="codelist|name|energy-efficiency-label">Detta bord ger listan över koder och värden som används för att specificera produktens energieffektivitet</entry>
 <entry key="codelist|name|entity-activity">Lista med koder för huvudsaklig verksamhet som är tillåtna för en upphandlande myndighet</entry>
 <entry key="codelist|name|environmental-impact">Den här tabellen innehåller information om upphandlingen omfattar (och hur) en strategi för att minska inverkan på miljön av byggentreprenaden, varorna eller tjänsten i de tekniska specifikationerna, tilldelningskriterierna, urvalskriterierna eller villkor för genomförande av kontraktet.</entry>
 <entry key="codelist|name|esignature-submission">Lista med koder för att specificera om det är tillåtet med elektroniska underskrifter.</entry>
@@ -62,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Lista med koder för de officiella EU-språken</entry>
 <entry key="codelist|name|eu-programme">Lista med koder för program som inrättats och samordnas av EU och som får ekonomiskt stöd från EU eller i undantagsfall genom bidrag från EU-länderna.</entry>
 <entry key="codelist|name|exclusion-ground">Lista med koder för identifiering av uteslutningsgrunder</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR inför en ny uppsättning regler som gör det möjligt för kommissionen att hantera snedvridningar orsakade av utländska bidrag.</entry>
 <entry key="codelist|name|form-type">Den här tabellen innehåller koder och värden som används för typen av formulär som publiceras i TED.</entry>
 <entry key="codelist|name|framework-agreement">Den här tabellen innehåller listan med koder för att skilja mellan de olika typer av ramavtal som kan finnas inom en upphandling.</entry>
 <entry key="codelist|name|gpp-criteria">Kriterier för grön upphandling</entry>
 <entry key="codelist|name|indicator">Lista med indikatorvärden som är tillåtna i eforms</entry>
 <entry key="codelist|name|innovative-acquisition">Den här tabellen innehåller koder och värden som används för typen av innovativa byggentreprenader, varor eller tjänster som köps in genom offentlig upphandling.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Detta bord ger listan över koder och värden som används för att specificera undantaget från tillämpningen av IPI-åtgärden</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Detta bord ger listan över koder och värden som används för att specificera den tillämpade IPI-åtgärden</entry>
 <entry key="codelist|name|irregularity-type">Den här kodlistan gäller allmänt de typer av oriktigheter som beskrivs i avsnitt 2 i bilagan till kommissionens beslut C(2019) 3452.</entry>
 <entry key="codelist|name|language">Lista med språkkoder med tre bokstäver enligt den internationella standarden ISO 639 och med ytterligare koder för några länder utan ISO-kod.</entry>
 <entry key="codelist|name|lawful-country">Lista med länder för vilka det finns en rättslig grund för offentliggörande i tillägget till Europeiska unionens officiella tidning</entry>
@@ -117,6 +118,7 @@
 <entry key="codelist|name|legal-basis-e3">Tillåtna värden för rättslig grund för meddelande av undertyp E3</entry>
 <entry key="codelist|name|legal-basis-e4">Tillåtna värden för rättslig grund för meddelande av undertyp E4</entry>
 <entry key="codelist|name|legal-basis-e5">Tillåtna värden för rättslig grund för meddelande av undertyp E5</entry>
+<entry key="codelist|name|legal-basis-e6">Tillåtna värden för rättslig grund för meddelande av undertyp E6</entry>
 <entry key="codelist|name|legal-basis-t01">Tillåtna värden för rättslig grund för meddelande av undertyp T01</entry>
 <entry key="codelist|name|legal-basis-t02">Tillåtna värden för rättslig grund för meddelande av undertyp T02</entry>
 <entry key="codelist|name|legal-basis-x01">Tillåtna värden för rättslig grund för meddelande av undertyp X01</entry>
@@ -194,6 +196,7 @@
 <entry key="codelist|name|procedure-type-12">Tillåtna förfarandetyper för meddelande av undertyp 12</entry>
 <entry key="codelist|name|procedure-type-13">Tillåtna förfarandetyper för meddelande av undertyp 13</entry>
 <entry key="codelist|name|procedure-type-14">Tillåtna förfarandetyper för meddelande av undertyp 14</entry>
+<entry key="codelist|name|procedure-type-15">Tillåtna förfarandetyper för meddelande av undertyp 15</entry>
 <entry key="codelist|name|procedure-type-16">Tillåtna förfarandetyper för meddelande av undertyp 16</entry>
 <entry key="codelist|name|procedure-type-17">Tillåtna förfarandetyper för meddelande av undertyp 17</entry>
 <entry key="codelist|name|procedure-type-18">Tillåtna förfarandetyper för meddelande av undertyp 18</entry>
@@ -219,7 +222,6 @@
 <entry key="codelist|name|procedure-type-7">Tillåtna förfarandetyper för meddelande av undertyp 7</entry>
 <entry key="codelist|name|procedure-type-8">Tillåtna förfarandetyper för meddelande av undertyp 8</entry>
 <entry key="codelist|name|procedure-type-9">Tillåtna förfarandetyper för meddelande av undertyp 9</entry>
-<entry key="codelist|name|procedure-type-cei">Tillåtna förfarandetyper för meddelande av undertyp CEI</entry>
 <entry key="codelist|name|procedure-type-e1">Tillåtna förfarandetyper för meddelande av undertyp E1</entry>
 <entry key="codelist|name|procedure-type-e2">Tillåtna förfarandetyper för meddelande av undertyp E2</entry>
 <entry key="codelist|name|procedure-type-e3">Tillåtna förfarandetyper för meddelande av undertyp E3</entry>
@@ -238,8 +240,8 @@
 <entry key="codelist|name|result">Lista med koder för tillåtna meddelandetyper för typen ”formulär för resultat”</entry>
 <entry key="codelist|name|review-body-type">Den här tabellen täcker listan med organisationer som utför prövningen av ett visst förfarande.</entry>
 <entry key="codelist|name|review-decision-type">Den här tabellen beskriver beslutet som ett prövningsorgan fattat.</entry>
+<entry key="codelist|name|review-information-type">Lista med koder för statusen på en viss prövningsansökan.</entry>
 <entry key="codelist|name|review-requester-type">Kategori av intressenter som ansökt om en prövning</entry>
-<entry key="codelist|name|review-status">Lista med koder för statusen på en viss prövningsansökan.</entry>
 <entry key="codelist|name|review-type">Lista med koder för identifiering av typen av prövningssökande.</entry>
 <entry key="codelist|name|rewards-penalties">Lista med koder för priser och sanktioner som är associerade med en kollektivtrafiktjänst.</entry>
 <entry key="codelist|name|selection-criterion">Lista med koder som uttrycker villkor som beaktas för utvärderingsändamål. Denna kodlista är en delmängd av ESPD-kodlistan CriterionTaxonomy.</entry>

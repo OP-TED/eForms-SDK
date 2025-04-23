@@ -46,13 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Liste over koder, der angiver, om indsendelse af elektroniske kataloger er tilladt eller ej.</entry>
 <entry key="codelist|name|economic-operator-size">Denne tabel viser de forskellige kategorier, hvori de tilbudsgivere, der kan få tildelt en kontrakt, klassificeres efter deres størrelse (baseret på antallet af ansatte).</entry>
 <entry key="codelist|name|eea-country">Liste over koder for landene i Det Europæiske Økonomiske Samarbejdsområde</entry>
-<entry key="codelist|name|eforms-buyer-legal-type">Liste over tilladte koder for juridisk type for købere, der er tilladt i maskinlæsbare formularer</entry>
-<entry key="codelist|name|eforms-contract-nature">Liste over koder, der er tilladt i maskinlæsbare formularer til at angive de vigtigste og supplerende kendetegn ved et indkøb</entry>
-<entry key="codelist|name|eforms-country">Liste over landekoder, der er tilladt i maskinlæsbare formularer</entry>
-<entry key="codelist|name|eforms-currency">Liste over valutakoder, der er tilladt i maskinlæsbare formularer</entry>
-<entry key="codelist|name|eforms-language">Liste over sprogkoder, der er tilladt i maskinlæsbare formularer</entry>
-<entry key="codelist|name|eforms-legal-basis">Liste over retsgrundlag, der er tilladt i maskinlæsbare formularer</entry>
+<entry key="codelist|name|eed-scope">Denne tabel giver listen over koder og værdier, der anvendes til at angive, at et udbud falder ind under energibesparelsesdirektivet</entry>
 <entry key="codelist|name|einvoicing">Liste over koder, der angiver, om brug af elektronisk fakturering er tilladt eller ej.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Juridisk ramme for elementer, som energimærkningsdelegerede handlinger, gennemførelsesforanstaltninger (direktiv 2009/125/EF) eller forordning 2020/740; produkter og tjenester dækket af GPP; arbejder, tjenester eller bygninger</entry>
+<entry key="codelist|name|energy-efficiency-item">Produkter dækket af energimærkningsdelegerede handlinger, gennemførelsesforanstaltninger (direktiv 2009/125/EF) eller forordning 2020/740; produkter og tjenester dækket af GPP; arbejder, tjenester eller bygninger</entry>
+<entry key="codelist|name|energy-efficiency-label">Denne tabel giver en liste over koder og værdier, der bruges til at specificere produktets energieffektivitet</entry>
 <entry key="codelist|name|entity-activity">Liste over primære aktivitetskoder, der er tilladt for en ordregiver</entry>
 <entry key="codelist|name|environmental-impact">Denne tabel indeholder oplysninger om, hvorvidt et udbud omfatter (og hvordan) en tilgang til reduktion af miljøvirkningerne af det arbejde, den forsyning eller den tjenesteydelse, der anvendes i de tekniske specifikationer, tildelingskriterierne, udvælgelseskriterierne eller den udførte kontrakt</entry>
 <entry key="codelist|name|esignature-submission">Liste over koder, der angiver, om der kan anvendes elektronisk signatur eller ej.</entry>
@@ -62,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Liste over koder for de officielle EU-sprog</entry>
 <entry key="codelist|name|eu-programme">Liste over koder for programmer, der er oprettet og koordineres af Den Europæiske Union og støttes finansielt af Den Europæiske Union eller i enkelte tilfælde af bidrag fra medlemsstaterne.</entry>
 <entry key="codelist|name|exclusion-ground">Liste over koder for identifikation af udelukkelsesgrunde</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR introducerer et nyt sæt regler, der gør det muligt for Kommissionen at håndtere forvridninger forårsaget af udenlandske subsidier.</entry>
 <entry key="codelist|name|form-type">Denne tabel viser de koder og værdier, der er anvendt for den type formularer, der er offentliggjort i TED.</entry>
 <entry key="codelist|name|framework-agreement">Denne tabel indeholder en liste over koder, der gør det muligt at skelne mellem de forskellige typer rammeaftaler, der indgår i et udbud.</entry>
 <entry key="codelist|name|gpp-criteria">Kriterier for grønne offentlige udbud</entry>
 <entry key="codelist|name|indicator">Liste over tilladte indikatorværdier for maskinlæsbare formularer</entry>
 <entry key="codelist|name|innovative-acquisition">Denne tabel viser de koder og værdier, der anvendes for den type af innovative arbejder, forsyninger eller tjenesteydelser, der indkøbes i forbindelse med offentlige udbud.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Denne tabel giver en liste over koder og værdier, der bruges til at specificere undtagelsen til anvendelsen af IPI-målingen</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Denne tabel giver en liste over koder og værdier, der bruges til at specificere den anvendte IPI-måling</entry>
 <entry key="codelist|name|irregularity-type">Denne kodeliste henviser generelt til de typer uregelmæssigheder, der er beskrevet i afsnit 2 i bilaget til Kommissionens afgørelse C (2019) 3452.</entry>
 <entry key="codelist|name|language">Liste over sprogkoder på tre tegn der er forbundet med den internationale ISO 639-standard med yderligere koder for nogle sprog uden tildelt ISO-kode.</entry>
 <entry key="codelist|name|lawful-country">Liste over lande, for hvilke der er retsgrundlag for offentliggørelse i tillægget til Den Europæiske Unions Tidende</entry>
@@ -117,6 +118,7 @@
 <entry key="codelist|name|legal-basis-e3">Tilladte værdier for retsgrundlag for bekendtgørelsesundertype E3</entry>
 <entry key="codelist|name|legal-basis-e4">Tilladte værdier for retsgrundlag for bekendtgørelsesundertype E4</entry>
 <entry key="codelist|name|legal-basis-e5">Tilladte værdier for retsgrundlag for bekendtgørelsesundertype E5</entry>
+<entry key="codelist|name|legal-basis-e6">Tilladte værdier for retsgrundlag for bekendtgørelsesundertype E6</entry>
 <entry key="codelist|name|legal-basis-t01">Tilladte værdier for retsgrundlag for bekendtgørelsesundertype T01</entry>
 <entry key="codelist|name|legal-basis-t02">Tilladte værdier for retsgrundlag for bekendtgørelsesundertype T02</entry>
 <entry key="codelist|name|legal-basis-x01">Tilladte værdier for retsgrundlag for bekendtgørelsesundertype X01</entry>
@@ -194,6 +196,7 @@
 <entry key="codelist|name|procedure-type-12">Tilladt proceduretype for bekendtgørelsesundertype 12</entry>
 <entry key="codelist|name|procedure-type-13">Tilladt proceduretype for bekendtgørelsesundertype 13</entry>
 <entry key="codelist|name|procedure-type-14">Tilladt proceduretype for bekendtgørelsesundertype 14</entry>
+<entry key="codelist|name|procedure-type-15">Tilladt proceduretype for bekendtgørelsesundertype 15</entry>
 <entry key="codelist|name|procedure-type-16">Tilladt proceduretype for bekendtgørelsesundertype 16</entry>
 <entry key="codelist|name|procedure-type-17">Tilladt proceduretype for bekendtgørelsesundertype 17</entry>
 <entry key="codelist|name|procedure-type-18">Tilladt proceduretype for bekendtgørelsesundertype 18</entry>
@@ -219,7 +222,6 @@
 <entry key="codelist|name|procedure-type-7">Tilladt proceduretype for bekendtgørelsesundertype 7</entry>
 <entry key="codelist|name|procedure-type-8">Tilladt proceduretype for bekendtgørelsesundertype 8</entry>
 <entry key="codelist|name|procedure-type-9">Tilladt proceduretype for bekendtgørelsesundertype 9</entry>
-<entry key="codelist|name|procedure-type-cei">Tilladt proceduretype for bekendtgørelsesundertype CEI</entry>
 <entry key="codelist|name|procedure-type-e1">Tilladt proceduretype for bekendtgørelsesundertype E1</entry>
 <entry key="codelist|name|procedure-type-e2">Tilladt proceduretype for bekendtgørelsesundertype E2</entry>
 <entry key="codelist|name|procedure-type-e3">Tilladt proceduretype for bekendtgørelsesundertype E3</entry>
@@ -238,8 +240,8 @@
 <entry key="codelist|name|result">Liste over tilladte bekendtgørelsestypekoder for en resultatformulartype</entry>
 <entry key="codelist|name|review-body-type">Denne tabel dækker listen over organisationer, der gennemgår en given procedure.</entry>
 <entry key="codelist|name|review-decision-type">Denne tabel beskriver den afgørelse, der er truffet af et gennemgangsorgan.</entry>
+<entry key="codelist|name|review-information-type">Liste over koder for status for en given anmodning om gennemgang.</entry>
 <entry key="codelist|name|review-requester-type">Kategori af interessenter, der har anmodet om en gennemgang</entry>
-<entry key="codelist|name|review-status">Liste over koder for status for en given anmodning om gennemgang.</entry>
 <entry key="codelist|name|review-type">Liste over koder til identifikation af typen af anmoder om gennemgang</entry>
 <entry key="codelist|name|rewards-penalties">Liste over koder for belønninger og sanktioner i forbindelse med en offentlig transporttjeneste.</entry>
 <entry key="codelist|name|selection-criterion">Liste over koder for udtrykkelige betingelser, der er relevante for vurderingen. Denne kodeliste er en undergruppe af ESPD-kodelisten Critieria Taxonomy.</entry>

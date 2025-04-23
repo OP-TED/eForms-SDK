@@ -6,7 +6,7 @@
       <LongName>duration-unit</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/timeperiod</LongName>
       <LongName Identifier="eFormsParentId">timeperiod</LongName>
-      <Version>1.8.104</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -310,7 +310,7 @@
             <SimpleValue>Semana</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Nädalal</SimpleValue>
+            <SimpleValue>Nädal</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
             <SimpleValue>Viikko</SimpleValue>
@@ -411,7 +411,7 @@
             <SimpleValue>Anno</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Metai</SimpleValue>
+            <SimpleValue>Metas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Gads</SimpleValue>

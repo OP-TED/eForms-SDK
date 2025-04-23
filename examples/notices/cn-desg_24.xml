@@ -117,7 +117,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>321 654 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+33 383342565</cbc:Telephone>
@@ -189,11 +189,18 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>xyz</cbc:ID>
+		<cbc:ID schemeName="InternalID">xyz</cbc:ID>
 		<cbc:Name languageID="FRA">Concours restreint de maîtrise d'œuvre en vue de la construction d'un accueil périscolaire à Burnhaupt-le-Bas</cbc:Name>
 		<cbc:Description languageID="FRA">Concours restreint de maîtrise d'œuvre en vue de la construction d'un nouvel accueil périscolaire à Burnhaupt-Le-Bas (68520). — Le présent marché a pour objet de confier au maître d'œuvre une mission de base, constituée des éléments suivants: — les études d'Esquisse (ESQ); — les études d'Avant-projet (AVP): Avant-projet sommaire (APS), Avant-projet définitif (APD); — les études de Projet (PRO-DCE); — l'Assistance à la passation des contrats de travaux (ACT); — la Direction de l'exécution des contrats de travaux (DET); — l'assistance lors des opérations de réception et pendant la période de garantie de parfait achèvement (AOR). La mission comprend également les missions complémentaires suivantes: — les études d'exécution (EXE); — Ordonnancement, pilotage et coordination (OPC). Le contenu de chaque élément de mission est celui qui figure à l'annexe I de l'arrêté du 22.3.2019 détaillant les modalités techniques d'exécution des éléments de mission de maîtrise d'œuvre; — la mission de coordination en matière de Système sécurité incendie (SSI), telle que définie par les textes réglementaires et normes en vigueur, est intégrée dans la mission du maître d'œuvre (mission de base).</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
@@ -204,36 +211,18 @@
 		<cac:AdditionalCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
 		</cac:AdditionalCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">FRF12</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
 		<cac:TenderingTerms>
-			<ext:UBLExtensions>
-				<ext:UBLExtension>
-					<ext:ExtensionContent>
-						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">La participation est réservée à la profession d'architecte.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Cf. règlement de consultation.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:Description languageID="FRA">Cf. règlement de consultation.</cbc:Description>
-								<cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
-								<efbc:SecondStageIndicator>false</efbc:SecondStageIndicator>
-							</efac:SelectionCriteria>
-						</efext:EformsExtension>
-					</ext:ExtensionContent>
-				</ext:UBLExtension>
-			</ext:UBLExtensions>
 			<cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
 			<cac:CallForTendersDocumentReference>
 				<cbc:ID>DocID1</cbc:ID>
@@ -244,6 +233,11 @@
 					</cac:ExternalReference>
 				</cac:Attachment>
 			</cac:CallForTendersDocumentReference>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
+			</cac:TendererQualificationRequest>
 			<cac:AwardingTerms>
 				<cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
 				<cbc:BindingOnBuyerIndicator>true</cbc:BindingOnBuyerIndicator>
@@ -333,7 +327,7 @@
 			</cac:ParticipationRequestReceptionPeriod>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>dbl</cbc:ID>
+			<cbc:ID schemeName="InternalID">dbl</cbc:ID>
 			<cbc:Name languageID="FRA">Concours restreint de maîtrise d'œuvre en vue de la construction d'un accueil périscolaire à Burnhaupt-le-Bas</cbc:Name>
 			<cbc:Description languageID="FRA">Concours restreint de maîtrise d'œuvre en vue de la construction d'un nouvel accueil périscolaire à Burnhaupt-Le-Bas (68520). — Le présent marché a pour objet de confier au maître d'œuvre une mission de base, constituée des éléments suivants: — les études d'Esquisse (ESQ); — les études d'Avant-projet (AVP): Avant-projet sommaire (APS), Avant-projet définitif (APD); — les études de Projet (PRO-DCE); — l'Assistance à la passation des contrats de travaux (ACT); — la Direction de l'exécution des contrats de travaux (DET); — l'assistance lors des opérations de réception et pendant la période de garantie de parfait achèvement (AOR). La mission comprend également les missions complémentaires suivantes: — les études d'exécution (EXE); — Ordonnancement, pilotage et coordination (OPC). Le contenu de chaque élément de mission est celui qui figure à l'annexe I de l'arrêté du 22.3.2019 détaillant les modalités techniques d'exécution des éléments de mission de maîtrise d'œuvre; — la mission de coordination en matière de Système sécurité incendie (SSI), telle que définie par les textes réglementaires et normes en vigueur, est intégrée dans la mission du maître d'œuvre (mission de base).</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>

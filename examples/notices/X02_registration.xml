@@ -36,11 +36,11 @@
 			<cbc:AdditionalStreetName>Building C</cbc:AdditionalStreetName>
 			<!-- Postal Address (to be continued) -->
 			<!-- Town -->
-			<cbc:CityName>South Tilport</cbc:CityName>
+			<cbc:CityName>South Town</cbc:CityName>
 			<!-- Postal Code -->
 			<cbc:PostalZone>STI543M</cbc:PostalZone>
 			<!-- NUTS code (if applicable) -->
-			<cbc:CountrySubentityCode listName="nuts3">UKC11</cbc:CountrySubentityCode>
+			<cbc:CountrySubentityCode listName="nuts3">IE052</cbc:CountrySubentityCode>
 			<!-- Country -->
 			<!-- Postal Address (continuation) -->
 			<cac:AddressLine>
@@ -48,7 +48,7 @@
 			</cac:AddressLine>
 			<!-- Postal Address (end) -->
 			<cac:Country>
-				<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+				<cbc:IdentificationCode listName="country">IRL</cbc:IdentificationCode>
 			</cac:Country>
 		</cac:PostalAddress>
 		<cac:PartyLegalEntity>
@@ -95,19 +95,14 @@
 			</cac:ExternalReference>
 		</cac:Attachment>
 	</cac:AdditionalDocumentReference>
-	<!-- 
-		Sector of activity
-		==================
-		Codelst to be established, see for Main Activity if extended
-	-->
 	<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">education</cbc:CapabilityTypeCode>
+		<cbc:CapabilityTypeCode listName="main-activity">education</cbc:CapabilityTypeCode>
 	</cac:BusinessCapability>
 	<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">health</cbc:CapabilityTypeCode>
+		<cbc:CapabilityTypeCode listName="main-activity">health</cbc:CapabilityTypeCode>
 	</cac:BusinessCapability>
 	<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">soc-pro</cbc:CapabilityTypeCode>
+		<cbc:CapabilityTypeCode listName="main-activity">soc-pro</cbc:CapabilityTypeCode>
 	</cac:BusinessCapability>
 	<efac:NoticePurpose>
 		<cbc:PurposeCode listName="notice-purpose">reg</cbc:PurposeCode>

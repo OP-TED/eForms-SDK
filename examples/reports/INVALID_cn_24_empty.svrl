@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl" title="eForms schematron rules">
+<svrl:schematron-output xmlns:svrl="http://purl.oclc.org/dsdl/svrl"
+                        phase="eforms-16"
+                        title="eForms schematron rules">
    <svrl:ns-prefix-in-attribute-values prefix="xs" uri="http://www.w3.org/2001/XMLSchema"/>
    <svrl:ns-prefix-in-attribute-values prefix="sch" uri="http://purl.oclc.org/dsdl/schematron"/>
    <svrl:ns-prefix-in-attribute-values prefix="cbc"
@@ -25,14 +27,13 @@
    <svrl:failed-assert id="P-0002"
                        location="/cn:ContractNotice"
                        role="ERROR"
-                       test="(/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = ('1', '2', '3', 'X01', 'X02') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('1', '2', '3', 'X01', 'X02')) and count(cac:ProcurementProjectLot) &gt; 0)">
+                       test="($noticeSubType = ('1', '2', '3', 'X01', 'X02') and count(cac:ProcurementProjectLot) = 0) or (not(cbc:NoticeTypeCode/text() = ('1', '2', '3', 'X01', 'X02')) and count(cac:ProcurementProjectLot) &gt; 0)">
       <svrl:text>
 			rule|text|P-0002
 		</svrl:text>
    </svrl:failed-assert>
-   <svrl:fired-rule context="//cbc:NoticeTypeCode"/>
-   <svrl:active-pattern id="EFORMS-validation-stage-1b"/>
-   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-1b-16"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '16']"/>
    <svrl:failed-assert id="ND-ProcedureTenderingProcess-16"
                        location="/cn:ContractNotice"
                        role="ERROR"
@@ -52,7 +53,8 @@
          <svrl:text>cac:TenderingTerms</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:failed-assert id="ND-Organizations-16"
                        location="/cn:ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"
                        role="ERROR"
@@ -62,8 +64,8 @@
          <svrl:text>efac:Organizations</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-validation-stage-2a"/>
-   <svrl:fired-rule context="/*[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-2a-16"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '16']"/>
    <svrl:failed-assert id="BR-BT-00005-0022"
                        location="/cn:ContractNotice"
                        role="ERROR"
@@ -127,17 +129,7 @@
          <svrl:text>cbc:CustomizationID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:failed-assert id="BR-OPT-00300-0122"
-                       location="/cn:ContractNotice"
-                       role="ERROR"
-                       test="count(cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID) &gt; 0">
-      <svrl:text>rule|text|BR-OPT-00300-0122</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-Root_OPT-300-Procedure-Buyer"
-                                 see="field:OPT-300-Procedure-Buyer">
-         <svrl:text>cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ContractingParty[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '16']"/>
    <svrl:failed-assert id="BR-BT-00010-0022"
                        location="/cn:ContractNotice/cac:ContractingParty"
                        role="ERROR"
@@ -156,7 +148,18 @@
          <svrl:text>cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/cac:ProcurementProject[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party[$noticeSubType = '16']"/>
+   <svrl:failed-assert id="BR-OPT-00300-0122"
+                       location="/cn:ContractNotice/cac:ContractingParty/cac:Party"
+                       role="ERROR"
+                       test="count(cac:PartyIdentification/cbc:ID) &gt; 0">
+      <svrl:text>rule|text|BR-OPT-00300-0122</svrl:text>
+      <svrl:diagnostic-reference diagnostic="OPT-300-Procedure-Buyer"
+                                 see="field:OPT-300-Procedure-Buyer">
+         <svrl:text>cac:PartyIdentification/cbc:ID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:failed-assert id="BR-BT-00021-0022"
                        location="/cn:ContractNotice/cac:ProcurementProject"
                        role="ERROR"
@@ -194,7 +197,7 @@
          <svrl:text>cac:MainCommodityClassification/cbc:ItemClassificationCode</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-2b"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
@@ -230,10 +233,6 @@
 		</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-3b"/>
-   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
-   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:fired-rule context="/*/cbc:ContractFolderID"/>
    <svrl:failed-assert id="BR-BT-00004-0052"
                        location="/cn:ContractNotice/cbc:ContractFolderID"
@@ -241,12 +240,37 @@
                        test="matches(normalize-space(.),'^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$')">
       <svrl:text>rule|text|BR-BT-00004-0052</svrl:text>
    </svrl:failed-assert>
-   <svrl:active-pattern id="EFORMS-validation-stage-4"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode/text() = '16']"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode"/>
+   <svrl:fired-rule context="/*/cbc:NoticeTypeCode/@listName"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
+   <svrl:failed-assert id="OPP-070-notice-List_MA"
+                       location="/cn:ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"
+                       role="ERROR"
+                       test="count(@listName) &gt; 0">
+      <svrl:text>rule|text|OPP-070-notice-List_MA</svrl:text>
+   </svrl:failed-assert>
+   <svrl:active-pattern id="EFORMS-validation-stage-3b-16"/>
+   <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '16']"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4-16"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-4m"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5"/>
    <svrl:fired-rule context="/*"/>
    <svrl:fired-rule context="/*/cac:ContractingParty"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject"/>
+   <svrl:failed-assert id="BR-BT-00727-0228"
+                       location="/cn:ContractNotice/cac:ProcurementProject"
+                       role="ERROR"
+                       test="((cac:RealizedLocation/cac:Address/cac:Country/cbc:IdentificationCode) or (cac:RealizedLocation/cac:Address/cbc:Region)) or not(../cbc:NoticeTypeCode/normalize-space(text()) = ('can-desg','can-social','can-standard','cn-desg','cn-social','cn-standard','compl','corr','pin-buyer','pin-cfc-social','pin-cfc-standard','pin-only','pin-rtl','pmc','qu-sy','subco','veat'))">
+      <svrl:text>rule|text|BR-BT-00727-0228</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-ProcedureProcurementScope_BT-727-Procedure"
+                                 see="field:BT-727-Procedure">
+         <svrl:text>cac:RealizedLocation/cac:Address/cbc:Region</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
+   <svrl:active-pattern id="EFORMS-validation-stage-5m"/>
 </svrl:schematron-output>

@@ -64,20 +64,6 @@
 			</cac:ExternalReference>
 		</cac:Attachment>
 	</cac:AdditionalDocumentReference>
-	<!-- 
-		Sector of activity
-		==================
-		Codelst to be established, see for Main Activity if extended
-	-->
-	<!--<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">abc</cbc:CapabilityTypeCode>
-	</cac:BusinessCapability>
-	<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">hdj</cbc:CapabilityTypeCode>
-	</cac:BusinessCapability>
-	<cac:BusinessCapability>
-		<cbc:CapabilityTypeCode listName="sector">oid</cbc:CapabilityTypeCode>
-	</cac:BusinessCapability>-->
 	<efac:NoticePurpose>
 		<cbc:PurposeCode listName="notice-purpose">for</cbc:PurposeCode>
 	</efac:NoticePurpose>

@@ -72,7 +72,6 @@
 									<cbc:StreetName>1 Eversholt Street</cbc:StreetName>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>NW1 2DN</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -99,7 +98,6 @@
 								<cac:PostalAddress>
 									<cbc:CityName>London</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -127,7 +125,6 @@
 									<cbc:StreetName>Some Street</cbc:StreetName>
 									<cbc:CityName>Example City</cbc:CityName>
 									<cbc:PostalZone>ABC123</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKI42</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -160,7 +157,7 @@
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>111 222 333</cbc:CompanyID>
+									<cbc:CompanyID>222 333 444</cbc:CompanyID>
 								</cac:PartyLegalEntity>
 								<cac:Contact>
 									<cbc:Telephone>+352 123456789</cbc:Telephone>
@@ -250,7 +247,7 @@
 		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>n/a</cbc:ID>
+		<cbc:ID schemeName="InternalID">n/a</cbc:ID>
 		<cbc:Name languageID="ENG">5,640,000</cbc:Name>
 		<cbc:Description languageID="ENG">This is a voluntary ex ante transparency (VEAT) notice. This notice is to indicate that Network Rail intends to contract with Elektrotechnische werke fritz Driescher and söhne gmbh, Morris Line Engineering and SDCEM, for the purchase of 25 kV AC disconnector motor mechanisms and remote securing modules to be retrofitted onto existing devices on the UK railway network.</cbc:Description>
 		<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
@@ -292,13 +289,21 @@
 			<cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="ENG">5,640,000</cbc:Name>
 			<cbc:Description languageID="ENG">This is a voluntary ex ante transparency (VEAT) notice. This notice is to indicate that Network Rail intends to contract with Elektrotechnische werke fritz Driescher and söhne gmbh, Morris Line Engineering and SDCEM, for the purchase of 25 kV AC disconnector motor mechanisms and remote securing modules to be retrofitted onto existing devices on the UK railway network.</cbc:Description>	
 			<cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">31214000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:RealizedLocation>
+				<cbc:Description languageID="ENG">UK Railway infrastructure as maintained by Network Rail.</cbc:Description>
+				<cac:Address>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:Address>
+			</cac:RealizedLocation>
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>

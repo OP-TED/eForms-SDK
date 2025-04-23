@@ -23,7 +23,6 @@
 									<cbc:StreetName>Land Equipment, Special Projects SCM (SPSCM)</cbc:StreetName>
 									<cbc:CityName>Bristol</cbc:CityName>
 									<cbc:PostalZone>G33 6FB</cbc:PostalZone>
-									<cbc:CountrySubentityCode listName="nuts">UKM82</cbc:CountrySubentityCode>
 									<cac:Country>
 										<cbc:IdentificationCode listName="country">GBR</cbc:IdentificationCode>
 									</cac:Country>
@@ -99,11 +98,21 @@
 			</cac:ServiceProviderParty>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:TendererQualificationRequest>
+			<cac:SpecificTendererRequirement>
+				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+			</cac:SpecificTendererRequirement>
+		</cac:TendererQualificationRequest>
+	</cac:TenderingTerms>
 	<cac:TenderingProcess>
 		<cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+		<cac:ProcessJustification>
+			<cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+		</cac:ProcessJustification>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>
-		<cbc:ID>700029324</cbc:ID>
+		<cbc:ID schemeName="InternalID">700029324</cbc:ID>
 		<cbc:Name languageID="ENG">Procurement of Military Working Dogs</cbc:Name>
 		<cbc:Description languageID="ENG">Livestock. PQQ Access Code: NTV9J9643N
 		Dog training services — military working dogs delivery team are looking for interested parties to supply military working dogs with a requirement for canine protection and detection and also military working dogs to provide a specialist search capability.
@@ -138,18 +147,6 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
-							<efac:SelectionCriteria>
-								<cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
-								<cbc:CalculationExpressionCode listName="usage">n-used</cbc:CalculationExpressionCode>
-							</efac:SelectionCriteria>
 							<efac:TenderSubcontractingRequirements>
 								<efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">none</efbc:TenderSubcontractingRequirementsCode>
 							</efac:TenderSubcontractingRequirements>
@@ -171,6 +168,11 @@
 			</cac:TendererQualificationRequest>
 			<cac:TendererQualificationRequest>
 				<cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+			</cac:TendererQualificationRequest>
+			<cac:TendererQualificationRequest>
+				<cac:SpecificTendererRequirement>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
+				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:AllowedSubcontractTerms>
 				<cbc:SubcontractingConditionsCode listName="subcontracting-obligation">none</cbc:SubcontractingConditionsCode>
@@ -237,7 +239,7 @@
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>700029324</cbc:ID>
+			<cbc:ID schemeName="InternalID">700029324</cbc:ID>
 			<cbc:Name languageID="ENG">Procurement of Military Working Dogs</cbc:Name>
 			<cbc:Description languageID="ENG">Livestock. PQQ Access Code: NTV9J9643N
 			Dog training services — military working dogs delivery team are looking for interested parties to supply military working dogs with a requirement for canine protection and detection and also military working dogs to provide a specialist search capability.

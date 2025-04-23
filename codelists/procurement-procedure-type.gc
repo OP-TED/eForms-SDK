@@ -5,7 +5,7 @@
       <ShortName>ProcurementProcedureType</ShortName>
       <LongName>procurement-procedure-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/procurement-procedure-type</LongName>
-      <Version>20220928-0</Version>
+      <Version>20240925-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/procurement-procedure-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -205,79 +205,159 @@
             <SimpleValue>comp-tend</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Competitive tendering</SimpleValue>
+            <SimpleValue>Competitive tendering (article 5(3) of Regulation 1370/2007) </SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Конкурентна тръжна</SimpleValue>
+            <SimpleValue>Конкурентна тръжна процедура (член 5, параграф 3 от Регламент 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Soutěžní nabídkové řízení</SimpleValue>
+            <SimpleValue>Nabídkové řízení (čl. 5 odst. 3 nařízení č. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Konkurrencepræget udbud</SimpleValue>
+            <SimpleValue>Udbudsprocedure (artikel 5, stk. 3, i forordning (EF) nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Wettbewerbliches Ausschreibungverfahren</SimpleValue>
+            <SimpleValue>Wettbewerbliche Vergabeverfahren (Artikel 5 Absatz 3 der Verordnung (EG) Nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ανταγωνιστική διαγωνισμού</SimpleValue>
+            <SimpleValue>Διαδικασία διαγωνισμού [άρθρο 5 παράγραφος 3 του κανονισμού (ΕΚ) αριθ. 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Competitive tendering</SimpleValue>
+            <SimpleValue>Competitive tendering (article 5(3) of Regulation 1370/2007) </SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Licitación pública</SimpleValue>
+            <SimpleValue>Licitación competitiva [artículo 5, apartado 3, del Reglamento (CE) n.º 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Konkurentsipõhine pakkumismenetlus</SimpleValue>
+            <SimpleValue>Võistlev pakkumismenetlus (määruse 1370/2007 artikli 5 lõige 3)</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Tarjouskilpailu</SimpleValue>
+            <SimpleValue>Tarjouskilpailu (asetuksen (EY) N:o 1370/2007 5 artiklan 3 kohta)</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Appel d’offres compétitive</SimpleValue>
+            <SimpleValue>Mise en concurrence [article 5, paragraphe 3, du règlement (CE) nº 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Tairiscint iomaíoch</SimpleValue>
+            <SimpleValue>Tairiscintí iomaíocha (Airteagal 5(3) de Rialachán 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Konkurentni nadmetanja</SimpleValue>
+            <SimpleValue>Konkurentno nadmetanje (članak 5. stavak 3. Uredbe 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Versenypályázati eljárás</SimpleValue>
+            <SimpleValue>Versenytárgyalási eljárás (az 1370/2007/EK rendelet 5. cikkének (3) bekezdése)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Procedura di gara</SimpleValue>
+            <SimpleValue>Procedura di gara (articolo 5, paragrafo 3, del regolamento (CE) n. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Konkurencinė konkurso</SimpleValue>
+            <SimpleValue>Konkursas (Reglamento (EB) Nr. 1370/2007 5 straipsnio 3 dalis)</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Konkursa procedūra</SimpleValue>
+            <SimpleValue>Konkurss (Regulas (EK) Nr. 1370/2007 5. panta 3. punkts)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Sejħa għall-offerti kompetittiva</SimpleValue>
+            <SimpleValue>Proċedura ta’ sejħa kompetittiva għall-offerti (Artikolu 5(3) tar-Regolament 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Mededingingsprocedure</SimpleValue>
+            <SimpleValue>Openbare aanbesteding (artikel 5, lid 3, van Verordening (EG) nr. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Procedura przetargowa</SimpleValue>
+            <SimpleValue>Konkurencyjne przetargi (art. 5 ust. 3 rozporządzenia 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Concurso competitivo</SimpleValue>
+            <SimpleValue>Concurso [artigo 5.º, n.º 3, do Regulamento (CE) n.º 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Licitaţie competitivă</SimpleValue>
+            <SimpleValue>Procedură competitivă de atribuire [articolul 5 alineatul (3) din Regulamentul (UE) nr. 1370/2007]</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Postup verejného obstarávania</SimpleValue>
+            <SimpleValue>Verejná súťaž (článok 5 ods. 3 nariadenia č. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Konkurenčni razpisni</SimpleValue>
+            <SimpleValue>Konkurenčni razpisni postopki (člen 5(3) Uredbe (ES) št. 1370/2007)</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Konkurrenskraftigt upphandling</SimpleValue>
+            <SimpleValue>Konkurrensutsatt anbudsförfarande (artikel 5.3 i förordning 1370/2007)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>exp-int-rail</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Искане за изразяване на интерес — само за железопътен транспорт (член 5, параграф 3б от Регламент 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Žádost o vyjádření zájmu – pouze pro železnici (čl. 5 odst. 3b nařízení č. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anmodning om interessetilkendegivelse — kun for jernbane (artikel 5, stk. 3b, i forordning (EF) nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Aufruf zur Interessenbekundung – nur für die Schiene (Artikel 5 Absatz 3b der Verordnung (EG) Nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Πρόσκληση εκδήλωσης ενδιαφέροντος — μόνο για σιδηροδρομικές μεταφορές [άρθρο 5 παράγραφος 3β του κανονισμού (ΕΚ) αριθ. 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Request for expression of interest – only for rail (article 5(3b) of Regulation 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Solicitud de manifestación de interés — solo para ferrocarril [artículo 5, apartado 3 ter, del Reglamento (CE) n.º 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Osalemiskutse – ainult raudteetranspordi puhul (määruse 1370/2007 artikli 5 lõige 3b)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kiinnostuksenilmaisupyyntö – ainoastaan rautatiepalvelut (asetuksen (EY) N:o 1370/2007 5 artiklan 3 b kohta)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Appel à manifestation d’intérêt — uniquement pour le transport par chemin de fer [article 5, paragraphe 3 ter, du règlement (CE) nº 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Iarraidh ar léiriú spéise — le haghaidh iarnróid amháin (Airteagal 5(3b) de Rialachán 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zahtjev za iskaz interesa – samo za željeznicu (članak 5. stavak 3.b Uredbe 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Érdeklődés jelzésére irányuló kérelem – csak a vasút esetében (az 1370/2007/EK rendelet 5. cikkének (3b) bekezdése)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Invito a manifestare interesse — solo per il trasporto ferroviario (articolo 5, paragrafo 3 ter, del regolamento (CE) n. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prašymas pareikšti susidomėjimą – tik geležinkelių transportui (Reglamento (EB) Nr. 1370/2007 5 straipsnio 3b dalis)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Uzaicinājums paust interesi — tikai attiecībā uz dzelzceļu (Regulas (EK) Nr. 1370/2007 5. panta 3.b punkts)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Talba għal espressjoni ta’ interess — għall-ferroviji biss (Artikolu 5(3b) tar-Regolament 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Verzoek om blijken van belangstelling – alleen voor spoorvervoer (artikel 5, lid 3 ter, van Verordening (EG) nr. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zaproszenie do wyrażenia zainteresowania – wyłącznie w odniesieniu do kolei (art. 5 ust. 3b rozporządzenia 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Convite à manifestação de interesse — apenas para o transporte ferroviário [artigo 5.º, n.º 3-B, do Regulamento (CE) n.º 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cerere de exprimare a interesului – numai pentru transportul feroviar [articolul 5 alineatul (3b) din Regulamentul 1370/2007]</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Žiadosť o vyjadrenie záujmu – len v prípade železničnej dopravy (článok 5 ods. 3b nariadenia 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zahteva za prijavo interesa – samo za železniški prevoz (člen 5(3b) Uredbe (ES) št. 1370/2007)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Begäran om intresseanmälan – endast för järnväg (artikel 5.3b i förordning 1370/2007)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -534,7 +614,7 @@
             <SimpleValue>Otevřené</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Åben</SimpleValue>
+            <SimpleValue>Offentligt udbud</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Offenes Verfahren</SimpleValue>

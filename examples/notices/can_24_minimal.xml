@@ -116,12 +116,8 @@ But with the minimal amount of information while still valid
 									</cac:Country>
 								</cac:PostalAddress>
 								<cac:PartyLegalEntity>
-									<cbc:CompanyID>123 456 789</cbc:CompanyID>
+									<cbc:CompanyID>321 654 789</cbc:CompanyID>
 								</cac:PartyLegalEntity>
-								<cac:Contact>
-									<cbc:Telephone>+33 232081270</cbc:Telephone>
-									<cbc:ElectronicMail>greffe.ta-rouen@juradm.fr</cbc:ElectronicMail>
-								</cac:Contact>
 							</efac:Company>
 						</efac:Organization>
 						<efac:Organization>
@@ -198,6 +194,14 @@ But with the minimal amount of information while still valid
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
+				<cac:Country>
+					<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+				</cac:Country>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 	<cac:ProcurementProjectLot>
 		<cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
@@ -236,19 +240,21 @@ But with the minimal amount of information while still valid
 			</cac:ContractingSystem>
 		</cac:TenderingProcess>
 		<cac:ProcurementProject>
-			<cbc:ID>1</cbc:ID>
+			<cbc:ID schemeName="InternalID">1</cbc:ID>
 			<cbc:Name languageID="FRA">Agence centre</cbc:Name>
 			<cbc:Description languageID="FRA">Service d'entretien de remise en état et de nettoyage des espaces verts.</cbc:Description>
 			<cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
 			<cac:MainCommodityClassification>
 				<cbc:ItemClassificationCode listName="cpv">77310000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
-			<!--<cac:RealizedLocation>
+			<cac:RealizedLocation>
 				<cac:Address>
 					<cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
+					<cac:Country>
+						<cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+					</cac:Country>
 				</cac:Address>
 			</cac:RealizedLocation>
-		-->
 		</cac:ProcurementProject>
 	</cac:ProcurementProjectLot>
 	<cac:TenderResult>

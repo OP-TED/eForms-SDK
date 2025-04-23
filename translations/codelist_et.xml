@@ -46,13 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Loetelu koodidest, mis täpsustavad, kas elektroonilise kataloogi esitamine on lubatud või mitte.</entry>
 <entry key="codelist|name|economic-operator-size">Tabelis on esitatud erinevad kategooriad, millesse pakkujad, kellega võib lepingu sõlmida, klassifitseeritakse vastavalt nende suurusele (kasutades kriteeriumidena töötajate arvu).</entry>
 <entry key="codelist|name|eea-country">Euroopa Majanduspiirkonna riikide koodide loetelu</entry>
-<entry key="codelist|name|eforms-buyer-legal-type">E-vormides lubatud hankija õigusliku liigi koodide loetelu</entry>
-<entry key="codelist|name|eforms-contract-nature">Loetelu e-vormides lubatud koodidest, millega täpsustatakse hankemenetluse peamist ja täiendavat eset</entry>
-<entry key="codelist|name|eforms-country">E-vormides lubatud riigikoodide loetelu</entry>
-<entry key="codelist|name|eforms-currency">E-vormides lubatud valuutakoodide loetelu</entry>
-<entry key="codelist|name|eforms-language">E-vormides lubatud keelekoodide loetelu</entry>
-<entry key="codelist|name|eforms-legal-basis">E-vormides lubatud õigusliku aluse koodide loetelu</entry>
+<entry key="codelist|name|eed-scope">See tabel annab koodide ja väärtuste loetelu, mida kasutatakse näitamaks, et hange kuulub energiaefektiivsuse direktiivi reguleerimisalasse</entry>
 <entry key="codelist|name|einvoicing">Loetelu koodidest, mis täpsustavad, kas elektrooniline arveldamine on lubatud või mitte.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Õigusraamistik elementidele, nagu energiamärgistusega delegeeritud õigusaktid, rakendusmeetmed (direktiiv 2009/125/EÜ) või määrus 2020/740; tooted ja teenused, mida katab GPP; tööd, teenused või hooned</entry>
+<entry key="codelist|name|energy-efficiency-item">Tooted, mida katab energiamärgistusega delegeeritud õigusaktid, rakendusmeetmed (direktiiv 2009/125/EÜ) või määrus 2020/740; tooted ja teenused, mida katab GPP; tööd, teenused või hooned</entry>
+<entry key="codelist|name|energy-efficiency-label">See tabel annab nimekirja koodidest ja väärtustest, mida kasutatakse toote energiatõhususe määramiseks</entry>
 <entry key="codelist|name|entity-activity">Võrgustiku sektori hankija puhul lubatud põhitegevuse koodide loetelu</entry>
 <entry key="codelist|name|environmental-impact">Tabelis on esitatud teave selle kohta, kas (ja kuidas) hange sisaldab lähenemisviisi sellele, kuidas vähendada ehitustööde, asjade või teenuste keskkonnamõju, mida kasutatakse tehnilistes kirjeldustes, hindamiskriteeriumides, kvalifitseerimistingimustes või lepingu täitmise tingimustes.</entry>
 <entry key="codelist|name|esignature-submission">Loetelu koodidest, mis täpsustavad, kas e-allkirja võib kasutada või mitte.</entry>
@@ -62,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">ELi ametlike keelte koodide loetelu</entry>
 <entry key="codelist|name|eu-programme">Loetelu koodidest programmidele, mille on loonud ja mida koordineerib Euroopa Liit ning mida toetab rahaliselt Euroopa Liit või mõnel juhul liikmesriigid oma panuse kaudu.</entry>
 <entry key="codelist|name|exclusion-ground">Koodide loetelu kõrvaldamise aluse identifitseerimiseks</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR tutvustab uut reeglite kogumit, mis võimaldab komisjonil käsitleda välisriikide toetuste põhjustatud moonutusi.</entry>
 <entry key="codelist|name|form-type">Tabelis on esitatud koodid ja väärtused, mida kasutatakse TEDis avaldatud vormide liikide puhul.</entry>
 <entry key="codelist|name|framework-agreement">Tabelis on esitatud loetelu koodidest, mis võimaldavad eristada pakkumusega seotud eri liiki raamlepinguid.</entry>
 <entry key="codelist|name|gpp-criteria">ELi keskkonnahoidlike riigihangete kriteeriumid</entry>
 <entry key="codelist|name|indicator">Loetelu e-vormides lubatud näitajate väärtustest</entry>
 <entry key="codelist|name|innovative-acquisition">Tabelis on esitatud koodid ja väärtused, mida kasutatakse riigihangete raames teatavat liiki uuenduslike tööde, asjade ja teenuste ostmise puhul.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">See tabel annab nimekirja koodidest ja väärtustest, mida kasutatakse IPI-meetme kohaldamise erandi määramiseks</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">See tabel annab nimekirja koodidest ja väärtustest, mida kasutatakse kohaldatud IPI-meetme määramiseks</entry>
 <entry key="codelist|name|irregularity-type">See koodide loetelu viitab üldiselt komisjoni otsuse C(2019) 3452 lisa punktis 2 kirjeldatud rikkumiste liikidele.</entry>
 <entry key="codelist|name|language">Kolmekohaliste keelekoodide loetelu, mis on vastavuses rahvusvahelise standardiga ISO 639, ja mõne keele puhul täiendavad koodid, millele ei ole määratud ISO koodi.</entry>
 <entry key="codelist|name|lawful-country">Loetelu riikidest, mille kohta on olemas õiguslik alus avaldamiseks Euroopa Liidu Teataja kaasandes</entry>
@@ -117,6 +118,7 @@
 <entry key="codelist|name|legal-basis-e3">Teate alaliigi E3 puhul lubatud õigusliku aluse väärtused</entry>
 <entry key="codelist|name|legal-basis-e4">Teate alaliigi E4 puhul lubatud õigusliku aluse väärtused</entry>
 <entry key="codelist|name|legal-basis-e5">Teate alaliigi E5 puhul lubatud õigusliku aluse väärtused</entry>
+<entry key="codelist|name|legal-basis-e6">Teate alaliigi E6 puhul lubatud õigusliku aluse väärtused</entry>
 <entry key="codelist|name|legal-basis-t01">Teate alaliigi T01 puhul lubatud õigusliku aluse väärtused</entry>
 <entry key="codelist|name|legal-basis-t02">Teate alaliigi T02 puhul lubatud õigusliku aluse väärtused</entry>
 <entry key="codelist|name|legal-basis-x01">Teate alaliigi X01 puhul lubatud õigusliku aluse väärtused</entry>
@@ -194,6 +196,7 @@
 <entry key="codelist|name|procedure-type-12">Teate alaliigi 12 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-13">Teate alaliigi 13 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-14">Teate alaliigi 14 puhul lubatud menetluse liik</entry>
+<entry key="codelist|name|procedure-type-15">Teate alaliigi 15 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-16">Teate alaliigi 16 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-17">Teate alaliigi 17 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-18">Teate alaliigi 18 puhul lubatud menetluse liik</entry>
@@ -219,7 +222,6 @@
 <entry key="codelist|name|procedure-type-7">Teate alaliigi 7 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-8">Teate alaliigi 8 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-9">Teate alaliigi 9 puhul lubatud menetluse liik</entry>
-<entry key="codelist|name|procedure-type-cei">Teate alaliigi CEI puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-e1">Teate alaliigi E1 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-e2">Teate alaliigi E2 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-e3">Teate alaliigi E3 puhul lubatud menetluse liik</entry>
@@ -238,8 +240,8 @@
 <entry key="codelist|name|result">Vormi liigi „Tulemus“ puhul lubatud teate liigi koodide loetelu.</entry>
 <entry key="codelist|name|review-body-type">Tabel hõlmab nende organisatsioonide loetelu, kes tegelevad konkreetse menetluse läbivaatamisega.</entry>
 <entry key="codelist|name|review-decision-type">Tabelis kirjeldatakse läbivaatamisasutuse otsust.</entry>
+<entry key="codelist|name|review-information-type">Asjaomase läbivaatamistaotluse staatuse koodide loetelu.</entry>
 <entry key="codelist|name|review-requester-type">Läbivaatamist taotlenud sidusrühmade kategooria</entry>
-<entry key="codelist|name|review-status">Asjaomase läbivaatamistaotluse staatuse koodide loetelu.</entry>
 <entry key="codelist|name|review-type">Läbivaatamise taotleja identifitseerimiseks kasutatavate koodide loetelu.</entry>
 <entry key="codelist|name|rewards-penalties">Avaliku reisijateveoteenusega seotud auhindade ja leppetrahvide koodide loetelu.</entry>
 <entry key="codelist|name|selection-criterion">Loetelu koodidest, mis väljendavad hindamisega seotud tingimusi. See koodiloend on Euroopa ühtse hankedokumendi koodiloendi „CriterionTaxonomy“ alarühm.</entry>

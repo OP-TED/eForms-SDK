@@ -46,13 +46,11 @@
 <entry key="codelist|name|ecatalog-submission">Popis oznaka na temelju kojih se određuje je li dopušteno podnošenje elektroničkih kataloga.</entry>
 <entry key="codelist|name|economic-operator-size">U ovoj tablici navedene su kategorije u koje se ponuditelji kojima se može dodijeliti ugovor razvrstavaju po njihovoj veličini (pri čemu je kriterij broj zaposlenika).</entry>
 <entry key="codelist|name|eea-country">Popis oznaka zemalja Europskog gospodarskog prostora</entry>
-<entry key="codelist|name|eforms-buyer-legal-type">Popis oznaka vrste kupca u pravnom smislu dopuštenih u e-obrascima</entry>
-<entry key="codelist|name|eforms-contract-nature">Popis dopuštenih oznaka u e-obrascima na temelju kojih se određuju glavne i dodatne prirode kupnje</entry>
-<entry key="codelist|name|eforms-country">Popis oznaka zemalja dopuštenih u e-obrascima</entry>
-<entry key="codelist|name|eforms-currency">Popis oznaka valuta dopuštenih u e-obrascima</entry>
-<entry key="codelist|name|eforms-language">Popis oznaka jezika dopuštenih u e-obrascima</entry>
-<entry key="codelist|name|eforms-legal-basis">Popis oznaka pravne osnove dopuštenih u e-obrascima</entry>
+<entry key="codelist|name|eed-scope">Ova tablica pruža popis kôdova i vrijednosti koje se koriste za označavanje da postupak nabave spada pod opseg Direktive o energetskoj učinkovitosti</entry>
 <entry key="codelist|name|einvoicing">Popis oznaka na temelju kojih se određuje je li dopušteno elektroničko izdavanje računa.</entry>
+<entry key="codelist|name|energy-efficiency-basis">Pravni okvir za stavke, poput Delegiranih akata o energetskom označavanju, provedbenih mjera (Direktiva 2009/125/EC) ili Uredba 2020/740; proizvodi i usluge pokrivene GPP-om; radovi, usluge ili zgrade</entry>
+<entry key="codelist|name|energy-efficiency-item">Proizvodi pokriveni Delegiranim aktima o energetskom označavanju, provedbenim mjerama (Direktiva 2009/125/EC) ili Uredba 2020/740; proizvodi i usluge pokrivene GPP-om; radovi, usluge ili zgrade</entry>
+<entry key="codelist|name|energy-efficiency-label">Ova tablica pruža popis kodova i vrijednosti koji se koriste za određivanje energetske učinkovitosti proizvoda</entry>
 <entry key="codelist|name|entity-activity">Popis oznaka glavnih djelatnosti dopuštenih javnom naručitelju</entry>
 <entry key="codelist|name|environmental-impact">U ovoj tablici navedeno je uključuje li (i kako) javna nabava pristup smanjenju utjecaja radova, robe ili usluga na okoliš, koji je utvrđen u tehničkim specifikacijama, u kriterijima za dodjelu, u kriterijima za odabir ili u izvršenju ugovora.</entry>
 <entry key="codelist|name|esignature-submission">Popis oznaka na temelju kojih se određuje može li se koristiti elektronički potpis.</entry>
@@ -62,11 +60,14 @@
 <entry key="codelist|name|eu-official-language">Popis oznaka službenih jezika EU-a</entry>
 <entry key="codelist|name|eu-programme">Popis oznaka programa koje je izradila, kojima koordinira i koje financijski podupire Europska unija ili, u nekolicini slučajeva, kojima se to ostvaruje doprinosima država članica.</entry>
 <entry key="codelist|name|exclusion-ground">Popis oznaka osnova za isključenje</entry>
+<entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR uvodi novi skup pravila koja omogućavaju Komisiji da se bavi iskrivljenjima uzrokovanim stranim subvencijama.</entry>
 <entry key="codelist|name|form-type">U ovoj tablici navedene su oznake i vrijednosti za vrstu obrazaca koje se objavljuju na TED-u.</entry>
 <entry key="codelist|name|framework-agreement">U ovoj tablici nalazi se popis oznaka za razlikovanje vrsta okvirnih sporazuma u natječaju.</entry>
 <entry key="codelist|name|gpp-criteria">Kriteriji za zelenu javnu nabavu</entry>
 <entry key="codelist|name|indicator">Popis vrijednosti pokazatelja dopuštenih u e-obrascima</entry>
 <entry key="codelist|name|innovative-acquisition">U ovoj tablici navedene su oznake i vrijednosti za vrstu inovativnih radova, robe ili usluga u kontekstu javne nabave.</entry>
+<entry key="codelist|name|international-procurement-instrument-application">Ova tablica pruža popis kodova i vrijednosti koji se koriste za određivanje iznimke od primjene mjere IPI</entry>
+<entry key="codelist|name|international-procurement-instrument-measure">Ova tablica pruža popis kodova i vrijednosti koji se koriste za određivanje primijenjene mjere IPI</entry>
 <entry key="codelist|name|irregularity-type">Ovaj popis oznaka općenito se odnosi na vrste nepravilnosti opisane u odjeljku 2. Priloga Odluci Komisije C(2019) 3452.</entry>
 <entry key="codelist|name|language">Popis troslovnih oznaka jezika iz međunarodne norme ISO 639 proširen dodatnim oznakama nekih jezika koji nemaju ISO oznaku.</entry>
 <entry key="codelist|name|lawful-country">Popis zemalja za koje postoji pravna osnova za objavu u Dodatku Službenom listu Europske unije</entry>
@@ -117,6 +118,7 @@
 <entry key="codelist|name|legal-basis-e3">Dopuštene vrijednosti pravne osnove za podtip obavijesti E3</entry>
 <entry key="codelist|name|legal-basis-e4">Dopuštene vrijednosti pravne osnove za podtip obavijesti E4</entry>
 <entry key="codelist|name|legal-basis-e5">Dopuštene vrijednosti pravne osnove za podtip obavijesti E5</entry>
+<entry key="codelist|name|legal-basis-e6">Dopuštene vrijednosti pravne osnove za podtip obavijesti E6</entry>
 <entry key="codelist|name|legal-basis-t01">Dopuštene vrijednosti pravne osnove za podtip obavijesti T01</entry>
 <entry key="codelist|name|legal-basis-t02">Dopuštene vrijednosti pravne osnove za podtip obavijesti T02</entry>
 <entry key="codelist|name|legal-basis-x01">Dopuštene vrijednosti pravne osnove za podtip obavijesti X01</entry>
@@ -194,6 +196,7 @@
 <entry key="codelist|name|procedure-type-12">Dopuštena vrsta postupka za podvrstu obavijesti 12</entry>
 <entry key="codelist|name|procedure-type-13">Dopuštena vrsta postupka za podvrstu obavijesti 13</entry>
 <entry key="codelist|name|procedure-type-14">Dopuštena vrsta postupka za podvrstu obavijesti 14</entry>
+<entry key="codelist|name|procedure-type-15">Dopuštena vrsta postupka za podvrstu obavijesti 15</entry>
 <entry key="codelist|name|procedure-type-16">Dopuštena vrsta postupka za podvrstu obavijesti 16</entry>
 <entry key="codelist|name|procedure-type-17">Dopuštena vrsta postupka za podvrstu obavijesti 17</entry>
 <entry key="codelist|name|procedure-type-18">Dopuštena vrsta postupka za podvrstu obavijesti 18</entry>
@@ -219,7 +222,6 @@
 <entry key="codelist|name|procedure-type-7">Dopuštena vrsta postupka za podvrstu obavijesti 7</entry>
 <entry key="codelist|name|procedure-type-8">Dopuštena vrsta postupka za podvrstu obavijesti 8</entry>
 <entry key="codelist|name|procedure-type-9">Dopuštena vrsta postupka za podvrstu obavijesti 9</entry>
-<entry key="codelist|name|procedure-type-cei">Dopuštena vrsta postupka za podvrstu obavijesti CEI</entry>
 <entry key="codelist|name|procedure-type-e1">Dopuštena vrsta postupka za podvrstu obavijesti E1</entry>
 <entry key="codelist|name|procedure-type-e2">Dopuštena vrsta postupka za podvrstu obavijesti E2</entry>
 <entry key="codelist|name|procedure-type-e3">Dopuštena vrsta postupka za podvrstu obavijesti E3</entry>
@@ -238,8 +240,8 @@
 <entry key="codelist|name|result">Popis dopuštenih oznaka za vrstu obavijesti o rezultatima.</entry>
 <entry key="codelist|name|review-body-type">Ova tablica sadržava popis organizacija koje pružaju pravnu zaštitu (preispitivanje) u određenom postupku.</entry>
 <entry key="codelist|name|review-decision-type">U ovoj tablici opisana je odluka tijela za pravnu zaštitu (preispitivanje).</entry>
+<entry key="codelist|name|review-information-type">Popis oznaka statusa određenog zahtjeva za pravnu zaštitu (preispitivanje).</entry>
 <entry key="codelist|name|review-requester-type">Kategorija dionika koji su zatražili pravnu zaštitu (preispitivanje)</entry>
-<entry key="codelist|name|review-status">Popis oznaka statusa određenog zahtjeva za pravnu zaštitu (preispitivanje).</entry>
 <entry key="codelist|name|review-type">Popis oznaka za identifikaciju vrste podnositelja zahtjeva za pravnu zaštitu (preispitivanje)</entry>
 <entry key="codelist|name|rewards-penalties">Popis oznaka za nagrade i kazne povezane s uslugom javnog prijevoza.</entry>
 <entry key="codelist|name|selection-criterion">Popis oznaka za izražavanje uvjeta koji se odnose na potrebe evaluacije. Ovaj popis oznaka podskup je popisa oznaka ESPD-a CriterionTaxonomy.</entry>

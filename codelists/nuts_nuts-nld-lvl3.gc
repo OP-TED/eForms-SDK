@@ -6,7 +6,7 @@
       <LongName>nuts-nld-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.8.104</Version>
+      <Version>1.13.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -123,57 +123,242 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL111</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oost-Groningen</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Oost-Groningen</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
             <SimpleValue>NL112</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
             <SimpleValue>Delfzijl en omgeving</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Delfzijl en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Delfzijl en omgeving</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL113</SimpleValue>
+            <SimpleValue>NL114</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Oost-Groningen</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL115</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
             <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL124</SimpleValue>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Noord-Friesland</SimpleValue>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Noord-Friesland</SimpleValue>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL125</SimpleValue>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Overig Groningen</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -183,8 +368,237 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidoost-Friesland</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zuidoost-Friesland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL127</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Noord-Friesland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL128</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zuidwest-Friesland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -194,7 +608,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Noord-Drenthe</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Noord-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Noord-Drenthe</SimpleValue>
          </Value>
       </Row>
@@ -205,7 +688,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidoost-Drenthe</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuidoost-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zuidoost-Drenthe</SimpleValue>
          </Value>
       </Row>
@@ -216,7 +768,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidwest-Drenthe</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuidwest-Drenthe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zuidwest-Drenthe</SimpleValue>
          </Value>
       </Row>
@@ -227,7 +848,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Noord-Overijssel</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Noord-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Noord-Overijssel</SimpleValue>
          </Value>
       </Row>
@@ -238,7 +928,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidwest-Overijssel</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuidwest-Overijssel</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zuidwest-Overijssel</SimpleValue>
          </Value>
       </Row>
@@ -249,7 +1008,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Twente</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Twente</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Twente</SimpleValue>
          </Value>
       </Row>
@@ -260,7 +1088,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Veluwe</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Veluwe</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Veluwe</SimpleValue>
          </Value>
       </Row>
@@ -271,7 +1168,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidwest-Gelderland</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuidwest-Gelderland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zuidwest-Gelderland</SimpleValue>
          </Value>
       </Row>
@@ -282,7 +1248,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Achterhoek</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Achterhoek</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Achterhoek</SimpleValue>
          </Value>
       </Row>
@@ -293,7 +1328,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Arnhem/Nijmegen</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Arnhem/Nijmegen</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Arnhem/Nijmegen</SimpleValue>
          </Value>
       </Row>
@@ -304,19 +1408,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Flevoland</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Flevoland</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL310</SimpleValue>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Flevoland</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Utrecht</SimpleValue>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Flevoland</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Utrecht</SimpleValue>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Flevoland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Flevoland</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -326,7 +1488,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Kop van Noord-Holland</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kop van Noord-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Kop van Noord-Holland</SimpleValue>
          </Value>
       </Row>
@@ -337,19 +1568,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>IJmond</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>IJmond</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL324</SimpleValue>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>IJmond</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         <Value ColumnRef="est_label">
+            <SimpleValue>IJmond</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>IJmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>IJmond</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -359,7 +1648,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zaanstreek</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zaanstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zaanstreek</SimpleValue>
          </Value>
       </Row>
@@ -370,7 +1728,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Het Gooi en Vechtstreek</SimpleValue>
          </Value>
       </Row>
@@ -381,85 +1808,237 @@
          <Value ColumnRef="Name">
             <SimpleValue>Alkmaar en omgeving</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Alkmaar en omgeving</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Alkmaar en omgeving</SimpleValue>
          </Value>
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>NL329</SimpleValue>
+            <SimpleValue>NL32A</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Agglomeratie Haarlem</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL32B</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
             <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL332</SimpleValue>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL333</SimpleValue>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Delft en Westland</SimpleValue>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Delft en Westland</SimpleValue>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL337</SimpleValue>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL33A</SimpleValue>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL33B</SimpleValue>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL33C</SimpleValue>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Groot-Amsterdam</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -469,7 +2048,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zeeuwsch-Vlaanderen</SimpleValue>
          </Value>
       </Row>
@@ -480,8 +2128,637 @@
          <Value ColumnRef="Name">
             <SimpleValue>Overig Zeeland</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Overig Zeeland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL350</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Utrecht</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL361</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Agglomeratie ’s-Gravenhage</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL362</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Delft en Westland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL363</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Agglomeratie Leiden en Bollenstreek</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL364</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zuidoost-Zuid-Holland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL365</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Oost-Zuid-Holland</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL366</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Groot-Rijnmond</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -491,30 +2768,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL412</SimpleValue>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         <Value ColumnRef="est_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>NL413</SimpleValue>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>West-Noord-Brabant</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -524,8 +2848,237 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Zuidoost-Noord-Brabant</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL415</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Midden-Noord-Brabant</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>NL416</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Noordoost-Noord-Brabant</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -535,7 +3088,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Noord-Limburg</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Noord-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Noord-Limburg</SimpleValue>
          </Value>
       </Row>
@@ -546,7 +3168,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Midden-Limburg</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Midden-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Midden-Limburg</SimpleValue>
          </Value>
       </Row>
@@ -557,7 +3248,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Zuid-Limburg</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zuid-Limburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Zuid-Limburg</SimpleValue>
          </Value>
       </Row>
@@ -568,7 +3328,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

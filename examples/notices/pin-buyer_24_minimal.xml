@@ -70,5 +70,10 @@
 		<cac:MainCommodityClassification>
 			<cbc:ItemClassificationCode listName="cpv">33157000</cbc:ItemClassificationCode>
 		</cac:MainCommodityClassification>
+		<cac:RealizedLocation>
+			<cac:Address>
+				<cbc:Region>anyw-eea</cbc:Region>
+			</cac:Address>
+		</cac:RealizedLocation>
 	</cac:ProcurementProject>
 </PriorInformationNotice>
