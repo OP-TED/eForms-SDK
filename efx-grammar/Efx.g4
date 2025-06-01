@@ -42,15 +42,24 @@ options { tokenVocab=EfxLexer;}
 singleExpression: StartExpression (FieldId | NodeId) (Comma parameterList)? EndExpression expressionBlock EOF;
 
 /* 
- * An EFX template-file consists of a series of template-lines, optionally preceded by a series of global-declarations.
- * Any variables and functions declared globally can be used in the template-lines.
+ * An EFX template-file consists of:
+ * - zero or more declarations of global variables and functions,
+ * - zero or more declarations of callable templates,
+ * - followed by one or more template-lines organised hierarchically 
+ *   using python-style indentation.
+ * Any variables and functions declared globally can be used in the 
+ * templates in addition to the local variables declared in the 
+ * template-lines which are only visible within the template-block 
+ * in which they are declared.
  */
-templateFile: (globalDeclaration)* (templateLine)* EOF;
+templateFile: globalDeclaration* templateDeclaration* templateLine* EOF;
 
 /* 
  * Global-declarations allow the definition of variables and/or functions that can be used throughout the entire template-file.
  */
-globalDeclaration: StartExpression (globalVariableDeclaration | functionDeclaration) EndExpression CRLF;
+globalDeclaration
+    : Let (globalVariableDeclaration | functionDeclaration) Semicolon
+    ;
 
 /* 
  * You can capture this context to manage the scope of global variables.
@@ -65,26 +74,38 @@ globalVariableDeclaration
     ;
 
 /* 
- * A template line contains three parts: indentation, context-declaration and template.
+ * A template line contains three parts: indentation, context-declaration, and template.
  * Python-style indentation is used to structure the template-lines hierarchically.
  * The context-declaration part specifies the XML element(s) that will trigger the generation 
  * of output for this template-line. The template-line will appear in the final output as many 
  * times as the number of XML elements matched by the context-declaration.
  * Furthermore, all the expression-blocks in the template part of this template-line will
- * be evaluated relative to the context indicated by the context-declaration. 
+ * be evaluated relative to the context indicated by the context-declaration.
+ * Template-lines written in the legacy EFX-1 style are still allowed, but the new EFX-2 
+ * standard syntax provides additional features like conditional branching and template reuse.
  */
-templateLine: (Tabs | Spaces | MixedIndent)? OutlineNumber? contextDeclarationBlock template CRLF;
+templateLine
+    : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
+    | indentation? OutlineNumber? StartExpression contextDeclarationBlock EndExpression template CRLF
+    ;
 
+/***
+ * Declares a callable template by providing its signature (definition), as well as the content it will display when invoked.
+ * Callable templates can be reused across the templateFile by invoking them using the invokeTemplate syntax.
+ */
+templateDeclaration: indentation? Let templateDefinition (chooseTemplate | displayTemplate | invokeTemplate) Semicolon;
+
+indentation: Tabs | Spaces | MixedIndent;
 
 /** 
- * A template is a combination of free-text, labels and expressions to be evaluated.
- * Templates are matched when the lexical analyser is in LABEL mode 
+ * A template is a recursive combination of free-text, labels, expressions, and line breaks.
+ * Whitespace is significant within the template, but is ignored when present at its beginning or end.
  */
 template: templateFragment;
 
 /**
  * A template is a combination of free-text, labels and expressions to be evaluated.
- * Whitespace is significant within the template, but is ignored when present at its beginning or end.
+ * Templates are matched when the lexical analyser is in TEMPLATE mode 
  */
 templateFragment
     : lineBreak templateFragment?                   # secondaryTemplate
@@ -98,7 +119,7 @@ templateFragment
  * It is used to change line in the template without changing context or indentation.
  * Any whitespace before or after the newline character is ignored.
  */
-lineBreak: Whitespace* NewLine Whitespace*;
+lineBreak: NewLine;
 
 /**
  * A text-block consists of whitespace and free-text.
@@ -111,8 +132,8 @@ textBlock: (Whitespace | FreeText)+ textBlock*;
  ******************************************************************************/
 
 
-/*
- * A label-block starts with a # and contains a label identifier inside curly braces.
+ /**
+ * A label-block starts with a # and curly braces, and can contain a standard label reference, computed label, shorthand, or indirect label reference.
  */
 labelBlock
     : StartLabel assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndLabel     # standardLabelReference
@@ -150,19 +171,49 @@ pluraliser: expressionBlock;
  * An expression-block starts with a $ and contains the expression to be evaluated inside curly braces.
  */
 expressionBlock
-    : StartExpression expression EndExpression          # standardExpressionBlock
-    | ShorthandFieldValueReferenceFromContextField      # shorthandFieldValueReferenceFromContextField
+    : standardExpressionBlock
+    | shorthandFieldValueReferenceFromContextField
+    ;
+
+standardExpressionBlock
+    : Let expression Semicolon
+    | StartExpression expression EndExpression // for backward compatibility
+    ;
+
+shorthandFieldValueReferenceFromContextField
+    : ShorthandFieldValueReferenceFromContextField
     ;
 
 /*
- * A context-declaration block is used to specify the context in which the expressions of the template-line are evaluated.
+ * A context-declaration block specifies the context in which the expressions of the template-line are evaluated.
+ * It may include variable declarations before and/or after the context declaration.
  * A template-line is essentially a for-loop that evaluates as many times as the number of elements matched by the context-declaration.
  * A template-line together with any nested template-lines form a template-block. As the for-loop iterates, the entire template-block is evaluated. 
- * A context-declaration block also allows the declaration of local variables that can be used in the template-line.
+ * Local variables declared here are available within the template-line and any nested template-lines.
  */
 contextDeclarationBlock
-    : StartExpression (templateVariableList Comma)? contextDeclaration (Comma templateVariableList)? EndExpression
+    : (templateVariableList Comma)? contextDeclaration (Comma templateVariableList)?
     ;
+
+/*** 
+ *  Defines the signature of a callable template as comprised by its name and set of parameters.
+ */
+templateDefinition
+    : Template Colon templateName=TemplateName OpenParenthesis parameterList? CloseParenthesis
+    ;
+
+
+chooseTemplate: whenBlock+ otherwiseBlock?;
+displayTemplate: Display template;
+invokeTemplate: Invoke templateName=TemplateName OpenParenthesis argumentList? CloseParenthesis;
+
+whenBlock : whenDisplayTemplate | whenInvokeTemplate;
+whenDisplayTemplate: When (booleanExpression | lateBoundScalar) displayTemplate;
+whenInvokeTemplate: When (booleanExpression | lateBoundScalar) invokeTemplate;
+
+otherwiseBlock: otherwiseDisplayTemplate | otherwiseInvokeTemplate;
+otherwiseDisplayTemplate: Otherwise Display? template;
+otherwiseInvokeTemplate: Otherwise invokeTemplate;
 
 contextDeclaration: contextVariableInitializer | fieldContext | nodeContext | shortcut=(Dot | DotDot | Slash);
 
@@ -191,7 +242,7 @@ numericVariableInitializer:     Number      Colon Variable Assignment (numericEx
 dateVariableInitializer :       Date        Colon Variable Assignment (dateExpression     | lateBoundExpression);
 timeVariableInitializer:        Time        Colon Variable Assignment (timeExpression     | lateBoundExpression);
 durationVariableInitializer:    Measure     Colon Variable Assignment (durationExpression | lateBoundExpression);
-contextVariableInitializer:     ContextType Colon Variable Assignment fieldContext;
+contextVariableInitializer:     ContextType Colon Variable Assignment (fieldContext | nodeContext | Slash);
 
 functionDeclaration
     : stringFunctionDeclaration 
@@ -202,12 +253,12 @@ functionDeclaration
     | durationFunctionDeclaration
     ;
 
-stringFunctionDeclaration:      Text      Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (stringExpression   | lateBoundExpression);
-booleanFunctionDeclaration:     Indicator Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (booleanExpression  | lateBoundExpression);
-numericFunctionDeclaration:     Number    Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (numericExpression  | lateBoundExpression);
-dateFunctionDeclaration:        Date      Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (dateExpression     | lateBoundExpression);
-timeFunctionDeclaration:        Time      Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (timeExpression     | lateBoundExpression);
-durationFunctionDeclaration:    Measure   Colon Function OpenParenthesis parameterList CloseParenthesis Assignment (durationExpression | lateBoundExpression);
+stringFunctionDeclaration:      Text      Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (stringExpression   | lateBoundExpression);
+booleanFunctionDeclaration:     Indicator Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (booleanExpression  | lateBoundExpression);
+numericFunctionDeclaration:     Number    Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (numericExpression  | lateBoundExpression);
+dateFunctionDeclaration:        Date      Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (dateExpression     | lateBoundExpression);
+timeFunctionDeclaration:        Time      Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (timeExpression     | lateBoundExpression);
+durationFunctionDeclaration:    Measure   Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundExpression);
 
 functionInvocation:         Function OpenParenthesis argumentList? CloseParenthesis;
 
@@ -265,7 +316,7 @@ booleanExpression
     | dateExpression        modifier=Not? In dateSequence                       # dateInListCondition
     | timeExpression        modifier=Not? In timeSequence                       # timeInListCondition
     | durationExpression    modifier=Not? In durationSequence                   # durationInListCondition
-    | stringExpression      modifier=Not? Like pattern=STRING                   # likePatternCondition
+    | stringExpression      modifier=Not? Like pattern=StringLiteral            # likePatternCondition
     | stringExpression      Is modifier=Not? Empty                              # emptinessCondition
     | pathFromReference     Is modifier=Not? Present                            # presenceCondition
     | pathFromReference     Is modifier=Not? Unique In absoluteFieldReference   # uniqueValueCondition
@@ -298,7 +349,7 @@ booleanExpression
     | timeExpression        Comparison lateBoundScalar                          # ppTimeToLateBoundComparison
     | durationExpression    Comparison lateBoundScalar                          # ppDurationToLateBoundComparison
     | lateBoundScalar       Comparison lateBoundScalar                          # ppFieldValueComparison
-    | lateBoundExpression   Not? Like pattern=STRING                            # ppLikePatternCondition
+    | lateBoundExpression   Not? Like pattern=StringLiteral                     # ppLikePatternCondition
     | lateBoundExpression   Is Not? Empty                                       # ppLateBoundEmptinessCondition
     | stringExpression      Not? In lateBoundSequence                           # ppStringInLateBoundListCondition
     | numericExpression     Not? In lateBoundSequence                           # ppNumberInLateBoundListCondition
@@ -483,13 +534,13 @@ contextIteratorExpression:  contextVariableDeclaration  In (fieldContext     | n
   Literals
  **************************************/
 
-stringLiteral: STRING | UUIDV4;
-numericLiteral: INTEGER | DECIMAL;
+stringLiteral: StringLiteral | UuidV4Literal;
+numericLiteral: IntegerLiteral | DecimalLiteral;
 booleanLiteral: trueBooleanLiteral | falseBooleanLiteral;
 trueBooleanLiteral: Always | True;
 falseBooleanLiteral: Never | False;
-dateLiteral: DATE;
-timeLiteral: TIME;
+dateLiteral: DateLiteral;
+timeLiteral: TimeLiteral;
 durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
 
 
@@ -525,7 +576,7 @@ contextVariableDeclaration:     ContextType Colon Variable;
 
 pathFromReference
     : attributeReference
-    |fieldReference 
+    | fieldReference 
     ;
 
 contextFieldSpecifier: field=fieldContext ColonColon;
