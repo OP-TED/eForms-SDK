@@ -77,7 +77,7 @@
 		9 {ND-LotTenderingTerms[BT-747-Lot is present]} #{auxiliary|text|selection-criteria} // 5.1.9 Selection criteria
 			0 {ND-SelectionCriteria} #{auxiliary|text|criterion}: // Criterion
 				{BT-747-Lot} #{name|BT-747}: #{BT-747-Lot} // Selection Criterion Type
-				{BT-747-Lot[BT-749-Lot is present]} #{name|BT-749}: ${BT-749-Lot} // Selection Criterion Name
+				// {BT-747-Lot[BT-749-Lot is present]} #{name|BT-749}: ${BT-749-Lot} // Selection Criterion Name
 				{BT-747-Lot[BT-750-Lot is present]} #{name|BT-750}: ${BT-750-Lot} // Selection Criterion Description
 				{BT-748-Lot} #{name|BT-748}: #{BT-748-Lot} // Use of this criterion
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{name|BT-40} // Selection Criteria Second Stage Invite
