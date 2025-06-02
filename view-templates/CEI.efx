@@ -76,7 +76,6 @@
 			{BT-137-Lot[BT-300-Lot is present]} #{name|BT-300}: ${BT-300-Lot} // Additional information
 		9 {ND-LotTenderingTerms} #{auxiliary|text|selection-criteria} // 5.1.9 Selection criteria
 			0 {ND-SelectionCriteria} #{auxiliary|text|criterion}: // Criterion
-				{BT-748-Lot} #{name|BT-748}: #{BT-748-Lot} // Use of this criterion
 				{BT-40-Lot[BT-40-Lot == TRUE]} #{name|BT-40} // Selection Criteria Second Stage Invite
 		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
 			{BT-707-Lot} #{name|BT-707}: #{BT-707-Lot} // Justification for restricting access to certain procurement documents (Lot)
