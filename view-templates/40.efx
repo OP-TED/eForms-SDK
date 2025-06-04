@@ -213,7 +213,6 @@
 	{BT-200-Contract} #{name|BT-200}: #{BT-200-Contract} // Modification Reason Code
 	{BT-201-Contract} #{name|BT-201}: ${BT-201-Contract} // Modification Reason Description
 	1 {ND-Modification} #{auxiliary|text|modification} // Modification
-		{BT-1501(s)-Contract} #{field|name|BT-1501(s)-Contract}: ${BT-1501(s)-Contract} // Modification Previous Notice Section Identifier
 		{BT-202-Contract} #{business-term|name|BT-202}: ${BT-202-Contract} // Modification Previous Notice Section Identifier
 8 {ND-Root} #{auxiliary|text|organisations} // 8. Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
