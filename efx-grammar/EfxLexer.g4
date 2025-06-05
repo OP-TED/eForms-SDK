@@ -229,6 +229,7 @@ Number: 'number';
 Indicator: 'indicator';
 Date: 'date';
 Time: 'time';
+DateTime: 'date-time';
 Measure: 'measure';
 
 // Data types ------------------------------------------------------------------------------------------------
@@ -239,6 +240,7 @@ TextType: Text -> type(Text);
 CodeType: Code -> type(Code);
 DateType: Date -> type(Date);
 TimeType: Time -> type(Time);
+DateTimeType: DateTime -> type(DateTime);
 DurationType: Measure -> type(Measure);
 ContextType: 'context';
 
@@ -274,6 +276,12 @@ SumFunction: 'sum';
 FormatNumberFunction: 'format-number';
 UpperCaseFunction: 'upper-case';
 LowerCaseFunction: 'lower-case';
+ShortDateFunction: 'short-date';
+ShortTimeFunction: 'short-time';
+ShortDateTimeFunction: 'short-date-time';
+LongDateFunction: 'long-date';
+LongTimeFunction: 'long-time';
+LongDateTimeFunction: 'long-date-time';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
@@ -324,6 +332,7 @@ INTEGER: '-'? DIGIT+;
 DECIMAL: '-'? DIGIT? '.' DIGIT+;
 STRING: ('"' CHAR_SEQ? '"') | ('\'' CHAR_SEQ? '\'');
 UUIDV4: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
+DATETIME: DATE TIME;
 DATE: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z');
 TIME: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT (ZONE | 'Z');
 ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;

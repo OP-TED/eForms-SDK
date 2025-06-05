@@ -45,7 +45,10 @@ templateFragment
     | textBlock templateFragment?                   # textTemplate
     | labelBlock templateFragment?                  # labelTemplate
     | expressionBlock templateFragment?             # expressionTemplate
+    | nestedBlock templateFragment?                 # nestedTemplate
     ;
+
+nestedBlock: StartExpression contextDeclarationBlock template EndExpression;
 
 /**
  * A line-break is a newline character (\n).
@@ -124,6 +127,7 @@ templateVariableInitializer
     | Number    Colon Variable Assignment (numericExpression  | lateBoundExpression)    # numericVariableInitializer
     | Date      Colon Variable Assignment (dateExpression     | lateBoundExpression)    # dateVariableInitializer 
     | Time      Colon Variable Assignment (timeExpression     | lateBoundExpression)    # timeVariableInitializer
+    | DateTime  Colon Variable Assignment (dateTimeExpression | lateBoundExpression)    # dateTimeVariableInitializer
     | Measure   Colon Variable Assignment (durationExpression | lateBoundExpression)    # durationVariableInitializer
     ;
 
@@ -273,6 +277,15 @@ timeExpression
     | timeTypeCast lateBoundScalarReference                                 # timeCastExpression
     ;
 
+dateTimeExpression
+    : If   (booleanExpression   | lateBoundScalar) 
+      Then (dateTimeExpression  | lateBoundScalar) 
+      Else (dateTimeExpression  | lateBoundScalar)          # conditionalDateTimeExpression
+    | dateTimeLiteral                                       # dateTimeLiteralExpression
+    | dateTimeSequence OpenBracket indexer CloseBracket     # dateTimeAtSequenceIndex
+    | dateTimeTypeCast lateBoundScalarReference             # dateTimeCastExpression
+    ;
+
 durationExpression
     : OpenParenthesis durationExpression CloseParenthesis                   # parenthesizedDurationExpression
     | endDate=dateExpression Minus startDate=dateExpression                 # dateSubtractionExpression
@@ -361,6 +374,15 @@ timeSequence
 
 timeSequenceFromIteration: For iteratorList Return timeExpression;
 
+dateTimeSequence
+    : OpenParenthesis (dateTimeExpression | lateBoundScalar) (Comma (dateTimeExpression | lateBoundScalar))* CloseParenthesis   # dateTimeList
+    | dateTimeSequenceFromIteration                                                 # dateTimesFromIteration
+    | OpenParenthesis dateTimeSequenceFromIteration CloseParenthesis                # parenthesizedDateTimesFromIteration
+    | dateTimeTypeCast lateBoundSequenceReference                                   # dateTimeTypeCastFieldReference
+    ;
+
+dateTimeSequenceFromIteration: For iteratorList Return dateTimeExpression;
+
 durationSequence
     : OpenParenthesis (durationExpression | lateBoundScalar) (Comma (durationExpression | lateBoundScalar))* CloseParenthesis   # durationList
     | durationSequenceFromIteration                                                                                             # durationsFromIteration
@@ -394,6 +416,7 @@ trueBooleanLiteral: Always | True;
 falseBooleanLiteral: Never | False;
 dateLiteral: DATE;
 timeLiteral: TIME;
+dateTimeLiteral: DATETIME;
 durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
 
 
@@ -406,6 +429,7 @@ booleanTypeCast:    OpenParenthesis Indicator   CloseParenthesis;
 numericTypeCast:    OpenParenthesis Number      CloseParenthesis;
 dateTypeCast:       OpenParenthesis Date        CloseParenthesis;
 timeTypeCast:       OpenParenthesis Time        CloseParenthesis;
+dateTimeTypeCast:   OpenParenthesis DateTime    CloseParenthesis;
 durationTypeCast:   OpenParenthesis Measure     CloseParenthesis;
 contextTypeCast:    OpenParenthesis ContextType CloseParenthesis;
 
@@ -492,6 +516,12 @@ stringFunction
     | ConcatFunction                 OpenParenthesis (stringExpression   | lateBoundScalar)  (Comma (stringExpression        | lateBoundScalar))* CloseParenthesis                                                       # concatFunction
     | StringJoinFunction             OpenParenthesis (stringSequence     | lateBoundSequence) Comma (stringExpression        | lateBoundScalar)   CloseParenthesis                                                       # stringJoinFunction
     | FormatNumberFunction           OpenParenthesis (numericExpression  | lateBoundScalar)  (Comma (format=stringExpression | lateBoundScalar))? CloseParenthesis                                                       # formatNumberFunction
+    | ShortDateFunction     OpenParenthesis (dateExpression     | lateBoundScalar)   CloseParenthesis                                                                                                               # shortDateFunction
+    | ShortTimeFunction     OpenParenthesis (timeExpression     | lateBoundScalar)   CloseParenthesis                                                                                                               # shortTimeFunction
+    | ShortDateTimeFunction OpenParenthesis (dateTimeExpression | lateBoundScalar)   CloseParenthesis                                                                                                               # shortDateTimeFunction
+    | LongDateFunction      OpenParenthesis (dateExpression     | lateBoundScalar)   CloseParenthesis                                                                                                               # longDateFunction
+    | LongTimeFunction      OpenParenthesis (timeExpression     | lateBoundScalar)   CloseParenthesis                                                                                                               # longTimeFunction
+    | LongDateTimeFunction  OpenParenthesis (dateTimeExpression | lateBoundScalar)   CloseParenthesis                                                                                                               # longDateTimeFunction
     | UpperCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                           # upperCaseFunction
     | LowerCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                           # lowerCaseFunction
     | PreferredLanguageFunction      OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                           # preferredLanguageFunction
@@ -507,6 +537,11 @@ dateFunction
 
 timeFunction
     : Time OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis                        # timeFromStringFunction
+    ;
+
+dateTimeFunction
+    : DateTime OpenParenthesis (dateExpression   | lateBoundScalar) Comma (timeExpression | lateBoundScalar) CloseParenthesis               # combineDateTimeFunction
+    | DateTime OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis                                                        # dateTimeFromStringFunction
     ;
 
 durationFunction
