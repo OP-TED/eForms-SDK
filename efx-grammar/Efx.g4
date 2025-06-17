@@ -39,7 +39,7 @@ options { tokenVocab=EfxLexer;}
  * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
-singleExpression: StartExpression (FieldId | NodeId) (Comma parameterList)? EndExpression expressionBlock EOF;
+singleExpression: StartExpression context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndExpression expressionBlock EOF;
 
 /* 
  * An EFX template-file consists of:
@@ -199,13 +199,13 @@ contextDeclarationBlock
  *  Defines the signature of a callable template as comprised by its name and set of parameters.
  */
 templateDefinition
-    : Template Colon templateName=TemplateName OpenParenthesis parameterList? CloseParenthesis
+    : Template Colon templateName=Identifier OpenParenthesis parameterList? CloseParenthesis
     ;
 
 
 chooseTemplate: whenBlock+ otherwiseBlock?;
 displayTemplate: Display template;
-invokeTemplate: Invoke templateName=TemplateName OpenParenthesis argumentList? CloseParenthesis;
+invokeTemplate: Invoke templateName=Identifier OpenParenthesis argumentList? CloseParenthesis;
 
 whenBlock : whenDisplayTemplate | whenInvokeTemplate;
 whenDisplayTemplate: When (booleanExpression | lateBoundScalar) displayTemplate;
@@ -236,13 +236,13 @@ templateVariableDeclaration
     | durationVariableInitializer
     ;
 
-stringVariableInitializer:      Text        Colon Variable Assignment (stringExpression   | lateBoundExpression);
-booleanVariableInitializer:     Indicator   Colon Variable Assignment (booleanExpression  | lateBoundExpression);
-numericVariableInitializer:     Number      Colon Variable Assignment (numericExpression  | lateBoundExpression);
-dateVariableInitializer :       Date        Colon Variable Assignment (dateExpression     | lateBoundExpression);
-timeVariableInitializer:        Time        Colon Variable Assignment (timeExpression     | lateBoundExpression);
-durationVariableInitializer:    Measure     Colon Variable Assignment (durationExpression | lateBoundExpression);
-contextVariableInitializer:     ContextType Colon Variable Assignment (fieldContext | nodeContext | Slash);
+stringVariableInitializer:      Text        Colon VariablePrefix variableName=Identifier Assignment (stringExpression   | lateBoundExpression);
+booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=Identifier Assignment (booleanExpression  | lateBoundExpression);
+numericVariableInitializer:     Number      Colon VariablePrefix variableName=Identifier Assignment (numericExpression  | lateBoundExpression);
+dateVariableInitializer :       Date        Colon VariablePrefix variableName=Identifier Assignment (dateExpression     | lateBoundExpression);
+timeVariableInitializer:        Time        Colon VariablePrefix variableName=Identifier Assignment (timeExpression     | lateBoundExpression);
+durationVariableInitializer:    Measure     Colon VariablePrefix variableName=Identifier Assignment (durationExpression | lateBoundExpression);
+contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext | Slash);
 
 functionDeclaration
     : stringFunctionDeclaration 
@@ -253,14 +253,14 @@ functionDeclaration
     | durationFunctionDeclaration
     ;
 
-stringFunctionDeclaration:      Text      Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (stringExpression   | lateBoundExpression);
-booleanFunctionDeclaration:     Indicator Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (booleanExpression  | lateBoundExpression);
-numericFunctionDeclaration:     Number    Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (numericExpression  | lateBoundExpression);
-dateFunctionDeclaration:        Date      Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (dateExpression     | lateBoundExpression);
-timeFunctionDeclaration:        Time      Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (timeExpression     | lateBoundExpression);
-durationFunctionDeclaration:    Measure   Colon Function OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundExpression);
+stringFunctionDeclaration:      Text      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (stringExpression   | lateBoundExpression);
+booleanFunctionDeclaration:     Indicator Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (booleanExpression  | lateBoundExpression);
+numericFunctionDeclaration:     Number    Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericExpression  | lateBoundExpression);
+dateFunctionDeclaration:        Date      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateExpression     | lateBoundExpression);
+timeFunctionDeclaration:        Time      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeExpression     | lateBoundExpression);
+durationFunctionDeclaration:    Measure   Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundExpression);
 
-functionInvocation:         Function OpenParenthesis argumentList? CloseParenthesis;
+functionInvocation:         FunctionPrefix functionName=Identifier OpenParenthesis argumentList? CloseParenthesis;
 
 /**************************************
   Parameters & Arguments
@@ -281,12 +281,12 @@ argumentList: argument (Comma argument)*;
 argument: expression;
 
 parameterDeclaration
-    : Text      Colon Variable      # stringParameterDeclaration 
-    | Number    Colon Variable      # numericParameterDeclaration 
-    | Indicator Colon Variable      # booleanParameterDeclaration 
-    | Date      Colon Variable      # dateParameterDeclaration
-    | Time      Colon Variable      # timeParameterDeclaration
-    | Measure   Colon Variable      # durationParameterDeclaration 
+    : Text      Colon VariablePrefix parameterName=Identifier      # stringParameterDeclaration 
+    | Number    Colon VariablePrefix parameterName=Identifier      # numericParameterDeclaration 
+    | Indicator Colon VariablePrefix parameterName=Identifier      # booleanParameterDeclaration 
+    | Date      Colon VariablePrefix parameterName=Identifier      # dateParameterDeclaration
+    | Time      Colon VariablePrefix parameterName=Identifier      # timeParameterDeclaration
+    | Measure   Colon VariablePrefix parameterName=Identifier      # durationParameterDeclaration 
     ;
 
 // Parameter values are not part of an EFX expression. 
@@ -564,13 +564,13 @@ timeSequenceTypeCast:       OpenParenthesis Time        Star CloseParenthesis;
 durationSequenceTypeCast:   OpenParenthesis Measure     Star CloseParenthesis;
 contextSequenceTypeCast:    OpenParenthesis ContextType Star CloseParenthesis;
 
-stringVariableDeclaration:      Text        Colon Variable;
-booleanVariableDeclaration:     Indicator   Colon Variable;
-numericVariableDeclaration:     Number      Colon Variable;
-dateVariableDeclaration:        Date        Colon Variable;
-timeVariableDeclaration:        Time        Colon Variable;
-durationVariableDeclaration:    Measure     Colon Variable;
-contextVariableDeclaration:     ContextType Colon Variable;
+stringVariableDeclaration:      Text        Colon VariablePrefix variableName=Identifier;
+booleanVariableDeclaration:     Indicator   Colon VariablePrefix variableName=Identifier;
+numericVariableDeclaration:     Number      Colon VariablePrefix variableName=Identifier;
+dateVariableDeclaration:        Date        Colon VariablePrefix variableName=Identifier;
+timeVariableDeclaration:        Time        Colon VariablePrefix variableName=Identifier;
+durationVariableDeclaration:    Measure     Colon VariablePrefix variableName=Identifier;
+contextVariableDeclaration:     ContextType Colon VariablePrefix variableName=Identifier;
 
 
 
@@ -589,7 +589,7 @@ contextVariableSpecifier: variable=variableReference ColonColon;
  * We chose to specify the grammar for field references and node references in a slightly different style to avoid left recursion of grammar rules.
  * It looks more "complicated" but it is necessary for parsing (see fieldReferenceWithFieldContextOverride). 
  */
-attributeReference: fieldReference Slash Attribute;
+attributeReference: fieldReference Slash AttributePrefix attributeName=Identifier;
 fieldReference: fieldReferenceInOtherNotice | absoluteFieldReference;
 fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithVariableContextOverride;
 fieldReferenceWithVariableContextOverride: contextVariableSpecifier? reference=fieldReferenceWithNodeContextOverride;
@@ -599,7 +599,7 @@ fieldContext: absoluteFieldReference | fieldReferenceWithPredicate;
 absoluteFieldReference: Slash reference=fieldReferenceWithPredicate;
 fieldReferenceWithPredicate: reference=fieldReferenceWithAxis (OpenBracket predicate CloseBracket)?;
 fieldReferenceWithAxis: axis? simpleFieldReference;
-simpleFieldReference: FieldId;
+simpleFieldReference: fieldId = (FieldId | Identifier);
 
 nodeReference: absoluteNodeReference | nodeReferenceInOtherNotice;
 nodeReferenceInOtherNotice: noticeReference Slash nodeReferenceWithPredicate;
@@ -610,7 +610,7 @@ simpleNodeReference: NodeId;
 
 noticeReference: Notice OpenParenthesis (noticeId=stringExpression | lateBoundScalar) CloseParenthesis;
 
-codelistReference: CodelistId;
+codelistReference: CodelistPrefix codelistName=Identifier;
 
 axis: Axis ColonColon;
 
@@ -713,4 +713,4 @@ lateBoundScalarReference
     | functionInvocation        # scalarFromFunctionInvocation
     ;
 
-variableReference: Variable;
+variableReference: VariablePrefix variableName=Identifier;

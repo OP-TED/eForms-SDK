@@ -330,25 +330,19 @@ DayTimeDurationLiteral: '-'? 'P' IntegerLiteral ('W' | 'D');
 YearMonthDurationLiteral: '-'? 'P' IntegerLiteral ('Y' | 'M');
 
 
-FieldId: FieldIdentifier | FieldAlias;
-NodeId: NodeIdentifier | NodeAlias;
+FieldId: FieldIdentifier;// | FieldAlias;
+NodeId: NodeIdentifier;// | NodeAlias;
 
 VariablePrefix: '$';
 AttributePrefix: '@';
 CodelistPrefix: '#';
 FunctionPrefix: '?';
 
-Function: FunctionPrefix Identifier;
-Variable: VariablePrefix IdentifierPart;
-Attribute: AttributePrefix Identifier;
-CodelistId: CodelistPrefix Identifier;
-TemplateName: Identifier;
-
 BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
 FieldIdentifier: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
 NodeIdentifier: 'ND' '-' [a-zA-Z0-9]+;
-FieldAlias: CAMEL_CASE ('_' CAMEL_CASE)*;
-NodeAlias: PASCAL_CASE ('_' PASCAL_CASE)*;
+// FieldAlias: CAMEL_CASE ('_' CAMEL_CASE)*;
+// NodeAlias: PASCAL_CASE ('_' PASCAL_CASE)*;
 
 
 Identifier: IdentifierPart ('-' IdentifierPart)*;
