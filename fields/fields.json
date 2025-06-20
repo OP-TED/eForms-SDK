@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.114",
-    "createdOn" : "2025-02-25T09:46:17"
+    "version" : "1.13.146",
+    "createdOn" : "2025-06-20T15:56:02"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -3499,7 +3499,7 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and ((OPP-070-notice in ('16','29')) or ((OPP-070-notice == 'E5') and (BT-01-notice in ('32014L0024','32018R1046','32024R2509')))) and (BT-105-Procedure is present)}",
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and ((OPP-070-notice in ('16','29')) or ((OPP-070-notice == 'E5') and (BT-01-notice in ('32014L0024','32024R2509')))) and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('open', 'restricted', 'neg-w-call')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00105-0110"
@@ -6282,7 +6282,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "E4", "E5" ],
-        "condition" : "{ND-SettledContract} ${BT-01-notice != '32018R1046' and BT-01-notice != '32024R2509' and BT-105-Procedure != 'neg-wo-call' and BT-3202-Contract is present}",
+        "condition" : "{ND-SettledContract} ${BT-01-notice != '32024R2509' and BT-105-Procedure != 'neg-wo-call' and BT-3202-Contract is present}",
         "value" : true,
         "severity" : "ERROR"
       } ]
