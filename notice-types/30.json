@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.76",
-    "createdOn" : "2025-01-09T16:37:23"
+    "version" : "1.13.147",
+    "createdOn" : "2025-06-20T16:17:49"
   },
   "noticeId" : "30",
   "metadata" : [ {
@@ -2133,7 +2133,7 @@
             "id" : "GR-Lot-EED-Asset",
             "contentType" : "group",
             "nodeId" : "ND-EEDProcurementDetailsLot",
-            "displayType" : "SECTION",
+            "displayType" : "GROUP",
             "description" : "EED Asset",
             "_label" : "group|name|GR-Lot-EED-Asset",
             "_repeatable" : true,
