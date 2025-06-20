@@ -4,8 +4,9 @@
    <Identification>
       <ShortName>EnergyEfficiencyLabel</ShortName>
       <LongName>energy-efficiency-label</LongName>
-      <Version>1.0</Version>
-      <CanonicalUri/>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/energy-efficiency-label</LongName>
+      <Version>20241211-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/energy-efficiency-label</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -127,76 +128,76 @@
             <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'A' Energy efficiency label</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'A' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'A'</SimpleValue>
+            <SimpleValue>A</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -204,79 +205,79 @@
             <SimpleValue>ENERA1</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>A</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'A+' Energy efficiency label</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'A+' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'A+'</SimpleValue>
+            <SimpleValue>A+</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -287,76 +288,76 @@
             <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'A++' Energy efficiency label</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'A++' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'A++'</SimpleValue>
+            <SimpleValue>A++</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -367,76 +368,76 @@
             <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'A+++' Energy efficiency label</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'A+++' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'A+++'</SimpleValue>
+            <SimpleValue>A+++</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -447,76 +448,76 @@
             <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'B' Energy efficiency label</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'B' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'B'</SimpleValue>
+            <SimpleValue>B</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -527,76 +528,76 @@
             <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'C' Energy efficiency label</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'C' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'C'</SimpleValue>
+            <SimpleValue>C</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -607,76 +608,76 @@
             <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'D' Energy efficiency label</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'D' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'D'</SimpleValue>
+            <SimpleValue>D</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -687,76 +688,76 @@
             <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'E' Energy efficiency label</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'E' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'E'</SimpleValue>
+            <SimpleValue>E</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -767,76 +768,76 @@
             <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'F' Energy efficiency label</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'F' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'F'</SimpleValue>
+            <SimpleValue>F</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -847,76 +848,76 @@
             <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Енергийна ефективност етикет 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Energetický štítek 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Energimærke 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Energieeffizienzlabel 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ετικέτα ενεργειακής απόδοσης 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>'G' Energy efficiency label</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Etiqueta de eficiencia energética 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Energiamärgis 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Energiamerkki 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Étiquette d'efficacité énergétique 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Lipéad éifeachtachta fuinnimh 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Energetska oznaka 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>'G' energiahatékonysági címke</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Etichetta di efficienza energetica 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Energetinio naudingumo etiketė 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Energoefektivitātes etiķete 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Etiketta tal-Effiċjenza Enerġetika 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Energielabel 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Etykieta energetyczna 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Etiqueta de eficiência energética 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Eticheta de eficiență energetică 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Energetický štítok 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Energijska nalepka 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Energimärkning 'G'</SimpleValue>
+            <SimpleValue>G</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

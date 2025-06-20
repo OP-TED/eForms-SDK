@@ -4,8 +4,9 @@
    <Identification>
       <ShortName>EnergyEfficiencyItem</ShortName>
       <LongName>energy-efficiency-item</LongName>
-      <Version>1.0</Version>
-      <CanonicalUri/>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/energy-efficiency-item</LongName>
+      <Version>20241211-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/energy-efficiency-item</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -142,7 +143,7 @@
             <SimpleValue>Κλιματιστικά συμπεριλαμβανομένων αντλιών θερμότητας αέρα-αέρα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Air conditioners, including air-to-air heat pumps</SimpleValue>
+            <SimpleValue>Air conditioners including air-to-air heat pumps</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Acondicionadores de aire (incluidas las bombas de calor aire-aire)</SimpleValue>
@@ -181,7 +182,7 @@
             <SimpleValue>Airconditioners (met inbegrip van lucht-lucht-warmtepompen)</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Klimatyzatory, w tym pompy ciepła typu powietrze–powietrze</SimpleValue>
+            <SimpleValue>Klimatyzatory, w tym pompy ciepła typu powietrze–powietrze</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Aparelhos de ar condicionado, incluindo bombas de calor ar-ar</SimpleValue>
@@ -204,7 +205,7 @@
             <SimpleValue>building</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Building</SimpleValue>
+            <SimpleValue>Buildings</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Сгради</SimpleValue>
@@ -444,13 +445,13 @@
             <SimpleValue>cook-appl</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Domestic cooking appliances - ovens, range hoods, hobs </SimpleValue>
+            <SimpleValue>Domestic cooking appliances - ovens, range hoods, hobs</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Битови уреди за готвене — фурни, абсорбатори, котлони</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Kuchyňské spotřebiče pro domácnost – trouby, sporákové odsavače par, varné desky</SimpleValue>
+            <SimpleValue>Kuchyňské spotřebiče pro domácnost – trouby, sporákové odsavače par, varné desky</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Husholdningsapparater til madlavning – ovne, emhætter, kogeplader</SimpleValue>
@@ -462,10 +463,10 @@
             <SimpleValue>Οικιακές μαγειρικές συσκευές — φούρνοι, απορροφητήρες κουζίνας, εστίες</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Domestic cooking appliances – ovens, range hoods, hobs</SimpleValue>
+            <SimpleValue>Domestic cooking appliances - ovens, range hoods, hobs</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Electrodomésticos para cocinar: hornos, campanas extractoras y placas de cocina</SimpleValue>
+            <SimpleValue>Electrodomésticos para cocinar — hornos, campanas extractoras y placas de cocina</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
             <SimpleValue>Kodumajapidamises kasutatavad toiduvalmistamisseadmed – küpsetusahjud, pliidikubud, keeduplaadid</SimpleValue>
@@ -483,7 +484,7 @@
             <SimpleValue>Kućanski aparati za kuhanje – pećnice, nape, ploče za kuhanje</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Háztartási főzőkészülékek: sütők, páraelszívók, tűzhelyek</SimpleValue>
+            <SimpleValue>Háztartási főzőkészülékek — sütők, páraelszívók, tűzhelyek</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Apparecchi di cottura per uso domestico — forni, cappe da cucina, piastre di cottura</SimpleValue>
@@ -498,7 +499,7 @@
             <SimpleValue>Apparati domestiċi tat-tisjir - fran, range hoods, hobs</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Kooktoestellen voor huishoudelijk gebruik — ovens, afzuigkappen, kookplaten</SimpleValue>
+            <SimpleValue>Kooktoestellen voor huishoudelijk gebruik — ovens, afzuigkappen, kookplaten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>Domowe urządzenia do gotowania – piekarniki, okapy nadkuchenne, płyty grzejne</SimpleValue>
@@ -604,7 +605,7 @@
             <SimpleValue>el-mo-vsd</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Electric motors and variable speed drives </SimpleValue>
+            <SimpleValue>Electric motors and variable speed drives</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Електродвигатели и регулатори на честотата на въртене</SimpleValue>
@@ -661,7 +662,7 @@
             <SimpleValue>Elektromotoren en snelheidsvariatoren</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Silniki elektryczne i układy bezstopniowej regulacji prędkości obrotowej</SimpleValue>
+            <SimpleValue>Silniki elektryczne i układy bezstopniowej regulacji prędkości obrotowej</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Motores elétricos e variadores de velocidade</SimpleValue>
@@ -779,10 +780,10 @@
             <SimpleValue>Luftheizungs-/Kühlungsprodukte</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προϊόντα για θέρμανση αέρα / ψυκτικά προϊόντα</SimpleValue>
+            <SimpleValue>Προϊόντα για θέρμανση αέρα / ψυκτικά προϊόντα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Air heating / cooling products</SimpleValue>
+            <SimpleValue>Air heating/cooling products</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Productos de calentamiento de aire / de refrigeración</SimpleValue>
@@ -901,7 +902,7 @@
             <SimpleValue>Koelkasten en diepvriezers voor huishoudelijk gebruik</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Lodówki i zamrażarki domowe</SimpleValue>
+            <SimpleValue>Lodówki i zamrażarki domowe</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Frigoríficos e congeladores domésticos</SimpleValue>
@@ -1061,7 +1062,7 @@
             <SimpleValue>Lichtbronnen en voorschakelapparatuur</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Źródła światła i osprzęt sterujący</SimpleValue>
+            <SimpleValue>Źródła światła i osprzęt sterujący</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Fontes de luz e dispositivos de comando</SimpleValue>
@@ -1084,7 +1085,7 @@
             <SimpleValue>lo-spa-hea</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Local Space Heaters  </SimpleValue>
+            <SimpleValue>Local Space Heaters</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Локални отоплителни топлоизточници</SimpleValue>
@@ -1102,7 +1103,7 @@
             <SimpleValue>Τοπικοί θερμαντήρες χώρου</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Local space heaters</SimpleValue>
+            <SimpleValue>Local Space Heaters</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Aparatos de calefacción local</SimpleValue>
@@ -1221,7 +1222,7 @@
             <SimpleValue>Mobiele telefoons en tablets</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Telefony komórkowe i tablety</SimpleValue>
+            <SimpleValue>Telefony komórkowe i tablety</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Telemóveis e tábletes</SimpleValue>
@@ -1564,7 +1565,7 @@
             <SimpleValue>refri-appl</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Refrigerating appliances with a sales function</SimpleValue>
+            <SimpleValue>Refrigerating appliances with a direct sales function</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Хладилни уреди с функция за директна продажба</SimpleValue>
@@ -1621,7 +1622,7 @@
             <SimpleValue>Koelapparaten met een directe-verkoopfunctie</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Urządzenia chłodnicze z funkcją sprzedaży bezpośredniej</SimpleValue>
+            <SimpleValue>Urządzenia chłodnicze z funkcją sprzedaży bezpośredniej</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Aparelhos de refrigeração com função de venda direta</SimpleValue>
@@ -1644,7 +1645,7 @@
             <SimpleValue>ser-da-sto</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Servers and data storage products </SimpleValue>
+            <SimpleValue>Servers and data storage products</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Сървъри и продукти за съхранение на данни</SimpleValue>
@@ -1701,7 +1702,7 @@
             <SimpleValue>Servers en gegevensopslagproducten</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Serwery i produkty do przechowywania danych</SimpleValue>
+            <SimpleValue>Serwery i produkty do przechowywania danych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Servidores e produtos de armazenamento de dados</SimpleValue>
@@ -1710,7 +1711,7 @@
             <SimpleValue>Servere și produse pentru stocarea datelor</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Servery a dátové úložiská</SimpleValue>
+            <SimpleValue>Servery a dátové úložiská</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Strežniki in izdelki za shranjevanje podatkov</SimpleValue>
@@ -1763,7 +1764,7 @@
             <SimpleValue>Usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Szolgáltatások</SimpleValue>
+            <SimpleValue>Szolgáltatásmegrendelés</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Servizi</SimpleValue>
@@ -1804,7 +1805,7 @@
             <SimpleValue>spa-com-hea</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Space and combination heater</SimpleValue>
+            <SimpleValue>Space and combination heaters</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Отоплителни и комбинирани топлоизточници</SimpleValue>
@@ -1861,7 +1862,7 @@
             <SimpleValue>Ruimteverwarmingstoestellen en combinatieverwarmingstoestellen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Ogrzewacze pomieszczeń i ogrzewacze wielofunkcyjne</SimpleValue>
+            <SimpleValue>Ogrzewacze pomieszczeń i ogrzewacze wielofunkcyjne</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Aquecedores de ambiente e aquecedores combinados</SimpleValue>
@@ -1982,10 +1983,10 @@
             <SimpleValue>Τηλεοράσεις — εθνική νομοθεσία για ηλεκτρονικές διατάξεις απεικόνισης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>TVs – electronic displays national law</SimpleValue>
+            <SimpleValue>TVs - electronic displays national law</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Televisores/Televisiones: legislación nacional sobre pantallas electrónicas</SimpleValue>
+            <SimpleValue>Televisiones — legislación nacional sobre pantallas electrónicas</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
             <SimpleValue>Televiisorid – kuvarid (riiklikud õigusaktid)</SimpleValue>
@@ -2018,7 +2019,7 @@
             <SimpleValue>Televiżjonijiet - liġi nazzjonali dwar id-displays elettroniċi</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Tv’s — elektronische beeldschermen, nationale wetgeving</SimpleValue>
+            <SimpleValue>Tv’s — elektronische beeldschermen, nationale wetgeving</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>Telewizory – wyświetlacze elektroniczne, prawo krajowe</SimpleValue>
@@ -2044,7 +2045,7 @@
             <SimpleValue>tyres</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Tyres </SimpleValue>
+            <SimpleValue>Tyres</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Гуми</SimpleValue>
@@ -2124,7 +2125,7 @@
             <SimpleValue>vac-clea</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Vacuum cleaners </SimpleValue>
+            <SimpleValue>Vacuum cleaners</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Прахосмукачки</SimpleValue>
@@ -2204,7 +2205,7 @@
             <SimpleValue>ventila</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ventilation units  </SimpleValue>
+            <SimpleValue>Ventilation units</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Вентилационни агрегати</SimpleValue>
@@ -2284,7 +2285,7 @@
             <SimpleValue>wa-hea-tan</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Water heaters - storage tank and solar devices </SimpleValue>
+            <SimpleValue>Water heaters - storage tanks and solar devices</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Водоподгреватели — резервоари за вода и слънчеви съоръжения</SimpleValue>
@@ -2302,7 +2303,7 @@
             <SimpleValue>Θερμαντήρες νερού — δεξαμενές αποθήκευσης και ηλιακές συσκευές</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Water heaters – storage tanks and solar devices</SimpleValue>
+            <SimpleValue>Water heaters - storage tanks and solar devices</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Calentadores de agua, depósitos de agua caliente y dispositivos solares</SimpleValue>
@@ -2323,25 +2324,25 @@
             <SimpleValue>Grijači vode – spremnici i solarni uređaji</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Vízmelegítők: tárolótartályok és napenergia-készülékek</SimpleValue>
+            <SimpleValue>Vízmelegítők — tárolótartályok és napenergia-készülékek</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Scaldacqua - serbatoi per l'acqua e dispositivi solari</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Vandens šildytuvai-talpyklos ir saulės energijos įrenginiai</SimpleValue>
+            <SimpleValue>Vandens šildytuvai-talpyklos ir saulės energijos įrenginiai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Ūdenssildītāji — karstā ūdens tvertnes un saules enerģijas iekārtas</SimpleValue>
+            <SimpleValue>Ūdenssildītāji — karstā ūdens tvertnes un saules enerģijas iekārtas</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
             <SimpleValue>Ħiters tal-ilma - tankijiet tal-ħżin u apparati solari</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Waterverwarmingstoestellen — opslagtanks en zonne-energie-installaties</SimpleValue>
+            <SimpleValue>Waterverwarmingstoestellen — opslagtanks en zonne-energie-installaties</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Podgrzewacze wody – zbiorniki i urządzenia słoneczne</SimpleValue>
+            <SimpleValue>Podgrzewacze wody – zbiorniki i urządzenia słoneczne</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Aquecedores de água/reservatórios de água e dispositivos solares</SimpleValue>
@@ -2353,7 +2354,7 @@
             <SimpleValue>Ohrievače vody – zásobníky teplej vody a solárne zariadenia</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Grelniki in hranilniki vode ter solarne naprave</SimpleValue>
+            <SimpleValue>Grelniki in hranilniki vode ter solarne naprave</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Varmvattenberedare – ackumulatortankar och solvärmeutrustning</SimpleValue>
@@ -2501,7 +2502,7 @@
             <SimpleValue>Wasmachines en was-droogcombinaties</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Pralki i pralko-suszarki</SimpleValue>
+            <SimpleValue>Pralki i pralko-suszarki</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Máquinas de lavar e máquinas de lavar e secar roupa</SimpleValue>
@@ -2604,10 +2605,10 @@
             <SimpleValue>works</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Works </SimpleValue>
+            <SimpleValue>Works</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Строителни работи</SimpleValue>
+            <SimpleValue>Строителство</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>Práce</SimpleValue>
@@ -2616,7 +2617,7 @@
             <SimpleValue>Bygge- og anlægsarbejder</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Arbeiten</SimpleValue>
+            <SimpleValue>Bauleistungen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Έργα</SimpleValue>
@@ -2631,7 +2632,7 @@
             <SimpleValue>Ehitustööd</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Urakat</SimpleValue>
+            <SimpleValue>Rakennusurakat</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Travaux</SimpleValue>
@@ -2643,7 +2644,7 @@
             <SimpleValue>Radovi</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Kivitelezés</SimpleValue>
+            <SimpleValue>Építési beruházás</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Lavori</SimpleValue>
@@ -2658,7 +2659,7 @@
             <SimpleValue>Xogħlijiet</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Werkzaamheden</SimpleValue>
+            <SimpleValue>Werken</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>Roboty budowlane</SimpleValue>
@@ -2673,10 +2674,10 @@
             <SimpleValue>Práce</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Dela</SimpleValue>
+            <SimpleValue>Gradnje</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Byggnadsentreprenader</SimpleValue>
+            <SimpleValue>Byggentreprenader</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

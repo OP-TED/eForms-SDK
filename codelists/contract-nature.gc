@@ -5,7 +5,7 @@
       <ShortName>ContractNature</ShortName>
       <LongName>contract-nature</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/contract-nature</LongName>
-      <Version>20240612-0</Version>
+      <Version>20241211-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/contract-nature</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -164,7 +164,7 @@
             <SimpleValue>Usluge</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Szolgáltatások</SimpleValue>
+            <SimpleValue>Szolgáltatásmegrendelés</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Servizi</SimpleValue>
@@ -217,10 +217,10 @@
             <SimpleValue>Varer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Lieferungen</SimpleValue>
+            <SimpleValue>Lieferleistungen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Προμήθειες</SimpleValue>
+            <SimpleValue>Αγαθά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Supplies</SimpleValue>
@@ -229,10 +229,10 @@
             <SimpleValue>Suministros</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Tarned</SimpleValue>
+            <SimpleValue>Asjad</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Tavarat</SimpleValue>
+            <SimpleValue>Tavarahankinnat</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Fournitures</SimpleValue>
@@ -244,7 +244,7 @@
             <SimpleValue>Roba</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Árubeszerzések</SimpleValue>
+            <SimpleValue>Árubeszerzés</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>Forniture</SimpleValue>
@@ -256,7 +256,7 @@
             <SimpleValue>Piegādes</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Fornituri</SimpleValue>
+            <SimpleValue>Provvisti</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Leveringen</SimpleValue>
@@ -268,10 +268,10 @@
             <SimpleValue>Fornecimentos</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Bunuri</SimpleValue>
+            <SimpleValue>Produse</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Dodávky</SimpleValue>
+            <SimpleValue>Tovary</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Blago</SimpleValue>
@@ -291,13 +291,13 @@
             <SimpleValue>Строителство</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Stavební práce</SimpleValue>
+            <SimpleValue>Práce</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Bygge og anlæg</SimpleValue>
+            <SimpleValue>Bygge- og anlægsarbejder</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Bauleistung</SimpleValue>
+            <SimpleValue>Bauleistungen</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
             <SimpleValue>Έργα</SimpleValue>
@@ -309,13 +309,13 @@
             <SimpleValue>Obras</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Ehitustööde hankelepingud</SimpleValue>
+            <SimpleValue>Ehitustööd</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Urakat</SimpleValue>
+            <SimpleValue>Rakennusurakat</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Marché de travaux</SimpleValue>
+            <SimpleValue>Travaux</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Oibreacha</SimpleValue>
@@ -330,7 +330,7 @@
             <SimpleValue>Lavori</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>darbai</SimpleValue>
+            <SimpleValue>Darbai</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>Būvdarbi</SimpleValue>
