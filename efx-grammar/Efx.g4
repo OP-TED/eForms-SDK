@@ -58,20 +58,26 @@ templateFile: globalDeclaration* templateDeclaration* templateLine* EOF;
  * Global-declarations allow the definition of variables and/or functions that can be used throughout the entire template-file.
  */
 globalDeclaration
-    : Let (globalVariableDeclaration | functionDeclaration) Semicolon
+    : globalVariableDeclaration 
+    | dictionaryDeclaration 
+    | functionDeclaration
     ;
 
 /* 
  * You can capture this context to manage the scope of global variables.
  */
 globalVariableDeclaration    
-    : stringVariableInitializer
-    | booleanVariableInitializer 
-    | numericVariableInitializer
-    | dateVariableInitializer
-    | timeVariableInitializer 
-    | durationVariableInitializer
+    : Let stringVariableInitializer Semicolon
+    | Let booleanVariableInitializer  Semicolon
+    | Let numericVariableInitializer Semicolon
+    | Let dateVariableInitializer Semicolon
+    | Let timeVariableInitializer  Semicolon
+    | Let durationVariableInitializer Semicolon
     ;
+
+
+dictionaryDeclaration: Let VariablePrefix dictionaryName=Identifier Index field=fieldContext By (stringExpression | lateBoundScalar) Semicolon;
+dictionaryLookup: VariablePrefix dictionaryName=Identifier OpenBracket (stringExpression | lateBoundScalar) CloseBracket;
 
 /* 
  * A template line contains three parts: indentation, context-declaration, and template.
@@ -253,12 +259,12 @@ functionDeclaration
     | durationFunctionDeclaration
     ;
 
-stringFunctionDeclaration:      Text      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (stringExpression   | lateBoundExpression);
-booleanFunctionDeclaration:     Indicator Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (booleanExpression  | lateBoundExpression);
-numericFunctionDeclaration:     Number    Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericExpression  | lateBoundExpression);
-dateFunctionDeclaration:        Date      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateExpression     | lateBoundExpression);
-timeFunctionDeclaration:        Time      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeExpression     | lateBoundExpression);
-durationFunctionDeclaration:    Measure   Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundExpression);
+stringFunctionDeclaration:      Let Text      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (stringExpression   | lateBoundExpression) Semicolon;
+booleanFunctionDeclaration:     Let Indicator Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (booleanExpression  | lateBoundExpression) Semicolon;
+numericFunctionDeclaration:     Let Number    Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericExpression  | lateBoundExpression) Semicolon;
+dateFunctionDeclaration:        Let Date      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateExpression     | lateBoundExpression) Semicolon;
+timeFunctionDeclaration:        Let Time      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeExpression     | lateBoundExpression) Semicolon;
+durationFunctionDeclaration:    Let Measure   Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundExpression) Semicolon;
 
 functionInvocation:         FunctionPrefix functionName=Identifier OpenParenthesis argumentList? CloseParenthesis;
 
@@ -301,7 +307,16 @@ parameterValue: StartExpression (stringLiteral | numericLiteral | dateLiteral | 
   Expressions
  **************************************/
 
-expression: lateBoundExpression | numericExpression | stringExpression | booleanExpression | dateExpression | timeExpression | durationExpression | sequenceExpression;
+expression
+    : lateBoundExpression 
+    | numericExpression 
+    | stringExpression 
+    | booleanExpression 
+    | dateExpression 
+    | timeExpression 
+    | durationExpression 
+    | sequenceExpression 
+    ;
 
 
 
@@ -697,6 +712,7 @@ lateBoundSequenceReference
     | fieldReference            # sequenceFromFieldReference
     | variableReference         # sequenceFromVariableReference
     | functionInvocation        # sequenceFromFunctionInvocation
+    | dictionaryLookup          # sequenceFromDictionaryLookup
     ;
 
 lateBoundScalar
@@ -711,6 +727,7 @@ lateBoundScalarReference
     | fieldReference            # scalarFromFieldReference
     | variableReference         # scalarFromVariableReference
     | functionInvocation        # scalarFromFunctionInvocation
+    | dictionaryLookup          # scalarFromDictionaryLookup 
     ;
 
 variableReference: VariablePrefix variableName=Identifier;
