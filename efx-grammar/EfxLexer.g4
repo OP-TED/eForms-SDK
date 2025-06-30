@@ -263,6 +263,8 @@ Date: 'date';
 Time: 'time';
 Measure: 'measure';
 Template: 'template';
+Index: INDEX;
+By: BY;
 
 // Data types ------------------------------------------------------------------------------------------------
 
@@ -383,6 +385,8 @@ fragment INVOKE: ('INVOKE' | 'invoke');
 fragment DISPLAY: ('DISPLAY' | 'display');
 fragment WHEN: ('WHEN' | 'when');
 fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
+fragment INDEX: ('INDEX' | 'index');
+fragment BY: ('BY' | 'by');
 fragment COMMENT: '//' ~[\r\n\f]*;
 
 fragment TAB: [\t];
