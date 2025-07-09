@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informacije o rokih za revizijo' (BT-99-Lot) ni izpolnjen</entry>
 <entry key="expression|name|203">Oddan ni bil noben sklop</entry>
 <entry key="expression|name|204">'ID izbrane ponudbe' (BT-3202-Contract) ni izpolnjeno</entry>
-<entry key="expression|name|205">'Vrsta postopka' (BT-105) ni 'S pogajanji, brez predhodnega javnega razpisa'; 'Pravna podlaga' (BT-01) ni 'Uredba (EU, Euratom) 2018/1046'; vsaj eno 'ID izbrane ponudbe' (BT-3202-Contract) je izpolnjeno</entry>
 <entry key="expression|name|206">'Javno naročilo se odda na podlagi okvirnega sporazuma' (BT-768-Contract) ni 'da'</entry>
 <entry key="expression|name|207">'Identifikator ponudbe' (BT-3201-Tender) je izpolnjeno</entry>
 <entry key="expression|name|209">'Različica prejšnjega obvestila, ki se spreminja' (BT-758-notice) ni izpolnjeno</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Koda izbirnega kriterija (BT-809) ne obstaja</entry>
 <entry key="expression|name|616">Organizacija je kupec, in dinamični sistem nakupa je uporaben tudi za kupce, ki niso navedeni v tem obvestilu, in 'Osrednji nabavni organ, ki nabavlja blago in/ali storitve za druge kupce' (OPP-052) ni izpolnjeno</entry>
 <entry key="expression|name|617">Organizacija je kupec, in dinamični sistem nakupa je uporaben tudi za kupce, ki niso navedeni v tem obvestilu, in 'Osrednji nabavni organ, ki nabavlja blago in/ali storitve za druge kupce' (OPP-052) ni izpolnjeno</entry>
-<entry key="expression|name|618">'Postopek je pospešen' (BT-106-Procedure) je 'da'</entry>
 <entry key="expression|name|619">'Postopek je pospešen' (BT-106-Procedure) je 'da'</entry>
 <entry key="expression|name|62">'Status izbire ponudnika' (BT-142-LotResult) ni 'Zmagovalec ni bil izbran, javni razpis pa je zaključen.'</entry>
 <entry key="expression|name|620">'Postopek je pospešen' (BT-106-Procedure) je 'da'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Pogoji za sodelovanje' (BT-809-Lot) ne obstaja ali 'Postopek se bo odvijal v zaporednih stopnjah. Na vsaki stopnji se lahko izločijo nekateri sodelujoči' (BT-52-Lot) ni 'da' ali 'Vrsta postopka' (BT-105) ni 'Konkurenčni dialog', 'Partnerstvo za inovacije', 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji', 'Drugi večstopenjski postopek' ali 'Omejeni postopek'</entry>
 <entry key="expression|name|67">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>
 <entry key="expression|name|671">'Številka je vrsta ponderja' (BT-5421) ni 'Vrstni red glede na pomembnost'</entry>
+<entry key="expression|name|679">'Vrsta postopka' (BT-105-Procedure) ni 'S pogajanji, brez predhodnega javnega razpisa' in 'Pravna podlaga' (BT-01-notice) ni 'Uredba (EU, Euratom) 2024/2509' in obstaja vsaj en 'ID izbrane ponudbe' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Vrednost oddaje naročil podizvajalcem je znana' (BT-730-Tender) ni 'da'</entry>
 <entry key="expression|name|69">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>
-<entry key="expression|name|699">'Vrsta postopka' (BT-105) ni 'S pogajanji, brez predhodnega javnega razpisa'; 'Pravna podlaga' (BT-01) ni 'Uredba (EU, Euratom) 2018/1046'; 'Pravna podlaga' (BT-01) ni 'Uredba (EU, Euratom) 2024/2509'; obstaja vsaj en 'ID izbrane ponudbe' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Država' (BT-5141-Part) je izpolnjeno</entry>
 <entry key="expression|name|70">'Delež oddaje naročil podizvajalcem je znan' (BT-731-Tender) ni 'da'</entry>
 <entry key="expression|name|71">'Oddaja naročil podizvajalcem' (BT-773-Tender) je 'Da'</entry>

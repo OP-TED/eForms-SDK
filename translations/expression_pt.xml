@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informações sobre os prazos de recurso' (BT-99-Lot) não está preenchido</entry>
 <entry key="expression|name|203">Nenhum lote foi adjudicado</entry>
 <entry key="expression|name|204">'Identificador da proposta do contrato' (BT-3202-Contract) não está preenchido</entry>
-<entry key="expression|name|205">'Tipo de procedimento' (BT-105) não é 'Por negociação sem abertura prévia de concurso'; 'Base jurídica' (BT-01) não é 'Regulamento (UE, Euratom) 2018/1046'; pelo menos um 'Identificador da proposta do contrato' (BT-3202-Contract) está preenchido</entry>
 <entry key="expression|name|206">'O contrato é adjudicado no âmbito de um acordo-quadro' (BT-768-Contract) não é 'sim'</entry>
 <entry key="expression|name|207">'Identificador da proposta' (BT-3201-Tender) está preenchido</entry>
 <entry key="expression|name|209">'Versão do anúncio anterior a alterar' (BT-758-notice) não está preenchido</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">O código do critério de seleção (BT-809) não existe</entry>
 <entry key="expression|name|616">A organização é um comprador, e o sistema de compra dinâmico também pode ser usado por compradores não listados neste aviso, e 'Central de compras que adquire fornecimentos e/ou serviços destinados a outros adquirentes' (OPP-052) não está preenchido</entry>
 <entry key="expression|name|617">A organização é um comprador, e o sistema de compra dinâmico também pode ser usado por compradores não listados neste aviso, e 'Central de compras que adquire fornecimentos e/ou serviços destinados a outros adquirentes' (OPP-052) não está preenchido</entry>
-<entry key="expression|name|618">'O procedimento é acelerado' (BT-106-Procedure) é 'sim'</entry>
 <entry key="expression|name|619">'O procedimento é acelerado' (BT-106-Procedure) é 'sim'</entry>
 <entry key="expression|name|62">'Estatuto de seleção do vencedor' (BT-142-LotResult) não é 'O vencedor foi selecionado e o concurso está fechado.'</entry>
 <entry key="expression|name|620">'O procedimento é acelerado' (BT-106-Procedure) é 'sim'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Critérios de seleção' (BT-809-Lot) não existe ou 'O procedimento irá decorrer em fases sucessivas. Em cada fase, alguns participantes podem ser eliminados' (BT-52-Lot) não é 'sim' ou 'Tipo de procedimento' (BT-105) não é 'Diálogo concorrencial', 'Parcerias para a inovação', 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação', 'Outro processo em múltiplas fases' ou 'Limitado'</entry>
 <entry key="expression|name|67">'Subcontratação' (BT-773-Tender) não é 'Sim'</entry>
 <entry key="expression|name|671">'O número é um tipo de fator de ponderação' (BT-5421) não é 'Ordem de importância'</entry>
+<entry key="expression|name|679">'Tipo de procedimento' (BT-105-Procedure) não é 'Por negociação sem abertura prévia de concurso' e 'Base jurídica' (BT-01-notice) não é 'Regulamento (UE, Euratom) 2024/2509' e há pelo menos um 'Identificador da proposta do contrato' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'O valor da subcontratação é conhecido' (BT-730-Tender) não é 'sim'</entry>
 <entry key="expression|name|69">'Subcontratação' (BT-773-Tender) não é 'Sim'</entry>
-<entry key="expression|name|699">'Tipo de procedimento' (BT-105) não é 'Por negociação sem abertura prévia de concurso'; 'Base jurídica' (BT-01) não é 'Regulamento (UE, Euratom) 2018/1046'; 'Base jurídica' (BT-01) não é 'Regulamento (UE, Euratom) 2024/2509'; há pelo menos um 'Identificador da proposta do contrato' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'País' (BT-5141-Part) está preenchido</entry>
 <entry key="expression|name|70">'A percentagem da subcontratação é conhecida' (BT-731-Tender) não é 'sim'</entry>
 <entry key="expression|name|71">'Subcontratação' (BT-773-Tender) é 'Sim'</entry>

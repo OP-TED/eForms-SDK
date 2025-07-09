@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informace o lhůtách pro přezkum' (BT-99-Lot) není vyplněn</entry>
 <entry key="expression|name|203">Žádné položky nebyly zadány</entry>
 <entry key="expression|name|204">'Identifikátor nabídky zakázky' (BT-3202-Contract) není vyplněn</entry>
-<entry key="expression|name|205">'Typ řízení' (BT-105) není 'Jednací řízení bez uveřejnění'; 'Právní základ' (BT-01) není 'Nařízení (EU, Euratom) 2018/1046'; alespoň jeden 'Identifikátor nabídky zakázky' (BT-3202-Contract) je vyplněn</entry>
 <entry key="expression|name|206">'Zakázka je zadána na základě rámcové dohody' (BT-768-Contract) není 'ano'</entry>
 <entry key="expression|name|207">'Identifikátor nabídky' (BT-3201-Tender) je vyplněn</entry>
 <entry key="expression|name|209">'Znění předchozího oznámení, které má být změněno' (BT-758-notice) není vyplněn</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Kód kritéria výběru (BT-809) neexistuje</entry>
 <entry key="expression|name|616">Organizace je kupující a dynamický nákupní systém mohou využívat také kupující, kteří nejsou uvedeni v tomto oznámení, a 'Centrální zadavatel pořizující dodávky a/nebo služby určené pro jiné kupující' (OPP-052) není vyplněno</entry>
 <entry key="expression|name|617">Organizace je kupující a dynamický nákupní systém mohou využívat také kupující, kteří nejsou uvedeni v tomto oznámení, a 'Centrální zadavatel pořizující dodávky a/nebo služby určené pro jiné kupující' (OPP-052) není vyplněno</entry>
-<entry key="expression|name|618">'Řízení se zrychlí' (BT-106-Procedure) je 'ano'</entry>
 <entry key="expression|name|619">'Řízení se zrychlí' (BT-106-Procedure) je 'ano'</entry>
 <entry key="expression|name|62">'Stav výběru vítěze' (BT-142-LotResult) není 'Vítěz nebyl vybrán a soutěž je ukončena.'</entry>
 <entry key="expression|name|620">'Řízení se zrychlí' (BT-106-Procedure) je 'ano'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Kritéria výběru' (BT-809-Lot) neexistuje nebo 'Řízení proběhne v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni' (BT-52-Lot) není 'ano' nebo 'Typ řízení' (BT-105) není 'Soutěžní dialog', 'Inovační partnerství', 'Jednací řízení s uveřejněním / jednací řízení', 'Jiné vícefázové řízení' nebo 'Užší'</entry>
 <entry key="expression|name|67">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
 <entry key="expression|name|671">'Číslo je typem váhy' (BT-5421) není 'Pořadí důležitosti'</entry>
+<entry key="expression|name|679">'Typ řízení' (BT-105-Procedure) není 'Jednací řízení bez uveřejnění' a 'Právní základ' (BT-01-notice) není 'Nařízení (EU, Euratom) 2024/2509' a existuje alespoň jeden 'Identifikátor nabídky zakázky' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Hodnota subdodávky je známa' (BT-730-Tender) není 'ano'</entry>
 <entry key="expression|name|69">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
-<entry key="expression|name|699">'Typ řízení' (BT-105) není 'Jednací řízení bez uveřejnění'; 'Právní základ' (BT-01) není 'Nařízení (EU, Euratom) 2018/1046'; 'Právní základ' (BT-01) není 'Nařízení (EU, Euratom) 2024/2509'; existuje alespoň jeden 'Identifikátor nabídky zakázky' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Země' (BT-5141-Part) je vyplněn</entry>
 <entry key="expression|name|70">'Procentní podíl subdodávky je znám' (BT-731-Tender) není 'ano'</entry>
 <entry key="expression|name|71">'Subdodávky' (BT-773-Tender) je 'Ano'</entry>

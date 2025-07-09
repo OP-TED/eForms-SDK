@@ -107,7 +107,6 @@
 <entry key="expression|name|202">'Information about review deadlines' (BT-99-Lot) is not filled in</entry>
 <entry key="expression|name|203">No lots have been awarded</entry>
 <entry key="expression|name|204">'Contract tender identifier' (BT-3202-Contract) is not filled in</entry>
-<entry key="expression|name|205">'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; at least one 'Contract tender identifier' (BT-3202-Contract) is filled in</entry>
 <entry key="expression|name|206">'The contract is awarded within a framework agreement' (BT-768-Contract) is not 'yes'</entry>
 <entry key="expression|name|207">'Tender identifier' (BT-3201-Tender) is filled in</entry>
 <entry key="expression|name|209">'Version of the previous notice to be changed' (BT-758-notice) is not filled in</entry>
@@ -422,7 +421,6 @@
 <entry key="expression|name|615">The selection criterion (BT-809) code does not exist</entry>
 <entry key="expression|name|616">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>
 <entry key="expression|name|617">The organisation is a buyer, and the dynamic purchasing system is also usable by buyers not listed in this notice, and 'Central purchasing body acquiring supplies and/or services intended for other buyers' (OPP-052) is not filled in</entry>
-<entry key="expression|name|618">'The procedure is accelerated' (BT-106-Procedure) is 'yes'</entry>
 <entry key="expression|name|619">'The procedure is accelerated' (BT-106-Procedure) is 'yes'</entry>
 <entry key="expression|name|62">'Winner selection status' (BT-142-LotResult) is not 'No winner was chosen and the competition is closed.'</entry>
 <entry key="expression|name|620">'The procedure is accelerated' (BT-106-Procedure) is 'yes'</entry>
@@ -485,9 +483,14 @@
 <entry key="expression|name|672">the Lot has no DPS and no Framework Agreement</entry>
 <entry key="expression|name|673">the Lot has a DPS and no Framework Agreement</entry>
 <entry key="expression|name|674">the Lot has a Framework Agreement, no contract within a Framework Agreement and no DPS</entry>
+<entry key="expression|name|675">the contract involves Works or Services</entry>
+<entry key="expression|name|676">the Tendering Party is composedof less than 2 Main Tenderers</entry>
+<entry key="expression|name|677">no framework agreement was involved, or Framework Maximum Value (BT-709-LotResult) is not present</entry>
+<entry key="expression|name|678">there is no LotResult, or there is no Tender for the Lot covered by the LotResult and no Tender for any Group of Lot that would contain the Lot of the LotResult, or there is no tender and no lot is specified for the LotResult</entry>
+<entry key="expression|name|679">'Type of procedure' (BT-105-Procedure) is not 'Negotiated without prior call for competition' and 'Legal basis' (BT-01-notice) is not 'Regulation (EU, Euratom) 2024/2509' and there is at least one 'Contract tender identifier' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Subcontracting value is known' (BT-730-Tender) is not 'yes'</entry>
+<entry key="expression|name|680">'Legal basis' (BT-01-notice) is 'Directive 2014/24/EU' or 'Regulation (EU, Euratom) 2024/2509', and 'The procedure is accelerated' (BT-106-Procedure) is 'yes'</entry>
 <entry key="expression|name|69">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
-<entry key="expression|name|699">'Type of procedure' (BT-105) is not 'Negotiated without prior call for competition'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2018/1046'; 'Legal basis' (BT-01) is not 'Regulation (EU, Euratom) 2024/2509'; there is at least one 'Contract tender identifier' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Country' (BT-5141-Part) is filled in</entry>
 <entry key="expression|name|70">'Subcontracting percentage is known' (BT-731-Tender) is not 'yes'</entry>
 <entry key="expression|name|71">'Subcontracting' (BT-773-Tender) is 'Yes'</entry>

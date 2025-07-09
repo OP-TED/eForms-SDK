@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Oplysninger om klagefrister' (BT-99-Lot) er ikke udfyldt</entry>
 <entry key="expression|name|203">Der er ikke blevet tildelt nogen partier</entry>
 <entry key="expression|name|204">'Kontrakt udbuds-ID' (BT-3202-Contract) er ikke udfyldt</entry>
-<entry key="expression|name|205">'Udbudsprocedure' (BT-105) er ikke 'Udbud med forhandling uden forudgående offentliggørelse'; 'Retsgrundlag' (BT-01) er ikke 'Forordning (EU, Euratom) 2018/1046'; mindst 1 'Kontrakt udbuds-ID' (BT-3202-Contract) er udfyldt</entry>
 <entry key="expression|name|206">'Kontrakten tildeles som led i en rammeaftale' (BT-768-Contract) er ikke 'ja'</entry>
 <entry key="expression|name|207">'Tilbud – Identifikator' (BT-3201-Tender) er udfyldt</entry>
 <entry key="expression|name|209">'Udgave af den foregående bekendtgørelse, der skal ændres' (BT-758-notice) er ikke udfyldt</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Udvælgelseskriteriet (BT-809) kode findes ikke</entry>
 <entry key="expression|name|616">Organisationen er en køber, og det dynamiske indkøbssystem kan også bruges af købere, der ikke er opført i denne meddelelse, og 'Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser tiltænkt andre købere' (OPP-052) er ikke udfyldt</entry>
 <entry key="expression|name|617">Organisationen er en køber, og det dynamiske indkøbssystem kan også bruges af købere, der ikke er opført i denne meddelelse, og 'Indkøbscentral, der rekvirerer vareleverancer og/eller tjenesteydelser tiltænkt andre købere' (OPP-052) er ikke udfyldt</entry>
-<entry key="expression|name|618">'Proceduren er en hasteprocedure' (BT-106-Procedure) er 'ja'</entry>
 <entry key="expression|name|619">'Proceduren er en hasteprocedure' (BT-106-Procedure) er 'ja'</entry>
 <entry key="expression|name|62">'Status for udvælgelse af vinder' (BT-142-LotResult) er ikke 'Der er ikke udvalgt en vinder, og konkurrencen er afsluttet.'</entry>
 <entry key="expression|name|620">'Proceduren er en hasteprocedure' (BT-106-Procedure) er 'ja'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Udvælgelseskriterier' (BT-809-Lot) findes ikke eller 'Proceduren afvikles i successive faser. I hver fase kan nogle ansøgere blive' (BT-52-Lot) er ikke 'ja' eller 'Udbudsprocedure' (BT-105) er ikke 'Konkurrencepræget dialog', 'Innovationspartnerskab', 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse', 'Anden procedure, der afvikles i flere faser' eller 'Begrænset'</entry>
 <entry key="expression|name|67">'Underentreprise' (BT-773-Tender) er ikke 'Ja'</entry>
 <entry key="expression|name|671">'Værdien er en vægt' (BT-5421) er ikke 'Prioriteret rækkefølge'</entry>
+<entry key="expression|name|679">'Udbudsprocedure' (BT-105-Procedure) er ikke 'Udbud med forhandling uden forudgående offentliggørelse' og 'Retsgrundlag' (BT-01-notice) er ikke 'Forordning (EU, Euratom) 2024/2509' og der er mindst en 'Kontrakt udbuds-ID' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Underentrepriseværdien er kendt' (BT-730-Tender) er ikke 'ja'</entry>
 <entry key="expression|name|69">'Underentreprise' (BT-773-Tender) er ikke 'Ja'</entry>
-<entry key="expression|name|699">'Udbudsprocedure' (BT-105) er ikke 'Udbud med forhandling uden forudgående offentliggørelse'; 'Retsgrundlag' (BT-01) er ikke 'Forordning (EU, Euratom) 2018/1046'; 'Retsgrundlag' (BT-01) er ikke 'Forordning (EU, Euratom) 2024/2509'; der er mindst en 'Kontrakt udbuds-ID' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) er udfyldt</entry>
 <entry key="expression|name|70">'Underentrepriseprocentdelen er kendt' (BT-731-Tender) er ikke 'ja'</entry>
 <entry key="expression|name|71">'Underentreprise' (BT-773-Tender) er 'Ja'</entry>

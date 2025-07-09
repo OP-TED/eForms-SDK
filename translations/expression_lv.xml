@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informācija par pārskatīšanas termiņiem' (BT-99-Lot) nav aizpildīts</entry>
 <entry key="expression|name|203">Līguma slēgšanas tiesības netika piešķirtas par nevienu daļu</entry>
 <entry key="expression|name|204">'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract) nav aizpildīta</entry>
-<entry key="expression|name|205">'Procedūras veids' (BT-105) nav 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas'; 'Juridiskais pamats' (BT-01) nav 'Regula (ES, Euratom) 2018/1046'; vismaz viena 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract) ir aizpildīta</entry>
 <entry key="expression|name|206">'Līguma slēgšanas tiesības piešķir saskaņā ar pamatnolīgumu' (BT-768-Contract) nav 'jā'</entry>
 <entry key="expression|name|207">'Piedāvājuma identifikators' (BT-3201-Tender) ir aizpildīta</entry>
 <entry key="expression|name|209">'Paziņojuma versija, kurā veicamas izmaiņas' (BT-758-notice) nav aizpildīta</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Izvēles kritērija (BT-809) kods neeksistē</entry>
 <entry key="expression|name|616">Organizācija ir pircējs, un dinamiskā iepirkuma sistēma ir arī izmantojama pircējiem, kas nav norādīti šajā paziņojumā, un 'Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus' (OPP-052) nav aizpildīts</entry>
 <entry key="expression|name|617">Organizācija ir pircējs, un dinamiskā iepirkuma sistēma ir arī izmantojama pircējiem, kas nav norādīti šajā paziņojumā, un 'Centralizēto iepirkumu struktūra, kas iegādājas citiem pircējiem paredzētas preces un/vai pakalpojumus' (OPP-052) nav aizpildīts</entry>
-<entry key="expression|name|618">'Procedūra ir paātrināta' (BT-106-Procedure) ir 'jā'</entry>
 <entry key="expression|name|619">'Procedūra ir paātrināta' (BT-106-Procedure) ir 'jā'</entry>
 <entry key="expression|name|62">'Uzvarētāja atlases statuss' (BT-142-LotResult) nav 'Uzvarētājs netika izraudzīts, un konkurss ir slēgts.'</entry>
 <entry key="expression|name|620">'Procedūra ir paātrināta' (BT-106-Procedure) ir 'jā'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Atlases kritēriji' (BT-809-Lot) neeksistē vai 'Procedūra notiks secīgos posmos. Katrā posmā daži dalībnieki var tikt izslēgti' (BT-52-Lot) nav 'jā' vai 'Procedūras veids' (BT-105) nav 'Konkursa dialogs', 'Inovācijas partnerība', 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām', 'Cita daudzpakāpju procedūra' vai 'Slēgta'</entry>
 <entry key="expression|name|67">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>
 <entry key="expression|name|671">'Skaitlis ir svēruma veids' (BT-5421) nav 'Secība pēc nozīmīguma'</entry>
+<entry key="expression|name|679">'Procedūras veids' (BT-105-Procedure) nav 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas' un 'Juridiskais pamats' (BT-01-notice) nav 'Regula (ES, Euratom) 2024/2509' un ir vismaz viens 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Apakšuzņēmuma līguma vērtība zināma' (BT-730-Tender) nav 'jā'</entry>
 <entry key="expression|name|69">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>
-<entry key="expression|name|699">'Procedūras veids' (BT-105) nav 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas'; 'Juridiskais pamats' (BT-01) nav 'Regula (ES, Euratom) 2018/1046'; 'Juridiskais pamats' (BT-01) nav 'Regula (ES, Euratom) 2024/2509'; ir vismaz viens 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Valsts' (BT-5141-Part) ir aizpildīta</entry>
 <entry key="expression|name|70">'Apakšuzņēmuma līgumu procentuālā daļa ir zināma' (BT-731-Tender) nav 'jā'</entry>
 <entry key="expression|name|71">'Apakšuzņēmēju piesaiste' (BT-773-Tender) ir 'Jā'</entry>

@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informácie o lehotách na preskúmanie' (BT-99-Lot) nie je vyplnený</entry>
 <entry key="expression|name|203">Neboli pridelené žiadne časti</entry>
 <entry key="expression|name|204">'Identifikátor ponuky' (BT-3202-Contract) nie je vyplnený</entry>
-<entry key="expression|name|205">'Druh postupu' (BT-105) nie je 'Rokovacie konanie bez zverejnenia výzvy na súťaž'; 'Právny základ' (BT-01) nie je 'Nariadenie (EÚ, Euratom) 2018/1046'; aspoň jeden 'Identifikátor ponuky' (BT-3202-Contract) je vyplnený</entry>
 <entry key="expression|name|206">'Zmluva je uzavretá na základe rámcovej dohody' (BT-768-Contract) nie je 'áno'</entry>
 <entry key="expression|name|207">'Identifikátor ponuky' (BT-3201-Tender) je vyplnený</entry>
 <entry key="expression|name|209">'Verzia prechádzajúceho oznámenia, ktorá sa má upraviť' (BT-758-notice) nie je vyplnený</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Kód kritéria výberu (BT-809) neexistuje</entry>
 <entry key="expression|name|616">Organizácia je kupujúci, a dynamický nákupný systém je tiež použiteľný kupujúcimi, ktorí nie sú uvedení v tomto oznámení, a 'Centrálna obstarávacia organizácia, ktorá obstaráva dodávky tovaru a/alebo služby určené pre iných kupujúcich' (OPP-052) nie je vyplnený</entry>
 <entry key="expression|name|617">Organizácia je kupujúci, a dynamický nákupný systém je tiež použiteľný kupujúcimi, ktorí nie sú uvedení v tomto oznámení, a 'Centrálna obstarávacia organizácia, ktorá obstaráva dodávky tovaru a/alebo služby určené pre iných kupujúcich' (OPP-052) nie je vyplnený</entry>
-<entry key="expression|name|618">'Postup je zrýchlený' (BT-106-Procedure) je 'áno'</entry>
 <entry key="expression|name|619">'Postup je zrýchlený' (BT-106-Procedure) je 'áno'</entry>
 <entry key="expression|name|62">'Stav výberu víťaza' (BT-142-LotResult) nie je 'Nebol vybratý žiadny víťaz a súťaž je ukončená.'</entry>
 <entry key="expression|name|620">'Postup je zrýchlený' (BT-106-Procedure) je 'áno'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Podmienky účasti' (BT-809-Lot) neexistuje alebo 'Postup prebieha v po sebe nasledujúcich fázach. V každej fáze môžu byť niektorí účastníci vylúčení' (BT-52-Lot) nie je 'áno' alebo 'Druh postupu' (BT-105) nie je 'Súťažný dialóg', 'Inovatívne partnerstvo', 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním', 'Iný viacfázový postup' alebo 'Užšia súťaž'</entry>
 <entry key="expression|name|67">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je 'Áno'</entry>
 <entry key="expression|name|671">'Číslo je typom váhy' (BT-5421) nie je 'Poradie dôležitosti'</entry>
+<entry key="expression|name|679">'Druh postupu' (BT-105-Procedure) nie je 'Rokovacie konanie bez zverejnenia výzvy na súťaž' a 'Právny základ' (BT-01-notice) nie je 'Nariadenie (EÚ, Euratom) 2024/2509' a existuje aspoň jeden 'Identifikátor ponuky' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Hodnota subdodávky je známa' (BT-730-Tender) nie je 'áno'</entry>
 <entry key="expression|name|69">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je 'Áno'</entry>
-<entry key="expression|name|699">'Druh postupu' (BT-105) nie je 'Rokovacie konanie bez zverejnenia výzvy na súťaž'; 'Právny základ' (BT-01) nie je 'Nariadenie (EÚ, Euratom) 2018/1046'; 'Právny základ' (BT-01) nie je 'Nariadenie (EÚ, Euratom) 2024/2509'; existuje aspoň jeden 'Identifikátor ponuky' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Krajina' (BT-5141-Part) je vyplnený</entry>
 <entry key="expression|name|70">'Percentuálny podiel subdodávok je známy' (BT-731-Tender) nie je 'áno'</entry>
 <entry key="expression|name|71">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) je 'Áno'</entry>

@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informacje o terminach odwołania' (BT-99-Lot) nie jest wypełniony</entry>
 <entry key="expression|name|203">Nie udzielono zamówienia na żadne części</entry>
 <entry key="expression|name|204">'Umowa - identyfikator oferty' (BT-3202-Contract) nie jest wypełnione</entry>
-<entry key="expression|name|205">'Rodzaj procedury' (BT-105) nie jest 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie'; 'Podstawa prawna' (BT-01) nie jest 'Rozporządzenie (UE, Euratom) 2018/1046'; przynajmniej jedno 'Umowa - identyfikator oferty' (BT-3202-Contract) jest wypełnione</entry>
 <entry key="expression|name|206">'Zamówienie jest udzielane w ramach umowy ramowej' (BT-768-Contract) nie jest 'tak'</entry>
 <entry key="expression|name|207">'Identyfikator oferty' (BT-3201-Tender) jest wypełnione</entry>
 <entry key="expression|name|209">'Poprzednia wersja ogłoszenia, która jest zmieniana' (BT-758-notice) nie jest wypełnione</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Kod kryterium wyboru (BT-809) nie istnieje</entry>
 <entry key="expression|name|616">Organizacja jest nabywcą, a dynamiczny system zakupów może być również używany przez nabywców nie wymienionych w tym zawiadomieniu, a 'Centralna jednostka zakupująca nabywająca dostawy i/lub usługi przeznaczone dla innych nabywców' (OPP-052) nie jest wypełnione</entry>
 <entry key="expression|name|617">Organizacja jest nabywcą, a dynamiczny system zakupów może być również używany przez nabywców nie wymienionych w tym zawiadomieniu, a 'Centralna jednostka zakupująca nabywająca dostawy i/lub usługi przeznaczone dla innych nabywców' (OPP-052) nie jest wypełnione</entry>
-<entry key="expression|name|618">'Procedura jest przyspieszona' (BT-106-Procedure) jest 'tak'</entry>
 <entry key="expression|name|619">'Procedura jest przyspieszona' (BT-106-Procedure) jest 'tak'</entry>
 <entry key="expression|name|62">'Status wyboru zwycięzcy' (BT-142-LotResult) nie jest 'Nie wyłoniono zwycięzcy, a procedura konkurencyjna została zamknięta.'</entry>
 <entry key="expression|name|620">'Procedura jest przyspieszona' (BT-106-Procedure) jest 'tak'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Kryteria kwalifikacji' (BT-809-Lot) nie istnieje lub 'Procedura zostanie przeprowadzona w kolejnych etapach. Na każdym etapie niektórzy uczestnicy mogą zostać wyeliminowani' (BT-52-Lot) nie jest 'tak' lub 'Rodzaj procedury' (BT-105) nie jest 'Dialog konkurencyjny', 'Partnerstwo innowacyjne', 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami', 'Inna procedura wieloetapowa' lub 'Ograniczona'</entry>
 <entry key="expression|name|67">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>
 <entry key="expression|name|671">'Liczba jest rodzajem wagi' (BT-5421) nie jest 'Kolejność według ważności'</entry>
+<entry key="expression|name|679">'Rodzaj procedury' (BT-105-Procedure) nie jest 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie' i 'Podstawa prawna' (BT-01-notice) nie jest 'Rozporządzenie (UE, Euratom) 2024/2509' i jest co najmniej jeden 'Umowa - identyfikator oferty' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Podwykonawstwo - Wartość jest znana' (BT-730-Tender) nie jest 'tak'</entry>
 <entry key="expression|name|69">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>
-<entry key="expression|name|699">'Rodzaj procedury' (BT-105) nie jest 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie'; 'Podstawa prawna' (BT-01) nie jest 'Rozporządzenie (UE, Euratom) 2018/1046'; 'Podstawa prawna' (BT-01) nie jest 'Rozporządzenie (UE, Euratom) 2024/2509'; jest co najmniej jeden 'Umowa - identyfikator oferty' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Kraj' (BT-5141-Part) jest wypełnione</entry>
 <entry key="expression|name|70">'Podwykonawstwo - Wartość procentowa jest znana' (BT-731-Tender) nie jest 'tak'</entry>
 <entry key="expression|name|71">'Podwykonawstwo' (BT-773-Tender) to 'Tak'</entry>

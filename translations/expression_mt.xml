@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informazzjoni dwar l-iskadenzi tar-rieżami' (BT-99-Lot) mhux mimli</entry>
 <entry key="expression|name|203">L-ebda lottijiet ma ngħataw</entry>
 <entry key="expression|name|204">'ID tal-offerta tal-kuntratt' (BT-3202-Contract) mhuwiex mimli</entry>
-<entry key="expression|name|205">'Tip ta’ proċedura' (BT-105) mhuwiex 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni'; 'Bażi legali' (BT-01) mhuwiex 'Regolament (UE, Euratom) 2018/1046'; mill-inqas wieħed 'ID tal-offerta tal-kuntratt'(BT-3202-Contract) huwa mimli</entry>
 <entry key="expression|name|206">'Il-kuntratt jingħata fi ftehim qafas' (BT-768-Contract) mhux 'iva'</entry>
 <entry key="expression|name|207">'Identifikatur tal-offerta' (BT-3201-Tender) huwa mimli</entry>
 <entry key="expression|name|209">'Verżjoni tal-avviż preċedenti li għandu jinbidel' (BT-758-notice) mhuwiex mimli</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Kodiċi tal-kriterju ta' għażla (BT-809) ma jeżistix</entry>
 <entry key="expression|name|616">L-organizzazzjoni hija xerrej, u s-sistema ta' xiri dinamika tista' tiġi użata wkoll minn xerrejja li ma jkunux mniżżla f'din in-notifika, u 'Korp ċentrali għall-akkwisti li jakkwista provvisti u/jew servizzi maħsuba għal xerrejja oħra' (OPP-052) ma ġietx imlejna</entry>
 <entry key="expression|name|617">L-organizzazzjoni hija xerrej, u s-sistema ta' xiri dinamika tista' tiġi użata wkoll minn xerrejja li ma jkunux mniżżla f'din in-notifika, u 'Korp ċentrali għall-akkwisti li jakkwista provvisti u/jew servizzi maħsuba għal xerrejja oħra' (OPP-052) ma ġietx imlejna</entry>
-<entry key="expression|name|618">'Il-proċedura hija aċċellerata' (BT-106-Procedure) hija 'iva'</entry>
 <entry key="expression|name|619">'Il-proċedura hija aċċellerata' (BT-106-Procedure) hija 'iva'</entry>
 <entry key="expression|name|62">'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) mhuwiex 'Ma ntgħażel l-ebda rebbieħ u l-kompetizzjoni ngħalqet.'</entry>
 <entry key="expression|name|620">'Il-proċedura hija aċċellerata' (BT-106-Procedure) hija 'iva'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Kriterji ta’ selezzjoni' (BT-809-Lot) ma jexistix jew 'Il-proċedura se ssir fi stadji suċċessivi. F’kull stadju, xi parteċipanti jistgħu jiġu eliminati' (BT-52-Lot) mhux 'iva' jew 'Tip ta’ proċedura' (BT-105) mhux 'Djalogu kompetittiv', 'Sħubija għall-innovazzjoni', 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar', 'Proċedura oħra b’diversi stadji' jew 'Ristretta'</entry>
 <entry key="expression|name|67">'Sottokuntrattar' (BT-773-Tender) mhuwiex 'Iva'</entry>
 <entry key="expression|name|671">'In-numru hu tip ta’ ponderazzjoni' (BT-5421) mhuwiex 'Ordni ta’ importanza'</entry>
+<entry key="expression|name|679">'Tip ta’ proċedura' (BT-105-Procedure) mhux 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni' u 'Bażi legali' (BT-01-notice) mhux 'Regolament (UE, Euratom) 2024/2509' u hemm mill-inqas wieħed 'ID tal-offerta tal-kuntratt' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Il-valur tas-sottokuntrattar hu magħruf' (BT-730-Tender) mhuwiex 'iva'</entry>
 <entry key="expression|name|69">'Sottokuntrattar' (BT-773-Tender) mhuwiex 'Iva'</entry>
-<entry key="expression|name|699">'Tip ta’ proċedura' (BT-105) mhux 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni'; 'Bażi legali' (BT-01) mhux 'Regolament (UE, Euratom) 2018/1046'; 'Bażi legali' (BT-01) mhux 'Regolament (UE, Euratom) 2024/2509'; hemm mill-inqas wieħed 'ID tal-offerta tal-kuntratt' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Pajjiż' (BT-5141-Part) huwa mimli</entry>
 <entry key="expression|name|70">'Perċentwal magħruf tas-sottokuntrattar' (BT-731-Tender) mhuwiex 'iva'</entry>
 <entry key="expression|name|71">'Sottokuntrattar' (BT-773-Tender) huwa 'Iva'</entry>

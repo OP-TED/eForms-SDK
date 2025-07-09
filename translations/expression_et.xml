@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Teave vaidlustamise tähtaegade kohta' (BT-99-Lot) ei ole täidetud</entry>
 <entry key="expression|name|203">Ühegi osa kohta lepingut ei sõlmitud</entry>
 <entry key="expression|name|204">'Leping – pakkumus – tunnus' (BT-3202-Contract) ei ole täidetud</entry>
-<entry key="expression|name|205">'Menetluse liik' (BT-105) ei ole 'Väljakuulutamiseta läbirääkimistega hankemenetlus'; 'Õiguslik alus' (BT-01) ei ole 'Määrus (EL, Euratom) 2018/1046'; vähemalt üks 'Leping – pakkumus – tunnus' (BT-3202-Contract) on täidetud</entry>
 <entry key="expression|name|206">'Leping sõlmitakse raamlepingu alusel' (BT-768-Contract) ei ole 'jah'</entry>
 <entry key="expression|name|207">'Pakkumuse tunnus' (BT-3201-Tender) on täidetud</entry>
 <entry key="expression|name|209">'Eelmise teate versioon, mida muudetakse' (BT-758-notice) ei ole täidetud</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Valikukriteeriumi (BT-809) koodi ei ole</entry>
 <entry key="expression|name|616">Organisatsioon on ostja, ja dünaamiline ostusüsteem on samuti kasutatav ostjate poolt, kes ei ole selles teates loetletud, ja 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>
 <entry key="expression|name|617">Organisatsioon on ostja, ja dünaamiline ostusüsteem on samuti kasutatav ostjate poolt, kes ei ole selles teates loetletud, ja 'Keskne hankija, kes hangib teiste hankijate jaoks ette nähtud asju ja/või teenuseid' (OPP-052) ei ole täidetud</entry>
-<entry key="expression|name|618">'Kiirendatud menetlus' (BT-106-Procedure) on 'jah'</entry>
 <entry key="expression|name|619">'Kiirendatud menetlus' (BT-106-Procedure) on 'jah'</entry>
 <entry key="expression|name|62">'Eduka pakkuja valiku staatus' (BT-142-LotResult) ei ole 'Edukat pakkujat välja ei valitud ja hange on lõpetatud.'</entry>
 <entry key="expression|name|620">'Kiirendatud menetlus' (BT-106-Procedure) on 'jah'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Kvalifitseerimistingimused' (BT-809-Lot) ei ole olemas või 'Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada' (BT-52-Lot) ei ole 'jah' või 'Menetluse liik' (BT-105) ei ole 'Võistlev dialoog', 'Innovatsioonipartnerlus', 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus', 'Muu mitmeetapiline menetlus' või 'Piiratud'</entry>
 <entry key="expression|name|67">'Allhanked' (BT-773-Tender) ei ole 'Jah'</entry>
 <entry key="expression|name|671">'Arv on teatavat liiki osakaal' (BT-5421) ei ole 'Tähtsuse järjekord'</entry>
+<entry key="expression|name|679">'Menetluse liik' (BT-105-Procedure) ei ole 'Väljakuulutamiseta läbirääkimistega hankemenetlus' ja 'Õiguslik alus' (BT-01-notice) ei ole 'Määrus (EL, Euratom) 2024/2509' ning leidub vähemalt üks 'Leping – pakkumus – tunnus' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Allhanke maksumus on teada' (BT-730-Tender) ei ole 'jah'</entry>
 <entry key="expression|name|69">'Allhanked' (BT-773-Tender) ei ole 'Jah'</entry>
-<entry key="expression|name|699">'Menetluse liik' (BT-105) ei ole 'Väljakuulutamiseta läbirääkimistega hankemenetlus'; 'Õiguslik alus' (BT-01) ei ole 'Määrus (EL, Euratom) 2018/1046'; 'Õiguslik alus' (BT-01) ei ole 'Määrus (EL, Euratom) 2024/2509'; on vähemalt üks 'Leping – pakkumus – tunnus' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Riik' (BT-5141-Part) on täidetud</entry>
 <entry key="expression|name|70">'Allhanke protsendimäär on teada' (BT-731-Tender) ei ole 'jah'</entry>
 <entry key="expression|name|71">'Allhanked' (BT-773-Tender) on 'Jah'</entry>

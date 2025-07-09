@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Information om tidsfrist för prövning' (BT-99-Lot) är inte ifylld</entry>
 <entry key="expression|name|203">Inga delar har tilldelats</entry>
 <entry key="expression|name|204">'Id: Vinnande anbud för kontraktet' (BT-3202-Contract) fylls inte i</entry>
-<entry key="expression|name|205">'Typ av förfarande' (BT-105) är inte 'Förhandlat förfarande utan föregående meddelande om upphandling'; 'Rättslig grund' (BT-01) är inte 'Förordning (EU, Euratom) 2018/1046'; minst ett 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract) fylls i</entry>
 <entry key="expression|name|206">'Kontraktet tilldelas inom ett ramavtal' (BT-768-Contract) är inte 'ja'</entry>
 <entry key="expression|name|207">'Identifierare för anbudsgivare' (BT-3201-Tender) fylls i</entry>
 <entry key="expression|name|209">'Version av det föregående meddelandet som ska ändras' (BT-758-notice) fylls inte i</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Urvalskriteriekoden (BT-809) finns inte</entry>
 <entry key="expression|name|616">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) är inte ifyllt</entry>
 <entry key="expression|name|617">Organisationen är en köpare, och det dynamiska inköpssystemet kan också användas av köpare som inte listas i detta meddelande, och 'Inköpscentral som förvärvar varor och/eller tjänster som är avsedda för andra upphandlare' (OPP-052) är inte ifyllt</entry>
-<entry key="expression|name|618">'Förfarandet är påskyndat' (BT-106-Procedure) är 'ja'</entry>
 <entry key="expression|name|619">'Förfarandet är påskyndat' (BT-106-Procedure) är 'ja'</entry>
 <entry key="expression|name|62">'Status på val av vinnare' (BT-142-LotResult) är inte 'Ingen vinnare har valts ut och tävlingen har avslutats.'</entry>
 <entry key="expression|name|620">'Förfarandet är påskyndat' (BT-106-Procedure) är 'ja'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Urvalskriterier' (BT-809-Lot) finns inte eller 'Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas' (BT-52-Lot) är inte 'ja' eller 'Typ av förfarande' (BT-105) är inte 'Konkurrenspräglad dialog', 'Innovationspartnerskap', 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens', 'Annat förfarande i flera steg' eller 'Selektivt'</entry>
 <entry key="expression|name|67">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>
 <entry key="expression|name|671">'Sifferangivelsen är en typ av viktning' (BT-5421) är inte 'Prioritetsordning'</entry>
+<entry key="expression|name|679">'Typ av förfarande' (BT-105-Procedure) är inte 'Förhandlat förfarande utan föregående meddelande om upphandling' och 'Rättslig grund' (BT-01-notice) är inte 'Förordning (EU, Euratom) 2024/2509' och det finns minst ett 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Värdet på underentreprenaden är känt' (BT-730-Tender) är inte 'ja'</entry>
 <entry key="expression|name|69">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>
-<entry key="expression|name|699">'Typ av förfarande' (BT-105) är inte 'Förhandlat förfarande utan föregående meddelande om upphandling'; 'Rättslig grund' (BT-01) är inte 'Förordning (EU, Euratom) 2018/1046'; 'Rättslig grund' (BT-01) är inte 'Förordning (EU, Euratom) 2024/2509'; det finns minst ett 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) fylls i</entry>
 <entry key="expression|name|70">'Andelen som ska läggas ut på underentreprenad är känd' (BT-731-Tender) är inte 'ja'</entry>
 <entry key="expression|name|71">'Anlitande av underleverantör' (BT-773-Tender) är 'Ja'</entry>
