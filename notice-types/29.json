@@ -3582,19 +3582,6 @@
             "_idSchemes" : [ "TPA" ]
           } ]
         }, {
-          "id" : "GR-FSR-Measures",
-          "contentType" : "group",
-          "displayType" : "GROUP",
-          "description" : "Tender Foreign Subsidies Regulation Measures",
-          "_label" : "group|name|GR-FSR-Measures",
-          "content" : [ {
-            "id" : "BT-682-Tender",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Foreign Subsidies Measures",
-            "_label" : "field|name|BT-682-Tender"
-          } ]
-        }, {
           "id" : "GR-LotTender-Subcontracting",
           "contentType" : "group",
           "displayType" : "GROUP",
@@ -3858,6 +3845,19 @@
               "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-555)-Tender"
             } ]
+          } ]
+        }, {
+          "id" : "GR-FSR-Measures",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "Tender Foreign Subsidies Regulation Measures",
+          "_label" : "group|name|GR-FSR-Measures",
+          "content" : [ {
+            "id" : "BT-682-Tender",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Foreign Subsidies Measures",
+            "_label" : "field|name|BT-682-Tender"
           } ]
         } ]
       } ]

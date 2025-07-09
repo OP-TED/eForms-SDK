@@ -3616,32 +3616,6 @@
             } ]
           } ]
         }, {
-          "id" : "GR-LotTender-PaymentsandPenalties",
-          "contentType" : "group",
-          "nodeId" : "ND-TenderAggregatedAmounts",
-          "displayType" : "GROUP",
-          "description" : "Tender Payments and Penalties",
-          "_label" : "group|name|GR-LotTender-PaymentsandPenalties",
-          "content" : [ {
-            "id" : "BT-779-Tender",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Tender Payment Value",
-            "_label" : "field|name|BT-779-Tender"
-          }, {
-            "id" : "BT-780-Tender",
-            "contentType" : "field",
-            "displayType" : "TEXTAREA",
-            "description" : "Tender Payment Value Additional Information",
-            "_label" : "field|name|BT-780-Tender"
-          }, {
-            "id" : "BT-782-Tender",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Tender Penalties",
-            "_label" : "field|name|BT-782-Tender"
-          } ]
-        }, {
           "id" : "GR-LotTender-Subcontracting",
           "contentType" : "group",
           "displayType" : "GROUP",
@@ -3905,6 +3879,32 @@
               "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-555)-Tender"
             } ]
+          } ]
+        }, {
+          "id" : "GR-LotTender-PaymentsandPenalties",
+          "contentType" : "group",
+          "nodeId" : "ND-TenderAggregatedAmounts",
+          "displayType" : "GROUP",
+          "description" : "Tender Payments and Penalties",
+          "_label" : "group|name|GR-LotTender-PaymentsandPenalties",
+          "content" : [ {
+            "id" : "BT-779-Tender",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Tender Payment Value",
+            "_label" : "field|name|BT-779-Tender"
+          }, {
+            "id" : "BT-780-Tender",
+            "contentType" : "field",
+            "displayType" : "TEXTAREA",
+            "description" : "Tender Payment Value Additional Information",
+            "_label" : "field|name|BT-780-Tender"
+          }, {
+            "id" : "BT-782-Tender",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Tender Penalties",
+            "_label" : "field|name|BT-782-Tender"
           } ]
         } ]
       } ]
