@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.147",
-    "createdOn" : "2025-06-20T16:17:49"
+    "version" : "1.13.153",
+    "createdOn" : "2025-07-08T17:45:16"
   },
   "noticeId" : "9",
   "metadata" : [ {
@@ -268,6 +268,19 @@
           "_label" : "field|name|BT-01(f)-Procedure"
         } ]
       }, {
+        "id" : "GR-Future-Notice",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Future Notice",
+        "_label" : "group|name|GR-Future-Notice",
+        "content" : [ {
+          "id" : "BT-127-notice",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Future Notice",
+          "_label" : "field|name|BT-127-notice"
+        } ]
+      }, {
         "id" : "GR-Procedure-Description",
         "contentType" : "group",
         "nodeId" : "ND-ProcedureProcurementScope",
@@ -275,12 +288,6 @@
         "description" : "Scope of the Procurement addressed with the whole notice",
         "_label" : "group|name|GR-Procedure-Description",
         "content" : [ {
-          "id" : "BT-127-notice",
-          "contentType" : "field",
-          "displayType" : "TEXTBOX",
-          "description" : "Future Notice",
-          "_label" : "field|name|BT-127-notice"
-        }, {
           "id" : "BT-22-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
