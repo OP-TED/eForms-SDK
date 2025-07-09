@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.147",
-    "createdOn" : "2025-06-20T16:17:49"
+    "version" : "1.13.153",
+    "createdOn" : "2025-07-08T17:45:16"
   },
   "noticeId" : "38",
   "metadata" : [ {
@@ -3104,6 +3104,47 @@
             "displayType" : "RADIO",
             "description" : "Acquiring CPB Buyer Indicator",
             "_label" : "field|name|OPP-052-Organization"
+          } ]
+        }, {
+          "id" : "GR-Company-EconomicOperatorExclusive",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "Economic Operator Exclusive",
+          "_label" : "group|name|GR-Company-EconomicOperatorExclusive",
+          "content" : [ {
+            "id" : "BT-633-Organization",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Organisation Natural Person",
+            "_label" : "field|name|BT-633-Organization"
+          }, {
+            "id" : "GR-Organisation-UBO-Reference",
+            "contentType" : "group",
+            "nodeId" : "ND-OrganizationUboReference",
+            "displayType" : "GROUP",
+            "description" : "Organization UBO",
+            "_label" : "group|name|GR-Organisation-UBO-Reference",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "OPT-302-Organization",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Beneficial Owner Reference",
+              "_label" : "field|name|OPT-302-Organization",
+              "_idSchemes" : [ "UBO" ]
+            } ]
+          }, {
+            "id" : "BT-165-Organization-Company",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Winner Size",
+            "_label" : "field|name|BT-165-Organization-Company"
+          }, {
+            "id" : "BT-746-Organization",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Winner Listed",
+            "_label" : "field|name|BT-746-Organization"
           } ]
         }, {
           "id" : "GR-Touch-Point",
