@@ -1500,6 +1500,33 @@
           "_label" : "field|name|BT-733-Lot"
         } ]
       }, {
+        "id" : "GR-Lot-PrizeInformation",
+        "contentType" : "group",
+        "nodeId" : "ND-Prize",
+        "displayType" : "GROUP",
+        "description" : "Prize related information",
+        "_label" : "group|name|GR-Lot-PrizeInformation",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-44-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Prize Rank",
+          "_label" : "field|name|BT-44-Lot"
+        }, {
+          "id" : "BT-644-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Prize Value",
+          "_label" : "field|name|BT-644-Lot"
+        }, {
+          "id" : "BT-45-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Rewards Other",
+          "_label" : "field|name|BT-45-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-TendererQualification",
         "contentType" : "group",
         "displayType" : "GROUP",
