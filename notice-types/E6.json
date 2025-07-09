@@ -2741,7 +2741,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Consumption Metric",
                   "_label" : "field|name|OPT-080-LotResult",
-                  "_presetValue" : "nrg-con-yr"
+                  "_presetValue" : "nrg-con-yr",
+                  "hidden" : true
                 } ]
               }, {
                 "id" : "GR-LotResult-EED-EnergySavings",
@@ -2762,7 +2763,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Savings Metric",
                   "_label" : "field|name|OPT-081-LotResult",
-                  "_presetValue" : "nrg-sav-yr"
+                  "_presetValue" : "nrg-sav-yr",
+                  "hidden" : true
                 } ]
               } ]
             } ]

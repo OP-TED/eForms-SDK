@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.147",
-    "createdOn" : "2025-06-20T16:17:49"
+    "version" : "1.13.153",
+    "createdOn" : "2025-07-08T17:45:16"
   },
   "noticeId" : "E5",
   "metadata" : [ {
@@ -4688,7 +4688,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Consumption Metric",
                   "_label" : "field|name|OPT-080-LotResult",
-                  "_presetValue" : "nrg-con-yr"
+                  "_presetValue" : "nrg-con-yr",
+                  "hidden" : true
                 } ]
               }, {
                 "id" : "GR-LotResult-EED-EnergySavings",
@@ -4709,7 +4710,8 @@
                   "displayType" : "COMBOBOX",
                   "description" : "Savings Metric",
                   "_label" : "field|name|OPT-081-LotResult",
-                  "_presetValue" : "nrg-sav-yr"
+                  "_presetValue" : "nrg-sav-yr",
+                  "hidden" : true
                 } ]
               } ]
             } ]
