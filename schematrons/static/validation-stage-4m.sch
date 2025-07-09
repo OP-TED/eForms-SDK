@@ -3,6 +3,10 @@
 
 <!-- This file contains schematron rules for stage 4 that are written manually to reduce their execution time -->
 
+	<!-- Identifiers of tenders for a lot that is not for a framework agreement -->
+	<let name="global-ten-no-fa" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:LotTender/cbc:ID[(../../efac:TenderLot/cbc:ID = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[not(../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode = ('fa-mix','fa-w-rc','fa-wo-rc'))])]" />
+	<!-- Identifiers of tenders for a lot that is for a framework agreement -->
+	<let name="global-ten-fa" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:LotTender/cbc:ID[(../../efac:TenderLot/cbc:ID = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode = ('fa-mix','fa-w-rc','fa-wo-rc')])]" />
 	<!-- Identifiers of tenders that have been selected and the corresponding lot is not for a framework agreement -->
 	<let name="global-ten-selec-no-fa" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:LotTender/cbc:ID[(../../cbc:TenderResultCode = 'selec-w') and (../../efac:TenderLot/cbc:ID = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[not(../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode = ('fa-mix','fa-w-rc','fa-wo-rc'))])]" />
 	<!-- Identifiers of tenders that have been selected and the corresponding lot is for a framework agreement -->
@@ -48,6 +52,17 @@
 		<assert id="BR-BT-00720-0044" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not((cbc:ID = $global-ten-selec-no-fa) or (cbc:ID = $global-ten-selec-fa and cbc:ID = $global-ten-contract-in-fa))">rule|text|BR-BT-00720-0044</assert>
 		<assert id="BR-BT-00720-0058" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or not(cbc:ID = $global-ten-ongoing)">rule|text|BR-BT-00720-0058</assert>
 	</rule>
+
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '38']">
+		<assert id="BR-BT-00720-0047" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not((cbc:ID = $global-ten-no-fa) or (cbc:ID = $global-ten-fa and cbc:ID = $global-ten-contract-in-fa))">rule|text|BR-BT-00720-0047</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '39']">
+		<assert id="BR-BT-00720-0048" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not((cbc:ID = $global-ten-no-fa) or (cbc:ID = $global-ten-fa and cbc:ID = $global-ten-contract-in-fa))">rule|text|BR-BT-00720-0048</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'E6']">
+		<assert id="BR-BT-00720-0051" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) &gt; 0 or not((cbc:ID = $global-ten-no-fa) or (cbc:ID = $global-ten-fa and cbc:ID = $global-ten-contract-in-fa))">rule|text|BR-BT-00720-0051</assert>
+	</rule>
+
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'E4']">
 		<assert id="BR-BT-00720-0040" role="ERROR" diagnostics="BT-720-Tender" test="count(cac:LegalMonetaryTotal/cbc:PayableAmount) = 0 or not(cbc:ID = $global-ten-ongoing)">rule|text|BR-BT-00720-0040</assert>
 	</rule>
