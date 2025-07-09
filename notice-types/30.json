@@ -3811,6 +3811,49 @@
               "_label" : "field|name|BT-198(BT-553)-Tender"
             } ]
           }, {
+            "id" : "BT-731-Tender",
+            "contentType" : "field",
+            "displayType" : "RADIO",
+            "description" : "Subcontracting Percentage Known",
+            "_label" : "field|name|BT-731-Tender",
+            "unpublishGroupId" : "GR-Unpublish-BT-731",
+            "unpublishFieldId" : "BT-195(BT-731)-Tender",
+            "unpublishCode" : "sub-per-kno"
+          }, {
+            "id" : "GR-Unpublish-BT-731",
+            "contentType" : "group",
+            "displayType" : "GROUP",
+            "description" : "Unpublish - BT-731",
+            "_label" : "group|name|GR-Unpublish-BT-731",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-731)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-731)-Tender",
+              "_presetValue" : "sub-per-kno",
+              "hidden" : true
+            }, {
+              "id" : "BT-196(BT-731)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-731)-Tender"
+            }, {
+              "id" : "BT-197(BT-731)-Tender",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-731)-Tender"
+            }, {
+              "id" : "BT-198(BT-731)-Tender",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Access Date",
+              "_label" : "field|name|BT-198(BT-731)-Tender"
+            } ]
+          }, {
             "id" : "BT-555-Tender",
             "contentType" : "field",
             "displayType" : "TEXTBOX",
@@ -3853,91 +3896,71 @@
               "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-555)-Tender"
             } ]
-          }, {
-            "id" : "BT-730-Tender",
+          } ]
+        }, {
+          "id" : "GR-FSR-Measures",
+          "contentType" : "group",
+          "displayType" : "GROUP",
+          "description" : "Tender Foreign Subsidies Regulation Measures",
+          "_label" : "group|name|GR-FSR-Measures",
+          "content" : [ {
+            "id" : "BT-682-Tender",
             "contentType" : "field",
-            "displayType" : "RADIO",
-            "description" : "Subcontracting Value Known",
-            "_label" : "field|name|BT-730-Tender",
-            "unpublishGroupId" : "GR-Unpublish-BT-730",
-            "unpublishFieldId" : "BT-195(BT-730)-Tender",
-            "unpublishCode" : "sub-val-kno"
+            "displayType" : "COMBOBOX",
+            "description" : "Foreign Subsidies Measures",
+            "_label" : "field|name|BT-682-Tender"
+          } ]
+        }, {
+          "id" : "GR-LotTender-2",
+          "contentType" : "group",
+          "nodeId" : "ND-LotTenderOriginCountry",
+          "displayType" : "GROUP",
+          "description" : "Origin country of the product or service",
+          "_label" : "group|name|GR-LotTender-2",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-191-Tender",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Country Origin",
+            "_label" : "field|name|BT-191-Tender",
+            "unpublishGroupId" : "GR-Unpublish-BT-191",
+            "unpublishFieldId" : "BT-195(BT-191)-Tender",
+            "unpublishCode" : "cou-ori"
           }, {
-            "id" : "GR-Unpublish-BT-730",
+            "id" : "GR-Unpublish-BT-191",
             "contentType" : "group",
+            "nodeId" : "ND-CountryOriginUnpublish",
             "displayType" : "GROUP",
-            "description" : "Unpublish - BT-730",
-            "_label" : "group|name|GR-Unpublish-BT-730",
+            "description" : "Not Immediately Published (CountryOrigin)",
+            "_label" : "group|name|GR-Unpublish-BT-191",
             "collapsed" : true,
             "content" : [ {
-              "id" : "BT-195(BT-730)-Tender",
+              "id" : "BT-195(BT-191)-Tender",
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-730)-Tender",
-              "_presetValue" : "sub-val-kno",
+              "_label" : "field|name|BT-195(BT-191)-Tender",
+              "_presetValue" : "cou-ori",
               "hidden" : true
             }, {
-              "id" : "BT-196(BT-730)-Tender",
+              "id" : "BT-196(BT-191)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTAREA",
               "description" : "Unpublished Justification Description",
-              "_label" : "field|name|BT-196(BT-730)-Tender"
+              "_label" : "field|name|BT-196(BT-191)-Tender"
             }, {
-              "id" : "BT-197(BT-730)-Tender",
+              "id" : "BT-197(BT-191)-Tender",
               "contentType" : "field",
               "displayType" : "COMBOBOX",
               "description" : "Unpublished Justification Code",
-              "_label" : "field|name|BT-197(BT-730)-Tender"
+              "_label" : "field|name|BT-197(BT-191)-Tender"
             }, {
-              "id" : "BT-198(BT-730)-Tender",
+              "id" : "BT-198(BT-191)-Tender",
               "contentType" : "field",
               "displayType" : "TEXTBOX",
               "description" : "Unpublished Access Date",
-              "_label" : "field|name|BT-198(BT-730)-Tender"
-            } ]
-          }, {
-            "id" : "BT-731-Tender",
-            "contentType" : "field",
-            "displayType" : "RADIO",
-            "description" : "Subcontracting Percentage Known",
-            "_label" : "field|name|BT-731-Tender",
-            "unpublishGroupId" : "GR-Unpublish-BT-731",
-            "unpublishFieldId" : "BT-195(BT-731)-Tender",
-            "unpublishCode" : "sub-per-kno"
-          }, {
-            "id" : "GR-Unpublish-BT-731",
-            "contentType" : "group",
-            "displayType" : "GROUP",
-            "description" : "Unpublish - BT-731",
-            "_label" : "group|name|GR-Unpublish-BT-731",
-            "collapsed" : true,
-            "content" : [ {
-              "id" : "BT-195(BT-731)-Tender",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-731)-Tender",
-              "_presetValue" : "sub-per-kno",
-              "hidden" : true
-            }, {
-              "id" : "BT-196(BT-731)-Tender",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Unpublished Justification Description",
-              "_label" : "field|name|BT-196(BT-731)-Tender"
-            }, {
-              "id" : "BT-197(BT-731)-Tender",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Unpublished Justification Code",
-              "_label" : "field|name|BT-197(BT-731)-Tender"
-            }, {
-              "id" : "BT-198(BT-731)-Tender",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Unpublished Access Date",
-              "_label" : "field|name|BT-198(BT-731)-Tender"
+              "_label" : "field|name|BT-198(BT-191)-Tender"
             } ]
           } ]
         } ]
