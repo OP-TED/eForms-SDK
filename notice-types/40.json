@@ -1905,16 +1905,15 @@
             "displayType" : "COMBOBOX",
             "description" : "Subcontracting",
             "_label" : "field|name|BT-773-Tender",
-            "unpublishGroupId" : "GR-Unpublish-BT-773-Tender",
+            "unpublishGroupId" : "GR-Unpublish-BT-773",
             "unpublishFieldId" : "BT-195(BT-773)-Tender",
             "unpublishCode" : "sub-con"
           }, {
-            "id" : "GR-Unpublish-BT-773-Tender",
+            "id" : "GR-Unpublish-BT-773",
             "contentType" : "group",
-            "nodeId" : "ND-SubcontractingUnpublish",
             "displayType" : "GROUP",
-            "description" : "Not Immediately Published (Subcontracting)",
-            "_label" : "group|name|GR-Unpublish-BT-773-Tender",
+            "description" : "Unpublish - BT-773",
+            "_label" : "group|name|GR-Unpublish-BT-773",
             "collapsed" : true,
             "content" : [ {
               "id" : "BT-195(BT-773)-Tender",
@@ -1949,16 +1948,15 @@
             "displayType" : "TEXTAREA",
             "description" : "Subcontracting Description",
             "_label" : "field|name|BT-554-Tender",
-            "unpublishGroupId" : "GR-Unpublish-BT-554-Tender",
+            "unpublishGroupId" : "GR-Unpublish-BT-554",
             "unpublishFieldId" : "BT-195(BT-554)-Tender",
             "unpublishCode" : "sub-des"
           }, {
-            "id" : "GR-Unpublish-BT-554-Tender",
+            "id" : "GR-Unpublish-BT-554",
             "contentType" : "group",
-            "nodeId" : "ND-SubcontractingDescriptionUnpublish",
             "displayType" : "GROUP",
-            "description" : "Not Immediately Published (SubcontractingDescription)",
-            "_label" : "group|name|GR-Unpublish-BT-554-Tender",
+            "description" : "Unpublish - BT-554",
+            "_label" : "group|name|GR-Unpublish-BT-554",
             "collapsed" : true,
             "content" : [ {
               "id" : "BT-195(BT-554)-Tender",
