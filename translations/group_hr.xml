@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Dodatne informacije</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Kriteriji za dodjelu</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Kriteriji za dodjelu</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parametar kriterija za dodjelu</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametri kriterija za dodjelu</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Kriterij fiksne vrijednosti</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Kriterij prag-vrijednosti</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Organizacija za mirenje</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Mjesto izvršenja</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Procijenjeno trajanje</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Trajanje</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Razdoblje</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Upućivanje na prethodno planiranje</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Dokumenti o nabavi za dio</entry>
 <entry key="group|name|GR-Part-Purpose">Svrha</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Ponuditelj</entry>
 <entry key="group|name|GR-TenderingParty-Section">Ponuditelji</entry>
 <entry key="group|name|GR-Touch-Point">Posebne kontaktne točke</entry>
-<entry key="group|name|GR-TouchPoint">Namjenska kontaktna točka</entry>
 <entry key="group|name|GR-TouchPoint-Address">Adresa odjela (ako se razlikuje od glavnog)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Kontaktna točka odjela (ako se razlikuje od glavne)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Vrsta usluge prijevoza</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Zemlja podrijetla (objavljena kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Ponuda je varijanta (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Pobjednička ponuda je varijanta (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Vrsta (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Vrsta kriterija za dodjelu za grupe (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Vrsta kriterija za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Opis (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Opis kriterija za dodjelu za grupe (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Opis kriterija za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Kriterij fiksne vrijednosti (objavljen kasnije)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Kriterij fiksne vrijednosti (objavljen kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Kriterij prag-vrijednosti (objavljen kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Kriterij težinske vrijednosti (objavljen kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Broj je ponder (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Ponder za kriterij za dodjelu za grupe (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Ponder za kriterij za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Broj je fiksna vrijednost (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Kriterij za dodjelu za grupe je fiksan broj (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Kriterij za dodjelu za skupine grupa je fiksan broj (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Broj je granična vrijednost (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Kriterij za dodjelu za grupe je granična vrijednost (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Kriterij za dodjelu za skupine grupa je granična vrijednost (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Opis metode koja se primjenjuje ako se ponderiranje ne može izraziti na temelju kriterija (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Broj kriterija za dodjelu za grupe – složeno ponderiranje (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Složen broj kriterija za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Vrijednost podugovaranja (objavljuje se kasnije)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Vrijednost podugovaranja je poznata (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Postotak podugovaranja je poznat (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Postotak podugovaranja je poznat (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Obrazloženje izostavljanja pondera za kriterije za dodjelu (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Obrazloženje redoslijeda kriterija za dodjelu za grupe (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Obrazloženje redoslijeda kriterija za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Ime (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Naziv kriterija za dodjelu za grupe (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Naziv kriterija za dodjelu za skupine grupa (objavljuje se kasnije)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Broj zaprimljenih ponuda ili zahtjeva za sudjelovanje (objavljuje se kasnije)</entry>

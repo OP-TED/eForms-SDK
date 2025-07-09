@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Doplňujúce informácie</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Kritériá na vyhodnotenie ponúk</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Kritériá na vyhodnotenie ponúk</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parameter kritéria na vyhodnotenie ponúk</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametre kritéria na vyhodnotenie ponúk</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Kritérium pevnej hodnoty</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Kritérium prahovej hodnoty</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Sprostredkovateľská organizácia</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Miesto plnenia</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Predpokladané trvanie</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Trvanie</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Obdobie</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Odkaz na predchádzajúce plánovanie</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Nákupné dokumenty pre časť</entry>
 <entry key="group|name|GR-Part-Purpose">Účel</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Uchádzač</entry>
 <entry key="group|name|GR-TenderingParty-Section">Uchádzači</entry>
 <entry key="group|name|GR-Touch-Point">Osobitné kontaktné miesta</entry>
-<entry key="group|name|GR-TouchPoint">Osobitné kontaktné miesto</entry>
 <entry key="group|name|GR-TouchPoint-Address">Adresa oddelenia (ak sa líši od hlavnej adresy)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Kontaktné miesto oddelenia (ak sa líši od hlavného miesta)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Typ dopravnej služby</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Krajina pôvodu (zverejnená neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Ponuka je variantné riešenie (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Víťazná ponuka je variantné riešenie (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Typ (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Typ kritéria na vyhodnotenie ponúk časti (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Typ kritéria na vyhodnotenie ponúk pre skupinu častí (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Opis (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Opis kritéria na vyhodnotenie ponúk časti (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Kritérium na vyhodnotenie ponúk pre skupinu častí (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Kritérium pevnej hodnoty (zverejnené neskôr)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Kritérium pevnej hodnoty (zverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Kritérium prahovej hodnoty (zverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Kritérium váhovej hodnoty (zverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Číslo je typ váhy (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Váha čísla kritéria na vyhodnotenie ponúk časti (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Váha čísla kritéria na vyhodnotenie ponúk pre skupinu častí (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Číslo je pevne stanovená hodnota (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Kritérium na vyhodnotenie ponúk časti má pevné stanovenú číselnú hodnotu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Kritérium na vyhodnotenie ponúk pre skupinu častí má pevné stanovenú číselnú hodnotu (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Číslo je typ prahovej hodnoty (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Kritérium na vyhodnotenie ponúk časti má prahovú číselnú hodnotu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Kritérium na vyhodnotenie ponúk pre skupinu častí má prahovú číselnú hodnotu (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Opis metódy, ktorá sa má použiť, keď váhu nemožno vyjadriť pomocou kritérií (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Kritérium na vyhodnotenie ponúk častí má zložitú číselnú hodnotu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Kritérium na vyhodnotenie ponúk pre skupinu častí má zložitú číselnú hodnotu (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Hodnota využitia subdodávateľov (uverejnené neskôr)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Hodnota subdodávky je známa (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Percentuálny podiel subdodávok je známy (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Percentuálny podiel subdodávok je známy (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Odôvodnenie, prečo nebola uvedená váha kritérií na vyhodnotenie ponúk (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Odôvodnenie poradia kritérií na vyhodnotenie ponúk časti (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Odôvodnenie poradia kritéria na vyhodnotenie ponúk pre skupinu častí (uverejnené neskôr)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Názov (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Názov kritéria na vyhodnotenie ponúk časti (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Názov kritéria na vyhodnotenie ponúk pre skupinu častí (uverejnené neskôr)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Počet prijatých ponúk alebo žiadostí o účasť (uverejnené neskôr)</entry>

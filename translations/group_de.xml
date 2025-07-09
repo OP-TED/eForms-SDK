@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Zusätzliche Informationen</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Zuschlagskriterien</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Zuschlagskriterien</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Zuschlagskriterium – Parameter</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Zuschlagskriterium – Parameter</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Festwertkriterium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Schwellenwertkriterium</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Schlichtungsstelle</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Erfüllungsort</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Geschätzte Laufzeit</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Laufzeit</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Zeitraum</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Frühere Planungsreferenz</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Beschaffungsdokumente für Teil</entry>
 <entry key="group|name|GR-Part-Purpose">Zweck</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Bieter</entry>
 <entry key="group|name|GR-TenderingParty-Section">Bieter</entry>
 <entry key="group|name|GR-Touch-Point">Spezifische Kontaktstellen</entry>
-<entry key="group|name|GR-TouchPoint">Spezifische Kontaktstelle</entry>
 <entry key="group|name|GR-TouchPoint-Address">Adresse der Abteilung (falls abweichend von der Hauptadresse)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Kontaktstelle der Abteilung (falls abweichend von der Hauptabteilung)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Art des Transportdienstes</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Herkunftsland (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Bei dem Angebot handelt es sich um eine Variante (später veröffentlicht).</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Bei dem erfolgreichen Angebot handelt es sich um eine Variante (später veröffentlicht).</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Typ (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Zuschlagskriterium des Loses – Typ (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Zuschlagskriterien der Gruppe von Losen – Typ (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Beschreibung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Zuschlagskriterium des Loses – Beschreibung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Zuschlagskriterien der Gruppe von Losen – Beschreibung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Festwertkriterium (später veröffentlicht)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Festwertkriterium (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Schwellenwertkriterium (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Gewichtungskriterium (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Bei der Zahl handelt sich um eine Gewichtung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Zuschlagskriterium des Loses – Zahl, Gewichtung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Zuschlagskriterium der Gruppe von Losen – Zahl, Gewichtung (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Bei der Zahl handelt sich um einen festen Zahlenwert (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Zuschlagskriterium des Loses ist feste Zahl (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Zuschlagskriterium der Gruppe von Losen ist feste Zahl (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Bei der Zahl handelt sich um einen Schwellenwert (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Zuschlagskriterium des Loses, Zahl ist Schwellenwert (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Zuschlagskriterium der Gruppe von Losen, Zahl ist Schwellenwert (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Beschreibung der anzuwendenden Methode, wenn die Gewichtung nicht durch Kriterien ausgedrückt werden kann (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Zuschlagskriterium des Loses – Zahl kompliziert (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Zuschlagskriterium der Gruppe von Losen – Zahl kompliziert (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Wert der Vergabe von Unteraufträgen (später veröffentlicht)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Wert der Vergabe von Unteraufträgen ist bekannt (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Wert der Vergabe von Unteraufträgen ist bekannt (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Wert der Vergabe von Unteraufträgen ist bekannt (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Begründung, warum die Gewichtung der Zuschlagskriterien nicht angegeben ist (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Zuschlagskriterien des Loses – Begründung der Rangfolge (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Zuschlagskriterien der Gruppe von Losen – Begründung der Rangfolge (später veröffentlicht)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Bezeichnung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Zuschlagskriterien des Loses – Bezeichnung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Zuschlagskriterien der Gruppe von Losen – Bezeichnung (später veröffentlicht)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Anzahl der eingegangenen Angebote oder Teilnahmeanträge (später veröffentlicht)</entry>

@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Lisateave</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Hindamiskriteeriumid</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Hindamiskriteeriumid</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Hindamiskriteeriumi parameeter</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Hindamiskriteeriumi parameetrid</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Fikseeritud väärtuskriteerium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Lävendi väärtuskriteerium</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Lepitusorganisatsioon</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Lepingu täitmise koht</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Eeldatav kestus</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Kestus</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Ajavahemik</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Viide eelneva kavandamise teatele</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Osa hankemenetluse dokumendid</entry>
 <entry key="group|name|GR-Part-Purpose">Eesmärk</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Hankemenetluses osaleja</entry>
 <entry key="group|name|GR-TenderingParty-Section">Hankemenetluses osalejad</entry>
 <entry key="group|name|GR-Touch-Point">Konkreetsed kontaktpunktid</entry>
-<entry key="group|name|GR-TouchPoint">Konkreetne kontaktpunkt</entry>
 <entry key="group|name|GR-TouchPoint-Address">Osakonna aadress (kui erineb põhiaadressist)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Osakonna kontaktpunkt (kui erineb peamisest)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Transporditeenuse tüüp</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Päritoluriik (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Pakkumus on alternatiivne lahendus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Edukas pakkumus on alternatiivne lahendus (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Liik (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Osa hindamiskriteeriumi liik (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Osade rühma hindamiskriteeriumi liik (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Osa hindamiskriteeriumi kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Osade rühma hindamiskriteeriumi kirjeldus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Fikseeritud väärtuskriteerium (avaldatakse hiljem)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Fikseeritud väärtuskriteerium (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Lävendi väärtuskriteerium (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Kaalutud väärtuskriteerium (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Arv on teatavat liiki osakaal (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Osa hindamiskriteeriumi arvu osakaal (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Osade rühma hindamiskriteeriumide arvu osakaal (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Arv on fikseeritud väärtus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Osa hindamiskriteerium on fikseeritud arv (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Osade rühma hindamiskriteerium on fikseeritud arv (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Arv on teatavat liiki piirmäär (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Osa hindamiskriteeriumi arv on piirmäär (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Osade rühma hindamiskriteeriumi arv on piirmäär (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Selle meetodi kirjeldus, mida kasutatakse juhul, kui hindamist ei ole võimalik kriteeriumide abil teostada (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Osa hindamiskriteeriumi arv – keeruline (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Osade rühma hindamiskriteeriumide arv – keeruline (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Allhanke maksumus (avaldatakse hiljem)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Allhanke maksumus on teada (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Allhanke protsendimäär on teada (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Allhanke protsendimäär on teada (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Põhjendus, miks hindamiskriteeriumide kaalumist ei ole märgitud (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Osa hindamiskriteeriumide järjestuse põhjendus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Osade rühma hindamiskriteeriumide järjestuse põhjendus (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Nimetus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Osa hindamiskriteeriumide nimetus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Osade rühma hindamiskriteeriumide nimetus (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Laekunud pakkumuste või osalemistaotluste arv (avaldatakse hiljem)</entry>

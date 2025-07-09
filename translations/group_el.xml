@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Συμπληρωματικές πληροφορίες</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Κριτήρια ανάθεσης</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Κριτήρια ανάθεσης</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Παράμετρος κριτηρίου ανάθεσης</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Παράμετροι κριτηρίου ανάθεσης</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Κριτήριο σταθερής αξίας</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Κριτήριο ορίου αξίας</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Οργανισμός διαμεσολάβησης</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Τόπος εκτέλεσης</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Εκτιμώμενη διάρκεια</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Διάρκεια</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Περίοδος</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Παραπομπή σε προηγούμενο προγραμματισμό</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Έγγραφα προμήθειας για τμήμα</entry>
 <entry key="group|name|GR-Part-Purpose">Σκοπός</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Προσφέρων</entry>
 <entry key="group|name|GR-TenderingParty-Section">Προσφέροντες</entry>
 <entry key="group|name|GR-Touch-Point">Ειδικά πρόσωπα επικοινωνίας</entry>
-<entry key="group|name|GR-TouchPoint">Ειδικό πρόσωπο επικοινωνίας</entry>
 <entry key="group|name|GR-TouchPoint-Address">Διεύθυνση τμήματος (εάν διαφέρει από την κύρια διεύθυνση)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Πρόσωπο επικοινωνίας του τμήματος (εάν διαφέρει από το κύριο)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Τύπος υπηρεσίας μεταφοράς</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Χώρα προέλευσης (δημοσιεύεται αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Η προσφορά είναι εναλλακτική προσφορά (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Η επιλεγείσα προσφορά είναι εναλλακτική προσφορά (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Είδος (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Είδος κριτηρίου ανάθεσης της παρτίδας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Είδος κριτηρίου ανάθεσης της ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Περιγραφή (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Περιγραφή κριτηρίου ανάθεσης της παρτίδας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Περιγραφή κριτηρίου ανάθεσης ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Κριτήριο σταθερής αξίας (δημοσιεύεται αργότερα)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Κριτήριο σταθερής αξίας (δημοσιεύεται αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Κριτήριο ορίου αξίας (δημοσιεύεται αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Κριτήριο βαρύτητας αξίας (δημοσιεύεται αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Ο αριθμός είναι ένα είδος στάθμισης (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Στάθμιση αριθμού κριτηρίου ανάθεσης παρτίδας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Στάθμιση αριθμού κριτηρίων ανάθεσης της ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Ο αριθμός είναι σταθερή τιμή (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Το κριτήριο ανάθεσης της παρτίδας είναι σταθερός αριθμός (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Το κριτήριο ανάθεσης της ομάδας παρτίδων είναι σταθερός αριθμός (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Ο αριθμός είναι ένα είδος κατώτατου ορίου (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Ο αριθμός του κριτηρίου ανάθεσης της παρτίδας είναι κατώτατο όριο (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Ο αριθμός κριτηρίου ανάθεσης της ομάδας παρτίδων είναι κατώτατο όριο (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Περιγραφή της μεθόδου που πρέπει να χρησιμοποιείται εάν η στάθμιση δεν μπορεί να εκφραστεί με κριτήρια (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Σύνθετος αριθμός κριτηρίου ανάθεσης της παρτίδας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Σύνθετος αριθμός κριτηρίων ανάθεσης ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Αξία υπεργολαβίας (δημοσίευση αργότερα)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Η αξία της υπεργολαβίας είναι γνωστή (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Το ποσοστό υπεργολαβίας είναι γνωστό (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Το ποσοστό υπεργολαβίας είναι γνωστό (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Αιτιολόγηση της μη αναγραφής της στάθμισης των κριτηρίων ανάθεσης (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Αιτιολόγηση της σειράς των κριτηρίων ανάθεσης της παρτίδας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Αιτιολόγηση σειράς κριτηρίων ανάθεσης ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Όνομα (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Ονομασία κριτηρίων ανάθεσης παρτίδας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Ονομασία κριτηρίων ανάθεσης ομάδας παρτίδων (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Αριθμός προσφορών ή αιτήσεων συμμετοχής που παραλήφθηκαν (δημοσίευση αργότερα)</entry>

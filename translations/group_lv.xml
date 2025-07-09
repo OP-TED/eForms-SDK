@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Papildu informācija</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Piešķiršanas kritēriji</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Piešķiršanas kritēriji</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Piešķiršanas kritērija parametrs</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Piešķiršanas kritērija parametri</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Fiksēta vērtības kritērija</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Sliekšņa vērtības kritērija</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Mediācijas organizācija</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Izpildes vieta</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Paredzamais darbības termiņš</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Darbības termiņš</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Ilgums</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Iepriekšējās plānošanas atsauce</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Iepirkuma dokumenti daļai</entry>
 <entry key="group|name|GR-Part-Purpose">Mērķis</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Konkursa dalībnieks</entry>
 <entry key="group|name|GR-TenderingParty-Section">Konkursa dalībnieki</entry>
 <entry key="group|name|GR-Touch-Point">Īpaši kontaktpunkti</entry>
-<entry key="group|name|GR-TouchPoint">Īpašs kontaktpunkts</entry>
 <entry key="group|name|GR-TouchPoint-Address">Departamenta adrese (ja atšķiras no galvenās adreses)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Departamenta kontaktpunkts (ja atšķiras no galvenā)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Transporta pakalpojuma veids</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Valsts izcelsme (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Piedāvājums ir variants (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Uzvarējušais piedāvājums ir variants (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Veids (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Daļai noteiktā piešķiršanas kritērija veids (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Daļu grupai noteiktā piešķiršanas kritērija veids (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Apraksts (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Daļai noteiktā piešķiršanas kritērija apraksts (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Daļu grupai noteiktā piešķiršanas kritērija apraksts (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Fiksēta vērtības kritērija (publicēts vēlāk)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Fiksēta vērtības kritērija (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Sliekšņa vērtības kritērija (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Svaru vērtības kritērija (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Skaitlis ir svēruma veids (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Daļai noteiktā piešķiršanas kritērija skaitlis – svērums (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Daļu grupai noteikto piešķiršanas kritēriju skaitlis – svērums (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Skaitlis ir fiksēta vērtība (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Daļai noteiktais piešķiršanas kritērijs ir fiksēts skaitlis (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Daļu grupai noteiktais piešķiršanas kritērijs ir fiksēts skaitlis (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Skaitlis ir sliekšņa veids (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Daļai noteiktā piešķiršanas kritērija skaitlis ir slieksnis (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Daļu grupai noteiktā piešķiršanas kritērija skaitlis ir slieksnis (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Izmantojamās metodes apraksts, ja svērumu nevar izteikt ar kritērijiem (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Daļai noteiktā piešķiršanas kritērija skaitlis, sarežģītā svēršana (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Daļu grupai noteikto piešķiršanas kritēriju skaitlis, sarežģītā svēršana (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Apakšuzņēmuma līguma vērtība (publicēts vēlāk)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Apakšuzņēmuma līguma vērtība ir zināma (publicēta vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Apakšuzņēmuma līgumu procentuālā daļa ir zināma (publicēta vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Apakšuzņēmuma līgumu procentuālā daļa ir zināma (publicēta vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Pamatojums tam, kāpēc nav norādīts piešķiršanas kritēriju svērums (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Daļai noteikto piešķiršanas kritēriju secības pamatojums (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Daļu grupai noteikto piešķiršanas kritēriju secības pamatojums (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Nosaukums (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Daļai noteikto piešķiršanas kritēriju nosaukums (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Daļu grupai noteikto piešķiršanas kritēriju nosaukums (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Saņemto piedāvājumu vai dalības pieteikumu skaits (publicēts vēlāk)</entry>

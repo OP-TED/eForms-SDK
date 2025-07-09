@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Dodatečné informace</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Kritéria pro zadání zakázky</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Kritéria pro zadání zakázky</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parametr spojený s kritériem pro zadání zakázky</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametry spojené s kritériem pro zadání zakázky</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Kritérium pevné hodnoty</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Kritérium prahové hodnoty</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Organizace příslušná pro mediační řízení</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Místo plnění</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Odhadovaná doba trvání</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Doba trvání</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Období</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Odkaz na předchozí plánování</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Dokumenty k nákupu pro část</entry>
 <entry key="group|name|GR-Part-Purpose">Účel</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Uchazeč</entry>
 <entry key="group|name|GR-TenderingParty-Section">Uchazeči</entry>
 <entry key="group|name|GR-Touch-Point">Zvláštní kontaktní místa</entry>
-<entry key="group|name|GR-TouchPoint">Zvláštní kontaktní místo</entry>
 <entry key="group|name|GR-TouchPoint-Address">Adresa odboru (pokud se liší od hlavní)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Kontaktní místo daného odboru (pokud se liší od hlavního)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Typ dopravní služby</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Země původu (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Nabídka je variantou (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Vítězná nabídka je variantou (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Druh (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Typ kritéria pro zadání části zakázky (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Typ kritéria pro zadání skupiny částí zakázky (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Popis (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Popis kritéria pro zadání části zakázky (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Popis kritéria pro zadání skupiny částí zakázky (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Kritérium pevné hodnoty (zveřejněno později)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Kritérium pevné hodnoty (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Kritérium prahové hodnoty (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Kritérium váhové hodnoty (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Číslo je typem váhy (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Číslo spojené s kritériem pro zadání řásti zakázky – váha (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Číslo spojené s kritériem pro zadání skupiny částí zakázky – váha (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Číslo je pevná hodnota (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Číslo spojené s kritériem pro zadání části zakázky má pevně stanovenou hodnotu (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Číslo spojené s kritériem pro zadání skupiny částí zakázky má pevně stanovenou hodnotu (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Číslo je typem prahové hodnoty (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Číslo spojené s kritériem pro zadání části zakázky je prahová hodnota (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Číslo spojené s kritériem pro zadání skupiny částí zakázky je prahová hodnota (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Popis metody, která se použije v případě, že vážení nelze vyjádřit pomocí kritérií (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Číslo spojené s kritériem pro zadání části zakázky je složité (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Číslo spojené s kritériem pro zadání skupiny částí zakázky je složité (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Hodnota subdodávek (zveřejněno později)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Hodnota subdodávek je známa (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Procentní podíl subdodávky je znám (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Procentní podíl subdodávek je znám (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Odůvodnění neuvedení váhy kritérií pro zadání (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Odůvodnění pořadí kritérií pro zadání části zakázky (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Odůvodnění pořadí kritérií pro zadání skupiny částí zakázky (zveřejněno později)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Název (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Název kritérií pro zadání části zakázky (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Název kritérií pro zadání skupiny částí zakázky (zveřejněno později)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Počet obdržených nabídek nebo žádostí o účast (zveřejněno později)</entry>

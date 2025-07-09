@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Papildoma informacija</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Skyrimo kriterijai</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Skyrimo kriterijai</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Skyrimo kriterijaus parametras</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Skyrimo kriterijaus parametrai</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Fiksuotos vertės kriterijus</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Ribinės vertės kriterijus</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Tarpininkavimo organizacija</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Sutarties vykdymo vieta</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Numatomas galiojimas</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Galiojimas</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Laikotarpis</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Anksčiau planuoto pirkimo nuoroda</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Pirkimo dokumentai daliai</entry>
 <entry key="group|name|GR-Part-Purpose">Tikslas</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Pirkimų procedūros dalyvis</entry>
 <entry key="group|name|GR-TenderingParty-Section">Pirkimų procedūros dalyviai</entry>
 <entry key="group|name|GR-Touch-Point">Konkretūs ryšių centrai</entry>
-<entry key="group|name|GR-TouchPoint">Konkretus ryšių centras</entry>
 <entry key="group|name|GR-TouchPoint-Address">Padalinio adresas (jei skiriasi nuo pagrindinio)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Padalinio ryšių centras (jei skiriasi nuo pagrindinio)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Transporto paslaugos tipas</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Kilmės šalis (paskelbta vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Pasiūlymas yra alternatyvus (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Laimėjęs pasiūlymas yra alternatyvus (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Rūšis (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Pirkimo dalis: skyrimo kriterijus: rūšis (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Pirkimo dalių grupė: skyrimo kriterijus: rūšis (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Pirkimo dalis: skyrimo kriterijus: aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Pirkimo dalių grupė: skyrimo kriterijus: aprašymas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Fiksuotos vertės kriterijus (paskelbtas vėliau)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Fiksuotos vertės kriterijus (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Ribinės vertės kriterijus (paskelbtas vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Svorio vertės kriterijus (paskelbtas vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Skaičius yra tam tikras lyginamasis svoris (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Pirkimo dalis: skyrimo kriterijus: skaičius: lyginamasis svoris (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Pirkimo dalių grupė: skyrimo kriterijus: lyginamasis svoris (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Skaičius yra fiksuotoji vertė (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Pirkimo dalies sutarties skyrimo kriterijus yra fiksuotasis skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Pirkimo dalių grupės sutarties skyrimo kriterijus yra fiksuotasis skaičius (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Skaičius yra tam tikra vertės riba (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Pirkimo dalies sutarties skyrimo kriterijaus skaičius yra vertės riba (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Pirkimo dalių grupės sutarties skyrimo kriterijaus skaičius yra vertės riba (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Naudotino metodo aprašymas, jei lyginamasis svoris negali būti išreikštas kriterijais (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Pirkimo dalis: skyrimo kriterijus: sudėtingas skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Pirkimo dalių grupė: skyrimo kriterijus: sudėtingas skaičius (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Subrangos sutarties vertė (skelbiama vėliau)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Subrangos vertė žinoma (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Subrangos procentinė dalis žinoma (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Subrangos procentinė dalis žinoma (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Pagrindimas, kodėl nenurodomas skyrimo kriterijų lyginamasis svoris (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Pirkimo dalies skyrimo kriterijų eiliškumo pagrindimas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Pirkimo dalių grupės sutarties skyrimo kriterijų eiliškumo pagrindimas (skelbiama vėliau)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Pavadinimas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Pirkimo dalies sutarties skyrimo kriterijų pavadinimas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Pirkimo dalių grupės sutarties skyrimo kriterijų pavadinimas (skelbiama vėliau)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Gautų pasiūlymų arba dalyvavimo prašymų skaičius (skelbiama vėliau)</entry>

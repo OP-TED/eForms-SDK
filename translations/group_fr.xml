@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Informations complémentaires</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Critères d'attribution</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Critères d'attribution</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Paramètre du critère d’attribution</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Paramètres du critère d’attribution</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Critère de valeur fixe</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Critère de seuil de valeur</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Organisation chargée des procédures de médiation</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Lieu d’exécution</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Durée estimée</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Durée</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Période</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Référence de planification préalable</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Documents d'achat pour la partie</entry>
 <entry key="group|name|GR-Part-Purpose">Objet</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Soumissionnaire</entry>
 <entry key="group|name|GR-TenderingParty-Section">Soumissionnaires</entry>
 <entry key="group|name|GR-Touch-Point">Points de contact spécifiques</entry>
-<entry key="group|name|GR-TouchPoint">Point de contact spécifique</entry>
 <entry key="group|name|GR-TouchPoint-Address">Adresse du service (si différente de l’adresse principale)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Point de contact du service (si différent du point de contact principal)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Type de service de transport</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Pays d'origine (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">L’offre est une variante (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">L’offre retenue est une variante (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Type (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Type de critère d’attribution du lot (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Type de critère d’attribution du groupe de lots (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Description (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Description du critère d’attribution du lot (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Description du critère d’attribution du groupe de lots (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Critère de valeur fixe (publié ultérieurement)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Critère de valeur fixe (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Critère de seuil de valeur (publié ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Critère de valeur pondérée (publié ultérieurement)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Le nombre est une pondération (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Pondération du critère d’attribution du lot (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Pondération des critères d’attribution du groupe de lots (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Le nombre est une valeur fixe (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Le critère d’attribution du lot est un nombre fixe (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Le critère d’attribution du groupe de lots est un nombre fixe (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Le nombre est un type de seuil (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Le nombre du critère d’attribution du lot est un seuil (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Le nombre du critère d’attribution du groupe de lots est un seuil (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Description de la méthode à utiliser si la pondération ne peut pas être exprimée par des critères (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Nombre du critère d’attribution du lot complexe (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Nombre des critères d’attribution du groupe de lots complexe (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Valeur de la sous-traitance (publication ultérieure)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">La valeur de la sous-traitance est connue (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Le pourcentage de la sous-traitance est connu (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Le pourcentage de la sous-traitance est connu (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Justification de l’absence d’indication de la pondération des critères d’attribution (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Justification de l’ordre des critères d’attribution du lot (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Justification de l’ordre des critères d’attribution du groupe de lots (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Nom (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Nom des critères d’attribution du lot (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Nom des critères d’attribution du groupe de lots (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Nombre d’offres ou de demandes de participation reçues (publication ultérieure)</entry>

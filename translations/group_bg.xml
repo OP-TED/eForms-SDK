@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Допълнителна информация</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Критерии за възлагане</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Критерии за възлагане</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Параметър на критерия за възлагане</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Параметри на критерия за възлагане</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Критерий с фиксирана стойност</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Прагов критерий за стойност</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Медиаторска организация</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Място на изпълнение</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Планиран срок</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Срок</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Период</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Номер на предишното планиране</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Документи за обществената поръчка за част</entry>
 <entry key="group|name|GR-Part-Purpose">Цел</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Участник в тръжната процедура</entry>
 <entry key="group|name|GR-TenderingParty-Section">Участници в тръжната процедура</entry>
 <entry key="group|name|GR-Touch-Point">Конкретни точки за връзка</entry>
-<entry key="group|name|GR-TouchPoint">Конкретна точка за връзка</entry>
 <entry key="group|name|GR-TouchPoint-Address">Адрес на отдела (ако е различен от основния)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Точка за връзка с отдела (ако е различна от основната)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Вид услуга за транспорт</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Страна на произход (публикува се по-късно)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Офертата е вариант (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Спечелилата оферта е вариант (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Вид (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Вид на критерия за възлагане на поръчка за обособената позиция (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Вид на критерия за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Описание (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Описание на критерия за възлагане на поръчка за обособената позиция (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Описание на критерия за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Критерий с фиксирана стойност (публикува се по-късно)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Критерий с фиксирана стойност (публикува се по-късно)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Прагов критерий за стойност (публикува се по-късно)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Критерий с тегловна стойност (публикува се по-късно)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Числото е вид тегло (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Число, свързано с критерия за възлагане на поръчка за обособената позиция — тегло (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Число, свързано с критерия за възлагане на поръчка за групата обособени позиции — тегло (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Числото е фиксирана величина (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Критерият за възлагане на поръчка за обособената позиция е фиксирана числова величина (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Критерият за възлагане на поръчка за групата обособени позиции е фиксирана числова величина (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Числото е вид праг (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Числото, свързано с критерия за възлагане на поръчка за обособената позиция, е праг (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Числото, свързано с критерия за възлагане на поръчка за групата обособени позиции, е праг (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Описание на метода, който трябва да се използва, ако претеглянето не може да бъде изразено по критерии (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Усложнен критерий за възлагане на поръчка за обособената позиция (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Усложнени критерии за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Стойност на частта от поръчката за подизпълнение (по-късно публикуване)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Стойността на частта от поръчката за подизпълнение е известна (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Процентният дял от поръчката за подизпълнение е известен (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Процентният дял от поръчката за подизпълнение е известен (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Обосновка за това, че не са посочени теглата на критериите за възлагане (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Обосновка за подреждането на критериите за възлагане на поръчка за обособената позиция (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Обосновка за подреждането на критериите за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Наименование (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Наименование на критериите за възлагане на поръчка за обособената позиция (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Наименование на критериите за възлагане на поръчка за групата обособени позиции (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Брой на получените оферти или заявления за участие (по-късно публикуване)</entry>
