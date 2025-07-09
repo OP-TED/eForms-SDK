@@ -572,7 +572,7 @@
         "content" : [ {
           "id" : "BT-106-Procedure",
           "contentType" : "field",
-          "displayType" : "TEXTBOX",
+          "displayType" : "COMBOBOX",
           "description" : "Procedure Accelerated",
           "_label" : "field|name|BT-106-Procedure"
         }, {
