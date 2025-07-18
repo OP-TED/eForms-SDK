@@ -22,4 +22,4 @@ jobs:
           distribution: 'adopt'
 
       - name: Build and analyze SDK
-        run: mvn clean install -Panalyze --no-transfer-progress -s .github/workflows/settings.xml
+        run: mvn clean install -Panalyze --no-transfer-progress

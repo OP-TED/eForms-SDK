@@ -35,22 +35,9 @@
     <url>https://github.com/OP-TED/eForms-SDK.git</url>
   </scm>
 
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://${sonatype.server.url}/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://${sonatype.server.url}/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.outputTimestamp>2024-10-31T14:50:23Z</project.build.outputTimestamp>
-
-    <sonatype.server.url>s01.oss.sonatype.org</sonatype.server.url>
 
     <!-- Versions eForms -->
     <version.eforms-sdk-analyzer>1.14.0-SNAPSHOT</version.eforms-sdk-analyzer>
@@ -60,8 +47,23 @@
     <version.exec.plugin>3.1.0</version.exec.plugin>
     <version.install.plugin>2.5.2</version.install.plugin>
     <version.jar.plugin>3.3.0</version.jar.plugin>
-    <version.nexus-staging.plugin>1.6.7</version.nexus-staging.plugin>
+    <version.central-publishing.plugin>0.8.0</version.central-publishing.plugin>
   </properties>
+
+  <repositories>
+    <repository>
+      <!-- Snapshots of eforms-sdk-analyzer are published in this repository -->
+      <id>central-snapshots</id>
+      <name>Central Snapshots repository</name>
+      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 
   <build>
     <resources>
@@ -111,9 +113,9 @@
           <version>${version.exec.plugin}</version>
         </plugin>
         <plugin>
-          <groupId>org.sonatype.plugins</groupId>
-          <artifactId>nexus-staging-maven-plugin</artifactId>
-          <version>${version.nexus-staging.plugin}</version>
+          <groupId>org.sonatype.central</groupId>
+          <artifactId>central-publishing-maven-plugin</artifactId>
+          <version>${version.central-publishing.plugin}</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -243,16 +245,15 @@
               </gpgArguments>
             </configuration>
           </plugin>
-           <plugin>
-              <groupId>org.sonatype.plugins</groupId>
-              <artifactId>nexus-staging-maven-plugin</artifactId>
-              <extensions>true</extensions>
-              <configuration>
-                <serverId>ossrh</serverId>
-                <nexusUrl>https://${sonatype.server.url}/</nexusUrl>
-                <autoReleaseAfterClose>true</autoReleaseAfterClose>
-              </configuration>
-           </plugin>
+          <plugin>
+            <groupId>org.sonatype.central</groupId>
+            <artifactId>central-publishing-maven-plugin</artifactId>
+            <extensions>true</extensions>
+            <configuration>
+              <publishingServerId>central</publishingServerId>
+              <autoPublish>true</autoPublish>
+            </configuration>
+          </plugin>
         </plugins>
       </build>
     </profile>
