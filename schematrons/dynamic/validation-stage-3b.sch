@@ -1170,7 +1170,7 @@
 		<assert id="BT-810-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-810-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='ipi-scope']/efbc:ApplicableLegalBasis">
-		<assert id="BR-BT-00684-0052" role="ERROR" test="normalize-space(.) = ('false')">rule|text|BR-BT-00684-0052</assert>
+		<assert id="BR-BT-00684-0052" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00684-0052</assert>
 		<assert id="BT-684-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-684-Lot-List_MA</assert>
 		<assert id="BT-684-Lot_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-684-Lot_WS</assert>
 	</rule>
