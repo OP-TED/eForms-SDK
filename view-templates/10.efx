@@ -46,7 +46,7 @@
 				{BT-763-Procedure [BT-763-Procedure == 'all']} #{field|name|BT-763-Procedure} // The tenderer must submit tenders for all lots. (indicator all)
 			0 {ND-Root[BT-33-Procedure is present]} #{auxiliary|text|contract-terms}: // Terms of contract
 				{BT-33-Procedure} #{field|name|BT-33-Procedure}: ${format-number(BT-33-Procedure, '###,##0')} // Maximum number of lots for which contracts can be awarded to one tenderer
-		6 {ND-ProcedureTerms[(BT-67(a)-Procedure is present)]} #{auxiliary|text|exclusion-grounds} // 2.1.6 Exclusion grounds
+		6 {ND-ProcedureTerms[(BT-67(a)-Procedure is present) or (BT-806-Procedure is present)]} #{auxiliary|text|exclusion-grounds} // 2.1.6 Exclusion grounds
 			{ND-ProcedureTerms[(BT-806-Procedure is present)]} #{auxiliary|text|exclusion-grounds-sources}: #{BT-806-Procedure} // Exclusion grounds sources
 			{BT-67(a)-Procedure} #{BT-67(a)-Procedure}: ${for text:$egdesc in BT-67(b)-Procedure return $egdesc} // Description
 4 {ND-Root[BT-137-LotsGroup is present]} #{auxiliary|text|group-of-lots} // 4 Group of lots

@@ -39,7 +39,7 @@
 			{BT-01-notice} #{BT-01-notice} // Procedure Legal Basis
 			{BT-01(c)-Procedure} ${BT-01(c)-Procedure} - ${BT-01(d)-Procedure} // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
 			{BT-01(e)-Procedure} ${BT-01(f)-Procedure} // Procedure Legal Basis (no ID) Description
-		6 {ND-ProcedureTerms[(BT-67(a)-Procedure is present)]} #{auxiliary|text|exclusion-grounds} // 2.1.6 Exclusion grounds
+		6 {ND-ProcedureTerms[(BT-67(a)-Procedure is present) or (BT-806-Procedure is present)]} #{auxiliary|text|exclusion-grounds} // 2.1.6 Exclusion grounds
 			{ND-ProcedureTerms[(BT-806-Procedure is present)]} #{auxiliary|text|exclusion-grounds-sources}: #{BT-806-Procedure} // Exclusion grounds sources
 			{BT-67(a)-Procedure} #{BT-67(a)-Procedure}: ${for text:$egdesc in BT-67(b)-Procedure return $egdesc} // Description
 5 {ND-Root[BT-137-Lot is present]} #{auxiliary|text|lot} // 5 Lots
