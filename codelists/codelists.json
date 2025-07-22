@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.147",
-    "createdOn" : "2025-06-20T16:17:49"
+    "version" : "1.13.158",
+    "createdOn" : "2025-07-22T17:17:25"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -473,7 +473,7 @@
     "_label" : "codelist|name|innovative-acquisition"
   }, {
     "id" : "international-procurement-instrument-application",
-    "version" : "1.0",
+    "version" : "20241211-0",
     "filename" : "international-procurement-instrument-application.gc",
     "description" : "This table provides the list of codes and values used to specify the exception to the application of the IPI measure",
     "_label" : "codelist|name|international-procurement-instrument-application"
