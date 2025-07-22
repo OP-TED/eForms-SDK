@@ -2597,7 +2597,7 @@
 		<assert id="BR-BT-00688-0060" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00688-0060</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode">
-		<assert id="BR-BT-00685-0060" role="ERROR" test="normalize-space(.) = ('empty')">rule|text|BR-BT-00685-0060</assert>
+		<assert id="BR-BT-00685-0060" role="ERROR" test="normalize-space(.) = ('32025R1197')">rule|text|BR-BT-00685-0060</assert>
 		<assert id="BT-685-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-685-LotResult-List_MA</assert>
 		<assert id="BT-685-LotResult_WS" role="ERROR" test="normalize-space(.) eq .">rule|text|BT-685-LotResult_WS</assert>
 	</rule>
