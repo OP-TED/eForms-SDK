@@ -1,6 +1,6 @@
 # SDK 1.13.2 Release Notes
 
-This release add the first "International Procurement Instrument" measure (Regulation 2025/1197).
+This release adds the recently adopted first "International Procurement Instrument" measure regarding medical devices from China (Regulation 2025/1197).
 
 In addition, the Defence Directive (2009/81) is now allowed as a legal basis for notice subtype 38 (contract modification).
 
