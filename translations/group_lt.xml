@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Pirkimo dalių grupės didžiausiosios vertės identifikatorius (skelbiama vėliau)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Pirkimo dalių grupės didžiausioji vertė (skelbiama vėliau)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Iš naujo įvertinta pirkimo dalių grupės vertė (skelbiama vėliau)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Informacija apie taikytą priemonę</entry>
 <entry key="group|name|ND-IPIInformation">Informacija apie visus taikytus metodus</entry>
+<entry key="group|name|ND-IPILot">Informacija apie IPI taikymą</entry>
 <entry key="group|name|ND-IPILotResult">Bendra informacija apie IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Išimtis taikytai priemonei</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistika apie taikytas priemones</entry>
 <entry key="group|name|ND-LateTendererInformation">Vėliau teikiama informacija apie dalyvį</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Kitas teisinis pagrindas be žinomo identifikatoriaus</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Kitas teisinis pagrindas, turintis identifikatorių</entry>

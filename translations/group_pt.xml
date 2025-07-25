@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identificador do valor máximo do grupo (publicação mais tarde)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Valor máximo do grupo (publicação mais tarde)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Valor reestimado do grupo (publicação mais tarde)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Detalhes sobre uma medida aplicada</entry>
 <entry key="group|name|ND-IPIInformation">Informações sobre todas as medidas aplicadas</entry>
+<entry key="group|name|ND-IPILot">Informação sobre a aplicabilidade do IPI</entry>
 <entry key="group|name|ND-IPILotResult">Informações gerais sobre o IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Exceção à medida aplicada</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Estatísticas sobre as medidas aplicadas</entry>
 <entry key="group|name|ND-LateTendererInformation">Informações tardias sobre o proponente</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Outra base jurídica sem identificador conhecido</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Outra base jurídica com identificador</entry>

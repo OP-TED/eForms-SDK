@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identifikátor maximální hodnoty skupiny (zveřejněno později)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Maximální hodnota skupiny (zveřejněno později)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Znovu odhadnutá hodnota skupiny (zveřejněno později)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Podrobnosti o aplikovaném opatření</entry>
 <entry key="group|name|ND-IPIInformation">Informace o všech použitých opatřeních</entry>
+<entry key="group|name|ND-IPILot">Informace o použitelnosti IPI</entry>
 <entry key="group|name|ND-IPILotResult">Celkové informace o IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Výjimka z aplikovaného opatření</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistiky o aplikovaných opatřeních</entry>
 <entry key="group|name|ND-LateTendererInformation">Pozdější poskytnutí informací o uchazeči</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Jiný právní základ bez známého identifikátoru</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Jiný právní základ s identifikátorem</entry>

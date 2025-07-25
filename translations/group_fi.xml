@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Ryhmän enimmäisarvon tunniste (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Ryhmän enimmäisarvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Ryhmän uudelleenarvioitu arvo (julkaistaan myöhemmin)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Tiedot sovelletusta toimenpiteestä</entry>
 <entry key="group|name|ND-IPIInformation">Tietoa kaikista käytetyistä toimenpiteistä</entry>
+<entry key="group|name|ND-IPILot">Tietoja IPI:n soveltuvuudesta</entry>
 <entry key="group|name|ND-IPILotResult">Yleistä tietoa IPI:stä</entry>
+<entry key="group|name|ND-IPIMeasureException">Poikkeus sovelletusta toimenpiteestä</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Tilastot sovelletuista toimenpiteistä</entry>
 <entry key="group|name|ND-LateTendererInformation">Määräajan jälkeen toimitettavat tiedot</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Muu oikeusperusta ilman tiedossa olevaa tunnistetta</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Muu oikeusperusta, jolla on tunniste</entry>
