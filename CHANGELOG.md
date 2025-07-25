@@ -4,7 +4,10 @@ This release adds the recently adopted first "International Procurement Instrume
 
 In addition, the Defence Directive (2009/81) is now allowed as a legal basis for notice subtype 38 (contract modification).
 
-This release also contains corrections to the view templates, to ensure exclusion grounds and selection criteria are shown in the correct conditions.
+This release also contains corrections to the view templates:
+
+* Ensure exclusion grounds and selection criteria are shown in the correct conditions.
+* Display the sections for EED, IPI and CVD correctly in the section "Statistics about strategic procurement".
 
 A comprehensive list of changes between SDK 1.13.1 and SDK 1.13.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.13.1...1.13.2>
 
