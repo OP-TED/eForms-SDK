@@ -4,6 +4,8 @@ This release adds the recently adopted first "International Procurement Instrume
 
 In addition, the Defence Directive (2009/81) is now allowed as a legal basis for notice subtype 38 (contract modification).
 
+The lawfulness warning rule BR-BT-00500-0309 has been removed to no longer check for "test" in organisation names.
+
 This release also contains corrections to the view templates:
 
 * Ensure exclusion grounds and selection criteria are shown in the correct conditions.
