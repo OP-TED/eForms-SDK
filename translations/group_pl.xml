@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Informacje dodatkowe</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Kryteria udzielenia</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Kryteria udzielenia</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parametr kryterium udzielenia zamówienia</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametry kryterium udzielenia zamówienia</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Kryterium wartości stałej</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Kryterium wartości progowej</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Organ mediacyjny</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Miejsce realizacji</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Szacowany okres obowiązywania</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Okres obowiązywania</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Okres</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Identyfikator wcześniejszego planu zakupu</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Dokumenty przetargowe dla części</entry>
 <entry key="group|name|GR-Part-Purpose">Przeznaczenie</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Uczestnik przetargu</entry>
 <entry key="group|name|GR-TenderingParty-Section">Uczestnicy przetargu</entry>
 <entry key="group|name|GR-Touch-Point">Wyznaczone punkty kontaktowe</entry>
-<entry key="group|name|GR-TouchPoint">Wyznaczony punkt kontaktowy</entry>
 <entry key="group|name|GR-TouchPoint-Address">Adres departamentu (jeżeli jest inny od adresu głównego)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Punkt kontaktowy w departamencie (jeżeli jest inny niż adres główny)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Rodzaj usługi transportowej</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Kraj pochodzenia (opublikowany później)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Oferta jest wariantem (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Zwycięska oferta jest wariantem (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Rodzaj (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Rodzaj kryterium udzielenia części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Rodzaj kryterium udzielenia grupy części zamówienia (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Opis (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Opis kryterium udzielenia części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Opis kryteriów udzielenia grupy części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Kryterium wartości stałej (opublikowane później)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Kryterium wartości stałej (opublikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Kryterium wartości progowej (opublikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Kryterium wartości wagowej (opublikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Liczba jest rodzajem wagi (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Liczba związana z kryterium udzielenia części zamówienia jest wagą (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Liczba związana z kryteriami udzielenia grupy części zamówienia jest wagą (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Liczba jest wartością stałą (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Kryterium udzielenia części zamówienia jest liczbą stałą (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Kryterium udzielenia grupy części zamówienia jest liczbą stałą (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Liczba jest rodzajem progu (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Liczba związana z kryterium udzielenia części zamówienia jest progiem (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Liczba związana z kryterium udzielenia grupy części zamówienia jest progiem (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Opis stosowanej metody, jeżeli nie można przypisać wagi kryteriom (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Złożona liczba związana z kryterium udzielenia części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Złożona liczba związana z kryteriami udzielenia grupy części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Wartość podwykonawstwa (publikowane później)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Znana jest wartość podwykonawstwa (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Znana jest wartość procentowa podwykonawstwa (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Znana jest wartość procentowa podwykonawstwa (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Uzasadnienie niewskazania wagi kryteriów udzielenia zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Uzasadnienie kryteriów udzielenia części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Uzasadnienie kryteriów udzielenia grupy części zamówienia (publikowane później)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Nazwa (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Nazwa kryteriów udzielenia części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Nazwa kryteriów udzielenia grupy części zamówienia (publikowane później)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Liczba otrzymanych ofert lub wniosków o dopuszczenie do udziału (publikowane później)</entry>

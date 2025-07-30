@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informazioni sui termini per il riesame' (BT-99-Lot) non è compilato</entry>
 <entry key="expression|name|203">Non è stato aggiudicato alcun lotto</entry>
 <entry key="expression|name|204">'Appalto: identificativo dell'offerta' (BT-3202-Contract) non è compilato</entry>
-<entry key="expression|name|205">'Tipo di procedura' (BT-105) non è 'Negoziata senza previa indizione di gara'; 'Base giuridica' (BT-01) non è 'Regolamento (UE, Euratom) 2018/1046'; almeno un 'Appalto: identificativo dell'offerta' (BT-3202-Contract) è compilato</entry>
 <entry key="expression|name|206">'L'appalto è aggiudicato nell'ambito di un accordo quadro' (BT-768-Contract) non è 'sì'</entry>
 <entry key="expression|name|207">'Identificativo dell'offerta' (BT-3201-Tender) è compilato</entry>
 <entry key="expression|name|209">'Versione dell'avviso precedente da modificare' (BT-758-notice) non è compilato</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Il codice del criterio di selezione (BT-809) non esiste</entry>
 <entry key="expression|name|616">L'organizzazione è un acquirente, e il sistema di acquisto dinamico può essere utilizzato anche da acquirenti non elencati in questo avviso, e 'Centrale di committenza per l'acquisizione di forniture e/o servizi destinati ad altri committenti' (OPP-052) non è compilato</entry>
 <entry key="expression|name|617">L'organizzazione è un acquirente, e il sistema di acquisto dinamico può essere utilizzato anche da acquirenti non elencati in questo avviso, e 'Centrale di committenza per l'acquisizione di forniture e/o servizi destinati ad altri committenti' (OPP-052) non è compilato</entry>
-<entry key="expression|name|618">'La procedura è accelerata' (BT-106-Procedure) è 'sì'</entry>
 <entry key="expression|name|619">'La procedura è accelerata' (BT-106-Procedure) è 'sì'</entry>
 <entry key="expression|name|62">'Status del processo di selezione' (BT-142-LotResult) non è 'Non è stato selezionato nessun vincitore e la gara è chiusa.'</entry>
 <entry key="expression|name|620">'La procedura è accelerata' (BT-106-Procedure) è 'sì'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Criteri di selezione' (BT-809-Lot) non esiste o 'La procedura si svolge in diverse fasi. In ogni fase possono essere eliminati alcuni partecipanti' (BT-52-Lot) non è 'sì' o 'Tipo di procedura' (BT-105) non è 'Dialogo competitivo', 'Partenariato per l'innovazione', 'Negoziata con previa indizione di gara / competitiva con negoziazione', 'Altra procedura a più fasi' o 'Ristretta'</entry>
 <entry key="expression|name|67">'Subappalto' (BT-773-Tender) non è 'Sì'</entry>
 <entry key="expression|name|671">'Il numero è un tipo di ponderazione' (BT-5421) non è 'Ordine di importanza'</entry>
+<entry key="expression|name|679">'Tipo di procedura' (BT-105-Procedure) non è 'Negoziata senza previa indizione di gara' e 'Base giuridica' (BT-01-notice) non è 'Regolamento (UE, Euratom) 2024/2509' e c'è almeno un 'Appalto: identificativo dell'offerta' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Il valore del subappalto è noto' (BT-730-Tender) non è 'sì'</entry>
 <entry key="expression|name|69">'Subappalto' (BT-773-Tender) non è 'Sì'</entry>
-<entry key="expression|name|699">'Tipo di procedura' (BT-105) non è 'Negoziata senza previa indizione di gara'; 'Base giuridica' (BT-01) non è 'Regolamento (UE, Euratom) 2018/1046'; 'Base giuridica' (BT-01) non è 'Regolamento (UE, Euratom) 2024/2509'; c'è almeno un 'Appalto: identificativo dell'offerta' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Paese' (BT-5141-Part) è compilato</entry>
 <entry key="expression|name|70">'La percentuale del subappalto è nota' (BT-731-Tender) non è 'sì'</entry>
 <entry key="expression|name|71">'Subappalto' (BT-773-Tender) è 'Sì'</entry>

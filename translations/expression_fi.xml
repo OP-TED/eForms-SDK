@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Tietoa muutoksenhaun määräajoista' (BT-99-Lot) ei ole täytetty</entry>
 <entry key="expression|name|203">Yhdenkään erän osalta ei ole tehty sopimusta</entry>
 <entry key="expression|name|204">'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract) ei ole täytetty</entry>
-<entry key="expression|name|205">'Menettelyn tyyppi' (BT-105) ei ole 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua', 'Oikeusperusta' (BT-01) ei ole 'Asetus (EU, Euratom) 2018/1046', vähintään yksi 'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract) on täytetty</entry>
 <entry key="expression|name|206">'Sopimus tehdään puitejärjestelyn puitteissa' (BT-768-Contract) ei ole 'kyllä'</entry>
 <entry key="expression|name|207">'Tarjouksen tunniste' (BT-3201-Tender) on täytetty</entry>
 <entry key="expression|name|209">'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole täytetty</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Olevan valintakriteerin (BT-809) koodia ei ole</entry>
 <entry key="expression|name|616">Organisaatio on ostaja, ja dynaaminen hankintajärjestelmä on myös käytettävissä ostajille, jotka eivät ole tässä ilmoituksessa, ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ei ole täytetty</entry>
 <entry key="expression|name|617">Organisaatio on ostaja, ja dynaaminen hankintajärjestelmä on myös käytettävissä ostajille, jotka eivät ole tässä ilmoituksessa, ja 'Muille ostajille tarkoitettuja tavaroita ja/tai palveluja hankkiva yhteishankintayksikkö' (OPP-052) ei ole täytetty</entry>
-<entry key="expression|name|618">'Käytetään nopeutettua menettelyä' (BT-106-Procedure) on 'kyllä'</entry>
 <entry key="expression|name|619">'Käytetään nopeutettua menettelyä' (BT-106-Procedure) on 'kyllä'</entry>
 <entry key="expression|name|62">'Voittajan valinnan tila' (BT-142-LotResult) ei ole 'Voittajaa ei valittu ja kilpailu on suljettu.'</entry>
 <entry key="expression|name|620">'Käytetään nopeutettua menettelyä' (BT-106-Procedure) on 'kyllä'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Valintaperusteet' (BT-809-Lot) ei ole olemassa tai 'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä' tai 'Menettelyn tyyppi' (BT-105) ei ole 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely' tai 'Rajoitettu'</entry>
 <entry key="expression|name|67">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>
 <entry key="expression|name|671">'Luku on tyypiltään painotus' (BT-5421) ei ole 'Ensisijaisuusjärjestys'</entry>
+<entry key="expression|name|679">'Menettelyn tyyppi' (BT-105-Procedure) ei ole 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua' ja 'Oikeusperusta' (BT-01-notice) ei ole 'Asetus (EU, Euratom) 2024/2509' ja on vähintään yksi 'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Alihankinnan arvo tiedossa' (BT-730-Tender) ei ole 'kyllä'</entry>
 <entry key="expression|name|69">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>
-<entry key="expression|name|699">'Menettelyn tyyppi' (BT-105) ei ole 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua'; 'Oikeusperusta' (BT-01) ei ole 'Asetus (EU, Euratom) 2018/1046'; 'Oikeusperusta' (BT-01) ei ole 'Asetus (EU, Euratom) 2024/2509'; on vähintään yksi 'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Maa' (BT-5141-Part) on täytetty</entry>
 <entry key="expression|name|70">'Alihankinnan prosenttiosuus tiedossa' (BT-731-Tender) ei ole 'kyllä'</entry>
 <entry key="expression|name|71">'Alihankinta' (BT-773-Tender) on 'Kyllä'</entry>

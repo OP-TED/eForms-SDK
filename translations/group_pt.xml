@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Informações adicionais</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Critérios de atribuição</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Critérios de atribuição</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parâmetro do critério de adjudicação</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parâmetros do critério de adjudicação</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Critério de valor fixo</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Critério de valor limiar</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Organização de mediação</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Local de execução dos trabalhos</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Duração estimada</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Duração</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Período</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Referência de planeamento anterior</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Documentos de aquisição para a parte</entry>
 <entry key="group|name|GR-Part-Purpose">Finalidade</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Entidade proponente</entry>
 <entry key="group|name|GR-TenderingParty-Section">Entidades proponentes</entry>
 <entry key="group|name|GR-Touch-Point">Pontos de contacto específicos</entry>
-<entry key="group|name|GR-TouchPoint">Ponto de contacto específico</entry>
 <entry key="group|name|GR-TouchPoint-Address">Endereço do serviço (se diferente do endereço principal)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Ponto de contacto do serviço (se diferente do principal)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Tipo de serviço de transporte</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">País de origem (publicado posteriormente)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">O concurso é uma variante (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">A proposta vencedora é uma variante (publicação mais tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Tipo (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Tipo de critério de adjudicação do lote (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Tipo de critério de adjudicação do grupo de lotes (publicação mais tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Descrição (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Descrição do critério de adjudicação do lote (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Descrição do critério de adjudicação do grupo de lotes (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Critério de valor fixo (publicado posteriormente)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Critério de valor fixo (publicado posteriormente)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Critério de valor limiar (publicado posteriormente)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Critério de valor ponderado (publicado posteriormente)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">O número é um tipo de fator de ponderação (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Ponderação do número do critério de adjudicação do lote (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Ponderação do número dos critérios de adjudicação do grupo de lotes (publicação mais tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">O número é um valor fixo (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">O critério de adjudicação do lote é um número fixo (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">O critério de adjudicação do grupo de lotes é um número fixo (publicação mais tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">O número é um tipo de limiar (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">O número do critério de adjudicação do lote é um limiar (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">O número do critério de adjudicação do grupo de lotes é um limiar (publicação mais tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Descrição do método a utilizar se a ponderação não puder ser expressa por critérios (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Número do critério de adjudicação do lote complexo (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Número dos critérios de adjudicação do grupo de lotes complexo (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Valor de subcontratação (publicação mais tarde)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">O valor da subcontratação é conhecido (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">A percentagem de subcontratação é conhecida (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">A percentagem de subcontratação é conhecida (publicação mais tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Justificação para não indicar a ponderação dos critérios de adjudicação (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Justificação da ordem dos critérios de adjudicação do lote (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Justificação da ordem dos critérios de adjudicação do grupo de lotes (publicação mais tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Nome (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Nome do critério de adjudicação do lote (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Nome do critério de adjudicação do grupo de lotes (publicação mais tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Número de propostas ou pedidos de participação recebidos (publicação mais tarde)</entry>

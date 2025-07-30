@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'A felülvizsgálati határidőkre vonatkozó információk' (BT-99-Lot) nincs kitöltve</entry>
 <entry key="expression|name|203">Egy tételt sem ítéltek oda</entry>
 <entry key="expression|name|204">'Szerződés ajánlati azonosítója' (BT-3202-Contract) nincs kitöltve</entry>
-<entry key="expression|name|205">'Az eljárás típusa' (BT-105) nem 'Felhívás nélküli tárgyalásos eljárás'; 'Jogalap' (BT-01) nem '(EU, Euratom) 2018/1046 rendelet'; legalább egy 'Szerződés ajánlati azonosítója' (BT-3202-Contract) ki van töltve</entry>
 <entry key="expression|name|206">'A szerződés odaítélésére keretmegállapodáson belül kerül sor' (BT-768-Contract) nem 'igen'</entry>
 <entry key="expression|name|207">'Ajánlat azonosítója' (BT-3201-Tender) ki van töltve</entry>
 <entry key="expression|name|209">'Az előző hirdetmény módosítandó változata' (BT-758-notice) nincs kitöltve</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">A választási kritérium (BT-809) kódja nem létezik</entry>
 <entry key="expression|name|616">A szervezet vevő, és a dinamikus beszerzési rendszer is használható azok által a vevők által, akik nem szerepelnek ebben az értesítésben, és a 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) nincs kitöltve</entry>
 <entry key="expression|name|617">A szervezet vevő, és a dinamikus beszerzési rendszer is használható azok által a vevők által, akik nem szerepelnek ebben az értesítésben, és a 'Más vevőknek szánt árukat és/vagy szolgáltatásokat beszerző központi beszerző szerv' (OPP-052) nincs kitöltve</entry>
-<entry key="expression|name|618">'Az eljárás gyorsított' (BT-106-Procedure) 'igen'</entry>
 <entry key="expression|name|619">'Az eljárás gyorsított' (BT-106-Procedure) 'igen'</entry>
 <entry key="expression|name|62">'Van-e nyertes kiválasztva?' (BT-142-LotResult) nem 'A nyertes kiválasztására sor került, és a verseny lezárult.'</entry>
 <entry key="expression|name|620">'Az eljárás gyorsított' (BT-106-Procedure) 'igen'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Alkalmassági követelmények' (BT-809-Lot) nem létezik vagy 'Ez az eljárás több szakaszból áll. Minden szakaszban kiesik néhány résztvevő' (BT-52-Lot) nem 'igen' vagy 'Az eljárás típusa' (BT-105) nem 'Versenypárbeszéd', 'Innovációs partnerség', 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos', 'Egyéb többszakaszos eljárás' vagy 'Zárt'</entry>
 <entry key="expression|name|67">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
 <entry key="expression|name|671">'A szám valamilyen súlyozás' (BT-5421) nem 'Fontossági sorrend'</entry>
+<entry key="expression|name|679">'Az eljárás típusa' (BT-105-Procedure) nem 'Felhívás nélküli tárgyalásos eljárás' és 'Jogalap' (BT-01-notice) nem '(EU, Euratom) 2024/2509 rendelet' és van legalább egy 'Szerződés ajánlati azonosítója' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Az alvállalkozásba adott szerződésrész értéke ismert' (BT-730-Tender) nem 'igen'</entry>
 <entry key="expression|name|69">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
-<entry key="expression|name|699">'Az eljárás típusa' (BT-105) nem 'Felhívás nélküli tárgyalásos eljárás'; 'Jogalap' (BT-01) nem '(EU, Euratom) 2018/1046 rendelet'; 'Jogalap' (BT-01) nem '(EU, Euratom) 2024/2509 rendelet'; van legalább egy 'Szerződés ajánlati azonosítója' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Ország' (BT-5141-Part) ki van töltve</entry>
 <entry key="expression|name|70">'Az alvállalkozásba adott szerződésrész százalékos aránya ismert' (BT-731-Tender) nem 'igen'</entry>
 <entry key="expression|name|71">'Alvállalkozás' (BT-773-Tender) = 'Igen'</entry>

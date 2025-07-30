@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Informazzjoni addizzjonali</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Kriterji għall-għoti</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Kriterji għall-għoti</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parametru tal-kriterju tal-għoti</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametru tal-kriterju għall-għoti</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Kriterju ta' valur fix-xierqa</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Kriterju ta' valur tal-limitu</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Organizzazzjoni tal-medjazzjoni</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Post tal-prestazzjoni</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Tul ta’ żmien stmat</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Tul ta’ żmien</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Perjodu</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Referenza tal-ippjanar preċedenti</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Dokumenti ta' akkwist għall-parti</entry>
 <entry key="group|name|GR-Part-Purpose">Skop</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Parti li tagħmel l-offerti</entry>
 <entry key="group|name|GR-TenderingParty-Section">Partijiet li jagħmlu l-offerti</entry>
 <entry key="group|name|GR-Touch-Point">Punt ta’ kuntatt speċifiku</entry>
-<entry key="group|name|GR-TouchPoint">Punt ta’ kuntatt speċifiku</entry>
 <entry key="group|name|GR-TouchPoint-Address">Indirizz tad-dipartiment (jekk differenti minn dak prinċipali)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Punt ta’ kuntatt tad-dipartiment (jekk differenti minn dak prinċipali)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Tip ta' servizz tat-trasport</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Pajjiż ta' oriġini (ippubblikat aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">L-offerta hi varjant (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">L-offerta rebbieħa hi varjant (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Tip (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Kriterju għall-għoti tal-lott tip (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Kriterju għall-għoti tal-grupp ta’ lottijiet tip (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Deskrizzjoni (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Deskrizzjoni tal-kriterji għall-għoti tal-lott (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Kriterju għall-għoti tal-grupp ta’ lottijiet deskrizzjoni (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Kriterju ta' valur fix-xierqa (ippubblikat aktar tard)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Kriterju ta' valur fix-xierqa (ippubblikat aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Kriterju ta' valur tal-limitu (ippubblikat aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Kriterju ta' valur tal-piż (ippubblikat aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">In-numru hu tip ta’ ponderazzjoni (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Kriterju għall-għoti tal-lottijiet numru tal-ponderazzjoni (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Kriterji għall-għoti tal-grupp ta’ lottijiet numru tal-ponderazzjoni (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">In-numru hu valur fiss (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Il-kriterju tal-għoti tal-lott hu numru fiss (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Il-kriterju għall-għoti tal-grupp hu numru fiss (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">In-numru hu tip ta’ limitu (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Numru tal-kriterju tal-għoti tal-lott hu livell limitu (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Il-kriterju għall-għoti tal-grupp ta’ lottijiet hu livell minimu (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Deskrizzjoni tal-metodu li għandu jintuża jekk il-ponderazzjoni ma tistax tiġi espressa permezz ta’ kriterji (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Numru tal-kriterju tal-għoti tal-lott kumpless (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Kriterji għall-għoti tal-grupp ta’ lottijiet numru kumpless (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Valur tas-sottokuntrattar (pubblikazzjoni aktar tard)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Il-valur tas-sottokuntrattar hu magħruf (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Il-perċentwal tas-sottokuntrattar hu magħruf (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Il-perċentwal tas-sottokuntrattar hu magħruf (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Ġustifikazzjoni għan-nuqqas ta’ indikazzjoni tal-ponderazzjoni tal-kriterji tal-għoti (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Ġustifikazzjoni tal-ordni tal-kriterji għall-għoti tal-lott (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Kriterji għall-għoti tal-grupp ta’ lottijiet ġustifikazzjoni (pubblikazzjoni aktar tard)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Isem (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Isem il-kriterji għall-għoti tal-lott (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Kriterji għall-għoti tal-grupp ta’ lottijiet isem (pubblikazzjoni aktar tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Numru ta’ offerti jew talbiet għall-parteċipazzjoni riċevuti (pubblikazzjoni aktar tard)</entry>

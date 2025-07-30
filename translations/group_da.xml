@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Yderligere oplysninger</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Tildelingskriterier</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Tildelingskriterier</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parameter for tildelingskriterium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametre for tildelingskriterier</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Fast værdikriterium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Tærskelværdikriterium</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Mæglingsorganisation</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Udførelsessted</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Anslået varighed</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Varighed</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Periode</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Henvisning til tidligere planlægning</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Indkøbsdokumenter for del</entry>
 <entry key="group|name|GR-Part-Purpose">Formål</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Tilbudsgiver</entry>
 <entry key="group|name|GR-TenderingParty-Section">Tilbudsgivere</entry>
 <entry key="group|name|GR-Touch-Point">Specifikke afdelinger</entry>
-<entry key="group|name|GR-TouchPoint">Specifik afdeling</entry>
 <entry key="group|name|GR-TouchPoint-Address">Afdelingsadresse (hvis forskellig fra primær)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Afdelingens kontaktoplysninger (hvis forskelligt fra primært)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Transporttjenestetype</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Oprindelsesland (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Tilbuddet er et alternativt tilbud (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Vindende tilbud er et alternativt tilbud (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Type (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Type tildelingskriterium for delkontrakt (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Type af tildelingskriterier for gruppe af delkontrakter (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Beskrivelse (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Beskrivelse af tildelingskriterier for delkontrakt (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Beskrivelse af tildelingskriterium for gruppe af delkontrakter (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Fast værdikriterium (offentliggøres senere)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Fast værdikriterium (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Tærskelværdikriterium (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Vægtværdikriterium (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Værdien er en vægt (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Nummer på tildelingskriterium for delkontrakt vægtning (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Antallet af tildelingskriterier for gruppe af delkontrakter er en vægtet værdi (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Værdien er en fast værdi (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Tildelingskriterium for delkontrakt er et fast nummer (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Antallet af tildelingskriterier for gruppe af delkontrakter er fast (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Værdien er en tærskel (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Nummer på tildelingskriterium for delkontrakt er en tærskel (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Antallet af tildelingskriterier for gruppe af delkontrakter er en tærskelværdi (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Beskrivelse af den metode, der skal anvendes, hvis vægtningen ikke kan udtrykkes ved hjælp af kriterier (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Nummer på tildelingskriterium for delkontrakt kompliceret (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Antallet af tildelingskriterier for gruppe af delkontrakter er kompliceret (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Værdi af underentreprise (offentliggøres senere)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Underentrepriseværdi er kendt (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Underentrepriseprocentdel er kendt (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Underentrepriseprocentdel er kendt (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Begrundelse for ikke at angive vægtningen af tildelingskriterierne (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Begrundelse for rækkefølge af tildelingskriterier for delkontrakt (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Begrundelse for rækkefølge for tildelingskriterier for gruppe af delkontrakter (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Navn (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Navn på tildelingskriterier for delkontrakt (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Navn på tildelingskriterier for gruppe af delkontrakter (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Antal modtagne udbud eller anmodninger om deltagelse (offentliggøres senere)</entry>

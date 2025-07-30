@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Eolas breise</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Critéir dhámhachtana</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Critéir dhámhachtana</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Paraiméadar an chritéir dámhachtana</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Paraiméadair an chritéir dámhachtana</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Critéar luach seasta</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Critéar luach teorann</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Eagraíocht idirghabhála</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">An áit feidhmíochta</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Fad measta</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Fad ama</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Tréimhse ama</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Tagairt pleanála roimhe seo</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Doiciméid soláthairte do chuid</entry>
 <entry key="group|name|GR-Part-Purpose">Cuspóir</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">An páirtí sa phróiseas tairisceana</entry>
 <entry key="group|name|GR-TenderingParty-Section">Na páirtithe sa phróiseas tairisceana</entry>
 <entry key="group|name|GR-Touch-Point">Pointí teagmhála sonracha</entry>
-<entry key="group|name|GR-TouchPoint">Pointe teagmhála sonrach</entry>
 <entry key="group|name|GR-TouchPoint-Address">Seoladh na roinne (murab ionann é agus an príomhsheoladh)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Pointe teagmhála na roinne (murab ionann é agus an príomhphointe)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Cineál seirbhíse iompair</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Tír tháirgthe (fhoilsithe níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Leagan malartach is ea an tairiscint (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Leagan malartach is ea an tairiscint rathúil (le foilsiú níos déanaí)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Cineál (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Cineál chritéar dámhachtana an bhirt (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Cineál chritéar dámhachtana an ghrúpa beart (le foilsiú níos déanaí)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Cur síos (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Cur síos ar chritéar dámhachtana an bhirt (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Cur síos ar chritéar dámhachtana an ghrúpa beart (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Critéar luach seasta (fhoilsithe níos déanaí)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Critéar luach seasta (fhoilsithe níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Critéar luach teorann (fhoilsithe níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Critéar luach meáchain (fhoilsithe níos déanaí)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Cineál ualaigh is ea an uimhir (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Ualú uimhir chritéar dámhachtana an bhirt (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Ualach uimhir chritéir dhámhachtana an ghrúpa beart (le foilsiú níos déanaí)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Luach seasta is ea an uimhir (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Is uimhir sheasta é critéar dámhachtana an bhirt (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Is uimhir sheasta é critéar dámhachtana an ghrúpa beart (le foilsiú níos déanaí)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Cineál tairsí is ea an uimhir (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Is tairseach í uimhir chritéar dámhachtana an bhirt (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Is tairseach í uimhir chritéar dámhachtana an ghrúpa beart (le foilsiú níos déanaí)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Cur síos ar an modh atá le húsáid mura féidir an t-ualú a léiriú le critéir (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Uimhir chasta chritéar dámhachtana an bhirt (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Uimhir chasta chritéar dámhachtana an ghrúpa beart (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Luach na fochonraitheoireachta (le foilsiú níos déanaí)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Is eol luach na fochonraitheoireachta (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Is eol céatadán na fochonraitheoireachta (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Is eol céatadán na fochonraitheoireachta (le foilsiú níos déanaí)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">An bonn cirt le gan ualú na gcritéar dámhachtana a léiriú (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Bonn cirt an ordaithe maidir le critéir dhámhachtana an bhirt (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Bonn cirt an ordaithe maidir le critéir dhámhachtana an ghrúpa beart (le foilsiú níos déanaí)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Ainm (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Ainm chritéir dhámhachtana an bhirt (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Ainm chritéir dhámhachtana an ghrúpa beart (le foilsiú níos déanaí)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Líon na dtairiscintí nó na n-iarratas ar rannpháirtíocht a fuarthas (arna bhfoilsiú níos déanaí)</entry>

@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.76",
-    "createdOn" : "2025-01-09T16:37:23"
+    "version" : "1.13.153",
+    "createdOn" : "2025-07-08T17:45:16"
   },
   "noticeId" : "10",
   "metadata" : [ {
@@ -276,6 +276,19 @@
           "displayType" : "TEXTAREA",
           "description" : "Procedure Legal Basis (NoID Description)",
           "_label" : "field|name|BT-01(f)-Procedure"
+        } ]
+      }, {
+        "id" : "GR-Future-Notice",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Future Notice",
+        "_label" : "group|name|GR-Future-Notice",
+        "content" : [ {
+          "id" : "BT-127-notice",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Future Notice",
+          "_label" : "field|name|BT-127-notice"
         } ]
       }, {
         "id" : "GR-Procedure-Description",
@@ -1509,6 +1522,33 @@
           "_label" : "field|name|BT-733-Lot"
         } ]
       }, {
+        "id" : "GR-Lot-PrizeInformation",
+        "contentType" : "group",
+        "nodeId" : "ND-Prize",
+        "displayType" : "GROUP",
+        "description" : "Prize related information",
+        "_label" : "group|name|GR-Lot-PrizeInformation",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "BT-44-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Prize Rank",
+          "_label" : "field|name|BT-44-Lot"
+        }, {
+          "id" : "BT-644-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Prize Value",
+          "_label" : "field|name|BT-644-Lot"
+        }, {
+          "id" : "BT-45-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTAREA",
+          "description" : "Rewards Other",
+          "_label" : "field|name|BT-45-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-TendererQualification",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -1770,7 +1810,7 @@
             "id" : "GR-Lot-EED-Asset",
             "contentType" : "group",
             "nodeId" : "ND-EEDProcurementDetailsLot",
-            "displayType" : "SECTION",
+            "displayType" : "GROUP",
             "description" : "EED Asset",
             "_label" : "group|name|GR-Lot-EED-Asset",
             "_repeatable" : true,

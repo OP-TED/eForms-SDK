@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Kompletterande information</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Tilldelningskriterier</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Tilldelningskriterier</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parameter för tilldelningskriterium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametrar för tilldelningskriterium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Kriterium för fast värde</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Tröskelvärdeskriterium</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Medlingsorgan</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Leveransplats</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Beräknad varaktighet</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Varaktighet</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Period</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Hänvisning till tidigare planering</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Upphandlingsdokument för del</entry>
 <entry key="group|name|GR-Part-Purpose">Föremålet för upphandlingen</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Anbudsgivare</entry>
 <entry key="group|name|GR-TenderingParty-Section">Anbudsgivare</entry>
 <entry key="group|name|GR-Touch-Point">Särskilda kontaktpunkter</entry>
-<entry key="group|name|GR-TouchPoint">Särskild kontaktpunkt</entry>
 <entry key="group|name|GR-TouchPoint-Address">Avdelningens adress (om annan än moderorganisationen)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Avdelningens kontaktpunkt (om annan än moderorganisationens)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Typ av transporttjänst</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Ursprungsland (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Anbudet är ett alternativt anbud (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Det vinnande anbudet är ett alternativt anbud (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Typ (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Typ av tilldelningskriterium för delkontraktet (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Typ av tilldelningskriterium för grupp av delkontrakt (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Beskrivning (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Beskrivning av tilldelningskriterierna för delkontraktet (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Beskrivning av tilldelningskriterierna för gruppen av delkontrakt (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Kriterium för fast värde (publiceras senare)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Kriterium för fast värde (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Tröskelvärdeskriterium (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Viktvärdeskriterium (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Sifferangivelsen är en typ av viktning (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Sifferangivelse för delkontraktets tilldelningskriterium – viktning (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Sifferangivelse för tilldelningskriteriet för gruppen av delkontrakt – viktning (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Sifferangivelsen är ett fast värde (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Delkontraktets tilldelningskriterium är en fast sifferangivelse (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Tilldelningskriteriet för gruppen av delkontrakt är en fast sifferangivelse (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Sifferangivelsen är en typ av tröskel (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Delkontraktets tilldelningskriterium är en tröskel (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Tilldelningskriteriet för gruppen av delkontrakt är en tröskel (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Beskrivning av metoden som ska användas om viktningen inte kan uttryckas per kriterium (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Antal komplicerade tilldelningskriterier för delkontraktet (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Antal komplicerade tilldelningskriterier för gruppen av delkontrakt (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Underentreprenadens värde (publiceras senare)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Underentreprenadens värde är känt (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Underentreprenadens procentandel är känd (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Underentreprenadens procentandel är känd (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Motivering för att inte ange viktningen av tilldelningskriterierna (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Motivering av tilldelningskriteriernas ordning för delkontraktet (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Motivering av tilldelningskriteriernas ordning för gruppen av delkontrakt (publiceras senare)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Namn (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Namn på delkontraktets tilldelningskriterier (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Namn på tilldelningskriterierna för gruppen av delkontrakt (publiceras senare)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Antal anbud, anbudsansökningar och intresseanmälningar (publiceras senare)</entry>

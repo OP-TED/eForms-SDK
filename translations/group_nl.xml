@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Nadere inlichtingen</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Gunningscriteria</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Gunningscriteria</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parameter gunningscriterium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parameters gunningscriterium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Vaste waardecriterium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Drempelwaardecriterium</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Bemiddelingsorganisatie</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Plaats van uitvoering</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Geraamde looptijd</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Looptijd</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Periode</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Verwijzing naar eerdere planning</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Aanbestedingsdocumenten voor onderdeel</entry>
 <entry key="group|name|GR-Part-Purpose">Doel</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Inschrijver</entry>
 <entry key="group|name|GR-TenderingParty-Section">Inschrijvers</entry>
 <entry key="group|name|GR-Touch-Point">Specifieke contactpunten</entry>
-<entry key="group|name|GR-TouchPoint">Specifiek contactpunt</entry>
 <entry key="group|name|GR-TouchPoint-Address">Adres van de afdeling (indien verschillend van het hoofdadres)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Contactpunt van de afdeling (indien verschillend van het hoofdcontactpunt)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Type transportdienst</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Land van herkomst (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">De inschrijving is een variant (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Winnende inschrijving is een variant (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Type (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Gunningscriterium perceel type (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Groep percelen gunningscriterium type (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Beschrijving (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Beschrijving gunningscriterium perceel (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Groep percelen beschrijving gunningscriterium (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Vaste waardecriterium (later gepubliceerd)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Vaste waardecriterium (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Drempelwaardecriterium (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Gewichtswaardencriterium (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Getal is van het type gewicht (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Gunningscriterium perceel gewicht (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Groep percelen gunningscriteria numerieke waarde gewicht (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Getal is van het type vaste waarde (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Gunningscriterium perceel is een vaste numerieke waarde (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Groep percelen gunningscriterium is een vaste numerieke waarde (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Getal is van het type drempel (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Gunningscriterium perceel is een drempelwaarde (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Groep percelen gunningscriteria is een drempelwaarde (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Beschrijving van de methode die moet worden gebruikt als de weging niet aan de hand van criteria kan worden uitgedrukt (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Gunningscriterium perceel numerieke waarde complex (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Groep percelen gunningscriteria numerieke waarde complex (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Waarde onderaanneming (later gepubliceerd)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Waarde onderaanneming is bekend (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Percentage onderaanneming is bekend (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Percentage onderaanneming is bekend (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Rechtvaardiging voor het niet vermelden van de weging van de gunningscriteria (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Rechtvaardiging volgorde gunningscriteria perceel (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Groep percelen rechtvaardiging volgorde gunningscriteria (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Naam (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Naam gunningscriteria perceel (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Groep percelen naam gunningscriteria (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Aantal ontvangen inschrijvingen of verzoeken tot deelname (later gepubliceerd)</entry>

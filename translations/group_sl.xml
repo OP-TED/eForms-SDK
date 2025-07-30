@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Dodatne informacije</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Merila za oddajo</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Merila za oddajo</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Parameter merila za oddajo</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Parametri merila za oddajo</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Merilo fiksne vrednosti</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Merilo pragovne vrednosti</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Mediacijska organizacija</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Kraj izvedbe</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Predvideno trajanje</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Trajanje</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Obdobje</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Sklic na predhodno načrtovanje</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Dokumenti za nabavo za del</entry>
 <entry key="group|name|GR-Part-Purpose">Namen</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Ponudnik</entry>
 <entry key="group|name|GR-TenderingParty-Section">Ponudniki</entry>
 <entry key="group|name|GR-Touch-Point">Posebne kontaktne točke</entry>
-<entry key="group|name|GR-TouchPoint">Posebna kontaktna točka</entry>
 <entry key="group|name|GR-TouchPoint-Address">Naslov oddelka (če je drugačen od naslova sedeža)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Kontaktna točka oddelka (če je drugačna od naslova sedeža)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Vrsta prevozne storitve</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Država izvora (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Ponudba je variantna (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Izbrana ponudba je variantna (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Vrsta (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Vrsta merila za oddajo sklopa (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Vrsta merila za oddajo skupine sklopov (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Opis (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Opis merila za oddajo sklopa (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Opis merila za oddajo skupine sklopov (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Merilo fiksne vrednosti (objavljeno pozneje)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Merilo fiksne vrednosti (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Merilo pragovne vrednosti (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Merilo utežene vrednosti (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Številka je vrsta ponderja (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Številka v merilu za oddajo sklopa je ponder (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Številka v merilih za oddajo skupine sklopov je ponder (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Številka je nespremenljiva vrednost (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Merilo za oddajo sklopa je nespremenljiva številka (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Merilo za oddajo skupine sklopov je nespremenljiva številka (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Številka je vrsta praga (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Številka v merilu za oddajo sklopa je prag (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Številka v merilu za oddajo skupine sklopov je prag (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Opis metode, ki jo je treba uporabiti, če ponderiranja ni mogoče izraziti z merili (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Številka v zapletenem merilu za oddajo sklopa (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Številka v zapletenih merilih za oddajo skupine sklopov (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Vrednost oddaje naročil podizvajalcem (objavljeno pozneje)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Vrednost oddaje naročil podizvajalcem je znana (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Delež oddaje naročil podizvajalcem je znan (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Delež oddaje naročil podizvajalcem je znan (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Utemeljitev za nenavedbo ponderiranja meril za oddajo (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Utemeljitev zaporedja meril za oddajo sklopov (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Utemeljitev zaporedja meril za oddajo skupine sklopov (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Ime (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Ime meril za oddajo sklopov (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Ime meril za oddajo skupine sklopov (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Število prejetih ponudb ali prijav za sodelovanje (objavljeno pozneje)</entry>

@@ -637,7 +637,6 @@
 		<assert id="BR-BT-00162-0040" role="ERROR" diagnostics="ND-LotTender_BT-162-Tender" test="count(efac:ConcessionRevenue/efbc:RevenueUserAmount) = 0 or (cbc:ID)">rule|text|BR-BT-00162-0040</assert>
 		<assert id="BR-BT-00163-0040" role="ERROR" diagnostics="ND-LotTender_BT-163-Tender" test="count(efac:ConcessionRevenue/efbc:ValueDescription) = 0 or (cbc:ID)">rule|text|BR-BT-00163-0040</assert>
 		<assert id="BR-BT-00171-0040" role="ERROR" diagnostics="BT-171-Tender" test="count(cbc:RankCode) = 0 or not((efbc:TenderRankedIndicator = false()) or (not(efbc:TenderRankedIndicator)))">rule|text|BR-BT-00171-0040</assert>
-		<assert id="BR-BT-00193-0040" role="ERROR" diagnostics="BT-193-Tender" test="count(efbc:TenderVariantIndicator) = 0 or not(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text()))">rule|text|BR-BT-00193-0040</assert>
 		<assert id="BR-BT-00773-0040" role="ERROR" diagnostics="ND-LotTender_BT-773-Tender" test="count(efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermCode) = 0 or (cbc:ID)">rule|text|BR-BT-00773-0040</assert>
 		<assert id="BR-BT-01711-0040" role="ERROR" diagnostics="BT-1711-Tender" test="count(efbc:TenderRankedIndicator) = 0 or not(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID[../../cbc:TenderResultCode/normalize-space(text()) = 'clos-nw']/normalize-space(text()))">rule|text|BR-BT-01711-0040</assert>
 		<assert id="BR-BT-03201-0040" role="ERROR" diagnostics="BT-3201-Tender" test="count(efac:TenderReference/cbc:ID) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-03201-0040</assert>
@@ -741,7 +740,7 @@
 		<assert id="BR-BT-00198-3454" role="ERROR" diagnostics="BT-198_BT-730_-Tender" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-3454</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = 'E4']">
-		<assert id="BR-BT-00145-0040" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) &gt; 0 or not(../../../../../../cbc:RegulatoryDomain/normalize-space(text()) != '32018R1046' and ../../../../../../cbc:RegulatoryDomain/normalize-space(text()) != '32024R2509' and ../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) != 'neg-wo-call' and efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0040</assert>
+		<assert id="BR-BT-00145-0040" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) &gt; 0 or not(../../../../../../cbc:RegulatoryDomain/normalize-space(text()) != '32024R2509' and ../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) != 'neg-wo-call' and efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0040</assert>
 		<assert id="BR-BT-00145-0057" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0057</assert>
 		<assert id="BR-BT-00151-0040" role="ERROR" diagnostics="BT-151-Contract" test="count(cbc:URI) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00151-0040</assert>
 		<assert id="BR-BT-00721-0040" role="ERROR" diagnostics="BT-721-Contract" test="count(cbc:Title) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00721-0040</assert>
@@ -767,8 +766,8 @@
 		<assert id="BR-OPT-00301-1449" role="ERROR" diagnostics="ND-SubContractor_OPT-301-Tenderer-MainCont" test="count(efac:MainContractor/cbc:ID) = 0 or (cbc:ID)">rule|text|BR-OPT-00301-1449</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer[$noticeSubType = 'E4']">
-		<assert id="BR-OPT-00170-0040" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) &gt; 0 or (../cbc:ID[count(../efac:Tenderer/cbc:ID/normalize-space(text())) = 1])">rule|text|BR-OPT-00170-0040</assert>
-		<assert id="BR-OPT-00170-0059" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) = 0 or not(../cbc:ID[count(../efac:Tenderer/cbc:ID/normalize-space(text())) = 1])">rule|text|BR-OPT-00170-0059</assert>
+		<assert id="BR-OPT-00170-0040" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) &gt; 0 or (../cbc:ID[count(../efac:Tenderer/cbc:ID/normalize-space(text())) &lt; 2])">rule|text|BR-OPT-00170-0040</assert>
+		<assert id="BR-OPT-00170-0059" role="ERROR" diagnostics="OPT-170-Tenderer" test="count(efbc:GroupLeadIndicator) = 0 or not(../cbc:ID[count(../efac:Tenderer/cbc:ID/normalize-space(text())) &lt; 2])">rule|text|BR-OPT-00170-0059</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = 'E4']">
 		<assert id="BR-OPT-00202-0040" role="ERROR" diagnostics="ND-Organizations_OPT-202-UBO" test="count(efac:UltimateBeneficialOwner/cbc:ID) = 0 or (efac:Organization/efac:UltimateBeneficialOwner/cbc:ID)">rule|text|BR-OPT-00202-0040</assert>

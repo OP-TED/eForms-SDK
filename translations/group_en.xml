@@ -28,6 +28,7 @@
 <entry key="group|name|GR-EU-Registration">EU registration number</entry>
 <entry key="group|name|GR-FSR">Information about FSR applicability</entry>
 <entry key="group|name|GR-FSR-Measures">Tender Foreign Subsidies Regulation Measures</entry>
+<entry key="group|name|GR-Future-Notice">Future Notice</entry>
 <entry key="group|name|GR-Group-Composition-Reference">Lots belonging to the group</entry>
 <entry key="group|name|GR-GroupFramework">Maximum value of group of lots</entry>
 <entry key="group|name|GR-Jury-Member">Jury member</entry>
@@ -165,7 +166,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Additional information</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Award criteria</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Award criteria</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Award criterion parameter</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Award criterion parameters</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Fixed value criterion</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Threshold value criterion</entry>
@@ -207,8 +207,6 @@
 <entry key="group|name|GR-Part-Mediator">Mediation organisation</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Place of performance</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Estimated duration</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Duration</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Period</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Previous planning reference</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Procurement documents for part</entry>
 <entry key="group|name|GR-Part-Purpose">Purpose</entry>
@@ -274,7 +272,6 @@
 <entry key="group|name|GR-TenderingParty">Tendering party</entry>
 <entry key="group|name|GR-TenderingParty-Section">Tendering parties</entry>
 <entry key="group|name|GR-Touch-Point">Specific contact points</entry>
-<entry key="group|name|GR-TouchPoint">Specific contact point</entry>
 <entry key="group|name|GR-TouchPoint-Address">Department address (if different from the main)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Contact point of the department (if different from main)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Transport service type</entry>
@@ -315,10 +312,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Country of origin (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">The tender is a variant (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Winning tender is a variant (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Type (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Lot award criterion type (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Group of lots award criterion type (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Description (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Lot award criterion description (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Group of lots award criterion description (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Fixed value criterion (published later)</entry>
@@ -327,16 +322,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Fixed value criterion (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Threshold value criterion (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Weight value criterion (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Number is a type of weight (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Lot award criterion number weight (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Group of lots award criteria number weight (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Number is a fixed value (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Lot award criterion is a fixed number (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Group of lots award criterion is a fixed number (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Number is a type of threshold (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Lot award criterion number is a threshold (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Group of lots award criterion number is a threshold (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Description of the method to be used if weighting cannot be expressed by criteria (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Lot award criterion number complicated (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Group of lots award criteria number complicated (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Value of subcontracting (published later)</entry>
@@ -360,10 +351,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Subcontracting value is known (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Subcontracting percentage is known (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Subcontracting percentage is known (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Justification for not indicating the weighting of the award criteria (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Lot award criteria order justification (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Group of lots award criteria order justification (published later)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Name (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Lot award criteria name (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Group of lots award criteria name (published later)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Number of tenders or requests to participate received (published later)</entry>

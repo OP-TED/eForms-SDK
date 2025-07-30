@@ -106,7 +106,6 @@
 <entry key="expression|name|202">'Informații privind termenele-limită pentru reexaminare' (BT-99-Lot) nu este completat</entry>
 <entry key="expression|name|203">Nu a fost atribuit niciun lot</entry>
 <entry key="expression|name|204">'Contract: identificator lot' (BT-3202-Contract) nu este completat</entry>
-<entry key="expression|name|205">'Tip de procedură' (BT-105) nu este 'Negociată fără publicarea unei proceduri concurențiale de ofertare'; 'Temei juridic' (BT-01) nu este 'Regulamentul (UE, Euratom) 2018/1046'; cel puțin un 'Contract: identificator lot' (BT-3202-Contract) este completat</entry>
 <entry key="expression|name|206">'Contractul este atribuit în baza unui acord-cadru' (BT-768-Contract) nu este 'da'</entry>
 <entry key="expression|name|207">'Identificatorul ofertei' (BT-3201-Tender) este completat</entry>
 <entry key="expression|name|209">'Versiunea anunțului anterior care urmează să fie modificată' (BT-758-notice) nu este completat</entry>
@@ -414,7 +413,6 @@
 <entry key="expression|name|615">Codul criteriului de selecție (BT-809) nu există</entry>
 <entry key="expression|name|616">Organizația este un cumpărător, iar sistemul de achiziții dinamic poate fi folosit și de cumpărători care nu sunt enumerați în această notificare, iar 'Organism central de achiziție care achiziționează bunuri și/sau servicii destinate altor cumpărători' (OPP-052) nu este completat</entry>
 <entry key="expression|name|617">Organizația este un cumpărător, iar sistemul de achiziții dinamic poate fi folosit și de cumpărători care nu sunt enumerați în această notificare, iar 'Organism central de achiziție care achiziționează bunuri și/sau servicii destinate altor cumpărători' (OPP-052) nu este completat</entry>
-<entry key="expression|name|618">'Procedura este accelerată' (BT-106-Procedure) este 'da'</entry>
 <entry key="expression|name|619">'Procedura este accelerată' (BT-106-Procedure) este 'da'</entry>
 <entry key="expression|name|62">'Statutul selecției câștigătorului' (BT-142-LotResult) nu este 'Nu a fost ales un câștigător, iar procedura concurențială s-a încheiat.'</entry>
 <entry key="expression|name|620">'Procedura este accelerată' (BT-106-Procedure) este 'da'</entry>
@@ -466,9 +464,9 @@
 <entry key="expression|name|662">'Criterii de selecție' (BT-809-Lot) nu există sau 'Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați' (BT-52-Lot) nu este 'da' sau 'Tip de procedură' (BT-105) nu este 'Dialog competitiv', 'Parteneriat pentru inovare', 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', 'Altă procedură cu mai multe etape' sau 'Restrânsă'</entry>
 <entry key="expression|name|67">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
 <entry key="expression|name|671">'Numărul este un tip de pondere' (BT-5421) nu este 'Ordinea importanței'</entry>
+<entry key="expression|name|679">'Tip de procedură' (BT-105-Procedure) nu este 'Negociată fără publicarea unei proceduri concurențiale de ofertare' și 'Temei juridic' (BT-01-notice) nu este 'Regulamentul (UE, Euratom) 2024/2509' și există cel puțin un 'Contract: identificator lot' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Valoarea subcontractării este cunoscută' (BT-730-Tender) nu este 'da'</entry>
 <entry key="expression|name|69">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
-<entry key="expression|name|699">'Tip de procedură' (BT-105) nu este 'Negociată fără publicarea unei proceduri concurențiale de ofertare'; 'Temei juridic' (BT-01) nu este 'Regulamentul (UE, Euratom) 2018/1046'; 'Temei juridic' (BT-01) nu este 'Regulamentul (UE, Euratom) 2024/2509'; există cel puțin un 'Contract: identificator lot' (BT-3202-Contract)</entry>
 <entry key="expression|name|7">'Țara' (BT-5141-Part) este completat</entry>
 <entry key="expression|name|70">'Valoarea procentuală a subcontractării este cunoscută' (BT-731-Tender) nu este 'da'</entry>
 <entry key="expression|name|71">'Subcontractare' (BT-773-Tender) este 'Da'</entry>

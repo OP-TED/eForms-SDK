@@ -4,8 +4,9 @@
    <Identification>
       <ShortName>EnergyEfficiencyBasis</ShortName>
       <LongName>energy-efficiency-basis</LongName>
-      <Version>1.0</Version>
-      <CanonicalUri/>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/energy-efficiency-basis</LongName>
+      <Version>20241211-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/energy-efficiency-basis</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -190,7 +191,7 @@
             <SimpleValue>Norme de proiectare ecologică</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Pravidlá v oblasti ekodizajnu</SimpleValue>
+            <SimpleValue>Pravidlá v oblasti ekodizajnu</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
             <SimpleValue>Pravila za okoljsko primerno zasnovo</SimpleValue>
@@ -222,7 +223,7 @@
             <SimpleValue>Έργα και υπηρεσίες συναφή με την οδηγία για την ενεργειακή απόδοση, τα οποία δεν καλύπτονται από τις ΠΔΣ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Energy Efficiency Directive-specific works and services not covered by GPP</SimpleValue>
+            <SimpleValue>Energy Efficiency Directive-specific works and  services not covered by GPP</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Obras y servicios específicos de la Directiva sobre eficiencia energética que no cubren los criterios de contratación pública ecológica</SimpleValue>
@@ -261,7 +262,7 @@
             <SimpleValue>Specifieke werkzaamheden en diensten in het kader van de richtlijn energie-efficiëntie die niet onder groene overheidsopdrachten vallen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Roboty budowlane i usługi związane z dyrektywą w sprawie efektywności energetycznej nieobjęte zielonymi zamówieniami publicznymi</SimpleValue>
+            <SimpleValue>Roboty budowlane i usługi związane z dyrektywą w sprawie efektywności energetycznej nieobjęte zielonymi zamówieniami publicznymi</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Obras e serviços específicos da Diretiva Eficiência Energética não abrangidos pelos CPE</SimpleValue>
@@ -302,7 +303,7 @@
             <SimpleValue>Ενεργειακή ετικέτα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Energy label</SimpleValue>
+            <SimpleValue>Energy Label</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Etiquetas energéticas</SimpleValue>
@@ -486,7 +487,7 @@
             <SimpleValue>Közel nulla energiaigényű épületek</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Edifici a energia quasi zero</SimpleValue>
+            <SimpleValue>Edifici a energia quasi zero</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Energijos beveik nevartojantys pastatai</SimpleValue>
@@ -501,7 +502,7 @@
             <SimpleValue>Bijna-energieneutrale gebouwen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Budynki o niemal zerowym zużyciu energii</SimpleValue>
+            <SimpleValue>Budynki o niemal zerowym zużyciu energii</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Edifícios com necessidades quase nulas de energia</SimpleValue>

@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">További információk</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Értékelési szempontok</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Értékelési szempontok</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Értékelési szempont – paraméter</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Értékelési szempont – paraméterek</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Fix értékű kritérium</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Küszöbértékű kritérium</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Közvetítő szervezet</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Teljesítési hely</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Becsült időtartam</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Időtartam</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Időszak</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Előzetes tervezés hivatkozása</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Beszerzési dokumentumok a részhez</entry>
 <entry key="group|name|GR-Part-Purpose">Cél</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Ajánlattevő fél</entry>
 <entry key="group|name|GR-TenderingParty-Section">Ajánlattevő felek</entry>
 <entry key="group|name|GR-Touch-Point">Kijelölt kapcsolattartó pontok</entry>
-<entry key="group|name|GR-TouchPoint">Kijelölt kapcsolattartó</entry>
 <entry key="group|name|GR-TouchPoint-Address">Szervezeti egység címe (ha eltér a fő címtől)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">A szervezeti egység kapcsolattartója (ha eltér a fő kapcsolattartótól)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Szállítási szolgáltatás típusa</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Származási ország (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Az ajánlat az egyik változat (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">A nyertes ajánlat az egyik változat (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Típus (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Részre vonatkozó értékelési szempont – típus (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Részek csoportjára vonatkozó értékelési szempont – típus (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Ismertetés (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Részre vonatkozó értékelési szempont – ismertetés (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Részek csoportjára vonatkozó értékelési szempont – ismertetés (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Fix értékű kritérium (később közzétéve)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Fix értékű kritérium (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Küszöbértékű kritérium (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Súlyértékű kritérium (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">A szám valamilyen súlyozás (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Részre vonatkozó értékelési szempont – szám, súlyozás (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Részek csoportjára vonatkozó értékelési szempont – szám, súlyozás (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">A szám rögzített érték (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Részre vonatkozó értékelési szempont – szám, rögzített érték (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Részek csoportjára vonatkozó értékelési szempont – szám, rögzített érték (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">A szám valamilyen küszöbérték (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Részre vonatkozó értékelési szempont – szám, küszöbérték (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Részek csoportjára vonatkozó értékelési szempont – szám, küszöbérték (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Az alkalmazandó módszer ismertetése, ha a súlyozás kritériumokkal nem fejezhető ki (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Rész értékelési szempontja – szám, összetett (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Részek csoportjára vonatkozó értékelési szempont – szám, összetett (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Alvállalkozásba adott szerződésrész értéke (később közzétéve)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Alvállalkozásba adott szerződésrész értéke ismert (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Alvállalkozásba adott szerződésrész százalékos aránya ismert (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Alvállalkozásba adott szerződésrész százalékos aránya ismert (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Annak indoklása, hogy az odaítélési szempontok súlyozását miért nem tüntették fel (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Részre vonatkozó értékelési szempontok – sorrend indoklása (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Részek csoportjára vonatkozó értékelési szempontok – sorrend indoklása (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Név (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Részre vonatkozó értékelési szempontok – név (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Részek csoportjára vonatkozó értékelési szempontok – név (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">A beérkezett ajánlatok és részvételi jelentkezések száma (később közzétéve)</entry>

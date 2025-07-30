@@ -159,7 +159,6 @@
 <entry key="group|name|GR-LotsGroup-AdditionalInformation">Lisätiedot</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria">Vertailuperusteet</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion">Vertailuperusteet</entry>
-<entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameter">Vertailuperuste</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-Criterion-Parameters">Vertailuperusteen muuttujat</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-FixedCriterion-Parameter">Kiinteä arvokriteeri</entry>
 <entry key="group|name|GR-LotsGroup-AwardCriteria-ThresholdCriterion-Parameter">Kynnysarvokriteeri</entry>
@@ -201,8 +200,6 @@
 <entry key="group|name|GR-Part-Mediator">Sovitteluelin</entry>
 <entry key="group|name|GR-Part-PlaceOfPerformance">Suorituspaikka</entry>
 <entry key="group|name|GR-Part-PlannedDuration">Arvioitu kesto</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Dates">Kesto</entry>
-<entry key="group|name|GR-Part-PlannedDuration-Period">Ajanjakso</entry>
 <entry key="group|name|GR-Part-PreviousPlanning">Aiemman suunnittelun viite</entry>
 <entry key="group|name|GR-Part-ProcurementDocuments">Hankinta-asiakirjat osalle</entry>
 <entry key="group|name|GR-Part-Purpose">Tarkoitus</entry>
@@ -263,7 +260,6 @@
 <entry key="group|name|GR-TenderingParty">Tarjoajaosapuoli</entry>
 <entry key="group|name|GR-TenderingParty-Section">Tarjoajaosapuolet</entry>
 <entry key="group|name|GR-Touch-Point">Erityiset yhteyspisteet</entry>
-<entry key="group|name|GR-TouchPoint">Erityinen yhteyspiste</entry>
 <entry key="group|name|GR-TouchPoint-Address">Yksikön osoite (jos muu kuin pääosoite)</entry>
 <entry key="group|name|GR-TouchPoint-Contact">Yksikön yhteyspiste (jos muu kuin pääyhteyspiste)</entry>
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Kuljetuspalvelun tyyppi</entry>
@@ -301,10 +297,8 @@
 <entry key="group|name|GR-Unpublish-BT-191">Alkuperämaa (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Tarjous on vaihtoehtoinen tarjous (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-193-Tender">Voittava tarjous on vaihtoehtoinen tarjous (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-539">Tyyppi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-Lot">Osan vertailuperusteen tyyppi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-539-LotsGroup">Osien ryhmän myöntämisperusteen tyyppi (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-540">Kuvaus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-Lot">Osan vertailuperusteen kuvaus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-540-LotsGroup">Osien ryhmän vertailuperusteen kuvaus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-Lot-FixedNumber">Kiinteä arvokriteeri (julkaistaan myöhemmin)</entry>
@@ -313,16 +307,12 @@
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-FixedNumber">Kiinteä arvokriteeri (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-ThresholdNumber">Kynnysarvokriteeri (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-541-LotsGroup-WeightNumber">Painoarvokriteeri (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-5421">Luku on tyypiltään painotus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-Lot">Osan vertailuperusteeseen liittyvä painotusluku (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-5421-LotsGroup">Osien ryhmän vertailuperusteisiin liittyvä painotusluku (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-5422">Luku on kiinteä arvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-Lot">Osan vertailuperusteeseen liittyvä luku on kiinteä arvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-5422-LotsGroup">Osien ryhmän vertailuperusteeseen liittyvä luku on kiinteä arvo (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-5423">Luku on tyypiltään kynnysarvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-Lot">Osan vertailuperusteeseen liittyvä luku on kynnysarvo (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-5423-LotsGroup">Osien ryhmän vertailuperusteeseen liittyvä luku on kynnysarvo (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-543">Kuvaus käytettävästä pisteytyksestä, jos pisteytystä ei voida määrittää käyttämällä kriteerikohtaisia valintakenttiä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-Lot">Osan vertailuperusteeseen liittyvän luvun monimutkainen painotus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-543-LotsGroup">Osien ryhmän vertailuperusteisiin liittyvän luvun monimutkainen painotus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-553">Alihankinnan arvo (julkaistaan myöhemmin)</entry>
@@ -346,10 +336,8 @@
 <entry key="group|name|GR-Unpublish-BT-730-Tender">Alihankinnan arvo tiedossa (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-731">Alihankinnan prosenttiosuus tiedossa (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-731-Tender">Alihankinnan osuus tiedossa (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-733">Perustelu vertailuperusteiden painotuksen ilmoittamatta jättämiselle (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-Lot">Osan vertailuperusteiden tärkeysjärjestyksen perustelut (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-733-LotsGroup">Osien ryhmän vertailuperusteiden tärkeysjärjestyksen perustelut (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-734">Nimi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-Lot">Osan vertailuperusteiden nimi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-734-LotsGroup">Osien ryhmän vertailuperusteiden nimi (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-759">Vastaanotettujen tarjousten tai osallistumishakemusten lukumäärä (julkaistaan myöhemmin)</entry>
