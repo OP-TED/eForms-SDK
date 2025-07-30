@@ -10532,7 +10532,12 @@
 <entry key="code|name|innovative-acquisition.proc-innov">A beszerzett építési beruházás, árubeszerzés vagy szolgáltatás eljárási innovációt eredményez.</entry>
 <entry key="code|name|innovative-acquisition.prod-innov">A beszerzett építési beruházás, árubeszerzés vagy szolgáltatás termékinnovációt eredményez.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">A beszerzett építési beruházás, áruk vagy szolgáltatások kutatási és fejlesztési tevékenységekkel járnak.</entry>
+<entry key="code|name|international-procurement-instrument-application.no-exc">Nincs kivétel</entry>
+<entry key="code|name|international-procurement-instrument-application.one-tend">Egyetlen ajánlatra vonatkozó kivétel</entry>
+<entry key="code|name|international-procurement-instrument-application.pub-int">Közérdeken alapuló kivétel</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">(EU) 2025/1197 rendelet: A Kínai Népköztársaságból származó orvostechnikai eszközök</entry>
 <entry key="code|name|ipi-scope.false">nem</entry>
+<entry key="code|name|ipi-scope.true">igen</entry>
 <entry key="code|name|irregularity-type.ab-low">Kirívóan alacsony összegű ajánlatok indokolatlan elutasítása</entry>
 <entry key="code|name|irregularity-type.ar-split">Szerződések mesterséges felosztása</entry>
 <entry key="code|name|irregularity-type.bid-rigging">Ajánlattételi összejátszás (versenyhivatal/kartellellenes iroda, bíróság vagy más illetékes szerv által megállapítva)</entry>
@@ -10842,6 +10847,7 @@
 <entry key="code|name|legal-basis-36.other">Egyéb</entry>
 <entry key="code|name|legal-basis-37.32014L0025">2014/25/EU irányelv</entry>
 <entry key="code|name|legal-basis-37.other">Egyéb</entry>
+<entry key="code|name|legal-basis-38.32009L0081">2009/81/EK irányelv</entry>
 <entry key="code|name|legal-basis-38.32014L0024">2014/24/EU irányelv</entry>
 <entry key="code|name|legal-basis-38.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-38.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>

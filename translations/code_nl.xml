@@ -10532,7 +10532,12 @@
 <entry key="code|name|innovative-acquisition.proc-innov">Voor de aanbestede werken, leveringen of diensten is procesinnovatie nodig.</entry>
 <entry key="code|name|innovative-acquisition.prod-innov">Voor de aanbestede werken, leveringen of diensten is productinnovatie nodig.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">De aanbestede werken, leveringen of diensten brengen activiteiten op het gebied van onderzoek en ontwikkeling met zich mee.</entry>
+<entry key="code|name|international-procurement-instrument-application.no-exc">Geen uitzondering</entry>
+<entry key="code|name|international-procurement-instrument-application.one-tend">Uitzondering – slechts één inschrijving</entry>
+<entry key="code|name|international-procurement-instrument-application.pub-int">Uitzondering – algemeen belang</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Verordening (EU) 2025/1197: Medische hulpmiddelen van oorsprong uit de Volksrepubliek China</entry>
 <entry key="code|name|ipi-scope.false">neen</entry>
+<entry key="code|name|ipi-scope.true">ja</entry>
 <entry key="code|name|irregularity-type.ab-low">Ongerechtvaardigde afwijzing van abnormaal lage inschrijvingen</entry>
 <entry key="code|name|irregularity-type.ar-split">Kunstmatige opsplitsing van opdrachten</entry>
 <entry key="code|name|irregularity-type.bid-rigging">Offertevervalsing (vastgesteld door een mededingingsautoriteit, antikartelbureau, rechtbank of andere bevoegde instantie)</entry>
@@ -10842,6 +10847,7 @@
 <entry key="code|name|legal-basis-36.other">Ander</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Richtlijn 2014/25/EU</entry>
 <entry key="code|name|legal-basis-37.other">Ander</entry>
+<entry key="code|name|legal-basis-38.32009L0081">Richtlijn 2009/81/EG</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Richtlijn 2014/24/EU</entry>
 <entry key="code|name|legal-basis-38.32018R1046">Verordening (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Verordening (EU, Euratom) 2024/2509</entry>

@@ -123,6 +123,86 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>32009L0081</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Directive 2009/81/EC</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Директива 2009/81/ЕО</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Směrnice 2009/81/ES</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Direktiv 2009/81/EF</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Richtlinie 2009/81/EG</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Οδηγία 2009/81/ΕΚ</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Directive 2009/81/EC</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Directiva 2009/81/CE</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Direktiiv 2009/81/EÜ</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Direktiivi 2009/81/EY</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Directive 2009/81/CE</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Treoir 2009/81/CE</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Direktiva 2009/81/EZ</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>2009/81/EK irányelv</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Direttiva 2009/81/CE</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Direktyva 2009/81/EB</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Direktīva 2009/81/EK</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Direttiva 2009/81/KE</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Richtlijn 2009/81/EG</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Dyrektywa 2009/81/WE</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Diretiva 2009/81/CE</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Directiva 2009/81/CE</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Smernica 2009/81/ES</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Direktiva 2009/81/ES</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Direktiv 2009/81/EG</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>32014L0024</SimpleValue>
          </Value>
          <Value ColumnRef="Name">

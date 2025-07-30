@@ -10532,7 +10532,12 @@
 <entry key="code|name|innovative-acquisition.proc-innov">Naročene gradnje, blago ali storitve vključujejo procesne inovacije.</entry>
 <entry key="code|name|innovative-acquisition.prod-innov">Naročene gradnje, blago ali storitve vključujejo produktne inovacije.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">Gradnja, blago ali storitve, ki so predmet javnega naročila, vključujejo dejavnosti raziskav in razvoja.</entry>
+<entry key="code|name|international-procurement-instrument-application.no-exc">Ni izjem</entry>
+<entry key="code|name|international-procurement-instrument-application.one-tend">Izjema je samo ena ponudba</entry>
+<entry key="code|name|international-procurement-instrument-application.pub-int">Izjema v javnem interesu</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Uredba (EU) 2025/1197: Medicinski pripomočki s poreklom iz Ljudske republike Kitajske</entry>
 <entry key="code|name|ipi-scope.false">ne</entry>
+<entry key="code|name|ipi-scope.true">da</entry>
 <entry key="code|name|irregularity-type.ab-low">Neupravičena zavrnitev neobičajno nizkih ponudb</entry>
 <entry key="code|name|irregularity-type.ar-split">Umetna delitev pogodb</entry>
 <entry key="code|name|irregularity-type.bid-rigging">Dogovorjeno oddajanje ponudb (ki ga ugotovi urrd za varstvo konkurence, sodišče ali drug pristojni organ)</entry>
@@ -10842,6 +10847,7 @@
 <entry key="code|name|legal-basis-36.other">Drugo</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Direktiva 2014/25/EU</entry>
 <entry key="code|name|legal-basis-37.other">Drugo</entry>
+<entry key="code|name|legal-basis-38.32009L0081">Direktiva 2009/81/ES</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Direktiva 2014/24/EU</entry>
 <entry key="code|name|legal-basis-38.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
