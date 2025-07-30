@@ -1,3 +1,18 @@
+# SDK 1.13.2 Release Notes
+
+This release adds the recently adopted first "International Procurement Instrument" measure regarding medical devices from China (Regulation 2025/1197).
+
+In addition, the Defence Directive (2009/81) is now allowed as a legal basis for notice subtype 38 (contract modification).
+
+The lawfulness warning rule BR-BT-00500-0309 has been removed to no longer check for "test" in organisation names.
+
+This release also contains corrections to the view templates:
+
+* Ensure exclusion grounds and selection criteria are shown in the correct conditions.
+* Display the sections for EED, IPI and CVD correctly in the section "Statistics about strategic procurement".
+
+A comprehensive list of changes between SDK 1.13.1 and SDK 1.13.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.13.1...1.13.2>
+
 # SDK 1.13.1 Release Notes
 
 This release adds the Regulation 2024/2509 on the financial rules applicable to the general budget of the Union: new code in the codelist for legal basis, adjustments in a few rules to take this code into account, and new corresponding translations.

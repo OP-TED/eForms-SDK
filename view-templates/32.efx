@@ -604,7 +604,7 @@
 						{BT-197(BT-759)-LotResult} #{field|name|BT-197(BT-759)-LotResult}: #{BT-197(BT-759)-LotResult} // Unpublished Justification Code
 						{BT-759-LotResult[BT-196(BT-759)-LotResult is present]} #{field|name|BT-196(BT-759)-LotResult}: ${BT-196(BT-759)-LotResult} // Unpublished Justification Description
 						{BT-198(BT-759)-LotResult} #{field|name|BT-198(BT-759)-LotResult}: ${BT-198(BT-759)-LotResult} // Unpublished Access Date
-			0 {ND-StrategicProcurementLotResult} #{auxiliary|text|statistics-strategic}: // Statistics about strategic procurement
+			0 {OPT-322-LotResult[(BT-685-LotResult is present) or (BT-811(a)-LotResult is present) or (BT-735-LotResult is present)]} #{auxiliary|text|statistics-strategic}: // Statistics about strategic procurement
 				0 {ND-StrategicProcurementInformationLotResult} #{field|name|BT-735-LotResult}: #{BT-735-LotResult} // The type of contract of the procurement procedure within the scope of Clean Vehicles Directive 2009/33/EC.
 					0 {BT-723-LotResult} #{field|name|BT-723-LotResult}: #{BT-723-LotResult} // The category of vehicle falling within the scope of Directive 2009/33/EC.
 						{OPT-155-LotResult} #{OPT-155-LotResult}: ${format-number(OPT-156-LotResult, '###,##0')} // Vehicle category and number

@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Csoport maximális értékének azonosítója (később közzétéve)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Csoport maximális értéke (később közzétéve)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Csoport újrabecsült értéke (később közzétéve)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Részletek egy alkalmazott intézkedésről</entry>
 <entry key="group|name|ND-IPIInformation">Az összes alkalmazott intézkedés információja</entry>
+<entry key="group|name|ND-IPILot">Információ az IPI alkalmazhatóságáról</entry>
 <entry key="group|name|ND-IPILotResult">Általános információ az IPI-ről</entry>
+<entry key="group|name|ND-IPIMeasureException">Kivétel az alkalmazott intézkedés alól</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statisztikák az alkalmazott intézkedésekről</entry>
 <entry key="group|name|ND-LateTendererInformation">Késedelmes ajánlattevői információ</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Egyéb, ismert azonosítóval nem rendelkező jogalap</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Egyéb, azonosítóval rendelkező jogalap</entry>

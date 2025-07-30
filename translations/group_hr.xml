@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identifikator maksimalne vrijednosti skupine (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Maksimalna vrijednost skupine (objavljuje se kasnije)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Procijenjena vrijednost skupine (objavljuje se kasnije)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Detalji o primijenjenoj mjeri</entry>
 <entry key="group|name|ND-IPIInformation">Informacije o svim primijenjenim mjerama</entry>
+<entry key="group|name|ND-IPILot">Informacije o primjenjivosti IPI-ja</entry>
 <entry key="group|name|ND-IPILotResult">Opće informacije o IPI-ju</entry>
+<entry key="group|name|ND-IPIMeasureException">Iznimka za primijenjenu mjeru</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistika o primijenjenim mjerama</entry>
 <entry key="group|name|ND-LateTendererInformation">Informacije o ponuditelju nakon isteka roka</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Druga pravna osnova nepoznatog identifikatora</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Druga pravna osnova, s identifikatorom</entry>

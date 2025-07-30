@@ -10532,7 +10532,12 @@
 <entry key="code|name|innovative-acquisition.proc-innov">Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης συνεπάγονται καινοτομία ως προς τη διεργασία.</entry>
 <entry key="code|name|innovative-acquisition.prod-innov">Τα έργα, οι προμήθειες ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης συνεπάγονται καινοτομία ως προς το προϊόν.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">Τα έργα, τα αγαθά ή οι υπηρεσίες που αποτελούν αντικείμενο της σύμβασης αφορούν δραστηριότητες έρευνας και ανάπτυξης.</entry>
+<entry key="code|name|international-procurement-instrument-application.no-exc">Καμία εξαίρεση</entry>
+<entry key="code|name|international-procurement-instrument-application.one-tend">Εξαίρεση – μόνο μία προσφορά</entry>
+<entry key="code|name|international-procurement-instrument-application.pub-int">Εξαίρεση – δημόσιο συμφέρον</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Κανονισμός (ΕΕ) 2025/1197: Ιατροτεχνολογικά προϊόντα καταγωγής Λαϊκής Δημοκρατίας της Κίνας</entry>
 <entry key="code|name|ipi-scope.false">όχι</entry>
+<entry key="code|name|ipi-scope.true">ναι</entry>
 <entry key="code|name|irregularity-type.ab-low">Μη αιτιολογημένη απόρριψη ασυνήθιστα χαμηλών προσφορών</entry>
 <entry key="code|name|irregularity-type.ar-split">Τεχνητή κατάτμηση των συμβάσεων</entry>
 <entry key="code|name|irregularity-type.bid-rigging">Νόθευση διαγωνισμού (διαπιστωμένη από υπηρεσία ανταγωνισμού / καταπολέμησης των συμπράξεων, δικαστήριο ή άλλο αρμόδιο φορέα)</entry>
@@ -10840,6 +10845,7 @@
 <entry key="code|name|legal-basis-36.other">Άλλο</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Οδηγία 2014/25/ΕΕ</entry>
 <entry key="code|name|legal-basis-37.other">Άλλο</entry>
+<entry key="code|name|legal-basis-38.32009L0081">Οδηγία 2009/81/ΕΚ</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Οδηγία 2014/24/ΕΕ</entry>
 <entry key="code|name|legal-basis-38.32018R1046">Κανονισμός (ΕΕ, Ευρατόμ) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Κανονισμός (ΕΕ, Ευρατόμ) 2024/2509</entry>

@@ -10532,7 +10532,12 @@
 <entry key="code|name|innovative-acquisition.proc-innov">Строителните дейности, доставките или услугите, които са предмет на поръчката, са свързани с иновация на процесите.</entry>
 <entry key="code|name|innovative-acquisition.prod-innov">Строителните дейности, доставките или услугите, които са предмет на поръчката, са свързани с продуктови иновации.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">Строителството, доставките или услугите, които са предмет на поръчката, включват научноизследователски и развойни дейности.</entry>
+<entry key="code|name|international-procurement-instrument-application.no-exc">Без изключение</entry>
+<entry key="code|name|international-procurement-instrument-application.one-tend">Изключение — само една оферта</entry>
+<entry key="code|name|international-procurement-instrument-application.pub-int">Изключение — обществен интерес</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Регламент (ЕС) 2025/1197: Медицински изделия с произход от Китайската народна република</entry>
 <entry key="code|name|ipi-scope.false">не</entry>
+<entry key="code|name|ipi-scope.true">да</entry>
 <entry key="code|name|irregularity-type.ab-low">Необосновано отхвърляне на необичайно ниските оферти</entry>
 <entry key="code|name|irregularity-type.ar-split">Изкуствено разделяне на поръчките</entry>
 <entry key="code|name|irregularity-type.bid-rigging">Съглашателство при офериране (установено от служба за защита на конкуренцията / противодействие на картелите, съд или друг компетентен орган)</entry>
@@ -10840,6 +10845,7 @@
 <entry key="code|name|legal-basis-36.other">Друго</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Директива 2014/25/ЕС</entry>
 <entry key="code|name|legal-basis-37.other">Друго</entry>
+<entry key="code|name|legal-basis-38.32009L0081">Директива 2009/81/ЕО</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Директива 2014/24/ЕС</entry>
 <entry key="code|name|legal-basis-38.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>

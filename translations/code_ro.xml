@@ -10532,7 +10532,12 @@
 <entry key="code|name|innovative-acquisition.proc-innov">Lucrările, bunurile sau serviciile achiziționate implică inovații în materie de procese.</entry>
 <entry key="code|name|innovative-acquisition.prod-innov">Lucrările, bunurile sau serviciile achiziționate implică inovații în materie de produse.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">Lucrările, bunurile sau serviciile achiziționate implică activități de cercetare și dezvoltare.</entry>
+<entry key="code|name|international-procurement-instrument-application.no-exc">Fără excepții</entry>
+<entry key="code|name|international-procurement-instrument-application.one-tend">Excepție o singură ofertă</entry>
+<entry key="code|name|international-procurement-instrument-application.pub-int">Excepție în interes public</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Regulamentul (UE) 2025/1197: Dispozitive medicale originare din Republica Populară Chineză</entry>
 <entry key="code|name|ipi-scope.false">nu</entry>
+<entry key="code|name|ipi-scope.true">da</entry>
 <entry key="code|name|irregularity-type.ab-low">Respingere nejustificată a ofertelor anormal de scăzute</entry>
 <entry key="code|name|irregularity-type.ar-split">Divizarea artificială a contractelor</entry>
 <entry key="code|name|irregularity-type.bid-rigging">Manipularea procedurilor de cereri de oferte (identificată de un oficiu pentru concurență/un oficiu anticartel, de o instanță sau de un alt organism competent)</entry>
@@ -10840,6 +10845,7 @@
 <entry key="code|name|legal-basis-36.other">Altele</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Directiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-37.other">Altele</entry>
+<entry key="code|name|legal-basis-38.32009L0081">Directiva 2009/81/CE</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Directiva 2014/24/UE</entry>
 <entry key="code|name|legal-basis-38.32018R1046">Regulamentul (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Regulamentul (UE, Euratom) 2024/2509</entry>

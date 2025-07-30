@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identificatiecode maximumwaarde groep (later gepubliceerd)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Maximumwaarde groep (later gepubliceerd)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Opnieuw geraamde waarde groep (later gepubliceerd)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Details over een toegepaste maatregel</entry>
 <entry key="group|name|ND-IPIInformation">Informatie over alle toegepaste maatregelen</entry>
+<entry key="group|name|ND-IPILot">Informatie over de toepasbaarheid van de IPI</entry>
 <entry key="group|name|ND-IPILotResult">Algemene informatie over de IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Uitzondering op de toegepaste maatregel</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistieken over toegepaste maatregelen</entry>
 <entry key="group|name|ND-LateTendererInformation">Late inschrijver informatie</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Andere rechtsgrondslag zonder bekende identificatiecode</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Andere rechtsgrondslag met een identificatiecode</entry>
