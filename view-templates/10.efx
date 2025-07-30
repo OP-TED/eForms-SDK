@@ -46,7 +46,7 @@
 				{BT-763-Procedure [BT-763-Procedure == 'all']} #{field|name|BT-763-Procedure} // The tenderer must submit tenders for all lots. (indicator all)
 			0 {ND-Root[BT-33-Procedure is present]} #{auxiliary|text|contract-terms}: // Terms of contract
 				{BT-33-Procedure} #{field|name|BT-33-Procedure}: ${format-number(BT-33-Procedure, '###,##0')} // Maximum number of lots for which contracts can be awarded to one tenderer
-		6 {ND-ProcedureTerms[(BT-67(a)-Procedure is present)]} #{auxiliary|text|exclusion-grounds} // 2.1.6 Exclusion grounds
+		6 {ND-ProcedureTerms[(BT-67(a)-Procedure is present) or (BT-806-Procedure is present)]} #{auxiliary|text|exclusion-grounds} // 2.1.6 Exclusion grounds
 			{ND-ProcedureTerms[(BT-806-Procedure is present)]} #{auxiliary|text|exclusion-grounds-sources}: #{BT-806-Procedure} // Exclusion grounds sources
 			{BT-67(a)-Procedure} #{BT-67(a)-Procedure}: ${for text:$egdesc in BT-67(b)-Procedure return $egdesc} // Description
 4 {ND-Root[BT-137-LotsGroup is present]} #{auxiliary|text|group-of-lots} // 4 Group of lots
@@ -138,7 +138,7 @@
 		8 {ND-AccessibilityJustification} #{auxiliary|text|accessibility} // 5.1.8 Accessibility criteria
 			{BT-754-Lot} #{BT-754-Lot} // Accessibility 
 			{BT-137-Lot[BT-755-Lot is present]} #{field|name|BT-755-Lot}: ${BT-755-Lot} // Accessibility Justification
-		9 {ND-LotTenderingTerms[BT-809-Lot is present]} #{auxiliary|text|selection-criteria} // 5.1.9 Selection criteria
+		9 {ND-LotTenderingTerms[(BT-809-Lot is present) or (BT-821-Lot is present)]} #{auxiliary|text|selection-criteria} // 5.1.9 Selection criteria
 			0 {ND-LotTenderingTerms[BT-821-Lot is present]} #{auxiliary|text|selection-criteria-sources}: #{BT-821-Lot} // Selection criteria sources
 			0 {ND-SelectionCriteria} #{auxiliary|text|criterion}: #{BT-809-Lot} // Criterion
 				{ND-SelectionCriteria[BT-750-Lot is present]} #{field|name|BT-750-Lot}: ${BT-750-Lot} // Selection Criterion Description

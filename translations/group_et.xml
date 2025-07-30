@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Rühma maksimaalse maksumuse tunnus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Rühma maksimaalne maksumus (avaldatakse hiljem)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Rühma ümberarvutatud eeldatav maksumus (avaldatakse hiljem)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Üksikasjad rakendatud meetme kohta</entry>
 <entry key="group|name|ND-IPIInformation">Teave kõigi rakendatud meetmete kohta</entry>
+<entry key="group|name|ND-IPILot">Teave IPI rakendatavuse kohta</entry>
 <entry key="group|name|ND-IPILotResult">IPI üldteave</entry>
+<entry key="group|name|ND-IPIMeasureException">Erand rakendatud meetme suhtes</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistika rakendatud meetmete kohta</entry>
 <entry key="group|name|ND-LateTendererInformation">Hilinenud teave pakkuja kohta</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Muu õiguslik alus ilma teadaoleva tunnuseta</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Muu õiguslik alus koos tunnusega</entry>

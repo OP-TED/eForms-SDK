@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identificatorul valorii maxime a grupului (publicare ulterioară)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Valoarea maximă a grupului (publicare ulterioară)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Valoarea recalculată a grupului (publicare ulterioară)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Detalii despre o măsură aplicată</entry>
 <entry key="group|name|ND-IPIInformation">Informații despre toate măsurile aplicate</entry>
+<entry key="group|name|ND-IPILot">Informații despre aplicabilitatea IPI</entry>
 <entry key="group|name|ND-IPILotResult">Informații generale despre IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Excepție de la măsura aplicată</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistici despre măsurile aplicate</entry>
 <entry key="group|name|ND-LateTendererInformation">Informații privind ofertantul care pot fi depuse după expirarea termenului</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Alt temei juridic fără identificator cunoscut</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Alt temei juridic cu identificator</entry>

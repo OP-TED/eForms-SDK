@@ -10532,7 +10532,12 @@
 <entry key="code|name|innovative-acquisition.proc-innov">I lavori, le forniture o i servizi oggetto dell'appalto comportano un'innovazione di processo.</entry>
 <entry key="code|name|innovative-acquisition.prod-innov">I lavori, le forniture o i servizi oggetto dell'appalto comportano un'innovazione di prodotto.</entry>
 <entry key="code|name|innovative-acquisition.rd-act">I lavori, le forniture o i servizi oggetto dell'appalto comportano attività di ricerca e sviluppo.</entry>
+<entry key="code|name|international-procurement-instrument-application.no-exc">Nessuna deroga</entry>
+<entry key="code|name|international-procurement-instrument-application.one-tend">Deroga - una sola offerta</entry>
+<entry key="code|name|international-procurement-instrument-application.pub-int">Deroga - interesse generale</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Regolamento (UE) 2025/1197: Dispositivi medici originari della Repubblica popolare cinese</entry>
 <entry key="code|name|ipi-scope.false">no</entry>
+<entry key="code|name|ipi-scope.true">sì</entry>
 <entry key="code|name|irregularity-type.ab-low">Rigetto ingiustificato di offerte anormalmente basse</entry>
 <entry key="code|name|irregularity-type.ar-split">Frazionamento artificioso degli appalti</entry>
 <entry key="code|name|irregularity-type.bid-rigging">Turbativa d'asta (accertata da un'autorità anticartello o garante della concorrenza, da un organo giurisdizionale o da un altro organismo competente)</entry>
@@ -10840,6 +10845,7 @@
 <entry key="code|name|legal-basis-36.other">Altro</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Direttiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-37.other">Altro</entry>
+<entry key="code|name|legal-basis-38.32009L0081">Direttiva 2009/81/CE</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Direttiva 2014/24/UE</entry>
 <entry key="code|name|legal-basis-38.32018R1046">Regolamento (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Regolamento (UE, Euratom) 2024/2509</entry>

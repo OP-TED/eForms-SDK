@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Grupas maksimālās vērtības identifikators (publicēts vēlāk)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Grupas maksimālā vērtība (publicēta vēlāk)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Grupas pārrēķinātā aplēstā vērtība (publicēta vēlāk)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Informācija par piemēroto pasākumu</entry>
 <entry key="group|name|ND-IPIInformation">Informācija par visiem piemērotajiem pasākumiem</entry>
+<entry key="group|name|ND-IPILot">Informācija par IPI piemērojamību</entry>
 <entry key="group|name|ND-IPILotResult">Vispārēja informācija par IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Izņēmums piemērotajam pasākumam</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistika par piemērotajiem pasākumiem</entry>
 <entry key="group|name|ND-LateTendererInformation">Novēlota informācija par pretendentu</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Cits juridiskais pamats bez zināma identifikatora</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Cits juridiskais pamats ar identifikatoru</entry>

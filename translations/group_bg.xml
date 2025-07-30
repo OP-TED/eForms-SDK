@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Идентификатор на максималната стойност за групата (по-късно публикуване)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Максимална стойност за групата (по-късно публикуване)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Нова прогнозна стойност за групата (по-късно публикуване)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Подробности за приложена мярка</entry>
 <entry key="group|name|ND-IPIInformation">Информация за всички приложени мерки</entry>
+<entry key="group|name|ND-IPILot">Информация относно приложимостта на IPI</entry>
 <entry key="group|name|ND-IPILotResult">Обща информация за IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Изключение от приложената мярка</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Статистика за приложени мерки</entry>
 <entry key="group|name|ND-LateTendererInformation">Просрочена информация за оферента</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Друго правно основание без известен идентификатор</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Друго правно основание с идентификатор</entry>

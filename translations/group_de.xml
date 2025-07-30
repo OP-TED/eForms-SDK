@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Höchstwert Gruppe – Kennung (später veröffentlicht)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Höchstwert Gruppe (später veröffentlicht)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Neu geschätzter Wert Gruppe (später veröffentlicht)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Details zu einer angewendeten Maßnahme</entry>
 <entry key="group|name|ND-IPIInformation">Informationen über alle angewendeten Maßnahmen</entry>
+<entry key="group|name|ND-IPILot">Informationen zur Anwendbarkeit der IPI</entry>
 <entry key="group|name|ND-IPILotResult">Allgemeine Informationen über die IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Ausnahme zur angewendeten Maßnahme</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistiken über angewendete Maßnahmen</entry>
 <entry key="group|name|ND-LateTendererInformation">Angaben zum Bieter nach Fristablauf</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Andere Rechtsgrundlage ohne bekannte Kennung</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Andere Rechtsgrundlage mit Kennung</entry>

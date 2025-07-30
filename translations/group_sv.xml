@@ -283,7 +283,11 @@
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Högsta värde för en grupp (publiceras senare)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Nytt beräknat värde för gruppen (publiceras senare)</entry>
 <entry key="group|name|ND-IPIInformation">Information om alla tillämpade åtgärder</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Detaljer om en tillämpad åtgärd</entry>
+<entry key="group|name|ND-IPILot">Information om IPI:s tillämplighet</entry>
 <entry key="group|name|ND-IPILotResult">Allmän information om IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Undantag för tillämpad åtgärd</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistik om tillämpade åtgärder</entry>
 <entry key="group|name|ND-LateTendererInformation">Sen inlämning av information om anbudsgivare</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Annan rättslig grund utan känd identifierare</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Annan rättslig grund med identifierare</entry>

@@ -282,8 +282,12 @@
 <entry key="group|name|ND-GroupMaximalValueIdentifierUnpublish">Identifikator for maksimal værdi for gruppe (offentliggøres senere)</entry>
 <entry key="group|name|ND-GroupMaximumValueUnpublish">Gruppens maksimale værdi (offentliggøres senere)</entry>
 <entry key="group|name|ND-GroupReestimatedValueUnpublish">Revurderet værdi for gruppe (offentliggøres senere)</entry>
+<entry key="group|name|ND-IPIAppliedMeasure">Detaljer om en anvendt foranstaltning</entry>
 <entry key="group|name|ND-IPIInformation">Information om alle anvendte foranstaltninger</entry>
+<entry key="group|name|ND-IPILot">Oplysninger om IPI's anvendelighed</entry>
 <entry key="group|name|ND-IPILotResult">Generel information om IPI</entry>
+<entry key="group|name|ND-IPIMeasureException">Undtagelse for anvendt foranstaltning</entry>
+<entry key="group|name|ND-IPIMeasureStatistics">Statistikker om anvendte foranstaltninger</entry>
 <entry key="group|name|ND-LateTendererInformation">Oplysninger om forsinket tilbudsgiver</entry>
 <entry key="group|name|ND-LocalLegalBasisNoID">Andet retsgrundlag uden en kendt identifikator</entry>
 <entry key="group|name|ND-LocalLegalBasisWithID">Andet retsgrundlag med identifikator</entry>
