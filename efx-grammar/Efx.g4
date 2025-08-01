@@ -52,7 +52,17 @@ singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (
  * template-lines which are only visible within the template-block 
  * in which they are declared.
  */
-templateFile: globalDeclaration* templateDeclaration* templateLine* EOF;
+templateFile
+    : globalDeclaration* templateDeclaration* templateLine* otherSections? EOF
+    ;
+
+otherSections
+    : navigationSection summarySection? 
+    | summarySection navigationSection?
+    ;
+
+summarySection: SummarySection templateLine*;
+navigationSection: NavigationSection templateLine*;
 
 /* 
  * Global-declarations allow the definition of variables and/or functions that can be used throughout the entire template-file.

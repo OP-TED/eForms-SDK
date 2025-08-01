@@ -52,6 +52,9 @@ Otherwise: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> pushMode(TEMPLATE), push
 Display: DISPLAY (TAB | SPACE | EOL)+ -> pushMode(SKIP_WHITESPACE), pushMode(TEMPLATE);
 Invoke: INVOKE -> pushMode(EXPRESSION);
 
+SummarySection: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL*;
+NavigationSection: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL*;
+
 /*
  * SKIP_WHITESPACE mode
  * ------------------------------------------------------------------------------------------------
