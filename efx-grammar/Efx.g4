@@ -120,7 +120,16 @@ templateFragment
     | textBlock templateFragment?                   # textTemplate
     | labelBlock templateFragment?                  # labelTemplate
     | expressionBlock templateFragment?             # expressionTemplate
+    | linkedTextBlock templateFragment?             # linkedTextTemplate
+    | linkedLabelBlock templateFragment?            # linkedLabelTemplate
+    | linkedExpressionBlock templateFragment?       # linkedExpressionTemplate
     ;
+
+linkBlock: StartHyperlinkBlock stringExpression EndBlock;
+
+linkedTextBlock: textBlock linkBlock;
+linkedLabelBlock: labelBlock linkBlock;
+linkedExpressionBlock: expressionBlock linkBlock;
 
 /**
  * A line-break is a newline character (\n).
