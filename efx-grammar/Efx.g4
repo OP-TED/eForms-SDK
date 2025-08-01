@@ -76,7 +76,9 @@ globalVariableDeclaration
     ;
 
 
-dictionaryDeclaration: Let VariablePrefix dictionaryName=Identifier Index field=fieldContext By (stringExpression | lateBoundScalar) Semicolon;
+dictionaryDeclaration: Let VariablePrefix dictionaryName=Identifier index=dictionaryIndexClause key=dictionaryKeyClause Semicolon;
+dictionaryIndexClause: Index field=fieldContext;
+dictionaryKeyClause: By (stringExpression | lateBoundScalar);
 dictionaryLookup: VariablePrefix dictionaryName=Identifier OpenBracket (stringExpression | lateBoundScalar) CloseBracket;
 
 /* 
