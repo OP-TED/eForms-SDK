@@ -43,10 +43,10 @@
 		<assert id="ND-SubcontractingObligation-T01" role="ERROR" diagnostics="ND-SubcontractingObligation" test="count(cac:AllowedSubcontractTerms) = 0">rule|text|ND-SubcontractingObligation-T01</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'T01']">
-		<assert id="ND-ProcedureTypeUnpublish-T01" role="ERROR" diagnostics="ND-ProcedureTypeUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureTypeUnpublish-T01</assert>
+		<assert id="ND-ProcedureFeaturesUnpublish-T01" role="ERROR" diagnostics="ND-ProcedureFeaturesUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureFeaturesUnpublish-T01</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = 'T01']">
-		<assert id="ND-ProcedureAcceleratedUnpublish-T01" role="ERROR" diagnostics="ND-ProcedureAcceleratedUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureAcceleratedUnpublish-T01</assert>
+		<assert id="ND-DirectAwardJustificationPreviousUnpublish-T01" role="ERROR" diagnostics="ND-DirectAwardJustificationPreviousUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-DirectAwardJustificationPreviousUnpublish-T01</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = 'T01']">
 		<assert id="ND-LotDistribution-T01" role="ERROR" diagnostics="ND-LotDistribution" test="count(cac:LotDistribution) = 0">rule|text|ND-LotDistribution-T01</assert>

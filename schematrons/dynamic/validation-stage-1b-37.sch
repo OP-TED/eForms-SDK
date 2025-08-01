@@ -51,7 +51,7 @@
 		<assert id="ND-SelectionCriteria-37" role="ERROR" diagnostics="ND-SelectionCriteria" test="count(efac:SelectionCriteria) = 0">rule|text|ND-SelectionCriteria-37</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[$noticeSubType = '37']">
-		<assert id="ND-StrategicProcurementInformationLot-37" role="ERROR" diagnostics="ND-StrategicProcurementInformationLot" test="count(efac:StrategicProcurementInformation) = 0">rule|text|ND-StrategicProcurementInformationLot-37</assert>
+		<assert id="ND-EEDInformationLot-37" role="ERROR" diagnostics="ND-EEDInformationLot" test="count(efac:StrategicProcurementInformation) = 0">rule|text|ND-EEDInformationLot-37</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject[$noticeSubType = '37']">
 		<assert id="ND-LotsGroupValueEstimate-37" role="ERROR" diagnostics="ND-LotsGroupValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotsGroupValueEstimate-37</assert>
@@ -66,14 +66,14 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult[$noticeSubType = '37']">
 		<assert id="ND-LotResult-37" role="ERROR" diagnostics="ND-LotResult" test="count(efac:LotResult) &gt; 0">rule|text|ND-LotResult-37</assert>
-		<assert id="ND-NoticeApproximateValueUnpublish-37" role="ERROR" diagnostics="ND-NoticeApproximateValueUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-NoticeApproximateValueUnpublish-37</assert>
 		<assert id="ND-NoticeResultGroupFA-37" role="ERROR" diagnostics="ND-NoticeResultGroupFA" test="count(efac:GroupFramework) = 0">rule|text|ND-NoticeResultGroupFA-37</assert>
+		<assert id="ND-NoticeValueUnpublish-37" role="ERROR" diagnostics="ND-NoticeValueUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-NoticeValueUnpublish-37</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '37']">
 		<assert id="ND-LotResultFAValues-37" role="ERROR" diagnostics="ND-LotResultFAValues" test="count(efac:FrameworkAgreementValues) = 0">rule|text|ND-LotResultFAValues-37</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement/efac:StrategicProcurementInformation[$noticeSubType = '37']">
-		<assert id="ND-ProcurementDetailsLotResult-37" role="ERROR" diagnostics="ND-ProcurementDetailsLotResult" test="count(efac:ProcurementDetails) = 0">rule|text|ND-ProcurementDetailsLotResult-37</assert>
+		<assert id="ND-EEDProcurementDetailsLotResult-37" role="ERROR" diagnostics="ND-EEDProcurementDetailsLotResult" test="count(efac:ProcurementDetails) = 0">rule|text|ND-EEDProcurementDetailsLotResult-37</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '37']">
 		<assert id="ND-ConcessionRevenue-37" role="ERROR" diagnostics="ND-ConcessionRevenue" test="count(efac:ConcessionRevenue) = 0">rule|text|ND-ConcessionRevenue-37</assert>
