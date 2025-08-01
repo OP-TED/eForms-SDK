@@ -263,13 +263,13 @@ templateVariableDeclaration
     | durationVariableInitializer
     ;
 
-stringVariableInitializer:      Text        Colon VariablePrefix variableName=Identifier Assignment (stringExpression   | lateBoundExpression);
-booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=Identifier Assignment (booleanExpression  | lateBoundExpression);
-numericVariableInitializer:     Number      Colon VariablePrefix variableName=Identifier Assignment (numericExpression  | lateBoundExpression);
-dateVariableInitializer :       Date        Colon VariablePrefix variableName=Identifier Assignment (dateExpression     | lateBoundExpression);
-timeVariableInitializer:        Time        Colon VariablePrefix variableName=Identifier Assignment (timeExpression     | lateBoundExpression);
-durationVariableInitializer:    Measure     Colon VariablePrefix variableName=Identifier Assignment (durationExpression | lateBoundExpression);
-contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext | Slash);
+stringVariableInitializer:      Text        Colon VariablePrefix variableName=identifier Assignment (stringExpression   | lateBoundExpression);
+booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=identifier Assignment (booleanExpression  | lateBoundExpression);
+numericVariableInitializer:     Number      Colon VariablePrefix variableName=identifier Assignment (numericExpression  | lateBoundExpression);
+dateVariableInitializer :       Date        Colon VariablePrefix variableName=identifier Assignment (dateExpression     | lateBoundExpression);
+timeVariableInitializer:        Time        Colon VariablePrefix variableName=identifier Assignment (timeExpression     | lateBoundExpression);
+durationVariableInitializer:    Measure     Colon VariablePrefix variableName=identifier Assignment (durationExpression | lateBoundExpression);
+contextVariableInitializer:     ContextType Colon VariablePrefix variableName=identifier Assignment (fieldContext | nodeContext | Slash);
 
 functionDeclaration
     : stringFunctionDeclaration 
@@ -584,6 +584,9 @@ durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
   References
  **************************************/
 
+// This allows some EFX keywords to be used as identifiers when they are appropriately prefixed.
+identifier: Identifier | Code | Text | Number | Indicator | Date | Time | Measure | ContextType | Template;
+
 textTypeCast:       OpenParenthesis Text        CloseParenthesis;
 booleanTypeCast:    OpenParenthesis Indicator   CloseParenthesis;
 numericTypeCast:    OpenParenthesis Number      CloseParenthesis;
@@ -600,13 +603,13 @@ timeSequenceTypeCast:       OpenParenthesis Time        Star CloseParenthesis;
 durationSequenceTypeCast:   OpenParenthesis Measure     Star CloseParenthesis;
 contextSequenceTypeCast:    OpenParenthesis ContextType Star CloseParenthesis;
 
-stringVariableDeclaration:      Text        Colon VariablePrefix variableName=Identifier;
-booleanVariableDeclaration:     Indicator   Colon VariablePrefix variableName=Identifier;
-numericVariableDeclaration:     Number      Colon VariablePrefix variableName=Identifier;
-dateVariableDeclaration:        Date        Colon VariablePrefix variableName=Identifier;
-timeVariableDeclaration:        Time        Colon VariablePrefix variableName=Identifier;
-durationVariableDeclaration:    Measure     Colon VariablePrefix variableName=Identifier;
-contextVariableDeclaration:     ContextType Colon VariablePrefix variableName=Identifier;
+stringVariableDeclaration:      Text        Colon VariablePrefix variableName=identifier;
+booleanVariableDeclaration:     Indicator   Colon VariablePrefix variableName=identifier;
+numericVariableDeclaration:     Number      Colon VariablePrefix variableName=identifier;
+dateVariableDeclaration:        Date        Colon VariablePrefix variableName=identifier;
+timeVariableDeclaration:        Time        Colon VariablePrefix variableName=identifier;
+durationVariableDeclaration:    Measure     Colon VariablePrefix variableName=identifier;
+contextVariableDeclaration:     ContextType Colon VariablePrefix variableName=identifier;
 
 
 
@@ -751,4 +754,4 @@ lateBoundScalarReference
     | dictionaryLookup          # scalarFromDictionaryLookup 
     ;
 
-variableReference: VariablePrefix variableName=Identifier;
+variableReference: VariablePrefix variableName=identifier;
