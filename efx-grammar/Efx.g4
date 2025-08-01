@@ -39,7 +39,7 @@ options { tokenVocab=EfxLexer;}
  * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
-singleExpression: StartExpression context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndExpression expressionBlock EOF;
+singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF;
 
 /* 
  * An EFX template-file consists of:
@@ -94,7 +94,7 @@ dictionaryLookup: VariablePrefix dictionaryName=Identifier OpenBracket (stringEx
  */
 templateLine
     : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
-    | indentation? OutlineNumber? StartExpression contextDeclarationBlock EndExpression template CRLF
+    | indentation? OutlineNumber? StartExpressionBlock contextDeclarationBlock EndBlock template CRLF
     ;
 
 /***
@@ -144,15 +144,15 @@ textBlock: (Whitespace | FreeText)+ textBlock*;
  * A label-block starts with a # and curly braces, and can contain a standard label reference, computed label, shorthand, or indirect label reference.
  */
 labelBlock
-    : StartLabel assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndLabel     # standardLabelReference
-    | StartLabel expressionBlock (Semicolon pluraliser)? EndLabel                           # computedLabelReference
-    | StartLabel labelType Pipe BtId (Semicolon pluraliser)? EndLabel                       # shorthandBtLabelReference
-    | StartLabel labelType Pipe FieldId (Semicolon pluraliser)? EndLabel                    # shorthandFieldLabelReference
-    | StartLabel LabelType (Semicolon pluraliser)? EndLabel                                 # shorthandLabelReferenceFromContext
+    : StartLabelBlock assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndBlock     # standardLabelReference
+    | StartLabelBlock expressionBlock (Semicolon pluraliser)? EndBlock                           # computedLabelReference
+    | StartLabelBlock labelType Pipe BtId (Semicolon pluraliser)? EndBlock                       # shorthandBtLabelReference
+    | StartLabelBlock labelType Pipe FieldId (Semicolon pluraliser)? EndBlock                    # shorthandFieldLabelReference
+    | StartLabelBlock LabelType (Semicolon pluraliser)? EndBlock                                 # shorthandLabelReferenceFromContext
     // Indirect Label References ----------------------------------------------------------------------------------------------
     // If an assetType and labelType are not specified, then the label reference is an indirect label reference.
     // Indirect label references derive the label text from the type and value of field.
-    | StartLabel FieldId (Semicolon pluraliser)? EndLabel                                   # shorthandIndirectLabelReference
+    | StartLabelBlock FieldId (Semicolon pluraliser)? EndBlock                                   # shorthandIndirectLabelReference
     | ShorthandIndirectLabelReferenceFromContextField                                       # shorthandIndirectLabelReferenceFromContextField
     ;
 
@@ -185,7 +185,7 @@ expressionBlock
 
 standardExpressionBlock
     : Let expression Semicolon
-    | StartExpression expression EndExpression // for backward compatibility
+    | StartExpressionBlock expression EndBlock // for backward compatibility
     ;
 
 shorthandFieldValueReferenceFromContextField
@@ -302,7 +302,7 @@ parameterDeclaration
 // The parameterValue rule below defines the valid parameter values. 
 // A parameter value must be enclosed in an expression block so that the EFX lexer can switch 
 // from its DEFAULT mode to EXPRESSION mode in order to recognise the parameter value.
-parameterValue: StartExpression (stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral) EndExpression;
+parameterValue: StartExpressionBlock (stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral) EndBlock;
 
 
 /**************************************

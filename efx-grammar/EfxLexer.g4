@@ -40,7 +40,7 @@ OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 // If we encounter a single curly brace in the DEFAULT mode, then we are in a line written in EFX-1 style.
 // We will switch to EXPRESSION mode after first pushing the TEMPLATE and SKIP_WHITESPACE modes to the stack
 // so that the lexer will find itself in the right mode after processing the expression block.
-StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpression);
+StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
 
 // The Let, With and When keywords should switch the lexer to EXPRESSION mode.
 Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
@@ -72,7 +72,7 @@ mode SKIP_WHITESPACE;
 // If we encounter a single curly brace in SKIP_WHITESPACE mode, then we are in a line written in EFX-1 style.
 // We will switch to EXPRESSION mode after first exiting the current mode and pushing the TEMPLATE and 
 // SKIP_WHITESPACE modes to the stack so that the lexer will find itself in the right mode after processing the expression block.
-ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpression);
+ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
 
 LetExpression: LET -> pushMode(EXPRESSION), type(Let);
 WithExpression: WITH -> pushMode(EXPRESSION), type(With);
@@ -106,7 +106,7 @@ WhenExpression: (TAB | SPACE | EOL)* WHEN -> popMode, pushMode(EXPRESSION), type
 OtherwiseTemplate: (TAB | SPACE | EOL)* OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? (TAB | SPACE)* -> type(Otherwise);
 InvokeTemplate: (TAB | SPACE | EOL)* INVOKE -> popMode, pushMode(EXPRESSION), type(Invoke);
 
-FreeText: (~[\r\n\f\t #$}{;\\] | OTHER_ESC_SEQ | CHAR_REF)+;
+FreeText: (~[\r\n\f\t #$@}{;\\] | OTHER_ESC_SEQ | CHAR_REF)+;
 
 EndTemplate: Whitespace? ';' Whitespace? COMMENT? -> popMode, type(Semicolon);
 
@@ -119,8 +119,9 @@ ValueKeyword: 'value';
 
 ShorthandLabelType: LabelType -> type(LabelType);
 
-StartExpression: DOLLAR LBRACE -> pushMode(EXPRESSION);
-StartLabel: SHARP LBRACE -> pushMode(LABEL);
+StartExpressionBlock: DOLLAR LBRACE -> pushMode(EXPRESSION);
+StartLabelBlock: SHARP LBRACE -> pushMode(LABEL);
+StartHyperlinkBlock: Whitespace? AT LBRACE -> pushMode(EXPRESSION);
 
 // Comments at the end of a line.
 EndOfLineComment: (TAB | SPACE)* COMMENT -> channel(HIDDEN);
@@ -140,9 +141,9 @@ mode LABEL;
 Pipe: '|';
 Semicolon: ';';
 
-EndLabel: RBRACE -> popMode;
+EndLabel: RBRACE -> popMode, type(EndBlock);
 
-StartNestedExpression: DOLLAR LBRACE -> pushMode(EXPRESSION), type(StartExpression);
+StartNestedExpression: DOLLAR LBRACE -> pushMode(EXPRESSION), type(StartExpressionBlock);
 
 
 AssetType
@@ -217,8 +218,8 @@ ColonColon: '::';
 
 // Mode switching ---------------------------------------------------------------------------------
 
-// An RBRACE indicates the nd of an EFX-1 style expression block.
-EndExpression: RBRACE -> popMode;
+// An RBRACE indicates the end of an EFX-1 style expression block.
+EndBlock: RBRACE -> popMode;
 
 EndLetExpression: ';' -> popMode, type(Semicolon);
 
@@ -335,9 +336,9 @@ YearMonthDurationLiteral: '-'? 'P' IntegerLiteral ('Y' | 'M');
 FieldId: FieldIdentifier;// | FieldAlias;
 NodeId: NodeIdentifier;// | NodeAlias;
 
-VariablePrefix: '$';
-AttributePrefix: '@';
-CodelistPrefix: '#';
+VariablePrefix: DOLLAR;
+AttributePrefix: AT;
+CodelistPrefix: SHARP;
 FunctionPrefix: '?';
 
 BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
@@ -394,8 +395,9 @@ fragment SPACE: [ ];
 fragment LBRACE: '{';
 fragment RBRACE: '}';
 
-fragment DOLLAR: '$';	// Used for label placeholders
-fragment SHARP: '#';	// Used for expression placeholders
+fragment AT: '@';
+fragment DOLLAR: '$';
+fragment SHARP: '#';
 fragment CHAR_REF: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 
 fragment HEX4: HEX HEX HEX HEX;
@@ -406,7 +408,7 @@ fragment CHAR: ~["'\\\r\n] | ANY_ESC_SEQ;
 
 fragment LINE_BREAK_ESC_SEQ: '\\n';	                    // Used for line breaks
 fragment OTHER_ESC_SEQ: '\\' [dDwWsStrvfbcxu0"'\\];     // Used for allowing in free text escape sequences other than \\n 
-fragment ANY_ESC_SEQ: '\\' [dDwWnsStrvfbcxu0"'\\];
+fragment ANY_ESC_SEQ:   '\\' [dDwWnsStrvfbcxu0"'\\];
 
 fragment CAMEL_CASE: [a-z] [a-z0-9]+ PASCAL_CASE*;
 fragment PASCAL_CASE: [A-Z] [a-z0-9]+ PASCAL_CASE*;
