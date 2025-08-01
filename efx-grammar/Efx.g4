@@ -39,7 +39,7 @@ options { tokenVocab=EfxLexer;}
  * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
-singleExpression: StartExpression context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndExpression expressionBlock EOF;
+singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF;
 
 /* 
  * An EFX template-file consists of:
@@ -52,7 +52,17 @@ singleExpression: StartExpression context=(FieldId | NodeId | Identifier) (Comma
  * template-lines which are only visible within the template-block 
  * in which they are declared.
  */
-templateFile: globalDeclaration* templateDeclaration* templateLine* EOF;
+templateFile
+    : globalDeclaration* templateDeclaration* templateLine* otherSections? EOF
+    ;
+
+otherSections
+    : navigationSection summarySection? 
+    | summarySection navigationSection?
+    ;
+
+summarySection: SummarySection templateLine*;
+navigationSection: NavigationSection templateLine*;
 
 /* 
  * Global-declarations allow the definition of variables and/or functions that can be used throughout the entire template-file.
@@ -94,7 +104,7 @@ dictionaryLookup: VariablePrefix dictionaryName=Identifier OpenBracket (stringEx
  */
 templateLine
     : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
-    | indentation? OutlineNumber? StartExpression contextDeclarationBlock EndExpression template CRLF
+    | indentation? OutlineNumber? StartExpressionBlock contextDeclarationBlock EndBlock template CRLF
     ;
 
 /***
@@ -120,7 +130,16 @@ templateFragment
     | textBlock templateFragment?                   # textTemplate
     | labelBlock templateFragment?                  # labelTemplate
     | expressionBlock templateFragment?             # expressionTemplate
+    | linkedTextBlock templateFragment?             # linkedTextTemplate
+    | linkedLabelBlock templateFragment?            # linkedLabelTemplate
+    | linkedExpressionBlock templateFragment?       # linkedExpressionTemplate
     ;
+
+linkBlock: StartHyperlinkBlock stringExpression EndBlock;
+
+linkedTextBlock: textBlock linkBlock;
+linkedLabelBlock: labelBlock linkBlock;
+linkedExpressionBlock: expressionBlock linkBlock;
 
 /**
  * A line-break is a newline character (\n).
@@ -144,15 +163,15 @@ textBlock: (Whitespace | FreeText)+ textBlock*;
  * A label-block starts with a # and curly braces, and can contain a standard label reference, computed label, shorthand, or indirect label reference.
  */
 labelBlock
-    : StartLabel assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndLabel     # standardLabelReference
-    | StartLabel expressionBlock (Semicolon pluraliser)? EndLabel                           # computedLabelReference
-    | StartLabel labelType Pipe BtId (Semicolon pluraliser)? EndLabel                       # shorthandBtLabelReference
-    | StartLabel labelType Pipe FieldId (Semicolon pluraliser)? EndLabel                    # shorthandFieldLabelReference
-    | StartLabel LabelType (Semicolon pluraliser)? EndLabel                                 # shorthandLabelReferenceFromContext
+    : StartLabelBlock assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndBlock     # standardLabelReference
+    | StartLabelBlock expressionBlock (Semicolon pluraliser)? EndBlock                           # computedLabelReference
+    | StartLabelBlock labelType Pipe BtId (Semicolon pluraliser)? EndBlock                       # shorthandBtLabelReference
+    | StartLabelBlock labelType Pipe FieldId (Semicolon pluraliser)? EndBlock                    # shorthandFieldLabelReference
+    | StartLabelBlock LabelType (Semicolon pluraliser)? EndBlock                                 # shorthandLabelReferenceFromContext
     // Indirect Label References ----------------------------------------------------------------------------------------------
     // If an assetType and labelType are not specified, then the label reference is an indirect label reference.
     // Indirect label references derive the label text from the type and value of field.
-    | StartLabel FieldId (Semicolon pluraliser)? EndLabel                                   # shorthandIndirectLabelReference
+    | StartLabelBlock FieldId (Semicolon pluraliser)? EndBlock                                   # shorthandIndirectLabelReference
     | ShorthandIndirectLabelReferenceFromContextField                                       # shorthandIndirectLabelReferenceFromContextField
     ;
 
@@ -185,7 +204,7 @@ expressionBlock
 
 standardExpressionBlock
     : Let expression Semicolon
-    | StartExpression expression EndExpression // for backward compatibility
+    | StartExpressionBlock expression EndBlock // for backward compatibility
     ;
 
 shorthandFieldValueReferenceFromContextField
@@ -244,13 +263,13 @@ templateVariableDeclaration
     | durationVariableInitializer
     ;
 
-stringVariableInitializer:      Text        Colon VariablePrefix variableName=Identifier Assignment (stringExpression   | lateBoundExpression);
-booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=Identifier Assignment (booleanExpression  | lateBoundExpression);
-numericVariableInitializer:     Number      Colon VariablePrefix variableName=Identifier Assignment (numericExpression  | lateBoundExpression);
-dateVariableInitializer :       Date        Colon VariablePrefix variableName=Identifier Assignment (dateExpression     | lateBoundExpression);
-timeVariableInitializer:        Time        Colon VariablePrefix variableName=Identifier Assignment (timeExpression     | lateBoundExpression);
-durationVariableInitializer:    Measure     Colon VariablePrefix variableName=Identifier Assignment (durationExpression | lateBoundExpression);
-contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext | Slash);
+stringVariableInitializer:      Text        Colon VariablePrefix variableName=identifier Assignment (stringExpression   | lateBoundExpression);
+booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=identifier Assignment (booleanExpression  | lateBoundExpression);
+numericVariableInitializer:     Number      Colon VariablePrefix variableName=identifier Assignment (numericExpression  | lateBoundExpression);
+dateVariableInitializer :       Date        Colon VariablePrefix variableName=identifier Assignment (dateExpression     | lateBoundExpression);
+timeVariableInitializer:        Time        Colon VariablePrefix variableName=identifier Assignment (timeExpression     | lateBoundExpression);
+durationVariableInitializer:    Measure     Colon VariablePrefix variableName=identifier Assignment (durationExpression | lateBoundExpression);
+contextVariableInitializer:     ContextType Colon VariablePrefix variableName=identifier Assignment (fieldContext | nodeContext | Slash);
 
 functionDeclaration
     : stringFunctionDeclaration 
@@ -302,7 +321,7 @@ parameterDeclaration
 // The parameterValue rule below defines the valid parameter values. 
 // A parameter value must be enclosed in an expression block so that the EFX lexer can switch 
 // from its DEFAULT mode to EXPRESSION mode in order to recognise the parameter value.
-parameterValue: StartExpression (stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral) EndExpression;
+parameterValue: StartExpressionBlock (stringLiteral | numericLiteral | dateLiteral | timeLiteral | durationLiteral | booleanLiteral) EndBlock;
 
 
 /**************************************
@@ -565,6 +584,9 @@ durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
   References
  **************************************/
 
+// This allows some EFX keywords to be used as identifiers when they are appropriately prefixed.
+identifier: Identifier | Code | Text | Number | Indicator | Date | Time | Measure | ContextType | Template;
+
 textTypeCast:       OpenParenthesis Text        CloseParenthesis;
 booleanTypeCast:    OpenParenthesis Indicator   CloseParenthesis;
 numericTypeCast:    OpenParenthesis Number      CloseParenthesis;
@@ -581,13 +603,13 @@ timeSequenceTypeCast:       OpenParenthesis Time        Star CloseParenthesis;
 durationSequenceTypeCast:   OpenParenthesis Measure     Star CloseParenthesis;
 contextSequenceTypeCast:    OpenParenthesis ContextType Star CloseParenthesis;
 
-stringVariableDeclaration:      Text        Colon VariablePrefix variableName=Identifier;
-booleanVariableDeclaration:     Indicator   Colon VariablePrefix variableName=Identifier;
-numericVariableDeclaration:     Number      Colon VariablePrefix variableName=Identifier;
-dateVariableDeclaration:        Date        Colon VariablePrefix variableName=Identifier;
-timeVariableDeclaration:        Time        Colon VariablePrefix variableName=Identifier;
-durationVariableDeclaration:    Measure     Colon VariablePrefix variableName=Identifier;
-contextVariableDeclaration:     ContextType Colon VariablePrefix variableName=Identifier;
+stringVariableDeclaration:      Text        Colon VariablePrefix variableName=identifier;
+booleanVariableDeclaration:     Indicator   Colon VariablePrefix variableName=identifier;
+numericVariableDeclaration:     Number      Colon VariablePrefix variableName=identifier;
+dateVariableDeclaration:        Date        Colon VariablePrefix variableName=identifier;
+timeVariableDeclaration:        Time        Colon VariablePrefix variableName=identifier;
+durationVariableDeclaration:    Measure     Colon VariablePrefix variableName=identifier;
+contextVariableDeclaration:     ContextType Colon VariablePrefix variableName=identifier;
 
 
 
@@ -732,4 +754,4 @@ lateBoundScalarReference
     | dictionaryLookup          # scalarFromDictionaryLookup 
     ;
 
-variableReference: VariablePrefix variableName=Identifier;
+variableReference: VariablePrefix variableName=identifier;
