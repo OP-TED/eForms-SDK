@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Gruppi kuuluvad osad</entry>
 <entry key="group|name|GR-GroupFramework">Osade rühma maksimaalne maksumus</entry>
 <entry key="group|name|GR-Jury-Member">Žürii liige</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistika rakendatud meetmete kohta</entry>
 <entry key="group|name|GR-LateTendererInformation">Hilinenud teave pakkuja kohta</entry>
 <entry key="group|name|GR-Lot">Osa</entry>
 <entry key="group|name|GR-Lot-AddInfo">Lisateavet andev organisatsioon</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Raamleping</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Riigihankeleping (GPA)</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Keskkonnahoidlike hanketingimuste üksikasjad</entry>
+<entry key="group|name|GR-Lot-IPI">Teave IPI rakendatavuse kohta</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Innovatiivne hankimine</entry>
 <entry key="group|name|GR-Lot-Mediator">Lepitusorganisatsioon</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Vastuste saamise tähtaeg</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">EED teave partii kohta</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Rahastav organisatsioon</entry>
 <entry key="group|name|GR-LotResult-IPI">IPI üldteave</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Erand rakendatud meetme suhtes</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Üksikasjad rakendatud meetme kohta</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Teave kõigi rakendatud meetmete kohta</entry>
 <entry key="group|name|GR-LotResult-Parties">Osalejad</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Makseorganisatsioon</entry>

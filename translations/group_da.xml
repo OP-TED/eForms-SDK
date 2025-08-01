@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Del tilhørende gruppen</entry>
 <entry key="group|name|GR-GroupFramework">Maksimal værdi af gruppe af delkontrakter</entry>
 <entry key="group|name|GR-Jury-Member">Medlem af juryen</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistikker om anvendte foranstaltninger</entry>
 <entry key="group|name|GR-LateTendererInformation">Oplysninger om forsinket tilbudsgiver</entry>
 <entry key="group|name|GR-Lot">Delkontrakt</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation, der giver yderligere oplysninger</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Rammeaftale</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Aftale om offentlige udbud (GPA)</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Detaljer om grønne indkøbskriterier</entry>
+<entry key="group|name|GR-Lot-IPI">Oplysninger om IPI's anvendelighed</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Innovativt indkøb</entry>
 <entry key="group|name|GR-Lot-Mediator">Mæglingsorganisation</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Frist for modtagelse af svar</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">EED-oplysninger for partiet</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Finansieringsorganisation</entry>
 <entry key="group|name|GR-LotResult-IPI">Generel information om IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Undtagelse for anvendt foranstaltning</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Detaljer om en anvendt foranstaltning</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Information om alle anvendte foranstaltninger</entry>
 <entry key="group|name|GR-LotResult-Parties">Parter</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Betalende organisation</entry>

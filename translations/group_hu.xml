@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Csoportba tartozó tétel</entry>
 <entry key="group|name|GR-GroupFramework">A részek csoportjának maximális értéke</entry>
 <entry key="group|name|GR-Jury-Member">Bírósági tag</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statisztikák az alkalmazott intézkedésekről</entry>
 <entry key="group|name|GR-LateTendererInformation">Késedelmes ajánlattevői információ</entry>
 <entry key="group|name|GR-Lot">Rész</entry>
 <entry key="group|name|GR-Lot-AddInfo">További információkat szolgáltató szervezet</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Keretmegállapodás</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Megállapodás a közbeszerzésről</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Zöld beszerzési kritériumok részletei</entry>
+<entry key="group|name|GR-Lot-IPI">Információ az IPI alkalmazhatóságáról</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Innovatív beszerzés</entry>
 <entry key="group|name|GR-Lot-Mediator">Közvetítő szervezet</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Határidő a válaszok fogadására</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">EED információ a tételről</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Pénzügyi szervezet</entry>
 <entry key="group|name|GR-LotResult-IPI">Általános információ az IPI-ről</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Kivétel az alkalmazott intézkedés alól</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Részletek egy alkalmazott intézkedésről</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Az összes alkalmazott intézkedés információja</entry>
 <entry key="group|name|GR-LotResult-Parties">Felek</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Fizető szervezet</entry>
