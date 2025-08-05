@@ -101,7 +101,7 @@ mode TEMPLATE;
 
 
 // Python-style line joining. The backslash at the end of a line is used to join the following line
-LineJoining: '\\'  Whitespace? EOL+ Whitespace? -> skip;
+LineJoining: '\\'  (TAB | SPACE)* EOL+ (TAB | SPACE)* -> skip;
 
 NewLine: (TAB | SPACE)* LINE_BREAK_ESC_SEQ (TAB | SPACE)*;
 
@@ -109,9 +109,9 @@ WhenExpression: (TAB | SPACE | EOL)* WHEN -> popMode, pushMode(EXPRESSION), type
 OtherwiseTemplate: (TAB | SPACE | EOL)* OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? (TAB | SPACE)* -> type(Otherwise);
 InvokeTemplate: (TAB | SPACE | EOL)* INVOKE -> popMode, pushMode(EXPRESSION), type(Invoke);
 
-FreeText: (~[\r\n\f\t #$@}{;\\] | OTHER_ESC_SEQ | CHAR_REF)+;
+CharacterReference: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 
-EndTemplate: Whitespace? ';' Whitespace? COMMENT? -> popMode, type(Semicolon);
+EndTemplate: (TAB | SPACE)* ';' (TAB | SPACE)* COMMENT? -> popMode, type(Semicolon);
 
 // A newline terminates the TEMPLATE mode and switches back to DEFAULT mode.
 CRLF: EOL+ -> popMode;
@@ -120,11 +120,11 @@ ShorthandFieldValueReferenceFromContextField: DOLLAR ValueKeyword;
 ShorthandIndirectLabelReferenceFromContextField: SHARP ValueKeyword;
 ValueKeyword: 'value';
 
-ShorthandLabelType: LabelType -> type(LabelType);
+ShorthandLabelType: SHARP LabelType -> type(LabelType);
 
 StartExpressionBlock: DOLLAR LBRACE -> pushMode(EXPRESSION);
 StartLabelBlock: SHARP LBRACE -> pushMode(LABEL);
-StartHyperlinkBlock: Whitespace? AT LBRACE -> pushMode(EXPRESSION);
+StartHyperlinkBlock: (TAB | SPACE)* AT LBRACE -> pushMode(EXPRESSION);
 
 // Comments at the end of a line.
 EndOfLineComment: (TAB | SPACE)* COMMENT -> channel(HIDDEN);
@@ -132,6 +132,9 @@ EndOfLineComment: (TAB | SPACE)* COMMENT -> channel(HIDDEN);
 // Whitespace is significant in TEMPLATE mode.
 Whitespace: (TAB | SPACE)+;
 
+FreeText: ~[\r\n\f\t #$@&;\\]+;
+
+OtherEscapeSequence: OTHER_ESC_SEQ;
 
 /*
  * LABEL mode
@@ -408,6 +411,8 @@ fragment HEX4: HEX HEX HEX HEX;
 fragment HEX: [0-9a-fA-F];
 fragment CHAR_SEQ: CHAR+;
 fragment CHAR: ~["'\\\r\n] | ANY_ESC_SEQ;
+fragment TEXT_CHAR: ~[\\\r\n] | OTHER_ESC_SEQ;
+
 
 fragment LINE_BREAK_ESC_SEQ: '\\n';	                    // Used for line breaks
 fragment OTHER_ESC_SEQ: '\\' [dDwWsStrvfbcxu0"'\\];     // Used for allowing in free text escape sequences other than \\n 

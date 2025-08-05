@@ -150,9 +150,10 @@ lineBreak: NewLine;
 
 /**
  * A text-block consists of whitespace and free-text.
+ * Escape sequences and character references are handled within the free-text token.
  * It is used to add static content to the template.
  */
-textBlock: (Whitespace | FreeText)+ textBlock*;
+textBlock: (Whitespace | FreeText | OtherEscapeSequence | CharacterReference)+;
 
 /******************************************************************************
   Labels are matched when the lexical analyser is in LABEL mode
