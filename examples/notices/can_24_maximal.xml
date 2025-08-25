@@ -298,6 +298,24 @@
 									</efac:ProcurementDetails>
 								</efac:StrategicProcurementInformation>
 							</efac:StrategicProcurement>
+							<efac:StrategicProcurement>
+								<efac:StrategicProcurementInformation>
+									<efac:AppliedMeasure>
+										<!--"id" : "BT-685-LotResult", "name" : "Specific IPI Measure"-->
+										<efbc:MeasureCode listName="international-procurement-instrument-measure">32025R1197</efbc:MeasureCode>
+										<efac:MeasureException>
+											<!--"id" : "BT-687-LotResult", "name" : "Exception to the application of the IPI Measure"-->
+											<efbc:ExceptionCode listName="international-procurement-instrument-application">pub-int</efbc:ExceptionCode>
+											<!--"id" : BT-688-LotResult", "name" : "Overriding reasons relating to the public interest"-->
+											<efbc:ExceptionDescription languageID="ENG">Because ...</efbc:ExceptionDescription>
+										</efac:MeasureException>
+										<!--"id" : "BT-686-LotResult", "name" : "Number of tender applications that fall under this IPI Measure"-->
+										<efac:MeasureStatistics>
+											<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+										</efac:MeasureStatistics>
+									</efac:AppliedMeasure>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 							<efac:TenderLot>
 								<!-- "id" : "BT-13713-LotResult", "name" : "Result Lot Identifier" -->
 								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -1581,8 +1599,7 @@
 							</efac:StrategicProcurement>
 							<efac:StrategicProcurement>
 								<!--"id" : "BT-684-Lot",   "name" : "IPI Measures are Applicable"-->
-								<!-- Should be set to true once an IPI measure is available -->
-								<efbc:ApplicableLegalBasis listName="ipi-scope">false</efbc:ApplicableLegalBasis>
+								<efbc:ApplicableLegalBasis listName="ipi-scope">true</efbc:ApplicableLegalBasis>
 							</efac:StrategicProcurement>
 							<efac:StrategicProcurement>
 								<!--"id" : "BT-810-Lot",   "name" : "EED Applicable"-->
