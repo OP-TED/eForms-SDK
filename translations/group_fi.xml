@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Ryhmään kuuluvat osat</entry>
 <entry key="group|name|GR-GroupFramework">Osien ryhmän enimmäisarvo</entry>
 <entry key="group|name|GR-Jury-Member">Tuomariston jäsen</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Tilastot sovelletuista toimenpiteistä</entry>
 <entry key="group|name|GR-LateTendererInformation">Määräajan jälkeen toimitettavat tiedot</entry>
 <entry key="group|name|GR-Lot">Osa</entry>
 <entry key="group|name|GR-Lot-AddInfo">Lisätietoa antava organisaatio</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Puitejärjestely</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Maailman kauppajärjestön (WTO) julkisia hankintoja koskeva sopimus (GPA)</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Vihreiden hankintakriteerien tiedot</entry>
+<entry key="group|name|GR-Lot-IPI">Tietoja IPI:n soveltuvuudesta</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Innovatiivinen hankinta</entry>
 <entry key="group|name|GR-Lot-Mediator">Sovitteluelin</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Määräaika vastausten saamiseksi</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">EED-tiedot erästä</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Rahoittaja</entry>
 <entry key="group|name|GR-LotResult-IPI">Yleistä tietoa IPI:stä</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Poikkeus sovelletusta toimenpiteestä</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Tiedot sovelletusta toimenpiteestä</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Tietoa kaikista käytetyistä toimenpiteistä</entry>
 <entry key="group|name|GR-LotResult-Parties">Osapuolet</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Maksava organisaatio</entry>

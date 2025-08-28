@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Lot aparținând grupului</entry>
 <entry key="group|name|GR-GroupFramework">Valoarea maximă a grupului de loturi</entry>
 <entry key="group|name|GR-Jury-Member">Membru al juriului</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistici despre măsurile aplicate</entry>
 <entry key="group|name|GR-LateTendererInformation">Informații privind ofertantul care pot fi depuse după expirarea termenului</entry>
 <entry key="group|name|GR-Lot">Lotul</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizația care furnizează informații suplimentare</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Acord-cadru</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Acord privind achizițiile publice</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Detalii privind criteriile de achiziții verzi</entry>
+<entry key="group|name|GR-Lot-IPI">Informații despre aplicabilitatea IPI</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Achiziție inovatoare</entry>
 <entry key="group|name|GR-Lot-Mediator">Organizație de mediere</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Termenul pentru primirea răspunsurilor</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Informații despre EED pentru lot</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Organizație de finanțare</entry>
 <entry key="group|name|GR-LotResult-IPI">Informații generale despre IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Excepție de la măsura aplicată</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Detalii despre o măsură aplicată</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Informații despre toate măsurile aplicate</entry>
 <entry key="group|name|GR-LotResult-Parties">Părți</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Organizație plătitoare</entry>

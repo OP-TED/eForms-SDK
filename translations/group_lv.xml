@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Grupai piederošā daļa</entry>
 <entry key="group|name|GR-GroupFramework">Daļu grupas maksimālā vērtība</entry>
 <entry key="group|name|GR-Jury-Member">Žūrijas loceklis</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistika par piemērotajiem pasākumiem</entry>
 <entry key="group|name|GR-LateTendererInformation">Novēlota informācija par pretendentu</entry>
 <entry key="group|name|GR-Lot">Daļa</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizācija, kas sniedz papildu informāciju</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Ietvarlīgums</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Nolīgums par valsts iepirkumu</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Zaļā iepirkuma kritēriju detalizācija</entry>
+<entry key="group|name|GR-Lot-IPI">Informācija par IPI piemērojamību</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Inovatīva iegāde</entry>
 <entry key="group|name|GR-Lot-Mediator">Mediācijas organizācija</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Termiņš atbilžu saņemšanai</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Informācija par EED partijai</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Finansēšanas organizācija</entry>
 <entry key="group|name|GR-LotResult-IPI">Vispārēja informācija par IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Izņēmums piemērotajam pasākumam</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Informācija par piemēroto pasākumu</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Informācija par visiem piemērotajiem pasākumiem</entry>
 <entry key="group|name|GR-LotResult-Parties">Puses</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Maksājoša organizācija</entry>

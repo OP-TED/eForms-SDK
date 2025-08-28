@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Lot behorend tot de groep</entry>
 <entry key="group|name|GR-GroupFramework">Maximumwaarde van groep percelen</entry>
 <entry key="group|name|GR-Jury-Member">Jurylid</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistieken over toegepaste maatregelen</entry>
 <entry key="group|name|GR-LateTendererInformation">Late inschrijver informatie</entry>
 <entry key="group|name|GR-Lot">Perceel</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisatie die aanvullende informatie verstrekt</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Raamovereenkomst</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Overeenkomst inzake overheidsopdrachten (GPA)</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Details van de Groene Aankoopcriteria</entry>
+<entry key="group|name|GR-Lot-IPI">Informatie over de toepasbaarheid van de IPI</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Innovatieve verwerving</entry>
 <entry key="group|name|GR-Lot-Mediator">Bemiddelingsorganisatie</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Deadline voor ontvangst van antwoorden</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Informatie over EED voor de kavel</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Financieringsorganisatie</entry>
 <entry key="group|name|GR-LotResult-IPI">Algemene informatie over de IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Uitzondering op de toegepaste maatregel</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Details over een toegepaste maatregel</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Informatie over alle toegepaste maatregelen</entry>
 <entry key="group|name|GR-LotResult-Parties">Partijen</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Betalende organisatie</entry>

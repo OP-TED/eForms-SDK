@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Grupės priklausančio dalis</entry>
 <entry key="group|name|GR-GroupFramework">Didžiausioji pirkimo dalių grupės vertė</entry>
 <entry key="group|name|GR-Jury-Member">Teisės narys</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistika apie taikytas priemones</entry>
 <entry key="group|name|GR-LateTendererInformation">Vėliau teikiama informacija apie dalyvį</entry>
 <entry key="group|name|GR-Lot">Pirkimo dalis</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizacija, teikianti papildomą informaciją</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Rėmų susitarimas</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Sutartis dėl viešųjų pirkimų</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Žaliosios pirkimo kriterijų detalės</entry>
+<entry key="group|name|GR-Lot-IPI">Informacija apie IPI taikymą</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Inovatyvus įsigijimas</entry>
 <entry key="group|name|GR-Lot-Mediator">Tarpininkavimo organizacija</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Terminas gauti atsakymus</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">EED informacija apie partiją</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Finansavimo organizacija</entry>
 <entry key="group|name|GR-LotResult-IPI">Bendra informacija apie IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Išimtis taikytai priemonei</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Informacija apie taikytą priemonę</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Informacija apie visus taikytus metodus</entry>
 <entry key="group|name|GR-LotResult-Parties">Šalys</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Mokantis organizacija</entry>

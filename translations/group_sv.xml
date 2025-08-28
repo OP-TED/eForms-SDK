@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Del som tillhör gruppen</entry>
 <entry key="group|name|GR-GroupFramework">Högsta värdet för en grupp av delkontrakt</entry>
 <entry key="group|name|GR-Jury-Member">Jurymedlem</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistik om tillämpade åtgärder</entry>
 <entry key="group|name|GR-LateTendererInformation">Sen inlämning av information om anbudsgivare</entry>
 <entry key="group|name|GR-Lot">Delkontrakt</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation som ger kompletterande information</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Ramavtal</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Avtalet om offentlig upphandling</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Detaljer om gröna upphandlingskriterier</entry>
+<entry key="group|name|GR-Lot-IPI">Information om IPI:s tillämplighet</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Innovativ anskaffning</entry>
 <entry key="group|name|GR-Lot-Mediator">Medlingsorgan</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Sista datum för mottagande av svar</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Information om EED för partiet</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Finansieringsorganisation</entry>
 <entry key="group|name|GR-LotResult-IPI">Allmän information om IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Undantag för tillämpad åtgärd</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Detaljer om en tillämpad åtgärd</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Information om alla tillämpade åtgärder</entry>
 <entry key="group|name|GR-LotResult-Parties">Parter</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Betalningsorganisation</entry>

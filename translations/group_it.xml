@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Lotto appartenente al gruppo</entry>
 <entry key="group|name|GR-GroupFramework">Valore massimo del gruppo di lotti</entry>
 <entry key="group|name|GR-Jury-Member">Membro della giuria</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistiche sulle misure applicate</entry>
 <entry key="group|name|GR-LateTendererInformation">Informazioni sull'offerente presentate tardivamente</entry>
 <entry key="group|name|GR-Lot">Lotto</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizzazione che fornisce informazioni supplementari</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Accordo quadro</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Accordo sugli appalti pubblici</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Dettagli dei criteri di acquisto verde</entry>
+<entry key="group|name|GR-Lot-IPI">Informazioni sull'applicabilità dell'IPI</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Acquisizione innovativa</entry>
 <entry key="group|name|GR-Lot-Mediator">Organizzazione di mediazione</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Termine per la ricezione delle risposte</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Informazioni sull'EED per il lotto</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Organizzazione finanziatrice</entry>
 <entry key="group|name|GR-LotResult-IPI">Informazioni generali sull'IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Eccezione alla misura applicata</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Dettagli su una misura applicata</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Informazioni su tutte le misure applicate</entry>
 <entry key="group|name|GR-LotResult-Parties">Parti</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Organizzazione pagante</entry>

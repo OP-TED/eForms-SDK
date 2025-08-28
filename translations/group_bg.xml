@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Лот, принадлежащ към групата</entry>
 <entry key="group|name|GR-GroupFramework">Максимална стойност за група обособени позиции</entry>
 <entry key="group|name|GR-Jury-Member">Член на журито</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Статистика за приложени мерки</entry>
 <entry key="group|name|GR-LateTendererInformation">Просрочена информация за оферента</entry>
 <entry key="group|name|GR-Lot">Обособена позиция</entry>
 <entry key="group|name|GR-Lot-AddInfo">Организация, предоставяща допълнителна информация</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Рамково споразумение</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Споразумение за държавните поръчки (СДП)</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Детайли за критериите за "Зелени обществени поръчки"</entry>
+<entry key="group|name|GR-Lot-IPI">Информация относно приложимостта на IPI</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Иновативно придобиване</entry>
 <entry key="group|name|GR-Lot-Mediator">Медиаторска организация</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Срок за получаване на отговори</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">EED информация за партида</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Финансираща организация</entry>
 <entry key="group|name|GR-LotResult-IPI">Обща информация за IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Изключение от приложената мярка</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Подробности за приложена мярка</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Информация за всички приложени мерки</entry>
 <entry key="group|name|GR-LotResult-Parties">Страни</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Финансираща организация</entry>

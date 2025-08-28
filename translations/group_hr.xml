@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Grupa kojoj pripada lot</entry>
 <entry key="group|name|GR-GroupFramework">Maksimalna vrijednost skupine grupa</entry>
 <entry key="group|name|GR-Jury-Member">Član žirija</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Statistika o primijenjenim mjerama</entry>
 <entry key="group|name|GR-LateTendererInformation">Informacije o ponuditelju nakon isteka roka</entry>
 <entry key="group|name|GR-Lot">Grupa</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizacija koja daje dodatne informacije</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Okvirni sporazum</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Sporazum o javnoj nabavi</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Detalji kriterija zelene nabave</entry>
+<entry key="group|name|GR-Lot-IPI">Informacije o primjenjivosti IPI-ja</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Inovativna nabava</entry>
 <entry key="group|name|GR-Lot-Mediator">Organizacija za mirenje</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Rok za prijem odgovora</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Informacije o EED-u za lot</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Organizacija financiranja</entry>
 <entry key="group|name|GR-LotResult-IPI">Opće informacije o IPI-ju</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Iznimka za primijenjenu mjeru</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Detalji o primijenjenoj mjeri</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Informacije o svim primijenjenim mjerama</entry>
 <entry key="group|name|GR-LotResult-Parties">Stranke</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Plaćajuća organizacija</entry>

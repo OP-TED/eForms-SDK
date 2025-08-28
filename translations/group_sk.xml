@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Lúka patriaca do skupiny</entry>
 <entry key="group|name|GR-GroupFramework">Maximálna hodnota skupiny častí</entry>
 <entry key="group|name|GR-Jury-Member">Člen poroty</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Štatistiky o aplikovaných opatreniach</entry>
 <entry key="group|name|GR-LateTendererInformation">Neskoršie poskytnutie informácií o uchádzačovi</entry>
 <entry key="group|name|GR-Lot">Časť</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organizácia poskytujúca ďalšie informácie</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Rámcová dohoda</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Dohoda o vládnom obstarávaní</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Podrobnosti o kritériách zeleného obstarávania</entry>
+<entry key="group|name|GR-Lot-IPI">Informácie o použiteľnosti IPI</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Inovatívne získavanie</entry>
 <entry key="group|name|GR-Lot-Mediator">Sprostredkovateľská organizácia</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Termín na prijatie odpovedí</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Informácie o EED pre vklad</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Finančná organizácia</entry>
 <entry key="group|name|GR-LotResult-IPI">Celkové informácie o IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Výnimka z aplikovaného opatrenia</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Podrobnosti o aplikovanom opatrení</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Informácie o všetkých použitých opatreniach</entry>
 <entry key="group|name|GR-LotResult-Parties">Strany</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Platiteľská organizácia</entry>

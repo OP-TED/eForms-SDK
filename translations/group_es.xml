@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Lote perteneciente al grupo</entry>
 <entry key="group|name|GR-GroupFramework">Valor máximo del grupo de lotes</entry>
 <entry key="group|name|GR-Jury-Member">Miembro del jurado</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Estadísticas sobre las medidas aplicadas</entry>
 <entry key="group|name|GR-LateTendererInformation">Información tardía sobre licitador</entry>
 <entry key="group|name|GR-Lot">Lote</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organización que proporciona información adicional</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Acuerdo marco</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Acuerdo sobre Contratación Pública (ACP)</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Detalles de los Criterios de Contratación Verde</entry>
+<entry key="group|name|GR-Lot-IPI">Información sobre la aplicabilidad del IPI</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Adquisición innovadora</entry>
 <entry key="group|name|GR-Lot-Mediator">Organización de mediación</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Plazo para la recepción de respuestas</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Información sobre EED para el lote</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Organización financiera</entry>
 <entry key="group|name|GR-LotResult-IPI">Información general sobre el IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Excepción a la medida aplicada</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Detalles sobre una medida aplicada</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Información sobre todas las medidas aplicadas</entry>
 <entry key="group|name|GR-LotResult-Parties">Partes</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Organización pagadora</entry>

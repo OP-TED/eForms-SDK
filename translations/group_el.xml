@@ -30,6 +30,7 @@
 <entry key="group|name|GR-Group-Composition-Reference">Ομάδα που ανήκει το τμήμα</entry>
 <entry key="group|name|GR-GroupFramework">Μέγιστη αξία ομάδας παρτίδων</entry>
 <entry key="group|name|GR-Jury-Member">Μέλος της επιτροπής</entry>
+<entry key="group|name|GR-LOTResult-IPI-Stats">Στατιστικά σχετικά με τα εφαρμοσμένα μέτρα</entry>
 <entry key="group|name|GR-LateTendererInformation">Μεταγενέστερες πληροφορίες σχετικά με τους προσφέροντες</entry>
 <entry key="group|name|GR-Lot">Παρτίδα</entry>
 <entry key="group|name|GR-Lot-AddInfo">Οργανισμός παροχής συμπληρωματικών πληροφοριών</entry>
@@ -76,6 +77,7 @@
 <entry key="group|name|GR-Lot-FrameworkAgreement-Use">Πλαίσιο συμφωνίας</entry>
 <entry key="group|name|GR-Lot-GpaAgreement">Συμφωνία για τις δημόσιες συμβάσεις (ΣΔΣ)</entry>
 <entry key="group|name|GR-Lot-Green-Procurement">Λεπτομέρειες των Κριτηρίων Πράσινης Δημοπράτησης</entry>
+<entry key="group|name|GR-Lot-IPI">Πληροφορίες για την εφαρμοσιμότητα της IPI</entry>
 <entry key="group|name|GR-Lot-Innovation-Procurement">Καινοτόμα απόκτηση</entry>
 <entry key="group|name|GR-Lot-Mediator">Οργανισμός διαμεσολάβησης</entry>
 <entry key="group|name|GR-Lot-PMC-Deadlines">Προθεσμία για την υποβολή απαντήσεων</entry>
@@ -137,6 +139,8 @@
 <entry key="group|name|GR-LotResult-EED-Information">Πληροφορίες σχετικά με το EED για το λαχείο</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Οργανισμός χρηματοδότησης</entry>
 <entry key="group|name|GR-LotResult-IPI">Γενικές πληροφορίες σχετικά με το IPI</entry>
+<entry key="group|name|GR-LotResult-IPI-Exception">Εξαίρεση από το εφαρμοσμένο μέτρο</entry>
+<entry key="group|name|GR-LotResult-IPI-Measure">Λεπτομέρειες για ένα εφαρμοσμένο μέτρο</entry>
 <entry key="group|name|GR-LotResult-IPI-Measures">Πληροφορίες σχετικά με όλα τα εφαρμοσμένα μέτρα</entry>
 <entry key="group|name|GR-LotResult-Parties">Μέρη</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Οργανισμός πληρωμής</entry>
