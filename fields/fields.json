@@ -40449,6 +40449,7 @@
     "xpathRelative" : "cbc:ID",
     "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
     "type" : "id",
+    "presetValue" : "unused-id",
     "businessEntityId" : "lot",
     "repeatable" : {
       "value" : false,
@@ -40481,6 +40482,7 @@
     "xpathRelative" : "cbc:ID",
     "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
     "type" : "id",
+    "presetValue" : "unused-id",
     "businessEntityId" : "part",
     "repeatable" : {
       "value" : false,
@@ -40513,6 +40515,7 @@
     "xpathRelative" : "cbc:ID",
     "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
     "type" : "id",
+    "presetValue" : "unused-id",
     "businessEntityId" : "lot",
     "repeatable" : {
       "value" : false,
@@ -40545,6 +40548,7 @@
     "xpathRelative" : "cbc:ID",
     "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
     "type" : "id",
+    "presetValue" : "unused-id",
     "businessEntityId" : "part",
     "repeatable" : {
       "value" : false,
@@ -40577,6 +40581,7 @@
     "xpathRelative" : "cbc:ID",
     "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
     "type" : "id",
+    "presetValue" : "unused-id",
     "businessEntityId" : "lot",
     "repeatable" : {
       "value" : false,
@@ -40609,6 +40614,7 @@
     "xpathRelative" : "cbc:ID",
     "xsdSequenceOrder" : [ { "cbc:ID" : 2 } ],
     "type" : "id",
+    "presetValue" : "unused-id",
     "businessEntityId" : "part",
     "repeatable" : {
       "value" : false,
