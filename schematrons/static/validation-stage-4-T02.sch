@@ -43,6 +43,9 @@
 		<assert id="BR-BT-05141-0143" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or (cac:Address/cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0143</assert>
 		<assert id="BR-BT-05141-0181" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or not(cac:Address/cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0181</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']/efac:StrategicProcurementInformation[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00735-0106" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0106</assert>
+	</rule>
 	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ'][$noticeSubType = 'T02']">
 		<assert id="BR-BT-00195-1517" role="ERROR" diagnostics="BT-195_BT-105_-Procedure" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcedureCode)">rule|text|BR-BT-00195-1517</assert>
 		<assert id="BR-BT-00196-1549" role="ERROR" diagnostics="BT-196_BT-105_-Procedure" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-1549</assert>
@@ -116,6 +119,16 @@
 		<assert id="BR-OPT-00080-0057" role="ERROR" diagnostics="ND-EEDProcurementDetailsLotResult_OPT-080-LotResult" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-con-yr']/efbc:AssetMetricCode) &gt; 0 or ((not(efbc:LegalFrameworkCode)) or (efbc:LegalFrameworkCode/normalize-space(text()) = 'enrg-lab'))">rule|text|BR-OPT-00080-0057</assert>
 		<assert id="BR-OPT-00081-0041" role="ERROR" diagnostics="ND-EEDProcurementDetailsLotResult_OPT-081-LotResult" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricCode) = 0 or (efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric)">rule|text|BR-OPT-00081-0041</assert>
 		<assert id="BR-OPT-00081-0057" role="ERROR" diagnostics="ND-EEDProcurementDetailsLotResult_OPT-081-LotResult" test="count(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricCode) &gt; 0 or not(efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricNumeric)">rule|text|BR-OPT-00081-0057</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00735-0107" role="ERROR" diagnostics="BT-735-LotResult" test="count(efbc:ProcurementCategoryCode) = 0 or not(../../efac:TenderLot/cbc:ID/normalize-space(text()) = ../../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[not(../cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']/efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')]/normalize-space(text()))">rule|text|BR-BT-00735-0107</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efac:ProcurementDetails[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00723-0053" role="ERROR" diagnostics="BT-723-LotResult" test="count(efbc:AssetCategoryCode) = 0 or (../efbc:ProcurementCategoryCode)">rule|text|BR-BT-00723-0053</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efbc:ProcurementCategoryCode/@listName='cvd-contract-type']/efac:StrategicProcurementInformation/efac:ProcurementDetails/efac:StrategicProcurementStatistics[$noticeSubType = 'T02']">
+		<assert id="BR-BT-00155-0001" role="ERROR" diagnostics="OPT-155-LotResult" test="count(efbc:StatisticsCode) = 0 or (../efbc:AssetCategoryCode)">rule|text|BR-BT-00155-0001</assert>
+		<assert id="BR-BT-00156-0070" role="ERROR" diagnostics="OPT-156-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-BT-00156-0070</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'T02']">
 		<assert id="BR-BT-03201-0041" role="ERROR" diagnostics="BT-3201-Tender" test="count(efac:TenderReference/cbc:ID) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-03201-0041</assert>
