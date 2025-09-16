@@ -215,6 +215,7 @@
    <svrl:fired-rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '28']"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '28']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-28"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '28']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '28']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '28']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '28']"/>
