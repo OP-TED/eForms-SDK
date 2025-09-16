@@ -6153,6 +6153,11 @@
         "value" : "{ND-LotResult} ${(BT-709-LotResult is present) or (BT-660-LotResult is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00142-0054"
+      }, {
+        "condition" : "{ND-LotResult} ${OPP-070-notice == 'T02'}",
+        "value" : "{ND-LotResult} ${BT-142-LotResult == 'selec-w'}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00142-0055"
       } ]
     }
   }, {
