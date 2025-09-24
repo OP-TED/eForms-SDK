@@ -40477,15 +40477,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
     }
   }, {
     "id" : "OPT-111-Part-FiscalLegis",
@@ -40507,15 +40498,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E3", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -40543,15 +40525,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
     }
   }, {
     "id" : "OPT-112-Part-EnvironLegis",
@@ -40573,15 +40546,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E3", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -40609,15 +40573,6 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "9" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
     }
   }, {
     "id" : "OPT-113-Part-EmployLegis",
@@ -40639,15 +40594,6 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E3", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "6" ],
         "value" : true,
         "severity" : "ERROR"
       } ]

@@ -17,12 +17,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '6']">
 		<assert id="ND-PartProcurementScope-6" role="ERROR" diagnostics="ND-PartProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-PartProcurementScope-6</assert>
-		<assert id="ND-PartTenderingTerms-6" role="ERROR" diagnostics="ND-PartTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-PartTenderingTerms-6</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms[$noticeSubType = '6']">
-		<assert id="ND-PartEmploymentLegislation-6" role="ERROR" diagnostics="ND-PartEmploymentLegislation" test="count(cac:EmploymentLegislationDocumentReference) &gt; 0">rule|text|ND-PartEmploymentLegislation-6</assert>
-		<assert id="ND-PartEnvironmentalLegislation-6" role="ERROR" diagnostics="ND-PartEnvironmentalLegislation" test="count(cac:EnvironmentalLegislationDocumentReference) &gt; 0">rule|text|ND-PartEnvironmentalLegislation-6</assert>
-		<assert id="ND-PartFiscalLegislation-6" role="ERROR" diagnostics="ND-PartFiscalLegislation" test="count(cac:FiscalLegislationDocumentReference) &gt; 0">rule|text|ND-PartFiscalLegislation-6</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '6']">
 		<assert id="ND-LotDistribution-6" role="ERROR" diagnostics="ND-LotDistribution" test="count(cac:LotDistribution) = 0">rule|text|ND-LotDistribution-6</assert>

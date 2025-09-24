@@ -194,15 +194,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EconomicOperatorShortList[$noticeSubType = '9']">
 		<assert id="BR-BT-00047-0014" role="ERROR" diagnostics="ND-Participants_BT-47-Lot" test="count(cac:PreSelectedParty/cac:PartyName/cbc:Name) = 0">rule|text|BR-BT-00047-0014</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference[$noticeSubType = '9']">
-		<assert id="BR-OPT-00113-0065" role="ERROR" diagnostics="OPT-113-Lot-EmployLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00113-0065</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference[$noticeSubType = '9']">
-		<assert id="BR-OPT-00112-0065" role="ERROR" diagnostics="OPT-112-Lot-EnvironLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00112-0065</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference[$noticeSubType = '9']">
-		<assert id="BR-OPT-00111-0065" role="ERROR" diagnostics="OPT-111-Lot-FiscalLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00111-0065</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '9']">
 		<assert id="BR-BT-00684-0014" role="ERROR" diagnostics="ND-NonUBLTenderingTerms_BT-684-Lot" test="count(efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='ipi-scope']/efbc:ApplicableLegalBasis) = 0">rule|text|BR-BT-00684-0014</assert>
 	</rule>
