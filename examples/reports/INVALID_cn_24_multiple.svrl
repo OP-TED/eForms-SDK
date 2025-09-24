@@ -447,16 +447,6 @@
          <svrl:text>cac:LotDistribution/cbc:MaximumLotsSubmittedNumeric</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:failed-assert id="BR-BT-00033-0022"
-                       location="/cn:ContractNotice/cac:TenderingTerms"
-                       role="ERROR"
-                       test="count(cac:LotDistribution/cbc:MaximumLotsAwardedNumeric) &gt; 0 or (count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">
-      <svrl:text>rule|text|BR-BT-00033-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-ProcedureTerms_BT-33-Procedure"
-                                 see="field:BT-33-Procedure">
-         <svrl:text>cac:LotDistribution/cbc:MaximumLotsAwardedNumeric</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '16']"/>

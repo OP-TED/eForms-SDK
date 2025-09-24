@@ -23182,7 +23182,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "16", "CEI" ],
+        "noticeTypes" : [ "CEI" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
