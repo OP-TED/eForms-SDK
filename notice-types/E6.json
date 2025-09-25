@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.153",
-    "createdOn" : "2025-07-08T17:45:16"
+    "version" : "1.13.228",
+    "createdOn" : "2025-09-25T11:35:21"
   },
   "noticeId" : "E6",
   "metadata" : [ {
@@ -905,7 +905,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Fiscal Legislation Document ID",
-          "_label" : "field|name|OPT-111-Lot-FiscalLegis"
+          "_label" : "field|name|OPT-111-Lot-FiscalLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Lot-EnvironLegis",
@@ -931,7 +933,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Environmental Legislation Document ID",
-          "_label" : "field|name|OPT-112-Lot-EnvironLegis"
+          "_label" : "field|name|OPT-112-Lot-EnvironLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Lot-EmployLegis",
@@ -957,7 +961,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Employment Legislation Document ID",
-          "_label" : "field|name|OPT-113-Lot-EmployLegis"
+          "_label" : "field|name|OPT-113-Lot-EmployLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Lot-AdditionalInformation",
