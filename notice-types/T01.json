@@ -661,6 +661,42 @@
         } ]
       } ]
     }, {
+      "id" : "GR-Lot-TenderingTerms",
+      "contentType" : "group",
+      "displayType" : "SECTION",
+      "description" : "Tendering Terms",
+      "_label" : "group|name|GR-Lot-TenderingTerms",
+      "content" : [ {
+        "id" : "GR-Lot-TenderingTerms-CVD",
+        "contentType" : "group",
+        "nodeId" : "ND-StrategicProcurementLot",
+        "displayType" : "GROUP",
+        "description" : "Information about the foreseen strategic procurement and associated assets: categories (Procurement, assets ...)",
+        "_label" : "group|name|GR-Lot-TenderingTerms-CVD",
+        "content" : [ {
+          "id" : "BT-717-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Clean Vehicles Directive",
+          "_label" : "field|name|BT-717-Lot"
+        }, {
+          "id" : "GR-Lot-TenderingTerms-CVD-type",
+          "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementInformationLot",
+          "displayType" : "GROUP",
+          "description" : "Information about the foreseen strategic procurement and associated assets: categories (Procurement, assets ...) in the context of an applicable Legal Basis",
+          "_label" : "group|name|GR-Lot-TenderingTerms-CVD-type",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-735-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "CVD Contract Type",
+            "_label" : "field|name|BT-735-Lot"
+          } ]
+        } ]
+      } ]
+    }, {
       "id" : "GR-Lot-SubmissionInfo",
       "contentType" : "group",
       "displayType" : "SECTION",
