@@ -1255,50 +1255,6 @@
               "description" : "Unpublished Access Date",
               "_label" : "field|name|BT-198(BT-142)-LotResult"
             } ]
-          }, {
-            "id" : "BT-144-LotResult",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Not Awarded Reason",
-            "_label" : "field|name|BT-144-LotResult",
-            "unpublishGroupId" : "GR-Unpublish-BT-144-LotResult",
-            "unpublishFieldId" : "BT-195(BT-144)-LotResult",
-            "unpublishCode" : "no-awa-rea"
-          }, {
-            "id" : "GR-Unpublish-BT-144-LotResult",
-            "contentType" : "group",
-            "nodeId" : "ND-NotAwardedReasonUnpublish",
-            "displayType" : "GROUP",
-            "description" : "Not Immediately Published (NotAwardedReason)",
-            "_label" : "group|name|GR-Unpublish-BT-144-LotResult",
-            "collapsed" : true,
-            "content" : [ {
-              "id" : "BT-195(BT-144)-LotResult",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-144)-LotResult",
-              "_presetValue" : "no-awa-rea",
-              "hidden" : true
-            }, {
-              "id" : "BT-196(BT-144)-LotResult",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Unpublished Justification Description",
-              "_label" : "field|name|BT-196(BT-144)-LotResult"
-            }, {
-              "id" : "BT-197(BT-144)-LotResult",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Unpublished Justification Code",
-              "_label" : "field|name|BT-197(BT-144)-LotResult"
-            }, {
-              "id" : "BT-198(BT-144)-LotResult",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Unpublished Access Date",
-              "_label" : "field|name|BT-198(BT-144)-LotResult"
-            } ]
           } ]
         }, {
           "id" : "GR-LotResult-1",
