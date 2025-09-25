@@ -490,7 +490,12 @@
 <entry key="expression|name|679">'Type of procedure' (BT-105-Procedure) is not 'Negotiated without prior call for competition' and 'Legal basis' (BT-01-notice) is not 'Regulation (EU, Euratom) 2024/2509' and there is at least one 'Contract tender identifier' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Subcontracting value is known' (BT-730-Tender) is not 'yes'</entry>
 <entry key="expression|name|680">'Legal basis' (BT-01-notice) is 'Directive 2014/24/EU' or 'Regulation (EU, Euratom) 2024/2509', and 'The procedure is accelerated' (BT-106-Procedure) is 'yes'</entry>
+<entry key="expression|name|685">Deadline Receipt Requests (BT-1311(d)-Lot) and Notice Dispatch Date (BT-05(a)-notice) exist and it is not about a Change</entry>
+<entry key="expression|name|687">Winner Decision Date (BT-1451-Contract) and Notice Preferred Publication Date (BT-738-notice) exist and it is not about a Change</entry>
+<entry key="expression|name|688">Deadline Receipt Tenders (BT-131(d)-Lot) and Notice Preferred Publication Date (BT-738-notice) exist and it is not about a Change</entry>
+<entry key="expression|name|689">Deadline Receipt Requests (BT-1311(d)-Lot) and Notice Preferred Publication Date (BT-738-notice) exist and it is not about a Change</entry>
 <entry key="expression|name|69">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
+<entry key="expression|name|690">Deadline Receipt Expressions (BT-630(d)-Lot) and Notice Preferred Publication Date (BT-738-notice) exist and it is not about a Change</entry>
 <entry key="expression|name|7">'Country' (BT-5141-Part) is filled in</entry>
 <entry key="expression|name|70">'Subcontracting percentage is known' (BT-731-Tender) is not 'yes'</entry>
 <entry key="expression|name|71">'Subcontracting' (BT-773-Tender) is 'Yes'</entry>
