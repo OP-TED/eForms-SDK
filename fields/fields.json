@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.146",
-    "createdOn" : "2025-06-20T15:56:02"
+    "version" : "1.13.246",
+    "createdOn" : "2025-10-02T12:31:07"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -23294,6 +23294,10 @@
         "severity" : "ERROR"
       } ]
     },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
@@ -23357,6 +23361,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
@@ -29758,6 +29766,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-636-LotResult",
@@ -31532,6 +31544,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
@@ -34204,6 +34220,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-76-Lot",
@@ -38050,6 +38070,10 @@
         "value" : true,
         "severity" : "ERROR"
       } ]
+    },
+    "pattern" : {
+      "value" : "^(\\d+)$",
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-98-Lot-Unit",

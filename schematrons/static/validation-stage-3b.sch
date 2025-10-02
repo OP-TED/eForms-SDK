@@ -271,6 +271,9 @@
 		<assert id="BT-538-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-538-Lot-List_MA</assert>
 		<assert id="BT-538-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-538-Lot_WS</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure">
+		<assert id="BR-BT-00036-0194" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00036-0194</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00036-0152" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00036-0152</assert>
 	</rule>
@@ -1057,6 +1060,9 @@
 		<assert id="BR-BT-00018-0155" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}(\d)?\.))[\w\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00018-0155</assert>
 		<assert id="BT-18-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-18-Lot_length</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure">
+		<assert id="BR-BT-00098-0055" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00098-0055</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00098-0054" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00098-0054</assert>
 	</rule>
@@ -1506,6 +1512,9 @@
 		<assert id="BR-BT-00538-0103" role="ERROR" test="normalize-space(.) = ('UNKNOWN', 'UNLIMITED')">rule|text|BR-BT-00538-0103</assert>
 		<assert id="BT-538-Part-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-538-Part-List_MA</assert>
 		<assert id="BT-538-Part_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-538-Part_WS</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure">
+		<assert id="BR-BT-00036-0195" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00036-0195</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00036-0153" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00036-0153</assert>
@@ -2412,6 +2421,9 @@
 		<assert id="BT-636-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-636-LotResult-List_MA</assert>
 		<assert id="BT-636-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-636-LotResult_WS</assert>
 	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efbc:StatisticsNumeric">
+		<assert id="BR-BT-00635-0064" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00635-0064</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req']/cbc:ReasonCode">
 		<assert id="BR-BT-00197-2763" role="ERROR" test="normalize-space(.) = ('eo-int', 'fair-comp', 'law-enf', 'oth-int', 'rd-ser')">rule|text|BR-BT-00197-2763</assert>
 		<assert id="BT-197_BT-712_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-197_BT-712_-LotResult-List_MA</assert>
@@ -2434,6 +2446,9 @@
 		<assert id="BR-BT-00712-0103" role="ERROR" test="normalize-space(.) = ('complainants')">rule|text|BR-BT-00712-0103</assert>
 		<assert id="BT-712_a_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-712_a_-LotResult-List_MA</assert>
 		<assert id="BT-712_a_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-712_a_-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efbc:StatisticsNumeric">
+		<assert id="BR-BT-00712-0152" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00712-0152</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea']/cbc:ReasonCode">
 		<assert id="BR-BT-00197-2764" role="ERROR" test="normalize-space(.) = ('eo-int', 'fair-comp', 'law-enf', 'oth-int', 'rd-ser')">rule|text|BR-BT-00197-2764</assert>
@@ -2604,6 +2619,9 @@
 		<assert id="BR-BT-00760-0052" role="ERROR" test="normalize-space(.) = ('part-req', 't-esubm', 't-med', 't-micro', 't-no-eea', 't-no-verif', 't-oth-eea', 't-small', 't-sme', 't-verif-inad', 't-verif-inad-low', 'tenders')">rule|text|BR-BT-00760-0052</assert>
 		<assert id="BT-760-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-760-LotResult-List_MA</assert>
 		<assert id="BT-760-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-760-LotResult_WS</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric">
+		<assert id="BR-BT-00759-0101" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00759-0101</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID">
 		<assert id="BR-OPT-00315-0051" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|BR-OPT-00315-0051</assert>
