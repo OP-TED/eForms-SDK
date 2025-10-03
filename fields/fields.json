@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.246",
-    "createdOn" : "2025-10-02T12:31:07"
+    "version" : "1.13.248",
+    "createdOn" : "2025-10-03T01:05:10"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -3937,6 +3937,13 @@
     "pattern" : {
       "value" : "^(\\d+)$",
       "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-115-Lot",
@@ -7442,6 +7449,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     }
   }, {
@@ -23023,6 +23037,13 @@
       "value" : "^(\\d+)$",
       "severity" : "ERROR"
     },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
+      "severity" : "ERROR"
+    },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
@@ -23189,6 +23210,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     },
     "assert" : {
@@ -23571,6 +23599,13 @@
     "pattern" : {
       "value" : "^(\\d+)$",
       "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-45-Lot",
@@ -23722,6 +23757,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     },
     "assert" : {
@@ -25280,6 +25322,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     },
     "assert" : {
@@ -29024,6 +29073,13 @@
     "pattern" : {
       "value" : "^(\\d+)$",
       "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-60-Lot",
@@ -30583,6 +30639,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     }
   }, {
