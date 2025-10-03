@@ -3273,7 +3273,7 @@
 		<assert id="BT-165-Organization-Company_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-165-Organization-Company_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0104" role="ERROR" test="matches(normalize-space(.),'^[\w!#$%&amp;''*+/=?_-]+(\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\.)+([A-Za-z]{2,})$')">rule|text|BR-BT-00506-0104</assert>
+		<assert id="BR-BT-00506-0104" role="ERROR" test="matches(normalize-space(.),'^[\w!#$%&amp;''*+/=?_-]+(\.[\w!#$%&amp;''*+/=?_-]+)*@([\w]([\w_-]*[\w])?\.)+([\w]{2,})$')">rule|text|BR-BT-00506-0104</assert>
 		<assert id="BT-506-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:Name">
