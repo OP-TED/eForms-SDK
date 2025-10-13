@@ -1817,7 +1817,7 @@
 			<!--"id": "BT-25-Lot", "name": "Quantity"-->
 			<cbc:EstimatedOverallContractQuantity unitCode="HUR">1000</cbc:EstimatedOverallContractQuantity>
 			<!-- id": "BT-300-Procedure","name": "Additional Information" -->
-			<cbc:Note languageID="ENG">Additional information for GLO-0001 ProcurementProject ---</cbc:Note>
+			<cbc:Note languageID="ENG">Additional information for LOT-0001 ProcurementProject ---</cbc:Note>
 			<cac:ProcurementAdditionalType>
 				<!-- "id": "BT-531-Procedure", "name": "Additional Nature (different from Main) -->
 				<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
@@ -1855,6 +1855,9 @@
 				<!-- "id": "BT-262-Procedure","name": "Main Classification Code" -->
 				<cbc:ItemClassificationCode listName="cpv">75121000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">33185200</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
 			<!-- -->
 			<cac:RealizedLocation>
 				<!-- "id": "BT-728-Lot", "name": "Place Performance Additional Information" -->

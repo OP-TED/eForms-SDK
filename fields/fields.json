@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.248",
-    "createdOn" : "2025-10-03T01:05:10"
+    "version" : "1.13.275",
+    "createdOn" : "2025-10-13T10:59:09"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -30580,6 +30580,16 @@
         "type" : "flat"
       },
       "severity" : "ERROR"
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{BT-685-LotResult} ${BT-685-LotResult == '32025R1197'}",
+        "value" : "{BT-685-LotResult} ${BT-13713-LotResult in /BT-137-Lot[starts-with(BT-262-Lot, '331') or BT-263-Lot[starts-with(BT-263-Lot, '331')] is present]}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00685-0070"
+      } ]
     }
   }, {
     "id" : "BT-685-LotResult-List",
