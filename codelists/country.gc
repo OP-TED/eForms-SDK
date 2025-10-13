@@ -5,7 +5,7 @@
       <ShortName>Country</ShortName>
       <LongName>country</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/country</LongName>
-      <Version>20241211-0</Version>
+      <Version>20250924-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/country</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -514,7 +514,7 @@
             <SimpleValue>Alandy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Alandski otoki</SimpleValue>
+            <SimpleValue>Ålandski otoki</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Åland</SimpleValue>
@@ -15678,7 +15678,7 @@
             <SimpleValue>Îles Salomon</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Oileáin Sholomón</SimpleValue>
+            <SimpleValue>Oileáin Sholaimh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Salomonski Otoci</SimpleValue>
