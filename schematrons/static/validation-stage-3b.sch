@@ -112,7 +112,7 @@
 		<assert id="BT-740-Procedure-Buyer_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-740-Procedure-Buyer_WS</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']">
-		<assert id="BR-BT-00011-0052" role="ERROR" test="normalize-space(.) = ('body-pl', 'body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'grp-p-aut', 'int-org', 'la', 'org-sub', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'spec-rights-entity')">rule|text|BR-BT-00011-0052</assert>
+		<assert id="BR-BT-00011-0052" role="ERROR" test="normalize-space(.) = ('body-pl', 'body-pl-cga', 'body-pl-la', 'body-pl-ra', 'cga', 'def-cont', 'eu-ins-bod-ag', 'int-org', 'la', 'org-sub', 'org-sub-cga', 'org-sub-la', 'org-sub-ra', 'pub-undert', 'pub-undert-cga', 'pub-undert-la', 'pub-undert-ra', 'ra', 'spec-rights-entity')">rule|text|BR-BT-00011-0052</assert>
 		<assert id="BT-11-Procedure-Buyer-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-11-Procedure-Buyer-List_MA</assert>
 		<assert id="BT-11-Procedure-Buyer_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-11-Procedure-Buyer_WS</assert>
 	</rule>

@@ -3408,7 +3408,7 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "2", "3", "5", "6", "8", "9", "11", "12", "13", "14", "15", "17", "18", "19", "20", "21", "24", "25", "26", "27", "28", "30", "31", "32", "33", "34", "35", "37", "E1", "E2", "E3", "E4", "E5", "T01", "T02" ],
-        "condition" : "{ND-ContractingParty} ${BT-11-Procedure-Buyer not in ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra')}",
+        "condition" : "{ND-ContractingParty} ${BT-11-Procedure-Buyer not in ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra')}",
         "value" : true,
         "severity" : "ERROR"
       } ]
