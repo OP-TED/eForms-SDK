@@ -277,6 +277,8 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure">
 		<assert id="BR-BT-00036-0194" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00036-0194</assert>
+		<assert id="BR-BT-00036-0197_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00036-0197_max</assert>
+		<assert id="BR-BT-00036-0197_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00036-0197_min</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00036-0152" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00036-0152</assert>
@@ -1077,6 +1079,8 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure">
 		<assert id="BR-BT-00098-0055" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00098-0055</assert>
+		<assert id="BR-BT-00098-0056_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00098-0056_max</assert>
+		<assert id="BR-BT-00098-0056_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00098-0056_min</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00098-0054" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00098-0054</assert>
@@ -1533,6 +1537,8 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure">
 		<assert id="BR-BT-00036-0195" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00036-0195</assert>
+		<assert id="BR-BT-00036-0196_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00036-0196_max</assert>
+		<assert id="BR-BT-00036-0196_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00036-0196_min</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00036-0153" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00036-0153</assert>
@@ -2453,6 +2459,8 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efbc:StatisticsNumeric">
 		<assert id="BR-BT-00635-0064" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00635-0064</assert>
+		<assert id="BR-BT-00635-0065_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00635-0065_max</assert>
+		<assert id="BR-BT-00635-0065_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00635-0065_min</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req']/cbc:ReasonCode">
 		<assert id="BR-BT-00197-2763" role="ERROR" test="normalize-space(.) = ('eo-int', 'fair-comp', 'law-enf', 'oth-int', 'rd-ser')">rule|text|BR-BT-00197-2763</assert>
@@ -2479,6 +2487,8 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efbc:StatisticsNumeric">
 		<assert id="BR-BT-00712-0152" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00712-0152</assert>
+		<assert id="BR-BT-00712-0153_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00712-0153_max</assert>
+		<assert id="BR-BT-00712-0153_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00712-0153_min</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea']/cbc:ReasonCode">
 		<assert id="BR-BT-00197-2764" role="ERROR" test="normalize-space(.) = ('eo-int', 'fair-comp', 'law-enf', 'oth-int', 'rd-ser')">rule|text|BR-BT-00197-2764</assert>
@@ -2654,6 +2664,8 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric">
 		<assert id="BR-BT-00759-0101" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00759-0101</assert>
+		<assert id="BR-BT-00759-0102_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00759-0102_max</assert>
+		<assert id="BR-BT-00759-0102_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00759-0102_min</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID">
 		<assert id="BR-OPT-00315-0051" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|BR-OPT-00315-0051</assert>

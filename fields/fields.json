@@ -23326,6 +23326,13 @@
       "value" : "^(\\d+)$",
       "severity" : "ERROR"
     },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
+      "severity" : "ERROR"
+    },
     "assert" : {
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
@@ -23392,6 +23399,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     },
     "assert" : {
@@ -29826,6 +29840,13 @@
     "pattern" : {
       "value" : "^(\\d+)$",
       "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
+      "severity" : "ERROR"
     }
   }, {
     "id" : "BT-636-LotResult",
@@ -31620,6 +31641,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     },
     "assert" : {
@@ -34296,6 +34324,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     }
   }, {
@@ -38146,6 +38181,13 @@
     },
     "pattern" : {
       "value" : "^(\\d+)$",
+      "severity" : "ERROR"
+    },
+    "numericRange" : {
+      "value" : {
+        "minNumber" : 0,
+        "maxNumber" : 9999
+      },
       "severity" : "ERROR"
     }
   }, {
