@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.278",
-    "createdOn" : "2025-10-13T16:57:53"
+    "version" : "1.13.279",
+    "createdOn" : "2025-10-14T11:53:09"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -511,7 +511,7 @@
     "_label" : "codelist|name|lawful-country"
   }, {
     "id" : "legal-basis",
-    "version" : "20241211-0",
+    "version" : "20250319-0",
     "filename" : "legal-basis.gc",
     "description" : "This table provides the legal basis based on the legal acts used for a given public procurement procedure. The table is provided by the Publications Office.",
     "_label" : "codelist|name|legal-basis"

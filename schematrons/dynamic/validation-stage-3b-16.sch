@@ -5,6 +5,6 @@
 		<assert id="BR-BT-00105-0135" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0135</assert>
 	</rule>
 	<rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '16']">
-		<assert id="BR-BT-00001-0225" role="ERROR" test="normalize-space(.) = ('32014L0024', '32018R1046', '32024R2509', 'other')">rule|text|BR-BT-00001-0225</assert>
+		<assert id="BR-BT-00001-0225" role="ERROR" test="normalize-space(.) = ('32014L0024', '32024R2509', 'other')">rule|text|BR-BT-00001-0225</assert>
 	</rule>
 </pattern>
