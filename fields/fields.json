@@ -3921,15 +3921,6 @@
         "severity" : "ERROR"
       } ]
     },
-    "mandatory" : {
-      "value" : false,
-      "severity" : "ERROR",
-      "constraints" : [ {
-        "noticeTypes" : [ "16", "18" ],
-        "value" : true,
-        "severity" : "ERROR"
-      } ]
-    },
     "pattern" : {
       "value" : "^(\\d+)$",
       "severity" : "ERROR"
