@@ -496,6 +496,7 @@
 <entry key="expression|name|689">Deadline Receipt Requests (BT-1311(d)-Lot) and Notice Preferred Publication Date (BT-738-notice) exist and it is not about a Change</entry>
 <entry key="expression|name|69">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>
 <entry key="expression|name|690">Deadline Receipt Expressions (BT-630(d)-Lot) and Notice Preferred Publication Date (BT-738-notice) exist and it is not about a Change</entry>
+<entry key="expression|name|693">the value chosen for BT-142-LotResult is not equal to 'The winner was not yet chosen, but the competition is still ongoing', and (the value chosen for BT-142-LotResult is not equal to 'No winner was chosen and the competition is closed' or BT-144-LotResult is not equal to 'No tenders, requests to participate or projects were received'). and (it is not about a Contract within a Framework Agreement without reopening of the Competition)</entry>
 <entry key="expression|name|7">'Country' (BT-5141-Part) is filled in</entry>
 <entry key="expression|name|70">'Subcontracting percentage is known' (BT-731-Tender) is not 'yes'</entry>
 <entry key="expression|name|71">'Subcontracting' (BT-773-Tender) is 'Yes'</entry>
