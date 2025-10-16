@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Údarás de chuid an rialtais láir</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Conraitheoir cosanta</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">Institiúid, comhlact nó gníomhaireacht de chuid an AE</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Grúpa údarás poiblí</entry>
 <entry key="code|name|buyer-legal-type.int-org">Eagraíocht idirnáisiúnta</entry>
 <entry key="code|name|buyer-legal-type.la">Údarás áitiúil</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Eagraíocht atá ag dámhachtain conradh atá fóirdheonaithe ag údarás conarthachta</entry>
@@ -399,7 +398,7 @@
 <entry key="code|name|country.SGS">An tSeoirsia Theas agus Oileáin Sandwich Theas</entry>
 <entry key="code|name|country.SHN">San Héilin, Oileán na Deascabhála agus Tristan da Cunha</entry>
 <entry key="code|name|country.SJM">Svalbard agus Jan Mayen</entry>
-<entry key="code|name|country.SLB">Oileáin Sholomón</entry>
+<entry key="code|name|country.SLB">Oileáin Sholaimh</entry>
 <entry key="code|name|country.SLE">Siarra Leon</entry>
 <entry key="code|name|country.SLV">An tSalvadóir</entry>
 <entry key="code|name|country.SMR">San Mairíne</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Renminbi-yuan</entry>
 <entry key="code|name|currency.COP">Peso na Colóime</entry>
 <entry key="code|name|currency.CRC">Colón Chósta Ríce</entry>
-<entry key="code|name|currency.CUC">Peso in-chomhshóite</entry>
 <entry key="code|name|currency.CUP">Peso Chúba</entry>
 <entry key="code|name|currency.CVE">Escudo Cabo Verde</entry>
 <entry key="code|name|currency.CZK">Koruna na Seicia</entry>
@@ -10045,7 +10043,7 @@
 <entry key="code|name|currency.RUB">Rúbal na Rúise</entry>
 <entry key="code|name|currency.RWF">Franc Ruanda</entry>
 <entry key="code|name|currency.SAR">Riyal na hAraibe Sádaí</entry>
-<entry key="code|name|currency.SBD">Dollar Oileáin Sholomón</entry>
+<entry key="code|name|currency.SBD">Dollar Oileáin Sholaimh</entry>
 <entry key="code|name|currency.SCR">Rúipí na Séiséal</entry>
 <entry key="code|name|currency.SDG">Piastar na Súdáine</entry>
 <entry key="code|name|currency.SEK">Krona na Sualainne</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Tala</entry>
 <entry key="code|name|currency.XAF">Franc CFA (BEAC)</entry>
 <entry key="code|name|currency.XCD">Dollar na Cairibe Thoir</entry>
+<entry key="code|name|currency.XCG">Gildear na Cairibe</entry>
 <entry key="code|name|currency.XOF">Franc CFA (BCEAO)</entry>
 <entry key="code|name|currency.XPF">Franc CFP</entry>
 <entry key="code|name|currency.YER">Rial Éimin</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Tá srian ar rochtain ar dhoiciméid soláthair áirithe</entry>
 <entry key="code|name|document-status.non-official">Leagan teanga neamhoifigiúil</entry>
 <entry key="code|name|document-status.official">Leagan teanga oifigiúil</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Doiciméad Aonair Eorpach maidir le Soláthar</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Fógra</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Doiciméad Soláthair</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Doiciméad Aonair Eorpach maidir le Soláthar (ESPD)</entry>
 <entry key="code|name|dps-usage.dps-list">Córas ceannaigh dinimiciúil nach féidir ach leis na ceannaitheoirí atá liostaithe san fhógra seo a úsáid</entry>
 <entry key="code|name|dps-usage.dps-nlist">Córas ceannaigh dinimiciúil is féidir le ceannaitheoirí nach bhfuil liostaithe san fhógra seo a úsáid freisin</entry>
 <entry key="code|name|dps-usage.none">Níl feidhm ag córas ceannaigh dinimiciúil</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">An Clár don Chomhshaol agus do Ghníomhú ar son na hAeráide (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">An Ciste Ráthaíochta do ghníomhaíochtaí seachtracha (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Cúnamh macrairgeadais (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Ciste don Nuachóiriú (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">An tSoghluaisteacht Mhíleata (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">Cláir chúnaimh um dhíchoimisiúnú núicléach sa Bhulgáir, sa Liotuáin agus sa tSlóvaic (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">Ionstraim maidir leis an gComharsanacht, an Fhorbairt agus an Comhar Idirnáisiúnta (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">Ionstraim um Chomhpháirtíocht le haghaidh comhair le tríú tíortha (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Clár an Aontais Eorpaigh um Fhostaíocht agus um Nuálaíocht Shóisialta (EaSI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">Saoráid iasachta don earnáil phoiblí, faoin Sásra um Aistriú Cóir (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">Cúnamh Téarnaimh don Chomhtháthú agus do Chríocha na hEorpa (REACT-EU) (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Cóineasú réigiúnach (réigiúin lagfhorbartha) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">An Sásra Aontais um Chosaint Shibhialta (RescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">Ranníocaíochtaí éigeantacha le heagraíochtaí réigiúnacha bainistithe iascaigh (ERBInna) agus le heagraíochtaí idirnáisiúnta eile (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Sárú oibleagáidí i réimsí an dlí shóisialta</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">Comhaontuithe le hoibreoirí eacnamaíocha eile arb é is aidhm dóibh an iomaíocht a shaobhadh</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Mí‑iompar gairmiúil tromchúiseach</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Ciontach i mífhaisnéis, i bhfaisnéis siar, gan a bheith in ann doiciméid riachtanacha a sholáthar agus faisnéis rúnda ar an nós imeachta sin a fháil</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Mífhaisnéis, faisnéis a coinníodh siar, gan bheith in ann doiciméid riachtanacha a sholáthar nó faisnéis rúnda a fuarthas maidir leis an nós imeachta seo</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">Cion a bhaineann le hiompar gairmiúil i réimse an tsoláthair cosanta</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Coinbhleacht leasa mar gheall ar a rannpháirtíocht sa nós imeachta soláthair</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Rannpháirtíocht dhíreach nó indíreach in ullmhú an nós imeachta soláthair seo</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">Cás cosúil le féimheacht faoin dlí náisiúnta</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Fógra</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Doiciméad Soláthair</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Doiciméad Aonair Eorpach maidir le Soláthar (ESPD)</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Fógra curtha isteach, dúnadh riaracháin an nós imeachta réamh-athbhreithnithe de chuid an Rialacháin maidir le fóirdheontais eachtracha</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Fógra curtha isteach, cinneadh lena ngabhann gealltanais</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Fógra curtha isteach, cinneadh maidir le tairiscint nó iarratas neamhrialta ar rannpháirtíocht</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Gan eisceacht</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Eisceacht aon tairisceana amháin</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Eisceacht le leas an phobail</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">Rialachán (AE) 2025/1197: Feistí leighis de thionscnamh Dhaon-Phoblacht na Síne</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Feistí leighis de thionscnamh na Síne – Rialachán (AE) 2025/1197</entry>
 <entry key="code|name|ipi-scope.false">níl</entry>
 <entry key="code|name|ipi-scope.true">tá</entry>
 <entry key="code|name|irregularity-type.ab-low">Diúltaíodh gan bonn cirt do thairiscintí a bhí mínormálta íseal</entry>
@@ -10645,7 +10645,7 @@
 <entry key="code|name|language.LTZ">Lucsambuirgis</entry>
 <entry key="code|name|language.LUA">Lúba-Casais</entry>
 <entry key="code|name|language.MAH">Mairsillis</entry>
-<entry key="code|name|language.MAN">Mandancais</entry>
+<entry key="code|name|language.MAN">Mandais</entry>
 <entry key="code|name|language.MIN">Minangkabau</entry>
 <entry key="code|name|language.MKD">Mhacadóinis</entry>
 <entry key="code|name|language.MLG">Malagásais</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">An Úcráin</entry>
 <entry key="code|name|lawful-country.WLF">Wallis agus Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-1.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-1.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-1.other">Eile</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-10.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-10.other">Eile</entry>
 <entry key="code|name|legal-basis-11.32014L0025">Treoir 2014/25/AE</entry>
 <entry key="code|name|legal-basis-11.other">Eile</entry>
 <entry key="code|name|legal-basis-12.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-12.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-12.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-12.other">Eile</entry>
 <entry key="code|name|legal-basis-13.32014L0025">Treoir 2014/25/AE</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">Treoir 2014/25/AE</entry>
 <entry key="code|name|legal-basis-15.other">Eile</entry>
 <entry key="code|name|legal-basis-16.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-16.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-16.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-16.other">Eile</entry>
 <entry key="code|name|legal-basis-17.32014L0025">Treoir 2014/25/AE</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">Treoir 2014/25/AE</entry>
 <entry key="code|name|legal-basis-2.other">Eile</entry>
 <entry key="code|name|legal-basis-20.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-20.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-20.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-20.other">Eile</entry>
 <entry key="code|name|legal-basis-21.32014L0025">Treoir 2014/25/AE</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">Treoir 2009/81/CE</entry>
 <entry key="code|name|legal-basis-22.other">Eile</entry>
 <entry key="code|name|legal-basis-23.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-23.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-23.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-23.other">Eile</entry>
 <entry key="code|name|legal-basis-24.32014L0025">Treoir 2014/25/AE</entry>
 <entry key="code|name|legal-basis-24.other">Eile</entry>
 <entry key="code|name|legal-basis-25.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-25.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-25.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-25.other">Eile</entry>
 <entry key="code|name|legal-basis-26.32014L0025">Treoir 2014/25/AE</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">Treoir 2014/23/AE</entry>
 <entry key="code|name|legal-basis-28.other">Eile</entry>
 <entry key="code|name|legal-basis-29.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-29.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-29.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-29.other">Eile</entry>
 <entry key="code|name|legal-basis-3.32009L0081">Treoir 2009/81/CE</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">Treoir 2014/23/AE</entry>
 <entry key="code|name|legal-basis-32.other">Eile</entry>
 <entry key="code|name|legal-basis-33.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-33.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-33.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-33.other">Eile</entry>
 <entry key="code|name|legal-basis-34.32014L0025">Treoir 2014/25/AE</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">Treoir 2014/23/AE</entry>
 <entry key="code|name|legal-basis-35.other">Eile</entry>
 <entry key="code|name|legal-basis-36.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-36.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-36.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-36.other">Eile</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Treoir 2014/25/AE</entry>
 <entry key="code|name|legal-basis-37.other">Eile</entry>
 <entry key="code|name|legal-basis-38.32009L0081">Treoir 2009/81/CE</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-38.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-38.other">Eile</entry>
 <entry key="code|name|legal-basis-39.32014L0025">Treoir 2014/25/AE</entry>
 <entry key="code|name|legal-basis-39.other">Eile</entry>
 <entry key="code|name|legal-basis-4.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-4.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-4.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-4.other">Eile</entry>
 <entry key="code|name|legal-basis-40.32014L0023">Treoir 2014/23/AE</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">Treoir 2009/81/CE</entry>
 <entry key="code|name|legal-basis-6.other">Eile</entry>
 <entry key="code|name|legal-basis-7.32014L0024">Treoir 2014/24/AE</entry>
-<entry key="code|name|legal-basis-7.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-7.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-7.other">Eile</entry>
 <entry key="code|name|legal-basis-8.32014L0025">Treoir 2014/25/AE</entry>
 <entry key="code|name|legal-basis-8.other">Eile</entry>
 <entry key="code|name|legal-basis-9.32009L0081">Treoir 2009/81/CE</entry>
 <entry key="code|name|legal-basis-9.other">Eile</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">Treoir 2009/81/CE</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">Treoir 2014/23/AE</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">Treoir 2014/24/AE</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">Treoir 2014/25/AE</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.other">Eile</entry>
 <entry key="code|name|legal-basis-e2.other">Eile</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">Treoir 2014/23/AE</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">Treoir 2014/24/AE</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">Treoir 2014/25/AE</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e5.other">Eile</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">Treoir 2009/81/CE</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">Treoir 2014/23/AE</entry>
 <entry key="code|name|legal-basis.32014L0024">Treoir 2014/24/AE</entry>
 <entry key="code|name|legal-basis.32014L0025">Treoir 2014/25/AE</entry>
-<entry key="code|name|legal-basis.32018R1046">Rialachán (AE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis.32024R2509">Rialachán (AE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis.other">Eile</entry>
 <entry key="code|name|linguistic-status.non-official">Leagan teanga neamhoifigiúil</entry>
@@ -16288,7 +16271,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">Faisnéis faoi luaíochtaí agus pionóis</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Fógra</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Doiciméad Soláthair</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Doiciméad Aonair Eorpach maidir le Soláthar (ESPD)</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Áiseanna staidéir, teicniúla agus taighde</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Uirlisí, plandaí nó trealamh teicniúil</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Bearta bainistíochta comhshaoil</entry>

@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Awtorità tal-gvern ċentrali</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Kuntrattur tad-difiża</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">Istituzzjoni, korp jew aġenzija tal-UE</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Grupp ta’ awtoritajiet pubbliċi</entry>
 <entry key="code|name|buyer-legal-type.int-org">Organizzazzjoni internazzjonali</entry>
 <entry key="code|name|buyer-legal-type.la">Awtorità lokali</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Organizzazzjoni li tagħti kuntratt issussidjat minn awtorità kontraenti</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Renminbi yuan</entry>
 <entry key="code|name|currency.COP">Peso Kolombjan</entry>
 <entry key="code|name|currency.CRC">Colón Costa Rican</entry>
-<entry key="code|name|currency.CUC">Peso konvertibbli</entry>
 <entry key="code|name|currency.CUP">Peso Kuban</entry>
 <entry key="code|name|currency.CVE">Escudo Cabo Verdjan</entry>
 <entry key="code|name|currency.CZK">Koruna Ċeka</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Tala</entry>
 <entry key="code|name|currency.XAF">Frank CFA (BEAC)</entry>
 <entry key="code|name|currency.XCD">Dollaru tal-Karibew tal-Lvant</entry>
+<entry key="code|name|currency.XCG">Guilder tal-Karibew”</entry>
 <entry key="code|name|currency.XOF">Frank CFA (BCEAO)</entry>
 <entry key="code|name|currency.XPF">Frank CFP</entry>
 <entry key="code|name|currency.YER">Rijal Jemenit</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Aċċess għal ċerti dokumenti tal-akkwist hu ristrett.</entry>
 <entry key="code|name|document-status.non-official">Verżjoni lingwistika mhux uffiċjali</entry>
 <entry key="code|name|document-status.official">Verżjoni lingwistika uffiċjali</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Rikjesta għal Dokument Uniku Ewropew tal-Akkwist</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Avviż</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Dokument tal-Akkwist</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Dokument Uniku Ewropew tal-Akkwist (DUEA)</entry>
 <entry key="code|name|dps-usage.dps-list">Sistema dinamika ta’ xiri, li tista’ tintuża biss mix-xerrejja elenkati f’dan l-avviż</entry>
 <entry key="code|name|dps-usage.dps-nlist">Sistema dinamika ta’ xiri, li tista’ tintuża wkoll mix-xerrejja li mhumiex elenkati f’dan l-avviż</entry>
 <entry key="code|name|dps-usage.none">Ebda sistema dinamika ta’ xiri</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">Il-Programm għall-Ambjent u l-Azzjoni Klimatika (LIFE) (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">Fond ta’ Garanzija għall-azzjonijiet esterni (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Assistenza Makrofinanzjarja (AMF) (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Fond għall-Modernizzazzjoni (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">Mobbiltà Militari (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">Programmi ta’ assistenza għad-dekummissjonar nukleari fil-Bulgarija, il-Litwanja u s-Slovakkja (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">L-Istrument għall-Viċinat, għall-Iżvilupp u għall-Kooperazzjoni Internazzjonali (NDICI) (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">Strument ta’ sħubija għall-kooperazzjoni ma’ pajjiżi terzi (PI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Programm tal-Unjoni Ewropea għall-Impjiegi u l-Innovazzjoni Soċjali (EaSI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">Faċilità ta’ self għas-settur pubbliku permezz tal-Mekkaniżmu għal Tranżizzjoni Ġusta (JTM) (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">REACT-EU (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Konverġenza reġjonali (reġjuni anqas żviluppati) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">Mekkaniżmu tal-Unjoni għall-Protezzjoni Ċivili (rescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">Kontribuzzjonijiet obbligatorji lil Organizzazzjonijiet Reġjonali tal-Ġestjoni tas-Sajd (RFMOs) u lil organizzazzjonijiet internazzjonali oħra (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Ksur tal-obbligi fl-oqsma tal-liġi soċjali</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">Ftehimiet ma’ operaturi ekonomiċi oħrajn li għandhom l-għan li jikkawżaw distorsjoni tal-kompetizzjoni</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Imġiba professjonali serjament ħażina</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Ħatja ta’ rappreżentazzjoni ħażina, informazzjoni miżmuma li ma tistax tipprovdi dokumenti meħtieġa u informazzjoni kunfidenzjali ta’ din il-proċedura</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Dikjarazzjoni falza, informazzjoni moħbija, ma setgħux jiġu pprovduti d-dokumenti meħtieġa jew inkisbet informazzjoni kunfidenzjali ta’ din il-proċedura</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">Reat li jikkonċerna l-kondotta professjonali fid-dominju tal-akkwist pubbliku fil-qasam tad-difiża</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Kunflitt ta’ interess minħabba l-parteċipazzjoni tiegħu fil-proċedura ta’ akkwist</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Involviment dirett jew indirett fit-tħejjija ta’ din il-proċedura ta’ akkwist</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">Sitwazzjoni analoga bħal falliment skont il-liġi nazzjonali</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Avviż</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Dokument tal-Akkwist</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Dokument Uniku Ewropew tal-Akkwist (DUEA)</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Notifika sottomessa, għeluq amministrattiv tal-proċedura ta’ rieżami preliminari tar-Regolament dwar is-sussidji barranin</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Notifika sottomessa, deċiżjoni b’impenji</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Notifika sottomessa, deċiżjoni dwar offerta jew talba għall-parteċipazzjoni irregolari</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Ebda eċċezzjoni</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Eċċezzjoni offerta waħda biss</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Eċċezzjoni interess pubbliku</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">Ir-Regolament (UE) 2025/1197: Apparati mediċi li joriġinaw mir-Repubblika tal-Poplu taċ-Ċina</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Apparati mediċi li joriġinaw miċ-Ċina — ir-Regolament (UE) 2025/1197</entry>
 <entry key="code|name|ipi-scope.false">le</entry>
 <entry key="code|name|ipi-scope.true">iva</entry>
 <entry key="code|name|irregularity-type.ab-low">Rifjut mhux ġustifikat ta’ offerti baxxi b’mod abnormali</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">L-Ukrajna</entry>
 <entry key="code|name|lawful-country.WLF">Wallis u Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-1.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-1.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-1.other">Ieħor</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-10.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-10.other">Ieħor</entry>
 <entry key="code|name|legal-basis-11.32014L0025">Direttiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-11.other">Ieħor</entry>
 <entry key="code|name|legal-basis-12.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-12.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-12.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-12.other">Ieħor</entry>
 <entry key="code|name|legal-basis-13.32014L0025">Direttiva 2014/25/UE</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">Direttiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-15.other">Ieħor</entry>
 <entry key="code|name|legal-basis-16.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-16.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-16.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-16.other">Ieħor</entry>
 <entry key="code|name|legal-basis-17.32014L0025">Direttiva 2014/25/UE</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">Direttiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-2.other">Ieħor</entry>
 <entry key="code|name|legal-basis-20.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-20.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-20.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-20.other">Ieħor</entry>
 <entry key="code|name|legal-basis-21.32014L0025">Direttiva 2014/25/UE</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">Direttiva 2009/81/KE</entry>
 <entry key="code|name|legal-basis-22.other">Ieħor</entry>
 <entry key="code|name|legal-basis-23.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-23.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-23.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-23.other">Ieħor</entry>
 <entry key="code|name|legal-basis-24.32014L0025">Direttiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-24.other">Ieħor</entry>
 <entry key="code|name|legal-basis-25.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-25.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-25.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-25.other">Ieħor</entry>
 <entry key="code|name|legal-basis-26.32014L0025">Direttiva 2014/25/UE</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">Direttiva 2014/23/UE</entry>
 <entry key="code|name|legal-basis-28.other">Ieħor</entry>
 <entry key="code|name|legal-basis-29.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-29.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-29.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-29.other">Ieħor</entry>
 <entry key="code|name|legal-basis-3.32009L0081">Direttiva 2009/81/KE</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">Direttiva 2014/23/UE</entry>
 <entry key="code|name|legal-basis-32.other">Ieħor</entry>
 <entry key="code|name|legal-basis-33.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-33.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-33.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-33.other">Ieħor</entry>
 <entry key="code|name|legal-basis-34.32014L0025">Direttiva 2014/25/UE</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">Direttiva 2014/23/UE</entry>
 <entry key="code|name|legal-basis-35.other">Ieħor</entry>
 <entry key="code|name|legal-basis-36.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-36.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-36.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-36.other">Ieħor</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Direttiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-37.other">Ieħor</entry>
 <entry key="code|name|legal-basis-38.32009L0081">Direttiva 2009/81/KE</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-38.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-38.other">Ieħor</entry>
 <entry key="code|name|legal-basis-39.32014L0025">Direttiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-39.other">Ieħor</entry>
 <entry key="code|name|legal-basis-4.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-4.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-4.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-4.other">Ieħor</entry>
 <entry key="code|name|legal-basis-40.32014L0023">Direttiva 2014/23/UE</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">Direttiva 2009/81/KE</entry>
 <entry key="code|name|legal-basis-6.other">Ieħor</entry>
 <entry key="code|name|legal-basis-7.32014L0024">Direttiva 2014/24/UE</entry>
-<entry key="code|name|legal-basis-7.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-7.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-7.other">Ieħor</entry>
 <entry key="code|name|legal-basis-8.32014L0025">Direttiva 2014/25/UE</entry>
 <entry key="code|name|legal-basis-8.other">Ieħor</entry>
 <entry key="code|name|legal-basis-9.32009L0081">Direttiva 2009/81/KE</entry>
 <entry key="code|name|legal-basis-9.other">Ieħor</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">Direttiva 2009/81/KE</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">Direttiva 2014/23/UE</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">Direttiva 2014/24/UE</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">Direttiva 2014/25/UE</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.other">Ieħor</entry>
 <entry key="code|name|legal-basis-e2.other">Ieħor</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">Direttiva 2014/23/UE</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">Direttiva 2014/24/UE</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">Direttiva 2014/25/UE</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e5.other">Ieħor</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">Direttiva 2009/81/KE</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">Direttiva 2014/23/UE</entry>
 <entry key="code|name|legal-basis.32014L0024">Direttiva 2014/24/UE</entry>
 <entry key="code|name|legal-basis.32014L0025">Direttiva 2014/25/UE</entry>
-<entry key="code|name|legal-basis.32018R1046">Regolament (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis.32024R2509">Regolament (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis.other">Ieħor</entry>
 <entry key="code|name|linguistic-status.non-official">Verżjoni lingwistika mhux uffiċjali</entry>
@@ -16288,7 +16271,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">Tagħrif dwar premjijiet u pieni</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Avviż</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Dokument tal-Akkwist</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Dokument Uniku Ewropew tal-Akkwist (DUEA)</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Faċilitajiet ta' studju, tekniki u riċerka</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Għodda, impjanti jew apparat tekniku</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Miżuri ta' ġestjoni tal-ambjent</entry>

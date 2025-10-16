@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Središnje tijelo državne uprave</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Ugovaratelj u području obrane</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">Institucija, tijelo ili agencija EU-a</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Skupina javnih tijela</entry>
 <entry key="code|name|buyer-legal-type.int-org">Međunarodna organizacija</entry>
 <entry key="code|name|buyer-legal-type.la">Lokalno tijelo</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Organizacija koja dodjeljuje ugovor koji subvencionira javni naručitelj</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Renminbi-juan</entry>
 <entry key="code|name|currency.COP">Kolumbijski pezo</entry>
 <entry key="code|name|currency.CRC">Kostarikanski kolon</entry>
-<entry key="code|name|currency.CUC">Konvertibilni pezo</entry>
 <entry key="code|name|currency.CUP">Kubanski pezo</entry>
 <entry key="code|name|currency.CVE">Zelenortski eskudo</entry>
 <entry key="code|name|currency.CZK">Češka kruna</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Tala</entry>
 <entry key="code|name|currency.XAF">CFA franak (BEAC)</entry>
 <entry key="code|name|currency.XCD">Istočnokaripski dolar</entry>
+<entry key="code|name|currency.XCG">Karipski gulden</entry>
 <entry key="code|name|currency.XOF">CFA franak (BCEAO)</entry>
 <entry key="code|name|currency.XPF">CFP franak</entry>
 <entry key="code|name|currency.YER">Jemenski rijal</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Pristup nekim dokumentima javne nabave je ograničen</entry>
 <entry key="code|name|document-status.non-official">Neslužbena jezična verzija</entry>
 <entry key="code|name|document-status.official">Službena jezična verzija</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Zahtjev za europsku jedinstvenu dokumentaciju o nabavi</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Obavijest</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Dokumentacija o nabavi</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Europska jedinstvena dokumentacija o nabavi</entry>
 <entry key="code|name|dps-usage.dps-list">Dinamički sustav nabave, koji mogu upotrebljavati samo kupci navedeni u ovoj obavijesti</entry>
 <entry key="code|name|dps-usage.dps-nlist">Dinamički sustav nabave, koji mogu upotrebljavati i kupci koji nisu navedeni u ovoj obavijesti</entry>
 <entry key="code|name|dps-usage.none">Nema dinamičkog sustava nabave</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">Program za okoliš i klimatske aktivnosti (LIFE) (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">Jamstveni fond za vanjska djelovanja (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Makrofinancijska pomoć (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Modernizacijski fond (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">Vojna mobilnost (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">Programi pomoći za razgradnju nuklearnih postrojenja u Bugarskoj, Litvi i Slovačkoj (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">Instrument za susjedstvo, razvoj i međunarodnu suradnju (NDICI) (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">Instrument za partnerstvo u suradnji s trećim zemljama (PI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Program Europske unije za zapošljavanje i socijalne inovacije (EaSI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">Instrument za kreditiranje u javnom sektoru u okviru mehanizma za pravednu tranziciju (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">REACT-EU (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Regionalna konvergencija (manje razvijene regije) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">Mehanizam Unije za civilnu zaštitu (rescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">Obavezni doprinosi regionalnim organizacijama za upravljanje ribarstvom te ostalim međunarodnim organizacijama (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Kršenje obveza u području socijalnog prava</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">Sporazumi s drugim gospodarskim subjektima u cilju narušavanja tržišnog natjecanja</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Teški poslovni prekršaj</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Kriv za pogrešno prikazivanje, uskraćene informacije, nemogućnost dostavljanja traženih dokumenata i dobivanje povjerljivih informacija za taj postupak</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Lažno prikazivanje, prikrivanje informacija, nemogućnost podnošenja traženih dokumenata ili prikupljanje povjerljivih informacija o ovom postupku</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">Kazneno djelo povezano s poslovnim prekršajem u području nabave za potrebe obrane</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Sukob interesa koji proizlazi iz sudjelovanja u postupku javne nabave</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Izravno ili neizravno sudjelovanje u pripremi ovog postupka javne nabave</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">Situacije istovrsne stečaju prema nacionalnim zakonima</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Obavijest</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Dokumentacija o nabavi</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Europska jedinstvena dokumentacija o nabavi</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Podnesena prijava, administrativno zaključenje postupka preliminarnog preispitivanja iz Uredbe o stranim subvencijama</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Podnesena prijava, odluka o obvezama</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Obavijest poslana, odluka o nepravilnoj ponudi ili zahtjevu za sudjelovanje</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Bez iznimke</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Iznimka – samo jedna ponuda</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Iznimka – javni interes</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">Uredba (EU) 2025/1197: Medicinski proizvodi podrijetlom iz Narodne Republike Kine</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Medicinski proizvodi podrijetlom iz Kine – Uredba (EU) 2025/1197</entry>
 <entry key="code|name|ipi-scope.false">ne</entry>
 <entry key="code|name|ipi-scope.true">da</entry>
 <entry key="code|name|irregularity-type.ab-low">Neopravdano odbijanje neobično niskih ponuda</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">Ukrajina</entry>
 <entry key="code|name|lawful-country.WLF">Wallis i Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-1.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-1.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-1.other">Druga</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-10.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-10.other">Druga</entry>
 <entry key="code|name|legal-basis-11.32014L0025">Direktiva 2014/25/EU</entry>
 <entry key="code|name|legal-basis-11.other">Druga</entry>
 <entry key="code|name|legal-basis-12.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-12.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-12.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-12.other">Druga</entry>
 <entry key="code|name|legal-basis-13.32014L0025">Direktiva 2014/25/EU</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">Direktiva 2014/25/EU</entry>
 <entry key="code|name|legal-basis-15.other">Druga</entry>
 <entry key="code|name|legal-basis-16.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-16.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-16.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-16.other">Druga</entry>
 <entry key="code|name|legal-basis-17.32014L0025">Direktiva 2014/25/EU</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">Direktiva 2014/25/EU</entry>
 <entry key="code|name|legal-basis-2.other">Druga</entry>
 <entry key="code|name|legal-basis-20.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-20.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-20.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-20.other">Druga</entry>
 <entry key="code|name|legal-basis-21.32014L0025">Direktiva 2014/25/EU</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">Direktiva 2009/81/EZ</entry>
 <entry key="code|name|legal-basis-22.other">Druga</entry>
 <entry key="code|name|legal-basis-23.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-23.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-23.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-23.other">Druga</entry>
 <entry key="code|name|legal-basis-24.32014L0025">Direktiva 2014/25/EU</entry>
 <entry key="code|name|legal-basis-24.other">Druga</entry>
 <entry key="code|name|legal-basis-25.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-25.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-25.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-25.other">Druga</entry>
 <entry key="code|name|legal-basis-26.32014L0025">Direktiva 2014/25/EU</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">Direktiva 2014/23/EU</entry>
 <entry key="code|name|legal-basis-28.other">Druga</entry>
 <entry key="code|name|legal-basis-29.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-29.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-29.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-29.other">Druga</entry>
 <entry key="code|name|legal-basis-3.32009L0081">Direktiva 2009/81/EZ</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">Direktiva 2014/23/EU</entry>
 <entry key="code|name|legal-basis-32.other">Druga</entry>
 <entry key="code|name|legal-basis-33.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-33.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-33.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-33.other">Druga</entry>
 <entry key="code|name|legal-basis-34.32014L0025">Direktiva 2014/25/EU</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">Direktiva 2014/23/EU</entry>
 <entry key="code|name|legal-basis-35.other">Druga</entry>
 <entry key="code|name|legal-basis-36.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-36.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-36.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-36.other">Druga</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Direktiva 2014/25/EU</entry>
 <entry key="code|name|legal-basis-37.other">Druga</entry>
 <entry key="code|name|legal-basis-38.32009L0081">Direktiva 2009/81/EZ</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-38.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-38.other">Druga</entry>
 <entry key="code|name|legal-basis-39.32014L0025">Direktiva 2014/25/EU</entry>
 <entry key="code|name|legal-basis-39.other">Druga</entry>
 <entry key="code|name|legal-basis-4.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-4.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-4.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-4.other">Druga</entry>
 <entry key="code|name|legal-basis-40.32014L0023">Direktiva 2014/23/EU</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">Direktiva 2009/81/EZ</entry>
 <entry key="code|name|legal-basis-6.other">Druga</entry>
 <entry key="code|name|legal-basis-7.32014L0024">Direktiva 2014/24/EU</entry>
-<entry key="code|name|legal-basis-7.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-7.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-7.other">Druga</entry>
 <entry key="code|name|legal-basis-8.32014L0025">Direktiva 2014/25/EU</entry>
 <entry key="code|name|legal-basis-8.other">Druga</entry>
 <entry key="code|name|legal-basis-9.32009L0081">Direktiva 2009/81/EZ</entry>
 <entry key="code|name|legal-basis-9.other">Druga</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">Direktiva 2009/81/EZ</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">Direktiva 2014/23/EU</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">Direktiva 2014/24/EU</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">Direktiva 2014/25/EU</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.other">Druga</entry>
 <entry key="code|name|legal-basis-e2.other">Druga</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">Direktiva 2014/23/EU</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">Direktiva 2014/24/EU</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">Direktiva 2014/25/EU</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e5.other">Druga</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">Direktiva 2009/81/EZ</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">Direktiva 2014/23/EU</entry>
 <entry key="code|name|legal-basis.32014L0024">Direktiva 2014/24/EU</entry>
 <entry key="code|name|legal-basis.32014L0025">Direktiva 2014/25/EU</entry>
-<entry key="code|name|legal-basis.32018R1046">Uredba (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis.32024R2509">Uredba (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis.other">Druga</entry>
 <entry key="code|name|linguistic-status.non-official">Neslužbena jezična verzija</entry>
@@ -16288,7 +16271,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">Podaci o nagradama i kaznama</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Obavijest</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Dokumentacija o nabavi</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Europska jedinstvena dokumentacija o nabavi</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Studije, tehnički i istraživački objekti</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Alati, biljke ili tehnička oprema</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Mjere upravljanja okolišem</entry>

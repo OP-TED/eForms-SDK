@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Statlig myndighet</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Uppdragstagare på försvarsområdet</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">EU-institution, organ eller byrå</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Grupp av offentliga organ</entry>
 <entry key="code|name|buyer-legal-type.int-org">Internationell organisation</entry>
 <entry key="code|name|buyer-legal-type.la">Lokal myndighet</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Organisation som tilldelar ett kontrakt som subventioneras av en upphandlande myndighet</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Renminbi yuan</entry>
 <entry key="code|name|currency.COP">Colombiansk peso</entry>
 <entry key="code|name|currency.CRC">Costaricansk colón</entry>
-<entry key="code|name|currency.CUC">Konvertibel peso</entry>
 <entry key="code|name|currency.CUP">Kubansk peso</entry>
 <entry key="code|name|currency.CVE">Kapverdisk escudo</entry>
 <entry key="code|name|currency.CZK">Tjeckisk krona</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Tala</entry>
 <entry key="code|name|currency.XAF">CFA-franc (BEAC)</entry>
 <entry key="code|name|currency.XCD">Östkaribisk dollar</entry>
+<entry key="code|name|currency.XCG">Karibisk gulden</entry>
 <entry key="code|name|currency.XOF">CFA-franc (BCEAO)</entry>
 <entry key="code|name|currency.XPF">CFP-franc</entry>
 <entry key="code|name|currency.YER">Jemenitisk riyal</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Åtkomsten till vissa upphandlingsdokument är begränsad</entry>
 <entry key="code|name|document-status.non-official">Inofficiell språkversion</entry>
 <entry key="code|name|document-status.official">Officiell språkversion</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Begäran om europeiskt enhetligt upphandlingsdokument</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Meddelande</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Upphandlingsdokument</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Europeiskt enhetligt upphandlingsdokument</entry>
 <entry key="code|name|dps-usage.dps-list">Dynamiskt inköpssystem som endast kan användas av köpare som förtecknas i detta meddelande</entry>
 <entry key="code|name|dps-usage.dps-nlist">Dynamiskt inköpssystem som också kan användas av köpare som inte förtecknas i detta meddelande</entry>
 <entry key="code|name|dps-usage.none">Upphandlingen avser inte ett dynamiskt inköpssystem</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">Program för miljö och klimatpolitik (Life) (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">Garantifond för åtgärder avseende tredjeland (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Makroekonomiskt stöd (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Moderniseringsfonden (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">Militär rörlighet (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">Stöd till kärnkraftsavveckling i Bulgarien, Litauen och Slovakien (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">Instrumentet för grannskapspolitik, utvecklingssamarbete och internationellt samarbete (NDICI) (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">Partnerskapsinstrument för samarbete med tredjeländer (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Europeiska unionens program för sysselsättning och social innovation (EaSI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">Lånefaciliteten för den offentliga sektorn under mekanismen för en rättvis omställning (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">React-EU (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Regional utjämning (mindre utvecklade regioner) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">EU:s civilskyddsmekanism (rescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">Obligatoriska bidrag till regionala fiskeriförvaltningsorganisationer och andra internationella organisationer (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Åsidosättande av skyldigheter enligt sociallagstiftningen</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">Avtal med andra ekonomiska aktörer med syfte att snedvrida konkurrensen</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Allvarligt fel i yrkesutövningen</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Har lämnat felaktiga uppgifter, underlåtit att lämna de begärda handlingarna och har fått konfidentiell information om förfarandet</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Har lämnat oriktiga uppgifter, har undanhållit information, kan inte förete de handlingar som krävs eller har tillägnat sig konfidentiell information om förfarandet</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">Brott mot yrkesetiken vid upphandling av försvarsmateriel</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Intressekonflikt på grund av deltagande i upphandlingsförfarandet</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Direkt eller indirekt deltagande i förberedelserna av detta upphandlingsförfarande</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">Situation som enligt nationell lagstiftning motsvarar konkurs</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Meddelande</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Upphandlingsdokument</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Europeiskt enhetligt upphandlingsdokument</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Anmälan inlämnad, administrativt avslutande av förfarandet för preliminär granskning enligt förordningen om utländska subventioner</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Anmälan inlämnad, beslut med åtaganden</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Anmälan inlämnad, beslut om ogiltigt anbud eller ogiltig anbudsansökan</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Inget undantag</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Undantag – endast ett anbud</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Undantag – allmänintresse</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">Förordning (EU) 2025/1197: Medicintekniska produkter med ursprung i Folkrepubliken Kina</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Medicintekniska produkter med ursprung i Kina – förordning (EU) 2025/1197</entry>
 <entry key="code|name|ipi-scope.false">nej</entry>
 <entry key="code|name|ipi-scope.true">ja</entry>
 <entry key="code|name|irregularity-type.ab-low">Otillåtet förkastande av onormalt lågt anbud</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">Ukraina</entry>
 <entry key="code|name|lawful-country.WLF">Wallis och Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-1.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-1.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-1.other">Annan</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-10.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-10.other">Annan</entry>
 <entry key="code|name|legal-basis-11.32014L0025">Direktiv 2014/25/EU</entry>
 <entry key="code|name|legal-basis-11.other">Annan</entry>
 <entry key="code|name|legal-basis-12.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-12.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-12.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-12.other">Annan</entry>
 <entry key="code|name|legal-basis-13.32014L0025">Direktiv 2014/25/EU</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">Direktiv 2014/25/EU</entry>
 <entry key="code|name|legal-basis-15.other">Annan</entry>
 <entry key="code|name|legal-basis-16.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-16.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-16.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-16.other">Annan</entry>
 <entry key="code|name|legal-basis-17.32014L0025">Direktiv 2014/25/EU</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">Direktiv 2014/25/EU</entry>
 <entry key="code|name|legal-basis-2.other">Annan</entry>
 <entry key="code|name|legal-basis-20.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-20.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-20.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-20.other">Annan</entry>
 <entry key="code|name|legal-basis-21.32014L0025">Direktiv 2014/25/EU</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">Direktiv 2009/81/EG</entry>
 <entry key="code|name|legal-basis-22.other">Annan</entry>
 <entry key="code|name|legal-basis-23.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-23.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-23.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-23.other">Annan</entry>
 <entry key="code|name|legal-basis-24.32014L0025">Direktiv 2014/25/EU</entry>
 <entry key="code|name|legal-basis-24.other">Annan</entry>
 <entry key="code|name|legal-basis-25.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-25.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-25.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-25.other">Annan</entry>
 <entry key="code|name|legal-basis-26.32014L0025">Direktiv 2014/25/EU</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">Direktiv 2014/23/EU</entry>
 <entry key="code|name|legal-basis-28.other">Annan</entry>
 <entry key="code|name|legal-basis-29.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-29.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-29.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-29.other">Annan</entry>
 <entry key="code|name|legal-basis-3.32009L0081">Direktiv 2009/81/EG</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">Direktiv 2014/23/EU</entry>
 <entry key="code|name|legal-basis-32.other">Annan</entry>
 <entry key="code|name|legal-basis-33.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-33.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-33.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-33.other">Annan</entry>
 <entry key="code|name|legal-basis-34.32014L0025">Direktiv 2014/25/EU</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">Direktiv 2014/23/EU</entry>
 <entry key="code|name|legal-basis-35.other">Annan</entry>
 <entry key="code|name|legal-basis-36.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-36.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-36.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-36.other">Annan</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Direktiv 2014/25/EU</entry>
 <entry key="code|name|legal-basis-37.other">Annan</entry>
 <entry key="code|name|legal-basis-38.32009L0081">Direktiv 2009/81/EG</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-38.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-38.other">Annan</entry>
 <entry key="code|name|legal-basis-39.32014L0025">Direktiv 2014/25/EU</entry>
 <entry key="code|name|legal-basis-39.other">Annan</entry>
 <entry key="code|name|legal-basis-4.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-4.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-4.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-4.other">Annan</entry>
 <entry key="code|name|legal-basis-40.32014L0023">Direktiv 2014/23/EU</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">Direktiv 2009/81/EG</entry>
 <entry key="code|name|legal-basis-6.other">Annan</entry>
 <entry key="code|name|legal-basis-7.32014L0024">Direktiv 2014/24/EU</entry>
-<entry key="code|name|legal-basis-7.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-7.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-7.other">Annan</entry>
 <entry key="code|name|legal-basis-8.32014L0025">Direktiv 2014/25/EU</entry>
 <entry key="code|name|legal-basis-8.other">Annan</entry>
 <entry key="code|name|legal-basis-9.32009L0081">Direktiv 2009/81/EG</entry>
 <entry key="code|name|legal-basis-9.other">Annan</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">Direktiv 2009/81/EG</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">Direktiv 2014/23/EU</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">Direktiv 2014/24/EU</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">Direktiv 2014/25/EU</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.other">Annan</entry>
 <entry key="code|name|legal-basis-e2.other">Annan</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">Direktiv 2014/23/EU</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">Direktiv 2014/24/EU</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">Direktiv 2014/25/EU</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e5.other">Annan</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">Direktiv 2009/81/EG</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">Direktiv 2014/23/EU</entry>
 <entry key="code|name|legal-basis.32014L0024">Direktiv 2014/24/EU</entry>
 <entry key="code|name|legal-basis.32014L0025">Direktiv 2014/25/EU</entry>
-<entry key="code|name|legal-basis.32018R1046">Förordning (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis.32024R2509">Förordning (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis.other">Annan</entry>
 <entry key="code|name|linguistic-status.non-official">Inofficiell språkversion</entry>
@@ -16288,7 +16271,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">Information om belöningar och straff</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Meddelande</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Upphandlingsdokument</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Europeiskt enhetligt upphandlingsdokument</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Studie-, tekniska och forskningsanläggningar</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Verktyg, anläggningar eller teknisk utrustning</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Miljöledningsåtgärder</entry>

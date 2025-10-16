@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Орган на централната власт</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Изпълнител от областта на отбраната</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">Институция, орган или агенция на ЕС</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Група от публични органи</entry>
 <entry key="code|name|buyer-legal-type.int-org">Международна организация</entry>
 <entry key="code|name|buyer-legal-type.la">Местен орган</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Организация, която възлага поръчка, субсидирана от възлагащ орган</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Юан</entry>
 <entry key="code|name|currency.COP">Колумбийско песо</entry>
 <entry key="code|name|currency.CRC">Костарикански колон</entry>
-<entry key="code|name|currency.CUC">Конвертируемо песо</entry>
 <entry key="code|name|currency.CUP">Кубинско песо</entry>
 <entry key="code|name|currency.CVE">Ескудо на Кабо Верде</entry>
 <entry key="code|name|currency.CZK">Чешка крона</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Тала</entry>
 <entry key="code|name|currency.XAF">CFA франк (BEAC)</entry>
 <entry key="code|name|currency.XCD">Източнокарибски долар</entry>
+<entry key="code|name|currency.XCG">Карибски гулден</entry>
 <entry key="code|name|currency.XOF">CFA франк (BCEAO)</entry>
 <entry key="code|name|currency.XPF">CFP франк</entry>
 <entry key="code|name|currency.YER">Йеменски риал</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Достъпът до някои документи за поръчката е ограничен</entry>
 <entry key="code|name|document-status.non-official">Неофициална езикова версия</entry>
 <entry key="code|name|document-status.official">Официална езикова версия</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Искане във връзка с единен европейски документ за обществени поръчки</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Уведомление</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Документ за обществени поръчки</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Единен европейски документ за обществени поръчки (ЕЕДОП)</entry>
 <entry key="code|name|dps-usage.dps-list">Динамична система за покупки, която може да бъде използвана само от купувачите, посочени в това обявление</entry>
 <entry key="code|name|dps-usage.dps-nlist">Динамична система за покупки, която може да бъде използвана и от купувачи, непосочени в това обявление</entry>
 <entry key="code|name|dps-usage.none">Няма динамична система за покупки</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">Програма за околната среда и действията по климата (LIFE) (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">Гаранционен фонд за външни дейности (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Макрофинансова помощ (МФП) (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Модернизационен фонд (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">Военна мобилност (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">Програми за подпомагане на извеждането от експлоатация на ядрени съоръжения в България, Литва и Словакия (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">Инструмент за съседство, сътрудничество за развитие и международно сътрудничество (ИССРМС) (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">Инструмент за партньорство за сътрудничество с трети държави (PI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Програма на Европейския съюз за заетост и социални иновации (EaSI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">Механизъм за отпускане на заеми в публичния сектор в рамките на механизма за справедлив преход (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">React-EU (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Регионално сближаване (по-слабо развити региони) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">Механизъм за гражданска защита на Съюза (rescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">Задължителни вноски в регионални организации за управление на рибарството и в други международни организации (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Нарушение на задължения в областта на социалното право</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">Споразумения с други икономически оператори за нарушаване на конкуренцията</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Тежко професионално нарушение</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Е виновен за погрешно представяне на информация, не е в състояние да представи необходимите документи и е получил поверителна информация във връзка с тази процедура</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Неверни данни, укриване на информация, непредставяне на придружаващи документи или получаване на поверителна информация във връзка с процедурата</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">Нарушение, свързано с професионалното поведение при обществени поръчки в областта на отбраната</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Конфликт на интереси, свързан с участието в процедурата за възлагане на обществена поръчка</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Пряко или косвено участие в подготовката на процедурата за възлагане на обществена поръчка</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">Аналогична на несъстоятелност ситуация съгласно националното законодателство</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Уведомление</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Документ за обществени поръчки</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Единен европейски документ за обществени поръчки (ЕЕДОП)</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Подадено уведомление, административно прекратяване на процедурата по предварителен преглед по Регламента за чуждестранните субсидии</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Подадено уведомление, решение с поемане на ангажименти</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Представено уведомление, решение за нередовна оферта или заявление за участие</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Без изключение</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Изключение — само една оферта</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Изключение — обществен интерес</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">Регламент (ЕС) 2025/1197: Медицински изделия с произход от Китайската народна република</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Медицински изделия с произход от Китай — Регламент (ЕС) 2025/1197</entry>
 <entry key="code|name|ipi-scope.false">не</entry>
 <entry key="code|name|ipi-scope.true">да</entry>
 <entry key="code|name|irregularity-type.ab-low">Необосновано отхвърляне на необичайно ниските оферти</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">Украйна</entry>
 <entry key="code|name|lawful-country.WLF">Уолис и Футуна</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-1.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-1.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-1.other">Друго</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-10.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-10.other">Друго</entry>
 <entry key="code|name|legal-basis-11.32014L0025">Директива 2014/25/ЕС</entry>
 <entry key="code|name|legal-basis-11.other">Друго</entry>
 <entry key="code|name|legal-basis-12.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-12.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-12.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-12.other">Друго</entry>
 <entry key="code|name|legal-basis-13.32014L0025">Директива 2014/25/ЕС</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">Директива 2014/25/ЕС</entry>
 <entry key="code|name|legal-basis-15.other">Друго</entry>
 <entry key="code|name|legal-basis-16.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-16.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-16.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-16.other">Друго</entry>
 <entry key="code|name|legal-basis-17.32014L0025">Директива 2014/25/ЕС</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">Директива 2014/25/ЕС</entry>
 <entry key="code|name|legal-basis-2.other">Друго</entry>
 <entry key="code|name|legal-basis-20.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-20.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-20.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-20.other">Друго</entry>
 <entry key="code|name|legal-basis-21.32014L0025">Директива 2014/25/ЕС</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">Директива 2009/81/ЕО</entry>
 <entry key="code|name|legal-basis-22.other">Друго</entry>
 <entry key="code|name|legal-basis-23.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-23.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-23.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-23.other">Друго</entry>
 <entry key="code|name|legal-basis-24.32014L0025">Директива 2014/25/ЕС</entry>
 <entry key="code|name|legal-basis-24.other">Друго</entry>
 <entry key="code|name|legal-basis-25.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-25.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-25.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-25.other">Друго</entry>
 <entry key="code|name|legal-basis-26.32014L0025">Директива 2014/25/ЕС</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">Директива 2014/23/ЕС</entry>
 <entry key="code|name|legal-basis-28.other">Друго</entry>
 <entry key="code|name|legal-basis-29.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-29.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-29.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-29.other">Друго</entry>
 <entry key="code|name|legal-basis-3.32009L0081">Директива 2009/81/ЕО</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">Директива 2014/23/ЕС</entry>
 <entry key="code|name|legal-basis-32.other">Друго</entry>
 <entry key="code|name|legal-basis-33.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-33.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-33.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-33.other">Друго</entry>
 <entry key="code|name|legal-basis-34.32014L0025">Директива 2014/25/ЕС</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">Директива 2014/23/ЕС</entry>
 <entry key="code|name|legal-basis-35.other">Друго</entry>
 <entry key="code|name|legal-basis-36.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-36.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-36.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-36.other">Друго</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Директива 2014/25/ЕС</entry>
 <entry key="code|name|legal-basis-37.other">Друго</entry>
 <entry key="code|name|legal-basis-38.32009L0081">Директива 2009/81/ЕО</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-38.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-38.other">Друго</entry>
 <entry key="code|name|legal-basis-39.32014L0025">Директива 2014/25/ЕС</entry>
 <entry key="code|name|legal-basis-39.other">Друго</entry>
 <entry key="code|name|legal-basis-4.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-4.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-4.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-4.other">Друго</entry>
 <entry key="code|name|legal-basis-40.32014L0023">Директива 2014/23/ЕС</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">Директива 2009/81/ЕО</entry>
 <entry key="code|name|legal-basis-6.other">Друго</entry>
 <entry key="code|name|legal-basis-7.32014L0024">Директива 2014/24/ЕС</entry>
-<entry key="code|name|legal-basis-7.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-7.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-7.other">Друго</entry>
 <entry key="code|name|legal-basis-8.32014L0025">Директива 2014/25/ЕС</entry>
 <entry key="code|name|legal-basis-8.other">Друго</entry>
 <entry key="code|name|legal-basis-9.32009L0081">Директива 2009/81/ЕО</entry>
 <entry key="code|name|legal-basis-9.other">Друго</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">Директива 2009/81/ЕО</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">Директива 2014/23/ЕС</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">Директива 2014/24/ЕС</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">Директива 2014/25/ЕС</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.other">Друго</entry>
 <entry key="code|name|legal-basis-e2.other">Друго</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">Директива 2014/23/ЕС</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">Директива 2014/24/ЕС</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">Директива 2014/25/ЕС</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis-e5.other">Друго</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">Директива 2009/81/ЕО</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">Директива 2014/23/ЕС</entry>
 <entry key="code|name|legal-basis.32014L0024">Директива 2014/24/ЕС</entry>
 <entry key="code|name|legal-basis.32014L0025">Директива 2014/25/ЕС</entry>
-<entry key="code|name|legal-basis.32018R1046">Регламент (ЕС, Евратом) 2018/1046</entry>
 <entry key="code|name|legal-basis.32024R2509">Регламент (ЕС, Евратом) 2024/2509</entry>
 <entry key="code|name|legal-basis.other">Друго</entry>
 <entry key="code|name|linguistic-status.non-official">Неофициална езикова версия</entry>
@@ -16288,7 +16271,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">Информация за възнаграждения и глоби</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Уведомление</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Документ за обществени поръчки</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Единен европейски документ за обществени поръчки (ЕЕДОП)</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Учебни, технически и изследователски съоръжения</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Инструменти, заводи или техническа оборудване</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Мерки за управление на околната среда</entry>

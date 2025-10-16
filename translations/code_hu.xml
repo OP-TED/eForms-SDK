@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Központi kormányzati szerv</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Védelmi vállalkozó</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">EU-intézmény, -szerv vagy -ügynökség</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Hatóságok csoportja</entry>
 <entry key="code|name|buyer-legal-type.int-org">Nemzetközi szervezet</entry>
 <entry key="code|name|buyer-legal-type.la">Helyi hatóság</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Ajánlatkérő szerv által támogatott szerződést odaítélő szervezet</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Renminbi jüan</entry>
 <entry key="code|name|currency.COP">Kolumbiai peso</entry>
 <entry key="code|name|currency.CRC">Costa Rica-i colón</entry>
-<entry key="code|name|currency.CUC">Konvertibilis peso</entry>
 <entry key="code|name|currency.CUP">Kubai peso</entry>
 <entry key="code|name|currency.CVE">Zöld-foki köztársasági escudo</entry>
 <entry key="code|name|currency.CZK">Cseh korona</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Tala</entry>
 <entry key="code|name|currency.XAF">CFA-frank (BEAC)</entry>
 <entry key="code|name|currency.XCD">Kelet-karibi dollár</entry>
+<entry key="code|name|currency.XCG">Karibi forint</entry>
 <entry key="code|name|currency.XOF">CFA-frank (BCEAO)</entry>
 <entry key="code|name|currency.XPF">CFP-frank</entry>
 <entry key="code|name|currency.YER">Jemeni riál</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Egyes közbeszerzési dokumentumok esetében a hozzáférés korlátozva van</entry>
 <entry key="code|name|document-status.non-official">Nem hivatalos nyelvi változat</entry>
 <entry key="code|name|document-status.official">Hivatalos nyelvi változat</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Egységes európai közbeszerzési dokumentum iránti kérelem</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Hirdetmény</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Közbeszerzési dokumentum</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Egységes európai közbeszerzési dokumentum (ESPD)</entry>
 <entry key="code|name|dps-usage.dps-list">Dinamikus beszerzési rendszer, amely csak az e hirdetményben felsorolt vevők által használható</entry>
 <entry key="code|name|dps-usage.dps-nlist">Dinamikus beszerzési rendszer, amely az e hirdetményben nem felsorolt vevők által is használható</entry>
 <entry key="code|name|dps-usage.none">Nem dinamikus beszerzési rendszer</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">Környezetvédelmi és éghajlat-politikai program (LIFE) (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">Külső fellépésekre vonatkozó garanciaalap (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Makroszintű pénzügyi támogatás (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Modernizációs Alap (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">Katonai mobilitás (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">A bulgáriai, litvániai és szlovákiai atomerőművek leszerelését segítő támogatási programok (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">Szomszédsági, Fejlesztési és Nemzetközi Együttműködési Eszköz (NDICI) (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">A harmadik országokkal folytatott együttműködésre irányuló Partnerségi Eszköz (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Az Európai Unió foglalkoztatási és társadalmi innováció programja (EaSI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">A méltányos átállást támogató mechanizmus keretében biztosított közszektor-hitelezési eszköz (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">React-EU (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Regionális konvergencia (Kevésbé fejlett régiók) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">Uniós polgári védelmi mechanizmus (rescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">A regionális halászati gazdálkodási szervezetekhez és más nemzetközi szervezetekhez való kötelező hozzájárulások (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Szociális jogszabályokban előírt kötelezettségek megszegése</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">A verseny torzítását célzó megállapodás más gazdasági szereplőkkel</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Súlyos szakmai kötelességszegés</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Hamis nyilatkozatot tettek, nem tudtak információt nyújtani, nem tudták benyújtani a kért dokumentumokat, és bizalmas információkat kaptak az eljárásról</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Hamis nyilatkozattétel, információk visszatartása vagy a megkívánt iratok be nem mutatása, illetve bizalmas információk szerzése az eljárásról</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">A honvédelmi beszerzések területén tanúsított szakmai magatartással kapcsolatos bűncselekmény</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">A közbeszerzési eljárásban való részvételből fakadó összeférhetetlenség</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Közvetlen vagy közvetett részvétel a közbeszerzési eljárás előkészítésében</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">A nemzeti törvények értelmében a csődhöz hasonló helyzet</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Hirdetmény</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Közbeszerzési dokumentum</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Egységes európai közbeszerzési dokumentum (ESPD)</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Bejelentés benyújtása, az FSR szerinti előzetes felülvizsgálati eljárás lezárása</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Bejelentés benyújtása, kötelezettségvállalásokat tartalmazó határozat</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Bejelentés benyújtása, az ajánlatot érvénytelennek nyilvánító vagy a részvételi jelentkezés elutasításáról szóló határozat</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Nincs kivétel</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Egyetlen ajánlatra vonatkozó kivétel</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Közérdeken alapuló kivétel</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">(EU) 2025/1197 rendelet: A Kínai Népköztársaságból származó orvostechnikai eszközök</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Kínából származó orvostechnikai eszközök – az (EU) 2025/1197 rendelet</entry>
 <entry key="code|name|ipi-scope.false">nem</entry>
 <entry key="code|name|ipi-scope.true">igen</entry>
 <entry key="code|name|irregularity-type.ab-low">Kirívóan alacsony összegű ajánlatok indokolatlan elutasítása</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">Ukrajna</entry>
 <entry key="code|name|lawful-country.WLF">Wallis és Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-1.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-1.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-1.other">Egyéb</entry>
 <entry key="code|name|legal-basis-10.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-10.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-10.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-10.other">Egyéb</entry>
 <entry key="code|name|legal-basis-11.32014L0025">2014/25/EU irányelv</entry>
 <entry key="code|name|legal-basis-11.other">Egyéb</entry>
 <entry key="code|name|legal-basis-12.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-12.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-12.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-12.other">Egyéb</entry>
 <entry key="code|name|legal-basis-13.32014L0025">2014/25/EU irányelv</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">2014/25/EU irányelv</entry>
 <entry key="code|name|legal-basis-15.other">Egyéb</entry>
 <entry key="code|name|legal-basis-16.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-16.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-16.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-16.other">Egyéb</entry>
 <entry key="code|name|legal-basis-17.32014L0025">2014/25/EU irányelv</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">2014/25/EU irányelv</entry>
 <entry key="code|name|legal-basis-2.other">Egyéb</entry>
 <entry key="code|name|legal-basis-20.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-20.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-20.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-20.other">Egyéb</entry>
 <entry key="code|name|legal-basis-21.32014L0025">2014/25/EU irányelv</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">2009/81/EK irányelv</entry>
 <entry key="code|name|legal-basis-22.other">Egyéb</entry>
 <entry key="code|name|legal-basis-23.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-23.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-23.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-23.other">Egyéb</entry>
 <entry key="code|name|legal-basis-24.32014L0025">2014/25/EU irányelv</entry>
 <entry key="code|name|legal-basis-24.other">Egyéb</entry>
 <entry key="code|name|legal-basis-25.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-25.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-25.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-25.other">Egyéb</entry>
 <entry key="code|name|legal-basis-26.32014L0025">2014/25/EU irányelv</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">2014/23/EU irányelv</entry>
 <entry key="code|name|legal-basis-28.other">Egyéb</entry>
 <entry key="code|name|legal-basis-29.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-29.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-29.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-29.other">Egyéb</entry>
 <entry key="code|name|legal-basis-3.32009L0081">2009/81/EK irányelv</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">2014/23/EU irányelv</entry>
 <entry key="code|name|legal-basis-32.other">Egyéb</entry>
 <entry key="code|name|legal-basis-33.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-33.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-33.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-33.other">Egyéb</entry>
 <entry key="code|name|legal-basis-34.32014L0025">2014/25/EU irányelv</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">2014/23/EU irányelv</entry>
 <entry key="code|name|legal-basis-35.other">Egyéb</entry>
 <entry key="code|name|legal-basis-36.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-36.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-36.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-36.other">Egyéb</entry>
 <entry key="code|name|legal-basis-37.32014L0025">2014/25/EU irányelv</entry>
 <entry key="code|name|legal-basis-37.other">Egyéb</entry>
 <entry key="code|name|legal-basis-38.32009L0081">2009/81/EK irányelv</entry>
 <entry key="code|name|legal-basis-38.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-38.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-38.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-38.other">Egyéb</entry>
 <entry key="code|name|legal-basis-39.32014L0025">2014/25/EU irányelv</entry>
 <entry key="code|name|legal-basis-39.other">Egyéb</entry>
 <entry key="code|name|legal-basis-4.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-4.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-4.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-4.other">Egyéb</entry>
 <entry key="code|name|legal-basis-40.32014L0023">2014/23/EU irányelv</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">2009/81/EK irányelv</entry>
 <entry key="code|name|legal-basis-6.other">Egyéb</entry>
 <entry key="code|name|legal-basis-7.32014L0024">2014/24/EU irányelv</entry>
-<entry key="code|name|legal-basis-7.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-7.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-7.other">Egyéb</entry>
 <entry key="code|name|legal-basis-8.32014L0025">2014/25/EU irányelv</entry>
 <entry key="code|name|legal-basis-8.other">Egyéb</entry>
 <entry key="code|name|legal-basis-9.32009L0081">2009/81/EK irányelv</entry>
 <entry key="code|name|legal-basis-9.other">Egyéb</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">2009/81/EK irányelv</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">2014/23/EU irányelv</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">2014/24/EU irányelv</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">2014/25/EU irányelv</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-e1.other">Egyéb</entry>
 <entry key="code|name|legal-basis-e2.other">Egyéb</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">2014/23/EU irányelv</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">2014/24/EU irányelv</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">2014/25/EU irányelv</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis-e5.other">Egyéb</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">2009/81/EK irányelv</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">2014/23/EU irányelv</entry>
 <entry key="code|name|legal-basis.32014L0024">2014/24/EU irányelv</entry>
 <entry key="code|name|legal-basis.32014L0025">2014/25/EU irányelv</entry>
-<entry key="code|name|legal-basis.32018R1046">(EU, Euratom) 2018/1046 rendelet</entry>
 <entry key="code|name|legal-basis.32024R2509">(EU, Euratom) 2024/2509 rendelet</entry>
 <entry key="code|name|legal-basis.other">Egyéb</entry>
 <entry key="code|name|linguistic-status.non-official">Nem hivatalos nyelvi változat</entry>
@@ -16288,7 +16271,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">A jutalmakkal és szankciókkal kapcsolatos információ</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Hirdetmény</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Közbeszerzési dokumentum</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Egységes európai közbeszerzési dokumentum (ESPD)</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Tanulmányi, technikai és kutatási létesítmények</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Eszközök, üzemek vagy technikai felszerelések</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Környezetgazdálkodási intézkedések</entry>

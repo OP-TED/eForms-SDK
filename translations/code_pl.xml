@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Instytucja administracji centralnej</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Kontrahent w sektorze obronności</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">Instytucja, organ lub agencja UE</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Grupa organów publicznych</entry>
 <entry key="code|name|buyer-legal-type.int-org">Organizacja międzynarodowa</entry>
 <entry key="code|name|buyer-legal-type.la">Instytucja lokalna</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Organizacja udzielająca zamówienia dotowanego przez instytucję zamawiającą</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Yuan renminbi</entry>
 <entry key="code|name|currency.COP">Peso kolumbijskie</entry>
 <entry key="code|name|currency.CRC">Colon kostarykański</entry>
-<entry key="code|name|currency.CUC">Peso wymienialne</entry>
 <entry key="code|name|currency.CUP">Peso kubańskie</entry>
 <entry key="code|name|currency.CVE">Escudo Republiki Zielonego Przylądka</entry>
 <entry key="code|name|currency.CZK">Korona czeska</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Tala</entry>
 <entry key="code|name|currency.XAF">Frank CFA (BEAC)</entry>
 <entry key="code|name|currency.XCD">Dolar wschodniokaraibski</entry>
+<entry key="code|name|currency.XCG">Gulden karaibski</entry>
 <entry key="code|name|currency.XOF">Frank CFA (BCEAO)</entry>
 <entry key="code|name|currency.XPF">Frank CFP</entry>
 <entry key="code|name|currency.YER">Rial jemeński</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Dostęp do niektórych dokumentów zamówienia jest zastrzeżony</entry>
 <entry key="code|name|document-status.non-official">Wersja w języku nieurzędowym</entry>
 <entry key="code|name|document-status.official">Wersja w języku urzędowym</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Jednolity europejski dokument zamówienia</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Uwaga</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Dokumenty zamówienia</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Jednolity europejski dokument zamówienia (ESPD)</entry>
 <entry key="code|name|dps-usage.dps-list">Dynamiczny system zakupów, do wykorzystania wyłącznie przez nabywców wymienionych w danym ogłoszeniu</entry>
 <entry key="code|name|dps-usage.dps-nlist">Dynamiczny system zakupów, do wykorzystania również przez nabywców niewymienionych w danym ogłoszeniu</entry>
 <entry key="code|name|dps-usage.none">Brak dynamicznego systemu zakupów</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">Program działań na rzecz środowiska i klimatu (LIFE) (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">Fundusz Gwarancyjny dla Działań Zewnętrznych (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Pomoc makrofinansowa (MFA) (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Fundusz modernizacyjny (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">Mobilność wojskowa (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">Programy pomocy dotyczące likwidacji obiektów jądrowych realizowanych w Bułgarii, na Litwie i na Słowacji (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">Instrument Sąsiedztwa oraz Współpracy Międzynarodowej i Rozwojowej (ISWMR) (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">Instrument Partnerstwa na rzecz współpracy z państwami trzecimi (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Europejski program na rzecz zatrudnienia i innowacji społecznych (EaSI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">Instrument pożyczkowy na rzecz sektora publicznego w ramach mechanizmu sprawiedliwej transformacji (JTM) (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">React-EU (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Konwergencja regionalna (regiony słabiej rozwinięte) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">Unijny Mechanizm Ochrony Ludności (rescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">Obowiązkowe składki na regionalne organizacje ds. zarządzania rybołówstwem (RFMO) i inne organizacje międzynarodowe (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Naruszenie obowiązków w dziedzinie prawa socjalnego</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">Porozumienia z innymi wykonawcami mające na celu zakłócenie konkurencji</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Poważne wykroczenie zawodowe</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Winni wprowadzenia w błąd, zatajenia informacji, niemożności dostarczenia wymaganych dokumentów i uzyskania informacji poufnych w ramach tej procedury</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Wprowadzenie w błąd, zatajenie informacji, niemożność przedstawienia wymaganych dokumentów lub uzyskanie poufnych informacji na temat przedmiotowego postępowania</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">Przestępstwo dotyczące etyki zawodowej w odniesieniu do zamówień w dziedzinie obronności</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Konflikt interesów spowodowany udziałem w postępowaniu o udzielenie zamówienia</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Bezpośrednie lub pośrednie zaangażowanie w przygotowanie przedmiotowego postępowania o udzielenie zamówienia</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">Inna sytuacja podobna do upadłości wynikająca z prawa krajowego</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Uwaga</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Dokumenty zamówienia</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Jednolity europejski dokument zamówienia (ESPD)</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Zgłoszenie przedłożone, administracyjne zamknięcie procedury wstępnego przeglądu przewidzianej w rozporządzeniu w sprawie subsydiów zagranicznych</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Zgłoszenie przedłożone, decyzja nakładająca zobowiązania</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Zgłoszenie przedłożone, decyzja w sprawie nieprawidłowej oferty lub nieprawidłowego wniosku o dopuszczenie do udziału</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Brak wyjątków</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Wyjątek – tylko jedna oferta</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Wyjątek uzasadniony interesem publicznym</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">Rozporządzenie (UE) 2025/1197: Wyroby medyczne pochodzące z Chińskiej Republiki Ludowej</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Wyroby medyczne pochodzące z Chin – rozporządzenie (UE) 2025/1197</entry>
 <entry key="code|name|ipi-scope.false">nie</entry>
 <entry key="code|name|ipi-scope.true">tak</entry>
 <entry key="code|name|irregularity-type.ab-low">Nieuzasadnione odrzucenie rażąco niskich ofert</entry>
@@ -10645,7 +10645,7 @@
 <entry key="code|name|language.LTZ">luksemburski</entry>
 <entry key="code|name|language.LUA">luba-kasai</entry>
 <entry key="code|name|language.MAH">marszalski</entry>
-<entry key="code|name|language.MAN">mande</entry>
+<entry key="code|name|language.MAN">manding</entry>
 <entry key="code|name|language.MIN">minangkabau</entry>
 <entry key="code|name|language.MKD">macedoński</entry>
 <entry key="code|name|language.MLG">malgaski</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">Ukraina</entry>
 <entry key="code|name|lawful-country.WLF">Wallis i Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-1.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-1.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-1.other">Inny</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-10.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-10.other">Inny</entry>
 <entry key="code|name|legal-basis-11.32014L0025">Dyrektywa 2014/25/UE</entry>
 <entry key="code|name|legal-basis-11.other">Inny</entry>
 <entry key="code|name|legal-basis-12.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-12.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-12.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-12.other">Inny</entry>
 <entry key="code|name|legal-basis-13.32014L0025">Dyrektywa 2014/25/UE</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">Dyrektywa 2014/25/UE</entry>
 <entry key="code|name|legal-basis-15.other">Inny</entry>
 <entry key="code|name|legal-basis-16.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-16.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-16.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-16.other">Inny</entry>
 <entry key="code|name|legal-basis-17.32014L0025">Dyrektywa 2014/25/UE</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">Dyrektywa 2014/25/UE</entry>
 <entry key="code|name|legal-basis-2.other">Inny</entry>
 <entry key="code|name|legal-basis-20.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-20.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-20.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-20.other">Inny</entry>
 <entry key="code|name|legal-basis-21.32014L0025">Dyrektywa 2014/25/UE</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">Dyrektywa 2009/81/WE</entry>
 <entry key="code|name|legal-basis-22.other">Inny</entry>
 <entry key="code|name|legal-basis-23.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-23.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-23.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-23.other">Inny</entry>
 <entry key="code|name|legal-basis-24.32014L0025">Dyrektywa 2014/25/UE</entry>
 <entry key="code|name|legal-basis-24.other">Inny</entry>
 <entry key="code|name|legal-basis-25.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-25.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-25.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-25.other">Inny</entry>
 <entry key="code|name|legal-basis-26.32014L0025">Dyrektywa 2014/25/UE</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">Dyrektywa 2014/23/UE</entry>
 <entry key="code|name|legal-basis-28.other">Inny</entry>
 <entry key="code|name|legal-basis-29.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-29.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-29.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-29.other">Inny</entry>
 <entry key="code|name|legal-basis-3.32009L0081">Dyrektywa 2009/81/WE</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">Dyrektywa 2014/23/UE</entry>
 <entry key="code|name|legal-basis-32.other">Inny</entry>
 <entry key="code|name|legal-basis-33.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-33.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-33.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-33.other">Inny</entry>
 <entry key="code|name|legal-basis-34.32014L0025">Dyrektywa 2014/25/UE</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">Dyrektywa 2014/23/UE</entry>
 <entry key="code|name|legal-basis-35.other">Inny</entry>
 <entry key="code|name|legal-basis-36.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-36.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-36.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-36.other">Inny</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Dyrektywa 2014/25/UE</entry>
 <entry key="code|name|legal-basis-37.other">Inny</entry>
 <entry key="code|name|legal-basis-38.32009L0081">Dyrektywa 2009/81/WE</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-38.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-38.other">Inny</entry>
 <entry key="code|name|legal-basis-39.32014L0025">Dyrektywa 2014/25/UE</entry>
 <entry key="code|name|legal-basis-39.other">Inny</entry>
 <entry key="code|name|legal-basis-4.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-4.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-4.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-4.other">Inny</entry>
 <entry key="code|name|legal-basis-40.32014L0023">Dyrektywa 2014/23/UE</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">Dyrektywa 2009/81/WE</entry>
 <entry key="code|name|legal-basis-6.other">Inny</entry>
 <entry key="code|name|legal-basis-7.32014L0024">Dyrektywa 2014/24/UE</entry>
-<entry key="code|name|legal-basis-7.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-7.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-7.other">Inny</entry>
 <entry key="code|name|legal-basis-8.32014L0025">Dyrektywa 2014/25/UE</entry>
 <entry key="code|name|legal-basis-8.other">Inny</entry>
 <entry key="code|name|legal-basis-9.32009L0081">Dyrektywa 2009/81/WE</entry>
 <entry key="code|name|legal-basis-9.other">Inny</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">Dyrektywa 2009/81/WE</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">Dyrektywa 2014/23/UE</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">Dyrektywa 2014/24/UE</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">Dyrektywa 2014/25/UE</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.other">Inny</entry>
 <entry key="code|name|legal-basis-e2.other">Inny</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">Dyrektywa 2014/23/UE</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">Dyrektywa 2014/24/UE</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">Dyrektywa 2014/25/UE</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e5.other">Inny</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">Dyrektywa 2009/81/WE</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">Dyrektywa 2014/23/UE</entry>
 <entry key="code|name|legal-basis.32014L0024">Dyrektywa 2014/24/UE</entry>
 <entry key="code|name|legal-basis.32014L0025">Dyrektywa 2014/25/UE</entry>
-<entry key="code|name|legal-basis.32018R1046">Rozporządzenie (UE, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis.32024R2509">Rozporządzenie (UE, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis.other">Inny</entry>
 <entry key="code|name|linguistic-status.non-official">Wersja w języku nieurzędowym</entry>
@@ -16288,7 +16271,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">Informacja na temat nagród i kar</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Uwaga</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Dokumenty zamówienia</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Jednolity europejski dokument zamówienia (ESPD)</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Obiekty studiów, techniczne i badawcze</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Narzędzia, zakłady lub sprzęt techniczny</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Środki zarządzania środowiskiem</entry>
