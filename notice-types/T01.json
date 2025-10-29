@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.228",
-    "createdOn" : "2025-09-25T11:35:21"
+    "version" : "1.13.326",
+    "createdOn" : "2025-10-29T10:34:36"
   },
   "noticeId" : "T01",
   "metadata" : [ {
@@ -703,6 +703,25 @@
       "description" : "Submission Info",
       "_label" : "group|name|GR-Lot-SubmissionInfo",
       "content" : [ {
+        "id" : "GR-Lot-Deadlines1",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Deadlines I",
+        "_label" : "group|name|GR-Lot-Deadlines1",
+        "content" : [ {
+          "id" : "BT-13(d)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Additional Information Deadline",
+          "_label" : "field|name|BT-13(d)-Lot"
+        }, {
+          "id" : "BT-13(t)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Additional Information Deadline",
+          "_label" : "field|name|BT-13(t)-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-ProcurementDocuments",
         "contentType" : "group",
         "nodeId" : "ND-LotProcurementDocument",
