@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Orgán ústrednej štátnej správy</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Dodávateľ v oblasti obrany</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">Inštitúcia, orgán alebo agentúra EÚ</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Skupina verejných orgánov</entry>
 <entry key="code|name|buyer-legal-type.int-org">Medzinárodná organizácia</entry>
 <entry key="code|name|buyer-legal-type.la">Miestny orgán</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Organizácia, ktorá zadáva zákazku subvencovanú verejným obstarávateľom</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Jüan</entry>
 <entry key="code|name|currency.COP">Kolumbijské peso</entry>
 <entry key="code|name|currency.CRC">Kostarický kolón</entry>
-<entry key="code|name|currency.CUC">Konvertibilné peso</entry>
 <entry key="code|name|currency.CUP">Kubánske peso</entry>
 <entry key="code|name|currency.CVE">Kapverdské escudo</entry>
 <entry key="code|name|currency.CZK">Česká koruna</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Tala</entry>
 <entry key="code|name|currency.XAF">Frank CFA (BEAC)</entry>
 <entry key="code|name|currency.XCD">Východokaribský dolár</entry>
+<entry key="code|name|currency.XCG">Karibský gulden</entry>
 <entry key="code|name|currency.XOF">Frank CFA (BCEAO)</entry>
 <entry key="code|name|currency.XPF">Frank CFP</entry>
 <entry key="code|name|currency.YER">Jemenský rial</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Obmedzený prístup k súťažným podkladom</entry>
 <entry key="code|name|document-status.non-official">Verzia v inom ako úradnom jazyku</entry>
 <entry key="code|name|document-status.official">Verzia v úradnom jazyku</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Žiadosť o jednotný európsky dokument pre obstarávanie</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Oznámenie</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Súťažný podklad</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Jednotný európsky dokument pre obstarávanie (JED)</entry>
 <entry key="code|name|dps-usage.dps-list">Dynamický nákupný systém, použiteľný len kupujúcimi uvedenými v tomto oznámení</entry>
 <entry key="code|name|dps-usage.dps-nlist">Dynamický nákupný systém, použiteľný aj kupujúcimi neuvedenými v tomto oznámení</entry>
 <entry key="code|name|dps-usage.none">Žiadny dynamický nákupný systém</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">Program pre životné prostredie a ochranu klímy (LIFE) (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">Garančný fond pre vonkajšie opatrenia (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Makrofinančná pomoc (MFA) (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Modernizačný fond (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">Vojenská mobilita (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">Programy pomoci na vyraďovanie jadrových zariadení z prevádzky v Bulharsku, Litve a na Slovensku (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">Nástroj susedstva a rozvojovej a medzinárodnej spolupráce (NDICI) (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">Nástroj partnerstva pre spoluprácu s tretími krajinami (PI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Program Európskej únie v oblasti zamestnanosti a sociálnej inovácie (EaSI) (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">Úverový nástroj pre verejný sektor v rámci Mechanizmu spravodlivej transformácie (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">REACT-EU (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Regionálna konvergencia (menej rozvinuté regióny) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">Mechanizmus Únie v oblasti civilnej ochrany (rescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">Povinné príspevky do regionálnych organizácií pre riadenie rybárstva (RFMO) a do iných medzinárodných organizácií (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Porušenie povinností v oblasti sociálneho práva</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">Dohody s inými hospodárskymi subjektmi s cieľom narušiť hospodársku súťaž</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Závažné odborné pochybenie</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Nepravdivé informácie, neposkytnutie informácií, poskytnutie požadovaných dokumentov a získanie dôverných informácií o tomto postupe</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Nepravdivé informácie, neposkytnutie informácií, neschopnosť predložiť požadované dokumenty alebo získanie dôverných informácií o tomto postupe</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">Trestný čin týkajúci sa profesionálneho správania vo verejnom obstarávaní v oblasti obrany</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Konflikt záujmov z dôvodu účasti na postupe obstarávania</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Priama alebo nepriama účasť na príprave tohto postupu obstarávania</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">Podobná situácia ako úpadok podľa vnútroštátneho práva</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Oznámenie</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Súťažný podklad</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Jednotný európsky dokument pre obstarávanie (JED)</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Oznámenie predložené, administratívne uzavretie postupu predbežného preskúmania podľa nariadenia o zahraničných subvenciách</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Oznámenie predložené, rozhodnutie so záväzkami</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Oznámenie predložené, rozhodnutie o neregulárnej ponuke alebo žiadosti o účasť</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Žiadne výnimky</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Výnimka len jedna ponuka</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Výnimka vo verejnom záujme</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">Nariadenie (EÚ) 2025/1197: Zdravotnícke pomôcky s pôvodom v Čínskej ľudovej republike</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Zdravotnícke pomôcky s pôvodom v Číne – nariadenie (EÚ) 2025/1197</entry>
 <entry key="code|name|ipi-scope.false">nie</entry>
 <entry key="code|name|ipi-scope.true">áno</entry>
 <entry key="code|name|irregularity-type.ab-low">Neodôvodnené zamietnutie ponúk s neobvykle nízkou cenou</entry>
@@ -10645,7 +10645,7 @@
 <entry key="code|name|language.LTZ">luxemburčina</entry>
 <entry key="code|name|language.LUA">lubčina</entry>
 <entry key="code|name|language.MAH">marshallčina</entry>
-<entry key="code|name|language.MAN">mandingčina</entry>
+<entry key="code|name|language.MAN">manding</entry>
 <entry key="code|name|language.MIN">minangkabaučina</entry>
 <entry key="code|name|language.MKD">macedónčina</entry>
 <entry key="code|name|language.MLG">malgaština</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">Ukrajina</entry>
 <entry key="code|name|lawful-country.WLF">Wallis a Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-1.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-1.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-1.other">Iný</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-10.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-10.other">Iný</entry>
 <entry key="code|name|legal-basis-11.32014L0025">Smernica 2014/25/EÚ</entry>
 <entry key="code|name|legal-basis-11.other">Iný</entry>
 <entry key="code|name|legal-basis-12.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-12.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-12.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-12.other">Iný</entry>
 <entry key="code|name|legal-basis-13.32014L0025">Smernica 2014/25/EÚ</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">Smernica 2014/25/EÚ</entry>
 <entry key="code|name|legal-basis-15.other">Iný</entry>
 <entry key="code|name|legal-basis-16.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-16.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-16.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-16.other">Iný</entry>
 <entry key="code|name|legal-basis-17.32014L0025">Smernica 2014/25/EÚ</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">Smernica 2014/25/EÚ</entry>
 <entry key="code|name|legal-basis-2.other">Iný</entry>
 <entry key="code|name|legal-basis-20.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-20.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-20.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-20.other">Iný</entry>
 <entry key="code|name|legal-basis-21.32014L0025">Smernica 2014/25/EÚ</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">Smernica 2009/81/ES</entry>
 <entry key="code|name|legal-basis-22.other">Iný</entry>
 <entry key="code|name|legal-basis-23.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-23.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-23.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-23.other">Iný</entry>
 <entry key="code|name|legal-basis-24.32014L0025">Smernica 2014/25/EÚ</entry>
 <entry key="code|name|legal-basis-24.other">Iný</entry>
 <entry key="code|name|legal-basis-25.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-25.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-25.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-25.other">Iný</entry>
 <entry key="code|name|legal-basis-26.32014L0025">Smernica 2014/25/EÚ</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">Smernica 2014/23/EÚ</entry>
 <entry key="code|name|legal-basis-28.other">Iný</entry>
 <entry key="code|name|legal-basis-29.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-29.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-29.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-29.other">Iný</entry>
 <entry key="code|name|legal-basis-3.32009L0081">Smernica 2009/81/ES</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">Smernica 2014/23/EÚ</entry>
 <entry key="code|name|legal-basis-32.other">Iný</entry>
 <entry key="code|name|legal-basis-33.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-33.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-33.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-33.other">Iný</entry>
 <entry key="code|name|legal-basis-34.32014L0025">Smernica 2014/25/EÚ</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">Smernica 2014/23/EÚ</entry>
 <entry key="code|name|legal-basis-35.other">Iný</entry>
 <entry key="code|name|legal-basis-36.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-36.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-36.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-36.other">Iný</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Smernica 2014/25/EÚ</entry>
 <entry key="code|name|legal-basis-37.other">Iný</entry>
 <entry key="code|name|legal-basis-38.32009L0081">Smernica 2009/81/ES</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-38.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-38.other">Iný</entry>
 <entry key="code|name|legal-basis-39.32014L0025">Smernica 2014/25/EÚ</entry>
 <entry key="code|name|legal-basis-39.other">Iný</entry>
 <entry key="code|name|legal-basis-4.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-4.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-4.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-4.other">Iný</entry>
 <entry key="code|name|legal-basis-40.32014L0023">Smernica 2014/23/EÚ</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">Smernica 2009/81/ES</entry>
 <entry key="code|name|legal-basis-6.other">Iný</entry>
 <entry key="code|name|legal-basis-7.32014L0024">Smernica 2014/24/EÚ</entry>
-<entry key="code|name|legal-basis-7.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-7.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-7.other">Iný</entry>
 <entry key="code|name|legal-basis-8.32014L0025">Smernica 2014/25/EÚ</entry>
 <entry key="code|name|legal-basis-8.other">Iný</entry>
 <entry key="code|name|legal-basis-9.32009L0081">Smernica 2009/81/ES</entry>
 <entry key="code|name|legal-basis-9.other">Iný</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">Smernica 2009/81/ES</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">Smernica 2014/23/EÚ</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">Smernica 2014/24/EÚ</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">Smernica 2014/25/EÚ</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.other">Iný</entry>
 <entry key="code|name|legal-basis-e2.other">Iný</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">Smernica 2014/23/EÚ</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">Smernica 2014/24/EÚ</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">Smernica 2014/25/EÚ</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e5.other">Iný</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">Smernica 2009/81/ES</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">Smernica 2014/23/EÚ</entry>
 <entry key="code|name|legal-basis.32014L0024">Smernica 2014/24/EÚ</entry>
 <entry key="code|name|legal-basis.32014L0025">Smernica 2014/25/EÚ</entry>
-<entry key="code|name|legal-basis.32018R1046">Nariadenie (EÚ, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis.32024R2509">Nariadenie (EÚ, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis.other">Iný</entry>
 <entry key="code|name|linguistic-status.non-official">Verzia v inom ako úradnom jazyku</entry>
@@ -10944,6 +10927,8 @@
 <entry key="code|name|measurement-unit.MTK">meter štvorcový</entry>
 <entry key="code|name|measurement-unit.MTR">meter</entry>
 <entry key="code|name|measurement-unit.TNE">tona</entry>
+<entry key="code|name|metric-type.nrg-con-yr">Spotreba energie v kWh/rok</entry>
+<entry key="code|name|metric-type.nrg-sav-yr">Úspory energie v kWh/rok</entry>
 <entry key="code|name|missing-info-submission.late-all">Podľa uváženia kupujúceho sa môžu všetky chýbajúce dokumenty týkajúce sa uchádzača predložiť neskôr.</entry>
 <entry key="code|name|missing-info-submission.late-none">Žiadne dokumenty nemožno predložiť neskôr.</entry>
 <entry key="code|name|missing-info-submission.late-some">Podľa uváženia kupujúceho sa môžu niektoré chýbajúce dokumenty týkajúce sa uchádzača predložiť neskôr.</entry>
@@ -16288,7 +16273,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">Informácie o odmenách a sankciách</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Oznámenie</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Súťažný podklad</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Jednotný európsky dokument pre obstarávanie (JED)</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Študijné, technické a výskumné zariadenia</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Nástroje, závody alebo technické zariadenia</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Opatrenia pre environmentálny manažment</entry>

@@ -1,12 +1,6 @@
 // View E5
 // File generated from metadata database
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
-	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
-		{ND-ContractingParty} #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Official name
-		{BT-11-Procedure-Buyer} #{field|name|BT-11-Procedure-Buyer}: #{BT-11-Procedure-Buyer} // Legal type of the buyer
-		{BT-740-Procedure-Buyer[BT-740-Procedure-Buyer == 'cont-ent']} #{field|name|BT-740-Procedure-Buyer} // Buyer Contracting Entity
-		{BT-10-Procedure-Buyer} #{field|name|BT-10-Procedure-Buyer}: #value // Activity of the contracting authority
-		{BT-610-Procedure-Buyer} #{field|name|BT-610-Procedure-Buyer}: #{BT-610-Procedure-Buyer} // Activity Entity
 2 {ND-Root} #{auxiliary|text|procedure} // 2 Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{ND-ProcedureProcurementScope} #{field|name|BT-21-Procedure}: ${BT-21-Procedure} // Procedure Title
@@ -364,7 +358,7 @@
 			0 {ND-LotTenderingTerms[(BT-736-Lot is present) or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot is present) or (BT-93-Lot is present) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-681-Lot == 'true') or (BT-684-Lot == 'true')]} #{auxiliary|text|contract-terms}: // Terms of contract
 				{BT-736-Lot} #{field|name|BT-736-Lot}: #{BT-736-Lot} // The execution of the contract must be performed in the framework of sheltered employment programmes (yes / no / not-known)
 				{ND-ExecutionRequirements[BT-70-Lot is present]} #{field|name|BT-70-Lot}: ${BT-70-Lot} // Terms Performance
-		15 {ND-LotTenderingProcess[(BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present) or (BT-766-Lot is present) or (BT-119-LotResult == TRUE) or (BT-123-Lot is present) or (BT-122-Lot is present)]} #{auxiliary|text|techniques} // 5.1.15 Techniques
+		15 {ND-LotTenderingProcess[(BT-767-Lot is present) or (BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present) or (BT-766-Lot is present) or (BT-119-LotResult == TRUE) or (BT-123-Lot is present) or (BT-122-Lot is present)]} #{auxiliary|text|techniques} // 5.1.15 Techniques
 			0 {ND-LotTenderingProcess[(BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present)]} #{auxiliary|text|framework-agreement}: // Information about framework agreement
 				{BT-765-Lot} #{BT-765-Lot} // Framework Agreement Type
 				{BT-137-Lot[BT-111-Lot is present]} #{field|name|BT-111-Lot}: ${BT-111-Lot} // Framework Buyer Categories (Lot)

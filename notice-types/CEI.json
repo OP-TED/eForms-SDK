@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.76",
-    "createdOn" : "2025-01-09T16:37:23"
+    "version" : "1.13.326",
+    "createdOn" : "2025-10-29T10:34:36"
   },
   "noticeId" : "CEI",
   "metadata" : [ {
@@ -967,12 +967,12 @@
           "_label" : "field|name|BT-630(t)-Lot"
         } ]
       }, {
-        "id" : "GR-Lot-Submission Language",
+        "id" : "GR-Lot-SubmissionLanguage",
         "contentType" : "group",
         "nodeId" : "ND-LotSubmissionLanguage",
         "displayType" : "GROUP",
         "description" : "Submission language",
-        "_label" : "group|name|GR-Lot-Submission Language",
+        "_label" : "group|name|GR-Lot-SubmissionLanguage",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-97-Lot",

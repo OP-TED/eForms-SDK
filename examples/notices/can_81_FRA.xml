@@ -31,6 +31,18 @@
 								<!--BT-759-->
 								<efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
 								<!--OPT-315-->
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>

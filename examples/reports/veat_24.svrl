@@ -316,6 +316,7 @@
    <svrl:fired-rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '25']"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '25']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-25"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '25']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty[$noticeSubType = '25']"/>
    <svrl:fired-rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '25']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '25']"/>
@@ -369,7 +370,6 @@
    <svrl:fired-rule context="/*/cac:TenderingProcess"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult"/>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:TotalAmount"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:LotTender/cbc:ID"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"/>

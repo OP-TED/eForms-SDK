@@ -5,7 +5,7 @@
       <ShortName>FormType</ShortName>
       <LongName>form-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/form-type</LongName>
-      <Version>20241211-0</Version>
+      <Version>20250924-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/form-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -220,7 +220,7 @@
             <SimpleValue>Wettbewerb</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Aνταγωνισμός</SimpleValue>
+            <SimpleValue>Διαγωνισμός</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Competition</SimpleValue>

@@ -638,23 +638,30 @@
                        test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00200-0051</svrl:text>
    </svrl:failed-assert>
+   <svrl:failed-assert id="OPT-200-Organization-Company-Scheme_MA"
+                       location="/cn:ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
+                       role="ERROR"
+                       test="count(@schemeName) &gt; 0">
+      <svrl:text>rule|text|OPT-200-Organization-Company-Scheme_MA</svrl:text>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-3b-16"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '16']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-16"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '16']"/>
+   <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '16']"/>
+   <svrl:failed-assert id="BR-BT-00050-0022"
+                       location="/cn:ContractNotice/cac:ProcurementProjectLot"
+                       role="ERROR"
+                       test="count(cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:MinimumQuantity) &gt; 0 or (../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or ../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' or ../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">
+      <svrl:text>rule|text|BR-BT-00050-0022</svrl:text>
+      <svrl:diagnostic-reference diagnostic="ND-Lot_BT-50-Lot" see="field:BT-50-Lot">
+         <svrl:text>cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:MinimumQuantity</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '16']"/>
-   <svrl:failed-assert id="BR-BT-00050-0022"
-                       location="/cn:ContractNotice/cac:ProcurementProjectLot/cac:TenderingProcess"
-                       role="ERROR"
-                       test="count(cac:EconomicOperatorShortList/cbc:MinimumQuantity) &gt; 0 or (../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open' or ../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'oth-single' or ../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'neg-wo-call')">
-      <svrl:text>rule|text|BR-BT-00050-0022</svrl:text>
-      <svrl:diagnostic-reference diagnostic="ND-LotTenderingProcess_BT-50-Lot" see="field:BT-50-Lot">
-         <svrl:text>cac:EconomicOperatorShortList/cbc:MinimumQuantity</svrl:text>
-      </svrl:diagnostic-reference>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms[$noticeSubType = '16']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '16']"/>
    <svrl:failed-assert id="BR-BT-00018-0022"

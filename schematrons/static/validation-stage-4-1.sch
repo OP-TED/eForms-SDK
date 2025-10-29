@@ -33,6 +33,9 @@
 		<assert id="BR-BT-05141-0004" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) &gt; 0 or (cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0004</assert>
 		<assert id="BR-BT-05141-0190" role="ERROR" diagnostics="BT-5141-Procedure" test="count(cac:Country/cbc:IdentificationCode) = 0 or not(cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0190</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AdditionalInformationRequestPeriod[$noticeSubType = '1']">
+		<assert id="BR-BT-00013-0217" role="ERROR" diagnostics="BT-13_t_-Lot" test="count(cbc:EndTime) = 0 or (cbc:EndDate)">rule|text|BR-BT-00013-0217</assert>
+	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '1']">
 		<assert id="BR-BT-00001-0108" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-00001-0108</assert>
 		<assert id="BR-BT-00001-0157" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID)">rule|text|BR-BT-00001-0157</assert>

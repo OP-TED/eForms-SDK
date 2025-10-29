@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Energy Consumption in kWh/year</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Консумация на енергия в kWh/година</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Spotřeba energie v kWh/rok</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Energiforbrug i kWh/år</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Energieverbrauch in kWh/Jahr</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Κατανάλωση ενέργειας σε kWh/έτος</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Energy Consumption in kWh/year</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Consumo de energía, en kWh/año</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Energiatarbimine kilovatt-tundides Energiatarbimine kilovatt-tundides aastas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Energiankulutus (kWh/vuosi)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Consommation d’énergie en kWh/an</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Úsáid fuinnimh in kWh in aghaidh na bliana</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Potrošnja energije u kWh/godišnje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Energiafogyasztás (kWh/év)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Consumo energetico in kWh/anno</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Suvartotos energijos kiekis (kWh per metus)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Enerģijas patēriņš, izteikts kā kWh/gadā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Konsum tal-enerġija f’kWh/sena</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Energieverbruik in kWh/jaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Zużycie energii w kWh/rok</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Consumo de energia em kWh/ano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Consumul de energie în kWh/an</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Spotreba energie v kWh/rok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Poraba energije v kWh/leto</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Energiförbrukning i kWh/år</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Energy Savings in kWh/year</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Икономии на енергия в kWh/година</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Úspory energie v kWh/rok</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Energibesparelser i kWh/år</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Energieeinsparungen in kWh/Jahr</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Εξοικονόμηση ενέργειας σε kWh/έτος</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Energy Savings in kWh/year</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ahorro de energía, en kWh/año</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Energiasääst kilovatt-tundides aastas</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Energiansäästö (kWh/vuosi)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Économies d’énergie en kWh/an</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Coigilteas fuinnimh in kWh in aghaidh na bliana</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ušteda energije u kWh/godišnje</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Energiamegtakarítás (kWh/év)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Risparmio energetico in kWh/anno</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Sutaupytos energijos kiekis (kWh per metus)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Enerģijas ietaupījums, izteikts ka kWh/gadā</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Iffrankar tal-enerġija f’kWh/sena</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Energiebesparing in kWh/jaar</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Oszczędność energii w kWh/rok</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Poupança de energia em kWh/ano</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Economii de energie în kWh/an</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Úspory energie v kWh/rok</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Prihranki energije v kWh/leto</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Energibesparingar i kWh/år</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

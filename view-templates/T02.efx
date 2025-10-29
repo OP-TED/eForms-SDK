@@ -67,6 +67,9 @@
 			{BT-537-Lot} #{field|name|BT-537-Lot}: ${BT-537-Lot} // End date
 			{BT-36-Lot} #{field|name|BT-36-Lot}: ${format-number(OPA-36-Lot-Number, '###,##0.###,###,###')} #{code|name|${concat('duration-unit.', BT-36-Lot/@unitCode)}} // Duration
 			{BT-538-Lot} #{field|name|BT-538-Lot}: #{BT-538-Lot} // Planned Period (Unlimited)
+		7 {ND-LotProcurementScope[(BT-06-Lot is present) or (BT-777-Lot is present) or (BT-774-Lot is present) or (BT-775-Lot is present) or (BT-776-Lot is present) or (BT-805-Lot is present) or (BT-717-Lot is present) or (BT-810-Lot == 'true')]} #{auxiliary|text|strategic-procurement} // 5.1.7 Strategic procurement
+			0 {ND-StrategicProcurementLot[BT-717-Lot == 'true']} #{field|name|BT-717-Lot} // Clean Vehicles Directive
+				{ND-StrategicProcurementLot[BT-735-Lot is present]} #{field|name|BT-735-Lot} #{BT-735-Lot} // CVD Contract Type
 		12 {ND-Lot[(BT-631-Lot is present) or (BT-130-Lot is present) or (BT-578-Lot == 'true') or (BT-732-Lot is present) or (BT-78-Lot is present) or (BT-42-Lot is present) or (BT-46-Lot is present) or (BT-47-Lot is present) or (BT-644-Lot is present) or (BT-44-Lot is present) or (BT-41-Lot == TRUE) or (BT-45-Lot is present) or (BT-651-Lot is present) or (BT-17-Lot is present) or (BT-18-Lot is present) or (BT-19-Lot is present) or (BT-745-Lot is present) or (BT-97-Lot is present) or (BT-764-Lot is present) or (BT-744-Lot == 'true') or (BT-63-Lot is present) or (BT-769-Lot is present) or (BT-75-Lot is present) or (BT-630(d)-Lot is present) or (BT-1311(d)-Lot is present) or (BT-131(d)-Lot is present) or (BT-98-Lot is present) or ((BT-771-Lot is present) and (BT-772-Lot is present)) or (BT-132(d)-Lot is present) or (BT-133-Lot is present) or (BT-134-Lot is present) or (BT-736-Lot is present) or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot is present) or (BT-93-Lot is present) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-681-Lot == 'true') or (OPP-020-Contract is present) or (BT-684-Lot == 'true')]} #{auxiliary|text|procurement-terms} // 5.1.12 Procurement terms
 			0 {BT-137-Lot[(some text:$conid in (for text:$lotid1 in BT-137-Lot, text:$conid1 in OPT-315-LotResult[BT-13713-LotResult == $lotid1] return $conid1) satisfies $conid != '')]} #{auxiliary|text|essential-assets} // Essential assets (T02)
 				{BT-137-Lot[(some indicator:$edi in (for text:$lotid1 in BT-137-Lot, text:$conid1 in OPT-315-LotResult[BT-13713-LotResult == $lotid1], indicator:$edi1 in OPP-020-Contract[OPT-316-Contract == $conid1] return $edi1) satisfies $edi == TRUE)]} #{field|name|OPP-020-Contract} // Contract duration is extended due to essential assets necessary for the provision of the service (T02)
@@ -219,8 +222,8 @@
 						{BT-815-LotResult} #{field|name|BT-815-LotResult}: ${BT-815-LotResult} // Energy Efficiency Quantity
 				0 {ND-IPILotResult} #{auxiliary|text|international-procurement-instrument-statistics} // IPI Measures
 					0 {ND-IPIAppliedMeasure} #{BT-685-LotResult} // IPI-${count(for text:$lrid in OPT-322-LotResult return preceding::BT-687-LotResult[OPT-322-LotResult == $lrid]) + 1}: // Specific IPI Measure
-						{BT-686-LotResult} #{field|name|BT-686-LotResult} ${BT-686-LotResult} // Number of tender applications that fall under this IPI Measure
-						{BT-687-LotResult} #{field|name|BT-687-LotResult} #{BT-687-LotResult}: // Exception to the application of the IPI Measure
+						{BT-686-LotResult} #{field|name|BT-686-LotResult}: ${BT-686-LotResult} // Number of tender applications that fall under this IPI Measure
+						{BT-687-LotResult} #{field|name|BT-687-LotResult}: #{BT-687-LotResult} // Exception to the application of the IPI Measure
 						{ND-IPIAppliedMeasure[BT-688-LotResult is present]} #{field|name|BT-688-LotResult}: ${BT-688-LotResult} // Overriding reasons relating to the public interest
 7 {ND-Root[BT-1501(n)-Contract is present]} #{auxiliary|text|modification} // 7 Modifications
 	1 {ND-ContractModification} #{auxiliary|text|modification} // 7.1 Modification

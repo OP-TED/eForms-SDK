@@ -1,10 +1,6 @@
 // View 10
 // File generated from metadata database
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
-	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
-		{ND-ContractingParty} #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Official name
-		{BT-11-Procedure-Buyer} #{field|name|BT-11-Procedure-Buyer}: #{BT-11-Procedure-Buyer} // Legal type of the buyer
-		{BT-10-Procedure-Buyer} #{field|name|BT-10-Procedure-Buyer}: #value // Activity of the contracting authority
 2 {ND-Root} #{auxiliary|text|procedure} // 2 Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{ND-ProcedureProcurementScope} #{field|name|BT-21-Procedure}: ${BT-21-Procedure} // Procedure Title
@@ -162,7 +158,7 @@
 					0 {ND-LotAwardThresholdCriterionParameter[BT-541-Lot-ThresholdNumber != -1]} #{name|BT-541}: ${format-number(BT-541-Lot-ThresholdNumber, '###,##0.###,###,###')} // Award Criterion Threshold Number
 			0 {ND-LotAwardCriteria[BT-543-Lot != 'unpublished']} #{field|name|BT-543-Lot}: ${BT-543-Lot} // Award Criteria Complicated
 			0 {ND-LotAwardCriteria[BT-733-Lot != 'unpublished']} #{field|name|BT-733-Lot}: ${BT-733-Lot} // Justification for not indicating the weighing of the award criteria
-		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
+		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present) or (BT-13(d)-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
 			{BT-137-Lot[some text:$restricted in (for text:$somerestricted in BT-14-Lot return $somerestricted) satisfies $restricted == 'restricted-document']} #{field|name|BT-14-Lot} // The access to certain procurement documents is restricted. (Lot)
 			{BT-707-Lot} #{field|name|BT-707-Lot}: #{BT-707-Lot} // Justification for restricting access to certain procurement documents (Lot)
 			{BT-137-Lot[(BT-708-Lot is present)]} #{field|name|BT-708-Lot}: #{BT-708-Lot} // Languages in which the procurement documents are officially available (Lot)
@@ -212,7 +208,7 @@
 				{BT-93-Lot} #{field|name|BT-93-Lot}: #{code|name|${if (BT-93-Lot == TRUE) then 'indicator.true' else 'indicator.false'}} // Electronic payment will be used (true/false)
 				{BT-761-Lot[(BT-76-Lot is present)]} #{field|name|BT-76-Lot}: ${BT-76-Lot} // Legal form that must be taken by a group of tenderers that is awarded a contract
 				{ND-PaymentTerms[BT-77-Lot is present]} #{field|name|BT-77-Lot}: ${BT-77-Lot} // Financial arrangement
-		15 {ND-LotTenderingProcess[(BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present) or (BT-766-Lot is present) or (BT-119-LotResult == TRUE) or (BT-123-Lot is present) or (BT-122-Lot is present)]} #{auxiliary|text|techniques} // 5.1.15 Techniques
+		15 {ND-LotTenderingProcess[(BT-767-Lot is present) or (BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present) or (BT-766-Lot is present) or (BT-119-LotResult == TRUE) or (BT-123-Lot is present) or (BT-122-Lot is present)]} #{auxiliary|text|techniques} // 5.1.15 Techniques
 			0 {ND-LotTenderingProcess[(BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present)]} #{auxiliary|text|framework-agreement}: // Information about framework agreement
 				{BT-765-Lot} #{BT-765-Lot} // Framework Agreement Type
 				{BT-113-Lot} #{field|name|BT-113-Lot}: ${BT-113-Lot} // Maximum number of participants

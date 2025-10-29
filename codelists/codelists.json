@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.158",
-    "createdOn" : "2025-07-22T17:17:25"
+    "version" : "1.13.326",
+    "createdOn" : "2025-10-29T10:34:36"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -14,7 +14,7 @@
     "_label" : "codelist|name|accelerated-procedure"
   }, {
     "id" : "accessibility",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "accessibility.gc",
     "description" : "This table provides a list of options for the use of accessibility criteria for person with disabilities in the technical specifications within the domain of public procurement.",
     "_label" : "codelist|name|accessibility"
@@ -33,7 +33,7 @@
     "_label" : "codelist|name|authority-activity"
   }, {
     "id" : "award-criterion-type",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "award-criterion-type.gc",
     "description" : "List of award criterion codes for award decisions within public procurement procedures.",
     "_label" : "codelist|name|award-criterion-type"
@@ -72,7 +72,7 @@
     "_label" : "codelist|name|buyer-contracting-type"
   }, {
     "id" : "buyer-legal-type",
-    "version" : "20240612-0",
+    "version" : "20250618-0",
     "filename" : "buyer-legal-type.gc",
     "description" : "This table provides a list of the the type of procuring authorities within the domain of public procurement according to legislation.",
     "_label" : "codelist|name|buyer-legal-type"
@@ -212,13 +212,13 @@
     "_label" : "codelist|name|contract-term"
   }, {
     "id" : "corporate-body",
-    "version" : "20250211-0",
+    "version" : "20250618-0",
     "filename" : "corporate-body.gc",
     "description" : "The Corporate body authority table is a controlled vocabulary which provides the varying names of EU corporate bodies for a given time span.",
     "_label" : "codelist|name|corporate-body"
   }, {
     "id" : "country",
-    "version" : "20241211-0",
+    "version" : "20250924-0",
     "filename" : "country.gc",
     "description" : "List of three characters country codes, correlated with the ISO 3166 international standard and additional authority codes for some countries without assigned ISO code.",
     "_label" : "codelist|name|country"
@@ -236,7 +236,7 @@
     "_label" : "codelist|name|criterion"
   }, {
     "id" : "currency",
-    "version" : "20241211-0",
+    "version" : "20250924-0",
     "filename" : "currency.gc",
     "description" : "List of currency codes",
     "_label" : "codelist|name|currency"
@@ -286,7 +286,7 @@
     "_label" : "codelist|name|document-status"
   }, {
     "id" : "document-used-in-public-procurement",
-    "version" : "20240925-0",
+    "version" : "20250319-0",
     "filename" : "document-used-in-public-procurement.gc",
     "description" : "This code list describes documents used in Public Procurement. A set of interrelated business information representing the business facts and associated metadata. The information may be conveyed in any language",
     "_label" : "codelist|name|document-used-in-public-procurement"
@@ -319,7 +319,7 @@
     "_label" : "codelist|name|ecatalog-submission"
   }, {
     "id" : "economic-operator-size",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "economic-operator-size.gc",
     "description" : "This table provides the different categories in which the tenderers to whom a contract can be awarded are classified, according to their size (using as criteria the number of employees).",
     "_label" : "codelist|name|economic-operator-size"
@@ -411,13 +411,13 @@
     "_label" : "codelist|name|eu-official-language"
   }, {
     "id" : "eu-programme",
-    "version" : "20241211-0",
+    "version" : "20250618-0",
     "filename" : "eu-programme.gc",
     "description" : "List of codes for programmes created and coordinated by the European Union and financially supported by the European Union or, in a few cases, by the contributions from the Member States.",
     "_label" : "codelist|name|eu-programme"
   }, {
     "id" : "exclusion-ground",
-    "version" : "20240925-0",
+    "version" : "20250618-0",
     "filename" : "exclusion-ground.gc",
     "description" : "List of codes for Exclusion Ground identification",
     "_label" : "codelist|name|exclusion-ground"
@@ -436,7 +436,7 @@
     "_label" : "codelist|name|foreign-subsidy-measure-conclusion"
   }, {
     "id" : "form-type",
-    "version" : "20241211-0",
+    "version" : "20250924-0",
     "filename" : "form-type.gc",
     "description" : "This table provides the codes and values used for the type of forms published on TED.",
     "_label" : "codelist|name|form-type"
@@ -498,7 +498,7 @@
     "_label" : "codelist|name|irregularity-type"
   }, {
     "id" : "language",
-    "version" : "20240925-0",
+    "version" : "20250618-0",
     "filename" : "language.gc",
     "description" : "List of three characters language codes correlated with the ISO 639 international standard with additional codes for some languages without assigned ISO code.",
     "_label" : "codelist|name|language"
@@ -511,7 +511,7 @@
     "_label" : "codelist|name|lawful-country"
   }, {
     "id" : "legal-basis",
-    "version" : "20241211-0",
+    "version" : "20250319-0",
     "filename" : "legal-basis.gc",
     "description" : "This table provides the legal basis based on the legal acts used for a given public procurement procedure. The table is provided by the Publications Office.",
     "_label" : "codelist|name|legal-basis"
@@ -881,13 +881,13 @@
     "_label" : "codelist|name|linguistic-status"
   }, {
     "id" : "main-activity",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "main-activity.gc",
     "description" : "List of codes for the main activities of the buyers.",
     "_label" : "codelist|name|main-activity"
   }, {
     "id" : "measurement-unit",
-    "version" : "20240321-0",
+    "version" : "20250924-0",
     "filename" : "measurement-unit.gc",
     "description" : "List of codes for the most commonly used Unit of Measures in international trades.",
     "_label" : "codelist|name|measurement-unit"
@@ -899,13 +899,13 @@
     "_label" : "codelist|name|metric-type"
   }, {
     "id" : "missing-info-submission",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "missing-info-submission.gc",
     "description" : "This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.",
     "_label" : "codelist|name|missing-info-submission"
   }, {
     "id" : "modification-justification",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "modification-justification.gc",
     "description" : "This table provides the main reasons for modifying a contract within the domain of public procurement.",
     "_label" : "codelist|name|modification-justification"
@@ -961,19 +961,19 @@
     "_label" : "codelist|name|notice-subtype"
   }, {
     "id" : "notice-type",
-    "version" : "20241211-0",
+    "version" : "20250924-0",
     "filename" : "notice-type.gc",
     "description" : "This table provides a list of public procurement notices according to procurement legislation published once a project is approved.",
     "_label" : "codelist|name|notice-type"
   }, {
     "id" : "number-fixed",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "number-fixed.gc",
     "description" : "This table provides the codes linked to fix values within the context of public procurement.",
     "_label" : "codelist|name|number-fixed"
   }, {
     "id" : "number-threshold",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "number-threshold.gc",
     "description" : "This table provides the codes linked to the type of threshold values within the context of public procurement.",
     "_label" : "codelist|name|number-threshold"
@@ -1264,7 +1264,7 @@
     "_label" : "codelist|name|nuts-xkx-lvl3"
   }, {
     "id" : "organisation-role",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "organisation-role.gc",
     "description" : "This table provides the list of the different functions of the organisations in a procurement procedure.",
     "_label" : "codelist|name|organisation-role"
@@ -1610,7 +1610,7 @@
     "_label" : "codelist|name|procedure-type-t02"
   }, {
     "id" : "procurement-procedure-type",
-    "version" : "20240925-0",
+    "version" : "20250924-0",
     "filename" : "procurement-procedure-type.gc",
     "description" : "This table provides a list of activities leading to the conclusion of public contracts used in public procurement according to the legislation.",
     "_label" : "codelist|name|procurement-procedure-type"
@@ -1623,13 +1623,13 @@
     "_label" : "codelist|name|qu-sy"
   }, {
     "id" : "received-submission-type",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "received-submission-type.gc",
     "description" : "This table provides the list of relevant categories used to classify tenders or requests to participate received within the context of public procurement.",
     "_label" : "codelist|name|received-submission-type"
   }, {
     "id" : "remedy-type",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "remedy-type.gc",
     "description" : "This table describes the measures taken following a review.",
     "_label" : "codelist|name|remedy-type"
@@ -1725,7 +1725,7 @@
     "_label" : "codelist|name|selection-criterion"
   }, {
     "id" : "social-objective",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "social-objective.gc",
     "description" : "List of codes for values linked to any social objective promoted by the specifications, award / selection criteria or contract performance conditions included in a procurement.",
     "_label" : "codelist|name|social-objective"
@@ -1826,7 +1826,7 @@
     "_label" : "codelist|name|vehicles"
   }, {
     "id" : "winner-selection-status",
-    "version" : "20240612-0",
+    "version" : "20250924-0",
     "filename" : "winner-selection-status.gc",
     "description" : "This table provides the list of codes and values used to indicate whether a tenderer was chosen to be awarded with a contract and whether the competition is open.",
     "_label" : "codelist|name|winner-selection-status"

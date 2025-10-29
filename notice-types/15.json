@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.147",
-    "createdOn" : "2025-06-20T16:17:49"
+    "version" : "1.13.326",
+    "createdOn" : "2025-10-29T10:34:36"
   },
   "noticeId" : "15",
   "metadata" : [ {
@@ -498,12 +498,6 @@
         "description" : "Procedure",
         "_label" : "group|name|GR-Procedure-Procedure",
         "content" : [ {
-          "id" : "BT-634-Procedure",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Procurement Relaunch",
-          "_label" : "field|name|BT-634-Procedure"
-        }, {
           "id" : "BT-105-Procedure",
           "contentType" : "field",
           "displayType" : "COMBOBOX",
@@ -973,7 +967,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Fiscal Legislation Document ID",
-          "_label" : "field|name|OPT-111-Lot-FiscalLegis"
+          "_label" : "field|name|OPT-111-Lot-FiscalLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Lot-EnvironLegis",
@@ -999,7 +995,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Environmental Legislation Document ID",
-          "_label" : "field|name|OPT-112-Lot-EnvironLegis"
+          "_label" : "field|name|OPT-112-Lot-EnvironLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Lot-EmployLegis",
@@ -1025,7 +1023,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Employment Legislation Document ID",
-          "_label" : "field|name|OPT-113-Lot-EmployLegis"
+          "_label" : "field|name|OPT-113-Lot-EmployLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Lot-AdditionalInformation",
@@ -1547,19 +1547,6 @@
       "description" : "Submission Info",
       "_label" : "group|name|GR-Lot-SubmissionInfo",
       "content" : [ {
-        "id" : "GR-Lot-Procedure",
-        "contentType" : "group",
-        "displayType" : "GROUP",
-        "description" : "Procedure",
-        "_label" : "group|name|GR-Lot-Procedure",
-        "content" : [ {
-          "id" : "BT-634-Lot",
-          "contentType" : "field",
-          "displayType" : "RADIO",
-          "description" : "Procurement Relaunch",
-          "_label" : "field|name|BT-634-Lot"
-        } ]
-      }, {
         "id" : "GR-Lot-Deadlines1",
         "contentType" : "group",
         "displayType" : "GROUP",
@@ -1591,12 +1578,12 @@
           "_label" : "field|name|BT-13(t)-Lot"
         } ]
       }, {
-        "id" : "GR-Lot-Submission Language",
+        "id" : "GR-Lot-SubmissionLanguage",
         "contentType" : "group",
         "nodeId" : "ND-LotSubmissionLanguage",
         "displayType" : "GROUP",
         "description" : "Submission language",
-        "_label" : "group|name|GR-Lot-Submission Language",
+        "_label" : "group|name|GR-Lot-SubmissionLanguage",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-97-Lot",

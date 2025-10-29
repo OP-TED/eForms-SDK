@@ -2,7 +2,7 @@
 <!--File generated from metadata database-->
 <pattern id="EFORMS-validation-stage-4-T01" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:ContractingParty[$noticeSubType = 'T01']">
-		<assert id="BR-BT-00010-0011" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','grp-p-aut','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))">rule|text|BR-BT-00010-0011</assert>
+		<assert id="BR-BT-00010-0100" role="ERROR" diagnostics="BT-10-Procedure-Buyer" test="count(cac:ContractingActivity/cbc:ActivityTypeCode[@listName='authority-activity']) = 0 or (cac:ContractingPartyType/cbc:PartyTypeCode[@listName='buyer-legal-type']/normalize-space(text()) = ('body-pl','body-pl-cga','body-pl-la','body-pl-ra','cga','def-cont','eu-ins-bod-ag','int-org','la','org-sub','org-sub-cga','org-sub-la','org-sub-ra','ra'))">rule|text|BR-BT-00010-0100</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = 'T01']">
 		<assert id="BR-BT-00531-0011" role="ERROR" diagnostics="ND-ProcedureProcurementScope_BT-531-Procedure" test="count(cac:ProcurementAdditionalType[cbc:ProcurementTypeCode/@listName='contract-nature']/cbc:ProcurementTypeCode) = 0 or (cbc:ProcurementTypeCode)">rule|text|BR-BT-00531-0011</assert>
@@ -42,6 +42,24 @@
 		<assert id="BR-BT-05101-0419" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5101_c_-Lot" test="count(cac:Address/cac:AddressLine/cbc:Line) = 0 or (cac:Address/cbc:AdditionalStreetName)">rule|text|BR-BT-05101-0419</assert>
 		<assert id="BR-BT-05141-0113" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or (cac:Address/cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0113</assert>
 		<assert id="BR-BT-05141-0157" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5141-Lot" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or not(cac:Address/cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0157</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AdditionalInformationRequestPeriod[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00013-0220" role="ERROR" diagnostics="BT-13_t_-Lot" test="count(cbc:EndTime) = 0 or (cbc:EndDate)">rule|text|BR-BT-00013-0220</assert>
+		<assert id="BR-BT-00013-0244" role="ERROR" diagnostics="BT-13_t_-Lot" test="count(cbc:EndTime) &gt; 0 or not(cbc:EndDate)">rule|text|BR-BT-00013-0244</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00015-0137" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0137</assert>
+		<assert id="BR-BT-00015-0138" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'non-restricted-document')">rule|text|BR-BT-00015-0138</assert>
+		<assert id="BR-BT-00140-0104" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-BT-00140-0104</assert>
+		<assert id="BR-BT-00140-0105" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) &gt; 0 or not(cbc:DocumentType)">rule|text|BR-BT-00140-0105</assert>
+		<assert id="BR-BT-00615-0132" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0132</assert>
+		<assert id="BR-BT-00615-0133" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI) &gt; 0 or not(cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00615-0133</assert>
+		<assert id="BR-BT-00707-0109" role="ERROR" diagnostics="BT-707-Lot" test="count(cbc:DocumentTypeCode) = 0 or (cbc:DocumentType/normalize-space(text()) = 'restricted-document')">rule|text|BR-BT-00707-0109</assert>
+		<assert id="BR-BT-00708-0129" role="ERROR" diagnostics="ND-LotProcurementDocument_BT-708-Lot" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:OfficialLanguages/cac:Language/cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-BT-00708-0129</assert>
+		<assert id="BR-BT-00737-0129" role="ERROR" diagnostics="ND-LotProcurementDocument_BT-737-Lot" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language/cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-BT-00737-0129</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[efbc:ApplicableLegalBasis/@listName='cvd-scope']/efac:StrategicProcurementInformation[$noticeSubType = 'T01']">
+		<assert id="BR-BT-00735-0105" role="ERROR" diagnostics="BT-735-Lot" test="count(efbc:ProcurementCategoryCode) = 0 or (../efbc:ApplicableLegalBasis/normalize-space(text()) = 'true')">rule|text|BR-BT-00735-0105</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = 'T01']">
 		<assert id="BR-BT-00001-0115" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-00001-0115</assert>

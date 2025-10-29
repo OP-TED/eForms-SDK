@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.76",
-    "createdOn" : "2025-01-09T16:37:23"
+    "version" : "1.13.326",
+    "createdOn" : "2025-10-29T10:34:36"
   },
   "noticeId" : "T01",
   "metadata" : [ {
@@ -661,12 +661,152 @@
         } ]
       } ]
     }, {
+      "id" : "GR-Lot-TenderingTerms",
+      "contentType" : "group",
+      "displayType" : "SECTION",
+      "description" : "Tendering Terms",
+      "_label" : "group|name|GR-Lot-TenderingTerms",
+      "content" : [ {
+        "id" : "GR-Lot-TenderingTerms-CVD",
+        "contentType" : "group",
+        "nodeId" : "ND-StrategicProcurementLot",
+        "displayType" : "GROUP",
+        "description" : "Information about the foreseen strategic procurement and associated assets: categories (Procurement, assets ...)",
+        "_label" : "group|name|GR-Lot-TenderingTerms-CVD",
+        "content" : [ {
+          "id" : "BT-717-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Clean Vehicles Directive",
+          "_label" : "field|name|BT-717-Lot"
+        }, {
+          "id" : "GR-Lot-TenderingTerms-CVD-type",
+          "contentType" : "group",
+          "nodeId" : "ND-StrategicProcurementInformationLot",
+          "displayType" : "GROUP",
+          "description" : "Information about the foreseen strategic procurement and associated assets: categories (Procurement, assets ...) in the context of an applicable Legal Basis",
+          "_label" : "group|name|GR-Lot-TenderingTerms-CVD-type",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-735-Lot",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "CVD Contract Type",
+            "_label" : "field|name|BT-735-Lot"
+          } ]
+        } ]
+      } ]
+    }, {
       "id" : "GR-Lot-SubmissionInfo",
       "contentType" : "group",
       "displayType" : "SECTION",
       "description" : "Submission Info",
       "_label" : "group|name|GR-Lot-SubmissionInfo",
       "content" : [ {
+        "id" : "GR-Lot-Deadlines1",
+        "contentType" : "group",
+        "displayType" : "GROUP",
+        "description" : "Deadlines I",
+        "_label" : "group|name|GR-Lot-Deadlines1",
+        "content" : [ {
+          "id" : "BT-13(d)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Additional Information Deadline",
+          "_label" : "field|name|BT-13(d)-Lot"
+        }, {
+          "id" : "BT-13(t)-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Additional Information Deadline",
+          "_label" : "field|name|BT-13(t)-Lot"
+        } ]
+      }, {
+        "id" : "GR-Lot-ProcurementDocuments",
+        "contentType" : "group",
+        "nodeId" : "ND-LotProcurementDocument",
+        "displayType" : "GROUP",
+        "description" : "Procurement Document information for a Lot, independent from the restricted aspect",
+        "_label" : "group|name|GR-Lot-ProcurementDocuments",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "GR-Lot-DocsAllOfficialLanguages",
+          "contentType" : "group",
+          "nodeId" : "ND-LotDocAllOfficialLanguages",
+          "displayType" : "GROUP",
+          "description" : "Lot Procurement Documents All Official Languages",
+          "_label" : "group|name|GR-Lot-DocsAllOfficialLanguages",
+          "content" : [ {
+            "id" : "GR-Lot-DocsOfficialLanguage",
+            "contentType" : "group",
+            "nodeId" : "ND-LotDocOfficialLanguage",
+            "displayType" : "GROUP",
+            "description" : "Lot Procurement Documents Official Language",
+            "_label" : "group|name|GR-Lot-DocsOfficialLanguage",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "BT-708-Lot",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Documents Official Language",
+              "_label" : "field|name|BT-708-Lot"
+            } ]
+          } ]
+        }, {
+          "id" : "GR-Lot-DocsAllNonOfficialLanguages",
+          "contentType" : "group",
+          "nodeId" : "ND-LotDocAllNonOfficialLanguages",
+          "displayType" : "GROUP",
+          "description" : "Lot Procurement Documents all non Official Languages",
+          "_label" : "group|name|GR-Lot-DocsAllNonOfficialLanguages",
+          "content" : [ {
+            "id" : "GR-Lot-DocsNonOfficialLanguage",
+            "contentType" : "group",
+            "nodeId" : "ND-LotDocNonOfficialLanguage",
+            "displayType" : "GROUP",
+            "description" : "Lot Procurement Documents non Official Language",
+            "_label" : "group|name|GR-Lot-DocsNonOfficialLanguage",
+            "_repeatable" : true,
+            "content" : [ {
+              "id" : "BT-737-Lot",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Documents Unofficial Language",
+              "_label" : "field|name|BT-737-Lot"
+            } ]
+          } ]
+        }, {
+          "id" : "BT-14-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Documents Restricted",
+          "_label" : "field|name|BT-14-Lot"
+        }, {
+          "id" : "BT-707-Lot",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Documents Restricted Justification",
+          "_label" : "field|name|BT-707-Lot"
+        }, {
+          "id" : "BT-15-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Documents URL",
+          "_label" : "field|name|BT-15-Lot"
+        }, {
+          "id" : "BT-615-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Documents Restricted URL",
+          "_label" : "field|name|BT-615-Lot"
+        }, {
+          "id" : "OPT-140-Lot",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "Procurement Documents ID",
+          "_label" : "field|name|OPT-140-Lot"
+        } ]
+      }, {
         "id" : "GR-Lot-AddInfo",
         "contentType" : "group",
         "displayType" : "GROUP",

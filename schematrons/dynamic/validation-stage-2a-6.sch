@@ -525,15 +525,6 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess[$noticeSubType = '6']">
 		<assert id="BR-BT-00115-0009" role="ERROR" diagnostics="BT-115-Part" test="count(cbc:GovernmentAgreementConstraintIndicator) = 0">rule|text|BR-BT-00115-0009</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference[$noticeSubType = '6']">
-		<assert id="BR-OPT-00113-0009" role="ERROR" diagnostics="OPT-113-Part-EmployLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00113-0009</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference[$noticeSubType = '6']">
-		<assert id="BR-OPT-00112-0009" role="ERROR" diagnostics="OPT-112-Part-EnvironLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00112-0009</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference[$noticeSubType = '6']">
-		<assert id="BR-OPT-00111-0009" role="ERROR" diagnostics="OPT-111-Part-FiscalLegis" test="count(cbc:ID) &gt; 0">rule|text|BR-OPT-00111-0009</assert>
-	</rule>
 	<rule context="/*/cac:SenderParty/cac:Contact[$noticeSubType = '6']">
 		<assert id="BR-OPP-00131-0009" role="ERROR" diagnostics="OPP-131-Business" test="count(cbc:ElectronicMail) = 0">rule|text|BR-OPP-00131-0009</assert>
 	</rule>

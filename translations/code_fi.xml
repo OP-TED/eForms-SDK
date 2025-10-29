@@ -37,7 +37,6 @@
 <entry key="code|name|buyer-legal-type.cga">Keskushallinnon viranomainen</entry>
 <entry key="code|name|buyer-legal-type.def-cont">Puolustusalan toimeksisaaja</entry>
 <entry key="code|name|buyer-legal-type.eu-ins-bod-ag">EU:n toimielin, elin tai virasto</entry>
-<entry key="code|name|buyer-legal-type.grp-p-aut">Viranomaisten ryhmittymä</entry>
 <entry key="code|name|buyer-legal-type.int-org">Kansainvälinen järjestö</entry>
 <entry key="code|name|buyer-legal-type.la">Paikallisviranomainen</entry>
 <entry key="code|name|buyer-legal-type.org-sub">Hankintaviranomaisen subventoiman sopimuksen tekevä organisaatio</entry>
@@ -9961,7 +9960,6 @@
 <entry key="code|name|currency.CNY">Juan renminbi</entry>
 <entry key="code|name|currency.COP">Kolumbian peso</entry>
 <entry key="code|name|currency.CRC">Costa Rican colon</entry>
-<entry key="code|name|currency.CUC">Vaihdettava peso</entry>
 <entry key="code|name|currency.CUP">Kuuban peso</entry>
 <entry key="code|name|currency.CVE">Kap Verden escudo</entry>
 <entry key="code|name|currency.CZK">Tšekin koruna</entry>
@@ -10080,6 +10078,7 @@
 <entry key="code|name|currency.WST">Tala</entry>
 <entry key="code|name|currency.XAF">CFA-frangi (BEAC)</entry>
 <entry key="code|name|currency.XCD">Itä-Karibian dollari</entry>
+<entry key="code|name|currency.XCG">Karibian guldeni</entry>
 <entry key="code|name|currency.XOF">CFA-frangi (BCEAO)</entry>
 <entry key="code|name|currency.XPF">CFP-frangi</entry>
 <entry key="code|name|currency.YER">Jemenin rial</entry>
@@ -10148,9 +10147,9 @@
 <entry key="code|name|document-distribution.restricted-document">Tiettyjen hankinta-asiakirjojen saatavuutta on rajoitettu</entry>
 <entry key="code|name|document-status.non-official">Epävirallinen kieliversio</entry>
 <entry key="code|name|document-status.official">Virallinen kieliversio</entry>
+<entry key="code|name|document-used-in-public-procurement.epo-acc-espd-request">Yhteistä eurooppalaista hankinta-asiakirjaa koskeva pyyntö</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-notice">Ilmoitus</entry>
 <entry key="code|name|document-used-in-public-procurement.epo-procurement-document">Hankinta-asiakirja</entry>
-<entry key="code|name|document-used-in-public-procurement.epo-sub-espd">Yhteinen eurooppalainen hankinta-asiakirja (ESPD)</entry>
 <entry key="code|name|dps-usage.dps-list">Dynaaminen hankintajärjestelmä, jota voivat käyttää ainoastaan tässä ilmoituksessa luetellut ostajat</entry>
 <entry key="code|name|dps-usage.dps-nlist">Dynaaminen hankintajärjestelmä, jota voivat käyttää myös muut kuin tässä ilmoituksessa luetellut ostajat</entry>
 <entry key="code|name|dps-usage.none">Ei dynaamista hankintajärjestelmää</entry>
@@ -10438,6 +10437,7 @@
 <entry key="code|name|eu-programme.LIFE_2021">Ympäristö- ja ilmastotoimien ohjelma (Life) (2021/2027)</entry>
 <entry key="code|name|eu-programme.LOAN2020">Ulkosuhteisiin liittyville hankkeille perustettu takuurahasto (2014/2020)</entry>
 <entry key="code|name|eu-programme.MFA">Makrotaloudellinen apu (2014/2020)</entry>
+<entry key="code|name|eu-programme.MF_2021">Nykyaikaistamisrahasto (2021/2030)</entry>
 <entry key="code|name|eu-programme.MM_2021">Sotilaallinen liikkuvuus (2021/2027)</entry>
 <entry key="code|name|eu-programme.ND">Ydinvoimaloiden käytöstä poistamisen avustusohjelmat Bulgariassa, Liettuassa ja Slovakiassa (2014/2020)</entry>
 <entry key="code|name|eu-programme.NDICI">Naapuruus-, kehitys- ja kansainvälisen yhteistyön väline (NDICI) (2021/2027)</entry>
@@ -10450,6 +10450,7 @@
 <entry key="code|name|eu-programme.PI">Kumppanuusväline kolmansien maiden kanssa tehtävää yhteistyötä varten (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSCI">Työllisyyttä ja sosiaalista innovointia koskeva Euroopan unionin ohjelma (2014/2020)</entry>
 <entry key="code|name|eu-programme.PSLF_JTM2021">Oikeudenmukaisen siirtymän mekanismin mukainen julkisen sektorin lainajärjestely (2021/2027)</entry>
+<entry key="code|name|eu-programme.REACT_EU">React-EU-väline (2021/2023)</entry>
 <entry key="code|name|eu-programme.REGCONV">Alueellinen lähentyminen (muita heikommin kehittyneet alueet) (2014/2020)</entry>
 <entry key="code|name|eu-programme.RESCEU">Unionin pelastuspalvelumekanismi (rescEU) (2021/2027)</entry>
 <entry key="code|name|eu-programme.RFMOs">Pakolliset rahoitusosuudet alueellisille kalastusjärjestöille ja muille kansainvälisille järjestöille (2014/2020)</entry>
@@ -10481,7 +10482,7 @@
 <entry key="code|name|exclusion-ground.exg-mis-bre-soc-law">Sosiaalilainsäädännön mukaisten velvoitteiden rikkominen</entry>
 <entry key="code|name|exclusion-ground.exg-mis-distortion">Toisten talouden toimijoiden kanssa kilpailun vääristämiseksi tehdyt sopimukset</entry>
 <entry key="code|name|exclusion-ground.exg-mis-misconduct">Ammatin harjoittamiseen liittyvä vakava virhe</entry>
-<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Syyllistyminen väärien tietojen antamiseen, tietojen antamatta jättämiseen, vaadittujen asiakirjojen antamiseen kykenemättömien tietojen toimittamiseen ja tätä menettelyä koskevien luottamuksellisten tietojen antamiseen</entry>
+<entry key="code|name|exclusion-ground.exg-mis-misrepresent">Väärien tietojen antaminen, tietojen salaaminen, vaadittujen asiakirjojen toimittamatta jättäminen tai tätä menettelyä koskevien luottamuksellisten tietojen saaminen</entry>
 <entry key="code|name|exclusion-ground.exg-mis-off-cond">Puolustusmateriaalihankintoja koskeva ammatin harjoittamiseen liittyvä rikkomus</entry>
 <entry key="code|name|exclusion-ground.exg-mis-partic-confl">Talouden toimijan hankintamenettelyyn osallistumisesta johtuvat eturistiriidat</entry>
 <entry key="code|name|exclusion-ground.exg-mis-prep-confl">Välitön tai välillinen osallistuminen tämän hankintamenettelyn valmisteluun</entry>
@@ -10501,7 +10502,6 @@
 <entry key="code|name|exclusion-ground.exg-sitn-other">Kansallisesta lainsäädännöstä johtuva konkurssia tai muuta sellaista vastaava tilanne</entry>
 <entry key="code|name|exclusion-grounds-source.epo-notice">Ilmoitus</entry>
 <entry key="code|name|exclusion-grounds-source.epo-procurement-document">Hankinta-asiakirja</entry>
-<entry key="code|name|exclusion-grounds-source.epo-sub-espd">Yhteinen eurooppalainen hankinta-asiakirja (ESPD)</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-adm-clos">Ilmoitus toimitettu, ulkomaisia valtiontukia koskevan asetuksen mukainen alustava tarkastelumenettely saatettu hallinnollisesti päätökseen</entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-commit">Ilmoitus toimitettu, sitoumuksia sisältävä päätös </entry>
 <entry key="code|name|foreign-subsidy-measure-conclusion.fsr-irregul">Ilmoitus toimitettu, sääntöjenvastaista tarjousta tai osallistumishakemusta koskeva päätös</entry>
@@ -10536,7 +10536,7 @@
 <entry key="code|name|international-procurement-instrument-application.no-exc">Ei poikkeusta</entry>
 <entry key="code|name|international-procurement-instrument-application.one-tend">Poikkeus – vain yksi tarjous</entry>
 <entry key="code|name|international-procurement-instrument-application.pub-int">Poikkeus – yleinen etu</entry>
-<entry key="code|name|international-procurement-instrument-measure.32025R1197">Asetus (EU) 2025/1197: Kiinan kansantasavallasta peräisin olevat lääkinnälliset laitteet</entry>
+<entry key="code|name|international-procurement-instrument-measure.32025R1197">Kiinan kansantasavallasta peräisin olevat lääkinnälliset laitteet  —  Asetus (EU) 2025/1197</entry>
 <entry key="code|name|ipi-scope.false">ei</entry>
 <entry key="code|name|ipi-scope.true">kyllä</entry>
 <entry key="code|name|irregularity-type.ab-low">Poikkeuksellisen alhaisten tarjousten perusteeton hylkääminen</entry>
@@ -10767,17 +10767,14 @@
 <entry key="code|name|lawful-country.UKR">Ukraina</entry>
 <entry key="code|name|lawful-country.WLF">Wallis ja Futuna</entry>
 <entry key="code|name|legal-basis-1.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-1.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-1.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-1.other">Muu</entry>
 <entry key="code|name|legal-basis-10.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-10.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-10.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-10.other">Muu</entry>
 <entry key="code|name|legal-basis-11.32014L0025">Direktiivi 2014/25/EU</entry>
 <entry key="code|name|legal-basis-11.other">Muu</entry>
 <entry key="code|name|legal-basis-12.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-12.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-12.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-12.other">Muu</entry>
 <entry key="code|name|legal-basis-13.32014L0025">Direktiivi 2014/25/EU</entry>
@@ -10787,7 +10784,6 @@
 <entry key="code|name|legal-basis-15.32014L0025">Direktiivi 2014/25/EU</entry>
 <entry key="code|name|legal-basis-15.other">Muu</entry>
 <entry key="code|name|legal-basis-16.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-16.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-16.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-16.other">Muu</entry>
 <entry key="code|name|legal-basis-17.32014L0025">Direktiivi 2014/25/EU</entry>
@@ -10799,7 +10795,6 @@
 <entry key="code|name|legal-basis-2.32014L0025">Direktiivi 2014/25/EU</entry>
 <entry key="code|name|legal-basis-2.other">Muu</entry>
 <entry key="code|name|legal-basis-20.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-20.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-20.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-20.other">Muu</entry>
 <entry key="code|name|legal-basis-21.32014L0025">Direktiivi 2014/25/EU</entry>
@@ -10807,13 +10802,11 @@
 <entry key="code|name|legal-basis-22.32009L0081">Direktiivi 2009/81/EY</entry>
 <entry key="code|name|legal-basis-22.other">Muu</entry>
 <entry key="code|name|legal-basis-23.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-23.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-23.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-23.other">Muu</entry>
 <entry key="code|name|legal-basis-24.32014L0025">Direktiivi 2014/25/EU</entry>
 <entry key="code|name|legal-basis-24.other">Muu</entry>
 <entry key="code|name|legal-basis-25.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-25.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-25.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-25.other">Muu</entry>
 <entry key="code|name|legal-basis-26.32014L0025">Direktiivi 2014/25/EU</entry>
@@ -10823,7 +10816,6 @@
 <entry key="code|name|legal-basis-28.32014L0023">Direktiivi 2014/23/EU</entry>
 <entry key="code|name|legal-basis-28.other">Muu</entry>
 <entry key="code|name|legal-basis-29.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-29.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-29.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-29.other">Muu</entry>
 <entry key="code|name|legal-basis-3.32009L0081">Direktiivi 2009/81/EY</entry>
@@ -10835,7 +10827,6 @@
 <entry key="code|name|legal-basis-32.32014L0023">Direktiivi 2014/23/EU</entry>
 <entry key="code|name|legal-basis-32.other">Muu</entry>
 <entry key="code|name|legal-basis-33.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-33.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-33.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-33.other">Muu</entry>
 <entry key="code|name|legal-basis-34.32014L0025">Direktiivi 2014/25/EU</entry>
@@ -10843,20 +10834,17 @@
 <entry key="code|name|legal-basis-35.32014L0023">Direktiivi 2014/23/EU</entry>
 <entry key="code|name|legal-basis-35.other">Muu</entry>
 <entry key="code|name|legal-basis-36.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-36.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-36.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-36.other">Muu</entry>
 <entry key="code|name|legal-basis-37.32014L0025">Direktiivi 2014/25/EU</entry>
 <entry key="code|name|legal-basis-37.other">Muu</entry>
 <entry key="code|name|legal-basis-38.32009L0081">Direktiivi 2009/81/EY</entry>
 <entry key="code|name|legal-basis-38.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-38.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-38.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-38.other">Muu</entry>
 <entry key="code|name|legal-basis-39.32014L0025">Direktiivi 2014/25/EU</entry>
 <entry key="code|name|legal-basis-39.other">Muu</entry>
 <entry key="code|name|legal-basis-4.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-4.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-4.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-4.other">Muu</entry>
 <entry key="code|name|legal-basis-40.32014L0023">Direktiivi 2014/23/EU</entry>
@@ -10866,20 +10854,17 @@
 <entry key="code|name|legal-basis-6.32009L0081">Direktiivi 2009/81/EY</entry>
 <entry key="code|name|legal-basis-6.other">Muu</entry>
 <entry key="code|name|legal-basis-7.32014L0024">Direktiivi 2014/24/EU</entry>
-<entry key="code|name|legal-basis-7.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-7.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-7.other">Muu</entry>
 <entry key="code|name|legal-basis-8.32014L0025">Direktiivi 2014/25/EU</entry>
 <entry key="code|name|legal-basis-8.other">Muu</entry>
 <entry key="code|name|legal-basis-9.32009L0081">Direktiivi 2009/81/EY</entry>
 <entry key="code|name|legal-basis-9.other">Muu</entry>
-<entry key="code|name|legal-basis-cei.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-cei.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.32009L0081">Direktiivi 2009/81/EY</entry>
 <entry key="code|name|legal-basis-e1.32014L0023">Direktiivi 2014/23/EU</entry>
 <entry key="code|name|legal-basis-e1.32014L0024">Direktiivi 2014/24/EU</entry>
 <entry key="code|name|legal-basis-e1.32014L0025">Direktiivi 2014/25/EU</entry>
-<entry key="code|name|legal-basis-e1.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e1.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e1.other">Muu</entry>
 <entry key="code|name|legal-basis-e2.other">Muu</entry>
@@ -10889,7 +10874,6 @@
 <entry key="code|name|legal-basis-e5.32014L0023">Direktiivi 2014/23/EU</entry>
 <entry key="code|name|legal-basis-e5.32014L0024">Direktiivi 2014/24/EU</entry>
 <entry key="code|name|legal-basis-e5.32014L0025">Direktiivi 2014/25/EU</entry>
-<entry key="code|name|legal-basis-e5.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis-e5.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis-e5.other">Muu</entry>
 <entry key="code|name|legal-basis-e6.32009L0081">Direktiivi 2009/81/EY</entry>
@@ -10907,7 +10891,6 @@
 <entry key="code|name|legal-basis.32014L0023">Direktiivi 2014/23/EU</entry>
 <entry key="code|name|legal-basis.32014L0024">Direktiivi 2014/24/EU</entry>
 <entry key="code|name|legal-basis.32014L0025">Direktiivi 2014/25/EU</entry>
-<entry key="code|name|legal-basis.32018R1046">Asetus (EU, Euratom) 2018/1046</entry>
 <entry key="code|name|legal-basis.32024R2509">Asetus (EU, Euratom) 2024/2509</entry>
 <entry key="code|name|legal-basis.other">Muu</entry>
 <entry key="code|name|linguistic-status.non-official">Epävirallinen kieliversio</entry>
@@ -10944,6 +10927,8 @@
 <entry key="code|name|measurement-unit.MTK">neliömetri</entry>
 <entry key="code|name|measurement-unit.MTR">metri</entry>
 <entry key="code|name|measurement-unit.TNE">tonni</entry>
+<entry key="code|name|metric-type.nrg-con-yr">Energiankulutus (kWh/vuosi)</entry>
+<entry key="code|name|metric-type.nrg-sav-yr">Energiansäästö (kWh/vuosi)</entry>
 <entry key="code|name|missing-info-submission.late-all">Hankkijan harkinnan mukaan kaikki puuttuvat hakuasiakirjat voidaan toimittaa myöhemmin.</entry>
 <entry key="code|name|missing-info-submission.late-none">Asiakirjoja ei voida toimittaa myöhemmin.</entry>
 <entry key="code|name|missing-info-submission.late-some">Hankkijan harkinnan mukaan osa puuttuvista hakuasiakirjoista voidaan toimittaa myöhemmin.</entry>
@@ -16288,7 +16273,6 @@
 <entry key="code|name|rewards-penalties.rew-pen">Tiedot kannustimista ja sanktioista</entry>
 <entry key="code|name|selection-criteria-source.epo-notice">Ilmoitus</entry>
 <entry key="code|name|selection-criteria-source.epo-procurement-document">Hankinta-asiakirja</entry>
-<entry key="code|name|selection-criteria-source.epo-sub-espd">Yhteinen eurooppalainen hankinta-asiakirja (ESPD)</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-res">Opinto-, tekniset ja tutkimuslaitokset</entry>
 <entry key="code|name|selection-criterion.slc-abil-facil-tools">Työkalut, laitokset tai tekniset laitteet</entry>
 <entry key="code|name|selection-criterion.slc-abil-mgmt-env">Ympäristön hallintatoimenpiteet</entry>

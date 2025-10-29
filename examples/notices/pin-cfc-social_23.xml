@@ -80,7 +80,7 @@
 	<cac:ContractingParty>
 		<cbc:BuyerProfileURI>https://example.com</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">grp-p-aut</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>

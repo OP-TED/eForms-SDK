@@ -66,6 +66,10 @@
 		<assert id="BR-BT-05141-0058" role="ERROR" diagnostics="ND-PartPlacePerformance_BT-5141-Part" test="count(cac:Address/cac:Country/cbc:IdentificationCode) &gt; 0 or (cac:Address/cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0058</assert>
 		<assert id="BR-BT-05141-0187" role="ERROR" diagnostics="ND-PartPlacePerformance_BT-5141-Part" test="count(cac:Address/cac:Country/cbc:IdentificationCode) = 0 or not(cac:Address/cbc:Region/normalize-space(text()) = ('anyw','anyw-eea'))">rule|text|BR-BT-05141-0187</assert>
 	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:AdditionalInformationRequestPeriod[$noticeSubType = '4']">
+		<assert id="BR-BT-00013-0059" role="ERROR" diagnostics="BT-13_t_-Part" test="count(cbc:EndTime) = 0 or (cbc:EndDate)">rule|text|BR-BT-00013-0059</assert>
+		<assert id="BR-BT-00013-0213" role="ERROR" diagnostics="BT-13_t_-Part" test="count(cbc:EndTime) &gt; 0 or not(cbc:EndDate)">rule|text|BR-BT-00013-0213</assert>
+	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:NoticeDocumentReference[$noticeSubType = '4']">
 		<assert id="BR-BT-01251-0129" role="ERROR" diagnostics="BT-1251-Part" test="count(cbc:ReferencedDocumentInternalAddress) = 0 or (cbc:ID)">rule|text|BR-BT-01251-0129</assert>
 	</rule>
@@ -105,6 +109,7 @@
 		<assert id="BR-BT-00762-0007" role="ERROR" diagnostics="BT-762-notice" test="count(efbc:ReasonDescription) = 0 or (cbc:ReasonCode)">rule|text|BR-BT-00762-0007</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '4']">
+		<assert id="BR-OPP-00050-0007" role="ERROR" diagnostics="OPP-050-Organization" test="count(efbc:GroupLeadIndicator) &gt; 0 or (not(efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (count(../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) &lt; 2))">rule|text|BR-OPP-00050-0007</assert>
 		<assert id="BR-OPP-00050-0057" role="ERROR" diagnostics="OPP-050-Organization" test="count(efbc:GroupLeadIndicator) = 0 or not(not(efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) or (count(../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) &lt; 2))">rule|text|BR-OPP-00050-0057</assert>
 		<assert id="BR-OPP-00051-0007" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) &gt; 0 or not((efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())) and (../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage']/cbc:ContractingSystemTypeCode/normalize-space(text()) = 'dps-nlist') and (not(efbc:AcquiringCPBIndicator)))">rule|text|BR-OPP-00051-0007</assert>
 		<assert id="BR-OPP-00051-0057" role="ERROR" diagnostics="OPP-051-Organization" test="count(efbc:AwardingCPBIndicator) = 0 or (efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text()))">rule|text|BR-OPP-00051-0057</assert>
