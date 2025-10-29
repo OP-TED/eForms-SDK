@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.278",
-    "createdOn" : "2025-10-13T16:57:53"
+    "version" : "1.13.326",
+    "createdOn" : "2025-10-29T10:34:36"
   },
   "noticeId" : "21",
   "metadata" : [ {
@@ -1998,12 +1998,12 @@
           "_label" : "field|name|BT-98-Lot"
         } ]
       }, {
-        "id" : "GR-Lot-Submission Language",
+        "id" : "GR-Lot-SubmissionLanguage",
         "contentType" : "group",
         "nodeId" : "ND-LotSubmissionLanguage",
         "displayType" : "GROUP",
         "description" : "Submission language",
-        "_label" : "group|name|GR-Lot-Submission Language",
+        "_label" : "group|name|GR-Lot-SubmissionLanguage",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-97-Lot",
