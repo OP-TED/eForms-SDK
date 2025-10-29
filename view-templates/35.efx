@@ -1,12 +1,6 @@
 // View 35
 // File generated from metadata database
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
-	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
-		{ND-ContractingParty} #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Official name
-		{BT-11-Procedure-Buyer} #{field|name|BT-11-Procedure-Buyer}: #{BT-11-Procedure-Buyer} // Legal type of the buyer
-		{BT-740-Procedure-Buyer[BT-740-Procedure-Buyer == 'cont-ent']} #{field|name|BT-740-Procedure-Buyer} // Buyer Contracting Entity
-		{BT-10-Procedure-Buyer} #{field|name|BT-10-Procedure-Buyer}: #value // Activity of the contracting authority
-		{BT-610-Procedure-Buyer} #{field|name|BT-610-Procedure-Buyer}: #{BT-610-Procedure-Buyer} // Activity Entity
 2 {ND-Root} #{auxiliary|text|procedure} // 2 Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{ND-ProcedureProcurementScope} #{field|name|BT-21-Procedure}: ${BT-21-Procedure} // Procedure Title
@@ -359,7 +353,7 @@
 			0 {ND-LotTenderingTerms[(BT-736-Lot is present) or (BT-70-Lot is present) or (BT-801-Lot is present) or (BT-743-Lot is present) or (BT-92-Lot is present) or (BT-93-Lot is present) or (BT-76-Lot is present) or (BT-77-Lot is present) or (BT-65-Lot is present) or (BT-64-Lot is present) or (BT-729-Lot is present) or (BT-681-Lot == 'true') or (BT-684-Lot == 'true')]} #{auxiliary|text|contract-terms}: // Terms of contract
 				{BT-681-Lot[BT-681-Lot == 'true']} #{auxiliary|text|foreign-subsidies-regulation} // Foreign Subsidy Regulation (FSR)
 				{ND-IPILot[BT-684-Lot == 'true']} #{auxiliary|text|international-procurement-instrument} // IPI Measures are Applicable
-		15 {ND-LotTenderingProcess[(BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present) or (BT-766-Lot is present) or (BT-119-LotResult == TRUE) or (BT-123-Lot is present) or (BT-122-Lot is present)]} #{auxiliary|text|techniques} // 5.1.15 Techniques
+		15 {ND-LotTenderingProcess[(BT-767-Lot is present) or (BT-765-Lot is present) or (BT-113-Lot is present) or (BT-109-Lot is present) or (BT-111-Lot is present) or (BT-766-Lot is present) or (BT-119-LotResult == TRUE) or (BT-123-Lot is present) or (BT-122-Lot is present)]} #{auxiliary|text|techniques} // 5.1.15 Techniques
 			0 {ND-AuctionTerms[BT-767-Lot == TRUE]} #{auxiliary|text|electronic-auction}: #{code|name|${concat('indicator.', 'true')}} // Electronic auction
 		16 {BT-137-Lot[(OPT-301-Lot-Mediator is present) or (OPT-301-Lot-ReviewOrg is present) or (BT-99-Lot is present) or (OPT-301-Lot-FiscalLegis is present) or (OPT-301-Lot-EnvironLegis is present) or (OPT-301-Lot-EmployLegis is present) or (OPT-301-Lot-AddInfo is present) or (OPT-301-Lot-DocProvider is present) or (OPT-301-Lot-ReviewInfo is present) or (OPT-301-Lot-TenderReceipt is present) or (OPT-301-Lot-TenderEval is present) or (some text:$orgida in (for text:$lotid1 in BT-137-Lot, text:$orgid1 in OPT-301-LotResult-Financing[BT-13713-LotResult == $lotid1] return $orgid1) satisfies $orgida != '') or (some text:$orgidb in (for text:$lotid2 in BT-137-Lot, text:$orgid2 in OPT-301-LotResult-Paying[BT-13713-LotResult == $lotid2] return $orgid2) satisfies $orgidb != '') or (some text:$orgidc in (for text:$lotid3 in BT-137-Lot, text:$conid3 in OPT-315-LotResult[BT-13713-LotResult == $lotid3], text:$orgid3 in OPT-300-Contract-Signatory[OPT-316-Contract == $conid3] return $orgid3) satisfies $orgidc != '')]} #{auxiliary|text|further-info} // 5.1.16 Further information, mediation and review
 			{BT-137-Lot[OPT-301-Lot-Mediator is present]} #{auxiliary|text|organisation-mediation}: ${for text:$refid1 in OPT-301-Lot-Mediator, text:$orgname1 in BT-500-Organization-Company[(OPT-200-Organization-Company == $refid1) or (OPT-201-Organization-TouchPoint[BT-500-Organization-TouchPoint is not present] == $refid1)] return $orgname1}${for text:$refid2 in OPT-301-Lot-Mediator, text:$orgname2 in BT-500-Organization-Company[(OPT-201-Organization-TouchPoint[BT-500-Organization-TouchPoint is present] == $refid2)], text:$tponame in BT-500-Organization-TouchPoint[(OPT-201-Organization-TouchPoint == $refid2)] return concat($orgname2, ' - ', $tponame)} // Mediation organisation (Lot)
@@ -620,8 +614,8 @@
 						{BT-815-LotResult} #{field|name|BT-815-LotResult}: ${BT-815-LotResult} // Energy Efficiency Quantity
 				0 {ND-IPILotResult} #{auxiliary|text|international-procurement-instrument-statistics} // IPI Measures
 					0 {ND-IPIAppliedMeasure} #{BT-685-LotResult} // IPI-${count(for text:$lrid in OPT-322-LotResult return preceding::BT-687-LotResult[OPT-322-LotResult == $lrid]) + 1}: // Specific IPI Measure
-						{BT-686-LotResult} #{field|name|BT-686-LotResult} ${BT-686-LotResult} // Number of tender applications that fall under this IPI Measure
-						{BT-687-LotResult} #{field|name|BT-687-LotResult} #{BT-687-LotResult}: // Exception to the application of the IPI Measure
+						{BT-686-LotResult} #{field|name|BT-686-LotResult}: ${BT-686-LotResult} // Number of tender applications that fall under this IPI Measure
+						{BT-687-LotResult} #{field|name|BT-687-LotResult}: #{BT-687-LotResult} // Exception to the application of the IPI Measure
 						{ND-IPIAppliedMeasure[BT-688-LotResult is present]} #{field|name|BT-688-LotResult}: ${BT-688-LotResult} // Overriding reasons relating to the public interest
 8 {ND-Root} #{auxiliary|text|organisations} // 8 Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier

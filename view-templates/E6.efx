@@ -1,8 +1,6 @@
 // View E6
 // File generated from metadata database
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
-	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
-		{ND-ContractingParty} #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Official name
 2 {ND-Root} #{auxiliary|text|procedure} // 2 Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{ND-ProcedureProcurementScope} #{field|name|BT-21-Procedure}: ${BT-21-Procedure} // Procedure Title
@@ -429,6 +427,7 @@
 8 {ND-Root} #{auxiliary|text|organisations} // 8 Organisations
 	1 {ND-Organization} ${OPT-200-Organization-Company} // 8.1 Organisation Technical Identifier
 		{ND-Organization} #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company} // Organisation Name
+		{BT-633-Organization[BT-633-Organization == TRUE]} #{field|name|BT-633-Organization} // The organisation is a natural person.
 		{BT-501-Organization-Company} #{field|name|BT-501-Organization-Company}: ${BT-501-Organization-Company} // Organization Identifier
 		{BT-16-Organization-Company} #{field|name|BT-16-Organization-Company}: ${BT-16-Organization-Company} // Organization Part Name
 		{BT-510(a)-Organization-Company} #{field|name|BT-510(a)-Organization-Company}: ${BT-510(a)-Organization-Company} ${BT-510(b)-Organization-Company} ${BT-510(c)-Organization-Company} // Postal address

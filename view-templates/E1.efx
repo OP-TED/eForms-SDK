@@ -1,12 +1,6 @@
 // View E1
 // File generated from metadata database
 1 {ND-Root[OPT-300-Procedure-Buyer is present]} #{auxiliary|text|buyer} // 1 Buyer
-	1 {ND-ContractingParty} #{auxiliary|text|buyer} // 1.1 Buyer
-		{ND-ContractingParty} #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname} // Official name
-		{BT-11-Procedure-Buyer} #{field|name|BT-11-Procedure-Buyer}: #{BT-11-Procedure-Buyer} // Legal type of the buyer
-		{BT-740-Procedure-Buyer[BT-740-Procedure-Buyer == 'cont-ent']} #{field|name|BT-740-Procedure-Buyer} // Buyer Contracting Entity
-		{BT-10-Procedure-Buyer} #{field|name|BT-10-Procedure-Buyer}: #value // Activity of the contracting authority
-		{BT-610-Procedure-Buyer} #{field|name|BT-610-Procedure-Buyer}: #{BT-610-Procedure-Buyer} // Activity Entity
 2 {ND-Root} #{auxiliary|text|procedure} // 2 Procedure
 	1 {ND-ProcedureProcurementScope} #{auxiliary|text|procedure} // 2.1 Procedure
 		{ND-ProcedureProcurementScope} #{field|name|BT-21-Procedure}: ${BT-21-Procedure} // Procedure Title
@@ -64,7 +58,7 @@
 			{BT-271-Lot} #{field|name|BT-271-Lot}: ${format-number(BT-271-Lot, '###,##0.##')} #{code|name|${concat('currency.', BT-271-Lot/@currencyID)}} // Framework Maximum Value
 		6 {ND-Lot[(BT-634-Lot == TRUE) or (BT-94-Lot == TRUE) or (BT-95-Lot is present) or (BT-71-Lot is present) or (BT-79-Lot is present) or (BT-60-Lot is present) or (BT-7220-Lot is present) or (BT-5010-Lot is present) or (BT-6140-Lot is present) or (BT-115-Lot is present) or (BT-726-Lot == TRUE) or (BT-125(i)-Lot is present) or (BT-1251-Lot is present) or (BT-300-Lot is present)]} #{auxiliary|text|general-information} // 5.1.6 General information
 			{BT-137-Lot[BT-300-Lot is present]} #{field|name|BT-300-Lot}: ${BT-300-Lot} // Additional information
-		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
+		11 {BT-137-Lot[(BT-14-Lot is present) or (BT-632-Lot is present) or (BT-124-Lot is present) or (BT-13(d)-Lot is present)]} #{auxiliary|text|procurement-documents} // 5.1.11 Procurement documents
 			{BT-137-Lot[some text:$restricted in (for text:$somerestricted in BT-14-Lot return $somerestricted) satisfies $restricted == 'restricted-document']} #{field|name|BT-14-Lot} // The access to certain procurement documents is restricted. (Lot)
 			{BT-707-Lot} #{field|name|BT-707-Lot}: #{BT-707-Lot} // Justification for restricting access to certain procurement documents (Lot)
 			{BT-137-Lot[(BT-708-Lot is present)]} #{field|name|BT-708-Lot}: #{BT-708-Lot} // Languages in which the procurement documents are officially available (Lot)
