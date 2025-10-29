@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.279",
-    "createdOn" : "2025-10-14T11:53:09"
+    "version" : "1.13.326",
+    "createdOn" : "2025-10-29T10:34:36"
   },
   "codelists" : [ {
     "id" : "accelerated-procedure",
@@ -286,7 +286,7 @@
     "_label" : "codelist|name|document-status"
   }, {
     "id" : "document-used-in-public-procurement",
-    "version" : "20240925-0",
+    "version" : "20250319-0",
     "filename" : "document-used-in-public-procurement.gc",
     "description" : "This code list describes documents used in Public Procurement. A set of interrelated business information representing the business facts and associated metadata. The information may be conveyed in any language",
     "_label" : "codelist|name|document-used-in-public-procurement"
