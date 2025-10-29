@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.279",
-    "createdOn" : "2025-10-14T11:53:09"
+    "version" : "1.13.326",
+    "createdOn" : "2025-10-29T10:34:36"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -3034,6 +3034,16 @@
         },
         "severity" : "ERROR"
       } ]
+    },
+    "assert" : {
+      "value" : "{ND-Root} ${TRUE}",
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "condition" : "{ND-Root} ${(BT-01-notice == 'other') and (OPP-070-notice in ('1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','E1','E2','E3','E4','E5','E6'))}",
+        "value" : "{ND-Root} ${(BT-01(c)-Procedure is present) or (BT-01(f)-Procedure is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00001-0259"
+      } ]
     }
   }, {
     "id" : "BT-02-notice",
@@ -4671,6 +4681,20 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E2", "E4", "E5", "E6", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E3", "T01" ],
+        "condition" : "{ND-LotInfoRequestPeriod} ${BT-13(d)-Lot is not present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E3", "T01" ],
+        "value" : true,
+        "severity" : "ERROR"
       } ]
     },
     "pattern" : {
@@ -4697,6 +4721,20 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "1", "2", "3", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "CEI", "E1", "E3", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "4", "5", "6", "E2" ],
+        "condition" : "{ND-PartInfoRequestPeriod} ${BT-13(d)-Part is not present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "4", "5", "6", "E2" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -4807,6 +4845,11 @@
         "value" : "{ND-LotTenderingProcess} ${BT-131(d)-Lot > BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00131-0151"
+      }, {
+        "condition" : "{ND-LotTenderingProcess} ${(BT-131(d)-Lot is present) and (BT-738-notice is present) and not(BT-758-notice is present)}",
+        "value" : "{ND-LotTenderingProcess} ${BT-131(d)-Lot > BT-738-notice}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00131-0155"
       } ]
     }
   }, {
@@ -4916,6 +4959,16 @@
         "value" : "{ND-LotTenderingProcess} ${BT-13(d)-Lot <= BT-1311(d)-Lot}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01311-0153"
+      }, {
+        "condition" : "{ND-LotTenderingProcess} ${(BT-1311(d)-Lot is present) and (BT-05(a)-notice is present) and not(BT-758-notice is present)}",
+        "value" : "{ND-LotTenderingProcess} ${BT-1311(d)-Lot > BT-05(a)-notice}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-01311-0156"
+      }, {
+        "condition" : "{ND-LotTenderingProcess} ${(BT-1311(d)-Lot is present) and (BT-738-notice is present) and not(BT-758-notice is present)}",
+        "value" : "{ND-LotTenderingProcess} ${BT-1311(d)-Lot > BT-738-notice}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-01311-0157"
       } ]
     }
   }, {
@@ -5027,7 +5080,16 @@
         "severity" : "ERROR"
       }, {
         "noticeTypes" : [ "16", "17", "20", "21", "E3" ],
-        "condition" : "{ND-PublicOpening} ${not(BT-105-Procedure == 'open')}",
+        "condition" : "{ND-PublicOpening} ${BT-132(d)-Lot is not present}",
+        "value" : true,
+        "severity" : "ERROR"
+      } ]
+    },
+    "mandatory" : {
+      "value" : false,
+      "severity" : "ERROR",
+      "constraints" : [ {
+        "noticeTypes" : [ "16", "17" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -5619,33 +5681,68 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 'tenders'] >= 0) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-13713-0100"
-      }, {
         "value" : "{ND-LotResult} ${BT-759-LotResult[BT-760-LotResult == 'tenders'] >= (BT-759-LotResult[BT-760-LotResult == 't-verif-inad'] + BT-759-LotResult[BT-760-LotResult == 't-no-verif']) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-verif-inad'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-no-verif'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0101"
-      }, {
-        "value" : "{ND-LotResult} ${BT-759-LotResult[BT-760-LotResult == 't-sme'] == (BT-759-LotResult[BT-760-LotResult == 't-med'] + BT-759-LotResult[BT-760-LotResult == 't-small'] + BT-759-LotResult[BT-760-LotResult == 't-micro']) or not(BT-759-LotResult[BT-760-LotResult == 't-sme'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-med'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-small'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-micro'] is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-13713-0102"
       }, {
         "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 't-sme'] <= BT-759-LotResult[BT-760-LotResult == 'tenders']) or not(BT-759-LotResult[BT-760-LotResult == 't-sme'] is present) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present)}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0103"
       }, {
-        "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 't-oth-eea'] <= BT-759-LotResult[BT-760-LotResult == 'tenders']) or not(BT-759-LotResult[BT-760-LotResult == 't-oth-eea'] is present) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-13713-0104"
-      }, {
-        "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 't-no-eea'] <= BT-759-LotResult[BT-760-LotResult == 'tenders']) or not(BT-759-LotResult[BT-760-LotResult == 't-no-eea'] is present) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present)}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-13713-0105"
-      }, {
         "value" : "{ND-LotResult} ${BT-13713-LotResult in /BT-137-Lot}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-13713-0110"
+      }, {
+        "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 't-esubm'] <= BT-759-LotResult[BT-760-LotResult == 'tenders']) or not(BT-759-LotResult[BT-760-LotResult == 't-esubm'] is present) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0111"
+      }, {
+        "value" : "{ND-LotResult} ${BT-759-LotResult[BT-760-LotResult == 'tenders'] >= (BT-759-LotResult[BT-760-LotResult == 't-no-eea'] + BT-759-LotResult[BT-760-LotResult == 't-oth-eea']) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-no-eea'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-oth-eea'] is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0112"
+      }, {
+        "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 't-verif-inad'] <= BT-759-LotResult[BT-760-LotResult == 'tenders']) or not(BT-759-LotResult[BT-760-LotResult == 't-verif-inad'] is present) or not(BT-759-LotResult[BT-760-LotResult == 'tenders'] is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0113"
+      }, {
+        "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 't-verif-inad-low'] <= BT-759-LotResult[BT-760-LotResult == 't-verif-inad']) or not(BT-759-LotResult[BT-760-LotResult == 't-verif-inad-low'] is present) or not(BT-759-LotResult[BT-760-LotResult == 't-verif-inad'] is present)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0114"
+      }, {
+        "condition" : "{ND-LotResult} ${(BT-142-LotResult == 'selec-w') and (count(BT-759-LotResult[BT-760-LotResult == 'tenders']) == 1)}",
+        "value" : "{ND-LotResult} ${(BT-759-LotResult[BT-760-LotResult == 'tenders']) >= 1}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0115"
+      }, {
+        "condition" : "{ND-LotResult} ${(BT-760-LotResult is present) and (OPP-070-notice in ('29','30','31','32','33','34','35','36','37','E4','E5'))}",
+        "value" : "{ND-LotResult} ${count(BT-759-LotResult[BT-760-LotResult == 'tenders']) == 1}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0116"
+      }, {
+        "condition" : "{ND-LotResult} ${(BT-760-LotResult is present) and (OPP-070-notice in ('29','30','31','32','33','34','35','36','37','E4','E5'))}",
+        "value" : "{ND-LotResult} ${((count(BT-759-LotResult[BT-760-LotResult == 't-small']) == 1) and (count(BT-759-LotResult[BT-760-LotResult == 't-micro']) == 1) and (count(BT-759-LotResult[BT-760-LotResult == 't-med']) == 1) and (count(BT-759-LotResult[BT-760-LotResult == 't-sme']) == 0)) or ((count(BT-759-LotResult[BT-760-LotResult == 't-small']) == 0) and (count(BT-759-LotResult[BT-760-LotResult == 't-micro']) == 0) and (count(BT-759-LotResult[BT-760-LotResult == 't-med']) == 0) and (count(BT-759-LotResult[BT-760-LotResult == 't-sme']) == 1))}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0117"
+      }, {
+        "condition" : "{ND-LotResult} ${(BT-760-LotResult is present) and (OPP-070-notice in ('29','30','31','32','33','34','35','36','37','E4','E5'))}",
+        "value" : "{ND-LotResult} ${(count(BT-759-LotResult[BT-760-LotResult == 't-no-eea']) == 1)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0118"
+      }, {
+        "condition" : "{ND-LotResult} ${(BT-760-LotResult is present) and (OPP-070-notice in ('29','30','32','36','37'))}",
+        "value" : "{ND-LotResult} ${count(BT-759-LotResult[BT-760-LotResult == 't-esubm']) == 1}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0119"
+      }, {
+        "condition" : "{ND-LotResult} ${BT-105-Procedure not in ('restricted','neg-w-call','comp-dial','innovation','oth-mult')}",
+        "value" : "{ND-LotResult} ${count(BT-759-LotResult[BT-760-LotResult == 'part-req']) == 0}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0121"
+      }, {
+        "condition" : "{ND-LotResult} ${(BT-760-LotResult is present) and (OPP-070-notice in ('29','30','31','32','33','34','35','36','37','E4','E5'))}",
+        "value" : "{ND-LotResult} ${(count(BT-759-LotResult[BT-760-LotResult == 't-oth-eea']) == 1)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-13713-0122"
       } ]
     }
   }, {
@@ -6204,7 +6301,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "T02" ],
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -6346,6 +6443,11 @@
         "value" : "{ND-SettledContract} ${BT-1451-Contract <= BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-01451-0101"
+      }, {
+        "condition" : "{ND-SettledContract} ${(BT-1451-Contract is present) and (BT-738-notice is present)}",
+        "value" : "{ND-SettledContract} ${BT-1451-Contract <= BT-738-notice}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-01451-0102"
       } ]
     }
   }, {
@@ -23326,13 +23428,8 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "16", "17", "18", "20", "21", "22", "23", "24", "E3" ],
+        "noticeTypes" : [ "7", "8", "9", "10", "11", "12", "13", "14", "16", "17", "18", "20", "21", "22", "23", "24", "E3" ],
         "condition" : "{ND-NonUBLTenderingTerms} ${(BT-809-Lot is not present) or not(BT-52-Lot == TRUE) or BT-105-Procedure not in ('comp-dial','innovation','neg-w-call','oth-mult','restricted')}",
-        "value" : true,
-        "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "14" ],
-        "condition" : "{ND-NonUBLTenderingTerms} ${not(BT-52-Lot == TRUE)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23649,21 +23746,21 @@
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00050-0100"
       }, {
-        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'restricted') and (BT-50-Lot > 4)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'restricted') or BT-766-Lot in ('dps-list','dps-nlist')}",
+        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'restricted') and (BT-50-Lot > 4)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'restricted') or BT-766-Lot in ('dps-list','dps-nlist') or (BT-01-notice == '32024R2509')}",
         "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00050-0101"
+        "message" : "rule|text|BR-BT-00050-0106"
       }, {
-        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'neg-w-call') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'neg-w-call') or BT-766-Lot in ('dps-list','dps-nlist')}",
+        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'neg-w-call') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'neg-w-call') or BT-766-Lot in ('dps-list','dps-nlist') or (BT-01-notice == '32024R2509')}",
         "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00050-0102"
+        "message" : "rule|text|BR-BT-00050-0107"
       }, {
-        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'comp-dial') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'comp-dial') or BT-766-Lot in ('dps-list','dps-nlist')}",
+        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'comp-dial') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'comp-dial') or BT-766-Lot in ('dps-list','dps-nlist') or (BT-01-notice == '32024R2509')}",
         "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00050-0103"
+        "message" : "rule|text|BR-BT-00050-0108"
       }, {
-        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'innovation') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'innovation') or BT-766-Lot in ('dps-list','dps-nlist')}",
+        "value" : "{ND-SecondStage} ${((OPP-070-notice == '16') and (BT-105-Procedure == 'innovation') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'innovation') or BT-766-Lot in ('dps-list','dps-nlist') or (BT-01-notice == '32024R2509')}",
         "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00050-0104"
+        "message" : "rule|text|BR-BT-00050-0109"
       } ]
     }
   }, {
@@ -27333,14 +27430,14 @@
         "message" : "rule|text|BR-BT-00539-0194"
       }, {
         "condition" : "{ND-LotAwardCriteria} ${BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] is present}",
-        "value" : "{ND-LotAwardCriteria} ${every number:$ordImp in BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] satisfies (format-number($ordImp, '#') == string($ordImp))}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00539-0196"
-      }, {
-        "condition" : "{ND-LotAwardCriteria} ${BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] is present}",
         "value" : "{ND-LotAwardCriteria} ${every number:$ordImp in BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] satisfies($ordImp <= count(BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp']))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0197"
+      }, {
+        "condition" : "{ND-LotAwardCriteria} ${BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] is present}",
+        "value" : "{ND-LotAwardCriteria} ${every number:$ordImp in BT-541-Lot-WeightNumber[BT-5421-Lot == 'ord-imp'] satisfies ($ordImp % 1 == 0)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00539-0209"
       } ]
     }
   }, {
@@ -27419,14 +27516,14 @@
         "message" : "rule|text|BR-BT-00539-0195"
       }, {
         "condition" : "{ND-LotsGroupAwardCriteria} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is present}",
-        "value" : "{ND-LotsGroupAwardCriteria} ${every number:$ordImp in BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] satisfies (format-number($ordImp, '#') == string($ordImp))}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00539-0204"
-      }, {
-        "condition" : "{ND-LotsGroupAwardCriteria} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is present}",
         "value" : "{ND-LotsGroupAwardCriteria} ${every number:$ordImp in BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] satisfies($ordImp <= count(BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp']))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00539-0205"
+      }, {
+        "condition" : "{ND-LotsGroupAwardCriteria} ${BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] is present}",
+        "value" : "{ND-LotsGroupAwardCriteria} ${every number:$ordImp in BT-541-LotsGroup-WeightNumber[BT-5421-LotsGroup == 'ord-imp'] satisfies ($ordImp % 1 == 0)}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00539-0210"
       } ]
     }
   }, {
@@ -29397,6 +29494,11 @@
         "value" : "{ND-InterestExpressionReceptionPeriod} ${BT-630(d)-Lot > BT-05(a)-notice}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00630-0150"
+      }, {
+        "condition" : "{ND-LotTenderingProcess} ${(BT-630(d)-Lot is present) and (BT-738-notice is present) and not(BT-758-notice is present)}",
+        "value" : "{ND-LotTenderingProcess} ${BT-630(d)-Lot > BT-738-notice}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00630-0151"
       } ]
     }
   }, {
@@ -29547,11 +29649,11 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E1", "E2", "E3", "E6", "T01", "X01", "X02" ],
+        "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "CEI", "E1", "E2", "E3", "T01", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E4", "E5", "T02" ],
+        "noticeTypes" : [ "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E4", "E5", "E6", "T02" ],
         "condition" : "{ND-Organization} ${not(OPT-200-Organization-Company in /OPT-300-Procedure-SProvider) and not(((OPT-200-Organization-Company in /OPT-301-Tenderer-SubCont) or (OPT-200-Organization-Company in /OPT-300-Tenderer)) and (not(BT-746-Organization == TRUE)))}",
         "value" : true,
         "severity" : "ERROR"
@@ -29599,9 +29701,9 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-LotTenderingProcessExtension} ${((BT-634-Lot == TRUE) and ((BT-142-LotResult== 'clos-nw') or (BT-140-notice == 'cancel'))) or not(BT-634-Lot == TRUE)}",
+        "value" : "{ND-LotTenderingProcessExtension} ${((BT-634-Lot == TRUE) and ((BT-142-LotResult== 'clos-nw') or (BT-140-notice == 'cancel-intent'))) or not(BT-634-Lot == TRUE)}",
         "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00634-0151"
+        "message" : "rule|text|BR-BT-00634-0187"
       } ]
     }
   }, {
@@ -29639,9 +29741,9 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-ProcedureTenderingProcess} ${((BT-634-Procedure == TRUE) and (not(BT-142-LotResult!= 'clos-nw') or (BT-140-notice == 'cancel'))) or not(BT-634-Procedure == TRUE)}",
+        "value" : "{ND-ProcedureTenderingProcess} ${((BT-634-Procedure == TRUE) and ((BT-142-LotResult== 'clos-nw') or (BT-140-notice == 'cancel-intent'))) or not(BT-634-Procedure == TRUE)}",
         "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00634-0150"
+        "message" : "rule|text|BR-BT-00634-0186"
       } ]
     }
   }, {
@@ -29835,7 +29937,7 @@
       "severity" : "ERROR",
       "constraints" : [ {
         "noticeTypes" : [ "23", "24" ],
-        "condition" : "{ND-AwardingTerms} ${BT-41-Lot != TRUE}",
+        "condition" : "{ND-Lot} ${BT-41-Lot != TRUE}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -34241,7 +34343,12 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37" ],
+        "noticeTypes" : [ "32", "35" ],
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29", "30", "31", "33", "34", "36", "37" ],
+        "condition" : "{ND-LotResult} ${(BT-142-LotResult != 'open-nw') and ((BT-142-LotResult != 'clos-nw') or (BT-144-LotResult != 'no-rece')) and not((BT-13713-LotResult in BT-137-Lot[BT-765-Lot == 'fa-wo-rc']) and (OPT-315-LotResult in OPT-316-Contract[(BT-768-Contract == TRUE)]))}",
         "value" : true,
         "severity" : "ERROR"
       } ]
