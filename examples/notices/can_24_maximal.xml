@@ -203,15 +203,21 @@
 							</efac:FrameworkAgreementValues>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<!--"id" : "BT-759-LotResult",   "name" : "Received Submissions Count"-->
+								<efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
 								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
 								<!--"id" : "BT-759-LotResult",   "name" : "Received Submissions Count"-->
 								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
 								<!--"id" : "BT-759-LotResult",   "name" : "Received Submissions Count"-->
-								<efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+								<efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
@@ -355,15 +361,21 @@
 							</efac:LotTender>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
-								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<!--"id" : "BT-759-LotResult",  "name" : "Received Submissions Count"-->
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
 								<!--"id" : "BT-759-LotResult",  "name" : "Received Submissions Count"-->
 								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
 								<!--"id" : "BT-759-LotResult",  "name" : "Received Submissions Count"-->
-								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
