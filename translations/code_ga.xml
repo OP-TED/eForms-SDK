@@ -10160,8 +10160,8 @@
 <entry key="code|name|duration.UNKNOWN">Anaithnid</entry>
 <entry key="code|name|duration.UNLIMITED">Neamhtheoranta</entry>
 <entry key="code|name|ecatalog-submission.allowed">Ceadmhach</entry>
-<entry key="code|name|ecatalog-submission.not-allowed">Éigeantach</entry>
-<entry key="code|name|ecatalog-submission.required">Ní ceadmhach</entry>
+<entry key="code|name|ecatalog-submission.not-allowed">Ní ceadmhach</entry>
+<entry key="code|name|ecatalog-submission.required">Éigeantach</entry>
 <entry key="code|name|economic-operator-size.large">Fiontar mór</entry>
 <entry key="code|name|economic-operator-size.medium">Fiontar meánmhéide</entry>
 <entry key="code|name|economic-operator-size.micro">Micrifhiontar</entry>
@@ -10200,8 +10200,8 @@
 <entry key="code|name|eed-scope.false">níl</entry>
 <entry key="code|name|eed-scope.true">tá</entry>
 <entry key="code|name|einvoicing.allowed">Ceadmhach</entry>
-<entry key="code|name|einvoicing.not-allowed">Éigeantach</entry>
-<entry key="code|name|einvoicing.required">Ní ceadmhach</entry>
+<entry key="code|name|einvoicing.not-allowed">Ní ceadmhach</entry>
+<entry key="code|name|einvoicing.required">Éigeantach</entry>
 <entry key="code|name|energy-efficiency-basis.eco-des">Rialacha maidir le héicidhearthóireacht</entry>
 <entry key="code|name|energy-efficiency-basis.eed-spec">Oibreacha agus Seirbhísí a bhaineann go sonrach leis an Treoir maidir le hÉifeachtúlacht Fuinnimh nach gcumhdaítear le Soláthar Poiblí Glas</entry>
 <entry key="code|name|energy-efficiency-basis.enrg-lab">Lipéad Fuinnimh</entry>
@@ -10269,8 +10269,8 @@
 <entry key="code|name|esignature-submission.false">níl</entry>
 <entry key="code|name|esignature-submission.true">tá</entry>
 <entry key="code|name|esubmission.allowed">Ceadmhach</entry>
-<entry key="code|name|esubmission.not-allowed">Éigeantach</entry>
-<entry key="code|name|esubmission.required">Ní ceadmhach</entry>
+<entry key="code|name|esubmission.not-allowed">Ní ceadmhach</entry>
+<entry key="code|name|esubmission.required">Éigeantach</entry>
 <entry key="code|name|eu-country.AUT">An Ostair</entry>
 <entry key="code|name|eu-country.BEL">An Bheilg</entry>
 <entry key="code|name|eu-country.BGR">An Bhulgáir</entry>
@@ -10927,6 +10927,8 @@
 <entry key="code|name|measurement-unit.MTK">méadar cearnach</entry>
 <entry key="code|name|measurement-unit.MTR">méadar</entry>
 <entry key="code|name|measurement-unit.TNE">tona</entry>
+<entry key="code|name|metric-type.nrg-con-yr">Úsáid fuinnimh in kWh in aghaidh na bliana</entry>
+<entry key="code|name|metric-type.nrg-sav-yr">Coigilteas fuinnimh in kWh in aghaidh na bliana</entry>
 <entry key="code|name|missing-info-submission.late-all">Faoi rogha an cheannaitheora, féadfar gach doiciméad ar iarraidh a bhaineann leis an tairgeoir a chur isteach níos déanaí.</entry>
 <entry key="code|name|missing-info-submission.late-none">Ní féidir aon doiciméid a chur isteach níos déanaí.</entry>
 <entry key="code|name|missing-info-submission.late-some">Faoi rogha an cheannaitheora, féadfar roinnt doiciméad ar iarraidh a bhaineann leis an tairgeoir a chur isteach níos déanaí.</entry>
@@ -15822,8 +15824,8 @@
 <entry key="code|name|other-place-service.anyw-cou">Aon áit sa tír áirithe</entry>
 <entry key="code|name|other-place-service.anyw-eea">Aon áit sa Limistéar Eorpach Eacnamaíoch</entry>
 <entry key="code|name|permission.allowed">Ceadmhach</entry>
-<entry key="code|name|permission.not-allowed">Éigeantach</entry>
-<entry key="code|name|permission.required">Ní ceadmhach</entry>
+<entry key="code|name|permission.not-allowed">Ní ceadmhach</entry>
+<entry key="code|name|permission.required">Éigeantach</entry>
 <entry key="code|name|pin-buyer.1">Fógra maidir le fógra réamhfhaisnéise a fhoilsiú maidir le próifíl ceannaitheora — treoir ghinearálta</entry>
 <entry key="code|name|pin-buyer.2">Fógra maidir le foilsiú fógra tháscaigh thréimhsiúil maidir le próifíl ceannaitheora — treoir earnála</entry>
 <entry key="code|name|pin-buyer.3">Fógra maidir le fógra réamhfhaisnéise a fhoilsiú maidir le próifíl ceannaitheora — treoir maidir le cosaint</entry>
