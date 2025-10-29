@@ -638,6 +638,12 @@
                        test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00200-0051</svrl:text>
    </svrl:failed-assert>
+   <svrl:failed-assert id="OPT-200-Organization-Company-Scheme_MA"
+                       location="/cn:ContractNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
+                       role="ERROR"
+                       test="count(@schemeName) &gt; 0">
+      <svrl:text>rule|text|OPT-200-Organization-Company-Scheme_MA</svrl:text>
+   </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-3b-16"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '16']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-16"/>
