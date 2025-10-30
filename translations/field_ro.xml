@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">Valoarea care ar putea fi cheltuită într-un acord-cadru pe toată durata sa, inclusiv pe opțiuni și reînnoiri, reestimată pe baza ofertei/ofertelor câștigătorului/câștigătorilor.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Valoarea care ar putea fi cheltuită într-un acord-cadru pe toată durata sa, inclusiv pe opțiuni și reînnoiri, reestimată pe baza ofertei/ofertelor câștigătorului/câștigătorilor.</entry>
 <entry key="field|description|BT-661-Lot">Există un număr maxim de candidați care urmează să fie invitați pentru a doua etapă a procedurii.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Scurtă descriere a criteriilor privind situația personală a ofertanților care poate duce la excluderea acestora. Aceasta trebuie să includă o listă a tuturor acestor criterii și să indice informațiile necesare (de exemplu, declarație pe propria răspundere, documentația). Aceasta poate include și motive specifice de excludere la nivel național.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Scurtă descriere a criteriilor privind situația personală a ofertanților care poate duce la excluderea acestora. Aceasta trebuie să includă o listă a tuturor acestor criterii și să indice informațiile necesare (de exemplu, declarație pe propria răspundere, documentația). Aceasta poate include și motive specifice de excludere la nivel național.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Scurtă descriere a criteriilor privind situația personală a ofertanților care poate duce la excluderea acestora. Aceasta trebuie să includă o listă a tuturor acestor criterii și să indice informațiile necesare (de exemplu, declarație pe propria răspundere, documentația). Aceasta poate include și motive specifice de excludere la nivel național.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Scurtă descriere a criteriilor privind situația personală a ofertanților care poate duce la excluderea acestora. Aceasta trebuie să includă o listă a tuturor acestor criterii și să indice informațiile necesare (de exemplu, declarație pe propria răspundere, documentația). Aceasta poate include și motive specifice de excludere la nivel național.</entry>
 <entry key="field|description|BT-681-Lot">Regulamentul privind subvențiile străine (RSS) (UE) 2022/2560, în conformitate cu articolul 28 din acesta, se aplică acestei proceduri de achiziții publice.</entry>
 <entry key="field|description|BT-681-Lot-List">Regulamentul privind subvențiile străine (RSS) (UE) 2022/2560, în conformitate cu articolul 28 din acesta, se aplică acestei proceduri de achiziții publice.</entry>
 <entry key="field|description|BT-682-Tender">Măsuri aplicate în temeiul Regulamentului privind subvențiile străine (RSS) (UE) 2022/2560.</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Valoarea recalculată a acordului-cadru</entry>
 <entry key="field|name|BT-661-Lot">Există un număr maxim de candidați care urmează să fie invitați pentru a doua etapă a procedurii.</entry>
 <entry key="field|name|BT-67(a)-Procedure">Cod</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Descriere</entry>
 <entry key="field|name|BT-67(b)-Procedure">Descriere</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Descriere</entry>
 <entry key="field|name|BT-681-Lot">Regulamentul privind subvențiile străine</entry>
 <entry key="field|name|BT-681-Lot-List">Regulamentul privind subvențiile străine</entry>
 <entry key="field|name|BT-682-Tender">Măsuri de subvenții străine</entry>

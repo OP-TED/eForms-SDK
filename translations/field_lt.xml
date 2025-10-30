@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">Remiantis laimėtojo pasiūlymu ar laimėtojų pasiūlymais iš naujo įvertinta vertė, kuri, tikėtina, bus išleista pagal preliminariąją sutartį per visą jos galiojimo trukmę, įskaitant pasirinkimo galimybes ir atnaujinimus.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Remiantis laimėtojo pasiūlymu ar laimėtojų pasiūlymais iš naujo įvertinta vertė, kuri, tikėtina, bus išleista pagal preliminariąją sutartį per visą jos galiojimo trukmę, įskaitant pasirinkimo galimybes ir atnaujinimus.</entry>
 <entry key="field|description|BT-661-Lot">Nustatytas didžiausias į antrąjį procedūros etapą kviečiamų kandidatų skaičius.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Trumpas su dalyvių asmenine padėtimi susijusių kriterijų, dėl kurių jie gali būti pašalinti iš konkurso, aprašymas. Į jį įtraukiamas visų tokių kriterijų sąrašas ir pateiktina informacija (pvz., savideklaracija, dokumentai). Jame taip pat gali būti nurodyti konkretūs nacionaliniai pašalinimo pagrindai.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Trumpas su dalyvių asmenine padėtimi susijusių kriterijų, dėl kurių jie gali būti pašalinti iš konkurso, aprašymas. Į jį įtraukiamas visų tokių kriterijų sąrašas ir pateiktina informacija (pvz., savideklaracija, dokumentai). Jame taip pat gali būti nurodyti konkretūs nacionaliniai pašalinimo pagrindai.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Trumpas su dalyvių asmenine padėtimi susijusių kriterijų, dėl kurių jie gali būti pašalinti iš konkurso, aprašymas. Į jį įtraukiamas visų tokių kriterijų sąrašas ir pateiktina informacija (pvz., savideklaracija, dokumentai). Jame taip pat gali būti nurodyti konkretūs nacionaliniai pašalinimo pagrindai.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Trumpas su dalyvių asmenine padėtimi susijusių kriterijų, dėl kurių jie gali būti pašalinti iš konkurso, aprašymas. Į jį įtraukiamas visų tokių kriterijų sąrašas ir pateiktina informacija (pvz., savideklaracija, dokumentai). Jame taip pat gali būti nurodyti konkretūs nacionaliniai pašalinimo pagrindai.</entry>
 <entry key="field|description|BT-681-Lot">Šiai pirkimo procedūrai taikomas Užsienio subsidijų reglamentas (ES) 2022/2560 pagal jo 28 straipsnį.</entry>
 <entry key="field|description|BT-681-Lot-List">Šiai pirkimo procedūrai taikomas Užsienio subsidijų reglamentas (ES) 2022/2560 pagal jo 28 straipsnį.</entry>
 <entry key="field|description|BT-682-Tender">Pagal Užsienio subsidijų reglamentą (ES) 2022/2560 taikomos priemonės.</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Preliminariosios sutarties iš naujo įvertinta vertė</entry>
 <entry key="field|name|BT-661-Lot">Nustatytas didžiausias į antrąjį procedūros etapą kviečiamų kandidatų skaičius</entry>
 <entry key="field|name|BT-67(a)-Procedure">Kodas</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Aprašymas</entry>
 <entry key="field|name|BT-67(b)-Procedure">Aprašymas</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Aprašymas</entry>
 <entry key="field|name|BT-681-Lot">Užsienio subsidijų reglamentas</entry>
 <entry key="field|name|BT-681-Lot-List">Užsienio subsidijų reglamentas</entry>
 <entry key="field|name|BT-682-Tender">Užsienio subsidijų priemonės</entry>

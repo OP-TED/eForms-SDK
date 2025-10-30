@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "eforms-sdk-1.14.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.13.326",
-    "createdOn" : "2025-10-29T10:34:36"
+    "version" : "1.13.334",
+    "createdOn" : "2025-10-30T14:50:29"
   },
   "businessEntities" : [ {
     "id" : "buyer",
@@ -30204,14 +30204,14 @@
     "id" : "BT-67(a)-Procedure",
     "parentNodeId" : "ND-ExclusionGrounds",
     "name" : "Exclusion Ground",
-    "btId" : "BT-67",
+    "btId" : "BT-67(a)",
     "xpathAbsolute" : "/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-ground']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode",
     "xpathRelative" : "cbc:TendererRequirementTypeCode",
     "xsdSequenceOrder" : [ { "cbc:TendererRequirementTypeCode" : 3 } ],
     "type" : "code",
     "attributes" : [ "BT-67(a)-Procedure-List" ],
     "businessEntityId" : "procedure",
-    "legalType" : "TEXT",
+    "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -30259,7 +30259,7 @@
     "id" : "BT-67(a)-Procedure-List",
     "parentNodeId" : "ND-ExclusionGrounds",
     "name" : "Exclusion Ground Listname",
-    "btId" : "BT-67",
+    "btId" : "BT-67(a)",
     "xpathAbsolute" : "/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-ground']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName",
     "xpathRelative" : "cbc:TendererRequirementTypeCode/@listName",
     "xsdSequenceOrder" : [ { "cbc:TendererRequirementTypeCode" : 3 } ],
@@ -30268,7 +30268,7 @@
     "attributeOf" : "BT-67(a)-Procedure",
     "presetValue" : "exclusion-ground",
     "businessEntityId" : "procedure",
-    "legalType" : "TEXT",
+    "legalType" : "CODE",
     "repeatable" : {
       "value" : false,
       "severity" : "ERROR"
@@ -30277,7 +30277,7 @@
     "id" : "BT-67(b)-Procedure",
     "parentNodeId" : "ND-ExclusionGrounds",
     "name" : "Exclusion Ground Description",
-    "btId" : "BT-67",
+    "btId" : "BT-67(b)",
     "xpathAbsolute" : "/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-ground']/cac:SpecificTendererRequirement/cbc:Description",
     "xpathRelative" : "cbc:Description",
     "xsdSequenceOrder" : [ { "cbc:Description" : 4 } ],
@@ -30308,7 +30308,7 @@
     "id" : "BT-67(b)-Procedure-Language",
     "parentNodeId" : "ND-ExclusionGrounds",
     "name" : "Exclusion Ground Description Language",
-    "btId" : "BT-67",
+    "btId" : "BT-67(b)",
     "xpathAbsolute" : "/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-ground']/cac:SpecificTendererRequirement/cbc:Description/@languageID",
     "xpathRelative" : "cbc:Description/@languageID",
     "xsdSequenceOrder" : [ { "cbc:Description" : 4 } ],

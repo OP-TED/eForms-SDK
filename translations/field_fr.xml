@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">Valeur susceptible d’être dépensée pendant toute la durée d’un accord-cadre, y compris les options et les renouvellements, réestimée sur la base de l’offre du lauréat ou des offres des lauréats.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Valeur susceptible d’être dépensée pendant toute la durée d’un accord-cadre, y compris les options et les renouvellements, réestimée sur la base de l’offre du lauréat ou des offres des lauréats.</entry>
 <entry key="field|description|BT-661-Lot">Le nombre de candidats à convoquer pour la seconde étape de la procédure est limité.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Description succincte des critères relatifs à la situation personnelle des soumissionnaires susceptibles d’entraîner leur exclusion. Elle doit inclure une liste de tous ces critères et préciser les informations requises (déclaration sur l’honneur, justificatifs, etc.). Elle peut également inclure des motifs spécifiques d’exclusion à l’échelon national.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Description succincte des critères relatifs à la situation personnelle des soumissionnaires susceptibles d’entraîner leur exclusion. Elle doit inclure une liste de tous ces critères et préciser les informations requises (déclaration sur l’honneur, justificatifs, etc.). Elle peut également inclure des motifs spécifiques d’exclusion à l’échelon national.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Description succincte des critères relatifs à la situation personnelle des soumissionnaires susceptibles d’entraîner leur exclusion. Elle doit inclure une liste de tous ces critères et préciser les informations requises (déclaration sur l’honneur, justificatifs, etc.). Elle peut également inclure des motifs spécifiques d’exclusion à l’échelon national.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Description succincte des critères relatifs à la situation personnelle des soumissionnaires susceptibles d’entraîner leur exclusion. Elle doit inclure une liste de tous ces critères et préciser les informations requises (déclaration sur l’honneur, justificatifs, etc.). Elle peut également inclure des motifs spécifiques d’exclusion à l’échelon national.</entry>
 <entry key="field|description|BT-681-Lot">Le règlement (UE) 2022/2560 relatif aux subventions étrangères (RSE), conformément à son article 28, est applicable à cette procédure de passation de marché.</entry>
 <entry key="field|description|BT-681-Lot-List">Le règlement (UE) 2022/2560 relatif aux subventions étrangères (RSE), conformément à son article 28, est applicable à cette procédure de passation de marché.</entry>
 <entry key="field|description|BT-682-Tender">Mesures appliquées en vertu du règlement (UE) 2022/2560 relatif aux subventions étrangères.</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Valeur réestimée de l’accord-cadre</entry>
 <entry key="field|name|BT-661-Lot">Le nombre de candidats à inviter pour la seconde étape de la procédure est limité</entry>
 <entry key="field|name|BT-67(a)-Procedure">Code</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Description</entry>
 <entry key="field|name|BT-67(b)-Procedure">Description</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Description</entry>
 <entry key="field|name|BT-681-Lot">Règlement sur les subventions étrangères</entry>
 <entry key="field|name|BT-681-Lot-List">Règlement sur les subventions étrangères</entry>
 <entry key="field|name|BT-682-Tender">Mesures de subventions étrangères</entry>

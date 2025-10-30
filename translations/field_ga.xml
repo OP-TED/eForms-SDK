@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">An luach is dócha a chaithfear laistigh de creat‑chomhaontú thar a thréimhse iomlán, lena n‑áirítear roghanna agus athnuachan, arna n‑athmheas bunaithe ar thairiscintí an bhuaiteora nó ar thairiscintí na mbuaiteoirí.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">An luach is dócha a chaithfear laistigh de creat‑chomhaontú thar a thréimhse iomlán, lena n‑áirítear roghanna agus athnuachan, arna n‑athmheas bunaithe ar thairiscintí an bhuaiteora nó ar thairiscintí na mbuaiteoirí.</entry>
 <entry key="field|description|BT-661-Lot">Tá uaslíon iarrthóirí ann a n‑iarrfar orthu bheith páirteach sa dara céim den nós imeachta.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Tuairisc ghairid ar na critéir maidir le staid phearsanta tairgeora a bhféadfaí é a eisiamh mar gheall orthu. Tabharfar liosta de na critéir sin ar fad leis seo agus ní mór an fhaisnéis a éilítear a shonrú (e.g. féindearbhú, doiciméadacht). Is féidir forais eisiaimh náisiúnta sonracha a bheith san áireamh leis seo freisin.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Tuairisc ghairid ar na critéir maidir le staid phearsanta tairgeora a bhféadfaí é a eisiamh mar gheall orthu. Tabharfar liosta de na critéir sin ar fad leis seo agus ní mór an fhaisnéis a éilítear a shonrú (e.g. féindearbhú, doiciméadacht). Is féidir forais eisiaimh náisiúnta sonracha a bheith san áireamh leis seo freisin.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Tuairisc ghairid ar na critéir maidir le staid phearsanta tairgeora a bhféadfaí é a eisiamh mar gheall orthu. Tabharfar liosta de na critéir sin ar fad leis seo agus ní mór an fhaisnéis a éilítear a shonrú (e.g. féindearbhú, doiciméadacht). Is féidir forais eisiaimh náisiúnta sonracha a bheith san áireamh leis seo freisin.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Tuairisc ghairid ar na critéir maidir le staid phearsanta tairgeora a bhféadfaí é a eisiamh mar gheall orthu. Tabharfar liosta de na critéir sin ar fad leis seo agus ní mór an fhaisnéis a éilítear a shonrú (e.g. féindearbhú, doiciméadacht). Is féidir forais eisiaimh náisiúnta sonracha a bheith san áireamh leis seo freisin.</entry>
 <entry key="field|description|BT-681-Lot">Dá bhrí sin, tá feidhm ag an Rialachán maidir le fóirdheontais eachtracha (AE) 2022/2560, i gcomhréir le hAirteagal 28 de, maidir leis an nós imeachta tairisceana seo.</entry>
 <entry key="field|description|BT-681-Lot-List">Dá bhrí sin, tá feidhm ag an Rialachán maidir le fóirdheontais eachtracha (AE) 2022/2560, i gcomhréir le hAirteagal 28 de, maidir leis an nós imeachta tairisceana seo.</entry>
 <entry key="field|description|BT-682-Tender">Bearta a chuirtear chun feidhme faoin Rialachán maidir le fóirdheontais eachtracha (AE) 2022/2560.</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Luach athmheasta an chreat-chomhaontaithe</entry>
 <entry key="field|name|BT-661-Lot">Tá uaslíon iarrthóirí ann a n-iarrfar orthu a bheith páirteach sa dara céim den nós imeachta</entry>
 <entry key="field|name|BT-67(a)-Procedure">Cód</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Cur síos</entry>
 <entry key="field|name|BT-67(b)-Procedure">Cur síos</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Cur síos</entry>
 <entry key="field|name|BT-681-Lot">Rialachán na Scaireanna Coigríche</entry>
 <entry key="field|name|BT-681-Lot-List">Rialachán na Scaireanna Coigríche</entry>
 <entry key="field|name|BT-682-Tender">Bearta maidir le deontais eachtracha</entry>

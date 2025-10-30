@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">Hodnota, která bude pravděpodobně vynaložena za celou dobu trvání rámcové dohody, včetně opčních práv a prodloužení, znovu odhadnutá na základě vítězné nabídky nebo vítězných nabídek.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Hodnota, která bude pravděpodobně vynaložena za celou dobu trvání rámcové dohody, včetně opčních práv a prodloužení, znovu odhadnutá na základě vítězné nabídky nebo vítězných nabídek.</entry>
 <entry key="field|description|BT-661-Lot">Existuje maximální počet zájemců, kteří mohou být vyzváni k účasti ve druhé fázi řízení.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Stručný popis kritérií týkajících se osobní situace uchazečů, která může vést k jejich vyloučení. Uvede se seznam všech takových kritérií a požadované informace (např. vlastní prohlášení, dokumenty). Rovněž mohou být zahrnuty i zvláštní vnitrostátní důvody pro vyloučení.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Stručný popis kritérií týkajících se osobní situace uchazečů, která může vést k jejich vyloučení. Uvede se seznam všech takových kritérií a požadované informace (např. vlastní prohlášení, dokumenty). Rovněž mohou být zahrnuty i zvláštní vnitrostátní důvody pro vyloučení.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Stručný popis kritérií týkajících se osobní situace uchazečů, která může vést k jejich vyloučení. Uvede se seznam všech takových kritérií a požadované informace (např. vlastní prohlášení, dokumenty). Rovněž mohou být zahrnuty i zvláštní vnitrostátní důvody pro vyloučení.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Stručný popis kritérií týkajících se osobní situace uchazečů, která může vést k jejich vyloučení. Uvede se seznam všech takových kritérií a požadované informace (např. vlastní prohlášení, dokumenty). Rovněž mohou být zahrnuty i zvláštní vnitrostátní důvody pro vyloučení.</entry>
 <entry key="field|description|BT-681-Lot">Nařízení o zahraničních subvencích (EU) 2022/2560 se podle jeho článku 28 vztahuje na toto zadávací řízení.</entry>
 <entry key="field|description|BT-681-Lot-List">Nařízení o zahraničních subvencích (EU) 2022/2560 se podle jeho článku 28 vztahuje na toto zadávací řízení.</entry>
 <entry key="field|description|BT-682-Tender">Opatření uplatněná podle nařízení o zahraničních subvencích (EU) 2022/2560.</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Znovu odhadnutá hodnota rámcové dohody</entry>
 <entry key="field|name|BT-661-Lot">Existuje maximální počet zájemců, kteří mohou být vyzváni k účasti ve druhé fázi řízení</entry>
 <entry key="field|name|BT-67(a)-Procedure">Kód</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Popis</entry>
 <entry key="field|name|BT-67(b)-Procedure">Popis</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Popis</entry>
 <entry key="field|name|BT-681-Lot">Nařízení o zahraničních dotacích</entry>
 <entry key="field|name|BT-681-Lot-List">Nařízení o zahraničních dotacích</entry>
 <entry key="field|name|BT-682-Tender">Cizí dotace</entry>

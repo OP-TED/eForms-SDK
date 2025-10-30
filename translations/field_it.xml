@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">Il valore della spesa probabile nell'ambito di un accordo quadro nel corso della sua durata complessiva, comprese le opzioni e i rinnovi, fatta oggetto di nuova stima in base all'offerta del vincitore o alle offerte dei vincitori.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Il valore della spesa probabile nell'ambito di un accordo quadro nel corso della sua durata complessiva, comprese le opzioni e i rinnovi, fatta oggetto di nuova stima in base all'offerta del vincitore o alle offerte dei vincitori.</entry>
 <entry key="field|description|BT-661-Lot">Esiste un numero massimo di candidati che possono essere invitati alla seconda fase della procedura.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Breve descrizione dei criteri relativi alla situazione personale degli offerenti che possono comportare la loro esclusione. Comprende un elenco di tutti i criteri di questo tipo e indica le informazioni richieste (ad es. autocertificazione, documentazione). Possono essere inclusi anche i motivi specifici di esclusione a livello nazionale.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Breve descrizione dei criteri relativi alla situazione personale degli offerenti che possono comportare la loro esclusione. Comprende un elenco di tutti i criteri di questo tipo e indica le informazioni richieste (ad es. autocertificazione, documentazione). Possono essere inclusi anche i motivi specifici di esclusione a livello nazionale.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Breve descrizione dei criteri relativi alla situazione personale degli offerenti che possono comportare la loro esclusione. Comprende un elenco di tutti i criteri di questo tipo e indica le informazioni richieste (ad es. autocertificazione, documentazione). Possono essere inclusi anche i motivi specifici di esclusione a livello nazionale.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Breve descrizione dei criteri relativi alla situazione personale degli offerenti che possono comportare la loro esclusione. Comprende un elenco di tutti i criteri di questo tipo e indica le informazioni richieste (ad es. autocertificazione, documentazione). Possono essere inclusi anche i motivi specifici di esclusione a livello nazionale.</entry>
 <entry key="field|description|BT-681-Lot">Il regolamento sulle sovvenzioni estere (UE) 2022/2560, a norma dell'articolo 28 dello stesso, si applica alla procedura di appalto in questione.</entry>
 <entry key="field|description|BT-681-Lot-List">Il regolamento sulle sovvenzioni estere (UE) 2022/2560, a norma dell'articolo 28 dello stesso, si applica alla procedura di appalto in questione.</entry>
 <entry key="field|description|BT-682-Tender">Misure applicate a norma del regolamento sulle sovvenzioni estere (UE) 2022/2560.</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Valore di riestimo dell'accordo quadro</entry>
 <entry key="field|name|BT-661-Lot">Esiste un numero massimo di candidati che possono essere invitati alla seconda fase della procedura</entry>
 <entry key="field|name|BT-67(a)-Procedure">Codice</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Descrizione</entry>
 <entry key="field|name|BT-67(b)-Procedure">Descrizione</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Descrizione</entry>
 <entry key="field|name|BT-681-Lot">Regolamento sulle sovvenzioni straniere</entry>
 <entry key="field|name|BT-681-Lot-List">Regolamento sulle sovvenzioni straniere</entry>
 <entry key="field|name|BT-682-Tender">Misure di sovvenzioni straniere</entry>

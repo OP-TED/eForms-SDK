@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">O valor da despesa provável no âmbito de um acordo-quadro, durante toda a sua duração, incluindo opções e renovações, como reestimado com base na proposta do vencedor ou nas propostas dos vencedores.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">O valor da despesa provável no âmbito de um acordo-quadro, durante toda a sua duração, incluindo opções e renovações, como reestimado com base na proposta do vencedor ou nas propostas dos vencedores.</entry>
 <entry key="field|description|BT-661-Lot">Há um número máximo de candidatos a convocar para a segunda fase do processo.</entry>
-<entry key="field|description|BT-67(a)-Procedure">A descrição sucinta dos critérios relativos à situação pessoal dos proponentes que possam conduzir à sua exclusão. Deve incluir uma lista de todos esses critérios e indicar as informações exigidas (p. ex., autodeclaração, documentação). Pode também incluir motivos específicos de exclusão à escala nacional.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">A descrição sucinta dos critérios relativos à situação pessoal dos proponentes que possam conduzir à sua exclusão. Deve incluir uma lista de todos esses critérios e indicar as informações exigidas (p. ex., autodeclaração, documentação). Pode também incluir motivos específicos de exclusão à escala nacional.</entry>
-<entry key="field|description|BT-67(b)-Procedure">A descrição sucinta dos critérios relativos à situação pessoal dos proponentes que possam conduzir à sua exclusão. Deve incluir uma lista de todos esses critérios e indicar as informações exigidas (p. ex., autodeclaração, documentação). Pode também incluir motivos específicos de exclusão à escala nacional.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">A descrição sucinta dos critérios relativos à situação pessoal dos proponentes que possam conduzir à sua exclusão. Deve incluir uma lista de todos esses critérios e indicar as informações exigidas (p. ex., autodeclaração, documentação). Pode também incluir motivos específicos de exclusão à escala nacional.</entry>
 <entry key="field|description|BT-681-Lot">O Regulamento relativo às subvenções estrangeiras (RSE), Regulamento (UE) 2022/2560, em conformidade com o respetivo artigo 28.o, é aplicável a este processo de adjudicação.</entry>
 <entry key="field|description|BT-681-Lot-List">O Regulamento relativo às subvenções estrangeiras (RSE), Regulamento (UE) 2022/2560, em conformidade com o respetivo artigo 28.o, é aplicável a este processo de adjudicação.</entry>
 <entry key="field|description|BT-682-Tender">Medidas adotadas nos termos do Regulamento relativo às subvenções estrangeiras, Regulamento (UE) 2022/2560</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Valor reestimado do acordo-quadro</entry>
 <entry key="field|name|BT-661-Lot">Há um número máximo de candidatos a convocar para a segunda fase do processo</entry>
 <entry key="field|name|BT-67(a)-Procedure">Código</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Descrição</entry>
 <entry key="field|name|BT-67(b)-Procedure">Descrição</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Descrição</entry>
 <entry key="field|name|BT-681-Lot">Regulação de Subsídios Estrangeiros</entry>
 <entry key="field|name|BT-681-Lot-List">Regulação de Subsídios Estrangeiros</entry>
 <entry key="field|name|BT-682-Tender">Medidas de subsídios estrangeiros</entry>
