@@ -123,7 +123,7 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:OpenTenderEvent[$noticeSubType = '16']">
 		<assert id="BR-BT-00132-0074" role="ERROR" diagnostics="BT-132_t_-Lot" test="count(cbc:OccurrenceTime) &gt; 0 or not(cbc:OccurrenceDate)">rule|text|BR-BT-00132-0074</assert>
-		<assert id="BR-BT-00132-0107" role="ERROR" diagnostics="BT-132_t_-Lot" test="count(cbc:OccurrenceTime) = 0 or (cbc:OccurrenceDate)">rule|text|BR-BT-00132-0107</assert>
+		<assert id="BR-BT-00132-0152" role="ERROR" diagnostics="BT-132_t_-Lot" test="count(cbc:OccurrenceTime) = 0 or (cbc:OccurrenceDate)">rule|text|BR-BT-00132-0152</assert>
 		<assert id="BR-BT-00133-0054" role="ERROR" diagnostics="ND-PublicOpening_BT-133-Lot" test="count(cac:OccurenceLocation/cbc:Description) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00133-0054</assert>
 		<assert id="BR-BT-00134-0022" role="ERROR" diagnostics="BT-134-Lot" test="count(cbc:Description) = 0 or (../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) = 'open')">rule|text|BR-BT-00134-0022</assert>
 	</rule>
