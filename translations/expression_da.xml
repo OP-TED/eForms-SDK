@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Underentreprise' (BT-773-Tender) er ikke 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Lot is present) og 'Landsdel (NUTS)' (BT-5071-Lot) er til stede</entry>
 <entry key="expression|name|671">'Værdien er en vægt' (BT-5421) er ikke 'Prioriteret rækkefølge'</entry>
+<entry key="expression|name|676">tilbudsgiveren består af mindre end 2 hovedtilbudsgivere</entry>
 <entry key="expression|name|677">Der var ingen rammeaftale involveret, eller business-term|name|BT-709] (BT-709-LotResult) er ikke tilgængeligt</entry>
 <entry key="expression|name|678">Der er ingen LotResult, eller der er ingen udbud for partiet dækket af LotResult og ingen udbud for nogen gruppe af partier, der ville indeholde partiet for LotResult, eller der er ingen udbud og ingen parti er specificeret for LotResult</entry>
 <entry key="expression|name|679">'Udbudsprocedure' (BT-105-Procedure) er ikke 'Udbud med forhandling uden forudgående offentliggørelse' og 'Retsgrundlag' (BT-01-notice) er ikke 'Forordning (EU, Euratom) 2024/2509' og der er mindst en 'Kontrakt udbuds-ID' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Retsgrundlag' (BT-01-notice) er 'Direktiv 2014/24/EU' eller 'Forordning (EU, Euratom) 2024/2509', og 'Proceduren er en hasteprocedure' (BT-106-Procedure) er 'ja'</entry>
 <entry key="expression|name|682">'Status for udvælgelse af vinder' (BT-142) skal være 'Der er udvalgt mindst én vinder.' for en meddelelse af typen 'Meddelelse om tildelt kontrakt vedrørende offentlig personbefordring'</entry>
 <entry key="expression|name|685">'Frist for modtagelse af anmodninger om deltagelse' (BT-1311(d)-Lot) og 'Afsendelsesdato for bekendtgørelsen' (BT-05(a)-notice) eksisterer, og det handler ikke om en ændring</entry>
-<entry key="expression|name|687">'Datoen for udvælgelsen af det vindende tilbud' (BT-1451-Contract) og 'Foretrukken offentliggørelsesdato' (BT-738-notice) eksisterer, og det handler ikke om en ændring</entry>
+<entry key="expression|name|687">'Datoen for udvælgelsen af det vindende tilbud' (BT-1451-Contract) og 'Foretrukken offentliggørelsesdato' (BT-738-notice) findes</entry>
 <entry key="expression|name|688">'Frist for modtagelse af tilbud' (BT-131(d)-Lot) og 'Foretrukken offentliggørelsesdato' (BT-738-notice) eksisterer, og det handler ikke om en ændring</entry>
 <entry key="expression|name|689">'Frist for modtagelse af anmodninger om deltagelse' (BT-1311(d)-Lot) og 'Foretrukken offentliggørelsesdato' (BT-738-notice) findes, og det drejer sig ikke om en ændring</entry>
 <entry key="expression|name|69">'Underentreprise' (BT-773-Tender) er ikke 'Ja'</entry>

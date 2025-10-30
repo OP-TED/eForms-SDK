@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
 <entry key="expression|name|670">'Země' (BT-5141-Lot is present) a 'Nižší územní jednotka země (NUTS)' (BT-5071-Lot) je přítomen</entry>
 <entry key="expression|name|671">'Číslo je typem váhy' (BT-5421) není 'Pořadí důležitosti'</entry>
+<entry key="expression|name|676">strana podávající nabídku je složena z méně než dvou hlavních uchazečů</entry>
 <entry key="expression|name|677">Nesouvisí s žádnou rámcovou dohodou nebo není přítomno 'Maximální hodnota rámcové dohody' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Není LotResult, nebo není nabídka pro část pokrytou LotResult a není nabídka pro žádnou skupinu částí, která by obsahovala část LotResult, nebo není nabídka a není specifikována žádná část pro LotResult</entry>
 <entry key="expression|name|679">'Typ řízení' (BT-105-Procedure) není 'Jednací řízení bez uveřejnění' a 'Právní základ' (BT-01-notice) není 'Nařízení (EU, Euratom) 2024/2509' a existuje alespoň jeden 'Identifikátor nabídky zakázky' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Právní základ' (BT-01-notice) je 'Směrnice 2014/24/EU' nebo 'Nařízení (EU, Euratom) 2024/2509', a 'Řízení se zrychlí' (BT-106-Procedure) je 'ano'</entry>
 <entry key="expression|name|682">'Stav výběru vítěze' (BT-142) musí být 'Byl vybrán alespoň jeden vítěz.' pro oznámení typu 'Oznámení o výsledku zadávacího řízení pro veřejné služby v přepravě cestujících'</entry>
 <entry key="expression|name|685">Existují 'Lhůta pro doručení žádostí o účast' (BT-1311(d)-Lot) a 'Datum odeslání oznámení' (BT-05(a)-notice) a nejedná se o změnu</entry>
-<entry key="expression|name|687">Existují 'Datum výběru vítěze' (BT-1451-Contract) a 'Preferované datum zveřejnění' (BT-738-notice) a nejedná se o změnu</entry>
+<entry key="expression|name|687">Existují „Datum výběru vítěze“ (BT-1451-Contract) a „Preferované datum zveřejnění“ (BT-738-notice)</entry>
 <entry key="expression|name|688">Existují 'Lhůta pro doručení nabídek' (BT-131(d)-Lot) a 'Preferované datum zveřejnění' (BT-738-notice) a nejedná se o změnu</entry>
 <entry key="expression|name|689">Existují 'Lhůta pro doručení žádostí o účast' (BT-1311(d)-Lot) a 'Preferované datum zveřejnění' (BT-738-notice) a nejedná se o změnu</entry>
 <entry key="expression|name|69">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>

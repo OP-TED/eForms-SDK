@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>
 <entry key="expression|name|670">'Valsts' (BT-5141-Lot is present) un 'Valsts apakšiedalījums (NUTS)' (BT-5071-Lot) ir klāt</entry>
 <entry key="expression|name|671">'Skaitlis ir svēruma veids' (BT-5421) nav 'Secība pēc nozīmīguma'</entry>
+<entry key="expression|name|676">pretendējošajā pusē ir mazāk nekā divi galvenie pretendenti</entry>
 <entry key="expression|name|677">Pamatlīgums nav piemērots vai [business-termname|BT-709] (BT-709-LotResult) nav pieejams</entry>
 <entry key="expression|name|678">Nepastāv LotResult, vai nav piedāvājuma par LotResult aptverto partiju un nav piedāvājuma par nevienu partiju grupu, kas saturētu LotResult partiju, vai nav piedāvājuma un LotResult nav norādīta neviena partija</entry>
 <entry key="expression|name|679">'Procedūras veids' (BT-105-Procedure) nav 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas' un 'Juridiskais pamats' (BT-01-notice) nav 'Regula (ES, Euratom) 2024/2509' un ir vismaz viens 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Juridiskais pamats' (BT-01-notice) ir 'Direktīva 2014/24/ES' vai 'Regula (ES, Euratom) 2024/2509', un 'Procedūra ir paātrināta' (BT-106-Procedure) ir 'jā'</entry>
 <entry key="expression|name|682">'Uzvarētāja atlases statuss' (BT-142) jābūt 'Ir izraudzīts vismaz viens uzvarētājs.' paziņojumam ar tipu 'Paziņojums par līguma slēgšanas tiesību piešķiršanu attiecībā uz sabiedriskā transporta pakalpojumiem'</entry>
 <entry key="expression|name|685">Pastāv 'Dalības pieprasījumu saņemšanas termiņš' (BT-1311(d)-Lot) un 'Paziņojuma nosūtīšanas datums' (BT-05(a)-notice) un tas nav par izmaiņām</entry>
-<entry key="expression|name|687">Pastāv 'Datums, kad tika izraudzīts uzvarētājs' (BT-1451-Contract) un 'Vēlamais publicēšanas datums' (BT-738-notice) un tas nav par izmaiņām</entry>
+<entry key="expression|name|687">“Datums, kad tika izraudzīts uzvarētājs” (BT-1451-Contract) un “Vēlamais publicēšanas datums” (BT-738-notice) pastāv</entry>
 <entry key="expression|name|688">Pastāv 'Piedāvājumu saņemšanas termiņš' (BT-131(d)-Lot) un 'Vēlamais publicēšanas datums' (BT-738-notice) un tas nav par izmaiņām</entry>
 <entry key="expression|name|689">'Dalības pieprasījumu saņemšanas termiņš' (BT-1311(d)-Lot) un 'Vēlamais publicēšanas datums' (BT-738-notice) pastāv un tas nav par izmaiņām</entry>
 <entry key="expression|name|69">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>

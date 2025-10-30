@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>
 <entry key="expression|name|670">'Kraj' (BT-5141-Lot is present) i 'Podpodział krajowy (NUTS)' (BT-5071-Lot) jest obecny</entry>
 <entry key="expression|name|671">'Liczba jest rodzajem wagi' (BT-5421) nie jest 'Kolejność według ważności'</entry>
+<entry key="expression|name|676">Uczestnik przetargu składa się z mniej niż 2 głównych oferentów</entry>
 <entry key="expression|name|677">Nie było umowy ramowej lub brak 'Maksymalna wartość umowy ramowej' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Nie ma LotResult, ani nie ma przetargu na część objętą przez LotResult i nie ma przetargu na żadną grupę części, która zawierałaby część LotResult, albo nie ma przetargu i nie określono żadnej części dla LotResult</entry>
 <entry key="expression|name|679">'Rodzaj procedury' (BT-105-Procedure) nie jest 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie' i 'Podstawa prawna' (BT-01-notice) nie jest 'Rozporządzenie (UE, Euratom) 2024/2509' i jest co najmniej jeden 'Umowa - identyfikator oferty' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Podstawa prawna' (BT-01-notice) jest 'Dyrektywa 2014/24/UE' lub 'Rozporządzenie (UE, Euratom) 2024/2509', a 'Procedura jest przyspieszona' (BT-106-Procedure) jest 'tak'</entry>
 <entry key="expression|name|682">'Status wyboru zwycięzcy' (BT-142) musi być 'Wyłoniono co najmniej jednego zwycięzcę.' dla ogłoszenia typu 'Ogłoszenie o udzieleniu zamówienia dotyczące usług publicznych w zakresie transportu pasażerskiego'</entry>
 <entry key="expression|name|685">Istnieją 'Termin składania wniosków o dopuszczenie do udziału' (BT-1311(d)-Lot) i 'Ogłoszenie – data wysłania' (BT-05(a)-notice) i nie chodzi o zmianę</entry>
-<entry key="expression|name|687">Istnieją 'Data wyboru zwycięzcy' (BT-1451-Contract) i 'Preferowana data publikacji' (BT-738-notice) i nie chodzi o zmianę</entry>
+<entry key="expression|name|687">Istnieją 'Data wyboru zwycięzcy' (BT-1451-Contract) i 'Preferowana data publikacji' (BT-738-notice)</entry>
 <entry key="expression|name|688">Istnieją 'Termin składania ofert' (BT-131(d)-Lot) i 'Preferowana data publikacji' (BT-738-notice) i nie chodzi o zmianę</entry>
 <entry key="expression|name|689">Istnieją 'Termin składania wniosków o dopuszczenie do udziału' (BT-1311(d)-Lot) i 'Preferowana data publikacji' (BT-738-notice) i nie chodzi o zmianę</entry>
 <entry key="expression|name|69">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>

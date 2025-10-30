@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Part sous-traitée' (BT-773-Tender) n’est pas 'Oui'</entry>
 <entry key="expression|name|670">'Pays' (BT-5141-Lot is present) et 'Subdivision pays (NUTS)' (BT-5071-Lot) est présent</entry>
 <entry key="expression|name|671">'Le nombre est une pondération' (BT-5421) n’est pas 'Ordre d’importance'</entry>
+<entry key="expression|name|676">Le soumissionnaire est composé de moins de 2 soumissionnaires principaux</entry>
 <entry key="expression|name|677">Aucun accord-cadre n’est concerné, ou 'Valeur maximale de l’accord-cadre' (BT-709-LotResult) n’est pas présent</entry>
 <entry key="expression|name|678">Il n'y a pas de LotResult, ou il n'y a pas d'appel d'offres pour le lot couvert par le LotResult et aucun appel d'offres pour aucun groupe de lots qui contiendrait le lot du LotResult, ou il n'y a pas d'appel d'offres et aucun lot n'est spécifié pour le LotResult</entry>
 <entry key="expression|name|679">'Type de procédure' (BT-105-Procedure) n'est pas 'Négociée sans mise en concurrence préalable' et 'Base juridique' (BT-01-notice) n'est pas 'Règlement (UE, Euratom) 2024/2509' et il y a au moins un 'ID offre marché' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Base juridique' (BT-01-notice) est 'Directive 2014/24/UE' ou 'Règlement (UE, Euratom) 2024/2509', et 'La procédure est accélérée' (BT-106-Procedure) est 'oui'</entry>
 <entry key="expression|name|682">'Statut sélection adjudicataire/attributaire' (BT-142) doit être 'Au moins un lauréat a été choisi.' pour un avis de type 'Avis d'attribution de marché relatif à des services publics de transport de voyageurs'</entry>
 <entry key="expression|name|685">Existence de 'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) et 'Date d’envoi de l’avis' (BT-05(a)-notice) et il ne s'agit pas d'un changement</entry>
-<entry key="expression|name|687">Existence de 'Date à laquelle l'adjudicataire/attributaire a été choisi' (BT-1451-Contract) et 'Date souhaitée de publication de l'avis' (BT-738-notice) et il ne s'agit pas d'un changement</entry>
+<entry key="expression|name|687">Existence de «Date à laquelle l’adjudicataire/attributaire a été choisi» (BT-1451-Contract) et de «Date souhaitée de publication de l’avis» (BT-738-notice)</entry>
 <entry key="expression|name|688">Existence de 'Date limite de réception des offres' (BT-131(d)-Lot) et 'Date souhaitée de publication de l'avis' (BT-738-notice) et il ne s'agit pas d'un changement</entry>
 <entry key="expression|name|689">'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) et 'Date souhaitée de publication de l'avis' (BT-738-notice) existent et il ne s'agit pas d'un changement</entry>
 <entry key="expression|name|69">'Part sous-traitée' (BT-773-Tender) n’est pas 'Oui'</entry>

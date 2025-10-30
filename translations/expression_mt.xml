@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Sottokuntrattar' (BT-773-Tender) mhuwiex 'Iva'</entry>
 <entry key="expression|name|670">'Pajjiż' (BT-5141-Lot is present) u 'Sottodiviżjoni tal-pajjiż (NUTS)' (BT-5071-Lot) huwa preżenti</entry>
 <entry key="expression|name|671">'In-numru hu tip ta’ ponderazzjoni' (BT-5421) mhuwiex 'Ordni ta’ importanza'</entry>
+<entry key="expression|name|676">il-Parti li Tagħmel l-Offerta tkun magħmula minn inqas minn żewġ Offerenti Ewlenin</entry>
 <entry key="expression|name|677">Ma kien involut l-ebda ftehim qafas, jew [business term | name | BT-709] (BT-709-LotResult) mhuwiex preżenti</entry>
 <entry key="expression|name|678">M'hemmx LotResult, jew m'hemmx tender għall-lott kopert mill-LotResult u m'hemmx tender għal xi grupp ta' lottijiet li jkun fih il-lott tal-LotResult, jew m'hemmx tender u l-ebda lott ma hu speċifikat għall-LotResult</entry>
 <entry key="expression|name|679">'Tip ta’ proċedura' (BT-105-Procedure) mhux 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni' u 'Bażi legali' (BT-01-notice) mhux 'Regolament (UE, Euratom) 2024/2509' u hemm mill-inqas wieħed 'ID tal-offerta tal-kuntratt' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Bażi legali' (BT-01-notice) huwa 'Direttiva 2014/24/UE' jew 'Regolament (UE, Euratom) 2024/2509', u 'Il-proċedura hija aċċellerata' (BT-106-Procedure) huwa 'iva'</entry>
 <entry key="expression|name|682">'Status tas-selezzjoni tar-rebbieħ' (BT-142) għandu jkun 'Intgħażel minn tal-inqas rebbieħ wieħed.' għal avviż tat-tip 'Avviż ta’ għoti ta’ kuntratt għas-servizzi pubbliċi tat-trasport tal-passiġġieri'</entry>
 <entry key="expression|name|685">Eżistu 'Skadenza biex jintlaqgħu t-talbiet għall-parteċipazzjoni' (BT-1311(d)-Lot) u 'Data ta’ meta ntbagħat l-avviż' (BT-05(a)-notice) u mhix kwistjoni ta' bidla</entry>
-<entry key="expression|name|687">Eżistu 'Data li fiha ntgħażel ir-rebbieħ' (BT-1451-Contract) u 'Data ta’ pubblikazzjoni preferuta' (BT-738-notice) u mhix kwistjoni ta' bidla</entry>
+<entry key="expression|name|687">Jeżistu 'Data li fiha ntgħażel ir-rebbieħ' (BT-1451-Contract) u 'Data ta’ pubblikazzjoni preferuta' (Bt-738-notice)</entry>
 <entry key="expression|name|688">Eżistu 'Skadenza biex jintlaqgħu l-offerti' (BT-131(d)-Lot) u 'Data ta’ pubblikazzjoni preferuta' (BT-738-notice) u mhix kwistjoni ta' bidla</entry>
 <entry key="expression|name|689">Jeżistu 'Skadenza biex jintlaqgħu t-talbiet għall-parteċipazzjoni' (BT-1311(d)-Lot) u 'Data ta’ pubblikazzjoni preferuta' (BT-738-notice) u mhuwiex dwar tibdil</entry>
 <entry key="expression|name|69">'Sottokuntrattar' (BT-773-Tender) mhuwiex 'Iva'</entry>

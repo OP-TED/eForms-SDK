@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>
 <entry key="expression|name|670">'Država' (BT-5141-Lot is present) in 'Podregija države (NUTS)' (BT-5071-Lot) je prisoten</entry>
 <entry key="expression|name|671">'Številka je vrsta ponderja' (BT-5421) ni 'Vrstni red glede na pomembnost'</entry>
+<entry key="expression|name|676">ponudbeno stran sestavljata manj kot dva glavna ponudnika</entry>
 <entry key="expression|name|677">Ni bilo okvirnega sporazuma ali ni vrednosti 'Najvišja vrednost okvirnega sporazuma' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Ni LotResult, ali ni ponudbe za skupino, ki jo pokriva LotResult, in ni ponudbe za nobeno skupino skupin, ki bi vsebovala skupino LotResult, ali ni ponudbe in ni določena nobena skupina za LotResult</entry>
 <entry key="expression|name|679">'Vrsta postopka' (BT-105-Procedure) ni 'S pogajanji, brez predhodnega javnega razpisa' in 'Pravna podlaga' (BT-01-notice) ni 'Uredba (EU, Euratom) 2024/2509' in obstaja vsaj en 'ID izbrane ponudbe' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Pravna podlaga' (BT-01-notice) je 'Direktiva 2014/24/EU' ali 'Uredba (EU, Euratom) 2024/2509', in 'Postopek je pospešen' (BT-106-Procedure) je 'da'</entry>
 <entry key="expression|name|682">'Status izbire ponudnika' (BT-142) mora biti 'Izbran je bil vsaj en zmagovalec.' za obvestilo vrste 'Obvestilo o oddaji naročila za storitve javnega potniškega prevoza'</entry>
 <entry key="expression|name|685">Obstajajo 'Rok za prejem prijav za sodelovanje' (BT-1311(d)-Lot) in 'Datum pošiljanja obvestila' (BT-05(a)-notice) in ne gre za spremembo</entry>
-<entry key="expression|name|687">Obstajajo 'Datum izbire zmagovalca' (BT-1451-Contract) in 'Zaželeni datum objave' (BT-738-notice) in ne gre za spremembo</entry>
+<entry key="expression|name|687">Na voljo sta „Datum izbire ponudnika“ (BT-1451-Contract) in „Želeni datum objave“ (BT-738-notice)</entry>
 <entry key="expression|name|688">Obstajajo 'Rok za prejem ponudb' (BT-131(d)-Lot) in 'Zaželeni datum objave' (BT-738-notice) in ne gre za spremembo</entry>
 <entry key="expression|name|689">Obstajajo 'Rok za prejem prijav za sodelovanje' (BT-1311(d)-Lot) in 'Zaželeni datum objave' (BT-738-notice) in ne gre za spremembo</entry>
 <entry key="expression|name|69">'Oddaja naročil podizvajalcem' (BT-773-Tender) ni 'Da'</entry>

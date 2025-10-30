@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Onderaanneming' (BT-773-Tender) is niet 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Lot is present) en 'Onderverdeling land (NUTS)' (BT-5071-Lot) is aanwezig</entry>
 <entry key="expression|name|671">'Numerieke waarde is van het type gewicht' (BT-5421) is niet 'Volgorde van belang'</entry>
+<entry key="expression|name|676">de Inschrijver bestaat uit minder dan 2 Hoofdinschrijvers</entry>
 <entry key="expression|name|677">Er was geen kaderovereenkomst of 'Maximumwaarde van de raamovereenkomst' (BT-709-LotResult) is niet aanwezig</entry>
 <entry key="expression|name|678">Er is geen LotResult, of er is geen aanbesteding voor het door LotResult gedekte perceel en er is geen aanbesteding voor een groep van percelen die het perceel van LotResult zou bevatten, of er is geen aanbesteding en er is geen perceel gespecificeerd voor LotResult</entry>
 <entry key="expression|name|679">'Type procedure' (BT-105-Procedure) is niet 'Onderhandelingsprocedure zonder voorafgaande oproep tot mededinging' en 'Rechtsgrondslag' (BT-01-notice) is niet 'Verordening (EU, Euratom) 2024/2509' en er is minstens één 'ID opdracht inschrijving' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Rechtsgrondslag' (BT-01-notice) is 'Richtlijn 2014/24/EU' of 'Verordening (EU, Euratom) 2024/2509', en 'De procedure wordt versneld' (BT-106-Procedure) is 'ja'</entry>
 <entry key="expression|name|682">'Selectiestatus winnaar' (BT-142) moet 'Er is ten minste één winnaar gekozen.' zijn voor een aankondiging van het type 'Aankondiging gegunde opdracht voor openbaar personenvervoer'</entry>
 <entry key="expression|name|685">Er bestaan 'Uiterste datum voor de ontvangst van verzoeken tot deelname' (BT-1311(d)-Lot) en 'Verzenddatum van de aankondiging' (BT-05(a)-notice) en het gaat niet om een verandering</entry>
-<entry key="expression|name|687">Er bestaan 'Datum waarop de winnaar is gekozen' (BT-1451-Contract) en 'Voorkeursdatum voor publicatie' (BT-738-notice) en het gaat niet om een verandering</entry>
+<entry key="expression|name|687">“Datum waarop de winnaar is gekozen” (BT-1451-Contract) en “Voorkeursdatum voor publicatie” (BT-738-notice) bestaan</entry>
 <entry key="expression|name|688">Er bestaan 'Uiterste datum voor de ontvangst van inschrijvingen' (BT-131(d)-Lot) en 'Voorkeursdatum voor publicatie' (BT-738-notice) en het gaat niet om een verandering</entry>
 <entry key="expression|name|689">'Uiterste datum voor de ontvangst van verzoeken tot deelname' (BT-1311(d)-Lot) en 'Voorkeursdatum voor publicatie' (BT-738-notice) bestaan en het gaat niet om een wijziging</entry>
 <entry key="expression|name|69">'Onderaanneming' (BT-773-Tender) is niet 'Ja'</entry>

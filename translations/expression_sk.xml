@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je 'Áno'</entry>
 <entry key="expression|name|670">'Krajina' (BT-5141-Lot is present) a 'Nižšia územná jednotka krajiny (NUTS)' (BT-5071-Lot) je prítomný</entry>
 <entry key="expression|name|671">'Číslo je typom váhy' (BT-5421) nie je 'Poradie dôležitosti'</entry>
+<entry key="expression|name|676">subjekt uchádzača sa skladá z menej ako dvoch hlavných uchádzačov</entry>
 <entry key="expression|name|677">Nebola uzavretá žiadna rámcová dohoda alebo nie je k dispozícii 'Maximálna hodnota rámcovej dohody' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Neexistuje LotResult, alebo neexistuje ponuka pre časť pokrytú LotResult a neexistuje ponuka pre žiadnu skupinu častí, ktorá by obsahovala časť LotResult, alebo neexistuje ponuka a žiadna časť nie je špecifikovaná pre LotResult</entry>
 <entry key="expression|name|679">'Druh postupu' (BT-105-Procedure) nie je 'Rokovacie konanie bez zverejnenia výzvy na súťaž' a 'Právny základ' (BT-01-notice) nie je 'Nariadenie (EÚ, Euratom) 2024/2509' a existuje aspoň jeden 'Identifikátor ponuky' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Právny základ' (BT-01-notice) je 'Smernica 2014/24/EÚ' alebo 'Nariadenie (EÚ, Euratom) 2024/2509', a 'Postup je zrýchlený' (BT-106-Procedure) je 'áno'</entry>
 <entry key="expression|name|682">'Stav výberu víťaza' (BT-142) musí byť 'Bol vybratý aspoň jeden víťaz.' pre oznámenie typu 'Oznámenie o zadaní zmlúv o službách vo verejnom záujme v osobnej doprave'</entry>
 <entry key="expression|name|685">Existujú 'Lehota na prijímanie žiadostí o účasť' (BT-1311(d)-Lot) a 'Dátum odoslania oznámenia' (BT-05(a)-notice) a nejedná sa o zmenu</entry>
-<entry key="expression|name|687">Existujú 'Dátum výberu víťaza' (BT-1451-Contract) a 'Preferovaný dátum uverejnenia' (BT-738-notice) a nejedná sa o zmenu</entry>
+<entry key="expression|name|687">Existujú „Dátum výberu víťaza“ (BT-1451-Contract) a „Preferovaný dátum uverejnenia“ (BT-738-notice)</entry>
 <entry key="expression|name|688">Existujú 'Lehota na prijímanie ponúk' (BT-131(d)-Lot) a 'Preferovaný dátum uverejnenia' (BT-738-notice) a nejedná sa o zmenu</entry>
 <entry key="expression|name|689">Existujú 'Lehota na prijímanie žiadostí o účasť' (BT-1311(d)-Lot) a 'Preferovaný dátum uverejnenia' (BT-738-notice) a nejde o zmenu</entry>
 <entry key="expression|name|69">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) nie je 'Áno'</entry>
