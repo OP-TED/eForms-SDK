@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
 <entry key="expression|name|670">'Ország' (BT-5141-Lot is present) és 'Ország alegysége (NUTS)' (BT-5071-Lot) jelen van</entry>
 <entry key="expression|name|671">'A szám valamilyen súlyozás' (BT-5421) nem 'Fontossági sorrend'</entry>
+<entry key="expression|name|676">az ajánlattevő fél kettőnél kevesebb fő ajánlattevőből áll</entry>
 <entry key="expression|name|677">Nem volt érintett keretmegállapodás, vagy nincs 'A keretmegállapodás maximális értéke' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Nincs LotResult, vagy nincs ajánlat a LotResult által lefedett tételre, és nincs ajánlat egyetlen tételcsoportra sem, amely tartalmazná a LotResult tételt, vagy nincs ajánlat és nincs tétel meghatározva a LotResult számára</entry>
 <entry key="expression|name|679">'Az eljárás típusa' (BT-105-Procedure) nem 'Felhívás nélküli tárgyalásos eljárás' és 'Jogalap' (BT-01-notice) nem '(EU, Euratom) 2024/2509 rendelet' és van legalább egy 'Szerződés ajánlati azonosítója' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Jogalap' (BT-01-notice) a '2014/24/EU irányelv' vagy '(EU, Euratom) 2024/2509 rendelet', és 'Az eljárás gyorsított' (BT-106-Procedure) 'igen'</entry>
 <entry key="expression|name|682">'Van-e nyertes kiválasztva?' (BT-142) meg kell, hogy legyen 'Legalább egy nyertes kiválasztására sor került.' a(z) 'Személyszállítási közszolgáltatási szerződés odaítélésére vonatkozó tájékoztató' típusú hirdetményhez</entry>
 <entry key="expression|name|685">Léteznek 'A részvételi jelentkezések beérkezésének határideje' (BT-1311(d)-Lot) és 'A hirdetmény megküldésének dátuma' (BT-05(a)-notice) és nem a változásról van szó</entry>
-<entry key="expression|name|687">Léteznek 'A nyertes kiválasztásának időpontja' (BT-1451-Contract) és 'A hirdetmény közzétételének preferált dátuma' (BT-738-notice) és nem a változásról van szó</entry>
+<entry key="expression|name|687">Létezik „A nyertes kiválasztásának időpontja” (BT-1451-Contract) és „A hirdetmény közzétételének preferált dátuma” (BT-738-notice)</entry>
 <entry key="expression|name|688">Léteznek 'Az ajánlatok beérkezésének határideje' (BT-131(d)-Lot) és 'A hirdetmény közzétételének preferált dátuma' (BT-738-notice) és nem a változásról van szó</entry>
 <entry key="expression|name|689">'A részvételi jelentkezések beérkezésének határideje' (BT-1311(d)-Lot) és 'A hirdetmény közzétételének preferált dátuma' (BT-738-notice) léteznek és nem változásról van szó</entry>
 <entry key="expression|name|69">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>

@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Lot is present) und 'Land, Gliederung (NUTS)' (BT-5071-Lot) ist vorhanden</entry>
 <entry key="expression|name|671">'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421) ist nicht 'Rangfolge'</entry>
+<entry key="expression|name|676">die Bieterpartei besteht aus weniger als zwei Hauptbietern</entry>
 <entry key="expression|name|677">Es gab keine Rahmenvereinbarung oder 'Höchstwert der Rahmenvereinbarung' (BT-709-LotResult) ist nicht vorhanden</entry>
 <entry key="expression|name|678">Es gibt kein LotResult, oder es gibt keine Ausschreibung für das von LotResult abgedeckte Los und keine Ausschreibung für eine Gruppe von Losen, die das Los des LotResult enthalten würde, oder es gibt keine Ausschreibung und kein Los ist für das LotResult angegeben</entry>
 <entry key="expression|name|679">'Verfahrensart' (BT-105-Procedure) ist nicht 'Verhandlungsverfahren ohne Aufruf zum Wettbewerb' und 'Rechtsgrundlage' (BT-01-notice) ist nicht 'Verordnung (EU, Euratom) 2024/2509' und es gibt mindestens einen 'Auftrag, Ausschreibung – Kennung' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Rechtsgrundlage' (BT-01-notice) ist 'Richtlinie 2014/24/EU' oder 'Verordnung (EU, Euratom) 2024/2509', und 'Das Verfahren wird beschleunigt' (BT-106-Procedure) ist 'ja'</entry>
 <entry key="expression|name|682">'Status der Preisträgerauswahl' (BT-142) muss 'Es wurde mindestens ein Gewinner ermittelt.' sein für eine Bekanntmachung des Typs 'Bekanntmachung vergebener Aufträge für öffentliche Personenverkehrsdienste'</entry>
 <entry key="expression|name|685">'Frist für den Eingang der Teilnahmeanträge' (BT-1311(d)-Lot) und 'Datum der Übermittlung der Bekanntmachung' (BT-05(a)-notice) existieren und es geht nicht um eine Änderung</entry>
-<entry key="expression|name|687">'Datum der Auswahl des Gewinners' (BT-1451-Contract) und 'Bevorzugtes Datum der Veröffentlichung' (BT-738-notice) existieren und es geht nicht um eine Änderung</entry>
+<entry key="expression|name|687">'Datum der Auswahl des Gewinners' (BT-1451-Contract) und 'Bevorzugtes Datum der Veröffentlichung' (BT-738-notice) existieren</entry>
 <entry key="expression|name|688">'Frist für den Eingang der Angebote' (BT-131(d)-Lot) und 'Bevorzugtes Datum der Veröffentlichung' (BT-738-notice) existieren und es geht nicht um eine Änderung</entry>
 <entry key="expression|name|689">'Frist für den Eingang der Teilnahmeanträge' (BT-1311(d)-Lot) und 'Bevorzugtes Datum der Veröffentlichung' (BT-738-notice) existieren und es handelt sich nicht um eine Änderung</entry>
 <entry key="expression|name|69">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht 'Ja'</entry>

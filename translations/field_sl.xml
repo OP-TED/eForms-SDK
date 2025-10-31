@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">Vrednost, ki se bo verjetno porabila v okvirnem sporazumu skozi celotno trajanje, vključno z opcijami in podaljšanji, kot je bila ponovno ocenjena na podlagi ponudbe zmagovalca ali ponudb zmagovalcev.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Vrednost, ki se bo verjetno porabila v okvirnem sporazumu skozi celotno trajanje, vključno z opcijami in podaljšanji, kot je bila ponovno ocenjena na podlagi ponudbe zmagovalca ali ponudb zmagovalcev.</entry>
 <entry key="field|description|BT-661-Lot">Obstaja največje število kandidatov, ki se povabijo k sodelovanju v drugi stopnji postopka.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Kratek opis meril glede osebnega statusa ponudnikov, ki bi bila lahko razlog za njihovo izključitev. To vključuje seznam vseh takšnih meril in navedbo zahtevanih informacij (npr. lastna izjava, dokumentacija). Vključuje lahko tudi posebne nacionalne razloge za izključitev.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Kratek opis meril glede osebnega statusa ponudnikov, ki bi bila lahko razlog za njihovo izključitev. To vključuje seznam vseh takšnih meril in navedbo zahtevanih informacij (npr. lastna izjava, dokumentacija). Vključuje lahko tudi posebne nacionalne razloge za izključitev.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Kratek opis meril glede osebnega statusa ponudnikov, ki bi bila lahko razlog za njihovo izključitev. To vključuje seznam vseh takšnih meril in navedbo zahtevanih informacij (npr. lastna izjava, dokumentacija). Vključuje lahko tudi posebne nacionalne razloge za izključitev.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Kratek opis meril glede osebnega statusa ponudnikov, ki bi bila lahko razlog za njihovo izključitev. To vključuje seznam vseh takšnih meril in navedbo zahtevanih informacij (npr. lastna izjava, dokumentacija). Vključuje lahko tudi posebne nacionalne razloge za izključitev.</entry>
 <entry key="field|description|BT-681-Lot">Za ta postopek javnega naročila se uporablja uredba o tujih subvencijah (Uredba (EU) 2022/2560), v skladu s členom 28 Uredbe.</entry>
 <entry key="field|description|BT-681-Lot-List">Za ta postopek javnega naročila se uporablja uredba o tujih subvencijah (Uredba (EU) 2022/2560), v skladu s členom 28 Uredbe.</entry>
 <entry key="field|description|BT-682-Tender">Ukrepi, uporabljeni na podlagi uredbe o tujih subvencijah (Uredba (EU) 2022/2560).</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Ponovno ocenjena vrednost okvirnega sporazuma</entry>
 <entry key="field|name|BT-661-Lot">Obstaja največje število kandidatov, ki se povabijo k sodelovanju na drugi stopnji postopka</entry>
 <entry key="field|name|BT-67(a)-Procedure">Koda</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Opis</entry>
 <entry key="field|name|BT-67(b)-Procedure">Opis</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Opis</entry>
 <entry key="field|name|BT-681-Lot">Uredba o tujih subvencijah</entry>
 <entry key="field|name|BT-681-Lot-List">Uredba o tujih subvencijah</entry>
 <entry key="field|name|BT-682-Tender">Foreign subsidies measures</entry>

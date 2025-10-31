@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>
 <entry key="expression|name|670">'Maa' (BT-5141-Lot is present) ja 'Maaryhmittely (NUTS)' (BT-5071-Lot) on läsnä</entry>
 <entry key="expression|name|671">'Luku on tyypiltään painotus' (BT-5421) ei ole 'Ensisijaisuusjärjestys'</entry>
+<entry key="expression|name|676">tarjoajaosapuolessa on vähemmän kuin kaksi päätarjoajaa</entry>
 <entry key="expression|name|677">Käytössä ei ollut puitejärjestelyä tai 'Puitejärjestelyn enimmäisarvo' (BT-709-LotResult) ei ole</entry>
 <entry key="expression|name|678">LotResultia ei ole, tai ei ole tarjousta LotResultin kattamalle erälle eikä tarjousta millekään eräryhmälle, joka sisältäisi LotResultin erän, tai ei ole tarjousta eikä LotResultille ole määritelty mitään erää</entry>
 <entry key="expression|name|679">'Menettelyn tyyppi' (BT-105-Procedure) ei ole 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua' ja 'Oikeusperusta' (BT-01-notice) ei ole 'Asetus (EU, Euratom) 2024/2509' ja on vähintään yksi 'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Oikeusperusta' (BT-01-notice) on 'Direktiivi 2014/24/EU' tai 'Asetus (EU, Euratom) 2024/2509', ja 'Käytetään nopeutettua menettelyä' (BT-106-Procedure) on 'kyllä'</entry>
 <entry key="expression|name|682">'Voittajan valinnan tila' (BT-142) on oltava 'Vähintään yksi voittaja valittu.' ilmoitustyypille 'Jälki-ilmoitus julkisista henkilöliikennepalveluista'</entry>
 <entry key="expression|name|685">'Osallistumishakemusten vastaanottamisen määräaika' (BT-1311(d)-Lot) ja 'Ilmoituksen lähetyspäivä' (BT-05(a)-notice) olemassa ja kyse ei ole muutoksesta</entry>
-<entry key="expression|name|687">'Voittajan valintapäivä' (BT-1451-Contract) ja 'Ensisijainen julkaisupäivä' (BT-738-notice) olemassa ja kyse ei ole muutoksesta</entry>
+<entry key="expression|name|687">”Voittajan valintapäivä” (BT-1451-Contract) ja ”Ensisijainen julkaisupäivä” (BT-738-notice) olemassa</entry>
 <entry key="expression|name|688">'Tarjousten vastaanottamisen määräaika' (BT-131(d)-Lot) ja 'Ensisijainen julkaisupäivä' (BT-738-notice) olemassa ja kyse ei ole muutoksesta</entry>
 <entry key="expression|name|689">'Osallistumishakemusten vastaanottamisen määräaika' (BT-1311(d)-Lot) ja 'Ensisijainen julkaisupäivä' (BT-738-notice) ovat olemassa, eikä kyse ole muutoksesta</entry>
 <entry key="expression|name|69">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>

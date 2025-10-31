@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
 <entry key="expression|name|670">'Țara' (BT-5141-Lot is present) și 'Subdiviziunea țării (NUTS)' (BT-5071-Lot) este prezent</entry>
 <entry key="expression|name|671">'Numărul este un tip de pondere' (BT-5421) nu este 'Ordinea importanței'</entry>
+<entry key="expression|name|676">partea ofertantă a licitației este compusă din mai puțin de 2 ofertanți principali</entry>
 <entry key="expression|name|677">Nu este vorba despre un acord-cadru sau 'Valoarea maximă a acordului-cadru' (BT-709-LotResult) nu este prezent</entry>
 <entry key="expression|name|678">Nu există LotResult, sau nu există ofertă pentru lotul acoperit de LotResult și nu există ofertă pentru niciun grup de loturi care ar conține lotul LotResult, sau nu există ofertă și niciun lot nu este specificat pentru LotResult</entry>
 <entry key="expression|name|679">'Tip de procedură' (BT-105-Procedure) nu este 'Negociată fără publicarea unei proceduri concurențiale de ofertare' și 'Temei juridic' (BT-01-notice) nu este 'Regulamentul (UE, Euratom) 2024/2509' și există cel puțin un 'Contract: identificator lot' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Temei juridic' (BT-01-notice) este 'Directiva 2014/24/UE' sau 'Regulamentul (UE, Euratom) 2024/2509', și 'Procedura este accelerată' (BT-106-Procedure) este 'da'</entry>
 <entry key="expression|name|682">'Statutul selecției câștigătorului' (BT-142) trebuie să fie 'A fost selecționat cel puțin un câștigător.' pentru un anunț de tipul 'Anunț de atribuire a contractului pentru servicii publice de transport de călători'</entry>
 <entry key="expression|name|685">Există 'Termenul-limită pentru primirea cererilor de participare' (BT-1311(d)-Lot) și 'Data notificării expedierii' (BT-05(a)-notice) și nu este vorba de o schimbare</entry>
-<entry key="expression|name|687">Există 'Data la care a fost ales câștigătorul' (BT-1451-Contract) și 'Data preferată pentru publicare' (BT-738-notice) și nu este vorba de o schimbare</entry>
+<entry key="expression|name|687">Există 'Data la care a fost ales câștigătorul' (BT-1451-Contract) și 'Data preferată pentru publicare' (BT-738-notice)</entry>
 <entry key="expression|name|688">Există 'Termenul-limită pentru primirea ofertelor' (BT-131(d)-Lot) și 'Data preferată pentru publicare' (BT-738-notice) și nu este vorba de o schimbare</entry>
 <entry key="expression|name|689">Există 'Termenul-limită pentru primirea cererilor de participare' (BT-1311(d)-Lot) și 'Data preferată pentru publicare' (BT-738-notice) și nu este vorba despre o schimbare</entry>
 <entry key="expression|name|69">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>

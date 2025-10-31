@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Allhanked' (BT-773-Tender) ei ole 'Jah'</entry>
 <entry key="expression|name|670">'Riik' (BT-5141-Lot is present) ja 'Riik – jaotus (NUTS)' (BT-5071-Lot) on olemas</entry>
 <entry key="expression|name|671">'Arv on teatavat liiki osakaal' (BT-5421) ei ole 'Tähtsuse järjekord'</entry>
+<entry key="expression|name|676">pakkumuse esitaja koosneb vähem kui kahest peamisest pakkujast</entry>
 <entry key="expression|name|677">Kaasatud ei olnud ühtegi raamlepingut või 'Raamlepingu maksimaalne maksumus' (BT-709-LotResult) ei ole teada</entry>
 <entry key="expression|name|678">LotResult puudub või puudub pakkumine LotResultiga hõlmatud osa jaoks ja puudub pakkumine ühegi osa grupi jaoks, mis sisaldaks LotResulti osa, või puudub pakkumine ja LotResulti jaoks pole määratud ühtegi osa</entry>
 <entry key="expression|name|679">'Menetluse liik' (BT-105-Procedure) ei ole 'Väljakuulutamiseta läbirääkimistega hankemenetlus' ja 'Õiguslik alus' (BT-01-notice) ei ole 'Määrus (EL, Euratom) 2024/2509' ning leidub vähemalt üks 'Leping – pakkumus – tunnus' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Õiguslik alus' (BT-01-notice) on 'Direktiiv 2014/24/EL' või 'Määrus (EL, Euratom) 2024/2509', ja 'Kiirendatud menetlus' (BT-106-Procedure) on 'jah'</entry>
 <entry key="expression|name|682">'Eduka pakkuja valiku staatus' (BT-142) peab olema 'Vähemalt üks edukas pakkuja on välja valitud.' teate puhul, mille tüüp on 'Hankelepingu sõlmimise teade reisijateveoteenuse osutamiseks'</entry>
 <entry key="expression|name|685">'Osalemistaotluste esitamise tähtaeg' (BT-1311(d)-Lot) ja 'Teate saatmise kuupäev' (BT-05(a)-notice) olemasolu ja see ei ole muutus</entry>
-<entry key="expression|name|687">'Eduka pakkuja valimise kuupäev' (BT-1451-Contract) ja 'Avaldamise eeliskuupäev' (BT-738-notice) olemasolu ja see ei ole muutus</entry>
+<entry key="expression|name|687">„Eduka pakkuja valimise kuupäev“ (BT-1451-Contract) ja „Avaldamise eeliskuupäev“ (BT-738-notice) olemasolu</entry>
 <entry key="expression|name|688">'Pakkumuste esitamise tähtaeg' (BT-131(d)-Lot) ja 'Avaldamise eeliskuupäev' (BT-738-notice) olemasolu ja see ei ole muutus</entry>
 <entry key="expression|name|689">'Osalemistaotluste esitamise tähtaeg' (BT-1311(d)-Lot) ja 'Avaldamise eeliskuupäev' (BT-738-notice) eksisteerivad ja see ei ole seotud muudatusega</entry>
 <entry key="expression|name|69">'Allhanked' (BT-773-Tender) ei ole 'Jah'</entry>

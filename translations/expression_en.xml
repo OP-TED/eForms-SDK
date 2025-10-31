@@ -493,7 +493,7 @@
 <entry key="expression|name|680">'Legal basis' (BT-01-notice) is 'Directive 2014/24/EU' or 'Regulation (EU, Euratom) 2024/2509', and 'The procedure is accelerated' (BT-106-Procedure) is 'yes'</entry>
 <entry key="expression|name|682">'Winner selection status' (BT-142) must be 'At least one winner was chosen.' for a notice of type 'Contract award notice for public passenger transport services'</entry>
 <entry key="expression|name|685">'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) and 'Notice dispatch date' (BT-05(a)-notice) exist and it is not about a change</entry>
-<entry key="expression|name|687">'Date on which the winner was chosen' (BT-1451-Contract) and 'Preferred publication date' (BT-738-notice) exist and it is not about a change</entry>
+<entry key="expression|name|687">'Winner Decision Date' (BT-1451-Contract) and 'Notice Preferred Publication Date' (BT-738-notice) exist</entry>
 <entry key="expression|name|688">'Deadline for receipt of tenders' (BT-131(d)-Lot) and 'Preferred publication date' (BT-738-notice) exist and it is not about a change</entry>
 <entry key="expression|name|689">'Deadline for receipt of requests to participate' (BT-1311(d)-Lot) and 'Preferred publication date' (BT-738-notice) exist and it is not about a change</entry>
 <entry key="expression|name|69">'Subcontracting' (BT-773-Tender) is not 'Yes'</entry>

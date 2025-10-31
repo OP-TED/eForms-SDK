@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Subappalto' (BT-773-Tender) non è 'Sì'</entry>
 <entry key="expression|name|670">'Paese' (BT-5141-Lot is present) e 'Suddivisione del paese (NUTS)' (BT-5071-Lot) è presente</entry>
 <entry key="expression|name|671">'Il numero è un tipo di ponderazione' (BT-5421) non è 'Ordine di importanza'</entry>
+<entry key="expression|name|676">la parte offerente è composta da meno di 2 offerenti principali</entry>
 <entry key="expression|name|677">Non si tratta di un accordo quadro o 'Valore massimo dell'accordo quadro' (BT-709-LotResult) non è presente.</entry>
 <entry key="expression|name|678">Non c'è LotResult, o non c'è offerta per il lotto coperto dal LotResult e non c'è offerta per alcun gruppo di lotti che contenga il lotto del LotResult, o non c'è offerta e nessun lotto è specificato per il LotResult</entry>
 <entry key="expression|name|679">'Tipo di procedura' (BT-105-Procedure) non è 'Negoziata senza previa indizione di gara' e 'Base giuridica' (BT-01-notice) non è 'Regolamento (UE, Euratom) 2024/2509' e c'è almeno un 'Appalto: identificativo dell'offerta' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Base giuridica' (BT-01-notice) è 'Direttiva 2014/24/UE' o 'Regolamento (UE, Euratom) 2024/2509', e 'La procedura è accelerata' (BT-106-Procedure) è 'sì'</entry>
 <entry key="expression|name|682">'Status del processo di selezione' (BT-142) deve essere 'È stato selezionato almeno un vincitore.' per un avviso di tipo 'Avviso di aggiudicazione per i servizi di trasporto pubblico di passeggeri'</entry>
 <entry key="expression|name|685">Esistono 'Termine per il ricevimento delle domande di partecipazione' (BT-1311(d)-Lot) e 'Data di trasmissione dell'avviso' (BT-05(a)-notice) e non si tratta di un cambiamento</entry>
-<entry key="expression|name|687">Esistono 'Data di selezione del vincitore' (BT-1451-Contract) e 'Data di pubblicazione preferita' (BT-738-notice) e non si tratta di un cambiamento</entry>
+<entry key="expression|name|687">Esistono "Data di selezione del vincitore" (BT-1451-Contract) e "Data di pubblicazione preferita" (BT-738-notice)</entry>
 <entry key="expression|name|688">Esistono 'Termine per il ricevimento delle offerte' (BT-131(d)-Lot) e 'Data di pubblicazione preferita' (BT-738-notice) e non si tratta di un cambiamento</entry>
 <entry key="expression|name|689">Esistono 'Termine per il ricevimento delle domande di partecipazione' (BT-1311(d)-Lot) e 'Data di pubblicazione preferita' (BT-738-notice) e non si tratta di un cambiamento</entry>
 <entry key="expression|name|69">'Subappalto' (BT-773-Tender) non è 'Sì'</entry>

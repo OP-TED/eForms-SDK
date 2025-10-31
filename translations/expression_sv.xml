@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Part) är närvarande och 'Del av land (NUTS)' (BT-5071-Part) är närvarande</entry>
 <entry key="expression|name|671">'Sifferangivelsen är en typ av viktning' (BT-5421) är inte 'Prioritetsordning'</entry>
+<entry key="expression|name|676">anbudsgivaren består av färre än två huvudanbudsgivare</entry>
 <entry key="expression|name|677">Inget ramavtal var inblandat, eller 'Högsta värde på ramavtalet' (BT-709-LotResult) finns inte</entry>
 <entry key="expression|name|678">Det finns inget LotResult, eller det finns inget anbud för partiet som täcks av LotResult och inget anbud för någon grupp av partier som skulle innehålla partiet för LotResult, eller det finns inget anbud och inget parti är specificerat för LotResult</entry>
 <entry key="expression|name|679">'Typ av förfarande' (BT-105-Procedure) är inte 'Förhandlat förfarande utan föregående meddelande om upphandling' och 'Rättslig grund' (BT-01-notice) är inte 'Förordning (EU, Euratom) 2024/2509' och det finns minst ett 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Rättslig grund' (BT-01-notice) är 'Direktiv 2014/24/EU' eller 'Förordning (EU, Euratom) 2024/2509', och 'Förfarandet är påskyndat' (BT-106-Procedure) är 'ja'</entry>
 <entry key="expression|name|682">'Status på val av vinnare' (BT-142) måste vara 'Minst en vinnare valdes.' för ett meddelande av typen 'Meddelande om tilldelning av kontrakt för kollektivtrafik'</entry>
 <entry key="expression|name|685">Det finns 'Tidsfrist för mottagande av anbudsansökningar' (BT-1311(d)-Lot) och 'Avsändningsdatum för meddelandet' (BT-05(a)-notice) och det handlar inte om en förändring</entry>
-<entry key="expression|name|687">Det finns 'Datum då vinnaren utsågs' (BT-1451-Contract) och 'Önskat offentliggörandedatum' (BT-738-notice) och det handlar inte om en förändring</entry>
+<entry key="expression|name|687">Det finns 'Datum då vinnaren utsågs' (BT-1451-Contract) och 'Önskat offentliggörandedatum' (BT-738-notice)</entry>
 <entry key="expression|name|688">Det finns 'Tidsfrist för mottagande av anbud' (BT-131(d)-Lot) och 'Önskat offentliggörandedatum' (BT-738-notice) och det handlar inte om en förändring</entry>
 <entry key="expression|name|689">Det finns 'Tidsfrist för mottagande av anbudsansökningar' (BT-1311(d)-Lot) och 'Önskat offentliggörandedatum' (BT-738-notice) och det handlar inte om en förändring</entry>
 <entry key="expression|name|69">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>

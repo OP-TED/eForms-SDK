@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">Summa, kas pamatnolīguma ietvaros, visticamāk, tiks iztērēta visā pamatnolīguma darbības laikā, ieskaitot fakultatīvās iespējas un pārjaunojumus, un kas pārrēķināta, pamatojoties uz uzvarētāja piedāvājumu vai uzvarētāju piedāvājumiem.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Summa, kas pamatnolīguma ietvaros, visticamāk, tiks iztērēta visā pamatnolīguma darbības laikā, ieskaitot fakultatīvās iespējas un pārjaunojumus, un kas pārrēķināta, pamatojoties uz uzvarētāja piedāvājumu vai uzvarētāju piedāvājumiem.</entry>
 <entry key="field|description|BT-661-Lot">Ir noteikts uz procedūras otro posmu aicināmo kandidātu maksimālais skaits.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Īss apraksts par kritērijiem attiecībā uz pretendenta personisko situāciju, kuri var izraisīt pretendenta izslēgšanu. Ietver visu šādu kritēriju sarakstu un norāda vajadzīgo informāciju (piemēram, pašdeklarācija, dokumentācija). Tas var ietvert arī konkrētai valstij specifiskus izslēgšanas iemeslus.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Īss apraksts par kritērijiem attiecībā uz pretendenta personisko situāciju, kuri var izraisīt pretendenta izslēgšanu. Ietver visu šādu kritēriju sarakstu un norāda vajadzīgo informāciju (piemēram, pašdeklarācija, dokumentācija). Tas var ietvert arī konkrētai valstij specifiskus izslēgšanas iemeslus.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Īss apraksts par kritērijiem attiecībā uz pretendenta personisko situāciju, kuri var izraisīt pretendenta izslēgšanu. Ietver visu šādu kritēriju sarakstu un norāda vajadzīgo informāciju (piemēram, pašdeklarācija, dokumentācija). Tas var ietvert arī konkrētai valstij specifiskus izslēgšanas iemeslus.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Īss apraksts par kritērijiem attiecībā uz pretendenta personisko situāciju, kuri var izraisīt pretendenta izslēgšanu. Ietver visu šādu kritēriju sarakstu un norāda vajadzīgo informāciju (piemēram, pašdeklarācija, dokumentācija). Tas var ietvert arī konkrētai valstij specifiskus izslēgšanas iemeslus.</entry>
 <entry key="field|description|BT-681-Lot">Šai iepirkuma procedūrai piemērojama Regula par ārvalstu subsīdijām (ES) 2022/2560, atbilstoši tās 28. pantam.</entry>
 <entry key="field|description|BT-681-Lot-List">Šai iepirkuma procedūrai piemērojama Regula par ārvalstu subsīdijām (ES) 2022/2560, atbilstoši tās 28. pantam.</entry>
 <entry key="field|description|BT-682-Tender">Piemēroti Ārvalstu subsīdiju regulā (ES) 2022/2560 noteiktie pasākumi.</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Pamatnolīguma pārrēķinātā aplēstā vērtība</entry>
 <entry key="field|name|BT-661-Lot">Ir noteikts uz procedūras otro posmu aicināmo kandidātu maksimālais skaits</entry>
 <entry key="field|name|BT-67(a)-Procedure">Kods</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Apraksts</entry>
 <entry key="field|name|BT-67(b)-Procedure">Apraksts</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Apraksts</entry>
 <entry key="field|name|BT-681-Lot">Ārvalstu subsīdiju regulā</entry>
 <entry key="field|name|BT-681-Lot-List">Ārvalstu subsīdiju regulā</entry>
 <entry key="field|name|BT-682-Tender">Ārvalstu subsīdiju pasākumi</entry>

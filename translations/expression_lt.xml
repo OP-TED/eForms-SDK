@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Subranga' (BT-773-Tender) nėra 'Taip'</entry>
 <entry key="expression|name|670">'Šalis' (BT-5141-Lot is present) ir 'Šalies administracinis vienetas (NUTS)' (BT-5071-Lot) yra</entry>
 <entry key="expression|name|671">'Skaičius yra tam tikras lyginamasis svoris' (BT-5421) nėra 'Eilės tvarka pagal svarbą'</entry>
+<entry key="expression|name|676">pirkimų procedūros dalyvį sudaro mažiau nei 2 pagrindiniai dalyviai</entry>
 <entry key="expression|name|677">Nebuvo taikoma preliminarioji sutartis arba nėra 'Preliminariosios sutarties didžiausia vertė' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Nėra LotResult, arba nėra pasiūlymo dėl LotResult apimamos partijos ir nėra pasiūlymo dėl jokios partijos grupės, kuri apimtų LotResult partiją, arba nėra pasiūlymo ir LotResult nėra nurodyta jokia partija</entry>
 <entry key="expression|name|679">'Pirkimo būdas' (BT-105-Procedure) nėra 'Derybos be išankstinio skelbimo apie pirkimą' ir 'Teisinis pagrindas' (BT-01-notice) nėra 'Reglamentas (ES, Euratomas) 2024/2509' ir yra bent vienas 'Sutartis: pasiūlymas: ID' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Teisinis pagrindas' (BT-01-notice) yra 'Direktyva 2014/24/ES' arba 'Reglamentas (ES, Euratomas) 2024/2509', ir 'Procedūra pagreitinta' (BT-106-Procedure) yra 'taip'</entry>
 <entry key="expression|name|682">'Laimėtojo atrankos būsena' (BT-142) turi būti 'Pasirinktas bent vienas laimėtojas.' pranešimui, kurio tipas yra 'Skelbimas apie viešojo keleivinio transporto paslaugų sutarties skyrimą'</entry>
 <entry key="expression|name|685">Esama 'Dalyvavimo prašymų priėmimo terminas' (BT-1311(d)-Lot) ir 'Skelbimo išsiuntimo data' (BT-05(a)-notice) ir tai nėra pakeitimas</entry>
-<entry key="expression|name|687">Esama 'Data, kurią buvo pasirinktas laimėtojas' (BT-1451-Contract) ir 'Pageidaujama paskelbimo data' (BT-738-notice) ir tai nėra pakeitimas</entry>
+<entry key="expression|name|687">Esama „Data, kurią buvo pasirinktas laimėtojas“ (BT-1451-Contract) ir „Pageidaujama paskelbimo data“ (BT-738-notice)</entry>
 <entry key="expression|name|688">Esama 'Pasiūlymų priėmimo terminas' (BT-131(d)-Lot) ir 'Pageidaujama paskelbimo data' (BT-738-notice) ir tai nėra pakeitimas</entry>
 <entry key="expression|name|689">'Dalyvavimo prašymų priėmimo terminas' (BT-1311(d)-Lot) ir 'Pageidaujama paskelbimo data' (BT-738-notice) egzistuoja ir tai nėra apie pakeitimą</entry>
 <entry key="expression|name|69">'Subranga' (BT-773-Tender) nėra 'Taip'</entry>

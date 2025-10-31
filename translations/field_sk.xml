@@ -831,10 +831,6 @@
 <entry key="field|description|BT-660-LotResult">Hodnota, ktorá sa pravdepodobne vynaloží počas celej dĺžky trvania rámcovej dohody, vrátane opcií a obnovení, prepočítaná na základe víťaznej ponuky alebo víťazných ponúk.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Hodnota, ktorá sa pravdepodobne vynaloží počas celej dĺžky trvania rámcovej dohody, vrátane opcií a obnovení, prepočítaná na základe víťaznej ponuky alebo víťazných ponúk.</entry>
 <entry key="field|description|BT-661-Lot">Existuje maximálny počet záujemcov, ktorí budú pozvaní do druhej fázy postupu.</entry>
-<entry key="field|description|BT-67(a)-Procedure">Stručný opis kritérií týkajúcich sa osobného postavenia uchádzačov, ktoré môžu viesť k ich vylúčeniu. Uvedie sa zoznam všetkých takýchto kritérií a požadované informácie (napr. vlastné vyhlásenie, podklady). Takisto sa môžu uviesť aj osobitné vnútroštátne dôvody na vylúčenie.</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">Stručný opis kritérií týkajúcich sa osobného postavenia uchádzačov, ktoré môžu viesť k ich vylúčeniu. Uvedie sa zoznam všetkých takýchto kritérií a požadované informácie (napr. vlastné vyhlásenie, podklady). Takisto sa môžu uviesť aj osobitné vnútroštátne dôvody na vylúčenie.</entry>
-<entry key="field|description|BT-67(b)-Procedure">Stručný opis kritérií týkajúcich sa osobného postavenia uchádzačov, ktoré môžu viesť k ich vylúčeniu. Uvedie sa zoznam všetkých takýchto kritérií a požadované informácie (napr. vlastné vyhlásenie, podklady). Takisto sa môžu uviesť aj osobitné vnútroštátne dôvody na vylúčenie.</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">Stručný opis kritérií týkajúcich sa osobného postavenia uchádzačov, ktoré môžu viesť k ich vylúčeniu. Uvedie sa zoznam všetkých takýchto kritérií a požadované informácie (napr. vlastné vyhlásenie, podklady). Takisto sa môžu uviesť aj osobitné vnútroštátne dôvody na vylúčenie.</entry>
 <entry key="field|description|BT-681-Lot">Nariadenie (EÚ) 2022/2560 o zahraničných subvenciách, v súlade s jeho článkom 28, sa preto uplatňuje na tento postup verejného obstarávania.</entry>
 <entry key="field|description|BT-681-Lot-List">Nariadenie (EÚ) 2022/2560 o zahraničných subvenciách, v súlade s jeho článkom 28, sa preto uplatňuje na tento postup verejného obstarávania.</entry>
 <entry key="field|description|BT-682-Tender">Opatrenia uplatnené na základe nariadenia (EÚ) 2022/2560 o zahraničných subvenciách.</entry>
@@ -2114,9 +2110,7 @@
 <entry key="field|name|BT-660-LotResult-Currency">Prehodnotená hodnota rámcovej dohody</entry>
 <entry key="field|name|BT-661-Lot">Existuje maximálny počet záujemcov, ktorí budú pozvaní do druhej fázy postupu</entry>
 <entry key="field|name|BT-67(a)-Procedure">Kód</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Opis</entry>
 <entry key="field|name|BT-67(b)-Procedure">Opis</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Opis</entry>
 <entry key="field|name|BT-681-Lot">Nariadenie o zahraničných dotáciách</entry>
 <entry key="field|name|BT-681-Lot-List">Nariadenie o zahraničných dotáciách</entry>
 <entry key="field|name|BT-682-Tender">Zahraničné dotácie</entry>

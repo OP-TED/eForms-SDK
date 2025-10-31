@@ -473,6 +473,7 @@
 <entry key="expression|name|67">'Subcontratação' (BT-773-Tender) não é 'Sim'</entry>
 <entry key="expression|name|670">'País' (BT-5141-Lot is present) e 'Subdivisão do país (NUTS)' (BT-5071-Lot) está presente</entry>
 <entry key="expression|name|671">'O número é um tipo de fator de ponderação' (BT-5421) não é 'Ordem de importância'</entry>
+<entry key="expression|name|676">a parte proponente é composta por menos de 2 proponentes principais</entry>
 <entry key="expression|name|677">Não houve qualquer acordo-quadro associado nem 'Valor máximo do acordo-quadro' (BT-709-LotResult) está presente</entry>
 <entry key="expression|name|678">Não há LotResult, ou não há concurso para o lote coberto pelo LotResult e não há concurso para qualquer grupo de lotes que contenha o lote do LotResult, ou não há concurso e nenhum lote é especificado para o LotResult</entry>
 <entry key="expression|name|679">'Tipo de procedimento' (BT-105-Procedure) não é 'Por negociação sem abertura prévia de concurso' e 'Base jurídica' (BT-01-notice) não é 'Regulamento (UE, Euratom) 2024/2509' e há pelo menos um 'Identificador da proposta do contrato' (BT-3202-Contract)</entry>
@@ -480,7 +481,7 @@
 <entry key="expression|name|680">'Base jurídica' (BT-01-notice) é 'Diretiva 2014/24/UE' ou 'Regulamento (UE, Euratom) 2024/2509', e 'O procedimento é acelerado' (BT-106-Procedure) é 'sim'</entry>
 <entry key="expression|name|682">'Estatuto de seleção do vencedor' (BT-142) deve ser 'O vencedor foi selecionado.' para um anúncio do tipo 'Anúncio de adjudicação de contrato — serviços públicos de transporte de passageiros'</entry>
 <entry key="expression|name|685">Existem 'Prazo para a receção dos pedidos de participação' (BT-1311(d)-Lot) e 'Data de envio do anúncio' (BT-05(a)-notice) e não se trata de uma mudança</entry>
-<entry key="expression|name|687">Existem 'Data em que o vencedor foi escolhido' (BT-1451-Contract) e 'Data de publicação preferida' (BT-738-notice) e não se trata de uma mudança</entry>
+<entry key="expression|name|687">Existem «Data em que o vencedor foi escolhido» (BT-1451-Contract) e «Data de publicação preferida» (BT-738-notice) </entry>
 <entry key="expression|name|688">Existem 'Prazo para a receção das propostas' (BT-131(d)-Lot) e 'Data de publicação preferida' (BT-738-notice) e não se trata de uma mudança</entry>
 <entry key="expression|name|689">Existem 'Prazo para a receção dos pedidos de participação' (BT-1311(d)-Lot) e 'Data de publicação preferida' (BT-738-notice) e não se trata de uma mudança</entry>
 <entry key="expression|name|69">'Subcontratação' (BT-773-Tender) não é 'Sim'</entry>
