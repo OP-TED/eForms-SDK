@@ -1130,7 +1130,7 @@
 		<assert id="BT-761-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-761-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='selection-criteria-source']/cbc:TendererRequirementTypeCode">
-		<assert id="BR-BT-00821-0051" role="ERROR" test="normalize-space(.) = ('epo-notice', 'epo-procurement-document', 'epo-sub-espd')">rule|text|BR-BT-00821-0051</assert>
+		<assert id="BR-BT-00821-0051" role="ERROR" test="normalize-space(.) = ('epo-acc-espd-request', 'epo-notice', 'epo-procurement-document')">rule|text|BR-BT-00821-0051</assert>
 		<assert id="BT-821-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-821-Lot-List_MA</assert>
 		<assert id="BT-821-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-821-Lot_WS</assert>
 	</rule>
@@ -2122,7 +2122,7 @@
 		<assert id="BT-67_a_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-67_a_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-grounds-source']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode">
-		<assert id="BR-BT-00806-0051" role="ERROR" test="normalize-space(.) = ('epo-notice', 'epo-procurement-document', 'epo-sub-espd')">rule|text|BR-BT-00806-0051</assert>
+		<assert id="BR-BT-00806-0051" role="ERROR" test="normalize-space(.) = ('epo-acc-espd-request', 'epo-notice', 'epo-procurement-document')">rule|text|BR-BT-00806-0051</assert>
 		<assert id="BT-806-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-806-Procedure-List_MA</assert>
 		<assert id="BT-806-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-806-Procedure_WS</assert>
 	</rule>
