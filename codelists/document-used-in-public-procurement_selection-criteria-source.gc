@@ -5,7 +5,7 @@
       <ShortName>SelectionCriteriaSource</ShortName>
       <LongName>selection-criteria-source</LongName>
       <LongName Identifier="eFormsParentId">document-used-in-public-procurement</LongName>
-      <Version>1.14.0-SNAPSHOT</Version>
+      <Version>1.14.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -120,6 +120,86 @@
       </Column>
    </ColumnSet>
    <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>epo-acc-espd-request</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>European Single Procurement Document Request</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Искане във връзка с единен европейски документ за обществени поръчки</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Žádost o jednotné evropské osvědčení pro veřejné zakázky</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anmodning om et fælles europæisk udbudsdokument</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Aufforderung zur Einreichung einer Einheitlichen Europäischen Eigenerklärung</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Αίτηση Ευρωπαϊκού Ενιαίου Εγγράφου Σύμβασης</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>European Single Procurement Document Request</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Solicitud de documento europeo único de contratación</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Euroopa ühtse hankedokumendi taotlus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Yhteistä eurooppalaista hankinta-asiakirjaa koskeva pyyntö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Demande de document unique de marché européen</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Doiciméad Aonair Eorpach maidir le Soláthar</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Zahtjev za europsku jedinstvenu dokumentaciju o nabavi</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egységes európai közbeszerzési dokumentum iránti kérelem</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Richiesta di documento di gara unico europeo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Prašymas pateikti Europos bendrąjį viešųjų pirkimų dokumentą</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Eiropas vienotā iepirkuma procedūras dokumenta iesniegšanas pieprasījums</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Rikjesta għal Dokument Uniku Ewropew tal-Akkwist</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Gevraagde inhoud Uniform Europees Aanbestedingsdocument</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Jednolity europejski dokument zamówienia</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Pedido de Documento Europeu Único de Contratação Pública</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cerere de document european de achiziție unic</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Žiadosť o jednotný európsky dokument pre obstarávanie</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Zahtevek za enotni evropski dokument v zvezi z oddajo javnega naročila</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Begäran om europeiskt enhetligt upphandlingsdokument</SimpleValue>
+         </Value>
+      </Row>
       <Row>
          <Value ColumnRef="code">
             <SimpleValue>epo-notice</SimpleValue>
