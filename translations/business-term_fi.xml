@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Alihankintaa koskevat tiedot, jotka on ilmoitettava tarjouksessa.</entry>
 <entry key="business-term|description|BT-660">Arvo, joka puitejärjestelyssä todennäköisesti käytetään sen koko keston aikana, mukaan lukien optiot ja uusimiset, ja joka on arvioitu uudelleen voittavan tarjouksen/tarjouksien perusteella.</entry>
 <entry key="business-term|description|BT-661">Menettelyn jälkimmäiseen vaiheeseen kutsuttavia ehdokkaita on enimmäismäärä.</entry>
+<entry key="business-term|description|BT-67(a)">Poissulkemisperusteen tyyppi sellaisena kuin se on lueteltu julkisia hankintoja koskevissa direktiiveissä.</entry>
+<entry key="business-term|description|BT-67(b)">Lyhyt kuvaus perusteista, jotka voivat johtaa tarjoajien poissulkemiseen</entry>
 <entry key="business-term|description|BT-681">Tähän hankintamenettelyyn sovelletaan ulkomaisista tuista annettua asetusta (EU) 2022/2560 sen 28 artiklan mukaisesti.</entry>
 <entry key="business-term|description|BT-682">Ulkomaisista tuista annetun asetuksen (EU) 2022/2560 nojalla sovellettavat toimenpiteet.</entry>
 <entry key="business-term|description|BT-684">Kansainvälisen hankintavälineen (IPI) asetuksen (EU) 2022/1031 mukaiset toimenpiteet ovat sovellettavissa tähän hankintamenettelyyn</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Tarjouksessa ilmoitettavat alihankintaa koskevat tiedot</entry>
 <entry key="business-term|name|BT-660">Puitejärjestelyn uudelleenarvioitu arvo</entry>
 <entry key="business-term|name|BT-661">Menettelyn jälkimmäiseen vaiheeseen kutsuttaville ehdokkaille on asetettu enimmäismäärä</entry>
+<entry key="business-term|name|BT-67(a)">Poissulkemisperusteet</entry>
+<entry key="business-term|name|BT-67(b)">Kuvaus poissulkemisperusteista</entry>
 <entry key="business-term|name|BT-681">Ulkomaisten tukien asetus (FSR)</entry>
 <entry key="business-term|name|BT-682">Ulkomaisten tukien toimenpiteet</entry>
 <entry key="business-term|name|BT-684">Sovelletaan kansainvälisten julkisten hankintojen välineen mukaisia toimenpiteitä</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Tämän perusteen käyttö</entry>
 <entry key="business-term|name|BT-749">Nimi</entry>
 <entry key="business-term|name|BT-75">Vakuuden kuvaus</entry>
-<entry key="business-term|name|BT-750">Kuvaus</entry>
+<entry key="business-term|name|BT-750">Valintaperusteen kuvaus</entry>
 <entry key="business-term|name|BT-751">Vakuus vaaditaan</entry>
 <entry key="business-term|name|BT-752">Valintaperusteen luku</entry>
 <entry key="business-term|name|BT-7531">Luku on tyypiltään painotus</entry>

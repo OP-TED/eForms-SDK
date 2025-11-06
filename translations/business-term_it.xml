@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Le informazioni sul subappalto che devono essere indicate nell'offerta.</entry>
 <entry key="business-term|description|BT-660">Il valore della spesa probabile nell'ambito di un accordo quadro nel corso della sua durata complessiva, comprese le opzioni e i rinnovi, fatta oggetto di nuova stima in base all'offerta del vincitore o alle offerte dei vincitori.</entry>
 <entry key="business-term|description|BT-661">Esiste un numero massimo di candidati che possono essere invitati alla seconda fase della procedura.</entry>
+<entry key="business-term|description|BT-67(a)">Tipo di motivo di esclusione di cui alle direttive sugli appalti pubblici.</entry>
+<entry key="business-term|description|BT-67(b)">Breve descrizione dei criteri che potrebbero comportare l'esclusione degli offerenti</entry>
 <entry key="business-term|description|BT-681">Il regolamento sulle sovvenzioni estere (UE) 2022/2560, a norma dell'articolo 28 dello stesso, si applica alla procedura di appalto in questione.</entry>
 <entry key="business-term|description|BT-682">Misure applicate a norma del regolamento sulle sovvenzioni estere (UE) 2022/2560.</entry>
 <entry key="business-term|description|BT-684">Le misure previste dal Regolamento (UE) 2022/1031 sull'Instrumento di Procurement Internazionale (IPI) sono applicabili a questa procedura di appalto</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Indicazione obbligatoria del subappalto</entry>
 <entry key="business-term|name|BT-660">Valore di riestimo dell'accordo quadro</entry>
 <entry key="business-term|name|BT-661">Esiste un numero massimo di candidati che possono essere invitati alla seconda fase della procedura</entry>
+<entry key="business-term|name|BT-67(a)">Motivi di esclusione</entry>
+<entry key="business-term|name|BT-67(b)">Descrizione dei motivi di esclusione</entry>
 <entry key="business-term|name|BT-681">Regolamento sulle sovvenzioni straniere</entry>
 <entry key="business-term|name|BT-682">Misure di sovvenzioni straniere</entry>
 <entry key="business-term|name|BT-684">Si applicano le misure dello strumento per gli appalti internazionali</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Uso del criterio</entry>
 <entry key="business-term|name|BT-749">Nome</entry>
 <entry key="business-term|name|BT-75">Descrizione della garanzia finanziaria</entry>
-<entry key="business-term|name|BT-750">Descrizione</entry>
+<entry key="business-term|name|BT-750">Descrizione del criterio di selezione</entry>
 <entry key="business-term|name|BT-751">È obbligatoria una garanzia</entry>
 <entry key="business-term|name|BT-752">Criteri di selezione per invito seconda fase: numero</entry>
 <entry key="business-term|name|BT-7531">Il numero è un tipo di ponderazione</entry>

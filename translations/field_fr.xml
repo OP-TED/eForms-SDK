@@ -831,6 +831,10 @@
 <entry key="field|description|BT-660-LotResult">Valeur susceptible d’être dépensée pendant toute la durée d’un accord-cadre, y compris les options et les renouvellements, réestimée sur la base de l’offre du lauréat ou des offres des lauréats.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Valeur susceptible d’être dépensée pendant toute la durée d’un accord-cadre, y compris les options et les renouvellements, réestimée sur la base de l’offre du lauréat ou des offres des lauréats.</entry>
 <entry key="field|description|BT-661-Lot">Le nombre de candidats à convoquer pour la seconde étape de la procédure est limité.</entry>
+<entry key="field|description|BT-67(a)-Procedure">Type de motif d’exclusion énuméré dans les directives sur les marchés publics.</entry>
+<entry key="field|description|BT-67(a)-Procedure-List">Type de motif d’exclusion énuméré dans les directives sur les marchés publics.</entry>
+<entry key="field|description|BT-67(b)-Procedure">Une brève description des critères susceptibles d’entraîner l’exclusion des soumissionnaires</entry>
+<entry key="field|description|BT-67(b)-Procedure-Language">Une brève description des critères susceptibles d’entraîner l’exclusion des soumissionnaires</entry>
 <entry key="field|description|BT-681-Lot">Le règlement (UE) 2022/2560 relatif aux subventions étrangères (RSE), conformément à son article 28, est applicable à cette procédure de passation de marché.</entry>
 <entry key="field|description|BT-681-Lot-List">Le règlement (UE) 2022/2560 relatif aux subventions étrangères (RSE), conformément à son article 28, est applicable à cette procédure de passation de marché.</entry>
 <entry key="field|description|BT-682-Tender">Mesures appliquées en vertu du règlement (UE) 2022/2560 relatif aux subventions étrangères.</entry>
@@ -2110,7 +2114,9 @@
 <entry key="field|name|BT-660-LotResult-Currency">Valeur réestimée de l’accord-cadre</entry>
 <entry key="field|name|BT-661-Lot">Le nombre de candidats à inviter pour la seconde étape de la procédure est limité</entry>
 <entry key="field|name|BT-67(a)-Procedure">Code</entry>
+<entry key="field|name|BT-67(a)-Procedure-List">Motifs d’exclusion</entry>
 <entry key="field|name|BT-67(b)-Procedure">Description</entry>
+<entry key="field|name|BT-67(b)-Procedure-Language">Description des motifs d'exclusion</entry>
 <entry key="field|name|BT-681-Lot">Règlement sur les subventions étrangères</entry>
 <entry key="field|name|BT-681-Lot-List">Règlement sur les subventions étrangères</entry>
 <entry key="field|name|BT-682-Tender">Mesures de subventions étrangères</entry>
@@ -2213,8 +2219,8 @@
 <entry key="field|name|BT-746-Organization">Le Titulaire/lauréat est coté sur un marché réglementé</entry>
 <entry key="field|name|BT-75-Lot">Description de la garantie financière</entry>
 <entry key="field|name|BT-75-Lot-Language">Description de la garantie financière</entry>
-<entry key="field|name|BT-750-Lot">Description</entry>
-<entry key="field|name|BT-750-Lot-Language">Description</entry>
+<entry key="field|name|BT-750-Lot">Description du critère de sélection</entry>
+<entry key="field|name|BT-750-Lot-Language">Description du critère de sélection</entry>
 <entry key="field|name|BT-751-Lot">Une garantie est requise</entry>
 <entry key="field|name|BT-751-Lot-List">Une garantie est requise</entry>
 <entry key="field|name|BT-752-Lot-ThresholdNumber">Nombre de critères de sélection seconde étape</entry>

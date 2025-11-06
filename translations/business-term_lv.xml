@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Informācija par apakšuzņēmuma līgumiem, kas jānorāda piedāvājumā.</entry>
 <entry key="business-term|description|BT-660">Summa, kas pamatnolīguma ietvaros, visticamāk, tiks iztērēta visā pamatnolīguma darbības laikā, ieskaitot fakultatīvās iespējas un pārjaunojumus, un kas pārrēķināta, pamatojoties uz uzvarētāja piedāvājumu vai uzvarētāju piedāvājumiem.</entry>
 <entry key="business-term|description|BT-661">Ir noteikts uz procedūras otro posmu aicināmo kandidātu maksimālais skaits.</entry>
+<entry key="business-term|description|BT-67(a)">Izslēgšanas iemesla veids, kā uzskaitīts publiskā iepirkuma direktīvās.</entry>
+<entry key="business-term|description|BT-67(b)">Īss to kritēriju apraksts, kuru dēļ varētu tikt izslēgti pretendenti</entry>
 <entry key="business-term|description|BT-681">Šai iepirkuma procedūrai piemērojama Regula par ārvalstu subsīdijām (ES) 2022/2560, atbilstoši tās 28. pantam.</entry>
 <entry key="business-term|description|BT-682">Piemēroti Ārvalstu subsīdiju regulā (ES) 2022/2560 noteiktie pasākumi.</entry>
 <entry key="business-term|description|BT-684">Starptautiskā iepirkuma instrumenta (IPI) regula (ES) 2022/1031 pasākumi ir piemērojami šai iepirkuma procedūrai</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Obligāti jānorāda, vai tiks piesaistīti apakšuzņēmēji</entry>
 <entry key="business-term|name|BT-660">Pamatnolīguma pārrēķinātā aplēstā vērtība</entry>
 <entry key="business-term|name|BT-661">Ir noteikts uz procedūras otro posmu aicināmo kandidātu maksimālais skaits</entry>
+<entry key="business-term|name|BT-67(a)">Izslēgšanas iemesli</entry>
+<entry key="business-term|name|BT-67(b)">Izslēgšanas iemeslu apraksts</entry>
 <entry key="business-term|name|BT-681">Ārvalstu subsīdiju regulā</entry>
 <entry key="business-term|name|BT-682">Ārvalstu subsīdiju pasākumi</entry>
 <entry key="business-term|name|BT-684">Ir piemērojami starptautiskā iepirkuma instrumenta pasākumi</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Šī kritērija izmantojums</entry>
 <entry key="business-term|name|BT-749">Nosaukums</entry>
 <entry key="business-term|name|BT-75">Finanšu garantijas apraksts</entry>
-<entry key="business-term|name|BT-750">Apraksts</entry>
+<entry key="business-term|name|BT-750">Atlases kritērija apraksts</entry>
 <entry key="business-term|name|BT-751">Tiek prasīts nodrošinājums</entry>
 <entry key="business-term|name|BT-752">Atlases kritēriji – otrais posms – uzaicinājuma skaitlis</entry>
 <entry key="business-term|name|BT-7531">Skaitlis ir svēruma veids</entry>

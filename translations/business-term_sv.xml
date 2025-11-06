@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Information om underentreprenad som ska anges i anbudet.</entry>
 <entry key="business-term|description|BT-660">Det värde som troligen kommer att användas inom ramavtalet under hela dess varaktighet, inklusive optioner och förlängningar, beräknat på nytt på grundval av vinnarens eller vinnarnas anbud.</entry>
 <entry key="business-term|description|BT-661">Det finns ett högsta antal anbudssökande som inbjuds att delta i det andra steget i förfarandet.</entry>
+<entry key="business-term|description|BT-67(a)">Typ av skäl för uteslutning enligt förteckningen i direktiven om offentlig upphandling.</entry>
+<entry key="business-term|description|BT-67(b)">En kort beskrivning av de kriterier som kan leda till uteslutning av anbudsgivare</entry>
 <entry key="business-term|description|BT-681">Förordning (EU) 2022/2560 om utländska subventioner är i enlighet med artikel 28 i den förordningen tillämplig på detta upphandlingsförfarande.</entry>
 <entry key="business-term|description|BT-682">Åtgärder tillämpas enligt förordning (EU) 2022/2560 om utländska subventioner.</entry>
 <entry key="business-term|description|BT-684">Åtgärder enligt Internationella upphandlingsinstrumentet (IPI) förordningen (EU) 2022/1031 är tillämpliga på detta upphandlingsförfarande</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Obligatorisk information om underleverantörer</entry>
 <entry key="business-term|name|BT-660">Nytt beräknat värde på ramavtalet</entry>
 <entry key="business-term|name|BT-661">Det finns ett högsta antal anbudssökande som inbjuds att delta i det andra steget i förfarandet</entry>
+<entry key="business-term|name|BT-67(a)">Uteslutningsgrunder</entry>
+<entry key="business-term|name|BT-67(b)">Beskrivning av uteslutningsgrunder</entry>
 <entry key="business-term|name|BT-681">Förordningen om utländska bidrag</entry>
 <entry key="business-term|name|BT-682">Utländska subventionsåtgärder</entry>
 <entry key="business-term|name|BT-684">Åtgärder enligt instrumentet för internationell upphandling är tillämpliga</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Användning av det här kriteriet</entry>
 <entry key="business-term|name|BT-749">Namn</entry>
 <entry key="business-term|name|BT-75">Beskrivning av den finansiella garantin</entry>
-<entry key="business-term|name|BT-750">Beskrivning</entry>
+<entry key="business-term|name|BT-750">Beskrivning av urvalskriterium</entry>
 <entry key="business-term|name|BT-751">En garanti krävs</entry>
 <entry key="business-term|name|BT-752">Sifferangivelse för urvalskriterier för andra steget i anbudsansökan</entry>
 <entry key="business-term|name|BT-7531">Sifferangivelsen är en typ av viktning</entry>

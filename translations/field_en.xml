@@ -832,9 +832,9 @@
 <entry key="field|description|BT-660-LotResult-Currency">The value likely to be spent within a framework agreement over its whole duration, including options and renewals, as re-estimated on the basis of the winner’s tender or winners’ tenders.</entry>
 <entry key="field|description|BT-661-Lot">There is a maximum number of candidates to be invited for the second stage of the procedure.</entry>
 <entry key="field|description|BT-67(a)-Procedure">Type of exclusion ground as listed in the Public Procurement Directives</entry>
-<entry key="field|description|BT-67(a)-Procedure-List">The exclusion ground.</entry>
+<entry key="field|description|BT-67(a)-Procedure-List">Type of exclusion ground as listed in the Public Procurement Directives</entry>
 <entry key="field|description|BT-67(b)-Procedure">A brief description of the criteria that might lead to the exclusion of tenderers</entry>
-<entry key="field|description|BT-67(b)-Procedure-Language">The description of the exclusion ground.</entry>
+<entry key="field|description|BT-67(b)-Procedure-Language">A brief description of the criteria that might lead to the exclusion of tenderers</entry>
 <entry key="field|description|BT-681-Lot">The Foreign Subsidies Regulation (FSR) (EU) 2022/2560, in line with Article 28 thereof, is applicable to this procurement procedure.</entry>
 <entry key="field|description|BT-681-Lot-List">The Foreign Subsidies Regulation (FSR) (EU) 2022/2560, in line with Article 28 thereof, is applicable to this procurement procedure.</entry>
 <entry key="field|description|BT-682-Tender">Measures applied under the Foreign Subsidies Regulation (EU) 2022/2560.</entry>
@@ -2118,9 +2118,9 @@
 <entry key="field|name|BT-660-LotResult-Currency">Re-estimated value of the framework agreement</entry>
 <entry key="field|name|BT-661-Lot">There is a maximum number of candidates to be invited for the second stage of the procedure</entry>
 <entry key="field|name|BT-67(a)-Procedure">Code</entry>
-<entry key="field|name|BT-67(a)-Procedure-List">Exclusion Ground</entry>
+<entry key="field|name|BT-67(a)-Procedure-List">Grounds for exclusion</entry>
 <entry key="field|name|BT-67(b)-Procedure">Description</entry>
-<entry key="field|name|BT-67(b)-Procedure-Language">Exclusion Ground Description</entry>
+<entry key="field|name|BT-67(b)-Procedure-Language">Description of exclusion grounds</entry>
 <entry key="field|name|BT-681-Lot">Foreign Subsidies Regulation</entry>
 <entry key="field|name|BT-681-Lot-List">Foreign Subsidies Regulation</entry>
 <entry key="field|name|BT-682-Tender">Foreign Subsidies Measures</entry>
@@ -2223,8 +2223,8 @@
 <entry key="field|name|BT-746-Organization">The winner is listed on a regulated market</entry>
 <entry key="field|name|BT-75-Lot">Description of the financial guarantee</entry>
 <entry key="field|name|BT-75-Lot-Language">Description of the financial guarantee</entry>
-<entry key="field|name|BT-750-Lot">Description</entry>
-<entry key="field|name|BT-750-Lot-Language">Description</entry>
+<entry key="field|name|BT-750-Lot">Description of selection criterion</entry>
+<entry key="field|name|BT-750-Lot-Language">Description of selection criterion</entry>
 <entry key="field|name|BT-751-Lot">A guarantee is required</entry>
 <entry key="field|name|BT-751-Lot-List">A guarantee is required</entry>
 <entry key="field|name|BT-752-Lot-ThresholdNumber">Selection criteria second stage invite number</entry>

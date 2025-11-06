@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Informácie o zadávaní zákaziek subdodávateľom, ktoré sa musia uviesť v ponuke.</entry>
 <entry key="business-term|description|BT-660">Hodnota, ktorá sa pravdepodobne vynaloží počas celej dĺžky trvania rámcovej dohody, vrátane opcií a obnovení, prepočítaná na základe víťaznej ponuky alebo víťazných ponúk.</entry>
 <entry key="business-term|description|BT-661">Existuje maximálny počet záujemcov, ktorí budú pozvaní do druhej fázy postupu.</entry>
+<entry key="business-term|description|BT-67(a)">Druh dôvodu na vylúčenie, ako sa uvádza v smerniciach o verejnom obstarávaní.</entry>
+<entry key="business-term|description|BT-67(b)">Stručný opis kritérií, ktoré by mohli viesť k vylúčeniu uchádzačov</entry>
 <entry key="business-term|description|BT-681">Nariadenie (EÚ) 2022/2560 o zahraničných subvenciách, v súlade s jeho článkom 28, sa preto uplatňuje na tento postup verejného obstarávania.</entry>
 <entry key="business-term|description|BT-682">Opatrenia uplatnené na základe nariadenia (EÚ) 2022/2560 o zahraničných subvenciách.</entry>
 <entry key="business-term|description|BT-684">Opatrenia podľa nariadenia o medzinárodnom nástroji na verejné obstarávanie (IPI) (EÚ) 2022/1031 sa uplatňujú na tento postup verejného obstarávania</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Povinné označenie zadávania zákaziek subdodávateľom</entry>
 <entry key="business-term|name|BT-660">Prehodnotená hodnota rámcovej dohody</entry>
 <entry key="business-term|name|BT-661">Existuje maximálny počet záujemcov, ktorí budú pozvaní do druhej fázy postupu</entry>
+<entry key="business-term|name|BT-67(a)">Dôvody na vylúčenie</entry>
+<entry key="business-term|name|BT-67(b)">Popis dôvodov vylúčenia</entry>
 <entry key="business-term|name|BT-681">Nariadenie o zahraničných dotáciách</entry>
 <entry key="business-term|name|BT-682">Zahraničné dotácie</entry>
 <entry key="business-term|name|BT-684">Uplatňujú sa opatrenia nástroja medzinárodného obstarávania</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Použitie tohto kritéria</entry>
 <entry key="business-term|name|BT-749">Názov</entry>
 <entry key="business-term|name|BT-75">Opis finančnej zábezpeky</entry>
-<entry key="business-term|name|BT-750">Opis</entry>
+<entry key="business-term|name|BT-750">Popis výberového kritéria</entry>
 <entry key="business-term|name|BT-751">Informácia, či sa požaduje zábezpeka</entry>
 <entry key="business-term|name|BT-752">Číslo výzvy spojenej s podmienkami účasti druhej fázy</entry>
 <entry key="business-term|name|BT-7531">Číslo je typom váhy</entry>

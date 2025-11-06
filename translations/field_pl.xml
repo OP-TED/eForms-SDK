@@ -831,6 +831,10 @@
 <entry key="field|description|BT-660-LotResult">Wartość jaka prawdopodobnie będzie wydana w ramach umowy ramowej przez cały okres jej obowiązywania, w tym w ramach opcji i wznowień, ponownie oszacowana na podstawie zwycięskiej oferty lub zwycięskich ofert.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Wartość jaka prawdopodobnie będzie wydana w ramach umowy ramowej przez cały okres jej obowiązywania, w tym w ramach opcji i wznowień, ponownie oszacowana na podstawie zwycięskiej oferty lub zwycięskich ofert.</entry>
 <entry key="field|description|BT-661-Lot">Wskazano maksymalną liczbę kandydatów, którzy zostaną zaproszeni do udziału w drugim etapie procedury.</entry>
+<entry key="field|description|BT-67(a)-Procedure">Rodzaj podstawy wykluczenia wymienionej w dyrektywach w sprawie zamówień publicznych.</entry>
+<entry key="field|description|BT-67(a)-Procedure-List">Rodzaj podstawy wykluczenia wymienionej w dyrektywach w sprawie zamówień publicznych.</entry>
+<entry key="field|description|BT-67(b)-Procedure">Krótki opis kryteriów, które mogą prowadzić do wykluczenia oferentów</entry>
+<entry key="field|description|BT-67(b)-Procedure-Language">Krótki opis kryteriów, które mogą prowadzić do wykluczenia oferentów</entry>
 <entry key="field|description|BT-681-Lot">Rozporządzenie (UE) 2022/2560 w sprawie subsydiów zagranicznych ma zastosowanie, zgodnie z jego art. 28, do danego postępowania o udzielenie zamówienia.</entry>
 <entry key="field|description|BT-681-Lot-List">Rozporządzenie (UE) 2022/2560 w sprawie subsydiów zagranicznych ma zastosowanie, zgodnie z jego art. 28, do danego postępowania o udzielenie zamówienia.</entry>
 <entry key="field|description|BT-682-Tender">Środki stosowane na podstawie rozporządzenia (UE) 2022/2560 w sprawie subsydiów zagranicznych (FSR).</entry>
@@ -2110,7 +2114,9 @@
 <entry key="field|name|BT-660-LotResult-Currency">Ponownie oszacowana wartość umowy ramowej</entry>
 <entry key="field|name|BT-661-Lot">Wskazano maksymalną liczbę kandydatów, którzy zostaną zaproszeni do udziału w drugim etapie procedury</entry>
 <entry key="field|name|BT-67(a)-Procedure">Kod</entry>
+<entry key="field|name|BT-67(a)-Procedure-List">Podstawy wykluczenia</entry>
 <entry key="field|name|BT-67(b)-Procedure">Opis</entry>
+<entry key="field|name|BT-67(b)-Procedure-Language">Opis przesłanek wykluczenia</entry>
 <entry key="field|name|BT-681-Lot">Regulacja dotycząca zagranicznych dotacji</entry>
 <entry key="field|name|BT-681-Lot-List">Regulacja dotycząca zagranicznych dotacji</entry>
 <entry key="field|name|BT-682-Tender">Zagraniczne środki dotacyjne</entry>
@@ -2213,8 +2219,8 @@
 <entry key="field|name|BT-746-Organization">Zwycięzca jest notowany na rynku regulowanym</entry>
 <entry key="field|name|BT-75-Lot">Opis gwarancji finansowej</entry>
 <entry key="field|name|BT-75-Lot-Language">Opis gwarancji finansowej</entry>
-<entry key="field|name|BT-750-Lot">Opis</entry>
-<entry key="field|name|BT-750-Lot-Language">Opis</entry>
+<entry key="field|name|BT-750-Lot">Opis kryterium selekcji</entry>
+<entry key="field|name|BT-750-Lot-Language">Opis kryterium selekcji</entry>
 <entry key="field|name|BT-751-Lot">Wymagane jest zabezpieczenie</entry>
 <entry key="field|name|BT-751-Lot-List">Wymagane jest zabezpieczenie</entry>
 <entry key="field|name|BT-752-Lot-ThresholdNumber">Kryteria kwalifikacji - Zaproszenie do drugiego etapu - Liczba</entry>

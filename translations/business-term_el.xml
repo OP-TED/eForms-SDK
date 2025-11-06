@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Οι πληροφορίες σχετικά με τις υπεργολαβίες που πρέπει να αναφέρονται στην προσφορά.</entry>
 <entry key="business-term|description|BT-660">Η αξία που είναι πιθανό να δαπανηθεί στο πλαίσιο μιας συμφωνίας-πλαίσιο για όλη τη διάρκειά της, συμπεριλαμβανομένων των δικαιωμάτων προαίρεσης και των παρατάσεων, όπως επανεκτιμάται με βάση την προσφορά του νικητή ή τις προσφορές των νικητών.</entry>
 <entry key="business-term|description|BT-661">Υπάρχει μέγιστος αριθμός υποψηφίων που θα κληθούν για το δεύτερο στάδιο της διαδικασίας.</entry>
+<entry key="business-term|description|BT-67(a)">Είδος λόγου αποκλεισμού, όπως αναφέρεται στις οδηγίες για τις δημόσιες συμβάσεις.</entry>
+<entry key="business-term|description|BT-67(b)">Σύντομη περιγραφή των κριτηρίων που ενδέχεται να οδηγήσουν στον αποκλεισμό των προσφερόντων</entry>
 <entry key="business-term|description|BT-681">Στην παρούσα διαδικασία σύναψης σύμβασης εφαρμόζεται ο κανονισμός (EΕ) 2022/2560 για τις ξένες επιδοτήσεις, σύμφωνα με το άρθρο 28 του εν λόγω κανονισμού.</entry>
 <entry key="business-term|description|BT-682">Mέτρα που εφαρμόζονται βάσει του κανονισμού (EΕ) 2022/2560 για τις ξένες επιδοτήσεις.</entry>
 <entry key="business-term|description|BT-684">Τα μέτρα που προβλέπονται από τον Κανονισμό (ΕΕ) 2022/1031 για το Διεθνές Μέσο Δημοσίων Συμβάσεων (IPI) εφαρμόζονται σε αυτή τη διαδικασία δημόσιας σύμβασης</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Υποχρεωτική αναφορά της υπεργολαβίας</entry>
 <entry key="business-term|name|BT-660">Επανεκτιμηθείσα αξία της συμφωνίας-πλαισίου</entry>
 <entry key="business-term|name|BT-661">Υπάρχει μέγιστος αριθμός υποψηφίων που θα κληθούν για το δεύτερο στάδιο της διαδικασίας</entry>
+<entry key="business-term|name|BT-67(a)">Λόγοι αποκλεισμού</entry>
+<entry key="business-term|name|BT-67(b)">Περιγραφή των λόγων αποκλεισμού</entry>
 <entry key="business-term|name|BT-681">Κανονισμός για τις Ξένες Επιδοτήσεις</entry>
 <entry key="business-term|name|BT-682">Μέτρα για ξένες επιδοτήσεις</entry>
 <entry key="business-term|name|BT-684">Εφαρμόζονται μέτρα του μέσου για τις διεθνείς δημόσιες συμβάσεις</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Χρήση αυτού του κριτηρίου</entry>
 <entry key="business-term|name|BT-749">Ονομασία</entry>
 <entry key="business-term|name|BT-75">Περιγραφή της οικονομικής εγγύησης</entry>
-<entry key="business-term|name|BT-750">Περιγραφή</entry>
+<entry key="business-term|name|BT-750">Περιγραφή του κριτηρίου επιλογής</entry>
 <entry key="business-term|name|BT-751">Απαιτείται εγγύηση</entry>
 <entry key="business-term|name|BT-752">Αριθμός σχετικός με την πρόσκληση σε δεύτερο στάδιο βάσει κριτηρίων επιλογής</entry>
 <entry key="business-term|name|BT-7531">Ο αριθμός είναι ένα είδος στάθμισης</entry>

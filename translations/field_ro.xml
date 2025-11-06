@@ -831,6 +831,10 @@
 <entry key="field|description|BT-660-LotResult">Valoarea care ar putea fi cheltuită într-un acord-cadru pe toată durata sa, inclusiv pe opțiuni și reînnoiri, reestimată pe baza ofertei/ofertelor câștigătorului/câștigătorilor.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Valoarea care ar putea fi cheltuită într-un acord-cadru pe toată durata sa, inclusiv pe opțiuni și reînnoiri, reestimată pe baza ofertei/ofertelor câștigătorului/câștigătorilor.</entry>
 <entry key="field|description|BT-661-Lot">Există un număr maxim de candidați care urmează să fie invitați pentru a doua etapă a procedurii.</entry>
+<entry key="field|description|BT-67(a)-Procedure">Tipul motivului de excludere menționat în directivele privind achizițiile publice.</entry>
+<entry key="field|description|BT-67(a)-Procedure-List">Tipul motivului de excludere menționat în directivele privind achizițiile publice.</entry>
+<entry key="field|description|BT-67(b)-Procedure">O scurtă descriere a criteriilor care ar putea conduce la excluderea ofertanților</entry>
+<entry key="field|description|BT-67(b)-Procedure-Language">O scurtă descriere a criteriilor care ar putea conduce la excluderea ofertanților</entry>
 <entry key="field|description|BT-681-Lot">Regulamentul privind subvențiile străine (RSS) (UE) 2022/2560, în conformitate cu articolul 28 din acesta, se aplică acestei proceduri de achiziții publice.</entry>
 <entry key="field|description|BT-681-Lot-List">Regulamentul privind subvențiile străine (RSS) (UE) 2022/2560, în conformitate cu articolul 28 din acesta, se aplică acestei proceduri de achiziții publice.</entry>
 <entry key="field|description|BT-682-Tender">Măsuri aplicate în temeiul Regulamentului privind subvențiile străine (RSS) (UE) 2022/2560.</entry>
@@ -2110,7 +2114,9 @@
 <entry key="field|name|BT-660-LotResult-Currency">Valoarea recalculată a acordului-cadru</entry>
 <entry key="field|name|BT-661-Lot">Există un număr maxim de candidați care urmează să fie invitați pentru a doua etapă a procedurii.</entry>
 <entry key="field|name|BT-67(a)-Procedure">Cod</entry>
+<entry key="field|name|BT-67(a)-Procedure-List">Motive de excludere</entry>
 <entry key="field|name|BT-67(b)-Procedure">Descriere</entry>
+<entry key="field|name|BT-67(b)-Procedure-Language">Descrierea motivelor de excludere</entry>
 <entry key="field|name|BT-681-Lot">Regulamentul privind subvențiile străine</entry>
 <entry key="field|name|BT-681-Lot-List">Regulamentul privind subvențiile străine</entry>
 <entry key="field|name|BT-682-Tender">Măsuri de subvenții străine</entry>
@@ -2213,8 +2219,8 @@
 <entry key="field|name|BT-746-Organization">Câștigătorul este cotat pe o piață reglementată</entry>
 <entry key="field|name|BT-75-Lot">Descrierea garanției financiare</entry>
 <entry key="field|name|BT-75-Lot-Language">Descrierea garanției financiare</entry>
-<entry key="field|name|BT-750-Lot">Descriere</entry>
-<entry key="field|name|BT-750-Lot-Language">Descriere</entry>
+<entry key="field|name|BT-750-Lot">Descrierea criteriului de selecție</entry>
+<entry key="field|name|BT-750-Lot-Language">Descrierea criteriului de selecție</entry>
 <entry key="field|name|BT-751-Lot">Este necesară o garanție.</entry>
 <entry key="field|name|BT-751-Lot-List">Este necesară o garanție.</entry>
 <entry key="field|name|BT-752-Lot-ThresholdNumber">Număr legat de criteriile de selecție pentru invitația la a doua etapă</entry>

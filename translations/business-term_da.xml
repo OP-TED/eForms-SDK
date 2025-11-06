@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">De oplysninger om underentreprise, der skal angives i tilbuddet.</entry>
 <entry key="business-term|description|BT-660">Den værdi, der forventes at blive brugt inden for en rammeaftale i løbet af hele dens varighed, herunder valgmuligheder og fornyelser, som beregnet på grundlag af vinderens tilbud.</entry>
 <entry key="business-term|description|BT-661">Der er et højeste antal ansøgere, som skal opfordres til at deltage i anden fase af proceduren.</entry>
+<entry key="business-term|description|BT-67(a)">Type udelukkelsesgrund som anført i udbudsdirektiverne.</entry>
+<entry key="business-term|description|BT-67(b)">En kort beskrivelse af de kriterier, der kan føre til udelukkelse af tilbudsgivere</entry>
 <entry key="business-term|description|BT-681">Forordning (EU) 2022/2560 om udenlandske subsidier finder anvendelse på denne udbudsprocedure, jf. nævnte forordnings artikel 28.</entry>
 <entry key="business-term|description|BT-682">Foranstaltninger, som er truffet i medfør at forordning (EU) 2022/2560 om udenlandske subsidier.</entry>
 <entry key="business-term|description|BT-684">Foranstaltninger i henhold til forordning (EU) 2022/1031 om det internationale indkøbsinstrument (IPI) er gældende for denne udbudsprocedure</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Obligatorisk angivelse af underentreprise</entry>
 <entry key="business-term|name|BT-660">Revurderet værdi af rammeaftalen</entry>
 <entry key="business-term|name|BT-661">Der er et maksimalt antal ansøgere, der skal indkaldes til anden fase af proceduren</entry>
+<entry key="business-term|name|BT-67(a)">Udelukkelsesgrunde</entry>
+<entry key="business-term|name|BT-67(b)">Beskrivelse af udelukkelsesgrunde</entry>
 <entry key="business-term|name|BT-681">Udenlandsk Støtte-regulativ</entry>
 <entry key="business-term|name|BT-682">Udenlandske støtteforanstaltninger</entry>
 <entry key="business-term|name|BT-684">Foranstaltninger i henhold til det internationale instrument for offentlige udbud finder anvendelse</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Anvendelse af dette kriterium</entry>
 <entry key="business-term|name|BT-749">Navn</entry>
 <entry key="business-term|name|BT-75">Beskrivelse af den finansielle garanti</entry>
-<entry key="business-term|name|BT-750">Beskrivelse</entry>
+<entry key="business-term|name|BT-750">Beskrivelse af udvælgelseskriterium</entry>
 <entry key="business-term|name|BT-751">Der kræves en garanti</entry>
 <entry key="business-term|name|BT-752">Antallet af ansøgere, der opfordres til anden fase</entry>
 <entry key="business-term|name|BT-7531">Værdien er en vægt</entry>

@@ -831,6 +831,10 @@
 <entry key="field|description|BT-660-LotResult">Summa, kas pamatnolīguma ietvaros, visticamāk, tiks iztērēta visā pamatnolīguma darbības laikā, ieskaitot fakultatīvās iespējas un pārjaunojumus, un kas pārrēķināta, pamatojoties uz uzvarētāja piedāvājumu vai uzvarētāju piedāvājumiem.</entry>
 <entry key="field|description|BT-660-LotResult-Currency">Summa, kas pamatnolīguma ietvaros, visticamāk, tiks iztērēta visā pamatnolīguma darbības laikā, ieskaitot fakultatīvās iespējas un pārjaunojumus, un kas pārrēķināta, pamatojoties uz uzvarētāja piedāvājumu vai uzvarētāju piedāvājumiem.</entry>
 <entry key="field|description|BT-661-Lot">Ir noteikts uz procedūras otro posmu aicināmo kandidātu maksimālais skaits.</entry>
+<entry key="field|description|BT-67(a)-Procedure">Izslēgšanas iemesla veids, kā uzskaitīts publiskā iepirkuma direktīvās.</entry>
+<entry key="field|description|BT-67(a)-Procedure-List">Izslēgšanas iemesla veids, kā uzskaitīts publiskā iepirkuma direktīvās.</entry>
+<entry key="field|description|BT-67(b)-Procedure">Īss to kritēriju apraksts, kuru dēļ varētu tikt izslēgti pretendenti</entry>
+<entry key="field|description|BT-67(b)-Procedure-Language">Īss to kritēriju apraksts, kuru dēļ varētu tikt izslēgti pretendenti</entry>
 <entry key="field|description|BT-681-Lot">Šai iepirkuma procedūrai piemērojama Regula par ārvalstu subsīdijām (ES) 2022/2560, atbilstoši tās 28. pantam.</entry>
 <entry key="field|description|BT-681-Lot-List">Šai iepirkuma procedūrai piemērojama Regula par ārvalstu subsīdijām (ES) 2022/2560, atbilstoši tās 28. pantam.</entry>
 <entry key="field|description|BT-682-Tender">Piemēroti Ārvalstu subsīdiju regulā (ES) 2022/2560 noteiktie pasākumi.</entry>
@@ -2110,7 +2114,9 @@
 <entry key="field|name|BT-660-LotResult-Currency">Pamatnolīguma pārrēķinātā aplēstā vērtība</entry>
 <entry key="field|name|BT-661-Lot">Ir noteikts uz procedūras otro posmu aicināmo kandidātu maksimālais skaits</entry>
 <entry key="field|name|BT-67(a)-Procedure">Kods</entry>
+<entry key="field|name|BT-67(a)-Procedure-List">Izslēgšanas iemesli</entry>
 <entry key="field|name|BT-67(b)-Procedure">Apraksts</entry>
+<entry key="field|name|BT-67(b)-Procedure-Language">Izslēgšanas iemeslu apraksts</entry>
 <entry key="field|name|BT-681-Lot">Ārvalstu subsīdiju regulā</entry>
 <entry key="field|name|BT-681-Lot-List">Ārvalstu subsīdiju regulā</entry>
 <entry key="field|name|BT-682-Tender">Ārvalstu subsīdiju pasākumi</entry>
@@ -2213,8 +2219,8 @@
 <entry key="field|name|BT-746-Organization">Uzvarētājs ir kotēts regulētā tirgū</entry>
 <entry key="field|name|BT-75-Lot">Finanšu garantijas apraksts</entry>
 <entry key="field|name|BT-75-Lot-Language">Finanšu garantijas apraksts</entry>
-<entry key="field|name|BT-750-Lot">Apraksts</entry>
-<entry key="field|name|BT-750-Lot-Language">Apraksts</entry>
+<entry key="field|name|BT-750-Lot">Atlases kritērija apraksts</entry>
+<entry key="field|name|BT-750-Lot-Language">Atlases kritērija apraksts</entry>
 <entry key="field|name|BT-751-Lot">Tiek prasīts nodrošinājums</entry>
 <entry key="field|name|BT-751-Lot-List">Tiek prasīts nodrošinājums</entry>
 <entry key="field|name|BT-752-Lot-ThresholdNumber">Atlases kritēriji – otrais posms – uzaicinājuma skaitlis</entry>
