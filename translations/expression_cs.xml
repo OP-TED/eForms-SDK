@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Hodnota 'Typ řízení' (BT-105) je rovna 'Otevřené' nebo hodnota 'Typ řízení' (BT-105) je rovna 'Jiné jednofázové řízení'</entry>
 <entry key="expression|name|604">Hodnota 'Typ řízení' (BT-105) je rovna 'Jiné vícefázové řízení'</entry>
 <entry key="expression|name|605">Identifikátor smlouvy, která má být změněna (BT-1501(c)-Contract), je vyplněn</entry>
+<entry key="expression|name|606">'ID dokumentu daňové legislativy' (OPT-111-Lot-FiscalLegis) není přítomen</entry>
 <entry key="expression|name|61">'Odůvodnění přímého zadání zakázky' (BT-136-Procedure) není jedním z následujících: 'V reakci na předchozí oznámení byly podány pouze nabídky, které jsou v rozporu s pravidly nebo nepřijatelné. Do jednacího řízení byli zahrnuti pouze ti uchazeči z předchozího řízení, kteří splňují kritéria pro výběr, netýkají se jich důvody pro vyloučení a splňují formální požadavky'; 'Potřeba dodatečných stavebních prací nebo služeb od původního zhotovitele, dodavatele nebo poskytovatele'; 'Nové stavební práce nebo služby, které spočívají v opakování stávajících stavebních prací nebo služeb, objednané za přísných podmínek stanovených ve směrnici'; 'V reakci na předchozí oznámení nebyly podány žádné vhodné nabídky ani žádosti o účast'; 'Částečné nahrazení nebo rozšíření stávajících dodávek nebo zařízení původním dodavatelem objednané za přísných podmínek stanovených ve směrnici'; 'Zakázka na služby, jež má být v souladu s pravidly pro soutěž o návrh zadána vítězi nebo jednomu z vítězů'</entry>
+<entry key="expression|name|612">Organizace je 'Kupující'</entry>
 <entry key="expression|name|613">Nabídka není podána ani pro dávku, pro kterou je 'Nařízení o zahraničních dotacích' (BT-681-Lot) nastaven na 'ano', ani pro skupinu dávek obsahující dávku, pro kterou je 'Nařízení o zahraničních dotacích' (BT-681-Lot) nastaven na 'ano'</entry>
 <entry key="expression|name|614">Cesta nie je identifikovaná ako 'Zdroj kritérií výběru'</entry>
 <entry key="expression|name|615">Kód kritéria výběru (BT-809) neexistuje</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Subdodávky' (BT-773-Tender) není 'Ano'</entry>
 <entry key="expression|name|670">'Země' (BT-5141-Lot is present) a 'Nižší územní jednotka země (NUTS)' (BT-5071-Lot) je přítomen</entry>
 <entry key="expression|name|671">'Číslo je typem váhy' (BT-5421) není 'Pořadí důležitosti'</entry>
-<entry key="expression|name|676">strana podávající nabídku je složena z méně než dvou hlavních uchazečů</entry>
+<entry key="expression|name|675">Smlouva zahrnuje 'Stavební práce' nebo 'Služby'</entry>
+<entry key="expression|name|676">'Zadavatelská strana' se skládá z méně než dvou hlavních uchazečů</entry>
 <entry key="expression|name|677">Nesouvisí s žádnou rámcovou dohodou nebo není přítomno 'Maximální hodnota rámcové dohody' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Není LotResult, nebo není nabídka pro část pokrytou LotResult a není nabídka pro žádnou skupinu částí, která by obsahovala část LotResult, nebo není nabídka a není specifikována žádná část pro LotResult</entry>
 <entry key="expression|name|679">'Typ řízení' (BT-105-Procedure) není 'Jednací řízení bez uveřejnění' a 'Právní základ' (BT-01-notice) není 'Nařízení (EU, Euratom) 2024/2509' a existuje alespoň jeden 'Identifikátor nabídky zakázky' (BT-3202-Contract)</entry>

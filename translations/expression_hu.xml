@@ -408,7 +408,9 @@
 <entry key="expression|name|603">A 'Az eljárás típusa' (BT-105) értéke egyenlő a 'Nyitott' értékkel vagy a 'Az eljárás típusa' (BT-105) értéke egyenlő a 'Egyéb egyszakaszos eljárás' értékkel</entry>
 <entry key="expression|name|604">A 'Az eljárás típusa' (BT-105) értéke egyenlő a 'Egyéb többszakaszos eljárás' értékkel</entry>
 <entry key="expression|name|605">Az módosítandó szerződés azonosítója (BT-1501(c)-Contract) kitöltve van</entry>
+<entry key="expression|name|606">'Adójogszabályok dokumentumazonosítója' (OPT-111-Lot-FiscalLegis) nincs jelen</entry>
 <entry key="expression|name|61">'A közvetlen odaítélés indoklása' (BT-136-Procedure) nem tartozik a következők közé: 'Az előző hirdetményre csak szabálytalan vagy érvénytelen ajánlatok érkeztek. A tárgyalások az előző hirdetményre jelentkező összes olyan ajánlattevő – és csakis azon ajánlattevők – bevonásával zajlottak, amelyek megfeleltek a kiválasztási kritériumoknak, amelyekre nem vonatkoztak kizárási okok, és amelyek teljesítették az alaki követelményeket'; 'Az eredeti vállalkozó által nyújtott további építési beruházásra vagy szolgáltatásokra van szükség'; 'A korábbi építési beruházás vagy szolgáltatás megismétlését jelentő új építési beruházás vagy szolgáltatás megrendelésére került sor, az irányelvben megállapított szigorú feltételeknek megfelelően'; 'Az előzetes hirdetményre nem érkezett megfelelő ajánlat, részvételi jelentkezés vagy kérelem'; 'Az eredeti szállítótól az irányelvben foglalt szigorú feltételek szerint megrendelt, meglévő áruk vagy felszerelések részleges pótlása vagy kibővítése'; 'A tervpályázat szabályai szerint a nyertesnek vagy az egyik nyertesnek odaítélendő szolgáltatási szerződés'</entry>
+<entry key="expression|name|612">A szervezet 'Vevő'</entry>
 <entry key="expression|name|613">A tender nem lett benyújtva sem olyan tételre, amelyhez a 'Külföldi támogatási rendelet' (BT-681-Lot) 'igen'-ra van beállítva, sem olyan tételcsoportra, amely tartalmaz egy olyan tételt, amelyhez a 'Külföldi támogatási rendelet' (BT-681-Lot) 'igen'-ra van beállítva</entry>
 <entry key="expression|name|614">Az értesítést nem azonosították mint 'A kiválasztási szempontok forrása'</entry>
 <entry key="expression|name|615">A választási kritérium (BT-809) kódja nem létezik</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Alvállalkozás' (BT-773-Tender) nem 'Igen'</entry>
 <entry key="expression|name|670">'Ország' (BT-5141-Lot is present) és 'Ország alegysége (NUTS)' (BT-5071-Lot) jelen van</entry>
 <entry key="expression|name|671">'A szám valamilyen súlyozás' (BT-5421) nem 'Fontossági sorrend'</entry>
-<entry key="expression|name|676">az ajánlattevő fél kettőnél kevesebb fő ajánlattevőből áll</entry>
+<entry key="expression|name|675">A szerződés magában foglalja a 'Építési beruházás' vagy a 'Szolgáltatások'</entry>
+<entry key="expression|name|676">'Ajánlattevő' kevesebb mint két fő ajánlattevőből áll</entry>
 <entry key="expression|name|677">Nem volt érintett keretmegállapodás, vagy nincs 'A keretmegállapodás maximális értéke' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Nincs LotResult, vagy nincs ajánlat a LotResult által lefedett tételre, és nincs ajánlat egyetlen tételcsoportra sem, amely tartalmazná a LotResult tételt, vagy nincs ajánlat és nincs tétel meghatározva a LotResult számára</entry>
 <entry key="expression|name|679">'Az eljárás típusa' (BT-105-Procedure) nem 'Felhívás nélküli tárgyalásos eljárás' és 'Jogalap' (BT-01-notice) nem '(EU, Euratom) 2024/2509 rendelet' és van legalább egy 'Szerződés ajánlati azonosítója' (BT-3202-Contract)</entry>

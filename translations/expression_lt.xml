@@ -408,7 +408,9 @@
 <entry key="expression|name|603">'Pirkimo būdas' (BT-105) vertė yra lygi 'Atviras' arba 'Pirkimo būdas' (BT-105) vertė yra lygi 'Kita vieno etapo procedūra'</entry>
 <entry key="expression|name|604">'Pirkimo būdas' (BT-105) vertė yra lygi 'Kita kelių etapų procedūra'</entry>
 <entry key="expression|name|605">Modifikuotinos sutarties identifikatorius (BT-1501(c)-Contract) yra užpildytas</entry>
+<entry key="expression|name|606">'Mokesčių teisės dokumento ID' (OPT-111-Lot-FiscalLegis) nėra</entry>
 <entry key="expression|name|61">'Tiesioginio skyrimo pagrindimas' (BT-136-Procedure) nėra vienas iš šių: 'Pagal ankstesnį skelbimą buvo gauta tik netinkamų ir nepriimtinų pasiūlymų. Derėtis pakviesti visi ankstesnės procedūros dalyviai, kurie atitiko atrankos kriterijus, formalius reikalavimus ir kuriems netaikomi pašalinimo pagrindai'; 'Poreikis įsigyti papildomų darbų arba paslaugų iš pirminio rangovo'; 'Nauji darbai ar paslaugos, kurie yra tokie pat kaip esami darbai ar paslaugos ir kurie užsakyti laikantis Direktyvoje nustatytų griežtų sąlygų'; 'Pagal ankstesnį skelbimą nebuvo gauta tinkamų pasiūlymų, dalyvavimo prašymų arba paraiškų'; 'Esamų prekių arba įrenginių dalinis pakeitimas arba gamybos linijos tąsa iš pirminio tiekėjo užsakoma laikantis Direktyvoje nustatytų griežtų sąlygų'; 'Paslaugų pirkimo sutartis, skiriama laimėtojui arba vienam iš laimėtojų, laikantis projekto konkurso taisyklių'</entry>
+<entry key="expression|name|612">Organizacija yra 'Pirkėjas'</entry>
 <entry key="expression|name|613">Pasiūlymas nepateiktas nei partijai, kuriai 'Užsienio subsidijų reglamentas' (BT-681-Lot) nustatytas 'taip', nei partijų grupei, kurioje yra partija, kuriai 'Užsienio subsidijų reglamentas' (BT-681-Lot) nustatytas 'taip'</entry>
 <entry key="expression|name|614">Pranešimas nebuvo identifikuotas kaip 'Atrankos kriterijų šaltinis'</entry>
 <entry key="expression|name|615">Pasirinkimo kriterijaus (BT-809) kodas neegzistuoja</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Subranga' (BT-773-Tender) nėra 'Taip'</entry>
 <entry key="expression|name|670">'Šalis' (BT-5141-Lot is present) ir 'Šalies administracinis vienetas (NUTS)' (BT-5071-Lot) yra</entry>
 <entry key="expression|name|671">'Skaičius yra tam tikras lyginamasis svoris' (BT-5421) nėra 'Eilės tvarka pagal svarbą'</entry>
-<entry key="expression|name|676">pirkimų procedūros dalyvį sudaro mažiau nei 2 pagrindiniai dalyviai</entry>
+<entry key="expression|name|675">Sutartis apima 'darbai' arba 'Paslaugos'</entry>
+<entry key="expression|name|676">'Pasiūlymo teikėjas' sudaro mažiau nei du pagrindiniai pasiūlymų teikėjai</entry>
 <entry key="expression|name|677">Nebuvo taikoma preliminarioji sutartis arba nėra 'Preliminariosios sutarties didžiausia vertė' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Nėra LotResult, arba nėra pasiūlymo dėl LotResult apimamos partijos ir nėra pasiūlymo dėl jokios partijos grupės, kuri apimtų LotResult partiją, arba nėra pasiūlymo ir LotResult nėra nurodyta jokia partija</entry>
 <entry key="expression|name|679">'Pirkimo būdas' (BT-105-Procedure) nėra 'Derybos be išankstinio skelbimo apie pirkimą' ir 'Teisinis pagrindas' (BT-01-notice) nėra 'Reglamentas (ES, Euratomas) 2024/2509' ir yra bent vienas 'Sutartis: pasiūlymas: ID' (BT-3202-Contract)</entry>

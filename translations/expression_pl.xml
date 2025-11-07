@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Wartość 'Rodzaj procedury' (BT-105) jest równa 'Otwarta' lub wartość 'Rodzaj procedury' (BT-105) jest równa 'Inna procedura jednoetapowa'</entry>
 <entry key="expression|name|604">Wartość 'Rodzaj procedury' (BT-105) jest równa 'Inna procedura wieloetapowa'</entry>
 <entry key="expression|name|605">Identifikator umowy do modyfikacji (BT-1501(c)-Contract) jest wypełniony</entry>
+<entry key="expression|name|606">'ID dokumentu z przepisami podatkowymi' (OPT-111-Lot-FiscalLegis) nie jest obecny</entry>
 <entry key="expression|name|61">'Uzasadnienie bezpośredniego udzielenia zamówienia' (BT-136-Procedure) nie jest jednym z następujących: 'W odpowiedzi na wcześniejsze ogłoszenie otrzymano jedynie oferty nieprawidłowe lub niemożliwe do przyjęcia. Do negocjacji dopuszczono jedynie wszystkich tych oferentów uczestniczących w poprzednim postępowaniu, którzy spełnili kryteria kwalifikacji, nie odpowiadają kryteriom wykluczenia oraz spełnili wymogi formalne'; 'Potrzeba realizacji dodatkowych robót budowlanych lub usług przez pierwotnego wykonawcę'; 'Nowe roboty budowlane lub usługi, będące powtórzeniem istniejących robót budowlanych lub usług oraz zamawiane zgodnie z warunkami ściśle określonymi w dyrektywie'; 'W odpowiedzi na wcześniejsze ogłoszenie nie otrzymano odpowiednich ofert, wniosków o dopuszczenie do udziału lub wniosków'; 'Częściowe zastąpienie lub rozszerzenie istniejących dostaw lub instalacji przez pierwotnego dostawcę, zamawiane zgodnie z warunkami ściśle określonymi w dyrektywie'; 'Zamówienie na usługi ma zostać udzielone zwycięzcy lub jednemu ze zwycięzców na podstawie regulaminu konkursu'</entry>
+<entry key="expression|name|612">Organizacja jest 'Nabywca'</entry>
 <entry key="expression|name|613">Oferta nie została złożona ani dla partii, dla której 'Regulacja dotycząca zagranicznych dotacji' (BT-681-Lot) jest ustawiony na 'tak', ani dla grupy partii zawierającej partię, dla której 'Regulacja dotycząca zagranicznych dotacji' (BT-681-Lot) jest ustawiony na 'tak'</entry>
 <entry key="expression|name|614">Powiadomienie nie zostało zidentyfikowane jako 'Źródło kryteriów kwalifikacji'</entry>
 <entry key="expression|name|615">Kod kryterium wyboru (BT-809) nie istnieje</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>
 <entry key="expression|name|670">'Kraj' (BT-5141-Lot is present) i 'Podpodział krajowy (NUTS)' (BT-5071-Lot) jest obecny</entry>
 <entry key="expression|name|671">'Liczba jest rodzajem wagi' (BT-5421) nie jest 'Kolejność według ważności'</entry>
-<entry key="expression|name|676">Uczestnik przetargu składa się z mniej niż 2 głównych oferentów</entry>
+<entry key="expression|name|675">Umowa obejmuje 'Roboty budowlane' lub 'Usługi'</entry>
+<entry key="expression|name|676">'Strona oferująca' składa się z mniej niż dwóch głównych oferentów</entry>
 <entry key="expression|name|677">Nie było umowy ramowej lub brak 'Maksymalna wartość umowy ramowej' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Nie ma LotResult, ani nie ma przetargu na część objętą przez LotResult i nie ma przetargu na żadną grupę części, która zawierałaby część LotResult, albo nie ma przetargu i nie określono żadnej części dla LotResult</entry>
 <entry key="expression|name|679">'Rodzaj procedury' (BT-105-Procedure) nie jest 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie' i 'Podstawa prawna' (BT-01-notice) nie jest 'Rozporządzenie (UE, Euratom) 2024/2509' i jest co najmniej jeden 'Umowa - identyfikator oferty' (BT-3202-Contract)</entry>

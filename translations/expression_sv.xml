@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Värdet för 'Typ av förfarande' (BT-105) är lika med 'Öppet' eller värdet för 'Typ av förfarande' (BT-105) är lika med 'Annat förfarande i ett steg'</entry>
 <entry key="expression|name|604">Värdet för 'Typ av förfarande' (BT-105) är lika med 'Annat förfarande i flera steg'</entry>
 <entry key="expression|name|605">Identifieraren för det kontrakt som ska ändras (BT-1501(c)-Contract) är ifylld</entry>
+<entry key="expression|name|606">'ID för skattelagstiftningsdokument' (OPT-111-Lot-FiscalLegis) är inte närvarande</entry>
 <entry key="expression|name|61">'Motivering av direkttilldelning' (BT-136-Procedure) är inte ett av följande: 'Inga vanliga anbud, anbudsansökningar eller ansökningar som är godtagbara mottogs som svar på ett tidigare meddelande. Endast de anbudsgivare som uppfyllde selekteringskriterierna, inte omfattades av uteslutningskriterierna och uppfyllde de formella kriterierna i det föregående förfarandet deltog i förhandlingarna'; 'Behov av ytterligare byggentreprenader eller tjänster från den ursprungliga uppdragstagaren'; 'Nya byggentreprenader eller tjänster, som är en upprepning av tidigare byggentreprenader eller tjänster och beställs i enlighet med de strikta villkoren i direktivet'; 'Inga lämpliga anbud, anbudsansökningar eller ansökningar mottogs som svar på ett tidigare meddelande'; 'Delvis ersättning eller utökande av de befintliga leveranser eller installationer som beställts av den ursprungliga leverantören enligt de strikta villkor som anges i direktivet'; 'Tjänstekontrakt som tilldelas vinnaren eller en av vinnarna i enlighet med reglerna för en projekttävling'</entry>
+<entry key="expression|name|612">Organisationen är en 'Upphandlare'</entry>
 <entry key="expression|name|613">Anbudet har inte lämnats in för ett parti där 'Förordningen om utländska bidrag' (BT-681-Lot) är inställt på 'ja', eller för en grupp partier som innehåller ett parti där 'Förordningen om utländska bidrag' (BT-681-Lot) är inställt på 'ja'</entry>
 <entry key="expression|name|614">Meddelandet har inte identifierats som en 'Källa till urvalskriterier'</entry>
 <entry key="expression|name|615">Urvalskriteriekoden (BT-809) finns inte</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Part) är närvarande och 'Del av land (NUTS)' (BT-5071-Part) är närvarande</entry>
 <entry key="expression|name|671">'Sifferangivelsen är en typ av viktning' (BT-5421) är inte 'Prioritetsordning'</entry>
-<entry key="expression|name|676">anbudsgivaren består av färre än två huvudanbudsgivare</entry>
+<entry key="expression|name|675">Kontraktet omfattar 'Byggentreprenader' eller 'Tjänster'</entry>
+<entry key="expression|name|676">'Anbudsgivare' består av färre än två huvudanbudsgivare</entry>
 <entry key="expression|name|677">Inget ramavtal var inblandat, eller 'Högsta värde på ramavtalet' (BT-709-LotResult) finns inte</entry>
 <entry key="expression|name|678">Det finns inget LotResult, eller det finns inget anbud för partiet som täcks av LotResult och inget anbud för någon grupp av partier som skulle innehålla partiet för LotResult, eller det finns inget anbud och inget parti är specificerat för LotResult</entry>
 <entry key="expression|name|679">'Typ av förfarande' (BT-105-Procedure) är inte 'Förhandlat förfarande utan föregående meddelande om upphandling' och 'Rättslig grund' (BT-01-notice) är inte 'Förordning (EU, Euratom) 2024/2509' och det finns minst ett 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract)</entry>

@@ -408,7 +408,9 @@
 <entry key="expression|name|603">La valeur de 'Type de procédure' (BT-105) est égale à 'Ouverte' ou la valeur de 'Type de procédure' (BT-105) est égale à 'Autre procédure en une seule étape'</entry>
 <entry key="expression|name|604">La valeur de 'Type de procédure' (BT-105) est égale à 'Autre procédure en plusieurs étapes'</entry>
 <entry key="expression|name|605">L'identifiant du contrat à modifier (BT-1501(c)-Contract) est rempli</entry>
+<entry key="expression|name|606">'ID du document de législation fiscale' (OPT-111-Lot-FiscalLegis) n'est pas présent</entry>
 <entry key="expression|name|61">'Justification de l’attribution directe' (BT-136-Procedure) n’est pas l’un des éléments suivants: 'Seules des offres irrégulières ou inacceptables ont été reçues en réponse à un avis antérieur. Tous les soumissionnaires et uniquement les soumissionnaires de la procédure antérieure qui ont satisfait aux critères de sélection, n'ont pas été pas concernés par les motifs d'exclusion et ont satisfait aux exigences formelles ont été inclus dans les négociations'; 'Besoin de travaux ou de services supplémentaires de la part du contractant initial'; 'Nouveaux travaux ou services constituant une répétition de travaux ou de services existants et commandés dans les conditions strictes énoncées dans la directive'; 'Aucune offre, demande de participation ou candidature appropriée n’a été reçue en réponse à un avis antérieur'; 'Renouvellement partiel ou extension de fournitures ou d’installations existantes par le fournisseur initial commandées dans les conditions strictes énoncées dans la directive'; 'Marché de services à attribuer au lauréat ou à l’un des lauréats selon le règlement d’un concours'</entry>
+<entry key="expression|name|612">L'organisation est un 'Acheteur'</entry>
 <entry key="expression|name|613">La soumission n'est pas déposée ni pour un lot pour lequel 'Règlement sur les subventions étrangères' (BT-681-Lot) est défini à 'oui', ni pour un groupe de lots contenant un lot pour lequel 'Règlement sur les subventions étrangères' (BT-681-Lot) est défini à 'oui'</entry>
 <entry key="expression|name|614">Le message n'a pas été identifié comme un 'Source des critères de sélection'</entry>
 <entry key="expression|name|615">Le code du critère de sélection (BT-809) n'existe pas</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Part sous-traitée' (BT-773-Tender) n’est pas 'Oui'</entry>
 <entry key="expression|name|670">'Pays' (BT-5141-Lot is present) et 'Subdivision pays (NUTS)' (BT-5071-Lot) est présent</entry>
 <entry key="expression|name|671">'Le nombre est une pondération' (BT-5421) n’est pas 'Ordre d’importance'</entry>
-<entry key="expression|name|676">Le soumissionnaire est composé de moins de 2 soumissionnaires principaux</entry>
+<entry key="expression|name|675">Le contrat inclut 'Marché de travaux' ou 'Services'</entry>
+<entry key="expression|name|676">'Partie appelante' est composé de moins de deux soumissionnaires principaux</entry>
 <entry key="expression|name|677">Aucun accord-cadre n’est concerné, ou 'Valeur maximale de l’accord-cadre' (BT-709-LotResult) n’est pas présent</entry>
 <entry key="expression|name|678">Il n'y a pas de LotResult, ou il n'y a pas d'appel d'offres pour le lot couvert par le LotResult et aucun appel d'offres pour aucun groupe de lots qui contiendrait le lot du LotResult, ou il n'y a pas d'appel d'offres et aucun lot n'est spécifié pour le LotResult</entry>
 <entry key="expression|name|679">'Type de procédure' (BT-105-Procedure) n'est pas 'Négociée sans mise en concurrence préalable' et 'Base juridique' (BT-01-notice) n'est pas 'Règlement (UE, Euratom) 2024/2509' et il y a au moins un 'ID offre marché' (BT-3202-Contract)</entry>

@@ -408,7 +408,9 @@
 <entry key="expression|name|603">El valor de 'Tipo de procedimiento' (BT-105) es igual a 'Abierto' o el valor de 'Tipo de procedimiento' (BT-105) es igual a 'Otro procedimiento de una sola etapa'</entry>
 <entry key="expression|name|604">El valor de 'Tipo de procedimiento' (BT-105) es igual a 'Otro procedimiento de múltiples etapas'</entry>
 <entry key="expression|name|605">El identificador del contrato a modificar (BT-1501(c)-Contract) está completado</entry>
+<entry key="expression|name|606">'ID del documento de legislación fiscal' (OPT-111-Lot-FiscalLegis) no está presente</entry>
 <entry key="expression|name|61">'Justificación de la adjudicación directa' (BT-136-Procedure) no es uno de los siguientes: 'En respuesta a un anuncio anterior solo se recibieron ofertas irregulares o inaceptables. Solo fueron incluidos en las negociaciones todos los licitadores del procedimiento anterior que cumplían los criterios de selección, no cumplían los motivos de exclusión y cumplían los requisitos formales'; 'Necesidad de obras o servicios adicionales por parte del contratista original'; 'Nuevos servicios u obras que consisten en la repetición de servicios u obras similares y que se solicitan con arreglo a las condiciones estrictas establecidas en la Directiva'; 'No se han recibido ofertas, solicitudes de participación o candidaturas adecuadas en respuesta a un anuncio anterior'; 'Sustitución parcial o ampliación de suministros o instalaciones existentes por el proveedor original solicitada con arreglo a las condiciones estrictas establecidas en la Directiva'; 'Contrato de servicios que debe adjudicarse al ganador o a uno de los ganadores con arreglo a las normas de un concurso de proyectos'</entry>
+<entry key="expression|name|612">La organización es un 'Comprador'</entry>
 <entry key="expression|name|613">La oferta no se ha presentado ni para un lote para el cual 'Reglamento de Subvenciones Extranjeras' (BT-681-Lot) se ha establecido en 'sí', ni para un grupo de lotes que contienen un lote para el cual 'Reglamento de Subvenciones Extranjeras' (BT-681-Lot) se ha establecido en 'sí'</entry>
 <entry key="expression|name|614">El aviso no ha sido identificado como un 'Fuente de los criterios de selección'</entry>
 <entry key="expression|name|615">El código del criterio de selección (BT-809) no existe</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Subcontratación' (BT-773-Tender) no es 'Sí'</entry>
 <entry key="expression|name|670">'País' (BT-5141-Lot is present) y 'Subdivisión del país (NUTS)' (BT-5071-Lot) está presente</entry>
 <entry key="expression|name|671">'El número es un tipo de ponderación' (BT-5421) no es 'Orden de prioridad'</entry>
-<entry key="expression|name|676">la parte licitadora está compuesta por menos de dos licitadores principales</entry>
+<entry key="expression|name|675">El contrato incluye 'Obras' o 'Servicios'</entry>
+<entry key="expression|name|676">'Parte ofertante' está compuesto por menos de dos licitadores principales</entry>
 <entry key="expression|name|677">No se aplicó ningún acuerdo marco o 'Valor máximo del acuerdo marco' (BT-709-LotResult) no consta</entry>
 <entry key="expression|name|678">No existe LotResult, o no hay licitación para el lote cubierto por el LotResult y no hay licitación para ningún grupo de lotes que contenga el lote del LotResult, o no hay licitación y no se especifica ningún lote para el LotResult</entry>
 <entry key="expression|name|679">'Tipo de procedimiento' (BT-105-Procedure) no es 'Negociado sin convocatoria de licitación previa' y 'Base jurídica' (BT-01-notice) no es 'Reglamento (UE, Euratom) 2024/2509' y hay al menos un 'Contrato: identificador de oferta' (BT-3202-Contract)</entry>

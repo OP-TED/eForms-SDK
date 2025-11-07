@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Vrijednost 'Vrsta postupka' (BT-105) jednaka je 'Otvoren' ili vrijednost 'Vrsta postupka' (BT-105) jednaka je 'Ostali postupci od jedne faze'</entry>
 <entry key="expression|name|604">Vrijednost 'Vrsta postupka' (BT-105) jednaka je 'Ostali postupci u više faza'</entry>
 <entry key="expression|name|605">Identifikator ugovora koji treba izmijeniti (BT-1501(c)-Contract) je popunjen</entry>
+<entry key="expression|name|606">'ID dokumenta poreznog zakonodavstva' (OPT-111-Lot-FiscalLegis) nije prisutan</entry>
 <entry key="expression|name|61">'Obrazloženje izravne dodjele ugovora' (BT-136-Procedure) nije jedno od sljedećeg: 'Kao odaziv na prethodnu obavijest zaprimljene su samo nepravilne ili neprihvatljive ponude. U pregovore su uključeni samo oni ponuditelji iz prethodnog postupka koji su zadovoljili kriterije za odabir, za koje ne postoji osnova za isključenje i koji ispunjavaju formalne zahtjeve'; 'Potreba za dodatnim radovima ili uslugama prvotnog ugovaratelja'; 'Novi radovi ili usluge, koji se sastoje od ponavljanja postojećih radova ili usluga te su naručeni u skladu sa strogim uvjetima navedenima u Direktivi'; 'Nisu zaprimljene odgovarajuće ponude, zahtjevi za sudjelovanje ili zahtjevi kao odaziv na prethodnu obavijes'; 'Djelomična zamjena ili proširenje postojeće robe ili instalacija koje je isporučio izvorni dobavljač, pod strogim uvjetima navedenima u Direktivi'; 'Ugovor o uslugama koji se dodjeljuje pobjedniku ili jednom od pobjednika na temelju pravila o projektnom natječaju'</entry>
+<entry key="expression|name|612">Organizacija je 'Kupac'</entry>
 <entry key="expression|name|613">Ponuda nije podnesena ni za lot za koji je 'Uredba o stranim subvencijama' (BT-681-Lot) postavljen na 'da', niti za grupu lotova koja sadrži lot za koji je 'Uredba o stranim subvencijama' (BT-681-Lot) postavljen na 'da'</entry>
 <entry key="expression|name|614">Obavijest nije identificirana kao 'Izvor kriterija za odabir'</entry>
 <entry key="expression|name|615">Kod kriterija odabira (BT-809) ne postoji</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Podugovaranje' (BT-773-Tender) nije 'Da'</entry>
 <entry key="expression|name|670">'Zemlja' (BT-5141-Lot is present) i 'Zemlja – podregija (NUTS)' (BT-5071-Lot) je prisutan</entry>
 <entry key="expression|name|671">'Broj je ponder' (BT-5421) nije 'Redoslijed važnosti'</entry>
-<entry key="expression|name|676">Stranka ponuditelj sastoji se od manje od dva glavna ponuditelja</entry>
+<entry key="expression|name|675">Ugovor uključuje 'Radovi' ili 'Usluge'</entry>
+<entry key="expression|name|676">'Stranka koja natječe' sastoji se od manje od dva glavna ponuditelja</entry>
 <entry key="expression|name|677">Nije bilo okvirnog sporazuma ili nema vrijednosti 'Maksimalna vrijednost okvirnog sporazuma' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Nema LotResult, ili nema natječaja za partiju pokrivenu LotResultom i nema natječaja za nijednu grupu partija koja bi sadržavala partiju LotResulta, ili nema natječaja i nijedna partija nije specificirana za LotResult</entry>
 <entry key="expression|name|679">'Vrsta postupka' (BT-105-Procedure) nije 'Pregovarački bez prethodnog poziva na nadmetanje' i 'Pravna osnova' (BT-01-notice) nije 'Uredba (EU, Euratom) 2024/2509' i postoji barem jedan 'Identifikator ponude za ugovor' (BT-3202-Contract)</entry>
