@@ -169,18 +169,34 @@ inClause
 /*
  * Notice type list can be:
  * - Wildcard: * or ANY (applies to all notice types)
- * - Explicit list: 1, 2, 3, E1, E2, X02 (comma-separated)
+ * - Explicit list with ranges: 1-3, 10-13, 20, E1-E3, X01-X02
  */
 noticeTypeList
     : Star                                              # wildcardNoticeTypes
     | Any                                               # anyNoticeTypes
-    | noticeType (Comma noticeType)*                    # explicitNoticeTypes
+    | noticeTypeRange (Comma noticeTypeRange)*          # explicitNoticeTypes
     ;
 
 /*
- * A notice type can be:
+ * A notice type range can be:
+ * - Single: 1, E1, X02, CEI
+ * - Range: 1-3 (expands to 1, 2, 3)
+ * - Prefixed range: E1-E3 (expands to E1, E2, E3)
+ * - Zero-padded range: X01-X02 (expands to X01, X02)
+ *
+ * Validation rules (enforced by transpiler):
+ * - Range endpoints must have same prefix (E1-E3 valid, E1-X02 invalid)
+ * - Start must be <= end (1-3 valid, 3-1 invalid)
+ * - Zero-padding is preserved from the start value
+ */
+noticeTypeRange
+    : noticeType (Minus noticeType)?
+    ;
+
+/*
+ * A notice type identifier can be:
  * - Numeric: 1, 2, 3, ..., 40
- * - Alphanumeric: CEI, E1-E6, T01-T02, X01-X02
+ * - Alphanumeric: CEI, E1, E2, E3, E4, E5, E6, T01, T02, X01, X02
  */
 noticeType
     : IntegerLiteral
