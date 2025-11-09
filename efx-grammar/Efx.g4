@@ -32,7 +32,7 @@ options { tokenVocab=EfxLexer;}
   Using the lexer's DEFAULT_MODE 
  **************************************/
 
-/* 
+/*
  * A single-expression is typically used to evaluate a condition.
  * If you do not need to process EFX templates, then you can create a full EFX parser that parses these expressions.
  * A single-expression contains two parts: a context-declaration and an expression-block.
@@ -41,7 +41,110 @@ options { tokenVocab=EfxLexer;}
  */
 singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF;
 
-/* 
+/*
+ * An EFX rules-file consists of one or more rule blocks.
+ * Each rule block defines a validation rule that can be transpiled to Schematron or JavaScript.
+ * A rule block may contain:
+ * - optional WITH clause for variable declarations (evaluated at pattern/parent level)
+ * - optional CONTEXT clause to specify the evaluation context
+ * - optional WHEN clause for conditional rule application
+ * - one or more ASSERT clauses
+ * - optional OTHERWISE clause with alternative assertions
+ */
+rulesFile: ruleBlock+ EOF;
+
+/*
+ * A rule-block defines a single validation rule.
+ * Structure: [WITH vars] [CONTEXT ctx] [WHEN cond] ASSERT expr AS severity? rule-id FOR field [OTHERWISE ASSERT ...]
+ * Variables in WITH are evaluated at pattern/parent level.
+ * CONTEXT specifies where the rule is evaluated.
+ * WHEN provides conditional application of the rule.
+ * ASSERT defines the validation expression with severity (ERROR/WARNING/INFO) and rule ID.
+ * FOR specifies which field this rule validates.
+ */
+ruleBlock
+    : withClause? contextClause? whenClause? assertClause (otherwiseClause)? Semicolon
+    ;
+
+/*
+ * WITH clause allows variable declarations that will be evaluated at the pattern/parent level.
+ * Multiple variables can be declared, separated by commas.
+ */
+withClause
+    : With templateVariableList
+    ;
+
+/*
+ * CONTEXT clause specifies the evaluation context for the rule.
+ * Can be a field context or node context, with optional predicates.
+ */
+contextClause
+    : Context (fieldContext | nodeContext)
+    ;
+
+/*
+ * WHEN clause provides conditional application of the rule.
+ * The rule only applies when the condition evaluates to true.
+ */
+whenClause
+    : When (booleanExpression | lateBoundScalar)
+    ;
+
+/*
+ * ASSERT clause defines the validation condition.
+ * Format: ASSERT expression AS [severity] rule-id FOR field-id
+ * Severity is optional and defaults to ERROR if not specified.
+ */
+assertClause
+    : Assert (booleanExpression | lateBoundScalar) forClause (asClause)?
+    | Assert (booleanExpression | lateBoundScalar) (asClause)? forClause
+    ;
+
+/*
+ * AS clause specifies the severity and rule ID.
+ * Format: AS severity rule-id or AS rule-id (defaults to ERROR)
+ */
+asClause
+    : As severity? ruleId
+    ;
+
+/*
+ * Severity can be ERROR, WARNING, or INFO.
+ * If not specified, defaults to ERROR.
+ */
+severity
+    : Error
+    | Warning
+    | Info
+    ;
+
+/*
+ * Rule ID is a string literal or identifier that uniquely identifies the rule.
+ * Used for error message translation lookup.
+ */
+ruleId
+    : StringLiteral
+    | Identifier
+    ;
+
+/*
+ * FOR clause specifies which field this rule validates.
+ * This is used to organize validators by field for efficient lookup.
+ */
+forClause
+    : For simpleFieldReference
+    ;
+
+/*
+ * OTHERWISE clause provides alternative assertions when the primary assertion fails.
+ * Can be followed by another ASSERT clause.
+ */
+otherwiseClause
+    : Otherwise Assert (booleanExpression | lateBoundScalar) forClause (asClause)?
+    | Otherwise Assert (booleanExpression | lateBoundScalar) (asClause)? forClause
+    ;
+
+/*
  * An EFX template-file consists of:
  * - zero or more declarations of global variables and functions,
  * - zero or more declarations of callable templates,

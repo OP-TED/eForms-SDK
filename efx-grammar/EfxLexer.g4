@@ -42,10 +42,12 @@ OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 // so that the lexer will find itself in the right mode after processing the expression block.
 StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
 
-// The Let, With and When keywords should switch the lexer to EXPRESSION mode.
+// The Let, With, When, Context, and Assert keywords should switch the lexer to EXPRESSION mode.
 Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 With: WITH -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 When: WHEN -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+Context: CONTEXT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+Assert: ASSERT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
 // The OTHERWISE keyword should switch the lexer to TEMPLATE mode. The DISPLAY keyword is optional.
 Otherwise: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE);
@@ -79,6 +81,8 @@ ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPA
 
 LetExpression: LET -> pushMode(EXPRESSION), type(Let);
 WithExpression: WITH -> pushMode(EXPRESSION), type(With);
+ContextKeywordExpression: CONTEXT -> pushMode(EXPRESSION), type(Context);
+AssertExpression: ASSERT -> pushMode(EXPRESSION), type(Assert);
 
 // Skipping whitespace & comments -----------------------------------------------------------------
 
@@ -256,10 +260,14 @@ Then: 'then';
 Else: 'else';
 For: 'for';
 Return: 'return';
+As: 'as';
 Always: 'ALWAYS';
 Never: 'NEVER';
 True: 'TRUE';
 False: 'FALSE';
+Error: 'ERROR';
+Warning: 'WARNING';
+Info: 'INFO';
 Notice: 'notice';
 Codelist: 'codelist';
 Code: 'code';
@@ -392,6 +400,8 @@ fragment INVOKE: ('INVOKE' | 'invoke');
 fragment DISPLAY: ('DISPLAY' | 'display');
 fragment WHEN: ('WHEN' | 'when');
 fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
+fragment CONTEXT: ('CONTEXT' | 'context');
+fragment ASSERT: ('ASSERT' | 'assert');
 fragment INDEX: ('INDEX' | 'index');
 fragment BY: ('BY' | 'by');
 fragment COMMENT: '//' ~[\r\n\f]*;
