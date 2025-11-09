@@ -43,17 +43,29 @@ singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (
 
 /*
  * An EFX rules-file consists of:
- * - optional global declarations (variables/functions used across all stages)
+ * - optional schema-level variable declarations (used across all patterns)
  * - one or more stage sections (each representing a validation stage like "3b", "4", etc.)
  *
+ * Schema-level variables become <let> elements in the Schematron schema (outside patterns).
  * Each stage section becomes a Schematron pattern and contains:
  * - optional pattern-level variable declarations (LET statements)
  * - one or more rule blocks
  *
  * Rules within a stage can target different notice types via the IN clause.
  * The transpiler groups rules by stage + notice-type to generate pattern files.
+ *
+ * Note: Only variable declarations are supported at schema and pattern level.
+ * Functions and dictionaries are not supported (Schematron limitation).
  */
-rulesFile: globalDeclaration* stageSection+ EOF;
+rulesFile: schemaVariableDeclaration* stageSection+ EOF;
+
+/*
+ * Schema-level variable declarations that apply across all patterns.
+ * These become <let> elements at the schema level in Schematron.
+ */
+schemaVariableDeclaration
+    : globalVariableDeclaration
+    ;
 
 /*
  * A stage section represents a validation stage (e.g., "3b", "4", "1a").
