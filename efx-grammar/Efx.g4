@@ -118,11 +118,12 @@ ruleId
     ;
 
 /*
- * FOR clause specifies which field this rule validates.
- * This is used to organize validators by field for efficient lookup.
+ * FOR clause specifies which field or node this rule validates.
+ * Can target a field or a node (associated with a form group).
+ * This is used to organize validators by target for efficient lookup.
  */
 forClause
-    : For simpleFieldReference
+    : For (simpleFieldReference | simpleNodeReference)
     ;
 
 /*
