@@ -45,8 +45,7 @@ singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (
  * An EFX rules-file consists of one or more rule blocks.
  * Each rule block defines a validation rule that can be transpiled to Schematron or JavaScript.
  * A rule block may contain:
- * - optional WITH clause for variable declarations (evaluated at pattern/parent level)
- * - optional CONTEXT clause to specify the evaluation context
+ * - optional WITH clause containing context declaration and variable declarations
  * - optional WHEN clause for conditional rule application
  * - one or more ASSERT clauses
  * - optional OTHERWISE clause with alternative assertions
@@ -55,31 +54,23 @@ rulesFile: ruleBlock+ EOF;
 
 /*
  * A rule-block defines a single validation rule.
- * Structure: [WITH vars] [CONTEXT ctx] [WHEN cond] ASSERT expr AS severity? rule-id FOR field [OTHERWISE ASSERT ...]
- * Variables in WITH are evaluated at pattern/parent level.
- * CONTEXT specifies where the rule is evaluated.
+ * Structure: [WITH [vars,] context [, vars]] [WHEN cond] ASSERT expr AS severity? rule-id FOR field [OTHERWISE ASSERT ...]
+ * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
  * WHEN provides conditional application of the rule.
  * ASSERT defines the validation expression with severity (ERROR/WARNING/INFO) and rule ID.
  * FOR specifies which field this rule validates.
  */
 ruleBlock
-    : withClause? contextClause? whenClause? assertClause (otherwiseClause)? Semicolon
+    : withClause? whenClause? assertClause otherwiseClause? Semicolon
     ;
 
 /*
- * WITH clause allows variable declarations that will be evaluated at the pattern/parent level.
- * Multiple variables can be declared, separated by commas.
+ * WITH clause uses the same contextDeclarationBlock as templates.
+ * It allows variable declarations before and/or after the context declaration.
+ * If WITH is omitted, the context defaults to the root node.
  */
 withClause
-    : With templateVariableList
-    ;
-
-/*
- * CONTEXT clause specifies the evaluation context for the rule.
- * Can be a field context or node context, with optional predicates.
- */
-contextClause
-    : Context (fieldContext | nodeContext)
+    : With contextDeclarationBlock
     ;
 
 /*
@@ -96,8 +87,7 @@ whenClause
  * Severity is optional and defaults to ERROR if not specified.
  */
 assertClause
-    : Assert (booleanExpression | lateBoundScalar) forClause (asClause)?
-    | Assert (booleanExpression | lateBoundScalar) (asClause)? forClause
+    : Assert (booleanExpression | lateBoundScalar) asClause forClause
     ;
 
 /*
@@ -136,12 +126,11 @@ forClause
     ;
 
 /*
- * OTHERWISE clause provides alternative assertions when the primary assertion fails.
- * Can be followed by another ASSERT clause.
+ * OTHERWISE clause provides alternative assertions when the WHEN condition is false.
+ * Has the same structure as the main ASSERT clause.
  */
 otherwiseClause
-    : Otherwise Assert (booleanExpression | lateBoundScalar) forClause (asClause)?
-    | Otherwise Assert (booleanExpression | lateBoundScalar) (asClause)? forClause
+    : Otherwise Assert (booleanExpression | lateBoundScalar) asClause forClause
     ;
 
 /*
