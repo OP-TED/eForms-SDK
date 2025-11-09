@@ -42,23 +42,45 @@ options { tokenVocab=EfxLexer;}
 singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF;
 
 /*
- * An EFX rules-file consists of one or more rule blocks.
- * Each rule block defines a validation rule that can be transpiled to Schematron or JavaScript.
- * A rule block may contain:
- * - optional WITH clause containing context declaration and variable declarations
- * - optional WHEN clause for conditional rule application
- * - one or more ASSERT clauses
- * - optional OTHERWISE clause with alternative assertions
+ * An EFX rules-file consists of:
+ * - optional global declarations (variables/functions used across all stages)
+ * - one or more stage sections (each representing a validation stage like "3b", "4", etc.)
+ *
+ * Each stage section becomes a Schematron pattern and contains:
+ * - optional pattern-level variable declarations (LET statements)
+ * - one or more rule blocks
+ *
+ * Rules within a stage can target different notice types via the IN clause.
+ * The transpiler groups rules by stage + notice-type to generate pattern files.
  */
-rulesFile: ruleBlock+ EOF;
+rulesFile: globalDeclaration* stageSection+ EOF;
+
+/*
+ * A stage section represents a validation stage (e.g., "3b", "4", "1a").
+ * Format: ---- STAGE stage-id ----
+ * Contains optional pattern-level variable declarations and one or more rule blocks.
+ * Each stage section maps to a Schematron pattern.
+ */
+stageSection
+    : StageHeader StageIdentifier StageHeaderEnd patternVariableDeclaration* ruleBlock+
+    ;
+
+/*
+ * Pattern-level variable declarations within a stage section.
+ * These become <let> elements in the Schematron pattern.
+ */
+patternVariableDeclaration
+    : globalVariableDeclaration
+    ;
 
 /*
  * A rule-block defines a single validation rule.
- * Structure: [WITH [vars,] context [, vars]] [WHEN cond] ASSERT expr AS severity? rule-id FOR field [OTHERWISE ASSERT ...]
+ * Structure: [WITH [vars,] context [, vars]] [WHEN cond] ASSERT expr AS severity? rule-id FOR field [IN notice-types] [OTHERWISE ASSERT ...]
  * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
  * WHEN provides conditional application of the rule.
  * ASSERT defines the validation expression with severity (ERROR/WARNING/INFO) and rule ID.
- * FOR specifies which field this rule validates.
+ * FOR specifies which field or node this rule validates.
+ * IN specifies which notice types this rule applies to (optional, defaults to all).
  */
 ruleBlock
     : withClause? whenClause? assertClause otherwiseClause? Semicolon
@@ -83,11 +105,12 @@ whenClause
 
 /*
  * ASSERT clause defines the validation condition.
- * Format: ASSERT expression AS [severity] rule-id FOR field-id
+ * Format: ASSERT expression AS [severity] rule-id FOR field-id [IN notice-types]
  * Severity is optional and defaults to ERROR if not specified.
+ * IN clause is optional and defaults to all notice types if not specified.
  */
 assertClause
-    : Assert (booleanExpression | lateBoundScalar) asClause forClause
+    : Assert (booleanExpression | lateBoundScalar) asClause forClause inClause?
     ;
 
 /*
@@ -131,7 +154,37 @@ forClause
  * Has the same structure as the main ASSERT clause.
  */
 otherwiseClause
-    : Otherwise Assert (booleanExpression | lateBoundScalar) asClause forClause
+    : Otherwise Assert (booleanExpression | lateBoundScalar) asClause forClause inClause?
+    ;
+
+/*
+ * IN clause specifies which notice types this rule applies to.
+ * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
+ * If omitted, the rule applies to all notice types.
+ */
+inClause
+    : In noticeTypeList
+    ;
+
+/*
+ * Notice type list can be:
+ * - Wildcard: * or ANY (applies to all notice types)
+ * - Explicit list: 1, 2, 3, E1, E2, X02 (comma-separated)
+ */
+noticeTypeList
+    : Star                                              # wildcardNoticeTypes
+    | Any                                               # anyNoticeTypes
+    | noticeType (Comma noticeType)*                    # explicitNoticeTypes
+    ;
+
+/*
+ * A notice type can be:
+ * - Numeric: 1, 2, 3, ..., 40
+ * - Alphanumeric: CEI, E1-E6, T01-T02, X01-X02
+ */
+noticeType
+    : IntegerLiteral
+    | Identifier
     ;
 
 /*

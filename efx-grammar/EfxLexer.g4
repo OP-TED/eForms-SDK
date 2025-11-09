@@ -55,16 +55,28 @@ Invoke: INVOKE -> pushMode(EXPRESSION);
 
 SummarySection: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL*;
 NavigationSection: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL*;
+StageHeader: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> pushMode(STAGE_HEADER);
+
+/*
+ * STAGE_HEADER mode
+ * ------------------------------------------------------------------------------------------------
+ * This mode is used to capture the stage identifier in a stage header declaration.
+ * Format: ---- STAGE stage-id ----
+ */
+mode STAGE_HEADER;
+
+StageIdentifier: [a-zA-Z0-9_-]+;
+StageHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
 
 /*
  * SKIP_WHITESPACE mode
  * ------------------------------------------------------------------------------------------------
- * This mode is used to skip any whitespace insignificant between the different parts of EFX template 
- * line. For example any whitespace between the OutlineNumber and the start of the expression that 
- * follows it, or any white space between the end of a context declaration block and the first character 
- * of the actual template. After switching to this mode, the lexer will skip all whitespace and switch 
- * back to the mode that was active right before. If no whitespace is found, the lexer will watch for 
- * the start of an expression  
+ * This mode is used to skip any whitespace insignificant between the different parts of EFX template
+ * line. For example any whitespace between the OutlineNumber and the start of the expression that
+ * follows it, or any white space between the end of a context declaration block and the first character
+ * of the actual template. After switching to this mode, the lexer will skip all whitespace and switch
+ * back to the mode that was active right before. If no whitespace is found, the lexer will watch for
+ * the start of an expression
  */
 mode SKIP_WHITESPACE;
 
@@ -259,6 +271,7 @@ Else: 'else';
 For: 'for';
 Return: 'return';
 As: 'AS' | 'as';
+Any: 'ANY' | 'any';
 Always: 'ALWAYS';
 Never: 'NEVER';
 True: 'TRUE';
@@ -399,6 +412,7 @@ fragment DISPLAY: ('DISPLAY' | 'display');
 fragment WHEN: ('WHEN' | 'when');
 fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
 fragment ASSERT: ('ASSERT' | 'assert');
+fragment STAGE: ('STAGE' | 'stage');
 fragment INDEX: ('INDEX' | 'index');
 fragment BY: ('BY' | 'by');
 fragment COMMENT: '//' ~[\r\n\f]*;
