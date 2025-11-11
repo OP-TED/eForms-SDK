@@ -3,7 +3,7 @@
 
   <groupId>eu.europa.ted.eforms</groupId>
   <artifactId>eforms-sdk</artifactId>
-  <version>1.14.0-rc.1</version>
+  <version>1.14.0-rc.2</version>
   <packaging>jar</packaging>
 
   <name>eForms SDK</name>
@@ -37,7 +37,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.build.outputTimestamp>2024-10-31T14:50:23Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2025-11-11T14:26:19Z</project.build.outputTimestamp>
 
     <!-- Versions eForms -->
     <version.eforms-sdk-analyzer>1.14.0-SNAPSHOT</version.eforms-sdk-analyzer>
