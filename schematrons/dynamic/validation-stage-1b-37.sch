@@ -5,8 +5,8 @@
 		<assert id="ND-BusinessParty-37" role="ERROR" diagnostics="ND-BusinessParty" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-37</assert>
 		<assert id="ND-ContractingParty-37" role="ERROR" diagnostics="ND-ContractingParty" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-37</assert>
 		<assert id="ND-GazetteReference-37" role="ERROR" diagnostics="ND-GazetteReference" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-37</assert>
-		<assert id="ND-Lot-37" role="ERROR" diagnostics="ND-Lot" test="count(cac:ProcurementProjectLot) &gt; 0">rule|text|ND-Lot-37</assert>
 		<assert id="ND-OperationType-37" role="ERROR" diagnostics="ND-OperationType" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-37</assert>
+		<assert id="ND-Part-37" role="ERROR" diagnostics="ND-Part" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-37</assert>
 		<assert id="ND-ProcedureProcurementScope-37" role="ERROR" diagnostics="ND-ProcedureProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-37</assert>
 		<assert id="ND-ProcedureTenderingProcess-37" role="ERROR" diagnostics="ND-ProcedureTenderingProcess" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-ProcedureTenderingProcess-37</assert>
 		<assert id="ND-RootExtension-37" role="ERROR" diagnostics="ND-RootExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-37</assert>
@@ -18,40 +18,43 @@
 	<rule context="/*/cac:ProcurementProject[$noticeSubType = '37']">
 		<assert id="ND-ProcedureValueEstimate-37" role="ERROR" diagnostics="ND-ProcedureValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-ProcedureValueEstimate-37</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[$noticeSubType = '37']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = '37']">
 		<assert id="ND-LotProcurementScope-37" role="ERROR" diagnostics="ND-LotProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-LotProcurementScope-37</assert>
-		<assert id="ND-PartTenderingTerms-37" role="ERROR" diagnostics="ND-PartTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-PartTenderingTerms-37</assert>
+		<assert id="ND-LotTenderingTerms-37" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-LotTenderingTerms-37</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:ProcurementProject[$noticeSubType = '37']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '37']">
 		<assert id="ND-LotDuration-37" role="ERROR" diagnostics="ND-LotDuration" test="count(cac:PlannedPeriod) = 0">rule|text|ND-LotDuration-37</assert>
+		<assert id="ND-LotValueEstimate-37" role="ERROR" diagnostics="ND-LotValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotValueEstimate-37</assert>
 		<assert id="ND-OptionsAndRenewals-37" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-37</assert>
-		<assert id="ND-PartValueEstimate-37" role="ERROR" diagnostics="ND-PartValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-PartValueEstimate-37</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess[$noticeSubType = '37']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = '37']">
 		<assert id="ND-AuctionTerms-37" role="ERROR" diagnostics="ND-AuctionTerms" test="count(cac:AuctionTerms) = 0">rule|text|ND-AuctionTerms-37</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '37']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '37']">
 		<assert id="ND-InterestExpressionReceptionPeriod-37" role="ERROR" diagnostics="ND-InterestExpressionReceptionPeriod" test="count(efac:InterestExpressionReceptionPeriod) = 0">rule|text|ND-InterestExpressionReceptionPeriod-37</assert>
 		<assert id="ND-PMCAnswersDeadline-37" role="ERROR" diagnostics="ND-PMCAnswersDeadline" test="count(efac:AnswerReceptionPeriod) = 0">rule|text|ND-PMCAnswersDeadline-37</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingTerms[$noticeSubType = '37']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = '37']">
+		<assert id="ND-LotProcurementDocument-37" role="ERROR" diagnostics="ND-LotProcurementDocument" test="count(cac:CallForTendersDocumentReference) = 0">rule|text|ND-LotProcurementDocument-37</assert>
 		<assert id="ND-LotReviewTerms-37" role="ERROR" diagnostics="ND-LotReviewTerms" test="count(cac:AppealTerms) &gt; 0">rule|text|ND-LotReviewTerms-37</assert>
-		<assert id="ND-PartProcurementDocument-37" role="ERROR" diagnostics="ND-PartProcurementDocument" test="count(cac:CallForTendersDocumentReference) = 0">rule|text|ND-PartProcurementDocument-37</assert>
 		<assert id="ND-Participants-37" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-37</assert>
 		<assert id="ND-PaymentTerms-37" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-37</assert>
 		<assert id="ND-PostAwardProcess-37" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-37</assert>
 		<assert id="ND-SecurityClearanceTerms-37" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-37</assert>
 		<assert id="ND-SubcontractingObligation-37" role="ERROR" diagnostics="ND-SubcontractingObligation" test="count(cac:AllowedSubcontractTerms) = 0">rule|text|ND-SubcontractingObligation-37</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '37']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms[$noticeSubType = '37']">
 		<assert id="ND-Prize-37" role="ERROR" diagnostics="ND-Prize" test="count(cac:Prize) = 0">rule|text|ND-Prize-37</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '37']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '37']">
 		<assert id="ND-Funding-37" role="ERROR" diagnostics="ND-Funding" test="count(efac:Funding) = 0">rule|text|ND-Funding-37</assert>
 		<assert id="ND-SelectionCriteria-37" role="ERROR" diagnostics="ND-SelectionCriteria" test="count(efac:SelectionCriteria) = 0">rule|text|ND-SelectionCriteria-37</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[$noticeSubType = '37']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:StrategicProcurement[$noticeSubType = '37']">
 		<assert id="ND-EEDInformationLot-37" role="ERROR" diagnostics="ND-EEDInformationLot" test="count(efac:StrategicProcurementInformation) = 0">rule|text|ND-EEDInformationLot-37</assert>
+	</rule>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject[$noticeSubType = '37']">
+		<assert id="ND-LotsGroupValueEstimate-37" role="ERROR" diagnostics="ND-LotsGroupValueEstimate" test="count(cac:RequestedTenderTotal) = 0">rule|text|ND-LotsGroupValueEstimate-37</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '37']">
 		<assert id="ND-TendererQualificationRequest-37" role="ERROR" diagnostics="ND-TendererQualificationRequest" test="count(cac:TendererQualificationRequest) = 0">rule|text|ND-TendererQualificationRequest-37</assert>

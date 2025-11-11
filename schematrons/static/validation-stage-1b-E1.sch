@@ -5,8 +5,8 @@
 		<assert id="ND-BusinessParty-E1" role="ERROR" diagnostics="ND-BusinessParty" test="count(cac:BusinessParty) = 0">rule|text|ND-BusinessParty-E1</assert>
 		<assert id="ND-ContractingParty-E1" role="ERROR" diagnostics="ND-ContractingParty" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-E1</assert>
 		<assert id="ND-GazetteReference-E1" role="ERROR" diagnostics="ND-GazetteReference" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-E1</assert>
-		<assert id="ND-Lot-E1" role="ERROR" diagnostics="ND-Lot" test="count(cac:ProcurementProjectLot) &gt; 0">rule|text|ND-Lot-E1</assert>
 		<assert id="ND-OperationType-E1" role="ERROR" diagnostics="ND-OperationType" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-E1</assert>
+		<assert id="ND-Part-E1" role="ERROR" diagnostics="ND-Part" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-E1</assert>
 		<assert id="ND-ProcedureProcurementScope-E1" role="ERROR" diagnostics="ND-ProcedureProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-E1</assert>
 		<assert id="ND-ProcedureTenderingProcess-E1" role="ERROR" diagnostics="ND-ProcedureTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-E1</assert>
 		<assert id="ND-RootExtension-E1" role="ERROR" diagnostics="ND-RootExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-E1</assert>
@@ -15,24 +15,23 @@
 	<rule context="/*/cac:ContractingParty[$noticeSubType = 'E1']">
 		<assert id="ND-Buyer-E1" role="ERROR" diagnostics="ND-Buyer" test="count(cac:Party) &gt; 0">rule|text|ND-Buyer-E1</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[$noticeSubType = 'E1']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'E1']">
 		<assert id="ND-LotProcurementScope-E1" role="ERROR" diagnostics="ND-LotProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-LotProcurementScope-E1</assert>
 		<assert id="ND-LotTenderingProcess-E1" role="ERROR" diagnostics="ND-LotTenderingProcess" test="count(cac:TenderingProcess) &gt; 0">rule|text|ND-LotTenderingProcess-E1</assert>
-		<assert id="ND-LotsGroupAwardingTerms-E1" role="ERROR" diagnostics="ND-LotsGroupAwardingTerms" test="count(cac:TenderingTerms/cac:AwardingTerms) = 0">rule|text|ND-LotsGroupAwardingTerms-E1</assert>
-		<assert id="ND-PartTenderingTerms-E1" role="ERROR" diagnostics="ND-PartTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-PartTenderingTerms-E1</assert>
+		<assert id="ND-LotTenderingTerms-E1" role="ERROR" diagnostics="ND-LotTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-LotTenderingTerms-E1</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:ProcurementProject[$noticeSubType = 'E1']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = 'E1']">
 		<assert id="ND-OptionsAndRenewals-E1" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-E1</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess[$noticeSubType = 'E1']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess[$noticeSubType = 'E1']">
 		<assert id="ND-AuctionTerms-E1" role="ERROR" diagnostics="ND-AuctionTerms" test="count(cac:AuctionTerms) = 0">rule|text|ND-AuctionTerms-E1</assert>
 		<assert id="ND-LotTenderingProcessExtension-E1" role="ERROR" diagnostics="ND-LotTenderingProcessExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-LotTenderingProcessExtension-E1</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'E1']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'E1']">
 		<assert id="ND-InterestExpressionReceptionPeriod-E1" role="ERROR" diagnostics="ND-InterestExpressionReceptionPeriod" test="count(efac:InterestExpressionReceptionPeriod) = 0">rule|text|ND-InterestExpressionReceptionPeriod-E1</assert>
 		<assert id="ND-PMCAnswersDeadline-E1" role="ERROR" diagnostics="ND-PMCAnswersDeadline" test="count(efac:AnswerReceptionPeriod) &gt; 0">rule|text|ND-PMCAnswersDeadline-E1</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingTerms[$noticeSubType = 'E1']">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms[$noticeSubType = 'E1']">
 		<assert id="ND-AwardingTerms-E1" role="ERROR" diagnostics="ND-AwardingTerms" test="count(cac:AwardingTerms) = 0">rule|text|ND-AwardingTerms-E1</assert>
 		<assert id="ND-NonUBLTenderingTerms-E1" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-E1</assert>
 		<assert id="ND-Participants-E1" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-E1</assert>
@@ -56,7 +55,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = 'E1']">
 		<assert id="ND-Organization-E1" role="ERROR" diagnostics="ND-Organization" test="count(efac:Organization) &gt; 0">rule|text|ND-Organization-E1</assert>
-		<assert id="ND-UBO-E1" role="ERROR" diagnostics="ND-UBO" test="count(efac:UltimateBeneficialOwner) = 0">rule|text|ND-UBO-E1</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = 'E1']">
 		<assert id="ND-Company-E1" role="ERROR" diagnostics="ND-Company" test="count(efac:Company) &gt; 0">rule|text|ND-Company-E1</assert>

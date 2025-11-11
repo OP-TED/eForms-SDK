@@ -5,8 +5,8 @@
 		<assert id="ND-BusinessParty-X02" role="ERROR" diagnostics="ND-BusinessParty" test="count(cac:BusinessParty) &gt; 0">rule|text|ND-BusinessParty-X02</assert>
 		<assert id="ND-ContractingParty-X02" role="ERROR" diagnostics="ND-ContractingParty" test="count(cac:ContractingParty) = 0">rule|text|ND-ContractingParty-X02</assert>
 		<assert id="ND-GazetteReference-X02" role="ERROR" diagnostics="ND-GazetteReference" test="count(cac:AdditionalDocumentReference) &gt; 0">rule|text|ND-GazetteReference-X02</assert>
-		<assert id="ND-Lot-X02" role="ERROR" diagnostics="ND-Lot" test="count(cac:ProcurementProjectLot) = 0">rule|text|ND-Lot-X02</assert>
 		<assert id="ND-OperationType-X02" role="ERROR" diagnostics="ND-OperationType" test="count(efac:NoticePurpose) &gt; 0">rule|text|ND-OperationType-X02</assert>
+		<assert id="ND-Part-X02" role="ERROR" diagnostics="ND-Part" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) = 0">rule|text|ND-Part-X02</assert>
 		<assert id="ND-ProcedureProcurementScope-X02" role="ERROR" diagnostics="ND-ProcedureProcurementScope" test="count(cac:ProcurementProject) = 0">rule|text|ND-ProcedureProcurementScope-X02</assert>
 		<assert id="ND-ProcedureTenderingProcess-X02" role="ERROR" diagnostics="ND-ProcedureTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-X02</assert>
 		<assert id="ND-ProcedureTerms-X02" role="ERROR" diagnostics="ND-ProcedureTerms" test="count(cac:TenderingTerms) = 0">rule|text|ND-ProcedureTerms-X02</assert>

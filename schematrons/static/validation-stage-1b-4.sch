@@ -6,7 +6,7 @@
 		<assert id="ND-ContractingParty-4" role="ERROR" diagnostics="ND-ContractingParty" test="count(cac:ContractingParty) &gt; 0">rule|text|ND-ContractingParty-4</assert>
 		<assert id="ND-GazetteReference-4" role="ERROR" diagnostics="ND-GazetteReference" test="count(cac:AdditionalDocumentReference) = 0">rule|text|ND-GazetteReference-4</assert>
 		<assert id="ND-OperationType-4" role="ERROR" diagnostics="ND-OperationType" test="count(efac:NoticePurpose) = 0">rule|text|ND-OperationType-4</assert>
-		<assert id="ND-Part-4" role="ERROR" diagnostics="ND-Part" test="count(cac:ProcurementProjectLot) &gt; 0">rule|text|ND-Part-4</assert>
+		<assert id="ND-Part-4" role="ERROR" diagnostics="ND-Part" test="count(cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']) &gt; 0">rule|text|ND-Part-4</assert>
 		<assert id="ND-ProcedureProcurementScope-4" role="ERROR" diagnostics="ND-ProcedureProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-ProcedureProcurementScope-4</assert>
 		<assert id="ND-ProcedureTenderingProcess-4" role="ERROR" diagnostics="ND-ProcedureTenderingProcess" test="count(cac:TenderingProcess) = 0">rule|text|ND-ProcedureTenderingProcess-4</assert>
 		<assert id="ND-RootExtension-4" role="ERROR" diagnostics="ND-RootExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) &gt; 0">rule|text|ND-RootExtension-4</assert>
@@ -15,30 +15,12 @@
 	<rule context="/*/cac:ContractingParty[$noticeSubType = '4']">
 		<assert id="ND-Buyer-4" role="ERROR" diagnostics="ND-Buyer" test="count(cac:Party) &gt; 0">rule|text|ND-Buyer-4</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[$noticeSubType = '4']">
-		<assert id="ND-LotsGroupAwardingTerms-4" role="ERROR" diagnostics="ND-LotsGroupAwardingTerms" test="count(cac:TenderingTerms/cac:AwardingTerms) = 0">rule|text|ND-LotsGroupAwardingTerms-4</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part'][$noticeSubType = '4']">
 		<assert id="ND-PartProcurementScope-4" role="ERROR" diagnostics="ND-PartProcurementScope" test="count(cac:ProcurementProject) &gt; 0">rule|text|ND-PartProcurementScope-4</assert>
 		<assert id="ND-PartTenderingTerms-4" role="ERROR" diagnostics="ND-PartTenderingTerms" test="count(cac:TenderingTerms) &gt; 0">rule|text|ND-PartTenderingTerms-4</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:ProcurementProject[$noticeSubType = '4']">
-		<assert id="ND-OptionsAndRenewals-4" role="ERROR" diagnostics="ND-OptionsAndRenewals" test="count(cac:ContractExtension) = 0">rule|text|ND-OptionsAndRenewals-4</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess[$noticeSubType = '4']">
-		<assert id="ND-AuctionTerms-4" role="ERROR" diagnostics="ND-AuctionTerms" test="count(cac:AuctionTerms) = 0">rule|text|ND-AuctionTerms-4</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '4']">
-		<assert id="ND-InterestExpressionReceptionPeriod-4" role="ERROR" diagnostics="ND-InterestExpressionReceptionPeriod" test="count(efac:InterestExpressionReceptionPeriod) = 0">rule|text|ND-InterestExpressionReceptionPeriod-4</assert>
-		<assert id="ND-PMCAnswersDeadline-4" role="ERROR" diagnostics="ND-PMCAnswersDeadline" test="count(efac:AnswerReceptionPeriod) = 0">rule|text|ND-PMCAnswersDeadline-4</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot/cac:TenderingTerms[$noticeSubType = '4']">
-		<assert id="ND-AwardingTerms-4" role="ERROR" diagnostics="ND-AwardingTerms" test="count(cac:AwardingTerms) = 0">rule|text|ND-AwardingTerms-4</assert>
-		<assert id="ND-NonUBLTenderingTerms-4" role="ERROR" diagnostics="ND-NonUBLTenderingTerms" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-NonUBLTenderingTerms-4</assert>
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms[$noticeSubType = '4']">
 		<assert id="ND-PartReviewTerms-4" role="ERROR" diagnostics="ND-PartReviewTerms" test="count(cac:AppealTerms) &gt; 0">rule|text|ND-PartReviewTerms-4</assert>
-		<assert id="ND-Participants-4" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-4</assert>
-		<assert id="ND-PaymentTerms-4" role="ERROR" diagnostics="ND-PaymentTerms" test="count(cac:PaymentTerms) = 0">rule|text|ND-PaymentTerms-4</assert>
-		<assert id="ND-PostAwardProcess-4" role="ERROR" diagnostics="ND-PostAwardProcess" test="count(cac:PostAwardProcess) = 0">rule|text|ND-PostAwardProcess-4</assert>
-		<assert id="ND-SecurityClearanceTerms-4" role="ERROR" diagnostics="ND-SecurityClearanceTerms" test="count(cac:SecurityClearanceTerm) = 0">rule|text|ND-SecurityClearanceTerms-4</assert>
-		<assert id="ND-SubcontractingObligation-4" role="ERROR" diagnostics="ND-SubcontractingObligation" test="count(cac:AllowedSubcontractTerms) = 0">rule|text|ND-SubcontractingObligation-4</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms[$noticeSubType = '4']">
 		<assert id="ND-LotDistribution-4" role="ERROR" diagnostics="ND-LotDistribution" test="count(cac:LotDistribution) = 0">rule|text|ND-LotDistribution-4</assert>
@@ -55,7 +37,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations[$noticeSubType = '4']">
 		<assert id="ND-Organization-4" role="ERROR" diagnostics="ND-Organization" test="count(efac:Organization) &gt; 0">rule|text|ND-Organization-4</assert>
-		<assert id="ND-UBO-4" role="ERROR" diagnostics="ND-UBO" test="count(efac:UltimateBeneficialOwner) = 0">rule|text|ND-UBO-4</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization[$noticeSubType = '4']">
 		<assert id="ND-Company-4" role="ERROR" diagnostics="ND-Company" test="count(efac:Company) &gt; 0">rule|text|ND-Company-4</assert>
