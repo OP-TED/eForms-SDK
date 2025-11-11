@@ -54,7 +54,6 @@ This release of the SDK does not contain any backwards incompatible changes: sof
 * Update of the whitespace controls to limit the check to leading and trailing white spaces and allow for extra spaces within strings
 * Update of the Regular Expression used for email patterns to allow for non-ASCII characters
 * Update of the contexts for several rules to apply
-* Introduction of rules enforcing the following XML attributes are present: "unitCode", "schemeName" and "listName"
 * Optimisation of rules on 'Tender Variant' (BT-193-Tender)
 
 ### Updates on Codelists
