@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "1.14.0",
   "metadataDatabase" : {
-    "version" : "1.13.358",
-    "createdOn" : "2025-11-08T11:58:00"
+    "version" : "1.13.386",
+    "createdOn" : "2025-11-21T14:19:57"
   },
   "noticeId" : "36",
   "metadata" : [ {
@@ -2920,6 +2920,103 @@
             } ]
           } ]
         }, {
+          "id" : "GR-LotResult-ReceivedSubmissions",
+          "contentType" : "group",
+          "nodeId" : "ND-ReceivedSubmissions",
+          "displayType" : "GROUP",
+          "description" : "Container for Received Submissions Statististics Numeric value and associated code.",
+          "_label" : "group|name|GR-LotResult-ReceivedSubmissions",
+          "_repeatable" : true,
+          "content" : [ {
+            "id" : "BT-760-LotResult",
+            "contentType" : "field",
+            "displayType" : "COMBOBOX",
+            "description" : "Received Submissions Type",
+            "_label" : "field|name|BT-760-LotResult",
+            "unpublishGroupId" : "GR-Unpublish-BT-760-LotResult",
+            "unpublishFieldId" : "BT-195(BT-760)-LotResult",
+            "unpublishCode" : "rec-sub-typ"
+          }, {
+            "id" : "GR-Unpublish-BT-760-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-ReceivedSubmissionTypeUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (ReceivedSubmissionType)",
+            "_label" : "group|name|GR-Unpublish-BT-760-LotResult",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-760)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-760)-LotResult",
+              "_presetValue" : "rec-sub-typ",
+              "hidden" : true
+            }, {
+              "id" : "BT-196(BT-760)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-760)-LotResult"
+            }, {
+              "id" : "BT-197(BT-760)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-760)-LotResult"
+            }, {
+              "id" : "BT-198(BT-760)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Access Date",
+              "_label" : "field|name|BT-198(BT-760)-LotResult"
+            } ]
+          }, {
+            "id" : "BT-759-LotResult",
+            "contentType" : "field",
+            "displayType" : "TEXTBOX",
+            "description" : "Received Submissions Count",
+            "_label" : "field|name|BT-759-LotResult",
+            "unpublishGroupId" : "GR-Unpublish-BT-759-LotResult",
+            "unpublishFieldId" : "BT-195(BT-759)-LotResult",
+            "unpublishCode" : "rec-sub-cou"
+          }, {
+            "id" : "GR-Unpublish-BT-759-LotResult",
+            "contentType" : "group",
+            "nodeId" : "ND-ReceivedSubmissionCountUnpublish",
+            "displayType" : "GROUP",
+            "description" : "Not Immediately Published (ReceivedSubmissionCount)",
+            "_label" : "group|name|GR-Unpublish-BT-759-LotResult",
+            "collapsed" : true,
+            "content" : [ {
+              "id" : "BT-195(BT-759)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Identifier",
+              "_label" : "field|name|BT-195(BT-759)-LotResult",
+              "_presetValue" : "rec-sub-cou",
+              "hidden" : true
+            }, {
+              "id" : "BT-196(BT-759)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTAREA",
+              "description" : "Unpublished Justification Description",
+              "_label" : "field|name|BT-196(BT-759)-LotResult"
+            }, {
+              "id" : "BT-197(BT-759)-LotResult",
+              "contentType" : "field",
+              "displayType" : "COMBOBOX",
+              "description" : "Unpublished Justification Code",
+              "_label" : "field|name|BT-197(BT-759)-LotResult"
+            }, {
+              "id" : "BT-198(BT-759)-LotResult",
+              "contentType" : "field",
+              "displayType" : "TEXTBOX",
+              "description" : "Unpublished Access Date",
+              "_label" : "field|name|BT-198(BT-759)-LotResult"
+            } ]
+          } ]
+        }, {
           "id" : "GR-LotResult-Parties",
           "contentType" : "group",
           "displayType" : "GROUP",
@@ -3074,103 +3171,6 @@
             "displayType" : "TEXTBOX",
             "description" : "Buyer Review Complainants (Number)",
             "_label" : "field|name|BT-712(b)-LotResult"
-          } ]
-        }, {
-          "id" : "GR-LotResult-ReceivedSubmissions",
-          "contentType" : "group",
-          "nodeId" : "ND-ReceivedSubmissions",
-          "displayType" : "GROUP",
-          "description" : "Container for Received Submissions Statististics Numeric value and associated code.",
-          "_label" : "group|name|GR-LotResult-ReceivedSubmissions",
-          "_repeatable" : true,
-          "content" : [ {
-            "id" : "BT-760-LotResult",
-            "contentType" : "field",
-            "displayType" : "COMBOBOX",
-            "description" : "Received Submissions Type",
-            "_label" : "field|name|BT-760-LotResult",
-            "unpublishGroupId" : "GR-Unpublish-BT-760-LotResult",
-            "unpublishFieldId" : "BT-195(BT-760)-LotResult",
-            "unpublishCode" : "rec-sub-typ"
-          }, {
-            "id" : "GR-Unpublish-BT-760-LotResult",
-            "contentType" : "group",
-            "nodeId" : "ND-ReceivedSubmissionTypeUnpublish",
-            "displayType" : "GROUP",
-            "description" : "Not Immediately Published (ReceivedSubmissionType)",
-            "_label" : "group|name|GR-Unpublish-BT-760-LotResult",
-            "collapsed" : true,
-            "content" : [ {
-              "id" : "BT-195(BT-760)-LotResult",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-760)-LotResult",
-              "_presetValue" : "rec-sub-typ",
-              "hidden" : true
-            }, {
-              "id" : "BT-196(BT-760)-LotResult",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Unpublished Justification Description",
-              "_label" : "field|name|BT-196(BT-760)-LotResult"
-            }, {
-              "id" : "BT-197(BT-760)-LotResult",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Unpublished Justification Code",
-              "_label" : "field|name|BT-197(BT-760)-LotResult"
-            }, {
-              "id" : "BT-198(BT-760)-LotResult",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Unpublished Access Date",
-              "_label" : "field|name|BT-198(BT-760)-LotResult"
-            } ]
-          }, {
-            "id" : "BT-759-LotResult",
-            "contentType" : "field",
-            "displayType" : "TEXTBOX",
-            "description" : "Received Submissions Count",
-            "_label" : "field|name|BT-759-LotResult",
-            "unpublishGroupId" : "GR-Unpublish-BT-759-LotResult",
-            "unpublishFieldId" : "BT-195(BT-759)-LotResult",
-            "unpublishCode" : "rec-sub-cou"
-          }, {
-            "id" : "GR-Unpublish-BT-759-LotResult",
-            "contentType" : "group",
-            "nodeId" : "ND-ReceivedSubmissionCountUnpublish",
-            "displayType" : "GROUP",
-            "description" : "Not Immediately Published (ReceivedSubmissionCount)",
-            "_label" : "group|name|GR-Unpublish-BT-759-LotResult",
-            "collapsed" : true,
-            "content" : [ {
-              "id" : "BT-195(BT-759)-LotResult",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Unpublished Identifier",
-              "_label" : "field|name|BT-195(BT-759)-LotResult",
-              "_presetValue" : "rec-sub-cou",
-              "hidden" : true
-            }, {
-              "id" : "BT-196(BT-759)-LotResult",
-              "contentType" : "field",
-              "displayType" : "TEXTAREA",
-              "description" : "Unpublished Justification Description",
-              "_label" : "field|name|BT-196(BT-759)-LotResult"
-            }, {
-              "id" : "BT-197(BT-759)-LotResult",
-              "contentType" : "field",
-              "displayType" : "COMBOBOX",
-              "description" : "Unpublished Justification Code",
-              "_label" : "field|name|BT-197(BT-759)-LotResult"
-            }, {
-              "id" : "BT-198(BT-759)-LotResult",
-              "contentType" : "field",
-              "displayType" : "TEXTBOX",
-              "description" : "Unpublished Access Date",
-              "_label" : "field|name|BT-198(BT-759)-LotResult"
-            } ]
           } ]
         }, {
           "id" : "GR-LotResult-IPI",
