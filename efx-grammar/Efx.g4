@@ -135,7 +135,7 @@ templateFragment
     | linkedExpressionBlock templateFragment?       # linkedExpressionTemplate
     ;
 
-linkBlock: StartHyperlinkBlock stringExpression EndBlock;
+linkBlock: StartHyperlinkBlock (stringExpression | lateBoundScalar) EndBlock;
 
 linkedTextBlock: textBlock linkBlock;
 linkedLabelBlock: labelBlock linkBlock;
