@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'ID-ul tehnic al organizației (ORG-XXX)'(OPT-200-Organization-Company) este un 'Organizația care îndeplinește acest rol' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Criteriu de selecție' (BT-809-Lot) nu există sau 'Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați' (BT-52-Lot) nu este 'da' sau 'Tip de procedură' (BT-105) nu este 'Dialog competitiv', 'Parteneriat pentru inovare', 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', 'Altă procedură cu mai multe etape' sau 'Restrânsă'</entry>
 <entry key="expression|name|663">Valoarea aleasă pentru 'Statutul selecției câștigătorului' (BT-142-LotResult) este egală cu 'Câștigătorul nu a fost selecționat până în prezent, dar procedura concurențială se află încă în curs de desfășurare.', sau valoarea aleasă pentru 'Statutul selecției câștigătorului' (BT-142-LotResult) este egală cu 'Nu a fost ales un câștigător, iar procedura concurențială s-a încheiat.' și 'Motivul pentru care nu a fost ales un câștigător' (BT-144-LotResult) este egală cu 'Nu a fost primit(ă) nicio ofertă, nicio cerere de participare și niciun proiect'</entry>
-<entry key="expression|name|664">'Subdiviziunea țării (NUTS)' (BT-5071-Procedure) trebuie să corespundă unuia dintre codurile NUTS pentru specificatul 'Țara' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Țara' (BT-514-Organization-Company) este prezent și 'Subdiviziunea țării (NUTS)' (BT-507-Organization-Company) este prezent</entry>
 <entry key="expression|name|665">'Țara' (BT-514-Organization-TouchPoint) este prezent și 'Subdiviziunea țării (NUTS)' (BT-507-Organization-TouchPoint) este prezent</entry>
 <entry key="expression|name|666">'Țara' (BT-514-UBO) este prezent și 'Subdiviziunea țării (NUTS)' (BT-507-UBO) este prezent</entry>
 <entry key="expression|name|667">'Țara' (BT-514-Business) este prezent și 'Subdiviziunea țării (NUTS)' (BT-507-Business) este prezent</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Termenul-limită pentru solicitarea de informații suplimentare' (BT-132(d)-Lot) este completat</entry>
 <entry key="expression|name|7">'Țara' (BT-5141-Part) este completat</entry>
 <entry key="expression|name|70">'Valoarea procentuală a subcontractării este cunoscută' (BT-731-Tender) nu este 'da'</entry>
+<entry key="expression|name|701">'Temei juridic' (BT-01(c)-Procedure) nu este completat</entry>
 <entry key="expression|name|71">'Subcontractare' (BT-773-Tender) este 'Da'</entry>
 <entry key="expression|name|72">Nu a fost ales niciun câștigător sau 'Se aplică un acord-cadru' (BT-765-Lot) nu corespunde cu acordul-cadru al procedurii</entry>
 <entry key="expression|name|74">'Versiunea anunțului anterior care urmează să fie modificată' (BT-758-notice) nu este completat</entry>

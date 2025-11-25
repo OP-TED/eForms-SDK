@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'Technische ID der Organisation (ORG-XXX)'(OPT-200-Organization-Company) ist ein 'Organisation, die diese Rolle ausfüllt' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Eignungskriterium' (BT-809-Lot) existiert nicht oder 'Das Verfahren wird in mehreren aufeinanderfolgenden Phasen durchgeführt. In jeder Phase können einige Teilnehmer ausgeschlossen werden' (BT-52-Lot) ist nicht 'ja' oder 'Verfahrensart' (BT-105) ist nicht 'Wettbewerblicher Dialog', 'Innovationspartnerschaften', 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren', 'Sonstiges zweistufiges Verfahren' oder 'Nichtoffenes Verfahren'</entry>
 <entry key="expression|name|663">Der für 'Status der Preisträgerauswahl' (BT-142-LotResult) gewählte Wert entspricht 'Ein Wettbewerbsgewinner wurde noch nicht ermittelt, der Wettbewerb ist noch nicht abgeschlossen.', oder der für 'Status der Preisträgerauswahl' (BT-142-LotResult) gewählte Wert entspricht 'Es wurde kein Wettbewerbsgewinner ermittelt, und der Wettbewerb ist abgeschlossen.' und 'Grund, warum kein Gewinner ausgewählt wurde' (BT-144-LotResult) entspricht 'Es sind keine Angebote, Teilnahmeanträge oder Projekte eingegangen'</entry>
-<entry key="expression|name|664">'Land, Gliederung (NUTS)' (BT-5071-Procedure) muss einem der NUTS-Codes für den angegebenen 'Land' (BT-5141-Procedure) entsprechen</entry>
+<entry key="expression|name|664">'Land' (BT-514-Organization-Company) ist vorhanden und 'Land, Gliederung (NUTS)' (BT-507-Organization-Company) ist vorhanden</entry>
 <entry key="expression|name|665">'Land' (BT-514-Organization-TouchPoint) ist vorhanden und 'Land, Gliederung (NUTS)' (BT-507-Organization-TouchPoint) ist vorhanden</entry>
 <entry key="expression|name|666">'Land' (BT-514-UBO) ist vorhanden und 'Land, Gliederung (NUTS)' (BT-507-UBO) ist vorhanden</entry>
 <entry key="expression|name|667">'Land' (BT-514-Business) ist vorhanden und 'Land, Gliederung (NUTS)' (BT-507-Business) ist vorhanden</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Frist für die Anforderung zusätzlicher Informationen' (BT-132(d)-Lot) ist ausgefüllt</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) ist ausgefüllt</entry>
 <entry key="expression|name|70">'Prozentanteil der Vergabe von Unteraufträgen ist bekannt' (BT-731-Tender) ist nicht 'ja'</entry>
+<entry key="expression|name|701">'Rechtsgrundlage' (BT-01(c)-Procedure) ist nicht ausgefüllt</entry>
 <entry key="expression|name|71">'Vergabe von Unteraufträgen' (BT-773-Tender) ist 'Ja'</entry>
 <entry key="expression|name|72">Kein Gewinner wurde gewählt oder 'Rahmenvereinbarung geschlossen' (BT-765-Lot) entspricht nicht der Rahmenvereinbarung des Verfahrens</entry>
 <entry key="expression|name|74">'Fassung der zu ändernden vorigen Bekanntmachung' (BT-758-notice) ist nicht ausgefüllt</entry>

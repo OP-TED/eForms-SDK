@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'Organisatsiooni tehniline ID (ORG-XXX)'(OPT-200-Organization-Company) on 'Organisatsioon, mis täidab seda rolli' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Kvalifitseerimistingimus' (BT-809-Lot) ei ole olemas või 'Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada' (BT-52-Lot) ei ole 'jah' või 'Menetluse liik' (BT-105) ei ole 'Võistlev dialoog', 'Innovatsioonipartnerlus', 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus', 'Muu mitmeetapiline menetlus' või 'Piiratud'</entry>
 <entry key="expression|name|663">Valitud väärtus 'Eduka pakkuja valiku staatus' (BT-142-LotResult) on võrdne 'Edukat pakkujat ei ole veel valitud, kuid hange on veel pooleli.', või valitud väärtus 'Eduka pakkuja valiku staatus' (BT-142-LotResult) on võrdne 'Edukat pakkujat välja ei valitud ja hange on lõpetatud.' ja 'Põhjus, miks võitjat ei valitud' (BT-144-LotResult) on võrdne 'Ei saadud ühtegi pakkumust, osalemistaotlust ega kavandit'</entry>
-<entry key="expression|name|664">'Riik – jaotus (NUTS)' (BT-5071-Procedure) peab vastama ühele NUTS koodidest määratud 'Riik' (BT-5141-Procedure) jaoks</entry>
+<entry key="expression|name|664">'Riik' (BT-514-Organization-Company) on olemas ja 'Riik – jaotus (NUTS)' (BT-507-Organization-Company) on olemas</entry>
 <entry key="expression|name|665">'Riik' (BT-514-Organization-TouchPoint) on olemas ja 'Riik – jaotus (NUTS)' (BT-507-Organization-TouchPoint) on olemas</entry>
 <entry key="expression|name|666">'Riik' (BT-514-UBO) on olemas ja 'Riik – jaotus (NUTS)' (BT-507-UBO) on olemas</entry>
 <entry key="expression|name|667">'Riik' (BT-514-Business) on olemas ja 'Riik – jaotus (NUTS)' (BT-507-Business) on olemas</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Lisateabe taotlemise tähtaeg' (BT-132(d)-Lot) on täidetud</entry>
 <entry key="expression|name|7">'Riik' (BT-5141-Part) on täidetud</entry>
 <entry key="expression|name|70">'Allhanke protsendimäär on teada' (BT-731-Tender) ei ole 'jah'</entry>
+<entry key="expression|name|701">'Õiguslik alus' (BT-01(c)-Procedure) ei ole täidetud</entry>
 <entry key="expression|name|71">'Allhanked' (BT-773-Tender) on 'Jah'</entry>
 <entry key="expression|name|72">Ühtegi võitjat ei valitud või 'Tegemist on raamlepinguga' (BT-765-Lot) ei ole vastavuses menetluse raamlepinguga</entry>
 <entry key="expression|name|74">'Eelmise teate versioon, mida muudetakse' (BT-758-notice) ei ole täidetud</entry>

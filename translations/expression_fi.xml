@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'Organisaation tekninen ID (ORG-XXX)'(OPT-200-Organization-Company) on 'Organisaatio, joka täyttää tämän roolin' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Valintaperuste' (BT-809-Lot) ei ole olemassa tai 'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä' tai 'Menettelyn tyyppi' (BT-105) ei ole 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely' tai 'Rajoitettu'</entry>
 <entry key="expression|name|663">Valittu arvo 'Voittajan valinnan tila' (BT-142-LotResult) on yhtä suuri kuin 'Voittajaa ei ole vielä valittu, ja kilpailu on edelleen kesken.', tai valittu arvo 'Voittajan valinnan tila' (BT-142-LotResult) on yhtä suuri kuin 'Voittajaa ei valittu ja kilpailu on suljettu.' ja 'Syy, miksi voittajaa ei ole valittu' (BT-144-LotResult) on yhtä suuri kuin 'Tarjouksia, osallistumishakemuksia tai hankkeita ei saatu'</entry>
-<entry key="expression|name|664">'Maaryhmittely (NUTS)' (BT-5071-Procedure) täytyy vastata yhtä NUTS-koodeista määritetylle 'Maa' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Maa' (BT-514-Organization-Company) on läsnä ja 'Maaryhmittely (NUTS)' (BT-507-Organization-Company) on läsnä</entry>
 <entry key="expression|name|665">'Maa' (BT-514-Organization-TouchPoint) on läsnä ja 'Maaryhmittely (NUTS)' (BT-507-Organization-TouchPoint) on läsnä</entry>
 <entry key="expression|name|666">'Maa' (BT-514-UBO) on läsnä ja 'Maaryhmittely (NUTS)' (BT-507-UBO) on läsnä</entry>
 <entry key="expression|name|667">'Maa' (BT-514-Business) on läsnä ja 'Maaryhmittely (NUTS)' (BT-507-Business) on läsnä</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Lisätietojen pyytämisen määräaika' (BT-132(d)-Lot) on täytetty</entry>
 <entry key="expression|name|7">'Maa' (BT-5141-Part) on täytetty</entry>
 <entry key="expression|name|70">'Alihankinnan prosenttiosuus tiedossa' (BT-731-Tender) ei ole 'kyllä'</entry>
+<entry key="expression|name|701">'Oikeusperusta' (BT-01(c)-Procedure) ei ole täytetty</entry>
 <entry key="expression|name|71">'Alihankinta' (BT-773-Tender) on 'Kyllä'</entry>
 <entry key="expression|name|72">Voittajaa ei valittu tai 'Käytetään puitejärjestelyä' (BT-765-Lot) ei vastaa menettelyn puitesopimusta</entry>
 <entry key="expression|name|74">'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole täytetty</entry>

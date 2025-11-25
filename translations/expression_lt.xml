@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'Organizacijos techninis ID (ORG-XXX)'(OPT-200-Organization-Company) yra 'Organizacija, atliekanti šį vaidmenį' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Atrankos kriterijus' (BT-809-Lot) neegzistuoja arba 'Procedūra vyks nuosekliais etapais. Kiekviename etape kai kurie dalyviai gali būti pašalinti' (BT-52-Lot) nėra 'taip' arba 'Pirkimo būdas' (BT-105) nėra 'Konkurencinis dialogas', 'Inovacijų partnerystė', 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis', 'Kita kelių etapų procedūra' arba 'Ribotas'</entry>
 <entry key="expression|name|663">Pasirinkta vertė 'Laimėtojo atrankos būsena' (BT-142-LotResult) yra lygi 'Laimėtojas dar nepasirinktas, tačiau konkursas tebevyksta.', arba pasirinkta vertė 'Laimėtojo atrankos būsena' (BT-142-LotResult) yra lygi 'Nepasirinktas nė vienas laimėtojas ir konkursas baigtas.' ir 'Priežastis, dėl kurios laimėtojas nebuvo pasirinktas' (BT-144-LotResult) yra lygi 'Pasiūlymų, dalyvavimo prašymų ar projektų negauta'</entry>
-<entry key="expression|name|664">'Šalies administracinis vienetas (NUTS)' (BT-5071-Procedure) turi atitikti vieną iš NUTS kodų, nurodytų 'Šalis' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Šalis' (BT-514-Organization-Company) yra ir 'Šalies administracinis vienetas (NUTS)' (BT-507-Organization-Company) yra</entry>
 <entry key="expression|name|665">'Šalis' (BT-514-Organization-TouchPoint) yra ir 'Šalies administracinis vienetas (NUTS)' (BT-507-Organization-TouchPoint) yra</entry>
 <entry key="expression|name|666">'Šalis' (BT-514-UBO) yra ir 'Šalies administracinis vienetas (NUTS)' (BT-507-UBO) yra</entry>
 <entry key="expression|name|667">'Šalis' (BT-514-Business) yra ir 'Šalies administracinis vienetas (NUTS)' (BT-507-Business) yra</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Papildomos informacijos prašymo terminas' (BT-132(d)-Lot) yra užpildytas</entry>
 <entry key="expression|name|7">'Šalis' (BT-5141-Part) užpildyta</entry>
 <entry key="expression|name|70">'Subrangos procentinė dalis žinoma' (BT-731-Tender) nėra 'taip'</entry>
+<entry key="expression|name|701">'Teisinis pagrindas' (BT-01(c)-Procedure) neužpildyta</entry>
 <entry key="expression|name|71">'Subranga' (BT-773-Tender) yra 'Taip'</entry>
 <entry key="expression|name|72">Laimėtojas nepasirinktas arba 'Taikoma preliminarioji sutartis' (BT-765-Lot) neatitinka procedūros preliminariosios sutarties</entry>
 <entry key="expression|name|74">'Ankstesnė skelbimo redakcija, kuri turi būti pakeista' (BT-758-notice) neužpildyta</entry>

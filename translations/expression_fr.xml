@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'ID technique de l'organisation (ORG-XXX)'(OPT-200-Organization-Company) est un 'Organisation remplissant ce rôle' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Critère de sélection' (BT-809-Lot) n'existe pas ou 'La procédure se déroulera en plusieurs étapes. À chaque étape, certains candidats peuvent être éliminés' (BT-52-Lot) n'est pas 'oui' ou 'Type de procédure' (BT-105) n'est pas 'Dialogue compétitif', 'Partenariat d’innovation', 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation', 'Autre procédure en plusieurs étapes' ou 'Restreinte'</entry>
 <entry key="expression|name|663">La valeur choisie pour 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) est égale à 'Le lauréat n’a pas encore été choisi, mais le concours est toujours en cours.', ou la valeur choisie pour 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) est égale à 'Aucun lauréat n’a été choisi et le concours est clos.' et 'La raison pour laquelle un adjudicataire/attributaire n'a pas été choisi' (BT-144-LotResult) est égale à 'Aucune offre, aucune demande de participation, ni aucun projet n’a été reçu'</entry>
-<entry key="expression|name|664">'Subdivision pays (NUTS)' (BT-5071-Procedure) doit correspondre à un des codes NUTS pour le 'Pays' (BT-5141-Procedure) spécifié</entry>
+<entry key="expression|name|664">'Pays' (BT-514-Organization-Company) est présent et 'Subdivision pays (NUTS)' (BT-507-Organization-Company) est présent</entry>
 <entry key="expression|name|665">'Pays' (BT-514-Organization-TouchPoint) est présent et 'Subdivision pays (NUTS)' (BT-507-Organization-TouchPoint) est présent</entry>
 <entry key="expression|name|666">'Pays' (BT-514-UBO) est présent et 'Subdivision pays (NUTS)' (BT-507-UBO) est présent</entry>
 <entry key="expression|name|667">'Pays' (BT-514-Business) est présent et 'Subdivision pays (NUTS)' (BT-507-Business) est présent</entry>
@@ -476,16 +476,16 @@
 <entry key="expression|name|670">'Pays' (BT-5141-Lot is present) et 'Subdivision pays (NUTS)' (BT-5071-Lot) est présent</entry>
 <entry key="expression|name|671">'Le nombre est une pondération' (BT-5421) n’est pas 'Ordre d’importance'</entry>
 <entry key="expression|name|675">Le contrat inclut 'Marché de travaux' ou 'Services'</entry>
-<entry key="expression|name|676">'Partie appelante' est composé de moins de deux soumissionnaires principaux</entry>
+<entry key="expression|name|676">'Partie soumissionnaire' est composé de moins de deux soumissionnaires principaux</entry>
 <entry key="expression|name|677">Aucun accord-cadre n’est concerné, ou 'Valeur maximale de l’accord-cadre' (BT-709-LotResult) n’est pas présent</entry>
 <entry key="expression|name|678">Il n'y a pas de LotResult, ou il n'y a pas d'appel d'offres pour le lot couvert par le LotResult et aucun appel d'offres pour aucun groupe de lots qui contiendrait le lot du LotResult, ou il n'y a pas d'appel d'offres et aucun lot n'est spécifié pour le LotResult</entry>
 <entry key="expression|name|679">'Type de procédure' (BT-105-Procedure) n'est pas 'Négociée sans mise en concurrence préalable' et 'Base juridique' (BT-01-notice) n'est pas 'Règlement (UE, Euratom) 2024/2509' et il y a au moins un 'ID offre marché' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'La valeur de la sous-traitance est connue' (BT-730-Tender) n’est pas 'oui'</entry>
 <entry key="expression|name|680">'Base juridique' (BT-01-notice) est 'Directive 2014/24/UE' ou 'Règlement (UE, Euratom) 2024/2509', et 'La procédure est accélérée' (BT-106-Procedure) est 'oui'</entry>
 <entry key="expression|name|682">'Statut sélection adjudicataire/attributaire' (BT-142) doit être 'Au moins un lauréat a été choisi.' pour un avis de type 'Avis d'attribution de marché relatif à des services publics de transport de voyageurs'</entry>
-<entry key="expression|name|685">Existence de 'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) et 'Date d’envoi de l’avis' (BT-05(a)-notice) et il ne s'agit pas d'un changement</entry>
-<entry key="expression|name|687">Existence de «Date à laquelle l’adjudicataire/attributaire a été choisi» (BT-1451-Contract) et de «Date souhaitée de publication de l’avis» (BT-738-notice)</entry>
-<entry key="expression|name|688">Existence de 'Date limite de réception des offres' (BT-131(d)-Lot) et 'Date souhaitée de publication de l'avis' (BT-738-notice) et il ne s'agit pas d'un changement</entry>
+<entry key="expression|name|685">'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) et 'Date d’envoi de l’avis' (BT-05(a)-notice) existent et il ne s'agit pas d'un changement</entry>
+<entry key="expression|name|687">'Date à laquelle l’adjudicataire/attributaire a été choisi' (BT-1451-Contract) et 'Date souhaitée de publication de l’avis' (BT-738-notice) existent</entry>
+<entry key="expression|name|688">'Date limite de réception des offres' (BT-131(d)-Lot) et 'Date souhaitée de publication de l'avis' (BT-738-notice) existent et il ne s'agit pas d'un changement</entry>
 <entry key="expression|name|689">'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) et 'Date souhaitée de publication de l'avis' (BT-738-notice) existent et il ne s'agit pas d'un changement</entry>
 <entry key="expression|name|69">'Part sous-traitée' (BT-773-Tender) n’est pas 'Oui'</entry>
 <entry key="expression|name|690">'Date limite de réception des manifestations d’intérêt' (BT-630(d)-Lot) et 'Date souhaitée de publication de l'avis' (BT-738-notice) existent et il ne s'agit pas d'un changement</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Date limite de demande d’informations complémentaires' (BT-132(d)-Lot) est rempli</entry>
 <entry key="expression|name|7">'Pays' (BT-5141-Part) est rempli</entry>
 <entry key="expression|name|70">'Le pourcentage de la sous-traitance est connu' (BT-731-Tender) n’est pas 'oui'</entry>
+<entry key="expression|name|701">'Base juridique' (BT-01(c)-Procedure) n’est pas rempli</entry>
 <entry key="expression|name|71">'Part sous-traitée' (BT-773-Tender) est 'Oui'</entry>
 <entry key="expression|name|72">Aucun adjudicataire n’a été retenu ou 'Recours à un accord-cadre' (BT-765-Lot) ne correspond pas à l’accord-cadre de la procédure</entry>
 <entry key="expression|name|74">'Version de l’avis antérieur à modifier' (BT-758-notice) n’est pas rempli</entry>

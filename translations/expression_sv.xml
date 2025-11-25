@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'Tekniskt ID för organisationen (ORG-XXX)'(OPT-200-Organization-Company) är en 'Organisationen som utför denna roll'</entry>
 <entry key="expression|name|662">'Urvalskriterium' (BT-809-Lot) finns inte eller 'Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas' (BT-52-Lot) är inte 'ja' eller 'Typ av förfarande' (BT-105) är inte 'Konkurrenspräglad dialog', 'Innovationspartnerskap', 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens', 'Annat förfarande i flera steg' eller 'Selektivt'</entry>
 <entry key="expression|name|663">Det valda värdet för 'Status på val av vinnare' (BT-142-LotResult) är lika med 'Vinnaren har ännu inte valts ut, men tävlingen pågår fortfarande.', eller det valda värdet för 'Status på val av vinnare' (BT-142-LotResult) är lika med 'Ingen vinnare har valts ut och tävlingen har avslutats.' och 'Skälet till att en vinnare inte utsågs' (BT-144-LotResult) är lika med 'Inga anbud, anbudsansökningar eller projekt mottogs'</entry>
-<entry key="expression|name|664">'Land' (BT-514-Organization-TouchPoint) är närvarande och 'Del av land (NUTS)' (BT-507-Organization-TouchPoint) är närvarande</entry>
+<entry key="expression|name|664">'Land' (BT-514-UBO) är närvarande och 'Del av land (NUTS)' (BT-507-UBO) är närvarande</entry>
 <entry key="expression|name|665">'Land' (BT-514-UBO) är närvarande och 'Del av land (NUTS)' (BT-507-UBO) är närvarande</entry>
 <entry key="expression|name|666">'Land' (BT-5141-Lot is present) och 'Del av land (NUTS)' (BT-5071-Lot) är närvarande</entry>
 <entry key="expression|name|667">'Del av land (NUTS)' (BT-5071-Procedure) måste matcha en av NUTS-koderna för den specificerade 'Land' (BT-5141-Procedure)</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Sista dag för att begära kompletterande information' (BT-132(d)-Lot) är ifylld</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) fylls i</entry>
 <entry key="expression|name|70">'Andelen som ska läggas ut på underentreprenad är känd' (BT-731-Tender) är inte 'ja'</entry>
+<entry key="expression|name|701">'Rättslig grund' (BT-01(c)-Procedure) fylls inte i</entry>
 <entry key="expression|name|71">'Anlitande av underleverantör' (BT-773-Tender) är 'Ja'</entry>
 <entry key="expression|name|72">Ingen vinnare valdes ut eller 'Det gäller ett ramavtal' (BT-765-Lot) motsvarar inte ramavtalet för förfarandet</entry>
 <entry key="expression|name|74">'Version av det föregående meddelandet som ska ändras' (BT-758-notice) fylls inte i</entry>

@@ -11,7 +11,7 @@
 <entry key="group|name|GR-Business-Sector">Activité commerciale</entry>
 <entry key="group|name|GR-Buyer">Partie contractante et prestataire de services</entry>
 <entry key="group|name|GR-Change">Changement</entry>
-<entry key="group|name|GR-ChangeSections">Modifier</entry>
+<entry key="group|name|GR-ChangeSections">Changement</entry>
 <entry key="group|name|GR-ChangedSection">Section à modifier</entry>
 <entry key="group|name|GR-ChangedSectionIdentifiers">Section à laquelle s’applique le changement</entry>
 <entry key="group|name|GR-Company">Organisation</entry>
@@ -37,7 +37,7 @@
 <entry key="group|name|GR-LateTendererInformation">Informations sur le soumissionnaire tardif</entry>
 <entry key="group|name|GR-Lot">Lot</entry>
 <entry key="group|name|GR-Lot-AddInfo">Organisation fournissant des informations complémentaires</entry>
-<entry key="group|name|GR-Lot-Additional-Nature">Nature supplémentaire du contrat</entry>
+<entry key="group|name|GR-Lot-Additional-Nature">Nature complémentaire du contrat</entry>
 <entry key="group|name|GR-Lot-AdditionalInformation">Informations complémentaires</entry>
 <entry key="group|name|GR-Lot-AuctionTerms">Conditions de la mise aux enchères</entry>
 <entry key="group|name|GR-Lot-AwardCriteria">Critères d'attribution</entry>
@@ -63,7 +63,7 @@
 <entry key="group|name|GR-Lot-EED">Informations sur l'applicabilité de l'EED</entry>
 <entry key="group|name|GR-Lot-EED-Asset">Détails sur l'actif</entry>
 <entry key="group|name|GR-Lot-EED-Products">Informations sur les actifs EED à acquérir</entry>
-<entry key="group|name|GR-Lot-EInvoicing">eFacturation</entry>
+<entry key="group|name|GR-Lot-EInvoicing">Facturation électronique</entry>
 <entry key="group|name|GR-Lot-EUFunds">Utilisation des fonds de l'UE</entry>
 <entry key="group|name|GR-Lot-EUFunds-Indicator">Utilisation du financement de l'UE</entry>
 <entry key="group|name|GR-Lot-EconomicOperatorShortlist">Candidats déjà sélectionnés</entry>

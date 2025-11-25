@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'ID técnico da organização (ORG-XXX)'(OPT-200-Organization-Company) é um 'Organização que desempenha este papel' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Critério de seleção' (BT-809-Lot) não existe ou 'O procedimento irá decorrer em fases sucessivas. Em cada fase, alguns participantes podem ser eliminados' (BT-52-Lot) não é 'sim' ou 'Tipo de procedimento' (BT-105) não é 'Diálogo concorrencial', 'Parcerias para a inovação', 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação', 'Outro processo em múltiplas fases' ou 'Limitado'</entry>
 <entry key="expression|name|663">O valor escolhido para 'Estatuto de seleção do vencedor' (BT-142-LotResult) é igual a 'O vencedor ainda não foi selecionado, mas o concurso ainda está em curso.', ou o valor escolhido para 'Estatuto de seleção do vencedor' (BT-142-LotResult) é igual a 'O vencedor foi selecionado e o concurso está fechado.' e 'A razão pela qual um vencedor não foi escolhido' (BT-144-LotResult) é igual a 'Não foram recebidas propostas, pedidos de participação ou projetos'</entry>
-<entry key="expression|name|664">'Subdivisão do país (NUTS)' (BT-5071-Procedure) deve corresponder a um dos códigos NUTS para o especificado 'País' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'País' (BT-514-Organization-Company) está presente e 'Subdivisão do país (NUTS)' (BT-507-Organization-Company) está presente</entry>
 <entry key="expression|name|665">'País' (BT-514-Organization-TouchPoint) está presente e 'Subdivisão do país (NUTS)' (BT-507-Organization-TouchPoint) está presente</entry>
 <entry key="expression|name|666">'País' (BT-514-UBO) está presente e 'Subdivisão do país (NUTS)' (BT-507-UBO) está presente</entry>
 <entry key="expression|name|667">'País' (BT-514-Business) está presente e 'Subdivisão do país (NUTS)' (BT-507-Business) está presente</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Prazo para solicitar informações adicionais' (BT-132(d)-Lot) está preenchido</entry>
 <entry key="expression|name|7">'País' (BT-5141-Part) está preenchido</entry>
 <entry key="expression|name|70">'A percentagem da subcontratação é conhecida' (BT-731-Tender) não é 'sim'</entry>
+<entry key="expression|name|701">'Base jurídica' (BT-01(c)-Procedure) não está preenchido</entry>
 <entry key="expression|name|71">'Subcontratação' (BT-773-Tender) é 'Sim'</entry>
 <entry key="expression|name|72">Nenhum vencedor foi selecionado ou 'Acordo-quadro' (BT-765-Lot) não corresponde ao acordo-quadro do procedimento</entry>
 <entry key="expression|name|74">'Versão do anúncio anterior a alterar' (BT-758-notice) não está preenchido</entry>

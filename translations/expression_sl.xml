@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'Tehnični ID organizacije (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizacija, ki opravlja to vlogo' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Merilo za izbor' (BT-809-Lot) ne obstaja ali 'Postopek se bo odvijal v zaporednih stopnjah. Na vsaki stopnji se lahko izločijo nekateri sodelujoči' (BT-52-Lot) ni 'da' ali 'Vrsta postopka' (BT-105) ni 'Konkurenčni dialog', 'Partnerstvo za inovacije', 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji', 'Drugi večstopenjski postopek' ali 'Omejeni postopek'</entry>
 <entry key="expression|name|663">Vrednost izbrana za 'Status izbire ponudnika' (BT-142-LotResult) je enaka 'Zmagovalec še ni izbran, toda javni razpis še poteka.', ali vrednost izbrana za 'Status izbire ponudnika' (BT-142-LotResult) je enaka 'Zmagovalec ni bil izbran, javni razpis pa je zaključen.' in 'Razlog, da ni bil izbran noben ponudnik' (BT-144-LotResult) je enaka 'Ni bilo ponudb, prijav za sodelovanje ali projektov'</entry>
-<entry key="expression|name|664">'Podregija države (NUTS)' (BT-5071-Procedure) mora ustrezati eni od NUTS kod za določeni 'Država' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Država' (BT-514-Organization-Company) je prisoten in 'Podregija države (NUTS)' (BT-507-Organization-Company) je prisoten</entry>
 <entry key="expression|name|665">'Država' (BT-514-Organization-TouchPoint) je prisoten in 'Podregija države (NUTS)' (BT-507-Organization-TouchPoint) je prisoten</entry>
 <entry key="expression|name|666">'Država' (BT-514-UBO) je prisoten in 'Podregija države (NUTS)' (BT-507-UBO) je prisoten</entry>
 <entry key="expression|name|667">'Država' (BT-514-Business) je prisoten in 'Podregija države (NUTS)' (BT-507-Business) je prisoten</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Rok za zahtevanje dodatnih informacij' (BT-132(d)-Lot) je izpolnjen</entry>
 <entry key="expression|name|7">'Država' (BT-5141-Part) je izpolnjeno</entry>
 <entry key="expression|name|70">'Delež oddaje naročil podizvajalcem je znan' (BT-731-Tender) ni 'da'</entry>
+<entry key="expression|name|701">'Pravna podlaga' (BT-01(c)-Procedure) ni izpolnjeno</entry>
 <entry key="expression|name|71">'Oddaja naročil podizvajalcem' (BT-773-Tender) je 'Da'</entry>
 <entry key="expression|name|72">Zmagovalec ni bil izbran oziroma 'Gre za okvirni sporazum' (BT-765-Lot) ne ustreza okvirnemu sporazumu postopka</entry>
 <entry key="expression|name|74">'Različica prejšnjega obvestila, ki se spreminja' (BT-758-notice) ni izpolnjeno</entry>

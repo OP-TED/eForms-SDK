@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'Technické ID organizácie (ORG-XXX)'(OPT-200-Organization-Company) je 'Organizácia, ktorá plní túto úlohu' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Podmienka účasti' (BT-809-Lot) neexistuje alebo 'Postup prebieha v po sebe nasledujúcich fázach. V každej fáze môžu byť niektorí účastníci vylúčení' (BT-52-Lot) nie je 'áno' alebo 'Druh postupu' (BT-105) nie je 'Súťažný dialóg', 'Inovatívne partnerstvo', 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním', 'Iný viacfázový postup' alebo 'Užšia súťaž'</entry>
 <entry key="expression|name|663">Hodnota vybraná pre 'Stav výberu víťaza' (BT-142-LotResult) je rovná 'Víťaz zatiaľ nebol vybratý, ale súťaž stále prebieha.', alebo hodnota vybraná pre 'Stav výberu víťaza' (BT-142-LotResult) je rovná 'Nebol vybratý žiadny víťaz a súťaž je ukončená.' a 'Dôvod, prečo víťaz nebol vybraný' (BT-144-LotResult) je rovná 'Neboli prijaté žiadne ponuky, žiadosti o účasť ani projekty'</entry>
-<entry key="expression|name|664">'Nižšia územná jednotka krajiny (NUTS)' (BT-5071-Procedure) musí zodpovedať jednému z kódov NUTS pre určený 'Krajina' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Krajina' (BT-514-Organization-Company) je prítomný a 'Nižšia územná jednotka krajiny (NUTS)' (BT-507-Organization-Company) je prítomný</entry>
 <entry key="expression|name|665">'Krajina' (BT-514-Organization-TouchPoint) je prítomný a 'Nižšia územná jednotka krajiny (NUTS)' (BT-507-Organization-TouchPoint) je prítomný</entry>
 <entry key="expression|name|666">'Krajina' (BT-514-UBO) je prítomný a 'Nižšia územná jednotka krajiny (NUTS)' (BT-507-UBO) je prítomný</entry>
 <entry key="expression|name|667">'Krajina' (BT-514-Business) je prítomný a 'Nižšia územná jednotka krajiny (NUTS)' (BT-507-Business) je prítomný</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Lehota na vyžiadanie doplňujúcich informácií' (BT-132(d)-Lot) je vyplnený</entry>
 <entry key="expression|name|7">'Krajina' (BT-5141-Part) je vyplnený</entry>
 <entry key="expression|name|70">'Percentuálny podiel subdodávok je známy' (BT-731-Tender) nie je 'áno'</entry>
+<entry key="expression|name|701">'Právny základ' (BT-01(c)-Procedure) nie je vyplnený</entry>
 <entry key="expression|name|71">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) je 'Áno'</entry>
 <entry key="expression|name|72">Nebol vybraný žiadny víťaz alebo 'Uplatňuje sa rámcová dohoda' (BT-765-Lot) nezodpovedá rámcovej dohode konania</entry>
 <entry key="expression|name|74">'Verzia prechádzajúceho oznámenia, ktorá sa má upraviť' (BT-758-notice) nie je vyplnený</entry>

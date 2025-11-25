@@ -466,7 +466,7 @@
 <entry key="expression|name|661">'ID teicniúil an eagraíochta (ORG-XXX)'(OPT-200-Organization-Company) is 'Eagraíocht atá ag líonadh an róil seo' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Critéir roghnúcháin' (BT-809-Lot) níl ann nó 'Beidh an nós imeachta ar siúl i gcéimeanna comhleanúnacha. I ngach céim, d’fhéadfaí roinnt rannpháirtithe a dhíchur' (BT-52-Lot) níl sé 'tá' nó 'An cineál nóis imeachta' (BT-105) níl sé 'Idirphlé iomaíoch', 'Comhpháirtíocht nuálaíochta', 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht', 'Nós imeachta ilchéime eile' nó 'Teoranta'</entry>
 <entry key="expression|name|663">Is ionann an luach a roghnaíodh do 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Níor roghnaíodh an buaiteoir go fóill, ach tá an iomaíocht fós ar siúl.', nó is ionann an luach a roghnaíodh do 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Níor roghnaíodh aon bhuaiteoir agus tá an iomaíocht thart.' agus is ionann 'An fáth nár roghnaíodh aon bhuaiteoir' (BT-144-LotResult) agus 'Ní bhfuarthas aon tairiscintí, iarratais ar rannpháirtíocht ná tionscadail'</entry>
-<entry key="expression|name|664">'Foroinn tíre (NUTS)' (BT-5071-Procedure) caithfidh sé a bheith ag teacht le ceann de na cóid NUTS don 'Tír' (BT-5141-Procedure) sonraithe</entry>
+<entry key="expression|name|664">'Tír' (BT-514-Organization-Company) tá i láthair agus 'Foroinn tíre (NUTS)' (BT-507-Organization-Company) tá i láthair</entry>
 <entry key="expression|name|665">'Tír' (BT-514-Organization-TouchPoint) tá i láthair agus 'Foroinn tíre (NUTS)' (BT-507-Organization-TouchPoint) tá i láthair</entry>
 <entry key="expression|name|666">'Tír' (BT-514-UBO) tá i láthair agus 'Foroinn tíre (NUTS)' (BT-507-UBO) tá i láthair</entry>
 <entry key="expression|name|667">'Tír' (BT-514-Business) tá i láthair agus 'Foroinn tíre (NUTS)' (BT-507-Business) tá i láthair</entry>
@@ -499,6 +499,7 @@
 <entry key="expression|name|699">'Sprioc-am chun eolas breise a iarraidh' (BT-132(d)-Lot) tá comhlánaithe</entry>
 <entry key="expression|name|7">Tá 'Tír' (BT-5141-Part) líonta isteach</entry>
 <entry key="expression|name|70">Ní hionann 'Is eol céatadán na fochonraitheoireachta' (BT-731-Tender) agus 'tá'</entry>
+<entry key="expression|name|701">Níl 'Bunús dlí' (BT-01(c)-Procedure) líonta isteach</entry>
 <entry key="expression|name|71">Is ionann 'Fochonraitheoireacht' (BT-773-Tender) agus 'Is ea'</entry>
 <entry key="expression|name|72">Níor roghnaíodh aon bhuaiteoir nó ní chomhfhreagraíonn 'Tá creat-chomhaontú i gceist' (BT-765-Lot) do chreat-chomhaontú an nóis imeachta</entry>
 <entry key="expression|name|74">Níl 'Leagan den fhógra roimhe seo atá le hathrú' (BT-758-notice) líonta isteach</entry>
