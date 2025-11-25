@@ -64,6 +64,9 @@
 		<assert id="BR-BT-00001-0145" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or not(cbc:ID)">rule|text|BR-BT-00001-0145</assert>
 		<assert id="BR-BT-00001-0194" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID)">rule|text|BR-BT-00001-0194</assert>
 	</rule>
+	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[not(cbc:ID/text()=('CrossBorderLaw','LocalLegalBasis'))][$noticeSubType = 'T02']">
+		<assert id="BR-BT-00001-0298" role="ERROR" diagnostics="BT-01_d_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID)">rule|text|BR-BT-00001-0298</assert>
+	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'T02']">
 		<assert id="BR-BT-00803-0041" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) &gt; 0 or not(efbc:TransmissionDate)">rule|text|BR-BT-00803-0041</assert>
 		<assert id="BR-BT-00803-0091" role="ERROR" diagnostics="BT-803_t_-notice" test="count(efbc:TransmissionTime) = 0 or (efbc:TransmissionDate)">rule|text|BR-BT-00803-0091</assert>
@@ -153,13 +156,13 @@
 		<assert id="BR-OPT-00316-0041" role="ERROR" diagnostics="OPT-316-Contract" test="count(cbc:ID) &gt; 0 or not(efac:ContractReference/cbc:ID)">rule|text|BR-OPT-00316-0041</assert>
 		<assert id="BR-OPT-00316-0058" role="ERROR" diagnostics="OPT-316-Contract" test="count(cbc:ID) = 0 or (efac:ContractReference/cbc:ID)">rule|text|BR-OPT-00316-0058</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification/efac:AssetsList/efac:Asset[$noticeSubType = 'T02']">
-		<assert id="BR-OPP-00021-0041" role="ERROR" diagnostics="OPP-021-Contract" test="count(efbc:AssetDescription) &gt; 0 or not(../../efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00021-0041</assert>
-		<assert id="BR-OPP-00021-0054" role="ERROR" diagnostics="OPP-021-Contract" test="count(efbc:AssetDescription) = 0 or (../../efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00021-0054</assert>
-		<assert id="BR-OPP-00022-0041" role="ERROR" diagnostics="OPP-022-Contract" test="count(efbc:AssetSignificance) &gt; 0 or not(../../efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00022-0041</assert>
-		<assert id="BR-OPP-00022-0054" role="ERROR" diagnostics="OPP-022-Contract" test="count(efbc:AssetSignificance) = 0 or (../../efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00022-0054</assert>
-		<assert id="BR-OPP-00023-0041" role="ERROR" diagnostics="OPP-023-Contract" test="count(efbc:AssetPredominance) &gt; 0 or not(../../efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00023-0041</assert>
-		<assert id="BR-OPP-00023-0054" role="ERROR" diagnostics="OPP-023-Contract" test="count(efbc:AssetPredominance) = 0 or (../../efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00023-0054</assert>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:DurationJustification[$noticeSubType = 'T02']">
+		<assert id="BR-OPP-00021-0041" role="ERROR" diagnostics="ND-ExtendedDurationJustification_OPP-021-Contract" test="count(efac:AssetsList/efac:Asset/efbc:AssetDescription) &gt; 0 or not(efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00021-0041</assert>
+		<assert id="BR-OPP-00021-0054" role="ERROR" diagnostics="ND-ExtendedDurationJustification_OPP-021-Contract" test="count(efac:AssetsList/efac:Asset/efbc:AssetDescription) = 0 or (efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00021-0054</assert>
+		<assert id="BR-OPP-00022-0041" role="ERROR" diagnostics="ND-ExtendedDurationJustification_OPP-022-Contract" test="count(efac:AssetsList/efac:Asset/efbc:AssetSignificance) &gt; 0 or not(efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00022-0041</assert>
+		<assert id="BR-OPP-00022-0054" role="ERROR" diagnostics="ND-ExtendedDurationJustification_OPP-022-Contract" test="count(efac:AssetsList/efac:Asset/efbc:AssetSignificance) = 0 or (efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00022-0054</assert>
+		<assert id="BR-OPP-00023-0041" role="ERROR" diagnostics="ND-ExtendedDurationJustification_OPP-023-Contract" test="count(efac:AssetsList/efac:Asset/efbc:AssetPredominance) &gt; 0 or not(efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00023-0041</assert>
+		<assert id="BR-OPP-00023-0054" role="ERROR" diagnostics="ND-ExtendedDurationJustification_OPP-023-Contract" test="count(efac:AssetsList/efac:Asset/efbc:AssetPredominance) = 0 or (efbc:ExtendedDurationIndicator = true())">rule|text|BR-OPP-00023-0054</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty[$noticeSubType = 'T02']">
 		<assert id="BR-OPT-00300-0091" role="ERROR" diagnostics="ND-TenderingParty_OPT-300-Tenderer" test="count(efac:Tenderer/cbc:ID) &gt; 0 or not(../efac:LotTender/cbc:ID)">rule|text|BR-OPT-00300-0091</assert>
