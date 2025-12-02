@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Informacije o podugovaranju koje se moraju navesti u ponudi.</entry>
 <entry key="business-term|description|BT-660">Vrijednost koja će se vjerojatno potrošiti u okviru okvirnog sporazuma tijekom cijelog njegova trajanja, uključujući opcije i produljenja, ponovno procijenjena na temelju ponuda pobjednika.</entry>
 <entry key="business-term|description|BT-661">Postoji maksimalni broj natjecatelja koji se pozivaju u drugu fazu postupka.</entry>
+<entry key="business-term|description|BT-67(a)">Vrsta osnove za isključenje kako je navedena u direktivama o javnoj nabavi.</entry>
+<entry key="business-term|description|BT-67(b)">Kratak opis kriterija koji bi mogli dovesti do isključenja ponuditelja</entry>
 <entry key="business-term|description|BT-681">Uredba (EU) 2022/2560 o stranim subvencijama, u skladu s njezinim člankom 28., primjenjuje se na ovaj postupak javne nabave.</entry>
 <entry key="business-term|description|BT-682">Mjere koje se primjenjuju u skladu s Uredbom (EU) 2022/2560 o stranim subvencijama.</entry>
 <entry key="business-term|description|BT-684">Mjere prema Uredbi (EU) 2022/1031 o Međunarodnom instrumentu za nabavu (IPI) primjenjuju se na ovaj postupak nabave</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Oznake energetske učinkovitosti koje su dostavljene za proizvode (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">Vrijednost potrošnje energije u kWh/godini za proizvode za koje ne postoji oznaka, i ušteda energije u kWh/godini za usluge, zgrade ili radove. Za proizvode molimo prijavite godišnju potrošnju energije proizvoda. Za usluge, radove i zgrade molimo prijavite godišnje uštede energije.</entry>
 <entry key="business-term|description|BT-814">Vrijednost uštede energije u kWh/godišnje za proizvode, usluge, radove i zgrade. Navedite godišnju uštedu energije.</entry>
-<entry key="business-term|description|BT-815">Navedena ili procijenjena količina. Za proizvode navesti broj proizvoda. Za zgrade navesti korisnu podnu površinu u kvadratnim metrima. Za radove ili usluge nije potrebna vrijednost.</entry>
+<entry key="business-term|description|BT-815">Navedena ili procijenjena količina. Za proizvode navesti broj proizvoda. Za zgrade navesti korisnu podnu površinu u kvadratnim metrima. Za radove ili usluge, vrijednost će obično biti 1.</entry>
 <entry key="business-term|description|BT-821">Ako su kriteriji za odabir definirani, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi.</entry>
 <entry key="business-term|description|BT-88">Glavne značajke postupka (npr. opis pojedinačnih faza) i informacije o tome gdje se mogu pronaći sva pravila za postupak. Te se informacije moraju navesti kad je riječ o postupku koji se ne spominje u direktivama o javnoj nabavi. To može biti slučaj, npr. s koncesijama, društvenim i drugim posebnim uslugama te dobrovoljnim objavljivanjem postupaka javne nabave čija je vrijednost ispod pragova EU-a za javnu nabavu.</entry>
 <entry key="business-term|description|BT-92">Koristit će se elektroničko naručivanje.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Obvezno navođenje podugovaranja</entry>
 <entry key="business-term|name|BT-660">Ponovno procijenjena vrijednost okvirnog sporazuma</entry>
 <entry key="business-term|name|BT-661">U drugu fazu postupka može se pozvati samo ograničen broj natjecatelja</entry>
+<entry key="business-term|name|BT-67(a)">Razlozi za isključenje</entry>
+<entry key="business-term|name|BT-67(b)">Opis razloga za isključenje</entry>
 <entry key="business-term|name|BT-681">Uredba o stranim subvencijama</entry>
 <entry key="business-term|name|BT-682">Mjere stranih subvencija</entry>
 <entry key="business-term|name|BT-684">Primjenjuju se mjere instrumenta za međunarodnu javnu nabavu</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Primjena ovog kriterija</entry>
 <entry key="business-term|name|BT-749">Naziv</entry>
 <entry key="business-term|name|BT-75">Opis financijskog jamstva</entry>
-<entry key="business-term|name|BT-750">Opis</entry>
+<entry key="business-term|name|BT-750">Opis kriterija odabira</entry>
 <entry key="business-term|name|BT-751">Jamstvo je potrebno</entry>
 <entry key="business-term|name|BT-752">Kriteriji za odabir – poziv u drugu fazu, broj</entry>
 <entry key="business-term|name|BT-7531">Broj je ponder</entry>

@@ -215,8 +215,8 @@
 <entry key="business-term|description|BT-651">The information about subcontracting that must be indicated in the tender.</entry>
 <entry key="business-term|description|BT-660">The value likely to be spent within a framework agreement over its whole duration, including options and renewals, as re-estimated on the basis of the winner’s tender or winners’ tenders.</entry>
 <entry key="business-term|description|BT-661">There is a maximum number of candidates to be invited for the second stage of the procedure.</entry>
-<entry key="business-term|description|BT-67(a)">The exclusion ground.</entry>
-<entry key="business-term|description|BT-67(b)">The description of the exclusion ground.</entry>
+<entry key="business-term|description|BT-67(a)">Type of exclusion ground as listed in the Public Procurement Directives</entry>
+<entry key="business-term|description|BT-67(b)">A brief description of the criteria that might lead to the exclusion of tenderers</entry>
 <entry key="business-term|description|BT-681">The Foreign Subsidies Regulation (FSR) (EU) 2022/2560, in line with Article 28 thereof, is applicable to this procurement procedure.</entry>
 <entry key="business-term|description|BT-682">Measures applied under the Foreign Subsidies Regulation (EU) 2022/2560.</entry>
 <entry key="business-term|description|BT-684">Measures under the International Procurement Instrument (IPI) Regulation (EU) 2022/1031 are applicable to this procurement procedure</entry>
@@ -331,7 +331,7 @@
 <entry key="business-term|description|BT-812">Energy efficiency labels that are provided for the products (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">The value of Energy consumption in kWh/year for products for which no label exists, and energy savings in kWh/year for services, buildings or works. For products please report the yearly energy consumption of the product. For services, works and buildings please report the yearly energy savings.</entry>
 <entry key="business-term|description|BT-814">The value of energy savings in kWh/year for products, services, works and buildings. Please report the yearly energy savings.</entry>
-<entry key="business-term|description|BT-815">The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in square metres. For works or services no value is needed.</entry>
+<entry key="business-term|description|BT-815">The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in square metres. For works or services, the value will usually be 1.</entry>
 <entry key="business-term|description|BT-821">Where the selection criteria are defined, for example, the procurement documents, the notice or in the ESPD.</entry>
 <entry key="business-term|description|BT-88">The main features of the procedure (e.g. description of the individual stage(s)) and information about where the full rules for the procedure can be found. This information shall be given when the procedure is not one of those mentioned in the procurement Directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.</entry>
 <entry key="business-term|description|BT-92">Electronic ordering will be used.</entry>
@@ -377,7 +377,7 @@
 <entry key="business-term|name|BG-614">EU funds information</entry>
 <entry key="business-term|name|BG-7">Notice result</entry>
 <entry key="business-term|name|BG-700">Grounds for exclusion and selection criteria</entry>
-<entry key="business-term|name|BG-701">Exclusion grounds</entry>
+<entry key="business-term|name|BG-701">Grounds for exclusion</entry>
 <entry key="business-term|name|BG-702">Selection criteria</entry>
 <entry key="business-term|name|BG-703">Organisation</entry>
 <entry key="business-term|name|BG-704">Reward and jury</entry>
@@ -581,8 +581,8 @@
 <entry key="business-term|name|BT-651">Obligatory indication of subcontracting</entry>
 <entry key="business-term|name|BT-660">Re-estimated value of the framework agreement</entry>
 <entry key="business-term|name|BT-661">There is a maximum number of candidates to be invited for the second stage of the procedure</entry>
-<entry key="business-term|name|BT-67(a)">Exclusion Ground</entry>
-<entry key="business-term|name|BT-67(b)">Exclusion Ground Description</entry>
+<entry key="business-term|name|BT-67(a)">Grounds for exclusion</entry>
+<entry key="business-term|name|BT-67(b)">Description of exclusion grounds</entry>
 <entry key="business-term|name|BT-681">Foreign Subsidies Regulation</entry>
 <entry key="business-term|name|BT-682">Foreign subsidies measures</entry>
 <entry key="business-term|name|BT-684">International Procurement Instrument measures are applicable</entry>
@@ -636,7 +636,7 @@
 <entry key="business-term|name|BT-748">Use of this criterion</entry>
 <entry key="business-term|name|BT-749">Name</entry>
 <entry key="business-term|name|BT-75">Description of the financial guarantee</entry>
-<entry key="business-term|name|BT-750">Description</entry>
+<entry key="business-term|name|BT-750">Description of selection criterion</entry>
 <entry key="business-term|name|BT-751">A guarantee is required</entry>
 <entry key="business-term|name|BT-752">Selection criteria second stage invite number</entry>
 <entry key="business-term|name|BT-7531">Number is a type of weight</entry>

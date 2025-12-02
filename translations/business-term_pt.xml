@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">A informação relativa à subcontratação que tem de ser indicada na proposta.</entry>
 <entry key="business-term|description|BT-660">O valor da despesa provável no âmbito de um acordo-quadro, durante toda a sua duração, incluindo opções e renovações, como reestimado com base na proposta do vencedor ou nas propostas dos vencedores.</entry>
 <entry key="business-term|description|BT-661">Há um número máximo de candidatos a convocar para a segunda fase do processo.</entry>
+<entry key="business-term|description|BT-67(a)">Tipo de motivo de exclusão enumerado nas diretivas relativas aos contratos públicos.</entry>
+<entry key="business-term|description|BT-67(b)">Uma breve descrição dos critérios que podem levar à exclusão dos proponentes</entry>
 <entry key="business-term|description|BT-681">O Regulamento relativo às subvenções estrangeiras (RSE), Regulamento (UE) 2022/2560, em conformidade com o respetivo artigo 28.o, é aplicável a este processo de adjudicação.</entry>
 <entry key="business-term|description|BT-682">Medidas adotadas nos termos do Regulamento relativo às subvenções estrangeiras, Regulamento (UE) 2022/2560</entry>
 <entry key="business-term|description|BT-684">Medidas sob o Regulamento do Instrumento de Aquisição Internacional (IPI) (UE) 2022/1031 são aplicáveis a este processo de aquisição</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Etiquetas de eficiência energética fornecidas para os produtos (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">O valor do consumo de energia em kWh/ano para produtos que não têm etiqueta, e a economia de energia em kWh/ano para serviços, edifícios ou obras. Para produtos, por favor, informe o consumo anual de energia do produto. Para serviços, obras e edifícios, por favor, informe a economia anual de energia.</entry>
 <entry key="business-term|description|BT-814">O valor da poupança de energia em kWh/ano para produtos, serviços, obras e edifícios. Indique o valor da poupança de energia anual.</entry>
-<entry key="business-term|description|BT-815">A quantidade conhecida ou estimada. No caso de produtos, indique o número de produtos. No caso de edifícios, indique a área útil em metros quadrados. Para obras ou serviços não é necessário indicar um valor.</entry>
+<entry key="business-term|description|BT-815">A quantidade conhecida ou estimada. No caso de produtos, indique o número de produtos. No caso de edifícios, indique a área útil em metros quadrados. Para obras ou serviços, o valor será geralmente 1.</entry>
 <entry key="business-term|description|BT-821">Nos casos em que os critérios de seleção estejam definidos, por exemplo, os documentos do concurso, o anúncio ou o DEUCP.</entry>
 <entry key="business-term|description|BT-88">As principais características do processo [p. ex., descrição da(s) fase(s) individual(is)] e informações sobre onde podem ser encontradas as regras completas aplicáveis ao processo. Estas informações devem ser sempre fornecidas nos casos em que o processo não é um dos mencionados nas diretivas relativas aos contratos públicos. Pode ser o caso, por exemplo, das concessões, dos serviços sociais e de outros serviços específicos, e também da publicação voluntária de processos de adjudicação que se encontram abaixo dos limiares da UE aplicáveis aos contratos públicos.</entry>
 <entry key="business-term|description|BT-92">Serão utilizadas encomendas eletrónicas.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Indicação obrigatória de subcontratação</entry>
 <entry key="business-term|name|BT-660">Valor reestimado do acordo-quadro</entry>
 <entry key="business-term|name|BT-661">Há um número máximo de candidatos a convocar para a segunda fase do processo</entry>
+<entry key="business-term|name|BT-67(a)">Motivos de exclusão</entry>
+<entry key="business-term|name|BT-67(b)">Descrição dos fundamentos de exclusão</entry>
 <entry key="business-term|name|BT-681">Regulação de Subsídios Estrangeiros</entry>
 <entry key="business-term|name|BT-682">Medidas de subsídios estrangeiros</entry>
 <entry key="business-term|name|BT-684">As medidas do Instrumento de Contratação Pública Internacional são aplicáveis</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Utilização deste critério</entry>
 <entry key="business-term|name|BT-749">Nome</entry>
 <entry key="business-term|name|BT-75">Descrição da garantia financeira</entry>
-<entry key="business-term|name|BT-750">Descrição</entry>
+<entry key="business-term|name|BT-750">Descrição do critério de seleção</entry>
 <entry key="business-term|name|BT-751">É exigida uma garantia</entry>
 <entry key="business-term|name|BT-752">N.º de critérios de seleção do convite para a segunda fase</entry>
 <entry key="business-term|name|BT-7531">O número é um tipo de fator de ponderação</entry>

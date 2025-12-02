@@ -1665,6 +1665,9 @@
 		<diagnostic id="ND-EEDProcurementDetailsLotResult_OPT-081-LotResult" see="field:OPT-081-LotResult">efac:AssetMetric[efbc:AssetMetricCode/text()='nrg-sav-yr']/efbc:AssetMetricCode</diagnostic>
 		<diagnostic id="ND-EuEntity" see="node:ND-EuEntity">cac:PartyLegalEntity</diagnostic>
 		<diagnostic id="ND-ExtendedDurationJustification" see="node:ND-ExtendedDurationJustification">efac:DurationJustification</diagnostic>
+		<diagnostic id="ND-ExtendedDurationJustification_OPP-021-Contract" see="field:OPP-021-Contract">efac:AssetsList/efac:Asset/efbc:AssetDescription</diagnostic>
+		<diagnostic id="ND-ExtendedDurationJustification_OPP-022-Contract" see="field:OPP-022-Contract">efac:AssetsList/efac:Asset/efbc:AssetSignificance</diagnostic>
+		<diagnostic id="ND-ExtendedDurationJustification_OPP-023-Contract" see="field:OPP-023-Contract">efac:AssetsList/efac:Asset/efbc:AssetPredominance</diagnostic>
 		<diagnostic id="ND-Funding" see="node:ND-Funding">efac:Funding</diagnostic>
 		<diagnostic id="ND-GazetteReference" see="node:ND-GazetteReference">cac:AdditionalDocumentReference</diagnostic>
 		<diagnostic id="ND-GroupComposition" see="node:ND-GroupComposition">cac:LotsGroup</diagnostic>

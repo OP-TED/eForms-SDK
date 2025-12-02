@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Podatki o oddaji naročil podizvajalcem, ki morajo biti navedeni v ponudbi.</entry>
 <entry key="business-term|description|BT-660">Vrednost, ki se bo verjetno porabila v okvirnem sporazumu skozi celotno trajanje, vključno z opcijami in podaljšanji, kot je bila ponovno ocenjena na podlagi ponudbe zmagovalca ali ponudb zmagovalcev.</entry>
 <entry key="business-term|description|BT-661">Obstaja največje število kandidatov, ki se povabijo k sodelovanju v drugi stopnji postopka.</entry>
+<entry key="business-term|description|BT-67(a)">Vrsta razloga za izključitev, kot je naveden v direktivah o javnih naročilih.</entry>
+<entry key="business-term|description|BT-67(b)">Kratek opis meril, ki bi lahko privedla do izključitve ponudnikov</entry>
 <entry key="business-term|description|BT-681">Za ta postopek javnega naročila se uporablja uredba o tujih subvencijah (Uredba (EU) 2022/2560), v skladu s členom 28 Uredbe.</entry>
 <entry key="business-term|description|BT-682">Ukrepi, uporabljeni na podlagi uredbe o tujih subvencijah (Uredba (EU) 2022/2560).</entry>
 <entry key="business-term|description|BT-684">Ukrepi v skladu z Uredbo o mednarodnem instrumentu za javno naročanje (IPI) (EU) 2022/1031 se uporabljajo v tem postopku javnega naročanja</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Oznake energijske učinkovitosti, navedene za proizvode (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">Vrednost porabe energije v kWh/leto za izdelke, za katere ne obstaja nalepka, in prihranek energije v kWh/leto za storitve, zgradbe ali dela. Za izdelke prosimo, da poročate o letni porabi energije izdelka. Za storitve, dela in zgradbe prosimo, da poročate o letnem prihranku energije.</entry>
 <entry key="business-term|description|BT-814">Vrednost prihrankov energije v kWh/leto za proizvode, storitve, gradbena dela in stavbe. Navedite letne prihranke energije.</entry>
-<entry key="business-term|description|BT-815">Znana ali ocenjena količina. Za proizvode navedite število proizvodov. Za stavbe navedite uporabno tlorisno površino v kvadratnih metrih. Za gradbena dela ali storitve vrednost ni potrebna.</entry>
+<entry key="business-term|description|BT-815">Znana ali ocenjena količina. Za proizvode navedite število proizvodov. Za stavbe navedite uporabno tlorisno površino v kvadratnih metrih. Za dela ali storitve bo vrednost običajno 1.</entry>
 <entry key="business-term|description|BT-821">Če so opredeljena merila za izbor, npr. v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila.</entry>
 <entry key="business-term|description|BT-88">Glavne značilnosti postopka (npr. opis posameznih stopenj) in podatki o tem, kje je mogoče najti celotna pravila postopka. Ti podatki se navedejo, če postopek ne spada med tiste, ki so navedeni v direktivah o javnem naročanju. To je npr. lahko pri koncesijah, socialnih in drugih posebnih storitvah ter pri prostovoljni objavi postopkov za oddajo javnega naročila, ki ne dosegajo praga EU za javna naročila.</entry>
 <entry key="business-term|description|BT-92">Uporabljeno bo elektronsko naročanje.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Obvezna navedba oddaje naročil podizvajalcem</entry>
 <entry key="business-term|name|BT-660">Ponovno ocenjena vrednost okvirnega sporazuma</entry>
 <entry key="business-term|name|BT-661">Obstaja največje število kandidatov, ki se povabijo k sodelovanju na drugi stopnji postopka</entry>
+<entry key="business-term|name|BT-67(a)">Razlogi za izključitev</entry>
+<entry key="business-term|name|BT-67(b)">Opis razlogov za izključitev</entry>
 <entry key="business-term|name|BT-681">Uredba o tujih subvencijah</entry>
 <entry key="business-term|name|BT-682">Foreign subsidies measures</entry>
 <entry key="business-term|name|BT-684">Uporabljajo se ukrepi instrumenta za mednarodno javno naročanje</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Uporaba tega merila</entry>
 <entry key="business-term|name|BT-749">Ime</entry>
 <entry key="business-term|name|BT-75">Opis finančnega poroštva</entry>
-<entry key="business-term|name|BT-750">Opis</entry>
+<entry key="business-term|name|BT-750">Opis merila za izbor</entry>
 <entry key="business-term|name|BT-751">Potrebno je jamstvo</entry>
 <entry key="business-term|name|BT-752">Številka pogojev za vabilo k sodelovanju na drugi stopnji</entry>
 <entry key="business-term|name|BT-7531">Številka je vrsta ponderja</entry>

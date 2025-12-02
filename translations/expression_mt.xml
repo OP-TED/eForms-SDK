@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Il-valur ta' 'Tip ta’ proċedura' (BT-105) huwa ugwali għal 'Miftuħa' jew il-valur ta' 'Tip ta’ proċedura' (BT-105) huwa ugwali għal 'Proċedura oħra bi stadju wieħed'</entry>
 <entry key="expression|name|604">Il-valur ta' 'Tip ta’ proċedura' (BT-105) huwa ugwali għal 'Proċedura oħra b’diversi stadji'</entry>
 <entry key="expression|name|605">L-identifikatur tal-kuntratt li għandu jiġi mmodifikat (BT-1501(c)-Contract) huwa mimli</entry>
+<entry key="expression|name|606">'ID tad-dokument tal-liġi tat-taxxa' (OPT-111-Lot-FiscalLegis) mhuwiex preżenti</entry>
 <entry key="expression|name|61">'Ġustifikazzjoni għall-għoti dirett' (BT-136-Procedure) mhuwiex wieħed minn dawn li ġejjin: 'Ġew riċevuti offerti irregolari jew mhux aċċettabbli biss b'rispons għal avviż preċedenti. Ġew inklużi fin-negozjati l-offerenti kollha tal-proċedura preċedenti, u dawk biss, li ssodisfaw il-kriterji tal-għażla, li ma ssodisfawx ir-raġunijiet għall-esklużjoni, u li ssodisfaw ir-rekwiżiti formali'; 'Ħtieġa għal xogħlijiet, servizzi jew provvisti addizzjonali mill-kuntrattur oriġinali'; 'Xogħlijiet jew servizzi ġodda, li jikkostitwixxu repetizzjoni ta’ xogħlijiet jew ta’ servizzi eżistenti u ordnati skont il-kundizzjonijiet stretti ddikjarati fid-Direttiva'; 'Ma waslet l-ebda offerta, talba għall-parteċipazzjoni, jew applikazzjoni idonea b’rispons għal avviż preċedenti'; 'Sostituzzjoni parzjali jew estensjoni tal-provvisti jew tal-installazzjonijiet eżistenti mill-fornitur oriġinali ordnati skont il-kundizzjonijiet stretti ddikjarati fid-Direttiva'; 'Kuntratt għas-servizzi li jrid jingħata lir-rebbieħ jew lil wieħed mir-rebbieħa skont ir-regoli ta’ konkors ta’ disinn'</entry>
+<entry key="expression|name|612">L-organizzazzjoni hija 'Xerrej'</entry>
 <entry key="expression|name|613">L-offerta maġġorata ma tħallietx għal lot fejn 'Regolament tal-Subsidji Barranin' (BT-681-Lot) huwa stabbilit għal 'iva', jew għal grupp ta' lots li fihom lot fejn 'Regolament tal-Subsidji Barranin' (BT-681-Lot) huwa stabbilit għal 'iva'</entry>
 <entry key="expression|name|614">Avviż ma ġiex identifikat bħala 'Sors tal-kriterji tal-għażla'</entry>
 <entry key="expression|name|615">Kodiċi tal-kriterju ta' għażla (BT-809) ma jeżistix</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'ID tekniku tal-organizzazzjoni (ORG-XXX)'(OPT-200-Organization-Company) hija 'Organizzazzjoni li twettaq din ir-rwol' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Kriterju tal-għażla' (BT-809-Lot) ma jexistix jew 'Il-proċedura se ssir fi stadji suċċessivi. F’kull stadju, xi parteċipanti jistgħu jiġu eliminati' (BT-52-Lot) mhux 'iva' jew 'Tip ta’ proċedura' (BT-105) mhux 'Djalogu kompetittiv', 'Sħubija għall-innovazzjoni', 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar', 'Proċedura oħra b’diversi stadji' jew 'Ristretta'</entry>
 <entry key="expression|name|663">Il-valur magħżul għal 'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) huwa ugwali għal 'Ir-rebbieħ għadu ma ntgħażilx, iżda l-kompetizzjoni għadha għaddejja.', jew il-valur magħżul għal 'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) huwa ugwali għal 'Ma ntgħażel l-ebda rebbieħ u l-kompetizzjoni ngħalqet.' u 'Ir-raġuni għaliex ma ntgħażilx rebbieħ' (BT-144-LotResult) huwa ugwali għal 'Ma waslet l-ebda offerta jew talba għall-parteċipazzjoni u ma wasal l-ebda proġett'</entry>
-<entry key="expression|name|664">'Sottodiviżjoni tal-pajjiż (NUTS)' (BT-5071-Procedure) irid jaqbel ma' wieħed mill-kodiċijiet NUTS għall-ispeċifikat 'Pajjiż' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Pajjiż' (BT-514-Organization-Company) huwa preżenti u 'Sottodiviżjoni tal-pajjiż (NUTS)' (BT-507-Organization-Company) huwa preżenti</entry>
 <entry key="expression|name|665">'Pajjiż' (BT-514-Organization-TouchPoint) huwa preżenti u 'Sottodiviżjoni tal-pajjiż (NUTS)' (BT-507-Organization-TouchPoint) huwa preżenti</entry>
 <entry key="expression|name|666">'Pajjiż' (BT-514-UBO) huwa preżenti u 'Sottodiviżjoni tal-pajjiż (NUTS)' (BT-507-UBO) huwa preżenti</entry>
 <entry key="expression|name|667">'Pajjiż' (BT-514-Business) huwa preżenti u 'Sottodiviżjoni tal-pajjiż (NUTS)' (BT-507-Business) huwa preżenti</entry>
@@ -473,8 +475,9 @@
 <entry key="expression|name|67">'Sottokuntrattar' (BT-773-Tender) mhuwiex 'Iva'</entry>
 <entry key="expression|name|670">'Pajjiż' (BT-5141-Lot is present) u 'Sottodiviżjoni tal-pajjiż (NUTS)' (BT-5071-Lot) huwa preżenti</entry>
 <entry key="expression|name|671">'In-numru hu tip ta’ ponderazzjoni' (BT-5421) mhuwiex 'Ordni ta’ importanza'</entry>
-<entry key="expression|name|676">il-Parti li Tagħmel l-Offerta tkun magħmula minn inqas minn żewġ Offerenti Ewlenin</entry>
-<entry key="expression|name|677">Ma kien involut l-ebda ftehim qafas, jew [business term | name | BT-709] (BT-709-LotResult) mhuwiex preżenti</entry>
+<entry key="expression|name|675">Il-kuntratt jinvolvi 'Xogħlijiet' jew 'Servizzi'</entry>
+<entry key="expression|name|676">'Parti li toffri' huwa magħmul minn inqas minn żewġ offerti ewlenin</entry>
+<entry key="expression|name|677">Ma kien involut l-ebda ftehim qafas, jew 'Valur massimu tal-ftehim qafas' (BT-709-LotResult) mhuwiex preżenti</entry>
 <entry key="expression|name|678">M'hemmx LotResult, jew m'hemmx tender għall-lott kopert mill-LotResult u m'hemmx tender għal xi grupp ta' lottijiet li jkun fih il-lott tal-LotResult, jew m'hemmx tender u l-ebda lott ma hu speċifikat għall-LotResult</entry>
 <entry key="expression|name|679">'Tip ta’ proċedura' (BT-105-Procedure) mhux 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni' u 'Bażi legali' (BT-01-notice) mhux 'Regolament (UE, Euratom) 2024/2509' u hemm mill-inqas wieħed 'ID tal-offerta tal-kuntratt' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Il-valur tas-sottokuntrattar hu magħruf' (BT-730-Tender) mhuwiex 'iva'</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Skadenza biex tintalab informazzjoni addizzjonali' (BT-132(d)-Lot) huwa mimli</entry>
 <entry key="expression|name|7">'Pajjiż' (BT-5141-Part) huwa mimli</entry>
 <entry key="expression|name|70">'Perċentwal magħruf tas-sottokuntrattar' (BT-731-Tender) mhuwiex 'iva'</entry>
+<entry key="expression|name|701">'Bażi legali' (BT-01(c)-Procedure) mhuwiex mimli</entry>
 <entry key="expression|name|71">'Sottokuntrattar' (BT-773-Tender) huwa 'Iva'</entry>
 <entry key="expression|name|72">Ma ntgħażel l-ebda rebbieħ 'Involut ftehim qafas' (BT-765-Lot) ma jikkorrispondix għall-qafas ta’ ftehim tal-proċedura</entry>
 <entry key="expression|name|74">'Verżjoni tal-avviż preċedenti li għandu jinbidel' (BT-758-notice) mhuwiex mimli</entry>

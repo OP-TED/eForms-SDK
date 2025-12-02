@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Värdet för 'Typ av förfarande' (BT-105) är lika med 'Öppet' eller värdet för 'Typ av förfarande' (BT-105) är lika med 'Annat förfarande i ett steg'</entry>
 <entry key="expression|name|604">Värdet för 'Typ av förfarande' (BT-105) är lika med 'Annat förfarande i flera steg'</entry>
 <entry key="expression|name|605">Identifieraren för det kontrakt som ska ändras (BT-1501(c)-Contract) är ifylld</entry>
+<entry key="expression|name|606">'ID för skattelagstiftningsdokument' (OPT-111-Lot-FiscalLegis) är inte närvarande</entry>
 <entry key="expression|name|61">'Motivering av direkttilldelning' (BT-136-Procedure) är inte ett av följande: 'Inga vanliga anbud, anbudsansökningar eller ansökningar som är godtagbara mottogs som svar på ett tidigare meddelande. Endast de anbudsgivare som uppfyllde selekteringskriterierna, inte omfattades av uteslutningskriterierna och uppfyllde de formella kriterierna i det föregående förfarandet deltog i förhandlingarna'; 'Behov av ytterligare byggentreprenader eller tjänster från den ursprungliga uppdragstagaren'; 'Nya byggentreprenader eller tjänster, som är en upprepning av tidigare byggentreprenader eller tjänster och beställs i enlighet med de strikta villkoren i direktivet'; 'Inga lämpliga anbud, anbudsansökningar eller ansökningar mottogs som svar på ett tidigare meddelande'; 'Delvis ersättning eller utökande av de befintliga leveranser eller installationer som beställts av den ursprungliga leverantören enligt de strikta villkor som anges i direktivet'; 'Tjänstekontrakt som tilldelas vinnaren eller en av vinnarna i enlighet med reglerna för en projekttävling'</entry>
+<entry key="expression|name|612">Organisationen är en 'Upphandlare'</entry>
 <entry key="expression|name|613">Anbudet har inte lämnats in för ett parti där 'Förordningen om utländska bidrag' (BT-681-Lot) är inställt på 'ja', eller för en grupp partier som innehåller ett parti där 'Förordningen om utländska bidrag' (BT-681-Lot) är inställt på 'ja'</entry>
 <entry key="expression|name|614">Meddelandet har inte identifierats som en 'Källa till urvalskriterier'</entry>
 <entry key="expression|name|615">Urvalskriteriekoden (BT-809) finns inte</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'Tekniskt ID för organisationen (ORG-XXX)'(OPT-200-Organization-Company) är en 'Organisationen som utför denna roll'</entry>
 <entry key="expression|name|662">'Urvalskriterium' (BT-809-Lot) finns inte eller 'Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas' (BT-52-Lot) är inte 'ja' eller 'Typ av förfarande' (BT-105) är inte 'Konkurrenspräglad dialog', 'Innovationspartnerskap', 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens', 'Annat förfarande i flera steg' eller 'Selektivt'</entry>
 <entry key="expression|name|663">Det valda värdet för 'Status på val av vinnare' (BT-142-LotResult) är lika med 'Vinnaren har ännu inte valts ut, men tävlingen pågår fortfarande.', eller det valda värdet för 'Status på val av vinnare' (BT-142-LotResult) är lika med 'Ingen vinnare har valts ut och tävlingen har avslutats.' och 'Skälet till att en vinnare inte utsågs' (BT-144-LotResult) är lika med 'Inga anbud, anbudsansökningar eller projekt mottogs'</entry>
-<entry key="expression|name|664">'Land' (BT-514-Organization-TouchPoint) är närvarande och 'Del av land (NUTS)' (BT-507-Organization-TouchPoint) är närvarande</entry>
+<entry key="expression|name|664">'Land' (BT-514-UBO) är närvarande och 'Del av land (NUTS)' (BT-507-UBO) är närvarande</entry>
 <entry key="expression|name|665">'Land' (BT-514-UBO) är närvarande och 'Del av land (NUTS)' (BT-507-UBO) är närvarande</entry>
 <entry key="expression|name|666">'Land' (BT-5141-Lot is present) och 'Del av land (NUTS)' (BT-5071-Lot) är närvarande</entry>
 <entry key="expression|name|667">'Del av land (NUTS)' (BT-5071-Procedure) måste matcha en av NUTS-koderna för den specificerade 'Land' (BT-5141-Procedure)</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Anlitande av underleverantör' (BT-773-Tender) är inte 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Part) är närvarande och 'Del av land (NUTS)' (BT-5071-Part) är närvarande</entry>
 <entry key="expression|name|671">'Sifferangivelsen är en typ av viktning' (BT-5421) är inte 'Prioritetsordning'</entry>
-<entry key="expression|name|676">anbudsgivaren består av färre än två huvudanbudsgivare</entry>
+<entry key="expression|name|675">Kontraktet omfattar 'Byggentreprenader' eller 'Tjänster'</entry>
+<entry key="expression|name|676">'Anbudsgivare' består av färre än två huvudanbudsgivare</entry>
 <entry key="expression|name|677">Inget ramavtal var inblandat, eller 'Högsta värde på ramavtalet' (BT-709-LotResult) finns inte</entry>
 <entry key="expression|name|678">Det finns inget LotResult, eller det finns inget anbud för partiet som täcks av LotResult och inget anbud för någon grupp av partier som skulle innehålla partiet för LotResult, eller det finns inget anbud och inget parti är specificerat för LotResult</entry>
 <entry key="expression|name|679">'Typ av förfarande' (BT-105-Procedure) är inte 'Förhandlat förfarande utan föregående meddelande om upphandling' och 'Rättslig grund' (BT-01-notice) är inte 'Förordning (EU, Euratom) 2024/2509' och det finns minst ett 'Id: Vinnande anbud för kontraktet' (BT-3202-Contract)</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Sista dag för att begära kompletterande information' (BT-132(d)-Lot) är ifylld</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) fylls i</entry>
 <entry key="expression|name|70">'Andelen som ska läggas ut på underentreprenad är känd' (BT-731-Tender) är inte 'ja'</entry>
+<entry key="expression|name|701">'Rättslig grund' (BT-01(c)-Procedure) fylls inte i</entry>
 <entry key="expression|name|71">'Anlitande av underleverantör' (BT-773-Tender) är 'Ja'</entry>
 <entry key="expression|name|72">Ingen vinnare valdes ut eller 'Det gäller ett ramavtal' (BT-765-Lot) motsvarar inte ramavtalet för förfarandet</entry>
 <entry key="expression|name|74">'Version av det föregående meddelandet som ska ändras' (BT-758-notice) fylls inte i</entry>

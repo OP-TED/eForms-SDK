@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">De oplysninger om underentreprise, der skal angives i tilbuddet.</entry>
 <entry key="business-term|description|BT-660">Den værdi, der forventes at blive brugt inden for en rammeaftale i løbet af hele dens varighed, herunder valgmuligheder og fornyelser, som beregnet på grundlag af vinderens tilbud.</entry>
 <entry key="business-term|description|BT-661">Der er et højeste antal ansøgere, som skal opfordres til at deltage i anden fase af proceduren.</entry>
+<entry key="business-term|description|BT-67(a)">Type udelukkelsesgrund som anført i udbudsdirektiverne.</entry>
+<entry key="business-term|description|BT-67(b)">En kort beskrivelse af de kriterier, der kan føre til udelukkelse af tilbudsgivere</entry>
 <entry key="business-term|description|BT-681">Forordning (EU) 2022/2560 om udenlandske subsidier finder anvendelse på denne udbudsprocedure, jf. nævnte forordnings artikel 28.</entry>
 <entry key="business-term|description|BT-682">Foranstaltninger, som er truffet i medfør at forordning (EU) 2022/2560 om udenlandske subsidier.</entry>
 <entry key="business-term|description|BT-684">Foranstaltninger i henhold til forordning (EU) 2022/1031 om det internationale indkøbsinstrument (IPI) er gældende for denne udbudsprocedure</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Energieffektivitetsmærkning for produkterne (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">Værdien af energiforbruget i kWh/år for produkter, for hvilke der ikke findes et mærke, og energibesparelser i kWh/år for tjenester, bygninger eller arbejder. For produkter bedes du rapportere produktets årlige energiforbrug. For tjenester, arbejder og bygninger bedes du rapportere de årlige energibesparelser.</entry>
 <entry key="business-term|description|BT-814">Værdien af energibesparelser i kWh/år for produkter, tjenesteydelser, bygge- og anlægsarbejder og bygninger. Angiv venligst de årlige energibesparelser.</entry>
-<entry key="business-term|description|BT-815">Den leverede eller anslåede mængde. For produkter angives antallet af produkter. For bygninger angives nyttearealet i kvadratmeter. For bygge- og anlægsarbejder eller tjenesteydelser er der ikke behov for nogen værdi.</entry>
+<entry key="business-term|description|BT-815">Den leverede eller anslåede mængde. For produkter angives antallet af produkter. For bygninger angives nyttearealet i kvadratmeter. For bygge- og anlægsarbejder eller tjenesteydelser vil værdien normalt være 1.</entry>
 <entry key="business-term|description|BT-821">Her angives det, hvor udvælgelseskriterierne er fastlagt, f.eks. i udbudsdokumenterne, bekendtgørelsen eller det fælles europæiske udbudsdokument (ESPD).</entry>
 <entry key="business-term|description|BT-88">De vigtigste kendetegn ved proceduren (f.eks. en beskrivelse af den/de enkelte fase(r)) og oplysninger om, hvor det samlede regelsæt for proceduren kan findes). Disse oplysninger skal gives, hvis proceduren ikke er én af de typer, der nævnes i udbudsdirektiverne. Det kan være tilfældet bl.a. for koncessioner, sociale og andre specifikke tjenesteydelser og i tilfælde af frivillig offentliggørelse af udbudsprocedurer, der ligger under EU's udbudstærskler.</entry>
 <entry key="business-term|description|BT-92">Der vil blive anvendt elektronisk bestilling.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Obligatorisk angivelse af underentreprise</entry>
 <entry key="business-term|name|BT-660">Revurderet værdi af rammeaftalen</entry>
 <entry key="business-term|name|BT-661">Der er et maksimalt antal ansøgere, der skal indkaldes til anden fase af proceduren</entry>
+<entry key="business-term|name|BT-67(a)">Udelukkelsesgrunde</entry>
+<entry key="business-term|name|BT-67(b)">Beskrivelse af udelukkelsesgrunde</entry>
 <entry key="business-term|name|BT-681">Udenlandsk Støtte-regulativ</entry>
 <entry key="business-term|name|BT-682">Udenlandske støtteforanstaltninger</entry>
 <entry key="business-term|name|BT-684">Foranstaltninger i henhold til det internationale instrument for offentlige udbud finder anvendelse</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Anvendelse af dette kriterium</entry>
 <entry key="business-term|name|BT-749">Navn</entry>
 <entry key="business-term|name|BT-75">Beskrivelse af den finansielle garanti</entry>
-<entry key="business-term|name|BT-750">Beskrivelse</entry>
+<entry key="business-term|name|BT-750">Beskrivelse af udvælgelseskriterium</entry>
 <entry key="business-term|name|BT-751">Der kræves en garanti</entry>
 <entry key="business-term|name|BT-752">Antallet af ansøgere, der opfordres til anden fase</entry>
 <entry key="business-term|name|BT-7531">Værdien er en vægt</entry>

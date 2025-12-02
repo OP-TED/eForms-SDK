@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Valoarea 'Tip de procedură' (BT-105) este egală cu 'Deschisă' sau valoarea 'Tip de procedură' (BT-105) este egală cu 'Altă procedură cu o singură etapă'</entry>
 <entry key="expression|name|604">Valoarea 'Tip de procedură' (BT-105) este egală cu 'Altă procedură cu mai multe etape'</entry>
 <entry key="expression|name|605">Identificatorul contractului care trebuie modificat (BT-1501(c)-Contract) este completat</entry>
+<entry key="expression|name|606">'ID-ul documentului de legislație fiscală' (OPT-111-Lot-FiscalLegis) nu este prezent</entry>
 <entry key="expression|name|61">'Justificarea atribuirii directe' (BT-136-Procedure) nu este una dintre următoarele: 'Drept răspuns la o notificare prealabilă au fost primite numai oferte neregulamentare sau inacceptabile. Au fost incluși în negocieri exclusiv toți ofertanții din procedura anterioară care au îndeplinit criteriile de selecție, nu au făcut obiectul criteriilor de excludere și au îndeplinit cerințele formale'; 'Necesitatea furnizării de lucrări sau de servicii suplimentare de către contractantul inițial'; 'Lucrări/servicii noi, constituind o repetare a lucrărilor sau a serviciilor existente și comandate în conformitate cu condițiile stricte prevăzute de directivă'; 'Nicio ofertă adecvată, nicio cerere de participare și nicio candidatură nu au fost primite ca răspuns la o notificare prealabilă'; 'Înlocuirea parțială sau extinderea de către furnizorul inițial a bunurilor sau a instalațiilor existente, comandate în conformitate cu condițiile stricte stabilite de directivă'; 'Contractul de servicii urmează să fie atribuit câștigătorului sau unuia dintre câștigători în conformitate cu regulile unui concurs de proiecte'</entry>
+<entry key="expression|name|612">Organizația este un 'Cumpărător'</entry>
 <entry key="expression|name|613">Oferta nu a fost depusă nici pentru un lot pentru care 'Regulamentul privind subvențiile străine' (BT-681-Lot) este setat la 'da', nici pentru un grup de loturi care conține un lot pentru care 'Regulamentul privind subvențiile străine' (BT-681-Lot) este setat la 'da'</entry>
 <entry key="expression|name|614">Notificarea nu a fost identificată ca un 'Sursa criteriilor de selecție'</entry>
 <entry key="expression|name|615">Codul criteriului de selecție (BT-809) nu există</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'ID-ul tehnic al organizației (ORG-XXX)'(OPT-200-Organization-Company) este un 'Organizația care îndeplinește acest rol' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Criteriu de selecție' (BT-809-Lot) nu există sau 'Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați' (BT-52-Lot) nu este 'da' sau 'Tip de procedură' (BT-105) nu este 'Dialog competitiv', 'Parteneriat pentru inovare', 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere', 'Altă procedură cu mai multe etape' sau 'Restrânsă'</entry>
 <entry key="expression|name|663">Valoarea aleasă pentru 'Statutul selecției câștigătorului' (BT-142-LotResult) este egală cu 'Câștigătorul nu a fost selecționat până în prezent, dar procedura concurențială se află încă în curs de desfășurare.', sau valoarea aleasă pentru 'Statutul selecției câștigătorului' (BT-142-LotResult) este egală cu 'Nu a fost ales un câștigător, iar procedura concurențială s-a încheiat.' și 'Motivul pentru care nu a fost ales un câștigător' (BT-144-LotResult) este egală cu 'Nu a fost primit(ă) nicio ofertă, nicio cerere de participare și niciun proiect'</entry>
-<entry key="expression|name|664">'Subdiviziunea țării (NUTS)' (BT-5071-Procedure) trebuie să corespundă unuia dintre codurile NUTS pentru specificatul 'Țara' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Țara' (BT-514-Organization-Company) este prezent și 'Subdiviziunea țării (NUTS)' (BT-507-Organization-Company) este prezent</entry>
 <entry key="expression|name|665">'Țara' (BT-514-Organization-TouchPoint) este prezent și 'Subdiviziunea țării (NUTS)' (BT-507-Organization-TouchPoint) este prezent</entry>
 <entry key="expression|name|666">'Țara' (BT-514-UBO) este prezent și 'Subdiviziunea țării (NUTS)' (BT-507-UBO) este prezent</entry>
 <entry key="expression|name|667">'Țara' (BT-514-Business) este prezent și 'Subdiviziunea țării (NUTS)' (BT-507-Business) este prezent</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Subcontractare' (BT-773-Tender) nu este 'Da'</entry>
 <entry key="expression|name|670">'Țara' (BT-5141-Lot is present) și 'Subdiviziunea țării (NUTS)' (BT-5071-Lot) este prezent</entry>
 <entry key="expression|name|671">'Numărul este un tip de pondere' (BT-5421) nu este 'Ordinea importanței'</entry>
-<entry key="expression|name|676">partea ofertantă a licitației este compusă din mai puțin de 2 ofertanți principali</entry>
+<entry key="expression|name|675">Contractul implică 'Lucrări' sau 'Servicii'</entry>
+<entry key="expression|name|676">'Partea ofertantă' este compus din mai puțin de doi ofertanți principali</entry>
 <entry key="expression|name|677">Nu este vorba despre un acord-cadru sau 'Valoarea maximă a acordului-cadru' (BT-709-LotResult) nu este prezent</entry>
 <entry key="expression|name|678">Nu există LotResult, sau nu există ofertă pentru lotul acoperit de LotResult și nu există ofertă pentru niciun grup de loturi care ar conține lotul LotResult, sau nu există ofertă și niciun lot nu este specificat pentru LotResult</entry>
 <entry key="expression|name|679">'Tip de procedură' (BT-105-Procedure) nu este 'Negociată fără publicarea unei proceduri concurențiale de ofertare' și 'Temei juridic' (BT-01-notice) nu este 'Regulamentul (UE, Euratom) 2024/2509' și există cel puțin un 'Contract: identificator lot' (BT-3202-Contract)</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Termenul-limită pentru solicitarea de informații suplimentare' (BT-132(d)-Lot) este completat</entry>
 <entry key="expression|name|7">'Țara' (BT-5141-Part) este completat</entry>
 <entry key="expression|name|70">'Valoarea procentuală a subcontractării este cunoscută' (BT-731-Tender) nu este 'da'</entry>
+<entry key="expression|name|701">'Temei juridic' (BT-01(c)-Procedure) nu este completat</entry>
 <entry key="expression|name|71">'Subcontractare' (BT-773-Tender) este 'Da'</entry>
 <entry key="expression|name|72">Nu a fost ales niciun câștigător sau 'Se aplică un acord-cadru' (BT-765-Lot) nu corespunde cu acordul-cadru al procedurii</entry>
 <entry key="expression|name|74">'Versiunea anunțului anterior care urmează să fie modificată' (BT-758-notice) nu este completat</entry>
