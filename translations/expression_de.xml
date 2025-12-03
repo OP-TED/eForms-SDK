@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Der Wert von 'Verfahrensart' (BT-105) ist gleich 'Offenes Verfahren' oder der Wert von 'Verfahrensart' (BT-105) ist gleich 'Sonstiges einstufiges Verfahren'</entry>
 <entry key="expression|name|604">Der Wert von 'Verfahrensart' (BT-105) entspricht 'Sonstiges zweistufiges Verfahren'</entry>
 <entry key="expression|name|605">Der Kennzeichner des zu ändernden Vertrags (BT-1501(c)-Contract) ist ausgefüllt</entry>
+<entry key="expression|name|606">'ID des Steuergesetzgebungsdokuments' (OPT-111-Lot-FiscalLegis) ist nicht vorhanden</entry>
 <entry key="expression|name|61">'Begründung der Direktvergabe' (BT-136-Procedure) ist nicht einer der folgenden: 'Im Anschluss an eine vorherige Bekanntmachung sind nur nicht ordnungsgemäße bzw. ungeeignete Angebote eingegangen. Die Verhandlungen wurden ausschließlich mit all denjenigen Bietern geführt, die die Auswahlkriterien und die formalen Anforderungen erfüllt haben und auf die die Ausschlusskriterien nicht zutrafen'; 'Bedarf an zusätzlichen Bauleistungen oder Dienstleistungen durch den ursprünglichen Auftragnehmer'; 'Neue Bauleistungen/Dienstleistungen, die in der Wiederholung gleichartiger Bau- oder Dienstleistungen bestehen und die gemäß den strengen Vorschriften der Richtlinie vergeben werden'; 'Keine geeigneten Angebote, Teilnahmeanträge oder Anträge im Anschluss an eine vorherige Bekanntmachung'; 'Teilweiser Ersatz oder Ausweitung vorhandener Lieferungen oder Anlagen durch den ursprünglichen Lieferanten, deren Beschaffung nach den strengen Vorschriften der Richtlinie erfolgt'; 'Dienstleistungsauftrag, der an den Gewinner oder an einen der Gewinner eines Wettbewerbs gemäß den Wettbewerbsbestimmungen vergeben wird'</entry>
+<entry key="expression|name|612">Die Organisation ist ein 'Beschaffer'</entry>
 <entry key="expression|name|613">Das Angebot wurde weder für ein Los eingereicht, für das 'Verordnung zu ausländischen Subventionen' (BT-681-Lot) auf 'ja' gesetzt ist, noch für eine Gruppe von Losen, die ein Los enthält, für das 'Verordnung zu ausländischen Subventionen' (BT-681-Lot) auf 'ja' gesetzt ist</entry>
 <entry key="expression|name|614">Die Mitteilung wurde nicht als 'Quelle der Eignungskriterien' identifiziert</entry>
 <entry key="expression|name|615">Der Auswahlkriterium (BT-809) Code existiert nicht</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'Technische ID der Organisation (ORG-XXX)'(OPT-200-Organization-Company) ist ein 'Organisation, die diese Rolle ausfüllt' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Eignungskriterium' (BT-809-Lot) existiert nicht oder 'Das Verfahren wird in mehreren aufeinanderfolgenden Phasen durchgeführt. In jeder Phase können einige Teilnehmer ausgeschlossen werden' (BT-52-Lot) ist nicht 'ja' oder 'Verfahrensart' (BT-105) ist nicht 'Wettbewerblicher Dialog', 'Innovationspartnerschaften', 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren', 'Sonstiges zweistufiges Verfahren' oder 'Nichtoffenes Verfahren'</entry>
 <entry key="expression|name|663">Der für 'Status der Preisträgerauswahl' (BT-142-LotResult) gewählte Wert entspricht 'Ein Wettbewerbsgewinner wurde noch nicht ermittelt, der Wettbewerb ist noch nicht abgeschlossen.', oder der für 'Status der Preisträgerauswahl' (BT-142-LotResult) gewählte Wert entspricht 'Es wurde kein Wettbewerbsgewinner ermittelt, und der Wettbewerb ist abgeschlossen.' und 'Grund, warum kein Gewinner ausgewählt wurde' (BT-144-LotResult) entspricht 'Es sind keine Angebote, Teilnahmeanträge oder Projekte eingegangen'</entry>
-<entry key="expression|name|664">'Land, Gliederung (NUTS)' (BT-5071-Procedure) muss einem der NUTS-Codes für den angegebenen 'Land' (BT-5141-Procedure) entsprechen</entry>
+<entry key="expression|name|664">'Land' (BT-514-Organization-Company) ist vorhanden und 'Land, Gliederung (NUTS)' (BT-507-Organization-Company) ist vorhanden</entry>
 <entry key="expression|name|665">'Land' (BT-514-Organization-TouchPoint) ist vorhanden und 'Land, Gliederung (NUTS)' (BT-507-Organization-TouchPoint) ist vorhanden</entry>
 <entry key="expression|name|666">'Land' (BT-514-UBO) ist vorhanden und 'Land, Gliederung (NUTS)' (BT-507-UBO) ist vorhanden</entry>
 <entry key="expression|name|667">'Land' (BT-514-Business) ist vorhanden und 'Land, Gliederung (NUTS)' (BT-507-Business) ist vorhanden</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Vergabe von Unteraufträgen' (BT-773-Tender) ist nicht 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Lot is present) und 'Land, Gliederung (NUTS)' (BT-5071-Lot) ist vorhanden</entry>
 <entry key="expression|name|671">'Bei der Zahl handelt sich um eine Gewichtung' (BT-5421) ist nicht 'Rangfolge'</entry>
-<entry key="expression|name|676">die Bieterpartei besteht aus weniger als zwei Hauptbietern</entry>
+<entry key="expression|name|675">Der Vertrag umfasst 'Bauleistung' oder 'Dienstleistungen'</entry>
+<entry key="expression|name|676">'Anbietende Partei' besteht aus weniger als zwei Hauptbietern</entry>
 <entry key="expression|name|677">Es gab keine Rahmenvereinbarung oder 'Höchstwert der Rahmenvereinbarung' (BT-709-LotResult) ist nicht vorhanden</entry>
 <entry key="expression|name|678">Es gibt kein LotResult, oder es gibt keine Ausschreibung für das von LotResult abgedeckte Los und keine Ausschreibung für eine Gruppe von Losen, die das Los des LotResult enthalten würde, oder es gibt keine Ausschreibung und kein Los ist für das LotResult angegeben</entry>
 <entry key="expression|name|679">'Verfahrensart' (BT-105-Procedure) ist nicht 'Verhandlungsverfahren ohne Aufruf zum Wettbewerb' und 'Rechtsgrundlage' (BT-01-notice) ist nicht 'Verordnung (EU, Euratom) 2024/2509' und es gibt mindestens einen 'Auftrag, Ausschreibung – Kennung' (BT-3202-Contract)</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Frist für die Anforderung zusätzlicher Informationen' (BT-132(d)-Lot) ist ausgefüllt</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) ist ausgefüllt</entry>
 <entry key="expression|name|70">'Prozentanteil der Vergabe von Unteraufträgen ist bekannt' (BT-731-Tender) ist nicht 'ja'</entry>
+<entry key="expression|name|701">'Rechtsgrundlage' (BT-01(c)-Procedure) ist nicht ausgefüllt</entry>
 <entry key="expression|name|71">'Vergabe von Unteraufträgen' (BT-773-Tender) ist 'Ja'</entry>
 <entry key="expression|name|72">Kein Gewinner wurde gewählt oder 'Rahmenvereinbarung geschlossen' (BT-765-Lot) entspricht nicht der Rahmenvereinbarung des Verfahrens</entry>
 <entry key="expression|name|74">'Fassung der zu ändernden vorigen Bekanntmachung' (BT-758-notice) ist nicht ausgefüllt</entry>

@@ -408,7 +408,9 @@
 <entry key="expression|name|603">'Udbudsprocedure' (BT-105) værdi er lig med 'Åben' eller 'Udbudsprocedure' (BT-105) værdi er lig med 'Anden procedure, der afvikles i to faser'</entry>
 <entry key="expression|name|604">Værdien af 'Udbudsprocedure' (BT-105) er lig med 'Anden procedure, der afvikles i flere faser'</entry>
 <entry key="expression|name|605">Identifikatoren for kontrakten, der skal ændres (BT-1501(c)-Contract), er udfyldt</entry>
+<entry key="expression|name|606">'Skattelovgivningsdokumentets ID' (OPT-111-Lot-FiscalLegis) er ikke til stede</entry>
 <entry key="expression|name|61">'Begrundelse for direkte tildeling' (BT-136-Procedure) er ikke en af følgende: 'Der er kun modtaget uregelmæssige eller uantagelige tilbud som svar på en foregående bekendtgørelse. Alle og kun de tilbud i den foregående procedure, som opfylder udvælgelseskriterierne, som ikke er omfattet af udelukkelsesgrundene og som opfylder de formelle krav, blev inkluderet i forhandlingerne'; 'Behov for supplerende bygge- og anlægsarbejder eller tjenesteydelser fra den oprindelige kontrahent'; 'Nye bygge- og anlægsarbejder eller tjenesteydelser, der er en gentagelse af tilsvarende tjenesteydelser eller bygge- og anlægsarbejder og bestilt på de udtrykkelige betingelser, der er anført i direktivet'; 'Der er ikke modtaget nogen egnede tilbud, ansøgninger om deltagelse eller ansøgninger som svar på en foregående bekendtgørelse'; 'Delvis udskiftning eller udvidelse af eksisterende leveringer eller af bestående installationer, som er foretaget af den oprindelige leverandør på de udtrykkelige betingelser, der er anført i direktivet'; 'Tjenesteydelseskontrakt, der skal tildeles til vinderen eller én af vinderne i henhold til reglerne for projektkonkurrencer'</entry>
+<entry key="expression|name|612">Organisationen er en 'Køber'</entry>
 <entry key="expression|name|613">Tilbuddet er hverken indsendt for et parti, hvor 'Udenlandsk Støtte-regulativ' (BT-681-Lot) er sat til 'ja', eller for en gruppe af partier, der indeholder et parti, hvor 'Udenlandsk Støtte-regulativ' (BT-681-Lot) er sat til 'ja'</entry>
 <entry key="expression|name|614">Meddelelsen er ikke identificeret som en 'Kilde til udvælgelseskriterier'</entry>
 <entry key="expression|name|615">Udvælgelseskriteriet (BT-809) kode findes ikke</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'Organisationens tekniske ID (ORG-XXX)'(OPT-200-Organization-Company) er en 'Organisationen, der udfylder denne rolle' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Udvælgelseskriterium' (BT-809-Lot) findes ikke eller 'Proceduren afvikles i successive faser. I hver fase kan nogle ansøgere blive udelukket' (BT-52-Lot) er ikke 'ja' eller 'Udbudsprocedure' (BT-105) er ikke 'Konkurrencepræget dialog', 'Innovationspartnerskab', 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse', 'Anden procedure, der afvikles i flere faser' eller 'Begrænset'</entry>
 <entry key="expression|name|663">Den valgte værdi for 'Status for udvælgelse af vinder' (BT-142-LotResult) er lig med 'Der er endnu ikke udvalgt en vinder, men konkurrencen er stadig i gang.', eller den valgte værdi for 'Status for udvælgelse af vinder' (BT-142-LotResult) er lig med 'Der er ikke udvalgt en vinder, og konkurrencen er afsluttet.' og 'Årsagen til at der ikke udvælges en vinder' (BT-144-LotResult) er lig med 'Der er ikke modtaget nogen tilbud, ansøgninger om deltagelse eller projekter'</entry>
-<entry key="expression|name|664">'Landsdel (NUTS)' (BT-5071-Procedure) skal matche en af NUTS-koderne for den specificerede 'Land' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Land' (BT-514-Organization-Company) er til stede og 'Landsdel (NUTS)' (BT-507-Organization-Company) er til stede</entry>
 <entry key="expression|name|665">'Land' (BT-514-Organization-TouchPoint) er til stede og 'Landsdel (NUTS)' (BT-507-Organization-TouchPoint) er til stede</entry>
 <entry key="expression|name|666">'Land' (BT-514-UBO) er til stede og 'Landsdel (NUTS)' (BT-507-UBO) er til stede</entry>
 <entry key="expression|name|667">'Land' (BT-514-Business) er til stede og 'Landsdel (NUTS)' (BT-507-Business) er til stede</entry>
@@ -473,8 +475,9 @@
 <entry key="expression|name|67">'Underentreprise' (BT-773-Tender) er ikke 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Lot is present) og 'Landsdel (NUTS)' (BT-5071-Lot) er til stede</entry>
 <entry key="expression|name|671">'Værdien er en vægt' (BT-5421) er ikke 'Prioriteret rækkefølge'</entry>
-<entry key="expression|name|676">tilbudsgiveren består af mindre end 2 hovedtilbudsgivere</entry>
-<entry key="expression|name|677">Der var ingen rammeaftale involveret, eller business-term|name|BT-709] (BT-709-LotResult) er ikke tilgængeligt</entry>
+<entry key="expression|name|675">Kontrakten omfatter 'Bygge og anlæg' eller 'Tjenesteydelser'</entry>
+<entry key="expression|name|676">'Tilbudsgiver' består af færre end to hovedtilbudsgivere</entry>
+<entry key="expression|name|677">Der var ingen rammeaftale involveret, eller 'Den maksimale værdi for rammeaftalen' (BT-709-LotResult) er ikke tilgængeligt</entry>
 <entry key="expression|name|678">Der er ingen LotResult, eller der er ingen udbud for partiet dækket af LotResult og ingen udbud for nogen gruppe af partier, der ville indeholde partiet for LotResult, eller der er ingen udbud og ingen parti er specificeret for LotResult</entry>
 <entry key="expression|name|679">'Udbudsprocedure' (BT-105-Procedure) er ikke 'Udbud med forhandling uden forudgående offentliggørelse' og 'Retsgrundlag' (BT-01-notice) er ikke 'Forordning (EU, Euratom) 2024/2509' og der er mindst en 'Kontrakt udbuds-ID' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Underentrepriseværdien er kendt' (BT-730-Tender) er ikke 'ja'</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Frist for anmodning om yderligere oplysninger' (BT-132(d)-Lot) er udfyldt</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) er udfyldt</entry>
 <entry key="expression|name|70">'Underentrepriseprocentdelen er kendt' (BT-731-Tender) er ikke 'ja'</entry>
+<entry key="expression|name|701">'Retsgrundlag' (BT-01(c)-Procedure) er ikke udfyldt</entry>
 <entry key="expression|name|71">'Underentreprise' (BT-773-Tender) er 'Ja'</entry>
 <entry key="expression|name|72">Der blev ikke valgt nogen vinder eller 'Rammeaftale er involveret' (BT-765-Lot) svarer ikke til procedurens rammeaftale</entry>
 <entry key="expression|name|74">'Udgave af den foregående bekendtgørelse, der skal ændres' (BT-758-notice) er ikke udfyldt</entry>

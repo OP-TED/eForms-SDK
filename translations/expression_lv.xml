@@ -408,7 +408,9 @@
 <entry key="expression|name|603">'Procedūras veids' (BT-105) vērtība ir vienāda ar 'Atklāta' vai 'Procedūras veids' (BT-105) vērtība ir vienāda ar 'Cita vienpakāpes procedūra'</entry>
 <entry key="expression|name|604">'Procedūras veids' (BT-105) vērtība ir vienāda ar 'Cita daudzpakāpju procedūra'</entry>
 <entry key="expression|name|605">Jāmodificējamā līguma identifikators (BT-1501(c)-Contract) ir aizpildīts</entry>
+<entry key="expression|name|606">'Nodokļu likumdošanas dokumenta ID' (OPT-111-Lot-FiscalLegis) nav klāt</entry>
 <entry key="expression|name|61">'Tiešas piešķiršanas pamatojums' (BT-136-Procedure) nav viens no šādiem variantiem: 'Pēc iepriekšējā sludinājuma tika saņemti tikai anormāli vai nepieņemami piedāvājumi. Sarunās tika iekļauti tikai visi tie iepriekšējās procedūras pretendenti, kuri atbilst atlases kritērijiem, kurus nav iemesla izslēgt un kuri apmierina formālās prasības'; 'Nepieciešamība pēc sākotnējā darbuzņēmēja veiktiem papildu būvdarbiem vai pakalpojumiem'; 'Jauni būvdarbi vai pakalpojumi, kas ir esošo būvdarbu vai pakalpojumu atkārtojums un tiek pasūtīti saskaņā ar stingriem nosacījumiem, kuri noteikti direktīvā'; 'Par atbildi uz agrāku paziņojumu netika saņemti piemēroti piedāvājumi, dalības pieprasījumi vai pieteikumi'; 'Esošo piegāžu vai iekārtu daļēja aizstāšana vai papildināšana, ko veic sākotnējais piegādātājs un kas pasūtīts saskaņā ar stingriem nosacījumiem, kuri noteikti direktīvā'; 'Pakalpojumu līgums tiks piešķirts uzvarētājam vai vienam no uzvarētājiem saskaņā ar metu konkursa noteikumiem'</entry>
+<entry key="expression|name|612">Organizācija ir 'Pircējs'</entry>
 <entry key="expression|name|613">Piedāvājums nav iesniegts ne partijai, kurai 'Ārvalstu subsīdiju regulā' (BT-681-Lot) ir iestatīts 'jā', ne partiju grupai, kas ietver partiju, kurai 'Ārvalstu subsīdiju regulā' (BT-681-Lot) ir iestatīts 'jā'</entry>
 <entry key="expression|name|614">Paziņojums nav identificēts kā 'Atlases kritēriju avots'</entry>
 <entry key="expression|name|615">Izvēles kritērija (BT-809) kods neeksistē</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'Organizācijas tehniskais ID (ORG-XXX)'(OPT-200-Organization-Company) ir 'Organizācija, kas pilda šo lomu' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Atlases kritēriji' (BT-809-Lot) neeksistē vai 'Procedūra notiks secīgos posmos. Katrā posmā daži dalībnieki var tikt izslēgti' (BT-52-Lot) nav 'jā' vai 'Procedūras veids' (BT-105) nav 'Konkursa dialogs', 'Inovācijas partnerība', 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām', 'Cita daudzpakāpju procedūra' vai 'Slēgta'</entry>
 <entry key="expression|name|663">Izvēlētā vērtība 'Uzvarētāja atlases statuss' (BT-142-LotResult) ir vienāda ar 'Uzvarētājs vēl nav izraudzīts, taču konkurss joprojām turpinās.', vai izvēlētā vērtība 'Uzvarētāja atlases statuss' (BT-142-LotResult) ir vienāda ar 'Uzvarētājs netika izraudzīts, un konkurss ir slēgts.' un 'Iemesls, kāpēc netika izraudzīts uzvarētājs' (BT-144-LotResult) ir vienāda ar 'Netika saņemts neviens piedāvājums, dalības pieprasījums vai projekts'</entry>
-<entry key="expression|name|664">'Valsts apakšiedalījums (NUTS)' (BT-5071-Procedure) ir jāatbilst vienam no NUTS kodiem norādītajam 'Valsts' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Valsts' (BT-514-Organization-Company) ir klāt un 'Valsts apakšiedalījums (NUTS)' (BT-507-Organization-Company) ir klāt</entry>
 <entry key="expression|name|665">'Valsts' (BT-514-Organization-TouchPoint) ir klāt un 'Valsts apakšiedalījums (NUTS)' (BT-507-Organization-TouchPoint) ir klāt</entry>
 <entry key="expression|name|666">'Valsts' (BT-514-UBO) ir klāt un 'Valsts apakšiedalījums (NUTS)' (BT-507-UBO) ir klāt</entry>
 <entry key="expression|name|667">'Valsts' (BT-514-Business) ir klāt un 'Valsts apakšiedalījums (NUTS)' (BT-507-Business) ir klāt</entry>
@@ -473,8 +475,9 @@
 <entry key="expression|name|67">'Apakšuzņēmēju piesaiste' (BT-773-Tender) nav 'Jā'</entry>
 <entry key="expression|name|670">'Valsts' (BT-5141-Lot is present) un 'Valsts apakšiedalījums (NUTS)' (BT-5071-Lot) ir klāt</entry>
 <entry key="expression|name|671">'Skaitlis ir svēruma veids' (BT-5421) nav 'Secība pēc nozīmīguma'</entry>
-<entry key="expression|name|676">pretendējošajā pusē ir mazāk nekā divi galvenie pretendenti</entry>
-<entry key="expression|name|677">Pamatlīgums nav piemērots vai [business-termname|BT-709] (BT-709-LotResult) nav pieejams</entry>
+<entry key="expression|name|675">Līgums ietver 'Būvdarbi' vai 'Pakalpojumi'</entry>
+<entry key="expression|name|676">'Piedāvājuma sniedzējs' sastāv no mazāk nekā diviem galvenajiem pretendentiem</entry>
+<entry key="expression|name|677">Pamatlīgums nav piemērots vai 'Pamatnolīguma maksimālā vērtība' (BT-709-LotResult) nav pieejams</entry>
 <entry key="expression|name|678">Nepastāv LotResult, vai nav piedāvājuma par LotResult aptverto partiju un nav piedāvājuma par nevienu partiju grupu, kas saturētu LotResult partiju, vai nav piedāvājuma un LotResult nav norādīta neviena partija</entry>
 <entry key="expression|name|679">'Procedūras veids' (BT-105-Procedure) nav 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas' un 'Juridiskais pamats' (BT-01-notice) nav 'Regula (ES, Euratom) 2024/2509' un ir vismaz viens 'Līgumslēgšanas tiesības saņēmušais piedāvājums – ID' (BT-3202-Contract)</entry>
 <entry key="expression|name|68">'Apakšuzņēmuma līguma vērtība zināma' (BT-730-Tender) nav 'jā'</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Termiņš papildu informācijas pieprasīšanai' (BT-132(d)-Lot) ir aizpildīts</entry>
 <entry key="expression|name|7">'Valsts' (BT-5141-Part) ir aizpildīta</entry>
 <entry key="expression|name|70">'Apakšuzņēmuma līgumu procentuālā daļa ir zināma' (BT-731-Tender) nav 'jā'</entry>
+<entry key="expression|name|701">'Juridiskais pamats' (BT-01(c)-Procedure) nav aizpildīta</entry>
 <entry key="expression|name|71">'Apakšuzņēmēju piesaiste' (BT-773-Tender) ir 'Jā'</entry>
 <entry key="expression|name|72">Neviens uzvarētājs netika izvēlēts vai 'Ir paredzēts pamatnolīgums' (BT-765-Lot) neatbilst procedūras pamatlīgumam</entry>
 <entry key="expression|name|74">'Paziņojuma versija, kurā veicamas izmaiņas' (BT-758-notice) nav aizpildīta</entry>

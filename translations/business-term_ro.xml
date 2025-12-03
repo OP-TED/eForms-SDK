@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Informațiile privind subcontractarea care trebuie să figureze în ofertă.</entry>
 <entry key="business-term|description|BT-660">Valoarea care ar putea fi cheltuită într-un acord-cadru pe toată durata sa, inclusiv pe opțiuni și reînnoiri, reestimată pe baza ofertei/ofertelor câștigătorului/câștigătorilor.</entry>
 <entry key="business-term|description|BT-661">Există un număr maxim de candidați care urmează să fie invitați pentru a doua etapă a procedurii.</entry>
+<entry key="business-term|description|BT-67(a)">Tipul motivului de excludere menționat în directivele privind achizițiile publice.</entry>
+<entry key="business-term|description|BT-67(b)">O scurtă descriere a criteriilor care ar putea conduce la excluderea ofertanților</entry>
 <entry key="business-term|description|BT-681">Regulamentul privind subvențiile străine (RSS) (UE) 2022/2560, în conformitate cu articolul 28 din acesta, se aplică acestei proceduri de achiziții publice.</entry>
 <entry key="business-term|description|BT-682">Măsuri aplicate în temeiul Regulamentului privind subvențiile străine (RSS) (UE) 2022/2560.</entry>
 <entry key="business-term|description|BT-684">Măsurile prevăzute de Regulamentul privind Instrumentul de Achiziții Internaționale (IPI) (UE) 2022/1031 se aplică acestei proceduri de achiziție</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Etichetele de eficiență energetică furnizate pentru produse (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">Valoarea consumului de energie în kWh/an pentru produsele care nu au etichetă, și economia de energie în kWh/an pentru servicii, clădiri sau lucrări. Pentru produse, vă rugăm să raportați consumul anual de energie al produsului. Pentru servicii, lucrări și clădiri, vă rugăm să raportați economia anuală de energie.</entry>
 <entry key="business-term|description|BT-814">Valoarea economiilor de energie în kWh/an pentru produse, servicii, lucrări și clădiri. Vă rugăm să indicați valoarea economiilor anuale de energie.</entry>
-<entry key="business-term|description|BT-815">Cantitate cunoscută sau estimată. Pentru produse, vă rugăm să raportați numărul de produse. Pentru clădiri, vă rugăm să raportați suprafața utilă în metri pătrați. Pentru lucrări sau servicii, nu trebuie să indicați nicio informație.</entry>
+<entry key="business-term|description|BT-815">Cantitate cunoscută sau estimată. Pentru produse, vă rugăm să raportați numărul de produse. Pentru clădiri, vă rugăm să raportați suprafața utilă în metri pătrați. Pentru lucrări sau servicii, valoarea va fi de obicei 1.</entry>
 <entry key="business-term|description|BT-821">Ăn cazul în care criteriile de selecție sunt definite - de exemplu, documentele privind achiziția sau DUAE.</entry>
 <entry key="business-term|description|BT-88">Principalele caracteristici ale procedurii [de exemplu, descrierea etapei (etapelor) individuale] și informații privind documentele în care pot fi găsite regulile complete ale procedurii. Aceste informații trebuie furnizate în cazul în care procedura nu este una dintre cele menționate în directivele privind achizițiile publice. Acesta poate fi, de exemplu, cazul concesiunilor, al serviciilor sociale și al altor servicii specifice, precum și în cazul publicării voluntare a procedurilor de achiziții publice având valoarea sub pragurile de achiziții publice din UE.</entry>
 <entry key="business-term|description|BT-92">Se va utiliza comanda electronică.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Indicarea obligatorie a subcontractării</entry>
 <entry key="business-term|name|BT-660">Valoarea recalculată a acordului-cadru</entry>
 <entry key="business-term|name|BT-661">Există un număr maxim de candidați care urmează să fie invitați pentru a doua etapă a procedurii.</entry>
+<entry key="business-term|name|BT-67(a)">Motive de excludere</entry>
+<entry key="business-term|name|BT-67(b)">Descrierea motivelor de excludere</entry>
 <entry key="business-term|name|BT-681">Regulamentul privind subvențiile străine</entry>
 <entry key="business-term|name|BT-682">Măsuri de subvenții străine</entry>
 <entry key="business-term|name|BT-684">Se aplică măsurile din cadrul Instrumentului pentru achiziții publice internaționale</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Utilizarea acestui criteriu</entry>
 <entry key="business-term|name|BT-749">Denumire</entry>
 <entry key="business-term|name|BT-75">Descrierea garanției financiare</entry>
-<entry key="business-term|name|BT-750">Descriere</entry>
+<entry key="business-term|name|BT-750">Descrierea criteriului de selecție</entry>
 <entry key="business-term|name|BT-751">Este necesară o garanție.</entry>
 <entry key="business-term|name|BT-752">Număr legat de criteriile de selecție pentru invitația la a doua etapă</entry>
 <entry key="business-term|name|BT-7531">Numărul este un tip de pondere</entry>

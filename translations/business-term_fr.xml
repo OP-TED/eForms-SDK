@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Informations sur la sous-traitance qui doivent être indiquées dans l’offre.</entry>
 <entry key="business-term|description|BT-660">Valeur susceptible d’être dépensée pendant toute la durée d’un accord-cadre, y compris les options et les renouvellements, réestimée sur la base de l’offre du lauréat ou des offres des lauréats.</entry>
 <entry key="business-term|description|BT-661">Le nombre de candidats à convoquer pour la seconde étape de la procédure est limité.</entry>
+<entry key="business-term|description|BT-67(a)">Type de motif d’exclusion énuméré dans les directives sur les marchés publics.</entry>
+<entry key="business-term|description|BT-67(b)">Une brève description des critères susceptibles d’entraîner l’exclusion des soumissionnaires</entry>
 <entry key="business-term|description|BT-681">Le règlement (UE) 2022/2560 relatif aux subventions étrangères (RSE), conformément à son article 28, est applicable à cette procédure de passation de marché.</entry>
 <entry key="business-term|description|BT-682">Mesures appliquées en vertu du règlement (UE) 2022/2560 relatif aux subventions étrangères.</entry>
 <entry key="business-term|description|BT-684">Les mesures prévues par le règlement (UE) 2022/1031 sur l'instrument d'achat international (IPI) sont applicables à cette procédure de passation de marché</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Les étiquettes énergétiques accompagnant les produits (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">La valeur de la consommation d'énergie en kWh/an pour les produits pour lesquels il n'existe pas d'étiquette, et les économies d'énergie en kWh/an pour les services, les bâtiments ou les travaux. Pour les produits, veuillez indiquer la consommation d'énergie annuelle du produit. Pour les services, les travaux et les bâtiments, veuillez indiquer les économies d'énergie annuelles.</entry>
 <entry key="business-term|description|BT-814">La valeur des économies d’énergie en kWh/an pour les produits, services, travaux et bâtiments. Veuillez rendre compte des économies d’énergie annuelles.</entry>
-<entry key="business-term|description|BT-815">La quantité fournie ou estimée. Pour les produits, veuillez indiquer le nombre de produits. Pour les bâtiments, veuillez indiquer la surface de plancher utile en mètres carrés. Pour les travaux ou les services, aucune valeur n’est nécessaire.</entry>
+<entry key="business-term|description|BT-815">La quantité fournie ou estimée. Pour les produits, veuillez indiquer le nombre de produits. Pour les bâtiments, veuillez indiquer la surface de plancher utile en mètres carrés. Pour les travaux ou les services, la valeur sera généralement de 1.</entry>
 <entry key="business-term|description|BT-821">Lorsque les critères de sélection sont définis, par exemple, dans les documents de marché, dans l’avis ou dans le DUME.</entry>
 <entry key="business-term|description|BT-88">Principales caractéristiques de la procédure (description de chacune des étapes, par exemple) et informations sur l’endroit où obtenir les règles complètes applicables à la procédure. Ces informations doivent être fournies lorsque la procédure ne fait pas partie de celles mentionnées dans les directives relatives aux marchés publics. Il peut s’agir, par exemple, des concessions, des services sociaux et autres services spécifiques, et de la publication volontaire de procédures de passation de marchés portant sur des montants inférieurs aux seuils prévus pour les marchés publics de l’Union européenne.</entry>
 <entry key="business-term|description|BT-92">La commande en ligne sera utilisée.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Indication obligatoire de la sous-traitance</entry>
 <entry key="business-term|name|BT-660">Valeur réestimée de l’accord-cadre</entry>
 <entry key="business-term|name|BT-661">Le nombre de candidats à inviter pour la seconde étape de la procédure est limité</entry>
+<entry key="business-term|name|BT-67(a)">Motifs d’exclusion</entry>
+<entry key="business-term|name|BT-67(b)">Description des motifs d'exclusion</entry>
 <entry key="business-term|name|BT-681">Règlement sur les subventions étrangères</entry>
 <entry key="business-term|name|BT-682">Mesures de subventions étrangères</entry>
 <entry key="business-term|name|BT-684">Les mesures relevant de l’instrument relatif aux marchés publics internationaux sont applicables</entry>
@@ -622,7 +626,7 @@
 <entry key="business-term|name|BT-738">Date souhaitée de publication de l'avis</entry>
 <entry key="business-term|name|BT-739">Télécopieur</entry>
 <entry key="business-term|name|BT-740">L’acheteur est une entité adjudicatrice</entry>
-<entry key="business-term|name|BT-743">Facturation en ligne</entry>
+<entry key="business-term|name|BT-743">Facturation électronique</entry>
 <entry key="business-term|name|BT-744">La signature ou le cachet électronique avancé(e) ou qualifié(e) [au sens du règlement (UE) № 910/2014] est requis(e)</entry>
 <entry key="business-term|name|BT-745">Description</entry>
 <entry key="business-term|name|BT-746">Le Titulaire/lauréat est coté sur un marché réglementé</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Utilisation de ce critère</entry>
 <entry key="business-term|name|BT-749">Nom</entry>
 <entry key="business-term|name|BT-75">Description de la garantie financière</entry>
-<entry key="business-term|name|BT-750">Description</entry>
+<entry key="business-term|name|BT-750">Description du critère de sélection</entry>
 <entry key="business-term|name|BT-751">Une garantie est requise</entry>
 <entry key="business-term|name|BT-752">Nombre de critères de sélection seconde étape</entry>
 <entry key="business-term|name|BT-7531">Le nombre est une pondération</entry>
@@ -771,7 +775,7 @@
 <entry key="business-term|name|OPT-201">ID technique du point de contact (TPO-XXX)</entry>
 <entry key="business-term|name|OPT-202">ID technique du UBO (UBO-XXX)</entry>
 <entry key="business-term|name|OPT-210">ID technique de la partie appelante (TPA-XXX)</entry>
-<entry key="business-term|name|OPT-211">Nom de la partie appelante</entry>
+<entry key="business-term|name|OPT-211">Nom de la partie soumissionnaire</entry>
 <entry key="business-term|name|OPT-300">Organisation remplissant ce rôle</entry>
 <entry key="business-term|name|OPT-301">Organisation ou point de contact spécifique</entry>
 <entry key="business-term|name|OPT-302">Organisation remplissant ce rôle</entry>

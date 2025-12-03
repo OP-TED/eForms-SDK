@@ -566,24 +566,12 @@
                        test="matches(normalize-space(.),'^TEN-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00321-0052</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-321-Tender-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-321-Tender-Scheme_MA</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00316-0052"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^CON-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00316-0052</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-316-Contract-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-316-Contract-Scheme_MA</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00210-0052"
@@ -592,24 +580,12 @@
                        test="matches(normalize-space(.),'^TPA-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00210-0052</svrl:text>
    </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-210-Tenderer-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-210-Tenderer-Scheme_MA</svrl:text>
-   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00300-0203"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00300-0203</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-300-Tenderer-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-300-Tenderer-Scheme_MA</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode"/>
    <svrl:failed-assert id="OPP-070-notice-List_MA"
@@ -624,12 +600,6 @@
                        role="ERROR"
                        test="matches(normalize-space(.),'^ORG-\d{4}$')">
       <svrl:text>rule|text|BR-OPT-00200-0051</svrl:text>
-   </svrl:failed-assert>
-   <svrl:failed-assert id="OPT-200-Organization-Company-Scheme_MA"
-                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"
-                       role="ERROR"
-                       test="count(@schemeName) &gt; 0">
-      <svrl:text>rule|text|OPT-200-Organization-Company-Scheme_MA</svrl:text>
    </svrl:failed-assert>
    <svrl:active-pattern id="EFORMS-validation-stage-3b-29"/>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '29']"/>

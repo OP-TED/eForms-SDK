@@ -408,7 +408,9 @@
 <entry key="expression|name|603">'Menettelyn tyyppi' (BT-105) arvo on yhtä suuri kuin 'Avoin' tai 'Menettelyn tyyppi' (BT-105) arvo on yhtä suuri kuin 'Muu yksivaiheinen menettely'</entry>
 <entry key="expression|name|604">'Menettelyn tyyppi' (BT-105) arvo on yhtä suuri kuin 'Muu monivaiheinen menettely'</entry>
 <entry key="expression|name|605">Muutettavan sopimuksen tunniste (BT-1501(c)-Contract) on täytetty</entry>
+<entry key="expression|name|606">'Verolainsäädännön asiakirjan ID' (OPT-111-Lot-FiscalLegis) ei ole läsnä</entry>
 <entry key="expression|name|61">'Perustelu sopimuksen tekemiselle suorahankintana' (BT-136-Procedure) ei ole yksi seuraavista: 'Aiemman ilmoituksen perusteella saatiin ainoastaan tarjouksia, jotka eivät vastaa tarjouspyyntöä tai joita ei voida hyväksyä. Neuvotteluihin otettiin mukaan ainoastaan ne aikaisemman menettelyn tarjoajat, jotka täyttivät valintaperusteet ja muodolliset vaatimukset ja joiden osalta edellytykset poissulkemisperusteiden soveltamiselle eivät täyttyneet', 'Tarve alkuperäiseltä toimeksisaajalta hankittaviin lisäurakoihin tai -palveluihin', 'Uudet urakat tai palvelut, jotka ovat aiemman urakan tai palvelun toistamista ja jotka tilataan direktiivissä asetettuja tiukkoja edellytyksiä noudattaen', 'Aiempaan ilmoitukseen ei ole saatu sopivia tarjouksia, osallistumishakemuksia eikä hakemuksia', 'Direktiivissä asetettujen tiukkojen edellytysten mukaisten alkuperäisen toimittajan aiempien tavaratoimitusten tai laitteistojen osittainen korvaaminen tai laajentaminen', 'Ainoan voittajan tai yhden voittajan kanssa suunnittelukilpailun sääntöjen mukaisesti tehtävä palveluhankintasopimus'</entry>
+<entry key="expression|name|612">Organisaatio on 'Ostaja'</entry>
 <entry key="expression|name|613">Tarjousta ei ole jätetty erälle, jolle 'Ulkomaisten tukien asetus (FSR)' (BT-681-Lot) on asetettu 'kyllä', eikä eräryhmälle, joka sisältää erän, jolle 'Ulkomaisten tukien asetus (FSR)' (BT-681-Lot) on asetettu 'kyllä'</entry>
 <entry key="expression|name|614">Ilmoitusta ei ole tunnistettu 'Valintaperusteiden lähde':ksi</entry>
 <entry key="expression|name|615">Olevan valintakriteerin (BT-809) koodia ei ole</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'Organisaation tekninen ID (ORG-XXX)'(OPT-200-Organization-Company) on 'Organisaatio, joka täyttää tämän roolin' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Valintaperuste' (BT-809-Lot) ei ole olemassa tai 'Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia' (BT-52-Lot) ei ole 'kyllä' tai 'Menettelyn tyyppi' (BT-105) ei ole 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely', 'Muu monivaiheinen menettely' tai 'Rajoitettu'</entry>
 <entry key="expression|name|663">Valittu arvo 'Voittajan valinnan tila' (BT-142-LotResult) on yhtä suuri kuin 'Voittajaa ei ole vielä valittu, ja kilpailu on edelleen kesken.', tai valittu arvo 'Voittajan valinnan tila' (BT-142-LotResult) on yhtä suuri kuin 'Voittajaa ei valittu ja kilpailu on suljettu.' ja 'Syy, miksi voittajaa ei ole valittu' (BT-144-LotResult) on yhtä suuri kuin 'Tarjouksia, osallistumishakemuksia tai hankkeita ei saatu'</entry>
-<entry key="expression|name|664">'Maaryhmittely (NUTS)' (BT-5071-Procedure) täytyy vastata yhtä NUTS-koodeista määritetylle 'Maa' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Maa' (BT-514-Organization-Company) on läsnä ja 'Maaryhmittely (NUTS)' (BT-507-Organization-Company) on läsnä</entry>
 <entry key="expression|name|665">'Maa' (BT-514-Organization-TouchPoint) on läsnä ja 'Maaryhmittely (NUTS)' (BT-507-Organization-TouchPoint) on läsnä</entry>
 <entry key="expression|name|666">'Maa' (BT-514-UBO) on läsnä ja 'Maaryhmittely (NUTS)' (BT-507-UBO) on läsnä</entry>
 <entry key="expression|name|667">'Maa' (BT-514-Business) on läsnä ja 'Maaryhmittely (NUTS)' (BT-507-Business) on läsnä</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Alihankinta' (BT-773-Tender) ei ole 'Kyllä'</entry>
 <entry key="expression|name|670">'Maa' (BT-5141-Lot is present) ja 'Maaryhmittely (NUTS)' (BT-5071-Lot) on läsnä</entry>
 <entry key="expression|name|671">'Luku on tyypiltään painotus' (BT-5421) ei ole 'Ensisijaisuusjärjestys'</entry>
-<entry key="expression|name|676">tarjoajaosapuolessa on vähemmän kuin kaksi päätarjoajaa</entry>
+<entry key="expression|name|675">Sopimus kattaa 'Urakat' tai 'Palvelut'</entry>
+<entry key="expression|name|676">'Tarjoava osapuoli' koostuu alle kahdesta pääasiallisesta tarjoajasta</entry>
 <entry key="expression|name|677">Käytössä ei ollut puitejärjestelyä tai 'Puitejärjestelyn enimmäisarvo' (BT-709-LotResult) ei ole</entry>
 <entry key="expression|name|678">LotResultia ei ole, tai ei ole tarjousta LotResultin kattamalle erälle eikä tarjousta millekään eräryhmälle, joka sisältäisi LotResultin erän, tai ei ole tarjousta eikä LotResultille ole määritelty mitään erää</entry>
 <entry key="expression|name|679">'Menettelyn tyyppi' (BT-105-Procedure) ei ole 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua' ja 'Oikeusperusta' (BT-01-notice) ei ole 'Asetus (EU, Euratom) 2024/2509' ja on vähintään yksi 'Sopimukseen johtaneen tarjouksen tunniste' (BT-3202-Contract)</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Lisätietojen pyytämisen määräaika' (BT-132(d)-Lot) on täytetty</entry>
 <entry key="expression|name|7">'Maa' (BT-5141-Part) on täytetty</entry>
 <entry key="expression|name|70">'Alihankinnan prosenttiosuus tiedossa' (BT-731-Tender) ei ole 'kyllä'</entry>
+<entry key="expression|name|701">'Oikeusperusta' (BT-01(c)-Procedure) ei ole täytetty</entry>
 <entry key="expression|name|71">'Alihankinta' (BT-773-Tender) on 'Kyllä'</entry>
 <entry key="expression|name|72">Voittajaa ei valittu tai 'Käytetään puitejärjestelyä' (BT-765-Lot) ei vastaa menettelyn puitesopimusta</entry>
 <entry key="expression|name|74">'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) ei ole täytetty</entry>

@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Die Informationen zur Vergabe von Unteraufträgen, die im Angebot anzugeben sind.</entry>
 <entry key="business-term|description|BT-660">Der auf der Grundlage der Angebote des bzw. der Gewinner(s) neu geschätzte wahrscheinliche Wert, der im Rahmen einer Rahmenvereinbarung während der gesamten Laufzeit und für alle Lose, einschließlich der Optionen und Verlängerungen, als Auftrag vergeben werden kann.</entry>
 <entry key="business-term|description|BT-661">Die Höchstzahl der Bewerber, die zur zweiten Stufe des Verfahrens eingeladen werden, ist festgelegt.</entry>
+<entry key="business-term|description|BT-67(a)">Art des Ausschlussgrundes gemäß den Richtlinien über die Vergabe öffentlicher Aufträge.</entry>
+<entry key="business-term|description|BT-67(b)">Kurze Beschreibung der Kriterien, die zum Ausschluss von Bietern führen könnten</entry>
 <entry key="business-term|description|BT-681">Die Verordnung über drittstaatliche Subventionen (EU) 2022/2560 findet gemäß Artikel 28 dieser Verordnung Anwendung auf dieses Vergabeverfahren.</entry>
 <entry key="business-term|description|BT-682">Gemäß Verordnung (EU) 2022/2560 über drittstaatliche Subventionen angewandte Maßnahmen.</entry>
 <entry key="business-term|description|BT-684">Maßnahmen gemäß der Verordnung (EU) 2022/1031 über das Internationale Beschaffungsinstrument (IPI) gelten für dieses Beschaffungsverfahren</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Energieeffizienzkennzeichnungen der Produkte (A+++, A++, A+, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">Der Wert des Energieverbrauchs in kWh/Jahr für Produkte, für die kein Label existiert, und Energieeinsparungen in kWh/Jahr für Dienstleistungen, Gebäude oder Arbeiten. Für Produkte bitte den jährlichen Energieverbrauch des Produkts angeben. Für Dienstleistungen, Arbeiten und Gebäude bitte die jährlichen Energieeinsparungen angeben.</entry>
 <entry key="business-term|description|BT-814">Der Wert der Energieeinsparungen in kWh/Jahr für Produkte, Dienstleistungen, Bauleistungen und Gebäude. Geben Sie die jährlichen Energieeinsparungen an.</entry>
-<entry key="business-term|description|BT-815">Die angegebene oder geschätzte Menge. Geben Sie für Produkte die Anzahl der Produkte an. Geben Sie für Gebäude die Nutzfläche in Quadratmetern an. Für Bauleistungen oder Dienstleistungen ist kein Wert erforderlich.</entry>
+<entry key="business-term|description|BT-815">Die angegebene oder geschätzte Menge. Geben Sie für Produkte die Anzahl der Produkte an. Geben Sie für Gebäude die Nutzfläche in Quadratmetern an. Für Bauleistungen oder Dienstleistungen wird der Wert in der Regel 1 betragen.</entry>
 <entry key="business-term|description|BT-821">Wo die Eignungskriterien festgelegt sind (z. B. in Auftragsunterlagen, in der Bekanntmachung oder in der Einheitlichen Europäischen Eigenerklärung).</entry>
 <entry key="business-term|description|BT-88">Die wichtigsten Merkmale des Verfahrens (z. B. Beschreibung der einzelnen Stufen) und Informationen darüber, wo die vollständigen Vorschriften für das Verfahren zu finden sind. Diese Angaben sind zu machen, wenn das Verfahren nicht zu den in den Vergaberichtlinien genannten Verfahren gehört. Dies kann beispielsweise bei Konzessionen der Fall sein, bzw. wenn es sich um soziale oder andere besondere Dienstleistungen handelt oder im Falle einer freiwilligen Veröffentlichung von Vergabeverfahren mit einem Wert unterhalb der EU-Schwellenwerte für die Auftragsvergabe.</entry>
 <entry key="business-term|description|BT-92">Elektronische Bestellung findet Anwendung.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Obligatorische Angabe der Vergabe von Unteraufträgen</entry>
 <entry key="business-term|name|BT-660">Neu geschätzter Wert der Rahmenvereinbarung</entry>
 <entry key="business-term|name|BT-661">Die Höchstzahl der Bewerber, die zur zweiten Stufe des Verfahrens eingeladen werden, ist festgelegt.</entry>
+<entry key="business-term|name|BT-67(a)">Ausschlussgründe</entry>
+<entry key="business-term|name|BT-67(b)">Beschreibung der Ausschlussgründe</entry>
 <entry key="business-term|name|BT-681">Verordnung zu ausländischen Subventionen</entry>
 <entry key="business-term|name|BT-682">Ausländische Subventionsmaßnahmen</entry>
 <entry key="business-term|name|BT-684">Es gelten Maßnahmen im Rahmen des Instruments betreffend das internationale Beschaffungswesen</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Anwendung dieses Kriteriums</entry>
 <entry key="business-term|name|BT-749">Bezeichnung</entry>
 <entry key="business-term|name|BT-75">Beschreibung der finanziellen Sicherheit</entry>
-<entry key="business-term|name|BT-750">Beschreibung</entry>
+<entry key="business-term|name|BT-750">Beschreibung des Auswahlkriteriums</entry>
 <entry key="business-term|name|BT-751">Eine Sicherheitsleistung ist erforderlich</entry>
 <entry key="business-term|name|BT-752">Eignungskriterien — Einladung zur zweiten Stufe, Zahl</entry>
 <entry key="business-term|name|BT-7531">Bei der Zahl handelt sich um eine Gewichtung</entry>

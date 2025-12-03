@@ -408,7 +408,9 @@
 <entry key="expression|name|603">De waarde van 'Type procedure' (BT-105) is gelijk aan 'Openbaar' of de waarde van 'Type procedure' (BT-105) is gelijk aan 'Andere procedure in één fase'</entry>
 <entry key="expression|name|604">De waarde van 'Type procedure' (BT-105) is gelijk aan 'Andere procedure in meerdere fasen'</entry>
 <entry key="expression|name|605">De identificatie van het te wijzigen contract (BT-1501(c)-Contract) is ingevuld</entry>
+<entry key="expression|name|606">'ID van het document van de belastingwetgeving' (OPT-111-Lot-FiscalLegis) is niet aanwezig</entry>
 <entry key="expression|name|61">'Rechtvaardiging voor onderhandse gunning' (BT-136-Procedure) is niet een van de volgende: 'Er zijn naar aanleiding van een eerdere aankondiging alleen onregelmatige of onaanvaardbare inschrijvingen ontvangen. Aan de onderhandelingen mochten alleen inschrijvers deelnemen die in de eerdere procedure aan de selectiecriteria voldeden, op wie geen uitsluitingsgronden van toepassing waren en die aan de formele vereisten voldeden'; 'Noodzaak van aanvullende werken of diensten door de oorspronkelijke contractant'; 'Nieuwe werken of diensten die een herhaling zijn van bestaande werken of diensten en die zijn besteld onder de in de richtlijn vermelde strikte voorwaarden'; 'Er zijn naar aanleiding van een eerdere aankondiging geen geschikte inschrijvingen, verzoeken tot deelname of aanvragen ontvangen'; 'Gedeeltelijke vernieuwing of uitbreiding van bestaande leveringen of installaties door de oorspronkelijke leverancier, besteld onder de in de richtlijn vermelde strikte voorwaarden'; 'Opdracht voor diensten die volgens de voorschriften van een prijsvraag voor ontwerpen aan de winnaar of aan een van de winnaars moet worden gegund'</entry>
+<entry key="expression|name|612">De organisatie is een 'Koper'</entry>
 <entry key="expression|name|613">De aanbieding is niet ingediend voor een perceel waarvoor 'Verordening inzake buitenlandse subsidies' (BT-681-Lot) is ingesteld op 'ja', noch voor een groep percelen die een perceel bevat waarvoor 'Verordening inzake buitenlandse subsidies' (BT-681-Lot) is ingesteld op 'ja'</entry>
 <entry key="expression|name|614">De kennisgeving is niet geïdentificeerd als een 'Bron van selectiecriteria'</entry>
 <entry key="expression|name|615">De code voor het selectiecriterium (BT-809) bestaat niet</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'Technische ID van de organisatie (ORG-XXX)'(OPT-200-Organization-Company) is een 'Organisatie die deze rol vervult' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Selectiecriterium' (BT-809-Lot) bestaat niet of 'De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen' (BT-52-Lot) is niet 'ja' of 'Type procedure' (BT-105) is niet 'Concurrentiegerichte dialoog', 'Innovatiepartnerschap', 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling', 'Andere procedure in meerdere fasen' of 'Niet-openbaar'</entry>
 <entry key="expression|name|663">De gekozen waarde voor 'Selectiestatus winnaar' (BT-142-LotResult) is gelijk aan 'Er is nog geen winnaar gekozen, maar de mededinging loopt nog.', of de gekozen waarde voor 'Selectiestatus winnaar' (BT-142-LotResult) is gelijk aan 'Er is geen winnaar gekozen en de mededinging is gesloten.' en 'De reden waarom geen winnaar is gekozen' (BT-144-LotResult) is gelijk aan 'Er zijn geen inschrijvingen, verzoeken tot deelname of projecten ontvangen'</entry>
-<entry key="expression|name|664">'Onderverdeling land (NUTS)' (BT-5071-Procedure) moet overeenkomen met een van de NUTS-codes voor de opgegeven 'Land' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Land' (BT-514-Organization-Company) is aanwezig en 'Onderverdeling land (NUTS)' (BT-507-Organization-Company) is aanwezig</entry>
 <entry key="expression|name|665">'Land' (BT-514-Organization-TouchPoint) is aanwezig en 'Onderverdeling land (NUTS)' (BT-507-Organization-TouchPoint) is aanwezig</entry>
 <entry key="expression|name|666">'Land' (BT-514-UBO) is aanwezig en 'Onderverdeling land (NUTS)' (BT-507-UBO) is aanwezig</entry>
 <entry key="expression|name|667">'Land' (BT-514-Business) is aanwezig en 'Onderverdeling land (NUTS)' (BT-507-Business) is aanwezig</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Onderaanneming' (BT-773-Tender) is niet 'Ja'</entry>
 <entry key="expression|name|670">'Land' (BT-5141-Lot is present) en 'Onderverdeling land (NUTS)' (BT-5071-Lot) is aanwezig</entry>
 <entry key="expression|name|671">'Numerieke waarde is van het type gewicht' (BT-5421) is niet 'Volgorde van belang'</entry>
-<entry key="expression|name|676">de Inschrijver bestaat uit minder dan 2 Hoofdinschrijvers</entry>
+<entry key="expression|name|675">Het contract omvat 'Werken' of 'Diensten'</entry>
+<entry key="expression|name|676">'Aanbiedende partij' bestaat uit minder dan twee hoofdaannemers</entry>
 <entry key="expression|name|677">Er was geen kaderovereenkomst of 'Maximumwaarde van de raamovereenkomst' (BT-709-LotResult) is niet aanwezig</entry>
 <entry key="expression|name|678">Er is geen LotResult, of er is geen aanbesteding voor het door LotResult gedekte perceel en er is geen aanbesteding voor een groep van percelen die het perceel van LotResult zou bevatten, of er is geen aanbesteding en er is geen perceel gespecificeerd voor LotResult</entry>
 <entry key="expression|name|679">'Type procedure' (BT-105-Procedure) is niet 'Onderhandelingsprocedure zonder voorafgaande oproep tot mededinging' en 'Rechtsgrondslag' (BT-01-notice) is niet 'Verordening (EU, Euratom) 2024/2509' en er is minstens één 'ID opdracht inschrijving' (BT-3202-Contract)</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Termijn voor verzoeken om aanvullende informatie' (BT-132(d)-Lot) is ingevuld</entry>
 <entry key="expression|name|7">'Land' (BT-5141-Part) is ingevuld</entry>
 <entry key="expression|name|70">'Percentage onderaanneming is bekend' (BT-731-Tender) is niet 'ja'</entry>
+<entry key="expression|name|701">'Rechtsgrondslag' (BT-01(c)-Procedure) is niet ingevuld</entry>
 <entry key="expression|name|71">'Onderaanneming' (BT-773-Tender) is 'Ja'</entry>
 <entry key="expression|name|72">Er is geen winnaar gekozen of 'Het gaat om een raamovereenkomst' (BT-765-Lot) komt niet overeen met de raamovereenkomst van de procedure</entry>
 <entry key="expression|name|74">'Versie van de eerdere aankondiging die moet worden gewijzigd' (BT-758-notice) is niet ingevuld</entry>

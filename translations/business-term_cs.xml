@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">Informace o subdodávkách, které musí být uvedeny v nabídce.</entry>
 <entry key="business-term|description|BT-660">Hodnota, která bude pravděpodobně vynaložena za celou dobu trvání rámcové dohody, včetně opčních práv a prodloužení, znovu odhadnutá na základě vítězné nabídky nebo vítězných nabídek.</entry>
 <entry key="business-term|description|BT-661">Existuje maximální počet zájemců, kteří mohou být vyzváni k účasti ve druhé fázi řízení.</entry>
+<entry key="business-term|description|BT-67(a)">Druh důvodu pro vyloučení, jak je uveden ve směrnicích o zadávání veřejných zakázek.</entry>
+<entry key="business-term|description|BT-67(b)">Stručný popis kritérií, která by mohla vést k vyloučení uchazečů</entry>
 <entry key="business-term|description|BT-681">Nařízení o zahraničních subvencích (EU) 2022/2560 se podle jeho článku 28 vztahuje na toto zadávací řízení.</entry>
 <entry key="business-term|description|BT-682">Opatření uplatněná podle nařízení o zahraničních subvencích (EU) 2022/2560.</entry>
 <entry key="business-term|description|BT-684">Nařízení o mezinárodním nástroji pro veřejné zakázky (IPI) (EU) 2022/1031 se vztahuje na tento postup veřejného zadávání</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Štítky označující energetickou účinnost produktů (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">Hodnota spotřeby energie v kWh/rok pro výrobky, pro které neexistuje štítek, a úspory energie v kWh/rok pro služby, budovy nebo práce. Pro výrobky prosím nahláste roční spotřebu energie výrobku. Pro služby, práce a budovy prosím nahláste roční úspory energie.</entry>
 <entry key="business-term|description|BT-814">Hodnota úspor energie v kWh/rok u výrobků, služeb, stavebních prací a budov. Uveďte roční úspory energie.</entry>
-<entry key="business-term|description|BT-815">Poskytnuté nebo odhadované množství. V případě produktů uveďte počet produktů. V případě budov uveďte užitnou podlahovou plochu v metrech čtverečních. V případě stavebních prací nebo služeb není zapotřebí žádná hodnota.</entry>
+<entry key="business-term|description|BT-815">Poskytnuté nebo odhadované množství. V případě produktů uveďte počet produktů. V případě budov uveďte užitnou podlahovou plochu v metrech čtverečních. Pro stavební práce nebo služby bude hodnota obvykle 1.</entry>
 <entry key="business-term|description|BT-821">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
 <entry key="business-term|description|BT-88">Hlavní rysy řízení (např. popis jednotlivých fází) a informace, kde lze nalézt úplné znění pravidel. Tyto informace se uvedou, jedná-li se o řízení, které není uvedeno ve směrnicích o zadávání veřejných zakázek. Jedná se například o koncese na sociální a jiné specifické služby a případy dobrovolného uveřejnění zadávacích řízení nedosahujících finančních limitů EU pro veřejné zakázky.</entry>
 <entry key="business-term|description|BT-92">Budou používány elektronické objednávky.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Povinné uvádění subdodávek</entry>
 <entry key="business-term|name|BT-660">Znovu odhadnutá hodnota rámcové dohody</entry>
 <entry key="business-term|name|BT-661">Existuje maximální počet zájemců, kteří mohou být vyzváni k účasti ve druhé fázi řízení</entry>
+<entry key="business-term|name|BT-67(a)">Důvody pro vyloučení</entry>
+<entry key="business-term|name|BT-67(b)">Popis důvodů vyloučení</entry>
 <entry key="business-term|name|BT-681">Nařízení o zahraničních dotacích</entry>
 <entry key="business-term|name|BT-682">Cizí dotace</entry>
 <entry key="business-term|name|BT-684">Použijí se opatření nástroje pro mezinárodní zadávání veřejných zakázek</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Použití tohoto kritéria</entry>
 <entry key="business-term|name|BT-749">Jméno/název</entry>
 <entry key="business-term|name|BT-75">Popis finanční záruky</entry>
-<entry key="business-term|name|BT-750">Popis</entry>
+<entry key="business-term|name|BT-750">Popis výběrového kritéria</entry>
 <entry key="business-term|name|BT-751">Je požadována záruka</entry>
 <entry key="business-term|name|BT-752">Číslo spojené s kvalifikačními kritérii pro vyzvání k účasti ve druhé fázi</entry>
 <entry key="business-term|name|BT-7531">Číslo je typem váhy</entry>

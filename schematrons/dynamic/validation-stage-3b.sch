@@ -53,7 +53,6 @@
 		<assert id="OPP-111-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPP-111-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cbc:CompanyID">
-		<assert id="BT-501-Business-European-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-501-Business-European-Scheme_MA</assert>
 		<assert id="BT-501-Business-European_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-501-Business-European_WS</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cbc:RegistrationDate">
@@ -63,7 +62,6 @@
 		<assert id="BT-500-Business-European_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-500-Business-European_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'national']/cbc:CompanyID">
-		<assert id="BT-501-Business-National-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-501-Business-National-Scheme_MA</assert>
 		<assert id="BT-501-Business-National_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-501-Business-National_WS</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'national']/cbc:RegistrationName">
@@ -120,12 +118,10 @@
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00300-0289" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00300-0289</assert>
-		<assert id="OPT-300-Procedure-Buyer-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-300-Procedure-Buyer-Scheme_MA</assert>
 		<assert id="OPT-300-Procedure-Buyer_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-300-Procedure-Buyer_WS</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cac:Party/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00300-0201" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00300-0201</assert>
-		<assert id="OPT-300-Procedure-SProvider-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-300-Procedure-SProvider-Scheme_MA</assert>
 		<assert id="OPT-300-Procedure-SProvider_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-300-Procedure-SProvider_WS</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty/cbc:ServiceTypeCode">
@@ -219,7 +215,6 @@
 		<assert id="BR-BT-00024-0303" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00024-0303</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cbc:ID">
-		<assert id="BT-22-Procedure-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-22-Procedure-Scheme_MA</assert>
 		<assert id="BT-22-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-22-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cbc:Name">
@@ -284,7 +279,6 @@
 		<assert id="BR-BT-00036-0194" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00036-0194</assert>
 		<assert id="BR-BT-00036-0197_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00036-0197_max</assert>
 		<assert id="BR-BT-00036-0197_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00036-0197_min</assert>
-		<assert id="BT-36-Lot-Unit_MA" role="ERROR" test="count(@unitCode) > 0">rule|text|BT-36-Lot-Unit_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00036-0152" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00036-0152</assert>
@@ -397,14 +391,10 @@
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Description/@languageID">
 		<assert id="BR-BT-00024-0300" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00024-0300</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:EstimatedOverallContractQuantity">
-		<assert id="BT-625-Lot_MA" role="ERROR" test="count(@unitCode) > 0">rule|text|BT-625-Lot_MA</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:EstimatedOverallContractQuantity/@unitCode">
 		<assert id="BR-BT-00625-0052" role="ERROR" test="normalize-space(.) = ('GRM', 'H87', 'HUR', 'KGM', 'KMK', 'KTM', 'LTR', 'MGM', 'MLT', 'MTK', 'MTR', 'TNE')">rule|text|BR-BT-00625-0052</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ID">
-		<assert id="BT-22-Lot-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-22-Lot-Scheme_MA</assert>
 		<assert id="BT-22-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-22-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:Name">
@@ -495,7 +485,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-BT-00125-0154" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-BT-00125-0154</assert>
-		<assert id="BT-125_i_-Lot-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-125_i_-Lot-Scheme_MA</assert>
 		<assert id="BT-125_i_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-125_i_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/@schemeName">
@@ -583,7 +572,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1209" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1209</assert>
-		<assert id="OPT-301-Lot-AddInfo-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-AddInfo-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-AddInfo_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-AddInfo_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -596,7 +584,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealInformationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1215" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1215</assert>
-		<assert id="OPT-301-Lot-ReviewInfo-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-ReviewInfo-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-ReviewInfo_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-ReviewInfo_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealInformationParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -604,7 +591,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1216" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1216</assert>
-		<assert id="OPT-301-Lot-ReviewOrg-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-ReviewOrg-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-ReviewOrg_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-ReviewOrg_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -612,7 +598,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1214" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1214</assert>
-		<assert id="OPT-301-Lot-Mediator-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-Mediator-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-Mediator_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-Mediator_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -648,7 +633,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2799" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2799</assert>
-		<assert id="BT-195_BT-5422_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-5422_-Lot-List_MA</assert>
 		<assert id="BT-195_BT-5422_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-5422_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix']/efbc:PublicationDate">
@@ -667,7 +651,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3505" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3505</assert>
-		<assert id="BT-195_BT-541_-Lot-Fixed-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-541_-Lot-Fixed-List_MA</assert>
 		<assert id="BT-195_BT-541_-Lot-Fixed_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-541_-Lot-Fixed_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:PublicationDate">
@@ -691,7 +674,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3509" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3509</assert>
-		<assert id="BT-195_BT-541_-Lot-Threshold-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-541_-Lot-Threshold-List_MA</assert>
 		<assert id="BT-195_BT-541_-Lot-Threshold_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-541_-Lot-Threshold_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:PublicationDate">
@@ -710,7 +692,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2800" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2800</assert>
-		<assert id="BT-195_BT-5423_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-5423_-Lot-List_MA</assert>
 		<assert id="BT-195_BT-5423_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-5423_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr']/efbc:PublicationDate">
@@ -734,7 +715,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3501" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3501</assert>
-		<assert id="BT-195_BT-541_-Lot-Weight-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-541_-Lot-Weight-List_MA</assert>
 		<assert id="BT-195_BT-541_-Lot-Weight_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-541_-Lot-Weight_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:PublicationDate">
@@ -753,7 +733,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2798" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2798</assert>
-		<assert id="BT-195_BT-5421_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-5421_-Lot-List_MA</assert>
 		<assert id="BT-195_BT-5421_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-5421_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']/efbc:PublicationDate">
@@ -777,7 +756,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2804" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2804</assert>
-		<assert id="BT-195_BT-540_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-540_-Lot-List_MA</assert>
 		<assert id="BT-195_BT-540_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-540_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des']/efbc:PublicationDate">
@@ -796,7 +774,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2802" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2802</assert>
-		<assert id="BT-195_BT-734_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-734_-Lot-List_MA</assert>
 		<assert id="BT-195_BT-734_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-734_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam']/efbc:PublicationDate">
@@ -815,7 +792,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2803" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2803</assert>
-		<assert id="BT-195_BT-539_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-539_-Lot-List_MA</assert>
 		<assert id="BT-195_BT-539_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-539_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ']/efbc:PublicationDate">
@@ -846,7 +822,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2797" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2797</assert>
-		<assert id="BT-195_BT-543_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-543_-Lot-List_MA</assert>
 		<assert id="BT-195_BT-543_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-543_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com']/efbc:PublicationDate">
@@ -865,7 +840,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2796" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2796</assert>
-		<assert id="BT-195_BT-733_-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-733_-Lot-List_MA</assert>
 		<assert id="BT-195_BT-733_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-733_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord']/efbc:PublicationDate">
@@ -997,7 +971,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1210" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1210</assert>
-		<assert id="OPT-301-Lot-DocProvider-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-DocProvider-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-DocProvider_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-DocProvider_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1012,7 +985,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1211" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1211</assert>
-		<assert id="OPT-301-Lot-EmployLegis-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-EmployLegis-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-EmployLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-EmployLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1027,7 +999,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1212" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1212</assert>
-		<assert id="OPT-301-Lot-EnvironLegis-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-EnvironLegis-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-EnvironLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-EnvironLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1042,7 +1013,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1213" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1213</assert>
-		<assert id="OPT-301-Lot-FiscalLegis-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-FiscalLegis-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-FiscalLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-FiscalLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1091,7 +1061,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1217" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1217</assert>
-		<assert id="OPT-301-Lot-TenderEval-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-TenderEval-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-TenderEval_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-TenderEval_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1099,7 +1068,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1218" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1218</assert>
-		<assert id="OPT-301-Lot-TenderReceipt-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Lot-TenderReceipt-Scheme_MA</assert>
 		<assert id="OPT-301-Lot-TenderReceipt_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Lot-TenderReceipt_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1113,7 +1081,6 @@
 		<assert id="BR-BT-00098-0055" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00098-0055</assert>
 		<assert id="BR-BT-00098-0056_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00098-0056_max</assert>
 		<assert id="BR-BT-00098-0056_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00098-0056_min</assert>
-		<assert id="BT-98-Lot-Unit_MA" role="ERROR" test="count(@unitCode) > 0">rule|text|BT-98-Lot-Unit_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00098-0054" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00098-0054</assert>
@@ -1130,7 +1097,7 @@
 		<assert id="BT-761-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-761-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='selection-criteria-source']/cbc:TendererRequirementTypeCode">
-		<assert id="BR-BT-00821-0051" role="ERROR" test="normalize-space(.) = ('epo-notice', 'epo-procurement-document', 'epo-sub-espd')">rule|text|BR-BT-00821-0051</assert>
+		<assert id="BR-BT-00821-0051" role="ERROR" test="normalize-space(.) = ('epo-acc-espd-request', 'epo-notice', 'epo-procurement-document')">rule|text|BR-BT-00821-0051</assert>
 		<assert id="BT-821-Lot-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-821-Lot-List_MA</assert>
 		<assert id="BT-821-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-821-Lot_WS</assert>
 	</rule>
@@ -1254,7 +1221,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID">
 		<assert id="BR-BT-00137-0155" role="ERROR" test="matches(normalize-space(.),'^LOT-\d{4}$')">rule|text|BR-BT-00137-0155</assert>
-		<assert id="BT-137-Lot-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-137-Lot-Scheme_MA</assert>
 		<assert id="BT-137-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-137-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
@@ -1278,7 +1244,6 @@
 		<assert id="BR-BT-00024-0301" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00024-0301</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cbc:ID">
-		<assert id="BT-22-LotsGroup-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-22-LotsGroup-Scheme_MA</assert>
 		<assert id="BT-22-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-22-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cbc:Name">
@@ -1327,7 +1292,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2790" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2790</assert>
-		<assert id="BT-195_BT-5422_-LotsGroup-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-5422_-LotsGroup-List_MA</assert>
 		<assert id="BT-195_BT-5422_-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-5422_-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix']/efbc:PublicationDate">
@@ -1346,7 +1310,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3504" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3504</assert>
-		<assert id="BT-195_BT-541_-LotsGroup-Fixed-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-541_-LotsGroup-Fixed-List_MA</assert>
 		<assert id="BT-195_BT-541_-LotsGroup-Fixed_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-541_-LotsGroup-Fixed_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:PublicationDate">
@@ -1370,7 +1333,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3508" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3508</assert>
-		<assert id="BT-195_BT-541_-LotsGroup-Threshold-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-541_-LotsGroup-Threshold-List_MA</assert>
 		<assert id="BT-195_BT-541_-LotsGroup-Threshold_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-541_-LotsGroup-Threshold_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:PublicationDate">
@@ -1389,7 +1351,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2791" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2791</assert>
-		<assert id="BT-195_BT-5423_-LotsGroup-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-5423_-LotsGroup-List_MA</assert>
 		<assert id="BT-195_BT-5423_-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-5423_-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr']/efbc:PublicationDate">
@@ -1413,7 +1374,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3500" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3500</assert>
-		<assert id="BT-195_BT-541_-LotsGroup-Weight-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-541_-LotsGroup-Weight-List_MA</assert>
 		<assert id="BT-195_BT-541_-LotsGroup-Weight_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-541_-LotsGroup-Weight_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num']/efbc:PublicationDate">
@@ -1432,7 +1392,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2789" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2789</assert>
-		<assert id="BT-195_BT-5421_-LotsGroup-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-5421_-LotsGroup-List_MA</assert>
 		<assert id="BT-195_BT-5421_-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-5421_-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei']/efbc:PublicationDate">
@@ -1456,7 +1415,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2795" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2795</assert>
-		<assert id="BT-195_BT-540_-LotsGroup-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-540_-LotsGroup-List_MA</assert>
 		<assert id="BT-195_BT-540_-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-540_-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des']/efbc:PublicationDate">
@@ -1475,7 +1433,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2793" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2793</assert>
-		<assert id="BT-195_BT-734_-LotsGroup-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-734_-LotsGroup-List_MA</assert>
 		<assert id="BT-195_BT-734_-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-734_-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam']/efbc:PublicationDate">
@@ -1494,7 +1451,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2794" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2794</assert>
-		<assert id="BT-195_BT-539_-LotsGroup-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-539_-LotsGroup-List_MA</assert>
 		<assert id="BT-195_BT-539_-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-539_-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ']/efbc:PublicationDate">
@@ -1525,7 +1481,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2788" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2788</assert>
-		<assert id="BT-195_BT-543_-LotsGroup-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-543_-LotsGroup-List_MA</assert>
 		<assert id="BT-195_BT-543_-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-543_-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com']/efbc:PublicationDate">
@@ -1544,7 +1499,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2787" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2787</assert>
-		<assert id="BT-195_BT-733_-LotsGroup-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-733_-LotsGroup-List_MA</assert>
 		<assert id="BT-195_BT-733_-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-733_-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord']/efbc:PublicationDate">
@@ -1558,7 +1512,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cbc:ID">
 		<assert id="BR-BT-00137-0156" role="ERROR" test="matches(normalize-space(.),'^GLO-\d{4}$')">rule|text|BR-BT-00137-0156</assert>
-		<assert id="BT-137-LotsGroup-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-137-LotsGroup-Scheme_MA</assert>
 		<assert id="BT-137-LotsGroup_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-137-LotsGroup_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:AdditionalCommodityClassification/cbc:ItemClassificationCode">
@@ -1586,7 +1539,6 @@
 		<assert id="BR-BT-00036-0195" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-BT-00036-0195</assert>
 		<assert id="BR-BT-00036-0196_max" role="ERROR" test="number(normalize-space(.)) le number('9999')">rule|text|BR-BT-00036-0196_max</assert>
 		<assert id="BR-BT-00036-0196_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00036-0196_min</assert>
-		<assert id="BT-36-Part-Unit_MA" role="ERROR" test="count(@unitCode) > 0">rule|text|BT-36-Part-Unit_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode">
 		<assert id="BR-BT-00036-0153" role="ERROR" test="normalize-space(.) = ('DAY', 'MONTH', 'WEEK', 'YEAR')">rule|text|BR-BT-00036-0153</assert>
@@ -1651,7 +1603,6 @@
 		<assert id="BR-BT-00024-0302" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00024-0302</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cbc:ID">
-		<assert id="BT-22-Part-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-22-Part-Scheme_MA</assert>
 		<assert id="BT-22-Part_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-22-Part_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cbc:Name">
@@ -1692,7 +1643,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-BT-00125-0155" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-BT-00125-0155</assert>
-		<assert id="BT-125_i_-Part-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-125_i_-Part-Scheme_MA</assert>
 		<assert id="BT-125_i_-Part_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-125_i_-Part_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/@schemeName">
@@ -1713,7 +1663,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1221" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1221</assert>
-		<assert id="OPT-301-Part-AddInfo-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-AddInfo-Scheme_MA</assert>
 		<assert id="OPT-301-Part-AddInfo_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-AddInfo_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AdditionalInformationParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1721,7 +1670,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealInformationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1227" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1227</assert>
-		<assert id="OPT-301-Part-ReviewInfo-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-ReviewInfo-Scheme_MA</assert>
 		<assert id="OPT-301-Part-ReviewInfo_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-ReviewInfo_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealInformationParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1729,7 +1677,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1228" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1228</assert>
-		<assert id="OPT-301-Part-ReviewOrg-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-ReviewOrg-Scheme_MA</assert>
 		<assert id="OPT-301-Part-ReviewOrg_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-ReviewOrg_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:AppealReceiverParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1737,7 +1684,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1226" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1226</assert>
-		<assert id="OPT-301-Part-Mediator-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-Mediator-Scheme_MA</assert>
 		<assert id="OPT-301-Part-Mediator_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-Mediator_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:AppealTerms/cac:MediationParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1777,7 +1723,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1222" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1222</assert>
-		<assert id="OPT-301-Part-DocProvider-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-DocProvider-Scheme_MA</assert>
 		<assert id="OPT-301-Part-DocProvider_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-DocProvider_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:DocumentProviderParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1789,7 +1734,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1223" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1223</assert>
-		<assert id="OPT-301-Part-EmployLegis-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-EmployLegis-Scheme_MA</assert>
 		<assert id="OPT-301-Part-EmployLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-EmployLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1804,7 +1748,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1224" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1224</assert>
-		<assert id="OPT-301-Part-EnvironLegis-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-EnvironLegis-Scheme_MA</assert>
 		<assert id="OPT-301-Part-EnvironLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-EnvironLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1819,7 +1762,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1225" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1225</assert>
-		<assert id="OPT-301-Part-FiscalLegis-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-FiscalLegis-Scheme_MA</assert>
 		<assert id="OPT-301-Part-FiscalLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-FiscalLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1830,7 +1772,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1229" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1229</assert>
-		<assert id="OPT-301-Part-TenderEval-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-TenderEval-Scheme_MA</assert>
 		<assert id="OPT-301-Part-TenderEval_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-TenderEval_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderEvaluationParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1838,7 +1779,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1230" role="ERROR" test="matches(normalize-space(.),'^(ORG|TPO)-\d{4}$')">rule|text|BR-OPT-00301-1230</assert>
-		<assert id="OPT-301-Part-TenderReceipt-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Part-TenderReceipt-Scheme_MA</assert>
 		<assert id="OPT-301-Part-TenderReceipt_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Part-TenderReceipt_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:TenderRecipientParty/cac:PartyIdentification/cbc:ID/@schemeName">
@@ -1851,7 +1791,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cbc:ID">
 		<assert id="BR-BT-00137-0154" role="ERROR" test="matches(normalize-space(.),'^PAR-\d{4}$')">rule|text|BR-BT-00137-0154</assert>
-		<assert id="BT-137-Part-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-137-Part-Scheme_MA</assert>
 		<assert id="BT-137-Part_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-137-Part_WS</assert>
 	</rule>
 	<rule context="/*/cac:SenderParty/cac:Contact/cbc:ElectronicMail">
@@ -1860,7 +1799,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-OPP-00090-0051" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-OPP-00090-0051</assert>
-		<assert id="OPP-090-Procedure-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPP-090-Procedure-Scheme_MA</assert>
 		<assert id="OPP-090-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPP-090-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReason">
@@ -1881,7 +1819,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2782" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2782</assert>
-		<assert id="BT-195_BT-106_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-106_-Procedure-List_MA</assert>
 		<assert id="BT-195_BT-106_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-106_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc']/efbc:PublicationDate">
@@ -1900,7 +1837,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc-jus']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2783" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2783</assert>
-		<assert id="BT-195_BT-1351_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-1351_-Procedure-List_MA</assert>
 		<assert id="BT-195_BT-1351_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-1351_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-acc-jus']/efbc:PublicationDate">
@@ -1933,7 +1869,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-jus']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2784" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2784</assert>
-		<assert id="BT-195_BT-136_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-136_-Procedure-List_MA</assert>
 		<assert id="BT-195_BT-136_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-136_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-jus']/efbc:PublicationDate">
@@ -1952,7 +1887,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-pre']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2785" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2785</assert>
-		<assert id="BT-195_BT-1252_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-1252_-Procedure-List_MA</assert>
 		<assert id="BT-195_BT-1252_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-1252_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-pre']/efbc:PublicationDate">
@@ -1971,7 +1905,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-tex']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2786" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2786</assert>
-		<assert id="BT-195_BT-135_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-135_-Procedure-List_MA</assert>
 		<assert id="BT-195_BT-135_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-135_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[cbc:ProcessReasonCode/@listName='direct-award-justification']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='dir-awa-tex']/efbc:PublicationDate">
@@ -2009,7 +1942,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-fea']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2781" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2781</assert>
-		<assert id="BT-195_BT-88_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-88_-Procedure-List_MA</assert>
 		<assert id="BT-195_BT-88_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-88_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-fea']/efbc:PublicationDate">
@@ -2028,7 +1960,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2780" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2780</assert>
-		<assert id="BT-195_BT-105_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-105_-Procedure-List_MA</assert>
 		<assert id="BT-195_BT-105_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-105_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ']/efbc:PublicationDate">
@@ -2045,12 +1976,10 @@
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cac:ProcurementProjectLotReference/cbc:ID[@schemeName='Lot']">
 		<assert id="BR-BT-01375-0051" role="ERROR" test="matches(normalize-space(.),'^LOT-\d{4}$')">rule|text|BR-BT-01375-0051</assert>
-		<assert id="BT-1375-Procedure-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-1375-Procedure-Scheme_MA</assert>
 		<assert id="BT-1375-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-1375-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cac:LotsGroup/cbc:LotsGroupID">
 		<assert id="BR-BT-00330-0052" role="ERROR" test="matches(normalize-space(.),'^GLO-\d{4}$')">rule|text|BR-BT-00330-0052</assert>
-		<assert id="BT-330-Procedure-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-330-Procedure-Scheme_MA</assert>
 		<assert id="BT-330-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-330-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:LotDistribution/cbc:MaximumLotsAwardedNumeric">
@@ -2080,7 +2009,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2779" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2779</assert>
-		<assert id="BT-195_BT-09_-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-09_-Procedure-List_MA</assert>
 		<assert id="BT-195_BT-09_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-09_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law']/efbc:PublicationDate">
@@ -2122,7 +2050,7 @@
 		<assert id="BT-67_a_-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-67_a_-Procedure_WS</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:TendererQualificationRequest[cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode/@listName='exclusion-grounds-source']/cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode">
-		<assert id="BR-BT-00806-0051" role="ERROR" test="normalize-space(.) = ('epo-notice', 'epo-procurement-document', 'epo-sub-espd')">rule|text|BR-BT-00806-0051</assert>
+		<assert id="BR-BT-00806-0051" role="ERROR" test="normalize-space(.) = ('epo-acc-espd-request', 'epo-notice', 'epo-procurement-document')">rule|text|BR-BT-00806-0051</assert>
 		<assert id="BT-806-Procedure-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-806-Procedure-List_MA</assert>
 		<assert id="BT-806-Procedure_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-806-Procedure_WS</assert>
 	</rule>
@@ -2136,7 +2064,6 @@
 	</rule>
 	<rule context="/*/cbc:ID[@schemeName='notice-id']">
 		<assert id="BR-BT-00701-0052" role="ERROR" test="matches(normalize-space(.),'^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$')">rule|text|BR-BT-00701-0052</assert>
-		<assert id="BT-701-notice-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-701-notice-Scheme_MA</assert>
 		<assert id="BT-701-notice_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-701-notice_WS</assert>
 	</rule>
 	<rule context="/*/cbc:IssueDate">
@@ -2200,7 +2127,6 @@
 		<assert id="BR-BT-00795-0051" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XCG', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00795-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:ID">
-		<assert id="BT-804-Review-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-804-Review-Scheme_MA</assert>
 		<assert id="BT-804-Review_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-804-Review_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:Title/@languageID">
@@ -2222,7 +2148,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealProcessingParty/cac:Party/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-BT-00807-0051" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-BT-00807-0051</assert>
-		<assert id="BT-807-Review-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-807-Review-Scheme_MA</assert>
 		<assert id="BT-807-Review_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-807-Review_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealProcessingParty/efbc:AppealProcessingPartyTypeCode">
@@ -2241,7 +2166,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealingParty/cac:Party/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-BT-00808-0052" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-BT-00808-0052</assert>
-		<assert id="BT-808-Review-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-808-Review-Scheme_MA</assert>
 		<assert id="BT-808-Review_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-808-Review_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealID">
@@ -2325,7 +2249,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier">
 		<assert id="BR-BT-01501-0102" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-BT-01501-0102</assert>
-		<assert id="BT-1501_n_-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-1501_n_-Contract-Scheme_MA</assert>
 		<assert id="BT-1501_n_-Contract_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-1501_n_-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier/@schemeName">
@@ -2333,7 +2256,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ModifiedContractIdentifier">
 		<assert id="BR-BT-01501-0200" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|BR-BT-01501-0200</assert>
-		<assert id="BT-1501_c_-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-1501_c_-Contract-Scheme_MA</assert>
 		<assert id="BT-1501_c_-Contract_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-1501_c_-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:TotalAmount">
@@ -2350,7 +2272,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-app-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3009" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3009</assert>
-		<assert id="BT-195_BT-1118_-NoticeResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-1118_-NoticeResult-List_MA</assert>
 		<assert id="BT-195_BT-1118_-NoticeResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-1118_-NoticeResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-app-val']/efbc:PublicationDate">
@@ -2369,7 +2290,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2752" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2752</assert>
-		<assert id="BT-195_BT-118_-NoticeResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-118_-NoticeResult-List_MA</assert>
 		<assert id="BT-195_BT-118_-NoticeResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-118_-NoticeResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-max-val']/efbc:PublicationDate">
@@ -2388,7 +2308,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2753" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2753</assert>
-		<assert id="BT-195_BT-161_-NoticeResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-161_-NoticeResult-List_MA</assert>
 		<assert id="BT-195_BT-161_-NoticeResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-161_-NoticeResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='not-val']/efbc:PublicationDate">
@@ -2407,7 +2326,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2754" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2754</assert>
-		<assert id="BT-195_BT-556_-NoticeResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-556_-NoticeResult-List_MA</assert>
 		<assert id="BT-195_BT-556_-NoticeResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-556_-NoticeResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-ide']/efbc:PublicationDate">
@@ -2426,7 +2344,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2755" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2755</assert>
-		<assert id="BT-195_BT-156_-NoticeResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-156_-NoticeResult-List_MA</assert>
 		<assert id="BT-195_BT-156_-NoticeResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-156_-NoticeResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-max-val']/efbc:PublicationDate">
@@ -2445,7 +2362,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3061" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3061</assert>
-		<assert id="BT-195_BT-1561_-NoticeResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-1561_-NoticeResult-List_MA</assert>
 		<assert id="BT-195_BT-1561_-NoticeResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-1561_-NoticeResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='gro-ree-val']/efbc:PublicationDate">
@@ -2459,7 +2375,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efac:TenderLot/cbc:ID">
 		<assert id="BR-BT-00556-0051" role="ERROR" test="matches(normalize-space(.),'^GLO-\d{4}$')">rule|text|BR-BT-00556-0051</assert>
-		<assert id="BT-556-NoticeResult-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-556-NoticeResult-Scheme_MA</assert>
 		<assert id="BT-556-NoticeResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-556-NoticeResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkMaximumValueAmount">
@@ -2478,12 +2393,10 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cac:FinancingParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1219" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00301-1219</assert>
-		<assert id="OPT-301-LotResult-Financing-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-LotResult-Financing-Scheme_MA</assert>
 		<assert id="OPT-301-LotResult-Financing_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-LotResult-Financing_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cac:PayerParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00301-1220" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00301-1220</assert>
-		<assert id="OPT-301-LotResult-Paying-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-LotResult-Paying-Scheme_MA</assert>
 		<assert id="OPT-301-LotResult-Paying_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-LotResult-Paying_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:HigherTenderAmount">
@@ -2495,7 +2408,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID">
 		<assert id="BR-OPT-00322-0052" role="ERROR" test="matches(normalize-space(.),'^RES-\d{4}$')">rule|text|BR-OPT-00322-0052</assert>
-		<assert id="OPT-322-LotResult-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-322-LotResult-Scheme_MA</assert>
 		<assert id="OPT-322-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-322-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:LowerTenderAmount">
@@ -2517,7 +2429,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-cou']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3063" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3063</assert>
-		<assert id="BT-195_BT-635_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-635_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-635_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-635_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-cou']/efbc:ReasonDescription">
@@ -2533,7 +2444,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-typ']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3064" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3064</assert>
-		<assert id="BT-195_BT-636_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-636_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-636_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-636_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-typ']/efbc:ReasonDescription">
@@ -2559,7 +2469,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2760" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2760</assert>
-		<assert id="BT-195_BT-712_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-712_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-712_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-712_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req']/efbc:PublicationDate">
@@ -2588,7 +2497,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2761" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2761</assert>
-		<assert id="BT-195_BT-144_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-144_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-144_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-144_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea']/efbc:PublicationDate">
@@ -2612,7 +2520,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-hig']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2758" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2758</assert>
-		<assert id="BT-195_BT-711_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-711_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-711_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-711_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-hig']/efbc:PublicationDate">
@@ -2631,7 +2538,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-low']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2757" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2757</assert>
-		<assert id="BT-195_BT-710_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-710_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-710_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-710_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-val-low']/efbc:PublicationDate">
@@ -2650,7 +2556,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2756" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2756</assert>
-		<assert id="BT-195_BT-142_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-142_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-142_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-142_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho']/efbc:PublicationDate">
@@ -2676,7 +2581,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2759" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2759</assert>
-		<assert id="BT-195_BT-709_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-709_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-709_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-709_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='max-val']/efbc:PublicationDate">
@@ -2695,7 +2599,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-3115" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-3115</assert>
-		<assert id="BT-195_BT-660_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-660_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-660_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-660_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ree-val']/efbc:PublicationDate">
@@ -2716,7 +2619,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:LotTender/cbc:ID">
 		<assert id="BR-OPT-00320-0051" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-OPT-00320-0051</assert>
-		<assert id="OPT-320-LotResult-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-320-LotResult-Scheme_MA</assert>
 		<assert id="OPT-320-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-320-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou']/cbc:ReasonCode">
@@ -2726,7 +2628,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2763" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2763</assert>
-		<assert id="BT-195_BT-759_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-759_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-759_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-759_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou']/efbc:PublicationDate">
@@ -2745,7 +2646,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2762" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2762</assert>
-		<assert id="BT-195_BT-760_-LotResult-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-760_-LotResult-List_MA</assert>
 		<assert id="BT-195_BT-760_-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-760_-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ']/efbc:PublicationDate">
@@ -2769,7 +2669,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID">
 		<assert id="BR-OPT-00315-0051" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|BR-OPT-00315-0051</assert>
-		<assert id="OPT-315-LotResult-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-315-LotResult-Scheme_MA</assert>
 		<assert id="OPT-315-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-315-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure/efac:MeasureException/efbc:ExceptionCode">
@@ -2832,7 +2731,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID">
 		<assert id="BR-BT-13713-0052" role="ERROR" test="matches(normalize-space(.),'^LOT-\d{4}$')">rule|text|BR-BT-13713-0052</assert>
-		<assert id="BT-13713-LotResult-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-13713-LotResult-Scheme_MA</assert>
 		<assert id="BT-13713-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-13713-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efbc:DPSTerminationIndicator">
@@ -2847,7 +2745,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID">
 		<assert id="BR-OPT-00321-0052" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-OPT-00321-0052</assert>
-		<assert id="OPT-321-Tender-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-321-Tender-Scheme_MA</assert>
 		<assert id="OPT-321-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-321-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:RankCode">
@@ -2882,7 +2779,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-buy']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2768" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2768</assert>
-		<assert id="BT-195_BT-160_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-160_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-160_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-160_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-buy']/efbc:PublicationDate">
@@ -2901,7 +2797,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-use']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2767" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2767</assert>
-		<assert id="BT-195_BT-162_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-162_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-162_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-162_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='con-rev-use']/efbc:PublicationDate">
@@ -2920,7 +2815,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='val-con-des']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2769" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2769</assert>
-		<assert id="BT-195_BT-163_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-163_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-163_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-163_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='val-con-des']/efbc:PublicationDate">
@@ -2986,7 +2880,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2764" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2764</assert>
-		<assert id="BT-195_BT-171_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-171_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-171_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-171_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran']/efbc:PublicationDate">
@@ -3005,7 +2898,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2766" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2766</assert>
-		<assert id="BT-195_BT-720_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-720_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-720_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-720_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-val']/efbc:PublicationDate">
@@ -3024,7 +2916,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2765" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2765</assert>
-		<assert id="BT-195_BT-193_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-193_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-193_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-193_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var']/efbc:PublicationDate">
@@ -3043,7 +2934,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2770" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2770</assert>
-		<assert id="BT-195_BT-191_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-191_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-191_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-191_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:Origin/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cou-ori']/efbc:PublicationDate">
@@ -3067,7 +2957,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2774" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2774</assert>
-		<assert id="BT-195_BT-773_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-773_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-773_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-773_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-con']/efbc:PublicationDate">
@@ -3086,7 +2975,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2772" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2772</assert>
-		<assert id="BT-195_BT-554_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-554_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-554_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-554_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-des']/efbc:PublicationDate">
@@ -3105,7 +2993,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2773" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2773</assert>
-		<assert id="BT-195_BT-555_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-555_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-555_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-555_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per']/efbc:PublicationDate">
@@ -3124,7 +3011,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2775" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2775</assert>
-		<assert id="BT-195_BT-731_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-731_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-731_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-731_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-per-kno']/efbc:PublicationDate">
@@ -3143,7 +3029,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2771" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2771</assert>
-		<assert id="BT-195_BT-553_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-553_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-553_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-553_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val']/efbc:PublicationDate">
@@ -3162,7 +3047,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno']/efbc:FieldIdentifierCode">
 		<assert id="BR-BT-00195-2776" role="ERROR" test="normalize-space(.) = ('awa-cri-com', 'awa-cri-des', 'awa-cri-fix', 'awa-cri-nam', 'awa-cri-num', 'awa-cri-ord', 'awa-cri-thr', 'awa-cri-typ', 'awa-cri-wei', 'buy-rev-cou', 'buy-rev-typ', 'con-rev-buy', 'con-rev-use', 'cou-ori', 'cro-bor-law', 'dir-awa-jus', 'dir-awa-pre', 'dir-awa-tex', 'gro-max-ide', 'gro-max-val', 'gro-ree-val', 'max-val', 'no-awa-rea', 'not-app-val', 'not-max-val', 'not-val', 'pro-acc', 'pro-acc-jus', 'pro-fea', 'pro-typ', 'rec-sub-cou', 'rec-sub-typ', 'ree-val', 'rev-req', 'sub-con', 'sub-des', 'sub-per', 'sub-per-kno', 'sub-val', 'sub-val-kno', 'ten-ran', 'ten-val-hig', 'ten-val-low', 'val-con-des', 'win-cho', 'win-ten-val', 'win-ten-var')">rule|text|BR-BT-00195-2776</assert>
-		<assert id="BT-195_BT-730_-Tender-List_MA" role="ERROR" test="count(@listName) > 0">rule|text|BT-195_BT-730_-Tender-List_MA</assert>
 		<assert id="BT-195_BT-730_-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-195_BT-730_-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='sub-val-kno']/efbc:PublicationDate">
@@ -3200,7 +3084,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderLot/cbc:ID">
 		<assert id="BR-BT-13714-0052" role="ERROR" test="matches(normalize-space(.),'^(LOT|GLO)-\d{4}$')">rule|text|BR-BT-13714-0052</assert>
-		<assert id="BT-13714-Tender-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-13714-Tender-Scheme_MA</assert>
 		<assert id="BT-13714-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-13714-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderLot/cbc:ID/@schemeName">
@@ -3211,7 +3094,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID">
 		<assert id="BR-OPT-00310-0052" role="ERROR" test="matches(normalize-space(.),'^TPA-\d{4}$')">rule|text|BR-OPT-00310-0052</assert>
-		<assert id="OPT-310-Tender-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-310-Tender-Scheme_MA</assert>
 		<assert id="OPT-310-Tender_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-310-Tender_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:ForeignSubsidiesMeasuresCode">
@@ -3221,7 +3103,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:PublicTransportationCumulatedDistance">
 		<assert id="BR-OPP-00080-0052" role="ERROR" test="matches(normalize-space(.),'^(\d+)$')">rule|text|BR-OPP-00080-0052</assert>
-		<assert id="OPP-080-Tender-Unit_MA" role="ERROR" test="count(@unitCode) > 0">rule|text|OPP-080-Tender-Unit_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efbc:TenderRankedIndicator">
 		<assert id="BR-BT-01711-0100" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-01711-0100</assert>
@@ -3231,7 +3112,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-OPT-00100-0052" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9]\d)|(\d{1,8})-(19|20)\d\d)$')">rule|text|BR-OPT-00100-0052</assert>
-		<assert id="OPT-100-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-100-Contract-Scheme_MA</assert>
 		<assert id="OPT-100-Contract_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-100-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:NoticeDocumentReference/cbc:ID/@schemeName">
@@ -3239,7 +3119,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:SignatoryParty/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00300-0202" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00300-0202</assert>
-		<assert id="OPT-300-Contract-Signatory-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-300-Contract-Signatory-Scheme_MA</assert>
 		<assert id="OPT-300-Contract-Signatory_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-300-Contract-Signatory_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:AwardDate">
@@ -3247,7 +3126,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID">
 		<assert id="BR-OPT-00316-0052" role="ERROR" test="matches(normalize-space(.),'^CON-\d{4}$')">rule|text|BR-OPT-00316-0052</assert>
-		<assert id="OPT-316-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-316-Contract-Scheme_MA</assert>
 		<assert id="OPT-316-Contract_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-316-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:IssueDate">
@@ -3294,7 +3172,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID">
 		<assert id="BR-BT-03202-0051" role="ERROR" test="matches(normalize-space(.),'^TEN-\d{4}$')">rule|text|BR-BT-03202-0051</assert>
-		<assert id="BT-3202-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-3202-Contract-Scheme_MA</assert>
 		<assert id="BT-3202-Contract_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-3202-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efbc:ContractFrameworkIndicator">
@@ -3302,22 +3179,18 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID">
 		<assert id="BR-OPT-00210-0052" role="ERROR" test="matches(normalize-space(.),'^TPA-\d{4}$')">rule|text|BR-OPT-00210-0052</assert>
-		<assert id="OPT-210-Tenderer-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-210-Tenderer-Scheme_MA</assert>
 		<assert id="OPT-210-Tenderer_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-210-Tenderer_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/cbc:ID">
 		<assert id="BR-OPT-00301-1234" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00301-1234</assert>
-		<assert id="OPT-301-Tenderer-SubCont-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Tenderer-SubCont-Scheme_MA</assert>
 		<assert id="OPT-301-Tenderer-SubCont_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Tenderer-SubCont_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:SubContractor/efac:MainContractor/cbc:ID">
 		<assert id="BR-OPT-00301-1233" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00301-1233</assert>
-		<assert id="OPT-301-Tenderer-MainCont-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-301-Tenderer-MainCont-Scheme_MA</assert>
 		<assert id="OPT-301-Tenderer-MainCont_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-Tenderer-MainCont_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/cbc:ID">
 		<assert id="BR-OPT-00300-0203" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00300-0203</assert>
-		<assert id="OPT-300-Tenderer-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-300-Tenderer-Scheme_MA</assert>
 		<assert id="OPT-300-Tenderer_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-300-Tenderer_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/efac:Tenderer/efbc:GroupLeadIndicator">
@@ -3359,7 +3232,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00200-0051" role="ERROR" test="matches(normalize-space(.),'^ORG-\d{4}$')">rule|text|BR-OPT-00200-0051</assert>
-		<assert id="OPT-200-Organization-Company-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-200-Organization-Company-Scheme_MA</assert>
 		<assert id="OPT-200-Organization-Company_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-200-Organization-Company_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyLegalEntity/cbc:CompanyID">
@@ -3429,7 +3301,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PartyIdentification/cbc:ID">
 		<assert id="BR-OPT-00201-0052" role="ERROR" test="matches(normalize-space(.),'^TPO-\d{4}$')">rule|text|BR-OPT-00201-0052</assert>
-		<assert id="OPT-201-Organization-TouchPoint-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-201-Organization-TouchPoint-Scheme_MA</assert>
 		<assert id="OPT-201-Organization-TouchPoint_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-201-Organization-TouchPoint_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:PartyName/cbc:Name">
@@ -3476,7 +3347,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:UltimateBeneficialOwner/cbc:ID">
 		<assert id="BR-OPT-00302-0051" role="ERROR" test="matches(normalize-space(.),'^UBO-\d{4}$')">rule|text|BR-OPT-00302-0051</assert>
-		<assert id="OPT-302-Organization-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-302-Organization-Scheme_MA</assert>
 		<assert id="OPT-302-Organization_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-302-Organization_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efbc:AcquiringCPBIndicator">
@@ -3539,7 +3409,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cbc:ID">
 		<assert id="BR-OPT-00202-0052" role="ERROR" test="matches(normalize-space(.),'^UBO-\d{4}$')">rule|text|BR-OPT-00202-0052</assert>
-		<assert id="OPT-202-UBO-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-202-UBO-Scheme_MA</assert>
 		<assert id="OPT-202-UBO_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-202-UBO_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/efac:Nationality/cbc:NationalityID">
@@ -3548,12 +3417,10 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Publication/efbc:GazetteID[@schemeName='ojs-id']">
 		<assert id="BR-OPP-00011-0052" role="ERROR" test="matches(normalize-space(.),'^[1-9]\d{0,2}/(19|20)\d\d$')">rule|text|BR-OPP-00011-0052</assert>
-		<assert id="OPP-011-notice-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPP-011-notice-Scheme_MA</assert>
 		<assert id="OPP-011-notice_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPP-011-notice_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Publication/efbc:NoticePublicationID[@schemeName='ojs-notice-id']">
 		<assert id="BR-OPP-00010-0052" role="ERROR" test="matches(normalize-space(.),'^(\d{1,8})-(19|20)\d\d$')">rule|text|BR-OPP-00010-0052</assert>
-		<assert id="OPP-010-notice-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPP-010-notice-Scheme_MA</assert>
 		<assert id="OPP-010-notice_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPP-010-notice_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Publication/efbc:PublicationDate">

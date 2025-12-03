@@ -408,7 +408,9 @@
 <entry key="expression|name|603">'Menetluse liik' (BT-105) väärtus on võrdne 'Avatud' või 'Menetluse liik' (BT-105) väärtus on võrdne 'Muu üheetapiline menetlus'</entry>
 <entry key="expression|name|604">'Menetluse liik' (BT-105) väärtus on võrdne 'Muu mitmeetapiline menetlus'</entry>
 <entry key="expression|name|605">Modifitseeritava lepingu identifikaator (BT-1501(c)-Contract) on täidetud</entry>
+<entry key="expression|name|606">'Maksuõiguse dokumendi ID' (OPT-111-Lot-FiscalLegis) ei ole kohal</entry>
 <entry key="expression|name|61">'Otselepingu sõlmimise põhjendus' (BT-136-Procedure) ei ole üks järgmistest: 'Vastusena eelmisele teatele on saadud ainult ebakorrektseid või vastuvõetamatuid pakkumusi. Läbirääkimistesse kaasati ainult need eelmises menetluses osalenud pakkujad, kes vastasid valikukriteeriumidele ja ametlikele nõuetele ning ei täitnud kõrvalejätmise tingimusi'; 'Vajadus täiendavate ehitustööde või teenuste järele esialgselt töövõtjalt'; 'Uued ehitustööd või teenused, mis seisnevad samalaadsete ehitustööde või teenuste kordamises ja tellitakse kooskõlas direktiivis kehtestatud rangete tingimustega'; 'Eelmise teate peale ei esitatud ühtegi sobivat pakkumust, osalemistaotlust ega taotlust'; 'Olemasolevate asjade või seadmete osaline asendamine või täiendamine esialgse tarnija poolt direktiivis sätestatud rangetel tingimustel'; 'Ideekonkursi võitjale või ühele võitjale antav teenusleping ideekonkursi eeskirjade alusel'</entry>
+<entry key="expression|name|612">Organisatsioon on 'Hankija'</entry>
 <entry key="expression|name|613">Pakkumist ei ole esitatud ei partii jaoks, mille jaoks 'Välisriikide toetuste määrus' (BT-681-Lot) on määratud 'jah', ega partii grupi jaoks, mis sisaldab partiid, mille jaoks 'Välisriikide toetuste määrus' (BT-681-Lot) on määratud 'jah'</entry>
 <entry key="expression|name|614">Teadaannet ei ole tuvastatud kui 'Kvalifitseerimistingimuste allikas'</entry>
 <entry key="expression|name|615">Valikukriteeriumi (BT-809) koodi ei ole</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'Organisatsiooni tehniline ID (ORG-XXX)'(OPT-200-Organization-Company) on 'Organisatsioon, mis täidab seda rolli' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Kvalifitseerimistingimus' (BT-809-Lot) ei ole olemas või 'Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada' (BT-52-Lot) ei ole 'jah' või 'Menetluse liik' (BT-105) ei ole 'Võistlev dialoog', 'Innovatsioonipartnerlus', 'Väljakuulutamisega läbirääkimistega hankemenetlus / konkurentsipõhine läbirääkimistega hankemenetlus', 'Muu mitmeetapiline menetlus' või 'Piiratud'</entry>
 <entry key="expression|name|663">Valitud väärtus 'Eduka pakkuja valiku staatus' (BT-142-LotResult) on võrdne 'Edukat pakkujat ei ole veel valitud, kuid hange on veel pooleli.', või valitud väärtus 'Eduka pakkuja valiku staatus' (BT-142-LotResult) on võrdne 'Edukat pakkujat välja ei valitud ja hange on lõpetatud.' ja 'Põhjus, miks võitjat ei valitud' (BT-144-LotResult) on võrdne 'Ei saadud ühtegi pakkumust, osalemistaotlust ega kavandit'</entry>
-<entry key="expression|name|664">'Riik – jaotus (NUTS)' (BT-5071-Procedure) peab vastama ühele NUTS koodidest määratud 'Riik' (BT-5141-Procedure) jaoks</entry>
+<entry key="expression|name|664">'Riik' (BT-514-Organization-Company) on olemas ja 'Riik – jaotus (NUTS)' (BT-507-Organization-Company) on olemas</entry>
 <entry key="expression|name|665">'Riik' (BT-514-Organization-TouchPoint) on olemas ja 'Riik – jaotus (NUTS)' (BT-507-Organization-TouchPoint) on olemas</entry>
 <entry key="expression|name|666">'Riik' (BT-514-UBO) on olemas ja 'Riik – jaotus (NUTS)' (BT-507-UBO) on olemas</entry>
 <entry key="expression|name|667">'Riik' (BT-514-Business) on olemas ja 'Riik – jaotus (NUTS)' (BT-507-Business) on olemas</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Allhanked' (BT-773-Tender) ei ole 'Jah'</entry>
 <entry key="expression|name|670">'Riik' (BT-5141-Lot is present) ja 'Riik – jaotus (NUTS)' (BT-5071-Lot) on olemas</entry>
 <entry key="expression|name|671">'Arv on teatavat liiki osakaal' (BT-5421) ei ole 'Tähtsuse järjekord'</entry>
-<entry key="expression|name|676">pakkumuse esitaja koosneb vähem kui kahest peamisest pakkujast</entry>
+<entry key="expression|name|675">Leping hõlmab 'Ehitustööde hankelepingud' või 'Teenused'</entry>
+<entry key="expression|name|676">'Hankemenetluses osaleja' koosneb vähem kui kahest põhipakkujast</entry>
 <entry key="expression|name|677">Kaasatud ei olnud ühtegi raamlepingut või 'Raamlepingu maksimaalne maksumus' (BT-709-LotResult) ei ole teada</entry>
 <entry key="expression|name|678">LotResult puudub või puudub pakkumine LotResultiga hõlmatud osa jaoks ja puudub pakkumine ühegi osa grupi jaoks, mis sisaldaks LotResulti osa, või puudub pakkumine ja LotResulti jaoks pole määratud ühtegi osa</entry>
 <entry key="expression|name|679">'Menetluse liik' (BT-105-Procedure) ei ole 'Väljakuulutamiseta läbirääkimistega hankemenetlus' ja 'Õiguslik alus' (BT-01-notice) ei ole 'Määrus (EL, Euratom) 2024/2509' ning leidub vähemalt üks 'Leping – pakkumus – tunnus' (BT-3202-Contract)</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Lisateabe taotlemise tähtaeg' (BT-132(d)-Lot) on täidetud</entry>
 <entry key="expression|name|7">'Riik' (BT-5141-Part) on täidetud</entry>
 <entry key="expression|name|70">'Allhanke protsendimäär on teada' (BT-731-Tender) ei ole 'jah'</entry>
+<entry key="expression|name|701">'Õiguslik alus' (BT-01(c)-Procedure) ei ole täidetud</entry>
 <entry key="expression|name|71">'Allhanked' (BT-773-Tender) on 'Jah'</entry>
 <entry key="expression|name|72">Ühtegi võitjat ei valitud või 'Tegemist on raamlepinguga' (BT-765-Lot) ei ole vastavuses menetluse raamlepinguga</entry>
 <entry key="expression|name|74">'Eelmise teate versioon, mida muudetakse' (BT-758-notice) ei ole täidetud</entry>

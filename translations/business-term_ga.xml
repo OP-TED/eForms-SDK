@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">An fhaisnéis faoi fhochonraitheoireacht nach mór a shonrú sa tairiscint.</entry>
 <entry key="business-term|description|BT-660">An luach is dócha a chaithfear laistigh de creat‑chomhaontú thar a thréimhse iomlán, lena n‑áirítear roghanna agus athnuachan, arna n‑athmheas bunaithe ar thairiscintí an bhuaiteora nó ar thairiscintí na mbuaiteoirí.</entry>
 <entry key="business-term|description|BT-661">Tá uaslíon iarrthóirí ann a n‑iarrfar orthu bheith páirteach sa dara céim den nós imeachta.</entry>
+<entry key="business-term|description|BT-67(a)">An cineál forais eisiaimh mar a liostaítear sna Treoracha maidir le Soláthar Poiblí.</entry>
+<entry key="business-term|description|BT-67(b)">Tuairisc ghairid ar na critéir a bhféadfadh eisiamh tairgeoirí a bheith mar thoradh orthu</entry>
 <entry key="business-term|description|BT-681">Dá bhrí sin, tá feidhm ag an Rialachán maidir le fóirdheontais eachtracha (AE) 2022/2560, i gcomhréir le hAirteagal 28 de, maidir leis an nós imeachta tairisceana seo.</entry>
 <entry key="business-term|description|BT-682">Bearta a chuirtear chun feidhme faoin Rialachán maidir le fóirdheontais eachtracha (AE) 2022/2560.</entry>
 <entry key="business-term|description|BT-684">Is iomchuí na bearta faoi Rialachán (AE) 2022/1031 an Uirlis Idirnáisiúnta Soláthairtí (IPI) don nós imeachta soláthairtí seo</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">Lipéid éifeachtúlachta fuinnimh a sholáthraítear do na táirgí (A+++, A++, A+, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">Luach an tomhaltas fuinnimh i kWh/bliain do tháirgí nach bhfuil lipéad ar bith orthu, agus sábháilteacht fuinnimh i kWh/bliain do sheirbhísí, foirgnimh nó saothair. I gcás táirgí, cuir an tomhaltas fuinnimh bliantúil don táirge ar fáil le do thoil. I gcás seirbhísí, saothair agus foirgnimh, cuir na sábháltais fuinnimh bliantúla ar fáil le do thoil.</entry>
 <entry key="business-term|description|BT-814">Luach na gCoigilteas Fuinnimh in kWh in aghaidh na bliana le haghaidh táirgí, seirbhísí, oibreacha agus foirgneamh. Tuairiscigh an coigilteas fuinnimh bliantúil.</entry>
-<entry key="business-term|description|BT-815">An chainníocht arna soláthar nó arna meas. I gcás táirgí, tuairiscigh líon na dtáirgí. I gcás foirgneamh, tuairiscigh an t-achar urláir úsáidigh ina mhéadair chearnacha. I gcás oibreacha nó seirbhísí, níl aon luach ag teastáil.</entry>
+<entry key="business-term|description|BT-815">An chainníocht arna soláthar nó arna meas. I gcás táirgí, tuairiscigh líon na dtáirgí. I gcás foirgneamh, tuairiscigh an t-achar urláir úsáidigh ina mhéadair chearnacha. Maidir le hoibreacha nó seirbhísí, is gnách gurb é an luach 1.</entry>
 <entry key="business-term|description|BT-821">I gcás ina sainítear na critéir roghnúcháin, mar shampla, na doiciméid soláthair, an fógra nó sa Doiciméad Aonair Eorpach maidir le Soláthar.</entry>
 <entry key="business-term|description|BT-88">Príomhghnéithe an nós imeachta (e.g. tuairisc ar na céimeanna ar leith agus faisnéis faoin áit ar féidir teacht ar rialacha an nós imeachta ina n‑iomláine. Tabharfar an fhaisnéis sin i gcás nach mbeidh an nós imeachta ar cheann de na nósanna imeachta a shonraítear sna Treoracha maidir leis an soláthar. D'fhéadfadh sin a bheith amhlaidh i gcás lamháltas, i gcás seirbhísí sóisialta agus seirbhísí sonracha eile, agus i gcás foilsiú deonach nósanna imeachta soláthair atá faoi bhun thairseacha soláthair an Aontais Eorpaigh, mar shampla.</entry>
 <entry key="business-term|description|BT-92">Úsáidfear ríomhordú.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Léiriú éigeantach ar fhochonraitheoireacht</entry>
 <entry key="business-term|name|BT-660">Luach athmheasta an chreat-chomhaontaithe</entry>
 <entry key="business-term|name|BT-661">Tá uaslíon iarrthóirí ann a n-iarrfar orthu a bheith páirteach sa dara céim den nós imeachta</entry>
+<entry key="business-term|name|BT-67(a)">Forais eisiaimh</entry>
+<entry key="business-term|name|BT-67(b)">Cur síos ar na forais eisiamh</entry>
 <entry key="business-term|name|BT-681">Rialachán na Scaireanna Coigríche</entry>
 <entry key="business-term|name|BT-682">Bearta maidir le deontais eachtracha</entry>
 <entry key="business-term|name|BT-684">Tá bearta na hIonstraime Soláthair Phoiblí Idirnáisiúnta infheidhme</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Úsáid an chritéir seo</entry>
 <entry key="business-term|name|BT-749">Ainm</entry>
 <entry key="business-term|name|BT-75">Cur síos ar an ráthaíocht airgeadais</entry>
-<entry key="business-term|name|BT-750">Cur síos</entry>
+<entry key="business-term|name|BT-750">Cur síos ar an gcritéar roghnúcháin</entry>
 <entry key="business-term|name|BT-751">Tá ceangal ann ráthaíocht a thabhairt</entry>
 <entry key="business-term|name|BT-752">Líon na gcritéar roghnúcháin don chuireadh chuig an dara céim</entry>
 <entry key="business-term|name|BT-7531">Cineál ualaigh is ea an uimhir</entry>

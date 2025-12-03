@@ -409,14 +409,14 @@
 <entry key="expression|name|603">'Type of procedure' (BT-105) value is equal to 'Open' or 'Type of procedure' (BT-105) value is equal to 'Other single stage procedure'</entry>
 <entry key="expression|name|604">'Type of procedure' (BT-105) value is equal to 'Other multiple stage procedure'</entry>
 <entry key="expression|name|605">Identifier of the contract to be modified (BT-1501(c)-Contract) is filled in</entry>
-<entry key="expression|name|606">Fiscal Legislation Document ID (OPT-111-Lot-FiscalLegis) is not present</entry>
+<entry key="expression|name|606">'Tax legislation document ID' (OPT-111-Lot-FiscalLegis) is not present</entry>
 <entry key="expression|name|607">Fiscal Legislation Document ID (OPT-111-Part-FiscalLegis) is not present</entry>
 <entry key="expression|name|608">Environmental Legislation Document ID (OPT-112-Lot-EnvironLegis) is not present</entry>
 <entry key="expression|name|609">Environmental Legislation Document ID (OPT-112-Part-EnvironLegis) is not present</entry>
 <entry key="expression|name|61">'Justification for direct award' (BT-136-Procedure) is not one of the following: 'Only irregular or unacceptable tenders were received in response to a previous notice. All and only those tenderers of the previous procedure which have satisfied the selection criteria, have not fulfilled the exclusion grounds and have satisfied formal requirements, were included in the negotiations'; 'Need for additional works or services by the original contractor'; 'New works or services, constituting a repetition of existing works or services and ordered in accordance with the strict conditions stated in the Directive'; 'No suitable tenders, requests to participate, or applications were received in response to a previous notice'; 'Partial replacement or extension of existing supplies or installations by the original supplier ordered under the strict conditions stated in the Directive'; 'Service contract to be awarded to the winner or one of winners under the rules of a design contest'</entry>
 <entry key="expression|name|610">Employment Legislation Document ID (OPT-113-Lot-EmployLegis) is not present</entry>
 <entry key="expression|name|611">Employment Legislation Document ID (OPT-113-Part-EmployLegis) is not present</entry>
-<entry key="expression|name|612">The organisation is a Buyer</entry>
+<entry key="expression|name|612">The organisation is a 'Buyer'</entry>
 <entry key="expression|name|613">The tender is neither submitted for a lot for which 'Foreign Subsidies Regulation' (BT-681-Lot) is set to 'yes', nor for a group of lots containing a lot for which 'Foreign Subsidies Regulation' (BT-681-Lot) is set to 'yes'</entry>
 <entry key="expression|name|614">The notice has not been identified as a 'Source of selection criteria'</entry>
 <entry key="expression|name|615">The selection criterion (BT-809) code does not exist</entry>
@@ -484,8 +484,8 @@
 <entry key="expression|name|672">the Lot has no DPS and no Framework Agreement</entry>
 <entry key="expression|name|673">the Lot has a DPS and no Framework Agreement</entry>
 <entry key="expression|name|674">the Lot has a Framework Agreement, no contract within a Framework Agreement and no DPS</entry>
-<entry key="expression|name|675">the contract involves Works or Services</entry>
-<entry key="expression|name|676">the Tendering Party is composedof less than 2 Main Tenderers</entry>
+<entry key="expression|name|675">The contract involves 'Works' or 'Services'</entry>
+<entry key="expression|name|676">The 'Tendering party' is composed of less than two main tenderers</entry>
 <entry key="expression|name|677">No framework agreement was involved, or 'Maximum value of the framework agreement' (BT-709-LotResult) is not present</entry>
 <entry key="expression|name|678">There is no LotResult, or there is no tender for the lot covered by the LotResult and no tender for any group of lots that would contain the lot of the LotResult, or there is no tender and no lot is specified for the LotResult</entry>
 <entry key="expression|name|679">'Type of procedure' (BT-105-Procedure) is not 'Negotiated without prior call for competition' and 'Legal basis' (BT-01-notice) is not 'Regulation (EU, Euratom) 2024/2509' and there is at least one 'Contract tender identifier' (BT-3202-Contract)</entry>
@@ -508,6 +508,7 @@
 <entry key="expression|name|699">'Deadline for requesting additional information' (BT-132(d)-Lot) is filled in</entry>
 <entry key="expression|name|7">'Country' (BT-5141-Part) is filled in</entry>
 <entry key="expression|name|70">'Subcontracting percentage is known' (BT-731-Tender) is not 'yes'</entry>
+<entry key="expression|name|701">'Legal basis' (BT-01(c)-Procedure) is not filled in</entry>
 <entry key="expression|name|71">'Subcontracting' (BT-773-Tender) is 'Yes'</entry>
 <entry key="expression|name|72">No winner was chosen or 'Framework agreement is involved' (BT-765-Lot) does not correspond to the framework agreement of the procedure</entry>
 <entry key="expression|name|74">'Version of the previous notice to be changed' (BT-758-notice) is not filled in</entry>

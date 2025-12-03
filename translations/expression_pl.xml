@@ -408,7 +408,9 @@
 <entry key="expression|name|603">Wartość 'Rodzaj procedury' (BT-105) jest równa 'Otwarta' lub wartość 'Rodzaj procedury' (BT-105) jest równa 'Inna procedura jednoetapowa'</entry>
 <entry key="expression|name|604">Wartość 'Rodzaj procedury' (BT-105) jest równa 'Inna procedura wieloetapowa'</entry>
 <entry key="expression|name|605">Identifikator umowy do modyfikacji (BT-1501(c)-Contract) jest wypełniony</entry>
+<entry key="expression|name|606">'ID dokumentu z przepisami podatkowymi' (OPT-111-Lot-FiscalLegis) nie jest obecny</entry>
 <entry key="expression|name|61">'Uzasadnienie bezpośredniego udzielenia zamówienia' (BT-136-Procedure) nie jest jednym z następujących: 'W odpowiedzi na wcześniejsze ogłoszenie otrzymano jedynie oferty nieprawidłowe lub niemożliwe do przyjęcia. Do negocjacji dopuszczono jedynie wszystkich tych oferentów uczestniczących w poprzednim postępowaniu, którzy spełnili kryteria kwalifikacji, nie odpowiadają kryteriom wykluczenia oraz spełnili wymogi formalne'; 'Potrzeba realizacji dodatkowych robót budowlanych lub usług przez pierwotnego wykonawcę'; 'Nowe roboty budowlane lub usługi, będące powtórzeniem istniejących robót budowlanych lub usług oraz zamawiane zgodnie z warunkami ściśle określonymi w dyrektywie'; 'W odpowiedzi na wcześniejsze ogłoszenie nie otrzymano odpowiednich ofert, wniosków o dopuszczenie do udziału lub wniosków'; 'Częściowe zastąpienie lub rozszerzenie istniejących dostaw lub instalacji przez pierwotnego dostawcę, zamawiane zgodnie z warunkami ściśle określonymi w dyrektywie'; 'Zamówienie na usługi ma zostać udzielone zwycięzcy lub jednemu ze zwycięzców na podstawie regulaminu konkursu'</entry>
+<entry key="expression|name|612">Organizacja jest 'Nabywca'</entry>
 <entry key="expression|name|613">Oferta nie została złożona ani dla partii, dla której 'Regulacja dotycząca zagranicznych dotacji' (BT-681-Lot) jest ustawiony na 'tak', ani dla grupy partii zawierającej partię, dla której 'Regulacja dotycząca zagranicznych dotacji' (BT-681-Lot) jest ustawiony na 'tak'</entry>
 <entry key="expression|name|614">Powiadomienie nie zostało zidentyfikowane jako 'Źródło kryteriów kwalifikacji'</entry>
 <entry key="expression|name|615">Kod kryterium wyboru (BT-809) nie istnieje</entry>
@@ -464,7 +466,7 @@
 <entry key="expression|name|661">'Techniczne ID organizacji (ORG-XXX)'(OPT-200-Organization-Company) to 'Organizacja pełniąca tę rolę' (OPT-300-Procedure-Buyer)</entry>
 <entry key="expression|name|662">'Kryterium kwalifikacji' (BT-809-Lot) nie istnieje lub 'Procedura zostanie przeprowadzona w kolejnych etapach. Na każdym etapie niektórzy uczestnicy mogą zostać wyeliminowani' (BT-52-Lot) nie jest 'tak' lub 'Rodzaj procedury' (BT-105) nie jest 'Dialog konkurencyjny', 'Partnerstwo innowacyjne', 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami', 'Inna procedura wieloetapowa' lub 'Ograniczona'</entry>
 <entry key="expression|name|663">Wybrana wartość dla 'Status wyboru zwycięzcy' (BT-142-LotResult) jest równa 'Nie wyłoniono jeszcze zwycięzcy, ale procedura konkurencyjna jest nadal w toku.', lub wybrana wartość dla 'Status wyboru zwycięzcy' (BT-142-LotResult) jest równa 'Nie wyłoniono zwycięzcy, a procedura konkurencyjna została zamknięta.' i 'Powód, dla którego nie wyłoniono zwycięzcy' (BT-144-LotResult) jest równa 'Nie otrzymano żadnych ofert, wniosków o dopuszczenie do udziału lub projektów'</entry>
-<entry key="expression|name|664">'Podpodział krajowy (NUTS)' (BT-5071-Procedure) musi odpowiadać jednemu z kodów NUTS dla określonego 'Kraj' (BT-5141-Procedure)</entry>
+<entry key="expression|name|664">'Kraj' (BT-514-Organization-Company) jest obecny i 'Podpodział krajowy (NUTS)' (BT-507-Organization-Company) jest obecny</entry>
 <entry key="expression|name|665">'Kraj' (BT-514-Organization-TouchPoint) jest obecny i 'Podpodział krajowy (NUTS)' (BT-507-Organization-TouchPoint) jest obecny</entry>
 <entry key="expression|name|666">'Kraj' (BT-514-UBO) jest obecny i 'Podpodział krajowy (NUTS)' (BT-507-UBO) jest obecny</entry>
 <entry key="expression|name|667">'Kraj' (BT-514-Business) jest obecny i 'Podpodział krajowy (NUTS)' (BT-507-Business) jest obecny</entry>
@@ -473,7 +475,8 @@
 <entry key="expression|name|67">'Podwykonawstwo' (BT-773-Tender) nie jest 'Tak'</entry>
 <entry key="expression|name|670">'Kraj' (BT-5141-Lot is present) i 'Podpodział krajowy (NUTS)' (BT-5071-Lot) jest obecny</entry>
 <entry key="expression|name|671">'Liczba jest rodzajem wagi' (BT-5421) nie jest 'Kolejność według ważności'</entry>
-<entry key="expression|name|676">Uczestnik przetargu składa się z mniej niż 2 głównych oferentów</entry>
+<entry key="expression|name|675">Umowa obejmuje 'Roboty budowlane' lub 'Usługi'</entry>
+<entry key="expression|name|676">'Strona oferująca' składa się z mniej niż dwóch głównych oferentów</entry>
 <entry key="expression|name|677">Nie było umowy ramowej lub brak 'Maksymalna wartość umowy ramowej' (BT-709-LotResult)</entry>
 <entry key="expression|name|678">Nie ma LotResult, ani nie ma przetargu na część objętą przez LotResult i nie ma przetargu na żadną grupę części, która zawierałaby część LotResult, albo nie ma przetargu i nie określono żadnej części dla LotResult</entry>
 <entry key="expression|name|679">'Rodzaj procedury' (BT-105-Procedure) nie jest 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie' i 'Podstawa prawna' (BT-01-notice) nie jest 'Rozporządzenie (UE, Euratom) 2024/2509' i jest co najmniej jeden 'Umowa - identyfikator oferty' (BT-3202-Contract)</entry>
@@ -496,6 +499,7 @@
 <entry key="expression|name|699">'Termin występowania z wnioskiem o dodatkowe informacje' (BT-132(d)-Lot) jest wypełniony</entry>
 <entry key="expression|name|7">'Kraj' (BT-5141-Part) jest wypełnione</entry>
 <entry key="expression|name|70">'Podwykonawstwo - Wartość procentowa jest znana' (BT-731-Tender) nie jest 'tak'</entry>
+<entry key="expression|name|701">'Podstawa prawna' (BT-01(c)-Procedure) nie jest wypełnione</entry>
 <entry key="expression|name|71">'Podwykonawstwo' (BT-773-Tender) to 'Tak'</entry>
 <entry key="expression|name|72">Nie wybrano zwycięzcy lub 'Stosuje się umowę ramową' (BT-765-Lot) nie odpowiada umowie ramowej procedury</entry>
 <entry key="expression|name|74">'Poprzednia wersja ogłoszenia, która jest zmieniana' (BT-758-notice) nie jest wypełnione</entry>

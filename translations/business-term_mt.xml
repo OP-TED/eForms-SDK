@@ -215,6 +215,8 @@
 <entry key="business-term|description|BT-651">L-informazzjoni dwar is-sottokuntrattar li trid tiġi indikata fl-offerta.</entry>
 <entry key="business-term|description|BT-660">Il-valur li x’aktarx jintnefaq fi tehim qafas matul id-durata kollha tiegħu, inkluż l-opzjonijiet u t-tiġdid, kif smat mill-ġdid abbażi tal-offerta tar-rebbieħ jew tal-offerti tar-rebbieħa.</entry>
 <entry key="business-term|description|BT-661">Hemm numru massimu ta’ kandidati li jridu jiġu mistiedna għat-tieni stadju tal-proċedura.</entry>
+<entry key="business-term|description|BT-67(a)">Tip ta’ raġuni għall-esklużjoni kif elenkat fid-Direttivi dwar l-Akkwist Pubbliku.</entry>
+<entry key="business-term|description|BT-67(b)">Deskrizzjoni qasira tal-kriterji li jistgħu jwasslu għall-esklużjoni tal-offerenti</entry>
 <entry key="business-term|description|BT-681">Ir-Regolament dwar is-Sussidji Barranin (FSR) (UE) 2022/2560, f’konformità mal-Artikolu 28 tiegħu, japplika għal din il-proċedura tal-akkwist.</entry>
 <entry key="business-term|description|BT-682">Il-miżuri applikati skont ir-Regolament (UE) 2022/2560 dwar is-Sussidji Barranin.</entry>
 <entry key="business-term|description|BT-684">Miżuri taħt ir-Regolament tal-Istrument ta' Prokurament Internazzjonali (IPI) (UE) 2022/1031 huma applikabbli għal dan il-proċedura ta' prokurament</entry>
@@ -329,7 +331,7 @@
 <entry key="business-term|description|BT-812">It-tikketti tal-effiċjenza enerġetika mogħtija mal-prodotti (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">Il-valur tal-konsum tal-enerġija f'kWh/snin għal prodotti għal li ma teżistix etiketta, u s-salvataġġ tal-enerġija f'kWh/snin għal servizzi, bini jew xogħol. Għall-prodotti jekk jogħġbok irrapporta l-konsum tal-enerġija annwali tal-prodott. Għas-servizzi, ix-xogħol u l-bini jekk jogħġbok irrapporta s-salvataġġ tal-enerġija annwali.</entry>
 <entry key="business-term|description|BT-814">Il-valur tal-iffrankar tal-enerġija f’kWh/sena għall-prodotti, is-servizzi, ix-xogħlijiet, u l-binjiet. Jekk jogħġbok irrapporta l-iffrankar annwali tal-enerġija.</entry>
-<entry key="business-term|description|BT-815">Il-kwantità pprovduta jew stmata. Għall-prodotti jekk jogħġbok irrapporta n-numru ta’ prodotti. Għall-binjiet, jekk jogħġbok irrapporta l-ispazju tal-art li tista’ tintuża, f’metri kwadri. Għax-xogħlijiet jew servizzi ma huwa meħtieġ l-ebda valur.</entry>
+<entry key="business-term|description|BT-815">Il-kwantità pprovduta jew stmata. Għall-prodotti jekk jogħġbok irrapporta n-numru ta’ prodotti. Għall-binjiet, jekk jogħġbok irrapporta l-ispazju tal-art li tista’ tintuża, f’metri kwadri. Għal xogħlijiet jew servizzi, il-valur normalment ikun 1.</entry>
 <entry key="business-term|description|BT-821">Fejn il-kriterji tal-għażla jkunu definiti, pereżempju, id-dokumenti tal-akkwist, l-avviż, jew fl-ESPD.</entry>
 <entry key="business-term|description|BT-88">Il-karatteristiki prinċipali tal-proċedura (eż. deskrizzjoni tal-istadju/i individwali) u informazzjoni dwar fejn jistgħu jinstabu r-regoli kollha għall-proċedura. Din l-informazzjoni għandha tingħata meta l-proċedura ma tkunx waħda minn dawk imsemmija fid-Direttivi dwar l-akkwist. Dan jista’ jkun il-każ pereżempju għal konċessjonijiet, għal servizzi soċjali u għal servizzi speċifiċi oħra, u f’każ ta’ pubblikazzjoni volontarja ta’ proċeduri tal-akkwist taħt il-livelli limitu tal-akkwist tal-UE.</entry>
 <entry key="business-term|description|BT-92">Se tintuża ordni elettronika.</entry>
@@ -577,6 +579,8 @@
 <entry key="business-term|name|BT-651">Indikazzjoni obbligatorja tas-sottokuntrattar</entry>
 <entry key="business-term|name|BT-660">Valur stmat mill-ġdid tal-ftehim qafas</entry>
 <entry key="business-term|name|BT-661">Hemm numru massimu ta’ kandidati li jridu jiġu mistiedna għat-tieni stadju tal-proċedura</entry>
+<entry key="business-term|name|BT-67(a)">Raġunijiet għall-esklużjoni</entry>
+<entry key="business-term|name|BT-67(b)">Deskrizzjoni tal-bażijiet ta' esklużjoni</entry>
 <entry key="business-term|name|BT-681">Regolament tal-Subsidji Barranin</entry>
 <entry key="business-term|name|BT-682">Miżuri ta' sussidji barranin</entry>
 <entry key="business-term|name|BT-684">Il-miżuri tal-Istrument tal-Akkwist Internazzjonali huma applikabbli</entry>
@@ -630,7 +634,7 @@
 <entry key="business-term|name|BT-748">Użu ta’ dan il-kriterju</entry>
 <entry key="business-term|name|BT-749">Isem</entry>
 <entry key="business-term|name|BT-75">Deskrizzjoni tal-garanzija finanzjarja</entry>
-<entry key="business-term|name|BT-750">Deskrizzjoni</entry>
+<entry key="business-term|name|BT-750">Deskrizzjoni tal-kriterju ta' selezzjoni</entry>
 <entry key="business-term|name|BT-751">Meħtieġa garanzija</entry>
 <entry key="business-term|name|BT-752">Numru marbut mal-kriterji ta’ selezzjoni tal-istedina għat-tieni stadju</entry>
 <entry key="business-term|name|BT-7531">In-numru hu tip ta’ ponderazzjoni</entry>
