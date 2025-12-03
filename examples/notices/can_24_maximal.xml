@@ -203,15 +203,21 @@
 							</efac:FrameworkAgreementValues>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<!--"id" : "BT-759-LotResult",   "name" : "Received Submissions Count"-->
+								<efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
 								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
 								<!--"id" : "BT-759-LotResult",   "name" : "Received Submissions Count"-->
 								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
 								<!--"id" : "BT-759-LotResult",   "name" : "Received Submissions Count"-->
-								<efbc:StatisticsNumeric>9</efbc:StatisticsNumeric>
+								<efbc:StatisticsNumeric>4</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
@@ -298,6 +304,24 @@
 									</efac:ProcurementDetails>
 								</efac:StrategicProcurementInformation>
 							</efac:StrategicProcurement>
+							<efac:StrategicProcurement>
+								<efac:StrategicProcurementInformation>
+									<efac:AppliedMeasure>
+										<!--"id" : "BT-685-LotResult", "name" : "Specific IPI Measure"-->
+										<efbc:MeasureCode listName="international-procurement-instrument-measure">32025R1197</efbc:MeasureCode>
+										<efac:MeasureException>
+											<!--"id" : "BT-687-LotResult", "name" : "Exception to the application of the IPI Measure"-->
+											<efbc:ExceptionCode listName="international-procurement-instrument-application">pub-int</efbc:ExceptionCode>
+											<!--"id" : BT-688-LotResult", "name" : "Overriding reasons relating to the public interest"-->
+											<efbc:ExceptionDescription languageID="ENG">Because ...</efbc:ExceptionDescription>
+										</efac:MeasureException>
+										<!--"id" : "BT-686-LotResult", "name" : "Number of tender applications that fall under this IPI Measure"-->
+										<efac:MeasureStatistics>
+											<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+										</efac:MeasureStatistics>
+									</efac:AppliedMeasure>
+								</efac:StrategicProcurementInformation>
+							</efac:StrategicProcurement>
 							<efac:TenderLot>
 								<!-- "id" : "BT-13713-LotResult", "name" : "Result Lot Identifier" -->
 								<cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
@@ -337,15 +361,21 @@
 							</efac:LotTender>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
-								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<!--"id" : "BT-759-LotResult",  "name" : "Received Submissions Count"-->
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
 								<!--"id" : "BT-759-LotResult",  "name" : "Received Submissions Count"-->
 								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
 								<!--"id" : "BT-759-LotResult",  "name" : "Received Submissions Count"-->
-								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:ReceivedSubmissionsStatistics>
 								<!--"id" : "BT-760-LotResult", "name" : "Received Submissions Type"-->
@@ -1315,7 +1345,7 @@
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
 	<!--   "id" : "OPT-002-notice","name" : "Customization ID (UBL)" -->
-	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.14</cbc:CustomizationID>
 	<!--     "id" : "BT-701-notice","name" : "Notice Identifier" -->
 	<cbc:ID schemeName="notice-id">15377ca1-6cf7-4060-90f0-9290128957a3</cbc:ID>
 	<!--"id" : "BT-04-notice", "name" : "Procedure Identifier"-->
@@ -1581,8 +1611,7 @@
 							</efac:StrategicProcurement>
 							<efac:StrategicProcurement>
 								<!--"id" : "BT-684-Lot",   "name" : "IPI Measures are Applicable"-->
-								<!-- Should be set to true once an IPI measure is available -->
-								<efbc:ApplicableLegalBasis listName="ipi-scope">false</efbc:ApplicableLegalBasis>
+								<efbc:ApplicableLegalBasis listName="ipi-scope">true</efbc:ApplicableLegalBasis>
 							</efac:StrategicProcurement>
 							<efac:StrategicProcurement>
 								<!--"id" : "BT-810-Lot",   "name" : "EED Applicable"-->
@@ -1800,7 +1829,7 @@
 			<!--"id": "BT-25-Lot", "name": "Quantity"-->
 			<cbc:EstimatedOverallContractQuantity unitCode="HUR">1000</cbc:EstimatedOverallContractQuantity>
 			<!-- id": "BT-300-Procedure","name": "Additional Information" -->
-			<cbc:Note languageID="ENG">Additional information for GLO-0001 ProcurementProject ---</cbc:Note>
+			<cbc:Note languageID="ENG">Additional information for LOT-0001 ProcurementProject ---</cbc:Note>
 			<cac:ProcurementAdditionalType>
 				<!-- "id": "BT-531-Procedure", "name": "Additional Nature (different from Main) -->
 				<cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
@@ -1838,6 +1867,9 @@
 				<!-- "id": "BT-262-Procedure","name": "Main Classification Code" -->
 				<cbc:ItemClassificationCode listName="cpv">75121000</cbc:ItemClassificationCode>
 			</cac:MainCommodityClassification>
+			<cac:AdditionalCommodityClassification>
+				<cbc:ItemClassificationCode listName="cpv">33185200</cbc:ItemClassificationCode>
+			</cac:AdditionalCommodityClassification>
 			<!-- -->
 			<cac:RealizedLocation>
 				<!-- "id": "BT-728-Lot", "name": "Place Performance Additional Information" -->

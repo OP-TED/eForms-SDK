@@ -70,7 +70,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.14</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">cf9697c2-e280-4e78-beb1-e481f8c97468</cbc:ID>
 	<cbc:ContractFolderID>b6e24d15-bcdf-4275-9399-72cfb2e671c6</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -172,6 +172,18 @@ vol3
 			</cac:Language>
 		</cac:TenderingTerms>
 		<cac:TenderingProcess>
+			<ext:UBLExtensions>
+				<ext:UBLExtension>
+					<ext:ExtensionContent>
+						<efext:EformsExtension>
+							<efac:InterestExpressionReceptionPeriod>
+								<cbc:EndDate>2023-08-11+03:00</cbc:EndDate>
+								<cbc:EndTime>15:00:00+03:00</cbc:EndTime>
+							</efac:InterestExpressionReceptionPeriod>
+						</efext:EformsExtension>
+					</ext:ExtensionContent>
+				</ext:UBLExtension>
+			</ext:UBLExtensions>
 			<cac:ParticipationRequestReceptionPeriod>
 				<cbc:EndDate>2023-08-11+03:00</cbc:EndDate>
 				<cbc:EndTime>15:00:00+03:00</cbc:EndTime>

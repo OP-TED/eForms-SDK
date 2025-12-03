@@ -6,7 +6,7 @@
       <LongName>completion</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
       <LongName Identifier="eFormsParentId">notice-type</LongName>
-      <Version>1.13.0</Version>
+      <Version>1.14.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -183,7 +183,7 @@
             <SimpleValue>Aankondiging van voltooiing van een opdracht</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Ogłoszenie o ukończeniu realizacji zamówienia</SimpleValue>
+            <SimpleValue>Ogłoszenie o ukończeniu realizacji zamówienia</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Anúncio de conclusão de contrato</SimpleValue>

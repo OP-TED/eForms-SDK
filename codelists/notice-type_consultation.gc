@@ -6,7 +6,7 @@
       <LongName>consultation</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
       <LongName Identifier="eFormsParentId">notice-type</LongName>
-      <Version>1.13.0</Version>
+      <Version>1.14.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -132,7 +132,7 @@
             <SimpleValue>Обявление за предпазарна консултация</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Oznámení o předběžné tržní konzultaci</SimpleValue>
+            <SimpleValue>Oznámení o předběžné tržní konzultaci</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Bekendtgørelse om høring forud for markedsføring</SimpleValue>
@@ -183,7 +183,7 @@
             <SimpleValue>Aankondiging van voorafgaande marktconsultatie</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Ogłoszenie o wstępnych konsultacjach rynkowych</SimpleValue>
+            <SimpleValue>Ogłoszenie o wstępnych konsultacjach rynkowych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Anúncio de consulta preliminar do mercado</SimpleValue>
@@ -192,10 +192,10 @@
             <SimpleValue>Anunț de consultare prealabilă a pieței</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Oznámenie o predbežnej trhovej konzultácii</SimpleValue>
+            <SimpleValue>Oznámenie o predbežnej trhovej konzultácii</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o predhodnem preverjanju trga</SimpleValue>
+            <SimpleValue>Obvestilo o predhodnem preverjanju trga</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Meddelande om förberedande marknadssamråd</SimpleValue>

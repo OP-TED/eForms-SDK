@@ -20,7 +20,7 @@
 <entry key="business-term|description|BG-4">Aanvullende informatie over de winnaar, de inschrijver of de onderaannemer.</entry>
 <entry key="business-term|description|BG-44">Informatie over de waarde en de rangorde van een prijs voor een winnaar in de prijsvraag voor ontwerpen, innovatiepartnerschap of concurrentiegerichte dialoog (bv. “10 000 EUR – 1e plaats”, “5 000 EUR – 2e plaats”).</entry>
 <entry key="business-term|description|BG-541">Informatie over een nummer dat aan een gunningscriterium is gekoppeld.</entry>
-<entry key="business-term|description|BG-556">Informatie over de maximumwaarde die in een raamovereenkomst binnen een groep percelen kan worden besteed. Deze informatie kan worden verstrekt wanneer de maximumwaarde van een groep percelen lager is dan de som van de waarden van de afzonderlijke percelen (bv. als meerdere percelen hetzelfde budget delen). Dit zijn maximumwaarden zoals berekend op basis van de inschrijving van de winnaar of de inschrijvingen van de winnaars.</entry>
+<entry key="business-term|description|BG-556">Informatie over de maximale of opnieuw geraamde waarde die in een raamovereenkomst binnen een groep percelen kan worden besteed. Deze informatie kan worden verstrekt wanneer de maximumwaarde van een groep percelen lager is dan de som van de waarden van de afzonderlijke percelen (bv. als meerdere percelen één budget delen). Dit zijn maximumwaarden zoals berekend op basis van de inschrijving van de winnaar of de inschrijvingen van de winnaars.</entry>
 <entry key="business-term|description|BG-557">Informatie over de maximumwaarde die in een raamovereenkomst binnen een groep percelen kan worden besteed. Deze informatie kan worden verstrekt wanneer de maximumwaarde van een groep percelen lager is dan de som van de waarden van de afzonderlijke percelen in de desbetreffende groep (bv. als meerdere percelen hetzelfde budget delen).</entry>
 <entry key="business-term|description|BG-6">Informatie over de aanbestedingsprocedure.</entry>
 <entry key="business-term|description|BG-61">Informatie over fondsen van de Unie die worden gebruikt om de aanbesteding te financieren. Deze informatie kan per perceel verschillen.</entry>
@@ -31,8 +31,8 @@
 <entry key="business-term|description|BG-681">De lijst van IIO-maatregelen die zijn toegepast voor deze inschrijving.</entry>
 <entry key="business-term|description|BG-7">Informatie over alle resultaten van de in deze aankondiging bekendgemaakte aanbestedingsprocedure of, indien van toepassing, afzonderlijke percelen.</entry>
 <entry key="business-term|description|BG-700">Informatie over de uitsluitingsgronden en selectiecriteria die zijn gebruikt voor deze aanbestedingsprocedure.</entry>
-<entry key="business-term|description|BG-701">De korte beschrijving van de criteria inzake de persoonlijke situatie van inschrijvers die tot hun uitsluiting kunnen leiden. Hierin moet een lijst van al deze criteria zijn opgenomen, waarbij de vereiste informatie (bv. eigen verklaring, documentatie) wordt vermeld. Ook specifieke nationale uitsluitingsgronden kunnen worden opgenomen.</entry>
-<entry key="business-term|description|BG-702">Informatie over de selectiecriteria (of het selectiecriterium). Alle criteria moeten worden vermeld. Deze informatie kan per perceel verschillen.</entry>
+<entry key="business-term|description|BG-701">De beschrijving van de criteria inzake de persoonlijke situatie van inschrijvers die tot hun uitsluiting kunnen leiden. Ook specifieke nationale uitsluitingsgronden kunnen worden opgenomen.</entry>
+<entry key="business-term|description|BG-702">Informatie over de selectiecriteria. Alle criteria moeten worden vermeld. Deze informatie kan per perceel verschillen.</entry>
 <entry key="business-term|description|BG-703">Informatie over de organisatie. Deze informatie kan verschillen per perceel, per opdracht, per inschrijving enz. In het geval van een vooraankondiging die alleen ter informatie wordt gebruikt, kan die informatie verschillen per onderdeel van de aankondiging dat later zelf een perceel of een op zichzelf staande procedure kan worden.</entry>
 <entry key="business-term|description|BG-704">Informatie over de beloningen en de jury bij een prijsvraag voor ontwerpen. Deze informatie kan per perceel verschillen.</entry>
 <entry key="business-term|description|BG-705">Informatie over eventuele andere voorwaarden voor deelname aan de procedure en voorwaarden met betrekking tot het toekomstige contract. Bij de voorwaarden moet een beschrijving gevoegd zijn van de methoden op basis waarvan zij zullen worden gecontroleerd. Deze informatie kan per perceel verschillen. In het geval van een vooraankondiging die alleen ter informatie wordt gebruikt, kan die informatie verschillen per onderdeel van de aankondiging dat later zelf een perceel of een op zichzelf staande procedure kan worden.</entry>
@@ -49,7 +49,7 @@
 <entry key="business-term|description|BG-72">Informatie over een numerieke waarde die gekoppeld is aan de selectiecriteria (of het selectiecriterium) en die dient om de gegadigden te selecteren die voor de tweede fase van de procedure zullen worden uitgenodigd.</entry>
 <entry key="business-term|description|BG-77">Informatie over wijzigingen van de opdracht (bv. extra werken, diensten of leveringen). Deze informatie kan per afdeling van de eerdere aankondiging verschillen.</entry>
 <entry key="business-term|description|BG-8">Informatie over velden die niet voor onmiddellijke bekendmaking bestemd zijn. Deze informatie kan per veld verschillen.</entry>
-<entry key="business-term|description|BG-810">Informatie over de energie-efficiëntie van de in BT-811 geselecteerde producten.</entry>
+<entry key="business-term|description|BG-810">Informatie over energie-efficiëntie.</entry>
 <entry key="business-term|description|BG-9">Informatie over wijzigingen van de aankondiging. Deze informatie kan per afdeling van de eerdere aankondiging verschillen.</entry>
 <entry key="business-term|description|BT-01">De rechtsgrondslag (bv. een rechtshandeling van de Unie of een nationale rechtshandeling) op grond waarvan de aanbestedingsprocedure plaatsvindt of, in het geval van een vooraankondiging, zal plaatsvinden.</entry>
 <entry key="business-term|description|BT-02">Het type aankondiging volgens de wetgeving inzake aanbestedingen.</entry>
@@ -92,6 +92,7 @@
 <entry key="business-term|description|BT-13720">Een identificatiecode van een of meer afdelingen binnen deze aankondiging. De informatie in de afdeling “organisatie” heeft betrekking op deze afdeling(en).</entry>
 <entry key="business-term|description|BT-13721">Een identificatiecode van een of meer afdelingen binnen deze aankondiging. De informatie in de afdeling “strategische overheidsopdrachten” heeft betrekking op deze afdeling(en).</entry>
 <entry key="business-term|description|BT-1375">Een identificatiecode van een perceel binnen de procedure dat deel uitmaakt van een groep percelen waarvoor één inschrijving kan worden ingediend en beoordeeld.</entry>
+<entry key="business-term|description|BT-1378">Een identificatiecode van een of meer percelen. De informatie in de afdeling “selectiecriteria” heeft betrekking op dit perceel of deze percelen.</entry>
 <entry key="business-term|description|BT-14">De toegang tot bepaalde aanbestedingsstukken is beperkt.</entry>
 <entry key="business-term|description|BT-140">De voornaamste reden voor de wijziging in de aankondiging ten opzichte van de oorspronkelijke aankondiging.</entry>
 <entry key="business-term|description|BT-141">De beschrijving van de wijzigingen in de aankondiging ten opzichte van de oorspronkelijke aankondiging.</entry>
@@ -127,7 +128,7 @@
 <entry key="business-term|description|BT-201">De beschrijving van de voornaamste reden om de opdracht te wijzigen.</entry>
 <entry key="business-term|description|BT-202">De samenvatting van de wijziging(en) van de opdracht.</entry>
 <entry key="business-term|description|BT-21">De naam van de aanbestedingsprocedure of het perceel.</entry>
-<entry key="business-term|description|BT-22">De interne identificatiecode die voor bestanden met betrekking tot de aanbestedingsprocedure of het perceel wordt gebruikt voordat aan de procedure een identificatiecode is toegewezen (bv. afkomstig van het systeem voor documentbeheer of voor de planning van aanbestedingen van de koper).</entry>
+<entry key="business-term|description|BT-22">De identificatie die door de koper wordt gebruikt om de procedure of het perceel te identificeren gedurende de hele levenscyclus van de procedure (bijv. afkomstig van het documentbeheersysteem van de koper of het inkoopplanningssysteem).</entry>
 <entry key="business-term|description|BT-23">De voornaamste aard van wat wordt aangekocht (bv. werken). In het geval van gemengde aanbestedingen (bv. een procedure voor zowel werken als diensten) kan de voornaamste aard bijvoorbeeld die met de hoogste geraamde waarde zijn. Deze informatie moet worden verstrekt voor de aanbestedingsprocedure als geheel.</entry>
 <entry key="business-term|description|BT-24">De beschrijving van de aard en hoeveelheid van wat wordt aangekocht of van de behoeften en eisen waaraan in het kader van deze procedure of dit perceel moet worden voldaan. In het geval van een aankondiging van wijziging, de beschrijving van de aanbesteding vóór en na de wijziging.</entry>
 <entry key="business-term|description|BT-25">Het vereiste aantal eenheden.</entry>
@@ -214,7 +215,8 @@
 <entry key="business-term|description|BT-651">De informatie over onderaanneming die in de inschrijving moet worden vermeld.</entry>
 <entry key="business-term|description|BT-660">De waarde die waarschijnlijk binnen een raamovereenkomst gedurende haar gehele looptijd zal worden besteed, met inbegrip van opties en verlengingen, zoals opnieuw geraamd op basis van de inschrijving van de winnaar of de inschrijvingen van de winnaars.</entry>
 <entry key="business-term|description|BT-661">Er is een maximumaantal gegadigden dat voor de tweede fase van de procedure kan worden uitgenodigd.</entry>
-<entry key="business-term|description|BT-67">De korte beschrijving van de criteria inzake de persoonlijke situatie van inschrijvers die tot hun uitsluiting kunnen leiden. Hierin moet een lijst van al deze criteria zijn opgenomen, waarbij de vereiste informatie (bv. eigen verklaring, documentatie) wordt vermeld. Ook specifieke nationale uitsluitingsgronden kunnen worden opgenomen.</entry>
+<entry key="business-term|description|BT-67(a)">Soort uitsluitingsgrond zoals vermeld in de richtlijnen inzake overheidsopdrachten.</entry>
+<entry key="business-term|description|BT-67(b)">Een korte beschrijving van de criteria die tot uitsluiting van inschrijvers kunnen leiden</entry>
 <entry key="business-term|description|BT-681">Verordening (EU) 2022/2560 betreffende buitenlandse subsidies is, in overeenstemming met artikel 28 daarvan, op deze aanbestedingsprocedure van toepassing.</entry>
 <entry key="business-term|description|BT-682">Toegepaste maatregelen in het kader van Verordening (EU) 2022/2560 betreffende buitenlandse subsidies.</entry>
 <entry key="business-term|description|BT-684">Maatregelen onder de Internationale Aanbestedingsinstrument (IPI) Verordening (EU) 2022/1031 zijn van toepassing op deze aanbestedingsprocedure</entry>
@@ -268,7 +270,7 @@
 <entry key="business-term|description|BT-748">De criteria (of het criterium) van het desbetreffende type worden/wordt gebruikt, niet gebruikt, of (in het geval van een vooraankondiging gebruikt als oproep tot mededinging of met het oog op het verkorten van termijnen) het gebruik is nog niet bekend.</entry>
 <entry key="business-term|description|BT-749">De naam van de selectiecriteria (of het selectiecriterium).</entry>
 <entry key="business-term|description|BT-75">De beschrijving van de financiële waarborg die bij de indiening van een inschrijving van de inschrijver wordt verlangd. De waarborg kan bijvoorbeeld de vorm hebben van een betaling aan de koper of een document van een bank. De waarborg zou normaal gesproken worden ingehouden wanneer de inschrijver de opdracht heeft gewonnen, maar vervolgens weigert het contract te ondertekenen.</entry>
-<entry key="business-term|description|BT-750">De korte beschrijving van de selectiecriteria (of het criterium), met inbegrip van de minimumeisen, de vereiste informatie (bv. eigen verklaring, documentatie) en de wijze waarop de criteria of het criterium zullen/zal worden gebruikt om de gegadigden te selecteren die voor de tweede fase van de procedure zullen worden uitgenodigd (als er een maximumaantal gegadigden is vastgesteld).</entry>
+<entry key="business-term|description|BT-750">De beschrijving van het selectiecriterium en van de manier waarop het criterium zal worden gebruikt om de gegadigden te selecteren die voor de tweede fase van de procedure zullen worden uitgenodigd (als er een maximumaantal gegadigden is vastgesteld).</entry>
 <entry key="business-term|description|BT-751">Een waarborg is vereist.</entry>
 <entry key="business-term|description|BT-752">Een numerieke waarde die aan de selectiecriteria (of het selectiecriterium) gekoppeld is.</entry>
 <entry key="business-term|description|BT-7531">Of de aan een selectiecriterium (of selectiecriteria) gekoppelde numerieke waarde een gewicht vertegenwoordigt (bv. een percentage).</entry>
@@ -303,10 +305,10 @@
 <entry key="business-term|description|BT-78">De termijn waarbinnen inschrijvers die niet over een veiligheidsmachtiging beschikken, deze kunnen verkrijgen.</entry>
 <entry key="business-term|description|BT-783">Of de informatie een beroep of een beslissing op beroep betreft.</entry>
 <entry key="business-term|description|BT-784">Een identificatiecode van een beroep of een beslissing op beroep. Als bij een hogere beroepsinstantie beroep wordt ingesteld, moet het beroep een nieuwe identificatiecode krijgen.</entry>
-<entry key="business-term|description|BT-785">Een identificatiecode van het/de beroep(en) waar deze beslissing het gevolg van is of een beslissing op beroep waartegen hierbij beroep wordt ingediend. Beslissing die is genomen op beroep dat door de beroepsinstantie zelf is ingeleid (“ex officio”) wordt niet voorafgegaan door een ingediend beroep.</entry>
+<entry key="business-term|description|BT-785">Een identificatiecode van het/de beroep(en) waar deze beslissing het gevolg van is of een beslissing op beroep waartegen hierbij beroep wordt ingediend. Beslissing die is genomen op beroep dat door de beroepsinstantie zelf is ingeleid ("ex officio") wordt niet voorafgegaan door een ingediend beroep.</entry>
 <entry key="business-term|description|BT-786">Een identificatiecode van een of meer afdelingen binnen deze aankondiging. De informatie in de afdeling “beroep” heeft betrekking op deze afdeling(en).</entry>
-<entry key="business-term|description|BT-787">De datum en het tijdstip waarop het beroep is ingediend of de beslissing op beroep is genomen.</entry>
-<entry key="business-term|description|BT-788">De naam van het beroep of de beslissing op beroep.</entry>
+<entry key="business-term|description|BT-787">De datum waarop het beroep is ingediend of de beslissing op beroep is genomen.</entry>
+<entry key="business-term|description|BT-788">De titel van het beroep of de beslissing op beroep.</entry>
 <entry key="business-term|description|BT-789">De beschrijving van het beroep of de beslissing op beroep of enige andere aanvullende informatie.</entry>
 <entry key="business-term|description|BT-79">Of de namen en beroepskwalificaties van het voor de uitvoering van de opdracht ingezette personeel moeten worden vermeld.</entry>
 <entry key="business-term|description|BT-790">Het type beslissing (bv. gegrond verklaard, verworpen omdat de klager geen procesbevoegdheid had).</entry>
@@ -316,21 +318,21 @@
 <entry key="business-term|description|BT-794">De “uniform resource locator” (bv. het webadres) van de documenten betreffende het beroep of de beslissing op beroep.</entry>
 <entry key="business-term|description|BT-795">De voor de indiening van het beroep betaalde vergoeding.</entry>
 <entry key="business-term|description|BT-796">Het beroep is ingetrokken.</entry>
-<entry key="business-term|description|BT-797">De datum en het tijdstip waarop het beroep is ingetrokken.</entry>
+<entry key="business-term|description|BT-797">De datum waarop het beroep is ingetrokken.</entry>
 <entry key="business-term|description|BT-798">De redenen voor de intrekking van het beroep.</entry>
 <entry key="business-term|description|BT-801">Een geheimhoudingsovereenkomst is vereist.</entry>
 <entry key="business-term|description|BT-802">Nadere inlichtingen over de geheimhoudingsovereenkomst.</entry>
 <entry key="business-term|description|BT-803">De datum en het tijdstip waarop de aankondiging door de eSender langs elektronische weg naar het Bureau voor publicaties van de Europese Unie is verzonden.</entry>
 <entry key="business-term|description|BT-805">De aanbestedingsprocedure maakt gebruik van op nationaal, Unie- of een ander niveau vastgestelde criteria voor groene overheidsopdrachten (selectiecriteria, technische specificaties, gunningscriteria en uitvoeringsclausules), indien van toepassing.</entry>
-<entry key="business-term|description|BT-806">Waar de uitsluitingsgronden zijn gedefinieerd, bijvoorbeeld in de aanbestedingsstukken of in het Uniform Europees Aanbestedingsdocument.</entry>
-<entry key="business-term|description|BT-809">De criteria (of het criterium).</entry>
+<entry key="business-term|description|BT-806">Plaats waar de uitsluitingsgronden zijn beschreven, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument.</entry>
+<entry key="business-term|description|BT-809">Het selectiecriterium.</entry>
 <entry key="business-term|description|BT-810">Richtlijn (EU) 2023/1791 betreffende energie-efficiëntie (EED) is op deze aanbestedingsprocedure van toepassing.</entry>
-<entry key="business-term|description|BT-811">Lijst van producten, werken en diensten die vallen onder de Richtlijn Energielabeling, de Richtlijn Ecodesign, de criteria voor groene openbare aanbestedingen van de Unie, Verordening 2020/740. Voor rapportagedoeleinden zijn ook gebouwen die vallen onder de verplichting van artikel 7 EED inbegrepen</entry>
+<entry key="business-term|description|BT-811">Keuze aan producten, werken en diensten die vallen onder de richtlijn energie-etikettering, onder de richtlijn inzake ecologisch ontwerp, onder de EU-criteria voor groene overheidsopdrachten en onder Verordening (EU) 2020/740. Voor de rapportage wordt ook rekening gehouden met gebouwen die onder de verplichting van artikel 7 van de richtlijn energie-efficiëntie vallen. Omdat de lijst twee niveaus heeft, wordt deze opgesplitst in a) de basis, bv.“Eco-label”, en b) het eigenlijke item, bv. “vaatwassers”.</entry>
 <entry key="business-term|description|BT-812">Energie-efficiëntielabels die voor de producten worden verstrekt (A+++, A++, A+, A, B, C, D).</entry>
 <entry key="business-term|description|BT-813">De waarde van het energieverbruik in kWh/jaar voor producten waarvoor geen label bestaat, en energiebesparingen in kWh/jaar voor diensten, gebouwen of werken. Voor producten gelieve het jaarlijks energieverbruik van het product te rapporteren. Voor diensten, werken en gebouwen gelieve de jaarlijkse energiebesparingen te rapporteren.</entry>
-<entry key="business-term|description|BT-814">De eenheid van het energie-efficiëntiegetal, bijvoorbeeld kWh/jaar.</entry>
-<entry key="business-term|description|BT-815">De geleverde of geschatte hoeveelheid. Voor producten gelieve het aantal producten te rapporteren. Voor gebouwen gelieve de bruikbare vloeroppervlakte in m2 te rapporteren. Voor werken of diensten is geen waarde nodig</entry>
-<entry key="business-term|description|BT-821">Waar de selectiecriteria zijn gedefinieerd, bijvoorbeeld in de aanbestedingsstukken of in het Uniform Europees Aanbestedingsdocument.</entry>
+<entry key="business-term|description|BT-814">De waarde van de energiebesparingen in kWh/jaar voor producten, diensten, werken en gebouwen. Rapporteer de jaarlijkse energiebesparingen.</entry>
+<entry key="business-term|description|BT-815">De verstrekte of geraamde hoeveelheid. Vermeld voor producten het aantal producten. Vermeld voor gebouwen het bruikbare vloeroppervlak in vierkante meter. Voor werken of diensten zal de waarde meestal 1 zijn.</entry>
+<entry key="business-term|description|BT-821">Plaats waar de selectiecriteria zijn gedefinieerd, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument.</entry>
 <entry key="business-term|description|BT-88">De belangrijkste kenmerken van de procedure (bv. beschrijving van de afzonderlijke fase(n)) en informatie over de plaats waar de volledige regels voor de procedure te vinden zijn. Deze informatie moet worden verstrekt wanneer de procedure niet één van de procedures uit de richtlijnen inzake overheidsopdrachten is. Dit kan bijvoorbeeld het geval zijn voor concessies, voor sociale en andere specifieke diensten, en in geval van vrijwillige bekendmaking van aanbestedingsprocedures met een waarde onder de EU-drempelwaarden voor overheidsopdrachten.</entry>
 <entry key="business-term|description|BT-92">Er zal worden gebruikgemaakt van elektronische orderplaatsing.</entry>
 <entry key="business-term|description|BT-93">Er zal worden gebruikgemaakt van elektronische betaling.</entry>
@@ -339,11 +341,9 @@
 <entry key="business-term|description|BT-97">Een taal waarin inschrijvingen, verzoeken tot deelname of blijken van belangstelling kunnen worden ingediend.</entry>
 <entry key="business-term|description|BT-98">De termijn, gerekend vanaf de uiterste datum voor de indiening van inschrijvingen, gedurende welke de inschrijvingen geldig moeten blijven.</entry>
 <entry key="business-term|description|BT-99">De beschrijving van de termijnen voor beroepsprocedures.</entry>
-<entry key="business-term|hint|BT-13716">Een van de volgende moet worden ingevuld: BUYER, PROCEDURE, LOT-XXXX, PAR-XXXX, GLO-XXXX, RESULT, RES-XXXX, ORG-XXXX</entry>
 <entry key="business-term|hint|BT-1375">Voeg zoveel percelen als u wilt aan de groep percelen toe.</entry>
 <entry key="business-term|hint|BT-22">Gebruikt u voor uw procedure en voor uw percelen een interne identificatiecode, vul deze dan in. Gebruik voor elk perceel een andere identificatiecode.</entry>
 <entry key="business-term|hint|BT-36">Vul de data van de looptijd OF de periode van de looptijd in.</entry>
-<entry key="business-term|hint|BT-540">Een getal moet aan een methode worden gekoppeld en moet meetellen voor het totaal voor het huidige criterium.</entry>
 <entry key="business-term|hint|BT-543">Dit veld kan doorverwijzen naar het bestek.</entry>
 <entry key="business-term|hint|BT-786">Een van de volgende moet worden ingevuld: PROCEDURE, BUYER, RESULT, PAR-XXXX, LOT-XXXX, GLO-XXXX, RES-XXXX, ORG-XXXX, TPA-XXXX, TPO- XXXX, TEN-XXXX, CON-XXXX, UBO-XXXX</entry>
 <entry key="business-term|hint|OPT-300">Maak eerst de organisatie aan in de rubriek “Organisaties” en selecteer deze daarna in de vervolgkeuzelijst.</entry>
@@ -365,7 +365,7 @@
 <entry key="business-term|name|BG-4">Winnaar</entry>
 <entry key="business-term|name|BG-44">Prijs</entry>
 <entry key="business-term|name|BG-541">Gunningscriterium numerieke waarde</entry>
-<entry key="business-term|name|BG-556">Groep raamovereenkomst maximumwaarde</entry>
+<entry key="business-term|name|BG-556">Groep raamovereenkomst maximale en opnieuw geraamde waarden</entry>
 <entry key="business-term|name|BG-557">Groep raamovereenkomst geraamde maximumwaarde</entry>
 <entry key="business-term|name|BG-6">Procedure</entry>
 <entry key="business-term|name|BG-61">EU-fondsen</entry>
@@ -395,6 +395,7 @@
 <entry key="business-term|name|BG-72">Selectiecriteria tweede fase uitnodiging numerieke waarde</entry>
 <entry key="business-term|name|BG-77">Wijziging opdracht</entry>
 <entry key="business-term|name|BG-8">Niet onmiddellijk gepubliceerd</entry>
+<entry key="business-term|name|BG-810">Informatie over de richtlijn energie-efficiëntie</entry>
 <entry key="business-term|name|BG-9">Wijziging aankondiging</entry>
 <entry key="business-term|name|BT-01">Rechtsgrondslag</entry>
 <entry key="business-term|name|BT-02">Type aankondiging</entry>
@@ -578,10 +579,11 @@
 <entry key="business-term|name|BT-651">Verplichte vermelding van onderaanneming</entry>
 <entry key="business-term|name|BT-660">Opnieuw geraamde waarde van de raamovereenkomst</entry>
 <entry key="business-term|name|BT-661">Er is een maximumaantal gegadigden dat voor de tweede fase van de procedure kan worden uitgenodigd</entry>
-<entry key="business-term|name|BT-67">Beschrijving</entry>
+<entry key="business-term|name|BT-67(a)">Gronden voor uitsluiting</entry>
+<entry key="business-term|name|BT-67(b)">Beschrijving van de uitsluitingsgronden</entry>
 <entry key="business-term|name|BT-681">Verordening inzake buitenlandse subsidies</entry>
 <entry key="business-term|name|BT-682">Buitenlandse subsidies maatregelen</entry>
-<entry key="business-term|name|BT-684">Toepasselijke IPI-maatregelen</entry>
+<entry key="business-term|name|BT-684">Er zijn maatregelen inzake het instrument voor internationale overheidsopdrachten van toepassing</entry>
 <entry key="business-term|name|BT-685">Specifieke IPI-maatregel</entry>
 <entry key="business-term|name|BT-686">Aantal inschrijvingen die onder deze IPI-maatregel vallen</entry>
 <entry key="business-term|name|BT-687">Uitzondering op de toepassing van de IPI-maatregel</entry>
@@ -632,7 +634,7 @@
 <entry key="business-term|name|BT-748">Gebruik van dit criterium</entry>
 <entry key="business-term|name|BT-749">Naam</entry>
 <entry key="business-term|name|BT-75">Beschrijving van de financiële garantie</entry>
-<entry key="business-term|name|BT-750">Beschrijving</entry>
+<entry key="business-term|name|BT-750">Beschrijving van het selectiecriterium</entry>
 <entry key="business-term|name|BT-751">Een waarborg is vereist</entry>
 <entry key="business-term|name|BT-752">Selectiecriteria tweede fase uitnodiging numerieke waarde</entry>
 <entry key="business-term|name|BT-7531">Numerieke waarde is van het type gewicht</entry>
@@ -661,7 +663,7 @@
 <entry key="business-term|name|BT-773">Onderaanneming</entry>
 <entry key="business-term|name|BT-774">Aanpak voor het beperken van milieueffecten</entry>
 <entry key="business-term|name|BT-775">Bevorderde sociale doelstelling</entry>
-<entry key="business-term|name|BT-776">Innovatieve doelstelling</entry>
+<entry key="business-term|name|BT-776">Innovatiegericht aanbesteden</entry>
 <entry key="business-term|name|BT-777">Beschrijving</entry>
 <entry key="business-term|name|BT-778">De raamovereenkomst kent een maximumaantal deelnemers</entry>
 <entry key="business-term|name|BT-779">Inschrijving betaling waarde</entry>
@@ -696,7 +698,7 @@
 <entry key="business-term|name|BT-806">Grondslag voor uitsluiting</entry>
 <entry key="business-term|name|BT-807">Identificatie van de beoordelingsinstantie</entry>
 <entry key="business-term|name|BT-808">Identificatie van de aanvrager van de beoordeling</entry>
-<entry key="business-term|name|BT-809">Selectiecriteria</entry>
+<entry key="business-term|name|BT-809">Selectiecriterium</entry>
 <entry key="business-term|name|BT-810">EED toepasbaar</entry>
 <entry key="business-term|name|BT-811">EED lijst</entry>
 <entry key="business-term|name|BT-812">Energie-efficiëntie label</entry>
@@ -710,7 +712,7 @@
 <entry key="business-term|name|BT-94">Dit is een periodiek terugkerende aanbesteding</entry>
 <entry key="business-term|name|BT-95">Beschrijving</entry>
 <entry key="business-term|name|BT-97">Talen waarin inschrijvingen of verzoeken tot deelname kunnen worden ingediend</entry>
-<entry key="business-term|name|BT-98">Uiterste datum tot wanneer de inschrijving geldig moet blijven</entry>
+<entry key="business-term|name|BT-98">Duur waarin de aanbieding geldig moet blijven</entry>
 <entry key="business-term|name|BT-99">Informatie over de termijnen voor beroep</entry>
 <entry key="business-term|name|OPP-010">Publicatienummer aankondiging</entry>
 <entry key="business-term|name|OPP-011">Nummer uitgave PB S</entry>
@@ -782,6 +784,6 @@
 <entry key="business-term|name|OPT-316">Technische ID van het contract</entry>
 <entry key="business-term|name|OPT-320">Technische ID van een ontvangen aanbieding</entry>
 <entry key="business-term|name|OPT-321">Technische ID van de aanbieding</entry>
-<entry key="business-term|name|OPT-322">Technische ID van het lotresultaat (RES-XXX)</entry>
+<entry key="business-term|name|OPT-322">Technische ID van het perceelresultaat (RES-XXX)</entry>
 <entry key="business-term|name|OPT-999">Voorbeelddatum gunning inschrijving</entry>
 </properties>

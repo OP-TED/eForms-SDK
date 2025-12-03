@@ -1,142 +1,127 @@
-# SDK 1.13.2 Release Notes
+# SDK 1.14.0 Release Notes
 
-This release adds the recently adopted first "International Procurement Instrument" measure regarding medical devices from China (Regulation 2025/1197).
-
-In addition, the Defence Directive (2009/81) is now allowed as a legal basis for notice subtype 38 (contract modification).
-
-The lawfulness warning rule BR-BT-00500-0309 has been removed to no longer check for "test" in organisation names.
-
-This release also contains corrections to the view templates:
-
-* Ensure exclusion grounds and selection criteria are shown in the correct conditions.
-* Display the sections for EED, IPI and CVD correctly in the section "Statistics about strategic procurement".
-
-A comprehensive list of changes between SDK 1.13.1 and SDK 1.13.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.13.1...1.13.2>
-
-# SDK 1.13.1 Release Notes
-
-This release adds the Regulation 2024/2509 on the financial rules applicable to the general budget of the Union: new code in the codelist for legal basis, adjustments in a few rules to take this code into account, and new corresponding translations.
-
-This change has no impact for notices for which the buyer is not an EU institution or body.
-
-This release also contains corrections to the Czech translations for rules.
-
-A comprehensive list of changes between SDK 1.13.0 and SDK 1.13.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.13.0...1.13.1>
-
-# SDK 1.13.0 Release Notes
-
-This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.12.0 should also be able to use this version.
+This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.13.2 should also be able to use this version.
 
 ## Updated metadata content
 
-### eForms regulation second amendment
+The schema has not changed in this release compared to SDK 1.13.
 
-This SDK release completes the implementation of [Commission Implementing Regulation (EU) 2023/2884 of 20 December 2023](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2884)
+### Updates on Business Rules
 
-The implementation can be seen in changes in almost all SDK components: schemas, fields, codelists, schematrons, notice-types, view-templates, translations and examples.
+* Introduction of rules to check that the 'Notice Dispatch Date' (BT-05(a)-notice) and the 'Notice Preferred Publication Date' (BT-738-notice) are earlier than 'Deadline Receipt Tenders' (BT-131(d)-Lot), 'Deadline Receipt Requests' (BT-1311(d)-Lot) and 'Deadline Receipt Expressions' (BT-630(d)-Lot) (unless it is relating to a change notice); and later than 'Winner Decision Date' (BT-1451-Contract)
+* Introduction of a rule controlling that when 'other' is selected as a 'Procedure Legal Basis' (BT-01-notice), the other legal basis must be specified in 'Procedure Legal Basis (ID)' (BT-01(c)-Procedure) or 'Procedure Legal Basis (NoID Description)' (BT-01(f)-Procedure)
+* Introduction of several rules to enhance the data quality of statistical information given in fields 'Number of tenders or requests to participate received' (BT-759-LotResult) and 'Type of received submissions' (BT-760-LotResult) following the publication on the Guide on Statistical Information by DG GROW
+* Removal of several rules regarding the fields 'Number of tenders or requests to participate received' (BT-759-LotResult) and 'Type of received submissions' (BT-760-LotResult) following the publication of the Guide on Statistical Information by DG GROW
+* Introduction of co-constraint rules to check the consistency between the NUTS Code and Country Code when both are provided
+* Introduction of rules controlling that the data put into certain fields is actually of type integer
+* Introduction of rules limiting the length of the input for certain fields to 4 digits
+* Introduction of rules checking that content of amount (currency value) fields have 0 or 2 decimal points
+* Introduction of rule to ensure that '32025R1197' can only be selected in the field 'Specific IPI Measure' (BT-685-LotResult) if the CPV code is in a certain range
+* Update of rules to exclusively refer to the new Financial Regulation "Regulation (EU, Euratom) 2024/2509"
+* Update of a rule to forbid 'Not Awarded Reason' (BT-144-LotResult) for subtype T02
+* Introduction of a rule to ensure that for subtype T02 only 'selec-w' ("At least one winner was chosen") can be selected from the 'winner-selection-status' code list in the field 'Winner Chosen' (BT-142-LotResult)
+* Update of rules to forbid 'Procurement Relaunch' (BT-634-Procedure and BT-634-Lot) in all competition notices
+* Update of co-constraint rules for the 'Procurement Relaunch' fields (BT-634-Procedure/Lot) to check that the procedure/lot can only be relaunched if 'Winner Chosen' (BT-142-LotResult) is 'No winner was chosen and the competition is closed' or if 'Change Reason Code' (BT-140-notice) is 'Cancellation intention' (no longer 'Notice cancelled')
+* Update of rules to conditionally allow 'Organisation Natural Person' (BT-633-Organization) in subtypes 38-40 and E6
+* Removal of rules making 'Framework Maximum Participants Number' (BT-113-Lot) mandatory for subtypes 16 and 18
+* Removal of rule making 'Lots Max Awarded' (BT-33-Procedure) mandatory for subtype 16 when the notice is divided into Lots
+* Update of rules to (conditionally) allow the fields regarding procurement documents for subtype T01
+* Update of rules so that the fields related to the Clean Vehicles Directive are (conditionally) allowed for subtypes T01 and T02
+* Update of conditionally forbidden and mandatory rules on prizes and rewards regarding the fields 'Prize Value' (BT-644-Lot), 'Rewards Other' (BT-45-Lot) and 'Prize Rank' (BT-44-Lot)
+* Introduction of one conditionally forbidden and one mandatory rule for the field 'Selection Criteria Second Stage Invite' (BT-40-Lot) in subtype 22
+* Introduction of rules making 'Participant Name' (BT-47-Lot) forbidden unless 'Procedure Type' (BT-105-Procedure) is 'Restricted' in subtypes 23 and 24
+* Introduction of rules making 'Award Criterion Description' (BT-540-Lot and BT-540-LotsGroup) mandatory for subtypes 7 to 16
+* Introduction of conditionally forbidden and mandatory rules for the fields 'Used asset' (OPP-021-Contract), 'Significance (%)' (OPP-022-Contract) and 'Predominance (%)' (OPP-023-Contract) in subtype T02
+* Update of rules to ensure that there are no minimum candidates restrictions for procedures under the Financial Regulation
+* Removal of the rule requiring 'Additional Nature' (BT-531-Lot/Part) to be different from 'Supplies' for procedures under the Concessions Directive (Directive 2014/23/EU)
+* Removal of the "warning" rule checking that the string "test" is not used for organisations (BR-BT-00500-0309)
+* Update of rules following the removal of 'group of public authorities' from the "buyer-legal-type" code list
+* Introduction of rules making 'Award Criterion Name' (BT-734-Lot, BT-734-LotsGroup) forbidden if 'Award Criterion Description' (BT-540-Lot, BT-540-LotsGroup) is not present
+* Update to the rules regarding the fields on 'Award Criteria Order Justification' (BT-733-Lot, BT-733-LotsGroup) by removing all mandatory rules and by introducing rules to only allow these fields when 'Award Criterion Number Weight' (BT-5421-Lot, BT-5421-LotsGroup) is 'Order of importance'
+* Introduction of rules to enforce the content of fields 'Award Criterion Weight Number' (BT-541-Lot-WeightNumber, BT-541-LotsGroup-WeightNumber) to be integers when the associated 'Award Criterion Number Weight' (BT-5421-Lot, BT-5421-LotsGroup) is 'Order of importance'
+* Update of rules to align time-date dependencies for the fields regarding the 'Additional Information Deadline' (BT-13(d)-Lot/Part, BT-13(t)-Lot/Part) and the 'Public Opening Date' (BT-132(d)-Lot, BT-132(t)-Lot)
+* Update of rules to allow 'Performing Staff Qualification' (BT-79-Lot) in subtype E3 and make it mandatory in subtype 17 when the contract involves works or services
+* Correction of expression used in multiple co-constraint rules on 'Group Lot Identifier' (BT-1375-Procedure)
+* Update of rules to remove references to 'Winner Chosen' (BT-142-LotResult) for VEAT and Contract Modification subtypes
+* Update of rules on 'Tendering Party Leader' (OPT-170-Tenderer) to forbid this field also when no Tenderer is defined (previously it was only forbidden when one Tenderer was defined)
+* Update of rules on 'Direct Award Justification Text' (BT-135-Procedure) to ensure that in subtypes 25-35 the field is only allowed when 'Direct Award Justification Code' (BT-136-Procedure) is present and is mandatory if it is allowed
+* Introduction of rules that make 'Buyers Group Lead Indicator' (OPP-050-Organization) mandatory when multiple buyers exist
+* Update of rules on 'Numeric value of the tender validity deadline' (OPA-98-Lot-Number) and 'Numeric value of the duration period' (OPA-36-Lot-Number, OPA-36-Part-Number) to align them with the rules on 'Tender Validity Deadline' (BT-98-Lot) and 'Duration Period' (BT-36-Lot/BT-36-Part)
+* Introduction of 3 previously missing rules making 'Tender Value' (BT-720-Tender) conditionally mandatory for subtypes 38, 39 and E6
+* Removal of 2 previously duplicated rules for 'Subcontracting Value' (BT-553-Tender) in subtypes 29 and 31
+* Removal of rules that made the Fiscal-, Environmental- and Employment Legislation Document ID fields (OPT-111-Part-FiscalLegis, OPT-111-Lot-FiscalLegis, OPT-112-Part-EnvironLegis, OPT-112-Lot-EnvironLegis, OPT-113-Part-EmployLegis, OPT-113-Lot-EmployLegis) mandatory for the subtypes 6 and 9
+* Update of a rule that conditionally forbids 'Selection Criteria Second Stage Invite' (BT-40-Lot) in subtype 14 to align this rule with the corresponding rules in the other subtypes
+* Update of the whitespace controls to limit the check to leading and trailing white spaces and allow for extra spaces within strings
+* Update of the Regular Expression used for email patterns to allow for non-ASCII characters
+* Update of the contexts for several rules to apply
+* Optimisation of rules on 'Tender Variant' (BT-193-Tender)
+* Introduction of rules that forbid 'Procedure Legal Basis (Description)' (BT-01(d)-Procedure) unless 'Procedure Legal Basis (ID)' (BT-01(c)-Procedure) is filled in
 
-The following fields and forms have been added:
+### Updates on Codelists
 
-* International Procurement Instrument (IPI) in Result notices
-* Energy Efficiency Directive (EED) in Competition and Result notices
-* E1 Pre-Market Consultation, with new _consultation_ form type and _pmc_ notice-type
-* E2 voluntary Planning
-* E3 voluntary Competition
-* E4 voluntary Result
-* E5 Contract Completion, new _completion_ form type and _compl_ notice-type, including new Review section, also added to all Result notices (subtypes 29-37, E4, E5)
-* E6 Contract Modification for defence directive 2009/81/EC
+* Synchronization of the code lists with their latest version on EU vocabularies
+* Notable updates after synchronisation:
+  * Update of "legal-basis" code list to replace the old Financial Regulation with its latest version (Regulation (EU, Euratom) 2024/2509)
+  * Removal of the code 'group of public authorities' from the code list 'buyer-legal-type'
+  * Update of the 'document-used-in-public-procurement' code list: addition of new code 'epo-acc-espd-request' and removal of code 'epo-sub-espd'
+* Notable updates of technical code lists:
+  * CPV code hierarchy fixes
+  * Addition of translations of the codes in the "metric-type" code list
+  * New label for code '32025R1197' in code list 'international-procurement-instrument-measure' (Once this is also updated on EU vocabularies, this will be synced in the future)
+  * Updates to the following GA labels in the code list 'permission': 'required" and 'not-allowed' (Once this is also updated on EU vocabularies, this will be synced in the future)
+  * Addition of Bosnia and Georgia to the tailored code list 'lawful-country'
 
-The European Commission has published [policy guides for IPI, EED and Review](https://code.europa.eu/eproc/eforms/docs/-/tree/main/guides)
+### Updates on Notice type definitions
 
-All new components are optional so a notice in SDK 1.12 format will validate against the schema of SDK 1.13 (but the notice will be subject to other rule changes as listed in this release note).
+* Change of all group label identifiers that have the asset identifier "group|name|ND-XXXX" ("node" labels) to group label identifiers having the asset identifier "group|name|GR-XXXX..."
+* Removal of the 'Procurement Relaunch' fields BT-634-Lot and BT-634-Procedure from competition notices
+* Addition of 'Organisation Natural Person' (BT-633-Organization) for contract modification subtypes 38, 39, 40 and E6
+* Addition of "procurement document" fields for subtype T01, namely 'Documents URL' (BT-15-Lot), 'Documents Official Language' (BT-708-Lot), 'Documents Unofficial Language' (BT-737-Lot), 'Documents Restricted' (BT-14-Lot), 'Documents Restricted Justification' (BT-707-Lot), 'Documents Restricted URL' (BT-615-Lot), 'Additional Information Deadline' (BT-13(d)-Lot and BT-13(t)-Lot) and 'Procurement Documents ID' (OPT-140-Lot)
+* Addition of the "Clean Vehicle Directive" fields within a new Tendering Terms section in the lot in both transport forms and addition of the Result fields in a new group within the Lot Result of the result transport form
+* Addition of the Prize information (GR-Lot-PrizeInformation) display group to the Lot Tendering terms (GR-Lot-TenderingTerms) section for the competition forms (7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, E3)
+* Hiding the fields 'Consumption Metric' (OPT-080-LotResult) and 'Savings Metric' (OPT-081-LotResult) in all affected subtypes (29, 30, 31, 32, 33, 34, 35, 38, 39, 40, E4, E5 and E6)
+  * Note: As they are filled-in automatically by preset values in the SDK, they are not required by eForms
+* Hiding the fields linked to the fiscal (OPT-111-Lot, OPT-111-Part), environmental (OPT-112-Lot, OPT-112-Part) and employment legislation (OPT-113-Lot, OPT-113-Part)
+  * Note: As they are filled-in automatically by preset values in the SDK, they are not required by eForms
+* Addition of the 'Additional Information Deadline' fields (BT-13(d)-Lot, BT-13(t)-Lot) to the subtypes E1 and T01
+* Correction of the display group name for the non-public information of the field 'Tender Rank' (BT-171-Tender) in subtype 38
+* Removal of the 'Future Notice' (BT-127-notice) field from the Procedure Description display group and addition of it as its own group in subtypes 4-9 and E2 in order to better align with the XML and business rules
+* Change of the display group GR-Lot-EED-Asset from SECTION to GROUP in subtypes 7-22, 29-35, 38-40, E3, E4, E5 and E6
+* Swapping of positions of the fields 'Contract EU Funds Financing Identifier' (BT-5011-Contract) and 'Contract EU Funds Programme' (BT-722-Contract) in subtypes 25-40, E4, E5 and E6 to align them with their counterparts in competition notices
+* Change of sequence of the subcontracting fields in subtypes 25-35, 38-40, E4, E5 and E6:
+  * The display is now in the following order:'Subcontracting Indicator' (BT-773-Tender), 'Subcontracting Description' (BT-554-Tender), 'Subcontracting Value Known' (BT-730-Tender), 'Subcontracting Value' (BT-553-Tender), 'Subcontracting Percentage Known' (BT-731-Tender) and 'Subcontracting Percentage' (BT-555-Tender)
+  * Affected unpublished fields have also been reordered
+* Change of display type of the field 'Procedure Accelerated' (BT-106-Procedure) from TEXTBOX to COMBOBOX in subtypes 18 and E3 in order to align them with the other subtypes
+* Removal of the field 'Not Awarded Reason' (BT-144-LotResult) and the related information for it not to be published from subtype T02
+* Renaming of identifier for the group "submission language" from "GR-Lot-Submission Language" to "GR-Lot-SubmissionLanguage" (no space)
+* Repositioning of the display group containing the fields 'Received Submissions Type' (BT-760-LotResult) and 'Received Submissions Count' (BT-759-LotResult)to right underneath the display group containing the Contract Identifier Reference (OPT-315-LotResult) in subtypes 29-37, E4 and E5 (to facilitate fulfilling the new rules on Tender submission statistics).
 
-### EFX grammar
+### Updates on View templates
 
-A small change was made to the EFX grammar, to remove an unneeded alternative in a parser rule. This improves the performance of parsers generated from the grammar by reducing the time spent looking ahead and backtracking.
-This does not change the EFX language, or the output of the parser or translator.
-A new version of the EFX toolkit will be released to take advantage of this improvement. If you have your own ANTLR parser generated from the EFX grammar, you will need to re-generate it to benefit from this change.
+* Addition of 'Organisation Natural Person' (BT-633-Organization) in views 38-40 and E6
+* Addition of 'Additional Information Deadline' (BT-13(d)/(t)-Lot/Part) line in view T01
+* Addition of the "Clean Vehicle Directive fields" at Lot level in view T01 and T02, and at Result level in view T02
+* Addition of Legislation URLs for Parts and Lots: 'URL to Fiscal Legislation' (OPT-110-Lot-FiscalLegis, OPT-110-Part-FiscalLegis), 'URL to Environmental Legislation' (OPT-120-Lot-EnvironLegis, OPT-120-Part-EnvironLegis) and 'URL to Employment Legislation' (OPT-130-Lot-EmployLegis, OPT-130-Part-EmployLegis)
+* Addition of 'Foreign Subsidies Measures' (BT-682-Tender) for winning tenders and non-winning tenders in views 30-37
+* Addition of 'Contract Framework Agreement' (BT-768-Contract) in Contract Modification notices (views 38-40)
+* Ensuring 'Contract Conclusion Date' (BT-145-Contract) and 'Contract URL' (BT-151-Contract) are displayed in Contract Modification notices (views 38-40) when no LotResults are present
+* Removal of duplicate line "Legal type of the competent authority" (BT-11-Procedure-Buyer) from view E1
+* Addition of 'Foreign Subsidies Regulation' (BT-681-Lot) for Lots in views 7, 8, 10-15, 17, 19, 20 and 21
+* Ensuring "Winner of these lots" is displayed in VEAT and contract modification notices (views 25-28, 38-40, E6) when the LotResult section is not present
+* Ensuring 'Additional Information Deadline' (BT-13(d)-Lot) is displayed when there are no procurement documents
+* Addition of 'Framework Agreement' (BT-765-Lot/Part) and 'Contract Framework Agreement' (BT-768-Contract) in views 38 and 39
+* Ensuring section "5.1.15 Techniques" is displayed where it only contains 'Electronic Auction' (BT-767-Lot)
+* Correction of an issue where the names of Tenderers were repeated
+* Update of label for organisations that are part of a tendering party but not the leader of that party to "Official name(s) of the non-leaders of the tendering party"
+* Update of label for the role for Tendering Party Leader which is now displayed as "Leader of tendering party"
 
-### Schema, nodes and fields
+### Updates on labels and translations
 
-* Finalisation of the nodes & fields definitions for the "Review" section.
-* Add fields for IPI and EED.
-
-### Rules
-
-In order to reduce the time required to validate notices with a high number of entities (organisations, lots, tenders, etc.), some Schematron rules have been modified to make better use of variables. Those rules have also moved to new files (`validation-stage-4m.sch` and `validation-stage-5m.sch`), to facilitate their maintenance.
-
-Based on tests with the Central Validation Service, the validation can be 3 times faster. So if you plan to submit large notices, we strongly encourage you to use SDK 1.13.
-
-If you execute the Schematron rules yourself and use the "ph-schematron-pure" library, you will need to use version 8.0.3 or later, due to limitations and bugs in previous versions of the library. For other Schematron implementations, no change should be required to benefit from this improvement.
-
-#### Business rules
-
-* Improve controls for existence of Deadlines with added dependency on Procedure Type.
-* Add Deadline Receipt Requests (BT-1311) as optional for qualification systems (notice subtype 15).
-* Allow Tender Validity Deadline (BT-98) for single stage procedures only.
-* Extend the use of Dispatch Invitation Tender (BT-130-Lot) to all single stage procedures and "Direct Award Without a Prior Call for Competititon".
-* Update existence rules for fields related to Procedure Type (BT-105).
-* Improve rules to ensure the presence of the place of performance (BT-5141, BT-727).
-* Add rules to check that the organisation size (BT-165-Organization-Company) is indicated when the organisation is a winner.
-* Remove the rule that required the Organisation Business ID to be unique in the notice (some countries use the same ID for multiple organisations).
-* Remove the constraint that forbids Buyer and Tenderer from being Service Provider or eSender.
-* Improve information on framework agreement reporting in Contract Modification notices (adding missing fields to align with other forms).
-* Update lawfulness warning rules:
-  * Add a check for the exact string "test" in all organisation names (BT-500) in any language
-  * Adapt the rules that check that buyer country is in a lawful-country to apply regardless of EU funding (BT-60) and subtype
-  * Remove checks for string "sale" in descriptions in English.
-* Update the rule context so the rules get effectively fired for:
-  * Foreign Subsidy Regulation indicator (BT-681)
-  * Reserved Participation (BT-71) and Late Tenderer Information Description (BT-772)
-  * Revenues Allocation of tickets sales code (OPP-035) in T02 form.
-* Forbid FSR (BT-682) for T01 and CEI.
-
-### Codelists
-
-* NUTS 2021 replaced by NUTS 2024: removed UK, added Kosovo, changes in DE, IT, LV, NL, PT, FI, NO; more details on [Eurostat's NUTS page](https://ec.europa.eu/eurostat/web/nuts).
-* Define tailored lists for Procedure Type per subtype.
-* Remove unused codes from non-publication-identifier codelist: not-dis-dat, not-pub-dat.
-* Incremental updates and translations from EU Vocabularies; changes to corporate-body.
-
-### Notice type definitions
-
-* The Strategic procurement group with BT-06 and BT-777 was moved above the groups with the different types of strategic procurement; the Type of Procurement Group has been adapted to have Strategic Procurement as the first choice in all notices where this groups exists (based on [this proposal](https://code.europa.eu/eproc/eforms/crs/-/issues/57)).
-* The fields related to the existence of a framework agreement (BT-765-Lot and BT-768-Contract) were added to the lot and contract sections in subtypes 38/39/E6 to allow contract modifications in the scope of framework contracts.
-* The Tender Validity field (BT-98-Lot) and its related group were removed from subtypes 9 to 15, following the review of procedure types per form and the absence of single stage procedures.
-* The correct node ND-ProcedurePlacePerformanceAdditionalInformation is now associated to GR-Procedure-PlaceOfPerformance.
-* Deadline Receipt Requests (BT-1311) was added to Qualification System (subtype 15).
-
-### View templates
-
-* OPT-100-Contract "Framework Notice Identifier" is now included within "Contract information" for winning tenders.
-* OPP-124-Business "Gazette Issue Identifier" is now included within "Publication in the official gazette" for Business Registration notices (subtypes X01 and X02)
-* BT-726 Suitable For SMEs (Part, Lot and LotsGroup) is now displayed when the value is "false"
-* BT-726 "Suitable For SMEs" (Part) will now be displayed under section "4.1.2 General information"
-* "Procurement Service Provider" has been removed from the list of organisations under Section "5.1.16 Further information, mediation and review".
-* As the role "eSender" applies to the Notice as a whole, the line "TED eSender" has been removed from section "5.1.16 Further information, mediation and review" for all eForms subtypes.
-* Lines for the following fields will no longer be displayed when the fields are not present: BT-71 "Reserved Participation" (Part/Lot), BT-768 "Contract Framework Agreement" (Result).
-* Improved display of "unpublished" award criteria dimensions and numbers.
-* Removed line numbering for the section "Notice information".
-* Multiple values of the following Fields are now displayed on one line:
-  * BT-1501(p)-Contract Modified Notice Part Reference
-  * BT-531 Additional Nature
-  * Under section 5.1.7. Strategic procurement, the types of strategic procurement: BT-06, BT-777, BT-774, BT-805, BT-775, BT-776, BT-717, BT-735
-* Moved display of BT-99-Lot "Review Deadline Description" from section "5.1.12 Procurement terms" to just under the organisation "Review organisation" in section "5.1.16 Further information".
-* Both Organisation Name and TouchPoint Name are displayed where a role is performed by a TouchPoint.
-* For new form E1, added a line to display BT-800 Deadline Receipt Answers.
-* For new form E5, added lines to display BT-779 Tender Payment Value, BT-780, Tender Payment Value Additional Information, BT-782 Tender Penalties and BT-781 Duration Additional Information.
-* The names of Tendering Party Leaders are now excluded from the line "Official name".
-* Fixed bugs causing fatal errors when a Tender has more than one BT-191-Tender Country Origin, or a Beneficial owner has more than one nationality.
-* Fixed bugs causing BT-706-UBO Beneficial Owner Nationality and BT-682-Tender Foreign Subsidies Measures to display incorrectly.
-
-### Labels and translations
-
-* Corrected and improved numerous rule and expression labels and translations.
-* Added labels for new fields and voluntary notices.
-* Added translations for new and corrected labels.
+* Creation and translation of numerous rule and expression labels.
+* Updates to field name, field description and field hint labels, notice labels, business term labels, auxiliary labels, rule labels, expression labels and group labels and/or their translations.
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
 
 This release note does not cover the details of all changes.
 
-A comprehensive list of changes between SDK 1.12.0 and SDK 1.13.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.12.0...1.13.0>
+A comprehensive list of changes between SDK 1.13.2 and SDK 1.14.0 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.13.2...1.14.0>

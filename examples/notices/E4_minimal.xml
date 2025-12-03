@@ -88,7 +88,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.14</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">d1106611-6941-48f4-9029-8b11062939af</cbc:ID>
 	<cbc:ContractFolderID>8698a8e5-9815-4889-ae6a-632170aeb5e6</cbc:ContractFolderID>
 	<cbc:IssueDate>2025-10-23+01:00</cbc:IssueDate>
@@ -104,6 +104,12 @@
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>LocalLegalBasis</cbc:ID>
+			<cbc:DocumentDescription languageID="FRA">Une base légale...</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+	</cac:TenderingTerms>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="FRA">Service d'entretien de remise en état et de nettoyage des espaces verts</cbc:Name>
 		<cbc:Description languageID="FRA">Service d'entretien de remise en état et de nettoyage des espaces verts.</cbc:Description>

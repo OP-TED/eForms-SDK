@@ -63,7 +63,7 @@ But with the minimal amount of information while still valid
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.14</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">f42be27e-09cf-4f0e-a745-63ec689631e6</cbc:ID>
 	<cbc:ContractFolderID>4805c409-5939-4be9-8abd-837f7a5fee23</cbc:ContractFolderID>
 	<cbc:IssueDate>2019-11-21+01:00</cbc:IssueDate>
@@ -197,9 +197,6 @@ But with the minimal amount of information while still valid
 			<cac:AuctionTerms>
 				<cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
 			</cac:AuctionTerms>
-			<cac:FrameworkAgreement>
-				<cbc:MaximumOperatorQuantity>3</cbc:MaximumOperatorQuantity>
-			</cac:FrameworkAgreement>
 			<cac:ContractingSystem>
 				<cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
 			</cac:ContractingSystem>

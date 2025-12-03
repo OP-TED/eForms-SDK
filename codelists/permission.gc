@@ -238,7 +238,7 @@
             <SimpleValue>Non autorisée</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Éigeantach</SimpleValue>
+            <SimpleValue>Ní ceadmhach</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Nije dopušteno</SimpleValue>
@@ -318,7 +318,7 @@
             <SimpleValue>Requise</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Ní ceadmhach</SimpleValue>
+            <SimpleValue>Éigeantach</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Obvezno</SimpleValue>

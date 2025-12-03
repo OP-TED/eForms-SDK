@@ -68,7 +68,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.14</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">6cd3b15e-0ecd-497b-be8b-45160a75b898</cbc:ID>
 	<cbc:ContractFolderID>0fd26a00-9b62-42d2-8ee6-4bbc98da226f</cbc:ContractFolderID>
 	<cbc:IssueDate>2023-05-26Z</cbc:IssueDate>
@@ -80,7 +80,7 @@
 	<cac:ContractingParty>
 		<cbc:BuyerProfileURI>https://example.com</cbc:BuyerProfileURI>
 		<cac:ContractingPartyType>
-			<cbc:PartyTypeCode listName="buyer-legal-type">grp-p-aut</cbc:PartyTypeCode>
+			<cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
 		</cac:ContractingPartyType>
 		<cac:ContractingPartyType>
 			<cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>
@@ -101,17 +101,6 @@
 			</cac:SpecificTendererRequirement>
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
-	<cac:TenderingProcess>
-		<ext:UBLExtensions>
-			<ext:UBLExtension>
-				<ext:ExtensionContent>
-					<efext:EformsExtension>
-						<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
-					</efext:EformsExtension>
-				</ext:ExtensionContent>
-			</ext:UBLExtension>
-		</ext:UBLExtensions>
-	</cac:TenderingProcess>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Title (BT-21) vol3 </cbc:Name>
 		<cbc:Description languageID="ENG">Description (BT-24-Procedure)
@@ -189,7 +178,6 @@
 				<ext:UBLExtension>
 					<ext:ExtensionContent>
 						<efext:EformsExtension>
-							<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
 							<efac:InterestExpressionReceptionPeriod>
 								<cbc:EndDate>2023-08-08+03:00</cbc:EndDate>
 								<cbc:EndTime>06:00:00+03:00</cbc:EndTime>

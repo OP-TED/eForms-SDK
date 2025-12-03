@@ -96,7 +96,7 @@
 		</ext:UBLExtension>
 	</ext:UBLExtensions>
 	<cbc:UBLVersionID>2.3</cbc:UBLVersionID>
-	<cbc:CustomizationID>eforms-sdk-1.13</cbc:CustomizationID>
+	<cbc:CustomizationID>eforms-sdk-1.14</cbc:CustomizationID>
 	<cbc:ID schemeName="notice-id">14de6738-d852-4b8e-b913-d532531f0a22</cbc:ID>
 	<cbc:ContractFolderID>b4b8f562-bc74-46f4-ae33-8d75c6a8f5e3</cbc:ContractFolderID>
 	<cbc:IssueDate>2025-10-23+01:00</cbc:IssueDate>
@@ -112,6 +112,12 @@
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>LocalLegalBasis</cbc:ID>
+			<cbc:DocumentDescription languageID="ENG">Some local legal basis</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+	</cac:TenderingTerms>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Procurement title</cbc:Name>
 		<cbc:Description languageID="ENG">Procurement description.</cbc:Description>

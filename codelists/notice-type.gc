@@ -5,7 +5,7 @@
       <ShortName>NoticeType</ShortName>
       <LongName>notice-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
-      <Version>20240925-0</Version>
+      <Version>20250924-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/notice-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -982,7 +982,7 @@
             <SimpleValue>Aankondiging van voltooiing van een opdracht</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Ogłoszenie o ukończeniu realizacji zamówienia</SimpleValue>
+            <SimpleValue>Ogłoszenie o ukończeniu realizacji zamówienia</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Anúncio de conclusão de contrato</SimpleValue>
@@ -1491,7 +1491,7 @@
             <SimpleValue>Обявление за предпазарна консултация</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Oznámení o předběžné tržní konzultaci</SimpleValue>
+            <SimpleValue>Oznámení o předběžné tržní konzultaci</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Bekendtgørelse om høring forud for markedsføring</SimpleValue>
@@ -1542,7 +1542,7 @@
             <SimpleValue>Aankondiging van voorafgaande marktconsultatie</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Ogłoszenie o wstępnych konsultacjach rynkowych</SimpleValue>
+            <SimpleValue>Ogłoszenie o wstępnych konsultacjach rynkowych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
             <SimpleValue>Anúncio de consulta preliminar do mercado</SimpleValue>
@@ -1551,10 +1551,10 @@
             <SimpleValue>Anunț de consultare prealabilă a pieței</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Oznámenie o predbežnej trhovej konzultácii</SimpleValue>
+            <SimpleValue>Oznámenie o predbežnej trhovej konzultácii</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o predhodnem preverjanju trga</SimpleValue>
+            <SimpleValue>Obvestilo o predhodnem preverjanju trga</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Meddelande om förberedande marknadssamråd</SimpleValue>
