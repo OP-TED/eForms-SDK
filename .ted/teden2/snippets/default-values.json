@@ -113,7 +113,7 @@
       {
          "id":"GR-Part",
          "contentType":"group",
-         "_label":"group|name|ND-Part",
+         "_label":"group|name|GR-Part",
          "description":"Part",
          "displayType":"GROUP",
          "content":[
@@ -130,7 +130,7 @@
       {
          "id":"GR-Lot",
          "contentType":"group",
-         "_label":"group|name|ND-Lot",
+         "_label":"group|name|GR-Lot",
          "description":"Lot",
          "displayType":"GROUP",
          "content":[
