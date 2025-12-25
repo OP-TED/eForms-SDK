@@ -87,12 +87,12 @@ stageVariableDeclaration
 
 /*
  * A rule-block defines a single validation rule.
- * Structure: [WITH [vars,] context [, vars]] [WHEN cond] ASSERT expr AS severity? rule-id FOR field [IN notice-types] [OTHERWISE ASSERT ...]
+ * Structure: [WITH [vars,] context [, vars]] [WHEN cond] ASSERT expr AS severity? rule-id FOR field IN notice-types [OTHERWISE ASSERT ...]
  * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
  * WHEN provides conditional application of the rule.
  * ASSERT defines the validation expression with severity (ERROR/WARNING/INFO) and rule ID.
  * FOR specifies which field or node this rule validates.
- * IN specifies which notice types this rule applies to (optional, defaults to all).
+ * IN specifies which notice types this rule applies to (mandatory).
  */
 ruleSet
     : withClause rules Semicolon?
@@ -125,9 +125,9 @@ whenClause
 
 /*
  * ASSERT clause defines the validation condition.
- * Format: ASSERT expression AS [severity] rule-id FOR field-id [IN notice-types]
+ * Format: ASSERT expression AS [severity] rule-id FOR field-id IN notice-types
  * Severity is optional and defaults to ERROR if not specified.
- * IN clause is optional and defaults to all notice types if not specified.
+ * IN clause is mandatory and must be specified for all rules.
  */
 assertClause
     : Assert (booleanExpression | lateBoundScalar)
