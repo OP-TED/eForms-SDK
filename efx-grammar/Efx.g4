@@ -185,7 +185,7 @@ otherwiseReportClause
 /*
  * IN clause specifies which notice types this rule applies to.
  * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
- * If omitted, the rule applies to all notice types.
+ * This clause is mandatory for all rules.
  */
 inClause
     : IN noticeTypeList
