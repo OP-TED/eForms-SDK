@@ -125,9 +125,9 @@ whenClause
 
 /*
  * ASSERT clause defines the validation condition.
- * Format: ASSERT expression AS [severity] rule-id FOR field-id [IN notice-types]
+ * Format: ASSERT expression AS [severity] rule-id FOR field-id IN notice-types
  * Severity is optional and defaults to ERROR if not specified.
- * IN clause is optional and defaults to all notice types if not specified.
+ * IN clause is required.
  */
 assertClause
     : Assert (booleanExpression | lateBoundScalar)
@@ -185,7 +185,7 @@ otherwiseReportClause
 /*
  * IN clause specifies which notice types this rule applies to.
  * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
- * If omitted, the rule applies to all notice types.
+ * This clause is required in all rules.
  */
 inClause
     : IN noticeTypeList
