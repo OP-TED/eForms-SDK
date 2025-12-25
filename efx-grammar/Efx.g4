@@ -155,7 +155,7 @@ severity
     ;
 
 /*
- * Rule ID is a string literal or identifier that uniquely identifies the rule.
+ * Rule ID uniquely identifies the rule using the RuleIdentifier token format (R-XXX-XXX).
  * Used for error message translation lookup.
  */
 ruleId
