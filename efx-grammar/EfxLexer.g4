@@ -6,12 +6,11 @@ channels { WHITESPACE }
  * DEFAULT mode
  * ------------------------------------------------------------------------------------------------
  * This is the mode that the lexer starts in. In this mode, the lexer needs to identify the opening
- * tokens of either the EFX expression or the EFX template line that is being parsed. If an EFX
- * expression is being parsed, then the expression will start with a context declaration expression. 
- * If an EFX template line is being parsed, then the template line will start with some optional indentation, 
- * followed by an optional outline number, followed by an expression. The default mode therefore needs to
- * recognize and emit these opening tokens and then switch to expression mode to continue parsing the
- * input.
+ * tokens of the EFX input being parsed: an expression, a template line, or a rules file.
+ * - Expressions start with a context declaration expression.
+ * - Template lines start with optional indentation, optional outline number, then an expression.
+ * - Rules files start with optional variable declarations followed by stage headers (---- STAGE id ----).
+ * The default mode recognizes these opening tokens and switches to the appropriate mode.
  */
 
 // Empty lines and comment lines are to be ignored by the parser.
@@ -32,7 +31,7 @@ Spaces: SPACE+;
 // The EFX template translator can auto-generate outline numbers to mark the hierarchical structure
 // of the template. However the user can override the auto-generated outline numbers by explicitly
 // specifying a number in each template line. The EFX lexer will switch to SKIP_WHITESPACE mode after
-// recognizing an outline number, because wny whitespace following it is not significant.
+// recognizing an outline number, because any whitespace following it is not significant.
 OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 
 // Mode switching ---------------------------------------------------------------------------------
@@ -42,7 +41,7 @@ OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 // so that the lexer will find itself in the right mode after processing the expression block.
 StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
 
-// The Let, With and When keywords should switch the lexer to EXPRESSION mode.
+// The Let, With, and When keywords switch the lexer to EXPRESSION mode.
 Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 With: WITH -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 When: WHEN -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
@@ -52,18 +51,30 @@ Otherwise: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> pushMode(TEMPLATE), push
 Display: DISPLAY (TAB | SPACE | EOL)+ -> pushMode(SKIP_WHITESPACE), pushMode(TEMPLATE);
 Invoke: INVOKE -> pushMode(EXPRESSION);
 
-SummarySection: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL*;
-NavigationSection: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL*;
+SummarySectionHeader: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL*;
+NavigationSectionHeader: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL*;
+StageHeaderStart: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> pushMode(STAGE_HEADER);
+
+/*
+ * STAGE_HEADER mode
+ * ------------------------------------------------------------------------------------------------
+ * This mode is used to capture the stage identifier in a stage header declaration.
+ * Format: ---- STAGE stage-id ----
+ */
+mode STAGE_HEADER;
+
+StageIdentifier: [a-zA-Z0-9] ([a-zA-Z0-9_-]* [a-zA-Z0-9_])?;
+StageHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
 
 /*
  * SKIP_WHITESPACE mode
  * ------------------------------------------------------------------------------------------------
- * This mode is used to skip any whitespace insignificant between the different parts of EFX template 
- * line. For example any whitespace between the OutlineNumber and the start of the expression that 
- * follows it, or any white space between the end of a context declaration block and the first character 
- * of the actual template. After switching to this mode, the lexer will skip all whitespace and switch 
- * back to the mode that was active right before. If no whitespace is found, the lexer will watch for 
- * the start of an expression  
+ * This mode is used to skip any whitespace insignificant between the different parts of EFX template
+ * line. For example any whitespace between the OutlineNumber and the start of the expression that
+ * follows it, or any white space between the end of a context declaration block and the first character
+ * of the actual template. After switching to this mode, the lexer will skip all whitespace and switch
+ * back to the mode that was active right before. If no whitespace is found, the lexer will watch for
+ * the start of an expression
  */
 mode SKIP_WHITESPACE;
 
@@ -208,8 +219,9 @@ OtherAssetId: [a-z]+ ([-.] [a-z0-9]+)*;
 
 /*
  * EXPRESSION mode
- * 
- * This lexer mode is used in efx expression blocks ${...} and context declaration blocks {...}.
+ * ------------------------------------------------------------------------------------------------
+ * This lexer mode is used for EFX expressions, expression blocks ${...}, context declaration blocks {...} (or WITH),
+ * conditional template/rule clauses (WHEN) and validation rule clauses (ASSERT, REPORT).
  */
 
 mode EXPRESSION;
@@ -230,11 +242,21 @@ EndBlock: RBRACE -> popMode;
 EndLetExpression: ';' -> popMode, type(Semicolon);
 
 // The DISPLAY keyword, as well as the OTHERWISE DISPLAY construct indicate that the expression block is completed and a template block follows.
-OtherwiseKeyword: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(Otherwise);
+OtherwiseDisplay: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(Otherwise);
 DisplayKeyword: DISPLAY -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(Display);
 InvokeKeyword: INVOKE -> type(Invoke);
 
-// Encountering WHEN in an expression block indicates that conditional templates follow.
+OtherwiseAssert: OTHERWISE (TAB | SPACE | EOL)+ ASSERT;
+OtherwiseReport: OTHERWISE (TAB | SPACE | EOL)+ REPORT;
+AssertKeyword: ASSERT -> type(Assert);
+ReportKeyword: REPORT -> type(Report);
+WithKeyword: WITH -> popMode, pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(With);
+
+SummarySectionHeaderX: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(SummarySectionHeader);
+NavigationSectionHeaderX: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(NavigationSectionHeader);
+StageHeaderStartX: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> popMode, pushMode(STAGE_HEADER), type(StageHeaderStart);
+
+// Encountering WHEN in an expression block indicates that conditional templates or rules follow.
 // We should remain in EXPRESSION mode to process the first condition.
 StartConditionals: WHEN -> type(When);
 
@@ -244,6 +266,7 @@ And: 'and';
 Or: 'or';
 Is: 'is';
 In: 'in';
+IN: 'IN';
 Like: 'like';
 Present: 'present';
 Empty: 'empty';
@@ -255,11 +278,17 @@ If: 'if';
 Then: 'then';
 Else: 'else';
 For: 'for';
+FOR: 'FOR';
 Return: 'return';
+As: 'AS' | 'as';
+Any: 'ANY' | 'any';
 Always: 'ALWAYS';
 Never: 'NEVER';
 True: 'TRUE';
 False: 'FALSE';
+Error: 'ERROR';
+Warning: 'WARNING';
+Info: 'INFO';
 Notice: 'notice';
 Codelist: 'codelist';
 Code: 'code';
@@ -272,6 +301,8 @@ Measure: 'measure';
 Template: 'template';
 Index: INDEX;
 By: BY;
+Assert: ASSERT;
+Report: REPORT;
 
 // Data types ------------------------------------------------------------------------------------------------
 
@@ -350,6 +381,7 @@ FunctionPrefix: '?';
 BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
 FieldIdentifier: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
 NodeIdentifier: 'ND' '-' [a-zA-Z0-9]+;
+RuleIdentifier: 'R' '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9] '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9];
 // FieldAlias: CAMEL_CASE ('_' CAMEL_CASE)*;
 // NodeAlias: PASCAL_CASE ('_' PASCAL_CASE)*;
 
@@ -357,8 +389,8 @@ NodeIdentifier: 'ND' '-' [a-zA-Z0-9]+;
 Identifier: IdentifierPart ('-' IdentifierPart)*;
 IdentifierPart: LETTER (LETTER | DIGIT)*;
 
-IntegerLiteral: '-'? DIGIT+;
-DecimalLiteral: '-'? DIGIT? '.' DIGIT+;
+IntegerLiteral: DIGIT+;
+DecimalLiteral: DIGIT? '.' DIGIT+;
 StringLiteral: ('"' CHAR_SEQ? '"') | ('\'' CHAR_SEQ? '\'');
 UuidV4Literal: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
 DateLiteral: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z');
@@ -379,6 +411,8 @@ Dot: '.';
 DotDot: '..';
 Colon: ':';
 
+// Comments in EXPRESSION mode
+ExpressionComment: (TAB | SPACE)* COMMENT EOL* -> channel(HIDDEN);
 
 // Whitespace, although not significant, is not skipped. It goes to a separate channel so that it can
 // be ignored by the parser without disappearing (from syntax error messages for example).
@@ -392,6 +426,9 @@ fragment INVOKE: ('INVOKE' | 'invoke');
 fragment DISPLAY: ('DISPLAY' | 'display');
 fragment WHEN: ('WHEN' | 'when');
 fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
+fragment ASSERT: ('ASSERT' | 'assert');
+fragment REPORT: ('REPORT' | 'report');
+fragment STAGE: ('STAGE' | 'stage');
 fragment INDEX: ('INDEX' | 'index');
 fragment BY: ('BY' | 'by');
 fragment COMMENT: '//' ~[\r\n\f]*;
