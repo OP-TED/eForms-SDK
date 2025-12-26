@@ -127,7 +127,7 @@ whenClause
  * ASSERT clause defines the validation condition.
  * Format: ASSERT expression AS [severity] rule-id FOR field-id IN notice-types
  * Severity is optional and defaults to ERROR if not specified.
- * IN clause is mandatory and must be specified for all rules.
+ * IN clause is required.
  */
 assertClause
     : Assert (booleanExpression | lateBoundScalar)
@@ -155,7 +155,7 @@ severity
     ;
 
 /*
- * Rule ID is a string literal or identifier that uniquely identifies the rule.
+ * Rule ID uniquely identifies the rule using the RuleIdentifier token format (R-XXX-XXX).
  * Used for error message translation lookup.
  */
 ruleId
@@ -185,7 +185,7 @@ otherwiseReportClause
 /*
  * IN clause specifies which notice types this rule applies to.
  * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
- * This clause is mandatory for all rules.
+ * This clause is required in all rules.
  */
 inClause
     : IN noticeTypeList
