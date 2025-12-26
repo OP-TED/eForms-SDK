@@ -63,7 +63,7 @@ StageHeaderStart: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> pushMode(STA
  */
 mode STAGE_HEADER;
 
-StageIdentifier: [a-zA-Z0-9_-]+;
+StageIdentifier: [a-zA-Z0-9] ([a-zA-Z0-9_-]* [a-zA-Z0-9_])?;
 StageHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
 
 /*
