@@ -87,7 +87,7 @@ stageVariableDeclaration
 
 /*
  * A rule-block defines a single validation rule.
- * Structure: [WITH [vars,] context [, vars]] [WHEN cond] ASSERT expr AS severity? rule-id FOR field IN notice-types [OTHERWISE ASSERT ...]
+ * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT expr AS severity rule-id FOR field [IN notice-types] [OTHERWISE ASSERT ...]
  * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
  * WHEN provides conditional application of the rule.
  * ASSERT defines the validation expression with severity (ERROR/WARNING/INFO) and rule ID.
@@ -102,7 +102,6 @@ ruleSet
 /*
  * WITH clause uses the same contextDeclarationBlock as templates.
  * It allows variable declarations before and/or after the context declaration.
- * If WITH is omitted, the context defaults to the root node.
  */
 withClause
     : With contextDeclarationBlock
