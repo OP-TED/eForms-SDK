@@ -6,12 +6,11 @@ channels { WHITESPACE }
  * DEFAULT mode
  * ------------------------------------------------------------------------------------------------
  * This is the mode that the lexer starts in. In this mode, the lexer needs to identify the opening
- * tokens of either the EFX expression or the EFX template line that is being parsed. If an EFX
- * expression is being parsed, then the expression will start with a context declaration expression. 
- * If an EFX template line is being parsed, then the template line will start with some optional indentation, 
- * followed by an optional outline number, followed by an expression. The default mode therefore needs to
- * recognize and emit these opening tokens and then switch to expression mode to continue parsing the
- * input.
+ * tokens of the EFX input being parsed: an expression, a template line, or a rules file.
+ * - Expressions start with a context declaration expression.
+ * - Template lines start with optional indentation, optional outline number, then an expression.
+ * - Rules files start with optional variable declarations followed by stage headers (---- STAGE id ----).
+ * The default mode recognizes these opening tokens and switches to the appropriate mode.
  */
 
 // Empty lines and comment lines are to be ignored by the parser.
@@ -42,7 +41,7 @@ OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 // so that the lexer will find itself in the right mode after processing the expression block.
 StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
 
-// The Let, With, When, and Assert keywords should switch the lexer to EXPRESSION mode.
+// The Let, With, and When keywords switch the lexer to EXPRESSION mode.
 Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 With: WITH -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 When: WHEN -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
@@ -91,8 +90,6 @@ ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPA
 
 LetExpression: LET -> pushMode(EXPRESSION), type(Let);
 WithExpression: WITH -> pushMode(EXPRESSION), type(With);
-AssertExpression: ASSERT -> pushMode(EXPRESSION), type(Assert);
-OtherwiseAssertExpression: OTHERWISE ((TAB | SPACE | EOL)+ ASSERT)? -> pushMode(EXPRESSION), type(Otherwise);
 
 // Skipping whitespace & comments -----------------------------------------------------------------
 
@@ -222,8 +219,9 @@ OtherAssetId: [a-z]+ ([-.] [a-z0-9]+)*;
 
 /*
  * EXPRESSION mode
- * 
- * This lexer mode is used in efx expression blocks ${...} and context declaration blocks {...}.
+ * ------------------------------------------------------------------------------------------------
+ * This lexer mode is used for EFX expressions, expression blocks ${...}, context declaration blocks {...} (or WITH),
+ * conditional template/rule clauses (WHEN) and validation rule clauses (ASSERT, REPORT).
  */
 
 mode EXPRESSION;

@@ -43,25 +43,23 @@ singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (
 
 /*
  * An EFX rules-file consists of:
- * - optional schema-level variable declarations (used across all patterns)
+ * - optional global variable declarations (used across all stages)
  * - one or more stage sections (each representing a validation stage like "3b", "4", etc.)
  *
- * Schema-level variables become <let> elements in the Schematron schema (outside patterns).
- * Each stage section becomes a Schematron pattern and contains:
- * - optional pattern-level variable declarations (LET statements)
- * - one or more rule blocks
+ * Each stage section contains:
+ * - optional stage-level variable declarations (LET statements)
+ * - one or more rule-sets
  *
  * Rules within a stage can target different notice types via the IN clause.
- * The transpiler groups rules by stage + notice-type to generate pattern files.
+ * The transpiler groups rules by stage + notice-type to generate output files.
  *
- * Note: Only variable declarations are supported at schema and pattern level.
- * Functions and dictionaries are not supported (Schematron limitation).
+ * Note: Only variable declarations are supported at global and stage level.
+ * Functions and dictionaries are not supported.
  */
 rulesFile: globalVariableDeclaration* validationStage+ EOF;
 
 /*
- * Schema-level variable declarations that apply across all patterns.
- * These become <let> elements at the schema level in Schematron.
+ * Global variable declarations that apply across all stages.
  */
 globalVariableDeclaration
     : variableDeclaration
@@ -70,29 +68,28 @@ globalVariableDeclaration
 /*
  * A stage section represents a validation stage (e.g., "3b", "4", "1a").
  * Format: ---- STAGE stage-id ----
- * Contains optional pattern-level variable declarations and one or more rule blocks.
- * Each stage section maps to a Schematron pattern.
+ * Contains optional stage-level variable declarations and one or more rule-sets.
  */
 validationStage
     : StageHeaderStart StageIdentifier StageHeaderEnd stageVariableDeclaration* ruleSet+
     ;
 
 /*
- * Pattern-level variable declarations within a stage section.
- * These become <let> elements in the Schematron pattern.
+ * Stage-level variable declarations within a stage section.
  */
 stageVariableDeclaration
     : variableDeclaration
     ;
 
 /*
- * A rule-block defines a single validation rule.
- * Structure: [WITH [vars,] context [, vars]] [WHEN cond] ASSERT expr AS severity? rule-id FOR field [IN notice-types] [OTHERWISE ASSERT ...]
+ * A rule-set defines one or more validation rules sharing the same context.
+ * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT|REPORT expr AS severity rule-id FOR field IN notice-types [OTHERWISE ASSERT|REPORT ...]
  * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
  * WHEN provides conditional application of the rule.
- * ASSERT defines the validation expression with severity (ERROR/WARNING/INFO) and rule ID.
+ * ASSERT or REPORT defines the validation expression.
+ * AS specifies the severity (ERROR/WARNING/INFO) and rule ID.
  * FOR specifies which field or node this rule validates.
- * IN specifies which notice types this rule applies to (optional, defaults to all).
+ * IN specifies which notice types this rule applies to (use IN * or IN ANY to apply to all).
  */
 ruleSet
     : withClause rules Semicolon?
@@ -102,7 +99,6 @@ ruleSet
 /*
  * WITH clause uses the same contextDeclarationBlock as templates.
  * It allows variable declarations before and/or after the context declaration.
- * If WITH is omitted, the context defaults to the root node.
  */
 withClause
     : With contextDeclarationBlock
@@ -124,10 +120,8 @@ whenClause
     ;
 
 /*
- * ASSERT clause defines the validation condition.
- * Format: ASSERT expression AS [severity] rule-id FOR field-id [IN notice-types]
- * Severity is optional and defaults to ERROR if not specified.
- * IN clause is optional and defaults to all notice types if not specified.
+ * ASSERT clause defines a condition that must be true for the rule to pass (triggers when false).
+ * REPORT clause defines a condition that, when true, triggers a report (triggers when true).
  */
 assertClause
     : Assert (booleanExpression | lateBoundScalar)
@@ -155,7 +149,7 @@ severity
     ;
 
 /*
- * Rule ID is a string literal or identifier that uniquely identifies the rule.
+ * Rule ID follows the pattern R-XXX-XXX where X is alphanumeric.
  * Used for error message translation lookup.
  */
 ruleId
@@ -172,8 +166,7 @@ forClause
     ;
 
 /*
- * OTHERWISE clause provides alternative assertions when the WHEN condition is false.
- * Has the same structure as the main ASSERT clause.
+ * OTHERWISE clause provides an alternative assertion or report when all WHEN conditions are false.
  */
 otherwiseAssertClause
     : OtherwiseAssert (booleanExpression | lateBoundScalar)
@@ -185,7 +178,7 @@ otherwiseReportClause
 /*
  * IN clause specifies which notice types this rule applies to.
  * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
- * If omitted, the rule applies to all notice types.
+ * The IN clause is mandatory; use IN * or IN ANY to apply the rule to all notice types.
  */
 inClause
     : IN noticeTypeList
@@ -259,8 +252,9 @@ globalDeclaration
     | functionDeclaration
     ;
 
-/* 
- * You can capture this context to manage the scope of global variables.
+/*
+ * Declares a typed variable with an initial value.
+ * Used for global variables in templates and global/stage-level variables in rules.
  */
 variableDeclaration    
     : Let stringVariableInitializer Semicolon
@@ -406,7 +400,7 @@ shorthandFieldValueReferenceFromContextField
  * Local variables declared here are available within the template-line and any nested template-lines.
  */
 contextDeclarationBlock
-    : (preVars = variableList Comma)? contextDeclaration (Comma postVars=variableList)?
+    : (variableList Comma)? contextDeclaration (Comma variableList)?
     ;
 
 /*** 
