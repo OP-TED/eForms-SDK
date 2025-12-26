@@ -124,8 +124,8 @@ whenClause
 
 /*
  * ASSERT clause defines the validation condition.
- * Format: ASSERT expression AS [severity] rule-id FOR field-id IN notice-types
- * Severity is optional and defaults to ERROR if not specified.
+ * Format: ASSERT expression AS severity rule-id FOR field-id IN notice-types
+ * Severity is required and must be one of ERROR, WARNING, or INFO.
  * IN clause is required.
  */
 assertClause
