@@ -87,7 +87,7 @@ stageVariableDeclaration
 
 /*
  * A rule-block defines a single validation rule.
- * Structure: [WITH [vars,] context [, vars]] [WHEN cond] ASSERT expr AS severity rule-id FOR field [IN notice-types] [OTHERWISE ASSERT ...]
+ * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT expr AS severity? rule-id FOR field [IN notice-types] [OTHERWISE ASSERT ...]
  * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
  * WHEN provides conditional application of the rule.
  * ASSERT defines the validation expression with severity (ERROR/WARNING/INFO) and rule ID.
@@ -102,7 +102,6 @@ ruleSet
 /*
  * WITH clause uses the same contextDeclarationBlock as templates.
  * It allows variable declarations before and/or after the context declaration.
- * If WITH is omitted, the context defaults to the root node.
  */
 withClause
     : With contextDeclarationBlock
@@ -125,9 +124,9 @@ whenClause
 
 /*
  * ASSERT clause defines the validation condition.
- * Format: ASSERT expression AS severity rule-id FOR field-id [IN notice-types]
+ * Format: ASSERT expression AS severity rule-id FOR field-id IN notice-types
  * Severity is required and must be one of ERROR, WARNING, or INFO.
- * IN clause is optional and defaults to all notice types if not specified.
+ * IN clause is required.
  */
 assertClause
     : Assert (booleanExpression | lateBoundScalar)
@@ -155,7 +154,7 @@ severity
     ;
 
 /*
- * Rule ID is a string literal or identifier that uniquely identifies the rule.
+ * Rule ID uniquely identifies the rule using the RuleIdentifier token format (R-XXX-XXX).
  * Used for error message translation lookup.
  */
 ruleId
@@ -185,7 +184,7 @@ otherwiseReportClause
 /*
  * IN clause specifies which notice types this rule applies to.
  * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
- * If omitted, the rule applies to all notice types.
+ * This clause is required in all rules.
  */
 inClause
     : IN noticeTypeList
