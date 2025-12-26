@@ -31,7 +31,7 @@ Spaces: SPACE+;
 // The EFX template translator can auto-generate outline numbers to mark the hierarchical structure
 // of the template. However the user can override the auto-generated outline numbers by explicitly
 // specifying a number in each template line. The EFX lexer will switch to SKIP_WHITESPACE mode after
-// recognizing an outline number, because wny whitespace following it is not significant.
+// recognizing an outline number, because any whitespace following it is not significant.
 OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 
 // Mode switching ---------------------------------------------------------------------------------

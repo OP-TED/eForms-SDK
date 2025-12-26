@@ -36,7 +36,7 @@ options { tokenVocab=EfxLexer;}
  * A single-expression is typically used to evaluate a condition.
  * If you do not need to process EFX templates, then you can create a full EFX parser that parses these expressions.
  * A single-expression contains two parts: a context-declaration and an expression-block.
- * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
+ * Currently we only allow a field-identifier, a node-identifier or an identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
 singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF;
@@ -224,7 +224,7 @@ noticeType
  * An EFX template-file consists of:
  * - zero or more declarations of global variables and functions,
  * - zero or more declarations of callable templates,
- * - followed by one or more template-lines organised hierarchically 
+ * - followed by zero or more template-lines organised hierarchically 
  *   using python-style indentation.
  * Any variables and functions declared globally can be used in the 
  * templates in addition to the local variables declared in the 
@@ -341,7 +341,7 @@ textBlock: (Whitespace | FreeText | OtherEscapeSequence | CharacterReference)+;
 
 
  /**
- * A label-block starts with a # and curly braces, and can contain a standard label reference, computed label, shorthand, or indirect label reference.
+ * A label-block starts with a # and curly braces (or just # for shorthand value references), and can contain a standard label reference, computed label, shorthand, or indirect label reference.
  */
 labelBlock
     : StartLabelBlock assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndBlock     # standardLabelReference
@@ -376,7 +376,7 @@ pluraliser: expressionBlock;
 
 
 /* 
- * An expression-block starts with a $ and contains the expression to be evaluated inside curly braces.
+ * An expression-block starts with a $ and contains the expression to be evaluated inside curly braces, or it can be a LET expression or a shorthand reference.
  */
 expressionBlock
     : standardExpressionBlock
