@@ -416,7 +416,7 @@ ExpressionComment: (TAB | SPACE)* COMMENT EOL* -> channel(HIDDEN);
 
 // Whitespace, although not significant, is not skipped. It goes to a separate channel so that it can
 // be ignored by the parser without disappearing (from syntax error messages for example).
-WS: [ \t\n]+ -> channel(HIDDEN);
+WS: [ \t\r\n]+ -> channel(HIDDEN);
 
 // Fragments
 fragment EOL: ('\r'? '\n' | '\r' | '\f');
