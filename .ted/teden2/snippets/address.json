@@ -4,7 +4,7 @@
   "nodeId": "ND-Organization",
   "displayType": "GROUP",
   "description": "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
-  "_label": "group|name|ND-Organization",
+  "_label": "group|name|GR-Organisations",
   "_idScheme": "ORG",
   "_identifierFieldId": "OPT-200-Organization-Company",
   "content": [
@@ -37,7 +37,7 @@
           "nodeId": "ND-CompanyLegalEntity",
           "displayType": "GROUP",
           "description": "Company legal identifier",
-          "_label": "group|name|ND-CompanyLegalEntity",
+          "_label": "group|name|GR-Organisation-Identifier",
           "_repeatable": true,
           "content": [
             {
@@ -173,7 +173,7 @@
       "nodeId": "ND-Touchpoint",
       "displayType": "GROUP",
       "description": "Contact details associated to a given role",
-      "_label": "group|name|ND-Touchpoint",
+      "_label": "group|name|GR-Touch-Point",
       "_idScheme": "TPO",
       "_identifierFieldId": "OPT-201-Organization-TouchPoint",
       "_repeatable": true,

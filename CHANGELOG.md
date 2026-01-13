@@ -1,3 +1,11 @@
+# SDK 1.14.1 Release Notes
+
+This release corrects label identifiers in the snippets under the ".ted" folder.
+
+This change has no impact for applications other than eNotices2.
+
+A comprehensive list of changes between SDK 1.14.0 and SDK 1.14.1 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.14.0...1.14.1>
+
 # SDK 1.14.0 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.13.2 should also be able to use this version.
