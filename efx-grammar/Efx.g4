@@ -32,20 +32,199 @@ options { tokenVocab=EfxLexer;}
   Using the lexer's DEFAULT_MODE 
  **************************************/
 
-/* 
+/*
  * A single-expression is typically used to evaluate a condition.
  * If you do not need to process EFX templates, then you can create a full EFX parser that parses these expressions.
  * A single-expression contains two parts: a context-declaration and an expression-block.
- * Currently we only allow a field-identifier or a node-identifier in the context-declaration.
+ * Currently we only allow a field-identifier, a node-identifier or an identifier in the context-declaration.
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
 singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF;
 
-/* 
+/*
+ * An EFX rules-file consists of:
+ * - optional global variable declarations (used across all stages)
+ * - one or more stage sections (each representing a validation stage like "3b", "4", etc.)
+ *
+ * Each stage section contains:
+ * - optional stage-level variable declarations (LET statements)
+ * - one or more rule-sets
+ *
+ * Rules within a stage can target different notice types via the IN clause.
+ * The transpiler groups rules by stage + notice-type to generate output files.
+ *
+ * Note: Only variable declarations are supported at global and stage level.
+ * Functions and dictionaries are not supported.
+ */
+rulesFile: globalVariableDeclaration* validationStage+ EOF;
+
+/*
+ * Global variable declarations that apply across all stages.
+ */
+globalVariableDeclaration
+    : variableDeclaration
+    ;
+
+/*
+ * A stage section represents a validation stage (e.g., "3b", "4", "1a").
+ * Format: ---- STAGE stage-id ----
+ * Contains optional stage-level variable declarations and one or more rule-sets.
+ */
+validationStage
+    : StageHeaderStart StageIdentifier StageHeaderEnd stageVariableDeclaration* ruleSet+
+    ;
+
+/*
+ * Stage-level variable declarations within a stage section.
+ */
+stageVariableDeclaration
+    : variableDeclaration
+    ;
+
+/*
+ * A rule-set defines one or more validation rules sharing the same context.
+ * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT|REPORT expr AS severity rule-id FOR field IN notice-types [OTHERWISE ASSERT|REPORT ...]
+ * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
+ * WHEN provides conditional application of the rule.
+ * ASSERT or REPORT defines the validation expression.
+ * AS specifies the severity (ERROR/WARNING/INFO) and rule ID.
+ * FOR specifies which field or node this rule validates.
+ * IN specifies which notice types this rule applies to (use IN * or IN ANY to apply to all).
+ */
+ruleSet
+    : withClause rules Semicolon?
+    | withClause conditionalRules fallbackRule Semicolon?
+    ;
+
+/*
+ * WITH clause uses the same contextDeclarationBlock as templates.
+ * It allows variable declarations before and/or after the context declaration.
+ */
+withClause
+    : With contextDeclarationBlock
+    ;
+
+rules: (simpleRule | conditionalRule)+;
+conditionalRules: conditionalRule+;
+
+simpleRule: (assertClause | reportClause) asClause forClause inClause;
+conditionalRule: whenClause (assertClause | reportClause) asClause forClause inClause;
+fallbackRule: (otherwiseAssertClause | otherwiseReportClause) asClause forClause inClause;
+
+/*
+ * WHEN clause provides conditional application of the rule.
+ * The rule only applies when the condition evaluates to true.
+ */
+whenClause
+    : When (booleanExpression | lateBoundScalar)
+    ;
+
+/*
+ * ASSERT clause defines a condition that must be true for the rule to pass (triggers when false).
+ * REPORT clause defines a condition that, when true, triggers a report (triggers when true).
+ */
+assertClause
+    : Assert (booleanExpression | lateBoundScalar)
+    ;
+
+reportClause
+    : Report (booleanExpression | lateBoundScalar)
+    ;
+
+/*
+ * AS clause specifies the severity and rule ID.
+ * Format: AS severity rule-id
+ */
+asClause
+    : As severity ruleId
+    ;
+
+/*
+ * Severity can be ERROR, WARNING, or INFO.
+ */
+severity
+    : Error
+    | Warning
+    | Info
+    ;
+
+/*
+ * Rule ID follows the pattern R-XXX-XXX where X is alphanumeric.
+ * Used for error message translation lookup.
+ */
+ruleId
+    : RuleIdentifier
+    ;
+
+/*
+ * FOR clause specifies which field or node this rule validates.
+ * Can target a field or a node (associated with a form group).
+ * This is used to organize validators by target for efficient lookup.
+ */
+forClause
+    : FOR (simpleFieldReference | simpleNodeReference)
+    ;
+
+/*
+ * OTHERWISE clause provides an alternative assertion or report when all WHEN conditions are false.
+ */
+otherwiseAssertClause
+    : OtherwiseAssert (booleanExpression | lateBoundScalar)
+    ;
+
+otherwiseReportClause
+    : OtherwiseReport (booleanExpression | lateBoundScalar)
+    ;
+/*
+ * IN clause specifies which notice types this rule applies to.
+ * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
+ * The IN clause is mandatory; use IN * or IN ANY to apply the rule to all notice types.
+ */
+inClause
+    : IN noticeTypeList
+    ;
+
+/*
+ * Notice type list can be:
+ * - Wildcard: * or ANY (applies to all notice types)
+ * - Explicit list with ranges: 1-3, 10-13, 20, E1-E3, X01-X02
+ */
+noticeTypeList
+    : (Star | Any )                                     # anyNoticeTypes
+    | noticeTypeRange (Comma noticeTypeRange)*          # explicitNoticeTypes
+    ;
+
+/*
+ * A notice type range can be:
+ * - Single: 1, E1, X02, CEI
+ * - Range: 1-3 (expands to 1, 2, 3)
+ * - Prefixed range: E1-E3 (expands to E1, E2, E3)
+ * - Zero-padded range: X01-X02 (expands to X01, X02)
+ *
+ * Validation rules (enforced by transpiler):
+ * - Range endpoints must have same prefix (E1-E3 valid, E1-X02 invalid)
+ * - Start must be <= end (1-3 valid, 3-1 invalid)
+ * - Zero-padding is preserved from the start value
+ */
+noticeTypeRange
+    : noticeType (Minus noticeType)?
+    ;
+
+/*
+ * A notice type identifier can be:
+ * - Numeric: 1, 2, 3, ..., 40
+ * - Alphanumeric: CEI, E1, E2, E3, E4, E5, E6, T01, T02, X01, X02
+ */
+noticeType
+    : IntegerLiteral
+    | Identifier
+    ;
+
+/*
  * An EFX template-file consists of:
  * - zero or more declarations of global variables and functions,
  * - zero or more declarations of callable templates,
- * - followed by one or more template-lines organised hierarchically 
+ * - followed by zero or more template-lines organised hierarchically 
  *   using python-style indentation.
  * Any variables and functions declared globally can be used in the 
  * templates in addition to the local variables declared in the 
@@ -61,22 +240,23 @@ otherSections
     | summarySection navigationSection?
     ;
 
-summarySection: SummarySection templateLine*;
-navigationSection: NavigationSection templateLine*;
+summarySection: SummarySectionHeader templateLine*;
+navigationSection: NavigationSectionHeader templateLine*;
 
 /* 
  * Global-declarations allow the definition of variables and/or functions that can be used throughout the entire template-file.
  */
 globalDeclaration
-    : globalVariableDeclaration 
+    : variableDeclaration 
     | dictionaryDeclaration 
     | functionDeclaration
     ;
 
-/* 
- * You can capture this context to manage the scope of global variables.
+/*
+ * Declares a typed variable with an initial value.
+ * Used for global variables in templates and global/stage-level variables in rules.
  */
-globalVariableDeclaration    
+variableDeclaration    
     : Let stringVariableInitializer Semicolon
     | Let booleanVariableInitializer  Semicolon
     | Let numericVariableInitializer Semicolon
@@ -161,7 +341,7 @@ textBlock: (Whitespace | FreeText | OtherEscapeSequence | CharacterReference)+;
 
 
  /**
- * A label-block starts with a # and curly braces, and can contain a standard label reference, computed label, shorthand, or indirect label reference.
+ * A label-block starts with a # and curly braces (or just # for shorthand value references), and can contain a standard label reference, computed label, shorthand, or indirect label reference.
  */
 labelBlock
     : StartLabelBlock assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndBlock     # standardLabelReference
@@ -196,7 +376,7 @@ pluraliser: expressionBlock;
 
 
 /* 
- * An expression-block starts with a $ and contains the expression to be evaluated inside curly braces.
+ * An expression-block starts with a $ and contains the expression to be evaluated inside curly braces, or it can be a LET expression or a shorthand reference.
  */
 expressionBlock
     : standardExpressionBlock
@@ -220,7 +400,7 @@ shorthandFieldValueReferenceFromContextField
  * Local variables declared here are available within the template-line and any nested template-lines.
  */
 contextDeclarationBlock
-    : (templateVariableList Comma)? contextDeclaration (Comma templateVariableList)?
+    : (variableList Comma)? contextDeclaration (Comma variableList)?
     ;
 
 /*** 
@@ -245,17 +425,17 @@ otherwiseInvokeTemplate: Otherwise invokeTemplate;
 
 contextDeclaration: contextVariableInitializer | fieldContext | nodeContext | shortcut=(Dot | DotDot | Slash);
 
-templateVariableList: templateVariableDeclaration (Comma templateVariableDeclaration)*;
+variableList: variableInitializer (Comma variableInitializer)*;
 
 /* 
  * You can capture this context to manage the scope of local variables.
  * Local variables are only visible within the template-line in which they are declared
  * as well as in any nested template-lines.
  * Note that EFX does not allow the declaration of uninitialised variables.
- * Also note that contextVariableInitializer is not matched by templateVariableDeclaration.
+ * Also note that contextVariableInitializer is not matched by variableInitializer.
  * This is because only one contextVariableInitializer is allowed in a contextDeclarationBlock.
  */
-templateVariableDeclaration
+variableInitializer
     : stringVariableInitializer
     | booleanVariableInitializer 
     | numericVariableInitializer
@@ -572,7 +752,7 @@ contextIteratorExpression:  contextVariableDeclaration  In (fieldContext     | n
  **************************************/
 
 stringLiteral: StringLiteral | UuidV4Literal;
-numericLiteral: IntegerLiteral | DecimalLiteral;
+numericLiteral: Minus? (IntegerLiteral | DecimalLiteral);
 booleanLiteral: trueBooleanLiteral | falseBooleanLiteral;
 trueBooleanLiteral: Always | True;
 falseBooleanLiteral: Never | False;
