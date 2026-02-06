@@ -592,7 +592,12 @@ booleanExpression
     | stringExpression      modifier=Not? Like pattern=StringLiteral            # likePatternCondition
     | stringExpression      Is modifier=Not? Empty                              # emptinessCondition
     | pathFromReference     Is modifier=Not? Present                            # presenceCondition
-    | pathFromReference     Is modifier=Not? Unique In absoluteFieldReference   # uniqueValueCondition
+    | stringExpression      Is modifier=Not? Unique In stringSequence           # stringUniqueValueCondition
+    | numericExpression     Is modifier=Not? Unique In numericSequence          # numericUniqueValueCondition
+    | booleanExpression     Is modifier=Not? Unique In booleanSequence          # booleanUniqueValueCondition
+    | dateExpression        Is modifier=Not? Unique In dateSequence             # dateUniqueValueCondition
+    | timeExpression        Is modifier=Not? Unique In timeSequence             # timeUniqueValueCondition
+    | durationExpression    Is modifier=Not? Unique In durationSequence         # durationUniqueValueCondition
     | booleanExpression     operator=Comparison booleanExpression               # booleanComparison
     | numericExpression     operator=Comparison numericExpression               # numericComparison
     | stringExpression      operator=Comparison stringExpression                # stringComparison
@@ -637,6 +642,19 @@ booleanExpression
     | lateBoundScalar       Not? In timeSequence                                # ppLateBoundInTimeListCondition
     | lateBoundScalar       Not? In durationSequence                            # ppLateBoundInDurationListCondition
     | lateBoundScalar       Not? In lateBoundSequence                           # ppLateBoundInLateBoundListCondition
+    | stringExpression      Is modifier=Not? Unique In lateBoundSequence        # ppStringInLateBoundUniqueValueCondition
+    | numericExpression     Is modifier=Not? Unique In lateBoundSequence        # ppNumericInLateBoundUniqueValueCondition
+    | booleanExpression     Is modifier=Not? Unique In lateBoundSequence        # ppBooleanInLateBoundUniqueValueCondition
+    | dateExpression        Is modifier=Not? Unique In lateBoundSequence        # ppDateInLateBoundUniqueValueCondition
+    | timeExpression        Is modifier=Not? Unique In lateBoundSequence        # ppTimeInLateBoundUniqueValueCondition
+    | durationExpression    Is modifier=Not? Unique In lateBoundSequence        # ppDurationInLateBoundUniqueValueCondition
+    | lateBoundScalar       Is modifier=Not? Unique In stringSequence           # ppLateBoundStringUniqueValueCondition
+    | lateBoundScalar       Is modifier=Not? Unique In numericSequence          # ppLateBoundNumericUniqueValueCondition
+    | lateBoundScalar       Is modifier=Not? Unique In booleanSequence          # ppLateBoundBooleanUniqueValueCondition
+    | lateBoundScalar       Is modifier=Not? Unique In dateSequence             # ppLateBoundDateUniqueValueCondition
+    | lateBoundScalar       Is modifier=Not? Unique In timeSequence             # ppLateBoundTimeUniqueValueCondition
+    | lateBoundScalar       Is modifier=Not? Unique In durationSequence         # ppLateBoundDurationUniqueValueCondition
+    | lateBoundScalar       Is modifier=Not? Unique In lateBoundSequence        # ppLateBoundUniqueValueCondition
     | (Every | Some) iteratorList Satisfies lateBoundScalar                     # ppLateBoundQuantifiedExpression
     | If   (booleanExpression | lateBoundScalar)
       Then (booleanExpression | lateBoundScalar)
