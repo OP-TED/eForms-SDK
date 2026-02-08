@@ -265,6 +265,7 @@ StartConditionals: WHEN -> type(When);
 And: 'and';
 Or: 'or';
 Is: 'is';
+Was: 'was';
 In: 'in';
 IN: 'IN';
 Like: 'like';
@@ -362,6 +363,10 @@ ExceptFunction: 'value-except';
 SequenceEqualFunction: 'sequence-equal';
 PreferredLanguageFunction: 'preferred-language';
 PreferredLanguageTextFunction: 'preferred-language-text';
+// Privacy keywords for statement-like syntax
+Withholdable: 'withholdable';
+Withheld: 'withheld';
+Disclosed: 'disclosed';
 
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
