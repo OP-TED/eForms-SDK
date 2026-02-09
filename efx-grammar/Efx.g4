@@ -598,11 +598,12 @@ booleanExpression
     | dateExpression        Is modifier=Not? Unique In dateSequence             # dateUniqueValueCondition
     | timeExpression        Is modifier=Not? Unique In timeSequence             # timeUniqueValueCondition
     | durationExpression    Is modifier=Not? Unique In durationSequence         # durationUniqueValueCondition
-    // Privacy conditions - check if field can be or is withheld
-    | fieldMention          Is modifier=Not? Withholdable                       # fieldIsWithholdableCondition
-    | fieldMention          Was modifier=Not? Withheld                         # fieldWasWithheldCondition
-    | fieldMention          Is modifier=Not? Withheld                          # fieldIsWithheldCondition
-    | fieldMention          Is modifier=Not? Disclosed                         # fieldIsDisclosedCondition
+    // Computed properties
+    | fieldMention          Colon WasWithheld                          # fieldWasWithheldProperty
+    | fieldMention          Colon IsWithheld                           # fieldIsWithheldProperty
+    | fieldMention          Colon IsWithholdable                       # fieldIsWithholdableProperty
+    | fieldMention          Colon IsDisclosed                          # fieldIsDisclosedProperty
+    | fieldMention          Colon IsMasked                             # fieldIsMaskedProperty
     | booleanExpression     operator=Comparison booleanExpression               # booleanComparison
     | numericExpression     operator=Comparison numericExpression               # numericComparison
     | stringExpression      operator=Comparison stringExpression                # stringComparison
@@ -674,6 +675,8 @@ stringExpression
     | stringFunction                                                            # stringFunctionExpression
     | stringSequence OpenBracket indexer CloseBracket                           # stringAtSequenceIndex
     | textTypeCast lateBoundScalarReference                                     # stringCastExpression
+    // Metadata properties
+    | fieldMention          Colon PrivacyCode                                    # fieldPrivacyCodeProperty
     ;
 
 numericExpression
@@ -893,6 +896,7 @@ contextFieldSpecifier: field=fieldContext ColonColon;
 contextNodeSpecifier: node=nodeContext ColonColon;
 contextVariableSpecifier: variableReference ColonColon;
 
+linkedFieldProperty: PublicationDate | JustificationCode | JustificationDescription;
 
 /*
  * References of fields and Nodes
@@ -908,9 +912,10 @@ fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldRe
 fieldContext: absoluteFieldReference | fieldReferenceWithPredicate;
 absoluteFieldReference: Slash reference=fieldReferenceWithPredicate;
 fieldReferenceWithPredicate: reference=fieldReferenceWithAxis (OpenBracket predicate CloseBracket)?;
-fieldReferenceWithAxis: axis? simpleFieldReference;
+fieldReferenceWithAxis: axis? linkedFieldReference;
+linkedFieldReference: simpleFieldReference (Colon linkedFieldProperty)?;
 simpleFieldReference: fieldId = (FieldId | Identifier);
-fieldMention: fieldId = (FieldId | Identifier);
+fieldMention: fieldId = (FieldId | Identifier) (Colon linkedFieldProperty)?;
 
 nodeReference: absoluteNodeReference | nodeReferenceInOtherNotice;
 nodeReferenceInOtherNotice: noticeReference Slash nodeReferenceWithPredicate;
