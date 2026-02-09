@@ -598,6 +598,12 @@ booleanExpression
     | dateExpression        Is modifier=Not? Unique In dateSequence             # dateUniqueValueCondition
     | timeExpression        Is modifier=Not? Unique In timeSequence             # timeUniqueValueCondition
     | durationExpression    Is modifier=Not? Unique In durationSequence         # durationUniqueValueCondition
+    // Computed properties
+    | fieldMention          Colon WasWithheld                          # fieldWasWithheldProperty
+    | fieldMention          Colon IsWithheld                           # fieldIsWithheldProperty
+    | fieldMention          Colon IsWithholdable                       # fieldIsWithholdableProperty
+    | fieldMention          Colon IsDisclosed                          # fieldIsDisclosedProperty
+    | fieldMention          Colon IsMasked                             # fieldIsMaskedProperty
     | booleanExpression     operator=Comparison booleanExpression               # booleanComparison
     | numericExpression     operator=Comparison numericExpression               # numericComparison
     | stringExpression      operator=Comparison stringExpression                # stringComparison
@@ -669,6 +675,8 @@ stringExpression
     | stringFunction                                                            # stringFunctionExpression
     | stringSequence OpenBracket indexer CloseBracket                           # stringAtSequenceIndex
     | textTypeCast lateBoundScalarReference                                     # stringCastExpression
+    // Metadata properties
+    | fieldMention          Colon PrivacyCode                                    # fieldPrivacyCodeProperty
     ;
 
 numericExpression
@@ -888,6 +896,7 @@ contextFieldSpecifier: field=fieldContext ColonColon;
 contextNodeSpecifier: node=nodeContext ColonColon;
 contextVariableSpecifier: variableReference ColonColon;
 
+linkedFieldProperty: PublicationDate | JustificationCode | JustificationDescription;
 
 /*
  * References of fields and Nodes
@@ -903,8 +912,10 @@ fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldRe
 fieldContext: absoluteFieldReference | fieldReferenceWithPredicate;
 absoluteFieldReference: Slash reference=fieldReferenceWithPredicate;
 fieldReferenceWithPredicate: reference=fieldReferenceWithAxis (OpenBracket predicate CloseBracket)?;
-fieldReferenceWithAxis: axis? simpleFieldReference;
+fieldReferenceWithAxis: axis? linkedFieldReference;
+linkedFieldReference: simpleFieldReference (Colon linkedFieldProperty)?;
 simpleFieldReference: fieldId = (FieldId | Identifier);
+fieldMention: fieldId = (FieldId | Identifier) (Colon linkedFieldProperty)?;
 
 nodeReference: absoluteNodeReference | nodeReferenceInOtherNotice;
 nodeReferenceInOtherNotice: noticeReference Slash nodeReferenceWithPredicate;
@@ -930,12 +941,12 @@ booleanFunction
     | StartsWithFunction    OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis     # startsWithFunction
     | EndsWithFunction      OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis     # endsWithFunction
     // Typed sequence-equal functions - ensure type-safe comparison of sequences of the same type
-    | SequenceEqualFunction OpenParenthesis (stringSequence   | lateBoundSequence) Comma (stringSequence   | lateBoundSequence) CloseParenthesis                    # stringSequenceEqualFunction   
-    | SequenceEqualFunction OpenParenthesis (booleanSequence  | lateBoundSequence) Comma (booleanSequence  | lateBoundSequence) CloseParenthesis                    # booleanSequenceEqualFunction  
-    | SequenceEqualFunction OpenParenthesis (numericSequence  | lateBoundSequence) Comma (numericSequence  | lateBoundSequence) CloseParenthesis                    # numericSequenceEqualFunction  
-    | SequenceEqualFunction OpenParenthesis (dateSequence     | lateBoundSequence) Comma (dateSequence     | lateBoundSequence) CloseParenthesis                    # dateSequenceEqualFunction     
-    | SequenceEqualFunction OpenParenthesis (timeSequence     | lateBoundSequence) Comma (timeSequence     | lateBoundSequence) CloseParenthesis                    # timeSequenceEqualFunction     
-    | SequenceEqualFunction OpenParenthesis (durationSequence | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis                    # durationSequenceEqualFunction 
+    | SequenceEqualFunction OpenParenthesis (stringSequence   | lateBoundSequence) Comma (stringSequence   | lateBoundSequence) CloseParenthesis                    # stringSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (booleanSequence  | lateBoundSequence) Comma (booleanSequence  | lateBoundSequence) CloseParenthesis                    # booleanSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (numericSequence  | lateBoundSequence) Comma (numericSequence  | lateBoundSequence) CloseParenthesis                    # numericSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (dateSequence     | lateBoundSequence) Comma (dateSequence     | lateBoundSequence) CloseParenthesis                    # dateSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (timeSequence     | lateBoundSequence) Comma (timeSequence     | lateBoundSequence) CloseParenthesis                    # timeSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (durationSequence | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis                    # durationSequenceEqualFunction
     ;
 
 
