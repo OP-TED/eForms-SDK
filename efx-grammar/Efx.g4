@@ -6,13 +6,14 @@ options { tokenVocab=EfxLexer;}
  * The eForms Expression Language (EFX) is a Domain Specific Language (DSL) designed
  * to work with eForms notices. EFX is designed to allow the user to:
  * - define expressions that can be used to perform computations on eForms notice data,
+ * - define validation rules for eForms notices,
  * - define templates that can be used to visualise eForms notices.
  *
  * eForms notice data are addressed by dereferencing eForms Fields and Nodes.
  * eForms Fields point to data elements in an eForms notice.
  * eForms Nodes point to structural elements in the eForms notice that contain other Nodes and/or Fields.
  *
- * EFX expressions are typically used to define validation rules.
+ * EFX expressions are the building blocks used in both validation rules and templates.
  * EFX expressions always require an evaluation context relative to which all the Fields and Nodes 
  * referenced by the expression will be dereferenced.
  *
@@ -28,8 +29,12 @@ options { tokenVocab=EfxLexer;}
  * as the number of elements matched by the context of the corresponding template-line.
  */
 
+// ================================================================
+//  EFX Expressions
+// ================================================================
+
 /**************************************
-  Using the lexer's DEFAULT_MODE 
+  Using the lexer's DEFAULT_MODE
  **************************************/
 
 /*
@@ -40,342 +45,6 @@ options { tokenVocab=EfxLexer;}
  * We may also add support for adding one or more predicates to the context-declaration in the future.
  */
 singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF;
-
-/*
- * An EFX rules-file consists of:
- * - optional global variable declarations (used across all stages)
- * - one or more stage sections (each representing a validation stage like "3b", "4", etc.)
- *
- * Each stage section contains:
- * - optional stage-level variable declarations (LET statements)
- * - one or more rule-sets
- *
- * Rules within a stage can target different notice types via the IN clause.
- * The transpiler groups rules by stage + notice-type to generate output files.
- *
- * Note: Only variable declarations are supported at global and stage level.
- * Functions and dictionaries are not supported.
- */
-rulesFile: globalVariableDeclaration* validationStage+ EOF;
-
-/*
- * Global variable declarations that apply across all stages.
- */
-globalVariableDeclaration
-    : variableDeclaration
-    ;
-
-/*
- * A stage section represents a validation stage (e.g., "3b", "4", "1a").
- * Format: ---- STAGE stage-id ----
- * Contains optional stage-level variable declarations and one or more rule-sets.
- */
-validationStage
-    : StageHeaderStart StageIdentifier StageHeaderEnd stageVariableDeclaration* ruleSet+
-    ;
-
-/*
- * Stage-level variable declarations within a stage section.
- */
-stageVariableDeclaration
-    : variableDeclaration
-    ;
-
-/*
- * A rule-set defines one or more validation rules sharing the same context.
- * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT|REPORT expr AS severity rule-id FOR field IN notice-types [OTHERWISE ASSERT|REPORT ...]
- * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
- * WHEN provides conditional application of the rule.
- * ASSERT or REPORT defines the validation expression.
- * AS specifies the severity (ERROR/WARNING/INFO) and rule ID.
- * FOR specifies which field or node this rule validates.
- * IN specifies which notice types this rule applies to (use IN * or IN ANY to apply to all).
- */
-ruleSet
-    : withClause rules Semicolon?
-    | withClause conditionalRules fallbackRule Semicolon?
-    ;
-
-/*
- * WITH clause uses the same contextDeclarationBlock as templates.
- * It allows variable declarations before and/or after the context declaration.
- */
-withClause
-    : With contextDeclarationBlock
-    ;
-
-rules: (simpleRule | conditionalRule)+;
-conditionalRules: conditionalRule+;
-
-simpleRule: (assertClause | reportClause) asClause forClause inClause;
-conditionalRule: whenClause (assertClause | reportClause) asClause forClause inClause;
-fallbackRule: (otherwiseAssertClause | otherwiseReportClause) asClause forClause inClause;
-
-/*
- * WHEN clause provides conditional application of the rule.
- * The rule only applies when the condition evaluates to true.
- */
-whenClause
-    : When (booleanExpression | lateBoundScalar)
-    ;
-
-/*
- * ASSERT clause defines a condition that must be true for the rule to pass (triggers when false).
- * REPORT clause defines a condition that, when true, triggers a report (triggers when true).
- */
-assertClause
-    : Assert (booleanExpression | lateBoundScalar)
-    ;
-
-reportClause
-    : Report (booleanExpression | lateBoundScalar)
-    ;
-
-/*
- * AS clause specifies the severity and rule ID.
- * Format: AS severity rule-id
- */
-asClause
-    : As severity ruleId
-    ;
-
-/*
- * Severity can be ERROR, WARNING, or INFO.
- */
-severity
-    : Error
-    | Warning
-    | Info
-    ;
-
-/*
- * Rule ID follows the pattern R-XXX-XXX where X is alphanumeric.
- * Used for error message translation lookup.
- */
-ruleId
-    : RuleIdentifier
-    ;
-
-/*
- * FOR clause specifies which field or node this rule validates.
- * Can target a field or a node (associated with a form group).
- * This is used to organize validators by target for efficient lookup.
- */
-forClause
-    : FOR (simpleFieldReference | simpleNodeReference)
-    ;
-
-/*
- * OTHERWISE clause provides an alternative assertion or report when all WHEN conditions are false.
- */
-otherwiseAssertClause
-    : OtherwiseAssert (booleanExpression | lateBoundScalar)
-    ;
-
-otherwiseReportClause
-    : OtherwiseReport (booleanExpression | lateBoundScalar)
-    ;
-/*
- * IN clause specifies which notice types this rule applies to.
- * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
- * The IN clause is mandatory; use IN * or IN ANY to apply the rule to all notice types.
- */
-inClause
-    : IN noticeTypeList
-    ;
-
-/*
- * Notice type list can be:
- * - Wildcard: * or ANY (applies to all notice types)
- * - Explicit list with ranges: 1-3, 10-13, 20, E1-E3, X01-X02
- */
-noticeTypeList
-    : (Star | Any )                                     # anyNoticeTypes
-    | noticeTypeRange (Comma noticeTypeRange)*          # explicitNoticeTypes
-    ;
-
-/*
- * A notice type range can be:
- * - Single: 1, E1, X02, CEI
- * - Range: 1-3 (expands to 1, 2, 3)
- * - Prefixed range: E1-E3 (expands to E1, E2, E3)
- * - Zero-padded range: X01-X02 (expands to X01, X02)
- *
- * Validation rules (enforced by transpiler):
- * - Range endpoints must have same prefix (E1-E3 valid, E1-X02 invalid)
- * - Start must be <= end (1-3 valid, 3-1 invalid)
- * - Zero-padding is preserved from the start value
- */
-noticeTypeRange
-    : noticeType (Minus noticeType)?
-    ;
-
-/*
- * A notice type identifier can be:
- * - Numeric: 1, 2, 3, ..., 40
- * - Alphanumeric: CEI, E1, E2, E3, E4, E5, E6, T01, T02, X01, X02
- */
-noticeType
-    : IntegerLiteral
-    | Identifier
-    ;
-
-/*
- * An EFX template-file consists of:
- * - zero or more declarations of global variables and functions,
- * - zero or more declarations of callable templates,
- * - followed by zero or more template-lines organised hierarchically 
- *   using python-style indentation.
- * Any variables and functions declared globally can be used in the 
- * templates in addition to the local variables declared in the 
- * template-lines which are only visible within the template-block 
- * in which they are declared.
- */
-templateFile
-    : globalDeclaration* templateDeclaration* templateLine* otherSections? EOF
-    ;
-
-otherSections
-    : navigationSection summarySection? 
-    | summarySection navigationSection?
-    ;
-
-summarySection: SummarySectionHeader templateLine*;
-navigationSection: NavigationSectionHeader templateLine*;
-
-/* 
- * Global-declarations allow the definition of variables and/or functions that can be used throughout the entire template-file.
- */
-globalDeclaration
-    : variableDeclaration 
-    | dictionaryDeclaration 
-    | functionDeclaration
-    ;
-
-/*
- * Declares a typed variable with an initial value.
- * Used for global variables in templates and global/stage-level variables in rules.
- */
-variableDeclaration
-    : Let stringVariableInitializer Semicolon
-    | Let booleanVariableInitializer  Semicolon
-    | Let numericVariableInitializer Semicolon
-    | Let dateVariableInitializer Semicolon
-    | Let timeVariableInitializer  Semicolon
-    | Let durationVariableInitializer Semicolon
-    // Sequence variable declarations
-    | Let stringSequenceVariableInitializer Semicolon
-    | Let booleanSequenceVariableInitializer Semicolon
-    | Let numericSequenceVariableInitializer Semicolon
-    | Let dateSequenceVariableInitializer Semicolon
-    | Let timeSequenceVariableInitializer Semicolon
-    | Let durationSequenceVariableInitializer Semicolon
-    ;
-
-
-dictionaryDeclaration: Let VariablePrefix dictionaryName=Identifier index=dictionaryIndexClause key=dictionaryKeyClause Semicolon;
-dictionaryIndexClause: Index field=fieldContext;
-dictionaryKeyClause: By (stringExpression | lateBoundScalar);
-dictionaryLookup: VariablePrefix dictionaryName=Identifier OpenBracket (stringExpression | lateBoundScalar) CloseBracket;
-
-/* 
- * A template line contains three parts: indentation, context-declaration, and template.
- * Python-style indentation is used to structure the template-lines hierarchically.
- * The context-declaration part specifies the XML element(s) that will trigger the generation 
- * of output for this template-line. The template-line will appear in the final output as many 
- * times as the number of XML elements matched by the context-declaration.
- * Furthermore, all the expression-blocks in the template part of this template-line will
- * be evaluated relative to the context indicated by the context-declaration.
- * Template-lines written in the legacy EFX-1 style are still allowed, but the new EFX-2 
- * standard syntax provides additional features like conditional branching and template reuse.
- */
-templateLine
-    : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
-    | indentation? OutlineNumber? StartExpressionBlock contextDeclarationBlock EndBlock template CRLF
-    ;
-
-/***
- * Declares a callable template by providing its signature (definition), as well as the content it will display when invoked.
- * Callable templates can be reused across the templateFile by invoking them using the invokeTemplate syntax.
- */
-templateDeclaration: indentation? Let templateDefinition (chooseTemplate | displayTemplate | invokeTemplate) Semicolon;
-
-indentation: Tabs | Spaces | MixedIndent;
-
-/** 
- * A template is a recursive combination of free-text, labels, expressions, and line breaks.
- * Whitespace is significant within the template, but is ignored when present at its beginning or end.
- */
-template: templateFragment;
-
-/**
- * A template is a combination of free-text, labels and expressions to be evaluated.
- * Templates are matched when the lexical analyser is in TEMPLATE mode 
- */
-templateFragment
-    : lineBreak templateFragment?                   # secondaryTemplate
-    | textBlock templateFragment?                   # textTemplate
-    | labelBlock templateFragment?                  # labelTemplate
-    | expressionBlock templateFragment?             # expressionTemplate
-    | linkedTextBlock templateFragment?             # linkedTextTemplate
-    | linkedLabelBlock templateFragment?            # linkedLabelTemplate
-    | linkedExpressionBlock templateFragment?       # linkedExpressionTemplate
-    ;
-
-linkBlock: StartHyperlinkBlock (stringExpression | lateBoundScalar) EndBlock;
-
-linkedTextBlock: textBlock linkBlock;
-linkedLabelBlock: labelBlock linkBlock;
-linkedExpressionBlock: expressionBlock linkBlock;
-
-/**
- * A line-break is a newline character (\n).
- * It is used to change line in the template without changing context or indentation.
- * Any whitespace before or after the newline character is ignored.
- */
-lineBreak: NewLine;
-
-/**
- * A text-block consists of whitespace and free-text.
- * Escape sequences and character references are handled within the free-text token.
- * It is used to add static content to the template.
- */
-textBlock: (Whitespace | FreeText | OtherEscapeSequence | CharacterReference)+;
-
-/******************************************************************************
-  Labels are matched when the lexical analyser is in LABEL mode
- ******************************************************************************/
-
-
- /**
- * A label-block starts with a # and curly braces (or just # for shorthand value references), and can contain a standard label reference, computed label, shorthand, or indirect label reference.
- */
-labelBlock
-    : StartLabelBlock assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndBlock     # standardLabelReference
-    | StartLabelBlock expressionBlock (Semicolon pluraliser)? EndBlock                           # computedLabelReference
-    | StartLabelBlock labelType Pipe BtId (Semicolon pluraliser)? EndBlock                       # shorthandBtLabelReference
-    | StartLabelBlock labelType Pipe FieldId (Semicolon pluraliser)? EndBlock                    # shorthandFieldLabelReference
-    | StartLabelBlock LabelType (Semicolon pluraliser)? EndBlock                                 # shorthandLabelReferenceFromContext
-    // Indirect Label References ----------------------------------------------------------------------------------------------
-    // If an assetType and labelType are not specified, then the label reference is an indirect label reference.
-    // Indirect label references derive the label text from the type and value of field.
-    | StartLabelBlock FieldId (Semicolon pluraliser)? EndBlock                                   # shorthandIndirectLabelReference
-    | ShorthandIndirectLabelReferenceFromContextField                                       # shorthandIndirectLabelReferenceFromContextField
-    ;
-
-assetType: AssetType | expressionBlock;
-labelType: LabelType | expressionBlock;
-assetId
-    : BtId                  // The assetId can be a business term identifier  
-    | FieldId               // The assetId can be a field identifier
-    | otherAssetId
-    | expressionBlock       // The assetId can be computed by an expression
-    ;
-
-// We allow otherAssetId to be any identifier, including the ones used for AssetType or LabelType
-otherAssetId: OtherAssetId | AssetType | LabelType;
-
-pluraliser: expressionBlock;
 
 /****************************************************************************** 
   Expressions are matched when the lexical analyser is in EXPRESSION mode 
@@ -398,116 +67,6 @@ standardExpressionBlock
 shorthandFieldValueReferenceFromContextField
     : ShorthandFieldValueReferenceFromContextField
     ;
-
-/*
- * A context-declaration block specifies the context in which the expressions of the template-line are evaluated.
- * It may include variable declarations before and/or after the context declaration.
- * A template-line is essentially a for-loop that evaluates as many times as the number of elements matched by the context-declaration.
- * A template-line together with any nested template-lines form a template-block. As the for-loop iterates, the entire template-block is evaluated. 
- * Local variables declared here are available within the template-line and any nested template-lines.
- */
-contextDeclarationBlock
-    : (variableList Comma)? contextDeclaration (Comma variableList)?
-    ;
-
-/*** 
- *  Defines the signature of a callable template as comprised by its name and set of parameters.
- */
-templateDefinition
-    : Template Colon templateName=Identifier OpenParenthesis parameterList? CloseParenthesis
-    ;
-
-
-chooseTemplate: whenBlock+ otherwiseBlock?;
-displayTemplate: Display template;
-invokeTemplate: Invoke templateName=Identifier OpenParenthesis argumentList? CloseParenthesis;
-
-whenBlock : whenDisplayTemplate | whenInvokeTemplate;
-whenDisplayTemplate: When (booleanExpression | lateBoundScalar) displayTemplate;
-whenInvokeTemplate: When (booleanExpression | lateBoundScalar) invokeTemplate;
-
-otherwiseBlock: otherwiseDisplayTemplate | otherwiseInvokeTemplate;
-otherwiseDisplayTemplate: Otherwise Display? template;
-otherwiseInvokeTemplate: Otherwise invokeTemplate;
-
-contextDeclaration: contextVariableInitializer | fieldContext | nodeContext | shortcut=(Dot | DotDot | Slash);
-
-variableList: variableInitializer (Comma variableInitializer)*;
-
-/* 
- * You can capture this context to manage the scope of local variables.
- * Local variables are only visible within the template-line in which they are declared
- * as well as in any nested template-lines.
- * Note that EFX does not allow the declaration of uninitialised variables.
- * Also note that contextVariableInitializer is not matched by variableInitializer.
- * This is because only one contextVariableInitializer is allowed in a contextDeclarationBlock.
- */
-variableInitializer
-    : stringVariableInitializer
-    | booleanVariableInitializer
-    | numericVariableInitializer
-    | dateVariableInitializer
-    | timeVariableInitializer
-    | durationVariableInitializer
-    // Sequence variable initializers
-    | stringSequenceVariableInitializer
-    | booleanSequenceVariableInitializer
-    | numericSequenceVariableInitializer
-    | dateSequenceVariableInitializer
-    | timeSequenceVariableInitializer
-    | durationSequenceVariableInitializer
-    ;
-
-// Scalar variable initializers - only accept scalar expressions or lateBoundScalar
-stringVariableInitializer:      Text        Colon VariablePrefix variableName=identifier Assignment (stringExpression   | lateBoundScalar);
-booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=identifier Assignment (booleanExpression  | lateBoundScalar);
-numericVariableInitializer:     Number      Colon VariablePrefix variableName=identifier Assignment (numericExpression  | lateBoundScalar);
-dateVariableInitializer:        Date        Colon VariablePrefix variableName=identifier Assignment (dateExpression     | lateBoundScalar);
-timeVariableInitializer:        Time        Colon VariablePrefix variableName=identifier Assignment (timeExpression     | lateBoundScalar);
-durationVariableInitializer:    Measure     Colon VariablePrefix variableName=identifier Assignment (durationExpression | lateBoundScalar);
-
-// Context variable initializer - only accept fieldContext or nodeContext
-contextVariableInitializer:     ContextType Colon VariablePrefix variableName=identifier Assignment (fieldContext | nodeContext | Slash);
-
-// Sequence variable initializers - accept sequence expressions or lateBoundSequence
-stringSequenceVariableInitializer:   Text      Star Colon VariablePrefix variableName=identifier Assignment (stringSequence   | lateBoundSequence);
-booleanSequenceVariableInitializer:  Indicator Star Colon VariablePrefix variableName=identifier Assignment (booleanSequence  | lateBoundSequence);
-numericSequenceVariableInitializer:  Number    Star Colon VariablePrefix variableName=identifier Assignment (numericSequence  | lateBoundSequence);
-dateSequenceVariableInitializer:     Date      Star Colon VariablePrefix variableName=identifier Assignment (dateSequence     | lateBoundSequence);
-timeSequenceVariableInitializer:     Time      Star Colon VariablePrefix variableName=identifier Assignment (timeSequence     | lateBoundSequence);
-durationSequenceVariableInitializer: Measure   Star Colon VariablePrefix variableName=identifier Assignment (durationSequence | lateBoundSequence);
-
-functionDeclaration
-    : stringFunctionDeclaration
-    | booleanFunctionDeclaration
-    | numericFunctionDeclaration
-    | dateFunctionDeclaration
-    | timeFunctionDeclaration
-    | durationFunctionDeclaration
-    // Sequence function declarations
-    | stringSequenceFunctionDeclaration
-    | booleanSequenceFunctionDeclaration
-    | numericSequenceFunctionDeclaration
-    | dateSequenceFunctionDeclaration
-    | timeSequenceFunctionDeclaration
-    | durationSequenceFunctionDeclaration
-    ;
-
-// Scalar function declarations - only accept scalar expressions or lateBoundScalar
-stringFunctionDeclaration:      Let Text      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (stringExpression   | lateBoundScalar) Semicolon;
-booleanFunctionDeclaration:     Let Indicator Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (booleanExpression  | lateBoundScalar) Semicolon;
-numericFunctionDeclaration:     Let Number    Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericExpression  | lateBoundScalar) Semicolon;
-dateFunctionDeclaration:        Let Date      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateExpression     | lateBoundScalar) Semicolon;
-timeFunctionDeclaration:        Let Time      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeExpression     | lateBoundScalar) Semicolon;
-durationFunctionDeclaration:    Let Measure   Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundScalar) Semicolon;
-
-// Sequence function declarations - accept sequence expressions or lateBoundSequence
-stringSequenceFunctionDeclaration:   Let Text      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (stringSequence   | lateBoundSequence) Semicolon;
-booleanSequenceFunctionDeclaration:  Let Indicator Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (booleanSequence  | lateBoundSequence) Semicolon;
-numericSequenceFunctionDeclaration:  Let Number    Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericSequence  | lateBoundSequence) Semicolon;
-dateSequenceFunctionDeclaration:     Let Date      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateSequence     | lateBoundSequence) Semicolon;
-timeSequenceFunctionDeclaration:     Let Time      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeSequence     | lateBoundSequence) Semicolon;
-durationSequenceFunctionDeclaration: Let Measure   Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationSequence | lateBoundSequence) Semicolon;
 
 functionInvocation: FunctionPrefix functionName=Identifier OpenParenthesis argumentList? CloseParenthesis;
 
@@ -1080,3 +639,462 @@ lateBoundScalarReference
     ;
 
 variableReference: VariablePrefix variableName=identifier;
+
+// ================================================================
+//  Shared grammar rules
+// ================================================================
+
+/*
+ * Declares a typed variable with an initial value.
+ * Used for global variables in templates and global/stage-level variables in rules.
+ */
+variableDeclaration
+    : Let stringVariableInitializer Semicolon
+    | Let booleanVariableInitializer  Semicolon
+    | Let numericVariableInitializer Semicolon
+    | Let dateVariableInitializer Semicolon
+    | Let timeVariableInitializer  Semicolon
+    | Let durationVariableInitializer Semicolon
+    // Sequence variable declarations
+    | Let stringSequenceVariableInitializer Semicolon
+    | Let booleanSequenceVariableInitializer Semicolon
+    | Let numericSequenceVariableInitializer Semicolon
+    | Let dateSequenceVariableInitializer Semicolon
+    | Let timeSequenceVariableInitializer Semicolon
+    | Let durationSequenceVariableInitializer Semicolon
+    ;
+
+/*
+ * A context-declaration block specifies the evaluation context for the associated expressions.
+ * It may include variable declarations before and/or after the context declaration.
+ * In templates, the context acts as a for-loop: the template-line evaluates as many times as
+ * the number of elements matched by the context-declaration. The entire template-block
+ * (including nested template-lines) is evaluated on each iteration.
+ * In validation rules, the context is set via the WITH clause for all rules in the rule-set.
+ * Local variables declared here are available within the enclosing scope.
+ */
+contextDeclarationBlock
+    : (variableList Comma)? contextDeclaration (Comma variableList)?
+    ;
+
+contextDeclaration: contextVariableInitializer | fieldContext | nodeContext | shortcut=(Dot | DotDot | Slash);
+
+variableList: variableInitializer (Comma variableInitializer)*;
+
+/*
+ * Declares a typed local variable with an initial value.
+ * In templates, local variables are visible within the template-line and any nested template-lines.
+ * In validation rules, local variables declared in a WITH clause are visible to all rules in the rule-set.
+ * Note that EFX does not allow the declaration of uninitialised variables.
+ * Also note that contextVariableInitializer is not matched by variableInitializer.
+ * This is because only one contextVariableInitializer is allowed in a contextDeclarationBlock.
+ */
+variableInitializer
+    : stringVariableInitializer
+    | booleanVariableInitializer
+    | numericVariableInitializer
+    | dateVariableInitializer
+    | timeVariableInitializer
+    | durationVariableInitializer
+    // Sequence variable initializers
+    | stringSequenceVariableInitializer
+    | booleanSequenceVariableInitializer
+    | numericSequenceVariableInitializer
+    | dateSequenceVariableInitializer
+    | timeSequenceVariableInitializer
+    | durationSequenceVariableInitializer
+    ;
+
+// Scalar variable initializers - only accept scalar expressions or lateBoundScalar
+stringVariableInitializer:      Text        Colon VariablePrefix variableName=identifier Assignment (stringExpression   | lateBoundScalar);
+booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=identifier Assignment (booleanExpression  | lateBoundScalar);
+numericVariableInitializer:     Number      Colon VariablePrefix variableName=identifier Assignment (numericExpression  | lateBoundScalar);
+dateVariableInitializer:        Date        Colon VariablePrefix variableName=identifier Assignment (dateExpression     | lateBoundScalar);
+timeVariableInitializer:        Time        Colon VariablePrefix variableName=identifier Assignment (timeExpression     | lateBoundScalar);
+durationVariableInitializer:    Measure     Colon VariablePrefix variableName=identifier Assignment (durationExpression | lateBoundScalar);
+
+// Context variable initializer - only accept fieldContext or nodeContext
+contextVariableInitializer:     ContextType Colon VariablePrefix variableName=identifier Assignment (fieldContext | nodeContext | Slash);
+
+// Sequence variable initializers - accept sequence expressions or lateBoundSequence
+stringSequenceVariableInitializer:   Text      Star Colon VariablePrefix variableName=identifier Assignment (stringSequence   | lateBoundSequence);
+booleanSequenceVariableInitializer:  Indicator Star Colon VariablePrefix variableName=identifier Assignment (booleanSequence  | lateBoundSequence);
+numericSequenceVariableInitializer:  Number    Star Colon VariablePrefix variableName=identifier Assignment (numericSequence  | lateBoundSequence);
+dateSequenceVariableInitializer:     Date      Star Colon VariablePrefix variableName=identifier Assignment (dateSequence     | lateBoundSequence);
+timeSequenceVariableInitializer:     Time      Star Colon VariablePrefix variableName=identifier Assignment (timeSequence     | lateBoundSequence);
+durationSequenceVariableInitializer: Measure   Star Colon VariablePrefix variableName=identifier Assignment (durationSequence | lateBoundSequence);
+
+// ================================================================
+//  EFX Validation Rules
+// ================================================================
+
+/*
+ * An EFX rules-file consists of:
+ * - optional global variable declarations (used across all stages)
+ * - one or more stage sections (each representing a validation stage like "3b", "4", etc.)
+ *
+ * Each stage section contains:
+ * - optional stage-level variable declarations (LET statements)
+ * - one or more rule-sets
+ *
+ * Rules within a stage can target different notice types via the IN clause.
+ * The transpiler groups rules by stage + notice-type to generate output files.
+ *
+ * Note: Only variable declarations are supported at global and stage level.
+ * Functions and dictionaries are not supported.
+ */
+rulesFile: globalVariableDeclaration* validationStage+ EOF;
+
+/*
+ * Global variable declarations that apply across all stages.
+ */
+globalVariableDeclaration
+    : variableDeclaration
+    ;
+
+/*
+ * A stage section represents a validation stage (e.g., "3b", "4", "1a").
+ * Format: ---- STAGE stage-id ----
+ * Contains optional stage-level variable declarations and one or more rule-sets.
+ */
+validationStage
+    : StageHeaderStart StageIdentifier StageHeaderEnd stageVariableDeclaration* ruleSet+
+    ;
+
+/*
+ * Stage-level variable declarations within a stage section.
+ */
+stageVariableDeclaration
+    : variableDeclaration
+    ;
+
+/*
+ * A rule-set defines one or more validation rules sharing the same context.
+ * Structure: WITH [vars,] context [, vars] [WHEN cond] ASSERT|REPORT expr AS severity rule-id FOR field IN notice-types [OTHERWISE ASSERT|REPORT ...]
+ * Variables in WITH are evaluated at pattern/parent level (before context) or at context level (after context).
+ * WHEN provides conditional application of the rule.
+ * ASSERT or REPORT defines the validation expression.
+ * AS specifies the severity (ERROR/WARNING/INFO) and rule ID.
+ * FOR specifies which field or node this rule validates.
+ * IN specifies which notice types this rule applies to (use IN * or IN ANY to apply to all).
+ */
+ruleSet
+    : withClause rules Semicolon?
+    | withClause conditionalRules fallbackRule Semicolon?
+    ;
+
+/*
+ * WITH clause uses the same contextDeclarationBlock as templates.
+ * It allows variable declarations before and/or after the context declaration.
+ */
+withClause
+    : With contextDeclarationBlock
+    ;
+
+rules: (simpleRule | conditionalRule)+;
+conditionalRules: conditionalRule+;
+
+simpleRule: (assertClause | reportClause) asClause forClause inClause;
+conditionalRule: whenClause (assertClause | reportClause) asClause forClause inClause;
+fallbackRule: (otherwiseAssertClause | otherwiseReportClause) asClause forClause inClause;
+
+/*
+ * WHEN clause provides conditional application of the rule.
+ * The rule only applies when the condition evaluates to true.
+ */
+whenClause
+    : When (booleanExpression | lateBoundScalar)
+    ;
+
+/*
+ * ASSERT clause defines a condition that must be true for the rule to pass (triggers when false).
+ * REPORT clause defines a condition that, when true, triggers a report (triggers when true).
+ */
+assertClause
+    : Assert (booleanExpression | lateBoundScalar)
+    ;
+
+reportClause
+    : Report (booleanExpression | lateBoundScalar)
+    ;
+
+/*
+ * AS clause specifies the severity and rule ID.
+ * Format: AS severity rule-id
+ */
+asClause
+    : As severity ruleId
+    ;
+
+/*
+ * Severity can be ERROR, WARNING, or INFO.
+ */
+severity
+    : Error
+    | Warning
+    | Info
+    ;
+
+/*
+ * Rule ID follows the pattern R-XXX-XXX where X is alphanumeric.
+ * Used for error message translation lookup.
+ */
+ruleId
+    : RuleIdentifier
+    ;
+
+/*
+ * FOR clause specifies which field or node this rule validates.
+ * Can target a field or a node (associated with a form group).
+ * This is used to organize validators by target for efficient lookup.
+ */
+forClause
+    : FOR (simpleFieldReference | simpleNodeReference)
+    ;
+
+/*
+ * OTHERWISE clause provides an alternative assertion or report when all WHEN conditions are false.
+ */
+otherwiseAssertClause
+    : OtherwiseAssert (booleanExpression | lateBoundScalar)
+    ;
+
+otherwiseReportClause
+    : OtherwiseReport (booleanExpression | lateBoundScalar)
+    ;
+/*
+ * IN clause specifies which notice types this rule applies to.
+ * Format: IN * | IN ANY | IN 1, 2, 3 | IN E1, E2, X02
+ * The IN clause is mandatory; use IN * or IN ANY to apply the rule to all notice types.
+ */
+inClause
+    : IN noticeTypeList
+    ;
+
+/*
+ * Notice type list can be:
+ * - Wildcard: * or ANY (applies to all notice types)
+ * - Explicit list with ranges: 1-3, 10-13, 20, E1-E3, X01-X02
+ */
+noticeTypeList
+    : (Star | Any )                                     # anyNoticeTypes
+    | noticeTypeRange (Comma noticeTypeRange)*          # explicitNoticeTypes
+    ;
+
+/*
+ * A notice type range can be:
+ * - Single: 1, E1, X02, CEI
+ * - Range: 1-3 (expands to 1, 2, 3)
+ * - Prefixed range: E1-E3 (expands to E1, E2, E3)
+ * - Zero-padded range: X01-X02 (expands to X01, X02)
+ *
+ * Validation rules (enforced by transpiler):
+ * - Range endpoints must have same prefix (E1-E3 valid, E1-X02 invalid)
+ * - Start must be <= end (1-3 valid, 3-1 invalid)
+ * - Zero-padding is preserved from the start value
+ */
+noticeTypeRange
+    : noticeType (Minus noticeType)?
+    ;
+
+/*
+ * A notice type identifier can be:
+ * - Numeric: 1, 2, 3, ..., 40
+ * - Alphanumeric: CEI, E1, E2, E3, E4, E5, E6, T01, T02, X01, X02
+ */
+noticeType
+    : IntegerLiteral
+    | Identifier
+    ;
+
+// ================================================================
+//  EFX View Templates
+// ================================================================
+
+/*
+ * An EFX template-file consists of:
+ * - zero or more global declarations (variables, dictionaries and functions),
+ * - zero or more declarations of callable templates,
+ * - zero or more template-lines organised hierarchically using python-style indentation,
+ * - optional navigation and/or summary sections.
+ * Any variables and functions declared globally can be used in the 
+ * templates in addition to the local variables declared in the 
+ * template-lines which are only visible within the template-block 
+ * in which they are declared.
+ */
+templateFile
+    : globalDeclaration* templateDeclaration* templateLine* otherSections? EOF
+    ;
+
+otherSections
+    : navigationSection summarySection? 
+    | summarySection navigationSection?
+    ;
+
+summarySection: SummarySectionHeader templateLine*;
+navigationSection: NavigationSectionHeader templateLine*;
+
+/* 
+ * Global-declarations allow the definition of variables, dictionaries and/or functions that can be used throughout the entire template-file.
+ */
+globalDeclaration
+    : variableDeclaration 
+    | dictionaryDeclaration 
+    | functionDeclaration
+    ;
+
+
+
+dictionaryDeclaration: Let VariablePrefix dictionaryName=Identifier index=dictionaryIndexClause key=dictionaryKeyClause Semicolon;
+dictionaryIndexClause: Index field=fieldContext;
+dictionaryKeyClause: By (stringExpression | lateBoundScalar);
+dictionaryLookup: VariablePrefix dictionaryName=Identifier OpenBracket (stringExpression | lateBoundScalar) CloseBracket;
+
+/* 
+ * A template line contains: indentation, an optional outline-number, a context-declaration, and a template.
+ * Python-style indentation is used to structure the template-lines hierarchically.
+ * The context-declaration part specifies the XML element(s) that will trigger the generation 
+ * of output for this template-line. The template-line will appear in the final output as many 
+ * times as the number of XML elements matched by the context-declaration.
+ * Furthermore, all the expression-blocks in the template part of this template-line will
+ * be evaluated relative to the context indicated by the context-declaration.
+ * Template-lines written in the legacy EFX-1 style are still allowed, but the new EFX-2 
+ * standard syntax provides additional features like conditional branching and template reuse.
+ */
+templateLine
+    : indentation? OutlineNumber? (With contextDeclarationBlock)? (chooseTemplate | displayTemplate | invokeTemplate) Semicolon
+    | indentation? OutlineNumber? StartExpressionBlock contextDeclarationBlock EndBlock template CRLF
+    ;
+
+/***
+ * Declares a callable template by providing its signature (definition), as well as the content it will display when invoked.
+ * Callable templates can be reused across the templateFile by invoking them using the invokeTemplate syntax.
+ */
+templateDeclaration: indentation? Let templateDefinition (chooseTemplate | displayTemplate | invokeTemplate) Semicolon;
+
+indentation: Tabs | Spaces | MixedIndent;
+
+/**
+ * A template is a recursive combination of free-text, labels, expressions, links and line breaks.
+ * Whitespace is significant within the template, but is ignored when present at its beginning or end.
+ * Templates are matched when the lexical analyser is in TEMPLATE mode.
+ */
+template: templateFragment;
+
+
+templateFragment
+    : lineBreak templateFragment?                   # secondaryTemplate
+    | textBlock templateFragment?                   # textTemplate
+    | labelBlock templateFragment?                  # labelTemplate
+    | expressionBlock templateFragment?             # expressionTemplate
+    | linkedTextBlock templateFragment?             # linkedTextTemplate
+    | linkedLabelBlock templateFragment?            # linkedLabelTemplate
+    | linkedExpressionBlock templateFragment?       # linkedExpressionTemplate
+    ;
+
+linkBlock: StartHyperlinkBlock (stringExpression | lateBoundScalar) EndBlock;
+
+linkedTextBlock: textBlock linkBlock;
+linkedLabelBlock: labelBlock linkBlock;
+linkedExpressionBlock: expressionBlock linkBlock;
+
+/**
+ * A line-break is a newline character (\n).
+ * It is used to change line in the template without changing context or indentation.
+ * Any whitespace before or after the newline character is ignored.
+ */
+lineBreak: NewLine;
+
+/**
+ * A text-block consists of whitespace and free-text.
+ * Escape sequences and character references are handled within the free-text token.
+ * It is used to add static content to the template.
+ */
+textBlock: (Whitespace | FreeText | OtherEscapeSequence | CharacterReference)+;
+
+/******************************************************************************
+  Labels are matched when the lexical analyser is in LABEL mode
+ ******************************************************************************/
+
+
+ /**
+ * A label-block starts with a # and curly braces (or just # for shorthand value references), and can contain a standard label reference, computed label, shorthand, or indirect label reference.
+ */
+labelBlock
+    : StartLabelBlock assetType Pipe labelType Pipe assetId (Semicolon pluraliser)? EndBlock     # standardLabelReference
+    | StartLabelBlock expressionBlock (Semicolon pluraliser)? EndBlock                           # computedLabelReference
+    | StartLabelBlock labelType Pipe BtId (Semicolon pluraliser)? EndBlock                       # shorthandBtLabelReference
+    | StartLabelBlock labelType Pipe FieldId (Semicolon pluraliser)? EndBlock                    # shorthandFieldLabelReference
+    | StartLabelBlock LabelType (Semicolon pluraliser)? EndBlock                                 # shorthandLabelReferenceFromContext
+    // Indirect Label References ----------------------------------------------------------------------------------------------
+    // If an assetType and labelType are not specified, then the label reference is an indirect label reference.
+    // Indirect label references derive the label text from the type and value of field.
+    | StartLabelBlock FieldId (Semicolon pluraliser)? EndBlock                                   # shorthandIndirectLabelReference
+    | ShorthandIndirectLabelReferenceFromContextField                                       # shorthandIndirectLabelReferenceFromContextField
+    ;
+
+assetType: AssetType | expressionBlock;
+labelType: LabelType | expressionBlock;
+assetId
+    : BtId                  // The assetId can be a business term identifier  
+    | FieldId               // The assetId can be a field identifier
+    | otherAssetId
+    | expressionBlock       // The assetId can be computed by an expression
+    ;
+
+// We allow otherAssetId to be any identifier, including the ones used for AssetType or LabelType
+otherAssetId: OtherAssetId | AssetType | LabelType;
+
+pluraliser: expressionBlock;
+
+/*** 
+ *  Defines the signature of a callable template as comprised by its name and set of parameters.
+ */
+templateDefinition
+    : Template Colon templateName=Identifier OpenParenthesis parameterList? CloseParenthesis
+    ;
+
+
+chooseTemplate: whenBlock+ otherwiseBlock?;
+displayTemplate: Display template;
+invokeTemplate: Invoke templateName=Identifier OpenParenthesis argumentList? CloseParenthesis;
+
+whenBlock : whenDisplayTemplate | whenInvokeTemplate;
+whenDisplayTemplate: When (booleanExpression | lateBoundScalar) displayTemplate;
+whenInvokeTemplate: When (booleanExpression | lateBoundScalar) invokeTemplate;
+
+otherwiseBlock: otherwiseDisplayTemplate | otherwiseInvokeTemplate;
+otherwiseDisplayTemplate: Otherwise Display? template;
+otherwiseInvokeTemplate: Otherwise invokeTemplate;
+
+functionDeclaration
+    : stringFunctionDeclaration
+    | booleanFunctionDeclaration
+    | numericFunctionDeclaration
+    | dateFunctionDeclaration
+    | timeFunctionDeclaration
+    | durationFunctionDeclaration
+    // Sequence function declarations
+    | stringSequenceFunctionDeclaration
+    | booleanSequenceFunctionDeclaration
+    | numericSequenceFunctionDeclaration
+    | dateSequenceFunctionDeclaration
+    | timeSequenceFunctionDeclaration
+    | durationSequenceFunctionDeclaration
+    ;
+
+// Scalar function declarations - only accept scalar expressions or lateBoundScalar
+stringFunctionDeclaration:      Let Text      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (stringExpression   | lateBoundScalar) Semicolon;
+booleanFunctionDeclaration:     Let Indicator Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (booleanExpression  | lateBoundScalar) Semicolon;
+numericFunctionDeclaration:     Let Number    Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericExpression  | lateBoundScalar) Semicolon;
+dateFunctionDeclaration:        Let Date      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateExpression     | lateBoundScalar) Semicolon;
+timeFunctionDeclaration:        Let Time      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeExpression     | lateBoundScalar) Semicolon;
+durationFunctionDeclaration:    Let Measure   Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundScalar) Semicolon;
+
+// Sequence function declarations - accept sequence expressions or lateBoundSequence
+stringSequenceFunctionDeclaration:   Let Text      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (stringSequence   | lateBoundSequence) Semicolon;
+booleanSequenceFunctionDeclaration:  Let Indicator Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (booleanSequence  | lateBoundSequence) Semicolon;
+numericSequenceFunctionDeclaration:  Let Number    Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericSequence  | lateBoundSequence) Semicolon;
+dateSequenceFunctionDeclaration:     Let Date      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateSequence     | lateBoundSequence) Semicolon;
+timeSequenceFunctionDeclaration:     Let Time      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeSequence     | lateBoundSequence) Semicolon;
+durationSequenceFunctionDeclaration: Let Measure   Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationSequence | lateBoundSequence) Semicolon;
