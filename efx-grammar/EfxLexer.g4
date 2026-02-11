@@ -385,9 +385,9 @@ YearMonthDurationLiteral: '-'? 'P' IntegerLiteral ('Y' | 'M');
 FieldId: FieldIdentifier;// | FieldAlias;
 NodeId: NodeIdentifier;// | NodeAlias;
 
-VariablePrefix: DOLLAR;
+VariablePrefix: DOLLAR -> pushMode(IDENTIFIER);
 AttributePrefix: AT;
-CodelistPrefix: SHARP;
+CodelistPrefix: SHARP -> pushMode(IDENTIFIER);
 FunctionPrefix: '?';
 
 BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
@@ -428,6 +428,17 @@ ExpressionComment: (TAB | SPACE)* COMMENT EOL* -> channel(HIDDEN);
 // Whitespace, although not significant, is not skipped. It goes to a separate channel so that it can
 // be ignored by the parser without disappearing (from syntax error messages for example).
 WS: [ \t\r\n]+ -> channel(HIDDEN);
+
+/*
+ * IDENTIFIER
+ * ------------------------------------------------------------------------------------------------
+ * This mode is entered after prefixes like CodelistPrefix (#) and VariablePrefix ($) to match the
+ * next token as an identifier, bypassing keyword recognition. This avoids conflicts with keywords
+ * like 'indicator', 'notice', 'date', etc. that are also valid codelist or variable names.
+ */
+
+mode IDENTIFIER;
+UnquotedIdentifier: LETTER ('-'? (LETTER | DIGIT)+)* -> popMode, type(Identifier);
 
 // Fragments
 fragment EOL: ('\r'? '\n' | '\r' | '\f');
