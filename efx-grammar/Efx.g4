@@ -418,8 +418,6 @@ durationSequenceLiteral: OpenParenthesis durationLiteral (Comma durationLiteral)
   References
  **************************************/
 
-// This allows some EFX keywords to be used as identifiers when they are appropriately prefixed.
-identifier: Identifier | Code | Text | Number | Indicator | Date | Time | Measure | ContextType | Template;
 
 textTypeCast:       OpenParenthesis Text        CloseParenthesis;
 booleanTypeCast:    OpenParenthesis Indicator   CloseParenthesis;
@@ -436,13 +434,13 @@ timeSequenceTypeCast:       OpenParenthesis Time        Star CloseParenthesis;
 durationSequenceTypeCast:   OpenParenthesis Measure     Star CloseParenthesis;
 
 // Iterator variable declarations (without initializer - used in FOR loops)
-stringIteratorVariableDeclaration:      Text        Colon VariablePrefix variableName=identifier;
-booleanIteratorVariableDeclaration:     Indicator   Colon VariablePrefix variableName=identifier;
-numericIteratorVariableDeclaration:     Number      Colon VariablePrefix variableName=identifier;
-dateIteratorVariableDeclaration:        Date        Colon VariablePrefix variableName=identifier;
-timeIteratorVariableDeclaration:        Time        Colon VariablePrefix variableName=identifier;
-durationIteratorVariableDeclaration:    Measure     Colon VariablePrefix variableName=identifier;
-contextIteratorVariableDeclaration:     ContextType Colon VariablePrefix variableName=identifier;
+stringIteratorVariableDeclaration:      Text        Colon VariablePrefix variableName=Identifier;
+booleanIteratorVariableDeclaration:     Indicator   Colon VariablePrefix variableName=Identifier;
+numericIteratorVariableDeclaration:     Number      Colon VariablePrefix variableName=Identifier;
+dateIteratorVariableDeclaration:        Date        Colon VariablePrefix variableName=Identifier;
+timeIteratorVariableDeclaration:        Time        Colon VariablePrefix variableName=Identifier;
+durationIteratorVariableDeclaration:    Measure     Colon VariablePrefix variableName=Identifier;
+contextIteratorVariableDeclaration:     ContextType Colon VariablePrefix variableName=Identifier;
 
 
 
@@ -638,7 +636,7 @@ lateBoundScalarReference
     | dictionaryLookup          # scalarFromDictionaryLookup 
     ;
 
-variableReference: VariablePrefix variableName=identifier;
+variableReference: VariablePrefix variableName=Identifier;
 
 // ================================================================
 //  Shared grammar rules
@@ -706,23 +704,23 @@ variableInitializer
     ;
 
 // Scalar variable initializers - only accept scalar expressions or lateBoundScalar
-stringVariableInitializer:      Text        Colon VariablePrefix variableName=identifier Assignment (stringExpression   | lateBoundScalar);
-booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=identifier Assignment (booleanExpression  | lateBoundScalar);
-numericVariableInitializer:     Number      Colon VariablePrefix variableName=identifier Assignment (numericExpression  | lateBoundScalar);
-dateVariableInitializer:        Date        Colon VariablePrefix variableName=identifier Assignment (dateExpression     | lateBoundScalar);
-timeVariableInitializer:        Time        Colon VariablePrefix variableName=identifier Assignment (timeExpression     | lateBoundScalar);
-durationVariableInitializer:    Measure     Colon VariablePrefix variableName=identifier Assignment (durationExpression | lateBoundScalar);
+stringVariableInitializer:      Text        Colon VariablePrefix variableName=Identifier Assignment (stringExpression   | lateBoundScalar);
+booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=Identifier Assignment (booleanExpression  | lateBoundScalar);
+numericVariableInitializer:     Number      Colon VariablePrefix variableName=Identifier Assignment (numericExpression  | lateBoundScalar);
+dateVariableInitializer:        Date        Colon VariablePrefix variableName=Identifier Assignment (dateExpression     | lateBoundScalar);
+timeVariableInitializer:        Time        Colon VariablePrefix variableName=Identifier Assignment (timeExpression     | lateBoundScalar);
+durationVariableInitializer:    Measure     Colon VariablePrefix variableName=Identifier Assignment (durationExpression | lateBoundScalar);
 
 // Context variable initializer - only accept fieldContext or nodeContext
-contextVariableInitializer:     ContextType Colon VariablePrefix variableName=identifier Assignment (fieldContext | nodeContext | Slash);
+contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext | Slash);
 
 // Sequence variable initializers - accept sequence expressions or lateBoundSequence
-stringSequenceVariableInitializer:   Text      Star Colon VariablePrefix variableName=identifier Assignment (stringSequence   | lateBoundSequence);
-booleanSequenceVariableInitializer:  Indicator Star Colon VariablePrefix variableName=identifier Assignment (booleanSequence  | lateBoundSequence);
-numericSequenceVariableInitializer:  Number    Star Colon VariablePrefix variableName=identifier Assignment (numericSequence  | lateBoundSequence);
-dateSequenceVariableInitializer:     Date      Star Colon VariablePrefix variableName=identifier Assignment (dateSequence     | lateBoundSequence);
-timeSequenceVariableInitializer:     Time      Star Colon VariablePrefix variableName=identifier Assignment (timeSequence     | lateBoundSequence);
-durationSequenceVariableInitializer: Measure   Star Colon VariablePrefix variableName=identifier Assignment (durationSequence | lateBoundSequence);
+stringSequenceVariableInitializer:   Text      Star Colon VariablePrefix variableName=Identifier Assignment (stringSequence   | lateBoundSequence);
+booleanSequenceVariableInitializer:  Indicator Star Colon VariablePrefix variableName=Identifier Assignment (booleanSequence  | lateBoundSequence);
+numericSequenceVariableInitializer:  Number    Star Colon VariablePrefix variableName=Identifier Assignment (numericSequence  | lateBoundSequence);
+dateSequenceVariableInitializer:     Date      Star Colon VariablePrefix variableName=Identifier Assignment (dateSequence     | lateBoundSequence);
+timeSequenceVariableInitializer:     Time      Star Colon VariablePrefix variableName=Identifier Assignment (timeSequence     | lateBoundSequence);
+durationSequenceVariableInitializer: Measure   Star Colon VariablePrefix variableName=Identifier Assignment (durationSequence | lateBoundSequence);
 
 // ================================================================
 //  EFX Validation Rules
