@@ -407,12 +407,12 @@ timeLiteral: TimeLiteral;
 durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
 
 // Sequence literals
-stringSequenceLiteral: OpenParenthesis stringLiteral (Comma stringLiteral)+ CloseParenthesis;
-booleanSequenceLiteral: OpenParenthesis booleanLiteral (Comma booleanLiteral)+ CloseParenthesis;
-numericSequenceLiteral: OpenParenthesis numericLiteral (Comma numericLiteral)+ CloseParenthesis;
-dateSequenceLiteral: OpenParenthesis dateLiteral (Comma dateLiteral)+ CloseParenthesis;
-timeSequenceLiteral: OpenParenthesis timeLiteral (Comma timeLiteral)+ CloseParenthesis;
-durationSequenceLiteral: OpenParenthesis durationLiteral (Comma durationLiteral)+ CloseParenthesis;
+stringSequenceLiteral: OpenParenthesis stringLiteral (Comma stringLiteral)* CloseParenthesis;
+booleanSequenceLiteral: OpenParenthesis booleanLiteral (Comma booleanLiteral)* CloseParenthesis;
+numericSequenceLiteral: OpenParenthesis numericLiteral (Comma numericLiteral)* CloseParenthesis;
+dateSequenceLiteral: OpenParenthesis dateLiteral (Comma dateLiteral)* CloseParenthesis;
+timeSequenceLiteral: OpenParenthesis timeLiteral (Comma timeLiteral)* CloseParenthesis;
+durationSequenceLiteral: OpenParenthesis durationLiteral (Comma durationLiteral)* CloseParenthesis;
 
 /**************************************
   References
