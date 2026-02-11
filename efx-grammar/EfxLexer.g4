@@ -398,8 +398,7 @@ RuleIdentifier: 'R' '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9] '-' [a-zA-Z0-9][a-zA-Z
 // NodeAlias: PASCAL_CASE ('_' PASCAL_CASE)*;
 
 
-Identifier: IdentifierPart ('-' IdentifierPart)*;
-IdentifierPart: LETTER (LETTER | DIGIT)*;
+Identifier: LETTER ('-'? (LETTER | DIGIT)+)*;
 
 IntegerLiteral: DIGIT+;
 DecimalLiteral: DIGIT? '.' DIGIT+;
@@ -465,7 +464,7 @@ fragment TEXT_CHAR: ~[\\\r\n] | OTHER_ESC_SEQ;
 
 fragment LINE_BREAK_ESC_SEQ: '\\n';	                    // Used for line breaks
 fragment OTHER_ESC_SEQ: '\\' [dDwWsStrvfbcxu0"'\\];     // Used for allowing in free text escape sequences other than \\n 
-fragment ANY_ESC_SEQ:   '\\' [dDwWnsStrvfbcxu0"'\\];
+fragment ANY_ESC_SEQ:   '\\' .;
 
 fragment CAMEL_CASE: [a-z] [a-z0-9]+ PASCAL_CASE*;
 fragment PASCAL_CASE: [A-Z] [a-z0-9]+ PASCAL_CASE*;
