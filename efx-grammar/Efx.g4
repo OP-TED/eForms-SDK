@@ -568,6 +568,7 @@ stringSequenceFunction
     | ExceptFunction         OpenParenthesis (stringSequence | lateBoundSequence) Comma (stringSequence | lateBoundSequence) CloseParenthesis  # stringExceptFunction
     | SortFunction           OpenParenthesis (stringSequence | lateBoundSequence) CloseParenthesis                                             # stringSortFunction
     | ReverseFunction        OpenParenthesis (stringSequence | lateBoundSequence) CloseParenthesis                                             # stringReverseFunction
+    | SubsequenceFunction    OpenParenthesis (stringSequence | lateBoundSequence) Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # stringSubsequenceFunction
     ;
 
 booleanSequenceFunction
@@ -577,6 +578,7 @@ booleanSequenceFunction
     | ExceptFunction         OpenParenthesis (booleanSequence | lateBoundSequence) Comma (booleanSequence | lateBoundSequence) CloseParenthesis  # booleanExceptFunction
     | SortFunction           OpenParenthesis (booleanSequence | lateBoundSequence) CloseParenthesis                                              # booleanSortFunction
     | ReverseFunction        OpenParenthesis (booleanSequence | lateBoundSequence) CloseParenthesis                                              # booleanReverseFunction
+    | SubsequenceFunction    OpenParenthesis (booleanSequence | lateBoundSequence) Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # booleanSubsequenceFunction
     ;
 
 numericSequenceFunction
@@ -586,6 +588,7 @@ numericSequenceFunction
     | ExceptFunction         OpenParenthesis (numericSequence | lateBoundSequence) Comma (numericSequence | lateBoundSequence) CloseParenthesis  # numericExceptFunction
     | SortFunction           OpenParenthesis (numericSequence | lateBoundSequence) CloseParenthesis                                              # numericSortFunction
     | ReverseFunction        OpenParenthesis (numericSequence | lateBoundSequence) CloseParenthesis                                              # numericReverseFunction
+    | SubsequenceFunction    OpenParenthesis (numericSequence | lateBoundSequence) Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # numericSubsequenceFunction
     ;
 
 dateSequenceFunction
@@ -595,6 +598,7 @@ dateSequenceFunction
     | ExceptFunction         OpenParenthesis (dateSequence | lateBoundSequence) Comma (dateSequence | lateBoundSequence) CloseParenthesis  # dateExceptFunction
     | SortFunction           OpenParenthesis (dateSequence | lateBoundSequence) CloseParenthesis                                           # dateSortFunction
     | ReverseFunction        OpenParenthesis (dateSequence | lateBoundSequence) CloseParenthesis                                           # dateReverseFunction
+    | SubsequenceFunction    OpenParenthesis (dateSequence | lateBoundSequence) Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # dateSubsequenceFunction
     ;
 
 timeSequenceFunction
@@ -604,6 +608,7 @@ timeSequenceFunction
     | ExceptFunction         OpenParenthesis (timeSequence | lateBoundSequence) Comma (timeSequence | lateBoundSequence) CloseParenthesis  # timeExceptFunction
     | SortFunction           OpenParenthesis (timeSequence | lateBoundSequence) CloseParenthesis                                           # timeSortFunction
     | ReverseFunction        OpenParenthesis (timeSequence | lateBoundSequence) CloseParenthesis                                           # timeReverseFunction
+    | SubsequenceFunction    OpenParenthesis (timeSequence | lateBoundSequence) Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # timeSubsequenceFunction
     ;
 
 durationSequenceFunction
@@ -613,6 +618,7 @@ durationSequenceFunction
     | ExceptFunction         OpenParenthesis (durationSequence | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis  # durationExceptFunction
     | SortFunction           OpenParenthesis (durationSequence | lateBoundSequence) CloseParenthesis                                               # durationSortFunction
     | ReverseFunction        OpenParenthesis (durationSequence | lateBoundSequence) CloseParenthesis                                               # durationReverseFunction
+    | SubsequenceFunction    OpenParenthesis (durationSequence | lateBoundSequence) Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # durationSubsequenceFunction
     ;
 
 /**************************************
