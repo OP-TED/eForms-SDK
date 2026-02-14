@@ -337,7 +337,7 @@ Parent: 'parent';
 Not: 'not';
 CountFunction: 'count';
 SubstringFunction: 'substring';
-StringFunction: 'string';
+StringFunction: 'string' -> type(Text);
 NumberFunction: Number -> type(Number);
 ContainsFunction: 'contains';
 StartsWithFunction: 'starts-with';
