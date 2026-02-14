@@ -360,6 +360,7 @@ UnionFunction: 'value-union';
 IntersectFunction: 'value-intersect';
 ExceptFunction: 'value-except';
 SequenceEqualFunction: 'sequence-equal';
+SortFunction: 'sort';
 PreferredLanguageFunction: 'preferred-language';
 PreferredLanguageTextFunction: 'preferred-language-text';
 // Linked field property keywords
