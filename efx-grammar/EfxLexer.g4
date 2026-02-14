@@ -361,6 +361,7 @@ IntersectFunction: 'value-intersect';
 ExceptFunction: 'value-except';
 SequenceEqualFunction: 'sequence-equal';
 SortFunction: 'sort';
+ReverseFunction: 'reverse';
 PreferredLanguageFunction: 'preferred-language';
 PreferredLanguageTextFunction: 'preferred-language-text';
 // Linked field property keywords

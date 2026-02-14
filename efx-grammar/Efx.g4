@@ -567,6 +567,7 @@ stringSequenceFunction
     | IntersectFunction      OpenParenthesis (stringSequence | lateBoundSequence) Comma (stringSequence | lateBoundSequence) CloseParenthesis  # stringIntersectFunction
     | ExceptFunction         OpenParenthesis (stringSequence | lateBoundSequence) Comma (stringSequence | lateBoundSequence) CloseParenthesis  # stringExceptFunction
     | SortFunction           OpenParenthesis (stringSequence | lateBoundSequence) CloseParenthesis                                             # stringSortFunction
+    | ReverseFunction        OpenParenthesis (stringSequence | lateBoundSequence) CloseParenthesis                                             # stringReverseFunction
     ;
 
 booleanSequenceFunction
@@ -575,6 +576,7 @@ booleanSequenceFunction
     | IntersectFunction      OpenParenthesis (booleanSequence | lateBoundSequence) Comma (booleanSequence | lateBoundSequence) CloseParenthesis  # booleanIntersectFunction
     | ExceptFunction         OpenParenthesis (booleanSequence | lateBoundSequence) Comma (booleanSequence | lateBoundSequence) CloseParenthesis  # booleanExceptFunction
     | SortFunction           OpenParenthesis (booleanSequence | lateBoundSequence) CloseParenthesis                                              # booleanSortFunction
+    | ReverseFunction        OpenParenthesis (booleanSequence | lateBoundSequence) CloseParenthesis                                              # booleanReverseFunction
     ;
 
 numericSequenceFunction
@@ -583,6 +585,7 @@ numericSequenceFunction
     | IntersectFunction      OpenParenthesis (numericSequence | lateBoundSequence) Comma (numericSequence | lateBoundSequence) CloseParenthesis  # numericIntersectFunction
     | ExceptFunction         OpenParenthesis (numericSequence | lateBoundSequence) Comma (numericSequence | lateBoundSequence) CloseParenthesis  # numericExceptFunction
     | SortFunction           OpenParenthesis (numericSequence | lateBoundSequence) CloseParenthesis                                              # numericSortFunction
+    | ReverseFunction        OpenParenthesis (numericSequence | lateBoundSequence) CloseParenthesis                                              # numericReverseFunction
     ;
 
 dateSequenceFunction
@@ -591,6 +594,7 @@ dateSequenceFunction
     | IntersectFunction      OpenParenthesis (dateSequence | lateBoundSequence) Comma (dateSequence | lateBoundSequence) CloseParenthesis  # dateIntersectFunction
     | ExceptFunction         OpenParenthesis (dateSequence | lateBoundSequence) Comma (dateSequence | lateBoundSequence) CloseParenthesis  # dateExceptFunction
     | SortFunction           OpenParenthesis (dateSequence | lateBoundSequence) CloseParenthesis                                           # dateSortFunction
+    | ReverseFunction        OpenParenthesis (dateSequence | lateBoundSequence) CloseParenthesis                                           # dateReverseFunction
     ;
 
 timeSequenceFunction
@@ -599,6 +603,7 @@ timeSequenceFunction
     | IntersectFunction      OpenParenthesis (timeSequence | lateBoundSequence) Comma (timeSequence | lateBoundSequence) CloseParenthesis  # timeIntersectFunction
     | ExceptFunction         OpenParenthesis (timeSequence | lateBoundSequence) Comma (timeSequence | lateBoundSequence) CloseParenthesis  # timeExceptFunction
     | SortFunction           OpenParenthesis (timeSequence | lateBoundSequence) CloseParenthesis                                           # timeSortFunction
+    | ReverseFunction        OpenParenthesis (timeSequence | lateBoundSequence) CloseParenthesis                                           # timeReverseFunction
     ;
 
 durationSequenceFunction
@@ -607,6 +612,7 @@ durationSequenceFunction
     | IntersectFunction      OpenParenthesis (durationSequence | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis  # durationIntersectFunction
     | ExceptFunction         OpenParenthesis (durationSequence | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis  # durationExceptFunction
     | SortFunction           OpenParenthesis (durationSequence | lateBoundSequence) CloseParenthesis                                               # durationSortFunction
+    | ReverseFunction        OpenParenthesis (durationSequence | lateBoundSequence) CloseParenthesis                                               # durationReverseFunction
     ;
 
 /**************************************
