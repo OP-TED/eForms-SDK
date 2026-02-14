@@ -504,20 +504,23 @@ booleanFunction
     | SequenceEqualFunction OpenParenthesis (dateSequence     | lateBoundSequence) Comma (dateSequence     | lateBoundSequence) CloseParenthesis                    # dateSequenceEqualFunction
     | SequenceEqualFunction OpenParenthesis (timeSequence     | lateBoundSequence) Comma (timeSequence     | lateBoundSequence) CloseParenthesis                    # timeSequenceEqualFunction
     | SequenceEqualFunction OpenParenthesis (durationSequence | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis                    # durationSequenceEqualFunction
+    | Indicator             OpenParenthesis (numericExpression | lateBoundScalar)   *                                           CloseParenthesis                    # booleanFromNumberFunction
     ;
 
 
 numericFunction
-    : numericTypeCast       functionInvocation                                                            # numericFunctionInvocation
-    | CountFunction         OpenParenthesis (stringSequence   | lateBoundSequence)  CloseParenthesis    # countStringsFunction
-    | CountFunction         OpenParenthesis (booleanSequence  | lateBoundSequence)  CloseParenthesis    # countBooleansFunction
-    | CountFunction         OpenParenthesis (numericSequence  | lateBoundSequence)  CloseParenthesis    # countNumbersFunction
-    | CountFunction         OpenParenthesis (dateSequence     | lateBoundSequence)  CloseParenthesis    # countDatesFunction
-    | CountFunction         OpenParenthesis (timeSequence     | lateBoundSequence)  CloseParenthesis    # countTimesFunction
-    | CountFunction         OpenParenthesis (durationSequence | lateBoundSequence)  CloseParenthesis    # countDurationsFunction
-    | Number                OpenParenthesis (stringExpression   | lateBoundScalar)    CloseParenthesis    # numberFunction
-    | SumFunction           OpenParenthesis (numericSequence    | lateBoundSequence)  CloseParenthesis    # sumFunction
-    | StringLengthFunction  OpenParenthesis (stringExpression   | lateBoundScalar)    CloseParenthesis    # stringLengthFunction
+    : numericTypeCast       functionInvocation                                                           # numericFunctionInvocation
+    | CountFunction         OpenParenthesis (stringSequence   | lateBoundSequence)   CloseParenthesis    # countStringsFunction
+    | CountFunction         OpenParenthesis (booleanSequence  | lateBoundSequence)   CloseParenthesis    # countBooleansFunction
+    | CountFunction         OpenParenthesis (numericSequence  | lateBoundSequence)   CloseParenthesis    # countNumbersFunction
+    | CountFunction         OpenParenthesis (dateSequence     | lateBoundSequence)   CloseParenthesis    # countDatesFunction
+    | CountFunction         OpenParenthesis (timeSequence     | lateBoundSequence)   CloseParenthesis    # countTimesFunction
+    | CountFunction         OpenParenthesis (durationSequence | lateBoundSequence)   CloseParenthesis    # countDurationsFunction
+    | Number                OpenParenthesis stringExpression                         CloseParenthesis    # numberFromStringFunction
+    | Number                OpenParenthesis booleanExpression                        CloseParenthesis    # numberFromBooleanFunction
+    | Number                OpenParenthesis lateBoundScalar                          CloseParenthesis    # ppNumberFunction
+    | SumFunction           OpenParenthesis (numericSequence    | lateBoundSequence) CloseParenthesis    # sumFunction
+    | StringLengthFunction  OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis    # stringLengthFunction
     ;
 
 stringFunction
