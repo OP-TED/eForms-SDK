@@ -589,6 +589,12 @@ numericSequenceFunction
     | SortFunction           OpenParenthesis (numericSequence | lateBoundSequence) CloseParenthesis                                              # numericSortFunction
     | ReverseFunction        OpenParenthesis (numericSequence | lateBoundSequence) CloseParenthesis                                              # numericReverseFunction
     | SubsequenceFunction    OpenParenthesis (numericSequence | lateBoundSequence) Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # numericSubsequenceFunction
+    | IndexOfFunction        OpenParenthesis (stringSequence   | lateBoundSequence) Comma (stringExpression   | lateBoundScalar) CloseParenthesis  # indexOfStringFunction
+    | IndexOfFunction        OpenParenthesis (booleanSequence  | lateBoundSequence) Comma (booleanExpression  | lateBoundScalar) CloseParenthesis  # indexOfBooleanFunction
+    | IndexOfFunction        OpenParenthesis (numericSequence  | lateBoundSequence) Comma (numericExpression  | lateBoundScalar) CloseParenthesis  # indexOfNumericFunction
+    | IndexOfFunction        OpenParenthesis (dateSequence     | lateBoundSequence) Comma (dateExpression     | lateBoundScalar) CloseParenthesis  # indexOfDateFunction
+    | IndexOfFunction        OpenParenthesis (timeSequence     | lateBoundSequence) Comma (timeExpression     | lateBoundScalar) CloseParenthesis  # indexOfTimeFunction
+    | IndexOfFunction        OpenParenthesis (durationSequence | lateBoundSequence) Comma (durationExpression | lateBoundScalar) CloseParenthesis  # indexOfDurationFunction
     ;
 
 dateSequenceFunction
