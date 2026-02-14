@@ -148,8 +148,13 @@ booleanExpression
     | dateExpression        modifier=Not? In dateSequence                       # dateInListCondition
     | timeExpression        modifier=Not? In timeSequence                       # timeInListCondition
     | durationExpression    modifier=Not? In durationSequence                   # durationInListCondition
+    | stringSequence        Is modifier=Not? Empty                              # stringSequenceEmptinessCondition
+    | booleanSequence       Is modifier=Not? Empty                              # booleanSequenceEmptinessCondition
+    | numericSequence       Is modifier=Not? Empty                              # numericSequenceEmptinessCondition
+    | dateSequence          Is modifier=Not? Empty                              # dateSequenceEmptinessCondition
+    | timeSequence          Is modifier=Not? Empty                              # timeSequenceEmptinessCondition
+    | durationSequence      Is modifier=Not? Empty                              # durationSequenceEmptinessCondition
     | stringExpression      modifier=Not? Like pattern=StringLiteral            # likePatternCondition
-    | stringExpression      Is modifier=Not? Empty                              # emptinessCondition
     | pathFromReference     Is modifier=Not? Present                            # presenceCondition
     | stringExpression      Is modifier=Not? Unique In stringSequence           # stringUniqueValueCondition
     | numericExpression     Is modifier=Not? Unique In numericSequence          # numericUniqueValueCondition
@@ -193,7 +198,7 @@ booleanExpression
     | durationExpression    Comparison lateBoundScalar                          # ppDurationToLateBoundComparison
     | lateBoundScalar       Comparison lateBoundScalar                          # ppFieldValueComparison
     | lateBoundExpression   Not? Like pattern=StringLiteral                     # ppLikePatternCondition
-    | lateBoundExpression   Is Not? Empty                                       # ppLateBoundEmptinessCondition
+    | lateBoundSequence     Is Not? Empty                                       # ppLateBoundEmptinessCondition
     | stringExpression      Not? In lateBoundSequence                           # ppStringInLateBoundListCondition
     | numericExpression     Not? In lateBoundSequence                           # ppNumberInLateBoundListCondition
     | booleanExpression     Not? In lateBoundSequence                           # ppBooleanInLateBoundListCondition
@@ -498,13 +503,14 @@ booleanFunction
     | StartsWithFunction    OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis     # startsWithFunction
     | EndsWithFunction      OpenParenthesis (haystack=stringExpression | lateBoundScalar) Comma (needle=stringExpression    | lateBoundScalar) CloseParenthesis     # endsWithFunction
     // Typed sequence-equal functions - ensure type-safe comparison of sequences of the same type
-    | SequenceEqualFunction OpenParenthesis (stringSequence   | lateBoundSequence) Comma (stringSequence   | lateBoundSequence) CloseParenthesis                    # stringSequenceEqualFunction
-    | SequenceEqualFunction OpenParenthesis (booleanSequence  | lateBoundSequence) Comma (booleanSequence  | lateBoundSequence) CloseParenthesis                    # booleanSequenceEqualFunction
-    | SequenceEqualFunction OpenParenthesis (numericSequence  | lateBoundSequence) Comma (numericSequence  | lateBoundSequence) CloseParenthesis                    # numericSequenceEqualFunction
-    | SequenceEqualFunction OpenParenthesis (dateSequence     | lateBoundSequence) Comma (dateSequence     | lateBoundSequence) CloseParenthesis                    # dateSequenceEqualFunction
-    | SequenceEqualFunction OpenParenthesis (timeSequence     | lateBoundSequence) Comma (timeSequence     | lateBoundSequence) CloseParenthesis                    # timeSequenceEqualFunction
-    | SequenceEqualFunction OpenParenthesis (durationSequence | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis                    # durationSequenceEqualFunction
-    | Indicator             OpenParenthesis (numericExpression | lateBoundScalar)   *                                           CloseParenthesis                    # booleanFromNumberFunction
+    | SequenceEqualFunction OpenParenthesis (stringSequence    | lateBoundSequence) Comma (stringSequence   | lateBoundSequence) CloseParenthesis                   # stringSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (booleanSequence   | lateBoundSequence) Comma (booleanSequence  | lateBoundSequence) CloseParenthesis                   # booleanSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (numericSequence   | lateBoundSequence) Comma (numericSequence  | lateBoundSequence) CloseParenthesis                   # numericSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (dateSequence      | lateBoundSequence) Comma (dateSequence     | lateBoundSequence) CloseParenthesis                   # dateSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (timeSequence      | lateBoundSequence) Comma (timeSequence     | lateBoundSequence) CloseParenthesis                   # timeSequenceEqualFunction
+    | SequenceEqualFunction OpenParenthesis (durationSequence  | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis                   # durationSequenceEqualFunction
+    | Indicator             OpenParenthesis (numericExpression | lateBoundScalar)   *                                            CloseParenthesis                   # booleanFromNumberFunction
+    | Empty                 OpenParenthesis (stringExpression  | lateBoundScalar)                                                CloseParenthesis                   # stringEmptyFunction
     ;
 
 
