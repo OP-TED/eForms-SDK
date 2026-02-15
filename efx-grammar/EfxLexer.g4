@@ -361,6 +361,8 @@ PadLeftFunction: 'pad-left';
 PadRightFunction: 'pad-right';
 RepeatFunction: 'repeat';
 SplitFunction: 'split';
+ReplaceFunction: 'replace';
+ReplaceRegexFunction: 'replace-regex';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
