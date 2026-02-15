@@ -364,6 +364,7 @@ SplitFunction: 'split';
 ReplaceFunction: 'replace';
 ReplaceRegexFunction: 'replace-regex';
 UrlEncodeFunction: 'url-encode';
+CapitalizeFirstFunction: 'capitalize-first';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
