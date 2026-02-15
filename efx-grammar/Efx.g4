@@ -560,6 +560,8 @@ stringFunction
     | TrimFunction                   OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # trimFunction
     | TrimLeftFunction               OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # trimLeftFunction
     | TrimRightFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # trimRightFunction
+    | PadLeftFunction                OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (numericExpression | lateBoundScalar) Comma (padChar=stringExpression | lateBoundScalar) CloseParenthesis             # padLeftFunction
+    | PadRightFunction               OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (numericExpression | lateBoundScalar) Comma (padChar=stringExpression | lateBoundScalar) CloseParenthesis             # padRightFunction
     | PreferredLanguageFunction      OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                          # preferredLanguageFunction
     | PreferredLanguageTextFunction  OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                          # preferredLanguageTextFunction
     ;

@@ -354,6 +354,8 @@ NormalizeSpaceFunction: 'normalize-space';
 TrimFunction: 'trim';
 TrimLeftFunction: 'trim-left';
 TrimRightFunction: 'trim-right';
+PadLeftFunction: 'pad-left';
+PadRightFunction: 'pad-right';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
