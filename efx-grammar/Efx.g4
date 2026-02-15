@@ -541,6 +541,10 @@ numericFunction
     | IndexOfFunction       OpenParenthesis (timeSequence     | lateBoundSequence)   Comma (timeExpression     | lateBoundScalar) CloseParenthesis  # indexOfTimeFunction
     | IndexOfFunction       OpenParenthesis (durationSequence | lateBoundSequence)   Comma (durationExpression | lateBoundScalar) CloseParenthesis  # indexOfDurationFunction
     | IndexOfSubstringFunction OpenParenthesis (stringExpression | lateBoundScalar)  Comma (substring=stringExpression | lateBoundScalar) CloseParenthesis  # indexOfSubstringFunction
+    | AbsoluteFunction       OpenParenthesis (numericExpression | lateBoundScalar)                                                                                                  CloseParenthesis  # absoluteFunction
+    | RoundFunction          OpenParenthesis (numericExpression | lateBoundScalar)                                                                                                  CloseParenthesis  # roundFunction
+    | RoundDownFunction      OpenParenthesis (numericExpression | lateBoundScalar)                                                                                                  CloseParenthesis  # roundDownFunction
+    | RoundUpFunction        OpenParenthesis (numericExpression | lateBoundScalar)                                                                                                  CloseParenthesis  # roundUpFunction
     ;
 
 stringFunction
