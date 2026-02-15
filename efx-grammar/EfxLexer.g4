@@ -363,6 +363,7 @@ RepeatFunction: 'repeat';
 SplitFunction: 'split';
 ReplaceFunction: 'replace';
 ReplaceRegexFunction: 'replace-regex';
+UrlEncodeFunction: 'url-encode';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);

@@ -568,6 +568,7 @@ stringFunction
     | ReplaceFunction                OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (search=stringExpression  | lateBoundScalar) Comma (replacement=stringExpression | lateBoundScalar) CloseParenthesis    # replaceFunction
     | ReplaceRegexFunction           OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (pattern=stringExpression | lateBoundScalar) Comma (replacement=stringExpression | lateBoundScalar) CloseParenthesis    # replaceRegexFunction
     | RepeatFunction                 OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (numericExpression | lateBoundScalar) CloseParenthesis                                                                  # repeatFunction
+    | UrlEncodeFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                              # urlEncodeFunction
     | PreferredLanguageFunction      OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                              # preferredLanguageFunction
     | PreferredLanguageTextFunction  OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                              # preferredLanguageTextFunction
     ;
