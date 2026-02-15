@@ -551,6 +551,9 @@ numericFunction
     | YearFunction           OpenParenthesis (dateExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # yearFromDateFunction
     | MonthFunction          OpenParenthesis (dateExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # monthFromDateFunction
     | DayFunction            OpenParenthesis (dateExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # dayFromDateFunction
+    | HoursFunction          OpenParenthesis (timeExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # hoursFromTimeFunction
+    | MinutesFunction        OpenParenthesis (timeExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # minutesFromTimeFunction
+    | SecondsFunction        OpenParenthesis (timeExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # secondsFromTimeFunction
     ;
 
 stringFunction
