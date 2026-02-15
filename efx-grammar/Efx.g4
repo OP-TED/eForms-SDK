@@ -516,7 +516,7 @@ booleanFunction
     | SequenceEqualFunction OpenParenthesis (dateSequence      | lateBoundSequence) Comma (dateSequence     | lateBoundSequence) CloseParenthesis                   # dateSequenceEqualFunction
     | SequenceEqualFunction OpenParenthesis (timeSequence      | lateBoundSequence) Comma (timeSequence     | lateBoundSequence) CloseParenthesis                   # timeSequenceEqualFunction
     | SequenceEqualFunction OpenParenthesis (durationSequence  | lateBoundSequence) Comma (durationSequence | lateBoundSequence) CloseParenthesis                   # durationSequenceEqualFunction
-    | Indicator             OpenParenthesis (numericExpression | lateBoundScalar)   *                                            CloseParenthesis                   # booleanFromNumberFunction
+    | Indicator             OpenParenthesis (numericExpression | lateBoundScalar)                                                CloseParenthesis                   # booleanFromNumberFunction
     | Empty                 OpenParenthesis (stringExpression  | lateBoundScalar)                                                CloseParenthesis                   # stringEmptyFunction
     ;
 
