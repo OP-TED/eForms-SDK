@@ -540,6 +540,7 @@ numericFunction
     | IndexOfFunction       OpenParenthesis (dateSequence     | lateBoundSequence)   Comma (dateExpression     | lateBoundScalar) CloseParenthesis  # indexOfDateFunction
     | IndexOfFunction       OpenParenthesis (timeSequence     | lateBoundSequence)   Comma (timeExpression     | lateBoundScalar) CloseParenthesis  # indexOfTimeFunction
     | IndexOfFunction       OpenParenthesis (durationSequence | lateBoundSequence)   Comma (durationExpression | lateBoundScalar) CloseParenthesis  # indexOfDurationFunction
+    | IndexOfSubstringFunction OpenParenthesis (stringExpression | lateBoundScalar)  Comma (substring=stringExpression | lateBoundScalar) CloseParenthesis  # indexOfSubstringFunction
     ;
 
 stringFunction

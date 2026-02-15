@@ -348,6 +348,7 @@ ContainsFunction: 'contains';
 StartsWithFunction: 'starts-with';
 EndsWithFunction: 'ends-with';
 StringLengthFunction: 'string-length';
+IndexOfSubstringFunction: 'index-of-substring';
 SumFunction: 'sum';
 FormatNumberFunction: 'format-number';
 UpperCaseFunction: 'upper-case';
