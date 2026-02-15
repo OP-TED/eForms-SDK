@@ -545,6 +545,8 @@ numericFunction
 stringFunction
     : textTypeCast                   functionInvocation                                                                                                                                                                 # stringFunctionInvocation 
     | SubstringFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (start=numericExpression | lateBoundScalar) (Comma (length=numericExpression | lateBoundScalar))? CloseParenthesis  # substringFunction
+    | SubstringBeforeFunction        OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (delimiter=stringExpression | lateBoundScalar)   CloseParenthesis                                                      # substringBeforeFunction
+    | SubstringAfterFunction         OpenParenthesis (stringExpression   | lateBoundScalar)   Comma (delimiter=stringExpression | lateBoundScalar)   CloseParenthesis                                                      # substringAfterFunction
     | Text                           OpenParenthesis numericExpression                        CloseParenthesis                                                                                                          # numberToStringFunction
     | Text                           OpenParenthesis booleanExpression                        CloseParenthesis                                                                                                          # booleanToStringFunction
     | Text                           OpenParenthesis dateExpression                           CloseParenthesis                                                                                                          # dateToStringFunction

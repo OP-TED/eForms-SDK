@@ -340,6 +340,8 @@ Parent: 'parent';
 Not: 'not';
 CountFunction: 'count';
 SubstringFunction: 'substring';
+SubstringBeforeFunction: 'substring-before';
+SubstringAfterFunction: 'substring-after';
 StringFunction: 'string' -> type(Text);
 NumberFunction: Number -> type(Number);
 ContainsFunction: 'contains';
