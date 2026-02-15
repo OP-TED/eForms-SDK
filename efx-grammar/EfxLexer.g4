@@ -357,6 +357,7 @@ TrimRightFunction: 'trim-right';
 PadLeftFunction: 'pad-left';
 PadRightFunction: 'pad-right';
 RepeatFunction: 'repeat';
+SplitFunction: 'split';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
