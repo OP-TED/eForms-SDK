@@ -350,6 +350,7 @@ SumFunction: 'sum';
 FormatNumberFunction: 'format-number';
 UpperCaseFunction: 'upper-case';
 LowerCaseFunction: 'lower-case';
+NormalizeSpaceFunction: 'normalize-space';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
