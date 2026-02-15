@@ -533,6 +533,9 @@ numericFunction
     | Number                OpenParenthesis booleanExpression                        CloseParenthesis    # numberFromBooleanFunction
     | Number                OpenParenthesis lateBoundScalar                          CloseParenthesis    # ppNumberFunction
     | SumFunction           OpenParenthesis (numericSequence  | lateBoundSequence)   CloseParenthesis    # sumFunction
+    | MinFunction           OpenParenthesis (numericSequence  | lateBoundSequence)   CloseParenthesis    # minFunction
+    | MaxFunction           OpenParenthesis (numericSequence  | lateBoundSequence)   CloseParenthesis    # maxFunction
+    | AverageFunction       OpenParenthesis (numericSequence  | lateBoundSequence)   CloseParenthesis    # averageFunction
     | StringLengthFunction  OpenParenthesis (stringExpression | lateBoundScalar)     CloseParenthesis    # stringLengthFunction
     | IndexOfFunction       OpenParenthesis (stringSequence   | lateBoundSequence)   Comma (stringExpression   | lateBoundScalar) CloseParenthesis  # indexOfStringFunction
     | IndexOfFunction       OpenParenthesis (booleanSequence  | lateBoundSequence)   Comma (booleanExpression  | lateBoundScalar) CloseParenthesis  # indexOfBooleanFunction
