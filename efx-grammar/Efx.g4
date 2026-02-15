@@ -557,6 +557,9 @@ stringFunction
     | UpperCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # upperCaseFunction
     | LowerCaseFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # lowerCaseFunction
     | NormalizeSpaceFunction         OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # normalizeSpaceFunction
+    | TrimFunction                   OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # trimFunction
+    | TrimLeftFunction               OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # trimLeftFunction
+    | TrimRightFunction              OpenParenthesis (stringExpression   | lateBoundScalar)   CloseParenthesis                                                                                                          # trimRightFunction
     | PreferredLanguageFunction      OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                          # preferredLanguageFunction
     | PreferredLanguageTextFunction  OpenParenthesis simpleFieldReference                     CloseParenthesis                                                                                                          # preferredLanguageTextFunction
     ;
