@@ -154,6 +154,12 @@ booleanExpression
     | dateSequence          Is modifier=Not? Empty                              # dateSequenceEmptinessCondition
     | timeSequence          Is modifier=Not? Empty                              # timeSequenceEmptinessCondition
     | durationSequence      Is modifier=Not? Empty                              # durationSequenceEmptinessCondition
+    | stringSequence        Has modifier=No? Duplicates                         # stringSequenceDistinctCondition
+    | booleanSequence       Has modifier=No? Duplicates                         # booleanSequenceDistinctCondition
+    | numericSequence       Has modifier=No? Duplicates                         # numericSequenceDistinctCondition
+    | dateSequence          Has modifier=No? Duplicates                         # dateSequenceDistinctCondition
+    | timeSequence          Has modifier=No? Duplicates                         # timeSequenceDistinctCondition
+    | durationSequence      Has modifier=No? Duplicates                         # durationSequenceDistinctCondition
     | stringExpression      modifier=Not? Like pattern=StringLiteral            # likePatternCondition
     | pathFromReference     Is modifier=Not? Present                            # presenceCondition
     | stringExpression      Is modifier=Not? Unique In stringSequence           # stringUniqueValueCondition
@@ -199,6 +205,7 @@ booleanExpression
     | lateBoundScalar       Comparison lateBoundScalar                          # ppFieldValueComparison
     | lateBoundExpression   Not? Like pattern=StringLiteral                     # ppLikePatternCondition
     | lateBoundSequence     Is Not? Empty                                       # ppLateBoundEmptinessCondition
+    | lateBoundSequence     Has No? Duplicates                                  # ppLateBoundDistinctCondition
     | stringExpression      Not? In lateBoundSequence                           # ppStringInLateBoundListCondition
     | numericExpression     Not? In lateBoundSequence                           # ppNumberInLateBoundListCondition
     | booleanExpression     Not? In lateBoundSequence                           # ppBooleanInLateBoundListCondition
