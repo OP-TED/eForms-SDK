@@ -548,6 +548,9 @@ numericFunction
     | RoundFunction          OpenParenthesis (numericExpression | lateBoundScalar)                                                                                                  CloseParenthesis  # roundFunction
     | RoundDownFunction      OpenParenthesis (numericExpression | lateBoundScalar)                                                                                                  CloseParenthesis  # roundDownFunction
     | RoundUpFunction        OpenParenthesis (numericExpression | lateBoundScalar)                                                                                                  CloseParenthesis  # roundUpFunction
+    | YearFunction           OpenParenthesis (dateExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # yearFromDateFunction
+    | MonthFunction          OpenParenthesis (dateExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # monthFromDateFunction
+    | DayFunction            OpenParenthesis (dateExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # dayFromDateFunction
     ;
 
 stringFunction
