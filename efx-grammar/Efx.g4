@@ -203,7 +203,7 @@ booleanExpression
     | timeExpression        Comparison lateBoundScalar                          # ppTimeToLateBoundComparison
     | durationExpression    Comparison lateBoundScalar                          # ppDurationToLateBoundComparison
     | lateBoundScalar       Comparison lateBoundScalar                          # ppFieldValueComparison
-    | lateBoundExpression   Not? Like pattern=StringLiteral                     # ppLikePatternCondition
+    | lateBoundScalar       Not? Like pattern=StringLiteral                     # ppLikePatternCondition
     | lateBoundSequence     Is Not? Empty                                       # ppLateBoundEmptinessCondition
     | lateBoundSequence     Has No? Duplicates                                  # ppLateBoundDistinctCondition
     | stringExpression      Not? In lateBoundSequence                           # ppStringInLateBoundListCondition
