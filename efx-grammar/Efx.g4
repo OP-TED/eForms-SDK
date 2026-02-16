@@ -480,8 +480,7 @@ fieldReferenceWithNodeContextOverride: contextNodeSpecifier? reference=fieldRefe
 fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldReferenceWithPredicate;
 fieldContext: absoluteFieldReference | fieldReferenceWithPredicate;
 absoluteFieldReference: Slash reference=fieldReferenceWithPredicate;
-fieldReferenceWithPredicate: reference=fieldReferenceWithAxis (OpenBracket predicate CloseBracket)?;
-fieldReferenceWithAxis: axis? linkedFieldReference;
+fieldReferenceWithPredicate: reference=linkedFieldReference (OpenBracket predicate CloseBracket)?;
 linkedFieldReference: simpleFieldReference (Colon linkedFieldProperty)?;
 simpleFieldReference: fieldId = (FieldId | Identifier);
 fieldMention: fieldId = (FieldId | Identifier) (Colon linkedFieldProperty)?;
@@ -496,8 +495,6 @@ simpleNodeReference: NodeId;
 noticeReference: Notice OpenParenthesis (noticeId=stringExpression | lateBoundScalar) CloseParenthesis;
 
 codelistReference: CodelistPrefix codelistName=Identifier;
-
-axis: Axis ColonColon;
 
 /**************************************
   Function calls
