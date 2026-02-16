@@ -316,21 +316,6 @@ DurationType: Measure -> type(Measure);
 ContextType: 'context';
 
 
-// Axes ------------------------------------------------------------------------------------------------
-
-Axis: Preceding | PrecedingSibling | Following | FollowingSibling | Child | Descendant | DescendantOrSelf | Ancestor | AncestorOrSelf | Self | Parent;
-Preceding: 'preceding';
-Following: 'following';
-PrecedingSibling: 'preceding-sibling';
-FollowingSibling: 'following-sibling';
-Ancestor: 'ancestor';
-AncestorOrSelf: 'ancestor-or-self';
-Descendant: 'descendant';
-DescendantOrSelf: 'descendant-or-self';
-Child: 'child';
-Self: 'self';
-Parent: 'parent';
-
 
 // Functions ------------------------------------------------------------------------------------------------
 
