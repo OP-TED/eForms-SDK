@@ -332,7 +332,7 @@ sequenceExpression
 indexer: numericExpression | lateBoundScalar;
 
 stringSequence
-    : OpenParenthesis (stringExpression | lateBoundScalar) (Comma (stringExpression | lateBoundScalar))+ CloseParenthesis       # stringList
+    : OpenBracket (stringExpression | lateBoundScalar) (Comma (stringExpression | lateBoundScalar))* CloseBracket               # stringList
     | stringSequenceFromIteration                                                               	                            # stringsFromIteration
     | OpenParenthesis (stringSequence | lateBoundSequence) CloseParenthesis                                                     # parenthesizedStrings
     | codelistReference                                                                         	                            # codeList
@@ -343,7 +343,7 @@ stringSequence
 stringSequenceFromIteration: For iteratorList Return stringExpression;
 
 booleanSequence
-    : OpenParenthesis (booleanExpression | lateBoundScalar) (Comma (booleanExpression | lateBoundScalar))+ CloseParenthesis     # booleanList
+    : OpenBracket (booleanExpression | lateBoundScalar) (Comma (booleanExpression | lateBoundScalar))* CloseBracket             # booleanList
     | booleanSequenceFromIteration                                                                                              # booleansFromIteration
     | OpenParenthesis (booleanSequence | lateBoundSequence) CloseParenthesis                                                    # parenthesizedBooleans
     | booleanSequenceTypeCast lateBoundSequenceReference                                                                        # booleanTypeCastFieldReference
@@ -353,7 +353,7 @@ booleanSequence
 booleanSequenceFromIteration: For iteratorList Return booleanExpression;
 
 numericSequence
-    : OpenParenthesis (numericExpression | lateBoundScalar) (Comma (numericExpression | lateBoundScalar))+ CloseParenthesis     # numericList
+    : OpenBracket (numericExpression | lateBoundScalar) (Comma (numericExpression | lateBoundScalar))* CloseBracket             # numericList
     | numericSequenceFromIteration                                                                                              # numbersFromIteration
     | OpenParenthesis (numericSequence | lateBoundSequence) CloseParenthesis                                                    # parenthesizedNumbers
     | numericSequenceTypeCast lateBoundSequenceReference                                                                        # numericTypeCastFieldReference
@@ -363,7 +363,7 @@ numericSequence
 numericSequenceFromIteration: For iteratorList Return numericExpression;
 
 dateSequence
-    : OpenParenthesis (dateExpression | lateBoundScalar) (Comma (dateExpression | lateBoundScalar))+ CloseParenthesis   # dateList
+    : OpenBracket (dateExpression | lateBoundScalar) (Comma (dateExpression | lateBoundScalar))* CloseBracket           # dateList
     | dateSequenceFromIteration                                                                                         # datesFromIteration
     | OpenParenthesis (dateSequence | lateBoundSequence) CloseParenthesis                                               # parenthesizedDates
     | dateSequenceTypeCast lateBoundSequenceReference                                                                   # dateTypeCastFieldReference
@@ -373,7 +373,7 @@ dateSequence
 dateSequenceFromIteration: For iteratorList Return dateExpression;
 
 timeSequence
-    : OpenParenthesis (timeExpression | lateBoundScalar) (Comma (timeExpression | lateBoundScalar))+ CloseParenthesis   # timeList
+    : OpenBracket (timeExpression | lateBoundScalar) (Comma (timeExpression | lateBoundScalar))* CloseBracket           # timeList
     | timeSequenceFromIteration                                                                                         # timesFromIteration
     | OpenParenthesis (timeSequence | lateBoundSequence) CloseParenthesis                                               # parenthesizedTimes
     | timeSequenceTypeCast lateBoundSequenceReference                                                                   # timeTypeCastFieldReference
@@ -383,7 +383,7 @@ timeSequence
 timeSequenceFromIteration: For iteratorList Return timeExpression;
 
 durationSequence
-    : OpenParenthesis (durationExpression | lateBoundScalar) (Comma (durationExpression | lateBoundScalar))+ CloseParenthesis   # durationList
+    : OpenBracket (durationExpression | lateBoundScalar) (Comma (durationExpression | lateBoundScalar))* CloseBracket           # durationList
     | durationSequenceFromIteration                                                                                             # durationsFromIteration
     | OpenParenthesis (durationSequence | lateBoundSequence) CloseParenthesis                                                   # parenthesizedDurations
     | durationSequenceTypeCast lateBoundSequenceReference                                                                       # durationTypeCastFieldReference
@@ -419,12 +419,12 @@ timeLiteral: TimeLiteral;
 durationLiteral: DayTimeDurationLiteral | YearMonthDurationLiteral;
 
 // Sequence literals
-stringSequenceLiteral: OpenParenthesis stringLiteral (Comma stringLiteral)* CloseParenthesis;
-booleanSequenceLiteral: OpenParenthesis booleanLiteral (Comma booleanLiteral)* CloseParenthesis;
-numericSequenceLiteral: OpenParenthesis numericLiteral (Comma numericLiteral)* CloseParenthesis;
-dateSequenceLiteral: OpenParenthesis dateLiteral (Comma dateLiteral)* CloseParenthesis;
-timeSequenceLiteral: OpenParenthesis timeLiteral (Comma timeLiteral)* CloseParenthesis;
-durationSequenceLiteral: OpenParenthesis durationLiteral (Comma durationLiteral)* CloseParenthesis;
+stringSequenceLiteral: OpenBracket stringLiteral (Comma stringLiteral)* CloseBracket;
+booleanSequenceLiteral: OpenBracket booleanLiteral (Comma booleanLiteral)* CloseBracket;
+numericSequenceLiteral: OpenBracket numericLiteral (Comma numericLiteral)* CloseBracket;
+dateSequenceLiteral: OpenBracket dateLiteral (Comma dateLiteral)* CloseBracket;
+timeSequenceLiteral: OpenBracket timeLiteral (Comma timeLiteral)* CloseBracket;
+durationSequenceLiteral: OpenBracket durationLiteral (Comma durationLiteral)* CloseBracket;
 
 /**************************************
   References
