@@ -425,7 +425,7 @@ Identifier: LETTER ('-'? (LETTER | DIGIT)+)*;
 
 IntegerLiteral: DIGIT+;
 DecimalLiteral: DIGIT? '.' DIGIT+;
-StringLiteral: ('"' CHAR_SEQ? '"') | ('\'' CHAR_SEQ? '\'');
+StringLiteral: ('"' DQUOTE_CHAR_SEQ? '"') | ('\'' SQUOTE_CHAR_SEQ? '\'');
 UuidV4Literal: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
 DateLiteral: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z');
 TimeLiteral: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT (ZONE | 'Z');
@@ -491,8 +491,10 @@ fragment CHAR_REF: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 fragment HEX4: HEX HEX HEX HEX;
 
 fragment HEX: [0-9a-fA-F];
-fragment CHAR_SEQ: CHAR+;
-fragment CHAR: ~["'\\\r\n] | ANY_ESC_SEQ;
+fragment SQUOTE_CHAR_SEQ: SQUOTE_CHAR+;
+fragment DQUOTE_CHAR_SEQ: DQUOTE_CHAR+;
+fragment SQUOTE_CHAR: ~['\\\r\n] | ANY_ESC_SEQ;
+fragment DQUOTE_CHAR: ~["\\\r\n] | ANY_ESC_SEQ;
 fragment TEXT_CHAR: ~[\\\r\n] | OTHER_ESC_SEQ;
 
 
