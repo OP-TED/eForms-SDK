@@ -283,6 +283,7 @@ Else: 'else';
 For: 'for';
 FOR: 'FOR';
 Return: 'return';
+Distinct: 'distinct';
 As: 'AS' | 'as';
 Any: 'ANY' | 'any';
 Always: 'ALWAYS';
