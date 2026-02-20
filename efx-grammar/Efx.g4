@@ -334,63 +334,75 @@ indexer: numericExpression | lateBoundScalar;
 stringSequence
     : OpenBracket (stringExpression | lateBoundScalar) (Comma (stringExpression | lateBoundScalar))* CloseBracket               # stringList
     | stringSequenceFromIteration                                                               	                            # stringsFromIteration
+    | stringSequenceFromConcatenatedIterations                                                                                  # stringsFromConcatenatedIterations
     | OpenParenthesis (stringSequence | lateBoundSequence) CloseParenthesis                                                     # parenthesizedStrings
     | codelistReference                                                                         	                            # codeList
     | textSequenceTypeCast lateBoundSequenceReference                                                   	                    # stringTypeCastFieldReference
     | stringSequenceFunction                                                                                                    # stringSequenceFunctionExpression
     ;
 
-stringSequenceFromIteration: For iteratorList Return stringExpression;
+stringSequenceFromIteration: For iteratorList Return Distinct? stringExpression;
+stringSequenceFromConcatenatedIterations: For iteratorList Return Distinct? stringSequence;
 
 booleanSequence
     : OpenBracket (booleanExpression | lateBoundScalar) (Comma (booleanExpression | lateBoundScalar))* CloseBracket             # booleanList
     | booleanSequenceFromIteration                                                                                              # booleansFromIteration
+    | booleanSequenceFromConcatenatedIterations                                                                                 # booleansFromConcatenatedIterations
     | OpenParenthesis (booleanSequence | lateBoundSequence) CloseParenthesis                                                    # parenthesizedBooleans
     | booleanSequenceTypeCast lateBoundSequenceReference                                                                        # booleanTypeCastFieldReference
     | booleanSequenceFunction                                                                                                   # booleanSequenceFunctionExpression
     ;
 
-booleanSequenceFromIteration: For iteratorList Return booleanExpression;
+booleanSequenceFromIteration: For iteratorList Return Distinct? booleanExpression;
+booleanSequenceFromConcatenatedIterations: For iteratorList Return Distinct? booleanSequence;
 
 numericSequence
     : OpenBracket (numericExpression | lateBoundScalar) (Comma (numericExpression | lateBoundScalar))* CloseBracket             # numericList
     | numericSequenceFromIteration                                                                                              # numbersFromIteration
+    | numericSequenceFromConcatenatedIterations                                                                                 # numbersFromConcatenatedIterations
     | OpenParenthesis (numericSequence | lateBoundSequence) CloseParenthesis                                                    # parenthesizedNumbers
     | numericSequenceTypeCast lateBoundSequenceReference                                                                        # numericTypeCastFieldReference
     | numericSequenceFunction                                                                                                   # numericSequenceFunctionExpression
     ;
 
-numericSequenceFromIteration: For iteratorList Return numericExpression;
+numericSequenceFromIteration: For iteratorList Return Distinct? numericExpression;
+numericSequenceFromConcatenatedIterations: For iteratorList Return Distinct? numericSequence;
 
 dateSequence
     : OpenBracket (dateExpression | lateBoundScalar) (Comma (dateExpression | lateBoundScalar))* CloseBracket           # dateList
     | dateSequenceFromIteration                                                                                         # datesFromIteration
+    | dateSequenceFromConcatenatedIterations                                                                            # datesFromConcatenatedIterations
     | OpenParenthesis (dateSequence | lateBoundSequence) CloseParenthesis                                               # parenthesizedDates
     | dateSequenceTypeCast lateBoundSequenceReference                                                                   # dateTypeCastFieldReference
     | dateSequenceFunction                                                                                              # dateSequenceFunctionExpression
     ;
 
-dateSequenceFromIteration: For iteratorList Return dateExpression;
+dateSequenceFromIteration: For iteratorList Return Distinct? dateExpression;
+dateSequenceFromConcatenatedIterations: For iteratorList Return Distinct? dateSequence;
 
 timeSequence
     : OpenBracket (timeExpression | lateBoundScalar) (Comma (timeExpression | lateBoundScalar))* CloseBracket           # timeList
     | timeSequenceFromIteration                                                                                         # timesFromIteration
+    | timeSequenceFromConcatenatedIterations                                                                            # timesFromConcatenatedIterations
     | OpenParenthesis (timeSequence | lateBoundSequence) CloseParenthesis                                               # parenthesizedTimes
     | timeSequenceTypeCast lateBoundSequenceReference                                                                   # timeTypeCastFieldReference
     | timeSequenceFunction                                                                                              # timeSequenceFunctionExpression
     ;
 
-timeSequenceFromIteration: For iteratorList Return timeExpression;
+timeSequenceFromIteration: For iteratorList Return Distinct? timeExpression;
+timeSequenceFromConcatenatedIterations: For iteratorList Return Distinct? timeSequence;
 
 durationSequence
     : OpenBracket (durationExpression | lateBoundScalar) (Comma (durationExpression | lateBoundScalar))* CloseBracket           # durationList
     | durationSequenceFromIteration                                                                                             # durationsFromIteration
+    | durationSequenceFromConcatenatedIterations                                                                                # durationsFromConcatenatedIterations
     | OpenParenthesis (durationSequence | lateBoundSequence) CloseParenthesis                                                   # parenthesizedDurations
     | durationSequenceTypeCast lateBoundSequenceReference                                                                       # durationTypeCastFieldReference
     | durationSequenceFunction                                                                                                  # durationSequenceFunctionExpression
     ;
 
-durationSequenceFromIteration: For iteratorList Return durationExpression;
+durationSequenceFromIteration: For iteratorList Return Distinct? durationExpression;
+durationSequenceFromConcatenatedIterations: For iteratorList Return Distinct? durationSequence;
 
 predicate: booleanExpression | lateBoundScalar;
 
@@ -685,12 +697,14 @@ lateBoundExpression
 
 
 lateBoundSequence
-    : OpenParenthesis lateBoundSequence CloseParenthesis                              
+    : OpenParenthesis lateBoundSequence CloseParenthesis
     | lateBoundSequenceFromIteration
+    | lateBoundSequenceFromConcatenatedIterations
     | lateBoundSequenceReference
     ;
 
-lateBoundSequenceFromIteration: For iteratorList Return lateBoundScalar;
+lateBoundSequenceFromIteration: For iteratorList Return Distinct? lateBoundScalar;
+lateBoundSequenceFromConcatenatedIterations: For iteratorList Return Distinct? lateBoundSequence;
 
 lateBoundSequenceReference
     : attributeReference        # sequenceFromAttributeReference 
