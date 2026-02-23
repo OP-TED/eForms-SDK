@@ -95,14 +95,14 @@ parameterDeclaration
     | Number    Colon VariablePrefix parameterName=Identifier      # numericParameterDeclaration
     | Date      Colon VariablePrefix parameterName=Identifier      # dateParameterDeclaration
     | Time      Colon VariablePrefix parameterName=Identifier      # timeParameterDeclaration
-    | Measure   Colon VariablePrefix parameterName=Identifier      # durationParameterDeclaration
+    | Duration  Colon VariablePrefix parameterName=Identifier      # durationParameterDeclaration
     // Sequence parameter declarations
     | Text      Star Colon VariablePrefix parameterName=Identifier # stringSequenceParameterDeclaration
     | Indicator Star Colon VariablePrefix parameterName=Identifier # booleanSequenceParameterDeclaration
     | Number    Star Colon VariablePrefix parameterName=Identifier # numericSequenceParameterDeclaration
     | Date      Star Colon VariablePrefix parameterName=Identifier # dateSequenceParameterDeclaration
     | Time      Star Colon VariablePrefix parameterName=Identifier # timeSequenceParameterDeclaration
-    | Measure   Star Colon VariablePrefix parameterName=Identifier # durationSequenceParameterDeclaration
+    | Duration  Star Colon VariablePrefix parameterName=Identifier # durationSequenceParameterDeclaration
     ;
 
 // Parameter values are not part of an EFX expression. 
@@ -248,6 +248,8 @@ stringExpression
     | textTypeCast lateBoundScalarReference                                     # stringCastExpression
     // Metadata properties
     | fieldMention          Colon PrivacyCode                                    # fieldPrivacyCodeProperty
+    // Raw value property
+    | fieldMention          Colon RawValue                                       # fieldRawValueProperty
     ;
 
 numericExpression
@@ -448,14 +450,14 @@ booleanTypeCast:    OpenParenthesis Indicator   CloseParenthesis;
 numericTypeCast:    OpenParenthesis Number      CloseParenthesis;
 dateTypeCast:       OpenParenthesis Date        CloseParenthesis;
 timeTypeCast:       OpenParenthesis Time        CloseParenthesis;
-durationTypeCast:   OpenParenthesis Measure     CloseParenthesis;
+durationTypeCast:   OpenParenthesis Duration    CloseParenthesis;
 
 textSequenceTypeCast:       OpenParenthesis Text        Star CloseParenthesis;
 booleanSequenceTypeCast:    OpenParenthesis Indicator   Star CloseParenthesis;
 numericSequenceTypeCast:    OpenParenthesis Number      Star CloseParenthesis;
 dateSequenceTypeCast:       OpenParenthesis Date        Star CloseParenthesis;
 timeSequenceTypeCast:       OpenParenthesis Time        Star CloseParenthesis;
-durationSequenceTypeCast:   OpenParenthesis Measure     Star CloseParenthesis;
+durationSequenceTypeCast:   OpenParenthesis Duration    Star CloseParenthesis;
 
 // Iterator variable declarations (without initializer - used in FOR loops)
 stringIteratorVariableDeclaration:      Text        Colon VariablePrefix variableName=Identifier;
@@ -463,7 +465,7 @@ booleanIteratorVariableDeclaration:     Indicator   Colon VariablePrefix variabl
 numericIteratorVariableDeclaration:     Number      Colon VariablePrefix variableName=Identifier;
 dateIteratorVariableDeclaration:        Date        Colon VariablePrefix variableName=Identifier;
 timeIteratorVariableDeclaration:        Time        Colon VariablePrefix variableName=Identifier;
-durationIteratorVariableDeclaration:    Measure     Colon VariablePrefix variableName=Identifier;
+durationIteratorVariableDeclaration:    Duration    Colon VariablePrefix variableName=Identifier;
 contextIteratorVariableDeclaration:     ContextType Colon VariablePrefix variableName=Identifier;
 
 
@@ -563,6 +565,9 @@ numericFunction
     | HoursFunction          OpenParenthesis (timeExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # hoursFromTimeFunction
     | MinutesFunction        OpenParenthesis (timeExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # minutesFromTimeFunction
     | SecondsFunction        OpenParenthesis (timeExpression    | lateBoundScalar)                                                                                                  CloseParenthesis  # secondsFromTimeFunction
+    | YearsFunction          OpenParenthesis (durationExpression | lateBoundScalar)                                                                                                 CloseParenthesis  # yearsFromDurationFunction
+    | MonthsFunction         OpenParenthesis (durationExpression | lateBoundScalar)                                                                                                 CloseParenthesis  # monthsFromDurationFunction
+    | DaysFunction           OpenParenthesis (durationExpression | lateBoundScalar)                                                                                                 CloseParenthesis  # daysFromDurationFunction
     ;
 
 stringFunction
@@ -609,8 +614,8 @@ stringFunction
 dateFunction
     : dateTypeCast      functionInvocation                                                                                                      # dateFunctionInvocation 
     | Date              OpenParenthesis (stringExpression   | lateBoundScalar) CloseParenthesis                                                 # dateFromStringFunction
-    | AddMeasure        OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # datePlusMeasureFunction
-    | SubtractMeasure   OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # dateMinusMeasureFunction
+    | AddDuration       OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # datePlusDurationFunction
+    | SubtractDuration  OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # dateMinusDurationFunction
     ;
 
 timeFunction
@@ -802,7 +807,7 @@ booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=Id
 numericVariableInitializer:     Number      Colon VariablePrefix variableName=Identifier Assignment (numericExpression  | lateBoundScalar);
 dateVariableInitializer:        Date        Colon VariablePrefix variableName=Identifier Assignment (dateExpression     | lateBoundScalar);
 timeVariableInitializer:        Time        Colon VariablePrefix variableName=Identifier Assignment (timeExpression     | lateBoundScalar);
-durationVariableInitializer:    Measure     Colon VariablePrefix variableName=Identifier Assignment (durationExpression | lateBoundScalar);
+durationVariableInitializer:    Duration    Colon VariablePrefix variableName=Identifier Assignment (durationExpression | lateBoundScalar);
 
 // Context variable initializer - only accept fieldContext or nodeContext
 contextVariableInitializer:     ContextType Colon VariablePrefix variableName=Identifier Assignment (fieldContext | nodeContext | Slash);
@@ -813,7 +818,7 @@ booleanSequenceVariableInitializer:  Indicator Star Colon VariablePrefix variabl
 numericSequenceVariableInitializer:  Number    Star Colon VariablePrefix variableName=Identifier Assignment (numericSequence  | lateBoundSequence);
 dateSequenceVariableInitializer:     Date      Star Colon VariablePrefix variableName=Identifier Assignment (dateSequence     | lateBoundSequence);
 timeSequenceVariableInitializer:     Time      Star Colon VariablePrefix variableName=Identifier Assignment (timeSequence     | lateBoundSequence);
-durationSequenceVariableInitializer: Measure   Star Colon VariablePrefix variableName=Identifier Assignment (durationSequence | lateBoundSequence);
+durationSequenceVariableInitializer: Duration  Star Colon VariablePrefix variableName=Identifier Assignment (durationSequence | lateBoundSequence);
 
 // ================================================================
 //  EFX Validation Rules
@@ -1180,7 +1185,7 @@ booleanFunctionDeclaration:     Let Indicator Colon FunctionPrefix functionName=
 numericFunctionDeclaration:     Let Number    Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericExpression  | lateBoundScalar) Semicolon;
 dateFunctionDeclaration:        Let Date      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateExpression     | lateBoundScalar) Semicolon;
 timeFunctionDeclaration:        Let Time      Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeExpression     | lateBoundScalar) Semicolon;
-durationFunctionDeclaration:    Let Measure   Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundScalar) Semicolon;
+durationFunctionDeclaration:    Let Duration  Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationExpression | lateBoundScalar) Semicolon;
 
 // Sequence function declarations - accept sequence expressions or lateBoundSequence
 stringSequenceFunctionDeclaration:   Let Text      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (stringSequence   | lateBoundSequence) Semicolon;
@@ -1188,4 +1193,4 @@ booleanSequenceFunctionDeclaration:  Let Indicator Star Colon FunctionPrefix fun
 numericSequenceFunctionDeclaration:  Let Number    Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (numericSequence  | lateBoundSequence) Semicolon;
 dateSequenceFunctionDeclaration:     Let Date      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (dateSequence     | lateBoundSequence) Semicolon;
 timeSequenceFunctionDeclaration:     Let Time      Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (timeSequence     | lateBoundSequence) Semicolon;
-durationSequenceFunctionDeclaration: Let Measure   Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationSequence | lateBoundSequence) Semicolon;
+durationSequenceFunctionDeclaration: Let Duration  Star Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Assignment (durationSequence | lateBoundSequence) Semicolon;

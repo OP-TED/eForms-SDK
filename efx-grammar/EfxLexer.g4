@@ -301,7 +301,7 @@ Number: 'number';
 Indicator: 'indicator';
 Date: 'date';
 Time: 'time';
-Measure: 'measure';
+Duration: 'duration';
 Template: 'template';
 Index: INDEX;
 By: BY;
@@ -316,7 +316,7 @@ TextType: Text -> type(Text);
 CodeType: Code -> type(Code);
 DateType: Date -> type(Date);
 TimeType: Time -> type(Time);
-DurationType: Measure -> type(Measure);
+DurationType: Duration -> type(Duration);
 ContextType: 'context';
 
 
@@ -349,6 +349,9 @@ DayFunction: 'day';
 HoursFunction: 'hours';
 MinutesFunction: 'minutes';
 SecondsFunction: 'seconds';
+YearsFunction: 'years';
+MonthsFunction: 'months';
+DaysFunction: 'days';
 FormatNumberFunction: 'format-number';
 FormatShortFunction: 'format-short';
 FormatMediumFunction: 'format-medium';
@@ -373,8 +376,8 @@ DateFunction: Date -> type(Date);
 TimeFunction: Time -> type(Time);
 DayTimeDurationFunction: 'day-time-duration';
 YearMonthDurationFunction: 'year-month-duration';
-AddMeasure: 'add-measure';
-SubtractMeasure: 'subtract-measure';
+AddDuration: 'add-duration';
+SubtractDuration: 'subtract-duration';
 DistinctValuesFunction: 'distinct-values';
 UnionFunction: 'value-union';
 IntersectFunction: 'value-intersect';
@@ -398,6 +401,8 @@ IsWithheld: 'isWithheld';
 IsWithholdable: 'isWithholdable';
 IsDisclosed: 'isDisclosed';
 IsMasked: 'isMasked';
+// Other property keywords
+RawValue: 'rawValue';
 
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
