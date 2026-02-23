@@ -614,8 +614,8 @@ stringFunction
 dateFunction
     : dateTypeCast      functionInvocation                                                                                                      # dateFunctionInvocation 
     | Date              OpenParenthesis (stringExpression   | lateBoundScalar) CloseParenthesis                                                 # dateFromStringFunction
-    | AddMeasure        OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # datePlusMeasureFunction
-    | SubtractMeasure   OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # dateMinusMeasureFunction
+    | AddDuration       OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # datePlusDurationFunction
+    | SubtractDuration  OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # dateMinusDurationFunction
     ;
 
 timeFunction
