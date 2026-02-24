@@ -121,13 +121,82 @@
    <SimpleCodeList>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>empty</SimpleValue>
+            <SimpleValue>32025R1197</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>There is currently no Implementing Act</SimpleValue>
+            <SimpleValue>Regulation (EU) 2025/1197: Medical devices originating in the People’s Republic of China</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Медицински изделия с произход от Китай — Регламент (ЕС) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Zdravotnické prostředky pocházející z Číny – nařízení (EU) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Medicinsk udstyr med oprindelse i Kina – forordning (EU) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Medizinprodukte mit Ursprung in China – Verordnung (EU) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ιατροτεχνολογικά προϊόντα καταγωγής Κίνας — κανονισμός (ΕΕ) 2025/1197</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Placeholder for a specific IPI measure</SimpleValue>
+            <SimpleValue>Medical devices originating in China – Regulation (EU) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Productos sanitarios originarios de China — Reglamento (UE) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hiinast pärit meditsiiniseadmed – määrus (EL) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kiinan kansantasavallasta peräisin olevat lääkinnälliset laitteet — Asetus (EU) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Dispositifs médicaux originaires de Chine — règlement (UE) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Feistí leighis de thionscnamh na Síne – Rialachán (AE) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Medicinski proizvodi podrijetlom iz Kine – Uredba (EU) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Kínából származó orvostechnikai eszközök – az (EU) 2025/1197 rendelet</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Dispositivi medici originari della Cina - regolamento (UE) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kinijos kilmės medicinos priemonės. Reglamentas (ES) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ķīnas izcelsmes medicīniskās ierīces — Regula (ES) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Apparati mediċi li joriġinaw miċ-Ċina — ir-Regolament (UE) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Medische hulpmiddelen van oorsprong uit China – Verordening (EU) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Wyroby medyczne pochodzące z Chin – rozporządzenie (UE) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Dispositivos médicos originários da China — Regulamento (UE) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Dispozitive medicale originare din China – Regulamentul (UE) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Zdravotnícke pomôcky s pôvodom v Číne – nariadenie (EÚ) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Medicinski pripomočki s poreklom iz Kitajske – Uredba (EU) 2025/1197</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Medicintekniska produkter med ursprung i Kina – förordning (EU) 2025/1197</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

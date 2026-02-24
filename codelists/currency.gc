@@ -5,7 +5,7 @@
       <ShortName>Currency</ShortName>
       <LongName>currency</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/currency</LongName>
-      <Version>20240925-0</Version>
+      <Version>20250924-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/currency</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -2678,86 +2678,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Costaricansk colón</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>CUC</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Convertible peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Конвертируемо песо</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Konvertibilní peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Konvertibel peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Konvertibler Peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Μετατρέψιμο πέσο</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Convertible peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Peso convertible</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Konverteeritav peeso</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Vaihdettava peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Peso convertible</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Peso in-chomhshóite</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Konvertibilni pezo</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Konvertibilis peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Peso convertibile</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Konvertuojamasis pesas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Konvertējams peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Peso konvertibbli</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Convertibele peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Peso wymienialne</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Peso convertível</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Peso convertibil</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Konvertibilné peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Konvertibilni peso</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Konvertibel peso</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -9438,7 +9358,7 @@
             <SimpleValue>Dollar des Îles Salomon</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Dollar Oileáin Sholomón</SimpleValue>
+            <SimpleValue>Dollar Oileáin Sholaimh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Solomonskootočni dolar</SimpleValue>
@@ -11011,7 +10931,7 @@
             <SimpleValue>Долар на Тринидад и Тобаго</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Trinidadu a Tobaga dolar</SimpleValue>
+            <SimpleValue>Dolar Trinidadu a Tobaga</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
             <SimpleValue>Trinidad og Tobago-dollar</SimpleValue>
@@ -11026,7 +10946,7 @@
             <SimpleValue>Trinidad and Tobago dollar</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Dólar trinitense</SimpleValue>
+            <SimpleValue>Dólar de Trinidad y Tobago</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
             <SimpleValue>Trinidadi ja Tobago dollar</SimpleValue>
@@ -11074,7 +10994,7 @@
             <SimpleValue>Dolár Trinidadu a Tobaga</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Dolar Trinidada in Tobaga</SimpleValue>
+            <SimpleValue>Trinidadsko-tobagovski dolar</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Trinidad och Tobago-dollar</SimpleValue>
@@ -12198,6 +12118,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Östkaribisk dollar</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>XCG</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Caribbean guilder</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Карибски гулден</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Karibský gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Caribiske gylden</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Karibischer gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Φιορίνι της Καραϊβικήςes</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Caribbean guilder</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Florín del Caribe</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Kariibi kulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Karibian guldeni</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Florin des Caraïbes</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Gildear na Cairibe</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Karipski gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Karibi forint</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fiorino caraibico</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Karibų guldenas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Karību guldenis</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Guilder tal-Karibew”</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Caribische gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gulden karaibski</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Florim caribenho</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Gulden caraib</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Karibský gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Karibski gulden</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Karibisk gulden</SimpleValue>
          </Value>
       </Row>
       <Row>

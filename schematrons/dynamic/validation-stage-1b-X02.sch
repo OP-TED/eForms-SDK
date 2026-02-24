@@ -15,7 +15,7 @@
 	</rule>
 	<rule context="/*/cac:BusinessParty[$noticeSubType = 'X02']">
 		<assert id="ND-BusinessAddress-X02" role="ERROR" diagnostics="ND-BusinessAddress" test="count(cac:PostalAddress) &gt; 0">rule|text|ND-BusinessAddress-X02</assert>
-		<assert id="ND-LocalEntity-X02" role="ERROR" diagnostics="ND-LocalEntity" test="count(cac:PartyLegalEntity) &gt; 0">rule|text|ND-LocalEntity-X02</assert>
+		<assert id="ND-EuEntity-X02" role="ERROR" diagnostics="ND-EuEntity" test="count(cac:PartyLegalEntity) &gt; 0">rule|text|ND-EuEntity-X02</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'X02']">
 		<assert id="ND-ContractModification-X02" role="ERROR" diagnostics="ND-ContractModification" test="count(efac:ContractModification) = 0">rule|text|ND-ContractModification-X02</assert>

@@ -5,7 +5,7 @@
       <ShortName>EuProgramme</ShortName>
       <LongName>eu-programme</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/eu-programme</LongName>
-      <Version>20240612-0</Version>
+      <Version>20250618-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/eu-programme</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -9082,6 +9082,86 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
+            <SimpleValue>MF_2021</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Modernisation Fund (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Модернизационен фонд (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Modernizačního fondu (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Moderniseringsfonden (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Modernisierungsfonds (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ταμείο Εκσυγχρονισμού (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Modernisation Fund (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Fondo de Modernización (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Moderniseerimisfondi (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Nykyaikaistamisrahasto (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Fonds pour la modernisation (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ciste don Nuachóiriú (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Modernizacijski fond (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Modernizációs Alap (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Fondo per la modernizzazione (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Modernizavimo fondas (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Modernizācijas fonds (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Fond għall-Modernizzazzjoni (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Moderniseringsfonds (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Fundusz modernizacyjny (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Fundo de Modernização (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Fondul pentru modernizare (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Modernizačný fond (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Sklad za modernizacijo (2021/2030)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Moderniseringsfonden (2021/2030)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
             <SimpleValue>MFA</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
@@ -10118,6 +10198,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Lånefaciliteten för den offentliga sektorn under mekanismen för en rättvis omställning (2021/2027)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>REACT_EU</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>REACT-UE (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>REACT-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>React-EU-väline (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>REACT-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Cúnamh Téarnaimh don Chomhtháthú agus do Chríocha na hEorpa (REACT-EU) (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>REACT-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>REACT-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>REACT-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>REACT-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Iniciativa REACT-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>React-UE (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>REACT-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>React-EU (2021/2023)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -11318,6 +11478,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Övergångsregioner (2014/2020)</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>UKF_2024</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Ukraine Facility (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Механизъм за Украйна (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Nástroj pro Ukrajinu (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ukrainefaciliteten (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ukraine-Fazilität (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Διευκόλυνσης για την Ουκρανία (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Ukraine Facility (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Mecanismo para Ucrania (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ukraina rahastu (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ukrainan tukiväline (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Facilité pour l’Ukraine (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>tSaoráid don Úcráin (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Instrument za Ukrajinu (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ukrajna-eszköz (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Strumento per l'Ucraina (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ukrainos priemonė (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ukrainas atbalsta mehānisms (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Faċilità għall-Ukrajna (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Faciliteit voor Oekraïne (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Instrument na rzecz Ukrainy (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Mecanismo para a Ucrânia (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Mecanismul pentru Ucraina (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Nástroj pre Ukrajinu (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Instrument za Ukrajino (2024/2027)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ukrainafaciliteten (2024/2027)</SimpleValue>
          </Value>
       </Row>
       <Row>

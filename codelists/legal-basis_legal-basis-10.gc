@@ -6,7 +6,7 @@
       <LongName>legal-basis-10</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/legal-basis</LongName>
       <LongName Identifier="eFormsParentId">legal-basis</LongName>
-      <Version>1.13.0</Version>
+      <Version>1.14.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -199,86 +199,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Direktiv 2014/24/EU</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>32018R1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Regulation (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Регламент (ЕС, Евратом) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Nařízení (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Forordning (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Verordnung (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Κανονισμός (ΕΕ, Ευρατόμ) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Regulation (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Reglamento (UE, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Määrus (EL, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Asetus (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Règlement (UE, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Rialachán (AE, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Uredba (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>(EU, Euratom) 2018/1046 rendelet</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Regolamento (UE, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Reglamentas (ES, Euratomas) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Regula (ES, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Regolament (UE, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Verordening (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Rozporządzenie (UE, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Regulamento (UE, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Regulamentul (UE, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Nariadenie (EÚ, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Uredba (EU, Euratom) 2018/1046</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Förordning (EU, Euratom) 2018/1046</SimpleValue>
          </Value>
       </Row>
       <Row>

@@ -101,15 +101,6 @@
 		</cac:TendererQualificationRequest>
 	</cac:TenderingTerms>
 	<cac:TenderingProcess>
-		<ext:UBLExtensions>
-			<ext:UBLExtension>
-				<ext:ExtensionContent>
-					<efext:EformsExtension>
-						<efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
-					</efext:EformsExtension>
-				</ext:ExtensionContent>
-			</ext:UBLExtension>
-		</ext:UBLExtensions>
 		<cbc:ProcedureCode listName="procurement-procedure-type">innovation</cbc:ProcedureCode>
 	</cac:TenderingProcess>
 	<cac:ProcurementProject>

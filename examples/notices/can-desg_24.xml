@@ -21,6 +21,22 @@
 								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
 								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
@@ -41,10 +57,6 @@
 							<efac:DecisionReason>
 								<efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
 							</efac:DecisionReason>
-							<efac:ReceivedSubmissionsStatistics>
-								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
-								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
-							</efac:ReceivedSubmissionsStatistics>
 							<efac:TenderLot>
 								<cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
 							</efac:TenderLot>

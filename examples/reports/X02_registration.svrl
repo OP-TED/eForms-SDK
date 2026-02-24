@@ -111,6 +111,7 @@
    <svrl:fired-rule context="/*/cac:BusinessCapability/cbc:CapabilityTypeCode"/>
    <svrl:fired-rule context="/*/cac:BusinessCapability/cbc:CapabilityTypeCode"/>
    <svrl:fired-rule context="/*/cac:BusinessCapability/cbc:CapabilityTypeCode"/>
+   <svrl:fired-rule context="/*/cac:BusinessParty/cac:PostalAddress/cbc:CountrySubentityCode"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5m"/>
 </svrl:schematron-output>

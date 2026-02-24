@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.13.0",
+  "sdkVersion" : "1.14.0",
   "metadataDatabase" : {
-    "version" : "1.13.0",
-    "createdOn" : "2024-10-14T13:00:00"
+    "version" : "1.14.1",
+    "createdOn" : "2025-12-02T14:47:40"
   },
   "noticeId" : "CEI",
   "metadata" : [ {
@@ -134,7 +134,7 @@
       "nodeId" : "ND-ContractingParty",
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
-      "_label" : "group|name|ND-ContractingParty",
+      "_label" : "group|name|GR-ContractingAuthority",
       "businessEntityId" : "buyer",
       "_repeatable" : true,
       "content" : [ {
@@ -181,7 +181,7 @@
         "nodeId" : "ND-ServiceProviderParty",
         "displayType" : "GROUP",
         "description" : "Provided Service (code) and Provider (Reference to Organization)",
-        "_label" : "group|name|ND-ServiceProviderParty",
+        "_label" : "group|name|GR-Procedure-SProvider",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-300-Procedure-SProvider",
@@ -230,7 +230,7 @@
         "nodeId" : "ND-LocalLegalBasisWithID",
         "displayType" : "GROUP",
         "description" : "Legislation impacting the procurement and for which an ID is known",
-        "_label" : "group|name|ND-LocalLegalBasisWithID",
+        "_label" : "group|name|GR-Procedure-LocalLegalBasisWithID",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01(c)-Procedure",
@@ -251,7 +251,7 @@
         "nodeId" : "ND-LocalLegalBasisNoID",
         "displayType" : "GROUP",
         "description" : "Legislation impacting the procurement and for which no ID is known",
-        "_label" : "group|name|ND-LocalLegalBasisNoID",
+        "_label" : "group|name|GR-Procedure-LocalLegalBasisNoID",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01(e)-Procedure",
@@ -274,7 +274,7 @@
         "nodeId" : "ND-ProcedureProcurementScope",
         "displayType" : "GROUP",
         "description" : "Scope of the Procurement addressed with the whole notice",
-        "_label" : "group|name|ND-ProcedureProcurementScope",
+        "_label" : "group|name|GR-Procedure-Description",
         "content" : [ {
           "id" : "BT-22-Procedure",
           "contentType" : "field",
@@ -305,7 +305,7 @@
           "nodeId" : "ND-ProcedureContractAdditionalNature",
           "displayType" : "GROUP",
           "description" : "Additional contract nature for the Procedure",
-          "_label" : "group|name|ND-ProcedureContractAdditionalNature",
+          "_label" : "group|name|GR-Procedure-Additional-Nature",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-531-Procedure",
@@ -327,7 +327,7 @@
           "nodeId" : "ND-ProcedureMainClassification",
           "displayType" : "GROUP",
           "description" : "Classification for the Main Commodity of the Procedure",
-          "_label" : "group|name|ND-ProcedureMainClassification",
+          "_label" : "group|name|GR-Procedure-Scope-MainClassification",
           "content" : [ {
             "id" : "BT-26(m)-Procedure",
             "contentType" : "field",
@@ -347,7 +347,7 @@
           "nodeId" : "ND-ProcedureAdditionalCommodityClassification",
           "displayType" : "GROUP",
           "description" : "Classification for the Additional Commodity of the Procedure",
-          "_label" : "group|name|ND-ProcedureAdditionalCommodityClassification",
+          "_label" : "group|name|GR-Procedure-Scope-AdditionalClassification",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(a)-Procedure",
@@ -369,7 +369,7 @@
         "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
         "displayType" : "GROUP",
         "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
-        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
+        "_label" : "group|name|GR-Procedure-PlaceOfPerformance",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-5101(a)-Procedure",
@@ -438,8 +438,8 @@
         "contentType" : "group",
         "nodeId" : "ND-ExclusionGroundsSource",
         "displayType" : "GROUP",
-        "description" : "Exclusion Grounds Source (Code)",
-        "_label" : "group|name|ND-ExclusionGroundsSource",
+        "description" : "Exclusion Grounds Source",
+        "_label" : "group|name|GR-Procedure-ExclusionGrounds-Source",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-806-Procedure",
@@ -454,7 +454,7 @@
         "nodeId" : "ND-ExclusionGrounds",
         "displayType" : "GROUP",
         "description" : "Exclusion Grounds (Code & Description)",
-        "_label" : "group|name|ND-ExclusionGrounds",
+        "_label" : "group|name|GR-Procedure-ExclusionGrounds",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-67(a)-Procedure",
@@ -475,7 +475,7 @@
         "nodeId" : "ND-CrossBorderLaw",
         "displayType" : "GROUP",
         "description" : "Cross Border Law",
-        "_label" : "group|name|ND-CrossBorderLaw",
+        "_label" : "group|name|GR-Procedure-CrossBorderLaw",
         "content" : [ {
           "id" : "BT-09(a)-Procedure",
           "contentType" : "field",
@@ -523,7 +523,7 @@
         "nodeId" : "ND-ProcedureTenderingProcess",
         "displayType" : "GROUP",
         "description" : "Properties (Type, Relaunch, Termination, tendering for all lots) of the Tendering Process of the Procurement Procedure as a whole",
-        "_label" : "group|name|ND-ProcedureTenderingProcess",
+        "_label" : "group|name|GR-Procedure-Procedure",
         "content" : [ {
           "id" : "BT-763-Procedure",
           "contentType" : "field",
@@ -552,7 +552,7 @@
     "nodeId" : "ND-Lot",
     "displayType" : "SECTION",
     "description" : "Lot related information covering Tendering Terms, Tendering Process and Purpose",
-    "_label" : "group|name|ND-Lot",
+    "_label" : "group|name|GR-Lot",
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
     "businessEntityId" : "lot",
@@ -574,7 +574,7 @@
       "nodeId" : "ND-LotTenderingProcess",
       "displayType" : "SECTION",
       "description" : "Tendering Procedure information (GPA, Atypical Tool, Deadlines, techniques) for a Lot",
-      "_label" : "group|name|ND-LotTenderingProcess",
+      "_label" : "group|name|GR-Lot-Purpose",
       "content" : [ {
         "id" : "GR-Lot-Description",
         "contentType" : "group",
@@ -611,7 +611,7 @@
           "nodeId" : "ND-LotContractAdditionalNature",
           "displayType" : "GROUP",
           "description" : "Additional contract nature for the Lot",
-          "_label" : "group|name|ND-LotContractAdditionalNature",
+          "_label" : "group|name|GR-Lot-Additional-Nature",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-531-Lot",
@@ -651,7 +651,7 @@
           "nodeId" : "ND-LotMainClassification",
           "displayType" : "GROUP",
           "description" : "Classification for the Main Commodity of a Lot",
-          "_label" : "group|name|ND-LotMainClassification",
+          "_label" : "group|name|GR-Lot-Scope-MainClassification",
           "content" : [ {
             "id" : "BT-26(m)-Lot",
             "contentType" : "field",
@@ -671,7 +671,7 @@
           "nodeId" : "ND-LotAdditionalClassification",
           "displayType" : "GROUP",
           "description" : "Classification for an Additional Commodity of a Lot",
-          "_label" : "group|name|ND-LotAdditionalClassification",
+          "_label" : "group|name|GR-Lot-Scope-AdditionalClassification",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(a)-Lot",
@@ -693,7 +693,7 @@
         "nodeId" : "ND-LotPlacePerformance",
         "displayType" : "GROUP",
         "description" : "A location where the Procurement, for the Lot, should take place",
-        "_label" : "group|name|ND-LotPlacePerformance",
+        "_label" : "group|name|GR-Lot-PlaceOfPerformance",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-5101(a)-Lot",
@@ -782,7 +782,7 @@
         "nodeId" : "ND-Funding",
         "displayType" : "GROUP",
         "description" : "Funding for a given Lot",
-        "_label" : "group|name|ND-Funding",
+        "_label" : "group|name|GR-Lot-EUFunds",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-7220-Lot",
@@ -828,8 +828,8 @@
         "contentType" : "group",
         "nodeId" : "ND-SelectionCriteriaSource",
         "displayType" : "GROUP",
-        "description" : "Source for Selection Criteria",
-        "_label" : "group|name|ND-SelectionCriteriaSource",
+        "description" : "Selection Criteria Source",
+        "_label" : "group|name|GR-Lot-SelectionCriteria-Source",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-821-Lot",
@@ -844,7 +844,7 @@
         "nodeId" : "ND-SelectionCriteria",
         "displayType" : "GROUP",
         "description" : "Selection Criteria including the ones for 2nd stage (Type, Name, Description, Use, Parameters)",
-        "_label" : "group|name|ND-SelectionCriteria",
+        "_label" : "group|name|GR-Lot-SelectionCriteria",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-809-Lot",
@@ -871,7 +871,7 @@
           "nodeId" : "ND-LotReservedExecution",
           "displayType" : "GROUP",
           "description" : "Lot Reserved Execution",
-          "_label" : "group|name|ND-LotReservedExecution",
+          "_label" : "group|name|GR-Lot-ReservedExecution",
           "content" : [ {
             "id" : "BT-736-Lot",
             "contentType" : "field",
@@ -891,7 +891,7 @@
           "nodeId" : "ND-ExecutionRequirements",
           "displayType" : "GROUP",
           "description" : "Contract Execution Requirements (Terms of Performance Description)",
-          "_label" : "group|name|ND-ExecutionRequirements",
+          "_label" : "group|name|GR-Lot-PerformanceTerms",
           "content" : [ {
             "id" : "OPT-060-Lot",
             "contentType" : "field",
@@ -967,12 +967,12 @@
           "_label" : "field|name|BT-630(t)-Lot"
         } ]
       }, {
-        "id" : "GR-Lot-Submission Language",
+        "id" : "GR-Lot-SubmissionLanguage",
         "contentType" : "group",
         "nodeId" : "ND-LotSubmissionLanguage",
         "displayType" : "GROUP",
         "description" : "Submission language",
-        "_label" : "group|name|ND-LotSubmissionLanguage",
+        "_label" : "group|name|GR-Lot-SubmissionLanguage",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-97-Lot",
@@ -1006,7 +1006,7 @@
         "nodeId" : "ND-LotProcurementDocument",
         "displayType" : "GROUP",
         "description" : "Procurement Document information for a Lot, independent from the restricted aspect",
-        "_label" : "group|name|ND-LotProcurementDocument",
+        "_label" : "group|name|GR-Lot-ProcurementDocuments",
         "_repeatable" : true,
         "content" : [ {
           "id" : "GR-Lot-DocsAllOfficialLanguages",
@@ -1014,14 +1014,14 @@
           "nodeId" : "ND-LotDocAllOfficialLanguages",
           "displayType" : "GROUP",
           "description" : "Lot Procurement Documents All Official Languages",
-          "_label" : "group|name|ND-LotDocAllOfficialLanguages",
+          "_label" : "group|name|GR-Lot-DocsAllOfficialLanguages",
           "content" : [ {
             "id" : "GR-Lot-DocsOfficialLanguage",
             "contentType" : "group",
             "nodeId" : "ND-LotDocOfficialLanguage",
             "displayType" : "GROUP",
             "description" : "Lot Procurement Documents Official Language",
-            "_label" : "group|name|ND-LotDocOfficialLanguage",
+            "_label" : "group|name|GR-Lot-DocsOfficialLanguage",
             "_repeatable" : true,
             "content" : [ {
               "id" : "BT-708-Lot",
@@ -1037,14 +1037,14 @@
           "nodeId" : "ND-LotDocAllNonOfficialLanguages",
           "displayType" : "GROUP",
           "description" : "Lot Procurement Documents all non Official Languages",
-          "_label" : "group|name|ND-LotDocAllNonOfficialLanguages",
+          "_label" : "group|name|GR-Lot-DocsAllNonOfficialLanguages",
           "content" : [ {
             "id" : "GR-Lot-DocsNonOfficialLanguage",
             "contentType" : "group",
             "nodeId" : "ND-LotDocNonOfficialLanguage",
             "displayType" : "GROUP",
             "description" : "Lot Procurement Documents non Official Language",
-            "_label" : "group|name|ND-LotDocNonOfficialLanguage",
+            "_label" : "group|name|GR-Lot-DocsNonOfficialLanguage",
             "_repeatable" : true,
             "content" : [ {
               "id" : "BT-737-Lot",
@@ -1222,7 +1222,7 @@
       "nodeId" : "ND-Change",
       "displayType" : "GROUP",
       "description" : "Information associated to a single Change (Section, Description & Procurement Documents)",
-      "_label" : "group|name|ND-Change",
+      "_label" : "group|name|GR-ChangeSections",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ChangedSectionIdentifiers",
@@ -1230,7 +1230,7 @@
         "nodeId" : "ND-ChangedSection",
         "displayType" : "GROUP",
         "description" : "Section subject to change",
-        "_label" : "group|name|ND-ChangedSection",
+        "_label" : "group|name|GR-ChangedSectionIdentifiers",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-13716-notice",
@@ -1272,7 +1272,7 @@
       "nodeId" : "ND-Organization",
       "displayType" : "GROUP",
       "description" : "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
-      "_label" : "group|name|ND-Organization",
+      "_label" : "group|name|GR-Organisations",
       "_idScheme" : "ORG",
       "_schemeName" : "organization",
       "businessEntityId" : "organization",
@@ -1306,7 +1306,7 @@
           "nodeId" : "ND-CompanyLegalEntity",
           "displayType" : "GROUP",
           "description" : "Company legal identifier",
-          "_label" : "group|name|ND-CompanyLegalEntity",
+          "_label" : "group|name|GR-Organisation-Identifier",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-501-Organization-Company",
@@ -1439,7 +1439,7 @@
         "nodeId" : "ND-Touchpoint",
         "displayType" : "GROUP",
         "description" : "Contact details associated to a given role",
-        "_label" : "group|name|ND-Touchpoint",
+        "_label" : "group|name|GR-Touch-Point",
         "_idScheme" : "TPO",
         "_schemeName" : "touchpoint",
         "businessEntityId" : "touchpoint",

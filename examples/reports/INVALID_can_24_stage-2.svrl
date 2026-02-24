@@ -56,6 +56,7 @@
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = '29']"/>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company[$noticeSubType = '29']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-2b"/>
    <svrl:fired-rule context="/*"/>
@@ -589,6 +590,7 @@
                        test="normalize-space(.) = ('part-req', 't-esubm', 't-med', 't-micro', 't-no-eea', 't-no-verif', 't-oth-eea', 't-small', 't-sme', 't-verif-inad', 't-verif-inad-low', 'tenders')">
       <svrl:text>rule|text|BR-BT-00760-0052</svrl:text>
    </svrl:failed-assert>
+   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID"/>
    <svrl:failed-assert id="BR-OPT-00315-0051"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID"
@@ -652,7 +654,7 @@
    <svrl:failed-assert id="BR-BT-00506-0052"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail"
                        role="ERROR"
-                       test="matches(normalize-space(.),'^[A-Za-z0-9!#$%&amp;''*+/=?_-]+(\.[A-Za-z0-9!#$%&amp;''*+/=?_-]+)*@([A-Za-z0-9]([A-Za-z0-9_-]*[A-Za-z0-9])?\.)+([A-Za-z]{2,})$')">
+                       test="matches(normalize-space(.),'^[\w!#$%&amp;''*+/=?_-]+(\.[\w!#$%&amp;''*+/=?_-]+)*@([\w]([\w_-]*[\w])?\.)+([\w]{2,})$')">
       <svrl:text>rule|text|BR-BT-00506-0052</svrl:text>
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Telephone"/>
@@ -696,6 +698,7 @@
    </svrl:failed-assert>
    <svrl:fired-rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '29']"/>
    <svrl:active-pattern id="EFORMS-validation-stage-4-29"/>
+   <svrl:fired-rule context="/*[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProject/cac:MainCommodityClassification[$noticeSubType = '29']"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject[$noticeSubType = '29']"/>
@@ -818,7 +821,7 @@
    <svrl:failed-assert id="BR-BT-00145-0036"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract"
                        role="ERROR"
-                       test="count(cbc:IssueDate) &gt; 0 or not(../../../../../../cbc:RegulatoryDomain/normalize-space(text()) != '32018R1046' and ../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) != 'neg-wo-call' and efac:LotTender/cbc:ID)">
+                       test="count(cbc:IssueDate) &gt; 0 or not(../../../../../../cbc:RegulatoryDomain/normalize-space(text()) != '32024R2509' and ../../../../../../cac:TenderingProcess/cbc:ProcedureCode/normalize-space(text()) != 'neg-wo-call' and efac:LotTender/cbc:ID)">
       <svrl:text>rule|text|BR-BT-00145-0036</svrl:text>
       <svrl:diagnostic-reference diagnostic="BT-145-Contract" see="field:BT-145-Contract">
          <svrl:text>cbc:IssueDate</svrl:text>
@@ -905,6 +908,51 @@
          <svrl:text>efac:TenderLot/cbc:ID</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-13713-0116"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="(count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 'tenders']/number()) = 1) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) and (../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('29','30','31','32','33','34','35','36','37','E4','E5')))">
+      <svrl:text>rule|text|BR-BT-13713-0116</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-13713-LotResult" see="field:BT-13713-LotResult">
+         <svrl:text>efac:TenderLot/cbc:ID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-13713-0117"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="(((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-small']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-micro']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-med']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-sme']/number()) = 0)) or ((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-small']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-micro']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-med']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-sme']/number()) = 1))) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) and (../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('29','30','31','32','33','34','35','36','37','E4','E5')))">
+      <svrl:text>rule|text|BR-BT-13713-0117</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-13713-LotResult" see="field:BT-13713-LotResult">
+         <svrl:text>efac:TenderLot/cbc:ID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-13713-0118"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-no-eea']/number()) = 1)) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) and (../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('29','30','31','32','33','34','35','36','37','E4','E5')))">
+      <svrl:text>rule|text|BR-BT-13713-0118</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-13713-LotResult" see="field:BT-13713-LotResult">
+         <svrl:text>efac:TenderLot/cbc:ID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-13713-0119"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="(count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-esubm']/number()) = 1) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) and (../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('29','30','32','36','37')))">
+      <svrl:text>rule|text|BR-BT-13713-0119</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-13713-LotResult" see="field:BT-13713-LotResult">
+         <svrl:text>efac:TenderLot/cbc:ID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
+   <svrl:failed-assert id="BR-BT-13713-0122"
+                       location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult"
+                       role="ERROR"
+                       test="((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-oth-eea']/number()) = 1)) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode) and (../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('29','30','31','32','33','34','35','36','37','E4','E5')))">
+      <svrl:text>rule|text|BR-BT-13713-0122</svrl:text>
+      <svrl:diagnostic-reference diagnostic="BT-13713-LotResult" see="field:BT-13713-LotResult">
+         <svrl:text>efac:TenderLot/cbc:ID</svrl:text>
+      </svrl:diagnostic-reference>
+   </svrl:failed-assert>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"/>
    <svrl:failed-assert id="BR-BT-13714-0100"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender"
@@ -943,14 +991,13 @@
                        id="BR-BT-00514-0310"
                        location="/can:ContractAwardNotice/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company"
                        role="WARN"
-                       test="((cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) = ('ALB','ATF','AUT','BEL','BGR','BLM','CHE','CPT','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MDA','MKD','MLT','MNE','NCL','NLD','NOR','POL','PRT','PYF','ROU','SPM','SRB','SVK','SVN','SWE','TUR','UKR','WLF'))) or not((cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())))">
+                       test="((cac:PostalAddress/cac:Country/cbc:IdentificationCode[../../../cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())]/normalize-space(text()) = ('ALB','ATF','AUT','BEL','BGR','BIH','BLM','CHE','CPT','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GEO','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MDA','MKD','MLT','MNE','NCL','NLD','NOR','POL','PRT','PYF','ROU','SPM','SRB','SVK','SVN','SWE','TUR','UKR','WLF'))) or not((cac:PartyIdentification/cbc:ID/normalize-space(text()) = ../../../../../../../cac:ContractingParty/cac:Party/cac:PartyIdentification/cbc:ID/normalize-space(text())))">
       <svrl:text>rule|text|BR-BT-00514-0310</svrl:text>
       <svrl:diagnostic-reference diagnostic="ND-Company_BT-514-Organization-Company"
                                  see="field:BT-514-Organization-Company">
          <svrl:text>cac:PostalAddress/cac:Country/cbc:IdentificationCode</svrl:text>
       </svrl:diagnostic-reference>
    </svrl:failed-assert>
-   <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyName/cbc:Name"/>
    <svrl:active-pattern id="EFORMS-validation-stage-5m"/>
    <svrl:fired-rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID"/>
    <svrl:fired-rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID"/>

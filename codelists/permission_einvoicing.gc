@@ -6,7 +6,7 @@
       <LongName>einvoicing</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/permission</LongName>
       <LongName Identifier="eFormsParentId">permission</LongName>
-      <Version>1.13.0</Version>
+      <Version>1.14.0</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -239,7 +239,7 @@
             <SimpleValue>Non autorisée</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Éigeantach</SimpleValue>
+            <SimpleValue>Ní ceadmhach</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Nije dopušteno</SimpleValue>
@@ -319,7 +319,7 @@
             <SimpleValue>Requise</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Ní ceadmhach</SimpleValue>
+            <SimpleValue>Éigeantach</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Obvezno</SimpleValue>

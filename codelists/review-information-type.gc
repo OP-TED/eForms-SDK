@@ -4,8 +4,9 @@
    <Identification>
       <ShortName>ReviewInformationType</ShortName>
       <LongName>review-information-type</LongName>
-      <Version>1.0</Version>
-      <CanonicalUri/>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/review-information-type</LongName>
+      <Version>20241211-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/review-information-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -127,76 +128,76 @@
             <SimpleValue>Decision</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Решение </SimpleValue>
+            <SimpleValue>Решение</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Rozhodnutí </SimpleValue>
+            <SimpleValue>Rozhodnutí</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Afgørelse </SimpleValue>
+            <SimpleValue>Afgørelse</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Beschluss </SimpleValue>
+            <SimpleValue>Beschluss</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Απόφαση </SimpleValue>
+            <SimpleValue>Απόφαση</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Decision </SimpleValue>
+            <SimpleValue>Decision</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Decisión/Resolución</SimpleValue>
+            <SimpleValue>Decisión</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Otsus </SimpleValue>
+            <SimpleValue>Otsus</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Päätös </SimpleValue>
+            <SimpleValue>Päätös</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Décision </SimpleValue>
+            <SimpleValue>Décision</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Cinneadh </SimpleValue>
+            <SimpleValue>Cinneadh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>odluka </SimpleValue>
+            <SimpleValue>Odluka</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>döntés </SimpleValue>
+            <SimpleValue>Döntés</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Decisione </SimpleValue>
+            <SimpleValue>Decisione</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>sprendimas </SimpleValue>
+            <SimpleValue>Sprendimas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Lēmums </SimpleValue>
+            <SimpleValue>Lēmums</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Deċiżjoni </SimpleValue>
+            <SimpleValue>Deċiżjoni</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Besluit </SimpleValue>
+            <SimpleValue>Besluit</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>decyzja </SimpleValue>
+            <SimpleValue>Decyzja</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Decisão </SimpleValue>
+            <SimpleValue>Decisão</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Decizie </SimpleValue>
+            <SimpleValue>Decizie</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>Rozhodnutie</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Odločba </SimpleValue>
+            <SimpleValue>Odločba</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Beslut </SimpleValue>
+            <SimpleValue>Beslut</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -207,76 +208,76 @@
             <SimpleValue>Request</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Искане </SimpleValue>
+            <SimpleValue>Искане</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Žádost </SimpleValue>
+            <SimpleValue>Žádost</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Anmodning </SimpleValue>
+            <SimpleValue>Anmodning</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Beantragung </SimpleValue>
+            <SimpleValue>Beantragung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Αίτηση </SimpleValue>
+            <SimpleValue>Αίτηση</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Request </SimpleValue>
+            <SimpleValue>Request</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>Solicitud</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Taotlus </SimpleValue>
+            <SimpleValue>Taotlus</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Pyyntö </SimpleValue>
+            <SimpleValue>Pyyntö</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Demande </SimpleValue>
+            <SimpleValue>Demande</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Iarraidh </SimpleValue>
+            <SimpleValue>Iarraidh</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>zahtjev </SimpleValue>
+            <SimpleValue>Zahtjev</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>kérelem </SimpleValue>
+            <SimpleValue>Kérelem</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Richiesta </SimpleValue>
+            <SimpleValue>Richiesta</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>prašymas </SimpleValue>
+            <SimpleValue>Prašymas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Pieprasījums </SimpleValue>
+            <SimpleValue>Pieprasījums</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Talba </SimpleValue>
+            <SimpleValue>Talba</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Verzoek </SimpleValue>
+            <SimpleValue>Verzoek</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>wniosek </SimpleValue>
+            <SimpleValue>Wniosek</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Pedido </SimpleValue>
+            <SimpleValue>Pedido</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Cerere </SimpleValue>
+            <SimpleValue>Cerere</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>Žiadosť</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Vloga </SimpleValue>
+            <SimpleValue>Vloga</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Begäran </SimpleValue>
+            <SimpleValue>Begäran</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

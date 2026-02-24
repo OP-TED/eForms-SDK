@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.13.0",
+  "sdkVersion" : "1.14.0",
   "metadataDatabase" : {
-    "version" : "1.13.0",
-    "createdOn" : "2024-10-14T13:00:00"
+    "version" : "1.14.1",
+    "createdOn" : "2025-12-02T14:47:40"
   },
   "noticeId" : "4",
   "metadata" : [ {
@@ -127,7 +127,7 @@
       "nodeId" : "ND-ContractingParty",
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
-      "_label" : "group|name|ND-ContractingParty",
+      "_label" : "group|name|GR-ContractingAuthority",
       "businessEntityId" : "buyer",
       "_repeatable" : true,
       "content" : [ {
@@ -168,7 +168,7 @@
         "nodeId" : "ND-ServiceProviderParty",
         "displayType" : "GROUP",
         "description" : "Provided Service (code) and Provider (Reference to Organization)",
-        "_label" : "group|name|ND-ServiceProviderParty",
+        "_label" : "group|name|GR-Procedure-SProvider",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-300-Procedure-SProvider",
@@ -217,7 +217,7 @@
         "nodeId" : "ND-LocalLegalBasisWithID",
         "displayType" : "GROUP",
         "description" : "Legislation impacting the procurement and for which an ID is known",
-        "_label" : "group|name|ND-LocalLegalBasisWithID",
+        "_label" : "group|name|GR-Procedure-LocalLegalBasisWithID",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01(c)-Procedure",
@@ -238,7 +238,7 @@
         "nodeId" : "ND-LocalLegalBasisNoID",
         "displayType" : "GROUP",
         "description" : "Legislation impacting the procurement and for which no ID is known",
-        "_label" : "group|name|ND-LocalLegalBasisNoID",
+        "_label" : "group|name|GR-Procedure-LocalLegalBasisNoID",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-01(e)-Procedure",
@@ -256,19 +256,26 @@
           "_label" : "field|name|BT-01(f)-Procedure"
         } ]
       }, {
-        "id" : "GR-Procedure-Description",
+        "id" : "GR-Future-Notice",
         "contentType" : "group",
-        "nodeId" : "ND-ProcedureProcurementScope",
         "displayType" : "GROUP",
-        "description" : "Scope of the Procurement addressed with the whole notice",
-        "_label" : "group|name|ND-ProcedureProcurementScope",
+        "description" : "Future Notice",
+        "_label" : "group|name|GR-Future-Notice",
         "content" : [ {
           "id" : "BT-127-notice",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Future Notice",
           "_label" : "field|name|BT-127-notice"
-        }, {
+        } ]
+      }, {
+        "id" : "GR-Procedure-Description",
+        "contentType" : "group",
+        "nodeId" : "ND-ProcedureProcurementScope",
+        "displayType" : "GROUP",
+        "description" : "Scope of the Procurement addressed with the whole notice",
+        "_label" : "group|name|GR-Procedure-Description",
+        "content" : [ {
           "id" : "BT-22-Procedure",
           "contentType" : "field",
           "displayType" : "TEXTBOX",
@@ -298,7 +305,7 @@
           "nodeId" : "ND-ProcedureContractAdditionalNature",
           "displayType" : "GROUP",
           "description" : "Additional contract nature for the Procedure",
-          "_label" : "group|name|ND-ProcedureContractAdditionalNature",
+          "_label" : "group|name|GR-Procedure-Additional-Nature",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-531-Procedure",
@@ -326,7 +333,7 @@
           "nodeId" : "ND-ProcedureMainClassification",
           "displayType" : "GROUP",
           "description" : "Classification for the Main Commodity of the Procedure",
-          "_label" : "group|name|ND-ProcedureMainClassification",
+          "_label" : "group|name|GR-Procedure-Scope-MainClassification",
           "content" : [ {
             "id" : "BT-26(m)-Procedure",
             "contentType" : "field",
@@ -346,7 +353,7 @@
           "nodeId" : "ND-ProcedureAdditionalCommodityClassification",
           "displayType" : "GROUP",
           "description" : "Classification for the Additional Commodity of the Procedure",
-          "_label" : "group|name|ND-ProcedureAdditionalCommodityClassification",
+          "_label" : "group|name|GR-Procedure-Scope-AdditionalClassification",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(a)-Procedure",
@@ -368,7 +375,7 @@
         "nodeId" : "ND-ProcedurePlacePerformanceAdditionalInformation",
         "displayType" : "GROUP",
         "description" : "Additional Information about the location where the Procurement, for the Procedure as a whole, should take place",
-        "_label" : "group|name|ND-ProcedurePlacePerformanceAdditionalInformation",
+        "_label" : "group|name|GR-Procedure-PlaceOfPerformance",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-5101(a)-Procedure",
@@ -453,7 +460,7 @@
     "nodeId" : "ND-Part",
     "displayType" : "SECTION",
     "description" : "Part related information covering Tendering Terms, Tendering Process and Purpose",
-    "_label" : "group|name|ND-Part",
+    "_label" : "group|name|GR-Part",
     "_idScheme" : "PAR",
     "_schemeName" : "Part",
     "businessEntityId" : "part",
@@ -481,7 +488,7 @@
         "nodeId" : "ND-PartPreviousPlanning",
         "displayType" : "GROUP",
         "description" : "Part Previous Planning Reference",
-        "_label" : "group|name|ND-PartPreviousPlanning",
+        "_label" : "group|name|GR-Part-PreviousPlanning",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-125(i)-Part",
@@ -532,7 +539,7 @@
           "nodeId" : "ND-PartContractAdditionalNature",
           "displayType" : "GROUP",
           "description" : "Additional contract nature for the Part",
-          "_label" : "group|name|ND-PartContractAdditionalNature",
+          "_label" : "group|name|GR-Part-Additional-Nature",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-531-Part",
@@ -566,7 +573,7 @@
           "nodeId" : "ND-PartMainClassification",
           "displayType" : "GROUP",
           "description" : "Classification for the Main Commodity of a Part",
-          "_label" : "group|name|ND-PartMainClassification",
+          "_label" : "group|name|GR-Part-Scope-MainClassification",
           "content" : [ {
             "id" : "BT-26(m)-Part",
             "contentType" : "field",
@@ -586,7 +593,7 @@
           "nodeId" : "ND-PartAdditionalClassification",
           "displayType" : "GROUP",
           "description" : "Classification for an Additional Commodity of a Part",
-          "_label" : "group|name|ND-PartAdditionalClassification",
+          "_label" : "group|name|GR-Part-Scope-AdditionalClassification",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-26(a)-Part",
@@ -608,7 +615,7 @@
         "nodeId" : "ND-PartPlacePerformance",
         "displayType" : "GROUP",
         "description" : "A location where the Procurement, for the Part, should take place",
-        "_label" : "group|name|ND-PartPlacePerformance",
+        "_label" : "group|name|GR-Part-PlaceOfPerformance",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-5101(a)-Part",
@@ -721,7 +728,7 @@
           "nodeId" : "ND-PartFAContractingSystem",
           "displayType" : "GROUP",
           "description" : "FA contracting System involvement for the Part",
-          "_label" : "group|name|ND-PartFAContractingSystem",
+          "_label" : "group|name|GR-Part-FrameworkAgreement",
           "content" : [ {
             "id" : "BT-765-Part",
             "contentType" : "field",
@@ -735,7 +742,7 @@
           "nodeId" : "ND-PartDPSContractingSystem",
           "displayType" : "GROUP",
           "description" : "DPS contracting System involvement for the Part",
-          "_label" : "group|name|ND-PartDPSContractingSystem",
+          "_label" : "group|name|GR-Part-DPS",
           "content" : [ {
             "id" : "BT-766-Part",
             "contentType" : "field",
@@ -768,7 +775,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Fiscal Legislation Document ID",
-          "_label" : "field|name|OPT-111-Part-FiscalLegis"
+          "_label" : "field|name|OPT-111-Part-FiscalLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Part-EnvironLegis",
@@ -794,7 +803,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Environmental Legislation Document ID",
-          "_label" : "field|name|OPT-112-Part-EnvironLegis"
+          "_label" : "field|name|OPT-112-Part-EnvironLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Part-EmployLegis",
@@ -820,7 +831,9 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Employment Legislation Document ID",
-          "_label" : "field|name|OPT-113-Part-EmployLegis"
+          "_label" : "field|name|OPT-113-Part-EmployLegis",
+          "_presetValue" : "unused-id",
+          "hidden" : true
         } ]
       }, {
         "id" : "GR-Part-TenderReceipt",
@@ -876,7 +889,7 @@
         "nodeId" : "ND-PartReservedProcurement",
         "displayType" : "GROUP",
         "description" : "Reserved Procurement",
-        "_label" : "group|name|ND-PartReservedProcurement",
+        "_label" : "group|name|GR-Part-TendererQualification",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-71-Part",
@@ -891,7 +904,7 @@
         "nodeId" : "ND-PartReservedExecution",
         "displayType" : "GROUP",
         "description" : "Part Reserved Execution",
-        "_label" : "group|name|ND-PartReservedExecution",
+        "_label" : "group|name|GR-Part-ContractExecutionRequirements",
         "content" : [ {
           "id" : "BT-736-Part",
           "contentType" : "field",
@@ -931,7 +944,7 @@
         "nodeId" : "ND-PartProcurementDocument",
         "displayType" : "GROUP",
         "description" : "Procurement Document information for a Part, independent from the restricted aspect",
-        "_label" : "group|name|ND-PartProcurementDocument",
+        "_label" : "group|name|GR-Part-ProcurementDocuments",
         "_repeatable" : true,
         "content" : [ {
           "id" : "GR-Part-DocsAllOfficialLanguages",
@@ -939,14 +952,14 @@
           "nodeId" : "ND-PartDocAllOfficialLanguages",
           "displayType" : "GROUP",
           "description" : "Part Procurement Documents all Official Languages",
-          "_label" : "group|name|ND-PartDocAllOfficialLanguages",
+          "_label" : "group|name|GR-Part-DocsAllOfficialLanguages",
           "content" : [ {
             "id" : "GR-Part-DocsOfficialLanguage",
             "contentType" : "group",
             "nodeId" : "ND-PartDocOfficialLanguage",
             "displayType" : "GROUP",
             "description" : "Part Procurement Documents Official Language",
-            "_label" : "group|name|ND-PartDocOfficialLanguage",
+            "_label" : "group|name|GR-Part-DocsOfficialLanguage",
             "_repeatable" : true,
             "content" : [ {
               "id" : "BT-708-Part",
@@ -962,14 +975,14 @@
           "nodeId" : "ND-PartDocAllNonOfficialLanguages",
           "displayType" : "GROUP",
           "description" : "Part Procurement Documents all non Official Languages",
-          "_label" : "group|name|ND-PartDocAllNonOfficialLanguages",
+          "_label" : "group|name|GR-Part-DocsAllNonOfficialLanguages",
           "content" : [ {
             "id" : "GR-Part-DocsNonOfficialLanguage",
             "contentType" : "group",
             "nodeId" : "ND-PartDocNonOfficialLanguage",
             "displayType" : "GROUP",
             "description" : "Part Procurement Documents non Official Language",
-            "_label" : "group|name|ND-PartDocNonOfficialLanguage",
+            "_label" : "group|name|GR-Part-DocsNonOfficialLanguage",
             "_repeatable" : true,
             "content" : [ {
               "id" : "BT-737-Part",
@@ -1140,7 +1153,7 @@
       "nodeId" : "ND-Change",
       "displayType" : "GROUP",
       "description" : "Information associated to a single Change (Section, Description & Procurement Documents)",
-      "_label" : "group|name|ND-Change",
+      "_label" : "group|name|GR-ChangeSections",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ChangedSectionIdentifiers",
@@ -1148,7 +1161,7 @@
         "nodeId" : "ND-ChangedSection",
         "displayType" : "GROUP",
         "description" : "Section subject to change",
-        "_label" : "group|name|ND-ChangedSection",
+        "_label" : "group|name|GR-ChangedSectionIdentifiers",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-13716-notice",
@@ -1190,7 +1203,7 @@
       "nodeId" : "ND-Organization",
       "displayType" : "GROUP",
       "description" : "A Party involved in the Competition from either side (Buyer or Tenderer) with a Legal Entity (Company) and possibly additional Contact Points (touchpoints)",
-      "_label" : "group|name|ND-Organization",
+      "_label" : "group|name|GR-Organisations",
       "_idScheme" : "ORG",
       "_schemeName" : "organization",
       "businessEntityId" : "organization",
@@ -1224,7 +1237,7 @@
           "nodeId" : "ND-CompanyLegalEntity",
           "displayType" : "GROUP",
           "description" : "Company legal identifier",
-          "_label" : "group|name|ND-CompanyLegalEntity",
+          "_label" : "group|name|GR-Organisation-Identifier",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-501-Organization-Company",
@@ -1363,7 +1376,7 @@
         "nodeId" : "ND-Touchpoint",
         "displayType" : "GROUP",
         "description" : "Contact details associated to a given role",
-        "_label" : "group|name|ND-Touchpoint",
+        "_label" : "group|name|GR-Touch-Point",
         "_idScheme" : "TPO",
         "_schemeName" : "touchpoint",
         "businessEntityId" : "touchpoint",

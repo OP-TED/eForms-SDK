@@ -27,6 +27,22 @@
 								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
 								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>
 							</efac:SettledContract>
@@ -63,6 +79,70 @@
 								</efac:FieldsPrivacy>
 								<efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
 								<efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-typ</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-cou</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efbc:StatisticsCode listName="received-submission-type">t-sme</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-typ</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-cou</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efbc:StatisticsCode listName="received-submission-type">t-no-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-typ</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-cou</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efbc:StatisticsCode listName="received-submission-type">t-oth-eea</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+							</efac:ReceivedSubmissionsStatistics>
+							<efac:ReceivedSubmissionsStatistics>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-typ</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efac:FieldsPrivacy>
+									<efbc:FieldIdentifierCode listName="non-publication-identifier">rec-sub-cou</efbc:FieldIdentifierCode>
+									<cbc:ReasonCode listName="non-publication-justification">oth-int</cbc:ReasonCode>
+									<efbc:ReasonDescription languageID="ENG">Publication delayed because of ...</efbc:ReasonDescription>
+									<efbc:PublicationDate>2024-12-31Z</efbc:PublicationDate>
+								</efac:FieldsPrivacy>
+								<efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+								<efbc:StatisticsNumeric>1</efbc:StatisticsNumeric>
 							</efac:ReceivedSubmissionsStatistics>
 							<efac:SettledContract>
 								<cbc:ID schemeName="contract">CON-0001</cbc:ID>

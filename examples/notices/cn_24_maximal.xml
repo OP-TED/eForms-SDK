@@ -951,7 +951,7 @@
 				</cac:SpecificTendererRequirement>
 				<cac:SpecificTendererRequirement>
 					<!--BT-821-->
-					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-sub-espd</cbc:TendererRequirementTypeCode>
+					<cbc:TendererRequirementTypeCode listName="selection-criteria-source">epo-acc-espd-request</cbc:TendererRequirementTypeCode>
 				</cac:SpecificTendererRequirement>
 			</cac:TendererQualificationRequest>
 			<cac:ContractExecutionRequirement>

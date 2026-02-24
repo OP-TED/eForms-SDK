@@ -126,6 +126,12 @@
 			</cac:PartyIdentification>
 		</cac:Party>
 	</cac:ContractingParty>
+	<cac:TenderingTerms>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>LocalLegalBasis</cbc:ID>
+			<cbc:DocumentDescription languageID="ENG">Some local legal basis</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
+	</cac:TenderingTerms>
 	<cac:ProcurementProject>
 		<cbc:Name languageID="ENG">Procurement title</cbc:Name>
 		<cbc:Description languageID="ENG">Procurement description.</cbc:Description>

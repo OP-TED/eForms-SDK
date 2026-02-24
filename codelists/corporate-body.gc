@@ -5,7 +5,7 @@
       <ShortName>CorporateBody</ShortName>
       <LongName>corporate-body</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/corporate-body</LongName>
-      <Version>20240925-0</Version>
+      <Version>20250618-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/corporate-body</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -6125,79 +6125,79 @@
             <SimpleValue>FUSEN</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Fusion for Energy Joint Undertaking</SimpleValue>
+            <SimpleValue>European Joint Undertaking for ITER and the Development of Fusion Energy</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Съвместно предприятие „Fusion for Energy“</SimpleValue>
+            <SimpleValue>Европейско съвместно предприятие за „ITER“ и развитие на термоядрената енергия</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Společný podnik Fusion for Energy</SimpleValue>
+            <SimpleValue>Společný evropský podnik pro ITER a rozvoj energie z jaderné syntézy</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Fællesforetagendet Fusion for Energy</SimpleValue>
+            <SimpleValue>Europæisk fællesforetagende for ITER og fusionsenergiudvikling</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Gemeinsames Unternehmen Fusion for Energy</SimpleValue>
+            <SimpleValue>Europäisches gemeinsames Unternehmen für den ITER und die Entwicklung der Fusionsenergie</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κοινή Επιχείρηση Fusion for Energy</SimpleValue>
+            <SimpleValue>Ευρωπαϊκή κοινή επιχείρηση για τον ITER και την ανάπτυξη της ενέργειας από σύντηξη</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Fusion for Energy Joint Undertaking</SimpleValue>
+            <SimpleValue>European Joint Undertaking for ITER and the Development of Fusion Energy</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Empresa Común para el desarrollo de la energía de fusión</SimpleValue>
+            <SimpleValue>Empresa Común Europea para el ITER y el Desarrollo de la Energía de Fusión</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Ühisettevõte Fusion for Energy</SimpleValue>
+            <SimpleValue>ITERi ja tuumasünteesienergeetika arendamise Euroopa ühisettevõte</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Fusion for Energy -yhteisyritys</SimpleValue>
+            <SimpleValue>Eurooppalainen yhteisyritys ITERiä ja fuusioenergian kehittämistä varten</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Entreprise commune «Énérgie de fusion»</SimpleValue>
+            <SimpleValue>Entreprise commune européenne pour ITER et le développement de l’énergie de fusion</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Comhghnóthas “Fusion for Energy”</SimpleValue>
+            <SimpleValue>An Comhghnóthas Eorpach um ITER agus um Fhuinneamh Comhleá a Fhorbairt</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Zajedničko poduzeće „Fusion for Energy”</SimpleValue>
+            <SimpleValue>Europsko zajedničko poduzeće za ITER i razvoj energije fuzije</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Fusion for Energy közös vállalkozás</SimpleValue>
+            <SimpleValue>Fúziósenergia-fejlesztési és ITER Európai Közös Vállalkozás</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Impresa comune Fusion for Energy</SimpleValue>
+            <SimpleValue>Impresa comune europea per ITER e lo sviluppo dell’energia da fusione</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Bendroji įmonė „Fusion for Energy“</SimpleValue>
+            <SimpleValue>Europos ITER įgyvendinimo ir branduolių sintezės energetikos vystymo bendroji įmonė</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Kopuzņēmums “Fusion for Energy”</SimpleValue>
+            <SimpleValue>Eiropas Kopuzņēmums ITER un kodolsintēzes enerģētikas attīstības vajadzībām</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>L-Impriża Konġunta “Fusion for Energy”</SimpleValue>
+            <SimpleValue>L-Impriża Konġunta Ewropea għall-ITER u għall-Iżvilupp tal-Enerġija mill-Fużjoni</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Gemeenschappelijke Onderneming Fusion for Energy</SimpleValue>
+            <SimpleValue>Europese gemeenschappelijke onderneming voor ITER en de ontwikkeling van fusie-energie</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Wspólne Przedsięwzięcie „Fusion for Energy”</SimpleValue>
+            <SimpleValue>Europejskie Wspólne Przedsięwzięcie na rzecz Realizacji Projektu ITER i Rozwoju Energii Termojądrowej</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Empresa Comum Fusion for Energy</SimpleValue>
+            <SimpleValue>Empresa Comum Europeia para o ITER e o Desenvolvimento da Energia de Fusão</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Întreprinderea comună Fusion for Energy</SimpleValue>
+            <SimpleValue>Întreprinderea comună europeană pentru ITER și pentru dezvoltarea energiei de fuziune</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Spoločný podnik Fusion for Energy</SimpleValue>
+            <SimpleValue>Európsky spoločný podnik pre ITER a rozvoj energie jadrovej syntézy</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Skupno podjetje „Fuzija za energijo“</SimpleValue>
+            <SimpleValue>Evropsko skupno podjetje za ITER in razvoj fuzijske energije</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Det gemensamma företaget Fusion for Energy</SimpleValue>
+            <SimpleValue>Det europeiska gemensamma företaget för Iter och utveckling av fusionsenergi</SimpleValue>
          </Value>
       </Row>
       <Row>

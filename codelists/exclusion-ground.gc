@@ -5,7 +5,7 @@
       <ShortName>ExclusionGround</ShortName>
       <LongName>exclusion-ground</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/exclusion-ground</LongName>
-      <Version>20240925-0</Version>
+      <Version>20250618-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/exclusion-ground</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -1165,79 +1165,79 @@
             <SimpleValue>exg-mis-misrepresent</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents or obtained confidential information of this procedure</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Е виновен за погрешно представяне на информация, не е в състояние да представи необходимите документи и е получил поверителна информация във връзка с тази процедура</SimpleValue>
+            <SimpleValue>Неверни данни, укриване на информация, непредставяне на придружаващи документи или получаване на поверителна информация във връзка с процедурата</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Dopustil se zkreslení informací, odepřel informace, nemohl poskytnout požadované dokumenty a obdržel důvěrné informace o tomto postupu.</SimpleValue>
+            <SimpleValue>Zkreslení informací, zadržení informací, neschopnost poskytnout požadované podklady nebo získání důvěrných informací o tomto řízení</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Har afgivet urigtige oplysninger eller tilbageholdt oplysninger, som ikke var i stand til at fremlægge de krævede dokumenter og indhentet fortrolige oplysninger i forbindelse med denne procedure</SimpleValue>
+            <SimpleValue>Afgivelse af urigtige oplysninger, tilbageholdelse af oplysninger, ude af stand til at fremlægge de dokumenter, der anmodes om, eller indhentede fortrolige oplysninger i forbindelse med denne procedure</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Falsche Angaben, verweigerte Informationen, die nicht in der Lage sind, die erforderlichen Unterlagen vorzulegen, und haben vertrauliche Informationen über dieses Verfahren erhalten.</SimpleValue>
+            <SimpleValue>Täuschung, Zurückhaltung von Informationen, Unfähigkeit zur Vorlage erforderlicher Unterlagen oder Erlangung vertraulicher Informationen zu dem Verfahren</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ένοχος για διαστρέβλωση, απόκρυψη πληροφοριών, αδυναμία προσκόμισης των απαιτούμενων εγγράφων και απόκτηση εμπιστευτικών πληροφοριών για τη διαδικασία αυτή</SimpleValue>
+            <SimpleValue>Ψευδείς δηλώσεις, απόκρυψη πληροφοριών, ανικανότητα παροχής των απαιτούμενων εγγράφων ή λήψη πληροφοριών εμπιστευτικού χαρακτήρα που αφορούν την παρούσα διαδικασία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents and obtained confidential information of this procedure</SimpleValue>
+            <SimpleValue>Misrepresentation, withheld information, unable to provide required documents or obtained confidential information of this procedure</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Que haya incurrido en falsas declaraciones, le haya ocultado información, no esté en condiciones de facilitar los documentos necesarios y haya obtenido información confidencial sobre este procedimiento</SimpleValue>
+            <SimpleValue>Declaración falsa, ocultación de información, incapacidad de presentar los documentos exigidos u obtención de información confidencial del presente procedimiento</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Valeandmete esitamine, teabe varjamine, ei suuda esitada nõutavaid dokumente ja on saanud selle menetluse kohta konfidentsiaalset teavet</SimpleValue>
+            <SimpleValue>Valeandmete esitamine, teabe esitamata jätmine, suutmatus nõutud dokumente esitada või selle menetluse kohta konfidentsiaalse teabe saamine</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Syyllistyminen väärien tietojen antamiseen, tietojen antamatta jättämiseen, vaadittujen asiakirjojen antamiseen kykenemättömien tietojen toimittamiseen ja tätä menettelyä koskevien luottamuksellisten tietojen antamiseen</SimpleValue>
+            <SimpleValue>Väärien tietojen antaminen, tietojen salaaminen, vaadittujen asiakirjojen toimittamatta jättäminen tai tätä menettelyä koskevien luottamuksellisten tietojen saaminen</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Coupable de fausses déclarations, non-communication, n’a pas été en mesure de fournir les documents requis et a obtenu des informations confidentielles de la présente procédure</SimpleValue>
+            <SimpleValue>Fausses déclarations, dissimulation d'informations, incapacité de présenter les documents requis ou obtention d'informations confidentielles sur cette procédure</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Ciontach i mífhaisnéis, i bhfaisnéis siar, gan a bheith in ann doiciméid riachtanacha a sholáthar agus faisnéis rúnda ar an nós imeachta sin a fháil</SimpleValue>
+            <SimpleValue>Mífhaisnéis, faisnéis a coinníodh siar, gan bheith in ann doiciméid riachtanacha a sholáthar nó faisnéis rúnda a fuarthas maidir leis an nós imeachta seo</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Kriv za pogrešno prikazivanje, uskraćene informacije, nemogućnost dostavljanja traženih dokumenata i dobivanje povjerljivih informacija za taj postupak</SimpleValue>
+            <SimpleValue>Lažno prikazivanje, prikrivanje informacija, nemogućnost podnošenja traženih dokumenata ili prikupljanje povjerljivih informacija o ovom postupku</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Hamis nyilatkozatot tettek, nem tudtak információt nyújtani, nem tudták benyújtani a kért dokumentumokat, és bizalmas információkat kaptak az eljárásról</SimpleValue>
+            <SimpleValue>Hamis nyilatkozattétel, információk visszatartása vagy a megkívánt iratok be nem mutatása, illetve bizalmas információk szerzése az eljárásról</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Colpevole di false dichiarazioni, non è stato in grado di fornire i documenti richiesti e ha ottenuto informazioni riservate relative a tale procedura.</SimpleValue>
+            <SimpleValue>False dichiarazioni, omessa informazione, incapacità di fornire i documenti richiesti o acquisizione di informazioni confidenziali in merito alla procedura in questione</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Pripažinimas kaltu dėl klaidingos informacijos, negalintis pateikti reikalaujamų dokumentų ir gautas konfidencialios informacijos apie šią procedūrą</SimpleValue>
+            <SimpleValue>Faktų iškraipymas, nuslėpta informacija, negalėjimas pateikti reikalaujamų dokumentų ar su šia procedūra susijusios konfidencialios informacijos gavimas</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Kļūdaina nepatiesas informācijas sniegšana, nespēja sniegt pieprasītos dokumentus un iegūta konfidenciāla informācija šajā procedūrā</SimpleValue>
+            <SimpleValue>Nepatiesas informācijas sniegšana, informācijas noklusēšana, nespēja sniegt pieprasītos dokumentus vai iegūta konfidenciāla informācija šajā procedūrā</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Ħatja ta’ rappreżentazzjoni ħażina, informazzjoni miżmuma li ma tistax tipprovdi dokumenti meħtieġa u informazzjoni kunfidenzjali ta’ din il-proċedura</SimpleValue>
+            <SimpleValue>Dikjarazzjoni falza, informazzjoni moħbija, ma setgħux jiġu pprovduti d-dokumenti meħtieġa jew inkisbet informazzjoni kunfidenzjali ta’ din il-proċedura</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Die zich schuldig heeft gemaakt aan valse verklaringen, achterhouden van informatie, niet in staat is de vereiste documenten te verstrekken en heeft vertrouwelijke informatie over deze procedure verkregen.</SimpleValue>
+            <SimpleValue>Gaf valse verklaringen af, hield informatie achter, was niet in staat vereiste documenten te verstrekken of verkreeg vertrouwelijke informatie over deze procedure</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Winni wprowadzenia w błąd, zatajenia informacji, niemożności dostarczenia wymaganych dokumentów i uzyskania informacji poufnych w ramach tej procedury</SimpleValue>
+            <SimpleValue>Wprowadzenie w błąd, zatajenie informacji, niemożność przedstawienia wymaganych dokumentów lub uzyskanie poufnych informacji na temat przedmiotowego postępowania</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Culpados de falsas declarações, ocultando informações, incapazes de apresentar os documentos necessários e obtiveram informações confidenciais sobre este procedimento.</SimpleValue>
+            <SimpleValue>Falsas declarações, ocultação de informações, incapacidade de fornecer os documentos exigidos ou obtenção de informações confidenciais sobre o presente procedimento</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Au fost găsiți vinovați de fals în declarații, au divulgat informații, nu au putut furniza documentele necesare și au obținut informații confidențiale ale acestei proceduri</SimpleValue>
+            <SimpleValue>Interpretare eronată, nedivulgare de informații, incapacitate de a furniza documentele necesare sau obținere de informații confidențiale referitoare la această procedură</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nepravdivé informácie, neposkytnutie informácií, poskytnutie požadovaných dokumentov a získanie dôverných informácií o tomto postupe</SimpleValue>
+            <SimpleValue>Nepravdivé informácie, neposkytnutie informácií, neschopnosť predložiť požadované dokumenty alebo získanie dôverných informácií o tomto postupe</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Kriv napačnega prikazovanja podatkov, informacij, ki jih ni bilo mogoče zagotoviti, zahtevanih dokumentov in pridobljenih zaupnih informacij v tem postopku</SimpleValue>
+            <SimpleValue>Napačno prikazovanje, prikrivanje informacij, nezmožnost predložitve zahtevane dokumentacije ali pridobivanje zaupnih informacij o tem postopku</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Har lämnat felaktiga uppgifter, underlåtit att lämna de begärda handlingarna och har fått konfidentiell information om förfarandet</SimpleValue>
+            <SimpleValue>Har lämnat oriktiga uppgifter, har undanhållit information, kan inte förete de handlingar som krävs eller har tillägnat sig konfidentiell information om förfarandet</SimpleValue>
          </Value>
       </Row>
       <Row>

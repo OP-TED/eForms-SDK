@@ -48,6 +48,10 @@
 		</cac:Party>
 	</cac:ContractingParty>
 	<cac:TenderingTerms>
+		<cac:ProcurementLegislationDocumentReference>
+			<cbc:ID>LocalLegalBasis</cbc:ID>
+			<cbc:DocumentDescription languageID="ENG">Some local legal basis</cbc:DocumentDescription>
+		</cac:ProcurementLegislationDocumentReference>
 		<cac:TendererQualificationRequest>
 			<cac:SpecificTendererRequirement>
 				<cbc:TendererRequirementTypeCode listName="exclusion-grounds-source">epo-procurement-document</cbc:TendererRequirementTypeCode>
