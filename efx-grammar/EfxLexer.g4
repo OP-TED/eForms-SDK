@@ -16,6 +16,11 @@ channels { WHITESPACE }
 // Empty lines and comment lines are to be ignored by the parser.
 EmptyOrCommentLine: (TAB | SPACE)* COMMENT? EOL+ -> channel(HIDDEN);
 
+// Include directive -------------------------------------------------------------------------------
+// The #include directive is used to include the contents of another EFX rules file.
+// It switches to INCLUDE_PATH mode to capture the quoted file path.
+IncludeDirective: '#include' (TAB | SPACE)+ -> pushMode(INCLUDE_PATH);
+
 // Indentation ------------------------------------------------------------------------------------
 
 // If we find mixed indentation, we will emit a MixedIndent token indicating that the line uses a 
@@ -65,6 +70,16 @@ mode STAGE_HEADER;
 
 StageIdentifier: [a-zA-Z0-9] ([a-zA-Z0-9_-]* [a-zA-Z0-9_])?;
 StageHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
+
+/*
+ * INCLUDE_PATH mode
+ * ------------------------------------------------------------------------------------------------
+ * This mode is used to capture the file path in an #include directive.
+ * Format: #include "path/to/file.efx"
+ */
+mode INCLUDE_PATH;
+
+IncludePath: '"' ~["\r\n]+ '"' (TAB | SPACE)* COMMENT? EOL* -> popMode;
 
 /*
  * SKIP_WHITESPACE mode

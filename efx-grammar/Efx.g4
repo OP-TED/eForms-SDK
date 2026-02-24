@@ -839,7 +839,9 @@ durationSequenceVariableInitializer: Duration  Star Colon VariablePrefix variabl
  * Note: Only variable declarations are supported at global and stage level.
  * Functions and dictionaries are not supported.
  */
-rulesFile: globalVariableDeclaration* validationStage+ EOF;
+rulesFile: includeDirective* globalVariableDeclaration* (validationStage | includeDirective)+ EOF;
+
+includeDirective: IncludeDirective IncludePath;
 
 /*
  * Global variable declarations that apply across all stages.
@@ -1019,7 +1021,7 @@ noticeType
  * in which they are declared.
  */
 templateFile
-    : globalDeclaration* templateDeclaration* templateLine* otherSections? EOF
+    : includeDirective* globalDeclaration* templateDeclaration* (templateLine* | includeDirective) otherSections? EOF
     ;
 
 otherSections
@@ -1027,8 +1029,8 @@ otherSections
     | summarySection navigationSection?
     ;
 
-summarySection: SummarySectionHeader templateLine*;
-navigationSection: NavigationSectionHeader templateLine*;
+summarySection: SummarySectionHeader (templateLine* | includeDirective);
+navigationSection: NavigationSectionHeader (templateLine* | includeDirective);
 
 /* 
  * Global-declarations allow the definition of variables, dictionaries and/or functions that can be used throughout the entire template-file.
