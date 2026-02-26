@@ -195,14 +195,14 @@
 		<assert id="BR-BT-00728-0242" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00728-0242</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-		<assert id="BR-BT-00027-0215" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00027-0215</assert>
+		<assert id="BR-BT-00027-0215" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00027-0215</assert>
 		<assert id="BT-27-Procedure-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-27-Procedure-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID">
 		<assert id="BR-BT-00027-0206" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XCG', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00027-0206</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount">
-		<assert id="BR-BT-00271-0213" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00271-0213</assert>
+		<assert id="BR-BT-00271-0213" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00271-0213</assert>
 		<assert id="BT-271-Procedure-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-271-Procedure-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount/@currencyID">
@@ -372,14 +372,14 @@
 		<assert id="BR-BT-00728-0240" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00728-0240</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-		<assert id="BR-BT-00027-0212" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00027-0212</assert>
+		<assert id="BR-BT-00027-0212" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00027-0212</assert>
 		<assert id="BT-27-Lot-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-27-Lot-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID">
 		<assert id="BR-BT-00027-0203" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XCG', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00027-0203</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount">
-		<assert id="BR-BT-00271-0211" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00271-0211</assert>
+		<assert id="BR-BT-00271-0211" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00271-0211</assert>
 		<assert id="BT-271-Lot-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-271-Lot-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount/@currencyID">
@@ -863,7 +863,7 @@
 		<assert id="BR-BT-00044-0073_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00044-0073_min</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount">
-		<assert id="BR-BT-00644-0055" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00644-0055</assert>
+		<assert id="BR-BT-00644-0055" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00644-0055</assert>
 		<assert id="BT-644-Lot-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-644-Lot-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount/@currencyID">
@@ -1224,14 +1224,14 @@
 		<assert id="BT-137-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-137-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-		<assert id="BR-BT-00027-0213" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00027-0213</assert>
+		<assert id="BR-BT-00027-0213" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00027-0213</assert>
 		<assert id="BT-27-LotsGroup-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-27-LotsGroup-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID">
 		<assert id="BR-BT-00027-0204" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XCG', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00027-0204</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount">
-		<assert id="BR-BT-00271-0212" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00271-0212</assert>
+		<assert id="BR-BT-00271-0212" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00271-0212</assert>
 		<assert id="BT-271-LotsGroup-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-271-LotsGroup-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount/@currencyID">
@@ -1262,7 +1262,7 @@
 		<assert id="BR-BT-00726-0154" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00726-0154</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:EstimatedMaximumValueAmount">
-		<assert id="BR-BT-00157-0068" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00157-0068</assert>
+		<assert id="BR-BT-00157-0068" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00157-0068</assert>
 		<assert id="BT-157-LotsGroup-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-157-LotsGroup-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:EstimatedMaximumValueAmount/@currencyID">
@@ -1590,7 +1590,7 @@
 		<assert id="BR-BT-00728-0241" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00728-0241</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-		<assert id="BR-BT-00027-0214" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00027-0214</assert>
+		<assert id="BR-BT-00027-0214" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00027-0214</assert>
 		<assert id="BT-27-Part-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-27-Part-Currency_MA</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID">
@@ -2120,7 +2120,7 @@
 		<assert id="BR-BT-00789-0051" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00789-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:FeeAmount">
-		<assert id="BR-BT-00795-0054" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00795-0054</assert>
+		<assert id="BR-BT-00795-0054" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00795-0054</assert>
 		<assert id="BT-795-Review-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-795-Review-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:FeeAmount/@currencyID">
@@ -2172,7 +2172,7 @@
 		<assert id="BT-784-Review_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-784-Review_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealRemedyValue">
-		<assert id="BR-BT-00793-0055" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00793-0055</assert>
+		<assert id="BR-BT-00793-0055" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00793-0055</assert>
 		<assert id="BT-793-Review-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-793-Review-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealRemedyValue/@currencyID">
@@ -2259,7 +2259,7 @@
 		<assert id="BT-1501_c_-Contract_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-1501_c_-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:TotalAmount">
-		<assert id="BR-BT-00161-0061" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00161-0061</assert>
+		<assert id="BR-BT-00161-0061" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00161-0061</assert>
 		<assert id="BT-161-NoticeResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-161-NoticeResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:TotalAmount/@currencyID">
@@ -2378,14 +2378,14 @@
 		<assert id="BT-556-NoticeResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-556-NoticeResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkMaximumValueAmount">
-		<assert id="BR-BT-00156-0069" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00156-0069</assert>
+		<assert id="BR-BT-00156-0069" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00156-0069</assert>
 		<assert id="BT-156-NoticeResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-156-NoticeResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkMaximumValueAmount/@currencyID">
 		<assert id="BR-BT-00156-0065" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XCG', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00156-0065</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkReestimatedValueAmount">
-		<assert id="BR-BT-01561-0067" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-01561-0067</assert>
+		<assert id="BR-BT-01561-0067" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-01561-0067</assert>
 		<assert id="BT-1561-NoticeResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-1561-NoticeResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkReestimatedValueAmount/@currencyID">
@@ -2400,7 +2400,7 @@
 		<assert id="OPT-301-LotResult-Paying_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-301-LotResult-Paying_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:HigherTenderAmount">
-		<assert id="BR-BT-00711-0057" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00711-0057</assert>
+		<assert id="BR-BT-00711-0057" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00711-0057</assert>
 		<assert id="BT-711-LotResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-711-LotResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:HigherTenderAmount/@currencyID">
@@ -2411,7 +2411,7 @@
 		<assert id="OPT-322-LotResult_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-322-LotResult_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:LowerTenderAmount">
-		<assert id="BR-BT-00710-0104" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00710-0104</assert>
+		<assert id="BR-BT-00710-0104" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00710-0104</assert>
 		<assert id="BT-710-LotResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-710-LotResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:LowerTenderAmount/@currencyID">
@@ -2568,7 +2568,7 @@
 		<assert id="BR-BT-00196-4509" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00196-4509</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount">
-		<assert id="BR-BT-00709-0060" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00709-0060</assert>
+		<assert id="BR-BT-00709-0060" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00709-0060</assert>
 		<assert id="BT-709-LotResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-709-LotResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount/@currencyID">
@@ -2611,7 +2611,7 @@
 		<assert id="BR-BT-00196-4544" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00196-4544</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efbc:ReestimatedValueAmount">
-		<assert id="BR-BT-00660-0060" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00660-0060</assert>
+		<assert id="BR-BT-00660-0060" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00660-0060</assert>
 		<assert id="BT-660-LotResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-660-LotResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efbc:ReestimatedValueAmount/@currencyID">
@@ -2737,7 +2737,7 @@
 		<assert id="BR-BT-00119-0054" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00119-0054</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cac:LegalMonetaryTotal/cbc:PayableAmount">
-		<assert id="BR-BT-00720-0061" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00720-0061</assert>
+		<assert id="BR-BT-00720-0061" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00720-0061</assert>
 		<assert id="BT-720-Tender-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-720-Tender-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cac:LegalMonetaryTotal/cbc:PayableAmount/@currencyID">
@@ -2753,7 +2753,7 @@
 		<assert id="BR-BT-00171-0060_min" role="ERROR" test="number(normalize-space(.)) ge number('0')">rule|text|BR-BT-00171-0060_min</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/cbc:PaidAmount">
-		<assert id="BR-BT-00779-0055" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00779-0055</assert>
+		<assert id="BR-BT-00779-0055" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00779-0055</assert>
 		<assert id="BT-779-Tender-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-779-Tender-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/cbc:PaidAmount/@currencyID">
@@ -2766,7 +2766,7 @@
 		<assert id="BR-BT-00780-0055" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00780-0055</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PenaltiesAmount">
-		<assert id="BR-BT-00782-0055" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00782-0055</assert>
+		<assert id="BR-BT-00782-0055" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00782-0055</assert>
 		<assert id="BT-782-Tender-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-782-Tender-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PenaltiesAmount/@currencyID">
@@ -2827,14 +2827,14 @@
 		<assert id="BR-BT-00196-4516" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00196-4516</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueBuyerAmount">
-		<assert id="BR-BT-00160-0056" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00160-0056</assert>
+		<assert id="BR-BT-00160-0056" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00160-0056</assert>
 		<assert id="BT-160-Tender-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-160-Tender-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueBuyerAmount/@currencyID">
 		<assert id="BR-BT-00160-0054" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XCG', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-00160-0054</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueUserAmount">
-		<assert id="BR-BT-00162-0056" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00162-0056</assert>
+		<assert id="BR-BT-00162-0056" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00162-0056</assert>
 		<assert id="BT-162-Tender-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-162-Tender-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueUserAmount/@currencyID">
@@ -3062,7 +3062,7 @@
 		<assert id="BR-BT-00731-0068" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00731-0068</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount">
-		<assert id="BR-BT-00553-0073" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00553-0073</assert>
+		<assert id="BR-BT-00553-0073" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00553-0073</assert>
 		<assert id="BT-553-Tender-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-553-Tender-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount/@currencyID">
@@ -3197,14 +3197,14 @@
 		<assert id="BR-OPT-00170-0070" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-OPT-00170-0070</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efbc:OverallApproximateFrameworkContractsAmount">
-		<assert id="BR-BT-01118-0103" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-01118-0103</assert>
+		<assert id="BR-BT-01118-0103" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-01118-0103</assert>
 		<assert id="BT-1118-NoticeResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-1118-NoticeResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efbc:OverallApproximateFrameworkContractsAmount/@currencyID">
 		<assert id="BR-BT-01118-0101" role="ERROR" test="normalize-space(.) = ('AED', 'AFN', 'ALL', 'AMD', 'ANG', 'AOA', 'ARS', 'AUD', 'AWG', 'AZN', 'BAM', 'BBD', 'BDT', 'BGN', 'BHD', 'BIF', 'BMD', 'BND', 'BOB', 'BRL', 'BSD', 'BTN', 'BWP', 'BYN', 'BZD', 'CAD', 'CDF', 'CHF', 'CLP', 'CNY', 'COP', 'CRC', 'CUP', 'CVE', 'CZK', 'DJF', 'DKK', 'DOP', 'DZD', 'EGP', 'ERN', 'ETB', 'EUR', 'FJD', 'FKP', 'GBP', 'GEL', 'GHS', 'GIP', 'GMD', 'GNF', 'GTQ', 'GYD', 'HKD', 'HNL', 'HTG', 'HUF', 'IDR', 'ILS', 'INR', 'IQD', 'IRR', 'ISK', 'JMD', 'JOD', 'JPY', 'KES', 'KGS', 'KHR', 'KMF', 'KPW', 'KRW', 'KWD', 'KYD', 'KZT', 'LAK', 'LBP', 'LKR', 'LRD', 'LSL', 'LYD', 'MAD', 'MDL', 'MGA', 'MKD', 'MMK', 'MNT', 'MOP', 'MRU', 'MUR', 'MVR', 'MWK', 'MXN', 'MYR', 'MZN', 'NAD', 'NGN', 'NIO', 'NOK', 'NPR', 'NZD', 'OMR', 'PAB', 'PEN', 'PGK', 'PHP', 'PKR', 'PLN', 'PYG', 'QAR', 'RON', 'RSD', 'RUB', 'RWF', 'SAR', 'SBD', 'SCR', 'SDG', 'SEK', 'SGD', 'SHP', 'SLE', 'SOS', 'SRD', 'SSP', 'STN', 'SVC', 'SYP', 'SZL', 'THB', 'TJS', 'TMT', 'TND', 'TOP', 'TRY', 'TTD', 'TWD', 'TZS', 'UAH', 'UGX', 'USD', 'USN', 'UYU', 'UZS', 'VES', 'VND', 'VUV', 'WST', 'XAF', 'XCD', 'XCG', 'XOF', 'XPF', 'YER', 'ZAR', 'ZMW')">rule|text|BR-BT-01118-0101</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efbc:OverallMaximumFrameworkContractsAmount">
-		<assert id="BR-BT-00118-0103" role="ERROR" test="matches(normalize-space(.),'^-?\d+(.\d{2})?$')">rule|text|BR-BT-00118-0103</assert>
+		<assert id="BR-BT-00118-0103" role="ERROR" test="matches(normalize-space(.),'^-?\d+(\.\d{1,2})?$')">rule|text|BR-BT-00118-0103</assert>
 		<assert id="BT-118-NoticeResult-Currency_MA" role="ERROR" test="count(@currencyID) > 0">rule|text|BT-118-NoticeResult-Currency_MA</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efbc:OverallMaximumFrameworkContractsAmount/@currencyID">
