@@ -704,12 +704,10 @@ lateBoundExpression
 lateBoundSequence
     : OpenParenthesis lateBoundSequence CloseParenthesis
     | lateBoundSequenceFromIteration
-    | lateBoundSequenceFromConcatenatedIterations
     | lateBoundSequenceReference
     ;
 
-lateBoundSequenceFromIteration: For iteratorList Return Distinct? lateBoundScalar;
-lateBoundSequenceFromConcatenatedIterations: For iteratorList Return Distinct? lateBoundSequence;
+lateBoundSequenceFromIteration: For iteratorList Return Distinct? lateBoundExpression;
 
 lateBoundSequenceReference
     : attributeReference        # sequenceFromAttributeReference 
