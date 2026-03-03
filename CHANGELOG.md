@@ -1,3 +1,9 @@
+# SDK 1.14.2 Release Notes
+
+Update of pattern-matching rules for amount fields inter alia to allow for negative amounts.
+
+A comprehensive list of changes between SDK 1.14.1 and SDK 1.14.2 can be seen at <https://github.com/OP-TED/eForms-SDK/compare/1.14.1...1.14.2>
+
 # SDK 1.14.1 Release Notes
 
 This release corrects label identifiers in the snippets under the ".ted" folder.
