@@ -1,0 +1,24 @@
+--- STAGE 1a ---
+
+WITH ND-Root
+  ASSERT OPP-070-notice is present
+    AS ERROR R-TMP-001
+    FOR OPP-070-notice
+    IN *
+  ASSERT BT-137-Lot is not present // ND-Lot
+    AS ERROR R-TMP-002
+    FOR BT-137-Lot // ND-Lot
+    IN 1-6,E2,X01,X02
+  ASSERT BT-137-Lot is present // ND-Lot
+    AS ERROR R-TMP-003
+    FOR BT-137-Lot // ND-Lot
+    IN 7-40,E3-E6,T01,T02
+  ASSERT BT-137-Part is not present // ND-Part
+    AS ERROR R-TMP-004
+    FOR BT-137-Part // ND-Lot
+    IN 7-40,E3-E6,T01,T02,X01,X02
+  ASSERT BT-137-Part is present // ND-Part
+    AS ERROR R-TMP-005
+    FOR BT-137-Part // ND-Part
+    IN 4-6,E2
+;

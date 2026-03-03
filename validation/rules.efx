@@ -1,3 +1,5 @@
+#include "stage-1a.efx"
+
 --- STAGE 2a ---
 
 WITH ND-AcceleratedProcedure
@@ -24597,6 +24599,8 @@ WITH ND-WinningTenderVariantUnpublish
     IN 29,30,31,32,33,34,35,36,37,E4,E5
 ;
 
+#include "stage-4m.efx"
+
 --- STAGE 5 ---
 
 WITH BT-137-Lot
@@ -26384,4 +26388,6 @@ WITH OPT-322-LotResult
     FOR OPT-322-LotResult
     IN *
 ;
+
+#include "stage-5m.efx"
 
