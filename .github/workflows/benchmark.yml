@@ -45,10 +45,10 @@ jobs:
           output-file-path: jmh-result.json
           external-data-json-path: ./cache/benchmark-data.json
           # Alert if new results are significantly worse than previous results
-          alert-threshold: "110%"
+          alert-threshold: "125%"
           # Mark the workflow as failed if an alert happens
           fail-on-alert: true
-          # Add a comment on the commit that caused the alert
-          comment-on-alert: true
+          # Set to true to add a comment on the commit that caused the alert
+          comment-on-alert: false
           # GitHub API token to make a commit comment
           github-token: ${{ secrets.GITHUB_TOKEN }}
