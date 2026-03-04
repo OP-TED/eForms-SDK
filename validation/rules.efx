@@ -19996,11 +19996,6 @@ WITH ND-Company
     AS ERROR R-5DD-4SZ
     FOR BT-165-Organization-Company
     IN 25,26,27,28,29,30,31,32,33,34,35,36,37,E4,E5
-  WHEN (OPT-200-Organization-Company in OPT-300-Tenderer[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]]) or (OPT-200-Organization-Company in OPT-301-Tenderer-SubCont[OPT-210-Tenderer in OPT-310-Tender[OPT-321-Tender in BT-3202-Contract]])
-  ASSERT BT-165-Organization-Company is present
-    AS ERROR R-VSP-FAU
-    FOR BT-165-Organization-Company
-    IN 29,30,32,33,34,35,36,37
   WHEN (OPT-200-Organization-Company in OPT-300-Procedure-Buyer)
   ASSERT BT-503-Organization-Company is present
     AS ERROR R-2YU-B6H
@@ -21529,16 +21524,6 @@ WITH ND-LotTender
     AS ERROR R-9BM-TKK
     FOR BT-1711-Tender
     IN E4,E5
-  WHEN OPT-321-Tender in OPT-320-LotResult[BT-142-LotResult == 'clos-nw']
-  ASSERT BT-193-Tender is not present
-    AS ERROR R-UX9-G3Z
-    FOR BT-193-Tender
-    IN 29,30,31,32,33,34,35,36,37,E4,E5
-  WHEN not(OPT-321-Tender in OPT-320-LotResult[BT-142-LotResult == 'clos-nw'])
-  ASSERT BT-193-Tender is present
-    AS ERROR R-RXE-7FY
-    FOR BT-193-Tender
-    IN 30
   WHEN OPT-321-Tender is not present
   ASSERT BT-3201-Tender is not present
     AS ERROR R-NFG-Q6C
@@ -21559,21 +21544,6 @@ WITH ND-LotTender
     AS ERROR R-MME-NAD
     FOR BT-682-Tender
     IN 29,30,32,33,34,35,36,37
-  WHEN OPT-321-Tender in OPT-320-LotResult[BT-142-LotResult == 'open-nw']
-  ASSERT BT-720-Tender is not present
-    AS ERROR R-ITV-OQC
-    FOR BT-720-Tender
-    IN 29,30,31,32,33,34,35,E4
-  WHEN (OPT-321-Tender in OPT-320-LotResult[(BT-142-LotResult == 'selec-w') and (BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ['fa-mix','fa-w-rc','fa-wo-rc']])]) or (OPT-321-Tender in OPT-320-LotResult[(BT-142-LotResult == 'selec-w') and (BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ['fa-mix','fa-w-rc','fa-wo-rc']])] and OPT-321-Tender in BT-3202-Contract[(BT-768-Contract == TRUE)])
-  ASSERT BT-720-Tender is present
-    AS ERROR R-BEJ-XAH
-    FOR BT-720-Tender
-    IN 29,30,31,32,33,34,35
-  WHEN (OPT-321-Tender in OPT-320-LotResult[(BT-13713-LotResult in BT-137-Lot[BT-765-Lot not in ['fa-mix','fa-w-rc','fa-wo-rc']])]) or (OPT-321-Tender in OPT-320-LotResult[(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ['fa-mix','fa-w-rc','fa-wo-rc']])] and OPT-321-Tender in BT-3202-Contract[(BT-768-Contract == TRUE)])
-  ASSERT BT-720-Tender is present
-    AS ERROR R-R72-91M
-    FOR BT-720-Tender
-    IN 38,39,E6
   WHEN OPT-321-Tender is not present
   ASSERT BT-773-Tender is not present
     AS ERROR R-Y99-JBR
@@ -24603,13 +24573,6 @@ WITH ND-WinningTenderVariantUnpublish
 
 --- STAGE 5 ---
 
-WITH BT-137-Lot
-  ASSERT BT-137-Lot is unique in /BT-137-Lot
-    AS ERROR R-1HR-H3Z
-    FOR BT-137-Lot
-    IN *
-;
-
 WITH BT-137-LotsGroup
   ASSERT BT-137-LotsGroup is unique in /BT-137-LotsGroup
     AS ERROR R-32L-00H
@@ -24621,13 +24584,6 @@ WITH BT-137-Part
   ASSERT BT-137-Part is unique in /BT-137-Part
     AS ERROR R-FWR-VUW
     FOR BT-137-Part
-    IN *
-;
-
-WITH BT-150-Contract
-  ASSERT BT-150-Contract is unique in /BT-150-Contract
-    AS ERROR R-GWG-PBV
-    FOR BT-150-Contract
     IN *
 ;
 
@@ -25034,13 +24990,6 @@ WITH BT-198(BT-88)-Procedure
   ASSERT ((OPP-070-notice in ['25','26','27','28','29','30','31','32','E4','33','34','35','E5']) and ((BT-198(BT-88)-Procedure - BT-05(a)-notice) < P10Y) and ((BT-198(BT-88)-Procedure - BT-05(a)-notice) >= P2D)) or not(OPP-070-notice in ['25','26','27','28','29','30','31','32','E4','33','34','35','E5'])
     AS ERROR R-KC0-S5R
     FOR BT-198(BT-88)-Procedure
-    IN *
-;
-
-WITH BT-22-Lot
-  ASSERT BT-22-Lot is unique in /BT-22-Lot
-    AS ERROR R-KW3-NRX
-    FOR BT-22-Lot
     IN *
 ;
 
@@ -25533,26 +25482,6 @@ WITH ND-LotResult
   ASSERT BT-710-LotResult/@currencyID == BT-711-LotResult/@currencyID
     AS ERROR R-7DT-YS4
     FOR BT-710-LotResult
-    IN *
-  WHEN OPT-301-LotResult-Financing is present
-  ASSERT every text:$financing in OPT-301-LotResult-Financing satisfies ($financing in /OPT-200-Organization-Company)
-    AS ERROR R-OYW-GFQ
-    FOR OPT-301-LotResult-Financing
-    IN *
-  WHEN OPT-301-LotResult-Paying is present
-  ASSERT every text:$payer in OPT-301-LotResult-Paying satisfies ($payer in /OPT-200-Organization-Company)
-    AS ERROR R-7RA-6G3
-    FOR OPT-301-LotResult-Paying
-    IN *
-  WHEN OPT-315-LotResult is present
-  ASSERT every text:$contract in OPT-315-LotResult satisfies ($contract in OPT-316-Contract)
-    AS ERROR R-AL8-1DG
-    FOR OPT-315-LotResult
-    IN *
-  WHEN OPT-320-LotResult is present
-  ASSERT every text:$tender in OPT-320-LotResult satisfies ($tender in OPT-321-Tender)
-    AS ERROR R-XDN-62E
-    FOR OPT-320-LotResult
     IN *
 ;
 
@@ -26132,21 +26061,6 @@ WITH ND-SettledContract
     AS ERROR R-3AC-QC0
     FOR BT-1451-Contract
     IN *
-  WHEN BT-3202-Contract is present
-  ASSERT every text:$tender in BT-3202-Contract satisfies ($tender in /OPT-321-Tender)
-    AS ERROR R-BHP-KX2
-    FOR BT-3202-Contract
-    IN *
-  WHEN OPT-300-Contract-Signatory is present
-  ASSERT every text:$signatory in OPT-300-Contract-Signatory satisfies ($signatory in /OPT-200-Organization-Company)
-    AS ERROR R-4ZU-5UE
-    FOR OPT-300-Contract-Signatory
-    IN *
-  WHEN OPP-070-notice in ['29','30','31','32','E4','T02','33','34','35','36','37','E5']
-  ASSERT (OPT-316-Contract in OPT-315-LotResult)
-    AS ERROR R-SQ6-RY1
-    FOR OPT-316-Contract
-    IN *
 ;
 
 WITH ND-SubContractor
@@ -26160,10 +26074,6 @@ WITH ND-SubContractor
 WITH ND-TenderingParty
   ASSERT ((count(OPT-300-Tenderer) > 1) and (count(OPT-170-Tenderer[OPT-170-Tenderer == TRUE]) == 1)) or not(count(OPT-300-Tenderer) > 1)
     AS ERROR R-ICG-3OZ
-    FOR OPT-210-Tenderer
-    IN *
-  ASSERT (OPT-210-Tenderer in OPT-310-Tender)
-    AS ERROR R-I69-9RH
     FOR OPT-210-Tenderer
     IN *
   ASSERT every text:$addInfo in /OPT-301-Lot-AddInfo satisfies $addInfo not in OPT-300-Tenderer
@@ -26326,13 +26236,6 @@ WITH OPP-105-Business
     IN *
 ;
 
-WITH OPT-200-Organization-Company
-  ASSERT OPT-200-Organization-Company is unique in /OPT-200-Organization-Company
-    AS ERROR R-3J3-U4M
-    FOR OPT-200-Organization-Company
-    IN *
-;
-
 WITH OPT-201-Organization-TouchPoint
   ASSERT OPT-201-Organization-TouchPoint is unique in /OPT-201-Organization-TouchPoint
     AS ERROR R-6XT-MLN
@@ -26347,13 +26250,6 @@ WITH OPT-202-UBO
     IN *
 ;
 
-WITH OPT-210-Tenderer
-  ASSERT OPT-210-Tenderer is unique in /OPT-210-Tenderer
-    AS ERROR R-CIN-QX3
-    FOR OPT-210-Tenderer
-    IN *
-;
-
 WITH OPT-300-Procedure-Buyer
   ASSERT OPT-300-Procedure-Buyer is unique in /OPT-300-Procedure-Buyer
     AS ERROR R-VKG-S6A
@@ -26361,31 +26257,10 @@ WITH OPT-300-Procedure-Buyer
     IN *
 ;
 
-WITH OPT-316-Contract
-  ASSERT OPT-316-Contract is unique in /OPT-316-Contract
-    AS ERROR R-RKO-4E9
-    FOR OPT-316-Contract
-    IN *
-;
-
 WITH OPT-320-LotResult
   ASSERT every text:$resultTender in OPT-320-LotResult, text:$resultLot in BT-13713-LotResult, text:$tenderLot in BT-13714-Tender[OPT-321-Tender == $resultTender] satisfies (($resultLot == $tenderLot) or ($resultLot in BT-1375-Procedure[BT-330-Procedure == $tenderLot]))
     AS ERROR R-QGS-DVQ
     FOR OPT-320-LotResult
-    IN *
-;
-
-WITH OPT-321-Tender
-  ASSERT OPT-321-Tender is unique in /OPT-321-Tender
-    AS ERROR R-WL9-LZO
-    FOR OPT-321-Tender
-    IN *
-;
-
-WITH OPT-322-LotResult
-  ASSERT OPT-322-LotResult is unique in /OPT-322-LotResult
-    AS ERROR R-Z2E-TR8
-    FOR OPT-322-LotResult
     IN *
 ;
 
