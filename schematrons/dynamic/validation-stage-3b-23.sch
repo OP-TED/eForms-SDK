@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database-->
+<?xml version="1.0" encoding="UTF-8"?>
 <pattern id="EFORMS-validation-stage-3b-23" xmlns="http://purl.oclc.org/dsdl/schematron">
-	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '23']">
-		<assert id="BR-BT-00105-0143" role="ERROR" test="normalize-space(.) = ('open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0143</assert>
-	</rule>
-	<rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '23']">
-		<assert id="BR-BT-00001-0233" role="ERROR" test="normalize-space(.) = ('32014L0024', '32024R2509', 'other')">rule|text|BR-BT-00001-0233</assert>
-	</rule>
+    <rule context="/*/cbc:RegulatoryDomain">
+        <assert id="R-FI1-CV2" role="ERROR" test="./normalize-space(text()) = ('32014L0024','32024R2509','other')">rule|text|R-FI1-CV2</assert>
+    </rule>
+    <rule context="/*/cac:TenderingProcess/cbc:ProcedureCode">
+        <assert id="R-F3Z-WR6" role="ERROR" test="./normalize-space(text()) = ('open','oth-mult','oth-single','restricted')">rule|text|R-F3Z-WR6</assert>
+    </rule>
 </pattern>

@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database-->
+<?xml version="1.0" encoding="UTF-8"?>
 <pattern id="EFORMS-validation-stage-3b-30" xmlns="http://purl.oclc.org/dsdl/schematron">
-	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '30']">
-		<assert id="BR-BT-00105-0150" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'neg-wo-call', 'open', 'oth-mult', 'oth-single', 'restricted')">rule|text|BR-BT-00105-0150</assert>
-	</rule>
-	<rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '30']">
-		<assert id="BR-BT-00001-0240" role="ERROR" test="normalize-space(.) = ('32014L0025', 'other')">rule|text|BR-BT-00001-0240</assert>
-	</rule>
+    <rule context="/*/cbc:RegulatoryDomain">
+        <assert id="R-P61-VCH" role="ERROR" test="./normalize-space(text()) = ('32014L0025','other')">rule|text|R-P61-VCH</assert>
+    </rule>
+    <rule context="/*/cac:TenderingProcess/cbc:ProcedureCode">
+        <assert id="R-658-4VI" role="ERROR" test="./normalize-space(text()) = ('comp-dial','innovation','neg-w-call','neg-wo-call','open','oth-mult','oth-single','restricted')">rule|text|R-658-4VI</assert>
+    </rule>
 </pattern>

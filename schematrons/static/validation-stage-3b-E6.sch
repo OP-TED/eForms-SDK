@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database-->
+<?xml version="1.0" encoding="UTF-8"?>
 <pattern id="EFORMS-validation-stage-3b-E6" xmlns="http://purl.oclc.org/dsdl/schematron">
-	<rule context="/*/cbc:RegulatoryDomain[$noticeSubType = 'E6']">
-		<assert id="BR-BT-00001-0258" role="ERROR" test="normalize-space(.) = ('32009L0081', 'other')">rule|text|BR-BT-00001-0258</assert>
-	</rule>
+    <rule context="/*/cbc:RegulatoryDomain">
+        <assert id="R-2PZ-A2E" role="ERROR" test="./normalize-space(text()) = ('32009L0081','other')">rule|text|R-2PZ-A2E</assert>
+    </rule>
 </pattern>

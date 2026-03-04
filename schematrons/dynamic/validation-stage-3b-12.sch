@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!--File generated from metadata database-->
+<?xml version="1.0" encoding="UTF-8"?>
 <pattern id="EFORMS-validation-stage-3b-12" xmlns="http://purl.oclc.org/dsdl/schematron">
-	<rule context="/*/cac:TenderingProcess/cbc:ProcedureCode[$noticeSubType = '12']">
-		<assert id="BR-BT-00105-0131" role="ERROR" test="normalize-space(.) = ('comp-dial', 'innovation', 'neg-w-call', 'oth-mult', 'restricted')">rule|text|BR-BT-00105-0131</assert>
-	</rule>
-	<rule context="/*/cbc:RegulatoryDomain[$noticeSubType = '12']">
-		<assert id="BR-BT-00001-0221" role="ERROR" test="normalize-space(.) = ('32014L0024', '32024R2509', 'other')">rule|text|BR-BT-00001-0221</assert>
-	</rule>
+    <rule context="/*/cbc:RegulatoryDomain">
+        <assert id="R-XTC-324" role="ERROR" test="./normalize-space(text()) = ('32014L0024','32024R2509','other')">rule|text|R-XTC-324</assert>
+    </rule>
+    <rule context="/*/cac:TenderingProcess/cbc:ProcedureCode">
+        <assert id="R-QF5-3JJ" role="ERROR" test="./normalize-space(text()) = ('comp-dial','innovation','neg-w-call','oth-mult','restricted')">rule|text|R-QF5-3JJ</assert>
+    </rule>
 </pattern>
