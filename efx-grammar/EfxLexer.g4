@@ -308,6 +308,9 @@ False: 'FALSE';
 Error: 'ERROR';
 Warning: 'WARNING';
 Info: 'INFO';
+Scope: 'SCOPE';
+Pre: '@PRE';
+Post: '@POST';
 Notice: 'notice';
 Codelist: 'codelist';
 Code: 'code';
@@ -430,9 +433,9 @@ FieldId: FieldIdentifier;// | FieldAlias;
 NodeId: NodeIdentifier;// | NodeAlias;
 
 VariablePrefix: DOLLAR -> pushMode(IDENTIFIER);
-AttributePrefix: AT;
-CodelistPrefix: SHARP -> pushMode(IDENTIFIER);
-FunctionPrefix: '?';
+AtPrefix: AT -> pushMode(IDENTIFIER);
+HashPrefix: SHARP -> pushMode(IDENTIFIER);
+FunctionPrefix: '?' -> pushMode(IDENTIFIER);
 
 BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
 FieldIdentifier: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
