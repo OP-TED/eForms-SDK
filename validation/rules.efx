@@ -20632,7 +20632,7 @@ WITH ND-Lot
     AS ERROR R-JU1-PZN
     FOR BT-50-Lot
     IN 16
-  WHEN not(BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] and (BT-1311(d)-Lot is not present))
+  WHEN not(BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] or (BT-1311(d)-Lot is present))
   ASSERT BT-630(d)-Lot is present
     AS ERROR R-CBB-WWU
     FOR BT-630(d)-Lot
@@ -21652,7 +21652,7 @@ WITH ND-LotTenderingProcess
     AS ERROR R-DY9-ZHL
     FOR BT-131(t)-Lot
     IN 7,8,16,17,18,19,20,21,22,23,24,E3
-  WHEN BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] and (BT-630(d)-Lot is not present)
+  WHEN BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] or (BT-630(d)-Lot is present)
   ASSERT BT-1311(d)-Lot is not present
     AS ERROR R-3FA-SU7
     FOR BT-1311(d)-Lot
@@ -21667,7 +21667,7 @@ WITH ND-LotTenderingProcess
     AS ERROR R-K3O-09N
     FOR BT-1311(d)-Lot
     IN 7,8,9
-  WHEN not(BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] and (BT-630(d)-Lot is not present))
+  WHEN not(BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] or (BT-630(d)-Lot is present))
   ASSERT BT-1311(d)-Lot is present
     AS ERROR R-DNL-UIB
     FOR BT-1311(d)-Lot
@@ -21740,7 +21740,7 @@ WITH ND-LotTenderingProcess
 ;
 
 WITH ND-LotTenderingProcessExtension
-  WHEN BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] and (BT-1311(d)-Lot is not present)
+  WHEN BT-105-Procedure not in ['restricted','neg-w-call','comp-dial','innovation','oth-mult'] or (BT-1311(d)-Lot is present)
   ASSERT BT-630(d)-Lot is not present
     AS ERROR R-L9R-6KD
     FOR BT-630(d)-Lot
