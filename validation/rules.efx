@@ -10575,7 +10575,7 @@ WITH BT-111-Lot-Language
 ;
 
 WITH BT-1118-NoticeResult
-  ASSERT BT-1118-NoticeResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-1118-NoticeResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-ERH-YUJ
     FOR BT-1118-NoticeResult
     IN *
@@ -10618,7 +10618,7 @@ WITH BT-115-Part
 ;
 
 WITH BT-118-NoticeResult
-  ASSERT BT-118-NoticeResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-118-NoticeResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-HJU-J0W
     FOR BT-118-NoticeResult
     IN *
@@ -11208,7 +11208,7 @@ WITH BT-151-Contract
 ;
 
 WITH BT-156-NoticeResult
-  ASSERT BT-156-NoticeResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-156-NoticeResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-VJN-8LG
     FOR BT-156-NoticeResult
     IN *
@@ -11226,7 +11226,7 @@ WITH BT-156-NoticeResult-Currency
 ;
 
 WITH BT-1561-NoticeResult
-  ASSERT BT-1561-NoticeResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-1561-NoticeResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-3K4-290
     FOR BT-1561-NoticeResult
     IN *
@@ -11244,7 +11244,7 @@ WITH BT-1561-NoticeResult-Currency
 ;
 
 WITH BT-157-LotsGroup
-  ASSERT BT-157-LotsGroup:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-157-LotsGroup:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-G2M-G9Z
     FOR BT-157-LotsGroup
     IN *
@@ -11276,7 +11276,7 @@ WITH BT-16-Organization-TouchPoint
 ;
 
 WITH BT-160-Tender
-  ASSERT BT-160-Tender:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-160-Tender:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-H3Q-J65
     FOR BT-160-Tender
     IN *
@@ -11294,7 +11294,7 @@ WITH BT-160-Tender-Currency
 ;
 
 WITH BT-161-NoticeResult
-  ASSERT BT-161-NoticeResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-161-NoticeResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-I5U-5H8
     FOR BT-161-NoticeResult
     IN *
@@ -11312,7 +11312,7 @@ WITH BT-161-NoticeResult-Currency
 ;
 
 WITH BT-162-Tender
-  ASSERT BT-162-Tender:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-162-Tender:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-MC5-URR
     FOR BT-162-Tender
     IN *
@@ -14869,7 +14869,7 @@ WITH BT-263-Procedure
 ;
 
 WITH BT-27-Lot
-  ASSERT BT-27-Lot:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-27-Lot:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-G46-NV0
     FOR BT-27-Lot
     IN *
@@ -14887,7 +14887,7 @@ WITH BT-27-Lot-Currency
 ;
 
 WITH BT-27-LotsGroup
-  ASSERT BT-27-LotsGroup:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-27-LotsGroup:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-HLY-DKH
     FOR BT-27-LotsGroup
     IN *
@@ -14905,7 +14905,7 @@ WITH BT-27-LotsGroup-Currency
 ;
 
 WITH BT-27-Part
-  ASSERT BT-27-Part:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-27-Part:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-3P7-WBA
     FOR BT-27-Part
     IN *
@@ -14923,7 +14923,7 @@ WITH BT-27-Part-Currency
 ;
 
 WITH BT-27-Procedure
-  ASSERT BT-27-Procedure:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-27-Procedure:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-1O8-CWT
     FOR BT-27-Procedure
     IN *
@@ -14941,7 +14941,7 @@ WITH BT-27-Procedure-Currency
 ;
 
 WITH BT-271-Lot
-  ASSERT BT-271-Lot:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-271-Lot:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-4WN-3NT
     FOR BT-271-Lot
     IN *
@@ -14959,7 +14959,7 @@ WITH BT-271-Lot-Currency
 ;
 
 WITH BT-271-LotsGroup
-  ASSERT BT-271-LotsGroup:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-271-LotsGroup:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-26Y-2C8
     FOR BT-271-LotsGroup
     IN *
@@ -14977,7 +14977,7 @@ WITH BT-271-LotsGroup-Currency
 ;
 
 WITH BT-271-Procedure
-  ASSERT BT-271-Procedure:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-271-Procedure:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-W8T-0RM
     FOR BT-271-Procedure
     IN *
@@ -16258,7 +16258,7 @@ WITH BT-543-LotsGroup-Language
 ;
 
 WITH BT-553-Tender
-  ASSERT BT-553-Tender:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-553-Tender:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-TV8-MXV
     FOR BT-553-Tender
     IN *
@@ -16515,7 +16515,7 @@ WITH BT-636-LotResult
 ;
 
 WITH BT-644-Lot
-  ASSERT BT-644-Lot:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-644-Lot:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-5U1-53T
     FOR BT-644-Lot
     IN *
@@ -16563,7 +16563,7 @@ WITH BT-651-Lot
 ;
 
 WITH BT-660-LotResult
-  ASSERT BT-660-LotResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-660-LotResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-4TF-ZMU
     FOR BT-660-LotResult
     IN *
@@ -16816,7 +16816,7 @@ WITH BT-708-Part
 ;
 
 WITH BT-709-LotResult
-  ASSERT BT-709-LotResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-709-LotResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-X9B-HE6
     FOR BT-709-LotResult
     IN *
@@ -16864,7 +16864,7 @@ WITH BT-71-Part
 ;
 
 WITH BT-710-LotResult
-  ASSERT BT-710-LotResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-710-LotResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-ITO-MJP
     FOR BT-710-LotResult
     IN *
@@ -16882,7 +16882,7 @@ WITH BT-710-LotResult-Currency
 ;
 
 WITH BT-711-LotResult
-  ASSERT BT-711-LotResult:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-711-LotResult:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-CVQ-GBX
     FOR BT-711-LotResult
     IN *
@@ -16955,7 +16955,7 @@ WITH BT-719-notice
 ;
 
 WITH BT-720-Tender
-  ASSERT BT-720-Tender:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-720-Tender:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-VS2-7ET
     FOR BT-720-Tender
     IN *
@@ -17847,7 +17847,7 @@ WITH BT-777-Lot-Language
 ;
 
 WITH BT-779-Tender
-  ASSERT BT-779-Tender:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-779-Tender:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-E4E-GPK
     FOR BT-779-Tender
     IN *
@@ -17893,7 +17893,7 @@ WITH BT-781-Lot-Language
 ;
 
 WITH BT-782-Tender
-  ASSERT BT-782-Tender:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-782-Tender:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-7YW-93Y
     FOR BT-782-Tender
     IN *
@@ -18032,7 +18032,7 @@ WITH BT-792-Review
 ;
 
 WITH BT-793-Review
-  ASSERT BT-793-Review:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-793-Review:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-HJV-BSC
     FOR BT-793-Review
     IN *
@@ -18061,7 +18061,7 @@ WITH BT-794-Review
 ;
 
 WITH BT-795-Review
-  ASSERT BT-795-Review:rawValue like '^[0-9]+(.[0-9]{2})?$'
+  ASSERT BT-795-Review:rawValue like '^-?[0-9]+(.[0-9]{2})?$'
     AS ERROR R-UW7-5K0
     FOR BT-795-Review
     IN *
