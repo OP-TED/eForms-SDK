@@ -507,7 +507,7 @@ linkedFieldProperty: PublicationDate | JustificationCode | JustificationDescript
  * We chose to specify the grammar for field references and node references in a slightly different style to avoid left recursion of grammar rules.
  * It looks more "complicated" but it is necessary for parsing (see fieldReferenceWithFieldContextOverride). 
  */
-attributeReference: fieldReference Slash AttributePrefix attributeName=Identifier;
+attributeReference: fieldReference Slash AtPrefix attributeName=Identifier;
 fieldReference: fieldReferenceInOtherNotice | absoluteFieldReference;
 fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithVariableContextOverride;
 fieldReferenceWithVariableContextOverride: contextVariableSpecifier? reference=fieldReferenceWithNodeContextOverride;
@@ -531,7 +531,7 @@ noticeReference: Notice OpenParenthesis (noticeId=stringExpression | lateBoundSc
 
 codelistReference
     : OpenBracket Ellipsis codelistName=Identifier CloseBracket
-    | CodelistPrefix codelistName=Identifier
+    | HashPrefix codelistName=Identifier
     ;
 
 /**************************************
@@ -1015,9 +1015,9 @@ withClause
 rules: (simpleRule | conditionalRule)+;
 conditionalRules: conditionalRule+;
 
-simpleRule: (assertClause | reportClause) asClause forClause inClause;
-conditionalRule: whenClause (assertClause | reportClause) asClause forClause inClause;
-fallbackRule: (otherwiseAssertClause | otherwiseReportClause) asClause forClause inClause;
+simpleRule: (assertClause | reportClause) asClause forClause inClause scopeClause?;
+conditionalRule: whenClause (assertClause | reportClause) asClause forClause inClause scopeClause?;
+fallbackRule: (otherwiseAssertClause | otherwiseReportClause) asClause forClause inClause scopeClause?;
 
 /*
  * WHEN clause provides conditional application of the rule.
@@ -1090,6 +1090,25 @@ otherwiseReportClause
  */
 inClause
     : IN noticeTypeList
+    ;
+
+/*
+ * SCOPE clause specifies rule applicability and categorization.
+ * - @PRE: rule applies only during live validation (while editing)
+ * - @POST: rule applies only after submission (complete XML)
+ * - #flag: categorization flag (e.g. #lawfulness), carried over to SVRL output
+ * Both are optional and can appear in any order. Omitting @PRE/@POST means the rule applies in both contexts.
+ */
+scopeClause
+    : Scope (scopeAnnotation flag? | flag scopeAnnotation?)
+    ;
+
+scopeAnnotation
+    : Pre | Post
+    ;
+
+flag
+    : HashPrefix flagName=Identifier
     ;
 
 /*
