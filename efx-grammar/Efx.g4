@@ -529,7 +529,10 @@ simpleNodeReference: NodeId;
 
 noticeReference: Notice OpenParenthesis (noticeId=stringExpression | lateBoundScalar) CloseParenthesis;
 
-codelistReference: CodelistPrefix codelistName=Identifier;
+codelistReference
+    : OpenBracket Ellipsis codelistName=Identifier CloseBracket
+    | CodelistPrefix codelistName=Identifier
+    ;
 
 /**************************************
   Function calls
