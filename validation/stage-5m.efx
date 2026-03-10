@@ -62,11 +62,10 @@ WITH OPT-316-Contract
     AS ERROR R-RKO-4E9
     FOR OPT-316-Contract
     IN *
-  WHEN OPP-070-notice in ['29','30','31','32','E4','T02','33','34','35','36','37','E5']
   ASSERT OPT-316-Contract in $global-res-to-con
     AS ERROR R-SQ6-RY1
     FOR OPT-316-Contract
-    IN *
+    IN 29,30,31,32,E4,T02,33,34,35,36,37,E5
 ;
 
 WITH OPT-322-LotResult

@@ -13,7 +13,7 @@ LET text* : $global-ten-selec-no-fa = OPT-320-LotResult[(BT-142-LotResult == 'se
 LET text* : $global-ten-selec-fa = OPT-320-LotResult[(BT-142-LotResult == 'selec-w') and (BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ['fa-mix','fa-w-rc','fa-wo-rc']])];
 
 // Identifiers of tenders that led to contracts within a framework agreement
-LET text* : $global-ten-contract-in-fa = BT-3202-Contract[(BT-768-Contract == TRUE)];
+LET text* : $global-ten-contract-in-fa = BT-3202-Contract[BT-768-Contract == TRUE];
 
 // Identifiers of tenders that are in a result for which the competition is ongoing
 LET text* : $global-ten-ongoing = OPT-320-LotResult[BT-142-LotResult == 'open-nw'];
