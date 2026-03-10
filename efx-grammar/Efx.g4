@@ -362,6 +362,7 @@ stringSequence
     | codelistReference                                                                         	                            # codeList
     | textSequenceTypeCast lateBoundSequenceFromReference                                                   	                    # stringTypeCastFieldReference
     | stringSequenceFunction                                                                                                    # stringSequenceFunctionExpression
+    | fieldMention          Colon RawValue                                                                                      # fieldRawValuePropertySequence
     ;
 
 stringSequenceFromIteration: For iteratorList Return Distinct? stringExpression;
