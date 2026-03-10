@@ -257,7 +257,7 @@ stringExpression
     // Metadata properties
     | fieldMention          Colon PrivacyCode                                   # fieldPrivacyCodeProperty
     // Raw value property
-    | fieldMention          Colon RawValue                                      # fieldRawValueProperty
+    | fieldReferenceWithVariableContextOverride Colon RawValue                   # fieldRawValueProperty
     ;
 
 numericExpression
@@ -362,6 +362,7 @@ stringSequence
     | codelistReference                                                                         	                            # codeList
     | textSequenceTypeCast lateBoundSequenceFromReference                                                   	                    # stringTypeCastFieldReference
     | stringSequenceFunction                                                                                                    # stringSequenceFunctionExpression
+    | fieldReferenceWithVariableContextOverride Colon RawValue                                                                   # fieldRawValuePropertySequence
     ;
 
 stringSequenceFromIteration: For iteratorList Return Distinct? stringExpression;
