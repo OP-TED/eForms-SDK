@@ -14037,10 +14037,6 @@ WITH BT-36-Lot
     AS ERROR R-RPG-3G4
     FOR BT-36-Lot
     IN *
-  ASSERT TRUE
-    AS ERROR R-WEU-O37
-    FOR BT-36-Lot
-    IN *
   ASSERT BT-36-Lot-Unit is present
     AS ERROR R-X0N-7WL
     FOR BT-36-Lot-Unit
@@ -14055,10 +14051,6 @@ WITH BT-36-Lot-Unit
 WITH BT-36-Part
   ASSERT BT-36-Part:rawValue like '^([0-9]+)$'
     AS ERROR R-Z3A-QC9
-    FOR BT-36-Part
-    IN *
-  ASSERT TRUE
-    AS ERROR R-KC5-DET
     FOR BT-36-Part
     IN *
   ASSERT BT-36-Part-Unit is present
@@ -16999,10 +16991,6 @@ WITH BT-97-Lot
 WITH BT-98-Lot
   ASSERT BT-98-Lot:rawValue like '^([0-9]+)$'
     AS ERROR R-LDX-WS4
-    FOR BT-98-Lot
-    IN *
-  ASSERT TRUE
-    AS ERROR R-TLJ-5J3
     FOR BT-98-Lot
     IN *
   ASSERT BT-98-Lot-Unit is present
@@ -23248,6 +23236,18 @@ WITH BT-330-Procedure
     FOR BT-330-Procedure
     IN *
 
+WITH BT-36-Lot
+  ASSERT (BT-36-Lot > P0D) and (BT-36-Lot <= P100Y)
+    AS ERROR R-M2M-HMJ
+    FOR BT-36-Lot
+    IN *
+
+WITH BT-36-Part
+  ASSERT (BT-36-Part > P0D) and (BT-36-Part <= P100Y)
+    AS ERROR R-5OA-29I
+    FOR BT-36-Part
+    IN *
+
 WITH BT-507-Business
   WHEN ((BT-514-Business is present) and (BT-507-Business is present))
   ASSERT (BT-514-Business == 'ALB' and BT-507-Business in #nuts-alb-lvl3) or (BT-514-Business == 'AUT' and BT-507-Business in #nuts-aut-lvl3) or (BT-514-Business == 'BEL' and BT-507-Business in #nuts-bel-lvl3) or (BT-514-Business == 'BGR' and BT-507-Business in #nuts-bgr-lvl3) or (BT-514-Business == 'CHE' and BT-507-Business in #nuts-che-lvl3) or (BT-514-Business == 'CYP' and BT-507-Business in #nuts-cyp-lvl3) or (BT-514-Business == 'CZE' and BT-507-Business in #nuts-cze-lvl3) or (BT-514-Business == 'DEU' and BT-507-Business in #nuts-deu-lvl3) or (BT-514-Business == 'DNK' and BT-507-Business in #nuts-dnk-lvl3) or (BT-514-Business == 'ESP' and BT-507-Business in #nuts-esp-lvl3) or (BT-514-Business == 'EST' and BT-507-Business in #nuts-est-lvl3) or (BT-514-Business == 'FIN' and BT-507-Business in #nuts-fin-lvl3) or (BT-514-Business == 'FRA' and BT-507-Business in #nuts-fra-lvl3) or (BT-514-Business == 'GRC' and BT-507-Business in #nuts-grc-lvl3) or (BT-514-Business == 'HRV' and BT-507-Business in #nuts-hrv-lvl3) or (BT-514-Business == 'HUN' and BT-507-Business in #nuts-hun-lvl3) or (BT-514-Business == 'IRL' and BT-507-Business in #nuts-irl-lvl3) or (BT-514-Business == 'ISL' and BT-507-Business in #nuts-isl-lvl3) or (BT-514-Business == 'ITA' and BT-507-Business in #nuts-ita-lvl3) or (BT-514-Business == 'LIE' and BT-507-Business in #nuts-lie-lvl3) or (BT-514-Business == 'LTU' and BT-507-Business in #nuts-ltu-lvl3) or (BT-514-Business == 'LUX' and BT-507-Business in #nuts-lux-lvl3) or (BT-514-Business == 'LVA' and BT-507-Business in #nuts-lva-lvl3) or (BT-514-Business == 'MKD' and BT-507-Business in #nuts-mkd-lvl3) or (BT-514-Business == 'MLT' and BT-507-Business in #nuts-mlt-lvl3) or (BT-514-Business == 'MNE' and BT-507-Business in #nuts-mne-lvl3) or (BT-514-Business == 'NLD' and BT-507-Business in #nuts-nld-lvl3) or (BT-514-Business == 'NOR' and BT-507-Business in #nuts-nor-lvl3) or (BT-514-Business == 'POL' and BT-507-Business in #nuts-pol-lvl3) or (BT-514-Business == 'PRT' and BT-507-Business in #nuts-prt-lvl3) or (BT-514-Business == 'ROU' and BT-507-Business in #nuts-rou-lvl3) or (BT-514-Business == 'SRB' and BT-507-Business in #nuts-srb-lvl3) or (BT-514-Business == 'SVK' and BT-507-Business in #nuts-svk-lvl3) or (BT-514-Business == 'SVN' and BT-507-Business in #nuts-svn-lvl3) or (BT-514-Business == 'SWE' and BT-507-Business in #nuts-swe-lvl3) or (BT-514-Business == 'TUR' and BT-507-Business in #nuts-tur-lvl3) or (BT-514-Business == 'XKX' and BT-507-Business in #nuts-xkx-lvl3)
@@ -23325,6 +23325,12 @@ WITH BT-702(b)-notice
   ASSERT BT-702(b)-notice is unique in /BT-702(b)-notice
     AS ERROR R-5N8-34O
     FOR BT-702(b)-notice
+    IN *
+
+WITH BT-98-Lot
+  ASSERT (BT-98-Lot > P0D) and (BT-98-Lot <= P100Y)
+    AS ERROR R-LUZ-9BG
+    FOR BT-98-Lot
     IN *
 
 WITH ND-Buyer
