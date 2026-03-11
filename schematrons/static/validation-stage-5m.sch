@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pattern id="EFORMS-validation-stage-5m" xmlns="http://purl.oclc.org/dsdl/schematron">
-    <let name="global-lot-ids" value="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())"/>
-    <let name="global-org-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID/normalize-space(text())"/>
-    <let name="global-lot-business-ids" value="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ID/normalize-space(text())"/>
-    <let name="global-ten-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID/normalize-space(text())"/>
-    <let name="global-con-business-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID/normalize-space(text())"/>
-    <let name="global-tpa-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID/normalize-space(text())"/>
-    <let name="global-ten-to-tpa" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID/normalize-space(text())"/>
-    <let name="global-con-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID/normalize-space(text())"/>
-    <let name="global-res-to-con" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID/normalize-space(text())"/>
-    <let name="global-res-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID/normalize-space(text())"/>
+    <let name="global-lot-ids" value="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/text()"/>
+    <let name="global-org-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID/text()"/>
+    <let name="global-lot-business-ids" value="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cbc:ID/text()"/>
+    <let name="global-ten-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID/text()"/>
+    <let name="global-con-business-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID/text()"/>
+    <let name="global-tpa-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:TenderingParty/cbc:ID/text()"/>
+    <let name="global-ten-to-tpa" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:TenderingParty/cbc:ID/text()"/>
+    <let name="global-con-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID/text()"/>
+    <let name="global-res-to-con" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID/text()"/>
+    <let name="global-res-ids" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID/text()"/>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID">
         <assert id="R-3J3-U4M" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-org-ids[. = $n] return $x) = 1">rule|text|R-3J3-U4M</assert>
     </rule>
@@ -31,7 +31,6 @@
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:ID">
         <assert id="R-RKO-4E9" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-con-ids[. = $n] return $x) = 1">rule|text|R-RKO-4E9</assert>
-        <assert id="R-SQ6-RY1" role="ERROR" test="(./normalize-space(text()) = $global-res-to-con) or (not(../../../efac:NoticeSubType/cbc:SubTypeCode/normalize-space(text()) = ('29','30','31','32','E4','T02','33','34','35','36','37','E5')))">rule|text|R-SQ6-RY1</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID">
         <assert id="R-Z2E-TR8" role="ERROR" test="count(for $n in ./normalize-space(text()), $x in $global-res-ids[. = $n] return $x) = 1">rule|text|R-Z2E-TR8</assert>

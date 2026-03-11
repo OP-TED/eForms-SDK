@@ -88,7 +88,7 @@
         <assert id="R-XL4-LC5" role="ERROR" test="../@languageID = ('BUL','CES','DAN','DEU','ELL','ENG','EST','FIN','FRA','GLE','HRV','HUN','ITA','LAV','LIT','MLT','NLD','POL','POR','RON','SLK','SLV','SPA','SWE')">rule|text|R-XL4-LC5</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efbc:OverallApproximateFrameworkContractsAmount">
-        <assert id="R-ERH-YUJ" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-ERH-YUJ</assert>
+        <assert id="R-ERH-YUJ" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-ERH-YUJ</assert>
         <assert id="R-RCE-69I" role="ERROR" diagnostics="BT-1118-NoticeResult_BT-1118-NoticeResult-Currency" test="@currencyID">rule|text|R-RCE-69I</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efbc:OverallApproximateFrameworkContractsAmount/@currencyID">
@@ -105,7 +105,7 @@
         <assert id="R-4M9-OMJ" role="ERROR" test="string(.) = ('false','true')">rule|text|R-4M9-OMJ</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efbc:OverallMaximumFrameworkContractsAmount">
-        <assert id="R-HJU-J0W" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-HJU-J0W</assert>
+        <assert id="R-HJU-J0W" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-HJU-J0W</assert>
         <assert id="R-Q0V-CUG" role="ERROR" diagnostics="BT-118-NoticeResult_BT-118-NoticeResult-Currency" test="@currencyID">rule|text|R-Q0V-CUG</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efbc:OverallMaximumFrameworkContractsAmount/@currencyID">
@@ -330,21 +330,21 @@
         <assert id="R-I8S-634" role="ERROR" test="string-length(./normalize-space(text())) &lt;= 400">rule|text|R-I8S-634</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkMaximumValueAmount">
-        <assert id="R-VJN-8LG" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-VJN-8LG</assert>
+        <assert id="R-VJN-8LG" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-VJN-8LG</assert>
         <assert id="R-TA5-LR3" role="ERROR" diagnostics="BT-156-NoticeResult_BT-156-NoticeResult-Currency" test="@currencyID">rule|text|R-TA5-LR3</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkMaximumValueAmount/@currencyID">
         <assert id="R-GVO-L5F" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-GVO-L5F</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkReestimatedValueAmount">
-        <assert id="R-3K4-290" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-3K4-290</assert>
+        <assert id="R-3K4-290" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-3K4-290</assert>
         <assert id="R-HE0-ZZE" role="ERROR" diagnostics="BT-1561-NoticeResult_BT-1561-NoticeResult-Currency" test="@currencyID">rule|text|R-HE0-ZZE</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:GroupFramework/efbc:GroupFrameworkReestimatedValueAmount/@currencyID">
         <assert id="R-GJ8-8AX" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-GJ8-8AX</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:EstimatedMaximumValueAmount">
-        <assert id="R-G2M-G9Z" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-G2M-G9Z</assert>
+        <assert id="R-G2M-G9Z" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-G2M-G9Z</assert>
         <assert id="R-Z3O-6PI" role="ERROR" diagnostics="BT-157-LotsGroup_BT-157-LotsGroup-Currency" test="@currencyID">rule|text|R-Z3O-6PI</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingProcess/cac:FrameworkAgreement/cbc:EstimatedMaximumValueAmount/@currencyID">
@@ -357,21 +357,21 @@
         <assert id="R-D28-BVN" role="ERROR" test="string-length(./normalize-space(text())) &lt;= 1000">rule|text|R-D28-BVN</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueBuyerAmount">
-        <assert id="R-H3Q-J65" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-H3Q-J65</assert>
+        <assert id="R-H3Q-J65" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-H3Q-J65</assert>
         <assert id="R-FC9-XNA" role="ERROR" diagnostics="BT-160-Tender_BT-160-Tender-Currency" test="@currencyID">rule|text|R-FC9-XNA</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueBuyerAmount/@currencyID">
         <assert id="R-JRA-L3U" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-JRA-L3U</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:TotalAmount">
-        <assert id="R-I5U-5H8" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-I5U-5H8</assert>
+        <assert id="R-I5U-5H8" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-I5U-5H8</assert>
         <assert id="R-7ED-45P" role="ERROR" diagnostics="BT-161-NoticeResult_BT-161-NoticeResult-Currency" test="@currencyID">rule|text|R-7ED-45P</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/cbc:TotalAmount/@currencyID">
         <assert id="R-QNT-MN8" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-QNT-MN8</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueUserAmount">
-        <assert id="R-MC5-URR" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-MC5-URR</assert>
+        <assert id="R-MC5-URR" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-MC5-URR</assert>
         <assert id="R-QYZ-RWL" role="ERROR" diagnostics="BT-162-Tender_BT-162-Tender-Currency" test="@currencyID">rule|text|R-QYZ-RWL</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:ConcessionRevenue/efbc:RevenueUserAmount/@currencyID">
@@ -1699,49 +1699,49 @@
         <assert id="R-8DE-EP7" role="ERROR" test="fn:matches(normalize-space(./text()), '^\P{Z}(.*\P{Z})?$')">rule|text|R-8DE-EP7</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-        <assert id="R-G46-NV0" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-G46-NV0</assert>
+        <assert id="R-G46-NV0" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-G46-NV0</assert>
         <assert id="R-LPQ-K23" role="ERROR" diagnostics="BT-27-Lot_BT-27-Lot-Currency" test="@currencyID">rule|text|R-LPQ-K23</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID">
         <assert id="R-KH7-VHU" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-KH7-VHU</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-        <assert id="R-HLY-DKH" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-HLY-DKH</assert>
+        <assert id="R-HLY-DKH" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-HLY-DKH</assert>
         <assert id="R-WCE-Q64" role="ERROR" diagnostics="BT-27-LotsGroup_BT-27-LotsGroup-Currency" test="@currencyID">rule|text|R-WCE-Q64</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID">
         <assert id="R-MAZ-1P1" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-MAZ-1P1</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-        <assert id="R-3P7-WBA" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-3P7-WBA</assert>
+        <assert id="R-3P7-WBA" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-3P7-WBA</assert>
         <assert id="R-OKT-YQ7" role="ERROR" diagnostics="BT-27-Part_BT-27-Part-Currency" test="@currencyID">rule|text|R-OKT-YQ7</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID">
         <assert id="R-E37-M1K" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-E37-M1K</assert>
     </rule>
     <rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount">
-        <assert id="R-1O8-CWT" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-1O8-CWT</assert>
+        <assert id="R-1O8-CWT" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-1O8-CWT</assert>
         <assert id="R-PUX-N6I" role="ERROR" diagnostics="BT-27-Procedure_BT-27-Procedure-Currency" test="@currencyID">rule|text|R-PUX-N6I</assert>
     </rule>
     <rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/cbc:EstimatedOverallContractAmount/@currencyID">
         <assert id="R-3J4-X6J" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-3J4-X6J</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount">
-        <assert id="R-4WN-3NT" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-4WN-3NT</assert>
+        <assert id="R-4WN-3NT" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-4WN-3NT</assert>
         <assert id="R-JK6-BRS" role="ERROR" diagnostics="BT-271-Lot_BT-271-Lot-Currency" test="@currencyID">rule|text|R-JK6-BRS</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount/@currencyID">
         <assert id="R-6F2-5CB" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-6F2-5CB</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount">
-        <assert id="R-26Y-2C8" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-26Y-2C8</assert>
+        <assert id="R-26Y-2C8" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-26Y-2C8</assert>
         <assert id="R-K82-PDC" role="ERROR" diagnostics="BT-271-LotsGroup_BT-271-LotsGroup-Currency" test="@currencyID">rule|text|R-K82-PDC</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount/@currencyID">
         <assert id="R-XMI-51G" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-XMI-51G</assert>
     </rule>
     <rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount">
-        <assert id="R-W8T-0RM" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-W8T-0RM</assert>
+        <assert id="R-W8T-0RM" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-W8T-0RM</assert>
         <assert id="R-6FU-JL7" role="ERROR" diagnostics="BT-271-Procedure_BT-271-Procedure-Currency" test="@currencyID">rule|text|R-6FU-JL7</assert>
     </rule>
     <rule context="/*/cac:ProcurementProject/cac:RequestedTenderTotal/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:FrameworkMaximumAmount/@currencyID">
@@ -1794,7 +1794,6 @@
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure">
         <assert id="R-RPG-3G4" role="ERROR" test="fn:matches(normalize-space(./text()), '^([0-9]+)$')">rule|text|R-RPG-3G4</assert>
-        <assert id="R-WEU-O37" role="ERROR" test="true()">rule|text|R-WEU-O37</assert>
         <assert id="R-X0N-7WL" role="ERROR" diagnostics="BT-36-Lot_BT-36-Lot-Unit" test="@unitCode">rule|text|R-X0N-7WL</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode">
@@ -1802,7 +1801,6 @@
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure">
         <assert id="R-Z3A-QC9" role="ERROR" test="fn:matches(normalize-space(./text()), '^([0-9]+)$')">rule|text|R-Z3A-QC9</assert>
-        <assert id="R-KC5-DET" role="ERROR" test="true()">rule|text|R-KC5-DET</assert>
         <assert id="R-24L-VH7" role="ERROR" diagnostics="BT-36-Part_BT-36-Part-Unit" test="@unitCode">rule|text|R-24L-VH7</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:ProcurementProject/cac:PlannedPeriod/cbc:DurationMeasure/@unitCode">
@@ -2230,7 +2228,7 @@
         <assert id="R-YAX-YKR" role="ERROR" test="../@languageID = ('BUL','CES','DAN','DEU','ELL','ENG','EST','FIN','FRA','GLE','HRV','HUN','ITA','LAV','LIT','MLT','NLD','POL','POR','RON','SLK','SLV','SPA','SWE')">rule|text|R-YAX-YKR</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount">
-        <assert id="R-TV8-MXV" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-TV8-MXV</assert>
+        <assert id="R-TV8-MXV" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-TV8-MXV</assert>
         <assert id="R-67G-EPC" role="ERROR" diagnostics="BT-553-Tender_BT-553-Tender-Currency" test="@currencyID">rule|text|R-67G-EPC</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:SubcontractingTerm[efbc:TermCode/@listName='applicability']/efbc:TermAmount/@currencyID">
@@ -2328,7 +2326,7 @@
         <assert id="R-BZX-QUG" role="ERROR" diagnostics="BT-636-LotResult_BT-636-LotResult-List" test="@listName">rule|text|R-BZX-QUG</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount">
-        <assert id="R-5U1-53T" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-5U1-53T</assert>
+        <assert id="R-5U1-53T" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-5U1-53T</assert>
         <assert id="R-GKE-KT6" role="ERROR" diagnostics="BT-644-Lot_BT-644-Lot-Currency" test="@currencyID">rule|text|R-GKE-KT6</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:Prize/cbc:ValueAmount/@currencyID">
@@ -2345,7 +2343,7 @@
         <assert id="R-4HU-JGJ" role="ERROR" diagnostics="BT-651-Lot_BT-651-Lot-List" test="@listName">rule|text|R-4HU-JGJ</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efbc:ReestimatedValueAmount">
-        <assert id="R-4TF-ZMU" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-4TF-ZMU</assert>
+        <assert id="R-4TF-ZMU" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-4TF-ZMU</assert>
         <assert id="R-PYL-QN9" role="ERROR" diagnostics="BT-660-LotResult_BT-660-LotResult-Currency" test="@currencyID">rule|text|R-PYL-QN9</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/efbc:ReestimatedValueAmount/@currencyID">
@@ -2437,7 +2435,7 @@
         <assert id="R-XHK-3RX" role="ERROR" test="fn:matches(normalize-space(./text()), '^\P{Z}(.*\P{Z})?$')">rule|text|R-XHK-3RX</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount">
-        <assert id="R-X9B-HE6" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-X9B-HE6</assert>
+        <assert id="R-X9B-HE6" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-X9B-HE6</assert>
         <assert id="R-X1V-8RJ" role="ERROR" diagnostics="BT-709-LotResult_BT-709-LotResult-Currency" test="@currencyID">rule|text|R-X1V-8RJ</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FrameworkAgreementValues/cbc:MaximumValueAmount/@currencyID">
@@ -2454,14 +2452,14 @@
         <assert id="R-SYM-FW1" role="ERROR" diagnostics="BT-71-Part_BT-71-Part-List" test="@listName">rule|text|R-SYM-FW1</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:LowerTenderAmount">
-        <assert id="R-ITO-MJP" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-ITO-MJP</assert>
+        <assert id="R-ITO-MJP" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-ITO-MJP</assert>
         <assert id="R-VXS-3TI" role="ERROR" diagnostics="BT-710-LotResult_BT-710-LotResult-Currency" test="@currencyID">rule|text|R-VXS-3TI</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:LowerTenderAmount/@currencyID">
         <assert id="R-A67-WSM" role="ERROR" test="../@currencyID = ('AED','AFN','ALL','AMD','ANG','AOA','ARS','AUD','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BRL','BSD','BTN','BWP','BYN','BZD','CAD','CDF','CHF','CLP','CNY','COP','CRC','CUP','CVE','CZK','DJF','DKK','DOP','DZD','EGP','ERN','ETB','EUR','FJD','FKP','GBP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HKD','HNL','HTG','HUF','IDR','ILS','INR','IQD','IRR','ISK','JMD','JOD','JPY','KES','KGS','KHR','KMF','KPW','KRW','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MMK','MNT','MOP','MRU','MUR','MVR','MWK','MXN','MYR','MZN','NAD','NGN','NIO','NOK','NPR','NZD','OMR','PAB','PEN','PGK','PHP','PKR','PLN','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SDG','SEK','SGD','SHP','SLE','SOS','SRD','SSP','STN','SVC','SYP','SZL','THB','TJS','TMT','TND','TOP','TRY','TTD','TWD','TZS','UAH','UGX','USD','USN','UYU','UZS','VES','VND','VUV','WST','XAF','XCD','XCG','XOF','XPF','YER','ZAR','ZMW')">rule|text|R-A67-WSM</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:HigherTenderAmount">
-        <assert id="R-CVQ-GBX" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-CVQ-GBX</assert>
+        <assert id="R-CVQ-GBX" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-CVQ-GBX</assert>
         <assert id="R-0T1-7HD" role="ERROR" diagnostics="BT-711-LotResult_BT-711-LotResult-Currency" test="@currencyID">rule|text|R-0T1-7HD</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:HigherTenderAmount/@currencyID">
@@ -2488,7 +2486,7 @@
         <assert id="R-SS6-YEM" role="ERROR" test="fn:matches(normalize-space(./text()), '^((((1[6-9]|[2-9][0-9])[0-9]{2})-(((0[13578]|1[02]))-31|((0[13-9]|1[0-2])-(29|30))))|(((((1[6-9]|[2-9][0-9])(0[48]|[2468][048]|[13579][26])|((16|[2468][048]|[3579][26])00)))-02-29))|(((1[6-9]|[2-9][0-9])[0-9]{2})-((0[1-9])|(1[0-2]))-(0[1-9]|1[0-9]|2[0-8])))(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|R-SS6-YEM</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cac:LegalMonetaryTotal/cbc:PayableAmount">
-        <assert id="R-VS2-7ET" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-VS2-7ET</assert>
+        <assert id="R-VS2-7ET" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-VS2-7ET</assert>
         <assert id="R-KON-S77" role="ERROR" diagnostics="BT-720-Tender_BT-720-Tender-Currency" test="@currencyID">rule|text|R-KON-S77</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cac:LegalMonetaryTotal/cbc:PayableAmount/@currencyID">
@@ -2821,7 +2819,7 @@
         <assert id="R-FXT-O0Z" role="ERROR" test="../@languageID = ('BUL','CES','DAN','DEU','ELL','ENG','EST','FIN','FRA','GLE','HRV','HUN','ITA','LAV','LIT','MLT','NLD','POL','POR','RON','SLK','SLV','SPA','SWE')">rule|text|R-FXT-O0Z</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/cbc:PaidAmount">
-        <assert id="R-E4E-GPK" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-E4E-GPK</assert>
+        <assert id="R-E4E-GPK" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-E4E-GPK</assert>
         <assert id="R-AAV-JL8" role="ERROR" diagnostics="BT-779-Tender_BT-779-Tender-Currency" test="@currencyID">rule|text|R-AAV-JL8</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/cbc:PaidAmount/@currencyID">
@@ -2840,7 +2838,7 @@
         <assert id="R-P2J-P5K" role="ERROR" test="../@languageID = ('BUL','CES','DAN','DEU','ELL','ENG','EST','FIN','FRA','GLE','HRV','HUN','ITA','LAV','LIT','MLT','NLD','POL','POR','RON','SLK','SLV','SPA','SWE')">rule|text|R-P2J-P5K</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PenaltiesAmount">
-        <assert id="R-7YW-93Y" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-7YW-93Y</assert>
+        <assert id="R-7YW-93Y" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-7YW-93Y</assert>
         <assert id="R-SRL-CUE" role="ERROR" diagnostics="BT-782-Tender_BT-782-Tender-Currency" test="@currencyID">rule|text|R-SRL-CUE</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:AggregatedAmounts/efbc:PenaltiesAmount/@currencyID">
@@ -2891,7 +2889,7 @@
         <assert id="R-8B0-1ZD" role="ERROR" diagnostics="BT-792-Review_BT-792-Review-List" test="@listName">rule|text|R-8B0-1ZD</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealRemedyValue">
-        <assert id="R-HJV-BSC" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-HJV-BSC</assert>
+        <assert id="R-HJV-BSC" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-HJV-BSC</assert>
         <assert id="R-DD9-7DM" role="ERROR" diagnostics="BT-793-Review_BT-793-Review-Currency" test="@currencyID">rule|text|R-DD9-7DM</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efbc:AppealRemedyValue/@currencyID">
@@ -2902,7 +2900,7 @@
         <assert id="R-KSS-70F" role="ERROR" test="string-length(./normalize-space(text())) &lt;= 400">rule|text|R-KSS-70F</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:FeeAmount">
-        <assert id="R-UW7-5K0" role="ERROR" test="fn:matches(normalize-space(./text()), '^[0-9]+(.[0-9]{2})?$')">rule|text|R-UW7-5K0</assert>
+        <assert id="R-UW7-5K0" role="ERROR" test="fn:matches(normalize-space(./text()), '^-?[0-9]+(.[0-9]{2})?$')">rule|text|R-UW7-5K0</assert>
         <assert id="R-5X9-UZS" role="ERROR" diagnostics="BT-795-Review_BT-795-Review-Currency" test="@currencyID">rule|text|R-5X9-UZS</assert>
     </rule>
     <rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:FeeAmount/@currencyID">
@@ -3027,7 +3025,6 @@
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure">
         <assert id="R-LDX-WS4" role="ERROR" test="fn:matches(normalize-space(./text()), '^([0-9]+)$')">rule|text|R-LDX-WS4</assert>
-        <assert id="R-TLJ-5J3" role="ERROR" test="true()">rule|text|R-TLJ-5J3</assert>
         <assert id="R-AH8-GEA" role="ERROR" diagnostics="BT-98-Lot_BT-98-Lot-Unit" test="@unitCode">rule|text|R-AH8-GEA</assert>
     </rule>
     <rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure/@unitCode">
