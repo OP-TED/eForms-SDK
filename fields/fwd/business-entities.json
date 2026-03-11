@@ -1,0 +1,260 @@
+[ {
+  "id" : "buyer",
+  "name" : "Buyer",
+  "description" : "Information on a buyer",
+  "labelId" : "business-entity|name|buyer",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : false,
+    "changeIdentifier" : "BUYER"
+  },
+  "instanceIdentifier" : {
+    "referencedBusinessEntityId" : "organization",
+    "identifierFieldId" : "OPT-300-Procedure-Buyer",
+    "captionFieldId" : "BT-500-Organization-Company"
+  }
+}, {
+  "id" : "changes",
+  "name" : "Changes",
+  "description" : "Information on the changes in a change notice",
+  "labelId" : "business-entity|name|changes",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "contract",
+  "name" : "Contract",
+  "description" : "Information on a contract",
+  "labelId" : "business-entity|name|contract",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "CON",
+    "schemeName" : "contract",
+    "identifierFieldId" : "OPT-316-Contract",
+    "captionFieldId" : "BT-150-Contract"
+  }
+}, {
+  "id" : "contractModification",
+  "name" : "Contract modification",
+  "description" : "Information on the modifications",
+  "labelId" : "business-entity|name|contractModification",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "referencedBusinessEntityId" : "contract",
+    "identifierFieldId" : "BT-1501(c)-Contract",
+    "captionFieldId" : "BT-150-Contract"
+  }
+}, {
+  "id" : "euBusiness",
+  "name" : "European Business",
+  "description" : "Information on a European Business",
+  "labelId" : "business-entity|name|euBusiness",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "groupOfLots",
+  "name" : "Group of Lots",
+  "description" : "Information on a group of lots",
+  "labelId" : "business-entity|name|groupOfLots",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "GLO",
+    "schemeName" : "LotsGroup",
+    "identifierFieldId" : "BT-137-LotsGroup",
+    "captionFieldId" : "BT-21-LotsGroup"
+  }
+}, {
+  "id" : "lot",
+  "name" : "Lot",
+  "description" : "Information on a lot",
+  "labelId" : "business-entity|name|lot",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "LOT",
+    "schemeName" : "Lot",
+    "identifierFieldId" : "BT-137-Lot",
+    "captionFieldId" : "BT-21-Lot"
+  }
+}, {
+  "id" : "noticeInformation",
+  "name" : "Notice information",
+  "description" : "Information on the notice itself",
+  "labelId" : "business-entity|name|noticeInformation",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "noticeResult",
+  "name" : "Notice result",
+  "description" : "Information on the whole result of the procurement",
+  "labelId" : "business-entity|name|noticeResult",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : false,
+    "changeIdentifier" : "RESULT"
+  }
+}, {
+  "id" : "organization",
+  "name" : "Organisation",
+  "description" : "Information on an organisation",
+  "labelId" : "business-entity|name|organization",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "ORG",
+    "schemeName" : "organization",
+    "identifierFieldId" : "OPT-200-Organization-Company",
+    "captionFieldId" : "BT-500-Organization-Company"
+  }
+}, {
+  "id" : "part",
+  "name" : "Part",
+  "description" : "Information on a part",
+  "labelId" : "business-entity|name|part",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "PAR",
+    "schemeName" : "Part",
+    "identifierFieldId" : "BT-137-Part",
+    "captionFieldId" : "BT-21-Part"
+  }
+}, {
+  "id" : "procedure",
+  "name" : "Procedure",
+  "description" : "Information on the procedure",
+  "labelId" : "business-entity|name|procedure",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : false,
+    "changeIdentifier" : "PROCEDURE"
+  }
+}, {
+  "id" : "resultForLot",
+  "name" : "Result for Lot",
+  "description" : "Information on the result for a lot",
+  "labelId" : "business-entity|name|resultForLot",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "RES",
+    "schemeName" : "result",
+    "identifierFieldId" : "OPT-322-LotResult",
+    "captionFieldId" : "BT-13713-LotResult"
+  }
+}, {
+  "id" : "reviewInformation",
+  "name" : "Review Information",
+  "description" : "Information on review information",
+  "labelId" : "business-entity|name|reviewInformation",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "REV",
+    "schemeName" : "review",
+    "identifierFieldId" : "BT-804-Review",
+    "captionFieldId" : "BT-784-Review"
+  }
+}, {
+  "id" : "tender",
+  "name" : "Tender",
+  "description" : "Information on a tender",
+  "labelId" : "business-entity|name|tender",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "TEN",
+    "schemeName" : "tender",
+    "identifierFieldId" : "OPT-321-Tender",
+    "captionFieldId" : "BT-3201-Tender"
+  }
+}, {
+  "id" : "tenderingParty",
+  "name" : "Tendering party",
+  "description" : "Information on a tendering party",
+  "labelId" : "business-entity|name|tenderingParty",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "TPA",
+    "schemeName" : "tendering-party",
+    "identifierFieldId" : "OPT-210-Tenderer",
+    "captionFieldId" : "OPT-211-Tenderer"
+  }
+}, {
+  "id" : "touchpoint",
+  "name" : "Touchpoint",
+  "description" : "Information on a contact point in an organization",
+  "labelId" : "business-entity|name|touchpoint",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "TPO",
+    "schemeName" : "touchpoint",
+    "identifierFieldId" : "OPT-201-Organization-TouchPoint",
+    "captionFieldId" : "BT-500-Organization-TouchPoint"
+  }
+}, {
+  "id" : "ultimateBeneficialOwner",
+  "name" : "Ultimate beneficial owner",
+  "description" : "Information on an owner of an organization",
+  "labelId" : "business-entity|name|ultimateBeneficialOwner",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "UBO",
+    "schemeName" : "ubo",
+    "identifierFieldId" : "OPT-202-UBO",
+    "captionFieldId" : "BT-500-UBO"
+  }
+} ]

@@ -1,0 +1,67 @@
+{
+  "dataTypes" : [ {
+    "type" : "amount",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "code",
+    "description" : "A code from the code table. A code may be referenced by several codelists.",
+    "displayTypes" : [ "COMBOBOX", "RADIO" ]
+  }, {
+    "type" : "date",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "duration",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "email",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "id",
+    "description" : "Unique identifier",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "id-ref",
+    "description" : "References an identifier",
+    "displayTypes" : [ "COMBOBOX" ]
+  }, {
+    "type" : "indicator",
+    "description" : "Has two mutually exclusive values",
+    "displayTypes" : [ "RADIO", "CHECKBOX", "COMBOBOX" ]
+  }, {
+    "type" : "integer",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "internal-code",
+    "description" : "similar to code",
+    "displayTypes" : [ "COMBOBOX", "RADIO" ]
+  }, {
+    "type" : "measure",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "number",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "phone",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "text",
+    "description" : "TEXTAREA use depends on field max length",
+    "displayTypes" : [ "TEXTBOX", "TEXTAREA" ]
+  }, {
+    "type" : "text-multilingual",
+    "description" : "Multilingual text, TEXTAREA use depends on field max length",
+    "displayTypes" : [ "TEXTBOX", "TEXTAREA" ]
+  }, {
+    "type" : "time",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "url",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "zoned-date",
+    "displayTypes" : [ "TEXTBOX" ]
+  }, {
+    "type" : "zoned-time",
+    "displayTypes" : [ "TEXTBOX" ]
+  } ]
+}
