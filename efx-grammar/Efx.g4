@@ -509,8 +509,7 @@ linkedFieldProperty: PublicationDate | JustificationCode | JustificationDescript
  * It looks more "complicated" but it is necessary for parsing (see fieldReferenceWithFieldContextOverride). 
  */
 attributeReference: fieldReference Slash AtPrefix attributeName=Identifier;
-fieldReference: fieldReferenceInOtherNotice | absoluteFieldReference;
-fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWithVariableContextOverride;
+fieldReference: absoluteFieldReference | fieldReferenceWithVariableContextOverride;
 fieldReferenceWithVariableContextOverride: contextVariableSpecifier? reference=fieldReferenceWithNodeContextOverride;
 fieldReferenceWithNodeContextOverride: contextNodeSpecifier? reference=fieldReferenceWithFieldContextOverride;
 fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldReferenceWithPredicate;
@@ -521,14 +520,12 @@ linkedFieldReference: simpleFieldReference (Colon linkedFieldProperty)?;
 simpleFieldReference: fieldId = (FieldId | Identifier);
 fieldMention: fieldId = (FieldId | Identifier) (Colon linkedFieldProperty)?;
 
-nodeReference: absoluteNodeReference | nodeReferenceInOtherNotice;
-nodeReferenceInOtherNotice: noticeReference Slash nodeReferenceWithPredicate;
+nodeReference: absoluteNodeReference | nodeReferenceWithPredicate;
 nodeContext: absoluteNodeReference | nodeReferenceWithPredicate;
 absoluteNodeReference: Slash nodeReferenceWithPredicate; 
 nodeReferenceWithPredicate: simpleNodeReference (OpenBracket predicate CloseBracket)?;
 simpleNodeReference: NodeId;
 
-noticeReference: Notice OpenParenthesis (noticeId=stringExpression | lateBoundScalar) CloseParenthesis;
 
 codelistReference
     : OpenBracket Ellipsis codelistName=Identifier CloseBracket
