@@ -421,6 +421,8 @@ IsDisclosed: 'isDisclosed';
 IsMasked: 'isMasked';
 // Other property keywords
 RawValue: 'rawValue';
+PreferredLanguage: 'preferredLanguage';
+PreferredLanguageText: 'preferredLanguageText';
 
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.

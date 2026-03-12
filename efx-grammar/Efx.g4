@@ -256,8 +256,9 @@ stringExpression
     | textTypeCast lateBoundScalarFromReference                                     # stringCastExpression
     // Metadata properties
     | fieldMention          Colon PrivacyCode                                   # fieldPrivacyCodeProperty
-    // Raw value property
-    | fieldReferenceWithVariableContextOverride Colon RawValue                   # fieldRawValueProperty
+    // Preferred language properties (template-only)
+    | fieldContext          Colon PreferredLanguage                             # fieldPreferredLanguageProperty
+    | fieldContext          Colon PreferredLanguageText                         # fieldPreferredLanguageTextProperty
     ;
 
 numericExpression
@@ -362,7 +363,6 @@ stringSequence
     | codelistReference                                                                         	                            # codeList
     | textSequenceTypeCast lateBoundSequenceFromReference                                                   	                    # stringTypeCastFieldReference
     | stringSequenceFunction                                                                                                    # stringSequenceFunctionExpression
-    | fieldReferenceWithVariableContextOverride Colon RawValue                                                                   # fieldRawValuePropertySequence
     ;
 
 stringSequenceFromIteration: For iteratorList Return Distinct? stringExpression;
@@ -514,7 +514,7 @@ fieldReferenceInOtherNotice: (noticeReference Slash)? reference=fieldReferenceWi
 fieldReferenceWithVariableContextOverride: contextVariableSpecifier? reference=fieldReferenceWithNodeContextOverride;
 fieldReferenceWithNodeContextOverride: contextNodeSpecifier? reference=fieldReferenceWithFieldContextOverride;
 fieldReferenceWithFieldContextOverride: contextFieldSpecifier? reference=fieldReferenceWithPredicate;
-fieldContext: absoluteFieldReference | fieldReferenceWithPredicate;
+fieldContext: (absoluteFieldReference | fieldReferenceWithPredicate) (OpenBracket indexer CloseBracket)?;
 absoluteFieldReference: Slash reference=fieldReferenceWithPredicate;
 fieldReferenceWithPredicate: reference=linkedFieldReference (OpenBracket predicate CloseBracket)?;
 linkedFieldReference: simpleFieldReference (Colon linkedFieldProperty)?;
@@ -679,8 +679,8 @@ stringFunction
                                         Comma           (numericExpression              | lateBoundScalar)      CloseParenthesis      # repeatFunction
     | UrlEncodeFunction              OpenParenthesis    (stringExpression               | lateBoundScalar)      CloseParenthesis      # urlEncodeFunction
     | CapitalizeFirstFunction        OpenParenthesis    (stringExpression               | lateBoundScalar)      CloseParenthesis      # capitalizeFirstFunction
-    | PreferredLanguageFunction      OpenParenthesis    simpleFieldReference                                    CloseParenthesis      # preferredLanguageFunction
-    | PreferredLanguageTextFunction  OpenParenthesis    simpleFieldReference                                    CloseParenthesis      # preferredLanguageTextFunction
+    | PreferredLanguageFunction      OpenParenthesis    fieldContext                                            CloseParenthesis      # preferredLanguageFunction
+    | PreferredLanguageTextFunction  OpenParenthesis    fieldContext                                            CloseParenthesis      # preferredLanguageTextFunction
     ;
 
 
@@ -834,6 +834,7 @@ lateBoundSequenceFromReference
     | variableReference         # sequenceFromVariableReference
     | functionInvocation        # sequenceFromFunctionInvocation
     | dictionaryLookup          # sequenceFromDictionaryLookup
+    | rawValueReference         # sequenceFromRawValueReference
     ;
 
 lateBoundScalar
@@ -851,12 +852,15 @@ lateBoundScalar
     ;
 
 lateBoundScalarFromReference
-    : attributeReference        # scalarFromAttributeReference 
+    : attributeReference        # scalarFromAttributeReference
     | fieldReference            # scalarFromFieldReference
     | variableReference         # scalarFromVariableReference
     | functionInvocation        # scalarFromFunctionInvocation
-    | dictionaryLookup          # scalarFromDictionaryLookup 
+    | dictionaryLookup          # scalarFromDictionaryLookup
+    | rawValueReference         # scalarFromRawValueReference
     ;
+
+rawValueReference: fieldContext Colon RawValue;
 
 variableReference: VariablePrefix variableName=Identifier;
 
