@@ -35689,11 +35689,6 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E1", "E2", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "E3" ],
-        "condition" : "{ND-LotTenderingTerms} ${not(BT-23-Lot == 'services')}",
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "codeList" : {
