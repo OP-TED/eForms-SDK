@@ -14,8 +14,8 @@
 		{BT-22-Procedure} #{name|BT-22}: $value // Internal identifier
 		0 {BT-105-Procedure[BT-105-Procedure != 'unpublished']} #{name|BT-105}: #{BT-105-Procedure} // Type of the procedure
 		0 {BT-106-Procedure[BT-106-Procedure != 'unpublished']} #{name|BT-106}: ${if (BT-106-Procedure == 'true') then 'Yes' else 'No'} // The procedure is accelerated. (true/false)
-		0 {ND-ProcedureProcurementScope[BT-1351-Procedure != 'unpublished']} #{name|BT-1351}: ${preferred-language-text(BT-1351-Procedure)} // Justification for the accelerated procedure
-		0 {ND-ProcedureProcurementScope[BT-88-Procedure != 'unpublished']} #{name|BT-88}: ${preferred-language-text(BT-88-Procedure)} // Procedure Features / Description of the procedure
+		0 {ND-ProcedureProcurementScope[not(BT-1351-Procedure:isMasked)]} #{name|BT-1351}: ${preferred-language-text(BT-1351-Procedure)} // Justification for the accelerated procedure
+		0 {ND-ProcedureProcurementScope[not(BT-88-Procedure:isMasked)]} #{name|BT-88}: ${preferred-language-text(BT-88-Procedure)} // Procedure Features / Description of the procedure
 		1 {ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)]} #{auxiliary|text|purpose} // 2.1.1 Purpose
 			{BT-23-Procedure} #{name|BT-23}: #value // Nature of the contract
 			{BT-531-Procedure} #{name|BT-531}: #value // Additional nature of the contract
