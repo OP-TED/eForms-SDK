@@ -1248,7 +1248,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Name of the scheme used to express the tender technical identifier: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Lot result technical identifier, shall follow the following scheme: 'RES-xxxx'. Is used for cross-references.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Name of the scheme used to express the lot result technical identifier: 'result'</entry>
-<entry key="field|description|OPT-999">Dummy date element required by the schema. Will always be '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Dummy date element required by the schema. Will always be '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">The law applicable if the procurement involves buyers from different countries</entry>
 <entry key="field|hint|BT-1375-Procedure">Add as many lots as you wish to include in the group of lots.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Add as many lots as you wish to include in the group of lots.</entry>
@@ -2538,5 +2538,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Technical ID of the tender</entry>
 <entry key="field|name|OPT-322-LotResult">Technical ID of the lot result (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Technical ID of the lot result (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Dummy tender award date</entry>
+<entry key="field|name|OPT-999-notice">Dummy tender award date</entry>
 </properties>

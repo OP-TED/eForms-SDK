@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Όνομα του σχήματος που χρησιμοποιείται για την έκφραση του τεχνικού αναγνωριστικού της προσφοράς: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Τεχνικός αναγνωριστικός του αποτελέσματος του λαχνού, πρέπει να ακολουθεί το εξής σχήμα: 'RES-xxxx'. Χρησιμοποιείται για διασταυρώσεις.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Όνομα του σχήματος που χρησιμοποιείται για την έκφραση του τεχνικού αναγνωριστικού του αποτελέσματος του λαχνού: 'result'</entry>
-<entry key="field|description|OPT-999">Ψευδοημερομηνία που απαιτείται από το σχήμα. Θα είναι πάντα '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Ψευδοημερομηνία που απαιτείται από το σχήμα. Θα είναι πάντα '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Το εφαρμοστέο δίκαιο σε περίπτωση που στη σύμβαση συμμετέχουν αγοραστές από διαφορετικές χώρες.</entry>
 <entry key="field|hint|BT-1375-Procedure">Προσθέστε όσες παρτίδες επιθυμείτε να συμπεριλάβετε στην ομάδα των παρτίδων.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Προσθέστε όσες παρτίδες επιθυμείτε να συμπεριλάβετε στην ομάδα των παρτίδων.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Τεχνικό ID της προσφοράς</entry>
 <entry key="field|name|OPT-322-LotResult">Τεχνικό ID του αποτελέσματος του λαχείου (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Τεχνικό ID του αποτελέσματος του λαχείου (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Εικονική ημερομηνία ανάθεσης της προσφοράς</entry>
+<entry key="field|name|OPT-999-notice">Εικονική ημερομηνία ανάθεσης της προσφοράς</entry>
 </properties>

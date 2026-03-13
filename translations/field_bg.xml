@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Име на схемата, използвана за изразяване на техническия идентификатор на търговското предложение: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Технически идентификатор на резултата от лота, трябва да следва следната схема: 'RES-xxxx'. Използва се за кръстосани референции.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Име на схемата, използвана за изразяване на техническия идентификатор на резултата от лота: 'result'</entry>
-<entry key="field|description|OPT-999">Фиктивен елемент за дата, изискван от схемата. Винаги ще бъде '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Фиктивен елемент за дата, изискван от схемата. Винаги ще бъде '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Приложимото право, ако в обществената поръчка участват купувачи от различни държави.</entry>
 <entry key="field|hint|BT-1375-Procedure">Добавете толкова обособени позиции, колкото желаете да включите в групата обособени позиции.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Добавете толкова обособени позиции, колкото желаете да включите в групата обособени позиции.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Технически идентификатор на офертата</entry>
 <entry key="field|name|OPT-322-LotResult">Технически идентификатор на резултата от партидата (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Технически идентификатор на резултата от партидата (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Фиктивна дата на възлагане на поръчка</entry>
+<entry key="field|name|OPT-999-notice">Фиктивна дата на възлагане на поръчка</entry>
 </properties>

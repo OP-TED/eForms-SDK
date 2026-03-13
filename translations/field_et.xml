@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Skeemi nimi, mida kasutatakse pakkumise tehnilise identifikaatori väljendamiseks: 'pakkumine'</entry>
 <entry key="field|description|OPT-322-LotResult">Partii tulemuse tehniline identifikaator, mis järgib järgmist skeemi: 'RES-xxxx'. Seda kasutatakse ristviideteks.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Skeemi nimi, mida kasutatakse partii tulemuse tehnilise identifikaatori väljendamiseks: 'tulemus'</entry>
-<entry key="field|description|OPT-999">Skeemi nõutav näilik kuupäevaelement. On alati '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Skeemi nõutav näilik kuupäevaelement. On alati '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Õigus, mida kohaldatakse juhul, kui hankes osalevad eri riikidest pärit hankijad.</entry>
 <entry key="field|hint|BT-1375-Procedure">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisage nii palju osi, kui soovite osade rühma lisada.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Pakkumuse tehniline tunnus</entry>
 <entry key="field|name|OPT-322-LotResult">Osa tulemuse tehniline tunnus (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Osa tulemuse tehniline tunnus (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Hankelepingu sõlmimise fiktiivne kuupäev</entry>
+<entry key="field|name|OPT-999-notice">Hankelepingu sõlmimise fiktiivne kuupäev</entry>
 </properties>

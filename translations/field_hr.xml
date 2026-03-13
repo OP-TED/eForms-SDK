@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Naziv sheme koja se koristi za izražavanje tehničkog identifikatora ponude: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Tehnički identifikator rezultata lota, treba slijediti sljedeću shemu: 'RES-xxxx'. Koristi se za međusobne reference.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Naziv sheme koja se koristi za izražavanje tehničkog identifikatora rezultata lota: 'result'</entry>
-<entry key="field|description|OPT-999">Dummy datum potreban shemi. Uvijek će biti '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Dummy datum potreban shemi. Uvijek će biti '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo koje se primjenjuje ako javna nabava uključuje kupce iz više zemalja.</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Tehnički ID ponude</entry>
 <entry key="field|name|OPT-322-LotResult">Tehnički ID rezultata lota (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Tehnički ID rezultata lota (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Datum dodjele ugovora na temelju fiktivne ponude</entry>
+<entry key="field|name|OPT-999-notice">Datum dodjele ugovora na temelju fiktivne ponude</entry>
 </properties>

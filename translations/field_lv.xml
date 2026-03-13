@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Shēmas nosaukums, kas tiek izmantots, lai izteiktu tehnisko piedāvājuma identifikatoru: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Tehniskais lotes rezultāta identifikators, jāatbilst šādai shēmai: 'RES-xxxx'. To izmanto savstarpējām atsaucēm.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Shēmas nosaukums, kas tiek izmantots, lai izteiktu tehnisko lotes rezultāta identifikatoru: 'result'</entry>
-<entry key="field|description|OPT-999">Shēmai nepieciešams fiktīvs datuma elements. Tas vienmēr būs '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Shēmai nepieciešams fiktīvs datuma elements. Tas vienmēr būs '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Piemērojamie tiesību akti, ja iepirkumā ir iesaistīti pircēji no dažādām valstīm.</entry>
 <entry key="field|hint|BT-1375-Procedure">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Piedāvājuma tehniskais ID</entry>
 <entry key="field|name|OPT-322-LotResult">Partijas rezultāta tehniskais ID (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Partijas rezultāta tehniskais ID (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fiktīvs līguma slēgšanas tiesību piešķiršanas datums</entry>
+<entry key="field|name|OPT-999-notice">Fiktīvs līguma slēgšanas tiesību piešķiršanas datums</entry>
 </properties>

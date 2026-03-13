@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Navnet på ordningen, der bruges til at udtrykke tilbudets tekniske identifikator: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Partiets resultat tekniske identifikator, skal følge følgende ordning: 'RES-xxxx'. Bruges til krydsreferencer.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Navnet på ordningen, der bruges til at udtrykke partiets resultat tekniske identifikator: 'result'</entry>
-<entry key="field|description|OPT-999">Fiktivt datoelement krævet af skemaet. Vil altid være '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Fiktivt datoelement krævet af skemaet. Vil altid være '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Den lovgivning, der finder anvendelse, hvis udbuddet involverer købere fra forskellige lande.</entry>
 <entry key="field|hint|BT-1375-Procedure">Tilføj så mange delkontrakter, som du ønsker at medtage i gruppen af delkontrakter.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Tilføj så mange delkontrakter, som du ønsker at medtage i gruppen af delkontrakter.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Teknisk ID på tilbuddet</entry>
 <entry key="field|name|OPT-322-LotResult">Teknisk ID på delkontrakt resultatet (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Teknisk ID på delkontrakt resultatet (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Dato for tildeling af dummy-bud</entry>
+<entry key="field|name|OPT-999-notice">Dato for tildeling af dummy-bud</entry>
 </properties>
