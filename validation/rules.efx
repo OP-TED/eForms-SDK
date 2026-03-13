@@ -9749,146 +9749,182 @@ WITH BT-105-Procedure
     AS ERROR R-K2X-XTF
     FOR BT-105-Procedure
     IN 10
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-11
     AS ERROR R-HBZ-S6S
     FOR BT-105-Procedure
     IN 11
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-12
     AS ERROR R-QF5-3JJ
     FOR BT-105-Procedure
     IN 12
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-13
     AS ERROR R-83Q-579
     FOR BT-105-Procedure
     IN 13
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-14
     AS ERROR R-X97-FFG
     FOR BT-105-Procedure
     IN 14
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-15
     AS ERROR R-XYU-PLE
     FOR BT-105-Procedure
     IN 15
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-16
     AS ERROR R-Y2N-9QI
     FOR BT-105-Procedure
     IN 16
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-17
     AS ERROR R-WGO-7Y6
     FOR BT-105-Procedure
     IN 17
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-18
     AS ERROR R-O3F-AL7
     FOR BT-105-Procedure
     IN 18
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-19
     AS ERROR R-N33-T5C
     FOR BT-105-Procedure
     IN 19
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-20
     AS ERROR R-2GY-EQZ
     FOR BT-105-Procedure
     IN 20
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-21
     AS ERROR R-QX0-JPO
     FOR BT-105-Procedure
     IN 21
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-22
     AS ERROR R-J67-ID9
     FOR BT-105-Procedure
     IN 22
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-23
     AS ERROR R-F3Z-WR6
     FOR BT-105-Procedure
     IN 23
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-24
     AS ERROR R-I1D-0Q0
     FOR BT-105-Procedure
     IN 24
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-25
     AS ERROR R-8UT-DEB
     FOR BT-105-Procedure
     IN 25
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-26
     AS ERROR R-Q5Z-SVE
     FOR BT-105-Procedure
     IN 26
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-27
     AS ERROR R-W9I-W7Y
     FOR BT-105-Procedure
     IN 27
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-28
     AS ERROR R-ATN-2JG
     FOR BT-105-Procedure
     IN 28
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-29
     AS ERROR R-TBM-O37
     FOR BT-105-Procedure
     IN 29
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-30
     AS ERROR R-658-4VI
     FOR BT-105-Procedure
     IN 30
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-31
     AS ERROR R-ER8-O5V
     FOR BT-105-Procedure
     IN 31
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-32
     AS ERROR R-JCI-Y8O
     FOR BT-105-Procedure
     IN 32
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-33
     AS ERROR R-044-3KK
     FOR BT-105-Procedure
     IN 33
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-34
     AS ERROR R-ZNN-WEX
     FOR BT-105-Procedure
     IN 34
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-35
     AS ERROR R-XXZ-7EU
     FOR BT-105-Procedure
     IN 35
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-36
     AS ERROR R-QQW-BV9
     FOR BT-105-Procedure
     IN 36
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-37
     AS ERROR R-VWK-15N
     FOR BT-105-Procedure
     IN 37
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-7
     AS ERROR R-HV8-XFT
     FOR BT-105-Procedure
     IN 7
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-8
     AS ERROR R-BGJ-31S
     FOR BT-105-Procedure
     IN 8
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-9
     AS ERROR R-3OW-MZD
     FOR BT-105-Procedure
     IN 9
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-e3
     AS ERROR R-759-611
     FOR BT-105-Procedure
     IN E3
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-e4
     AS ERROR R-GGW-QRM
     FOR BT-105-Procedure
     IN E4
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-e5
     AS ERROR R-7A3-68C
     FOR BT-105-Procedure
     IN E5
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-t01
     AS ERROR R-DYK-IQD
     FOR BT-105-Procedure
     IN T01
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procedure-type-t02
     AS ERROR R-OAY-V5W
     FOR BT-105-Procedure
     IN T02
+    SCOPE @POST
   ASSERT BT-105-Procedure in #procurement-procedure-type
     AS ERROR R-8YO-F1A
     FOR BT-105-Procedure
@@ -9959,6 +9995,7 @@ WITH BT-1118-NoticeResult
     AS ERROR R-ERH-YUJ
     FOR BT-1118-NoticeResult
     IN *
+    SCOPE @POST
   ASSERT BT-1118-NoticeResult-Currency is present
     AS ERROR R-RCE-69I
     FOR BT-1118-NoticeResult-Currency
@@ -9997,6 +10034,7 @@ WITH BT-118-NoticeResult
     AS ERROR R-HJU-J0W
     FOR BT-118-NoticeResult
     IN *
+    SCOPE @POST
   ASSERT BT-118-NoticeResult-Currency is present
     AS ERROR R-Q0V-CUG
     FOR BT-118-NoticeResult-Currency
@@ -10525,6 +10563,7 @@ WITH BT-156-NoticeResult
     AS ERROR R-VJN-8LG
     FOR BT-156-NoticeResult
     IN *
+    SCOPE @POST
   ASSERT BT-156-NoticeResult-Currency is present
     AS ERROR R-TA5-LR3
     FOR BT-156-NoticeResult-Currency
@@ -10541,6 +10580,7 @@ WITH BT-1561-NoticeResult
     AS ERROR R-3K4-290
     FOR BT-1561-NoticeResult
     IN *
+    SCOPE @POST
   ASSERT BT-1561-NoticeResult-Currency is present
     AS ERROR R-HE0-ZZE
     FOR BT-1561-NoticeResult-Currency
@@ -10557,6 +10597,7 @@ WITH BT-157-LotsGroup
     AS ERROR R-G2M-G9Z
     FOR BT-157-LotsGroup
     IN *
+    SCOPE @POST
   ASSERT BT-157-LotsGroup-Currency is present
     AS ERROR R-Z3O-6PI
     FOR BT-157-LotsGroup-Currency
@@ -10585,6 +10626,7 @@ WITH BT-160-Tender
     AS ERROR R-H3Q-J65
     FOR BT-160-Tender
     IN *
+    SCOPE @POST
   ASSERT BT-160-Tender-Currency is present
     AS ERROR R-FC9-XNA
     FOR BT-160-Tender-Currency
@@ -10601,6 +10643,7 @@ WITH BT-161-NoticeResult
     AS ERROR R-I5U-5H8
     FOR BT-161-NoticeResult
     IN *
+    SCOPE @POST
   ASSERT BT-161-NoticeResult-Currency is present
     AS ERROR R-7ED-45P
     FOR BT-161-NoticeResult-Currency
@@ -10617,6 +10660,7 @@ WITH BT-162-Tender
     AS ERROR R-MC5-URR
     FOR BT-162-Tender
     IN *
+    SCOPE @POST
   ASSERT BT-162-Tender-Currency is present
     AS ERROR R-QYZ-RWL
     FOR BT-162-Tender-Currency
@@ -13823,6 +13867,7 @@ WITH BT-27-Lot
     AS ERROR R-G46-NV0
     FOR BT-27-Lot
     IN *
+    SCOPE @POST
   ASSERT BT-27-Lot-Currency is present
     AS ERROR R-LPQ-K23
     FOR BT-27-Lot-Currency
@@ -13839,6 +13884,7 @@ WITH BT-27-LotsGroup
     AS ERROR R-HLY-DKH
     FOR BT-27-LotsGroup
     IN *
+    SCOPE @POST
   ASSERT BT-27-LotsGroup-Currency is present
     AS ERROR R-WCE-Q64
     FOR BT-27-LotsGroup-Currency
@@ -13855,6 +13901,7 @@ WITH BT-27-Part
     AS ERROR R-3P7-WBA
     FOR BT-27-Part
     IN *
+    SCOPE @POST
   ASSERT BT-27-Part-Currency is present
     AS ERROR R-OKT-YQ7
     FOR BT-27-Part-Currency
@@ -13871,6 +13918,7 @@ WITH BT-27-Procedure
     AS ERROR R-1O8-CWT
     FOR BT-27-Procedure
     IN *
+    SCOPE @POST
   ASSERT BT-27-Procedure-Currency is present
     AS ERROR R-PUX-N6I
     FOR BT-27-Procedure-Currency
@@ -13887,6 +13935,7 @@ WITH BT-271-Lot
     AS ERROR R-4WN-3NT
     FOR BT-271-Lot
     IN *
+    SCOPE @POST
   ASSERT BT-271-Lot-Currency is present
     AS ERROR R-JK6-BRS
     FOR BT-271-Lot-Currency
@@ -13903,6 +13952,7 @@ WITH BT-271-LotsGroup
     AS ERROR R-26Y-2C8
     FOR BT-271-LotsGroup
     IN *
+    SCOPE @POST
   ASSERT BT-271-LotsGroup-Currency is present
     AS ERROR R-K82-PDC
     FOR BT-271-LotsGroup-Currency
@@ -13919,6 +13969,7 @@ WITH BT-271-Procedure
     AS ERROR R-W8T-0RM
     FOR BT-271-Procedure
     IN *
+    SCOPE @POST
   ASSERT BT-271-Procedure-Currency is present
     AS ERROR R-6FU-JL7
     FOR BT-271-Procedure-Currency
@@ -15057,6 +15108,7 @@ WITH BT-553-Tender
     AS ERROR R-TV8-MXV
     FOR BT-553-Tender
     IN *
+    SCOPE @POST
   ASSERT BT-553-Tender-Currency is present
     AS ERROR R-67G-EPC
     FOR BT-553-Tender-Currency
@@ -15287,6 +15339,7 @@ WITH BT-644-Lot
     AS ERROR R-5U1-53T
     FOR BT-644-Lot
     IN *
+    SCOPE @POST
   ASSERT BT-644-Lot-Currency is present
     AS ERROR R-GKE-KT6
     FOR BT-644-Lot-Currency
@@ -15331,6 +15384,7 @@ WITH BT-660-LotResult
     AS ERROR R-4TF-ZMU
     FOR BT-660-LotResult
     IN *
+    SCOPE @POST
   ASSERT BT-660-LotResult-Currency is present
     AS ERROR R-PYL-QN9
     FOR BT-660-LotResult-Currency
@@ -15561,6 +15615,7 @@ WITH BT-709-LotResult
     AS ERROR R-X9B-HE6
     FOR BT-709-LotResult
     IN *
+    SCOPE @POST
   ASSERT BT-709-LotResult-Currency is present
     AS ERROR R-X1V-8RJ
     FOR BT-709-LotResult-Currency
@@ -15605,6 +15660,7 @@ WITH BT-710-LotResult
     AS ERROR R-ITO-MJP
     FOR BT-710-LotResult
     IN *
+    SCOPE @POST
   ASSERT BT-710-LotResult-Currency is present
     AS ERROR R-VXS-3TI
     FOR BT-710-LotResult-Currency
@@ -15621,6 +15677,7 @@ WITH BT-711-LotResult
     AS ERROR R-CVQ-GBX
     FOR BT-711-LotResult
     IN *
+    SCOPE @POST
   ASSERT BT-711-LotResult-Currency is present
     AS ERROR R-0T1-7HD
     FOR BT-711-LotResult-Currency
@@ -15687,6 +15744,7 @@ WITH BT-720-Tender
     AS ERROR R-VS2-7ET
     FOR BT-720-Tender
     IN *
+    SCOPE @POST
   ASSERT BT-720-Tender-Currency is present
     AS ERROR R-KON-S77
     FOR BT-720-Tender-Currency
@@ -16491,6 +16549,7 @@ WITH BT-779-Tender
     AS ERROR R-E4E-GPK
     FOR BT-779-Tender
     IN *
+    SCOPE @POST
   ASSERT BT-779-Tender-Currency is present
     AS ERROR R-AAV-JL8
     FOR BT-779-Tender-Currency
@@ -16531,6 +16590,7 @@ WITH BT-782-Tender
     AS ERROR R-7YW-93Y
     FOR BT-782-Tender
     IN *
+    SCOPE @POST
   ASSERT BT-782-Tender-Currency is present
     AS ERROR R-SRL-CUE
     FOR BT-782-Tender-Currency
@@ -16657,6 +16717,7 @@ WITH BT-793-Review
     AS ERROR R-HJV-BSC
     FOR BT-793-Review
     IN *
+    SCOPE @POST
   ASSERT BT-793-Review-Currency is present
     AS ERROR R-DD9-7DM
     FOR BT-793-Review-Currency
@@ -16683,6 +16744,7 @@ WITH BT-795-Review
     AS ERROR R-UW7-5K0
     FOR BT-795-Review
     IN *
+    SCOPE @POST
   ASSERT BT-795-Review-Currency is present
     AS ERROR R-5X9-UZS
     FOR BT-795-Review-Currency
@@ -20226,6 +20288,7 @@ WITH ND-LotsGroupAwardCriteria
     AS ERROR R-0MB-OTZ
     FOR BT-539-LotsGroup
     IN 29,31,32
+    SCOPE @POST
   WHEN (BT-541-LotsGroup-WeightNumber is present) or (BT-541-LotsGroup-FixedNumber is present) or (BT-541-LotsGroup-ThresholdNumber is present)
   ASSERT BT-543-LotsGroup is not present
     AS ERROR R-MJS-M95
@@ -20236,6 +20299,7 @@ WITH ND-LotsGroupAwardCriteria
     AS ERROR R-U2S-BX8
     FOR BT-543-LotsGroup
     IN 29,31,32
+    SCOPE @POST
   WHEN not(some text:$x in BT-5421-LotsGroup satisfies $x == 'ord-imp')
   ASSERT BT-733-LotsGroup is not present
     AS ERROR R-VMV-NJN
@@ -23350,9 +23414,10 @@ WITH ND-BuyerReviewComplainants
 WITH ND-Company
   WHEN (OPT-200-Organization-Company in OPT-300-Procedure-Buyer)
   ASSERT (BT-514-Organization-Company[OPT-200-Organization-Company in OPT-300-Procedure-Buyer] in #lawful-country)
-    AS ERROR R-K44-JP5
+    AS WARNING R-K44-JP5
     FOR BT-514-Organization-Company
     IN *
+    SCOPE #LAWFULNESS
   ASSERT ((OPT-200-Organization-Company in OPT-300-Contract-Signatory) or (OPT-200-Organization-Company in OPT-300-Procedure-Buyer) or (OPT-200-Organization-Company in OPT-300-Procedure-SProvider) or (OPT-200-Organization-Company in OPT-300-Tenderer) or (OPT-200-Organization-Company in OPT-301-Lot-AddInfo) or (OPT-200-Organization-Company in OPT-301-Lot-DocProvider) or (OPT-200-Organization-Company in OPT-301-Lot-EmployLegis) or (OPT-200-Organization-Company in OPT-301-Lot-EnvironLegis) or (OPT-200-Organization-Company in OPT-301-Lot-FiscalLegis) or (OPT-200-Organization-Company in OPT-301-Lot-Mediator) or (OPT-200-Organization-Company in OPT-301-Lot-ReviewInfo) or (OPT-200-Organization-Company in OPT-301-Lot-ReviewOrg) or (OPT-200-Organization-Company in OPT-301-Lot-TenderEval) or (OPT-200-Organization-Company in OPT-301-Lot-TenderReceipt) or (OPT-200-Organization-Company in OPT-301-LotResult-Financing) or (OPT-200-Organization-Company in OPT-301-LotResult-Paying) or (OPT-200-Organization-Company in OPT-301-Part-AddInfo) or (OPT-200-Organization-Company in OPT-301-Part-DocProvider) or (OPT-200-Organization-Company in OPT-301-Part-EmployLegis) or (OPT-200-Organization-Company in OPT-301-Part-EnvironLegis) or (OPT-200-Organization-Company in OPT-301-Part-FiscalLegis) or (OPT-200-Organization-Company in OPT-301-Part-Mediator) or (OPT-200-Organization-Company in OPT-301-Part-ReviewInfo) or (OPT-200-Organization-Company in OPT-301-Part-ReviewOrg) or (OPT-200-Organization-Company in OPT-301-Part-TenderEval) or (OPT-200-Organization-Company in OPT-301-Part-TenderReceipt) or (OPT-200-Organization-Company in BT-807-Review) or (OPT-200-Organization-Company in BT-808-Review) or (OPT-200-Organization-Company in OPT-301-Tenderer-MainCont) or (OPT-200-Organization-Company in OPT-301-Tenderer-SubCont))
     AS ERROR R-REA-SY4
     FOR OPT-200-Organization-Company
@@ -24195,9 +24260,10 @@ WITH ND-RootExtension
     FOR OPP-070-notice
     IN *
   ASSERT OPP-070-notice != 'CEI'
-    AS ERROR R-164-YEG
+    AS WARNING R-164-YEG
     FOR OPP-070-notice
     IN *
+    SCOPE #LAWFULNESS
 
 WITH ND-SecondStage
   ASSERT ((OPP-070-notice == '16') and (BT-105-Procedure == 'comp-dial') and (BT-50-Lot > 2)) or not(OPP-070-notice == '16') or not(BT-105-Procedure == 'comp-dial') or BT-766-Lot in ['dps-list','dps-nlist'] or (BT-01-notice == '32024R2509')
