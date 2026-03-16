@@ -8,9 +8,9 @@
 <entry key="auxiliary|text|accessibility">Tilgængelighedskriterier</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc-kommunikationskanal</entry>
 <entry key="auxiliary|text|award-criteria">Tildelingskriterier</entry>
-<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategori for tildelingskriteriet vægt</entry>
-<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategori for tildelingskriteriet fast værdi</entry>
-<entry key="auxiliary|text|award-criterion-weight-dimension">Kategori for tildelingskriteriet tærskel</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Kategori for tildelingskriteriet fast værdi</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Kategori for tildelingskriteriet tærskel</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Kategori for tildelingskriteriet vægt</entry>
 <entry key="auxiliary|text|beneficial-owner">Reel ejer</entry>
 <entry key="auxiliary|text|buyer">Køber</entry>
 <entry key="auxiliary|text|buyer-competent">Kompetent myndighed</entry>
@@ -57,6 +57,7 @@
 <entry key="auxiliary|text|lot">Delkontrakt</entry>
 <entry key="auxiliary|text|modification">Kontraktændring</entry>
 <entry key="auxiliary|text|name">Navn</entry>
+<entry key="auxiliary|text|non-leaders-tendering-party">Officielle navne på ikke-ledere hos tilbudsgiveren</entry>
 <entry key="auxiliary|text|non-winning-tender">Ikke-vindende tilbudsgivere</entry>
 <entry key="auxiliary|text|notice-information">Oplysninger om bekendtgørelsen</entry>
 <entry key="auxiliary|text|object">Genstand</entry>
@@ -92,8 +93,8 @@
 <entry key="auxiliary|text|prize-information">Pris</entry>
 <entry key="auxiliary|text|procedure">Procedure</entry>
 <entry key="auxiliary|text|procedure-terms">Vilkår for proceduren</entry>
-<entry key="auxiliary|text|procurement-documents">Udbudsdokumenter</entry>
-<entry key="auxiliary|text|procurement-terms">Udbudsvilkår</entry>
+<entry key="auxiliary|text|procurement-documents">Tilbudsdokumenter</entry>
+<entry key="auxiliary|text|procurement-terms">Tilbudsvilkår</entry>
 <entry key="auxiliary|text|public-opening">Oplysninger om offentlig iværksættelse</entry>
 <entry key="auxiliary|text|publication-gazette">Offentliggørelse i den officielle tidende</entry>
 <entry key="auxiliary|text|publication-information">Oplysninger om offentliggørelsen</entry>

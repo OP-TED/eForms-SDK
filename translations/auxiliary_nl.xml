@@ -8,9 +8,9 @@
 <entry key="auxiliary|text|accessibility">Toegankelijkheidscriteria</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad-hoccommunicatiekanaal</entry>
 <entry key="auxiliary|text|award-criteria">Gunningscriteria</entry>
-<entry key="auxiliary|text|award-criterion-fixed-dimension">Categorie van het gunningscriterium gewicht</entry>
-<entry key="auxiliary|text|award-criterion-threshold-dimension">Categorie van het gunningscriterium vaste waarde</entry>
-<entry key="auxiliary|text|award-criterion-weight-dimension">Categorie van het gunningscriterium drempel</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Categorie van het gunningscriterium vaste waarde</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Categorie van het gunningscriterium drempel</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Categorie van het gunningscriterium gewicht</entry>
 <entry key="auxiliary|text|beneficial-owner">Uiteindelijk begunstigde</entry>
 <entry key="auxiliary|text|buyer">Koper</entry>
 <entry key="auxiliary|text|buyer-competent">Bevoegde autoriteit</entry>
@@ -57,6 +57,7 @@
 <entry key="auxiliary|text|lot">Perceel</entry>
 <entry key="auxiliary|text|modification">Wijziging van een opdracht</entry>
 <entry key="auxiliary|text|name">Naam</entry>
+<entry key="auxiliary|text|non-leaders-tendering-party">Officiële namen van de ondernemingen die deel uitmaken van een inschrijvende groep, maar niet de leider van de groep zijn</entry>
 <entry key="auxiliary|text|non-winning-tender">Niet-winnende inschrijvers</entry>
 <entry key="auxiliary|text|notice-information">Informatie over een aankondiging</entry>
 <entry key="auxiliary|text|object">Voorwerp</entry>
@@ -89,7 +90,7 @@
 <entry key="auxiliary|text|place-performance">Plaats van uitvoering</entry>
 <entry key="auxiliary|text|place-registration">Plaats van registratie</entry>
 <entry key="auxiliary|text|previous-planning">Informatie over eerdere aankondigingen</entry>
-<entry key="auxiliary|text|prize-information">Prijz</entry>
+<entry key="auxiliary|text|prize-information">Prijs</entry>
 <entry key="auxiliary|text|procedure">Procedure</entry>
 <entry key="auxiliary|text|procedure-terms">Voorwaarden van de procedure</entry>
 <entry key="auxiliary|text|procurement-documents">Aanbestedingsstukken</entry>
