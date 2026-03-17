@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Se aplică un acord-cadru' (BT-765-Lot) nu este una dintre următoarele: 'Acord-cadru, parțial fără și parțial cu reluarea procedurii concurențiale'; 'Acord-cadru, cu reluarea procedurii concurențiale'; 'Acord-cadru, fără reluarea procedurii concurențiale' și 'Statutul selecției câștigătorului' (BT-142-LotResult)este 'A fost selecționat cel puțin un câștigător.' și (BT-660-LotResult)nu este completat</entry>
 <entry key="expression|name|337">Acesta nu este un contract-cadru; 'Valoarea maximă a acordului-cadru' (BT-709-LotResult) nu este completat</entry>
 <entry key="expression|name|338">Nu a fost ales un câștigător; acesta nu este un contract-cadru; 'Valoarea maximă a acordului-cadru' (BT-709-LotResult) nu este completat</entry>
-<entry key="expression|name|339">Nu a fost ales un câștigător; acesta nu este un contract-cadru</entry>
+<entry key="expression|name|339">Nu există loturi atribuite fără un acord-cadru și nici contracte încheiate în baza unui acord-cadru.</entry>
 <entry key="expression|name|34">'Tip de procedură' (BT-105) nu poate fi niciuna dintre 'Dialog competitiv', 'Parteneriat pentru inovare'; 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'</entry>
 <entry key="expression|name|340">Nu se utilizează sistemul dinamic de achiziții</entry>
 <entry key="expression|name|341">Organizația nu este ofertant sau subcontractant</entry>

@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Se aplica un acuerdo marco' (BT-765-Lot) no es uno de los siguientes: 'Acuerdo marco, en parte con y en parte sin convocatoria de nueva licitación'; 'Acuerdo marco con convocatoria de nueva licitación'; 'Acuerdo marco sin convocatoria de nueva licitación' y 'Estado de selección del ganador' (BT-142-LotResult) es 'Se ha escogido al menos un ganador.' y (BT-660-LotResult) no está cumplimentado</entry>
 <entry key="expression|name|337">No se trata de un contrato marco; 'Valor máximo del acuerdo marco' (BT-709-LotResult) no está cumplimentado</entry>
 <entry key="expression|name|338">No se ha elegido ningún ganador; no se trata de un contrato marco; 'Valor máximo del acuerdo marco' (BT-709-LotResult) no está cumplimentado</entry>
-<entry key="expression|name|339">No se ha elegido ningún ganador; no se trata de un contrato marco</entry>
+<entry key="expression|name|339">No hay ningún lote adjudicado sin un acuerdo marco ni ningún contrato celebrado con arreglo a un acuerdo marco.</entry>
 <entry key="expression|name|34">'Tipo de procedimiento' (BT-105) no debe ser 'Diálogo competitivo' ni 'Asociación para la innovación'; 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'</entry>
 <entry key="expression|name|340">No se utiliza el sistema dinámico de adquisición</entry>
 <entry key="expression|name|341">La organización no es un licitador ni un subcontratista</entry>

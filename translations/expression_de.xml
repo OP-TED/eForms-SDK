@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Rahmenvereinbarung geschlossen' (BT-765-Lot) ist nicht eines der folgenden: 'Rahmenvereinbarung, teilweise mit erneutem Aufruf zum Wettbewerb, teilweise ohne erneuten Aufruf zum Wettbewerb'; 'Rahmenvereinbarung mit erneutem Aufruf zum Wettbewerb'; 'Rahmenvereinbarung ohne erneuten Aufruf zum Wettbewerb' und 'Status der Preisträgerauswahl' (BT-142-LotResult) ist 'Es wurde mindestens ein Gewinner ermittelt.' and (BT-660-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|337">Es handelt sich nicht um einen Rahmenvertrag; 'Höchstwert der Rahmenvereinbarung' (BT-709-LotResult) ist nicht ausgefüllt</entry>
 <entry key="expression|name|338">Es wurde kein Gewinner gewählt; es handelt sich nicht um einen Rahmenvertrag; 'Höchstwert der Rahmenvereinbarung' (BT-709-LotResult) ist nicht ausgefüllt</entry>
-<entry key="expression|name|339">Es wurde kein Gewinner gewählt; es handelt sich nicht um einen Rahmenvertrag</entry>
+<entry key="expression|name|339">Es gibt kein vergebenes Los ohne Rahmenvereinbarung und keinen Auftrag innerhalb einer Rahmenvereinbarung.</entry>
 <entry key="expression|name|34">'Verfahrensart' (BT-105) darf auch nicht sein 'Wettbewerblicher Dialog', 'Innovationspartnerschaften'; 'Verhandlungsverfahren mit vorheriger Veröffentlichung eines Aufrufs zum Wettbewerb/Verhandlungsverfahren'</entry>
 <entry key="expression|name|340">Das dynamische Einkaufssystem wird nicht verwendet</entry>
 <entry key="expression|name|341">Die Organisation ist weder Bieter noch Subunternehmer</entry>

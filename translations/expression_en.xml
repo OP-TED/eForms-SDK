@@ -249,7 +249,7 @@
 <entry key="expression|name|336">'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-660-LotResult) is not filled in</entry>
 <entry key="expression|name|337">It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in</entry>
 <entry key="expression|name|338">No winner was chosen; It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in</entry>
-<entry key="expression|name|339">No winner was chosen; It is not a framework contract</entry>
+<entry key="expression|name|339">There is no awarded lot without a framework agreement and no contract within a framework agreement.</entry>
 <entry key="expression|name|34">'Type of procedure' (BT-105) must not be either 'Competitive dialogue', 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|340">Dynamic purchasing system is not used</entry>
 <entry key="expression|name|341">The organisation is not a tenderer or subcontractor</entry>

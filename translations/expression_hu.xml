@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Keretmegállapodás' (BT-765-Lot) nem a következők egyike: 'Keretmegállapodás részben a verseny újbóli megnyitása nélkül, részben azzal együtt'; 'Keretmegállapodás a verseny újbóli megnyitásával'; 'Keretmegállapodás a verseny újbóli megnyitása nélkül', és 'Van-e nyertes kiválasztva?' (BT-142-LotResult) = 'Legalább egy nyertes kiválasztására sor került.', és (BT-660-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|337">Ez nem keretszerződés; 'A keretmegállapodás maximális értéke' (BT-709-LotResult) nincs kitöltve</entry>
 <entry key="expression|name|338">Nem választottak nyertest; Ez nem keretszerződés; 'A keretmegállapodás maximális értéke' (BT-709-LotResult) nincs kitöltve</entry>
-<entry key="expression|name|339">Nem választották ki a nyertest; Ez nem keretszerződés</entry>
+<entry key="expression|name|339">Keretmegállapodás nélkül nem lehet részt odaítélni, és keretmegállapodáson belül nem lehet szerződést kötni.</entry>
 <entry key="expression|name|34">'Az eljárás típusa' (BT-105) nem lehet 'Versenypárbeszéd', 'Innovációs partnerség'; 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'</entry>
 <entry key="expression|name|340">Nem használnak dinamikus beszerzési rendszert</entry>
 <entry key="expression|name|341">A szervezet nem ajánlattevő vagy alvállalkozó</entry>

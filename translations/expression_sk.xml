@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Uplatňuje sa rámcová dohoda' (BT-765-Lot) nie je jedným z týchto: 'Rámcová dohoda, časť bez opätovného vyhlásenia a časť s opätovným vyhlásením súťaže'; 'Rámcová dohoda, s opätovným vyhlásením súťaže'; 'Rámcová dohoda, bez opätovného vyhlásenia súťaže' a 'Stav výberu víťaza' (BT-142-LotResult) je 'Bol vybratý aspoň jeden víťaz.' a (BT-660-LotResult) nie je vyplnený</entry>
 <entry key="expression|name|337">Nejde o rámcovú zmluvu; 'Maximálna hodnota rámcovej dohody' (BT-709-LotResult) nie je vyplnený</entry>
 <entry key="expression|name|338">Nebol vybraný žiadny víťaz; nejde o rámcovú zmluvu; 'Maximálna hodnota rámcovej dohody' (BT-709-LotResult) nie je vyplnený</entry>
-<entry key="expression|name|339">Nebol vybraný žiadny víťaz; nejde o rámcovú zmluvu</entry>
+<entry key="expression|name|339">Bez rámcovej dohody nemožno zadať žiadnu časť a v rámci rámcovej dohody nie je možné uzavrieť žiadnu zmluvu.</entry>
 <entry key="expression|name|34">'Druh postupu' (BT-105) nesmie byť ani 'Súťažný dialóg', 'Inovatívne partnerstvo'; 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'</entry>
 <entry key="expression|name|340">Dynamický nákupný systém sa nepoužíva</entry>
 <entry key="expression|name|341">Organizácia nie je uchádzačom ani subdodávateľom</entry>

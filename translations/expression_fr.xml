@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Il s’agit d’un accord-cadre' (BT-765-Lot) ne fait pas partie des éléments suivants: 'Accord-cadre, en partie sans remise en concurrence et en partie avec remise en concurrence'; 'Accord-cadre, avec remise en concurrence'; 'Accord-cadre, sans remise en concurrence', et 'Statut sélection lauréat' (BT-142-LotResult) est 'Au moins un lauréat a été choisi.' et (BT-660-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|337">Il ne s’agit pas d’un contrat-cadre; 'Valeur maximale de l’accord-cadre' (BT-709-LotResult) n’est pas rempli</entry>
 <entry key="expression|name|338">Aucun adjudicataire n’a été retenu; il ne s’agit pas d’un contrat-cadre; 'Valeur maximale de l’accord-cadre' (BT-709-LotResult) n’est pas rempli</entry>
-<entry key="expression|name|339">Aucun adjudicataire n’a été retenu; il ne s’agit pas d’un contrat-cadre</entry>
+<entry key="expression|name|339">Il n’y a pas de lot attribué sans accord-cadre ni de contrat dans le contexte d’un accord-cadre.</entry>
 <entry key="expression|name|34">'Type de procédure' (BT-105) ne doit pas être 'Dialogue compétitif', 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|340">Le système d’acquisition dynamique n’est pas utilisé</entry>
 <entry key="expression|name|341">L'organisation n'est ni un soumissionnaire ni un sous-traitant</entry>

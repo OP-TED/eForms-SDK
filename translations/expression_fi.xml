@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Käytetään puitejärjestelyä' (BT-765-Lot) ei ole mikään seuraavista: 'Puitejärjestely, johon liittyy osittainen uudelleen kilpailuttaminen', 'Puitejärjestely, johon liittyy uudelleen kilpailuttaminen', 'Puitejärjestely, johon ei liity uudelleen kilpailuttamista', ja 'Voittajan valinnan tila' (BT-142-LotResult) on 'Vähintään yksi voittaja valittu.', ja (BT-660-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|337">Kyseessä ei ole puitesopimus; 'Puitejärjestelyn enimmäisarvo' (BT-709-LotResult) ei ole täytetty</entry>
 <entry key="expression|name|338">Voittajaa ei valittu; kyseessä ei ole puitesopimus; 'Puitejärjestelyn enimmäisarvo' (BT-709-LotResult) ei ole täytetty</entry>
-<entry key="expression|name|339">Voittajaa ei valittu; kyseessä ei ole puitesopimus</entry>
+<entry key="expression|name|339">Osasta ei ole tehty hankintasopimusta ilman puitejärjestelyä eikä puitejärjestelyssä.</entry>
 <entry key="expression|name|34">'Menettelyn tyyppi' (BT-105) ei voi olla 'Kilpailullinen neuvottelumenettely', 'Innovaatiokumppanuus', 'Tarjouskilpailukutsun julkaisemisen jälkeinen neuvottelumenettely / tarjousperusteinen neuvottelumenettely'</entry>
 <entry key="expression|name|340">Dynaamista hankintajärjestelmää ei käytetä</entry>
 <entry key="expression|name|341">Organisaatio ei ole tarjoaja eikä alihankkija</entry>

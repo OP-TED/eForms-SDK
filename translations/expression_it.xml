@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Si tratta di un accordo quadro' (BT-765-Lot) non è uno dei seguenti:'Accordo quadro, parzialmente senza riapertura della gara e parzialmente con riapertura della gara'; 'Accordo quadro, con riapertura della gara'; 'Accordo quadro, senza riapertura della gara', e 'Status del processo di selezione' (BT-142-LotResult) è 'È stato selezionato almeno un vincitore.' e (BT-660-LotResult) non è compilato</entry>
 <entry key="expression|name|337">Non si tratta di un contratto quadro; 'Valore massimo dell'accordo quadro' (BT-709-LotResult) non è compilato</entry>
 <entry key="expression|name|338">Nessun vincitore è stato scelto; non si tratta di un contratto quadro; 'Valore massimo dell'accordo quadro' (BT-709-LotResult) non è compilato</entry>
-<entry key="expression|name|339">Non è stato scelto alcun vincitore; non si tratta di un contratto quadro</entry>
+<entry key="expression|name|339">Non esiste alcun lotto aggiudicato senza un accordo quadro e nessun contratto nell'ambito di un accordo quadro.</entry>
 <entry key="expression|name|34">'Tipo di procedura' (BT-105) non deve essere 'Dialogo competitivo', 'Partenariato per l'innovazione'; 'Negoziata con previa indizione di gara / competitiva con negoziazione'</entry>
 <entry key="expression|name|340">Il sistema dinamico di acquisizione non è utilizzato</entry>
 <entry key="expression|name|341">L'organizzazione non è un offerente né un subappaltatore</entry>
