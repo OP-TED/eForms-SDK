@@ -69,6 +69,7 @@ shorthandFieldValueReferenceFromContextField
     ;
 
 functionInvocation: FunctionPrefix functionName=Identifier OpenParenthesis argumentList? CloseParenthesis;
+dynamicFunctionInvocation: functionInvocation;
 
 /**************************************
   Parameters & Arguments
@@ -872,6 +873,7 @@ variableReference: VariablePrefix variableName=Identifier;
 variableDeclaration
     : Let stringVariableInitializer Semicolon
     | Let booleanVariableInitializer  Semicolon
+    | Let dynamicVariableInitializer Semicolon
     | Let numericVariableInitializer Semicolon
     | Let dateVariableInitializer Semicolon
     | Let timeVariableInitializer  Semicolon
@@ -913,6 +915,7 @@ variableList: variableInitializer (Comma variableInitializer)*;
 variableInitializer
     : stringVariableInitializer
     | booleanVariableInitializer
+    | dynamicVariableInitializer
     | numericVariableInitializer
     | dateVariableInitializer
     | timeVariableInitializer
@@ -929,6 +932,7 @@ variableInitializer
 // Scalar variable initializers - only accept scalar expressions or lateBoundScalar
 stringVariableInitializer:      Text        Colon VariablePrefix variableName=Identifier Assignment (stringExpression   | lateBoundScalar);
 booleanVariableInitializer:     Indicator   Colon VariablePrefix variableName=Identifier Assignment (booleanExpression  | lateBoundScalar);
+dynamicVariableInitializer:     Dynamic     Colon VariablePrefix variableName=Identifier Assignment dynamicFunctionInvocation;
 numericVariableInitializer:     Number      Colon VariablePrefix variableName=Identifier Assignment (numericExpression  | lateBoundScalar);
 dateVariableInitializer:        Date        Colon VariablePrefix variableName=Identifier Assignment (dateExpression     | lateBoundScalar);
 timeVariableInitializer:        Time        Colon VariablePrefix variableName=Identifier Assignment (timeExpression     | lateBoundScalar);
@@ -961,12 +965,29 @@ durationSequenceVariableInitializer: Duration  Star Colon VariablePrefix variabl
  * Rules within a stage can target different notice types via the IN clause.
  * The transpiler groups rules by stage + notice-type to generate output files.
  *
- * Note: Only variable declarations are supported at global and stage level.
- * Functions and dictionaries are not supported.
+ * The global level supports variable declarations, API endpoint declarations,
+ * and API function declarations. Dictionaries are not supported.
  */
-rulesFile: includeDirective* globalVariableDeclaration* (validationStage | includeDirective)+ EOF;
+rulesFile: includeDirective* apiEndpointDeclaration* (dynamicFunctionDeclaration | globalVariableDeclaration)* (validationStage | includeDirective)+ EOF;
 
 includeDirective: IncludeDirective IncludePath;
+
+/*
+ * Named API endpoint declaration with optional compile-time default URL.
+ * Generated as Schematron <param> elements, overridable at runtime.
+ */
+apiEndpointDeclaration: Endpoint endpointName=StringLiteral (At endpointUrl=StringLiteral)? Semicolon;
+
+/*
+ * API function declaration. Declares an external API-backed boolean function
+ * with typed parameters. The function is invoked using the standard function
+ * call syntax (?name(args)) and validated via StrictArguments.
+ * API functions always return boolean (represented as a tri-state integer at runtime:
+ * 1 = true, 0 = false, -1 = error).
+ * The optional "boolean :" prefix is an explicit return type annotation for readability.
+ */
+dynamicFunctionDeclaration: Let Dynamic Colon FunctionPrefix functionName=Identifier OpenParenthesis parameterList? CloseParenthesis Call Api endpointName=StringLiteral? onErrorClause? Semicolon;
+onErrorClause: Comma? On Error (Warn | Reject) errorLabel=StringLiteral?;
 
 /*
  * Global variable declarations that apply across all stages.
