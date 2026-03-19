@@ -36,7 +36,7 @@
 <entry key="expression|name|133">'Suorituspaikkaa koskevat rajoitukset' (BT-727) ei ole täytetty ja 'Maa' (BT-5141-UBO) ei ole NUTS-koodeja</entry>
 <entry key="expression|name|134">'Suorituspaikkaa koskevat rajoitukset' (BT-727) ei ole täytetty ja 'Maa' (BT-5141-UBO) ei ole NUTS-koodeja</entry>
 <entry key="expression|name|135">'Suorituspaikkaa koskevat rajoitukset' (BT-727) ei ole täytetty ja 'Maa' (BT-5141-UBO) ei ole NUTS-koodeja</entry>
-<entry key="expression|name|136">'Maa' (BT-5141-UBO) vaatii postinumeron, ja 'Postiosoite' (BT-5101(a)) on täytetty</entry>
+<entry key="expression|name|136">'Maa' (BT-5141-Lot) on 'Luettelo maakoodeista maille, joilla on postinumerot ja jotka edellyttävät niiden käyttöä' (postcode-country) ja 'Postiosoite' (BT-5101(a)-Lot) on läsnä</entry>
 <entry key="expression|name|137">'Maa' (BT-5141-UBO) vaatii postinumeron, ja 'Postiosoite' (BT-5101(a)) on täytetty</entry>
 <entry key="expression|name|138">'Maa' (BT-5141-UBO) vaatii postinumeron, ja 'Postiosoite' (BT-5101(a)) on täytetty</entry>
 <entry key="expression|name|139">'Suorituspaikkaa koskevat rajoitukset' (BT-727) ja 'Maa' (BT-5141) ei ole täytetty</entry>

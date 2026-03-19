@@ -36,7 +36,7 @@
 <entry key="expression|name|133">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727) nie jest wypełnione, a 'Kraj' (BT-5141-UBO) posiada kody NUTS</entry>
 <entry key="expression|name|134">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727) nie jest wypełnione, a 'Kraj' (BT-5141-UBO) posiada kody NUTS</entry>
 <entry key="expression|name|135">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727) nie jest wypełnione, a 'Kraj' (BT-5141-UBO) posiada kody NUTS</entry>
-<entry key="expression|name|136">'Kraj' (BT-5141-UBO) wymaga kodu pocztowego, a 'Adres pocztowy' (BT-5101(a)) jest wypełnione</entry>
+<entry key="expression|name|136">'Kraj' (BT-5141-Lot) jest w 'Lista kodów krajów posiadających kody pocztowe i wymagających ich używania' (postcode-country) i 'Adres pocztowy' (BT-5101(a)-Lot) jest obecny</entry>
 <entry key="expression|name|137">'Kraj' (BT-5141-UBO) wymaga kodu pocztowego, a 'Adres pocztowy' (BT-5101(a)) jest wypełnione</entry>
 <entry key="expression|name|138">'Kraj' (BT-5141-UBO) wymaga kodu pocztowego, a 'Adres pocztowy' (BT-5101(a)) jest wypełnione</entry>
 <entry key="expression|name|139">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727) i 'Kraj' (BT-5141) nie są wypełnione</entry>
