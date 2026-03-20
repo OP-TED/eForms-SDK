@@ -292,6 +292,7 @@
         <assert id="R-X2T-V71" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5101_c_-Lot" test="not(cac:Address/cac:AddressLine/cbc:Line)">rule|text|R-X2T-V71</assert>
         <assert id="R-83S-MQM" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5121-Lot" test="not(cac:Address/cbc:PostalZone)">rule|text|R-83S-MQM</assert>
         <assert id="R-WE4-JKZ" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5131-Lot" test="not(cac:Address/cbc:CityName)">rule|text|R-WE4-JKZ</assert>
+        <assert id="R-ELW-BNM" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-5141-Lot" test="not(cac:Address/cac:Country/cbc:IdentificationCode)">rule|text|R-ELW-BNM</assert>
         <assert id="R-EI7-KOH" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-727-Lot" test="not(cac:Address/cbc:Region)">rule|text|R-EI7-KOH</assert>
         <assert id="R-9KB-PQL" role="ERROR" diagnostics="ND-LotPlacePerformance_BT-728-Lot" test="not(cbc:Description)">rule|text|R-9KB-PQL</assert>
     </rule>
