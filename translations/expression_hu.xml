@@ -37,7 +37,7 @@
 <entry key="expression|name|134">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) nincs kitöltve, és 'Ország' (BT-5141-UBO) rendelkezik NUTS-kódokkal</entry>
 <entry key="expression|name|135">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) nincs kitöltve, és 'Ország' (BT-5141-UBO) rendelkezik NUTS-kódokkal</entry>
 <entry key="expression|name|136">'Ország' (BT-5141-Lot) van 'Az irányítószámmal rendelkező és azok használatát igénylő országok országkódjainak listája' (postcode-country) és 'Postacím' (BT-5101(a)-Lot) jelen van</entry>
-<entry key="expression|name|137">Kötelező irányítószám ehhez: 'Ország' (BT-5141-UBO), 'Postacím' (BT-5101(a)) pedig ki van töltve</entry>
+<entry key="expression|name|137">'Ország' (BT-5141-Part) van 'Az irányítószámmal rendelkező és azok használatát igénylő országok országkódjainak listája' (postcode-country) és 'Postacím' (BT-5101(a)-Part) jelen van</entry>
 <entry key="expression|name|138">Kötelező irányítószám ehhez: 'Ország' (BT-5141-UBO), 'Postacím' (BT-5101(a)) pedig ki van töltve</entry>
 <entry key="expression|name|139">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727) és 'Ország' (BT-5141) nincs kitöltve</entry>
 <entry key="expression|name|1393">'Ország' (BT-5141-Procedure) vagy 'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727-Procedure) létezik</entry>

@@ -37,7 +37,7 @@
 <entry key="expression|name|134">'Andra begränsningar för leveransplatsen' (BT-727) fylls inte i och 'Land' (BT-5141-UBO) har NUTS-koder</entry>
 <entry key="expression|name|135">'Andra begränsningar för leveransplatsen' (BT-727) fylls inte i och 'Land' (BT-5141-UBO) har NUTS-koder</entry>
 <entry key="expression|name|136">'Land' (BT-5141-Lot) är i 'Lista med landskoder för länder som har postnummer och kräver att de används' (postcode-country) och 'Postadress' (BT-5101(a)-Lot) är närvarande</entry>
-<entry key="expression|name|137">'Land' (BT-5141-UBO) kräver ett postnummer, och 'Postadress' (BT-5101(a)) fylls i</entry>
+<entry key="expression|name|137">'Land' (BT-5141-Part) är i 'Lista med landskoder för länder som har postnummer och kräver att de används' (postcode-country) och 'Postadress' (BT-5101(a)-Part) är närvarande</entry>
 <entry key="expression|name|138">'Land' (BT-5141-UBO) kräver ett postnummer, och 'Postadress' (BT-5101(a)) fylls i</entry>
 <entry key="expression|name|139">'Andra begränsningar för leveransplatsen' (BT-727) och 'Land' (BT-5141) fylls inte i</entry>
 <entry key="expression|name|1393">'Land' (BT-5141-Procedure) eller 'Andra begränsningar för leveransplatsen' (BT-727-Procedure) finns</entry>
