@@ -46,8 +46,9 @@ OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 // so that the lexer will find itself in the right mode after processing the expression block.
 StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
 
-// The Let, With, and When keywords switch the lexer to EXPRESSION mode.
+// The Let, With, When, and Endpoint keywords switch the lexer to EXPRESSION mode.
 Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+Endpoint: ENDPOINT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 With: WITH -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 When: WHEN -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
 
@@ -200,7 +201,7 @@ ASSET_TYPE_FIELD: 'field';
 ASSET_TYPE_NODE: 'node';
 ASSET_TYPE_DISPLAY_GROUP: 'group';
 ASSET_TYPE_VIEW_TEMPLATE: 'view';
-ASSET_TYPE_NOTICE: Notice -> type(Notice);
+ASSET_TYPE_NOTICE: 'notice';
 ASSET_TYPE_CODE_LIST: Codelist -> type(Codelist);
 ASSET_TYPE_CODE: Code -> type(Code);
 ASSET_TYPE_INDICATOR: Indicator -> type(Indicator);
@@ -311,12 +312,12 @@ Info: 'INFO';
 Scope: 'SCOPE';
 Pre: '@PRE';
 Post: '@POST';
-Notice: 'notice';
 Codelist: 'codelist';
 Code: 'code';
 Text: 'text';
 Number: 'number';
 Indicator: 'indicator';
+Dynamic: 'dynamic';
 Date: 'date';
 Time: 'time';
 Duration: 'duration';
@@ -424,6 +425,15 @@ RawValue: 'rawValue';
 PreferredLanguage: 'preferredLanguage';
 PreferredLanguageText: 'preferredLanguageText';
 
+// API call keywords
+EndpointExpression: ENDPOINT -> type(Endpoint);
+Call: 'CALL' | 'call';
+Api: 'API' | 'api';
+At: 'AT' | 'at';
+On: 'ON' | 'on';
+Warn: 'WARN' | 'warn';
+Reject: 'REJECT' | 'reject';
+
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
 // Therefore duration literals must be declared before Identifier. 
@@ -501,6 +511,7 @@ fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
 fragment ASSERT: ('ASSERT' | 'assert');
 fragment REPORT: ('REPORT' | 'report');
 fragment STAGE: ('STAGE' | 'stage');
+fragment ENDPOINT: ('ENDPOINT' | 'endpoint');
 fragment INDEX: ('INDEX' | 'index');
 fragment BY: ('BY' | 'by');
 fragment COMMENT: '//' ~[\r\n\f]*;
