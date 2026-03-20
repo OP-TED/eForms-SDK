@@ -38,7 +38,7 @@
 <entry key="expression|name|135">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727) n’est pas rempli et 'Pays' (BT-5141-UBO) possède des codes NUTS</entry>
 <entry key="expression|name|136">'Pays' (BT-5141-Lot) est dans 'Liste des codes pays pour les pays ayant des codes postaux et nécessitant leur utilisation' (postcode-country) et 'Adresse postale' (BT-5101(a)-Lot) est présent</entry>
 <entry key="expression|name|137">'Pays' (BT-5141-Part) est dans 'Liste des codes pays pour les pays ayant des codes postaux et nécessitant leur utilisation' (postcode-country) et 'Adresse postale' (BT-5101(a)-Part) est présent</entry>
-<entry key="expression|name|138">'Pays' (BT-5141-UBO) nécessite un code postal et, 'Adresse postale' (BT-5101(a)) est rempli</entry>
+<entry key="expression|name|138">'Pays' (BT-5141-Procedure) est dans 'Liste des codes pays pour les pays ayant des codes postaux et nécessitant leur utilisation' (postcode-country) 'Adresse postale' et (BT-5101(a)-Procedure) est présent</entry>
 <entry key="expression|name|139">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727) et 'Pays' (BT-5141) ne sont pas remplis</entry>
 <entry key="expression|name|1393">'Pays' (BT-5141-Procedure) ou 'Autres restrictions s’appliquant au lieu d’exécution' (BT-727-Procedure) existe</entry>
 <entry key="expression|name|1394">'Pays' (BT-5141-Part) ou 'Autres restrictions s’appliquant au lieu d’exécution' (BT-727-Part) existe</entry>

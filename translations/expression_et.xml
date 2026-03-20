@@ -38,7 +38,7 @@
 <entry key="expression|name|135">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727) ei ole täidetud ja 'Riik' (BT-5141-UBO) on NUTSi koodideta</entry>
 <entry key="expression|name|136">'Riik' (BT-5141-Lot) on 'Riikide koodid riikide puhul, millel on sihtnumbrid ja mis nõuavad nende kasutamist' (postcode-country) ja 'Postiaadress' (BT-5101(a)-Lot) on olemas</entry>
 <entry key="expression|name|137">'Riik' (BT-5141-Part) on 'Riikide koodid riikide puhul, millel on sihtnumbrid ja mis nõuavad nende kasutamist' (postcode-country) ja 'Postiaadress' (BT-5101(a)-Part) on olemasd</entry>
-<entry key="expression|name|138">'Riik' (BT-5141-UBO) nõuab sihtnumbrit ja 'Postiaadress' (BT-5101(a)) on täidetud</entry>
+<entry key="expression|name|138">'Riik' (BT-5141-Procedure) on 'Riikide koodid riikide puhul, millel on sihtnumbrid ja mis nõuavad nende kasutamist' (postcode-country) 'Postiaadress' ja (BT-5101(a)-Procedure) on olemas</entry>
 <entry key="expression|name|139">'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727) ja 'Riik' (BT-5141) ei ole täidetud</entry>
 <entry key="expression|name|1393">'Riik' (BT-5141-Procedure) või 'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727-Procedure) on olemas</entry>
 <entry key="expression|name|1394">'Riik' (BT-5141-Part) või 'Lepingu täitmise kohale kehtestatud muud piirangud' (BT-727-Part) on olemas</entry>

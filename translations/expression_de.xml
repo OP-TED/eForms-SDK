@@ -38,7 +38,7 @@
 <entry key="expression|name|135">'Sonstige Beschränkungen am Erfüllungsort' (BT-727) ist nicht ausgefüllt und 'Land' (BT-5141-UBO) hat NUTS-Codes</entry>
 <entry key="expression|name|136">'Land' (BT-5141-Lot) ist in 'Liste der Ländercodes für Länder, die Postleitzahlen haben und deren Verwendung verlangen' (postcode-country) und 'Postanschrift' (BT-5101(a)-Lot) ist vorhanden</entry>
 <entry key="expression|name|137">Land' (BT-5141-Part) ist in 'Liste der Ländercodes für Länder, die Postleitzahlen haben und deren Verwendung verlangen' (postcode-country) und 'Postanschrift' (BT-5101(a)-Part) ist vorhanden</entry>
-<entry key="expression|name|138">'Land' (BT-5141-UBO) benötigt eine Postleitzahl und 'Postanschrift' (BT-5101(a)) ist ausgefüllt</entry>
+<entry key="expression|name|138">'Land' (BT-5141-Procedure) ist in 'Liste der Ländercodes für Länder, die Postleitzahlen haben und deren Verwendung verlangen' (postcode-country) 'Postanschrift' und (BT-5101(a)-Procedure) ist vorhanden</entry>
 <entry key="expression|name|139">'Sonstige Beschränkungen am Erfüllungsort' (BT-727) und 'Land' (BT-5141) sind nicht ausgefüllt</entry>
 <entry key="expression|name|1393">'Land' (BT-5141-Procedure) oder 'Sonstige Beschränkungen am Erfüllungsort' (BT-727-Procedure) existiert</entry>
 <entry key="expression|name|1394">'Land' (BT-5141-Part) oder 'Sonstige Beschränkungen am Erfüllungsort' (BT-727-Part) existiert</entry>

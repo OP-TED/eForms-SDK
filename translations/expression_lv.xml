@@ -38,7 +38,7 @@
 <entry key="expression|name|135">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727) nav aizpildīta un, 'Valsts'(BT-5141-UBO)tai ir NUTS kodi</entry>
 <entry key="expression|name|136">'Valsts' (BT-5141-Lot) ir 'Valstu kodu saraksts valstīm, kurām ir pasta indeksi un kurās tie ir jāizmanto' (postcode-country) un 'Pasta adrese' (BT-5101(a)-Lot) ir klāt</entry>
 <entry key="expression|name|137">'Valsts' (BT-5141-Part) ir 'Valstu kodu saraksts valstīm, kurām ir pasta indeksi un kurās tie ir jāizmanto' (postcode-country) un 'Pasta adrese' (BT-5101(a)-Part) ir klāt</entry>
-<entry key="expression|name|138">'Valsts' (BT-5141-UBO) ir vajadzīgs pasta indekss, un 'Pasta adrese' (BT-5101(a)) ir aizpildīta</entry>
+<entry key="expression|name|138">'Valsts' (BT-5141-Procedure) ir 'Valstu kodu saraksts valstīm, kurām ir pasta indeksi un kurās tie ir jāizmanto' (postcode-country) 'Pasta adrese' un (BT-5101(a)-Procedure) ir klāt</entry>
 <entry key="expression|name|139">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727) un 'Valsts' (BT-5141) nav aizpildītas</entry>
 <entry key="expression|name|1393">'Valsts' (BT-5141-Procedure) vai 'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Procedure) pastāv</entry>
 <entry key="expression|name|1394">'Valsts' (BT-5141-Part) vai 'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Part) pastāv</entry>
