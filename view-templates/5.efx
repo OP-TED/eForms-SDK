@@ -1,16 +1,16 @@
 // View 5
 // File generated from metadata database
-let text:$myglobalvar=BT-701-notice;let $lot-by-lot-or-gol-id index BT-137-Lot by BT-137-Lot;let $lot-name-by-lot-or-gol-id index BT-21-Lot by BT-137-Lot;let indicator:?myfunc3()=TRUE; let indicator:?exists-common-value(text*:$seq1, text*:$seq2) = (count(value-intersect($seq1, $seq2)) > 0); let template:role-and-name(text:$label-id, text:$org-tpo-id) display #{${$label-id}}: ${BT-500-Organization-Company[OPT-200-Organization-Company == $org-tpo-id or $org-tpo-id in OPT-201-Organization-TouchPoint]}${BT-500-Organization-TouchPoint[OPT-201-Organization-TouchPoint == $org-tpo-id]};let template:mytemplate(text:$id) display ${BT-500-Organization-Company[OPT-200-Organization-Company == $id]}; // GLOBALS // let $lot-name-by-gol-id index BT-21-Lot by ( for text:$this-lot-id in BT-137-Lot return BT-330-Procedure[ $this-lot-id in BT-1375-Procedure]);// let template:mytemplate(text:$id) display ${BT-500-Organization-Company[OPT-200-Organization-Company == $id]};// let template:mytemplate(text:$id) display ${efx:preferred-language-text(BT-500-Organization-Company[OPT-200-Organization-Company == $id])};// let context:$all-organisations = OPT-200-Organization-Company;// let text:?org-tpo-name(text:$id) = if ($id in OPT-201-Organization-TouchPoint) then concat(BT-500-Organization-Company[$id in OPT-201-Organization-TouchPoint], ' - ', BT-500-Organization-TouchPoint[$id in OPT-201-Organization-TouchPoint]) else BT-500-Organization-Company[$id in OPT-200-Organization-Company];// WITH BT-137-Lot[OPT-301-Lot-AddInfo is present], text:$refid = OPT-301-Lot-AddInfo, text*:$org_name = distinct-values(BT-500-Organization-Company[(OPT-200-Organization-Company == $refid) or ($refid in OPT-201-Organization-TouchPoint)]), text*:$tpo_names = distinct-values(BT-500-Organization-TouchPoint[OPT-201-Organization-TouchPoint == $refid]) DISPLAY #{auxiliary|text|organisation-providing-info-procedure}: ${$org_name}${if (count($tpo_names) > 0) then concat(' - ', $tpo_names[1]) else ''} ; // Organisation providing additional information about the procurement procedure (Lot)
+let text:$myglobalvar=BT-701-notice;let $lot-by-lot-or-gol-id index BT-137-Lot by BT-137-Lot;let $lot-name-by-lot-or-gol-id index BT-21-Lot by BT-137-Lot;let indicator:?myfunc3()=TRUE; let indicator:?exists-common-value(text*:$seq1, text*:$seq2) = (count(value-intersect($seq1, $seq2)) > 0); let template:role-and-name(text:$label-id, text:$org-tpo-id) display #{${$label-id}}: ${BT-500-Organization-Company[OPT-200-Organization-Company == $org-tpo-id or $org-tpo-id in OPT-201-Organization-TouchPoint]:preferredLanguageText}${BT-500-Organization-TouchPoint[OPT-201-Organization-TouchPoint == $org-tpo-id]:preferredLanguageText};let template:mytemplate(text:$id) display ${BT-500-Organization-Company[OPT-200-Organization-Company == $id]:preferredLanguageText}; // GLOBALS // let $lot-name-by-gol-id index BT-21-Lot by ( for text:$this-lot-id in BT-137-Lot return BT-330-Procedure[ $this-lot-id in BT-1375-Procedure]);// let template:mytemplate(text:$id) display ${BT-500-Organization-Company[OPT-200-Organization-Company == $id]};// let template:mytemplate(text:$id) display ${efx:preferred-language-text(BT-500-Organization-Company[OPT-200-Organization-Company == $id])};// let context:$all-organisations = OPT-200-Organization-Company;// let text:?org-tpo-name(text:$id) = if ($id in OPT-201-Organization-TouchPoint) then concat(BT-500-Organization-Company[$id in OPT-201-Organization-TouchPoint], ' - ', BT-500-Organization-TouchPoint[$id in OPT-201-Organization-TouchPoint]) else BT-500-Organization-Company[$id in OPT-200-Organization-Company];// WITH BT-137-Lot[OPT-301-Lot-AddInfo is present], text:$refid = OPT-301-Lot-AddInfo, text*:$org_name = distinct-values(BT-500-Organization-Company[(OPT-200-Organization-Company == $refid) or ($refid in OPT-201-Organization-TouchPoint)]), text*:$tpo_names = distinct-values(BT-500-Organization-TouchPoint[OPT-201-Organization-TouchPoint == $refid]) DISPLAY #{auxiliary|text|organisation-providing-info-procedure}: ${$org_name}${if (count($tpo_names) > 0) then concat(' - ', $tpo_names[1]) else ''} ; // Organisation providing additional information about the procurement procedure (Lot)
 1 WHEN OPT-300-Procedure-Buyer is present DISPLAY #{auxiliary|text|buyer}; // 1 Buyer
 	1 WITH ND-ContractingParty DISPLAY #{auxiliary|text|buyer}; // 1.1 Buyer
-		WITH ND-ContractingParty DISPLAY #{field|name|BT-500-Organization-Company}: ${for text:$orgid in OPT-300-Procedure-Buyer, text:$orgname in BT-500-Organization-Company[OPT-200-Organization-Company == $orgid] return $orgname}; // Official name
+		WITH ND-ContractingParty, text:$orgid=OPT-300-Procedure-Buyer DISPLAY #{field|name|BT-500-Organization-Company}: ${BT-500-Organization-Company:preferredLanguageText}; // Official name
 		WITH BT-11-Procedure-Buyer DISPLAY #{name}: #value; // Legal type of the buyer
 		WITH BT-10-Procedure-Buyer DISPLAY #{name}: #value; // Activity of the contracting authority
 		WITH BT-610-Procedure-Buyer DISPLAY #{name}: #value; // Activity Entity
 2 DISPLAY #{auxiliary|text|procedure}; // 2 Procedure
 	1 WITH ND-ProcedureProcurementScope DISPLAY #{auxiliary|text|procedure}; // 2.1 Procedure
-		WITH ND-ProcedureProcurementScope DISPLAY #{field|name|BT-21-Procedure}: ${preferred-language-text(BT-21-Procedure)}; // Procedure Title
-		WITH ND-ProcedureProcurementScope DISPLAY #{field|name|BT-24-Procedure}: ${preferred-language-text(BT-24-Procedure)}; // Procedure Description
+		WITH ND-ProcedureProcurementScope DISPLAY #{field|name|BT-21-Procedure}: ${BT-21-Procedure:preferredLanguageText}; // Procedure Title
+		WITH ND-ProcedureProcurementScope DISPLAY #{field|name|BT-24-Procedure}: ${BT-24-Procedure:preferredLanguageText}; // Procedure Description
 		WITH BT-22-Procedure DISPLAY #{name}: $value; // Internal identifier
 		1 WITH ND-ProcedureProcurementScope[(BT-23-Procedure is present) or (BT-531-Procedure is present) or (BT-262-Procedure is present) or (BT-263-Procedure is present)] DISPLAY #{auxiliary|text|purpose}; // 2.1.1 Purpose
 			WITH BT-23-Procedure DISPLAY #{field|name|BT-23-Procedure}: #{BT-23-Procedure}; // Nature of the contract
@@ -24,19 +24,19 @@ let text:$myglobalvar=BT-701-notice;let $lot-by-lot-or-gol-id index BT-137-Lot b
 			WITH BT-5071-Procedure DISPLAY #{name}: #{BT-5071-Procedure} ($value) ; // Place Performance Country Subdivision
 			WITH BT-5141-Procedure DISPLAY #{name}: #value; // Place Performance Country
 			WITH BT-727-Procedure DISPLAY #{BT-727-Procedure}; // Place Performance Services Other
-			WITH ND-ProcedurePlacePerformanceAdditionalInformation[BT-728-Procedure is present] DISPLAY #{field|name|BT-728-Procedure}: ${preferred-language-text(BT-728-Procedure)}; // Place Performance Additional information
+			WITH ND-ProcedurePlacePerformanceAdditionalInformation[BT-728-Procedure is present] DISPLAY #{field|name|BT-728-Procedure}: ${BT-728-Procedure:preferredLanguageText}; // Place Performance Additional information
 		3 WITH ND-ProcedureProcurementScope[(BT-27-Procedure is present) or (BT-271-Procedure is present)] DISPLAY #{auxiliary|text|value}; // 2.1.3 Value
 			WITH BT-27-Procedure DISPLAY #{name}: ${format-number(BT-27-Procedure, '###,##0.##')} #{code|name|${concat('currency.', BT-27-Procedure/@currencyID)}} ; // Estimated value
 		4 WITH ND-ProcedureProcurementScope[BT-01-notice is present] DISPLAY #{auxiliary|text|general-information}; // 2.1.4 General information
-			WITH ND-ProcedureProcurementScope[BT-300-Procedure is present] DISPLAY #{field|name|BT-300-Procedure}: ${preferred-language-text(BT-300-Procedure)}; // Additional information
+			WITH ND-ProcedureProcurementScope[BT-300-Procedure is present] DISPLAY #{field|name|BT-300-Procedure}: ${BT-300-Procedure:preferredLanguageText}; // Additional information
 			WITH ND-ProcedureProcurementScope DISPLAY #{auxiliary|text|legal-basis}:; // Legal basis
 			WITH BT-01-notice DISPLAY #{BT-01-notice}; // Procedure Legal Basis
-			WITH BT-01(c)-Procedure DISPLAY $value - ${preferred-language-text(BT-01(d)-Procedure)}; // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
-			WITH BT-01(e)-Procedure DISPLAY ${preferred-language-text(BT-01(f)-Procedure)}; // Procedure Legal Basis (no ID) Description
+			WITH BT-01(c)-Procedure DISPLAY $value - ${BT-01(d)-Procedure:preferredLanguageText}; // Procedure Legal Basis (ID) - Procedure Legal Basis (Description)
+			WITH BT-01(e)-Procedure DISPLAY ${BT-01(f)-Procedure:preferredLanguageText}; // Procedure Legal Basis (no ID) Description
 3 WITH ND-Root[(BT-21-Part is present)] DISPLAY #{auxiliary|text|part}; // 3 Parts
 	1 WITH ND-Part DISPLAY #{field|name|BT-137-Part}: ${BT-137-Part}; // 3.1 Part
-		WITH ND-Part DISPLAY #{field|name|BT-21-Part}: ${preferred-language-text(BT-21-Part)}; // Title
-		WITH ND-Part DISPLAY #{field|name|BT-24-Part}: ${preferred-language-text(BT-24-Part)}; // Description
+		WITH ND-Part DISPLAY #{field|name|BT-21-Part}: ${BT-21-Part:preferredLanguageText}; // Title
+		WITH ND-Part DISPLAY #{field|name|BT-24-Part}: ${BT-24-Part:preferredLanguageText}; // Description
 		WITH BT-22-Part DISPLAY #{name}: $value; // Internal identifier
 		1 WITH ND-PartProcurementScope[(BT-23-Part is present) or (BT-531-Part is present) or (BT-262-Part is present) or (BT-263-Part is present)] DISPLAY #{auxiliary|text|purpose}; // 3.1.1 Purpose
 			WITH BT-23-Part DISPLAY #{name}: #value; // Nature of the contract
@@ -50,7 +50,7 @@ let text:$myglobalvar=BT-701-notice;let $lot-by-lot-or-gol-id index BT-137-Lot b
 			WITH BT-5071-Part DISPLAY #{name}: #{BT-5071-Part} (${BT-5071-Part}) ; // Country subentity
 			WITH BT-5141-Part DISPLAY #{name}: #value; // Country
 			WITH BT-727-Part DISPLAY #{BT-727-Part}; // Restrictions on the place of performance
-			WITH ND-PartPlacePerformance[BT-728-Part is present] DISPLAY #{field|name|BT-728-Part}: ${preferred-language-text(BT-728-Part)}; // Additional information
+			WITH ND-PartPlacePerformance[BT-728-Part is present] DISPLAY #{field|name|BT-728-Part}: ${BT-728-Part:preferredLanguageText}; // Additional information
 		3 WITH ND-PartDuration DISPLAY #{auxiliary|text|duration}; // 3.1.3 Duration
 			WITH BT-536-Part DISPLAY #{name}: $value; // Start date
 			WITH BT-537-Part DISPLAY #{name}: $value; // End date
@@ -65,7 +65,7 @@ let text:$myglobalvar=BT-701-notice;let $lot-by-lot-or-gol-id index BT-137-Lot b
 			0 WITH BT-137-Part[(BT-125(i)-Part is present) or (BT-1251-Part is present)] DISPLAY #{auxiliary|text|previous-planning}; // Information about previous notices
 				0 WITH BT-125(i)-Part DISPLAY #{field|name|BT-125(i)-Part}: ${BT-125(i)-Part}; // Identifier of the previous notice
 					WITH BT-1251-Part DISPLAY #{name}: $value; // Identifier of the part of the previous notice
-			WITH BT-137-Part[BT-300-Part is present] DISPLAY #{field|name|BT-300-Part}: ${preferred-language-text(BT-300-Part)}; // Additional information
+			WITH BT-137-Part[BT-300-Part is present] DISPLAY #{field|name|BT-300-Part}: ${BT-300-Part:preferredLanguageText}; // Additional information
 		6 WITH BT-137-Part[(BT-15-Part is present) or (BT-14-Part is present) or (BT-707-Part is present) or (BT-13(d)-Part is present) or (BT-708-Part is present) or (BT-737-Part is present) or (BT-632-Part is present) or (BT-124-Part is present)] DISPLAY #{auxiliary|text|procurement-documents}; // 3.1.6 Procurement documents (PART)
 			WITH BT-137-Part[some text:$restricted in (for text:$somerestricted in BT-14-Part return $somerestricted) satisfies $restricted == 'restricted-document'] DISPLAY #{field|name|BT-14-Part}; // The access to certain procurement documents is restricted. (PART)
 			WITH BT-707-Part DISPLAY #{name}: #value; // Justification for restricting access to certain procurement documents (PART)
