@@ -400,6 +400,8 @@ YearMonthDurationFunction: 'year-month-duration';
 AddDuration: 'add-duration';
 SubtractDuration: 'subtract-duration';
 DistinctValuesFunction: 'distinct-values';
+CountDuplicatesFunction: 'count-duplicates';
+GetDuplicatesFunction: 'get-duplicates';
 UnionFunction: 'value-union';
 IntersectFunction: 'value-intersect';
 ExceptFunction: 'value-except';
