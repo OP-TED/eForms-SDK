@@ -683,15 +683,17 @@ stringFunction
 
 
 dateFunction
-    : dateTypeCast      functionInvocation                                                                                                      # dateFunctionInvocation 
+    : dateTypeCast      functionInvocation                                                                                                      # dateFunctionInvocation
     | Date              OpenParenthesis (stringExpression   | lateBoundScalar) CloseParenthesis                                                 # dateFromStringFunction
     | AddDuration       OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # datePlusDurationFunction
     | SubtractDuration  OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # dateMinusDurationFunction
+    | CurrentDateFunction OpenParenthesis CloseParenthesis                                                                                      # currentDateFunction
     ;
 
 timeFunction
-    : timeTypeCast      functionInvocation                                                              # timeFunctionInvocation 
+    : timeTypeCast      functionInvocation                                                              # timeFunctionInvocation
     | Time OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis                        # timeFromStringFunction
+    | CurrentTimeFunction OpenParenthesis CloseParenthesis                                              # currentTimeFunction
     ;
 
 durationFunction

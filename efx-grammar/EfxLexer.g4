@@ -393,6 +393,8 @@ ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
 TimeFunction: Time -> type(Time);
+CurrentDateFunction: 'current-date';
+CurrentTimeFunction: 'current-time';
 DayTimeDurationFunction: 'day-time-duration';
 YearMonthDurationFunction: 'year-month-duration';
 AddDuration: 'add-duration';
