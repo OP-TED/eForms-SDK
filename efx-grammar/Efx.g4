@@ -579,6 +579,13 @@ numericFunction
     | CountFunction             OpenParenthesis dateSequence                                CloseParenthesis    # countDatesFunction
     | CountFunction             OpenParenthesis timeSequence                                CloseParenthesis    # countTimesFunction
     | CountFunction             OpenParenthesis durationSequence                            CloseParenthesis    # countDurationsFunction
+    | CountDuplicatesFunction    OpenParenthesis lateBoundSequence                           CloseParenthesis    # lateBoundCountDuplicatesFunction
+    | CountDuplicatesFunction    OpenParenthesis stringSequence                              CloseParenthesis    # countDuplicatesStringsFunction
+    | CountDuplicatesFunction    OpenParenthesis booleanSequence                             CloseParenthesis    # countDuplicatesBooleansFunction
+    | CountDuplicatesFunction    OpenParenthesis numericSequence                             CloseParenthesis    # countDuplicatesNumbersFunction
+    | CountDuplicatesFunction    OpenParenthesis dateSequence                                CloseParenthesis    # countDuplicatesDatesFunction
+    | CountDuplicatesFunction    OpenParenthesis timeSequence                                CloseParenthesis    # countDuplicatesTimesFunction
+    | CountDuplicatesFunction    OpenParenthesis durationSequence                            CloseParenthesis    # countDuplicatesDurationsFunction
     | Number                    OpenParenthesis stringExpression                            CloseParenthesis    # numberFromStringFunction
     | Number                    OpenParenthesis booleanExpression                           CloseParenthesis    # numberFromBooleanFunction
     | Number                    OpenParenthesis lateBoundScalar                             CloseParenthesis    # lateBoundToNumberFunction
@@ -683,15 +690,17 @@ stringFunction
 
 
 dateFunction
-    : dateTypeCast      functionInvocation                                                                                                      # dateFunctionInvocation 
+    : dateTypeCast      functionInvocation                                                                                                      # dateFunctionInvocation
     | Date              OpenParenthesis (stringExpression   | lateBoundScalar) CloseParenthesis                                                 # dateFromStringFunction
     | AddDuration       OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # datePlusDurationFunction
     | SubtractDuration  OpenParenthesis (dateExpression     | lateBoundScalar) Comma (durationExpression | lateBoundScalar) CloseParenthesis    # dateMinusDurationFunction
+    | CurrentDateFunction OpenParenthesis CloseParenthesis                                                                                      # currentDateFunction
     ;
 
 timeFunction
-    : timeTypeCast      functionInvocation                                                              # timeFunctionInvocation 
+    : timeTypeCast      functionInvocation                                                              # timeFunctionInvocation
     | Time OpenParenthesis (stringExpression | lateBoundScalar) CloseParenthesis                        # timeFromStringFunction
+    | CurrentTimeFunction OpenParenthesis CloseParenthesis                                              # currentTimeFunction
     ;
 
 durationFunction
@@ -703,6 +712,7 @@ durationFunction
 // Typed sequence functions - ensure type-safe operations on sequences of the same type
 stringSequenceFunction
     : DistinctValuesFunction OpenParenthesis stringSequence CloseParenthesis                               # stringDistinctValuesFunction
+    | GetDuplicatesFunction  OpenParenthesis stringSequence CloseParenthesis                               # stringGetDuplicatesFunction
     | UnionFunction          OpenParenthesis stringSequence     Comma stringSequence     CloseParenthesis  # stringUnionFunction
     | UnionFunction          OpenParenthesis lateBoundSequence  Comma stringSequence     CloseParenthesis  # lateBoundStringUnionLeft
     | UnionFunction          OpenParenthesis stringSequence     Comma lateBoundSequence  CloseParenthesis  # lateBoundStringUnionRight
@@ -720,6 +730,7 @@ stringSequenceFunction
 
 booleanSequenceFunction
     : DistinctValuesFunction OpenParenthesis booleanSequence                                                            CloseParenthesis  # booleanDistinctValuesFunction
+    | GetDuplicatesFunction  OpenParenthesis booleanSequence                                                            CloseParenthesis  # booleanGetDuplicatesFunction
     | UnionFunction          OpenParenthesis booleanSequence    Comma booleanSequence                                   CloseParenthesis  # booleanUnionFunction
     | UnionFunction          OpenParenthesis lateBoundSequence  Comma booleanSequence                                   CloseParenthesis  # lateBoundBooleanUnionLeft
     | UnionFunction          OpenParenthesis booleanSequence    Comma lateBoundSequence                                 CloseParenthesis  # lateBoundBooleanUnionRight
@@ -737,6 +748,7 @@ booleanSequenceFunction
 
 numericSequenceFunction
 : DistinctValuesFunction OpenParenthesis numericSequence                                                                CloseParenthesis  # numericDistinctValuesFunction
+    | GetDuplicatesFunction  OpenParenthesis numericSequence                                                                CloseParenthesis  # numericGetDuplicatesFunction
     | UnionFunction          OpenParenthesis numericSequence    Comma numericSequence                                   CloseParenthesis  # numericUnionFunction
     | UnionFunction          OpenParenthesis lateBoundSequence  Comma numericSequence                                   CloseParenthesis  # lateBoundNumericUnionLeft
     | UnionFunction          OpenParenthesis numericSequence    Comma lateBoundSequence                                 CloseParenthesis  # lateBoundNumericUnionRight
@@ -754,6 +766,7 @@ numericSequenceFunction
 
 dateSequenceFunction
     : DistinctValuesFunction OpenParenthesis dateSequence CloseParenthesis                                                                 # dateDistinctValuesFunction
+    | GetDuplicatesFunction  OpenParenthesis dateSequence CloseParenthesis                                                                 # dateGetDuplicatesFunction
     | UnionFunction          OpenParenthesis dateSequence       Comma dateSequence       CloseParenthesis  # dateUnionFunction
     | UnionFunction          OpenParenthesis lateBoundSequence  Comma dateSequence       CloseParenthesis  # lateBoundDateUnionLeft
     | UnionFunction          OpenParenthesis dateSequence       Comma lateBoundSequence  CloseParenthesis  # lateBoundDateUnionRight
@@ -770,6 +783,7 @@ dateSequenceFunction
 
 timeSequenceFunction
     : DistinctValuesFunction OpenParenthesis timeSequence CloseParenthesis                                                                 # timeDistinctValuesFunction
+    | GetDuplicatesFunction  OpenParenthesis timeSequence CloseParenthesis                                                                 # timeGetDuplicatesFunction
     | UnionFunction          OpenParenthesis timeSequence       Comma timeSequence       CloseParenthesis  # timeUnionFunction
     | UnionFunction          OpenParenthesis lateBoundSequence  Comma timeSequence       CloseParenthesis  # lateBoundTimeUnionLeft
     | UnionFunction          OpenParenthesis timeSequence       Comma lateBoundSequence  CloseParenthesis  # lateBoundTimeUnionRight
@@ -786,6 +800,7 @@ timeSequenceFunction
 
 durationSequenceFunction
     : DistinctValuesFunction OpenParenthesis durationSequence                           CloseParenthesis  # durationDistinctValuesFunction
+    | GetDuplicatesFunction  OpenParenthesis durationSequence                           CloseParenthesis  # durationGetDuplicatesFunction
     | UnionFunction          OpenParenthesis durationSequence   Comma durationSequence  CloseParenthesis  # durationUnionFunction
     | UnionFunction          OpenParenthesis lateBoundSequence  Comma durationSequence  CloseParenthesis  # lateBoundDurationUnionLeft
     | UnionFunction          OpenParenthesis durationSequence   Comma lateBoundSequence CloseParenthesis  # lateBoundDurationUnionRight
@@ -817,6 +832,7 @@ lateBoundSequence
     | OpenParenthesis lateBoundExpression CloseParenthesis                                          # lateBoundParenthesizedSequence
     | For iteratorList Return Distinct? lateBoundExpression                                         # lateBoundSequenceFromIteration
     | DistinctValuesFunction OpenParenthesis lateBoundSequence CloseParenthesis                     # lateBoundDistinctValuesFunction
+    | GetDuplicatesFunction  OpenParenthesis lateBoundSequence CloseParenthesis                     # lateBoundGetDuplicatesFunction
     | SortFunction           OpenParenthesis lateBoundSequence CloseParenthesis                     # lateBoundSortFunction
     | ReverseFunction        OpenParenthesis lateBoundSequence CloseParenthesis                     # lateBoundReverseFunction
     | SubsequenceFunction    OpenParenthesis lateBoundSequence Comma (numericExpression | lateBoundScalar) (Comma (numericExpression | lateBoundScalar))? CloseParenthesis  # lateBoundSubsequenceFunction
