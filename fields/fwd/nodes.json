@@ -87,8 +87,7 @@
       "cac:ContractingParty" : 29
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-300-Procedure-Buyer",
-    "businessEntityId" : "buyer"
+    "businessEntityId" : "_buyer"
   }, {
     "id" : "ND-Buyer",
     "parentId" : "ND-ContractingParty",
@@ -212,9 +211,7 @@
       "cac:ProcurementProjectLot" : 42
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "BT-137-Lot",
-    "captionFieldId" : "BT-21-Lot",
-    "businessEntityId" : "lot"
+    "businessEntityId" : "_lot"
   }, {
     "id" : "ND-LotProcurementScope",
     "parentId" : "ND-Lot",
@@ -1184,9 +1181,7 @@
       "cac:ProcurementProjectLot" : 42
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "BT-137-LotsGroup",
-    "captionFieldId" : "BT-21-LotsGroup",
-    "businessEntityId" : "groupOfLots"
+    "businessEntityId" : "_groupOfLots"
   }, {
     "id" : "ND-LotsGroupProcurementScope",
     "parentId" : "ND-LotsGroup",
@@ -1426,9 +1421,7 @@
       "cac:ProcurementProjectLot" : 42
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "BT-137-Part",
-    "captionFieldId" : "BT-21-Part",
-    "businessEntityId" : "part"
+    "businessEntityId" : "_part"
   }, {
     "id" : "ND-PartProcurementScope",
     "parentId" : "ND-Part",
@@ -2018,9 +2011,7 @@
       "efac:AppealInformation" : 1
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "BT-804-Review",
-    "captionFieldId" : "BT-784-Review",
-    "businessEntityId" : "reviewInformation"
+    "businessEntityId" : "_reviewInformation"
   }, {
     "id" : "ND-AppealDecision",
     "parentId" : "ND-ReviewStatus",
@@ -2120,8 +2111,7 @@
       "efac:ContractModification" : 12
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "BT-1501(c)-Contract",
-    "businessEntityId" : "contractModification"
+    "businessEntityId" : "_contractModification"
   }, {
     "id" : "ND-Modification",
     "parentId" : "ND-ContractModification",
@@ -2230,9 +2220,7 @@
       "efac:LotResult" : 6
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-322-LotResult",
-    "captionFieldId" : "BT-13713-LotResult",
-    "businessEntityId" : "resultForLot"
+    "businessEntityId" : "_resultForLot"
   }, {
     "id" : "ND-FinancingParty",
     "parentId" : "ND-LotResult",
@@ -2559,9 +2547,7 @@
       "efac:LotTender" : 7
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-321-Tender",
-    "captionFieldId" : "BT-3201-Tender",
-    "businessEntityId" : "tender"
+    "businessEntityId" : "_tender"
   }, {
     "id" : "ND-TenderAggregatedAmounts",
     "parentId" : "ND-LotTender",
@@ -2751,9 +2737,7 @@
       "efac:SettledContract" : 8
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-316-Contract",
-    "captionFieldId" : "BT-150-Contract",
-    "businessEntityId" : "contract"
+    "businessEntityId" : "_contract"
   }, {
     "id" : "ND-ContractSignatory",
     "parentId" : "ND-SettledContract",
@@ -2817,9 +2801,7 @@
       "efac:TenderingParty" : 9
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-210-Tenderer",
-    "captionFieldId" : "OPT-211-Tenderer",
-    "businessEntityId" : "tenderingParty"
+    "businessEntityId" : "_tenderingParty"
   }, {
     "id" : "ND-SubContractor",
     "parentId" : "ND-TenderingParty",
@@ -2865,9 +2847,7 @@
       "efac:Organization" : 1
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-200-Organization-Company",
-    "captionFieldId" : "BT-500-Organization-Company",
-    "businessEntityId" : "organization"
+    "businessEntityId" : "_organization"
   }, {
     "id" : "ND-Company",
     "parentId" : "ND-Organization",
@@ -2913,9 +2893,7 @@
       "efac:TouchPoint" : 8
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-201-Organization-TouchPoint",
-    "captionFieldId" : "BT-500-Organization-TouchPoint",
-    "businessEntityId" : "touchpoint"
+    "businessEntityId" : "_touchpoint"
   }, {
     "id" : "ND-TouchpointContact",
     "parentId" : "ND-Touchpoint",
@@ -2952,9 +2930,7 @@
       "efac:UltimateBeneficialOwner" : 2
     } ],
     "repeatable" : true,
-    "identifierFieldId" : "OPT-202-UBO",
-    "captionFieldId" : "BT-500-UBO",
-    "businessEntityId" : "ultimateBeneficialOwner"
+    "businessEntityId" : "_ultimateBeneficialOwner"
   }, {
     "id" : "ND-UBOContact",
     "parentId" : "ND-UBO",
