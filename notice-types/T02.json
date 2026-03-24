@@ -80,11 +80,11 @@
     "_label" : "field|name|BT-738-notice",
     "hidden" : true
   }, {
-    "id" : "OPT-999",
+    "id" : "OPT-999-notice",
     "contentType" : "field",
     "displayType" : "TEXTBOX",
     "description" : "Dummy Tender Award Date",
-    "_label" : "field|name|OPT-999",
+    "_label" : "field|name|OPT-999-notice",
     "_presetValue" : "2000-01-01Z",
     "hidden" : true
   }, {
