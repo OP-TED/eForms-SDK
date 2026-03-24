@@ -495,7 +495,8 @@ contextIteratorVariableDeclaration:     ContextType Colon VariablePrefix variabl
 
 pathFromReference
     : attributeReference
-    | fieldReference 
+    | fieldReference
+    | nodeReference
     ;
 
 contextFieldSpecifier: field=fieldContext ColonColon;
