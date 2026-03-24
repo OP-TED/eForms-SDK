@@ -326,6 +326,7 @@ Index: INDEX;
 By: BY;
 Assert: ASSERT;
 Report: REPORT;
+Compute: COMPUTE;
 
 // Data types ------------------------------------------------------------------------------------------------
 
@@ -514,6 +515,7 @@ fragment WHEN: ('WHEN' | 'when');
 fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
 fragment ASSERT: ('ASSERT' | 'assert');
 fragment REPORT: ('REPORT' | 'report');
+fragment COMPUTE: ('COMPUTE' | 'compute');
 fragment STAGE: ('STAGE' | 'stage');
 fragment ENDPOINT: ('ENDPOINT' | 'endpoint');
 fragment INDEX: ('INDEX' | 'index');
