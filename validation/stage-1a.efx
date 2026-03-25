@@ -5,20 +5,20 @@ WITH ND-Root
     AS ERROR R-TMP-001
     FOR OPP-070-notice
     IN *
-  ASSERT BT-137-Lot is not present // ND-Lot
+  ASSERT ND-Lot is not present
     AS ERROR R-TMP-002
-    FOR BT-137-Lot // ND-Lot
+    FOR ND-Lot
     IN 1-6,E2,X01,X02
-  ASSERT BT-137-Lot is present // ND-Lot
+  ASSERT ND-Lot is present
     AS ERROR R-TMP-003
-    FOR BT-137-Lot // ND-Lot
+    FOR ND-Lot
     IN 7-40,E3-E6,T01,T02
-  ASSERT BT-137-Part is not present // ND-Part
+  ASSERT ND-Part is not present
     AS ERROR R-TMP-004
-    FOR BT-137-Part // ND-Lot
+    FOR ND-Part
     IN 7-40,E3-E6,T01,T02,X01,X02
-  ASSERT BT-137-Part is present // ND-Part
+  ASSERT ND-Part is present
     AS ERROR R-TMP-005
-    FOR BT-137-Part // ND-Part
+    FOR ND-Part
     IN 4-6,E2
 ;

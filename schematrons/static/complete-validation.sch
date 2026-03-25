@@ -943,8 +943,8 @@
 
     <diagnostics>
         <diagnostic id="ND-Root_OPP-070-notice" see="field:OPP-070-notice">ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeSubType/cbc:SubTypeCode</diagnostic>
-        <diagnostic id="ND-Root_BT-137-Lot" see="field:BT-137-Lot">cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID</diagnostic>
-        <diagnostic id="ND-Root_BT-137-Part" see="field:BT-137-Part">cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cbc:ID</diagnostic>
+        <diagnostic id="ND-Root_ND-Lot" see="node:ND-Lot">cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']</diagnostic>
+        <diagnostic id="ND-Root_ND-Part" see="node:ND-Part">cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']</diagnostic>
         <diagnostic id="ND-Root_BT-01-notice" see="field:BT-01-notice">cbc:RegulatoryDomain</diagnostic>
         <diagnostic id="ND-Root_BT-02-notice" see="field:BT-02-notice">cbc:NoticeTypeCode</diagnostic>
         <diagnostic id="ND-Root_BT-03-notice" see="field:BT-03-notice">cbc:NoticeTypeCode/@listName</diagnostic>
