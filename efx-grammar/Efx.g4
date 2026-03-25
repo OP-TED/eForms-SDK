@@ -41,10 +41,14 @@ options { tokenVocab=EfxLexer;}
  * A single-expression is typically used to evaluate a condition.
  * If you do not need to process EFX templates, then you can create a full EFX parser that parses these expressions.
  * A single-expression contains two parts: a context-declaration and an expression-block.
- * Currently we only allow a field-identifier, a node-identifier or an identifier in the context-declaration.
- * We may also add support for adding one or more predicates to the context-declaration in the future.
+ *
+ * EFX-1 syntax: {context, params} ${expression}
+ * EFX-2 syntax: WITH context, params COMPUTE expression
  */
-singleExpression: StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF;
+singleExpression
+    : StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF   // EFX-1
+    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? Compute expression EOF                         // EFX-2
+    ;
 
 /****************************************************************************** 
   Expressions are matched when the lexical analyser is in EXPRESSION mode 
