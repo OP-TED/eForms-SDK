@@ -2,8 +2,8 @@
   "ublVersion" : "2.3",
   "sdkVersion" : "2.0.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.14.27",
-    "createdOn" : "2026-03-24T10:13:08"
+    "version" : "1.14.28",
+    "createdOn" : "2026-03-25T09:34:18"
   },
   "noticeId" : "E6",
   "metadata" : [ {
@@ -143,7 +143,7 @@
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
       "_label" : "group|name|GR-ContractingAuthority",
-      "businessEntityId" : "buyer",
+      "businessEntityId" : "Buyer",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ContractingAuthority-Buyer",
@@ -166,6 +166,7 @@
         "displayType" : "GROUP",
         "description" : "Provided Service (code) and Provider (Reference to Organization)",
         "_label" : "group|name|GR-Procedure-SProvider",
+        "businessEntityId" : "ServiceProvider",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-300-Procedure-SProvider",
@@ -445,6 +446,7 @@
         "displayType" : "GROUP",
         "description" : "Composition of a given Group of lots",
         "_label" : "group|name|GR-Procedure-GroupComposition",
+        "businessEntityId" : "GroupComposition",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-330-Procedure",
@@ -481,7 +483,7 @@
     "_label" : "group|name|GR-Lot",
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
-    "businessEntityId" : "lot",
+    "businessEntityId" : "Lot",
     "_identifierFieldId" : "BT-137-Lot",
     "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
@@ -683,6 +685,7 @@
           "displayType" : "GROUP",
           "description" : "Information (Description) about Strategic Procurement Type",
           "_label" : "group|name|GR-Lot-ProcurementType-Strategic",
+          "businessEntityId" : "StrategicProcurementType",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-06-Lot",
@@ -1292,7 +1295,7 @@
     "_label" : "group|name|GR-LotsGroup",
     "_idScheme" : "GLO",
     "_schemeName" : "LotsGroup",
-    "businessEntityId" : "groupOfLots",
+    "businessEntityId" : "LotsGroup",
     "_identifierFieldId" : "BT-137-LotsGroup",
     "_captionFieldId" : "BT-21-LotsGroup",
     "_repeatable" : true,
@@ -1358,6 +1361,7 @@
     "displayType" : "SECTION",
     "description" : "Outcome of the Procurement Procedure for all lots listed in the notice (also contains individual Lot Results)",
     "_label" : "group|name|GR-Result",
+    "businessEntityId" : "NoticeResult",
     "content" : [ {
       "id" : "GR-NoticeResult-Section",
       "contentType" : "group",
@@ -1503,6 +1507,7 @@
         "displayType" : "GROUP",
         "description" : "Maximal Value and the associated awarded Group of Lots of the Result Notice",
         "_label" : "group|name|GR-GroupFramework",
+        "businessEntityId" : "GroupFrameworkValue",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-556-NoticeResult",
@@ -1654,7 +1659,7 @@
         "_label" : "group|name|GR-TenderingParty",
         "_idScheme" : "TPA",
         "_schemeName" : "tendering-party",
-        "businessEntityId" : "tenderingParty",
+        "businessEntityId" : "TenderingParty",
         "_identifierFieldId" : "OPT-210-Tenderer",
         "_captionFieldId" : "OPT-211-Tenderer",
         "_repeatable" : true,
@@ -1680,6 +1685,7 @@
           "displayType" : "GROUP",
           "description" : "One of the member of the Tendring Party",
           "_label" : "group|name|GR-Tenderer",
+          "businessEntityId" : "Tenderer",
           "_repeatable" : true,
           "content" : [ {
             "id" : "OPT-300-Tenderer",
@@ -1702,6 +1708,7 @@
           "displayType" : "GROUP",
           "description" : "Organization identified as a contractor of one at least of the Main Tenderers of a Tendering Party",
           "_label" : "group|name|GR-Subcontractor",
+          "businessEntityId" : "SubContractor",
           "_repeatable" : true,
           "content" : [ {
             "id" : "OPT-301-Tenderer-SubCont",
@@ -1744,7 +1751,7 @@
         "_label" : "group|name|GR-SettledContract",
         "_idScheme" : "CON",
         "_schemeName" : "contract",
-        "businessEntityId" : "contract",
+        "businessEntityId" : "Contract",
         "_identifierFieldId" : "OPT-316-Contract",
         "_captionFieldId" : "BT-150-Contract",
         "_repeatable" : true,
@@ -1822,6 +1829,7 @@
             "displayType" : "GROUP",
             "description" : "Contract signatory",
             "_label" : "group|name|GR-Contract-Signatory",
+            "businessEntityId" : "ContractSignatory",
             "_repeatable" : true,
             "content" : [ {
               "id" : "OPT-300-Contract-Signatory",
@@ -1839,6 +1847,7 @@
           "displayType" : "GROUP",
           "description" : "EU Funds (Code, Description) involved in a contract.",
           "_label" : "group|name|GR-SettledContract-2",
+          "businessEntityId" : "ContractEUFunds",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-722-Contract",
@@ -1876,7 +1885,7 @@
         "_label" : "group|name|GR-LotTender",
         "_idScheme" : "TEN",
         "_schemeName" : "tender",
-        "businessEntityId" : "tender",
+        "businessEntityId" : "Tender",
         "_identifierFieldId" : "OPT-321-Tender",
         "_captionFieldId" : "BT-3201-Tender",
         "_repeatable" : true,
@@ -2299,7 +2308,7 @@
         "_label" : "group|name|GR-LotResult",
         "_idScheme" : "RES",
         "_schemeName" : "result",
-        "businessEntityId" : "resultForLot",
+        "businessEntityId" : "LotResult",
         "_identifierFieldId" : "OPT-322-LotResult",
         "_captionFieldId" : "BT-13713-LotResult",
         "_repeatable" : true,
@@ -2474,6 +2483,7 @@
             "displayType" : "GROUP",
             "description" : "Information about the assets: category and quantity (number) in the context of an applicable Legal Basis",
             "_label" : "group|name|GR-LotResult-CVD-Vehicles",
+            "businessEntityId" : "VehicleProcurementDetail",
             "_repeatable" : true,
             "content" : [ {
               "id" : "BT-723-LotResult",
@@ -2488,6 +2498,7 @@
               "displayType" : "GROUP",
               "description" : "Numbers about the procurement: category (code) and quantity (number)",
               "_label" : "group|name|GR-LotResult-CVD-Vehicles-Statistics",
+              "businessEntityId" : "VehicleStatistics",
               "_repeatable" : true,
               "content" : [ {
                 "id" : "OPT-155-LotResult",
@@ -2517,6 +2528,7 @@
             "displayType" : "GROUP",
             "description" : "Financing party",
             "_label" : "group|name|GR-LotResult-Financing-Party",
+            "businessEntityId" : "FinancingParty",
             "_repeatable" : true,
             "content" : [ {
               "id" : "OPT-301-LotResult-Financing",
@@ -2533,6 +2545,7 @@
             "displayType" : "GROUP",
             "description" : "Payer party",
             "_label" : "group|name|GR-LotResult-Payer-Party",
+            "businessEntityId" : "PayerParty",
             "_repeatable" : true,
             "content" : [ {
               "id" : "OPT-301-LotResult-Paying",
@@ -2550,6 +2563,7 @@
           "displayType" : "GROUP",
           "description" : "Statistics about Review Requests (number and code)",
           "_label" : "group|name|GR-LotResult-ReviewRequests",
+          "businessEntityId" : "ReviewRequestsStatistics",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-636-LotResult",
@@ -2785,7 +2799,7 @@
       "displayType" : "GROUP",
       "description" : "Elements related to the Modification (Section, Description, Reason)",
       "_label" : "group|name|GR-ContractModification",
-      "businessEntityId" : "contractModification",
+      "businessEntityId" : "ContractModification",
       "_repeatable" : true,
       "content" : [ {
         "id" : "BT-1501(n)-Contract",
@@ -2807,6 +2821,7 @@
         "displayType" : "GROUP",
         "description" : "Contract Modification Reason (Code and Description)",
         "_label" : "group|name|GR-ContractModification-ModificationReason",
+        "businessEntityId" : "ModificationReason",
         "content" : [ {
           "id" : "BT-200-Contract",
           "contentType" : "field",
@@ -2827,6 +2842,7 @@
         "displayType" : "GROUP",
         "description" : "Contract Modification (Section and Description)",
         "_label" : "group|name|GR-ContractModification-Modification",
+        "businessEntityId" : "Modification",
         "content" : [ {
           "id" : "GR-ModificationSectionsIdentifers",
           "contentType" : "group",
@@ -2834,6 +2850,7 @@
           "displayType" : "GROUP",
           "description" : "Section subject to modification",
           "_label" : "group|name|GR-ModificationSectionsIdentifers",
+          "businessEntityId" : "ModifiedSection",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-1501(p)-Contract",
@@ -2885,6 +2902,7 @@
       "displayType" : "GROUP",
       "description" : "Information associated to a single Change (Section, Description & Procurement Documents)",
       "_label" : "group|name|GR-ChangeSections",
+      "businessEntityId" : "Change",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ChangedSectionIdentifiers",
@@ -2893,6 +2911,7 @@
         "displayType" : "GROUP",
         "description" : "Section subject to change",
         "_label" : "group|name|GR-ChangedSectionIdentifiers",
+        "businessEntityId" : "ChangedSection",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-13716-notice",
@@ -2943,7 +2962,7 @@
         "_label" : "group|name|GR-Organisations",
         "_idScheme" : "ORG",
         "_schemeName" : "organization",
-        "businessEntityId" : "organization",
+        "businessEntityId" : "Organisation",
         "_identifierFieldId" : "OPT-200-Organization-Company",
         "_captionFieldId" : "BT-500-Organization-Company",
         "_repeatable" : true,
@@ -3129,7 +3148,7 @@
           "_label" : "group|name|GR-Touch-Point",
           "_idScheme" : "TPO",
           "_schemeName" : "touchpoint",
-          "businessEntityId" : "touchpoint",
+          "businessEntityId" : "Touchpoint",
           "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
           "_captionFieldId" : "BT-500-Organization-TouchPoint",
           "_repeatable" : true,
