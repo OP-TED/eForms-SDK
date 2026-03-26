@@ -103,7 +103,7 @@ Dynamic rules allow validation to consider information retrieved from other noti
 
 SDK 2 focuses its breaking changes exclusively on the EFX language. The metadata file formats and directory layout remain the same as SDK 1, so that applications can migrate to SDK 2 without having to rewrite their metadata import logic. All EFX expressions embedded in SDK metadata (constraints, view templates, validation rules) use EFX-2 syntax.
 
-SDK 2.0.0 will be released alongside SDK 1.15.0. Both will contain identical eForms metadata content (the same fields, nodes, notice types, codelists, and schemas), differing only in the EFX expression syntax used.
+SDK 2.0 will be released in alignment with SDK 1.15. With the exception of fields withheld from publication ("unpublished" fields) and dynamic rules, SDK 1.15 will have business equivalence with SDK 2.0, differing only in the EFX expression syntax used. SDK 1.15 will be the last version of the SDK 1.x series.
 
 #### Forward-compatible metadata
 
