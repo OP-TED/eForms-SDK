@@ -1,4 +1,4 @@
-# eForms Schematron rules
+# The `schematrons` folder
 
 The Schematron rules used to validate eForms notices.
 
