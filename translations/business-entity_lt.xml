@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Lithuanian. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Pirkėjas</entry>
+<entry key="business-entity|name|changes">Pakeitimai</entry>
+<entry key="business-entity|name|contract">Sutartis</entry>
+<entry key="business-entity|name|contractModification">Sutarties keitimas</entry>
+<entry key="business-entity|name|euBusiness">Europos verslas</entry>
+<entry key="business-entity|name|groupOfLots">Pirkimo dalių grupė</entry>
+<entry key="business-entity|name|lot">Pirkimo dalis</entry>
+<entry key="business-entity|name|noticeInformation">Skelbimo informacija</entry>
+<entry key="business-entity|name|noticeResult">Skelbimas apie rezultatus</entry>
+<entry key="business-entity|name|organization">Organizacija</entry>
+<entry key="business-entity|name|part">Dalis</entry>
+<entry key="business-entity|name|procedure">Procedūra</entry>
+<entry key="business-entity|name|resultForLot">Rezultatas partijai</entry>
+<entry key="business-entity|name|reviewInformation">Informacija apie peržiūrą</entry>
+<entry key="business-entity|name|tender">Pasiūlymas</entry>
+<entry key="business-entity|name|tenderingParty">Pasiūlymo teikėjas</entry>
+<entry key="business-entity|name|touchpoint">Kontaktinis taškas</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Galutinis naudingas savininkas</entry>
+</properties>

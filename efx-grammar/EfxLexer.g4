@@ -6,106 +6,162 @@ channels { WHITESPACE }
  * DEFAULT mode
  * ------------------------------------------------------------------------------------------------
  * This is the mode that the lexer starts in. In this mode, the lexer needs to identify the opening
- * tokens of either the EFX expression or the EFX template line that is being parsed. If an EFX
- * expression is being parsed, then the expression will start with a context declaration (a field or
- * node identifier). If an EFX template line is being parsed, then the
- * template line will start with some optional indentation, followed by an optional outline number,
- * and a mandatory context declaration block {...}.
+ * tokens of the EFX input being parsed: an expression, a template line, or a rules file.
+ * - Expressions start with a context declaration expression.
+ * - Template lines start with optional indentation, optional outline number, then an expression.
+ * - Rules files start with optional variable declarations followed by stage headers (---- STAGE id ----).
+ * The default mode recognizes these opening tokens and switches to the appropriate mode.
  */
 
-
-// Analysing an EFX expression ---------------------------------------------------------------------
-
-// The Context has the same definition as a FieldId or NodeId in EXPRESSION mode.
-FieldContext: FieldId -> type(FieldId);
-NodeContext: NodeId -> type(NodeId);
-
-
-// Analysing an EFX template line -----------------------------------------------------------------
-
 // Empty lines and comment lines are to be ignored by the parser.
-Comment: [ \t]* '//' ~[\r\n\f]* EOL* -> skip;
-EmptyLine: [ \t]* EOL+ -> skip;
-fragment EOL: ('\r'? '\n' | '\r' | '\f');
+EmptyOrCommentLine: (TAB | SPACE)* COMMENT? EOL+ -> channel(HIDDEN);
 
-// Tabs and spaces are used to express structure through indentation (like in Python).  
-MixedIndent: Tabs Spaces MixedIndent* | Spaces Tabs MixedIndent*;
-Tabs: Tab+;
-Spaces: Space+;
-fragment Tab: [\t];
-fragment Space: [ ];
+// Include directive -------------------------------------------------------------------------------
+// The #include directive is used to include the contents of another EFX rules file.
+// It switches to INCLUDE_PATH mode to capture the quoted file path.
+IncludeDirective: '#include' (TAB | SPACE)+ -> pushMode(INCLUDE_PATH);
+
+// Indentation ------------------------------------------------------------------------------------
+
+// If we find mixed indentation, we will emit a MixedIndent token indicating that the line uses a 
+// mix of tabs and spaces.
+MixedIndent: (TAB+ SPACE+ | SPACE+ TAB+) (TAB | SPACE)*;
+
+// Tabs and spaces are used to express structure through indentation (like in Python). If the 
+// indentation is consistent (either all tabs or all spaces), we will emit a token indicating
+// the type of indentation used.
+Tabs: TAB+;
+Spaces: SPACE+;
 
 // The EFX template translator can auto-generate outline numbers to mark the hierarchical structure
 // of the template. However the user can override the auto-generated outline numbers by explicitly
-// specifying a number in each template line..
-OutlineNumber: [0-9]+ [ \t]*;
+// specifying a number in each template line. The EFX lexer will switch to SKIP_WHITESPACE mode after
+// recognizing an outline number, because any whitespace following it is not significant.
+OutlineNumber: DIGIT+ -> pushMode(SKIP_WHITESPACE);
 
-// The context of a row can be either a field or a node reference, followed by one or more optional
-// predicates. In order to be able to parse any predicates, we need to treat the context declaration
-// as an expression block. Therefore the curly brace that opens a context declaration block,
-// switches the lexer to EXPRESSION mode. Before going into EXPRESSION mode though, we first push
-// the SKIP_WHITESPACE mode, so that the lexer finds itself in it after processing the context
-// declaration block..
-StartContextExpression: '{' -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpression);
+// Mode switching ---------------------------------------------------------------------------------
+
+// If we encounter a single curly brace in the DEFAULT mode, then we are in a line written in EFX-1 style.
+// We will switch to EXPRESSION mode after first pushing the TEMPLATE and SKIP_WHITESPACE modes to the stack
+// so that the lexer will find itself in the right mode after processing the expression block.
+StartContextExpression: LBRACE -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
+
+// The Let, With, When, and Endpoint keywords switch the lexer to EXPRESSION mode.
+Let: LET -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+Endpoint: ENDPOINT -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+With: WITH -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+When: WHEN -> pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION);
+
+// The OTHERWISE keyword should switch the lexer to TEMPLATE mode. The DISPLAY keyword is optional.
+Otherwise: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE);
+Display: DISPLAY (TAB | SPACE | EOL)+ -> pushMode(SKIP_WHITESPACE), pushMode(TEMPLATE);
+Invoke: INVOKE -> pushMode(EXPRESSION);
+
+SummarySectionHeader: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL*;
+NavigationSectionHeader: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL*;
+StageHeaderStart: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> pushMode(STAGE_HEADER);
+
+/*
+ * STAGE_HEADER mode
+ * ------------------------------------------------------------------------------------------------
+ * This mode is used to capture the stage identifier in a stage header declaration.
+ * Format: ---- STAGE stage-id ----
+ */
+mode STAGE_HEADER;
+
+StageIdentifier: [a-zA-Z0-9] ([a-zA-Z0-9_-]* [a-zA-Z0-9_])?;
+StageHeaderEnd: (TAB | SPACE)* '---' '-'* EOL* -> popMode;
+
+/*
+ * INCLUDE_PATH mode
+ * ------------------------------------------------------------------------------------------------
+ * This mode is used to capture the file path in an #include directive.
+ * Format: #include "path/to/file.efx"
+ */
+mode INCLUDE_PATH;
+
+IncludePath: '"' ~["\r\n]+ '"' (TAB | SPACE)* COMMENT? EOL* -> popMode;
 
 /*
  * SKIP_WHITESPACE mode
  * ------------------------------------------------------------------------------------------------
- * This mode is used to skip any whitespace between the context declaration block of an EFX template
- * line and the first character of the actual template. The trick is done by pushing the
- * SKIP_WHITESPACE mode right before pushing the EXPRESSION mode needed to analyse the context
- * declaration block. This will cause the lexer to return to this SKIP_WHITESPACE mode right after
- * the context declaration block is processed (the EXPRESSION mode is popped right after the context
- * declaration block is processed).
+ * This mode is used to skip any whitespace insignificant between the different parts of EFX template
+ * line. For example any whitespace between the OutlineNumber and the start of the expression that
+ * follows it, or any white space between the end of a context declaration block and the first character
+ * of the actual template. After switching to this mode, the lexer will skip all whitespace and switch
+ * back to the mode that was active right before. If no whitespace is found, the lexer will watch for
+ * the start of an expression
  */
 mode SKIP_WHITESPACE;
 
-// Just skip all whitespace and directly switch to TEMPLATE mode. Notice that we do not use
-// pushMode(); we simply change the current mode from SKIP_WHITESPACE to TEMPLATE.
-SWS: [ \t]+ -> channel(WHITESPACE), mode(TEMPLATE);
+// Mode switching ---------------------------------------------------------------------------------
+// In case we encounter any token that signifies the start of an expression, we will switch to the 
+// expression mode. This may happen if there is no whitespace between the token that caused the switch 
+// to SKIP_WHITESPACE and the start of the expression that follows it. 
+
+// If we encounter a single curly brace in SKIP_WHITESPACE mode, then we are in a line written in EFX-1 style.
+// We will switch to EXPRESSION mode after first exiting the current mode and pushing the TEMPLATE and 
+// SKIP_WHITESPACE modes to the stack so that the lexer will find itself in the right mode after processing the expression block.
+ContextExpression: LBRACE -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(StartExpressionBlock);
+
+LetExpression: LET -> pushMode(EXPRESSION), type(Let);
+WithExpression: WITH -> pushMode(EXPRESSION), type(With);
+
+// Skipping whitespace & comments -----------------------------------------------------------------
+
+// Skip to end of line if necessary.
+SkippedComment: (TAB | SPACE)* COMMENT? EOL+ -> channel(HIDDEN), popMode;
+
+// Just skip all whitespace and directly switch to back to the previous mode.
+SkippedWhitespace: (TAB | SPACE)+ -> channel(HIDDEN), popMode, type(Whitespace);
 
 
 /*
  * TEMPLATE mode 
  * ------------------------------------------------------------------------------------------------ 
- * In template mode, whitespace is significant. In this mode we are looking for the
- * text that is to be displayed. The text can contain placeholders for labels and expressions.
+ * In template mode, whitespace is significant. In this mode we are looking for the text that is 
+ * to be displayed. The text can contain placeholders for labels and expressions as well as free 
+ * text characters.
  */
 
 mode TEMPLATE;
 
+
 // Python-style line joining. The backslash at the end of a line is used to join the following line
-LineJoining: '\\'  Whitespace* CRLF+ Whitespace* -> skip;
+LineJoining: '\\'  (TAB | SPACE)* EOL+ (TAB | SPACE)* -> skip;
+
+NewLine: (TAB | SPACE)* LINE_BREAK_ESC_SEQ (TAB | SPACE)*;
+
+WhenExpression: (TAB | SPACE | EOL)* WHEN -> popMode, pushMode(EXPRESSION), type(When);
+OtherwiseTemplate: (TAB | SPACE | EOL)* OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? (TAB | SPACE)* -> type(Otherwise);
+InvokeTemplate: (TAB | SPACE | EOL)* INVOKE -> popMode, pushMode(EXPRESSION), type(Invoke);
+
+CharacterReference: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
+
+EndTemplate: (TAB | SPACE)* ';' (TAB | SPACE)* COMMENT? -> popMode, type(Semicolon);
 
 // A newline terminates the TEMPLATE mode and switches back to DEFAULT mode.
-CRLF: ('\r'? '\n' | '\r' | '\f') -> popMode;
+CRLF: EOL+ -> popMode;
 
-NewLine: '\\n';
-
-FreeText: CharSequence+;
-fragment CharSequence: Char+;
-fragment Char: ~[\r\n\f\t #$}{];
-
-fragment Dollar: '$';	// Used for label placeholders
-fragment Sharp: '#';	// Used for expression placeholders
-fragment OpenBrace: '{';
-
-ShorthandFieldValueReferenceFromContextField: Dollar ValueKeyword;
-ShorthandIndirectLabelReferenceFromContextField: Sharp ValueKeyword;
+ShorthandFieldValueReferenceFromContextField: DOLLAR ValueKeyword;
+ShorthandIndirectLabelReferenceFromContextField: SHARP ValueKeyword;
 ValueKeyword: 'value';
 
-ShorthandLabelType: LabelType -> type(LabelType);
+ShorthandLabelType: SHARP LabelType -> type(LabelType);
 
-
-StartExpression: Dollar OpenBrace -> pushMode(EXPRESSION);
-StartLabel: Sharp OpenBrace -> pushMode(LABEL);
+StartExpressionBlock: DOLLAR LBRACE -> pushMode(EXPRESSION);
+StartLabelBlock: SHARP LBRACE -> pushMode(LABEL);
+StartHyperlinkBlock: (TAB | SPACE)* AT LBRACE -> pushMode(EXPRESSION);
 
 // Comments at the end of a line.
-EndOfLineComment: Whitespace* '//' ~[\r\n\f]* -> skip;
+EndOfLineComment: (TAB | SPACE)* COMMENT -> channel(HIDDEN);
 
 // Whitespace is significant in TEMPLATE mode.
-Whitespace: [\t ];
+Whitespace: (TAB | SPACE)+;
 
+FreeText: ~[\r\n\f\t #$@&;\\]+;
+
+OtherEscapeSequence: OTHER_ESC_SEQ;
 
 /*
  * LABEL mode
@@ -118,9 +174,9 @@ mode LABEL;
 Pipe: '|';
 Semicolon: ';';
 
-EndLabel: '}' -> popMode;
+EndLabel: RBRACE -> popMode, type(EndBlock);
 
-StartNestedExpression: '$' '{' -> pushMode(EXPRESSION), type(StartExpression);
+StartNestedExpression: DOLLAR LBRACE -> pushMode(EXPRESSION), type(StartExpressionBlock);
 
 
 AssetType
@@ -145,7 +201,7 @@ ASSET_TYPE_FIELD: 'field';
 ASSET_TYPE_NODE: 'node';
 ASSET_TYPE_DISPLAY_GROUP: 'group';
 ASSET_TYPE_VIEW_TEMPLATE: 'view';
-ASSET_TYPE_NOTICE: Notice -> type(Notice);
+ASSET_TYPE_NOTICE: 'notice';
 ASSET_TYPE_CODE_LIST: Codelist -> type(Codelist);
 ASSET_TYPE_CODE: Code -> type(Code);
 ASSET_TYPE_INDICATOR: Indicator -> type(Indicator);
@@ -175,12 +231,13 @@ LABEL_TYPE_TEMPLATE: 'template';
 
 FieldAssetId: FieldId -> type(FieldId);
 BtAssetId: BtId -> type(BtId);
-OtherAssetId: [a-z]+ ('-' [a-z0-9]*)*;
+OtherAssetId: [a-z]+ ([-.] [a-z0-9]+)*;
 
 /*
  * EXPRESSION mode
- * 
- * This lexer mode is used in efx expression blocks ${...} and context declaration blocks {...}.
+ * ------------------------------------------------------------------------------------------------
+ * This lexer mode is used for EFX expressions, expression blocks ${...}, context declaration blocks {...} (or WITH),
+ * conditional template/rule clauses (WHEN) and validation rule clauses (ASSERT, REPORT).
  */
 
 mode EXPRESSION;
@@ -190,25 +247,49 @@ CloseParenthesis: ')';
 OpenBracket: '[';
 CloseBracket: ']';
 
-ColonColon: [ \t]* '::' [ \t]*;
-
-/*
- * Curly braces are not used by expressions themselves. So we use them to indicate the start and end
- * of an expression block, and to switch in and out of EXPRESSION mode.
- */
-EndExpression: '}' -> popMode;
+ColonColon: '::';
 
 
-// Keywords ------------------------------------------------------------------------------------------------
+// Mode switching ---------------------------------------------------------------------------------
+
+// An RBRACE indicates the end of an EFX-1 style expression block.
+EndBlock: RBRACE -> popMode;
+
+EndLetExpression: ';' -> popMode, type(Semicolon);
+
+// The DISPLAY keyword, as well as the OTHERWISE DISPLAY construct indicate that the expression block is completed and a template block follows.
+OtherwiseDisplay: OTHERWISE ((TAB | SPACE | EOL)+ DISPLAY)? -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(Otherwise);
+DisplayKeyword: DISPLAY -> popMode, pushMode(TEMPLATE), pushMode(SKIP_WHITESPACE), type(Display);
+InvokeKeyword: INVOKE -> type(Invoke);
+
+OtherwiseAssert: OTHERWISE (TAB | SPACE | EOL)+ ASSERT;
+OtherwiseReport: OTHERWISE (TAB | SPACE | EOL)+ REPORT;
+AssertKeyword: ASSERT -> type(Assert);
+ReportKeyword: REPORT -> type(Report);
+WithKeyword: WITH -> popMode, pushMode(SKIP_WHITESPACE), pushMode(EXPRESSION), type(With);
+
+SummarySectionHeaderX: '---' '-'* (TAB | SPACE)* 'SUMMARY' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(SummarySectionHeader);
+NavigationSectionHeaderX: '---' '-'* (TAB | SPACE)* 'NAVIGATION' (TAB | SPACE)* '---' '-'* EOL* -> popMode, type(NavigationSectionHeader);
+StageHeaderStartX: '---' '-'* (TAB | SPACE)* STAGE (TAB | SPACE)+ -> popMode, pushMode(STAGE_HEADER), type(StageHeaderStart);
+
+// Encountering WHEN in an expression block indicates that conditional templates or rules follow.
+// We should remain in EXPRESSION mode to process the first condition.
+StartConditionals: WHEN -> type(When);
+
+// Keywords ---------------------------------------------------------------------------------------
 
 And: 'and';
 Or: 'or';
 Is: 'is';
 In: 'in';
+IN: 'IN';
 Like: 'like';
 Present: 'present';
 Empty: 'empty';
 Unique: 'unique';
+Has: 'has';
+No: 'no';
+Duplicates: 'duplicates';
 Every: 'every';
 Some: 'some';
 Satisfies: 'satisfies';
@@ -216,20 +297,36 @@ If: 'if';
 Then: 'then';
 Else: 'else';
 For: 'for';
+FOR: 'FOR';
 Return: 'return';
+Distinct: 'distinct';
+As: 'AS' | 'as';
+Any: 'ANY' | 'any';
 Always: 'ALWAYS';
 Never: 'NEVER';
 True: 'TRUE';
 False: 'FALSE';
-Notice: 'notice';
+Error: 'ERROR';
+Warning: 'WARNING';
+Info: 'INFO';
+Scope: 'SCOPE';
+Pre: '@PRE';
+Post: '@POST';
 Codelist: 'codelist';
 Code: 'code';
 Text: 'text';
 Number: 'number';
 Indicator: 'indicator';
+Dynamic: 'dynamic';
 Date: 'date';
 Time: 'time';
-Measure: 'measure';
+Duration: 'duration';
+Template: 'template';
+Index: INDEX;
+By: BY;
+Assert: ASSERT;
+Report: REPORT;
+Compute: COMPUTE;
 
 // Data types ------------------------------------------------------------------------------------------------
 
@@ -239,24 +336,9 @@ TextType: Text -> type(Text);
 CodeType: Code -> type(Code);
 DateType: Date -> type(Date);
 TimeType: Time -> type(Time);
-DurationType: Measure -> type(Measure);
+DurationType: Duration -> type(Duration);
 ContextType: 'context';
 
-
-// Axes ------------------------------------------------------------------------------------------------
-
-Axis: Preceding | PrecedingSibling | Following | FollowingSibling | Child | Descendant | DescendantOrSelf | Ancestor | AncestorOrSelf | Self | Parent;
-Preceding: 'preceding';
-Following: 'following';
-PrecedingSibling: 'preceding-sibling';
-FollowingSibling: 'following-sibling';
-Ancestor: 'ancestor';
-AncestorOrSelf: 'ancestor-or-self';
-Descendant: 'descendant';
-DescendantOrSelf: 'descendant-or-self';
-Child: 'child';
-Self: 'self';
-Parent: 'parent';
 
 
 // Functions ------------------------------------------------------------------------------------------------
@@ -264,65 +346,130 @@ Parent: 'parent';
 Not: 'not';
 CountFunction: 'count';
 SubstringFunction: 'substring';
-StringFunction: 'string';
+SubstringBeforeFunction: 'substring-before';
+SubstringAfterFunction: 'substring-after';
+StringFunction: 'string' -> type(Text);
 NumberFunction: Number -> type(Number);
 ContainsFunction: 'contains';
 StartsWithFunction: 'starts-with';
 EndsWithFunction: 'ends-with';
 StringLengthFunction: 'string-length';
+IndexOfSubstringFunction: 'index-of-substring';
 SumFunction: 'sum';
+MinFunction: 'min';
+MaxFunction: 'max';
+AverageFunction: 'average';
+AbsoluteFunction: 'absolute';
+RoundFunction: 'round';
+RoundDownFunction: 'round-down';
+RoundUpFunction: 'round-up';
+YearFunction: 'year';
+MonthFunction: 'month';
+DayFunction: 'day';
+HoursFunction: 'hours';
+MinutesFunction: 'minutes';
+SecondsFunction: 'seconds';
+YearsFunction: 'years';
+MonthsFunction: 'months';
+DaysFunction: 'days';
 FormatNumberFunction: 'format-number';
+FormatShortFunction: 'format-short';
+FormatMediumFunction: 'format-medium';
+FormatLongFunction: 'format-long';
+UpperCaseFunction: 'upper-case';
+LowerCaseFunction: 'lower-case';
+NormalizeSpaceFunction: 'normalize-space';
+TrimFunction: 'trim';
+TrimLeftFunction: 'trim-left';
+TrimRightFunction: 'trim-right';
+PadLeftFunction: 'pad-left';
+PadRightFunction: 'pad-right';
+RepeatFunction: 'repeat';
+SplitFunction: 'split';
+ReplaceFunction: 'replace';
+ReplaceRegexFunction: 'replace-regex';
+UrlEncodeFunction: 'url-encode';
+CapitalizeFirstFunction: 'capitalize-first';
 ConcatFunction: 'concat';
 StringJoinFunction: 'string-join';
 DateFunction: Date -> type(Date);
 TimeFunction: Time -> type(Time);
+CurrentDateFunction: 'current-date';
+CurrentTimeFunction: 'current-time';
 DayTimeDurationFunction: 'day-time-duration';
 YearMonthDurationFunction: 'year-month-duration';
-AddMeasure: 'add-measure';
-SubtractMeasure: 'subtract-measure';
+AddDuration: 'add-duration';
+SubtractDuration: 'subtract-duration';
 DistinctValuesFunction: 'distinct-values';
+CountDuplicatesFunction: 'count-duplicates';
+GetDuplicatesFunction: 'get-duplicates';
 UnionFunction: 'value-union';
 IntersectFunction: 'value-intersect';
 ExceptFunction: 'value-except';
 SequenceEqualFunction: 'sequence-equal';
+SortFunction: 'sort';
+ReverseFunction: 'reverse';
+SubsequenceFunction: 'subsequence';
+IndexOfFunction: 'index-of';
+PreferredLanguageFunction: 'preferred-language';
+PreferredLanguageTextFunction: 'preferred-language-text';
+// Linked field property keywords
+PublicationDate: 'publicationDate';
+JustificationCode: 'justificationCode';
+JustificationDescription: 'justificationDescription';
+// Metadata property keywords
+PrivacyCode: 'privacyCode';
+// Computed property keywords
+WasWithheld: 'wasWithheld';
+IsWithheld: 'isWithheld';
+IsWithholdable: 'isWithholdable';
+IsDisclosed: 'isDisclosed';
+IsMasked: 'isMasked';
+// Other property keywords
+RawValue: 'rawValue';
+PreferredLanguage: 'preferredLanguage';
+PreferredLanguageText: 'preferredLanguageText';
+
+// API call keywords
+EndpointExpression: ENDPOINT -> type(Endpoint);
+Call: 'CALL' | 'call';
+Api: 'API' | 'api';
+At: 'AT' | 'at';
+On: 'ON' | 'on';
+Warn: 'WARN' | 'warn';
+Reject: 'REJECT' | 'reject';
 
 // Effective order of precedence is the order of declaration. 
 // Duration tokens must take precedence over Identifier tokens to avoid using delimiters like quotes.
 // Therefore duration literals must be declared before Identifier. 
-DayTimeDurationLiteral: '-'? 'P' INTEGER ('W' | 'D');
-YearMonthDurationLiteral: '-'? 'P' INTEGER ('Y' | 'M');
+DayTimeDurationLiteral: '-'? 'P' IntegerLiteral ('W' | 'D');
+YearMonthDurationLiteral: '-'? 'P' IntegerLiteral ('Y' | 'M');
 
 
-FieldId: FieldIdentifier | FieldAlias;
-NodeId: NodeIdentifier | NodeAlias;
+FieldId: FieldIdentifier;// | FieldAlias;
+NodeId: NodeIdentifier;// | NodeAlias;
 
-VariablePrefix: '$';
-AttributePrefix: '@';
-CodelistPrefix: 'codelist:';
-
-Variable: VariablePrefix IdentifierPart;
-Attribute: AttributePrefix Identifier;
-CodelistId: CodelistPrefix Identifier;
+VariablePrefix: DOLLAR -> pushMode(IDENTIFIER);
+AtPrefix: AT -> pushMode(IDENTIFIER);
+HashPrefix: SHARP -> pushMode(IDENTIFIER);
+FunctionPrefix: '?' -> pushMode(IDENTIFIER);
 
 BtId: ('BT' | 'OPP' | 'OPT' | 'OPA') '-' [0-9]+;
 FieldIdentifier: BtId ('(' (('BT' '-' [0-9]+) | [a-z]) ')')? ('-' ([a-zA-Z_] ([a-zA-Z_] | [0-9])*))+;
 NodeIdentifier: 'ND' '-' [a-zA-Z0-9]+;
-FieldAlias: CamelCase ('_' CamelCase)*;
-NodeAlias: PascalCase ('_' PascalCase)*;
-fragment CamelCase: [a-z] [a-z0-9]+ PascalCase*;
-fragment PascalCase: [A-Z] [a-z0-9]+ PascalCase*;
+RuleIdentifier: 'R' '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9] '-' [a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9];
+// FieldAlias: CAMEL_CASE ('_' CAMEL_CASE)*;
+// NodeAlias: PASCAL_CASE ('_' PASCAL_CASE)*;
 
 
-Identifier: IdentifierPart ('-' IdentifierPart)*;
-IdentifierPart: LETTER (LETTER | DIGIT)*;
+Identifier: LETTER ('-'? (LETTER | DIGIT)+)*;
 
-INTEGER: '-'? DIGIT+;
-DECIMAL: '-'? DIGIT? '.' DIGIT+;
-STRING: ('"' CHAR_SEQ? '"') | ('\'' CHAR_SEQ? '\'');
-UUIDV4: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
-DATE: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z');
-TIME: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT (ZONE | 'Z');
-ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
+IntegerLiteral: DIGIT+;
+DecimalLiteral: DIGIT? '.' DIGIT+;
+StringLiteral: ('"' DQUOTE_CHAR_SEQ? '"') | ('\'' SQUOTE_CHAR_SEQ? '\'');
+UuidV4Literal: '{' HEX4 HEX4 '-' HEX4 '-' HEX4 '-' HEX4 '-' HEX4 HEX4 HEX4 '}';
+DateLiteral: DIGIT DIGIT DIGIT DIGIT '-' DIGIT DIGIT '-' DIGIT DIGIT (ZONE | 'Z');
+TimeLiteral: DIGIT DIGIT Colon DIGIT DIGIT Colon DIGIT DIGIT (ZONE | 'Z');
 
 
 // Operators ------------------------------------------------------------------------------------------------
@@ -335,18 +482,73 @@ Plus: '+';
 Minus: '-';
 
 Comma: ',';
-Dot: '.';
+Ellipsis: '...' -> pushMode(IDENTIFIER);
 DotDot: '..';
+Dot: '.';
 Colon: ':';
 
-fragment HEX4: HEX HEX HEX HEX;
-fragment HEX: [0-9a-fA-F];
-fragment CHAR_SEQ: CHAR+;
-fragment CHAR: ~["'\\\r\n] | ESC_SEQ;
-fragment ESC_SEQ: '\\' [dDwWnsStrvfbcxu0"'\\];
-fragment LETTER: [a-zA-Z_];
-fragment DIGIT: [0-9];
+// Comments in EXPRESSION mode
+ExpressionComment: (TAB | SPACE)* COMMENT EOL* -> channel(HIDDEN);
 
 // Whitespace, although not significant, is not skipped. It goes to a separate channel so that it can
 // be ignored by the parser without disappearing (from syntax error messages for example).
-WS: [ \t]+ -> channel(WHITESPACE);
+WS: [ \t\r\n]+ -> channel(HIDDEN);
+
+/*
+ * IDENTIFIER
+ * ------------------------------------------------------------------------------------------------
+ * This mode is entered after prefixes like CodelistPrefix (#) and VariablePrefix ($) to match the
+ * next token as an identifier, bypassing keyword recognition. This avoids conflicts with keywords
+ * like 'indicator', 'notice', 'date', etc. that are also valid codelist or variable names.
+ */
+
+mode IDENTIFIER;
+UnquotedIdentifier: LETTER ('-'? (LETTER | DIGIT)+)* -> popMode, type(Identifier);
+
+// Fragments
+fragment EOL: ('\r'? '\n' | '\r' | '\f');
+fragment LET: ('LET' | 'let');
+fragment WITH: ('WITH' | 'with');
+fragment INVOKE: ('INVOKE' | 'invoke');
+fragment DISPLAY: ('DISPLAY' | 'display');
+fragment WHEN: ('WHEN' | 'when');
+fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
+fragment ASSERT: ('ASSERT' | 'assert');
+fragment REPORT: ('REPORT' | 'report');
+fragment COMPUTE: ('COMPUTE' | 'compute');
+fragment STAGE: ('STAGE' | 'stage');
+fragment ENDPOINT: ('ENDPOINT' | 'endpoint');
+fragment INDEX: ('INDEX' | 'index');
+fragment BY: ('BY' | 'by');
+fragment COMMENT: '//' ~[\r\n\f]*;
+
+fragment TAB: [\t];
+fragment SPACE: [ ];
+fragment LBRACE: '{';
+fragment RBRACE: '}';
+
+fragment AT: '@';
+fragment DOLLAR: '$';
+fragment SHARP: '#';
+fragment CHAR_REF: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
+
+fragment HEX4: HEX HEX HEX HEX;
+
+fragment HEX: [0-9a-fA-F];
+fragment SQUOTE_CHAR_SEQ: SQUOTE_CHAR+;
+fragment DQUOTE_CHAR_SEQ: DQUOTE_CHAR+;
+fragment SQUOTE_CHAR: ~['\\\r\n] | ANY_ESC_SEQ;
+fragment DQUOTE_CHAR: ~["\\\r\n] | ANY_ESC_SEQ;
+fragment TEXT_CHAR: ~[\\\r\n] | OTHER_ESC_SEQ;
+
+
+fragment LINE_BREAK_ESC_SEQ: '\\n';	                    // Used for line breaks
+fragment OTHER_ESC_SEQ: '\\' [dDwWsStrvfbcxu0"'\\];     // Used for allowing in free text escape sequences other than \\n 
+fragment ANY_ESC_SEQ:   '\\' .;
+
+fragment CAMEL_CASE: [a-z] [a-z0-9]+ PASCAL_CASE*;
+fragment PASCAL_CASE: [A-Z] [a-z0-9]+ PASCAL_CASE*;
+fragment LETTER: [a-zA-Z_];
+
+fragment ZONE: ('+' | '-') DIGIT DIGIT ':' DIGIT DIGIT;
+fragment DIGIT: [0-9];

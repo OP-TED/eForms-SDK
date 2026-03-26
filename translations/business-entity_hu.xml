@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Hungarian. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Vevő</entry>
+<entry key="business-entity|name|changes">Változások</entry>
+<entry key="business-entity|name|contract">Szerződés</entry>
+<entry key="business-entity|name|contractModification">Szerződésmódosítás</entry>
+<entry key="business-entity|name|euBusiness">Európai üzlet</entry>
+<entry key="business-entity|name|groupOfLots">Részcsoport</entry>
+<entry key="business-entity|name|lot">Rész</entry>
+<entry key="business-entity|name|noticeInformation">A hirdetményre vonatkozó információk</entry>
+<entry key="business-entity|name|noticeResult">Hirdetmény eredménye</entry>
+<entry key="business-entity|name|organization">Szervezet</entry>
+<entry key="business-entity|name|part">Rész</entry>
+<entry key="business-entity|name|procedure">Eljárás</entry>
+<entry key="business-entity|name|resultForLot">Eredmény tételenként</entry>
+<entry key="business-entity|name|reviewInformation">Információ a felülvizsgálatról</entry>
+<entry key="business-entity|name|tender">Ajánlat</entry>
+<entry key="business-entity|name|tenderingParty">Ajánlattevő</entry>
+<entry key="business-entity|name|touchpoint">Kapcsolatpont</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Végleges haszonélvező tulajdonos</entry>
+</properties>

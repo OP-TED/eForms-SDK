@@ -1,0 +1,104 @@
+--- STAGE 5m ---
+
+LET text* : $global-lot-ids = BT-137-Lot:rawValue;
+LET text* : $global-org-ids = OPT-200-Organization-Company:rawValue;
+LET text* : $global-lot-business-ids = BT-22-Lot:rawValue;
+LET text* : $global-ten-ids = OPT-321-Tender:rawValue;
+LET text* : $global-con-business-ids = BT-150-Contract:rawValue;
+LET text* : $global-tpa-ids = OPT-210-Tenderer:rawValue;
+LET text* : $global-ten-to-tpa = OPT-310-Tender:rawValue;
+LET text* : $global-con-ids = OPT-316-Contract:rawValue;
+LET text* : $global-res-to-con = OPT-315-LotResult:rawValue;
+LET text* : $global-res-ids = OPT-322-LotResult:rawValue;
+
+WITH OPT-200-Organization-Company
+  ASSERT OPT-200-Organization-Company is unique in $global-org-ids
+    AS ERROR R-3J3-U4M
+    FOR OPT-200-Organization-Company
+    IN *
+
+WITH BT-137-Lot
+  ASSERT BT-137-Lot is unique in $global-lot-ids
+    AS ERROR R-1HR-H3Z
+    FOR BT-137-Lot
+    IN *
+
+WITH BT-22-Lot
+  ASSERT BT-22-Lot is unique in $global-lot-business-ids
+    AS ERROR R-KW3-NRX
+    FOR BT-22-Lot
+    IN *
+
+WITH OPT-321-Tender
+  ASSERT OPT-321-Tender is unique in $global-ten-ids
+    AS ERROR R-WL9-LZO
+    FOR OPT-321-Tender
+    IN *
+
+WITH BT-150-Contract
+  ASSERT BT-150-Contract is unique in $global-con-business-ids
+    AS ERROR R-GWG-PBV
+    FOR BT-150-Contract
+    IN *
+
+WITH OPT-210-Tenderer
+  ASSERT OPT-210-Tenderer is unique in $global-tpa-ids
+    AS ERROR R-CIN-QX3
+    FOR OPT-210-Tenderer
+    IN *
+  ASSERT OPT-210-Tenderer in $global-ten-to-tpa
+    AS ERROR R-I69-9RH
+    FOR OPT-210-Tenderer
+    IN *
+
+WITH OPT-316-Contract
+  ASSERT OPT-316-Contract is unique in $global-con-ids
+    AS ERROR R-RKO-4E9
+    FOR OPT-316-Contract
+    IN *
+  ASSERT OPT-316-Contract in $global-res-to-con
+    AS ERROR R-SQ6-RY1
+    FOR OPT-316-Contract
+    IN 29,30,31,32,E4,T02,33,34,35,36,37,E5
+
+WITH OPT-322-LotResult
+  ASSERT OPT-322-LotResult is unique in $global-res-ids
+    AS ERROR R-Z2E-TR8
+    FOR OPT-322-LotResult
+    IN *
+
+WITH OPT-301-LotResult-Financing
+  ASSERT OPT-301-LotResult-Financing in $global-org-ids
+    AS ERROR R-OYW-GFQ
+    FOR OPT-301-LotResult-Financing
+    IN *
+
+WITH OPT-301-LotResult-Paying
+  ASSERT OPT-301-LotResult-Paying in  $global-org-ids
+    AS ERROR R-7RA-6G3
+    FOR OPT-301-LotResult-Paying
+    IN *
+
+WITH OPT-315-LotResult
+  ASSERT OPT-315-LotResult in $global-con-ids
+    AS ERROR R-AL8-1DG
+    FOR OPT-315-LotResult
+    IN *
+
+WITH OPT-320-LotResult
+  ASSERT OPT-320-LotResult in $global-ten-ids
+    AS ERROR R-XDN-62E
+    FOR OPT-320-LotResult
+    IN *
+
+WITH BT-3202-Contract
+  ASSERT BT-3202-Contract in $global-ten-ids
+    AS ERROR R-BHP-KX2
+    FOR BT-3202-Contract
+    IN *
+
+WITH OPT-300-Contract-Signatory
+  ASSERT OPT-300-Contract-Signatory in $global-org-ids
+    AS ERROR R-4ZU-5UE
+    FOR OPT-300-Contract-Signatory
+    IN *

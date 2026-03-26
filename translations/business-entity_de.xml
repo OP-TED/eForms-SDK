@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in German. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Beschaffer</entry>
+<entry key="business-entity|name|changes">Änderungen</entry>
+<entry key="business-entity|name|contract">Auftrag</entry>
+<entry key="business-entity|name|contractModification">Auftragsänderung</entry>
+<entry key="business-entity|name|euBusiness">Europäisches Geschäft</entry>
+<entry key="business-entity|name|groupOfLots">Gruppe von Losen</entry>
+<entry key="business-entity|name|lot">Los</entry>
+<entry key="business-entity|name|noticeInformation">Informationen zur Bekanntmachung</entry>
+<entry key="business-entity|name|noticeResult">Bekanntmachung über die Ergebnisse</entry>
+<entry key="business-entity|name|organization">Organisation</entry>
+<entry key="business-entity|name|part">Teil</entry>
+<entry key="business-entity|name|procedure">Verfahren</entry>
+<entry key="business-entity|name|resultForLot">Ergebnis für Los</entry>
+<entry key="business-entity|name|reviewInformation">Informationen zur Überprüfung</entry>
+<entry key="business-entity|name|tender">Angebot</entry>
+<entry key="business-entity|name|tenderingParty">Ausschreibungsseite</entry>
+<entry key="business-entity|name|touchpoint">Kontaktpunkt</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Endbegünstigter Eigentümer</entry>
+</properties>

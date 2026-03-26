@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Polish. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Nabywca</entry>
+<entry key="business-entity|name|changes">Zmiany</entry>
+<entry key="business-entity|name|contract">Umowa</entry>
+<entry key="business-entity|name|contractModification">Modyfikacja zamówienia</entry>
+<entry key="business-entity|name|euBusiness">Europejski biznes</entry>
+<entry key="business-entity|name|groupOfLots">Grupa części zamówienia</entry>
+<entry key="business-entity|name|lot">Część zamówienia</entry>
+<entry key="business-entity|name|noticeInformation">Informacje o ogłoszeniu</entry>
+<entry key="business-entity|name|noticeResult">Ogłoszenie - Wynik</entry>
+<entry key="business-entity|name|organization">Organizacja</entry>
+<entry key="business-entity|name|part">Część</entry>
+<entry key="business-entity|name|procedure">Procedura</entry>
+<entry key="business-entity|name|resultForLot">Wynik dla partii</entry>
+<entry key="business-entity|name|reviewInformation">Informacje o przeglądzie</entry>
+<entry key="business-entity|name|tender">Oferta</entry>
+<entry key="business-entity|name|tenderingParty">Strona oferująca</entry>
+<entry key="business-entity|name|touchpoint">Punkt kontaktowy</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Ostateczny korzystający właściciel</entry>
+</properties>

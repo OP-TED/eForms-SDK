@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>Einvoicing</ShortName>
       <LongName>einvoicing</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/permission</LongName>
       <LongName Identifier="eFormsParentId">permission</LongName>
-      <Version>1.6.0</Version>
+      <Version>2.0.0-SNAPSHOT</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -239,7 +239,7 @@
             <SimpleValue>Non autorisée</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Éigeantach</SimpleValue>
+            <SimpleValue>Ní ceadmhach</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Nije dopušteno</SimpleValue>
@@ -319,7 +319,7 @@
             <SimpleValue>Requise</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Ní ceadmhach</SimpleValue>
+            <SimpleValue>Éigeantach</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
             <SimpleValue>Obvezno</SimpleValue>

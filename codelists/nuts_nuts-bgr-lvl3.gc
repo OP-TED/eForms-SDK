@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NutsBgrLvl3</ShortName>
       <LongName>nuts-bgr-lvl3</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/nuts</LongName>
       <LongName Identifier="eFormsParentId">nuts</LongName>
-      <Version>1.6.0</Version>
+      <Version>2.0.0-SNAPSHOT</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -126,10 +126,79 @@
             <SimpleValue>BG311</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Видин (Vidin)</SimpleValue>
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Видин</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Видин (Vidin)</SimpleValue>
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Видин</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Видин</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,10 +206,79 @@
             <SimpleValue>BG312</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Монтана (Montana)</SimpleValue>
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Монтана</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Монтана (Montana)</SimpleValue>
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Монтана</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Монтана</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -148,10 +286,79 @@
             <SimpleValue>BG313</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Враца (Vratsa)</SimpleValue>
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Враца</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Враца (Vratsa)</SimpleValue>
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Враца</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Враца</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -159,10 +366,79 @@
             <SimpleValue>BG314</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Плевен (Pleven)</SimpleValue>
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Плевен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Плевен (Pleven)</SimpleValue>
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Плевен</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Плевен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -170,10 +446,79 @@
             <SimpleValue>BG315</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ловеч (Lovech)</SimpleValue>
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ловеч</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ловеч (Lovech)</SimpleValue>
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ловеч</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ловеч</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -181,10 +526,79 @@
             <SimpleValue>BG321</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Велико Търново (Veliko Tarnovo)</SimpleValue>
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Велико Търново</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Велико Търново (Veliko Tarnovo)</SimpleValue>
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Велико Търново</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Велико Търново</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -192,10 +606,79 @@
             <SimpleValue>BG322</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Габрово (Gabrovo)</SimpleValue>
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Габрово</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Габрово (Gabrovo)</SimpleValue>
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Габрово</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Габрово</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -203,10 +686,79 @@
             <SimpleValue>BG323</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Русе (Ruse)</SimpleValue>
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Русе</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Русе (Ruse)</SimpleValue>
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Русе</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Русе</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -214,10 +766,79 @@
             <SimpleValue>BG324</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Разград (Razgrad)</SimpleValue>
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Разград</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Разград (Razgrad)</SimpleValue>
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Разград</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Разград</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -225,10 +846,79 @@
             <SimpleValue>BG325</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Силистра (Silistra)</SimpleValue>
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Силистра</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Силистра (Silistra)</SimpleValue>
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Силистра</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Силистра</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -236,10 +926,79 @@
             <SimpleValue>BG331</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Варна (Varna)</SimpleValue>
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Варна</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Варна (Varna)</SimpleValue>
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Варна</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Варна</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -247,10 +1006,79 @@
             <SimpleValue>BG332</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Добрич (Dobrich)</SimpleValue>
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Добрич</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Добрич (Dobrich)</SimpleValue>
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Добрич</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Добрич</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -258,10 +1086,79 @@
             <SimpleValue>BG333</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Шумен (Shumen)</SimpleValue>
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Шумен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Шумен (Shumen)</SimpleValue>
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Шумен</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Шумен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -269,10 +1166,79 @@
             <SimpleValue>BG334</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Търговище (Targovishte)</SimpleValue>
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Търговище</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Търговище (Targovishte)</SimpleValue>
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Търговище</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Търговище</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -280,10 +1246,79 @@
             <SimpleValue>BG341</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Бургас (Burgas)</SimpleValue>
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Бургас</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Бургас (Burgas)</SimpleValue>
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Бургас</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Бургас</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -291,10 +1326,79 @@
             <SimpleValue>BG342</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Сливен (Sliven)</SimpleValue>
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Сливен</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Сливен (Sliven)</SimpleValue>
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Сливен</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Сливен</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -302,10 +1406,79 @@
             <SimpleValue>BG343</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ямбол (Yambol)</SimpleValue>
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ямбол</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ямбол (Yambol)</SimpleValue>
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Ямбол</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Ямбол</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -313,10 +1486,79 @@
             <SimpleValue>BG344</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Стара Загора (Stara Zagora)</SimpleValue>
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Стара Загора</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Стара Загора (Stara Zagora)</SimpleValue>
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Стара Загора</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Стара Загора</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -324,10 +1566,79 @@
             <SimpleValue>BG411</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>София (столица) (Sofia (stolitsa))</SimpleValue>
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>София (столица)</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>София (столица) (Sofia (stolitsa))</SimpleValue>
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>София (столица)</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>София (столица)</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -335,10 +1646,79 @@
             <SimpleValue>BG412</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>София (Sofia)</SimpleValue>
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>София</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>София (Sofia)</SimpleValue>
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>София</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>София</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -346,10 +1726,79 @@
             <SimpleValue>BG413</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Благоевград (Blagoevgrad)</SimpleValue>
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Благоевград</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Благоевград (Blagoevgrad)</SimpleValue>
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Благоевград</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Благоевград</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -357,10 +1806,79 @@
             <SimpleValue>BG414</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Перник (Pernik)</SimpleValue>
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Перник</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Перник (Pernik)</SimpleValue>
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Перник</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Перник</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -368,10 +1886,79 @@
             <SimpleValue>BG415</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Кюстендил (Kyustendil)</SimpleValue>
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Кюстендил</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Кюстендил (Kyustendil)</SimpleValue>
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Кюстендил</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Кюстендил</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -379,10 +1966,79 @@
             <SimpleValue>BG421</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пловдив (Plovdiv)</SimpleValue>
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Пловдив</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пловдив (Plovdiv)</SimpleValue>
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Пловдив</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Пловдив</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -390,10 +2046,79 @@
             <SimpleValue>BG422</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Хасково (Haskovo)</SimpleValue>
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Хасково</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Хасково (Haskovo)</SimpleValue>
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Хасково</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Хасково</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -401,10 +2126,79 @@
             <SimpleValue>BG423</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Пазарджик (Pazardzhik)</SimpleValue>
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Пазарджик</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Пазарджик (Pazardzhik)</SimpleValue>
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Пазарджик</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Пазарджик</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -412,10 +2206,79 @@
             <SimpleValue>BG424</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Смолян (Smolyan)</SimpleValue>
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Смолян</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Смолян (Smolyan)</SimpleValue>
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Смолян</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Смолян</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -423,10 +2286,79 @@
             <SimpleValue>BG425</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Кърджали (Kardzhali)</SimpleValue>
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Кърджали</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Кърджали (Kardzhali)</SimpleValue>
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Кърджали</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Кърджали</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -436,7 +2368,76 @@
          <Value ColumnRef="Name">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
             <SimpleValue>Extra-Regio NUTS 3</SimpleValue>
          </Value>
       </Row>

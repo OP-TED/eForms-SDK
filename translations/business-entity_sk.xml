@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Slovak. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Kupujúci</entry>
+<entry key="business-entity|name|changes">Zmeny</entry>
+<entry key="business-entity|name|contract">Zmluva</entry>
+<entry key="business-entity|name|contractModification">Zmena zmluvy</entry>
+<entry key="business-entity|name|euBusiness">Európsky obchod</entry>
+<entry key="business-entity|name|groupOfLots">Skupina častí</entry>
+<entry key="business-entity|name|lot">Časť</entry>
+<entry key="business-entity|name|noticeInformation">Informácie o oznámení</entry>
+<entry key="business-entity|name|noticeResult">Oznámenie o výsledku</entry>
+<entry key="business-entity|name|organization">Organizácia</entry>
+<entry key="business-entity|name|part">Časť</entry>
+<entry key="business-entity|name|procedure">Postup</entry>
+<entry key="business-entity|name|resultForLot">Výsledok pre šaržu</entry>
+<entry key="business-entity|name|reviewInformation">Informácie o kontrole</entry>
+<entry key="business-entity|name|tender">Ponuka</entry>
+<entry key="business-entity|name|tenderingParty">Ponúkajúca strana</entry>
+<entry key="business-entity|name|touchpoint">Kontaktný bod</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Konečný úžitkový vlastník</entry>
+</properties>

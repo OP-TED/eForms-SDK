@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>PlayerType</ShortName>
+      <LongName>player-type</LongName>
+      <Version>1.0</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>organization</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The player for the role/subrole is of type "Organisation".</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Играчът за ролята / подролята е от тип 'Организация'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hráč pro roli / podroli je typu 'Organizace'</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Spilleren for rollen / underrollen er af typen 'Organisation'</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Spieler für die Rolle / Unterrolle ist vom Typ 'Organisation'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο παίκτης για τον ρόλο / υπορόλο είναι τύπου 'Οργάνωση'</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The player for the role / subrole is of type 'Organisation'</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El jugador para el rol / subrol es de tipo 'Organización'</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rolli / alarolli mängija on tüüpi 'Organisatsioon'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Roolin / aliroolin pelaaja on tyyppiä 'Organisaatio'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Le joueur pour le rôle / sous-rôle est de type 'Organisation'</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is den chineál 'Eagraíocht' an imreoir don ról / fo-ról</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Igrač za ulogu / podulogu je tipa 'Organizacija'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szereplő a szerepkör / al-szerepkör típusa 'Szervezet'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il giocatore per il ruolo / sottoruolo è di tipo 'Organizzazione'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Žaidėjas vaidmeniui / subvaidmeniui yra tipo 'Organizacija'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Spēlētājs lomai / apakšlomai ir 'Organizācija' tips</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-player għar-ruħ / sub-ruħ huwa tat-tip 'Organizzazzjoni'</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De speler voor de rol / subrol is van het type 'Organisatie'</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gracz dla roli / podroli jest typu 'Organizacja'</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O jogador para o papel / subpapel é do tipo 'Organização'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Jucătorul pentru rol / subrol este de tipul 'Organizație'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hráč pre rolu / podrolu je typu 'Organizácia'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Igralec za vlogo / podvlogo je tipa 'Organizacija'</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Spelaren för rollen / underrollen är av typen 'Organisation'</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>touchpoint</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The player for the role/subrole is of type "Touchpoint".</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Играчът за ролята / подролята е от тип 'Точка за контакт'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Hráč pro roli / podroli je typu 'Kontaktní bod'</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Spilleren for rollen / underrollen er af typen 'Kontaktpunkt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Der Spieler für die Rolle / Unterrolle ist vom Typ 'Kontaktpunkt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο παίκτης για τον ρόλο / υπορόλο είναι τύπου 'Σημείο επαφής'</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The player for the role / subrole is of type 'Touchpoint'</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El jugador para el rol / subrol es de tipo 'Punto de contacto'</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Rolli / alarolli mängija on tüüpi 'Kontaktpunkt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Roolin / aliroolin pelaaja on tyyppiä 'Kontaktipiste'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Le joueur pour le rôle / sous-rôle est de type 'Point de contact'</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is den chineál 'Pointe Teagmhála' an imreoir don ról / fo-ról</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Igrač za ulogu / podulogu je tipa 'Kontaktna točka'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A szereplő a szerepkör / al-szerepkör típusa 'Érintési pont'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il giocatore per il ruolo / sottoruolo è di tipo 'Punto di contatto'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Žaidėjas vaidmeniui / subvaidmeniui yra tipo 'Kontaktinis taškas'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Spēlētājs lomai / apakšlomai ir 'Kontaktpunkta' tips</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Il-player għar-ruħ / sub-ruħ huwa tat-tip 'Punt ta' Kuntatt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De speler voor de rol / subrol is van het type 'Contactpunt'</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Gracz dla roli / podroli jest typu 'Punkt kontaktowy'</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O jogador para o papel / subpapel é do tipo 'Ponto de contato'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Jucătorul pentru rol / subrol este de tipul 'Punct de contact'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Hráč pre rolu / podrolu je typu 'Kontaktný bod'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Igralec za vlogo / podvlogo je tipa 'Kontaktna točka'</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Spelaren för rollen / underrollen är av typen 'Kontaktpunkt'</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>NoticeType</ShortName>
       <LongName>notice-type</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/notice-type</LongName>
-      <Version>20220615-0</Version>
+      <Version>20250924-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/notice-type</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -306,7 +306,7 @@
             <SimpleValue>Design contest result notice</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de concurso de proyectos</SimpleValue>
+            <SimpleValue>Anuncio del resultado de un concurso de proyectos</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
             <SimpleValue>Ideekonkursi tulemuse teade</SimpleValue>
@@ -336,7 +336,7 @@
             <SimpleValue>Paziņojums par metu konkursa rezultātiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż tal-konkors tad-disinn</SimpleValue>
+            <SimpleValue>Avviż dwar ir-riżultat ta’ konkors ta’ disinn</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Aankondiging van de uitslag van een prijsvraag voor ontwerpen</SimpleValue>
@@ -437,7 +437,7 @@
             <SimpleValue>Obvestilo o spremembi naročila</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Meddelande om ändring av kontrakt</SimpleValue>
+            <SimpleValue>Meddelande om ändring av kontrakt eller ramavtal</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -647,7 +647,7 @@
             <SimpleValue>Személyszállítási közszolgáltatási szerződés odaítélésére vonatkozó tájékoztató</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso di aggiudicazione per i servizi di trasporto pubblico di passeggeri</SimpleValue>
+            <SimpleValue> Avviso di aggiudicazione per i servizi di trasporto pubblico di passeggeri</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
             <SimpleValue>Skelbimas apie viešojo keleivinio transporto paslaugų sutarties skyrimą</SimpleValue>
@@ -736,7 +736,7 @@
             <SimpleValue>Paziņojums par metu konkursu</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż tal-konkors tad-disinn</SimpleValue>
+            <SimpleValue>Avviż dwar konkors ta’ disinn</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
             <SimpleValue>Aankondiging van een prijsvraag voor ontwerpen</SimpleValue>
@@ -905,7 +905,7 @@
             <SimpleValue>Ogłoszenie o zamówieniu lub ogłoszenie o koncesji – tryb standardowy</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Anúncio de adjudicação de contrato ou de concessão — regime normal</SimpleValue>
+            <SimpleValue>Anúncio de concurso ou de concessão – regime normal</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
             <SimpleValue>Anunț de participare sau de concesionare - regim standard</SimpleValue>
@@ -922,82 +922,82 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>corr</SimpleValue>
+            <SimpleValue>compl</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Change notice</SimpleValue>
+            <SimpleValue>Contract completion notice</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Обявление за промяна</SimpleValue>
+            <SimpleValue>Обявление за приключване на договор</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Oznámení oprav</SimpleValue>
+            <SimpleValue>Oznámení o dokončení zakázky</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Meddelelse om ændring</SimpleValue>
+            <SimpleValue>Bekendtgørelse om færdiggørelse af kontrakt</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Änderungsbekanntmachung</SimpleValue>
+            <SimpleValue>Bekanntmachung über die Auftragsausführung</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Γνωστοποίηση αλλαγών</SimpleValue>
+            <SimpleValue>Γνωστοποίηση ολοκλήρωσης σύμβασης</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Change notice</SimpleValue>
+            <SimpleValue>Contract completion notice</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Anuncio de cambios</SimpleValue>
+            <SimpleValue>Anuncio de finalización de contrato</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Paranduse teade</SimpleValue>
+            <SimpleValue>Teade lepingu täitmise kohta</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Ilmoituksen muutos</SimpleValue>
+            <SimpleValue>Sopimuksen toteutusilmoitus</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Avis de changement</SimpleValue>
+            <SimpleValue>Avis d’achèvement du marché</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Fógra maidir le hathrú</SimpleValue>
+            <SimpleValue>Fógra faoi chur i gcrích conartha</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Obavijest o promjeni</SimpleValue>
+            <SimpleValue>Obavijest o izvršenju ugovora</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>Változtatásról szóló hirdetmény</SimpleValue>
+            <SimpleValue>Szerződés teljesítéséről szóló hirdetmény</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Avviso di rettifica</SimpleValue>
+            <SimpleValue>Avviso di completamento di un appalto</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Skelbimas apie pakeitimą</SimpleValue>
+            <SimpleValue>Skelbimas apie sutarties įvykdymą</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Izmaiņu paziņojums</SimpleValue>
+            <SimpleValue>Paziņojums par līguma izpildi</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Avviż tal-bidla</SimpleValue>
+            <SimpleValue>Avviż ta’ tlestija ta’ kuntratt</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Bericht van wijziging van een aankondiging</SimpleValue>
+            <SimpleValue>Aankondiging van voltooiing van een opdracht</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Ogłoszenie o zmianie</SimpleValue>
+            <SimpleValue>Ogłoszenie o ukończeniu realizacji zamówienia</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Anúncio de alteração</SimpleValue>
+            <SimpleValue>Anúncio de conclusão de contrato</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Anunț de schimbare</SimpleValue>
+            <SimpleValue>Anunț de încheiere a contractului</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Oznámenie o zmene</SimpleValue>
+            <SimpleValue>Oznámenie o dokončení verejného obstarávania</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Obvestilo o spremembi obvestila</SimpleValue>
+            <SimpleValue>Obvestilo o sklenitvi pogodbe</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Meddelande om ändring</SimpleValue>
+            <SimpleValue>Meddelande om genomfört kontrakt</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1478,6 +1478,86 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Förhandsmeddelande om kollektivtrafik</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>pmc</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Pre-market consultation notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Обявление за предпазарна консултация</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Oznámení o předběžné tržní konzultaci</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Bekendtgørelse om høring forud for markedsføring</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Bekanntmachung über vorherige Marktkonsultation</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Γνωστοποίηση προκαταρκτικής διαβούλευσης με την αγορά</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Pre-market consultation notice</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Anuncio de consulta previa a la introducción en el mercado</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hanke-eelne turu-uuring</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ennakoivaa markkinakartoitusta koskeva ilmoitus</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Avis de consultation avant marché</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Fógra comhairliúcháin réamh-mhargaidh</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Obavijest o prethodnoj provjeri tržišta</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Piaci konzultációt megelőző hirdetmény</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Avviso di consultazione preliminare di mercato</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Skelbimas apie konsultacijas prieš produkto pateikimą rinkai</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Iepriekšējas tirgus izzināšanas paziņojums (PMC)</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Avviż tal-konsultazzjoni ta’ qabel is-suq</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Aankondiging van voorafgaande marktconsultatie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Ogłoszenie o wstępnych konsultacjach rynkowych</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Anúncio de consulta preliminar do mercado</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Anunț de consultare prealabilă a pieței</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Oznámenie o predbežnej trhovej konzultácii</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Obvestilo o predhodnem preverjanju trga</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Meddelande om förberedande marknadssamråd</SimpleValue>
          </Value>
       </Row>
       <Row>

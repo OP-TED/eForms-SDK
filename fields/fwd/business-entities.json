@@ -1,0 +1,1085 @@
+[ {
+  "id" : "Address",
+  "name" : "Address",
+  "description" : "Base address structure for any party or person",
+  "labelId" : "business-entity|name|Address",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "AppealTerms",
+  "name" : "Appeal Terms",
+  "description" : "Review and appeal terms including deadlines and party references",
+  "labelId" : "business-entity|name|AppealTerms",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "AppealingParty",
+  "name" : "Appealing Party",
+  "description" : "An organisation that initiated a review request",
+  "labelId" : "business-entity|name|AppealingParty",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-AppealingParty",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "AwardCriterion",
+  "name" : "Award Criterion",
+  "description" : "Individual award criterion for evaluating tenders",
+  "labelId" : "business-entity|name|AwardCriterion",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "AwardingTerms",
+  "name" : "Awarding Terms",
+  "description" : "Award-related terms including criteria configuration",
+  "labelId" : "business-entity|name|AwardingTerms",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "BusinessParty",
+  "name" : "Business Party",
+  "description" : "Party information for X01/X02 notice subtypes",
+  "labelId" : "business-entity|name|BusinessParty",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Buyer",
+  "name" : "Buyer",
+  "description" : "An organisation acting in the role of a buyer",
+  "labelId" : "business-entity|name|Buyer",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ContractingParty",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : false,
+    "changeIdentifier" : "BUYER"
+  },
+  "instanceIdentifier" : {
+    "referencedBusinessEntityId" : "organization",
+    "identifierFieldId" : "OPT-300-Procedure-Buyer",
+    "captionFieldId" : "BT-500-Organization-Company"
+  }
+}, {
+  "id" : "BuyerOrganisation",
+  "name" : "Buyer Organisation",
+  "description" : "An organisation when acting as a buyer",
+  "labelId" : "business-entity|name|BuyerOrganisation",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Organization",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Change",
+  "name" : "Change",
+  "description" : "Individual change to a notice section",
+  "labelId" : "business-entity|name|Change",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Change",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ChangeReason",
+  "name" : "Change Reason",
+  "description" : "Reason for changes made to a notice",
+  "labelId" : "business-entity|name|ChangeReason",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ChangedSection",
+  "name" : "Changed Section",
+  "description" : "Reference to a section that was changed in the notice",
+  "labelId" : "business-entity|name|ChangedSection",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ChangedSection",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Changes",
+  "name" : "Changes",
+  "description" : "Container for notice changes (BG-CHANGES)",
+  "labelId" : "business-entity|name|Changes",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "CompanyAddress",
+  "name" : "Company Address",
+  "description" : "Extended address for organisations and touchpoints with department name",
+  "labelId" : "business-entity|name|CompanyAddress",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "CompanyContact",
+  "name" : "Company Contact",
+  "description" : "Extended contact for organisations and touchpoints with contact point name",
+  "labelId" : "business-entity|name|CompanyContact",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Contact",
+  "name" : "Contact",
+  "description" : "Base contact information for any party or person",
+  "labelId" : "business-entity|name|Contact",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Contract",
+  "name" : "Contract",
+  "description" : "Contract settled between a contracting party and a tendering party (BG-310)",
+  "labelId" : "business-entity|name|Contract",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-SettledContract",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "CON",
+    "schemeName" : "contract",
+    "identifierFieldId" : "OPT-316-Contract",
+    "captionFieldId" : "BT-150-Contract"
+  }
+}, {
+  "id" : "ContractAsset",
+  "name" : "Contract Asset",
+  "description" : "Asset justifying contract duration extension",
+  "labelId" : "business-entity|name|ContractAsset",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Asset",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ContractEUFunds",
+  "name" : "Contract EU Funds",
+  "description" : "EU funds financing details for a contract (BG-611)",
+  "labelId" : "business-entity|name|ContractEUFunds",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ContractEUFunds",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ContractExecutionCondition",
+  "name" : "Contract Execution Condition",
+  "description" : "Other contract execution conditions for a tender",
+  "labelId" : "business-entity|name|ContractExecutionCondition",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-OtherContractExecutionConditions",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ContractModification",
+  "name" : "Contract Modification",
+  "description" : "Modification to an existing contract (BG-MODIFICATION)",
+  "labelId" : "business-entity|name|ContractModification",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ContractModification",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "referencedBusinessEntityId" : "contract",
+    "identifierFieldId" : "BT-1501(c)-Contract",
+    "captionFieldId" : "BT-150-Contract"
+  }
+}, {
+  "id" : "ContractSignatory",
+  "name" : "Contract Signatory",
+  "description" : "An organisation that signed a contract",
+  "labelId" : "business-entity|name|ContractSignatory",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ContractSignatory",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "CriterionParameter",
+  "name" : "Criterion Parameter",
+  "description" : "Base entity for criterion parameters with number and type",
+  "labelId" : "business-entity|name|CriterionParameter",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "DirectAwardJustification",
+  "name" : "Direct Award Justification",
+  "description" : "Justification for direct award procedure",
+  "labelId" : "business-entity|name|DirectAwardJustification",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-DirectAward",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Duration",
+  "name" : "Duration",
+  "description" : "Duration information for a procurement (start date, end date, period)",
+  "labelId" : "business-entity|name|Duration",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "EEDAsset",
+  "name" : "EED Asset",
+  "description" : "Energy Efficiency Directive asset base entity for Lot context",
+  "labelId" : "business-entity|name|EEDAsset",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "EEDProcuredAsset",
+  "name" : "EED Procured Asset",
+  "description" : "Energy Efficiency Directive procured asset details for a LotResult",
+  "labelId" : "business-entity|name|EEDProcuredAsset",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "EUFunding",
+  "name" : "EU Funding",
+  "description" : "EU funding source for a lot",
+  "labelId" : "business-entity|name|EUFunding",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Funding",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "EconomicOperator",
+  "name" : "Economic Operator",
+  "description" : "An organisation acting as an economic operator (seller-side)",
+  "labelId" : "business-entity|name|EconomicOperator",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Organization",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "EmploymentLegislation",
+  "name" : "Employment Legislation",
+  "description" : "Reference to employment legislation information",
+  "labelId" : "business-entity|name|EmploymentLegislation",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "EnvironmentalLegislation",
+  "name" : "Environmental Legislation",
+  "description" : "Reference to environmental legislation information",
+  "labelId" : "business-entity|name|EnvironmentalLegislation",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ExclusionGrounds",
+  "name" : "Exclusion Grounds",
+  "description" : "Exclusion grounds criteria for tenderer qualification",
+  "labelId" : "business-entity|name|ExclusionGrounds",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ExclusionGrounds",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ExclusionGroundsSource",
+  "name" : "Exclusion Grounds Source",
+  "description" : "Source of exclusion grounds",
+  "labelId" : "business-entity|name|ExclusionGroundsSource",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ExclusionGroundsSource",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "FinancingParty",
+  "name" : "Financing Party",
+  "description" : "An organisation providing financing for a procurement result",
+  "labelId" : "business-entity|name|FinancingParty",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-FinancingParty",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "FiscalLegislation",
+  "name" : "Fiscal Legislation",
+  "description" : "Reference to fiscal legislation information",
+  "labelId" : "business-entity|name|FiscalLegislation",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Funding",
+  "name" : "Funding",
+  "description" : "Base entity for EU funding sources with programme, financing ID, and details",
+  "labelId" : "business-entity|name|Funding",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "GazetteReference",
+  "name" : "Gazette Reference",
+  "description" : "Reference to the Gazette where the Publication took place",
+  "labelId" : "business-entity|name|GazetteReference",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "GroupComposition",
+  "name" : "Group Composition",
+  "description" : "Composition of a Group of Lots (which lots belong to the group)",
+  "labelId" : "business-entity|name|GroupComposition",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-GroupComposition",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "GroupFrameworkValue",
+  "name" : "Group Framework Value",
+  "description" : "Framework Agreement maximum and re-estimated values for a Group of Lots in result notices",
+  "labelId" : "business-entity|name|GroupFrameworkValue",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-NoticeResultGroupFA",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "IPIAppliedMeasure",
+  "name" : "IPI Applied Measure",
+  "description" : "International Procurement Instrument measure applied to a LotResult",
+  "labelId" : "business-entity|name|IPIAppliedMeasure",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-IPIAppliedMeasure",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "LegislationReference",
+  "name" : "Legislation Reference",
+  "description" : "Base entity for legislation document references (fiscal, environmental, employment)",
+  "labelId" : "business-entity|name|LegislationReference",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "LocalLegalBasis",
+  "name" : "Local Legal Basis",
+  "description" : "Reference to local legislation impacting the procurement",
+  "labelId" : "business-entity|name|LocalLegalBasis",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Lot",
+  "name" : "Lot",
+  "description" : "A lot within a procurement procedure",
+  "labelId" : "business-entity|name|Lot",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Lot",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "LOT",
+    "schemeName" : "Lot",
+    "identifierFieldId" : "BT-137-Lot",
+    "captionFieldId" : "BT-21-Lot"
+  }
+}, {
+  "id" : "LotAppealTerms",
+  "name" : "Lot Appeal Terms",
+  "description" : "AppealTerms with Lot-specific properties",
+  "labelId" : "business-entity|name|LotAppealTerms",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "LotAwardingTerms",
+  "name" : "Lot Awarding Terms",
+  "description" : "Award-related terms for Lots with design contest fields",
+  "labelId" : "business-entity|name|LotAwardingTerms",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "LotDuration",
+  "name" : "Lot Duration",
+  "description" : "Duration with additional info, specific to Lot context",
+  "labelId" : "business-entity|name|LotDuration",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "LotProcurementScope",
+  "name" : "Lot Procurement Scope",
+  "description" : "Full procurement scope for Lot level with all properties including options, renewals, and strategic procurement",
+  "labelId" : "business-entity|name|LotProcurementScope",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "LotResult",
+  "name" : "Lot Result",
+  "description" : "Outcome of the procurement procedure for a given lot (BG-137)",
+  "labelId" : "business-entity|name|LotResult",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-LotResult",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "RES",
+    "schemeName" : "result",
+    "identifierFieldId" : "OPT-322-LotResult",
+    "captionFieldId" : "BT-13713-LotResult"
+  }
+}, {
+  "id" : "LotTenderingProcess",
+  "name" : "Lot Tendering Process",
+  "description" : "TenderingProcess with Lot-specific properties",
+  "labelId" : "business-entity|name|LotTenderingProcess",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "LotTenderingTerms",
+  "name" : "Lot Tendering Terms",
+  "description" : "TenderingTerms with Lot-specific properties",
+  "labelId" : "business-entity|name|LotTenderingTerms",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "LotsGroup",
+  "name" : "Lots Group",
+  "description" : "Group of Lots related information (partial)",
+  "labelId" : "business-entity|name|LotsGroup",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-LotsGroup",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "GLO",
+    "schemeName" : "LotsGroup",
+    "identifierFieldId" : "BT-137-LotsGroup",
+    "captionFieldId" : "BT-21-LotsGroup"
+  }
+}, {
+  "id" : "LotsGroupProcurementScope",
+  "name" : "Lots Group Procurement Scope",
+  "description" : "Procurement scope for LotsGroup level with framework value and SME suitability",
+  "labelId" : "business-entity|name|LotsGroupProcurementScope",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Modification",
+  "name" : "Modification",
+  "description" : "Details of a contract modification",
+  "labelId" : "business-entity|name|Modification",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ModificationReason",
+  "name" : "Modification Reason",
+  "description" : "Reason for a contract modification",
+  "labelId" : "business-entity|name|ModificationReason",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ModifiedSection",
+  "name" : "Modified Section",
+  "description" : "Reference to a section that was modified in a contract modification",
+  "labelId" : "business-entity|name|ModifiedSection",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ModifiedSection",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Notice",
+  "name" : "Notice",
+  "description" : "Root entity aggregating all top-level entities",
+  "labelId" : "business-entity|name|Notice",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "NoticeProcurementScope",
+  "name" : "Notice Procurement Scope",
+  "description" : "Procurement scope for Notice/Procedure level with classification and value properties",
+  "labelId" : "business-entity|name|NoticeProcurementScope",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "NoticeResult",
+  "name" : "Notice Result",
+  "description" : "Outcome of the procurement procedure for all lots listed in the notice",
+  "labelId" : "business-entity|name|NoticeResult",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : false,
+    "changeIdentifier" : "RESULT"
+  }
+}, {
+  "id" : "Organisation",
+  "name" : "Organisation",
+  "description" : "An organisation involved in procurement",
+  "labelId" : "business-entity|name|Organisation",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Organization",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "ORG",
+    "schemeName" : "organization",
+    "identifierFieldId" : "OPT-200-Organization-Company",
+    "captionFieldId" : "BT-500-Organization-Company"
+  }
+}, {
+  "id" : "Part",
+  "name" : "Part",
+  "description" : "Procurement project part (procedure without lots)",
+  "labelId" : "business-entity|name|Part",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Part",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "PAR",
+    "schemeName" : "Part",
+    "identifierFieldId" : "BT-137-Part",
+    "captionFieldId" : "BT-21-Part"
+  }
+}, {
+  "id" : "PartProcurementScope",
+  "name" : "Part Procurement Scope",
+  "description" : "Procurement scope for Part level with classification and SME suitability properties",
+  "labelId" : "business-entity|name|PartProcurementScope",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "PartTenderingProcess",
+  "name" : "Part Tendering Process",
+  "description" : "TenderingProcess for Part context (inherits base properties)",
+  "labelId" : "business-entity|name|PartTenderingProcess",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "PayerParty",
+  "name" : "Payer Party",
+  "description" : "An organisation acting as payer for a procurement result",
+  "labelId" : "business-entity|name|PayerParty",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-PayerParty",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "PerformanceAddress",
+  "name" : "Performance Address",
+  "description" : "Address for place of performance",
+  "labelId" : "business-entity|name|PerformanceAddress",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "PlaceOfPerformance",
+  "name" : "Place of Performance",
+  "description" : "Place where the contract will be performed, including address and additional information",
+  "labelId" : "business-entity|name|PlaceOfPerformance",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "PreviousPlanningRef",
+  "name" : "Previous Planning Reference",
+  "description" : "Reference to a previous planning notice",
+  "labelId" : "business-entity|name|PreviousPlanningRef",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "PrivacySettings",
+  "name" : "Privacy Settings",
+  "description" : "Privacy control for withholdable fields",
+  "labelId" : "business-entity|name|PrivacySettings",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Prize",
+  "name" : "Prize",
+  "description" : "Prize or reward in a design contest",
+  "labelId" : "business-entity|name|Prize",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Prize",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Procedure",
+  "name" : "Procedure",
+  "description" : "Tendering process properties for the procurement procedure (BG-6 partial)",
+  "labelId" : "business-entity|name|Procedure",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : false,
+    "changeIdentifier" : "PROCEDURE"
+  }
+}, {
+  "id" : "ProcedureTenderingProcess",
+  "name" : "Procedure Tendering Process",
+  "description" : "TenderingProcess for Notice/Procedure context",
+  "labelId" : "business-entity|name|ProcedureTenderingProcess",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ProcurementDocument",
+  "name" : "Procurement Document",
+  "description" : "Reference to a procurement document with access and language information",
+  "labelId" : "business-entity|name|ProcurementDocument",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ProcurementScope",
+  "name" : "Procurement Scope",
+  "description" : "Procurement scope: what is being procured, classifications, value, duration",
+  "labelId" : "business-entity|name|ProcurementScope",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "QualityTarget",
+  "name" : "Quality Target",
+  "description" : "Quality target for contract execution",
+  "labelId" : "business-entity|name|QualityTarget",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-QualityTarget",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ReceivedSubmissionsStatistics",
+  "name" : "Received Submissions Statistics",
+  "description" : "Statistics about received submissions for a lot result (BG-712)",
+  "labelId" : "business-entity|name|ReceivedSubmissionsStatistics",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ReceivedSubmissions",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "RegistrationPlace",
+  "name" : "Registration Place",
+  "description" : "Place where an EU entity was registered (X01/X02 only)",
+  "labelId" : "business-entity|name|RegistrationPlace",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ReviewBody",
+  "name" : "Review Body",
+  "description" : "An organisation acting as a review/appeal body",
+  "labelId" : "business-entity|name|ReviewBody",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ReviewRequestsStatistics",
+  "name" : "Review Requests Statistics",
+  "description" : "Statistics about review requests for a lot result (BG-613)",
+  "labelId" : "business-entity|name|ReviewRequestsStatistics",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ReviewRequestsStatistics",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ReviewStatus",
+  "name" : "Review Status",
+  "description" : "Status of submitted review requests (BG-716)",
+  "labelId" : "business-entity|name|ReviewStatus",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ReviewStatus",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "REV",
+    "schemeName" : "review",
+    "identifierFieldId" : "BT-804-Review",
+    "captionFieldId" : "BT-784-Review"
+  }
+}, {
+  "id" : "SecondStageThresholdParameter",
+  "name" : "Second Stage Threshold Parameter",
+  "description" : "Threshold parameter for selection criterion second stage",
+  "labelId" : "business-entity|name|SecondStageThresholdParameter",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-SecondStageThresholdCriterionParameter",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Section",
+  "name" : "Section",
+  "description" : "Base entity for referenceable notice sections with identifiers",
+  "labelId" : "business-entity|name|Section",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "SelectionCriterion",
+  "name" : "Selection Criterion",
+  "description" : "Selection criterion for evaluating economic operator suitability",
+  "labelId" : "business-entity|name|SelectionCriterion",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-SelectionCriteria",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ServiceProvider",
+  "name" : "Service Provider",
+  "description" : "An organisation providing services to a buyer",
+  "labelId" : "business-entity|name|ServiceProvider",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ServiceProviderParty",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Statistics",
+  "name" : "Statistics",
+  "description" : "Base entity for statistics with code and count",
+  "labelId" : "business-entity|name|Statistics",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "StrategicProcurementType",
+  "name" : "Strategic Procurement Type",
+  "description" : "Strategic procurement type with code and description",
+  "labelId" : "business-entity|name|StrategicProcurementType",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-StrategicProcurementType",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "SubContractor",
+  "name" : "Sub Contractor",
+  "description" : "An organisation identified as a subcontractor to a tenderer",
+  "labelId" : "business-entity|name|SubContractor",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-SubContractor",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "SubcontractingObligation",
+  "name" : "Subcontracting Obligation",
+  "description" : "Subcontracting obligation requirements with minimum/maximum percentages",
+  "labelId" : "business-entity|name|SubcontractingObligation",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-SubcontractingObligation",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Tender",
+  "name" : "Tender",
+  "description" : "A tender submitted for a lot, including value, rank, and subcontracting details",
+  "labelId" : "business-entity|name|Tender",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-LotTender",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "TEN",
+    "schemeName" : "tender",
+    "identifierFieldId" : "OPT-321-Tender",
+    "captionFieldId" : "BT-3201-Tender"
+  }
+}, {
+  "id" : "TenderSubcontracting",
+  "name" : "Tender Subcontracting",
+  "description" : "Subcontracting details for a tender (BG-180)",
+  "labelId" : "business-entity|name|TenderSubcontracting",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Tenderer",
+  "name" : "Tenderer",
+  "description" : "An organisation acting as a member of a tendering party",
+  "labelId" : "business-entity|name|Tenderer",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Tenderer",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "TenderingParty",
+  "name" : "Tendering Party",
+  "description" : "A group of organisations that jointly submitted a tender",
+  "labelId" : "business-entity|name|TenderingParty",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-TenderingParty",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "TPA",
+    "schemeName" : "tendering-party",
+    "identifierFieldId" : "OPT-210-Tenderer",
+    "captionFieldId" : "OPT-211-Tenderer"
+  }
+}, {
+  "id" : "TenderingProcess",
+  "name" : "Tendering Process",
+  "description" : "How the tendering process works: submission, deadlines, framework, auction",
+  "labelId" : "business-entity|name|TenderingProcess",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "TenderingTerms",
+  "name" : "Tendering Terms",
+  "description" : "Terms and conditions: funding, requirements, criteria, documents",
+  "labelId" : "business-entity|name|TenderingTerms",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "ThresholdParameter",
+  "name" : "Threshold Parameter",
+  "description" : "Threshold numeric parameter for award criterion",
+  "labelId" : "business-entity|name|ThresholdParameter",
+  "repeatable" : false,
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "Touchpoint",
+  "name" : "Touchpoint",
+  "description" : "A contact point within an organisation",
+  "labelId" : "business-entity|name|Touchpoint",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-Touchpoint",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "TPO",
+    "schemeName" : "touchpoint",
+    "identifierFieldId" : "OPT-201-Organization-TouchPoint",
+    "captionFieldId" : "BT-500-Organization-TouchPoint"
+  }
+}, {
+  "id" : "UBO",
+  "name" : "UBO",
+  "description" : "Ultimate Beneficial Owner - a natural person",
+  "labelId" : "business-entity|name|UBO",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-UBO",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : true,
+    "useInstanceIdentifier" : true
+  },
+  "instanceIdentifier" : {
+    "prefix" : "UBO",
+    "schemeName" : "ubo",
+    "identifierFieldId" : "OPT-202-UBO",
+    "captionFieldId" : "BT-500-UBO"
+  }
+}, {
+  "id" : "VehicleProcurementDetail",
+  "name" : "Vehicle Procurement Detail",
+  "description" : "Clean Vehicle Directive procurement asset details for a LotResult",
+  "labelId" : "business-entity|name|VehicleProcurementDetail",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ProcurementDetailsLotResult",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+}, {
+  "id" : "VehicleStatistics",
+  "name" : "Vehicle Statistics",
+  "description" : "Clean Vehicle Directive procurement statistics",
+  "labelId" : "business-entity|name|VehicleStatistics",
+  "repeatable" : true,
+  "repeatsWithNodeId" : "ND-ProcurementStatistics",
+  "changeIdentification" : {
+    "identifyInChangeNotice" : false,
+    "useInstanceIdentifier" : false
+  }
+} ]

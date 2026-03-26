@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>BuyerContractingType</ShortName>
@@ -126,8 +126,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Contracting Entity</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Купувачът е възложител</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kupující je zadavatel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Køberen er en ordregiver</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Beschaffer fungiert als ein Auftraggeber</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο αγοραστής είναι αναθέτων φορέας</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Contracting Entity</SimpleValue>
+            <SimpleValue>The buyer is a contracting entity</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El comprador es una entidad adjudicadora</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija on võrgustiku sektori hankija</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ostaja on hankintayksikkö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L’acheteur est une entité adjudicatrice</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is eintiteas conarthachta é an ceannaitheoir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kupac je naručitelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vevő közszolgáltató ajánlatkérő</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il committente è un ente aggiudicatore</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjas yra perkantysis subjektas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircējs ir līgumslēdzējs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xerrej hu entità kontraenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De koper is een aanbestedende instantie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nabywca jest podmiotem zamawiającym</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O adquirente é uma entidade adjudicante</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cumpărătorul este o entitate contractantă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kupujúci je obstarávateľom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kupec je naročnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Köparen är en upphandlande enhet</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -137,8 +206,77 @@
          <Value ColumnRef="Name">
             <SimpleValue>Not Contracting Entity</SimpleValue>
          </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Купувачът не е възложител</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Kupující není zadavatel</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Køberen er ikke en ordregiver</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Beschaffer fungiert nicht als ein Auftraggeber.</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Ο αγοραστής δεν είναι αναθέτων φορέας</SimpleValue>
+         </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Not Contracting Entity</SimpleValue>
+            <SimpleValue>The buyer is not a contracting entity</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El comprador no es una entidad adjudicadora</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Hankija ei ole võrgustiku sektori hankija</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Ostaja ei ole hankintayksikkö</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L’acheteur n’est pas une entité adjudicatrice</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Ní eintiteas conarthachta é an ceannaitheoir</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Kupac nije naručitelj</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>A vevő nem közszolgáltató ajánlatkérő</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Il committente non è un ente aggiudicatore</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Pirkėjas nėra perkantysis subjektas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Pircējs nav līgumslēdzējs</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ix-xerrej mhux entità kontraenti</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De koper is geen aanbestedende instantie</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Nabywca nie jest podmiotem zamawiającym</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O adquirente não é uma entidade adjudicante</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Cumpărătorul nu este o entitate contractantă</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Kupujúci nie je obstarávateľom</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Kupec ni naročnik</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Köparen är inte en upphandlande enhet</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

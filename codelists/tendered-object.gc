@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--File generated from metadata database-->
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Identification>
+      <ShortName>TenderedObject</ShortName>
+      <LongName>tendered-object</LongName>
+      <Version>1.0</Version>
+      <CanonicalUri/>
+      <CanonicalVersionUri/>
+      <Agency>
+         <ShortName>OP</ShortName>
+         <LongName>Publications Office of the European Union</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="code" Use="required">
+         <ShortName>Code</ShortName>
+         <Data Lang="eng" Type="normalizedString"/>
+      </Column>
+      <Column Id="Name" Use="optional">
+         <ShortName>Name</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="bul_label" Use="optional">
+         <ShortName>bulLabel</ShortName>
+         <Data Lang="bul" Type="string"/>
+      </Column>
+      <Column Id="spa_label" Use="optional">
+         <ShortName>spaLabel</ShortName>
+         <Data Lang="spa" Type="string"/>
+      </Column>
+      <Column Id="ces_label" Use="optional">
+         <ShortName>cesLabel</ShortName>
+         <Data Lang="ces" Type="string"/>
+      </Column>
+      <Column Id="dan_label" Use="optional">
+         <ShortName>danLabel</ShortName>
+         <Data Lang="dan" Type="string"/>
+      </Column>
+      <Column Id="deu_label" Use="optional">
+         <ShortName>deuLabel</ShortName>
+         <Data Lang="deu" Type="string"/>
+      </Column>
+      <Column Id="est_label" Use="optional">
+         <ShortName>estLabel</ShortName>
+         <Data Lang="est" Type="string"/>
+      </Column>
+      <Column Id="ell_label" Use="optional">
+         <ShortName>ellLabel</ShortName>
+         <Data Lang="ell" Type="string"/>
+      </Column>
+      <Column Id="eng_label" Use="optional">
+         <ShortName>engLabel</ShortName>
+         <Data Lang="eng" Type="string"/>
+      </Column>
+      <Column Id="fra_label" Use="optional">
+         <ShortName>fraLabel</ShortName>
+         <Data Lang="fra" Type="string"/>
+      </Column>
+      <Column Id="gle_label" Use="optional">
+         <ShortName>gleLabel</ShortName>
+         <Data Lang="gle" Type="string"/>
+      </Column>
+      <Column Id="hrv_label" Use="optional">
+         <ShortName>hrvLabel</ShortName>
+         <Data Lang="hrv" Type="string"/>
+      </Column>
+      <Column Id="ita_label" Use="optional">
+         <ShortName>itaLabel</ShortName>
+         <Data Lang="ita" Type="string"/>
+      </Column>
+      <Column Id="lav_label" Use="optional">
+         <ShortName>lavLabel</ShortName>
+         <Data Lang="lav" Type="string"/>
+      </Column>
+      <Column Id="lit_label" Use="optional">
+         <ShortName>litLabel</ShortName>
+         <Data Lang="lit" Type="string"/>
+      </Column>
+      <Column Id="hun_label" Use="optional">
+         <ShortName>hunLabel</ShortName>
+         <Data Lang="hun" Type="string"/>
+      </Column>
+      <Column Id="mlt_label" Use="optional">
+         <ShortName>mltLabel</ShortName>
+         <Data Lang="mlt" Type="string"/>
+      </Column>
+      <Column Id="nld_label" Use="optional">
+         <ShortName>nldLabel</ShortName>
+         <Data Lang="nld" Type="string"/>
+      </Column>
+      <Column Id="pol_label" Use="optional">
+         <ShortName>polLabel</ShortName>
+         <Data Lang="pol" Type="string"/>
+      </Column>
+      <Column Id="por_label" Use="optional">
+         <ShortName>porLabel</ShortName>
+         <Data Lang="por" Type="string"/>
+      </Column>
+      <Column Id="ron_label" Use="optional">
+         <ShortName>ronLabel</ShortName>
+         <Data Lang="ron" Type="string"/>
+      </Column>
+      <Column Id="slk_label" Use="optional">
+         <ShortName>slkLabel</ShortName>
+         <Data Lang="slk" Type="string"/>
+      </Column>
+      <Column Id="slv_label" Use="optional">
+         <ShortName>slvLabel</ShortName>
+         <Data Lang="slv" Type="string"/>
+      </Column>
+      <Column Id="fin_label" Use="optional">
+         <ShortName>finLabel</ShortName>
+         <Data Lang="fin" Type="string"/>
+      </Column>
+      <Column Id="swe_label" Use="optional">
+         <ShortName>sweLabel</ShortName>
+         <Data Lang="swe" Type="string"/>
+      </Column>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>Lot</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The Object Technical ID or its reference is of type "Lot".</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Техническият ID на обекта или неговата референция е от тип 'Партида'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Technické ID objektu nebo jeho reference je typu 'Los'</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Objektets tekniske ID eller dets reference er af typen 'Parti'</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die technische ID des Objekts oder seine Referenz ist vom Typ 'Los'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Το τεχνικό ID του αντικειμένου ή η αναφορά του είναι τύπου 'Λαχνό'</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The Object Technical ID or its reference is of type 'Lot'</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El ID técnico del objeto o su referencia es de tipo 'Lote'</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Objekti tehniline ID või selle viide on tüüpi 'Partii'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kohteen tekninen tunnus tai sen viite on tyyppiä 'Erä'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L'ID technique de l'objet ou sa référence est de type 'Lot'</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is den chineál 'Geal' ID Teicniúil an Chuspóra nó a thagartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tehnički ID objekta ili njegova referenca je tipa 'Lot'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az objektum technikai azonosítója vagy annak hivatkozása 'Tétel' típusú</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'ID tecnico dell'oggetto o il suo riferimento è di tipo 'Lotto'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Objekto techninis ID ar jo nuoroda yra 'Partijos' tipo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Objekta tehniskais ID vai tā atsauce ir 'Partijas' tips</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-ID Tekniku tal-Oġġett jew ir-referenza tiegħu hija tat-tip 'Lot'</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De technische ID van het object of de referentie ervan is van het type 'Kavel'</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>ID techniczne obiektu lub jego odniesienie jest typu 'Partia'</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O ID técnico do objeto ou sua referência é do tipo 'Lote'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>ID-ul tehnic al obiectului sau referința acestuia este de tipul 'Lot'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Technické ID objektu alebo jeho odkaz je typu 'Los'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tehnični ID objekta ali njegova referenca je tipa 'Los'</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Objektets tekniska ID eller dess referens är av typen 'Lot'</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>LotsGroup</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>The Object Technical ID or its reference is of type "Group of lots".</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Техническият ID на обекта или неговата референция е от тип 'Група от партиди'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Technické ID objektu nebo jeho reference je typu 'Skupina losů'</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Objektets tekniske ID eller dets reference er af typen 'Gruppe af partier'</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Die technische ID des Objekts oder seine Referenz ist vom Typ 'Losgruppe'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Το τεχνικό ID του αντικειμένου ή η αναφορά του είναι τύπου 'Ομάδα λαχνών'</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>The Object Technical ID or its reference is of type 'Group of lots'</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>El ID técnico del objeto o su referencia es de tipo 'Grupo de lotes'</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Objekti tehniline ID või selle viide on tüüpi 'Partiide rühm'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Kohteen tekninen tunnus tai sen viite on tyyppiä 'Eräryhmä'</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>L'ID technique de l'objet ou sa référence est de type 'Groupe de lots'</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Is den chineál 'Grúpa Geal' ID Teicniúil an Chuspóra nó a thagartha</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Tehnički ID objekta ili njegova referenca je tipa 'Grupa lotova'</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Az objektum technikai azonosítója vagy annak hivatkozása 'Tételek csoportja' típusú</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>L'ID tecnico dell'oggetto o il suo riferimento è di tipo 'Gruppo di lotti'</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Objekto techninis ID ar jo nuoroda yra 'Partijų grupės' tipo</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Objekta tehniskais ID vai tā atsauce ir 'Partiju grupas' tips</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>L-ID Tekniku tal-Oġġett jew ir-referenza tiegħu hija tat-tip 'Grupp ta' Lotti'</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>De technische ID van het object of de referentie ervan is van het type 'Groep kavels'</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>ID techniczne obiektu lub jego odniesienie jest typu 'Grupa partii'</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>O ID técnico do objeto ou sua referência é do tipo 'Grupo de lotes'</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>ID-ul tehnic al obiectului sau referința acestuia este de tipul 'Grup de loturi'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Technické ID objektu alebo jeho odkaz je typu 'Skupina losov'</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Tehnični ID objekta ali njegova referenca je tipa 'Skupina losov'</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Objektets tekniska ID eller dess referens är av typen 'Grupp av lotter'</SimpleValue>
+         </Value>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

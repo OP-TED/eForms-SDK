@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Croatian. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Kupac</entry>
+<entry key="business-entity|name|changes">Promjene</entry>
+<entry key="business-entity|name|contract">Ugovor</entry>
+<entry key="business-entity|name|contractModification">Izmjena ugovora</entry>
+<entry key="business-entity|name|euBusiness">Europsko poslovanje</entry>
+<entry key="business-entity|name|groupOfLots">Skupina grupâ</entry>
+<entry key="business-entity|name|lot">Grupa</entry>
+<entry key="business-entity|name|noticeInformation">Informacije o obavijesti</entry>
+<entry key="business-entity|name|noticeResult">Obavijest o rezultatima</entry>
+<entry key="business-entity|name|organization">Organizacija</entry>
+<entry key="business-entity|name|part">Dio</entry>
+<entry key="business-entity|name|procedure">Postupak</entry>
+<entry key="business-entity|name|resultForLot">Rezultat za lot</entry>
+<entry key="business-entity|name|reviewInformation">Informacije o pregledu</entry>
+<entry key="business-entity|name|tender">Ponuda</entry>
+<entry key="business-entity|name|tenderingParty">Stranka koja natječe</entry>
+<entry key="business-entity|name|touchpoint">Kontaktna točka</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Konačni korisni vlasnik</entry>
+</properties>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00-->
+<!--File generated from metadata database-->
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Identification>
       <ShortName>LegalBasis7</ShortName>
       <LongName>legal-basis-7</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/legal-basis</LongName>
       <LongName Identifier="eFormsParentId">legal-basis</LongName>
-      <Version>1.6.0</Version>
+      <Version>2.0.0-SNAPSHOT</Version>
       <CanonicalUri/>
       <CanonicalVersionUri/>
       <Agency>
@@ -203,82 +203,162 @@
       </Row>
       <Row>
          <Value ColumnRef="code">
-            <SimpleValue>32018R1046</SimpleValue>
+            <SimpleValue>32024R2509</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Regulation (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Regulation (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Регламент (ЕС, Евратом) 2018/1046</SimpleValue>
+            <SimpleValue>Регламент (ЕС, Евратом) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Nařízení (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Nařízení (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Forordning (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Forordning (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Verordnung (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Verordnung (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Κανονισμός (ΕΕ, Ευρατόμ) 2018/1046</SimpleValue>
+            <SimpleValue>Κανονισμός (ΕΕ, Ευρατόμ) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Regulation (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Regulation (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Reglamento (UE, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Reglamento (UE, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Määrus (EL, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Määrus (EL, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Asetus (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Asetus (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Règlement (UE, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Règlement (UE, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Rialachán (AE, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Rialachán (AE, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Uredba (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Uredba (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>(EU, Euratom) 2018/1046 rendelet</SimpleValue>
+            <SimpleValue>(EU, Euratom) 2024/2509 rendelet</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Regolamento (UE, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Regolamento (UE, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Reglamentas (ES, Euratomas) 2018/1046</SimpleValue>
+            <SimpleValue>Reglamentas (ES, Euratomas) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Regula (ES, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Regula (ES, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Regolament (UE, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Regolament (UE, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Verordening (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Verordening (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Rozporządzenie (UE, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Rozporządzenie (UE, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Regulamento (UE, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Regulamento (UE, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Regulamentul (UE, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Regulamentul (UE, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Nariadenie (EÚ, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Nariadenie (EÚ, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Uredba (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Uredba (EU, Euratom) 2024/2509</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Förordning (EU, Euratom) 2018/1046</SimpleValue>
+            <SimpleValue>Förordning (EU, Euratom) 2024/2509</SimpleValue>
+         </Value>
+      </Row>
+      <Row>
+         <Value ColumnRef="code">
+            <SimpleValue>other</SimpleValue>
+         </Value>
+         <Value ColumnRef="Name">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="bul_label">
+            <SimpleValue>Друго</SimpleValue>
+         </Value>
+         <Value ColumnRef="ces_label">
+            <SimpleValue>Jiný</SimpleValue>
+         </Value>
+         <Value ColumnRef="dan_label">
+            <SimpleValue>Anden</SimpleValue>
+         </Value>
+         <Value ColumnRef="deu_label">
+            <SimpleValue>Andere</SimpleValue>
+         </Value>
+         <Value ColumnRef="ell_label">
+            <SimpleValue>Άλλο</SimpleValue>
+         </Value>
+         <Value ColumnRef="eng_label">
+            <SimpleValue>Other</SimpleValue>
+         </Value>
+         <Value ColumnRef="spa_label">
+            <SimpleValue>Otro</SimpleValue>
+         </Value>
+         <Value ColumnRef="est_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fin_label">
+            <SimpleValue>Muu</SimpleValue>
+         </Value>
+         <Value ColumnRef="fra_label">
+            <SimpleValue>Autre</SimpleValue>
+         </Value>
+         <Value ColumnRef="gle_label">
+            <SimpleValue>Eile</SimpleValue>
+         </Value>
+         <Value ColumnRef="hrv_label">
+            <SimpleValue>Druga</SimpleValue>
+         </Value>
+         <Value ColumnRef="hun_label">
+            <SimpleValue>Egyéb</SimpleValue>
+         </Value>
+         <Value ColumnRef="ita_label">
+            <SimpleValue>Altro</SimpleValue>
+         </Value>
+         <Value ColumnRef="lit_label">
+            <SimpleValue>Kitas</SimpleValue>
+         </Value>
+         <Value ColumnRef="lav_label">
+            <SimpleValue>Cits</SimpleValue>
+         </Value>
+         <Value ColumnRef="mlt_label">
+            <SimpleValue>Ieħor</SimpleValue>
+         </Value>
+         <Value ColumnRef="nld_label">
+            <SimpleValue>Ander</SimpleValue>
+         </Value>
+         <Value ColumnRef="pol_label">
+            <SimpleValue>Inny</SimpleValue>
+         </Value>
+         <Value ColumnRef="por_label">
+            <SimpleValue>Outro</SimpleValue>
+         </Value>
+         <Value ColumnRef="ron_label">
+            <SimpleValue>Altele</SimpleValue>
+         </Value>
+         <Value ColumnRef="slk_label">
+            <SimpleValue>Iný</SimpleValue>
+         </Value>
+         <Value ColumnRef="slv_label">
+            <SimpleValue>Drugo</SimpleValue>
+         </Value>
+         <Value ColumnRef="swe_label">
+            <SimpleValue>Annan</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

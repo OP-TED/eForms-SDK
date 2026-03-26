@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pattern id="EFORMS-validation-stage-4-X02" xmlns="http://purl.oclc.org/dsdl/schematron">
+    <rule context="/*/cac:BusinessParty/cac:PostalAddress">
+        <assert id="R-46B-STW" role="ERROR" diagnostics="ND-BusinessAddress_BT-507-Business" test="(not(cbc:CountrySubentityCode)) or (not(not(cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','XKX'))))">rule|text|R-46B-STW</assert>
+        <assert id="R-8J1-1Q1" role="ERROR" diagnostics="ND-BusinessAddress_BT-507-Business" test="(cbc:CountrySubentityCode) or (not(not(not(cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('ALB','AUT','BEL','BGR','CHE','CYP','CZE','DEU','DNK','ESP','EST','FIN','FRA','GRC','HRV','HUN','IRL','ISL','ITA','LIE','LTU','LUX','LVA','MKD','MLT','MNE','NLD','NOR','POL','PRT','ROU','SRB','SVK','SVN','SWE','TUR','XKX')))))">rule|text|R-8J1-1Q1</assert>
+        <assert id="R-TYZ-MJL" role="ERROR" diagnostics="ND-BusinessAddress_BT-510_a_-Business" test="(not(cbc:StreetName)) or (not(not(cbc:CityName)))">rule|text|R-TYZ-MJL</assert>
+        <assert id="R-QLW-93K" role="ERROR" diagnostics="ND-BusinessAddress_BT-510_b_-Business" test="(not(cbc:AdditionalStreetName)) or (not(not(cbc:StreetName)))">rule|text|R-QLW-93K</assert>
+        <assert id="R-JT4-6G1" role="ERROR" diagnostics="ND-BusinessAddress_BT-510_c_-Business" test="(not(cac:AddressLine/cbc:Line)) or (not(not(cbc:AdditionalStreetName)))">rule|text|R-JT4-6G1</assert>
+        <assert id="R-KTY-MYV" role="ERROR" diagnostics="ND-BusinessAddress_BT-512-Business" test="(cbc:PostalZone) or (not(cac:Country/cbc:IdentificationCode/normalize-space(text()) = ('AFG','ALA','ALB','AND','ARG','ARM','AUS','AUT','AZE','BEL','BGD','BGR','BHR','BIH','BLM','BLR','BMU','BRA','BRB','BRN','BTN','CAN','CHE','CHL','CHN','COL','CPT','CPV','CRI','CUB','CYM','CYP','CZE','DEU','DJI','DNK','DOM','DZA','ECU','EGY','ESP','EST','ETH','FIN','FRA','FRO','FSM','GBR','GEO','GGY','GIN','GNB','GRC','GRL','GTM','GUM','HND','HRV','HTI','HUN','IDN','IMN','IND','IRL','IRN','IRQ','ISL','ISR','ITA','JEY','JOR','JPN','KAZ','KEN','KGZ','KHM','KIR','KOR','KWT','LAO','LBN','LIE','LKA','LSO','LTU','LUX','LVA','MAF','MAR','MCO','MDA','MDG','MDV','MEX','MHL','MLT','MMR','MNE','MNG','MOZ','MSR','MUS','MWI','MYS','NAM','NCL','NER','NGA','NIC','NLD','NOR','NPL','NRU','NZL','OMN','PAK','PER','PHL','PNG','POL','PRI','PRT','PRY','PSE','PYF','ROU','RUS','SAU','SDN','SEN','SGP','SJM','SLV','SMR','SPM','SRB','SVK','SVN','SWE','SWZ','THA','TJK','TKM','TLS','TTO','TUN','TUR','UKR','URY','USA','UZB','VCT','VEN','VGB','VIR','VNM','WLF','ZAF')))">rule|text|R-KTY-MYV</assert>
+        <assert id="R-UQ8-N96" role="ERROR" diagnostics="ND-BusinessAddress_BT-513-Business" test="(not(cbc:CityName)) or (not(not(cac:Country/cbc:IdentificationCode)))">rule|text|R-UQ8-N96</assert>
+        <assert id="R-Z3Z-C1X" role="ERROR" diagnostics="ND-BusinessAddress_BT-513-Business" test="(cbc:CityName) or (not(not(not(cac:Country/cbc:IdentificationCode))))">rule|text|R-Z3Z-C1X</assert>
+    </rule>
+    <rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']">
+        <assert id="R-JJ6-NWN" role="ERROR" diagnostics="ND-EuEntity_OPP-113-Business-European" test="(not(cbc:RegistrationDate)) or (not(not(cbc:CompanyID)))">rule|text|R-JJ6-NWN</assert>
+        <assert id="R-3GR-OJ4" role="ERROR" diagnostics="ND-EuEntity_OPP-113-Business-European" test="(cbc:RegistrationDate) or (not(not(not(cbc:CompanyID))))">rule|text|R-3GR-OJ4</assert>
+    </rule>
+    <rule context="/*/cac:BusinessParty/cac:PartyLegalEntity[cbc:CompanyID/@schemeName = 'EU']/cac:CorporateRegistrationScheme/cac:JurisdictionRegionAddress">
+        <assert id="R-KVV-MNB" role="ERROR" diagnostics="ND-RegistrarAddress_OPP-110-Business" test="(not(cbc:CityName)) or (not(not(../../cbc:CompanyID)))">rule|text|R-KVV-MNB</assert>
+        <assert id="R-3R7-Z22" role="ERROR" diagnostics="ND-RegistrarAddress_OPP-110-Business" test="(cbc:CityName) or (not(not(not(../../cbc:CompanyID))))">rule|text|R-3R7-Z22</assert>
+        <assert id="R-T8L-L7F" role="ERROR" diagnostics="ND-RegistrarAddress_OPP-111-Business" test="(not(cbc:PostalZone)) or (not(not(../../cbc:CompanyID)))">rule|text|R-T8L-L7F</assert>
+        <assert id="R-MKU-T6V" role="ERROR" diagnostics="ND-RegistrarAddress_OPP-111-Business" test="(cbc:PostalZone) or (not(not(not(../../cbc:CompanyID))))">rule|text|R-MKU-T6V</assert>
+        <assert id="R-J15-475" role="ERROR" diagnostics="ND-RegistrarAddress_OPP-112-Business" test="(not(cac:Country/cbc:IdentificationCode)) or (not(not(../../cbc:CompanyID)))">rule|text|R-J15-475</assert>
+        <assert id="R-VQV-X4O" role="ERROR" diagnostics="ND-RegistrarAddress_OPP-112-Business" test="(cac:Country/cbc:IdentificationCode) or (not(not(not(../../cbc:CompanyID))))">rule|text|R-VQV-X4O</assert>
+    </rule>
+</pattern>

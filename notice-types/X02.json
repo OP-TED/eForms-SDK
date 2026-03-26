@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.6.0",
+  "sdkVersion" : "2.0.0-SNAPSHOT",
   "metadataDatabase" : {
-    "version" : "1.6.0",
-    "createdOn" : "2023-02-17T12:00:00"
+    "version" : "1.14.28",
+    "createdOn" : "2026-03-25T09:34:18"
   },
   "noticeId" : "X02",
   "metadata" : [ {
@@ -159,12 +159,6 @@
         "description" : "Senders email address",
         "_label" : "field|name|OPP-131-Business"
       }, {
-        "id" : "BT-501-Business-European",
-        "contentType" : "field",
-        "displayType" : "TEXTBOX",
-        "description" : "EU Registration Number",
-        "_label" : "field|name|BT-501-Business-European"
-      }, {
         "id" : "BT-501-Business-National",
         "contentType" : "field",
         "displayType" : "TEXTBOX",
@@ -195,12 +189,34 @@
         "description" : "Date of registration",
         "_label" : "field|name|OPP-113-Business-European"
       }, {
-        "id" : "OPP-105-Business",
-        "contentType" : "field",
-        "displayType" : "COMBOBOX",
-        "description" : "Sector of activity",
-        "_label" : "field|name|OPP-105-Business",
-        "_repeatable" : true
+        "id" : "GR-EU-Registration",
+        "contentType" : "group",
+        "nodeId" : "ND-EuEntity",
+        "displayType" : "GROUP",
+        "description" : "Properties of the EU Entity (Registration ID)",
+        "_label" : "group|name|GR-EU-Registration",
+        "content" : [ {
+          "id" : "BT-501-Business-European",
+          "contentType" : "field",
+          "displayType" : "TEXTBOX",
+          "description" : "EU Registration Number",
+          "_label" : "field|name|BT-501-Business-European"
+        } ]
+      }, {
+        "id" : "GR-Business-Sector",
+        "contentType" : "group",
+        "nodeId" : "ND-BusinessCapability",
+        "displayType" : "GROUP",
+        "description" : "Business capability",
+        "_label" : "group|name|GR-Business-Sector",
+        "_repeatable" : true,
+        "content" : [ {
+          "id" : "OPP-105-Business",
+          "contentType" : "field",
+          "displayType" : "COMBOBOX",
+          "description" : "Sector of activity",
+          "_label" : "field|name|OPP-105-Business"
+        } ]
       }, {
         "id" : "BT-505-Business",
         "contentType" : "field",
@@ -291,9 +307,11 @@
     }, {
       "id" : "GR-Business-Publication",
       "contentType" : "group",
+      "nodeId" : "ND-GazetteReference",
       "displayType" : "GROUP",
-      "description" : "Publication",
+      "description" : "Reference to the Gazette where Publication took place (Date, Name, URL …)",
       "_label" : "group|name|GR-Business-Publication",
+      "businessEntityId" : "GazetteReference",
       "content" : [ {
         "id" : "OPP-120-Business",
         "contentType" : "field",
@@ -318,6 +336,12 @@
         "displayType" : "TEXTBOX",
         "description" : "Date of publication",
         "_label" : "field|name|OPP-123-Business"
+      }, {
+        "id" : "OPP-124-Business",
+        "contentType" : "field",
+        "displayType" : "TEXTBOX",
+        "description" : "Gazette Issue Identifier",
+        "_label" : "field|name|OPP-124-Business"
       } ]
     }, {
       "id" : "OPP-130-Business",

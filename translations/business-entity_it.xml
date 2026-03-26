@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>business-entity in Italian. File generated from metadata database.</comment>
+<entry key="business-entity|name|buyer">Committente</entry>
+<entry key="business-entity|name|changes">Modifiche</entry>
+<entry key="business-entity|name|contract">Appalto</entry>
+<entry key="business-entity|name|contractModification">Modifica dell'appalto</entry>
+<entry key="business-entity|name|euBusiness">Impresa europea</entry>
+<entry key="business-entity|name|groupOfLots">Gruppo di lotti</entry>
+<entry key="business-entity|name|lot">Lotto</entry>
+<entry key="business-entity|name|noticeInformation">Informazioni sull'avviso</entry>
+<entry key="business-entity|name|noticeResult">Risultati dell'avviso o bando</entry>
+<entry key="business-entity|name|organization">Organizzazione</entry>
+<entry key="business-entity|name|part">Parte</entry>
+<entry key="business-entity|name|procedure">Procedura</entry>
+<entry key="business-entity|name|resultForLot">Risultato per lotto</entry>
+<entry key="business-entity|name|reviewInformation">Informazioni sulla revisione</entry>
+<entry key="business-entity|name|tender">Offerta</entry>
+<entry key="business-entity|name|tenderingParty">Parte offerente</entry>
+<entry key="business-entity|name|touchpoint">Punto di contatto</entry>
+<entry key="business-entity|name|ultimateBeneficialOwner">Beneficiario effettivo finale</entry>
+</properties>

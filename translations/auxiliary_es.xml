@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
-<comment>auxiliary in Spanish. File generated from metadata database version 1.6.0 created on the 2023-02-17T12:00</comment>
+<comment>auxiliary in Spanish. File generated from metadata database.</comment>
 <entry key="auxiliary|text|BT-01">Base jurídica</entry>
 <entry key="auxiliary|text|BT-08">Función de la organización</entry>
 <entry key="auxiliary|text|BT-36">Duración</entry>
 <entry key="auxiliary|text|accessibility">Criterios de accesibilidad</entry>
 <entry key="auxiliary|text|adhoc-communication">Canal de comunicación ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Criterios de adjudicación</entry>
+<entry key="auxiliary|text|award-criterion-fixed-dimension">Categoría del criterio de adjudicación de valor fijo</entry>
+<entry key="auxiliary|text|award-criterion-threshold-dimension">Categoría del criterio de adjudicación de umbral</entry>
+<entry key="auxiliary|text|award-criterion-weight-dimension">Categoría del criterio de adjudicación de peso</entry>
 <entry key="auxiliary|text|beneficial-owner">Propietario beneficiario</entry>
 <entry key="auxiliary|text|buyer">Comprador</entry>
 <entry key="auxiliary|text|buyer-competent">Autoridad competente</entry>
 <entry key="auxiliary|text|change">Modificación</entry>
+<entry key="auxiliary|text|change-notice">Anuncio de cambios</entry>
 <entry key="auxiliary|text|company">Nombre y dirección de la empresa o sociedad</entry>
-<entry key="auxiliary|text|concession-value">Concesión</entry>
+<entry key="auxiliary|text|concession-value">Valor de la concesión</entry>
 <entry key="auxiliary|text|conditions-contract">Condiciones relativas al contrato</entry>
 <entry key="auxiliary|text|conditions-participation">Condiciones de participación</entry>
 <entry key="auxiliary|text|contract-information">Información del contrato</entry>
@@ -27,19 +31,25 @@
 <entry key="auxiliary|text|duration">Duración</entry>
 <entry key="auxiliary|text|duration-call-expressions-interest">Duración de la convocatoria de manifestaciones de interés</entry>
 <entry key="auxiliary|text|dynamic-purchasing-system">Información sobre el sistema dinámico de adquisición</entry>
+<entry key="auxiliary|text|eed-applicable">La adquisición está dentro del alcance de la Directiva de Eficiencia Energética (EED) (UE) 2023/1791</entry>
+<entry key="auxiliary|text|eed-list">Lista de productos, obras, servicios y edificios relacionados con la Directiva de Eficiencia Energética (EED)</entry>
 <entry key="auxiliary|text|electronic-auction">Subasta electrónica</entry>
 <entry key="auxiliary|text|envisaged-start-duration-contract">Fecha prevista de inicio y duración del contrato</entry>
 <entry key="auxiliary|text|essential-assets">Activos esenciales</entry>
 <entry key="auxiliary|text|estimated-duration">Duración estimada</entry>
-<entry key="auxiliary|text|eu-funds-used">Información sobre los fondos de la Unión Europea utilizados para financiar el contrato</entry>
+<entry key="auxiliary|text|eu-funds-used">Información sobre fondos de la Unión Europea</entry>
 <entry key="auxiliary|text|exclusion-grounds">Motivos de exclusión</entry>
+<entry key="auxiliary|text|exclusion-grounds-sources">Fuentes de los motivos de exclusión</entry>
+<entry key="auxiliary|text|foreign-subsidies-regulation">Este procedimiento se rige por el Reglamento de Subvenciones Extranjeras (FSR)</entry>
 <entry key="auxiliary|text|framework-agreement">Acuerdo marco</entry>
-<entry key="auxiliary|text|further-info">Más información, mediación y revisión</entry>
+<entry key="auxiliary|text|further-info">Información adicional, mediación y recurso</entry>
 <entry key="auxiliary|text|general-information">Información general</entry>
 <entry key="auxiliary|text|group-framework-value">Valor estimado de los acuerdos marco del grupo de lotes</entry>
 <entry key="auxiliary|text|group-of-lots">Grupo de lotes</entry>
 <entry key="auxiliary|text|grouping">Nombre del grupo</entry>
 <entry key="auxiliary|text|info-rewards-penalties">Información sobre recompensas y sanciones</entry>
+<entry key="auxiliary|text|international-procurement-instrument">La adquisición está dentro del alcance del Instrumento de Contratación Internacional (IPI)</entry>
+<entry key="auxiliary|text|international-procurement-instrument-statistics">Estadísticas sobre las medidas del Instrumento de Contratación Internacional (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Lenguas en las que pueden presentarse las manifestaciones de interés</entry>
 <entry key="auxiliary|text|late-tenderer-info">Información que puede completarse finalizado el plazo de presentación</entry>
 <entry key="auxiliary|text|legal-basis">Base jurídica</entry>
@@ -47,6 +57,7 @@
 <entry key="auxiliary|text|lot">Lote</entry>
 <entry key="auxiliary|text|modification">Modificaciones</entry>
 <entry key="auxiliary|text|name">Nombre</entry>
+<entry key="auxiliary|text|non-leaders-tendering-party">Nombres oficiales de los miembros que no son jefes del licitador</entry>
 <entry key="auxiliary|text|non-winning-tender">Licitadores no seleccionados</entry>
 <entry key="auxiliary|text|notice-information">Información del anuncio</entry>
 <entry key="auxiliary|text|object">Objeto</entry>
@@ -66,7 +77,7 @@
 <entry key="auxiliary|text|organisation-providing-procurement-service">Proveedor de servicios de contratación pública</entry>
 <entry key="auxiliary|text|organisation-receiving-tenders">Organización que recibe ofertas</entry>
 <entry key="auxiliary|text|organisation-requesting-review">Organización (o persona) que interpone un recurso, que tiene o ha tenido un interés en un contrato y que se ha visto o corre el riesgo de verse perjudicada por una presunta infracción</entry>
-<entry key="auxiliary|text|organisation-review">Organización de encargada de los procedimientos de recurso</entry>
+<entry key="auxiliary|text|organisation-review">Organización encargada de los procedimientos de recurso</entry>
 <entry key="auxiliary|text|organisation-review-timelimit">Organización que proporciona más información sobre los plazos para los procedimientos de recurso</entry>
 <entry key="auxiliary|text|organisation-roles">Funciones de las organizaciones</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organización que firma el contrato</entry>
@@ -79,6 +90,7 @@
 <entry key="auxiliary|text|place-performance">Lugar de ejecución</entry>
 <entry key="auxiliary|text|place-registration">Lugar de registro</entry>
 <entry key="auxiliary|text|previous-planning">Información sobre anuncios anteriores</entry>
+<entry key="auxiliary|text|prize-information">Premio</entry>
 <entry key="auxiliary|text|procedure">Procedimiento</entry>
 <entry key="auxiliary|text|procedure-terms">Condiciones del procedimiento</entry>
 <entry key="auxiliary|text|procurement-documents">Pliegos de contratación</entry>
@@ -93,11 +105,14 @@
 <entry key="auxiliary|text|renewal">Renovación</entry>
 <entry key="auxiliary|text|results">Resultados</entry>
 <entry key="auxiliary|text|results-procurement-procedure">Resultado del procedimiento de contratación</entry>
+<entry key="auxiliary|text|review">Recurso</entry>
+<entry key="auxiliary|text|review-request-withdrawn">La solicitud de revisión o de medidas provisionales fue retirada</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Tipo de presunta irregularidad</entry>
 <entry key="auxiliary|text|review-requests-summary">Resumen de las solicitudes de revisión recibidas por el comprador</entry>
 <entry key="auxiliary|text|roles">Funciones de esta organización</entry>
 <entry key="auxiliary|text|second-stage">Información sobre la segunda fase de un procedimiento de dos fases</entry>
 <entry key="auxiliary|text|selection-criteria">Criterios de selección</entry>
+<entry key="auxiliary|text|selection-criteria-sources">Fuentes de los criterios de selección</entry>
 <entry key="auxiliary|text|start-duration-contract">Fecha de inicio y duración del contrato</entry>
 <entry key="auxiliary|text|statistical-information">Información estadística</entry>
 <entry key="auxiliary|text|statistics-strategic">Estadísticas sobre contratación estratégica</entry>
@@ -106,9 +121,10 @@
 <entry key="auxiliary|text|submission-terms">Condiciones de presentación</entry>
 <entry key="auxiliary|text|techniques">Técnicas</entry>
 <entry key="auxiliary|text|tender">Oferta</entry>
+<entry key="auxiliary|text|unpublished">publicación anulada</entry>
 <entry key="auxiliary|text|value">Valor</entry>
 <entry key="auxiliary|text|winner">Ganador</entry>
 <entry key="auxiliary|text|winner-info">Información de los ganadores</entry>
-<entry key="auxiliary|text|winner-lots">Ganador de lotes</entry>
+<entry key="auxiliary|text|winner-lots">Ganador de estos lotes</entry>
 <entry key="auxiliary|text|winner-subcontractor">Subcontratistas del ganador</entry>
 </properties>
