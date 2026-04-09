@@ -248,7 +248,7 @@
 <entry key="expression|name|335">'Framework agreement is involved' (BT-765-Lot) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-709-LotResult) is not filled in</entry>
 <entry key="expression|name|336">'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-660-LotResult) is not filled in</entry>
 <entry key="expression|name|337">It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in</entry>
-<entry key="expression|name|338">No winner was chosen; It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in</entry>
+<entry key="expression|name|338">No framework agreement was involved, or 'Maximum value of the framework agreement' (BT-709-LotResult) is not present</entry>
 <entry key="expression|name|339">There is no awarded lot without a framework agreement and no contract within a framework agreement.</entry>
 <entry key="expression|name|34">'Type of procedure' (BT-105) must not be either 'Competitive dialogue', 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|340">Dynamic purchasing system is not used</entry>
@@ -367,7 +367,7 @@
 <entry key="expression|name|550">'Technical ID of the tender' (OPT-321-Tender) is not filled in</entry>
 <entry key="expression|name|551">'Technical ID of the tender' (OPT-321-Tender) is not filled in</entry>
 <entry key="expression|name|552">'Technical ID of the lot result (RES-XXX)' (OPT-322) is not filled in</entry>
-<entry key="expression|name|553">'Results of lots' is not filled in; Tender for the lot covered by 'Procedure lot result' is not filled in; No tender is filled in and no lot is specified for the 'Procedure lot result'; The competition is still ongoing</entry>
+<entry key="expression|name|553">There is no LotResult, or there is no tender for the lot covered by the LotResult and no tender for any group of lots that would contain the lot of the LotResult, or there is no tender and no lot is specified for the LotResult</entry>
 <entry key="expression|name|554">No lots have been awarded</entry>
 <entry key="expression|name|555">'Technical ID of the contract' (OPT-316-Contract) is not filled in; 'Technical ID of the tender' (OPT-321-Tender) is not filled in</entry>
 <entry key="expression|name|556">'Technical ID of the contract' (OPT-316-Contract) is not filled in</entry>
