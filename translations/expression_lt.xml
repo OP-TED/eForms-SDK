@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727) neužpildyta, o 'Šalis' (BT-5141-UBO) neturi NUTS kodų</entry>
 <entry key="expression|name|134">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727) neužpildyta, o 'Šalis' (BT-5141-UBO) neturi NUTS kodų</entry>
 <entry key="expression|name|135">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727) neužpildyta, o 'Šalis' (BT-5141-UBO) neturi NUTS kodų</entry>
-<entry key="expression|name|136">'Šalis' (BT-5141-UBO) reikia nurodyti pašto kodą, o 'Pašto adresas' (BT-5101(a)) užpildyta</entry>
-<entry key="expression|name|137">'Šalis' (BT-5141-UBO) reikia nurodyti pašto kodą, o 'Pašto adresas' (BT-5101(a)) užpildyta</entry>
-<entry key="expression|name|138">'Šalis' (BT-5141-UBO) reikia nurodyti pašto kodą, o 'Pašto adresas' (BT-5101(a)) užpildyta</entry>
+<entry key="expression|name|136">'Šalis' (BT-5141-Lot) yra 'Šalių, turinčių pašto kodus ir reikalaujančių juos naudoti, kodų sąrašas' (postcode-country) ir 'Pašto adresas' (BT-5101(a)-Lot) yra</entry>
+<entry key="expression|name|137">'Šalis' (BT-5141-Part) yra 'Šalių, turinčių pašto kodus ir reikalaujančių juos naudoti, kodų sąrašas' (postcode-country) ir 'Pašto adresas' (BT-5101(a)-Part) yra</entry>
+<entry key="expression|name|138">'Šalis' (BT-5141-Procedure) yra 'Šalių, turinčių pašto kodus ir reikalaujančių juos naudoti, kodų sąrašas' (postcode-country) 'Pašto adresas' ir (BT-5101(a)-Procedure) yra</entry>
 <entry key="expression|name|139">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727) ir 'Šalis' (BT-5141) neužpildyta</entry>
 <entry key="expression|name|1393">'Šalis' (BT-5141-Procedure) arba 'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727-Procedure) yra</entry>
 <entry key="expression|name|1394">'Šalis' (BT-5141-Part) arba 'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727-Part) yra</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Taikoma preliminarioji sutartis' (BT-765-Lot) yra vienas iš šių: 'Preliminarioji sutartis, dėl dalies neskelbiant naujo konkurso ir dėl dalies skelbiant naują konkursą'; 'Preliminarioji sutartis, skelbiant naują konkursą'; 'Preliminarioji sutartis, neskelbiant naujo konkurso' ir 'Laimėtojo atrankos būsena' (BT-142-LotResult) yra'Pasirinktas bent vienas laimėtojas.' ir (BT-660-LotResult) neužpildyta</entry>
 <entry key="expression|name|337">Tai nėra preliminarioji sutartis; 'Preliminariosios sutarties didžiausia vertė' (BT-709-LotResult) neužpildyta</entry>
 <entry key="expression|name|338">Laimėtojas nepasirinktas; Tai nėra preliminarioji sutartis; 'Preliminariosios sutarties didžiausia vertė' (BT-709-LotResult) nėra užpildyta</entry>
-<entry key="expression|name|339">Laimėtojas nepasirinktas; Tai nėra preliminarioji sutartis</entry>
+<entry key="expression|name|339">Nėra skirtos sutarties dėl pirkimo dalies be preliminariosios sutarties ir nėra sutarties pagal preliminariąją sutartį.</entry>
 <entry key="expression|name|34">'Pirkimo būdas' (BT-105) neturi būti vienas iš šių 'Konkurencinis dialogas', 'Inovacijų partnerystė'; 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'</entry>
 <entry key="expression|name|340">Dinaminė pirkimo sistema nenaudojama</entry>
 <entry key="expression|name|341">Organizacija nėra pasiūlymų teikėja arba subrangovė</entry>

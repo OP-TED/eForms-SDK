@@ -36,9 +36,9 @@
 <entry key="expression|name|133">Níl 'Srianta eile ar áit na feidhmíochta' (BT-727) líonta isteach agus tá cóid aicmiú comhchoiteann na n-aonad críche maidir le staidreamh (NUTS) ag 'Tír' (BT-5141-UBO)</entry>
 <entry key="expression|name|134">Níl 'Srianta eile ar áit na feidhmíochta' (BT-727) líonta isteach agus tá cóid aicmiú comhchoiteann na n-aonad críche maidir le staidreamh (NUTS) ag 'Tír' (BT-5141-UBO)</entry>
 <entry key="expression|name|135">Níl 'Srianta eile ar áit na feidhmíochta' (BT-727) líonta isteach agus tá cóid aicmiú comhchoiteann na n-aonad críche maidir le staidreamh (NUTS) ag 'Tír' (BT-5141-UBO)</entry>
-<entry key="expression|name|136">Éilíonn 'Tír' (BT-5141-UBO) cód poist, agus tá 'Seoladh poist' (BT-5101(a)) líonta isteach</entry>
-<entry key="expression|name|137">Éilíonn 'Tír' (BT-5141-UBO) cód poist, agus tá 'Seoladh poist' (BT-5101(a)) líonta isteach</entry>
-<entry key="expression|name|138">Éilíonn 'Tír' (BT-5141-UBO) cód poist, agus tá 'Seoladh poist' (BT-5101(a)) líonta isteach</entry>
+<entry key="expression|name|136">'Tír' (BT-5141-Lot) tá i 'Liosta de chóid tíre le haghaidh tíortha a bhfuil postchóid acu agus inar gá iad a úsáid' (postcode-country) agus tá 'Seoladh poist' (BT-5101(a)-Lot) i láthair</entry>
+<entry key="expression|name|137">'Tír' (BT-5141-Part) tá i 'Liosta de chóid tíre le haghaidh tíortha a bhfuil postchóid acu agus inar gá iad a úsáid' (postcode-country) agus tá 'Seoladh poist' (BT-5101(a)-Part) i láthair</entry>
+<entry key="expression|name|138">'Tír' (BT-5141-Procedure) tá i 'Liosta de chóid tíre le haghaidh tíortha a bhfuil postchóid acu agus inar gá iad a úsáid' (postcode-country) 'Seoladh poist' agus (BT-5101(a)-Procedure) tá i láthair</entry>
 <entry key="expression|name|139">Níl 'Srianta eile ar áit na feidhmíochta' (BT-727) ná 'Tír' (BT-5141) líonta isteach</entry>
 <entry key="expression|name|1393">'Tír' (BT-5141-Procedure) nó 'Srianta eile ar áit na feidhmíochta' (BT-727-Procedure) ann</entry>
 <entry key="expression|name|1394">'Tír' (BT-5141-Part) nó 'Srianta eile ar áit na feidhmíochta' (BT-727-Part) ann</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">Ní hé 'Tá creat-chomhaontú i gceist' (BT-765-Lot) ceann de na cinn seo a leanas: 'Creat-chomhaontú, gan an iomaíocht a athoscailt go pointe agus maille le hathoscailt na hiomaíochta go pointe'; 'Creat-chomhaontú, maille le hathoscailt na hiomaíochta'; 'Creat-chomhaontú, gan an iomaíocht a athoscailt', agus is ionann 'Stádas roghnúchán na mbuaiteoirí' (BT-142-LotResult) agus 'Roghnaíodh buaiteoir amháin ar a laghad.' agus níl (BT-660-LotResult) líonta isteach</entry>
 <entry key="expression|name|337">Ní creatchonradh é; níl 'Luach uasta an chreat-chomhaontaithe' (BT-709-LotResult) líonta isteach</entry>
 <entry key="expression|name|338">Níor roghnaíodh buaiteoir ar bith; Ní creatchonradh é; Níl 'Luach uasta an chreat-chomhaontaithe' (BT-709-LotResult) líonta isteach</entry>
-<entry key="expression|name|339">Níor roghnaíodh buaiteoir ar bith; Ní creatchonradh é</entry>
+<entry key="expression|name|339">Ní dhéantar luchtóg a dhámhachtain gan chreat-chomhaontú a bheith ann, agus ní dhéantar aon chonradh a dhámhachtain laistigh de chreat-chomhaontú.</entry>
 <entry key="expression|name|34">Ní ceart 'An cineál nóis imeachta' (BT-105) a bheith ina 'Idirphlé iomaíoch', 'Comhpháirtíocht nuálaíochta'; 'Idirbheartaíocht lena mbaineann foilsiú roimh ré glao ar iomaíocht / iomaíocht lena mbaineann idirbheartaíocht'</entry>
 <entry key="expression|name|340">Ní úsáidtear an córas dinimiciúil ceannaigh</entry>
 <entry key="expression|name|341">Ní thairgeoir ná fochoimhdeachtaí an eagraíocht</entry>

@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes</entry>
 <entry key="expression|name|134">'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes</entry>
 <entry key="expression|name|135">'Other restrictions on the place of performance' (BT-727) is not filled in and 'Country' (BT-5141-UBO) does have NUTS codes</entry>
-<entry key="expression|name|136">'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in</entry>
-<entry key="expression|name|137">'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in</entry>
-<entry key="expression|name|138">'Country' (BT-5141-UBO) requires a postcode, and 'Postal address' (BT-5101(a)) is filled in</entry>
+<entry key="expression|name|136">'Country' (BT-5141-Lot) is in 'List of country codes for countries having postcodes and requiring their use' (postcode-country) and 'Postal address' (BT-5101(a)-Lot) is present</entry>
+<entry key="expression|name|137">'Country' (BT-5141-Part) is in 'List of country codes for countries having postcodes and requiring their use' (postcode-country) and 'Postal address' (BT-5101(a)-Part) is present</entry>
+<entry key="expression|name|138">'Country' (BT-5141-Procedure) is in 'List of country codes for countries having postcodes and requiring their use' (postcode-country) 'Postal address' and (BT-5101(a)-Procedure) is present</entry>
 <entry key="expression|name|139">'Other restrictions on the place of performance' (BT-727) and 'Country' (BT-5141) are not filled in</entry>
 <entry key="expression|name|1393">'Country' (BT-5141-Procedure) or 'Other restrictions on the place of performance' (BT-727-Procedure) exists</entry>
 <entry key="expression|name|1394">'Country' (BT-5141-Part) or 'Other restrictions on the place of performance' (BT-727-Part) exists</entry>
@@ -248,8 +248,8 @@
 <entry key="expression|name|335">'Framework agreement is involved' (BT-765-Lot) is one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-709-LotResult) is not filled in</entry>
 <entry key="expression|name|336">'Framework agreement is involved' (BT-765-Lot) is not one of the following: 'Framework agreement, partly without reopening and partly with reopening of competition'; 'Framework agreement, with reopening of competition'; 'Framework agreement, without reopening of competition', and 'Winner selection status' (BT-142-LotResult) is 'At least one winner was chosen.' and (BT-660-LotResult) is not filled in</entry>
 <entry key="expression|name|337">It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in</entry>
-<entry key="expression|name|338">No winner was chosen; It is not a framework contract; 'Maximum value of the framework agreement' (BT-709-LotResult) is not filled in</entry>
-<entry key="expression|name|339">No winner was chosen; It is not a framework contract</entry>
+<entry key="expression|name|338">No framework agreement was involved, or 'Maximum value of the framework agreement' (BT-709-LotResult) is not present</entry>
+<entry key="expression|name|339">There is no awarded lot without a framework agreement and no contract within a framework agreement.</entry>
 <entry key="expression|name|34">'Type of procedure' (BT-105) must not be either 'Competitive dialogue', 'Innovation partnership'; 'Negotiated with prior publication of a call for competition / competitive with negotiation'</entry>
 <entry key="expression|name|340">Dynamic purchasing system is not used</entry>
 <entry key="expression|name|341">The organisation is not a tenderer or subcontractor</entry>
@@ -367,7 +367,7 @@
 <entry key="expression|name|550">'Technical ID of the tender' (OPT-321-Tender) is not filled in</entry>
 <entry key="expression|name|551">'Technical ID of the tender' (OPT-321-Tender) is not filled in</entry>
 <entry key="expression|name|552">'Technical ID of the lot result (RES-XXX)' (OPT-322) is not filled in</entry>
-<entry key="expression|name|553">'Results of lots' is not filled in; Tender for the lot covered by 'Procedure lot result' is not filled in; No tender is filled in and no lot is specified for the 'Procedure lot result'; The competition is still ongoing</entry>
+<entry key="expression|name|553">There is no LotResult, or there is no tender for the lot covered by the LotResult and no tender for any group of lots that would contain the lot of the LotResult, or there is no tender and no lot is specified for the LotResult</entry>
 <entry key="expression|name|554">No lots have been awarded</entry>
 <entry key="expression|name|555">'Technical ID of the contract' (OPT-316-Contract) is not filled in; 'Technical ID of the tender' (OPT-321-Tender) is not filled in</entry>
 <entry key="expression|name|556">'Technical ID of the contract' (OPT-316-Contract) is not filled in</entry>

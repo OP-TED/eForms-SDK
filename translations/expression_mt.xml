@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727) mhuwiex mimli u 'Pajjiż' (BT-5141-UBO) għandu kodiċijiet NUTS</entry>
 <entry key="expression|name|134">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727) mhuwiex mimli u 'Pajjiż' (BT-5141-UBO) għandu kodiċijiet NUTS</entry>
 <entry key="expression|name|135">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727) mhuwiex mimli u 'Pajjiż' (BT-5141-UBO) għandu kodiċijiet NUTS</entry>
-<entry key="expression|name|136">'Pajjiż' (BT-5141-UBO) jeħtieġ kodiċi postali, u 'Indirizz postali' (BT-5101(a)) li jkun mimli</entry>
-<entry key="expression|name|137">'Pajjiż' (BT-5141-UBO) jeħtieġ kodiċi postali, u 'Indirizz postali' (BT-5101(a)) li jkun mimli</entry>
-<entry key="expression|name|138">'Pajjiż' (BT-5141-UBO) jeħtieġ kodiċi postali, u 'Indirizz postali' (BT-5101(a)) li jkun mimli</entry>
+<entry key="expression|name|136">'Pajjiż' (BT-5141-Lot) huwa f’ 'Lista ta' kodiċijiet tal-pajjiżi għall-pajjiżi li għandhom kodiċijiet postali u li jeħtieġu l-użu tagħhom' (postcode-country) u 'Indirizz postali' (BT-5101(a)-Lot) huwa preżenti</entry>
+<entry key="expression|name|137">'Pajjiż' (BT-5141-Part) huwa f’ 'Lista ta' kodiċijiet tal-pajjiżi għall-pajjiżi li għandhom kodiċijiet postali u li jeħtieġu l-użu tagħhom' (postcode-country) u 'Indirizz postali' (BT-5101(a)-Part) huwa preżenti</entry>
+<entry key="expression|name|138">'Pajjiż' (BT-5141-Procedure) huwa f’ 'Lista ta' kodiċijiet tal-pajjiżi għall-pajjiżi li għandhom kodiċijiet postali u li jeħtieġu l-użu tagħhom' (postcode-country) 'Indirizz postali' u (BT-5101(a)-Procedure) huwa preżenti</entry>
 <entry key="expression|name|139">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727) u 'Pajjiż' (BT-5141) mhumiex mimlija</entry>
 <entry key="expression|name|1393">'Pajjiż' (BT-5141-Procedure) jew 'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727-Procedure) jeżdura</entry>
 <entry key="expression|name|1394">'Pajjiż' (BT-5141-Part) jew 'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727-Part) jeżdura</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Involut ftehim qafas' (BT-765-Lot) mhuwiex wieħed minn dawn li ġejjin: 'Ftehim qafas, parzjalment mingħajr ma terġa’ tinfetaħ il-kompetizzjoni u parzjalment billi terġa’ tinfetaħ il-kompetizzjoni'; 'Ftehim qafas, billi terġa’ tinfetaħ il-kompetizzjoni'; 'Ftehim qafas, mingħajr ma terġa’ tinfetaħ il-kompetizzjoni', u 'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) huwa 'Intgħażel minn tal-inqas rebbieħ wieħed.' u (BT-660-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|337">Mhuwiex qafas ta’ kuntratt; 'Valur massimu tal-ftehim qafas' (BT-709-LotResult) mhuwiex mimli</entry>
 <entry key="expression|name|338">Ma ntgħażel l-ebda rebbieħ; Mhuwiex qafas ta’ kuntratt; 'Valur massimu tal-ftehim qafas' (BT-709-LotResult) mhuwiex mimli</entry>
-<entry key="expression|name|339">Ma ntgħażel l-ebda rebbieħ; Mhuwiex qafas ta’ kuntratt</entry>
+<entry key="expression|name|339">Ma hemm l-ebda lott aġġudikat mingħajr ftehim qafas u l-ebda kuntratt fl-ambitu ta’ ftehim qafas.</entry>
 <entry key="expression|name|34">'Tip ta’ proċedura' (BT-105) ma għandux ikun wieħed minnhom 'Djalogu kompetittiv', 'Sħubija għall-innovazzjoni'; 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'</entry>
 <entry key="expression|name|340">Ma tintużax sistema dinamika ta’ xiri</entry>
 <entry key="expression|name|341">L-organizzazzjoni mhijiex offranta jew subappaltatur</entry>

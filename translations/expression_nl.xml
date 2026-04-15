@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Andere beperkingen op de plaats van uitvoering' (BT-727) is niet ingevuld en 'Land' (BT-5141-UBO) heeft NUTS-codes</entry>
 <entry key="expression|name|134">'Andere beperkingen op de plaats van uitvoering' (BT-727) is niet ingevuld en 'Land' (BT-5141-UBO) heeft NUTS-codes</entry>
 <entry key="expression|name|135">'Andere beperkingen op de plaats van uitvoering' (BT-727) is niet ingevuld en 'Land' (BT-5141-UBO) heeft NUTS-codes</entry>
-<entry key="expression|name|136">'Land' (BT-5141-UBO) vereist een postcode en 'Postadres' (BT-5101(a)) is ingevuld</entry>
-<entry key="expression|name|137">'Land' (BT-5141-UBO) vereist een postcode en 'Postadres' (BT-5101(a)) is ingevuld</entry>
-<entry key="expression|name|138">'Land' (BT-5141-UBO) vereist een postcode en 'Postadres' (BT-5101(a)) is ingevuld</entry>
+<entry key="expression|name|136">'Land' (BT-5141-Lot) is in 'Lijst van landcodes voor landen met postcodes die het gebruik ervan vereisen' (postcode-country) en 'Postadres' (BT-5101(a)-Lot) is aanwezig</entry>
+<entry key="expression|name|137">'Land' (BT-5141-Part) is in 'Lijst van landcodes voor landen met postcodes die het gebruik ervan vereisen' (postcode-country) en 'Postadres' (BT-5101(a)-Part) is aanwezig</entry>
+<entry key="expression|name|138">'Land' (BT-5141-Procedure) is in 'Lijst van landcodes voor landen met postcodes die het gebruik ervan vereisen' (postcode-country) 'Postadres' en (BT-5101(a)-Procedure) is aanwezig</entry>
 <entry key="expression|name|139">'Andere beperkingen op de plaats van uitvoering' (BT-727) en 'Land' (BT-5141) zijn niet ingevuld</entry>
 <entry key="expression|name|1393">'Land' (BT-5141-Procedure) of 'Andere beperkingen op de plaats van uitvoering' (BT-727-Procedure) bestaat</entry>
 <entry key="expression|name|1394">'Land' (BT-5141-Part) of 'Andere beperkingen op de plaats van uitvoering' (BT-727-Part) bestaat</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Het gaat om een raamovereenkomst' (BT-765-Lot) is niet een van de volgende: 'Raamovereenkomst, deels zonder en deels met hernieuwde oproep tot mededinging'; 'Raamovereenkomst, met hernieuwde oproep tot mededinging'; 'Raamovereenkomst, zonder hernieuwde oproep tot mededinging', en 'Selectiestatus winnaar' (BT-142-LotResult) is 'Er is ten minste één winnaar gekozen.' en (BT-660-LotResult) is niet ingevuld</entry>
 <entry key="expression|name|337">Het is geen raamovereenkomst; 'Maximumwaarde van de raamovereenkomst' (BT-709-LotResult) is niet ingevuld</entry>
 <entry key="expression|name|338">Er werd geen winnaar gekozen; Het is geen raamovereenkomst; 'Maximumwaarde van de raamovereenkomst' (BT-709-LotResult) is niet ingevuld</entry>
-<entry key="expression|name|339">Er werd geen winnaar gekozen; Het is geen raamovereenkomst</entry>
+<entry key="expression|name|339">Er is geen gegund perceel zonder raamovereenkomst en geen contract in het kader van een raamovereenkomst.</entry>
 <entry key="expression|name|34">'Type procedure' (BT-105) mag niet 'Concurrentiegerichte dialoog', 'Innovatiepartnerschap' zijn; 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'</entry>
 <entry key="expression|name|340">Dynamisch aankoopsysteem wordt niet gebruikt</entry>
 <entry key="expression|name|341">De organisatie is geen inschrijver of onderaannemer</entry>

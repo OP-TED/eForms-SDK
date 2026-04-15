@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Další omezení týkající se místa plnění' (BT-727) není vyplněn a 'Země' (BT-5141-UBO) má kódy NUTS</entry>
 <entry key="expression|name|134">'Další omezení týkající se místa plnění' (BT-727) není vyplněn a 'Země' (BT-5141-UBO) má kódy NUTS</entry>
 <entry key="expression|name|135">'Další omezení týkající se místa plnění' (BT-727) není vyplněn a 'Země' (BT-5141-UBO) má kódy NUTS</entry>
-<entry key="expression|name|136">'Země' (BT-5141-UBO) vyžaduje PSČ a 'Poštovní adresa' (BT-5101(a)) je vyplněn</entry>
-<entry key="expression|name|137">'Země' (BT-5141-UBO) vyžaduje PSČ a 'Poštovní adresa' (BT-5101(a)) je vyplněn</entry>
-<entry key="expression|name|138">'Země' (BT-5141-UBO) vyžaduje PSČ a 'Poštovní adresa' (BT-5101(a)) je vyplněn</entry>
+<entry key="expression|name|136">'Země' (BT-5141-Lot) je v 'Seznam kódů zemí pro země, které mají poštovní směrovací číslo a vyžadují jejich použití' (postcode-country) a 'Poštovní adresa' (BT-5101(a)-Lot) je přítomen</entry>
+<entry key="expression|name|137">'Země' (BT-5141-Part) je v 'Seznam kódů zemí pro země, které mají poštovní směrovací číslo a vyžadují jejich použití' (postcode-country) a 'Poštovní adresa' (BT-5101(a)-Part) je přítomen</entry>
+<entry key="expression|name|138">'Země' (BT-5141-Procedure) je v 'Seznam kódů zemí pro země, které mají poštovní směrovací číslo a vyžadují jejich použití' (postcode-country) 'Poštovní adresa' a (BT-5101(a)-Procedure) je přítomen</entry>
 <entry key="expression|name|139">'Další omezení týkající se místa plnění' (BT-727) a 'Země' (BT-5141) nejsou vyplněny</entry>
 <entry key="expression|name|1393">'Země' (BT-5141-Procedure) nebo 'Další omezení týkající se místa plnění' (BT-727-Procedure) existuje</entry>
 <entry key="expression|name|1394">'Země' (BT-5141-Part) nebo 'Další omezení týkající se místa plnění' (BT-727-Part) existuje</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Je použita rámcová dohoda' (BT-765-Lot) není jedním z následujících: 'Rámcová dohoda kombinující postup bez obnovení soutěže s obnovením soutěže'; 'Rámcová dohoda s obnovením soutěže'; 'Rámcová dohoda bez obnovení soutěže', a 'Stav výběru vítěze' (BT-142-LotResult) je 'Byl vybrán alespoň jeden vítěz.' a (BT-660-LotResult) není vyplněn</entry>
 <entry key="expression|name|337">Nejedná se o rámcovou smlouvu; 'Maximální hodnota rámcové dohody' (BT-709-LotResult) není vyplněn</entry>
 <entry key="expression|name|338">Nebyl vybrán žádný vítěz; nejedná se o rámcovou smlouvu; 'Maximální hodnota rámcové dohody' (BT-709-LotResult) není vyplněn</entry>
-<entry key="expression|name|339">Nebyl vybrán žádný vítěz; nejedná se o rámcovou smlouvu</entry>
+<entry key="expression|name|339">Žádná část udělená bez rámcové dohody a žádná zakázka v rámci rámcové dohody</entry>
 <entry key="expression|name|34">'Typ řízení' (BT-105) nesmí být 'Soutěžní dialog', 'Inovační partnerství'; 'Jednací řízení s uveřejněním / jednací řízení'</entry>
 <entry key="expression|name|340">Dynamický nákupní systém se nepoužívá</entry>
 <entry key="expression|name|341">Organizace není uchazečem ani subdodavatelem</entry>

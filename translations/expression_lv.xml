@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727) nav aizpildīta un, 'Valsts'(BT-5141-UBO)tai ir NUTS kodi</entry>
 <entry key="expression|name|134">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727) nav aizpildīta un, 'Valsts'(BT-5141-UBO)tai ir NUTS kodi</entry>
 <entry key="expression|name|135">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727) nav aizpildīta un, 'Valsts'(BT-5141-UBO)tai ir NUTS kodi</entry>
-<entry key="expression|name|136">'Valsts' (BT-5141-UBO) ir vajadzīgs pasta indekss, un 'Pasta adrese' (BT-5101(a)) ir aizpildīta</entry>
-<entry key="expression|name|137">'Valsts' (BT-5141-UBO) ir vajadzīgs pasta indekss, un 'Pasta adrese' (BT-5101(a)) ir aizpildīta</entry>
-<entry key="expression|name|138">'Valsts' (BT-5141-UBO) ir vajadzīgs pasta indekss, un 'Pasta adrese' (BT-5101(a)) ir aizpildīta</entry>
+<entry key="expression|name|136">'Valsts' (BT-5141-Lot) ir 'Valstu kodu saraksts valstīm, kurām ir pasta indeksi un kurās tie ir jāizmanto' (postcode-country) un 'Pasta adrese' (BT-5101(a)-Lot) ir klāt</entry>
+<entry key="expression|name|137">'Valsts' (BT-5141-Part) ir 'Valstu kodu saraksts valstīm, kurām ir pasta indeksi un kurās tie ir jāizmanto' (postcode-country) un 'Pasta adrese' (BT-5101(a)-Part) ir klāt</entry>
+<entry key="expression|name|138">'Valsts' (BT-5141-Procedure) ir 'Valstu kodu saraksts valstīm, kurām ir pasta indeksi un kurās tie ir jāizmanto' (postcode-country) 'Pasta adrese' un (BT-5101(a)-Procedure) ir klāt</entry>
 <entry key="expression|name|139">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727) un 'Valsts' (BT-5141) nav aizpildītas</entry>
 <entry key="expression|name|1393">'Valsts' (BT-5141-Procedure) vai 'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Procedure) pastāv</entry>
 <entry key="expression|name|1394">'Valsts' (BT-5141-Part) vai 'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Part) pastāv</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Ir paredzēts pamatnolīgums' (BT-765-Lot) nav viens no šādiem variantiem: 'Pamatnolīgums ar konkursa daļēju neatsākšanu un daļēju atsākšanu'; 'Pamatnolīgums ar konkursa atsākšanu'; 'Pamatnolīgums bez konkursa atsākšanas', un 'Uzvarētāja atlases statuss' (BT-142-LotResult) ir 'Ir izraudzīts vismaz viens uzvarētājs.' un (BT-660-LotResult) nav aizpildīta</entry>
 <entry key="expression|name|337">Tas nav pamatnolīgums; 'Pamatnolīguma maksimālā vērtība' (BT-709-LotResult) nav aizpildīta</entry>
 <entry key="expression|name|338">Netika izvēlēts neviens uzvarētājs; Tas nav pamatnolīgums; 'Pamatnolīguma maksimālā vērtība' (BT-709-LotResult)nav aizpildīta</entry>
-<entry key="expression|name|339">Netika izvēlēts neviens uzvarētājs; Tas nav pamatnolīgums</entry>
+<entry key="expression|name|339">Nav nevienas daļas, kas piešķirta bez pamatnolīguma, un neviena līguma, kas noslēgts saskaņā ar palatnolīgumu.</entry>
 <entry key="expression|name|34">'Procedūras veids' (BT-105) nedrīkst būt 'Konkursa dialogs', 'Inovācijas partnerība'; 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'</entry>
 <entry key="expression|name|340">Dinamiskā iepirkuma sistēma netiek izmantota</entry>
 <entry key="expression|name|341">Organizācija nav piedāvātājs vai apakšuzņēmējs</entry>

@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727) não está preenchido e 'País' (BT-5141-UBO) não tem códigos NUTS</entry>
 <entry key="expression|name|134">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727) não está preenchido e 'País' (BT-5141-UBO) não tem códigos NUTS</entry>
 <entry key="expression|name|135">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727) não está preenchido e 'País' (BT-5141-UBO) não tem códigos NUTS</entry>
-<entry key="expression|name|136">'País' (BT-5141-UBO) requer um código postal, e 'Endereço postal' (BT-5101(a)) está preenchido</entry>
-<entry key="expression|name|137">'País' (BT-5141-UBO) requer um código postal, e 'Endereço postal' (BT-5101(a)) está preenchido</entry>
-<entry key="expression|name|138">'País' (BT-5141-UBO) requer um código postal, e 'Endereço postal' (BT-5101(a)) está preenchido</entry>
+<entry key="expression|name|136">'País' (BT-5141-Lot) está em 'Lista de códigos de países para países com códigos postais e que exigem a sua utilização' (postcode-country) e 'Endereço postal' (BT-5101(a)-Lot) está presente</entry>
+<entry key="expression|name|137">'País' (BT-5141-Part) está em 'Lista de códigos de países para países com códigos postais e que exigem a sua utilização' (postcode-country) e 'Endereço postal' (BT-5101(a)-Part) está presente</entry>
+<entry key="expression|name|138">'País' (BT-5141-Procedure) está em 'Lista de códigos de países para países com códigos postais e que exigem a sua utilização' (postcode-country) 'Endereço postal' e (BT-5101(a)-Procedure) está presente</entry>
 <entry key="expression|name|139">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727) e 'País' (BT-5141) não estão preenchidos</entry>
 <entry key="expression|name|1393">'País' (BT-5141-Procedure) ou 'Outras restrições relativas ao local de execução dos trabalhos' (BT-727-Procedure) existe</entry>
 <entry key="expression|name|1394">'País' (BT-5141-Part) ou 'Outras restrições relativas ao local de execução dos trabalhos' (BT-727-Part) existe</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Acordo-quadro' (BT-765-Lot) não é um dos seguintes: 'Acordo-quadro, em parte sem reabertura e em parte com reabertura de concurso'; 'Acordo-quadro, com reabertura de concurso'; 'Acordo-quadro, sem reabertura de concurso', e 'Estatuto de seleção do vencedor' (BT-142-LotResult) é 'O vencedor foi selecionado.' e (BT-660-LotResult) não está preenchido</entry>
 <entry key="expression|name|337">Não se trata de um contrato-quadro; 'Valor máximo do acordo-quadro' (BT-709-LotResult) não está preenchido</entry>
 <entry key="expression|name|338">Nenhum vencedor foi selecionado; Não se trata de um contrato-quadro; 'Valor máximo do acordo-quadro' (BT-709-LotResult) não está preenchido</entry>
-<entry key="expression|name|339">Nenhum vencedor foi selecionado; Não se trata de um contrato-quadro</entry>
+<entry key="expression|name|339">Não há lotes adjudicados sem acordo-quadro nem contratos celebrados no âmbito de um acordo-quadro.</entry>
 <entry key="expression|name|34">'Tipo de procedimento' (BT-105) não pode ser quer 'Diálogo concorrencial', 'Parcerias para a inovação'; 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'</entry>
 <entry key="expression|name|340">O sistema de aquisição dinâmico não é utilizado</entry>
 <entry key="expression|name|341">A organização não é um concorrente nem um subcontratado</entry>

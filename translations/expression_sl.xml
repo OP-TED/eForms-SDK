@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Druge omejitve glede kraja izvedbe' (BT-727) ni izpolnjeno in 'Država' (BT-5141-UBO) ima šifre NUTS</entry>
 <entry key="expression|name|134">'Druge omejitve glede kraja izvedbe' (BT-727) ni izpolnjeno in 'Država' (BT-5141-UBO) ima šifre NUTS</entry>
 <entry key="expression|name|135">'Druge omejitve glede kraja izvedbe' (BT-727) ni izpolnjeno in 'Država' (BT-5141-UBO) ima šifre NUTS</entry>
-<entry key="expression|name|136">'Država' (BT-5141-UBO) zahteva poštno številko in 'Poštni naslov' (BT-5101(a)) je izpolnjeno</entry>
-<entry key="expression|name|137">'Država' (BT-5141-UBO) zahteva poštno številko in 'Poštni naslov' (BT-5101(a)) je izpolnjeno</entry>
-<entry key="expression|name|138">'Država' (BT-5141-UBO) zahteva poštno številko in 'Poštni naslov' (BT-5101(a)) je izpolnjeno</entry>
+<entry key="expression|name|136">'Država' (BT-5141-Lot) je v 'Seznam kod držav za države, ki imajo poštne številke in zahtevajo njihovo uporabo' (postcode-country) in 'Poštni naslov' (BT-5101(a)-Lot) je prisoten</entry>
+<entry key="expression|name|137">'Država' (BT-5141-Part) je v 'Seznam kod držav za države, ki imajo poštne številke in zahtevajo njihovo uporabo' (postcode-country) in 'Poštni naslov' (BT-5101(a)-Part) je prisoten</entry>
+<entry key="expression|name|138">'Država' (BT-5141-Procedure) je v 'Seznam kod držav za države, ki imajo poštne številke in zahtevajo njihovo uporabo' (postcode-country) 'Poštni naslov' in (BT-5101(a)-Procedure) je prisoten</entry>
 <entry key="expression|name|139">'Druge omejitve glede kraja izvedbe' (BT-727) in 'Država' (BT-5141) nista izpolnjeni</entry>
 <entry key="expression|name|1393">'Država' (BT-5141-Procedure) ali 'Druge omejitve glede kraja izvedbe' (BT-727-Procedure) obstaja</entry>
 <entry key="expression|name|1394">'Država' (BT-5141-Part) ali 'Druge omejitve glede kraja izvedbe' (BT-727-Part) obstaja</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Gre za okvirni sporazum' (BT-765-Lot) ni eno od naslednjega: 'Okvirni sporazum, deloma brez ponovnega odpiranja konkurence in deloma s ponovnim odpiranjem konkurence'; 'Okvirni sporazum s ponovnim odpiranjem konkurence'; 'Okvirni sporazum brez ponovnega odpiranja konkurence'; in 'Status izbire ponudnika' (BT-142-LotResult) je 'Izbran je bil vsaj en zmagovalec.' in (BT-660-LotResult) ni izpolnjeno</entry>
 <entry key="expression|name|337">To ni okvirno naročilo; 'Najvišja vrednost okvirnega sporazuma' (BT-709-LotResult) ni izpolnjeno</entry>
 <entry key="expression|name|338">Zmagovalec ni bil izbran; To ni okvirno naročilo; 'Najvišja vrednost okvirnega sporazuma' (BT-709-LotResult) ni izpolnjeno</entry>
-<entry key="expression|name|339">Zmagovalec ni bil izbran; To ni okvirno naročilo</entry>
+<entry key="expression|name|339">Ni oddanega sklopa brez okvirnega sporazuma in nobenega naročila znotraj okvirnega sporazuma.</entry>
 <entry key="expression|name|34">'Vrsta postopka' (BT-105) ne sme biti 'Konkurenčni dialog'; 'Partnerstvo za inovacije'; 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'</entry>
 <entry key="expression|name|340">Dinamični nabavni sistem se ne uporablja</entry>
 <entry key="expression|name|341">Organizacija ni ponudnik ali podizvajalec</entry>

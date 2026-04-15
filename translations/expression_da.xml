@@ -36,9 +36,9 @@
 <entry key="expression|name|133">'Andre begrænsninger af opfyldelsesstedet' (BT-727) er ikke udfyldt, og 'Land' (BT-5141-UBO) har NUTS-koder</entry>
 <entry key="expression|name|134">'Andre begrænsninger af opfyldelsesstedet' (BT-727) er ikke udfyldt, og 'Land' (BT-5141-UBO) har NUTS-koder</entry>
 <entry key="expression|name|135">'Andre begrænsninger af opfyldelsesstedet' (BT-727) er ikke udfyldt, og 'Land' (BT-5141-UBO) har NUTS-koder</entry>
-<entry key="expression|name|136">'Land' (BT-5141-UBO) kræver et postnummer, og 'Postadresse' (BT-5101(a)) er udfyldt</entry>
-<entry key="expression|name|137">'Land' (BT-5141-UBO) kræver et postnummer, og 'Postadresse' (BT-5101(a)) er udfyldt</entry>
-<entry key="expression|name|138">'Land' (BT-5141-UBO) kræver et postnummer, og 'Postadresse' (BT-5101(a)) er udfyldt</entry>
+<entry key="expression|name|136">'Land' (BT-5141-Lot) er i 'Liste over landekoder for lande, der har postnumre og kræver deres anvendelse' (postcode-country) og 'Postadresse' (BT-5101(a)-Lot) er til stede</entry>
+<entry key="expression|name|137">'Land' (BT-5141-Part) er i 'Liste over landekoder for lande, der har postnumre og kræver deres anvendelse' (postcode-country) og 'Postadresse' (BT-5101(a)-Part) er til stede</entry>
+<entry key="expression|name|138">'Land' (BT-5141-Procedure) er i 'Liste over landekoder for lande, der har postnumre og kræver deres anvendelse' (postcode-country) 'Postadresse' og (BT-5101(a)-Procedure) er til stede</entry>
 <entry key="expression|name|139">'Andre begrænsninger af opfyldelsesstedet' (BT-727) og 'Land' (BT-5141) er ikke udfyldt</entry>
 <entry key="expression|name|1393">'Land' (BT-5141-Procedure) eller 'Andre begrænsninger af opfyldelsesstedet' (BT-727-Procedure) findes</entry>
 <entry key="expression|name|1394">'Land' (BT-5141-Part) eller 'Andre begrænsninger af opfyldelsesstedet' (BT-727-Part) findes</entry>
@@ -248,7 +248,7 @@
 <entry key="expression|name|336">'Rammeaftale er involveret' (BT-765-Lot) er ikke en af følgende: 'Rammeaftale delvis uden og delvis med fornyet iværksættelse af konkurrence'; 'Rammeaftale med fornyet iværksættelse af konkurrence'; 'Rammeaftale uden fornyet iværksættelse af konkurrence', og 'Status for udvælgelse af vinder' (BT-142-LotResult) er 'Der er udvalgt mindst én vinder.', og (BT-660-LotResult) er ikke udfyldt</entry>
 <entry key="expression|name|337">Det er ikke en rammeaftale; 'Den maksimale værdi for rammeaftalen' (BT-709-LotResult) er ikke udfyldt</entry>
 <entry key="expression|name|338">Der blev ikke valgt nogen vinder; Det er ikke en rammeaftale; 'Den maksimale værdi for rammeaftalen' (BT-709-LotResult) er ikke udfyldt</entry>
-<entry key="expression|name|339">Der blev ikke valgt nogen vinder; det er ikke en rammeaftale</entry>
+<entry key="expression|name|339">Der er ikke tildelt delkontrakter uden en rammeaftale og ingen kontrakt inden for en rammeaftale.</entry>
 <entry key="expression|name|34">'Udbudsprocedure' (BT-105) må hverken være 'Konkurrencepræget dialog', 'Innovationspartnerskab'; 'Udbud med forhandling/indkaldelse af tilbud med forudgående offentliggørelse'</entry>
 <entry key="expression|name|340">Der anvendes ikke dynamisk indkøbssystem</entry>
 <entry key="expression|name|341">Organisationen er hverken tilbudsgiver eller underleverandør</entry>

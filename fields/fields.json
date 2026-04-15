@@ -1,6 +1,6 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.13.2",
+  "sdkVersion" : "eforms-sdk-1.13.3",
   "metadataDatabase" : {
     "version" : "1.13.31",
     "createdOn" : "2025-02-12T09:28:08"
@@ -3071,10 +3071,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "value" : "{ND-Root} ${((OPP-070-notice in ('14','19','28','32','35','40') or (OPP-070-notice == 'E5' and BT-01-notice == '32014L0023')) and not(BT-531-Procedure == 'supplies') and not(BT-531-Lot == 'supplies') and not(BT-531-Part == 'supplies')) or not(OPP-070-notice in ('14','19','28','32','35','40') or (OPP-070-notice == 'E5' and BT-01-notice == '32014L0023'))}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00002-0101"
-      }, {
         "value" : "{ND-Root} ${((BT-03-notice == 'bri') and (BT-02-notice in (bri))) or not(BT-03-notice == 'bri')}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-BT-00002-0103"
@@ -4051,8 +4047,13 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "29", "30", "31", "33", "34", "38", "39", "E4", "E5", "E6" ],
+        "noticeTypes" : [ "29", "30", "31", "33", "34", "E4", "E5" ],
         "condition" : "{ND-NoticeResult} ${not(BT-142-LotResult[BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]] == 'selec-w') or (BT-709-LotResult is not present)}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "38", "39", "E6" ],
+        "condition" : "{ND-NoticeResult} ${not(BT-13713-LotResult in BT-137-Lot[BT-765-Lot in ('fa-mix','fa-w-rc','fa-wo-rc')]) or (BT-709-LotResult is not present)}",
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -23034,7 +23035,7 @@
       "value" : false,
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "16", "CEI" ],
+        "noticeTypes" : [ "CEI" ],
         "value" : true,
         "severity" : "ERROR"
       } ]
@@ -35689,11 +35690,6 @@
         "noticeTypes" : [ "1", "2", "3", "4", "5", "6", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E1", "E2", "E4", "E5", "E6", "T01", "T02", "X01", "X02" ],
         "value" : true,
         "severity" : "ERROR"
-      }, {
-        "noticeTypes" : [ "E3" ],
-        "condition" : "{ND-LotTenderingTerms} ${not(BT-23-Lot == 'services')}",
-        "value" : true,
-        "severity" : "ERROR"
       } ]
     },
     "codeList" : {
@@ -43127,7 +43123,12 @@
         "value" : true,
         "severity" : "ERROR"
       }, {
-        "noticeTypes" : [ "25", "26", "27", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "E4", "E5", "E6", "T02" ],
+        "noticeTypes" : [ "25", "26", "27", "38", "39", "40", "E6" ],
+        "condition" : "{ND-LotResult} ${(OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(BT-13714-Tender in BT-13713-LotResult) and not(BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present))}",
+        "value" : true,
+        "severity" : "ERROR"
+      }, {
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "E5", "T02" ],
         "condition" : "{ND-LotResult} ${(OPT-322-LotResult is not present) or ((BT-13713-LotResult is present) and not(BT-13714-Tender in BT-13713-LotResult) and not(BT-1375-Procedure[BT-330-Procedure in BT-13714-Tender] in BT-13713-LotResult)) or ((BT-13713-LotResult is not present) and (OPT-321-Tender is not present)) or (BT-142-LotResult == 'open-nw')}",
         "value" : true,
         "severity" : "ERROR"
