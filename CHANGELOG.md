@@ -1,15 +1,15 @@
-#SDK 1.13.3 Release Notes
+# SDK 1.13.3 Release Notes
 
 This release brings updates to the business rules, labels and translations. These changes are back-ported from SDK 1.14.
 
-##Updates on business rules:
+## Updates on business rules:
 *Re-introduction of 3 rules making ‘Tender Value’ (BT-720-Tender) conditionally mandatory for subtypes 38, 39 and E6 
 *Update of rules to remove reference to ‘Winner Chosen’ (BT-142-LotResult) for VEAT and Contract Modification notice subtypes 
 *Removal of conditionally forbidden rule for 'Performing Staff Qualification' (BT-79-Lot) in subtype E3
 *Removal of rule making ‘Lots Max Awarded’ (BT-33-Procedure) mandatory for subtype 16 when the notice is divided into Lots
 *Removal of the rule requiring ‘Additional Nature’ (BT-531-Lot/Part) to be different from ‘Supplies’ for procedures under the Concessions Directive (Directive 2014/23/EU) 
  
-##Updates on labels and translations:
+## Updates on labels and translations:
 *Updates to rule-, field name-, field description- and code labels and their translations 
 
 The documentation for the SDK is available at <https://docs.ted.europa.eu>. The source for this documentation is maintained in the [eforms-docs](https://github.com/OP-TED/eforms-docs) repository.
