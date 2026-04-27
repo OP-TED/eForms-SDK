@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Ainm an scéim a úsáidtear chun aitheantas teicniúil an tairiscint a léiriú: 'tairiscint'</entry>
 <entry key="field|description|OPT-322-LotResult">Aitheantas teicniúil toradh an earraigh, ba cheart go leanfadh sé an scéim seo a leanas: 'RES-xxxx'. Úsáidtear é do thagarthaí trasna.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Ainm an scéim a úsáidtear chun aitheantas teicniúil toradh an earraigh a léiriú: 'toradh'</entry>
-<entry key="field|description|OPT-999">Eléimint dáta bréige atá riachtanach don scéim. Beidh sé i gcónaí '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Eléimint dáta bréige atá riachtanach don scéim. Beidh sé i gcónaí '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">An dlí is infheidhme má bhaineann ceannaitheoirí ó thíortha éagsúla leis an soláthar.</entry>
 <entry key="field|hint|BT-1375-Procedure">Cuir an oiread beart agus is mian leat san áireamh sa ghrúpa beart.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Cuir an oiread beart agus is mian leat san áireamh sa ghrúpa beart.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">ID teicniúil an tairiscint</entry>
 <entry key="field|name|OPT-322-LotResult">ID teicniúil torthaí an lochta (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">ID teicniúil torthaí an lochta (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Dáta bréige dhámhachtain na tairisceana</entry>
+<entry key="field|name|OPT-999-notice">Dáta bréige dhámhachtain na tairisceana</entry>
 </properties>

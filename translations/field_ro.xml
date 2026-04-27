@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Numele schemei folosit pentru a exprima identificatorul tehnic al ofertei: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Identificatorul tehnic al rezultatului lotului, ar trebui să urmeze această schemă: 'RES-xxxx'. Folosit pentru referințe încrucișate.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Numele schemei folosit pentru a exprima identificatorul tehnic al rezultatului lotului: 'result'</entry>
-<entry key="field|description|OPT-999">Elementul de dată fictiv necesar schemei. Va fi întotdeauna '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Elementul de dată fictiv necesar schemei. Va fi întotdeauna '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Legea aplicabilă în cazul în care achiziția implică cumpărători din țări diferite.</entry>
 <entry key="field|hint|BT-1375-Procedure">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">ID-ul tehnic al ofertei</entry>
 <entry key="field|name|OPT-322-LotResult">ID-ul tehnic al rezultatului lotului (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">ID-ul tehnic al rezultatului lotului (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Data de atribuire a ofertei fictive</entry>
+<entry key="field|name|OPT-999-notice">Data de atribuire a ofertei fictive</entry>
 </properties>

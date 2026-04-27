@@ -52,7 +52,11 @@
 <entry key="expression|name|1433">'Winner selection status' (BT-142) must be 'At least one winner was chosen.' for a notice of type 'Contract award notice for public passenger transport services'</entry>
 <entry key="expression|name|144">'Country' (BT-514-UBO) does not have NUTS codes</entry>
 <entry key="expression|name|146">'Postal address' (BT-510(a)-UBO) is not filled in</entry>
+<entry key="expression|name|1467">'Type of procedure' (BT-105) value is not equal to 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue', 'Innovation partnership' and 'Other multiple stage procedure', or 'Deadline for receipt of requests to participate' (BT-1311) is present</entry>
+<entry key="expression|name|1468">'Type of procedure' (BT-105) value is not equal to 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue', 'Innovation partnership' and 'Other multiple stage procedure', or 'Deadline for receipt of expressions of interest' (BT-630) is present</entry>
+<entry key="expression|name|1469">'Type of procedure' (BT-105) value is equal to 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue', 'Innovation partnership' or 'Other multiple stage procedure', and 'Deadline for receipt of requests to participate' (BT-1311) is not present</entry>
 <entry key="expression|name|147">'Postal address' (BT-510(b)-UBO) is not filled in</entry>
+<entry key="expression|name|1470">'Type of procedure' (BT-105) value is equal to 'Restricted', 'Negotiated with prior publication of a call for competition / competitive with negotiation', 'Competitive dialogue', 'Innovation partnership' or 'Other multiple stage procedure', and 'Deadline for receipt of expressions of interest' (BT-630) is not present</entry>
 <entry key="expression|name|148">'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'yes' or 'Number is a type of threshold' (BT-7532) is filled in</entry>
 <entry key="expression|name|149">'The criteria will be used to select the candidates to be invited for the second stage of the procedure' (BT-40) is not 'yes' or 'Number is a type of weight' (BT-7531) is filled in</entry>
 <entry key="expression|name|15">'Access to certain procurement documents is restricted' (BT-14-Part) is not restricted</entry>
@@ -509,6 +513,8 @@
 <entry key="expression|name|7">'Country' (BT-5141-Part) is filled in</entry>
 <entry key="expression|name|70">'Subcontracting percentage is known' (BT-731-Tender) is not 'yes'</entry>
 <entry key="expression|name|701">'Legal basis' (BT-01(c)-Procedure) is not filled in</entry>
+<entry key="expression|name|702">BT-811(b)-Lot does not exist</entry>
+<entry key="expression|name|703">BT-811(b)-LotResult does not exist</entry>
 <entry key="expression|name|71">'Subcontracting' (BT-773-Tender) is 'Yes'</entry>
 <entry key="expression|name|72">No winner was chosen or 'Framework agreement is involved' (BT-765-Lot) does not correspond to the framework agreement of the procedure</entry>
 <entry key="expression|name|74">'Version of the previous notice to be changed' (BT-758-notice) is not filled in</entry>

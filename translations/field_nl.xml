@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Naam van het schema dat wordt gebruikt om de technische identificatie van het aanbod uit te drukken: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Technische identificatie van het perceelresultaat, moet het volgende schema volgen: 'RES-xxxx'. Wordt gebruikt voor kruisverwijzingen.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Naam van het schema dat wordt gebruikt om de technische identificatie van het perceelresultaat uit te drukken: 'result'</entry>
-<entry key="field|description|OPT-999">Dummy datum element vereist door het schema. Zal altijd '2000-01-01Z' zijn</entry>
+<entry key="field|description|OPT-999-notice">Dummy datum element vereist door het schema. Zal altijd '2000-01-01Z' zijn</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Het toepasselijke recht indien bij de aanbesteding kopers uit verschillende landen betrokken zijn.</entry>
 <entry key="field|hint|BT-1375-Procedure">Voeg zoveel percelen als u wilt aan de groep percelen toe.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Voeg zoveel percelen als u wilt aan de groep percelen toe.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Technische ID van de aanbieding</entry>
 <entry key="field|name|OPT-322-LotResult">Technische ID van het perceelresultaat (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Technische ID van het perceelresultaat (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Voorbeelddatum gunning inschrijving</entry>
+<entry key="field|name|OPT-999-notice">Voorbeelddatum gunning inschrijving</entry>
 </properties>

@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Názov schémy použitej na vyjadrenie technického identifikátora ponuky: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Technický identifikátor výsledku pozemku, ktorý by mal nasledovať nasledujúcu schému: 'RES-xxxx'. Používa sa na krížové odkazy.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Názov schémy použitej na vyjadrenie technického identifikátora výsledku pozemku: 'result'</entry>
-<entry key="field|description|OPT-999">Fiktívny dátumový prvok potrebný pre schému. Bude vždy '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Fiktívny dátumový prvok potrebný pre schému. Bude vždy '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Uplatniteľné právne predpisy, ak verejné obstarávanie zahŕňa kupujúcich z rôznych krajín.</entry>
 <entry key="field|hint|BT-1375-Procedure">Pridajte želaný počet častí, ktoré sa majú zahrnúť do skupiny častí.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pridajte želaný počet častí, ktoré sa majú zahrnúť do skupiny častí.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Technické ID ponuky</entry>
 <entry key="field|name|OPT-322-LotResult">Technické ID výsledku časti (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Technické ID výsledku časti (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fiktívny dátum predloženia ponuky</entry>
+<entry key="field|name|OPT-999-notice">Fiktívny dátum predloženia ponuky</entry>
 </properties>

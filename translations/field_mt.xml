@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Isem tas-sċema użat biex jesprimi l-identifikatur tekniku tal-offerta: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">L-identifikatur tekniku tar-riżultat tal-lott, għandu jsegwi din is-sċema: 'RES-xxxx'. Użat għar-riferimenti kroċjati.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Isem tas-sċema użat biex jesprimi l-identifikatur tekniku tar-riżultat tal-lott: 'result'</entry>
-<entry key="field|description|OPT-999">Element ta' data dummy meħtieġa mis-sċema. Dejjem se tkun '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Element ta' data dummy meħtieġa mis-sċema. Dejjem se tkun '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Il-liġi applikabbli jekk l-akkwist jinvolvi xerrejja minn pajjiżi differenti.</entry>
 <entry key="field|hint|BT-1375-Procedure">Żid lottijiet kemm tixtieq tinkludi fil-grupp tal-lottijiet.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Żid lottijiet kemm tixtieq tinkludi fil-grupp tal-lottijiet.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">ID tekniku tal-offerta</entry>
 <entry key="field|name|OPT-322-LotResult">ID tekniku tar-riżultat tal-lott (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">ID tekniku tar-riżultat tal-lott (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Data tal-għoti tal-offerta finta</entry>
+<entry key="field|name|OPT-999-notice">Data tal-għoti tal-offerta finta</entry>
 </properties>

@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Schemos pavadinimas, naudojamas norint išreikšti pasiūlymo techninį identifikatorių: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Sklypo rezultato techninis identifikatorius, turėtų laikytis šios schemos: 'RES-xxxx'. Naudojamas kryžminėms nuorodoms.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Schemos pavadinimas, naudojamas norint išreikšti sklypo rezultato techninį identifikatorių: 'result'</entry>
-<entry key="field|description|OPT-999">Schemai reikalingas fiktyvus datos elementas. Visada bus '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Schemai reikalingas fiktyvus datos elementas. Visada bus '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Taikytina teisė, jei pirkime dalyvauja skirtingų šalių pirkėjai.</entry>
 <entry key="field|hint|BT-1375-Procedure">Pridėkite tiek pirkimo dalių, kiek norite įtraukti į pirkimo dalių grupę.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pridėkite tiek pirkimo dalių, kiek norite įtraukti į pirkimo dalių grupę.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Pasiūlymo techninis ID</entry>
 <entry key="field|name|OPT-322-LotResult">Partijos rezultato techninis ID (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Partijos rezultato techninis ID (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fiktyvioji sutarties skyrimo data</entry>
+<entry key="field|name|OPT-999-notice">Fiktyvioji sutarties skyrimo data</entry>
 </properties>

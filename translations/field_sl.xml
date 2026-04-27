@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Ime sheme, ki se uporablja za izražanje tehnične identifikacije ponudbe: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Tehnična identifikacija rezultata dela, ki bi morala slediti tej shemi: 'RES-xxxx'. Uporablja se za križne reference.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Ime sheme, ki se uporablja za izražanje tehnične identifikacije rezultata dela: 'result'</entry>
-<entry key="field|description|OPT-999">Potreben je fiktivni datumski element za shemo. Bo vedno '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Potreben je fiktivni datumski element za shemo. Bo vedno '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo, ki se uporablja, če javno naročilo vključuje kupce iz različnih držav.</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Tehnični ID ponudbe</entry>
 <entry key="field|name|OPT-322-LotResult">Tehnični ID rezultata sklopa (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Tehnični ID rezultata sklopa (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Datum oddaje fingirane ponudbe</entry>
+<entry key="field|name|OPT-999-notice">Datum oddaje fingirane ponudbe</entry>
 </properties>

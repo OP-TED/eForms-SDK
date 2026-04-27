@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Nome do esquema usado para expressar o identificador técnico da proposta: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Identificador técnico do resultado do lote, deve seguir este esquema: 'RES-xxxx'. Usado para referências cruzadas.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Nome do esquema usado para expressar o identificador técnico do resultado do lote: 'result'</entry>
-<entry key="field|description|OPT-999">Elemento de data fictício necessário para o esquema. Será sempre '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Elemento de data fictício necessário para o esquema. Será sempre '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">A legislação aplicável se o contrato envolver adquirentes de diferentes países.</entry>
 <entry key="field|hint|BT-1375-Procedure">Adicione o número de lotes que pretende incluir no grupo de lotes.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Adicione o número de lotes que pretende incluir no grupo de lotes.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">ID técnico da oferta</entry>
 <entry key="field|name|OPT-322-LotResult">ID técnico do resultado do lote (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">ID técnico do resultado do lote (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Data de adjudicação da proposta simulada</entry>
+<entry key="field|name|OPT-999-notice">Data de adjudicação da proposta simulada</entry>
 </properties>

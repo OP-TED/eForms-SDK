@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Namnet på schemat som används för att uttrycka den tekniska identifieraren för förslaget: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Den tekniska identifieraren för lottresultatet, bör följa detta schema: 'RES-xxxx'. Används för korsreferenser.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Namnet på schemat som används för att uttrycka den tekniska identifieraren för lottresultatet: 'result'</entry>
-<entry key="field|description|OPT-999">Fiktivt datumselement som krävs för schemat. Kommer alltid att vara '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Fiktivt datumselement som krävs för schemat. Kommer alltid att vara '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Lagstiftningen gäller om upphandlingen involverar köpare från olika länder.</entry>
 <entry key="field|hint|BT-1375-Procedure">Lägga till så många delkontrakt som du vill inkludera i gruppen av delkontrakt.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lägga till så många delkontrakt som du vill inkludera i gruppen av delkontrakt.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Tekniskt ID för anbudet</entry>
 <entry key="field|name|OPT-322-LotResult">Tekniskt ID för partiresultatet (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Tekniskt ID för partiresultatet (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fiktivt datum för tilldelning av kontraktet</entry>
+<entry key="field|name|OPT-999-notice">Fiktivt datum för tilldelning av kontraktet</entry>
 </properties>
