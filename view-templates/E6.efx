@@ -420,7 +420,7 @@
 7 {ND-Root[BT-1501(n)-Contract is present]} #{auxiliary|text|modification} // 7 Modifications
 	1 {ND-ContractModification} #{auxiliary|text|modification} // 7.1 Modification
 		{BT-1501(n)-Contract} #{field|name|BT-1501(n)-Contract}: ${BT-1501(n)-Contract} // Modification Previous Notice Identifier
-		{BT-1501(c)-Contract} #{field|name|BT-1501(c)-Contract}: ${BT-1501(c)-Contract} // Modified Contract Reference
+		{BT-1501(c)-Contract} #{field|name|BT-1501(c)-Contract}: ${for text:$con_id in BT-1501(c)-Contract return BT-150-Contract[OPT-316-Contract == $con_id]} // Modified Contract Reference
 		{BT-200-Contract} #{field|name|BT-200-Contract}: #{BT-200-Contract} // Modification Reason Code
 		{ND-ContractModification} #{field|name|BT-201-Contract}: ${BT-201-Contract} // Modification Reason Description
 		1 {ND-Modification} #{auxiliary|text|change} // 7.1.1 Modification

@@ -622,7 +622,7 @@
 						{BT-197(BT-759)-LotResult} #{field|name|BT-197(BT-759)-LotResult}: #{BT-197(BT-759)-LotResult} // Unpublished Justification Code
 						{BT-759-LotResult[BT-196(BT-759)-LotResult is present]} #{field|name|BT-196(BT-759)-LotResult}: ${BT-196(BT-759)-LotResult} // Unpublished Justification Description
 						{BT-198(BT-759)-LotResult} #{field|name|BT-198(BT-759)-LotResult}: ${BT-198(BT-759)-LotResult} // Unpublished Access Date
-			0 {OPT-322-LotResult[(BT-710-LotResult is present) or (BT-710-LotResult is present)]} #{auxiliary|text|range-tenders}: // Range of tenders
+			0 {OPT-322-LotResult[(BT-710-LotResult is present) or (BT-711-LotResult is present)]} #{auxiliary|text|range-tenders}: // Range of tenders
 				0 {BT-710-LotResult[BT-710-LotResult != -1]} #{field|name|BT-710-LotResult}: ${format-number(BT-710-LotResult, '###,##0.##')} #{code|name|${concat('currency.', BT-710-LotResult[BT-710-LotResult/@currencyID != 'unpublished']/@currencyID)}} // Tender Value Lowest
 					{BT-197(BT-710)-LotResult} #{field|name|BT-197(BT-710)-LotResult}: #{BT-197(BT-710)-LotResult} // Unpublished Justification Code
 					{BT-710-LotResult[BT-196(BT-710)-LotResult is present]} #{field|name|BT-196(BT-710)-LotResult}: ${BT-196(BT-710)-LotResult} // Unpublished Justification Description
