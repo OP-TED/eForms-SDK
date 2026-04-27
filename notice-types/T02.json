@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.14.0",
+  "sdkVersion" : "1.15.0-alpha.1",
   "metadataDatabase" : {
-    "version" : "1.14.1",
-    "createdOn" : "2025-12-02T14:47:40"
+    "version" : "1.14.35",
+    "createdOn" : "2026-04-27T16:19:14"
   },
   "noticeId" : "T02",
   "metadata" : [ {
@@ -80,11 +80,11 @@
     "_label" : "field|name|BT-738-notice",
     "hidden" : true
   }, {
-    "id" : "OPT-999",
+    "id" : "OPT-999-notice",
     "contentType" : "field",
     "displayType" : "TEXTBOX",
     "description" : "Dummy Tender Award Date",
-    "_label" : "field|name|OPT-999",
+    "_label" : "field|name|OPT-999-notice",
     "_presetValue" : "2000-01-01Z",
     "hidden" : true
   }, {
@@ -143,7 +143,7 @@
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
       "_label" : "group|name|GR-ContractingAuthority",
-      "businessEntityId" : "buyer",
+      "businessEntityId" : "Buyer",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ContractingAuthority-Buyer",
@@ -190,6 +190,7 @@
         "displayType" : "GROUP",
         "description" : "Provided Service (code) and Provider (Reference to Organization)",
         "_label" : "group|name|GR-Procedure-SProvider",
+        "businessEntityId" : "ServiceProvider",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-300-Procedure-SProvider",
@@ -483,7 +484,7 @@
     "_label" : "group|name|GR-Lot",
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
-    "businessEntityId" : "lot",
+    "businessEntityId" : "Lot",
     "_identifierFieldId" : "BT-137-Lot",
     "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
@@ -556,6 +557,7 @@
         "displayType" : "GROUP",
         "description" : "Information (Description) about a given Quality Target",
         "_label" : "group|name|GR-Lot-QualityTarget",
+        "businessEntityId" : "QualityTarget",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-071-Lot",
@@ -812,7 +814,7 @@
         "_label" : "group|name|GR-TenderingParty",
         "_idScheme" : "TPA",
         "_schemeName" : "tendering-party",
-        "businessEntityId" : "tenderingParty",
+        "businessEntityId" : "TenderingParty",
         "_identifierFieldId" : "OPT-210-Tenderer",
         "_captionFieldId" : "OPT-211-Tenderer",
         "_repeatable" : true,
@@ -838,6 +840,7 @@
           "displayType" : "GROUP",
           "description" : "One of the member of the Tendring Party",
           "_label" : "group|name|GR-Tenderer",
+          "businessEntityId" : "Tenderer",
           "_repeatable" : true,
           "content" : [ {
             "id" : "OPT-300-Tenderer",
@@ -860,6 +863,7 @@
           "displayType" : "GROUP",
           "description" : "Organization identified as a contractor of one at least of the Main Tenderers of a Tendering Party",
           "_label" : "group|name|GR-Subcontractor",
+          "businessEntityId" : "SubContractor",
           "_repeatable" : true,
           "content" : [ {
             "id" : "OPT-301-Tenderer-SubCont",
@@ -902,7 +906,7 @@
         "_label" : "group|name|GR-SettledContract",
         "_idScheme" : "CON",
         "_schemeName" : "contract",
-        "businessEntityId" : "contract",
+        "businessEntityId" : "Contract",
         "_identifierFieldId" : "OPT-316-Contract",
         "_captionFieldId" : "BT-150-Contract",
         "_repeatable" : true,
@@ -970,6 +974,7 @@
             "displayType" : "GROUP",
             "description" : "SettledContract 3",
             "_label" : "group|name|GR-SettledContract-3",
+            "businessEntityId" : "ContractAsset",
             "_repeatable" : true,
             "content" : [ {
               "id" : "OPP-021-Contract",
@@ -1008,7 +1013,7 @@
         "_label" : "group|name|GR-LotTender",
         "_idScheme" : "TEN",
         "_schemeName" : "tender",
-        "businessEntityId" : "tender",
+        "businessEntityId" : "Tender",
         "_identifierFieldId" : "OPT-321-Tender",
         "_captionFieldId" : "BT-3201-Tender",
         "_repeatable" : true,
@@ -1141,6 +1146,7 @@
           "displayType" : "GROUP",
           "description" : "Conditions other than Revenue Allocation",
           "_label" : "group|name|GR-LotTender-3",
+          "businessEntityId" : "ContractExecutionCondition",
           "_repeatable" : true,
           "content" : [ {
             "id" : "OPP-030-Tender",
@@ -1192,7 +1198,7 @@
         "_label" : "group|name|GR-LotResult",
         "_idScheme" : "RES",
         "_schemeName" : "result",
-        "businessEntityId" : "resultForLot",
+        "businessEntityId" : "LotResult",
         "_identifierFieldId" : "OPT-322-LotResult",
         "_captionFieldId" : "BT-13713-LotResult",
         "_repeatable" : true,
@@ -1323,6 +1329,7 @@
             "displayType" : "GROUP",
             "description" : "Information about the assets: category and quantity (number) in the context of an applicable Legal Basis",
             "_label" : "group|name|GR-LotResult-CVD-Vehicles",
+            "businessEntityId" : "VehicleProcurementDetail",
             "_repeatable" : true,
             "content" : [ {
               "id" : "BT-723-LotResult",
@@ -1337,6 +1344,7 @@
               "displayType" : "GROUP",
               "description" : "Numbers about the procurement: category (code) and quantity (number)",
               "_label" : "group|name|GR-LotResult-CVD-Vehicles-Statistics",
+              "businessEntityId" : "VehicleStatistics",
               "_repeatable" : true,
               "content" : [ {
                 "id" : "OPT-155-LotResult",
@@ -1389,6 +1397,7 @@
       "displayType" : "GROUP",
       "description" : "Information associated to a single Change (Section, Description & Procurement Documents)",
       "_label" : "group|name|GR-ChangeSections",
+      "businessEntityId" : "Change",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ChangedSectionIdentifiers",
@@ -1397,6 +1406,7 @@
         "displayType" : "GROUP",
         "description" : "Section subject to change",
         "_label" : "group|name|GR-ChangedSectionIdentifiers",
+        "businessEntityId" : "ChangedSection",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-13716-notice",
@@ -1447,7 +1457,7 @@
         "_label" : "group|name|GR-Organisations",
         "_idScheme" : "ORG",
         "_schemeName" : "organization",
-        "businessEntityId" : "organization",
+        "businessEntityId" : "Organisation",
         "_identifierFieldId" : "OPT-200-Organization-Company",
         "_captionFieldId" : "BT-500-Organization-Company",
         "_repeatable" : true,
@@ -1643,7 +1653,7 @@
           "_label" : "group|name|GR-Touch-Point",
           "_idScheme" : "TPO",
           "_schemeName" : "touchpoint",
-          "businessEntityId" : "touchpoint",
+          "businessEntityId" : "Touchpoint",
           "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
           "_captionFieldId" : "BT-500-Organization-TouchPoint",
           "_repeatable" : true,
@@ -1773,7 +1783,7 @@
         "_label" : "group|name|GR-UBO",
         "_idScheme" : "UBO",
         "_schemeName" : "ubo",
-        "businessEntityId" : "ultimateBeneficialOwner",
+        "businessEntityId" : "UBO",
         "_identifierFieldId" : "OPT-202-UBO",
         "_captionFieldId" : "BT-500-UBO",
         "_repeatable" : true,
