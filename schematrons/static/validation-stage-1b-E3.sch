@@ -26,7 +26,7 @@
 		<assert id="ND-Participants-E3" role="ERROR" diagnostics="ND-Participants" test="count(cac:EconomicOperatorShortList) = 0">rule|text|ND-Participants-E3</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = 'E3']">
-		<assert id="ND-LotAwardCriterionNumberComplicatedUnpublish-E3" role="ERROR" diagnostics="ND-LotAwardCriterionNumberComplicatedUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-LotAwardCriterionNumberComplicatedUnpublish-E3</assert>
+		<assert id="ND-LotAwardCriterionExtension-E3" role="ERROR" diagnostics="ND-LotAwardCriterionExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-LotAwardCriterionExtension-E3</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'E3']">
 		<assert id="ND-LotAwardCriterionTypeUnpublish-E3" role="ERROR" diagnostics="ND-LotAwardCriterionTypeUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-LotAwardCriterionTypeUnpublish-E3</assert>
@@ -35,7 +35,7 @@
 		<assert id="ND-LotAwardCriterionFixNumberUnpublish-E3" role="ERROR" diagnostics="ND-LotAwardCriterionFixNumberUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-LotAwardCriterionFixNumberUnpublish-E3</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion[$noticeSubType = 'E3']">
-		<assert id="ND-LotsGroupAwardCriterionNumberComplicatedUnpublish-E3" role="ERROR" diagnostics="ND-LotsGroupAwardCriterionNumberComplicatedUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-LotsGroupAwardCriterionNumberComplicatedUnpublish-E3</assert>
+		<assert id="ND-LotsGroupAwardCriteriaExtension-E3" role="ERROR" diagnostics="ND-LotsGroupAwardCriteriaExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-LotsGroupAwardCriteriaExtension-E3</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'E3']">
 		<assert id="ND-LotsGroupAwardCriterionTypeUnpublish-E3" role="ERROR" diagnostics="ND-LotsGroupAwardCriterionTypeUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-LotsGroupAwardCriterionTypeUnpublish-E3</assert>
@@ -44,10 +44,10 @@
 		<assert id="ND-LotsGroupAwardCriterionFixNumberUnpublish-E3" role="ERROR" diagnostics="ND-LotsGroupAwardCriterionFixNumberUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-LotsGroupAwardCriterionFixNumberUnpublish-E3</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = 'E3']">
-		<assert id="ND-ProcedureFeaturesUnpublish-E3" role="ERROR" diagnostics="ND-ProcedureFeaturesUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-ProcedureFeaturesUnpublish-E3</assert>
+		<assert id="ND-ProcedureTenderingProcessExtension-E3" role="ERROR" diagnostics="ND-ProcedureTenderingProcessExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-ProcedureTenderingProcessExtension-E3</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:ProcessJustification[$noticeSubType = 'E3']">
-		<assert id="ND-DirectAwardJustificationPreviousUnpublish-E3" role="ERROR" diagnostics="ND-DirectAwardJustificationPreviousUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-DirectAwardJustificationPreviousUnpublish-E3</assert>
+		<assert id="ND-DirectAwardExtension-E3" role="ERROR" diagnostics="ND-DirectAwardExtension" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension) = 0">rule|text|ND-DirectAwardExtension-E3</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[$noticeSubType = 'E3']">
 		<assert id="ND-CrossBorderLawUnpublish-E3" role="ERROR" diagnostics="ND-CrossBorderLawUnpublish" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy) = 0">rule|text|ND-CrossBorderLawUnpublish-E3</assert>

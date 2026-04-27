@@ -69,7 +69,7 @@
 		<assert id="ND-SettledContract-39" role="ERROR" diagnostics="ND-SettledContract" test="count(efac:SettledContract) &gt; 0">rule|text|ND-SettledContract-39</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '39']">
-		<assert id="ND-NotAwardedReasonUnpublish-39" role="ERROR" diagnostics="ND-NotAwardedReasonUnpublish" test="count(efac:DecisionReason/efac:FieldsPrivacy) = 0">rule|text|ND-NotAwardedReasonUnpublish-39</assert>
+		<assert id="ND-DecisionReason-39" role="ERROR" diagnostics="ND-DecisionReason" test="count(efac:DecisionReason) = 0">rule|text|ND-DecisionReason-39</assert>
 		<assert id="ND-ReceivedSubmissions-39" role="ERROR" diagnostics="ND-ReceivedSubmissions" test="count(efac:ReceivedSubmissionsStatistics) = 0">rule|text|ND-ReceivedSubmissions-39</assert>
 		<assert id="ND-WinnerChosenUnpublish-39" role="ERROR" diagnostics="ND-WinnerChosenUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-WinnerChosenUnpublish-39</assert>
 	</rule>
