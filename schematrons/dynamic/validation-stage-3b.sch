@@ -2,7 +2,7 @@
 <!--File generated from metadata database-->
 <pattern id="EFORMS-validation-stage-3b" xmlns="http://purl.oclc.org/dsdl/schematron">
 	<rule context="/*/cac:AdditionalDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
-		<assert id="BR-OPP-00122-0055" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-OPP-00122-0055</assert>
+		<assert id="BR-OPP-00122-0055" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-OPP-00122-0055</assert>
 		<assert id="OPP-122-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPP-122-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:AdditionalDocumentReference/cbc:DocumentDescription">
@@ -27,7 +27,7 @@
 		<assert id="OPP-105-Business_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPP-105-Business_WS</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0208" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-BT-00506-0208</assert>
+		<assert id="BR-BT-00506-0208" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;''*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;''*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-BT-00506-0208</assert>
 		<assert id="BT-506-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cac:Contact/cbc:Name">
@@ -95,7 +95,7 @@
 		<assert id="BT-510_a_-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-510_a_-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:BusinessParty/cbc:WebsiteURI">
-		<assert id="BR-BT-00505-0244" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00505-0244</assert>
+		<assert id="BR-BT-00505-0244" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00505-0244</assert>
 		<assert id="BT-505-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-505-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cac:ContractingActivity[cbc:ActivityTypeCode/@listName='authority-activity']/cbc:ActivityTypeCode[@listName='authority-activity']">
@@ -134,7 +134,7 @@
 		<assert id="OPT-030-Procedure-SProvider_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-030-Procedure-SProvider_WS</assert>
 	</rule>
 	<rule context="/*/cac:ContractingParty/cbc:BuyerProfileURI">
-		<assert id="BR-BT-00508-0053" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00508-0053</assert>
+		<assert id="BR-BT-00508-0053" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00508-0053</assert>
 		<assert id="BT-508-Procedure-Buyer_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-508-Procedure-Buyer_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProject/cac:AdditionalCommodityClassification/cbc:ItemClassificationCode">
@@ -435,7 +435,7 @@
 		<assert id="BR-BT-00767-0051" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00767-0051</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms/cbc:AuctionURI">
-		<assert id="BR-BT-00123-0053" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00123-0053</assert>
+		<assert id="BR-BT-00123-0053" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00123-0053</assert>
 		<assert id="BT-123-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-123-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:AuctionTerms/cbc:Description">
@@ -547,7 +547,7 @@
 		<assert id="BR-BT-00131-0104" role="ERROR" test="matches(normalize-space(.),'^(([01][0-9]|2[0-3])((:[0-5][0-9]){1,2}(\.[0-9]+)?)?)(Z|[-+]((0[0-9]|1[0-3]):([03]0|45)|14:00))$')">rule|text|BR-BT-00131-0104</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cbc:AccessToolsURI">
-		<assert id="BR-BT-00124-0103" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00124-0103</assert>
+		<assert id="BR-BT-00124-0103" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00124-0103</assert>
 		<assert id="BT-124-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-124-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cbc:CandidateReductionConstraintIndicator">
@@ -906,11 +906,11 @@
 		<assert id="BR-BT-00120-0053" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00120-0053</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI">
-		<assert id="BR-BT-00615-0112" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00615-0112</assert>
+		<assert id="BR-BT-00615-0112" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00615-0112</assert>
 		<assert id="BT-615-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-615-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI">
-		<assert id="BR-BT-00015-0112" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00015-0112</assert>
+		<assert id="BR-BT-00015-0112" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00015-0112</assert>
 		<assert id="BT-15-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-15-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType">
@@ -1005,7 +1005,7 @@
 		<assert id="BT-47-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-47-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
-		<assert id="BR-OPT-00130-0105" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-OPT-00130-0105</assert>
+		<assert id="BR-OPT-00130-0105" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-OPT-00130-0105</assert>
 		<assert id="OPT-130-Lot-EmployLegis_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPT-130-Lot-EmployLegis_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
@@ -1020,7 +1020,7 @@
 		<assert id="OPT-113-Lot-EmployLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-113-Lot-EmployLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
-		<assert id="BR-OPT-00120-0105" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-OPT-00120-0105</assert>
+		<assert id="BR-OPT-00120-0105" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-OPT-00120-0105</assert>
 		<assert id="OPT-120-Lot-EnvironLegis_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPT-120-Lot-EnvironLegis_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
@@ -1035,7 +1035,7 @@
 		<assert id="OPT-112-Lot-EnvironLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-112-Lot-EnvironLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
-		<assert id="BR-OPT-00110-0105" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-OPT-00110-0105</assert>
+		<assert id="BR-OPT-00110-0105" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-OPT-00110-0105</assert>
 		<assert id="OPT-110-Lot-FiscalLegis_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPT-110-Lot-FiscalLegis_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
@@ -1104,7 +1104,7 @@
 		<assert id="BR-OPT-00301-1469" role="ERROR" test="normalize-space(.) = ('organization', 'touchpoint')">rule|text|BR-OPT-00301-1469</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderRecipientParty/cbc:EndpointID">
-		<assert id="BR-BT-00018-0155" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00018-0155</assert>
+		<assert id="BR-BT-00018-0155" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00018-0155</assert>
 		<assert id="BT-18-Lot_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-18-Lot_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:TenderValidityPeriod/cbc:DurationMeasure">
@@ -1696,7 +1696,7 @@
 		<assert id="BT-1251-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 30">rule|text|BT-1251-Part_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cbc:AccessToolsURI">
-		<assert id="BR-BT-00124-0104" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00124-0104</assert>
+		<assert id="BR-BT-00124-0104" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00124-0104</assert>
 		<assert id="BT-124-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-124-Part_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cbc:GovernmentAgreementConstraintIndicator">
@@ -1738,11 +1738,11 @@
 		<assert id="BR-OPT-00301-1475" role="ERROR" test="normalize-space(.) = ('organization', 'touchpoint')">rule|text|BR-OPT-00301-1475</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI">
-		<assert id="BR-BT-00615-0113" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00615-0113</assert>
+		<assert id="BR-BT-00615-0113" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00615-0113</assert>
 		<assert id="BT-615-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-615-Part_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI">
-		<assert id="BR-BT-00015-0113" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00015-0113</assert>
+		<assert id="BR-BT-00015-0113" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00015-0113</assert>
 		<assert id="BT-15-Part_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-15-Part_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cbc:DocumentType">
@@ -1778,7 +1778,7 @@
 		<assert id="BR-OPT-00301-1471" role="ERROR" test="normalize-space(.) = ('organization', 'touchpoint')">rule|text|BR-OPT-00301-1471</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
-		<assert id="BR-OPT-00130-0106" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-OPT-00130-0106</assert>
+		<assert id="BR-OPT-00130-0106" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-OPT-00130-0106</assert>
 		<assert id="OPT-130-Part-EmployLegis_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPT-130-Part-EmployLegis_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EmploymentLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
@@ -1793,7 +1793,7 @@
 		<assert id="OPT-113-Part-EmployLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-113-Part-EmployLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
-		<assert id="BR-OPT-00120-0106" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-OPT-00120-0106</assert>
+		<assert id="BR-OPT-00120-0106" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-OPT-00120-0106</assert>
 		<assert id="OPT-120-Part-EnvironLegis_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPT-120-Part-EnvironLegis_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:EnvironmentalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
@@ -1808,7 +1808,7 @@
 		<assert id="OPT-112-Part-EnvironLegis_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-112-Part-EnvironLegis_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:Attachment/cac:ExternalReference/cbc:URI">
-		<assert id="BR-OPT-00110-0106" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-OPT-00110-0106</assert>
+		<assert id="BR-OPT-00110-0106" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-OPT-00110-0106</assert>
 		<assert id="OPT-110-Part-FiscalLegis_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPT-110-Part-FiscalLegis_length</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:FiscalLegislationDocumentReference/cac:IssuerParty/cac:PartyIdentification/cbc:ID">
@@ -1849,7 +1849,7 @@
 		<assert id="BT-137-Part_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-137-Part_WS</assert>
 	</rule>
 	<rule context="/*/cac:SenderParty/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-OPP-00131-0051" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-OPP-00131-0051</assert>
+		<assert id="BR-OPP-00131-0051" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;''*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;''*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-OPP-00131-0051</assert>
 		<assert id="OPP-131-Business_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|OPP-131-Business_length</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
@@ -2201,7 +2201,7 @@
 		<assert id="BR-BT-00788-0051" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00788-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/cbc:URI">
-		<assert id="BR-BT-00794-0052" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00794-0052</assert>
+		<assert id="BR-BT-00794-0052" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00794-0052</assert>
 		<assert id="BT-794-Review_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-794-Review_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Appeals/efac:AppealInformation/efac:AppealDecision/efbc:DecisionTypeCode">
@@ -3254,7 +3254,7 @@
 		<assert id="BR-BT-00721-0051" role="ERROR" test="normalize-space(.) = ('BUL', 'CES', 'DAN', 'DEU', 'ELL', 'ENG', 'EST', 'FIN', 'FRA', 'GLE', 'HRV', 'HUN', 'ITA', 'LAV', 'LIT', 'MLT', 'NLD', 'POL', 'POR', 'RON', 'SLK', 'SLV', 'SPA', 'SWE')">rule|text|BR-BT-00721-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cbc:URI">
-		<assert id="BR-BT-00151-0053" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00151-0053</assert>
+		<assert id="BR-BT-00151-0053" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00151-0053</assert>
 		<assert id="BT-151-Contract_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-151-Contract_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:ContractReference/cbc:ID">
@@ -3337,7 +3337,7 @@
 		<assert id="OPP-070-notice_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPP-070-notice_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0052" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-BT-00506-0052</assert>
+		<assert id="BR-BT-00506-0052" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;''*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;''*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-BT-00506-0052</assert>
 		<assert id="BT-506-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-Organization-Company_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:Contact/cbc:Name">
@@ -3394,11 +3394,11 @@
 		<assert id="BT-510_a_-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-510_a_-Organization-Company_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cbc:EndpointID">
-		<assert id="BR-BT-00509-0105" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00509-0105</assert>
+		<assert id="BR-BT-00509-0105" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00509-0105</assert>
 		<assert id="BT-509-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-509-Organization-Company_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cbc:WebsiteURI">
-		<assert id="BR-BT-00505-0245" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00505-0245</assert>
+		<assert id="BR-BT-00505-0245" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00505-0245</assert>
 		<assert id="BT-505-Organization-Company_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-505-Organization-Company_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/efbc:CompanySizeCode">
@@ -3407,7 +3407,7 @@
 		<assert id="BT-165-Organization-Company_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-165-Organization-Company_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0104" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-BT-00506-0104</assert>
+		<assert id="BR-BT-00506-0104" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;''*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;''*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-BT-00506-0104</assert>
 		<assert id="BT-506-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cac:Contact/cbc:Name">
@@ -3461,11 +3461,11 @@
 		<assert id="BT-510_a_-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-510_a_-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cbc:EndpointID">
-		<assert id="BR-BT-00509-0106" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00509-0106</assert>
+		<assert id="BR-BT-00509-0106" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00509-0106</assert>
 		<assert id="BT-509-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-509-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:TouchPoint/cbc:WebsiteURI">
-		<assert id="BR-BT-00505-0246" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@\&quot;\(\)&amp;]+')">rule|text|BR-BT-00505-0246</assert>
+		<assert id="BR-BT-00505-0246" role="ERROR" test="matches(normalize-space(.),'((^(http|HTTP|https|HTTPS|ftp|FTP|ftps|FTPS|sftp|SFTP)://)|(^(w|W){3}([0-9])?\.))[\p{L}\p{N}\?!\./:;,\-_=#+*%@&quot;\(\)&amp;]+')">rule|text|BR-BT-00505-0246</assert>
 		<assert id="BT-505-Organization-TouchPoint_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-505-Organization-TouchPoint_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:UltimateBeneficialOwner/cbc:ID">
@@ -3489,7 +3489,7 @@
 		<assert id="BR-BT-00633-0051" role="ERROR" test="normalize-space(.) = ('false', 'true')">rule|text|BR-BT-00633-0051</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:ElectronicMail">
-		<assert id="BR-BT-00506-0156" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;\'*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-BT-00506-0156</assert>
+		<assert id="BR-BT-00506-0156" role="ERROR" test="matches(normalize-space(.),'^[\p{L}\p{N}!#$%&amp;''*+/=?_-]+(\.[\p{L}\p{N}!#$%&amp;''*+/=?_-]+)*@([\p{L}\p{N}]([\p{L}\p{N}_-]*[\p{L}\p{N}])?\.)+([\p{L}\p{N}]{2,})$')">rule|text|BR-BT-00506-0156</assert>
 		<assert id="BT-506-UBO_length" role="ERROR" test="string-length(normalize-space(.)) le 400">rule|text|BT-506-UBO_length</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:UltimateBeneficialOwner/cac:Contact/cbc:Telefax">
