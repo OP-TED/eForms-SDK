@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Nome dello schema utilizzato per esprimere l'identificatore tecnico dell'offerta: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Identificatore tecnico del risultato del lotto, deve seguire il seguente schema: 'RES-xxxx'. È utilizzato per i riferimenti incrociati.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Nome dello schema utilizzato per esprimere l'identificatore tecnico del risultato del lotto: 'result'</entry>
-<entry key="field|description|OPT-999">Elemento di data fittizio richiesto dallo schema. Sarà sempre '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Elemento di data fittizio richiesto dallo schema. Sarà sempre '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">La legge applicabile se l'appalto coinvolge committenti di paesi diversi.</entry>
 <entry key="field|hint|BT-1375-Procedure">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Aggiungere tutti i lotti che si desidera includere nel gruppo di lotti.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">ID tecnico dell'offerta</entry>
 <entry key="field|name|OPT-322-LotResult">ID tecnico del risultato del lotto (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">ID tecnico del risultato del lotto (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Data di aggiudicazione del modello di offerta</entry>
+<entry key="field|name|OPT-999-notice">Data di aggiudicazione del modello di offerta</entry>
 </properties>

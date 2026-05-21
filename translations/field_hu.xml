@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">A shéma neve, melyet az ajánlat technikai azonosítójának kifejezésére használunk: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">A tétel eredményének technikai azonosítója, melynek a következő sémát kell követnie: 'RES-xxxx'. Kereszthivatkozásokhoz használják.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">A shéma neve, melyet a tétel eredményének technikai azonosítójának kifejezésére használunk: 'result'</entry>
-<entry key="field|description|OPT-999">Sémához szükséges dummy dátum elem. Mindig '2000-01-01Z' lesz.</entry>
+<entry key="field|description|OPT-999-notice">Sémához szükséges dummy dátum elem. Mindig '2000-01-01Z' lesz.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Az alkalmazandó jog abban az esetben, ha a közbeszerzés különböző országokból származó vevőket érint.</entry>
 <entry key="field|hint|BT-1375-Procedure">Adjon hozzá annyi részt, ahányat fel kíván venni a részek csoportjába.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Adjon hozzá annyi részt, ahányat fel kíván venni a részek csoportjába.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Az ajánlat technikai azonosítója</entry>
 <entry key="field|name|OPT-322-LotResult">A tétel eredményének technikai azonosítója (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">A tétel eredményének technikai azonosítója (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Szerződés odaítélésének fiktív időpontja</entry>
+<entry key="field|name|OPT-999-notice">Szerződés odaítélésének fiktív időpontja</entry>
 </properties>

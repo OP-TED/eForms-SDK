@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Käytetty järjestelmä tarjouksen teknisen tunnisteen ilmaisemiseksi: 'tarjous'</entry>
 <entry key="field|description|OPT-322-LotResult">Erän tuloksen tekninen tunniste, joka noudattaa seuraavaa järjestelmää: 'RES-xxxx'. Sitä käytetään ristiviittauksiin.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Käytetty järjestelmä erän tuloksen teknisen tunnisteen ilmaisemiseksi: 'tulos'</entry>
-<entry key="field|description|OPT-999">Järjestelmän vaatima kuvitteellinen päivämääräelementti. On aina '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Järjestelmän vaatima kuvitteellinen päivämääräelementti. On aina '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Sovellettava lainsäädäntö, jos hankintaan osallistuu ostajia eri maista.</entry>
 <entry key="field|hint|BT-1375-Procedure">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Tarjouksen tekninen ID</entry>
 <entry key="field|name|OPT-322-LotResult">Erän tuloksen tekninen tunnus (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Erän tuloksen tekninen tunnus (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Sopimuksen tekemisen nimellinen päivämäärä</entry>
+<entry key="field|name|OPT-999-notice">Sopimuksen tekemisen nimellinen päivämäärä</entry>
 </properties>

@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Nazwa schematu używana do wyrażenia technicznego identyfikatora oferty: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Techniczny identyfikator wyniku działki, powinien przestrzegać tego schematu: 'RES-xxxx'. Używany do odniesień krzyżowych.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Nazwa schematu używana do wyrażenia technicznego identyfikatora wyniku działki: 'result'</entry>
-<entry key="field|description|OPT-999">Wymagany przez schemat element daty zastępczej. Zawsze będzie '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Wymagany przez schemat element daty zastępczej. Zawsze będzie '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Prawo mające zastosowanie w przypadku, gdy zamówienie obejmuje nabywców z różnych krajów.</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodaj tyle części zamówienia, ile chcesz uwzględnić w grupie części zamówienia.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Techniczne ID oferty</entry>
 <entry key="field|name|OPT-322-LotResult">Techniczne ID wyniku partii (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Techniczne ID wyniku partii (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fikcyjna data przyznania oferty</entry>
+<entry key="field|name|OPT-999-notice">Fikcyjna data przyznania oferty</entry>
 </properties>
