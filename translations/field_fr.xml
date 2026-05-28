@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Nom du schéma utilisé pour exprimer l'identifiant technique de l'offre: 'offre'</entry>
 <entry key="field|description|OPT-322-LotResult">Identifiant technique du résultat du lot, doit suivre le schéma suivant: 'RES-xxxx'. Est utilisé pour les références croisées.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Nom du schéma utilisé pour exprimer l'identifiant technique du résultat du lot: 'résultat'</entry>
-<entry key="field|description|OPT-999">Élément de date factice requis par le schéma. Sera toujours '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Élément de date factice requis par le schéma. Sera toujours '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Le droit applicable si le marché fait intervenir des acheteurs de différents pays.</entry>
 <entry key="field|hint|BT-1375-Procedure">Ajoutez autant de lots que vous souhaitez inclure dans le groupe de lots.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Ajoutez autant de lots que vous souhaitez inclure dans le groupe de lots.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">ID technique de l'offre</entry>
 <entry key="field|name|OPT-322-LotResult">ID technique du résultat du lot (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">ID technique du résultat du lot (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Date fictive d’attribution du marché</entry>
+<entry key="field|name|OPT-999-notice">Date fictive d’attribution du marché</entry>
 </properties>

@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Name des Schemas, das zur Ausdruck des technischen Identifikators des Angebots verwendet wird: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Technischer Identifikator des Losergebnisses, muss dem folgenden Schema folgen: 'RES-xxxx'. Wird für Querverweise verwendet.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Name des Schemas, das zur Ausdruck des technischen Identifikators des Losergebnisses verwendet wird: 'result'</entry>
-<entry key="field|description|OPT-999">Dummy-Datenelement, das vom Schema benötigt wird. Wird immer '2000-01-01Z' sein.</entry>
+<entry key="field|description|OPT-999-notice">Dummy-Datenelement, das vom Schema benötigt wird. Wird immer '2000-01-01Z' sein.</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Anzuwendendes Recht bei Beteiligung von Beschaffern aus verschiedenen Ländern an der Auftragsvergabe.</entry>
 <entry key="field|hint|BT-1375-Procedure">Fügen Sie so viele Lose hinzu, wie Sie in die Gruppe der Lose aufnehmen möchten.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Fügen Sie so viele Lose hinzu, wie Sie in die Gruppe der Lose aufnehmen möchten.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Technische ID des Angebots</entry>
 <entry key="field|name|OPT-322-LotResult">Technische ID des Losergebnisses (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Technische ID des Losergebnisses (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fiktives Datum der Vergabe eines Angebots</entry>
+<entry key="field|name|OPT-999-notice">Fiktives Datum der Vergabe eines Angebots</entry>
 </properties>

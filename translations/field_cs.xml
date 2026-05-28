@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Název schématu použitého k vyjádření technického identifikátoru nabídky: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Technický identifikátor výsledku části, musí následovat následující schéma: 'RES-xxxx'. Je použit pro křížové odkazy.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Název schématu použitého k vyjádření technického identifikátoru výsledku části: 'result'</entry>
-<entry key="field|description|OPT-999">Dummy element data vyžadovaný schématem. Bude vždy '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Dummy element data vyžadovaný schématem. Bude vždy '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Rozhodné právo, pokud se zakázka týká kupujících z různých zemí.</entry>
 <entry key="field|hint|BT-1375-Procedure">Přidejte tolik částí, kolik si přejete zahrnout do skupiny částí.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Přidejte tolik částí, kolik si přejete zahrnout do skupiny částí.</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Technické ID nabídky</entry>
 <entry key="field|name|OPT-322-LotResult">Technické ID výsledku dílu (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Technické ID výsledku dílu (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fiktivní datum zadání zakázky</entry>
+<entry key="field|name|OPT-999-notice">Fiktivní datum zadání zakázky</entry>
 </properties>
