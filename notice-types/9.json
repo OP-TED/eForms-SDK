@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.14.0",
+  "sdkVersion" : "1.15.0-alpha.3",
   "metadataDatabase" : {
-    "version" : "1.14.1",
-    "createdOn" : "2025-12-02T14:47:40"
+    "version" : "1.14.35",
+    "createdOn" : "2026-05-28T16:23:50"
   },
   "noticeId" : "9",
   "metadata" : [ {
@@ -128,7 +128,7 @@
       "displayType" : "GROUP",
       "description" : "Contracting Party related Information (URL, Legal Type, Contracting Type, Activity, …)",
       "_label" : "group|name|GR-ContractingAuthority",
-      "businessEntityId" : "buyer",
+      "businessEntityId" : "Buyer",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ContractingAuthority-Buyer",
@@ -181,6 +181,7 @@
         "displayType" : "GROUP",
         "description" : "Provided Service (code) and Provider (Reference to Organization)",
         "_label" : "group|name|GR-Procedure-SProvider",
+        "businessEntityId" : "ServiceProvider",
         "_repeatable" : true,
         "content" : [ {
           "id" : "OPT-300-Procedure-SProvider",
@@ -357,7 +358,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(m)-Procedure"
+            "_label" : "field|name|BT-26(m)-Procedure",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-262-Procedure",
             "contentType" : "field",
@@ -378,7 +381,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(a)-Procedure"
+            "_label" : "field|name|BT-26(a)-Procedure",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-263-Procedure",
             "contentType" : "field",
@@ -464,6 +469,7 @@
         "displayType" : "GROUP",
         "description" : "Exclusion Grounds Source",
         "_label" : "group|name|GR-Procedure-ExclusionGrounds-Source",
+        "businessEntityId" : "ExclusionGroundsSource",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-806-Procedure",
@@ -479,6 +485,7 @@
         "displayType" : "GROUP",
         "description" : "Exclusion Grounds (Code & Description)",
         "_label" : "group|name|GR-Procedure-ExclusionGrounds",
+        "businessEntityId" : "ExclusionGrounds",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-67(a)-Procedure",
@@ -529,6 +536,7 @@
         "displayType" : "GROUP",
         "description" : "Properties (Type, Relaunch, Termination, tendering for all lots) of the Tendering Process of the Procurement Procedure as a whole",
         "_label" : "group|name|GR-Procedure-Procedure",
+        "businessEntityId" : "Procedure",
         "content" : [ {
           "id" : "BT-88-Procedure",
           "contentType" : "field",
@@ -576,6 +584,7 @@
         "displayType" : "GROUP",
         "description" : "Composition of a given Group of lots",
         "_label" : "group|name|GR-Procedure-GroupComposition",
+        "businessEntityId" : "GroupComposition",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-330-Procedure",
@@ -631,7 +640,7 @@
     "_label" : "group|name|GR-Lot",
     "_idScheme" : "LOT",
     "_schemeName" : "Lot",
-    "businessEntityId" : "lot",
+    "businessEntityId" : "Lot",
     "_identifierFieldId" : "BT-137-Lot",
     "_captionFieldId" : "BT-21-Lot",
     "_repeatable" : true,
@@ -760,7 +769,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(m)-Lot"
+            "_label" : "field|name|BT-26(m)-Lot",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-262-Lot",
             "contentType" : "field",
@@ -781,7 +792,9 @@
             "contentType" : "field",
             "displayType" : "COMBOBOX",
             "description" : "Classification Type (e.g. CPV)",
-            "_label" : "field|name|BT-26(a)-Lot"
+            "_label" : "field|name|BT-26(a)-Lot",
+            "_presetValue" : "cpv",
+            "hidden" : true
           }, {
             "id" : "BT-263-Lot",
             "contentType" : "field",
@@ -803,6 +816,7 @@
           "displayType" : "GROUP",
           "description" : "Information (Description) about Strategic Procurement Type",
           "_label" : "group|name|GR-Lot-ProcurementType-Strategic",
+          "businessEntityId" : "StrategicProcurementType",
           "_repeatable" : true,
           "content" : [ {
             "id" : "BT-06-Lot",
@@ -1063,6 +1077,7 @@
         "displayType" : "GROUP",
         "description" : "Funding for a given Lot",
         "_label" : "group|name|GR-Lot-EUFunds",
+        "businessEntityId" : "EUFunding",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-7220-Lot",
@@ -1283,6 +1298,7 @@
         "displayType" : "GROUP",
         "description" : "Selection Criteria including the ones for 2nd stage (Type, Name, Description, Use, Parameters)",
         "_label" : "group|name|GR-Lot-SelectionCriteria",
+        "businessEntityId" : "SelectionCriterion",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-809-Lot",
@@ -1335,6 +1351,7 @@
             "displayType" : "GROUP",
             "description" : "Second Stage Threshold Criterion Parameter",
             "_label" : "group|name|GR-Lot-SelectionCriteria-SecondStageInvite-Threshold",
+            "businessEntityId" : "SecondStageThresholdParameter",
             "_repeatable" : true,
             "content" : [ {
               "id" : "BT-7532-Lot",
@@ -1505,6 +1522,7 @@
         "displayType" : "GROUP",
         "description" : "Prize related information",
         "_label" : "group|name|GR-Lot-PrizeInformation",
+        "businessEntityId" : "Prize",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-44-Lot",
@@ -1861,6 +1879,7 @@
         "displayType" : "GROUP",
         "description" : "Subcontract Terms",
         "_label" : "group|name|GR-Lot-SubcontractTerms",
+        "businessEntityId" : "SubcontractingObligation",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-65-Lot",
@@ -2236,7 +2255,7 @@
     "_label" : "group|name|GR-LotsGroup",
     "_idScheme" : "GLO",
     "_schemeName" : "LotsGroup",
-    "businessEntityId" : "groupOfLots",
+    "businessEntityId" : "LotsGroup",
     "_identifierFieldId" : "BT-137-LotsGroup",
     "_captionFieldId" : "BT-21-LotsGroup",
     "_repeatable" : true,
@@ -2489,6 +2508,7 @@
       "displayType" : "GROUP",
       "description" : "Information associated to a single Change (Section, Description & Procurement Documents)",
       "_label" : "group|name|GR-ChangeSections",
+      "businessEntityId" : "Change",
       "_repeatable" : true,
       "content" : [ {
         "id" : "GR-ChangedSectionIdentifiers",
@@ -2497,6 +2517,7 @@
         "displayType" : "GROUP",
         "description" : "Section subject to change",
         "_label" : "group|name|GR-ChangedSectionIdentifiers",
+        "businessEntityId" : "ChangedSection",
         "_repeatable" : true,
         "content" : [ {
           "id" : "BT-13716-notice",
@@ -2541,7 +2562,7 @@
       "_label" : "group|name|GR-Organisations",
       "_idScheme" : "ORG",
       "_schemeName" : "organization",
-      "businessEntityId" : "organization",
+      "businessEntityId" : "Organisation",
       "_identifierFieldId" : "OPT-200-Organization-Company",
       "_captionFieldId" : "BT-500-Organization-Company",
       "_repeatable" : true,
@@ -2714,7 +2735,7 @@
         "_label" : "group|name|GR-Touch-Point",
         "_idScheme" : "TPO",
         "_schemeName" : "touchpoint",
-        "businessEntityId" : "touchpoint",
+        "businessEntityId" : "Touchpoint",
         "_identifierFieldId" : "OPT-201-Organization-TouchPoint",
         "_captionFieldId" : "BT-500-Organization-TouchPoint",
         "_repeatable" : true,
