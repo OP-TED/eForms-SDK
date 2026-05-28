@@ -4,8 +4,9 @@
    <Identification>
       <ShortName>InternationalProcurementInstrumentMeasure</ShortName>
       <LongName>international-procurement-instrument-measure</LongName>
-      <Version>1.0</Version>
-      <CanonicalUri/>
+      <LongName Identifier="listId">http://publications.europa.eu/resource/authority/international-procurement-instrument-measure</LongName>
+      <Version>20251210-0</Version>
+      <CanonicalUri>http://publications.europa.eu/resource/dataset/international-procurement-instrument-measure</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
          <ShortName>OP</ShortName>
@@ -124,7 +125,7 @@
             <SimpleValue>32025R1197</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Regulation (EU) 2025/1197: Medical devices originating in the People’s Republic of China</SimpleValue>
+            <SimpleValue>Medical devices originating in China – Regulation (EU) 2025/1197</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>Медицински изделия с произход от Китай — Регламент (ЕС) 2025/1197</SimpleValue>
@@ -151,7 +152,7 @@
             <SimpleValue>Hiinast pärit meditsiiniseadmed – määrus (EL) 2025/1197</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Kiinan kansantasavallasta peräisin olevat lääkinnälliset laitteet — Asetus (EU) 2025/1197</SimpleValue>
+            <SimpleValue>Kiinan kansantasavallasta peräisin olevat lääkinnälliset laitteet  —  Asetus (EU) 2025/1197</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
             <SimpleValue>Dispositifs médicaux originaires de Chine — règlement (UE) 2025/1197</SimpleValue>
