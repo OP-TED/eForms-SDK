@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">The name of the locality (city, town, or village) of the place of performance.</entry>
 <entry key="business-term|description|BT-514">The country of the organisation's physical address.</entry>
 <entry key="business-term|description|BT-5141">The country of the place of performance.</entry>
-<entry key="business-term|description|BT-52">The procedure will take place in successive stages. In each stage, some participants may be eliminated.</entry>
+<entry key="business-term|description|BT-52">The procedure will take place in successive stages. After the second stage, some participants may be eliminated in each following stage.</entry>
 <entry key="business-term|description|BT-53">The buyer reserves the right (not an obligation) for additional purchases from the contractor (while the contract is valid).</entry>
 <entry key="business-term|description|BT-531">The nature (e.g. services) of what is being bought, additional to Main Nature.</entry>
 <entry key="business-term|description|BT-536">The (estimated) date when the contract, framework agreement, dynamic purchasing system or qualification system will start.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Additional information about the non-disclosure agreement.</entry>
 <entry key="business-term|description|BT-803">The date and time the notice was transmitted electronically by the eSender to the Publications Office of the European Union</entry>
 <entry key="business-term|description|BT-805">The procurement procedure includes the use of established green public procurement criteria (selection criteria, technical specifications, award criteria and contract performance clauses), at national, Union or other level, if applicable.</entry>
-<entry key="business-term|description|BT-806">Where the exclusions grounds are described, for example, the procurement documents, the notice or in the ESPD.</entry>
+<entry key="business-term|description|BT-806">Where the exclusions grounds are described, for example, the procurement documents, the notice or in the ESPD request.</entry>
 <entry key="business-term|description|BT-809">The selection criterion.</entry>
 <entry key="business-term|description|BT-810">The Energy Efficiency Directive (EED) (EU) 2023/1791 is applicable for this procurement procedure.</entry>
 <entry key="business-term|description|BT-811">Selection of products, works and services covered by the Energy Labelling Directive, by the Ecodesign Directive, by Union green public procurement criteria, by Regulation 2020/740. For reporting purposes, buildings covered by the obligation in Article 7 EED are also included. As the list has two levels, it is split into (a) the basis like "Eco label" and (b) the actual item like "Dishwashers".</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">The value of Energy consumption in kWh/year for products for which no label exists, and energy savings in kWh/year for services, buildings or works. For products please report the yearly energy consumption of the product. For services, works and buildings please report the yearly energy savings.</entry>
 <entry key="business-term|description|BT-814">The value of energy savings in kWh/year for products, services, works and buildings. Please report the yearly energy savings.</entry>
 <entry key="business-term|description|BT-815">The quantity provided or estimated. For products please report the number of products. For buildings, please report the useful floor area in square metres. For works or services, the value will usually be 1.</entry>
-<entry key="business-term|description|BT-821">Where the selection criteria are defined, for example, the procurement documents, the notice or in the ESPD.</entry>
+<entry key="business-term|description|BT-821">Where the selection criteria are defined, for example, the procurement documents, the notice or in the ESPD request.</entry>
 <entry key="business-term|description|BT-88">The main features of the procedure (e.g. description of the individual stage(s)) and information about where the full rules for the procedure can be found. This information shall be given when the procedure is not one of those mentioned in the procurement Directives. This can be the case for example for concessions, for social and other specific services, and in case of voluntary publication of procurement procedures below the EU procurement thresholds.</entry>
 <entry key="business-term|description|BT-92">Electronic ordering will be used.</entry>
 <entry key="business-term|description|BT-93">Electronic payment will be used.</entry>
@@ -480,7 +480,7 @@
 <entry key="business-term|name|BT-163">Method used for calculating the estimated value of the concession</entry>
 <entry key="business-term|name|BT-165">Size of the economic operator</entry>
 <entry key="business-term|name|BT-17">Electronic submission</entry>
-<entry key="business-term|name|BT-171">Rank in the list of winners</entry>
+<entry key="business-term|name|BT-171">Rank of the tender</entry>
 <entry key="business-term|name|BT-1711">The tender was ranked</entry>
 <entry key="business-term|name|BT-18">Address for submission</entry>
 <entry key="business-term|name|BT-19">Justification for why electronic submission is not possible</entry>

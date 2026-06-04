@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Název města místa plnění.</entry>
 <entry key="business-term|description|BT-514">Země fyzické adresy organizace.</entry>
 <entry key="business-term|description|BT-5141">Země místa plnění.</entry>
-<entry key="business-term|description|BT-52">Řízení probíhá v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni.</entry>
+<entry key="business-term|description|BT-52">Řízení bude probíhat v postupných fázích. Po druhé fázi mohou být v každé následující fázi někteří účastníci vyloučeni.</entry>
 <entry key="business-term|description|BT-53">Kupující si vyhrazuje právo (není povinné) zadat zhotoviteli, dodavateli nebo poskytovateli další zakázky (po dobu platnosti zakázky).</entry>
 <entry key="business-term|description|BT-531">Povaha předmětu zakázky (např. služeb), která doplňuje hlavní povahu.</entry>
 <entry key="business-term|description|BT-536">(Odhadované) datum zahájení zakázky, rámcové dohody, dynamického nákupního systému nebo systému kvalifikace.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Další informace o dohodě o zachování mlčenlivosti.</entry>
 <entry key="business-term|description|BT-803">Datum a čas, kdy eSender oznámení elektronicky předal Úřadu pro publikace Evropské unie.</entry>
 <entry key="business-term|description|BT-805">Zadávací řízení zahrnuje použití zavedených kritérií zelených veřejných zakázek (kritéria pro výběr, technické specifikace, kritéria pro zadání a ustanovení o plnění smlouvy) na vnitrostátní, unijní či jiné úrovni, pokud existují.</entry>
-<entry key="business-term|description|BT-806">Jsou-li důvody pro vyloučení popsány, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
+<entry key="business-term|description|BT-806">Jsou-li důvody pro vyloučení popsány, například v zadávací dokumentaci, v oznámení nebo v ESPD žádost.</entry>
 <entry key="business-term|description|BT-809">Kritérium výběru</entry>
 <entry key="business-term|description|BT-810">Směrnice o energetické účinnosti (EU) 2023/1791 se vztahuje na toto zadávací řízení.</entry>
 <entry key="business-term|description|BT-811">Výběr výrobků, stavebních prací a služeb, na něž se vztahuje směrnice o energetických štítcích, směrnice o ekodesignu, kritéria Unie pro zelené veřejné zakázky, nařízení 2020/740. Pro účely podávání zpráv se zahrnují i budovy, na něž se vztahuje povinnost podle článku 7 směrnice o energetické účinnosti. Vzhledem k tomu, že seznam má dvě úrovně, je rozdělen na a) základ jako „ekoznačka“ a b) vlastní položku jako „myčky nádobí“.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Hodnota spotřeby energie v kWh/rok pro výrobky, pro které neexistuje štítek, a úspory energie v kWh/rok pro služby, budovy nebo práce. Pro výrobky prosím nahláste roční spotřebu energie výrobku. Pro služby, práce a budovy prosím nahláste roční úspory energie.</entry>
 <entry key="business-term|description|BT-814">Hodnota úspor energie v kWh/rok u výrobků, služeb, stavebních prací a budov. Uveďte roční úspory energie.</entry>
 <entry key="business-term|description|BT-815">Poskytnuté nebo odhadované množství. V případě produktů uveďte počet produktů. V případě budov uveďte užitnou podlahovou plochu v metrech čtverečních. Pro stavební práce nebo služby bude hodnota obvykle 1.</entry>
-<entry key="business-term|description|BT-821">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
+<entry key="business-term|description|BT-821">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD žádost.</entry>
 <entry key="business-term|description|BT-88">Hlavní rysy řízení (např. popis jednotlivých fází) a informace, kde lze nalézt úplné znění pravidel. Tyto informace se uvedou, jedná-li se o řízení, které není uvedeno ve směrnicích o zadávání veřejných zakázek. Jedná se například o koncese na sociální a jiné specifické služby a případy dobrovolného uveřejnění zadávacích řízení nedosahujících finančních limitů EU pro veřejné zakázky.</entry>
 <entry key="business-term|description|BT-92">Budou používány elektronické objednávky.</entry>
 <entry key="business-term|description|BT-93">Bude použita elektronická platba</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metoda použitá pro výpočet odhadované hodnoty koncese</entry>
 <entry key="business-term|name|BT-165">Velikost hospodářského subjektu</entry>
 <entry key="business-term|name|BT-17">Elektronické podání</entry>
-<entry key="business-term|name|BT-171">Řazení na seznamu vítězů</entry>
+<entry key="business-term|name|BT-171">Pořadí nabídky</entry>
 <entry key="business-term|name|BT-1711">Nabídka byla hodnocena</entry>
 <entry key="business-term|name|BT-18">Adresa pro podání</entry>
 <entry key="business-term|name|BT-19">Odůvodnění, proč elektronické podání není možné</entry>

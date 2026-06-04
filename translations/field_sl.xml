@@ -738,7 +738,7 @@
 <entry key="field|description|BT-5141-Part-List">Koda države kraja izvedbe.</entry>
 <entry key="field|description|BT-5141-Procedure">Koda države kraja izvedbe.</entry>
 <entry key="field|description|BT-5141-Procedure-List">Koda države kraja izvedbe.</entry>
-<entry key="field|description|BT-52-Lot">Postopek bo potekal v več stopnjah. Na vsaki stopnji se lahko nekaj udeležencev izloči.</entry>
+<entry key="field|description|BT-52-Lot">Postopek bo potekal v zaporednih fazah. Po drugi fazi je mogoče v vsaki naslednji fazi izločiti nekatere udeležence.</entry>
 <entry key="field|description|BT-531-Lot">Vrsta (npr. storitve) predmeta nakupa poleg glavne vrste.</entry>
 <entry key="field|description|BT-531-Lot-List">Vrsta (npr. storitve) predmeta nakupa poleg glavne vrste.</entry>
 <entry key="field|description|BT-531-Part">Vrsta (npr. storitve) predmeta nakupa poleg glavne vrste.</entry>
@@ -1039,8 +1039,8 @@
 <entry key="field|description|BT-804-Review">Tehnični ID (REV-XXXX), ki omogoča sklicevanje na pregled. Mora biti edinstven med vsemi drugimi tehničnimi identifikatorji pregleda v okviru postopka.</entry>
 <entry key="field|description|BT-805-Lot">Postopek za oddajo javnega naročila vključuje uporabo meril za zeleno javno naročanje (pogoji za sodelovanje, tehnične specifikacije, merila za oddajo in določbe o izvedbi javnega naročila), vzpostavljenih na nacionalni, EU ali drugi ravni, če je ustrezno.</entry>
 <entry key="field|description|BT-805-Lot-List">Postopek za oddajo javnega naročila vključuje uporabo meril za zeleno javno naročanje (pogoji za sodelovanje, tehnične specifikacije, merila za oddajo in določbe o izvedbi javnega naročila), vzpostavljenih na nacionalni, EU ali drugi ravni, če je ustrezno.</entry>
-<entry key="field|description|BT-806-Procedure">Če so opisani razlogi za izključitev, npr.v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila.</entry>
-<entry key="field|description|BT-806-Procedure-List">Če so opisani razlogi za izključitev, npr.v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila.</entry>
+<entry key="field|description|BT-806-Procedure">Če so opisani razlogi za izključitev, npr.v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila zahteva.</entry>
+<entry key="field|description|BT-806-Procedure-List">Če so opisani razlogi za izključitev, npr.v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila zahteva.</entry>
 <entry key="field|description|BT-807-Review">Identifikator organa za pregled kaže na organizacijo (ORG-XXXX) ali eno od njenih alternativnih kontaktnih točk (TPO-XXXX), ki se ukvarjajo s pregledi.</entry>
 <entry key="field|description|BT-808-Review">Identifikator vlagatelja pregleda v naslednjem formatu: ORG-XXXX.</entry>
 <entry key="field|description|BT-809-Lot">Merilo za izbor.</entry>
@@ -1060,8 +1060,8 @@
 <entry key="field|description|BT-813-LotResult">Vrednost porabe energije v kWh/leto za izdelke, za katere ne obstaja nalepka, in prihranek energije v kWh/leto za storitve, zgradbe ali dela. Za izdelke prosimo, da poročate o letni porabi energije izdelka. Za storitve, dela in zgradbe prosimo, da poročate o letnem prihranku energije.</entry>
 <entry key="field|description|BT-814-LotResult">Vrednost prihrankov energije v kWh/leto za proizvode, storitve, gradbena dela in stavbe. Navedite letne prihranke energije.</entry>
 <entry key="field|description|BT-815-LotResult">Znana ali ocenjena količina. Za proizvode navedite število proizvodov. Za stavbe navedite uporabno tlorisno površino v kvadratnih metrih. Za dela ali storitve bo vrednost običajno 1.</entry>
-<entry key="field|description|BT-821-Lot">Če so opredeljena merila za izbor, npr. v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila.</entry>
-<entry key="field|description|BT-821-Lot-List">Če so opredeljena merila za izbor, npr. v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila.</entry>
+<entry key="field|description|BT-821-Lot">Če so opredeljena merila za izbor, npr. v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila zahteva.</entry>
+<entry key="field|description|BT-821-Lot-List">Če so opredeljena merila za izbor, npr. v dokumentih v zvezi z oddajo javnega naročila, obvestilu ali v enotnem evropskem dokumentu v zvezi z oddajo javnega naročila zahteva.</entry>
 <entry key="field|description|BT-88-Procedure">Glavne značilnosti postopka (npr. opis posameznih stopenj) in podatki o tem, kje je mogoče najti celotna pravila postopka. Ti podatki se navedejo, če postopek ne spada med tiste, ki so navedeni v direktivah o javnem naročanju. To je npr. lahko pri koncesijah, socialnih in drugih posebnih storitvah ter pri prostovoljni objavi postopkov za oddajo javnega naročila, ki ne dosegajo praga EU za javna naročila.</entry>
 <entry key="field|description|BT-88-Procedure-Language">Glavne značilnosti postopka (npr. opis posameznih stopenj) in podatki o tem, kje je mogoče najti celotna pravila postopka. Ti podatki se navedejo, če postopek ne spada med tiste, ki so navedeni v direktivah o javnem naročanju. To je npr. lahko pri koncesijah, socialnih in drugih posebnih storitvah ter pri prostovoljni objavi postopkov za oddajo javnega naročila, ki ne dosegajo praga EU za javna naročila.</entry>
 <entry key="field|description|BT-92-Lot">Uporabljeno bo elektronsko naročanje.</entry>
@@ -1174,7 +1174,7 @@
 <entry key="field|description|OPT-300-Contract-Signatory-Scheme">Ime sheme, uporabljene za izdelavo tehničnega ID, uporabljenega kot napotitev: 'organization'</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer">Napotitev na pravno organizacijo, ki kupuje. Napotitev se naredi z uporabo tehničnega identifikatorja organizacije.</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer-Scheme">Ime sheme, uporabljene za izdelavo tehničnega ID, uporabljenega kot napotitev: 'organization'</entry>
-<entry key="field|description|OPT-300-Procedure-SProvider">Napotitev na pravno organizacijo, ki kupcu zagotavlja storitve. Napotitev se naredi z uporabo tehničnega identifikatorja organizacije.</entry>
+<entry key="field|description|OPT-300-Procedure-SProvider">Sklicevanje na pravno organizacijo, ki kupcu zagotavlja storitve podpore pri javnem naročanju. Sklicevanje z uporabo tehnične identifikacije organizacije.</entry>
 <entry key="field|description|OPT-300-Procedure-SProvider-Scheme">Ime sheme, uporabljene za izdelavo tehničnega ID, uporabljenega kot napotitev: 'organization'</entry>
 <entry key="field|description|OPT-300-Tenderer">Napotitev na pravno organizacijo, ki sodeluje pri oddaji ponudbe in pripada oddajajoči strani. Napotitev se naredi z uporabo tehničnega identifikatorja organizacije.</entry>
 <entry key="field|description|OPT-300-Tenderer-Scheme">Ime sheme, uporabljene za izdelavo tehničnega ID, uporabljenega kot napotitev: 'organization'</entry>
@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Ime sheme, ki se uporablja za izražanje tehnične identifikacije ponudbe: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Tehnična identifikacija rezultata dela, ki bi morala slediti tej shemi: 'RES-xxxx'. Uporablja se za križne reference.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Ime sheme, ki se uporablja za izražanje tehnične identifikacije rezultata dela: 'result'</entry>
-<entry key="field|description|OPT-999">Potreben je fiktivni datumski element za shemo. Bo vedno '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Potreben je fiktivni datumski element za shemo. Bo vedno '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo, ki se uporablja, če javno naročilo vključuje kupce iz različnih držav.</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodajte toliko sklopov, kot jih želite vključiti v skupino sklopov.</entry>
@@ -1406,7 +1406,7 @@
 <entry key="field|name|BT-165-Organization-Company-List">Velikost gospodarskega subjekta</entry>
 <entry key="field|name|BT-17-Lot">Elektronska predložitev</entry>
 <entry key="field|name|BT-17-Lot-List">Elektronska predložitev</entry>
-<entry key="field|name|BT-171-Tender">Razvrstitev na seznamu zmagovalcev</entry>
+<entry key="field|name|BT-171-Tender">Uvrstitev ponudbe</entry>
 <entry key="field|name|BT-1711-Tender">Ponudba je bila razvrščena</entry>
 <entry key="field|name|BT-18-Lot">Naslov za predložitev</entry>
 <entry key="field|name|BT-19-Lot">Obrazložitev, zakaj elektronska predložitev ni mogoča</entry>
@@ -2339,11 +2339,11 @@
 <entry key="field|name|BT-810-Lot-List">EED se uporablja</entry>
 <entry key="field|name|BT-811(a)-Lot">Seznam EED (podlaga)</entry>
 <entry key="field|name|BT-811(a)-Lot-List">Seznam EED</entry>
-<entry key="field|name|BT-811(a)-LotResult">Seznam EED</entry>
+<entry key="field|name|BT-811(a)-LotResult">Seznam EED (podlaga)</entry>
 <entry key="field|name|BT-811(a)-LotResult-List">Seznam EED</entry>
 <entry key="field|name|BT-811(b)-Lot">Seznam EED (postavka)</entry>
 <entry key="field|name|BT-811(b)-Lot-List">Seznam EED</entry>
-<entry key="field|name|BT-811(b)-LotResult">Seznam EED</entry>
+<entry key="field|name|BT-811(b)-LotResult">Seznam EED (postavka)</entry>
 <entry key="field|name|BT-811(b)-LotResult-List">Seznam EED</entry>
 <entry key="field|name|BT-812-LotResult">Energijska nalepka</entry>
 <entry key="field|name|BT-812-LotResult-List">Energijska nalepka</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Tehnični ID ponudbe</entry>
 <entry key="field|name|OPT-322-LotResult">Tehnični ID rezultata sklopa (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Tehnični ID rezultata sklopa (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Datum oddaje fingirane ponudbe</entry>
+<entry key="field|name|OPT-999-notice">Datum oddaje fingirane ponudbe</entry>
 </properties>

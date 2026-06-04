@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Organisation, der behandler udbud</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Organisation, der modtager udbud</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Udbudsgyldighed</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Oplysninger om forsinket indsendelse</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Information til tilbudsgiver</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Udbudsbetingelser</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Information om Clean Vehicle Directive</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Kontrakttype i henhold til Clean Vehicle Directive</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Udbudsprocedure</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Detaljer om proceduretype</entry>
 <entry key="group|name|GR-Procedure-Purpose">Formål</entry>
-<entry key="group|name|GR-Procedure-SProvider">Tjenesteyder</entry>
+<entry key="group|name|GR-Procedure-SProvider">Udbudssystemleverandør</entry>
 <entry key="group|name|GR-Procedure-Scope">Udbuddets anvendelsesområde</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Supplerende klassificering</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Primær klassificering</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Anslåede indtægter fra brugerne af koncessionen (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Metode anvendt til beregning af den anslåede værdi af koncessionen (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Beskrivelse af koncessionsværdi (offentliggøres senere)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Rangorden på listen over vindere (offentliggøres senere)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Rangorden for udbud (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Rangorden for udbud (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Produktets eller tjenesteydelsens oprindelsesland (offentliggøres senere)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Tilbuddet er et alternativt tilbud (offentliggøres senere)</entry>

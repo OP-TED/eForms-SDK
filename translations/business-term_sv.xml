@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Namnet på den ort (stad eller by) där leveransplatsen är belägen.</entry>
 <entry key="business-term|description|BT-514">Landet där organisationen har sin fysiska adress.</entry>
 <entry key="business-term|description|BT-5141">Det land som leveransplatsen är belägen i.</entry>
-<entry key="business-term|description|BT-52">Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas.</entry>
+<entry key="business-term|description|BT-52">Förfarandet kommer att äga rum i successiva steg. Efter det andra steget kan vissa deltagare elimineras i varje följande steg.</entry>
 <entry key="business-term|description|BT-53">Köparen förbehåller sig rätten (som inte är en skyldighet) att göra ytterligare inköp från entreprenören (under kontraktets giltighetstid).</entry>
 <entry key="business-term|description|BT-531">Ytterligare upphandlingsslag (t.ex. tjänster) som upphandlingen omfattar, förutom det huvudsakliga upphandlingsslaget.</entry>
 <entry key="business-term|description|BT-536">(Beräknad) tidpunkt när kontraktet, ramavtalet, det dynamiska inköpssystemet eller kvalificeringssystemet startar.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Kompletterande information om sekretessavtalet.</entry>
 <entry key="business-term|description|BT-803">Datum och tidpunkt då meddelandet överfördes elektroniskt via eSender till Europeiska unionens publikationsbyrå.</entry>
 <entry key="business-term|description|BT-805">Upphandlingsförfarandet omfattar eventuell tillämpning av fastställda kriterier för miljömässigt hållbar upphandling (urvalskriterier, tekniska specifikationer, tilldelningskriterier och villkor för genomförande av kontraktet) på nationell nivå, unionsnivå eller någon annan nivå.</entry>
-<entry key="business-term|description|BT-806">Källa där uteslutningsgrunderna beskrivs, t.ex. upphandlingsdokumenten, meddelandet om upphandling eller det europeiska enhetliga upphandlingsdokumentet.</entry>
+<entry key="business-term|description|BT-806">Källa där uteslutningsgrunderna beskrivs, t.ex. upphandlingsdokumenten, meddelandet om upphandling eller det europeiska enhetliga upphandlingsdokumentet begäran.</entry>
 <entry key="business-term|description|BT-809">Urvalskriteriet.</entry>
 <entry key="business-term|description|BT-810">Direktiv (EU) 2023/1791 om energieffektivitet (EED) är tillämplig på det här upphandlingsförfarandet.</entry>
 <entry key="business-term|description|BT-811">Urval av produkter, byggentreprenader och tjänster som omfattas av energimärkningsdirektivet, ekodesigndirektivet, EU:s kriterier för miljöanpassad offentlig upphandling eller förordning 2020/740. När det gäller rapportering ingår också byggnader som omfattas av skyldigheten i artikel 7 i energieffektivitetsdirektivet. Listan har två nivåer och delas därför upp i a) grunder som ”Miljömärke” och b) själva artikeln, t.ex. ”Diskmaskiner”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Värdet på energiförbrukningen i kWh/år för produkter som inte har någon märkning, och energibesparing i kWh/år för tjänster, byggnader eller arbeten. För produkter, vänligen rapportera produktens årliga energiförbrukning. För tjänster, arbeten och byggnader, vänligen rapportera den årliga energibesparingen.</entry>
 <entry key="business-term|description|BT-814">Värdet på energibesparingar i kWh/år för produkter, tjänster, byggentreprenader och byggnader. Ange de årliga energibesparingarna.</entry>
 <entry key="business-term|description|BT-815">Känd eller uppskattad mängd. För produkter anger du antalet produkter. För byggnader anger du den användbara golvytan i kvadratmeter. För arbeten eller tjänster kommer värdet vanligtvis att vara 1.</entry>
-<entry key="business-term|description|BT-821">Källa där urvalskriterierna definieras, t.ex. upphandlingsdokumenten, meddelandet om upphandling eller det europeiska enhetliga upphandlingsdokumentet.</entry>
+<entry key="business-term|description|BT-821">Källa där urvalskriterierna definieras, t.ex. upphandlingsdokumenten, meddelandet om upphandling eller det europeiska enhetliga upphandlingsdokumentet begäran.</entry>
 <entry key="business-term|description|BT-88">De viktigaste kännetecknen för förfarandet (t.ex. beskrivning av det enskilda steget eller de enskilda stegen) och information om var de fullständiga reglerna för förfarandet kan hittas. Denna information ska lämnas när förfarandet inte är ett av de förfaranden som anges i upphandlingsdirektiven. Detta kan vara fallet exempelvis för koncessioner, för sociala tjänster och andra särskilda tjänster och vid frivilligt offentliggörande av upphandlingsförfaranden som ligger under EU:s tröskelvärden för upphandling.</entry>
 <entry key="business-term|description|BT-92">Elektronisk beställning kommer att användas.</entry>
 <entry key="business-term|description|BT-93">Elektronisk betalning kommer att användas.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metod som används för att få fram det beräknade värdet för koncessionen</entry>
 <entry key="business-term|name|BT-165">Storlek på den ekonomiska aktören</entry>
 <entry key="business-term|name|BT-17">Elektronisk inlämning</entry>
-<entry key="business-term|name|BT-171">Anbudets placering i tävlingen</entry>
+<entry key="business-term|name|BT-171">Anbudets rang</entry>
 <entry key="business-term|name|BT-1711">Anbudet rangordnades</entry>
 <entry key="business-term|name|BT-18">Adress för inlämning</entry>
 <entry key="business-term|name|BT-19">Motivering till varför elektronisk inlämning inte är möjlig</entry>

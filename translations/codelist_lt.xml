@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Skelbimo apie pirkimą arba koncesiją (įprasta tvarka) rūšies skelbimui leidžiamų skelbimo porūšių kodų sąrašas.</entry>
 <entry key="codelist|name|communication-justification">Šioje lentelėje pagrindžiamas prieigos prie išteklių teisės apribojimas vykdant viešuosius pirkimus.</entry>
 <entry key="codelist|name|competition">Konkurencijos formos rūšies skelbimui leidžiamų skelbimo rūšies kodų sąrašas</entry>
+<entry key="codelist|name|compl">Leidžiamų pranešimo potipių kodų sąrašas užbaigimo pranešimo tipui</entry>
+<entry key="codelist|name|completion">Leidžiamų pranešimo tipų kodų sąrašas užbaigimo formos tipui</entry>
 <entry key="codelist|name|conditions">Sąlygų kodai</entry>
+<entry key="codelist|name|consultation">Leidžiamų pranešimo tipų kodų sąrašas konsultacijos formos tipui</entry>
 <entry key="codelist|name|cont-modif">Sutarties keitimo formos rūšies skelbimui leidžiamų skelbimo rūšies kodų sąrašas</entry>
 <entry key="codelist|name|contract-detail">Šioje lentelėje pateikiama su pirkimu susijusių duomenų pateikimo sistema.</entry>
 <entry key="codelist|name|contract-nature">Kodų, naudojamų pagrindiniam ir kitiems pirkimo objektams nurodyti, sąrašas</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR įdiegia naują taisyklių rinkinį, kuris leidžia Komisijai spręsti iškraipymus, sukeltus užsienio subsidijų.</entry>
 <entry key="codelist|name|form-type">Šioje lentelėje pateikiami TED paskelbtų formų rūšies kodai ir vertės.</entry>
 <entry key="codelist|name|framework-agreement">Šioje lentelėje pateikiamas kodų, pagal kuriuos galima atskirti su pirkimu susijusias įvairių rūšių preliminariąsias sutartis, sąrašas.</entry>
+<entry key="codelist|name|fsr">Užsienio subsidijų reglamento taikymo kodų sąrašas</entry>
 <entry key="codelist|name|gpp-criteria">Žaliojo viešojo pirkimo kriterijai</entry>
 <entry key="codelist|name|indicator">E. formose leidžiamų rodiklių verčių sąrašas</entry>
 <entry key="codelist|name|innovative-acquisition">Šioje lentelėje pateikiami vykdant viešuosius pirkimus perkamų inovatyvių darbų, prekių ar paslaugų rūšiai naudojami kodai ir vertės.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Šioje lentelėje pateikiamas kodų ir reikšmių sąrašas, naudojamas nustatant išimtį taikant IPI priemonę</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Šioje lentelėje pateikiamas kodų ir reikšmių sąrašas, naudojamas nustatant taikomą IPI priemonę</entry>
+<entry key="codelist|name|ipi-scope">Ši lentelė pateikia kodų ir verčių sąrašą, naudojamą nurodyti, kad pirkimas patenka į Tarptautinio viešųjų pirkimų instrumento taikymo sritį</entry>
 <entry key="codelist|name|irregularity-type">Šiame kodų sąraše apskritai nurodomos pažeidimų rūšys, aprašytos Komisijos sprendimo C(2019) 3452 priedo 2 skirsnyje.</entry>
 <entry key="codelist|name|language">Trijų ženklų kalbų kodų, koreliuojančių su tarptautiniu standartu ISO 639, sąrašas su papildomais kai kurių kalbų, kurioms nesuteiktas ISO kodas, kodais.</entry>
 <entry key="codelist|name|lawful-country">Šalių, kurių atveju yra teisinis skelbimo „Europos Sąjungos oficialiojo leidinio“ priede pagrindas, sąrašas</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Kodų, kuriais nurodoma, ar kalbinė versija turi teisinį statusą, sąrašas.</entry>
 <entry key="codelist|name|main-activity">Pagrindinės pirkėjų veiklos kodų sąrašas.</entry>
 <entry key="codelist|name|measurement-unit">Tarptautinėje prekyboje dažniausiai naudojamų matavimo vienetų kodų sąrašas.</entry>
+<entry key="codelist|name|metric-type">Nurodytų skaičių apimamos metrikos tipo kodų sąrašas</entry>
 <entry key="codelist|name|missing-info-submission">Šioje lentelėje pateikiamas kodų, rodančių, ar informaciją apie dalyvį (visą ar dalinę) galima papildyti net ir po pateikimo termino, sąrašas.</entry>
 <entry key="codelist|name|modification-justification">Šioje lentelėje pateikiamos pagrindinės viešųjų pirkimų srities sutarties keitimo priežastys.</entry>
 <entry key="codelist|name|nda">Kodų, kuriais nurodoma, ar būtinas konfidencialumo susitarimas, sąrašas.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Slovėnijos 3 lygio NUTS kodų sąrašas</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Švedijos 3 lygio NUTS kodų sąrašas</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Turkijos 3 lygio NUTS kodų sąrašas</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Ukrainos 3 lygio NUTS kodų sąrašas</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Kosovo 3 lygio NUTS kodų sąrašas</entry>
 <entry key="codelist|name|organisation-role">Šioje lentelėje pateikiamas įvairių pirkimo procedūroje dalyvaujančių organizacijų funkcijų sąrašas.</entry>
 <entry key="codelist|name|organisation-role-service">Viešojo pirkimo paslaugų teikėjų galimų paslaugų kodų sąrašas</entry>
 <entry key="codelist|name|other-place-service">Šioje lentelėje pateikiami platūs geopolitiniai regionai, susiję su darbų vykdymo vieta ir paslaugų teikimo ar prekių tiekimo vieta vykdant viešuosius pirkimus.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Išankstinio informacinio skelbimas arba reguliaraus orientacinio skelbimo, naudojamo siekiant sutrumpinti pasiūlymų priėmimo terminą, rūšies skelbimui leidžiamų skelbimo porūšių kodų sąrašas.</entry>
 <entry key="codelist|name|pin-tran">Išankstinio informacinio skelbimo apie viešojo keleivinio transporto paslaugas rūšies skelbimui leidžiamų skelbimo porūšių kodų sąrašas.</entry>
 <entry key="codelist|name|planning">Planuojamo pirkimo formos rūšiai leidžiamų skelbimo rūšies kodų sąrašas</entry>
+<entry key="codelist|name|pmc">Leidžiamų pranešimo potipių kodų sąrašas išankstinės rinkos konsultacijos pranešimo tipui</entry>
 <entry key="codelist|name|postcode-country">Šalių, turinčių pašto kodus ir reikalaujančių juos naudoti, kodų sąrašas</entry>
 <entry key="codelist|name|procedure-type-10">Leidžiamas 10 porūšio skelbimo pirkimo būdas</entry>
 <entry key="codelist|name|procedure-type-11">Leidžiamas 11 porūšio skelbimo pirkimo būdas</entry>

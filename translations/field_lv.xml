@@ -738,7 +738,7 @@
 <entry key="field|description|BT-5141-Part-List">Izpildes vietas valsts.</entry>
 <entry key="field|description|BT-5141-Procedure">Izpildes vietas valsts.</entry>
 <entry key="field|description|BT-5141-Procedure-List">Izpildes vietas valsts.</entry>
-<entry key="field|description|BT-52-Lot">Procedūra notiks secīgos posmos. Katrā posmā daži dalībnieki var tikt izslēgti.</entry>
+<entry key="field|description|BT-52-Lot">Procedūra notiks secīgos posmos. Pēc otrā posma daži dalībnieki katrā nākamajā posmā var tikt izslēgti.</entry>
 <entry key="field|description|BT-531-Lot">Iepirkuma veids (piemēram, pakalpojumi), kas papildus raksturo pamatveidu.</entry>
 <entry key="field|description|BT-531-Lot-List">Iepirkuma veids (piemēram, pakalpojumi), kas papildus raksturo pamatveidu.</entry>
 <entry key="field|description|BT-531-Part">Iepirkuma veids (piemēram, pakalpojumi), kas papildus raksturo pamatveidu.</entry>
@@ -1039,8 +1039,8 @@
 <entry key="field|description|BT-804-Review">Tehniskais ID (REV-XXXX), kas ļauj atsaukties uz pārskatu. Tam jābūt unikālam starp visiem citiem pārskata tehniskajiem identifikatoriem procedūras ietvaros.</entry>
 <entry key="field|description|BT-805-Lot">Iepirkuma procedūra ietver noteiktu zaļā iepirkuma kritēriju izmantošanu (atlases kritēriji, tehniskās specifikācijas, piešķiršanas kritēriji un līguma izpildes klauzulas) valsts, Savienības vai citā līmenī (attiecīgā gadījumā).</entry>
 <entry key="field|description|BT-805-Lot-List">Iepirkuma procedūra ietver noteiktu zaļā iepirkuma kritēriju izmantošanu (atlases kritēriji, tehniskās specifikācijas, piešķiršanas kritēriji un līguma izpildes klauzulas) valsts, Savienības vai citā līmenī (attiecīgā gadījumā).</entry>
-<entry key="field|description|BT-806-Procedure">Kur ir aprakstīti izslēgšanas iemesli, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD.</entry>
-<entry key="field|description|BT-806-Procedure-List">Kur ir aprakstīti izslēgšanas iemesli, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD.</entry>
+<entry key="field|description|BT-806-Procedure">Kur ir aprakstīti izslēgšanas iemesli, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD pieprasījums.</entry>
+<entry key="field|description|BT-806-Procedure-List">Kur ir aprakstīti izslēgšanas iemesli, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD pieprasījums.</entry>
 <entry key="field|description|BT-807-Review">Pārskata iestādes identifikators norāda uz organizāciju (ORG-XXXX) vai vienu no tās alternatīvajiem kontaktpunktiem (TPO-XXXX), kas nodarbojas ar pārskatiem.</entry>
 <entry key="field|description|BT-808-Review">Pārskata iesniedzēja identifikators tiek norādīts šādā formātā: ORG-XXXX.</entry>
 <entry key="field|description|BT-809-Lot">Atlases kritēriji</entry>
@@ -1060,8 +1060,8 @@
 <entry key="field|description|BT-813-LotResult">Energijas patēriņa vērtība kWh/gadā produktiem, kuriem nav etiķetes, un energijas ietaupījums kWh/gadā pakalpojumiem, ēkām vai darbiem. Produktiem lūdzu ziņojiet par produkta gada energijas patēriņu. Pakalpojumiem, darbiem un ēkām lūdzu ziņojiet par gada energijas ietaupījumu.</entry>
 <entry key="field|description|BT-814-LotResult">Enerģijas ietaupījuma vērtība, izteikta kā kWh/gadā, ražojumiem, pakalpojumiem, būvdarbiem un ēkām. Lūdzu, norādiet ikgadējo enerģijas ietaupījumu.</entry>
 <entry key="field|description|BT-815-LotResult">Piegādātais vai prognozētais daudzums. Attiecībā uz produktiem, lūdzu, norādiet skaitu. Attiecībā uz ēkām, lūdzu, norādiet izmantojamo grīdas platību kvadrātmetros. Būvdarbiem vai pakalpojumiem vērtība parasti būs 1.</entry>
-<entry key="field|description|BT-821-Lot">Kur ir definēti atlases kritēriji, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD.</entry>
-<entry key="field|description|BT-821-Lot-List">Kur ir definēti atlases kritēriji, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD.</entry>
+<entry key="field|description|BT-821-Lot">Kur ir definēti atlases kritēriji, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD pieprasījums.</entry>
+<entry key="field|description|BT-821-Lot-List">Kur ir definēti atlases kritēriji, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD pieprasījums.</entry>
 <entry key="field|description|BT-88-Procedure">Procedūras galvenās iezīmes (piemēram, atsevišķo posmu apraksts) un informācija par to, kur var atrast visus procedūras noteikumus. Šo informāciju sniedz, ja procedūra nav viena no iepirkuma direktīvās minētajām. Tas var būt, piemēram, gadījumā, kad izmanto koncesijas, sociālos un citus īpašus pakalpojumus, kā arī tad, ja brīvprātīgi publicē iepirkuma procedūras, kuru vērtība ir zemāka par ES iepirkuma robežvērtībām.</entry>
 <entry key="field|description|BT-88-Procedure-Language">Procedūras galvenās iezīmes (piemēram, atsevišķo posmu apraksts) un informācija par to, kur var atrast visus procedūras noteikumus. Šo informāciju sniedz, ja procedūra nav viena no iepirkuma direktīvās minētajām. Tas var būt, piemēram, gadījumā, kad izmanto koncesijas, sociālos un citus īpašus pakalpojumus, kā arī tad, ja brīvprātīgi publicē iepirkuma procedūras, kuru vērtība ir zemāka par ES iepirkuma robežvērtībām.</entry>
 <entry key="field|description|BT-92-Lot">Tiks izmantoti elektroniskie pasūtījumi.</entry>
@@ -1174,7 +1174,7 @@
 <entry key="field|description|OPT-300-Contract-Signatory-Scheme">Tehniskā ID izveides shēmas nosaukums: 'organization'</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer">Atsauce uz juridisko organizāciju, kas ir pircējs. Atsauce tiek veikta, izmantojot organizācijas tehnisko identifikatoru.</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer-Scheme">Tehniskā ID izveides shēmas nosaukums: 'organization'</entry>
-<entry key="field|description|OPT-300-Procedure-SProvider">Atsauce uz juridisko organizāciju, kas nodrošina pakalpojumus pircējam. Atsauce tiek veikta, izmantojot organizācijas tehnisko identifikatoru.</entry>
+<entry key="field|description|OPT-300-Procedure-SProvider">Atsauce uz juridisko organizāciju, kas sniedz iepirkumu atbalsta pakalpojumus pircējam. Atsauce veikta, izmantojot organizācijas tehnisko identifikatoru.</entry>
 <entry key="field|description|OPT-300-Procedure-SProvider-Scheme">Tehniskā ID izveides shēmas nosaukums: 'organization'</entry>
 <entry key="field|description|OPT-300-Tenderer">Atsauce uz juridisko organizāciju, kas piedalās iepirkuma piedāvājumu iesniegšanā un pieder iepirkuma piedāvājumu iesniedzējam. Atsauce tiek veikta, izmantojot organizācijas tehnisko identifikatoru.</entry>
 <entry key="field|description|OPT-300-Tenderer-Scheme">Tehniskā ID izveides shēmas nosaukums: 'organization'</entry>
@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Shēmas nosaukums, kas tiek izmantots, lai izteiktu tehnisko piedāvājuma identifikatoru: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Tehniskais lotes rezultāta identifikators, jāatbilst šādai shēmai: 'RES-xxxx'. To izmanto savstarpējām atsaucēm.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Shēmas nosaukums, kas tiek izmantots, lai izteiktu tehnisko lotes rezultāta identifikatoru: 'result'</entry>
-<entry key="field|description|OPT-999">Shēmai nepieciešams fiktīvs datuma elements. Tas vienmēr būs '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Shēmai nepieciešams fiktīvs datuma elements. Tas vienmēr būs '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Piemērojamie tiesību akti, ja iepirkumā ir iesaistīti pircēji no dažādām valstīm.</entry>
 <entry key="field|hint|BT-1375-Procedure">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Pievienojiet tik daudz daļu, cik vēlaties iekļaut daļu grupā.</entry>
@@ -1406,7 +1406,7 @@
 <entry key="field|name|BT-165-Organization-Company-List">Ekonomikas dalībnieka lielums</entry>
 <entry key="field|name|BT-17-Lot">Elektroniskā iesniegšana</entry>
 <entry key="field|name|BT-17-Lot-List">Elektroniskā iesniegšana</entry>
-<entry key="field|name|BT-171-Tender">Vieta uzvarētāju sarakstā</entry>
+<entry key="field|name|BT-171-Tender">Piedāvājuma rangs</entry>
 <entry key="field|name|BT-1711-Tender">Piedāvājums ticis sarindots</entry>
 <entry key="field|name|BT-18-Lot">Iesniegšanas adrese</entry>
 <entry key="field|name|BT-19-Lot">Pamatojums tam, kāpēc nav iespējama elektroniska iesniegšana</entry>
@@ -2339,11 +2339,11 @@
 <entry key="field|name|BT-810-Lot-List">EED piemērojama</entry>
 <entry key="field|name|BT-811(a)-Lot">EED saraksts (pamats)</entry>
 <entry key="field|name|BT-811(a)-Lot-List">EED saraksts</entry>
-<entry key="field|name|BT-811(a)-LotResult">EED saraksts</entry>
+<entry key="field|name|BT-811(a)-LotResult">EED saraksts (pamats)</entry>
 <entry key="field|name|BT-811(a)-LotResult-List">EED saraksts</entry>
 <entry key="field|name|BT-811(b)-Lot">EED saraksts (postenis)</entry>
 <entry key="field|name|BT-811(b)-Lot-List">EED saraksts</entry>
-<entry key="field|name|BT-811(b)-LotResult">EED saraksts</entry>
+<entry key="field|name|BT-811(b)-LotResult">EED saraksts (postenis)</entry>
 <entry key="field|name|BT-811(b)-LotResult-List">EED saraksts</entry>
 <entry key="field|name|BT-812-LotResult">Energoefektivitātes etiķete</entry>
 <entry key="field|name|BT-812-LotResult-List">Energoefektivitātes etiķete</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Piedāvājuma tehniskais ID</entry>
 <entry key="field|name|OPT-322-LotResult">Partijas rezultāta tehniskais ID (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Partijas rezultāta tehniskais ID (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fiktīvs līguma slēgšanas tiesību piešķiršanas datums</entry>
+<entry key="field|name|OPT-999-notice">Fiktīvs līguma slēgšanas tiesību piešķiršanas datums</entry>
 </properties>

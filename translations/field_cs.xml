@@ -738,7 +738,7 @@
 <entry key="field|description|BT-5141-Part-List">Země místa plnění.</entry>
 <entry key="field|description|BT-5141-Procedure">Země místa plnění.</entry>
 <entry key="field|description|BT-5141-Procedure-List">Země místa plnění.</entry>
-<entry key="field|description|BT-52-Lot">Řízení probíhá v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni.</entry>
+<entry key="field|description|BT-52-Lot">Řízení bude probíhat v postupných fázích. Po druhé fázi mohou být v každé následující fázi někteří účastníci vyloučeni.</entry>
 <entry key="field|description|BT-531-Lot">Povaha předmětu zakázky (např. služeb), která doplňuje hlavní povahu.</entry>
 <entry key="field|description|BT-531-Lot-List">Povaha předmětu zakázky (např. služeb), která doplňuje hlavní povahu.</entry>
 <entry key="field|description|BT-531-Part">Povaha předmětu zakázky (např. služeb), která doplňuje hlavní povahu.</entry>
@@ -1039,8 +1039,8 @@
 <entry key="field|description|BT-804-Review">Technické ID (REV-XXXX), které umožňuje odkaz na přezkum. Musí být jedinečné mezi všemi ostatními technickými identifikátory přezkumů v rámci řízení.</entry>
 <entry key="field|description|BT-805-Lot">Zadávací řízení zahrnuje použití zavedených kritérií zelených veřejných zakázek (kritéria pro výběr, technické specifikace, kritéria pro zadání a ustanovení o plnění smlouvy) na vnitrostátní, unijní či jiné úrovni, pokud existují.</entry>
 <entry key="field|description|BT-805-Lot-List">Zadávací řízení zahrnuje použití zavedených kritérií zelených veřejných zakázek (kritéria pro výběr, technické specifikace, kritéria pro zadání a ustanovení o plnění smlouvy) na vnitrostátní, unijní či jiné úrovni, pokud existují.</entry>
-<entry key="field|description|BT-806-Procedure">Jsou-li důvody pro vyloučení popsány, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
-<entry key="field|description|BT-806-Procedure-List">Jsou-li důvody pro vyloučení popsány, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
+<entry key="field|description|BT-806-Procedure">Jsou-li důvody pro vyloučení popsány, například v zadávací dokumentaci, v oznámení nebo v ESPD žádost.</entry>
+<entry key="field|description|BT-806-Procedure-List">Jsou-li důvody pro vyloučení popsány, například v zadávací dokumentaci, v oznámení nebo v ESPD žádost.</entry>
 <entry key="field|description|BT-807-Review">Identifikátor přezkumného orgánu ukazuje na organizaci (ORG-XXXX) nebo jeden z jejích alternativních kontaktních bodů (TPO-XXXX), které se zabývají přezkumy.</entry>
 <entry key="field|description|BT-808-Review">Identifikátor žadatele o přezkum v následujícím formátu: ORG-XXXX.</entry>
 <entry key="field|description|BT-809-Lot">Kritérium výběru</entry>
@@ -1060,8 +1060,8 @@
 <entry key="field|description|BT-813-LotResult">Hodnota spotřeby energie v kWh/rok pro výrobky, pro které neexistuje štítek, a úspory energie v kWh/rok pro služby, budovy nebo práce. Pro výrobky prosím nahláste roční spotřebu energie výrobku. Pro služby, práce a budovy prosím nahláste roční úspory energie.</entry>
 <entry key="field|description|BT-814-LotResult">Hodnota úspor energie v kWh/rok u výrobků, služeb, stavebních prací a budov. Uveďte roční úspory energie.</entry>
 <entry key="field|description|BT-815-LotResult">Poskytnuté nebo odhadované množství. V případě produktů uveďte počet produktů. V případě budov uveďte užitnou podlahovou plochu v metrech čtverečních. Pro stavební práce nebo služby bude hodnota obvykle 1.</entry>
-<entry key="field|description|BT-821-Lot">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
-<entry key="field|description|BT-821-Lot-List">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
+<entry key="field|description|BT-821-Lot">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD žádost.</entry>
+<entry key="field|description|BT-821-Lot-List">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD žádost.</entry>
 <entry key="field|description|BT-88-Procedure">Hlavní rysy řízení (např. popis jednotlivých fází) a informace, kde lze nalézt úplné znění pravidel. Tyto informace se uvedou, jedná-li se o řízení, které není uvedeno ve směrnicích o zadávání veřejných zakázek. Jedná se například o koncese na sociální a jiné specifické služby a případy dobrovolného uveřejnění zadávacích řízení nedosahujících finančních limitů EU pro veřejné zakázky.</entry>
 <entry key="field|description|BT-88-Procedure-Language">Hlavní rysy řízení (např. popis jednotlivých fází) a informace, kde lze nalézt úplné znění pravidel. Tyto informace se uvedou, jedná-li se o řízení, které není uvedeno ve směrnicích o zadávání veřejných zakázek. Jedná se například o koncese na sociální a jiné specifické služby a případy dobrovolného uveřejnění zadávacích řízení nedosahujících finančních limitů EU pro veřejné zakázky.</entry>
 <entry key="field|description|BT-92-Lot">Budou používány elektronické objednávky.</entry>
@@ -1174,7 +1174,7 @@
 <entry key="field|description|OPT-300-Contract-Signatory-Scheme">Název schématu použitého k vytvoření technického ID použitého jako odkaz: 'organization'</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer">Odkaz na právnickou organizaci, která nakupuje. Odkaz je proveden pomocí technického identifikátoru organizace.</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer-Scheme">Název schématu použitého k vytvoření technického ID použitého jako odkaz: 'organization'</entry>
-<entry key="field|description|OPT-300-Procedure-SProvider">Odkaz na právnickou organizaci, která poskytuje služby kupujícímu. Odkaz je proveden pomocí technického identifikátoru organizace.</entry>
+<entry key="field|description|OPT-300-Procedure-SProvider">Odkaz na právní organizaci poskytující služby podpory zadávání veřejných zakázek kupujícímu. Odkaz provedený pomocí technického identifikátoru organizace.</entry>
 <entry key="field|description|OPT-300-Procedure-SProvider-Scheme">Název schématu použitého k vytvoření technického ID použitého jako odkaz: 'organization'</entry>
 <entry key="field|description|OPT-300-Tenderer">Odkaz na právnickou organizaci, která se účastní podání nabídky a patří k vypisující straně. Odkaz je proveden pomocí technického identifikátoru organizace.</entry>
 <entry key="field|description|OPT-300-Tenderer-Scheme">Název schématu použitého k vytvoření technického ID použitého jako odkaz: 'organization'</entry>
@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Název schématu použitého k vyjádření technického identifikátoru nabídky: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Technický identifikátor výsledku části, musí následovat následující schéma: 'RES-xxxx'. Je použit pro křížové odkazy.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Název schématu použitého k vyjádření technického identifikátoru výsledku části: 'result'</entry>
-<entry key="field|description|OPT-999">Dummy element data vyžadovaný schématem. Bude vždy '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Dummy element data vyžadovaný schématem. Bude vždy '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Rozhodné právo, pokud se zakázka týká kupujících z různých zemí.</entry>
 <entry key="field|hint|BT-1375-Procedure">Přidejte tolik částí, kolik si přejete zahrnout do skupiny částí.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Přidejte tolik částí, kolik si přejete zahrnout do skupiny částí.</entry>
@@ -1406,7 +1406,7 @@
 <entry key="field|name|BT-165-Organization-Company-List">Velikost hospodářského subjektu</entry>
 <entry key="field|name|BT-17-Lot">Elektronické podání</entry>
 <entry key="field|name|BT-17-Lot-List">Elektronické podání</entry>
-<entry key="field|name|BT-171-Tender">Řazení na seznamu vítězů</entry>
+<entry key="field|name|BT-171-Tender">Pořadí nabídky</entry>
 <entry key="field|name|BT-1711-Tender">Nabídka byla hodnocena</entry>
 <entry key="field|name|BT-18-Lot">Adresa pro podání</entry>
 <entry key="field|name|BT-19-Lot">Odůvodnění, proč elektronické podání není možné</entry>
@@ -2339,11 +2339,11 @@
 <entry key="field|name|BT-810-Lot-List">EED aplikovatelné</entry>
 <entry key="field|name|BT-811(a)-Lot">EED seznam (základ)</entry>
 <entry key="field|name|BT-811(a)-Lot-List">EED seznam</entry>
-<entry key="field|name|BT-811(a)-LotResult">EED seznam</entry>
+<entry key="field|name|BT-811(a)-LotResult">EED seznam (základ)</entry>
 <entry key="field|name|BT-811(a)-LotResult-List">EED seznam</entry>
 <entry key="field|name|BT-811(b)-Lot">EED seznam (bod)</entry>
 <entry key="field|name|BT-811(b)-Lot-List">EED seznam</entry>
-<entry key="field|name|BT-811(b)-LotResult">EED seznam</entry>
+<entry key="field|name|BT-811(b)-LotResult">EED seznam (bod)</entry>
 <entry key="field|name|BT-811(b)-LotResult-List">EED seznam</entry>
 <entry key="field|name|BT-812-LotResult">Štítek energetické účinnosti</entry>
 <entry key="field|name|BT-812-LotResult-List">Štítek energetické účinnosti</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Technické ID nabídky</entry>
 <entry key="field|name|OPT-322-LotResult">Technické ID výsledku dílu (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Technické ID výsledku dílu (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Fiktivní datum zadání zakázky</entry>
+<entry key="field|name|OPT-999-notice">Fiktivní datum zadání zakázky</entry>
 </properties>

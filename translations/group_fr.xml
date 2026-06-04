@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Organisation traitant les offres</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Organisation recevant les offres</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Validité de l’offre</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Informations relatives à la soumission tardive</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Informations pour le soumissionnaire</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Conditions de passation du marché</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Informations sur la directive sur les véhicules propres</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Type de contrat de la directive sur les véhicules propres</entry>
@@ -149,8 +149,8 @@
 <entry key="group|name|GR-LotResult-Parties">Parties</entry>
 <entry key="group|name|GR-LotResult-Payer-Party">Organisme payeur</entry>
 <entry key="group|name|GR-LotResult-ReceivedSubmissions">Statistiques sur les soumissions reçues</entry>
-<entry key="group|name|GR-LotResult-ReviewComplainants">Demandes de réexamen</entry>
-<entry key="group|name|GR-LotResult-ReviewRequests">Statistiques sur les demandes de réexamen</entry>
+<entry key="group|name|GR-LotResult-ReviewComplainants">Demandes de recours</entry>
+<entry key="group|name|GR-LotResult-ReviewRequests">Statistiques sur les demandes de recours</entry>
 <entry key="group|name|GR-LotResult-Section">Résultats des lots</entry>
 <entry key="group|name|GR-LotResult-Tender-Id-Ref">Offre considérée pour la décision d'attribution</entry>
 <entry key="group|name|GR-LotResult-TenderValue">Valeur de l’offre</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Type de procédure</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Détails du type de procédure</entry>
 <entry key="group|name|GR-Procedure-Purpose">Objet</entry>
-<entry key="group|name|GR-Procedure-SProvider">Prestataire de services</entry>
+<entry key="group|name|GR-Procedure-SProvider">Prestataire de services de passation de marché</entry>
 <entry key="group|name|GR-Procedure-Scope">Champ d'application du marché</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Nomenclature complémentaire</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Nomenclature principale</entry>
@@ -280,7 +280,7 @@
 <entry key="group|name|GR-Transport-Additional-Nature-Subtype">Type de service de transport</entry>
 <entry key="group|name|GR-UBO">Bénéficiaire effectif</entry>
 <entry key="group|name|GR-UBO-Subsection">Bénéficiaire effectif</entry>
-<entry key="group|name|GR-UBO-Winner">Nationalité du lauréat</entry>
+<entry key="group|name|GR-UBO-Winner">Nationalité du adjudicataire / attributaire</entry>
 <entry key="group|name|GR-Unpublish-BT-09">Législation transnationale (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-105">Type de procédure (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-105-Procedure">Type de procédure (publication à venir ultérieurement)</entry>
@@ -295,10 +295,10 @@
 <entry key="group|name|GR-Unpublish-BT-1351-Procedure">Justification de la procédure accélérée (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-136">Justification de l’attribution directe (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-136-Procedure">Code de justification de l’attribution directe (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-142">Statut de sélection du lauréat (publication à venir ultérieurement)</entry>
-<entry key="group|name|GR-Unpublish-BT-142-LotResult">Statut de sélection du lauréat (publication à venir ultérieurement)</entry>
-<entry key="group|name|GR-Unpublish-BT-144">La raison pour laquelle un lauréat n’a pas été choisi (publication à venir ultérieurement)</entry>
-<entry key="group|name|GR-Unpublish-BT-144-LotResult">La raison pour laquelle un lauréat n’a pas été choisi (publication à venir ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-142">Statut de sélection du adjudicataire / attributaire (publication à venir ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-142-LotResult">Statut de sélection du adjudicataire / attributaire (publication à venir ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-144">La raison pour laquelle un adjudicataire / attributaire n’a pas été choisi (publication à venir ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-144-LotResult">La raison pour laquelle un adjudicataire / attributaire n’a pas été choisi (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-156">Valeur estimée des accords-cadres dans le groupe de lots (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-156-NoticeResult">Valeur maximale du groupe (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-1561-NoticeResult">Valeur réestimée du groupe (publication ultérieure)</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Recettes estimées provenant des utilisateurs de la concession (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Méthode utilisée pour calculer la valeur estimée de la concession (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Description de la valeur de la concession (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Rang de classement du candidat/lauréat (publication à venir ultérieurement)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Classement de l’offre (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Classement de l’offre (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Pays d’origine du produit ou du service (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">L’offre est une variante (publication à venir ultérieurement)</entry>
@@ -347,8 +347,8 @@
 <entry key="group|name|GR-Unpublish-BT-555-Tender">Pourcentage de sous-traitance (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-556">Identifiant du lot pour la valeur d’un groupe de lots dans le cas d’un accord-cadre (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-556-NoticeResult">Identifiant de la valeur maximale du groupe (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-635-LotResult">Nombre d’irrégularités de la demande de réexamen (publication ultérieure)</entry>
-<entry key="group|name|GR-Unpublish-BT-636-LotResult">Type d’irrégularité de la demande de réexamen (publication ultérieure)</entry>
+<entry key="group|name|GR-Unpublish-BT-635-LotResult">Nombre d’irrégularités de la demande de recours (publication ultérieure)</entry>
+<entry key="group|name|GR-Unpublish-BT-636-LotResult">Type d’irrégularité de la demande de recours (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-660-LotResult">Valeur réestimée (publiée plus tard)</entry>
 <entry key="group|name|GR-Unpublish-BT-709">Valeur maximale de l’accord-cadre (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-710">Valeur de l’offre recevable la plus basse (publication à venir ultérieurement)</entry>
@@ -374,6 +374,6 @@
 <entry key="group|name|GR-Unpublish-BT-773-Tender">Sous-traitance (publication ultérieure)</entry>
 <entry key="group|name|GR-Unpublish-BT-88">Description de la procédure (publication à venir ultérieurement)</entry>
 <entry key="group|name|GR-Unpublish-BT-88-Procedure">Description de la procédure (publication à venir ultérieurement)</entry>
-<entry key="group|name|GR-Winner">Lauréat</entry>
+<entry key="group|name|GR-Winner">Adjudicataire / Attributaire</entry>
 <entry key="group|name|Root">Le nœud racinaire</entry>
 </properties>

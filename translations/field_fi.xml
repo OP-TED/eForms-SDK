@@ -738,7 +738,7 @@
 <entry key="field|description|BT-5141-Part-List">Suorituspaikan maa.</entry>
 <entry key="field|description|BT-5141-Procedure">Suorituspaikan maa.</entry>
 <entry key="field|description|BT-5141-Procedure-List">Suorituspaikan maa.</entry>
-<entry key="field|description|BT-52-Lot">Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia.</entry>
+<entry key="field|description|BT-52-Lot">Menettely tapahtuu peräkkäisissä vaiheissa. Toisen vaiheen jälkeen joitakin osallistujia voidaan poistaa jokaisessa seuraavassa vaiheessa.</entry>
 <entry key="field|description|BT-531-Lot">Pääkategorian lisäksi tuleva hankinnan kategoria (esim. palvelut).</entry>
 <entry key="field|description|BT-531-Lot-List">Pääkategorian lisäksi tuleva hankinnan kategoria (esim. palvelut).</entry>
 <entry key="field|description|BT-531-Part">Pääkategorian lisäksi tuleva hankinnan kategoria (esim. palvelut).</entry>
@@ -1039,8 +1039,8 @@
 <entry key="field|description|BT-804-Review">Tekninen tunnus (REV-XXXX), joka mahdollistaa viittauksen tarkastukseen. Sen on oltava ainutlaatuinen kaikkien muiden menettelyn tarkastusteknisten tunnisteiden välillä.</entry>
 <entry key="field|description|BT-805-Lot">Hankintamenettelyssä käytettävät kansallisella tai unionin tasolla taikka muulla tasolla vahvistetut ympäristöä säästäviä julkisia hankintoja koskevat kriteerit (valintakriteerit, tekniset eritelmät, myöntämisperusteet ja sopimuksen toteuttamista koskevat lausekkeet), mikäli sellaisia sovelletaan.</entry>
 <entry key="field|description|BT-805-Lot-List">Hankintamenettelyssä käytettävät kansallisella tai unionin tasolla taikka muulla tasolla vahvistetut ympäristöä säästäviä julkisia hankintoja koskevat kriteerit (valintakriteerit, tekniset eritelmät, myöntämisperusteet ja sopimuksen toteuttamista koskevat lausekkeet), mikäli sellaisia sovelletaan.</entry>
-<entry key="field|description|BT-806-Procedure">Paikka, jossa poissulkemisperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD).</entry>
-<entry key="field|description|BT-806-Procedure-List">Paikka, jossa poissulkemisperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD).</entry>
+<entry key="field|description|BT-806-Procedure">Paikka, jossa poissulkemisperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD) pyyntö.</entry>
+<entry key="field|description|BT-806-Procedure-List">Paikka, jossa poissulkemisperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD) pyyntö.</entry>
 <entry key="field|description|BT-807-Review">Tarkastuselimen tunniste osoittaa organisaatioon (ORG-XXXX) tai johonkin sen vaihtoehtoiseen yhteyspisteeseen (TPO-XXXX), joka käsittelee tarkastuksia.</entry>
 <entry key="field|description|BT-808-Review">Tarkastushakijan tunniste seuraavassa muodossa: ORG-XXXX.</entry>
 <entry key="field|description|BT-809-Lot">Valintaperuste.</entry>
@@ -1060,8 +1060,8 @@
 <entry key="field|description|BT-813-LotResult">Energiankulutuksen arvo kWh/vuosi tuotteille, joille ei ole merkintää, ja energiansäästöt kWh/vuosi palveluille, rakennuksille tai töille. Ilmoita tuotteiden vuotuinen energiankulutus tuotteille. Ilmoita palvelujen, töiden ja rakennusten vuotuiset energiansäästöt.</entry>
 <entry key="field|description|BT-814-LotResult">Energiansäästön arvo kilowattitunteina vuodessa tuotteiden, palvelujen, urakoiden ja rakennusten osalta. Ilmoittakaa vuotuiset energiansäästöt.</entry>
 <entry key="field|description|BT-815-LotResult">Ilmoitettu tai arvioitu määrä. Tuotteiden osalta ilmoitetaan tuotteiden lukumäärä. Rakennusten osalta ilmoitetaan hyötypinta-ala neliömetreinä. Rakennustöiden tai palveluiden osalta arvo on yleensä 1.</entry>
-<entry key="field|description|BT-821-Lot">Paikka, jossa valintaperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD).</entry>
-<entry key="field|description|BT-821-Lot-List">Paikka, jossa valintaperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD).</entry>
+<entry key="field|description|BT-821-Lot">Paikka, jossa valintaperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD) pyyntö.</entry>
+<entry key="field|description|BT-821-Lot-List">Paikka, jossa valintaperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD) pyyntö.</entry>
 <entry key="field|description|BT-88-Procedure">Menettelyn tärkeimmät piirteet (esim. kuvaus yksittäisistä vaiheista) ja tiedot siitä, missä menettelyn kaikki säännöt ovat saatavilla. Nämä tiedot on annettava silloin, kun menettely ei ole yksi hankintadirektiivissä mainituista. Tämä voi koskea esimerkiksi käyttöoikeussopimuksia, sosiaalipalveluja ja muita erityisiä palveluja sekä tapauksia, joissa hankintamenettelyt julkaistaan vapaaehtoispohjalta alle EU:n hankintojen kynnysarvojen.</entry>
 <entry key="field|description|BT-88-Procedure-Language">Menettelyn tärkeimmät piirteet (esim. kuvaus yksittäisistä vaiheista) ja tiedot siitä, missä menettelyn kaikki säännöt ovat saatavilla. Nämä tiedot on annettava silloin, kun menettely ei ole yksi hankintadirektiivissä mainituista. Tämä voi koskea esimerkiksi käyttöoikeussopimuksia, sosiaalipalveluja ja muita erityisiä palveluja sekä tapauksia, joissa hankintamenettelyt julkaistaan vapaaehtoispohjalta alle EU:n hankintojen kynnysarvojen.</entry>
 <entry key="field|description|BT-92-Lot">Tilaukset tehdään sähköisesti.</entry>
@@ -1174,7 +1174,7 @@
 <entry key="field|description|OPT-300-Contract-Signatory-Scheme">Teknisen tunnuksen luomiseen käytetyn järjestelmän nimi: 'organisaatio'</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer">Viittaus oikeudelliseen organisaatioon, joka ostaa. Viittaus tehdään käyttämällä organisaation teknistä tunnusta.</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer-Scheme">Teknisen tunnuksen luomiseen käytetyn järjestelmän nimi: 'organisaatio'</entry>
-<entry key="field|description|OPT-300-Procedure-SProvider">Viittaus oikeudelliseen organisaatioon, joka tarjoaa palveluita ostajalle. Viittaus tehdään käyttämällä organisaation teknistä tunnusta.</entry>
+<entry key="field|description|OPT-300-Procedure-SProvider">Vakautus oikeushenkilöön, joka tarjoaa ostajalle hankintatuen palveluja. Viittaus tehdään käyttämällä organisaation teknistä tunnistetta.</entry>
 <entry key="field|description|OPT-300-Procedure-SProvider-Scheme">Teknisen tunnuksen luomiseen käytetyn järjestelmän nimi: 'organisaatio'</entry>
 <entry key="field|description|OPT-300-Tenderer">Viittaus oikeudelliseen organisaatioon, joka osallistuu tarjouksen jättämiseen ja kuuluu tarjoavaan osapuoleen. Viittaus tehdään käyttämällä organisaation teknistä tunnusta.</entry>
 <entry key="field|description|OPT-300-Tenderer-Scheme">Teknisen tunnuksen luomiseen käytetyn järjestelmän nimi: 'organisaatio'</entry>
@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Käytetty järjestelmä tarjouksen teknisen tunnisteen ilmaisemiseksi: 'tarjous'</entry>
 <entry key="field|description|OPT-322-LotResult">Erän tuloksen tekninen tunniste, joka noudattaa seuraavaa järjestelmää: 'RES-xxxx'. Sitä käytetään ristiviittauksiin.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Käytetty järjestelmä erän tuloksen teknisen tunnisteen ilmaisemiseksi: 'tulos'</entry>
-<entry key="field|description|OPT-999">Järjestelmän vaatima kuvitteellinen päivämääräelementti. On aina '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Järjestelmän vaatima kuvitteellinen päivämääräelementti. On aina '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Sovellettava lainsäädäntö, jos hankintaan osallistuu ostajia eri maista.</entry>
 <entry key="field|hint|BT-1375-Procedure">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Lisää haluamasi määrä eriä sisällytettäväksi erien ryhmään.</entry>
@@ -1406,7 +1406,7 @@
 <entry key="field|name|BT-165-Organization-Company-List">Organisaation koko</entry>
 <entry key="field|name|BT-17-Lot">Tarjouksen/hakemuksen jättäminen sähköisesti</entry>
 <entry key="field|name|BT-17-Lot-List">Tarjouksen/hakemuksen jättäminen sähköisesti</entry>
-<entry key="field|name|BT-171-Tender">Sijoitus voittajien luettelossa</entry>
+<entry key="field|name|BT-171-Tender">Tarjouksen sijoitus</entry>
 <entry key="field|name|BT-1711-Tender">Tarjouksen sijoitus on tiedossa</entry>
 <entry key="field|name|BT-18-Lot">Tarjouksen/hakemuksen toimitusosoite</entry>
 <entry key="field|name|BT-19-Lot">Perustelu sähköisen toimittamismahdollisuuden puuttumiselle</entry>
@@ -2339,11 +2339,11 @@
 <entry key="field|name|BT-810-Lot-List">EED sovellettavissa</entry>
 <entry key="field|name|BT-811(a)-Lot">EED luettelo (perusta)</entry>
 <entry key="field|name|BT-811(a)-Lot-List">EED luettelo</entry>
-<entry key="field|name|BT-811(a)-LotResult">EED luettelo</entry>
+<entry key="field|name|BT-811(a)-LotResult">EED luettelo (perusta)</entry>
 <entry key="field|name|BT-811(a)-LotResult-List">EED luettelo</entry>
 <entry key="field|name|BT-811(b)-Lot">EED luettelo (Tavara)</entry>
 <entry key="field|name|BT-811(b)-Lot-List">EED luettelo</entry>
-<entry key="field|name|BT-811(b)-LotResult">EED luettelo</entry>
+<entry key="field|name|BT-811(b)-LotResult">EED luettelo (Tavara)</entry>
 <entry key="field|name|BT-811(b)-LotResult-List">EED luettelo</entry>
 <entry key="field|name|BT-812-LotResult">Energiatehokkuusmerkintä</entry>
 <entry key="field|name|BT-812-LotResult-List">Energiatehokkuusmerkintä</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Tarjouksen tekninen ID</entry>
 <entry key="field|name|OPT-322-LotResult">Erän tuloksen tekninen tunnus (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Erän tuloksen tekninen tunnus (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Sopimuksen tekemisen nimellinen päivämäärä</entry>
+<entry key="field|name|OPT-999-notice">Sopimuksen tekemisen nimellinen päivämäärä</entry>
 </properties>

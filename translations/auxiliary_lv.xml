@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Latvian. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Juridiskais pamats</entry>
-<entry key="auxiliary|text|BT-08">Organizācijas loma</entry>
-<entry key="auxiliary|text|BT-36">Ilgums</entry>
 <entry key="auxiliary|text|accessibility">Pieejamības kritēriji</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc saziņas kanāls</entry>
 <entry key="auxiliary|text|award-criteria">Piešķiršanas kritēriji</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Pircējs</entry>
 <entry key="auxiliary|text|buyer-competent">Kompetentā iestāde</entry>
 <entry key="auxiliary|text|change">Izmaiņas</entry>
-<entry key="auxiliary|text|change-notice">Izmaiņu paziņojums</entry>
 <entry key="auxiliary|text|company">Uzņēmuma/sabiedrības nosaukums un adrese</entry>
 <entry key="auxiliary|text|concession-value">Koncesijas vērtība</entry>
 <entry key="auxiliary|text|conditions-contract">Ar līgumu saistītie nosacījumi</entry>
 <entry key="auxiliary|text|conditions-participation">Dalības nosacījumi</entry>
 <entry key="auxiliary|text|contract-information">Informācija par līgumu</entry>
 <entry key="auxiliary|text|contract-terms">Līguma noteikumi</entry>
-<entry key="auxiliary|text|contractor-legal-form">Darbuzņēmēja juridiskā forma</entry>
 <entry key="auxiliary|text|criterion">Kritērijs</entry>
-<entry key="auxiliary|text|cross-border-description">Apraksts</entry>
 <entry key="auxiliary|text|cross-border-law">Pārrobežu situācijās piemērojamie tiesību akti</entry>
 <entry key="auxiliary|text|design-contest-terms">Metu konkursa noteikumi</entry>
 <entry key="auxiliary|text|direct-award">Tieša piešķiršana</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Pamatnolīgumu paredzamā summa daļu grupā</entry>
 <entry key="auxiliary|text|group-of-lots">Daļu grupa</entry>
 <entry key="auxiliary|text|grouping">Grupa</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Informācija par piemaksām un soda naudām</entry>
 <entry key="auxiliary|text|international-procurement-instrument">Iepirkums ietilpst Starptautiskā iepirkuma instrumenta (IPI) darbības jomā</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Starptautiskā iepirkuma instrumenta (IPI) pasākumu statistika</entry>
 <entry key="auxiliary|text|language-expressions">Valodas, kādās var iesniegt ieinteresētības apstiprinājumus</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Kompetentās iestādes juridiskais statuss</entry>
 <entry key="auxiliary|text|lot">Daļa</entry>
 <entry key="auxiliary|text|modification">Grozījums</entry>
-<entry key="auxiliary|text|name">Nosaukums</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">To personu oficiālie vārdi, kuras nav pretendenta vadītāji</entry>
 <entry key="auxiliary|text|non-winning-tender">Neizraudzītie pretendenti</entry>
 <entry key="auxiliary|text|notice-information">Informācija par paziņojumu</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Organizācija, kuras budžetu izmanto, lai samaksātu par līgumu</entry>
 <entry key="auxiliary|text|organisation-mediation">Starpniecības jeb mediācijas organizācija</entry>
 <entry key="auxiliary|text|organisation-paying">Organizācija, kas izpilda maksājumu</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Organizācija, kas apstrādā dalības pieprasījumus</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organizācija, kas apstrādā piedāvājumus</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Organizācija, kas nodrošina bezsaistes piekļuvi iepirkuma procedūras dokumentiem</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organizācija, kas sniedz informāciju par darba aizsardzības un darba apstākļu vispārējo tiesisko regulējumu, kas piemērojams līguma izpildes vietā</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Organizācija, kas sniedz sīkāku informāciju par pārskatīšanas procedūru</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organizācija, kas sniedz informāciju par vispārējo tiesisko regulējumu attiecībā uz nodokļiem, kas piemērojami līguma izpildes vietā</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Iepirkuma pakalpojumu sniedzējs</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Organizācija, kas saņem piedāvājumus</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Pārskatīšanas pieprasītāja organizācija (vai persona), kura ir vai ir bijusi ieinteresēta kādā līgumā un kurai ir nodarīts vai draud kaitējums aizdomu par pārkāpumu dēļ</entry>
 <entry key="auxiliary|text|organisation-review">Pārskatīšanas organizācija</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Organizācija, kas sniedz sīkāku informāciju par pārskatīšanas procedūru termiņiem</entry>
-<entry key="auxiliary|text|organisation-roles">Organizāciju funkcijas</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organizācija, kas paraksta līgumu</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Apakšuzņēmējs</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Organizācija, kas saņem dalības pieprasījumus</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Iepirkuma noteikumi</entry>
 <entry key="auxiliary|text|public-opening">Informācija par publisko atvēršanu</entry>
 <entry key="auxiliary|text|publication-gazette">Publikācija oficiālajā izdevumā</entry>
-<entry key="auxiliary|text|publication-information">Informācija par publikāciju</entry>
 <entry key="auxiliary|text|purpose">Mērķis</entry>
 <entry key="auxiliary|text|quality-targets">Kvalitātes mērķi</entry>
 <entry key="auxiliary|text|range-tenders">Piedāvājumu vērtības diapazons</entry>
 <entry key="auxiliary|text|received-submissions">Saņemtie piedāvājumi vai dalības pieprasījumi</entry>
 <entry key="auxiliary|text|renewal">Pārjaunojums</entry>
 <entry key="auxiliary|text|results">Rezultāti</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Iepirkuma procedūras rezultāts</entry>
 <entry key="auxiliary|text|review">Pārskatīšana</entry>
 <entry key="auxiliary|text|review-request-withdrawn">Pieteikums par pārskatīšanu vai par pagaidu pasākumiem tika atsaukts</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Iespējamā pārkāpuma veids</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Iesniegšanas noteikumi</entry>
 <entry key="auxiliary|text|techniques">Paņēmieni</entry>
 <entry key="auxiliary|text|tender">Piedāvājums</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Pretendenta apakšuzņēmēji</entry>
 <entry key="auxiliary|text|unpublished">dati nav publicēti</entry>
 <entry key="auxiliary|text|value">Vērtība</entry>
 <entry key="auxiliary|text|winner">Uzvarētājs</entry>
 <entry key="auxiliary|text|winner-info">Informācija par uzvarētājiem</entry>
 <entry key="auxiliary|text|winner-lots">Uzvarētājs šajās daļās</entry>
-<entry key="auxiliary|text|winner-subcontractor">Uzvarētāja apakšuzņēmēji</entry>
 </properties>

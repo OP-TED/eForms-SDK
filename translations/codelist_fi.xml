@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Luettelo sallituista ilmoituksen alatyyppikoodeista vakiojärjestelmän suunnittelukilpailuilmoitusta varten</entry>
 <entry key="codelist|name|communication-justification">Tämä taulukko sisältää perustelut resurssien pääsyoikeuksien rajoittamiselle julkisten hankintojen yhteydessä.</entry>
 <entry key="codelist|name|competition">Luettelo sallituista ilmoitustyyppikoodeista kilpailuilmoitusta varten</entry>
+<entry key="codelist|name|compl">Luettelo sallitusta ilmoitustyypin koodeista sopimuksen valmistumisilmoitustyypille</entry>
+<entry key="codelist|name|completion">Luettelo sallitusta ilmoitustyypin koodeista valmistumislomakkeen tyypille</entry>
 <entry key="codelist|name|conditions">Ehtojen koodit</entry>
+<entry key="codelist|name|consultation">Luettelo sallitusta ilmoitustyypin koodeista konsultointilomakkeen tyypille</entry>
 <entry key="codelist|name|cont-modif">Luettelo sallituista ilmoitustyyppikoodeista hankintasopimuksen muuttamista koskevaa ilmoitusta varten</entry>
 <entry key="codelist|name|contract-detail">Tässä taulukossa voi esittää hankintaan liittyviä tietoja.</entry>
 <entry key="codelist|name|contract-nature">Luettelo koodeista, joilla esitetään hankinnan pää- ja lisäkategoria.</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR tuo käyttöön uuden sääntökokonaisuuden, jonka avulla komissio voi puuttua ulkomaisten tukien aiheuttamiin vääristymiin.</entry>
 <entry key="codelist|name|form-type">Tässä taulukossa esitetään TED-sivustolla julkaistujen lomaketyyppien koodit ja arvot.</entry>
 <entry key="codelist|name|framework-agreement">Tässä taulukossa on luettelo koodeista, joilla täsmennetään tarjoukseen liittyvän puitejärjestelyn tyyppi.</entry>
+<entry key="codelist|name|fsr">Luettelo koodeista, joilla määritetään, sovelletaanko ulkomaisia tukia koskevaa asetusta</entry>
 <entry key="codelist|name|gpp-criteria">Ympäristöä säästävien julkisten hankintojen kriteerit</entry>
 <entry key="codelist|name|indicator">Luettelo eForms-lomakkeiden sallituista indikaattoriarvoista</entry>
 <entry key="codelist|name|innovative-acquisition">Tämä taulukko sisältää koodit ja arvot, joita käytetään hankittavien innovatiivisten urakoiden, tavaroiden tai palvelujen tyypistä.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Tämä taulukko tarjoaa luettelon koodeista ja arvoista, joita käytetään IPI-toimenpiteen soveltamisen poikkeuksen määrittämiseen</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Tämä taulukko tarjoaa luettelon koodeista ja arvoista, joita käytetään sovelletun IPI-toimenpiteen määrittämiseen</entry>
+<entry key="codelist|name|ipi-scope">Tämä taulukko tarjoaa luettelon koodeista ja arvoista, joita käytetään osoittamaan, että hankinta kuuluu kansainvälisen hankintainstrumentin soveltamisalaan</entry>
 <entry key="codelist|name|irregularity-type">Tämä koodiluettelo viittaa yleensä komission päätöksen C(2019) 3452 liitteessä olevassa 2 jaksossa kuvattuihin sääntöjenvastaisuuksien tyyppeihin.</entry>
 <entry key="codelist|name|language">Luettelo kolmimerkkisistä kielikoodeista, jotka vastaavat kansainvälistä ISO 639 -standardia, ja sellaisten kielten koodeista, joilla ei ole ISO-koodia.</entry>
 <entry key="codelist|name|lawful-country">Luettelo maista, joille on oikeusperusta julkaista ilmoituksia Euroopan unionin virallisen lehden täydennysosassa.</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Luettelo koodeista, joilla määritetään, onko kieliversiolla oikeudellista asemaa vai ei.</entry>
 <entry key="codelist|name|main-activity">Luettelo koodeista ostajien pääasiallisille toimialoille.</entry>
 <entry key="codelist|name|measurement-unit">Luettelo kansainvälisessä kaupassa yleisimmin käytettyjen mittayksiköiden koodeista.</entry>
+<entry key="codelist|name|metric-type">Luettelo koodeista, joita käytetään määritettyjen numeroiden kattaman mittarin tyypin luonnehtimiseen</entry>
 <entry key="codelist|name|missing-info-submission">Tässä taulukossa on luettelo koodeista, jotka ilmaisevat, voiko tarjoajaan liittyviä (täydellisiä vai osittaisia) tietoja täydentää tarjousten jättämisen määräajan jälkeen.</entry>
 <entry key="codelist|name|modification-justification">Tämä taulukko sisältää keskeiset syyt hankintasopimuksen muuttamiselle julkisten hankintojen yhteydessä.</entry>
 <entry key="codelist|name|nda">Luettelo koodeista, joilla määritetään, vaaditaanko salassapitosopimus vai ei.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Luettelo tason 3 NUTS-koodeista maalle: Slovenia</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Luettelo tason 3 NUTS-koodeista maalle: Ruotsi</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Luettelo tason 3 NUTS-koodeista maalle: Turkki</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Luettelo Ukrainan tason 3 NUTS-koodeista</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">NUTS-tason 3 koodiluettelo Kosovolle</entry>
 <entry key="codelist|name|organisation-role">Tässä taulukossa on luettelo organisaatioiden eri tehtävistä hankintamenettelyssä.</entry>
 <entry key="codelist|name|organisation-role-service">Luettelo hankintapalvelujen tarjoajien mahdollisista palvelukoodeista</entry>
 <entry key="codelist|name|other-place-service">Tässä taulukossa esitetään yleisen tason geopoliittiset alueet, jotka liittyvät töiden sijaintiin ja suoritus- tai toteutuspaikkaan julkisten hankintojen yhteydessä.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Luettelo sallituista ilmoituksen alatyyppikoodeista tarjousaikojen lyhentämistä koskevaa ennakkoilmoitusta tai ohjeellista kausi-ilmoitusta varten</entry>
 <entry key="codelist|name|pin-tran">Luettelo sallituista ilmoituksen alatyyppikoodeista julkisia henkilöliikennepalveluja koskevaa ennakkoilmoitusta varten</entry>
 <entry key="codelist|name|planning">Luettelo sallituista ilmoitustyyppikoodeista suunnitteluilmoitusta varten</entry>
+<entry key="codelist|name|pmc">Luettelo sallituista ilmoitusalatyypeistä ennakkomarkkinakonsultaatioilmoitustyypille</entry>
 <entry key="codelist|name|postcode-country">Luettelo maakoodeista maille, joilla on postinumerot ja jotka edellyttävät niiden käyttöä</entry>
 <entry key="codelist|name|procedure-type-10">Sallittu menettelyn tyyppi ilmoituksen alatyypille 10</entry>
 <entry key="codelist|name|procedure-type-11">Sallittu menettelyn tyyppi ilmoituksen alatyypille 11</entry>

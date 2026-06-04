@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Zoznam povolených kódov podtypov oznámenia pre typ štandardného oznámenia o vyhlásení verejného obstarávania na návrh.</entry>
 <entry key="codelist|name|communication-justification">V tejto tabuľke sa uvádza odôvodnenie obmedzenia práv na prístup k zdrojom v súvislosti s verejným obstarávaním.</entry>
 <entry key="codelist|name|competition">Zoznam povolených kódov typov oznámenia pre typ oznámenia o forme hospodárskej súťaže</entry>
+<entry key="codelist|name|compl">Zoznam povolených kódov podtypov oznámení pre typ oznámenia o dokončení zmluvy</entry>
+<entry key="codelist|name|completion">Zoznam povolených kódov typov oznámení pre typ dokončovacieho formulára</entry>
 <entry key="codelist|name|conditions">Kódy pre podmienky</entry>
+<entry key="codelist|name|consultation">Zoznam povolených kódov typov oznámení pre typ konzultačného formulára</entry>
 <entry key="codelist|name|cont-modif">Zoznam povolených kódov typov oznámenia pre typ oznámenia o formulári zmeny zmluvy</entry>
 <entry key="codelist|name|contract-detail">V tejto tabuľke sa uvádza rámec na uvádzanie údajov týkajúcich sa verejného obstarávania.</entry>
 <entry key="codelist|name|contract-nature">Zoznam kódov používaných na určenie hlavnej a doplňujúcej povahy nákupu</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR zavádza novú sadu pravidiel, ktoré umožňujú Komisii riešiť skreslenia spôsobené zahraničnými dotáciami.</entry>
 <entry key="codelist|name|form-type">V tejto tabuľke sa uvádzajú kódy a hodnoty používané pre typ formulárov zverejňovaných v databáze TED.</entry>
 <entry key="codelist|name|framework-agreement">V tejto tabuľke sa uvádza zoznam kódov na odlíšenie jednotlivých typov rámcových dohôd v rámci ponuky.</entry>
+<entry key="codelist|name|fsr">Zoznam kódov na určenie, či sa uplatňuje nariadenie o zahraničných dotáciách</entry>
 <entry key="codelist|name|gpp-criteria">Kritériá zeleného verejného obstarávania</entry>
 <entry key="codelist|name|indicator">Zoznam elektronických formulárov, v ktorých sú povolené hodnoty ukazovateľov</entry>
 <entry key="codelist|name|innovative-acquisition">V tejto tabuľke sa uvádzajú kódy a hodnoty používané pre typ inovatívnych stavebných prác, tovarov alebo služieb, ktoré sa obstarávajú v rámci verejného obstarávania.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Táto tabuľka poskytuje zoznam kódov a hodnôt používaných na určenie výnimky z uplatnenia opatrenia IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Táto tabuľka poskytuje zoznam kódov a hodnôt používaných na určenie uplatneného opatrenia IPI</entry>
+<entry key="codelist|name|ipi-scope">Táto tabuľka poskytuje zoznam kódov a hodnôt použitých na označenie, že obstarávanie patrí do rozsahu pôsobnosti Medzinárodného nástroja pre verejné obstarávanie</entry>
 <entry key="codelist|name|irregularity-type">Tento zoznam kódov sa vo všeobecnosti týka typov nezrovnalostí opísaných v oddiele 2 prílohy k rozhodnutiu Komisie C(2019) 3452.</entry>
 <entry key="codelist|name|language">Zoznam trojmiestnych kódov jazykov zodpovedajúcich medzinárodnej norme ISO 639 s dodatočnými kódmi pre niektoré jazyky bez priradeného kódu ISO.</entry>
 <entry key="codelist|name|lawful-country">Zoznam krajín, v prípade ktorých existuje právny základ pre zverejňovanie v dodatku k Úradnému vestníku Európskej únie</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Zoznam kódov, podľa ktorých sa určí, či má jazyková verzia právne postavenie.</entry>
 <entry key="codelist|name|main-activity">Zoznam kódov hlavných činností kupujúcich.</entry>
 <entry key="codelist|name|measurement-unit">Zoznam kódov najčastejšie používaných merných jednotiek v medzinárodnom obchode.</entry>
+<entry key="codelist|name|metric-type">Zoznam kódov použitých na charakterizáciu typu metriky pokrytej uvedenými číslami</entry>
 <entry key="codelist|name|missing-info-submission">V tejto tabuľke sa uvádza zoznam kódov, ktoré označujú, či sa môžu informácie o uchádzačoch (úplné alebo čiastočné) doplniť aj po uplynutí lehoty na predloženie ponúk.</entry>
 <entry key="codelist|name|modification-justification">V tejto tabuľke sa uvádzajú hlavné dôvody zmeny zmluvy patriacej do verejného obstarávania.</entry>
 <entry key="codelist|name|nda">Zoznam kódov, podľa ktorých sa určí, či sa vyžaduje dohoda o mlčanlivosti.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Zoznam kódov úrovne NUTS 3 pre Slovinsko</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Zoznam kódov úrovne NUTS 3 pre Švédsko</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Zoznam kódov úrovne NUTS 3 pre Turecko</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Zoznam kódov NUTS úrovne 3 pre Ukrajinu</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Zoznam kódov úrovne 3 NUTS pre Kosovo</entry>
 <entry key="codelist|name|organisation-role">V tejto tabuľke sa uvádza zoznam jednotlivých funkcií organizácií v rámci postupu verejného obstarávania.</entry>
 <entry key="codelist|name|organisation-role-service">Zoznam možných kódov služieb pre poskytovateľov obstarávacích služieb</entry>
 <entry key="codelist|name|other-place-service">V tejto tabuľke sa uvádzajú všeobecné geopolitické oblasti spojené s lokalitou stavebných prác a miestom výkonu alebo dodania prác v súvislosti s verejným obstarávaním.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Zoznam povolených kódov podtypov oznámenia pre typ predbežného oznámenia skrátenej lehoty.</entry>
 <entry key="codelist|name|pin-tran">Zoznam povolených kódov podtypov oznámenia pre typ predbežného oznámenia zmluvy o poskytovaní služieb verejnej dopravy.</entry>
 <entry key="codelist|name|planning">Zoznam povolených kódov typov oznámenia pre typ formulára pre plánovanie verejného obstarávania</entry>
+<entry key="codelist|name|pmc">Zoznam povolených kódov podtypov oznámení pre typ oznámenia o predbežnej trhovej konzultácii</entry>
 <entry key="codelist|name|postcode-country">Zoznam kódov krajín s PSČ, ktorých používanie sa vyžaduje</entry>
 <entry key="codelist|name|procedure-type-10">Povolený typ postupu pre podtyp oznámenia 10</entry>
 <entry key="codelist|name|procedure-type-11">Povolený typ postupu pre podtyp oznámenia 11</entry>

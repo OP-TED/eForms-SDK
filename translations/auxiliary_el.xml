@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Greek. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Νομική βάση</entry>
-<entry key="auxiliary|text|BT-08">Ο ρόλος της οργάνωσης</entry>
-<entry key="auxiliary|text|BT-36">Διάρκεια</entry>
 <entry key="auxiliary|text|accessibility">Κριτήρια προσβασιμότητας</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc δίαυλος επικοινωνίας</entry>
 <entry key="auxiliary|text|award-criteria">Κριτήρια ανάθεσης</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Αγοραστής</entry>
 <entry key="auxiliary|text|buyer-competent">Αρμόδια αρχή</entry>
 <entry key="auxiliary|text|change">Αλλαγή</entry>
-<entry key="auxiliary|text|change-notice">Γνωστοποίηση αλλαγών</entry>
 <entry key="auxiliary|text|company">Επωνυμία και διεύθυνση της εταιρείας</entry>
 <entry key="auxiliary|text|concession-value">Αξία της παραχώρησης</entry>
 <entry key="auxiliary|text|conditions-contract">Όροι σχετικοί με τη σύμβαση</entry>
 <entry key="auxiliary|text|conditions-participation">Όροι συμμετοχής</entry>
 <entry key="auxiliary|text|contract-information">Πληροφορίες σχετικά με τη σύμβαση</entry>
 <entry key="auxiliary|text|contract-terms">Όροι της σύμβασης</entry>
-<entry key="auxiliary|text|contractor-legal-form">Νομική μορφή του αναδόχου</entry>
 <entry key="auxiliary|text|criterion">Κριτήριο</entry>
-<entry key="auxiliary|text|cross-border-description">Περιγραφή</entry>
 <entry key="auxiliary|text|cross-border-law">Εφαρμοστέο διασυνοριακό δίκαιο</entry>
 <entry key="auxiliary|text|design-contest-terms">Όροι του καθεστώτος του διαγωνισμού μελετών</entry>
 <entry key="auxiliary|text|direct-award">Απευθείας ανάθεση</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Εκτιμώμενη αξία των συμφωνιών-πλαισίων στη ομάδα παρτίδων</entry>
 <entry key="auxiliary|text|group-of-lots">Ομάδα παρτίδων</entry>
 <entry key="auxiliary|text|grouping">Ονομασία του ομίλου</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Πληροφορίες σχετικά με την επιβράβευση και τις κυρώσεις</entry>
 <entry key="auxiliary|text|international-procurement-instrument">Η δημόσια σύμβαση εμπίπτει στο πεδίο εφαρμογής του Διεθνούς Μέσου για τις Δημόσιες Συμβάσεις (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Στατιστικά στοιχεία σχετικά με τα μέτρα του Διεθνούς Μέσου για τις Δημόσιες Συμβάσεις (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Γλώσσες στις οποίες μπορούν να υποβληθούν οι εκδηλώσεις ενδιαφέροντος</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Νομική μορφή της αρμόδιας αρχής</entry>
 <entry key="auxiliary|text|lot">Παρτίδα</entry>
 <entry key="auxiliary|text|modification">Τροποποίηση</entry>
-<entry key="auxiliary|text|name">Όνομα</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Επίσημες ονομασίες των μη επικεφαλής του προσφέροντος</entry>
 <entry key="auxiliary|text|non-winning-tender">Μη επιτυχόντες προσφέροντες</entry>
 <entry key="auxiliary|text|notice-information">Πληροφορίες προκήρυξης</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Οργανισμός του οποίου ο προϋπολογισμός χρησιμοποιείται για την πληρωμή της σύμβασης</entry>
 <entry key="auxiliary|text|organisation-mediation">Οργανισμός διαμεσολάβησης</entry>
 <entry key="auxiliary|text|organisation-paying">Οργανισμός που εκτελεί την πληρωμή</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Οργανισμός επεξεργασίας αιτήσεων συμμετοχής</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Οργανισμός επεξεργασίας των προσφορών</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Οργανισμός παροχής εκτός διαδικτύου πρόσβασης στα έγγραφα της δημόσιας σύμβασης</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Οργανισμός που παρέχει πληροφορίες σχετικά με το γενικό κανονιστικό πλαίσιο για την προστασία της απασχόλησης και τους όρους εργασίας το οποίο ισχύει στον τόπο εκτέλεσης της σύμβασης</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Οργανισμός παροχής περισσότερων πληροφοριών των διαδικασιών προσφυγής</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Οργανισμός που παρέχει πληροφορίες σχετικά με το γενικό κανονιστικό πλαίσιο για τους φόρους το οποίο ισχύει στον τόπο εκτέλεσης της σύμβασης</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Πάροχος υπηρεσιών προμηθειών</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Οργανισμός παραλαβής των προσφορών</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Οργανισμός (ή πρόσωπο) που ασκεί προσφυγή και έχει ή είχε συμφέρον σε μια σύμβαση και που υπέστη ή κινδυνεύει να υποστεί ζημία από κατ’ ισχυρισμόν παράβαση</entry>
 <entry key="auxiliary|text|organisation-review">Οργανισμός προσφυγής</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Οργανισμός παροχής περισσότερων πληροφοριών σχετικά με τις προθεσμίες των διαδικασιών προσφυγής</entry>
-<entry key="auxiliary|text|organisation-roles">Ρόλοι των οργανισμών</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Οργανισμός που υπογράφει τη σύμβαση</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Υπεργολάβος</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Οργανισμός παραλαβής αιτήσεων συμμετοχής</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Όροι δημοσίων συμβάσεων</entry>
 <entry key="auxiliary|text|public-opening">Πληροφορίες σχετικά με τη δημόσια αποσφράγιση</entry>
 <entry key="auxiliary|text|publication-gazette">Δημοσίευση στην Επίσημη Εφημερίδα</entry>
-<entry key="auxiliary|text|publication-information">Πληροφορίες δημοσίευσης</entry>
 <entry key="auxiliary|text|purpose">Σκοπός</entry>
 <entry key="auxiliary|text|quality-targets">Ποιοτικοί στόχοι</entry>
 <entry key="auxiliary|text|range-tenders">Εύρος προσφορών</entry>
 <entry key="auxiliary|text|received-submissions">Παραληφθείσες προσφορές ή αιτήσεις συμμετοχής</entry>
 <entry key="auxiliary|text|renewal">Ανανέωση</entry>
 <entry key="auxiliary|text|results">Αποτελέσματα</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Αποτέλεσμα της διαδικασίας δημοσίων συμβάσεων</entry>
 <entry key="auxiliary|text|review">Προσφυγή</entry>
 <entry key="auxiliary|text|review-request-withdrawn">Η αίτηση για αναθεώρηση ή για προσωρινά μέτρα αποσύρθηκε</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Είδος εικαζόμενης παρατυπίας</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Όροι υποβολής</entry>
 <entry key="auxiliary|text|techniques">Τεχνικές</entry>
 <entry key="auxiliary|text|tender">Προσφορά</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Υπεργολάβοι του προσφέροντος</entry>
 <entry key="auxiliary|text|unpublished">μη δημοσιευμένο</entry>
 <entry key="auxiliary|text|value">Αξία</entry>
 <entry key="auxiliary|text|winner">Νικητής</entry>
 <entry key="auxiliary|text|winner-info">Πληροφορίες σχετικά με τους νικητές</entry>
 <entry key="auxiliary|text|winner-lots">Νικητής αυτών των παρτίδων</entry>
-<entry key="auxiliary|text|winner-subcontractor">Υπεργολάβοι του νικητή</entry>
 </properties>

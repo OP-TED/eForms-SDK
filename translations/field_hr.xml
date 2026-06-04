@@ -738,7 +738,7 @@
 <entry key="field|description|BT-5141-Part-List">Zemlja u kojoj je mjesto izvršenja.</entry>
 <entry key="field|description|BT-5141-Procedure">Zemlja u kojoj je mjesto izvršenja.</entry>
 <entry key="field|description|BT-5141-Procedure-List">Zemlja u kojoj je mjesto izvršenja.</entry>
-<entry key="field|description|BT-52-Lot">Postupak se odvija u uzastopnim fazama. U svakoj se fazi određeni sudionici mogu isključiti.</entry>
+<entry key="field|description|BT-52-Lot">Postupak će se odvijati u uzastopnim fazama. Nakon druge faze, neki sudionici mogu biti eliminirani u svakoj sljedećoj fazi.</entry>
 <entry key="field|description|BT-531-Lot">Priroda (npr. usluga) onoga što se kupuje, uz glavnu prirodu.</entry>
 <entry key="field|description|BT-531-Lot-List">Priroda (npr. usluga) onoga što se kupuje, uz glavnu prirodu.</entry>
 <entry key="field|description|BT-531-Part">Priroda (npr. usluga) onoga što se kupuje, uz glavnu prirodu.</entry>
@@ -1039,8 +1039,8 @@
 <entry key="field|description|BT-804-Review">Tehnički ID (REV-XXXX) koji omogućuje referencu na reviziju. Mora biti jedinstven među svim ostalim tehničkim identifikatorima revizije unutar postupka.</entry>
 <entry key="field|description|BT-805-Lot">Postupak javne nabave uključuje primjenu uspostavljenih kriterija za zelenu javnu nabavu (kriteriji za odabir, tehničke specifikacije, kriteriji za dodjelu, stavke o izvršavanju ugovora) na razini Unije, nacionalnoj ili drugoj razini, ako je primjenjivo.</entry>
 <entry key="field|description|BT-805-Lot-List">Postupak javne nabave uključuje primjenu uspostavljenih kriterija za zelenu javnu nabavu (kriteriji za odabir, tehničke specifikacije, kriteriji za dodjelu, stavke o izvršavanju ugovora) na razini Unije, nacionalnoj ili drugoj razini, ako je primjenjivo.</entry>
-<entry key="field|description|BT-806-Procedure">Ako su osnove za isključenje navedene, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi.</entry>
-<entry key="field|description|BT-806-Procedure-List">Ako su osnove za isključenje navedene, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi.</entry>
+<entry key="field|description|BT-806-Procedure">Ako su osnove za isključenje navedene, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi zahtjev.</entry>
+<entry key="field|description|BT-806-Procedure-List">Ako su osnove za isključenje navedene, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi zahtjev.</entry>
 <entry key="field|description|BT-807-Review">Identifikator tijela za reviziju upućuje na organizaciju (ORG-XXXX) ili jednu od njezinih alternativnih kontaktnih točaka (TPO-XXXX) koje se bave revizijama.</entry>
 <entry key="field|description|BT-808-Review">Identifikator podnositelja zahtjeva za reviziju u sljedećem formatu: ORG-XXXX.</entry>
 <entry key="field|description|BT-809-Lot">Kriterij za odabir.</entry>
@@ -1060,8 +1060,8 @@
 <entry key="field|description|BT-813-LotResult">Vrijednost potrošnje energije u kWh/godini za proizvode za koje ne postoji oznaka, i ušteda energije u kWh/godini za usluge, zgrade ili radove. Za proizvode molimo prijavite godišnju potrošnju energije proizvoda. Za usluge, radove i zgrade molimo prijavite godišnje uštede energije.</entry>
 <entry key="field|description|BT-814-LotResult">Vrijednost uštede energije u kWh/godišnje za proizvode, usluge, radove i zgrade. Navedite godišnju uštedu energije.</entry>
 <entry key="field|description|BT-815-LotResult">Navedena ili procijenjena količina. Za proizvode navesti broj proizvoda. Za zgrade navesti korisnu podnu površinu u kvadratnim metrima. Za radove ili usluge, vrijednost će obično biti 1.</entry>
-<entry key="field|description|BT-821-Lot">Ako su kriteriji za odabir definirani, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi.</entry>
-<entry key="field|description|BT-821-Lot-List">Ako su kriteriji za odabir definirani, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi.</entry>
+<entry key="field|description|BT-821-Lot">Ako su kriteriji za odabir definirani, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi zahtjev.</entry>
+<entry key="field|description|BT-821-Lot-List">Ako su kriteriji za odabir definirani, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi zahtjev.</entry>
 <entry key="field|description|BT-88-Procedure">Glavne značajke postupka (npr. opis pojedinačnih faza) i informacije o tome gdje se mogu pronaći sva pravila za postupak. Te se informacije moraju navesti kad je riječ o postupku koji se ne spominje u direktivama o javnoj nabavi. To može biti slučaj, npr. s koncesijama, društvenim i drugim posebnim uslugama te dobrovoljnim objavljivanjem postupaka javne nabave čija je vrijednost ispod pragova EU-a za javnu nabavu.</entry>
 <entry key="field|description|BT-88-Procedure-Language">Glavne značajke postupka (npr. opis pojedinačnih faza) i informacije o tome gdje se mogu pronaći sva pravila za postupak. Te se informacije moraju navesti kad je riječ o postupku koji se ne spominje u direktivama o javnoj nabavi. To može biti slučaj, npr. s koncesijama, društvenim i drugim posebnim uslugama te dobrovoljnim objavljivanjem postupaka javne nabave čija je vrijednost ispod pragova EU-a za javnu nabavu.</entry>
 <entry key="field|description|BT-92-Lot">Koristit će se elektroničko naručivanje.</entry>
@@ -1174,7 +1174,7 @@
 <entry key="field|description|OPT-300-Contract-Signatory-Scheme">Naziv sheme za izgradnju tehničkog ID-a koji se koristi kao referenca: 'organization'</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer">Referenca na pravnu organizaciju koja kupuje. Referenca se vrši koristeći tehnički identifikator organizacije.</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer-Scheme">Naziv sheme za izgradnju tehničkog ID-a koji se koristi kao referenca: 'organization'</entry>
-<entry key="field|description|OPT-300-Procedure-SProvider">Referenca na pravnu organizaciju koja pruža usluge kupcu. Referenca se vrši koristeći tehnički identifikator organizacije.</entry>
+<entry key="field|description|OPT-300-Procedure-SProvider">Referenca na pravnu organizaciju koja pruža usluge podrške nabavi kupcu. Referenca napravljena korištenjem tehničkog identifikatora organizacije.</entry>
 <entry key="field|description|OPT-300-Procedure-SProvider-Scheme">Naziv sheme za izgradnju tehničkog ID-a koji se koristi kao referenca: 'organization'</entry>
 <entry key="field|description|OPT-300-Tenderer">Referenca na pravnu organizaciju koja sudjeluje u podnošenju ponuda i pripada ponuditeljskoj strani. Referenca se vrši koristeći tehnički identifikator organizacije.</entry>
 <entry key="field|description|OPT-300-Tenderer-Scheme">Naziv sheme za izgradnju tehničkog ID-a koji se koristi kao referenca: 'organization'</entry>
@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Naziv sheme koja se koristi za izražavanje tehničkog identifikatora ponude: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Tehnički identifikator rezultata lota, treba slijediti sljedeću shemu: 'RES-xxxx'. Koristi se za međusobne reference.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Naziv sheme koja se koristi za izražavanje tehničkog identifikatora rezultata lota: 'result'</entry>
-<entry key="field|description|OPT-999">Dummy datum potreban shemi. Uvijek će biti '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Dummy datum potreban shemi. Uvijek će biti '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Pravo koje se primjenjuje ako javna nabava uključuje kupce iz više zemalja.</entry>
 <entry key="field|hint|BT-1375-Procedure">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Dodajte onoliko grupa koliko želite uključiti u skupinu grupa.</entry>
@@ -1406,7 +1406,7 @@
 <entry key="field|name|BT-165-Organization-Company-List">Veličina gospodarskog subjekta</entry>
 <entry key="field|name|BT-17-Lot">Elektroničko podnošenje</entry>
 <entry key="field|name|BT-17-Lot-List">Elektroničko podnošenje</entry>
-<entry key="field|name|BT-171-Tender">Mjesto na ljestvici pobjednika</entry>
+<entry key="field|name|BT-171-Tender">Rang ponude</entry>
 <entry key="field|name|BT-1711-Tender">Ponude su rangirane</entry>
 <entry key="field|name|BT-18-Lot">Adresa za podnošenje</entry>
 <entry key="field|name|BT-19-Lot">Obrazloženje nemogućnosti elektroničkog podnošenja</entry>
@@ -2339,11 +2339,11 @@
 <entry key="field|name|BT-810-Lot-List">EED primjenjivo</entry>
 <entry key="field|name|BT-811(a)-Lot">EED popis (osnova)</entry>
 <entry key="field|name|BT-811(a)-Lot-List">EED popis</entry>
-<entry key="field|name|BT-811(a)-LotResult">EED popis</entry>
+<entry key="field|name|BT-811(a)-LotResult">EED popis (osnova)</entry>
 <entry key="field|name|BT-811(a)-LotResult-List">EED popis</entry>
 <entry key="field|name|BT-811(b)-Lot">EED popis (stavka)</entry>
 <entry key="field|name|BT-811(b)-Lot-List">EED popis</entry>
-<entry key="field|name|BT-811(b)-LotResult">EED popis</entry>
+<entry key="field|name|BT-811(b)-LotResult">EED popis (stavka)</entry>
 <entry key="field|name|BT-811(b)-LotResult-List">EED popis</entry>
 <entry key="field|name|BT-812-LotResult">Oznaka energetske učinkovitosti</entry>
 <entry key="field|name|BT-812-LotResult-List">Oznaka energetske učinkovitosti</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">Tehnički ID ponude</entry>
 <entry key="field|name|OPT-322-LotResult">Tehnički ID rezultata lota (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">Tehnički ID rezultata lota (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Datum dodjele ugovora na temelju fiktivne ponude</entry>
+<entry key="field|name|OPT-999-notice">Datum dodjele ugovora na temelju fiktivne ponude</entry>
 </properties>

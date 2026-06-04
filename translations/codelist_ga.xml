@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Liosta de chóid Fochineálacha Fógra a cheadaítear le haghaidh fógra faoi Chineál Fógra Chaighdeánaigh CN.</entry>
 <entry key="codelist|name|communication-justification">Tugtar sa tábla seo an bonn cirt atá le srian a chur le cearta rochtana ar acmhainní i gcomhthéacs an tsoláthair phoiblí.</entry>
 <entry key="codelist|name|competition">Liosta de chóid Cineálacha Fógraí a cheadaítear le haghaidh Cineál Foirme Comórtais</entry>
+<entry key="codelist|name|compl">Liosta de chódanna fógra fochineál ceadaithe do chineál fógra críochnaithe conartha</entry>
+<entry key="codelist|name|completion">Liosta de chódanna cineál fógra ceadaithe do chineál foirme críochnaithe</entry>
 <entry key="codelist|name|conditions">Cóid le haghaidh coinníollacha</entry>
+<entry key="codelist|name|consultation">Liosta de chódanna cineál fógra ceadaithe do chineál foirme comhairliúcháin</entry>
 <entry key="codelist|name|cont-modif">Liosta de chóid Cineálacha Fógraí a cheadaítear le haghaidh fógra faoi Chineál Foirme Modhnaithe Conartha</entry>
 <entry key="codelist|name|contract-detail">Sa tábla seo tá creat chun sonraí a léiriú a bhaineann le soláthar.</entry>
 <entry key="codelist|name|contract-nature">Liosta de chóid a úsáidtear chun príomhchineál agus cineál breise ceannacháin a shonrú</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">Tugann an FSR tacar nua de rialacha isteach a ligeann don Choimisiún dul i ngleic le camus a thugann deontais eachtracha.</entry>
 <entry key="codelist|name|form-type">Sa tábla seo tá na cóid agus na luachanna a úsáidtear le haghaidh na gcineálacha foirmeacha a fhoilsítear ar TED.</entry>
 <entry key="codelist|name|framework-agreement">Tá liosta de chóid sa tábla seo chun idirdhealú a dhéanamh ar na cineáil éagsúla creat-chomhaontaithe a bhaineann le tairiscint.</entry>
+<entry key="codelist|name|fsr">Liosta de na cóid chun a shonrú an mbaineann an Rialachán um Fhóirdheontais Eachtracha</entry>
 <entry key="codelist|name|gpp-criteria">Critéir maidir le Soláthar Poiblí Glas</entry>
 <entry key="codelist|name|indicator">Liosta luachanna táscaire a cheadaítear i ríomhfhoirmeacha</entry>
 <entry key="codelist|name|innovative-acquisition">Sa tábla seo tá na cóid agus na luachanna a úsáidtear do na cineálacha oibreacha, soláthairtí nó seirbhísí nuálacha atá á soláthar i gcomhthéacs an tsoláthair phoiblí.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Soláthraíonn an tábla seo liosta de chóid agus luachanna a úsáidtear chun an eisceacht a bhaineann le cur i bhfeidhm an bhearta IPI a shonrú</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Soláthraíonn an tábla seo liosta de chóid agus luachanna a úsáidtear chun an bhearta IPI a cuireadh i bhfeidhm a shonrú</entry>
+<entry key="codelist|name|ipi-scope">Tugann an tábla seo liosta na gcód agus na luachanna a úsáidtear chun a léiriú go bhfuil soláthar faoi raon feidhme an Ionstraim Soláthair Idirnáisiúnta</entry>
 <entry key="codelist|name|irregularity-type">Tagraíonn an liosta cód seo go ginearálta do na cineálacha neamhrialtachtaí a thuairiscítear i Roinn 2 den Iarscríbhinn a ghabhann le Cinneadh C(2019) 3452 ón gCoimisiún.</entry>
 <entry key="codelist|name|language">Liosta de chóid teanga trí charachtar a bhfuil comhghaol acu le caighdeán idirnáisiúnta ISO 639, agus cóid bhreise ann le haghaidh roinnt teangacha nach bhfuil cód ISO sannta dóibh.</entry>
 <entry key="codelist|name|lawful-country">Liosta na dtíortha a bhfuil bunús dlí le foilsiú ina leith san Fhorlíonadh ar Iris Oifigiúil an Aontais Eorpaigh</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Liosta de chóid chun a shonrú cé acu atá nó nach bhfuil stádas dlíthiúil ag leagan teanga.</entry>
 <entry key="codelist|name|main-activity">Liosta de chóid le haghaidh príomhghníomhaíochtaí na gceannaitheoirí.</entry>
 <entry key="codelist|name|measurement-unit">Liosta de chóid do na hAonaid Tomhais is coitianta a úsáidtear sa trádáil idirnáisiúnta.</entry>
+<entry key="codelist|name|metric-type">Liosta de chódanna a úsáidtear chun an cineál méadrachtaí a chumhdaítear leis na huimhreacha sonraithe a shainiú</entry>
 <entry key="codelist|name|missing-info-submission">Tá liosta cód sa tábla seo ina léirítear an féidir eolas a bhaineann le tairgeoirí (iomlán nó páirteach) a fhorlíonadh fiú tar éis an sprioc-ama le cur isteach.</entry>
 <entry key="codelist|name|modification-justification">Sa tábla seo tá na príomhchúiseanna le conradh a mhodhnú laistigh d’fhearann an tsoláthair phoiblí.</entry>
 <entry key="codelist|name|nda">Liosta de chóid chun a shonrú an bhfuil gá le comhaontú neamhnochta.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Liosta de chóid NUTS leibhéal 3 le haghaidh na Slóivéine</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Liosta de chóid NUTS leibhéal 3 le haghaidh na Sualainne</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Liosta de chóid NUTS leibhéal 3 le haghaidh na Tuirce</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Liosta de chódanna NUTS leibhéal 3 don Úcráin</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Liosta de chódanna NUTS leibhéal 3 do Kosovo</entry>
 <entry key="codelist|name|organisation-role">Tugtar liosta sa tábla seo d’fheidhmeanna éagsúla na n-eagraíochtaí i nós imeachta soláthair.</entry>
 <entry key="codelist|name|organisation-role-service">Liosta de na cóid seirbhíse a d’fhéadfadh a bheith ann do Sholáthraithe Seirbhísí Soláthair</entry>
 <entry key="codelist|name|other-place-service">Tugtar sa tábla seo na réimsí geopholaitiúla leathana a bhaineann le suíomh na n-oibreacha agus leis an áit feidhmíochta nó seachadta i gcomhthéacs an tsoláthair phoiblí.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Liosta de chóid Fochineálacha Fógraí a cheadaítear le haghaidh fógra PIN den chineál Teorann Ama Laghdaithe.</entry>
 <entry key="codelist|name|pin-tran">Liosta de chóid Fochineálacha Fógraí a cheadaítear le haghaidh fógra PIN i leith Fógra Conartha Seirbhíse Iompair Phoiblí.</entry>
 <entry key="codelist|name|planning">Liosta de chóid Cineálacha Fógraí a cheadaítear le haghaidh Cineál Foirme Pleanála</entry>
+<entry key="codelist|name|pmc">Liosta de na cóid fógra fo-shórt ceadaithe le haghaidh Cineál Fógra Comhairliúcháin Réamh-Mhargaidh</entry>
 <entry key="codelist|name|postcode-country">Liosta de chóid tíre le haghaidh tíortha a bhfuil postchóid acu agus inar gá iad a úsáid</entry>
 <entry key="codelist|name|procedure-type-10">Cineál nóis imeachta a cheadaítear le haghaidh fochineál fógra 10</entry>
 <entry key="codelist|name|procedure-type-11">Cineál nóis imeachta a cheadaítear le haghaidh fochineál fógra 11</entry>

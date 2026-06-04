@@ -5,7 +5,7 @@
       <ShortName>Language</ShortName>
       <LongName>language</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/language</LongName>
-      <Version>20250618-0</Version>
+      <Version>20260318-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/language</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -1980,7 +1980,7 @@
             <SimpleValue>Dzongkha</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>τζόνγκα</SimpleValue>
+            <SimpleValue>ντζόνγκχα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Dzongkha</SimpleValue>
@@ -2460,7 +2460,7 @@
             <SimpleValue>Färöisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>φεροενικά</SimpleValue>
+            <SimpleValue>φεροϊκά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Faroese</SimpleValue>
@@ -2620,7 +2620,7 @@
             <SimpleValue>Fidschianisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>φιτζιανή</SimpleValue>
+            <SimpleValue>φιτζιανά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Fijian</SimpleValue>
@@ -2700,7 +2700,7 @@
             <SimpleValue>Filipino</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>φιλιπίνο</SimpleValue>
+            <SimpleValue>φιλιππινέζικα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Filipino</SimpleValue>
@@ -3100,7 +3100,7 @@
             <SimpleValue>Schottisch-Gälisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>σκοτικά γαελικά</SimpleValue>
+            <SimpleValue>σκωτικά γαελικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Scottish Gaelic</SimpleValue>
@@ -4605,79 +4605,79 @@
             <SimpleValue>KAL</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Greenlandic</SimpleValue>
+            <SimpleValue>Kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>гренландски</SimpleValue>
+            <SimpleValue>калааллисут</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>grónština</SimpleValue>
+            <SimpleValue>Kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>grønlandsk</SimpleValue>
+            <SimpleValue>Kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Grönländisch</SimpleValue>
+            <SimpleValue>Kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>καλααλισούτ</SimpleValue>
+            <SimpleValue>καλααλλισούτ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Greenlandic</SimpleValue>
+            <SimpleValue>Kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>groenlandés</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>grööni keel</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>grönlanti</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>groenlandais</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Graonlainnis</SimpleValue>
+            <SimpleValue>Kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>grenlandski</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>grönlandi</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>groenlandese</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>grenlandų kalba</SimpleValue>
+            <SimpleValue>kalaallisutų</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>grenlandiešu valoda</SimpleValue>
+            <SimpleValue>kalālisuta</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Groenlandiż</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Groenlands</SimpleValue>
+            <SimpleValue>Kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>grenlandzki</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>groenlandês</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>groenlandeză</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>grónčina</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>grenlandščina</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>grönländska</SimpleValue>
+            <SimpleValue>kalaallisut</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -4940,7 +4940,7 @@
             <SimpleValue>Kinyarwanda</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>κινγιαρουάντα</SimpleValue>
+            <SimpleValue>κινυαρουάντα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Kinyarwanda</SimpleValue>
@@ -5820,7 +5820,7 @@
             <SimpleValue>Tschiluba</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>λούμπα-λούλουα</SimpleValue>
+            <SimpleValue>λούμπα-λουλούα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Luba-Lulua</SimpleValue>
@@ -5900,7 +5900,7 @@
             <SimpleValue>Marshallesisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>γλώσσα των Νήσων Μάρσαλ</SimpleValue>
+            <SimpleValue>μαρσαλέζικα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Marshallese</SimpleValue>
@@ -5980,7 +5980,7 @@
             <SimpleValue>Manding</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Μαντίνγκ</SimpleValue>
+            <SimpleValue>μαντίνγκ</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Manding</SimpleValue>
@@ -6525,7 +6525,7 @@
             <SimpleValue>MSA</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Malaysian</SimpleValue>
+            <SimpleValue>Malay</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
             <SimpleValue>малайски</SimpleValue>
@@ -6540,10 +6540,10 @@
             <SimpleValue>Malaysisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>μαλαισιανά</SimpleValue>
+            <SimpleValue>μαλαικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Malaysian</SimpleValue>
+            <SimpleValue>Malay</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>malayo</SimpleValue>
@@ -6620,7 +6620,7 @@
             <SimpleValue>Birmanisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>βιρμανική</SimpleValue>
+            <SimpleValue>βιρμανικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Burmese</SimpleValue>
@@ -7100,7 +7100,7 @@
             <SimpleValue>Nynorsk</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>νορβηγική νίνορσκ</SimpleValue>
+            <SimpleValue>νεονορβηγικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Norwegian Nynorsk</SimpleValue>
@@ -7405,79 +7405,79 @@
             <SimpleValue>NYA</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Chewa</SimpleValue>
+            <SimpleValue>Chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>нянджа</SimpleValue>
+            <SimpleValue>чичеуа</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>čičevština</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>chewa</SimpleValue>
+            <SimpleValue>chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
             <SimpleValue>Chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>τσέουα</SimpleValue>
+            <SimpleValue>τσιτσέουα</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Chewa</SimpleValue>
+            <SimpleValue>Chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
             <SimpleValue>chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>tševa keel</SimpleValue>
+            <SimpleValue>njandža keel</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>njandža</SimpleValue>
+            <SimpleValue>chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>chewa</SimpleValue>
+            <SimpleValue>chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Siséivis</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>chewa</SimpleValue>
+            <SimpleValue>čičeva</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>chewa</SimpleValue>
+            <SimpleValue>csicseva</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>chewa</SimpleValue>
+            <SimpleValue>chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>njandža</SimpleValue>
+            <SimpleValue>čičevų</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
             <SimpleValue>čičeva</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Chewa</SimpleValue>
+            <SimpleValue>Chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Chewa</SimpleValue>
+            <SimpleValue>Chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>nianja</SimpleValue>
+            <SimpleValue>chicheua</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>chewa</SimpleValue>
+            <SimpleValue>chichewa</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>čičevčina</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>chewa</SimpleValue>
+            <SimpleValue>njanščina</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>chewa</SimpleValue>
+            <SimpleValue>chichewa</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7565,79 +7565,79 @@
             <SimpleValue>OSS</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Ossetic</SimpleValue>
+            <SimpleValue>Iron Ossetic</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>осетински</SimpleValue>
+            <SimpleValue>Иронски осетински</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>osetština</SimpleValue>
+            <SimpleValue>ironská osetština</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>ossetisk</SimpleValue>
+            <SimpleValue>ironossetisk</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Ossetisch</SimpleValue>
+            <SimpleValue>ironisches Ossetisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>οσετικά</SimpleValue>
+            <SimpleValue>ιρον οσετικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Ossetic</SimpleValue>
+            <SimpleValue>Iron Ossetic</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>osético</SimpleValue>
+            <SimpleValue>osético irón</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>osseetia keel</SimpleValue>
+            <SimpleValue>ironiosseedi keel</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>osseetti</SimpleValue>
+            <SimpleValue>ironosseetti</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>ossète</SimpleValue>
+            <SimpleValue>ossète Iron</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Oiséitis</SimpleValue>
+            <SimpleValue>Oiséitis Iarónach</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>osetski</SimpleValue>
+            <SimpleValue>ironski osetski</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>oszét</SimpleValue>
+            <SimpleValue>iron oszét</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>osseto</SimpleValue>
+            <SimpleValue>osseto iron</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>osetinų kalba</SimpleValue>
+            <SimpleValue>osetinų ironų</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>osetīnu valoda</SimpleValue>
+            <SimpleValue>osetīnu valoda (ironu)</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Ossetian</SimpleValue>
+            <SimpleValue>Ossetiku, varjetà Iron</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Ossetisch</SimpleValue>
+            <SimpleValue>Iron-Ossetisch</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>osetyjski</SimpleValue>
+            <SimpleValue>iroński (wschodnioosetyjski)</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>osseto</SimpleValue>
+            <SimpleValue>osseto ironiano</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>osetă</SimpleValue>
+            <SimpleValue>osetină iron</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>osetčina</SimpleValue>
+            <SimpleValue>ironská osetčina</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>osetinščina</SimpleValue>
+            <SimpleValue>iron osetščina</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>ossetiska</SimpleValue>
+            <SimpleValue>ironossetiska</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -7820,7 +7820,7 @@
             <SimpleValue>Palauisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>παλαουανική</SimpleValue>
+            <SimpleValue>παλάου</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Palauan</SimpleValue>
@@ -8220,7 +8220,7 @@
             <SimpleValue>Rarotonganisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>ραροτονγκανική</SimpleValue>
+            <SimpleValue>ραροτονγκανικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Rarotongan</SimpleValue>
@@ -8380,7 +8380,7 @@
             <SimpleValue>Romani</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>ρομανικά</SimpleValue>
+            <SimpleValue>ρομανί</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Romani</SimpleValue>
@@ -8780,7 +8780,7 @@
             <SimpleValue>Scots</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>σκοτικά</SimpleValue>
+            <SimpleValue>σκωτικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Scots</SimpleValue>
@@ -9100,7 +9100,7 @@
             <SimpleValue>Nordsamisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>βόρεια λαπωνικά</SimpleValue>
+            <SimpleValue>βόρεια σααμικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Northern Sami</SimpleValue>
@@ -9660,7 +9660,7 @@
             <SimpleValue>Siswati</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>σουάζι</SimpleValue>
+            <SimpleValue>σουάτι</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Swazi</SimpleValue>
@@ -10300,7 +10300,7 @@
             <SimpleValue>Tokelauisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>τοκελαουανική</SimpleValue>
+            <SimpleValue>τοκελάου</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Tokelauan</SimpleValue>
@@ -10380,7 +10380,7 @@
             <SimpleValue>Tongaisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>τονγκανική</SimpleValue>
+            <SimpleValue>τονγκανικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Tongan</SimpleValue>
@@ -11340,7 +11340,7 @@
             <SimpleValue>Wallonisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>βαλονικά</SimpleValue>
+            <SimpleValue>βαλλονικά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Walloon</SimpleValue>

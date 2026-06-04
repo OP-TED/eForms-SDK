@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Bezeichnung des Standortes (Stadt, Dorf), der als Erfüllungsort gilt.</entry>
 <entry key="business-term|description|BT-514">Das Land des physischen Standorts der Organisation.</entry>
 <entry key="business-term|description|BT-5141">Das Land des Erfüllungsortes.</entry>
-<entry key="business-term|description|BT-52">Das Verfahren wird in mehreren aufeinanderfolgenden Phasen durchgeführt. In jeder Phase können einige Bewerber/Teilnehmer ausgeschieden werden.</entry>
+<entry key="business-term|description|BT-52">Das Verfahren wird in aufeinanderfolgenden Phasen durchgeführt. Nach der zweiten Phase können in jeder folgenden Phase einige Teilnehmer ausgeschlossen werden.</entry>
 <entry key="business-term|description|BT-53">Der Beschaffer behält sich das Recht (keine Verpflichtung) auf zusätzliche Beschaffungen von dem Auftragnehmer vor (solange der Vertrag gültig ist).</entry>
 <entry key="business-term|description|BT-531">Die zusätzliche Kategorie (z. B. Dienstleistungen) der Auftragsvergabe.</entry>
 <entry key="business-term|description|BT-536">Angaben zum (voraussichtlichen) Beginn der Laufzeit des Vertrags, der Rahmenvereinbarung, des dynamischen Beschaffungssystems oder des Qualifizierungssystems.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Zusätzliche Angaben zur Geheimhaltungsvereinbarung.</entry>
 <entry key="business-term|description|BT-803">Datum und Uhrzeit der elektronischen Übermittlung der Bekanntmachung durch den eSender an das Amt für Veröffentlichungen der Europäischen Union</entry>
 <entry key="business-term|description|BT-805">Das Vergabeverfahren umfasst die Nutzung etablierter Kriterien für die grüne Beschaffung (Eignungskriterien, technische Spezifikationen, Zuschlagskriterien und Klauseln für die Auftragsausführung) auf nationaler, Unions- oder gegebenenfalls anderer Ebene.</entry>
-<entry key="business-term|description|BT-806">Wo die Ausschlussgründe beschrieben sind (z. B. in Auftragsunterlagen, in der Bekanntmachung oder in der Einheitlichen Europäischen Eigenerklärung).</entry>
+<entry key="business-term|description|BT-806">Wo die Ausschlussgründe beschrieben sind (z. B. in Auftragsunterlagen, in der Bekanntmachung oder in dem Antrag für Einheitlichen Europäischen Eigenerklärung).</entry>
 <entry key="business-term|description|BT-809">Das Eignungskriterium.</entry>
 <entry key="business-term|description|BT-810">Die Energieeffizienz-Richtlinie (EU) 2023/1791 findet auf dieses Vergabeverfahren Anwendung.</entry>
 <entry key="business-term|description|BT-811">Auswahl der Produkte, Bauleistungen und Dienstleistungen, die unter die Energiekennzeichnungsrichtlinie, die Ökodesign-Richtlinie, die Unionskriterien für die umweltgerechte Vergabe öffentlicher Aufträge und die Verordnung (EU) 2020/740 fallen. Für Berichterstattungszwecke werden auch Gebäude berücksichtigt, die unter die Verpflichtung nach Artikel 7 EED fallen. Die Liste hat zwei Ebenen und ist daher unterteilt in a) die Grundlage wie „Öko-Label“ und b) den eigentlichen Artikel wie „Geschirrspüler“.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Der Wert des Energieverbrauchs in kWh/Jahr für Produkte, für die kein Label existiert, und Energieeinsparungen in kWh/Jahr für Dienstleistungen, Gebäude oder Arbeiten. Für Produkte bitte den jährlichen Energieverbrauch des Produkts angeben. Für Dienstleistungen, Arbeiten und Gebäude bitte die jährlichen Energieeinsparungen angeben.</entry>
 <entry key="business-term|description|BT-814">Der Wert der Energieeinsparungen in kWh/Jahr für Produkte, Dienstleistungen, Bauleistungen und Gebäude. Geben Sie die jährlichen Energieeinsparungen an.</entry>
 <entry key="business-term|description|BT-815">Die angegebene oder geschätzte Menge. Geben Sie für Produkte die Anzahl der Produkte an. Geben Sie für Gebäude die Nutzfläche in Quadratmetern an. Für Bauleistungen oder Dienstleistungen wird der Wert in der Regel 1 betragen.</entry>
-<entry key="business-term|description|BT-821">Wo die Eignungskriterien festgelegt sind (z. B. in Auftragsunterlagen, in der Bekanntmachung oder in der Einheitlichen Europäischen Eigenerklärung).</entry>
+<entry key="business-term|description|BT-821">Wo die Eignungskriterien festgelegt sind (z. B. in Auftragsunterlagen, in der Bekanntmachung oder in dem Antrag für Einheitlichen Europäischen Eigenerklärung).</entry>
 <entry key="business-term|description|BT-88">Die wichtigsten Merkmale des Verfahrens (z. B. Beschreibung der einzelnen Stufen) und Informationen darüber, wo die vollständigen Vorschriften für das Verfahren zu finden sind. Diese Angaben sind zu machen, wenn das Verfahren nicht zu den in den Vergaberichtlinien genannten Verfahren gehört. Dies kann beispielsweise bei Konzessionen der Fall sein, bzw. wenn es sich um soziale oder andere besondere Dienstleistungen handelt oder im Falle einer freiwilligen Veröffentlichung von Vergabeverfahren mit einem Wert unterhalb der EU-Schwellenwerte für die Auftragsvergabe.</entry>
 <entry key="business-term|description|BT-92">Elektronische Bestellung findet Anwendung.</entry>
 <entry key="business-term|description|BT-93">Elektronische Zahlung findet Anwendung.</entry>
@@ -374,7 +374,7 @@
 <entry key="business-term|name|BG-613">Beschaffer, Nachprüfung — Anträge</entry>
 <entry key="business-term|name|BG-614">EU-Mittel — Information</entry>
 <entry key="business-term|name|BG-7">Bekanntmachung über die Ergebnisse</entry>
-<entry key="business-term|name|BG-700">Gründe für den Ausschluss und Auswahlkriterien</entry>
+<entry key="business-term|name|BG-700">Gründe für den Ausschluss und Eignungskriterien</entry>
 <entry key="business-term|name|BG-701">Ausschlussgründe</entry>
 <entry key="business-term|name|BG-702">Eignungskriterien</entry>
 <entry key="business-term|name|BG-703">Organisation</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Methode zur Berechnung des geschätzten Konzessionswerts</entry>
 <entry key="business-term|name|BT-165">Größe des Wirtschaftsteilnehmers</entry>
 <entry key="business-term|name|BT-17">Elektronische Einreichung</entry>
-<entry key="business-term|name|BT-171">Rang in der Liste der Gewinner</entry>
+<entry key="business-term|name|BT-171">Rangfolge des Angebots</entry>
 <entry key="business-term|name|BT-1711">Das Angebot wurde in die Rangfolge eingeordnet</entry>
 <entry key="business-term|name|BT-18">Adresse für die Einreichung</entry>
 <entry key="business-term|name|BT-19">Begründung, warum eine elektronische Einreichung nicht möglich ist</entry>
@@ -604,7 +604,7 @@
 <entry key="business-term|name|BT-717">Die Auftragsvergabe fällt in den Anwendungsbereich der Richtlinie 2009/33/EG des Europäischen Parlaments und des Rates (Richtlinie zur Förderung sauberer Fahrzeuge — CVD))</entry>
 <entry key="business-term|name|BT-718">Änderung der Auftragsunterlagen am</entry>
 <entry key="business-term|name|BT-719">Datum der Änderung der Auftragsunterlagen</entry>
-<entry key="business-term|name|BT-720">Wert der Ausschreibung</entry>
+<entry key="business-term|name|BT-720">Wert des Angebots</entry>
 <entry key="business-term|name|BT-721">Titel</entry>
 <entry key="business-term|name|BT-722">Bezeichnung des von der EU finanzierten Projekts oder Programms</entry>
 <entry key="business-term|name|BT-7220">EU-Mittel — Programm</entry>
@@ -634,7 +634,7 @@
 <entry key="business-term|name|BT-748">Anwendung dieses Kriteriums</entry>
 <entry key="business-term|name|BT-749">Bezeichnung</entry>
 <entry key="business-term|name|BT-75">Beschreibung der finanziellen Sicherheit</entry>
-<entry key="business-term|name|BT-750">Beschreibung des Auswahlkriteriums</entry>
+<entry key="business-term|name|BT-750">Beschreibung des Eignungskriteriums</entry>
 <entry key="business-term|name|BT-751">Eine Sicherheitsleistung ist erforderlich</entry>
 <entry key="business-term|name|BT-752">Eignungskriterien — Einladung zur zweiten Stufe, Zahl</entry>
 <entry key="business-term|name|BT-7531">Bei der Zahl handelt sich um eine Gewichtung</entry>
@@ -695,7 +695,7 @@
 <entry key="business-term|name|BT-803">Bekanntmachung — eSender-Übermittlungsdatum</entry>
 <entry key="business-term|name|BT-804">Technischer Identifikator für die Überprüfung</entry>
 <entry key="business-term|name|BT-805">Grüne Auftragsvergabe — Kriterien</entry>
-<entry key="business-term|name|BT-806">Grundlage für den Ausschluss</entry>
+<entry key="business-term|name|BT-806">Ausschlussgründe – Quelle</entry>
 <entry key="business-term|name|BT-807">Identifikator der Prüfstelle</entry>
 <entry key="business-term|name|BT-808">Identifikator des Prüfantragstellers</entry>
 <entry key="business-term|name|BT-809">Eignungskriterium</entry>

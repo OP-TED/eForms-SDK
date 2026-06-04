@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Seznam povolených kódů subtypu pro typ oznámení o zahájení zadávacího nebo koncesního řízení – standardní režim</entry>
 <entry key="codelist|name|communication-justification">Tato tabulka poskytuje odůvodnění pro omezení přístupových práv ke zdrojům v souvislosti se zadáváním veřejných zakázek.</entry>
 <entry key="codelist|name|competition">Seznam povolených kódů pro oznámení typu formulář pro zadávání</entry>
+<entry key="codelist|name|compl">Seznam povolených kódů podtypů oznámení pro typ oznámení o dokončení smlouvy</entry>
+<entry key="codelist|name|completion">Seznam povolených kódů typů oznámení pro typ dokončovacího formuláře</entry>
 <entry key="codelist|name|conditions">Kódy podmínek</entry>
+<entry key="codelist|name|consultation">Seznam povolených kódů typů oznámení pro typ konzultačního formuláře</entry>
 <entry key="codelist|name|cont-modif">Seznam povolených kódů pro oznámení typu formulář pro změny smlouvy</entry>
 <entry key="codelist|name|contract-detail">Tato tabulka poskytuje rámec pro zobrazení údajů týkajících se zadávání veřejných zakázek.</entry>
 <entry key="codelist|name|contract-nature">Seznam kódů používaných k určení hlavní a doplňující povahy nákupu</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR zavádí novou sadu pravidel, která umožňují Komisi řešit zkreslení způsobená zahraničními dotacemi.</entry>
 <entry key="codelist|name|form-type">V této tabulce jsou uvedeny kódy a hodnoty použité pro typ formulářů zveřejněných na portálu TED</entry>
 <entry key="codelist|name|framework-agreement">V této tabulce je uveden seznam kódů pro rozlišení různých typů rámcových dohod, jichž se nabídkové řízení týká.</entry>
+<entry key="codelist|name|fsr">Seznam kódů pro určení, zda se uplatňuje nařízení o zahraničních subvencích</entry>
 <entry key="codelist|name|gpp-criteria">Kritéria pro zelené veřejné zakázky</entry>
 <entry key="codelist|name|indicator">Seznam povolených hodnot indikátorů v elektronických formulářích</entry>
 <entry key="codelist|name|innovative-acquisition">V této tabulce jsou uvedeny kódy a hodnoty používané u typů inovativních stavebních prací, dodávek nebo služeb pořizovaných v rámci zadávání veřejných zakázek.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Tato tabulka poskytuje seznam kódů a hodnot používaných k určení výjimky z aplikace opatření IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Tato tabulka poskytuje seznam kódů a hodnot používaných k určení aplikovaného opatření IPI</entry>
+<entry key="codelist|name|ipi-scope">Tabulka poskytuje seznam kódů a hodnot použitých k označení, že zakázka spadá do působnosti Mezinárodního nástroje pro zadávání veřejných zakázek</entry>
 <entry key="codelist|name|irregularity-type">Tento seznam kódů obecně odkazuje na druhy nesrovnalostí popsané v oddíle 2 přílohy rozhodnutí Komise C(2019) 3452.</entry>
 <entry key="codelist|name|language">Seznam třímístných kódů jazyků odpovídajících mezinárodní normě ISO 3166 a doplňkových kódů orgánů pro některé jazyky bez přiděleného kódu ISO</entry>
 <entry key="codelist|name|lawful-country">Seznam zemí, pro které existuje právní základ pro zveřejnění v Dodatku k Úřednímu věstníku Evropské unie</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Seznam kódů specifikujících, zda daná jazyková verze má, či nemá právní status</entry>
 <entry key="codelist|name|main-activity">Seznam kódů pro hlavní činnosti kupujících</entry>
 <entry key="codelist|name|measurement-unit">Seznam kódů nejběžněji používaných měrných jednotek v mezinárodním obchodě</entry>
+<entry key="codelist|name|metric-type">Seznam kódů použitých k charakterizaci typu metriky pokryté uvedenými čísly</entry>
 <entry key="codelist|name|missing-info-submission">V této tabulce je uveden seznam kódů, které uvádějí, zda lze informace týkající se uchazeče (úplné nebo částečné) doplnit i po uplynutí lhůty pro podání nabídky.</entry>
 <entry key="codelist|name|modification-justification">Tato tabulka uvádí hlavní důvody pro změnu smlouvy v oblasti zadávání veřejných zakázek.</entry>
 <entry key="codelist|name|nda">Seznam kódů specifikujících, zda se požaduje dohoda o zachování mlčenlivostij, či nikoli</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Seznam kódů NUTS úrovně 3 pro Slovinsko</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Seznam kódů NUTS úrovně 3 pro Švédsko</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Seznam kódů NUTS úrovně 3 pro Turecko</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Seznam úrovní 3 kódů NUTS pro Ukrajinu</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Seznam kódů NUTS úrovně 3 pro Kosovo</entry>
 <entry key="codelist|name|organisation-role">V této tabulce je uveden seznam různých funkcí organizací v zadávacím řízení.</entry>
 <entry key="codelist|name|organisation-role-service">Seznam možných kódů služeb pro poskytovatele služeb v oblasti zadávání zakázek</entry>
 <entry key="codelist|name|other-place-service">Tato tabulka uvádí široké geopolitické oblasti spojené s umístěním prací a místem plnění nebo dodání v rámci zadávání veřejných zakázek.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Seznam povolených kódů subtypu pro typ předběžného oznámení nebo pravidelného předběžného oznámení použitého za účelem zkrácení lhůty pro podání nabídek</entry>
 <entry key="codelist|name|pin-tran">Seznam povolených kódů subtypu pro typ předběžného oznámení pro veřejné služby v přepravě cestujících</entry>
 <entry key="codelist|name|planning">Seznam povolených kódů pro oznámení typu formulář pro plánování</entry>
+<entry key="codelist|name|pmc">Seznam povolených kódů podtypů oznámení pro typ oznámení o předběžné tržní konzultaci</entry>
 <entry key="codelist|name|postcode-country">Seznam kódů zemí pro země, které mají poštovní směrovací číslo a vyžadují jejich použití</entry>
 <entry key="codelist|name|procedure-type-10">Povolený typ řízení pro podtyp oznámení 10</entry>
 <entry key="codelist|name|procedure-type-11">Povolený typ řízení pro podtyp oznámení 11</entry>

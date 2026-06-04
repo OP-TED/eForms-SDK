@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Organizacija, ki obdeluje ponudbe</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Organizacija, ki prejema ponudbe</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Veljavnost ponudbe</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Informacije o pozni predložitvi</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Informacije za ponudnika</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Pogoji za oddajo ponudbe</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Informacije o Direktivi o čistih vozilih</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Vrsta pogodbe v skladu z Direktivo o čistih vozilih</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Vrsta postopka</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Podrobnosti o vrsti postopka</entry>
 <entry key="group|name|GR-Procedure-Purpose">Namen</entry>
-<entry key="group|name|GR-Procedure-SProvider">Ponudnik storitev</entry>
+<entry key="group|name|GR-Procedure-SProvider">Izvajalec storitev javnega naročanja</entry>
 <entry key="group|name|GR-Procedure-Scope">Obseg javnega naročila</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Dodatna razvrstitev</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Glavna razvrstitev</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Predvideni prihodki, ki prihajajo od uporabnikov koncesije (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Metoda, ki se uporablja za izračun predvidene vrednosti koncesije (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Opis vrednosti koncesije (objavljeno pozneje)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Razvrstitev na seznamu izbranih ponudnikov (objavljeno pozneje)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Razvrstitev ponudbe (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Razvrstitev ponudbe (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Država porekla proizvoda ali storitve (objavljeno pozneje)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Ponudba je variantna (objavljeno pozneje)</entry>

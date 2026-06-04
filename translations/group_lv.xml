@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Organizācija, kas apstrādā piedāvājumus</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Organizācija, kas saņem piedāvājumus</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Piedāvājuma derīgums</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Informācija par novēlotu iesniegšanu</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Informācija pretendentam</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Konkursa noteikumi</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Tīra transportlīdzekļu direktīvas informācija</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Tīra transportlīdzekļu direktīvas līguma veids</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Procedūras veids</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Procedūras veida detaļas</entry>
 <entry key="group|name|GR-Procedure-Purpose">Mērķis</entry>
-<entry key="group|name|GR-Procedure-SProvider">Pakalpojumu sniedzējs</entry>
+<entry key="group|name|GR-Procedure-SProvider">Iepirkuma pakalpojumu sniedzējs</entry>
 <entry key="group|name|GR-Procedure-Scope">Iepirkuma tvērums</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Papildu klasifikācija</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Galvenā klasifikācija</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Aplēstie ieņēmumi no koncesijas lietotājiem (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Metode, kas izmantota koncesijas paredzamās vērtības aprēķināšanai (publicēta vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Koncesijas vērtības apraksts (publicēts vēlāk)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Vieta uzvarētāju sarakstā (publicēts vēlāk)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Piedāvājumu vieta (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Piedāvājumu vieta (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Produkta vai pakalpojuma izcelsmes valsts (publicēts vēlāk)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Piedāvājums ir variants (publicēts vēlāk)</entry>

@@ -738,7 +738,7 @@
 <entry key="field|description|BT-5141-Part-List">Țara în care se află locul efectuării.</entry>
 <entry key="field|description|BT-5141-Procedure">Țara în care se află locul efectuării.</entry>
 <entry key="field|description|BT-5141-Procedure-List">Țara în care se află locul efectuării.</entry>
-<entry key="field|description|BT-52-Lot">Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați.</entry>
+<entry key="field|description|BT-52-Lot">Procedura se va desfășura în etape succesive. După a doua etapă, unii participanți pot fi eliminați în fiecare etapă următoare.</entry>
 <entry key="field|description|BT-531-Lot">Natura (de exemplu, servicii) a ceea ce este achiziționat în plus față de natura principală.</entry>
 <entry key="field|description|BT-531-Lot-List">Natura (de exemplu, servicii) a ceea ce este achiziționat în plus față de natura principală.</entry>
 <entry key="field|description|BT-531-Part">Natura (de exemplu, servicii) a ceea ce este achiziționat în plus față de natura principală.</entry>
@@ -1039,8 +1039,8 @@
 <entry key="field|description|BT-804-Review">ID tehnic (REV-XXXX) care permite referința la revizuire. Trebuie să fie unic între toți ceilalți identificatori tehnici de revizuire din cadrul procedurii.</entry>
 <entry key="field|description|BT-805-Lot">Procedura de achiziții include utilizarea criteriilor achizițiilor publice ecologice (criterii de selecție, specificații tehnice, criterii de atribuire și clauze de performanță a contractului), la nivel național, la nivelul Uniunii sau la alt nivel, după caz.</entry>
 <entry key="field|description|BT-805-Lot-List">Procedura de achiziții include utilizarea criteriilor achizițiilor publice ecologice (criterii de selecție, specificații tehnice, criterii de atribuire și clauze de performanță a contractului), la nivel național, la nivelul Uniunii sau la alt nivel, după caz.</entry>
-<entry key="field|description|BT-806-Procedure">Indicați unde sunt definite motivele de excludere, de exemplu documentele privind achiziția sau DUAE.</entry>
-<entry key="field|description|BT-806-Procedure-List">Indicați unde sunt definite motivele de excludere, de exemplu documentele privind achiziția sau DUAE.</entry>
+<entry key="field|description|BT-806-Procedure">Indicați unde sunt definite motivele de excludere, de exemplu documentele privind achiziția sau DUAE cerere.</entry>
+<entry key="field|description|BT-806-Procedure-List">Indicați unde sunt definite motivele de excludere, de exemplu documentele privind achiziția sau DUAE cerere.</entry>
 <entry key="field|description|BT-807-Review">Identificatorul organismului de revizuire indică o organizație (ORG-XXXX) sau unul dintre punctele sale de contact alternative (TPO-XXXX) care se ocupă de revizuiri.</entry>
 <entry key="field|description|BT-808-Review">Identificatorul solicitantului de revizuire în următorul format: ORG-XXXX.</entry>
 <entry key="field|description|BT-809-Lot">Criteriul de selecție.</entry>
@@ -1060,8 +1060,8 @@
 <entry key="field|description|BT-813-LotResult">Valoarea consumului de energie în kWh/an pentru produsele care nu au etichetă, și economia de energie în kWh/an pentru servicii, clădiri sau lucrări. Pentru produse, vă rugăm să raportați consumul anual de energie al produsului. Pentru servicii, lucrări și clădiri, vă rugăm să raportați economia anuală de energie.</entry>
 <entry key="field|description|BT-814-LotResult">Valoarea economiilor de energie în kWh/an pentru produse, servicii, lucrări și clădiri. Vă rugăm să indicați valoarea economiilor anuale de energie.</entry>
 <entry key="field|description|BT-815-LotResult">Cantitate cunoscută sau estimată. Pentru produse, vă rugăm să raportați numărul de produse. Pentru clădiri, vă rugăm să raportați suprafața utilă în metri pătrați. Pentru lucrări sau servicii, valoarea va fi de obicei 1.</entry>
-<entry key="field|description|BT-821-Lot">Ăn cazul în care criteriile de selecție sunt definite - de exemplu, documentele privind achiziția sau DUAE.</entry>
-<entry key="field|description|BT-821-Lot-List">Ăn cazul în care criteriile de selecție sunt definite - de exemplu, documentele privind achiziția sau DUAE.</entry>
+<entry key="field|description|BT-821-Lot">Ăn cazul în care criteriile de selecție sunt definite - de exemplu, documentele privind achiziția sau DUAE cerere.</entry>
+<entry key="field|description|BT-821-Lot-List">Ăn cazul în care criteriile de selecție sunt definite - de exemplu, documentele privind achiziția sau DUAE cerere.</entry>
 <entry key="field|description|BT-88-Procedure">Principalele caracteristici ale procedurii [de exemplu, descrierea etapei (etapelor) individuale] și informații privind documentele în care pot fi găsite regulile complete ale procedurii. Aceste informații trebuie furnizate în cazul în care procedura nu este una dintre cele menționate în directivele privind achizițiile publice. Acesta poate fi, de exemplu, cazul concesiunilor, al serviciilor sociale și al altor servicii specifice, precum și în cazul publicării voluntare a procedurilor de achiziții publice având valoarea sub pragurile de achiziții publice din UE.</entry>
 <entry key="field|description|BT-88-Procedure-Language">Principalele caracteristici ale procedurii [de exemplu, descrierea etapei (etapelor) individuale] și informații privind documentele în care pot fi găsite regulile complete ale procedurii. Aceste informații trebuie furnizate în cazul în care procedura nu este una dintre cele menționate în directivele privind achizițiile publice. Acesta poate fi, de exemplu, cazul concesiunilor, al serviciilor sociale și al altor servicii specifice, precum și în cazul publicării voluntare a procedurilor de achiziții publice având valoarea sub pragurile de achiziții publice din UE.</entry>
 <entry key="field|description|BT-92-Lot">Se va utiliza comanda electronică.</entry>
@@ -1174,7 +1174,7 @@
 <entry key="field|description|OPT-300-Contract-Signatory-Scheme">Numele schemei folosite pentru a construi ID-ul tehnic utilizat ca referință: 'organization'</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer">Referință la organizația juridică care cumpără. Referința se face utilizând identificatorul tehnic al organizației.</entry>
 <entry key="field|description|OPT-300-Procedure-Buyer-Scheme">Numele schemei folosite pentru a construi ID-ul tehnic utilizat ca referință: 'organization'</entry>
-<entry key="field|description|OPT-300-Procedure-SProvider">Referință la organizația juridică care furnizează servicii cumpărătorului. Referința se face utilizând identificatorul tehnic al organizației.</entry>
+<entry key="field|description|OPT-300-Procedure-SProvider">Referință la organizația juridică care furnizează servicii de suport pentru achiziții cumpărătorului. Referință făcută folosind identificatorul tehnic al organizației.</entry>
 <entry key="field|description|OPT-300-Procedure-SProvider-Scheme">Numele schemei folosite pentru a construi ID-ul tehnic utilizat ca referință: 'organization'</entry>
 <entry key="field|description|OPT-300-Tenderer">Referință la organizația juridică care participă la o licitație și aparține părții licitante. Referința se face utilizând identificatorul tehnic al organizației.</entry>
 <entry key="field|description|OPT-300-Tenderer-Scheme">Numele schemei folosite pentru a construi ID-ul tehnic utilizat ca referință: 'organization'</entry>
@@ -1244,7 +1244,7 @@
 <entry key="field|description|OPT-321-Tender-Scheme">Numele schemei folosit pentru a exprima identificatorul tehnic al ofertei: 'tender'</entry>
 <entry key="field|description|OPT-322-LotResult">Identificatorul tehnic al rezultatului lotului, ar trebui să urmeze această schemă: 'RES-xxxx'. Folosit pentru referințe încrucișate.</entry>
 <entry key="field|description|OPT-322-LotResult-Scheme">Numele schemei folosit pentru a exprima identificatorul tehnic al rezultatului lotului: 'result'</entry>
-<entry key="field|description|OPT-999">Elementul de dată fictiv necesar schemei. Va fi întotdeauna '2000-01-01Z'</entry>
+<entry key="field|description|OPT-999-notice">Elementul de dată fictiv necesar schemei. Va fi întotdeauna '2000-01-01Z'</entry>
 <entry key="field|hint|BT-09(a)-Procedure">Legea aplicabilă în cazul în care achiziția implică cumpărători din țări diferite.</entry>
 <entry key="field|hint|BT-1375-Procedure">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
 <entry key="field|hint|BT-1375-Procedure-Scheme">Puteți adăuga oricât de multe loturi în grupul de loturi.</entry>
@@ -1406,7 +1406,7 @@
 <entry key="field|name|BT-165-Organization-Company-List">Dimensiunea operatorului economic</entry>
 <entry key="field|name|BT-17-Lot">Depunere electronică</entry>
 <entry key="field|name|BT-17-Lot-List">Depunere electronică</entry>
-<entry key="field|name|BT-171-Tender">Locul pe lista câștigătorilor</entry>
+<entry key="field|name|BT-171-Tender">Clasamentul ofertei</entry>
 <entry key="field|name|BT-1711-Tender">Oferta a fost poziționată în clasament</entry>
 <entry key="field|name|BT-18-Lot">Adresa de depunere</entry>
 <entry key="field|name|BT-19-Lot">Justificarea faptului că depunerea electronică nu este posibilă</entry>
@@ -2339,11 +2339,11 @@
 <entry key="field|name|BT-810-Lot-List">EED aplicabilă</entry>
 <entry key="field|name|BT-811(a)-Lot">Lista EED (Bază)</entry>
 <entry key="field|name|BT-811(a)-Lot-List">Lista EED</entry>
-<entry key="field|name|BT-811(a)-LotResult">Lista EED</entry>
+<entry key="field|name|BT-811(a)-LotResult">Lista EED (Bază)</entry>
 <entry key="field|name|BT-811(a)-LotResult-List">Lista EED</entry>
 <entry key="field|name|BT-811(b)-Lot">Lista EED (element)</entry>
 <entry key="field|name|BT-811(b)-Lot-List">Lista EED</entry>
-<entry key="field|name|BT-811(b)-LotResult">Lista EED</entry>
+<entry key="field|name|BT-811(b)-LotResult">Lista EED (element)</entry>
 <entry key="field|name|BT-811(b)-LotResult-List">Lista EED</entry>
 <entry key="field|name|BT-812-LotResult">Eticheta de eficiență energetică</entry>
 <entry key="field|name|BT-812-LotResult-List">Eticheta de eficiență energetică</entry>
@@ -2534,5 +2534,5 @@
 <entry key="field|name|OPT-321-Tender-Scheme">ID-ul tehnic al ofertei</entry>
 <entry key="field|name|OPT-322-LotResult">ID-ul tehnic al rezultatului lotului (RES-XXX)</entry>
 <entry key="field|name|OPT-322-LotResult-Scheme">ID-ul tehnic al rezultatului lotului (RES-XXX)</entry>
-<entry key="field|name|OPT-999">Data de atribuire a ofertei fictive</entry>
+<entry key="field|name|OPT-999-notice">Data de atribuire a ofertei fictive</entry>
 </properties>

@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Nom de la localité (ville ou village) du lieu d’exécution.</entry>
 <entry key="business-term|description|BT-514">Pays de l’adresse physique de l’organisation.</entry>
 <entry key="business-term|description|BT-5141">Code du pays du lieu d’exécution.</entry>
-<entry key="business-term|description|BT-52">La procédure se déroulera en plusieurs étapes À chaque étape, certains participants peuvent être éliminés.</entry>
+<entry key="business-term|description|BT-52">La procédure se déroulera en plusieurs étapes successives. Après la deuxième étape, certains participants peuvent être éliminés à chaque étape suivante.</entry>
 <entry key="business-term|description|BT-53">L’acheteur se réserve le droit (il ne s’agit pas d’une obligation) d’effectuer des achats supplémentaires auprès du contractant (pendant la durée de validité du marché).</entry>
 <entry key="business-term|description|BT-531">Nature (services, par exemple) de ce qui est acheté en plus de la nature principale.</entry>
 <entry key="business-term|description|BT-536">Date (estimée) de début du marché, de l’accord-cadre, du système d’acquisition dynamique ou du système de qualification.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Informations complémentaires sur l’accord de confidentialité.</entry>
 <entry key="business-term|description|BT-803">La date et l’heure de l’avis ont été transmises électroniquement par l’eSender à l’Office des publications de l’Union européenne.</entry>
 <entry key="business-term|description|BT-805">La procédure de passation de marchés comprend l’utilisation du critère établi de marché public écologique (critères de sélection, spécifications techniques, critères d’attribution et clauses d’exécution du contrat), au niveau national, de l’Union ou autre, le cas échéant.</entry>
-<entry key="business-term|description|BT-806">Lorsque les motifs d’exclusion sont décrits, par exemple dans les documents de marché, dans l’avis ou dans le DUME.</entry>
+<entry key="business-term|description|BT-806">Lorsque les motifs d’exclusion sont décrits, par exemple dans les documents de marché, dans l’avis ou dans le DUME demande.</entry>
 <entry key="business-term|description|BT-809">Le critère de sélection.</entry>
 <entry key="business-term|description|BT-810">La directive (UE) 2023/1791 relative à l’efficacité énergétique (DEE) est applicable à cette procédure de passation de marché.</entry>
 <entry key="business-term|description|BT-811">Sélection de produits, travaux et services relevant de la directive sur l’étiquetage énergétique, de la directive sur l’écoconception, des critères de l’Union relatifs aux marchés publics écologiques et du règlement (UE) 2020/740. Aux fins de l’établissement de rapports, les bâtiments couverts par l’obligation prévue à l’article 7 de la directive relative à l'efficacité énergétique sont également inclus. La liste comportant deux niveaux, elle est divisée en a) la base telle que «label écologique» et b) l’article proprement dit tel que «lave-vaisselle».</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">La valeur de la consommation d'énergie en kWh/an pour les produits pour lesquels il n'existe pas d'étiquette, et les économies d'énergie en kWh/an pour les services, les bâtiments ou les travaux. Pour les produits, veuillez indiquer la consommation d'énergie annuelle du produit. Pour les services, les travaux et les bâtiments, veuillez indiquer les économies d'énergie annuelles.</entry>
 <entry key="business-term|description|BT-814">La valeur des économies d’énergie en kWh/an pour les produits, services, travaux et bâtiments. Veuillez rendre compte des économies d’énergie annuelles.</entry>
 <entry key="business-term|description|BT-815">La quantité fournie ou estimée. Pour les produits, veuillez indiquer le nombre de produits. Pour les bâtiments, veuillez indiquer la surface de plancher utile en mètres carrés. Pour les travaux ou les services, la valeur sera généralement de 1.</entry>
-<entry key="business-term|description|BT-821">Lorsque les critères de sélection sont définis, par exemple, dans les documents de marché, dans l’avis ou dans le DUME.</entry>
+<entry key="business-term|description|BT-821">Lorsquе les critères de sélection sont définis, par exemple, dans les documents de marché, dans l’avis ou dans le DUME demande.</entry>
 <entry key="business-term|description|BT-88">Principales caractéristiques de la procédure (description de chacune des étapes, par exemple) et informations sur l’endroit où obtenir les règles complètes applicables à la procédure. Ces informations doivent être fournies lorsque la procédure ne fait pas partie de celles mentionnées dans les directives relatives aux marchés publics. Il peut s’agir, par exemple, des concessions, des services sociaux et autres services spécifiques, et de la publication volontaire de procédures de passation de marchés portant sur des montants inférieurs aux seuils prévus pour les marchés publics de l’Union européenne.</entry>
 <entry key="business-term|description|BT-92">La commande en ligne sera utilisée.</entry>
 <entry key="business-term|description|BT-93">Le paiement en ligne sera utilisé.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Méthode utilisée pour calculer la valeur estimée de la concession</entry>
 <entry key="business-term|name|BT-165">Taille de l’opérateur économique</entry>
 <entry key="business-term|name|BT-17">Soumission par voie électronique</entry>
-<entry key="business-term|name|BT-171">Rang de classement du candidat/lauréat</entry>
+<entry key="business-term|name|BT-171">Classement de l'offre</entry>
 <entry key="business-term|name|BT-1711">L’offre a été classée</entry>
 <entry key="business-term|name|BT-18">Adresse de soumission</entry>
 <entry key="business-term|name|BT-19">Raisons pour lesquelles la soumission par voie électronique n'est pas possible</entry>
@@ -663,7 +663,7 @@
 <entry key="business-term|name|BT-773">Part sous-traitée</entry>
 <entry key="business-term|name|BT-774">Méthode utilisée pour réduire l’incidence environnementale</entry>
 <entry key="business-term|name|BT-775">Objectif social promu</entry>
-<entry key="business-term|name|BT-776">Contratación de innovación</entry>
+<entry key="business-term|name|BT-776">L'achat public innovant</entry>
 <entry key="business-term|name|BT-777">Description</entry>
 <entry key="business-term|name|BT-778">L’accord-cadre prévoit un nombre maximal de candidats</entry>
 <entry key="business-term|name|BT-779">Valeur des paiements de l’offre</entry>
