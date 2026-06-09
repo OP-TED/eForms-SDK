@@ -504,7 +504,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-BT-00125-0154" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9][0-9])|([0-9]{1,8})-(19|20)[0-9][0-9])$')">rule|text|BR-BT-00125-0154</assert>
-		<assert id="BT-125_i_-Lot-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-125_i_-Lot-Scheme_MA</assert>
 		<assert id="BT-125_i_-Lot_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-125_i_-Lot_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/@schemeName">
@@ -1707,7 +1706,6 @@
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-BT-00125-0155" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9][0-9])|([0-9]{1,8})-(19|20)[0-9][0-9])$')">rule|text|BR-BT-00125-0155</assert>
-		<assert id="BT-125_i_-Part-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-125_i_-Part-Scheme_MA</assert>
 		<assert id="BT-125_i_-Part_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-125_i_-Part_WS</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID/@schemeName">
@@ -2357,7 +2355,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier">
 		<assert id="BR-BT-01501-0102" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9][0-9])|([0-9]{1,8})-(19|20)[0-9][0-9])$')">rule|text|BR-BT-01501-0102</assert>
-		<assert id="BT-1501_n_-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|BT-1501_n_-Contract-Scheme_MA</assert>
 		<assert id="BT-1501_n_-Contract_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|BT-1501_n_-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:ContractModification/efbc:ChangedNoticeIdentifier/@schemeName">
@@ -3267,7 +3264,6 @@
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-OPT-00100-0052" role="ERROR" test="matches(normalize-space(.),'^([a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}-(0[1-9]|[1-9][0-9])|([0-9]{1,8})-(19|20)[0-9][0-9])$')">rule|text|BR-OPT-00100-0052</assert>
-		<assert id="OPT-100-Contract-Scheme_MA" role="ERROR" test="count(@schemeName) > 0">rule|text|OPT-100-Contract-Scheme_MA</assert>
 		<assert id="OPT-100-Contract_WS" role="ERROR" test="replace(replace(.,'\s+$',''),'^\s+','') eq .">rule|text|OPT-100-Contract_WS</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/cac:NoticeDocumentReference/cbc:ID/@schemeName">
