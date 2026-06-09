@@ -1,7 +1,12 @@
 name: Build and analyze eForms SDK
 
 on:
+  # Build on pushes to the trunk only (i.e. merges). Source branches are built
+  # via pull_request, so pushing one with an open PR runs the checks just once.
   push:
+    branches:
+      - develop
+      - efx-2
   pull_request:
 
   # Allows to run this workflow manually from the Actions tab
