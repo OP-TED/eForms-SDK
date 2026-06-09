@@ -19,6 +19,8 @@
 	efac:LotTender/efac:TenderingParty/cbc:ID" />
 	<let name="global-res-to-con" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:SettledContract/cbc:ID" />
 	<let name="global-res-to-ten" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/cbc:ID" />
+	<!-- new global variable for contracts references to tenders -->
+	<let name="global-con-to-ten" value="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID"/>
 
 	<!-- Variable for duplicate values -->
 	<let name="global-org-ids-duplicates" value="for $val in $global-org-ids return $val[count($global-org-ids[. = $val]) > 1]"/>
@@ -29,6 +31,8 @@
 	<let name="global-con-business-ids-duplicates" value="for $val in $global-con-business-ids return $val[count($global-con-business-ids[. = $val]) > 1]"/>
 	<let name="global-ten-ids-duplicates" value="for $val in $global-ten-ids return $val[count($global-ten-ids[. = $val]) > 1]"/>
 	<let name="global-tpa-ids-duplicates" value="for $val in $global-tpa-ids return $val[count($global-tpa-ids[. = $val]) > 1]"/>
+	<!-- duplicate references from contracts to the same tender -->
+	<let name="global-con-ten-duplicates" value="for $val in $global-con-to-ten return $val[count($global-con-to-ten[. = $val]) > 1]"/>
 	
 	<!-- Rules on identifiers -->
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Organizations/efac:Organization/efac:Company/cac:PartyIdentification/cbc:ID">
@@ -63,6 +67,11 @@
 
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID">
 		<assert id="BR-OPT-00322-0051" role="ERROR" test="not(. = $global-res-ids-duplicates)">rule|text|BR-OPT-00322-0051</assert>
+	</rule>
+
+	<!-- rule on reference to tenders -->
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract/efac:LotTender/cbc:ID">
+		<assert id="BR-BT-03202-0102" role="ERROR" test="not(. = $global-con-ten-duplicates)">rule|text|BR-BT-03202-0102</assert>
 	</rule>
 
 	<!-- Rules with "every ... satisfies ... = $global... -->
