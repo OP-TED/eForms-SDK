@@ -131,32 +131,6 @@
           <version>${version.eforms-sdk-analyzer}</version>
         </dependency>
       </dependencies>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>exec-maven-plugin</artifactId>
-            <executions>
-              <execution>
-                <phase>validate</phase>
-                <goals>
-                  <goal>exec</goal>
-                </goals>
-                <configuration>
-                  <executable>java</executable>
-                  <arguments>
-                    <argument>-Xmx5g</argument>
-                    <argument>-classpath</argument>
-                    <classpath/>
-                    <argument>eu.europa.ted.eforms.sdk.analysis.Application</argument>
-                    <argument>${project.basedir}</argument>
-                  </arguments>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
     </profile>
     <profile>
       <id>benchmark</id>
