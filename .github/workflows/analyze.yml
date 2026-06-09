@@ -21,5 +21,18 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      - name: Build and analyze SDK
-        run: mvn clean install -Panalyze --no-transfer-progress
+      - name: Build SDK
+        run: mvn clean install --no-transfer-progress
+
+      # Run the analyser as a plain Java process rather than via the
+      # exec-maven-plugin, so its own exit code becomes this step's exit code.
+      # A failing analysis then ends with the analyser's report and a single
+      # "exit code 1", instead of Maven wrapping it in an ExecuteException
+      # stack trace. The classpath (analyser + its dependencies) is still
+      # resolved by Maven from the version pinned in the pom's analyze profile.
+      - name: Analyse SDK
+        run: |
+          mvn --quiet --no-transfer-progress -Panalyze \
+            dependency:build-classpath -Dmdep.outputFile=analyser.classpath -DincludeScope=runtime
+          java -Xmx5g -cp "$(cat analyser.classpath)" \
+            eu.europa.ted.eforms.sdk.analysis.Application "$GITHUB_WORKSPACE"
