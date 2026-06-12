@@ -580,10 +580,10 @@
 		<assert id="OPT-140-Lot_R" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) &lt; 2">rule|text|OPT-140-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']">
-		<assert id="BT-615-Lot_R" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:ExternalReference/cbc:URI) &lt; 2">rule|text|BT-615-Lot_R</assert>
+		<assert id="BT-15-Lot_R" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:ExternalReference/cbc:URI) &lt; 2">rule|text|BT-15-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']">
-		<assert id="BT-15-Lot_R" role="ERROR" diagnostics="BT-15-Lot" test="count(cac:ExternalReference/cbc:URI) &lt; 2">rule|text|BT-15-Lot_R</assert>
+		<assert id="BT-615-Lot_R" role="ERROR" diagnostics="BT-615-Lot" test="count(cac:ExternalReference/cbc:URI) &lt; 2">rule|text|BT-615-Lot_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language">
 		<assert id="BT-737-Lot_R" role="ERROR" diagnostics="BT-737-Lot" test="count(cbc:ID) &lt; 2">rule|text|BT-737-Lot_R</assert>
@@ -1052,10 +1052,10 @@
 		<assert id="OPT-140-Part_R" role="ERROR" diagnostics="OPT-140-Part" test="count(cbc:ID) &lt; 2">rule|text|OPT-140-Part_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']">
-		<assert id="BT-615-Part_R" role="ERROR" diagnostics="BT-615-Part" test="count(cac:ExternalReference/cbc:URI) &lt; 2">rule|text|BT-615-Part_R</assert>
+		<assert id="BT-15-Part_R" role="ERROR" diagnostics="BT-15-Part" test="count(cac:ExternalReference/cbc:URI) &lt; 2">rule|text|BT-15-Part_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']">
-		<assert id="BT-15-Part_R" role="ERROR" diagnostics="BT-15-Part" test="count(cac:ExternalReference/cbc:URI) &lt; 2">rule|text|BT-15-Part_R</assert>
+		<assert id="BT-615-Part_R" role="ERROR" diagnostics="BT-615-Part" test="count(cac:ExternalReference/cbc:URI) &lt; 2">rule|text|BT-615-Part_R</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NonOfficialLanguages/cac:Language">
 		<assert id="BT-737-Part_R" role="ERROR" diagnostics="BT-737-Part" test="count(cbc:ID) &lt; 2">rule|text|BT-737-Part_R</assert>
