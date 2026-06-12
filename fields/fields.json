@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "eforms-sdk-1.15.0-rc.1",
+  "sdkVersion" : "eforms-sdk-1.15.0-rc.2",
   "metadataDatabase" : {
     "version" : "1.14.39",
-    "createdOn" : "2026-06-04T12:00:11"
+    "createdOn" : "2026-06-12T15:24:50"
   },
   "businessEntities" : [ {
     "id" : "Address",
@@ -1730,7 +1730,7 @@
     "xsdSequenceOrder" : [ { "cac:CallForTendersDocumentReference" : 32 } ],
     "repeatable" : true
   }, {
-    "id" : "ND-LotRestrictedProcurementDocumentAttachment",
+    "id" : "ND-LotNonRestrictedProcurementDocumentAttachment",
     "parentId" : "ND-LotProcurementDocument",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']",
     "xpathRelative" : "cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']",
@@ -1738,7 +1738,7 @@
     "repeatable" : false,
     "name" : "NULL"
   }, {
-    "id" : "ND-LotNonRestrictedProcurementDocumentAttachment",
+    "id" : "ND-LotRestrictedProcurementDocumentAttachment",
     "parentId" : "ND-LotProcurementDocument",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']",
     "xpathRelative" : "cac:Attachment[../cbc:DocumentType/text()='restricted-document']",
@@ -2346,7 +2346,7 @@
     "xsdSequenceOrder" : [ { "cac:CallForTendersDocumentReference" : 32 } ],
     "repeatable" : true
   }, {
-    "id" : "ND-PartRestrictedProcurementDocumentAttachment",
+    "id" : "ND-PartNonRestrictedProcurementDocumentAttachment",
     "parentId" : "ND-PartProcurementDocument",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']",
     "xpathRelative" : "cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']",
@@ -2354,7 +2354,7 @@
     "repeatable" : false,
     "name" : "NULL"
   }, {
-    "id" : "ND-PartNonRestrictedProcurementDocumentAttachment",
+    "id" : "ND-PartRestrictedProcurementDocumentAttachment",
     "parentId" : "ND-PartProcurementDocument",
     "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']",
     "xpathRelative" : "cac:Attachment[../cbc:DocumentType/text()='restricted-document']",
@@ -7569,7 +7569,7 @@
     "parentNodeId" : "ND-LotNonRestrictedProcurementDocumentAttachment",
     "name" : "Documents URL",
     "btId" : "BT-15",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI",
     "xpathRelative" : "cac:ExternalReference/cbc:URI",
     "xsdSequenceOrder" : [ { "cac:ExternalReference" : 4 }, { "cbc:URI" : 2 } ],
     "type" : "url",
@@ -7613,7 +7613,7 @@
     "parentNodeId" : "ND-PartNonRestrictedProcurementDocumentAttachment",
     "name" : "Documents URL",
     "btId" : "BT-15",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI",
     "xpathRelative" : "cac:ExternalReference/cbc:URI",
     "xsdSequenceOrder" : [ { "cac:ExternalReference" : 4 }, { "cbc:URI" : 2 } ],
     "type" : "url",
@@ -30657,7 +30657,7 @@
     "parentNodeId" : "ND-LotRestrictedProcurementDocumentAttachment",
     "name" : "Documents Restricted URL",
     "btId" : "BT-615",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI",
     "xpathRelative" : "cac:ExternalReference/cbc:URI",
     "xsdSequenceOrder" : [ { "cac:ExternalReference" : 4 }, { "cbc:URI" : 2 } ],
     "type" : "url",
@@ -30701,7 +30701,7 @@
     "parentNodeId" : "ND-PartRestrictedProcurementDocumentAttachment",
     "name" : "Documents Restricted URL",
     "btId" : "BT-615",
-    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='non-restricted-document']/cac:ExternalReference/cbc:URI",
+    "xpathAbsolute" : "/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Part']/cac:TenderingTerms/cac:CallForTendersDocumentReference/cac:Attachment[../cbc:DocumentType/text()='restricted-document']/cac:ExternalReference/cbc:URI",
     "xpathRelative" : "cac:ExternalReference/cbc:URI",
     "xsdSequenceOrder" : [ { "cac:ExternalReference" : 4 }, { "cbc:URI" : 2 } ],
     "type" : "url",
@@ -45272,7 +45272,7 @@
         "noticeTypes" : [ "11", "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4" ],
         "value" : "{OPT-322-LotResult} ${OPT-322-LotResult is unique in /OPT-322-LotResult}",
         "severity" : "ERROR",
-        "message" : "rule|text|BR-BT-00322-0011"
+        "message" : "rule|text|BR-OPT-00322-0051"
       } ]
     }
   }, {
