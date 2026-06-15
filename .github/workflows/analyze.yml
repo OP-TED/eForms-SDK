@@ -41,3 +41,17 @@ jobs:
             dependency:build-classpath -Dmdep.outputFile=analyser.classpath -DincludeScope=runtime
           java -Xmx5g -cp "$(cat analyser.classpath)" \
             eu.europa.ted.eforms.sdk.analysis.Application "$GITHUB_WORKSPACE"
+
+      # The analyser writes analyzer-summary.txt, analyzer-report.txt and analyzer.log to the working
+      # directory; collect them as artifacts even when the analysis fails (if: always()), so the
+      # details are available without re-running or flooding the job log.
+      - name: Upload analysis artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sdk-analysis
+          path: |
+            analyzer-summary.txt
+            analyzer-report.txt
+            analyzer.log
+          if-no-files-found: warn
