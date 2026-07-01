@@ -174,7 +174,7 @@
 		<assert id="BR-OPT-00140-0106" role="ERROR" diagnostics="OPT-140-Lot" test="count(cbc:ID) = 0 or (cbc:DocumentType)">rule|text|BR-OPT-00140-0106</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='conditions'][$noticeSubType = '8']">
-		<assert id="BR-BT-00070-0052" role="ERROR" diagnostics="BT-70-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode)">rule|text|BR-BT-00070-0052</assert>
+		<assert id="BR-BT-00070-0086" role="ERROR" diagnostics="BT-70-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode)">rule|text|BR-BT-00070-0086</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:ContractExecutionRequirement[cbc:ExecutionRequirementCode/@listName='nda'][$noticeSubType = '8']">
 		<assert id="BR-BT-00802-0013" role="ERROR" diagnostics="BT-802-Lot" test="count(cbc:Description) = 0 or (cbc:ExecutionRequirementCode/normalize-space(text()) = 'true')">rule|text|BR-BT-00802-0013</assert>
@@ -188,7 +188,7 @@
 		<assert id="BR-BT-00076-0057" role="ERROR" diagnostics="BT-76-Lot" test="count(cbc:CompanyLegalForm) &gt; 0 or not(cbc:CompanyLegalFormCode/normalize-space(text()) = 'true')">rule|text|BR-BT-00076-0057</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '8']">
-		<assert id="BR-BT-00040-0139" role="ERROR" diagnostics="ND-NonUBLTenderingTerms_BT-40-Lot" test="count(efac:SelectionCriteria/efbc:SecondStageIndicator) = 0 or (../../../../../cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:LimitationDescription = true())">rule|text|BR-BT-00040-0139</assert>
+		<assert id="BR-BT-00040-0139" role="ERROR" diagnostics="ND-NonUBLTenderingTerms_BT-40-Lot" test="count(efac:SelectionCriteria/efbc:SecondStageIndicator) = 0 or not(not(../../../../../cac:TenderingProcess/cac:EconomicOperatorShortList/cbc:LimitationDescription = true()) or not(../../../../cac:TendererQualificationRequest[not(cbc:CompanyLegalFormCode)][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='missing-info-submission'])][not(cac:SpecificTendererRequirement/cbc:TendererRequirementTypeCode[@listName='reserved-procurement'])]/cac:SpecificTendererRequirement[cbc:TendererRequirementTypeCode/@listName='selection-criteria-source']/cbc:TendererRequirementTypeCode/normalize-space(text()) = 'epo-notice'))">rule|text|BR-BT-00040-0139</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Funding[$noticeSubType = '8']">
 		<assert id="BR-BT-06140-0013" role="ERROR" diagnostics="BT-6140-Lot" test="count(cbc:Description) = 0 or not(not(cbc:FundingProgramCode) and not(efbc:FinancingIdentifier))">rule|text|BR-BT-06140-0013</assert>
