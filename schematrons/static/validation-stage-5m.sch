@@ -70,7 +70,7 @@
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:ID">
 		<assert id="BR-OPT-00322-0051" role="ERROR" test="not(. = $global-res-ids-duplicates)">rule|text|BR-OPT-00322-0051</assert>
 		<!-- Rule on number of contracts -->
-		<assert id="BR-OPT-00322-0053" role="ERROR" test="(count(../efac:TenderLot/cbc:ID/normalize-space(text())) lt 2) or (../efac:TenderLot/cbc:ID/normalize-space(text()) = $global-lot-dps-or-fa)">rule|text|BR-OPT-00322-0053</assert>
+		<assert id="BR-OPT-00322-0053" role="ERROR" test="(count(../efac:SettledContract/cbc:ID/normalize-space(text())) lt 2) or (every $lotofresult in ../efac:TenderLot/cbc:ID/normalize-space(text()) satisfies ($lotofresult = ../../../../../../../cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID[(((../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode) and (../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='framework-agreement']/cbc:ContractingSystemTypeCode/normalize-space(text()) != 'none')) or ((../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage']/cbc:ContractingSystemTypeCode) and (../cac:TenderingProcess/cac:ContractingSystem[cbc:ContractingSystemTypeCode/@listName='dps-usage']/cbc:ContractingSystemTypeCode/normalize-space(text()) != 'none')))]/normalize-space(text())))">rule|text|BR-OPT-00322-0053</assert>
 	</rule>
 
 	<!-- rule on reference to tenders -->
