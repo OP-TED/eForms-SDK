@@ -16681,13 +16681,14 @@
 <entry key="code|name|qu-sy.15">Ilmoitus kelpuuttamisjärjestelmästä – toimialakohtainen direktiivi</entry>
 <entry key="code|name|received-submission-type.part-req">Osallistumishakemukset</entry>
 <entry key="code|name|received-submission-type.t-esubm">Sähköisesti tehdyt tarjoukset</entry>
+<entry key="code|name|received-submission-type.t-large">Suurilta yrityksiltä saadut tarjoukset</entry>
 <entry key="code|name|received-submission-type.t-med">Keskikokoisilta yrityksiltä saadut tarjoukset</entry>
 <entry key="code|name|received-submission-type.t-micro">Mikroyrityksiltä saadut tarjoukset</entry>
-<entry key="code|name|received-submission-type.t-no-eea">Euroopan talousalueen ulkopuolisissa maissa rekisteröityjen tarjoajien tarjoukset</entry>
+<entry key="code|name|received-submission-type.t-no-eea">ETA:n ulkopuolisten maiden tarjoajilta saadut tarjoukset</entry>
 <entry key="code|name|received-submission-type.t-no-verif">Tarjoukset, joiden osalta ei ole tarkistettu, voidaanko ne ottaa käsiteltäväksi</entry>
-<entry key="code|name|received-submission-type.t-oth-eea">Muihin Euroopan talousalueen maihin kuin ostajan maahan rekisteröityjen tarjoajien tarjoukset</entry>
+<entry key="code|name|received-submission-type.t-oth-eea">Muihin ETA-maihin kuin ostajan maahan rekisteröidyiltä tarjoajilta saadut tarjoukset</entry>
 <entry key="code|name|received-submission-type.t-small">Pieniltä yrityksiltä saadut tarjoukset</entry>
-<entry key="code|name|received-submission-type.t-sme">Mikroyrityksiltä taikka pieniltä tai keskisuurilta yrityksiltä saadut tarjoukset</entry>
+<entry key="code|name|received-submission-type.t-sme">Pk-yrityksiltä saadut tarjoukset</entry>
 <entry key="code|name|received-submission-type.t-verif-inad">Tarjoukset, jotka on tarkistettu ja joita ei oteta käsiteltäväksi</entry>
 <entry key="code|name|received-submission-type.t-verif-inad-low">Tarjoukset, jotka on tarkistettu ja joita ei oteta käsiteltäväksi poikkeuksellisen alhaisten hintojen tai kustannusten vuoksi</entry>
 <entry key="code|name|received-submission-type.tenders">Tarjoukset</entry>

@@ -16681,13 +16681,14 @@
 <entry key="code|name|qu-sy.15">Meddelande om att det finns ett kvalificeringssystem – försörjningsdirektivet</entry>
 <entry key="code|name|received-submission-type.part-req">Anbudsansökan</entry>
 <entry key="code|name|received-submission-type.t-esubm">Anbud som lämnas in elektroniskt</entry>
+<entry key="code|name|received-submission-type.t-large">Anbud från stora företag</entry>
 <entry key="code|name|received-submission-type.t-med">Anbud från medelstora företag</entry>
 <entry key="code|name|received-submission-type.t-micro">Anbud från mikroföretag</entry>
-<entry key="code|name|received-submission-type.t-no-eea">Anbud från anbudsgivare som är registrerade i länder utanför Europeiska ekonomiska samarbetsområdet</entry>
+<entry key="code|name|received-submission-type.t-no-eea">Anbud från organisationer i länder utanför EES</entry>
 <entry key="code|name|received-submission-type.t-no-verif">Anbud för vilka det inte har kontrollerats om de är godtagbara eller icke-godtagbara</entry>
-<entry key="code|name|received-submission-type.t-oth-eea">Anbud från anbudsgivare som är registrerade i andra länder i Europeiska ekonomiska samarbetsområdet än köparens land</entry>
+<entry key="code|name|received-submission-type.t-oth-eea">Anbud från organisationer som är registrerade i ett annat EES-land än köparens land</entry>
 <entry key="code|name|received-submission-type.t-small">Anbud från små företag</entry>
-<entry key="code|name|received-submission-type.t-sme">Anbud från mikroföretag samt små och medelstora företag</entry>
+<entry key="code|name|received-submission-type.t-sme">Anbud från små och medelstora företag</entry>
 <entry key="code|name|received-submission-type.t-verif-inad">Anbud som har kontrollerats och som inte är godtagbara</entry>
 <entry key="code|name|received-submission-type.t-verif-inad-low">Anbud som har kontrollerats och som inte är godtagbara på grund av ett onormalt lågt pris eller en onormalt låg kostnad</entry>
 <entry key="code|name|received-submission-type.tenders">Anbud</entry>

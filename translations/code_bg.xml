@@ -10664,7 +10664,7 @@
 <entry key="code|name|language.NSO">северен сото</entry>
 <entry key="code|name|language.NYA">чичеуа</entry>
 <entry key="code|name|language.OCI">окситан</entry>
-<entry key="code|name|language.OSS">Иронски осетински</entry>
+<entry key="code|name|language.OSS">иронски осетински</entry>
 <entry key="code|name|language.PAN">панджаби</entry>
 <entry key="code|name|language.PAP">папиаменто</entry>
 <entry key="code|name|language.PAU">палауански</entry>
@@ -16681,13 +16681,14 @@
 <entry key="code|name|qu-sy.15">Обявление за съществуването на квалификационна система – Секторната директива</entry>
 <entry key="code|name|received-submission-type.part-req">Заявления за участие</entry>
 <entry key="code|name|received-submission-type.t-esubm">Оферти, подадени по електронен път</entry>
+<entry key="code|name|received-submission-type.t-large">Оферти от големи предприятия</entry>
 <entry key="code|name|received-submission-type.t-med">Оферти от средни предприятия</entry>
 <entry key="code|name|received-submission-type.t-micro">Оферти от микропредприятия</entry>
-<entry key="code|name|received-submission-type.t-no-eea">Оферти от оференти, регистрирани в държави извън Европейското икономическо пространство</entry>
+<entry key="code|name|received-submission-type.t-no-eea">Оферти от оференти от държави извън ЕИП</entry>
 <entry key="code|name|received-submission-type.t-no-verif">Оферти, за които не е установено дали са допустими, или недопустими</entry>
-<entry key="code|name|received-submission-type.t-oth-eea">Оферти от оференти, регистрирани в държави от Европейското икономическо пространство, различни от държавата на купувача</entry>
+<entry key="code|name|received-submission-type.t-oth-eea">Оферти от оференти, регистрирани в държава от ЕИП, различна от държавата на купувача</entry>
 <entry key="code|name|received-submission-type.t-small">Оферти от малки предприятия</entry>
-<entry key="code|name|received-submission-type.t-sme">Оферти от микро-, малки или средни предприятия</entry>
+<entry key="code|name|received-submission-type.t-sme">Оферти от МСП</entry>
 <entry key="code|name|received-submission-type.t-verif-inad">Оферти, които са установени като недопустими</entry>
 <entry key="code|name|received-submission-type.t-verif-inad-low">Оферти, които са установени като недопустими поради необичайно ниска цена или разхо</entry>
 <entry key="code|name|received-submission-type.tenders">Оферти</entry>

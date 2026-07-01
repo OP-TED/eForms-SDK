@@ -16681,13 +16681,14 @@
 <entry key="code|name|qu-sy.15">Avviso sull’esistenza di un sistema di qualificazione – direttiva settoriale</entry>
 <entry key="code|name|received-submission-type.part-req">Domande di partecipazione</entry>
 <entry key="code|name|received-submission-type.t-esubm">Offerte presentate per via elettronica</entry>
+<entry key="code|name|received-submission-type.t-large">Offerte presentate da grandi imprese</entry>
 <entry key="code|name|received-submission-type.t-med">Offerte presentate da medie imprese</entry>
 <entry key="code|name|received-submission-type.t-micro">Offerte presentate da microimprese</entry>
-<entry key="code|name|received-submission-type.t-no-eea">Offerte presentate da offerenti con sede in paesi al di fuori dello Spazio economico europeo</entry>
+<entry key="code|name|received-submission-type.t-no-eea">Offerte presentate da organizzazioni con sede in paesi non appartenenti al SEE</entry>
 <entry key="code|name|received-submission-type.t-no-verif">Offerte la cui ammissibilità non è stata verificata</entry>
-<entry key="code|name|received-submission-type.t-oth-eea">Offerte presentate da offerenti con sede in paesi dello Spazio economico europeo diversi dal paese del committente</entry>
+<entry key="code|name|received-submission-type.t-oth-eea">Offerte presentate da organizzazioni con sede in un paese del SEE diverso dal paese del committente</entry>
 <entry key="code|name|received-submission-type.t-small">Offerte presentate da piccole imprese</entry>
-<entry key="code|name|received-submission-type.t-sme">Offerte presentate da microimprese o piccole o medie imprese</entry>
+<entry key="code|name|received-submission-type.t-sme">Offerte presentate da PMI</entry>
 <entry key="code|name|received-submission-type.t-verif-inad">Offerte verificate e inammissibili</entry>
 <entry key="code|name|received-submission-type.t-verif-inad-low">Offerte verificate e inammissibili a causa di prezzo o costo anormalmente basso</entry>
 <entry key="code|name|received-submission-type.tenders">Offerte</entry>

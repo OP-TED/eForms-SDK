@@ -16681,13 +16681,14 @@
 <entry key="code|name|qu-sy.15">Bekendtgørelse om anvendelse af en kvalifikationsordning – sektordirektivet</entry>
 <entry key="code|name|received-submission-type.part-req">Ansøgning om deltagelse</entry>
 <entry key="code|name|received-submission-type.t-esubm">Tilbud, der er indgivet ad elektronisk vej</entry>
+<entry key="code|name|received-submission-type.t-large">Tilbud fra store virksomheder</entry>
 <entry key="code|name|received-submission-type.t-med">Tilbud fra mellemstore virksomheder</entry>
 <entry key="code|name|received-submission-type.t-micro">Tilbud fra mikrovirksomheder</entry>
-<entry key="code|name|received-submission-type.t-no-eea">Tilbud fra tilbudsgivere, der er registreret i lande uden for EØS</entry>
+<entry key="code|name|received-submission-type.t-no-eea">Tilbud fra organisationer fra lande uden for EØS</entry>
 <entry key="code|name|received-submission-type.t-no-verif">Tilbud, for hvilke det ikke er verificeret, om de er antagelige eller uantagelige</entry>
-<entry key="code|name|received-submission-type.t-oth-eea">Tilbud fra tilbudsgivere, der er registreret i andre EØS-lande end købers land</entry>
+<entry key="code|name|received-submission-type.t-oth-eea">Tilbud fra organisationer, der er registreret i et andet EØS-land end købers land</entry>
 <entry key="code|name|received-submission-type.t-small">Tilbud fra små virksomheder</entry>
-<entry key="code|name|received-submission-type.t-sme">Tilbud fra mikrovirksomheder samt små eller mellemstore virksomheder</entry>
+<entry key="code|name|received-submission-type.t-sme">Tilbud fra SMV'er</entry>
 <entry key="code|name|received-submission-type.t-verif-inad">Tilbud, der er verificeret og uantagelige</entry>
 <entry key="code|name|received-submission-type.t-verif-inad-low">Tilbud, der er verificeret og uantagelige på grund af en unormalt lav pris eller lave omkostninger</entry>
 <entry key="code|name|received-submission-type.tenders">Tilbud</entry>

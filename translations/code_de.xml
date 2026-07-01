@@ -10651,7 +10651,7 @@
 <entry key="code|name|language.MLT">Maltesisch</entry>
 <entry key="code|name|language.MON">Mongolisch</entry>
 <entry key="code|name|language.MRI">Maori</entry>
-<entry key="code|name|language.MSA">Malaysisch</entry>
+<entry key="code|name|language.MSA">Malaiisch</entry>
 <entry key="code|name|language.MYA">Birmanisch</entry>
 <entry key="code|name|language.NAU">Nauruisch</entry>
 <entry key="code|name|language.NBL">Süd-Ndebele</entry>
@@ -16681,13 +16681,14 @@
 <entry key="code|name|qu-sy.15">Bekanntmachung über das Bestehen eines Qualifizierungssystems – Sektorenrichtlinie</entry>
 <entry key="code|name|received-submission-type.part-req">Teilnahmeanträge</entry>
 <entry key="code|name|received-submission-type.t-esubm">Angebote auf elektronischem Wege eingereicht</entry>
+<entry key="code|name|received-submission-type.t-large">Angebote von großen Unternehmen</entry>
 <entry key="code|name|received-submission-type.t-med">Angebote von mittleren Unternehmen</entry>
 <entry key="code|name|received-submission-type.t-micro">Angebote von Kleinstunternehmen</entry>
-<entry key="code|name|received-submission-type.t-no-eea">Angebote von Bieter aus Ländern außerhalb des Europäischen Wirtschaftsraums</entry>
+<entry key="code|name|received-submission-type.t-no-eea">Angebote von Bietern aus Ländern außerhalb des EWR</entry>
 <entry key="code|name|received-submission-type.t-no-verif">Angebote, bei denen nicht überprüft wurde, ob sie zulässig oder unzulässig sind</entry>
-<entry key="code|name|received-submission-type.t-oth-eea">Angebote von Bietern, die in anderen Ländern des Europäischen Wirtschaftsraums registriert sind als dem Land des Beschaffers</entry>
+<entry key="code|name|received-submission-type.t-oth-eea">Angebote von Bietern, die in einem anderen EWR-Land als dem des Beschaffers eingetragen sind</entry>
 <entry key="code|name|received-submission-type.t-small">Angebote von kleinen Unternehmen</entry>
-<entry key="code|name|received-submission-type.t-sme">Angebote von Kleinst-, kleinen oder mittleren Unternehmen</entry>
+<entry key="code|name|received-submission-type.t-sme">Angebote von KMU</entry>
 <entry key="code|name|received-submission-type.t-verif-inad">Angebote geprüft und als unzulässig abgewiesen</entry>
 <entry key="code|name|received-submission-type.t-verif-inad-low">Angebote geprüft und aufgrund eines ungewöhnlich niedrigen Preises oder aufgrund ungewöhnlich niedriger Kosten als unzulässig abgewiesen</entry>
 <entry key="code|name|received-submission-type.tenders">Angebote</entry>

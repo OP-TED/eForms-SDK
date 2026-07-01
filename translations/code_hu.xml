@@ -10651,7 +10651,7 @@
 <entry key="code|name|language.MLT">máltai</entry>
 <entry key="code|name|language.MON">mongol</entry>
 <entry key="code|name|language.MRI">maori</entry>
-<entry key="code|name|language.MSA">maláj</entry>
+<entry key="code|name|language.MSA">maláj (makronyelv)</entry>
 <entry key="code|name|language.MYA">burmai</entry>
 <entry key="code|name|language.NAU">naurui</entry>
 <entry key="code|name|language.NBL">déli ndebele</entry>
@@ -16681,13 +16681,14 @@
 <entry key="code|name|qu-sy.15">Előminősítési rendszerről szóló hirdetmény – ágazati irányelv</entry>
 <entry key="code|name|received-submission-type.part-req">Részvételi jelentkezések</entry>
 <entry key="code|name|received-submission-type.t-esubm">Elektronikusan benyújtott ajánlatok</entry>
+<entry key="code|name|received-submission-type.t-large">Nagyvállalkozások ajánlatai</entry>
 <entry key="code|name|received-submission-type.t-med">Középvállalkozások ajánlatai</entry>
 <entry key="code|name|received-submission-type.t-micro">Mikrovállalkozások ajánlatai</entry>
-<entry key="code|name|received-submission-type.t-no-eea">Az EGT-n kívüli országokban bejegyzett ajánlattevők ajánlatai</entry>
+<entry key="code|name|received-submission-type.t-no-eea">Az EGT-n kívüli országokban bejegyzett szervezetek ajánlatai</entry>
 <entry key="code|name|received-submission-type.t-no-verif">Olyan ajánlatok, amelyekkel kapcsolatban még nem ellenőrizték, hogy elfogadhatók-e vagy nem</entry>
-<entry key="code|name|received-submission-type.t-oth-eea">A vevőétől eltérő EGT-országban bejegyzett ajánlattevők ajánlatai</entry>
+<entry key="code|name|received-submission-type.t-oth-eea">A vevőétől eltérő EGT-országban bejegyzett szervezetek ajánlatai</entry>
 <entry key="code|name|received-submission-type.t-small">Kisvállalkozások ajánlatai</entry>
-<entry key="code|name|received-submission-type.t-sme">Mikro-, kis- vagy középvállalkozások ajánlatai</entry>
+<entry key="code|name|received-submission-type.t-sme">Kkv-k ajánlatai</entry>
 <entry key="code|name|received-submission-type.t-verif-inad">Ellenőrzött és nem elfogadható ajánlatok</entry>
 <entry key="code|name|received-submission-type.t-verif-inad-low">Ellenőrzött és nem elfogadható ajánlatok az abnormálisan alacsony ár vagy költség miatt</entry>
 <entry key="code|name|received-submission-type.tenders">Ajánlatok</entry>
