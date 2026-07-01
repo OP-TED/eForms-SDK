@@ -5,7 +5,7 @@
       <ShortName>Language</ShortName>
       <LongName>language</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/language</LongName>
-      <Version>20260318-0</Version>
+      <Version>20260617-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/language</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -6537,10 +6537,10 @@
             <SimpleValue>malajisk</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Malaysisch</SimpleValue>
+            <SimpleValue>Malaiisch</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>μαλαικά</SimpleValue>
+            <SimpleValue>μαλαισιανά</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
             <SimpleValue>Malay</SimpleValue>
@@ -6555,7 +6555,7 @@
             <SimpleValue>malaiji</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>malaisien</SimpleValue>
+            <SimpleValue>malais</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
             <SimpleValue>Malaeis</SimpleValue>
@@ -6564,7 +6564,7 @@
             <SimpleValue>malajski</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>maláj</SimpleValue>
+            <SimpleValue>maláj (makronyelv)</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
             <SimpleValue>malese</SimpleValue>
@@ -6576,10 +6576,10 @@
             <SimpleValue>malajiešu valoda</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Malażjan</SimpleValue>
+            <SimpleValue>Malaj</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Maleisisch</SimpleValue>
+            <SimpleValue>Maleis</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
             <SimpleValue>malajski</SimpleValue>
@@ -6588,7 +6588,7 @@
             <SimpleValue>malaio</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>malaeziană</SimpleValue>
+            <SimpleValue>malaeză</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
             <SimpleValue>malajčina</SimpleValue>
@@ -7568,7 +7568,7 @@
             <SimpleValue>Iron Ossetic</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Иронски осетински</SimpleValue>
+            <SimpleValue>иронски осетински</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
             <SimpleValue>ironská osetština</SimpleValue>
