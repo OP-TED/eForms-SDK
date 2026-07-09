@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Uzasadnienie bezpośredniego udzielenia zamówienia' (BT-136-Result) nie jest wypełniony.</entry>
 <entry key="expression|name|723">'Status wyboru zwycięzcy' (BT-142-LotResult) jest 'Nie wyłoniono zwycięzcy, a procedura konkurencyjna została zamknięta.'.</entry>
 <entry key="expression|name|724">'Status wyboru zwycięzcy' (BT-142-LotResult) jest 'Wyłoniono co najmniej jednego zwycięzcę.' i 'Techniczne ID wyniku partii (RES-XXX)' (OPT-322) jest wypełniony.</entry>
-<entry key="expression|name|725">'Podwykonawstwo' (BT-773-Tender) is 'Tak'.</entry>
+<entry key="expression|name|725">'Podwykonawstwo' (BT-773-Tender) jest 'Tak'.</entry>
 <entry key="expression|name|726">'Podwykonawstwo - Wartość jest znana' (BT-730-Tender) jest 'tak'.</entry>
 <entry key="expression|name|727">'Oferta – Płatności – Wartość' (BT-779-Tender) jest wypełniony.</entry>
 <entry key="expression|name|728">'Podwykonawstwo - Wartość procentowa jest znana' (BT-731-Tender) jest 'tak'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Termin wyrażenia zainteresowania' (BT-630(d)-Lot) jest wypełniony.</entry>
 <entry key="expression|name|732">'Odwołanie lub decyzja' (BT-783-Review) jest obecny.</entry>
 <entry key="expression|name|733">'Okres obowiązywania umowy przedłuża się ze względu na istotne aktywa niezbędne do realizacji usługi' (OPP-020-Contract) jest 'tak'.</entry>
-<entry key="expression|name|734">'Wykaz aktywów wykorzystywanych do świadczenia usług publicznych' (OPP-021-Contract) is 'tak'.</entry>
-<entry key="expression|name|735">'Wykorzystane istotne aktywa względem łącznych aktywów potrzebnych do świadczenia usług publicznych' (OPP-022-Contract) is 'tak'.</entry>
+<entry key="expression|name|734">'Wykaz aktywów wykorzystywanych do świadczenia usług publicznych' (OPP-021-Contract) jest 'tak'.</entry>
+<entry key="expression|name|735">'Wykorzystane istotne aktywa względem łącznych aktywów potrzebnych do świadczenia usług publicznych' (OPP-022-Contract) jest 'tak'.</entry>
 <entry key="expression|name|736">'Wykonanie zamówienia musi odbywać się w ramach programów zatrudnienia chronionego' (BT-736-Lot) jest 'tak'.</entry>
 <entry key="expression|name|737">'Identyfikator oferty' (BT-3201-Tender) jest wypełniony.</entry>
 <entry key="expression|name|738">'Inne ograniczenia dotyczące miejsca realizacji' (BT-727-Lot) nie jest 'W dowolnym miejscu' ani 'W dowolnym miejscu w Europejskim Obszarze Gospodarczym'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Termin składania ofert' (BT-131(d)-Lot) jest wypełniony.</entry>
 <entry key="expression|name|742">'Termin składania wniosków o dopuszczenie do udziału' (BT-1311(d)-Lot) jest wypełniony.</entry>
 <entry key="expression|name|743">'Rodzaj procedury' (BT-105) nie jest 'Otwarta', 'Inna procedura jednoetapowa' ani 'Negocjacyjna bez uprzedniej publikacji zaproszenia do ubiegania się o zamówienie'.</entry>
-<entry key="expression|name|744">'Oficjalna nazwa' (BT-500-UBO) is ingevuld.</entry>
+<entry key="expression|name|744">'Oficjalna nazwa' (BT-500-UBO) jest wypełnione.</entry>
 <entry key="expression|name|745">'Kraj' (BT-514-UBO) ma kody NUTS.</entry>
-<entry key="expression|name|746">'Kryteria zostaną wykorzystane do kwalifikacji kandydatów zapraszanych do drugiego etapu procedury' (BT-40) is 'tak' en 'Liczba jest rodzajem progu' (BT-7532) is niet ingevuld.</entry>
+<entry key="expression|name|746">'Kryteria zostaną wykorzystane do kwalifikacji kandydatów zapraszanych do drugiego etapu procedury' (BT-40) jest 'tak' i 'Liczba jest rodzajem progu' (BT-7532) nie jest wypełnione.</entry>
 <entry key="expression|name|747">'Kryteria zostaną wykorzystane do kwalifikacji kandydatów zapraszanych do drugiego etapu procedury' (BT-40) jest 'tak' i 'Liczba jest rodzajem wagi' (BT-7531) nie jest wypełniony.</entry>
 <entry key="expression|name|748">Istnieje wiele części.</entry>
 <entry key="expression|name|749">'Główna klasyfikacja' (BT-262-Lot) jest wypełniony.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Dodatkowa klasyfikacja' (BT-263-Part) jest wypełniony.</entry>
 <entry key="expression|name|754">'Dodatkowa klasyfikacja' (BT-263-Procedure) jest wypełniony.</entry>
 <entry key="expression|name|755">'Techniczne ID oferty' (OPT-321-Tender) istnieje.</entry>
-<entry key="expression|name|756">'Oficjalna nazwa' (BT-500-Organization-TouchPoint) is ingevuld.</entry>
+<entry key="expression|name|756">'Oficjalna nazwa' (BT-500-Organization-TouchPoint) jest wypełniony.</entry>
 <entry key="expression|name|757">'Kraj' (BT-514-Organization-Company) heeft NUTS-codes.</entry>
 <entry key="expression|name|758">'Kraj' (BT-514-Organization-TouchPoint) heeft NUTS-codes.</entry>
 <entry key="expression|name|759">Przyznano partię.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Zamówienie jest udzielane w ramach umowy ramowej' (BT-768-Contract) jest 'tak'.</entry>
 <entry key="expression|name|762">'Poprzednia wersja ogłoszenia, która jest zmieniana' (BT-758-notice) jest wypełniony.</entry>
 <entry key="expression|name|763">Wskaźnik 'Dokumenty zamówienia zmieniono w dniu' (BT-718-notice) to 'tak'.</entry>
-<entry key="expression|name|764">'Numer rejestracyjny' (BT-501-Business-European) is ingevuld.</entry>
+<entry key="expression|name|764">'Numer rejestracyjny' (BT-501-Business-European) jest wypełniony.</entry>
 <entry key="expression|name|765">'Rodzaj otrzymanych ofert lub wniosków' (BT-760-LotResult) jest wypełniony.</entry>
 <entry key="expression|name|766">'Pole do publikacji w późniejszym terminie' (BT-195(BT-09)-Procedure) jest wypełniony.</entry>
 <entry key="expression|name|767">'Pole do publikacji w późniejszym terminie' (BT-195(BT-105)-Procedure) jest wypełniony.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Został wybrany zwycięzca i zaangażowano umowę ramową oraz 'Maksymalna wartość umowy ramowej' (BT-709-LotResult) jest wypełniony.</entry>
 <entry key="expression|name|822">Istnieje przydzielona część bez umowy ramowej lub umowy w ramach umowy ramowej.</entry>
 <entry key="expression|name|823">Stosowany jest Dynamiczny System Zakupów (DPS).</entry>
-<entry key="expression|name|824">'Techniczne ID UBO (UBO-XXX)' (OPT-202-UBO) is ingevuld.</entry>
+<entry key="expression|name|824">'Techniczne ID UBO (UBO-XXX)' (OPT-202-UBO) jest wypełniony.</entry>
 <entry key="expression|name|825">'Rodzaj procedury' (BT-105) jest 'Otwarta', 'Ograniczona' lub 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami'.</entry>
 <entry key="expression|name|826">'Rodzaj procedury' (BT-105) jest 'Ograniczona' lub 'Negocjacyjna z uprzednią publikacją zaproszenia do ubiegania się o zamówienie / konkurencyjna z negocjacjami'.</entry>
 <entry key="expression|name|827">Organizacja jest nabywcą i jest więcej niż jeden nabywca.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Obowiązek oferenta dotyczący podwykonawstwa' (BT-65) jest wypełniony.</entry>
 <entry key="expression|name|837">'Kraj' (BT-514-Organization-TouchPoint) is ingevuld.</entry>
 <entry key="expression|name|838">'Kraj' (BT-514-Business) heeft NUTS-codes.</entry>
-<entry key="expression|name|839">'Kraj' (BT-514-Business) is ingevuld.</entry>
+<entry key="expression|name|839">'Kraj' (BT-514-Business) jest wypełniony.</entry>
 <entry key="expression|name|84">'Okres obowiązywania umowy przedłuża się ze względu na istotne aktywa niezbędne do realizacji usługi' (OPP-020-Contract) nie jest 'tak'</entry>
 <entry key="expression|name|840">'Właściwe prawo transgraniczne' (BT-09(a)-Procedure) jest wypełniony.</entry>
 <entry key="expression|name|841">'Podstawa prawna' (BT-01(e)-Procedure) jest wypełniony.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Pole do publikacji w późniejszym terminie' (BT-195(BT-635)-LotResult) jest wypełniony.</entry>
 <entry key="expression|name|845">'Pole do publikacji w późniejszym terminie' (BT-195(BT-636)-LotResult) jest wypełniony.</entry>
 <entry key="expression|name|846">'Ogłoszenie - Data wysłania (eSender)' (BT-803(d)-notice) jest wypełniony.</entry>
-<entry key="expression|name|847">'Organizacja pełniąca tę rolę' (OPT-302-Organization) is verbonden met een organisatie.</entry>
+<entry key="expression|name|847">'Organizacja pełniąca tę rolę' (OPT-302-Organization) jest połączony z organizacją.</entry>
 <entry key="expression|name|848">Zawarta jest umowa ramowa i 'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) jest wypełniony.</entry>
 <entry key="expression|name|849">Został wybrany zwycięzca i zawarta jest umowa ramowa i 'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) jest wypełniony.</entry>
 <entry key="expression|name|85">'Wykaz aktywów wykorzystywanych do świadczenia usług publicznych' (OPP-020-Contract) nie jest 'tak'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Wyniki części zamówienia' jest wypełniony i oferta na część objętą 'Procedura - Część zamówienia - Wynik' jest wypełniona i oferta jest wypełniona i część jest określona dla 'Procedura - Część zamówienia - Wynik' i konkurs nie jest w toku.</entry>
 <entry key="expression|name|856">'Status wyboru zwycięzcy' (BT-142-LotResult) jest 'Wyłoniono co najmniej jednego zwycięzcę.'.</entry>
 <entry key="expression|name|857">'Techniczne ID umowy' (OPT-316-Contract) jest wypełniony i 'Techniczne ID oferty' (OPT-321-Tender) jest wypełniony.</entry>
-<entry key="expression|name|858">'Techniczne ID umowy' (OPT-316-Contract) is ingevuld.</entry>
+<entry key="expression|name|858">'Techniczne ID umowy' (OPT-316-Contract) jest wypełniony.</entry>
 <entry key="expression|name|859">ID części jest wypełniony.</entry>
 <entry key="expression|name|86">'Wykorzystane istotne aktywa względem łącznych aktywów potrzebnych do świadczenia usług publicznych' (OPP-020-Contract) nie jest 'tak'</entry>
 <entry key="expression|name|860">Dostawca usług został zidentyfikowany.</entry>
 <entry key="expression|name|861">'Ponownie oszacowana wartość umowy ramowej' (BT-660-LotResult) jest wypełniony.</entry>
 <entry key="expression|name|862">'Pole do publikacji w późniejszym terminie' (BT-195(BT-660)-LotResult) jest wypełniony.</entry>
-<entry key="expression|name|863">'Kod wymagań wykonania' (OPT-060-Lot) is ingevuld.</entry>
+<entry key="expression|name|863">'Kod wymagań wykonania' (OPT-060-Lot) jest wypełniony.</entry>
 <entry key="expression|name|864">'Kryterium udzielenia - Liczba' (BT-541-Lot-WeightNumber) jest obecne.</entry>
 <entry key="expression|name|865">'Kryterium udzielenia - Liczba' (BT-541-Lot-FixedNumber) jest obecne.</entry>
 <entry key="expression|name|866">'Kryterium udzielenia - Liczba' (BT-541-Lot-ThresholdNumber) jest obecne.</entry>

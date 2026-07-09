@@ -257,7 +257,7 @@
 <entry key="expression|name|34">'Type de procédure' (BT-105) ne doit pas être 'Dialogue compétitif', 'Partenariat d’innovation'; 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'</entry>
 <entry key="expression|name|340">Le système d’acquisition dynamique n’est pas utilisé</entry>
 <entry key="expression|name|341">L'organisation n'est ni un soumissionnaire ni un sous-traitant</entry>
-<entry key="expression|name|342">Si l’organisation a soumis 'Partie appelante' (OPT-310-Tender) qui aboutit à 'Identifiant offre contrat' (BT-3202-Contract), l’organisation est retenue</entry>
+<entry key="expression|name|342">Si l’organisation a soumis 'Partie soumissionnaire' (OPT-310-Tender) qui aboutit à 'Identifiant offre contrat' (BT-3202-Contract), l’organisation est retenue</entry>
 <entry key="expression|name|343">'ID technique du UBO (UBO-XXX)' (OPT-202-UBO) n’est pas rempli</entry>
 <entry key="expression|name|344">'La procédure se déroulera en plusieurs étapes successives. Après la deuxième étape, certains participants peuvent être éliminés à chaque étape suivante.' (BT-52-Lot) n'est pas 'oui'</entry>
 <entry key="expression|name|345">L’organisation n’est pas 'Acheteur'</entry>
@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Justification de l’attribution directe' (BT-136-Result) n'est pas rempli.</entry>
 <entry key="expression|name|723">'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) est 'Aucun lauréat n’a été choisi et la mise en concurrence est clos.'.</entry>
 <entry key="expression|name|724">'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) est 'Au moins un lauréat a été choisi.' et 'ID technique du résultat du lot (RES-XXX)' (OPT-322) est rempli.</entry>
-<entry key="expression|name|725">'Part sous-traitée' (BT-773-Tender) on 'Oui'.</entry>
+<entry key="expression|name|725">'Part sous-traitée' (BT-773-Tender) est 'Oui'.</entry>
 <entry key="expression|name|726">'La valeur de la sous-traitance est connue' (BT-730-Tender) est 'oui'.</entry>
 <entry key="expression|name|727">'Valeur des paiements de l’offre' (BT-779-Tender) est rempli.</entry>
 <entry key="expression|name|728">'Le pourcentage de la sous-traitance est connu' (BT-731-Tender) est 'oui'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Date limite de réception des manifestations d’intérêt' (BT-630(d)-Lot) est rempli.</entry>
 <entry key="expression|name|732">'Demande ou décision de recours' (BT-783-Review) est présent.</entry>
 <entry key="expression|name|733">'La durée du marché est prolongée en raison des actifs essentiels nécessaires à la prestation du service' (OPP-020-Contract) est 'oui'.</entry>
-<entry key="expression|name|734">'Liste des actifs utilisés pour la prestation de services publics' (OPP-021-Contract) on 'oui'.</entry>
-<entry key="expression|name|735">'Importance des actifs essentiels fournis par rapport à l’ensemble des actifs nécessaires à la prestation de services publics' (OPP-022-Contract) on 'oui'.</entry>
+<entry key="expression|name|734">'Liste des actifs utilisés pour la prestation de services publics' (OPP-021-Contract) est 'oui'.</entry>
+<entry key="expression|name|735">'Importance des actifs essentiels fournis par rapport à l’ensemble des actifs nécessaires à la prestation de services publics' (OPP-022-Contract) est 'oui'.</entry>
 <entry key="expression|name|736">'Le contrat doit être exécuté dans le cadre de programmes d’emplois protégés' (BT-736-Lot) est 'oui'.</entry>
 <entry key="expression|name|737">'Identifiant de l’offre' (BT-3201-Tender) est rempli.</entry>
 <entry key="expression|name|738">'Autres restrictions s’appliquant au lieu d’exécution' (BT-727-Lot) n'est pas 'N’importe où' ou 'N’importe où dans l’Espace économique européen'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Date limite de réception des offres' (BT-131(d)-Lot) est rempli.</entry>
 <entry key="expression|name|742">'Date limite de réception des demandes de participation/candidatures' (BT-1311(d)-Lot) est rempli.</entry>
 <entry key="expression|name|743">'Type de procédure' (BT-105) n'est pas 'Ouverte', 'Autre procédure en une seule étape' ou 'Négociée sans mise en concurrence préalable'.</entry>
-<entry key="expression|name|744">'Nom officiel' (BT-500-UBO) on täytetty.</entry>
+<entry key="expression|name|744">'Nom officiel' (BT-500-UBO) est rempli.</entry>
 <entry key="expression|name|745">'Pays' (BT-514-UBO) a des codes NUTS.</entry>
-<entry key="expression|name|746">'Les critères seront appliqués pour sélectionner les candidats à inviter pour la seconde étape de la procédure' (BT-40) on 'oui' ja 'Le nombre est un type de seuil' (BT-7532) ei ole täytetty.</entry>
+<entry key="expression|name|746">'Les critères seront appliqués pour sélectionner les candidats à inviter pour la seconde étape de la procédure' (BT-40) est 'oui' et 'Le nombre est un type de seuil' (BT-7532) n'est pas rempli.</entry>
 <entry key="expression|name|747">'Les critères seront appliqués pour sélectionner les candidats à inviter pour la seconde étape de la procédure' (BT-40) est 'oui' et 'Le nombre est une pondération' (BT-7531) n'est pas rempli.</entry>
 <entry key="expression|name|748">Il y a plusieurs lots.</entry>
 <entry key="expression|name|749">'Nomenclature principale' (BT-262-Lot) est rempli.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Nomenclature complémentaire' (BT-263-Part) est rempli.</entry>
 <entry key="expression|name|754">'Nomenclature complémentaire' (BT-263-Procedure) est rempli.</entry>
 <entry key="expression|name|755">'ID technique de l'offre' (OPT-321-Tender) existe.</entry>
-<entry key="expression|name|756">'Nom officiel' (BT-500-Organization-TouchPoint) on täytetty.</entry>
+<entry key="expression|name|756">'Nom officiel' (BT-500-Organization-TouchPoint) est rempli.</entry>
 <entry key="expression|name|757">'Pays' (BT-514-Organization-Company) on NUTS-koodit.</entry>
 <entry key="expression|name|758">'Pays' (BT-514-Organization-TouchPoint) on NUTS-koodit.</entry>
 <entry key="expression|name|759">Un lot a été attribué.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Le marché est attribué dans le contexte d’un accord-cadre' (BT-768-Contract) est 'oui'.</entry>
 <entry key="expression|name|762">'Version de l’avis antérieur à modifier' (BT-758-notice) est rempli.</entry>
 <entry key="expression|name|763">L'indicateur 'Les documents de marché ont été modifiés le' (BT-718-notice) est 'oui'.</entry>
-<entry key="expression|name|764">'Numéro d’enregistrement' (BT-501-Business-European) on täytetty.</entry>
+<entry key="expression|name|764">'Numéro d’enregistrement' (BT-501-Business-European) est rempli.</entry>
 <entry key="expression|name|765">'Type de soumissions reçues' (BT-760-LotResult) est rempli.</entry>
 <entry key="expression|name|766">'Champ à publier ultérieurement' (BT-195(BT-09)-Procedure) est rempli.</entry>
 <entry key="expression|name|767">'Champ à publier ultérieurement' (BT-195(BT-105)-Procedure) est rempli.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Un gagnant a été choisi et un accord-cadre a été impliqué et 'Valeur maximale de l’accord-cadre' (BT-709-LotResult) est rempli.</entry>
 <entry key="expression|name|822">Il y a un lot attribué sans accord-cadre ou contrat dans le cadre d'un accord-cadre.</entry>
 <entry key="expression|name|823">Le Système d'Achat Dynamique (SAD) est utilisé.</entry>
-<entry key="expression|name|824">'ID technique du UBO (UBO-XXX)' (OPT-202-UBO) on täytetty.</entry>
+<entry key="expression|name|824">'ID technique du UBO (UBO-XXX)' (OPT-202-UBO) est rempli.</entry>
 <entry key="expression|name|825">'Type de procédure' (BT-105) est 'Ouverte', 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'.</entry>
 <entry key="expression|name|826">'Type de procédure' (BT-105) est 'Restreinte' ou 'Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation'.</entry>
 <entry key="expression|name|827">L'organisation est un acheteur et il y a plus d'un acheteur.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Obligation que le soumissionnaire doit respecter en matière de sous-traitance' (BT-65) est rempli.</entry>
 <entry key="expression|name|837">'Pays' (BT-514-Organization-TouchPoint) on täytetty.</entry>
 <entry key="expression|name|838">'Pays' (BT-514-Business) on NUTS-koodit.</entry>
-<entry key="expression|name|839">'Pays' (BT-514-Business) on täytetty.</entry>
+<entry key="expression|name|839">'Pays' (BT-514-Business) est rempli.</entry>
 <entry key="expression|name|84">'La durée du marché est prolongée en raison des actifs essentiels nécessaires à la prestation du service' (OPP-020-Contract) n’est pas 'oui'</entry>
 <entry key="expression|name|840">'Droit transnational applicable' (BT-09(a)-Procedure) est rempli.</entry>
 <entry key="expression|name|841">'Base juridique' (BT-01(e)-Procedure) est rempli.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Champ à publier ultérieurement' (BT-195(BT-635)-LotResult) est rempli.</entry>
 <entry key="expression|name|845">'Champ à publier ultérieurement' (BT-195(BT-636)-LotResult) est rempli.</entry>
 <entry key="expression|name|846">'Date et heure de transmission de l'avis (eSender)' (BT-803(d)-notice) est rempli.</entry>
-<entry key="expression|name|847">'Organisation remplissant ce rôle' (OPT-302-Organization) on yhdistetty organisaatioon.</entry>
+<entry key="expression|name|847">'Organisation remplissant ce rôle' (OPT-302-Organization) est connecté à une organisation.</entry>
 <entry key="expression|name|848">Un accord-cadre est impliqué et 'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) est rempli.</entry>
 <entry key="expression|name|849">Un gagnant a été choisi et un accord-cadre est impliqué et 'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) est rempli.</entry>
 <entry key="expression|name|85">'Liste des actifs utilisés pour la prestation de services publics' (OPP-020-Contract) n’est pas 'oui'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Résultats des lots' est rempli et l'offre pour le lot couvert par 'Résultat procédure par lot' est remplie et une offre est remplie et un lot est spécifié pour le 'Résultat procédure par lot' et la compétition n'est pas en cours.</entry>
 <entry key="expression|name|856">'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) est 'Au moins un lauréat a été choisi.'.</entry>
 <entry key="expression|name|857">'ID technique du contrat' (OPT-316-Contract) est rempli et 'ID technique de l'offre' (OPT-321-Tender) est rempli.</entry>
-<entry key="expression|name|858">'ID technique du contrat' (OPT-316-Contract) on täytetty.</entry>
+<entry key="expression|name|858">'ID technique du contrat' (OPT-316-Contract) est rempli.</entry>
 <entry key="expression|name|859">L'ID du lot est rempli.</entry>
 <entry key="expression|name|86">'Importance des actifs essentiels fournis par rapport à l’ensemble des actifs nécessaires à la prestation de services publics' (OPP-020-Contract) n’est pas 'oui'</entry>
 <entry key="expression|name|860">Le prestataire de services est identifié.</entry>
 <entry key="expression|name|861">'Valeur réestimée de l’accord-cadre' (BT-660-LotResult) est rempli.</entry>
 <entry key="expression|name|862">'Champ à publier ultérieurement' (BT-195(BT-660)-LotResult) est rempli.</entry>
-<entry key="expression|name|863">'Code de l’obligation d’exécution' (OPT-060-Lot) on täytetty.</entry>
+<entry key="expression|name|863">'Code de l’obligation d’exécution' (OPT-060-Lot) est rempli.</entry>
 <entry key="expression|name|864">'Nombre critère d’attribution' (BT-541-Lot-WeightNumber) est présent.</entry>
 <entry key="expression|name|865">'Nombre critère d’attribution' (BT-541-Lot-FixedNumber) est présent.</entry>
 <entry key="expression|name|866">'Nombre critère d’attribution' (BT-541-Lot-ThresholdNumber) est présent.</entry>
@@ -729,7 +729,7 @@
 <entry key="expression|name|9">'Description' - 'Critère d’attribution' (BT-540-Lot) n'est pas présent ou 'Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères' (BT-543-Lot) est présent</entry>
 <entry key="expression|name|90">'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) ne doit pas être 'Au moins un lauréat a été choisi.'</entry>
 <entry key="expression|name|900">La valeur choisie pour 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) n'est pas égale à 'Le lauréat n’a pas encore été choisi, mais la mise en concurrence est toujours en cours.', et la valeur choisie pour 'Statut sélection adjudicataire/attributaire' (BT-142-LotResult) n'est pas égale à 'Aucun lauréat n’a été choisi et la mise en concurrence est clos.' ou 'La raison pour laquelle un adjudicataire/attributaire n'a pas été choisi' (BT-144-LotResult) n'est pas égale à 'Aucune offre, aucune demande de participation, ni aucun projet n’a été reçu'.</entry>
-<entry key="expression|name|901">'Partie appelante' est composé de deux ou plusieurs soumissionnaires principaux.</entry>
+<entry key="expression|name|901">'Partie soumissionnaire' est composé de deux ou plusieurs soumissionnaires principaux.</entry>
 <entry key="expression|name|902">Un accord-cadre a été impliqué et 'Valeur maximale de l’accord-cadre' (BT-709-LotResult) est présent.</entry>
 <entry key="expression|name|903">Il y a un LotResult, et il y a une offre pour le lot couvert par le LotResult ou une offre pour un groupe de lots contenant le lot du LotResult, et il y a une offre et un lot est spécifié pour le LotResult.</entry>
 <entry key="expression|name|904">'Forme juridique de l’acheteur' (BT-11) est l'un des suivants: 'Organisme de droit public'; 'Organisme de droit public, contrôlé par une autorité publique centrale'; 'Organisme de droit public, contrôlé par une autorité locale'; 'Organisme de droit public, contrôlé par une autorité régionale'; 'Autorité publique centrale'; 'Contractant du secteur de la défense'; 'Institution, organe ou agence de l’UE'; 'Organisation internationale'; 'Autorité locale'; 'Organisation qui passe un marché subventionné par un pouvoir adjudicateur'; 'Organisation qui passe un marché subventionné par une autorité publique centrale'; 'Organisation qui passe un marché subventionné par une autorité locale'; 'Organisation qui passe un marché subventionné par une autorité régionale'; 'Autorité régionale'.</entry>

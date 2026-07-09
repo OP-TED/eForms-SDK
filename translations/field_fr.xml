@@ -1180,7 +1180,7 @@
 <entry key="field|description|OPT-300-Tenderer-Scheme">Nom du schéma utilisé pour construire l'ID technique utilisé comme référence : 'organization'</entry>
 <entry key="field|description|OPT-301-Lot-AddInfo">Référence à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) dont les coordonnées doivent être utilisées pour obtenir des informations supplémentaires.</entry>
 <entry key="field|description|OPT-301-Lot-AddInfo-Scheme">Nom du schéma pour la référence à l'organisation ('organization') ou au point de contact ('touchpoint') qui fournit des informations supplémentaires.</entry>
-<entry key="field|description|OPT-301-Lot-DocProvider">Reference à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) dont les coordonnées doivent être utilisées pour obtenir un accès hors ligne aux documents de passation de marchés</entry>
+<entry key="field|description|OPT-301-Lot-DocProvider">Référence à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) dont les coordonnées doivent être utilisées pour obtenir un accès hors ligne aux documents de passation de marchés</entry>
 <entry key="field|description|OPT-301-Lot-DocProvider-Scheme">Nom du schéma pour la référence à l'organisation ('organization') ou au point de contact ('touchpoint') qui fournit l'accès aux documents d'achat.</entry>
 <entry key="field|description|OPT-301-Lot-EmployLegis">Référence à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) dont les coordonnées doivent être utilisées pour obtenir des informations supplémentaires sur la législation locale en matière d'emploi.</entry>
 <entry key="field|description|OPT-301-Lot-EmployLegis-Scheme">Nom du schéma pour la référence à l'organisation ('organization') ou au point de contact ('touchpoint') fournissant des informations supplémentaires sur la législation locale en matière d'emploi.</entry>
@@ -1194,9 +1194,9 @@
 <entry key="field|description|OPT-301-Lot-ReviewInfo-Scheme">Nom du schéma pour la référence à l'organisation ('organization') ou au point de contact ('touchpoint') fournissant des informations sur le processus de révision.</entry>
 <entry key="field|description|OPT-301-Lot-ReviewOrg">Référence à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) dont les coordonnées doivent être utilisées pour entrer en contact avec l'organisation traitant les demandes de révision.</entry>
 <entry key="field|description|OPT-301-Lot-ReviewOrg-Scheme">Nom du schéma pour la référence à l'organisation ('organization') ou au point de contact ('touchpoint') traitant les demandes de révision.</entry>
-<entry key="field|description|OPT-301-Lot-TenderEval">Reference à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) qui traite les offres ou les demandes de participation</entry>
+<entry key="field|description|OPT-301-Lot-TenderEval">Référence à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) qui traite les offres ou les demandes de participation</entry>
 <entry key="field|description|OPT-301-Lot-TenderEval-Scheme">Nom du schéma pour la référence à l'organisation ('organization') ou au point de contact ('touchpoint') évaluant les appels d'offres.</entry>
-<entry key="field|description|OPT-301-Lot-TenderReceipt">Reference à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) à qui les offres ou les demandes de participation doivent être soumises</entry>
+<entry key="field|description|OPT-301-Lot-TenderReceipt">Référence à l'organisation (ORG-xxxx) ou au point de contact (TPO-xxxx) à qui les offres ou les demandes de participation doivent être soumises</entry>
 <entry key="field|description|OPT-301-Lot-TenderReceipt-Scheme">Nom du schéma pour la référence à l'organisation ('organization') ou au point de contact ('touchpoint') recevant les appels d'offres.</entry>
 <entry key="field|description|OPT-301-LotResult-Financing">Référence à l'organisation (ORG-xxxx) qui finance l'achat.</entry>
 <entry key="field|description|OPT-301-LotResult-Financing-Scheme">Nom du schéma pour la référence à l'organisation ('organization') finançant l'achat.</entry>
@@ -2522,8 +2522,8 @@
 <entry key="field|name|OPT-301-Tenderer-SubCont-Scheme">Organisation ou point de contact spécifique</entry>
 <entry key="field|name|OPT-302-Organization">Organisation remplissant ce rôle</entry>
 <entry key="field|name|OPT-302-Organization-Scheme">Organisation remplissant ce rôle</entry>
-<entry key="field|name|OPT-310-Tender">Partie appelante</entry>
-<entry key="field|name|OPT-310-Tender-Scheme">Partie appelante</entry>
+<entry key="field|name|OPT-310-Tender">Partie soumissionnaire</entry>
+<entry key="field|name|OPT-310-Tender-Scheme">Partie soumissionnaire</entry>
 <entry key="field|name|OPT-315-LotResult">Référence au contrat</entry>
 <entry key="field|name|OPT-315-LotResult-Scheme">Référence au contrat</entry>
 <entry key="field|name|OPT-316-Contract">ID technique du contrat</entry>

@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Tiesioginio skyrimo pagrindimas' (BT-136-Result) nėra užpildytas.</entry>
 <entry key="expression|name|723">'Laimėtojo atrankos būsena' (BT-142-LotResult) yra 'Nepasirinktas nė vienas laimėtojas ir konkursas baigtas.'.</entry>
 <entry key="expression|name|724">'Laimėtojo atrankos būsena' (BT-142-LotResult) yra 'Pasirinktas bent vienas laimėtojas.' ir 'Partijos rezultato techninis ID (RES-XXX)' (OPT-322) yra užpildytas.</entry>
-<entry key="expression|name|725">'Subranga' (BT-773-Tender) è 'Taip'.</entry>
+<entry key="expression|name|725">'Subranga' (BT-773-Tender) yra 'Taip'.</entry>
 <entry key="expression|name|726">'Subrangos vertė žinoma' (BT-730-Tender) yra 'taip'.</entry>
 <entry key="expression|name|727">'Pasiūlymas: mokėjimų vertė' (BT-779-Tender) yra užpildytas.</entry>
 <entry key="expression|name|728">'Subrangos procentinė dalis žinoma' (BT-731-Tender) yra 'taip'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Pareikšto susidomėjimo priėmimo terminas' (BT-630(d)-Lot) yra užpildyta.</entry>
 <entry key="expression|name|732">'Peržiūra: prašymas arba sprendimas' (BT-783-Review) yra.</entry>
 <entry key="expression|name|733">'Sutarties galiojimo trukmė pratęsiama dėl esminio turto, būtino paslaugai teikti' (OPP-020-Contract) yra 'taip'.</entry>
-<entry key="expression|name|734">'Turto, naudojamo viešosioms paslaugoms teikti, sąrašas' (OPP-021-Contract) è 'taip'.</entry>
-<entry key="expression|name|735">'Nurodyto esminio turto reikšmingumas viso turto, kurio reikia viešosioms paslaugoms teikti, atžvilgiu' (OPP-022-Contract) è 'taip'.</entry>
+<entry key="expression|name|734">'Turto, naudojamo viešosioms paslaugoms teikti, sąrašas' (OPP-021-Contract) yra 'taip'.</entry>
+<entry key="expression|name|735">'Nurodyto esminio turto reikšmingumas viso turto, kurio reikia viešosioms paslaugoms teikti, atžvilgiu' (OPP-022-Contract) yra 'taip'.</entry>
 <entry key="expression|name|736">'Sutartis turi būti vykdoma pagal globojamų darbo grupių užimtumo programas' (BT-736-Lot) yra 'taip'.</entry>
 <entry key="expression|name|737">'Pasiūlymo identifikatorius' (BT-3201-Tender) yra užpildyta.</entry>
 <entry key="expression|name|738">'Kiti apribojimai dėl sutarties vykdymo vietos' (BT-727-Lot) nėra 'Bet kur' arba 'Bet kur Europos ekonominės erdvėje'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Pasiūlymų priėmimo terminas' (BT-131(d)-Lot) yra užpildytas.</entry>
 <entry key="expression|name|742">'Dalyvavimo prašymų priėmimo terminas' (BT-1311(d)-Lot) yra užpildytas.</entry>
 <entry key="expression|name|743">'Pirkimo būdas' (BT-105) nėra 'Atviras', 'Kita vieno etapo procedūra' arba 'Derybos be išankstinio skelbimo apie pirkimą'.</entry>
-<entry key="expression|name|744">'Oficialus pavadinimas' (BT-500-UBO) è compilato.</entry>
+<entry key="expression|name|744">'Oficialus pavadinimas' (BT-500-UBO) yra užpildytas.</entry>
 <entry key="expression|name|745">'Šalis' (BT-514-UBO) turi NUTS kodus.</entry>
-<entry key="expression|name|746">'Kriterijai bus taikomi atrenkant į antrąjį procedūros etapą kviečiamus kandidatus' (BT-40) è 'taip' e 'Skaičius yra tam tikra vertės riba' (BT-7532) non è compilato.</entry>
+<entry key="expression|name|746">'Kriterijai bus taikomi atrenkant į antrąjį procedūros etapą kviečiamus kandidatus' (BT-40) yra 'taip' ir 'Skaičius yra tam tikra vertės riba' (BT-7532) nėra užpildytas.</entry>
 <entry key="expression|name|747">'Kriterijai bus taikomi atrenkant į antrąjį procedūros etapą kviečiamus kandidatus' (BT-40) yra 'taip' ir 'Skaičius yra tam tikras lyginamasis svoris' (BT-7531) nėra užpildyta.</entry>
 <entry key="expression|name|748">Yra kelios dalys.</entry>
 <entry key="expression|name|749">'Pagrindinis klasifikacijos kodas' (BT-262-Lot) yra užpildyta.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Kiti klasifikacijos kodai' (BT-263-Part) yra užpildyta.</entry>
 <entry key="expression|name|754">'Kiti klasifikacijos kodai' (BT-263-Procedure) yra užpildyta.</entry>
 <entry key="expression|name|755">'Pasiūlymo techninis ID' (OPT-321-Tender) egzistuoja.</entry>
-<entry key="expression|name|756">'Oficialus pavadinimas' (BT-500-Organization-TouchPoint) è compilato.</entry>
+<entry key="expression|name|756">'Oficialus pavadinimas' (BT-500-Organization-TouchPoint) yra užpildytas.</entry>
 <entry key="expression|name|757">'Šalis' (BT-514-Organization-Company) ha codici NUTS.</entry>
 <entry key="expression|name|758">'Šalis' (BT-514-Organization-TouchPoint) ha codici NUTS.</entry>
 <entry key="expression|name|759">Buvo paskirta partija.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Sutartis skiriama pagal preliminariąją sutartį' (BT-768-Contract) yra 'taip'.</entry>
 <entry key="expression|name|762">'Ankstesnė skelbimo redakcija, kuri turi būti pakeista' (BT-758-notice) yra užpildytas.</entry>
 <entry key="expression|name|763">Indikatorius 'Pirkimo dokumentai buvo pakeisti' (BT-718-notice) yra 'taip'.</entry>
-<entry key="expression|name|764">'Registracijos numeris' (BT-501-Business-European) è compilato.</entry>
+<entry key="expression|name|764">'Registracijos numeris' (BT-501-Business-European) yra užpildytas.</entry>
 <entry key="expression|name|765">'Pateikimas: rūšys' (BT-760-LotResult) yra užpildytas.</entry>
 <entry key="expression|name|766">'Vėliau skelbtinas laukas' (BT-195(BT-09)-Procedure) yra užpildyta.</entry>
 <entry key="expression|name|767">'Vėliau skelbtinas laukas' (BT-195(BT-105)-Procedure) yra užpildyta.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Buvo pasirinktas laimėtojas ir buvo įtraukta pagrindinė sutartis ir 'Preliminariosios sutarties didžiausia vertė' (BT-709-LotResult) yra užpildytas.</entry>
 <entry key="expression|name|822">Yra paskirta dalis be pagrindinės sutarties arba sutarties pagrindinės sutarties ribose.</entry>
 <entry key="expression|name|823">Naudojama dinaminė pirkimų sistema (DPS).</entry>
-<entry key="expression|name|824">'UBO techninis ID (UBO-XXX)' (OPT-202-UBO) è compilato.</entry>
+<entry key="expression|name|824">'UBO techninis ID (UBO-XXX)' (OPT-202-UBO) yra užpildytas.</entry>
 <entry key="expression|name|825">'Pirkimo būdas' (BT-105) yra 'Atviras', 'Ribotas' arba 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'.</entry>
 <entry key="expression|name|826">'Pirkimo būdas' (BT-105) yra 'Ribotas' arba 'Derybos su išankstiniu kvietimu dalyvauti konkurse ir (arba) konkursas su derybomis'.</entry>
 <entry key="expression|name|827">Organizacija yra pirkėjas ir yra daugiau nei vienas pirkėjas.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Dalyviui nustatoma subrangos prievolė' (BT-65) yra užpildyta.</entry>
 <entry key="expression|name|837">'Šalis' (BT-514-Organization-TouchPoint) è compilato.</entry>
 <entry key="expression|name|838">'Šalis' (BT-514-Business) ha codici NUTS.</entry>
-<entry key="expression|name|839">'Šalis' (BT-514-Business) è compilato.</entry>
+<entry key="expression|name|839">'Šalis' (BT-514-Business) yra užpildytas.</entry>
 <entry key="expression|name|84">'Sutarties galiojimo trukmė pratęsiama dėl esminio turto, būtino paslaugai teikti' (OPP-020-Contract) nėra 'taip'</entry>
 <entry key="expression|name|840">'Taikoma tarpvalstybinė teisė' (BT-09(a)-Procedure) yra užpildytas.</entry>
 <entry key="expression|name|841">'Teisinis pagrindas' (BT-01(e)-Procedure) yra užpildytas.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Vėliau skelbtinas laukas' (BT-195(BT-635)-LotResult) yra užpildyta.</entry>
 <entry key="expression|name|845">'Vėliau skelbtinas laukas' (BT-195(BT-636)-LotResult) yra užpildyta.</entry>
 <entry key="expression|name|846">'Skelbimas: išsiuntimo data (e. formų siuntėjas)' (BT-803(d)-notice) yra užpildytas.</entry>
-<entry key="expression|name|847">'Organizacija, atliekanti šį vaidmenį' (OPT-302-Organization) è collegato a un'organizzazione.</entry>
+<entry key="expression|name|847">'Organizacija, atliekanti šį vaidmenį' (OPT-302-Organization) yra susijęs su organizacija.</entry>
 <entry key="expression|name|848">Dalyvauja pagrindų susitarimas ir 'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) yra užpildyta.</entry>
 <entry key="expression|name|849">Buvo išrinktas laimėtojas ir dalyvauja pagrindų susitarimas ir 'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) yra užpildyta.</entry>
 <entry key="expression|name|85">'Turto, naudojamo viešosioms paslaugoms teikti, sąrašas' (OPP-020-Contract) nėra 'taip'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Pirkimo dalių rezultatai' yra užpildyta ir pasiūlymas dėl partijos, kurią apima 'Procedūra: pirkimo dalies rezultatai', yra užpildytas ir pasiūlymas yra užpildytas ir partija yra nurodyta 'Procedūra: pirkimo dalies rezultatai' ir konkursas nevyksta.</entry>
 <entry key="expression|name|856">'Laimėtojo atrankos būsena' (BT-142-LotResult) yra 'Pasirinktas bent vienas laimėtojas.'.</entry>
 <entry key="expression|name|857">'Sutarties techninis ID' (OPT-316-Contract) yra užpildytas ir 'Pasiūlymo techninis ID' (OPT-321-Tender) yra užpildytas.</entry>
-<entry key="expression|name|858">'Sutarties techninis ID' (OPT-316-Contract) è compilato.</entry>
+<entry key="expression|name|858">'Sutarties techninis ID' (OPT-316-Contract) yra užpildytas.</entry>
 <entry key="expression|name|859">Dalies ID yra užpildytas.</entry>
 <entry key="expression|name|86">'Nurodyto esminio turto reikšmingumas viso turto, kurio reikia viešosioms paslaugoms teikti, atžvilgiu' (OPP-020-Contract) nėra 'taip'</entry>
 <entry key="expression|name|860">Paslaugų teikėjas yra identifikuotas.</entry>
 <entry key="expression|name|861">'Preliminariosios sutarties iš naujo įvertinta vertė' (BT-660-LotResult) yra užpildyta.</entry>
 <entry key="expression|name|862">'Vėliau skelbtinas laukas' (BT-195(BT-660)-LotResult) yra užpildyta.</entry>
-<entry key="expression|name|863">'Teikimo reikalavimo kodas' (OPT-060-Lot) è compilato.</entry>
+<entry key="expression|name|863">'Teikimo reikalavimo kodas' (OPT-060-Lot) yra užpildytas.</entry>
 <entry key="expression|name|864">'Skyrimo kriterijus: skaičius' (BT-541-Lot-WeightNumber) yra.</entry>
 <entry key="expression|name|865">'Skyrimo kriterijus: skaičius' (BT-541-Lot-FixedNumber) yra.</entry>
 <entry key="expression|name|866">'Skyrimo kriterijus: skaičius' (BT-541-Lot-ThresholdNumber) yra.</entry>

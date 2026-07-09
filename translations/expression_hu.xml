@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'A közvetlen odaítélés indoklása' (BT-136-Result) nincs kitöltve.</entry>
 <entry key="expression|name|723">'Van-e nyertes kiválasztva?' (BT-142-LotResult) 'A győztes nem került kiválasztásra, a verseny lezárult.'.</entry>
 <entry key="expression|name|724">'Van-e nyertes kiválasztva?' (BT-142-LotResult) 'Legalább egy nyertes kiválasztására sor került.' és 'A tétel eredményének technikai azonosítója (RES-XXX)' (OPT-322) ki van töltve.</entry>
-<entry key="expression|name|725">'Alvállalkozás' (BT-773-Tender) je 'Igen'.</entry>
+<entry key="expression|name|725">'Alvállalkozás' (BT-773-Tender) 'Igen'.</entry>
 <entry key="expression|name|726">'Az alvállalkozásba adott szerződésrész értéke ismert' (BT-730-Tender) 'igen'.</entry>
 <entry key="expression|name|727">'Ajánlat kifizetési értéke' (BT-779-Tender) ki van töltve.</entry>
 <entry key="expression|name|728">'Az alvállalkozásba adott szerződésrész százalékos aránya ismert' (BT-731-Tender) 'igen'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'A szándéknyilatkozatok beérkezésének határideje' (BT-630(d)-Lot) ki van töltve.</entry>
 <entry key="expression|name|732">'Jogorvoslati kérelem vagy jogorvoslati döntés' (BT-783-Review) jelen van.</entry>
 <entry key="expression|name|733">'A szerződés időtartama meghosszabbodik, mert a szolgáltatás nyújtásához alapvető eszközök szükségesek' (OPP-020-Contract) 'igen'.</entry>
-<entry key="expression|name|734">'A közszolgáltatások nyújtására használt eszközök jegyzéke' (OPP-021-Contract) je 'igen'.</entry>
-<entry key="expression|name|735">'A rendelkezésre bocsátott alapvető eszközök jelentősége a közszolgáltatások nyújtásához szükséges összes eszközhöz viszonyítva' (OPP-022-Contract) je 'igen'.</entry>
+<entry key="expression|name|734">'A közszolgáltatások nyújtására használt eszközök jegyzéke' (OPP-021-Contract) 'igen'.</entry>
+<entry key="expression|name|735">'A rendelkezésre bocsátott alapvető eszközök jelentősége a közszolgáltatások nyújtásához szükséges összes eszközhöz viszonyítva' (OPP-022-Contract) 'igen'.</entry>
 <entry key="expression|name|736">'A szerződést védett foglalkoztatási programok keretében kell teljesíteni' (BT-736-Lot) 'igen'.</entry>
 <entry key="expression|name|737">'Ajánlat azonosítója' (BT-3201-Tender) ki van töltve.</entry>
 <entry key="expression|name|738">'A teljesítés helyével kapcsolatban egyéb korlátozások is fennállnak' (BT-727-Lot) nem 'Bárhol' vagy 'Bárhol az Európai Gazdasági Térségen belül'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Az ajánlatok beérkezésének határideje' (BT-131(d)-Lot) ki van töltve.</entry>
 <entry key="expression|name|742">'A részvételi jelentkezések beérkezésének határideje' (BT-1311(d)-Lot) ki van töltve.</entry>
 <entry key="expression|name|743">'Az eljárás típusa' (BT-105) nem 'Nyitott', 'Egyéb egyszakaszos eljárás' vagy 'Felhívás nélküli tárgyalásos eljárás'.</entry>
-<entry key="expression|name|744">'Hivatalos név' (BT-500-UBO) je popunjeno.</entry>
+<entry key="expression|name|744">'Hivatalos név' (BT-500-UBO) ki van töltve.</entry>
 <entry key="expression|name|745">'Ország' (BT-514-UBO) rendelkezik NUTS-kódokkal.</entry>
-<entry key="expression|name|746">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) je 'igen' i 'A szám valamilyen küszöbérték' (BT-7532) nije popunjen.</entry>
+<entry key="expression|name|746">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) 'igen' és 'A szám valamilyen küszöbérték' (BT-7532) nincs kitöltve.</entry>
 <entry key="expression|name|747">'A követelmények az eljárás második szakaszába meghívandó jelentkezők kiválasztására vonatkoznak' (BT-40) 'igen' és 'A szám valamilyen súlyozás' (BT-7531) nincs kitöltve.</entry>
 <entry key="expression|name|748">Több tétel van.</entry>
 <entry key="expression|name|749">'Fő osztályozás' (BT-262-Lot) ki van töltve.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'További osztályozás' (BT-263-Part) ki van töltve.</entry>
 <entry key="expression|name|754">'További osztályozás' (BT-263-Procedure) ki van töltve.</entry>
 <entry key="expression|name|755">'Az ajánlat technikai azonosítója' (OPT-321-Tender) létezik.</entry>
-<entry key="expression|name|756">'Hivatalos név' (BT-500-Organization-TouchPoint) je popunjeno.</entry>
+<entry key="expression|name|756">'Hivatalos név' (BT-500-Organization-TouchPoint) kitöltve.</entry>
 <entry key="expression|name|757">'Ország' (BT-514-Organization-Company) ima NUTS kodove.</entry>
 <entry key="expression|name|758">'Ország' (BT-514-Organization-TouchPoint) ima NUTS kodove.</entry>
 <entry key="expression|name|759">Egy tétel odaítélésre került.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'A szerződés odaítélésére keretmegállapodáson belül kerül sor' (BT-768-Contract) 'igen'.</entry>
 <entry key="expression|name|762">'Az előző hirdetmény módosítandó változata' (BT-758-notice) ki van töltve.</entry>
 <entry key="expression|name|763">Az 'A közbeszerzési dokumentumokat ebben az időpontban módosították' (BT-718-notice) mutató 'igen'.</entry>
-<entry key="expression|name|764">'Regisztrációs szám' (BT-501-Business-European) je popunjeno.</entry>
+<entry key="expression|name|764">'Regisztrációs szám' (BT-501-Business-European) kitöltve.</entry>
 <entry key="expression|name|765">'A benyújtott beadványok típusa' (BT-760-LotResult) ki van töltve.</entry>
 <entry key="expression|name|766">'Később közzéteendő mező' (BT-195(BT-09)-Procedure) ki van töltve.</entry>
 <entry key="expression|name|767">'Később közzéteendő mező' (BT-195(BT-105)-Procedure) ki van töltve.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Kiválasztották a nyertest és egy keretmegállapodást bevontak és 'A keretmegállapodás maximális értéke' (BT-709-LotResult) ki van töltve.</entry>
 <entry key="expression|name|822">Van odaítélt tétel keretmegállapodás nélkül vagy keretmegállapodás keretében kötött szerződés nélkül.</entry>
 <entry key="expression|name|823">Dinamikus beszerzési rendszer (DPS) van használatban.</entry>
-<entry key="expression|name|824">'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) je popunjen.</entry>
+<entry key="expression|name|824">'UBO technikai azonosítója (UBO-XXX)' (OPT-202-UBO) kitöltve.</entry>
 <entry key="expression|name|825">'Az eljárás típusa' (BT-105) van 'Nyitott', 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'.</entry>
 <entry key="expression|name|826">'Az eljárás típusa' (BT-105) 'Zárt' vagy 'Eljárást megindító felhívás előzetes közzétételével járó tárgyalásos / tárgyalásos'.</entry>
 <entry key="expression|name|827">A szervezet vevő, és egynél több vevő van.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Az ajánlattevő által az alvállalkozásba adás tekintetében betartandó kötelezettség' (BT-65) ki van töltve.</entry>
 <entry key="expression|name|837">'Ország' (BT-514-Organization-TouchPoint) je popunjeno.</entry>
 <entry key="expression|name|838">'Ország' (BT-514-Business) ima NUTS kodove.</entry>
-<entry key="expression|name|839">'Ország' (BT-514-Business) je popunjeno.</entry>
+<entry key="expression|name|839">'Ország' (BT-514-Business) kitöltve.</entry>
 <entry key="expression|name|84">'A szerződés időtartama meghosszabbodik, mert a szolgáltatás nyújtásához alapvető eszközök szükségesek' (OPP-020-Contract) nem 'igen'</entry>
 <entry key="expression|name|840">'A határokon átnyúlóan alkalmazandó jog' (BT-09(a)-Procedure) ki van töltve.</entry>
 <entry key="expression|name|841">'Jogalap' (BT-01(e)-Procedure) ki van töltve.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Később közzéteendő mező' (BT-195(BT-635)-LotResult) ki van töltve.</entry>
 <entry key="expression|name|845">'Később közzéteendő mező' (BT-195(BT-636)-LotResult) ki van töltve.</entry>
 <entry key="expression|name|846">'Hirdetmény megküldésének dátuma (az eSender rendszerben)' (BT-803(d)-notice) ki van töltve.</entry>
-<entry key="expression|name|847">'Ezt a szerepet betöltő szervezet' (OPT-302-Organization) je povezan s organizacijom.</entry>
+<entry key="expression|name|847">'Ezt a szerepet betöltő szervezet' (OPT-302-Organization) szervezethez kapcsolódik.</entry>
 <entry key="expression|name|848">Keretmegállapodás érintett és a 'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) ki van töltve.</entry>
 <entry key="expression|name|849">Kiválasztottak egy nyertest és érintett egy keretmegállapodás és a 'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) ki van töltve.</entry>
 <entry key="expression|name|85">'A közszolgáltatások nyújtására használt eszközök jegyzéke' (OPP-020-Contract) nem 'igen'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'A részek eredményei' ki van töltve és a 'Eljárás részére vonatkozó eredmény' által lefedett tételre vonatkozó ajánlat ki van töltve és egy ajánlat ki van töltve és egy tétel meg van határozva a 'Eljárás részére vonatkozó eredmény' számára és a verseny nem folyamatban van.</entry>
 <entry key="expression|name|856">'Van-e nyertes kiválasztva?' (BT-142-LotResult) 'Legalább egy nyertes kiválasztására sor került.'.</entry>
 <entry key="expression|name|857">'A szerződés technikai azonosítója' (OPT-316-Contract) ki van töltve és 'Az ajánlat technikai azonosítója' (OPT-321-Tender) ki van töltve.</entry>
-<entry key="expression|name|858">'A szerződés technikai azonosítója' (OPT-316-Contract) je popunjen.</entry>
+<entry key="expression|name|858">'A szerződés technikai azonosítója' (OPT-316-Contract) kitöltve.</entry>
 <entry key="expression|name|859">A tétel azonosítója ki van töltve.</entry>
 <entry key="expression|name|86">'A rendelkezésre bocsátott alapvető eszközök jelentősége a közszolgáltatások nyújtásához szükséges összes eszközhöz viszonyítva' (OPP-020-Contract) nem 'igen'</entry>
 <entry key="expression|name|860">A szolgáltató azonosítva lett.</entry>
 <entry key="expression|name|861">'A keretmegállapodás újrabecsült értéke' (BT-660-LotResult) ki van töltve.</entry>
 <entry key="expression|name|862">'Később közzéteendő mező' (BT-195(BT-660)-LotResult) ki van töltve.</entry>
-<entry key="expression|name|863">'Teljesítési követelmény – kód' (OPT-060-Lot) je popunjen.</entry>
+<entry key="expression|name|863">'Teljesítési követelmény – kód' (OPT-060-Lot) kitöltve.</entry>
 <entry key="expression|name|864">'Értékelési szempont száma' (BT-541-Lot-WeightNumber) jelen van.</entry>
 <entry key="expression|name|865">'Értékelési szempont száma' (BT-541-Lot-FixedNumber) jelen van.</entry>
 <entry key="expression|name|866">'Értékelési szempont száma' (BT-541-Lot-ThresholdNumber) jelen van.</entry>

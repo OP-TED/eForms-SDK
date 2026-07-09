@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Tarjousten vastaanottamisen määräaika' (BT-131(d)-Lot) on täytetty.</entry>
 <entry key="expression|name|742">'Osallistumishakemusten vastaanottamisen määräaika' (BT-1311(d)-Lot) on täytetty.</entry>
 <entry key="expression|name|743">'Menettelyn tyyppi' (BT-105) ei ole 'Avoin', 'Muu yksivaiheinen menettely' eikä 'Neuvottelumenettely ilman edeltävää tarjouskilpailukutsua'.</entry>
-<entry key="expression|name|744">'Virallinen nimi' (BT-500-UBO) on täidetud.</entry>
+<entry key="expression|name|744">'Virallinen nimi' (BT-500-UBO) on täytetty.</entry>
 <entry key="expression|name|745">'Maa' (BT-514-UBO) sisältää NUTS-koodeja.</entry>
-<entry key="expression|name|746">'Soveltuvuusvaatimusta käytetään valittaessa menettelyn jälkimmäiseen vaiheeseen kutsuttavia ehdokkaita' (BT-40) on 'kyllä' ja 'Luku on tyypiltään kynnysarvo' (BT-7532) ei ole täidetud.</entry>
+<entry key="expression|name|746">'Soveltuvuusvaatimusta käytetään valittaessa menettelyn jälkimmäiseen vaiheeseen kutsuttavia ehdokkaita' (BT-40) on 'kyllä' ja 'Luku on tyypiltään kynnysarvo' (BT-7532) ei ole täytetty.</entry>
 <entry key="expression|name|747">'Soveltuvuusvaatimusta käytetään valittaessa menettelyn jälkimmäiseen vaiheeseen kutsuttavia ehdokkaita' (BT-40) on 'kyllä' ja 'Luku on tyypiltään painotus' (BT-7531) ei ole täytetty.</entry>
 <entry key="expression|name|748">On useita eriä.</entry>
 <entry key="expression|name|749">'Pääasiallinen luokitus' (BT-262-Lot) on täytetty.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Lisäluokitus' (BT-263-Part) on täytetty.</entry>
 <entry key="expression|name|754">'Lisäluokitus' (BT-263-Procedure) on täytetty.</entry>
 <entry key="expression|name|755">'Tarjouksen tekninen ID' (OPT-321-Tender) on olemassa.</entry>
-<entry key="expression|name|756">'Virallinen nimi' (BT-500-Organization-TouchPoint) on täidetud.</entry>
+<entry key="expression|name|756">'Virallinen nimi' (BT-500-Organization-TouchPoint) on täytetty.</entry>
 <entry key="expression|name|757">'Maa' (BT-514-Organization-Company) on NUTS-koodid.</entry>
 <entry key="expression|name|758">'Maa' (BT-514-Organization-TouchPoint) on NUTS-koodid.</entry>
 <entry key="expression|name|759">Erä on myönnetty.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Sopimus tehdään puitejärjestelyn puitteissa' (BT-768-Contract) on 'kyllä'.</entry>
 <entry key="expression|name|762">'Muutettavan ilmoituksen edellinen versio' (BT-758-notice) on täytetty.</entry>
 <entry key="expression|name|763">Indikaattori 'Hankinta-asiakirjoja on muutettu' (BT-718-notice) on 'kyllä'.</entry>
-<entry key="expression|name|764">'Rekisterinumero' (BT-501-Business-European) on täidetud.</entry>
+<entry key="expression|name|764">'Rekisterinumero' (BT-501-Business-European) on täytetty.</entry>
 <entry key="expression|name|765">'Vastaanotettujen tarjousten/osallistumishakemusten tyyppi' (BT-760-LotResult) on täytetty.</entry>
 <entry key="expression|name|766">'Myöhemmin julkaistavan kentän tunniste' (BT-195(BT-09)-Procedure) on täytetty.</entry>
 <entry key="expression|name|767">'Myöhemmin julkaistavan kentän tunniste' (BT-195(BT-105)-Procedure) on täytetty.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Alihankintaa koskeva velvoite, joka tarjoajan on täytettävä' (BT-65) on täytetty.</entry>
 <entry key="expression|name|837">'Maa' (BT-514-Organization-TouchPoint) on täidetud.</entry>
 <entry key="expression|name|838">'Maa' (BT-514-Business) on NUTS-koodid.</entry>
-<entry key="expression|name|839">'Maa' (BT-514-Business) on täidetud.</entry>
+<entry key="expression|name|839">'Maa' (BT-514-Business) on täytetty.</entry>
 <entry key="expression|name|84">'Sopimuksen voimassaoloa pidennetään palvelun tarjoamiseen tarvittavan keskeisen omaisuuden perusteella' (OPP-020-Contract) ei ole 'kyllä'</entry>
 <entry key="expression|name|840">'Sovellettava rajatylittävä lainsäädäntö' (BT-09(a)-Procedure) on täytetty.</entry>
 <entry key="expression|name|841">'Oikeusperusta' (BT-01(e)-Procedure) on täytetty.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Myöhemmin julkaistavan kentän tunniste' (BT-195(BT-635)-LotResult) on täytetty.</entry>
 <entry key="expression|name|845">'Myöhemmin julkaistavan kentän tunniste' (BT-195(BT-636)-LotResult) on täytetty.</entry>
 <entry key="expression|name|846">'Ilmoituksen lähetyspäivä (eSender)' (BT-803(d)-notice) on täytetty.</entry>
-<entry key="expression|name|847">'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization) on yhdistetty organisaatioon.</entry>
+<entry key="expression|name|847">'Organisaatio, joka täyttää tämän roolin' (OPT-302-Organization) on yhteydessä organisaatioon.</entry>
 <entry key="expression|name|848">Puittejärjestely on osallisena ja 'Puitejärjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) on täytetty.</entry>
 <entry key="expression|name|849">Voittaja valittiin ja puittejärjestely oli osallisena ja 'Puitejärjestelyn uudelleenarvioitu arvo' (BT-660-LotResult) on täytetty.</entry>
 <entry key="expression|name|85">'Luettelo julkisten palvelujen tarjoamisessa käytettävästä omaisuudesta' (OPP-020-Contract) ei ole 'kyllä'</entry>

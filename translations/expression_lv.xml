@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Tiešas piešķiršanas pamatojums' (BT-136-Result) nav aizpildīts.</entry>
 <entry key="expression|name|723">'Uzvarētāja atlases statuss' (BT-142-LotResult) ir 'Uzvarētājs netika izraudzīts, un konkurss ir slēgts.'.</entry>
 <entry key="expression|name|724">'Uzvarētāja atlases statuss' (BT-142-LotResult) ir 'Ir izraudzīts vismaz viens uzvarētājs.' un 'Partijas rezultāta tehniskais ID (RES-XXX)' (OPT-322) ir aizpildīts.</entry>
-<entry key="expression|name|725">'Apakšuzņēmēju piesaiste' (BT-773-Tender) yra 'Jā'.</entry>
+<entry key="expression|name|725">'Apakšuzņēmēju piesaiste' (BT-773-Tender) ir 'Jā'.</entry>
 <entry key="expression|name|726">'Apakšuzņēmuma līguma vērtība zināma' (BT-730-Tender) ir 'jā'.</entry>
 <entry key="expression|name|727">'Piedāvājuma maksājumu vērtība' (BT-779-Tender) ir aizpildīts.</entry>
 <entry key="expression|name|728">'Apakšuzņēmuma līgumu procentuālā daļa ir zināma' (BT-731-Tender) ir 'jā'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Ieinteresētības apstiprinājumu saņemšanas termiņš' (BT-630(d)-Lot) ir aizpildīts.</entry>
 <entry key="expression|name|732">'Pārskatīšanas pieprasījums vai lēmums' (BT-783-Review) ir klāt.</entry>
 <entry key="expression|name|733">'Līguma darbības termiņš ir pagarināts, jo pakalpojuma sniegšanai ir nepieciešami būtiski aktīvi' (OPP-020-Contract) ir 'jā'.</entry>
-<entry key="expression|name|734">'Sabiedrisko pakalpojumu sniegšanai izmantoto aktīvu saraksts' (OPP-021-Contract) yra 'jā'.</entry>
-<entry key="expression|name|735">'Nodrošināto būtisko aktīvu nozīmīgums attiecībā uz visiem aktīviem, kas nepieciešami sabiedrisko pakalpojumu sniegšanai' (OPP-022-Contract) yra 'jā'.</entry>
+<entry key="expression|name|734">'Sabiedrisko pakalpojumu sniegšanai izmantoto aktīvu saraksts' (OPP-021-Contract) ir 'jā'.</entry>
+<entry key="expression|name|735">'Nodrošināto būtisko aktīvu nozīmīgums attiecībā uz visiem aktīviem, kas nepieciešami sabiedrisko pakalpojumu sniegšanai' (OPP-022-Contract) ir 'jā'.</entry>
 <entry key="expression|name|736">'Līguma izpilde jāveic saskaņā ar aizsargātas nodarbinātības programmām' (BT-736-Lot) ir 'jā'.</entry>
 <entry key="expression|name|737">'Piedāvājuma identifikators' (BT-3201-Tender) ir aizpildīts.</entry>
 <entry key="expression|name|738">'Pakalpojumu izpildes vieta – citi ierobežojumi' (BT-727-Lot) nav 'Jebkur' vai 'Jebkur Eiropas Ekonomikas zonā'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Piedāvājumu saņemšanas termiņš' (BT-131(d)-Lot) ir aizpildīts.</entry>
 <entry key="expression|name|742">'Dalības pieprasījumu saņemšanas termiņš' (BT-1311(d)-Lot) ir aizpildīts.</entry>
 <entry key="expression|name|743">'Procedūras veids' (BT-105) nav 'Atklāta', 'Cita vienpakāpes procedūra' vai 'Sarunu procedūra bez iepirkuma iepriekšējas izsludināšanas'.</entry>
-<entry key="expression|name|744">'Oficiālais nosaukums' (BT-500-UBO) yra užpildyta.</entry>
+<entry key="expression|name|744">'Oficiālais nosaukums' (BT-500-UBO) ir aizpildīts.</entry>
 <entry key="expression|name|745">'Valsts' (BT-514-UBO) ir NUTS kodi.</entry>
-<entry key="expression|name|746">'Kritērijus izmantos, lai atlasītu kandidātus, kurus uzaicinās uz procedūras otro posmu' (BT-40) yra 'jā' ir 'Skaitlis ir sliekšņa veids' (BT-7532) nėra užpildyta.</entry>
+<entry key="expression|name|746">'Kritērijus izmantos, lai atlasītu kandidātus, kurus uzaicinās uz procedūras otro posmu' (BT-40) ir 'jā' un 'Skaitlis ir sliekšņa veids' (BT-7532) nav aizpildīts.</entry>
 <entry key="expression|name|747">'Kritērijus izmantos, lai atlasītu kandidātus, kurus uzaicinās uz procedūras otro posmu' (BT-40) ir 'jā' un 'Skaitlis ir svēruma veids' (BT-7531) nav aizpildīts.</entry>
 <entry key="expression|name|748">Ir vairāki loti.</entry>
 <entry key="expression|name|749">'Galvenā klasifikācija' (BT-262-Lot) ir aizpildīts.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Papildu klasifikācija' (BT-263-Part) ir aizpildīts.</entry>
 <entry key="expression|name|754">'Papildu klasifikācija' (BT-263-Procedure) ir aizpildīts.</entry>
 <entry key="expression|name|755">'Piedāvājuma tehniskais ID' (OPT-321-Tender) pastāv.</entry>
-<entry key="expression|name|756">'Oficiālais nosaukums' (BT-500-Organization-TouchPoint) yra užpildyta.</entry>
+<entry key="expression|name|756">'Oficiālais nosaukums' (BT-500-Organization-TouchPoint) ir aizpildīts.</entry>
 <entry key="expression|name|757">'Valsts' (BT-514-Organization-Company) turi NUTS kodus.</entry>
 <entry key="expression|name|758">'Valsts' (BT-514-Organization-TouchPoint) turi NUTS kodus.</entry>
 <entry key="expression|name|759">Tika piešķirta partija.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Līguma slēgšanas tiesības piešķir saskaņā ar pamatnolīgumu' (BT-768-Contract) ir 'jā'.</entry>
 <entry key="expression|name|762">'Paziņojuma versija, kurā veicamas izmaiņas' (BT-758-notice) ir aizpildīts.</entry>
 <entry key="expression|name|763">Indikators 'Datums, kad veiktas izmaiņas iepirkuma dokumentos' (BT-718-notice) ir 'jā'.</entry>
-<entry key="expression|name|764">'Reģistrācijas numurs' (BT-501-Business-European) yra užpildyta.</entry>
+<entry key="expression|name|764">'Reģistrācijas numurs' (BT-501-Business-European) ir aizpildīts.</entry>
 <entry key="expression|name|765">'Saņemto piedāvājumu un pieteikumu veids' (BT-760-LotResult) ir aizpildīts.</entry>
 <entry key="expression|name|766">'Lauks publicēšanai vēlāk' (BT-195(BT-09)-Procedure) ir aizpildīts.</entry>
 <entry key="expression|name|767">'Lauks publicēšanai vēlāk' (BT-195(BT-105)-Procedure) ir aizpildīts.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Tika izvēlēts uzvarētājs un tika iesaistīta pamatlīgums un 'Pamatnolīguma maksimālā vērtība' (BT-709-LotResult) ir aizpildīts.</entry>
 <entry key="expression|name|822">Ir piešķirts loti bez pamatnolīguma vai līguma pamatnolīguma ietvaros.</entry>
 <entry key="expression|name|823">Tiek izmantota dinamiskā iepirkumu sistēma (DPS).</entry>
-<entry key="expression|name|824">'UBO tehniskais ID (UBO-XXX)' (OPT-202-UBO) yra užpildyta.</entry>
+<entry key="expression|name|824">'UBO tehniskais ID (UBO-XXX)' (OPT-202-UBO) ir aizpildīts.</entry>
 <entry key="expression|name|825">'Procedūras veids' (BT-105) ir 'Atklāta', 'Slēgta' vai 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'.</entry>
 <entry key="expression|name|826">'Procedūras veids' (BT-105) ir 'Slēgta' vai 'Sarunu procedūra ar iepirkuma iepriekšēju izsludināšanu/konkursa procedūra ar sarunām'.</entry>
 <entry key="expression|name|827">Organizācija ir pircējs, un ir vairāk nekā viens pircējs.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Pienākums, kas pretendentam jāizpilda attiecībā uz apakšuzņēmuma līgumiem' (BT-65) ir aizpildīts.</entry>
 <entry key="expression|name|837">'Valsts' (BT-514-Organization-TouchPoint) yra užpildyta.</entry>
 <entry key="expression|name|838">'Valsts' (BT-514-Business) turi NUTS kodus.</entry>
-<entry key="expression|name|839">'Valsts' (BT-514-Business) yra užpildyta.</entry>
+<entry key="expression|name|839">'Valsts' (BT-514-Business) ir aizpildīts.</entry>
 <entry key="expression|name|84">'Līguma darbības termiņš ir pagarināts, jo pakalpojuma sniegšanai ir nepieciešami būtiski aktīvi' (OPP-020-Contract) nav 'jā'</entry>
 <entry key="expression|name|840">'Pārrobežu situācijās piemērojamie tiesību akti' (BT-09(a)-Procedure) ir aizpildīts.</entry>
 <entry key="expression|name|841">'Juridiskais pamats' (BT-01(e)-Procedure) ir aizpildīts.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Lauks publicēšanai vēlāk' (BT-195(BT-635)-LotResult) ir aizpildīts.</entry>
 <entry key="expression|name|845">'Lauks publicēšanai vēlāk' (BT-195(BT-636)-LotResult) ir aizpildīts.</entry>
 <entry key="expression|name|846">'Paziņojuma nosūtīšanas datums (e- sūtītājs)' (BT-803(d)-notice) ir aizpildīts.</entry>
-<entry key="expression|name|847">'Organizācija, kas pilda šo lomu' (OPT-302-Organization) yra susijęs su organizacija.</entry>
+<entry key="expression|name|847">'Organizācija, kas pilda šo lomu' (OPT-302-Organization) ir saistīts ar organizāciju.</entry>
 <entry key="expression|name|848">Iesaistīts pamatnolīgums un 'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult) ir aizpildīts.</entry>
 <entry key="expression|name|849">Tika izvēlēts uzvarētājs un bija iesaistīts pamatnolīgums un 'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult) ir aizpildīts.</entry>
 <entry key="expression|name|85">'Sabiedrisko pakalpojumu sniegšanai izmantoto aktīvu saraksts' (OPP-020-Contract) nav 'jā'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Daļu rezultāti' ir aizpildīta un piedāvājums par partiju, ko aptver 'Procedūras daļas rezultāts', ir aizpildīts un piedāvājums ir aizpildīts un partija ir norādīta 'Procedūras daļas rezultāts' un konkurss nav notiekošs.</entry>
 <entry key="expression|name|856">'Uzvarētāja atlases statuss' (BT-142-LotResult) ir 'Ir izraudzīts vismaz viens uzvarētājs.'.</entry>
 <entry key="expression|name|857">'Līguma tehniskais ID' (OPT-316-Contract) ir aizpildīts un 'Piedāvājuma tehniskais ID' (OPT-321-Tender) ir aizpildīts.</entry>
-<entry key="expression|name|858">'Līguma tehniskais ID' (OPT-316-Contract) yra užpildyta.</entry>
+<entry key="expression|name|858">'Līguma tehniskais ID' (OPT-316-Contract) ir aizpildīts.</entry>
 <entry key="expression|name|859">Partijas ID ir aizpildīts.</entry>
 <entry key="expression|name|86">'Nodrošināto būtisko aktīvu nozīmīgums attiecībā uz visiem aktīviem, kas nepieciešami sabiedrisko pakalpojumu sniegšanai' (OPP-020-Contract) nav 'jā'</entry>
 <entry key="expression|name|860">Pakalpojumu sniedzējs ir identificēts.</entry>
 <entry key="expression|name|861">'Pamatnolīguma pārrēķinātā aplēstā vērtība' (BT-660-LotResult) ir aizpildīts.</entry>
 <entry key="expression|name|862">'Lauks publicēšanai vēlāk' (BT-195(BT-660)-LotResult) ir aizpildīts.</entry>
-<entry key="expression|name|863">'Izpildei piemērojamo prasību kods' (OPT-060-Lot) yra užpildyta.</entry>
+<entry key="expression|name|863">'Izpildei piemērojamo prasību kods' (OPT-060-Lot) ir aizpildīts.</entry>
 <entry key="expression|name|864">'Piešķiršanas kritērija skaitlis' (BT-541-Lot-WeightNumber) ir klāt.</entry>
 <entry key="expression|name|865">'Piešķiršanas kritērija skaitlis' (BT-541-Lot-FixedNumber) ir klāt.</entry>
 <entry key="expression|name|866">'Piešķiršanas kritērija skaitlis' (BT-541-Lot-ThresholdNumber) ir klāt.</entry>

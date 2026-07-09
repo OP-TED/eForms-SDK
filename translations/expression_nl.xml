@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Rechtvaardiging voor onderhandse gunning' (BT-136-Result) is niet ingevuld.</entry>
 <entry key="expression|name|723">'Selectiestatus winnaar' (BT-142-LotResult) is 'Er is geen winnaar gekozen en de mededinging is gesloten.'.</entry>
 <entry key="expression|name|724">'Selectiestatus winnaar' (BT-142-LotResult) is 'Er is ten minste één winnaar gekozen.' en 'Technische ID van het perceelresultaat (RES-XXX)' (OPT-322) is ingevuld.</entry>
-<entry key="expression|name|725">'Onderaanneming' (BT-773-Tender) huwa 'Ja'.</entry>
+<entry key="expression|name|725">'Onderaanneming' (BT-773-Tender) is 'Ja'.</entry>
 <entry key="expression|name|726">'Waarde onderaanneming is bekend' (BT-730-Tender) is 'ja'.</entry>
 <entry key="expression|name|727">'Inschrijving betaling waarde' (BT-779-Tender) is ingevuld.</entry>
 <entry key="expression|name|728">'Percentage onderaanneming is bekend' (BT-731-Tender) is 'ja'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Uiterste datum voor de ontvangst van blijken van belangstelling' (BT-630(d)-Lot) is ingevuld.</entry>
 <entry key="expression|name|732">'Beroep of besluit' (BT-783-Review) is aanwezig.</entry>
 <entry key="expression|name|733">'De looptijd van het contract wordt verlengd vanwege essentiële activa die nodig zijn voor het verlenen van de dienst' (OPP-020-Contract) is 'ja'.</entry>
-<entry key="expression|name|734">'Lijst van de voor het verlenen van de openbare diensten gebruikte activa' (OPP-021-Contract) huwa 'ja'.</entry>
-<entry key="expression|name|735">'Gewicht van de geleverde essentiële activa in verhouding tot de totale voor het verlenen van de openbare diensten benodigde activa' (OPP-022-Contract) huwa 'ja'.</entry>
+<entry key="expression|name|734">'Lijst van de voor het verlenen van de openbare diensten gebruikte activa' (OPP-021-Contract) is 'ja'.</entry>
+<entry key="expression|name|735">'Gewicht van de geleverde essentiële activa in verhouding tot de totale voor het verlenen van de openbare diensten benodigde activa' (OPP-022-Contract) is 'ja'.</entry>
 <entry key="expression|name|736">'De uitvoering van de opdracht moet plaatsvinden binnen het kader van programma’s voor maatwerkbedrijven' (BT-736-Lot) is 'ja'.</entry>
 <entry key="expression|name|737">'Identificatiecode van de inschrijving' (BT-3201-Tender) is ingevuld.</entry>
 <entry key="expression|name|738">'Andere beperkingen op de plaats van uitvoering' (BT-727-Lot) is niet 'Waar dan ook' of 'Overal in de Europese Economische Ruimte'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Uiterste datum voor de ontvangst van inschrijvingen' (BT-131(d)-Lot) is ingevuld.</entry>
 <entry key="expression|name|742">'Uiterste datum voor de ontvangst van verzoeken tot deelname' (BT-1311(d)-Lot) is ingevuld.</entry>
 <entry key="expression|name|743">'Type procedure' (BT-105) is niet 'Openbaar', 'Andere procedure in één fase' of 'Onderhandelingsprocedure zonder voorafgaande oproep tot mededinging'.</entry>
-<entry key="expression|name|744">'Officiële naam' (BT-500-UBO) huwa mimli.</entry>
+<entry key="expression|name|744">'Officiële naam' (BT-500-UBO) is ingevuld.</entry>
 <entry key="expression|name|745">'Land' (BT-514-UBO) heeft NUTS-codes.</entry>
-<entry key="expression|name|746">'De criteria zullen worden gebruikt om de gegadigden te selecteren die voor de tweede fase van de procedure zullen worden uitgenodigd' (BT-40) huwa 'ja' u 'Numerieke waarde is van het type drempel' (BT-7532) mhuwiex mimli.</entry>
+<entry key="expression|name|746">'De criteria zullen worden gebruikt om de gegadigden te selecteren die voor de tweede fase van de procedure zullen worden uitgenodigd' (BT-40) is 'ja' en 'Numerieke waarde is van het type drempel' (BT-7532) is niet ingevuld.</entry>
 <entry key="expression|name|747">'De criteria zullen worden gebruikt om de gegadigden te selecteren die voor de tweede fase van de procedure zullen worden uitgenodigd' (BT-40) is 'ja' en 'Numerieke waarde is van het type gewicht' (BT-7531) is niet ingevuld.</entry>
 <entry key="expression|name|748">Er zijn meerdere percelen.</entry>
 <entry key="expression|name|749">'Belangrijkste classificatie' (BT-262-Lot) is ingevuld.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Aanvullende classificatie' (BT-263-Part) is ingevuld.</entry>
 <entry key="expression|name|754">'Aanvullende classificatie' (BT-263-Procedure) is ingevuld.</entry>
 <entry key="expression|name|755">'Technische ID van de aanbieding' (OPT-321-Tender) bestaat.</entry>
-<entry key="expression|name|756">'Officiële naam' (BT-500-Organization-TouchPoint) huwa mimli.</entry>
+<entry key="expression|name|756">'Officiële naam' (BT-500-Organization-TouchPoint) is ingevuld.</entry>
 <entry key="expression|name|757">'Land' (BT-514-Organization-Company) għandu kodiċijiet NUTS.</entry>
 <entry key="expression|name|758">'Land' (BT-514-Organization-TouchPoint) għandu kodiċijiet NUTS.</entry>
 <entry key="expression|name|759">Een perceel is gegund.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'De opdracht wordt gegund in het kader van een raamovereenkomst' (BT-768-Contract) is 'ja'.</entry>
 <entry key="expression|name|762">'Versie van de eerdere aankondiging die moet worden gewijzigd' (BT-758-notice) is ingevuld.</entry>
 <entry key="expression|name|763">De indicator 'De aanbestedingsstukken zijn gewijzigd op' (BT-718-notice) is 'ja'.</entry>
-<entry key="expression|name|764">'Registratienummer' (BT-501-Business-European) huwa mimli.</entry>
+<entry key="expression|name|764">'Registratienummer' (BT-501-Business-European) is ingevuld.</entry>
 <entry key="expression|name|765">'Type van de ontvangen inschrijvingen' (BT-760-LotResult) is ingevuld.</entry>
 <entry key="expression|name|766">'Veld om later te publiceren' (BT-195(BT-09)-Procedure) is ingevuld.</entry>
 <entry key="expression|name|767">'Veld om later te publiceren' (BT-195(BT-105)-Procedure) is ingevuld.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Er werd een winnaar gekozen en een raamovereenkomst was betrokken en 'Maximumwaarde van de raamovereenkomst' (BT-709-LotResult) is ingevuld.</entry>
 <entry key="expression|name|822">Er is een toegewezen perceel zonder raamovereenkomst of een contract binnen een raamovereenkomst.</entry>
 <entry key="expression|name|823">Het Dynamisch Aankoop Systeem (DAS) wordt gebruikt.</entry>
-<entry key="expression|name|824">'Technische ID van de UBO (UBO-XXX)' (OPT-202-UBO) huwa mimli.</entry>
+<entry key="expression|name|824">'Technische ID van de UBO (UBO-XXX)' (OPT-202-UBO) is ingevuld.</entry>
 <entry key="expression|name|825">'Type procedure' (BT-105) is 'Openbaar', 'Niet-openbaar' of 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'.</entry>
 <entry key="expression|name|826">'Type procedure' (BT-105) is 'Niet-openbaar' of 'Onderhandelingsprocedure met voorafgaande oproep tot mededinging / mededingingsprocedure met onderhandeling'.</entry>
 <entry key="expression|name|827">De organisatie is een koper en er is meer dan één koper.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Een verplichting waaraan de inschrijver moet voldoen met betrekking tot onderaanneming' (BT-65) is ingevuld.</entry>
 <entry key="expression|name|837">'Land' (BT-514-Organization-TouchPoint) huwa mimli.</entry>
 <entry key="expression|name|838">'Land' (BT-514-Business) għandu kodiċijiet NUTS.</entry>
-<entry key="expression|name|839">'Land' (BT-514-Business) huwa mimli.</entry>
+<entry key="expression|name|839">'Land' (BT-514-Business) is ingevuld.</entry>
 <entry key="expression|name|84">'De looptijd van het contract wordt verlengd vanwege essentiële activa die nodig zijn voor het verlenen van de dienst' (OPP-020-Contract) is niet 'ja'</entry>
 <entry key="expression|name|840">'Toepasselijk grensoverschrijdend recht' (BT-09(a)-Procedure) is ingevuld.</entry>
 <entry key="expression|name|841">'Rechtsgrondslag' (BT-01(e)-Procedure) is ingevuld.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Veld om later te publiceren' (BT-195(BT-635)-LotResult) is ingevuld.</entry>
 <entry key="expression|name|845">'Veld om later te publiceren' (BT-195(BT-636)-LotResult) is ingevuld.</entry>
 <entry key="expression|name|846">'Aankondiging datum verzending (eSender)' (BT-803(d)-notice) is ingevuld.</entry>
-<entry key="expression|name|847">'Organisatie die deze rol vervult' (OPT-302-Organization) huwa konness ma' organizzazzjoni.</entry>
+<entry key="expression|name|847">'Organisatie die deze rol vervult' (OPT-302-Organization) is verbonden met een organisatie.</entry>
 <entry key="expression|name|848">Een raamovereenkomst is betrokken en 'Opnieuw geraamde waarde van de raamovereenkomst' (BT-660-LotResult) is ingevuld.</entry>
 <entry key="expression|name|849">Er is een winnaar gekozen en een raamovereenkomst is betrokken en 'Opnieuw geraamde waarde van de raamovereenkomst' (BT-660-LotResult) is ingevuld.</entry>
 <entry key="expression|name|85">'Lijst van de voor het verlenen van de openbare diensten gebruikte activa' (OPP-020-Contract) is niet 'ja'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Resultaten van percelen' is ingevuld en de offerte voor de partij die wordt gedekt door 'Procedure perceel resultaat' is ingevuld en een offerte is ingevuld en een partij is gespecificeerd voor 'Procedure perceel resultaat' en de competitie is niet gaande.</entry>
 <entry key="expression|name|856">'Selectiestatus winnaar' (BT-142-LotResult) is 'Er is ten minste één winnaar gekozen.'.</entry>
 <entry key="expression|name|857">'Technische ID van het contract' (OPT-316-Contract) is ingevuld en 'Technische ID van de aanbieding' (OPT-321-Tender) is ingevuld.</entry>
-<entry key="expression|name|858">'Technische ID van het contract' (OPT-316-Contract) huwa mimli.</entry>
+<entry key="expression|name|858">'Technische ID van het contract' (OPT-316-Contract) is ingevuld.</entry>
 <entry key="expression|name|859">Het perceel-ID is ingevuld.</entry>
 <entry key="expression|name|86">'Gewicht van de geleverde essentiële activa in verhouding tot de totale voor het verlenen van de openbare diensten benodigde activa' (OPP-020-Contract) is niet 'ja'</entry>
 <entry key="expression|name|860">De dienstverlener is geïdentificeerd.</entry>
 <entry key="expression|name|861">'Opnieuw geraamde waarde van de raamovereenkomst' (BT-660-LotResult) is ingevuld.</entry>
 <entry key="expression|name|862">'Veld om later te publiceren' (BT-195(BT-660)-LotResult) is ingevuld.</entry>
-<entry key="expression|name|863">'Code vereiste voor de uitvoering' (OPT-060-Lot) huwa mimli.</entry>
+<entry key="expression|name|863">'Code vereiste voor de uitvoering' (OPT-060-Lot) is ingevuld.</entry>
 <entry key="expression|name|864">'Gunningscriterium numerieke waarde' (BT-541-Lot-WeightNumber) is aanwezig.</entry>
 <entry key="expression|name|865">'Gunningscriterium numerieke waarde' (BT-541-Lot-FixedNumber) is aanwezig.</entry>
 <entry key="expression|name|866">'Gunningscriterium numerieke waarde' (BT-541-Lot-ThresholdNumber) is aanwezig.</entry>

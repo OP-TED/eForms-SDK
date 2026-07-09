@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Ġustifikazzjoni għall-għoti dirett' (BT-136-Result) mhuwiex mimli.</entry>
 <entry key="expression|name|723">'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) huwa 'Ma ntgħażel l-ebda rebbieħ u l-kompetizzjoni ngħalqet.'.</entry>
 <entry key="expression|name|724">'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) huwa 'Intgħażel minn tal-inqas rebbieħ wieħed.' u 'ID tekniku tar-riżultat tal-lott (RES-XXX)' (OPT-322) huwa mimli.</entry>
-<entry key="expression|name|725">'Sottokuntrattar' (BT-773-Tender) ir 'Iva'.</entry>
+<entry key="expression|name|725">'Sottokuntrattar' (BT-773-Tender) huwa 'Iva'.</entry>
 <entry key="expression|name|726">'Il-valur tas-sottokuntrattar hu magħruf' (BT-730-Tender) huwa 'iva'.</entry>
 <entry key="expression|name|727">'Valur tal-pagament tal-offerta' (BT-779-Tender) huwa mimli.</entry>
 <entry key="expression|name|728">'Perċentwal magħruf tas-sottokuntrattar' (BT-731-Tender) huwa 'iva'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Skadenza biex jintlaqgħu l-espressjonijiet ta’ interess' (BT-630(d)-Lot) huwa mimli.</entry>
 <entry key="expression|name|732">'Talba jew deċiżjoni għal rieżami' (BT-783-Review) huwa preżenti.</entry>
 <entry key="expression|name|733">'It-tul tal-kuntratt hu estiż minħabba l-assi essenzjali meħtieġa għall-forniment tas-servizz' (OPP-020-Contract) huwa 'iva'.</entry>
-<entry key="expression|name|734">'Lista ta’ assi użati għall-forniment tas-servizzi pubbliċi' (OPP-021-Contract) ir 'iva'.</entry>
-<entry key="expression|name|735">'Sinifikat tal-assi essenzjali pprovduti fir-rigward tal-assi globali meħtieġa għall-forniment tas-servizzi pubbliċi' (OPP-022-Contract) ir 'iva'.</entry>
+<entry key="expression|name|734">'Lista ta’ assi użati għall-forniment tas-servizzi pubbliċi' (OPP-021-Contract) huwa 'iva'.</entry>
+<entry key="expression|name|735">'Sinifikat tal-assi essenzjali pprovduti fir-rigward tal-assi globali meħtieġa għall-forniment tas-servizzi pubbliċi' (OPP-022-Contract) huwa 'iva'.</entry>
 <entry key="expression|name|736">'L-eżekuzzjoni tal-kuntratt għandha titwettaq fil-qafas ta’ programmi ta’ impjiegi protetti' (BT-736-Lot) huwa 'iva'.</entry>
 <entry key="expression|name|737">'Identifikatur tal-offerta' (BT-3201-Tender) huwa mimli.</entry>
 <entry key="expression|name|738">'Restrizzjonijiet oħrajn fuq il-post ta’ prestazzjoni' (BT-727-Lot) mhux 'Ikun fejn ikun' jew 'Ikun fejn ikun fiż-Żona Ekonomika Ewropea'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Skadenza biex jintlaqgħu l-offerti' (BT-131(d)-Lot) huwa mimli.</entry>
 <entry key="expression|name|742">'Skadenza biex jintlaqgħu t-talbiet għall-parteċipazzjoni' (BT-1311(d)-Lot) huwa mimli.</entry>
 <entry key="expression|name|743">'Tip ta’ proċedura' (BT-105) mhuwiex 'Miftuħa', 'Proċedura oħra bi stadju wieħed' jew 'Innegozjata mingħajr sejħa minn qabel għall-kompetizzjoni'.</entry>
-<entry key="expression|name|744">'Isem uffiċjali' (BT-500-UBO) ir aizpildīts.</entry>
+<entry key="expression|name|744">'Isem uffiċjali' (BT-500-UBO) huwa mimli.</entry>
 <entry key="expression|name|745">'Pajjiż' (BT-514-UBO) għandu kodiċijiet NUTS.</entry>
-<entry key="expression|name|746">'Il-kriterji se jintużaw biex jintgħażlu l-kandidati li għandhom jiġu mistiedna għat-tieni stadju tal-proċedura' (BT-40) ir 'iva' un 'In-numru hu tip ta’ limitu' (BT-7532) nav aizpildīts.</entry>
+<entry key="expression|name|746">'Il-kriterji se jintużaw biex jintgħażlu l-kandidati li għandhom jiġu mistiedna għat-tieni stadju tal-proċedura' (BT-40) huwa 'iva' u 'In-numru hu tip ta’ limitu' (BT-7532) mhux mimli.</entry>
 <entry key="expression|name|747">'Il-kriterji se jintużaw biex jintgħażlu l-kandidati li għandhom jiġu mistiedna għat-tieni stadju tal-proċedura' (BT-40) huwa 'iva' u 'In-numru hu tip ta’ ponderazzjoni' (BT-7531) mhuwiex mimli.</entry>
 <entry key="expression|name|748">Hemm diversi lottijiet.</entry>
 <entry key="expression|name|749">'Klassifikazzjoni prinċipali' (BT-262-Lot) huwa mimli.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Klassifikazzjoni addizzjonali' (BT-263-Part) huwa mimli.</entry>
 <entry key="expression|name|754">'Klassifikazzjoni addizzjonali' (BT-263-Procedure) huwa mimli.</entry>
 <entry key="expression|name|755">'ID tekniku tal-offerta' (OPT-321-Tender) jeżisti.</entry>
-<entry key="expression|name|756">'Isem uffiċjali' (BT-500-Organization-TouchPoint) ir aizpildīts.</entry>
+<entry key="expression|name|756">'Isem uffiċjali' (BT-500-Organization-TouchPoint) hija mimlija.</entry>
 <entry key="expression|name|757">'Pajjiż' (BT-514-Organization-Company) ir NUTS kodi.</entry>
 <entry key="expression|name|758">'Pajjiż' (BT-514-Organization-TouchPoint) ir NUTS kodi.</entry>
 <entry key="expression|name|759">Inħatret lott.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Il-kuntratt jingħata fi ftehim qafas' (BT-768-Contract) huwa 'iva'.</entry>
 <entry key="expression|name|762">'Verżjoni tal-avviż preċedenti li għandu jinbidel' (BT-758-notice) huwa mimli.</entry>
 <entry key="expression|name|763">L-Indikatur 'Id-dokumenti tal-akkwist inbidlu fi' (BT-718-notice) huwa 'iva'.</entry>
-<entry key="expression|name|764">'Numru tar-reġistrazzjoni' (BT-501-Business-European) ir aizpildīts.</entry>
+<entry key="expression|name|764">'Numru tar-reġistrazzjoni' (BT-501-Business-European) hija mimlija.</entry>
 <entry key="expression|name|765">'Tip ta’ sottomissjonijiet riċevuti' (BT-760-LotResult) huwa mimli.</entry>
 <entry key="expression|name|766">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-09)-Procedure) huwa mimli.</entry>
 <entry key="expression|name|767">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-105)-Procedure) huwa mimli.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Kien intgħażel rebbieħ u kien involut ftehim qafas u 'Valur massimu tal-ftehim qafas' (BT-709-LotResult) huwa mimli.</entry>
 <entry key="expression|name|822">Hemm lott mogħti mingħajr ftehim qafas jew kuntratt fi ħdan ftehim qafas.</entry>
 <entry key="expression|name|823">Jintuża Sistema ta' Xiri Dinamiku (DPS).</entry>
-<entry key="expression|name|824">'ID tekniku tal-UBO (UBO-XXX)' (OPT-202-UBO) ir aizpildīts.</entry>
+<entry key="expression|name|824">'ID tekniku tal-UBO (UBO-XXX)' (OPT-202-UBO) hija mimlija.</entry>
 <entry key="expression|name|825">'Tip ta’ proċedura' (BT-105) huwa 'Miftuħa', 'Ristretta' jew 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'.</entry>
 <entry key="expression|name|826">'Tip ta’ proċedura' (BT-105) huwa 'Ristretta' jew 'Innegozjata bil-pubblikazzjoni minn qabel ta’ sejħa għall-kompetizzjoni/għall-kompetizzjoni bin-negozjar'.</entry>
 <entry key="expression|name|827">L-organizzazzjoni hija xerrej u hemm aktar minn xerrej wieħed.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Obbligu li jrid jiġi rrispettat mill-offerent rigward is-sottokuntrattar' (BT-65) huwa mimli.</entry>
 <entry key="expression|name|837">'Pajjiż' (BT-514-Organization-TouchPoint) ir aizpildīts.</entry>
 <entry key="expression|name|838">'Pajjiż' (BT-514-Business) ir NUTS kodi.</entry>
-<entry key="expression|name|839">'Pajjiż' (BT-514-Business) ir aizpildīts.</entry>
+<entry key="expression|name|839">'Pajjiż' (BT-514-Business) hija mimlija.</entry>
 <entry key="expression|name|84">'It-tul tal-kuntratt hu estiż minħabba l-assi essenzjali meħtieġa għall-forniment tas-servizz' (OPP-020-Contract) mhuwiex 'iva'</entry>
 <entry key="expression|name|840">'Liġi transfruntiera applikabbli' (BT-09(a)-Procedure) huwa mimli.</entry>
 <entry key="expression|name|841">'Bażi legali' (BT-01(e)-Procedure) huwa mimli.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-635)-LotResult) huwa mimli.</entry>
 <entry key="expression|name|845">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-636)-LotResult) huwa mimli.</entry>
 <entry key="expression|name|846">'Data tad-dispaċċ tal-avviż (eSender)' (BT-803(d)-notice) huwa mimli.</entry>
-<entry key="expression|name|847">'Organizzazzjoni li twettaq din ir-rwol' (OPT-302-Organization) ir saistīts ar organizāciju.</entry>
+<entry key="expression|name|847">'Organizzazzjoni li twettaq din ir-rwol' (OPT-302-Organization) hija marbuta ma' organizzazzjoni.</entry>
 <entry key="expression|name|848">Huwa involut ftehim qafas u 'Valur stmat mill-ġdid tal-ftehim qafas' (BT-660-LotResult) huwa mimli.</entry>
 <entry key="expression|name|849">Intgħażel rebbieħ u kien involut ftehim qafas u 'Valur stmat mill-ġdid tal-ftehim qafas' (BT-660-LotResult) huwa mimli.</entry>
 <entry key="expression|name|85">'Lista ta’ assi użati għall-forniment tas-servizzi pubbliċi' (OPP-020-Contract) mhuwiex 'iva'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Riżultati tal-lottijiet' huwa mimli u l-offerta għall-lott kopert minn 'Riżultat tal-proċedura għal lott' hija mimlija u offerta hija mimlija u lott huwa speċifikat għat- 'Riżultat tal-proċedura għal lott' u l-kompetizzjoni mhix għaddejja.</entry>
 <entry key="expression|name|856">'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) huwa 'Intgħażel minn tal-inqas rebbieħ wieħed.'.</entry>
 <entry key="expression|name|857">'ID tekniku tal-kuntratt' (OPT-316-Contract) huwa mimli u 'ID tekniku tal-offerta' (OPT-321-Tender) huwa mimli.</entry>
-<entry key="expression|name|858">'ID tekniku tal-kuntratt' (OPT-316-Contract) ir aizpildīts.</entry>
+<entry key="expression|name|858">'ID tekniku tal-kuntratt' (OPT-316-Contract) hija mimlija.</entry>
 <entry key="expression|name|859">ID tal-lott huwa mimli.</entry>
 <entry key="expression|name|86">'Sinifikat tal-assi essenzjali pprovduti fir-rigward tal-assi globali meħtieġa għall-forniment tas-servizzi pubbliċi' (OPP-020-Contract) mhuwiex 'iva'</entry>
 <entry key="expression|name|860">Il-fornitur tas-servizz huwa identifikat.</entry>
 <entry key="expression|name|861">'Valur stmat mill-ġdid tal-ftehim qafas' (BT-660-LotResult) huwa mimli.</entry>
 <entry key="expression|name|862">'Qasam għall-pubblikazzjoni aktar tard' (BT-195(BT-660)-LotResult) huwa mimli.</entry>
-<entry key="expression|name|863">'Kodiċi tar-rekwiżit tal-eżekuzzjoni' (OPT-060-Lot) ir aizpildīts.</entry>
+<entry key="expression|name|863">'Kodiċi tar-rekwiżit tal-eżekuzzjoni' (OPT-060-Lot) hija mimlija.</entry>
 <entry key="expression|name|864">'Numru tal-kriterju għall-għoti' (BT-541-Lot-WeightNumber) huwa preżenti.</entry>
 <entry key="expression|name|865">'Numru tal-kriterju għall-għoti' (BT-541-Lot-FixedNumber) huwa preżenti.</entry>
 <entry key="expression|name|866">'Numru tal-kriterju għall-għoti' (BT-541-Lot-ThresholdNumber) huwa preżenti.</entry>
@@ -707,7 +707,7 @@
 <entry key="expression|name|879">In-notifika ġiet identifikata bħala 'Sors ta' għaliex għandu jkun eskluz'.</entry>
 <entry key="expression|name|880">'Organizzazzjoni jew punt ta' kuntatt speċifiku' (OPT-301-Tenderer-SubCont) jeżisti.</entry>
 <entry key="expression|name|881">'Identifikatur tal-kuntratt' (BT-150-Contract) jeżisti.</entry>
-<entry key="expression|name|882">'EED applikabbli' (BT-810) huwa 'iva'.</entry>
+<entry key="expression|name|882">'EED applikabbli' (BT-810) hija 'iva'.</entry>
 <entry key="expression|name|883">'EED applikabbli' (BT-810) huwa 'iva' u 'Status tas-selezzjoni tar-rebbieħ' (BT-142-LotResult) huwa 'Intgħażel minn tal-inqas rebbieħ wieħed.' għall-lott mogħti.</entry>
 <entry key="expression|name|884">'EED applikabbli' (BT-810) huwa 'iva' għall-lott mogħti.</entry>
 <entry key="expression|name|885">'Lista EED' (Bażi) (BT-811(a)-LotResult) huwa issettjat għal 'Tikketta tal-Enerġija'.</entry>

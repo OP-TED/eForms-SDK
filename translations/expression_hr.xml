@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Obrazloženje izravne dodjele ugovora' (BT-136-Result) nije popunjeno.</entry>
 <entry key="expression|name|723">'Status odabira pobjednika' (BT-142-LotResult) je 'Pobjednik nije odabran i natječaj je zatvoren.'.</entry>
 <entry key="expression|name|724">'Status odabira pobjednika' (BT-142-LotResult) je 'Odabran je najmanje jedan pobjednik.' i 'Tehnički ID rezultata lota (RES-XXX)' (OPT-322) je ispunjen.</entry>
-<entry key="expression|name|725">'Podugovaranje' (BT-773-Tender) tá 'Da'.</entry>
+<entry key="expression|name|725">'Podugovaranje' (BT-773-Tender) je 'Da'.</entry>
 <entry key="expression|name|726">'Vrijednost podugovaranja poznata' (BT-730-Tender) je 'da'.</entry>
 <entry key="expression|name|727">'Visina isplata u okviru ponude' (BT-779-Tender) je ispunjeno.</entry>
 <entry key="expression|name|728">'Postotak podugovaranja poznat' (BT-731-Tender) je 'da'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Rok za primitak iskaza interesa' (BT-630(d)-Lot) je popunjeno.</entry>
 <entry key="expression|name|732">'Zahtjev za pravnu zaštitu (preispitivanje) ili s tim povezana odluka' (BT-783-Review) je prisutno.</entry>
 <entry key="expression|name|733">'Trajanje ugovora produljuje se zbog ključne imovine potrebne za pružanje usluge' (OPP-020-Contract) je 'da'.</entry>
-<entry key="expression|name|734">'Popis imovine koja se koristi za pružanje javnih usluga' (OPP-021-Contract) is 'da'.</entry>
-<entry key="expression|name|735">'Važnost ključne imovine na raspolaganju u odnosu na ukupnu imovinu potrebnu za pružanje javnih usluga' (OPP-022-Contract) is 'da'.</entry>
+<entry key="expression|name|734">'Popis imovine koja se koristi za pružanje javnih usluga' (OPP-021-Contract) je 'da'.</entry>
+<entry key="expression|name|735">'Važnost ključne imovine na raspolaganju u odnosu na ukupnu imovinu potrebnu za pružanje javnih usluga' (OPP-022-Contract) je 'da'.</entry>
 <entry key="expression|name|736">'Ugovor se mora izvršiti u okviru programa zaštićenih radnih mjesta' (BT-736-Lot) je 'da'.</entry>
 <entry key="expression|name|737">'Identifikacijska oznaka ponude' (BT-3201-Tender) je popunjeno.</entry>
 <entry key="expression|name|738">'Druga ograničenja koja se odnose na mjesto izvršenja' (BT-727-Lot) nije 'Bilo gdje' ili 'Bilo gdje u Europskom gospodarskom prostoru'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Rok za zaprimanje ponuda' (BT-131(d)-Lot) je popunjeno.</entry>
 <entry key="expression|name|742">'Rok za primitak zahtjeva za sudjelovanje' (BT-1311(d)-Lot) je popunjeno.</entry>
 <entry key="expression|name|743">'Vrsta postupka' (BT-105) nije 'Otvoren', 'Ostali postupci od jedne faze' ili 'Pregovarački bez prethodnog poziva na nadmetanje'.</entry>
-<entry key="expression|name|744">'Službeno ime' (BT-500-UBO) tá líonta isteach.</entry>
+<entry key="expression|name|744">'Službeno ime' (BT-500-UBO) je ispunjeno.</entry>
 <entry key="expression|name|745">'Zemlja' (BT-514-UBO) ima NUTS kodove.</entry>
-<entry key="expression|name|746">'Na kriterijima će se temeljiti odabir natjecatelja koji će biti pozvani u drugu fazu postupka' (BT-40) is 'da' agus níl 'Broj je granična vrijednost' (BT-7532) líonta isteach.</entry>
+<entry key="expression|name|746">'Na kriterijima će se temeljiti odabir natjecatelja koji će biti pozvani u drugu fazu postupka' (BT-40) je 'da' i 'Broj je granična vrijednost' (BT-7532) nije ispunjeno.</entry>
 <entry key="expression|name|747">'Na kriterijima će se temeljiti odabir natjecatelja koji će biti pozvani u drugu fazu postupka' (BT-40) je 'da' i 'Broj je ponder' (BT-7531) nije popunjeno.</entry>
 <entry key="expression|name|748">Postoji više partija.</entry>
 <entry key="expression|name|749">'Glavna klasifikacija' (BT-262-Lot) je ispunjeno.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Dodatna klasifikacija' (BT-263-Part) je popunjeno.</entry>
 <entry key="expression|name|754">'Dodatna klasifikacija' (BT-263-Procedure) je popunjeno.</entry>
 <entry key="expression|name|755">'Tehnički ID ponude' (OPT-321-Tender) postoji.</entry>
-<entry key="expression|name|756">'Službeno ime' (BT-500-Organization-TouchPoint) tá líonta isteach.</entry>
+<entry key="expression|name|756">'Službeno ime' (BT-500-Organization-TouchPoint) je popunjen.</entry>
 <entry key="expression|name|757">'Zemlja' (BT-514-Organization-Company) tá cóid NUTS.</entry>
 <entry key="expression|name|758">'Zemlja' (BT-514-Organization-TouchPoint) tá cóid NUTS.</entry>
 <entry key="expression|name|759">Dodijeljena je serija.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Ugovor se dodjeljuje u sklopu okvirnog sporazuma' (BT-768-Contract) je 'da'.</entry>
 <entry key="expression|name|762">'Verzija prethodne obavijesti koja se mijenja' (BT-758-notice) je popunjeno.</entry>
 <entry key="expression|name|763">Indikator 'Datum izmjene dokumentacije o nabavi' (BT-718-notice) je 'da'.</entry>
-<entry key="expression|name|764">'Registracijski broj' (BT-501-Business-European) tá líonta isteach.</entry>
+<entry key="expression|name|764">'Registracijski broj' (BT-501-Business-European) je popunjen.</entry>
 <entry key="expression|name|765">'Vrsta zaprimljenih ponuda ili zahtjeva' (BT-760-LotResult) je popunjeno.</entry>
 <entry key="expression|name|766">'Polje se objavljuje kasnije' (BT-195(BT-09)-Procedure) je popunjeno.</entry>
 <entry key="expression|name|767">'Polje se objavljuje kasnije' (BT-195(BT-105)-Procedure) je popunjeno.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Izabran je pobjednik i uključen je okvirni sporazum i 'Maksimalna vrijednost okvirnog sporazuma' (BT-709-LotResult) je popunjeno.</entry>
 <entry key="expression|name|822">Postoji dodijeljena partija bez okvirnog sporazuma ili ugovora unutar okvirnog sporazuma.</entry>
 <entry key="expression|name|823">Koristi se dinamički sustav nabave (DPS).</entry>
-<entry key="expression|name|824">'Tehnički ID UBO-a (UBO-XXX)' (OPT-202-UBO) is ingevuld.</entry>
+<entry key="expression|name|824">'Tehnički ID UBO-a (UBO-XXX)' (OPT-202-UBO) je popunjen.</entry>
 <entry key="expression|name|825">'Vrsta postupka' (BT-105) je 'Otvoren', 'Ograničen' ili 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore'.</entry>
 <entry key="expression|name|826">'Vrsta postupka' (BT-105) je 'Ograničen' ili 'Pregovarački s prethodnom objavom poziva na nadmetanje / natjecateljski uz pregovore'.</entry>
 <entry key="expression|name|827">Organizacija je kupac i postoji više od jednog kupca.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Obveza koju ponuditelj mora ispuniti u vezi s podugovaranjem' (BT-65) je popunjeno.</entry>
 <entry key="expression|name|837">'Zemlja' (BT-514-Organization-TouchPoint) tá líonta isteach.</entry>
 <entry key="expression|name|838">'Zemlja' (BT-514-Business) tá cóid NUTS.</entry>
-<entry key="expression|name|839">'Zemlja' (BT-514-Business) tá líonta isteach.</entry>
+<entry key="expression|name|839">'Zemlja' (BT-514-Business) je popunjen.</entry>
 <entry key="expression|name|84">'Trajanje ugovora produljuje se zbog ključne imovine potrebne za pružanje usluge' (OPP-020-Contract) nije 'da'</entry>
 <entry key="expression|name|840">'Primjenjivo prekogranično pravo' (BT-09(a)-Procedure) je ispunjeno.</entry>
 <entry key="expression|name|841">'Pravna osnova' (BT-01(e)-Procedure) je ispunjeno.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Polje se objavljuje kasnije' (BT-195(BT-635)-LotResult) je ispunjeno.</entry>
 <entry key="expression|name|845">'Polje se objavljuje kasnije' (BT-195(BT-636)-LotResult) je ispunjeno.</entry>
 <entry key="expression|name|846">'Datum e-pošiljateljeva slanja obavijesti' (BT-803(d)-notice) je ispunjen.</entry>
-<entry key="expression|name|847">'Organizacija koja ispunjava ovu ulogu' (OPT-302-Organization) is verbonden met een organisatie.</entry>
+<entry key="expression|name|847">'Organizacija koja ispunjava ovu ulogu' (OPT-302-Organization) je povezan s organizacijom.</entry>
 <entry key="expression|name|848">Uključen je okvirni sporazum i 'Ponovno procijenjena vrijednost okvirnog sporazuma' (BT-660-LotResult) je popunjen.</entry>
 <entry key="expression|name|849">Odabran je pobjednik i uključen je okvirni sporazum i 'Ponovno procijenjena vrijednost okvirnog sporazuma' (BT-660-LotResult) je popunjen.</entry>
 <entry key="expression|name|85">'Popis imovine koja se koristi za pružanje javnih usluga' (OPP-020-Contract) nije 'da'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Rezultati grupa' je popunjen i ponuda za grupu pokrivenu 'Rezultati postupka za grupe' je popunjena i ponuda je popunjena i grupa je specificirana za 'Rezultati postupka za grupe' i natjecanje nije u tijeku.</entry>
 <entry key="expression|name|856">'Status odabira pobjednika' (BT-142-LotResult) je 'Odabran je najmanje jedan pobjednik.'.</entry>
 <entry key="expression|name|857">'Tehnički ID ugovora' (OPT-316-Contract) je popunjeno i 'Tehnički ID ponude' (OPT-321-Tender) je popunjeno.</entry>
-<entry key="expression|name|858">'Tehnički ID ugovora' (OPT-316-Contract) is ingevuld.</entry>
+<entry key="expression|name|858">'Tehnički ID ugovora' (OPT-316-Contract) je popunjen.</entry>
 <entry key="expression|name|859">ID dijela je ispunjen.</entry>
 <entry key="expression|name|86">'Važnost ključne imovine na raspolaganju u odnosu na ukupnu imovinu potrebnu za pružanje javnih usluga' (OPP-020-Contract) nije 'da'</entry>
 <entry key="expression|name|860">Pružatelj usluga je identificiran.</entry>
 <entry key="expression|name|861">'Ponovno procijenjena vrijednost okvirnog sporazuma' (BT-660-LotResult) je popunjeno.</entry>
 <entry key="expression|name|862">'Polje se objavljuje kasnije' (BT-195(BT-660)-LotResult) je ispunjeno.</entry>
-<entry key="expression|name|863">'Oznaka izvršenja zahtjeva' (OPT-060-Lot) is ingevuld.</entry>
+<entry key="expression|name|863">'Oznaka izvršenja zahtjeva' (OPT-060-Lot) je popunjen.</entry>
 <entry key="expression|name|864">'Broj kriterija za dodjelu' (BT-541-Lot-WeightNumber) je prisutno.</entry>
 <entry key="expression|name|865">'Broj kriterija za dodjelu' (BT-541-Lot-FixedNumber) je prisutno.</entry>
 <entry key="expression|name|866">'Broj kriterija za dodjelu' (BT-541-Lot-ThresholdNumber) je prisutno.</entry>

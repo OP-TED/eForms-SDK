@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Odôvodnenie zámeru uzavrieť zmluvu' (BT-136-Result) nie je vyplnený.</entry>
 <entry key="expression|name|723">'Stav výberu víťaza' (BT-142-LotResult) je 'Nebol vybratý žiadny víťaz a súťaž je ukončená.'.</entry>
 <entry key="expression|name|724">'Stav výberu víťaza' (BT-142-LotResult) je 'Bol vybratý aspoň jeden víťaz.' a 'Technické ID výsledku časti (RES-XXX)' (OPT-322) je vyplnený.</entry>
-<entry key="expression|name|725">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) este 'Áno'.</entry>
+<entry key="expression|name|725">'Zadávanie zákaziek subdodávateľom' (BT-773-Tender) je 'Áno'.</entry>
 <entry key="expression|name|726">'Hodnota subdodávky je známa' (BT-730-Tender) je 'áno'.</entry>
 <entry key="expression|name|727">'Hodnota platieb na základe ponuky' (BT-779-Tender) je vyplnené.</entry>
 <entry key="expression|name|728">'Percentuálny podiel subdodávok je známy' (BT-731-Tender) je 'áno'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Lehota na predkladanie vyjadrení záujmu' (BT-630(d)-Lot) je vyplnené.</entry>
 <entry key="expression|name|732">'Žiadosť preskúmanie alebo rozhodnutie o nej' (BT-783-Review) je prítomné.</entry>
 <entry key="expression|name|733">'Trvanie zmluvy sa predlžuje z dôvodu základných aktív potrebných na poskytovanie služby' (OPP-020-Contract) je 'áno'.</entry>
-<entry key="expression|name|734">'Zoznam aktív používaných na poskytovanie verejných služieb' (OPP-021-Contract) este 'áno'.</entry>
-<entry key="expression|name|735">'Význam základných aktív poskytovaných v súvislosti s celkovými aktívami potrebnými na poskytovanie verejných služieb' (OPP-022-Contract) este 'áno'.</entry>
+<entry key="expression|name|734">'Zoznam aktív používaných na poskytovanie verejných služieb' (OPP-021-Contract) je 'áno'.</entry>
+<entry key="expression|name|735">'Význam základných aktív poskytovaných v súvislosti s celkovými aktívami potrebnými na poskytovanie verejných služieb' (OPP-022-Contract) je 'áno'.</entry>
 <entry key="expression|name|736">'Plnenie zmluvy sa musí vykonať v rámci programov chránených pracovísk' (BT-736-Lot) je 'áno'.</entry>
 <entry key="expression|name|737">'Identifikátor ponuky' (BT-3201-Tender) je vyplnená.</entry>
 <entry key="expression|name|738">'Iné obmedzenia týkajúce sa miesta plnenia' (BT-727-Lot) nie je 'Kdekoľvek' alebo 'Kdekoľvek v Európskom hospodárskom priestore'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Lehota na prijímanie ponúk' (BT-131(d)-Lot) je vyplnený.</entry>
 <entry key="expression|name|742">'Lehota na prijímanie žiadostí o účasť' (BT-1311(d)-Lot) je vyplnený.</entry>
 <entry key="expression|name|743">'Druh postupu' (BT-105) nie je 'Verejná súťaž', 'Iný jednofázový postup' alebo 'Rokovacie konanie bez zverejnenia výzvy na súťaž'.</entry>
-<entry key="expression|name|744">'Úradný názov' (BT-500-UBO) este completat.</entry>
+<entry key="expression|name|744">'Úradný názov' (BT-500-UBO) je vyplnené.</entry>
 <entry key="expression|name|745">'Krajina' (BT-514-UBO) má kódy NUTS.</entry>
-<entry key="expression|name|746">'Kritériá sa použijú na výber záujemcov, ktorí budú pozvaní do druhej fázy postupu' (BT-40) este 'áno' și 'Číslo je typom prahovej hodnoty' (BT-7532) nu este completat.</entry>
+<entry key="expression|name|746">'Kritériá sa použijú na výber záujemcov, ktorí budú pozvaní do druhej fázy postupu' (BT-40) je 'áno' a 'Číslo je typom prahovej hodnoty' (BT-7532) nie je vyplnené.</entry>
 <entry key="expression|name|747">'Kritériá sa použijú na výber záujemcov, ktorí budú pozvaní do druhej fázy postupu' (BT-40) je 'áno' a 'Číslo je typom váhy' (BT-7531) nie je vyplnená.</entry>
 <entry key="expression|name|748">Existuje viacero častí.</entry>
 <entry key="expression|name|749">'Hlavná klasifikácia' (BT-262-Lot) je vyplnené.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Doplňujúca klasifikácia' (BT-263-Part) je vyplnená.</entry>
 <entry key="expression|name|754">'Doplňujúca klasifikácia' (BT-263-Procedure) je vyplnená.</entry>
 <entry key="expression|name|755">'Technické ID ponuky' (OPT-321-Tender) existuje.</entry>
-<entry key="expression|name|756">'Úradný názov' (BT-500-Organization-TouchPoint) este completat.</entry>
+<entry key="expression|name|756">'Úradný názov' (BT-500-Organization-TouchPoint) je vyplnený.</entry>
 <entry key="expression|name|757">'Krajina' (BT-514-Organization-Company) are coduri NUTS.</entry>
 <entry key="expression|name|758">'Krajina' (BT-514-Organization-TouchPoint) are coduri NUTS.</entry>
 <entry key="expression|name|759">Bola pridelená časť.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Zmluva je uzavretá na základe rámcovej dohody' (BT-768-Contract) je 'áno'.</entry>
 <entry key="expression|name|762">'Verzia prechádzajúceho oznámenia, ktorá sa má upraviť' (BT-758-notice) je vyplnené.</entry>
 <entry key="expression|name|763">Indikátor 'Súťažné podklady boli zmenené dňa' (BT-718-notice) je 'áno'.</entry>
-<entry key="expression|name|764">'Registračné číslo' (BT-501-Business-European) este completat.</entry>
+<entry key="expression|name|764">'Registračné číslo' (BT-501-Business-European) je vyplnený.</entry>
 <entry key="expression|name|765">'Typ prijatých ponúk' (BT-760-LotResult) je vyplnené.</entry>
 <entry key="expression|name|766">'Pole pre neskoršie uverejnenie' (BT-195(BT-09)-Procedure) je vyplnený.</entry>
 <entry key="expression|name|767">'Pole pre neskoršie uverejnenie' (BT-195(BT-105)-Procedure) je vyplnený.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Bol vybraný víťaz a bola zahrnutá rámcová dohoda a 'Maximálna hodnota rámcovej dohody' (BT-709-LotResult) je vyplnený.</entry>
 <entry key="expression|name|822">Existuje pridelená časť bez rámcovej dohody alebo zmluvy v rámci rámcovej dohody.</entry>
 <entry key="expression|name|823">Používa sa dynamický nákupný systém (DNS).</entry>
-<entry key="expression|name|824">'Technické ID UBO (UBO-XXX)' (OPT-202-UBO) este completat.</entry>
+<entry key="expression|name|824">'Technické ID UBO (UBO-XXX)' (OPT-202-UBO) je vyplnený.</entry>
 <entry key="expression|name|825">'Druh postupu' (BT-105) je 'Verejná súťaž', 'Užšia súťaž' alebo 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'.</entry>
 <entry key="expression|name|826">'Druh postupu' (BT-105) je 'Užšia súťaž' alebo 'Rokovacie konanie so zverejnením výzvy na súťaž/súťažné obstarávanie s rokovacím konaním'.</entry>
 <entry key="expression|name|827">Organizácia je kupujúci a existuje viac ako jeden kupujúci.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Povinnosť, ktorú musí uchádzač splniť v prípade zadania zákazky subdodávateľovi' (BT-65) je vyplnené.</entry>
 <entry key="expression|name|837">'Krajina' (BT-514-Organization-TouchPoint) este completat.</entry>
 <entry key="expression|name|838">'Krajina' (BT-514-Business) are coduri NUTS.</entry>
-<entry key="expression|name|839">'Krajina' (BT-514-Business) este completat.</entry>
+<entry key="expression|name|839">'Krajina' (BT-514-Business) je vyplnený.</entry>
 <entry key="expression|name|84">'Trvanie zmluvy sa predlžuje z dôvodu základných aktív potrebných na poskytovanie služby' (OPP-020-Contract) nie je 'áno'</entry>
 <entry key="expression|name|840">'Uplatniteľné cezhraničné právne predpisy' (BT-09(a)-Procedure) je vyplnený.</entry>
 <entry key="expression|name|841">'Právny základ' (BT-01(e)-Procedure) je vyplnený.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Pole pre neskoršie uverejnenie' (BT-195(BT-635)-LotResult) je vyplnený.</entry>
 <entry key="expression|name|845">'Pole pre neskoršie uverejnenie' (BT-195(BT-636)-LotResult) je vyplnený.</entry>
 <entry key="expression|name|846">'Dátum odoslania oznámenia (eSender)' (BT-803(d)-notice) je vyplnený.</entry>
-<entry key="expression|name|847">'Organizácia, ktorá plní túto úlohu' (OPT-302-Organization) este conectat la o organizație.</entry>
+<entry key="expression|name|847">'Organizácia, ktorá plní túto úlohu' (OPT-302-Organization) je spojený s organizáciou.</entry>
 <entry key="expression|name|848">Je zapojená rámcová dohoda a 'Prehodnotená hodnota rámcovej dohody' (BT-660-LotResult) je vyplnený.</entry>
 <entry key="expression|name|849">Bol vybraný víťaz a bola zapojená rámcová dohoda a 'Prehodnotená hodnota rámcovej dohody' (BT-660-LotResult) je vyplnený.</entry>
 <entry key="expression|name|85">'Zoznam aktív používaných na poskytovanie verejných služieb' (OPP-020-Contract) nie je 'áno'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Výsledky častí' je vyplnený a ponuka na časť pokrytú 'Výsledok postupu obstarávania podľa časti' je vyplnená a ponuka je vyplnená a časť je špecifikovaná pre 'Výsledok postupu obstarávania podľa časti' a súťaž neprebieha.</entry>
 <entry key="expression|name|856">'Stav výberu víťaza' (BT-142-LotResult) je 'Bol vybratý aspoň jeden víťaz.'.</entry>
 <entry key="expression|name|857">'Technické ID zmluvy' (OPT-316-Contract) je vyplnený a 'Technické ID ponuky' (OPT-321-Tender) je vyplnený.</entry>
-<entry key="expression|name|858">'Technické ID zmluvy' (OPT-316-Contract) este completat.</entry>
+<entry key="expression|name|858">'Technické ID zmluvy' (OPT-316-Contract) je vyplnený.</entry>
 <entry key="expression|name|859">ID časti je vyplnené.</entry>
 <entry key="expression|name|86">'Význam základných aktív poskytovaných v súvislosti s celkovými aktívami potrebnými na poskytovanie verejných služieb' (OPP-020-Contract) nie je 'áno'</entry>
 <entry key="expression|name|860">Poskytovateľ služieb je identifikovaný.</entry>
 <entry key="expression|name|861">'Prehodnotená hodnota rámcovej dohody' (BT-660-LotResult) je vyplnené.</entry>
 <entry key="expression|name|862">'Pole pre neskoršie uverejnenie' (BT-195(BT-660)-LotResult) je vyplnený.</entry>
-<entry key="expression|name|863">'Kód požiadaviek na plnenie' (OPT-060-Lot) este completat.</entry>
+<entry key="expression|name|863">'Kód požiadaviek na plnenie' (OPT-060-Lot) je vyplnený.</entry>
 <entry key="expression|name|864">'Číslo kritéria na vyhodnotenie ponúk' (BT-541-Lot-WeightNumber) je prítomné.</entry>
 <entry key="expression|name|865">'Číslo kritéria na vyhodnotenie ponúk' (BT-541-Lot-FixedNumber) je prítomné.</entry>
 <entry key="expression|name|866">'Číslo kritéria na vyhodnotenie ponúk' (BT-541-Lot-ThresholdNumber) je prítomné.</entry>

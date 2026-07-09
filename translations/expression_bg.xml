@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Краен срок за получаване на заявления за изразяване на интерес' (BT-630(d)-Lot) е попълнено.</entry>
 <entry key="expression|name|732">'Искане или решение за преразглеждане (обжалване)' (BT-783-Review) е налице.</entry>
 <entry key="expression|name|733">'Срокът на договора се удължава поради основни активи, необходими за предоставянето на услугата' (OPP-020-Contract) е 'да'.</entry>
-<entry key="expression|name|734">'Списък на активите, използвани за предоставянето на обществени услуги' (OPP-021-Contract) is 'да'.</entry>
-<entry key="expression|name|735">'Значение на предоставените основни активи в сравнение с общите активи, необходими за предоставянето на обществените услуги' (OPP-022-Contract) is 'да'.</entry>
+<entry key="expression|name|734">'Списък на активите, използвани за предоставянето на обществени услуги' (OPP-021-Contract) е 'да'.</entry>
+<entry key="expression|name|735">'Значение на предоставените основни активи в сравнение с общите активи, необходими за предоставянето на обществените услуги' (OPP-022-Contract) е 'да'.</entry>
 <entry key="expression|name|736">'Изпълнението на договора трябва да се извършва в рамките на програми за създаване на защитени работни места' (BT-736-Lot) е 'да'.</entry>
 <entry key="expression|name|737">'Идентификатор на търга' (BT-3201-Tender) е попълнено.</entry>
 <entry key="expression|name|738">'Други ограничения за мястото на изпълнение' (BT-727-Lot) не е 'На всяко място' или 'На всяко място в Европейското икономическо пространство'.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Допълнителна класификация' (BT-263-Part) е попълнено.</entry>
 <entry key="expression|name|754">'Допълнителна класификация' (BT-263-Procedure) е попълнено.</entry>
 <entry key="expression|name|755">'Технически идентификатор на офертата' (OPT-321-Tender) съществува.</entry>
-<entry key="expression|name|756">'Официално наименование' (BT-500-Organization-TouchPoint) е попълнено.</entry>
+<entry key="expression|name|756">'Официално наименование' (BT-500-Organization-TouchPoint) е попълнен.</entry>
 <entry key="expression|name|757">'Държава' (BT-514-Organization-Company) има NUTS кодове.</entry>
 <entry key="expression|name|758">'Държава' (BT-514-Organization-TouchPoint) има NUTS кодове.</entry>
 <entry key="expression|name|759">Е присъдена партида.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Поръчката е възложена по рамково споразумение' (BT-768-Contract) е 'да'.</entry>
 <entry key="expression|name|762">'Версия на предишното обявление, което трябва да бъде променено' (BT-758-notice) е попълнено.</entry>
 <entry key="expression|name|763">Indicator 'Документацията за обществената поръчка е променена на' (BT-718-notice) je 'да'.</entry>
-<entry key="expression|name|764">'Регистрационен номер' (BT-501-Business-European) е попълнено.</entry>
+<entry key="expression|name|764">'Регистрационен номер' (BT-501-Business-European) е попълнен.</entry>
 <entry key="expression|name|765">'Вид на получените оферти или заявления' (BT-760-LotResult) е попълнено.</entry>
 <entry key="expression|name|766">'Поле за по-късно публикуване' (BT-195(BT-09)-Procedure) е попълнено.</entry>
 <entry key="expression|name|767">'Поле за по-късно публикуване' (BT-195(BT-105)-Procedure) е попълнено.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Беше избран победител и беше включено рамково споразумение и 'Максимална стойност на рамковото споразумение' (BT-709-LotResult) е попълнено.</entry>
 <entry key="expression|name|822">Има присъдена партида без рамково споразумение или договор в рамките на рамково споразумение.</entry>
 <entry key="expression|name|823">Използва се динамична система за покупки (DPS).</entry>
-<entry key="expression|name|824">'Технически идентификатор на крайния ползващ от ползите собственик (UBO-XXX)' (OPT-202-UBO) is filled in.</entry>
+<entry key="expression|name|824">'Технически идентификатор на крайния ползващ от ползите собственик (UBO-XXX)' (OPT-202-UBO) е попълнен.</entry>
 <entry key="expression|name|825">'Вид процедура' (BT-105) е 'Открита', 'Ограничена' или 'Договаряне с предварително публикуване на покана за участие в състезателна процедура / състезателна с договаряне'.</entry>
 <entry key="expression|name|826">'Вид процедура' (BT-105) е 'Ограничена' или 'Договаряне с предварително публикуване на покана за участие в състезателна процедура / състезателна с договаряне'.</entry>
 <entry key="expression|name|827">Организацията е купувач и има повече от един купувач.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Задължение за оферента по отношение на използването на подизпълнители' (BT-65) е попълнено.</entry>
 <entry key="expression|name|837">'Държава' (BT-514-Organization-TouchPoint) е попълнено.</entry>
 <entry key="expression|name|838">'Държава' (BT-514-Business) има NUTS кодове.</entry>
-<entry key="expression|name|839">'Държава' (BT-514-Business) е попълнено.</entry>
+<entry key="expression|name|839">'Държава' (BT-514-Business) е попълнен.</entry>
 <entry key="expression|name|84">'Срокът на договора се удължава поради основни активи, необходими за предоставянето на услугата' (OPP-020-Contract) не е 'да'</entry>
 <entry key="expression|name|840">'Приложимо презгранично право' (BT-09(a)-Procedure) е попълнено.</entry>
 <entry key="expression|name|841">'Правно основание' (BT-01(e)-Procedure) е попълнено.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Поле за по-късно публикуване' (BT-195(BT-635)-LotResult) е попълнено.</entry>
 <entry key="expression|name|845">'Поле за по-късно публикуване' (BT-195(BT-636)-LotResult) е попълнено.</entry>
 <entry key="expression|name|846">'Дата на изпращане на обявлението (електронен подател)' (BT-803(d)-notice) е попълнен.</entry>
-<entry key="expression|name|847">'Организация, която изпълнява тази роля' (OPT-302-Organization) is connected to an organisation.</entry>
+<entry key="expression|name|847">'Организация, която изпълнява тази роля' (OPT-302-Organization) е свързан с организация.</entry>
 <entry key="expression|name|848">Е включено рамково споразумение и 'Нова прогнозна стойност за рамковото споразумение' (BT-660-LotResult) е попълнено.</entry>
 <entry key="expression|name|849">Е избран победител и е включено рамково споразумение и 'Нова прогнозна стойност за рамковото споразумение' (BT-660-LotResult) е попълнено.</entry>
 <entry key="expression|name|85">'Списък на активите, използвани за предоставянето на обществени услуги' (OPP-020-Contract) не е 'да'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Резултати по обособените позиции' е попълнено и офертата за обособената позиция, обхваната от 'Резултат от процедурата по обособени позиции', е попълнена и офертата е попълнена и обособената позиция е определена за 'Резултат от процедурата по обособени позиции' и конкурсът не е в ход.</entry>
 <entry key="expression|name|856">'Статус на избора на победител' (BT-142-LotResult) е 'Избран е най-малко един победител.'.</entry>
 <entry key="expression|name|857">'Технически идентификатор на договора' (OPT-316-Contract) е попълнен и 'Технически идентификатор на офертата' (OPT-321-Tender) е попълнен.</entry>
-<entry key="expression|name|858">'Технически идентификатор на договора' (OPT-316-Contract) is filled in.</entry>
+<entry key="expression|name|858">'Технически идентификатор на договора' (OPT-316-Contract) е попълнен.</entry>
 <entry key="expression|name|859">ID на партидата е попълнен.</entry>
 <entry key="expression|name|86">'Значение на предоставените основни активи в сравнение с общите активи, необходими за предоставянето на обществените услуги' (OPP-020-Contract) не е 'да'</entry>
 <entry key="expression|name|860">Доставчикът на услуги е идентифициран.</entry>
 <entry key="expression|name|861">'Нова прогнозна стойност за рамковото споразумение' (BT-660-LotResult) е попълнено.</entry>
 <entry key="expression|name|862">'Поле за по-късно публикуване' (BT-195(BT-660)-LotResult) е попълнено.</entry>
-<entry key="expression|name|863">'Код на изискването за изпълнение' (OPT-060-Lot) is filled in.</entry>
+<entry key="expression|name|863">'Код на изискването за изпълнение' (OPT-060-Lot) е попълнен.</entry>
 <entry key="expression|name|864">'Число, свързано с критерия за възлагане' (BT-541-Lot-WeightNumber) е налично.</entry>
 <entry key="expression|name|865">'Число, свързано с критерия за възлагане' (BT-541-Lot-FixedNumber) е налично.</entry>
 <entry key="expression|name|866">'Число, свързано с критерия за възлагане' (BT-541-Lot-ThresholdNumber) е налично.</entry>

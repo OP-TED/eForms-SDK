@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Πρόσθετη ταξινόμηση' (BT-263-Part) έχει συμπληρωθεί.</entry>
 <entry key="expression|name|754">'Πρόσθετη ταξινόμηση' (BT-263-Procedure) έχει συμπληρωθεί.</entry>
 <entry key="expression|name|755">'Τεχνικό ID της προσφοράς' (OPT-321-Tender) υπάρχει.</entry>
-<entry key="expression|name|756">'Επίσημη ονομασία' (BT-500-Organization-TouchPoint) είναι συμπληρωμένο.</entry>
+<entry key="expression|name|756">'Επίσημη ονομασία' (BT-500-Organization-TouchPoint) συμπληρώνεται.</entry>
 <entry key="expression|name|757">'Χώρα' (BT-514-Organization-Company) έχει κωδικούς NUTS.</entry>
 <entry key="expression|name|758">'Χώρα' (BT-514-Organization-TouchPoint) έχει κωδικούς NUTS.</entry>
 <entry key="expression|name|759">Έχει απονεμηθεί μια παρτίδα.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Η σύμβαση ανατίθεται στο πλαίσιο συμφωνίας-πλαίσιο' (BT-768-Contract) είναι 'ναι'.</entry>
 <entry key="expression|name|762">'Η έκδοση της προηγούμενης προκήρυξης πρέπει να τροποποιηθεί' (BT-758-notice) είναι συμπληρωμένο.</entry>
 <entry key="expression|name|763">Δείκτης 'Τα έγγραφα της δημόσιας σύμβασης τροποποιήθηκαν στις' (BT-718-notice) είναι 'ναι'.</entry>
-<entry key="expression|name|764">'Αριθμός καταχώρισης' (BT-501-Business-European) είναι συμπληρωμένο.</entry>
+<entry key="expression|name|764">'Αριθμός καταχώρισης' (BT-501-Business-European) συμπληρώνεται.</entry>
 <entry key="expression|name|765">'Τύπος παραληφθεισών προσφορών ή αιτήσεων συμμετοχής' (BT-760-LotResult) είναι συμπληρωμένο.</entry>
 <entry key="expression|name|766">'Πεδίο προς δημοσίευση αργότερα' (BT-195(BT-09)-Procedure) έχει συμπληρωθεί.</entry>
 <entry key="expression|name|767">'Πεδίο προς δημοσίευση αργότερα' (BT-195(BT-105)-Procedure) έχει συμπληρωθεί.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Επιλέχθηκε νικητής και συμπεριλήφθηκε συμφωνία πλαίσιο και το 'Μέγιστη αξία της συμφωνίας-πλαισίου' (BT-709-LotResult) είναι συμπληρωμένο.</entry>
 <entry key="expression|name|822">Υπάρχει μια κατανεμημένη παρτίδα χωρίς συμφωνία-πλαίσιο ή σύμβαση εντός συμφωνίας-πλαισίου.</entry>
 <entry key="expression|name|823">Χρησιμοποιείται Δυναμικό Σύστημα Αγορών (DPS).</entry>
-<entry key="expression|name|824">'Τεχνικό ID του τελικού ευεργετικού κατόχου (UBO-XXX)' (OPT-202-UBO) είναι συμπληρωμένο.</entry>
+<entry key="expression|name|824">'Τεχνικό ID του τελικού ευεργετικού κατόχου (UBO-XXX)' (OPT-202-UBO) συμπληρώνεται.</entry>
 <entry key="expression|name|825">'Είδος διαδικασίας' (BT-105) είναι 'Ανοικτή', 'Κλειστή' ή 'Με διαπραγμάτευση με προηγούμενη δημοσίευση προκήρυξης διαγωνισμού/ανταγωνιστική διαδικασία με διαπραγμάτευση'.</entry>
 <entry key="expression|name|826">'Είδος διαδικασίας' (BT-105) είναι 'Κλειστή' ή 'Με διαπραγμάτευση με προηγούμενη δημοσίευση προκήρυξης διαγωνισμού/ανταγωνιστική διαδικασία με διαπραγμάτευση'.</entry>
 <entry key="expression|name|827">Ο οργανισμός είναι αγοραστής και υπάρχει περισσότερος από ένας αγοραστής.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Υποχρέωση που οφείλει να τηρήσει ο προσφέρων σχετικά με τις υπεργολαβίες' (BT-65) έχει συμπληρωθεί.</entry>
 <entry key="expression|name|837">'Χώρα' (BT-514-Organization-TouchPoint) είναι συμπληρωμένο.</entry>
 <entry key="expression|name|838">'Χώρα' (BT-514-Business) έχει κωδικούς NUTS.</entry>
-<entry key="expression|name|839">'Χώρα' (BT-514-Business) είναι συμπληρωμένο.</entry>
+<entry key="expression|name|839">'Χώρα' (BT-514-Business) συμπληρώνεται.</entry>
 <entry key="expression|name|84">'Η διάρκεια της σύμβασης παρατείνεται λόγω βασικών στοιχείων ενεργητικού που είναι αναγκαία για την παροχή της υπηρεσίας' (OPP-020-Contract) δεν είναι 'ναι'</entry>
 <entry key="expression|name|840">'Εφαρμοστέο διασυνοριακό δίκαιο' (BT-09(a)-Procedure) έχει συμπληρωθεί.</entry>
 <entry key="expression|name|841">'Νομική βάση' (BT-01(e)-Procedure) έχει συμπληρωθεί.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Πεδίο προς δημοσίευση αργότερα' (BT-195(BT-635)-LotResult) είναι συμπληρωμένο.</entry>
 <entry key="expression|name|845">'Πεδίο προς δημοσίευση αργότερα' (BT-195(BT-636)-LotResult) είναι συμπληρωμένο.</entry>
 <entry key="expression|name|846">'Ημερομηνία αποστολής προκήρυξης/γνωστοποίησης (από τον eSender)' (BT-803(d)-notice) έχει συμπληρωθεί.</entry>
-<entry key="expression|name|847">'Οργάνωση που εκπληρώνει αυτόν τον ρόλο' (OPT-302-Organization) είναι συνδεδεμένο με έναν οργανισμό.</entry>
+<entry key="expression|name|847">'Οργάνωση που εκπληρώνει αυτόν τον ρόλο' (OPT-302-Organization) συνδέεται με οργανισμό.</entry>
 <entry key="expression|name|848">Συμμετέχει συμφωνία-πλαίσιο και 'Επανεκτιμηθείσα αξία της συμφωνίας-πλαισίου' (BT-660-LotResult) έχει συμπληρωθεί.</entry>
 <entry key="expression|name|849">Επιλέχθηκε νικητής και συμμετείχε συμφωνία-πλαίσιο και 'Επανεκτιμηθείσα αξία της συμφωνίας-πλαισίου' (BT-660-LotResult) έχει συμπληρωθεί.</entry>
 <entry key="expression|name|85">'Κατάλογος στοιχείων ενεργητικού που χρησιμοποιούνται για την παροχή των δημόσιων υπηρεσιών' (OPP-020-Contract) δεν είναι 'ναι'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Αποτελέσματα παρτίδων' έχει συμπληρωθεί και η προσφορά για την παρτίδα που καλύπτεται από το 'Αποτέλεσμα διαδικασίας σύναψης συμβάσεων σε παρτίδες' έχει συμπληρωθεί και η προσφορά έχει συμπληρωθεί και η παρτίδα έχει καθοριστεί για το 'Αποτέλεσμα διαδικασίας σύναψης συμβάσεων σε παρτίδες' και ο διαγωνισμός δεν είναι σε εξέλιξη.</entry>
 <entry key="expression|name|856">'Κατάσταση επιλογής του νικητή' (BT-142-LotResult) είναι 'Επιλέχθηκε τουλάχιστον ένας νικητής/ανάδοχος.'.</entry>
 <entry key="expression|name|857">'Τεχνικό ID του συμβολαίου' (OPT-316-Contract) έχει συμπληρωθεί και 'Τεχνικό ID της προσφοράς' (OPT-321-Tender) έχει συμπληρωθεί.</entry>
-<entry key="expression|name|858">'Τεχνικό ID του συμβολαίου' (OPT-316-Contract) είναι συμπληρωμένο.</entry>
+<entry key="expression|name|858">'Τεχνικό ID του συμβολαίου' (OPT-316-Contract) συμπληρώνεται.</entry>
 <entry key="expression|name|859">Το αναγνωριστικό τμήματος είναι συμπληρωμένο.</entry>
 <entry key="expression|name|86">'Σημασία των παρασχεθέντων βασικών στοιχείων ενεργητικού σε σχέση με το σύνολο των στοιχείων ενεργητικού που απαιτούνται για την παροχή των δημόσιων υπηρεσιών' (OPP-020-Contract) δεν είναι 'ναι'</entry>
 <entry key="expression|name|860">Ο πάροχος υπηρεσιών έχει ταυτοποιηθεί.</entry>
 <entry key="expression|name|861">'Επανεκτιμηθείσα αξία της συμφωνίας-πλαισίου' (BT-660-LotResult) έχει συμπληρωθεί.</entry>
 <entry key="expression|name|862">'Πεδίο προς δημοσίευση αργότερα' (BT-195(BT-660)-LotResult) είναι συμπληρωμένο.</entry>
-<entry key="expression|name|863">'Κωδικός απαίτησης εκτέλεσης' (OPT-060-Lot) είναι συμπληρωμένο.</entry>
+<entry key="expression|name|863">'Κωδικός απαίτησης εκτέλεσης' (OPT-060-Lot) συμπληρώνεται.</entry>
 <entry key="expression|name|864">'Αριθμός κριτηρίου ανάθεσης' (BT-541-Lot-WeightNumber) είναι παρόν.</entry>
 <entry key="expression|name|865">'Αριθμός κριτηρίου ανάθεσης' (BT-541-Lot-FixedNumber) είναι παρόν.</entry>
 <entry key="expression|name|866">'Αριθμός κριτηρίου ανάθεσης' (BT-541-Lot-ThresholdNumber) είναι παρόν.</entry>

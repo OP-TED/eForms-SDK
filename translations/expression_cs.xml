@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Další klasifikace' (BT-263-Part) je vyplněna.</entry>
 <entry key="expression|name|754">'Další klasifikace' (BT-263-Procedure) je vyplněna.</entry>
 <entry key="expression|name|755">'Technické ID nabídky' (OPT-321-Tender) existuje.</entry>
-<entry key="expression|name|756">'Oficiální název' (BT-500-Organization-TouchPoint) je vyplněno.</entry>
+<entry key="expression|name|756">'Oficiální název' (BT-500-Organization-TouchPoint) je vyplněn.</entry>
 <entry key="expression|name|757">'Země' (BT-514-Organization-Company) má kódy NUTS.</entry>
 <entry key="expression|name|758">'Země' (BT-514-Organization-TouchPoint) má kódy NUTS.</entry>
 <entry key="expression|name|759">Byla přidělena část.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Zakázka je zadána na základě rámcové dohody' (BT-768-Contract) je 'ano'.</entry>
 <entry key="expression|name|762">'Znění předchozího oznámení, které má být změněno' (BT-758-notice) je vyplněno.</entry>
 <entry key="expression|name|763">Indikátor 'Zadávací dokumentace byla změněna dne' (BT-718-notice) je 'ano'.</entry>
-<entry key="expression|name|764">'Registrační číslo' (BT-501-Business-European) je vyplněno.</entry>
+<entry key="expression|name|764">'Registrační číslo' (BT-501-Business-European) je vyplněn.</entry>
 <entry key="expression|name|765">'Druh obdržených nabídek' (BT-760-LotResult) je vyplněno.</entry>
 <entry key="expression|name|766">'Pole bude zveřejněno později' (BT-195(BT-09)-Procedure) je vyplněn.</entry>
 <entry key="expression|name|767">'Pole bude zveřejněno později' (BT-195(BT-105)-Procedure) je vyplněn.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Povinnosti, které uchazeč musí splnit v souvislosti s využitím subdodavatele' (BT-65) je vyplněno.</entry>
 <entry key="expression|name|837">'Země' (BT-514-Organization-TouchPoint) je vyplněno.</entry>
 <entry key="expression|name|838">'Země' (BT-514-Business) má kódy NUTS.</entry>
-<entry key="expression|name|839">'Země' (BT-514-Business) je vyplněno.</entry>
+<entry key="expression|name|839">'Země' (BT-514-Business) je vyplněn.</entry>
 <entry key="expression|name|84">'Doba trvání smlouvy je prodloužena z důvodu nezbytných aktiv nutných k poskytování služby' (OPP-020-Contract) není 'ano'</entry>
 <entry key="expression|name|840">'Použitelné přeshraniční právo' (BT-09(a)-Procedure) je vyplněno.</entry>
 <entry key="expression|name|841">'Právní základ' (BT-01(e)-Procedure) je vyplněno.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Pole bude zveřejněno později' (BT-195(BT-635)-LotResult) je vyplněn.</entry>
 <entry key="expression|name|845">'Pole bude zveřejněno později' (BT-195(BT-636)-LotResult) je vyplněn.</entry>
 <entry key="expression|name|846">'Datum odeslání oznámení (eSender)' (BT-803(d)-notice) je vyplněn.</entry>
-<entry key="expression|name|847">'Organizace vykonávající tuto roli' (OPT-302-Organization) je připojen k organizaci.</entry>
+<entry key="expression|name|847">'Organizace vykonávající tuto roli' (OPT-302-Organization) je spojen s organizací.</entry>
 <entry key="expression|name|848">Rámcová dohoda je zapojena a je vyplněn 'Znovu odhadnutá hodnota rámcové dohody' (BT-660-LotResult).</entry>
 <entry key="expression|name|849">Byl vybrán vítěz a byla zapojena rámcová dohoda a 'Znovu odhadnutá hodnota rámcové dohody' (BT-660-LotResult) je vyplněn.</entry>
 <entry key="expression|name|85">'Seznam aktiv používaných pro poskytování veřejných služeb' (OPP-020-Contract) není 'ano'</entry>

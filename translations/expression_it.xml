@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Giustificazione dell'aggiudicazione diretta' (BT-136-Result) non è compilato.</entry>
 <entry key="expression|name|723">'Status del processo di selezione' (BT-142-LotResult) è 'Non è stato selezionato nessun vincitore e la gara è chiusa.'.</entry>
 <entry key="expression|name|724">'Status del processo di selezione' (BT-142-LotResult) è 'È stato selezionato almeno un vincitore.' e 'ID tecnico del risultato del lotto (RES-XXX)' (OPT-322) è compilato.</entry>
-<entry key="expression|name|725">'Subappalto' (BT-773-Tender) 'Sì'.</entry>
+<entry key="expression|name|725">'Subappalto' (BT-773-Tender) è 'Sì'.</entry>
 <entry key="expression|name|726">'Il valore del subappalto è noto' (BT-730-Tender) è 'sì'.</entry>
 <entry key="expression|name|727">'Pagamenti effettuali per l'offerta: valore' (BT-779-Tender) è compilato.</entry>
 <entry key="expression|name|728">'La percentuale del subappalto è nota' (BT-731-Tender) è 'sì'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Termine per il ricevimento delle manifestazioni di interesse' (BT-630(d)-Lot) è compilato.</entry>
 <entry key="expression|name|732">'Ricorso: richiesta o decisione' (BT-783-Review) è presente.</entry>
 <entry key="expression|name|733">'La durata dell'appalto è prorogata a causa dei beni essenziali necessari per la prestazione del servizio' (OPP-020-Contract) è 'sì'.</entry>
-<entry key="expression|name|734">'Elenco dei beni utilizzati per la prestazione dei servizi pubblici' (OPP-021-Contract) 'sì'.</entry>
-<entry key="expression|name|735">'Importanza dei beni essenziali forniti rispetto all'insieme dei beni necessari per la fornitura dei servizi pubblici' (OPP-022-Contract) 'sì'.</entry>
+<entry key="expression|name|734">'Elenco dei beni utilizzati per la prestazione dei servizi pubblici' (OPP-021-Contract) è 'sì'.</entry>
+<entry key="expression|name|735">'Importanza dei beni essenziali forniti rispetto all'insieme dei beni necessari per la fornitura dei servizi pubblici' (OPP-022-Contract) è 'sì'.</entry>
 <entry key="expression|name|736">'L'esecuzione dell'appalto deve avvenire nel contesto di programmi di lavoro protetti' (BT-736-Lot) è 'sì'.</entry>
 <entry key="expression|name|737">'Identificativo dell'offerta' (BT-3201-Tender) è compilato.</entry>
 <entry key="expression|name|738">'Ulteriori restrizioni sul luogo di esecuzione' (BT-727-Lot) non è 'Ovunque' o 'Ovunque nello Spazio economico europeo'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Termine per il ricevimento delle offerte' (BT-131(d)-Lot) è compilato.</entry>
 <entry key="expression|name|742">'Termine per il ricevimento delle domande di partecipazione' (BT-1311(d)-Lot) è compilato.</entry>
 <entry key="expression|name|743">'Tipo di procedura' (BT-105) non è 'Aperta', 'Altra procedura a fase unica' o 'Negoziata senza previa indizione di gara'.</entry>
-<entry key="expression|name|744">'Nome ufficiale' (BT-500-UBO) ki van töltve.</entry>
+<entry key="expression|name|744">'Nome ufficiale' (BT-500-UBO) è compilato.</entry>
 <entry key="expression|name|745">'Paese' (BT-514-UBO) ha codici NUTS.</entry>
-<entry key="expression|name|746">'I criteri saranno utilizzati per selezionare i candidati da invitare alla seconda fase della procedura' (BT-40) 'sì' és 'Il numero costituisce una soglia' (BT-7532) nincs kitöltve.</entry>
+<entry key="expression|name|746">'I criteri saranno utilizzati per selezionare i candidati da invitare alla seconda fase della procedura' (BT-40) è 'sì' e 'Il numero costituisce una soglia' (BT-7532) non è compilato.</entry>
 <entry key="expression|name|747">'I criteri saranno utilizzati per selezionare i candidati da invitare alla seconda fase della procedura' (BT-40) è 'sì' e 'Il numero è un tipo di ponderazione' (BT-7531) non è compilato.</entry>
 <entry key="expression|name|748">Ci sono più lotti.</entry>
 <entry key="expression|name|749">'Classificazione principale' (BT-262-Lot) è compilato.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Classificazione aggiuntiva' (BT-263-Part) è compilato.</entry>
 <entry key="expression|name|754">'Classificazione aggiuntiva' (BT-263-Procedure) è compilato.</entry>
 <entry key="expression|name|755">'ID tecnico dell'offerta' (OPT-321-Tender) esiste.</entry>
-<entry key="expression|name|756">'Nome ufficiale' (BT-500-Organization-TouchPoint) ki van töltve.</entry>
+<entry key="expression|name|756">'Nome ufficiale' (BT-500-Organization-TouchPoint) è riempito.</entry>
 <entry key="expression|name|757">'Paese' (BT-514-Organization-Company) rendelkezik NUTS-kódokkal.</entry>
 <entry key="expression|name|758">'Paese' (BT-514-Organization-TouchPoint) rendelkezik NUTS-kódokkal.</entry>
 <entry key="expression|name|759">È stato assegnato un lotto.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'L'appalto è aggiudicato nell'ambito di un accordo quadro' (BT-768-Contract) è 'sì'.</entry>
 <entry key="expression|name|762">'Versione dell'avviso precedente da modificare' (BT-758-notice) è compilato.</entry>
 <entry key="expression|name|763">L'indicatore 'I documenti di gara sono stati modificati il' (BT-718-notice) è 'sì'.</entry>
-<entry key="expression|name|764">'Numero di registrazione' (BT-501-Business-European) ki van töltve.</entry>
+<entry key="expression|name|764">'Numero di registrazione' (BT-501-Business-European) è riempito.</entry>
 <entry key="expression|name|765">'Offerte e domande ricevute: tipo' (BT-760-LotResult) è compilato.</entry>
 <entry key="expression|name|766">'Campo da pubblicare successivamente' (BT-195(BT-09)-Procedure) è compilato.</entry>
 <entry key="expression|name|767">'Campo da pubblicare successivamente' (BT-195(BT-105)-Procedure) è compilato.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">È stato scelto un vincitore e un accordo quadro è stato coinvolto e 'Valore massimo dell'accordo quadro' (BT-709-LotResult) è compilato.</entry>
 <entry key="expression|name|822">C'è un lotto assegnato senza un accordo quadro o un contratto all'interno di un accordo quadro.</entry>
 <entry key="expression|name|823">Viene utilizzato il Sistema Dinamico di Acquisto (DPS).</entry>
-<entry key="expression|name|824">'ID tecnico del UBO (UBO-XXX)' (OPT-202-UBO) ki van töltve.</entry>
+<entry key="expression|name|824">'ID tecnico del UBO (UBO-XXX)' (OPT-202-UBO) è riempito.</entry>
 <entry key="expression|name|825">'Tipo di procedura' (BT-105) è 'Aperta', 'Ristretta' o 'Negoziata con previa indizione di gara / competitiva con negoziazione'.</entry>
 <entry key="expression|name|826">'Tipo di procedura' (BT-105) è 'Ristretta' o 'Negoziata con previa indizione di gara / competitiva con negoziazione'.</entry>
 <entry key="expression|name|827">L'organizzazione è un acquirente e c'è più di un acquirente.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Un obbligo che l'offerente deve rispettare in relazione al subappalto' (BT-65) è compilato.</entry>
 <entry key="expression|name|837">'Paese' (BT-514-Organization-TouchPoint) ki van töltve.</entry>
 <entry key="expression|name|838">'Paese' (BT-514-Business) rendelkezik NUTS-kódokkal.</entry>
-<entry key="expression|name|839">'Paese' (BT-514-Business) ki van töltve.</entry>
+<entry key="expression|name|839">'Paese' (BT-514-Business) è riempito.</entry>
 <entry key="expression|name|84">'La durata dell'appalto è prorogata a causa dei beni essenziali necessari per la prestazione del servizio' (OPP-020-Contract) non è 'sì'</entry>
 <entry key="expression|name|840">'Diritto transfrontaliero applicabile' (BT-09(a)-Procedure) è compilato.</entry>
 <entry key="expression|name|841">'Base giuridica' (BT-01(e)-Procedure) è compilato.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Campo da pubblicare successivamente' (BT-195(BT-635)-LotResult) è compilato.</entry>
 <entry key="expression|name|845">'Campo da pubblicare successivamente' (BT-195(BT-636)-LotResult) è compilato.</entry>
 <entry key="expression|name|846">'Data di trasmissione da parte dell'eSender dell'avviso o bando' (BT-803(d)-notice) è compilato.</entry>
-<entry key="expression|name|847">'Organizzazione che svolge questo ruolo' (OPT-302-Organization) össze van kapcsolva egy szervezettel.</entry>
+<entry key="expression|name|847">'Organizzazione che svolge questo ruolo' (OPT-302-Organization) è collegato a un'organizzazione.</entry>
 <entry key="expression|name|848">È coinvolto un accordo quadro e 'Valore di riestimo dell'accordo quadro' (BT-660-LotResult) è compilato.</entry>
 <entry key="expression|name|849">È stato scelto un vincitore e è coinvolto un accordo quadro e 'Valore di riestimo dell'accordo quadro' (BT-660-LotResult) è compilato.</entry>
 <entry key="expression|name|85">'Elenco dei beni utilizzati per la prestazione dei servizi pubblici' (OPP-020-Contract) non è 'sì'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Risultati dei lotti' è compilato e l'offerta per il lotto coperto da 'Risultati della procedura per lotto' è compilata e un'offerta è compilata e un lotto è specificato per il 'Risultati della procedura per lotto' e la competizione non è in corso.</entry>
 <entry key="expression|name|856">'Status del processo di selezione' (BT-142-LotResult) è 'È stato selezionato almeno un vincitore.'.</entry>
 <entry key="expression|name|857">'ID tecnico del contratto' (OPT-316-Contract) è compilato e 'ID tecnico dell'offerta' (OPT-321-Tender) è compilato.</entry>
-<entry key="expression|name|858">'ID tecnico del contratto' (OPT-316-Contract) ki van töltve.</entry>
+<entry key="expression|name|858">'ID tecnico del contratto' (OPT-316-Contract) è riempito.</entry>
 <entry key="expression|name|859">L'ID del lotto è compilato.</entry>
 <entry key="expression|name|86">'Importanza dei beni essenziali forniti rispetto all'insieme dei beni necessari per la fornitura dei servizi pubblici' (OPP-020-Contract) non è 'sì'</entry>
 <entry key="expression|name|860">Il fornitore di servizi è identificato.</entry>
 <entry key="expression|name|861">'Valore di riestimo dell'accordo quadro' (BT-660-LotResult) è compilato.</entry>
 <entry key="expression|name|862">'Campo da pubblicare successivamente' (BT-195(BT-660)-LotResult) è compilato.</entry>
-<entry key="expression|name|863">'Requisito di esecuzione: codice' (OPT-060-Lot) ki van töltve.</entry>
+<entry key="expression|name|863">'Requisito di esecuzione: codice' (OPT-060-Lot) è riempito.</entry>
 <entry key="expression|name|864">'Criterio di aggiudicazione: numero' (BT-541-Lot-WeightNumber) è presente.</entry>
 <entry key="expression|name|865">'Criterio di aggiudicazione: numero' (BT-541-Lot-FixedNumber) è presente.</entry>
 <entry key="expression|name|866">'Criterio di aggiudicazione: numero' (BT-541-Lot-ThresholdNumber) è presente.</entry>

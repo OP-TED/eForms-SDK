@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Motivering av direkttilldelning' (BT-136-Result) är inte ifylld.</entry>
 <entry key="expression|name|723">'Status på val av vinnare' (BT-142-LotResult) är 'Ingen vinnare har valts ut och upphandlingen, anbudsområdet eller tävlingen har avslutats eller avbrutits.'.</entry>
 <entry key="expression|name|724">'Status på val av vinnare' (BT-142-LotResult) är 'Minst en vinnare har valts ut.' och 'Tekniskt ID för partiresultatet (RES-XXX)' (OPT-322) är ifylld.</entry>
-<entry key="expression|name|725">'Anlitande av underleverantör' (BT-773-Tender) je 'Ja'.</entry>
+<entry key="expression|name|725">'Anlitande av underleverantör' (BT-773-Tender) är 'Ja'.</entry>
 <entry key="expression|name|726">'Värdet på underentreprenaden är känt' (BT-730-Tender) är 'ja'.</entry>
 <entry key="expression|name|727">'Värdet på anbudets betalningar' (BT-779-Tender) är ifyllt.</entry>
 <entry key="expression|name|728">'Andelen som ska läggas ut på underentreprenad är känd' (BT-731-Tender) är 'ja'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Tidsfrist för mottagande av intresseanmälningar' (BT-630(d)-Lot) är ifylld.</entry>
 <entry key="expression|name|732">'Ansökningar om prövning eller beslut' (BT-783-Review) är närvarande.</entry>
 <entry key="expression|name|733">'Kontraktets löptid förlängs på grund av de väsentliga tillgångar som krävs för att utföra tjänsten' (OPP-020-Contract) är 'ja'.</entry>
-<entry key="expression|name|734">'Lista över tillgångar som används för att utföra de offentliga tjänsterna' (OPP-021-Contract) je 'ja'.</entry>
-<entry key="expression|name|735">'Betydelsen av de levererade väsentliga tillgångarna i förhållande till de totala tillgångar som krävs för att utföra de offentliga tjänsterna' (OPP-022-Contract) je 'ja'.</entry>
+<entry key="expression|name|734">'Lista över tillgångar som används för att utföra de offentliga tjänsterna' (OPP-021-Contract) är 'ja'.</entry>
+<entry key="expression|name|735">'Betydelsen av de levererade väsentliga tillgångarna i förhållande till de totala tillgångar som krävs för att utföra de offentliga tjänsterna' (OPP-022-Contract) är 'ja'.</entry>
 <entry key="expression|name|736">'Kontraktet måste genomföras inom ramen för program för skyddad anställning' (BT-736-Lot) är 'ja'.</entry>
 <entry key="expression|name|737">'Identifierare för anbudsgivare' (BT-3201-Tender) är ifylld.</entry>
 <entry key="expression|name|738">'Andra begränsningar för leveransplatsen' (BT-727-Lot) är inte 'Var som helst' eller 'Var som helst inom Europeiska ekonomiska samarbetsområdet'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Tidsfrist för mottagande av anbud' (BT-131(d)-Lot) är ifylld.</entry>
 <entry key="expression|name|742">'Tidsfrist för mottagande av anbudsansökningar' (BT-1311(d)-Lot) är ifylld.</entry>
 <entry key="expression|name|743">'Typ av förfarande' (BT-105) är inte 'Öppet', 'Annat förfarande i ett steg' eller 'Förhandlat förfarande utan föregående meddelande om upphandling'.</entry>
-<entry key="expression|name|744">'Officiellt namn' (BT-500-UBO) je izpolnjen.</entry>
+<entry key="expression|name|744">'Officiellt namn' (BT-500-UBO) är ifylld.</entry>
 <entry key="expression|name|745">'Land' (BT-514-UBO) har NUTS-koder.</entry>
-<entry key="expression|name|746">'Kriterierna kommer att användas för att välja anbudssökande som bjuds in att delta i det andra steget i förfarandet' (BT-40) je 'ja' in 'Sifferangivelsen är en typ av tröskel' (BT-7532) ni izpolnjen.</entry>
+<entry key="expression|name|746">'Kriterierna kommer att användas för att välja anbudssökande som bjuds in att delta i det andra steget i förfarandet' (BT-40) är 'ja' och 'Sifferangivelsen är en typ av tröskel' (BT-7532) är inte ifylld.</entry>
 <entry key="expression|name|747">'Kriterierna kommer att användas för att välja anbudssökande som bjuds in att delta i det andra steget i förfarandet' (BT-40) är 'ja' och 'Sifferangivelsen är en typ av viktning' (BT-7531) är inte ifylld.</entry>
 <entry key="expression|name|748">Det finns flera partier.</entry>
 <entry key="expression|name|749">'Huvudklassificering' (BT-262-Lot) är ifyllt.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Ytterligare klassificering' (BT-263-Part) är ifylld.</entry>
 <entry key="expression|name|754">'Ytterligare klassificering' (BT-263-Procedure) är ifylld.</entry>
 <entry key="expression|name|755">'Tekniskt ID för anbudet' (OPT-321-Tender) finns.</entry>
-<entry key="expression|name|756">'Officiellt namn' (BT-500-Organization-TouchPoint) je izpolnjen.</entry>
+<entry key="expression|name|756">'Officiellt namn' (BT-500-Organization-TouchPoint) är ifylld.</entry>
 <entry key="expression|name|757">'Land' (BT-514-Organization-Company) ima NUTS kode.</entry>
 <entry key="expression|name|758">'Land' (BT-514-Organization-TouchPoint) ima NUTS kode.</entry>
 <entry key="expression|name|759">Ett parti har tilldelats.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Kontraktet tilldelas inom ett ramavtal' (BT-768-Contract) är 'ja'.</entry>
 <entry key="expression|name|762">'Version av det föregående meddelandet som ska ändras' (BT-758-notice) är ifyllt.</entry>
 <entry key="expression|name|763">Indikatorn 'Upphandlingsdokumenten ändrades den' (BT-718-notice) är 'ja'.</entry>
-<entry key="expression|name|764">'Registreringsnummer' (BT-501-Business-European) je izpolnjen.</entry>
+<entry key="expression|name|764">'Registreringsnummer' (BT-501-Business-European) är ifylld.</entry>
 <entry key="expression|name|765">'Typ av inlämningar' (BT-760-LotResult) är ifyllt.</entry>
 <entry key="expression|name|766">'Fält som ska publiceras senare' (BT-195(BT-09)-Procedure) är ifylld.</entry>
 <entry key="expression|name|767">'Fält som ska publiceras senare' (BT-195(BT-105)-Procedure) är ifylld.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">En vinnare valdes och ett ramavtal var involverat och 'Högsta värde på ramavtalet' (BT-709-LotResult) är ifyllt.</entry>
 <entry key="expression|name|822">Det finns ett tilldelat parti utan ramavtal eller ett avtal inom ett ramavtal.</entry>
 <entry key="expression|name|823">Dynamiskt inköpssystem (DPS) används.</entry>
-<entry key="expression|name|824">'Tekniskt ID för UBO (UBO-XXX)' (OPT-202-UBO) je izpolnjen.</entry>
+<entry key="expression|name|824">'Tekniskt ID för UBO (UBO-XXX)' (OPT-202-UBO) är ifylld.</entry>
 <entry key="expression|name|825">'Typ av förfarande' (BT-105) är 'Öppet', 'Selektivt' eller 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'.</entry>
 <entry key="expression|name|826">'Typ av förfarande' (BT-105) är 'Selektivt' eller 'Förhandlat förfarande med föregående meddelande om upphandling/under konkurrens'.</entry>
 <entry key="expression|name|827">Organisationen är en köpare och det finns mer än en köpare.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'En skyldighet som anbudsgivaren ska fullgöra vid underentreprenad' (BT-65) är ifylld.</entry>
 <entry key="expression|name|837">'Land' (BT-514-Organization-TouchPoint) je izpolnjen.</entry>
 <entry key="expression|name|838">'Land' (BT-514-Business) ima NUTS kode.</entry>
-<entry key="expression|name|839">'Land' (BT-514-Business) je izpolnjen.</entry>
+<entry key="expression|name|839">'Land' (BT-514-Business) är ifylld.</entry>
 <entry key="expression|name|84">'Kontraktets löptid förlängs på grund av de väsentliga tillgångar som krävs för att utföra tjänsten' (OPP-020-Contract) är inte 'ja'</entry>
 <entry key="expression|name|840">'Tillämplig gränsöverskridande lagstiftning' (BT-09(a)-Procedure) är ifyllt.</entry>
 <entry key="expression|name|841">'Rättslig grund' (BT-01(e)-Procedure) är ifyllt.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Fält som ska publiceras senare' (BT-195(BT-635)-LotResult) är ifyllt.</entry>
 <entry key="expression|name|845">'Fält som ska publiceras senare' (BT-195(BT-636)-LotResult) är ifyllt.</entry>
 <entry key="expression|name|846">'Datum för avsändning av meddelandet (eSender)' (BT-803(d)-notice) är ifylld.</entry>
-<entry key="expression|name|847">'Organisationen som utför denna roll' (OPT-302-Organization) je povezan z organizacijo.</entry>
+<entry key="expression|name|847">'Organisationen som utför denna roll' (OPT-302-Organization) är kopplad till en organisation.</entry>
 <entry key="expression|name|848">En ramavtale är inblandad och 'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) är ifylld.</entry>
 <entry key="expression|name|849">En vinnare valdes och en ramavtale var inblandad och 'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) är ifylld.</entry>
 <entry key="expression|name|85">'Lista över tillgångar som används för att utföra de offentliga tjänsterna' (OPP-020-Contract) är inte 'ja'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Delkontraktens resultat' är ifylld och anbudet för den del som omfattas av 'Resultat per delkontrakt' är ifylld och ett anbud är ifyllt och en del är specificerad för 'Resultat per delkontrakt' och tävlingen pågår inte.</entry>
 <entry key="expression|name|856">'Status på val av vinnare' (BT-142-LotResult) är 'Minst en vinnare har valts ut.'.</entry>
 <entry key="expression|name|857">'Tekniskt ID för kontraktet' (OPT-316-Contract) är ifylld och 'Tekniskt ID för anbudet' (OPT-321-Tender) är ifylld.</entry>
-<entry key="expression|name|858">'Tekniskt ID för kontraktet' (OPT-316-Contract) je izpolnjen.</entry>
+<entry key="expression|name|858">'Tekniskt ID för kontraktet' (OPT-316-Contract) är ifylld.</entry>
 <entry key="expression|name|859">Parti-ID är ifyllt.</entry>
 <entry key="expression|name|86">'Betydelsen av de levererade väsentliga tillgångarna i förhållande till de totala tillgångar som krävs för att utföra de offentliga tjänsterna' (OPP-020-Contract) är inte 'ja'</entry>
 <entry key="expression|name|860">Tjänsteleverantören är identifierad.</entry>
 <entry key="expression|name|861">'Nytt beräknat värde på ramavtalet' (BT-660-LotResult) är ifylld.</entry>
 <entry key="expression|name|862">'Fält som ska publiceras senare' (BT-195(BT-660)-LotResult) är ifyllt.</entry>
-<entry key="expression|name|863">'Kod för genomförande' (OPT-060-Lot) je izpolnjen.</entry>
+<entry key="expression|name|863">'Kod för genomförande' (OPT-060-Lot) är ifylld.</entry>
 <entry key="expression|name|864">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-WeightNumber) är närvarande.</entry>
 <entry key="expression|name|865">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-FixedNumber) är närvarande.</entry>
 <entry key="expression|name|866">'Sifferangivelse för tilldelningskriterium' (BT-541-Lot-ThresholdNumber) är närvarande.</entry>
@@ -707,7 +707,7 @@
 <entry key="expression|name|879">Meddelandet har identifierats som 'Källa till uteslutningsgrunder'.</entry>
 <entry key="expression|name|880">'Organisation eller specifik kontakt' (OPT-301-Tenderer-SubCont) finns.</entry>
 <entry key="expression|name|881">'Identifierare för kontraktet' (BT-150-Contract) existerar.</entry>
-<entry key="expression|name|882">'EED tillämplig' (BT-810) je 'ja'.</entry>
+<entry key="expression|name|882">'EED tillämplig' (BT-810) är 'ja'.</entry>
 <entry key="expression|name|883">'EED tillämplig' (BT-810) är 'ja' och 'Status på val av vinnare' (BT-142-LotResult) är 'Minst en vinnare har valts ut.' för den givna delen.</entry>
 <entry key="expression|name|884">'EED tillämplig' (BT-810) är 'ja' för den givna delen.</entry>
 <entry key="expression|name|885">'EED lista' (Grund) (BT-811(a)-LotResult) är inställt på 'Energimärkning'.</entry>

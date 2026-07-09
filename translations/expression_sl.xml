@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Rok za prejem ponudb' (BT-131(d)-Lot) je izpolnjen.</entry>
 <entry key="expression|name|742">'Rok za prejem prijav za sodelovanje' (BT-1311(d)-Lot) je izpolnjen.</entry>
 <entry key="expression|name|743">'Vrsta postopka' (BT-105) ni 'Odprti postopek', 'Drugi enostopenjski postopek' ali 'S pogajanji, brez predhodnega javnega razpisa'.</entry>
-<entry key="expression|name|744">'Uradno ime' (BT-500-UBO) je vyplnený.</entry>
+<entry key="expression|name|744">'Uradno ime' (BT-500-UBO) je izpolnjen.</entry>
 <entry key="expression|name|745">'Država' (BT-514-UBO) ima kode NUTS.</entry>
-<entry key="expression|name|746">'Merila se bodo uporabila za izbiro kandidatov, ki se povabijo k sodelovanju v drugi stopnji postopka' (BT-40) je 'da' a 'Številka je vrsta praga' (BT-7532) nie je vyplnený.</entry>
+<entry key="expression|name|746">'Merila se bodo uporabila za izbiro kandidatov, ki se povabijo k sodelovanju v drugi stopnji postopka' (BT-40) je 'da' in 'Številka je vrsta praga' (BT-7532) ni izpolnjen.</entry>
 <entry key="expression|name|747">'Merila se bodo uporabila za izbiro kandidatov, ki se povabijo k sodelovanju v drugi stopnji postopka' (BT-40) je 'da' in 'Številka je vrsta ponderja' (BT-7531) ni izpolnjeno.</entry>
 <entry key="expression|name|748">Obstaja več sklopov.</entry>
 <entry key="expression|name|749">'Glavna klasifikacijska oznaka' (BT-262-Lot) je izpolnjeno.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Dodatna klasifikacija' (BT-263-Part) je izpolnjeno.</entry>
 <entry key="expression|name|754">'Dodatna klasifikacija' (BT-263-Procedure) je izpolnjeno.</entry>
 <entry key="expression|name|755">'Tehnični ID ponudbe' (OPT-321-Tender) obstaja.</entry>
-<entry key="expression|name|756">'Uradno ime' (BT-500-Organization-TouchPoint) je vyplnený.</entry>
+<entry key="expression|name|756">'Uradno ime' (BT-500-Organization-TouchPoint) je izpolnjen.</entry>
 <entry key="expression|name|757">'Država' (BT-514-Organization-Company) má kódy NUTS.</entry>
 <entry key="expression|name|758">'Država' (BT-514-Organization-TouchPoint) má kódy NUTS.</entry>
 <entry key="expression|name|759">Dodeljena je serija.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Javno naročilo se odda na podlagi okvirnega sporazuma' (BT-768-Contract) je 'da'.</entry>
 <entry key="expression|name|762">'Različica prejšnjega obvestila, ki se spreminja' (BT-758-notice) je izpolnjen.</entry>
 <entry key="expression|name|763">Indikator 'Dokumenti v zvezi z oddajo javnega naročila so bili spremenjeni dne' (BT-718-notice) je 'da'.</entry>
-<entry key="expression|name|764">'Registrska številka' (BT-501-Business-European) je vyplnený.</entry>
+<entry key="expression|name|764">'Registrska številka' (BT-501-Business-European) je izpolnjen.</entry>
 <entry key="expression|name|765">'Vrsta prejetih vlog' (BT-760-LotResult) je izpolnjen.</entry>
 <entry key="expression|name|766">'Polje, ki naj se objavi pozneje' (BT-195(BT-09)-Procedure) je izpolnjen.</entry>
 <entry key="expression|name|767">'Polje, ki naj se objavi pozneje' (BT-195(BT-105)-Procedure) je izpolnjen.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Bil je izbran zmagovalec in vključena je bila okvirna pogodba in 'Najvišja vrednost okvirnega sporazuma' (BT-709-LotResult) je izpolnjen.</entry>
 <entry key="expression|name|822">Obstaja dodeljen sklop brez okvirnega sporazuma ali pogodbe v okviru okvirnega sporazuma.</entry>
 <entry key="expression|name|823">Uporablja se dinamični nabavni sistem (DNS).</entry>
-<entry key="expression|name|824">'Tehnični ID UBO (UBO-XXX)' (OPT-202-UBO) je vyplnený.</entry>
+<entry key="expression|name|824">'Tehnični ID UBO (UBO-XXX)' (OPT-202-UBO) je izpolnjen.</entry>
 <entry key="expression|name|825">'Vrsta postopka' (BT-105) je 'Odprti postopek', 'Omejeni postopek' ali 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'.</entry>
 <entry key="expression|name|826">'Vrsta postopka' (BT-105) je 'Omejeni postopek' ali 'S pogajanji, s predhodno objavo javnega razpisa / konkurenčni postopek s pogajanji'.</entry>
 <entry key="expression|name|827">Organizacija je kupec in je več kot en kupec.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Obveznost, ki jo mora ponudnik izpolniti v zvezi z oddajo naročil podizvajalcem' (BT-65) je izpolnjeno.</entry>
 <entry key="expression|name|837">'Država' (BT-514-Organization-TouchPoint) je vyplnený.</entry>
 <entry key="expression|name|838">'Država' (BT-514-Business) má kódy NUTS.</entry>
-<entry key="expression|name|839">'Država' (BT-514-Business) je vyplnený.</entry>
+<entry key="expression|name|839">'Država' (BT-514-Business) je izpolnjen.</entry>
 <entry key="expression|name|84">'Trajanje javnega naročila je podaljšano zaradi osnovnih sredstev, potrebnih za zagotavljanje storitev' (OPP-020-Contract) ni 'da'</entry>
 <entry key="expression|name|840">'Čezmejno pravo, ki se uporablja' (BT-09(a)-Procedure) je izpolnjen.</entry>
 <entry key="expression|name|841">'Pravna podlaga' (BT-01(e)-Procedure) je izpolnjen.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Polje, ki naj se objavi pozneje' (BT-195(BT-635)-LotResult) je izpolnjen.</entry>
 <entry key="expression|name|845">'Polje, ki naj se objavi pozneje' (BT-195(BT-636)-LotResult) je izpolnjen.</entry>
 <entry key="expression|name|846">'Datum pošiljanja obvestila (ePošiljatelja)' (BT-803(d)-notice) je izpolnjen.</entry>
-<entry key="expression|name|847">'Organizacija, ki opravlja to vlogo' (OPT-302-Organization) je pripojený k organizácii.</entry>
+<entry key="expression|name|847">'Organizacija, ki opravlja to vlogo' (OPT-302-Organization) je povezan z organizacijo.</entry>
 <entry key="expression|name|848">Vključen je okvirni sporazum in 'Ponovno ocenjena vrednost okvirnega sporazuma' (BT-660-LotResult) je izpolnjen.</entry>
 <entry key="expression|name|849">Bil je izbran zmagovalec in vključen je okvirni sporazum in 'Ponovno ocenjena vrednost okvirnega sporazuma' (BT-660-LotResult) je izpolnjen.</entry>
 <entry key="expression|name|85">'Seznam sredstev, uporabljenih za zagotavljanje javnih storitev' (OPP-020-Contract) ni 'da'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Rezultati sklopov' je izpolnjen in ponudba za sklop, ki ga zajema 'Rezultati postopka za sklop', je izpolnjena in ponudba je izpolnjena in sklop je določen za 'Rezultati postopka za sklop' in tekmovanje ni v teku.</entry>
 <entry key="expression|name|856">'Status izbire ponudnika' (BT-142-LotResult) je 'Izbran je bil vsaj en zmagovalec.'.</entry>
 <entry key="expression|name|857">'Tehnični ID pogodbe' (OPT-316-Contract) je izpolnjen in 'Tehnični ID ponudbe' (OPT-321-Tender) je izpolnjen.</entry>
-<entry key="expression|name|858">'Tehnični ID pogodbe' (OPT-316-Contract) je vyplnený.</entry>
+<entry key="expression|name|858">'Tehnični ID pogodbe' (OPT-316-Contract) je izpolnjen.</entry>
 <entry key="expression|name|859">ID sklopa je izpolnjen.</entry>
 <entry key="expression|name|86">'Pomen zagotovljenih osnovnih sredstev v odnosu do skupnih sredstev, ki so potrebna za zagotavljanje javnih storitev' (OPP-020-Contract) ni 'da'</entry>
 <entry key="expression|name|860">Ponudnik storitev je identificiran.</entry>
 <entry key="expression|name|861">'Ponovno ocenjena vrednost okvirnega sporazuma' (BT-660-LotResult) je izpolnjeno.</entry>
 <entry key="expression|name|862">'Polje, ki naj se objavi pozneje' (BT-195(BT-660)-LotResult) je izpolnjen.</entry>
-<entry key="expression|name|863">'Koda zahteve za izvedbo' (OPT-060-Lot) je vyplnený.</entry>
+<entry key="expression|name|863">'Koda zahteve za izvedbo' (OPT-060-Lot) je izpolnjen.</entry>
 <entry key="expression|name|864">'Številka v merilu za oddajo' (BT-541-Lot-WeightNumber) je prisoten.</entry>
 <entry key="expression|name|865">'Številka v merilu za oddajo' (BT-541-Lot-FixedNumber) je prisoten.</entry>
 <entry key="expression|name|866">'Številka v merilu za oddajo' (BT-541-Lot-ThresholdNumber) je prisoten.</entry>

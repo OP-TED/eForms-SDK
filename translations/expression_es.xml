@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Clasificación adicional' (BT-263-Part) está completado.</entry>
 <entry key="expression|name|754">'Clasificación adicional' (BT-263-Procedure) está completado.</entry>
 <entry key="expression|name|755">'ID técnico de la oferta' (OPT-321-Tender) existe.</entry>
-<entry key="expression|name|756">'Denominación oficial' (BT-500-Organization-TouchPoint) está completado.</entry>
+<entry key="expression|name|756">'Denominación oficial' (BT-500-Organization-TouchPoint) está lleno.</entry>
 <entry key="expression|name|757">'País' (BT-514-Organization-Company) tiene códigos NUTS.</entry>
 <entry key="expression|name|758">'País' (BT-514-Organization-TouchPoint) tiene códigos NUTS.</entry>
 <entry key="expression|name|759">Se ha adjudicado un lote.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'El contrato se adjudica dentro de un acuerdo marco' (BT-768-Contract) es 'sí'.</entry>
 <entry key="expression|name|762">'Versión del anuncio anterior que debe modificarse' (BT-758-notice) está completado.</entry>
 <entry key="expression|name|763">El indicador 'Los pliegos de contratación se modificaron el' (BT-718-notice) es 'sí'.</entry>
-<entry key="expression|name|764">'Número de registro' (BT-501-Business-European) está completado.</entry>
+<entry key="expression|name|764">'Número de registro' (BT-501-Business-European) está lleno.</entry>
 <entry key="expression|name|765">'Tipo de presentaciones recibidas' (BT-760-LotResult) está completado.</entry>
 <entry key="expression|name|766">'Campo para publicar más tarde' (BT-195(BT-09)-Procedure) está rellenado.</entry>
 <entry key="expression|name|767">'Campo para publicar más tarde' (BT-195(BT-105)-Procedure) está rellenado.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Se eligió a un ganador y se involucró un acuerdo marco y 'Valor máximo del acuerdo marco' (BT-709-LotResult) está completado.</entry>
 <entry key="expression|name|822">Hay un lote adjudicado sin acuerdo marco o contrato dentro de un acuerdo marco.</entry>
 <entry key="expression|name|823">Se utiliza el Sistema de Compras Dinámico (DPS).</entry>
-<entry key="expression|name|824">'ID técnico del UBO (UBO-XXX)' (OPT-202-UBO) está relleno.</entry>
+<entry key="expression|name|824">'ID técnico del UBO (UBO-XXX)' (OPT-202-UBO) está lleno.</entry>
 <entry key="expression|name|825">'Tipo de procedimiento' (BT-105) es 'Abierto', 'Restringido' o 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'.</entry>
 <entry key="expression|name|826">'Tipo de procedimiento' (BT-105) es 'Restringido' o 'Negociado con publicación previa de un anuncio de licitación / licitación con negociación'.</entry>
 <entry key="expression|name|827">La organización es un comprador y hay más de un comprador.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Una obligación que debe cumplir el licitador en relación con la subcontratación' (BT-65) está completado.</entry>
 <entry key="expression|name|837">'País' (BT-514-Organization-TouchPoint) está completado.</entry>
 <entry key="expression|name|838">'País' (BT-514-Business) tiene códigos NUTS.</entry>
-<entry key="expression|name|839">'País' (BT-514-Business) está completado.</entry>
+<entry key="expression|name|839">'País' (BT-514-Business) está lleno.</entry>
 <entry key="expression|name|84">'La duración del contrato se amplía debido a los activos esenciales necesarios para la prestación del servicio' (OPP-020-Contract) no es 'sí'</entry>
 <entry key="expression|name|840">'Derecho transfronterizo aplicable' (BT-09(a)-Procedure) está completado.</entry>
 <entry key="expression|name|841">'Base jurídica' (BT-01(e)-Procedure) está completado.</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Resultados de los lotes' está completado y la oferta para el lote cubierto por 'Resultados por lote del procedimiento' está completada y una oferta está completada y un lote está especificado para el 'Resultados por lote del procedimiento' y la competencia no está en curso.</entry>
 <entry key="expression|name|856">'Estado de selección del ganador' (BT-142-LotResult) es 'Se ha escogido al menos un ganador.'.</entry>
 <entry key="expression|name|857">'ID técnico del contrato' (OPT-316-Contract) está lleno y 'ID técnico de la oferta' (OPT-321-Tender) está lleno.</entry>
-<entry key="expression|name|858">'ID técnico del contrato' (OPT-316-Contract) está relleno.</entry>
+<entry key="expression|name|858">'ID técnico del contrato' (OPT-316-Contract) está lleno.</entry>
 <entry key="expression|name|859">El ID del lote está rellenado.</entry>
 <entry key="expression|name|86">'Importancia de los activos esenciales aportados en relación con el conjunto de activos necesarios para la prestación de los servicios públicos' (OPP-020-Contract) no es 'sí'</entry>
 <entry key="expression|name|860">El proveedor de servicios está identificado.</entry>
 <entry key="expression|name|861">'Nuevo valor estimado del acuerdo marco' (BT-660-LotResult) está completado.</entry>
 <entry key="expression|name|862">'Campo para publicar más tarde' (BT-195(BT-660)-LotResult) está completado.</entry>
-<entry key="expression|name|863">'Código del requisito de ejecución' (OPT-060-Lot) está relleno.</entry>
+<entry key="expression|name|863">'Código del requisito de ejecución' (OPT-060-Lot) está lleno.</entry>
 <entry key="expression|name|864">'Criterio de adjudicación: número' (BT-541-Lot-WeightNumber) está presente.</entry>
 <entry key="expression|name|865">'Criterio de adjudicación: número' (BT-541-Lot-FixedNumber) está presente.</entry>
 <entry key="expression|name|866">'Criterio de adjudicación: número' (BT-541-Lot-ThresholdNumber) está presente.</entry>

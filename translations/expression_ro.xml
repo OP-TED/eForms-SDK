@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Justificarea atribuirii directe' (BT-136-Result) nu este completat.</entry>
 <entry key="expression|name|723">'Statutul selecției câștigătorului' (BT-142-LotResult) este 'Nu a fost ales un câștigător, iar procedura concurențială s-a încheiat.'.</entry>
 <entry key="expression|name|724">'Statutul selecției câștigătorului' (BT-142-LotResult) este 'A fost selecționat cel puțin un câștigător.' și 'ID-ul tehnic al rezultatului lotului (RES-XXX)' (OPT-322) este completat.</entry>
-<entry key="expression|name|725">'Subcontractare' (BT-773-Tender) é 'Da'.</entry>
+<entry key="expression|name|725">'Subcontractare' (BT-773-Tender) este 'Da'.</entry>
 <entry key="expression|name|726">'Valoarea subcontractării este cunoscută' (BT-730-Tender) este 'da'.</entry>
 <entry key="expression|name|727">'Valoarea plăților legate de ofertă' (BT-779-Tender) este completat.</entry>
 <entry key="expression|name|728">'Valoarea procentuală a subcontractării este cunoscută' (BT-731-Tender) este 'da'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Termenul-limită pentru primirea cererilor de exprimare a interesului' (BT-630(d)-Lot) este completat.</entry>
 <entry key="expression|name|732">'Căile de atac - cerere sau decizie' (BT-783-Review) este prezent.</entry>
 <entry key="expression|name|733">'Durata contractului este prelungită datorită activelor esențiale necesare pentru prestarea serviciului' (OPP-020-Contract) este 'da'.</entry>
-<entry key="expression|name|734">'Lista activelor utilizate pentru furnizarea serviciilor publice' (OPP-021-Contract) é 'da'.</entry>
-<entry key="expression|name|735">'Importanța activelor esențiale furnizate în raport cu activele globale necesare pentru furnizarea serviciilor publice' (OPP-022-Contract) é 'da'.</entry>
+<entry key="expression|name|734">'Lista activelor utilizate pentru furnizarea serviciilor publice' (OPP-021-Contract) este 'da'.</entry>
+<entry key="expression|name|735">'Importanța activelor esențiale furnizate în raport cu activele globale necesare pentru furnizarea serviciilor publice' (OPP-022-Contract) este 'da'.</entry>
 <entry key="expression|name|736">'Executarea contractului trebuie efectuată în cadrul unor programe de angajare protejată' (BT-736-Lot) este 'da'.</entry>
 <entry key="expression|name|737">'Identificatorul ofertei' (BT-3201-Tender) este completat.</entry>
 <entry key="expression|name|738">'Alte restricții privind locul de executare' (BT-727-Lot) nu este 'Oriunde' sau 'Oriunde în Spațiul Economic European'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Termenul-limită pentru primirea ofertelor' (BT-131(d)-Lot) este completat.</entry>
 <entry key="expression|name|742">'Termenul-limită pentru primirea cererilor de participare' (BT-1311(d)-Lot) este completat.</entry>
 <entry key="expression|name|743">'Tip de procedură' (BT-105) nu este 'Deschisă', 'Altă procedură cu o singură etapă' sau 'Negociată fără publicarea unei proceduri concurențiale de ofertare'.</entry>
-<entry key="expression|name|744">'Denumire oficială' (BT-500-UBO) está preenchido.</entry>
+<entry key="expression|name|744">'Denumire oficială' (BT-500-UBO) este completat.</entry>
 <entry key="expression|name|745">'Țara' (BT-514-UBO) are coduri NUTS.</entry>
-<entry key="expression|name|746">'Criteriile vor fi utilizate pentru a selecta candidații care urmează să fie invitați în a doua etapă a procedurii' (BT-40) é 'da' e 'Numărul este un tip de prag' (BT-7532) não está preenchido.</entry>
+<entry key="expression|name|746">'Criteriile vor fi utilizate pentru a selecta candidații care urmează să fie invitați în a doua etapă a procedurii' (BT-40) este 'da' și 'Numărul este un tip de prag' (BT-7532) nu este completat.</entry>
 <entry key="expression|name|747">'Criteriile vor fi utilizate pentru a selecta candidații care urmează să fie invitați în a doua etapă a procedurii' (BT-40) este 'da' și 'Numărul este un tip de pondere' (BT-7531) nu este completat.</entry>
 <entry key="expression|name|748">Există mai multe loturi.</entry>
 <entry key="expression|name|749">'Clasificarea principală' (BT-262-Lot) este completat.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Clasificare suplimentară' (BT-263-Part) este completat.</entry>
 <entry key="expression|name|754">'Clasificare suplimentară' (BT-263-Procedure) este completat.</entry>
 <entry key="expression|name|755">'ID-ul tehnic al ofertei' (OPT-321-Tender) există.</entry>
-<entry key="expression|name|756">'Denumire oficială' (BT-500-Organization-TouchPoint) está preenchido.</entry>
+<entry key="expression|name|756">'Denumire oficială' (BT-500-Organization-TouchPoint) este completat.</entry>
 <entry key="expression|name|757">'Țara' (BT-514-Organization-Company) tem códigos NUTS.</entry>
 <entry key="expression|name|758">'Țara' (BT-514-Organization-TouchPoint) tem códigos NUTS.</entry>
 <entry key="expression|name|759">A fost atribuit un lot.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'Contractul este atribuit în baza unui acord-cadru' (BT-768-Contract) este 'da'.</entry>
 <entry key="expression|name|762">'Versiunea anunțului anterior care urmează să fie modificată' (BT-758-notice) este completat.</entry>
 <entry key="expression|name|763">Indicatorul 'Documentele achiziției au fost modificate la data de' (BT-718-notice) este 'da'.</entry>
-<entry key="expression|name|764">'Număr de înregistrare' (BT-501-Business-European) está preenchido.</entry>
+<entry key="expression|name|764">'Număr de înregistrare' (BT-501-Business-European) este completat.</entry>
 <entry key="expression|name|765">'Tip de oferte primite' (BT-760-LotResult) este completat.</entry>
 <entry key="expression|name|766">'Câmp de publicat ulterior' (BT-195(BT-09)-Procedure) este completat.</entry>
 <entry key="expression|name|767">'Câmp de publicat ulterior' (BT-195(BT-105)-Procedure) este completat.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">A fost ales un câștigător și a fost implicat un acord-cadru și 'Valoarea maximă a acordului-cadru' (BT-709-LotResult) este completat.</entry>
 <entry key="expression|name|822">Există un lot atribuit fără un acord-cadru sau un contract în cadrul unui acord-cadru.</entry>
 <entry key="expression|name|823">Se folosește Sistemul Dinamic de Achiziții (DPS).</entry>
-<entry key="expression|name|824">'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) está preenchido.</entry>
+<entry key="expression|name|824">'ID-ul tehnic al UBO (UBO-XXX)' (OPT-202-UBO) este completat.</entry>
 <entry key="expression|name|825">'Tip de procedură' (BT-105) este 'Deschisă', 'Restrânsă' sau 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'.</entry>
 <entry key="expression|name|826">'Tip de procedură' (BT-105) este 'Restrânsă' sau 'Negociată cu publicarea prealabilă a unei proceduri concurențiale de ofertare / competitivă cu negociere'.</entry>
 <entry key="expression|name|827">Organizația este un cumpărător și există mai mult de un cumpărător.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'O obligație pe care ofertantul trebuie să o îndeplinească în materie de subcontractare.' (BT-65) este completat.</entry>
 <entry key="expression|name|837">'Țara' (BT-514-Organization-TouchPoint) está preenchido.</entry>
 <entry key="expression|name|838">'Țara' (BT-514-Business) tem códigos NUTS.</entry>
-<entry key="expression|name|839">'Țara' (BT-514-Business) está preenchido.</entry>
+<entry key="expression|name|839">'Țara' (BT-514-Business) este completat.</entry>
 <entry key="expression|name|84">'Durata contractului este prelungită datorită activelor esențiale necesare pentru prestarea serviciului' (OPP-020-Contract) nu este 'da'</entry>
 <entry key="expression|name|840">'Drept transnațional aplicabil' (BT-09(a)-Procedure) este completat.</entry>
 <entry key="expression|name|841">'Temei juridic' (BT-01(e)-Procedure) este completat.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Câmp de publicat ulterior' (BT-195(BT-635)-LotResult) este completat.</entry>
 <entry key="expression|name|845">'Câmp de publicat ulterior' (BT-195(BT-636)-LotResult) este completat.</entry>
 <entry key="expression|name|846">'Data de expediere a anunțului eSender' (BT-803(d)-notice) este completat.</entry>
-<entry key="expression|name|847">'Organizația care îndeplinește acest rol' (OPT-302-Organization) está ligado a uma organização.</entry>
+<entry key="expression|name|847">'Organizația care îndeplinește acest rol' (OPT-302-Organization) este legat de o organizație.</entry>
 <entry key="expression|name|848">Este implicat un acord-cadru și 'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) este completat.</entry>
 <entry key="expression|name|849">A fost ales un câștigător și este implicat un acord-cadru și 'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) este completat.</entry>
 <entry key="expression|name|85">'Lista activelor utilizate pentru furnizarea serviciilor publice' (OPP-020-Contract) nu este 'da'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Rezultatele loturilor' este completată și oferta pentru lotul acoperit de 'Rezultatul procedurii' este completată și o ofertă este completată și un lot este specificat pentru 'Rezultatul procedurii' și competiția nu este în desfășurare.</entry>
 <entry key="expression|name|856">'Statutul selecției câștigătorului' (BT-142-LotResult) este 'A fost selecționat cel puțin un câștigător.'.</entry>
 <entry key="expression|name|857">'ID-ul tehnic al contractului' (OPT-316-Contract) este completat și 'ID-ul tehnic al ofertei' (OPT-321-Tender) este completat.</entry>
-<entry key="expression|name|858">'ID-ul tehnic al contractului' (OPT-316-Contract) está preenchido.</entry>
+<entry key="expression|name|858">'ID-ul tehnic al contractului' (OPT-316-Contract) este completat.</entry>
 <entry key="expression|name|859">ID-ul lotului este completat.</entry>
 <entry key="expression|name|86">'Importanța activelor esențiale furnizate în raport cu activele globale necesare pentru furnizarea serviciilor publice' (OPP-020-Contract) nu este 'da'</entry>
 <entry key="expression|name|860">Furnizorul de servicii este identificat.</entry>
 <entry key="expression|name|861">'Valoarea recalculată a acordului-cadru' (BT-660-LotResult) este completat.</entry>
 <entry key="expression|name|862">'Câmp de publicat ulterior' (BT-195(BT-660)-LotResult) este completat.</entry>
-<entry key="expression|name|863">'Codul cerinței de executare' (OPT-060-Lot) está preenchido.</entry>
+<entry key="expression|name|863">'Codul cerinței de executare' (OPT-060-Lot) este completat.</entry>
 <entry key="expression|name|864">'Număr legat de criteriul de atribuire' (BT-541-Lot-WeightNumber) este prezent.</entry>
 <entry key="expression|name|865">'Număr legat de criteriul de atribuire' (BT-541-Lot-FixedNumber) este prezent.</entry>
 <entry key="expression|name|866">'Număr legat de criteriul de atribuire' (BT-541-Lot-ThresholdNumber) este prezent.</entry>

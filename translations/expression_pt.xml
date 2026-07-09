@@ -538,7 +538,7 @@
 <entry key="expression|name|722">'Justificação da adjudicação direta' (BT-136-Result) não está preenchido.</entry>
 <entry key="expression|name|723">'Estatuto de seleção do vencedor' (BT-142-LotResult) é 'Nenhum vencedor foi selecionado e o concurso está fechado.'.</entry>
 <entry key="expression|name|724">'Estatuto de seleção do vencedor' (BT-142-LotResult) é 'O vencedor foi selecionado.' e 'ID técnico do resultado do lote (RES-XXX)' (OPT-322) está preenchido.</entry>
-<entry key="expression|name|725">'Subcontratação' (BT-773-Tender) jest 'Sim'.</entry>
+<entry key="expression|name|725">'Subcontratação' (BT-773-Tender) é 'Sim'.</entry>
 <entry key="expression|name|726">'O valor da subcontratação é conhecido' (BT-730-Tender) é 'sim'.</entry>
 <entry key="expression|name|727">'Valor de pagamento da proposta' (BT-779-Tender) está preenchido.</entry>
 <entry key="expression|name|728">'A percentagem da subcontratação é conhecida' (BT-731-Tender) é 'sim'.</entry>
@@ -547,8 +547,8 @@
 <entry key="expression|name|731">'Prazo para a receção das manifestações de interesse' (BT-630(d)-Lot) está preenchido.</entry>
 <entry key="expression|name|732">'Pedido ou decisão do recurso' (BT-783-Review) está presente.</entry>
 <entry key="expression|name|733">'A duração do contrato é prorrogada devido aos ativos essenciais necessários para a prestação do serviço' (OPP-020-Contract) é 'sim'.</entry>
-<entry key="expression|name|734">'Lista dos ativos utilizados para a prestação de serviços públicos' (OPP-021-Contract) jest 'sim'.</entry>
-<entry key="expression|name|735">'Importância dos ativos essenciais fornecidos em relação aos ativos globais necessários para a prestação dos serviços públicos' (OPP-022-Contract) jest 'sim'.</entry>
+<entry key="expression|name|734">'Lista dos ativos utilizados para a prestação de serviços públicos' (OPP-021-Contract) é 'sim'.</entry>
+<entry key="expression|name|735">'Importância dos ativos essenciais fornecidos em relação aos ativos globais necessários para a prestação dos serviços públicos' (OPP-022-Contract) é 'sim'.</entry>
 <entry key="expression|name|736">'A execução do contrato tem de ser efetuada no âmbito de programas de emprego protegido' (BT-736-Lot) é 'sim'.</entry>
 <entry key="expression|name|737">'Identificador da proposta' (BT-3201-Tender) está preenchido.</entry>
 <entry key="expression|name|738">'Outras restrições relativas ao local de execução dos trabalhos' (BT-727-Lot) não é 'Em qualquer local' ou 'Em qualquer parte do Espaço Económico Europeu'.</entry>
@@ -558,9 +558,9 @@
 <entry key="expression|name|741">'Prazo para a receção das propostas' (BT-131(d)-Lot) está preenchido.</entry>
 <entry key="expression|name|742">'Prazo para a receção dos pedidos de participação' (BT-1311(d)-Lot) está preenchido.</entry>
 <entry key="expression|name|743">'Tipo de procedimento' (BT-105) não é 'Aberto', 'Outro processo de fase única' ou 'Por negociação sem abertura prévia de concurso'.</entry>
-<entry key="expression|name|744">'Nome oficial' (BT-500-UBO) jest wypełniony.</entry>
+<entry key="expression|name|744">'Nome oficial' (BT-500-UBO) está preenchido.</entry>
 <entry key="expression|name|745">'País' (BT-514-UBO) tem códigos NUTS.</entry>
-<entry key="expression|name|746">'Os critérios serão utilizados para selecionar os candidatos a convidar para a segunda fase do concurso' (BT-40) jest 'sim' i 'O número é um tipo de limiar' (BT-7532) nie jest wypełniony.</entry>
+<entry key="expression|name|746">'Os critérios serão utilizados para selecionar os candidatos a convidar para a segunda fase do concurso' (BT-40) é 'sim' e 'O número é um tipo de limiar' (BT-7532) não está preenchido.</entry>
 <entry key="expression|name|747">'Os critérios serão utilizados para selecionar os candidatos a convidar para a segunda fase do concurso' (BT-40) é 'sim' e 'O número é um tipo de fator de ponderação' (BT-7531) não está preenchido.</entry>
 <entry key="expression|name|748">Existem vários lotes.</entry>
 <entry key="expression|name|749">'Classificação principal' (BT-262-Lot) está preenchido.</entry>
@@ -570,7 +570,7 @@
 <entry key="expression|name|753">'Classificação adicional' (BT-263-Part) está preenchido.</entry>
 <entry key="expression|name|754">'Classificação adicional' (BT-263-Procedure) está preenchido.</entry>
 <entry key="expression|name|755">'ID técnico da oferta' (OPT-321-Tender) existe.</entry>
-<entry key="expression|name|756">'Nome oficial' (BT-500-Organization-TouchPoint) jest wypełniony.</entry>
+<entry key="expression|name|756">'Nome oficial' (BT-500-Organization-TouchPoint) está preenchido.</entry>
 <entry key="expression|name|757">'País' (BT-514-Organization-Company) ma kody NUTS.</entry>
 <entry key="expression|name|758">'País' (BT-514-Organization-TouchPoint) ma kody NUTS.</entry>
 <entry key="expression|name|759">Foi adjudicado um lote.</entry>
@@ -579,7 +579,7 @@
 <entry key="expression|name|761">'O contrato é adjudicado no âmbito de um acordo-quadro' (BT-768-Contract) é 'sim'.</entry>
 <entry key="expression|name|762">'Versão do anúncio anterior a alterar' (BT-758-notice) está preenchido.</entry>
 <entry key="expression|name|763">O indicador 'Os documentos do concurso foram alterados em' (BT-718-notice) é 'sim'.</entry>
-<entry key="expression|name|764">'Número de registo' (BT-501-Business-European) jest wypełniony.</entry>
+<entry key="expression|name|764">'Número de registo' (BT-501-Business-European) está preenchido.</entry>
 <entry key="expression|name|765">'Tipo de apresentações recebidas' (BT-760-LotResult) está preenchido.</entry>
 <entry key="expression|name|766">'Campo a publicar mais tarde' (BT-195(BT-09)-Procedure) está preenchido.</entry>
 <entry key="expression|name|767">'Campo a publicar mais tarde' (BT-195(BT-105)-Procedure) está preenchido.</entry>
@@ -644,7 +644,7 @@
 <entry key="expression|name|821">Foi escolhido um vencedor e foi envolvido um acordo-quadro e 'Valor máximo do acordo-quadro' (BT-709-LotResult) está preenchido.</entry>
 <entry key="expression|name|822">Existe um lote adjudicado sem acordo-quadro ou contrato dentro de um acordo-quadro.</entry>
 <entry key="expression|name|823">É utilizado o Sistema de Compras Dinâmico (DPS).</entry>
-<entry key="expression|name|824">'ID técnico do UBO (UBO-XXX)' (OPT-202-UBO) jest wypełniony.</entry>
+<entry key="expression|name|824">'ID técnico do UBO (UBO-XXX)' (OPT-202-UBO) está preenchido.</entry>
 <entry key="expression|name|825">'Tipo de procedimento' (BT-105) é 'Aberto', 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'.</entry>
 <entry key="expression|name|826">'Tipo de procedimento' (BT-105) é 'Limitado' ou 'Por negociação com publicação prévia de um convite à apresentação de propostas/concurso com negociação'.</entry>
 <entry key="expression|name|827">A organização é um comprador e há mais de um comprador.</entry>
@@ -660,7 +660,7 @@
 <entry key="expression|name|836">'Obrigação a cumprir pelo proponente em matéria de subcontratação' (BT-65) está preenchido.</entry>
 <entry key="expression|name|837">'País' (BT-514-Organization-TouchPoint) jest wypełniony.</entry>
 <entry key="expression|name|838">'País' (BT-514-Business) ma kody NUTS.</entry>
-<entry key="expression|name|839">'País' (BT-514-Business) jest wypełniony.</entry>
+<entry key="expression|name|839">'País' (BT-514-Business) está preenchido.</entry>
 <entry key="expression|name|84">'A duração do contrato é prorrogada devido aos ativos essenciais necessários para a prestação do serviço' (OPP-020-Contract) não é 'sim'</entry>
 <entry key="expression|name|840">'Legislação transfronteiriça aplicável' (BT-09(a)-Procedure) está preenchido.</entry>
 <entry key="expression|name|841">'Base jurídica' (BT-01(e)-Procedure) está preenchido.</entry>
@@ -669,7 +669,7 @@
 <entry key="expression|name|844">'Campo a publicar mais tarde' (BT-195(BT-635)-LotResult) está preenchido.</entry>
 <entry key="expression|name|845">'Campo a publicar mais tarde' (BT-195(BT-636)-LotResult) está preenchido.</entry>
 <entry key="expression|name|846">'Data de envio do anúncio eSender' (BT-803(d)-notice) está preenchido.</entry>
-<entry key="expression|name|847">'Organização que desempenha este papel' (OPT-302-Organization) jest połączony z organizacją.</entry>
+<entry key="expression|name|847">'Organização que desempenha este papel' (OPT-302-Organization) está ligado a uma organização.</entry>
 <entry key="expression|name|848">Está envolvido um acordo-quadro e 'Valor reestimado do acordo-quadro' (BT-660-LotResult) está preenchido.</entry>
 <entry key="expression|name|849">Foi escolhido um vencedor e está envolvido um acordo-quadro e 'Valor reestimado do acordo-quadro' (BT-660-LotResult) está preenchido.</entry>
 <entry key="expression|name|85">'Lista dos ativos utilizados para a prestação de serviços públicos' (OPP-020-Contract) não é 'sim'</entry>
@@ -681,13 +681,13 @@
 <entry key="expression|name|855">'Resultados dos lotes' está preenchido e a proposta para o lote coberto por 'Resultados do processo por lotes' está preenchida e uma proposta está preenchida e um lote está especificado para o 'Resultados do processo por lotes' e a competição não está em andamento.</entry>
 <entry key="expression|name|856">'Estatuto de seleção do vencedor' (BT-142-LotResult) é 'O vencedor foi selecionado.'.</entry>
 <entry key="expression|name|857">'ID técnico do contrato' (OPT-316-Contract) está preenchido e 'ID técnico da oferta' (OPT-321-Tender) está preenchido.</entry>
-<entry key="expression|name|858">'ID técnico do contrato' (OPT-316-Contract) jest wypełniony.</entry>
+<entry key="expression|name|858">'ID técnico do contrato' (OPT-316-Contract) está preenchido.</entry>
 <entry key="expression|name|859">O ID do lote está preenchido.</entry>
 <entry key="expression|name|86">'Importância dos ativos essenciais fornecidos em relação aos ativos globais necessários para a prestação dos serviços públicos' (OPP-020-Contract) não é 'sim'</entry>
 <entry key="expression|name|860">O prestador de serviços está identificado.</entry>
 <entry key="expression|name|861">'Valor reestimado do acordo-quadro' (BT-660-LotResult) está preenchido.</entry>
 <entry key="expression|name|862">'Campo a publicar mais tarde' (BT-195(BT-660)-LotResult) está preenchido.</entry>
-<entry key="expression|name|863">'Código de requisito de execução' (OPT-060-Lot) jest wypełniony.</entry>
+<entry key="expression|name|863">'Código de requisito de execução' (OPT-060-Lot) está preenchido.</entry>
 <entry key="expression|name|864">'N.º do critério de adjudicação' (BT-541-Lot-WeightNumber) está presente.</entry>
 <entry key="expression|name|865">'N.º do critério de adjudicação' (BT-541-Lot-FixedNumber) está presente.</entry>
 <entry key="expression|name|866">'N.º do critério de adjudicação' (BT-541-Lot-ThresholdNumber) está presente.</entry>
