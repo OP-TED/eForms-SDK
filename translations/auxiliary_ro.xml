@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Romanian. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Temei juridic</entry>
-<entry key="auxiliary|text|BT-08">Rolul organizației</entry>
-<entry key="auxiliary|text|BT-36">Durata</entry>
 <entry key="auxiliary|text|accessibility">Criterii de accesibilitate</entry>
 <entry key="auxiliary|text|adhoc-communication">Canal de comunicare ad-hoc</entry>
 <entry key="auxiliary|text|award-criteria">Criterii de atribuire</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Cumpărător</entry>
 <entry key="auxiliary|text|buyer-competent">Autoritate competentă</entry>
 <entry key="auxiliary|text|change">Modificare</entry>
-<entry key="auxiliary|text|change-notice">Anunț de schimbare</entry>
 <entry key="auxiliary|text|company">Numele și adresa companiei/societății</entry>
 <entry key="auxiliary|text|concession-value">Valoarea concesiunii</entry>
 <entry key="auxiliary|text|conditions-contract">Condiții referitoare la contract</entry>
 <entry key="auxiliary|text|conditions-participation">Condiții de participare</entry>
 <entry key="auxiliary|text|contract-information">Informații referitoare la contract</entry>
 <entry key="auxiliary|text|contract-terms">Clauzele contractuale</entry>
-<entry key="auxiliary|text|contractor-legal-form">Forma juridică a contractantului</entry>
 <entry key="auxiliary|text|criterion">Criteriu</entry>
-<entry key="auxiliary|text|cross-border-description">Descriere</entry>
 <entry key="auxiliary|text|cross-border-law">Legislația transfrontalieră aplicabilă</entry>
 <entry key="auxiliary|text|design-contest-terms">Condițiile regimului concursului de proiectare</entry>
 <entry key="auxiliary|text|direct-award">Atribuire directă</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Valoarea estimată a acordurilor-cadru pentru grupul de loturi</entry>
 <entry key="auxiliary|text|group-of-lots">Grup de loturi</entry>
 <entry key="auxiliary|text|grouping">Numele grupului</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Informații despre recompense și sancțiuni</entry>
 <entry key="auxiliary|text|international-procurement-instrument">Achiziția intră în sfera de aplicare a Instrumentului Internațional de Achiziții (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Statistici privind măsurile Instrumentului Internațional de Achiziții (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Limbile în care pot fi depuse cererile de exprimare a interesului</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Forma juridică a autorității competente</entry>
 <entry key="auxiliary|text|lot">Lot</entry>
 <entry key="auxiliary|text|modification">Modificare</entry>
-<entry key="auxiliary|text|name">Nume</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Numele oficiale ale persoanelor care nu sunt lideri din partea ofertantului</entry>
 <entry key="auxiliary|text|non-winning-tender">Ofertanți necâștigători</entry>
 <entry key="auxiliary|text|notice-information">Informații privind anunțul</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Organizația al cărei buget este utilizat pentru plata contractului</entry>
 <entry key="auxiliary|text|organisation-mediation">Organizație de mediere</entry>
 <entry key="auxiliary|text|organisation-paying">Organizația care execută plata</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Organizația care prelucrează cererile de participare</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organizația care prelucrează ofertele</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Organizația care oferă acces offline la documentele achiziției</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția muncii aplicabil în locul în care urmează să fie executat contractul</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Organizația care furnizează mai multe informații cu privire la căile de atac</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organizația care furnizează informații referitoare la cadrul legislativ general privind impozitarea aplicabil în locul în care urmează să fie executat contractul</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Furnizor de servicii de achiziție</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Organizația care primește ofertele</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Organizația (sau persoana) care depune cererea de soluționare a căilor de atac, care are sau a avut un interes în obținerea unui contract și care a fost prejudiciată sau riscă să fie prejudiciată printr-o presupusă încălcare</entry>
 <entry key="auxiliary|text|organisation-review">Organizația responsabilă cu căile de atac</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Organizația care furnizează mai multe informații cu privire la termenele pentru căile de atac</entry>
-<entry key="auxiliary|text|organisation-roles">Rolurile organizațiilor</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organizația care semnează contractul</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Subcontractant</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Organizația care primește cererile de participare</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Condițiile achiziției publice</entry>
 <entry key="auxiliary|text|public-opening">Informații privind deschiderea publică</entry>
 <entry key="auxiliary|text|publication-gazette">Publicarea în Monitorul Oficial</entry>
-<entry key="auxiliary|text|publication-information">Informații privind publicarea</entry>
 <entry key="auxiliary|text|purpose">Scop</entry>
 <entry key="auxiliary|text|quality-targets">Obiective de calitate</entry>
 <entry key="auxiliary|text|range-tenders">Gama de oferte</entry>
 <entry key="auxiliary|text|received-submissions">Oferte/ cereri de participare primite</entry>
 <entry key="auxiliary|text|renewal">Reînnoire</entry>
 <entry key="auxiliary|text|results">Rezultate</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Rezultatul procedurii de achiziție publică</entry>
 <entry key="auxiliary|text|review">Căi de atac</entry>
 <entry key="auxiliary|text|review-request-withdrawn">Cererea de revizuire sau de măsuri provizorii a fost retrasă</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Tipul de presupusă neregulă</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Condiții de depunere</entry>
 <entry key="auxiliary|text|techniques">Aspecte tehnice</entry>
 <entry key="auxiliary|text|tender">Ofertă</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Subcontractanții ofertantului</entry>
 <entry key="auxiliary|text|unpublished">nepublicat</entry>
 <entry key="auxiliary|text|value">Valoare</entry>
 <entry key="auxiliary|text|winner">Câștigător</entry>
 <entry key="auxiliary|text|winner-info">Informații despre câștigători</entry>
 <entry key="auxiliary|text|winner-lots">Câștigătorul acestor loturi</entry>
-<entry key="auxiliary|text|winner-subcontractor">Subcontractanții câștigătorului</entry>
 </properties>

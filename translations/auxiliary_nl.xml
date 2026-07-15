@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Dutch. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Rechtsgrondslag</entry>
-<entry key="auxiliary|text|BT-08">Rol van organisatie</entry>
-<entry key="auxiliary|text|BT-36">Duur</entry>
 <entry key="auxiliary|text|accessibility">Toegankelijkheidscriteria</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad-hoccommunicatiekanaal</entry>
 <entry key="auxiliary|text|award-criteria">Gunningscriteria</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Koper</entry>
 <entry key="auxiliary|text|buyer-competent">Bevoegde autoriteit</entry>
 <entry key="auxiliary|text|change">Wijziging van een aankondiging</entry>
-<entry key="auxiliary|text|change-notice">Bericht van wijziging van een aankondiging</entry>
 <entry key="auxiliary|text|company">Naam en adres van de onderneming/maatschappij</entry>
 <entry key="auxiliary|text|concession-value">Waarde concessie</entry>
 <entry key="auxiliary|text|conditions-contract">Voorwaarden met betrekking tot de opdracht</entry>
 <entry key="auxiliary|text|conditions-participation">Voorwaarden voor deelneming</entry>
 <entry key="auxiliary|text|contract-information">Informatie over het contract</entry>
 <entry key="auxiliary|text|contract-terms">Voorwaarden van het contract</entry>
-<entry key="auxiliary|text|contractor-legal-form">Rechtsvorm van de contractant</entry>
 <entry key="auxiliary|text|criterion">Criterium</entry>
-<entry key="auxiliary|text|cross-border-description">Beschrijving</entry>
 <entry key="auxiliary|text|cross-border-law">Toepasselijk grensoverschrijdend recht</entry>
 <entry key="auxiliary|text|design-contest-terms">Voorwaarden van de regeling inzake de prijsvraag voor ontwerpen</entry>
 <entry key="auxiliary|text|direct-award">Onderhandse gunning</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Geraamde waarde van de raamovereenkomsten in de groep percelen</entry>
 <entry key="auxiliary|text|group-of-lots">Groep percelen</entry>
 <entry key="auxiliary|text|grouping">Naam van de groep</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Informatie over beloningen en sancties</entry>
 <entry key="auxiliary|text|international-procurement-instrument">De aanbesteding valt onder de reikwijdte van het Internationaal Aanbestedingsinstrument (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Statistieken over de maatregelen van het Internationaal Aanbestedingsinstrument (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Talen waarin de blijken van belangstelling kunnen worden ingediend</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Rechtsvorm van de bevoegde autoriteit</entry>
 <entry key="auxiliary|text|lot">Perceel</entry>
 <entry key="auxiliary|text|modification">Wijziging van een opdracht</entry>
-<entry key="auxiliary|text|name">Naam</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Officiële namen van de ondernemingen die deel uitmaken van een inschrijvende groep, maar niet de leider van de groep zijn</entry>
 <entry key="auxiliary|text|non-winning-tender">Niet-winnende inschrijvers</entry>
 <entry key="auxiliary|text|notice-information">Informatie over een aankondiging</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Organisatie waarvan het budget wordt gebruikt om voor de opdracht te betalen</entry>
 <entry key="auxiliary|text|organisation-mediation">Bemiddelingsorganisatie</entry>
 <entry key="auxiliary|text|organisation-paying">Organisatie die de betaling uitvoert</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Organisatie die verzoeken tot deelname verwerkt</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organisatie die inschrijvingen verwerkt</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Organisatie die offlinetoegang verleent tot de aanbestedingsstukken</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake de bescherming van de werknemers en inzake arbeidsvoorwaarden</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Organisatie die meer informatie geeft over beroepsprocedures</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake belasting</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Aanbieder van aanbestedingsdiensten</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Organisatie die inschrijvingen ontvangt</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Organisatie (of persoon) die beroep instelt en die belang heeft of heeft gehad bij een opdracht en door een beweerde inbreuk is of dreigt te worden geschaad</entry>
 <entry key="auxiliary|text|organisation-review">Organisatie voor beroepsprocedures</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Organisatie die meer informatie geeft over de termijnen voor beroepsprocedures</entry>
-<entry key="auxiliary|text|organisation-roles">Rollen van organisaties</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organisatie die het contract ondertekent</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Onderaannemer</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Organisatie die verzoeken tot deelname ontvangt</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Voorwaarden van de aanbesteding</entry>
 <entry key="auxiliary|text|public-opening">Informatie over de openbare opening</entry>
 <entry key="auxiliary|text|publication-gazette">Bekendmaking in het staatsblad</entry>
-<entry key="auxiliary|text|publication-information">Informatie over de bekendmaking</entry>
 <entry key="auxiliary|text|purpose">Doel</entry>
 <entry key="auxiliary|text|quality-targets">Kwaliteitsdoelstellingen</entry>
 <entry key="auxiliary|text|range-tenders">Bereik van de inschrijvingen</entry>
 <entry key="auxiliary|text|received-submissions">Ontvangen inschrijvingen of verzoeken tot deelname</entry>
 <entry key="auxiliary|text|renewal">Verlenging</entry>
 <entry key="auxiliary|text|results">Resultaten</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Resultaat van de aanbestedingsprocedure</entry>
 <entry key="auxiliary|text|review">Evaluatie</entry>
 <entry key="auxiliary|text|review-request-withdrawn">De aanvraag voor herziening of voorlopige maatregelen is ingetrokken</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Aard van de vermeende onregelmatigheid</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Voorwaarden voor indiening</entry>
 <entry key="auxiliary|text|techniques">Technieken</entry>
 <entry key="auxiliary|text|tender">Inschrijving</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Aannemers van de inschrijver</entry>
 <entry key="auxiliary|text|unpublished">niet gepubliceerd</entry>
 <entry key="auxiliary|text|value">Waarde</entry>
 <entry key="auxiliary|text|winner">Winnaar</entry>
 <entry key="auxiliary|text|winner-info">Informatie over winnaars</entry>
 <entry key="auxiliary|text|winner-lots">Winnaar van deze percelen</entry>
-<entry key="auxiliary|text|winner-subcontractor">Subcontractanten van de winnaar</entry>
 </properties>

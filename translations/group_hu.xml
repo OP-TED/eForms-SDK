@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Az ajánlatokat feldolgozó szervezet</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Az ajánlatokat fogadó szervezet</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Ajánlat érvényessége</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Késedelmes benyújtással kapcsolatos információk</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Információk ajánlattevőknek</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">A közbeszerzési eljárás feltételei</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Tiszta jármű irányelv információ</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Tiszta jármű irányelv szerződéstípus</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Az eljárás típusa</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Az eljárás típusának részletei</entry>
 <entry key="group|name|GR-Procedure-Purpose">Cél</entry>
-<entry key="group|name|GR-Procedure-SProvider">Szolgáltató</entry>
+<entry key="group|name|GR-Procedure-SProvider">Közbeszerzési szolgáltató</entry>
 <entry key="group|name|GR-Procedure-Scope">A közbeszerzés tárgya</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">További osztályozás</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Fő osztályozás</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">A koncesszió felhasználóitól származó becsült bevétel (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">A koncesszió becsült értékének kiszámítására használt módszer (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Koncesszió értékének ismertetése (később közzétéve)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Helyezés a nyertesek listáján (később közzétéve)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Ajánlat helyezése (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Ajánlat helyezése (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">A termék vagy szolgáltatás származási országa (később közzétéve)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Az ajánlat az egyik változat (később közzétéve)</entry>

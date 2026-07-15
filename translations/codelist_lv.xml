@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">To atļauto paziņojuma apakšveida kodu saraksts, ko izmanto paziņojumā, kurš atbilst paziņojuma veidam “Paziņojums par līgumu vai paziņojums par koncesiju — standarta režīms”.</entry>
 <entry key="codelist|name|communication-justification">Šajā tabulā sniegts pamatojums, ko izmanto, lai publiskā iepirkuma kontekstā ierobežotu tiesības piekļūt resursiem.</entry>
 <entry key="codelist|name|competition">To atļauto paziņojuma veida kodu saraksts, ko izmanto paziņojumā, kurš atbilst paziņojuma veidam “Konkurss”.</entry>
+<entry key="codelist|name|compl">Atļauto paziņojuma apakštipa kodu saraksts līguma pabeigšanas paziņojuma veidam</entry>
+<entry key="codelist|name|completion">Atļauto paziņojuma tipu kodu saraksts pabeigšanas veidlapas tipam</entry>
 <entry key="codelist|name|conditions">Nosacījumu kodi</entry>
+<entry key="codelist|name|consultation">Atļauto paziņojuma tipu kodu saraksts konsultācijas veidlapas tipam</entry>
 <entry key="codelist|name|cont-modif">To atļauto paziņojuma veida kodu saraksts, ko izmanto paziņojumā, kurš atbilst paziņojuma veidam “Līguma grozījumi”.</entry>
 <entry key="codelist|name|contract-detail">Šī tabula nodrošina satvaru ar iepirkumu saistīto datu atspoguļošanai.</entry>
 <entry key="codelist|name|contract-nature">To kodu saraksts, ko izmanto, lai precizētu pirkuma pamatveidus un papildveidus</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR ievieš jaunu noteikumu kopumu, kas ļauj Komisijai risināt izkropļojumus, ko izraisa ārvalstu subsīdijas.</entry>
 <entry key="codelist|name|form-type">Šajā tabulā ir norādīti kodi un vērtības, ko izmanto TED publicēto veidlapu tipam.</entry>
 <entry key="codelist|name|framework-agreement">Šajā tabulā uzskaitīti kodi, ko izmanto, lai nošķirtu piedāvājumā iekļauto pamatlīgumu dažādos veidus.</entry>
+<entry key="codelist|name|fsr">Kodu saraksts, lai norādītu, vai tiek piemērots Ārvalstu subsīdiju reglaments</entry>
 <entry key="codelist|name|gpp-criteria">Zaļā publiskā iepirkuma kritēriji</entry>
 <entry key="codelist|name|indicator">Atļauto e-veidlapu indikatoru vērtību saraksts</entry>
 <entry key="codelist|name|innovative-acquisition">Šajā tabulā norādīti kodi un vērtības, ko izmanto iepirktu inovatīvu būvdarbu, piegāžu vai pakalpojumu veidam publiskā iepirkuma kontekstā.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Šī tabula sniedz kodu un vērtību sarakstu, ko izmanto, lai norādītu izņēmumu no IPI pasākuma piemērošanas</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Šī tabula sniedz kodu un vērtību sarakstu, ko izmanto, lai norādītu piemēroto IPI pasākumu</entry>
+<entry key="codelist|name|ipi-scope">Šī tabula sniedz kodu un vērtību sarakstu, ko izmanto, lai norādītu, ka iepirkums ietilpst Starptautiskā iepirkumu instrumenta darbības jomā</entry>
 <entry key="codelist|name|irregularity-type">Šis kodu saraksts parasti attiecas uz to pārkāpumu veidiem, kas aprakstīti Komisijas Lēmuma C (2019) 3452 pielikuma 2. iedaļā.</entry>
 <entry key="codelist|name|language">Saraksts ar trīs burtu valodas kodiem, kurā norādīta atbilstība ISO 3166 starptautiskajam standartam, un papildu iestāžu kodi dažām valodām, kurām nav piešķirts ISO kods.</entry>
 <entry key="codelist|name|lawful-country">To valstu saraksts, kurām ir juridisks pamats publicēt informāciju Eiropas Savienības Oficiālā Vēstneša papildinājumā</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">To kodu saraksts, ko izmanto, lai precizētu, vai versijām citās valodās ir juridisks statuss.</entry>
 <entry key="codelist|name|main-activity">To kodu saraksts, kas raksturo pircēju galveno darbību.</entry>
 <entry key="codelist|name|measurement-unit">To kodu saraksts, kas raksturo starptautiskajā tirdzniecībā visbiežāk izmantotās mērvienības.</entry>
+<entry key="codelist|name|metric-type">Kodu saraksts, ko izmanto, lai raksturotu ar norādītajiem skaitļiem aptverto metriku tipa sarakstu</entry>
 <entry key="codelist|name|missing-info-submission">Šajā tabulā uzskaitīti kodi, ko izmanto, lai norādītu, vai ar pretendentu saistīto informāciju (pilnīgu vai daļēju) var papildināt vēl pēc iesniegšanas termiņa.</entry>
 <entry key="codelist|name|modification-justification">Šajā tabulā uzskaitīti galvenie iemesli līguma grozīšanai publiskā iepirkuma jomā.</entry>
 <entry key="codelist|name|nda">To kodu saraksts, ko izmanto, lai precizētu, vai nepieciešams informācijas neizpaušanas līgums.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">NUTS 3. līmeņa kodu saraksts Slovēnijai</entry>
 <entry key="codelist|name|nuts-swe-lvl3">NUTS 3. līmeņa kodu saraksts Zviedrijai</entry>
 <entry key="codelist|name|nuts-tur-lvl3">NUTS 3. līmeņa kodu saraksts Turcijai</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Ukrainas 3. līmeņa NUTS kodu saraksts</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">3. līmeņa NUTS kodu saraksts Kosovai</entry>
 <entry key="codelist|name|organisation-role">Šajā tabulā uzskaitītas dažādas organizāciju funkcijas iepirkuma procedūrā.</entry>
 <entry key="codelist|name|organisation-role-service">Iespējamo pakalpojumu kodu saraksts iepirkuma pakalpojumu sniedzējiem</entry>
 <entry key="codelist|name|other-place-service">Šajā tabulā ir norādītas plašas ģeopolitiskās teritorijas, kas saistītas ar atrašanās vietu būvdarbu gadījumā un piegādes vai pakalpojumu sniegšanas vietu publiskā iepirkuma kontekstā.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">To atļauto paziņojuma apakšveida kodu saraksts, ko izmanto paziņojumā, kurš atbilst paziņojuma veidam “Iepriekšējs informatīvs paziņojums vai periodisks informatīvs paziņojums, ko izmanto, lai saīsinātu piedāvājumu saņemšanas termiņus”.</entry>
 <entry key="codelist|name|pin-tran">To atļauto paziņojuma apakšveida kodu saraksts, ko izmanto paziņojumā, kurš atbilst paziņojuma veidam “Iepriekšējs informatīvs paziņojums attiecībā uz sabiedriskā transporta pakalpojumiem”.</entry>
 <entry key="codelist|name|planning">To atļauto paziņojuma veida kodu saraksts, ko izmanto paziņojumā, kurš atbilst paziņojuma veidam “Plānošana”.</entry>
+<entry key="codelist|name|pmc">Atļauto paziņojuma apakštipa kodu saraksts pirms tirgus apspriešanas paziņojuma tipam</entry>
 <entry key="codelist|name|postcode-country">Valstu kodu saraksts valstīm, kurām ir pasta indeksi un kurās tie ir jāizmanto</entry>
 <entry key="codelist|name|procedure-type-10">Atļautais procedūras veids paziņojuma 10. apakšveidam</entry>
 <entry key="codelist|name|procedure-type-11">Atļautais procedūras veids paziņojuma 11. apakšveidam</entry>

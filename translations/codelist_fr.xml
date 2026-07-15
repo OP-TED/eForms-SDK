@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Liste des codes de sous-type d’avis autorisés pour un type d’avis de concours standard.</entry>
 <entry key="codelist|name|communication-justification">Ce tableau fournit la justification de la restriction des droits d’accès aux ressources dans le cadre des marchés publics.</entry>
 <entry key="codelist|name|competition">Liste des codes de type d’avis autorisés pour un type d’avis de formulaire de mise en concurrence</entry>
+<entry key="codelist|name|compl">Liste des codes de sous-types de notification autorisés pour un type d'avis d'achèvement de contrat</entry>
+<entry key="codelist|name|completion">Liste des codes de type de notification autorisés pour un type de formulaire de complétion</entry>
 <entry key="codelist|name|conditions">Codes pour les conditions</entry>
+<entry key="codelist|name|consultation">Liste des codes de type de notification autorisés pour un type de formulaire de consultation</entry>
 <entry key="codelist|name|cont-modif">Liste des codes de type d’avis autorisés pour un type d’avis de formulaire de modification de marché</entry>
 <entry key="codelist|name|contract-detail">Ce tableau fournit un cadre pour représenter les données relatives aux marchés publics.</entry>
 <entry key="codelist|name|contract-nature">Liste des codes utilisés pour préciser les natures principale et supplémentaire d’un achat</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">Le FSR introduit un nouvel ensemble de règles qui permet à la Commission de faire face aux distorsions causées par les subventions étrangères.</entry>
 <entry key="codelist|name|form-type">Ce tableau fournit les codes et valeurs utilisés pour le type de formulaires publiés sur TED.</entry>
 <entry key="codelist|name|framework-agreement">Ce tableau fournit la liste des codes permettant de distinguer les différents types d’accord-cadre faisant l’objet d’un appel d’offres.</entry>
+<entry key="codelist|name|fsr">Liste des codes pour spécifier si le règlement sur les subventions étrangères s'applique</entry>
 <entry key="codelist|name|gpp-criteria">Critères applicables aux marchés publics écologiques</entry>
 <entry key="codelist|name|indicator">Liste des valeurs d’indicateurs autorisées pour les formulaires électroniques</entry>
 <entry key="codelist|name|innovative-acquisition">Ce tableau fournit les codes et valeurs utilisés pour le type de travaux, fournitures ou services à visée innovante faisant l’objet d’un marché public.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Ce tableau fournit la liste des codes et valeurs utilisés pour spécifier l'exception à l'application de la mesure IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Ce tableau fournit la liste des codes et valeurs utilisés pour spécifier la mesure IPI appliquée</entry>
+<entry key="codelist|name|ipi-scope">Cette table fournit la liste des codes et valeurs utilisés pour indiquer qu'un marché relève du champ d'application de l'Instrument international de passation de marchés</entry>
 <entry key="codelist|name|irregularity-type">Cette liste de codes fait référence de manière générale aux types d’irrégularités décrits à la section 2 de l’annexe de la décision C(2019) 3452 de la Commission.</entry>
 <entry key="codelist|name|language">Liste des codes linguistiques à trois caractères en corrélation avec la norme internationale ISO 639 avec des codes supplémentaires pour certaines langues n’ayant pas de code ISO attribué.</entry>
 <entry key="codelist|name|lawful-country">Liste des pays pour lesquels il existe une base juridique pour la publication au supplément du Journal officiel de l’Union européenne</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Liste des codes permettant de préciser si une version linguistique possède un statut juridique ou non.</entry>
 <entry key="codelist|name|main-activity">Liste des codes pour le activités principales des acheteurs.</entry>
 <entry key="codelist|name|measurement-unit">Liste des codes pour l’unité de mesure la plus couramment utilisée dans le commerce international.</entry>
+<entry key="codelist|name|metric-type">Liste des codes utilisés pour caractériser le type de métrique couvert par les nombres spécifiés</entry>
 <entry key="codelist|name|missing-info-submission">Ce tableau fournit la liste des codes indiquant si les informations (complètes ou partielles) relatives au soumissionnaire peuvent être complétées même après la date limite de soumission.</entry>
 <entry key="codelist|name|modification-justification">Ce tableau expose les principales raisons de la modification d’un marché dans le domaine des marchés publics.</entry>
 <entry key="codelist|name|nda">Liste des codes permettant de préciser si un accord de confidentialité est requis.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Liste des codes NUTS de niveau 3 pour la Slovénie</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Liste des codes NUTS de niveau 3 pour la Suède</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Liste des codes NUTS de niveau 3 pour la Turquie</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Liste des codes NUTS de niveau 3 pour l'Ukraine</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Liste des codes NUTS de niveau 3 pour le Kosovo</entry>
 <entry key="codelist|name|organisation-role">Ce tableau fournit la liste des différentes fonctions des organisations dans le cadre d’une procédure de passation de marché.</entry>
 <entry key="codelist|name|organisation-role-service">Liste des codes de services possibles pour les prestataires de services de passation de marchés</entry>
 <entry key="codelist|name|other-place-service">Ce tableau présente les grandes zones géopolitiques liées à la localisation des travaux et au lieu d’exécution ou de livraison dans le cadre des marchés publics.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Liste des codes de sous-type d’avis autorisés pour un type d’avis de préinformation de délai réduit.</entry>
 <entry key="codelist|name|pin-tran">Liste des codes de sous-type d’avis autorisés pour un type d’avis de préinformation de marché de services de transport public.</entry>
 <entry key="codelist|name|planning">Liste des codes de type d’avis autorisés pour un type de formulaire de planification</entry>
+<entry key="codelist|name|pmc">Liste des codes de sous-type d'avis autorisés pour un type d'avis de consultation préalable au marché</entry>
 <entry key="codelist|name|postcode-country">Liste des codes pays pour les pays ayant des codes postaux et nécessitant leur utilisation</entry>
 <entry key="codelist|name|procedure-type-10">Type de procédure autorisé pour le sous-type d’avis 10</entry>
 <entry key="codelist|name|procedure-type-11">Type de procédure autorisé pour le sous-type d’avis 11</entry>

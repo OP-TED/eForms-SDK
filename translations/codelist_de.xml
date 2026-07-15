@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Liste der zulässigen Codes für die Unterart einer Bekanntmachung – Bekanntmachung des Typs CN Ideenwettbewerb Standard.</entry>
 <entry key="codelist|name|communication-justification">Diese Tabelle enthält die Begründung für die Beschränkung der Zugangsrechte zu Ressourcen im Zusammenhang mit dem öffentlichen Beschaffungswesen.</entry>
 <entry key="codelist|name|competition">Liste der zulässigen Codes für den Typ einer Bekanntmachung – Bekanntmachung des Typs Formular Wettbewerb</entry>
+<entry key="codelist|name|compl">Liste der zulässigen Untertypen-Codes für eine Vertragsabschluss-Benachrichtigungstyp</entry>
+<entry key="codelist|name|completion">Liste der zulässigen Typencodes für eine Abschlussformular-Typ</entry>
 <entry key="codelist|name|conditions">Codes für Bedingungen</entry>
+<entry key="codelist|name|consultation">Liste der zulässigen Typencodes für eine Konsultationsformular-Typ</entry>
 <entry key="codelist|name|cont-modif">Liste der zulässigen Codes für den Typ einer Bekanntmachung – Bekanntmachung des Typs Auftragsänderung</entry>
 <entry key="codelist|name|contract-detail">Diese Tabelle bietet einen Rahmen für die Darstellung von Daten im Zusammenhang mit der Auftragsvergabe.</entry>
 <entry key="codelist|name|contract-nature">Liste der Codes, die zur Angabe der wichtigsten und der zusätzlichen Merkmale eines Kaufs verwendet werden</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">Der FSR führt eine neue Reihe von Regeln ein, die es der Kommission ermöglichen, Verzerrungen durch ausländische Subventionen zu begegnen.</entry>
 <entry key="codelist|name|form-type">Diese Tabelle enthält die Codes und Werte, die für die auf TED veröffentlichten Formulartypen verwendet werden.</entry>
 <entry key="codelist|name|framework-agreement">Diese Tabelle enthält eine Liste von Codes zur Unterscheidung der verschiedenen Arten von Rahmenvereinbarungen im Rahmen eines Angebots.</entry>
+<entry key="codelist|name|fsr">Liste der Codes zur Angabe, ob die Verordnung über ausländische Subventionen gilt</entry>
 <entry key="codelist|name|gpp-criteria">Kriterien für ein umweltorientiertes öffentliches Beschaffungswesen</entry>
 <entry key="codelist|name|indicator">Liste der zulässigen Indikatorwerte für elektronische Formulare</entry>
 <entry key="codelist|name|innovative-acquisition">In dieser Tabelle sind die Codes und Werte für die Typen zu beschaffender innovativer Arbeiten, Lieferungen oder Dienstleistungen im Zusammenhang mit dem öffentlichen Beschaffungswesen aufgeführt.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Diese Tabelle bietet eine Liste von Codes und Werten, die zur Angabe der Ausnahme von der Anwendung der IPI-Maßnahme verwendet werden</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Diese Tabelle bietet eine Liste von Codes und Werten, die zur Angabe der angewandten IPI-Maßnahme verwendet werden</entry>
+<entry key="codelist|name|ipi-scope">Diese Tabelle enthält die Liste der Codes und Werte, die verwendet werden, um anzuzeigen, dass eine Vergabe in den Anwendungsbereich des Internationalen Beschaffungsinstruments fällt</entry>
 <entry key="codelist|name|irregularity-type">Diese Codeliste bezieht sich im Allgemeinen auf die in Abschnitt 2 des Anhangs des Beschlusses C(2019) 3452 der Kommission beschriebenen Arten von Unregelmäßigkeiten.</entry>
 <entry key="codelist|name|language">Liste der mit der internationalen Norm ISO 639 korrelierten dreistelligen Sprachencodes und der zusätzlichen Codes für einige Sprachen ohne eigenen ISO-Code.</entry>
 <entry key="codelist|name|lawful-country">Liste der Länder, für die eine Rechtsgrundlage für die Veröffentlichung im Supplement zum Amtsblatt der Europäischen Union besteht</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Liste der Codes zur Angabe, ob eine Sprachfassung einen gesetzlichen Status hat oder nicht.</entry>
 <entry key="codelist|name|main-activity">Verzeichnis der Codes für die Haupttätigkeiten der Beschaffer.</entry>
 <entry key="codelist|name|measurement-unit">Liste der Codes für die am häufigsten verwendete Maßeinheit im internationalen Handelsverkehr.</entry>
+<entry key="codelist|name|metric-type">Liste der Codes, die verwendet werden, um die Art der Metrik zu charakterisieren, die durch die angegebenen Zahlen abgedeckt wird</entry>
 <entry key="codelist|name|missing-info-submission">Diese Tabelle enthält eine Liste von Codes, aus denen hervorgeht, ob (vollständige oder teilweise) Angaben zum Bieter auch nach Ablauf der Einreichungsfrist ergänzt werden können.</entry>
 <entry key="codelist|name|modification-justification">In dieser Tabelle sind die Hauptgründe für die Änderung eines Auftrags im Bereich des öffentlichen Beschaffungswesens aufgeführt.</entry>
 <entry key="codelist|name|nda">Liste der Codes zur Angabe, ob eine Geheimhaltungsvereinbarung erforderlich ist.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Liste der Codes auf NUTS-3-Ebene für Slowenien</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Liste der Codes auf NUTS-3-Ebene für Schweden</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Liste der Codes auf NUTS-3-Ebene für die Türkei</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Liste der NUTS-3-Codes für die Ukraine</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Liste der NUTS-Codes der Ebene 3 für Kosovo</entry>
 <entry key="codelist|name|organisation-role">Diese Tabelle enthält eine Liste der verschiedenen Funktionen der Organisationen im Rahmen eines Vergabeverfahrens.</entry>
 <entry key="codelist|name|organisation-role-service">Liste möglicher Dienstleistungscodes für Beschaffungsdienstleister</entry>
 <entry key="codelist|name|other-place-service">Diese Tabelle gibt Aufschluss über die großen geopolitischen Bereiche, die mit dem Standort der Arbeiten und dem Erfüllungs- oder Lieferort im Zusammenhang mit dem öffentlichen Beschaffungswesen zusammenhängen.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Liste der zulässigen Codes für die Unterart einer Bekanntmachung – Bekanntmachung des Typs PIN verkürzte Frist.</entry>
 <entry key="codelist|name|pin-tran">Liste der zulässigen Codes für die Unterart einer Bekanntmachung – Bekanntmachung des Typs PIN Vertrag für öffentlichen Verkehrsdienst.</entry>
 <entry key="codelist|name|planning">Liste der zulässigen Codes für den Typ einer Bekanntmachung – Bekanntmachung des Typs Formular Planung</entry>
+<entry key="codelist|name|pmc">Liste der zulässigen Bekanntmachungs-Untertypcodes für eine Vor-Markt-Konsultations-Bekanntmachungsart</entry>
 <entry key="codelist|name|postcode-country">Liste der Ländercodes für Länder, die Postleitzahlen haben und deren Verwendung verlangen</entry>
 <entry key="codelist|name|procedure-type-10">Zulässige Verfahrensart für Bekanntmachung der Unterart 10</entry>
 <entry key="codelist|name|procedure-type-11">Zulässige Verfahrensart für Bekanntmachung der Unterart 11</entry>
@@ -244,9 +253,9 @@
 <entry key="codelist|name|review-type">Liste der Codes für die Kennung – Art des Antragstellers für die Nachprüfung</entry>
 <entry key="codelist|name|rewards-penalties">Liste der Codes für Preise und Strafgebühren im Zusammenhang mit einem öffentlichen Verkehrsdienst.</entry>
 <entry key="codelist|name|selection-criterion">Liste der Codes für die Angabe von Bedingungen, die für Bewertungszwecke relevant sind. Diese Codeliste ist eine Teilmenge der Codeliste „CriterionTaxonomy“ für die Einheitliche Europäische Eigenerklärung.</entry>
-<entry key="codelist|name|social-objective">Liste der Codes für Werte, die mit einem sozialen Ziel im Zusammenhang stehen, das durch die Spezifikationen, Vergabe-/Auswahlkriterien oder Bedingungen für die Auftragsausführung im Rahmen einer Ausschreibung gefördert wird.</entry>
+<entry key="codelist|name|social-objective">Liste der Codes für Werte, die mit einem sozialen Ziel im Zusammenhang stehen, das durch die Spezifikationen, Vergabe-/Eignungskriterien oder Bedingungen für die Auftragsausführung im Rahmen einer Ausschreibung gefördert wird.</entry>
 <entry key="codelist|name|social-service-cpv">Codes für soziale Dienste des CPV</entry>
-<entry key="codelist|name|strategic-procurement">Diese Tabelle enthält die Werte, die mit einem sozialen Ziel im Zusammenhang stehen, das durch die technischen Spezifikationen, Vergabekriterien, Auswahlkriterien oder Bedingungen für die Auftragsausführung im Rahmen einer Ausschreibung gefördert wird.</entry>
+<entry key="codelist|name|strategic-procurement">Diese Tabelle enthält die Werte, die mit einem sozialen Ziel im Zusammenhang stehen, das durch die technischen Spezifikationen, Vergabekriterien, Eignungskriterien oder Bedingungen für die Auftragsausführung im Rahmen einer Ausschreibung gefördert wird.</entry>
 <entry key="codelist|name|subco">Liste der zulässigen Codes für die Unterart einer Bekanntmachung – Bekanntmachung des Typs Vergabe von Unteraufträgen.</entry>
 <entry key="codelist|name|subcontracting-allowed">Liste der Codes zur Angabe, ob die Vergabe von Unteraufträgen erlaubt ist oder nicht.</entry>
 <entry key="codelist|name|subcontracting-indication">Diese Tabelle enthält die Liste der Codes und Werte, die verwendet werden, um Informationen über den Anteil von Teilen eines Auftrags, die durch Dritte übernommen werden, anzugeben. Der Anteil kann sich auf den Teil der Arbeiten, Dienstleistungen oder Lieferungen und/oder den Auftragsgegenstand beziehen, der an Unterauftragnehmer vergeben wird.</entry>

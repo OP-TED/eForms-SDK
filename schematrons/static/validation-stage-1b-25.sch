@@ -59,7 +59,7 @@
 		<assert id="ND-SettledContract-25" role="ERROR" diagnostics="ND-SettledContract" test="count(efac:SettledContract) &gt; 0">rule|text|ND-SettledContract-25</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = '25']">
-		<assert id="ND-NotAwardedReasonUnpublish-25" role="ERROR" diagnostics="ND-NotAwardedReasonUnpublish" test="count(efac:DecisionReason/efac:FieldsPrivacy) = 0">rule|text|ND-NotAwardedReasonUnpublish-25</assert>
+		<assert id="ND-DecisionReason-25" role="ERROR" diagnostics="ND-DecisionReason" test="count(efac:DecisionReason) = 0">rule|text|ND-DecisionReason-25</assert>
 		<assert id="ND-ReceivedSubmissions-25" role="ERROR" diagnostics="ND-ReceivedSubmissions" test="count(efac:ReceivedSubmissionsStatistics) = 0">rule|text|ND-ReceivedSubmissions-25</assert>
 		<assert id="ND-ReviewRequestsStatistics-25" role="ERROR" diagnostics="ND-ReviewRequestsStatistics" test="count(efac:AppealRequestsStatistics) = 0">rule|text|ND-ReviewRequestsStatistics-25</assert>
 		<assert id="ND-StrategicProcurementLotResult-25" role="ERROR" diagnostics="ND-StrategicProcurementLotResult" test="count(efac:StrategicProcurement) = 0">rule|text|ND-StrategicProcurementLotResult-25</assert>

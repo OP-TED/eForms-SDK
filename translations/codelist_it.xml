@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Elenco dei codici consentiti per il sottotipo di avviso o bando del tipo: avviso o bando di concorso di progettazione ordinario.</entry>
 <entry key="codelist|name|communication-justification">La tabella riporta la giustificazione per diritti di accesso limitato a risorse nel contesto degli appalti pubblici.</entry>
 <entry key="codelist|name|competition">Elenco dei codici consentiti per il sottotipo di avviso o bando del tipo: formulario di gara.</entry>
+<entry key="codelist|name|compl">Elenco dei codici di sottotipo di avviso consentiti per un tipo di avviso di completamento del contratto</entry>
+<entry key="codelist|name|completion">Elenco dei codici di tipo di avviso consentiti per un tipo di modulo di completamento</entry>
 <entry key="codelist|name|conditions">Codici delle condizioni</entry>
+<entry key="codelist|name|consultation">Elenco dei codici di tipo di avviso consentiti per un tipo di modulo di consultazione</entry>
 <entry key="codelist|name|cont-modif">Elenco dei codici consentiti per il sottotipo di avviso o bando del tipo: formulario di gara.</entry>
 <entry key="codelist|name|contract-detail">La tabella fornisce un quadro per rappresentare i dati relativi agli appalti.</entry>
 <entry key="codelist|name|contract-nature">Elenco dei codici utilizzati per specificare la natura principale e la natura supplementare dell'oggetto dell'appalto</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">L'FSR introduce un nuovo insieme di regole che consente alla Commissione di affrontare le distorsioni causate dai sussidi esteri.</entry>
 <entry key="codelist|name|form-type">La tabella riporta i codici e i valori utilizzati per il tipo di moduli pubblicati su TED.</entry>
 <entry key="codelist|name|framework-agreement">La tabella fornisce l'elenco dei codici per distinguere i diversi tipi di accordo quadro previsti nell'ambito di un'offerta.</entry>
+<entry key="codelist|name|fsr">Elenco dei codici per specificare se si applica il regolamento sui sussidi esteri</entry>
 <entry key="codelist|name|gpp-criteria">Criteri degli appalti pubblici verdi</entry>
 <entry key="codelist|name|indicator">Elenco dei valori degli indicatori consentiti nei formulari elettronici</entry>
 <entry key="codelist|name|innovative-acquisition">La tabella fornisce codici e valori usati per lavori, forniture o servizi di tipo innovativo acquistati nell'ambito di un appalto pubblico.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Questa tabella fornisce l'elenco dei codici e dei valori utilizzati per specificare l'eccezione all'applicazione della misura IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Questa tabella fornisce l'elenco dei codici e dei valori utilizzati per specificare la misura IPI applicata</entry>
+<entry key="codelist|name|ipi-scope">Questa tabella fornisce l'elenco dei codici e dei valori utilizzati per indicare che un appalto rientra nell'ambito di applicazione dello Strumento Internazionale per gli Appalti</entry>
 <entry key="codelist|name|irregularity-type">L'elenco di codici si riferisce in generale ai tipi di irregolarità descritti nella sezione 2 dell'allegato della decisione C(2019) 3452 della Commissione.</entry>
 <entry key="codelist|name|language">Elenco dei codici a tre caratteri delle lingue, correlati alla norma internazionale ISO 639, con codici aggiuntivi per alcune lingue senza codice ISO assegnato.</entry>
 <entry key="codelist|name|lawful-country">Elenco dei paesi per i quali esiste una base giuridica per la pubblicazione nel supplemento della Gazzetta ufficiale dell'Unione europea</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Elenco dei codici per specificare se una versione linguistica ha status giuridico o meno.</entry>
 <entry key="codelist|name|main-activity">Elenco dei codici delle principali attività dei committenti.</entry>
 <entry key="codelist|name|measurement-unit">Elenco dei codici delle unità di misura più comunemente utilizzate negli scambi internazionali.</entry>
+<entry key="codelist|name|metric-type">Elenco dei codici utilizzati per caratterizzare il tipo di metrica coperta dai numeri specificati</entry>
 <entry key="codelist|name|missing-info-submission">La tabella fornisce l'elenco dei codici che indicano se le informazioni relative all'offerente (complete o parziali) possono essere integrate anche dopo la scadenza del termine di presentazione.</entry>
 <entry key="codelist|name|modification-justification">La tabella illustra i motivi principali della modifica di un appalto nell'ambito degli appalti pubblici.</entry>
 <entry key="codelist|name|nda">Elenco dei codici per specificare se è richiesto o meno un accordo di non divulgazione.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Elenco dei codici del livello NUTS 3 per la Slovenia</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Elenco dei codici del livello NUTS 3 per la Svezia</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Elenco dei codici del livello NUTS 3 per la Turchia</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Elenco dei codici NUTS di livello 3 per l'Ucraina</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Elenco dei codici NUTS di livello 3 per il Kosovo</entry>
 <entry key="codelist|name|organisation-role">La tabella fornisce l'elenco delle diverse funzioni delle organizzazioni nell'ambito di una procedura di appalto.</entry>
 <entry key="codelist|name|organisation-role-service">Lista di codici dei servizi possibili dei prestatori di servizi in materia di appalti</entry>
 <entry key="codelist|name|other-place-service">La tabella fornisce le ampie aree geopolitiche collegate al luogo dei lavori nonché al luogo di esecuzione o di consegna nel contesto degli appalti pubblici.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Elenco dei codici consentiti per il sottotipo di avviso o bando del tipo: avviso di preinformazione o avviso periodico (PIN) usato per abbreviare il tempo limite.</entry>
 <entry key="codelist|name|pin-tran">Elenco dei codici consentiti per il sottotipo di avviso o bando del tipo: avviso di preinformazione o avviso periodico (PIN) per un bando di gara per il servizio di trasporto pubblico.</entry>
 <entry key="codelist|name|planning">Elenco dei codici consentiti per il sottotipo di avviso o bando del tipo: formulario di programmazione</entry>
+<entry key="codelist|name|pmc">Elenco dei codici sottotipo di avviso consentiti per un tipo di avviso di consultazione pre-mercato</entry>
 <entry key="codelist|name|postcode-country">Elenco dei codici dei paesi che richiedono l'uso di codici postali</entry>
 <entry key="codelist|name|procedure-type-10">Tipo di procedura consentita per sottotipo di avviso o bando 10</entry>
 <entry key="codelist|name|procedure-type-11">Tipo di procedura consentita per sottotipo di avviso o bando 11</entry>

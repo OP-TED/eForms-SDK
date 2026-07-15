@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Lista med koder för undertyper av meddelande som är tillåtna för meddelandetypen ”meddelande om upphandling eller koncession – standardsystem”.</entry>
 <entry key="codelist|name|communication-justification">Den här listan innehåller motiveringen för att begränsa tillträdesrättigheter till resurser på upphandlingsområdet.</entry>
 <entry key="codelist|name|competition">Lista med koder för meddelandetyper som är tillåtna för meddelande av typen ”formulär för konkurrensutsättning”</entry>
+<entry key="codelist|name|compl">Lista över tillåtna underrättelseunderkoder för en kontraktsavslutsunderrättelsetyp</entry>
+<entry key="codelist|name|completion">Lista över tillåtna underrättelsetypekoder för en avslutsformulärtyp</entry>
 <entry key="codelist|name|conditions">Koder för villkor</entry>
+<entry key="codelist|name|consultation">Lista över tillåtna underrättelsetypekoder för en konsultationsformulärtyp</entry>
 <entry key="codelist|name|cont-modif">Lista med koder för meddelandetyper som är tillåtna för meddelande av typen ”Formulär för ändring av kontrakt och ramavtal”</entry>
 <entry key="codelist|name|contract-detail">Tabellen innehåller en ram för att presentera data i samband med upphandling.</entry>
 <entry key="codelist|name|contract-nature">Lista med koder för att specificera det huvudsakliga upphandlingsslag och ytterligare upphandlingsslag för ett inköp</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR inför en ny uppsättning regler som gör det möjligt för kommissionen att hantera snedvridningar orsakade av utländska bidrag.</entry>
 <entry key="codelist|name|form-type">Den här tabellen innehåller koder och värden som används för typen av formulär som publiceras i TED.</entry>
 <entry key="codelist|name|framework-agreement">Den här tabellen innehåller listan med koder för att skilja mellan de olika typer av ramavtal som kan finnas inom en upphandling.</entry>
+<entry key="codelist|name|fsr">Förteckning över koder för att ange om förordningen om utländska subventioner är tillämplig</entry>
 <entry key="codelist|name|gpp-criteria">Kriterier för grön upphandling</entry>
 <entry key="codelist|name|indicator">Lista med indikatorvärden som är tillåtna i eforms</entry>
 <entry key="codelist|name|innovative-acquisition">Den här tabellen innehåller koder och värden som används för typen av innovativa byggentreprenader, varor eller tjänster som köps in genom offentlig upphandling.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Detta bord ger listan över koder och värden som används för att specificera undantaget från tillämpningen av IPI-åtgärden</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Detta bord ger listan över koder och värden som används för att specificera den tillämpade IPI-åtgärden</entry>
+<entry key="codelist|name|ipi-scope">Denna tabell tillhandahåller listan över koder och värden som används för att ange att en upphandling faller inom ramen för det internationella upphandlingsinstrumentet</entry>
 <entry key="codelist|name|irregularity-type">Den här kodlistan gäller allmänt de typer av oriktigheter som beskrivs i avsnitt 2 i bilagan till kommissionens beslut C(2019) 3452.</entry>
 <entry key="codelist|name|language">Lista med språkkoder med tre bokstäver enligt den internationella standarden ISO 639 och med ytterligare koder för några länder utan ISO-kod.</entry>
 <entry key="codelist|name|lawful-country">Lista med länder för vilka det finns en rättslig grund för offentliggörande i tillägget till Europeiska unionens officiella tidning</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Lista med koder för att specificera om en språkversion har rättslig status eller inte.</entry>
 <entry key="codelist|name|main-activity">Lista med koder för köparnas huvudverksamheter.</entry>
 <entry key="codelist|name|measurement-unit">Lista med koder för de mest använda måttenheterna i internationell handel.</entry>
+<entry key="codelist|name|metric-type">Lista över koder som används för att karakterisera typen av metrik som omfattas av de angivna siffrorna</entry>
 <entry key="codelist|name|missing-info-submission">Den här tabellen innehåller listan med koder som anger om informationen om anbudsgivare kan kompletteras (helt eller delvis), även efter att inlämningsfristen har löpt ut.</entry>
 <entry key="codelist|name|modification-justification">Den här tabellen innehåller de viktigaste skälen till att ändra ett kontrakt inom offentlig upphandling.</entry>
 <entry key="codelist|name|nda">Lista med koder för att specificera om ett sekretessavtal krävs.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Lista med Nutskoder för nivå 3 för Slovenien</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Lista med Nutskoder för nivå 3 för Sverige</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Lista med Nutskoder för nivå 3 för Turkiet</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Lista över NUTS-koder på nivå 3 för Ukraina</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Lista över NUTS-koder på nivå 3 för Kosovo</entry>
 <entry key="codelist|name|organisation-role">Den här tabellen innehåller en lista med olika funktioner som organisationer kan ha i ett upphandlingsförfarande.</entry>
 <entry key="codelist|name|organisation-role-service">Lista med möjliga tjänstekoder för upphandlingstjänsteleverantör</entry>
 <entry key="codelist|name|other-place-service">Den här tabellen innehåller omfattande geopolitiska områden med koppling till platsen för byggentreprenader och leveransplatsen inom offentlig upphandling.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Lista med koder för undertyper av meddelande som är tillåtna för meddelandetypen ”förhandsmeddelande som används för att minska tidsfristerna för mottagande av anbud”.</entry>
 <entry key="codelist|name|pin-tran">Lista med koder för undertyper av meddelande som är tillåtna för meddelandetypen ”förhandsmeddelande om kollektivtrafik”.</entry>
 <entry key="codelist|name|planning">Lista med koder för meddelandetyper som är tillåtna för formulärtypen ”formulär för planering”</entry>
+<entry key="codelist|name|pmc">Lista över tillåtna underrubrikskoder för ett förmarknadskonsultationsmeddelande</entry>
 <entry key="codelist|name|postcode-country">Lista med landskoder för länder som har postnummer och kräver att de används</entry>
 <entry key="codelist|name|procedure-type-10">Tillåtna förfarandetyper för meddelande av undertyp 10</entry>
 <entry key="codelist|name|procedure-type-11">Tillåtna förfarandetyper för meddelande av undertyp 11</entry>

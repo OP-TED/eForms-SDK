@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">De plaatsnaam (naam van stad, gemeente of dorp) van de plaats van uitvoering.</entry>
 <entry key="business-term|description|BT-514">Het land van het fysieke adres van de organisatie.</entry>
 <entry key="business-term|description|BT-5141">De landcode van de plaats van uitvoering.</entry>
-<entry key="business-term|description|BT-52">De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen.</entry>
+<entry key="business-term|description|BT-52">De procedure zal in opeenvolgende fasen plaatsvinden. Na de tweede fase kunnen in elke volgende fase enkele deelnemers worden geëlimineerd.</entry>
 <entry key="business-term|description|BT-53">De koper behoudt zich het recht voor (zonder verplichting) om extra aankopen te doen bij de contractant (tijdens de looptijd van de overeenkomst).</entry>
 <entry key="business-term|description|BT-531">De bijkomende aard van wat wordt aangekocht in aanvulling op de voornaamste aard (bv. diensten).</entry>
 <entry key="business-term|description|BT-536">De (vermoedelijke) datum waarop het contract, de raamovereenkomst, het dynamisch aankoopsysteem of de erkenningsregeling van start zal gaan.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Nadere inlichtingen over de geheimhoudingsovereenkomst.</entry>
 <entry key="business-term|description|BT-803">De datum en het tijdstip waarop de aankondiging door de eSender langs elektronische weg naar het Bureau voor publicaties van de Europese Unie is verzonden.</entry>
 <entry key="business-term|description|BT-805">De aanbestedingsprocedure maakt gebruik van op nationaal, Unie- of een ander niveau vastgestelde criteria voor groene overheidsopdrachten (selectiecriteria, technische specificaties, gunningscriteria en uitvoeringsclausules), indien van toepassing.</entry>
-<entry key="business-term|description|BT-806">Plaats waar de uitsluitingsgronden zijn beschreven, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument.</entry>
+<entry key="business-term|description|BT-806">Plaats waar de uitsluitingsgronden zijn beschreven, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument verzoek.</entry>
 <entry key="business-term|description|BT-809">Het selectiecriterium.</entry>
 <entry key="business-term|description|BT-810">Richtlijn (EU) 2023/1791 betreffende energie-efficiëntie (EED) is op deze aanbestedingsprocedure van toepassing.</entry>
 <entry key="business-term|description|BT-811">Keuze aan producten, werken en diensten die vallen onder de richtlijn energie-etikettering, onder de richtlijn inzake ecologisch ontwerp, onder de EU-criteria voor groene overheidsopdrachten en onder Verordening (EU) 2020/740. Voor de rapportage wordt ook rekening gehouden met gebouwen die onder de verplichting van artikel 7 van de richtlijn energie-efficiëntie vallen. Omdat de lijst twee niveaus heeft, wordt deze opgesplitst in a) de basis, bv.“Eco-label”, en b) het eigenlijke item, bv. “vaatwassers”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">De waarde van het energieverbruik in kWh/jaar voor producten waarvoor geen label bestaat, en energiebesparingen in kWh/jaar voor diensten, gebouwen of werken. Voor producten gelieve het jaarlijks energieverbruik van het product te rapporteren. Voor diensten, werken en gebouwen gelieve de jaarlijkse energiebesparingen te rapporteren.</entry>
 <entry key="business-term|description|BT-814">De waarde van de energiebesparingen in kWh/jaar voor producten, diensten, werken en gebouwen. Rapporteer de jaarlijkse energiebesparingen.</entry>
 <entry key="business-term|description|BT-815">De verstrekte of geraamde hoeveelheid. Vermeld voor producten het aantal producten. Vermeld voor gebouwen het bruikbare vloeroppervlak in vierkante meter. Voor werken of diensten zal de waarde meestal 1 zijn.</entry>
-<entry key="business-term|description|BT-821">Plaats waar de selectiecriteria zijn gedefinieerd, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument.</entry>
+<entry key="business-term|description|BT-821">Plaats waar de selectiecriteria zijn gedefinieerd, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument verzoek.</entry>
 <entry key="business-term|description|BT-88">De belangrijkste kenmerken van de procedure (bv. beschrijving van de afzonderlijke fase(n)) en informatie over de plaats waar de volledige regels voor de procedure te vinden zijn. Deze informatie moet worden verstrekt wanneer de procedure niet één van de procedures uit de richtlijnen inzake overheidsopdrachten is. Dit kan bijvoorbeeld het geval zijn voor concessies, voor sociale en andere specifieke diensten, en in geval van vrijwillige bekendmaking van aanbestedingsprocedures met een waarde onder de EU-drempelwaarden voor overheidsopdrachten.</entry>
 <entry key="business-term|description|BT-92">Er zal worden gebruikgemaakt van elektronische orderplaatsing.</entry>
 <entry key="business-term|description|BT-93">Er zal worden gebruikgemaakt van elektronische betaling.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Voor de berekening van de geraamde waarde van de concessie gebruikte methode</entry>
 <entry key="business-term|name|BT-165">Omvang van de ondernemer</entry>
 <entry key="business-term|name|BT-17">Elektronische indiening</entry>
-<entry key="business-term|name|BT-171">Plaats op de ranglijst van winnaars</entry>
+<entry key="business-term|name|BT-171">Rang van de inschrijving</entry>
 <entry key="business-term|name|BT-1711">De inschrijving is gerangschikt</entry>
 <entry key="business-term|name|BT-18">Adres voor indiening</entry>
 <entry key="business-term|name|BT-19">Rechtvaardiging waarom elektronische indiening niet mogelijk is</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Stad</entry>
 <entry key="business-term|name|BT-514">Land</entry>
 <entry key="business-term|name|BT-5141">Land</entry>
-<entry key="business-term|name|BT-52">De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen</entry>
+<entry key="business-term|name|BT-52">De procedure zal in opeenvolgende fasen plaatsvinden. Na de tweede fase kunnen in elke volgende fase enkele deelnemers worden geëlimineerd.</entry>
 <entry key="business-term|name|BT-53">Opties</entry>
 <entry key="business-term|name|BT-531">Aanvullende aard van het contract</entry>
 <entry key="business-term|name|BT-536">Begindatum</entry>

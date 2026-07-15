@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Suorituspaikan paikkakunta (kaupunki/kunta).</entry>
 <entry key="business-term|description|BT-514">Maa, jossa organisaation fyysinen osoite sijaitsee.</entry>
 <entry key="business-term|description|BT-5141">Suorituspaikan maa.</entry>
-<entry key="business-term|description|BT-52">Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia.</entry>
+<entry key="business-term|description|BT-52">Menettely tapahtuu peräkkäisissä vaiheissa. Toisen vaiheen jälkeen joitakin osallistujia voidaan poistaa jokaisessa seuraavassa vaiheessa.</entry>
 <entry key="business-term|description|BT-53">Ostaja varaa itselleen oikeuden (ei velvoitetta) lisähankintoihin toimeksisaajalta (niin kauan kuin sopimus on voimassa).</entry>
 <entry key="business-term|description|BT-531">Pääkategorian lisäksi tuleva hankinnan kategoria (esim. palvelut).</entry>
 <entry key="business-term|description|BT-536">Hankintasopimuksen, puitejärjestelyn, dynaamisen hankintajärjestelmän tai kelpuuttamisjärjestelmän (arvioitu) alkamispäivä.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Lisätietoja salassapitosopimuksesta.</entry>
 <entry key="business-term|description|BT-803">Päivämäärä ja kellonaika, jona eSender-käyttäjä lähetti ilmoituksen sähköisesti Euroopan unionin julkaisutoimistolle.</entry>
 <entry key="business-term|description|BT-805">Hankintamenettelyssä käytettävät kansallisella tai unionin tasolla taikka muulla tasolla vahvistetut ympäristöä säästäviä julkisia hankintoja koskevat kriteerit (valintakriteerit, tekniset eritelmät, myöntämisperusteet ja sopimuksen toteuttamista koskevat lausekkeet), mikäli sellaisia sovelletaan.</entry>
-<entry key="business-term|description|BT-806">Paikka, jossa poissulkemisperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD).</entry>
+<entry key="business-term|description|BT-806">Paikka, jossa poissulkemisperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD) pyyntö.</entry>
 <entry key="business-term|description|BT-809">Valintaperuste.</entry>
 <entry key="business-term|description|BT-810">Tähän hankintamenettelyyn sovelletaan energiatehokkuusdirektiiviä (EU) 2023/1791.</entry>
 <entry key="business-term|description|BT-811">Sellaisten tuotteiden, urakoiden ja palvelujen valinta, joihin sovelletaan energiamerkintädirektiiviä, ekosuunnitteludirektiiviä ja ympäristöä säästäviä julkisia hankintoja koskevia unionin kriteerejä tai asetusta 2020/740. Raportointitarkoituksia varten mukaan luetaan myös energiatehokkuusdirektiivin 7 artiklan mukaisen velvoitteen piiriin kuuluvat rakennukset. Koska luettelossa on kaksi tasoa, se on jaettu a) perusteeseen kuten ”ympäristömerkki” ja b) varsinaiseen asiakohtaan, kuten ”astianpesukoneet”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Energiankulutuksen arvo kWh/vuosi tuotteille, joille ei ole merkintää, ja energiansäästöt kWh/vuosi palveluille, rakennuksille tai töille. Ilmoita tuotteiden vuotuinen energiankulutus tuotteille. Ilmoita palvelujen, töiden ja rakennusten vuotuiset energiansäästöt.</entry>
 <entry key="business-term|description|BT-814">Energiansäästön arvo kilowattitunteina vuodessa tuotteiden, palvelujen, urakoiden ja rakennusten osalta. Ilmoittakaa vuotuiset energiansäästöt.</entry>
 <entry key="business-term|description|BT-815">Ilmoitettu tai arvioitu määrä. Tuotteiden osalta ilmoitetaan tuotteiden lukumäärä. Rakennusten osalta ilmoitetaan hyötypinta-ala neliömetreinä. Rakennustöiden tai palveluiden osalta arvo on yleensä 1.</entry>
-<entry key="business-term|description|BT-821">Paikka, jossa valintaperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD).</entry>
+<entry key="business-term|description|BT-821">Paikka, jossa valintaperusteet on kuvattu, esimerkiksi hankinta-asiakirjat, ilmoitus tai yhteinen eurooppalainen hankinta-asiakirja (ESPD) pyyntö.</entry>
 <entry key="business-term|description|BT-88">Menettelyn tärkeimmät piirteet (esim. kuvaus yksittäisistä vaiheista) ja tiedot siitä, missä menettelyn kaikki säännöt ovat saatavilla. Nämä tiedot on annettava silloin, kun menettely ei ole yksi hankintadirektiivissä mainituista. Tämä voi koskea esimerkiksi käyttöoikeussopimuksia, sosiaalipalveluja ja muita erityisiä palveluja sekä tapauksia, joissa hankintamenettelyt julkaistaan vapaaehtoispohjalta alle EU:n hankintojen kynnysarvojen.</entry>
 <entry key="business-term|description|BT-92">Tilaukset tehdään sähköisesti.</entry>
 <entry key="business-term|description|BT-93">Käytetäänkö sähköisiä maksuja.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Käyttöoikeuden ennakoidun arvon laskentamenetelmä</entry>
 <entry key="business-term|name|BT-165">Organisaation koko</entry>
 <entry key="business-term|name|BT-17">Tarjouksen/hakemuksen jättäminen sähköisesti</entry>
-<entry key="business-term|name|BT-171">Sijoitus voittajien luettelossa</entry>
+<entry key="business-term|name|BT-171">Tarjouksen sijoitus</entry>
 <entry key="business-term|name|BT-1711">Tarjouksen sijoitus on tiedossa</entry>
 <entry key="business-term|name|BT-18">Tarjouksen/hakemuksen toimitusosoite</entry>
 <entry key="business-term|name|BT-19">Perustelu sähköisen toimittamismahdollisuuden puuttumiselle</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Postitoimipaikka</entry>
 <entry key="business-term|name|BT-514">Maa</entry>
 <entry key="business-term|name|BT-5141">Maa</entry>
-<entry key="business-term|name|BT-52">Menettely etenee peräkkäisissä vaiheissa. Kussakin vaiheessa osa osallistujista voidaan karsia</entry>
+<entry key="business-term|name|BT-52">Menettely tapahtuu peräkkäisissä vaiheissa. Toisen vaiheen jälkeen joitakin osallistujia voidaan poistaa jokaisessa seuraavassa vaiheessa.</entry>
 <entry key="business-term|name|BT-53">Optiot</entry>
 <entry key="business-term|name|BT-531">Täydentävä hankintalaji</entry>
 <entry key="business-term|name|BT-536">Alkamispäivä</entry>

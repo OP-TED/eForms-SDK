@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Teate liigi „Üldine hanketeade – üldkord“ puhul lubatud teate alaliigi koodide loetelu.</entry>
 <entry key="codelist|name|communication-justification">Tabelis põhjendatakse ressurssidele juurdepääsuõiguste piiramist riigihangete kontekstis.</entry>
 <entry key="codelist|name|competition">Vormi liigi „Hange“ puhul lubatud teate liigi koodide loetelu</entry>
+<entry key="codelist|name|compl">Lubatud teavituse alamliikide koodide loetelu lepingu lõpetamise teavituse tüübi jaoks</entry>
+<entry key="codelist|name|completion">Lubatud teavituse tüüpide koodide loetelu lõpetamisvormi tüübi jaoks</entry>
 <entry key="codelist|name|conditions">Tingimuste koodid</entry>
+<entry key="codelist|name|consultation">Lubatud teavituse tüüpide koodide loetelu konsultatsioonivormi tüübi jaoks</entry>
 <entry key="codelist|name|cont-modif">Vormi liigi „Lepingu muutmine“ puhul lubatud teate liigi koodide loetelu</entry>
 <entry key="codelist|name|contract-detail">Tabelis on esitatud riigihangetega seotud andmete esitamise raamistik.</entry>
 <entry key="codelist|name|contract-nature">Loetelu koodidest, millega täpsustatakse hankemenetluse peamist ja täiendavat eset</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR tutvustab uut reeglite kogumit, mis võimaldab komisjonil käsitleda välisriikide toetuste põhjustatud moonutusi.</entry>
 <entry key="codelist|name|form-type">Tabelis on esitatud koodid ja väärtused, mida kasutatakse TEDis avaldatud vormide liikide puhul.</entry>
 <entry key="codelist|name|framework-agreement">Tabelis on esitatud loetelu koodidest, mis võimaldavad eristada pakkumusega seotud eri liiki raamlepinguid.</entry>
+<entry key="codelist|name|fsr">Väliskomisjonide määruse kohaldamise määramiseks kasutatavate koodide loend</entry>
 <entry key="codelist|name|gpp-criteria">ELi keskkonnahoidlike riigihangete kriteeriumid</entry>
 <entry key="codelist|name|indicator">Loetelu e-vormides lubatud näitajate väärtustest</entry>
 <entry key="codelist|name|innovative-acquisition">Tabelis on esitatud koodid ja väärtused, mida kasutatakse riigihangete raames teatavat liiki uuenduslike tööde, asjade ja teenuste ostmise puhul.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">See tabel annab nimekirja koodidest ja väärtustest, mida kasutatakse IPI-meetme kohaldamise erandi määramiseks</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">See tabel annab nimekirja koodidest ja väärtustest, mida kasutatakse kohaldatud IPI-meetme määramiseks</entry>
+<entry key="codelist|name|ipi-scope">Praegune tabel esitab loetelu koodidest ja väärtustest, mida kasutatakse näitamaks, et hange kuulub rahvusvahelise hangete instrumendi reguleerimisalasse</entry>
 <entry key="codelist|name|irregularity-type">See koodide loetelu viitab üldiselt komisjoni otsuse C(2019) 3452 lisa punktis 2 kirjeldatud rikkumiste liikidele.</entry>
 <entry key="codelist|name|language">Kolmekohaliste keelekoodide loetelu, mis on vastavuses rahvusvahelise standardiga ISO 639, ja mõne keele puhul täiendavad koodid, millele ei ole määratud ISO koodi.</entry>
 <entry key="codelist|name|lawful-country">Loetelu riikidest, mille kohta on olemas õiguslik alus avaldamiseks Euroopa Liidu Teataja kaasandes</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Loetelu koodidest, mis täpsustavad, kas keeleversioonil on õiguslik staatus või mitte.</entry>
 <entry key="codelist|name|main-activity">Hankijate põhitegevusalade koodide loetelu.</entry>
 <entry key="codelist|name|measurement-unit">Rahvusvahelises kaubanduses kõige sagedamini kasutatavate mõõtühikute koodide loetelu.</entry>
+<entry key="codelist|name|metric-type">Mõõdiku tüübi iseloomustamiseks kasutatud koodide loetelu, mida hõlmavad määratud numbrid</entry>
 <entry key="codelist|name|missing-info-submission">Tabelis on esitatud loetelu koodidest, mis näitavad, kas pakkujat käsitlevat (täielikku või osalist) teavet saab täiendada ka pärast esitamise tähtpäeva.</entry>
 <entry key="codelist|name|modification-justification">Tabelis on esitatud peamised põhjused, miks riigihangete valdkonna lepingut muudetakse.</entry>
 <entry key="codelist|name|nda">Loetelu koodidest, mis täpsustavad, kas konfidentsiaalsuskokkulepe on nõutud.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">NUTSi 3. tasandi koodide loetelu – Sloveenia</entry>
 <entry key="codelist|name|nuts-swe-lvl3">NUTSi 3. tasandi koodide loetelu – Rootsi</entry>
 <entry key="codelist|name|nuts-tur-lvl3">NUTSi 3. tasandi koodide loetelu – Türgi</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Ukraina 3. taseme NUTS-koodide loend</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Kosovo 3. taseme NUTS koodide loetelu</entry>
 <entry key="codelist|name|organisation-role">Tabelis on esitatud loetelu organisatsioonide erinevatest ülesannetest hankemenetluses.</entry>
 <entry key="codelist|name|organisation-role-service">Tugiteenuste osutajate võimalike teenusekoodide loetelu</entry>
 <entry key="codelist|name|other-place-service">Tabelis on esitatud laiad geopoliitilised valdkonnad, mis on seotud ehitustööde koha ning täitmise või tarne kohaga riigihangete kontekstis.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Teate liigi „Eelteade või perioodiline eelteade pakkumuste vastuvõtmise tähtaegade lühendamiseks“ puhul lubatud teate alaliigi koodide loetelu.</entry>
 <entry key="codelist|name|pin-tran">Teate liigi „Avaliku reisijateveoteenuse lepingu sõlmimise eelteade“ puhul lubatud teate alaliigi koodide loetelu.</entry>
 <entry key="codelist|name|planning">Vormi liigi „Kavandamine“ puhul lubatud teate liigi koodide loetelu.</entry>
+<entry key="codelist|name|pmc">Eelneva turukonsultatsiooni teate tüübi lubatud teatise alatüüpide loetelu</entry>
 <entry key="codelist|name|postcode-country">Riikide koodid riikide puhul, millel on sihtnumbrid ja mis nõuavad nende kasutamist</entry>
 <entry key="codelist|name|procedure-type-10">Teate alaliigi 10 puhul lubatud menetluse liik</entry>
 <entry key="codelist|name|procedure-type-11">Teate alaliigi 11 puhul lubatud menetluse liik</entry>

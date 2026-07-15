@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Maltese. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Bażi legali</entry>
-<entry key="auxiliary|text|BT-08">Ir-rwol tal-organizzazzjoni</entry>
-<entry key="auxiliary|text|BT-36">Tul ta’ żmien</entry>
 <entry key="auxiliary|text|accessibility">Kriterji ta’ aċċessibbiltà</entry>
 <entry key="auxiliary|text|adhoc-communication">Mezz ta’ komunikazzjoni ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Kriterji tal-għoti</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Xerrej</entry>
 <entry key="auxiliary|text|buyer-competent">Awtorità kompetenti</entry>
 <entry key="auxiliary|text|change">Bidla</entry>
-<entry key="auxiliary|text|change-notice">Avviż tal-bidla</entry>
 <entry key="auxiliary|text|company">Isem u indirizz tal-kumpanija/soċjetà</entry>
 <entry key="auxiliary|text|concession-value">Valur tal-konċessjoni</entry>
 <entry key="auxiliary|text|conditions-contract">Kundizzjonijiet relatati mal-kuntratt</entry>
 <entry key="auxiliary|text|conditions-participation">Kundizzjonijiet għall-parteċipazzjoni</entry>
 <entry key="auxiliary|text|contract-information">Informazzjoni dwar il-kuntratt</entry>
 <entry key="auxiliary|text|contract-terms">Termini tal-kuntratt</entry>
-<entry key="auxiliary|text|contractor-legal-form">Forma legali tal-kuntrattur</entry>
 <entry key="auxiliary|text|criterion">Kriterju</entry>
-<entry key="auxiliary|text|cross-border-description">Deskrizzjoni</entry>
 <entry key="auxiliary|text|cross-border-law">Liġi transfruntiera applikabbli</entry>
 <entry key="auxiliary|text|design-contest-terms">Termini tar-reġim tal-konkors tad-disinn</entry>
 <entry key="auxiliary|text|direct-award">Għoti dirett</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Valur stmat tal-ftehimiet qafas fi ħdan il-grupp ta’ lottijiet</entry>
 <entry key="auxiliary|text|group-of-lots">Grupp ta’ lottijiet</entry>
 <entry key="auxiliary|text|grouping">Isem il-grupp</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Informazzjoni dwar il-premji u l-penali</entry>
 <entry key="auxiliary|text|international-procurement-instrument">L-appalt ta' xiri jinsab fi ħdan l-Istrument Internazzjonali ta' Xiri (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Statistika dwar il-miżuri tal-Istrument Internazzjonali ta' Xiri (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Lingwi li bihom jistgħu jiġu sottomessi l-espressjonijiet ta’ interess</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Tip legali tal-awtorità kompetenti</entry>
 <entry key="auxiliary|text|lot">Lott</entry>
 <entry key="auxiliary|text|modification">Modifika</entry>
-<entry key="auxiliary|text|name">Isem</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">L-ismijiet uffiċjali tan-non-leaders tal-parti li qed tagħmel l-offerta</entry>
 <entry key="auxiliary|text|non-winning-tender">Offerenti mhux rebbieħa</entry>
 <entry key="auxiliary|text|notice-information">Informazzjoni dwar l-avviż</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Organizzazzjoni li l-baġit tagħha jintuża għall-pagament tal-kuntratt</entry>
 <entry key="auxiliary|text|organisation-mediation">Organizzazzjoni tal-medjazzjoni</entry>
 <entry key="auxiliary|text|organisation-paying">Organizzazzjoni li twettaq il-pagament</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Organizzazzjoni li tipproċessa t-talbiet għall-parteċipazzjoni</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organizzazzjoni li tipproċessa l-offerti</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Organizzazzjoni li tipprovdi aċċess offline għad-dokumenti tal-akkwist</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għall-protezzjoni tal-impjiegi u għall-kundizzjonijiet tax-xogħol applikabbli fil-post fejn irid jitwettaq il-kuntratt</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Organizzazzjoni li tipprovdi iktar informazzjoni dwar proċeduri tar-rieżami</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għat-taxxi applikabbli fil-post fejn irid jitwettaq il-kuntratt</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Fornitur ta’ servizzi tal-akkwist</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Organizzazzjoni li tirċievi l-offerti</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Organizzazzjoni (jew persuna) li titlob għal rieżami, li jkollha jew kellha interess f’kuntratt, u li ġarrbet jew qed tissogra li ġġarrab danni minħabba ksur allegat</entry>
 <entry key="auxiliary|text|organisation-review">Organizzazzjoni tar-rieżami</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Organizzazzjoni li tipprovdi iktar informazzjoni dwar il-limiti ta’ żmien għall-proċeduri tar-rieżami</entry>
-<entry key="auxiliary|text|organisation-roles">Rwoli tal-organizzazzjonijiet</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organizzazzjoni li tiffirma l-kuntratt</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Sottokuntrattur</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Organizzazzjoni li tirċievi t-talbiet għall-parteċipazzjoni</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Termini tal-akkwist</entry>
 <entry key="auxiliary|text|public-opening">Informazzjoni dwar il-ftuħ pubbliku</entry>
 <entry key="auxiliary|text|publication-gazette">Pubblikazzjoni fil-gazzetta uffiċjali</entry>
-<entry key="auxiliary|text|publication-information">Informazzjoni dwar il-pubblikazzjoni</entry>
 <entry key="auxiliary|text|purpose">Għan</entry>
 <entry key="auxiliary|text|quality-targets">Miri ta’ kwalità</entry>
 <entry key="auxiliary|text|range-tenders">Firxa ta’ offerti</entry>
 <entry key="auxiliary|text|received-submissions">Offerti jew talbiet riċevuti għall-parteċipazzjoni</entry>
 <entry key="auxiliary|text|renewal">Tiġdid</entry>
 <entry key="auxiliary|text|results">Riżultati</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Riżultat tal-proċedura ta’ akkwist</entry>
 <entry key="auxiliary|text|review">Rieżami</entry>
 <entry key="auxiliary|text|review-request-withdrawn">It-talba għar-reviżjoni jew għal miżuri provviżorji ġiet ritirata</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Tip ta’ irregolarità allegata</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Termini tas-sottomissjoni</entry>
 <entry key="auxiliary|text|techniques">Tekniki</entry>
 <entry key="auxiliary|text|tender">Offerta</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Subappaltaturi tal-offerent</entry>
 <entry key="auxiliary|text|unpublished">imneħħi mill-pubblikazzjoni</entry>
 <entry key="auxiliary|text|value">Valur</entry>
 <entry key="auxiliary|text|winner">Rebbieħ</entry>
 <entry key="auxiliary|text|winner-info">Informazzjoni dwar ir-rebbieħa</entry>
 <entry key="auxiliary|text|winner-lots">Rebbieħ ta’ dawn il-lottijiet</entry>
-<entry key="auxiliary|text|winner-subcontractor">Sottokuntratturi tar-rebbieħ</entry>
 </properties>

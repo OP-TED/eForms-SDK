@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Irish. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Bunús dlí</entry>
-<entry key="auxiliary|text|BT-08">Ról na heagraíochta</entry>
-<entry key="auxiliary|text|BT-36">Fad</entry>
 <entry key="auxiliary|text|accessibility">Critéir inrochtaineachta</entry>
 <entry key="auxiliary|text|adhoc-communication">Cainéal cumarsáide ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Critéir dhámhachtana</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Ceannaitheoir</entry>
 <entry key="auxiliary|text|buyer-competent">Údarás inniúil</entry>
 <entry key="auxiliary|text|change">Athraigh</entry>
-<entry key="auxiliary|text|change-notice">Fógra maidir le hathrú</entry>
 <entry key="auxiliary|text|company">Ainm agus seoladh na cuideachta/an chumainn</entry>
 <entry key="auxiliary|text|concession-value">Luach lamháltais</entry>
 <entry key="auxiliary|text|conditions-contract">Coinníollacha a bhaineann leis an gconradh</entry>
 <entry key="auxiliary|text|conditions-participation">Coinníollacha maidir le rannpháirtíocht</entry>
 <entry key="auxiliary|text|contract-information">Eolas faoin gconradh</entry>
 <entry key="auxiliary|text|contract-terms">Téarmaí an chonartha</entry>
-<entry key="auxiliary|text|contractor-legal-form">Foirm dhlíthiúil an chonraitheora</entry>
 <entry key="auxiliary|text|criterion">Critéar</entry>
-<entry key="auxiliary|text|cross-border-description">Cur síos</entry>
 <entry key="auxiliary|text|cross-border-law">An dlí trasteorann is infheidhme</entry>
 <entry key="auxiliary|text|design-contest-terms">Téarmaí chóras na gcomórtas dearaidh</entry>
 <entry key="auxiliary|text|direct-award">Dámhachtain dhíreach</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Luach measta na gcreat-chomhaontuithe sa ghrúpa luchtóg</entry>
 <entry key="auxiliary|text|group-of-lots">Grúpa luchtóg</entry>
 <entry key="auxiliary|text|grouping">Ainm na grúpála</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Eolas maidir le luaíochtaí agus pionóis</entry>
 <entry key="auxiliary|text|international-procurement-instrument">Tá an tairiscint laistigh de raon feidhm an Uirlis Idirnáisiúnta Soláthair (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Staitisticí faoi bhearta an Uirlis Idirnáisiúnta Soláthair (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Na teangacha inar féidir na léirithe spéise a chur isteach</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Cineál dlíthiúil an údaráis inniúil</entry>
 <entry key="auxiliary|text|lot">Luchtóg</entry>
 <entry key="auxiliary|text|modification">Modhnú</entry>
-<entry key="auxiliary|text|name">Ainm</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Ainmneacha oifigiúla neamhcheannairí an pháirtí tairisceana</entry>
 <entry key="auxiliary|text|non-winning-tender">Tairgeoirí nár bhuaigh</entry>
 <entry key="auxiliary|text|notice-information">Eolas faoin bhfógra</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Eagraíocht a n-úsáidtear a buiséad chun íoc as an gconradh</entry>
 <entry key="auxiliary|text|organisation-mediation">Eagraíocht idirghabhála</entry>
 <entry key="auxiliary|text|organisation-paying">Eagraíocht a dhéanann an íocaíocht</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Eagraíocht a phróiseálann iarratais ar rannpháirtíocht</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Eagraíocht a phróiseálann tairiscintí</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Eagraíocht a sholáthraíonn rochtain as líne ar na doiciméid soláthair</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta don chosaint fostaíochta agus do dhálaí oibre is infheidhme san áit ina bhfuil an conradh le cur i gcrích</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Eagraíocht a sholáthraíonn tuilleadh faisnéise faoi na nósanna imeachta athbhreithnithe</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do na cánacha is infheidhme san áit ina bhfuil an conradh le cur i gcrích</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Soláthraí seirbhísí an tsoláthair</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Eagraíocht a fhaigheann tairiscintí</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Eagraíocht (nó duine) a iarrann athbhreithniú a bhfuil nó a raibh leas acu i gconradh agus ar ndearnadh díobháil dóibh nó a bhfuil riosca ann go ndéanfaí díobháil dóibh mar gheall ar shárú líomhnaithe</entry>
 <entry key="auxiliary|text|organisation-review">Eagraíocht athbhreithniúcháin</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Eagraíocht a sholáthraíonn tuilleadh faisnéise faoi na teorainneacha ama a bhaineann le nósanna imeachta athbhreithnithe</entry>
-<entry key="auxiliary|text|organisation-roles">Róil na n-eagraíochtaí</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Eagraíocht atá ag síniú an chonartha</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Fochonraitheoir</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Eagraíocht a fhaigheann iarratais ar rannpháirtíocht</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Téarmaí soláthair</entry>
 <entry key="auxiliary|text|public-opening">Eolas faoi oscailt phoiblí</entry>
 <entry key="auxiliary|text|publication-gazette">Foilsiú san iris oifigiúil</entry>
-<entry key="auxiliary|text|publication-information">Eolas faoin bhfoilsiú</entry>
 <entry key="auxiliary|text|purpose">Cuspóir</entry>
 <entry key="auxiliary|text|quality-targets">Spriocanna cáilíochta</entry>
 <entry key="auxiliary|text|range-tenders">Raon na dtairiscintí</entry>
 <entry key="auxiliary|text|received-submissions">Na tairiscintí nó iarrataí ar rannpháirtíocht a fuarthas</entry>
 <entry key="auxiliary|text|renewal">Athnuachan</entry>
 <entry key="auxiliary|text|results">Torthaí</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Toradh an nóis imeachta soláthair</entry>
 <entry key="auxiliary|text|review">Athbhreithniú</entry>
 <entry key="auxiliary|text|review-request-withdrawn">Tarraingíodh an t-iarratas ar athbhreithniú nó ar bhearta idirthréimhseacha</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Cineál na neamhrialtachta líomhnaithe</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Téarmaí na haighneachta</entry>
 <entry key="auxiliary|text|techniques">Teicnící</entry>
 <entry key="auxiliary|text|tender">Tairiscint</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Fochonraitheoirí an tairgeora</entry>
 <entry key="auxiliary|text|unpublished">neamhfhoilsithe</entry>
 <entry key="auxiliary|text|value">Luach</entry>
 <entry key="auxiliary|text|winner">Buaiteoir12</entry>
 <entry key="auxiliary|text|winner-info">Eolas faoi bhuaiteoirí</entry>
 <entry key="auxiliary|text|winner-lots">Buaiteoir na mbeart seo</entry>
-<entry key="auxiliary|text|winner-subcontractor">Fochonraitheoirí an bhuaiteora</entry>
 </properties>

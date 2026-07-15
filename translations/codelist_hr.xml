@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Popis dopuštenih podoznaka za vrstu obavijesti o nadmetanju – standardni projektni natječaji.</entry>
 <entry key="codelist|name|communication-justification">U ovoj tablici navodi se obrazloženje ograničavanja prava pristupa resursima u kontekstu javne nabave.</entry>
 <entry key="codelist|name|competition">Popis dopuštenih oznaka za vrstu obavijesti o vrsti natječaja.</entry>
+<entry key="codelist|name|compl">Popis dopuštenih kodova podvrsta obavijesti za vrstu obavijesti o završetku ugovora</entry>
+<entry key="codelist|name|completion">Popis dopuštenih kodova tipova obavijesti za tip obrasca za završetak</entry>
 <entry key="codelist|name|conditions">Oznake uvjeta</entry>
+<entry key="codelist|name|consultation">Popis dopuštenih kodova tipova obavijesti za tip obrasca za savjetovanje</entry>
 <entry key="codelist|name|cont-modif">Popis dopuštenih oznaka za vrstu obavijesti o izmjeni ugovora.</entry>
 <entry key="codelist|name|contract-detail">Ova tablica je okvir za prikaz podataka koji se odnose na javnu nabavu.</entry>
 <entry key="codelist|name|contract-nature">Popis oznaka na temelju kojih se određuju glavne i dodatne prirode kupnje</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR uvodi novi skup pravila koja omogućavaju Komisiji da se bavi iskrivljenjima uzrokovanim stranim subvencijama.</entry>
 <entry key="codelist|name|form-type">U ovoj tablici navedene su oznake i vrijednosti za vrstu obrazaca koje se objavljuju na TED-u.</entry>
 <entry key="codelist|name|framework-agreement">U ovoj tablici nalazi se popis oznaka za razlikovanje vrsta okvirnih sporazuma u natječaju.</entry>
+<entry key="codelist|name|fsr">Lista kodova za određivanje primjenjuje li se Uredba o stranim subvencijama</entry>
 <entry key="codelist|name|gpp-criteria">Kriteriji za zelenu javnu nabavu</entry>
 <entry key="codelist|name|indicator">Popis vrijednosti pokazatelja dopuštenih u e-obrascima</entry>
 <entry key="codelist|name|innovative-acquisition">U ovoj tablici navedene su oznake i vrijednosti za vrstu inovativnih radova, robe ili usluga u kontekstu javne nabave.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Ova tablica pruža popis kodova i vrijednosti koji se koriste za određivanje iznimke od primjene mjere IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Ova tablica pruža popis kodova i vrijednosti koji se koriste za određivanje primijenjene mjere IPI</entry>
+<entry key="codelist|name|ipi-scope">Ova tablica pruža popis šifri i vrijednosti koje se koriste za označavanje da nabava spada u područje primjene Međunarodnog instrumenta za nabavu</entry>
 <entry key="codelist|name|irregularity-type">Ovaj popis oznaka općenito se odnosi na vrste nepravilnosti opisane u odjeljku 2. Priloga Odluci Komisije C(2019) 3452.</entry>
 <entry key="codelist|name|language">Popis troslovnih oznaka jezika iz međunarodne norme ISO 639 proširen dodatnim oznakama nekih jezika koji nemaju ISO oznaku.</entry>
 <entry key="codelist|name|lawful-country">Popis zemalja za koje postoji pravna osnova za objavu u Dodatku Službenom listu Europske unije</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Popis oznaka na temelju kojih se određuje ima li jezična verzija pravni status.</entry>
 <entry key="codelist|name|main-activity">Popis oznaka glavnih djelatnosti kupaca.</entry>
 <entry key="codelist|name|measurement-unit">Popis oznaka najčešće korištenih mjernih jedinica u međunarodnoj trgovini.</entry>
+<entry key="codelist|name|metric-type">Popis šifri korištenih za karakterizaciju vrste metrike obuhvaćene navedenim brojevima</entry>
 <entry key="codelist|name|missing-info-submission">U ovoj tablici nalazi se popis oznaka na temelju kojih se određuje mogu li se informacije povezane s ponuditeljem (potpune ili djelomične) dopuniti i nakon roka za podnošenje ponuda.</entry>
 <entry key="codelist|name|modification-justification">U ovoj tablici navedeni su glavni razlozi za izmjenu ugovora u području javne nabave.</entry>
 <entry key="codelist|name|nda">Popis oznaka na temelju kojih se određuje je li potreban sporazum o povjerljivosti podataka.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Popis oznaka NUTS razine 3 za Sloveniju</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Popis oznaka NUTS razine 3 za Švedsku</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Popis oznaka NUTS razine 3 za Tursku</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Popis NUTS kodova razine 3 za Ukrajinu</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Popis šifri NUTS razine 3 za Kosovo</entry>
 <entry key="codelist|name|organisation-role">U ovoj tablici nalazi se popis funkcija organizacija u postupku javne nabave.</entry>
 <entry key="codelist|name|organisation-role-service">Popis mogućih oznaka usluga za pružatelje usluga javne nabave</entry>
 <entry key="codelist|name|other-place-service">Ovo je tablica velikih geopolitičkih područja povezanih s lokacijom radova i mjestom izvođenja ili isporuke u kontekstu javne nabave.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Popis dopuštenih podoznaka za vrstu obavijesti PIN – skraćen rok.</entry>
 <entry key="codelist|name|pin-tran">Popis dopuštenih podoznaka za vrstu obavijesti PIN – ugovor o uslugama javnog prijevoza.</entry>
 <entry key="codelist|name|planning">Popis dopuštenih oznaka za vrstu obavijesti o planiranju.</entry>
+<entry key="codelist|name|pmc">Popis dopuštenih kodova podtipa obavijesti za vrstu obavijesti o prethodnoj tržišnoj konzultaciji</entry>
 <entry key="codelist|name|postcode-country">Popis oznaka zemalja koje imaju poštanske oznake i propisuju njihovo korištenje</entry>
 <entry key="codelist|name|procedure-type-10">Dopuštena vrsta postupka za podvrstu obavijesti 10</entry>
 <entry key="codelist|name|procedure-type-11">Dopuštena vrsta postupka za podvrstu obavijesti 11</entry>

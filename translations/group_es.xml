@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Organización que tramita ofertas</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Organización que recibe ofertas</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Validez de la oferta</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Información sobre la presentación tardía</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Información para el licitador</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Condiciones de la licitación</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Información de la Directiva de Vehículos Limpios</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Tipo de contrato de la Directiva de Vehículos Limpios</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Tipo de procedimiento</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Detalles del tipo de procedimiento</entry>
 <entry key="group|name|GR-Procedure-Purpose">Finalidad</entry>
-<entry key="group|name|GR-Procedure-SProvider">Prestador del servicio</entry>
+<entry key="group|name|GR-Procedure-SProvider">Proveedor de servicios de contratación pública</entry>
 <entry key="group|name|GR-Procedure-Scope">Ámbito de la contratación</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Clasificación adicional</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Clasificación principal</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Ingresos estimados procedentes de los usuarios de la concesión (publicados más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Método utilizado para calcular el valor estimado de la concesión (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Descripción del valor de la concesión (publicada más tarde)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Clasificación en la lista de ganadores (publicada más tarde)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Clasificación de la oferta (publicada más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Clasificación de la oferta (publicada más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">País de origen del producto o servicio (publicado más tarde)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">La oferta es una variante (publicada más tarde)</entry>
