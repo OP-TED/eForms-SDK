@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Организация, която обработва офертите</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Организация, която получава офертите</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Валидност на офертата</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Информация за закъсняло подаване</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Информация за оферента</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Тръжни условия</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Информация за Директивата за чистите превозни средства</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Тип договор съгласно Директивата за чистите превозни средства</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Вид процедура</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Детайли за типа процедура</entry>
 <entry key="group|name|GR-Procedure-Purpose">Цел</entry>
-<entry key="group|name|GR-Procedure-SProvider">Доставчик на услуги</entry>
+<entry key="group|name|GR-Procedure-SProvider">Доставчик на услуги в областта на обществените поръчки</entry>
 <entry key="group|name|GR-Procedure-Scope">Обхват на поръчката</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Допълнителна класификация</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Основна класификация</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Прогнозни приходи от ползвателите на концесията (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Метод за изчисление на прогнозната стойност на концесията (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Описание на стойността на концесията (по-късно публикуване)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Място на класиране в списъка на победителите (по-късно публикуване)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Място на офертата в класирането (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Място на офертата в класирането (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Държава на произход на стоката или услугата (по-късно публикуване)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Офертата е вариант (по-късно публикуване)</entry>

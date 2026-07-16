@@ -1,5 +1,125 @@
 {
   "files" : [ {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "bg",
+    "threeLetterCode" : "bul",
+    "filename" : "auxiliary_bg.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "cs",
+    "threeLetterCode" : "ces",
+    "filename" : "auxiliary_cs.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "da",
+    "threeLetterCode" : "dan",
+    "filename" : "auxiliary_da.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "de",
+    "threeLetterCode" : "deu",
+    "filename" : "auxiliary_de.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "el",
+    "threeLetterCode" : "ell",
+    "filename" : "auxiliary_el.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "en",
+    "threeLetterCode" : "eng",
+    "filename" : "auxiliary_en.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "es",
+    "threeLetterCode" : "spa",
+    "filename" : "auxiliary_es.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "et",
+    "threeLetterCode" : "est",
+    "filename" : "auxiliary_et.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "fi",
+    "threeLetterCode" : "fin",
+    "filename" : "auxiliary_fi.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "fr",
+    "threeLetterCode" : "fra",
+    "filename" : "auxiliary_fr.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "ga",
+    "threeLetterCode" : "gle",
+    "filename" : "auxiliary_ga.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "hr",
+    "threeLetterCode" : "hrv",
+    "filename" : "auxiliary_hr.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "hu",
+    "threeLetterCode" : "hun",
+    "filename" : "auxiliary_hu.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "it",
+    "threeLetterCode" : "ita",
+    "filename" : "auxiliary_it.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "lt",
+    "threeLetterCode" : "lit",
+    "filename" : "auxiliary_lt.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "lv",
+    "threeLetterCode" : "lav",
+    "filename" : "auxiliary_lv.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "mt",
+    "threeLetterCode" : "mlt",
+    "filename" : "auxiliary_mt.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "nl",
+    "threeLetterCode" : "nld",
+    "filename" : "auxiliary_nl.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "pl",
+    "threeLetterCode" : "pol",
+    "filename" : "auxiliary_pl.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "pt",
+    "threeLetterCode" : "por",
+    "filename" : "auxiliary_pt.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "ro",
+    "threeLetterCode" : "ron",
+    "filename" : "auxiliary_ro.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "sk",
+    "threeLetterCode" : "slk",
+    "filename" : "auxiliary_sk.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "sl",
+    "threeLetterCode" : "slv",
+    "filename" : "auxiliary_sl.xml"
+  }, {
+    "assetType" : "auxiliary",
+    "twoLetterCode" : "sv",
+    "threeLetterCode" : "swe",
+    "filename" : "auxiliary_sv.xml"
+  }, {
     "assetType" : "business-entity",
     "twoLetterCode" : "bg",
     "threeLetterCode" : "bul",
@@ -239,6 +359,366 @@
     "twoLetterCode" : "sv",
     "threeLetterCode" : "swe",
     "filename" : "business-term_sv.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "bg",
+    "threeLetterCode" : "bul",
+    "filename" : "code_bg.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "cs",
+    "threeLetterCode" : "ces",
+    "filename" : "code_cs.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "da",
+    "threeLetterCode" : "dan",
+    "filename" : "code_da.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "de",
+    "threeLetterCode" : "deu",
+    "filename" : "code_de.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "el",
+    "threeLetterCode" : "ell",
+    "filename" : "code_el.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "en",
+    "threeLetterCode" : "eng",
+    "filename" : "code_en.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "es",
+    "threeLetterCode" : "spa",
+    "filename" : "code_es.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "et",
+    "threeLetterCode" : "est",
+    "filename" : "code_et.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "fi",
+    "threeLetterCode" : "fin",
+    "filename" : "code_fi.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "fr",
+    "threeLetterCode" : "fra",
+    "filename" : "code_fr.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "ga",
+    "threeLetterCode" : "gle",
+    "filename" : "code_ga.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "hr",
+    "threeLetterCode" : "hrv",
+    "filename" : "code_hr.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "hu",
+    "threeLetterCode" : "hun",
+    "filename" : "code_hu.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "it",
+    "threeLetterCode" : "ita",
+    "filename" : "code_it.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "lt",
+    "threeLetterCode" : "lit",
+    "filename" : "code_lt.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "lv",
+    "threeLetterCode" : "lav",
+    "filename" : "code_lv.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "mt",
+    "threeLetterCode" : "mlt",
+    "filename" : "code_mt.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "nl",
+    "threeLetterCode" : "nld",
+    "filename" : "code_nl.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "pl",
+    "threeLetterCode" : "pol",
+    "filename" : "code_pl.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "pt",
+    "threeLetterCode" : "por",
+    "filename" : "code_pt.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "ro",
+    "threeLetterCode" : "ron",
+    "filename" : "code_ro.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "sk",
+    "threeLetterCode" : "slk",
+    "filename" : "code_sk.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "sl",
+    "threeLetterCode" : "slv",
+    "filename" : "code_sl.xml"
+  }, {
+    "assetType" : "code",
+    "twoLetterCode" : "sv",
+    "threeLetterCode" : "swe",
+    "filename" : "code_sv.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "bg",
+    "threeLetterCode" : "bul",
+    "filename" : "codelist_bg.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "cs",
+    "threeLetterCode" : "ces",
+    "filename" : "codelist_cs.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "da",
+    "threeLetterCode" : "dan",
+    "filename" : "codelist_da.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "de",
+    "threeLetterCode" : "deu",
+    "filename" : "codelist_de.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "el",
+    "threeLetterCode" : "ell",
+    "filename" : "codelist_el.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "en",
+    "threeLetterCode" : "eng",
+    "filename" : "codelist_en.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "es",
+    "threeLetterCode" : "spa",
+    "filename" : "codelist_es.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "et",
+    "threeLetterCode" : "est",
+    "filename" : "codelist_et.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "fi",
+    "threeLetterCode" : "fin",
+    "filename" : "codelist_fi.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "fr",
+    "threeLetterCode" : "fra",
+    "filename" : "codelist_fr.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "ga",
+    "threeLetterCode" : "gle",
+    "filename" : "codelist_ga.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "hr",
+    "threeLetterCode" : "hrv",
+    "filename" : "codelist_hr.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "hu",
+    "threeLetterCode" : "hun",
+    "filename" : "codelist_hu.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "it",
+    "threeLetterCode" : "ita",
+    "filename" : "codelist_it.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "lt",
+    "threeLetterCode" : "lit",
+    "filename" : "codelist_lt.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "lv",
+    "threeLetterCode" : "lav",
+    "filename" : "codelist_lv.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "mt",
+    "threeLetterCode" : "mlt",
+    "filename" : "codelist_mt.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "nl",
+    "threeLetterCode" : "nld",
+    "filename" : "codelist_nl.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "pl",
+    "threeLetterCode" : "pol",
+    "filename" : "codelist_pl.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "pt",
+    "threeLetterCode" : "por",
+    "filename" : "codelist_pt.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "ro",
+    "threeLetterCode" : "ron",
+    "filename" : "codelist_ro.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "sk",
+    "threeLetterCode" : "slk",
+    "filename" : "codelist_sk.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "sl",
+    "threeLetterCode" : "slv",
+    "filename" : "codelist_sl.xml"
+  }, {
+    "assetType" : "codelist",
+    "twoLetterCode" : "sv",
+    "threeLetterCode" : "swe",
+    "filename" : "codelist_sv.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "bg",
+    "threeLetterCode" : "bul",
+    "filename" : "expression_bg.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "cs",
+    "threeLetterCode" : "ces",
+    "filename" : "expression_cs.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "da",
+    "threeLetterCode" : "dan",
+    "filename" : "expression_da.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "de",
+    "threeLetterCode" : "deu",
+    "filename" : "expression_de.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "el",
+    "threeLetterCode" : "ell",
+    "filename" : "expression_el.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "en",
+    "threeLetterCode" : "eng",
+    "filename" : "expression_en.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "es",
+    "threeLetterCode" : "spa",
+    "filename" : "expression_es.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "et",
+    "threeLetterCode" : "est",
+    "filename" : "expression_et.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "fi",
+    "threeLetterCode" : "fin",
+    "filename" : "expression_fi.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "fr",
+    "threeLetterCode" : "fra",
+    "filename" : "expression_fr.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "ga",
+    "threeLetterCode" : "gle",
+    "filename" : "expression_ga.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "hr",
+    "threeLetterCode" : "hrv",
+    "filename" : "expression_hr.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "hu",
+    "threeLetterCode" : "hun",
+    "filename" : "expression_hu.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "it",
+    "threeLetterCode" : "ita",
+    "filename" : "expression_it.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "lt",
+    "threeLetterCode" : "lit",
+    "filename" : "expression_lt.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "lv",
+    "threeLetterCode" : "lav",
+    "filename" : "expression_lv.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "mt",
+    "threeLetterCode" : "mlt",
+    "filename" : "expression_mt.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "nl",
+    "threeLetterCode" : "nld",
+    "filename" : "expression_nl.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "pl",
+    "threeLetterCode" : "pol",
+    "filename" : "expression_pl.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "pt",
+    "threeLetterCode" : "por",
+    "filename" : "expression_pt.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "ro",
+    "threeLetterCode" : "ron",
+    "filename" : "expression_ro.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "sk",
+    "threeLetterCode" : "slk",
+    "filename" : "expression_sk.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "sl",
+    "threeLetterCode" : "slv",
+    "filename" : "expression_sl.xml"
+  }, {
+    "assetType" : "expression",
+    "twoLetterCode" : "sv",
+    "threeLetterCode" : "swe",
+    "filename" : "expression_sv.xml"
   }, {
     "assetType" : "field",
     "twoLetterCode" : "bg",
@@ -480,126 +960,6 @@
     "threeLetterCode" : "swe",
     "filename" : "group_sv.xml"
   }, {
-    "assetType" : "view",
-    "twoLetterCode" : "bg",
-    "threeLetterCode" : "bul",
-    "filename" : "view_bg.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "cs",
-    "threeLetterCode" : "ces",
-    "filename" : "view_cs.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "da",
-    "threeLetterCode" : "dan",
-    "filename" : "view_da.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "de",
-    "threeLetterCode" : "deu",
-    "filename" : "view_de.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "el",
-    "threeLetterCode" : "ell",
-    "filename" : "view_el.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "en",
-    "threeLetterCode" : "eng",
-    "filename" : "view_en.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "es",
-    "threeLetterCode" : "spa",
-    "filename" : "view_es.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "et",
-    "threeLetterCode" : "est",
-    "filename" : "view_et.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "fi",
-    "threeLetterCode" : "fin",
-    "filename" : "view_fi.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "fr",
-    "threeLetterCode" : "fra",
-    "filename" : "view_fr.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "ga",
-    "threeLetterCode" : "gle",
-    "filename" : "view_ga.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "hr",
-    "threeLetterCode" : "hrv",
-    "filename" : "view_hr.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "hu",
-    "threeLetterCode" : "hun",
-    "filename" : "view_hu.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "it",
-    "threeLetterCode" : "ita",
-    "filename" : "view_it.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "lt",
-    "threeLetterCode" : "lit",
-    "filename" : "view_lt.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "lv",
-    "threeLetterCode" : "lav",
-    "filename" : "view_lv.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "mt",
-    "threeLetterCode" : "mlt",
-    "filename" : "view_mt.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "nl",
-    "threeLetterCode" : "nld",
-    "filename" : "view_nl.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "pl",
-    "threeLetterCode" : "pol",
-    "filename" : "view_pl.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "pt",
-    "threeLetterCode" : "por",
-    "filename" : "view_pt.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "ro",
-    "threeLetterCode" : "ron",
-    "filename" : "view_ro.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "sk",
-    "threeLetterCode" : "slk",
-    "filename" : "view_sk.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "sl",
-    "threeLetterCode" : "slv",
-    "filename" : "view_sl.xml"
-  }, {
-    "assetType" : "view",
-    "twoLetterCode" : "sv",
-    "threeLetterCode" : "swe",
-    "filename" : "view_sv.xml"
-  }, {
     "assetType" : "notice",
     "twoLetterCode" : "bg",
     "threeLetterCode" : "bul",
@@ -719,366 +1079,6 @@
     "twoLetterCode" : "sv",
     "threeLetterCode" : "swe",
     "filename" : "notice_sv.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "bg",
-    "threeLetterCode" : "bul",
-    "filename" : "codelist_bg.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "cs",
-    "threeLetterCode" : "ces",
-    "filename" : "codelist_cs.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "da",
-    "threeLetterCode" : "dan",
-    "filename" : "codelist_da.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "de",
-    "threeLetterCode" : "deu",
-    "filename" : "codelist_de.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "el",
-    "threeLetterCode" : "ell",
-    "filename" : "codelist_el.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "en",
-    "threeLetterCode" : "eng",
-    "filename" : "codelist_en.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "es",
-    "threeLetterCode" : "spa",
-    "filename" : "codelist_es.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "et",
-    "threeLetterCode" : "est",
-    "filename" : "codelist_et.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "fi",
-    "threeLetterCode" : "fin",
-    "filename" : "codelist_fi.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "fr",
-    "threeLetterCode" : "fra",
-    "filename" : "codelist_fr.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "ga",
-    "threeLetterCode" : "gle",
-    "filename" : "codelist_ga.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "hr",
-    "threeLetterCode" : "hrv",
-    "filename" : "codelist_hr.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "hu",
-    "threeLetterCode" : "hun",
-    "filename" : "codelist_hu.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "it",
-    "threeLetterCode" : "ita",
-    "filename" : "codelist_it.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "lt",
-    "threeLetterCode" : "lit",
-    "filename" : "codelist_lt.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "lv",
-    "threeLetterCode" : "lav",
-    "filename" : "codelist_lv.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "mt",
-    "threeLetterCode" : "mlt",
-    "filename" : "codelist_mt.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "nl",
-    "threeLetterCode" : "nld",
-    "filename" : "codelist_nl.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "pl",
-    "threeLetterCode" : "pol",
-    "filename" : "codelist_pl.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "pt",
-    "threeLetterCode" : "por",
-    "filename" : "codelist_pt.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "ro",
-    "threeLetterCode" : "ron",
-    "filename" : "codelist_ro.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "sk",
-    "threeLetterCode" : "slk",
-    "filename" : "codelist_sk.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "sl",
-    "threeLetterCode" : "slv",
-    "filename" : "codelist_sl.xml"
-  }, {
-    "assetType" : "codelist",
-    "twoLetterCode" : "sv",
-    "threeLetterCode" : "swe",
-    "filename" : "codelist_sv.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "bg",
-    "threeLetterCode" : "bul",
-    "filename" : "code_bg.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "cs",
-    "threeLetterCode" : "ces",
-    "filename" : "code_cs.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "da",
-    "threeLetterCode" : "dan",
-    "filename" : "code_da.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "de",
-    "threeLetterCode" : "deu",
-    "filename" : "code_de.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "el",
-    "threeLetterCode" : "ell",
-    "filename" : "code_el.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "en",
-    "threeLetterCode" : "eng",
-    "filename" : "code_en.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "es",
-    "threeLetterCode" : "spa",
-    "filename" : "code_es.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "et",
-    "threeLetterCode" : "est",
-    "filename" : "code_et.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "fi",
-    "threeLetterCode" : "fin",
-    "filename" : "code_fi.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "fr",
-    "threeLetterCode" : "fra",
-    "filename" : "code_fr.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "ga",
-    "threeLetterCode" : "gle",
-    "filename" : "code_ga.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "hr",
-    "threeLetterCode" : "hrv",
-    "filename" : "code_hr.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "hu",
-    "threeLetterCode" : "hun",
-    "filename" : "code_hu.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "it",
-    "threeLetterCode" : "ita",
-    "filename" : "code_it.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "lt",
-    "threeLetterCode" : "lit",
-    "filename" : "code_lt.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "lv",
-    "threeLetterCode" : "lav",
-    "filename" : "code_lv.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "mt",
-    "threeLetterCode" : "mlt",
-    "filename" : "code_mt.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "nl",
-    "threeLetterCode" : "nld",
-    "filename" : "code_nl.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "pl",
-    "threeLetterCode" : "pol",
-    "filename" : "code_pl.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "pt",
-    "threeLetterCode" : "por",
-    "filename" : "code_pt.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "ro",
-    "threeLetterCode" : "ron",
-    "filename" : "code_ro.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "sk",
-    "threeLetterCode" : "slk",
-    "filename" : "code_sk.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "sl",
-    "threeLetterCode" : "slv",
-    "filename" : "code_sl.xml"
-  }, {
-    "assetType" : "code",
-    "twoLetterCode" : "sv",
-    "threeLetterCode" : "swe",
-    "filename" : "code_sv.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "bg",
-    "threeLetterCode" : "bul",
-    "filename" : "auxiliary_bg.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "cs",
-    "threeLetterCode" : "ces",
-    "filename" : "auxiliary_cs.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "da",
-    "threeLetterCode" : "dan",
-    "filename" : "auxiliary_da.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "de",
-    "threeLetterCode" : "deu",
-    "filename" : "auxiliary_de.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "el",
-    "threeLetterCode" : "ell",
-    "filename" : "auxiliary_el.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "en",
-    "threeLetterCode" : "eng",
-    "filename" : "auxiliary_en.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "es",
-    "threeLetterCode" : "spa",
-    "filename" : "auxiliary_es.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "et",
-    "threeLetterCode" : "est",
-    "filename" : "auxiliary_et.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "fi",
-    "threeLetterCode" : "fin",
-    "filename" : "auxiliary_fi.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "fr",
-    "threeLetterCode" : "fra",
-    "filename" : "auxiliary_fr.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "ga",
-    "threeLetterCode" : "gle",
-    "filename" : "auxiliary_ga.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "hr",
-    "threeLetterCode" : "hrv",
-    "filename" : "auxiliary_hr.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "hu",
-    "threeLetterCode" : "hun",
-    "filename" : "auxiliary_hu.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "it",
-    "threeLetterCode" : "ita",
-    "filename" : "auxiliary_it.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "lt",
-    "threeLetterCode" : "lit",
-    "filename" : "auxiliary_lt.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "lv",
-    "threeLetterCode" : "lav",
-    "filename" : "auxiliary_lv.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "mt",
-    "threeLetterCode" : "mlt",
-    "filename" : "auxiliary_mt.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "nl",
-    "threeLetterCode" : "nld",
-    "filename" : "auxiliary_nl.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "pl",
-    "threeLetterCode" : "pol",
-    "filename" : "auxiliary_pl.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "pt",
-    "threeLetterCode" : "por",
-    "filename" : "auxiliary_pt.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "ro",
-    "threeLetterCode" : "ron",
-    "filename" : "auxiliary_ro.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "sk",
-    "threeLetterCode" : "slk",
-    "filename" : "auxiliary_sk.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "sl",
-    "threeLetterCode" : "slv",
-    "filename" : "auxiliary_sl.xml"
-  }, {
-    "assetType" : "auxiliary",
-    "twoLetterCode" : "sv",
-    "threeLetterCode" : "swe",
-    "filename" : "auxiliary_sv.xml"
   }, {
     "assetType" : "rule",
     "twoLetterCode" : "bg",
@@ -1200,125 +1200,125 @@
     "threeLetterCode" : "swe",
     "filename" : "rule_sv.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "bg",
     "threeLetterCode" : "bul",
-    "filename" : "expression_bg.xml"
+    "filename" : "view_bg.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "cs",
     "threeLetterCode" : "ces",
-    "filename" : "expression_cs.xml"
+    "filename" : "view_cs.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "da",
     "threeLetterCode" : "dan",
-    "filename" : "expression_da.xml"
+    "filename" : "view_da.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "de",
     "threeLetterCode" : "deu",
-    "filename" : "expression_de.xml"
+    "filename" : "view_de.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "el",
     "threeLetterCode" : "ell",
-    "filename" : "expression_el.xml"
+    "filename" : "view_el.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "en",
     "threeLetterCode" : "eng",
-    "filename" : "expression_en.xml"
+    "filename" : "view_en.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "es",
     "threeLetterCode" : "spa",
-    "filename" : "expression_es.xml"
+    "filename" : "view_es.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "et",
     "threeLetterCode" : "est",
-    "filename" : "expression_et.xml"
+    "filename" : "view_et.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "fi",
     "threeLetterCode" : "fin",
-    "filename" : "expression_fi.xml"
+    "filename" : "view_fi.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "fr",
     "threeLetterCode" : "fra",
-    "filename" : "expression_fr.xml"
+    "filename" : "view_fr.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "ga",
     "threeLetterCode" : "gle",
-    "filename" : "expression_ga.xml"
+    "filename" : "view_ga.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "hr",
     "threeLetterCode" : "hrv",
-    "filename" : "expression_hr.xml"
+    "filename" : "view_hr.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "hu",
     "threeLetterCode" : "hun",
-    "filename" : "expression_hu.xml"
+    "filename" : "view_hu.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "it",
     "threeLetterCode" : "ita",
-    "filename" : "expression_it.xml"
+    "filename" : "view_it.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "lt",
     "threeLetterCode" : "lit",
-    "filename" : "expression_lt.xml"
+    "filename" : "view_lt.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "lv",
     "threeLetterCode" : "lav",
-    "filename" : "expression_lv.xml"
+    "filename" : "view_lv.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "mt",
     "threeLetterCode" : "mlt",
-    "filename" : "expression_mt.xml"
+    "filename" : "view_mt.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "nl",
     "threeLetterCode" : "nld",
-    "filename" : "expression_nl.xml"
+    "filename" : "view_nl.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "pl",
     "threeLetterCode" : "pol",
-    "filename" : "expression_pl.xml"
+    "filename" : "view_pl.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "pt",
     "threeLetterCode" : "por",
-    "filename" : "expression_pt.xml"
+    "filename" : "view_pt.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "ro",
     "threeLetterCode" : "ron",
-    "filename" : "expression_ro.xml"
+    "filename" : "view_ro.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "sk",
     "threeLetterCode" : "slk",
-    "filename" : "expression_sk.xml"
+    "filename" : "view_sk.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "sl",
     "threeLetterCode" : "slv",
-    "filename" : "expression_sl.xml"
+    "filename" : "view_sl.xml"
   }, {
-    "assetType" : "expression",
+    "assetType" : "view",
     "twoLetterCode" : "sv",
     "threeLetterCode" : "swe",
-    "filename" : "expression_sv.xml"
+    "filename" : "view_sv.xml"
   } ],
   "languages" : [ {
     "description" : "Bulgarian",

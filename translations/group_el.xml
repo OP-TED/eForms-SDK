@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Οργανισμός επεξεργασίας των προσφορών</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Οργανισμός παραλαβής των προσφορών</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Ισχύς της προσφοράς</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Πληροφορίες σχετικά με την εκπρόθεσμη υποβολή</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Πληροφορίες για τον υποψήφιο προσφέροντα</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Όροι υποβολής προσφορών</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Πληροφορίες για την Οδηγία για Καθαρά Οχήματα</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Τύπος σύμβασης Οδηγίας για Καθαρά Οχήματα</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Είδος διαδικασίας</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Λεπτομέρειες τύπου διαδικασίας</entry>
 <entry key="group|name|GR-Procedure-Purpose">Σκοπός</entry>
-<entry key="group|name|GR-Procedure-SProvider">Πάροχος υπηρεσιών</entry>
+<entry key="group|name|GR-Procedure-SProvider">Πάροχος υπηρεσιών προμηθειών</entry>
 <entry key="group|name|GR-Procedure-Scope">Πεδίο εφαρμογής της σύμβασης</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Πρόσθετη ταξινόμηση</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Κύρια ταξινόμηση</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Εκτιμώμενα έσοδα προερχόμενα από τους χρήστες της σύμβασης παραχώρησης (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Μέθοδος που χρησιμοποιήθηκε για τον υπολογισμό της εκτιμώμενης αξίας της σύμβασης παραχώρησης (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Περιγραφή της αξίας της παραχώρησης (δημοσίευση αργότερα)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Κατάταξη στον κατάλογο των νικητών (δημοσίευση αργότερα)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Κατάταξη της προσφοράς (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Κατάταξη της προσφοράς (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Χώρα καταγωγής του προϊόντος ή της υπηρεσίας (δημοσίευση αργότερα)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Η προσφορά είναι εναλλακτική προσφορά (δημοσίευση αργότερα)</entry>

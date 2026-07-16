@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Il nome della località (città, paese) del luogo di esecuzione.</entry>
 <entry key="business-term|description|BT-514">Il paese dell'indirizzo fisico dell'organizzazione.</entry>
 <entry key="business-term|description|BT-5141">Il paese del luogo di esecuzione.</entry>
-<entry key="business-term|description|BT-52">La procedura si svolge in diverse fasi. In ogni fase possono essere eliminati alcuni partecipanti.</entry>
+<entry key="business-term|description|BT-52">La procedura si svolgerà in fasi successive. Dopo la seconda fase, alcuni partecipanti possono essere eliminati in ciascuna fase successiva.</entry>
 <entry key="business-term|description|BT-53">Il committente si riserva il diritto (senza impegno) di effettuare ulteriori acquisti dall'appaltatore (entro la validità dell'appalto).</entry>
 <entry key="business-term|description|BT-531">La natura dell'oggetto dell'appalto (ad es. servizi) che è supplementare alla natura principale.</entry>
 <entry key="business-term|description|BT-536">La data (stimata) alla quale ha inizio l'appalto, l'accordo quadro, il sistema dinamico di acquisizione o il sistema di qualificazione.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Informazioni supplementari sull'accordo di non divulgazione.</entry>
 <entry key="business-term|description|BT-803">Data e ora in cui l'avviso o bando è stato trasmesso elettronicamente dall'eSender all'Ufficio delle pubblicazioni dell'Unione europea</entry>
 <entry key="business-term|description|BT-805">La procedura d'appalto comprende il ricorso a criteri consolidati per gli appalti pubblici verdi (criteri di selezione, specifiche tecniche, criteri di aggiudicazione e condizioni di esecuzione dell'appalto) a livello nazionale, unionale o a un altro livello, se applicabile.</entry>
-<entry key="business-term|description|BT-806">Indicare dove sono definiti i motivi di esclusione, ad esempio documenti di gara, avviso o DGUE.</entry>
+<entry key="business-term|description|BT-806">Indicare dove sono definiti i motivi di esclusione, ad esempio documenti di gara, avviso o DGUE richiesta.</entry>
 <entry key="business-term|description|BT-809">Il criterio di selezione.</entry>
 <entry key="business-term|description|BT-810">La direttiva sull'efficienza energetica (DEE) (UE) 2023/1791 si applica alla procedura di appalto in questione.</entry>
 <entry key="business-term|description|BT-811">Selezione di prodotti, opere e servizi disciplinati dalla direttiva sull'etichettatura energetica, dalla direttiva sulla progettazione ecocompatibile, dai criteri dell'Unione per gli appalti pubblici verdi, dal regolamento (UE) 2020/740. Ai fini della rendicontazione, sono inclusi anche gli edifici soggetti all'obbligo di cui all'articolo 7 della direttiva sull'efficienza energetica. Poiché l'elenco presenta due livelli, è suddiviso in a) quello di base come "Ecolabel" e b) quello dell'articolo effettivo come "lavastoviglie".</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Il valore del consumo energetico in kWh/anno per i prodotti per i quali non esiste un'etichetta, e il risparmio energetico in kWh/anno per i servizi, gli edifici o i lavori. Per i prodotti si prega di segnalare il consumo energetico annuo del prodotto. Per i servizi, i lavori e gli edifici si prega di segnalare il risparmio energetico annuo.</entry>
 <entry key="business-term|description|BT-814">Il valore dei risparmi energetici in kWh/anno per prodotti, servizi, opere ed edifici. Indicare i risparmi energetici annui.</entry>
 <entry key="business-term|description|BT-815">La quantità fornita o stimata. Per i prodotti, indicare il numero di prodotti. Per gli edifici, indicare la superficie utile in metri quadrati. Per lavori o servizi, il valore di solito sarà 1.</entry>
-<entry key="business-term|description|BT-821">Indicare dove sono definiti i criteri di esclusione, ad esempio documenti di gara, avviso o DGUE.</entry>
+<entry key="business-term|description|BT-821">Indicare dove sono definiti i criteri di esclusione, ad esempio documenti di gara, avviso o DGUE richiesta.</entry>
 <entry key="business-term|description|BT-88">Caratteristiche principali della procedura (ad es. descrizione delle singole fasi) e informazioni sulle modalità per reperire la totalità delle regole che governano la procedura. Tali informazioni vanno indicate se la procedura non è una di quelle citate dalle direttive sugli appalti. Può trattarsi, per esempio, di concessioni, di servizi sociali e altri servizi specifici, e della pubblicazione volontaria di procedure di appalto al di sotto delle soglie di appalto UE.</entry>
 <entry key="business-term|description|BT-92">Si farà ricorso all'ordinazione elettronica.</entry>
 <entry key="business-term|description|BT-93">Sarà utilizzato il pagamento elettronico.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metodo utilizzato per calcolare il valore stimato della concessione</entry>
 <entry key="business-term|name|BT-165">Dimensioni dell'operatore economico</entry>
 <entry key="business-term|name|BT-17">Presentazione elettronica delle offerte</entry>
-<entry key="business-term|name|BT-171">Classificazione nell'elenco dei vincitori</entry>
+<entry key="business-term|name|BT-171">Grado dell'offerta</entry>
 <entry key="business-term|name|BT-1711">L'offerta è stata classificata</entry>
 <entry key="business-term|name|BT-18">Indirizzo per la presentazione</entry>
 <entry key="business-term|name|BT-19">Giustificazione del motivo per cui la presentazione elettronica non è possibile</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Località</entry>
 <entry key="business-term|name|BT-514">Paese</entry>
 <entry key="business-term|name|BT-5141">Paese</entry>
-<entry key="business-term|name|BT-52">La procedura si svolge in diverse fasi. In ogni fase possono essere eliminati alcuni partecipanti</entry>
+<entry key="business-term|name|BT-52">La procedura si svolgerà in fasi successive. Dopo la seconda fase, alcuni partecipanti possono essere eliminati in ciascuna fase successiva.</entry>
 <entry key="business-term|name|BT-53">Opzioni</entry>
 <entry key="business-term|name|BT-531">Natura aggiuntiva dell'appalto</entry>
 <entry key="business-term|name|BT-536">Data di inizio</entry>

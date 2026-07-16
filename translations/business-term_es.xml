@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">El nombre de la localidad (ciudad o pueblo) del lugar de ejecución.</entry>
 <entry key="business-term|description|BT-514">El país de la dirección física de la organización.</entry>
 <entry key="business-term|description|BT-5141">El país del lugar de ejecución.</entry>
-<entry key="business-term|description|BT-52">El procedimiento se desarrollará en fases sucesivas. En cada fase pueden eliminarse algunos participantes.</entry>
+<entry key="business-term|description|BT-52">El procedimiento se llevará a cabo en etapas sucesivas. Después de la segunda etapa, algunos participantes pueden ser eliminados en cada etapa siguiente.</entry>
 <entry key="business-term|description|BT-53">El comprador se reserva el derecho (no es una obligación) de compras adicionales al contratista (mientras que el contrato sea válido).</entry>
 <entry key="business-term|description|BT-531">Otra naturaleza (por ejemplo, servicios) de lo que se compra, aparte de la naturaleza principal.</entry>
 <entry key="business-term|description|BT-536">La fecha (estimada) en la que se inicia el contrato, acuerdo marco, sistema dinámico de adquisición o sistema de calificación.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Información adicional sobre el acuerdo de confidencialidad.</entry>
 <entry key="business-term|description|BT-803">La fecha y la hora en que el eSender transmitió electrónicamente el anuncio a la Oficina de Publicaciones de la Unión Europea.</entry>
 <entry key="business-term|description|BT-805">El procedimiento de contratación pública incluye el uso de criterios establecidos en materia de contratación pública verde (criterios de selección, especificaciones técnicas, criterios de adjudicación y cláusulas relativas a la ejecución del contrato) a nivel nacional o de la Unión, o a otro nivel, en su caso.</entry>
-<entry key="business-term|description|BT-806">Dónde se describen las causas de exclusión, por ejemplo, los documentos de contratación, el anuncio o el documento europeo único de contratación</entry>
+<entry key="business-term|description|BT-806">Dónde se describen las causas de exclusión, por ejemplo, los documentos de contratación, el anuncio o el documento europeo único de contratación solicitud.</entry>
 <entry key="business-term|description|BT-809">El criterio de selección.</entry>
 <entry key="business-term|description|BT-810">La Directiva (UE) 2023/1791 sobre eficiencia energética es aplicable a este procedimiento de contratación.</entry>
 <entry key="business-term|description|BT-811">Selección de productos, obras y servicios en el ámbito de la Directiva sobre etiquetado energético, la Directiva sobre diseño ecológico, los criterios de la Unión sobre contratación pública ecológica y el Reglamento 2020/740. A efectos de la presentación de información, también se incluyen los edificios a los que se aplica la obligación establecida en el artículo 7 de la DEE. Dado que la lista tiene dos niveles, se divide en a) la base, por ejemplo, «etiqueta ecológica», y b) el artículo propiamente dicho, por ejemplo, «lavavajillas».</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">El valor del consumo de energía en kWh/año para productos para los que no existe etiqueta, y ahorros de energía en kWh/año para servicios, edificios o trabajos. Para productos, por favor informe el consumo de energía anual del producto. Para servicios, trabajos y edificios, por favor informe los ahorros de energía anuales.</entry>
 <entry key="business-term|description|BT-814">El valor del ahorro de energía en kWh/año en relación con los productos, los servicios, las obras y los edificios. Indique el ahorro anual de energía.</entry>
 <entry key="business-term|description|BT-815">La cantidad facilitada o estimada. En el caso de los productos, indique el número de estos. En el caso de los edificios, indique la superficie útil en metros cuadrados. En el caso de las obras o los servicios, el valor generalmente será 1.</entry>
-<entry key="business-term|description|BT-821">Dónde se definen los criterios de selección, por ejemplo, los documentos de contratación, el anuncio o el documento europeo único de contratación</entry>
+<entry key="business-term|description|BT-821">Dónde se definen los criterios de selección, por ejemplo, los documentos de contratación, el anuncio o el documento europeo único de contratación solicitud.</entry>
 <entry key="business-term|description|BT-88">Las principales características del procedimiento (por ejemplo, descripción de las diferentes fases) e información sobre dónde puede encontrarse la totalidad de las normas del procedimiento. Esta información se facilitará cuando el procedimiento no sea uno de los mencionados en las Directivas sobre contratación. Puede ser el caso, por ejemplo, de las concesiones, los servicios sociales y otros servicios específicos, y la publicación voluntaria de los procedimientos de contratación por debajo de los umbrales de contratación de la UE.</entry>
 <entry key="business-term|description|BT-92">Se utilizarán pedidos electrónicos.</entry>
 <entry key="business-term|description|BT-93">Se utilizará el pago electrónico.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Método utilizado para calcular el valor estimado de la concesión</entry>
 <entry key="business-term|name|BT-165">Tamaño del operador económico</entry>
 <entry key="business-term|name|BT-17">Presentación electrónica</entry>
-<entry key="business-term|name|BT-171">Clasificación en la lista de ganadores</entry>
+<entry key="business-term|name|BT-171">Clasificación de la oferta</entry>
 <entry key="business-term|name|BT-1711">La oferta se ha posicionado</entry>
 <entry key="business-term|name|BT-18">Dirección para la presentación</entry>
 <entry key="business-term|name|BT-19">Justificación de por qué no es posible la presentación electrónica</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Localidad</entry>
 <entry key="business-term|name|BT-514">País</entry>
 <entry key="business-term|name|BT-5141">País</entry>
-<entry key="business-term|name|BT-52">El procedimiento se desarrollará en fases sucesivas. En cada fase, pueden eliminarse algunos participantes</entry>
+<entry key="business-term|name|BT-52">El procedimiento se llevará a cabo en etapas sucesivas. Después de la segunda etapa, algunos participantes pueden ser eliminados en cada etapa siguiente.</entry>
 <entry key="business-term|name|BT-53">Opciones</entry>
 <entry key="business-term|name|BT-531">Naturaleza complementaria del contrato</entry>
 <entry key="business-term|name|BT-536">Fecha de inicio</entry>

@@ -5,7 +5,7 @@
       <ShortName>OrganisationRole</ShortName>
       <LongName>organisation-role</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/organisation-role</LongName>
-      <Version>20250924-0</Version>
+      <Version>20260318-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/organisation-role</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -445,79 +445,79 @@
             <SimpleValue>info-emp</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed</SimpleValue>
+            <SimpleValue>Organisation providing information on employment legislation</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Организация, която предоставя информация за общата нормативна уредба за защитата на заетостта и условията на труд, приложима на мястото, където ще се изпълнява поръчката</SimpleValue>
+            <SimpleValue>Организация, предоставяща информация за трудовото законодателство</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Organizace poskytující informace o obecném právním rámci pro ochranu zaměstnanců a pracovní podmínky, který se použije v místě, kde má být zakázka plněna</SimpleValue>
+            <SimpleValue>Organizace poskytující informace o pracovněprávních předpisech</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Organisation, der leverer oplysninger om den generelle lovgivningsramme på det sted, hvor kontrakten skal udføres, hvad angår sikkerhed på arbejdspladsen og arbejdsvilkår</SimpleValue>
+            <SimpleValue>Organisation, der oplyser om arbejdslovgivning</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden Rechtsrahmen für Arbeitsschutz und Arbeitsbedingungen bereitstellt</SimpleValue>
+            <SimpleValue>Organisation, die Informationen zu Rechtsvorschriften über die Beschäftigungbereitstellt</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με το γενικό κανονιστικό πλαίσιο για την προστασία της απασχόλησης και τους όρους εργασίας το οποίο ισχύει στον τόπο εκτέλεσης της σύμβασης</SimpleValue>
+            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με τη νομοθεσία για τηναπασχόληση</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Organisation providing information concerning the general regulatory framework for employment protection and working conditions applicable in the place where the contract is to be performed</SimpleValue>
+            <SimpleValue>Organisation providing information on employment legislation</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Organización que proporciona información sobre el marco normativo general en materia de protección de los trabajadores y las condiciones de trabajo aplicable en el lugar en que deba ejecutarse el contrato</SimpleValue>
+            <SimpleValue>Organización que facilita información sobre la legislación laboral</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Organisatsioon, mis annab teavet tööhõivekaitset ja töötingimusi käsitleva üldise õigusliku raamistiku kohta, mida kohaldatakse lepingu täitmise kohas</SimpleValue>
+            <SimpleValue>Tööhõivealaste õigusaktide kohta teavet andev organisatsioon</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista työsuojelua ja työehtoja koskevista yleisistä säännöksistä tietoja antava organisaatio</SimpleValue>
+            <SimpleValue>Työlainsäädäntöä koskevia tietoja antava organisaatio</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection du travail et de conditions de travail, est applicable au lieu où la prestation doit être réalisée</SimpleValue>
+            <SimpleValue>Organisation fournissant des informations sur la réglementation relative au travail</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta don chosaint fostaíochta agus do dhálaí oibre is infheidhme san áit ina bhfuil an conradh le cur i gcrích</SimpleValue>
+            <SimpleValue>Eagraíocht a chuireann eolas ar fáil maidir le reachtaíocht fostaíochta</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Organizacija koja pruža informacije o općem regulatornom okviru u vezi sa zaštitom radnog mjesta i radnih uvjeta primjenjivom u mjestu u kojem se ugovor treba izvršiti</SimpleValue>
+            <SimpleValue>Organizacija koja pruža informacije o propisima o zapošljavanju</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A szerződés teljesítésének helye szerinti országban alkalmazandó általános munkavédelmi és foglalkoztatási feltételekkel kapcsolatos szabályozási kerettel kapcsolatban tájékoztatást nyújtó szervezet</SimpleValue>
+            <SimpleValue>A munkaügyi jogszabályokról tájékoztatást nyújtó szervezet</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Organizzazione presso la quale possono essere richieste informazioni sul quadro normativo generale vigente in materia di tutela dei lavoratori e condizioni di lavoro nel luogo in cui l'appalto deve essere eseguito</SimpleValue>
+            <SimpleValue>Organizzazione che fornisce informazioni sulla normativa occupazionale</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją užimtumo apsaugos ir darbo sąlygų reglamentavimo sistemą</SimpleValue>
+            <SimpleValue>Organizacija, teikianti informaciją apie užimtumo teisės aktus</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Organizācija, kas sniedz informāciju par darba aizsardzības un darba apstākļu vispārējo tiesisko regulējumu, kas piemērojams līguma izpildes vietā</SimpleValue>
+            <SimpleValue>Organizācija, kas sniedz informāciju par nodarbinātības tiesību aktiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għall-protezzjoni tal-impjiegi u għall-kundizzjonijiet tax-xogħol applikabbli fil-post fejn irid jitwettaq il-kuntratt</SimpleValue>
+            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni marbuta mal-leġiżlazzjoni dwar l-impjiegi</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake de bescherming van de werknemers en arbeidsvoorwaarden</SimpleValue>
+            <SimpleValue>Organisatie die informatie verstrekt over arbeidswetgeving</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie ochrony zatrudnienia i warunków pracy, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane</SimpleValue>
+            <SimpleValue>Organizacja udzielająca informacji na temat przepisów dotyczących zatrudnienia</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Organização que fornece informações sobre o quadro normativo geral em matéria de proteção do trabalho e de condições de trabalho aplicável no local em que o contrato vai ser executado</SimpleValue>
+            <SimpleValue>Organização que fornece informações sobre a legislação laboral</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția muncii aplicabil în locul în care urmează să fie executat contractul</SimpleValue>
+            <SimpleValue>Organizația care furnizează informații referitoare la legislația privind ocupareaforței de muncă</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre ochranu zamestnanosti a pracovné podmienky uplatňovaného v mieste plnenia zákazky</SimpleValue>
+            <SimpleValue>Organizácia poskytujúca informácie o právnych predpisoch v oblasti zamestnanosti</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Organizacija, ki daje informacije o splošnem regulativnem okviru glede zaščite delovnega mesta in pogojev za delo, ki se uporablja v kraju izvajanja naročila</SimpleValue>
+            <SimpleValue>Organizacija, ki zagotavlja informacije o zakonodaji na področju zaposlovanja</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Organisation som tillhandahåller information om det allmänna regelverk för anställningsskydd och arbetsvillkor som ska tillämpas på den plats där kontraktet ska genomföras</SimpleValue>
+            <SimpleValue>Organisation som informerar om arbetslagstiftning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -525,79 +525,79 @@
             <SimpleValue>info-envir</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed</SimpleValue>
+            <SimpleValue>Organisation providing information on environmental legislation</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Организация, която предоставя информация за общата нормативна уредба за опазването на околната среда, приложима на мястото, където ще се изпълнява поръчката</SimpleValue>
+            <SimpleValue>Организация, предоставяща информация за законодателството в областтана околната среда</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Organizace poskytující informace o obecném právním rámci pro ochranu životního prostředí, který se použije v místě, kde má být zakázka plněna</SimpleValue>
+            <SimpleValue>Organizace poskytující informace o právních předpisech v oblasti životníhoprostředí</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Organisation, der leverer oplysninger om den generelle lovgivningsramme på det sted, hvor kontrakten skal udføres, hvad angår miljøbeskyttelse</SimpleValue>
+            <SimpleValue>Organisation, der oplyser om miljølovgivning</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden umweltrechtlichen Rahmen bereitstellt</SimpleValue>
+            <SimpleValue>Organisation, die Informationen zu Umweltvorschriften bereitstellt</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με το γενικό κανονιστικό πλαίσιο για την προστασία του περιβάλλοντος το οποίο ισχύει στον τόπο εκτέλεσης της σύμβασης</SimpleValue>
+            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με την περιβαλλοντική νομοθεσία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Organisation providing information concerning the general regulatory framework for environmental protection applicable in the place where the contract is to be performed</SimpleValue>
+            <SimpleValue>Organisation providing information on environmental legislation</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Organización que proporciona información sobre el marco normativo general por lo que se refiere a la protección del medio ambiente aplicable en el lugar en que deba ejecutarse el contrato</SimpleValue>
+            <SimpleValue>Organización que facilita información sobre la legislación medioambiental</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Organisatsioon, mis annab teavet keskkonnakaitset käsitleva üldise õigusliku raamistiku kohta, mida kohaldatakse lepingu täitmise kohas</SimpleValue>
+            <SimpleValue>Keskkonnaalaste õigusaktide kohta teavet andev organisatsioon</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista ympäristönsuojelua koskevista yleisistä säännöksistä tietoja antava organisaatio</SimpleValue>
+            <SimpleValue>Ympäristölainsäädäntöä koskevia tietoja antava organisaatio</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection de l’environnement, est applicable au lieu où la prestation doit être réalisée</SimpleValue>
+            <SimpleValue>Organisation fournissant des informations sur la réglementation relative à l’environnement</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do chosaint an chomhshaoil is infheidhme san áit ina bhfuil an conradh le cur i gcrích</SimpleValue>
+            <SimpleValue>Eagraíocht a chuireann eolas ar fáil maidir le reachtaíocht chomhshaoil</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Organizacija koja pruža informacije o općem regulatornom okviru u vezi sa zaštitom okoliša primjenjivom u mjestu u kojem se ugovor treba izvršiti</SimpleValue>
+            <SimpleValue>Organizacija koja pruža informacije o propisima o okolišu</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A szerződés teljesítésének helye szerinti országban alkalmazandó általános környezetvédelmi szabályozási kerettel kapcsolatban tájékoztatást nyújtó szervezet</SimpleValue>
+            <SimpleValue>A környezetvédelmi jogszabályokról tájékoztatást nyújtó szervezet</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Organizzazione presso la quale possono essere richieste informazioni sul quadro normativo generale vigente in materia di protezione dell'ambiente nel luogo in cui l'appalto deve essere eseguito</SimpleValue>
+            <SimpleValue>Organizzazione che fornisce informazioni sulla normativa ambientale</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją aplinkosaugos reglamentavimo sistemą</SimpleValue>
+            <SimpleValue>Organizacija, teikianti informaciją apie aplinkosaugos teisės aktus</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Organizācija, kas sniedz informāciju par vides aizsardzības jomas vispārējo tiesisko regulējumu, kas piemērojams līguma izpildes vietā</SimpleValue>
+            <SimpleValue>Organizācija, kas sniedz informāciju par vides tiesību aktiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għall-protezzjoni ambjentali applikabbli fil-post fejn irid jitwettaq il-kuntratt</SimpleValue>
+            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni marbuta mal-leġiżlazzjoni ambjentali</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake milieubescherming</SimpleValue>
+            <SimpleValue>Organisatie die informatie verstrekt over milieuwetgeving</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie ochrony środowiska, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane</SimpleValue>
+            <SimpleValue>Organizacja udzielająca informacji na temat przepisów o ochronie środowiska</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Organização que fornece informações sobre o quadro normativo geral em matéria de proteção do ambiente que vigora no local de realização da prestação</SimpleValue>
+            <SimpleValue>Organização que fornece informações sobre a legislação ambiental</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Organizația care furnizează informații referitoare la cadrul legislativ general privind protecția mediului aplicabil în locul în care urmează să fie executat contractul</SimpleValue>
+            <SimpleValue>Organizația care furnizează informații referitoare la legislația privind mediul</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre ochranu životného prostredia uplatňovaného v mieste plnenia zákazky</SimpleValue>
+            <SimpleValue>Organizácia poskytujúca informácie o právnych predpisoch v oblasti životného prostredia</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Organizacija, ki daje informacije o splošnem regulativnem okviru glede varstva okolja, ki se uporablja v kraju izvajanja naročila</SimpleValue>
+            <SimpleValue>Organizacija, ki zagotavlja informacije o okoljski zakonodaji</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Organisation som tillhandahåller information om det allmänna regelverk för miljöskydd som ska tillämpas på den plats där kontraktet ska genomföras</SimpleValue>
+            <SimpleValue>Organisation som informerar om miljölagstiftning</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -605,79 +605,79 @@
             <SimpleValue>info-tax</SimpleValue>
          </Value>
          <Value ColumnRef="Name">
-            <SimpleValue>Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed</SimpleValue>
+            <SimpleValue>Organisation providing information on fiscal legislation</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Организация, която предоставя информация за общата нормативна уредба за данъците, приложима на мястото, където ще се изпълнява поръчката</SimpleValue>
+            <SimpleValue>Организация, предоставяща информация за данъчното законодателство</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Organizace poskytující informace o obecném právním rámci pro daně, který se použije v místě, kde má být zakázka plněna</SimpleValue>
+            <SimpleValue>Organizace poskytující informace o daňových právních předpisech</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Organisation, der leverer oplysninger om den generelle lovgivningsramme på det sted, hvor kontrakten skal udføres, hvad angår skatter</SimpleValue>
+            <SimpleValue>Organisation, der oplyser om skattelovgivning</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Organisation, die Informationen über den allgemeinen, am Ort der Ausführung des Auftrags geltenden steuerrechtlichen Rahmen bereitstellt</SimpleValue>
+            <SimpleValue>Organisation, die Informationen zu Steuervorschriften bereitstellt</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με το γενικό κανονιστικό πλαίσιο για τους φόρους το οποίο ισχύει στον τόπο εκτέλεσης της σύμβασης</SimpleValue>
+            <SimpleValue>Οργανισμός που παρέχει πληροφορίες σχετικά με τη φορολογική νομοθεσία</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>Organisation providing information concerning the general regulatory framework for taxes applicable in the place where the contract is to be performed</SimpleValue>
+            <SimpleValue>Organisation providing information on fiscal legislation</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Organización que proporciona información sobre el marco normativo general por lo que se refiere a la fiscalidad aplicable en el lugar en que deba ejecutarse el contrato</SimpleValue>
+            <SimpleValue>Organización que facilita información sobre la legislación fiscal</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Organisatsioon, mis annab teavet makse käsitleva üldise õigusliku raamistiku kohta, mida kohaldatakse lepingu täitmise kohas</SimpleValue>
+            <SimpleValue>Maksualaste õigusaktide kohta teavet andev organisatsioon</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Sopimuksen suoritus- tai toteuttamispaikassa sovellettavista verotusta koskevista yleisistä säännöksistä tietoja antava organisaatio</SimpleValue>
+            <SimpleValue>Verolainsäädäntöä koskevia tietoja antava organisaatio</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de fiscalité, est applicable au lieu où la prestation doit être réalisée</SimpleValue>
+            <SimpleValue>Organisation fournissant des informations sur la réglementation en matière fiscale</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Eagraíocht a sholáthraíonn faisnéis faoin gcreat rialála ginearálta do na cánacha is infheidhme san áit ina bhfuil an conradh le cur i gcrích</SimpleValue>
+            <SimpleValue>Eagraíocht a chuireann eolas ar fáil maidir le reachtaíocht fhioscach</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Organizacija koja pruža informacije o općem regulatornom okviru u vezi s porezima primjenjivom u mjestu u kojem se ugovor treba izvršiti</SimpleValue>
+            <SimpleValue>Organizacija koja pruža informacije o poreznim propisima</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A szerződés teljesítésének helye szerinti országban alkalmazandó adók általános szabályozási keretével kapcsolatban tájékoztatást nyújtó szervezet</SimpleValue>
+            <SimpleValue>Az adójogszabályokról tájékoztatást nyújtó szervezet</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Organizzazione presso la quale possono essere richieste informazioni sul quadro normativo generale vigente in materia di fiscalità nel luogo in cui l'appalto deve essere eseguito</SimpleValue>
+            <SimpleValue>Organizzazione che fornisce informazioni sulla normativa fiscale</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Organizacija, teikianti informaciją apie tos vietos, kurioje bus vykdoma sutartis, bendrąją mokesčių reglamentavimo sistemą</SimpleValue>
+            <SimpleValue>Organizacija, teikianti informaciją apie mokesčių teisės aktus</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Organizācija, kas sniedz informāciju par vispārējo tiesisko regulējumu attiecībā uz nodokļiem, kas piemērojami līguma izpildes vietā</SimpleValue>
+            <SimpleValue>Organizācija, kas sniedz informāciju par fiskālajiem tiesību aktiem</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni dwar il-qafas regolatorju ġenerali għat-taxxi applikabbli fil-post fejn irid jitwettaq il-kuntratt</SimpleValue>
+            <SimpleValue>Organizzazzjoni li tipprovdi informazzjoni marbuta mal-leġiżlazzjoni fiskali</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Organisatie die informatie verstrekt over de voorschriften die op de plaats van de verrichtingen gelden inzake belasting</SimpleValue>
+            <SimpleValue>Organisatie die informatie verstrekt over fiscale wetgeving</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie podatków, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane</SimpleValue>
+            <SimpleValue>Organizacja udzielająca informacji na temat przepisów podatkowych</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>Organização que fornece informações sobre o quadro normativo geral em matéria de fiscalidade que vigora no local de realização da prestação</SimpleValue>
+            <SimpleValue>Organização que fornece informações sobre a legislação fiscal</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Organizația care furnizează informații referitoare la cadrul legislativ general privind impozitarea aplicabil în locul în care urmează să fie executat contractul</SimpleValue>
+            <SimpleValue>Organizația care furnizează informații privind legislația fiscală</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Organizácia poskytujúca informácie týkajúce sa všeobecného regulačného rámca pre dane uplatňovaného v mieste plnenia zákazky</SimpleValue>
+            <SimpleValue>Organizácia poskytujúca informácie o daňových právnych predpisoch</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Organizacija, ki daje informacije o splošnem regulativnem okviru glede davkov, ki se uporablja v kraju izvajanja naročila</SimpleValue>
+            <SimpleValue>Organizacija, ki zagotavlja informacije o davčni zakonodaji</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Organisation som tillhandahåller information om det allmänna regelverk för skatter som ska tillämpas på den plats där kontraktet ska genomföras</SimpleValue>
+            <SimpleValue>Organisation som informerar om skattelagstiftning</SimpleValue>
          </Value>
       </Row>
       <Row>

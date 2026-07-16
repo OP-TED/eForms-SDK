@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Seznam dovoljenih kod podvrst obvestila za vrsto obvestila o projektnem natečaju na podlagi standardne ureditve.</entry>
 <entry key="codelist|name|communication-justification">Ta preglednica vsebuje utemeljitev za omejevanje pravic dostopa do virov v okviru javnega naročanja.</entry>
 <entry key="codelist|name|competition">Seznam dovoljenih kod vrst obvestila za vrsto obvestila o obrazcu javnega razpisa</entry>
+<entry key="codelist|name|compl">Seznam dovoljenih kodov podtipov obvestil za vrsto obvestila o zaključku pogodbe</entry>
+<entry key="codelist|name|completion">Seznam dovoljenih kodov vrst obvestil za vrsto obrazca za zaključek</entry>
 <entry key="codelist|name|conditions">Kode za pogoje</entry>
+<entry key="codelist|name|consultation">Seznam dovoljenih kodov vrst obvestil za vrsto obrazca za posvetovanje</entry>
 <entry key="codelist|name|cont-modif">Seznam dovoljenih kod vrst obvestila za vrsto obvestila o obrazcu za spremembo naročila</entry>
 <entry key="codelist|name|contract-detail">Ta preglednica zagotavlja okvir za predstavitev podatkov, povezanih z javnim naročanjem.</entry>
 <entry key="codelist|name|contract-nature">Seznam kod, ki se uporabljajo za opredelitev glavnih in dodatnih vrst nakupa</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR uvaja nov niz pravil, ki omogočajo Komisiji, da se spopade z izkrivljanji, ki jih povzročajo tuje subvencije.</entry>
 <entry key="codelist|name|form-type">V tej preglednici so navedene kode in vrednosti, ki se uporabljajo za vrsto obrazcev, objavljenih na portalu TED.</entry>
 <entry key="codelist|name|framework-agreement">Ta preglednica vsebuje seznam kod za razlikovanje med različnimi vrstami okvirnih sporazumov, vključenih v ponudbo.</entry>
+<entry key="codelist|name|fsr">Seznam kod za določitev, ali se uporablja Uredba o tujih subvencijah</entry>
 <entry key="codelist|name|gpp-criteria">Merila za zelena javna naročila</entry>
 <entry key="codelist|name|indicator">Seznam vrednosti kazalnikov, dovoljenih v e-obrazcih</entry>
 <entry key="codelist|name|innovative-acquisition">V tej preglednici so navedene kode in vrednosti, ki se uporabljajo za vrsto inovativnih gradenj, blaga ali storitev, ki se naročajo v okviru javnih naročil.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Ta tabela zagotavlja seznam kod in vrednosti, ki se uporabljajo za določanje izjeme od uporabe ukrepa IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Ta tabela zagotavlja seznam kod in vrednosti, ki se uporabljajo za določanje uporabljenega ukrepa IPI</entry>
+<entry key="codelist|name|ipi-scope">Tej seznam zagotavlja seznam kod in vrednosti, ki se uporabljajo za označevanje, da javno naročilo spada v področje uporabe Mednarodnega instrumenta za javna naročila</entry>
 <entry key="codelist|name|irregularity-type">Ta seznam kod se na splošno nanaša na vrste nepravilnosti, opisane v oddelku 2 Priloge k Sklepu Komisije C(2019) 3452.</entry>
 <entry key="codelist|name|language">Seznam triznakovnih kod jezikov, povezanih z mednarodnim standardom ISO 639, in dodatnih kod za nekatere jezike, ki nimajo dodeljene kode ISO.</entry>
 <entry key="codelist|name|lawful-country">Seznam držav, za katere obstaja pravna podlaga za objavo v Dopolnilu k Uradnemu listu Evropske unije</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Seznam kod za opredelitev, ali ima jezikovna različica pravni status ali ne.</entry>
 <entry key="codelist|name|main-activity">Seznam kod za glavne dejavnosti kupcev.</entry>
 <entry key="codelist|name|measurement-unit">Seznam kod za najpogosteje uporabljene merske enote v mednarodni trgovini.</entry>
+<entry key="codelist|name|metric-type">Seznam kod, uporabljenih za opredelitev vrste metrike, ki jo zajemajo navedene številke</entry>
 <entry key="codelist|name|missing-info-submission">Ta preglednica vsebuje seznam kod, ki označujejo, ali se lahko informacije, povezane s ponudnikom (popolne ali delne), dopolnijo tudi po roku za predložitev.</entry>
 <entry key="codelist|name|modification-justification">V tej preglednici so navedeni glavni razlogi za spremembo naročila na področju javnih naročil.</entry>
 <entry key="codelist|name|nda">Seznam kod za opredelitev, ali se zahteva sporazum o nerazkrivanju podatkov.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Seznam kod na ravni NUTS 3 za Slovenijo</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Seznam kod na ravni NUTS 3 za Švedsko</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Seznam kod na ravni NUTS 3 za Turčijo</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Seznam NUTS kod za 3. stopnjo za Ukrajino</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Seznam kod NUTS ravni 3 za Kosovo</entry>
 <entry key="codelist|name|organisation-role">Ta preglednica vsebuje seznam različnih funkcij organizacij v postopku za oddajo javnega naročila.</entry>
 <entry key="codelist|name|organisation-role-service">Seznam možnih kod storitev za ponudnike storitev javnega naročanja</entry>
 <entry key="codelist|name|other-place-service">V tej preglednici so navedena širša geopolitična območja, povezana z lokacijo gradenj in krajem izvedbe ali dobave v okviru javnih naročil.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Seznam dovoljenih kod podvrst obvestila za vrsto obvestila o objavi predhodnega informativnega obvestila o skrajšanem roku za prejem ponudb.</entry>
 <entry key="codelist|name|pin-tran">Seznam dovoljenih kod podvrst obvestila za vrsto obvestila o objavi predhodnega informativnega obvestila o naročilu storitve javnega prevoza.</entry>
 <entry key="codelist|name|planning">Seznam dovoljenih kod vrst obvestila za vrsto obrazca za načrtovanje</entry>
+<entry key="codelist|name|pmc">Seznam dovoljenih kodov podtipov obvestila za vrsto obvestila o predhodnem posvetovanju na trgu</entry>
 <entry key="codelist|name|postcode-country">Seznam kod držav za države, ki imajo poštne številke in zahtevajo njihovo uporabo</entry>
 <entry key="codelist|name|procedure-type-10">Dovoljena vrsta postopka za podvrsto obvestila 10</entry>
 <entry key="codelist|name|procedure-type-11">Dovoljena vrsta postopka za podvrsto obvestila 11</entry>

@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Polish. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Podstawa prawna</entry>
-<entry key="auxiliary|text|BT-08">Rola organizacji</entry>
-<entry key="auxiliary|text|BT-36">Okres obowiązywania</entry>
 <entry key="auxiliary|text|accessibility">Kryteria dostępności</entry>
 <entry key="auxiliary|text|adhoc-communication">Kanał komunikacji ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Kryteria udzielenia zamówienia</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Nabywca</entry>
 <entry key="auxiliary|text|buyer-competent">Właściwy organ</entry>
 <entry key="auxiliary|text|change">Zmiana</entry>
-<entry key="auxiliary|text|change-notice">Ogłoszenie o zmianie</entry>
 <entry key="auxiliary|text|company">Nazwa i adres przedsiębiorstwa/stowarzyszenia</entry>
 <entry key="auxiliary|text|concession-value">Wartość koncesji</entry>
 <entry key="auxiliary|text|conditions-contract">Warunki dotyczące zamówienia</entry>
 <entry key="auxiliary|text|conditions-participation">Warunki udziału</entry>
 <entry key="auxiliary|text|contract-information">Informacje dotyczące zamówienia</entry>
 <entry key="auxiliary|text|contract-terms">Warunki zamówienia</entry>
-<entry key="auxiliary|text|contractor-legal-form">Forma prawna wykonawcy</entry>
 <entry key="auxiliary|text|criterion">Kryterium</entry>
-<entry key="auxiliary|text|cross-border-description">Opis</entry>
 <entry key="auxiliary|text|cross-border-law">Właściwe prawo transgraniczne</entry>
 <entry key="auxiliary|text|design-contest-terms">Warunki systemu konkursu</entry>
 <entry key="auxiliary|text|direct-award">Bezpośrednie udzielenie zamówienia</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Szacowana wartość umów ramowych w grupie części zamówienia</entry>
 <entry key="auxiliary|text|group-of-lots">Grupa części zamówienia</entry>
 <entry key="auxiliary|text|grouping">Nazwa grupy</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Informacje o wynagrodzeniach i karach</entry>
 <entry key="auxiliary|text|international-procurement-instrument">Zamówienie podlega międzynarodowemu instrumentowi zamówień publicznych (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Statystyki dotyczące środków międzynarodowego instrumentu zamówień publicznych (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Języki, w których można zgłaszać wyrażenie zainteresowania</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Status prawny właściwego organu</entry>
 <entry key="auxiliary|text|lot">Część zamówienia</entry>
 <entry key="auxiliary|text|modification">Modyfikacja</entry>
-<entry key="auxiliary|text|name">Nazwa</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Oficjalne nazwy podmiotów oferenta niebędących liderem</entry>
 <entry key="auxiliary|text|non-winning-tender">Oferenci niezwycięscy</entry>
 <entry key="auxiliary|text|notice-information">Informacje o ogłoszeniu</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Organizacja, której budżet jest wykorzystywany do sfinansowania umowy</entry>
 <entry key="auxiliary|text|organisation-mediation">Organ mediacyjny</entry>
 <entry key="auxiliary|text|organisation-paying">Organizacja realizująca płatność</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Organizacja rozpatrująca wnioski o dopuszczenie do udziału</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organizacja rozpatrująca oferty</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Organizacja zapewniająca dostęp offline do dokumentów zamówienia</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie ochrony zatrudnienia i warunków pracy, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Organizacja udzielająca dodatkowych informacji na temat procedur odwoławczych</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organizacja udzielająca informacji na temat ogólnych ram regulujących kwestie podatków, mających zastosowanie w miejscu, w którym zamówienie ma być realizowane</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Podmiot świadczący usługi w zakresie zamówień</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Organizacja przyjmująca oferty</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Organizacja (lub osoba) składająca odwołanie, która ma lub miała interes w uzyskaniu zamówienia i która poniósła szkodę lub może ponieść szkodę w wyniku domniemanego naruszenia</entry>
 <entry key="auxiliary|text|organisation-review">Organ odwoławczy</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Organizacja udzielająca dodatkowych informacji na temat terminów procedur odwoławczych</entry>
-<entry key="auxiliary|text|organisation-roles">Role organizacji</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organizacja podpisująca umowę</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Podwykonawca</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Organizacja przyjmująca wnioski o dopuszczenie do udziału</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Warunki udzielenia zamówienia</entry>
 <entry key="auxiliary|text|public-opening">Informacje na temat publicznego otwarcia</entry>
 <entry key="auxiliary|text|publication-gazette">Publikacja w dzienniku urzędowym</entry>
-<entry key="auxiliary|text|publication-information">Informacje o publikacji</entry>
 <entry key="auxiliary|text|purpose">Przeznaczenie</entry>
 <entry key="auxiliary|text|quality-targets">Cele w zakresie jakości</entry>
 <entry key="auxiliary|text|range-tenders">Zakres ofert</entry>
 <entry key="auxiliary|text|received-submissions">Otrzymane oferty lub wnioski o dopuszczenie do udziału</entry>
 <entry key="auxiliary|text|renewal">Wznowienie</entry>
 <entry key="auxiliary|text|results">Wyniki</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Wynik postępowania o udzielenie zamówienia</entry>
 <entry key="auxiliary|text|review">Odwołanie</entry>
 <entry key="auxiliary|text|review-request-withdrawn">Wniosek o przegląd lub środki tymczasowe został wycofany</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Rodzaj domniemanej nieprawidłowości</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Warunki zgłoszenia</entry>
 <entry key="auxiliary|text|techniques">Techniki</entry>
 <entry key="auxiliary|text|tender">Oferta</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Podwykonawcy oferenta</entry>
 <entry key="auxiliary|text|unpublished">nieopublikowane</entry>
 <entry key="auxiliary|text|value">Wartość</entry>
 <entry key="auxiliary|text|winner">Zwycięzca</entry>
 <entry key="auxiliary|text|winner-info">Informacje o zwycięzcach</entry>
 <entry key="auxiliary|text|winner-lots">Zwycięzca tych części zamówienia</entry>
-<entry key="auxiliary|text|winner-subcontractor">Podwykonawcy zwycięzcy</entry>
 </properties>

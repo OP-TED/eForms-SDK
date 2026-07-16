@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Lista ta’ kodiċijiet tas-Sottotip ta’ Avviż permessi għal avviż ta’ Tip ta’ Avviż ta’ Disinn Standard CN.</entry>
 <entry key="codelist|name|communication-justification">Din it-tabella tipprovdi l-ġustifikazzjoni għar-restrizzjoni tad-drittijiet ta’ aċċess għar-riżorsi fil-kuntest tal-akkwist pubbliku.</entry>
 <entry key="codelist|name|competition">Lista ta’ kodiċijiet tat-Tip ta’ Avviż permessi għal Tip ta’ Formola ta’ Kompetizzjoni</entry>
+<entry key="codelist|name|compl">Lista ta' kodi tas-Sottotipi ta' Avviż permessi għal Tip ta' Avviż ta' Tlesti Kuntatt</entry>
+<entry key="codelist|name|completion">Lista ta' kodi tat-Tipi ta' Avviż permessi għal Tip ta' Formola ta' Tlesti</entry>
 <entry key="codelist|name|conditions">Kodiċijiet għall-kundizzjonijiet</entry>
+<entry key="codelist|name|consultation">Lista ta' kodi tat-Tipi ta' Avviż permessi għal Tip ta' Formola ta' Konsultazzjoni</entry>
 <entry key="codelist|name|cont-modif">Lista ta’ kodiċijiet ta’ Tip ta’ Avviż permessi għal avviż ta’ Tip ta’ Formola ta’ Modifika tal-Kuntratt.</entry>
 <entry key="codelist|name|contract-detail">Din it-tabella tipprovdi qafas li jirrappreżenta d-data relatata mal-akkwist.</entry>
 <entry key="codelist|name|contract-nature">Lista ta’ kodiċijiet użati biex jispeċifikaw in-natura prinċipali u addizzjonali ta’ xiri</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR j introduċi sett ta' regoli ġodda li jippermetti lill-Kummissjoni jindirizza d-distorsjonijiet kawżati minn sussidji barranin.</entry>
 <entry key="codelist|name|form-type">Din it-tabella tipprovdi l-kodiċijiet u l-valuri użati għat-tip ta’ formoli ppubblikati fuq it-TED.</entry>
 <entry key="codelist|name|framework-agreement">Din it-tabella tipprovdi l-lista ta’ kodiċijiet biex issir distinzjoni bejn it-tipi differenti ta’ ftehim qafas involuti f’offerta.</entry>
+<entry key="codelist|name|fsr">Lista ta' kodiċi biex tispeċifika jekk ir-Regolament dwar is-Sussidji Barranin japplikax</entry>
 <entry key="codelist|name|gpp-criteria">Kriterji għall-Akkwist Pubbliku Ekoloġiku</entry>
 <entry key="codelist|name|indicator">Lista ta’ valuri tal-indikaturi permessi għal formoli elettroniċi</entry>
 <entry key="codelist|name|innovative-acquisition">Din it-tabella tipprovdi l-kodiċijiet u l-valuri użati għat-tip ta’ xogħlijiet, provvisti jew servizzi innovattivi li qed jiġu akkwistati fil-kuntest tal-akkwist pubbliku.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Din it-tabella tipprovdi l-lista ta' kodiċi u valuri użati biex jispeċifikaw l-eċċezzjoni għall-applikazzjoni tal-miżura IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Din it-tabella tipprovdi l-lista ta' kodiċi u valuri użati biex jispeċifikaw il-miżura IPI applikata</entry>
+<entry key="codelist|name|ipi-scope">Din it-tabella tipprovdi l-lista ta' kodiċi u valuri użati biex jindikaw li akkwist jaqa' taħt il-kamp ta' applikazzjoni tal-Istrument Internazzjonali għall-Akkwist</entry>
 <entry key="codelist|name|irregularity-type">Din il-lista ta’ kodiċijiet ġeneralment tirreferi għat-tipi ta’ irregolaritajiet deskritti fit-Taqsima 2 tal-Anness tad-Deċiżjoni tal-Kummissjoni C(2019) 3452.</entry>
 <entry key="codelist|name|language">Lista ta’ tliet karattri kodiċijiet tal-lingwa korrelatati mal-istandard internazzjonali ISO 639 b’kodiċijiet addizzjonali għal xi lingwi mingħajr il-kodiċi ISO assenjat.</entry>
 <entry key="codelist|name|lawful-country">Lista ta’ pajjiżi li għalihom hemm bażi legali għall-pubblikazzjoni fis-Suppliment ta’ Il-Ġurnal Uffiċjali tal-Unjoni Ewropea</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Lista ta’ kodiċijiet biex jiġi speċifikat jekk verżjoni lingwistika għandhiex status legali jew le.</entry>
 <entry key="codelist|name|main-activity">Lista ta’ kodiċijiet għall-attivitajiet ewlenin tax-xerrejja.</entry>
 <entry key="codelist|name|measurement-unit">Lista ta’ kodiċijiet għall-Unità ta’ Miżuri użata bl-aktar mod komuni fil-kummerċ internazzjonali.</entry>
+<entry key="codelist|name|metric-type">Lista ta' kodiċi użati biex jikkaratterizzaw it-tip ta' metrika koperta bin-numri speċifikati</entry>
 <entry key="codelist|name|missing-info-submission">Din it-tabella tipprovdi l-lista ta’ kodiċijiet li jindikaw jekk l-informazzjoni relatata mal-offerent (sħiħa jew parzjali) tistax tiġi ssupplimentata anki wara l-iskadenza għas-sottomissjoni.</entry>
 <entry key="codelist|name|modification-justification">Din it-tabella tipprovdi r-raġunijiet ewlenin għall-modifika ta’ kuntratt fil-qasam tal-akkwist pubbliku.</entry>
 <entry key="codelist|name|nda">Lista ta’ kodiċijiet biex jiġi speċifikat jekk hux meħtieġ ftehim ta’ nuqqas ta’ divulgazzjoni.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Lista ta' kodiċijiet NUTS tal-livell 3 għas-Slovenja</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Lista ta' kodiċijiet NUTS tal-livell 3 għall-Iżvezja</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Lista ta' kodiċijiet NUTS tal-livell 3 għat-Turkija</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Lista ta' kodi NUTS ta' livell 3 għall-Ukrajna</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Lista ta' kodiċi NUTS ta' livell 3 għal Kosovo</entry>
 <entry key="codelist|name|organisation-role">Din it-tabella tipprovdi l-lista tal-funzjonijiet differenti tal-organizzazzjonijiet fi proċedura ta’ akkwist.</entry>
 <entry key="codelist|name|organisation-role-service">Lista ta’ kodiċijiet ta’ servizz possibbli għall-Fornituri ta’ Servizzi ta’ Akkwist</entry>
 <entry key="codelist|name|other-place-service">Din it-tabella tipprovdi l-oqsma ġeopolitiċi wesgħin marbutin mal-post tax-xogħlijiet u l-post tal-prestazzjoni jew tal-konsenja fil-kuntest tal-akkwist pubbliku.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Lista ta’ kodiċijiet tas-Sottotip ta’ Avviż permessi għal avviż ta’ PIN għat-Tip ta’ Avviż Limitu ta’ Żmien Imnaqqas.</entry>
 <entry key="codelist|name|pin-tran">Lista ta’ kodiċijiet tas-Sottotip ta’ Avviż permessi għal avviż ta’ PIN għat-Tip ta’ Avviż Kuntratt ta’ Servizz ta’ Trasport Pubbliku.</entry>
 <entry key="codelist|name|planning">Lista ta’ kodiċijiet tat-Tip ta’ Avviż permessi għal Tip ta’ Formola ta’ Ppjanar</entry>
+<entry key="codelist|name|pmc">Lista ta' kodiċi ta' Sottotip ta' Avviż permessi għal Tip ta' Avviż ta' Konsultazzjoni Pre-suq</entry>
 <entry key="codelist|name|postcode-country">Lista ta' kodiċijiet tal-pajjiżi għall-pajjiżi li għandhom kodiċijiet postali u li jeħtieġu l-użu tagħhom</entry>
 <entry key="codelist|name|procedure-type-10">Tip ta’ proċedura permess għas-sottotip ta’ avviż 10</entry>
 <entry key="codelist|name|procedure-type-11">Tip ta’ proċedura permess għas-sottotip ta’ avviż 11</entry>

@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">A település (város, község vagy falu) neve, amelyben a teljesítés helye található.</entry>
 <entry key="business-term|description|BT-514">A szervezet fizikai címe szerinti ország.</entry>
 <entry key="business-term|description|BT-5141">A teljesítés helye szerinti ország kódja.</entry>
-<entry key="business-term|description|BT-52">Erre az eljárásra egymást követő szakaszokban kerül sor. Minden szakaszban kieshet néhány résztvevő.</entry>
+<entry key="business-term|description|BT-52">Az eljárás egymást követő szakaszokban zajlik. A második szakasz után a résztvevők egy része minden további szakaszban kieshet.</entry>
 <entry key="business-term|description|BT-53">Az ajánlatkérő szervezet fenntartja a jogot (azonban nem köteles arra), hogy további beszerzéseket hajtson végre a vállalkozótól (a szerződés érvényessége alatt).</entry>
 <entry key="business-term|description|BT-531">A beszerzés fő tárgyától eltérő, további tárgya (pl. szolgáltatások).</entry>
 <entry key="business-term|description|BT-536">A (becsült) dátum, amikor a szerződés, a keretmegállapodás, a dinamikus beszerzési rendszer vagy a minősítési rendszer elindul.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">A titoktartási megállapodással kapcsolatos kiegészítő információk.</entry>
 <entry key="business-term|description|BT-803">Az a dátum és időpont, amikor az eSender rendszer a hirdetményt elektronikus úton továbbította az Európai Unió Kiadóhivatalának</entry>
 <entry key="business-term|description|BT-805">A közbeszerzési eljárás magában foglalja a megállapított zöld közbeszerzési kritériumok (kiválasztási kritériumok, műszaki leírások, odaítélési szempontok és szerződésteljesítési kikötések) alkalmazását nemzeti, uniós vagy adott esetben egyéb szinten.</entry>
-<entry key="business-term|description|BT-806">A kizáró okokat ismertető dokumentum, pl. a közbeszerzési dokumentumok, a hirdetmény vagy az egységes európai közbeszerzési dokumentum.</entry>
+<entry key="business-term|description|BT-806">A kizáró okokat ismertető dokumentum, pl. a közbeszerzési dokumentumok, a hirdetmény vagy az egységes európai közbeszerzési dokumentum kérelem.</entry>
 <entry key="business-term|description|BT-809">A kiválasztási szempont.</entry>
 <entry key="business-term|description|BT-810">Erre a közbeszerzési eljárásra az energiahatékonyságról szóló (EU) 2023/1791 irányelv alkalmazandó.</entry>
 <entry key="business-term|description|BT-811">Az energiafogyasztás címkézéséről szóló irányelv, a környezettudatos tervezésről szóló irányelv, az uniós zöld közbeszerzési kritériumok és az (EU) 2020/740 rendelet hatálya alá tartozó termékek, építési beruházások és szolgáltatások kiválasztása. A jelentéstétel céljából az energiahatékonysági irányelv 7. cikkében foglalt kötelezettség hatálya alá tartozó épületek is ide tartoznak. Mivel a lista két szintből áll, ezért két részre oszlik: a) a rendszer pl. „ökocímke” és b) a tényleges tétel, pl. „mosogatógépek”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Az energiafogyasztás értéke kWh/évben a címkével nem rendelkező termékek esetén, és az energia-megtakarítás kWh/évben a szolgáltatások, épületek vagy munkák esetén. Termékek esetén kérjük, jelentse a termék éves energiafogyasztását. Szolgáltatások, munkák és épületek esetén kérjük, jelentse az éves energia-megtakarítást.</entry>
 <entry key="business-term|description|BT-814">Az energiamegtakarítás értéke (kWh/év) termékek, szolgáltatások, építési beruházások és épületek esetében. Kérjük, adja meg az éves energiamegtakarítást.</entry>
 <entry key="business-term|description|BT-815">A megadott vagy megbecsült mennyiség. Termékek esetében adja meg a termékek számát. Épületek esetében adja meg a hasznos alapterületet négyzetméterben. Munkák vagy szolgáltatások esetén az érték általában 1 lesz.</entry>
-<entry key="business-term|description|BT-821">A kiválasztási szempontokat ismertető dokumentum, pl. a közbeszerzési dokumentumok, a hirdetmény vagy az egységes európai közbeszerzési dokumentum.</entry>
+<entry key="business-term|description|BT-821">A kiválasztási szempontokat ismertető dokumentum, pl. a közbeszerzési dokumentumok, a hirdetmény vagy az egységes európai közbeszerzési dokumentum kérelem.</entry>
 <entry key="business-term|description|BT-88">Az eljárás fő jellemzői (pl. az egyes szakaszok leírása) és információ arról, hol lehet megtalálni az eljárás összes szabályát. Ezt az információt akkor kell megadni, ha az eljárás nem a közbeszerzési irányelvekben említett eljárások egyike. Ez lehet a helyzet a koncesszióknál, a szociális és egyéb specifikus szolgáltatásoknál, valamint az uniós közbeszerzési küszöbérték alatti közbeszerzési eljárások önkéntes közzétételénél.</entry>
 <entry key="business-term|description|BT-92">Elektronikus megrendelés használatára fog sor kerülni.</entry>
 <entry key="business-term|description|BT-93">Elektronikus fizetés alkalmazására fog sor kerülni.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">A koncesszió becsült értékének kiszámításához használt módszer</entry>
 <entry key="business-term|name|BT-165">A gazdasági szereplő mérete</entry>
 <entry key="business-term|name|BT-17">Elektronikus benyújtás</entry>
-<entry key="business-term|name|BT-171">Helyezés a nyertesek listáján</entry>
+<entry key="business-term|name|BT-171">Az ajánlat rangsora</entry>
 <entry key="business-term|name|BT-1711">Az ajánlatot rangsorolták</entry>
 <entry key="business-term|name|BT-18">A benyújtásra használható cím</entry>
 <entry key="business-term|name|BT-19">Annak indoklása, hogy miért nem lehetséges az elektronikus benyújtás</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Város</entry>
 <entry key="business-term|name|BT-514">Ország</entry>
 <entry key="business-term|name|BT-5141">Ország</entry>
-<entry key="business-term|name|BT-52">Ez az eljárás több szakaszból áll. Minden szakaszban kiesik néhány résztvevő</entry>
+<entry key="business-term|name|BT-52">Az eljárás egymást követő szakaszokban zajlik. A második szakasz után a résztvevők egy része minden további szakaszban kieshet.</entry>
 <entry key="business-term|name|BT-53">Opciók</entry>
 <entry key="business-term|name|BT-531">A szerződés kiegészítő jellege</entry>
 <entry key="business-term|name|BT-536">Kezdő időpont</entry>

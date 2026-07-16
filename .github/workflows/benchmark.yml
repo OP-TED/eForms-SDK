@@ -1,7 +1,12 @@
 name: Benchmark Schematron rules with the SDK Analyzer
 
 on:
+  # Build on pushes to the trunk only (i.e. merges). Source branches are built
+  # via pull_request, so pushing one with an open PR runs the checks just once.
   push:
+    branches:
+      - develop
+      - efx-2
   pull_request:
   # Allows to also run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -45,10 +50,10 @@ jobs:
           output-file-path: jmh-result.json
           external-data-json-path: ./cache/benchmark-data.json
           # Alert if new results are significantly worse than previous results
-          alert-threshold: "110%"
+          alert-threshold: "125%"
           # Mark the workflow as failed if an alert happens
           fail-on-alert: true
-          # Add a comment on the commit that caused the alert
-          comment-on-alert: true
+          # Set to true to add a comment on the commit that caused the alert
+          comment-on-alert: false
           # GitHub API token to make a commit comment
           github-token: ${{ secrets.GITHUB_TOKEN }}

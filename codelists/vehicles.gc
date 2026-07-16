@@ -287,76 +287,76 @@
             <SimpleValue>Vehicles zero emission</SimpleValue>
          </Value>
          <Value ColumnRef="bul_label">
-            <SimpleValue>Броят на тежкотоварните превозни средства с нулеви емисии</SimpleValue>
+            <SimpleValue>Броят на превозни средства с нулеви емисии</SimpleValue>
          </Value>
          <Value ColumnRef="ces_label">
-            <SimpleValue>Počet těžkých vozidel s nulovými emisemi</SimpleValue>
+            <SimpleValue>Počet vozidel s nulovými emisemi</SimpleValue>
          </Value>
          <Value ColumnRef="dan_label">
-            <SimpleValue>Antallet af tunge nulemissionskøretøjer</SimpleValue>
+            <SimpleValue>Antallet af nulemissionskøretøjer</SimpleValue>
          </Value>
          <Value ColumnRef="deu_label">
-            <SimpleValue>Zahl emissionsfreier schwerer Nutzfahrzeuge</SimpleValue>
+            <SimpleValue>Zahl emissionsfreier Nutzfahrzeuge</SimpleValue>
          </Value>
          <Value ColumnRef="ell_label">
-            <SimpleValue>Ο αριθμός βαρέων επαγγελματικών οχημάτων μηδενικών εκπομπών</SimpleValue>
+            <SimpleValue>Ο αριθμός οχημάτων μηδενικών εκπομπών</SimpleValue>
          </Value>
          <Value ColumnRef="eng_label">
-            <SimpleValue>The number of zero-emission heavy-duty vehicles</SimpleValue>
+            <SimpleValue>The number of zero-emission vehicles</SimpleValue>
          </Value>
          <Value ColumnRef="spa_label">
-            <SimpleValue>Número de vehículos pesados de emisión cero</SimpleValue>
+            <SimpleValue>Número de vehículos de emisión cero</SimpleValue>
          </Value>
          <Value ColumnRef="est_label">
-            <SimpleValue>Heiteta raskeveokite arv</SimpleValue>
+            <SimpleValue>Heiteta sõidukite arv</SimpleValue>
          </Value>
          <Value ColumnRef="fin_label">
-            <SimpleValue>Päästöttömien raskaiden hyötyajoneuvojen määrä</SimpleValue>
+            <SimpleValue>Päästöttömien hyötyajoneuvojen määrä</SimpleValue>
          </Value>
          <Value ColumnRef="fra_label">
-            <SimpleValue>Le nombre de véhicules lourds à émissions nulles</SimpleValue>
+            <SimpleValue>Le nombre de véhicules à émissions nulles</SimpleValue>
          </Value>
          <Value ColumnRef="gle_label">
-            <SimpleValue>Líon na bhfeithiclí tromshaothair astaíochtaí nialasacha</SimpleValue>
+            <SimpleValue>Líon na bhfeithiclí astaíochtaí nialasacha</SimpleValue>
          </Value>
          <Value ColumnRef="hrv_label">
-            <SimpleValue>Broj teških vozila s nultim emisijama</SimpleValue>
+            <SimpleValue>Broj vozila s nultim emisijama</SimpleValue>
          </Value>
          <Value ColumnRef="hun_label">
-            <SimpleValue>A nulla kibocsátású nehézgépjárművek száma</SimpleValue>
+            <SimpleValue>A nulla kibocsátású járművek száma</SimpleValue>
          </Value>
          <Value ColumnRef="ita_label">
-            <SimpleValue>Il numero di veicoli pesanti a emissioni zero</SimpleValue>
+            <SimpleValue>Il numero di veicoli a emissioni zero</SimpleValue>
          </Value>
          <Value ColumnRef="lit_label">
-            <SimpleValue>Visai netaršių sunkiųjų transporto priemonių skaičius</SimpleValue>
+            <SimpleValue>Visai netaršių transporto priemonių skaičius</SimpleValue>
          </Value>
          <Value ColumnRef="lav_label">
-            <SimpleValue>Bezemisiju lielas noslodzes transportlīdzekļu skaits</SimpleValue>
+            <SimpleValue>Bezemisiju transportlīdzekļu skaits</SimpleValue>
          </Value>
          <Value ColumnRef="mlt_label">
-            <SimpleValue>In-numru ta’ vetturi heavy-duty b’emissjonijiet żero</SimpleValue>
+            <SimpleValue>In-numru ta’ vetturi b’emissjonijiet żero</SimpleValue>
          </Value>
          <Value ColumnRef="nld_label">
-            <SimpleValue>Het aantal emissievrije zware bedrijfsvoertuigen</SimpleValue>
+            <SimpleValue>Het aantal emissievrije bedrijfsvoertuigen</SimpleValue>
          </Value>
          <Value ColumnRef="pol_label">
-            <SimpleValue>Liczba bezemisyjnych pojazdów ciężkich</SimpleValue>
+            <SimpleValue>Liczba bezemisyjnych pojazdów</SimpleValue>
          </Value>
          <Value ColumnRef="por_label">
-            <SimpleValue>O número de veículos pesados sem emissões</SimpleValue>
+            <SimpleValue>O número de veículos sem emissões</SimpleValue>
          </Value>
          <Value ColumnRef="ron_label">
-            <SimpleValue>Numărul de vehicule grele cu emisii zero</SimpleValue>
+            <SimpleValue>Numărul de vehicule cu emisii zero</SimpleValue>
          </Value>
          <Value ColumnRef="slk_label">
-            <SimpleValue>Počet ťažkých úžitkových vozidiel s nulovými emisiami</SimpleValue>
+            <SimpleValue>Počet úžitkových vozidiel s nulovými emisiami</SimpleValue>
          </Value>
          <Value ColumnRef="slv_label">
-            <SimpleValue>Število brezemisijskih težkih vozil</SimpleValue>
+            <SimpleValue>Število brezemisijskih vozil</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Antalet utsläppsfria tunga fordon</SimpleValue>
+            <SimpleValue>Antalet utsläppsfria fordon</SimpleValue>
          </Value>
       </Row>
    </SimpleCodeList>

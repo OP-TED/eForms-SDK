@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Navnet på den lokalitet (by, mindre by eller landsby), hvor udførelsesstedet er beliggende.</entry>
 <entry key="business-term|description|BT-514">Landet, hvor organisationen har sin fysiske adresse.</entry>
 <entry key="business-term|description|BT-5141">Udførelseslandet eller stedet.</entry>
-<entry key="business-term|description|BT-52">Proceduren afvikles i successive faser. I hver fase kan nogle ansøgere blive udelukket.</entry>
+<entry key="business-term|description|BT-52">Proceduren vil finde sted i successive faser. Efter anden fase kan nogle deltagere blive elimineret i hver følgende fase.</entry>
 <entry key="business-term|description|BT-53">Køberen forbeholder sig retten (som ikke er en forpligtelse) til at foretage yderligere indkøb fra entreprenøren (i kontraktens gyldighedsperiode).</entry>
 <entry key="business-term|description|BT-531">De kendetegn (f.eks. bygge- og anlægsarbejder) ved det, der købes, som supplerer de vigtigste kendetegn.</entry>
 <entry key="business-term|description|BT-536">Den (anslåede) startdato for kontrakten, rammeaftalen, det dynamiske indkøbssystem eller kvalificeringsordningen.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Supplerende oplysninger om fortrolighedsaftalen.</entry>
 <entry key="business-term|description|BT-803">Datoen og tidspunktet for, hvornår bekendtgørelsen blev sendt elektronisk til Den Europæiske Unions Publikationskontor af eSender</entry>
 <entry key="business-term|description|BT-805">Udbudsproceduren omfatter brugen af fastlagte kriterier for grønne udbud (udvælgelseskriterier, tekniske specifikationer, tildelingskriterier og klausuler om kontraktens gennemførelse) på nationalt plan, EU-plan eller andet plan, hvis relevant.</entry>
-<entry key="business-term|description|BT-806">Her angives det, hvor udelukkelsesgrunden er beskrevet, f.eks. i udbudsdokumenterne, bekendtgørelsen eller det fælles europæiske udbudsdokument (ESPD).</entry>
+<entry key="business-term|description|BT-806">Her angives det, hvor udelukkelsesgrunden er beskrevet, f.eks. i udbudsdokumenterne, bekendtgørelsen eller det fælles europæiske udbudsdokument (ESPD) anmodning.</entry>
 <entry key="business-term|description|BT-809">Udvælgelseskriteriet.</entry>
 <entry key="business-term|description|BT-810">Direktiv (EU) 2023/1791 om energieffektivitet finder anvendelse på denne udbudsprocedure.</entry>
 <entry key="business-term|description|BT-811">Udvælgelse af produkter, bygge- og anlægsarbejder og tjenesteydelser, der er omfattet af energimærkningsdirektivet, direktivet om miljøvenligt design, Unionens kriterier for grønne offentlige indkøb og forordning 2020/740. Med henblik på indberetning er bygninger, der er omfattet af forpligtelsen i energieffektivitetsdirektivets artikel 7, også omfattet. Da listen har to niveauer, er den opdelt i a) basis som "miljømærke" og b) det faktiske produkt som "opvaskemaskiner".</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Værdien af energiforbruget i kWh/år for produkter, for hvilke der ikke findes et mærke, og energibesparelser i kWh/år for tjenester, bygninger eller arbejder. For produkter bedes du rapportere produktets årlige energiforbrug. For tjenester, arbejder og bygninger bedes du rapportere de årlige energibesparelser.</entry>
 <entry key="business-term|description|BT-814">Værdien af energibesparelser i kWh/år for produkter, tjenesteydelser, bygge- og anlægsarbejder og bygninger. Angiv venligst de årlige energibesparelser.</entry>
 <entry key="business-term|description|BT-815">Den leverede eller anslåede mængde. For produkter angives antallet af produkter. For bygninger angives nyttearealet i kvadratmeter. For bygge- og anlægsarbejder eller tjenesteydelser vil værdien normalt være 1.</entry>
-<entry key="business-term|description|BT-821">Her angives det, hvor udvælgelseskriterierne er fastlagt, f.eks. i udbudsdokumenterne, bekendtgørelsen eller det fælles europæiske udbudsdokument (ESPD).</entry>
+<entry key="business-term|description|BT-821">Her angives det, hvor udvælgelseskriterierne er fastlagt, f.eks. i udbudsdokumenterne, bekendtgørelsen eller det fælles europæiske udbudsdokument (ESPD) anmodning.</entry>
 <entry key="business-term|description|BT-88">De vigtigste kendetegn ved proceduren (f.eks. en beskrivelse af den/de enkelte fase(r)) og oplysninger om, hvor det samlede regelsæt for proceduren kan findes). Disse oplysninger skal gives, hvis proceduren ikke er én af de typer, der nævnes i udbudsdirektiverne. Det kan være tilfældet bl.a. for koncessioner, sociale og andre specifikke tjenesteydelser og i tilfælde af frivillig offentliggørelse af udbudsprocedurer, der ligger under EU's udbudstærskler.</entry>
 <entry key="business-term|description|BT-92">Der vil blive anvendt elektronisk bestilling.</entry>
 <entry key="business-term|description|BT-93">Der vil blive anvendt elektronisk betaling.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metode, der er anvendt til at beregne den anslåede værdi af koncessionen</entry>
 <entry key="business-term|name|BT-165">Den økonomiske operatørs størrelse</entry>
 <entry key="business-term|name|BT-17">Elektronisk indgivelse</entry>
-<entry key="business-term|name|BT-171">Rangfølge på listen over vindere</entry>
+<entry key="business-term|name|BT-171">Rangeringen af tilbuddet</entry>
 <entry key="business-term|name|BT-1711">Tilbuddet blev rangordnet</entry>
 <entry key="business-term|name|BT-18">Indgivelsesadresse</entry>
 <entry key="business-term|name|BT-19">Begrundelse for, hvorfor elektronisk indgivelse ikke er mulig</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">By</entry>
 <entry key="business-term|name|BT-514">Land</entry>
 <entry key="business-term|name|BT-5141">Land</entry>
-<entry key="business-term|name|BT-52">Proceduren afvikles i successive faser. I hver fase kan nogle ansøgere blive udelukket</entry>
+<entry key="business-term|name|BT-52">Proceduren vil finde sted i successive faser. Efter anden fase kan nogle deltagere blive elimineret i hver følgende fase.</entry>
 <entry key="business-term|name|BT-53">Muligheder</entry>
 <entry key="business-term|name|BT-531">Supplerende kontrakttype</entry>
 <entry key="business-term|name|BT-536">Startdato</entry>

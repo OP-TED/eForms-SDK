@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Tarjoukset/hakemukset käsittelevä organisaatio</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Tarjoukset/hakemukset vastaanottava organisaatio</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Tarjousten/hakemusten voimassaoloaika</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Tietoa määräajan jälkeisestä tarjouksesta/hakemuksesta</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Tietoa tarjoajalle</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Tarjouspyynnön ehdot</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Puhtaiden ajoneuvojen direktiivin tiedot</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Puhtaiden ajoneuvojen direktiivin sopimustyyppi</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Menettelyn tyyppi</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Menettelyn lisätiedot</entry>
 <entry key="group|name|GR-Procedure-Purpose">Tarkoitus</entry>
-<entry key="group|name|GR-Procedure-SProvider">Palveluntarjoaja</entry>
+<entry key="group|name|GR-Procedure-SProvider">Hankintapalvelujen tarjoaja</entry>
 <entry key="group|name|GR-Procedure-Scope">Hankinnan laajuus</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Lisäluokitus</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Pääasiallinen luokitus</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Arvioidut tulot käyttöoikeuden käyttäjiltä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Käyttöoikeuden ennakoidun arvon laskentamenetelmä (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Käyttöoikeuden arvo (julkaistaan myöhemmin)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Sijoitus voittajien luettelossa (julkaistaan myöhemmin)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Tarjouksen sijoitus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Tarjouksen sijoitus (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Tuotteen tai palvelun alkuperämaa (julkaistaan myöhemmin)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Tarjous on vaihtoehtoinen tarjous (julkaistaan myöhemmin)</entry>

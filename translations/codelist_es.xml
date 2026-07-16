@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Lista de códigos de subtipo de anuncio permitidos para un tipo de anuncio estándar de anuncio de licitación para proyectos de diseño.</entry>
 <entry key="codelist|name|communication-justification">Este cuadro ofrece la justificación para restringir los derechos de acceso a los recursos en el contexto de la contratación pública.</entry>
 <entry key="codelist|name|competition">Lista de códigos de tipo de anuncio permitidos para un tipo de anuncio de formulario de licitación</entry>
+<entry key="codelist|name|compl">Lista de códigos de subtipo de aviso permitidos para un tipo de aviso de finalización de contrato</entry>
+<entry key="codelist|name|completion">Lista de códigos de tipo de aviso permitidos para un tipo de formulario de finalización</entry>
 <entry key="codelist|name|conditions">Códigos de las condiciones</entry>
+<entry key="codelist|name|consultation">Lista de códigos de tipo de aviso permitidos para un tipo de formulario de consulta</entry>
 <entry key="codelist|name|cont-modif">Lista de códigos de tipo de anuncio permitidos para un tipo de anuncio de formulario de modificación del contrato</entry>
 <entry key="codelist|name|contract-detail">Este cuadro proporciona un marco para representar los datos relativos a la contratación pública.</entry>
 <entry key="codelist|name|contract-nature">Lista de códigos utilizados para especificar la naturaleza principal y adicional de una compra</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">El FSR introduce un nuevo conjunto de reglas que permite a la Comisión abordar las distorsiones causadas por las subvenciones extranjeras.</entry>
 <entry key="codelist|name|form-type">Este cuadro recoge los códigos y valores utilizados para el tipo de formularios publicados en el TED.</entry>
 <entry key="codelist|name|framework-agreement">Este cuadro contiene la lista de códigos para distinguir los diferentes tipos de acuerdos marco que intervienen en una oferta.</entry>
+<entry key="codelist|name|fsr">Lista de códigos para especificar si se aplica el Reglamento de Subvenciones Extranjeras</entry>
 <entry key="codelist|name|gpp-criteria">Criterios de contratación pública ecológica</entry>
 <entry key="codelist|name|indicator">Lista de valores de indicadores permitidos en los formularios electrónicos</entry>
 <entry key="codelist|name|innovative-acquisition">Este cuadro recoge los códigos y valores utilizados para el tipo de obras, suministros o servicios innovadores que se contratan en el contexto de la contratación pública.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Esta tabla proporciona la lista de códigos y valores utilizados para especificar la excepción a la aplicación de la medida IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Esta tabla proporciona la lista de códigos y valores utilizados para especificar la medida IPI aplicada</entry>
+<entry key="codelist|name|ipi-scope">Esta tabla proporciona la lista de códigos y valores utilizados para indicar que una contratación se encuentra bajo el alcance del Instrumento Internacional de Contratación</entry>
 <entry key="codelist|name|irregularity-type">Esta lista de códigos se refiere generalmente a los tipos de irregularidades descritos en la sección 2 del anexo de la Decisión C(2019) 3452 de la Comisión.</entry>
 <entry key="codelist|name|language">Lista de códigos de idioma de tres caracteres correlacionados con la norma internacional ISO 639 con códigos adicionales para algunos idiomas sin código ISO asignado.</entry>
 <entry key="codelist|name|lawful-country">Lista de países para los que existe una base jurídica para la publicación en el Suplemento del Diario Oficial de la Unión Europea</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Lista de códigos para especificar si una versión lingüística tiene o no personalidad jurídica.</entry>
 <entry key="codelist|name|main-activity">Lista de códigos de las principales actividades de los compradores.</entry>
 <entry key="codelist|name|measurement-unit">Lista de códigos para la unidad de medidas más comúnmente utilizada en el comercio internacional.</entry>
+<entry key="codelist|name|metric-type">Lista de códigos utilizados para caracterizar el tipo de métrica cubierta por los números especificados</entry>
 <entry key="codelist|name|missing-info-submission">Este cuadro contiene la lista de códigos que indican si la información relacionada con un licitador (completa o parcial) puede completarse incluso después de la fecha límite de presentación.</entry>
 <entry key="codelist|name|modification-justification">Este cuadro presenta las principales razones para modificar un contrato en el ámbito de la contratación pública.</entry>
 <entry key="codelist|name|nda">Lista de códigos para especificar si se requiere o no un acuerdo de confidencialidad.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Lista de códigos del nivel NUTS 3 para Eslovenia</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Lista de códigos del nivel NUTS 3 para Suecia</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Lista de códigos del nivel NUTS 3 para Turquía</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Lista de códigos NUTS de nivel 3 para Ucrania</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Lista de códigos NUTS de nivel 3 para Kosovo</entry>
 <entry key="codelist|name|organisation-role">Este cuadro contiene la lista de las diferentes funciones de las organizaciones en un procedimiento de contratación pública.</entry>
 <entry key="codelist|name|organisation-role-service">Lista de posibles códigos de servicios para los prestadores de servicios de contratación pública</entry>
 <entry key="codelist|name|other-place-service">Este cuadro presenta las amplias áreas geopolíticas vinculadas a la ubicación de las obras y el lugar de ejecución o entrega en el contexto de la contratación pública.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Lista de códigos de subtipo de anuncio permitidos para un tipo de anuncio de límite de tiempo reducido de anuncio de información previa.</entry>
 <entry key="codelist|name|pin-tran">Lista de códigos de subtipo de anuncio permitidos para un tipo de anuncio de contrato de servicios de transporte público de anuncio de información previa.</entry>
 <entry key="codelist|name|planning">Lista de códigos de tipo de anuncio permitidos para un tipo de formulario de planificación</entry>
+<entry key="codelist|name|pmc">Lista de códigos de subtipo de aviso permitidos para un tipo de aviso de Consulta Previa al Mercado</entry>
 <entry key="codelist|name|postcode-country">Lista de códigos de país para los países que tienen códigos postales y exigen su uso</entry>
 <entry key="codelist|name|procedure-type-10">Tipo de procedimiento permitido para el subtipo de anuncio 10</entry>
 <entry key="codelist|name|procedure-type-11">Tipo de procedimiento permitido para el subtipo de anuncio 11</entry>

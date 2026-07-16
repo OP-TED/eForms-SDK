@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Organizația care prelucrează ofertele</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Organizația care primește ofertele</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Valabilitatea ofertelor</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Informații privind depunerea tardivă a ofertei</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Informații pentru ofertant</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Condiții de ofertare</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Informații privind Directiva privind vehiculele curate</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Tip de contract conform Directivei privind vehiculele curate</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Tip de procedură</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Detalii despre tipul de procedură</entry>
 <entry key="group|name|GR-Procedure-Purpose">Scop</entry>
-<entry key="group|name|GR-Procedure-SProvider">Furnizor de servicii</entry>
+<entry key="group|name|GR-Procedure-SProvider">Furnizor de servicii de achiziție</entry>
 <entry key="group|name|GR-Procedure-Scope">Domeniul de aplicare al achiziției publice</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Clasificare suplimentară</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Clasificare principală</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Venituri estimate de la utilizatorii concesiunii (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Metoda utilizată pentru calcularea valorii estimate a concesiunii (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Descrierea valorii concesiunii (publicare ulterioară)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Clasamentul pe lista câștigătorilor (publicare ulterioară)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Poziția ofertei (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Poziția ofertei (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Țara de origine a produsului sau a serviciului (publicare ulterioară)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Oferta este o variantă (publicare ulterioară)</entry>
