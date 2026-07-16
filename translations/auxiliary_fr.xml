@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in French. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Base juridique</entry>
-<entry key="auxiliary|text|BT-08">Rôle de l’organisation</entry>
-<entry key="auxiliary|text|BT-36">Durée</entry>
 <entry key="auxiliary|text|accessibility">Critères d’accessibilité</entry>
 <entry key="auxiliary|text|adhoc-communication">Canal de communication ad hoc</entry>
 <entry key="auxiliary|text|award-criteria">Critères d’attribution</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Acheteur</entry>
 <entry key="auxiliary|text|buyer-competent">Autorité compétente</entry>
 <entry key="auxiliary|text|change">Changement</entry>
-<entry key="auxiliary|text|change-notice">Avis de changement</entry>
 <entry key="auxiliary|text|company">Nom et adresse de l’entreprise/la société</entry>
 <entry key="auxiliary|text|concession-value">Valeur de la concession</entry>
 <entry key="auxiliary|text|conditions-contract">Conditions relatives au marché</entry>
 <entry key="auxiliary|text|conditions-participation">Conditions de participation</entry>
 <entry key="auxiliary|text|contract-information">Informations relatives au marché</entry>
 <entry key="auxiliary|text|contract-terms">Conditions du marché</entry>
-<entry key="auxiliary|text|contractor-legal-form">Forme juridique de l'adjudicataire/attributaire</entry>
 <entry key="auxiliary|text|criterion">Critère</entry>
-<entry key="auxiliary|text|cross-border-description">Description du marché transfrontalier</entry>
 <entry key="auxiliary|text|cross-border-law">Règlementation applicable en cas de marché transfrontalier</entry>
 <entry key="auxiliary|text|design-contest-terms">Modalités de sélection du concours</entry>
 <entry key="auxiliary|text|direct-award">Attribution directe</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Valeur estimée des accords-cadres dans le groupe de lots</entry>
 <entry key="auxiliary|text|group-of-lots">Groupe de lots</entry>
 <entry key="auxiliary|text|grouping">Nom du groupement</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Informations sur les primes et pénalités</entry>
 <entry key="auxiliary|text|international-procurement-instrument">La passation de marché relève de l'Instrument d'achat international (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Statistiques sur les mesures de l'Instrument d'achat international (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Langues dans lesquelles les manifestations d’intérêt peuvent être présentées</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Forme juridique de l’autorité compétente</entry>
 <entry key="auxiliary|text|lot">Lot</entry>
 <entry key="auxiliary|text|modification">Modification</entry>
-<entry key="auxiliary|text|name">Nom</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Noms officiels des non-chefs de file du soumissionnaire</entry>
 <entry key="auxiliary|text|non-winning-tender">Soumissionnaires non retenus</entry>
 <entry key="auxiliary|text|notice-information">Informations relatives à l’avis</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Organisation dont le budget est utilisé pour payer le marché</entry>
 <entry key="auxiliary|text|organisation-mediation">Organisation chargée des procédures de médiation</entry>
 <entry key="auxiliary|text|organisation-paying">Organisation qui exécute le paiement</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Organisation qui traite les demandes de participation/candidatures</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organisation qui traite les offres</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Organisation qui fournit un accès hors ligne aux documents de marché</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de protection du travail et de conditions de travail, est applicable au lieu d'exécution</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Organisation qui fournit des précisions concernant l’introduction des recours</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organisation qui fournit des informations sur le cadre réglementaire général qui, en matière de fiscalité, est applicable au lieu d'exécution</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Prestataire de services de passation de marché</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Organisation qui reçoit les offres</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Organisation (ou personne) introduisant une demande de recours qui est ou a été intéressée par un marché et a été ou risque d’être lésée par une violation alléguée</entry>
 <entry key="auxiliary|text|organisation-review">Organisation chargée des procédures de recours</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Organisation qui fournit des précisions concernant les délais d’introduction des recours</entry>
-<entry key="auxiliary|text|organisation-roles">Rôles des organisations</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organisation qui signe le contrat</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Sous-traitant</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Organisation qui reçoit les demandes de participation/candidatures</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Conditions du marché public</entry>
 <entry key="auxiliary|text|public-opening">Informations relatives à l’ouverture publique</entry>
 <entry key="auxiliary|text|publication-gazette">Publication au journal officiel</entry>
-<entry key="auxiliary|text|publication-information">Informations relatives à la publication</entry>
 <entry key="auxiliary|text|purpose">Objet</entry>
 <entry key="auxiliary|text|quality-targets">Objectifs de qualité</entry>
 <entry key="auxiliary|text|range-tenders">Éventail d’offres</entry>
 <entry key="auxiliary|text|received-submissions">Offres ou demandes de participation/candidatures reçues</entry>
 <entry key="auxiliary|text|renewal">Reconduction</entry>
 <entry key="auxiliary|text|results">Résultats</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Résultat de la procédure de passation de marché</entry>
 <entry key="auxiliary|text|review">Recours</entry>
 <entry key="auxiliary|text|review-request-withdrawn">La demande de révision ou de mesures provisoires a été retirée</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Type d’irrégularité alléguée</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Conditions de soumission</entry>
 <entry key="auxiliary|text|techniques">Techniques</entry>
 <entry key="auxiliary|text|tender">Offre</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Sous-traitants de l'offrant</entry>
 <entry key="auxiliary|text|unpublished">dépublié</entry>
 <entry key="auxiliary|text|value">Valeur</entry>
 <entry key="auxiliary|text|winner">Adjudicataire/attributaire</entry>
 <entry key="auxiliary|text|winner-info">Informations sur les adjudicataires/attributaires</entry>
 <entry key="auxiliary|text|winner-lots">adjudicataire/attributaire de ces lots</entry>
-<entry key="auxiliary|text|winner-subcontractor">Sous-traitant de l'adjudicataire/attributaire</entry>
 </properties>

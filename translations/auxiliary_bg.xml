@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Bulgarian. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Правно основание</entry>
-<entry key="auxiliary|text|BT-08">Роля на организацията</entry>
-<entry key="auxiliary|text|BT-36">Продължителност</entry>
 <entry key="auxiliary|text|accessibility">Критерии за достъпност</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc канал за комуникация</entry>
 <entry key="auxiliary|text|award-criteria">Критерии за възлагане</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Купувач</entry>
 <entry key="auxiliary|text|buyer-competent">Компетентен орган</entry>
 <entry key="auxiliary|text|change">Промяна</entry>
-<entry key="auxiliary|text|change-notice">Обявление за промяна</entry>
 <entry key="auxiliary|text|company">Наименование и адрес на дружеството/компанията</entry>
 <entry key="auxiliary|text|concession-value">Стойност на концесията</entry>
 <entry key="auxiliary|text|conditions-contract">Условия във връзка с договора</entry>
 <entry key="auxiliary|text|conditions-participation">Условия за участие</entry>
 <entry key="auxiliary|text|contract-information">Информация за договора</entry>
 <entry key="auxiliary|text|contract-terms">Условия на договора</entry>
-<entry key="auxiliary|text|contractor-legal-form">Правна форма на изпълнителя</entry>
 <entry key="auxiliary|text|criterion">Критерий</entry>
-<entry key="auxiliary|text|cross-border-description">Описание</entry>
 <entry key="auxiliary|text|cross-border-law">Приложимо трансгранично право</entry>
 <entry key="auxiliary|text|design-contest-terms">Условия на конкурса за проект</entry>
 <entry key="auxiliary|text|direct-award">Пряко възлагане</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Прогнозна стойност на рамковите споразумения в групата обособени позиции</entry>
 <entry key="auxiliary|text|group-of-lots">Група обособени позиции</entry>
 <entry key="auxiliary|text|grouping">Наименование на групата</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Информация за възнагражденията и санкциите</entry>
 <entry key="auxiliary|text|international-procurement-instrument">Обществената поръчка попада в обхвата на Международния инструмент за обществени поръчки (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Статистика за мерките на Международния инструмент за обществени поръчки (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Езици, на които могат да се подават заявления за изразяване на интерес</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Правна категория на компетентния орган</entry>
 <entry key="auxiliary|text|lot">Обособена позиция</entry>
 <entry key="auxiliary|text|modification">Изменение</entry>
-<entry key="auxiliary|text|name">Наименование</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Официални имена на субектите, които не са ръководители на участника в тръжната процедура</entry>
 <entry key="auxiliary|text|non-winning-tender">Неспечелили оференти</entry>
 <entry key="auxiliary|text|notice-information">Информация за обявлението</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Организация, чийто бюджет се използва за плащане за поръчката</entry>
 <entry key="auxiliary|text|organisation-mediation">Медиаторска организация</entry>
 <entry key="auxiliary|text|organisation-paying">Организация, която извършва плащането</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Организация, която обработва заявленията за участие</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Организация, която обработва офертите</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Организация, която предоставя достъп до документацията за поръчката без връзка с интернет</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Организация, която предоставя информация за общата нормативна уредба за защитата на заетостта и условията на труд, приложима на мястото, където ще се изпълнява поръчката</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Организация, предоставяща повече информация за процедурите за преглед (обжалване)</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Организация, която предоставя информация за общата нормативна уредба за данъците, приложима на мястото, където ще се изпълнява поръчката</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Доставчик на услуги в областта на обществените поръчки</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Организация, която получава офертите</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Организация (или лице), искаща преразглеждане (обжалване), която има или е имала интерес по отношение на поръчката и която е понесла или има опасност да понесе щети при предполагаемо нарушение</entry>
 <entry key="auxiliary|text|organisation-review">Oрганизация, отговаряща за преразглеждането (обжалването)</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Организация, която предоставя повече информация за сроковете за процедурите за преразглеждане (обжалване)</entry>
-<entry key="auxiliary|text|organisation-roles">Роли на организациите</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Организация, която подписва договора</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Подизпълнител</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Организация, която получава заявленията за участие</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Условия за възлагане на обществена поръчка</entry>
 <entry key="auxiliary|text|public-opening">Информация за обществената поръчка</entry>
 <entry key="auxiliary|text|publication-gazette">Публикуване в Официален вестник</entry>
-<entry key="auxiliary|text|publication-information">Информация за публикуването</entry>
 <entry key="auxiliary|text|purpose">Цел</entry>
 <entry key="auxiliary|text|quality-targets">Цели за качество</entry>
 <entry key="auxiliary|text|range-tenders">Обхват на офертите</entry>
 <entry key="auxiliary|text|received-submissions">Получени оферти или заявления за участие</entry>
 <entry key="auxiliary|text|renewal">Подновяване</entry>
 <entry key="auxiliary|text|results">Резултати</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Резултат от процедурата за възлагане на обществена поръчка</entry>
 <entry key="auxiliary|text|review">Преразглеждане (обжалване)</entry>
 <entry key="auxiliary|text|review-request-withdrawn">Заявлението за преглед или за временни мерки беше оттеглено</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Вид на предполагаемата нередност</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Условия за подаване</entry>
 <entry key="auxiliary|text|techniques">Техники</entry>
 <entry key="auxiliary|text|tender">Търг</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Подизпълнители на оферента</entry>
 <entry key="auxiliary|text|unpublished">непубликувано</entry>
 <entry key="auxiliary|text|value">Стойност</entry>
 <entry key="auxiliary|text|winner">Победител</entry>
 <entry key="auxiliary|text|winner-info">Информация за победителите</entry>
 <entry key="auxiliary|text|winner-lots">Победител за тези обособени позиции</entry>
-<entry key="auxiliary|text|winner-subcontractor">Подизпълнители на победителя</entry>
 </properties>

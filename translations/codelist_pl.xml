@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Lista dozwolonych kodów podrodzaju ogłoszenia dla ogłoszenia o zamówieniu lub ogłoszenia o koncesji – tryb standardowy.</entry>
 <entry key="codelist|name|communication-justification">Ta tabela zawiera uzasadnienie ograniczenia praw dostępu do zasobów w kontekście zamówień publicznych.</entry>
 <entry key="codelist|name|competition">Lista dozwolonych kodów rodzaju ogłoszenia dla ogłoszenia o typie formularza dotyczącego konkursu</entry>
+<entry key="codelist|name|compl">Lista dozwolonych kodów podtypów ogłoszeń dla typu ogłoszenia o zakończeniu umowy</entry>
+<entry key="codelist|name|completion">Lista dozwolonych kodów typów ogłoszeń dla typu formularza zakończenia</entry>
 <entry key="codelist|name|conditions">Kody określające warunki</entry>
+<entry key="codelist|name|consultation">Lista dozwolonych kodów typów ogłoszeń dla typu formularza konsultacji</entry>
 <entry key="codelist|name|cont-modif">Lista dozwolonych kodów rodzaju ogłoszenia dla ogłoszenia o typie formularza dotyczącego modyfikacji zamówienia</entry>
 <entry key="codelist|name|contract-detail">Ta tabela stanowi ramy do przedstawiania danych dotyczących zamówień.</entry>
 <entry key="codelist|name|contract-nature">Lista kodów używanych do określenia głównego i dodatkowego charakteru zakupu</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">FSR wprowadza nowy zestaw zasad, które umożliwiają Komisji rozwiązywanie problemów związanych z zakłóceniami spowodowanymi przez zagraniczne dotacje.</entry>
 <entry key="codelist|name|form-type">Ta tabela zawiera kody i wartości używane dla typów formularzy publikowanych na TED.</entry>
 <entry key="codelist|name|framework-agreement">Ta tabela zawiera listę kodów rozróżniających poszczególne rodzaje umów ramowych związanych z ofertą.</entry>
+<entry key="codelist|name|fsr">Lista kodów określających, czy ma zastosowanie rozporządzenie w sprawie subsydiów zagranicznych</entry>
 <entry key="codelist|name|gpp-criteria">Kryteria zielonych zamówień publicznych</entry>
 <entry key="codelist|name|indicator">Lista dozwolonych w e-formularzu wartości wskaźników</entry>
 <entry key="codelist|name|innovative-acquisition">Ta tabela zawiera kody i wartości stosowane dla rodzaju innowacyjnych robót budowlanych, dostaw lub usług zamawianych w kontekście zamówień publicznych.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Ta tabela zawiera listę kodów i wartości używanych do określania wyjątku od zastosowania środka IPI</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Ta tabela zawiera listę kodów i wartości używanych do określania zastosowanego środka IPI</entry>
+<entry key="codelist|name|ipi-scope">Tabela ta zawiera listę kodów i wartości używanych do wskazania, że zamówienie publiczne podlega zakresowi Międzynarodowego Instrumentu Zamówień Publicznych</entry>
 <entry key="codelist|name|irregularity-type">Niniejsza lista kodów odnosi się ogólnie do rodzajów nieprawidłowości opisanych w sekcji 2 załącznika do decyzji Komisji C(2019) 3452.</entry>
 <entry key="codelist|name|language">Lista trzyznakowych kodów językowych, skorelowanych z normą międzynarodową ISO 639 i dodatkowymi kodami dla niektórych języków bez przypisanego kodu ISO.</entry>
 <entry key="codelist|name|lawful-country">Wykaz państw, dla których istnieje podstawa prawna do publikacji w Suplemencie do Dziennika Urzędowego Unii Europejskiej</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Lista kodów określających, czy wersja językowa ma status prawny.</entry>
 <entry key="codelist|name|main-activity">Lista kodów dla głównej działalności nabywców.</entry>
 <entry key="codelist|name|measurement-unit">Lista kodów najczęściej używanych jednostek miar w handlu międzynarodowym.</entry>
+<entry key="codelist|name|metric-type">Lista kodów używanych do scharakteryzowania rodzaju metryki objętej określonymi liczbami</entry>
 <entry key="codelist|name|missing-info-submission">Ta tabela zawiera listę kodów wskazujących, czy informacje dotyczące oferenta (pełne lub częściowe) mogą zostać uzupełnione nawet po upływie terminu składania ofert.</entry>
 <entry key="codelist|name|modification-justification">Ta tabela zawiera główne powody modyfikacji zamówienia w dziedzinie zamówień publicznych.</entry>
 <entry key="codelist|name|nda">Lista kodów określających, czy wymagana jest umowa o poufności.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Lista kodów NUTS na poziomie 3 dla Słowenii</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Lista kodów NUTS na poziomie 3 dla Szwecji</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Lista kodów NUTS na poziomie 3 dla Turcji</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Lista kodów NUTS poziomu 3 dla Ukrainy</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Lista kodów NUTS poziom 3 dla Kosowa</entry>
 <entry key="codelist|name|organisation-role">Ta tabela zawiera listę poszczególnych funkcji organizacji w postępowaniu o udzielenie zamówienia.</entry>
 <entry key="codelist|name|organisation-role-service">Lista możliwych kodów usług dla jednostek realizujących obsługę zamówień</entry>
 <entry key="codelist|name|other-place-service">Ta tabela przedstawia szerokie obszary geopolityczne związane z lokalizacją robót budowlanych oraz miejscem realizacji lub dostawy w kontekście zamówień publicznych.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Lista dozwolonych kodów podrodzaju ogłoszenia dla wstępnego ogłoszenia informacyjnego lub okresowego ogłoszenia informacyjnego wykorzystywanego do skrócenia terminu składania ofert.</entry>
 <entry key="codelist|name|pin-tran">Lista dozwolonych kodów podrodzaju ogłoszenia dla wstępnego ogłoszenia informacyjnego dotyczącego usług publicznych w zakresie transportu pasażerskiego.</entry>
 <entry key="codelist|name|planning">Lista dozwolonych kodów rodzaju ogłoszenia dla typu formularza dotyczącego planowania</entry>
+<entry key="codelist|name|pmc">Lista dozwolonych kodów podtypów ogłoszeń dla typu ogłoszenia dotyczącego konsultacji przedrynkowych</entry>
 <entry key="codelist|name|postcode-country">Lista kodów krajów posiadających kody pocztowe i wymagających ich używania</entry>
 <entry key="codelist|name|procedure-type-10">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 10</entry>
 <entry key="codelist|name|procedure-type-11">Dozwolony rodzaj procedury dla podrodzaju ogłoszenia 11</entry>

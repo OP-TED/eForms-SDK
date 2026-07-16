@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Izpildes vietas pilsētas (aglomerācijas vai ciema) nosaukums.</entry>
 <entry key="business-term|description|BT-514">Organizācijas fiziskās adreses valsts.</entry>
 <entry key="business-term|description|BT-5141">Izpildes vietas valsts.</entry>
-<entry key="business-term|description|BT-52">Procedūra notiks secīgos posmos. Katrā posmā daži dalībnieki var tikt izslēgti.</entry>
+<entry key="business-term|description|BT-52">Procedūra notiks secīgos posmos. Pēc otrā posma daži dalībnieki katrā nākamajā posmā var tikt izslēgti.</entry>
 <entry key="business-term|description|BT-53">Pircējs patur sev tiesības (bet ne pienākumu) no darbuzņēmēja iegādāties papildu pirkumus (kamēr līgums ir spēkā).</entry>
 <entry key="business-term|description|BT-531">Iepirkuma veids (piemēram, pakalpojumi), kas papildus raksturo pamatveidu.</entry>
 <entry key="business-term|description|BT-536">(Paredzamais) datums, kad sāks darboties līgums, pamatnolīgums, dinamiskā iepirkumu sistēma vai kvalifikācijas sistēma.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Papildu informācija par informācijas neizpaušanas līgumu.</entry>
 <entry key="business-term|description|BT-803">Datums un laiks, kad e-sūtītājs elektroniski nosūtījis paziņojumu Eiropas Savienības Publikāciju birojam.</entry>
 <entry key="business-term|description|BT-805">Iepirkuma procedūra ietver noteiktu zaļā iepirkuma kritēriju izmantošanu (atlases kritēriji, tehniskās specifikācijas, piešķiršanas kritēriji un līguma izpildes klauzulas) valsts, Savienības vai citā līmenī (attiecīgā gadījumā).</entry>
-<entry key="business-term|description|BT-806">Kur ir aprakstīti izslēgšanas iemesli, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD.</entry>
+<entry key="business-term|description|BT-806">Kur ir aprakstīti izslēgšanas iemesli, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD pieprasījums.</entry>
 <entry key="business-term|description|BT-809">Atlases kritēriji</entry>
 <entry key="business-term|description|BT-810">Šai iepirkuma procedūrai piemērojama Energoefektivitātes direktīva (EED) (ES) 2023/1791.</entry>
 <entry key="business-term|description|BT-811">To ražojumu, būvdarbu un pakalpojumu izlase, uz kuriem attiecas Energomarķējuma direktīva, Ekodizaina direktīva, Savienības zaļā publiskā iepirkuma kritēriji un Regula 2020/740. Ziņošanas nolūkā ir iekļautas arī ēkas, uz kurām attiecas Energoefektivitātes direktīvas 7. pantā noteiktais pienākums. Sarakstam ir divi līmeņi, a) pamatlīmenis, piemēram, “ekomarķējums”, un b) pats ražojums, piemēram, “Trauku mazgājamās mašīnas”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Energijas patēriņa vērtība kWh/gadā produktiem, kuriem nav etiķetes, un energijas ietaupījums kWh/gadā pakalpojumiem, ēkām vai darbiem. Produktiem lūdzu ziņojiet par produkta gada energijas patēriņu. Pakalpojumiem, darbiem un ēkām lūdzu ziņojiet par gada energijas ietaupījumu.</entry>
 <entry key="business-term|description|BT-814">Enerģijas ietaupījuma vērtība, izteikta kā kWh/gadā, ražojumiem, pakalpojumiem, būvdarbiem un ēkām. Lūdzu, norādiet ikgadējo enerģijas ietaupījumu.</entry>
 <entry key="business-term|description|BT-815">Piegādātais vai prognozētais daudzums. Attiecībā uz produktiem, lūdzu, norādiet skaitu. Attiecībā uz ēkām, lūdzu, norādiet izmantojamo grīdas platību kvadrātmetros. Būvdarbiem vai pakalpojumiem vērtība parasti būs 1.</entry>
-<entry key="business-term|description|BT-821">Kur ir definēti atlases kritēriji, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD.</entry>
+<entry key="business-term|description|BT-821">Kur ir definēti atlases kritēriji, piemēram, iepirkuma procedūras dokumentos, paziņojumā vai ESPD pieprasījums.</entry>
 <entry key="business-term|description|BT-88">Procedūras galvenās iezīmes (piemēram, atsevišķo posmu apraksts) un informācija par to, kur var atrast visus procedūras noteikumus. Šo informāciju sniedz, ja procedūra nav viena no iepirkuma direktīvās minētajām. Tas var būt, piemēram, gadījumā, kad izmanto koncesijas, sociālos un citus īpašus pakalpojumus, kā arī tad, ja brīvprātīgi publicē iepirkuma procedūras, kuru vērtība ir zemāka par ES iepirkuma robežvērtībām.</entry>
 <entry key="business-term|description|BT-92">Tiks izmantoti elektroniskie pasūtījumi.</entry>
 <entry key="business-term|description|BT-93">Tiks izmantoti elektroniskie maksājumi.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Koncesijas paredzamās vērtības aprēķināšanai izmantotā metode</entry>
 <entry key="business-term|name|BT-165">Ekonomikas dalībnieka lielums</entry>
 <entry key="business-term|name|BT-17">Elektroniskā iesniegšana</entry>
-<entry key="business-term|name|BT-171">Vieta uzvarētāju sarakstā</entry>
+<entry key="business-term|name|BT-171">Piedāvājuma rangs</entry>
 <entry key="business-term|name|BT-1711">Piedāvājums ticis sarindots</entry>
 <entry key="business-term|name|BT-18">Iesniegšanas adrese</entry>
 <entry key="business-term|name|BT-19">Pamatojums tam, kāpēc nav iespējama elektroniska iesniegšana</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Pilsēta</entry>
 <entry key="business-term|name|BT-514">Valsts</entry>
 <entry key="business-term|name|BT-5141">Valsts</entry>
-<entry key="business-term|name|BT-52">Procedūra notiks secīgos posmos. Katrā posmā daži dalībnieki var tikt izslēgti</entry>
+<entry key="business-term|name|BT-52">Procedūra notiks secīgos posmos. Pēc otrā posma daži dalībnieki katrā nākamajā posmā var tikt izslēgti.</entry>
 <entry key="business-term|name|BT-53">Iespējas</entry>
 <entry key="business-term|name|BT-531">Līguma papildveids</entry>
 <entry key="business-term|name|BT-536">Sākuma datums</entry>

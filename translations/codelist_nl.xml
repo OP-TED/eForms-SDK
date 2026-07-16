@@ -25,7 +25,10 @@
 <entry key="codelist|name|cn-standard">Lijst met toegestane subtypecodes voor aankondigingen van het type Aankondiging van een prijsvraag voor ontwerpen – standaardregeling.</entry>
 <entry key="codelist|name|communication-justification">Deze tabel vermeldt de rechtvaardiging voor het beperken van toegangsrechten tot hulpbronnen in het kader van aanbestedingen voor overheidsopdrachten.</entry>
 <entry key="codelist|name|competition">Lijst met toegestane typecodes voor aankondigingen van het type Formulier voor mededinging</entry>
+<entry key="codelist|name|compl">Lijst van toegestane kennisgeving-subtypecodes voor een contractvoltooiingskennisgevingstype</entry>
+<entry key="codelist|name|completion">Lijst van toegestane kennisgeving-typecodes voor een voltooiingsformuliertype</entry>
 <entry key="codelist|name|conditions">Codes voor voorwaarden</entry>
+<entry key="codelist|name|consultation">Lijst van toegestane kennisgeving-typecodes voor een consultatieformuliertype</entry>
 <entry key="codelist|name|cont-modif">Lijst met toegestane typecodes voor aankondigingen van het type Formulier voor wijziging van een opdracht</entry>
 <entry key="codelist|name|contract-detail">Deze tabel biedt een kader voor de weergave van gegevens met betrekking tot aanbestedingen.</entry>
 <entry key="codelist|name|contract-nature">Lijst met codes waarmee de belangrijkste en aanvullende gesteldheden van een aankoop worden aangegeven</entry>
@@ -63,11 +66,13 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">De FSR introduceert een nieuwe set regels die de Commissie in staat stelt om verstoringen veroorzaakt door buitenlandse subsidies aan te pakken.</entry>
 <entry key="codelist|name|form-type">Deze tabel vermeldt de codes en waarden die worden gebruikt voor het soort formulieren dat op TED wordt gepubliceerd.</entry>
 <entry key="codelist|name|framework-agreement">Deze tabel vermeldt de lijst met codes om de verschillende typen raamovereenkomsten te onderscheiden die bij een inschrijving betrokken zijn.</entry>
+<entry key="codelist|name|fsr">Lijst met codes om aan te geven of de verordening inzake buitenlandse subsidies van toepassing is</entry>
 <entry key="codelist|name|gpp-criteria">Criteria voor groene overheidsopdrachten</entry>
 <entry key="codelist|name|indicator">Lijst van in e-formulieren toegestane indicatorwaarden</entry>
 <entry key="codelist|name|innovative-acquisition">Deze tabel vermeldt de codes en waarden die worden gebruikt voor het type innovatieve werken, leveringen of diensten dat in het kader van aanbestedingen voor overheidsopdrachten wordt aanbesteed.</entry>
 <entry key="codelist|name|international-procurement-instrument-application">Deze tabel geeft de lijst van codes en waarden die worden gebruikt om de uitzondering op de toepassing van de IPI-maatregel te specificeren</entry>
 <entry key="codelist|name|international-procurement-instrument-measure">Deze tabel geeft de lijst van codes en waarden die worden gebruikt om de toegepaste IPI-maatregel te specificeren</entry>
+<entry key="codelist|name|ipi-scope">Deze tabel geeft de lijst van codes en waarden die worden gebruikt om aan te geven dat een aanbesteding valt onder de reikwijdte van het Internationaal Aanbestedingsinstrument</entry>
 <entry key="codelist|name|irregularity-type">Deze codelijst verwijst in het algemeen naar de soorten onregelmatigheden die worden beschreven in deel 2 van de bijlage bij Besluit C(2019) 3452 van de Commissie.</entry>
 <entry key="codelist|name|language">Lijst met taalcodes bestaande uit drie tekens, gecorreleerd met de internationale norm ISO 639, met aanvullende referentiecodes voor sommige talen zonder ISO-code.</entry>
 <entry key="codelist|name|lawful-country">Lijst met landen waarvoor een rechtsgrondslag bestaat voor publicatie in het Supplement op het Publicatieblad van de Europese Unie</entry>
@@ -126,6 +131,7 @@
 <entry key="codelist|name|linguistic-status">Lijst met codes om aan te geven of een taalversie rechtskracht heeft of niet.</entry>
 <entry key="codelist|name|main-activity">Lijst met codes voor de hoofdactiviteiten van de kopers.</entry>
 <entry key="codelist|name|measurement-unit">Lijst met codes voor de meest gebruikte meeteenheid in het internationale handelsverkeer.</entry>
+<entry key="codelist|name|metric-type">Lijst van codes die worden gebruikt om het type metriek te karakteriseren dat door de opgegeven nummers wordt gedekt</entry>
 <entry key="codelist|name|missing-info-submission">Deze tabel vermeldt de lijst van codes waarmee wordt aangegeven of informatie in verband met de inschrijving (volledig of gedeeltelijk) ook na de indieningstermijn kan worden aangevuld.</entry>
 <entry key="codelist|name|modification-justification">Deze tabel vermeldt de belangrijkste redenen voor de wijziging van een opdracht in het geval van overheidsopdrachten.</entry>
 <entry key="codelist|name|nda">Lijst met codes om aan te geven of een geheimhoudingsovereenkomst al dan niet vereist is.</entry>
@@ -178,6 +184,8 @@
 <entry key="codelist|name|nuts-svn-lvl3">Lijst met NUTS-codes van niveau 3 voor Slovenië</entry>
 <entry key="codelist|name|nuts-swe-lvl3">Lijst met NUTS-codes van niveau 3 voor Zweden</entry>
 <entry key="codelist|name|nuts-tur-lvl3">Lijst met NUTS-codes van niveau 3 voor Turkije</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">Lijst van NUTS-codes niveau 3 voor Oekraïne</entry>
+<entry key="codelist|name|nuts-xkx-lvl3">Lijst van NUTS-codes niveau 3 voor Kosovo</entry>
 <entry key="codelist|name|organisation-role">Deze tabel vermeldt een lijst van de verschillende functies van de organisaties in een aanbestedingsprocedure.</entry>
 <entry key="codelist|name|organisation-role-service">Lijst met mogelijke dienstencodes voor aanbieders van aanbestedingsdiensten</entry>
 <entry key="codelist|name|other-place-service">Deze tabel vermeldt de brede geopolitieke gebieden die verband houden met de locatie van werken en de plaats van uitvoering of levering in het kader van aanbestedingen voor overheidsopdrachten.</entry>
@@ -189,6 +197,7 @@
 <entry key="codelist|name|pin-rtl">Lijst van toegestane subtypecodes voor aankondigingen van het type Aankondiging met verkorte termijn.</entry>
 <entry key="codelist|name|pin-tran">Lijst van toegestane subtypecodes voor aankondigingen van het type Opdracht voor openbaar personenvervoer.</entry>
 <entry key="codelist|name|planning">Lijst van toegestane typecodes voor aankondigingen van het type Formulier geplande opdracht</entry>
+<entry key="codelist|name|pmc">Lijst van toegestane aankondigingssubtypecodes voor een pre-marktconsultatieaankondigingstype</entry>
 <entry key="codelist|name|postcode-country">Lijst van landcodes voor landen met postcodes die het gebruik ervan vereisen</entry>
 <entry key="codelist|name|procedure-type-10">Toegestaan type procedure voor aankondigingen van subtype 10</entry>
 <entry key="codelist|name|procedure-type-11">Toegestaan type procedure voor aankondigingen van subtype 11</entry>

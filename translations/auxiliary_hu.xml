@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Hungarian. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Jogalap</entry>
-<entry key="auxiliary|text|BT-08">A szervezet szerepe</entry>
-<entry key="auxiliary|text|BT-36">Időtartam</entry>
 <entry key="auxiliary|text|accessibility">Akadálymentesítési kritériumok</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc kommunikációs csatorna</entry>
 <entry key="auxiliary|text|award-criteria">Odaítélési szempontok</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Vevő</entry>
 <entry key="auxiliary|text|buyer-competent">Illetékes hatóság</entry>
 <entry key="auxiliary|text|change">Változtatás</entry>
-<entry key="auxiliary|text|change-notice">Változtatásról szóló hirdetmény</entry>
 <entry key="auxiliary|text|company">A társaság/társulás neve és címe</entry>
 <entry key="auxiliary|text|concession-value">Koncesszió értéke</entry>
 <entry key="auxiliary|text|conditions-contract">A szerződéssel kapcsolatos feltételek</entry>
 <entry key="auxiliary|text|conditions-participation">Részvételi feltételek</entry>
 <entry key="auxiliary|text|contract-information">A szerződésre vonatkozó információk</entry>
 <entry key="auxiliary|text|contract-terms">A szerződés feltételei</entry>
-<entry key="auxiliary|text|contractor-legal-form">A vállalkozó jogi formája</entry>
 <entry key="auxiliary|text|criterion">Kritérium</entry>
-<entry key="auxiliary|text|cross-border-description">Leírás</entry>
 <entry key="auxiliary|text|cross-border-law">A határokon átnyúlóan alkalmazandó jog</entry>
 <entry key="auxiliary|text|design-contest-terms">A tervpályázati szabályok feltételei</entry>
 <entry key="auxiliary|text|direct-award">Közvetlen odaítélés</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">A részcsoporton belüli keretmegállapodás becsült értéke</entry>
 <entry key="auxiliary|text|group-of-lots">Részcsoport</entry>
 <entry key="auxiliary|text|grouping">A csoportosulás neve</entry>
-<entry key="auxiliary|text|info-rewards-penalties">A díjakra és szankciókra vonatkozó információk</entry>
 <entry key="auxiliary|text|international-procurement-instrument">A beszerzés az Nemzetközi Beszerzési Eszköz (IPI) hatálya alá tartozik</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">A Nemzetközi Beszerzési Eszköz (IPI) intézkedéseinek statisztikái</entry>
 <entry key="auxiliary|text|language-expressions">A szándéknyilatkozatokat ezeken a nyelveken lehet benyújtani</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Az illetékes hatóság jogszabályok szerinti típusa</entry>
 <entry key="auxiliary|text|lot">Rész</entry>
 <entry key="auxiliary|text|modification">Módosítás</entry>
-<entry key="auxiliary|text|name">Név</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Annak az ajánlattevő félnek a hivatalos elnevezései, aki/amely nem csoportvezető</entry>
 <entry key="auxiliary|text|non-winning-tender">Nem nyertes ajánlattevők</entry>
 <entry key="auxiliary|text|notice-information">A hirdetményre vonatkozó információk</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Az a szervezet, amelynek költségvetését a szerződés kifizetésére használják</entry>
 <entry key="auxiliary|text|organisation-mediation">Közvetítő szervezet</entry>
 <entry key="auxiliary|text|organisation-paying">Fizetést végző szervezet</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Részvételi jelentkezéseket feldolgozó szervezet</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Ajánlatokat feldolgozó szervezet</entry>
 <entry key="auxiliary|text|organisation-providing-docs">A közbeszerzési dokumentumokhoz offline hozzáférést biztosító szervezet</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">A szerződés teljesítésének helye szerinti országban alkalmazandó általános munkavédelmi és foglalkoztatási feltételekkel kapcsolatos szabályozási kerettel kapcsolatban tájékoztatást nyújtó szervezet</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">A felülvizsgálati eljárásokról további információkat nyújtó szervezet</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">A szerződés teljesítésének helye szerinti országban alkalmazandó adók általános szabályozási keretével kapcsolatban tájékoztatást nyújtó szervezet</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Közbeszerzési szolgáltató</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Ajánlatokat fogadó szervezet</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Jogorvoslatot kérő szervezet (vagy személy), amelynek (akinek) érdeke fűződik vagy fűződött egy szerződéshez, és amelynek (akinek) az állítólagos jogsértés kárt okozhat vagy okozhatott</entry>
 <entry key="auxiliary|text|organisation-review">Felülvizsgálati szervezet</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">A felülvizsgálati eljárások határidejével kapcsolatban további információt nyújtó szervezet</entry>
-<entry key="auxiliary|text|organisation-roles">A szervezetek feladatkörei</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Szerződést aláíró szervezet</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Alvállalkozó</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Részvételi jelentkezéseket fogadó szervezet</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">A közbeszerzésre irányadó feltételek</entry>
 <entry key="auxiliary|text|public-opening">A nyilvános felbontással kapcsolatos információk</entry>
 <entry key="auxiliary|text|publication-gazette">Közzététel a hivatalos közlönyben</entry>
-<entry key="auxiliary|text|publication-information">A közzétételre vonatkozó információk</entry>
 <entry key="auxiliary|text|purpose">Cél</entry>
 <entry key="auxiliary|text|quality-targets">Minőségi célok</entry>
 <entry key="auxiliary|text|range-tenders">Az ajánlatok köre</entry>
 <entry key="auxiliary|text|received-submissions">Beérkezett ajánlatok vagy részvételi jelentkezések</entry>
 <entry key="auxiliary|text|renewal">Megújítás</entry>
 <entry key="auxiliary|text|results">Eredmények</entry>
-<entry key="auxiliary|text|results-procurement-procedure">A közbeszerzési eljárás eredménye</entry>
 <entry key="auxiliary|text|review">Felülvizsgálat</entry>
 <entry key="auxiliary|text|review-request-withdrawn">A felülvizsgálati vagy ideiglenes intézkedésekre vonatkozó kérelem vissza lett vonva</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Az állítólagos szabálytalanság típusa</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">A benyújtás feltételei</entry>
 <entry key="auxiliary|text|techniques">Sajátos beszerzési módszerek</entry>
 <entry key="auxiliary|text|tender">Ajánlat</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Az ajánlattevő alvállalkozói</entry>
 <entry key="auxiliary|text|unpublished">nincs közzétéve</entry>
 <entry key="auxiliary|text|value">Érték</entry>
 <entry key="auxiliary|text|winner">Nyertes</entry>
 <entry key="auxiliary|text|winner-info">Információk a nyertesekről</entry>
 <entry key="auxiliary|text|winner-lots">E tételek nyertese</entry>
-<entry key="auxiliary|text|winner-subcontractor">A nyertes alvállalkozói</entry>
 </properties>

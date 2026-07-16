@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Danish. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Retsgrundlag</entry>
-<entry key="auxiliary|text|BT-08">Organisationens rolle</entry>
-<entry key="auxiliary|text|BT-36">Varighed</entry>
 <entry key="auxiliary|text|accessibility">Tilgængelighedskriterier</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc-kommunikationskanal</entry>
 <entry key="auxiliary|text|award-criteria">Tildelingskriterier</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Køber</entry>
 <entry key="auxiliary|text|buyer-competent">Kompetent myndighed</entry>
 <entry key="auxiliary|text|change">Ændring</entry>
-<entry key="auxiliary|text|change-notice">Meddelelse om ændring</entry>
 <entry key="auxiliary|text|company">Navn og adresse på virksomheden/selskabet</entry>
 <entry key="auxiliary|text|concession-value">Koncessionsværdi</entry>
 <entry key="auxiliary|text|conditions-contract">Betingelser i forbindelse med kontrakten</entry>
 <entry key="auxiliary|text|conditions-participation">Betingelser for deltagelse</entry>
 <entry key="auxiliary|text|contract-information">Kontraktoplysninger</entry>
 <entry key="auxiliary|text|contract-terms">Betingelser for kontraktens udførelse</entry>
-<entry key="auxiliary|text|contractor-legal-form">Entreprenørens retlige status</entry>
 <entry key="auxiliary|text|criterion">Kriterium</entry>
-<entry key="auxiliary|text|cross-border-description">Beskrivelse</entry>
 <entry key="auxiliary|text|cross-border-law">Gældende lovgivning på tværs af grænserne</entry>
 <entry key="auxiliary|text|design-contest-terms">Vilkår for ordningen for projektkonkurrencer</entry>
 <entry key="auxiliary|text|direct-award">Direkte tildeling</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Anslået værdi af rammeaftalen for gruppen af delkontrakter</entry>
 <entry key="auxiliary|text|group-of-lots">Gruppe af delkontrakter</entry>
 <entry key="auxiliary|text|grouping">Gruppens navn</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Oplysninger om præmier og bøder</entry>
 <entry key="auxiliary|text|international-procurement-instrument">Indkøb falder inden for rammerne af det internationale indkøbsinstrument (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Statistik om foranstaltninger vedrørende det internationale indkøbsinstrument (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Sprog, som interessetilkendegivelserne kan indgives på</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Den kompetent myndigheds retlige status</entry>
 <entry key="auxiliary|text|lot">Delkontrakt</entry>
 <entry key="auxiliary|text|modification">Kontraktændring</entry>
-<entry key="auxiliary|text|name">Navn</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Officielle navne på ikke-ledere hos tilbudsgiveren</entry>
 <entry key="auxiliary|text|non-winning-tender">Ikke-vindende tilbudsgivere</entry>
 <entry key="auxiliary|text|notice-information">Oplysninger om bekendtgørelsen</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Organisation, hvis budget anvendes til at betale for kontrakten</entry>
 <entry key="auxiliary|text|organisation-mediation">Organisation med ansvar for mægling</entry>
 <entry key="auxiliary|text|organisation-paying">Organisation, der udfører betalingen</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Organisation, der behandler ansøgninger om deltagelse</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organisation, der behandler tilbud</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Organisation, der sikrer adgang til udbudsdokumenterne offline</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organisation, der leverer oplysninger om den generelle lovgivningsramme angående sikkerhed på arbejdspladsen og arbejdsvilkår på det sted, hvor kontrakten skal udføres</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Organisation, der leverer yderligere oplysninger om klageprocedurerne</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organisation, der leverer oplysninger om den generelle lovgivningsramme angånde skatter på det sted, hvor kontrakten skal udføres</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Udbudssystemleverandør</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Organisation, der modtager tilbud</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Klagende organisation (eller person), der har eller har haft interesse i en kontrakt, og som har lidt eller risikerer at lide skade som følge af en påstået overtrædelse</entry>
 <entry key="auxiliary|text|organisation-review">Organisation med ansvar for klager</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Organisation, der leverer yderligere oplysninger om tidsfristerne for klageprocedurerne</entry>
-<entry key="auxiliary|text|organisation-roles">Organisationernes roller</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organisation, der underskriver kontrakten</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Underleverandør</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Organisation, der modtager ansøgninger om deltagelse</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Tilbudsvilkår</entry>
 <entry key="auxiliary|text|public-opening">Oplysninger om offentlig iværksættelse</entry>
 <entry key="auxiliary|text|publication-gazette">Offentliggørelse i den officielle tidende</entry>
-<entry key="auxiliary|text|publication-information">Oplysninger om offentliggørelsen</entry>
 <entry key="auxiliary|text|purpose">Formål</entry>
 <entry key="auxiliary|text|quality-targets">Kvalitetsmål</entry>
 <entry key="auxiliary|text|range-tenders">Udvalg af tilbud</entry>
 <entry key="auxiliary|text|received-submissions">Modtagne tilbud og ansøgninger om deltagelse</entry>
 <entry key="auxiliary|text|renewal">Fornyelse</entry>
 <entry key="auxiliary|text|results">Resultater</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Resultaterne af udbudsproceduren</entry>
 <entry key="auxiliary|text|review">Information om klager</entry>
 <entry key="auxiliary|text|review-request-withdrawn">Ansøgningen om gennemgang eller om midlertidige foranstaltninger blev trukket tilbage</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Type påstået uregelmæssighed</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Vilkår for indgivelse</entry>
 <entry key="auxiliary|text|techniques">Teknikker</entry>
 <entry key="auxiliary|text|tender">Tilbud</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Underleverandører af tilbudsgiveren</entry>
 <entry key="auxiliary|text|unpublished">ikke offentliggjort</entry>
 <entry key="auxiliary|text|value">Værdi</entry>
 <entry key="auxiliary|text|winner">Vinder</entry>
 <entry key="auxiliary|text|winner-info">Oplysninger om vinderne</entry>
 <entry key="auxiliary|text|winner-lots">Vinder af disse delkontrakter</entry>
-<entry key="auxiliary|text|winner-subcontractor">Vinderens underentreprenører</entry>
 </properties>

@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Ime mjesta (grada ili sela) koje je mjesto izvršenja.</entry>
 <entry key="business-term|description|BT-514">Zemlja u kojoj je fizička adrese organizacije.</entry>
 <entry key="business-term|description|BT-5141">Zemlja u kojoj je mjesto izvršenja.</entry>
-<entry key="business-term|description|BT-52">Postupak se odvija u uzastopnim fazama. U svakoj se fazi određeni sudionici mogu isključiti.</entry>
+<entry key="business-term|description|BT-52">Postupak će se odvijati u uzastopnim fazama. Nakon druge faze, neki sudionici mogu biti eliminirani u svakoj sljedećoj fazi.</entry>
 <entry key="business-term|description|BT-53">Kupac zadržava pravo (nije riječ o obvezi) na dodatne kupnje od ugovaratelja (dok je ugovor valjan).</entry>
 <entry key="business-term|description|BT-531">Priroda (npr. usluga) onoga što se kupuje, uz glavnu prirodu.</entry>
 <entry key="business-term|description|BT-536">(Predviđeni) datum početka ugovora, okvirnog sporazuma, dinamičkog sustava nabave ili kvalifikacijskog sustava.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Dodatne informacije o sporazumu o povjerljivosti podataka.</entry>
 <entry key="business-term|description|BT-803">Datum i vrijeme e-pošiljateljeva elektroničkog slanja obavijesti Uredu za publikacije Europske unije</entry>
 <entry key="business-term|description|BT-805">Postupak javne nabave uključuje primjenu uspostavljenih kriterija za zelenu javnu nabavu (kriteriji za odabir, tehničke specifikacije, kriteriji za dodjelu, stavke o izvršavanju ugovora) na razini Unije, nacionalnoj ili drugoj razini, ako je primjenjivo.</entry>
-<entry key="business-term|description|BT-806">Ako su osnove za isključenje navedene, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi.</entry>
+<entry key="business-term|description|BT-806">Ako su osnove za isključenje navedene, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi zahtjev.</entry>
 <entry key="business-term|description|BT-809">Kriterij za odabir.</entry>
 <entry key="business-term|description|BT-810">Direktiva o energetskoj učinkovitosti (EED) (EU) 2023/1791 primjenjuje se na ovaj postupak javne nabave.</entry>
 <entry key="business-term|description|BT-811">Odabir proizvoda, radova i usluga obuhvaćenih Direktivom o označivanju energetske učinkovitosti, Direktivom o ekološkom dizajnu, kriterijima Unije za zelenu javnu nabavu i Uredbom 2020/740. Za potrebe izvješćivanja obuhvaćene su i zgrade na koje se primjenjuju obveze iz članka 7. Direktive o energetskoj učinkovitosti. Budući da popis ima dvije razine, podijeljen je na (a) osnovu, npr. „ekološka oznaka” i (b) konkretan proizvod, npr. „perilice suđa”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Vrijednost potrošnje energije u kWh/godini za proizvode za koje ne postoji oznaka, i ušteda energije u kWh/godini za usluge, zgrade ili radove. Za proizvode molimo prijavite godišnju potrošnju energije proizvoda. Za usluge, radove i zgrade molimo prijavite godišnje uštede energije.</entry>
 <entry key="business-term|description|BT-814">Vrijednost uštede energije u kWh/godišnje za proizvode, usluge, radove i zgrade. Navedite godišnju uštedu energije.</entry>
 <entry key="business-term|description|BT-815">Navedena ili procijenjena količina. Za proizvode navesti broj proizvoda. Za zgrade navesti korisnu podnu površinu u kvadratnim metrima. Za radove ili usluge, vrijednost će obično biti 1.</entry>
-<entry key="business-term|description|BT-821">Ako su kriteriji za odabir definirani, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi.</entry>
+<entry key="business-term|description|BT-821">Ako su kriteriji za odabir definirani, na primjer, u dokumentaciji o nabavi, u obavijesti ili u europskoj jedinstvenoj dokumentaciji o nabavi zahtjev.</entry>
 <entry key="business-term|description|BT-88">Glavne značajke postupka (npr. opis pojedinačnih faza) i informacije o tome gdje se mogu pronaći sva pravila za postupak. Te se informacije moraju navesti kad je riječ o postupku koji se ne spominje u direktivama o javnoj nabavi. To može biti slučaj, npr. s koncesijama, društvenim i drugim posebnim uslugama te dobrovoljnim objavljivanjem postupaka javne nabave čija je vrijednost ispod pragova EU-a za javnu nabavu.</entry>
 <entry key="business-term|description|BT-92">Koristit će se elektroničko naručivanje.</entry>
 <entry key="business-term|description|BT-93">Koristit će se elektroničko plaćanje.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metoda za izračun procijenjene vrijednosti koncesije</entry>
 <entry key="business-term|name|BT-165">Veličina gospodarskog subjekta</entry>
 <entry key="business-term|name|BT-17">Elektroničko podnošenje</entry>
-<entry key="business-term|name|BT-171">Mjesto na ljestvici pobjednika</entry>
+<entry key="business-term|name|BT-171">Rang ponude</entry>
 <entry key="business-term|name|BT-1711">Ponude su rangirane</entry>
 <entry key="business-term|name|BT-18">Adresa za podnošenje</entry>
 <entry key="business-term|name|BT-19">Obrazloženje nemogućnosti elektroničkog podnošenja</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Grad</entry>
 <entry key="business-term|name|BT-514">Zemlja</entry>
 <entry key="business-term|name|BT-5141">Zemlja</entry>
-<entry key="business-term|name|BT-52">Postupak će se odvijati u uzastopnim fazama. U svakoj fazi neki sudionici mogu biti isključeni</entry>
+<entry key="business-term|name|BT-52">Postupak će se odvijati u uzastopnim fazama. Nakon druge faze, neki sudionici mogu biti eliminirani u svakoj sljedećoj fazi.</entry>
 <entry key="business-term|name|BT-53">Opcije</entry>
 <entry key="business-term|name|BT-531">Dodatna priroda ugovora</entry>
 <entry key="business-term|name|BT-536">Datum početka</entry>

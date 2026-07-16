@@ -122,7 +122,7 @@
 <entry key="group|name|GR-Lot-TenderEval">Pakkumusi menetlev organisatsioon</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Pakkumusi vastuvõttev organisatsioon</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Pakkumuse jõusolek</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Teave hilinenud esitamise kohta</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Teave pakkujale</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Hanketingimused</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Keskkonnasõbralike sõidukite direktiivi teave</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Keskkonnasõbralike sõidukite direktiivi lepingutüüp</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Menetluse liik</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Menetluse liigi üksikasjad</entry>
 <entry key="group|name|GR-Procedure-Purpose">Eesmärk</entry>
-<entry key="group|name|GR-Procedure-SProvider">Teenuseosutaja</entry>
+<entry key="group|name|GR-Procedure-SProvider">Tugiteenuse osutaja</entry>
 <entry key="group|name|GR-Procedure-Scope">Hanke ulatus</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Lisaklassifikaator</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Põhiklassifikaator</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Kontsessiooni kasutajatelt saadav eeldatav tulu (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Kontsessiooni eeldatava maksumuse arvutamise meetod (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Kontsessiooni maksumuse kirjeldus (avaldatakse hiljem)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Pakkuja koht edukate pakkujate paremusjärjestuses (avaldatakse hiljem)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Pakkumuse koht paremusjärjestuses (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Pakkumuse koht paremusjärjestuses (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Toote või teenuse päritoluriik (avaldatakse hiljem)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">Pakkumus on alternatiivne lahendus (avaldatakse hiljem)</entry>

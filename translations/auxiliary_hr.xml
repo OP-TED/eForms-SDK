@@ -2,9 +2,6 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
 <comment>auxiliary in Croatian. File generated from metadata database.</comment>
-<entry key="auxiliary|text|BT-01">Pravna osnova</entry>
-<entry key="auxiliary|text|BT-08">Uloga organizacije</entry>
-<entry key="auxiliary|text|BT-36">Trajanje</entry>
 <entry key="auxiliary|text|accessibility">Kriteriji pristupačnosti</entry>
 <entry key="auxiliary|text|adhoc-communication">Ad hoc komunikacijski kanal</entry>
 <entry key="auxiliary|text|award-criteria">Kriteriji za dodjelu</entry>
@@ -15,16 +12,13 @@
 <entry key="auxiliary|text|buyer">Kupac</entry>
 <entry key="auxiliary|text|buyer-competent">Nadležno tijelo</entry>
 <entry key="auxiliary|text|change">Promjena</entry>
-<entry key="auxiliary|text|change-notice">Obavijest o promjeni</entry>
 <entry key="auxiliary|text|company">Ime i adresa trgovačkog društva / organizacije</entry>
 <entry key="auxiliary|text|concession-value">Vrijednost koncesije</entry>
 <entry key="auxiliary|text|conditions-contract">Uvjeti koji se odnose na ugovor</entry>
 <entry key="auxiliary|text|conditions-participation">Uvjeti sudjelovanja</entry>
 <entry key="auxiliary|text|contract-information">Informacije o ugovoru</entry>
 <entry key="auxiliary|text|contract-terms">Uvjeti ugovora</entry>
-<entry key="auxiliary|text|contractor-legal-form">Pravni oblik ugovaratelja</entry>
 <entry key="auxiliary|text|criterion">Kriterij</entry>
-<entry key="auxiliary|text|cross-border-description">Opis</entry>
 <entry key="auxiliary|text|cross-border-law">Primjenjivo prekogranično pravo</entry>
 <entry key="auxiliary|text|design-contest-terms">Uvjeti projektnog natječaja</entry>
 <entry key="auxiliary|text|direct-award">Izravna dodjela ugovora</entry>
@@ -47,7 +41,6 @@
 <entry key="auxiliary|text|group-framework-value">Procijenjena vrijednost okvirnih sporazuma unutar skupine grupâ</entry>
 <entry key="auxiliary|text|group-of-lots">Skupina grupâ</entry>
 <entry key="auxiliary|text|grouping">Ime grupacije</entry>
-<entry key="auxiliary|text|info-rewards-penalties">Informacije o nagradama i kaznama</entry>
 <entry key="auxiliary|text|international-procurement-instrument">Nabava je u okviru Međunarodnog instrumenta za nabavu (IPI)</entry>
 <entry key="auxiliary|text|international-procurement-instrument-statistics">Statistika o mjerama Međunarodnog instrumenta za nabavu (IPI)</entry>
 <entry key="auxiliary|text|language-expressions">Jezici na kojima se mogu podnijeti iskazi interesa</entry>
@@ -56,7 +49,6 @@
 <entry key="auxiliary|text|legaltype-competent">Pravni oblik nadležnog tijela</entry>
 <entry key="auxiliary|text|lot">Grupa</entry>
 <entry key="auxiliary|text|modification">Izmjena</entry>
-<entry key="auxiliary|text|name">Ime</entry>
 <entry key="auxiliary|text|non-leaders-tendering-party">Službena imena subjekata ponuditelja koji nisu voditelji skupine</entry>
 <entry key="auxiliary|text|non-winning-tender">Ponuditelji koji nisu odabrani</entry>
 <entry key="auxiliary|text|notice-information">Informacije o obavijesti</entry>
@@ -66,7 +58,6 @@
 <entry key="auxiliary|text|organisation-financing">Organizacija iz čijih se proračunskih sredstava plaća ugovor</entry>
 <entry key="auxiliary|text|organisation-mediation">Organizacija za postupke mirenja</entry>
 <entry key="auxiliary|text|organisation-paying">Organizacija koja izvršava plaćanje</entry>
-<entry key="auxiliary|text|organisation-processing-requests-participate">Organizacija koja obrađuje zahtjeve za sudjelovanje</entry>
 <entry key="auxiliary|text|organisation-processing-tenders">Organizacija koja obrađuje ponude</entry>
 <entry key="auxiliary|text|organisation-providing-docs">Organizacija koja osigurava izvanmrežni pristup dokumentaciji o nabavi</entry>
 <entry key="auxiliary|text|organisation-providing-info-employment">Organizacija koja pruža informacije o općem regulatornom okviru u vezi sa zaštitom radnog mjesta i radnih uvjeta primjenjivom u mjestu u kojem se ugovor treba izvršiti</entry>
@@ -75,11 +66,7 @@
 <entry key="auxiliary|text|organisation-providing-info-review">Organizacija koja pruža više informacija o postupcima preispitivanja (pravne zaštite)</entry>
 <entry key="auxiliary|text|organisation-providing-info-taxes">Organizacija koja pruža informacije o općem regulatornom okviru u vezi s porezima primjenjivom u mjestu u kojem se ugovor treba izvršiti</entry>
 <entry key="auxiliary|text|organisation-providing-procurement-service">Pružatelj usluga javne nabave</entry>
-<entry key="auxiliary|text|organisation-receiving-tenders">Organizacija koja prima ponude</entry>
-<entry key="auxiliary|text|organisation-requesting-review">Organizacija (ili osoba) koja traži pravnu zaštitu (preispitivanje), koja ima ili je imala interes za dobivanje ugovora i koja je pretrpjela ili bi mogla pretrpjeti štetu zbog navodnog kršenja</entry>
 <entry key="auxiliary|text|organisation-review">Organizacija za preispitivanje (pravnu zaštitu)</entry>
-<entry key="auxiliary|text|organisation-review-timelimit">Organizacija koja pruža više informacija o rokovima za postupke preispitivanja (pravne zaštite)</entry>
-<entry key="auxiliary|text|organisation-roles">Uloge organizacija</entry>
 <entry key="auxiliary|text|organisation-signing-contract">Organizacija koja potpisuje ugovor</entry>
 <entry key="auxiliary|text|organisation-subcontractor">Podugovaratelj (podizvođač radova)</entry>
 <entry key="auxiliary|text|organisation-tender-recipient">Organizacija koja prima zahtjeve za sudjelovanje</entry>
@@ -97,14 +84,12 @@
 <entry key="auxiliary|text|procurement-terms">Uvjeti nabave</entry>
 <entry key="auxiliary|text|public-opening">Informacije o javnom otvaranju</entry>
 <entry key="auxiliary|text|publication-gazette">Objava u službenom glasilu</entry>
-<entry key="auxiliary|text|publication-information">Informacije o objavi</entry>
 <entry key="auxiliary|text|purpose">Svrha</entry>
 <entry key="auxiliary|text|quality-targets">Ciljevi u pogledu kvalitete</entry>
 <entry key="auxiliary|text|range-tenders">Raspon ponuda</entry>
 <entry key="auxiliary|text|received-submissions">Primljene ponude ili zahtjevi za sudjelovanje</entry>
 <entry key="auxiliary|text|renewal">Obnova</entry>
 <entry key="auxiliary|text|results">Ishod</entry>
-<entry key="auxiliary|text|results-procurement-procedure">Ishod postupka nabave</entry>
 <entry key="auxiliary|text|review">Pravna zaštita (preispitivanje)</entry>
 <entry key="auxiliary|text|review-request-withdrawn">Zahtjev za pregled ili privremene mjere povučen je</entry>
 <entry key="auxiliary|text|review-requests-irregularity-type">Vrsta navodne nepravilnosti</entry>
@@ -121,10 +106,10 @@
 <entry key="auxiliary|text|submission-terms">Uvjeti podnošenja</entry>
 <entry key="auxiliary|text|techniques">Tehnike</entry>
 <entry key="auxiliary|text|tender">Ponuda</entry>
+<entry key="auxiliary|text|tenderer-subcontractor">Podizvođači ponuditelja</entry>
 <entry key="auxiliary|text|unpublished">objavljeni sadržaj povučen</entry>
 <entry key="auxiliary|text|value">Vrijednost</entry>
 <entry key="auxiliary|text|winner">Pobjednik natječaja</entry>
 <entry key="auxiliary|text|winner-info">Informacije o pobjednicima</entry>
 <entry key="auxiliary|text|winner-lots">Pobjednik tih grupa</entry>
-<entry key="auxiliary|text|winner-subcontractor">Podugovaratelji pobjednika</entry>
 </properties>

@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Numele localității (municipiul, orașul sau satul) unde se află locul efectuării.</entry>
 <entry key="business-term|description|BT-514">Țara în care se află adresa fizică a organizației.</entry>
 <entry key="business-term|description|BT-5141">Țara în care se află locul efectuării.</entry>
-<entry key="business-term|description|BT-52">Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați.</entry>
+<entry key="business-term|description|BT-52">Procedura se va desfășura în etape succesive. După a doua etapă, unii participanți pot fi eliminați în fiecare etapă următoare.</entry>
 <entry key="business-term|description|BT-53">Cumpărătorul își rezervă dreptul (nu este o obligație) de a efectua achiziții suplimentare de la contractant (atât timp cât contractul este valabil).</entry>
 <entry key="business-term|description|BT-531">Natura (de exemplu, servicii) a ceea ce este achiziționat în plus față de natura principală.</entry>
 <entry key="business-term|description|BT-536">Data (estimată) de începere a contractului, a acordului-cadru, a sistemului dinamic de achiziții sau a sistemului de calificare.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Informații suplimentare privind acordul de confidențialitate.</entry>
 <entry key="business-term|description|BT-803">Data și ora la care anunțul a fost trimis pe cale electronică de către eSender către Oficiul pentru Publicații al Uniunii Europene</entry>
 <entry key="business-term|description|BT-805">Procedura de achiziții include utilizarea criteriilor achizițiilor publice ecologice (criterii de selecție, specificații tehnice, criterii de atribuire și clauze de performanță a contractului), la nivel național, la nivelul Uniunii sau la alt nivel, după caz.</entry>
-<entry key="business-term|description|BT-806">Indicați unde sunt definite motivele de excludere, de exemplu documentele privind achiziția sau DUAE.</entry>
+<entry key="business-term|description|BT-806">Indicați unde sunt definite motivele de excludere, de exemplu documentele privind achiziția sau DUAE cerere.</entry>
 <entry key="business-term|description|BT-809">Criteriul de selecție.</entry>
 <entry key="business-term|description|BT-810">Directiva privind eficiența energetică (DEE) (UE) 2023/1791 se aplică acestei proceduri de achiziții publice.</entry>
 <entry key="business-term|description|BT-811">Selectarea produselor, lucrărilor și serviciilor reglementate de Directiva privind etichetarea energetică, de Directiva privind proiectarea ecologică, de criteriile Uniunii privind achizițiile publice ecologice, de Regulamentul 2020/740. În scopul raportării, sunt incluse, de asemenea, clădirile care fac obiectul obligației prevăzute la articolul 7 din directiva privind eficiența energetică. Întrucât lista are două niveluri, aceasta este împărțită în: a) bază (de exemplu, „etichetă ecologică”) și b) articolul propriu-zis (de exemplu, „mașini de spălat vase”).</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Valoarea consumului de energie în kWh/an pentru produsele care nu au etichetă, și economia de energie în kWh/an pentru servicii, clădiri sau lucrări. Pentru produse, vă rugăm să raportați consumul anual de energie al produsului. Pentru servicii, lucrări și clădiri, vă rugăm să raportați economia anuală de energie.</entry>
 <entry key="business-term|description|BT-814">Valoarea economiilor de energie în kWh/an pentru produse, servicii, lucrări și clădiri. Vă rugăm să indicați valoarea economiilor anuale de energie.</entry>
 <entry key="business-term|description|BT-815">Cantitate cunoscută sau estimată. Pentru produse, vă rugăm să raportați numărul de produse. Pentru clădiri, vă rugăm să raportați suprafața utilă în metri pătrați. Pentru lucrări sau servicii, valoarea va fi de obicei 1.</entry>
-<entry key="business-term|description|BT-821">Ăn cazul în care criteriile de selecție sunt definite - de exemplu, documentele privind achiziția sau DUAE.</entry>
+<entry key="business-term|description|BT-821">Ăn cazul în care criteriile de selecție sunt definite - de exemplu, documentele privind achiziția sau DUAE cerere.</entry>
 <entry key="business-term|description|BT-88">Principalele caracteristici ale procedurii [de exemplu, descrierea etapei (etapelor) individuale] și informații privind documentele în care pot fi găsite regulile complete ale procedurii. Aceste informații trebuie furnizate în cazul în care procedura nu este una dintre cele menționate în directivele privind achizițiile publice. Acesta poate fi, de exemplu, cazul concesiunilor, al serviciilor sociale și al altor servicii specifice, precum și în cazul publicării voluntare a procedurilor de achiziții publice având valoarea sub pragurile de achiziții publice din UE.</entry>
 <entry key="business-term|description|BT-92">Se va utiliza comanda electronică.</entry>
 <entry key="business-term|description|BT-93">Se va utiliza plata electronică.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metoda utilizată pentru calcularea valorii estimate a concesiunii</entry>
 <entry key="business-term|name|BT-165">Dimensiunea operatorului economic</entry>
 <entry key="business-term|name|BT-17">Depunere electronică</entry>
-<entry key="business-term|name|BT-171">Locul pe lista câștigătorilor</entry>
+<entry key="business-term|name|BT-171">Clasamentul ofertei</entry>
 <entry key="business-term|name|BT-1711">Oferta a fost poziționată în clasament</entry>
 <entry key="business-term|name|BT-18">Adresa de depunere</entry>
 <entry key="business-term|name|BT-19">Justificarea faptului că depunerea electronică nu este posibilă</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Localitate</entry>
 <entry key="business-term|name|BT-514">Țara</entry>
 <entry key="business-term|name|BT-5141">Țara</entry>
-<entry key="business-term|name|BT-52">Procedura se va desfășura în mai multe etape. În fiecare etapă, unii participanți pot fi eliminați</entry>
+<entry key="business-term|name|BT-52">Procedura se va desfășura în etape succesive. După a doua etapă, unii participanți pot fi eliminați în fiecare etapă următoare.</entry>
 <entry key="business-term|name|BT-53">Opțiuni</entry>
 <entry key="business-term|name|BT-531">Natura suplimentară a contractului</entry>
 <entry key="business-term|name|BT-536">Data începerii</entry>

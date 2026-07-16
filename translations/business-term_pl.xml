@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Nazwa miejscowości (miasto lub wieś) dla miejsca realizacji.</entry>
 <entry key="business-term|description|BT-514">Państwo w fizycznym adresie organizacji.</entry>
 <entry key="business-term|description|BT-5141">Państwo danego miejsca realizacji.</entry>
-<entry key="business-term|description|BT-52">Procedura zostanie przeprowadzona w kolejnych etapach. Na każdym etapie niektórzy uczestnicy mogą zostać wyeliminowani.</entry>
+<entry key="business-term|description|BT-52">Procedura odbędzie się w kolejnych etapach. Po drugim etapie niektórzy uczestnicy mogą zostać wyeliminowani na każdym kolejnym etapie.</entry>
 <entry key="business-term|description|BT-53">Nabywca zastrzega sobie prawo (niestanowiące zobowiązania) do dokonania dodatkowych zakupów od wykonawcy (w okresie ważności umowy).</entry>
 <entry key="business-term|description|BT-531">Charakter dokonywanych zakupów (np. usługi), który jest dodatkowy w stosunku do głównego charakteru.</entry>
 <entry key="business-term|description|BT-536">Data (przewidywana) rozpoczęcia obowiązywania umowy, umowy ramowej, dynamicznego systemu zakupów lub systemu kwalifikowania.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Dodatkowe informacje na temat umowy poufności.</entry>
 <entry key="business-term|description|BT-803">Data i godzina przesłania ogłoszenia drogą elektroniczną przez eSender do Urzędu Publikacji Unii Europejskiej</entry>
 <entry key="business-term|description|BT-805">Postępowanie o udzielenie zamówienia zawiera kryteria przyznawania zielonych zamówień publicznych (kryteria kwalifikacji, specyfikacje techniczne, kryteria udzielenia zamówienia i klauzule dotyczące realizacji umowy) na szczeblu krajowym, unijnym lub innym, w stosownych przypadkach.</entry>
-<entry key="business-term|description|BT-806">Gdzie opisano podstawy wykluczenia, np. dokumenty zamówienia, ogłoszenie lub ESPD.</entry>
+<entry key="business-term|description|BT-806">Gdzie opisano podstawy wykluczenia, np. dokumenty zamówienia, ogłoszenie lub ESPD wniosek.</entry>
 <entry key="business-term|description|BT-809">Kryterium kwalifikacji.</entry>
 <entry key="business-term|description|BT-810">Dyrektywa (UE) 2023/1791 w sprawie efektywności energetycznej ma zastosowanie do danego postępowania o udzielenie zamówienia.</entry>
 <entry key="business-term|description|BT-811">Wybór produktów, robót i usług objętych dyrektywą w sprawie etykietowania energetycznego, dyrektywą w sprawie ekoprojektu, unijnymi kryteriami zielonych zamówień publicznych, rozporządzeniem 2020/740. Do celów sprawozdawczości uwzględnia się również budynki objęte obowiązkiem określonym w art. 7 dyrektywy EED. Wykaz składa się z dwóch poziomów, w związku z czym jest podzielony na a) podstawę, np. „etykieta ekologiczna” oraz b) faktyczny produkt, np. „zmywarki do naczyń”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Wartość zużycia energii w kWh/rok dla produktów, które nie mają etykiety, i oszczędność energii w kWh/rok dla usług, budynków lub robót. W przypadku produktów prosimy o podanie rocznego zużycia energii przez produkt. W przypadku usług, robót i budynków prosimy o podanie rocznej oszczędności energii.</entry>
 <entry key="business-term|description|BT-814">Wartość oszczędności energii w kWh/rok dla produktów, usług, robót budowlanych i budynków. Należy podać oszczędność energii w skali roku.</entry>
 <entry key="business-term|description|BT-815">Uzyskana lub szacowana ilość. W przypadku produktów należy podać liczbę produktów. W przypadku budynków należy podać powierzchnię użytkową w metrach kwadratowych. W przypadku robót budowlanych lub usług wartość wyniesie zazwyczaj 1.</entry>
-<entry key="business-term|description|BT-821">Gdzie zdefiniowano kryteria kwalifikacji, np. dokumenty zamówienia, ogłoszenie lub ESPD.</entry>
+<entry key="business-term|description|BT-821">Gdzie zdefiniowano kryteria kwalifikacji, np. dokumenty zamówienia, ogłoszenie lub ESPD wniosek.</entry>
 <entry key="business-term|description|BT-88">Główne aspekty procedury (np. opis poszczególnych etapów) oraz informacje o tym, gdzie można znaleźć pełne przepisy dotyczące danej procedury. Informacje te należy podać, gdy procedura nie jest jedną z procedur wymienionych w dyrektywach w sprawie zamówień publicznych. Może tak być na przykład w przypadku koncesji, usług społecznych i innych szczególnych usług, a także w przypadku dobrowolnej publikacji ogłoszeń o postępowaniach o udzielenie zamówienia o wartości poniżej unijnych progów dotyczących zamówień.</entry>
 <entry key="business-term|description|BT-92">Stosowane będą elektroniczne zlecenia.</entry>
 <entry key="business-term|description|BT-93">Stosowane będą płatności elektroniczne.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metoda stosowana do obliczenia szacunkowej wartości koncesji</entry>
 <entry key="business-term|name|BT-165">Wielkość podmiotu gospodarczego</entry>
 <entry key="business-term|name|BT-17">Zgłoszenie elektroniczne</entry>
-<entry key="business-term|name|BT-171">Miejsce na liście zwycięzców</entry>
+<entry key="business-term|name|BT-171">Pozycja oferty</entry>
 <entry key="business-term|name|BT-1711">Oferta została sklasyfikowana</entry>
 <entry key="business-term|name|BT-18">Adres na potrzeby zgłoszenia</entry>
 <entry key="business-term|name|BT-19">Uzasadnienie, dlaczego zgłoszenia elektroniczne są niemożliwe</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Miejscowość</entry>
 <entry key="business-term|name|BT-514">Kraj</entry>
 <entry key="business-term|name|BT-5141">Kraj</entry>
-<entry key="business-term|name|BT-52">Procedura zostanie przeprowadzona w kolejnych etapach. Na każdym etapie niektórzy uczestnicy mogą zostać wyeliminowani</entry>
+<entry key="business-term|name|BT-52">Procedura odbędzie się w kolejnych etapach. Po drugim etapie niektórzy uczestnicy mogą zostać wyeliminowani na każdym kolejnym etapie.</entry>
 <entry key="business-term|name|BT-53">Opcje</entry>
 <entry key="business-term|name|BT-531">Dodatkowy charakter zamówienia</entry>
 <entry key="business-term|name|BT-536">Data początkowa</entry>

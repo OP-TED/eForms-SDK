@@ -30,7 +30,7 @@
 <entry key="group|name|GR-FSR">Toepasselijkheid van de Verordening inzake buitenlandse subsidies</entry>
 <entry key="group|name|GR-FSR-Measures">Maatregelen van de verordening inzake buitenlandse subsidies</entry>
 <entry key="group|name|GR-Future-Notice">Toekomstige kennisgeving</entry>
-<entry key="group|name|GR-Group-Composition-Reference">Lot behorend tot de groep</entry>
+<entry key="group|name|GR-Group-Composition-Reference">Percelen behorend tot de groep</entry>
 <entry key="group|name|GR-GroupFramework">Maximumwaarde van groep percelen</entry>
 <entry key="group|name|GR-Jury-Member">Jurylid</entry>
 <entry key="group|name|GR-LOTResult-IPI-Stats">Statistieken over toegepaste maatregelen</entry>
@@ -122,14 +122,14 @@
 <entry key="group|name|GR-Lot-TenderEval">Organisatie die inschrijvingen verwerkt</entry>
 <entry key="group|name|GR-Lot-TenderReceipt">Organisatie die inschrijvingen ontvangt</entry>
 <entry key="group|name|GR-Lot-TenderValidity">Geldigheid van de inschrijving</entry>
-<entry key="group|name|GR-Lot-TendererQualification">Informatie over te late indiening</entry>
+<entry key="group|name|GR-Lot-TendererQualification">Informatie voor de inschrijver</entry>
 <entry key="group|name|GR-Lot-TenderingTerms">Voorwaarden voor inschrijving</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD">Informatie over de Richtlijn Schone Voertuigen</entry>
 <entry key="group|name|GR-Lot-TenderingTerms-CVD-type">Type contract volgens de Richtlijn Schone Voertuigen</entry>
 <entry key="group|name|GR-Lot-Variants">Varianten</entry>
 <entry key="group|name|GR-LotResult">Resultaat</entry>
-<entry key="group|name|GR-LotResult-1">Lotresultaat identificatoren</entry>
-<entry key="group|name|GR-LotResult-2">Lotresultaat technieken</entry>
+<entry key="group|name|GR-LotResult-1">Perceelresultaat identificatoren</entry>
+<entry key="group|name|GR-LotResult-2">Perceelresultaat technieken</entry>
 <entry key="group|name|GR-LotResult-CVD">Informatie over de Richtlijn Schone Voertuigen</entry>
 <entry key="group|name|GR-LotResult-CVD-Vehicles">Informatie over de activa</entry>
 <entry key="group|name|GR-LotResult-CVD-Vehicles-Statistics">Statistieken over voertuigen</entry>
@@ -140,7 +140,7 @@
 <entry key="group|name|GR-LotResult-EED-AssetQuantity">Hoeveelheid verworven activa</entry>
 <entry key="group|name|GR-LotResult-EED-Consumption">Jaarlijks energieverbruik voor het actief</entry>
 <entry key="group|name|GR-LotResult-EED-EnergySavings">Jaarlijkse energiebesparingen voor het actief</entry>
-<entry key="group|name|GR-LotResult-EED-Information">Informatie over EED voor de kavel</entry>
+<entry key="group|name|GR-LotResult-EED-Information">Informatie over EED voor de perceel</entry>
 <entry key="group|name|GR-LotResult-Financing-Party">Financieringsorganisatie</entry>
 <entry key="group|name|GR-LotResult-IPI">Algemene informatie over de IPI</entry>
 <entry key="group|name|GR-LotResult-IPI-Exception">Uitzondering op de toegepaste maatregel</entry>
@@ -246,7 +246,7 @@
 <entry key="group|name|GR-Procedure-Procedure">Type procedure</entry>
 <entry key="group|name|GR-Procedure-Procedure-subsection">Details van het proceduretype</entry>
 <entry key="group|name|GR-Procedure-Purpose">Doel</entry>
-<entry key="group|name|GR-Procedure-SProvider">Dienstverlener</entry>
+<entry key="group|name|GR-Procedure-SProvider">Aanbieder van aanbestedingsdiensten</entry>
 <entry key="group|name|GR-Procedure-Scope">Toepassingsgebied van de aanbesteding</entry>
 <entry key="group|name|GR-Procedure-Scope-AdditionalClassification">Aanvullende classificatie</entry>
 <entry key="group|name|GR-Procedure-Scope-MainClassification">Belangrijkste classificatie</entry>
@@ -310,7 +310,7 @@
 <entry key="group|name|GR-Unpublish-BT-162-Tender">Geraamde inkomsten afkomstig van de gebruikers van de concessie (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-163">Voor de berekening van de geraamde waarde van de concessie gebruikte methode (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-163-Tender">Beschrijving van waarde concessie (later gepubliceerd)</entry>
-<entry key="group|name|GR-Unpublish-BT-171">Plaats op de ranglijst van winnaars (later gepubliceerd)</entry>
+<entry key="group|name|GR-Unpublish-BT-171">Volgorde inschrijving (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-171-Tender">Volgorde inschrijving (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-191">Land van oorsprong van het product of de dienst (later gepubliceerd)</entry>
 <entry key="group|name|GR-Unpublish-BT-193">De inschrijving is een variant (later gepubliceerd)</entry>
