@@ -80,7 +80,7 @@
       "changeIdentifier" : "BUYER"
     },
     "instanceIdentifier" : {
-      "referencedBusinessEntityId" : "organization",
+      "referencedBusinessEntityId" : "Organisation",
       "identifierFieldId" : "OPT-300-Procedure-Buyer",
       "captionFieldId" : "BT-500-Organization-Company"
     }
@@ -231,7 +231,7 @@
       "useInstanceIdentifier" : true
     },
     "instanceIdentifier" : {
-      "referencedBusinessEntityId" : "contract",
+      "referencedBusinessEntityId" : "Contract",
       "identifierFieldId" : "BT-1501(c)-Contract",
       "captionFieldId" : "BT-150-Contract"
     }
