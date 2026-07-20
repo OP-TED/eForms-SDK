@@ -9,9 +9,9 @@ The `sdkVersion` has been corrected from `1.15.0-rc.5` to `1.15.1` in `codelists
 
 ### Updates on Fields
 
-* Fixed the casing of `referencedBusinessEntityId` values in `fields.json`:
-  - `"organization"` → `"Organisation"` (in the BUYER instance identifier)
-  - `"contract"` → `"Contract"` (in the contract instance identifier)
+* Corrected the `referencedBusinessEntityId` values in `fields.json` to reference the business-entity id instead of the identifier-scheme id:
+  - `"organization"` → `"Organisation"` (in the `Buyer` instance identifier)
+  - `"contract"` → `"Contract"` (in the `ContractModification` instance identifier)
 
 <br>
 
