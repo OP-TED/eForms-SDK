@@ -1,3 +1,20 @@
+# SDK 1.15.1 Release Notes
+
+This is a patch release of the SDK.
+It does not contain any backwards incompatible changes: software that was able to use version 1.15.0 should also be able to use this version.
+
+### Version correction
+Due to an oversight, several files in the `1.15.0` release still contained the version string `1.15.0-rc.5`. 
+The `sdkVersion` has been corrected from `1.15.0-rc.5` to `1.15.1` in `codelists.json`, `notice-types.json`, `view-templates.json`, all individual notice type definitions, and all codelist files.
+
+### Updates on Fields
+
+* Fixed the casing of `referencedBusinessEntityId` values in `fields.json`:
+  - `"organization"` → `"Organisation"` (in the BUYER instance identifier)
+  - `"contract"` → `"Contract"` (in the contract instance identifier)
+
+<br>
+
 # SDK 1.15.0 Release Notes
 
 This release of the SDK does not contain any backwards incompatible changes: software that was able to use version 1.14.2 should also be able to use this version.
