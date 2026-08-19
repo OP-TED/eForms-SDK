@@ -57,7 +57,10 @@
 	<xsd:element name="MeasureException" type="MeasureExceptionType"/>
 	<xsd:element name="MeasureStatistics" type="StatisticsType"/>
 	<xsd:element name="Nationality" type="NationalityType"/>
+	<xsd:element name="NondisclosureJustification" type="NondisclosureJustificationType"/>
+	<xsd:element name="NondisclosureReference" type="NondisclosureReferenceType"/>
 	<xsd:element name="NonOfficialLanguages" type="NonOfficialLanguagesType"/>
+	<xsd:element name="NoticeInformationNondisclosure" type="NoticeInformationNondisclosureType"/>
 	<xsd:element name="NoticePurpose" type="NoticePurposeType"/>
 	<xsd:element name="NoticeResult" type="NoticeResultType"/>
 	<xsd:element name="NoticeSubType" type="NoticeSubTypeType"/>
@@ -303,6 +306,13 @@
 			<xsd:element ref="efbc:DecisionReasonCode" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 	</xsd:complexType>
+	<xsd:complexType name="NoticeInformationNondisclosureType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:InformationDisclosureDate" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efac:NondisclosureJustification" minOccurs="0" maxOccurs="unbounded"/>
+			<xsd:element ref="efac:NondisclosureReference" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
 	<xsd:complexType name="DurationJustificationType">
 		<xsd:sequence>
 			<xsd:element ref="efbc:ExtendedDurationIndicator" minOccurs="1" maxOccurs="1"/>
@@ -394,6 +404,18 @@
 	<xsd:complexType name="NationalityType">
 		<xsd:sequence>
 			<xsd:element ref="cbc:NationalityID" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="NondisclosureJustificationType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:NondisclosureJustificationCode" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:NondisclosureJustificationDescription" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="NondisclosureReferenceType">
+		<xsd:sequence>
+			<xsd:element ref="efbc:NondisclosureID" minOccurs="0" maxOccurs="1"/>
+			<xsd:element ref="efbc:NondisclosureDescription" minOccurs="0" maxOccurs="unbounded"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="NonOfficialLanguagesType">
