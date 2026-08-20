@@ -64,7 +64,6 @@
 	<xsd:element name="NaturalPersonIndicator" type="NaturalPersonIndicatorType"/>
 	<xsd:element name="NonAwardJustificationCode" type="NonAwardJustificationCodeType"/>
 	<xsd:element name="NondisclosureID" type="NondisclosureIDType"/>
-	<xsd:element name="NondisclosureDescription" type="NondisclosureDescriptionType"/>
 	<xsd:element name="NondisclosureJustificationCode" type="NondisclosureJustificationCodeType"/>
 	<xsd:element name="NondisclosureJustificationDescription" type="NondisclosureJustificationDescriptionType"/>
 	<xsd:element name="NoticePublicationID" type="NoticePublicationIDType"/>
@@ -382,11 +381,6 @@
 	<xsd:complexType name="NonAwardJustificationCodeType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:CodeType"/>
-		</xsd:simpleContent>
-	</xsd:complexType>
-	<xsd:complexType name="NondisclosureDescriptionType">
-		<xsd:simpleContent>
-			<xsd:restriction base="udt:TextType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="NondisclosureIDType">
