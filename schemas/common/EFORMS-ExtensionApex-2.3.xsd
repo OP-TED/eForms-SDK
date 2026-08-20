@@ -60,19 +60,7 @@
 	<xsd:element name="local-extensions">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:any namespace="##other" processContents="lax" minOccurs="1" maxOccurs="unbounded">
-					<xsd:annotation>
-						<xsd:documentation>
-							Any sequence of elements in any namespace other than the UBL
-							extension namespace is allowed within this element. Only
-							those elements found in the UBL schemas and in the trees of
-							schemas imported in this module are validated. Any element
-							for which there is no schema declaration in any of the trees
-							of schemas passes validation and is not treated as a schema
-							constraint violation.
-						</xsd:documentation>
-					</xsd:annotation>
-				</xsd:any>
+				<xsd:any namespace="##other" processContents="lax" minOccurs="1" maxOccurs="unbounded"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
