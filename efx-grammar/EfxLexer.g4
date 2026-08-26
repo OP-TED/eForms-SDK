@@ -150,6 +150,7 @@ ValueKeyword: 'value';
 ShorthandLabelType: SHARP LabelType -> type(LabelType);
 
 StartExpressionBlock: DOLLAR LBRACE -> pushMode(EXPRESSION);
+StartSelectorBlock: AMPERSAND LBRACE -> pushMode(EXPRESSION);
 StartLabelBlock: SHARP LBRACE -> pushMode(LABEL);
 StartHyperlinkBlock: (TAB | SPACE)* AT LBRACE -> pushMode(EXPRESSION);
 
@@ -327,6 +328,7 @@ By: BY;
 Assert: ASSERT;
 Report: REPORT;
 Compute: COMPUTE;
+Select: SELECT;
 
 // Data types ------------------------------------------------------------------------------------------------
 
@@ -516,6 +518,7 @@ fragment OTHERWISE: ('OTHERWISE' | 'otherwise');
 fragment ASSERT: ('ASSERT' | 'assert');
 fragment REPORT: ('REPORT' | 'report');
 fragment COMPUTE: ('COMPUTE' | 'compute');
+fragment SELECT: ('SELECT' | 'select');
 fragment STAGE: ('STAGE' | 'stage');
 fragment ENDPOINT: ('ENDPOINT' | 'endpoint');
 fragment INDEX: ('INDEX' | 'index');
@@ -529,6 +532,7 @@ fragment RBRACE: '}';
 
 fragment AT: '@';
 fragment DOLLAR: '$';
+fragment AMPERSAND: '&';
 fragment SHARP: '#';
 fragment CHAR_REF: '&' ('#' ([0-9]+ | [xX] [0-9A-Fa-f]+) | [a-zA-Z]+) ';';
 

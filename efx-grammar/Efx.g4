@@ -48,6 +48,8 @@ options { tokenVocab=EfxLexer;}
 singleExpression
     : StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock expressionBlock EOF   // EFX-1
     | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? Compute expression EOF                         // EFX-2
+    | StartExpressionBlock context=(FieldId | NodeId | Identifier) (Comma parameterList)? EndBlock selectorBlock EOF    // EFX-1 style selector
+    | With context=(FieldId | NodeId | Identifier) (Comma parameterList)? Select selection EOF                          // EFX-2 selector
     ;
 
 /****************************************************************************** 
@@ -70,6 +72,22 @@ standardExpressionBlock
 
 shorthandFieldValueReferenceFromContextField
     : ShorthandFieldValueReferenceFromContextField
+    ;
+
+/*
+ * A selector yields the reference itself rather than its value: the translated selector identifies
+ * the elements rather than reading them. It exists so that a host application can ask EFX where
+ * something is, instead of what it contains.
+ * The reference is resolved exactly as it would be in an expression: relative to the declared
+ * context, unless written as an absolute reference. A selector may only appear at the top level;
+ * it is not an expression and cannot be nested inside one.
+ */
+selectorBlock: StartSelectorBlock selection EndBlock;
+
+selection
+    : fieldContext
+    | nodeContext
+    | attributeReference
     ;
 
 functionInvocation: FunctionPrefix functionName=Identifier OpenParenthesis argumentList? CloseParenthesis;
