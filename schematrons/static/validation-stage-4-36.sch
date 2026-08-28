@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--File generated from metadata database-->
 <pattern id="EFORMS-validation-stage-4-36" xmlns="http://purl.oclc.org/dsdl/schematron">
+	<rule context="/*[$noticeSubType = '36']">
+		<assert id="BR-BT-00196-0061" role="ERROR" diagnostics="ND-Root_BT-196-notice" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureJustification/efbc:NondisclosureJustificationDescription) = 0 or (ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureJustification/efbc:NondisclosureJustificationCode)">rule|text|BR-BT-00196-0061</assert>
+		<assert id="BR-BT-00197-0061" role="ERROR" diagnostics="ND-Root_BT-197-notice" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureJustification/efbc:NondisclosureJustificationCode) = 0 or (ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureReference/efbc:NondisclosureID)">rule|text|BR-BT-00197-0061</assert>
+		<assert id="BR-BT-00197-0081" role="ERROR" diagnostics="ND-Root_BT-197-notice" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureJustification/efbc:NondisclosureJustificationCode) &gt; 0 or not(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureReference/efbc:NondisclosureID)">rule|text|BR-BT-00197-0081</assert>
+		<assert id="BR-BT-00198-0061" role="ERROR" diagnostics="ND-Root_BT-198-notice" test="count(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efbc:InformationDisclosureDate) = 0 or (ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeInformationNondisclosure/efac:NondisclosureReference/efbc:NondisclosureID)">rule|text|BR-BT-00198-0061</assert>
+	</rule>
 	<rule context="/*/cac:ContractingParty/cac:Party/cac:ServiceProviderParty[$noticeSubType = '36']">
 		<assert id="BR-OPT-00030-0045" role="ERROR" diagnostics="OPT-030-Procedure-SProvider" test="count(cbc:ServiceTypeCode) &gt; 0 or (not(cac:Party/cac:PartyIdentification/cbc:ID))">rule|text|BR-OPT-00030-0045</assert>
 		<assert id="BR-OPT-00030-0093" role="ERROR" diagnostics="OPT-030-Procedure-SProvider" test="count(cbc:ServiceTypeCode) = 0 or (cac:Party/cac:PartyIdentification/cbc:ID)">rule|text|BR-OPT-00030-0093</assert>
@@ -86,90 +92,13 @@
 		<assert id="BR-BT-05422-0096" role="ERROR" diagnostics="BT-5422-Lot" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05422-0096</assert>
 		<assert id="BR-BT-05422-0199" role="ERROR" diagnostics="BT-5422-Lot" test="count(efbc:ParameterCode) &gt; 0 or (not(efbc:ParameterNumeric))">rule|text|BR-BT-05422-0199</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2490" role="ERROR" diagnostics="BT-195_BT-5422_-Lot" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode)">rule|text|BR-BT-00195-2490</assert>
-		<assert id="BR-BT-00196-2541" role="ERROR" diagnostics="BT-196_BT-5422_-Lot" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2541</assert>
-		<assert id="BR-BT-00197-2493" role="ERROR" diagnostics="BT-197_BT-5422_-Lot" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2493</assert>
-		<assert id="BR-BT-00197-4019" role="ERROR" diagnostics="BT-197_BT-5422_-Lot" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4019</assert>
-		<assert id="BR-BT-00198-2541" role="ERROR" diagnostics="BT-198_BT-5422_-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2541</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-3394" role="ERROR" diagnostics="BT-195_BT-541_-Lot-Fixed" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric)">rule|text|BR-BT-00195-3394</assert>
-		<assert id="BR-BT-00196-4385" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Fixed" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-4385</assert>
-		<assert id="BR-BT-00197-4485" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Fixed" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-4485</assert>
-		<assert id="BR-BT-00197-4528" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Fixed" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4528</assert>
-		<assert id="BR-BT-00198-4985" role="ERROR" diagnostics="BT-198_BT-541_-Lot-Fixed" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-4985</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold'][$noticeSubType = '36']">
 		<assert id="BR-BT-05423-0096" role="ERROR" diagnostics="BT-5423-Lot" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05423-0096</assert>
 		<assert id="BR-BT-05423-0199" role="ERROR" diagnostics="BT-5423-Lot" test="count(efbc:ParameterCode) &gt; 0 or (not(efbc:ParameterNumeric))">rule|text|BR-BT-05423-0199</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-3494" role="ERROR" diagnostics="BT-195_BT-541_-Lot-Threshold" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric)">rule|text|BR-BT-00195-3494</assert>
-		<assert id="BR-BT-00196-4485" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Threshold" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-4485</assert>
-		<assert id="BR-BT-00197-4685" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Threshold" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-4685</assert>
-		<assert id="BR-BT-00197-4728" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Threshold" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4728</assert>
-		<assert id="BR-BT-00198-5085" role="ERROR" diagnostics="BT-198_BT-541_-Lot-Threshold" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-5085</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2541" role="ERROR" diagnostics="BT-195_BT-5423_-Lot" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode)">rule|text|BR-BT-00195-2541</assert>
-		<assert id="BR-BT-00196-2593" role="ERROR" diagnostics="BT-196_BT-5423_-Lot" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2593</assert>
-		<assert id="BR-BT-00197-2544" role="ERROR" diagnostics="BT-197_BT-5423_-Lot" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2544</assert>
-		<assert id="BR-BT-00197-4029" role="ERROR" diagnostics="BT-197_BT-5423_-Lot" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4029</assert>
-		<assert id="BR-BT-00198-2593" role="ERROR" diagnostics="BT-198_BT-5423_-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2593</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight'][$noticeSubType = '36']">
 		<assert id="BR-BT-05421-0096" role="ERROR" diagnostics="BT-5421-Lot" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05421-0096</assert>
 		<assert id="BR-BT-05421-0199" role="ERROR" diagnostics="BT-5421-Lot" test="count(efbc:ParameterCode) &gt; 0 or (not(efbc:ParameterNumeric))">rule|text|BR-BT-05421-0199</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-3294" role="ERROR" diagnostics="BT-195_BT-541_-Lot-Weight" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric)">rule|text|BR-BT-00195-3294</assert>
-		<assert id="BR-BT-00196-4285" role="ERROR" diagnostics="BT-196_BT-541_-Lot-Weight" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-4285</assert>
-		<assert id="BR-BT-00197-4285" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Weight" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-4285</assert>
-		<assert id="BR-BT-00197-4328" role="ERROR" diagnostics="BT-197_BT-541_-Lot-Weight" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4328</assert>
-		<assert id="BR-BT-00198-4885" role="ERROR" diagnostics="BT-198_BT-541_-Lot-Weight" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-4885</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2439" role="ERROR" diagnostics="BT-195_BT-5421_-Lot" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode)">rule|text|BR-BT-00195-2439</assert>
-		<assert id="BR-BT-00196-2489" role="ERROR" diagnostics="BT-196_BT-5421_-Lot" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2489</assert>
-		<assert id="BR-BT-00197-2442" role="ERROR" diagnostics="BT-197_BT-5421_-Lot" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2442</assert>
-		<assert id="BR-BT-00197-4009" role="ERROR" diagnostics="BT-197_BT-5421_-Lot" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4009</assert>
-		<assert id="BR-BT-00198-2489" role="ERROR" diagnostics="BT-198_BT-5421_-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2489</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2745" role="ERROR" diagnostics="BT-195_BT-540_-Lot" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description)">rule|text|BR-BT-00195-2745</assert>
-		<assert id="BR-BT-00196-2801" role="ERROR" diagnostics="BT-196_BT-540_-Lot" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2801</assert>
-		<assert id="BR-BT-00197-2748" role="ERROR" diagnostics="BT-197_BT-540_-Lot" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2748</assert>
-		<assert id="BR-BT-00197-4069" role="ERROR" diagnostics="BT-197_BT-540_-Lot" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4069</assert>
-		<assert id="BR-BT-00198-2801" role="ERROR" diagnostics="BT-198_BT-540_-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2801</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2643" role="ERROR" diagnostics="BT-195_BT-734_-Lot" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Name)">rule|text|BR-BT-00195-2643</assert>
-		<assert id="BR-BT-00196-2697" role="ERROR" diagnostics="BT-196_BT-734_-Lot" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2697</assert>
-		<assert id="BR-BT-00197-2646" role="ERROR" diagnostics="BT-197_BT-734_-Lot" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2646</assert>
-		<assert id="BR-BT-00197-4049" role="ERROR" diagnostics="BT-197_BT-734_-Lot" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4049</assert>
-		<assert id="BR-BT-00198-2697" role="ERROR" diagnostics="BT-198_BT-734_-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2697</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2694" role="ERROR" diagnostics="BT-195_BT-539_-Lot" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|text|BR-BT-00195-2694</assert>
-		<assert id="BR-BT-00196-2749" role="ERROR" diagnostics="BT-196_BT-539_-Lot" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2749</assert>
-		<assert id="BR-BT-00197-2697" role="ERROR" diagnostics="BT-197_BT-539_-Lot" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2697</assert>
-		<assert id="BR-BT-00197-4059" role="ERROR" diagnostics="BT-197_BT-539_-Lot" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4059</assert>
-		<assert id="BR-BT-00198-2749" role="ERROR" diagnostics="BT-198_BT-539_-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2749</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2388" role="ERROR" diagnostics="BT-195_BT-543_-Lot" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:CalculationExpression)">rule|text|BR-BT-00195-2388</assert>
-		<assert id="BR-BT-00196-2437" role="ERROR" diagnostics="BT-196_BT-543_-Lot" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2437</assert>
-		<assert id="BR-BT-00197-2391" role="ERROR" diagnostics="BT-197_BT-543_-Lot" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2391</assert>
-		<assert id="BR-BT-00197-3999" role="ERROR" diagnostics="BT-197_BT-543_-Lot" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3999</assert>
-		<assert id="BR-BT-00198-2437" role="ERROR" diagnostics="BT-198_BT-543_-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2437</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2337" role="ERROR" diagnostics="BT-195_BT-733_-Lot" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description)">rule|text|BR-BT-00195-2337</assert>
-		<assert id="BR-BT-00196-2385" role="ERROR" diagnostics="BT-196_BT-733_-Lot" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2385</assert>
-		<assert id="BR-BT-00197-2340" role="ERROR" diagnostics="BT-197_BT-733_-Lot" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2340</assert>
-		<assert id="BR-BT-00197-3989" role="ERROR" diagnostics="BT-197_BT-733_-Lot" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3989</assert>
-		<assert id="BR-BT-00198-2385" role="ERROR" diagnostics="BT-198_BT-733_-Lot" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2385</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup'][$noticeSubType = '36']">
 		<assert id="BR-BT-00137-0096" role="ERROR" diagnostics="BT-137-LotsGroup" test="count(cbc:ID) = 0 or not(count(/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot']/cbc:ID/normalize-space(text())) &lt; 2)">rule|text|BR-BT-00137-0096</assert>
@@ -196,115 +125,17 @@
 		<assert id="BR-BT-05422-0045" role="ERROR" diagnostics="BT-5422-LotsGroup" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05422-0045</assert>
 		<assert id="BR-BT-05422-0149" role="ERROR" diagnostics="BT-5422-LotsGroup" test="count(efbc:ParameterCode) &gt; 0 or (not(efbc:ParameterNumeric))">rule|text|BR-BT-05422-0149</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-fix'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2031" role="ERROR" diagnostics="BT-195_BT-5422_-LotsGroup" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode)">rule|text|BR-BT-00195-2031</assert>
-		<assert id="BR-BT-00196-2073" role="ERROR" diagnostics="BT-196_BT-5422_-LotsGroup" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2073</assert>
-		<assert id="BR-BT-00197-2034" role="ERROR" diagnostics="BT-197_BT-5422_-LotsGroup" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2034</assert>
-		<assert id="BR-BT-00197-3929" role="ERROR" diagnostics="BT-197_BT-5422_-LotsGroup" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3929</assert>
-		<assert id="BR-BT-00198-2073" role="ERROR" diagnostics="BT-198_BT-5422_-LotsGroup" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2073</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-fixed']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-3344" role="ERROR" diagnostics="BT-195_BT-541_-LotsGroup-Fixed" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric)">rule|text|BR-BT-00195-3344</assert>
-		<assert id="BR-BT-00196-4340" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Fixed" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-4340</assert>
-		<assert id="BR-BT-00197-4440" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Fixed" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-4440</assert>
-		<assert id="BR-BT-00197-4518" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Fixed" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4518</assert>
-		<assert id="BR-BT-00198-4940" role="ERROR" diagnostics="BT-198_BT-541_-LotsGroup-Fixed" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-4940</assert>
-	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold'][$noticeSubType = '36']">
 		<assert id="BR-BT-05423-0045" role="ERROR" diagnostics="BT-5423-LotsGroup" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05423-0045</assert>
 		<assert id="BR-BT-05423-0149" role="ERROR" diagnostics="BT-5423-LotsGroup" test="count(efbc:ParameterCode) &gt; 0 or (not(efbc:ParameterNumeric))">rule|text|BR-BT-05423-0149</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-3444" role="ERROR" diagnostics="BT-195_BT-541_-LotsGroup-Threshold" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric)">rule|text|BR-BT-00195-3444</assert>
-		<assert id="BR-BT-00196-4440" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Threshold" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-4440</assert>
-		<assert id="BR-BT-00197-4640" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Threshold" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-4640</assert>
-		<assert id="BR-BT-00197-4718" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Threshold" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4718</assert>
-		<assert id="BR-BT-00198-5040" role="ERROR" diagnostics="BT-198_BT-541_-LotsGroup-Threshold" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-5040</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-threshold']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-thr'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2082" role="ERROR" diagnostics="BT-195_BT-5423_-LotsGroup" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode)">rule|text|BR-BT-00195-2082</assert>
-		<assert id="BR-BT-00196-2125" role="ERROR" diagnostics="BT-196_BT-5423_-LotsGroup" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2125</assert>
-		<assert id="BR-BT-00197-2085" role="ERROR" diagnostics="BT-197_BT-5423_-LotsGroup" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2085</assert>
-		<assert id="BR-BT-00197-3939" role="ERROR" diagnostics="BT-197_BT-5423_-LotsGroup" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3939</assert>
-		<assert id="BR-BT-00198-2125" role="ERROR" diagnostics="BT-198_BT-5423_-LotsGroup" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2125</assert>
 	</rule>
 	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight'][$noticeSubType = '36']">
 		<assert id="BR-BT-05421-0045" role="ERROR" diagnostics="BT-5421-LotsGroup" test="count(efbc:ParameterCode) = 0 or (efbc:ParameterNumeric)">rule|text|BR-BT-05421-0045</assert>
 		<assert id="BR-BT-05421-0149" role="ERROR" diagnostics="BT-5421-LotsGroup" test="count(efbc:ParameterCode) &gt; 0 or (not(efbc:ParameterNumeric))">rule|text|BR-BT-05421-0149</assert>
 	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-num'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-3244" role="ERROR" diagnostics="BT-195_BT-541_-LotsGroup-Weight" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterNumeric)">rule|text|BR-BT-00195-3244</assert>
-		<assert id="BR-BT-00196-4240" role="ERROR" diagnostics="BT-196_BT-541_-LotsGroup-Weight" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-4240</assert>
-		<assert id="BR-BT-00197-4240" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Weight" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-4240</assert>
-		<assert id="BR-BT-00197-4318" role="ERROR" diagnostics="BT-197_BT-541_-LotsGroup-Weight" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-4318</assert>
-		<assert id="BR-BT-00198-4840" role="ERROR" diagnostics="BT-198_BT-541_-LotsGroup-Weight" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-4840</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:AwardCriterionParameter[efbc:ParameterCode/@listName='number-weight']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-wei'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-1980" role="ERROR" diagnostics="BT-195_BT-5421_-LotsGroup" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:ParameterCode)">rule|text|BR-BT-00195-1980</assert>
-		<assert id="BR-BT-00196-2021" role="ERROR" diagnostics="BT-196_BT-5421_-LotsGroup" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2021</assert>
-		<assert id="BR-BT-00197-1983" role="ERROR" diagnostics="BT-197_BT-5421_-LotsGroup" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-1983</assert>
-		<assert id="BR-BT-00197-3919" role="ERROR" diagnostics="BT-197_BT-5421_-LotsGroup" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3919</assert>
-		<assert id="BR-BT-00198-2021" role="ERROR" diagnostics="BT-198_BT-5421_-LotsGroup" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2021</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-des'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2286" role="ERROR" diagnostics="BT-195_BT-540_-LotsGroup" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description)">rule|text|BR-BT-00195-2286</assert>
-		<assert id="BR-BT-00196-2333" role="ERROR" diagnostics="BT-196_BT-540_-LotsGroup" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2333</assert>
-		<assert id="BR-BT-00197-2289" role="ERROR" diagnostics="BT-197_BT-540_-LotsGroup" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2289</assert>
-		<assert id="BR-BT-00197-3979" role="ERROR" diagnostics="BT-197_BT-540_-LotsGroup" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3979</assert>
-		<assert id="BR-BT-00198-2333" role="ERROR" diagnostics="BT-198_BT-540_-LotsGroup" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2333</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-nam'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2184" role="ERROR" diagnostics="BT-195_BT-734_-LotsGroup" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Name)">rule|text|BR-BT-00195-2184</assert>
-		<assert id="BR-BT-00196-2229" role="ERROR" diagnostics="BT-196_BT-734_-LotsGroup" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2229</assert>
-		<assert id="BR-BT-00197-2187" role="ERROR" diagnostics="BT-197_BT-734_-LotsGroup" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2187</assert>
-		<assert id="BR-BT-00197-3959" role="ERROR" diagnostics="BT-197_BT-734_-LotsGroup" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3959</assert>
-		<assert id="BR-BT-00198-2229" role="ERROR" diagnostics="BT-198_BT-734_-LotsGroup" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2229</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/cac:SubordinateAwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-typ'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2235" role="ERROR" diagnostics="BT-195_BT-539_-LotsGroup" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:AwardingCriterionTypeCode[@listName='award-criterion-type'])">rule|text|BR-BT-00195-2235</assert>
-		<assert id="BR-BT-00196-2281" role="ERROR" diagnostics="BT-196_BT-539_-LotsGroup" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-2281</assert>
-		<assert id="BR-BT-00197-2238" role="ERROR" diagnostics="BT-197_BT-539_-LotsGroup" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-2238</assert>
-		<assert id="BR-BT-00197-3969" role="ERROR" diagnostics="BT-197_BT-539_-LotsGroup" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3969</assert>
-		<assert id="BR-BT-00198-2281" role="ERROR" diagnostics="BT-198_BT-539_-LotsGroup" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-2281</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-com'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-1929" role="ERROR" diagnostics="BT-195_BT-543_-LotsGroup" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:CalculationExpression)">rule|text|BR-BT-00195-1929</assert>
-		<assert id="BR-BT-00196-1969" role="ERROR" diagnostics="BT-196_BT-543_-LotsGroup" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-1969</assert>
-		<assert id="BR-BT-00197-1932" role="ERROR" diagnostics="BT-197_BT-543_-LotsGroup" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-1932</assert>
-		<assert id="BR-BT-00197-3909" role="ERROR" diagnostics="BT-197_BT-543_-LotsGroup" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3909</assert>
-		<assert id="BR-BT-00198-1969" role="ERROR" diagnostics="BT-198_BT-543_-LotsGroup" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-1969</assert>
-	</rule>
-	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='LotsGroup']/cac:TenderingTerms/cac:AwardingTerms/cac:AwardingCriterion/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='awa-cri-ord'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-1878" role="ERROR" diagnostics="BT-195_BT-733_-LotsGroup" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description)">rule|text|BR-BT-00195-1878</assert>
-		<assert id="BR-BT-00196-1917" role="ERROR" diagnostics="BT-196_BT-733_-LotsGroup" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-1917</assert>
-		<assert id="BR-BT-00197-1881" role="ERROR" diagnostics="BT-197_BT-733_-LotsGroup" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-1881</assert>
-		<assert id="BR-BT-00197-3899" role="ERROR" diagnostics="BT-197_BT-733_-LotsGroup" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3899</assert>
-		<assert id="BR-BT-00198-1917" role="ERROR" diagnostics="BT-198_BT-733_-LotsGroup" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-1917</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-fea'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-1572" role="ERROR" diagnostics="BT-195_BT-88_-Procedure" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:Description)">rule|text|BR-BT-00195-1572</assert>
-		<assert id="BR-BT-00196-1605" role="ERROR" diagnostics="BT-196_BT-88_-Procedure" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-1605</assert>
-		<assert id="BR-BT-00197-1575" role="ERROR" diagnostics="BT-197_BT-88_-Procedure" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-1575</assert>
-		<assert id="BR-BT-00197-3861" role="ERROR" diagnostics="BT-197_BT-88_-Procedure" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3861</assert>
-		<assert id="BR-BT-00198-1605" role="ERROR" diagnostics="BT-198_BT-88_-Procedure" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-1605</assert>
-	</rule>
-	<rule context="/*/cac:TenderingProcess/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='pro-typ'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-1521" role="ERROR" diagnostics="BT-195_BT-105_-Procedure" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:ProcedureCode)">rule|text|BR-BT-00195-1521</assert>
-		<assert id="BR-BT-00196-1553" role="ERROR" diagnostics="BT-196_BT-105_-Procedure" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-1553</assert>
-		<assert id="BR-BT-00197-1524" role="ERROR" diagnostics="BT-197_BT-105_-Procedure" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-1524</assert>
-		<assert id="BR-BT-00197-3854" role="ERROR" diagnostics="BT-197_BT-105_-Procedure" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3854</assert>
-		<assert id="BR-BT-00198-1553" role="ERROR" diagnostics="BT-198_BT-105_-Procedure" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-1553</assert>
-	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw'][$noticeSubType = '36']">
 		<assert id="BR-BT-00009-0096" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or (not(cbc:ID))">rule|text|BR-BT-00009-0096</assert>
 		<assert id="BR-BT-00009-0138" role="ERROR" diagnostics="BT-09_b_-Procedure" test="count(cbc:DocumentDescription) = 0 or (cbc:ID)">rule|text|BR-BT-00009-0138</assert>
-	</rule>
-	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='CrossBorderLaw']/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='cro-bor-law'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-1470" role="ERROR" diagnostics="BT-195_BT-09_-Procedure" test="count(efbc:FieldIdentifierCode) = 0 or (../../../../../cbc:DocumentDescription)">rule|text|BR-BT-00195-1470</assert>
-		<assert id="BR-BT-00196-1501" role="ERROR" diagnostics="BT-196_BT-09_-Procedure" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-1501</assert>
-		<assert id="BR-BT-00197-1473" role="ERROR" diagnostics="BT-197_BT-09_-Procedure" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-1473</assert>
-		<assert id="BR-BT-00197-3843" role="ERROR" diagnostics="BT-197_BT-09_-Procedure" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3843</assert>
-		<assert id="BR-BT-00198-1501" role="ERROR" diagnostics="BT-198_BT-09_-Procedure" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-1501</assert>
 	</rule>
 	<rule context="/*/cac:TenderingTerms/cac:ProcurementLegislationDocumentReference[cbc:ID/text()='LocalLegalBasis'][$noticeSubType = '36']">
 		<assert id="BR-BT-00001-0149" role="ERROR" diagnostics="BT-01_f_-Procedure" test="count(cbc:DocumentDescription) &gt; 0 or (not(cbc:ID))">rule|text|BR-BT-00001-0149</assert>
@@ -391,62 +222,13 @@
 		<assert id="BR-BT-00635-0045" role="ERROR" diagnostics="BT-635-LotResult" test="count(efbc:StatisticsNumeric) &gt; 0 or (not(efbc:StatisticsCode))">rule|text|BR-BT-00635-0045</assert>
 		<assert id="BR-BT-00635-0061" role="ERROR" diagnostics="BT-635-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-BT-00635-0061</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-cou'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2849" role="ERROR" diagnostics="BT-195_BT-635_-LotResult" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric)">rule|text|BR-BT-00195-2849</assert>
-		<assert id="BR-BT-00196-3568" role="ERROR" diagnostics="BT-196_BT-635_-LotResult" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-3568</assert>
-		<assert id="BR-BT-00197-3570" role="ERROR" diagnostics="BT-197_BT-635_-LotResult" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-3570</assert>
-		<assert id="BR-BT-00197-3634" role="ERROR" diagnostics="BT-197_BT-635_-LotResult" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3634</assert>
-		<assert id="BR-BT-00198-4146" role="ERROR" diagnostics="BT-198_BT-635_-LotResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-4146</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='irregularity-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='buy-rev-typ'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-2899" role="ERROR" diagnostics="BT-195_BT-636_-LotResult" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode)">rule|text|BR-BT-00195-2899</assert>
-		<assert id="BR-BT-00196-3618" role="ERROR" diagnostics="BT-196_BT-636_-LotResult" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-3618</assert>
-		<assert id="BR-BT-00197-3620" role="ERROR" diagnostics="BT-197_BT-636_-LotResult" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-3620</assert>
-		<assert id="BR-BT-00197-3648" role="ERROR" diagnostics="BT-197_BT-636_-LotResult" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3648</assert>
-		<assert id="BR-BT-00198-4196" role="ERROR" diagnostics="BT-198_BT-636_-LotResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-4196</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type'][$noticeSubType = '36']">
 		<assert id="BR-BT-00712-0096" role="ERROR" diagnostics="BT-712_b_-LotResult" test="count(efbc:StatisticsNumeric) &gt; 0 or (not(efbc:StatisticsCode))">rule|text|BR-BT-00712-0096</assert>
 		<assert id="BR-BT-00712-0112" role="ERROR" diagnostics="BT-712_b_-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-BT-00712-0112</assert>
 	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:AppealRequestsStatistics[efbc:StatisticsCode/@listName='review-type']/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rev-req'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-0452" role="ERROR" diagnostics="BT-195_BT-712_-LotResult" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode)">rule|text|BR-BT-00195-0452</assert>
-		<assert id="BR-BT-00196-0461" role="ERROR" diagnostics="BT-196_BT-712_-LotResult" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-0461</assert>
-		<assert id="BR-BT-00197-0453" role="ERROR" diagnostics="BT-197_BT-712_-LotResult" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-0453</assert>
-		<assert id="BR-BT-00197-3790" role="ERROR" diagnostics="BT-197_BT-712_-LotResult" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3790</assert>
-		<assert id="BR-BT-00198-0461" role="ERROR" diagnostics="BT-198_BT-712_-LotResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-0461</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:DecisionReason/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='no-awa-rea'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-0502" role="ERROR" diagnostics="BT-195_BT-144_-LotResult" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:DecisionReasonCode)">rule|text|BR-BT-00195-0502</assert>
-		<assert id="BR-BT-00196-0513" role="ERROR" diagnostics="BT-196_BT-144_-LotResult" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-0513</assert>
-		<assert id="BR-BT-00197-0504" role="ERROR" diagnostics="BT-197_BT-144_-LotResult" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-0504</assert>
-		<assert id="BR-BT-00197-3796" role="ERROR" diagnostics="BT-197_BT-144_-LotResult" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3796</assert>
-		<assert id="BR-BT-00198-0513" role="ERROR" diagnostics="BT-198_BT-144_-LotResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-0513</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-cho'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-0249" role="ERROR" diagnostics="BT-195_BT-142_-LotResult" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:TenderResultCode)">rule|text|BR-BT-00195-0249</assert>
-		<assert id="BR-BT-00196-0253" role="ERROR" diagnostics="BT-196_BT-142_-LotResult" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-0253</assert>
-		<assert id="BR-BT-00197-0249" role="ERROR" diagnostics="BT-197_BT-142_-LotResult" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-0249</assert>
-		<assert id="BR-BT-00197-3786" role="ERROR" diagnostics="BT-197_BT-142_-LotResult" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3786</assert>
-		<assert id="BR-BT-00198-0253" role="ERROR" diagnostics="BT-198_BT-142_-LotResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-0253</assert>
-	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics[$noticeSubType = '36']">
 		<assert id="BR-BT-00759-0045" role="ERROR" diagnostics="BT-759-LotResult" test="count(efbc:StatisticsNumeric) &gt; 0 or (not(efbc:StatisticsCode))">rule|text|BR-BT-00759-0045</assert>
 		<assert id="BR-BT-00759-0095" role="ERROR" diagnostics="BT-759-LotResult" test="count(efbc:StatisticsNumeric) = 0 or (efbc:StatisticsCode)">rule|text|BR-BT-00759-0095</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-cou'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-0603" role="ERROR" diagnostics="BT-195_BT-759_-LotResult" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsNumeric)">rule|text|BR-BT-00195-0603</assert>
-		<assert id="BR-BT-00196-0617" role="ERROR" diagnostics="BT-196_BT-759_-LotResult" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-0617</assert>
-		<assert id="BR-BT-00197-0606" role="ERROR" diagnostics="BT-197_BT-759_-LotResult" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-0606</assert>
-		<assert id="BR-BT-00197-3800" role="ERROR" diagnostics="BT-197_BT-759_-LotResult" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3800</assert>
-		<assert id="BR-BT-00198-0617" role="ERROR" diagnostics="BT-198_BT-759_-LotResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-0617</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:ReceivedSubmissionsStatistics/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='rec-sub-typ'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-0552" role="ERROR" diagnostics="BT-195_BT-760_-LotResult" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:StatisticsCode)">rule|text|BR-BT-00195-0552</assert>
-		<assert id="BR-BT-00196-0565" role="ERROR" diagnostics="BT-196_BT-760_-LotResult" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-0565</assert>
-		<assert id="BR-BT-00197-0555" role="ERROR" diagnostics="BT-197_BT-760_-LotResult" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-0555</assert>
-		<assert id="BR-BT-00197-3798" role="ERROR" diagnostics="BT-197_BT-760_-LotResult" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3798</assert>
-		<assert id="BR-BT-00198-0565" role="ERROR" diagnostics="BT-198_BT-760_-LotResult" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-0565</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:StrategicProcurement[efac:StrategicProcurementInformation/efac:AppliedMeasure/efbc:MeasureCode/@listName='international-procurement-instrument-measure']/efac:StrategicProcurementInformation/efac:AppliedMeasure[$noticeSubType = '36']">
 		<assert id="BR-BT-00686-0045" role="ERROR" diagnostics="ND-IPIAppliedMeasure_BT-686-LotResult" test="count(efac:MeasureStatistics/efbc:StatisticsNumeric) = 0 or (efbc:MeasureCode)">rule|text|BR-BT-00686-0045</assert>
@@ -465,20 +247,6 @@
 		<assert id="BR-BT-13714-0065" role="ERROR" diagnostics="BT-13714-Tender" test="count(efac:TenderLot/cbc:ID) = 0 or (efac:TenderReference/cbc:ID)">rule|text|BR-BT-13714-0065</assert>
 		<assert id="BR-OPT-00310-0045" role="ERROR" diagnostics="OPT-310-Tender" test="count(efac:TenderingParty/cbc:ID) &gt; 0 or (not(cbc:ID))">rule|text|BR-OPT-00310-0045</assert>
 		<assert id="BR-OPT-00310-0066" role="ERROR" diagnostics="OPT-310-Tender" test="count(efac:TenderingParty/cbc:ID) = 0 or (cbc:ID)">rule|text|BR-OPT-00310-0066</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='ten-ran'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-0654" role="ERROR" diagnostics="BT-195_BT-171_-Tender" test="count(efbc:FieldIdentifierCode) = 0 or (../cbc:RankCode)">rule|text|BR-BT-00195-0654</assert>
-		<assert id="BR-BT-00196-0669" role="ERROR" diagnostics="BT-196_BT-171_-Tender" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-0669</assert>
-		<assert id="BR-BT-00197-0657" role="ERROR" diagnostics="BT-197_BT-171_-Tender" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-0657</assert>
-		<assert id="BR-BT-00197-3802" role="ERROR" diagnostics="BT-197_BT-171_-Tender" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3802</assert>
-		<assert id="BR-BT-00198-0669" role="ERROR" diagnostics="BT-198_BT-171_-Tender" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-0669</assert>
-	</rule>
-	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender/efac:FieldsPrivacy[efbc:FieldIdentifierCode/text()='win-ten-var'][$noticeSubType = '36']">
-		<assert id="BR-BT-00195-0705" role="ERROR" diagnostics="BT-195_BT-193_-Tender" test="count(efbc:FieldIdentifierCode) = 0 or (../efbc:TenderVariantIndicator)">rule|text|BR-BT-00195-0705</assert>
-		<assert id="BR-BT-00196-0721" role="ERROR" diagnostics="BT-196_BT-193_-Tender" test="count(efbc:ReasonDescription) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00196-0721</assert>
-		<assert id="BR-BT-00197-0708" role="ERROR" diagnostics="BT-197_BT-193_-Tender" test="count(cbc:ReasonCode) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00197-0708</assert>
-		<assert id="BR-BT-00197-3807" role="ERROR" diagnostics="BT-197_BT-193_-Tender" test="count(cbc:ReasonCode) &gt; 0 or (not(efbc:FieldIdentifierCode))">rule|text|BR-BT-00197-3807</assert>
-		<assert id="BR-BT-00198-0721" role="ERROR" diagnostics="BT-198_BT-193_-Tender" test="count(efbc:PublicationDate) = 0 or (efbc:FieldIdentifierCode)">rule|text|BR-BT-00198-0721</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = '36']">
 		<assert id="BR-BT-00145-0107" role="ERROR" diagnostics="BT-145-Contract" test="count(cbc:IssueDate) = 0 or (efac:LotTender/cbc:ID)">rule|text|BR-BT-00145-0107</assert>

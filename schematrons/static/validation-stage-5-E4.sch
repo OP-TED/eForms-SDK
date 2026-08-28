@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--File generated from metadata database-->
+<pattern id="EFORMS-validation-stage-5-E4" xmlns="http://purl.oclc.org/dsdl/schematron">
+	<rule context="/*/cac:ProcurementProjectLot[cbc:ID/@schemeName='Lot'][$noticeSubType = 'E4']">
+		<assert id="BR-BT-00137-0233" role="ERROR" diagnostics="BT-137-Lot" test="((cbc:ID/normalize-space(text()) = ../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID/normalize-space(text()))) or not(../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/efac:TenderLot/cbc:ID)">rule|text|BR-BT-00137-0233</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = 'E4']">
+		<assert id="BR-OPP-00070-0130" role="ERROR" diagnostics="OPP-070-notice" test="(../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'can-standard')">rule|text|BR-OPP-00070-0130</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = 'E4']">
+		<assert id="BR-BT-13713-0134" role="ERROR" diagnostics="BT-13713-LotResult" test="(count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 'tenders']/number()) = 1) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode))">rule|text|BR-BT-13713-0134</assert>
+		<assert id="BR-BT-13713-0144" role="ERROR" diagnostics="BT-13713-LotResult" test="((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-oth-eea']/number()) = 1)) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode))">rule|text|BR-BT-13713-0144</assert>
+		<assert id="BR-BT-13713-0154" role="ERROR" diagnostics="BT-13713-LotResult" test="((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-large']/number()) = 1)) or not((efac:ReceivedSubmissionsStatistics/efbc:StatisticsCode))">rule|text|BR-BT-13713-0154</assert>
+		<assert id="BR-BT-13713-0164" role="ERROR" diagnostics="BT-13713-LotResult" test="((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-small']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-micro']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-med']/number()) = 1) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-sme']/number()) = 0)) or ((count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-small']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-micro']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-med']/number()) = 0) and (count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-sme']/number()) = 1))">rule|text|BR-BT-13713-0164</assert>
+		<assert id="BR-BT-13713-0174" role="ERROR" diagnostics="BT-13713-LotResult" test="(count(efac:ReceivedSubmissionsStatistics/efbc:StatisticsNumeric[../efbc:StatisticsCode/normalize-space(text()) = 't-no-eea']/number()) = 1)">rule|text|BR-BT-13713-0174</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'E4']">
+		<assert id="BR-OPT-00321-0110" role="ERROR" diagnostics="OPT-321-Tender" test="(cbc:ID/normalize-space(text()) = ../efac:LotResult/efac:LotTender/cbc:ID/normalize-space(text()))">rule|text|BR-OPT-00321-0110</assert>
+	</rule>
+	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:SettledContract[$noticeSubType = 'E4']">
+		<assert id="BR-BT-00145-0136" role="ERROR" diagnostics="BT-145-Contract" test="(cbc:IssueDate/xs:date(text()) &lt;= ../../../../../../cbc:IssueDate/xs:date(text())) or not((cbc:IssueDate) and (../../../../../../cbc:IssueDate))">rule|text|BR-BT-00145-0136</assert>
+	</rule>
+</pattern>

@@ -58,16 +58,12 @@
 		<assert id="ND-LotResult-T02" role="ERROR" diagnostics="ND-LotResult" test="count(efac:LotResult) &gt; 0">rule|text|ND-LotResult-T02</assert>
 		<assert id="ND-LotTender-T02" role="ERROR" diagnostics="ND-LotTender" test="count(efac:LotTender) &gt; 0">rule|text|ND-LotTender-T02</assert>
 		<assert id="ND-NoticeResultGroupFA-T02" role="ERROR" diagnostics="ND-NoticeResultGroupFA" test="count(efac:GroupFramework) = 0">rule|text|ND-NoticeResultGroupFA-T02</assert>
-		<assert id="ND-NoticeValueUnpublish-T02" role="ERROR" diagnostics="ND-NoticeValueUnpublish" test="count(efac:FieldsPrivacy) = 0">rule|text|ND-NoticeValueUnpublish-T02</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult[$noticeSubType = 'T02']">
 		<assert id="ND-LotResultFAValues-T02" role="ERROR" diagnostics="ND-LotResultFAValues" test="count(efac:FrameworkAgreementValues) = 0">rule|text|ND-LotResultFAValues-T02</assert>
-		<assert id="ND-ReceivedSubmissions-T02" role="ERROR" diagnostics="ND-ReceivedSubmissions" test="count(efac:ReceivedSubmissionsStatistics) = 0">rule|text|ND-ReceivedSubmissions-T02</assert>
 		<assert id="ND-ReviewRequestsStatistics-T02" role="ERROR" diagnostics="ND-ReviewRequestsStatistics" test="count(efac:AppealRequestsStatistics) = 0">rule|text|ND-ReviewRequestsStatistics-T02</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotTender[$noticeSubType = 'T02']">
-		<assert id="ND-ConcessionRevenue-T02" role="ERROR" diagnostics="ND-ConcessionRevenue" test="count(efac:ConcessionRevenue) = 0">rule|text|ND-ConcessionRevenue-T02</assert>
-		<assert id="ND-LotTenderOriginCountry-T02" role="ERROR" diagnostics="ND-LotTenderOriginCountry" test="count(efac:Origin) = 0">rule|text|ND-LotTenderOriginCountry-T02</assert>
 		<assert id="ND-OtherContractExecutionConditions-T02" role="ERROR" diagnostics="ND-OtherContractExecutionConditions" test="count(efac:ContractTerm) &gt; 0">rule|text|ND-OtherContractExecutionConditions-T02</assert>
 		<assert id="ND-SubcontractedContract-T02" role="ERROR" diagnostics="ND-SubcontractedContract" test="count(efac:SubcontractingTerm) = 0">rule|text|ND-SubcontractedContract-T02</assert>
 	</rule>
