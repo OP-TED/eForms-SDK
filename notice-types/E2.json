@@ -1,9 +1,9 @@
 {
   "ublVersion" : "2.3",
-  "sdkVersion" : "1.15.1",
+  "sdkVersion" : "1.16.0-beta.1",
   "metadataDatabase" : {
-    "version" : "1.14.44",
-    "createdOn" : "2026-07-09T15:39:38"
+    "version" : "1.14.47",
+    "createdOn" : "2026-08-28T18:42:57"
   },
   "noticeId" : "E2",
   "metadata" : [ {
@@ -1029,7 +1029,8 @@
           "contentType" : "field",
           "displayType" : "TEXTBOX",
           "description" : "Procurement Documents ID",
-          "_label" : "field|name|OPT-140-Part"
+          "_label" : "field|name|OPT-140-Part",
+          "_presetValue" : "procurement_document_id"
         } ]
       }, {
         "id" : "GR-Part-SubmissionTool",
