@@ -3,7 +3,7 @@
   "sdkVersion" : "eforms-sdk-1.16.0-beta.1",
   "metadataDatabase" : {
     "version" : "1.14.47",
-    "createdOn" : "2026-08-28T18:42:57"
+    "createdOn" : "2026-08-31T19:30:30"
   },
   "businessEntities" : [ {
     "id" : "Address",
@@ -7562,8 +7562,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-16-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-16-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-16-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-16-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -7934,8 +7934,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-165-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-165-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-165-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-165-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -11764,8 +11764,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-500-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-500-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-500-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-500-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -12030,8 +12030,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-501-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-501-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-501-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-501-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -12148,8 +12148,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-502-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-502-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-502-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-502-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -12236,8 +12236,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-503-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-503-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-503-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-503-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -12398,8 +12398,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-505-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-505-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-505-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-505-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -12494,8 +12494,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-506-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-506-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-506-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-506-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -12703,8 +12703,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-507-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-507-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-507-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-507-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -13213,8 +13213,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-509-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-509-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-509-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-509-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -13384,8 +13384,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-510(a)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-510(a)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-510(a)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-510(a)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -13520,8 +13520,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-510(b)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-510(b)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-510(b)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-510(b)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -13656,8 +13656,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-510(c)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-510(c)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-510(c)-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-510(c)-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -14067,8 +14067,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-512-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-512-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-512-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-512-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -14348,8 +14348,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-513-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-513-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-513-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-513-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -14627,8 +14627,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-514-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-514-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-514-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-514-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -17747,8 +17747,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-633-Organization} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-633-Organization[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-633-Organization} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-633-Organization[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -21397,8 +21397,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-739-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-739-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-739-Organization-Company} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-739-Organization-Company[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
@@ -21769,8 +21769,8 @@
       "reasonCodeFieldId" : "BT-197-notice",
       "reasonDescriptionFieldId" : "BT-196-notice",
       "publicationDateFieldId" : "BT-198-notice",
-      "condition" : "{BT-746-Organization} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
-      "selector" : "{ND-Root} &{/BT-746-Organization[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
+      "withholdingCondition" : "{BT-746-Organization} ${(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)}",
+      "undisclosedFieldSelector" : "{ND-Root} &{/BT-746-Organization[(OPT-200-Organization-Company in OPT-300-Tenderer or OPT-200-Organization-Company in OPT-301-Tenderer-SubCont)]}"
     },
     "repeatable" : {
       "value" : false,
