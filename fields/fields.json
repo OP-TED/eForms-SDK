@@ -3,7 +3,7 @@
   "sdkVersion" : "eforms-sdk-1.16.0-beta.1",
   "metadataDatabase" : {
     "version" : "1.14.47",
-    "createdOn" : "2026-08-31T19:30:30"
+    "createdOn" : "2026-09-01T18:44:26"
   },
   "businessEntities" : [ {
     "id" : "Address",
@@ -4052,11 +4052,6 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-01-notice == '32009L0081') and (BT-105-Procedure is present)}",
-        "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('restricted', 'neg-w-call')}",
-        "severity" : "ERROR",
-        "message" : "rule|text|R-KAQ-QWW"
-      }, {
         "noticeTypes" : [ "16", "29" ],
         "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('open', 'restricted', 'neg-w-call')}",
@@ -4067,19 +4062,25 @@
         "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('open', 'restricted', 'neg-w-call','comp-dial')}",
         "severity" : "ERROR",
-        "message" : "rule|text|R-FIG-XB6"
+        "message" : "rule|text|BR-BT-00105-0177"
       }, {
         "noticeTypes" : [ "18", "31" ],
         "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('restricted', 'neg-w-call')}",
         "severity" : "ERROR",
-        "message" : "rule|text|R-GSB-RSM"
+        "message" : "rule|text|BR-BT-00105-0175"
       }, {
         "noticeTypes" : [ "E5" ],
         "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-01-notice == '32014L0025') and (BT-105-Procedure is present)}",
         "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('open', 'restricted', 'neg-w-call','comp-dial')}",
         "severity" : "ERROR",
-        "message" : "rule|text|R-HWT-BS1"
+        "message" : "rule|text|BR-BT-00105-0178"
+      }, {
+        "noticeTypes" : [ "E5" ],
+        "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-01-notice == '32009L0081') and (BT-105-Procedure is present)}",
+        "value" : "{ND-ProcedureTenderingProcess} ${BT-105-Procedure in ('restricted', 'neg-w-call')}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-BT-00105-0176"
       }, {
         "noticeTypes" : [ "E5" ],
         "condition" : "{ND-ProcedureTenderingProcess} ${(BT-106-Procedure == 'true') and (BT-01-notice in ('32014L0024','32024R2509')) and (BT-105-Procedure is present)}",
@@ -32012,15 +32013,15 @@
       "value" : "{ND-Root} ${TRUE}",
       "severity" : "ERROR",
       "constraints" : [ {
-        "noticeTypes" : [ "11", "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4" ],
-        "value" : "{OPT-322-LotResult} ${OPT-322-LotResult is unique in /OPT-322-LotResult}",
-        "severity" : "ERROR",
-        "message" : "rule|text|BR-OPT-00322-0064"
-      }, {
         "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "T02" ],
         "value" : "{OPT-322-LotResult} ${(count(OPT-315-LotResult) < 2) or (every text:$lotofresult in BT-13713-LotResult satisfies ($lotofresult == BT-137-Lot[(((BT-765-Lot is present) and (BT-765-Lot != 'none')) or ((BT-766-Lot is present) and (BT-766-Lot != 'none')))]))}",
         "severity" : "ERROR",
         "message" : "rule|text|BR-OPT-00322-0053"
+      }, {
+        "noticeTypes" : [ "29", "30", "31", "32", "33", "34", "35", "36", "37", "E4", "T02" ],
+        "value" : "{OPT-322-LotResult} ${OPT-322-LotResult is unique in /OPT-322-LotResult}",
+        "severity" : "ERROR",
+        "message" : "rule|text|BR-OPT-00322-0054"
       } ]
     }
   }, {
