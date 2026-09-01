@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Eine Beschreibung und Begründung für die Anwendung von zwingenden Gründen im öffentlichen Interesse</entry>
 <entry key="field|description|BT-70-Lot">Die wichtigsten Angaben zur Auftragsausführung (z. B. Zwischenleistungen, Schadenersatz, Rechte des geistigen Eigentums).</entry>
 <entry key="field|description|BT-70-Lot-Language">Die wichtigsten Angaben zur Auftragsausführung (z. B. Zwischenleistungen, Schadenersatz, Rechte des geistigen Eigentums).</entry>
-<entry key="field|description|BT-701-notice">Die Europäische Bekanntmachungskennung für öffentliche Auftragsvergabe für diese Bekanntmachung. Durch die Angabe der Kennung in allen veröffentlichten Versionen der Bekanntmachung (so beispielsweise Veröffentlichungen in TED sowie auf nationalen und regionalen Veröffentlichungsportalen) wird eine eindeutige Identifizierung von Bekanntmachungen in der gesamten Union ermöglicht.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Die Europäische Bekanntmachungskennung für öffentliche Auftragsvergabe für diese Bekanntmachung. Durch die Angabe der Kennung in allen veröffentlichten Versionen der Bekanntmachung (so beispielsweise Veröffentlichungen in TED sowie auf nationalen und regionalen Veröffentlichungsportalen) wird eine eindeutige Identifizierung von Bekanntmachungen in der gesamten Union ermöglicht.</entry>
+<entry key="field|description|BT-701-notice">Identifikator der europäischen Vergabebekanntmachung für diese Bekanntmachung.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Identifikator der europäischen Vergabebekanntmachung für diese Bekanntmachung.</entry>
 <entry key="field|description|BT-702(a)-notice">Die Sprache(n), in der/denen die amtliche Fassung der Bekanntmachung verfügbar ist. Diese Sprachfassungen sind gleichermaßen rechtsgültig.</entry>
 <entry key="field|description|BT-702(b)-notice">Die Sprache(n), in der/denen die amtliche Fassung der Bekanntmachung verfügbar ist. Diese Sprachfassungen sind gleichermaßen rechtsgültig.</entry>
 <entry key="field|description|BT-706-UBO">Die Staatsangehörigkeit (bzw. Staatsangehörigkeiten) des(der) wirtschaftlichen Eigentümer(s) des Gewinners, Bieters oder Unterauftragnehmers, laut Eintrag in dem(den) gemäß der Richtlinie (EU) 2018/843 des Europäischen Parlaments und des Rates eingerichteten Register(n). Wenn kein entsprechendes Register vorhanden ist (z. B. im Falle von Auftragnehmern, die nicht in der EU niedergelassen sind), Informationen aus anderen Quellen.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Zwingende Gründe im öffentlichen Interesse</entry>
 <entry key="field|name|BT-70-Lot">Bedingungen für die Ausführung des Auftrags</entry>
 <entry key="field|name|BT-70-Lot-Language">Bedingungen für die Ausführung des Auftrags</entry>
-<entry key="field|name|BT-701-notice">Kennung/Fassung der Bekanntmachung</entry>
-<entry key="field|name|BT-701-notice-Scheme">Kennung/Fassung der Bekanntmachung</entry>
+<entry key="field|name|BT-701-notice">Kennung der Bekanntmachung</entry>
+<entry key="field|name|BT-701-notice-Scheme">Kennung der Bekanntmachung</entry>
 <entry key="field|name|BT-702(a)-notice">Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist</entry>
 <entry key="field|name|BT-702(b)-notice">Sprachen, in denen diese Bekanntmachung offiziell verfügbar ist</entry>
 <entry key="field|name|BT-706-UBO">Staatsangehörigkeit des Eigentümers</entry>

@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Cur síos agus cúis leis an mbeart a bhaineann le cúiseanna forleithne a bhaineann leis an leas poiblí a chur i bhfeidhm</entry>
 <entry key="field|description|BT-70-Lot">An phríomhfhaisnéis faoi fheidhmíocht an chonartha (e.g. táirgí insoláthartha idirmheánacha, cúiteamh as damáistí, cearta maoine intleachtúla).</entry>
 <entry key="field|description|BT-70-Lot-Language">An phríomhfhaisnéis faoi fheidhmíocht an chonartha (e.g. táirgí insoláthartha idirmheánacha, cúiteamh as damáistí, cearta maoine intleachtúla).</entry>
-<entry key="field|description|BT-701-notice">Aitheantóir Fógra an tSoláthair Phoiblí Eorpaigh don fhógra seo. Tríd an aitheantóir sin a chur le gach leagan foilsithe den fhógra seo (e.g. TED, tairseacha foilsithe náisiúnta, tairseacha foilsithe réigiúnacha) is féidir sainaithint uathúil a dhéanamh ar fhógraí soláthair ar fud an Aontais.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Aitheantóir Fógra an tSoláthair Phoiblí Eorpaigh don fhógra seo. Tríd an aitheantóir sin a chur le gach leagan foilsithe den fhógra seo (e.g. TED, tairseacha foilsithe náisiúnta, tairseacha foilsithe réigiúnacha) is féidir sainaithint uathúil a dhéanamh ar fhógraí soláthair ar fud an Aontais.</entry>
+<entry key="field|description|BT-701-notice">Aitheantóir an fhógra Eorpaigh um sholáthar poiblí atá sa bhfógra seo.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Aitheantóir an fhógra Eorpaigh um sholáthar poiblí atá sa bhfógra seo.</entry>
 <entry key="field|description|BT-702(a)-notice">An teanga nó na teangacha ina bhfuil an fógra seo ar fáil go hoifigiúil. Is ionann an bhailíocht dhlíthiúil do na leaganacha teanga seo.</entry>
 <entry key="field|description|BT-702(b)-notice">An teanga nó na teangacha ina bhfuil an fógra seo ar fáil go hoifigiúil. Is ionann an bhailíocht dhlíthiúil do na leaganacha teanga seo.</entry>
 <entry key="field|description|BT-706-UBO">Náisiúntacht (nó náisiúntachtaí) úinéir (nó úinéirí) is tairbhí an bhuaiteora, an tairgeora, nó an fhochonraitheora mar atá foilsithe sa chlár nó sna cláir a bunaíodh le Treoir (AE) 2018/843 ó Pharlaimint na hEorpa agus ón gComhairle. Mura bhfuil a leithéid de chlár ann (e.g. i gcás conraitheoirí atá bunaithe lasmuigh den Aontas), faisnéis choibhéiseach ó fhoinsí eile mar sin.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Cúiseanna forleithne a bhaineann leis an leas poiblí</entry>
 <entry key="field|name|BT-70-Lot">Coinníollacha a bhaineann le comhlíonadh an chonartha</entry>
 <entry key="field|name|BT-70-Lot-Language">Coinníollacha a bhaineann le comhlíonadh an chonartha</entry>
-<entry key="field|name|BT-701-notice">Aitheantóir/leagan an fhógra</entry>
-<entry key="field|name|BT-701-notice-Scheme">Aitheantóir/leagan an fhógra</entry>
+<entry key="field|name|BT-701-notice">Aitheantóir an fhógra</entry>
+<entry key="field|name|BT-701-notice-Scheme">Aitheantóir an fhógra</entry>
 <entry key="field|name|BT-702(a)-notice">Na teangacha ina bhfuil an fógra seo ar fáil go hoifigiúil</entry>
 <entry key="field|name|BT-702(b)-notice">Na teangacha ina bhfuil an fógra seo ar fáil go hoifigiúil</entry>
 <entry key="field|name|BT-706-UBO">Náisiúntacht an úinéara</entry>

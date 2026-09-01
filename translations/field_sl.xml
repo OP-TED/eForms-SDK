@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Opis in utemeljitev za uporabo prevladujočih razlogov, povezanih z javnim interesom</entry>
 <entry key="field|description|BT-70-Lot">Glavni podatki o izvedbi naročila (npr. vmesni rezultati, nadomestilo za škodo, pravice intelektualne lastnine).</entry>
 <entry key="field|description|BT-70-Lot-Language">Glavni podatki o izvedbi naročila (npr. vmesni rezultati, nadomestilo za škodo, pravice intelektualne lastnine).</entry>
-<entry key="field|description|BT-701-notice">Evropski identifikator obvestila o javnem naročilu iz tega obvestila. Če je ta identifikator naveden v vseh objavljenih različicah tega obvestila (npr. v TED, na nacionalnih portalih za objavljanje in regionalnih portalih za objavljanje), je mogoče obvestilo o javnem naročilu enotno identificirati po vsej Uniji.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Evropski identifikator obvestila o javnem naročilu iz tega obvestila. Če je ta identifikator naveden v vseh objavljenih različicah tega obvestila (npr. v TED, na nacionalnih portalih za objavljanje in regionalnih portalih za objavljanje), je mogoče obvestilo o javnem naročilu enotno identificirati po vsej Uniji.</entry>
+<entry key="field|description|BT-701-notice">Identifikator evropskega obvestila o javnem naročilu za to obvestilo.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Identifikator evropskega obvestila o javnem naročilu za to obvestilo.</entry>
 <entry key="field|description|BT-702(a)-notice">Jeziki, v katerih je to obvestilo uradno objavljeno. Te jezikovne različice imajo enako pravno veljavo.</entry>
 <entry key="field|description|BT-702(b)-notice">Jeziki, v katerih je to obvestilo uradno objavljeno. Te jezikovne različice imajo enako pravno veljavo.</entry>
 <entry key="field|description|BT-706-UBO">Državljanstva dejanskih lastnikov zmagovalca, ponudnika ali podizvajalca, kot so objavljena v registrih, vzpostavljenih z Direktivo (EU) 2018/843 Evropskega parlamenta in Sveta. Če takega registra ni (npr. pri izvajalcih s sedežem zunaj Unije), se navedejo enakovredne informacije iz drugih virov.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Prevladujoči razlogi, povezani z javnim interesom</entry>
 <entry key="field|name|BT-70-Lot">Pogoji, povezani z izvajanjem javnega naročila</entry>
 <entry key="field|name|BT-70-Lot-Language">Pogoji, povezani z izvajanjem javnega naročila</entry>
-<entry key="field|name|BT-701-notice">Identifikator/različica obvestila</entry>
-<entry key="field|name|BT-701-notice-Scheme">Identifikator/različica obvestila</entry>
+<entry key="field|name|BT-701-notice">Identifikator obvestila</entry>
+<entry key="field|name|BT-701-notice-Scheme">Identifikator obvestila</entry>
 <entry key="field|name|BT-702(a)-notice">Jeziki, v katerih je uradno dostopno to obvestilo</entry>
 <entry key="field|name|BT-702(b)-notice">Jeziki, v katerih je uradno dostopno to obvestilo</entry>
 <entry key="field|name|BT-706-UBO">Državljanstvo lastnika</entry>

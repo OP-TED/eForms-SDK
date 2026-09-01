@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Opis i uzasadnienie zastosowania nadrzędnych powodów związanych z interesem publicznym</entry>
 <entry key="field|description|BT-70-Lot">Główne informacje na temat realizacji zamówienia (np. rezultaty pośrednie, rekompensata za szkody, prawa własności intelektualnej).</entry>
 <entry key="field|description|BT-70-Lot-Language">Główne informacje na temat realizacji zamówienia (np. rezultaty pośrednie, rekompensata za szkody, prawa własności intelektualnej).</entry>
-<entry key="field|description|BT-701-notice">Europejski identyfikator ogłoszenia w sprawie zamówienia publicznego dla danego ogłoszenia. Umieszczenie tego identyfikatora we wszystkich publikowanych wersjach danego ogłoszenia (np. publikowanych w TED, na krajowych portalach publikacyjnych, na regionalnych portalach publikacyjnych) umożliwia jednoznaczną identyfikację ogłoszeń dotyczących zamówień w całej Unii.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Europejski identyfikator ogłoszenia w sprawie zamówienia publicznego dla danego ogłoszenia. Umieszczenie tego identyfikatora we wszystkich publikowanych wersjach danego ogłoszenia (np. publikowanych w TED, na krajowych portalach publikacyjnych, na regionalnych portalach publikacyjnych) umożliwia jednoznaczną identyfikację ogłoszeń dotyczących zamówień w całej Unii.</entry>
+<entry key="field|description|BT-701-notice">Identyfikator europejskiego ogłoszenia o zamówieniu publicznym dla niniejszego ogłoszenia.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Identyfikator europejskiego ogłoszenia o zamówieniu publicznym dla niniejszego ogłoszenia.</entry>
 <entry key="field|description|BT-702(a)-notice">Język lub języki, w których dane ogłoszenie jest oficjalnie dostępne. Te wersje językowe są jednakowo ważne pod względem prawnym.</entry>
 <entry key="field|description|BT-702(b)-notice">Język lub języki, w których dane ogłoszenie jest oficjalnie dostępne. Te wersje językowe są jednakowo ważne pod względem prawnym.</entry>
 <entry key="field|description|BT-706-UBO">Obywatelstwo (lub obywatelstwa) faktycznego właściciela (faktycznych właścicieli) zwycięzcy, oferenta lub podwykonawcy; zgodnie z rejestrem(-ami) ustanowionym(i) dyrektywą Parlamentu Europejskiego i Rady (UE) 2018/843. Jeżeli taki rejestr nie istnieje (np. w przypadku wykonawców z siedzibą poza Unią), należy podać równoważne informacje z innych źródeł.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Nadrzędne powody związane z interesem publicznym</entry>
 <entry key="field|name|BT-70-Lot">Warunki dotyczące realizacji zamówienia</entry>
 <entry key="field|name|BT-70-Lot-Language">Warunki dotyczące realizacji zamówienia</entry>
-<entry key="field|name|BT-701-notice">Identyfikator/wersja ogłoszenia</entry>
-<entry key="field|name|BT-701-notice-Scheme">Identyfikator/wersja ogłoszenia</entry>
+<entry key="field|name|BT-701-notice">Identyfikator ogłoszenia</entry>
+<entry key="field|name|BT-701-notice-Scheme">Identyfikator ogłoszenia</entry>
 <entry key="field|name|BT-702(a)-notice">Języki, w których przedmiotowe ogłoszenie jest oficjalnie dostępne</entry>
 <entry key="field|name|BT-702(b)-notice">Języki, w których przedmiotowe ogłoszenie jest oficjalnie dostępne</entry>
 <entry key="field|name|BT-706-UBO">Przynależność państwowa właściciela</entry>

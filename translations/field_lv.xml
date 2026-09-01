@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Apraksts un pamatojums par pārākās sabiedriskās intereses iemeslu piemērošanu</entry>
 <entry key="field|description|BT-70-Lot">Galvenā informācija par līguma izpildi (piemēram, starpposma nodevumi, kompensācija par zaudējumiem, intelektuālā īpašuma tiesības).</entry>
 <entry key="field|description|BT-70-Lot-Language">Galvenā informācija par līguma izpildi (piemēram, starpposma nodevumi, kompensācija par zaudējumiem, intelektuālā īpašuma tiesības).</entry>
-<entry key="field|description|BT-701-notice">Šā paziņojuma Eiropas publiskā iepirkuma paziņojuma identifikators. Iekļaujot šo identifikatoru visās šā paziņojuma publikācijās (piemēram, TED, valsts publikāciju portālos, reģionālajos publikāciju portālos), ir iespējams unikāli identificēt iepirkuma paziņojumus visā Savienībā.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Šā paziņojuma Eiropas publiskā iepirkuma paziņojuma identifikators. Iekļaujot šo identifikatoru visās šā paziņojuma publikācijās (piemēram, TED, valsts publikāciju portālos, reģionālajos publikāciju portālos), ir iespējams unikāli identificēt iepirkuma paziņojumus visā Savienībā.</entry>
+<entry key="field|description|BT-701-notice">Šā paziņojuma Eiropas publiskā iepirkuma paziņojuma identifikators.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Šā paziņojuma Eiropas publiskā iepirkuma paziņojuma identifikators.</entry>
 <entry key="field|description|BT-702(a)-notice">Valodas, kurās paziņojums oficiāli pieejams. Šīs valodu versijas ir juridiski līdzvērtīgas.</entry>
 <entry key="field|description|BT-702(b)-notice">Valodas, kurās paziņojums oficiāli pieejams. Šīs valodu versijas ir juridiski līdzvērtīgas.</entry>
 <entry key="field|description|BT-706-UBO">Uzvarētāja, pretendenta vai apakšuzņēmēja faktiskā(-o) īpašnieka(-u) valstspiederība (vai valstspiederības) atbilstoši publikācijai reģistros, kas izveidoti ar Eiropas Parlamenta un Padomes Direktīvu (ES) 2018/843. Ja šāds reģistrs nepastāv (piemēram, gadījumā, ja darbuzņēmēji ir iedibināti ārpus Savienības), tad līdzvērtīga informācija no citiem avotiem.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Pārākās sabiedriskās intereses iemesli</entry>
 <entry key="field|name|BT-70-Lot">Ar līguma izpildi saistītie nosacījumi</entry>
 <entry key="field|name|BT-70-Lot-Language">Ar līguma izpildi saistītie nosacījumi</entry>
-<entry key="field|name|BT-701-notice">Paziņojuma identifikators/versija</entry>
-<entry key="field|name|BT-701-notice-Scheme">Paziņojuma identifikators/versija</entry>
+<entry key="field|name|BT-701-notice">Paziņojuma identifikators</entry>
+<entry key="field|name|BT-701-notice-Scheme">Paziņojuma identifikators</entry>
 <entry key="field|name|BT-702(a)-notice">Valodas, kurās oficiāli pieejams šis paziņojums</entry>
 <entry key="field|name|BT-702(b)-notice">Valodas, kurās oficiāli pieejams šis paziņojums</entry>
 <entry key="field|name|BT-706-UBO">Īpašnieka valstspiederība</entry>

@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">O descriere și justificare pentru aplicarea motivelor preponderente legate de interesul public</entry>
 <entry key="field|description|BT-70-Lot">Principalele informații cu privire la executarea contractului (de exemplu, prestații intermediare, despăgubiri pentru daune, drepturi de proprietate intelectuală).</entry>
 <entry key="field|description|BT-70-Lot-Language">Principalele informații cu privire la executarea contractului (de exemplu, prestații intermediare, despăgubiri pentru daune, drepturi de proprietate intelectuală).</entry>
-<entry key="field|description|BT-701-notice">Identificatorul anunțului de achiziții publice în Uniunea Europeană. Includerea acestui identificator în orice versiune publicată a anunțului în cauză (de exemplu pe TED, pe portaluri de publicare naționale, pe portaluri de publicații regionale) permite identificarea unică a anunțurilor de achiziții publice în UE.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Identificatorul anunțului de achiziții publice în Uniunea Europeană. Includerea acestui identificator în orice versiune publicată a anunțului în cauză (de exemplu pe TED, pe portaluri de publicare naționale, pe portaluri de publicații regionale) permite identificarea unică a anunțurilor de achiziții publice în UE.</entry>
+<entry key="field|description|BT-701-notice">Identificatorul anunțului european de achiziție publică al acestui anunț.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Identificatorul anunțului european de achiziție publică al acestui anunț.</entry>
 <entry key="field|description|BT-702(a)-notice">Limba (limbile) în care anunțul respectiv este oficial disponibil. Aceste versiuni lingvistice au aceeași validitate juridică.</entry>
 <entry key="field|description|BT-702(b)-notice">Limba (limbile) în care anunțul respectiv este oficial disponibil. Aceste versiuni lingvistice au aceeași validitate juridică.</entry>
 <entry key="field|description|BT-706-UBO">Naționalitatea (sau naționalitățile) beneficiarului (beneficiarilor) efectiv(i) al(ai) câștigătorului, ofertantului sau subcontractantului, astfel cum a(u) fost publicată (publicate) în registrul (registrele) prevăzut(e) de Directiva (UE) 2018/843 a Parlamentului European și a Consiliului. Dacă nu există un astfel de registru (de exemplu, în cazul unor contractanți stabiliți în afara Uniunii), atunci informații echivalente din alte surse.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Motive preponderente legate de interesul public</entry>
 <entry key="field|name|BT-70-Lot">Condiții privind executarea contractului</entry>
 <entry key="field|name|BT-70-Lot-Language">Condiții privind executarea contractului</entry>
-<entry key="field|name|BT-701-notice">Identificatorul/versiunea anunțului</entry>
-<entry key="field|name|BT-701-notice-Scheme">Identificatorul/versiunea anunțului</entry>
+<entry key="field|name|BT-701-notice">Identificatorul anunțului</entry>
+<entry key="field|name|BT-701-notice-Scheme">Identificatorul anunțului</entry>
 <entry key="field|name|BT-702(a)-notice">Limbile în care acest anunț este disponibil oficial</entry>
 <entry key="field|name|BT-702(b)-notice">Limbile în care acest anunț este disponibil oficial</entry>
 <entry key="field|name|BT-706-UBO">Naționalitatea proprietarului</entry>

@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Une description et une justification de l'application de raisons impérieuses d'intérêt public</entry>
 <entry key="field|description|BT-70-Lot">Principales informations sur l’exécution du marché (prestations intermédiaires, indemnisation des dommages, droits de propriété intellectuelle, etc.).</entry>
 <entry key="field|description|BT-70-Lot-Language">Principales informations sur l’exécution du marché (prestations intermédiaires, indemnisation des dommages, droits de propriété intellectuelle, etc.).</entry>
-<entry key="field|description|BT-701-notice">Identifiant d’un avis de passation de marché public dans l’Union européenne. L’ajout de cet identifiant dans toutes les versions publiées de l’avis en question (versions publiées sur le TED, les portails nationaux de publication, les portails régionaux de publication, etc.) permet une identification unique des avis de passation de marchés dans l’Union européenne.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Identifiant d’un avis de passation de marché public dans l’Union européenne. L’ajout de cet identifiant dans toutes les versions publiées de l’avis en question (versions publiées sur le TED, les portails nationaux de publication, les portails régionaux de publication, etc.) permet une identification unique des avis de passation de marchés dans l’Union européenne.</entry>
+<entry key="field|description|BT-701-notice">L’identifiant de l’avis européen de marché public du présent avis.</entry>
+<entry key="field|description|BT-701-notice-Scheme">L’identifiant de l’avis européen de marché public du présent avis.</entry>
 <entry key="field|description|BT-702(a)-notice">Langue(s) dans laquelle (lesquelles) l’avis en question est officiellement disponible. Les différentes versions linguistiques ont la même valeur juridique.</entry>
 <entry key="field|description|BT-702(b)-notice">Langue(s) dans laquelle (lesquelles) l’avis en question est officiellement disponible. Les différentes versions linguistiques ont la même valeur juridique.</entry>
 <entry key="field|description|BT-706-UBO">La (les) nationalité(s) du (des) bénéficiaire(s) effectif(s) du lauréat, du soumissionnaire ou du sous-contractant, telle(s) qu’elle(s) est (sont) publiée(s) dans le(s) registre(s) établi(s) par la directive (UE) 2018/843 du Parlement européen et du Conseil. Si un tel registre n’existe pas (dans le cas de contractants établis en dehors de l’Union, par exemple), des informations équivalentes provenant d’autres sources doivent être fournies.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Raisons impérieuses d'intérêt public</entry>
 <entry key="field|name|BT-70-Lot">Conditions relatives à l’exécution du contrat</entry>
 <entry key="field|name|BT-70-Lot-Language">Conditions relatives à l’exécution du contrat</entry>
-<entry key="field|name|BT-701-notice">Identifiant/version de l’avis</entry>
-<entry key="field|name|BT-701-notice-Scheme">Identifiant/version de l’avis</entry>
+<entry key="field|name|BT-701-notice">Identifiant de l’avis</entry>
+<entry key="field|name|BT-701-notice-Scheme">Identifiant de l’avis</entry>
 <entry key="field|name|BT-702(a)-notice">Langues dans lesquelles l’avis en question est officiellement disponible</entry>
 <entry key="field|name|BT-702(b)-notice">Langues dans lesquelles l’avis en question est officiellement disponible</entry>
 <entry key="field|name|BT-706-UBO">Nationalité du bénéficiaire effectif</entry>

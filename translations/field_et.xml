@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Kirjeldus ja põhjendus avaliku huvi tõttu ülekaalukate põhjuste kohaldamiseks</entry>
 <entry key="field|description|BT-70-Lot">Peamine teave lepingu täitmise kohta (nt vahetulemused, kahjude hüvitamine, intellektuaalomandi õigused).</entry>
 <entry key="field|description|BT-70-Lot-Language">Peamine teave lepingu täitmise kohta (nt vahetulemused, kahjude hüvitamine, intellektuaalomandi õigused).</entry>
-<entry key="field|description|BT-701-notice">Käesoleva teate Euroopa riigihanketeate tunnus. Selle tunnuse lisamine teate kõikidele avaldatud versioonidele (nt TED, riiklikud portaalid, piirkondlikud portaalid) võimaldab riigihanketeated kõikjal liidus üheselt kindlaks teha.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Käesoleva teate Euroopa riigihanketeate tunnus. Selle tunnuse lisamine teate kõikidele avaldatud versioonidele (nt TED, riiklikud portaalid, piirkondlikud portaalid) võimaldab riigihanketeated kõikjal liidus üheselt kindlaks teha.</entry>
+<entry key="field|description|BT-701-notice">Selle teate Euroopa hanketeate tunnus.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Selle teate Euroopa hanketeate tunnus.</entry>
 <entry key="field|description|BT-702(a)-notice">Keel(ed), milles käesolev teade on ametlikult kättesaadav. Need keeleversioonid on võrdse õigusjõuga.</entry>
 <entry key="field|description|BT-702(b)-notice">Keel(ed), milles käesolev teade on ametlikult kättesaadav. Need keeleversioonid on võrdse õigusjõuga.</entry>
 <entry key="field|description|BT-706-UBO">Eduka pakkuja, hankija või alltöövõtja tegeliku kasusaaja (või tegelike kasusaajate) elu- või asukohariik (või -riigid) Euroopa Parlamendi ja nõukogu direktiivi (EL) 2018/843 alusel loodud registri(te)s. Kui sellist registrit ei ole (nt liiduväliste töövõtjate puhul), siis samaväärne teave muudest allikatest.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Ülekaalukad põhjused, mis on seotud avaliku huviga</entry>
 <entry key="field|name|BT-70-Lot">Lepingu täitmisega seotud tingimused</entry>
 <entry key="field|name|BT-70-Lot-Language">Lepingu täitmisega seotud tingimused</entry>
-<entry key="field|name|BT-701-notice">Teate tunnus/versioon</entry>
-<entry key="field|name|BT-701-notice-Scheme">Teate tunnus/versioon</entry>
+<entry key="field|name|BT-701-notice">Teate tunnus</entry>
+<entry key="field|name|BT-701-notice-Scheme">Teate tunnus</entry>
 <entry key="field|name|BT-702(a)-notice">Keeled, milles käesolev teade on ametlikult kättesaadav</entry>
 <entry key="field|name|BT-702(b)-notice">Keeled, milles käesolev teade on ametlikult kättesaadav</entry>
 <entry key="field|name|BT-706-UBO">Omaniku kodakondsus</entry>

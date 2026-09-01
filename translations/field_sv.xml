@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">En beskrivning och motivering för tillämpningen av tvingande skäl relaterade till allmänintresset</entry>
 <entry key="field|description|BT-70-Lot">Den viktigaste informationen om genomförandet av kontraktet (t.ex. delresultat, skadestånd, immateriella rättigheter).</entry>
 <entry key="field|description|BT-70-Lot-Language">Den viktigaste informationen om genomförandet av kontraktet (t.ex. delresultat, skadestånd, immateriella rättigheter).</entry>
-<entry key="field|description|BT-701-notice">Identifieraren för meddelandet om europeisk offentlig upphandling i detta meddelande. Om denna identifierare anges i alla offentliggjorda versioner av detta meddelande (t.ex. på TED-webbplatsen, nationella portaler, regionala portaler), kan upphandlingsmeddelanden i unionen få unik identifiering.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Identifieraren för meddelandet om europeisk offentlig upphandling i detta meddelande. Om denna identifierare anges i alla offentliggjorda versioner av detta meddelande (t.ex. på TED-webbplatsen, nationella portaler, regionala portaler), kan upphandlingsmeddelanden i unionen få unik identifiering.</entry>
+<entry key="field|description|BT-701-notice">Identifierare för det europeiska meddelandet om offentlig upphandling för detta meddelande.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Identifierare för det europeiska meddelandet om offentlig upphandling för detta meddelande.</entry>
 <entry key="field|description|BT-702(a)-notice">Det eller de språk som detta meddelande är offentligt tillgängligt på. Dessa språkversioner har samma rättsliga giltighet.</entry>
 <entry key="field|description|BT-702(b)-notice">Det eller de språk som detta meddelande är offentligt tillgängligt på. Dessa språkversioner har samma rättsliga giltighet.</entry>
 <entry key="field|description|BT-706-UBO">Nationalitet(er) för vinnarens, anbudsgivarens eller underentreprenörens verkliga huvudman som offentliggjorts i det eller de register som upprättats i enlighet med Europaparlamentets och rådets direktiv (EU) 2018/843. Om ett sådant register inte finns (t.ex. om det rör sig om entreprenörer som är etablerade utanför unionen) ska motsvarande information anges från andra källor.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Tvingande skäl relaterade till allmänintresset</entry>
 <entry key="field|name|BT-70-Lot">Villkor som gäller genomförandet av kontraktet</entry>
 <entry key="field|name|BT-70-Lot-Language">Villkor som gäller genomförandet av kontraktet</entry>
-<entry key="field|name|BT-701-notice">Identifierare/version för meddelandet</entry>
-<entry key="field|name|BT-701-notice-Scheme">Identifierare/version för meddelandet</entry>
+<entry key="field|name|BT-701-notice">Identifierare för meddelandet</entry>
+<entry key="field|name|BT-701-notice-Scheme">Identifierare för meddelandet</entry>
 <entry key="field|name|BT-702(a)-notice">Språk som det här meddelandet finns officiellt tillgängligt på</entry>
 <entry key="field|name|BT-702(b)-notice">Språk som det här meddelandet finns officiellt tillgängligt på</entry>
 <entry key="field|name|BT-706-UBO">Nationalitet på verklig huvudman</entry>

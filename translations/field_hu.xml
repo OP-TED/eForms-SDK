@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Leírás és indoklás a közérdekkel összefüggő kényszerítő okok alkalmazására</entry>
 <entry key="field|description|BT-70-Lot">A szerződés teljesítésére vonatkozó fő feltételek (pl. köztes teljesítések, kártérítés, szellemitulajdon-jogok).</entry>
 <entry key="field|description|BT-70-Lot-Language">A szerződés teljesítésére vonatkozó fő feltételek (pl. köztes teljesítések, kártérítés, szellemitulajdon-jogok).</entry>
-<entry key="field|description|BT-701-notice">A hirdetmény európai közbeszerzési hirdetményazonosítója. Az azonosítónak a hirdetmény valamennyi közzétett verziójában (pl. a TED-en, a nemzeti közzétételi portálokon, a regionális közzétételi portálokon) történő feltüntetése lehetővé teszi a hirdetmények egyedi azonosítását Unió-szerte.</entry>
-<entry key="field|description|BT-701-notice-Scheme">A hirdetmény európai közbeszerzési hirdetményazonosítója. Az azonosítónak a hirdetmény valamennyi közzétett verziójában (pl. a TED-en, a nemzeti közzétételi portálokon, a regionális közzétételi portálokon) történő feltüntetése lehetővé teszi a hirdetmények egyedi azonosítását Unió-szerte.</entry>
+<entry key="field|description|BT-701-notice">A jelen hirdetmény európai közbeszerzési hirdetményének azonosítója.</entry>
+<entry key="field|description|BT-701-notice-Scheme">A jelen hirdetmény európai közbeszerzési hirdetményének azonosítója.</entry>
 <entry key="field|description|BT-702(a)-notice">A nyelv(ek), amely(ek)en a hirdetmény hivatalosan elérhető. Ezek a nyelvi verziók jogilag egyformán érvényesek.</entry>
 <entry key="field|description|BT-702(b)-notice">A nyelv(ek), amely(ek)en a hirdetmény hivatalosan elérhető. Ezek a nyelvi verziók jogilag egyformán érvényesek.</entry>
 <entry key="field|description|BT-706-UBO">A nyertes, az ajánlattevő vagy alvállalkozó tényleges tulajdonosának (tulajdonosainak) állampolgársága az (EU) 2018/843 európai parlamenti és tanácsi irányelv szerint létrehozott nyilvántartás(ok)ban közzétettek szerint. Ha nincs ilyen nyilvántartás (pl. az Unión kívül letelepedett vállalkozók esetében), akkor ezzel egyenértékű információ más forrásból.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">A közérdekkel összefüggő kényszerítő okok</entry>
 <entry key="field|name|BT-70-Lot">A szerződés teljesítésére vonatkozó feltételek</entry>
 <entry key="field|name|BT-70-Lot-Language">A szerződés teljesítésére vonatkozó feltételek</entry>
-<entry key="field|name|BT-701-notice">A hirdetmény azonosítója/verziója</entry>
-<entry key="field|name|BT-701-notice-Scheme">A hirdetmény azonosítója/verziója</entry>
+<entry key="field|name|BT-701-notice">A hirdetmény azonosítója</entry>
+<entry key="field|name|BT-701-notice-Scheme">A hirdetmény azonosítója</entry>
 <entry key="field|name|BT-702(a)-notice">Azok a nyelvek, amelyeken ez a hirdetmény hivatalosan elérhető</entry>
 <entry key="field|name|BT-702(b)-notice">Azok a nyelvek, amelyeken ez a hirdetmény hivatalosan elérhető</entry>
 <entry key="field|name|BT-706-UBO">A tulajdonos állampolgársága</entry>

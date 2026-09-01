@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">A description and justification for the application of overriding reasons relating to the public interest</entry>
 <entry key="field|description|BT-70-Lot">The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).</entry>
 <entry key="field|description|BT-70-Lot-Language">The main information about the performance of the contract (e.g. intermediary deliverables, compensation for damages, intellectual property rights).</entry>
-<entry key="field|description|BT-701-notice">The European Public Procurement Notice Identifier of this notice. Including this identifier in all published version of this notice (e.g. TED, national publication portals, regional publication portals) allows unique identification of procurement notices around the Union.</entry>
-<entry key="field|description|BT-701-notice-Scheme">The European Public Procurement Notice Identifier of this notice. Including this identifier in all published version of this notice (e.g. TED, national publication portals, regional publication portals) allows unique identification of procurement notices around the Union.</entry>
+<entry key="field|description|BT-701-notice">Identificator of the European Public Procurement Notice for this notice.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Identificator of the European Public Procurement Notice for this notice.</entry>
 <entry key="field|description|BT-702(a)-notice">The language(s) in which this notice is officially available. These linguistic versions are equally legally valid.</entry>
 <entry key="field|description|BT-702(b)-notice">The language(s) in which this notice is officially available. These linguistic versions are equally legally valid.</entry>
 <entry key="field|description|BT-706-UBO">The nationality (or nationalities) of the beneficiary owner(s) of the winner, tenderer, or subcontractor as published in the register(s) established by European Parliament and Council Directive (EU) 2018/843. If such a register does not exist (e.g. in case of contractors established outside the Union) then equivalent information from other sources.</entry>
@@ -1304,8 +1304,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Overriding reasons relating to the public interest</entry>
 <entry key="field|name|BT-70-Lot">Conditions relating to the performance of the contract</entry>
 <entry key="field|name|BT-70-Lot-Language">Conditions relating to the performance of the contract</entry>
-<entry key="field|name|BT-701-notice">Notice identifier/version</entry>
-<entry key="field|name|BT-701-notice-Scheme">Notice identifier/version</entry>
+<entry key="field|name|BT-701-notice">Notice identifier</entry>
+<entry key="field|name|BT-701-notice-Scheme">Notice identifier</entry>
 <entry key="field|name|BT-702(a)-notice">Languages in which this notice is officially available</entry>
 <entry key="field|name|BT-702(b)-notice">Languages in which this notice is officially available</entry>
 <entry key="field|name|BT-706-UBO">Nationality of the owner</entry>

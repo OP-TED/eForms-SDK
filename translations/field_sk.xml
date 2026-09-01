@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Popis a odôvodnenie uplatnenia prevažujúcich dôvodov súvisiacich s verejným záujmom</entry>
 <entry key="field|description|BT-70-Lot">Hlavné informácie o plnení zmluvy (napr. priebežné výstupy, náhrada škody, práva duševného vlastníctva).</entry>
 <entry key="field|description|BT-70-Lot-Language">Hlavné informácie o plnení zmluvy (napr. priebežné výstupy, náhrada škody, práva duševného vlastníctva).</entry>
-<entry key="field|description|BT-701-notice">Európsky identifikátor postupu verejného obstarávania tohto oznámenia. Uvedenie tohto identifikátora vo všetkých uverejnených verziách tohto oznámenia (napr. v databáze TED, vnútroštátnych/regionálnych portáloch na uverejňovanie oznámení) umožňuje jednoznačnú identifikáciu oznámení o verejných obstarávaniach v celej Únii.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Európsky identifikátor postupu verejného obstarávania tohto oznámenia. Uvedenie tohto identifikátora vo všetkých uverejnených verziách tohto oznámenia (napr. v databáze TED, vnútroštátnych/regionálnych portáloch na uverejňovanie oznámení) umožňuje jednoznačnú identifikáciu oznámení o verejných obstarávaniach v celej Únii.</entry>
+<entry key="field|description|BT-701-notice">Identifikátor európskeho oznámenia o verejnom obstarávaní pre toto oznámenie.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Identifikátor európskeho oznámenia o verejnom obstarávaní pre toto oznámenie.</entry>
 <entry key="field|description|BT-702(a)-notice">Jazyk(-y), v ktorom(-ých) je toto oznámenie oficiálne k dispozícii. Tieto jazykové verzie majú rovnakú právnu platnosť.</entry>
 <entry key="field|description|BT-702(b)-notice">Jazyk(-y), v ktorom(-ých) je toto oznámenie oficiálne k dispozícii. Tieto jazykové verzie majú rovnakú právnu platnosť.</entry>
 <entry key="field|description|BT-706-UBO">Štátna príslušnosť (alebo štátne príslušnosti) oprávneného(-ých) konečného(-ých) užívateľa(-ov) výhod víťaza, uchádzača alebo subdodávateľa, ako je uverejnená v registri(-och) zriadenom(-ých) podľa smernice Európskeho parlamentu a Rady (EÚ) 2018/843. Ak takýto register neexistuje (napr. v prípade dodávateľov usadených mimo EÚ), uvedú sa rovnocenné informácie z iných zdrojov.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Prevažujúce dôvody súvisiace s verejným záujmom</entry>
 <entry key="field|name|BT-70-Lot">Podmienky týkajúce sa plnenia zmluvy</entry>
 <entry key="field|name|BT-70-Lot-Language">Podmienky týkajúce sa plnenia zmluvy</entry>
-<entry key="field|name|BT-701-notice">Identifikátor/verzia oznámenia</entry>
-<entry key="field|name|BT-701-notice-Scheme">Identifikátor/verzia oznámenia</entry>
+<entry key="field|name|BT-701-notice">Identifikátor oznámenia</entry>
+<entry key="field|name|BT-701-notice-Scheme">Identifikátor oznámenia</entry>
 <entry key="field|name|BT-702(a)-notice">Jazyky, v ktorých je toto oznámenie oficiálne k dispozícii</entry>
 <entry key="field|name|BT-702(b)-notice">Jazyky, v ktorých je toto oznámenie oficiálne k dispozícii</entry>
 <entry key="field|name|BT-706-UBO">Štátna príslušnosť vlastníka</entry>

@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Deskrizzjoni u ġustifikazzjoni għall-applikazzjoni ta' raġunijiet prevalenti relatati mal-interess pubbliku</entry>
 <entry key="field|description|BT-70-Lot">L-informazzjoni prinċipali dwar it-twettiq tal-kuntratt (eż. ir-riżultati intermedjarji, il-kumpens għad-danni, id-drittijiet tal-proprjetà intellettwali).</entry>
 <entry key="field|description|BT-70-Lot-Language">L-informazzjoni prinċipali dwar it-twettiq tal-kuntratt (eż. ir-riżultati intermedjarji, il-kumpens għad-danni, id-drittijiet tal-proprjetà intellettwali).</entry>
-<entry key="field|description|BT-701-notice">L-Identifikatur Ewropew tal-Avviż dwar l-Akkwist Pubbliku ta’ dan l-avviż. L-inklużjoni ta’ dan l-identifikatur fil-verżjonijiet kollha li ġew ippubblikati ta’ dan l-avviż (eż. ippubblikati fuq it-TED, il-portali nazzjonali tal-pubblikazzjonijiet, il-portali reġjonali tal-pubblikazzjonijiet) tippermetti identifikazzjoni unika tal-avviżi dwar l-akkwist fl-Unjoni kollha.</entry>
-<entry key="field|description|BT-701-notice-Scheme">L-Identifikatur Ewropew tal-Avviż dwar l-Akkwist Pubbliku ta’ dan l-avviż. L-inklużjoni ta’ dan l-identifikatur fil-verżjonijiet kollha li ġew ippubblikati ta’ dan l-avviż (eż. ippubblikati fuq it-TED, il-portali nazzjonali tal-pubblikazzjonijiet, il-portali reġjonali tal-pubblikazzjonijiet) tippermetti identifikazzjoni unika tal-avviżi dwar l-akkwist fl-Unjoni kollha.</entry>
+<entry key="field|description|BT-701-notice">L-identifikatur tal-avviż Ewropew tal-akkwist pubbliku ta’ dan l-avviż.</entry>
+<entry key="field|description|BT-701-notice-Scheme">L-identifikatur tal-avviż Ewropew tal-akkwist pubbliku ta’ dan l-avviż.</entry>
 <entry key="field|description|BT-702(a)-notice">Il-lingwa/i li biha/om huwa disponibbli uffiċjalment dan l-avviż. Dawn il-verżjonijiet lingwistiċi huma ugwalment validi legalment.</entry>
 <entry key="field|description|BT-702(b)-notice">Il-lingwa/i li biha/om huwa disponibbli uffiċjalment dan l-avviż. Dawn il-verżjonijiet lingwistiċi huma ugwalment validi legalment.</entry>
 <entry key="field|description|BT-706-UBO">In-nazzjonalità (jew in-nazzjonalitajiet) tas-sid(ien) benefiċjarju/i tar-rebbieħ, tal-offerent, jew tas-sottokuntrattur; kif ippubblikata fir-reġistru/i stabbilit(i) bid-Direttiva (UE) 2018/843 tal-Parlament Ewropew u tal-Kunsill. Jekk tali reġistru ma jeżistix (eż. f’każ ta’ kuntratturi stabbiliti barra mill-Unjoni), informazzjoni ekwivalenti minn sorsi oħra.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Raġunijiet prevalenti relatati mal-interess pubbliku</entry>
 <entry key="field|name|BT-70-Lot">Kundizzjonijiet relatati mat-twettiq tal-kuntratt</entry>
 <entry key="field|name|BT-70-Lot-Language">Kundizzjonijiet relatati mat-twettiq tal-kuntratt</entry>
-<entry key="field|name|BT-701-notice">Identifikatur/verżjoni tal-avviż</entry>
-<entry key="field|name|BT-701-notice-Scheme">Identifikatur/verżjoni tal-avviż</entry>
+<entry key="field|name|BT-701-notice">Identifikatur tal-avviż</entry>
+<entry key="field|name|BT-701-notice-Scheme">Identifikatur tal-avviż</entry>
 <entry key="field|name|BT-702(a)-notice">Lingwi li bihom dan l-avviż huwa disponibbli uffiċjalment</entry>
 <entry key="field|name|BT-702(b)-notice">Lingwi li bihom dan l-avviż huwa disponibbli uffiċjalment</entry>
 <entry key="field|name|BT-706-UBO">Nazzjonalità tas-sid</entry>

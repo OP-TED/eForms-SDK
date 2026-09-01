@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Kuvaus ja perustelu julkisen edun kannalta pakottavien syiden soveltamisesta</entry>
 <entry key="field|description|BT-70-Lot">Tärkeimmät tiedot hankintasopimuksen täytäntöönpanosta (esim. välisuoritteet, vahingonkorvaukset, teollis- ja tekijänoikeudet).</entry>
 <entry key="field|description|BT-70-Lot-Language">Tärkeimmät tiedot hankintasopimuksen täytäntöönpanosta (esim. välisuoritteet, vahingonkorvaukset, teollis- ja tekijänoikeudet).</entry>
-<entry key="field|description|BT-701-notice">Tämän ilmoituksen tunniste eurooppalaisessa julkisessa hankintamenettelyssä. Tämän tunnisteen sisällyttäminen tämän ilmoituksen kaikkiin julkaistuihin versioihin (esim. TED-tietokannassa, kansallisissa julkaisuportaaleissa ja alueellisissa julkaisuportaaleissa) mahdollistaa hankintailmoitusten yksilöllisen tunnistamisen kaikkialla unionissa.</entry>
-<entry key="field|description|BT-701-notice-Scheme">Tämän ilmoituksen tunniste eurooppalaisessa julkisessa hankintamenettelyssä. Tämän tunnisteen sisällyttäminen tämän ilmoituksen kaikkiin julkaistuihin versioihin (esim. TED-tietokannassa, kansallisissa julkaisuportaaleissa ja alueellisissa julkaisuportaaleissa) mahdollistaa hankintailmoitusten yksilöllisen tunnistamisen kaikkialla unionissa.</entry>
+<entry key="field|description|BT-701-notice">Tämän ilmoituksen eurooppalaisen hankintailmoituksen tunniste.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Tämän ilmoituksen eurooppalaisen hankintailmoituksen tunniste.</entry>
 <entry key="field|description|BT-702(a)-notice">Kieli (kielet), jo(i)lla tämä ilmoitus on virallisesti saatavilla. Nämä kielitoisinnot ovat oikeudellisesti yhtä päteviä.</entry>
 <entry key="field|description|BT-702(b)-notice">Kieli (kielet), jo(i)lla tämä ilmoitus on virallisesti saatavilla. Nämä kielitoisinnot ovat oikeudellisesti yhtä päteviä.</entry>
 <entry key="field|description|BT-706-UBO">Voittajan, tarjoajan tai alihankkijan taloudellisen omistajan (taloudellisten omistajien) kansalaisuus (kansalaisuudet), Euroopan parlamentin ja neuvoston direktiivin (EU) 2018/843 nojalla laadit(t)u(je)n rekisteri(e)n mukaan. Jos tällaista rekisteriä ei ole (esim. EU:n ulkopuolelle sijoittautuneille toimeksisaajille), vastaavat tiedot muista lähteistä.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Julkisen edun kannalta pakottavat syyt</entry>
 <entry key="field|name|BT-70-Lot">Sopimuksen täytäntöönpanoa koskevat ehdot</entry>
 <entry key="field|name|BT-70-Lot-Language">Sopimuksen täytäntöönpanoa koskevat ehdot</entry>
-<entry key="field|name|BT-701-notice">Ilmoituksen tunniste/versio</entry>
-<entry key="field|name|BT-701-notice-Scheme">Ilmoituksen tunniste/versio</entry>
+<entry key="field|name|BT-701-notice">Ilmoituksen tunniste</entry>
+<entry key="field|name|BT-701-notice-Scheme">Ilmoituksen tunniste</entry>
 <entry key="field|name|BT-702(a)-notice">Kielet, joilla tämä ilmoitus on virallisesti saatavilla</entry>
 <entry key="field|name|BT-702(b)-notice">Kielet, joilla tämä ilmoitus on virallisesti saatavilla</entry>
 <entry key="field|name|BT-706-UBO">Omistajan kansalaisuus</entry>

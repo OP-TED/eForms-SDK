@@ -433,8 +433,8 @@
 <entry key="field|description|BT-688-LotResult-Language">Een beschrijving en rechtvaardiging voor de toepassing van doorslaggevende redenen met betrekking tot het openbaar belang</entry>
 <entry key="field|description|BT-70-Lot">De belangrijkste informatie over de uitvoering van de opdracht (bv. tussentijdse prestaties, schadevergoeding, intellectuele-eigendomsrechten).</entry>
 <entry key="field|description|BT-70-Lot-Language">De belangrijkste informatie over de uitvoering van de opdracht (bv. tussentijdse prestaties, schadevergoeding, intellectuele-eigendomsrechten).</entry>
-<entry key="field|description|BT-701-notice">De Europese identificatiecode voor overheidsopdrachten (European Public Procurement Notice Identifier) van deze aankondiging. Vermelding van deze identificatiecode in alle gepubliceerde versies van deze aankondiging (bv. op TED of op nationale en regionale publicatieportalen) maakt de eenduidige identificatie van aanbestedingsaankondigingen in de hele Unie mogelijk.</entry>
-<entry key="field|description|BT-701-notice-Scheme">De Europese identificatiecode voor overheidsopdrachten (European Public Procurement Notice Identifier) van deze aankondiging. Vermelding van deze identificatiecode in alle gepubliceerde versies van deze aankondiging (bv. op TED of op nationale en regionale publicatieportalen) maakt de eenduidige identificatie van aanbestedingsaankondigingen in de hele Unie mogelijk.</entry>
+<entry key="field|description|BT-701-notice">Identificatiecode van de Europese aankondiging van deze overheidsopdracht.</entry>
+<entry key="field|description|BT-701-notice-Scheme">Identificatiecode van de Europese aankondiging van deze overheidsopdracht.</entry>
 <entry key="field|description|BT-702(a)-notice">De taal of talen waarin deze aankondiging officieel beschikbaar is. Deze taalversies zijn alle in gelijke mate rechtsgeldig.</entry>
 <entry key="field|description|BT-702(b)-notice">De taal of talen waarin deze aankondiging officieel beschikbaar is. Deze taalversies zijn alle in gelijke mate rechtsgeldig.</entry>
 <entry key="field|description|BT-706-UBO">De nationaliteit (of nationaliteiten) van de begunstigde eigenaar(s) van de winnaar, inschrijver of onderaannemer, zoals bekendgemaakt in het/de bij Richtlijn (EU) 2018/843 van het Europees Parlement en de Raad vastgestelde register(s). Als een dergelijk register niet bestaat (bv. wanneer contractanten buiten de EU gevestigd zijn), dan gelijkwaardige informatie uit andere bronnen.</entry>
@@ -1300,8 +1300,8 @@
 <entry key="field|name|BT-688-LotResult-Language">Doorslaggevende redenen met betrekking tot het openbaar belang</entry>
 <entry key="field|name|BT-70-Lot">Voorwaarden met betrekking tot de uitvoering van de opdracht</entry>
 <entry key="field|name|BT-70-Lot-Language">Voorwaarden met betrekking tot de uitvoering van de opdracht</entry>
-<entry key="field|name|BT-701-notice">Identificatiecode/versie van de aankondiging</entry>
-<entry key="field|name|BT-701-notice-Scheme">Identificatiecode/versie van de aankondiging</entry>
+<entry key="field|name|BT-701-notice">Identificatiecode van de aankondiging</entry>
+<entry key="field|name|BT-701-notice-Scheme">Identificatiecode van de aankondiging</entry>
 <entry key="field|name|BT-702(a)-notice">Talen waarin deze aankondiging officieel beschikbaar is</entry>
 <entry key="field|name|BT-702(b)-notice">Talen waarin deze aankondiging officieel beschikbaar is</entry>
 <entry key="field|name|BT-706-UBO">Nationaliteit van de eigenaar</entry>
