@@ -224,7 +224,6 @@
 	</rule>
 	<rule context="/*/cac:TenderingProcess">
 		<assert id="BR-BT-00634-0186" role="ERROR" diagnostics="ND-ProcedureTenderingProcess_BT-634-Procedure" test="((ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:ProcedureRelaunchIndicator = true()) and ((../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:NoticeResult/efac:LotResult/cbc:TenderResultCode/normalize-space(text()) = 'clos-nw') or (../ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efac:Changes/efac:ChangeReason/cbc:ReasonCode/normalize-space(text()) = 'cancel-intent'))) or not(ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension/efbc:ProcedureRelaunchIndicator = true())">rule|text|BR-BT-00634-0186</assert>
-		<assert id="R-KAQ-QWW" role="ERROR" diagnostics="BT-105-Procedure" test="(cbc:ProcedureCode/normalize-space(text()) = ('restricted','neg-w-call')) or not((cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode/normalize-space(text()) = 'true') and (../cbc:RegulatoryDomain/normalize-space(text()) = '32009L0081') and (cbc:ProcedureCode))">rule|text|R-KAQ-QWW</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID">
 		<assert id="BR-OPP-00090-0052" role="ERROR" test="count(for $x in ., $y in /*/cac:TenderingProcess/cac:NoticeDocumentReference/cbc:ID[. = $x] return $y) = 1">rule|text|BR-OPP-00090-0052</assert>

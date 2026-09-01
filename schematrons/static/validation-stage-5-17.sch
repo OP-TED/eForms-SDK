@@ -8,7 +8,7 @@
 		<assert id="BR-BT-00044-0080" role="ERROR" test="./number() != 999">rule|text|BR-BT-00044-0080</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '17']">
-		<assert id="R-FIG-XB6" role="ERROR" diagnostics="BT-105-Procedure" test="(cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call','comp-dial')) or not((cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode/normalize-space(text()) = 'true') and (cbc:ProcedureCode))">rule|text|R-FIG-XB6</assert>
+		<assert id="BR-BT-00105-0177" role="ERROR" diagnostics="BT-105-Procedure" test="(cbc:ProcedureCode/normalize-space(text()) = ('open','restricted','neg-w-call','comp-dial')) or not((cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode/normalize-space(text()) = 'true') and (cbc:ProcedureCode))">rule|text|BR-BT-00105-0177</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '17']">
 		<assert id="BR-OPP-00070-0133" role="ERROR" diagnostics="OPP-070-notice" test="(../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'cn-standard')">rule|text|BR-OPP-00070-0133</assert>

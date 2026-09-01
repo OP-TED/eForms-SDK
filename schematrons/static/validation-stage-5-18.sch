@@ -12,7 +12,7 @@
 		<assert id="BR-BT-00044-0081" role="ERROR" test="./number() != 999">rule|text|BR-BT-00044-0081</assert>
 	</rule>
 	<rule context="/*/cac:TenderingProcess[$noticeSubType = '18']">
-		<assert id="R-GSB-RSM" role="ERROR" diagnostics="BT-105-Procedure" test="(cbc:ProcedureCode/normalize-space(text()) = ('restricted','neg-w-call')) or not((cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode/normalize-space(text()) = 'true') and (cbc:ProcedureCode))">rule|text|R-GSB-RSM</assert>
+		<assert id="BR-BT-00105-0175" role="ERROR" diagnostics="BT-105-Procedure" test="(cbc:ProcedureCode/normalize-space(text()) = ('restricted','neg-w-call')) or not((cac:ProcessJustification[cbc:ProcessReasonCode/@listName='accelerated-procedure']/cbc:ProcessReasonCode/normalize-space(text()) = 'true') and (cbc:ProcedureCode))">rule|text|BR-BT-00105-0175</assert>
 	</rule>
 	<rule context="/*/ext:UBLExtensions/ext:UBLExtension/ext:ExtensionContent/efext:EformsExtension[$noticeSubType = '18']">
 		<assert id="BR-OPP-00070-0134" role="ERROR" diagnostics="OPP-070-notice" test="(../../../../cbc:NoticeTypeCode/normalize-space(text()) = 'cn-standard')">rule|text|BR-OPP-00070-0134</assert>
