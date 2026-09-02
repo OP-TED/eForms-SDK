@@ -52,6 +52,7 @@
 	<xsd:element name="GroupFrameworkMaximumValueAmount" type="GroupFrameworkMaximumValueAmountType"/>
 	<xsd:element name="GroupFrameworkReestimatedValueAmount" type="GroupFrameworkReestimatedValueAmountType"/>
 	<xsd:element name="GroupLeadIndicator" type="GroupLeadIndicatorType"/>
+	<xsd:element name="InformationDisclosureDate" type="InformationDisclosureDateType"/>
 	<xsd:element name="IrregularityTypeCode" type="IrregularityTypeCodeType"/>
 	<xsd:element name="ItemClassificationDescription" type="ItemClassificationDescriptionType"/>
 	<xsd:element name="LabelDescription" type="LabelDescriptionType"/>
@@ -62,6 +63,9 @@
 	<xsd:element name="MeasureCode" type="MeasureCodeType"/>
 	<xsd:element name="NaturalPersonIndicator" type="NaturalPersonIndicatorType"/>
 	<xsd:element name="NonAwardJustificationCode" type="NonAwardJustificationCodeType"/>
+	<xsd:element name="NondisclosureID" type="NondisclosureIDType"/>
+	<xsd:element name="NondisclosureJustificationCode" type="NondisclosureJustificationCodeType"/>
+	<xsd:element name="NondisclosureJustificationDescription" type="NondisclosureJustificationDescriptionType"/>
 	<xsd:element name="NoticePublicationID" type="NoticePublicationIDType"/>
 	<xsd:element name="OverallApproximateFrameworkContractsAmount" type="OverallApproximateFrameworkContractsAmountType"/>
 	<xsd:element name="OverallMaximumFrameworkContractsAmount" type="OverallMaximumFrameworkContractsAmountType"/>
@@ -314,12 +318,27 @@
 			<xsd:restriction base="udt:IndicatorType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
+	<xsd:complexType name="InformationDisclosureDateType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:DateType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
 	<xsd:complexType name="IrregularityTypeCodeType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:CodeType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="ItemClassificationDescriptionType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:TextType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="NondisclosureJustificationCodeType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="NondisclosureJustificationDescriptionType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:TextType"/>
 		</xsd:simpleContent>
@@ -362,6 +381,11 @@
 	<xsd:complexType name="NonAwardJustificationCodeType">
 		<xsd:simpleContent>
 			<xsd:restriction base="udt:CodeType"/>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:complexType name="NondisclosureIDType">
+		<xsd:simpleContent>
+			<xsd:restriction base="udt:IdentifierType"/>
 		</xsd:simpleContent>
 	</xsd:complexType>
 	<xsd:complexType name="NoticePublicationIDType">
