@@ -1,0 +1,5003 @@
+{
+  "properties" : [ {
+    "name" : "addressLine1",
+    "entityId" : "Address",
+    "businessTermId" : "BT-510",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "addressLine2",
+    "entityId" : "Address",
+    "businessTermId" : "BT-510",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "addressLine3",
+    "entityId" : "Address",
+    "businessTermId" : "BT-510",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "country",
+    "entityId" : "Address",
+    "businessTermId" : "BT-514",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "countrySubdivision",
+    "entityId" : "Address",
+    "businessTermId" : "BT-507",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "postCode",
+    "entityId" : "Address",
+    "businessTermId" : "BT-512",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "town",
+    "entityId" : "Address",
+    "businessTermId" : "BT-513",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "AppealingParty",
+    "entityType" : "EconomicOperator",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "AppealingParty",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "AppealingParty",
+    "entityType" : "EconomicOperator",
+    "businessTermId" : "BT-808",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "AppealingParty",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "AppealingParty",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "AppealingParty",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "AppealingParty",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "AppealingParty",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isOnRegulatedMarket",
+    "entityId" : "AppealingParty",
+    "businessTermId" : "BT-746",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "EconomicOperator"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "AppealingParty",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "AppealingParty",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "size",
+    "entityId" : "AppealingParty",
+    "businessTermId" : "BT-165",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "EconomicOperator"
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "AppealingParty",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "AppealingParty",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "AppealingParty",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_lookup_mediator_",
+    "entityId" : "AppealTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_reviewInformationProvider_",
+    "entityId" : "AppealTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_reviewOrganisation_",
+    "entityId" : "AppealTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "mediator",
+    "entityId" : "AppealTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "reviewInformationProvider",
+    "entityId" : "AppealTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "reviewOrganisation",
+    "entityId" : "AppealTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_description_",
+    "entityId" : "AwardCriterion",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_fixedNumber_",
+    "entityId" : "AwardCriterion",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_fixedType_",
+    "entityId" : "AwardCriterion",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_name_",
+    "entityId" : "AwardCriterion",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_type_",
+    "entityId" : "AwardCriterion",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_weightingType_",
+    "entityId" : "AwardCriterion",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_weightNumber_",
+    "entityId" : "AwardCriterion",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "AwardCriterion",
+    "businessTermId" : "BT-540",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "fixedNumber",
+    "entityId" : "AwardCriterion",
+    "businessTermId" : "BT-541",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "fixedType",
+    "entityId" : "AwardCriterion",
+    "businessTermId" : "BT-5422",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "name",
+    "entityId" : "AwardCriterion",
+    "businessTermId" : "BT-734",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "thresholds",
+    "entityId" : "AwardCriterion",
+    "entityType" : "ThresholdParameter",
+    "repeatable" : false
+  }, {
+    "name" : "type",
+    "entityId" : "AwardCriterion",
+    "businessTermId" : "BT-539",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "weightingType",
+    "entityId" : "AwardCriterion",
+    "businessTermId" : "BT-5421",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "weightNumber",
+    "entityId" : "AwardCriterion",
+    "businessTermId" : "BT-541",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_awardCriteriaComplicated_",
+    "entityId" : "AwardingTerms",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_awardCriteriaOrderJustification_",
+    "entityId" : "AwardingTerms",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "awardCriteria",
+    "entityId" : "AwardingTerms",
+    "entityType" : "AwardCriterion",
+    "repeatable" : true
+  }, {
+    "name" : "awardCriteriaComplicated",
+    "entityId" : "AwardingTerms",
+    "businessTermId" : "BT-543",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "awardCriteriaOrderJustification",
+    "entityId" : "AwardingTerms",
+    "businessTermId" : "BT-733",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "address",
+    "entityId" : "BusinessParty",
+    "entityType" : "Address",
+    "repeatable" : false
+  }, {
+    "name" : "contact",
+    "entityId" : "BusinessParty",
+    "entityType" : "CompanyContact",
+    "repeatable" : false
+  }, {
+    "name" : "euRegistrationDate",
+    "entityId" : "BusinessParty",
+    "businessTermId" : "OPP-113",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "euRegistrationNumber",
+    "entityId" : "BusinessParty",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "euRegistrationPlace",
+    "entityId" : "BusinessParty",
+    "entityType" : "RegistrationPlace",
+    "repeatable" : false
+  }, {
+    "name" : "name",
+    "entityId" : "BusinessParty",
+    "businessTermId" : "BT-500",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "nameEeig",
+    "entityId" : "BusinessParty",
+    "businessTermId" : "BT-500",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "nationalRegistrationNumber",
+    "entityId" : "BusinessParty",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "BusinessParty",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "Buyer",
+    "entityType" : "BuyerOrganisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "Buyer",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "Buyer",
+    "entityType" : "BuyerOrganisation",
+    "businessTermId" : "OPT-300",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "Buyer",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "authorityActivity",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-10",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "buyerLegalType",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-11",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "contact",
+    "entityId" : "Buyer",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "entityActivity",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-610",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "Buyer",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isAcquiringCpb",
+    "entityId" : "Buyer",
+    "businessTermId" : "OPP-052",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "BuyerOrganisation"
+  }, {
+    "name" : "isAwardingCpb",
+    "entityId" : "Buyer",
+    "businessTermId" : "OPP-051",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "BuyerOrganisation"
+  }, {
+    "name" : "isContractingEntity",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-740",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "isGroupLead",
+    "entityId" : "Buyer",
+    "businessTermId" : "OPP-050",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "BuyerOrganisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "profileUrl",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-508",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "serviceProviders",
+    "entityId" : "Buyer",
+    "entityType" : "ServiceProvider",
+    "repeatable" : true
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "Buyer",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "Buyer",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "Buyer",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "BuyerOrganisation",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "address",
+    "entityId" : "BuyerOrganisation",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "BuyerOrganisation",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isAcquiringCpb",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "OPP-052",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "isAwardingCpb",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "OPP-051",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "isGroupLead",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "OPP-050",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "BuyerOrganisation",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "BuyerOrganisation",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "BuyerOrganisation",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "description",
+    "entityId" : "Change",
+    "businessTermId" : "BT-141",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "hasProcurementDocumentsChanged",
+    "entityId" : "Change",
+    "businessTermId" : "BT-718",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "procurementDocumentsChangeDate",
+    "entityId" : "Change",
+    "businessTermId" : "BT-719",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "sections",
+    "entityId" : "Change",
+    "entityType" : "ChangedSection",
+    "repeatable" : true
+  }, {
+    "name" : "_lookup_internalReference_",
+    "entityId" : "ChangedSection",
+    "entityType" : "Section",
+    "repeatable" : false
+  }, {
+    "name" : "internalReference",
+    "entityId" : "ChangedSection",
+    "entityType" : "Section",
+    "businessTermId" : "BT-13716",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "code",
+    "entityId" : "ChangeReason",
+    "businessTermId" : "BT-140",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "ChangeReason",
+    "businessTermId" : "BT-762",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "changedNoticeIdentifier",
+    "entityId" : "Changes",
+    "businessTermId" : "BT-758",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "changes",
+    "entityId" : "Changes",
+    "entityType" : "Change",
+    "repeatable" : true
+  }, {
+    "name" : "reason",
+    "entityId" : "Changes",
+    "entityType" : "ChangeReason",
+    "repeatable" : false
+  }, {
+    "name" : "addressLine1",
+    "entityId" : "CompanyAddress",
+    "businessTermId" : "BT-510",
+    "dataType" : "text",
+    "repeatable" : false,
+    "inherits" : "Address"
+  }, {
+    "name" : "addressLine2",
+    "entityId" : "CompanyAddress",
+    "businessTermId" : "BT-510",
+    "dataType" : "text",
+    "repeatable" : false,
+    "inherits" : "Address"
+  }, {
+    "name" : "addressLine3",
+    "entityId" : "CompanyAddress",
+    "businessTermId" : "BT-510",
+    "dataType" : "text",
+    "repeatable" : false,
+    "inherits" : "Address"
+  }, {
+    "name" : "country",
+    "entityId" : "CompanyAddress",
+    "businessTermId" : "BT-514",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "Address"
+  }, {
+    "name" : "countrySubdivision",
+    "entityId" : "CompanyAddress",
+    "businessTermId" : "BT-507",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "Address"
+  }, {
+    "name" : "partName",
+    "entityId" : "CompanyAddress",
+    "businessTermId" : "BT-16",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "postCode",
+    "entityId" : "CompanyAddress",
+    "businessTermId" : "BT-512",
+    "dataType" : "text",
+    "repeatable" : false,
+    "inherits" : "Address"
+  }, {
+    "name" : "town",
+    "entityId" : "CompanyAddress",
+    "businessTermId" : "BT-513",
+    "dataType" : "text",
+    "repeatable" : false,
+    "inherits" : "Address"
+  }, {
+    "name" : "contactPoint",
+    "entityId" : "CompanyContact",
+    "businessTermId" : "BT-502",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "emailAddress",
+    "entityId" : "CompanyContact",
+    "businessTermId" : "BT-506",
+    "dataType" : "email",
+    "repeatable" : false,
+    "inherits" : "Contact"
+  }, {
+    "name" : "fax",
+    "entityId" : "CompanyContact",
+    "businessTermId" : "BT-739",
+    "dataType" : "phone",
+    "repeatable" : false,
+    "inherits" : "Contact"
+  }, {
+    "name" : "phoneNumber",
+    "entityId" : "CompanyContact",
+    "businessTermId" : "BT-503",
+    "dataType" : "phone",
+    "repeatable" : false,
+    "inherits" : "Contact"
+  }, {
+    "name" : "emailAddress",
+    "entityId" : "Contact",
+    "businessTermId" : "BT-506",
+    "dataType" : "email",
+    "repeatable" : false
+  }, {
+    "name" : "fax",
+    "entityId" : "Contact",
+    "businessTermId" : "BT-739",
+    "dataType" : "phone",
+    "repeatable" : false
+  }, {
+    "name" : "phoneNumber",
+    "entityId" : "Contact",
+    "businessTermId" : "BT-503",
+    "dataType" : "phone",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_tenderReferences_",
+    "entityId" : "Contract",
+    "entityType" : "Tender",
+    "repeatable" : false
+  }, {
+    "name" : "assets",
+    "entityId" : "Contract",
+    "entityType" : "ContractAsset",
+    "repeatable" : true
+  }, {
+    "name" : "conclusionDate",
+    "entityId" : "Contract",
+    "businessTermId" : "BT-145",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "contractIdentifier",
+    "entityId" : "Contract",
+    "businessTermId" : "BT-150",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "euFunds",
+    "entityId" : "Contract",
+    "entityType" : "ContractEUFunds",
+    "repeatable" : true
+  }, {
+    "name" : "frameworkNoticeIdentifier",
+    "entityId" : "Contract",
+    "businessTermId" : "OPT-100",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "hasExtendedDuration",
+    "entityId" : "Contract",
+    "businessTermId" : "OPP-020",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "Contract",
+    "businessTermId" : "OPT-316",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "isFrameworkAgreement",
+    "entityId" : "Contract",
+    "businessTermId" : "BT-768",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "signatories",
+    "entityId" : "Contract",
+    "entityType" : "ContractSignatory",
+    "repeatable" : true
+  }, {
+    "name" : "tenderReferences",
+    "entityId" : "Contract",
+    "entityType" : "Tender",
+    "businessTermId" : "BT-3202",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "title",
+    "entityId" : "Contract",
+    "businessTermId" : "BT-721",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "Contract",
+    "businessTermId" : "BT-151",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "winnerDecisionDate",
+    "entityId" : "Contract",
+    "businessTermId" : "BT-1451",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "assetName",
+    "entityId" : "ContractAsset",
+    "businessTermId" : "OPP-021",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "predominance",
+    "entityId" : "ContractAsset",
+    "businessTermId" : "OPP-023",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "significance",
+    "entityId" : "ContractAsset",
+    "businessTermId" : "OPP-022",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "details",
+    "entityId" : "ContractEUFunds",
+    "businessTermId" : "BT-6110",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "financingIdentifier",
+    "entityId" : "ContractEUFunds",
+    "businessTermId" : "BT-5011",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "programme",
+    "entityId" : "ContractEUFunds",
+    "businessTermId" : "BT-722",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "code",
+    "entityId" : "ContractExecutionCondition",
+    "businessTermId" : "OPP-030",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "ContractExecutionCondition",
+    "businessTermId" : "OPP-031",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "ContractModification",
+    "entityType" : "Contract",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_tenderReferences_",
+    "entityId" : "ContractModification",
+    "entityType" : "Tender",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "_self_",
+    "entityId" : "ContractModification",
+    "entityType" : "Contract",
+    "businessTermId" : "BT-1501",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "assets",
+    "entityId" : "ContractModification",
+    "entityType" : "ContractAsset",
+    "repeatable" : true,
+    "inherits" : "Contract"
+  }, {
+    "name" : "conclusionDate",
+    "entityId" : "ContractModification",
+    "businessTermId" : "BT-145",
+    "dataType" : "date",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "contractIdentifier",
+    "entityId" : "ContractModification",
+    "businessTermId" : "BT-150",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "euFunds",
+    "entityId" : "ContractModification",
+    "entityType" : "ContractEUFunds",
+    "repeatable" : true,
+    "inherits" : "Contract"
+  }, {
+    "name" : "frameworkNoticeIdentifier",
+    "entityId" : "ContractModification",
+    "businessTermId" : "OPT-100",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "hasExtendedDuration",
+    "entityId" : "ContractModification",
+    "businessTermId" : "OPP-020",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "identifier",
+    "entityId" : "ContractModification",
+    "businessTermId" : "OPT-316",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "isFrameworkAgreement",
+    "entityId" : "ContractModification",
+    "businessTermId" : "BT-768",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "modification",
+    "entityId" : "ContractModification",
+    "entityType" : "Modification",
+    "repeatable" : false
+  }, {
+    "name" : "noticeReference",
+    "entityId" : "ContractModification",
+    "businessTermId" : "BT-1501",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "reason",
+    "entityId" : "ContractModification",
+    "entityType" : "ModificationReason",
+    "repeatable" : false
+  }, {
+    "name" : "signatories",
+    "entityId" : "ContractModification",
+    "entityType" : "ContractSignatory",
+    "repeatable" : true,
+    "inherits" : "Contract"
+  }, {
+    "name" : "tenderReferences",
+    "entityId" : "ContractModification",
+    "entityType" : "Tender",
+    "businessTermId" : "BT-3202",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Contract"
+  }, {
+    "name" : "title",
+    "entityId" : "ContractModification",
+    "businessTermId" : "BT-721",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "url",
+    "entityId" : "ContractModification",
+    "businessTermId" : "BT-151",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "winnerDecisionDate",
+    "entityId" : "ContractModification",
+    "businessTermId" : "BT-1451",
+    "dataType" : "date",
+    "repeatable" : false,
+    "inherits" : "Contract"
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "ContractSignatory",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "ContractSignatory",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "ContractSignatory",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-300",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "ContractSignatory",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "ContractSignatory",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "ContractSignatory",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "ContractSignatory",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "ContractSignatory",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "ContractSignatory",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "ContractSignatory",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "ContractSignatory",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "ContractSignatory",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "ContractSignatory",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "number",
+    "entityId" : "CriterionParameter",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "type",
+    "entityId" : "CriterionParameter",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_code_",
+    "entityId" : "DirectAwardJustification",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_justification_",
+    "entityId" : "DirectAwardJustification",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_previousProcedureIdentifier_",
+    "entityId" : "DirectAwardJustification",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "code",
+    "entityId" : "DirectAwardJustification",
+    "businessTermId" : "BT-136",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "justification",
+    "entityId" : "DirectAwardJustification",
+    "businessTermId" : "BT-135",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "previousProcedureIdentifier",
+    "entityId" : "DirectAwardJustification",
+    "businessTermId" : "BT-1252",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "endDate",
+    "entityId" : "Duration",
+    "businessTermId" : "BT-537",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "other",
+    "entityId" : "Duration",
+    "businessTermId" : "BT-538",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "period",
+    "entityId" : "Duration",
+    "businessTermId" : "BT-36",
+    "dataType" : "measure",
+    "repeatable" : false
+  }, {
+    "name" : "periodNumber",
+    "entityId" : "Duration",
+    "businessTermId" : "BT-36",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "startDate",
+    "entityId" : "Duration",
+    "businessTermId" : "BT-536",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "EconomicOperator",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "address",
+    "entityId" : "EconomicOperator",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "EconomicOperator",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "EconomicOperator",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "EconomicOperator",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "EconomicOperator",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isOnRegulatedMarket",
+    "entityId" : "EconomicOperator",
+    "businessTermId" : "BT-746",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "EconomicOperator",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "EconomicOperator",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "size",
+    "entityId" : "EconomicOperator",
+    "businessTermId" : "BT-165",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "EconomicOperator",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "EconomicOperator",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "EconomicOperator",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "assetCategory",
+    "entityId" : "EEDAsset",
+    "businessTermId" : "BT-811",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "legalFramework",
+    "entityId" : "EEDAsset",
+    "businessTermId" : "BT-811",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "assetCategory",
+    "entityId" : "EEDProcuredAsset",
+    "businessTermId" : "BT-811",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "EEDAsset"
+  }, {
+    "name" : "consumptionMetric",
+    "entityId" : "EEDProcuredAsset",
+    "businessTermId" : "OPT-080",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "consumptionValue",
+    "entityId" : "EEDProcuredAsset",
+    "businessTermId" : "BT-813",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "label",
+    "entityId" : "EEDProcuredAsset",
+    "businessTermId" : "BT-812",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "legalFramework",
+    "entityId" : "EEDProcuredAsset",
+    "businessTermId" : "BT-811",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "EEDAsset"
+  }, {
+    "name" : "quantity",
+    "entityId" : "EEDProcuredAsset",
+    "businessTermId" : "BT-815",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "savingsMetric",
+    "entityId" : "EEDProcuredAsset",
+    "businessTermId" : "OPT-081",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "savingsValue",
+    "entityId" : "EEDProcuredAsset",
+    "businessTermId" : "BT-814",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_issuerOrganisation_",
+    "entityId" : "EmploymentLegislation",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "documentIdentifier",
+    "entityId" : "EmploymentLegislation",
+    "businessTermId" : "OPT-113",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "issuerOrganisation",
+    "entityId" : "EmploymentLegislation",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "EmploymentLegislation",
+    "businessTermId" : "OPT-130",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_issuerOrganisation_",
+    "entityId" : "EnvironmentalLegislation",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "documentIdentifier",
+    "entityId" : "EnvironmentalLegislation",
+    "businessTermId" : "OPT-112",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "issuerOrganisation",
+    "entityId" : "EnvironmentalLegislation",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "EnvironmentalLegislation",
+    "businessTermId" : "OPT-120",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "details",
+    "entityId" : "EUFunding",
+    "businessTermId" : "BT-6140",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "financingIdentifier",
+    "entityId" : "EUFunding",
+    "businessTermId" : "BT-5010",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "programme",
+    "entityId" : "EUFunding",
+    "businessTermId" : "BT-7220",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "ExclusionGrounds",
+    "businessTermId" : "BT-67(b)",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "typeCode",
+    "entityId" : "ExclusionGrounds",
+    "businessTermId" : "BT-67(a)",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "sourceCode",
+    "entityId" : "ExclusionGroundsSource",
+    "businessTermId" : "BT-806",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "FinancingParty",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "FinancingParty",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "FinancingParty",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "FinancingParty",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "FinancingParty",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "FinancingParty",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "FinancingParty",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "FinancingParty",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "FinancingParty",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "FinancingParty",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "FinancingParty",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "FinancingParty",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "FinancingParty",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_lookup_issuerOrganisation_",
+    "entityId" : "FiscalLegislation",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "documentIdentifier",
+    "entityId" : "FiscalLegislation",
+    "businessTermId" : "OPT-111",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "issuerOrganisation",
+    "entityId" : "FiscalLegislation",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "FiscalLegislation",
+    "businessTermId" : "OPT-110",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "details",
+    "entityId" : "Funding",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "financingIdentifier",
+    "entityId" : "Funding",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "programme",
+    "entityId" : "Funding",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "announcementTitle",
+    "entityId" : "GazetteReference",
+    "businessTermId" : "OPP-121",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "issueIdentifier",
+    "entityId" : "GazetteReference",
+    "businessTermId" : "OPP-124",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "publicationDate",
+    "entityId" : "GazetteReference",
+    "businessTermId" : "OPP-123",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "publicationName",
+    "entityId" : "GazetteReference",
+    "businessTermId" : "OPP-120",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "GazetteReference",
+    "businessTermId" : "OPP-122",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_groupIdentifier_",
+    "entityId" : "GroupComposition",
+    "entityType" : "LotsGroup",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_lotReferences_",
+    "entityId" : "GroupComposition",
+    "entityType" : "Lot",
+    "repeatable" : false
+  }, {
+    "name" : "groupIdentifier",
+    "entityId" : "GroupComposition",
+    "businessTermId" : "BT-330",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "lotReferences",
+    "entityId" : "GroupComposition",
+    "entityType" : "Lot",
+    "businessTermId" : "BT-1375",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "_lookup_lotReferences_",
+    "entityId" : "GroupFrameworkValue",
+    "entityType" : "Lot",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_lotReferences_",
+    "entityId" : "GroupFrameworkValue",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_maximumAmount_",
+    "entityId" : "GroupFrameworkValue",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_reestimatedValue_",
+    "entityId" : "GroupFrameworkValue",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "lotReferences",
+    "entityId" : "GroupFrameworkValue",
+    "entityType" : "Lot",
+    "businessTermId" : "BT-556",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "maximumAmount",
+    "entityId" : "GroupFrameworkValue",
+    "businessTermId" : "BT-156",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "reestimatedValue",
+    "entityId" : "GroupFrameworkValue",
+    "businessTermId" : "BT-1561",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "exceptionCode",
+    "entityId" : "IPIAppliedMeasure",
+    "businessTermId" : "BT-687",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "measureCode",
+    "entityId" : "IPIAppliedMeasure",
+    "businessTermId" : "BT-685",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "overridingReason",
+    "entityId" : "IPIAppliedMeasure",
+    "businessTermId" : "BT-688",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "tenderCount",
+    "entityId" : "IPIAppliedMeasure",
+    "businessTermId" : "BT-686",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_issuerOrganisation_",
+    "entityId" : "LegislationReference",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "documentIdentifier",
+    "entityId" : "LegislationReference",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "issuerOrganisation",
+    "entityId" : "LegislationReference",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "LegislationReference",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "LocalLegalBasis",
+    "businessTermId" : "BT-01",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "LocalLegalBasis",
+    "businessTermId" : "BT-01",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "appealTerms",
+    "entityId" : "Lot",
+    "entityType" : "AppealTerms",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "Lot",
+    "businessTermId" : "BT-137",
+    "dataType" : "id",
+    "repeatable" : true
+  }, {
+    "name" : "procurementScope",
+    "entityId" : "Lot",
+    "entityType" : "LotProcurementScope",
+    "repeatable" : false
+  }, {
+    "name" : "tenderingProcess",
+    "entityId" : "Lot",
+    "entityType" : "LotTenderingProcess",
+    "repeatable" : false
+  }, {
+    "name" : "tenderingTerms",
+    "entityId" : "Lot",
+    "entityType" : "LotTenderingTerms",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_mediator_",
+    "entityId" : "LotAppealTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false,
+    "inherits" : "AppealTerms"
+  }, {
+    "name" : "_lookup_reviewInformationProvider_",
+    "entityId" : "LotAppealTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false,
+    "inherits" : "AppealTerms"
+  }, {
+    "name" : "_lookup_reviewOrganisation_",
+    "entityId" : "LotAppealTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false,
+    "inherits" : "AppealTerms"
+  }, {
+    "name" : "mediator",
+    "entityId" : "LotAppealTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false,
+    "inherits" : "AppealTerms"
+  }, {
+    "name" : "reviewDeadlineDescription",
+    "entityId" : "LotAppealTerms",
+    "businessTermId" : "BT-99",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "reviewInformationProvider",
+    "entityId" : "LotAppealTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false,
+    "inherits" : "AppealTerms"
+  }, {
+    "name" : "reviewOrganisation",
+    "entityId" : "LotAppealTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false,
+    "inherits" : "AppealTerms"
+  }, {
+    "name" : "_privacy_awardCriteriaComplicated_",
+    "entityId" : "LotAwardingTerms",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false,
+    "inherits" : "AwardingTerms"
+  }, {
+    "name" : "_privacy_awardCriteriaOrderJustification_",
+    "entityId" : "LotAwardingTerms",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false,
+    "inherits" : "AwardingTerms"
+  }, {
+    "name" : "awardCriteria",
+    "entityId" : "LotAwardingTerms",
+    "entityType" : "AwardCriterion",
+    "repeatable" : true,
+    "inherits" : "AwardingTerms"
+  }, {
+    "name" : "awardCriteriaComplicated",
+    "entityId" : "LotAwardingTerms",
+    "businessTermId" : "BT-543",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "AwardingTerms"
+  }, {
+    "name" : "awardCriteriaOrderJustification",
+    "entityId" : "LotAwardingTerms",
+    "businessTermId" : "BT-733",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "AwardingTerms"
+  }, {
+    "name" : "hasFollowingContract",
+    "entityId" : "LotAwardingTerms",
+    "businessTermId" : "BT-41",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "isJuryDecisionBinding",
+    "entityId" : "LotAwardingTerms",
+    "businessTermId" : "BT-42",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "isNoNegotiationNecessary",
+    "entityId" : "LotAwardingTerms",
+    "businessTermId" : "BT-120",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "juryMemberNames",
+    "entityId" : "LotAwardingTerms",
+    "businessTermId" : "BT-46",
+    "dataType" : "text",
+    "repeatable" : true
+  }, {
+    "name" : "prizes",
+    "entityId" : "LotAwardingTerms",
+    "entityType" : "Prize",
+    "repeatable" : true
+  }, {
+    "name" : "additionalInformation",
+    "entityId" : "LotDuration",
+    "businessTermId" : "BT-781",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "endDate",
+    "entityId" : "LotDuration",
+    "businessTermId" : "BT-537",
+    "dataType" : "date",
+    "repeatable" : false,
+    "inherits" : "Duration"
+  }, {
+    "name" : "other",
+    "entityId" : "LotDuration",
+    "businessTermId" : "BT-538",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "Duration"
+  }, {
+    "name" : "period",
+    "entityId" : "LotDuration",
+    "businessTermId" : "BT-36",
+    "dataType" : "measure",
+    "repeatable" : false,
+    "inherits" : "Duration"
+  }, {
+    "name" : "periodNumber",
+    "entityId" : "LotDuration",
+    "businessTermId" : "BT-36",
+    "dataType" : "number",
+    "repeatable" : false,
+    "inherits" : "Duration"
+  }, {
+    "name" : "startDate",
+    "entityId" : "LotDuration",
+    "businessTermId" : "BT-536",
+    "dataType" : "date",
+    "repeatable" : false,
+    "inherits" : "Duration"
+  }, {
+    "name" : "accessibilityDescription",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-754",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "accessibilityJustification",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-755",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "additionalClassifications",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-263",
+    "dataType" : "code",
+    "repeatable" : true,
+    "inherits" : "PartProcurementScope"
+  }, {
+    "name" : "additionalClassificationSchemes",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-26",
+    "dataType" : "code",
+    "repeatable" : true,
+    "inherits" : "PartProcurementScope"
+  }, {
+    "name" : "additionalInformation",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-300",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "additionalNatures",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-531",
+    "dataType" : "code",
+    "repeatable" : true,
+    "inherits" : "PartProcurementScope"
+  }, {
+    "name" : "classificationScheme",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-26",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "PartProcurementScope"
+  }, {
+    "name" : "description",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-24",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "duration",
+    "entityId" : "LotProcurementScope",
+    "entityType" : "LotDuration",
+    "repeatable" : false
+  }, {
+    "name" : "estimatedQuantity",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-25",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "estimatedValue",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-27",
+    "dataType" : "amount",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "frameworkMaximumAmount",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-271",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "greenProcurementCriteria",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-805",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "greenProcurementTypes",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-774",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "innovativeProcurementTypes",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-776",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "internalIdentifier",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-22",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "isSuitableForSMEs",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-726",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "PartProcurementScope"
+  }, {
+    "name" : "mainClassification",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-262",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "PartProcurementScope"
+  }, {
+    "name" : "mainNature",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-23",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "PartProcurementScope"
+  }, {
+    "name" : "maxRenewals",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-58",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "optionsDescription",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-54",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "performancePlaces",
+    "entityId" : "LotProcurementScope",
+    "entityType" : "PlaceOfPerformance",
+    "repeatable" : true,
+    "inherits" : "PartProcurementScope"
+  }, {
+    "name" : "renewalDescription",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-57",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "socialProcurementTypes",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-775",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "strategicProcurementTypes",
+    "entityId" : "LotProcurementScope",
+    "entityType" : "StrategicProcurementType",
+    "repeatable" : true
+  }, {
+    "name" : "title",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-21",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "unit",
+    "entityId" : "LotProcurementScope",
+    "businessTermId" : "BT-625",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_contractReferences_",
+    "entityId" : "LotResult",
+    "entityType" : "Contract",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_lotReference_",
+    "entityId" : "LotResult",
+    "entityType" : "Lot",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_tenderReferences_",
+    "entityId" : "LotResult",
+    "entityType" : "Tender",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_complaintsCode_",
+    "entityId" : "LotResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_complaintsCount_",
+    "entityId" : "LotResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_frameworkMaximumAmount_",
+    "entityId" : "LotResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_frameworkReestimatedAmount_",
+    "entityId" : "LotResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_maximumAmount_",
+    "entityId" : "LotResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_minimumAmount_",
+    "entityId" : "LotResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_notAwardedReason_",
+    "entityId" : "LotResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_winnerChosen_",
+    "entityId" : "LotResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "complaintsCode",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-712",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "complaintsCount",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-712",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "contractReferences",
+    "entityId" : "LotResult",
+    "entityType" : "Contract",
+    "businessTermId" : "OPT-315",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "cvdContractTypes",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-735",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "eedProcuredAssets",
+    "entityId" : "LotResult",
+    "entityType" : "EEDProcuredAsset",
+    "repeatable" : true
+  }, {
+    "name" : "financingParties",
+    "entityId" : "LotResult",
+    "entityType" : "FinancingParty",
+    "repeatable" : true
+  }, {
+    "name" : "frameworkMaximumAmount",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-709",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "frameworkReestimatedAmount",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-660",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "LotResult",
+    "businessTermId" : "OPT-322",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "ipiAppliedMeasures",
+    "entityId" : "LotResult",
+    "entityType" : "IPIAppliedMeasure",
+    "repeatable" : true
+  }, {
+    "name" : "isDpsTermination",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-119",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "lotReference",
+    "entityId" : "LotResult",
+    "entityType" : "Lot",
+    "businessTermId" : "BT-13713",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "maximumAmount",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-711",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "minimumAmount",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-710",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "notAwardedReason",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-144",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "payerParties",
+    "entityId" : "LotResult",
+    "entityType" : "PayerParty",
+    "repeatable" : true
+  }, {
+    "name" : "receivedSubmissions",
+    "entityId" : "LotResult",
+    "entityType" : "ReceivedSubmissionsStatistics",
+    "repeatable" : true
+  }, {
+    "name" : "reviewRequestsStatistics",
+    "entityId" : "LotResult",
+    "entityType" : "ReviewRequestsStatistics",
+    "repeatable" : true
+  }, {
+    "name" : "tenderReferences",
+    "entityId" : "LotResult",
+    "entityType" : "Tender",
+    "businessTermId" : "OPT-320",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "vehicleProcurementDetails",
+    "entityId" : "LotResult",
+    "entityType" : "VehicleProcurementDetail",
+    "repeatable" : true
+  }, {
+    "name" : "winnerChosen",
+    "entityId" : "LotResult",
+    "businessTermId" : "BT-142",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "awardingTerms",
+    "entityId" : "LotsGroup",
+    "entityType" : "AwardingTerms",
+    "repeatable" : false
+  }, {
+    "name" : "frameworkMaximumValue",
+    "entityId" : "LotsGroup",
+    "businessTermId" : "BT-157",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "LotsGroup",
+    "businessTermId" : "BT-137",
+    "dataType" : "id",
+    "repeatable" : true
+  }, {
+    "name" : "procurementScope",
+    "entityId" : "LotsGroup",
+    "entityType" : "LotsGroupProcurementScope",
+    "repeatable" : false
+  }, {
+    "name" : "additionalInformation",
+    "entityId" : "LotsGroupProcurementScope",
+    "businessTermId" : "BT-300",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "description",
+    "entityId" : "LotsGroupProcurementScope",
+    "businessTermId" : "BT-24",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "estimatedValue",
+    "entityId" : "LotsGroupProcurementScope",
+    "businessTermId" : "BT-27",
+    "dataType" : "amount",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "frameworkMaximumAmount",
+    "entityId" : "LotsGroupProcurementScope",
+    "businessTermId" : "BT-271",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "internalIdentifier",
+    "entityId" : "LotsGroupProcurementScope",
+    "businessTermId" : "BT-22",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "isSuitableForSMEs",
+    "entityId" : "LotsGroupProcurementScope",
+    "businessTermId" : "BT-726",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "title",
+    "entityId" : "LotsGroupProcurementScope",
+    "businessTermId" : "BT-21",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "answerReceptionDeadlineDate",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-800",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "answerReceptionDeadlineTime",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-800",
+    "dataType" : "time",
+    "repeatable" : false
+  }, {
+    "name" : "atypicalToolName",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-632",
+    "dataType" : "text",
+    "repeatable" : false,
+    "inherits" : "PartTenderingProcess"
+  }, {
+    "name" : "atypicalToolUrl",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-124",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "PartTenderingProcess"
+  }, {
+    "name" : "auctionDescription",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-122",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "auctionUrl",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-123",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "buyerCategories",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "OPT-090",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "dynamicPurchasingSystem",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-766",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "PartTenderingProcess"
+  }, {
+    "name" : "eSubmissionRequirements",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-17",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "expressionsReceptionDeadlineDate",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-630",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "expressionsReceptionDeadlineTime",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-630",
+    "dataType" : "time",
+    "repeatable" : false
+  }, {
+    "name" : "frameworkAgreement",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-765",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "PartTenderingProcess"
+  }, {
+    "name" : "frameworkBuyerCategories",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-111",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "frameworkDurationJustification",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-109",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "frameworkMaximumParticipants",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-113",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "hasElectronicAuction",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-767",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "hasMaximumCandidates",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-661",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "hasSuccessiveReduction",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-52",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "informationRequestDeadline",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-13",
+    "dataType" : "date",
+    "repeatable" : false,
+    "inherits" : "PartTenderingProcess"
+  }, {
+    "name" : "informationRequestDeadlineTime",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-13",
+    "dataType" : "time",
+    "repeatable" : false,
+    "inherits" : "PartTenderingProcess"
+  }, {
+    "name" : "interestInvitationDispatchDate",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-631",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "invitationDispatchDate",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-130",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "isGpaCovered",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-115",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "PartTenderingProcess"
+  }, {
+    "name" : "isProcedureRelaunch",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-634",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "maximumCandidates",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-51",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "minimumCandidates",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-50",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "nonElectronicDescription",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-745",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "nonElectronicJustification",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-19",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "participationRequestDeadlineDate",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-1311",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "participationRequestDeadlineTime",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-1311",
+    "dataType" : "time",
+    "repeatable" : false
+  }, {
+    "name" : "previousPlanningReferences",
+    "entityId" : "LotTenderingProcess",
+    "entityType" : "PreviousPlanningRef",
+    "repeatable" : true,
+    "inherits" : "PartTenderingProcess"
+  }, {
+    "name" : "publicOpeningDate",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-132",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "publicOpeningDescription",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-134",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "publicOpeningPlace",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-133",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "publicOpeningTime",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-132",
+    "dataType" : "time",
+    "repeatable" : false
+  }, {
+    "name" : "submissionDeadlineDate",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-131",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "submissionDeadlineTime",
+    "entityId" : "LotTenderingProcess",
+    "businessTermId" : "BT-131",
+    "dataType" : "time",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_additionalInformationParty_",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_documentProviderParty_",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_tenderEvaluationParty_",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_tenderRecipientParty_",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "additionalInformationParty",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "appealTerms",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "LotAppealTerms",
+    "repeatable" : false
+  }, {
+    "name" : "awardingTerms",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "LotAwardingTerms",
+    "repeatable" : false
+  }, {
+    "name" : "cleanVehiclesDirective",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-717",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "cvdContractTypes",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-735",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "documentProviderParty",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "eedApplicable",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-810",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "eedAssets",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "EEDAsset",
+    "repeatable" : true
+  }, {
+    "name" : "electronicCatalogue",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-764",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "electronicInvoicing",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-743",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "electronicSignature",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-744",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "employmentLegislation",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "EmploymentLegislation",
+    "repeatable" : false,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "environmentalLegislation",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "EnvironmentalLegislation",
+    "repeatable" : false,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "euFundings",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "EUFunding",
+    "repeatable" : true
+  }, {
+    "name" : "executionRequirementsFactor",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "OPT-060",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "financialTerms",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-77",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "fiscalLegislation",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "FiscalLegislation",
+    "repeatable" : false,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "foreignSubsidiesRegulation",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-681",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "guaranteeDescription",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-75",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "guaranteeRequired",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-751",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "hasElectronicOrdering",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-92",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "hasElectronicPayment",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-93",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "hasRecurrence",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-94",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "ipiApplicable",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-684",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "isEuFunded",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-60",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "lateTendererInformation",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-771",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "lateTendererInformationDescription",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-772",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "multipleTenders",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-769",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "ndaDescription",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-802",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "ndaRequired",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-801",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "participantNames",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-47",
+    "dataType" : "text",
+    "repeatable" : true
+  }, {
+    "name" : "participationUrl",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-18",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "performingStaffQualification",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-79",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "procurementDocuments",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "ProcurementDocument",
+    "repeatable" : true,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "qualityTargets",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "QualityTarget",
+    "repeatable" : true
+  }, {
+    "name" : "recurrenceDescription",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-95",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "reservedExecution",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-736",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "reservedExecutionJustification",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "OPT-070",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "reservedParticipation",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-71",
+    "dataType" : "code",
+    "repeatable" : true,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "securityClearanceCode",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-578",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "securityClearanceDeadline",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-78",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "securityClearanceDescription",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-732",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "selectionCriteria",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "SelectionCriterion",
+    "repeatable" : true
+  }, {
+    "name" : "selectionCriteriaSources",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-821",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "subcontractingIndications",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-651",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "subcontractingObligations",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "SubcontractingObligation",
+    "repeatable" : true
+  }, {
+    "name" : "submissionLanguages",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-97",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "tendererLegalForm",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-761",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "tendererLegalFormDescription",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-76",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "tenderEvaluationParty",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "tenderRecipientParty",
+    "entityId" : "LotTenderingTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false,
+    "inherits" : "TenderingTerms"
+  }, {
+    "name" : "tenderValidityDeadline",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-98",
+    "dataType" : "measure",
+    "repeatable" : false
+  }, {
+    "name" : "tenderValidityDeadlineNumber",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-98",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "termsPerformance",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-70",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "variants",
+    "entityId" : "LotTenderingTerms",
+    "businessTermId" : "BT-63",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "Modification",
+    "businessTermId" : "BT-202",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "sections",
+    "entityId" : "Modification",
+    "entityType" : "ModifiedSection",
+    "repeatable" : true
+  }, {
+    "name" : "code",
+    "entityId" : "ModificationReason",
+    "businessTermId" : "BT-200",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "ModificationReason",
+    "businessTermId" : "BT-201",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_internalReference_",
+    "entityId" : "ModifiedSection",
+    "entityType" : "Section",
+    "repeatable" : false
+  }, {
+    "name" : "internalReference",
+    "entityId" : "ModifiedSection",
+    "entityType" : "Section",
+    "businessTermId" : "BT-1501",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "_privacy_crossBorderLawDescription_",
+    "entityId" : "Notice",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "additionalInformation",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-130",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "additionalLanguages",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-702",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "businessCapability",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-105",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "businessParty",
+    "entityId" : "Notice",
+    "entityType" : "BusinessParty",
+    "repeatable" : false
+  }, {
+    "name" : "buyers",
+    "entityId" : "Notice",
+    "entityType" : "Buyer",
+    "repeatable" : true
+  }, {
+    "name" : "changes",
+    "entityId" : "Notice",
+    "entityType" : "Changes",
+    "repeatable" : false
+  }, {
+    "name" : "contractModifications",
+    "entityId" : "Notice",
+    "entityType" : "ContractModification",
+    "repeatable" : true
+  }, {
+    "name" : "crossBorderLawDescription",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-09",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "crossBorderLawIdentifier",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-09",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "customizationIdentifier",
+    "entityId" : "Notice",
+    "businessTermId" : "OPT-002",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "dispatchDate",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-05",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "dispatchDateESender",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-803",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "dispatchTime",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-05",
+    "dataType" : "time",
+    "repeatable" : false
+  }, {
+    "name" : "dispatchTimeESender",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-803",
+    "dataType" : "time",
+    "repeatable" : false
+  }, {
+    "name" : "euLegalBasis",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-01",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "exclusionGrounds",
+    "entityId" : "Notice",
+    "entityType" : "ExclusionGrounds",
+    "repeatable" : true
+  }, {
+    "name" : "exclusionGroundsSources",
+    "entityId" : "Notice",
+    "entityType" : "ExclusionGroundsSource",
+    "repeatable" : true
+  }, {
+    "name" : "formType",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-03",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "futureNoticeDate",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-127",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "gazetteReference",
+    "entityId" : "Notice",
+    "entityType" : "GazetteReference",
+    "repeatable" : false
+  }, {
+    "name" : "groupCompositions",
+    "entityId" : "Notice",
+    "entityType" : "GroupComposition",
+    "repeatable" : true
+  }, {
+    "name" : "identifier",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-701",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "localLegalBasesNoId",
+    "entityId" : "Notice",
+    "entityType" : "LocalLegalBasis",
+    "repeatable" : true
+  }, {
+    "name" : "localLegalBasesWithId",
+    "entityId" : "Notice",
+    "entityType" : "LocalLegalBasis",
+    "repeatable" : true
+  }, {
+    "name" : "lots",
+    "entityId" : "Notice",
+    "entityType" : "Lot",
+    "repeatable" : true
+  }, {
+    "name" : "lotsGroups",
+    "entityId" : "Notice",
+    "entityType" : "LotsGroup",
+    "repeatable" : true
+  }, {
+    "name" : "lotsMaximumAllowed",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-31",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "lotsMaximumAwarded",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-33",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "noticeType",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-02",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "officialLanguages",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-702",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "ojeuIdentifier",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-011",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "organisations",
+    "entityId" : "Notice",
+    "entityType" : "Organisation",
+    "repeatable" : true
+  }, {
+    "name" : "parts",
+    "entityId" : "Notice",
+    "entityType" : "Part",
+    "repeatable" : true
+  }, {
+    "name" : "preferredPublicationDate",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-738",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "procedure",
+    "entityId" : "Notice",
+    "entityType" : "Procedure",
+    "repeatable" : false
+  }, {
+    "name" : "procurementMainNature",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-23",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "procurementScope",
+    "entityId" : "Notice",
+    "entityType" : "NoticeProcurementScope",
+    "repeatable" : false
+  }, {
+    "name" : "publicationDate",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-012",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "publicationNumber",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-010",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "purposeCode",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-100",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "result",
+    "entityId" : "Notice",
+    "entityType" : "NoticeResult",
+    "repeatable" : false
+  }, {
+    "name" : "reviewStatuses",
+    "entityId" : "Notice",
+    "entityType" : "ReviewStatus",
+    "repeatable" : true
+  }, {
+    "name" : "senderEmail",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-131",
+    "dataType" : "email",
+    "repeatable" : false
+  }, {
+    "name" : "subtype",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-070",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "tenderingProcess",
+    "entityId" : "Notice",
+    "entityType" : "ProcedureTenderingProcess",
+    "repeatable" : false
+  }, {
+    "name" : "transportServiceType",
+    "entityId" : "Notice",
+    "businessTermId" : "OPP-040",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "ublVersionIdentifier",
+    "entityId" : "Notice",
+    "businessTermId" : "OPT-001",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "ubos",
+    "entityId" : "Notice",
+    "entityType" : "UBO",
+    "repeatable" : true
+  }, {
+    "name" : "version",
+    "entityId" : "Notice",
+    "businessTermId" : "BT-757",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "additionalClassifications",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-263",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "additionalClassificationSchemes",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-26",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "additionalInformation",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-300",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "additionalNatures",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-531",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "classificationScheme",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-26",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-24",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "estimatedValue",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-27",
+    "dataType" : "amount",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "frameworkMaximumAmount",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-271",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "internalIdentifier",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-22",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "mainClassification",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-262",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "mainNature",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-23",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "performancePlaces",
+    "entityId" : "NoticeProcurementScope",
+    "entityType" : "PlaceOfPerformance",
+    "repeatable" : true
+  }, {
+    "name" : "title",
+    "entityId" : "NoticeProcurementScope",
+    "businessTermId" : "BT-21",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "_privacy_frameworkApproxValue_",
+    "entityId" : "NoticeResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_frameworkMaximumValue_",
+    "entityId" : "NoticeResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_totalValue_",
+    "entityId" : "NoticeResult",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "contracts",
+    "entityId" : "NoticeResult",
+    "entityType" : "Contract",
+    "repeatable" : true
+  }, {
+    "name" : "frameworkApproxValue",
+    "entityId" : "NoticeResult",
+    "businessTermId" : "BT-1118",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "frameworkMaximumValue",
+    "entityId" : "NoticeResult",
+    "businessTermId" : "BT-118",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "groupFrameworkValues",
+    "entityId" : "NoticeResult",
+    "entityType" : "GroupFrameworkValue",
+    "repeatable" : true
+  }, {
+    "name" : "lotResults",
+    "entityId" : "NoticeResult",
+    "entityType" : "LotResult",
+    "repeatable" : true
+  }, {
+    "name" : "tenderingParties",
+    "entityId" : "NoticeResult",
+    "entityType" : "TenderingParty",
+    "repeatable" : true
+  }, {
+    "name" : "tenders",
+    "entityId" : "NoticeResult",
+    "entityType" : "Tender",
+    "repeatable" : true
+  }, {
+    "name" : "totalValue",
+    "entityId" : "NoticeResult",
+    "businessTermId" : "BT-161",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "Organisation",
+    "entityType" : "UBO",
+    "repeatable" : false
+  }, {
+    "name" : "address",
+    "entityId" : "Organisation",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false
+  }, {
+    "name" : "contact",
+    "entityId" : "Organisation",
+    "entityType" : "CompanyContact",
+    "repeatable" : false
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "Organisation",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "Organisation",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "Organisation",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "Organisation",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true
+  }, {
+    "name" : "name",
+    "entityId" : "Organisation",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "Organisation",
+    "entityType" : "Touchpoint",
+    "repeatable" : true
+  }, {
+    "name" : "ubos",
+    "entityId" : "Organisation",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "url",
+    "entityId" : "Organisation",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "appealTerms",
+    "entityId" : "Part",
+    "entityType" : "AppealTerms",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "Part",
+    "businessTermId" : "BT-137",
+    "dataType" : "id",
+    "repeatable" : true
+  }, {
+    "name" : "procurementScope",
+    "entityId" : "Part",
+    "entityType" : "PartProcurementScope",
+    "repeatable" : false
+  }, {
+    "name" : "tenderingProcess",
+    "entityId" : "Part",
+    "entityType" : "PartTenderingProcess",
+    "repeatable" : false
+  }, {
+    "name" : "tenderingTerms",
+    "entityId" : "Part",
+    "entityType" : "TenderingTerms",
+    "repeatable" : false
+  }, {
+    "name" : "additionalClassifications",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-263",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "additionalClassificationSchemes",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-26",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "additionalInformation",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-300",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "additionalNatures",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-531",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "classificationScheme",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-26",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-24",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "duration",
+    "entityId" : "PartProcurementScope",
+    "entityType" : "Duration",
+    "repeatable" : false
+  }, {
+    "name" : "estimatedValue",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-27",
+    "dataType" : "amount",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "internalIdentifier",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-22",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "isSuitableForSMEs",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-726",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "mainClassification",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-262",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "mainNature",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-23",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "performancePlaces",
+    "entityId" : "PartProcurementScope",
+    "entityType" : "PlaceOfPerformance",
+    "repeatable" : true
+  }, {
+    "name" : "title",
+    "entityId" : "PartProcurementScope",
+    "businessTermId" : "BT-21",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "ProcurementScope"
+  }, {
+    "name" : "atypicalToolName",
+    "entityId" : "PartTenderingProcess",
+    "businessTermId" : "BT-632",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "atypicalToolUrl",
+    "entityId" : "PartTenderingProcess",
+    "businessTermId" : "BT-124",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "dynamicPurchasingSystem",
+    "entityId" : "PartTenderingProcess",
+    "businessTermId" : "BT-766",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "frameworkAgreement",
+    "entityId" : "PartTenderingProcess",
+    "businessTermId" : "BT-765",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "informationRequestDeadline",
+    "entityId" : "PartTenderingProcess",
+    "businessTermId" : "BT-13",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "informationRequestDeadlineTime",
+    "entityId" : "PartTenderingProcess",
+    "businessTermId" : "BT-13",
+    "dataType" : "time",
+    "repeatable" : false
+  }, {
+    "name" : "isGpaCovered",
+    "entityId" : "PartTenderingProcess",
+    "businessTermId" : "BT-115",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "previousPlanningReferences",
+    "entityId" : "PartTenderingProcess",
+    "entityType" : "PreviousPlanningRef",
+    "repeatable" : true
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "PayerParty",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "PayerParty",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "PayerParty",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "PayerParty",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "PayerParty",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "PayerParty",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "PayerParty",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "PayerParty",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "PayerParty",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "PayerParty",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "PayerParty",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "PayerParty",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "PayerParty",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "addressLine1",
+    "entityId" : "PerformanceAddress",
+    "businessTermId" : "BT-5101",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "addressLine2",
+    "entityId" : "PerformanceAddress",
+    "businessTermId" : "BT-5101",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "addressLine3",
+    "entityId" : "PerformanceAddress",
+    "businessTermId" : "BT-5101",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "country",
+    "entityId" : "PerformanceAddress",
+    "businessTermId" : "BT-5141",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "countrySubdivision",
+    "entityId" : "PerformanceAddress",
+    "businessTermId" : "BT-5071",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "other",
+    "entityId" : "PerformanceAddress",
+    "businessTermId" : "BT-727",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "postCode",
+    "entityId" : "PerformanceAddress",
+    "businessTermId" : "BT-5121",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "town",
+    "entityId" : "PerformanceAddress",
+    "businessTermId" : "BT-5131",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "additionalInformation",
+    "entityId" : "PlaceOfPerformance",
+    "businessTermId" : "BT-728",
+    "dataType" : "text-multilingual",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "PlaceOfPerformance",
+    "entityType" : "PerformanceAddress",
+    "repeatable" : false
+  }, {
+    "name" : "planNoticeReference",
+    "entityId" : "PreviousPlanningRef",
+    "businessTermId" : "BT-125",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "planPartReference",
+    "entityId" : "PreviousPlanningRef",
+    "businessTermId" : "BT-1251",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "justificationCode",
+    "entityId" : "PrivacySettings",
+    "businessTermId" : "BT-197",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "justificationDescription",
+    "entityId" : "PrivacySettings",
+    "businessTermId" : "BT-196",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "privacyCode",
+    "entityId" : "PrivacySettings",
+    "businessTermId" : "BT-195",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "publicationDate",
+    "entityId" : "PrivacySettings",
+    "businessTermId" : "BT-198",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "otherRewards",
+    "entityId" : "Prize",
+    "businessTermId" : "BT-45",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "rank",
+    "entityId" : "Prize",
+    "businessTermId" : "BT-44",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "value",
+    "entityId" : "Prize",
+    "businessTermId" : "BT-644",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_acceleratedCode_",
+    "entityId" : "Procedure",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_acceleratedProcedureJustification_",
+    "entityId" : "Procedure",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_procedureFeatures_",
+    "entityId" : "Procedure",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_procedureType_",
+    "entityId" : "Procedure",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "acceleratedCode",
+    "entityId" : "Procedure",
+    "businessTermId" : "BT-106",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "acceleratedProcedureJustification",
+    "entityId" : "Procedure",
+    "businessTermId" : "BT-1351",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "directAwardJustifications",
+    "entityId" : "Procedure",
+    "entityType" : "DirectAwardJustification",
+    "repeatable" : true
+  }, {
+    "name" : "hasPinCompetitionTermination",
+    "entityId" : "Procedure",
+    "businessTermId" : "BT-756",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "Procedure",
+    "businessTermId" : "BT-04",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "lotsAllRequired",
+    "entityId" : "Procedure",
+    "businessTermId" : "BT-763",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "previousNoticeIdentifier",
+    "entityId" : "Procedure",
+    "businessTermId" : "OPP-090",
+    "dataType" : "id",
+    "repeatable" : true
+  }, {
+    "name" : "procedureFeatures",
+    "entityId" : "Procedure",
+    "businessTermId" : "BT-88",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "procedureType",
+    "entityId" : "Procedure",
+    "businessTermId" : "BT-105",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "isProcedureRelaunch",
+    "entityId" : "ProcedureTenderingProcess",
+    "businessTermId" : "BT-634",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "documentIdentifier",
+    "entityId" : "ProcurementDocument",
+    "businessTermId" : "OPT-140",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "nonOfficialLanguages",
+    "entityId" : "ProcurementDocument",
+    "businessTermId" : "BT-737",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "officialLanguages",
+    "entityId" : "ProcurementDocument",
+    "businessTermId" : "BT-708",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "restricted",
+    "entityId" : "ProcurementDocument",
+    "businessTermId" : "BT-14",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "restrictedJustification",
+    "entityId" : "ProcurementDocument",
+    "businessTermId" : "BT-707",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "restrictedUrl",
+    "entityId" : "ProcurementDocument",
+    "businessTermId" : "BT-615",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "ProcurementDocument",
+    "businessTermId" : "BT-15",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "additionalInformation",
+    "entityId" : "ProcurementScope",
+    "businessTermId" : "BT-300",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "ProcurementScope",
+    "businessTermId" : "BT-24",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "estimatedValue",
+    "entityId" : "ProcurementScope",
+    "businessTermId" : "BT-27",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "internalIdentifier",
+    "entityId" : "ProcurementScope",
+    "businessTermId" : "BT-22",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "title",
+    "entityId" : "ProcurementScope",
+    "businessTermId" : "BT-21",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "code",
+    "entityId" : "QualityTarget",
+    "businessTermId" : "OPT-071",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "QualityTarget",
+    "businessTermId" : "OPT-072",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_code_",
+    "entityId" : "ReceivedSubmissionsStatistics",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_count_",
+    "entityId" : "ReceivedSubmissionsStatistics",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "code",
+    "entityId" : "ReceivedSubmissionsStatistics",
+    "businessTermId" : "BT-760",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "count",
+    "entityId" : "ReceivedSubmissionsStatistics",
+    "businessTermId" : "BT-759",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "country",
+    "entityId" : "RegistrationPlace",
+    "businessTermId" : "OPP-112",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "postCode",
+    "entityId" : "RegistrationPlace",
+    "businessTermId" : "OPP-111",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "town",
+    "entityId" : "RegistrationPlace",
+    "businessTermId" : "OPP-110",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "ReviewBody",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "ReviewBody",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "ReviewBody",
+    "entityType" : "Organisation",
+    "businessTermId" : "BT-807",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "address",
+    "entityId" : "ReviewBody",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "ReviewBody",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "ReviewBody",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "ReviewBody",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "ReviewBody",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "ReviewBody",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "ReviewBody",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "ReviewBody",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "type",
+    "entityId" : "ReviewBody",
+    "businessTermId" : "BT-799",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "ubos",
+    "entityId" : "ReviewBody",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "ReviewBody",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_privacy_code_",
+    "entityId" : "ReviewRequestsStatistics",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_count_",
+    "entityId" : "ReviewRequestsStatistics",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "code",
+    "entityId" : "ReviewRequestsStatistics",
+    "businessTermId" : "BT-636",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "count",
+    "entityId" : "ReviewRequestsStatistics",
+    "businessTermId" : "BT-635",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_appealedSectionIdentifiers_",
+    "entityId" : "ReviewStatus",
+    "entityType" : "Lot",
+    "repeatable" : false
+  }, {
+    "name" : "appealedSectionIdentifiers",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-786",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "applicants",
+    "entityId" : "ReviewStatus",
+    "entityType" : "AppealingParty",
+    "repeatable" : true
+  }, {
+    "name" : "date",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-787",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "decisionTypes",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-790",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "description",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-789",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-804",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "irregularityTypes",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-791",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "isWithdrawn",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-796",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "previousIdentifier",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-785",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "remedyTypes",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-792",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "remedyValue",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-793",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "requestFee",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-795",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "reviewBody",
+    "entityId" : "ReviewStatus",
+    "entityType" : "ReviewBody",
+    "repeatable" : false
+  }, {
+    "name" : "reviewIdentifier",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-784",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "stage",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-783",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "title",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-788",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-794",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "withdrawnDate",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-797",
+    "dataType" : "date",
+    "repeatable" : false
+  }, {
+    "name" : "withdrawnReasons",
+    "entityId" : "ReviewStatus",
+    "businessTermId" : "BT-798",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "number",
+    "entityId" : "SecondStageThresholdParameter",
+    "businessTermId" : "BT-752",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "type",
+    "entityId" : "SecondStageThresholdParameter",
+    "businessTermId" : "BT-7532",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "SelectionCriterion",
+    "businessTermId" : "BT-750",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "isUsedForSecondStage",
+    "entityId" : "SelectionCriterion",
+    "businessTermId" : "BT-40",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "thresholds",
+    "entityId" : "SelectionCriterion",
+    "entityType" : "SecondStageThresholdParameter",
+    "repeatable" : true
+  }, {
+    "name" : "type",
+    "entityId" : "SelectionCriterion",
+    "businessTermId" : "BT-809",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "weightNumber",
+    "entityId" : "SelectionCriterion",
+    "businessTermId" : "BT-752",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "weightType",
+    "entityId" : "SelectionCriterion",
+    "businessTermId" : "BT-7531",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "ServiceProvider",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "ServiceProvider",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "ServiceProvider",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-300",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "ServiceProvider",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "ServiceProvider",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "ServiceProvider",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "ServiceProvider",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "ServiceProvider",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "ServiceProvider",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "ServiceProvider",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "providedService",
+    "entityId" : "ServiceProvider",
+    "businessTermId" : "OPT-030",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "ServiceProvider",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "ServiceProvider",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "ServiceProvider",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "code",
+    "entityId" : "Statistics",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "count",
+    "entityId" : "Statistics",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "StrategicProcurementType",
+    "businessTermId" : "BT-777",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "type",
+    "entityId" : "StrategicProcurementType",
+    "businessTermId" : "BT-06",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "maximumPercent",
+    "entityId" : "SubcontractingObligation",
+    "businessTermId" : "BT-729",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "minimumPercent",
+    "entityId" : "SubcontractingObligation",
+    "businessTermId" : "BT-64",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "requirementsCode",
+    "entityId" : "SubcontractingObligation",
+    "businessTermId" : "BT-65",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_mainContractors_",
+    "entityId" : "SubContractor",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "SubContractor",
+    "entityType" : "EconomicOperator",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "SubContractor",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "SubContractor",
+    "entityType" : "EconomicOperator",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "SubContractor",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "SubContractor",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "SubContractor",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "SubContractor",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "SubContractor",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isOnRegulatedMarket",
+    "entityId" : "SubContractor",
+    "businessTermId" : "BT-746",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "EconomicOperator"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "SubContractor",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "mainContractors",
+    "entityId" : "SubContractor",
+    "entityType" : "Tenderer",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "name",
+    "entityId" : "SubContractor",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "size",
+    "entityId" : "SubContractor",
+    "businessTermId" : "BT-165",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "EconomicOperator"
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "SubContractor",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "SubContractor",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "SubContractor",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_lookup_lotReference_",
+    "entityId" : "Tender",
+    "entityType" : "Lot",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_tenderingPartyReference_",
+    "entityId" : "Tender",
+    "entityType" : "TenderingParty",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_concessionRevenueBuyer_",
+    "entityId" : "Tender",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_concessionRevenueUser_",
+    "entityId" : "Tender",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_concessionValueDescription_",
+    "entityId" : "Tender",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_isVariant_",
+    "entityId" : "Tender",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_originCountries_",
+    "entityId" : "Tender",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_rank_",
+    "entityId" : "Tender",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_value_",
+    "entityId" : "Tender",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "concessionRevenueBuyer",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-160",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "concessionRevenueUser",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-162",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "concessionValueDescription",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-163",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "contractExecutionConditions",
+    "entityId" : "Tender",
+    "entityType" : "ContractExecutionCondition",
+    "repeatable" : true
+  }, {
+    "name" : "foreignSubsidiesMeasures",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-682",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "Tender",
+    "businessTermId" : "OPT-321",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "isRanked",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-1711",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "isVariant",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-193",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "lotReference",
+    "entityId" : "Tender",
+    "entityType" : "Lot",
+    "businessTermId" : "BT-13714",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "originCountries",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-191",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "paymentValue",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-779",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "paymentValueDescription",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-780",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "penalties",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-782",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "publicTransportDistance",
+    "entityId" : "Tender",
+    "businessTermId" : "OPP-080",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "rank",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-171",
+    "dataType" : "integer",
+    "repeatable" : false
+  }, {
+    "name" : "revenueAllocationCode",
+    "entityId" : "Tender",
+    "businessTermId" : "OPP-035",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "revenueAllocationPercent",
+    "entityId" : "Tender",
+    "businessTermId" : "OPP-032",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "rewardsPenaltiesCode",
+    "entityId" : "Tender",
+    "businessTermId" : "OPP-033",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "rewardsPenaltiesDescription",
+    "entityId" : "Tender",
+    "businessTermId" : "OPP-034",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "subcontracting",
+    "entityId" : "Tender",
+    "entityType" : "TenderSubcontracting",
+    "repeatable" : false
+  }, {
+    "name" : "tenderIdentifier",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-3201",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "tenderingPartyReference",
+    "entityId" : "Tender",
+    "entityType" : "TenderingParty",
+    "businessTermId" : "OPT-310",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "value",
+    "entityId" : "Tender",
+    "businessTermId" : "BT-720",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_self_",
+    "entityId" : "Tenderer",
+    "entityType" : "EconomicOperator",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_ubos_",
+    "entityId" : "Tenderer",
+    "entityType" : "UBO",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "_self_",
+    "entityId" : "Tenderer",
+    "entityType" : "EconomicOperator",
+    "businessTermId" : "OPT-300",
+    "dataType" : "id-ref",
+    "repeatable" : true
+  }, {
+    "name" : "address",
+    "entityId" : "Tenderer",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "contact",
+    "entityId" : "Tenderer",
+    "entityType" : "CompanyContact",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "Tenderer",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "identifier",
+    "entityId" : "Tenderer",
+    "businessTermId" : "OPT-200",
+    "dataType" : "id",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isLeader",
+    "entityId" : "Tenderer",
+    "businessTermId" : "OPT-170",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "isNaturalPerson",
+    "entityId" : "Tenderer",
+    "businessTermId" : "BT-633",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "isOnRegulatedMarket",
+    "entityId" : "Tenderer",
+    "businessTermId" : "BT-746",
+    "dataType" : "indicator",
+    "repeatable" : false,
+    "inherits" : "EconomicOperator"
+  }, {
+    "name" : "legalIdentifiers",
+    "entityId" : "Tenderer",
+    "businessTermId" : "BT-501",
+    "dataType" : "id",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "name",
+    "entityId" : "Tenderer",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "size",
+    "entityId" : "Tenderer",
+    "businessTermId" : "BT-165",
+    "dataType" : "code",
+    "repeatable" : false,
+    "inherits" : "EconomicOperator"
+  }, {
+    "name" : "touchpoints",
+    "entityId" : "Tenderer",
+    "entityType" : "Touchpoint",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "ubos",
+    "entityId" : "Tenderer",
+    "entityType" : "UBO",
+    "businessTermId" : "OPT-302",
+    "dataType" : "id-ref",
+    "repeatable" : true,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "url",
+    "entityId" : "Tenderer",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false,
+    "inherits" : "Organisation"
+  }, {
+    "name" : "alias",
+    "entityId" : "TenderingParty",
+    "businessTermId" : "OPT-211",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "TenderingParty",
+    "businessTermId" : "OPT-210",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "subContractors",
+    "entityId" : "TenderingParty",
+    "entityType" : "SubContractor",
+    "repeatable" : true
+  }, {
+    "name" : "tenderers",
+    "entityId" : "TenderingParty",
+    "entityType" : "Tenderer",
+    "repeatable" : true
+  }, {
+    "name" : "_lookup_additionalInformationParty_",
+    "entityId" : "TenderingTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_documentProviderParty_",
+    "entityId" : "TenderingTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_tenderEvaluationParty_",
+    "entityId" : "TenderingTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "_lookup_tenderRecipientParty_",
+    "entityId" : "TenderingTerms",
+    "entityType" : "Organisation",
+    "repeatable" : false
+  }, {
+    "name" : "additionalInformationParty",
+    "entityId" : "TenderingTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "documentProviderParty",
+    "entityId" : "TenderingTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "employmentLegislation",
+    "entityId" : "TenderingTerms",
+    "entityType" : "EmploymentLegislation",
+    "repeatable" : false
+  }, {
+    "name" : "environmentalLegislation",
+    "entityId" : "TenderingTerms",
+    "entityType" : "EnvironmentalLegislation",
+    "repeatable" : false
+  }, {
+    "name" : "fiscalLegislation",
+    "entityId" : "TenderingTerms",
+    "entityType" : "FiscalLegislation",
+    "repeatable" : false
+  }, {
+    "name" : "procurementDocuments",
+    "entityId" : "TenderingTerms",
+    "entityType" : "ProcurementDocument",
+    "repeatable" : true
+  }, {
+    "name" : "reservedExecution",
+    "entityId" : "TenderingTerms",
+    "businessTermId" : "BT-736",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "reservedParticipation",
+    "entityId" : "TenderingTerms",
+    "businessTermId" : "BT-71",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "tenderEvaluationParty",
+    "entityId" : "TenderingTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "tenderRecipientParty",
+    "entityId" : "TenderingTerms",
+    "entityType" : "Organisation",
+    "businessTermId" : "OPT-301",
+    "dataType" : "id-ref",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_code_",
+    "entityId" : "TenderSubcontracting",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_description_",
+    "entityId" : "TenderSubcontracting",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_isPercentageKnown_",
+    "entityId" : "TenderSubcontracting",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_isValueKnown_",
+    "entityId" : "TenderSubcontracting",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_percentage_",
+    "entityId" : "TenderSubcontracting",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_value_",
+    "entityId" : "TenderSubcontracting",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "code",
+    "entityId" : "TenderSubcontracting",
+    "businessTermId" : "BT-773",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "description",
+    "entityId" : "TenderSubcontracting",
+    "businessTermId" : "BT-554",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "isPercentageKnown",
+    "entityId" : "TenderSubcontracting",
+    "businessTermId" : "BT-731",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "isValueKnown",
+    "entityId" : "TenderSubcontracting",
+    "businessTermId" : "BT-730",
+    "dataType" : "indicator",
+    "repeatable" : false
+  }, {
+    "name" : "percentage",
+    "entityId" : "TenderSubcontracting",
+    "businessTermId" : "BT-555",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "value",
+    "entityId" : "TenderSubcontracting",
+    "businessTermId" : "BT-553",
+    "dataType" : "amount",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_number_",
+    "entityId" : "ThresholdParameter",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "_privacy_type_",
+    "entityId" : "ThresholdParameter",
+    "entityType" : "PrivacySettings",
+    "repeatable" : false
+  }, {
+    "name" : "number",
+    "entityId" : "ThresholdParameter",
+    "businessTermId" : "BT-541",
+    "dataType" : "number",
+    "repeatable" : false
+  }, {
+    "name" : "type",
+    "entityId" : "ThresholdParameter",
+    "businessTermId" : "BT-5423",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "address",
+    "entityId" : "Touchpoint",
+    "entityType" : "CompanyAddress",
+    "repeatable" : false
+  }, {
+    "name" : "contact",
+    "entityId" : "Touchpoint",
+    "entityType" : "CompanyContact",
+    "repeatable" : false
+  }, {
+    "name" : "eDeliveryGateway",
+    "entityId" : "Touchpoint",
+    "businessTermId" : "BT-509",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "Touchpoint",
+    "businessTermId" : "OPT-201",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "name",
+    "entityId" : "Touchpoint",
+    "businessTermId" : "BT-500",
+    "dataType" : "text-multilingual",
+    "repeatable" : false
+  }, {
+    "name" : "url",
+    "entityId" : "Touchpoint",
+    "businessTermId" : "BT-505",
+    "dataType" : "url",
+    "repeatable" : false
+  }, {
+    "name" : "address",
+    "entityId" : "UBO",
+    "entityType" : "Address",
+    "repeatable" : false
+  }, {
+    "name" : "contact",
+    "entityId" : "UBO",
+    "entityType" : "Contact",
+    "repeatable" : false
+  }, {
+    "name" : "familyName",
+    "entityId" : "UBO",
+    "businessTermId" : "BT-500",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "firstName",
+    "entityId" : "UBO",
+    "businessTermId" : "OPT-160",
+    "dataType" : "text",
+    "repeatable" : false
+  }, {
+    "name" : "identifier",
+    "entityId" : "UBO",
+    "businessTermId" : "OPT-202",
+    "dataType" : "id",
+    "repeatable" : false
+  }, {
+    "name" : "nationality",
+    "entityId" : "UBO",
+    "businessTermId" : "BT-706",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "categoryCode",
+    "entityId" : "VehicleProcurementDetail",
+    "businessTermId" : "BT-723",
+    "dataType" : "code",
+    "repeatable" : true
+  }, {
+    "name" : "statistics",
+    "entityId" : "VehicleProcurementDetail",
+    "entityType" : "VehicleStatistics",
+    "repeatable" : true
+  }, {
+    "name" : "code",
+    "entityId" : "VehicleStatistics",
+    "businessTermId" : "OPT-155",
+    "dataType" : "code",
+    "repeatable" : false
+  }, {
+    "name" : "count",
+    "entityId" : "VehicleStatistics",
+    "businessTermId" : "OPT-156",
+    "dataType" : "number",
+    "repeatable" : false
+  } ]
+}

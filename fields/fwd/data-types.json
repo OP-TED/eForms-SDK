@@ -1,67 +1,149 @@
 {
   "dataTypes" : [ {
     "type" : "amount",
-    "displayTypes" : [ "TEXTBOX" ]
+    "description" : "Monetary value with currency",
+    "valueType" : "decimal",
+    "maskingValue" : "-1",
+    "displayTypes" : [ "TEXTBOX" ],
+    "attribute" : {
+      "name" : "currencyID",
+      "description" : "ISO 4217 currency code",
+      "valueType" : "string"
+    }
   }, {
     "type" : "code",
-    "description" : "A code from the code table. A code may be referenced by several codelists.",
-    "displayTypes" : [ "COMBOBOX", "RADIO" ]
+    "description" : "Value from a codelist",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
+    "displayTypes" : [ "COMBOBOX", "RADIO" ],
+    "attribute" : {
+      "name" : "listName",
+      "description" : "Codelist identifier",
+      "valueType" : "string"
+    }
   }, {
     "type" : "date",
+    "description" : "Date value with timezone",
+    "valueType" : "date",
+    "maskingValue" : "1970-01-01Z",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "duration",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "email",
+    "description" : "Email address string",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "id",
-    "description" : "Unique identifier",
-    "displayTypes" : [ "TEXTBOX" ]
+    "description" : "Identifier value",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
+    "displayTypes" : [ "TEXTBOX" ],
+    "attribute" : {
+      "name" : "schemeName",
+      "description" : "Identifier scheme name",
+      "valueType" : "string"
+    }
   }, {
     "type" : "id-ref",
-    "description" : "References an identifier",
-    "displayTypes" : [ "COMBOBOX" ]
+    "description" : "Reference to an identifier",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
+    "displayTypes" : [ "COMBOBOX" ],
+    "attribute" : {
+      "name" : "schemeName",
+      "description" : "Identifier scheme name",
+      "valueType" : "string"
+    }
   }, {
     "type" : "indicator",
-    "description" : "Has two mutually exclusive values",
+    "description" : "Boolean value (true/false)",
+    "valueType" : "boolean",
+    "maskingValue" : "0",
     "displayTypes" : [ "RADIO", "CHECKBOX", "COMBOBOX" ]
   }, {
     "type" : "integer",
+    "description" : "Whole number",
+    "valueType" : "integer",
+    "maskingValue" : "-1",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "internal-code",
-    "description" : "similar to code",
-    "displayTypes" : [ "COMBOBOX", "RADIO" ]
+    "description" : "Value from an internal codelist",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
+    "displayTypes" : [ "COMBOBOX", "RADIO" ],
+    "attribute" : {
+      "name" : "listName",
+      "description" : "Codelist identifier",
+      "valueType" : "string"
+    }
   }, {
     "type" : "measure",
-    "displayTypes" : [ "TEXTBOX" ]
+    "description" : "Numeric value with unit of measure",
+    "valueType" : "decimal",
+    "maskingValue" : "-1",
+    "displayTypes" : [ "TEXTBOX" ],
+    "attribute" : {
+      "name" : "unitCode",
+      "description" : "UN/ECE Recommendation 20 unit code",
+      "valueType" : "string"
+    }
   }, {
     "type" : "number",
+    "description" : "Numeric value with optional decimals",
+    "valueType" : "decimal",
+    "maskingValue" : "-1",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "phone",
+    "description" : "Phone number string",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "text",
-    "description" : "TEXTAREA use depends on field max length",
+    "description" : "Language-independent string value",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
     "displayTypes" : [ "TEXTBOX", "TEXTAREA" ]
   }, {
     "type" : "text-multilingual",
-    "description" : "Multilingual text, TEXTAREA use depends on field max length",
-    "displayTypes" : [ "TEXTBOX", "TEXTAREA" ]
+    "description" : "Translatable string with language indicator",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
+    "displayTypes" : [ "TEXTBOX", "TEXTAREA" ],
+    "attribute" : {
+      "name" : "languageID",
+      "description" : "ISO 639-1 language code",
+      "valueType" : "string"
+    }
   }, {
     "type" : "time",
+    "description" : "Time value with timezone",
+    "valueType" : "time",
+    "maskingValue" : "00:00:00Z",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "url",
+    "description" : "URL string",
+    "valueType" : "string",
+    "maskingValue" : "unpublished",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "zoned-date",
+    "description" : "Date value with timezone",
+    "valueType" : "date",
+    "maskingValue" : "1970-01-01Z",
     "displayTypes" : [ "TEXTBOX" ]
   }, {
     "type" : "zoned-time",
+    "description" : "Time value with timezone",
+    "valueType" : "time",
+    "maskingValue" : "00:00:00Z",
     "displayTypes" : [ "TEXTBOX" ]
   } ]
 }
