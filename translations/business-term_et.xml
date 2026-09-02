@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Lepingu täitmise koha nimi (linn, alev või küla).</entry>
 <entry key="business-term|description|BT-514">Organisatsiooni füüsilise aadressi riik.</entry>
 <entry key="business-term|description|BT-5141">Lepingu täitmise koha riik.</entry>
-<entry key="business-term|description|BT-52">Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada.</entry>
+<entry key="business-term|description|BT-52">Menetlus toimub järjestikustes etappides. Pärast teist etappi võidakse igas järgmises etapis mõned osalejad kõrvaldada.</entry>
 <entry key="business-term|description|BT-53">Hankija jätab endale õiguse (tegemist ei ole kohustusega) lisahangeteks töövõtjalt (nii kaua, kui leping kehtib).</entry>
 <entry key="business-term|description|BT-531">Hankelepingu peamist eset täiendav hankelepingu ese (nt teenused).</entry>
 <entry key="business-term|description|BT-536">(Eeldatav) kuupäev, millal leping, raamleping, dünaamiline hankesüsteem või kvalifitseerimissüsteem algab.</entry>
@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Erandid IPI meetme kohaldamisest</entry>
 <entry key="business-term|description|BT-688">Kirjeldus ja põhjendus avaliku huvi tõttu ülekaalukate põhjuste kohaldamiseks</entry>
 <entry key="business-term|description|BT-70">Peamine teave lepingu täitmise kohta (nt vahetulemused, kahjude hüvitamine, intellektuaalomandi õigused).</entry>
-<entry key="business-term|description|BT-701">Käesoleva teate Euroopa riigihanketeate tunnus. Selle tunnuse lisamine teate kõikidele avaldatud versioonidele (nt TED, riiklikud portaalid, piirkondlikud portaalid) võimaldab riigihanketeated kõikjal liidus üheselt kindlaks teha.</entry>
+<entry key="business-term|description|BT-701">Selle teate Euroopa hanketeate tunnus.</entry>
 <entry key="business-term|description|BT-702">Keel(ed), milles käesolev teade on ametlikult kättesaadav. Need keeleversioonid on võrdse õigusjõuga.</entry>
 <entry key="business-term|description|BT-706">Eduka pakkuja, hankija või alltöövõtja tegeliku kasusaaja (või tegelike kasusaajate) elu- või asukohariik (või -riigid) Euroopa Parlamendi ja nõukogu direktiivi (EL) 2018/843 alusel loodud registri(te)s. Kui sellist registrit ei ole (nt liiduväliste töövõtjate puhul), siis samaväärne teave muudest allikatest.</entry>
 <entry key="business-term|description|BT-707">Põhjendus teatavatele hankedokumentidele juurdepääsu piiramise kohta.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Elektrooniliseks teabevahetuseks on vaja kasutada vahendeid ja seadmeid, mis ei ole üldkättesaadavad.</entry>
 <entry key="business-term|description|BT-725">Direktiivis 2009/33/EÜ määratletud ja selle kohaldamisalasse kuuluvate heiteta raskeveokite arv. Need sõidukid on ostetud, liisitud, renditud või ostetud järelmaksuga või nende kasutamine on lepingu alusel kokku lepitud, et osutada ostetud teenust, mis kuulub direktiivi 2009/33/EÜ kohaldamisalasse.</entry>
 <entry key="business-term|description|BT-726">Hankija rõhutab, et see hange sobib ka väikestele ja keskmise suurusega ettevõtjatele (VKEd).</entry>
-<entry key="business-term|description|BT-727">Lepingu täitmise kohale on kehtestatud muud piirangud (nt „ükskõik kus Euroopa Majanduspiirkonnas“, „ükskõik kus asjaomases riigis“).</entry>
+<entry key="business-term|description|BT-727">Kui täitmise või tarnimise koht ei piirdu konkreetse aadressi või piirkonnaga, võib selle määratleda laiema geograafilise ulatusega.</entry>
 <entry key="business-term|description|BT-728">Lisateave lepingu täitmise kohta.</entry>
 <entry key="business-term|description|BT-729">Lepingu maksumuse maksimaalne protsendimäär, mille ulatuses töövõtja peab sõlmima allhankelepingud, kasutades direktiivi 2009/81/EÜ III jaotises kirjeldatud konkurentsipõhist menetlust.</entry>
 <entry key="business-term|description|BT-730">Hankija teab vähemalt lepingu selle osa eeldatavat maksumust, mille suhtes töövõtja sõlmib allhankelepinguid kolmandate isikutega.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Lisateave konfidentsiaalsuskokkuleppe kohta.</entry>
 <entry key="business-term|description|BT-803">Kuupäev ja kellaaeg, mil e-saatja edastas teate elektrooniliselt Euroopa Liidu Väljaannete Talitusele.</entry>
 <entry key="business-term|description|BT-805">Hankemenetlus hõlmab kehtestatud keskkonnahoidlike riigihangete tingimuste (kvalifitseerimistingimused, tehniline kirjeldus, hindamiskriteeriumid ja lepingu täitmise klauslid) kasutamist riiklikul, liidu või muul tasandil, kui see on asjakohane.</entry>
-<entry key="business-term|description|BT-806">Koht, kus on kirjeldatud kõrvaldamise aluseid, näiteks hankedokumendid, teade või Euroopa ühtne hankedokument.</entry>
+<entry key="business-term|description|BT-806">Koht, kus on kirjeldatud kõrvaldamise aluseid, näiteks hankedokumendid, teade või Euroopa ühtse hankedokumendi taotlus.</entry>
 <entry key="business-term|description|BT-809">Kvalifitseerimistingimus.</entry>
 <entry key="business-term|description|BT-810">Käesoleva hankemenetluse suhtes kohaldatakse energiatõhususe direktiivi (EL) 2023/1791.</entry>
 <entry key="business-term|description|BT-811">Energiamärgistuse direktiivi, ökodisaini direktiivi, liidu keskkonnahoidlike riigihangete kriteeriumide ja määrusega (EL) 2020/740 hõlmatud toodete, ehitustööde ja teenuste valik. Aruandluse eesmärgil on hõlmatud ka energiatõhususe direktiivi artiklis 7 sätestatud kohustusega hõlmatud hooned. Kuna loetelul on kaks tasandit, on see jagatud a) sellisteks kategooriateks nagu „Ökomärgis“ ja b) tegelikeks artikliteks, nagu „Nõudepesumasinad“.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Energia tarbimise väärtus kWh/aastas toodetele, millel ei ole silti, ja energia säästmine kWh/aastas teenuste, hoonete või tööde jaoks. Toodete puhul teatage palun toote aastast energiatarbimist. Teenuste, tööde ja hoonete puhul teatage palun aastast energiasäästu.</entry>
 <entry key="business-term|description|BT-814">Energiasäästu väärtus kilovatt-tundides aastas toodete, teenuste, ehitustööde ja hoonete puhul. Palun esitage iga-aastane energiasääst.</entry>
 <entry key="business-term|description|BT-815">Teadaolev või hinnanguline kogus. Toodete puhul märkida toodete arv. Hoonete puhul märkida kasulik põrandapind ruutmeetrites. Ehitustööde või teenuste puhul on väärtus tavaliselt 1.</entry>
-<entry key="business-term|description|BT-821">Koht, kus kvalifitseerimistingimused on kindlaks määratud, näiteks hankedokumendid, teade või Euroopa ühtne hankedokument.</entry>
+<entry key="business-term|description|BT-821">Koht, kus kvalifitseerimistingimused on kindlaks määratud, näiteks hankedokumendid, teade või Euroopa ühtse hankedokumendi taotlus.</entry>
 <entry key="business-term|description|BT-88">Menetluskorra kirjeldus (nt üksikute etappide kirjeldus) ja teave selle kohta, kust on võimalik leida menetluse täielikud eeskirjad. See teave tuleb esitada siis, kui tegemist on menetlusega, mida ei ole riigihankedirektiivides nimetatud. See võib olla nii näiteks kontsessioonide, sotsiaalteenuste ja muude eriteenuste puhul ning riigihangete vabatahtliku avaldamise korral allpool ELi hangete piirmäärasid.</entry>
 <entry key="business-term|description|BT-92">Kasutatakse elektroonilisi tellimusi.</entry>
 <entry key="business-term|description|BT-93">Kasutatakse elektroonilisi makseid.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Kontsessiooni eeldatava maksumuse arvutamise meetod</entry>
 <entry key="business-term|name|BT-165">Ettevõtja suurus</entry>
 <entry key="business-term|name|BT-17">Elektrooniline esitamine</entry>
-<entry key="business-term|name|BT-171">Koht edukate pakkujate nimekirjas</entry>
+<entry key="business-term|name|BT-171">Pakkumise järjestus</entry>
 <entry key="business-term|name|BT-1711">Pakkumus on pandud paremusjärjestusse</entry>
 <entry key="business-term|name|BT-18">Esitamise aadress</entry>
 <entry key="business-term|name|BT-19">Põhjendus, miks elektrooniline esitamine ei ole võimalik</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Linn</entry>
 <entry key="business-term|name|BT-514">Riik</entry>
 <entry key="business-term|name|BT-5141">Riik</entry>
-<entry key="business-term|name|BT-52">Menetlus toimub järjestikuste etappidena. Igas etapis võidakse mõni osaleja kõrvaldada</entry>
+<entry key="business-term|name|BT-52">Menetlus toimub järjestikustes etappides. Pärast teist etappi võidakse igas järgmises etapis mõned osalejad kõrvaldada.</entry>
 <entry key="business-term|name|BT-53">Täiendavad hankevõimalused</entry>
 <entry key="business-term|name|BT-531">Lepingu täiendav olemus</entry>
 <entry key="business-term|name|BT-536">Alguskuupäev</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Erandid IPI meetme kohaldamisest</entry>
 <entry key="business-term|name|BT-688">Ülekaalukad põhjused, mis on seotud avaliku huviga</entry>
 <entry key="business-term|name|BT-70">Lepingu täitmisega seotud tingimused</entry>
-<entry key="business-term|name|BT-701">Teate tunnus/versioon</entry>
+<entry key="business-term|name|BT-701">Teate tunnus</entry>
 <entry key="business-term|name|BT-702">Keeled, milles käesolev teade on ametlikult kättesaadav</entry>
 <entry key="business-term|name|BT-706">Omaniku kodakondsus</entry>
 <entry key="business-term|name|BT-707">Teatavatele hankedokumentidele juurdepääsu piiramise põhjendus</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Kasutatakse sihtotstarbelist teabevahetusvahendit</entry>
 <entry key="business-term|name|BT-725">Heiteta raskeveokite arv</entry>
 <entry key="business-term|name|BT-726">See hange sobib ka väikestele ja keskmise suurusega ettevõtjatele (VKEd)</entry>
-<entry key="business-term|name|BT-727">Lepingu täitmise kohale kehtestatud muud piirangud</entry>
+<entry key="business-term|name|BT-727">Täitmise koht – Geograafiline ulatus</entry>
 <entry key="business-term|name|BT-728">Lisateave</entry>
 <entry key="business-term|name|BT-729">Lepingu maksumuse maksimaalne protsendimäär, mille ulatuses töövõtja võib sõlmida allhankelepingud</entry>
 <entry key="business-term|name|BT-730">Allhanke maksumus on teada</entry>

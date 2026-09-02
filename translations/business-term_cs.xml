@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Název města místa plnění.</entry>
 <entry key="business-term|description|BT-514">Země fyzické adresy organizace.</entry>
 <entry key="business-term|description|BT-5141">Země místa plnění.</entry>
-<entry key="business-term|description|BT-52">Řízení probíhá v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni.</entry>
+<entry key="business-term|description|BT-52">Řízení bude probíhat v postupných fázích. Po druhé fázi mohou být v každé následující fázi někteří účastníci vyloučeni.</entry>
 <entry key="business-term|description|BT-53">Kupující si vyhrazuje právo (není povinné) zadat zhotoviteli, dodavateli nebo poskytovateli další zakázky (po dobu platnosti zakázky).</entry>
 <entry key="business-term|description|BT-531">Povaha předmětu zakázky (např. služeb), která doplňuje hlavní povahu.</entry>
 <entry key="business-term|description|BT-536">(Odhadované) datum zahájení zakázky, rámcové dohody, dynamického nákupního systému nebo systému kvalifikace.</entry>
@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Výjimka z uplatnění opatření IPI</entry>
 <entry key="business-term|description|BT-688">Popis a odůvodnění uplatnění převažujících důvodů týkajících se veřejného zájmu</entry>
 <entry key="business-term|description|BT-70">Hlavní informace o plnění zakázky (např. průběžné výstupy, náhrada škody, práva duševního vlastnictví).</entry>
-<entry key="business-term|description|BT-701">Identifikátor oznámení v rámci evropského postupu zadávání veřejných zakázek. Uvedení tohoto identifikátoru ve všech uveřejňovaných verzích daného oznámení (např. v TED, na celostátních nebo regionálních portálech pro uveřejňování) umožňuje jedinečnou identifikaci oznámení týkajících se zadávacích řízení v rámci Unie.</entry>
+<entry key="business-term|description|BT-701">Identifikátor evropského oznámení o veřejné zakázce pro toto oznámení.</entry>
 <entry key="business-term|description|BT-702">Jazyk nebo jazyky, v nichž je toto oznámení oficiálně dostupné. Daná jazyková znění jsou z právního hlediska rovnocenná.</entry>
 <entry key="business-term|description|BT-706">Státní příslušnost (nebo příslušnosti) skutečného majitele (skutečných majitelů) vítěze, uchazeče nebo subdodavatele, jak je uvedeno v rejstříku nebo rejstřících zřízených směrnicí Evropského parlamentu a Rady (EU) 2018/843. Pokud takový rejstřík neexistuje (např. v případě zhotovitelů, dodavatelů nebo poskytovatelů usazených mimo Unii), uvedou se obdobné informace z jiných zdrojů.</entry>
 <entry key="business-term|description|BT-707">Odůvodnění pro omezení přístupu k určité zadávací dokumentaci.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Elektronická komunikace vyžaduje použití nástrojů a zařízení, které nejsou běžně dostupné.</entry>
 <entry key="business-term|description|BT-725">Počet těžkých vozidel s nulovými emisemi, jež odpovídají definici uvedené ve směrnici 2009/33/ES a spadají do její působnosti. Daná vozidla jsou předmětem zakázky na nákup, leasing, pronájem, nákup na splátky nebo je jejich využívání předmětem smluvního závazku na poskytování zakoupené služby spadající do působnosti směrnice 2009/33/ES.</entry>
 <entry key="business-term|description|BT-726">Kupující zdůrazňuje, že daná zakázka je vhodná i pro malé a střední podniky.</entry>
-<entry key="business-term|description|BT-727">Místo plnění může být dále vymezeno (např. „kdekoli v Evropském hospodářském prostoru“, „kdekoli v dané zemi“).</entry>
+<entry key="business-term|description|BT-727">Pokud místo plnění nebo dodání není omezeno na konkrétní adresu nebo region, lze je vymezit širším zeměpisným rozsahem.</entry>
 <entry key="business-term|description|BT-728">Další informace o místě plnění.</entry>
 <entry key="business-term|description|BT-729">Maximální procentní podíl hodnoty zakázky, který zhotovitel, dodavatel nebo poskytovatel musí zadat třetí osobě prostřednictvím zadávacího řízení popsaného v hlavě III směrnice 2009/81/ES.</entry>
 <entry key="business-term|description|BT-730">Kupujícímu je známa alespoň odhadovaná hodnota části zakázky, kterou zhotovitel, dodavatel nebo poskytovatel zadá třetím stranám.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Další informace o dohodě o zachování mlčenlivosti.</entry>
 <entry key="business-term|description|BT-803">Datum a čas, kdy eSender oznámení elektronicky předal Úřadu pro publikace Evropské unie.</entry>
 <entry key="business-term|description|BT-805">Zadávací řízení zahrnuje použití zavedených kritérií zelených veřejných zakázek (kritéria pro výběr, technické specifikace, kritéria pro zadání a ustanovení o plnění smlouvy) na vnitrostátní, unijní či jiné úrovni, pokud existují.</entry>
-<entry key="business-term|description|BT-806">Jsou-li důvody pro vyloučení popsány, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
+<entry key="business-term|description|BT-806">Jsou-li důvody pro vyloučení popsány, například v zadávací dokumentaci, v oznámení nebo v ESPD žádost.</entry>
 <entry key="business-term|description|BT-809">Kritérium výběru</entry>
 <entry key="business-term|description|BT-810">Směrnice o energetické účinnosti (EU) 2023/1791 se vztahuje na toto zadávací řízení.</entry>
 <entry key="business-term|description|BT-811">Výběr výrobků, stavebních prací a služeb, na něž se vztahuje směrnice o energetických štítcích, směrnice o ekodesignu, kritéria Unie pro zelené veřejné zakázky, nařízení 2020/740. Pro účely podávání zpráv se zahrnují i budovy, na něž se vztahuje povinnost podle článku 7 směrnice o energetické účinnosti. Vzhledem k tomu, že seznam má dvě úrovně, je rozdělen na a) základ jako „ekoznačka“ a b) vlastní položku jako „myčky nádobí“.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Hodnota spotřeby energie v kWh/rok pro výrobky, pro které neexistuje štítek, a úspory energie v kWh/rok pro služby, budovy nebo práce. Pro výrobky prosím nahláste roční spotřebu energie výrobku. Pro služby, práce a budovy prosím nahláste roční úspory energie.</entry>
 <entry key="business-term|description|BT-814">Hodnota úspor energie v kWh/rok u výrobků, služeb, stavebních prací a budov. Uveďte roční úspory energie.</entry>
 <entry key="business-term|description|BT-815">Poskytnuté nebo odhadované množství. V případě produktů uveďte počet produktů. V případě budov uveďte užitnou podlahovou plochu v metrech čtverečních. Pro stavební práce nebo služby bude hodnota obvykle 1.</entry>
-<entry key="business-term|description|BT-821">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD</entry>
+<entry key="business-term|description|BT-821">Jsou-li kritéria výběru definována, například v zadávací dokumentaci, v oznámení nebo v ESPD žádost.</entry>
 <entry key="business-term|description|BT-88">Hlavní rysy řízení (např. popis jednotlivých fází) a informace, kde lze nalézt úplné znění pravidel. Tyto informace se uvedou, jedná-li se o řízení, které není uvedeno ve směrnicích o zadávání veřejných zakázek. Jedná se například o koncese na sociální a jiné specifické služby a případy dobrovolného uveřejnění zadávacích řízení nedosahujících finančních limitů EU pro veřejné zakázky.</entry>
 <entry key="business-term|description|BT-92">Budou používány elektronické objednávky.</entry>
 <entry key="business-term|description|BT-93">Bude použita elektronická platba</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metoda použitá pro výpočet odhadované hodnoty koncese</entry>
 <entry key="business-term|name|BT-165">Velikost hospodářského subjektu</entry>
 <entry key="business-term|name|BT-17">Elektronické podání</entry>
-<entry key="business-term|name|BT-171">Řazení na seznamu vítězů</entry>
+<entry key="business-term|name|BT-171">Pořadí nabídky</entry>
 <entry key="business-term|name|BT-1711">Nabídka byla hodnocena</entry>
 <entry key="business-term|name|BT-18">Adresa pro podání</entry>
 <entry key="business-term|name|BT-19">Odůvodnění, proč elektronické podání není možné</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Obec</entry>
 <entry key="business-term|name|BT-514">Země</entry>
 <entry key="business-term|name|BT-5141">Země</entry>
-<entry key="business-term|name|BT-52">Řízení proběhne v několika na sebe navazujících fázích. V každé fázi mohou být určití účastníci vyřazeni</entry>
+<entry key="business-term|name|BT-52">Řízení bude probíhat v postupných fázích. Po druhé fázi mohou být v každé následující fázi někteří účastníci vyloučeni.</entry>
 <entry key="business-term|name|BT-53">Možnosti</entry>
 <entry key="business-term|name|BT-531">Další charakteristika zakázky</entry>
 <entry key="business-term|name|BT-536">Datum zahájení</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Výjimka z uplatnění opatření IPI</entry>
 <entry key="business-term|name|BT-688">Převažující důvody týkající se veřejného zájmu</entry>
 <entry key="business-term|name|BT-70">Podmínky týkající se plnění zakázky</entry>
-<entry key="business-term|name|BT-701">Identifikátor oznámení/verze</entry>
+<entry key="business-term|name|BT-701">Identifikátor oznámení</entry>
 <entry key="business-term|name|BT-702">Jazyky, v nichž je toto oznámení oficiálně k dispozici</entry>
 <entry key="business-term|name|BT-706">Státní příslušnost majitele</entry>
 <entry key="business-term|name|BT-707">Odůvodnění omezení přístupu k některým částem zadávací dokumentace</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Používá se komunikační nástroj ad hoc</entry>
 <entry key="business-term|name|BT-725">Počet těžkých vozidel s nulovými emisemi</entry>
 <entry key="business-term|name|BT-726">Tato zakázka je vhodná i pro malé a střední podniky</entry>
-<entry key="business-term|name|BT-727">Další omezení týkající se místa plnění</entry>
+<entry key="business-term|name|BT-727">Místo plnění – Zeměpisný rozsah</entry>
 <entry key="business-term|name|BT-728">Další informace</entry>
 <entry key="business-term|name|BT-729">Maximální procentní podíl hodnoty zakázky, který může dodavatel/poskytovatel zadat subdodavateli</entry>
 <entry key="business-term|name|BT-730">Hodnota subdodávky je známa</entry>

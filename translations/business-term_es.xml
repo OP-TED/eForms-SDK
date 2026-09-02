@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">El nombre de la localidad (ciudad o pueblo) del lugar de ejecución.</entry>
 <entry key="business-term|description|BT-514">El país de la dirección física de la organización.</entry>
 <entry key="business-term|description|BT-5141">El país del lugar de ejecución.</entry>
-<entry key="business-term|description|BT-52">El procedimiento se desarrollará en fases sucesivas. En cada fase pueden eliminarse algunos participantes.</entry>
+<entry key="business-term|description|BT-52">El procedimiento se llevará a cabo en etapas sucesivas. Después de la segunda etapa, algunos participantes pueden ser eliminados en cada etapa siguiente.</entry>
 <entry key="business-term|description|BT-53">El comprador se reserva el derecho (no es una obligación) de compras adicionales al contratista (mientras que el contrato sea válido).</entry>
 <entry key="business-term|description|BT-531">Otra naturaleza (por ejemplo, servicios) de lo que se compra, aparte de la naturaleza principal.</entry>
 <entry key="business-term|description|BT-536">La fecha (estimada) en la que se inicia el contrato, acuerdo marco, sistema dinámico de adquisición o sistema de calificación.</entry>
@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Excepción a la aplicación de la medida IPI</entry>
 <entry key="business-term|description|BT-688">Una descripción y justificación para la aplicación de razones imperiosas de interés público</entry>
 <entry key="business-term|description|BT-70">La principal información sobre la ejecución del contrato (por ejemplo, prestaciones intermedias, indemnización por daños, derechos de propiedad intelectual e industrial).</entry>
-<entry key="business-term|description|BT-701">El identificador de anuncio de contratación pública europeo correspondiente a este anuncio. La inclusión de este identificador en todas las versiones publicadas de este anuncio (por ejemplo, en TED o en los portales nacionales o regionales de publicación) permite una identificación única de los anuncios de contratación en toda la Unión.</entry>
+<entry key="business-term|description|BT-701">Identificador del anuncio europeo de contratación pública de este anuncio.</entry>
 <entry key="business-term|description|BT-702">La lengua o lenguas en que este anuncio está oficialmente disponible. Estas versiones lingüísticas tienen la misma validez jurídica.</entry>
 <entry key="business-term|description|BT-706">La nacionalidad o nacionalidades del titular real o titulares reales del ganador, el licitador o el subcontratista, publicadas en los registros establecidos por la Directiva (UE) 2018/843 del Parlamento Europeo y del Consejo. Si no existe tal registro (por ejemplo, en caso de contratistas establecidos fuera de la UE), información equivalente procedente de otras fuentes.</entry>
 <entry key="business-term|description|BT-707">La justificación para restringir el acceso a determinados documentos de contratación.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">La comunicación electrónica exige el uso de herramientas y dispositivos que no están disponibles generalmente.</entry>
 <entry key="business-term|description|BT-725">El número total de vehículos pesados de emisión cero según la definición de la Directiva 2009/33/CE e incluidos en su ámbito de aplicación. Estos vehículos han sido objeto de compra, arrendamiento financiero, alquiler o alquiler con opción de compra o comprometidos por contrato para la prestación de un servicio adquirido que entra en el ámbito de aplicación de la Directiva 2009/33/CE.</entry>
 <entry key="business-term|description|BT-726">El comprador hace hincapié en que esta contratación es también adecuada para las pequeñas y medianas empresas (pymes).</entry>
-<entry key="business-term|description|BT-727">Existen otras restricciones sobre el lugar de ejecución (por ejemplo, «en cualquier lugar del Espacio Económico Europeo», «en cualquier lugar de un país dado»).</entry>
+<entry key="business-term|description|BT-727">Cuando el lugar de ejecución o entrega no esté limitado a una dirección o región específica, podrá definirse con un ámbito geográfico más amplio.</entry>
 <entry key="business-term|description|BT-728">Información adicional sobre el lugar de ejecución.</entry>
 <entry key="business-term|description|BT-729">El porcentaje máximo del valor del contrato que el contratista debe subcontratar mediante el procedimiento competitivo descrito en el título III de la Directiva 2009/81/CE.</entry>
 <entry key="business-term|description|BT-730">El comprador conoce al menos el valor estimado de la parte del contrato que el contratista subcontratará a terceros.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Información adicional sobre el acuerdo de confidencialidad.</entry>
 <entry key="business-term|description|BT-803">La fecha y la hora en que el eSender transmitió electrónicamente el anuncio a la Oficina de Publicaciones de la Unión Europea.</entry>
 <entry key="business-term|description|BT-805">El procedimiento de contratación pública incluye el uso de criterios establecidos en materia de contratación pública verde (criterios de selección, especificaciones técnicas, criterios de adjudicación y cláusulas relativas a la ejecución del contrato) a nivel nacional o de la Unión, o a otro nivel, en su caso.</entry>
-<entry key="business-term|description|BT-806">Dónde se describen las causas de exclusión, por ejemplo, los documentos de contratación, el anuncio o el documento europeo único de contratación</entry>
+<entry key="business-term|description|BT-806">Dónde se describen las causas de exclusión, por ejemplo, los documentos de contratación, el anuncio o el documento europeo único de contratación solicitud.</entry>
 <entry key="business-term|description|BT-809">El criterio de selección.</entry>
 <entry key="business-term|description|BT-810">La Directiva (UE) 2023/1791 sobre eficiencia energética es aplicable a este procedimiento de contratación.</entry>
 <entry key="business-term|description|BT-811">Selección de productos, obras y servicios en el ámbito de la Directiva sobre etiquetado energético, la Directiva sobre diseño ecológico, los criterios de la Unión sobre contratación pública ecológica y el Reglamento 2020/740. A efectos de la presentación de información, también se incluyen los edificios a los que se aplica la obligación establecida en el artículo 7 de la DEE. Dado que la lista tiene dos niveles, se divide en a) la base, por ejemplo, «etiqueta ecológica», y b) el artículo propiamente dicho, por ejemplo, «lavavajillas».</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">El valor del consumo de energía en kWh/año para productos para los que no existe etiqueta, y ahorros de energía en kWh/año para servicios, edificios o trabajos. Para productos, por favor informe el consumo de energía anual del producto. Para servicios, trabajos y edificios, por favor informe los ahorros de energía anuales.</entry>
 <entry key="business-term|description|BT-814">El valor del ahorro de energía en kWh/año en relación con los productos, los servicios, las obras y los edificios. Indique el ahorro anual de energía.</entry>
 <entry key="business-term|description|BT-815">La cantidad facilitada o estimada. En el caso de los productos, indique el número de estos. En el caso de los edificios, indique la superficie útil en metros cuadrados. En el caso de las obras o los servicios, el valor generalmente será 1.</entry>
-<entry key="business-term|description|BT-821">Dónde se definen los criterios de selección, por ejemplo, los documentos de contratación, el anuncio o el documento europeo único de contratación</entry>
+<entry key="business-term|description|BT-821">Dónde se definen los criterios de selección, por ejemplo, los documentos de contratación, el anuncio o el documento europeo único de contratación solicitud.</entry>
 <entry key="business-term|description|BT-88">Las principales características del procedimiento (por ejemplo, descripción de las diferentes fases) e información sobre dónde puede encontrarse la totalidad de las normas del procedimiento. Esta información se facilitará cuando el procedimiento no sea uno de los mencionados en las Directivas sobre contratación. Puede ser el caso, por ejemplo, de las concesiones, los servicios sociales y otros servicios específicos, y la publicación voluntaria de los procedimientos de contratación por debajo de los umbrales de contratación de la UE.</entry>
 <entry key="business-term|description|BT-92">Se utilizarán pedidos electrónicos.</entry>
 <entry key="business-term|description|BT-93">Se utilizará el pago electrónico.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Método utilizado para calcular el valor estimado de la concesión</entry>
 <entry key="business-term|name|BT-165">Tamaño del operador económico</entry>
 <entry key="business-term|name|BT-17">Presentación electrónica</entry>
-<entry key="business-term|name|BT-171">Clasificación en la lista de ganadores</entry>
+<entry key="business-term|name|BT-171">Clasificación de la oferta</entry>
 <entry key="business-term|name|BT-1711">La oferta se ha posicionado</entry>
 <entry key="business-term|name|BT-18">Dirección para la presentación</entry>
 <entry key="business-term|name|BT-19">Justificación de por qué no es posible la presentación electrónica</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Localidad</entry>
 <entry key="business-term|name|BT-514">País</entry>
 <entry key="business-term|name|BT-5141">País</entry>
-<entry key="business-term|name|BT-52">El procedimiento se desarrollará en fases sucesivas. En cada fase, pueden eliminarse algunos participantes</entry>
+<entry key="business-term|name|BT-52">El procedimiento se llevará a cabo en etapas sucesivas. Después de la segunda etapa, algunos participantes pueden ser eliminados en cada etapa siguiente.</entry>
 <entry key="business-term|name|BT-53">Opciones</entry>
 <entry key="business-term|name|BT-531">Naturaleza complementaria del contrato</entry>
 <entry key="business-term|name|BT-536">Fecha de inicio</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Excepción a la aplicación de la medida IPI</entry>
 <entry key="business-term|name|BT-688">Razones imperiosas de interés público</entry>
 <entry key="business-term|name|BT-70">Condiciones relativas a la ejecución del contrato</entry>
-<entry key="business-term|name|BT-701">Identificador/versión del anuncio</entry>
+<entry key="business-term|name|BT-701">Identificador del anuncio</entry>
 <entry key="business-term|name|BT-702">Lenguas en las que este anuncio está disponible oficialmente</entry>
 <entry key="business-term|name|BT-706">Nacionalidad del titular</entry>
 <entry key="business-term|name|BT-707">Justificación de la restricción del acceso a determinados pliegos de contratación</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Se utiliza una herramienta de comunicación ad hoc</entry>
 <entry key="business-term|name|BT-725">Número de vehículos pesados de emisión cero</entry>
 <entry key="business-term|name|BT-726">Esta contratación también es adecuada para las pequeñas y medianas empresas (pymes)</entry>
-<entry key="business-term|name|BT-727">Otras restricciones del lugar de ejecución</entry>
+<entry key="business-term|name|BT-727">Lugar de ejecución – Ámbito geográfico</entry>
 <entry key="business-term|name|BT-728">Información complementaria</entry>
 <entry key="business-term|name|BT-729">Porcentaje máximo del valor del contrato que el contratista puede subcontratar</entry>
 <entry key="business-term|name|BT-730">Se conoce el valor de la subcontratación</entry>

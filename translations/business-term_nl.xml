@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">De plaatsnaam (naam van stad, gemeente of dorp) van de plaats van uitvoering.</entry>
 <entry key="business-term|description|BT-514">Het land van het fysieke adres van de organisatie.</entry>
 <entry key="business-term|description|BT-5141">De landcode van de plaats van uitvoering.</entry>
-<entry key="business-term|description|BT-52">De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen.</entry>
+<entry key="business-term|description|BT-52">De procedure zal in opeenvolgende fasen plaatsvinden. Na de tweede fase kunnen in elke volgende fase enkele deelnemers worden geëlimineerd.</entry>
 <entry key="business-term|description|BT-53">De koper behoudt zich het recht voor (zonder verplichting) om extra aankopen te doen bij de contractant (tijdens de looptijd van de overeenkomst).</entry>
 <entry key="business-term|description|BT-531">De bijkomende aard van wat wordt aangekocht in aanvulling op de voornaamste aard (bv. diensten).</entry>
 <entry key="business-term|description|BT-536">De (vermoedelijke) datum waarop het contract, de raamovereenkomst, het dynamisch aankoopsysteem of de erkenningsregeling van start zal gaan.</entry>
@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Uitzondering op de toepassing van de IPI-maatregel</entry>
 <entry key="business-term|description|BT-688">Een beschrijving en rechtvaardiging voor de toepassing van doorslaggevende redenen met betrekking tot het openbaar belang</entry>
 <entry key="business-term|description|BT-70">De belangrijkste informatie over de uitvoering van de opdracht (bv. tussentijdse prestaties, schadevergoeding, intellectuele-eigendomsrechten).</entry>
-<entry key="business-term|description|BT-701">De Europese identificatiecode voor overheidsopdrachten (European Public Procurement Notice Identifier) van deze aankondiging. Vermelding van deze identificatiecode in alle gepubliceerde versies van deze aankondiging (bv. op TED of op nationale en regionale publicatieportalen) maakt de eenduidige identificatie van aanbestedingsaankondigingen in de hele Unie mogelijk.</entry>
+<entry key="business-term|description|BT-701">Identificatiecode van de Europese aankondiging van deze overheidsopdracht.</entry>
 <entry key="business-term|description|BT-702">De taal of talen waarin deze aankondiging officieel beschikbaar is. Deze taalversies zijn alle in gelijke mate rechtsgeldig.</entry>
 <entry key="business-term|description|BT-706">De nationaliteit (of nationaliteiten) van de begunstigde eigenaar(s) van de winnaar, inschrijver of onderaannemer, zoals bekendgemaakt in het/de bij Richtlijn (EU) 2018/843 van het Europees Parlement en de Raad vastgestelde register(s). Als een dergelijk register niet bestaat (bv. wanneer contractanten buiten de EU gevestigd zijn), dan gelijkwaardige informatie uit andere bronnen.</entry>
 <entry key="business-term|description|BT-707">De rechtvaardiging voor het beperken van de toegang tot bepaalde aanbestedingsstukken.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Voor de elektronische communicatie moet worden gebruikgemaakt van instrumenten en middelen die niet algemeen beschikbaar zijn.</entry>
 <entry key="business-term|description|BT-725">Het aantal emissievrije zware bedrijfsvoertuigen, zoals omschreven in Richtlijn 2009/33/EG en vallend binnen de werkingssfeer van die richtlijn. Deze voertuigen zijn ofwel gekocht, geleased, gehuurd of in huurkoop aangeschaft, of het gebruik ervan is contractueel vastgelegd voor het leveren van een ingekochte dienst die binnen de werkingssfeer van Richtlijn 2009/33/EG valt.</entry>
 <entry key="business-term|description|BT-726">De koper benadrukt dat deze aanbesteding ook geschikt is voor kleine en middelgrote ondernemingen (kmo’s).</entry>
-<entry key="business-term|description|BT-727">Er zijn andere beperkingen op de plaats van uitvoering (bv. “overal in de Europese Economische Ruimte”, “overal in het desbetreffende land”).</entry>
+<entry key="business-term|description|BT-727">Wanneer de plaats van uitvoering of levering niet beperkt is tot een specifiek adres of een specifieke regio, kan deze worden gedefinieerd met een ruimer geografisch bereik.</entry>
 <entry key="business-term|description|BT-728">Nadere inlichtingen over de plaats van uitvoering.</entry>
 <entry key="business-term|description|BT-729">Het maximumpercentage van de waarde van de opdracht dat de contractant aan de hand van de in titel III van Richtlijn 2009/81/EG beschreven procedure met mededinging in onderaanneming moet geven.</entry>
 <entry key="business-term|description|BT-730">De koper kent ten minste de geraamde waarde van het deel van de opdracht dat de contractant aan derden in onderaanneming zal geven.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Nadere inlichtingen over de geheimhoudingsovereenkomst.</entry>
 <entry key="business-term|description|BT-803">De datum en het tijdstip waarop de aankondiging door de eSender langs elektronische weg naar het Bureau voor publicaties van de Europese Unie is verzonden.</entry>
 <entry key="business-term|description|BT-805">De aanbestedingsprocedure maakt gebruik van op nationaal, Unie- of een ander niveau vastgestelde criteria voor groene overheidsopdrachten (selectiecriteria, technische specificaties, gunningscriteria en uitvoeringsclausules), indien van toepassing.</entry>
-<entry key="business-term|description|BT-806">Plaats waar de uitsluitingsgronden zijn beschreven, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument.</entry>
+<entry key="business-term|description|BT-806">Plaats waar de uitsluitingsgronden zijn beschreven, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument verzoek.</entry>
 <entry key="business-term|description|BT-809">Het selectiecriterium.</entry>
 <entry key="business-term|description|BT-810">Richtlijn (EU) 2023/1791 betreffende energie-efficiëntie (EED) is op deze aanbestedingsprocedure van toepassing.</entry>
 <entry key="business-term|description|BT-811">Keuze aan producten, werken en diensten die vallen onder de richtlijn energie-etikettering, onder de richtlijn inzake ecologisch ontwerp, onder de EU-criteria voor groene overheidsopdrachten en onder Verordening (EU) 2020/740. Voor de rapportage wordt ook rekening gehouden met gebouwen die onder de verplichting van artikel 7 van de richtlijn energie-efficiëntie vallen. Omdat de lijst twee niveaus heeft, wordt deze opgesplitst in a) de basis, bv.“Eco-label”, en b) het eigenlijke item, bv. “vaatwassers”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">De waarde van het energieverbruik in kWh/jaar voor producten waarvoor geen label bestaat, en energiebesparingen in kWh/jaar voor diensten, gebouwen of werken. Voor producten gelieve het jaarlijks energieverbruik van het product te rapporteren. Voor diensten, werken en gebouwen gelieve de jaarlijkse energiebesparingen te rapporteren.</entry>
 <entry key="business-term|description|BT-814">De waarde van de energiebesparingen in kWh/jaar voor producten, diensten, werken en gebouwen. Rapporteer de jaarlijkse energiebesparingen.</entry>
 <entry key="business-term|description|BT-815">De verstrekte of geraamde hoeveelheid. Vermeld voor producten het aantal producten. Vermeld voor gebouwen het bruikbare vloeroppervlak in vierkante meter. Voor werken of diensten zal de waarde meestal 1 zijn.</entry>
-<entry key="business-term|description|BT-821">Plaats waar de selectiecriteria zijn gedefinieerd, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument.</entry>
+<entry key="business-term|description|BT-821">Plaats waar de selectiecriteria zijn gedefinieerd, bijvoorbeeld in de aanbestedingsstukken, in de aankondiging of in het Uniform Europees Aanbestedingsdocument verzoek.</entry>
 <entry key="business-term|description|BT-88">De belangrijkste kenmerken van de procedure (bv. beschrijving van de afzonderlijke fase(n)) en informatie over de plaats waar de volledige regels voor de procedure te vinden zijn. Deze informatie moet worden verstrekt wanneer de procedure niet één van de procedures uit de richtlijnen inzake overheidsopdrachten is. Dit kan bijvoorbeeld het geval zijn voor concessies, voor sociale en andere specifieke diensten, en in geval van vrijwillige bekendmaking van aanbestedingsprocedures met een waarde onder de EU-drempelwaarden voor overheidsopdrachten.</entry>
 <entry key="business-term|description|BT-92">Er zal worden gebruikgemaakt van elektronische orderplaatsing.</entry>
 <entry key="business-term|description|BT-93">Er zal worden gebruikgemaakt van elektronische betaling.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Voor de berekening van de geraamde waarde van de concessie gebruikte methode</entry>
 <entry key="business-term|name|BT-165">Omvang van de ondernemer</entry>
 <entry key="business-term|name|BT-17">Elektronische indiening</entry>
-<entry key="business-term|name|BT-171">Plaats op de ranglijst van winnaars</entry>
+<entry key="business-term|name|BT-171">Rang van de inschrijving</entry>
 <entry key="business-term|name|BT-1711">De inschrijving is gerangschikt</entry>
 <entry key="business-term|name|BT-18">Adres voor indiening</entry>
 <entry key="business-term|name|BT-19">Rechtvaardiging waarom elektronische indiening niet mogelijk is</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Stad</entry>
 <entry key="business-term|name|BT-514">Land</entry>
 <entry key="business-term|name|BT-5141">Land</entry>
-<entry key="business-term|name|BT-52">De procedure verloopt in opeenvolgende fasen. In elke fase kunnen deelnemers afvallen</entry>
+<entry key="business-term|name|BT-52">De procedure zal in opeenvolgende fasen plaatsvinden. Na de tweede fase kunnen in elke volgende fase enkele deelnemers worden geëlimineerd.</entry>
 <entry key="business-term|name|BT-53">Opties</entry>
 <entry key="business-term|name|BT-531">Aanvullende aard van het contract</entry>
 <entry key="business-term|name|BT-536">Begindatum</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Uitzondering op de toepassing van de IPI-maatregel</entry>
 <entry key="business-term|name|BT-688">Doorslaggevende redenen met betrekking tot het openbaar belang</entry>
 <entry key="business-term|name|BT-70">Voorwaarden met betrekking tot de uitvoering van de opdracht</entry>
-<entry key="business-term|name|BT-701">Identificatiecode/versie van de aankondiging</entry>
+<entry key="business-term|name|BT-701">Identificatiecode van de aankondiging</entry>
 <entry key="business-term|name|BT-702">Talen waarin deze aankondiging officieel beschikbaar is</entry>
 <entry key="business-term|name|BT-706">Nationaliteit van de eigenaar</entry>
 <entry key="business-term|name|BT-707">Rechtvaardiging voor het beperken van de toegang tot bepaalde aanbestedingsstukken</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Er wordt gebruikgemaakt van een ad-hoc-communicatietool</entry>
 <entry key="business-term|name|BT-725">Aantal emissievrije zware bedrijfsvoertuigen</entry>
 <entry key="business-term|name|BT-726">Deze aanbesteding is ook geschikt voor kleine en middelgrote ondernemingen (kmo’s)</entry>
-<entry key="business-term|name|BT-727">Andere beperkingen op de plaats van uitvoering</entry>
+<entry key="business-term|name|BT-727">Plaats van uitvoering – Geografisch bereik</entry>
 <entry key="business-term|name|BT-728">Aanvullende informatie</entry>
 <entry key="business-term|name|BT-729">Maximumpercentage van de waarde van de opdracht dat de contractant in onderaanneming mag geven</entry>
 <entry key="business-term|name|BT-730">Waarde onderaanneming is bekend</entry>

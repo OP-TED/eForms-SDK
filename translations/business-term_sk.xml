@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Názov lokality (mesta alebo obce) miesta plnenia.</entry>
 <entry key="business-term|description|BT-514">Krajina fyzickej adresy organizácie.</entry>
 <entry key="business-term|description|BT-5141">Krajina miesta plnenia.</entry>
-<entry key="business-term|description|BT-52">Postup prebieha v po sebe nasledujúcich fázach. V každej fáze môžu byť niektorí účastníci vylúčení.</entry>
+<entry key="business-term|description|BT-52">Postup sa uskutoční v postupných fázach. Po druhej fáze môžu byť v každej nasledujúcej fáze niektorí účastníci vylúčení.</entry>
 <entry key="business-term|description|BT-53">Kupujúci si vyhradzuje právo (nie povinnosť) zadať dodávateľovi ďalšie zákazky (počas platnosti zmluvy).</entry>
 <entry key="business-term|description|BT-531">Povaha predmetu zákazky (napr. práce), ktorá dopĺňa hlavnú povahu.</entry>
 <entry key="business-term|description|BT-536">Dátum (predpokladaný) začiatku platnosti zmluvy, rámcovej dohody, dynamického nákupného systému alebo kvalifikačného systému.</entry>
@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Výnimka z uplatnenia opatrenia IPI</entry>
 <entry key="business-term|description|BT-688">Popis a odôvodnenie uplatnenia prevažujúcich dôvodov súvisiacich s verejným záujmom</entry>
 <entry key="business-term|description|BT-70">Hlavné informácie o plnení zmluvy (napr. priebežné výstupy, náhrada škody, práva duševného vlastníctva).</entry>
-<entry key="business-term|description|BT-701">Európsky identifikátor postupu verejného obstarávania tohto oznámenia. Uvedenie tohto identifikátora vo všetkých uverejnených verziách tohto oznámenia (napr. v databáze TED, vnútroštátnych/regionálnych portáloch na uverejňovanie oznámení) umožňuje jednoznačnú identifikáciu oznámení o verejných obstarávaniach v celej Únii.</entry>
+<entry key="business-term|description|BT-701">Identifikátor európskeho oznámenia o verejnom obstarávaní pre toto oznámenie.</entry>
 <entry key="business-term|description|BT-702">Jazyk(-y), v ktorom(-ých) je toto oznámenie oficiálne k dispozícii. Tieto jazykové verzie majú rovnakú právnu platnosť.</entry>
 <entry key="business-term|description|BT-706">Štátna príslušnosť (alebo štátne príslušnosti) oprávneného(-ých) konečného(-ých) užívateľa(-ov) výhod víťaza, uchádzača alebo subdodávateľa, ako je uverejnená v registri(-och) zriadenom(-ých) podľa smernice Európskeho parlamentu a Rady (EÚ) 2018/843. Ak takýto register neexistuje (napr. v prípade dodávateľov usadených mimo EÚ), uvedú sa rovnocenné informácie z iných zdrojov.</entry>
 <entry key="business-term|description|BT-707">Odôvodnenie obmedzeného prístupu k niektorým súťažným podkladom.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Elektronická komunikácia si vyžaduje použitie nástrojov a zariadení, ktoré nie sú všeobecne dostupné.</entry>
 <entry key="business-term|description|BT-725">Počet ťažkých úžitkových vozidiel s nulovými emisiami v zmysle smernice 2009/33/ES, ktoré patria do rozsahu pôsobnosti danej smernice. Tieto vozidlá sú buď predmetom nákupu, lízingu, prenájmu, nákupu na splátky alebo ich využívanie je predmetom zmluvného záväzku na účely poskytovania nakúpenej služby patriacej do rozsahu pôsobnosti smernice 2009/33/ES.</entry>
 <entry key="business-term|description|BT-726">Kupujúci zdôrazňuje, že dané verejné obstarávanie je vhodné aj pre malé a stredné podniky (MSP).</entry>
-<entry key="business-term|description|BT-727">Na miesto plnenia sa vzťahujú ďalšie obmedzenia (napr. „kdekoľvek v Európskom hospodárskom priestore“, „kdekoľvek v danej krajine“).</entry>
+<entry key="business-term|description|BT-727">Ak miesto plnenia alebo dodania nie je obmedzené na konkrétnu adresu alebo región, možno ho vymedziť širším geografickým rozsahom.</entry>
 <entry key="business-term|description|BT-728">Doplňujúce informácie o mieste plnenia.</entry>
 <entry key="business-term|description|BT-729">Maximálny percentuálny podiel hodnoty zákazky, ktorý musí dodávateľ zadať subdodávateľom prostredníctvom súťažného postupu opísaného v hlave III smernice 2009/81/ES.</entry>
 <entry key="business-term|description|BT-730">Kupujúci pozná aspoň predpokladanú hodnotu časti zákazky, ktorú dodávateľ zadá tretím stranám.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Doplňujúce informácie o dohode o nezverejňovaní informácií.</entry>
 <entry key="business-term|description|BT-803">Dátum a čas zaslania oznámenia elektronicky cez eSender pre Úrad pre vydávanie publikácií Európskej únie</entry>
 <entry key="business-term|description|BT-805">Postup verejného obstarávania zahŕňa používanie stanovených kritérií zeleného verejného obstarávania (kritériá výberu, technické špecifikácie, kritériá na vyhodnotenie ponúk a doložky o plnení zákazky) na vnútroštátnej úrovni, úrovni Únie alebo prípadne na inej úrovni.</entry>
-<entry key="business-term|description|BT-806">Informácia o tom, kde sú opísané dôvody na vylúčenie, napríklad súťažné podklady, oznámenie alebo jednotný európsky dokument pre obstarávanie.</entry>
+<entry key="business-term|description|BT-806">Informácia o tom, kde sú opísané dôvody na vylúčenie, napríklad súťažné podklady, oznámenie alebo jednotný európsky dokument pre obstarávanie žiadosť.</entry>
 <entry key="business-term|description|BT-809">Podmienka účasti.</entry>
 <entry key="business-term|description|BT-810">Smernica (EÚ) 2023/1791 o energetickej efektívnosti sa uplatňuje na tento postup verejného obstarávania.</entry>
 <entry key="business-term|description|BT-811">Výber výrobkov, prác a služieb, na ktoré sa vzťahuje smernica o označovaní energetickými štítkami, smernica o ekodizajne, kritériá Únie pre zelené verejné obstarávanie, nariadenie 2020/740. Na účely podávania správ sú zahrnuté aj budovy, na ktoré sa vzťahuje povinnosť uvedená v článku 7 smernice o energetickej efektívnosti Keďže zoznam má dve úrovne, je rozdelený na a) základ ako „environmentálna značka“ a b) samotnú položku ako „umývačky riadu“.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Hodnota spotreby energie v kWh/rok pre výrobky, ktoré nemajú štítok, a úspora energie v kWh/rok pre služby, budovy alebo práce. Pre výrobky prosím uveďte ročnú spotrebu energie výrobku. Pre služby, práce a budovy prosím uveďte ročnú úsporu energie.</entry>
 <entry key="business-term|description|BT-814">Hodnota úspor energie v kWh/rok v prípade výrobkov, služieb, prác a budov. Uveďte ročné úspory energie.</entry>
 <entry key="business-term|description|BT-815">Poskytnuté alebo odhadované množstvo. V prípade výrobkov uveďte počet výrobkov. V prípade budov uveďte úžitkovú plochu v metroch štvorcových. Pre stavebné práce alebo služby bude hodnota zvyčajne 1.</entry>
-<entry key="business-term|description|BT-821">Informácia o tom, kde sú vymedzené podmienky účasti, napríklad súťažné podklady, oznámenie alebo jednotný európsky dokument pre obstarávanie.</entry>
+<entry key="business-term|description|BT-821">Informácia o tom, kde sú vymedzené podmienky účasti, napríklad súťažné podklady, oznámenie alebo jednotný európsky dokument pre obstarávanie žiadosť.</entry>
 <entry key="business-term|description|BT-88">Hlavné charakteristiky postupu (napr. opis jednotlivých fáz) a informácie o tom, kde sú k dispozícii úplné pravidlá pre daný postup. Tieto informácie sa uvedú, keď ide o druh postupu, ktorý nie je jedným z postupov uvedených v smerniciach o verejnom obstarávaní. Môže to byť napríklad v prípade koncesií, sociálnych a iných osobitných služieb, a v prípade dobrovoľného uverejnenia postupov verejného obstarávania s hodnotou nepresahujúcou finančné limity EÚ v oblasti verejného obstarávania.</entry>
 <entry key="business-term|description|BT-92">Bude sa používať elektronické objednávanie.</entry>
 <entry key="business-term|description|BT-93">Bude sa používať elektronická platba.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metóda použitá na výpočet predpokladanej hodnoty koncesie</entry>
 <entry key="business-term|name|BT-165">Veľkosť hospodárskeho subjektu</entry>
 <entry key="business-term|name|BT-17">Elektronické predkladanie</entry>
-<entry key="business-term|name|BT-171">Poradie v zozname víťazov</entry>
+<entry key="business-term|name|BT-171">Poradie ponuky</entry>
 <entry key="business-term|name|BT-1711">Ponuka bola zaradená do poradia</entry>
 <entry key="business-term|name|BT-18">Adresa na predkladanie</entry>
 <entry key="business-term|name|BT-19">Odôvodnenie, prečo nie je možné elektronické predkladanie</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Mesto</entry>
 <entry key="business-term|name|BT-514">Krajina</entry>
 <entry key="business-term|name|BT-5141">Krajina</entry>
-<entry key="business-term|name|BT-52">Postup prebieha v po sebe nasledujúcich fázach. V každej fáze môžu byť niektorí účastníci vylúčení</entry>
+<entry key="business-term|name|BT-52">Postup sa uskutoční v postupných fázach. Po druhej fáze môžu byť v každej nasledujúcej fáze niektorí účastníci vylúčení.</entry>
 <entry key="business-term|name|BT-53">Opcie</entry>
 <entry key="business-term|name|BT-531">Doplňujúci druh zmluvy</entry>
 <entry key="business-term|name|BT-536">Dátum začatia</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Výnimka z uplatnenia opatrenia IPI</entry>
 <entry key="business-term|name|BT-688">Prevažujúce dôvody súvisiace s verejným záujmom</entry>
 <entry key="business-term|name|BT-70">Podmienky týkajúce sa plnenia zmluvy</entry>
-<entry key="business-term|name|BT-701">Identifikátor/verzia oznámenia</entry>
+<entry key="business-term|name|BT-701">Identifikátor oznámenia</entry>
 <entry key="business-term|name|BT-702">Jazyky, v ktorých je toto oznámenie oficiálne k dispozícii</entry>
 <entry key="business-term|name|BT-706">Štátna príslušnosť vlastníka</entry>
 <entry key="business-term|name|BT-707">Odôvodnenie obmedzeného prístupu k určitým súťažným podkladom</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Používa sa ad hoc komunikačný nástroj</entry>
 <entry key="business-term|name|BT-725">Počet ťažkých úžitkových vozidiel s nulovými emisiami</entry>
 <entry key="business-term|name|BT-726">Toto verejné obstarávanie je vhodné aj pre malé a stredné podniky (MSP)</entry>
-<entry key="business-term|name|BT-727">Iné obmedzenia týkajúce sa miesta plnenia</entry>
+<entry key="business-term|name|BT-727">Miesto plnenia – Geografický rozsah</entry>
 <entry key="business-term|name|BT-728">Doplňujúce informácie</entry>
 <entry key="business-term|name|BT-729">Maximálny percentuálny podiel hodnoty zákazky, ktorý môže dodávateľ zadať subdodávateľom</entry>
 <entry key="business-term|name|BT-730">Hodnota subdodávky je známa</entry>

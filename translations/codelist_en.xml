@@ -56,7 +56,7 @@
 <entry key="codelist|name|einvoicing">List of codes to specify whether the use of electronic invoicing is allowed or not.</entry>
 <entry key="codelist|name|energy-efficiency-basis">Legal framework for the items, like Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings</entry>
 <entry key="codelist|name|energy-efficiency-item">Products covered by the Energy Labelling Delegated acts, implementing measures (Directive 2009/125/EC), or Regulation 2020/740; products and services covered by the GPP; works, services or buildings</entry>
-<entry key="codelist|name|energy-efficiency-item-classification">This table provides the list of codes and values used to identify the products, works or services category for their energy efficiency</entry>
+<entry key="codelist|name|energy-efficiency-item-classification">This table provides the list of codes and values used to identify the products, works or services category for their energy efficiency.</entry>
 <entry key="codelist|name|energy-efficiency-label">This table provides the list of codes and values used to specify the energy efficiency of the product</entry>
 <entry key="codelist|name|entity-activity">List of Main Activity codes allowed for a Contracting Entity</entry>
 <entry key="codelist|name|environmental-impact">This table provides the information about whether a procurement includes (and how) an approach to reducing the environmental impacts of the work, supply or service used in the technical specifications, award criteria, selection criteria or contract perfor</entry>
@@ -71,7 +71,7 @@
 <entry key="codelist|name|foreign-subsidy-measure-conclusion">The FSR introduces a new set of rules that enables the Commission to address distortions caused by foreign subsidies.</entry>
 <entry key="codelist|name|form-type">This table provides the codes and values used for the type of forms published on TED.</entry>
 <entry key="codelist|name|framework-agreement">This table provides the list of codes to distinguish the different type framework agreement involved in a tender.</entry>
-<entry key="codelist|name|fsr">List of codes to specify whether the Foreign Subsidies Regulation applies.</entry>
+<entry key="codelist|name|fsr">List of codes to specify whether the Foreign Subsidies Regulation applies</entry>
 <entry key="codelist|name|gpp-criteria">Green Public Procurement Criteria</entry>
 <entry key="codelist|name|indicator">List of eforms allowed indicator values</entry>
 <entry key="codelist|name|innovative-acquisition">This table provides the codes and values used for the type of innovative works, supplies or services being procured within the context of public procurement.</entry>
@@ -136,7 +136,7 @@
 <entry key="codelist|name|linguistic-status">List of codes to specify whether a linguistic version has or not a legal status.</entry>
 <entry key="codelist|name|main-activity">List of codes for the main activities of the buyers.</entry>
 <entry key="codelist|name|measurement-unit">List of codes for the most commonly used Unit of Measures in international trades.</entry>
-<entry key="codelist|name|metric-type">List of codes used to characterize the type of metric covered by the specified numbers. </entry>
+<entry key="codelist|name|metric-type">List of codes used to characterize the type of metric covered by the specified numbers</entry>
 <entry key="codelist|name|missing-info-submission">This table provides the list of codes indicating whether tenderer-related information (complete or partial) can be supplemented even after the submission deadline.</entry>
 <entry key="codelist|name|modification-justification">This table provides the main reasons for modifying a contract within the domain of public procurement.</entry>
 <entry key="codelist|name|nda">List of codes to specify whether a non-disclosure agreement is required.</entry>
@@ -190,6 +190,7 @@
 <entry key="codelist|name|nuts-svn-lvl3">List of level 3 NUTS codes for Slovenia</entry>
 <entry key="codelist|name|nuts-swe-lvl3">List of level 3 NUTS codes for Sweden</entry>
 <entry key="codelist|name|nuts-tur-lvl3">List of level 3 NUTS codes for Turkey</entry>
+<entry key="codelist|name|nuts-ukr-lvl3">List of level 3 NUTS codes for Ukraine</entry>
 <entry key="codelist|name|nuts-xkx-lvl3">List of level 3 NUTS codes for Kosovo</entry>
 <entry key="codelist|name|organisation-role">This table provides the list of the different functions of the organisations in a procurement procedure.</entry>
 <entry key="codelist|name|organisation-role-service">List of possible service codes for Procurement Service Providers</entry>
@@ -273,6 +274,7 @@
 <entry key="codelist|name|tenderlot-presentation">List of codes to specify whether the submission should deal with all the defined lots.</entry>
 <entry key="codelist|name|timeperiod">List of codes for the main timeperiods (seasons, duration units of measure) commonly used in procurement.</entry>
 <entry key="codelist|name|transport-service">This table provides a list of transport services.</entry>
+<entry key="codelist|name|undisclosed-data-group">List of codes specifying groups of Fields to be withheld</entry>
 <entry key="codelist|name|usage">List of codes to indicate whether the associated concept should be used or not.</entry>
 <entry key="codelist|name|veat">List of allowed Notice Subtype codes for a notice of Voluntary ex-ante Transparency Notice Type.</entry>
 <entry key="codelist|name|vehicle-category">The category of vehicle falling within the scope of Directive 2009/33/EC.</entry>

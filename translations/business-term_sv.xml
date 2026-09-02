@@ -173,7 +173,7 @@
 <entry key="business-term|description|BT-5131">Namnet på den ort (stad eller by) där leveransplatsen är belägen.</entry>
 <entry key="business-term|description|BT-514">Landet där organisationen har sin fysiska adress.</entry>
 <entry key="business-term|description|BT-5141">Det land som leveransplatsen är belägen i.</entry>
-<entry key="business-term|description|BT-52">Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas.</entry>
+<entry key="business-term|description|BT-52">Förfarandet kommer att äga rum i successiva steg. Efter det andra steget kan vissa deltagare elimineras i varje följande steg.</entry>
 <entry key="business-term|description|BT-53">Köparen förbehåller sig rätten (som inte är en skyldighet) att göra ytterligare inköp från entreprenören (under kontraktets giltighetstid).</entry>
 <entry key="business-term|description|BT-531">Ytterligare upphandlingsslag (t.ex. tjänster) som upphandlingen omfattar, förutom det huvudsakliga upphandlingsslaget.</entry>
 <entry key="business-term|description|BT-536">(Beräknad) tidpunkt när kontraktet, ramavtalet, det dynamiska inköpssystemet eller kvalificeringssystemet startar.</entry>
@@ -225,7 +225,7 @@
 <entry key="business-term|description|BT-687">Undantag från tillämpningen av IPI-åtgärden</entry>
 <entry key="business-term|description|BT-688">En beskrivning och motivering för tillämpningen av tvingande skäl relaterade till allmänintresset</entry>
 <entry key="business-term|description|BT-70">Den viktigaste informationen om genomförandet av kontraktet (t.ex. delresultat, skadestånd, immateriella rättigheter).</entry>
-<entry key="business-term|description|BT-701">Identifieraren för meddelandet om europeisk offentlig upphandling i detta meddelande. Om denna identifierare anges i alla offentliggjorda versioner av detta meddelande (t.ex. på TED-webbplatsen, nationella portaler, regionala portaler), kan upphandlingsmeddelanden i unionen få unik identifiering.</entry>
+<entry key="business-term|description|BT-701">Identifierare för det europeiska meddelandet om offentlig upphandling för detta meddelande.</entry>
 <entry key="business-term|description|BT-702">Det eller de språk som detta meddelande är offentligt tillgängligt på. Dessa språkversioner har samma rättsliga giltighet.</entry>
 <entry key="business-term|description|BT-706">Nationalitet(er) för vinnarens, anbudsgivarens eller underentreprenörens verkliga huvudman som offentliggjorts i det eller de register som upprättats i enlighet med Europaparlamentets och rådets direktiv (EU) 2018/843. Om ett sådant register inte finns (t.ex. om det rör sig om entreprenörer som är etablerade utanför unionen) ska motsvarande information anges från andra källor.</entry>
 <entry key="business-term|description|BT-707">Motiveringen för att begränsa åtkomsten till vissa upphandlingsdokument.</entry>
@@ -248,7 +248,7 @@
 <entry key="business-term|description|BT-724">Elektronisk kommunikation kräver att det används verktyg och enheter som inte är allmänt tillgängliga.</entry>
 <entry key="business-term|description|BT-725">Antalet utsläppsfria tunga fordon så som de definieras i och omfattas av tillämpningsområdet för direktiv 2009/33/EG. Dessa fordon har antingen köpts in, leasats, hyrts eller hyrköpts, eller så har det slutits ett avtal om deras användning för att tillhandahålla en inköpt tjänst som omfattas av tillämpningsområdet för direktiv 2009/33/EG.</entry>
 <entry key="business-term|description|BT-726">Köparen betonar att denna upphandling också är lämplig för små och medelstora företag.</entry>
-<entry key="business-term|description|BT-727">Det finns andra begränsningar för leveransplatsen (t.ex. ”var som helst inom Europeiska ekonomiska samarbetsområdet”, ”var som helst i ett visst land”).</entry>
+<entry key="business-term|description|BT-727">Om platsen för utförande eller leverans inte är begränsad till en viss adress eller region kan den anges med ett bredare geografiskt område.</entry>
 <entry key="business-term|description|BT-728">Kompletterande information om leveransplatsen.</entry>
 <entry key="business-term|description|BT-729">Den högsta andel av kontraktets värde som entreprenören ska lägga ut på underentreprenad enligt det konkurrensförfarande som beskrivs i avdelning III i direktiv 2009/81/EG.</entry>
 <entry key="business-term|description|BT-730">Köparen känner åtminstone till det beräknade värdet av den del av kontraktet som entreprenören kommer att lägga ut på underentreprenad till tredje part.</entry>
@@ -324,7 +324,7 @@
 <entry key="business-term|description|BT-802">Kompletterande information om sekretessavtalet.</entry>
 <entry key="business-term|description|BT-803">Datum och tidpunkt då meddelandet överfördes elektroniskt via eSender till Europeiska unionens publikationsbyrå.</entry>
 <entry key="business-term|description|BT-805">Upphandlingsförfarandet omfattar eventuell tillämpning av fastställda kriterier för miljömässigt hållbar upphandling (urvalskriterier, tekniska specifikationer, tilldelningskriterier och villkor för genomförande av kontraktet) på nationell nivå, unionsnivå eller någon annan nivå.</entry>
-<entry key="business-term|description|BT-806">Källa där uteslutningsgrunderna beskrivs, t.ex. upphandlingsdokumenten, meddelandet om upphandling eller det europeiska enhetliga upphandlingsdokumentet.</entry>
+<entry key="business-term|description|BT-806">Källa där uteslutningsgrunderna beskrivs, t.ex. upphandlingsdokumenten, meddelandet om upphandling eller det europeiska enhetliga upphandlingsdokumentet begäran.</entry>
 <entry key="business-term|description|BT-809">Urvalskriteriet.</entry>
 <entry key="business-term|description|BT-810">Direktiv (EU) 2023/1791 om energieffektivitet (EED) är tillämplig på det här upphandlingsförfarandet.</entry>
 <entry key="business-term|description|BT-811">Urval av produkter, byggentreprenader och tjänster som omfattas av energimärkningsdirektivet, ekodesigndirektivet, EU:s kriterier för miljöanpassad offentlig upphandling eller förordning 2020/740. När det gäller rapportering ingår också byggnader som omfattas av skyldigheten i artikel 7 i energieffektivitetsdirektivet. Listan har två nivåer och delas därför upp i a) grunder som ”Miljömärke” och b) själva artikeln, t.ex. ”Diskmaskiner”.</entry>
@@ -332,7 +332,7 @@
 <entry key="business-term|description|BT-813">Värdet på energiförbrukningen i kWh/år för produkter som inte har någon märkning, och energibesparing i kWh/år för tjänster, byggnader eller arbeten. För produkter, vänligen rapportera produktens årliga energiförbrukning. För tjänster, arbeten och byggnader, vänligen rapportera den årliga energibesparingen.</entry>
 <entry key="business-term|description|BT-814">Värdet på energibesparingar i kWh/år för produkter, tjänster, byggentreprenader och byggnader. Ange de årliga energibesparingarna.</entry>
 <entry key="business-term|description|BT-815">Känd eller uppskattad mängd. För produkter anger du antalet produkter. För byggnader anger du den användbara golvytan i kvadratmeter. För arbeten eller tjänster kommer värdet vanligtvis att vara 1.</entry>
-<entry key="business-term|description|BT-821">Källa där urvalskriterierna definieras, t.ex. upphandlingsdokumenten, meddelandet om upphandling eller det europeiska enhetliga upphandlingsdokumentet.</entry>
+<entry key="business-term|description|BT-821">Källa där urvalskriterierna definieras, t.ex. upphandlingsdokumenten, meddelandet om upphandling eller det europeiska enhetliga upphandlingsdokumentet begäran.</entry>
 <entry key="business-term|description|BT-88">De viktigaste kännetecknen för förfarandet (t.ex. beskrivning av det enskilda steget eller de enskilda stegen) och information om var de fullständiga reglerna för förfarandet kan hittas. Denna information ska lämnas när förfarandet inte är ett av de förfaranden som anges i upphandlingsdirektiven. Detta kan vara fallet exempelvis för koncessioner, för sociala tjänster och andra särskilda tjänster och vid frivilligt offentliggörande av upphandlingsförfaranden som ligger under EU:s tröskelvärden för upphandling.</entry>
 <entry key="business-term|description|BT-92">Elektronisk beställning kommer att användas.</entry>
 <entry key="business-term|description|BT-93">Elektronisk betalning kommer att användas.</entry>
@@ -478,7 +478,7 @@
 <entry key="business-term|name|BT-163">Metod som används för att få fram det beräknade värdet för koncessionen</entry>
 <entry key="business-term|name|BT-165">Storlek på den ekonomiska aktören</entry>
 <entry key="business-term|name|BT-17">Elektronisk inlämning</entry>
-<entry key="business-term|name|BT-171">Anbudets placering i tävlingen</entry>
+<entry key="business-term|name|BT-171">Anbudets rang</entry>
 <entry key="business-term|name|BT-1711">Anbudet rangordnades</entry>
 <entry key="business-term|name|BT-18">Adress för inlämning</entry>
 <entry key="business-term|name|BT-19">Motivering till varför elektronisk inlämning inte är möjlig</entry>
@@ -537,7 +537,7 @@
 <entry key="business-term|name|BT-5131">Ort</entry>
 <entry key="business-term|name|BT-514">Land</entry>
 <entry key="business-term|name|BT-5141">Land</entry>
-<entry key="business-term|name|BT-52">Förfarandet kommer att äga rum i på varandra följande steg. I varje steg kan några deltagare komma att uteslutas</entry>
+<entry key="business-term|name|BT-52">Förfarandet kommer att äga rum i successiva steg. Efter det andra steget kan vissa deltagare elimineras i varje följande steg.</entry>
 <entry key="business-term|name|BT-53">Optioner</entry>
 <entry key="business-term|name|BT-531">Ytterligare om kontraktets art</entry>
 <entry key="business-term|name|BT-536">Startdatum</entry>
@@ -589,7 +589,7 @@
 <entry key="business-term|name|BT-687">Undantag från tillämpningen av IPI-åtgärden</entry>
 <entry key="business-term|name|BT-688">Tvingande skäl relaterade till allmänintresset</entry>
 <entry key="business-term|name|BT-70">Villkor som gäller genomförandet av kontraktet</entry>
-<entry key="business-term|name|BT-701">Identifierare/version för meddelandet</entry>
+<entry key="business-term|name|BT-701">Identifierare för meddelandet</entry>
 <entry key="business-term|name|BT-702">Språk som det här meddelandet finns officiellt tillgängligt på</entry>
 <entry key="business-term|name|BT-706">Nationalitet på verklig huvudman</entry>
 <entry key="business-term|name|BT-707">Motivering för att begränsa åtkomsten till vissa upphandlingsdokument</entry>
@@ -612,7 +612,7 @@
 <entry key="business-term|name|BT-724">Ad hoc-kommunikationskanaler</entry>
 <entry key="business-term|name|BT-725">Antal utsläppsfria tunga fordon</entry>
 <entry key="business-term|name|BT-726">Upphandlingen är också lämplig för små och medelstora företag</entry>
-<entry key="business-term|name|BT-727">Andra begränsningar för leveransplatsen</entry>
+<entry key="business-term|name|BT-727">Plats för utförande – Geografiskt område</entry>
 <entry key="business-term|name|BT-728">Kompletterande information</entry>
 <entry key="business-term|name|BT-729">Den högsta procentandel av kontraktets värde som leverantören får lägga ut på underleverantörer</entry>
 <entry key="business-term|name|BT-730">Värdet på underentreprenaden är känt</entry>
