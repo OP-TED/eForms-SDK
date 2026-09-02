@@ -5,7 +5,7 @@
       <ShortName>ChangeCorrigJustification</ShortName>
       <LongName>change-corrig-justification</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/change-corrig-justification</LongName>
-      <Version>20240925-0</Version>
+      <Version>20260318-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/change-corrig-justification</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -677,7 +677,7 @@
             <SimpleValue>Postopek je bil prekinjen zaradi pritožbe ali katerega koli drugega postopka za pregled</SimpleValue>
          </Value>
          <Value ColumnRef="swe_label">
-            <SimpleValue>Postopek je bil prekinjen zaradi pritožbe ali katerega koli drugega postopka za pregled</SimpleValue>
+            <SimpleValue>Förfarande tillfälligt upphävt på grund av ett klagomål, överklagande eller andra åtgärder för omprövning</SimpleValue>
          </Value>
       </Row>
       <Row>

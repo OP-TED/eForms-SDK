@@ -5,7 +5,7 @@
       <ShortName>Currency</ShortName>
       <LongName>currency</LongName>
       <LongName Identifier="listId">http://publications.europa.eu/resource/authority/currency</LongName>
-      <Version>20250924-0</Version>
+      <Version>20260105-0</Version>
       <CanonicalUri>http://publications.europa.eu/resource/dataset/currency</CanonicalUri>
       <CanonicalVersionUri/>
       <Agency>
@@ -438,86 +438,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Dram</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>ANG</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Netherlands Antillean guilder</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Нидерландско-антилски гулден</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Nizozemskoantilský gulden</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Antillansk gylden</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Niederländische-Antillen-Gulden</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Φιορίνι Ολλανδικών Αντιλλών</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Netherlands Antillean guilder</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Florín antillano neerlandés</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Madalmaade Antillide kulden</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Alankomaiden Antillien guldeni</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Florin des Antilles néerlandaises</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Gildear Aintillí na hÍsiltíre</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Nizozemskoantilski gulden</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Holland antillai forint</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Fiorino delle Antille olandesi</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Olandijos Antilų guldenas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Nīderlandes Antiļu guldenis</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Gild tal-Antilli tal-Pajjiżi l-Baxxi</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Nederlands-Antilliaanse gulden</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Gulden Antyli Holenderskich</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Florim das Antilhas Neerlandesas</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Gulden neerlandez antilez</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Antilský gulden</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Nizozemskoantilski gulden</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Antillergulden</SimpleValue>
          </Value>
       </Row>
       <Row>
@@ -1158,86 +1078,6 @@
          </Value>
          <Value ColumnRef="swe_label">
             <SimpleValue>Taka</SimpleValue>
-         </Value>
-      </Row>
-      <Row>
-         <Value ColumnRef="code">
-            <SimpleValue>BGN</SimpleValue>
-         </Value>
-         <Value ColumnRef="Name">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="bul_label">
-            <SimpleValue>Лев</SimpleValue>
-         </Value>
-         <Value ColumnRef="ces_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="dan_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="deu_label">
-            <SimpleValue>Lew</SimpleValue>
-         </Value>
-         <Value ColumnRef="ell_label">
-            <SimpleValue>Λεβ</SimpleValue>
-         </Value>
-         <Value ColumnRef="eng_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="spa_label">
-            <SimpleValue>Leva</SimpleValue>
-         </Value>
-         <Value ColumnRef="est_label">
-            <SimpleValue>Leev</SimpleValue>
-         </Value>
-         <Value ColumnRef="fin_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="fra_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="gle_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="hrv_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="hun_label">
-            <SimpleValue>Leva</SimpleValue>
-         </Value>
-         <Value ColumnRef="ita_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="lit_label">
-            <SimpleValue>Levas</SimpleValue>
-         </Value>
-         <Value ColumnRef="lav_label">
-            <SimpleValue>Leva</SimpleValue>
-         </Value>
-         <Value ColumnRef="mlt_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="nld_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="pol_label">
-            <SimpleValue>Lew</SimpleValue>
-         </Value>
-         <Value ColumnRef="por_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="ron_label">
-            <SimpleValue>Leva</SimpleValue>
-         </Value>
-         <Value ColumnRef="slk_label">
-            <SimpleValue>Lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="slv_label">
-            <SimpleValue>Bolgarski lev</SimpleValue>
-         </Value>
-         <Value ColumnRef="swe_label">
-            <SimpleValue>Lev</SimpleValue>
          </Value>
       </Row>
       <Row>
