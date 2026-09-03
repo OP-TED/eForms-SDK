@@ -4,6 +4,6 @@
         <assert id="R-SU4-LO0" role="ERROR" test="./normalize-space(text()) = ('32014L0025','other')">rule|text|R-SU4-LO0</assert>
     </rule>
     <rule context="/*/cac:TenderingProcess/cbc:ProcedureCode">
-        <assert id="R-BGJ-31S" role="ERROR" test="./normalize-space(text()) = ('neg-w-call','open','oth-mult','oth-single')">rule|text|R-BGJ-31S</assert>
+        <assert id="R-BGJ-31S" role="ERROR" test="./normalize-space(text()) = ('neg-w-call','open','oth-mult','oth-single','restricted')">rule|text|R-BGJ-31S</assert>
     </rule>
 </pattern>
